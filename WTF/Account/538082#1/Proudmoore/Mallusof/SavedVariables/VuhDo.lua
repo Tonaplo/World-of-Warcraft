@@ -524,7 +524,7 @@ VUHDO_CONFIG = {
 			["USE_SHADOW"] = true,
 			["FONT"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 		},
-		["isStacks"] = false,
+		["max_num"] = 3,
 		["COUNTER_TEXT"] = {
 			["X_ADJUST"] = -10,
 			["USE_MONO"] = false,
@@ -550,7 +550,13 @@ VUHDO_CONFIG = {
 		},
 		["isColor"] = false,
 		["isNoRangeFade"] = false,
-		["max_num"] = 3,
+		["isStacks"] = false,
+		["yAdjust"] = -34,
+		["version"] = 30,
+		["animate"] = true,
+		["timer"] = true,
+		["isName"] = false,
+		["xAdjust"] = -2,
 		["STORED_SETTINGS"] = {
 			["Dismantled Armor"] = {
 				["isStacks"] = false,
@@ -1675,7 +1681,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arcane Shock"] = {
+			["Penetrating Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1986,7 +1992,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Shadowed Soul"] = {
+			["184450"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2028,7 +2034,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Corruption Kick"] = {
+			["Eternal Darkness"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2070,7 +2076,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Eternal Darkness"] = {
+			["Corruption Kick"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2140,14 +2146,17 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Wind Storm"] = {
-				["isStacks"] = false,
+			["Phantasmal Wounds"] = {
 				["animate"] = true,
-				["timer"] = true,
+				["SOUND"] = "Interface\\Quiet.ogg",
 				["isColor"] = false,
+				["isStacks"] = false,
+				["isAliveTime"] = false,
+				["timer"] = true,
+				["isFullDuration"] = false,
 				["isIcon"] = true,
 			},
-			["Savage Vines"] = {
+			["Wind Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2175,7 +2184,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Expel Magic: Fire"] = {
+			["Arcane Volatility"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2189,7 +2198,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Gouge"] = {
+			["Gift of the Man'ari"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2203,7 +2212,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Storm"] = {
+			["Lightning Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2217,14 +2226,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arcane Volatility"] = {
+			["Blazing Radiance"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Blazing Radiance"] = {
+			["Charring Breath"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2301,7 +2310,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Blaze"] = {
+			["Fragile Bones"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2322,7 +2331,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fragile Bones"] = {
+			["Blaze"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2500,7 +2509,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fel Breath"] = {
+			["Decapitate"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2528,7 +2537,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Decapitate"] = {
+			["Fel Breath"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2549,7 +2558,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Exhale"] = {
+			["Touch of Doom"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2570,7 +2579,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Touch of Doom"] = {
+			["Exhale"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2675,14 +2684,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Frozen Blood"] = {
+			["Gusting Bomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Gusting Bomb"] = {
+			["Frozen Blood"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2836,14 +2845,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Charring Breath"] = {
+			["Expel Magic: Fire"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Bolt"] = {
+			["Lightning Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2857,21 +2866,18 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Gift of the Man'ari"] = {
+			["Gouge"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Phantasmal Wounds"] = {
-				["animate"] = true,
-				["SOUND"] = "Interface\\Quiet.ogg",
-				["isColor"] = false,
+			["Savage Vines"] = {
 				["isStacks"] = false,
-				["isAliveTime"] = false,
+				["animate"] = true,
 				["timer"] = true,
-				["isFullDuration"] = false,
+				["isColor"] = false,
 				["isIcon"] = true,
 			},
 			["Fel Surge"] = {
@@ -2953,7 +2959,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["184450"] = {
+			["Shadowed Soul"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3109,7 +3115,7 @@ VUHDO_CONFIG = {
 				["isFullDuration"] = false,
 				["isIcon"] = true,
 			},
-			["Penetrating Bolt"] = {
+			["Arcane Shock"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3187,12 +3193,6 @@ VUHDO_CONFIG = {
 				["isIcon"] = true,
 			},
 		},
-		["version"] = 30,
-		["animate"] = true,
-		["timer"] = true,
-		["isName"] = false,
-		["xAdjust"] = -2,
-		["yAdjust"] = -34,
 	},
 	["PARSE_COMBAT_LOG"] = true,
 	["ON_MOUSE_UP"] = false,
@@ -3211,19 +3211,19 @@ VUHDO_CONFIG = {
 	["BLIZZ_UI_HIDE_TARGET"] = 2,
 	["UPDATE_HOTS_MS"] = 250,
 	["SCAN_RANGE"] = "2",
-	["OMIT_FOCUS"] = false,
+	["IS_SHARE"] = true,
 	["HIDE_PANELS_SOLO"] = false,
 	["CURRENT_PROFILE"] = "Priest",
-	["AUTO_PROFILES"] = {
-	},
+	["EMERGENCY_TRIGGER"] = 100,
 	["SHOW_INCOMING"] = true,
-	["OMIT_SELF"] = false,
-	["IS_SHARE"] = true,
+	["SOUND_DEBUFF"] = "Sound\\Interface\\MapPing.wav",
+	["OMIT_FOCUS"] = false,
 	["HIDE_EMPTY_BUTTONS"] = false,
 	["IS_CLIQUE_PASSTHROUGH"] = false,
-	["SOUND_DEBUFF"] = "Sound\\Interface\\MapPing.wav",
+	["OMIT_SELF"] = false,
 	["SHOW_OVERHEAL"] = true,
-	["EMERGENCY_TRIGGER"] = 100,
+	["AUTO_PROFILES"] = {
+	},
 	["OMIT_PLAYER_TARGETS"] = false,
 	["MAX_EMERGENCIES"] = 5,
 	["THREAT"] = {
@@ -3254,9 +3254,9 @@ VUHDO_PANEL_SETUP = {
 			["orientation"] = "BOTTOM",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 207,
+			["height"] = 43,
 			["growth"] = "BOTTOM",
-			["width"] = 366.000030517578,
+			["width"] = 92.9999084472656,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -3267,8 +3267,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "HIGH",
 		["MODEL"] = {
-			["sort"] = 6,
-			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -3279,6 +3277,8 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
+			["sort"] = 6,
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -3352,8 +3352,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
 				["maxChars"] = 4,
 				["USE_SHADOW"] = true,
-				["textSize"] = 14,
 				["textSizeLife"] = 21,
+				["textSize"] = 14,
 			},
 		},
 		["HOTS"] = {
@@ -3366,29 +3366,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 39,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 2,
 			["sideLeftWidth"] = 50,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 1,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 50,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = false,
+			["manaBarHeight"] = 3,
+			["totSpacing"] = 3,
 			["isDamFlash"] = false,
+			["showHeaders"] = false,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 3,
+			["sideRightWidth"] = 50,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 2,
+			["showTarget"] = false,
 			["columnSpacing"] = 2,
+			["borderGapY"] = 2,
 			["barWidth"] = 89,
 			["rowSpacing"] = 2,
 		},
@@ -3513,8 +3513,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -3527,29 +3527,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 42,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 152,
 			["rowSpacing"] = 2,
 		},
@@ -3674,8 +3674,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -3688,29 +3688,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = true,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = true,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -3835,8 +3835,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -3849,29 +3849,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -3996,8 +3996,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -4010,29 +4010,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -4156,8 +4156,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -4170,29 +4170,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -4316,8 +4316,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -4330,29 +4330,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -4476,8 +4476,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -4490,29 +4490,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -4636,8 +4636,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -4650,29 +4650,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -4796,8 +4796,8 @@ VUHDO_PANEL_SETUP = {
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
 				["maxChars"] = 0,
 				["USE_SHADOW"] = false,
-				["textSize"] = 10,
 				["textSizeLife"] = 21,
+				["textSize"] = 10,
 			},
 		},
 		["HOTS"] = {
@@ -4810,29 +4810,29 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["maxColumnsWhenStructured"] = 8,
 			["barHeight"] = 28,
-			["isTarClassColText"] = true,
 			["damFlashFactor"] = 0.75,
+			["isTarClassColText"] = true,
 			["targetSpacing"] = 3,
 			["targetWidth"] = 30,
 			["ommitEmptyWhenStructured"] = true,
-			["showTarget"] = false,
+			["targetOrientation"] = 1,
 			["borderGapX"] = 5,
 			["sideLeftWidth"] = 6,
-			["totSpacing"] = 3,
+			["headerWidth"] = 100,
 			["headerSpacing"] = 5,
 			["maxRowsWhenLoose"] = 6,
-			["sideRightWidth"] = 6,
-			["headerWidth"] = 100,
-			["totWidth"] = 30,
-			["showHeaders"] = true,
+			["manaBarHeight"] = 6,
+			["totSpacing"] = 3,
 			["isDamFlash"] = true,
+			["showHeaders"] = true,
+			["totWidth"] = 30,
 			["showTot"] = false,
 			["isPlayerOnTop"] = false,
-			["manaBarHeight"] = 6,
+			["sideRightWidth"] = 6,
 			["isTarClassColBack"] = false,
-			["targetOrientation"] = 1,
-			["borderGapY"] = 5,
+			["showTarget"] = false,
 			["columnSpacing"] = 5,
+			["borderGapY"] = 5,
 			["barWidth"] = 75,
 			["rowSpacing"] = 2,
 		},
@@ -4890,15 +4890,9 @@ VUHDO_PANEL_SETUP = {
 		},
 	},
 	["HOTS"] = {
-		["COUNTER_TEXT"] = {
-			["X_ADJUST"] = -25,
-			["FONT"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
-			["USE_MONO"] = false,
-			["Y_ADJUST"] = 0,
-			["SCALE"] = 66,
-			["USE_SHADOW"] = false,
-			["ANCHOR"] = "TOPLEFT",
-			["USE_OUTLINE"] = true,
+		["BARS"] = {
+			["radioValue"] = 4,
+			["width"] = 16.5,
 		},
 		["SLOTS"] = {
 			"", -- [1]
@@ -4912,9 +4906,15 @@ VUHDO_PANEL_SETUP = {
 			"Renew", -- [9]
 			"BOUQUET_Tank Cooldowns extd", -- [10]
 		},
-		["BARS"] = {
-			["radioValue"] = 4,
-			["width"] = 16.5,
+		["COUNTER_TEXT"] = {
+			["X_ADJUST"] = -25,
+			["FONT"] = "Interface\\AddOns\\VuhDo\\Fonts\\ariblk.ttf",
+			["USE_MONO"] = false,
+			["Y_ADJUST"] = 0,
+			["SCALE"] = 66,
+			["USE_SHADOW"] = false,
+			["ANCHOR"] = "TOPLEFT",
+			["USE_OUTLINE"] = true,
 		},
 		["TIMER_TEXT"] = {
 			["X_ADJUST"] = 25,
@@ -4926,7 +4926,7 @@ VUHDO_PANEL_SETUP = {
 			["ANCHOR"] = "BOTTOMRIGHT",
 			["USE_OUTLINE"] = true,
 		},
-		["iconRadioValue"] = 1,
+		["radioValue"] = 21,
 		["SLOTCFG"] = {
 			["1"] = {
 				["scale"] = 1,
@@ -4979,7 +4979,7 @@ VUHDO_PANEL_SETUP = {
 			},
 		},
 		["stacksRadioValue"] = 2,
-		["radioValue"] = 21,
+		["iconRadioValue"] = 1,
 	},
 	["BAR_COLORS"] = {
 		["OVERHEAL_TEXT"] = {
@@ -4993,8 +4993,8 @@ VUHDO_PANEL_SETUP = {
 		["HOT7"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["G"] = 1,
 			["O"] = 0.75,
+			["G"] = 1,
 			["B"] = 1,
 		},
 		["TARGET"] = {
@@ -5018,8 +5018,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 0.6,
 			["G"] = 0.3,
-			["TR"] = 1,
 			["useOpacity"] = false,
+			["TR"] = 1,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5032,8 +5032,8 @@ VUHDO_PANEL_SETUP = {
 		["DIRECTION"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["G"] = 0.4,
 			["O"] = 1,
+			["G"] = 0.4,
 			["B"] = 0.4,
 		},
 		["EMERGENCY"] = {
@@ -5184,8 +5184,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 0.3,
 			["TB"] = 1,
 			["G"] = 1,
-			["TR"] = 0.6,
 			["useOpacity"] = false,
+			["TR"] = 0.6,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5262,8 +5262,8 @@ VUHDO_PANEL_SETUP = {
 		["HOT6"] = {
 			["useBackground"] = true,
 			["R"] = 1,
-			["G"] = 1,
 			["O"] = 0.75,
+			["G"] = 1,
 			["B"] = 1,
 		},
 		["TARGET_ENEMY"] = {
@@ -5385,8 +5385,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 1,
 			["G"] = 0.3,
-			["TR"] = 1,
 			["useOpacity"] = false,
+			["TR"] = 1,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5398,8 +5398,8 @@ VUHDO_PANEL_SETUP = {
 		["GCD_BAR"] = {
 			["useBackground"] = true,
 			["R"] = 0.4,
-			["G"] = 0.4,
 			["O"] = 0.5,
+			["G"] = 0.4,
 			["B"] = 0.4,
 		},
 		["HOT2"] = {
@@ -5408,8 +5408,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 0.6,
 			["G"] = 1,
-			["TR"] = 1,
 			["useOpacity"] = false,
+			["TR"] = 1,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5518,8 +5518,8 @@ VUHDO_PANEL_SETUP = {
 		["HOT8"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["G"] = 1,
 			["O"] = 0.75,
+			["G"] = 1,
 			["B"] = 0.0275,
 		},
 		["HOT10"] = {
@@ -5528,8 +5528,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 0.3,
 			["TB"] = 0.3,
 			["G"] = 1,
-			["TR"] = 0.6,
 			["useOpacity"] = false,
+			["TR"] = 0.6,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5542,15 +5542,15 @@ VUHDO_PANEL_SETUP = {
 			["LOW"] = {
 				["useBackground"] = true,
 				["R"] = 0,
-				["G"] = 1,
 				["O"] = 1,
+				["G"] = 1,
 				["B"] = 1,
 			},
 			["HIGH"] = {
 				["useBackground"] = true,
 				["R"] = 1,
-				["G"] = 0,
 				["O"] = 1,
+				["G"] = 0,
 				["B"] = 1,
 			},
 		},
@@ -5560,8 +5560,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 0.3,
 			["TB"] = 1,
 			["G"] = 0.3,
-			["TR"] = 0.6,
 			["useOpacity"] = false,
+			["TR"] = 0.6,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5576,8 +5576,8 @@ VUHDO_PANEL_SETUP = {
 			["R"] = 1,
 			["TB"] = 1,
 			["G"] = 1,
-			["TR"] = 1,
 			["useOpacity"] = false,
+			["TR"] = 1,
 			["isFullDuration"] = false,
 			["TO"] = 1,
 			["isClock"] = false,
@@ -5603,22 +5603,22 @@ VUHDO_PANEL_SETUP = {
 			["GOOD"] = {
 				["useBackground"] = true,
 				["R"] = 0,
-				["G"] = 0.6745,
 				["O"] = 1,
+				["G"] = 0.6745,
 				["B"] = 0,
 			},
 			["LOW"] = {
 				["useBackground"] = true,
 				["R"] = 1,
-				["G"] = 0,
 				["O"] = 1,
+				["G"] = 0,
 				["B"] = 0,
 			},
 			["FAIR"] = {
 				["useBackground"] = true,
 				["R"] = 1,
-				["G"] = 1,
 				["O"] = 1,
+				["G"] = 1,
 				["B"] = 0,
 			},
 		},
@@ -5658,10 +5658,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"2", -- [2]
 		"Mass Dispel", -- [3]
 	},
-	["shift3"] = {
-		"shift-", -- [1]
-		"3", -- [2]
-		"menu", -- [3]
+	["1"] = {
+		"", -- [1]
+		"1", -- [2]
+		"target", -- [3]
 	},
 	["alt5"] = {
 		"alt-", -- [1]
@@ -5688,15 +5688,14 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"2", -- [2]
 		"focus", -- [3]
 	},
+	["shift1"] = {
+		[2] = "1",
+		[3] = "Dispel Magic",
+	},
 	["ctrl4"] = {
 		"ctrl-", -- [1]
 		"4", -- [2]
 		"Prayer of Mending", -- [3]
-	},
-	["1"] = {
-		"", -- [1]
-		"1", -- [2]
-		"target", -- [3]
 	},
 	["alt4"] = {
 		"alt-", -- [1]
@@ -5710,6 +5709,16 @@ VUHDO_SPELL_ASSIGNMENTS = {
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
+	["1"] = {
+		"", -- [1]
+		"1", -- [2]
+		"target", -- [3]
+	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"Dispel Magic", -- [3]
+	},
 }
 VUHDO_MM_SETTINGS = {
 	["drag"] = "CIRCLE",
@@ -5827,8 +5836,8 @@ VUHDO_BUFF_SETTINGS = {
 		["PANEL_BG_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["G"] = 0,
 			["O"] = 0.5,
+			["G"] = 0,
 			["B"] = 0,
 		},
 		["SWATCH_COLOR_BUFF_LOW"] = {
@@ -5854,16 +5863,16 @@ VUHDO_BUFF_SETTINGS = {
 		["PANEL_BORDER_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["G"] = 0,
 			["O"] = 0.5,
+			["G"] = 0,
 			["B"] = 0,
 		},
 		["BAR_COLORS_BACKGROUND"] = true,
 		["SWATCH_BG_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0,
-			["G"] = 0,
 			["O"] = 1,
+			["G"] = 0,
 			["B"] = 0,
 		},
 		["WHEEL_SMART_BUFF"] = false,
@@ -5871,8 +5880,8 @@ VUHDO_BUFF_SETTINGS = {
 		["SWATCH_BORDER_COLOR"] = {
 			["useBackground"] = true,
 			["R"] = 0.8,
-			["G"] = 0.8,
 			["O"] = 0,
+			["G"] = 0.8,
 			["B"] = 0.8,
 		},
 		["REBUFF_AT_PERCENT"] = 25,
@@ -6162,9 +6171,9 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL6"] = "",
 	["SPELL13"] = "",
 	["HOSTILE_WHEEL"] = {
-		["alt1"] = {
-			"ALT-", -- [1]
-			"-w3", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
 		["altctrl2"] = {
@@ -6172,9 +6181,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6232,14 +6241,14 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
+		["alt1"] = {
+			"ALT-", -- [1]
+			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6249,57 +6258,29 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL16"] = "",
 	["INTERNAL"] = {
 		{
-			"Binding Heal", -- [1]
-			"1", -- [2]
+			"Shadow Mend", -- [1]
+			"3", -- [2]
 		}, -- [1]
 		{
-			"Renew", -- [1]
-			"SHIFT-1", -- [2]
+			"Power Word: Shield", -- [1]
+			"4", -- [2]
 		}, -- [2]
 		{
-			"Prayer of Mending", -- [1]
-			"SHIFT-2", -- [2]
+			"Power Word: Radiance", -- [1]
+			"Q", -- [2]
 		}, -- [3]
 		{
-			"Flash Heal", -- [1]
-			"3", -- [2]
+			"Pain Suppression", -- [1]
+			"SHIFT-T", -- [2]
 		}, -- [4]
-		{
-			"Heal", -- [1]
-			"SHIFT-3", -- [2]
-		}, -- [5]
-		{
-			"Body and Mind", -- [1]
-			"4", -- [2]
-		}, -- [6]
-		{
-			"Holy Word: Serenity", -- [1]
-			"F", -- [2]
-		}, -- [7]
-		{
-			"Prayer of Healing", -- [1]
-			"Q", -- [2]
-		}, -- [8]
-		{
-			"Circle of Healing", -- [1]
-			"E", -- [2]
-		}, -- [9]
 		{
 			"Leap of Faith", -- [1]
 			"T", -- [2]
-		}, -- [10]
+		}, -- [5]
 		{
-			"Guardian Spirit", -- [1]
-			"SHIFT-T", -- [2]
-		}, -- [11]
-		{
-			"Cascade", -- [1]
-			"C", -- [2]
-		}, -- [12]
-		{
-			"Circle of Healing", -- [1]
-			"SHIFT-R", -- [2]
-		}, -- [13]
+			"Plea", -- [1]
+			"F", -- [2]
+		}, -- [6]
 	},
 	["SPELL7"] = "",
 	["SPELL12"] = "",
@@ -6311,9 +6292,9 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL8"] = "",
 	["SPELL1"] = "",
 	["WHEEL"] = {
-		["alt1"] = {
-			"ALT-", -- [1]
-			"-w3", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
 		["altctrl2"] = {
@@ -6321,9 +6302,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6381,35 +6362,35 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
+		["alt1"] = {
+			"ALT-", -- [1]
+			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
 }
 VUHDO_SPELL_CONFIG = {
-	["IS_FIRE_HOT"] = false,
-	["IS_LOAD_HOTS"] = false,
 	["IS_FIRE_OUT_FIGHT"] = false,
-	["smartCastModi"] = "all",
-	["IS_CANCEL_CURRENT"] = false,
+	["IS_LOAD_HOTS"] = false,
+	["IS_FIRE_HOT"] = false,
+	["IS_TOOLTIP_INFO"] = true,
+	["IS_AUTO_TARGET"] = false,
 	["IS_AUTO_FIRE"] = true,
 	["IS_FIRE_CUSTOM_2"] = false,
-	["IS_FIRE_GLOVES"] = false,
+	["IS_FIRE_TRINKET_2"] = false,
 	["IS_FIRE_TRINKET_1"] = false,
-	["IS_AUTO_TARGET"] = false,
+	["IS_CANCEL_CURRENT"] = false,
 	["autoBattleRez"] = true,
 	["FIRE_CUSTOM_1_SPELL"] = "",
 	["FIRE_CUSTOM_2_SPELL"] = "",
-	["IS_FIRE_TRINKET_2"] = false,
+	["IS_FIRE_GLOVES"] = false,
 	["IS_FIRE_CUSTOM_1"] = false,
-	["IS_TOOLTIP_INFO"] = true,
+	["smartCastModi"] = "all",
 }
 VUHDO_BUFF_ORDER = {
 	["!"] = 7,
@@ -6422,293 +6403,31 @@ VUHDO_BUFF_ORDER = {
 }
 VUHDO_SPEC_LAYOUTS = {
 	["1"] = "Disc",
-	["selected"] = "Holy",
+	["selected"] = "Disc",
 	["2"] = "Holy",
 }
-VUHDO_GROUP_SIZE = 10
+VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
-	["raidpet2"] = {
-		["number"] = 2,
-		["zone"] = "Acherus: The Ebon Hold",
-		["isVehicle"] = false,
-		["baseRange"] = false,
-		["classId"] = 40,
-		["unit"] = "raidpet2",
-		["visible"] = false,
-		["debuff"] = 0,
-		["healthmax"] = 716592,
-		["powertype"] = 0,
-		["targetUnit"] = "raidpet2target",
-		["sortMaxHp"] = 716592,
-		["group"] = 0,
-		["dead"] = false,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["fullName"] = "Rotspew",
-		["power"] = 0,
-		["aggro"] = false,
-		["afk"] = false,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["connected"] = true,
-		["health"] = 716592,
-		["className"] = "",
-		["powermax"] = 0,
-		["ownerUnit"] = "raid2",
-		["name"] = "Rotspew",
-		["charmed"] = false,
-	},
-	["raid10"] = {
-		["zone"] = "Krasus' Landing",
-		["baseRange"] = false,
-		["class"] = "SHAMAN",
-		["role"] = 61,
-		["sortMaxHp"] = 1691400,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 150,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Krisus",
-		["number"] = 10,
-		["isVehicle"] = false,
-		["group"] = 4,
-		["classId"] = 26,
-		["unit"] = "raid10",
-		["powertype"] = 11,
-		["healthmax"] = 1691400,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Krisus-Stormscale",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid10target",
-		["health"] = 1691400,
-		["className"] = "Shaman",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet10",
-	},
-	["raid4"] = {
-		["zone"] = "The Emerald Dream",
-		["baseRange"] = false,
-		["class"] = "MONK",
-		["role"] = 61,
-		["sortMaxHp"] = 1836480,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Cøntinue",
-		["number"] = 4,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 30,
-		["unit"] = "raid4",
-		["powertype"] = 3,
-		["healthmax"] = 1836480,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Cøntinue",
-		["power"] = 100,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid4target",
-		["health"] = 1836480,
-		["className"] = "Monk",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet4",
-	},
-	["raid9"] = {
-		["zone"] = "Ash'theran",
-		["baseRange"] = false,
-		["class"] = "PALADIN",
-		["role"] = 63,
-		["sortMaxHp"] = 1952493,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 51424,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Maximusmerid",
-		["number"] = 9,
-		["isVehicle"] = false,
-		["group"] = 4,
-		["classId"] = 23,
-		["unit"] = "raid9",
-		["powertype"] = 0,
-		["healthmax"] = 1952493,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Maximusmerid-Stormrage",
-		["power"] = 51424,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid9target",
-		["health"] = 1653308,
-		["className"] = "Paladin",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet9",
-	},
-	["raid3"] = {
-		["zone"] = "Meredil",
-		["baseRange"] = false,
-		["class"] = "DEMONHUNTER",
-		["role"] = 61,
-		["sortMaxHp"] = 1716960,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Seekerr",
-		["number"] = 3,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 31,
-		["unit"] = "raid3",
-		["powertype"] = 17,
-		["healthmax"] = 1716960,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Seekerr",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid3target",
-		["health"] = 1716960,
-		["className"] = "Demon Hunter",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet3",
-	},
-	["raid2"] = {
-		["zone"] = "Acherus: The Ebon Hold",
-		["baseRange"] = false,
-		["class"] = "DEATHKNIGHT",
-		["role"] = 61,
-		["sortMaxHp"] = 1791480,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Ethicia",
-		["number"] = 2,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 29,
-		["unit"] = "raid2",
-		["powertype"] = 6,
-		["healthmax"] = 1791480,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Ethicia",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid2target",
-		["health"] = 1791480,
-		["className"] = "Death Knight",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet2",
-	},
-	["raid6"] = {
-		["zone"] = "Azurewing Repose",
-		["baseRange"] = false,
-		["class"] = "HUNTER",
-		["role"] = 62,
-		["sortMaxHp"] = 1792560,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 150,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Thundèrzz",
-		["number"] = 6,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 22,
-		["unit"] = "raid6",
-		["powertype"] = 2,
-		["healthmax"] = 1792560,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Thundèrzz",
-		["power"] = 150,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid6target",
-		["health"] = 1792560,
-		["className"] = "Hunter",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet6",
-	},
-	["raid7"] = {
-		["zone"] = "The Emerald Dream",
-		["baseRange"] = false,
-		["class"] = "MAGE",
-		["role"] = 62,
-		["sortMaxHp"] = 1698300,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 51424,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Olfino",
-		["number"] = 7,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 24,
-		["unit"] = "raid7",
-		["powertype"] = 0,
-		["healthmax"] = 1698300,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Olfino",
-		["power"] = 51424,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid7target",
-		["health"] = 1698300,
-		["className"] = "Mage",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet7",
-	},
 	["player"] = {
-		["zone"] = "Netherlight Temple",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
 		["role"] = 63,
-		["sortMaxHp"] = 1810620,
-		["map"] = "NetherlightTemple",
+		["sortMaxHp"] = 1704600,
+		["map"] = "Dalaran70",
 		["threat"] = 0,
 		["powermax"] = 1155000,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Mallusof",
-		["number"] = 8,
+		["number"] = 1,
 		["isVehicle"] = false,
-		["group"] = 3,
+		["group"] = 1,
 		["classId"] = 28,
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 1810620,
+		["healthmax"] = 1704600,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Mallusof",
@@ -6716,79 +6435,12 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 1810620,
+		["health"] = 1704600,
 		["className"] = "Priest",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["raid1"] = {
-		["zone"] = "The Emerald Dream",
-		["baseRange"] = false,
-		["class"] = "DEMONHUNTER",
-		["role"] = 60,
-		["sortMaxHp"] = 3023819,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Demonfunker",
-		["visible"] = false,
-		["targetUnit"] = "raid1target",
-		["group"] = 1,
-		["afk"] = false,
-		["unit"] = "raid1",
-		["debuff"] = 0,
-		["healthmax"] = 3023819,
-		["dead"] = false,
-		["connected"] = true,
-		["fullName"] = "Demonfunker",
-		["power"] = 0,
-		["petUnit"] = "raidpet1",
-		["number"] = 1,
-		["classId"] = 31,
-		["isVehicle"] = false,
-		["health"] = 3023819,
-		["className"] = "Demon Hunter",
-		["powertype"] = 18,
-		["raidIcon"] = 3,
-		["charmed"] = false,
-		["aggro"] = false,
-	},
-	["raid5"] = {
-		["zone"] = "The Emerald Dream",
-		["baseRange"] = false,
-		["class"] = "ROGUE",
-		["role"] = 61,
-		["sortMaxHp"] = 1756260,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 178,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Cloudsz",
-		["number"] = 5,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 21,
-		["unit"] = "raid5",
-		["powertype"] = 3,
-		["healthmax"] = 1756260,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Cloudsz",
-		["power"] = 178,
-		["aggro"] = false,
-		["visible"] = false,
-		["targetUnit"] = "raid5target",
-		["health"] = 1756260,
-		["className"] = "Rogue",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet5",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -6797,16 +6449,8 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
-		["DAMAGE_FLASH_BAR"] = "",
 		["SWIFTMEND_INDICATOR"] = "AOE Advice",
-		["INCOMING_BAR"] = "",
 		["SIDE_LEFT"] = "",
-		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
-		["MANA_BAR"] = "Manabars: All Powers",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
-		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["CLUSTER_BORDER"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -6819,6 +6463,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
+		["CLUSTER_BORDER"] = "",
+		["THREAT_MARK"] = "",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Manabars: All Powers",
+		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
+		["DAMAGE_FLASH_BAR"] = "",
+		["INCOMING_BAR"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {
@@ -6847,13 +6499,23 @@ VUHDO_INDICATOR_CONFIG = {
 			["invertGrowth"] = false,
 			["TEXTURE"] = "VuhDo - Plain White",
 		},
+		["HOT_BARS"] = {
+			["turnAxis"] = false,
+			["vertical"] = false,
+			["invertGrowth"] = false,
+		},
 		["SIDE_RIGHT"] = {
 			["turnAxis"] = false,
 			["vertical"] = false,
 			["invertGrowth"] = false,
 			["TEXTURE"] = "Aluminium",
 		},
-		["HOT_BARS"] = {
+		["BAR_BORDER"] = {
+			["FILE"] = "Interface\\AddOns\\VuhDo\\Images\\white_square_16_16",
+			["ADJUST"] = 0,
+			["WIDTH"] = 1,
+		},
+		["HEALTH_BAR"] = {
 			["turnAxis"] = false,
 			["vertical"] = false,
 			["invertGrowth"] = false,
@@ -6862,16 +6524,6 @@ VUHDO_INDICATOR_CONFIG = {
 			["turnAxis"] = false,
 			["invertGrowth"] = false,
 			["TEXTURE"] = "Blizzard Character Skills Bar",
-		},
-		["HEALTH_BAR"] = {
-			["turnAxis"] = false,
-			["vertical"] = false,
-			["invertGrowth"] = false,
-		},
-		["BAR_BORDER"] = {
-			["FILE"] = "Interface\\AddOns\\VuhDo\\Images\\white_square_16_16",
-			["ADJUST"] = 0,
-			["WIDTH"] = 1,
 		},
 		["SWIFTMEND_INDICATOR"] = {
 			["SCALE"] = 1.5,
