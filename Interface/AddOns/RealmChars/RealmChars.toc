@@ -1,0 +1,11 @@
+## Interface: 60100
+## Title: RealmChars
+## Notes: This addon shows you all your characters on your realm, what levels they are what professions they have and what level those professions are.
+## Author: Tonaplo
+## Version: 1.0.0
+## SavedVariables: RCDatabase
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+
+embeds.xml
+RC_main.lua

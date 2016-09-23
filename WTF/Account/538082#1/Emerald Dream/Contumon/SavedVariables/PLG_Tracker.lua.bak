@@ -1,0 +1,18 @@
+
+PLGT_DB = {
+	["Jewelcrafting"] = {
+		["Copper Bar"] = {
+			0, -- [1]
+			56, -- [2]
+		},
+	},
+	["Blacksmithing"] = {
+		["Rough Stone"] = {
+			5, -- [1]
+			29, -- [2]
+		},
+	},
+}
+PLG_Local = {
+	["hideTracker"] = false,
+}

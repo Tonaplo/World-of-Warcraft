@@ -1,0 +1,58 @@
+VER 3 0000000000000051 "10 sec" "INV_MISC_QUESTIONMARK"
+/pull 10
+END
+VER 3 0000000000000059 "Boost" "INV_MISC_QUESTIONMARK"
+#showtooltip 6
+/cancelaura Stampeding Roar
+/cancelaura Body and Soul
+/use 6
+END
+VER 3 000000000000003A "Focus" "INV_Misc_QuestionMark"
+/focus
+END
+VER 3 000000000000004F "Gui 1" "INV_MISC_QUESTIONMARK"
+/1 Invictus Maneo (14 /14) is a semi-hardcore raiding guild. We're currently looking for some socials to enjoy the guild atmosphere with and Great DPS (Ele Shammy/Mage) for the raid team. /w me for more. or visit invictusmaneo.enjin.com
+END
+VER 3 0000000000000053 "Gui 2" "INV_MISC_QUESTIONMARK"
+/2 Defective (14/14) is a casual raiding guild, where we raid to have fun. We're currently looking for some awesome people for the raid team, especially a tank. Socials are welcome as well! /w me for more info.
+END
+VER 3 000000000000003E "Mass Rez" "INV_MISC_QUESTIONMARK"
+#showtooltip Mass Resurrection
+/raid Casting Mass Rezz!
+/cast Mass Resurrection
+END
+VER 3 000000000000004A "oPie" "ACHIEVEMENT_GUILDPERK_HONORABLEMENTION_RANK2"
+/click ORLOpen oPie
+END
+VER 3 0000000000000050 "private recruitm" "INV_MISC_QUESTIONMARK"
+Hey there, PLAYER! Invictus Maneo is a raiding guild, looking for some nice socialsto enjoy the guild atmosphere with, level alts, do dungeons and the like. Reply if you're interested :)
+END
+VER 3 0000000000000055 "Readycheck" "INV_MISC_QUESTIONMARK"
+/readycheck
+END
+VER 3 0000000000000057 "sit" "INV_MISC_QUESTIONMARK"
+/sit
+END
+VER 3 0000000000000041 "target focustarg" "INV_MISC_QUESTIONMARK"
+/target focustarget
+END
+VER 3 0000000000000058 "trinkets" "INV_MISC_QUESTIONMARK"
+/raidbar 300 Trinkets and Shit
+END
+VER 3 0000000000000054 "TS /g" "INV_MISC_QUESTIONMARK"
+/g TS3 Details:
+/g Server IP:ts3.speedgaming.pro:10045
+/g Password:  wekillthings
+END
+VER 3 0000000000000046 "TS /r" "INV_MISC_QUESTIONMARK"
+/raid TS3 Details:
+/raid Server IP:ts3.speedgaming.pro:10045
+/raid Password:  wekillthings
+END
+VER 3 000000000000004B "UI Changers" "INV_MISC_QUESTIONMARK"
+/console cameradistancemacfactor 4
+/run UIerrorsFrame:Clear()
+END
+VER 3 000000000000004C "Weak Auras" "INV_MISC_QUESTIONMARK"
+/weakauras
+END

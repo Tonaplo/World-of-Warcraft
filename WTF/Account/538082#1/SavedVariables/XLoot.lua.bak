@@ -1,0 +1,20 @@
+
+XLootADB = {
+	["namespaces"] = {
+		["Group"] = {
+		},
+		["Frame"] = {
+		},
+		["Monitor"] = {
+		},
+		["Master"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Mallusof - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

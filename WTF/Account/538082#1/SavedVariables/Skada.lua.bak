@@ -1,0 +1,31 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["hasUpgraded"] = true,
+	["profileKeys"] = {
+		["Praerend - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["icon"] = {
+				["minimapPos"] = 191.402519299887,
+			},
+			["windows"] = {
+				{
+					["y"] = -131.987384796143,
+					["scale"] = 1.5,
+					["mode"] = "Damage",
+					["point"] = "LEFT",
+					["x"] = 8.9998254776001,
+					["barwidth"] = 181.999740600586,
+					["background"] = {
+						["height"] = 135.333374023438,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

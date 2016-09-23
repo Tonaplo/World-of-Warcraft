@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r80 | funkydude | 2015-05-13 12:37:24 +0000 (Wed, 13 May 2015) | 1 line
+Changed paths:
+   A /tags/r80-release (from /trunk:79)
+
+Tagging as r80-release
+------------------------------------------------------------------------
+r79 | funkydude | 2015-05-08 14:31:12 +0000 (Fri, 08 May 2015) | 1 line
+Changed paths:
+   M /trunk/DragonSoul/DeathwingSpine.lua
+
+DeathwingSpine: error fix.
+------------------------------------------------------------------------
+r78 | funkydude | 2015-03-14 14:25:36 +0000 (Sat, 14 Mar 2015) | 1 line
+Changed paths:
+   M /trunk/Throne/Conclave.lua
+
+Throne/Conclave: Fix error on engage.
+------------------------------------------------------------------------

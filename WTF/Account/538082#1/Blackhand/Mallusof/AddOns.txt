@@ -1,0 +1,8 @@
+XLoot_Options: enabled
+Quartz: enabled
+VuhDo: enabled
+VuhDoOptions: enabled
+PLG_Tracker: enabled
+Recount: enabled
+OmniCC_Config: disabled
+OmniCC: disabled

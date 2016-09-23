@@ -1,0 +1,9 @@
+## Interface: 60200
+## Title: Logging
+## Notes: Checks to see if you're logging when you enter a raid instance.
+## Version: 1.1.2
+## SavedVariablesPerCharacter: logInstances
+
+logging.lua
+logging.xml
+

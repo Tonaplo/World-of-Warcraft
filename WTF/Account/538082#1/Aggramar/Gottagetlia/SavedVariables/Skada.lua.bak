@@ -1,0 +1,268 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 481,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "SHAMAN",
+				["damaged"] = {
+				},
+				["auras"] = {
+				},
+				["role"] = "NONE",
+				["time"] = 7,
+				["interrupts"] = 0,
+				["power"] = {
+				},
+				["damage"] = 481,
+				["damagespells"] = {
+					["Lightning Bolt"] = {
+						["min"] = 39,
+						["critical"] = 2,
+						["hit"] = 8,
+						["totalhits"] = 10,
+						["id"] = 403,
+						["max"] = 84,
+						["damage"] = 481,
+					},
+				},
+				["maxhp"] = 560,
+				["damagetaken"] = 7,
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 560,
+						["ts"] = 1459573190.25,
+						["spellid"] = 59913,
+						["srcname"] = "Gottagetlia",
+					}, -- [1]
+					{
+						["ts"] = 1459573351.431,
+						["amount"] = -2,
+						["hp"] = 558,
+						["spellid"] = 81655,
+						["srcname"] = "Bristleback Gun Thief",
+					}, -- [2]
+					{
+						["absorb"] = 0,
+						["amount"] = 2,
+						["hp"] = 560,
+						["ts"] = 1459573352.139,
+						["spellid"] = 59913,
+						["srcname"] = "Gottagetlia",
+					}, -- [3]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 560,
+						["ts"] = 1459573359.609,
+						["spellid"] = 59913,
+						["srcname"] = "Gottagetlia",
+					}, -- [4]
+					{
+						["ts"] = 1459573360.248,
+						["amount"] = -2,
+						["hp"] = 558,
+						["spellid"] = 81655,
+						["srcname"] = "Bristleback Gun Thief",
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 560,
+						["ts"] = 1459573368.228,
+						["spellid"] = 59913,
+						["srcname"] = "Gottagetlia",
+					}, -- [6]
+					{
+						["ts"] = 1459573377.197,
+						["amount"] = -1,
+						["hp"] = 614,
+						["spellid"] = 81655,
+						["srcname"] = "Bristleback Gun Thief",
+					}, -- [7]
+					{
+						["absorb"] = 0,
+						["amount"] = 1,
+						["hp"] = 615,
+						["ts"] = 1459573378.044,
+						["spellid"] = 59913,
+						["srcname"] = "Gottagetlia",
+					}, -- [8]
+					{
+						["ts"] = 1459573384.322,
+						["amount"] = -2,
+						["hp"] = 613,
+						["spellid"] = 81655,
+						["srcname"] = "Bristleback Gun Thief",
+					}, -- [9]
+					{
+						["absorb"] = 0,
+						["amount"] = 2,
+						["hp"] = 615,
+						["ts"] = 1459573384.889,
+						["spellid"] = 59913,
+						["srcname"] = "Gottagetlia",
+					}, -- [10]
+					["pos"] = 11,
+				},
+				["id"] = "Player-106-08813912",
+				["overhealing"] = 70,
+				["damagetakenspells"] = {
+					["Shoot"] = {
+						["crushing"] = 0,
+						["id"] = 81655,
+						["min"] = 1,
+						["absorbed"] = 0,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Shoot",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 2,
+						["damage"] = 7,
+					},
+				},
+				["healingspells"] = {
+					["Swift Hand of Justice"] = {
+						["shielding"] = 0,
+						["id"] = 59913,
+						["healing"] = 5,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Swift Hand of Justice",
+						["max"] = 2,
+						["critical"] = 0,
+						["absorbed"] = 0,
+						["overhealing"] = 70,
+						["hits"] = 6,
+					},
+				},
+				["shielding"] = 0,
+				["name"] = "Gottagetlia",
+				["healing"] = 5,
+				["healed"] = {
+					["Player-106-08813912"] = {
+						["role"] = "NONE",
+						["name"] = "Gottagetlia",
+						["amount"] = 5,
+						["class"] = "SHAMAN",
+						["shielding"] = 0,
+					},
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Bristleback Gun Thief"] = {
+				["players"] = {
+					["Gottagetlia"] = {
+						["taken"] = 364,
+						["done"] = 7,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 364,
+				["done"] = 7,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Bristleback Invader"] = {
+				["players"] = {
+					["Gottagetlia"] = {
+						["taken"] = 39,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 39,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Oregamoo-Area52"] = {
+				["players"] = {
+				},
+				["hdone"] = 2,
+				["htakenspell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2,
+						["healing"] = 2,
+						["overhealing"] = 21,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 2,
+				["hdonespell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2,
+						["healing"] = 2,
+						["overhealing"] = 21,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Bristleback Thorncaller"] = {
+				["players"] = {
+					["Gottagetlia"] = {
+						["taken"] = 78,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 78,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 481,
+		["healing"] = 5,
+		["power"] = {
+		},
+		["multistrikes"] = 0,
+		["overhealing"] = 70,
+		["shielding"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1459573189,
+		["damagetaken"] = 7,
+		["mobhdone"] = 2,
+		["last_action"] = 1459573189,
+		["mobdone"] = 7,
+	},
+	["sets"] = {
+	},
+}

@@ -1,0 +1,23 @@
+
+FollowerLocationInfoDataDB = {
+	["Locale"] = "enUS",
+	["questNames"] = {
+		[33263] = "Gloomshade Grove",
+		[36702] = "Meatball",
+		[33271] = "Game of Thorns",
+		[34820] = "Lost Lumberjacks",
+		[35625] = "Shelly Hamby",
+	},
+	["npcTitles"] = {
+	},
+	["objectNames"] = {
+	},
+	["npcNames"] = {
+		[76748] = "Shelly Hamby",
+		[86272] = "Meatball",
+		[79966] = "Lost Packmule",
+		[73877] = "Jarrod Hamby",
+		[80163] = "Ken Loggin",
+	},
+}
+FollowerLocationInfoDataCollectorDB = nil

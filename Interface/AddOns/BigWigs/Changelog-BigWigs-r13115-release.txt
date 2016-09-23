@@ -1,0 +1,566 @@
+------------------------------------------------------------------------
+r13115 | funkydude | 2015-05-06 05:21:51 +0000 (Wed, 06 May 2015) | 1 line
+Changed paths:
+   A /tags/r13115-release (from /trunk:13114)
+
+Tagging as r13115-release
+------------------------------------------------------------------------
+r13114 | funkydude | 2015-05-06 05:09:21 +0000 (Wed, 06 May 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   A /trunk/HellfireCitadel/Archimonde.lua
+   M /trunk/HellfireCitadel/Kormrok.lua
+   A /trunk/HellfireCitadel/Xhulhorac.lua
+   M /trunk/HellfireCitadel/modules.xml
+
+Add Xhul'horac beta module.
+------------------------------------------------------------------------
+r13113 | funkydude | 2015-05-04 22:28:15 +0000 (Mon, 04 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Kagraz.lua
+
+Kagraz: Filter non-tanks from charring breath targets, cleanup the wolf death code.
+------------------------------------------------------------------------
+r13112 | funkydude | 2015-05-04 15:27:38 +0000 (Mon, 04 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: Remove the custom explosion bar option and merge it into the shard option.
+------------------------------------------------------------------------
+r13111 | funkydude | 2015-05-04 00:49:56 +0000 (Mon, 04 May 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add a callback for encounter end passing the module that registered it.
+------------------------------------------------------------------------
+r13110 | funkydude | 2015-05-04 00:19:58 +0000 (Mon, 04 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: Remove the melee-only explosive shard cooldown bar. It varies too much and is mainly after-cast reactionary anyway.
+------------------------------------------------------------------------
+r13109 | funkydude | 2015-05-03 22:50:35 +0000 (Sun, 03 May 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: tweaks.
+------------------------------------------------------------------------
+r13108 | funkydude | 2015-05-03 22:12:06 +0000 (Sun, 03 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: Tweak some cooldown timers.
+------------------------------------------------------------------------
+r13107 | funkydude | 2015-05-03 17:44:07 +0000 (Sun, 03 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Kagraz.lua
+
+Kagraz: Remove stack restriction on breath.
+------------------------------------------------------------------------
+r13106 | funkydude | 2015-05-03 17:43:15 +0000 (Sun, 03 May 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+   M /trunk/HellfireCitadel/Socrethar.lua
+
+Council: Change the necromancer mark into a cast warning, tweaks from LFR.
+------------------------------------------------------------------------
+r13105 | nebula169 | 2015-05-02 22:14:55 +0000 (Sat, 02 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: switch Call the Pack to SPELL_CAST_SUCCESS
+------------------------------------------------------------------------
+r13104 | nebula169 | 2015-05-02 22:11:48 +0000 (Sat, 02 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Kagraz.lua
+
+Kagraz: add Charring Breath bar
+------------------------------------------------------------------------
+r13103 | nebula169 | 2015-05-02 22:02:10 +0000 (Sat, 02 May 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Thogar.lua
+
+Thogar: fix Enkindle cd
+------------------------------------------------------------------------
+r13102 | nebula169 | 2015-05-02 11:31:50 +0000 (Sat, 02 May 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: add checking glyphs for dispel capability
+------------------------------------------------------------------------
+r13101 | funkydude | 2015-04-30 22:52:26 +0000 (Thu, 30 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Socrethar.lua
+
+Socrethar: Various fixes.
+------------------------------------------------------------------------
+r13100 | funkydude | 2015-04-30 21:16:25 +0000 (Thu, 30 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/HellfireAssault.lua
+
+HellfireAssault: Comment out Felfire Volley and Inspiring Presence. I have a feeling most of the add related stuff will be useless.
+------------------------------------------------------------------------
+r13098 | funkydude | 2015-04-30 16:16:59 +0000 (Thu, 30 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/BossPrototype.lua
+
+bump version
+------------------------------------------------------------------------
+r13097 | funkydude | 2015-04-30 16:08:29 +0000 (Thu, 30 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/HellfireAssault.lua
+   M /trunk/HellfireCitadel/Socrethar.lua
+
+Add Hellfire Assault & Socrethar beta modules.
+------------------------------------------------------------------------
+r13096 | funkydude | 2015-04-30 09:00:01 +0000 (Thu, 30 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/TheBlastFurnace.lua
+
+TheBlastFurnace: Fix a bug preventing the elementalist earth shield warning from showing.
+------------------------------------------------------------------------
+r13095 | funkydude | 2015-04-30 00:25:22 +0000 (Thu, 30 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Add phase warnings, remove icon from gaze, fix fel hellfire and felseeker ids.
+------------------------------------------------------------------------
+r13094 | funkydude | 2015-04-29 22:13:32 +0000 (Wed, 29 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: tank only the doom spike
+------------------------------------------------------------------------
+r13093 | funkydude | 2015-04-29 21:59:37 +0000 (Wed, 29 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Fix enable id.
+------------------------------------------------------------------------
+r13092 | funkydude | 2015-04-29 21:46:33 +0000 (Wed, 29 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: Various fixes.
+------------------------------------------------------------------------
+r13090 | funkydude | 2015-04-29 14:46:16 +0000 (Wed, 29 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/Core.lua
+
+Core: tweak.
+------------------------------------------------------------------------
+r13089 | funkydude | 2015-04-29 14:44:14 +0000 (Wed, 29 Apr 2015) | 1 line
+Changed paths:
+   A /trunk/HellfireCitadel/Council.lua
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+   A /trunk/HellfireCitadel/HellfireAssault.lua
+   M /trunk/HellfireCitadel/Kormrok.lua
+   A /trunk/HellfireCitadel/Mannoroth.lua
+   A /trunk/HellfireCitadel/Socrethar.lua
+   M /trunk/HellfireCitadel/modules.xml
+
+Add Hellfire High Council & Mannoroth beta modules.
+------------------------------------------------------------------------
+r13088 | funkydude | 2015-04-27 19:08:48 +0000 (Mon, 27 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/TheIronMaidens.lua
+
+TheIronMaidens: Count barrier casts.
+------------------------------------------------------------------------
+r13087 | funkydude | 2015-04-24 23:12:37 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+
+FelLordZakuun: Fix crystal damage id.
+------------------------------------------------------------------------
+r13086 | funkydude | 2015-04-24 22:23:46 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+
+FelLordZakuun: Fix mob id and Rumbling Fissure.
+------------------------------------------------------------------------
+r13085 | funkydude | 2015-04-24 21:38:17 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/TyrantVelhari.lua
+
+TyrantVelhari: Dynamic proximity for edict.
+------------------------------------------------------------------------
+r13084 | funkydude | 2015-04-24 21:03:14 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/TyrantVelhari.lua
+
+TyrantVelhari: Annihilating Strike target.
+------------------------------------------------------------------------
+r13083 | funkydude | 2015-04-24 20:39:46 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/TyrantVelhari.lua
+
+TyrantVelhari: Fix error
+------------------------------------------------------------------------
+r13081 | funkydude | 2015-04-24 12:46:38 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+   M /trunk/HellfireCitadel/ShadowLordIskar.lua
+   M /trunk/HellfireCitadel/TyrantVelhari.lua
+   M /trunk/HellfireCitadel/modules.xml
+
+Beta modules for Tyrant Velhari and Fel Lord Zakuun.
+------------------------------------------------------------------------
+r13080 | funkydude | 2015-04-24 03:25:13 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Remove prior additional debug now that the DB issue is resolved.
+------------------------------------------------------------------------
+r13079 | funkydude | 2015-04-24 03:11:13 +0000 (Fri, 24 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: Fix a rare issue causing DB errors for some users. Most notably on Tarlna or in-instance bosses after reloading UI.
+------------------------------------------------------------------------
+r13078 | funkydude | 2015-04-23 23:01:50 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/ShadowLordIskar.lua
+
+ShadowLordIskar: Add Fel Chakram.
+------------------------------------------------------------------------
+r13077 | funkydude | 2015-04-23 21:31:06 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Kormrok.lua
+
+Kormrok: Proximity for pound.
+------------------------------------------------------------------------
+r13075 | funkydude | 2015-04-23 17:07:45 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r13074 | funkydude | 2015-04-23 17:01:25 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Draenor/BigWigs_Draenor.toc
+   A /trunk/Draenor/Kazzak.lua
+   M /trunk/Draenor/modules.xml
+   M /trunk/HellfireCitadel/Gorefiend.lua
+   M /trunk/HellfireCitadel/KilroggDeadeye.lua
+   M /trunk/HellfireCitadel/Kormrok.lua
+   M /trunk/HellfireCitadel/ShadowLordIskar.lua
+   M /trunk/HellfireCitadel/modules.xml
+
+Add Iskar, Kormrok and Kazzak beta modules.
+------------------------------------------------------------------------
+r13073 | funkydude | 2015-04-23 15:25:57 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: tweak debug further
+------------------------------------------------------------------------
+r13072 | funkydude | 2015-04-23 15:25:16 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: Remove tank/healer from acid torrent.
+------------------------------------------------------------------------
+r13071 | funkydude | 2015-04-23 13:02:08 +0000 (Thu, 23 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add some temp debug.
+------------------------------------------------------------------------
+r13070 | funkydude | 2015-04-22 23:06:49 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Gorefiend.lua
+
+Gorefiend: Fix Hunger for Life and Doom Well.
+------------------------------------------------------------------------
+r13069 | funkydude | 2015-04-22 22:29:18 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Gorefiend.lua
+
+Gorefiend: Fix shout error.
+------------------------------------------------------------------------
+r13068 | funkydude | 2015-04-22 22:26:26 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Gorefiend.lua
+
+Gorefiend: Fix enable id, throttle shadow of death.
+------------------------------------------------------------------------
+r13067 | funkydude | 2015-04-22 22:02:28 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+bump DBM faker
+------------------------------------------------------------------------
+r13066 | funkydude | 2015-04-22 21:55:12 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/KilroggDeadeye.lua
+
+KilroggDeadeye: Rudimentary spawn announce, filter vision abilities, filter boss from heartseeker.
+------------------------------------------------------------------------
+r13064 | funkydude | 2015-04-22 15:37:33 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   A /trunk/HellfireCitadel/FelLordZakuun.lua
+   A /trunk/HellfireCitadel/Gorefiend.lua
+   A /trunk/HellfireCitadel/KilroggDeadeye.lua
+   A /trunk/HellfireCitadel/Kormrok.lua
+   A /trunk/HellfireCitadel/ShadowLordIskar.lua
+   A /trunk/HellfireCitadel/TyrantVelhari.lua
+   M /trunk/HellfireCitadel/modules.xml
+   M /trunk/Plugins/Bars.lua
+
+Add beta modules for Gorefiend & Kilrogg Deadeye.
+------------------------------------------------------------------------
+r13063 | funkydude | 2015-04-22 11:06:32 +0000 (Wed, 22 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/HansgarAndFranzok.lua
+
+HansgarAndFranzok: comments
+------------------------------------------------------------------------
+r13062 | funkydude | 2015-04-21 00:44:20 +0000 (Tue, 21 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/BlackrockFoundry/Kromog.lua
+   M /trunk/Highmaul/TheButcher.lua
+   M /trunk/Loader.lua
+
+Bump version, tweaks.
+------------------------------------------------------------------------
+r13061 | funkydude | 2015-04-20 13:02:16 +0000 (Mon, 20 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Revert earlier addition of :CancelBerserk.
+------------------------------------------------------------------------
+r13060 | funkydude | 2015-04-19 22:36:55 +0000 (Sun, 19 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Core: Fix error when changing profile.
+------------------------------------------------------------------------
+r13059 | funkydude | 2015-04-19 21:39:56 +0000 (Sun, 19 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Gruul.lua
+
+Gruul: Base the slice bar off the boss power instead of counting targets hit.
+------------------------------------------------------------------------
+r13058 | funkydude | 2015-04-19 13:48:59 +0000 (Sun, 19 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Fix regression when trying to register for "*" in boss modules (entirely broken), from r11763, which was improvements to error messages for invalid :Log args.
+------------------------------------------------------------------------
+r13057 | funkydude | 2015-04-17 22:53:41 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+
+IronReaver: Various cleanups.
+------------------------------------------------------------------------
+r13056 | funkydude | 2015-04-17 22:20:07 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+
+IronReaver: Add Blitz, Full Charge & fix proximity.
+------------------------------------------------------------------------
+r13055 | funkydude | 2015-04-17 22:02:16 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+
+Add proximity for ranged, fix artillery.
+------------------------------------------------------------------------
+r13054 | funkydude | 2015-04-17 21:32:42 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+
+IronReaver: Various fixes.
+------------------------------------------------------------------------
+r13052 | funkydude | 2015-04-17 16:55:13 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: Tweak
+------------------------------------------------------------------------
+r13051 | funkydude | 2015-04-17 13:51:40 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+   M /trunk/Loader.lua
+
+Add LK ids.
+------------------------------------------------------------------------
+r13050 | nebula169 | 2015-04-17 13:19:41 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/HansgarAndFranzok.lua
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: move roll and ore count to Rolling Fury, remove Hunger Drive
+------------------------------------------------------------------------
+r13049 | funkydude | 2015-04-17 01:02:25 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+   M /trunk/Loader.lua
+
+Fix loading on the live client.
+------------------------------------------------------------------------
+r13048 | funkydude | 2015-04-17 00:49:25 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Plugins/BossBlock.lua
+
+BossBlock: Never block emotes on test builds.
+------------------------------------------------------------------------
+r13047 | funkydude | 2015-04-17 00:25:23 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/BigWigs_HellfireCitadel.toc
+   M /trunk/HellfireCitadel/IronReaver.lua
+
+IronReaver: Map & journal ids.
+------------------------------------------------------------------------
+r13046 | funkydude | 2015-04-17 00:13:39 +0000 (Fri, 17 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   A /trunk/HellfireCitadel
+   A /trunk/HellfireCitadel/BigWigs_HellfireCitadel.toc
+   A /trunk/HellfireCitadel/IronReaver.lua
+   A /trunk/HellfireCitadel/Locales
+   A /trunk/HellfireCitadel/Locales/deDE.lua
+   A /trunk/HellfireCitadel/Locales/esES.lua
+   A /trunk/HellfireCitadel/Locales/frFR.lua
+   A /trunk/HellfireCitadel/Locales/itIT.lua
+   A /trunk/HellfireCitadel/Locales/koKR.lua
+   A /trunk/HellfireCitadel/Locales/ptBR.lua
+   A /trunk/HellfireCitadel/Locales/ruRU.lua
+   A /trunk/HellfireCitadel/Locales/zhCN.lua
+   A /trunk/HellfireCitadel/Locales/zhTW.lua
+   A /trunk/HellfireCitadel/locales.xml
+   A /trunk/HellfireCitadel/modules.xml
+   M /trunk/modules.xml
+
+HellfireCitadel/IronReaver: Import beta module.
+------------------------------------------------------------------------
+r13045 | funkydude | 2015-04-16 15:08:27 +0000 (Thu, 16 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+Add BC ids
+------------------------------------------------------------------------
+r13044 | funkydude | 2015-04-15 18:32:30 +0000 (Wed, 15 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+   M /trunk/Locales/enUS.lua
+
+State if a player is offline in the version check.
+------------------------------------------------------------------------
+r13042 | funkydude | 2015-04-14 22:55:56 +0000 (Tue, 14 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+bump DBM faker
+------------------------------------------------------------------------
+r13041 | nebula169 | 2015-04-14 12:49:27 +0000 (Tue, 14 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: handle hunter pets stealing boss unit tokens
+------------------------------------------------------------------------
+r13040 | nebula169 | 2015-04-14 12:31:15 +0000 (Tue, 14 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/HansgarAndFranzok.lua
+
+HansgarAndFranzok: add a message for when Smart Stampers are done
+------------------------------------------------------------------------
+r13039 | funkydude | 2015-04-13 20:11:44 +0000 (Mon, 13 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: and merge the whole commit.
+------------------------------------------------------------------------
+r13038 | funkydude | 2015-04-13 20:09:42 +0000 (Mon, 13 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Oregorger.lua
+
+Oregorger: Count collisions.
+------------------------------------------------------------------------
+r13037 | funkydude | 2015-04-13 12:19:10 +0000 (Mon, 13 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Loader.lua
+
+Loader: Add AQ to zonelist.
+------------------------------------------------------------------------
+r13036 | funkydude | 2015-04-11 21:12:59 +0000 (Sat, 11 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Add :CancelBerserk(seconds).
+------------------------------------------------------------------------
+r13035 | funkydude | 2015-04-11 13:48:20 +0000 (Sat, 11 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: Properly return when there's no breath target.
+------------------------------------------------------------------------
+r13034 | funkydude | 2015-04-10 21:12:00 +0000 (Fri, 10 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Don't call :Win for custom modules when using encounter ids.
+------------------------------------------------------------------------
+r13032 | funkydude | 2015-04-08 21:52:44 +0000 (Wed, 08 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/TheBlastFurnace.lua
+
+TheBlastFurnace: Tweak double fire debuff check.
+------------------------------------------------------------------------
+r13031 | funkydude | 2015-04-08 21:31:45 +0000 (Wed, 08 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: Fix false breath warnings during Faultline.
+------------------------------------------------------------------------
+r13030 | MysticalOS | 2015-04-08 05:10:42 +0000 (Wed, 08 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/TheBlastFurnace.lua
+
+Fix a bug where proximity would close early for players affected by two volatile fire debuffs that aren’t expiring at same time.
+------------------------------------------------------------------------
+r13028 | funkydude | 2015-04-06 20:42:38 +0000 (Mon, 06 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: Always play the breath sound.
+------------------------------------------------------------------------
+r13027 | funkydude | 2015-04-06 15:33:48 +0000 (Mon, 06 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Options/Options.lua
+
+Options: tweak
+------------------------------------------------------------------------
+r13026 | funkydude | 2015-04-06 15:19:02 +0000 (Mon, 06 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+
+Darmac: minor tweak
+------------------------------------------------------------------------
+r13025 | funkydude | 2015-04-06 15:17:05 +0000 (Mon, 06 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/Options/Options.lua
+
+Options: Remove some options code which was really only for the CommonAuras plugin, which has now changed.
+------------------------------------------------------------------------
+r13024 | funkydude | 2015-04-05 16:47:52 +0000 (Sun, 05 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Darmac.lua
+   M /trunk/Loader.lua
+
+Darmac: Add mounts to enable ids, add breath target to breath message.
+------------------------------------------------------------------------
+r13023 | funkydude | 2015-04-04 15:37:51 +0000 (Sat, 04 Apr 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/HansgarAndFranzok.lua
+
+HansgarAndFranzok: Remove flash from body slam, add flash for suplex cast.
+------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+VER 3 0100000000000005 "LoHself" "INV_MISC_QUESTIONMARK"
+/target Granjior
+/use Lay on Hands
+END
+VER 3 0100000000000001 "Milling" "INV_MISC_QUESTIONMARK"
+#showtooltip milling
+/cast Milling
+/use Snow Lily
+END
+VER 3 0100000000000004 "Pally Cooldowns" "INV_MISC_QUESTIONMARK"
+/use Avenging Wrath
+/use Holy Avenger
+END
+VER 3 0100000000000002 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000003 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gra[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

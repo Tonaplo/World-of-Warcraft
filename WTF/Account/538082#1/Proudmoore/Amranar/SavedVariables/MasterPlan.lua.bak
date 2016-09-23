@@ -1,0 +1,7 @@
+
+MasterPlanPC = {
+	["complete"] = {
+	},
+	["version"] = "0.65.1",
+	["goldCollected"] = 300000,
+}

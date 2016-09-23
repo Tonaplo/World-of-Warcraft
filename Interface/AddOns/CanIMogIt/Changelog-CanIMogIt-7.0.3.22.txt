@@ -1,0 +1,37 @@
+tag 7.0.3.22
+43fc476455fef897194177fca0f63b3e505c4ec5
+Salvatore Lopiparo <toreltwiddler@gmail.com>
+2016-08-27 14:36:48 -0700
+
+Ticket #1: Fixed items that share AppearanceID across Armor Types.
+Ticket #33: Added Slash commands!
+Ticket #53: Added overlay to main bank, guild bank, mailbox, loot popups, merchants, adventure journal (dungeon and raids) and void storage.
+Tickets #61, 62, 63, 71: Fixed localization issues.
+
+
+--------------------
+
+Salvatore Lopiparo:
+	- Fixed missing embed and Curse .pkgmeta file.
+	- Fixed Localization issue with "Cannot learn" having a space after it.
+	- Updated readme.
+	- Reorganized localization files, renamed core file.
+	- Moved constants to their own file.
+	- Now uses Ace3 for Addon and Console.
+	- Forgot the embeds.xml file itself.
+	- Added AceLib embeds, added console commands (/cimi and /canimogit).
+	- Mailbox should be working again. Fixed Unknown Items Only option.
+	- Removed overlay from mail until bug is fixed.
+	- Improved logic for detecting known appearances with different subclasses.
+	- Disabled Auction House overlay, until we can fix it.
+	- Sped up logic for text comparisons.
+	- Fixed bug in CheckOptionEnabled for item overlay.
+	- Added localization of toc Notes.
+	- Added ptBR to the toc.
+	- Added overlay to void storage.
+	- Added overlay to guild bank.
+	- Added overlay to Adventure Journal.
+	- Added overlay to auction house.
+	- Added overlay to merchants.
+	- Added overlay for mail.
+	- Added overlay to main bank and loot popups.

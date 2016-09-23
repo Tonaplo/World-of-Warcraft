@@ -1,0 +1,19 @@
+tag 1.5.0
+d9d98e676576793aee4cc7143511cfad2a3e5f56
+Kyle Buller <bullerk@gmail.com>
+2016-07-31 19:48:11 -0500
+
+Tagging as 1.5.0
+
+
+--------------------
+
+Kyle Buller:
+	- Bump the TOC for 7.0
+	- Tweaks
+	- Tear down our config frame to unregister events
+	- SetTexture -> SetColorTexture
+	- Use SetUserPlaced and remove UIParent_ManageFramePositions hooks
+	UIParent checks PlayerPowerBarAlt:IsUserPlaced() before adjusting
+	it's position now.
+	- Remove cvar handling and show the text ourself

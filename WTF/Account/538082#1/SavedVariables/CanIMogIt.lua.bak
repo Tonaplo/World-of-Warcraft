@@ -1,0 +1,7 @@
+
+CanIMogItOptions = {
+	["showTransmoggableOnly"] = false,
+	["showEquippableOnly"] = true,
+	["version"] = "1.2",
+	["debug"] = false,
+}

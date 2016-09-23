@@ -1,0 +1,15 @@
+Version: 1
+Frame: Recount_MainWindow
+FrameLevel: 25
+Anchor: BOTTOMRIGHT
+X: -305
+Y: 114
+W: 140
+H: 200
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 420

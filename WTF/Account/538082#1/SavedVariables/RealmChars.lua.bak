@@ -1,0 +1,19 @@
+
+RCDatabase = {
+	["profileKeys"] = {
+		["Contumon - Emerald Dream"] = "Contumon - Emerald Dream",
+	},
+	["realm"] = {
+		["Emerald Dream"] = {
+			{
+				["name"] = "Contumon",
+				["secondProfLevel"] = 2,
+				["firstProf"] = "Blacksmithing",
+				["level"] = 16,
+				["firstProfLevel"] = 1,
+				["secondProf"] = "Jewelcrafting",
+			}, -- [1]
+			["characterStored"] = 1,
+		},
+	},
+}

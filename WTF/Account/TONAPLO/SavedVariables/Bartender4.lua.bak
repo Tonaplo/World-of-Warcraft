@@ -1,0 +1,204 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001220703125,
+								["point"] = "BOTTOM",
+								["y"] = 81.43603515625,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "BOTTOM",
+								["y"] = 41.99998474121094,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+								["y"] = 0.499969482421875,
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+								["y"] = 38.5,
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+								["y"] = 76.5,
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+								["y"] = 114.5,
+							},
+						}, -- [10]
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 262.7401123046875,
+						["point"] = "BOTTOM",
+						["y"] = 59.0000114440918,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -343.033203125,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 1,
+						["y"] = 40.50000381469727,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.5,
+						["point"] = "CENTER",
+						["y"] = 47.5,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["version"] = 3,
+					["onebag"] = true,
+					["position"] = {
+						["x"] = -36.0001220703125,
+						["point"] = "BOTTOMRIGHT",
+						["y"] = 36,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+						["y"] = -14.99997711181641,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Navraj - Ragnaros"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Navraj - Ragnaros"] = "Navraj - Ragnaros",
+	},
+	["profiles"] = {
+		["Navraj - Ragnaros"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

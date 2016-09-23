@@ -1,0 +1,63 @@
+VER 3 000000000000001A "DPSFrameMacro" "SPELL_SHADOW_SHADOWWORDPAIN"
+/run ((LibStub("AceAddon-3.0"):GetAddon("Quartz3")).db):SetProfile("DPS")
+/run RunScript(GetMacroBody("SetFramesDPS"))
+END
+VER 3 0000000000000006 "focus" "INV_MISC_QUESTIONMARK"
+/focus
+END
+VER 3 0000000000000014 "GET MONEY!" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
+/run BuyMerchantItem(27) 
+END
+VER 3 000000000000001D "getpos" "INV_MISC_QUESTIONMARK"
+/script px,py=GetPlayerMapPosition("player")
+/script DEFAULT_CHAT_FRAME:AddMessage(format("( %s ) %i,%i",GetZoneText(),px *100,py *100));
+END
+VER 3 0000000000000016 "Have we met" "INV_MISC_QUESTIONMARK"
+/cleartarget
+/tar Linken
+/tar Nat Pagle
+/tar Mankrik
+/tar Hemet
+/tar Chromie
+/tar Thassarian
+/stopmacro [noexists]
+/wave
+END
+VER 3 000000000000001B "HealerMacroFrame" "SPELL_HOLY_GUARDIANSPIRIT"
+/run ((LibStub("AceAddon-3.0"):GetAddon("Quartz3")).db):SetProfile("Healer")
+/run RunScript(GetMacroBody("SetFramesHealer"))
+END
+VER 3 000000000000001C "Kosumoth Progres" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
+/run local a={43730,43731,43732,43733,43734,43735,43736,43737,43760,43761}for i,q in ipairs(a)do print(format("Orb %s: %s",i, IsQuestFlaggedCompleted(q) and "\124cFF00FF00Done\124r" or "\124cFFFF0000Not Done\124r")) end
+END
+VER 3 0000000000000017 "LFG" "INV_MISC_QUESTIONMARK"
+/2 Experienced 9/13 Mythic Disc/Holy Priest looking for weekday raiding guild. 7+ PM PST start time.
+END
+VER 3 0000000000000008 "Quarz" "INV_MISC_NOTE_05"
+/quartz
+END
+VER 3 0000000000000003 "Rchars" "INV_MISC_QUESTIONMARK"
+/rchars
+END
+VER 3 0000000000000002 "reload ui" "INV_MISC_QUESTIONMARK"
+/reload ui
+END
+VER 3 0000000000000019 "SetFramesDPS" "SPELL_SHADOW_SHADOWWORDPAIN"
+PlayerFrame:ClearAllPoints() 
+PlayerFrame:SetPoint("CENTER",-300,0)
+PlayerFrame:SetUserPlaced(true)
+TargetFrame:ClearAllPoints() 
+TargetFrame:SetPoint("CENTER",300,0)
+TargetFrame:SetUserPlaced(true)
+END
+VER 3 0000000000000018 "SetFramesHealer" "SPELL_HOLY_GUARDIANSPIRIT"
+PlayerFrame:ClearAllPoints() 
+PlayerFrame:SetPoint("CENTER",-400,-318)
+PlayerFrame:SetUserPlaced(true)
+TargetFrame:ClearAllPoints() 
+TargetFrame:SetPoint("CENTER",400,-318)
+TargetFrame:SetUserPlaced(true)
+END
+VER 3 0000000000000004 "WeakAuras" "INV_MISC_NOTE_05"
+/wa
+END

@@ -1,0 +1,20 @@
+
+XLootADB = {
+	["namespaces"] = {
+		["Group"] = {
+		},
+		["Frame"] = {
+		},
+		["Monitor"] = {
+		},
+		["Master"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Mallusof - Magtheridon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

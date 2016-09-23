@@ -1,0 +1,557 @@
+------------------------------------------------------------------------
+r13679 | funkydude | 2015-09-08 10:54:08 +0000 (Tue, 08 Sep 2015) | 1 line
+Changed paths:
+   A /tags/r13679-release (from /trunk:13678)
+
+Tagging as r13679-release
+------------------------------------------------------------------------
+r13678 | funkydude | 2015-09-08 10:50:36 +0000 (Tue, 08 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r13677 | funkydude | 2015-09-07 21:52:25 +0000 (Mon, 07 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Kormrok.lua
+
+Kormrok: Add residue warnings, fix respawn time, fix mythic shadow leap timer.
+------------------------------------------------------------------------
+r13676 | nebula169 | 2015-09-04 05:35:14 +0000 (Fri, 04 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/ShadowLordIskar.lua
+
+ShadowLordIskar: ignore Shadow Riposte from DKs
+------------------------------------------------------------------------
+r13674 | funkydude | 2015-08-31 20:58:46 +0000 (Mon, 31 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r13673 | funkydude | 2015-08-30 19:21:26 +0000 (Sun, 30 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/IronReaver.lua
+
+IronReaver: Add say countdown for Artillery, tweak proximity functionality.
+------------------------------------------------------------------------
+r13672 | funkydude | 2015-08-30 19:15:12 +0000 (Sun, 30 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: Trim a second off the first leap.
+------------------------------------------------------------------------
+r13671 | funkydude | 2015-08-29 00:25:21 +0000 (Sat, 29 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: minor tweak
+------------------------------------------------------------------------
+r13670 | funkydude | 2015-08-29 00:14:02 +0000 (Sat, 29 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Fix chaos timers showing up in mythic p3, fix infernal total count being off sometimes, fix mark counter not showing in the message.
+------------------------------------------------------------------------
+r13668 | funkydude | 2015-08-28 12:07:20 +0000 (Fri, 28 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+   M /trunk/Plugins/BossBlock.lua
+
+bump DBM version
+------------------------------------------------------------------------
+r13667 | Ironi88 | 2015-08-27 18:51:00 +0000 (Thu, 27 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth.lua: tweak P3 initial timers and imp & infernal timers outside mythic mode
+------------------------------------------------------------------------
+r13666 | funkydude | 2015-08-25 21:37:49 +0000 (Tue, 25 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+bump DBM version
+------------------------------------------------------------------------
+r13665 | Ironi88 | 2015-08-25 21:26:51 +0000 (Tue, 25 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde.lua: tweak shadowfel burst timer for mythic
+------------------------------------------------------------------------
+r13664 | funkydude | 2015-08-25 10:49:19 +0000 (Tue, 25 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Loader.lua
+
+Loader: add a nil check during DB setup.
+------------------------------------------------------------------------
+r13662 | funkydude | 2015-08-24 20:56:26 +0000 (Mon, 24 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Make infernal marker work on non-mythic.
+------------------------------------------------------------------------
+r13661 | funkydude | 2015-08-24 16:33:28 +0000 (Mon, 24 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Add off-by-default infernal marker, tweak infernal counting.
+------------------------------------------------------------------------
+r13660 | funkydude | 2015-08-24 16:05:03 +0000 (Mon, 24 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Plugins/Messages.lua
+
+Messages: Fix a regression with emphasized messages and inline textures
+------------------------------------------------------------------------
+r13659 | funkydude | 2015-08-23 18:51:54 +0000 (Sun, 23 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/Core.lua
+   M /trunk/Loader.lua
+
+tweaks
+------------------------------------------------------------------------
+r13658 | funkydude | 2015-08-23 14:28:56 +0000 (Sun, 23 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+Loader: Add a callback for skinning the queue timer bar.
+------------------------------------------------------------------------
+r13657 | funkydude | 2015-08-23 11:57:58 +0000 (Sun, 23 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+   M /trunk/HellfireCitadel/Socrethar.lua
+
+Tweak math
+------------------------------------------------------------------------
+r13656 | Ironi88 | 2015-08-23 08:13:00 +0000 (Sun, 23 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde.lua: Show infernal counts on Rain of Chaos bar (mythic P3)
+------------------------------------------------------------------------
+r13655 | elvador | 2015-08-22 22:15:16 +0000 (Sat, 22 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Count Dark Conduits and Mark of the Legions
+------------------------------------------------------------------------
+r13653 | funkydude | 2015-08-22 14:46:32 +0000 (Sat, 22 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Fix wrong spell printing in Mark of the Legion say (bad copy paste).
+------------------------------------------------------------------------
+r13652 | funkydude | 2015-08-22 14:23:05 +0000 (Sat, 22 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Core/Locales/common.enUS.lua
+   M /trunk/Loader.lua
+   M /trunk/Locales/enUS.lua
+
+Stop using escape codes instead of pipes "|" as it doesn't seem to be an issue, if it ever was.
+------------------------------------------------------------------------
+r13651 | funkydude | 2015-08-22 13:59:13 +0000 (Sat, 22 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Further increase gaze delay.
+------------------------------------------------------------------------
+r13650 | funkydude | 2015-08-22 13:56:15 +0000 (Sat, 22 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Plugins/Messages.lua
+
+Messages: Fix emphasized messages with raid icons
+------------------------------------------------------------------------
+r13648 | funkydude | 2015-08-21 22:39:44 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Xhulhorac.lua
+
+Xhulhorac: Tweak chains timer
+------------------------------------------------------------------------
+r13647 | funkydude | 2015-08-21 18:50:50 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Use strings since wowace packager sucks.
+------------------------------------------------------------------------
+r13646 | funkydude | 2015-08-21 18:33:26 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r13645 | funkydude | 2015-08-21 17:59:18 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Remove stray commas
+------------------------------------------------------------------------
+r13644 | funkydude | 2015-08-21 17:39:15 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Blackhand.lua
+   M /trunk/BlackrockFoundry/Darmac.lua
+   M /trunk/BlackrockFoundry/Gruul.lua
+   M /trunk/BlackrockFoundry/Kagraz.lua
+   M /trunk/BlackrockFoundry/Kromog.lua
+   M /trunk/BlackrockFoundry/Oregorger.lua
+   M /trunk/BlackrockFoundry/TheBlastFurnace.lua
+   M /trunk/BlackrockFoundry/TheIronMaidens.lua
+   M /trunk/BlackrockFoundry/Thogar.lua
+   M /trunk/BlackrockFoundry/Trash.lua
+   M /trunk/Draenor/Kazzak.lua
+   M /trunk/HellfireCitadel/Archimonde.lua
+   M /trunk/HellfireCitadel/Gorefiend.lua
+   M /trunk/HellfireCitadel/HellfireAssault.lua
+   M /trunk/HellfireCitadel/KilroggDeadeye.lua
+   M /trunk/HellfireCitadel/Mannoroth.lua
+   M /trunk/HellfireCitadel/ShadowLordIskar.lua
+   M /trunk/HellfireCitadel/Socrethar.lua
+   M /trunk/HellfireCitadel/Trash.lua
+   M /trunk/HellfireCitadel/TyrantVelhari.lua
+   M /trunk/HellfireCitadel/Xhulhorac.lua
+   M /trunk/Highmaul/Brackenspore.lua
+   M /trunk/Highmaul/KargathBladefist.lua
+   M /trunk/Highmaul/Koragh.lua
+   M /trunk/Highmaul/Margok.lua
+   M /trunk/Highmaul/Tectus.lua
+   M /trunk/Highmaul/TheButcher.lua
+   M /trunk/Highmaul/Trash.lua
+   M /trunk/Highmaul/TwinOgron.lua
+
+Remove pointless GetLocale calls
+------------------------------------------------------------------------
+r13643 | funkydude | 2015-08-21 13:53:45 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Locales/deDE.lua
+   M /trunk/BlackrockFoundry/Locales/esES.lua
+   M /trunk/BlackrockFoundry/Locales/frFR.lua
+   M /trunk/BlackrockFoundry/Locales/itIT.lua
+   M /trunk/BlackrockFoundry/Locales/koKR.lua
+   M /trunk/BlackrockFoundry/Locales/ptBR.lua
+   M /trunk/BlackrockFoundry/Locales/ruRU.lua
+   M /trunk/BlackrockFoundry/Locales/zhCN.lua
+   M /trunk/BlackrockFoundry/Locales/zhTW.lua
+   M /trunk/Draenor/Kazzak.lua
+   M /trunk/Draenor/Locales/deDE.lua
+   M /trunk/Draenor/Locales/esES.lua
+   M /trunk/Draenor/Locales/frFR.lua
+   M /trunk/Draenor/Locales/itIT.lua
+   M /trunk/Draenor/Locales/koKR.lua
+   M /trunk/Draenor/Locales/ptBR.lua
+   M /trunk/Draenor/Locales/ruRU.lua
+   M /trunk/Draenor/Locales/zhCN.lua
+   M /trunk/Draenor/Locales/zhTW.lua
+   M /trunk/Draenor/Rukhmar.lua
+   M /trunk/HellfireCitadel/Locales/deDE.lua
+   M /trunk/HellfireCitadel/Locales/esES.lua
+   M /trunk/HellfireCitadel/Locales/frFR.lua
+   M /trunk/HellfireCitadel/Locales/itIT.lua
+   M /trunk/HellfireCitadel/Locales/koKR.lua
+   M /trunk/HellfireCitadel/Locales/ptBR.lua
+   M /trunk/HellfireCitadel/Locales/ruRU.lua
+   M /trunk/HellfireCitadel/Locales/zhCN.lua
+   M /trunk/HellfireCitadel/Locales/zhTW.lua
+   M /trunk/Highmaul/Locales/deDE.lua
+   M /trunk/Highmaul/Locales/esES.lua
+   M /trunk/Highmaul/Locales/frFR.lua
+   M /trunk/Highmaul/Locales/itIT.lua
+   M /trunk/Highmaul/Locales/koKR.lua
+   M /trunk/Highmaul/Locales/ptBR.lua
+   M /trunk/Highmaul/Locales/ruRU.lua
+   M /trunk/Highmaul/Locales/zhCN.lua
+   M /trunk/Highmaul/Locales/zhTW.lua
+
+Kazzak: Add Fel Breath timer.
+------------------------------------------------------------------------
+r13642 | funkydude | 2015-08-21 13:48:08 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Core/Core.lua
+
+Fix frequently enabling world bosses
+------------------------------------------------------------------------
+r13641 | funkydude | 2015-08-21 08:49:09 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Socrethar.lua
+
+Socrethar: Check :Interrupter for the shadow bolt message.
+------------------------------------------------------------------------
+r13640 | nebula169 | 2015-08-21 06:59:09 +0000 (Fri, 21 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: add Wrought Chaos over message for people with Shackled Torment in non-mythic, don't start an Overfiend bar if p3
+------------------------------------------------------------------------
+r13639 | funkydude | 2015-08-20 17:45:04 +0000 (Thu, 20 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Fix player list wiping.
+------------------------------------------------------------------------
+r13638 | funkydude | 2015-08-20 17:18:38 +0000 (Thu, 20 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Count the torments.
+------------------------------------------------------------------------
+r13637 | funkydude | 2015-08-20 13:52:31 +0000 (Thu, 20 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+BossPrototype: Allow passing false as a key.
+------------------------------------------------------------------------
+r13636 | funkydude | 2015-08-20 12:50:43 +0000 (Thu, 20 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Add marker options for Doom & Wrath.
+------------------------------------------------------------------------
+r13635 | funkydude | 2015-08-19 21:53:33 +0000 (Wed, 19 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Remove chaos over message for non-mythic, add Touch of Shadows interrupt warning.
+------------------------------------------------------------------------
+r13633 | funkydude | 2015-08-18 21:15:38 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Loader.lua
+
+bump DBM version
+------------------------------------------------------------------------
+r13632 | funkydude | 2015-08-18 21:14:12 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Fix Burst target proximity.
+------------------------------------------------------------------------
+r13631 | nebula169 | 2015-08-18 19:39:46 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: remove Wrought Chaos say spam in mythic
+------------------------------------------------------------------------
+r13630 | nebula169 | 2015-08-18 14:53:14 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Wrought Chaos: fix mythic bar time, add "over" message and cd for non-mythic
+------------------------------------------------------------------------
+r13628 | funkydude | 2015-08-18 10:50:02 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+
+FelLordZakuun: Use the unit name for proximity instead of the unit.
+------------------------------------------------------------------------
+r13627 | funkydude | 2015-08-18 10:10:06 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+
+FelLordZakuun: Use basic seed warnings for LFR.
+------------------------------------------------------------------------
+r13626 | funkydude | 2015-08-18 09:58:54 +0000 (Tue, 18 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Wrought Chaos code cleanups.
+------------------------------------------------------------------------
+r13625 | Ironi88 | 2015-08-17 21:46:42 +0000 (Mon, 17 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde.lua: fixed 6th seething corruption timer
+------------------------------------------------------------------------
+r13624 | funkydude | 2015-08-17 21:25:15 +0000 (Mon, 17 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Fix mark proximity.
+------------------------------------------------------------------------
+r13623 | funkydude | 2015-08-17 17:08:04 +0000 (Mon, 17 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Xhulhorac.lua
+
+Xhulhorac: Improve Chains of Fel handling.
+------------------------------------------------------------------------
+r13622 | elvador | 2015-08-16 20:05:08 +0000 (Sun, 16 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Fix non mythic chaos count, minor changes
+------------------------------------------------------------------------
+r13621 | elvador | 2015-08-16 17:39:14 +0000 (Sun, 16 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Improve Chaos helper, change Chaos bars, add Chaos CD for mythic, Add sound for Torments on mythic
+------------------------------------------------------------------------
+r13620 | elvador | 2015-08-16 14:57:21 +0000 (Sun, 16 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Add chaos helper (says and message for your position)
+------------------------------------------------------------------------
+r13619 | avi90 | 2015-08-16 12:56:14 +0000 (Sun, 16 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: Fel Rage timers changed again
+------------------------------------------------------------------------
+r13618 | funkydude | 2015-08-15 16:38:23 +0000 (Sat, 15 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+   M /trunk/Highmaul/TheButcher.lua
+
+Highmaul/TheButcher: Backport tank proximity.
+------------------------------------------------------------------------
+r13616 | funkydude | 2015-08-14 07:45:08 +0000 (Fri, 14 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+
+bump version
+------------------------------------------------------------------------
+r13615 | avi90 | 2015-08-12 16:11:16 +0000 (Wed, 12 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: bugfix
+------------------------------------------------------------------------
+r13614 | avi90 | 2015-08-12 15:29:04 +0000 (Wed, 12 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: do throttle the same way everybody else is doing it
+------------------------------------------------------------------------
+r13613 | avi90 | 2015-08-12 15:19:24 +0000 (Wed, 12 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: on second thought, TargetMessage for Mark of the Necromancer isn't that good of an idea..
+------------------------------------------------------------------------
+r13612 | avi90 | 2015-08-12 14:43:54 +0000 (Wed, 12 Aug 2015) | 4 lines
+Changed paths:
+   M /trunk/HellfireCitadel/Council.lua
+
+Council: adjustments for 11.8 hotfix: 
+- Mark of the Necromancer has no cast event anymore
+- adjusted Mark of the Necromancer and Reap timers
+- Fel Rage timers more consistent now
+------------------------------------------------------------------------
+r13610 | funkydude | 2015-08-12 08:48:20 +0000 (Wed, 12 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/HellfireCitadel/Trash.lua
+
+Trash: Fix double bomb warning
+------------------------------------------------------------------------
+r13609 | elvador | 2015-08-11 21:28:19 +0000 (Tue, 11 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Bugfix
+------------------------------------------------------------------------
+r13607 | funkydude | 2015-08-11 16:16:34 +0000 (Tue, 11 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Trash.lua
+
+Trash: Add Phantasmal Fel Bomb.
+------------------------------------------------------------------------
+r13606 | nebula169 | 2015-08-11 15:41:40 +0000 (Tue, 11 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: tweak proximity opening
+------------------------------------------------------------------------
+r13605 | elvador | 2015-08-11 15:02:46 +0000 (Tue, 11 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Add proximity for Wrath of Gul'dan and Mark of Doom, add Overflowing Fel Energy warning, add Gripping Shadows say
+------------------------------------------------------------------------
+r13604 | elvador | 2015-08-11 14:51:27 +0000 (Tue, 11 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/TheBlastFurnace.lua
+
+TheBlastFurnace: Cleanup
+------------------------------------------------------------------------
+r13603 | funkydude | 2015-08-11 12:49:56 +0000 (Tue, 11 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Fix mark proximity being left open.
+------------------------------------------------------------------------
+r13601 | funkydude | 2015-08-10 22:25:30 +0000 (Mon, 10 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BigWigs.toc
+   M /trunk/Loader.lua
+
+bump DBM version
+------------------------------------------------------------------------
+r13600 | funkydude | 2015-08-10 21:08:51 +0000 (Mon, 10 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: fix a bad option id.
+------------------------------------------------------------------------
+r13599 | funkydude | 2015-08-09 22:56:26 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+
+Archimonde: Make Shadowfel Burst proximity compatible with multiple targets.
+------------------------------------------------------------------------
+r13598 | funkydude | 2015-08-09 22:45:35 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Tweak
+------------------------------------------------------------------------
+r13597 | funkydude | 2015-08-09 22:41:04 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Archimonde.lua
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+
+Fix L > CL reference.
+------------------------------------------------------------------------
+r13596 | funkydude | 2015-08-09 22:37:06 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/BlackrockFoundry/Kagraz.lua
+   M /trunk/Core/Locales/common.enUS.lua
+   M /trunk/HellfireCitadel/Archimonde.lua
+   M /trunk/HellfireCitadel/FelLordZakuun.lua
+
+Archimonde: Remove sound from cast alure warning, add _REFRESH to Light of the Naaru trigger, add say countdown for tank banish, add say/icon/proximity/etc for Mark of the Legion.
+------------------------------------------------------------------------
+r13595 | elvador | 2015-08-09 21:47:24 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/Mannoroth.lua
+
+Mannoroth: Add Mark of Doom cd
+------------------------------------------------------------------------
+r13594 | funkydude | 2015-08-09 13:25:28 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/HellfireAssault.lua
+
+HellfireAssault: Remove cannon from enable ids.
+------------------------------------------------------------------------
+r13593 | funkydude | 2015-08-09 11:47:53 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/KilroggDeadeye.lua
+
+KilroggDeadeye: Add Blood Splatter pool warning
+------------------------------------------------------------------------
+r13592 | funkydude | 2015-08-09 11:07:43 +0000 (Sun, 09 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/Draenor/Rukhmar.lua
+
+Rukhmar: tweaks
+------------------------------------------------------------------------
+r13591 | elvador | 2015-08-06 15:20:39 +0000 (Thu, 06 Aug 2015) | 1 line
+Changed paths:
+   M /trunk/HellfireCitadel/HellfireAssault.lua
+
+HellfireAssault: Fix heroic/mythic timers
+------------------------------------------------------------------------

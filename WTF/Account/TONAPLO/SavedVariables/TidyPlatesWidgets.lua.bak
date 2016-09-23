@@ -1,0 +1,15 @@
+
+TidyPlatesWidgetData = {
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+		["Binza"] = "MAGE",
+		["Dutchdruidic"] = "DRUID",
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Binza"] = "The Machine",
+		["Dutchdruidic"] = "The Outlawz",
+	},
+}

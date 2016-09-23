@@ -1,0 +1,12 @@
+
+PLGT_DB = {
+	["Leatherworking"] = {
+		["Ruined Leather Scraps"] = {
+			0, -- [1]
+			57, -- [2]
+		},
+	},
+}
+PLG_Local = {
+	["hideTracker"] = false,
+}

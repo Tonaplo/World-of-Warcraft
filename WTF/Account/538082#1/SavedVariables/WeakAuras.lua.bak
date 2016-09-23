@@ -1,0 +1,106 @@
+
+WeakAurasSaved = {
+	["displays"] = {
+	},
+	["registered"] = {
+	},
+	["talent_cache"] = {
+		["HUNTER"] = {
+		},
+		["WARRIOR"] = {
+		},
+		["ROGUE"] = {
+		},
+		["MAGE"] = {
+		},
+		["PRIEST"] = {
+			{
+				["name"] = "Void Tendrils",
+				["icon"] = "Interface\\Icons\\spell_priest_voidtendrils",
+			}, -- [1]
+			{
+				["name"] = "Psyfiend",
+				["icon"] = "Interface\\Icons\\spell_priest_psyfiend",
+			}, -- [2]
+			{
+				["name"] = "Dominate Mind",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+			}, -- [3]
+			{
+				["name"] = "Body and Soul",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SymbolOfHope",
+			}, -- [4]
+			{
+				["name"] = "Angelic Feather",
+				["icon"] = "Interface\\Icons\\ability_priest_angelicfeather",
+			}, -- [5]
+			{
+				["name"] = "Phantasm",
+				["icon"] = "Interface\\Icons\\ability_priest_phantasm",
+			}, -- [6]
+			{
+				["name"] = "From Darkness, Comes Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
+			}, -- [7]
+			{
+				["name"] = "Mindbender",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+			}, -- [8]
+			{
+				["name"] = "Solace and Insanity",
+				["icon"] = "Interface\\Icons\\ability_priest_flashoflight",
+			}, -- [9]
+			{
+				["name"] = "Desperate Prayer",
+				["icon"] = "Interface\\Icons\\Spell_Holy_TestOfFaith",
+			}, -- [10]
+			{
+				["name"] = "Spectral Guise",
+				["icon"] = "Interface\\Icons\\spell_priest_spectralguise",
+			}, -- [11]
+			{
+				["name"] = "Angelic Bulwark",
+				["icon"] = "Interface\\Icons\\ability_priest_angelicbulwark",
+			}, -- [12]
+			{
+				["name"] = "Twist of Fate",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_MindTwisting",
+			}, -- [13]
+			{
+				["name"] = "Power Infusion",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
+			}, -- [14]
+			{
+				["name"] = "Divine Insight",
+				["icon"] = "Interface\\Icons\\spell_priest_burningwill",
+			}, -- [15]
+			{
+				["name"] = "Cascade",
+				["icon"] = "Interface\\Icons\\ability_priest_cascade",
+			}, -- [16]
+			{
+				["name"] = "Divine Star",
+				["icon"] = "Interface\\Icons\\spell_priest_divinestar",
+			}, -- [17]
+			{
+				["name"] = "Halo",
+				["icon"] = "Interface\\Icons\\ability_priest_halo",
+			}, -- [18]
+		},
+		["WARLOCK"] = {
+		},
+		["PALADIN"] = {
+		},
+		["DEATHKNIGHT"] = {
+		},
+		["DRUID"] = {
+		},
+		["MONK"] = {
+		},
+		["SHAMAN"] = {
+		},
+	},
+	["tempIconCache"] = {
+	},
+	["login_squelch_time"] = 10,
+}

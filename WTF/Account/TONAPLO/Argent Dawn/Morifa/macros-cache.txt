@@ -1,0 +1,17 @@
+VER 3 0100000000000002 "Cooldowns!" "INV_MISC_QUESTIONMARK"
+#showtooltip Mirror Image
+/use Mirror Image
+/use 14
+/use 15
+END
+VER 3 0100000000000001 "PoM Pyro" "INV_MISC_QUESTIONMARK"
+#showtooltip Presence of Mind
+/use Presence of Mind
+/use Pyroblast
+END
+VER 3 0100000000000003 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000004 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mor[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

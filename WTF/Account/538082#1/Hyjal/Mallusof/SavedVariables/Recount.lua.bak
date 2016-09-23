@@ -1,0 +1,465 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Mallusof"] = {
+			["GUID"] = "0x0380000006F9DFE2",
+			["LastEventHealth"] = {
+				"103 (100%)", -- [1]
+				"103 (100%)", -- [2]
+				"103 (100%)", -- [3]
+				"103 (100%)", -- [4]
+				"103 (100%)", -- [5]
+				"103 (100%)", -- [6]
+				"103 (100%)", -- [7]
+				"103 (100%)", -- [8]
+				"103 (100%)", -- [9]
+				"103 (100%)", -- [10]
+				"103 (100%)", -- [11]
+				"103 (100%)", -- [12]
+				"103 (100%)", -- [13]
+				"103 (100%)", -- [14]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					664, -- [1]
+				},
+				["TimeDamage"] = {
+					29.16, -- [1]
+				},
+				["ActiveTime"] = {
+					29.16, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Mallusof",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["TimeLast"] = {
+				["Damage"] = 1404716735,
+				["OVERALL"] = 1404716735,
+				["TimeDamage"] = 1404716735,
+				["ActiveTime"] = 1404716735,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 1150258.005,
+			["NextEventNum"] = 15,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+			},
+			["LastEvents"] = {
+				"Mallusof Smite Tiki Target Hit -45 (Holy)", -- [1]
+				"Mallusof Smite Tiki Target Hit -42 (Holy)", -- [2]
+				"Mallusof Smite Tiki Target Hit -43 (Holy)", -- [3]
+				"Mallusof Smite Tiki Target Hit -45 (Holy)", -- [4]
+				"Mallusof Smite Tiki Target Hit -45 (Holy)", -- [5]
+				"Mallusof Smite Tiki Target Hit -42 (Holy)", -- [6]
+				"Mallusof Smite Tiki Target Hit -46 (Holy)", -- [7]
+				"Mallusof Smite Tiki Target Hit -44 (Holy)", -- [8]
+				"Mallusof Smite Tiki Target Hit -44 (Holy)", -- [9]
+				"Mallusof Smite Tiki Target Hit -44 (Holy)", -- [10]
+				"Mallusof Smite Tiki Target Hit -46 (Holy)", -- [11]
+				"Mallusof Smite Tiki Target Crit -91 (Holy)", -- [12]
+				"Mallusof Smite Tiki Target Hit -46 (Holy)", -- [13]
+				"Mallusof Smite Tiki Target Hit -41 (Holy)", -- [14]
+			},
+			["Name"] = "Mallusof",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+			},
+			["LastEventTimes"] = {
+				1150232.35, -- [1]
+				1150233.994, -- [2]
+				1150235.529, -- [3]
+				1150238.794, -- [4]
+				1150239.925, -- [5]
+				1150242.82, -- [6]
+				1150244.358, -- [7]
+				1150245.964, -- [8]
+				1150249.167, -- [9]
+				1150251.208, -- [10]
+				1150252.38, -- [11]
+				1150253.997, -- [12]
+				1150256.006, -- [13]
+				1150258.005, -- [14]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["TimeSpent"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 29.16,
+								},
+							},
+							["amount"] = 29.16,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 664,
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["DamagedWho"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 664,
+								},
+							},
+							["amount"] = 664,
+						},
+					},
+					["TimeDamage"] = 29.16,
+					["TimeDamaging"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 29.16,
+								},
+							},
+							["amount"] = 29.16,
+						},
+					},
+					["Attacks"] = {
+						["Smite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 91,
+									["min"] = 91,
+									["count"] = 1,
+									["amount"] = 91,
+								},
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 41,
+									["count"] = 13,
+									["amount"] = 573,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 664,
+						},
+					},
+					["ActiveTime"] = 29.16,
+					["Damage"] = 664,
+				},
+				["LastFightData"] = {
+					["TimeSpent"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 29.16,
+								},
+							},
+							["amount"] = 29.16,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 664,
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["DamagedWho"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 664,
+								},
+							},
+							["amount"] = 664,
+						},
+					},
+					["TimeDamage"] = 29.16,
+					["TimeDamaging"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 29.16,
+								},
+							},
+							["amount"] = 29.16,
+						},
+					},
+					["Attacks"] = {
+						["Smite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 91,
+									["min"] = 91,
+									["count"] = 1,
+									["amount"] = 91,
+								},
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 41,
+									["count"] = 13,
+									["amount"] = 573,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 664,
+						},
+					},
+					["ActiveTime"] = 29.16,
+					["Damage"] = 664,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 29.16,
+								},
+							},
+							["amount"] = 29.16,
+						},
+					},
+					["ElementDone"] = {
+						["Holy"] = 664,
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["DamagedWho"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 664,
+								},
+							},
+							["amount"] = 664,
+						},
+					},
+					["TimeDamage"] = 29.16,
+					["TimeDamaging"] = {
+						["Tiki Target"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 29.16,
+								},
+							},
+							["amount"] = 29.16,
+						},
+					},
+					["Attacks"] = {
+						["Smite"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 91,
+									["min"] = 91,
+									["count"] = 1,
+									["amount"] = 91,
+								},
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 41,
+									["count"] = 13,
+									["amount"] = 573,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 664,
+						},
+					},
+					["ActiveTime"] = 29.16,
+					["Damage"] = 664,
+				},
+			},
+			["UnitLockout"] = 1404716709,
+			["LastActive"] = 1404716735,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			1404716709, -- [1]
+			1404716742, -- [2]
+			"09:05:10", -- [3]
+			"09:05:42", -- [4]
+			"Tiki Target", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Tiki Target 09:05:10-09:05:42", -- [1]
+	},
+}

@@ -1,0 +1,52 @@
+------------------------------------------------------------------------
+r106 | oscarucb | 2016-08-15 11:19:05 +0000 (Mon, 15 Aug 2016) | 1 line
+Changed paths:
+   A /tags/1.6.2 (from /trunk:105)
+
+Tagging as 1.6.2
+------------------------------------------------------------------------
+r105 | oscarucb | 2016-08-15 11:16:34 +0000 (Mon, 15 Aug 2016) | 4 lines
+Changed paths:
+   M /trunk/arh.lua
+   M /trunk/bindings.xml
+
+fix back button keybind and command
+
+also fix some broken sound files (sounds can be disabled via the main window config)
+
+------------------------------------------------------------------------
+r103 | oscarucb | 2016-08-14 15:13:49 +0000 (Sun, 14 Aug 2016) | 2 lines
+Changed paths:
+   M /trunk/bindings.xml
+
+move keybinds to addon category
+
+------------------------------------------------------------------------
+r100 | oscarucb | 2016-07-22 11:20:14 +0000 (Fri, 22 Jul 2016) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+
+update pkgmeta
+
+------------------------------------------------------------------------
+r99 | oscarucb | 2016-07-22 11:17:53 +0000 (Fri, 22 Jul 2016) | 4 lines
+Changed paths:
+   M /trunk
+   M /trunk/arh.lua
+   M /trunk/arh.toc
+   M /trunk/embeds.xml
+
+remove the last dependence on LibMapData-1.0
+
+Arh now does all its own map calculation
+
+------------------------------------------------------------------------
+r96 | oscarucb | 2016-07-20 07:09:00 +0000 (Wed, 20 Jul 2016) | 3 lines
+Changed paths:
+   M /trunk/arh.lua
+   M /trunk/arh.toc
+
+fix automount for 7.0
+toc bump
+
+------------------------------------------------------------------------

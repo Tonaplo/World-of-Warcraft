@@ -1,0 +1,58 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 652,
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 627,
+				},
+			},
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 652,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 652,
+				},
+			},
+		},
+		["Range"] = {
+		},
+		["Mirror"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Everrett - Magtheridon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
