@@ -6,13 +6,6 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: RIGHT
-X: -383
-Y: -126
-W: 128
-H: 64
 Frame: mOnWD_MainFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -41,3 +34,10 @@ X: 413
 Y: 0
 W: 232
 H: 100
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: BOTTOM
+X: -467
+Y: 207
+W: 209
+H: 163
