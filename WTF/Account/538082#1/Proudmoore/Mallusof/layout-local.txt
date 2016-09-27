@@ -6,13 +6,6 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 413
-Y: 0
-W: 232
-H: 100
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: RIGHT
@@ -41,3 +34,10 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 413
+Y: 0
+W: 232
+H: 100
