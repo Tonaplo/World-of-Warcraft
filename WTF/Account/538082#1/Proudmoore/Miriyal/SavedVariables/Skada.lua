@@ -1,5817 +1,5 @@
 
 SkadaPerCharDB = {
-	["total"] = {
-		["healingabsorbed"] = 0,
-		["dispells"] = 0,
-		["ccbreaks"] = 0,
-		["time"] = 364,
-		["interrupts"] = 4,
-		["damage"] = 14694888,
-		["players"] = {
-			{
-				["healingabsorbed"] = 0,
-				["class"] = "MONK",
-				["damaged"] = {
-				},
-				["auras"] = {
-					["Fists of Fury"] = {
-						["name"] = "Fists of Fury",
-						["active"] = 0,
-						["id"] = 113656,
-						["auratype"] = "BUFF",
-						["uptime"] = 25,
-					},
-					["Power Strikes"] = {
-						["name"] = "Power Strikes",
-						["active"] = 2,
-						["id"] = 129914,
-						["auratype"] = "BUFF",
-						["uptime"] = 197,
-					},
-					["Eye of the Tiger"] = {
-						["name"] = "Eye of the Tiger",
-						["active"] = 10,
-						["id"] = 196608,
-						["auratype"] = "BUFF",
-						["uptime"] = 395,
-					},
-					["Dizzying Kicks"] = {
-						["name"] = "Dizzying Kicks",
-						["active"] = 0,
-						["id"] = 196723,
-						["auratype"] = "DEBUFF",
-						["uptime"] = 54,
-					},
-					["Miriyal: Spinning Crane Kick"] = {
-						["name"] = "Miriyal: Spinning Crane Kick",
-						["active"] = 0,
-						["id"] = 101546,
-						["uptime"] = 2,
-						["auratype"] = "BUFF",
-					},
-					["Spinning Crane Kick"] = {
-						["name"] = "Spinning Crane Kick",
-						["active"] = 0,
-						["id"] = 101546,
-						["uptime"] = 4,
-						["auratype"] = "BUFF",
-					},
-					["Miriyal: Hit Combo"] = {
-						["name"] = "Miriyal: Hit Combo",
-						["active"] = 4,
-						["id"] = 196741,
-						["auratype"] = "BUFF",
-						["uptime"] = 383,
-					},
-					["Miriyal: Mortal Wounds"] = {
-						["name"] = "Miriyal: Mortal Wounds",
-						["active"] = 1,
-						["id"] = 115804,
-						["auratype"] = "DEBUFF",
-						["uptime"] = 375,
-					},
-					["Storm, Earth, and Fire"] = {
-						["name"] = "Storm, Earth, and Fire",
-						["active"] = 0,
-						["id"] = 137639,
-						["auratype"] = "BUFF",
-						["uptime"] = 30,
-					},
-					["Flying Serpent Kick"] = {
-						["name"] = "Flying Serpent Kick",
-						["active"] = 0,
-						["id"] = 123586,
-						["auratype"] = "DEBUFF",
-						["uptime"] = 8,
-					},
-					["Hit Combo"] = {
-						["name"] = "Hit Combo",
-						["active"] = 8,
-						["id"] = 196741,
-						["auratype"] = "BUFF",
-						["uptime"] = 393,
-					},
-					["Mortal Wounds"] = {
-						["name"] = "Mortal Wounds",
-						["active"] = 0,
-						["id"] = 115804,
-						["auratype"] = "DEBUFF",
-						["uptime"] = 195,
-					},
-					["Mark of the Crane"] = {
-						["name"] = "Mark of the Crane",
-						["active"] = 1,
-						["id"] = 228287,
-						["auratype"] = "DEBUFF",
-						["uptime"] = 313,
-					},
-					["Hero's Resolve"] = {
-						["name"] = "Hero's Resolve",
-						["active"] = 1,
-						["id"] = 202685,
-						["uptime"] = 412,
-						["auratype"] = "BUFF",
-					},
-					["Blackout Kick!"] = {
-						["name"] = "Blackout Kick!",
-						["active"] = 1,
-						["id"] = 116768,
-						["auratype"] = "BUFF",
-						["uptime"] = 78,
-					},
-					["Crackling Jade Lightning"] = {
-						["name"] = "Crackling Jade Lightning",
-						["active"] = 0,
-						["id"] = 117952,
-						["uptime"] = 9,
-						["auratype"] = "DEBUFF",
-					},
-					["Miriyal: Fists of Fury"] = {
-						["name"] = "Miriyal: Fists of Fury",
-						["active"] = 0,
-						["id"] = 113656,
-						["uptime"] = 4,
-						["auratype"] = "BUFF",
-					},
-				},
-				["role"] = "NONE",
-				["time"] = 360,
-				["interrupts"] = 4,
-				["damage"] = 14694888,
-				["damagespells"] = {
-					["Fists of Fury"] = {
-						["min"] = 24523,
-						["critical"] = 10,
-						["hit"] = 19,
-						["totalhits"] = 29,
-						["id"] = 117418,
-						["max"] = 55003,
-						["damage"] = 1006407,
-					},
-					["Crackling Jade Shock"] = {
-						["totalhits"] = 2,
-						["id"] = 117962,
-						["IMMUNE"] = 2,
-						["max"] = 0,
-						["damage"] = 0,
-					},
-					["Tiger Palm"] = {
-						["min"] = 2328,
-						["critical"] = 28,
-						["hit"] = 45,
-						["totalhits"] = 73,
-						["id"] = 100780,
-						["max"] = 158970,
-						["damage"] = 754326,
-					},
-					["Eye of the Tiger"] = {
-						["min"] = 401,
-						["critical"] = 54,
-						["hit"] = 76,
-						["totalhits"] = 130,
-						["id"] = 196608,
-						["max"] = 53317,
-						["damage"] = 451650,
-					},
-					["Miriyal: Attack"] = {
-						["min"] = 558,
-						["max"] = 2416,
-						["critical"] = 14,
-						["hit"] = 17,
-						["totalhits"] = 40,
-						["id"] = 6603,
-						["MISS"] = 9,
-						["damage"] = 40038,
-					},
-					["Flying Serpent Kick"] = {
-						["min"] = 1795,
-						["critical"] = 2,
-						["hit"] = 5,
-						["totalhits"] = 7,
-						["id"] = 123586,
-						["max"] = 3591,
-						["damage"] = 16158,
-					},
-					["Miriyal: Blackout Kick"] = {
-						["min"] = 5796,
-						["critical"] = 3,
-						["hit"] = 7,
-						["totalhits"] = 10,
-						["id"] = 100784,
-						["max"] = 15303,
-						["damage"] = 95666,
-					},
-					["Miriyal: Rising Sun Kick"] = {
-						["min"] = 18085,
-						["critical"] = 1,
-						["hit"] = 1,
-						["totalhits"] = 2,
-						["id"] = 185099,
-						["max"] = 36170,
-						["damage"] = 54255,
-					},
-					["Miriyal: Spinning Crane Kick"] = {
-						["min"] = 2923,
-						["critical"] = 25,
-						["hit"] = 27,
-						["totalhits"] = 52,
-						["id"] = 107270,
-						["max"] = 16204,
-						["damage"] = 259817,
-					},
-					["Miriyal: Tiger Palm"] = {
-						["min"] = 1581,
-						["critical"] = 4,
-						["hit"] = 7,
-						["totalhits"] = 11,
-						["id"] = 100780,
-						["max"] = 4335,
-						["damage"] = 31041,
-					},
-					["Blackout Kick"] = {
-						["min"] = 5796,
-						["critical"] = 22,
-						["hit"] = 42,
-						["totalhits"] = 64,
-						["id"] = 100784,
-						["max"] = 571459,
-						["damage"] = 2585751,
-					},
-					["Crackling Jade Lightning"] = {
-						["min"] = 1145,
-						["critical"] = 1,
-						["hit"] = 7,
-						["totalhits"] = 8,
-						["id"] = 117952,
-						["max"] = 2290,
-						["damage"] = 10558,
-					},
-					["Rising Sun Kick"] = {
-						["min"] = 18085,
-						["critical"] = 13,
-						["hit"] = 13,
-						["totalhits"] = 26,
-						["id"] = 185099,
-						["max"] = 89652,
-						["damage"] = 1603600,
-					},
-					["Spinning Crane Kick"] = {
-						["min"] = 2980,
-						["critical"] = 17,
-						["hit"] = 31,
-						["totalhits"] = 48,
-						["id"] = 107270,
-						["max"] = 924734,
-						["damage"] = 6703705,
-					},
-					["Attack"] = {
-						["min"] = 781,
-						["max"] = 223555,
-						["critical"] = 69,
-						["hit"] = 97,
-						["totalhits"] = 202,
-						["id"] = 6603,
-						["MISS"] = 36,
-						["damage"] = 1081916,
-					},
-				},
-				["deathlog"] = {
-					{
-						["absorb"] = 0,
-						["amount"] = 2050,
-						["ts"] = 1472021009.942,
-						["srcname"] = "Miriyal",
-						["hp"] = 202540,
-						["spellid"] = 196608,
-					}, -- [1]
-					{
-						["ts"] = 1472021011.135,
-						["amount"] = 1233,
-						["spellid"] = 196608,
-						["srcname"] = "Miriyal",
-						["hp"] = 203773,
-						["absorb"] = 0,
-					}, -- [2]
-					{
-						["ts"] = 1473094444.74,
-						["amount"] = -45,
-						["hp"] = 344011,
-						["srcname"] = "Attumen the Huntsman",
-						["spellid"] = 88163,
-					}, -- [3]
-					{
-						["ts"] = 1473094445.851,
-						["spellid"] = 196608,
-						["amount"] = 74,
-						["hp"] = 344040,
-						["srcname"] = "Miriyal",
-						["absorb"] = 0,
-					}, -- [4]
-					{
-						["ts"] = 1473094447.858,
-						["absorb"] = 0,
-						["amount"] = 0,
-						["srcname"] = "Miriyal",
-						["spellid"] = 196608,
-						["hp"] = 344040,
-					}, -- [5]
-					{
-						["absorb"] = 0,
-						["hp"] = 344040,
-						["amount"] = 0,
-						["spellid"] = 196608,
-						["srcname"] = "Miriyal",
-						["ts"] = 1473094449.851,
-					}, -- [6]
-					{
-						["ts"] = 1473094451.845,
-						["absorb"] = 0,
-						["amount"] = 0,
-						["srcname"] = "Miriyal",
-						["spellid"] = 196608,
-						["hp"] = 344040,
-					}, -- [7]
-					{
-						["ts"] = 1472020999.92,
-						["amount"] = 2051,
-						["spellid"] = 196608,
-						["hp"] = 223916,
-						["srcname"] = "Miriyal",
-						["absorb"] = 0,
-					}, -- [8]
-					{
-						["absorb"] = 0,
-						["amount"] = 4101,
-						["ts"] = 1472021001.905,
-						["hp"] = 228017,
-						["spellid"] = 196608,
-						["srcname"] = "Miriyal",
-					}, -- [9]
-					{
-						["ts"] = 1472021002.802,
-						["amount"] = -2970,
-						["srcname"] = "Smoldering Infernal",
-						["hp"] = 225047,
-						["spellid"] = 205827,
-					}, -- [10]
-					{
-						["ts"] = 1472021003.006,
-						["amount"] = -15800,
-						["srcname"] = "Smoldering Infernal",
-						["spellid"] = 218624,
-						["hp"] = 209247,
-					}, -- [11]
-					{
-						["absorb"] = 0,
-						["amount"] = 2051,
-						["ts"] = 1472021003.964,
-						["hp"] = 211298,
-						["spellid"] = 196608,
-						["srcname"] = "Miriyal",
-					}, -- [12]
-					{
-						["ts"] = 1472021003.964,
-						["amount"] = -14909,
-						["srcname"] = "Smoldering Infernal",
-						["hp"] = 196389,
-						["spellid"] = 218624,
-					}, -- [13]
-					{
-						["ts"] = 1472021005.961,
-						["amount"] = 2051,
-						["spellid"] = 196608,
-						["hp"] = 198440,
-						["srcname"] = "Miriyal",
-						["absorb"] = 0,
-					}, -- [14]
-					{
-						["absorb"] = 0,
-						["amount"] = 2050,
-						["ts"] = 1472021007.971,
-						["hp"] = 200490,
-						["spellid"] = 196608,
-						["srcname"] = "Miriyal",
-					}, -- [15]
-					["pos"] = 8,
-				},
-				["damagetaken"] = 1050299,
-				["power"] = {
-					[12] = {
-						["amount"] = 170,
-						["spells"] = {
-							[100780] = 144,
-							[121283] = 24,
-							[163272] = 2,
-						},
-					},
-				},
-				["id"] = "Player-5-0A2F3596",
-				["maxhp"] = 327780,
-				["ccbreaks"] = 0,
-				["damagetakenspells"] = {
-					["Mind Spike"] = {
-						["crushing"] = 0,
-						["id"] = 194519,
-						["absorbed"] = 0,
-						["min"] = 2452,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["name"] = "Mind Spike",
-						["blocked"] = 0,
-						["totalhits"] = 3,
-						["resisted"] = 0,
-						["max"] = 2474,
-						["damage"] = 7380,
-					},
-					["Drain Life"] = {
-						["crushing"] = 0,
-						["id"] = 204896,
-						["damage"] = 3619,
-						["max"] = 905,
-						["name"] = "Drain Life",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 4,
-						["resisted"] = 0,
-						["min"] = 904,
-						["absorbed"] = 0,
-					},
-					["Enlighten"] = {
-						["crushing"] = 0,
-						["id"] = 182756,
-						["damage"] = 11880,
-						["max"] = 1485,
-						["name"] = "Enlighten",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 8,
-						["resisted"] = 0,
-						["min"] = 1485,
-						["absorbed"] = 0,
-					},
-					["Return Fire"] = {
-						["crushing"] = 0,
-						["id"] = 29815,
-						["damage"] = 3422,
-						["max"] = 245,
-						["name"] = "Return Fire",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 14,
-						["resisted"] = 0,
-						["min"] = 244,
-						["absorbed"] = 0,
-					},
-					["Blazing Hellfire"] = {
-						["crushing"] = 0,
-						["id"] = 218624,
-						["damage"] = 265669,
-						["max"] = 15979,
-						["name"] = "Blazing Hellfire",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 18,
-						["resisted"] = 0,
-						["min"] = 10956,
-						["absorbed"] = 0,
-					},
-					["Felflame Shield"] = {
-						["crushing"] = 0,
-						["id"] = 205827,
-						["damage"] = 20790,
-						["max"] = 2970,
-						["name"] = "Felflame Shield",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 7,
-						["resisted"] = 0,
-						["min"] = 2970,
-						["absorbed"] = 0,
-					},
-					["Gluttonous Shadows"] = {
-						["crushing"] = 0,
-						["id"] = 206922,
-						["absorbed"] = 0,
-						["min"] = 21069,
-						["critical"] = 0,
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["name"] = "Gluttonous Shadows",
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["max"] = 21676,
-						["damage"] = 42745,
-					},
-					["Fire Bolt"] = {
-						["crushing"] = 0,
-						["id"] = 203368,
-						["damage"] = 22935,
-						["max"] = 8832,
-						["name"] = "Fire Bolt",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 3,
-						["resisted"] = 0,
-						["min"] = 6486,
-						["absorbed"] = 0,
-					},
-					["Attack"] = {
-						["crushing"] = 0,
-						["id"] = 6603,
-						["damage"] = 671859,
-						["max"] = 18423,
-						["name"] = "Attack",
-						["min"] = 45,
-						["multistrike"] = 0,
-						["critical"] = 4,
-						["blocked"] = 0,
-						["totalhits"] = 92,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-				},
-				["dispells"] = 0,
-				["healed"] = {
-					["Player-5-0A1C3457"] = {
-						["shielding"] = 0,
-						["role"] = "NONE",
-						["name"] = "Corvelt",
-						["amount"] = 41512,
-					},
-					["Player-5-0710CD6D"] = {
-						["shielding"] = 0,
-						["role"] = "NONE",
-						["name"] = "Chímí",
-						["amount"] = 0,
-					},
-					["Player-5-0A2F3596"] = {
-						["role"] = "NONE",
-						["name"] = "Miriyal",
-						["amount"] = 599382,
-						["class"] = "MONK",
-						["shielding"] = 0,
-					},
-				},
-				["name"] = "Miriyal",
-				["healing"] = 640894,
-				["shielding"] = 0,
-				["healingspells"] = {
-					["Eye of the Tiger"] = {
-						["shielding"] = 0,
-						["id"] = 196608,
-						["healing"] = 371160,
-						["absorbed"] = 0,
-						["min"] = 0,
-						["multistrike"] = 0,
-						["name"] = "Eye of the Tiger",
-						["critical"] = 61,
-						["max"] = 4102,
-						["overhealing"] = 53454,
-						["hits"] = 160,
-						["multistrikes"] = 0,
-					},
-					["Healing Sphere"] = {
-						["shielding"] = 0,
-						["id"] = 125355,
-						["healing"] = 244070,
-						["absorbed"] = 0,
-						["min"] = 0,
-						["multistrike"] = 0,
-						["name"] = "Healing Sphere",
-						["critical"] = 1,
-						["max"] = 57228,
-						["overhealing"] = 182279,
-						["hits"] = 7,
-						["multistrikes"] = 0,
-					},
-					["Effuse"] = {
-						["shielding"] = 0,
-						["id"] = 116694,
-						["healing"] = 25664,
-						["multistrikes"] = 0,
-						["min"] = 6588,
-						["multistrike"] = 0,
-						["name"] = "Effuse",
-						["hits"] = 2,
-						["overhealing"] = 12488,
-						["max"] = 19076,
-						["critical"] = 0,
-						["absorbed"] = 0,
-					},
-				},
-				["overhealing"] = 248221,
-				["multistrikes"] = 0,
-			}, -- [1]
-			{
-				["healingabsorbed"] = 0,
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["role"] = "NONE",
-				["time"] = 0,
-				["interrupts"] = 0,
-				["damage"] = 0,
-				["damagespells"] = {
-				},
-				["ccbreaks"] = 0,
-				["damagetaken"] = 0,
-				["power"] = {
-				},
-				["id"] = "Creature-0-3884-1579-10432-69792-00003D256F",
-				["maxhp"] = 0,
-				["deathlog"] = {
-				},
-				["damagetakenspells"] = {
-				},
-				["overhealing"] = 0,
-				["healingspells"] = {
-				},
-				["name"] = "Earth Spirit",
-				["shielding"] = 0,
-				["healing"] = 0,
-				["healed"] = {
-				},
-				["auras"] = {
-					["Storm, Earth, and Fire"] = {
-						["name"] = "Storm, Earth, and Fire",
-						["active"] = 1,
-						["id"] = 138130,
-						["auratype"] = "BUFF",
-						["uptime"] = 385,
-					},
-				},
-				["multistrikes"] = 0,
-			}, -- [2]
-			{
-				["healingabsorbed"] = 0,
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["role"] = "NONE",
-				["time"] = 0,
-				["interrupts"] = 0,
-				["damage"] = 0,
-				["damagespells"] = {
-				},
-				["ccbreaks"] = 0,
-				["damagetaken"] = 0,
-				["power"] = {
-				},
-				["id"] = "Creature-0-3884-1579-10432-69791-00003D256F",
-				["maxhp"] = 0,
-				["deathlog"] = {
-				},
-				["damagetakenspells"] = {
-				},
-				["overhealing"] = 0,
-				["healingspells"] = {
-				},
-				["name"] = "Fire Spirit",
-				["shielding"] = 0,
-				["healing"] = 0,
-				["healed"] = {
-				},
-				["auras"] = {
-					["Storm, Earth, and Fire"] = {
-						["name"] = "Storm, Earth, and Fire",
-						["active"] = 1,
-						["id"] = 138130,
-						["auratype"] = "BUFF",
-						["uptime"] = 385,
-					},
-				},
-				["multistrikes"] = 0,
-			}, -- [3]
-			{
-				["healingabsorbed"] = 0,
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["role"] = "NONE",
-				["time"] = 0,
-				["interrupts"] = 0,
-				["damage"] = 0,
-				["damagespells"] = {
-				},
-				["ccbreaks"] = 0,
-				["damagetaken"] = 0,
-				["power"] = {
-				},
-				["id"] = "Creature-0-3135-1529-18218-69792-00003D3BFA",
-				["maxhp"] = 0,
-				["auras"] = {
-					["Storm, Earth, and Fire"] = {
-						["name"] = "Storm, Earth, and Fire",
-						["active"] = 1,
-						["id"] = 138130,
-						["uptime"] = 299,
-						["auratype"] = "BUFF",
-					},
-				},
-				["damagetakenspells"] = {
-				},
-				["healed"] = {
-				},
-				["healing"] = 0,
-				["name"] = "Earth Spirit",
-				["shielding"] = 0,
-				["healingspells"] = {
-				},
-				["overhealing"] = 0,
-				["deathlog"] = {
-				},
-				["multistrikes"] = 0,
-			}, -- [4]
-			{
-				["healingabsorbed"] = 0,
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["role"] = "NONE",
-				["time"] = 0,
-				["interrupts"] = 0,
-				["damage"] = 0,
-				["damagespells"] = {
-				},
-				["ccbreaks"] = 0,
-				["damagetaken"] = 0,
-				["power"] = {
-				},
-				["id"] = "Creature-0-3135-1529-18218-69791-00003D3BFA",
-				["maxhp"] = 0,
-				["auras"] = {
-					["Storm, Earth, and Fire"] = {
-						["name"] = "Storm, Earth, and Fire",
-						["active"] = 1,
-						["id"] = 138130,
-						["uptime"] = 299,
-						["auratype"] = "BUFF",
-					},
-				},
-				["damagetakenspells"] = {
-				},
-				["healed"] = {
-				},
-				["healing"] = 0,
-				["name"] = "Fire Spirit",
-				["shielding"] = 0,
-				["healingspells"] = {
-				},
-				["overhealing"] = 0,
-				["deathlog"] = {
-				},
-				["multistrikes"] = 0,
-			}, -- [5]
-		},
-		["deaths"] = 0,
-		["mobs"] = {
-			["Vargal"] = {
-				["players"] = {
-				},
-				["hdone"] = 51200,
-				["hdonespell"] = {
-					["Gust of Mists"] = {
-						["min"] = 1168,
-						["crits"] = 1,
-						["max"] = 1168,
-						["healing"] = 1168,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Renewing Mist"] = {
-						["min"] = 602,
-						["crits"] = 1,
-						["max"] = 1203,
-						["healing"] = 4213,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 7,
-						["max"] = 1891,
-						["healing"] = 45819,
-						["overhealing"] = 20854,
-						["hits"] = 126,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 259,
-						["crits"] = 0,
-						["max"] = 423,
-						["healing"] = 993,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 14,
-						["crits"] = 0,
-						["max"] = 44,
-						["healing"] = 287,
-						["overhealing"] = 0,
-						["hits"] = 9,
-					},
-					["Gust of Mists"] = {
-						["min"] = 1168,
-						["crits"] = 1,
-						["max"] = 1168,
-						["healing"] = 1168,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Renewing Mist"] = {
-						["min"] = 602,
-						["crits"] = 1,
-						["max"] = 1203,
-						["healing"] = 4213,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-					["Essence Font"] = {
-						["min"] = 103,
-						["crits"] = 1,
-						["max"] = 1891,
-						["healing"] = 8923,
-						["overhealing"] = 0,
-						["hits"] = 12,
-					},
-				},
-				["htaken"] = 15584,
-				["done"] = 0,
-			},
-			["Gimrizz Shadowcog"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 410,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Dark Iron Dwarf"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 210,
-						["healing"] = 444,
-						["overhealing"] = 451,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 444,
-				["done"] = 0,
-			},
-			["Mename"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 131,
-						["healing"] = 174,
-						["overhealing"] = 97,
-						["hits"] = 4,
-					},
-				},
-				["htaken"] = 174,
-				["done"] = 0,
-			},
-			["Powerfulgoku"] = {
-				["players"] = {
-				},
-				["hdone"] = 17388,
-				["hdonespell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1735,
-						["healing"] = 17388,
-						["overhealing"] = 19030,
-						["hits"] = 41,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Mountaineer Dolf"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 135,
-						["crits"] = 0,
-						["max"] = 179,
-						["healing"] = 476,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 476,
-				["done"] = 0,
-			},
-			["Yoffee"] = {
-				["players"] = {
-				},
-				["hdone"] = 5095,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 475,
-						["crits"] = 0,
-						["max"] = 3282,
-						["healing"] = 5095,
-						["overhealing"] = 2336,
-						["hits"] = 4,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1746,
-						["healing"] = 3192,
-						["overhealing"] = 653,
-						["hits"] = 5,
-					},
-					["Leech"] = {
-						["min"] = 475,
-						["crits"] = 0,
-						["max"] = 3282,
-						["healing"] = 5095,
-						["overhealing"] = 2336,
-						["hits"] = 4,
-					},
-				},
-				["htaken"] = 8287,
-				["done"] = 0,
-			},
-			["Shadowsworn Ritualist"] = {
-				["players"] = {
-				},
-				["hdone"] = 58523,
-				["hdonespell"] = {
-					["Shadow Pact"] = {
-						["min"] = 8360,
-						["crits"] = 0,
-						["max"] = 8361,
-						["healing"] = 58523,
-						["overhealing"] = 0,
-						["hits"] = 7,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Shadow Pact"] = {
-						["min"] = 8360,
-						["crits"] = 0,
-						["max"] = 8361,
-						["healing"] = 16721,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 16721,
-				["done"] = 0,
-			},
-			["Ragnar Thunderbrew"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 64,
-						["crits"] = 0,
-						["max"] = 179,
-						["healing"] = 740,
-						["overhealing"] = 0,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 740,
-				["done"] = 0,
-			},
-			["Bulljr"] = {
-				["players"] = {
-				},
-				["hdone"] = 10302,
-				["hdonespell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 17385,
-						["hits"] = 1,
-					},
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3900,
-						["healing"] = 10302,
-						["overhealing"] = 953,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 15987,
-				["htakenspell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3900,
-						["healing"] = 10302,
-						["overhealing"] = 953,
-						["hits"] = 6,
-					},
-					["Bloodthirst Heal"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 17385,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 554,
-						["crits"] = 0,
-						["max"] = 1735,
-						["healing"] = 5685,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-			},
-			["Theunburnt"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Vampiric Touch"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 11256,
-						["hits"] = 9,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 8338,
-						["hits"] = 18,
-					},
-					["Vampiric Touch"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 11256,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Keldros"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 94,
-						["healing"] = 356,
-						["overhealing"] = 12,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 356,
-				["done"] = 0,
-			},
-			["Midnight"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 710603,
-						["done"] = 0,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 710603,
-				["done"] = 0,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Hellfire Infernal"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 1324625,
-						["done"] = 112360,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 1324625,
-				["done"] = 112360,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Dark Iron Rifleman"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 116,
-						["crits"] = 0,
-						["max"] = 140,
-						["healing"] = 384,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 384,
-				["done"] = 0,
-			},
-			["Vynaigrette"] = {
-				["players"] = {
-				},
-				["hdone"] = 12290,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 12290,
-						["crits"] = 0,
-						["max"] = 12290,
-						["healing"] = 12290,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Pipqua"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Chi Burst"] = {
-						["min"] = 16,
-						["crits"] = 0,
-						["max"] = 16,
-						["healing"] = 16,
-						["overhealing"] = 2566,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 8,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 16,
-				["done"] = 0,
-			},
-			["Jiblok"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 7,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Melgham"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 382,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 382,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Moisturise"] = {
-				["players"] = {
-				},
-				["hdone"] = 13040,
-				["hdonespell"] = {
-					["Chi Burst"] = {
-						["min"] = 0,
-						["crits"] = 2,
-						["max"] = 5165,
-						["healing"] = 12928,
-						["overhealing"] = 5149,
-						["hits"] = 5,
-					},
-					["Celestial Fortune"] = {
-						["min"] = 56,
-						["crits"] = 0,
-						["max"] = 56,
-						["healing"] = 112,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Power Word: Radiance"] = {
-						["min"] = 712,
-						["crits"] = 0,
-						["max"] = 712,
-						["healing"] = 712,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Celestial Fortune"] = {
-						["min"] = 56,
-						["crits"] = 0,
-						["max"] = 56,
-						["healing"] = 112,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Chi Burst"] = {
-						["min"] = 2582,
-						["crits"] = 0,
-						["max"] = 2582,
-						["healing"] = 2582,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Atonement"] = {
-						["min"] = 52,
-						["crits"] = 0,
-						["max"] = 52,
-						["healing"] = 52,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 86,
-						["crits"] = 0,
-						["max"] = 86,
-						["healing"] = 172,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 3630,
-				["done"] = 0,
-			},
-			["Pavas"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 311,
-						["crits"] = 0,
-						["max"] = 311,
-						["healing"] = 311,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 148,
-						["healing"] = 635,
-						["overhealing"] = 89,
-						["hits"] = 15,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 946,
-						["healing"] = 1428,
-						["overhealing"] = 877,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 2374,
-				["done"] = 0,
-			},
-			["Razzle Sprysprocket"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 152,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 153,
-						["healing"] = 379,
-						["overhealing"] = 386,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 531,
-				["done"] = 0,
-			},
-			["Spectral Charger"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 571459,
-						["done"] = 0,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 571459,
-				["done"] = 0,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Rícky"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 152,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 92,
-						["healing"] = 221,
-						["overhealing"] = 116,
-						["hits"] = 21,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 946,
-						["healing"] = 2960,
-						["overhealing"] = 394,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 3333,
-				["done"] = 0,
-			},
-			["Sylentknight"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 2689,
-						["hits"] = 11,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Remjob"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 9,
-						["crits"] = 0,
-						["max"] = 57,
-						["healing"] = 239,
-						["overhealing"] = 0,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 239,
-				["done"] = 0,
-			},
-			["Galädriel"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 65,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 10,
-						["healing"] = 69,
-						["overhealing"] = 15,
-						["hits"] = 12,
-					},
-					["Chi Wave"] = {
-						["min"] = 169,
-						["crits"] = 0,
-						["max"] = 169,
-						["healing"] = 169,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 65,
-						["hits"] = 1,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 924,
-						["healing"] = 924,
-						["overhealing"] = 124,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 1162,
-				["done"] = 0,
-			},
-			["Relua"] = {
-				["players"] = {
-				},
-				["hdone"] = 77130,
-				["hdonespell"] = {
-					["Consecration"] = {
-						["min"] = 73,
-						["crits"] = 8,
-						["max"] = 305,
-						["healing"] = 9623,
-						["overhealing"] = 84,
-						["hits"] = 56,
-					},
-					["Light of the Protector"] = {
-						["min"] = 38065,
-						["crits"] = 0,
-						["max"] = 38065,
-						["healing"] = 38065,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Gift of the Naaru"] = {
-						["min"] = 4907,
-						["crits"] = 1,
-						["max"] = 9814,
-						["healing"] = 29442,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 1,
-						["max"] = 305,
-						["healing"] = 1370,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-					["Light of the Protector"] = {
-						["min"] = 38065,
-						["crits"] = 0,
-						["max"] = 38065,
-						["healing"] = 38065,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Gift of the Naaru"] = {
-						["min"] = 4907,
-						["crits"] = 1,
-						["max"] = 9814,
-						["healing"] = 29442,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 31,
-						["crits"] = 0,
-						["max"] = 733,
-						["healing"] = 4515,
-						["overhealing"] = 0,
-						["hits"] = 16,
-					},
-				},
-				["htaken"] = 73392,
-				["done"] = 0,
-			},
-			["Equilibrii"] = {
-				["players"] = {
-				},
-				["hdone"] = 1838,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 226,
-						["crits"] = 0,
-						["max"] = 329,
-						["healing"] = 1838,
-						["overhealing"] = 102,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 226,
-						["crits"] = 0,
-						["max"] = 500,
-						["healing"] = 1384,
-						["overhealing"] = 102,
-						["hits"] = 4,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 74,
-						["healing"] = 317,
-						["overhealing"] = 137,
-						["hits"] = 17,
-					},
-				},
-				["htaken"] = 1701,
-				["done"] = 0,
-			},
-			["Chumparino"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 73,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 225,
-						["overhealing"] = 79,
-						["hits"] = 2,
-					},
-					["Divine Storm"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 31,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 21,
-						["healing"] = 77,
-						["overhealing"] = 176,
-						["hits"] = 15,
-					},
-				},
-				["htaken"] = 302,
-				["done"] = 0,
-			},
-			["Shadowflame Imp"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 123425,
-						["done"] = 11634,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 123425,
-				["done"] = 11634,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Ancient Curator"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 470176,
-						["done"] = 71788,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 470176,
-				["done"] = 71788,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Felfire Imp"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 54864,
-						["done"] = 4716,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 54864,
-				["done"] = 4716,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Enraged Bonecrusher"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Shadow Pact"] = {
-						["min"] = 8360,
-						["crits"] = 0,
-						["max"] = 8361,
-						["healing"] = 41802,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 41802,
-				["done"] = 0,
-			},
-			["Riadon"] = {
-				["players"] = {
-				},
-				["hdone"] = 1676,
-				["hdonespell"] = {
-					["Soul Link"] = {
-						["min"] = 838,
-						["crits"] = 0,
-						["max"] = 838,
-						["healing"] = 1676,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Divine Storm"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 6593,
-						["hits"] = 1,
-					},
-					["Soul Link"] = {
-						["min"] = 838,
-						["crits"] = 0,
-						["max"] = 838,
-						["healing"] = 1676,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 1676,
-				["done"] = 0,
-			},
-			["Sudosah"] = {
-				["players"] = {
-				},
-				["hdone"] = 2047,
-				["hdonespell"] = {
-					["Chi Wave"] = {
-						["min"] = 169,
-						["crits"] = 1,
-						["max"] = 318,
-						["healing"] = 487,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Effuse"] = {
-						["min"] = 1560,
-						["crits"] = 1,
-						["max"] = 1560,
-						["healing"] = 1560,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 1,
-						["crits"] = 0,
-						["max"] = 32,
-						["healing"] = 106,
-						["overhealing"] = 0,
-						["hits"] = 9,
-					},
-					["Effuse"] = {
-						["min"] = 1560,
-						["crits"] = 1,
-						["max"] = 1560,
-						["healing"] = 1560,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 1666,
-				["done"] = 0,
-			},
-			["Kurtàlos"] = {
-				["players"] = {
-				},
-				["hdone"] = 92419,
-				["hdonespell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 7259,
-						["crits"] = 0,
-						["max"] = 17032,
-						["healing"] = 92419,
-						["overhealing"] = 9773,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 102994,
-				["htakenspell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 7259,
-						["crits"] = 0,
-						["max"] = 17032,
-						["healing"] = 92419,
-						["overhealing"] = 9773,
-						["hits"] = 6,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1255,
-						["healing"] = 10575,
-						["overhealing"] = 1382,
-						["hits"] = 19,
-					},
-				},
-			},
-			["Gara"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 19502,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 7212,
-						["crits"] = 0,
-						["max"] = 12290,
-						["healing"] = 19502,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-			},
-			["Agitated Tome"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 498689,
-						["done"] = 80951,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 498689,
-				["done"] = 80951,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Brandas"] = {
-				["players"] = {
-				},
-				["hdone"] = 39639,
-				["hdonespell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 19819,
-						["crits"] = 0,
-						["max"] = 19820,
-						["healing"] = 39639,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 39639,
-				["htakenspell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 19819,
-						["crits"] = 0,
-						["max"] = 19820,
-						["healing"] = 39639,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-			},
-			["Aciona"] = {
-				["players"] = {
-				},
-				["hdone"] = 387,
-				["hdonespell"] = {
-					["Swift Hand of Justice"] = {
-						["min"] = 387,
-						["crits"] = 0,
-						["max"] = 387,
-						["healing"] = 387,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 318,
-						["crits"] = 0,
-						["max"] = 318,
-						["healing"] = 318,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Swift Hand of Justice"] = {
-						["min"] = 387,
-						["crits"] = 0,
-						["max"] = 387,
-						["healing"] = 387,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 23,
-						["healing"] = 64,
-						["overhealing"] = 207,
-						["hits"] = 13,
-					},
-				},
-				["htaken"] = 769,
-				["done"] = 0,
-			},
-			["Faceless Echo"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 870433,
-						["done"] = 207899,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 116865,
-				["htakenspell"] = {
-					["Gluttonous Shadows"] = {
-						["min"] = 11700,
-						["crits"] = 0,
-						["max"] = 31603,
-						["healing"] = 116865,
-						["overhealing"] = 32847,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 870433,
-				["done"] = 207899,
-				["htaken"] = 116865,
-				["hdonespell"] = {
-					["Gluttonous Shadows"] = {
-						["min"] = 11700,
-						["crits"] = 0,
-						["max"] = 31603,
-						["healing"] = 116865,
-						["overhealing"] = 32847,
-						["hits"] = 6,
-					},
-				},
-			},
-			["Spectral Stable Hand"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 3509295,
-						["done"] = 0,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 3509295,
-				["done"] = 0,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Keesah"] = {
-				["players"] = {
-				},
-				["hdone"] = 1576,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 259,
-						["crits"] = 0,
-						["max"] = 270,
-						["healing"] = 1576,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 259,
-						["crits"] = 0,
-						["max"] = 270,
-						["healing"] = 788,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 22,
-						["healing"] = 119,
-						["overhealing"] = 11,
-						["hits"] = 13,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 860,
-						["healing"] = 941,
-						["overhealing"] = 395,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 1848,
-				["done"] = 0,
-			},
-			["Dethhaus"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Touch of the Grave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 12864,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-					["Touch of the Grave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 12864,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Kelovanth"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Divine Storm"] = {
-						["min"] = 6877,
-						["crits"] = 0,
-						["max"] = 6877,
-						["healing"] = 6877,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 6877,
-				["done"] = 0,
-			},
-			["Bob"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 152,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 5,
-						["crits"] = 0,
-						["max"] = 49,
-						["healing"] = 216,
-						["overhealing"] = 0,
-						["hits"] = 11,
-					},
-				},
-				["htaken"] = 368,
-				["done"] = 0,
-			},
-			["Vileboil"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 287,
-						["crits"] = 2,
-						["max"] = 287,
-						["healing"] = 574,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Divine Storm"] = {
-						["min"] = 109,
-						["crits"] = 0,
-						["max"] = 109,
-						["healing"] = 109,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 3,
-						["crits"] = 0,
-						["max"] = 7,
-						["healing"] = 30,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 713,
-				["done"] = 0,
-			},
-			["Kirin Tor Guardian"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 13689,
-						["hits"] = 6,
-					},
-				},
-			},
-			["Imprepared"] = {
-				["players"] = {
-				},
-				["hdone"] = 52860,
-				["hdonespell"] = {
-					["Soul Cleave"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 35527,
-						["healing"] = 35527,
-						["overhealing"] = 203416,
-						["hits"] = 2,
-					},
-					["Consume Soul"] = {
-						["min"] = 17333,
-						["crits"] = 0,
-						["max"] = 17333,
-						["healing"] = 17333,
-						["overhealing"] = 2192,
-						["hits"] = 1,
-					},
-					["Feast of Souls"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 39640,
-						["hits"] = 4,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Soul Cleave"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 35527,
-						["healing"] = 35527,
-						["overhealing"] = 203416,
-						["hits"] = 2,
-					},
-					["Consume Soul"] = {
-						["min"] = 17333,
-						["crits"] = 0,
-						["max"] = 17333,
-						["healing"] = 17333,
-						["overhealing"] = 2192,
-						["hits"] = 1,
-					},
-					["Feast of Souls"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 39640,
-						["hits"] = 4,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1281,
-						["healing"] = 2976,
-						["overhealing"] = 11836,
-						["hits"] = 15,
-					},
-				},
-				["htaken"] = 55836,
-				["done"] = 0,
-			},
-			["Bippity"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Chi Burst"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 2929,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 111,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Leatuss"] = {
-				["players"] = {
-				},
-				["hdone"] = 48120,
-				["hdonespell"] = {
-					["Death Strike"] = {
-						["min"] = 2932,
-						["crits"] = 0,
-						["max"] = 22626,
-						["healing"] = 36422,
-						["overhealing"] = 31206,
-						["hits"] = 3,
-					},
-					["Blood Plague"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2617,
-						["healing"] = 11698,
-						["overhealing"] = 1235,
-						["hits"] = 8,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1461,
-						["healing"] = 2200,
-						["overhealing"] = 2390,
-						["hits"] = 8,
-					},
-					["Blood Plague"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2617,
-						["healing"] = 11698,
-						["overhealing"] = 1235,
-						["hits"] = 8,
-					},
-					["Death Strike"] = {
-						["min"] = 2932,
-						["crits"] = 0,
-						["max"] = 22626,
-						["healing"] = 36422,
-						["overhealing"] = 31206,
-						["hits"] = 3,
-					},
-					["Essence Font"] = {
-						["min"] = 81,
-						["crits"] = 0,
-						["max"] = 945,
-						["healing"] = 1337,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 51657,
-				["done"] = 0,
-			},
-			["Caixia"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 946,
-						["healing"] = 2499,
-						["overhealing"] = 2641,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 2499,
-				["done"] = 0,
-			},
-			["Konflux"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 456,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 100,
-						["healing"] = 100,
-						["overhealing"] = 307,
-						["hits"] = 5,
-					},
-					["Essence Font"] = {
-						["min"] = 103,
-						["crits"] = 0,
-						["max"] = 946,
-						["healing"] = 3146,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 3702,
-				["done"] = 0,
-			},
-			["Miriyal"] = {
-				["players"] = {
-				},
-				["hdone"] = 41512,
-				["hdonespell"] = {
-					["Healing Sphere"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 41512,
-						["healing"] = 41512,
-						["overhealing"] = 72944,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Myeyeshurt"] = {
-				["players"] = {
-				},
-				["hdone"] = 98865,
-				["hdonespell"] = {
-					["Soul Cleave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 98274,
-						["healing"] = 98274,
-						["overhealing"] = 97153,
-						["hits"] = 2,
-					},
-					["Consume Soul"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 591,
-						["healing"] = 591,
-						["overhealing"] = 231509,
-						["hits"] = 3,
-					},
-					["Feast of Souls"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 69289,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 500,
-						["crits"] = 0,
-						["max"] = 500,
-						["healing"] = 500,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Consume Soul"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 591,
-						["healing"] = 591,
-						["overhealing"] = 231509,
-						["hits"] = 3,
-					},
-					["Feast of Souls"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 69289,
-						["hits"] = 6,
-					},
-					["Soul Cleave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 98274,
-						["healing"] = 98274,
-						["overhealing"] = 97153,
-						["hits"] = 2,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2861,
-						["healing"] = 5832,
-						["overhealing"] = 5424,
-						["hits"] = 11,
-					},
-				},
-				["htaken"] = 105197,
-				["done"] = 0,
-			},
-			["Risen Skulker"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 99,
-						["healing"] = 427,
-						["overhealing"] = 27,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 427,
-				["done"] = 0,
-			},
-			["Felguard Defender"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 268742,
-						["done"] = 77692,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 268742,
-				["done"] = 77692,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Captain Tharran"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 98,
-						["crits"] = 0,
-						["max"] = 245,
-						["healing"] = 1012,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 1012,
-				["done"] = 0,
-			},
-			["Dannie Fizzwizzle"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 315,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Annapuma"] = {
-				["players"] = {
-				},
-				["hdone"] = 40878,
-				["hdonespell"] = {
-					["Renewal"] = {
-						["min"] = 40878,
-						["crits"] = 0,
-						["max"] = 40878,
-						["healing"] = 40878,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Renewal"] = {
-						["min"] = 40878,
-						["crits"] = 0,
-						["max"] = 40878,
-						["healing"] = 40878,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 56,
-						["crits"] = 0,
-						["max"] = 56,
-						["healing"] = 56,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 40934,
-				["done"] = 0,
-			},
-			["Katickaris"] = {
-				["players"] = {
-				},
-				["hdone"] = 4701,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 422,
-						["crits"] = 0,
-						["max"] = 435,
-						["healing"] = 2573,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 568,
-						["healing"] = 1411,
-						["overhealing"] = 568,
-						["hits"] = 6,
-					},
-					["Lifebloom"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 120,
-						["healing"] = 717,
-						["overhealing"] = 714,
-						["hits"] = 12,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Lifebloom"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 120,
-						["healing"] = 717,
-						["overhealing"] = 714,
-						["hits"] = 12,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 61,
-						["healing"] = 190,
-						["overhealing"] = 238,
-						["hits"] = 23,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 568,
-						["healing"] = 1411,
-						["overhealing"] = 568,
-						["hits"] = 6,
-					},
-					["Ysera's Gift"] = {
-						["min"] = 435,
-						["crits"] = 0,
-						["max"] = 435,
-						["healing"] = 870,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 2,
-						["max"] = 946,
-						["healing"] = 2462,
-						["overhealing"] = 3726,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 5650,
-				["done"] = 0,
-			},
-			["Tritanix"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 270,
-						["crits"] = 0,
-						["max"] = 318,
-						["healing"] = 588,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Chi Burst"] = {
-						["min"] = 5165,
-						["crits"] = 1,
-						["max"] = 5165,
-						["healing"] = 5165,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 2,
-						["crits"] = 0,
-						["max"] = 513,
-						["healing"] = 1286,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 7039,
-				["done"] = 0,
-			},
-			["Cooties"] = {
-				["players"] = {
-				},
-				["hdone"] = 125,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 125,
-						["crits"] = 0,
-						["max"] = 125,
-						["healing"] = 125,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 125,
-				["htakenspell"] = {
-					["Leech"] = {
-						["min"] = 125,
-						["crits"] = 0,
-						["max"] = 125,
-						["healing"] = 125,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Pelemae"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 5,
-						["crits"] = 0,
-						["max"] = 47,
-						["healing"] = 99,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 106,
-						["healing"] = 106,
-						["overhealing"] = 1230,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 205,
-				["done"] = 0,
-			},
-			["Mahcha"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 11,
-						["crits"] = 0,
-						["max"] = 63,
-						["healing"] = 117,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 117,
-				["done"] = 0,
-			},
-			["Halbin Frosthammer"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 157,
-						["healing"] = 196,
-						["overhealing"] = 1179,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 196,
-				["done"] = 0,
-			},
-			["Myrandee"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 126,
-						["hits"] = 12,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Kolott"] = {
-				["players"] = {
-				},
-				["hdone"] = 28850,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 7212,
-						["crits"] = 0,
-						["max"] = 7213,
-						["healing"] = 28850,
-						["overhealing"] = 0,
-						["hits"] = 4,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Lumbermill"] = {
-				["players"] = {
-				},
-				["hdone"] = 9126,
-				["hdonespell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 661,
-						["crits"] = 0,
-						["max"] = 3965,
-						["healing"] = 8451,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Swift Hand of Justice"] = {
-						["min"] = 337,
-						["crits"] = 0,
-						["max"] = 338,
-						["healing"] = 675,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Swift Hand of Justice"] = {
-						["min"] = 337,
-						["crits"] = 0,
-						["max"] = 338,
-						["healing"] = 675,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Bloodthirst Heal"] = {
-						["min"] = 661,
-						["crits"] = 0,
-						["max"] = 3965,
-						["healing"] = 8451,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 7,
-						["crits"] = 0,
-						["max"] = 77,
-						["healing"] = 540,
-						["overhealing"] = 0,
-						["hits"] = 17,
-					},
-				},
-				["htaken"] = 9666,
-				["done"] = 0,
-			},
-			["Tulanni"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 488,
-						["hits"] = 18,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Grif Wildheart"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 236,
-						["healing"] = 370,
-						["overhealing"] = 301,
-						["hits"] = 4,
-					},
-				},
-				["htaken"] = 370,
-				["done"] = 0,
-			},
-			["Khal"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Chi Burst"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 4393,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 18,
-						["crits"] = 0,
-						["max"] = 19,
-						["healing"] = 37,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 37,
-				["done"] = 0,
-			},
-			["Mindelicate"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 1,
-						["crits"] = 0,
-						["max"] = 182,
-						["healing"] = 327,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 327,
-				["done"] = 0,
-			},
-			["Hennifer"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 945,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 4,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Inquisitor Ha'zaduum"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 498402,
-						["done"] = 86890,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 498402,
-				["done"] = 86890,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Matwarr"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 32,
-						["healing"] = 57,
-						["overhealing"] = 5,
-						["hits"] = 10,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 945,
-						["healing"] = 1985,
-						["overhealing"] = 317,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 2042,
-				["done"] = 0,
-			},
-			["Tharek Blackstone"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 554,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Pamorebea"] = {
-				["players"] = {
-				},
-				["hdone"] = 3614,
-				["hdonespell"] = {
-					["Light of the Protector"] = {
-						["min"] = 3614,
-						["crits"] = 0,
-						["max"] = 3614,
-						["healing"] = 3614,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 304,
-						["crits"] = 1,
-						["max"] = 304,
-						["healing"] = 304,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Light of the Protector"] = {
-						["min"] = 3614,
-						["crits"] = 0,
-						["max"] = 3614,
-						["healing"] = 3614,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 136,
-						["healing"] = 319,
-						["overhealing"] = 80,
-						["hits"] = 8,
-					},
-					["Essence Font"] = {
-						["min"] = 103,
-						["crits"] = 1,
-						["max"] = 1891,
-						["healing"] = 5036,
-						["overhealing"] = 0,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 9273,
-				["done"] = 0,
-			},
-			["Dakw"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 152,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Divine Storm"] = {
-						["min"] = 695,
-						["crits"] = 0,
-						["max"] = 695,
-						["healing"] = 695,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 19,
-						["crits"] = 0,
-						["max"] = 58,
-						["healing"] = 259,
-						["overhealing"] = 0,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 1106,
-				["done"] = 0,
-			},
-			["Pilot Stonegear"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 55,
-						["crits"] = 0,
-						["max"] = 110,
-						["healing"] = 468,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 468,
-				["done"] = 0,
-			},
-			["Arcane Protector"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 183460,
-						["done"] = 38738,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 183460,
-				["done"] = 38738,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Lethandia"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 7031,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 7031,
-						["crits"] = 0,
-						["max"] = 7031,
-						["healing"] = 7031,
-						["overhealing"] = 7018,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Attumen the Huntsman"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 1145270,
-						["done"] = 45,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 1145270,
-				["done"] = 45,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Nordö"] = {
-				["players"] = {
-				},
-				["hdone"] = 21106,
-				["hdonespell"] = {
-					["Swift Hand of Justice"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 1224,
-						["hits"] = 2,
-					},
-					["Lay on Hands"] = {
-						["min"] = 21106,
-						["crits"] = 0,
-						["max"] = 21106,
-						["healing"] = 21106,
-						["overhealing"] = 10526,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Swift Hand of Justice"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 1224,
-						["hits"] = 2,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 76,
-						["healing"] = 204,
-						["overhealing"] = 429,
-						["hits"] = 10,
-					},
-					["Lay on Hands"] = {
-						["min"] = 21106,
-						["crits"] = 0,
-						["max"] = 21106,
-						["healing"] = 21106,
-						["overhealing"] = 10526,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 21310,
-				["done"] = 0,
-			},
-			["Theshim"] = {
-				["players"] = {
-				},
-				["hdone"] = 182331,
-				["hdonespell"] = {
-					["Unholy Strength"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 24218,
-						["healing"] = 24218,
-						["overhealing"] = 44261,
-						["hits"] = 2,
-					},
-					["Blood Plague"] = {
-						["min"] = 4906,
-						["crits"] = 0,
-						["max"] = 4906,
-						["healing"] = 9812,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Death Strike"] = {
-						["min"] = 43565,
-						["crits"] = 0,
-						["max"] = 88634,
-						["healing"] = 132199,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Unholy Coil"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 10950,
-						["healing"] = 16102,
-						["overhealing"] = 10026,
-						["hits"] = 3,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Chi Burst"] = {
-						["min"] = 5165,
-						["crits"] = 1,
-						["max"] = 5165,
-						["healing"] = 5165,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Unholy Coil"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 10950,
-						["healing"] = 16102,
-						["overhealing"] = 10026,
-						["hits"] = 3,
-					},
-					["Shadow Mend"] = {
-						["min"] = 1069,
-						["crits"] = 0,
-						["max"] = 1069,
-						["healing"] = 1069,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Blood Plague"] = {
-						["min"] = 4906,
-						["crits"] = 0,
-						["max"] = 4906,
-						["healing"] = 9812,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Penance"] = {
-						["min"] = 392,
-						["crits"] = 1,
-						["max"] = 792,
-						["healing"] = 1576,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Unholy Strength"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 24218,
-						["healing"] = 24218,
-						["overhealing"] = 44261,
-						["hits"] = 2,
-					},
-					["Death Strike"] = {
-						["min"] = 43565,
-						["crits"] = 0,
-						["max"] = 88634,
-						["healing"] = 132199,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 52,
-						["healing"] = 645,
-						["overhealing"] = 52,
-						["hits"] = 19,
-					},
-					["Power Word: Radiance"] = {
-						["min"] = 488,
-						["crits"] = 0,
-						["max"] = 713,
-						["healing"] = 1201,
-						["overhealing"] = 225,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 191987,
-				["done"] = 0,
-			},
-			["Ciberius"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 19,
-						["crits"] = 0,
-						["max"] = 20,
-						["healing"] = 39,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 39,
-				["done"] = 0,
-			},
-			["Isabellamc"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Power Word: Radiance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 712,
-						["hits"] = 1,
-					},
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 52,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Spectral Stallion"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 2461922,
-						["done"] = 0,
-						["role"] = "NONE",
-						["class"] = "MONK",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 2461922,
-				["done"] = 0,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Beast"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 91,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Onemanarmy"] = {
-				["players"] = {
-				},
-				["hdone"] = 28787,
-				["hdonespell"] = {
-					["Greater Blessing of Wisdom"] = {
-						["min"] = 763,
-						["crits"] = 0,
-						["max"] = 763,
-						["healing"] = 8393,
-						["overhealing"] = 0,
-						["hits"] = 11,
-					},
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2879,
-						["healing"] = 20394,
-						["overhealing"] = 8565,
-						["hits"] = 19,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 28787,
-				["htakenspell"] = {
-					["Greater Blessing of Wisdom"] = {
-						["min"] = 763,
-						["crits"] = 0,
-						["max"] = 763,
-						["healing"] = 8393,
-						["overhealing"] = 0,
-						["hits"] = 11,
-					},
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2879,
-						["healing"] = 20394,
-						["overhealing"] = 8565,
-						["hits"] = 19,
-					},
-				},
-			},
-			["Migitjr"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 3,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Mommygoat"] = {
-				["players"] = {
-				},
-				["hdone"] = 610,
-				["hdonespell"] = {
-					["Riptide"] = {
-						["min"] = 37,
-						["crits"] = 1,
-						["max"] = 229,
-						["healing"] = 610,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Riptide"] = {
-						["min"] = 37,
-						["crits"] = 1,
-						["max"] = 229,
-						["healing"] = 610,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 12,
-						["crits"] = 0,
-						["max"] = 12,
-						["healing"] = 24,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 634,
-				["done"] = 0,
-			},
-			["Ironforge Mountaineer"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 371,
-						["healing"] = 1816,
-						["overhealing"] = 1941,
-						["hits"] = 20,
-					},
-				},
-				["htaken"] = 1816,
-				["done"] = 0,
-			},
-			["Danswhity"] = {
-				["players"] = {
-				},
-				["hdone"] = 5255,
-				["hdonespell"] = {
-					["Power Word: Radiance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 713,
-						["healing"] = 1913,
-						["overhealing"] = 1649,
-						["hits"] = 5,
-					},
-					["Shadow Mend"] = {
-						["min"] = 1069,
-						["crits"] = 0,
-						["max"] = 1069,
-						["healing"] = 1069,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Penance"] = {
-						["min"] = 392,
-						["crits"] = 1,
-						["max"] = 792,
-						["healing"] = 1576,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 52,
-						["healing"] = 697,
-						["overhealing"] = 620,
-						["hits"] = 31,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 64,
-						["hits"] = 8,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 945,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Pyrothian"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 4,
-						["healing"] = 4,
-						["overhealing"] = 34,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 4,
-				["done"] = 0,
-			},
-			["Captzaafir"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 3170,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Garninn"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 146,
-						["hits"] = 10,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 945,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Pilot Bellowfiz"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 148,
-						["healing"] = 815,
-						["overhealing"] = 127,
-						["hits"] = 10,
-					},
-				},
-				["htaken"] = 815,
-				["done"] = 0,
-			},
-			["Kozit"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 138,
-						["healing"] = 461,
-						["overhealing"] = 15,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 461,
-				["done"] = 0,
-			},
-			["Chímí"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-					["Healing Sphere"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 57228,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Batrak"] = {
-				["players"] = {
-				},
-				["hdone"] = 19874,
-				["hdonespell"] = {
-					["Crimson Vial"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 9937,
-						["healing"] = 19874,
-						["overhealing"] = 9937,
-						["hits"] = 3,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 259,
-						["crits"] = 0,
-						["max"] = 259,
-						["healing"] = 259,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Heal"] = {
-						["min"] = 18741,
-						["crits"] = 0,
-						["max"] = 18741,
-						["healing"] = 18741,
-						["overhealing"] = 19075,
-						["hits"] = 1,
-					},
-					["Crimson Vial"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 9937,
-						["healing"] = 19874,
-						["overhealing"] = 9937,
-						["hits"] = 3,
-					},
-					["Power Word: Radiance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 712,
-						["hits"] = 1,
-					},
-					["Chi Burst"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 2583,
-						["hits"] = 1,
-					},
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 259,
-						["hits"] = 5,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 476,
-						["healing"] = 1209,
-						["overhealing"] = 785,
-						["hits"] = 10,
-					},
-				},
-				["htaken"] = 40083,
-				["done"] = 0,
-			},
-			["Throdaris"] = {
-				["players"] = {
-				},
-				["hdone"] = 21944,
-				["hdonespell"] = {
-					["Consume Soul"] = {
-						["min"] = 21944,
-						["crits"] = 0,
-						["max"] = 21944,
-						["healing"] = 21944,
-						["overhealing"] = 58201,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 21944,
-				["htakenspell"] = {
-					["Consume Soul"] = {
-						["min"] = 21944,
-						["crits"] = 0,
-						["max"] = 21944,
-						["healing"] = 21944,
-						["overhealing"] = 58201,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Mechanical"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 18,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Krilena"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 18141,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-					["Bloodthirst Heal"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 18141,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Ghordied"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 284,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Dark Iron Skulker"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 153,
-						["healing"] = 305,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 485,
-						["healing"] = 4173,
-						["overhealing"] = 1154,
-						["hits"] = 27,
-					},
-				},
-				["htaken"] = 4478,
-				["done"] = 0,
-			},
-			["Jcp"] = {
-				["players"] = {
-				},
-				["hdone"] = 1565,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 311,
-						["crits"] = 0,
-						["max"] = 321,
-						["healing"] = 1565,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 356,
-						["hits"] = 15,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Maxan Anvol"] = {
-				["players"] = {
-				},
-				["hdone"] = 18741,
-				["hdonespell"] = {
-					["Heal"] = {
-						["min"] = 18741,
-						["crits"] = 0,
-						["max"] = 18741,
-						["healing"] = 18741,
-						["overhealing"] = 19075,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 324,
-						["hits"] = 4,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Idrilien"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 1075,
-				["htakenspell"] = {
-					["Aura of Mercy"] = {
-						["min"] = 1075,
-						["crits"] = 0,
-						["max"] = 1075,
-						["healing"] = 1075,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Satisfiction"] = {
-				["players"] = {
-				},
-				["hdone"] = 12843,
-				["hdonespell"] = {
-					["Consume Soul"] = {
-						["min"] = 12843,
-						["crits"] = 0,
-						["max"] = 12843,
-						["healing"] = 12843,
-						["overhealing"] = 20187,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 12843,
-				["htakenspell"] = {
-					["Consume Soul"] = {
-						["min"] = 12843,
-						["crits"] = 0,
-						["max"] = 12843,
-						["healing"] = 12843,
-						["overhealing"] = 20187,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Strawbèrry"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 114,
-						["crits"] = 0,
-						["max"] = 114,
-						["healing"] = 114,
-						["overhealing"] = 365,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 18,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 114,
-				["done"] = 0,
-			},
-			["Zyxw"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 89,
-						["hits"] = 6,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Dark Iron Shadowcaster"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 1,
-						["max"] = 305,
-						["healing"] = 763,
-						["overhealing"] = 0,
-						["hits"] = 4,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 330,
-						["healing"] = 2101,
-						["overhealing"] = 1105,
-						["hits"] = 18,
-					},
-				},
-				["htaken"] = 2864,
-				["done"] = 0,
-			},
-			["Randahl"] = {
-				["players"] = {
-				},
-				["hdone"] = 1075,
-				["hdonespell"] = {
-					["Aura of Mercy"] = {
-						["min"] = 1075,
-						["crits"] = 0,
-						["max"] = 1075,
-						["healing"] = 1075,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Duphae"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 600,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 600,
-						["crits"] = 0,
-						["max"] = 600,
-						["healing"] = 600,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Echõlo"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 1035,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Balphegor"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 94,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 94,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Ajaag"] = {
-				["players"] = {
-				},
-				["hdone"] = 71278,
-				["hdonespell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3404,
-						["healing"] = 71278,
-						["overhealing"] = 59063,
-						["hits"] = 905,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Jhoffer"] = {
-				["players"] = {
-				},
-				["hdone"] = 140,
-				["hdonespell"] = {
-					["Greater Blessing of Wisdom"] = {
-						["min"] = 27,
-						["crits"] = 0,
-						["max"] = 29,
-						["healing"] = 140,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Blessing of Wisdom"] = {
-						["min"] = 27,
-						["crits"] = 0,
-						["max"] = 29,
-						["healing"] = 140,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 27,
-						["healing"] = 41,
-						["overhealing"] = 134,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 181,
-				["done"] = 0,
-			},
-			["Azorous"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Atonement"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 257,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Yren"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 1048,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Spellfiend Devourer"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 795293,
-						["done"] = 99414,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 1801150,
-				["hdonespell"] = {
-					["Drain Life"] = {
-						["min"] = 19954,
-						["crits"] = 0,
-						["max"] = 63853,
-						["healing"] = 497517,
-						["overhealing"] = 0,
-						["hits"] = 15,
-					},
-					["Devour Magic"] = {
-						["min"] = 62224,
-						["crits"] = 0,
-						["max"] = 638526,
-						["healing"] = 1303633,
-						["overhealing"] = 505524,
-						["hits"] = 4,
-					},
-				},
-				["taken"] = 795293,
-				["done"] = 99414,
-				["htaken"] = 1801150,
-				["htakenspell"] = {
-					["Drain Life"] = {
-						["min"] = 19954,
-						["crits"] = 0,
-						["max"] = 63853,
-						["healing"] = 497517,
-						["overhealing"] = 0,
-						["hits"] = 15,
-					},
-					["Devour Magic"] = {
-						["min"] = 62224,
-						["crits"] = 0,
-						["max"] = 638526,
-						["healing"] = 1303633,
-						["overhealing"] = 505524,
-						["hits"] = 4,
-					},
-				},
-			},
-			["Arcane Keeper"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 257690,
-						["done"] = 48381,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 257690,
-				["done"] = 48381,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Philferer"] = {
-				["players"] = {
-				},
-				["hdone"] = 4018,
-				["hdonespell"] = {
-					["Crimson Vial"] = {
-						["min"] = 669,
-						["crits"] = 0,
-						["max"] = 670,
-						["healing"] = 4018,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Crimson Vial"] = {
-						["min"] = 669,
-						["crits"] = 0,
-						["max"] = 670,
-						["healing"] = 4018,
-						["overhealing"] = 0,
-						["hits"] = 6,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 9,
-						["crits"] = 0,
-						["max"] = 9,
-						["healing"] = 9,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 4027,
-				["done"] = 0,
-			},
-			["Blazing Imp"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 211326,
-						["done"] = 29749,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 211326,
-				["done"] = 29749,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Ironforge Guard"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 153,
-						["healing"] = 458,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 181,
-						["healing"] = 1675,
-						["overhealing"] = 1488,
-						["hits"] = 28,
-					},
-				},
-				["htaken"] = 2133,
-				["done"] = 0,
-			},
-			["Steelnasty"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 311,
-						["crits"] = 0,
-						["max"] = 311,
-						["healing"] = 311,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Consecration"] = {
-						["min"] = 147,
-						["crits"] = 0,
-						["max"] = 153,
-						["healing"] = 1364,
-						["overhealing"] = 5,
-						["hits"] = 9,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 402,
-						["healing"] = 960,
-						["overhealing"] = 69,
-						["hits"] = 15,
-					},
-				},
-				["htaken"] = 2635,
-				["done"] = 0,
-			},
-			["Ors"] = {
-				["players"] = {
-				},
-				["hdone"] = 2485,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 114,
-						["crits"] = 0,
-						["max"] = 500,
-						["healing"] = 2485,
-						["overhealing"] = 452,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 392,
-						["crits"] = 0,
-						["max"] = 392,
-						["healing"] = 392,
-						["overhealing"] = 87,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 5,
-						["healing"] = 5,
-						["overhealing"] = 145,
-						["hits"] = 15,
-					},
-				},
-				["htaken"] = 397,
-				["done"] = 0,
-			},
-			["Imhades"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 3926,
-						["hits"] = 9,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 3926,
-						["hits"] = 9,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 4488,
-						["hits"] = 4,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 3042,
-						["hits"] = 4,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Fraidas"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 318,
-						["crits"] = 0,
-						["max"] = 318,
-						["healing"] = 318,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 8,
-						["crits"] = 0,
-						["max"] = 77,
-						["healing"] = 409,
-						["overhealing"] = 0,
-						["hits"] = 12,
-					},
-				},
-				["htaken"] = 727,
-				["done"] = 0,
-			},
-			["Smoldering Infernal"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 580534,
-						["done"] = 174099,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 580534,
-				["done"] = 174099,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Héllion"] = {
-				["players"] = {
-				},
-				["hdone"] = 138055,
-				["hdonespell"] = {
-					["Healing Touch"] = {
-						["min"] = 48479,
-						["crits"] = 2,
-						["max"] = 89576,
-						["healing"] = 138055,
-						["overhealing"] = 29408,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 48479,
-						["crits"] = 2,
-						["max"] = 89576,
-						["healing"] = 138055,
-						["overhealing"] = 29408,
-						["hits"] = 2,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3404,
-						["healing"] = 15236,
-						["overhealing"] = 2119,
-						["hits"] = 12,
-					},
-				},
-				["htaken"] = 153291,
-				["done"] = 0,
-			},
-			["Belylock"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 33,
-						["crits"] = 0,
-						["max"] = 58,
-						["healing"] = 148,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 148,
-				["done"] = 0,
-			},
-			["Koggs"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 136,
-						["hits"] = 9,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Peria Lamenur"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 550,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Batorieva"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 212,
-						["hits"] = 15,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Nileera"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 321,
-						["crits"] = 0,
-						["max"] = 321,
-						["healing"] = 321,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 4,
-						["crits"] = 0,
-						["max"] = 14,
-						["healing"] = 80,
-						["overhealing"] = 0,
-						["hits"] = 11,
-					},
-				},
-				["htaken"] = 401,
-				["done"] = 0,
-			},
-			["Grawn Thromwyn"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 308,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Hexxd"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 3959,
-						["hits"] = 5,
-					},
-				},
-			},
-			["Honeyclaw"] = {
-				["players"] = {
-				},
-				["hdone"] = 46732,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 4519,
-						["crits"] = 0,
-						["max"] = 14049,
-						["healing"] = 46368,
-						["overhealing"] = 23877,
-						["hits"] = 5,
-					},
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 138,
-						["healing"] = 364,
-						["overhealing"] = 1355,
-						["hits"] = 6,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 11603,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 4519,
-						["crits"] = 0,
-						["max"] = 6720,
-						["healing"] = 11239,
-						["overhealing"] = 16859,
-						["hits"] = 2,
-					},
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 138,
-						["healing"] = 364,
-						["overhealing"] = 1355,
-						["hits"] = 6,
-					},
-				},
-			},
-			["Bleeknash"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 5408,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 5408,
-						["crits"] = 0,
-						["max"] = 5408,
-						["healing"] = 5408,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Tazzik"] = {
-				["players"] = {
-				},
-				["hdone"] = 15310,
-				["hdonespell"] = {
-					["Vampiric Touch"] = {
-						["min"] = 7210,
-						["crits"] = 0,
-						["max"] = 8100,
-						["healing"] = 15310,
-						["overhealing"] = 998,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 15310,
-				["htakenspell"] = {
-					["Vampiric Touch"] = {
-						["min"] = 7210,
-						["crits"] = 0,
-						["max"] = 8100,
-						["healing"] = 15310,
-						["overhealing"] = 998,
-						["hits"] = 2,
-					},
-				},
-			},
-			["Golorn Frostbeard"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 68,
-						["crits"] = 0,
-						["max"] = 68,
-						["healing"] = 68,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Essence Font"] = {
-						["min"] = 945,
-						["crits"] = 0,
-						["max"] = 945,
-						["healing"] = 1890,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 1958,
-				["done"] = 0,
-			},
-			["Cat"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 1,
-						["max"] = 304,
-						["healing"] = 608,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 12,
-						["crits"] = 0,
-						["max"] = 26,
-						["healing"] = 62,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Essence Font"] = {
-						["min"] = 103,
-						["crits"] = 0,
-						["max"] = 945,
-						["healing"] = 1151,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 1821,
-				["done"] = 0,
-			},
-			["Azar Stronghammer"] = {
-				["players"] = {
-				},
-				["hdone"] = 12031,
-				["hdonespell"] = {
-					["Divine Storm"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 6877,
-						["healing"] = 12031,
-						["overhealing"] = 6624,
-						["hits"] = 9,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 872,
-						["healing"] = 4010,
-						["overhealing"] = 620,
-						["hits"] = 16,
-					},
-				},
-				["htaken"] = 4010,
-				["done"] = 0,
-			},
-			["Water Elemental"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 13,
-						["healing"] = 28,
-						["overhealing"] = 44,
-						["hits"] = 9,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 945,
-						["healing"] = 1642,
-						["overhealing"] = 454,
-						["hits"] = 4,
-					},
-				},
-				["htaken"] = 1670,
-				["done"] = 0,
-			},
-			["Bearlytanky"] = {
-				["players"] = {
-				},
-				["hdone"] = 5408,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 5408,
-						["crits"] = 0,
-						["max"] = 5408,
-						["healing"] = 5408,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-				},
-			},
-			["Spiffy"] = {
-				["players"] = {
-				},
-				["hdone"] = 2483,
-				["hdonespell"] = {
-					["Death Strike"] = {
-						["min"] = 2483,
-						["crits"] = 0,
-						["max"] = 2483,
-						["healing"] = 2483,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 435,
-						["crits"] = 0,
-						["max"] = 500,
-						["healing"] = 935,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Chi Wave"] = {
-						["min"] = 318,
-						["crits"] = 1,
-						["max"] = 318,
-						["healing"] = 318,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 61,
-						["healing"] = 370,
-						["overhealing"] = 11,
-						["hits"] = 14,
-					},
-					["Death Strike"] = {
-						["min"] = 2483,
-						["crits"] = 0,
-						["max"] = 2483,
-						["healing"] = 2483,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Essence Font"] = {
-						["min"] = 103,
-						["crits"] = 0,
-						["max"] = 946,
-						["healing"] = 7138,
-						["overhealing"] = 0,
-						["hits"] = 12,
-					},
-				},
-				["htaken"] = 11244,
-				["done"] = 0,
-			},
-			["Xanvias"] = {
-				["players"] = {
-				},
-				["hdone"] = 8063,
-				["hdonespell"] = {
-					["Exhilaration"] = {
-						["min"] = 8063,
-						["crits"] = 0,
-						["max"] = 8063,
-						["healing"] = 8063,
-						["overhealing"] = 1618,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Exhilaration"] = {
-						["min"] = 8063,
-						["crits"] = 0,
-						["max"] = 8063,
-						["healing"] = 8063,
-						["overhealing"] = 1618,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 50,
-						["healing"] = 243,
-						["overhealing"] = 23,
-						["hits"] = 16,
-					},
-				},
-				["htaken"] = 8306,
-				["done"] = 0,
-			},
-			["Kazkhaid"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 528,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 132,
-						["crits"] = 0,
-						["max"] = 132,
-						["healing"] = 528,
-						["overhealing"] = 0,
-						["hits"] = 4,
-					},
-				},
-			},
-			["Swolteamsix"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 28098,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 14049,
-						["crits"] = 0,
-						["max"] = 14049,
-						["healing"] = 28098,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-			},
-			["Granis Swiftaxe"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 104,
-						["crits"] = 0,
-						["max"] = 220,
-						["healing"] = 689,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 689,
-				["done"] = 0,
-			},
-			["Fraxinûs"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 422,
-						["crits"] = 0,
-						["max"] = 422,
-						["healing"] = 422,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Chi Burst"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 1464,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 71,
-						["hits"] = 10,
-					},
-				},
-				["htaken"] = 422,
-				["done"] = 0,
-			},
-			["Kuthonien"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 52,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 0,
-				["htakenspell"] = {
-					["Leech"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 0,
-						["healing"] = 0,
-						["overhealing"] = 52,
-						["hits"] = 2,
-					},
-				},
-			},
-			["Fel Bat"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 0,
-						["done"] = 5943,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 5943,
-			},
-			["Gelnik"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Divine Storm"] = {
-						["min"] = 38,
-						["crits"] = 0,
-						["max"] = 38,
-						["healing"] = 38,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 7,
-						["crits"] = 0,
-						["max"] = 7,
-						["healing"] = 7,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 45,
-				["done"] = 0,
-			},
-			["Rejold Barleybrew"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 85,
-						["crits"] = 0,
-						["max"] = 175,
-						["healing"] = 815,
-						["overhealing"] = 0,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 815,
-				["done"] = 0,
-			},
-			["Corvelt"] = {
-				["players"] = {
-				},
-				["hdone"] = 4577,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 37,
-						["crits"] = 0,
-						["max"] = 693,
-						["healing"] = 4577,
-						["overhealing"] = 0,
-						["hits"] = 18,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 67727,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 7212,
-						["crits"] = 0,
-						["max"] = 7213,
-						["healing"] = 21638,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Healing Sphere"] = {
-						["min"] = 41512,
-						["crits"] = 0,
-						["max"] = 41512,
-						["healing"] = 41512,
-						["overhealing"] = 15716,
-						["hits"] = 1,
-					},
-					["Leech"] = {
-						["min"] = 37,
-						["crits"] = 0,
-						["max"] = 693,
-						["healing"] = 4577,
-						["overhealing"] = 0,
-						["hits"] = 18,
-					},
-				},
-			},
-			["Mespion"] = {
-				["players"] = {
-				},
-				["hdone"] = 146,
-				["hdonespell"] = {
-					["Greater Blessing of Wisdom"] = {
-						["min"] = 18,
-						["crits"] = 0,
-						["max"] = 19,
-						["healing"] = 146,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 311,
-						["crits"] = 0,
-						["max"] = 479,
-						["healing"] = 790,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Divine Storm"] = {
-						["min"] = 183,
-						["crits"] = 0,
-						["max"] = 183,
-						["healing"] = 183,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 153,
-						["healing"] = 609,
-						["overhealing"] = 0,
-						["hits"] = 4,
-					},
-					["Greater Blessing of Wisdom"] = {
-						["min"] = 18,
-						["crits"] = 0,
-						["max"] = 19,
-						["healing"] = 146,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 6,
-						["crits"] = 0,
-						["max"] = 88,
-						["healing"] = 312,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 2040,
-				["done"] = 0,
-			},
-			["Solapiupiude"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 85,
-						["healing"] = 85,
-						["overhealing"] = 232,
-						["hits"] = 7,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 1,
-						["max"] = 724,
-						["healing"] = 724,
-						["overhealing"] = 2627,
-						["hits"] = 7,
-					},
-				},
-				["htaken"] = 809,
-				["done"] = 0,
-			},
-			["Spellstalker"] = {
-				["players"] = {
-					["Miriyal"] = {
-						["taken"] = 158680,
-						["done"] = 0,
-						["class"] = "MONK",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 229011,
-				["hdonespell"] = {
-					["Devour Magic"] = {
-						["min"] = 229011,
-						["crits"] = 0,
-						["max"] = 229011,
-						["healing"] = 229011,
-						["overhealing"] = 4201,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 158680,
-				["done"] = 0,
-				["htaken"] = 229011,
-				["htakenspell"] = {
-					["Devour Magic"] = {
-						["min"] = 229011,
-						["crits"] = 0,
-						["max"] = 229011,
-						["healing"] = 229011,
-						["overhealing"] = 4201,
-						["hits"] = 1,
-					},
-				},
-			},
-			["Callmelayson"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 423,
-						["crits"] = 0,
-						["max"] = 423,
-						["healing"] = 423,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 16,
-						["healing"] = 66,
-						["overhealing"] = 38,
-						["hits"] = 13,
-					},
-					["Divine Storm"] = {
-						["min"] = 55,
-						["crits"] = 0,
-						["max"] = 55,
-						["healing"] = 55,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Essence Font"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 191,
-						["healing"] = 191,
-						["overhealing"] = 1144,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 735,
-				["done"] = 0,
-			},
-			["Jenovoa"] = {
-				["players"] = {
-				},
-				["hdone"] = 29707,
-				["hdonespell"] = {
-					["Leech"] = {
-						["min"] = 898,
-						["crits"] = 0,
-						["max"] = 10346,
-						["healing"] = 29707,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 2,
-						["max"] = 305,
-						["healing"] = 1675,
-						["overhealing"] = 0,
-						["hits"] = 9,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 108,
-						["crits"] = 0,
-						["max"] = 1270,
-						["healing"] = 4609,
-						["overhealing"] = 0,
-						["hits"] = 13,
-					},
-					["Divine Storm"] = {
-						["min"] = 4074,
-						["crits"] = 0,
-						["max"] = 4074,
-						["healing"] = 4074,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Leech"] = {
-						["min"] = 898,
-						["crits"] = 0,
-						["max"] = 10346,
-						["healing"] = 29707,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 40065,
-				["done"] = 0,
-			},
-			["Yogi"] = {
-				["players"] = {
-				},
-				["hdone"] = 11059,
-				["hdonespell"] = {
-					["Renewal"] = {
-						["min"] = 11059,
-						["crits"] = 0,
-						["max"] = 11059,
-						["healing"] = 11059,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Consecration"] = {
-						["min"] = 152,
-						["crits"] = 0,
-						["max"] = 152,
-						["healing"] = 304,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Inspiring Presence"] = {
-						["min"] = 45,
-						["crits"] = 0,
-						["max"] = 120,
-						["healing"] = 425,
-						["overhealing"] = 0,
-						["hits"] = 7,
-					},
-					["Renewal"] = {
-						["min"] = 11059,
-						["crits"] = 0,
-						["max"] = 11059,
-						["healing"] = 11059,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Essence Font"] = {
-						["min"] = 81,
-						["crits"] = 0,
-						["max"] = 945,
-						["healing"] = 1336,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 13124,
-				["done"] = 0,
-			},
-			["Brodrich"] = {
-				["players"] = {
-				},
-				["hdone"] = 162948,
-				["hdonespell"] = {
-					["Exhilaration"] = {
-						["min"] = 162948,
-						["crits"] = 0,
-						["max"] = 162948,
-						["healing"] = 162948,
-						["overhealing"] = 15522,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 162948,
-				["htakenspell"] = {
-					["Exhilaration"] = {
-						["min"] = 162948,
-						["crits"] = 0,
-						["max"] = 162948,
-						["healing"] = 162948,
-						["overhealing"] = 15522,
-						["hits"] = 1,
-					},
-				},
-			},
-		},
-		["mobtaken"] = 14694888,
-		["healing"] = 640894,
-		["mobdone"] = 1050299,
-		["power"] = {
-			[12] = 170,
-		},
-		["overhealing"] = 248221,
-		["damagetaken"] = 1050299,
-		["name"] = "Total",
-		["starttime"] = 1471770876,
-		["shielding"] = 0,
-		["mobhdone"] = 3688798,
-		["last_action"] = 1471770876,
-		["multistrikes"] = 0,
-	},
 	["sets"] = {
 		{
 			["healingabsorbed"] = 0,
@@ -5819,8 +7,8 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 8,
 			["interrupts"] = 0,
-			["endtime"] = 1473094452,
-			["gotboss"] = true,
+			["mobdone"] = 45,
+			["mobtaken"] = 8398549,
 			["damage"] = 8398549,
 			["players"] = {
 				{
@@ -5839,29 +27,29 @@ SkadaPerCharDB = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 1,
 							["id"] = 196608,
-							["auratype"] = "BUFF",
 							["uptime"] = 8,
+							["auratype"] = "BUFF",
 						},
 						["Blackout Kick!"] = {
 							["name"] = "Blackout Kick!",
 							["active"] = 0,
 							["id"] = 116768,
-							["auratype"] = "BUFF",
 							["uptime"] = 1,
+							["auratype"] = "BUFF",
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 1,
 							["id"] = 228287,
-							["auratype"] = "DEBUFF",
 							["uptime"] = 8,
+							["auratype"] = "DEBUFF",
 						},
 						["Spinning Crane Kick"] = {
 							["name"] = "Spinning Crane Kick",
 							["active"] = 0,
 							["id"] = 101546,
-							["auratype"] = "BUFF",
 							["uptime"] = 1,
+							["auratype"] = "BUFF",
 						},
 					},
 					["role"] = "NONE",
@@ -5912,53 +100,36 @@ SkadaPerCharDB = {
 							["damage"] = 445410,
 						},
 					},
+					["shielding"] = 0,
+					["damagetaken"] = 45,
 					["power"] = {
 						[12] = {
-							["amount"] = 4,
 							["spells"] = {
 								[100780] = 4,
 							},
+							["amount"] = 4,
 						},
 					},
-					["damagetaken"] = 45,
-					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1473094444,
-					["ccbreaks"] = 0,
+					["dispells"] = 0,
 					["damagetakenspells"] = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
+							["damage"] = 45,
+							["max"] = 45,
 							["min"] = 45,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Attack",
+							["critical"] = 0,
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["max"] = 45,
-							["damage"] = 45,
-						},
-					},
-					["overhealing"] = 10179,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 74,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["max"] = 74,
-							["critical"] = 1,
+							["glancing"] = 0,
 							["absorbed"] = 0,
-							["overhealing"] = 10179,
-							["hits"] = 4,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 74,
+					["maxhp"] = 344040,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -5968,8 +139,26 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["maxhp"] = 344040,
-					["dispells"] = 0,
+					["name"] = "Miriyal",
+					["healing"] = 74,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 74,
+							["multistrikes"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["hits"] = 4,
+							["overhealing"] = 10179,
+							["max"] = 74,
+							["critical"] = 1,
+							["absorbed"] = 0,
+						},
+					},
+					["overhealing"] = 10179,
+					["ccbreaks"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -5980,107 +169,107 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 571459,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "MONK",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 571459,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 571459,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Spectral Stallion"] = {
 					["players"] = {
 						["Miriyal"] = {
 							["taken"] = 2461922,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "MONK",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 2461922,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 2461922,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Midnight"] = {
 					["players"] = {
 						["Miriyal"] = {
 							["taken"] = 710603,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "MONK",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 710603,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 710603,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Spectral Stable Hand"] = {
 					["players"] = {
 						["Miriyal"] = {
 							["taken"] = 3509295,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "MONK",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 3509295,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 3509295,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Attumen the Huntsman"] = {
 					["players"] = {
 						["Miriyal"] = {
 							["taken"] = 1145270,
 							["done"] = 45,
-							["role"] = "NONE",
 							["class"] = "MONK",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 1145270,
-					["done"] = 45,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 1145270,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 45,
 				},
 			},
-			["mobtaken"] = 8398549,
+			["gotboss"] = true,
 			["starttime"] = 1473094444,
 			["healing"] = 74,
-			["power"] = {
-				[12] = 4,
-			},
+			["damagetaken"] = 45,
 			["multistrikes"] = 0,
 			["overhealing"] = 10179,
 			["shielding"] = 0,
 			["name"] = "Attumen the Huntsman",
 			["mobname"] = "Attumen the Huntsman",
-			["damagetaken"] = 45,
+			["power"] = {
+				[12] = 4,
+			},
 			["mobhdone"] = 0,
 			["last_action"] = 1473094444,
-			["mobdone"] = 45,
+			["endtime"] = 1473094452,
 		}, -- [1]
 		{
 			["healingabsorbed"] = 0,
@@ -6088,7 +277,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 31,
 			["interrupts"] = 0,
-			["mobdone"] = 174099,
+			["endtime"] = 1472021015,
 			["damage"] = 580534,
 			["players"] = {
 				{
@@ -6103,43 +292,43 @@ SkadaPerCharDB = {
 							["name"] = "Fists of Fury",
 							["active"] = 0,
 							["id"] = 113656,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
 						},
 						["Mortal Wounds"] = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 21,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 21,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 29,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 29,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 1,
 							["id"] = 129914,
-							["uptime"] = 11,
 							["auratype"] = "BUFF",
+							["uptime"] = 11,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 0,
 							["id"] = 196608,
-							["uptime"] = 27,
 							["auratype"] = "BUFF",
+							["uptime"] = 27,
 						},
 						["Blackout Kick!"] = {
 							["name"] = "Blackout Kick!",
 							["active"] = 0,
 							["id"] = 116768,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -6194,62 +383,80 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 1689,
-							["totalhits"] = 15,
+							["max"] = 8407,
 							["critical"] = 4,
 							["hit"] = 9,
-							["max"] = 8407,
+							["totalhits"] = 15,
 							["id"] = 6603,
 							["MISS"] = 2,
 							["damage"] = 54318,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 174099,
 					["power"] = {
 						[12] = {
+							["amount"] = 11,
 							["spells"] = {
 								[100780] = 10,
 								[121283] = 1,
 							},
-							["amount"] = 11,
 						},
 					},
+					["damagetaken"] = 174099,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020984,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Blazing Hellfire"] = {
 							["crushing"] = 0,
 							["id"] = 218624,
-							["damage"] = 153309,
-							["max"] = 15979,
-							["name"] = "Blazing Hellfire",
+							["absorbed"] = 0,
+							["min"] = 13780,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Blazing Hellfire",
 							["blocked"] = 0,
 							["totalhits"] = 10,
 							["resisted"] = 0,
-							["min"] = 13780,
-							["absorbed"] = 0,
+							["max"] = 15979,
+							["damage"] = 153309,
 						},
 						["Felflame Shield"] = {
 							["crushing"] = 0,
 							["id"] = 205827,
-							["damage"] = 20790,
-							["max"] = 2970,
-							["name"] = "Felflame Shield",
+							["absorbed"] = 0,
+							["min"] = 2970,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Felflame Shield",
 							["blocked"] = 0,
 							["totalhits"] = 7,
 							["resisted"] = 0,
-							["min"] = 2970,
-							["absorbed"] = 0,
+							["max"] = 2970,
+							["damage"] = 20790,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 211,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 33832,
+							["absorbed"] = 0,
+							["min"] = 1233,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 3,
+							["max"] = 4102,
+							["overhealing"] = 211,
+							["hits"] = 14,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 33832,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -6259,26 +466,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 33832,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 33832,
-							["multistrikes"] = 0,
-							["min"] = 1233,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 14,
-							["overhealing"] = 211,
-							["max"] = 4102,
-							["critical"] = 3,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 211,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -6288,11 +477,6 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 7031,
 					["htakenspell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 7031,
@@ -6303,34 +487,44 @@ SkadaPerCharDB = {
 							["hits"] = 1,
 						},
 					},
-				},
-				["Smoldering Infernal"] = {
-					["players"] = {
-						["Miriyal"] = {
-							["taken"] = 580534,
-							["done"] = 174099,
-							["class"] = "MONK",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 7031,
 					["hdonespell"] = {
 					},
-					["taken"] = 580534,
-					["done"] = 174099,
-					["htaken"] = 0,
+				},
+				["Cooties"] = {
+					["players"] = {
+					},
+					["hdone"] = 125,
 					["htakenspell"] = {
+						["Leech"] = {
+							["min"] = 125,
+							["crits"] = 0,
+							["max"] = 125,
+							["healing"] = 125,
+							["overhealing"] = 0,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 125,
+					["hdonespell"] = {
+						["Leech"] = {
+							["min"] = 125,
+							["crits"] = 0,
+							["max"] = 125,
+							["healing"] = 125,
+							["overhealing"] = 0,
+							["hits"] = 1,
+						},
 					},
 				},
 				["Swolteamsix"] = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 28098,
 					["htakenspell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 14049,
@@ -6341,12 +535,17 @@ SkadaPerCharDB = {
 							["hits"] = 2,
 						},
 					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 28098,
+					["hdonespell"] = {
+					},
 				},
 				["Onemanarmy"] = {
 					["players"] = {
 					},
 					["hdone"] = 22103,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Greater Blessing of Wisdom"] = {
 							["min"] = 763,
 							["crits"] = 0,
@@ -6367,7 +566,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 22103,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Greater Blessing of Wisdom"] = {
 							["min"] = 763,
 							["crits"] = 0,
@@ -6390,6 +589,11 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 35129,
+					["htakenspell"] = {
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
 					["hdonespell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 7031,
@@ -6400,38 +604,23 @@ SkadaPerCharDB = {
 							["hits"] = 3,
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
 				},
-				["Cooties"] = {
+				["Smoldering Infernal"] = {
 					["players"] = {
-					},
-					["hdone"] = 125,
-					["hdonespell"] = {
-						["Leech"] = {
-							["min"] = 125,
-							["crits"] = 0,
-							["max"] = 125,
-							["healing"] = 125,
-							["overhealing"] = 0,
-							["hits"] = 1,
+						["Miriyal"] = {
+							["taken"] = 580534,
+							["done"] = 174099,
+							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 125,
+					["hdone"] = 0,
 					["htakenspell"] = {
-						["Leech"] = {
-							["min"] = 125,
-							["crits"] = 0,
-							["max"] = 125,
-							["healing"] = 125,
-							["overhealing"] = 0,
-							["hits"] = 1,
-						},
+					},
+					["taken"] = 580534,
+					["done"] = 174099,
+					["htaken"] = 0,
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -6441,15 +630,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 11,
 			},
-			["damagetaken"] = 174099,
+			["multistrikes"] = 0,
 			["overhealing"] = 211,
 			["shielding"] = 0,
 			["name"] = "Smoldering Infernal",
 			["mobname"] = "Smoldering Infernal",
-			["multistrikes"] = 0,
+			["damagetaken"] = 174099,
 			["mobhdone"] = 57357,
 			["last_action"] = 1472020984,
-			["endtime"] = 1472021015,
+			["mobdone"] = 174099,
 		}, -- [2]
 		{
 			["healingabsorbed"] = 0,
@@ -6457,7 +646,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 22,
 			["interrupts"] = 1,
-			["mobdone"] = 40344,
+			["endtime"] = 1472020756,
 			["damage"] = 502619,
 			["players"] = {
 				{
@@ -6465,51 +654,51 @@ SkadaPerCharDB = {
 					["healingabsorbed"] = 0,
 					["class"] = "MONK",
 					["damaged"] = {
-						["Hellfire Infernal"] = 471191,
 						["Felfire Imp"] = 31428,
+						["Hellfire Infernal"] = 471191,
 					},
 					["auras"] = {
 						["Mortal Wounds"] = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 18,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 18,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 20,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 20,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 1,
 							["id"] = 129914,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 0,
 							["id"] = 196608,
-							["uptime"] = 20,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 20,
 						},
 						["Spinning Crane Kick"] = {
 							["name"] = "Spinning Crane Kick",
 							["active"] = 0,
 							["id"] = 101546,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 21,
 							["auratype"] = "BUFF",
+							["uptime"] = 21,
 						},
 					},
 					["role"] = "NONE",
@@ -6563,47 +752,65 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 1742,
-							["totalhits"] = 17,
+							["max"] = 8233,
 							["critical"] = 7,
 							["hit"] = 9,
-							["max"] = 8233,
+							["totalhits"] = 17,
 							["id"] = 6603,
 							["MISS"] = 1,
 							["damage"] = 67754,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 40344,
 					["power"] = {
 						[12] = {
+							["amount"] = 9,
 							["spells"] = {
 								[121283] = 1,
 								[100780] = 8,
 							},
-							["amount"] = 9,
 						},
 					},
+					["damagetaken"] = 40344,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020734,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Blazing Hellfire"] = {
 							["crushing"] = 0,
 							["id"] = 205258,
-							["damage"] = 40344,
-							["max"] = 13848,
-							["name"] = "Blazing Hellfire",
+							["absorbed"] = 0,
+							["min"] = 12680,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Blazing Hellfire",
 							["blocked"] = 0,
 							["totalhits"] = 3,
 							["resisted"] = 0,
-							["min"] = 12680,
-							["absorbed"] = 0,
+							["max"] = 13848,
+							["damage"] = 40344,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 4102,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 30757,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 6,
+							["max"] = 4102,
+							["overhealing"] = 4102,
+							["hits"] = 11,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 30757,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -6613,26 +820,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 30757,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 30757,
-							["multistrikes"] = 0,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 11,
-							["overhealing"] = 4102,
-							["max"] = 4102,
-							["critical"] = 6,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 4102,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -6642,6 +831,11 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 7212,
+					["htakenspell"] = {
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
 					["hdonespell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 7212,
@@ -6652,17 +846,12 @@ SkadaPerCharDB = {
 							["hits"] = 1,
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
 				},
 				["Tazzik"] = {
 					["players"] = {
 					},
 					["hdone"] = 8100,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Vampiric Touch"] = {
 							["min"] = 8100,
 							["crits"] = 0,
@@ -6675,7 +864,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 8100,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Vampiric Touch"] = {
 							["min"] = 8100,
 							["crits"] = 0,
@@ -6691,24 +880,24 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 471191,
 							["done"] = 40344,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 471191,
 					["done"] = 40344,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Spellstalker"] = {
 					["players"] = {
 					},
 					["hdone"] = 229011,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Devour Magic"] = {
 							["min"] = 229011,
 							["crits"] = 0,
@@ -6721,7 +910,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 229011,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Devour Magic"] = {
 							["min"] = 229011,
 							["crits"] = 0,
@@ -6736,11 +925,6 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 19502,
 					["htakenspell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 7212,
@@ -6751,16 +935,16 @@ SkadaPerCharDB = {
 							["hits"] = 2,
 						},
 					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 19502,
+					["hdonespell"] = {
+					},
 				},
 				["Bleeknash"] = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 5408,
 					["htakenspell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 5408,
@@ -6771,32 +955,37 @@ SkadaPerCharDB = {
 							["hits"] = 1,
 						},
 					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 5408,
+					["hdonespell"] = {
+					},
 				},
-				["Vynaigrette"] = {
+				["Bearlytanky"] = {
 					["players"] = {
 					},
-					["hdone"] = 12290,
-					["hdonespell"] = {
-						["Ysera's Gift"] = {
-							["min"] = 12290,
-							["crits"] = 0,
-							["max"] = 12290,
-							["healing"] = 12290,
-							["overhealing"] = 0,
-							["hits"] = 1,
-						},
+					["hdone"] = 5408,
+					["htakenspell"] = {
 					},
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
+						["Ysera's Gift"] = {
+							["min"] = 5408,
+							["crits"] = 0,
+							["max"] = 5408,
+							["healing"] = 5408,
+							["overhealing"] = 0,
+							["hits"] = 1,
+						},
 					},
 				},
 				["Brandas"] = {
 					["players"] = {
 					},
 					["hdone"] = 39639,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 19819,
 							["crits"] = 0,
@@ -6809,7 +998,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 39639,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 19819,
 							["crits"] = 0,
@@ -6824,7 +1013,7 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Touch of the Grave"] = {
 							["min"] = 0,
 							["crits"] = 0,
@@ -6837,7 +1026,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Touch of the Grave"] = {
 							["min"] = 0,
 							["crits"] = 0,
@@ -6852,7 +1041,7 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 5158,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Greater Blessing of Wisdom"] = {
 							["min"] = 763,
 							["crits"] = 0,
@@ -6873,7 +1062,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 5158,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Greater Blessing of Wisdom"] = {
 							["min"] = 763,
 							["crits"] = 0,
@@ -6892,24 +1081,24 @@ SkadaPerCharDB = {
 						},
 					},
 				},
-				["Bearlytanky"] = {
+				["Vynaigrette"] = {
 					["players"] = {
 					},
-					["hdone"] = 5408,
-					["hdonespell"] = {
-						["Ysera's Gift"] = {
-							["min"] = 5408,
-							["crits"] = 0,
-							["max"] = 5408,
-							["healing"] = 5408,
-							["overhealing"] = 0,
-							["hits"] = 1,
-						},
+					["hdone"] = 12290,
+					["htakenspell"] = {
 					},
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
+						["Ysera's Gift"] = {
+							["min"] = 12290,
+							["crits"] = 0,
+							["max"] = 12290,
+							["healing"] = 12290,
+							["overhealing"] = 0,
+							["hits"] = 1,
+						},
 					},
 				},
 				["Felfire Imp"] = {
@@ -6917,17 +1106,17 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 31428,
 							["done"] = 0,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 31428,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -6937,15 +1126,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 9,
 			},
-			["damagetaken"] = 40344,
+			["multistrikes"] = 0,
 			["overhealing"] = 4102,
 			["shielding"] = 0,
 			["name"] = "Hellfire Infernal (2)",
 			["mobname"] = "Hellfire Infernal",
-			["multistrikes"] = 0,
+			["damagetaken"] = 40344,
 			["mobhdone"] = 306818,
 			["last_action"] = 1472020734,
-			["endtime"] = 1472020756,
+			["mobdone"] = 40344,
 		}, -- [3]
 		{
 			["healingabsorbed"] = 0,
@@ -6953,7 +1142,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 8,
 			["interrupts"] = 0,
-			["mobdone"] = 7885,
+			["endtime"] = 1472020704,
 			["damage"] = 123425,
 			["players"] = {
 				{
@@ -6968,43 +1157,43 @@ SkadaPerCharDB = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 5,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 5,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 6,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 6,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 1,
 							["id"] = 196608,
-							["uptime"] = 6,
 							["auratype"] = "BUFF",
+							["uptime"] = 6,
 						},
 						["Dizzying Kicks"] = {
 							["name"] = "Dizzying Kicks",
 							["active"] = 0,
 							["id"] = 196723,
-							["uptime"] = 3,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 3,
 						},
 						["Blackout Kick!"] = {
 							["name"] = "Blackout Kick!",
 							["active"] = 1,
 							["id"] = 116768,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 6,
 							["auratype"] = "BUFF",
+							["uptime"] = 6,
 						},
 					},
 					["role"] = "NONE",
@@ -7047,47 +1236,65 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 1813,
-							["totalhits"] = 7,
+							["max"] = 8226,
 							["critical"] = 2,
 							["hit"] = 4,
-							["max"] = 8226,
+							["totalhits"] = 7,
 							["id"] = 6603,
 							["MISS"] = 1,
 							["damage"] = 21574,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 7885,
 					["power"] = {
 						[12] = {
+							["amount"] = 7,
 							["spells"] = {
 								[121283] = 1,
 								[100780] = 6,
 							},
-							["amount"] = 7,
 						},
 					},
+					["damagetaken"] = 7885,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020697,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 7885,
-							["max"] = 4027,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["min"] = 3858,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 2,
 							["resisted"] = 0,
-							["min"] = 3858,
-							["absorbed"] = 0,
+							["max"] = 4027,
+							["damage"] = 7885,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 2050,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 4100,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 0,
+							["max"] = 2050,
+							["overhealing"] = 2050,
+							["hits"] = 3,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 4100,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -7097,26 +1304,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 4100,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 4100,
-							["multistrikes"] = 0,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 3,
-							["overhealing"] = 2050,
-							["max"] = 2050,
-							["critical"] = 0,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 2050,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -7127,24 +1316,24 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 123425,
 							["done"] = 7885,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 123425,
 					["done"] = 7885,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Honeyclaw"] = {
 					["players"] = {
 					},
 					["hdone"] = 11603,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 4519,
 							["crits"] = 0,
@@ -7165,7 +1354,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 11603,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 4519,
 							["crits"] = 0,
@@ -7191,15 +1380,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 7,
 			},
-			["damagetaken"] = 7885,
+			["multistrikes"] = 0,
 			["overhealing"] = 2050,
 			["shielding"] = 0,
 			["name"] = "Shadowflame Imp",
 			["mobname"] = "Shadowflame Imp",
-			["multistrikes"] = 0,
+			["damagetaken"] = 7885,
 			["mobhdone"] = 11603,
 			["last_action"] = 1472020696,
-			["endtime"] = 1472020704,
+			["mobdone"] = 7885,
 		}, -- [4]
 		{
 			["healingabsorbed"] = 0,
@@ -7207,7 +1396,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 46,
 			["interrupts"] = 2,
-			["mobdone"] = 75765,
+			["endtime"] = 1472020565,
 			["damage"] = 1123324,
 			["players"] = {
 				{
@@ -7224,50 +1413,50 @@ SkadaPerCharDB = {
 							["name"] = "Fists of Fury",
 							["active"] = 0,
 							["id"] = 113656,
-							["uptime"] = 7,
 							["auratype"] = "BUFF",
+							["uptime"] = 7,
 						},
 						["Mortal Wounds"] = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 33,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 33,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 41,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 41,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 0,
 							["id"] = 129914,
-							["uptime"] = 6,
 							["auratype"] = "BUFF",
+							["uptime"] = 6,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 0,
 							["id"] = 196608,
-							["uptime"] = 40,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 40,
 						},
 						["Blackout Kick!"] = {
 							["name"] = "Blackout Kick!",
 							["active"] = 0,
 							["id"] = 116768,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Crackling Jade Lightning"] = {
 							["name"] = "Crackling Jade Lightning",
 							["active"] = 0,
 							["id"] = 117952,
-							["uptime"] = 1,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -7330,62 +1519,94 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 1814,
-							["totalhits"] = 28,
+							["max"] = 7950,
 							["critical"] = 10,
 							["hit"] = 10,
-							["max"] = 7950,
+							["totalhits"] = 28,
 							["id"] = 6603,
 							["MISS"] = 8,
 							["damage"] = 92423,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 75765,
 					["power"] = {
 						[12] = {
+							["amount"] = 23,
 							["spells"] = {
 								[100780] = 20,
 								[121283] = 3,
 							},
-							["amount"] = 23,
 						},
 					},
+					["damagetaken"] = 75765,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020519,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Blazing Hellfire"] = {
 							["crushing"] = 0,
 							["id"] = 205258,
-							["damage"] = 72016,
-							["max"] = 15848,
-							["name"] = "Blazing Hellfire",
+							["absorbed"] = 0,
+							["min"] = 10956,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Blazing Hellfire",
 							["blocked"] = 0,
 							["totalhits"] = 5,
 							["resisted"] = 0,
-							["min"] = 10956,
-							["absorbed"] = 0,
+							["max"] = 15848,
+							["damage"] = 72016,
 						},
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 3749,
-							["max"] = 3749,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["min"] = 3749,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 3749,
-							["absorbed"] = 0,
+							["max"] = 3749,
+							["damage"] = 3749,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 28020,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 55370,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 10,
+							["max"] = 4102,
+							["overhealing"] = 12304,
+							["hits"] = 23,
+							["multistrikes"] = 0,
+						},
+						["Healing Sphere"] = {
+							["shielding"] = 0,
+							["id"] = 163212,
+							["healing"] = 41512,
+							["absorbed"] = 0,
+							["min"] = 41512,
+							["multistrike"] = 0,
+							["name"] = "Healing Sphere",
+							["critical"] = 0,
+							["max"] = 41512,
+							["overhealing"] = 15716,
+							["hits"] = 1,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 96882,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -7395,46 +1616,14 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 						["Player-5-0A1C3457"] = {
-							["shielding"] = 0,
+							["amount"] = 41512,
 							["role"] = "NONE",
 							["name"] = "Corvelt",
-							["amount"] = 41512,
+							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 96882,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 55370,
-							["multistrikes"] = 0,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 23,
-							["overhealing"] = 12304,
-							["max"] = 4102,
-							["critical"] = 10,
-							["absorbed"] = 0,
-						},
-						["Healing Sphere"] = {
-							["shielding"] = 0,
-							["id"] = 163212,
-							["healing"] = 41512,
-							["multistrikes"] = 0,
-							["min"] = 41512,
-							["multistrike"] = 0,
-							["name"] = "Healing Sphere",
-							["hits"] = 1,
-							["overhealing"] = 15716,
-							["max"] = 41512,
-							["critical"] = 0,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 28020,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -7444,6 +1633,11 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 41512,
+					["htakenspell"] = {
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
 					["hdonespell"] = {
 						["Healing Sphere"] = {
 							["min"] = 41512,
@@ -7454,16 +1648,16 @@ SkadaPerCharDB = {
 							["hits"] = 1,
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
 				},
 				["Kolott"] = {
 					["players"] = {
 					},
 					["hdone"] = 21638,
+					["htakenspell"] = {
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
 					["hdonespell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 7212,
@@ -7474,31 +1668,18 @@ SkadaPerCharDB = {
 							["hits"] = 3,
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
 				},
 				["Spellfiend Devourer"] = {
 					["players"] = {
 						["Miriyal"] = {
 							["taken"] = 187386,
 							["done"] = 0,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 1305918,
-					["hdonespell"] = {
-						["Devour Magic"] = {
-							["min"] = 475835,
-							["crits"] = 0,
-							["max"] = 638526,
-							["healing"] = 1114361,
-							["overhealing"] = 162691,
-							["hits"] = 2,
-						},
+					["htakenspell"] = {
 						["Drain Life"] = {
 							["min"] = 63852,
 							["crits"] = 0,
@@ -7506,20 +1687,20 @@ SkadaPerCharDB = {
 							["healing"] = 191557,
 							["overhealing"] = 0,
 							["hits"] = 3,
+						},
+						["Devour Magic"] = {
+							["min"] = 475835,
+							["crits"] = 0,
+							["max"] = 638526,
+							["healing"] = 1114361,
+							["overhealing"] = 162691,
+							["hits"] = 2,
 						},
 					},
 					["taken"] = 187386,
 					["done"] = 0,
 					["htaken"] = 1305918,
-					["htakenspell"] = {
-						["Devour Magic"] = {
-							["min"] = 475835,
-							["crits"] = 0,
-							["max"] = 638526,
-							["healing"] = 1114361,
-							["overhealing"] = 162691,
-							["hits"] = 2,
-						},
+					["hdonespell"] = {
 						["Drain Life"] = {
 							["min"] = 63852,
 							["crits"] = 0,
@@ -7527,6 +1708,14 @@ SkadaPerCharDB = {
 							["healing"] = 191557,
 							["overhealing"] = 0,
 							["hits"] = 3,
+						},
+						["Devour Magic"] = {
+							["min"] = 475835,
+							["crits"] = 0,
+							["max"] = 638526,
+							["healing"] = 1114361,
+							["overhealing"] = 162691,
+							["hits"] = 2,
 						},
 					},
 				},
@@ -7535,17 +1724,17 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 853434,
 							["done"] = 72016,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 853434,
 					["done"] = 72016,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Blazing Imp"] = {
@@ -7553,24 +1742,24 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 82504,
 							["done"] = 0,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 82504,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Satisfiction"] = {
 					["players"] = {
 					},
 					["hdone"] = 12843,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Consume Soul"] = {
 							["min"] = 12843,
 							["crits"] = 0,
@@ -7583,7 +1772,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 12843,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Consume Soul"] = {
 							["min"] = 12843,
 							["crits"] = 0,
@@ -7599,36 +1788,51 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 0,
 							["done"] = 3749,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 0,
 					["done"] = 3749,
 					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Brodrich"] = {
+					["players"] = {
+					},
+					["hdone"] = 162948,
 					["htakenspell"] = {
+						["Exhilaration"] = {
+							["min"] = 162948,
+							["crits"] = 0,
+							["max"] = 162948,
+							["healing"] = 162948,
+							["overhealing"] = 15522,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 162948,
+					["hdonespell"] = {
+						["Exhilaration"] = {
+							["min"] = 162948,
+							["crits"] = 0,
+							["max"] = 162948,
+							["healing"] = 162948,
+							["overhealing"] = 15522,
+							["hits"] = 1,
+						},
 					},
 				},
 				["Corvelt"] = {
 					["players"] = {
 					},
 					["hdone"] = 4577,
-					["hdonespell"] = {
-						["Leech"] = {
-							["min"] = 37,
-							["crits"] = 0,
-							["max"] = 693,
-							["healing"] = 4577,
-							["overhealing"] = 0,
-							["hits"] = 18,
-						},
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 67727,
 					["htakenspell"] = {
 						["Ysera's Gift"] = {
 							["min"] = 7212,
@@ -7655,32 +1859,17 @@ SkadaPerCharDB = {
 							["hits"] = 18,
 						},
 					},
-				},
-				["Brodrich"] = {
-					["players"] = {
-					},
-					["hdone"] = 162948,
-					["hdonespell"] = {
-						["Exhilaration"] = {
-							["min"] = 162948,
-							["crits"] = 0,
-							["max"] = 162948,
-							["healing"] = 162948,
-							["overhealing"] = 15522,
-							["hits"] = 1,
-						},
-					},
 					["taken"] = 0,
 					["done"] = 0,
-					["htaken"] = 162948,
-					["htakenspell"] = {
-						["Exhilaration"] = {
-							["min"] = 162948,
+					["htaken"] = 67727,
+					["hdonespell"] = {
+						["Leech"] = {
+							["min"] = 37,
 							["crits"] = 0,
-							["max"] = 162948,
-							["healing"] = 162948,
-							["overhealing"] = 15522,
-							["hits"] = 1,
+							["max"] = 693,
+							["healing"] = 4577,
+							["overhealing"] = 0,
+							["hits"] = 18,
 						},
 					},
 				},
@@ -7691,15 +1880,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 23,
 			},
-			["damagetaken"] = 75765,
+			["multistrikes"] = 0,
 			["overhealing"] = 28020,
 			["shielding"] = 0,
 			["name"] = "Hellfire Infernal",
 			["mobname"] = "Hellfire Infernal",
-			["multistrikes"] = 0,
+			["damagetaken"] = 75765,
 			["mobhdone"] = 1549436,
 			["last_action"] = 1472020519,
-			["endtime"] = 1472020565,
+			["mobdone"] = 75765,
 		}, -- [5]
 		{
 			["healingabsorbed"] = 0,
@@ -7707,7 +1896,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 20,
 			["interrupts"] = 0,
-			["mobdone"] = 44776,
+			["endtime"] = 1472020453,
 			["damage"] = 311449,
 			["players"] = {
 				{
@@ -7722,64 +1911,64 @@ SkadaPerCharDB = {
 							["name"] = "Fists of Fury",
 							["active"] = 0,
 							["id"] = 113656,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 1,
 							["id"] = 129914,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 0,
 							["id"] = 196608,
-							["uptime"] = 17,
 							["auratype"] = "BUFF",
+							["uptime"] = 17,
 						},
 						["Dizzying Kicks"] = {
 							["name"] = "Dizzying Kicks",
 							["active"] = 0,
 							["id"] = 196723,
-							["uptime"] = 9,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 9,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 17,
 							["auratype"] = "BUFF",
+							["uptime"] = 17,
 						},
 						["Mortal Wounds"] = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 8,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 8,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 10,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 10,
 						},
 						["Crackling Jade Lightning"] = {
 							["name"] = "Crackling Jade Lightning",
 							["active"] = 0,
 							["id"] = 117952,
-							["uptime"] = 1,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 1,
 						},
 						["Blackout Kick!"] = {
 							["name"] = "Blackout Kick!",
 							["active"] = 0,
 							["id"] = 116768,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -7840,62 +2029,94 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 2025,
-							["totalhits"] = 7,
+							["max"] = 7858,
 							["critical"] = 3,
 							["hit"] = 2,
-							["max"] = 7858,
+							["totalhits"] = 7,
 							["id"] = 6603,
 							["MISS"] = 2,
 							["damage"] = 25432,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 44776,
 					["power"] = {
 						[12] = {
+							["amount"] = 7,
 							["spells"] = {
 								[100780] = 6,
 								[121283] = 1,
 							},
-							["amount"] = 7,
 						},
 					},
+					["damagetaken"] = 44776,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020436,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
-						["Attack"] = {
-							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 43872,
-							["max"] = 18423,
-							["name"] = "Attack",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 1,
-							["blocked"] = 0,
-							["totalhits"] = 4,
-							["resisted"] = 0,
-							["min"] = 7322,
-							["absorbed"] = 0,
-						},
 						["Drain Life"] = {
 							["crushing"] = 0,
 							["id"] = 204896,
-							["damage"] = 904,
-							["max"] = 904,
-							["name"] = "Drain Life",
+							["absorbed"] = 0,
+							["min"] = 904,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Drain Life",
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 904,
+							["max"] = 904,
+							["damage"] = 904,
+						},
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
 							["absorbed"] = 0,
+							["min"] = 7322,
+							["critical"] = 1,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 4,
+							["resisted"] = 0,
+							["max"] = 18423,
+							["damage"] = 43872,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 57228,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 23576,
+							["absorbed"] = 0,
+							["min"] = 1019,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 3,
+							["max"] = 4102,
+							["overhealing"] = 0,
+							["hits"] = 9,
+							["multistrikes"] = 0,
+						},
+						["Healing Sphere"] = {
+							["shielding"] = 0,
+							["id"] = 163212,
+							["healing"] = 0,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Healing Sphere",
+							["critical"] = 0,
+							["max"] = 0,
+							["overhealing"] = 57228,
+							["hits"] = 1,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 23576,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -7905,46 +2126,14 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 						["Player-5-0710CD6D"] = {
-							["shielding"] = 0,
+							["amount"] = 0,
 							["role"] = "NONE",
 							["name"] = "Chímí",
-							["amount"] = 0,
+							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 23576,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 23576,
-							["multistrikes"] = 0,
-							["min"] = 1019,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 9,
-							["overhealing"] = 0,
-							["max"] = 4102,
-							["critical"] = 3,
-							["absorbed"] = 0,
-						},
-						["Healing Sphere"] = {
-							["shielding"] = 0,
-							["id"] = 163212,
-							["healing"] = 0,
-							["multistrikes"] = 0,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Healing Sphere",
-							["hits"] = 1,
-							["overhealing"] = 57228,
-							["max"] = 0,
-							["critical"] = 0,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 57228,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -7954,6 +2143,11 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
 					["hdonespell"] = {
 						["Healing Sphere"] = {
 							["min"] = 0,
@@ -7964,23 +2158,18 @@ SkadaPerCharDB = {
 							["hits"] = 1,
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
 				},
 				["Spellfiend Devourer"] = {
 					["players"] = {
 						["Miriyal"] = {
 							["taken"] = 311449,
 							["done"] = 44776,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 19954,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Drain Life"] = {
 							["min"] = 19954,
 							["crits"] = 0,
@@ -7993,7 +2182,7 @@ SkadaPerCharDB = {
 					["taken"] = 311449,
 					["done"] = 44776,
 					["htaken"] = 19954,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Drain Life"] = {
 							["min"] = 19954,
 							["crits"] = 0,
@@ -8008,11 +2197,6 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 						["Healing Sphere"] = {
 							["min"] = 0,
@@ -8023,6 +2207,11 @@ SkadaPerCharDB = {
 							["hits"] = 1,
 						},
 					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
 				},
 			},
 			["mobtaken"] = 311449,
@@ -8031,15 +2220,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 7,
 			},
-			["damagetaken"] = 44776,
+			["multistrikes"] = 0,
 			["overhealing"] = 57228,
 			["shielding"] = 0,
 			["name"] = "Spellfiend Devourer",
 			["mobname"] = "Spellfiend Devourer",
-			["multistrikes"] = 0,
+			["damagetaken"] = 44776,
 			["mobhdone"] = 19954,
 			["last_action"] = 1472020433,
-			["endtime"] = 1472020453,
+			["mobdone"] = 44776,
 		}, -- [6]
 		{
 			["healingabsorbed"] = 0,
@@ -8047,7 +2236,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 20,
 			["interrupts"] = 0,
-			["mobdone"] = 54638,
+			["endtime"] = 1472020422,
 			["damage"] = 299893,
 			["players"] = {
 				{
@@ -8063,50 +2252,50 @@ SkadaPerCharDB = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 10,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 10,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 16,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 16,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 1,
 							["id"] = 129914,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
 						},
 						["Crackling Jade Lightning"] = {
 							["name"] = "Crackling Jade Lightning",
 							["active"] = 0,
 							["id"] = 117952,
-							["uptime"] = 2,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 2,
 						},
 						["Dizzying Kicks"] = {
 							["name"] = "Dizzying Kicks",
 							["active"] = 0,
 							["id"] = 196723,
-							["uptime"] = 12,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 12,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 1,
 							["id"] = 196608,
-							["uptime"] = 16,
 							["auratype"] = "BUFF",
+							["uptime"] = 16,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -8159,62 +2348,80 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 1935,
-							["totalhits"] = 16,
+							["max"] = 4352,
 							["critical"] = 3,
 							["hit"] = 12,
-							["max"] = 4352,
+							["totalhits"] = 16,
 							["id"] = 6603,
 							["MISS"] = 1,
 							["damage"] = 51650,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 54638,
 					["power"] = {
 						[12] = {
+							["amount"] = 9,
 							["spells"] = {
 								[100780] = 8,
 								[121283] = 1,
 							},
-							["amount"] = 9,
 						},
 					},
+					["damagetaken"] = 54638,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020402,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
-						["Attack"] = {
-							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 51923,
-							["max"] = 10413,
-							["name"] = "Attack",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 0,
-							["blocked"] = 0,
-							["totalhits"] = 6,
-							["resisted"] = 0,
-							["min"] = 7312,
-							["absorbed"] = 0,
-						},
 						["Drain Life"] = {
 							["crushing"] = 0,
 							["id"] = 204896,
-							["damage"] = 2715,
-							["max"] = 905,
-							["name"] = "Drain Life",
+							["absorbed"] = 0,
+							["min"] = 905,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Drain Life",
 							["blocked"] = 0,
 							["totalhits"] = 3,
 							["resisted"] = 0,
-							["min"] = 905,
+							["max"] = 905,
+							["damage"] = 2715,
+						},
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
 							["absorbed"] = 0,
+							["min"] = 7312,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 6,
+							["resisted"] = 0,
+							["max"] = 10413,
+							["damage"] = 51923,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 2051,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 26660,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 5,
+							["max"] = 4102,
+							["overhealing"] = 2051,
+							["hits"] = 9,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 26660,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -8224,26 +2431,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 26660,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 26660,
-							["multistrikes"] = 0,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 9,
-							["overhealing"] = 2051,
-							["max"] = 4102,
-							["critical"] = 5,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 2051,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -8254,12 +2443,12 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 296458,
 							["done"] = 54638,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 73164,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Drain Life"] = {
 							["min"] = 19954,
 							["crits"] = 0,
@@ -8272,7 +2461,7 @@ SkadaPerCharDB = {
 					["taken"] = 296458,
 					["done"] = 54638,
 					["htaken"] = 73164,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Drain Life"] = {
 							["min"] = 19954,
 							["crits"] = 0,
@@ -8283,57 +2472,11 @@ SkadaPerCharDB = {
 						},
 					},
 				},
-				["Blazing Imp"] = {
-					["players"] = {
-						["Miriyal"] = {
-							["taken"] = 3435,
-							["done"] = 0,
-							["class"] = "MONK",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 3435,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Throdaris"] = {
-					["players"] = {
-					},
-					["hdone"] = 21944,
-					["hdonespell"] = {
-						["Consume Soul"] = {
-							["min"] = 21944,
-							["crits"] = 0,
-							["max"] = 21944,
-							["healing"] = 21944,
-							["overhealing"] = 58201,
-							["hits"] = 1,
-						},
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 21944,
-					["htakenspell"] = {
-						["Consume Soul"] = {
-							["min"] = 21944,
-							["crits"] = 0,
-							["max"] = 21944,
-							["healing"] = 21944,
-							["overhealing"] = 58201,
-							["hits"] = 1,
-						},
-					},
-				},
 				["Kurtàlos"] = {
 					["players"] = {
 					},
 					["hdone"] = 17032,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 17032,
 							["crits"] = 0,
@@ -8346,7 +2489,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 17032,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 17032,
 							["crits"] = 0,
@@ -8357,6 +2500,52 @@ SkadaPerCharDB = {
 						},
 					},
 				},
+				["Throdaris"] = {
+					["players"] = {
+					},
+					["hdone"] = 21944,
+					["htakenspell"] = {
+						["Consume Soul"] = {
+							["min"] = 21944,
+							["crits"] = 0,
+							["max"] = 21944,
+							["healing"] = 21944,
+							["overhealing"] = 58201,
+							["hits"] = 1,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 21944,
+					["hdonespell"] = {
+						["Consume Soul"] = {
+							["min"] = 21944,
+							["crits"] = 0,
+							["max"] = 21944,
+							["healing"] = 21944,
+							["overhealing"] = 58201,
+							["hits"] = 1,
+						},
+					},
+				},
+				["Blazing Imp"] = {
+					["players"] = {
+						["Miriyal"] = {
+							["taken"] = 3435,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "MONK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 3435,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
 			},
 			["mobtaken"] = 299893,
 			["starttime"] = 1472020402,
@@ -8364,15 +2553,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 9,
 			},
-			["damagetaken"] = 54638,
+			["multistrikes"] = 0,
 			["overhealing"] = 2051,
 			["shielding"] = 0,
 			["name"] = "Blazing Imp (2)",
 			["mobname"] = "Blazing Imp",
-			["multistrikes"] = 0,
+			["damagetaken"] = 54638,
 			["mobhdone"] = 112140,
 			["last_action"] = 1472020402,
-			["endtime"] = 1472020422,
+			["mobdone"] = 54638,
 		}, -- [7]
 		{
 			["healingabsorbed"] = 0,
@@ -8380,7 +2569,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 9,
 			["interrupts"] = 0,
-			["mobdone"] = 0,
+			["endtime"] = 1472020397,
 			["damage"] = 134516,
 			["players"] = {
 				{
@@ -8395,43 +2584,43 @@ SkadaPerCharDB = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 6,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 6,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 8,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 8,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 0,
 							["id"] = 129914,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 1,
 							["id"] = 196608,
-							["uptime"] = 9,
 							["auratype"] = "BUFF",
+							["uptime"] = 9,
 						},
 						["Blackout Kick!"] = {
 							["name"] = "Blackout Kick!",
 							["active"] = 1,
 							["id"] = 116768,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 7,
 							["auratype"] = "BUFF",
+							["uptime"] = 7,
 						},
 					},
 					["role"] = "NONE",
@@ -8456,6 +2645,16 @@ SkadaPerCharDB = {
 							["max"] = 83832,
 							["damage"] = 83832,
 						},
+						["Attack"] = {
+							["min"] = 1877,
+							["max"] = 7251,
+							["critical"] = 5,
+							["hit"] = 1,
+							["totalhits"] = 7,
+							["id"] = 6603,
+							["MISS"] = 1,
+							["damage"] = 26709,
+						},
 						["Tiger Palm"] = {
 							["min"] = 3736,
 							["critical"] = 1,
@@ -8465,34 +2664,42 @@ SkadaPerCharDB = {
 							["max"] = 9864,
 							["damage"] = 13600,
 						},
-						["Attack"] = {
-							["min"] = 1877,
-							["totalhits"] = 7,
-							["critical"] = 5,
-							["hit"] = 1,
-							["max"] = 7251,
-							["id"] = 6603,
-							["MISS"] = 1,
-							["damage"] = 26709,
-						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 0,
 					["power"] = {
 						[12] = {
+							["amount"] = 3,
 							["spells"] = {
 								[121283] = 1,
 								[100780] = 2,
 							},
-							["amount"] = 3,
 						},
 					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472020388,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 10253,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 0,
+							["absorbed"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 1,
+							["max"] = 0,
+							["overhealing"] = 10253,
+							["hits"] = 4,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 0,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -8502,26 +2709,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 0,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 0,
-							["multistrikes"] = 0,
-							["min"] = 0,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 4,
-							["overhealing"] = 10253,
-							["max"] = 0,
-							["critical"] = 1,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 10253,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -8531,7 +2720,7 @@ SkadaPerCharDB = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 0,
 							["crits"] = 0,
@@ -8544,7 +2733,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 0,
 							["crits"] = 0,
@@ -8560,24 +2749,24 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 134516,
 							["done"] = 0,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 134516,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Kurtàlos"] = {
 					["players"] = {
 					},
 					["hdone"] = 34064,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 17032,
 							["crits"] = 0,
@@ -8590,7 +2779,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 34064,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 17032,
 							["crits"] = 0,
@@ -8608,15 +2797,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 3,
 			},
-			["damagetaken"] = 0,
+			["multistrikes"] = 0,
 			["overhealing"] = 10253,
 			["shielding"] = 0,
 			["name"] = "Spellstalker",
 			["mobname"] = "Spellstalker",
-			["multistrikes"] = 0,
+			["damagetaken"] = 0,
 			["mobhdone"] = 34064,
 			["last_action"] = 1472020388,
-			["endtime"] = 1472020397,
+			["mobdone"] = 0,
 		}, -- [8]
 		{
 			["healingabsorbed"] = 0,
@@ -8624,7 +2813,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 10,
 			["interrupts"] = 0,
-			["mobdone"] = 29749,
+			["endtime"] = 1472019765,
 			["damage"] = 125387,
 			["players"] = {
 				{
@@ -8639,50 +2828,50 @@ SkadaPerCharDB = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 5,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 5,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 7,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 7,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 0,
 							["id"] = 129914,
-							["uptime"] = 0,
 							["auratype"] = "BUFF",
+							["uptime"] = 0,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 1,
 							["id"] = 196608,
-							["uptime"] = 8,
 							["auratype"] = "BUFF",
+							["uptime"] = 8,
 						},
 						["Dizzying Kicks"] = {
 							["name"] = "Dizzying Kicks",
 							["active"] = 0,
 							["id"] = 196723,
-							["uptime"] = 3,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 3,
 						},
 						["Crackling Jade Lightning"] = {
 							["name"] = "Crackling Jade Lightning",
 							["active"] = 0,
 							["id"] = 117952,
-							["uptime"] = 1,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 1,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 8,
 							["auratype"] = "BUFF",
+							["uptime"] = 8,
 						},
 					},
 					["role"] = "NONE",
@@ -8727,60 +2916,78 @@ SkadaPerCharDB = {
 						["Attack"] = {
 							["min"] = 2856,
 							["critical"] = 3,
-							["totalhits"] = 6,
 							["max"] = 7381,
+							["totalhits"] = 6,
 							["id"] = 6603,
 							["MISS"] = 3,
 							["damage"] = 13916,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 29749,
 					["power"] = {
 						[12] = {
+							["amount"] = 8,
 							["spells"] = {
 								[121283] = 2,
 								[100780] = 6,
 							},
-							["amount"] = 8,
 						},
 					},
+					["damagetaken"] = 29749,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472019756,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Fire Bolt"] = {
 							["crushing"] = 0,
 							["id"] = 203368,
-							["damage"] = 22935,
-							["max"] = 8832,
-							["name"] = "Fire Bolt",
+							["absorbed"] = 0,
+							["min"] = 6486,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Fire Bolt",
 							["blocked"] = 0,
 							["totalhits"] = 3,
 							["resisted"] = 0,
-							["min"] = 6486,
-							["absorbed"] = 0,
+							["max"] = 8832,
+							["damage"] = 22935,
 						},
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 6814,
-							["max"] = 6814,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["min"] = 6814,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 6814,
-							["absorbed"] = 0,
+							["max"] = 6814,
+							["damage"] = 6814,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 0,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 6153,
+							["absorbed"] = 0,
+							["min"] = 2051,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 0,
+							["max"] = 2051,
+							["overhealing"] = 0,
+							["hits"] = 3,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 6153,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -8790,76 +2997,35 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 6153,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 6153,
-							["multistrikes"] = 0,
-							["min"] = 2051,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 3,
-							["overhealing"] = 0,
-							["max"] = 2051,
-							["critical"] = 0,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
 			["mobs"] = {
-				["Kurtàlos"] = {
+				["Blazing Imp"] = {
 					["players"] = {
-					},
-					["hdone"] = 34064,
-					["hdonespell"] = {
-						["Bloodthirst Heal"] = {
-							["min"] = 17032,
-							["crits"] = 0,
-							["max"] = 17032,
-							["healing"] = 34064,
-							["overhealing"] = 0,
-							["hits"] = 2,
+						["Miriyal"] = {
+							["taken"] = 125387,
+							["done"] = 29749,
+							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 40584,
+					["hdone"] = 0,
 					["htakenspell"] = {
-						["Bloodthirst Heal"] = {
-							["min"] = 17032,
-							["crits"] = 0,
-							["max"] = 17032,
-							["healing"] = 34064,
-							["overhealing"] = 0,
-							["hits"] = 2,
-						},
-						["Inspiring Presence"] = {
-							["min"] = 217,
-							["crits"] = 0,
-							["max"] = 1140,
-							["healing"] = 6520,
-							["overhealing"] = 0,
-							["hits"] = 9,
-						},
+					},
+					["taken"] = 125387,
+					["done"] = 29749,
+					["htaken"] = 0,
+					["hdonespell"] = {
 					},
 				},
 				["Hexxd"] = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 						["Inspiring Presence"] = {
 							["min"] = 0,
@@ -8870,16 +3036,16 @@ SkadaPerCharDB = {
 							["hits"] = 5,
 						},
 					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
 				},
 				["Kirin Tor Guardian"] = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
 					["htakenspell"] = {
 						["Inspiring Presence"] = {
 							["min"] = 0,
@@ -8890,12 +3056,17 @@ SkadaPerCharDB = {
 							["hits"] = 2,
 						},
 					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
 				},
 				["Spellfiend Devourer"] = {
 					["players"] = {
 					},
 					["hdone"] = 53210,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Drain Life"] = {
 							["min"] = 26605,
 							["crits"] = 0,
@@ -8908,7 +3079,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 53210,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Drain Life"] = {
 							["min"] = 26605,
 							["crits"] = 0,
@@ -8919,31 +3090,19 @@ SkadaPerCharDB = {
 						},
 					},
 				},
-				["Powerfulgoku"] = {
-					["players"] = {
-					},
-					["hdone"] = 12205,
-					["hdonespell"] = {
-						["Inspiring Presence"] = {
-							["min"] = 0,
-							["crits"] = 0,
-							["max"] = 1735,
-							["healing"] = 12205,
-							["overhealing"] = 7042,
-							["hits"] = 22,
-						},
-					},
-					["taken"] = 0,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
 				["Bulljr"] = {
 					["players"] = {
 					},
 					["hdone"] = 10302,
-					["hdonespell"] = {
+					["htakenspell"] = {
+						["Inspiring Presence"] = {
+							["min"] = 554,
+							["crits"] = 0,
+							["max"] = 1735,
+							["healing"] = 5685,
+							["overhealing"] = 0,
+							["hits"] = 6,
+						},
 						["Bloodthirst Heal"] = {
 							["min"] = 0,
 							["crits"] = 0,
@@ -8964,15 +3123,7 @@ SkadaPerCharDB = {
 					["taken"] = 0,
 					["done"] = 0,
 					["htaken"] = 15987,
-					["htakenspell"] = {
-						["Leech"] = {
-							["min"] = 0,
-							["crits"] = 0,
-							["max"] = 3900,
-							["healing"] = 10302,
-							["overhealing"] = 953,
-							["hits"] = 6,
-						},
+					["hdonespell"] = {
 						["Bloodthirst Heal"] = {
 							["min"] = 0,
 							["crits"] = 0,
@@ -8981,32 +3132,70 @@ SkadaPerCharDB = {
 							["overhealing"] = 17385,
 							["hits"] = 1,
 						},
-						["Inspiring Presence"] = {
-							["min"] = 554,
+						["Leech"] = {
+							["min"] = 0,
 							["crits"] = 0,
-							["max"] = 1735,
-							["healing"] = 5685,
-							["overhealing"] = 0,
+							["max"] = 3900,
+							["healing"] = 10302,
+							["overhealing"] = 953,
 							["hits"] = 6,
 						},
 					},
 				},
-				["Blazing Imp"] = {
+				["Powerfulgoku"] = {
 					["players"] = {
-						["Miriyal"] = {
-							["taken"] = 125387,
-							["done"] = 29749,
-							["class"] = "MONK",
-							["role"] = "NONE",
+					},
+					["hdone"] = 12205,
+					["htakenspell"] = {
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+						["Inspiring Presence"] = {
+							["min"] = 0,
+							["crits"] = 0,
+							["max"] = 1735,
+							["healing"] = 12205,
+							["overhealing"] = 7042,
+							["hits"] = 22,
 						},
 					},
-					["hdone"] = 0,
-					["hdonespell"] = {
+				},
+				["Kurtàlos"] = {
+					["players"] = {
 					},
-					["taken"] = 125387,
-					["done"] = 29749,
-					["htaken"] = 0,
+					["hdone"] = 34064,
 					["htakenspell"] = {
+						["Bloodthirst Heal"] = {
+							["min"] = 17032,
+							["crits"] = 0,
+							["max"] = 17032,
+							["healing"] = 34064,
+							["overhealing"] = 0,
+							["hits"] = 2,
+						},
+						["Inspiring Presence"] = {
+							["min"] = 217,
+							["crits"] = 0,
+							["max"] = 1140,
+							["healing"] = 6520,
+							["overhealing"] = 0,
+							["hits"] = 9,
+						},
+					},
+					["taken"] = 0,
+					["done"] = 0,
+					["htaken"] = 40584,
+					["hdonespell"] = {
+						["Bloodthirst Heal"] = {
+							["min"] = 17032,
+							["crits"] = 0,
+							["max"] = 17032,
+							["healing"] = 34064,
+							["overhealing"] = 0,
+							["hits"] = 2,
+						},
 					},
 				},
 			},
@@ -9016,15 +3205,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 8,
 			},
-			["damagetaken"] = 29749,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Blazing Imp",
 			["mobname"] = "Blazing Imp",
-			["multistrikes"] = 0,
+			["damagetaken"] = 29749,
 			["mobhdone"] = 109781,
 			["last_action"] = 1472019755,
-			["endtime"] = 1472019765,
+			["mobdone"] = 29749,
 		}, -- [9]
 		{
 			["healingabsorbed"] = 0,
@@ -9032,7 +3221,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 74,
 			["interrupts"] = 0,
-			["mobdone"] = 120169,
+			["endtime"] = 1472019557,
 			["damage"] = 727866,
 			["players"] = {
 				{
@@ -9048,50 +3237,50 @@ SkadaPerCharDB = {
 							["name"] = "Fists of Fury",
 							["active"] = 0,
 							["id"] = 113656,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
 						},
 						["Mortal Wounds"] = {
 							["name"] = "Mortal Wounds",
 							["active"] = 0,
 							["id"] = 115804,
-							["uptime"] = 40,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 40,
 						},
 						["Mark of the Crane"] = {
 							["name"] = "Mark of the Crane",
 							["active"] = 0,
 							["id"] = 228287,
-							["uptime"] = 62,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 62,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 1,
 							["id"] = 129914,
-							["uptime"] = 33,
 							["auratype"] = "BUFF",
+							["uptime"] = 33,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 0,
 							["id"] = 196608,
-							["uptime"] = 52,
 							["auratype"] = "BUFF",
+							["uptime"] = 52,
 						},
 						["Crackling Jade Lightning"] = {
 							["name"] = "Crackling Jade Lightning",
 							["active"] = 0,
 							["id"] = 117952,
-							["uptime"] = 2,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 2,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 0,
 							["id"] = 196741,
-							["uptime"] = 56,
 							["auratype"] = "BUFF",
+							["uptime"] = 56,
 						},
 					},
 					["role"] = "NONE",
@@ -9107,6 +3296,13 @@ SkadaPerCharDB = {
 							["max"] = 51722,
 							["damage"] = 51722,
 						},
+						["Crackling Jade Shock"] = {
+							["id"] = 117962,
+							["totalhits"] = 1,
+							["IMMUNE"] = 1,
+							["max"] = 0,
+							["damage"] = 0,
+						},
 						["Blackout Kick"] = {
 							["min"] = 17329,
 							["critical"] = 2,
@@ -9115,13 +3311,6 @@ SkadaPerCharDB = {
 							["id"] = 100784,
 							["max"] = 37275,
 							["damage"] = 179505,
-						},
-						["Crackling Jade Shock"] = {
-							["totalhits"] = 1,
-							["id"] = 117962,
-							["IMMUNE"] = 1,
-							["max"] = 0,
-							["damage"] = 0,
 						},
 						["Tiger Palm"] = {
 							["min"] = 4548,
@@ -9160,62 +3349,108 @@ SkadaPerCharDB = {
 						},
 						["Attack"] = {
 							["min"] = 1741,
-							["totalhits"] = 24,
+							["max"] = 7408,
 							["critical"] = 10,
 							["hit"] = 10,
-							["max"] = 7408,
+							["totalhits"] = 24,
 							["id"] = 6603,
 							["MISS"] = 4,
 							["damage"] = 87854,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 120169,
 					["power"] = {
 						[12] = {
+							["amount"] = 23,
 							["spells"] = {
 								[121283] = 3,
 								[100780] = 20,
 							},
-							["amount"] = 23,
 						},
 					},
+					["damagetaken"] = 120169,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472019486,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
-						["Attack"] = {
-							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 117968,
-							["max"] = 10676,
-							["name"] = "Attack",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 0,
-							["blocked"] = 0,
-							["totalhits"] = 15,
-							["resisted"] = 0,
-							["min"] = 5721,
-							["absorbed"] = 0,
-						},
 						["Return Fire"] = {
 							["crushing"] = 0,
 							["id"] = 29815,
-							["damage"] = 2201,
-							["max"] = 245,
-							["name"] = "Return Fire",
+							["absorbed"] = 0,
+							["min"] = 244,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Return Fire",
 							["blocked"] = 0,
 							["totalhits"] = 9,
 							["resisted"] = 0,
-							["min"] = 244,
+							["max"] = 245,
+							["damage"] = 2201,
+						},
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
 							["absorbed"] = 0,
+							["min"] = 5721,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 15,
+							["resisted"] = 0,
+							["max"] = 10676,
+							["damage"] = 117968,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 38990,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 78773,
+							["absorbed"] = 0,
+							["min"] = 691,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 14,
+							["max"] = 4102,
+							["overhealing"] = 0,
+							["hits"] = 27,
+							["multistrikes"] = 0,
+						},
+						["Healing Sphere"] = {
+							["shielding"] = 0,
+							["id"] = 163212,
+							["healing"] = 30726,
+							["absorbed"] = 0,
+							["min"] = 30726,
+							["multistrike"] = 0,
+							["name"] = "Healing Sphere",
+							["critical"] = 0,
+							["max"] = 30726,
+							["overhealing"] = 26502,
+							["hits"] = 1,
+							["multistrikes"] = 0,
+						},
+						["Effuse"] = {
+							["shielding"] = 0,
+							["id"] = 116694,
+							["healing"] = 25664,
+							["absorbed"] = 0,
+							["min"] = 6588,
+							["multistrike"] = 0,
+							["name"] = "Effuse",
+							["critical"] = 0,
+							["max"] = 19076,
+							["overhealing"] = 12488,
+							["hits"] = 2,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 135163,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -9225,54 +3460,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 135163,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 78773,
-							["multistrikes"] = 0,
-							["min"] = 691,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 27,
-							["overhealing"] = 0,
-							["max"] = 4102,
-							["critical"] = 14,
-							["absorbed"] = 0,
-						},
-						["Healing Sphere"] = {
-							["shielding"] = 0,
-							["id"] = 163212,
-							["healing"] = 30726,
-							["multistrikes"] = 0,
-							["min"] = 30726,
-							["multistrike"] = 0,
-							["name"] = "Healing Sphere",
-							["hits"] = 1,
-							["overhealing"] = 26502,
-							["max"] = 30726,
-							["critical"] = 0,
-							["absorbed"] = 0,
-						},
-						["Effuse"] = {
-							["shielding"] = 0,
-							["id"] = 116694,
-							["healing"] = 25664,
-							["multistrikes"] = 0,
-							["min"] = 6588,
-							["multistrike"] = 0,
-							["name"] = "Effuse",
-							["hits"] = 2,
-							["overhealing"] = 12488,
-							["max"] = 19076,
-							["critical"] = 0,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 38990,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -9283,17 +3472,17 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 470176,
 							["done"] = 71788,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 470176,
 					["done"] = 71788,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Arcane Keeper"] = {
@@ -9301,17 +3490,17 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 257690,
 							["done"] = 48381,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 257690,
 					["done"] = 48381,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -9321,15 +3510,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 23,
 			},
-			["damagetaken"] = 120169,
+			["multistrikes"] = 0,
 			["overhealing"] = 38990,
 			["shielding"] = 0,
 			["name"] = "Ancient Curator",
 			["mobname"] = "Ancient Curator",
-			["multistrikes"] = 0,
+			["damagetaken"] = 120169,
 			["mobhdone"] = 0,
 			["last_action"] = 1472019483,
-			["endtime"] = 1472019557,
+			["mobdone"] = 120169,
 		}, -- [10]
 		{
 			["healingabsorbed"] = 0,
@@ -9337,7 +3526,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 21,
 			["interrupts"] = 0,
-			["mobdone"] = 80951,
+			["endtime"] = 1472019459,
 			["damage"] = 498689,
 			["players"] = {
 				{
@@ -9352,78 +3541,78 @@ SkadaPerCharDB = {
 							["name"] = "Storm, Earth, and Fire",
 							["active"] = 0,
 							["id"] = 137639,
-							["uptime"] = 15,
 							["auratype"] = "BUFF",
+							["uptime"] = 15,
 						},
 						["Power Strikes"] = {
 							["name"] = "Power Strikes",
 							["active"] = 0,
 							["id"] = 129914,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Eye of the Tiger"] = {
 							["name"] = "Eye of the Tiger",
 							["active"] = 1,
 							["id"] = 196608,
-							["uptime"] = 18,
 							["auratype"] = "BUFF",
+							["uptime"] = 18,
 						},
 						["Flying Serpent Kick"] = {
 							["name"] = "Flying Serpent Kick",
 							["active"] = 0,
 							["id"] = 123586,
-							["uptime"] = 4,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 4,
 						},
 						["Hit Combo"] = {
 							["name"] = "Hit Combo",
 							["active"] = 1,
 							["id"] = 196741,
-							["uptime"] = 17,
 							["auratype"] = "BUFF",
+							["uptime"] = 17,
 						},
 						["Miriyal: Spinning Crane Kick"] = {
 							["name"] = "Miriyal: Spinning Crane Kick",
 							["active"] = 0,
 							["id"] = 101546,
-							["uptime"] = 2,
 							["auratype"] = "BUFF",
+							["uptime"] = 2,
 						},
 						["Spinning Crane Kick"] = {
 							["name"] = "Spinning Crane Kick",
 							["active"] = 0,
 							["id"] = 101546,
-							["uptime"] = 2,
 							["auratype"] = "BUFF",
+							["uptime"] = 2,
 						},
 						["Miriyal: Hit Combo"] = {
 							["name"] = "Miriyal: Hit Combo",
 							["active"] = 2,
 							["id"] = 196741,
+							["auratype"] = "BUFF",
 							["uptime"] = 14,
-							["auratype"] = "BUFF",
-						},
-						["Mark of the Crane"] = {
-							["name"] = "Mark of the Crane",
-							["active"] = 0,
-							["id"] = 228287,
-							["uptime"] = 17,
-							["auratype"] = "DEBUFF",
-						},
-						["Fists of Fury"] = {
-							["name"] = "Fists of Fury",
-							["active"] = 0,
-							["id"] = 113656,
-							["uptime"] = 3,
-							["auratype"] = "BUFF",
 						},
 						["Miriyal: Fists of Fury"] = {
 							["name"] = "Miriyal: Fists of Fury",
 							["active"] = 0,
 							["id"] = 113656,
-							["uptime"] = 4,
 							["auratype"] = "BUFF",
+							["uptime"] = 4,
+						},
+						["Fists of Fury"] = {
+							["name"] = "Fists of Fury",
+							["active"] = 0,
+							["id"] = 113656,
+							["auratype"] = "BUFF",
+							["uptime"] = 3,
+						},
+						["Mark of the Crane"] = {
+							["name"] = "Mark of the Crane",
+							["active"] = 0,
+							["id"] = 228287,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 17,
 						},
 					},
 					["role"] = "NONE",
@@ -9431,15 +3620,15 @@ SkadaPerCharDB = {
 					["interrupts"] = 0,
 					["damage"] = 498689,
 					["damagespells"] = {
-						["Attack"] = {
-							["min"] = 1525,
-							["totalhits"] = 5,
-							["critical"] = 2,
-							["hit"] = 2,
-							["max"] = 6598,
+						["Miriyal: Attack"] = {
+							["min"] = 558,
+							["max"] = 2415,
+							["critical"] = 7,
+							["hit"] = 5,
+							["totalhits"] = 14,
 							["id"] = 6603,
-							["MISS"] = 1,
-							["damage"] = 11491,
+							["MISS"] = 2,
+							["damage"] = 17482,
 						},
 						["Miriyal: Spinning Crane Kick"] = {
 							["min"] = 2923,
@@ -9495,64 +3684,82 @@ SkadaPerCharDB = {
 							["max"] = 3591,
 							["damage"] = 12567,
 						},
-						["Miriyal: Attack"] = {
-							["min"] = 558,
-							["totalhits"] = 14,
-							["critical"] = 7,
-							["hit"] = 5,
-							["max"] = 2415,
+						["Attack"] = {
+							["min"] = 1525,
+							["max"] = 6598,
+							["critical"] = 2,
+							["hit"] = 2,
+							["totalhits"] = 5,
 							["id"] = 6603,
-							["MISS"] = 2,
-							["damage"] = 17482,
+							["MISS"] = 1,
+							["damage"] = 11491,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 80951,
 					["power"] = {
 						[12] = {
+							["amount"] = 10,
 							["spells"] = {
 								[121283] = 2,
 								[100780] = 8,
 							},
-							["amount"] = 10,
 						},
 					},
+					["damagetaken"] = 80951,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A2F3596",
 					["first"] = 1472019440,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Enlighten"] = {
 							["crushing"] = 0,
 							["id"] = 182756,
-							["damage"] = 11880,
-							["max"] = 1485,
-							["name"] = "Enlighten",
+							["absorbed"] = 0,
+							["min"] = 1485,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Enlighten",
 							["blocked"] = 0,
 							["totalhits"] = 8,
 							["resisted"] = 0,
-							["min"] = 1485,
-							["absorbed"] = 0,
+							["max"] = 1485,
+							["damage"] = 11880,
 						},
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 69071,
-							["max"] = 4807,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["min"] = 1819,
+							["critical"] = 3,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 3,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 28,
 							["resisted"] = 0,
-							["min"] = 1819,
-							["absorbed"] = 0,
+							["max"] = 4807,
+							["damage"] = 69071,
 						},
 					},
-					["maxhp"] = 344040,
+					["overhealing"] = 0,
+					["healingspells"] = {
+						["Eye of the Tiger"] = {
+							["shielding"] = 0,
+							["id"] = 196608,
+							["healing"] = 10355,
+							["absorbed"] = 0,
+							["min"] = 922,
+							["multistrike"] = 0,
+							["name"] = "Eye of the Tiger",
+							["critical"] = 2,
+							["max"] = 2051,
+							["overhealing"] = 0,
+							["hits"] = 8,
+							["multistrikes"] = 0,
+						},
+					},
+					["name"] = "Miriyal",
+					["healing"] = 10355,
 					["healed"] = {
 						["Player-5-0A2F3596"] = {
 							["role"] = "NONE",
@@ -9562,26 +3769,8 @@ SkadaPerCharDB = {
 							["shielding"] = 0,
 						},
 					},
-					["name"] = "Miriyal",
-					["healing"] = 10355,
-					["healingspells"] = {
-						["Eye of the Tiger"] = {
-							["shielding"] = 0,
-							["id"] = 196608,
-							["healing"] = 10355,
-							["multistrikes"] = 0,
-							["min"] = 922,
-							["multistrike"] = 0,
-							["name"] = "Eye of the Tiger",
-							["hits"] = 8,
-							["overhealing"] = 0,
-							["max"] = 2051,
-							["critical"] = 2,
-							["absorbed"] = 0,
-						},
-					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 344040,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 				{
@@ -9596,32 +3785,32 @@ SkadaPerCharDB = {
 					["damage"] = 0,
 					["damagespells"] = {
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 0,
 					["power"] = {
 					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
 					["id"] = "Creature-0-3135-1529-18218-69792-00003D3BFA",
 					["maxhp"] = 0,
-					["first"] = 1472019444,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
+					},
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["name"] = "Earth Spirit",
+					["healing"] = 0,
+					["healed"] = {
 					},
 					["auras"] = {
 						["Storm, Earth, and Fire"] = {
 							["name"] = "Storm, Earth, and Fire",
 							["active"] = 1,
 							["id"] = 138130,
-							["uptime"] = 15,
 							["auratype"] = "BUFF",
+							["uptime"] = 15,
 						},
 					},
-					["healed"] = {
-					},
-					["name"] = "Earth Spirit",
-					["healing"] = 0,
-					["healingspells"] = {
-					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["first"] = 1472019444,
 					["multistrikes"] = 0,
 				}, -- [2]
 				{
@@ -9636,32 +3825,32 @@ SkadaPerCharDB = {
 					["damage"] = 0,
 					["damagespells"] = {
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 0,
 					["power"] = {
 					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
 					["id"] = "Creature-0-3135-1529-18218-69791-00003D3BFA",
 					["maxhp"] = 0,
-					["first"] = 1472019444,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
+					},
+					["overhealing"] = 0,
+					["healingspells"] = {
+					},
+					["name"] = "Fire Spirit",
+					["healing"] = 0,
+					["healed"] = {
 					},
 					["auras"] = {
 						["Storm, Earth, and Fire"] = {
 							["name"] = "Storm, Earth, and Fire",
 							["active"] = 1,
 							["id"] = 138130,
-							["uptime"] = 15,
 							["auratype"] = "BUFF",
+							["uptime"] = 15,
 						},
 					},
-					["healed"] = {
-					},
-					["name"] = "Fire Spirit",
-					["healing"] = 0,
-					["healingspells"] = {
-					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["first"] = 1472019444,
 					["multistrikes"] = 0,
 				}, -- [3]
 			},
@@ -9672,17 +3861,17 @@ SkadaPerCharDB = {
 						["Miriyal"] = {
 							["taken"] = 498689,
 							["done"] = 80951,
-							["class"] = "MONK",
 							["role"] = "NONE",
+							["class"] = "MONK",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 498689,
 					["done"] = 80951,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -9692,15 +3881,5827 @@ SkadaPerCharDB = {
 			["power"] = {
 				[12] = 10,
 			},
-			["damagetaken"] = 80951,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Agitated Tome",
 			["mobname"] = "Agitated Tome",
-			["multistrikes"] = 0,
+			["damagetaken"] = 80951,
 			["mobhdone"] = 0,
 			["last_action"] = 1472019438,
-			["endtime"] = 1472019459,
+			["mobdone"] = 80951,
 		}, -- [11]
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 364,
+		["interrupts"] = 4,
+		["damage"] = 14694888,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "MONK",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["Fists of Fury"] = {
+						["name"] = "Fists of Fury",
+						["active"] = 0,
+						["id"] = 113656,
+						["uptime"] = 25,
+						["auratype"] = "BUFF",
+					},
+					["Power Strikes"] = {
+						["name"] = "Power Strikes",
+						["active"] = 2,
+						["id"] = 129914,
+						["uptime"] = 197,
+						["auratype"] = "BUFF",
+					},
+					["Eye of the Tiger"] = {
+						["name"] = "Eye of the Tiger",
+						["active"] = 10,
+						["id"] = 196608,
+						["uptime"] = 395,
+						["auratype"] = "BUFF",
+					},
+					["Dizzying Kicks"] = {
+						["name"] = "Dizzying Kicks",
+						["active"] = 0,
+						["id"] = 196723,
+						["uptime"] = 54,
+						["auratype"] = "DEBUFF",
+					},
+					["Miriyal: Spinning Crane Kick"] = {
+						["name"] = "Miriyal: Spinning Crane Kick",
+						["active"] = 0,
+						["id"] = 101546,
+						["auratype"] = "BUFF",
+						["uptime"] = 2,
+					},
+					["Spinning Crane Kick"] = {
+						["name"] = "Spinning Crane Kick",
+						["active"] = 0,
+						["id"] = 101546,
+						["auratype"] = "BUFF",
+						["uptime"] = 4,
+					},
+					["Miriyal: Hit Combo"] = {
+						["name"] = "Miriyal: Hit Combo",
+						["active"] = 4,
+						["id"] = 196741,
+						["uptime"] = 383,
+						["auratype"] = "BUFF",
+					},
+					["Miriyal: Mortal Wounds"] = {
+						["name"] = "Miriyal: Mortal Wounds",
+						["active"] = 1,
+						["id"] = 115804,
+						["uptime"] = 375,
+						["auratype"] = "DEBUFF",
+					},
+					["Storm, Earth, and Fire"] = {
+						["name"] = "Storm, Earth, and Fire",
+						["active"] = 0,
+						["id"] = 137639,
+						["uptime"] = 30,
+						["auratype"] = "BUFF",
+					},
+					["Flying Serpent Kick"] = {
+						["name"] = "Flying Serpent Kick",
+						["active"] = 0,
+						["id"] = 123586,
+						["uptime"] = 8,
+						["auratype"] = "DEBUFF",
+					},
+					["Hit Combo"] = {
+						["name"] = "Hit Combo",
+						["active"] = 8,
+						["id"] = 196741,
+						["uptime"] = 393,
+						["auratype"] = "BUFF",
+					},
+					["Mortal Wounds"] = {
+						["name"] = "Mortal Wounds",
+						["active"] = 0,
+						["id"] = 115804,
+						["uptime"] = 195,
+						["auratype"] = "DEBUFF",
+					},
+					["Mark of the Crane"] = {
+						["name"] = "Mark of the Crane",
+						["active"] = 1,
+						["id"] = 228287,
+						["uptime"] = 313,
+						["auratype"] = "DEBUFF",
+					},
+					["Hero's Resolve"] = {
+						["name"] = "Hero's Resolve",
+						["active"] = 1,
+						["id"] = 202685,
+						["auratype"] = "BUFF",
+						["uptime"] = 412,
+					},
+					["Blackout Kick!"] = {
+						["name"] = "Blackout Kick!",
+						["active"] = 1,
+						["id"] = 116768,
+						["uptime"] = 78,
+						["auratype"] = "BUFF",
+					},
+					["Miriyal: Fists of Fury"] = {
+						["name"] = "Miriyal: Fists of Fury",
+						["active"] = 0,
+						["id"] = 113656,
+						["auratype"] = "BUFF",
+						["uptime"] = 4,
+					},
+					["Crackling Jade Lightning"] = {
+						["name"] = "Crackling Jade Lightning",
+						["active"] = 0,
+						["id"] = 117952,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 9,
+					},
+				},
+				["role"] = "NONE",
+				["time"] = 360,
+				["interrupts"] = 4,
+				["damage"] = 14694888,
+				["damagespells"] = {
+					["Fists of Fury"] = {
+						["min"] = 24523,
+						["critical"] = 10,
+						["hit"] = 19,
+						["totalhits"] = 29,
+						["id"] = 117418,
+						["max"] = 55003,
+						["damage"] = 1006407,
+					},
+					["Crackling Jade Shock"] = {
+						["id"] = 117962,
+						["totalhits"] = 2,
+						["IMMUNE"] = 2,
+						["max"] = 0,
+						["damage"] = 0,
+					},
+					["Tiger Palm"] = {
+						["min"] = 2328,
+						["critical"] = 28,
+						["hit"] = 45,
+						["totalhits"] = 73,
+						["id"] = 100780,
+						["max"] = 158970,
+						["damage"] = 754326,
+					},
+					["Eye of the Tiger"] = {
+						["min"] = 401,
+						["critical"] = 54,
+						["hit"] = 76,
+						["totalhits"] = 130,
+						["id"] = 196608,
+						["max"] = 53317,
+						["damage"] = 451650,
+					},
+					["Attack"] = {
+						["min"] = 781,
+						["totalhits"] = 202,
+						["critical"] = 69,
+						["hit"] = 97,
+						["max"] = 223555,
+						["id"] = 6603,
+						["MISS"] = 36,
+						["damage"] = 1081916,
+					},
+					["Flying Serpent Kick"] = {
+						["min"] = 1795,
+						["critical"] = 2,
+						["hit"] = 5,
+						["totalhits"] = 7,
+						["id"] = 123586,
+						["max"] = 3591,
+						["damage"] = 16158,
+					},
+					["Spinning Crane Kick"] = {
+						["min"] = 2980,
+						["critical"] = 17,
+						["hit"] = 31,
+						["totalhits"] = 48,
+						["id"] = 107270,
+						["max"] = 924734,
+						["damage"] = 6703705,
+					},
+					["Miriyal: Tiger Palm"] = {
+						["min"] = 1581,
+						["critical"] = 4,
+						["hit"] = 7,
+						["totalhits"] = 11,
+						["id"] = 100780,
+						["max"] = 4335,
+						["damage"] = 31041,
+					},
+					["Miriyal: Spinning Crane Kick"] = {
+						["min"] = 2923,
+						["critical"] = 25,
+						["hit"] = 27,
+						["totalhits"] = 52,
+						["id"] = 107270,
+						["max"] = 16204,
+						["damage"] = 259817,
+					},
+					["Miriyal: Rising Sun Kick"] = {
+						["min"] = 18085,
+						["critical"] = 1,
+						["hit"] = 1,
+						["totalhits"] = 2,
+						["id"] = 185099,
+						["max"] = 36170,
+						["damage"] = 54255,
+					},
+					["Blackout Kick"] = {
+						["min"] = 5796,
+						["critical"] = 22,
+						["hit"] = 42,
+						["totalhits"] = 64,
+						["id"] = 100784,
+						["max"] = 571459,
+						["damage"] = 2585751,
+					},
+					["Crackling Jade Lightning"] = {
+						["min"] = 1145,
+						["critical"] = 1,
+						["hit"] = 7,
+						["totalhits"] = 8,
+						["id"] = 117952,
+						["max"] = 2290,
+						["damage"] = 10558,
+					},
+					["Rising Sun Kick"] = {
+						["min"] = 18085,
+						["critical"] = 13,
+						["hit"] = 13,
+						["totalhits"] = 26,
+						["id"] = 185099,
+						["max"] = 89652,
+						["damage"] = 1603600,
+					},
+					["Miriyal: Blackout Kick"] = {
+						["min"] = 5796,
+						["critical"] = 3,
+						["hit"] = 7,
+						["totalhits"] = 10,
+						["id"] = 100784,
+						["max"] = 15303,
+						["damage"] = 95666,
+					},
+					["Miriyal: Attack"] = {
+						["min"] = 558,
+						["totalhits"] = 40,
+						["critical"] = 14,
+						["hit"] = 17,
+						["max"] = 2416,
+						["id"] = 6603,
+						["MISS"] = 9,
+						["damage"] = 40038,
+					},
+				},
+				["power"] = {
+					[12] = {
+						["spells"] = {
+							[100780] = 144,
+							[121283] = 24,
+							[163272] = 2,
+						},
+						["amount"] = 170,
+					},
+				},
+				["damagetaken"] = 1050299,
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 2050,
+						["spellid"] = 196608,
+						["hp"] = 202540,
+						["srcname"] = "Miriyal",
+						["ts"] = 1472021009.942,
+					}, -- [1]
+					{
+						["ts"] = 1472021011.135,
+						["amount"] = 1233,
+						["absorb"] = 0,
+						["hp"] = 203773,
+						["spellid"] = 196608,
+						["srcname"] = "Miriyal",
+					}, -- [2]
+					{
+						["ts"] = 1473094444.74,
+						["amount"] = -45,
+						["spellid"] = 88163,
+						["hp"] = 344011,
+						["srcname"] = "Attumen the Huntsman",
+					}, -- [3]
+					{
+						["ts"] = 1473094445.851,
+						["amount"] = 74,
+						["absorb"] = 0,
+						["srcname"] = "Miriyal",
+						["spellid"] = 196608,
+						["hp"] = 344040,
+					}, -- [4]
+					{
+						["ts"] = 1473094447.858,
+						["amount"] = 0,
+						["hp"] = 344040,
+						["spellid"] = 196608,
+						["srcname"] = "Miriyal",
+						["absorb"] = 0,
+					}, -- [5]
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["ts"] = 1473094449.851,
+						["srcname"] = "Miriyal",
+						["hp"] = 344040,
+						["spellid"] = 196608,
+					}, -- [6]
+					{
+						["ts"] = 1473094451.845,
+						["amount"] = 0,
+						["hp"] = 344040,
+						["spellid"] = 196608,
+						["srcname"] = "Miriyal",
+						["absorb"] = 0,
+					}, -- [7]
+					{
+						["ts"] = 1472020999.92,
+						["amount"] = 2051,
+						["absorb"] = 0,
+						["srcname"] = "Miriyal",
+						["spellid"] = 196608,
+						["hp"] = 223916,
+					}, -- [8]
+					{
+						["absorb"] = 0,
+						["amount"] = 4101,
+						["srcname"] = "Miriyal",
+						["spellid"] = 196608,
+						["hp"] = 228017,
+						["ts"] = 1472021001.905,
+					}, -- [9]
+					{
+						["ts"] = 1472021002.802,
+						["amount"] = -2970,
+						["spellid"] = 205827,
+						["srcname"] = "Smoldering Infernal",
+						["hp"] = 225047,
+					}, -- [10]
+					{
+						["ts"] = 1472021003.006,
+						["amount"] = -15800,
+						["hp"] = 209247,
+						["srcname"] = "Smoldering Infernal",
+						["spellid"] = 218624,
+					}, -- [11]
+					{
+						["absorb"] = 0,
+						["amount"] = 2051,
+						["srcname"] = "Miriyal",
+						["spellid"] = 196608,
+						["hp"] = 211298,
+						["ts"] = 1472021003.964,
+					}, -- [12]
+					{
+						["ts"] = 1472021003.964,
+						["amount"] = -14909,
+						["spellid"] = 218624,
+						["srcname"] = "Smoldering Infernal",
+						["hp"] = 196389,
+					}, -- [13]
+					{
+						["ts"] = 1472021005.961,
+						["amount"] = 2051,
+						["absorb"] = 0,
+						["srcname"] = "Miriyal",
+						["spellid"] = 196608,
+						["hp"] = 198440,
+					}, -- [14]
+					{
+						["absorb"] = 0,
+						["amount"] = 2050,
+						["srcname"] = "Miriyal",
+						["spellid"] = 196608,
+						["hp"] = 200490,
+						["ts"] = 1472021007.971,
+					}, -- [15]
+					["pos"] = 8,
+				},
+				["id"] = "Player-5-0A2F3596",
+				["maxhp"] = 327780,
+				["overhealing"] = 248221,
+				["damagetakenspells"] = {
+					["Mind Spike"] = {
+						["crushing"] = 0,
+						["id"] = 194519,
+						["damage"] = 7380,
+						["max"] = 2474,
+						["name"] = "Mind Spike",
+						["min"] = 2452,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 3,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+					["Drain Life"] = {
+						["crushing"] = 0,
+						["id"] = 204896,
+						["absorbed"] = 0,
+						["min"] = 904,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Drain Life",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 905,
+						["damage"] = 3619,
+					},
+					["Enlighten"] = {
+						["crushing"] = 0,
+						["id"] = 182756,
+						["absorbed"] = 0,
+						["min"] = 1485,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Enlighten",
+						["blocked"] = 0,
+						["totalhits"] = 8,
+						["resisted"] = 0,
+						["max"] = 1485,
+						["damage"] = 11880,
+					},
+					["Return Fire"] = {
+						["crushing"] = 0,
+						["id"] = 29815,
+						["absorbed"] = 0,
+						["min"] = 244,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Return Fire",
+						["blocked"] = 0,
+						["totalhits"] = 14,
+						["resisted"] = 0,
+						["max"] = 245,
+						["damage"] = 3422,
+					},
+					["Blazing Hellfire"] = {
+						["crushing"] = 0,
+						["id"] = 218624,
+						["absorbed"] = 0,
+						["min"] = 10956,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Blazing Hellfire",
+						["blocked"] = 0,
+						["totalhits"] = 18,
+						["resisted"] = 0,
+						["max"] = 15979,
+						["damage"] = 265669,
+					},
+					["Felflame Shield"] = {
+						["crushing"] = 0,
+						["id"] = 205827,
+						["absorbed"] = 0,
+						["min"] = 2970,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Felflame Shield",
+						["blocked"] = 0,
+						["totalhits"] = 7,
+						["resisted"] = 0,
+						["max"] = 2970,
+						["damage"] = 20790,
+					},
+					["Gluttonous Shadows"] = {
+						["crushing"] = 0,
+						["id"] = 206922,
+						["damage"] = 42745,
+						["max"] = 21676,
+						["name"] = "Gluttonous Shadows",
+						["min"] = 21069,
+						["multistrike"] = 0,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+					["Fire Bolt"] = {
+						["crushing"] = 0,
+						["id"] = 203368,
+						["absorbed"] = 0,
+						["min"] = 6486,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Fire Bolt",
+						["blocked"] = 0,
+						["totalhits"] = 3,
+						["resisted"] = 0,
+						["max"] = 8832,
+						["damage"] = 22935,
+					},
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 4,
+						["min"] = 45,
+						["multistrike"] = 0,
+						["name"] = "Attack",
+						["blocked"] = 0,
+						["totalhits"] = 92,
+						["resisted"] = 0,
+						["max"] = 18423,
+						["damage"] = 671859,
+					},
+				},
+				["healingspells"] = {
+					["Eye of the Tiger"] = {
+						["shielding"] = 0,
+						["id"] = 196608,
+						["healing"] = 371160,
+						["multistrikes"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Eye of the Tiger",
+						["hits"] = 160,
+						["overhealing"] = 53454,
+						["max"] = 4102,
+						["critical"] = 61,
+						["absorbed"] = 0,
+					},
+					["Healing Sphere"] = {
+						["shielding"] = 0,
+						["id"] = 125355,
+						["healing"] = 244070,
+						["multistrikes"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Healing Sphere",
+						["hits"] = 7,
+						["overhealing"] = 182279,
+						["max"] = 57228,
+						["critical"] = 1,
+						["absorbed"] = 0,
+					},
+					["Effuse"] = {
+						["shielding"] = 0,
+						["id"] = 116694,
+						["healing"] = 25664,
+						["absorbed"] = 0,
+						["min"] = 6588,
+						["multistrike"] = 0,
+						["name"] = "Effuse",
+						["critical"] = 0,
+						["max"] = 19076,
+						["overhealing"] = 12488,
+						["hits"] = 2,
+						["multistrikes"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["name"] = "Miriyal",
+				["healing"] = 640894,
+				["healed"] = {
+					["Player-5-0A2F3596"] = {
+						["role"] = "NONE",
+						["name"] = "Miriyal",
+						["amount"] = 599382,
+						["class"] = "MONK",
+						["shielding"] = 0,
+					},
+					["Player-5-0A1C3457"] = {
+						["amount"] = 41512,
+						["role"] = "NONE",
+						["name"] = "Corvelt",
+						["shielding"] = 0,
+					},
+					["Player-5-0710CD6D"] = {
+						["amount"] = 0,
+						["role"] = "NONE",
+						["name"] = "Chímí",
+						["shielding"] = 0,
+					},
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["multistrikes"] = 0,
+			}, -- [1]
+			{
+				["healingabsorbed"] = 0,
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["ccbreaks"] = 0,
+				["damagetaken"] = 0,
+				["power"] = {
+				},
+				["id"] = "Creature-0-3884-1579-10432-69792-00003D256F",
+				["maxhp"] = 0,
+				["auras"] = {
+					["Storm, Earth, and Fire"] = {
+						["name"] = "Storm, Earth, and Fire",
+						["active"] = 1,
+						["id"] = 138130,
+						["uptime"] = 385,
+						["auratype"] = "BUFF",
+					},
+				},
+				["damagetakenspells"] = {
+				},
+				["healed"] = {
+				},
+				["healing"] = 0,
+				["name"] = "Earth Spirit",
+				["shielding"] = 0,
+				["healingspells"] = {
+				},
+				["overhealing"] = 0,
+				["deathlog"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [2]
+			{
+				["healingabsorbed"] = 0,
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["ccbreaks"] = 0,
+				["damagetaken"] = 0,
+				["power"] = {
+				},
+				["id"] = "Creature-0-3884-1579-10432-69791-00003D256F",
+				["maxhp"] = 0,
+				["auras"] = {
+					["Storm, Earth, and Fire"] = {
+						["name"] = "Storm, Earth, and Fire",
+						["active"] = 1,
+						["id"] = 138130,
+						["uptime"] = 385,
+						["auratype"] = "BUFF",
+					},
+				},
+				["damagetakenspells"] = {
+				},
+				["healed"] = {
+				},
+				["healing"] = 0,
+				["name"] = "Fire Spirit",
+				["shielding"] = 0,
+				["healingspells"] = {
+				},
+				["overhealing"] = 0,
+				["deathlog"] = {
+				},
+				["multistrikes"] = 0,
+			}, -- [3]
+			{
+				["healingabsorbed"] = 0,
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["ccbreaks"] = 0,
+				["damagetaken"] = 0,
+				["power"] = {
+				},
+				["id"] = "Creature-0-3135-1529-18218-69792-00003D3BFA",
+				["maxhp"] = 0,
+				["deathlog"] = {
+				},
+				["damagetakenspells"] = {
+				},
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["name"] = "Earth Spirit",
+				["shielding"] = 0,
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["auras"] = {
+					["Storm, Earth, and Fire"] = {
+						["name"] = "Storm, Earth, and Fire",
+						["active"] = 1,
+						["id"] = 138130,
+						["auratype"] = "BUFF",
+						["uptime"] = 299,
+					},
+				},
+				["multistrikes"] = 0,
+			}, -- [4]
+			{
+				["healingabsorbed"] = 0,
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["role"] = "NONE",
+				["time"] = 0,
+				["interrupts"] = 0,
+				["damage"] = 0,
+				["damagespells"] = {
+				},
+				["ccbreaks"] = 0,
+				["damagetaken"] = 0,
+				["power"] = {
+				},
+				["id"] = "Creature-0-3135-1529-18218-69791-00003D3BFA",
+				["maxhp"] = 0,
+				["deathlog"] = {
+				},
+				["damagetakenspells"] = {
+				},
+				["overhealing"] = 0,
+				["healingspells"] = {
+				},
+				["name"] = "Fire Spirit",
+				["shielding"] = 0,
+				["healing"] = 0,
+				["healed"] = {
+				},
+				["auras"] = {
+					["Storm, Earth, and Fire"] = {
+						["name"] = "Storm, Earth, and Fire",
+						["active"] = 1,
+						["id"] = 138130,
+						["auratype"] = "BUFF",
+						["uptime"] = 299,
+					},
+				},
+				["multistrikes"] = 0,
+			}, -- [5]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["Vargal"] = {
+				["players"] = {
+				},
+				["hdone"] = 51200,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 259,
+						["crits"] = 0,
+						["max"] = 423,
+						["healing"] = 993,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Essence Font"] = {
+						["min"] = 103,
+						["crits"] = 1,
+						["max"] = 1891,
+						["healing"] = 8923,
+						["overhealing"] = 0,
+						["hits"] = 12,
+					},
+					["Gust of Mists"] = {
+						["min"] = 1168,
+						["crits"] = 1,
+						["max"] = 1168,
+						["healing"] = 1168,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Renewing Mist"] = {
+						["min"] = 602,
+						["crits"] = 1,
+						["max"] = 1203,
+						["healing"] = 4213,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 14,
+						["crits"] = 0,
+						["max"] = 44,
+						["healing"] = 287,
+						["overhealing"] = 0,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 15584,
+				["hdonespell"] = {
+					["Gust of Mists"] = {
+						["min"] = 1168,
+						["crits"] = 1,
+						["max"] = 1168,
+						["healing"] = 1168,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 7,
+						["max"] = 1891,
+						["healing"] = 45819,
+						["overhealing"] = 20854,
+						["hits"] = 126,
+					},
+					["Renewing Mist"] = {
+						["min"] = 602,
+						["crits"] = 1,
+						["max"] = 1203,
+						["healing"] = 4213,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Gimrizz Shadowcog"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 410,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Dark Iron Dwarf"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 210,
+						["healing"] = 444,
+						["overhealing"] = 451,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 444,
+				["hdonespell"] = {
+				},
+			},
+			["Mename"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 131,
+						["healing"] = 174,
+						["overhealing"] = 97,
+						["hits"] = 4,
+					},
+				},
+				["htaken"] = 174,
+				["hdonespell"] = {
+				},
+			},
+			["Powerfulgoku"] = {
+				["players"] = {
+				},
+				["hdone"] = 17388,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1735,
+						["healing"] = 17388,
+						["overhealing"] = 19030,
+						["hits"] = 41,
+					},
+				},
+			},
+			["Mountaineer Dolf"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 135,
+						["crits"] = 0,
+						["max"] = 179,
+						["healing"] = 476,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 476,
+				["hdonespell"] = {
+				},
+			},
+			["Yoffee"] = {
+				["players"] = {
+				},
+				["hdone"] = 5095,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Leech"] = {
+						["min"] = 475,
+						["crits"] = 0,
+						["max"] = 3282,
+						["healing"] = 5095,
+						["overhealing"] = 2336,
+						["hits"] = 4,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1746,
+						["healing"] = 3192,
+						["overhealing"] = 653,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 8287,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 475,
+						["crits"] = 0,
+						["max"] = 3282,
+						["healing"] = 5095,
+						["overhealing"] = 2336,
+						["hits"] = 4,
+					},
+				},
+			},
+			["Shadowsworn Ritualist"] = {
+				["players"] = {
+				},
+				["hdone"] = 58523,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Shadow Pact"] = {
+						["min"] = 8360,
+						["crits"] = 0,
+						["max"] = 8361,
+						["healing"] = 16721,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 16721,
+				["hdonespell"] = {
+					["Shadow Pact"] = {
+						["min"] = 8360,
+						["crits"] = 0,
+						["max"] = 8361,
+						["healing"] = 58523,
+						["overhealing"] = 0,
+						["hits"] = 7,
+					},
+				},
+			},
+			["Ragnar Thunderbrew"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 64,
+						["crits"] = 0,
+						["max"] = 179,
+						["healing"] = 740,
+						["overhealing"] = 0,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 740,
+				["hdonespell"] = {
+				},
+			},
+			["Bulljr"] = {
+				["players"] = {
+				},
+				["hdone"] = 10302,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 554,
+						["crits"] = 0,
+						["max"] = 1735,
+						["healing"] = 5685,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+					["Bloodthirst Heal"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 17385,
+						["hits"] = 1,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3900,
+						["healing"] = 10302,
+						["overhealing"] = 953,
+						["hits"] = 6,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 15987,
+				["hdonespell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 17385,
+						["hits"] = 1,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3900,
+						["healing"] = 10302,
+						["overhealing"] = 953,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Theunburnt"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Vampiric Touch"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 11256,
+						["hits"] = 9,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 8338,
+						["hits"] = 18,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Vampiric Touch"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 11256,
+						["hits"] = 9,
+					},
+				},
+			},
+			["Keldros"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 94,
+						["healing"] = 356,
+						["overhealing"] = 12,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 356,
+				["hdonespell"] = {
+				},
+			},
+			["Midnight"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 710603,
+						["done"] = 0,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 710603,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Hellfire Infernal"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 1324625,
+						["done"] = 112360,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1324625,
+				["done"] = 112360,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Dark Iron Rifleman"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 116,
+						["crits"] = 0,
+						["max"] = 140,
+						["healing"] = 384,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 384,
+				["hdonespell"] = {
+				},
+			},
+			["Vynaigrette"] = {
+				["players"] = {
+				},
+				["hdone"] = 12290,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 12290,
+						["crits"] = 0,
+						["max"] = 12290,
+						["healing"] = 12290,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Pipqua"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Chi Burst"] = {
+						["min"] = 16,
+						["crits"] = 0,
+						["max"] = 16,
+						["healing"] = 16,
+						["overhealing"] = 2566,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 8,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 16,
+				["hdonespell"] = {
+				},
+			},
+			["Jiblok"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 7,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Melgham"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 382,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 382,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Moisturise"] = {
+				["players"] = {
+				},
+				["hdone"] = 13040,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Power Word: Radiance"] = {
+						["min"] = 712,
+						["crits"] = 0,
+						["max"] = 712,
+						["healing"] = 712,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 86,
+						["crits"] = 0,
+						["max"] = 86,
+						["healing"] = 172,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Chi Burst"] = {
+						["min"] = 2582,
+						["crits"] = 0,
+						["max"] = 2582,
+						["healing"] = 2582,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Atonement"] = {
+						["min"] = 52,
+						["crits"] = 0,
+						["max"] = 52,
+						["healing"] = 52,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Celestial Fortune"] = {
+						["min"] = 56,
+						["crits"] = 0,
+						["max"] = 56,
+						["healing"] = 112,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 3630,
+				["hdonespell"] = {
+					["Chi Burst"] = {
+						["min"] = 0,
+						["crits"] = 2,
+						["max"] = 5165,
+						["healing"] = 12928,
+						["overhealing"] = 5149,
+						["hits"] = 5,
+					},
+					["Celestial Fortune"] = {
+						["min"] = 56,
+						["crits"] = 0,
+						["max"] = 56,
+						["healing"] = 112,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Pavas"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 311,
+						["crits"] = 0,
+						["max"] = 311,
+						["healing"] = 311,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 946,
+						["healing"] = 1428,
+						["overhealing"] = 877,
+						["hits"] = 6,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 148,
+						["healing"] = 635,
+						["overhealing"] = 89,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 2374,
+				["hdonespell"] = {
+				},
+			},
+			["Razzle Sprysprocket"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 152,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 153,
+						["healing"] = 379,
+						["overhealing"] = 386,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 531,
+				["hdonespell"] = {
+				},
+			},
+			["Spectral Charger"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 571459,
+						["done"] = 0,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 571459,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Rícky"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 152,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 946,
+						["healing"] = 2960,
+						["overhealing"] = 394,
+						["hits"] = 8,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 92,
+						["healing"] = 221,
+						["overhealing"] = 116,
+						["hits"] = 21,
+					},
+				},
+				["htaken"] = 3333,
+				["hdonespell"] = {
+				},
+			},
+			["Sylentknight"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 2689,
+						["hits"] = 11,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Remjob"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 9,
+						["crits"] = 0,
+						["max"] = 57,
+						["healing"] = 239,
+						["overhealing"] = 0,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 239,
+				["hdonespell"] = {
+				},
+			},
+			["Galädriel"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 924,
+						["healing"] = 924,
+						["overhealing"] = 124,
+						["hits"] = 2,
+					},
+					["Chi Wave"] = {
+						["min"] = 169,
+						["crits"] = 0,
+						["max"] = 169,
+						["healing"] = 169,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 65,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 10,
+						["healing"] = 69,
+						["overhealing"] = 15,
+						["hits"] = 12,
+					},
+				},
+				["htaken"] = 1162,
+				["hdonespell"] = {
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 65,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Relua"] = {
+				["players"] = {
+				},
+				["hdone"] = 77130,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 1,
+						["max"] = 305,
+						["healing"] = 1370,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+					["Light of the Protector"] = {
+						["min"] = 38065,
+						["crits"] = 0,
+						["max"] = 38065,
+						["healing"] = 38065,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Gift of the Naaru"] = {
+						["min"] = 4907,
+						["crits"] = 1,
+						["max"] = 9814,
+						["healing"] = 29442,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 31,
+						["crits"] = 0,
+						["max"] = 733,
+						["healing"] = 4515,
+						["overhealing"] = 0,
+						["hits"] = 16,
+					},
+				},
+				["htaken"] = 73392,
+				["hdonespell"] = {
+					["Consecration"] = {
+						["min"] = 73,
+						["crits"] = 8,
+						["max"] = 305,
+						["healing"] = 9623,
+						["overhealing"] = 84,
+						["hits"] = 56,
+					},
+					["Light of the Protector"] = {
+						["min"] = 38065,
+						["crits"] = 0,
+						["max"] = 38065,
+						["healing"] = 38065,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Gift of the Naaru"] = {
+						["min"] = 4907,
+						["crits"] = 1,
+						["max"] = 9814,
+						["healing"] = 29442,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+			},
+			["Equilibrii"] = {
+				["players"] = {
+				},
+				["hdone"] = 1838,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 226,
+						["crits"] = 0,
+						["max"] = 500,
+						["healing"] = 1384,
+						["overhealing"] = 102,
+						["hits"] = 4,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 74,
+						["healing"] = 317,
+						["overhealing"] = 137,
+						["hits"] = 17,
+					},
+				},
+				["htaken"] = 1701,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 226,
+						["crits"] = 0,
+						["max"] = 329,
+						["healing"] = 1838,
+						["overhealing"] = 102,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Chumparino"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 73,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 225,
+						["overhealing"] = 79,
+						["hits"] = 2,
+					},
+					["Divine Storm"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 31,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 21,
+						["healing"] = 77,
+						["overhealing"] = 176,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 302,
+				["hdonespell"] = {
+				},
+			},
+			["Shadowflame Imp"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 123425,
+						["done"] = 11634,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 123425,
+				["done"] = 11634,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ancient Curator"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 470176,
+						["done"] = 71788,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 470176,
+				["done"] = 71788,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Felfire Imp"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 54864,
+						["done"] = 4716,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 54864,
+				["done"] = 4716,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Enraged Bonecrusher"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Shadow Pact"] = {
+						["min"] = 8360,
+						["crits"] = 0,
+						["max"] = 8361,
+						["healing"] = 41802,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 41802,
+				["hdonespell"] = {
+				},
+			},
+			["Riadon"] = {
+				["players"] = {
+				},
+				["hdone"] = 1676,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Divine Storm"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 6593,
+						["hits"] = 1,
+					},
+					["Soul Link"] = {
+						["min"] = 838,
+						["crits"] = 0,
+						["max"] = 838,
+						["healing"] = 1676,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 1676,
+				["hdonespell"] = {
+					["Soul Link"] = {
+						["min"] = 838,
+						["crits"] = 0,
+						["max"] = 838,
+						["healing"] = 1676,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Sudosah"] = {
+				["players"] = {
+				},
+				["hdone"] = 2047,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Effuse"] = {
+						["min"] = 1560,
+						["crits"] = 1,
+						["max"] = 1560,
+						["healing"] = 1560,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 1,
+						["crits"] = 0,
+						["max"] = 32,
+						["healing"] = 106,
+						["overhealing"] = 0,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 1666,
+				["hdonespell"] = {
+					["Effuse"] = {
+						["min"] = 1560,
+						["crits"] = 1,
+						["max"] = 1560,
+						["healing"] = 1560,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Chi Wave"] = {
+						["min"] = 169,
+						["crits"] = 1,
+						["max"] = 318,
+						["healing"] = 487,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Kurtàlos"] = {
+				["players"] = {
+				},
+				["hdone"] = 92419,
+				["htakenspell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 7259,
+						["crits"] = 0,
+						["max"] = 17032,
+						["healing"] = 92419,
+						["overhealing"] = 9773,
+						["hits"] = 6,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1255,
+						["healing"] = 10575,
+						["overhealing"] = 1382,
+						["hits"] = 19,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 102994,
+				["hdonespell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 7259,
+						["crits"] = 0,
+						["max"] = 17032,
+						["healing"] = 92419,
+						["overhealing"] = 9773,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Gara"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 7212,
+						["crits"] = 0,
+						["max"] = 12290,
+						["healing"] = 19502,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 19502,
+				["hdonespell"] = {
+				},
+			},
+			["Agitated Tome"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 498689,
+						["done"] = 80951,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 498689,
+				["done"] = 80951,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Brandas"] = {
+				["players"] = {
+				},
+				["hdone"] = 39639,
+				["htakenspell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 19819,
+						["crits"] = 0,
+						["max"] = 19820,
+						["healing"] = 39639,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 39639,
+				["hdonespell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 19819,
+						["crits"] = 0,
+						["max"] = 19820,
+						["healing"] = 39639,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Aciona"] = {
+				["players"] = {
+				},
+				["hdone"] = 387,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 318,
+						["crits"] = 0,
+						["max"] = 318,
+						["healing"] = 318,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Swift Hand of Justice"] = {
+						["min"] = 387,
+						["crits"] = 0,
+						["max"] = 387,
+						["healing"] = 387,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 23,
+						["healing"] = 64,
+						["overhealing"] = 207,
+						["hits"] = 13,
+					},
+				},
+				["htaken"] = 769,
+				["hdonespell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 387,
+						["crits"] = 0,
+						["max"] = 387,
+						["healing"] = 387,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Faceless Echo"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 870433,
+						["done"] = 207899,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 116865,
+				["hdonespell"] = {
+					["Gluttonous Shadows"] = {
+						["min"] = 11700,
+						["crits"] = 0,
+						["max"] = 31603,
+						["healing"] = 116865,
+						["overhealing"] = 32847,
+						["hits"] = 6,
+					},
+				},
+				["taken"] = 870433,
+				["htakenspell"] = {
+					["Gluttonous Shadows"] = {
+						["min"] = 11700,
+						["crits"] = 0,
+						["max"] = 31603,
+						["healing"] = 116865,
+						["overhealing"] = 32847,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 116865,
+				["done"] = 207899,
+			},
+			["Spectral Stable Hand"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 3509295,
+						["done"] = 0,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 3509295,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Keesah"] = {
+				["players"] = {
+				},
+				["hdone"] = 1576,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 259,
+						["crits"] = 0,
+						["max"] = 270,
+						["healing"] = 788,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 860,
+						["healing"] = 941,
+						["overhealing"] = 395,
+						["hits"] = 5,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 22,
+						["healing"] = 119,
+						["overhealing"] = 11,
+						["hits"] = 13,
+					},
+				},
+				["htaken"] = 1848,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 259,
+						["crits"] = 0,
+						["max"] = 270,
+						["healing"] = 1576,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Dethhaus"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Touch of the Grave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 12864,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Touch of the Grave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 12864,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Kelovanth"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Divine Storm"] = {
+						["min"] = 6877,
+						["crits"] = 0,
+						["max"] = 6877,
+						["healing"] = 6877,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 6877,
+				["hdonespell"] = {
+				},
+			},
+			["Bob"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 152,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 5,
+						["crits"] = 0,
+						["max"] = 49,
+						["healing"] = 216,
+						["overhealing"] = 0,
+						["hits"] = 11,
+					},
+				},
+				["htaken"] = 368,
+				["hdonespell"] = {
+				},
+			},
+			["Vileboil"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 287,
+						["crits"] = 2,
+						["max"] = 287,
+						["healing"] = 574,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Divine Storm"] = {
+						["min"] = 109,
+						["crits"] = 0,
+						["max"] = 109,
+						["healing"] = 109,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 3,
+						["crits"] = 0,
+						["max"] = 7,
+						["healing"] = 30,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 713,
+				["hdonespell"] = {
+				},
+			},
+			["Kirin Tor Guardian"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 13689,
+						["hits"] = 6,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Imprepared"] = {
+				["players"] = {
+				},
+				["hdone"] = 52860,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Soul Cleave"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 35527,
+						["healing"] = 35527,
+						["overhealing"] = 203416,
+						["hits"] = 2,
+					},
+					["Consume Soul"] = {
+						["min"] = 17333,
+						["crits"] = 0,
+						["max"] = 17333,
+						["healing"] = 17333,
+						["overhealing"] = 2192,
+						["hits"] = 1,
+					},
+					["Feast of Souls"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 39640,
+						["hits"] = 4,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1281,
+						["healing"] = 2976,
+						["overhealing"] = 11836,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 55836,
+				["hdonespell"] = {
+					["Soul Cleave"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 35527,
+						["healing"] = 35527,
+						["overhealing"] = 203416,
+						["hits"] = 2,
+					},
+					["Consume Soul"] = {
+						["min"] = 17333,
+						["crits"] = 0,
+						["max"] = 17333,
+						["healing"] = 17333,
+						["overhealing"] = 2192,
+						["hits"] = 1,
+					},
+					["Feast of Souls"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 39640,
+						["hits"] = 4,
+					},
+				},
+			},
+			["Bippity"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Chi Burst"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 2929,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 111,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Leatuss"] = {
+				["players"] = {
+				},
+				["hdone"] = 48120,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 81,
+						["crits"] = 0,
+						["max"] = 945,
+						["healing"] = 1337,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Blood Plague"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2617,
+						["healing"] = 11698,
+						["overhealing"] = 1235,
+						["hits"] = 8,
+					},
+					["Death Strike"] = {
+						["min"] = 2932,
+						["crits"] = 0,
+						["max"] = 22626,
+						["healing"] = 36422,
+						["overhealing"] = 31206,
+						["hits"] = 3,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1461,
+						["healing"] = 2200,
+						["overhealing"] = 2390,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 51657,
+				["hdonespell"] = {
+					["Death Strike"] = {
+						["min"] = 2932,
+						["crits"] = 0,
+						["max"] = 22626,
+						["healing"] = 36422,
+						["overhealing"] = 31206,
+						["hits"] = 3,
+					},
+					["Blood Plague"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2617,
+						["healing"] = 11698,
+						["overhealing"] = 1235,
+						["hits"] = 8,
+					},
+				},
+			},
+			["Caixia"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 946,
+						["healing"] = 2499,
+						["overhealing"] = 2641,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 2499,
+				["hdonespell"] = {
+				},
+			},
+			["Konflux"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 456,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Essence Font"] = {
+						["min"] = 103,
+						["crits"] = 0,
+						["max"] = 946,
+						["healing"] = 3146,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 100,
+						["healing"] = 100,
+						["overhealing"] = 307,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 3702,
+				["hdonespell"] = {
+				},
+			},
+			["Miriyal"] = {
+				["players"] = {
+				},
+				["hdone"] = 41512,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Healing Sphere"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 41512,
+						["healing"] = 41512,
+						["overhealing"] = 72944,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Myeyeshurt"] = {
+				["players"] = {
+				},
+				["hdone"] = 98865,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 500,
+						["crits"] = 0,
+						["max"] = 500,
+						["healing"] = 500,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Consume Soul"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 591,
+						["healing"] = 591,
+						["overhealing"] = 231509,
+						["hits"] = 3,
+					},
+					["Feast of Souls"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 69289,
+						["hits"] = 6,
+					},
+					["Soul Cleave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 98274,
+						["healing"] = 98274,
+						["overhealing"] = 97153,
+						["hits"] = 2,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2861,
+						["healing"] = 5832,
+						["overhealing"] = 5424,
+						["hits"] = 11,
+					},
+				},
+				["htaken"] = 105197,
+				["hdonespell"] = {
+					["Soul Cleave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 98274,
+						["healing"] = 98274,
+						["overhealing"] = 97153,
+						["hits"] = 2,
+					},
+					["Consume Soul"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 591,
+						["healing"] = 591,
+						["overhealing"] = 231509,
+						["hits"] = 3,
+					},
+					["Feast of Souls"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 69289,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Risen Skulker"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 99,
+						["healing"] = 427,
+						["overhealing"] = 27,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 427,
+				["hdonespell"] = {
+				},
+			},
+			["Felguard Defender"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 268742,
+						["done"] = 77692,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 268742,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 77692,
+			},
+			["Captain Tharran"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 98,
+						["crits"] = 0,
+						["max"] = 245,
+						["healing"] = 1012,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 1012,
+				["hdonespell"] = {
+				},
+			},
+			["Dannie Fizzwizzle"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 315,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Annapuma"] = {
+				["players"] = {
+				},
+				["hdone"] = 40878,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Renewal"] = {
+						["min"] = 40878,
+						["crits"] = 0,
+						["max"] = 40878,
+						["healing"] = 40878,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 56,
+						["crits"] = 0,
+						["max"] = 56,
+						["healing"] = 56,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 40934,
+				["hdonespell"] = {
+					["Renewal"] = {
+						["min"] = 40878,
+						["crits"] = 0,
+						["max"] = 40878,
+						["healing"] = 40878,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Katickaris"] = {
+				["players"] = {
+				},
+				["hdone"] = 4701,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Lifebloom"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 120,
+						["healing"] = 717,
+						["overhealing"] = 714,
+						["hits"] = 12,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 2,
+						["max"] = 946,
+						["healing"] = 2462,
+						["overhealing"] = 3726,
+						["hits"] = 9,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 568,
+						["healing"] = 1411,
+						["overhealing"] = 568,
+						["hits"] = 6,
+					},
+					["Ysera's Gift"] = {
+						["min"] = 435,
+						["crits"] = 0,
+						["max"] = 435,
+						["healing"] = 870,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 61,
+						["healing"] = 190,
+						["overhealing"] = 238,
+						["hits"] = 23,
+					},
+				},
+				["htaken"] = 5650,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 422,
+						["crits"] = 0,
+						["max"] = 435,
+						["healing"] = 2573,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 568,
+						["healing"] = 1411,
+						["overhealing"] = 568,
+						["hits"] = 6,
+					},
+					["Lifebloom"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 120,
+						["healing"] = 717,
+						["overhealing"] = 714,
+						["hits"] = 12,
+					},
+				},
+			},
+			["Tritanix"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 270,
+						["crits"] = 0,
+						["max"] = 318,
+						["healing"] = 588,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Chi Burst"] = {
+						["min"] = 5165,
+						["crits"] = 1,
+						["max"] = 5165,
+						["healing"] = 5165,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 2,
+						["crits"] = 0,
+						["max"] = 513,
+						["healing"] = 1286,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 7039,
+				["hdonespell"] = {
+				},
+			},
+			["Cooties"] = {
+				["players"] = {
+				},
+				["hdone"] = 125,
+				["htakenspell"] = {
+					["Leech"] = {
+						["min"] = 125,
+						["crits"] = 0,
+						["max"] = 125,
+						["healing"] = 125,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 125,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 125,
+						["crits"] = 0,
+						["max"] = 125,
+						["healing"] = 125,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Pelemae"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 106,
+						["healing"] = 106,
+						["overhealing"] = 1230,
+						["hits"] = 5,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 5,
+						["crits"] = 0,
+						["max"] = 47,
+						["healing"] = 99,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 205,
+				["hdonespell"] = {
+				},
+			},
+			["Mahcha"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 11,
+						["crits"] = 0,
+						["max"] = 63,
+						["healing"] = 117,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 117,
+				["hdonespell"] = {
+				},
+			},
+			["Halbin Frosthammer"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 157,
+						["healing"] = 196,
+						["overhealing"] = 1179,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 196,
+				["hdonespell"] = {
+				},
+			},
+			["Myrandee"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 126,
+						["hits"] = 12,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kolott"] = {
+				["players"] = {
+				},
+				["hdone"] = 28850,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 7212,
+						["crits"] = 0,
+						["max"] = 7213,
+						["healing"] = 28850,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+				},
+			},
+			["Lumbermill"] = {
+				["players"] = {
+				},
+				["hdone"] = 9126,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 337,
+						["crits"] = 0,
+						["max"] = 338,
+						["healing"] = 675,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Bloodthirst Heal"] = {
+						["min"] = 661,
+						["crits"] = 0,
+						["max"] = 3965,
+						["healing"] = 8451,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 7,
+						["crits"] = 0,
+						["max"] = 77,
+						["healing"] = 540,
+						["overhealing"] = 0,
+						["hits"] = 17,
+					},
+				},
+				["htaken"] = 9666,
+				["hdonespell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 661,
+						["crits"] = 0,
+						["max"] = 3965,
+						["healing"] = 8451,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Swift Hand of Justice"] = {
+						["min"] = 337,
+						["crits"] = 0,
+						["max"] = 338,
+						["healing"] = 675,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Tulanni"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 488,
+						["hits"] = 18,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Grif Wildheart"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 236,
+						["healing"] = 370,
+						["overhealing"] = 301,
+						["hits"] = 4,
+					},
+				},
+				["htaken"] = 370,
+				["hdonespell"] = {
+				},
+			},
+			["Khal"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 18,
+						["crits"] = 0,
+						["max"] = 19,
+						["healing"] = 37,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 37,
+				["hdonespell"] = {
+					["Chi Burst"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 4393,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Mindelicate"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 1,
+						["crits"] = 0,
+						["max"] = 182,
+						["healing"] = 327,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 327,
+				["hdonespell"] = {
+				},
+			},
+			["Hennifer"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 4,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 945,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Inquisitor Ha'zaduum"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 498402,
+						["done"] = 86890,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 498402,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 86890,
+			},
+			["Matwarr"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 945,
+						["healing"] = 1985,
+						["overhealing"] = 317,
+						["hits"] = 6,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 32,
+						["healing"] = 57,
+						["overhealing"] = 5,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 2042,
+				["hdonespell"] = {
+				},
+			},
+			["Tharek Blackstone"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 554,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Pamorebea"] = {
+				["players"] = {
+				},
+				["hdone"] = 3614,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 304,
+						["crits"] = 1,
+						["max"] = 304,
+						["healing"] = 304,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Light of the Protector"] = {
+						["min"] = 3614,
+						["crits"] = 0,
+						["max"] = 3614,
+						["healing"] = 3614,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 103,
+						["crits"] = 1,
+						["max"] = 1891,
+						["healing"] = 5036,
+						["overhealing"] = 0,
+						["hits"] = 7,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 136,
+						["healing"] = 319,
+						["overhealing"] = 80,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 9273,
+				["hdonespell"] = {
+					["Light of the Protector"] = {
+						["min"] = 3614,
+						["crits"] = 0,
+						["max"] = 3614,
+						["healing"] = 3614,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Dakw"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 152,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Divine Storm"] = {
+						["min"] = 695,
+						["crits"] = 0,
+						["max"] = 695,
+						["healing"] = 695,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 19,
+						["crits"] = 0,
+						["max"] = 58,
+						["healing"] = 259,
+						["overhealing"] = 0,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 1106,
+				["hdonespell"] = {
+				},
+			},
+			["Pilot Stonegear"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 55,
+						["crits"] = 0,
+						["max"] = 110,
+						["healing"] = 468,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 468,
+				["hdonespell"] = {
+				},
+			},
+			["Arcane Protector"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 183460,
+						["done"] = 38738,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 183460,
+				["done"] = 38738,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Lethandia"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 7031,
+						["crits"] = 0,
+						["max"] = 7031,
+						["healing"] = 7031,
+						["overhealing"] = 7018,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 7031,
+				["hdonespell"] = {
+				},
+			},
+			["Yogi"] = {
+				["players"] = {
+				},
+				["hdone"] = 11059,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 152,
+						["healing"] = 304,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Essence Font"] = {
+						["min"] = 81,
+						["crits"] = 0,
+						["max"] = 945,
+						["healing"] = 1336,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Renewal"] = {
+						["min"] = 11059,
+						["crits"] = 0,
+						["max"] = 11059,
+						["healing"] = 11059,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 45,
+						["crits"] = 0,
+						["max"] = 120,
+						["healing"] = 425,
+						["overhealing"] = 0,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 13124,
+				["hdonespell"] = {
+					["Renewal"] = {
+						["min"] = 11059,
+						["crits"] = 0,
+						["max"] = 11059,
+						["healing"] = 11059,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Nordö"] = {
+				["players"] = {
+				},
+				["hdone"] = 21106,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 1224,
+						["hits"] = 2,
+					},
+					["Lay on Hands"] = {
+						["min"] = 21106,
+						["crits"] = 0,
+						["max"] = 21106,
+						["healing"] = 21106,
+						["overhealing"] = 10526,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 76,
+						["healing"] = 204,
+						["overhealing"] = 429,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 21310,
+				["hdonespell"] = {
+					["Lay on Hands"] = {
+						["min"] = 21106,
+						["crits"] = 0,
+						["max"] = 21106,
+						["healing"] = 21106,
+						["overhealing"] = 10526,
+						["hits"] = 1,
+					},
+					["Swift Hand of Justice"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 1224,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Theshim"] = {
+				["players"] = {
+				},
+				["hdone"] = 182331,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Chi Burst"] = {
+						["min"] = 5165,
+						["crits"] = 1,
+						["max"] = 5165,
+						["healing"] = 5165,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Unholy Coil"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 10950,
+						["healing"] = 16102,
+						["overhealing"] = 10026,
+						["hits"] = 3,
+					},
+					["Shadow Mend"] = {
+						["min"] = 1069,
+						["crits"] = 0,
+						["max"] = 1069,
+						["healing"] = 1069,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Blood Plague"] = {
+						["min"] = 4906,
+						["crits"] = 0,
+						["max"] = 4906,
+						["healing"] = 9812,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Penance"] = {
+						["min"] = 392,
+						["crits"] = 1,
+						["max"] = 792,
+						["healing"] = 1576,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Unholy Strength"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 24218,
+						["healing"] = 24218,
+						["overhealing"] = 44261,
+						["hits"] = 2,
+					},
+					["Power Word: Radiance"] = {
+						["min"] = 488,
+						["crits"] = 0,
+						["max"] = 713,
+						["healing"] = 1201,
+						["overhealing"] = 225,
+						["hits"] = 2,
+					},
+					["Death Strike"] = {
+						["min"] = 43565,
+						["crits"] = 0,
+						["max"] = 88634,
+						["healing"] = 132199,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 52,
+						["healing"] = 645,
+						["overhealing"] = 52,
+						["hits"] = 19,
+					},
+				},
+				["htaken"] = 191987,
+				["hdonespell"] = {
+					["Unholy Coil"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 10950,
+						["healing"] = 16102,
+						["overhealing"] = 10026,
+						["hits"] = 3,
+					},
+					["Blood Plague"] = {
+						["min"] = 4906,
+						["crits"] = 0,
+						["max"] = 4906,
+						["healing"] = 9812,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Death Strike"] = {
+						["min"] = 43565,
+						["crits"] = 0,
+						["max"] = 88634,
+						["healing"] = 132199,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Unholy Strength"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 24218,
+						["healing"] = 24218,
+						["overhealing"] = 44261,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Ciberius"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 19,
+						["crits"] = 0,
+						["max"] = 20,
+						["healing"] = 39,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 39,
+				["hdonespell"] = {
+				},
+			},
+			["Isabellamc"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Power Word: Radiance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 712,
+						["hits"] = 1,
+					},
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 52,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Spectral Stallion"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 2461922,
+						["done"] = 0,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2461922,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Attumen the Huntsman"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 1145270,
+						["done"] = 45,
+						["class"] = "MONK",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1145270,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 45,
+			},
+			["Callmelayson"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 423,
+						["crits"] = 0,
+						["max"] = 423,
+						["healing"] = 423,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 191,
+						["healing"] = 191,
+						["overhealing"] = 1144,
+						["hits"] = 5,
+					},
+					["Divine Storm"] = {
+						["min"] = 55,
+						["crits"] = 0,
+						["max"] = 55,
+						["healing"] = 55,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 16,
+						["healing"] = 66,
+						["overhealing"] = 38,
+						["hits"] = 13,
+					},
+				},
+				["htaken"] = 735,
+				["hdonespell"] = {
+				},
+			},
+			["Migitjr"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 3,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Spellstalker"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 158680,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 229011,
+				["htakenspell"] = {
+					["Devour Magic"] = {
+						["min"] = 229011,
+						["crits"] = 0,
+						["max"] = 229011,
+						["healing"] = 229011,
+						["overhealing"] = 4201,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 158680,
+				["done"] = 0,
+				["htaken"] = 229011,
+				["hdonespell"] = {
+					["Devour Magic"] = {
+						["min"] = 229011,
+						["crits"] = 0,
+						["max"] = 229011,
+						["healing"] = 229011,
+						["overhealing"] = 4201,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Ironforge Mountaineer"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 371,
+						["healing"] = 1816,
+						["overhealing"] = 1941,
+						["hits"] = 20,
+					},
+				},
+				["htaken"] = 1816,
+				["hdonespell"] = {
+				},
+			},
+			["Mespion"] = {
+				["players"] = {
+				},
+				["hdone"] = 146,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 311,
+						["crits"] = 0,
+						["max"] = 479,
+						["healing"] = 790,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Divine Storm"] = {
+						["min"] = 183,
+						["crits"] = 0,
+						["max"] = 183,
+						["healing"] = 183,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 153,
+						["healing"] = 609,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+					["Greater Blessing of Wisdom"] = {
+						["min"] = 18,
+						["crits"] = 0,
+						["max"] = 19,
+						["healing"] = 146,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 6,
+						["crits"] = 0,
+						["max"] = 88,
+						["healing"] = 312,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 2040,
+				["hdonespell"] = {
+					["Greater Blessing of Wisdom"] = {
+						["min"] = 18,
+						["crits"] = 0,
+						["max"] = 19,
+						["healing"] = 146,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+			},
+			["Pyrothian"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 4,
+						["healing"] = 4,
+						["overhealing"] = 34,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 4,
+				["hdonespell"] = {
+				},
+			},
+			["Captzaafir"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 3170,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Garninn"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 945,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 146,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Corvelt"] = {
+				["players"] = {
+				},
+				["hdone"] = 4577,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 7212,
+						["crits"] = 0,
+						["max"] = 7213,
+						["healing"] = 21638,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Healing Sphere"] = {
+						["min"] = 41512,
+						["crits"] = 0,
+						["max"] = 41512,
+						["healing"] = 41512,
+						["overhealing"] = 15716,
+						["hits"] = 1,
+					},
+					["Leech"] = {
+						["min"] = 37,
+						["crits"] = 0,
+						["max"] = 693,
+						["healing"] = 4577,
+						["overhealing"] = 0,
+						["hits"] = 18,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 67727,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 37,
+						["crits"] = 0,
+						["max"] = 693,
+						["healing"] = 4577,
+						["overhealing"] = 0,
+						["hits"] = 18,
+					},
+				},
+			},
+			["Kozit"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 138,
+						["healing"] = 461,
+						["overhealing"] = 15,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 461,
+				["hdonespell"] = {
+				},
+			},
+			["Rejold Barleybrew"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 85,
+						["crits"] = 0,
+						["max"] = 175,
+						["healing"] = 815,
+						["overhealing"] = 0,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 815,
+				["hdonespell"] = {
+				},
+			},
+			["Chímí"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Healing Sphere"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 57228,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Throdaris"] = {
+				["players"] = {
+				},
+				["hdone"] = 21944,
+				["htakenspell"] = {
+					["Consume Soul"] = {
+						["min"] = 21944,
+						["crits"] = 0,
+						["max"] = 21944,
+						["healing"] = 21944,
+						["overhealing"] = 58201,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 21944,
+				["hdonespell"] = {
+					["Consume Soul"] = {
+						["min"] = 21944,
+						["crits"] = 0,
+						["max"] = 21944,
+						["healing"] = 21944,
+						["overhealing"] = 58201,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Mechanical"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 18,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kuthonien"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 52,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 52,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Ghordied"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 284,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Fraxinûs"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 422,
+						["crits"] = 0,
+						["max"] = 422,
+						["healing"] = 422,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Chi Burst"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 1464,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 71,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 422,
+				["hdonespell"] = {
+				},
+			},
+			["Granis Swiftaxe"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 104,
+						["crits"] = 0,
+						["max"] = 220,
+						["healing"] = 689,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 689,
+				["hdonespell"] = {
+				},
+			},
+			["Maxan Anvol"] = {
+				["players"] = {
+				},
+				["hdone"] = 18741,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 324,
+						["hits"] = 4,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Heal"] = {
+						["min"] = 18741,
+						["crits"] = 0,
+						["max"] = 18741,
+						["healing"] = 18741,
+						["overhealing"] = 19075,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Idrilien"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Aura of Mercy"] = {
+						["min"] = 1075,
+						["crits"] = 0,
+						["max"] = 1075,
+						["healing"] = 1075,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 1075,
+				["hdonespell"] = {
+				},
+			},
+			["Satisfiction"] = {
+				["players"] = {
+				},
+				["hdone"] = 12843,
+				["htakenspell"] = {
+					["Consume Soul"] = {
+						["min"] = 12843,
+						["crits"] = 0,
+						["max"] = 12843,
+						["healing"] = 12843,
+						["overhealing"] = 20187,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 12843,
+				["hdonespell"] = {
+					["Consume Soul"] = {
+						["min"] = 12843,
+						["crits"] = 0,
+						["max"] = 12843,
+						["healing"] = 12843,
+						["overhealing"] = 20187,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Strawbèrry"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 114,
+						["crits"] = 0,
+						["max"] = 114,
+						["healing"] = 114,
+						["overhealing"] = 365,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 18,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 114,
+				["hdonespell"] = {
+				},
+			},
+			["Zyxw"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 89,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Dark Iron Shadowcaster"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 1,
+						["max"] = 305,
+						["healing"] = 763,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 330,
+						["healing"] = 2101,
+						["overhealing"] = 1105,
+						["hits"] = 18,
+					},
+				},
+				["htaken"] = 2864,
+				["hdonespell"] = {
+				},
+			},
+			["Kazkhaid"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 132,
+						["crits"] = 0,
+						["max"] = 132,
+						["healing"] = 528,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 528,
+				["hdonespell"] = {
+				},
+			},
+			["Duphae"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 600,
+						["crits"] = 0,
+						["max"] = 600,
+						["healing"] = 600,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 600,
+				["hdonespell"] = {
+				},
+			},
+			["Echõlo"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 1035,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ajaag"] = {
+				["players"] = {
+				},
+				["hdone"] = 71278,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3404,
+						["healing"] = 71278,
+						["overhealing"] = 59063,
+						["hits"] = 905,
+					},
+				},
+			},
+			["Water Elemental"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 945,
+						["healing"] = 1642,
+						["overhealing"] = 454,
+						["hits"] = 4,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 13,
+						["healing"] = 28,
+						["overhealing"] = 44,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 1670,
+				["hdonespell"] = {
+				},
+			},
+			["Balphegor"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 94,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 94,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Azorous"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 257,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Yren"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 1048,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Spellfiend Devourer"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 795293,
+						["done"] = 99414,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 1801150,
+				["htakenspell"] = {
+					["Devour Magic"] = {
+						["min"] = 62224,
+						["crits"] = 0,
+						["max"] = 638526,
+						["healing"] = 1303633,
+						["overhealing"] = 505524,
+						["hits"] = 4,
+					},
+					["Drain Life"] = {
+						["min"] = 19954,
+						["crits"] = 0,
+						["max"] = 63853,
+						["healing"] = 497517,
+						["overhealing"] = 0,
+						["hits"] = 15,
+					},
+				},
+				["taken"] = 795293,
+				["done"] = 99414,
+				["htaken"] = 1801150,
+				["hdonespell"] = {
+					["Devour Magic"] = {
+						["min"] = 62224,
+						["crits"] = 0,
+						["max"] = 638526,
+						["healing"] = 1303633,
+						["overhealing"] = 505524,
+						["hits"] = 4,
+					},
+					["Drain Life"] = {
+						["min"] = 19954,
+						["crits"] = 0,
+						["max"] = 63853,
+						["healing"] = 497517,
+						["overhealing"] = 0,
+						["hits"] = 15,
+					},
+				},
+			},
+			["Arcane Keeper"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 257690,
+						["done"] = 48381,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 257690,
+				["done"] = 48381,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Golorn Frostbeard"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 945,
+						["crits"] = 0,
+						["max"] = 945,
+						["healing"] = 1890,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 68,
+						["crits"] = 0,
+						["max"] = 68,
+						["healing"] = 68,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 1958,
+				["hdonespell"] = {
+				},
+			},
+			["Blazing Imp"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 211326,
+						["done"] = 29749,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 211326,
+				["done"] = 29749,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Tazzik"] = {
+				["players"] = {
+				},
+				["hdone"] = 15310,
+				["htakenspell"] = {
+					["Vampiric Touch"] = {
+						["min"] = 7210,
+						["crits"] = 0,
+						["max"] = 8100,
+						["healing"] = 15310,
+						["overhealing"] = 998,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 15310,
+				["hdonespell"] = {
+					["Vampiric Touch"] = {
+						["min"] = 7210,
+						["crits"] = 0,
+						["max"] = 8100,
+						["healing"] = 15310,
+						["overhealing"] = 998,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Steelnasty"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 311,
+						["crits"] = 0,
+						["max"] = 311,
+						["healing"] = 311,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Consecration"] = {
+						["min"] = 147,
+						["crits"] = 0,
+						["max"] = 153,
+						["healing"] = 1364,
+						["overhealing"] = 5,
+						["hits"] = 9,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 402,
+						["healing"] = 960,
+						["overhealing"] = 69,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 2635,
+				["hdonespell"] = {
+				},
+			},
+			["Ors"] = {
+				["players"] = {
+				},
+				["hdone"] = 2485,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 392,
+						["crits"] = 0,
+						["max"] = 392,
+						["healing"] = 392,
+						["overhealing"] = 87,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 5,
+						["healing"] = 5,
+						["overhealing"] = 145,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 397,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 114,
+						["crits"] = 0,
+						["max"] = 500,
+						["healing"] = 2485,
+						["overhealing"] = 452,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Imhades"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 3042,
+						["hits"] = 4,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 4488,
+						["hits"] = 4,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 3926,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 3926,
+						["hits"] = 9,
+					},
+				},
+			},
+			["Bleeknash"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 5408,
+						["crits"] = 0,
+						["max"] = 5408,
+						["healing"] = 5408,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 5408,
+				["hdonespell"] = {
+				},
+			},
+			["Honeyclaw"] = {
+				["players"] = {
+				},
+				["hdone"] = 46732,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 4519,
+						["crits"] = 0,
+						["max"] = 6720,
+						["healing"] = 11239,
+						["overhealing"] = 16859,
+						["hits"] = 2,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 138,
+						["healing"] = 364,
+						["overhealing"] = 1355,
+						["hits"] = 6,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 11603,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 4519,
+						["crits"] = 0,
+						["max"] = 14049,
+						["healing"] = 46368,
+						["overhealing"] = 23877,
+						["hits"] = 5,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 138,
+						["healing"] = 364,
+						["overhealing"] = 1355,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Hexxd"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 3959,
+						["hits"] = 5,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Belylock"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 33,
+						["crits"] = 0,
+						["max"] = 58,
+						["healing"] = 148,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 148,
+				["hdonespell"] = {
+				},
+			},
+			["Koggs"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 136,
+						["hits"] = 9,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Peria Lamenur"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 550,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Batorieva"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 212,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Nileera"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 321,
+						["crits"] = 0,
+						["max"] = 321,
+						["healing"] = 321,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 4,
+						["crits"] = 0,
+						["max"] = 14,
+						["healing"] = 80,
+						["overhealing"] = 0,
+						["hits"] = 11,
+					},
+				},
+				["htaken"] = 401,
+				["hdonespell"] = {
+				},
+			},
+			["Grawn Thromwyn"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 308,
+						["hits"] = 5,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Smoldering Infernal"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 580534,
+						["done"] = 174099,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 580534,
+				["done"] = 174099,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Héllion"] = {
+				["players"] = {
+				},
+				["hdone"] = 138055,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 48479,
+						["crits"] = 2,
+						["max"] = 89576,
+						["healing"] = 138055,
+						["overhealing"] = 29408,
+						["hits"] = 2,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3404,
+						["healing"] = 15236,
+						["overhealing"] = 2119,
+						["hits"] = 12,
+					},
+				},
+				["htaken"] = 153291,
+				["hdonespell"] = {
+					["Healing Touch"] = {
+						["min"] = 48479,
+						["crits"] = 2,
+						["max"] = 89576,
+						["healing"] = 138055,
+						["overhealing"] = 29408,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Fraidas"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 318,
+						["crits"] = 0,
+						["max"] = 318,
+						["healing"] = 318,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 8,
+						["crits"] = 0,
+						["max"] = 77,
+						["healing"] = 409,
+						["overhealing"] = 0,
+						["hits"] = 12,
+					},
+				},
+				["htaken"] = 727,
+				["hdonespell"] = {
+				},
+			},
+			["Ironforge Guard"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 153,
+						["healing"] = 458,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 181,
+						["healing"] = 1675,
+						["overhealing"] = 1488,
+						["hits"] = 28,
+					},
+				},
+				["htaken"] = 2133,
+				["hdonespell"] = {
+				},
+			},
+			["Philferer"] = {
+				["players"] = {
+				},
+				["hdone"] = 4018,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Crimson Vial"] = {
+						["min"] = 669,
+						["crits"] = 0,
+						["max"] = 670,
+						["healing"] = 4018,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 9,
+						["crits"] = 0,
+						["max"] = 9,
+						["healing"] = 9,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 4027,
+				["hdonespell"] = {
+					["Crimson Vial"] = {
+						["min"] = 669,
+						["crits"] = 0,
+						["max"] = 670,
+						["healing"] = 4018,
+						["overhealing"] = 0,
+						["hits"] = 6,
+					},
+				},
+			},
+			["Cat"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 1,
+						["max"] = 304,
+						["healing"] = 608,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Essence Font"] = {
+						["min"] = 103,
+						["crits"] = 0,
+						["max"] = 945,
+						["healing"] = 1151,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 12,
+						["crits"] = 0,
+						["max"] = 26,
+						["healing"] = 62,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 1821,
+				["hdonespell"] = {
+				},
+			},
+			["Azar Stronghammer"] = {
+				["players"] = {
+				},
+				["hdone"] = 12031,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 872,
+						["healing"] = 4010,
+						["overhealing"] = 620,
+						["hits"] = 16,
+					},
+				},
+				["htaken"] = 4010,
+				["hdonespell"] = {
+					["Divine Storm"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 6877,
+						["healing"] = 12031,
+						["overhealing"] = 6624,
+						["hits"] = 9,
+					},
+				},
+			},
+			["Jhoffer"] = {
+				["players"] = {
+				},
+				["hdone"] = 140,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Blessing of Wisdom"] = {
+						["min"] = 27,
+						["crits"] = 0,
+						["max"] = 29,
+						["healing"] = 140,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 27,
+						["healing"] = 41,
+						["overhealing"] = 134,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 181,
+				["hdonespell"] = {
+					["Greater Blessing of Wisdom"] = {
+						["min"] = 27,
+						["crits"] = 0,
+						["max"] = 29,
+						["healing"] = 140,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+			},
+			["Bearlytanky"] = {
+				["players"] = {
+				},
+				["hdone"] = 5408,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 5408,
+						["crits"] = 0,
+						["max"] = 5408,
+						["healing"] = 5408,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Spiffy"] = {
+				["players"] = {
+				},
+				["hdone"] = 2483,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 435,
+						["crits"] = 0,
+						["max"] = 500,
+						["healing"] = 935,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Chi Wave"] = {
+						["min"] = 318,
+						["crits"] = 1,
+						["max"] = 318,
+						["healing"] = 318,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Essence Font"] = {
+						["min"] = 103,
+						["crits"] = 0,
+						["max"] = 946,
+						["healing"] = 7138,
+						["overhealing"] = 0,
+						["hits"] = 12,
+					},
+					["Death Strike"] = {
+						["min"] = 2483,
+						["crits"] = 0,
+						["max"] = 2483,
+						["healing"] = 2483,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 61,
+						["healing"] = 370,
+						["overhealing"] = 11,
+						["hits"] = 14,
+					},
+				},
+				["htaken"] = 11244,
+				["hdonespell"] = {
+					["Death Strike"] = {
+						["min"] = 2483,
+						["crits"] = 0,
+						["max"] = 2483,
+						["healing"] = 2483,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Xanvias"] = {
+				["players"] = {
+				},
+				["hdone"] = 8063,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Exhilaration"] = {
+						["min"] = 8063,
+						["crits"] = 0,
+						["max"] = 8063,
+						["healing"] = 8063,
+						["overhealing"] = 1618,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 50,
+						["healing"] = 243,
+						["overhealing"] = 23,
+						["hits"] = 16,
+					},
+				},
+				["htaken"] = 8306,
+				["hdonespell"] = {
+					["Exhilaration"] = {
+						["min"] = 8063,
+						["crits"] = 0,
+						["max"] = 8063,
+						["healing"] = 8063,
+						["overhealing"] = 1618,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Randahl"] = {
+				["players"] = {
+				},
+				["hdone"] = 1075,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Aura of Mercy"] = {
+						["min"] = 1075,
+						["crits"] = 0,
+						["max"] = 1075,
+						["healing"] = 1075,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Swolteamsix"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 14049,
+						["crits"] = 0,
+						["max"] = 14049,
+						["healing"] = 28098,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 28098,
+				["hdonespell"] = {
+				},
+			},
+			["Jcp"] = {
+				["players"] = {
+				},
+				["hdone"] = 1565,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 356,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 311,
+						["crits"] = 0,
+						["max"] = 321,
+						["healing"] = 1565,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+			},
+			["Dark Iron Skulker"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 0,
+						["max"] = 153,
+						["healing"] = 305,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 485,
+						["healing"] = 4173,
+						["overhealing"] = 1154,
+						["hits"] = 27,
+					},
+				},
+				["htaken"] = 4478,
+				["hdonespell"] = {
+				},
+			},
+			["Krilena"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 18141,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Bloodthirst Heal"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 18141,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Fel Bat"] = {
+				["players"] = {
+					["Miriyal"] = {
+						["taken"] = 0,
+						["done"] = 5943,
+						["role"] = "NONE",
+						["class"] = "MONK",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 5943,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Gelnik"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Divine Storm"] = {
+						["min"] = 38,
+						["crits"] = 0,
+						["max"] = 38,
+						["healing"] = 38,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 7,
+						["crits"] = 0,
+						["max"] = 7,
+						["healing"] = 7,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 45,
+				["hdonespell"] = {
+				},
+			},
+			["Batrak"] = {
+				["players"] = {
+				},
+				["hdone"] = 19874,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 259,
+						["crits"] = 0,
+						["max"] = 259,
+						["healing"] = 259,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Heal"] = {
+						["min"] = 18741,
+						["crits"] = 0,
+						["max"] = 18741,
+						["healing"] = 18741,
+						["overhealing"] = 19075,
+						["hits"] = 1,
+					},
+					["Crimson Vial"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 9937,
+						["healing"] = 19874,
+						["overhealing"] = 9937,
+						["hits"] = 3,
+					},
+					["Power Word: Radiance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 712,
+						["hits"] = 1,
+					},
+					["Chi Burst"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 2583,
+						["hits"] = 1,
+					},
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 259,
+						["hits"] = 5,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 476,
+						["healing"] = 1209,
+						["overhealing"] = 785,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 40083,
+				["hdonespell"] = {
+					["Crimson Vial"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 9937,
+						["healing"] = 19874,
+						["overhealing"] = 9937,
+						["hits"] = 3,
+					},
+				},
+			},
+			["Danswhity"] = {
+				["players"] = {
+				},
+				["hdone"] = 5255,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 945,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 64,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Power Word: Radiance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 713,
+						["healing"] = 1913,
+						["overhealing"] = 1649,
+						["hits"] = 5,
+					},
+					["Shadow Mend"] = {
+						["min"] = 1069,
+						["crits"] = 0,
+						["max"] = 1069,
+						["healing"] = 1069,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Penance"] = {
+						["min"] = 392,
+						["crits"] = 1,
+						["max"] = 792,
+						["healing"] = 1576,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Atonement"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 52,
+						["healing"] = 697,
+						["overhealing"] = 620,
+						["hits"] = 31,
+					},
+				},
+			},
+			["Pilot Bellowfiz"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 148,
+						["healing"] = 815,
+						["overhealing"] = 127,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 815,
+				["hdonespell"] = {
+				},
+			},
+			["Solapiupiude"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Essence Font"] = {
+						["min"] = 0,
+						["crits"] = 1,
+						["max"] = 724,
+						["healing"] = 724,
+						["overhealing"] = 2627,
+						["hits"] = 7,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 85,
+						["healing"] = 85,
+						["overhealing"] = 232,
+						["hits"] = 7,
+					},
+				},
+				["htaken"] = 809,
+				["hdonespell"] = {
+				},
+			},
+			["Onemanarmy"] = {
+				["players"] = {
+				},
+				["hdone"] = 28787,
+				["htakenspell"] = {
+					["Greater Blessing of Wisdom"] = {
+						["min"] = 763,
+						["crits"] = 0,
+						["max"] = 763,
+						["healing"] = 8393,
+						["overhealing"] = 0,
+						["hits"] = 11,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2879,
+						["healing"] = 20394,
+						["overhealing"] = 8565,
+						["hits"] = 19,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 28787,
+				["hdonespell"] = {
+					["Greater Blessing of Wisdom"] = {
+						["min"] = 763,
+						["crits"] = 0,
+						["max"] = 763,
+						["healing"] = 8393,
+						["overhealing"] = 0,
+						["hits"] = 11,
+					},
+					["Leech"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2879,
+						["healing"] = 20394,
+						["overhealing"] = 8565,
+						["hits"] = 19,
+					},
+				},
+			},
+			["Mommygoat"] = {
+				["players"] = {
+				},
+				["hdone"] = 610,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Riptide"] = {
+						["min"] = 37,
+						["crits"] = 1,
+						["max"] = 229,
+						["healing"] = 610,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 12,
+						["crits"] = 0,
+						["max"] = 12,
+						["healing"] = 24,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 634,
+				["hdonespell"] = {
+					["Riptide"] = {
+						["min"] = 37,
+						["crits"] = 1,
+						["max"] = 229,
+						["healing"] = 610,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+				},
+			},
+			["Jenovoa"] = {
+				["players"] = {
+				},
+				["hdone"] = 29707,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Consecration"] = {
+						["min"] = 152,
+						["crits"] = 2,
+						["max"] = 305,
+						["healing"] = 1675,
+						["overhealing"] = 0,
+						["hits"] = 9,
+					},
+					["Leech"] = {
+						["min"] = 898,
+						["crits"] = 0,
+						["max"] = 10346,
+						["healing"] = 29707,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+					["Divine Storm"] = {
+						["min"] = 4074,
+						["crits"] = 0,
+						["max"] = 4074,
+						["healing"] = 4074,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Inspiring Presence"] = {
+						["min"] = 108,
+						["crits"] = 0,
+						["max"] = 1270,
+						["healing"] = 4609,
+						["overhealing"] = 0,
+						["hits"] = 13,
+					},
+				},
+				["htaken"] = 40065,
+				["hdonespell"] = {
+					["Leech"] = {
+						["min"] = 898,
+						["crits"] = 0,
+						["max"] = 10346,
+						["healing"] = 29707,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+			},
+			["Beast"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Inspiring Presence"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 91,
+						["hits"] = 6,
+					},
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Brodrich"] = {
+				["players"] = {
+				},
+				["hdone"] = 162948,
+				["htakenspell"] = {
+					["Exhilaration"] = {
+						["min"] = 162948,
+						["crits"] = 0,
+						["max"] = 162948,
+						["healing"] = 162948,
+						["overhealing"] = 15522,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 162948,
+				["hdonespell"] = {
+					["Exhilaration"] = {
+						["min"] = 162948,
+						["crits"] = 0,
+						["max"] = 162948,
+						["healing"] = 162948,
+						["overhealing"] = 15522,
+						["hits"] = 1,
+					},
+				},
+			},
+		},
+		["mobtaken"] = 14694888,
+		["healing"] = 640894,
+		["multistrikes"] = 0,
+		["power"] = {
+			[12] = 170,
+		},
+		["overhealing"] = 248221,
+		["shielding"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1471770876,
+		["damagetaken"] = 1050299,
+		["mobhdone"] = 3688798,
+		["last_action"] = 1471770876,
+		["mobdone"] = 1050299,
 	},
 }

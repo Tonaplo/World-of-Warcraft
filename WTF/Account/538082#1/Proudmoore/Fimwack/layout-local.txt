@@ -6,13 +6,6 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 648
-H: 420
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,3 +13,10 @@ X: 300
 Y: 0
 W: 232
 H: 100
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 420

@@ -1,3493 +1,5 @@
 
 SkadaPerCharDB = {
-	["total"] = {
-		["healingabsorbed"] = 0,
-		["dispells"] = 0,
-		["ccbreaks"] = 0,
-		["time"] = 1533,
-		["interrupts"] = 0,
-		["damage"] = 1169056954,
-		["players"] = {
-			{
-				["healingabsorbed"] = 0,
-				["class"] = "DEMONHUNTER",
-				["damaged"] = {
-				},
-				["dispells"] = 0,
-				["ccbreaks"] = 0,
-				["overhealing"] = 4781906,
-				["interrupts"] = 0,
-				["auras"] = {
-					["Chaos Nova"] = {
-						["name"] = "Chaos Nova",
-						["active"] = 0,
-						["id"] = 179057,
-						["uptime"] = 5,
-						["auratype"] = "DEBUFF",
-					},
-					["Vile Gas"] = {
-						["name"] = "Vile Gas",
-						["active"] = 0,
-						["id"] = 69244,
-						["uptime"] = 6,
-						["auratype"] = "BUFF",
-					},
-					["Metamorphosis"] = {
-						["name"] = "Metamorphosis",
-						["active"] = 13,
-						["id"] = 162264,
-						["uptime"] = 1577,
-						["auratype"] = "BUFF",
-					},
-					["Inoculated"] = {
-						["name"] = "Inoculated",
-						["active"] = 0,
-						["id"] = 69291,
-						["uptime"] = 6,
-						["auratype"] = "DEBUFF",
-					},
-					["Eye Beam"] = {
-						["name"] = "Eye Beam",
-						["active"] = 0,
-						["id"] = 198013,
-						["uptime"] = 687,
-						["auratype"] = "BUFF",
-					},
-					["Vengeful Retreat"] = {
-						["name"] = "Vengeful Retreat",
-						["active"] = 0,
-						["id"] = 198813,
-						["uptime"] = 9,
-						["auratype"] = "DEBUFF",
-					},
-					["Spectral Sight"] = {
-						["name"] = "Spectral Sight",
-						["active"] = 1,
-						["id"] = 188501,
-						["uptime"] = 728,
-						["auratype"] = "BUFF",
-					},
-					["Ooze Variable"] = {
-						["name"] = "Ooze Variable",
-						["active"] = 0,
-						["id"] = 70352,
-						["uptime"] = 28,
-						["auratype"] = "DEBUFF",
-					},
-					["Prepared"] = {
-						["name"] = "Prepared",
-						["active"] = 0,
-						["id"] = 203650,
-						["uptime"] = 45,
-						["auratype"] = "BUFF",
-					},
-					["Chilled to the Bone"] = {
-						["name"] = "Chilled to the Bone",
-						["active"] = 2,
-						["id"] = 70106,
-						["uptime"] = 1020,
-						["auratype"] = "DEBUFF",
-					},
-					["Presence of the Darkfallen"] = {
-						["name"] = "Presence of the Darkfallen",
-						["active"] = 0,
-						["id"] = 70995,
-						["uptime"] = 12,
-						["auratype"] = "BUFF",
-					},
-					["Blade Dance"] = {
-						["name"] = "Blade Dance",
-						["active"] = 1,
-						["id"] = 188499,
-						["uptime"] = 341,
-						["auratype"] = "BUFF",
-					},
-					["Empowered Blood"] = {
-						["name"] = "Empowered Blood",
-						["active"] = 1,
-						["id"] = 70227,
-						["uptime"] = 454,
-						["auratype"] = "DEBUFF",
-					},
-					["Spirit Alarm"] = {
-						["name"] = "Spirit Alarm",
-						["active"] = 0,
-						["id"] = 70536,
-						["uptime"] = 12,
-						["auratype"] = "DEBUFF",
-					},
-					["Demonic Ferocity"] = {
-						["name"] = "Demonic Ferocity",
-						["active"] = 7,
-						["id"] = 226991,
-						["uptime"] = 1208,
-						["auratype"] = "BUFF",
-					},
-					["Death Sweep"] = {
-						["name"] = "Death Sweep",
-						["active"] = 0,
-						["id"] = 210152,
-						["uptime"] = 7,
-						["auratype"] = "BUFF",
-					},
-					["Blighted Spores"] = {
-						["name"] = "Blighted Spores",
-						["active"] = 0,
-						["id"] = 69290,
-						["uptime"] = 2,
-						["auratype"] = "DEBUFF",
-					},
-					["Cyclonic Inspiration"] = {
-						["name"] = "Cyclonic Inspiration",
-						["active"] = 1,
-						["id"] = 128943,
-						["uptime"] = 67,
-						["auratype"] = "BUFF",
-					},
-				},
-				["damage"] = 1169056954,
-				["damagespells"] = {
-					["Vengeful Retreat"] = {
-						["min"] = 145017,
-						["critical"] = 4,
-						["hit"] = 11,
-						["totalhits"] = 15,
-						["id"] = 198813,
-						["max"] = 409869,
-						["damage"] = 3082896,
-					},
-					["Attack"] = {
-						["id"] = 6603,
-						["min"] = 53726,
-						["PARRY"] = 14,
-						["critical"] = 306,
-						["hit"] = 408,
-						["totalhits"] = 857,
-						["max"] = 661611,
-						["MISS"] = 129,
-						["damage"] = 136829641,
-					},
-					["Fel Rush"] = {
-						["min"] = 68948,
-						["PARRY"] = 2,
-						["critical"] = 51,
-						["hit"] = 71,
-						["totalhits"] = 124,
-						["id"] = 192611,
-						["max"] = 5449499,
-						["damage"] = 184244254,
-					},
-					["Chaos Nova"] = {
-						["min"] = 284760,
-						["critical"] = 1,
-						["hit"] = 1,
-						["totalhits"] = 2,
-						["id"] = 179057,
-						["max"] = 569520,
-						["damage"] = 854280,
-					},
-					["Death Sweep"] = {
-						["min"] = 173427,
-						["critical"] = 21,
-						["hit"] = 32,
-						["totalhits"] = 53,
-						["id"] = 210153,
-						["max"] = 1657735,
-						["damage"] = 24858633,
-					},
-					["Alliance Gunship Cannon: Cannon Blast"] = {
-						["min"] = 37500,
-						["hit"] = 45,
-						["totalhits"] = 45,
-						["id"] = 69400,
-						["max"] = 37500,
-						["damage"] = 1687500,
-					},
-					["Consume Magic"] = {
-						["totalhits"] = 2,
-						["id"] = 183752,
-						["IMMUNE"] = 2,
-						["max"] = 0,
-						["damage"] = 0,
-					},
-					["Annihilation"] = {
-						["min"] = 386626,
-						["PARRY"] = 9,
-						["critical"] = 76,
-						["hit"] = 160,
-						["totalhits"] = 245,
-						["id"] = 227518,
-						["max"] = 2846083,
-						["damage"] = 223752969,
-					},
-					["Metamorphosis"] = {
-						["min"] = 321750,
-						["critical"] = 4,
-						["hit"] = 17,
-						["totalhits"] = 21,
-						["id"] = 200166,
-						["max"] = 778570,
-						["damage"] = 9708627,
-					},
-					["Demon's Bite"] = {
-						["min"] = 269545,
-						["PARRY"] = 6,
-						["critical"] = 134,
-						["hit"] = 255,
-						["totalhits"] = 395,
-						["id"] = 162243,
-						["max"] = 2035823,
-						["damage"] = 227428325,
-					},
-					["Blade Dance"] = {
-						["min"] = 115680,
-						["critical"] = 155,
-						["hit"] = 282,
-						["totalhits"] = 437,
-						["id"] = 199552,
-						["max"] = 1187081,
-						["damage"] = 114788054,
-					},
-					["Chaos Strike"] = {
-						["min"] = 301422,
-						["PARRY"] = 5,
-						["critical"] = 76,
-						["hit"] = 107,
-						["totalhits"] = 188,
-						["id"] = 222031,
-						["max"] = 1439077,
-						["damage"] = 135700647,
-					},
-					["Throw Glaive"] = {
-						["min"] = 707007,
-						["critical"] = 15,
-						["hit"] = 22,
-						["totalhits"] = 37,
-						["id"] = 185123,
-						["max"] = 4119840,
-						["damage"] = 45847124,
-					},
-					["Alliance Gunship Cannon: Incinerating Blast"] = {
-						["min"] = 34331,
-						["hit"] = 9,
-						["totalhits"] = 9,
-						["id"] = 70175,
-						["max"] = 1115355,
-						["damage"] = 4808651,
-					},
-					["Eye Beam"] = {
-						["min"] = 238124,
-						["critical"] = 195,
-						["totalhits"] = 195,
-						["id"] = 198030,
-						["max"] = 700332,
-						["damage"] = 55465353,
-					},
-				},
-				["deaths"] = {
-					{
-						["ts"] = 1471415185.91513,
-						["log"] = {
-							{
-								["ts"] = 1471415080.38301,
-								["amount"] = -403,
-								["srcname"] = "The Lich King",
-								["spellid"] = 68983,
-								["hp"] = 345930,
-							}, -- [1]
-							{
-								["ts"] = 1471415081.05802,
-								["amount"] = -406,
-								["srcname"] = "The Lich King",
-								["spellid"] = 68983,
-								["hp"] = 345524,
-							}, -- [2]
-							{
-								["ts"] = 1471415081.38703,
-								["amount"] = -376,
-								["srcname"] = "The Lich King",
-								["spellid"] = 68983,
-								["hp"] = 345148,
-							}, -- [3]
-							{
-								["ts"] = 1471415082.38604,
-								["amount"] = -385,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 344763,
-							}, -- [4]
-							{
-								["ts"] = 1471415083.38905,
-								["amount"] = -398,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 344365,
-							}, -- [5]
-							{
-								["ts"] = 1471415084.38906,
-								["amount"] = -381,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 343984,
-							}, -- [6]
-							{
-								["ts"] = 1471415085.39207,
-								["amount"] = -394,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 343590,
-							}, -- [7]
-							{
-								["ts"] = 1471415086.38908,
-								["amount"] = -383,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 343207,
-							}, -- [8]
-							{
-								["ts"] = 1471415087.39009,
-								["amount"] = -409,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 342798,
-							}, -- [9]
-							{
-								["ts"] = 1471415088.3821,
-								["amount"] = -384,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 342414,
-							}, -- [10]
-							{
-								["ts"] = 1471415089.37911,
-								["amount"] = -403,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 342011,
-							}, -- [11]
-							{
-								["ts"] = 1471415090.38512,
-								["amount"] = -383,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 341628,
-							}, -- [12]
-							{
-								["spellname"] = "Kaldorath dies",
-								["ts"] = 1471415185.91513,
-								["hp"] = 0,
-								["spellid"] = 41220,
-							}, -- [13]
-							{
-								["ts"] = 1471415079.38414,
-								["amount"] = -372,
-								["spellid"] = 68983,
-								["srcname"] = "The Lich King",
-								["hp"] = 346719,
-							}, -- [14]
-							{
-								["ts"] = 1471415080.06515,
-								["amount"] = -386,
-								["srcname"] = "The Lich King",
-								["spellid"] = 68983,
-								["hp"] = 346333,
-							}, -- [15]
-							["pos"] = 14,
-						},
-						["maxhp"] = 414414,
-					}, -- [1]
-					{
-						["ts"] = 1470899693.75113,
-						["log"] = {
-							{
-								["ts"] = 1470899581.04101,
-								["amount"] = -390,
-								["srcname"] = "The Lich King",
-								["hp"] = 331208,
-								["spellid"] = 68983,
-							}, -- [1]
-							{
-								["ts"] = 1470899581.26802,
-								["amount"] = -382,
-								["srcname"] = "The Lich King",
-								["hp"] = 330826,
-								["spellid"] = 68983,
-							}, -- [2]
-							{
-								["ts"] = 1470899582.01803,
-								["amount"] = -395,
-								["srcname"] = "The Lich King",
-								["hp"] = 330431,
-								["spellid"] = 68983,
-							}, -- [3]
-							{
-								["ts"] = 1470899583.02304,
-								["amount"] = -405,
-								["srcname"] = "The Lich King",
-								["hp"] = 330026,
-								["spellid"] = 68983,
-							}, -- [4]
-							{
-								["ts"] = 1470899584.03405,
-								["amount"] = -399,
-								["srcname"] = "The Lich King",
-								["hp"] = 329627,
-								["spellid"] = 68983,
-							}, -- [5]
-							{
-								["ts"] = 1470899585.03406,
-								["amount"] = -382,
-								["srcname"] = "The Lich King",
-								["hp"] = 329245,
-								["spellid"] = 68983,
-							}, -- [6]
-							{
-								["ts"] = 1470899586.03007,
-								["amount"] = -388,
-								["srcname"] = "The Lich King",
-								["hp"] = 328857,
-								["spellid"] = 68983,
-							}, -- [7]
-							{
-								["ts"] = 1470899587.02808,
-								["amount"] = -400,
-								["srcname"] = "The Lich King",
-								["hp"] = 328457,
-								["spellid"] = 68983,
-							}, -- [8]
-							{
-								["ts"] = 1470899588.02309,
-								["amount"] = -372,
-								["srcname"] = "The Lich King",
-								["hp"] = 328085,
-								["spellid"] = 68983,
-							}, -- [9]
-							{
-								["ts"] = 1470899589.0261,
-								["amount"] = -369,
-								["srcname"] = "The Lich King",
-								["hp"] = 327716,
-								["spellid"] = 68983,
-							}, -- [10]
-							{
-								["ts"] = 1470899590.02611,
-								["amount"] = -406,
-								["spellid"] = 68983,
-								["hp"] = 327310,
-								["srcname"] = "The Lich King",
-							}, -- [11]
-							{
-								["ts"] = 1470899591.02012,
-								["amount"] = -411,
-								["spellid"] = 68983,
-								["hp"] = 326899,
-								["srcname"] = "The Lich King",
-							}, -- [12]
-							{
-								["spellname"] = "Kaldorath dies",
-								["ts"] = 1470899693.75113,
-								["hp"] = 0,
-								["spellid"] = 41220,
-							}, -- [13]
-							{
-								["ts"] = 1470899580.03814,
-								["amount"] = -411,
-								["spellid"] = 68983,
-								["hp"] = 331994,
-								["srcname"] = "The Lich King",
-							}, -- [14]
-							{
-								["ts"] = 1470899580.26715,
-								["amount"] = -396,
-								["spellid"] = 68983,
-								["hp"] = 331598,
-								["srcname"] = "The Lich King",
-							}, -- [15]
-							["pos"] = 14,
-						},
-						["maxhp"] = 409656,
-					}, -- [2]
-				},
-				["healed"] = {
-					["Player-5-0A6AF472"] = {
-						["role"] = "NONE",
-						["name"] = "Kaldorath",
-						["amount"] = 18185,
-						["class"] = "DEMONHUNTER",
-						["shielding"] = 0,
-					},
-				},
-				["shielding"] = 0,
-				["id"] = "Player-5-0A6AF472",
-				["healing"] = 18185,
-				["healingspells"] = {
-					["Essence of the Blood Queen"] = {
-						["shielding"] = 0,
-						["id"] = 70872,
-						["healing"] = 18185,
-						["multistrikes"] = 0,
-						["min"] = 0,
-						["multistrike"] = 0,
-						["name"] = "Essence of the Blood Queen",
-						["hits"] = 29,
-						["overhealing"] = 4781906,
-						["max"] = 7141,
-						["critical"] = 0,
-						["absorbed"] = 0,
-					},
-				},
-				["damagetakenspells"] = {
-					["Giant Insect Swarm"] = {
-						["crushing"] = 0,
-						["id"] = 70475,
-						["damage"] = 2411,
-						["max"] = 186,
-						["name"] = "Giant Insect Swarm",
-						["min"] = 185,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 13,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Glacial Blast"] = {
-						["crushing"] = 0,
-						["id"] = 71029,
-						["damage"] = 864,
-						["max"] = 216,
-						["name"] = "Glacial Blast",
-						["min"] = 216,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 4,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Rend Flesh"] = {
-						["crushing"] = 0,
-						["id"] = 70435,
-						["damage"] = 1302,
-						["max"] = 218,
-						["name"] = "Rend Flesh",
-						["min"] = 80,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 13,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Shroud of Sorrow"] = {
-						["crushing"] = 0,
-						["id"] = 70985,
-						["damage"] = 1567,
-						["max"] = 85,
-						["name"] = "Shroud of Sorrow",
-						["min"] = 81,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 19,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Arctic Chill"] = {
-						["crushing"] = 0,
-						["id"] = 71271,
-						["damage"] = 126,
-						["max"] = 126,
-						["name"] = "Arctic Chill",
-						["min"] = 126,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Rune of Blood"] = {
-						["crushing"] = 0,
-						["id"] = 72409,
-						["damage"] = 407,
-						["max"] = 159,
-						["name"] = "Rune of Blood",
-						["min"] = 124,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 3,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Twilight Bloodbolt"] = {
-						["crushing"] = 0,
-						["id"] = 71818,
-						["damage"] = 458,
-						["max"] = 239,
-						["name"] = "Twilight Bloodbolt",
-						["min"] = 219,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Plague Blast"] = {
-						["crushing"] = 0,
-						["id"] = 73079,
-						["damage"] = 113,
-						["max"] = 63,
-						["name"] = "Plague Blast",
-						["min"] = 50,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Shadow Prison"] = {
-						["crushing"] = 0,
-						["id"] = 72999,
-						["damage"] = 10835,
-						["max"] = 2315,
-						["name"] = "Shadow Prison",
-						["min"] = 315,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 9,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Gaseous Blight"] = {
-						["crushing"] = 0,
-						["id"] = 69159,
-						["damage"] = 2229,
-						["max"] = 120,
-						["name"] = "Gaseous Blight",
-						["min"] = 115,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 19,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Frost Aura"] = {
-						["crushing"] = 0,
-						["id"] = 70084,
-						["damage"] = 972,
-						["max"] = 81,
-						["name"] = "Frost Aura",
-						["min"] = 81,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 12,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Fury of Frostmourne"] = {
-						["crushing"] = 0,
-						["id"] = 72350,
-						["damage"] = 36000,
-						["max"] = 18000,
-						["name"] = "Fury of Frostmourne",
-						["min"] = 18000,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Shadow Lance"] = {
-						["crushing"] = 0,
-						["id"] = 71405,
-						["damage"] = 2122,
-						["max"] = 360,
-						["name"] = "Shadow Lance",
-						["min"] = 344,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 6,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Attack"] = {
-						["crushing"] = 0,
-						["id"] = 6603,
-						["damage"] = 149677,
-						["max"] = 1830,
-						["name"] = "Attack",
-						["min"] = 6,
-						["multistrike"] = 0,
-						["critical"] = 17,
-						["blocked"] = 0,
-						["totalhits"] = 238,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Bubbling Pus"] = {
-						["crushing"] = 0,
-						["id"] = 71089,
-						["damage"] = 30418,
-						["max"] = 2028,
-						["name"] = "Bubbling Pus",
-						["min"] = 2027,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 15,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Flesh-eating Bite"] = {
-						["crushing"] = 0,
-						["id"] = 72967,
-						["damage"] = 771,
-						["max"] = 8,
-						["name"] = "Flesh-eating Bite",
-						["min"] = 5,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 123,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Deathchill Bolt"] = {
-						["crushing"] = 0,
-						["id"] = 70594,
-						["damage"] = 1814,
-						["max"] = 241,
-						["name"] = "Deathchill Bolt",
-						["min"] = 209,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 8,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Shoot"] = {
-						["crushing"] = 0,
-						["id"] = 71253,
-						["damage"] = 56,
-						["max"] = 29,
-						["name"] = "Shoot",
-						["min"] = 27,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Bone Slice"] = {
-						["crushing"] = 0,
-						["id"] = 69055,
-						["damage"] = 20975,
-						["max"] = 2169,
-						["name"] = "Bone Slice",
-						["min"] = 1980,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 10,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Vile Gas"] = {
-						["crushing"] = 0,
-						["id"] = 69240,
-						["damage"] = 705,
-						["max"] = 119,
-						["name"] = "Vile Gas",
-						["min"] = 116,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 6,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Malleable Goo"] = {
-						["crushing"] = 0,
-						["id"] = 72297,
-						["damage"] = 268,
-						["max"] = 268,
-						["name"] = "Malleable Goo",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["min"] = 268,
-						["absorbed"] = 0,
-					},
-					["Gastric Bloat"] = {
-						["crushing"] = 0,
-						["id"] = 72219,
-						["damage"] = 1614,
-						["max"] = 276,
-						["name"] = "Gastric Bloat",
-						["min"] = 264,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 6,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Saber Lash"] = {
-						["crushing"] = 0,
-						["id"] = 71021,
-						["damage"] = 427,
-						["max"] = 427,
-						["name"] = "Saber Lash",
-						["min"] = 427,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Hurl Axe"] = {
-						["crushing"] = 0,
-						["id"] = 70161,
-						["damage"] = 356,
-						["max"] = 74,
-						["name"] = "Hurl Axe",
-						["min"] = 69,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 5,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Infest"] = {
-						["crushing"] = 0,
-						["id"] = 70541,
-						["damage"] = 552,
-						["max"] = 282,
-						["name"] = "Infest",
-						["min"] = 270,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Shattered Bones"] = {
-						["crushing"] = 0,
-						["id"] = 70961,
-						["damage"] = 900,
-						["max"] = 180,
-						["name"] = "Shattered Bones",
-						["min"] = 180,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 5,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Chilled to the Bone"] = {
-						["crushing"] = 0,
-						["id"] = 70106,
-						["damage"] = 817,
-						["max"] = 117,
-						["name"] = "Chilled to the Bone",
-						["min"] = 23,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 14,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Boiling Blood"] = {
-						["crushing"] = 0,
-						["id"] = 72385,
-						["damage"] = 810,
-						["max"] = 90,
-						["name"] = "Boiling Blood",
-						["min"] = 90,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 9,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Necrotic Strike"] = {
-						["crushing"] = 0,
-						["id"] = 70659,
-						["damage"] = 428,
-						["max"] = 249,
-						["name"] = "Necrotic Strike",
-						["min"] = 179,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Slime Spray"] = {
-						["crushing"] = 0,
-						["id"] = 69507,
-						["damage"] = 146,
-						["max"] = 146,
-						["name"] = "Slime Spray",
-						["min"] = 146,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Barbaric Strike"] = {
-						["crushing"] = 0,
-						["id"] = 71257,
-						["damage"] = 1403,
-						["max"] = 88,
-						["name"] = "Barbaric Strike",
-						["min"] = 27,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 29,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Vampiric Bite"] = {
-						["crushing"] = 0,
-						["id"] = 71726,
-						["damage"] = 411,
-						["max"] = 212,
-						["name"] = "Vampiric Bite",
-						["min"] = 199,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Frostbolt Volley"] = {
-						["crushing"] = 0,
-						["id"] = 72905,
-						["damage"] = 555,
-						["max"] = 280,
-						["name"] = "Frostbolt Volley",
-						["min"] = 275,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Remorseless Winter"] = {
-						["crushing"] = 0,
-						["id"] = 68983,
-						["damage"] = 93991,
-						["max"] = 412,
-						["name"] = "Remorseless Winter",
-						["min"] = 367,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 240,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Pain and Suffering"] = {
-						["crushing"] = 0,
-						["id"] = 72133,
-						["damage"] = 6576,
-						["max"] = 152,
-						["name"] = "Pain and Suffering",
-						["min"] = 21,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 63,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Volatile Ooze Adhesive"] = {
-						["crushing"] = 0,
-						["id"] = 70447,
-						["damage"] = 815,
-						["max"] = 138,
-						["name"] = "Volatile Ooze Adhesive",
-						["min"] = 133,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 6,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Shadow Bolt"] = {
-						["crushing"] = 0,
-						["id"] = 72960,
-						["damage"] = 1373,
-						["max"] = 259,
-						["name"] = "Shadow Bolt",
-						["min"] = 211,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 6,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Blood Nova"] = {
-						["crushing"] = 0,
-						["id"] = 72380,
-						["damage"] = 185,
-						["max"] = 185,
-						["name"] = "Blood Nova",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["min"] = 185,
-						["absorbed"] = 0,
-					},
-					["Plague Stench"] = {
-						["crushing"] = 0,
-						["id"] = 71160,
-						["damage"] = 241,
-						["max"] = 81,
-						["name"] = "Plague Stench",
-						["min"] = 80,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 3,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Massive Stomp"] = {
-						["crushing"] = 0,
-						["id"] = 71114,
-						["damage"] = 638,
-						["max"] = 404,
-						["name"] = "Massive Stomp",
-						["min"] = 234,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Plague Strike"] = {
-						["crushing"] = 0,
-						["id"] = 69912,
-						["damage"] = 185,
-						["max"] = 185,
-						["name"] = "Plague Strike",
-						["min"] = 185,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 1,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-					["Blighted Spores"] = {
-						["crushing"] = 0,
-						["id"] = 69290,
-						["damage"] = 7252,
-						["max"] = 3671,
-						["name"] = "Blighted Spores",
-						["glancing"] = 0,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["min"] = 3581,
-						["absorbed"] = 0,
-					},
-					["Frost Breath"] = {
-						["crushing"] = 0,
-						["id"] = 69649,
-						["damage"] = 2143,
-						["max"] = 1116,
-						["name"] = "Frost Breath",
-						["min"] = 1027,
-						["multistrike"] = 0,
-						["critical"] = 0,
-						["blocked"] = 0,
-						["totalhits"] = 2,
-						["resisted"] = 0,
-						["glancing"] = 0,
-						["absorbed"] = 0,
-					},
-				},
-				["maxhp"] = 409656,
-				["deathlog"] = {
-					{
-						["ts"] = 1471575282.915,
-						["amount"] = -39,
-						["hp"] = 335460,
-						["spellid"] = 88163,
-						["srcname"] = "Attumen the Huntsman",
-					}, -- [1]
-					{
-						["absorb"] = 0,
-						["amount"] = 39,
-						["srcname"] = "Parsepatrol",
-						["spellid"] = 145110,
-						["hp"] = 335460,
-						["ts"] = 1471575307.814,
-					}, -- [2]
-					{
-						["ts"] = 1473093420.141,
-						["amount"] = -39,
-						["hp"] = 341340,
-						["spellid"] = 88163,
-						["srcname"] = "Attumen the Huntsman",
-					}, -- [3]
-					["pos"] = 4,
-				},
-				["name"] = "Kaldorath",
-				["damagetaken"] = 385908,
-				["power"] = {
-					[17] = {
-						["spells"] = {
-							[203650] = 317,
-							[162243] = 9795,
-							[193840] = 1540,
-						},
-						["amount"] = 11652,
-					},
-				},
-				["time"] = 1354,
-				["role"] = "NONE",
-				["multistrikes"] = 0,
-			}, -- [1]
-		},
-		["deaths"] = 2,
-		["mobs"] = {
-			["The Damned"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7314609,
-						["done"] = 1783,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7314609,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 1783,
-			},
-			["Frostwarden Handler"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7240437,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7240437,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Ymirjar Battle-Maiden"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 14253000,
-						["done"] = 2724,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 14253000,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 2724,
-			},
-			["Drudge Ghoul"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 1607427,
-						["done"] = 212,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 1607427,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 212,
-			},
-			["Cult Adherent"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 0,
-						["done"] = 1814,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 1814,
-			},
-			["Darkfallen Advisor"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 8738018,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 8738018,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Skybreaker Hierophant"] = {
-				["players"] = {
-				},
-				["hdone"] = 3060140,
-				["hdonespell"] = {
-					["Healing Touch"] = {
-						["min"] = 36534,
-						["crits"] = 0,
-						["max"] = 44409,
-						["healing"] = 2350844,
-						["overhealing"] = 0,
-						["hits"] = 58,
-					},
-					["Rejuvenation"] = {
-						["min"] = 358,
-						["crits"] = 0,
-						["max"] = 4498,
-						["healing"] = 340938,
-						["overhealing"] = 3768,
-						["hits"] = 97,
-					},
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7305,
-						["healing"] = 368358,
-						["overhealing"] = 28901,
-						["hits"] = 141,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 36694,
-						["crits"] = 0,
-						["max"] = 44373,
-						["healing"] = 532553,
-						["overhealing"] = 0,
-						["hits"] = 13,
-					},
-					["Rejuvenation"] = {
-						["min"] = 358,
-						["crits"] = 0,
-						["max"] = 4498,
-						["healing"] = 258602,
-						["overhealing"] = 3768,
-						["hits"] = 75,
-					},
-					["Regrowth"] = {
-						["min"] = 2400,
-						["crits"] = 0,
-						["max"] = 6589,
-						["healing"] = 209041,
-						["overhealing"] = 0,
-						["hits"] = 75,
-					},
-				},
-				["htaken"] = 1000196,
-				["done"] = 0,
-			},
-			["Kor'kron Reaver"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 4120236,
-						["done"] = 185,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 4120236,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 42098,
-						["crits"] = 0,
-						["max"] = 42098,
-						["healing"] = 42098,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Greater Heal"] = {
-						["min"] = 6971,
-						["crits"] = 0,
-						["max"] = 19787,
-						["healing"] = 407149,
-						["overhealing"] = 12060,
-						["hits"] = 23,
-					},
-					["Penance"] = {
-						["min"] = 5149,
-						["crits"] = 0,
-						["max"] = 6913,
-						["healing"] = 55981,
-						["overhealing"] = 0,
-						["hits"] = 9,
-					},
-					["Regrowth"] = {
-						["min"] = 2400,
-						["crits"] = 0,
-						["max"] = 6860,
-						["healing"] = 85764,
-						["overhealing"] = 0,
-						["hits"] = 32,
-					},
-					["Rejuvenation"] = {
-						["min"] = 2761,
-						["crits"] = 0,
-						["max"] = 4493,
-						["healing"] = 78714,
-						["overhealing"] = 1136,
-						["hits"] = 21,
-					},
-					["Healing Wave"] = {
-						["min"] = 18912,
-						["crits"] = 0,
-						["max"] = 18912,
-						["healing"] = 18912,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 688618,
-				["done"] = 185,
-			},
-			["Midnight"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 1693417,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 1693417,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Orgrim's Hammer"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 2441580,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 2441580,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Lady Deathwhisper"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 52664724,
-						["done"] = 6169,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 52664724,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 6169,
-			},
-			["Servant of the Throne"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 3220194,
-						["done"] = 957,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 3220194,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 957,
-			},
-			["Darkfallen Tactician"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 14428650,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 14428650,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Captain Rupert"] = {
-				["players"] = {
-				},
-				["hdone"] = 675815,
-				["hdonespell"] = {
-					["Undeath"] = {
-						["min"] = 675815,
-						["crits"] = 0,
-						["max"] = 675815,
-						["healing"] = 675815,
-						["overhealing"] = 376460,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Undeath"] = {
-						["min"] = 675815,
-						["crits"] = 0,
-						["max"] = 675815,
-						["healing"] = 675815,
-						["overhealing"] = 376460,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 675815,
-				["done"] = 0,
-			},
-			["Darkfallen Lieutenant"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7508834,
-						["done"] = 1302,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7508834,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 1302,
-			},
-			["Darkfallen Noble"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 1422402,
-						["done"] = 232,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 1422402,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 232,
-			},
-			["Deathbound Ward"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 5599518,
-						["done"] = 427,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 5599518,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 427,
-			},
-			["Frozen Insect"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 546769,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 546769,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Rimefang"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7541280,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7541280,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Spectral Charger"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 2826920,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 2826920,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Ymirjar Huntress"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 10167547,
-						["done"] = 56,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 10167547,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 56,
-			},
-			["Spectral Stallion"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 4896849,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 4896849,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Warhawk"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 2349053,
-						["done"] = 111,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 2349053,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 111,
-			},
-			["Deathbringer Saurfang"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 46534747,
-						["done"] = 22469,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 8140,
-				["hdonespell"] = {
-					["Rune of Blood"] = {
-						["min"] = 2480,
-						["crits"] = 0,
-						["max"] = 3180,
-						["healing"] = 8140,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["taken"] = 46534747,
-				["htakenspell"] = {
-					["Rune of Blood"] = {
-						["min"] = 2480,
-						["crits"] = 0,
-						["max"] = 3180,
-						["healing"] = 8140,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 8140,
-				["done"] = 22469,
-			},
-			["Decaying Colossus"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 6336452,
-						["done"] = 638,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 6336452,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 638,
-			},
-			["Darkfallen Commander"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 12550268,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 12550268,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Ymirjar Deathbringer"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 3849710,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 3849710,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Nerub'ar Broodkeeper"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 9842283,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 9842283,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Kor'kron Vanquisher"] = {
-				["players"] = {
-				},
-				["hdone"] = 27385,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 907,
-						["crits"] = 0,
-						["max"] = 1485,
-						["healing"] = 27385,
-						["overhealing"] = 0,
-						["hits"] = 22,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Heal"] = {
-						["min"] = 16864,
-						["crits"] = 0,
-						["max"] = 18482,
-						["healing"] = 87571,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Earth Shield"] = {
-						["min"] = 907,
-						["crits"] = 0,
-						["max"] = 1485,
-						["healing"] = 27385,
-						["overhealing"] = 0,
-						["hits"] = 22,
-					},
-					["Chain Heal"] = {
-						["min"] = 19025,
-						["crits"] = 0,
-						["max"] = 19025,
-						["healing"] = 19025,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 133981,
-				["done"] = 0,
-			},
-			["Kor'kron Sniper"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Heal"] = {
-						["min"] = 16363,
-						["crits"] = 0,
-						["max"] = 19528,
-						["healing"] = 140752,
-						["overhealing"] = 1128,
-						["hits"] = 8,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7376,
-						["healing"] = 52187,
-						["overhealing"] = 5917,
-						["hits"] = 9,
-					},
-					["Healing Wave"] = {
-						["min"] = 6573,
-						["crits"] = 0,
-						["max"] = 18438,
-						["healing"] = 122063,
-						["overhealing"] = 37844,
-						["hits"] = 9,
-					},
-					["Rejuvenation"] = {
-						["min"] = 3179,
-						["crits"] = 0,
-						["max"] = 4364,
-						["healing"] = 18151,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Regrowth"] = {
-						["min"] = 635,
-						["crits"] = 0,
-						["max"] = 4838,
-						["healing"] = 5473,
-						["overhealing"] = 1765,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 338626,
-				["done"] = 0,
-			},
-			["Sindragosa"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 47573560,
-						["done"] = 18811,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 47573560,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 18811,
-			},
-			["Flesh-eating Insect"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 99786271,
-						["done"] = 845,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 99786271,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 845,
-			},
-			["Festergut"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 55316040,
-						["done"] = 27317,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 55316040,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 27317,
-			},
-			["Ymirjar Frostbinder"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 4408217,
-						["done"] = 126,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 4408217,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 126,
-			},
-			["Cult Fanatic"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 3248690,
-						["done"] = 428,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 3248690,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 428,
-			},
-			["Kor'kron Templar"] = {
-				["players"] = {
-				},
-				["hdone"] = 3045611,
-				["hdonespell"] = {
-					["Greater Heal"] = {
-						["min"] = 6971,
-						["crits"] = 0,
-						["max"] = 19800,
-						["healing"] = 2042424,
-						["overhealing"] = 13188,
-						["hits"] = 113,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7489,
-						["healing"] = 985031,
-						["overhealing"] = 623165,
-						["hits"] = 269,
-					},
-					["Earth Shield"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1445,
-						["healing"] = 18156,
-						["overhealing"] = 5416,
-						["hits"] = 20,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Heal"] = {
-						["min"] = 17111,
-						["crits"] = 0,
-						["max"] = 19707,
-						["healing"] = 280679,
-						["overhealing"] = 0,
-						["hits"] = 15,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7489,
-						["healing"] = 419195,
-						["overhealing"] = 208415,
-						["hits"] = 105,
-					},
-					["Healing Wave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 19197,
-						["healing"] = 407945,
-						["overhealing"] = 187495,
-						["hits"] = 33,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3794,
-						["healing"] = 30346,
-						["overhealing"] = 34560,
-						["hits"] = 18,
-					},
-					["Earth Shield"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1445,
-						["healing"] = 18156,
-						["overhealing"] = 5416,
-						["hits"] = 20,
-					},
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 6452,
-						["healing"] = 36488,
-						["overhealing"] = 25074,
-						["hits"] = 20,
-					},
-				},
-				["htaken"] = 1192809,
-				["done"] = 0,
-			},
-			["Lord Marrowgar"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 32646130,
-						["done"] = 31351,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 32646130,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 31351,
-			},
-			["Skybreaker Sorcerer"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7305,
-						["healing"] = 70694,
-						["overhealing"] = 28901,
-						["hits"] = 34,
-					},
-				},
-				["htaken"] = 70694,
-				["done"] = 0,
-			},
-			["Kor'kron Defender"] = {
-				["players"] = {
-				},
-				["hdone"] = 20337,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 935,
-						["crits"] = 0,
-						["max"] = 1478,
-						["healing"] = 20337,
-						["overhealing"] = 0,
-						["hits"] = 17,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 36929,
-						["crits"] = 0,
-						["max"] = 44523,
-						["healing"] = 397676,
-						["overhealing"] = 0,
-						["hits"] = 10,
-					},
-					["Greater Heal"] = {
-						["min"] = 16268,
-						["crits"] = 0,
-						["max"] = 19800,
-						["healing"] = 316043,
-						["overhealing"] = 0,
-						["hits"] = 17,
-					},
-					["Healing Wave"] = {
-						["min"] = 17557,
-						["crits"] = 0,
-						["max"] = 17557,
-						["healing"] = 17557,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Rejuvenation"] = {
-						["min"] = 4374,
-						["crits"] = 0,
-						["max"] = 4374,
-						["healing"] = 4374,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Earth Shield"] = {
-						["min"] = 935,
-						["crits"] = 0,
-						["max"] = 1478,
-						["healing"] = 20337,
-						["overhealing"] = 0,
-						["hits"] = 17,
-					},
-				},
-				["htaken"] = 755987,
-				["done"] = 0,
-			},
-			["Pustulating Horror"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 6315664,
-						["done"] = 30418,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 6315664,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 30418,
-			},
-			["Skybreaker Marksman"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["done"] = 0,
-				["htaken"] = 120489,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 36964,
-						["crits"] = 0,
-						["max"] = 42375,
-						["healing"] = 120489,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-			},
-			["Nerub'ar Champion"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 12174723,
-						["done"] = 283,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 12174723,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 283,
-			},
-			["Frostwing Whelp"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 27253621,
-						["done"] = 106,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 27253621,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 106,
-			},
-			["Precious"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 8059018,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 8059018,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Blighted Abomination"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 1713861,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 1713861,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Nerub'ar Broodling"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 11406634,
-						["done"] = 30,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 11406634,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 30,
-			},
-			["Darkfallen Blood Knight"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 9423882,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 9423882,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Rotface"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 48270257,
-						["done"] = 10536,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 48270257,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 10536,
-			},
-			["Spectral Stable Hand"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 6045049,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 6045049,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Prince Keleseth"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 2724750,
-						["done"] = 2122,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 2724750,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 2122,
-			},
-			["Skybreaker Summoner"] = {
-				["players"] = {
-				},
-				["hdone"] = 10009,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 973,
-						["crits"] = 0,
-						["max"] = 1454,
-						["healing"] = 10009,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 38444,
-						["crits"] = 0,
-						["max"] = 43774,
-						["healing"] = 201627,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Healing Wave"] = {
-						["min"] = 6254,
-						["crits"] = 0,
-						["max"] = 19194,
-						["healing"] = 416599,
-						["overhealing"] = 72061,
-						["hits"] = 27,
-					},
-					["Rejuvenation"] = {
-						["min"] = 2792,
-						["crits"] = 0,
-						["max"] = 4492,
-						["healing"] = 82336,
-						["overhealing"] = 0,
-						["hits"] = 22,
-					},
-					["Earth Shield"] = {
-						["min"] = 973,
-						["crits"] = 0,
-						["max"] = 1454,
-						["healing"] = 10009,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-					["Regrowth"] = {
-						["min"] = 2400,
-						["crits"] = 0,
-						["max"] = 7268,
-						["healing"] = 88623,
-						["overhealing"] = 0,
-						["hits"] = 32,
-					},
-				},
-				["htaken"] = 799194,
-				["done"] = 0,
-			},
-			["Prince Valanar"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 32395395,
-						["done"] = 10491,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 32395395,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 10491,
-			},
-			["Skybreaker Luminary"] = {
-				["players"] = {
-				},
-				["hdone"] = 498156,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 938,
-						["crits"] = 0,
-						["max"] = 1461,
-						["healing"] = 26986,
-						["overhealing"] = 0,
-						["hits"] = 22,
-					},
-					["Healing Wave"] = {
-						["min"] = 6254,
-						["crits"] = 0,
-						["max"] = 19194,
-						["healing"] = 471170,
-						["overhealing"] = 72061,
-						["hits"] = 30,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Earth Shield"] = {
-						["min"] = 938,
-						["crits"] = 0,
-						["max"] = 1461,
-						["healing"] = 26986,
-						["overhealing"] = 0,
-						["hits"] = 22,
-					},
-					["Healing Wave"] = {
-						["min"] = 17256,
-						["crits"] = 0,
-						["max"] = 18951,
-						["healing"] = 54571,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-				},
-				["htaken"] = 81557,
-				["done"] = 0,
-			},
-			["Blood-Queen Lana'thel"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 73630099,
-						["done"] = 18185,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 73630099,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 18185,
-			},
-			["Kor'kron Axethrower"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 4054571,
-						["done"] = 356,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 4054571,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 356,
-			},
-			["Darkfallen Archmage"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 3257285,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 3257285,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Kor'kron Invoker"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Heal"] = {
-						["min"] = 19604,
-						["crits"] = 0,
-						["max"] = 19604,
-						["healing"] = 19604,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 6694,
-						["healing"] = 31039,
-						["overhealing"] = 10682,
-						["hits"] = 7,
-					},
-					["Healing Wave"] = {
-						["min"] = 4188,
-						["crits"] = 0,
-						["max"] = 8307,
-						["healing"] = 18495,
-						["overhealing"] = 35773,
-						["hits"] = 3,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3448,
-						["healing"] = 19974,
-						["overhealing"] = 26905,
-						["hits"] = 13,
-					},
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 5430,
-						["healing"] = 25058,
-						["overhealing"] = 32722,
-						["hits"] = 21,
-					},
-				},
-				["htaken"] = 114170,
-				["done"] = 0,
-			},
-			["Spinestalker"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7418483,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7418483,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Frostwarden Sorceress"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 3497802,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 3497802,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["The Lich King"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 276731139,
-						["done"] = 154044,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 5248912,
-				["hdonespell"] = {
-					["Fury of Frostmourne"] = {
-						["min"] = 2624456,
-						["crits"] = 0,
-						["max"] = 2624456,
-						["healing"] = 5248912,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 276731139,
-				["htakenspell"] = {
-					["Fury of Frostmourne"] = {
-						["min"] = 2624456,
-						["crits"] = 0,
-						["max"] = 2624456,
-						["healing"] = 5248912,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 5248912,
-				["done"] = 154044,
-			},
-			["Raging Spirit"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 5100671,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 5100671,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Jarrama"] = {
-				["players"] = {
-				},
-				["hdone"] = 10602,
-				["hdonespell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 10602,
-						["crits"] = 0,
-						["max"] = 10602,
-						["healing"] = 10602,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Ancient Skeletal Soldier"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 9862611,
-						["done"] = 1319,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 9862611,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 1319,
-			},
-			["Kor'kron Necrolyte"] = {
-				["players"] = {
-				},
-				["hdone"] = 9047,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1419,
-						["healing"] = 9047,
-						["overhealing"] = 3166,
-						["hits"] = 10,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Heal"] = {
-						["min"] = 19224,
-						["crits"] = 0,
-						["max"] = 19224,
-						["healing"] = 19224,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7357,
-						["healing"] = 353544,
-						["overhealing"] = 249456,
-						["hits"] = 101,
-					},
-					["Healing Wave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 17457,
-						["healing"] = 170570,
-						["overhealing"] = 223881,
-						["hits"] = 22,
-					},
-					["Chain Heal"] = {
-						["min"] = 18967,
-						["crits"] = 0,
-						["max"] = 18967,
-						["healing"] = 18967,
-						["overhealing"] = 74,
-						["hits"] = 1,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3600,
-						["healing"] = 3600,
-						["overhealing"] = 9745,
-						["hits"] = 4,
-					},
-					["Earth Shield"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 1419,
-						["healing"] = 9047,
-						["overhealing"] = 3166,
-						["hits"] = 10,
-					},
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2400,
-						["healing"] = 4800,
-						["overhealing"] = 39569,
-						["hits"] = 17,
-					},
-				},
-				["htaken"] = 579752,
-				["done"] = 0,
-			},
-			["Professor Putricide"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 51764653,
-						["done"] = 5321,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 51764653,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 5321,
-			},
-			["Ice Sphere"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 2446894,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 2446894,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Vengeful Fleshreaper"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 12411848,
-						["done"] = 94,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 12411848,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 94,
-			},
-			["Skybreaker Assassin"] = {
-				["players"] = {
-				},
-				["hdone"] = 12021,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 924,
-						["crits"] = 0,
-						["max"] = 1474,
-						["healing"] = 12021,
-						["overhealing"] = 0,
-						["hits"] = 10,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Earth Shield"] = {
-						["min"] = 924,
-						["crits"] = 0,
-						["max"] = 1474,
-						["healing"] = 12021,
-						["overhealing"] = 0,
-						["hits"] = 10,
-					},
-				},
-				["htaken"] = 12021,
-				["done"] = 0,
-			},
-			["Skybreaker Vindicator"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 36534,
-						["crits"] = 0,
-						["max"] = 44409,
-						["healing"] = 1100947,
-						["overhealing"] = 0,
-						["hits"] = 27,
-					},
-				},
-				["htaken"] = 1100947,
-				["done"] = 0,
-			},
-			["Volatile Ooze"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 0,
-						["done"] = 815,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 815,
-			},
-			["Nerub'ar Webweaver"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 13597945,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 13597945,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Sister Svalna"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 8415330,
-						["done"] = 0,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 8415330,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 0,
-			},
-			["Kor'kron Oracle"] = {
-				["players"] = {
-				},
-				["hdone"] = 883798,
-				["hdonespell"] = {
-					["Healing Wave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 19197,
-						["healing"] = 823655,
-						["overhealing"] = 617091,
-						["hits"] = 80,
-					},
-					["Earth Shield"] = {
-						["min"] = 1088,
-						["crits"] = 0,
-						["max"] = 1312,
-						["healing"] = 3649,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Chain Heal"] = {
-						["min"] = 18502,
-						["crits"] = 0,
-						["max"] = 19025,
-						["healing"] = 56494,
-						["overhealing"] = 74,
-						["hits"] = 3,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Greater Heal"] = {
-						["min"] = 16599,
-						["crits"] = 0,
-						["max"] = 19631,
-						["healing"] = 54642,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 6296,
-						["healing"] = 43586,
-						["overhealing"] = 63303,
-						["hits"] = 18,
-					},
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 5313,
-						["healing"] = 32938,
-						["overhealing"] = 38973,
-						["hits"] = 24,
-					},
-					["Chain Heal"] = {
-						["min"] = 18502,
-						["crits"] = 0,
-						["max"] = 18502,
-						["healing"] = 18502,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3702,
-						["healing"] = 18921,
-						["overhealing"] = 21950,
-						["hits"] = 12,
-					},
-					["Earth Shield"] = {
-						["min"] = 1088,
-						["crits"] = 0,
-						["max"] = 1312,
-						["healing"] = 3649,
-						["overhealing"] = 0,
-						["hits"] = 3,
-					},
-					["Healing Wave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 13239,
-						["healing"] = 38542,
-						["overhealing"] = 52818,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 210780,
-				["done"] = 0,
-			},
-			["Skybreaker Dreadblade"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Healing Touch"] = {
-						["min"] = 36559,
-						["crits"] = 0,
-						["max"] = 42594,
-						["healing"] = 319548,
-						["overhealing"] = 0,
-						["hits"] = 8,
-					},
-				},
-				["htaken"] = 319548,
-				["done"] = 0,
-			},
-			["Ymirjar Warlord"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 8684711,
-						["done"] = 174,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 8684711,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 174,
-			},
-			["Plagued Zombie"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7594252,
-						["done"] = 38,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7594252,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 38,
-			},
-			["Captain Grondel"] = {
-				["players"] = {
-				},
-				["hdone"] = 657580,
-				["hdonespell"] = {
-					["Undeath"] = {
-						["min"] = 657580,
-						["crits"] = 0,
-						["max"] = 657580,
-						["healing"] = 657580,
-						["overhealing"] = 394695,
-						["hits"] = 1,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Undeath"] = {
-						["min"] = 657580,
-						["crits"] = 0,
-						["max"] = 657580,
-						["healing"] = 657580,
-						["overhealing"] = 394695,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 657580,
-				["done"] = 0,
-			},
-			["Kor'kron Stalker"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Regrowth"] = {
-						["min"] = 2400,
-						["crits"] = 0,
-						["max"] = 6939,
-						["healing"] = 44169,
-						["overhealing"] = 0,
-						["hits"] = 15,
-					},
-					["Greater Heal"] = {
-						["min"] = 16261,
-						["crits"] = 0,
-						["max"] = 19734,
-						["healing"] = 716760,
-						["overhealing"] = 0,
-						["hits"] = 40,
-					},
-					["Rejuvenation"] = {
-						["min"] = 2924,
-						["crits"] = 0,
-						["max"] = 4471,
-						["healing"] = 17789,
-						["overhealing"] = 0,
-						["hits"] = 5,
-					},
-					["Healing Wave"] = {
-						["min"] = 18735,
-						["crits"] = 0,
-						["max"] = 18735,
-						["healing"] = 18735,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 797453,
-				["done"] = 0,
-			},
-			["Kor'kron Primalist"] = {
-				["players"] = {
-				},
-				["hdone"] = 887228,
-				["hdonespell"] = {
-					["Healing Touch"] = {
-						["min"] = 36929,
-						["crits"] = 0,
-						["max"] = 44523,
-						["healing"] = 439774,
-						["overhealing"] = 0,
-						["hits"] = 11,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 4493,
-						["healing"] = 210009,
-						["overhealing"] = 160935,
-						["hits"] = 103,
-					},
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 6939,
-						["healing"] = 237445,
-						["overhealing"] = 192782,
-						["hits"] = 149,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Regrowth"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 2064,
-						["healing"] = 2755,
-						["overhealing"] = 54679,
-						["hits"] = 18,
-					},
-					["Rejuvenation"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 3466,
-						["healing"] = 18140,
-						["overhealing"] = 66639,
-						["hits"] = 24,
-					},
-					["Penance"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 7200,
-						["healing"] = 29499,
-						["overhealing"] = 85392,
-						["hits"] = 20,
-					},
-					["Healing Wave"] = {
-						["min"] = 0,
-						["crits"] = 0,
-						["max"] = 5422,
-						["healing"] = 10836,
-						["overhealing"] = 79280,
-						["hits"] = 5,
-					},
-				},
-				["htaken"] = 61230,
-				["done"] = 0,
-			},
-			["Plague Scientist"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7530317,
-						["done"] = 273,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7530317,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 273,
-			},
-			["Prince Taldaram"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 9243617,
-						["done"] = 11221,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 9243617,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 11221,
-			},
-			["Frostwarden Warrior"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 6254312,
-						["done"] = 222,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 6254312,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 222,
-			},
-			["Stinky"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 7862695,
-						["done"] = 510,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 7862695,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 510,
-			},
-			["Rat"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 68948,
-						["done"] = 0,
-						["role"] = "NONE",
-						["class"] = "DEMONHUNTER",
-					},
-				},
-				["hdone"] = 0,
-				["htakenspell"] = {
-				},
-				["taken"] = 68948,
-				["done"] = 0,
-				["htaken"] = 0,
-				["hdonespell"] = {
-				},
-			},
-			["Skybreaker Protector"] = {
-				["players"] = {
-				},
-				["hdone"] = 2738,
-				["hdonespell"] = {
-					["Earth Shield"] = {
-						["min"] = 1272,
-						["crits"] = 0,
-						["max"] = 1466,
-						["healing"] = 2738,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Earth Shield"] = {
-						["min"] = 1272,
-						["crits"] = 0,
-						["max"] = 1466,
-						["healing"] = 2738,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-					["Healing Touch"] = {
-						["min"] = 37676,
-						["crits"] = 0,
-						["max"] = 38004,
-						["healing"] = 75680,
-						["overhealing"] = 0,
-						["hits"] = 2,
-					},
-				},
-				["htaken"] = 78418,
-				["done"] = 0,
-			},
-			["Attumen the Huntsman"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 1172085,
-						["done"] = 78,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 1172085,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 78,
-			},
-			["Putricide's Trap"] = {
-				["players"] = {
-					["Kaldorath"] = {
-						["taken"] = 0,
-						["done"] = 2411,
-						["class"] = "DEMONHUNTER",
-						["role"] = "NONE",
-					},
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-				},
-				["htaken"] = 0,
-				["done"] = 2411,
-			},
-			["Zerdbo"] = {
-				["players"] = {
-				},
-				["hdone"] = 0,
-				["hdonespell"] = {
-				},
-				["taken"] = 0,
-				["htakenspell"] = {
-					["Ysera's Gift"] = {
-						["min"] = 10602,
-						["crits"] = 0,
-						["max"] = 10602,
-						["healing"] = 10602,
-						["overhealing"] = 0,
-						["hits"] = 1,
-					},
-				},
-				["htaken"] = 10602,
-				["done"] = 0,
-			},
-		},
-		["mobtaken"] = 1169056954,
-		["healing"] = 18185,
-		["mobdone"] = 367004,
-		["power"] = {
-			[17] = 11652,
-		},
-		["overhealing"] = 4781906,
-		["damagetaken"] = 385908,
-		["name"] = "Total",
-		["starttime"] = 1470898167,
-		["shielding"] = 0,
-		["mobhdone"] = 15057519,
-		["last_action"] = 1470898167,
-		["multistrikes"] = 0,
-	},
 	["sets"] = {
 		{
 			["healingabsorbed"] = 0,
@@ -3495,8 +7,8 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 59,
 			["interrupts"] = 0,
-			["endtime"] = 1473093477,
-			["gotboss"] = true,
+			["mobdone"] = 39,
+			["mobtaken"] = 8766915,
 			["damage"] = 8766915,
 			["players"] = {
 				{
@@ -3516,15 +28,15 @@ SkadaPerCharDB = {
 							["name"] = "Prepared",
 							["active"] = 0,
 							["id"] = 203650,
-							["auratype"] = "BUFF",
 							["uptime"] = 5,
+							["auratype"] = "BUFF",
 						},
 						["Blade Dance"] = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["auratype"] = "BUFF",
 							["uptime"] = 3,
+							["auratype"] = "BUFF",
 						},
 					},
 					["role"] = "NONE",
@@ -3532,14 +44,13 @@ SkadaPerCharDB = {
 					["interrupts"] = 0,
 					["damage"] = 8766915,
 					["damagespells"] = {
-						["Fel Rush"] = {
-							["min"] = 68948,
-							["critical"] = 2,
-							["hit"] = 1,
+						["Attack"] = {
+							["min"] = 140690,
+							["hit"] = 3,
 							["totalhits"] = 3,
-							["id"] = 192611,
-							["max"] = 1723688,
-							["damage"] = 2654480,
+							["id"] = 6603,
+							["max"] = 151815,
+							["damage"] = 433318,
 						},
 						["Blade Dance"] = {
 							["min"] = 121551,
@@ -3559,54 +70,55 @@ SkadaPerCharDB = {
 							["max"] = 709269,
 							["damage"] = 2131339,
 						},
-						["Attack"] = {
-							["min"] = 140690,
-							["hit"] = 3,
+						["Fel Rush"] = {
+							["min"] = 68948,
+							["critical"] = 2,
+							["hit"] = 1,
 							["totalhits"] = 3,
-							["id"] = 6603,
-							["max"] = 151815,
-							["damage"] = 433318,
+							["id"] = 192611,
+							["max"] = 1723688,
+							["damage"] = 2654480,
 						},
 					},
+					["shielding"] = 0,
+					["damagetaken"] = 39,
 					["power"] = {
 						[17] = {
-							["amount"] = 127,
 							["spells"] = {
 								[162243] = 91,
 								[203650] = 36,
 							},
+							["amount"] = 127,
 						},
 					},
-					["damagetaken"] = 39,
-					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1473093419,
-					["ccbreaks"] = 0,
+					["dispells"] = 0,
 					["damagetakenspells"] = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
+							["damage"] = 39,
+							["max"] = 39,
 							["min"] = 39,
-							["critical"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
 							["name"] = "Attack",
+							["critical"] = 0,
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["max"] = 39,
-							["damage"] = 39,
+							["glancing"] = 0,
+							["absorbed"] = 0,
 						},
 					},
-					["overhealing"] = 0,
-					["healingspells"] = {
+					["maxhp"] = 341340,
+					["healed"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healed"] = {
+					["healingspells"] = {
 					},
-					["maxhp"] = 341340,
-					["dispells"] = 0,
+					["overhealing"] = 0,
+					["ccbreaks"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -3617,125 +129,125 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 1977176,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "DEMONHUNTER",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 1977176,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 1977176,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Spectral Stallion"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 2482917,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "DEMONHUNTER",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 2482917,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 2482917,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Rat"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 68948,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "DEMONHUNTER",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 68948,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 68948,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Midnight"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 840679,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "DEMONHUNTER",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 840679,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 840679,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Spectral Stable Hand"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 3134798,
 							["done"] = 0,
-							["role"] = "NONE",
 							["class"] = "DEMONHUNTER",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 3134798,
-					["done"] = 0,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 3134798,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
 				},
 				["Attumen the Huntsman"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 262397,
 							["done"] = 39,
-							["role"] = "NONE",
 							["class"] = "DEMONHUNTER",
+							["role"] = "NONE",
 						},
 					},
 					["hdone"] = 0,
-					["htakenspell"] = {
-					},
-					["taken"] = 262397,
-					["done"] = 39,
-					["htaken"] = 0,
 					["hdonespell"] = {
 					},
+					["taken"] = 262397,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 39,
 				},
 			},
-			["mobtaken"] = 8766915,
+			["gotboss"] = true,
 			["starttime"] = 1473093418,
 			["healing"] = 0,
-			["power"] = {
-				[17] = 127,
-			},
+			["damagetaken"] = 39,
 			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Attumen the Huntsman (2)",
 			["mobname"] = "Attumen the Huntsman",
-			["damagetaken"] = 39,
+			["power"] = {
+				[17] = 127,
+			},
 			["mobhdone"] = 0,
 			["last_action"] = 1473093418,
-			["mobdone"] = 39,
+			["endtime"] = 1473093477,
 		}, -- [1]
 		{
 			["healingabsorbed"] = 0,
@@ -3743,8 +255,8 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 38,
 			["interrupts"] = 0,
-			["mobdone"] = 39,
-			["mobtaken"] = 7936353,
+			["endtime"] = 1471575310,
+			["gotboss"] = true,
 			["damage"] = 7936353,
 			["players"] = {
 				{
@@ -3763,22 +275,22 @@ SkadaPerCharDB = {
 							["name"] = "Death Sweep",
 							["active"] = 0,
 							["id"] = 210152,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Metamorphosis"] = {
 							["name"] = "Metamorphosis",
 							["active"] = 1,
 							["id"] = 162264,
-							["uptime"] = 27,
 							["auratype"] = "BUFF",
+							["uptime"] = 27,
 						},
 						["Cyclonic Inspiration"] = {
 							["name"] = "Cyclonic Inspiration",
 							["active"] = 1,
 							["id"] = 128943,
-							["uptime"] = 3,
 							["auratype"] = "BUFF",
+							["uptime"] = 3,
 						},
 					},
 					["role"] = "NONE",
@@ -3830,45 +342,45 @@ SkadaPerCharDB = {
 							["damage"] = 611226,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 39,
 					["power"] = {
 						[17] = {
+							["amount"] = 44,
 							["spells"] = {
 								[162243] = 44,
 							},
-							["amount"] = 44,
 						},
 					},
+					["damagetaken"] = 39,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471575279,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 39,
-							["max"] = 39,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
 							["min"] = 39,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["glancing"] = 0,
-							["absorbed"] = 0,
+							["max"] = 39,
+							["damage"] = 39,
 						},
 					},
-					["maxhp"] = 335460,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 335460,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -3879,81 +391,42 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 849744,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
+					["done"] = 0,
 					["taken"] = 849744,
 					["htakenspell"] = {
 					},
 					["htaken"] = 0,
-					["done"] = 0,
+					["hdonespell"] = {
+					},
 				},
 				["Spectral Stallion"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 2413932,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
+					["done"] = 0,
 					["taken"] = 2413932,
 					["htakenspell"] = {
 					},
 					["htaken"] = 0,
-					["done"] = 0,
-				},
-				["Jarrama"] = {
-					["players"] = {
-					},
-					["hdone"] = 10602,
-					["hdonespell"] = {
-						["Ysera's Gift"] = {
-							["min"] = 10602,
-							["crits"] = 0,
-							["max"] = 10602,
-							["healing"] = 10602,
-							["overhealing"] = 0,
-							["hits"] = 1,
-						},
-					},
-					["taken"] = 0,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["done"] = 0,
-				},
-				["Midnight"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 852738,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
 					["hdonespell"] = {
 					},
-					["taken"] = 852738,
-					["htakenspell"] = {
-					},
-					["htaken"] = 0,
-					["done"] = 0,
 				},
 				["Zerdbo"] = {
 					["players"] = {
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
+					["done"] = 0,
 					["taken"] = 0,
 					["htakenspell"] = {
 						["Ysera's Gift"] = {
@@ -3966,60 +439,99 @@ SkadaPerCharDB = {
 						},
 					},
 					["htaken"] = 10602,
+					["hdonespell"] = {
+					},
+				},
+				["Midnight"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 852738,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
 					["done"] = 0,
+					["taken"] = 852738,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Jarrama"] = {
+					["players"] = {
+					},
+					["hdone"] = 10602,
+					["done"] = 0,
+					["taken"] = 0,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+						["Ysera's Gift"] = {
+							["min"] = 10602,
+							["crits"] = 0,
+							["max"] = 10602,
+							["healing"] = 10602,
+							["overhealing"] = 0,
+							["hits"] = 1,
+						},
+					},
 				},
 				["Spectral Stable Hand"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 2910251,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
+					["done"] = 0,
 					["taken"] = 2910251,
 					["htakenspell"] = {
 					},
 					["htaken"] = 0,
-					["done"] = 0,
+					["hdonespell"] = {
+					},
 				},
 				["Attumen the Huntsman"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 909688,
 							["done"] = 39,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
-					},
+					["done"] = 39,
 					["taken"] = 909688,
 					["htakenspell"] = {
 					},
 					["htaken"] = 0,
-					["done"] = 39,
+					["hdonespell"] = {
+					},
 				},
 			},
-			["gotboss"] = true,
+			["mobtaken"] = 7936353,
 			["starttime"] = 1471575272,
 			["healing"] = 0,
-			["damagetaken"] = 39,
+			["power"] = {
+				[17] = 44,
+			},
 			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Attumen the Huntsman",
 			["mobname"] = "Attumen the Huntsman",
-			["power"] = {
-				[17] = 44,
-			},
+			["damagetaken"] = 39,
 			["mobhdone"] = 10602,
 			["last_action"] = 1471575272,
-			["endtime"] = 1471575310,
+			["mobdone"] = 39,
 		}, -- [2]
 		{
 			["healingabsorbed"] = 0,
@@ -4027,8 +539,8 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 182,
 			["interrupts"] = 0,
-			["mobdone"] = 72786,
-			["mobtaken"] = 180861606,
+			["endtime"] = 1471415187,
+			["gotboss"] = true,
 			["damage"] = 180861606,
 			["players"] = {
 				{
@@ -4045,35 +557,43 @@ SkadaPerCharDB = {
 							["name"] = "Death Sweep",
 							["active"] = 0,
 							["id"] = 210152,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Metamorphosis"] = {
 							["name"] = "Metamorphosis",
 							["active"] = 0,
 							["id"] = 162264,
+							["auratype"] = "BUFF",
 							["uptime"] = 30,
-							["auratype"] = "BUFF",
-						},
-						["Demonic Ferocity"] = {
-							["name"] = "Demonic Ferocity",
-							["active"] = 0,
-							["id"] = 226991,
-							["uptime"] = 70,
-							["auratype"] = "BUFF",
 						},
 						["Blade Dance"] = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+						["Demonic Ferocity"] = {
+							["name"] = "Demonic Ferocity",
+							["active"] = 0,
+							["id"] = 226991,
+							["auratype"] = "BUFF",
+							["uptime"] = 70,
 						},
 					},
 					["role"] = "NONE",
 					["time"] = 181,
 					["interrupts"] = 0,
-					["shielding"] = 0,
+					["power"] = {
+						[17] = {
+							["amount"] = 2427,
+							["spells"] = {
+								[162243] = 1847,
+								[193840] = 580,
+							},
+						},
+					},
 					["damage"] = 180861606,
 					["damagespells"] = {
 						["Annihilation"] = {
@@ -4156,90 +676,91 @@ SkadaPerCharDB = {
 					["deaths"] = {
 						{
 							["ts"] = 1471415185.91513,
+							["maxhp"] = 414414,
 							["log"] = {
 								{
 									["ts"] = 1471415080.38301,
 									["amount"] = -403,
+									["hp"] = 345930,
 									["srcname"] = "The Lich King",
 									["spellid"] = 68983,
-									["hp"] = 345930,
 								}, -- [1]
 								{
 									["ts"] = 1471415081.05802,
 									["amount"] = -406,
+									["hp"] = 345524,
 									["srcname"] = "The Lich King",
 									["spellid"] = 68983,
-									["hp"] = 345524,
 								}, -- [2]
 								{
 									["ts"] = 1471415081.38703,
 									["amount"] = -376,
+									["hp"] = 345148,
 									["srcname"] = "The Lich King",
 									["spellid"] = 68983,
-									["hp"] = 345148,
 								}, -- [3]
 								{
 									["ts"] = 1471415082.38604,
 									["amount"] = -385,
+									["hp"] = 344763,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 344763,
 								}, -- [4]
 								{
 									["ts"] = 1471415083.38905,
 									["amount"] = -398,
+									["hp"] = 344365,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 344365,
 								}, -- [5]
 								{
 									["ts"] = 1471415084.38906,
 									["amount"] = -381,
+									["hp"] = 343984,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 343984,
 								}, -- [6]
 								{
 									["ts"] = 1471415085.39207,
 									["amount"] = -394,
+									["hp"] = 343590,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 343590,
 								}, -- [7]
 								{
 									["ts"] = 1471415086.38908,
 									["amount"] = -383,
+									["hp"] = 343207,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 343207,
 								}, -- [8]
 								{
 									["ts"] = 1471415087.39009,
 									["amount"] = -409,
+									["hp"] = 342798,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 342798,
 								}, -- [9]
 								{
 									["ts"] = 1471415088.3821,
 									["amount"] = -384,
+									["hp"] = 342414,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 342414,
 								}, -- [10]
 								{
 									["ts"] = 1471415089.37911,
 									["amount"] = -403,
+									["hp"] = 342011,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 342011,
 								}, -- [11]
 								{
 									["ts"] = 1471415090.38512,
 									["amount"] = -383,
+									["hp"] = 341628,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 341628,
 								}, -- [12]
 								{
 									["spellname"] = "Kaldorath dies",
@@ -4250,121 +771,112 @@ SkadaPerCharDB = {
 								{
 									["ts"] = 1471415079.38414,
 									["amount"] = -372,
+									["hp"] = 346719,
 									["spellid"] = 68983,
 									["srcname"] = "The Lich King",
-									["hp"] = 346719,
 								}, -- [14]
 								{
 									["ts"] = 1471415080.06515,
 									["amount"] = -386,
+									["hp"] = 346333,
 									["srcname"] = "The Lich King",
 									["spellid"] = 68983,
-									["hp"] = 346333,
 								}, -- [15]
 								["pos"] = 14,
 							},
-							["maxhp"] = 414414,
 						}, -- [1]
 					},
 					["damagetaken"] = 72786,
-					["power"] = {
-						[17] = {
-							["spells"] = {
-								[162243] = 1847,
-								[193840] = 580,
-							},
-							["amount"] = 2427,
-						},
-					},
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471415005,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
-						["Attack"] = {
+						["Pain and Suffering"] = {
 							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 5077,
-							["max"] = 1301,
-							["name"] = "Attack",
+							["id"] = 72133,
+							["absorbed"] = 0,
+							["min"] = 21,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Pain and Suffering",
 							["blocked"] = 0,
-							["totalhits"] = 4,
+							["totalhits"] = 25,
 							["resisted"] = 0,
-							["min"] = 1230,
-							["absorbed"] = 0,
-						},
-						["Remorseless Winter"] = {
-							["crushing"] = 0,
-							["id"] = 68983,
-							["damage"] = 46966,
-							["max"] = 412,
-							["name"] = "Remorseless Winter",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 0,
-							["blocked"] = 0,
-							["totalhits"] = 120,
-							["resisted"] = 0,
-							["min"] = 368,
-							["absorbed"] = 0,
-						},
-						["Infest"] = {
-							["crushing"] = 0,
-							["id"] = 70541,
-							["damage"] = 282,
-							["max"] = 282,
-							["name"] = "Infest",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 0,
-							["blocked"] = 0,
-							["totalhits"] = 1,
-							["resisted"] = 0,
-							["min"] = 282,
-							["absorbed"] = 0,
+							["max"] = 152,
+							["damage"] = 2461,
 						},
 						["Fury of Frostmourne"] = {
 							["crushing"] = 0,
 							["id"] = 72350,
-							["damage"] = 18000,
-							["max"] = 18000,
-							["name"] = "Fury of Frostmourne",
+							["absorbed"] = 0,
+							["min"] = 18000,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Fury of Frostmourne",
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 18000,
-							["absorbed"] = 0,
+							["max"] = 18000,
+							["damage"] = 18000,
 						},
-						["Pain and Suffering"] = {
+						["Infest"] = {
 							["crushing"] = 0,
-							["id"] = 72133,
-							["damage"] = 2461,
-							["max"] = 152,
-							["name"] = "Pain and Suffering",
+							["id"] = 70541,
+							["absorbed"] = 0,
+							["min"] = 282,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Infest",
 							["blocked"] = 0,
-							["totalhits"] = 25,
+							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 21,
+							["max"] = 282,
+							["damage"] = 282,
+						},
+						["Remorseless Winter"] = {
+							["crushing"] = 0,
+							["id"] = 68983,
 							["absorbed"] = 0,
+							["min"] = 368,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Remorseless Winter",
+							["blocked"] = 0,
+							["totalhits"] = 120,
+							["resisted"] = 0,
+							["max"] = 412,
+							["damage"] = 46966,
+						},
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["min"] = 1230,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 4,
+							["resisted"] = 0,
+							["max"] = 1301,
+							["damage"] = 5077,
 						},
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -4375,17 +887,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2932212,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2932212,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Ice Sphere"] = {
@@ -4393,17 +905,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 138349,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 138349,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["The Lich King"] = {
@@ -4411,12 +923,12 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 177791045,
 							["done"] = 72786,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 2624456,
-					["hdonespell"] = {
+					["htakenspell"] = {
 						["Fury of Frostmourne"] = {
 							["min"] = 2624456,
 							["crits"] = 0,
@@ -4429,7 +941,7 @@ SkadaPerCharDB = {
 					["taken"] = 177791045,
 					["done"] = 72786,
 					["htaken"] = 2624456,
-					["htakenspell"] = {
+					["hdonespell"] = {
 						["Fury of Frostmourne"] = {
 							["min"] = 2624456,
 							["crits"] = 0,
@@ -4441,21 +953,21 @@ SkadaPerCharDB = {
 					},
 				},
 			},
-			["gotboss"] = true,
+			["mobtaken"] = 180861606,
 			["starttime"] = 1471415005,
 			["healing"] = 0,
-			["damagetaken"] = 72786,
+			["power"] = {
+				[17] = 2427,
+			},
 			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "The Lich King",
 			["mobname"] = "The Lich King",
-			["power"] = {
-				[17] = 2427,
-			},
+			["damagetaken"] = 72786,
 			["mobhdone"] = 2624456,
 			["last_action"] = 1471415005,
-			["endtime"] = 1471415187,
+			["mobdone"] = 72786,
 		}, -- [3]
 		{
 			["healingabsorbed"] = 0,
@@ -4463,8 +975,8 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 20,
 			["interrupts"] = 0,
-			["mobdone"] = 9409,
-			["mobtaken"] = 23756812,
+			["endtime"] = 1471414894,
+			["gotboss"] = true,
 			["damage"] = 23756812,
 			["players"] = {
 				{
@@ -4475,19 +987,19 @@ SkadaPerCharDB = {
 						["Sindragosa"] = 23756812,
 					},
 					["auras"] = {
-						["Chilled to the Bone"] = {
-							["name"] = "Chilled to the Bone",
-							["active"] = 1,
-							["id"] = 70106,
-							["uptime"] = 18,
-							["auratype"] = "DEBUFF",
-						},
 						["Metamorphosis"] = {
 							["name"] = "Metamorphosis",
 							["active"] = 1,
 							["id"] = 162264,
-							["uptime"] = 18,
 							["auratype"] = "BUFF",
+							["uptime"] = 18,
+						},
+						["Chilled to the Bone"] = {
+							["name"] = "Chilled to the Bone",
+							["active"] = 1,
+							["id"] = 70106,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 18,
 						},
 					},
 					["role"] = "NONE",
@@ -4550,91 +1062,91 @@ SkadaPerCharDB = {
 							["damage"] = 2082610,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 9993,
 					["power"] = {
 						[17] = {
+							["amount"] = 263,
 							["spells"] = {
 								[162243] = 203,
 								[193840] = 60,
 							},
-							["amount"] = 263,
 						},
 					},
+					["damagetaken"] = 9993,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414876,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
-						["Attack"] = {
+						["Frost Breath"] = {
 							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 7807,
-							["max"] = 1037,
-							["name"] = "Attack",
+							["id"] = 69649,
+							["absorbed"] = 0,
+							["min"] = 1116,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Frost Breath",
 							["blocked"] = 0,
-							["totalhits"] = 9,
+							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 725,
-							["absorbed"] = 0,
+							["max"] = 1116,
+							["damage"] = 1116,
 						},
 						["Frost Aura"] = {
 							["crushing"] = 0,
 							["id"] = 70084,
-							["damage"] = 486,
-							["max"] = 81,
-							["name"] = "Frost Aura",
+							["absorbed"] = 0,
+							["min"] = 81,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Frost Aura",
 							["blocked"] = 0,
 							["totalhits"] = 6,
 							["resisted"] = 0,
-							["min"] = 81,
-							["absorbed"] = 0,
+							["max"] = 81,
+							["damage"] = 486,
 						},
 						["Chilled to the Bone"] = {
 							["crushing"] = 0,
 							["id"] = 70106,
-							["damage"] = 584,
-							["max"] = 117,
-							["name"] = "Chilled to the Bone",
+							["absorbed"] = 0,
+							["min"] = 23,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Chilled to the Bone",
 							["blocked"] = 0,
 							["totalhits"] = 9,
 							["resisted"] = 0,
-							["min"] = 23,
-							["absorbed"] = 0,
+							["max"] = 117,
+							["damage"] = 584,
 						},
-						["Frost Breath"] = {
+						["Attack"] = {
 							["crushing"] = 0,
-							["id"] = 69649,
-							["damage"] = 1116,
-							["max"] = 1116,
-							["name"] = "Frost Breath",
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["min"] = 725,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
-							["totalhits"] = 1,
+							["totalhits"] = 9,
 							["resisted"] = 0,
-							["min"] = 1116,
-							["absorbed"] = 0,
+							["max"] = 1037,
+							["damage"] = 7807,
 						},
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -4645,35 +1157,35 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 23756812,
 							["done"] = 9409,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 23756812,
 					["done"] = 9409,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
-			["gotboss"] = true,
+			["mobtaken"] = 23756812,
 			["starttime"] = 1471414874,
 			["healing"] = 0,
-			["damagetaken"] = 9993,
+			["power"] = {
+				[17] = 263,
+			},
 			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Sindragosa",
 			["mobname"] = "Sindragosa",
-			["power"] = {
-				[17] = 263,
-			},
+			["damagetaken"] = 9993,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414874,
-			["endtime"] = 1471414894,
+			["mobdone"] = 9409,
 		}, -- [4]
 		{
 			["healingabsorbed"] = 0,
@@ -4681,7 +1193,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 12,
 			["interrupts"] = 0,
-			["mobdone"] = 0,
+			["endtime"] = 1471414857,
 			["damage"] = 7407231,
 			["players"] = {
 				{
@@ -4689,30 +1201,30 @@ SkadaPerCharDB = {
 					["healingabsorbed"] = 0,
 					["class"] = "DEMONHUNTER",
 					["damaged"] = {
-						["Spinestalker"] = 3794188,
 						["Rimefang"] = 3613043,
+						["Spinestalker"] = 3794188,
 					},
 					["auras"] = {
 						["Demonic Ferocity"] = {
 							["name"] = "Demonic Ferocity",
 							["active"] = 1,
 							["id"] = 226991,
-							["uptime"] = 11,
 							["auratype"] = "BUFF",
+							["uptime"] = 11,
 						},
 						["Blade Dance"] = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Eye Beam"] = {
 							["name"] = "Eye Beam",
 							["active"] = 0,
 							["id"] = 198013,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -4737,13 +1249,13 @@ SkadaPerCharDB = {
 							["max"] = 748229,
 							["damage"] = 748229,
 						},
-						["Attack"] = {
-							["min"] = 99973,
-							["hit"] = 5,
-							["totalhits"] = 5,
-							["id"] = 6603,
-							["max"] = 214223,
-							["damage"] = 833840,
+						["Eye Beam"] = {
+							["min"] = 353392,
+							["critical"] = 1,
+							["totalhits"] = 1,
+							["id"] = 198030,
+							["max"] = 353392,
+							["damage"] = 353392,
 						},
 						["Demon's Bite"] = {
 							["min"] = 487463,
@@ -4753,78 +1265,78 @@ SkadaPerCharDB = {
 							["max"] = 491939,
 							["damage"] = 1470152,
 						},
-						["Eye Beam"] = {
-							["min"] = 353392,
-							["critical"] = 1,
-							["totalhits"] = 1,
-							["id"] = 198030,
-							["max"] = 353392,
-							["damage"] = 353392,
+						["Attack"] = {
+							["min"] = 99973,
+							["hit"] = 5,
+							["totalhits"] = 5,
+							["id"] = 6603,
+							["max"] = 214223,
+							["damage"] = 833840,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 0,
 					["power"] = {
 						[17] = {
+							["amount"] = 75,
 							["spells"] = {
 								[162243] = 75,
 							},
-							["amount"] = 75,
 						},
 					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414846,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
 			["deaths"] = 0,
 			["mobs"] = {
-				["Spinestalker"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 3794188,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 3794188,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
 				["Rimefang"] = {
 					["players"] = {
 						["Kaldorath"] = {
 							["taken"] = 3613043,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 3613043,
 					["done"] = 0,
 					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Spinestalker"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 3794188,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
 					["htakenspell"] = {
+					},
+					["taken"] = 3794188,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -4834,15 +1346,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[17] = 75,
 			},
-			["damagetaken"] = 0,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Spinestalker",
 			["mobname"] = "Spinestalker",
-			["multistrikes"] = 0,
+			["damagetaken"] = 0,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414845,
-			["endtime"] = 1471414857,
+			["mobdone"] = 0,
 		}, -- [5]
 		{
 			["healingabsorbed"] = 0,
@@ -4850,7 +1362,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 9,
 			["interrupts"] = 0,
-			["mobdone"] = 43,
+			["endtime"] = 1471414837,
 			["damage"] = 24080263,
 			["players"] = {
 				{
@@ -4866,8 +1378,8 @@ SkadaPerCharDB = {
 							["name"] = "Blade Dance",
 							["active"] = 1,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -4920,45 +1432,45 @@ SkadaPerCharDB = {
 							["damage"] = 325678,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 43,
 					["power"] = {
 						[17] = {
+							["amount"] = 47,
 							["spells"] = {
 								[162243] = 47,
 							},
-							["amount"] = 47,
 						},
 					},
+					["damagetaken"] = 43,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414828,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 43,
-							["max"] = 24,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["min"] = 19,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 2,
 							["resisted"] = 0,
-							["min"] = 19,
-							["absorbed"] = 0,
+							["max"] = 24,
+							["damage"] = 43,
 						},
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -4969,17 +1481,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 20187190,
 							["done"] = 43,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 20187190,
 					["done"] = 43,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Frostwarden Handler"] = {
@@ -4987,17 +1499,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 3893073,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 3893073,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -5007,15 +1519,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[17] = 47,
 			},
-			["damagetaken"] = 43,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Frostwarden Handler",
 			["mobname"] = "Frostwarden Handler",
-			["multistrikes"] = 0,
+			["damagetaken"] = 43,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414828,
-			["endtime"] = 1471414837,
+			["mobdone"] = 43,
 		}, -- [6]
 		{
 			["healingabsorbed"] = 0,
@@ -5023,7 +1535,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 22,
 			["interrupts"] = 0,
-			["mobdone"] = 116,
+			["endtime"] = 1471414813,
 			["damage"] = 18503237,
 			["players"] = {
 				{
@@ -5034,30 +1546,30 @@ SkadaPerCharDB = {
 						["Nerub'ar Webweaver"] = 2510801,
 						["Frostwarden Warrior"] = 3013494,
 						["Nerub'ar Broodling"] = 8177521,
-						["Frostwarden Sorceress"] = 1004498,
 						["Nerub'ar Champion"] = 3796923,
+						["Frostwarden Sorceress"] = 1004498,
 					},
 					["auras"] = {
 						["Vengeful Retreat"] = {
 							["name"] = "Vengeful Retreat",
 							["active"] = 0,
 							["id"] = 198813,
-							["uptime"] = 0,
 							["auratype"] = "DEBUFF",
+							["uptime"] = 0,
 						},
 						["Blade Dance"] = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 						["Prepared"] = {
 							["name"] = "Prepared",
 							["active"] = 0,
 							["id"] = 203650,
-							["uptime"] = 5,
 							["auratype"] = "BUFF",
+							["uptime"] = 5,
 						},
 					},
 					["role"] = "NONE",
@@ -5126,47 +1638,47 @@ SkadaPerCharDB = {
 							["damage"] = 654923,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 116,
 					["power"] = {
 						[17] = {
+							["amount"] = 108,
 							["spells"] = {
 								[193840] = 20,
 								[162243] = 48,
 								[203650] = 40,
 							},
-							["amount"] = 108,
 						},
 					},
+					["damagetaken"] = 116,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414792,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Attack"] = {
 							["crushing"] = 0,
 							["id"] = 6603,
-							["damage"] = 116,
-							["max"] = 86,
-							["name"] = "Attack",
+							["absorbed"] = 0,
+							["min"] = 13,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Attack",
 							["blocked"] = 0,
 							["totalhits"] = 3,
 							["resisted"] = 0,
-							["min"] = 13,
-							["absorbed"] = 0,
+							["max"] = 86,
+							["damage"] = 116,
 						},
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -5177,17 +1689,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2510801,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2510801,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Frostwarden Warrior"] = {
@@ -5195,17 +1707,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 3013494,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 3013494,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Nerub'ar Broodling"] = {
@@ -5213,35 +1725,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 8177521,
 							["done"] = 30,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 8177521,
 					["done"] = 30,
 					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Frostwarden Sorceress"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 1004498,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
 					["hdonespell"] = {
-					},
-					["taken"] = 1004498,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
 					},
 				},
 				["Nerub'ar Champion"] = {
@@ -5249,17 +1743,35 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 3796923,
 							["done"] = 86,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 3796923,
 					["done"] = 86,
 					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Frostwarden Sorceress"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 1004498,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
 					["htakenspell"] = {
+					},
+					["taken"] = 1004498,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -5269,15 +1781,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[17] = 108,
 			},
-			["damagetaken"] = 116,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Nerub'ar Broodling",
 			["mobname"] = "Nerub'ar Broodling",
-			["multistrikes"] = 0,
+			["damagetaken"] = 116,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414791,
-			["endtime"] = 1471414813,
+			["mobdone"] = 116,
 		}, -- [7]
 		{
 			["healingabsorbed"] = 0,
@@ -5285,7 +1797,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 8,
 			["interrupts"] = 0,
-			["mobdone"] = 0,
+			["endtime"] = 1471414784,
 			["damage"] = 5441260,
 			["players"] = {
 				{
@@ -5301,8 +1813,8 @@ SkadaPerCharDB = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -5345,31 +1857,31 @@ SkadaPerCharDB = {
 							["damage"] = 895468,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 0,
 					["power"] = {
 						[17] = {
+							["amount"] = 70,
 							["spells"] = {
 								[162243] = 50,
 								[193840] = 20,
 							},
-							["amount"] = 70,
 						},
 					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414777,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -5380,17 +1892,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2605167,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2605167,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Nerub'ar Champion"] = {
@@ -5398,17 +1910,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2836093,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2836093,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -5418,15 +1930,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[17] = 70,
 			},
-			["damagetaken"] = 0,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Nerub'ar Webweaver (2)",
 			["mobname"] = "Nerub'ar Webweaver",
-			["multistrikes"] = 0,
+			["damagetaken"] = 0,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414776,
-			["endtime"] = 1471414784,
+			["mobdone"] = 0,
 		}, -- [8]
 		{
 			["healingabsorbed"] = 0,
@@ -5434,7 +1946,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 6,
 			["interrupts"] = 0,
-			["mobdone"] = 0,
+			["endtime"] = 1471414775,
 			["damage"] = 2883315,
 			["players"] = {
 				{
@@ -5449,8 +1961,8 @@ SkadaPerCharDB = {
 							["name"] = "Demonic Ferocity",
 							["active"] = 1,
 							["id"] = 226991,
-							["uptime"] = 5,
 							["auratype"] = "BUFF",
+							["uptime"] = 5,
 						},
 					},
 					["role"] = "NONE",
@@ -5475,24 +1987,24 @@ SkadaPerCharDB = {
 							["damage"] = 1360911,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 0,
 					["power"] = {
 					},
+					["damagetaken"] = 0,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414769,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -5503,17 +2015,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2883315,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2883315,
 					["done"] = 0,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -5522,15 +2034,15 @@ SkadaPerCharDB = {
 			["healing"] = 0,
 			["power"] = {
 			},
-			["damagetaken"] = 0,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Nerub'ar Webweaver",
 			["mobname"] = "Nerub'ar Webweaver",
-			["multistrikes"] = 0,
+			["damagetaken"] = 0,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414769,
-			["endtime"] = 1471414775,
+			["mobdone"] = 0,
 		}, -- [9]
 		{
 			["healingabsorbed"] = 0,
@@ -5538,7 +2050,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 8,
 			["interrupts"] = 0,
-			["mobdone"] = 967,
+			["endtime"] = 1471414682,
 			["damage"] = 10209617,
 			["players"] = {
 				{
@@ -5556,8 +2068,8 @@ SkadaPerCharDB = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "NONE",
@@ -5601,76 +2113,76 @@ SkadaPerCharDB = {
 							["damage"] = 735361,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 967,
 					["power"] = {
 						[17] = {
+							["amount"] = 89,
 							["spells"] = {
 								[162243] = 69,
 								[193840] = 20,
 							},
-							["amount"] = 89,
 						},
 					},
+					["damagetaken"] = 967,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414674,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
 						["Shoot"] = {
 							["crushing"] = 0,
 							["id"] = 71253,
-							["damage"] = 27,
-							["max"] = 27,
-							["name"] = "Shoot",
+							["absorbed"] = 0,
+							["min"] = 27,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Shoot",
 							["blocked"] = 0,
 							["totalhits"] = 1,
 							["resisted"] = 0,
-							["min"] = 27,
-							["absorbed"] = 0,
-						},
-						["Attack"] = {
-							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 581,
-							["max"] = 349,
-							["name"] = "Attack",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 1,
-							["blocked"] = 0,
-							["totalhits"] = 3,
-							["resisted"] = 0,
-							["min"] = 58,
-							["absorbed"] = 0,
+							["max"] = 27,
+							["damage"] = 27,
 						},
 						["Barbaric Strike"] = {
 							["crushing"] = 0,
 							["id"] = 71257,
-							["damage"] = 359,
-							["max"] = 87,
-							["name"] = "Barbaric Strike",
+							["absorbed"] = 0,
+							["min"] = 27,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Barbaric Strike",
 							["blocked"] = 0,
 							["totalhits"] = 6,
 							["resisted"] = 0,
-							["min"] = 27,
+							["max"] = 87,
+							["damage"] = 359,
+						},
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
 							["absorbed"] = 0,
+							["min"] = 58,
+							["critical"] = 1,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 3,
+							["resisted"] = 0,
+							["max"] = 349,
+							["damage"] = 581,
 						},
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -5681,17 +2193,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 3838999,
 							["done"] = 174,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 3838999,
 					["done"] = 174,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Ymirjar Huntress"] = {
@@ -5699,17 +2211,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2489125,
 							["done"] = 27,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2489125,
 					["done"] = 27,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Ymirjar Battle-Maiden"] = {
@@ -5717,17 +2229,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 3298922,
 							["done"] = 708,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 3298922,
 					["done"] = 708,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 				["Warhawk"] = {
@@ -5735,17 +2247,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 582571,
 							["done"] = 58,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 582571,
 					["done"] = 58,
 					["htaken"] = 0,
-					["htakenspell"] = {
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -5755,15 +2267,15 @@ SkadaPerCharDB = {
 			["power"] = {
 				[17] = 89,
 			},
-			["damagetaken"] = 967,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Ymirjar Huntress (2)",
 			["mobname"] = "Ymirjar Huntress",
-			["multistrikes"] = 0,
+			["damagetaken"] = 967,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414674,
-			["endtime"] = 1471414682,
+			["mobdone"] = 967,
 		}, -- [10]
 		{
 			["healingabsorbed"] = 0,
@@ -5771,7 +2283,7 @@ SkadaPerCharDB = {
 			["ccbreaks"] = 0,
 			["time"] = 9,
 			["interrupts"] = 0,
-			["mobdone"] = 209,
+			["endtime"] = 1471414664,
 			["damage"] = 7314272,
 			["players"] = {
 				{
@@ -5780,27 +2292,27 @@ SkadaPerCharDB = {
 					["class"] = "DEMONHUNTER",
 					["damaged"] = {
 						["Ymirjar Battle-Maiden"] = 2100817,
-						["Ymirjar Huntress"] = 2006455,
+						["Ymirjar Deathbringer"] = 943429,
 						["Frozen Insect"] = 210953,
 						["Ymirjar Warlord"] = 1167993,
 						["Ymirjar Frostbinder"] = 701135,
 						["Warhawk"] = 183490,
-						["Ymirjar Deathbringer"] = 943429,
+						["Ymirjar Huntress"] = 2006455,
 					},
 					["auras"] = {
-						["Demonic Ferocity"] = {
-							["name"] = "Demonic Ferocity",
-							["active"] = 1,
-							["id"] = 226991,
-							["uptime"] = 8,
-							["auratype"] = "BUFF",
-						},
 						["Blade Dance"] = {
 							["name"] = "Blade Dance",
 							["active"] = 0,
 							["id"] = 188499,
-							["uptime"] = 1,
 							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+						["Demonic Ferocity"] = {
+							["name"] = "Demonic Ferocity",
+							["active"] = 1,
+							["id"] = 226991,
+							["auratype"] = "BUFF",
+							["uptime"] = 8,
 						},
 					},
 					["role"] = "NONE",
@@ -5808,13 +2320,14 @@ SkadaPerCharDB = {
 					["interrupts"] = 0,
 					["damage"] = 7314272,
 					["damagespells"] = {
-						["Throw Glaive"] = {
-							["min"] = 783725,
+						["Demon's Bite"] = {
+							["min"] = 496901,
+							["critical"] = 1,
 							["hit"] = 2,
-							["totalhits"] = 2,
-							["id"] = 185123,
-							["max"] = 804567,
-							["damage"] = 1588292,
+							["totalhits"] = 3,
+							["id"] = 162243,
+							["max"] = 985882,
+							["damage"] = 1986279,
 						},
 						["Blade Dance"] = {
 							["min"] = 183490,
@@ -5825,14 +2338,13 @@ SkadaPerCharDB = {
 							["max"] = 384268,
 							["damage"] = 2464399,
 						},
-						["Demon's Bite"] = {
-							["min"] = 496901,
-							["critical"] = 1,
+						["Throw Glaive"] = {
+							["min"] = 783725,
 							["hit"] = 2,
-							["totalhits"] = 3,
-							["id"] = 162243,
-							["max"] = 985882,
-							["damage"] = 1986279,
+							["totalhits"] = 2,
+							["id"] = 185123,
+							["max"] = 804567,
+							["damage"] = 1588292,
 						},
 						["Attack"] = {
 							["min"] = 202929,
@@ -5844,60 +2356,60 @@ SkadaPerCharDB = {
 							["damage"] = 1275302,
 						},
 					},
-					["shielding"] = 0,
-					["damagetaken"] = 209,
 					["power"] = {
 						[17] = {
+							["amount"] = 78,
 							["spells"] = {
 								[162243] = 78,
 							},
-							["amount"] = 78,
 						},
 					},
+					["damagetaken"] = 209,
+					["shielding"] = 0,
 					["id"] = "Player-5-0A6AF472",
 					["first"] = 1471414656,
-					["dispells"] = 0,
+					["ccbreaks"] = 0,
 					["damagetakenspells"] = {
-						["Attack"] = {
-							["crushing"] = 0,
-							["id"] = 6603,
-							["damage"] = 81,
-							["max"] = 81,
-							["name"] = "Attack",
-							["glancing"] = 0,
-							["multistrike"] = 0,
-							["critical"] = 0,
-							["blocked"] = 0,
-							["totalhits"] = 1,
-							["resisted"] = 0,
-							["min"] = 81,
-							["absorbed"] = 0,
-						},
 						["Barbaric Strike"] = {
 							["crushing"] = 0,
 							["id"] = 71257,
-							["damage"] = 128,
-							["max"] = 74,
-							["name"] = "Barbaric Strike",
+							["absorbed"] = 0,
+							["min"] = 27,
+							["critical"] = 0,
 							["glancing"] = 0,
 							["multistrike"] = 0,
-							["critical"] = 0,
+							["name"] = "Barbaric Strike",
 							["blocked"] = 0,
 							["totalhits"] = 3,
 							["resisted"] = 0,
-							["min"] = 27,
+							["max"] = 74,
+							["damage"] = 128,
+						},
+						["Attack"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
 							["absorbed"] = 0,
+							["min"] = 81,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["multistrike"] = 0,
+							["name"] = "Attack",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 81,
+							["damage"] = 81,
 						},
 					},
-					["maxhp"] = 414414,
-					["healed"] = {
+					["overhealing"] = 0,
+					["healingspells"] = {
 					},
 					["name"] = "Kaldorath",
 					["healing"] = 0,
-					["healingspells"] = {
+					["healed"] = {
 					},
-					["overhealing"] = 0,
-					["ccbreaks"] = 0,
+					["maxhp"] = 414414,
+					["dispells"] = 0,
 					["multistrikes"] = 0,
 				}, -- [1]
 			},
@@ -5908,107 +2420,17 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 2100817,
 							["done"] = 209,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 2100817,
 					["done"] = 209,
 					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Ymirjar Huntress"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 2006455,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
 					["hdonespell"] = {
-					},
-					["taken"] = 2006455,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Frozen Insect"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 210953,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 210953,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Ymirjar Warlord"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 1167993,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 1167993,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Ymirjar Frostbinder"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 701135,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 701135,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
-					},
-				},
-				["Warhawk"] = {
-					["players"] = {
-						["Kaldorath"] = {
-							["taken"] = 183490,
-							["done"] = 0,
-							["class"] = "DEMONHUNTER",
-							["role"] = "NONE",
-						},
-					},
-					["hdone"] = 0,
-					["hdonespell"] = {
-					},
-					["taken"] = 183490,
-					["done"] = 0,
-					["htaken"] = 0,
-					["htakenspell"] = {
 					},
 				},
 				["Ymirjar Deathbringer"] = {
@@ -6016,17 +2438,107 @@ SkadaPerCharDB = {
 						["Kaldorath"] = {
 							["taken"] = 943429,
 							["done"] = 0,
-							["class"] = "DEMONHUNTER",
 							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
 						},
 					},
 					["hdone"] = 0,
-					["hdonespell"] = {
+					["htakenspell"] = {
 					},
 					["taken"] = 943429,
 					["done"] = 0,
 					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Frozen Insect"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 210953,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
 					["htakenspell"] = {
+					},
+					["taken"] = 210953,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Ymirjar Warlord"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 1167993,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 1167993,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Ymirjar Frostbinder"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 701135,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 701135,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Warhawk"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 183490,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 183490,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["Ymirjar Huntress"] = {
+					["players"] = {
+						["Kaldorath"] = {
+							["taken"] = 2006455,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "DEMONHUNTER",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 2006455,
+					["done"] = 0,
+					["htaken"] = 0,
+					["hdonespell"] = {
 					},
 				},
 			},
@@ -6036,15 +2548,3503 @@ SkadaPerCharDB = {
 			["power"] = {
 				[17] = 78,
 			},
-			["damagetaken"] = 209,
+			["multistrikes"] = 0,
 			["overhealing"] = 0,
 			["shielding"] = 0,
 			["name"] = "Ymirjar Huntress",
 			["mobname"] = "Ymirjar Huntress",
-			["multistrikes"] = 0,
+			["damagetaken"] = 209,
 			["mobhdone"] = 0,
 			["last_action"] = 1471414655,
-			["endtime"] = 1471414664,
+			["mobdone"] = 209,
 		}, -- [11]
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 1533,
+		["interrupts"] = 0,
+		["damage"] = 1169056954,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "DEMONHUNTER",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["overhealing"] = 4781906,
+				["interrupts"] = 0,
+				["auras"] = {
+					["Chaos Nova"] = {
+						["name"] = "Chaos Nova",
+						["active"] = 0,
+						["id"] = 179057,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 5,
+					},
+					["Vile Gas"] = {
+						["name"] = "Vile Gas",
+						["active"] = 0,
+						["id"] = 69244,
+						["auratype"] = "BUFF",
+						["uptime"] = 6,
+					},
+					["Metamorphosis"] = {
+						["name"] = "Metamorphosis",
+						["active"] = 13,
+						["id"] = 162264,
+						["auratype"] = "BUFF",
+						["uptime"] = 1577,
+					},
+					["Inoculated"] = {
+						["name"] = "Inoculated",
+						["active"] = 0,
+						["id"] = 69291,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 6,
+					},
+					["Eye Beam"] = {
+						["name"] = "Eye Beam",
+						["active"] = 0,
+						["id"] = 198013,
+						["auratype"] = "BUFF",
+						["uptime"] = 687,
+					},
+					["Vengeful Retreat"] = {
+						["name"] = "Vengeful Retreat",
+						["active"] = 0,
+						["id"] = 198813,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 9,
+					},
+					["Spectral Sight"] = {
+						["name"] = "Spectral Sight",
+						["active"] = 1,
+						["id"] = 188501,
+						["auratype"] = "BUFF",
+						["uptime"] = 728,
+					},
+					["Ooze Variable"] = {
+						["name"] = "Ooze Variable",
+						["active"] = 0,
+						["id"] = 70352,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 28,
+					},
+					["Prepared"] = {
+						["name"] = "Prepared",
+						["active"] = 0,
+						["id"] = 203650,
+						["auratype"] = "BUFF",
+						["uptime"] = 45,
+					},
+					["Cyclonic Inspiration"] = {
+						["name"] = "Cyclonic Inspiration",
+						["active"] = 1,
+						["id"] = 128943,
+						["auratype"] = "BUFF",
+						["uptime"] = 67,
+					},
+					["Presence of the Darkfallen"] = {
+						["name"] = "Presence of the Darkfallen",
+						["active"] = 0,
+						["id"] = 70995,
+						["auratype"] = "BUFF",
+						["uptime"] = 12,
+					},
+					["Blade Dance"] = {
+						["name"] = "Blade Dance",
+						["active"] = 1,
+						["id"] = 188499,
+						["auratype"] = "BUFF",
+						["uptime"] = 341,
+					},
+					["Empowered Blood"] = {
+						["name"] = "Empowered Blood",
+						["active"] = 1,
+						["id"] = 70227,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 454,
+					},
+					["Spirit Alarm"] = {
+						["name"] = "Spirit Alarm",
+						["active"] = 0,
+						["id"] = 70536,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 12,
+					},
+					["Demonic Ferocity"] = {
+						["name"] = "Demonic Ferocity",
+						["active"] = 7,
+						["id"] = 226991,
+						["auratype"] = "BUFF",
+						["uptime"] = 1208,
+					},
+					["Death Sweep"] = {
+						["name"] = "Death Sweep",
+						["active"] = 0,
+						["id"] = 210152,
+						["auratype"] = "BUFF",
+						["uptime"] = 7,
+					},
+					["Blighted Spores"] = {
+						["name"] = "Blighted Spores",
+						["active"] = 0,
+						["id"] = 69290,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 2,
+					},
+					["Chilled to the Bone"] = {
+						["name"] = "Chilled to the Bone",
+						["active"] = 2,
+						["id"] = 70106,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 1020,
+					},
+				},
+				["damage"] = 1169056954,
+				["damagespells"] = {
+					["Vengeful Retreat"] = {
+						["min"] = 145017,
+						["critical"] = 4,
+						["hit"] = 11,
+						["totalhits"] = 15,
+						["id"] = 198813,
+						["max"] = 409869,
+						["damage"] = 3082896,
+					},
+					["Eye Beam"] = {
+						["min"] = 238124,
+						["critical"] = 195,
+						["totalhits"] = 195,
+						["id"] = 198030,
+						["max"] = 700332,
+						["damage"] = 55465353,
+					},
+					["Fel Rush"] = {
+						["min"] = 68948,
+						["PARRY"] = 2,
+						["critical"] = 51,
+						["hit"] = 71,
+						["totalhits"] = 124,
+						["id"] = 192611,
+						["max"] = 5449499,
+						["damage"] = 184244254,
+					},
+					["Chaos Nova"] = {
+						["min"] = 284760,
+						["critical"] = 1,
+						["hit"] = 1,
+						["totalhits"] = 2,
+						["id"] = 179057,
+						["max"] = 569520,
+						["damage"] = 854280,
+					},
+					["Death Sweep"] = {
+						["min"] = 173427,
+						["critical"] = 21,
+						["hit"] = 32,
+						["totalhits"] = 53,
+						["id"] = 210153,
+						["max"] = 1657735,
+						["damage"] = 24858633,
+					},
+					["Alliance Gunship Cannon: Cannon Blast"] = {
+						["min"] = 37500,
+						["hit"] = 45,
+						["totalhits"] = 45,
+						["id"] = 69400,
+						["max"] = 37500,
+						["damage"] = 1687500,
+					},
+					["Consume Magic"] = {
+						["id"] = 183752,
+						["totalhits"] = 2,
+						["IMMUNE"] = 2,
+						["max"] = 0,
+						["damage"] = 0,
+					},
+					["Annihilation"] = {
+						["min"] = 386626,
+						["PARRY"] = 9,
+						["critical"] = 76,
+						["hit"] = 160,
+						["totalhits"] = 245,
+						["id"] = 227518,
+						["max"] = 2846083,
+						["damage"] = 223752969,
+					},
+					["Metamorphosis"] = {
+						["min"] = 321750,
+						["critical"] = 4,
+						["hit"] = 17,
+						["totalhits"] = 21,
+						["id"] = 200166,
+						["max"] = 778570,
+						["damage"] = 9708627,
+					},
+					["Demon's Bite"] = {
+						["min"] = 269545,
+						["PARRY"] = 6,
+						["critical"] = 134,
+						["hit"] = 255,
+						["totalhits"] = 395,
+						["id"] = 162243,
+						["max"] = 2035823,
+						["damage"] = 227428325,
+					},
+					["Throw Glaive"] = {
+						["min"] = 707007,
+						["critical"] = 15,
+						["hit"] = 22,
+						["totalhits"] = 37,
+						["id"] = 185123,
+						["max"] = 4119840,
+						["damage"] = 45847124,
+					},
+					["Chaos Strike"] = {
+						["min"] = 301422,
+						["PARRY"] = 5,
+						["critical"] = 76,
+						["hit"] = 107,
+						["totalhits"] = 188,
+						["id"] = 222031,
+						["max"] = 1439077,
+						["damage"] = 135700647,
+					},
+					["Blade Dance"] = {
+						["min"] = 115680,
+						["critical"] = 155,
+						["hit"] = 282,
+						["totalhits"] = 437,
+						["id"] = 199552,
+						["max"] = 1187081,
+						["damage"] = 114788054,
+					},
+					["Alliance Gunship Cannon: Incinerating Blast"] = {
+						["min"] = 34331,
+						["hit"] = 9,
+						["totalhits"] = 9,
+						["id"] = 70175,
+						["max"] = 1115355,
+						["damage"] = 4808651,
+					},
+					["Attack"] = {
+						["id"] = 6603,
+						["min"] = 53726,
+						["PARRY"] = 14,
+						["critical"] = 306,
+						["hit"] = 408,
+						["totalhits"] = 857,
+						["max"] = 661611,
+						["MISS"] = 129,
+						["damage"] = 136829641,
+					},
+				},
+				["deaths"] = {
+					{
+						["ts"] = 1471415185.91513,
+						["maxhp"] = 414414,
+						["log"] = {
+							{
+								["ts"] = 1471415080.38301,
+								["amount"] = -403,
+								["hp"] = 345930,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+							}, -- [1]
+							{
+								["ts"] = 1471415081.05802,
+								["amount"] = -406,
+								["hp"] = 345524,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+							}, -- [2]
+							{
+								["ts"] = 1471415081.38703,
+								["amount"] = -376,
+								["hp"] = 345148,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+							}, -- [3]
+							{
+								["ts"] = 1471415082.38604,
+								["amount"] = -385,
+								["hp"] = 344763,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [4]
+							{
+								["ts"] = 1471415083.38905,
+								["amount"] = -398,
+								["hp"] = 344365,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [5]
+							{
+								["ts"] = 1471415084.38906,
+								["amount"] = -381,
+								["hp"] = 343984,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [6]
+							{
+								["ts"] = 1471415085.39207,
+								["amount"] = -394,
+								["hp"] = 343590,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [7]
+							{
+								["ts"] = 1471415086.38908,
+								["amount"] = -383,
+								["hp"] = 343207,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [8]
+							{
+								["ts"] = 1471415087.39009,
+								["amount"] = -409,
+								["hp"] = 342798,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [9]
+							{
+								["ts"] = 1471415088.3821,
+								["amount"] = -384,
+								["hp"] = 342414,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [10]
+							{
+								["ts"] = 1471415089.37911,
+								["amount"] = -403,
+								["hp"] = 342011,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [11]
+							{
+								["ts"] = 1471415090.38512,
+								["amount"] = -383,
+								["hp"] = 341628,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [12]
+							{
+								["spellname"] = "Kaldorath dies",
+								["ts"] = 1471415185.91513,
+								["hp"] = 0,
+								["spellid"] = 41220,
+							}, -- [13]
+							{
+								["ts"] = 1471415079.38414,
+								["amount"] = -372,
+								["hp"] = 346719,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+							}, -- [14]
+							{
+								["ts"] = 1471415080.06515,
+								["amount"] = -386,
+								["hp"] = 346333,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+							}, -- [15]
+							["pos"] = 14,
+						},
+					}, -- [1]
+					{
+						["ts"] = 1470899693.75113,
+						["maxhp"] = 409656,
+						["log"] = {
+							{
+								["ts"] = 1470899581.04101,
+								["amount"] = -390,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 331208,
+							}, -- [1]
+							{
+								["ts"] = 1470899581.26802,
+								["amount"] = -382,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 330826,
+							}, -- [2]
+							{
+								["ts"] = 1470899582.01803,
+								["amount"] = -395,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 330431,
+							}, -- [3]
+							{
+								["ts"] = 1470899583.02304,
+								["amount"] = -405,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 330026,
+							}, -- [4]
+							{
+								["ts"] = 1470899584.03405,
+								["amount"] = -399,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 329627,
+							}, -- [5]
+							{
+								["ts"] = 1470899585.03406,
+								["amount"] = -382,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 329245,
+							}, -- [6]
+							{
+								["ts"] = 1470899586.03007,
+								["amount"] = -388,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 328857,
+							}, -- [7]
+							{
+								["ts"] = 1470899587.02808,
+								["amount"] = -400,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 328457,
+							}, -- [8]
+							{
+								["ts"] = 1470899588.02309,
+								["amount"] = -372,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 328085,
+							}, -- [9]
+							{
+								["ts"] = 1470899589.0261,
+								["amount"] = -369,
+								["spellid"] = 68983,
+								["srcname"] = "The Lich King",
+								["hp"] = 327716,
+							}, -- [10]
+							{
+								["ts"] = 1470899590.02611,
+								["amount"] = -406,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+								["hp"] = 327310,
+							}, -- [11]
+							{
+								["ts"] = 1470899591.02012,
+								["amount"] = -411,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+								["hp"] = 326899,
+							}, -- [12]
+							{
+								["spellname"] = "Kaldorath dies",
+								["ts"] = 1470899693.75113,
+								["hp"] = 0,
+								["spellid"] = 41220,
+							}, -- [13]
+							{
+								["ts"] = 1470899580.03814,
+								["amount"] = -411,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+								["hp"] = 331994,
+							}, -- [14]
+							{
+								["ts"] = 1470899580.26715,
+								["amount"] = -396,
+								["srcname"] = "The Lich King",
+								["spellid"] = 68983,
+								["hp"] = 331598,
+							}, -- [15]
+							["pos"] = 14,
+						},
+					}, -- [2]
+				},
+				["healed"] = {
+					["Player-5-0A6AF472"] = {
+						["role"] = "NONE",
+						["name"] = "Kaldorath",
+						["amount"] = 18185,
+						["class"] = "DEMONHUNTER",
+						["shielding"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["id"] = "Player-5-0A6AF472",
+				["healing"] = 18185,
+				["role"] = "NONE",
+				["damagetakenspells"] = {
+					["Giant Insect Swarm"] = {
+						["crushing"] = 0,
+						["id"] = 70475,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 185,
+						["multistrike"] = 0,
+						["name"] = "Giant Insect Swarm",
+						["blocked"] = 0,
+						["totalhits"] = 13,
+						["resisted"] = 0,
+						["max"] = 186,
+						["damage"] = 2411,
+					},
+					["Glacial Blast"] = {
+						["crushing"] = 0,
+						["id"] = 71029,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 216,
+						["multistrike"] = 0,
+						["name"] = "Glacial Blast",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 216,
+						["damage"] = 864,
+					},
+					["Rend Flesh"] = {
+						["crushing"] = 0,
+						["id"] = 70435,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 80,
+						["multistrike"] = 0,
+						["name"] = "Rend Flesh",
+						["blocked"] = 0,
+						["totalhits"] = 13,
+						["resisted"] = 0,
+						["max"] = 218,
+						["damage"] = 1302,
+					},
+					["Shroud of Sorrow"] = {
+						["crushing"] = 0,
+						["id"] = 70985,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 81,
+						["multistrike"] = 0,
+						["name"] = "Shroud of Sorrow",
+						["blocked"] = 0,
+						["totalhits"] = 19,
+						["resisted"] = 0,
+						["max"] = 85,
+						["damage"] = 1567,
+					},
+					["Arctic Chill"] = {
+						["crushing"] = 0,
+						["id"] = 71271,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 126,
+						["multistrike"] = 0,
+						["name"] = "Arctic Chill",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 126,
+						["damage"] = 126,
+					},
+					["Rune of Blood"] = {
+						["crushing"] = 0,
+						["id"] = 72409,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 124,
+						["multistrike"] = 0,
+						["name"] = "Rune of Blood",
+						["blocked"] = 0,
+						["totalhits"] = 3,
+						["resisted"] = 0,
+						["max"] = 159,
+						["damage"] = 407,
+					},
+					["Twilight Bloodbolt"] = {
+						["crushing"] = 0,
+						["id"] = 71818,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 219,
+						["multistrike"] = 0,
+						["name"] = "Twilight Bloodbolt",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 239,
+						["damage"] = 458,
+					},
+					["Plague Blast"] = {
+						["crushing"] = 0,
+						["id"] = 73079,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 50,
+						["multistrike"] = 0,
+						["name"] = "Plague Blast",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 63,
+						["damage"] = 113,
+					},
+					["Shadow Prison"] = {
+						["crushing"] = 0,
+						["id"] = 72999,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 315,
+						["multistrike"] = 0,
+						["name"] = "Shadow Prison",
+						["blocked"] = 0,
+						["totalhits"] = 9,
+						["resisted"] = 0,
+						["max"] = 2315,
+						["damage"] = 10835,
+					},
+					["Gaseous Blight"] = {
+						["crushing"] = 0,
+						["id"] = 69159,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 115,
+						["multistrike"] = 0,
+						["name"] = "Gaseous Blight",
+						["blocked"] = 0,
+						["totalhits"] = 19,
+						["resisted"] = 0,
+						["max"] = 120,
+						["damage"] = 2229,
+					},
+					["Frost Aura"] = {
+						["crushing"] = 0,
+						["id"] = 70084,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 81,
+						["multistrike"] = 0,
+						["name"] = "Frost Aura",
+						["blocked"] = 0,
+						["totalhits"] = 12,
+						["resisted"] = 0,
+						["max"] = 81,
+						["damage"] = 972,
+					},
+					["Fury of Frostmourne"] = {
+						["crushing"] = 0,
+						["id"] = 72350,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 18000,
+						["multistrike"] = 0,
+						["name"] = "Fury of Frostmourne",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 18000,
+						["damage"] = 36000,
+					},
+					["Shadow Lance"] = {
+						["crushing"] = 0,
+						["id"] = 71405,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 344,
+						["multistrike"] = 0,
+						["name"] = "Shadow Lance",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 360,
+						["damage"] = 2122,
+					},
+					["Frost Breath"] = {
+						["crushing"] = 0,
+						["id"] = 69649,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 1027,
+						["multistrike"] = 0,
+						["name"] = "Frost Breath",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 1116,
+						["damage"] = 2143,
+					},
+					["Bubbling Pus"] = {
+						["crushing"] = 0,
+						["id"] = 71089,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 2027,
+						["multistrike"] = 0,
+						["name"] = "Bubbling Pus",
+						["blocked"] = 0,
+						["totalhits"] = 15,
+						["resisted"] = 0,
+						["max"] = 2028,
+						["damage"] = 30418,
+					},
+					["Flesh-eating Bite"] = {
+						["crushing"] = 0,
+						["id"] = 72967,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 5,
+						["multistrike"] = 0,
+						["name"] = "Flesh-eating Bite",
+						["blocked"] = 0,
+						["totalhits"] = 123,
+						["resisted"] = 0,
+						["max"] = 8,
+						["damage"] = 771,
+					},
+					["Blighted Spores"] = {
+						["crushing"] = 0,
+						["id"] = 69290,
+						["absorbed"] = 0,
+						["min"] = 3581,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Blighted Spores",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 3671,
+						["damage"] = 7252,
+					},
+					["Vile Gas"] = {
+						["crushing"] = 0,
+						["id"] = 69240,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 116,
+						["multistrike"] = 0,
+						["name"] = "Vile Gas",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 119,
+						["damage"] = 705,
+					},
+					["Bone Slice"] = {
+						["crushing"] = 0,
+						["id"] = 69055,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 1980,
+						["multistrike"] = 0,
+						["name"] = "Bone Slice",
+						["blocked"] = 0,
+						["totalhits"] = 10,
+						["resisted"] = 0,
+						["max"] = 2169,
+						["damage"] = 20975,
+					},
+					["Shoot"] = {
+						["crushing"] = 0,
+						["id"] = 71253,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 27,
+						["multistrike"] = 0,
+						["name"] = "Shoot",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 29,
+						["damage"] = 56,
+					},
+					["Malleable Goo"] = {
+						["crushing"] = 0,
+						["id"] = 72297,
+						["absorbed"] = 0,
+						["min"] = 268,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Malleable Goo",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 268,
+						["damage"] = 268,
+					},
+					["Gastric Bloat"] = {
+						["crushing"] = 0,
+						["id"] = 72219,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 264,
+						["multistrike"] = 0,
+						["name"] = "Gastric Bloat",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 276,
+						["damage"] = 1614,
+					},
+					["Saber Lash"] = {
+						["crushing"] = 0,
+						["id"] = 71021,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 427,
+						["multistrike"] = 0,
+						["name"] = "Saber Lash",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 427,
+						["damage"] = 427,
+					},
+					["Plague Stench"] = {
+						["crushing"] = 0,
+						["id"] = 71160,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 80,
+						["multistrike"] = 0,
+						["name"] = "Plague Stench",
+						["blocked"] = 0,
+						["totalhits"] = 3,
+						["resisted"] = 0,
+						["max"] = 81,
+						["damage"] = 241,
+					},
+					["Infest"] = {
+						["crushing"] = 0,
+						["id"] = 70541,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 270,
+						["multistrike"] = 0,
+						["name"] = "Infest",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 282,
+						["damage"] = 552,
+					},
+					["Shattered Bones"] = {
+						["crushing"] = 0,
+						["id"] = 70961,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 180,
+						["multistrike"] = 0,
+						["name"] = "Shattered Bones",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 180,
+						["damage"] = 900,
+					},
+					["Chilled to the Bone"] = {
+						["crushing"] = 0,
+						["id"] = 70106,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 23,
+						["multistrike"] = 0,
+						["name"] = "Chilled to the Bone",
+						["blocked"] = 0,
+						["totalhits"] = 14,
+						["resisted"] = 0,
+						["max"] = 117,
+						["damage"] = 817,
+					},
+					["Boiling Blood"] = {
+						["crushing"] = 0,
+						["id"] = 72385,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 90,
+						["multistrike"] = 0,
+						["name"] = "Boiling Blood",
+						["blocked"] = 0,
+						["totalhits"] = 9,
+						["resisted"] = 0,
+						["max"] = 90,
+						["damage"] = 810,
+					},
+					["Necrotic Strike"] = {
+						["crushing"] = 0,
+						["id"] = 70659,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 179,
+						["multistrike"] = 0,
+						["name"] = "Necrotic Strike",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 249,
+						["damage"] = 428,
+					},
+					["Slime Spray"] = {
+						["crushing"] = 0,
+						["id"] = 69507,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 146,
+						["multistrike"] = 0,
+						["name"] = "Slime Spray",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 146,
+						["damage"] = 146,
+					},
+					["Blood Nova"] = {
+						["crushing"] = 0,
+						["id"] = 72380,
+						["absorbed"] = 0,
+						["min"] = 185,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Blood Nova",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 185,
+						["damage"] = 185,
+					},
+					["Vampiric Bite"] = {
+						["crushing"] = 0,
+						["id"] = 71726,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 199,
+						["multistrike"] = 0,
+						["name"] = "Vampiric Bite",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 212,
+						["damage"] = 411,
+					},
+					["Shadow Bolt"] = {
+						["crushing"] = 0,
+						["id"] = 72960,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 211,
+						["multistrike"] = 0,
+						["name"] = "Shadow Bolt",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 259,
+						["damage"] = 1373,
+					},
+					["Remorseless Winter"] = {
+						["crushing"] = 0,
+						["id"] = 68983,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 367,
+						["multistrike"] = 0,
+						["name"] = "Remorseless Winter",
+						["blocked"] = 0,
+						["totalhits"] = 240,
+						["resisted"] = 0,
+						["max"] = 412,
+						["damage"] = 93991,
+					},
+					["Pain and Suffering"] = {
+						["crushing"] = 0,
+						["id"] = 72133,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 21,
+						["multistrike"] = 0,
+						["name"] = "Pain and Suffering",
+						["blocked"] = 0,
+						["totalhits"] = 63,
+						["resisted"] = 0,
+						["max"] = 152,
+						["damage"] = 6576,
+					},
+					["Volatile Ooze Adhesive"] = {
+						["crushing"] = 0,
+						["id"] = 70447,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 133,
+						["multistrike"] = 0,
+						["name"] = "Volatile Ooze Adhesive",
+						["blocked"] = 0,
+						["totalhits"] = 6,
+						["resisted"] = 0,
+						["max"] = 138,
+						["damage"] = 815,
+					},
+					["Frostbolt Volley"] = {
+						["crushing"] = 0,
+						["id"] = 72905,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 275,
+						["multistrike"] = 0,
+						["name"] = "Frostbolt Volley",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 280,
+						["damage"] = 555,
+					},
+					["Barbaric Strike"] = {
+						["crushing"] = 0,
+						["id"] = 71257,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 27,
+						["multistrike"] = 0,
+						["name"] = "Barbaric Strike",
+						["blocked"] = 0,
+						["totalhits"] = 29,
+						["resisted"] = 0,
+						["max"] = 88,
+						["damage"] = 1403,
+					},
+					["Hurl Axe"] = {
+						["crushing"] = 0,
+						["id"] = 70161,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 69,
+						["multistrike"] = 0,
+						["name"] = "Hurl Axe",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 74,
+						["damage"] = 356,
+					},
+					["Massive Stomp"] = {
+						["crushing"] = 0,
+						["id"] = 71114,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 234,
+						["multistrike"] = 0,
+						["name"] = "Massive Stomp",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 404,
+						["damage"] = 638,
+					},
+					["Plague Strike"] = {
+						["crushing"] = 0,
+						["id"] = 69912,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 185,
+						["multistrike"] = 0,
+						["name"] = "Plague Strike",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 185,
+						["damage"] = 185,
+					},
+					["Deathchill Bolt"] = {
+						["crushing"] = 0,
+						["id"] = 70594,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 209,
+						["multistrike"] = 0,
+						["name"] = "Deathchill Bolt",
+						["blocked"] = 0,
+						["totalhits"] = 8,
+						["resisted"] = 0,
+						["max"] = 241,
+						["damage"] = 1814,
+					},
+					["Attack"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 17,
+						["min"] = 6,
+						["multistrike"] = 0,
+						["name"] = "Attack",
+						["blocked"] = 0,
+						["totalhits"] = 238,
+						["resisted"] = 0,
+						["max"] = 1830,
+						["damage"] = 149677,
+					},
+				},
+				["time"] = 1354,
+				["power"] = {
+					[17] = {
+						["amount"] = 11652,
+						["spells"] = {
+							[203650] = 317,
+							[162243] = 9795,
+							[193840] = 1540,
+						},
+					},
+				},
+				["name"] = "Kaldorath",
+				["damagetaken"] = 385908,
+				["deathlog"] = {
+					{
+						["ts"] = 1471575282.915,
+						["amount"] = -39,
+						["srcname"] = "Attumen the Huntsman",
+						["hp"] = 335460,
+						["spellid"] = 88163,
+					}, -- [1]
+					{
+						["absorb"] = 0,
+						["amount"] = 39,
+						["ts"] = 1471575307.814,
+						["hp"] = 335460,
+						["srcname"] = "Parsepatrol",
+						["spellid"] = 145110,
+					}, -- [2]
+					{
+						["ts"] = 1473093420.141,
+						["amount"] = -39,
+						["srcname"] = "Attumen the Huntsman",
+						["hp"] = 341340,
+						["spellid"] = 88163,
+					}, -- [3]
+					["pos"] = 4,
+				},
+				["maxhp"] = 409656,
+				["healingspells"] = {
+					["Essence of the Blood Queen"] = {
+						["shielding"] = 0,
+						["id"] = 70872,
+						["healing"] = 18185,
+						["absorbed"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "Essence of the Blood Queen",
+						["critical"] = 0,
+						["max"] = 7141,
+						["overhealing"] = 4781906,
+						["hits"] = 29,
+						["multistrikes"] = 0,
+					},
+				},
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 2,
+		["mobs"] = {
+			["The Damned"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7314609,
+						["done"] = 1783,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1783,
+				["taken"] = 7314609,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Frostwarden Handler"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7240437,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 7240437,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ymirjar Battle-Maiden"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 14253000,
+						["done"] = 2724,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 2724,
+				["taken"] = 14253000,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Drudge Ghoul"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 1607427,
+						["done"] = 212,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 212,
+				["taken"] = 1607427,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Cult Adherent"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 0,
+						["done"] = 1814,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1814,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darkfallen Advisor"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 8738018,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 8738018,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Hierophant"] = {
+				["players"] = {
+				},
+				["hdone"] = 3060140,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 36694,
+						["crits"] = 0,
+						["max"] = 44373,
+						["healing"] = 532553,
+						["overhealing"] = 0,
+						["hits"] = 13,
+					},
+					["Rejuvenation"] = {
+						["min"] = 358,
+						["crits"] = 0,
+						["max"] = 4498,
+						["healing"] = 258602,
+						["overhealing"] = 3768,
+						["hits"] = 75,
+					},
+					["Regrowth"] = {
+						["min"] = 2400,
+						["crits"] = 0,
+						["max"] = 6589,
+						["healing"] = 209041,
+						["overhealing"] = 0,
+						["hits"] = 75,
+					},
+				},
+				["htaken"] = 1000196,
+				["hdonespell"] = {
+					["Healing Touch"] = {
+						["min"] = 36534,
+						["crits"] = 0,
+						["max"] = 44409,
+						["healing"] = 2350844,
+						["overhealing"] = 0,
+						["hits"] = 58,
+					},
+					["Rejuvenation"] = {
+						["min"] = 358,
+						["crits"] = 0,
+						["max"] = 4498,
+						["healing"] = 340938,
+						["overhealing"] = 3768,
+						["hits"] = 97,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7305,
+						["healing"] = 368358,
+						["overhealing"] = 28901,
+						["hits"] = 141,
+					},
+				},
+			},
+			["Kor'kron Reaver"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 4120236,
+						["done"] = 185,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 185,
+				["taken"] = 4120236,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 42098,
+						["crits"] = 0,
+						["max"] = 42098,
+						["healing"] = 42098,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Greater Heal"] = {
+						["min"] = 6971,
+						["crits"] = 0,
+						["max"] = 19787,
+						["healing"] = 407149,
+						["overhealing"] = 12060,
+						["hits"] = 23,
+					},
+					["Penance"] = {
+						["min"] = 5149,
+						["crits"] = 0,
+						["max"] = 6913,
+						["healing"] = 55981,
+						["overhealing"] = 0,
+						["hits"] = 9,
+					},
+					["Regrowth"] = {
+						["min"] = 2400,
+						["crits"] = 0,
+						["max"] = 6860,
+						["healing"] = 85764,
+						["overhealing"] = 0,
+						["hits"] = 32,
+					},
+					["Rejuvenation"] = {
+						["min"] = 2761,
+						["crits"] = 0,
+						["max"] = 4493,
+						["healing"] = 78714,
+						["overhealing"] = 1136,
+						["hits"] = 21,
+					},
+					["Healing Wave"] = {
+						["min"] = 18912,
+						["crits"] = 0,
+						["max"] = 18912,
+						["healing"] = 18912,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 688618,
+				["hdonespell"] = {
+				},
+			},
+			["Midnight"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 1693417,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1693417,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Orgrim's Hammer"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 2441580,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 2441580,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Lady Deathwhisper"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 52664724,
+						["done"] = 6169,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 6169,
+				["taken"] = 52664724,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Servant of the Throne"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 3220194,
+						["done"] = 957,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 957,
+				["taken"] = 3220194,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darkfallen Tactician"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 14428650,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 14428650,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Captain Rupert"] = {
+				["players"] = {
+				},
+				["hdone"] = 675815,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Undeath"] = {
+						["min"] = 675815,
+						["crits"] = 0,
+						["max"] = 675815,
+						["healing"] = 675815,
+						["overhealing"] = 376460,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 675815,
+				["hdonespell"] = {
+					["Undeath"] = {
+						["min"] = 675815,
+						["crits"] = 0,
+						["max"] = 675815,
+						["healing"] = 675815,
+						["overhealing"] = 376460,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Darkfallen Lieutenant"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7508834,
+						["done"] = 1302,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1302,
+				["taken"] = 7508834,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darkfallen Noble"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 1422402,
+						["done"] = 232,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 232,
+				["taken"] = 1422402,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Deathbound Ward"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 5599518,
+						["done"] = 427,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 427,
+				["taken"] = 5599518,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Frozen Insect"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 546769,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 546769,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Rimefang"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7541280,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 7541280,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Spectral Charger"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 2826920,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 2826920,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ymirjar Huntress"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 10167547,
+						["done"] = 56,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 56,
+				["taken"] = 10167547,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Spectral Stallion"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 4896849,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 4896849,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Warhawk"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 2349053,
+						["done"] = 111,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 111,
+				["taken"] = 2349053,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Deathbringer Saurfang"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 46534747,
+						["done"] = 22469,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 8140,
+				["done"] = 22469,
+				["taken"] = 46534747,
+				["htakenspell"] = {
+					["Rune of Blood"] = {
+						["min"] = 2480,
+						["crits"] = 0,
+						["max"] = 3180,
+						["healing"] = 8140,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 8140,
+				["hdonespell"] = {
+					["Rune of Blood"] = {
+						["min"] = 2480,
+						["crits"] = 0,
+						["max"] = 3180,
+						["healing"] = 8140,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+			},
+			["Decaying Colossus"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 6336452,
+						["done"] = 638,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 638,
+				["taken"] = 6336452,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darkfallen Commander"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 12550268,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 12550268,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ymirjar Deathbringer"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 3849710,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 3849710,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Nerub'ar Broodkeeper"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 9842283,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 9842283,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Vanquisher"] = {
+				["players"] = {
+				},
+				["hdone"] = 27385,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Heal"] = {
+						["min"] = 16864,
+						["crits"] = 0,
+						["max"] = 18482,
+						["healing"] = 87571,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Earth Shield"] = {
+						["min"] = 907,
+						["crits"] = 0,
+						["max"] = 1485,
+						["healing"] = 27385,
+						["overhealing"] = 0,
+						["hits"] = 22,
+					},
+					["Chain Heal"] = {
+						["min"] = 19025,
+						["crits"] = 0,
+						["max"] = 19025,
+						["healing"] = 19025,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 133981,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 907,
+						["crits"] = 0,
+						["max"] = 1485,
+						["healing"] = 27385,
+						["overhealing"] = 0,
+						["hits"] = 22,
+					},
+				},
+			},
+			["Kor'kron Sniper"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Heal"] = {
+						["min"] = 16363,
+						["crits"] = 0,
+						["max"] = 19528,
+						["healing"] = 140752,
+						["overhealing"] = 1128,
+						["hits"] = 8,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7376,
+						["healing"] = 52187,
+						["overhealing"] = 5917,
+						["hits"] = 9,
+					},
+					["Healing Wave"] = {
+						["min"] = 6573,
+						["crits"] = 0,
+						["max"] = 18438,
+						["healing"] = 122063,
+						["overhealing"] = 37844,
+						["hits"] = 9,
+					},
+					["Rejuvenation"] = {
+						["min"] = 3179,
+						["crits"] = 0,
+						["max"] = 4364,
+						["healing"] = 18151,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Regrowth"] = {
+						["min"] = 635,
+						["crits"] = 0,
+						["max"] = 4838,
+						["healing"] = 5473,
+						["overhealing"] = 1765,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 338626,
+				["hdonespell"] = {
+				},
+			},
+			["Sindragosa"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 47573560,
+						["done"] = 18811,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 18811,
+				["taken"] = 47573560,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Flesh-eating Insect"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 99786271,
+						["done"] = 845,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 845,
+				["taken"] = 99786271,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Festergut"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 55316040,
+						["done"] = 27317,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 27317,
+				["taken"] = 55316040,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ymirjar Frostbinder"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 4408217,
+						["done"] = 126,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 126,
+				["taken"] = 4408217,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Cult Fanatic"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 3248690,
+						["done"] = 428,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 428,
+				["taken"] = 3248690,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Templar"] = {
+				["players"] = {
+				},
+				["hdone"] = 3045611,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Heal"] = {
+						["min"] = 17111,
+						["crits"] = 0,
+						["max"] = 19707,
+						["healing"] = 280679,
+						["overhealing"] = 0,
+						["hits"] = 15,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7489,
+						["healing"] = 419195,
+						["overhealing"] = 208415,
+						["hits"] = 105,
+					},
+					["Healing Wave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 19197,
+						["healing"] = 407945,
+						["overhealing"] = 187495,
+						["hits"] = 33,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3794,
+						["healing"] = 30346,
+						["overhealing"] = 34560,
+						["hits"] = 18,
+					},
+					["Earth Shield"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1445,
+						["healing"] = 18156,
+						["overhealing"] = 5416,
+						["hits"] = 20,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 6452,
+						["healing"] = 36488,
+						["overhealing"] = 25074,
+						["hits"] = 20,
+					},
+				},
+				["htaken"] = 1192809,
+				["hdonespell"] = {
+					["Greater Heal"] = {
+						["min"] = 6971,
+						["crits"] = 0,
+						["max"] = 19800,
+						["healing"] = 2042424,
+						["overhealing"] = 13188,
+						["hits"] = 113,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7489,
+						["healing"] = 985031,
+						["overhealing"] = 623165,
+						["hits"] = 269,
+					},
+					["Earth Shield"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1445,
+						["healing"] = 18156,
+						["overhealing"] = 5416,
+						["hits"] = 20,
+					},
+				},
+			},
+			["Lord Marrowgar"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 32646130,
+						["done"] = 31351,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 31351,
+				["taken"] = 32646130,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Sorcerer"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7305,
+						["healing"] = 70694,
+						["overhealing"] = 28901,
+						["hits"] = 34,
+					},
+				},
+				["htaken"] = 70694,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Defender"] = {
+				["players"] = {
+				},
+				["hdone"] = 20337,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 36929,
+						["crits"] = 0,
+						["max"] = 44523,
+						["healing"] = 397676,
+						["overhealing"] = 0,
+						["hits"] = 10,
+					},
+					["Greater Heal"] = {
+						["min"] = 16268,
+						["crits"] = 0,
+						["max"] = 19800,
+						["healing"] = 316043,
+						["overhealing"] = 0,
+						["hits"] = 17,
+					},
+					["Healing Wave"] = {
+						["min"] = 17557,
+						["crits"] = 0,
+						["max"] = 17557,
+						["healing"] = 17557,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Rejuvenation"] = {
+						["min"] = 4374,
+						["crits"] = 0,
+						["max"] = 4374,
+						["healing"] = 4374,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Earth Shield"] = {
+						["min"] = 935,
+						["crits"] = 0,
+						["max"] = 1478,
+						["healing"] = 20337,
+						["overhealing"] = 0,
+						["hits"] = 17,
+					},
+				},
+				["htaken"] = 755987,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 935,
+						["crits"] = 0,
+						["max"] = 1478,
+						["healing"] = 20337,
+						["overhealing"] = 0,
+						["hits"] = 17,
+					},
+				},
+			},
+			["Pustulating Horror"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 6315664,
+						["done"] = 30418,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 30418,
+				["taken"] = 6315664,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Zerdbo"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 10602,
+						["crits"] = 0,
+						["max"] = 10602,
+						["healing"] = 10602,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 10602,
+				["hdonespell"] = {
+				},
+			},
+			["Nerub'ar Champion"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 12174723,
+						["done"] = 283,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 283,
+				["taken"] = 12174723,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Frostwing Whelp"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 27253621,
+						["done"] = 106,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 106,
+				["taken"] = 27253621,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Precious"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 8059018,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 8059018,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Blighted Abomination"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 1713861,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1713861,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Attumen the Huntsman"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 1172085,
+						["done"] = 78,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 78,
+				["taken"] = 1172085,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darkfallen Blood Knight"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 9423882,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 9423882,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Spectral Stable Hand"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 6045049,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 6045049,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Rotface"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 48270257,
+						["done"] = 10536,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 10536,
+				["taken"] = 48270257,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Prince Keleseth"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 2724750,
+						["done"] = 2122,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 2122,
+				["taken"] = 2724750,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Summoner"] = {
+				["players"] = {
+				},
+				["hdone"] = 10009,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 38444,
+						["crits"] = 0,
+						["max"] = 43774,
+						["healing"] = 201627,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Healing Wave"] = {
+						["min"] = 6254,
+						["crits"] = 0,
+						["max"] = 19194,
+						["healing"] = 416599,
+						["overhealing"] = 72061,
+						["hits"] = 27,
+					},
+					["Rejuvenation"] = {
+						["min"] = 2792,
+						["crits"] = 0,
+						["max"] = 4492,
+						["healing"] = 82336,
+						["overhealing"] = 0,
+						["hits"] = 22,
+					},
+					["Earth Shield"] = {
+						["min"] = 973,
+						["crits"] = 0,
+						["max"] = 1454,
+						["healing"] = 10009,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+					["Regrowth"] = {
+						["min"] = 2400,
+						["crits"] = 0,
+						["max"] = 7268,
+						["healing"] = 88623,
+						["overhealing"] = 0,
+						["hits"] = 32,
+					},
+				},
+				["htaken"] = 799194,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 973,
+						["crits"] = 0,
+						["max"] = 1454,
+						["healing"] = 10009,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+			},
+			["Prince Valanar"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 32395395,
+						["done"] = 10491,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 10491,
+				["taken"] = 32395395,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Luminary"] = {
+				["players"] = {
+				},
+				["hdone"] = 498156,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Earth Shield"] = {
+						["min"] = 938,
+						["crits"] = 0,
+						["max"] = 1461,
+						["healing"] = 26986,
+						["overhealing"] = 0,
+						["hits"] = 22,
+					},
+					["Healing Wave"] = {
+						["min"] = 17256,
+						["crits"] = 0,
+						["max"] = 18951,
+						["healing"] = 54571,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["htaken"] = 81557,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 938,
+						["crits"] = 0,
+						["max"] = 1461,
+						["healing"] = 26986,
+						["overhealing"] = 0,
+						["hits"] = 22,
+					},
+					["Healing Wave"] = {
+						["min"] = 6254,
+						["crits"] = 0,
+						["max"] = 19194,
+						["healing"] = 471170,
+						["overhealing"] = 72061,
+						["hits"] = 30,
+					},
+				},
+			},
+			["Blood-Queen Lana'thel"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 73630099,
+						["done"] = 18185,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 18185,
+				["taken"] = 73630099,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Axethrower"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 4054571,
+						["done"] = 356,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 356,
+				["taken"] = 4054571,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Darkfallen Archmage"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 3257285,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 3257285,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Invoker"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Heal"] = {
+						["min"] = 19604,
+						["crits"] = 0,
+						["max"] = 19604,
+						["healing"] = 19604,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 6694,
+						["healing"] = 31039,
+						["overhealing"] = 10682,
+						["hits"] = 7,
+					},
+					["Healing Wave"] = {
+						["min"] = 4188,
+						["crits"] = 0,
+						["max"] = 8307,
+						["healing"] = 18495,
+						["overhealing"] = 35773,
+						["hits"] = 3,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3448,
+						["healing"] = 19974,
+						["overhealing"] = 26905,
+						["hits"] = 13,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 5430,
+						["healing"] = 25058,
+						["overhealing"] = 32722,
+						["hits"] = 21,
+					},
+				},
+				["htaken"] = 114170,
+				["hdonespell"] = {
+				},
+			},
+			["Spinestalker"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7418483,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 7418483,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Frostwarden Sorceress"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 3497802,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 3497802,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Prince Taldaram"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 9243617,
+						["done"] = 11221,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 11221,
+				["taken"] = 9243617,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Raging Spirit"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 5100671,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 5100671,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Jarrama"] = {
+				["players"] = {
+				},
+				["hdone"] = 10602,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["Ysera's Gift"] = {
+						["min"] = 10602,
+						["crits"] = 0,
+						["max"] = 10602,
+						["healing"] = 10602,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Ancient Skeletal Soldier"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 9862611,
+						["done"] = 1319,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 1319,
+				["taken"] = 9862611,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Necrolyte"] = {
+				["players"] = {
+				},
+				["hdone"] = 9047,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Heal"] = {
+						["min"] = 19224,
+						["crits"] = 0,
+						["max"] = 19224,
+						["healing"] = 19224,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7357,
+						["healing"] = 353544,
+						["overhealing"] = 249456,
+						["hits"] = 101,
+					},
+					["Healing Wave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 17457,
+						["healing"] = 170570,
+						["overhealing"] = 223881,
+						["hits"] = 22,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2400,
+						["healing"] = 4800,
+						["overhealing"] = 39569,
+						["hits"] = 17,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3600,
+						["healing"] = 3600,
+						["overhealing"] = 9745,
+						["hits"] = 4,
+					},
+					["Earth Shield"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1419,
+						["healing"] = 9047,
+						["overhealing"] = 3166,
+						["hits"] = 10,
+					},
+					["Chain Heal"] = {
+						["min"] = 18967,
+						["crits"] = 0,
+						["max"] = 18967,
+						["healing"] = 18967,
+						["overhealing"] = 74,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 579752,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 1419,
+						["healing"] = 9047,
+						["overhealing"] = 3166,
+						["hits"] = 10,
+					},
+				},
+			},
+			["Professor Putricide"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 51764653,
+						["done"] = 5321,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 5321,
+				["taken"] = 51764653,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ice Sphere"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 2446894,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 2446894,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Vengeful Fleshreaper"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 12411848,
+						["done"] = 94,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 94,
+				["taken"] = 12411848,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Assassin"] = {
+				["players"] = {
+				},
+				["hdone"] = 12021,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Earth Shield"] = {
+						["min"] = 924,
+						["crits"] = 0,
+						["max"] = 1474,
+						["healing"] = 12021,
+						["overhealing"] = 0,
+						["hits"] = 10,
+					},
+				},
+				["htaken"] = 12021,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 924,
+						["crits"] = 0,
+						["max"] = 1474,
+						["healing"] = 12021,
+						["overhealing"] = 0,
+						["hits"] = 10,
+					},
+				},
+			},
+			["Skybreaker Vindicator"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 36534,
+						["crits"] = 0,
+						["max"] = 44409,
+						["healing"] = 1100947,
+						["overhealing"] = 0,
+						["hits"] = 27,
+					},
+				},
+				["htaken"] = 1100947,
+				["hdonespell"] = {
+				},
+			},
+			["Volatile Ooze"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 0,
+						["done"] = 815,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 815,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Nerub'ar Webweaver"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 13597945,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 13597945,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Stalker"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Wave"] = {
+						["min"] = 18735,
+						["crits"] = 0,
+						["max"] = 18735,
+						["healing"] = 18735,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+					["Greater Heal"] = {
+						["min"] = 16261,
+						["crits"] = 0,
+						["max"] = 19734,
+						["healing"] = 716760,
+						["overhealing"] = 0,
+						["hits"] = 40,
+					},
+					["Rejuvenation"] = {
+						["min"] = 2924,
+						["crits"] = 0,
+						["max"] = 4471,
+						["healing"] = 17789,
+						["overhealing"] = 0,
+						["hits"] = 5,
+					},
+					["Regrowth"] = {
+						["min"] = 2400,
+						["crits"] = 0,
+						["max"] = 6939,
+						["healing"] = 44169,
+						["overhealing"] = 0,
+						["hits"] = 15,
+					},
+				},
+				["htaken"] = 797453,
+				["hdonespell"] = {
+				},
+			},
+			["Captain Grondel"] = {
+				["players"] = {
+				},
+				["hdone"] = 657580,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Undeath"] = {
+						["min"] = 657580,
+						["crits"] = 0,
+						["max"] = 657580,
+						["healing"] = 657580,
+						["overhealing"] = 394695,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 657580,
+				["hdonespell"] = {
+					["Undeath"] = {
+						["min"] = 657580,
+						["crits"] = 0,
+						["max"] = 657580,
+						["healing"] = 657580,
+						["overhealing"] = 394695,
+						["hits"] = 1,
+					},
+				},
+			},
+			["Plagued Zombie"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7594252,
+						["done"] = 38,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 38,
+				["taken"] = 7594252,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Ymirjar Warlord"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 8684711,
+						["done"] = 174,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 174,
+				["taken"] = 8684711,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Dreadblade"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 36559,
+						["crits"] = 0,
+						["max"] = 42594,
+						["healing"] = 319548,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+				["htaken"] = 319548,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Oracle"] = {
+				["players"] = {
+				},
+				["hdone"] = 883798,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Greater Heal"] = {
+						["min"] = 16599,
+						["crits"] = 0,
+						["max"] = 19631,
+						["healing"] = 54642,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 6296,
+						["healing"] = 43586,
+						["overhealing"] = 63303,
+						["hits"] = 18,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 5313,
+						["healing"] = 32938,
+						["overhealing"] = 38973,
+						["hits"] = 24,
+					},
+					["Healing Wave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 13239,
+						["healing"] = 38542,
+						["overhealing"] = 52818,
+						["hits"] = 5,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3702,
+						["healing"] = 18921,
+						["overhealing"] = 21950,
+						["hits"] = 12,
+					},
+					["Earth Shield"] = {
+						["min"] = 1088,
+						["crits"] = 0,
+						["max"] = 1312,
+						["healing"] = 3649,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Chain Heal"] = {
+						["min"] = 18502,
+						["crits"] = 0,
+						["max"] = 18502,
+						["healing"] = 18502,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 210780,
+				["hdonespell"] = {
+					["Chain Heal"] = {
+						["min"] = 18502,
+						["crits"] = 0,
+						["max"] = 19025,
+						["healing"] = 56494,
+						["overhealing"] = 74,
+						["hits"] = 3,
+					},
+					["Earth Shield"] = {
+						["min"] = 1088,
+						["crits"] = 0,
+						["max"] = 1312,
+						["healing"] = 3649,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+					["Healing Wave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 19197,
+						["healing"] = 823655,
+						["overhealing"] = 617091,
+						["hits"] = 80,
+					},
+				},
+			},
+			["Sister Svalna"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 8415330,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 8415330,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Kor'kron Primalist"] = {
+				["players"] = {
+				},
+				["hdone"] = 887228,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Healing Wave"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 5422,
+						["healing"] = 10836,
+						["overhealing"] = 79280,
+						["hits"] = 5,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 3466,
+						["healing"] = 18140,
+						["overhealing"] = 66639,
+						["hits"] = 24,
+					},
+					["Penance"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 7200,
+						["healing"] = 29499,
+						["overhealing"] = 85392,
+						["hits"] = 20,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 2064,
+						["healing"] = 2755,
+						["overhealing"] = 54679,
+						["hits"] = 18,
+					},
+				},
+				["htaken"] = 61230,
+				["hdonespell"] = {
+					["Healing Touch"] = {
+						["min"] = 36929,
+						["crits"] = 0,
+						["max"] = 44523,
+						["healing"] = 439774,
+						["overhealing"] = 0,
+						["hits"] = 11,
+					},
+					["Rejuvenation"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 4493,
+						["healing"] = 210009,
+						["overhealing"] = 160935,
+						["hits"] = 103,
+					},
+					["Regrowth"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 6939,
+						["healing"] = 237445,
+						["overhealing"] = 192782,
+						["hits"] = 149,
+					},
+				},
+			},
+			["Plague Scientist"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7530317,
+						["done"] = 273,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 273,
+				["taken"] = 7530317,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["The Lich King"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 276731139,
+						["done"] = 154044,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 5248912,
+				["done"] = 154044,
+				["taken"] = 276731139,
+				["htakenspell"] = {
+					["Fury of Frostmourne"] = {
+						["min"] = 2624456,
+						["crits"] = 0,
+						["max"] = 2624456,
+						["healing"] = 5248912,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 5248912,
+				["hdonespell"] = {
+					["Fury of Frostmourne"] = {
+						["min"] = 2624456,
+						["crits"] = 0,
+						["max"] = 2624456,
+						["healing"] = 5248912,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Frostwarden Warrior"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 6254312,
+						["done"] = 222,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 222,
+				["taken"] = 6254312,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Stinky"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 7862695,
+						["done"] = 510,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 510,
+				["taken"] = 7862695,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Rat"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 68948,
+						["done"] = 0,
+						["class"] = "DEMONHUNTER",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 68948,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["Skybreaker Protector"] = {
+				["players"] = {
+				},
+				["hdone"] = 2738,
+				["done"] = 0,
+				["taken"] = 0,
+				["htakenspell"] = {
+					["Earth Shield"] = {
+						["min"] = 1272,
+						["crits"] = 0,
+						["max"] = 1466,
+						["healing"] = 2738,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+					["Healing Touch"] = {
+						["min"] = 37676,
+						["crits"] = 0,
+						["max"] = 38004,
+						["healing"] = 75680,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+				["htaken"] = 78418,
+				["hdonespell"] = {
+					["Earth Shield"] = {
+						["min"] = 1272,
+						["crits"] = 0,
+						["max"] = 1466,
+						["healing"] = 2738,
+						["overhealing"] = 0,
+						["hits"] = 2,
+					},
+				},
+			},
+			["Nerub'ar Broodling"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 11406634,
+						["done"] = 30,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 30,
+				["taken"] = 11406634,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Putricide's Trap"] = {
+				["players"] = {
+					["Kaldorath"] = {
+						["taken"] = 0,
+						["done"] = 2411,
+						["role"] = "NONE",
+						["class"] = "DEMONHUNTER",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 2411,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["Skybreaker Marksman"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["Healing Touch"] = {
+						["min"] = 36964,
+						["crits"] = 0,
+						["max"] = 42375,
+						["healing"] = 120489,
+						["overhealing"] = 0,
+						["hits"] = 3,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 120489,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 1169056954,
+		["healing"] = 18185,
+		["multistrikes"] = 0,
+		["power"] = {
+			[17] = 11652,
+		},
+		["overhealing"] = 4781906,
+		["shielding"] = 0,
+		["name"] = "Total",
+		["starttime"] = 1470898167,
+		["damagetaken"] = 385908,
+		["mobhdone"] = 15057519,
+		["last_action"] = 1470898167,
+		["mobdone"] = 367004,
 	},
 }

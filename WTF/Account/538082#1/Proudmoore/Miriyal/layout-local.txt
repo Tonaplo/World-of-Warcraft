@@ -6,6 +6,13 @@ X: -300
 Y: 0
 W: 232
 H: 100
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 300
+Y: 0
+W: 232
+H: 100
 Frame: mOnWD_MainFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -20,10 +27,3 @@ X: 299
 Y: -193
 W: 200
 H: 364
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 300
-Y: 0
-W: 232
-H: 100
