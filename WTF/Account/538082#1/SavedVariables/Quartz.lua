@@ -10,22 +10,22 @@ Quartz3DB = {
 				["Default"] = {
 					["y"] = 290,
 					["x"] = 740,
-					["powercolor"] = {
-						0.0117647058823529, -- [1]
-						0, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
+					["w"] = 435,
 					["showcombat"] = true,
 					["switch"] = false,
-					["showtarget"] = true,
-					["w"] = 435,
 					["barcolor"] = {
 						0, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
+					["powercolor"] = {
+						0.0117647058823529, -- [1]
+						0, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["showtarget"] = true,
 				},
 				["Tank"] = {
 					["showcombat"] = true,
@@ -87,6 +87,27 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Healer"] = {
+					["y"] = 780,
+					["h"] = 40,
+					["w"] = 180,
+					["x"] = 250,
+				},
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+				["DPS"] = {
+					["h"] = 40,
+					["w"] = 180,
+					["y"] = 780,
+					["x"] = 250,
+				},
+			},
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Healer"] = {
@@ -112,6 +133,8 @@ Quartz3DB = {
 				},
 			},
 		},
+		["GCD"] = {
+		},
 		["Procs"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -135,29 +158,6 @@ Quartz3DB = {
 							["sound"] = "None",
 						},
 					},
-				},
-			},
-		},
-		["EnemyCasts"] = {
-		},
-		["GCD"] = {
-		},
-		["Focus"] = {
-			["profiles"] = {
-				["Healer"] = {
-					["y"] = 780,
-					["h"] = 40,
-					["w"] = 180,
-					["x"] = 250,
-				},
-				["Default"] = {
-					["x"] = 950.256469726562,
-				},
-				["DPS"] = {
-					["h"] = 40,
-					["w"] = 180,
-					["y"] = 780,
-					["x"] = 250,
 				},
 			},
 		},
@@ -204,10 +204,10 @@ Quartz3DB = {
 		["Amranar - Proudmoore"] = "DPS",
 		["Mallusof - Proudmoore"] = "DPS",
 		["Granjior - Proudmoore"] = "DPS",
-		["Miriyal - Proudmoore"] = "DPS",
 		["Morifa - Proudmoore"] = "DPS",
-		["Greybone - Proudmoore"] = "DPS",
 		["Fimwack - Proudmoore"] = "DPS",
+		["Greybone - Proudmoore"] = "DPS",
+		["Miriyal - Proudmoore"] = "DPS",
 		["Faerand - Proudmoore"] = "DPS",
 		["Kaldorath - Proudmoore"] = "DPS",
 	},
