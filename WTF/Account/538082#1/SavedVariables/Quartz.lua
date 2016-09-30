@@ -3,12 +3,14 @@ Quartz3DB = {
 	["namespaces"] = {
 		["Swing"] = {
 		},
+		["Buff"] = {
+		},
 		["Power"] = {
 			["profiles"] = {
 				["Default"] = {
 					["y"] = 290,
 					["x"] = 740,
-					["showtarget"] = true,
+					["w"] = 435,
 					["showcombat"] = true,
 					["switch"] = false,
 					["barcolor"] = {
@@ -17,13 +19,13 @@ Quartz3DB = {
 						nil, -- [3]
 						1, -- [4]
 					},
-					["w"] = 435,
 					["powercolor"] = {
 						0.0117647058823529, -- [1]
 						0, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
+					["showtarget"] = true,
 				},
 				["Tank"] = {
 					["showcombat"] = true,
@@ -37,24 +39,22 @@ Quartz3DB = {
 					["y"] = 380,
 					["h"] = 25,
 					["switch"] = false,
-					["x"] = 710,
+					["w"] = 500,
 					["barcolor"] = {
 						nil, -- [1]
 						0, -- [2]
 						0.0313725490196078, -- [3]
 						1, -- [4]
 					},
-					["w"] = 500,
+					["x"] = 710,
 				},
 			},
-		},
-		["Buff"] = {
 		},
 		["Interrupt"] = {
 		},
 		["Flight"] = {
 			["profiles"] = {
-				["DPS"] = {
+				["Healer"] = {
 					["color"] = {
 						1, -- [1]
 						0, -- [2]
@@ -63,7 +63,7 @@ Quartz3DB = {
 					},
 					["deplete"] = true,
 				},
-				["Healer"] = {
+				["DPS"] = {
 					["color"] = {
 						1, -- [1]
 						0, -- [2]
@@ -76,64 +76,64 @@ Quartz3DB = {
 		},
 		["Pet"] = {
 			["profiles"] = {
-				["DPS"] = {
+				["Healer"] = {
 					["x"] = 700,
 				},
 				["Default"] = {
 					["x"] = 950.256469726562,
 				},
-				["Healer"] = {
+				["DPS"] = {
 					["x"] = 700,
 				},
 			},
-		},
-		["Range"] = {
-		},
-		["Mirror"] = {
 		},
 		["EnemyCasts"] = {
 		},
-		["GCD"] = {
-		},
 		["Focus"] = {
 			["profiles"] = {
-				["DPS"] = {
+				["Healer"] = {
+					["y"] = 780,
 					["h"] = 40,
 					["w"] = 180,
-					["y"] = 780,
 					["x"] = 250,
 				},
 				["Default"] = {
 					["x"] = 950.256469726562,
 				},
-				["Healer"] = {
-					["y"] = 780,
+				["DPS"] = {
 					["h"] = 40,
 					["w"] = 180,
+					["y"] = 780,
 					["x"] = 250,
 				},
 			},
 		},
-		["Target"] = {
+		["Player"] = {
 			["profiles"] = {
-				["DPS"] = {
-					["noInterruptChangeColor"] = true,
-					["h"] = 30,
-					["w"] = 300,
-					["y"] = 800,
-					["x"] = 900,
-					["noInterruptChangeBorder"] = true,
+				["Healer"] = {
+					["hideicon"] = true,
+					["h"] = 40,
+					["y"] = 175,
+					["w"] = 180,
+					["x"] = 575,
+					["border"] = "Blizzard Achievement Wood",
+					["texture"] = "Healbot",
 				},
 				["Default"] = {
-					["x"] = 950.256469726562,
+					["x"] = 925.256469726562,
 				},
-				["Healer"] = {
-					["y"] = 175,
+				["DPS"] = {
 					["h"] = 40,
-					["w"] = 180,
-					["x"] = 1330,
+					["w"] = 190,
+					["y"] = 380,
+					["border"] = "Blizzard Achievement Wood",
+					["x"] = 950,
+					["texture"] = "Healbot",
+					["hideicon"] = true,
 				},
 			},
+		},
+		["GCD"] = {
 		},
 		["Procs"] = {
 			["profiles"] = {
@@ -161,37 +161,37 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Player"] = {
+		["Target"] = {
 			["profiles"] = {
-				["DPS"] = {
+				["Healer"] = {
+					["y"] = 175,
 					["h"] = 40,
-					["w"] = 190,
-					["hideicon"] = true,
-					["border"] = "Blizzard Achievement Wood",
-					["x"] = 950,
-					["texture"] = "Healbot",
-					["y"] = 380,
+					["w"] = 180,
+					["x"] = 1330,
 				},
 				["Default"] = {
-					["x"] = 925.256469726562,
+					["x"] = 950.256469726562,
 				},
-				["Healer"] = {
-					["hideicon"] = true,
-					["h"] = 40,
-					["y"] = 175,
-					["border"] = "Blizzard Achievement Wood",
-					["x"] = 575,
-					["w"] = 180,
-					["texture"] = "Healbot",
+				["DPS"] = {
+					["noInterruptChangeColor"] = true,
+					["h"] = 30,
+					["w"] = 300,
+					["y"] = 800,
+					["x"] = 900,
+					["noInterruptChangeBorder"] = true,
 				},
 			},
 		},
+		["Mirror"] = {
+		},
+		["Range"] = {
+		},
 		["Latency"] = {
 			["profiles"] = {
-				["DPS"] = {
+				["Healer"] = {
 					["lagtextalignment"] = "right",
 				},
-				["Healer"] = {
+				["DPS"] = {
 					["lagtextalignment"] = "right",
 				},
 			},
@@ -201,30 +201,30 @@ Quartz3DB = {
 		["Rahran - Proudmoore"] = "DPS",
 		["Praerend - Proudmoore"] = "DPS",
 		["Farahn - Proudmoore"] = "DPS",
-		["Kaldorath - Proudmoore"] = "DPS",
-		["Faerand - Proudmoore"] = "DPS",
-		["Granjior - Proudmoore"] = "DPS",
-		["Miriyal - Proudmoore"] = "DPS",
-		["Morifa - Proudmoore"] = "DPS",
-		["Greybone - Proudmoore"] = "DPS",
-		["Fimwack - Proudmoore"] = "DPS",
-		["Mallusof - Proudmoore"] = "DPS",
 		["Amranar - Proudmoore"] = "DPS",
+		["Mallusof - Proudmoore"] = "DPS",
+		["Granjior - Proudmoore"] = "DPS",
+		["Fimwack - Proudmoore"] = "DPS",
+		["Miriyal - Proudmoore"] = "DPS",
+		["Greybone - Proudmoore"] = "DPS",
+		["Morifa - Proudmoore"] = "DPS",
+		["Faerand - Proudmoore"] = "DPS",
+		["Kaldorath - Proudmoore"] = "DPS",
 	},
 	["profiles"] = {
-		["DPS"] = {
+		["Healer"] = {
 			["modules"] = {
-				["EnemyCasts"] = true,
 				["Buff"] = false,
+				["EnemyCasts"] = true,
 			},
 			["hidesamwise"] = false,
 		},
 		["Default"] = {
 		},
-		["Healer"] = {
+		["DPS"] = {
 			["modules"] = {
-				["EnemyCasts"] = true,
 				["Buff"] = false,
+				["EnemyCasts"] = true,
 			},
 			["hidesamwise"] = false,
 		},
