@@ -5,8 +5,8 @@ VER 3 0100000000000003 "Divine Hymn" "SPELL_HOLY_DIVINEHYMN"
 /y Popping Divine Hymn!
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1NT1RM1EM1PM1ET2DR2EM2SR2IR2MR3OM3LR[x]4PH4PH4DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1EM1HR1SM1IR1PH2OM2MR2ET[x]2DR3NM3DH3RM3PH3SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NDemCloNasGloFouSizEthMcbKilOlfCønMin[x]MaxGarAdo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NEthThuMcbKilGarCønOlfFou[x]SizSeeAdoCloMaxKri[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]MalGoo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
