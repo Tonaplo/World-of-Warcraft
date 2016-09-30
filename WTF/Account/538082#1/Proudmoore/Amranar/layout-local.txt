@@ -27,6 +27,13 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: PlayerPowerBarAlt
+FrameLevel: 1
+Anchor: BOTTOMLEFT
+X: 283
+Y: 219
+W: 256
+H: 64
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER
