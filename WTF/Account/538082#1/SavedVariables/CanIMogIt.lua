@@ -5,7 +5,7 @@ CanIMogItOptions = {
 	["debug"] = false,
 	["showUnknownOnly"] = false,
 	["showTransmoggableOnly"] = false,
-	["showVerboseText"] = true,
 	["showItemIconOverlay"] = true,
+	["showVerboseText"] = true,
 }
 CanIMogItDatabase = nil
