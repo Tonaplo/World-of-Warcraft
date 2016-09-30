@@ -60,10 +60,11 @@ AngryAssign_Pages = {
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["tree"] = {
+	["window"] = {
 	},
 	["locked"] = true,
-	["directionUp"] = false,
+	["tree"] = {
+	},
 	["display"] = {
 		["y"] = 124.718292236328,
 		["x"] = -121.3173828125,
@@ -71,8 +72,7 @@ AngryAssign_State = {
 		["scale"] = 1,
 		["hidden"] = true,
 	},
-	["window"] = {
-	},
+	["directionUp"] = false,
 }
 AngryAssign_Config = {
 }

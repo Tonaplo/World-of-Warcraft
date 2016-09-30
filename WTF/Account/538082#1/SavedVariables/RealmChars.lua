@@ -9,18 +9,18 @@ RCDatabase = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Emerald Dream"] = "Morifa - Emerald Dream",
 		["Makemeaturke - Stormrage"] = "Makemeaturke - Stormrage",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Granjior - Emerald Dream"] = "Granjior - Emerald Dream",
 		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 		["Contumon - Emerald Dream"] = "Contumon - Emerald Dream",
 		["Mallusof - Blackhand"] = "Mallusof - Blackhand",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
@@ -98,12 +98,12 @@ RCDatabase = {
 				["secondProf"] = "No 2nd Prof",
 			}, -- [1]
 			{
-				["name"] = "Mallusof",
 				["secondProfLevel"] = 730,
-				["firstProf"] = "Tailoring",
-				["level"] = 110,
+				["name"] = "Mallusof",
 				["class"] = "PRIEST",
 				["firstProfLevel"] = 769,
+				["level"] = 110,
+				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
 			}, -- [2]
 			{
@@ -125,12 +125,12 @@ RCDatabase = {
 				["secondProf"] = "Skinning",
 			}, -- [4]
 			{
-				["secondProfLevel"] = 729,
 				["name"] = "Amranar",
+				["secondProfLevel"] = 736,
+				["firstProf"] = "Alchemy",
+				["level"] = 103,
 				["class"] = "DRUID",
 				["firstProfLevel"] = 702,
-				["level"] = 103,
-				["firstProf"] = "Alchemy",
 				["secondProf"] = "Herbalism",
 			}, -- [5]
 			{
