@@ -135,9 +135,9 @@ SkadaDB = {
 			},
 			["report"] = {
 				["number"] = 5,
-				["channel"] = "party",
+				["channel"] = "raid",
 				["target"] = "True",
-				["mode"] = "Deaths",
+				["mode"] = "Healing",
 			},
 		},
 	},
