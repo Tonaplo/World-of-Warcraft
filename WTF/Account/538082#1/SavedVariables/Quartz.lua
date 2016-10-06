@@ -8,22 +8,22 @@ Quartz3DB = {
 				["Default"] = {
 					["y"] = 290,
 					["x"] = 740,
+					["showtarget"] = true,
+					["showcombat"] = true,
+					["switch"] = false,
 					["barcolor"] = {
 						0, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
-					["showcombat"] = true,
-					["switch"] = false,
-					["showtarget"] = true,
+					["w"] = 435,
 					["powercolor"] = {
 						0.0117647058823529, -- [1]
 						0, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["w"] = 435,
 				},
 				["Tank"] = {
 					["showcombat"] = true,
@@ -91,32 +91,49 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["Player"] = {
+		["EnemyCasts"] = {
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
 			["profiles"] = {
 				["DPS"] = {
 					["h"] = 40,
-					["w"] = 190,
-					["hideicon"] = true,
-					["border"] = "Blizzard Achievement Wood",
-					["x"] = 950,
-					["texture"] = "Healbot",
-					["y"] = 380,
+					["w"] = 180,
+					["y"] = 780,
+					["x"] = 250,
 				},
 				["Default"] = {
-					["x"] = 925.256469726562,
+					["x"] = 950.256469726562,
 				},
 				["Healer"] = {
-					["hideicon"] = true,
+					["y"] = 780,
 					["h"] = 40,
-					["y"] = 175,
-					["border"] = "Blizzard Achievement Wood",
-					["x"] = 575,
 					["w"] = 180,
-					["texture"] = "Healbot",
+					["x"] = 250,
 				},
 			},
 		},
-		["GCD"] = {
+		["Target"] = {
+			["profiles"] = {
+				["DPS"] = {
+					["noInterruptChangeColor"] = true,
+					["h"] = 30,
+					["w"] = 300,
+					["y"] = 800,
+					["x"] = 900,
+					["noInterruptChangeBorder"] = true,
+				},
+				["Default"] = {
+					["x"] = 950.256469726562,
+				},
+				["Healer"] = {
+					["y"] = 175,
+					["h"] = 40,
+					["w"] = 180,
+					["x"] = 1330,
+				},
+			},
 		},
 		["Procs"] = {
 			["profiles"] = {
@@ -144,47 +161,30 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Target"] = {
+		["Player"] = {
 			["profiles"] = {
 				["DPS"] = {
-					["noInterruptChangeColor"] = true,
-					["h"] = 30,
-					["w"] = 300,
-					["y"] = 800,
-					["x"] = 900,
-					["noInterruptChangeBorder"] = true,
+					["h"] = 40,
+					["w"] = 190,
+					["hideicon"] = true,
+					["border"] = "Blizzard Achievement Wood",
+					["x"] = 950,
+					["texture"] = "Healbot",
+					["y"] = 380,
 				},
 				["Default"] = {
-					["x"] = 950.256469726562,
+					["x"] = 925.256469726562,
 				},
 				["Healer"] = {
+					["hideicon"] = true,
+					["h"] = 40,
 					["y"] = 175,
-					["h"] = 40,
+					["border"] = "Blizzard Achievement Wood",
+					["x"] = 575,
 					["w"] = 180,
-					["x"] = 1330,
+					["texture"] = "Healbot",
 				},
 			},
-		},
-		["Focus"] = {
-			["profiles"] = {
-				["DPS"] = {
-					["h"] = 40,
-					["w"] = 180,
-					["y"] = 780,
-					["x"] = 250,
-				},
-				["Default"] = {
-					["x"] = 950.256469726562,
-				},
-				["Healer"] = {
-					["y"] = 780,
-					["h"] = 40,
-					["w"] = 180,
-					["x"] = 250,
-				},
-			},
-		},
-		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 			["profiles"] = {
