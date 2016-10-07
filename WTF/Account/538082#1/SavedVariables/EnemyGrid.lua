@@ -2,6 +2,7 @@
 EnemyGridDB = {
 	["profileKeys"] = {
 		["Mallusof - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
