@@ -16,12 +16,13 @@ EnemyGridDB = {
 				1, -- [4]
 			},
 			["horizontal_gap_size"] = 0,
+			["y"] = -168.025985717773,
 			["x"] = 264.743774414063,
 			["percent_text_color"] = {
 				0.972549019607843, -- [1]
 				[3] = 0.972549019607843,
 			},
-			["frame_range_alpha"] = 0.33254075050354,
+			["only_incombat"] = true,
 			["tank"] = {
 				["colors"] = {
 					["nocombat"] = {
@@ -36,11 +37,9 @@ EnemyGridDB = {
 				["x"] = 0,
 			},
 			["scale"] = 1,
-			["cast_statusbar_bgcolor"] = {
+			["cast_statusbar_color"] = {
 				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				0.724460273981094, -- [4]
+				0.701960784313726, -- [2]
 			},
 			["npc_neutral_color"] = {
 				nil, -- [1]
@@ -54,13 +53,9 @@ EnemyGridDB = {
 				0, -- [3]
 				1, -- [4]
 			},
-			["aura_height"] = 22,
+			["name_text_size"] = 11,
 			["bar_width"] = 115,
 			["aura_width"] = 26,
-			["cast_statusbar_color"] = {
-				nil, -- [1]
-				0.701960784313726, -- [2]
-			},
 			["frame_backdropcolor"] = {
 				0.643137254901961, -- [1]
 				0.643137254901961, -- [2]
@@ -99,7 +94,7 @@ EnemyGridDB = {
 					},
 				},
 			},
-			["name_text_size"] = 11,
+			["aura_height"] = 22,
 			["bar_color"] = {
 				0.980392156862745, -- [1]
 				0, -- [2]
@@ -107,8 +102,13 @@ EnemyGridDB = {
 			},
 			["cast_statusbar_texture"] = "PlaterTexture",
 			["vertical_gap_size"] = 0,
-			["y"] = -168.025985717773,
-			["only_incombat"] = true,
+			["frame_range_alpha"] = 0.33254075050354,
+			["cast_statusbar_bgcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0.724460273981094, -- [4]
+			},
 		},
 	},
 }
