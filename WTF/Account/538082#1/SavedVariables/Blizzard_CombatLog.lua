@@ -63,10 +63,10 @@ Blizzard_CombatLog_Filters = {
 						["r"] = 1,
 					},
 				},
-				["eventColoring"] = {
-				},
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
+				},
+				["eventColoring"] = {
 				},
 				["defaults"] = {
 					["damage"] = {
@@ -155,12 +155,12 @@ Blizzard_CombatLog_Filters = {
 				["schoolNameHighlighting"] = true,
 				["unitBraces"] = true,
 				["noMeleeSwingColoring"] = false,
-				["unitIcons"] = true,
+				["hideBuffs"] = false,
 				["hideDebuffs"] = false,
 				["amountSchoolColoring"] = true,
 				["amountColoring"] = true,
 				["unitColoring"] = true,
-				["hideBuffs"] = false,
+				["unitIcons"] = true,
 				["timestampFormat"] = "%H:%M:%S",
 				["braces"] = true,
 				["actionActorColoring"] = false,
@@ -202,7 +202,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_BUILDING_HEAL"] = true,
 						["SPELL_DISPEL_FAILED"] = true,
 						["SPELL_CAST_FAILED"] = true,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = false,
 						["SPELL_PERIODIC_LEECH"] = true,
 						["SPELL_CAST_SUCCESS"] = true,
 						["ENCHANT_REMOVED"] = true,
@@ -212,7 +212,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_AURA_REMOVED"] = true,
 						["RANGE_MISSED"] = true,
 						["SPELL_HEAL"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = false,
+						["ENCHANT_APPLIED"] = true,
 						["SPELL_AURA_APPLIED"] = true,
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = false,
@@ -327,10 +327,10 @@ Blizzard_CombatLog_Filters = {
 						["r"] = 1,
 					},
 				},
-				["eventColoring"] = {
-				},
 				["highlightedEvents"] = {
 					["PARTY_KILL"] = true,
+				},
+				["eventColoring"] = {
 				},
 				["defaults"] = {
 					["damage"] = {
@@ -419,12 +419,12 @@ Blizzard_CombatLog_Filters = {
 				["schoolNameHighlighting"] = true,
 				["unitBraces"] = true,
 				["noMeleeSwingColoring"] = false,
-				["unitIcons"] = true,
+				["hideBuffs"] = true,
 				["hideDebuffs"] = true,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
 				["unitColoring"] = false,
-				["hideBuffs"] = true,
+				["unitIcons"] = true,
 				["timestampFormat"] = "%H:%M:%S",
 				["braces"] = false,
 				["actionActorColoring"] = false,

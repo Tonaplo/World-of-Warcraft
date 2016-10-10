@@ -34,6 +34,13 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: LEFT
+X: 379
+Y: 32
+W: 249
+H: 189
 Frame: EnemyGrid_ScreenPanel39
 FrameLevel: 20
 Anchor: CENTER
@@ -41,13 +48,6 @@ X: 265
 Y: -168
 W: 80
 H: 18
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: LEFT
-X: 379
-Y: 32
-W: 267
-H: 271
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER
