@@ -1,0 +1,309 @@
+------------------------------------------------------------------------
+r776 | chaoslux | 2016-08-09 23:29:10 +0000 (Tue, 09 Aug 2016) | 1 line
+Changed paths:
+   A /tags/v3.9.9a-776 (from /trunk:775)
+
+Tagging as v3.9.9a-776
+------------------------------------------------------------------------
+r775 | chaoslux | 2016-08-09 23:25:52 +0000 (Tue, 09 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/LUI.toc
+
+- Emergency update to fix broken install
+------------------------------------------------------------------------
+r774 | chaoslux | 2016-08-09 23:22:17 +0000 (Tue, 09 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/addons/recount.lua
+
+- Fixed Install not working with Recount installed.
+------------------------------------------------------------------------
+r772 | chaoslux | 2016-08-09 09:41:53 +0000 (Tue, 09 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/options/general.lua
+   M /trunk/unitframes/options/toggle.lua
+
+- Unitframes: Shadow Priests, DPS Shamans and Boomkins should now be able to see their mana. Options are in DruidMana.
+------------------------------------------------------------------------
+r771 | chaoslux | 2016-08-08 07:45:01 +0000 (Mon, 08 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/unitframes/core/LICENSE
+   M /trunk/unitframes/core/blizzard.lua
+   M /trunk/unitframes/core/colors.lua
+   M /trunk/unitframes/core/elements/altpowerbar.lua
+   M /trunk/unitframes/core/elements/assistant.lua
+   M /trunk/unitframes/core/elements/aura.lua
+   M /trunk/unitframes/core/elements/castbar.lua
+   M /trunk/unitframes/core/elements/classicons.lua
+   M /trunk/unitframes/core/elements/combat.lua
+   M /trunk/unitframes/core/elements/cpoints.lua
+   M /trunk/unitframes/core/elements/druidmana.lua
+   M /trunk/unitframes/core/elements/healprediction.lua
+   M /trunk/unitframes/core/elements/health.lua
+   M /trunk/unitframes/core/elements/leader.lua
+   M /trunk/unitframes/core/elements/lfdrole.lua
+   M /trunk/unitframes/core/elements/masterlooter.lua
+   M /trunk/unitframes/core/elements/picon.lua
+   M /trunk/unitframes/core/elements/portraits.lua
+   M /trunk/unitframes/core/elements/power.lua
+   A /trunk/unitframes/core/elements/powerprediction.lua
+   M /trunk/unitframes/core/elements/pvp.lua
+   M /trunk/unitframes/core/elements/qicon.lua
+   M /trunk/unitframes/core/elements/raidrole.lua
+   M /trunk/unitframes/core/elements/range.lua
+   M /trunk/unitframes/core/elements/readycheck.lua
+   M /trunk/unitframes/core/elements/resting.lua
+   M /trunk/unitframes/core/elements/resurrect.lua
+   M /trunk/unitframes/core/elements/ricons.lua
+   M /trunk/unitframes/core/elements/runebar.lua
+   M /trunk/unitframes/core/elements/stagger.lua
+   M /trunk/unitframes/core/elements/tags.lua
+   M /trunk/unitframes/core/elements/threat.lua
+   M /trunk/unitframes/core/elements/totems.lua
+   M /trunk/unitframes/core/events.lua
+   M /trunk/unitframes/core/factory.lua
+   M /trunk/unitframes/core/finalize.lua
+   M /trunk/unitframes/core/init.lua
+   M /trunk/unitframes/core/oUF.toc
+   M /trunk/unitframes/core/oUF.xml
+   M /trunk/unitframes/core/ouf.lua
+   M /trunk/unitframes/core/private.lua
+   M /trunk/unitframes/core/units.lua
+
+- Unitframes: Updating oUF Core
+------------------------------------------------------------------------
+r770 | chaoslux | 2016-08-08 03:12:13 +0000 (Mon, 08 Aug 2016) | 2 lines
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+
+- Unitframes: Paladins have 5 HoPo baseline, not 3. 
+- Unitframes: Removed priest entries completely.
+------------------------------------------------------------------------
+r769 | chaoslux | 2016-08-06 21:27:08 +0000 (Sat, 06 Aug 2016) | 3 lines
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/LUI.toc
+   M /trunk/LUI.xml
+
+- No longer attempts to load the WorldMap or Nameplates modules. They're very much dead at this point.
+- Updated Patrons.
+- Updated TOC to 3.9.9
+------------------------------------------------------------------------
+r768 | chaoslux | 2016-08-04 01:20:29 +0000 (Thu, 04 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/modules/datatext.lua
+
+- Infotext: Saved Raids will now correctly say the raid difficulty instead of display Normal for most post-MoP raids. 
+------------------------------------------------------------------------
+r767 | chaoslux | 2016-07-30 17:46:59 +0000 (Sat, 30 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Threat/XP: Do not show XP bar if XP is disabled, how have we never checked for that? 
+------------------------------------------------------------------------
+r766 | chaoslux | 2016-07-30 17:33:50 +0000 (Sat, 30 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- XP: Now use Blizzard's MAX_PLAYER_LEVEL instead of a static 100, because Legion. 
+------------------------------------------------------------------------
+r765 | chaoslux | 2016-07-30 17:26:17 +0000 (Sat, 30 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Fixed Division by Zero error if we arent watching a faction at level cap.
+------------------------------------------------------------------------
+r764 | chaoslux | 2016-07-30 06:08:47 +0000 (Sat, 30 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Threat: Changed it a bit to support artifact XP alongside player XP in a double-bar setup similar to V4. 
+------------------------------------------------------------------------
+r763 | chaoslux | 2016-07-30 01:43:23 +0000 (Sat, 30 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/tools/hideblizzard.lua
+
+- Hide the Order Hall Command Bar that appears on top of LUI textures at the top.
+------------------------------------------------------------------------
+r762 | chaoslux | 2016-07-30 00:17:11 +0000 (Sat, 30 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/threatbar.lua
+
+- Threat: Prevent Division by Zero error.
+------------------------------------------------------------------------
+r761 | chaoslux | 2016-07-29 23:30:23 +0000 (Fri, 29 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/LUI.toc
+   M /trunk/addons/grid.lua
+   M /trunk/addons/recount.lua
+   M /trunk/modules/themes.lua
+   M /trunk/modules/tooltip.lua
+   M /trunk/modules/vengeance.lua
+
+- Added Demon Hunter theme.
+------------------------------------------------------------------------
+r759 | chaoslux | 2016-07-22 09:42:37 +0000 (Fri, 22 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/LUI.toc
+
+- Bumping TOC for new release. 
+------------------------------------------------------------------------
+r758 | chaoslux | 2016-07-22 09:36:32 +0000 (Fri, 22 Jul 2016) | 2 lines
+Changed paths:
+   M /trunk/scripts/talentspam.lua
+
+- Fixed error with "Hide Talent Spam" enabled.
+- Since its main function is now part of the default UI (there is no longer spam when changing spec), it has been redesigned to remove the talent spam while quickly swapping talents. 
+------------------------------------------------------------------------
+r757 | chaoslux | 2016-07-21 18:49:40 +0000 (Thu, 21 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/bags.lua
+
+- Fixed regression caused by r756, Banks should be properly updating now.
+------------------------------------------------------------------------
+r756 | chaoslux | 2016-07-21 08:39:19 +0000 (Thu, 21 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/bags.lua
+
+- Bags: Use BAG_UPDATE_DELAYD instead of BAG_UPDATE. Fixes all issues with client freezing when changing gear sets or sorting.
+------------------------------------------------------------------------
+r755 | chaoslux | 2016-07-20 20:42:49 +0000 (Wed, 20 Jul 2016) | 2 lines
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/modules/raidmenu.lua
+   M /trunk/scripts/colourpicker.lua
+
+- Fixed bags' hover texture being pure green.
+- Fixed various other color texture issues.
+------------------------------------------------------------------------
+r754 | chaoslux | 2016-07-19 21:18:14 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/unitframes/options/toggle.lua
+
+- Unitframes: Added Legion checks for Eclipse and also Shadow Orbs just in case.
+------------------------------------------------------------------------
+r753 | chaoslux | 2016-07-19 20:28:43 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/options/toggle.lua
+
+- Unitframes: Fix issues where combo points would appear on target.
+------------------------------------------------------------------------
+r752 | chaoslux | 2016-07-19 20:10:11 +0000 (Tue, 19 Jul 2016) | 3 lines
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/options/colors.lua
+
+- Unitframes: Fixed Death Knight Runes to not longer use RuneTypes. They're all death runes now.
+- Unitframes: Hide unused resource colors.
+- Unitframes: Hide Tapped color.
+------------------------------------------------------------------------
+r751 | chaoslux | 2016-07-19 19:57:55 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/unitframes/core/elements/classicons.lua
+   M /trunk/unitframes/layout/layout.lua
+
+- Unitframes: Fix for seeing resources your spec doesnt have.
+------------------------------------------------------------------------
+r750 | chaoslux | 2016-07-19 18:14:58 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/modules/micromenu.lua
+
+- Micromenu: Fixed the PVPUI error.
+------------------------------------------------------------------------
+r749 | chaoslux | 2016-07-19 17:52:02 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/unitframes/layout/layout.lua
+
+- Fixed a "UnitIsTapped" error I missed last night.
+------------------------------------------------------------------------
+r748 | chaoslux | 2016-07-19 17:48:01 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/LUI.lua
+
+- Core: Fix for "Custom" Resolution. 
+------------------------------------------------------------------------
+r746 | chaoslux | 2016-07-19 09:43:49 +0000 (Tue, 19 Jul 2016) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+- Add BT4 to package. We'll see how that goes.
+------------------------------------------------------------------------
+r745 | chaoslux | 2016-07-19 09:33:38 +0000 (Tue, 19 Jul 2016) | 5 lines
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/unitframes/core/LICENSE
+   M /trunk/unitframes/core/blizzard.lua
+   M /trunk/unitframes/core/colors.lua
+   M /trunk/unitframes/core/elements/altpowerbar.lua
+   M /trunk/unitframes/core/elements/assistant.lua
+   M /trunk/unitframes/core/elements/aura.lua
+   M /trunk/unitframes/core/elements/castbar.lua
+   M /trunk/unitframes/core/elements/classicons.lua
+   M /trunk/unitframes/core/elements/combat.lua
+   M /trunk/unitframes/core/elements/cpoints.lua
+   M /trunk/unitframes/core/elements/druidmana.lua
+   M /trunk/unitframes/core/elements/eclipsebar.lua
+   M /trunk/unitframes/core/elements/healprediction.lua
+   M /trunk/unitframes/core/elements/health.lua
+   M /trunk/unitframes/core/elements/leader.lua
+   M /trunk/unitframes/core/elements/lfdrole.lua
+   M /trunk/unitframes/core/elements/masterlooter.lua
+   M /trunk/unitframes/core/elements/picon.lua
+   M /trunk/unitframes/core/elements/portraits.lua
+   M /trunk/unitframes/core/elements/power.lua
+   M /trunk/unitframes/core/elements/pvp.lua
+   M /trunk/unitframes/core/elements/qicon.lua
+   M /trunk/unitframes/core/elements/raidrole.lua
+   M /trunk/unitframes/core/elements/range.lua
+   M /trunk/unitframes/core/elements/readycheck.lua
+   M /trunk/unitframes/core/elements/resting.lua
+   M /trunk/unitframes/core/elements/resurrect.lua
+   M /trunk/unitframes/core/elements/ricons.lua
+   M /trunk/unitframes/core/elements/runebar.lua
+   M /trunk/unitframes/core/elements/stagger.lua
+   M /trunk/unitframes/core/elements/tags.lua
+   M /trunk/unitframes/core/elements/threat.lua
+   M /trunk/unitframes/core/elements/totems.lua
+   M /trunk/unitframes/core/events.lua
+   M /trunk/unitframes/core/factory.lua
+   M /trunk/unitframes/core/finalize.lua
+   M /trunk/unitframes/core/init.lua
+   M /trunk/unitframes/core/oUF.toc
+   M /trunk/unitframes/core/oUF.xml
+   M /trunk/unitframes/core/ouf.lua
+   M /trunk/unitframes/core/private.lua
+   M /trunk/unitframes/core/units.lua
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/options/colors.lua
+   M /trunk/unitframes/options/general.lua
+   M /trunk/unitframes/options/toggle.lua
+
+- Core: Updated Patrons.
+- Unitframes: Huge ClassIcon update for Legion, it handles HolyPower, SoulShards, ArcaneCharges, Chi and ComboPoints on player. 
+- Unitframes: It always uses the color for the 1st part of a resource now.
+- Unitframes: Hide Eclipse Bar in Legion
+- Unitframes: Rogue and Druid now have Chi options for their combo points. Because code is a mess. 
+------------------------------------------------------------------------
+r744 | chaoslux | 2016-07-19 02:26:35 +0000 (Tue, 19 Jul 2016) | 8 lines
+Changed paths:
+   M /trunk/LUI.lua
+   M /trunk/LUI.toc
+   M /trunk/modules/bags.lua
+   M /trunk/modules/datatext.lua
+   M /trunk/modules/nameplates.lua
+   M /trunk/modules/tooltip.lua
+   M /trunk/tools/hideblizzard.lua
+   M /trunk/unitframes/layout/layout.lua
+   M /trunk/unitframes/plugins/totalabsorb.lua
+
+First in a potential series of Pre-Patch commits:
+- Core: TOC Bump, bumped to version 3.9.7
+- Bags: No longer try to hide Interface options that no longer exists
+- Bags: Fix issue with CooldownFrame in Legion
+- Nameplates: Completely disabled this module in Legion. It fundamentally no longer works.
+- Tooltip: No longer looks for Tapped units.
+- Unitframes: Commented out some spells that have changed.
+- Unitframes: No longer display Totems, Shadow Orbs or Eclipse Bar. Other ressource changes will come later.
+------------------------------------------------------------------------

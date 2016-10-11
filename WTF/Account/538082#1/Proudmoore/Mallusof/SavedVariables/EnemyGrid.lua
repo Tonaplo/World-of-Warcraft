@@ -33,16 +33,16 @@ EnemyGridDBChr = {
 			}, -- [1]
 		},
 	},
-	["specEnabled"] = {
-		[257] = false,
-		[258] = true,
-		[256] = true,
-	},
-	["debuffsBanned"] = {
-	},
 	["spellRangeCheck"] = {
 		[257] = "Smite",
 		[258] = "Mind Blast",
 		[256] = "Smite",
+	},
+	["debuffsBanned"] = {
+	},
+	["specEnabled"] = {
+		[257] = false,
+		[258] = true,
+		[256] = true,
 	},
 }

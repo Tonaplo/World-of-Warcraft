@@ -4,7 +4,7 @@ mOnWDSave = {
 	["miniListScale"] = 1,
 	["reloadOnStart"] = true,
 	["minimap"] = {
-		["minimapPos"] = 339.525618474306,
+		["minimapPos"] = 297.766182915005,
 		["hide"] = false,
 	},
 	["disableConfirmation"] = true,
@@ -13,8 +13,8 @@ mOnWDSave = {
 	["completionistMode"] = false,
 	["blacklist"] = {
 	},
-	["hideList"] = false,
 	["miniListRowCount"] = 25,
+	["hideList"] = false,
 	["disableProgress"] = false,
 	["hideCompletedInstances"] = true,
 }
