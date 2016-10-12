@@ -24,7 +24,7 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1298647003,
+							["Mallusof"] = 1300214829,
 						},
 					},
 				},
@@ -37,11 +37,12 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["Clock"] = {
-						["Time24"] = true,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["Instance"] = {
+						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
 					["FPS"] = {
@@ -50,20 +51,25 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
-						["Enable"] = false,
 					},
-					["DPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["Instance"] = {
+					["Clock"] = {
+						["Time24"] = true,
 						["Font"] = "Prototype",
-						["Enable"] = true,
+					},
+					["CombatLock"] = true,
+					["DPS"] = {
+						["Font"] = "Prototype",
 					},
 				},
 			},
@@ -71,6 +77,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -81,10 +92,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -112,10 +119,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -126,6 +132,14 @@ LUIDB = {
 							["X"] = -310,
 							["General"] = {
 								["Enable"] = true,
+							},
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Font"] = "Prototype",
+								},
 							},
 						},
 						["Point"] = "RIGHT",
@@ -167,9 +181,19 @@ LUIDB = {
 						["ShowV2PartyTextures"] = false,
 					},
 					["Focus"] = {
-						["Point"] = "LEFT",
+						["Castbar"] = {
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Font"] = "Prototype",
+								},
+							},
+						},
 						["Y"] = 248.361129760742,
 						["X"] = 239.659820556641,
+						["Point"] = "LEFT",
 					},
 					["Target"] = {
 						["Castbar"] = {
@@ -179,6 +203,12 @@ LUIDB = {
 									["b"] = 0,
 									["g"] = 0,
 									["r"] = 0.5,
+								},
+								["Bar"] = {
+									["a"] = 0.680000007152557,
+									["r"] = 0,
+									["g"] = 1,
+									["b"] = 0.0705882352941177,
 								},
 							},
 							["Shield"] = {
@@ -193,19 +223,20 @@ LUIDB = {
 							["Text"] = {
 								["Name"] = {
 									["Font"] = "Prototype",
-									["Size"] = 12,
 								},
 								["Time"] = {
 									["Font"] = "Prototype",
-									["Size"] = 12,
+									["Size"] = 15,
 								},
 							},
 							["General"] = {
-								["Width"] = 210,
-								["Y"] = -150,
-								["X"] = 368,
 								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -150,
+								["X"] = 0,
 								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
 							},
 						},
 						["Icons"] = {
@@ -231,9 +262,15 @@ LUIDB = {
 							},
 						},
 						["Bars"] = {
+							["TotalAbsorb"] = {
+								["Enable"] = true,
+							},
 							["Health"] = {
 								["Tapping"] = true,
 								["Color"] = "Gradient",
+							},
+							["HealPrediction"] = {
+								["Enable"] = true,
 							},
 							["ComboPoints"] = {
 								["BackgroundColor"] = {
@@ -318,20 +355,21 @@ LUIDB = {
 					["Player"] = {
 						["Castbar"] = {
 							["General"] = {
-								["Width"] = 210,
-								["Y"] = -150,
-								["X"] = -328,
 								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -200,
+								["X"] = 0,
 								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
 							},
 							["Text"] = {
 								["Name"] = {
 									["Font"] = "Prototype",
-									["Size"] = 12,
 								},
 								["Time"] = {
 									["Font"] = "Prototype",
-									["Size"] = 10,
+									["Size"] = 15,
 								},
 							},
 						},
@@ -357,8 +395,21 @@ LUIDB = {
 								["Texture"] = "Otravi",
 								["Width"] = 200,
 							},
+							["DruidMana"] = {
+								["OverPower"] = false,
+								["Enable"] = false,
+							},
+							["AltPower"] = {
+								["Enable"] = true,
+							},
 							["Health"] = {
 								["Color"] = "Gradient",
+							},
+							["TotalAbsorb"] = {
+								["Enable"] = true,
+							},
+							["HealPrediction"] = {
+								["Enable"] = true,
 							},
 						},
 						["Border"] = {
@@ -425,6 +476,18 @@ LUIDB = {
 			},
 		},
 		["Mirror Bar"] = {
+			["profiles"] = {
+				["Mallusof - Proudmoore"] = {
+					["Text"] = {
+						["Name"] = {
+							["Font"] = "Prototype",
+						},
+						["Time"] = {
+							["Font"] = "Prototype",
+						},
+					},
+				},
+			},
 		},
 		["RemoveThatBuff"] = {
 		},
@@ -558,10 +621,10 @@ LUIDB = {
 						0.6, -- [4]
 					},
 					["bar2"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.6, -- [4]
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0, -- [4]
 					},
 					["dpsborder"] = {
 						0.9, -- [1]
@@ -629,10 +692,10 @@ LUIDB = {
 						0.4, -- [4]
 					},
 					["bar"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.7, -- [4]
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						0, -- [4]
 					},
 				},
 			},
@@ -649,37 +712,37 @@ LUIDB = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
 							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [1]
-							" \"_", -- [2]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [3]
-							" \"_", -- [4]
+							"/bt", -- [2]
+							" \"_", -- [3]
+							"/s \\wa", -- [4]
 							"/bt", -- [5]
 							" \"_", -- [6]
 							"/bt", -- [7]
-							"/wa", -- [8]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [8]
 							"/bt", -- [9]
-							"/wa", -- [10]
-							"/cw Eagleeyé-Proudmoore hahahahaha", -- [11]
-							"/cw Eagleeyé-Proudmoore I'm glad you dont remember me", -- [12]
-							" \"_", -- [13]
-							"/bt", -- [14]
-							" \"_", -- [15]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [16]
-							" \"_", -- [17]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [18]
+							" \"_", -- [10]
+							"/s \\wa", -- [11]
+							"/focus", -- [12]
+							"/bt", -- [13]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [14]
+							"/bt", -- [15]
+							" \"_", -- [16]
+							"/s \\wa", -- [17]
+							"/bt", -- [18]
 							" \"_", -- [19]
 							"/bt", -- [20]
-							" \"_", -- [21]
-							"/bt", -- [22]
-							"/wa", -- [23]
-							"/cw Eagleeyé-Proudmoore hahahahaha", -- [24]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [21]
+							" \"_", -- [22]
+							"/focus", -- [23]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [24]
 							" \"_", -- [25]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [26]
-							" \"_", -- [27]
-							"/bt", -- [28]
-							"/cw Eagleeyé-Proudmoore hahahahaha", -- [29]
+							"/bt", -- [26]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [27]
+							"/focus", -- [28]
+							" \"_", -- [29]
 							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [30]
-							"/bt", -- [31]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [32]
+							" \"_", -- [31]
+							"/bt", -- [32]
 						},
 					},
 				},
@@ -702,8 +765,11 @@ LUIDB = {
 		["Bars"] = {
 			["profiles"] = {
 				["Mallusof - Proudmoore"] = {
-					["SidebarRight1"] = {
-						["IsOpen"] = true,
+					["SidebarLeft2"] = {
+						["Enable"] = true,
+					},
+					["SidebarLeft1"] = {
+						["Enable"] = true,
 					},
 				},
 			},
@@ -757,6 +823,7 @@ LUIDB = {
 			},
 			["General"] = {
 				["HideTalentSpam"] = true,
+				["DamageFont"] = "Prototype",
 			},
 			["Tooltip"] = {
 				["Y"] = -250,

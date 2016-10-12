@@ -893,6 +893,7 @@ Bartender4DB = {
 							},
 						}, -- [6]
 						{
+							["rows"] = 6,
 							["skin"] = {
 								["Colors"] = {
 									["Normal"] = {
@@ -947,18 +948,22 @@ Bartender4DB = {
 								["ID"] = "Darion",
 								["Gloss"] = 0.3,
 							},
+							["enabled"] = true,
 							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 137.326933311268,
-								["x"] = 344.016063367203,
-								["point"] = "LEFT",
-								["scale"] = 0.899999976158142,
+								["y"] = -213.248790899554,
+								["x"] = 20,
+								["point"] = "TOPLEFT",
+								["scale"] = 0.850000023841858,
 							},
+							["fadeoutdelay"] = 0,
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["possess"] = false,
-								["always"] = true,
+								["always"] = false,
+								["vehicleui"] = false,
 							},
 						}, -- [7]
 						{
@@ -1094,9 +1099,9 @@ Bartender4DB = {
 								["Gloss"] = 0.3,
 							},
 							["enabled"] = true,
+							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["hidehotkey"] = true,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 65.2000631850609,
 								["x"] = 30.7749995048876,
@@ -1157,15 +1162,15 @@ Bartender4DB = {
 							},
 							["enabled"] = true,
 							["alpha"] = 0,
+							["version"] = 3,
 							["hidehotkey"] = true,
-							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 65.2000631850609,
 								["x"] = -103.025039458551,
 								["point"] = "RIGHT",
 								["scale"] = 0.850000023841858,
 							},
-							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["custom"] = false,
@@ -1922,15 +1927,15 @@ Bartender4DB = {
 					},
 				},
 				["Mallusof"] = {
-					["fadeoutalpha"] = 1,
 					["fadeoutdelay"] = 1,
+					["version"] = 3,
 					["position"] = {
 						["y"] = -16.5000041118852,
 						["x"] = -82.4999058483729,
 						["point"] = "CENTER",
 						["scale"] = 1,
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 1,
 					["padding"] = 1,
 					["visibility"] = {
 						["possess"] = false,
@@ -2087,7 +2092,7 @@ Bartender4DB = {
 						["point"] = "LEFT",
 						["scale"] = 0.9,
 					},
-					["fadeoutalpha"] = 1,
+					["fadeoutdelay"] = 1,
 					["skin"] = {
 						["Colors"] = {
 							["Normal"] = {
@@ -2142,14 +2147,14 @@ Bartender4DB = {
 						["Gloss"] = 0.3,
 						["ID"] = "Darion",
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 1,
 					["padding"] = 0,
 					["visibility"] = {
 						["nopet"] = false,
 						["possess"] = false,
 						["always"] = false,
 					},
-					["fadeoutdelay"] = 1,
+					["version"] = 3,
 				},
 				["Proudmoore"] = {
 					["version"] = 3,
@@ -2405,15 +2410,15 @@ Bartender4DB = {
 		["Rahran - Proudmoore"] = "Leveling",
 		["Miriyal - Proudmoore"] = "Leveling",
 		["Contumon - Blackhand"] = "Leveling",
-		["Theodor - Emerald Dream"] = "Leveling",
+		["Miriyam - Emerald Dream"] = "Leveling",
 		["Mallusof - Emerald Dream"] = "Leveling",
 		["Amranar - Emerald Dream"] = "Leveling",
 		["Gottagetlia - Aggramar"] = "Leveling",
 		["Granjior - Proudmoore"] = "Leveling",
 		["Prothalon - Emerald Dream"] = "Leveling",
 		["Morifa - Proudmoore"] = "Leveling",
-		["Miriyam - Emerald Dream"] = "Leveling",
 		["Farahn - Proudmoore"] = "Leveling",
+		["Theodor - Emerald Dream"] = "Leveling",
 		["Mallusof - Blackhand"] = "Leveling",
 		["Novgorod - Emerald Dream"] = "Leveling",
 	},
