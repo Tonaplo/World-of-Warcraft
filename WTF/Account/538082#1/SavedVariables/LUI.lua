@@ -20,17 +20,50 @@ LUIDB = {
 			},
 		},
 		["Infotext"] = {
-			["profiles"] = {
-				["Mallusof - Proudmoore"] = {
-					["CombatLock"] = true,
-				},
-			},
 			["realm"] = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1282933818,
+							["Mallusof"] = 1298647003,
 						},
+					},
+				},
+			},
+			["profiles"] = {
+				["Mallusof - Proudmoore"] = {
+					["Durability"] = {
+						["Font"] = "Prototype",
+					},
+					["Guild"] = {
+						["Font"] = "Prototype",
+					},
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
+					["Bags"] = {
+						["Font"] = "Prototype",
+					},
+					["FPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Friends"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Font"] = "Prototype",
+						["Enable"] = false,
+					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Gold"] = {
+						["Font"] = "Prototype",
+					},
+					["CombatLock"] = true,
+					["Instance"] = {
+						["Font"] = "Prototype",
+						["Enable"] = true,
 					},
 				},
 			},
@@ -38,14 +71,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -73,32 +112,26 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
 				["Mallusof - Proudmoore"] = {
 					["Boss"] = {
-						["Point"] = "RIGHT",
 						["Castbar"] = {
 							["X"] = -310,
 							["General"] = {
 								["Enable"] = true,
 							},
 						},
-						["Padding"] = 40,
+						["Point"] = "RIGHT",
 						["Y"] = 46.022289276123,
 						["X"] = -163.149322509766,
+						["Padding"] = 40,
 						["Bars"] = {
 							["Health"] = {
 								["Color"] = "Gradient",
@@ -108,30 +141,30 @@ LUIDB = {
 							},
 						},
 						["Texts"] = {
-							["Name"] = {
-								["Point"] = "LEFT",
-								["RelativePoint"] = "LEFT",
-							},
 							["HealthPercent"] = {
 								["Point"] = "RIGHT",
 								["Enable"] = true,
 								["ShowAlways"] = true,
 								["RelativePoint"] = "RIGHT",
 								["IndividualColor"] = {
-									["r"] = 1,
-									["g"] = 1,
 									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
 								},
 								["Size"] = 17,
+							},
+							["Name"] = {
+								["Point"] = "LEFT",
+								["RelativePoint"] = "LEFT",
 							},
 						},
 					},
 					["Settings"] = {
-						["show_v2_textures"] = false,
-						["ShowV2PartyTextures"] = false,
-						["show_v2_arena_textures"] = false,
 						["show_v2_party_textures"] = false,
+						["show_v2_textures"] = false,
 						["ShowV2ArenaTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["ShowV2PartyTextures"] = false,
 					},
 					["Focus"] = {
 						["Point"] = "LEFT",
@@ -140,19 +173,20 @@ LUIDB = {
 					},
 					["Target"] = {
 						["Castbar"] = {
-							["General"] = {
-								["Width"] = 210,
-								["Y"] = -150,
-								["X"] = 368,
-								["Point"] = "CENTER",
-								["Height"] = 30,
+							["Colors"] = {
+								["Shield"] = {
+									["a"] = 0.1,
+									["b"] = 0,
+									["g"] = 0,
+									["r"] = 0.5,
+								},
 							},
 							["Shield"] = {
 								["BarColor"] = {
 									["a"] = 0.680000007152557,
-									["r"] = 1,
-									["g"] = 0,
 									["b"] = 0.0196078431372549,
+									["g"] = 0,
+									["r"] = 1,
 								},
 								["IndividualColor"] = true,
 							},
@@ -166,13 +200,12 @@ LUIDB = {
 									["Size"] = 12,
 								},
 							},
-							["Colors"] = {
-								["Shield"] = {
-									["a"] = 0.1,
-									["r"] = 0.5,
-									["g"] = 0,
-									["b"] = 0,
-								},
+							["General"] = {
+								["Width"] = 210,
+								["Y"] = -150,
+								["X"] = 368,
+								["Point"] = "CENTER",
+								["Height"] = 30,
 							},
 						},
 						["Icons"] = {
@@ -180,20 +213,8 @@ LUIDB = {
 								["Enable"] = true,
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
-						},
 						["X"] = 350,
 						["Aura"] = {
-							["Buffs"] = {
-								["Num"] = 8,
-								["GrowthX"] = "LEFT",
-								["Enable"] = false,
-								["InitialAnchor"] = "BOTTOMRIGHT",
-								["GrowthY"] = "DOWN",
-							},
 							["Debuffs"] = {
 								["GrowthX"] = "RIGHT",
 								["Enable"] = false,
@@ -201,11 +222,18 @@ LUIDB = {
 								["GrowthY"] = "DOWN",
 								["FadeOthers"] = false,
 							},
+							["Buffs"] = {
+								["Num"] = 8,
+								["GrowthX"] = "LEFT",
+								["Enable"] = false,
+								["InitialAnchor"] = "BOTTOMRIGHT",
+								["GrowthY"] = "DOWN",
+							},
 						},
 						["Bars"] = {
 							["Health"] = {
-								["Color"] = "Gradient",
 								["Tapping"] = true,
+								["Color"] = "Gradient",
 							},
 							["ComboPoints"] = {
 								["BackgroundColor"] = {
@@ -213,14 +241,19 @@ LUIDB = {
 								},
 							},
 						},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
+						},
 						["Texts"] = {
 							["PowerPercent"] = {
 								["Enable"] = true,
 								["Y"] = -15,
 								["IndividualColor"] = {
-									["r"] = 1,
-									["g"] = 1,
 									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
 								},
 								["Size"] = 14,
 							},
@@ -229,36 +262,36 @@ LUIDB = {
 								["RelativePoint"] = "RIGHT",
 								["Size"] = 15,
 							},
+							["Power"] = {
+								["Enable"] = false,
+								["IndividualColor"] = {
+									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
+								},
+							},
 							["Name"] = {
 								["Point"] = "LEFT",
 								["Format"] = "Name",
 								["RelativePoint"] = "LEFT",
 								["Size"] = 15,
 							},
-							["Power"] = {
-								["Enable"] = false,
-								["IndividualColor"] = {
-									["r"] = 1,
-									["g"] = 1,
-									["b"] = 1,
-								},
-							},
 							["Health"] = {
 								["Enable"] = false,
 							},
 							["HealthMissing"] = {
 								["IndividualColor"] = {
-									["r"] = 1,
-									["g"] = 1,
 									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
 								},
 								["Size"] = 15,
 							},
 							["PowerMissing"] = {
 								["IndividualColor"] = {
-									["r"] = 1,
-									["g"] = 1,
 									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
 								},
 								["Size"] = 13,
 							},
@@ -268,11 +301,6 @@ LUIDB = {
 						["Point"] = "RIGHT",
 						["Y"] = -249.999954223633,
 						["X"] = -415.672241210938,
-					},
-					["PetTarget"] = {
-						["Point"] = "LEFT",
-						["Y"] = -243.912719726563,
-						["X"] = 35.2860870361328,
 					},
 					["BossTarget"] = {
 						["Castbar"] = {
@@ -308,20 +336,15 @@ LUIDB = {
 							},
 						},
 						["Icons"] = {
+							["Resting"] = {
+								["Enable"] = true,
+							},
 							["Combat"] = {
 								["Enable"] = true,
 							},
 							["PvP"] = {
 								["Enable"] = true,
 							},
-							["Resting"] = {
-								["Enable"] = true,
-							},
-						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
 						},
 						["Y"] = -200.000091552734,
 						["X"] = -350,
@@ -331,12 +354,17 @@ LUIDB = {
 								["X"] = 25,
 								["Lock"] = false,
 								["Padding"] = 1,
-								["Width"] = 200,
 								["Texture"] = "Otravi",
+								["Width"] = 200,
 							},
 							["Health"] = {
 								["Color"] = "Gradient",
 							},
+						},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["Texts"] = {
 							["Power"] = {
@@ -351,6 +379,15 @@ LUIDB = {
 						},
 					},
 					["Version"] = 3600,
+					["PetTarget"] = {
+						["Point"] = "LEFT",
+						["Y"] = -243.912719726563,
+						["X"] = 35.2860870361328,
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Raid"] = {
 						["Enable"] = false,
 						["Texts"] = {
@@ -358,10 +395,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -383,8 +416,8 @@ LUIDB = {
 						["BGTexture"] = "PlaterBackground",
 						["Color"] = "Individual",
 						["IndividualColor"] = {
-							["r"] = 0,
 							["g"] = 0.666666666666667,
+							["r"] = 0,
 						},
 						["BGMultiplier"] = 0,
 					},
@@ -397,60 +430,24 @@ LUIDB = {
 		},
 		["Merchant"] = {
 		},
-		["Chat"] = {
-			["namespaces"] = {
-				["StickyChannels"] = {
-				},
-				["Buttons"] = {
-				},
-				["EditBox"] = {
-					["factionrealm"] = {
-						["Alliance - Proudmoore"] = {
-							" \"_", -- [1]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [2]
-							" \"_", -- [3]
-							"/bt", -- [4]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [5]
-							" \"_", -- [6]
-							"/bt", -- [7]
-							" \"_", -- [8]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [9]
-							" \"_", -- [10]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [11]
-							" \"_", -- [12]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [13]
-							" \"_", -- [14]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [15]
-							" \"_", -- [16]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [17]
-							" \"_", -- [18]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [19]
-							"/bt", -- [20]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [21]
-							" \"_", -- [22]
-							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [23]
-							" \"_", -- [24]
-							"/bt", -- [25]
-							" \"_", -- [26]
-							"/bt", -- [27]
-							"/wa", -- [28]
-							"/bt", -- [29]
-							"/wa", -- [30]
-							"/cw Eagleeyé-Proudmoore hahahahaha", -- [31]
-							"/cw Eagleeyé-Proudmoore I'm glad you dont remember me", -- [32]
-						},
-					},
-				},
-			},
+		["Auras"] = {
 			["profiles"] = {
 				["Mallusof - Proudmoore"] = {
-					["modules"] = {
-					},
-					["General"] = {
-						["Font"] = {
+					["Buffs"] = {
+						["Duration"] = {
 							["Font"] = "Prototype",
 						},
-						["MinimalistTabs"] = false,
+						["Y"] = -75,
+						["X"] = -200,
+						["Count"] = {
+							["Font"] = "Prototype",
+						},
+						["Anchor"] = "TOPRIGHT",
+					},
+					["Debuffs"] = {
+						["Y"] = -150,
+						["X"] = -200,
+						["Anchor"] = "TOPRIGHT",
 					},
 				},
 			},
@@ -458,19 +455,20 @@ LUIDB = {
 		["Panels"] = {
 			["profiles"] = {
 				["Mallusof - Proudmoore"] = {
-					["Chat"] = {
-						["AlwaysShow"] = true,
+					["MicroMenu"] = {
+						["IsShown"] = true,
 					},
 					["Minimap"] = {
 						["IsShown"] = true,
 					},
-					["MicroMenu"] = {
+					["Chat"] = {
+						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
 				},
 			},
 		},
-		["Fader"] = {
+		["Forte"] = {
 		},
 		["Themes"] = {
 			["profiles"] = {
@@ -505,11 +503,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["bar"] = {
+					["navi_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.7, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu_bg"] = {
 						0.6, -- [1]
@@ -542,23 +540,22 @@ LUIDB = {
 						0, -- [3]
 						0.7, -- [4]
 					},
-					["chatborder"] = {
+					["orb"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+					},
+					["chat2border"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["minimap"] = {
+					["navi"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						1, -- [4]
-					},
-					["editbox"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
+						0.6, -- [4]
 					},
 					["bar2"] = {
 						0.9, -- [1]
@@ -578,25 +575,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
 					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["chat2"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -608,44 +587,126 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["sidebar"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["chat2"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["micromenu"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 					},
-					["navi"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.6, -- [4]
-					},
-					["chat2border"] = {
+					["editbox"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb"] = {
+					["minimap"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
+						1, -- [4]
 					},
-					["navi_hover"] = {
+					["chatborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
+					},
+					["bar"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.7, -- [4]
 					},
 				},
 			},
 		},
-		["Forte"] = {
+		["Fader"] = {
 		},
 		["Micromenu"] = {
 		},
-		["Auras"] = {
+		["Chat"] = {
+			["namespaces"] = {
+				["StickyChannels"] = {
+				},
+				["EditBox"] = {
+					["factionrealm"] = {
+						["Alliance - Proudmoore"] = {
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [1]
+							" \"_", -- [2]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [3]
+							" \"_", -- [4]
+							"/bt", -- [5]
+							" \"_", -- [6]
+							"/bt", -- [7]
+							"/wa", -- [8]
+							"/bt", -- [9]
+							"/wa", -- [10]
+							"/cw Eagleeyé-Proudmoore hahahahaha", -- [11]
+							"/cw Eagleeyé-Proudmoore I'm glad you dont remember me", -- [12]
+							" \"_", -- [13]
+							"/bt", -- [14]
+							" \"_", -- [15]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [16]
+							" \"_", -- [17]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [18]
+							" \"_", -- [19]
+							"/bt", -- [20]
+							" \"_", -- [21]
+							"/bt", -- [22]
+							"/wa", -- [23]
+							"/cw Eagleeyé-Proudmoore hahahahaha", -- [24]
+							" \"_", -- [25]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [26]
+							" \"_", -- [27]
+							"/bt", -- [28]
+							"/cw Eagleeyé-Proudmoore hahahahaha", -- [29]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [30]
+							"/bt", -- [31]
+							" Thanks, not right now. I'm setting up my UI and I'll go to bed in a minute", -- [32]
+						},
+					},
+				},
+				["Buttons"] = {
+				},
+			},
+			["profiles"] = {
+				["Mallusof - Proudmoore"] = {
+					["General"] = {
+						["Font"] = {
+							["Font"] = "Prototype",
+						},
+						["MinimalistTabs"] = false,
+					},
+					["modules"] = {
+					},
+				},
+			},
 		},
 		["Bars"] = {
+			["profiles"] = {
+				["Mallusof - Proudmoore"] = {
+					["SidebarRight1"] = {
+						["IsOpen"] = true,
+					},
+				},
+			},
 		},
 		["Cooldown"] = {
 		},
@@ -661,9 +722,6 @@ LUIDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
-	},
 	["global"] = {
 		["luiconfig"] = {
 			["Mallusof - Proudmoore"] = {
@@ -676,16 +734,19 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
+					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Auras"] = 2,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 	},
 	["profiles"] = {
 		["Default"] = {
