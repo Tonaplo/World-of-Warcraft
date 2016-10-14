@@ -35,12 +35,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 572314067,
 		["Contents"] = "Hero at the start of fight!!\n\nTanks- Face dragons away from raid. Around 7 stacks of the mark debuff tanks will swap dragons while dps and healers remain in the same spot/groups.\n**Taerar only(100 energy): Pick up his mirror image dragons and face them all away from raid\n**!!Lethon only(100 energy): Do not tank swap Ysondre and Lethon while Spirit Shades are up\n\nHealers- Dispel roots(Ysondre @ 100 energy)\n**Taerar only: dispel fog sleeping debuff + dispel fear if possible(Not on normal)\n**Lethon only:dispel shadow burst debuff(that he applies/casts while he is in the air)  if roots aren't needed to be dispelled soon(not on normal)\n\nDps- Kill the adds(if any spawn)>boss\n**Emeriss only: Kill and Interrupt Essence of Corruption. Move away from any adds that die while Emeriss is up in the air(Not on normal)\n**!!!Lethon only: Kill Spirit Shades ASAP while stunning, slowing, etc.\n\nRanged- Spread out in preparation for roots and Get away from purple swirls of death. 1 Ranged will stack in the  nightmare bloom(otherwise adds will spawn).\n\nSplit Group in half(1 tank, half the healers and half the dps) fighting the 2 dragons 45+ yrds away from each other\n\n**Taerar only: Avoid fogs. If he is up in the air use immunities before he casts fear(Not on normal)\n\n**Emeriss only: (100 energy)Spread if you get Volatile Infection. \n\n**Lethon only: Dont stand in Gloom projectils that fall from the sky(Only for the players within his mark)\n\n70% and 40% dragon in the air will switch with dragon on ground\n\n!!!!!!!!!10 stacks of a mark debuff = 30sec stun (Essentially a wipe because it will most likely happen to everyone)\n\nNightmare bloom spawns from Nightmare Blast(purple ball)\n\n**dragon in the air does nothing in normal mode",
 	},
-	[3215089784] = {
-		["Updated"] = 1474509775,
-		["Name"] = "Nythendra",
-		["Id"] = 3215089784,
-		["UpdateId"] = 400624063,
-		["Contents"] = "Tanks - debuff volatile rot, move away form raid when it expires, taunt swap,                                                           drop near green\n\nhealers - high dmg end ph1 and ph2\n\nph1 - stay stacked in melee range beside boss\n         move togteher for breath\n         run behind raid group to drop rot\n\nph2 - dodge grreen pool when she sucks in\n         stay away from bugs\n\ncan't fail mechanics because pools will be everywhere and everytime you do you gain a permanent stacking dot that cannot be dispelled.",
+	[2899211690] = {
+		["Updated"] = 1474509773,
+		["Name"] = "Il'gynoth",
+		["Id"] = 2899211690,
+		["UpdateId"] = 1351219073,
+		["Contents"] = "Tanks - pick up dominator tentacles, dodge ground slam\n            pick up nightmare horror, swap 3 stacks eye of fate\n            interupt mind flay\n\nDPS - DPS Prio - Ichors by eye, deathglare, corruptor, dominator, horror\n         take ichor to eye if fixate on you\n        try not to tank ichor, use stuns and slows\n         interupt mind flay\n         drop nightmare corruption if you have spew corruption away from raid\n         dodge ground slam\n        save major cds for heart\n\nHeals - Tanks take heavy dmg when tanking dominator and horrors\n            use externals on tank for 3rd eye of fate\n           take ichor to eye if fixate on you\n           drop nightmare corruption if you have spew corruption away from raid\n           heal cursed blood targets\n           dodge ground slam\n            dispel high stacks of touch of corruption\n\n\nph1 - kill adds (prio - Ichors by eye, deathglare, corruptor, dominator, horro), kite ichor to eye, drop pools at edge, dodge shit, interupt shit, ALL ADDS DEAD BEFORE ENTERING HEART ROOMS.\n\nph2 - stack in middle, run to edge spread if you get dbuff, pops cds and bur, get out before dark reconstitution finishes or you die.",
 	},
 	[3080827558] = {
 		["Updated"] = 1474509777,
@@ -49,18 +49,18 @@ AngryAssign_Pages = {
 		["UpdateId"] = 61016555,
 		["Contents"] = "Tanks - tank against wall, kite around room for pools\n           taunt when co tank gets debuff and when you lsoe debuff, be quick\n            cds for 2 stacks and for frenzy\n\nDPS - run to center of room 30yrds away for focused gaze\n         soak momentum when your group is up\n         personals for roaring cacaphony\n         all cds during blood frenzy engrage\n \nHealers - heavy tank dmg, specially during 2 stacks and blood frenzy\n              1 healer only on tanksk, all shoulld watch tanks\n              externals on tanks during blood frenzy\n             raid dmg from cacaphony and charge, use cds\n              run to mid 30 yrds for charge\n              soak charge with your group\n\n\nstay within 20 yrds of boss always, use personaly liberallly, wwill have 2 groups for soaking charge, person with charge runs to middle, group soaks charge, rotate soaking, never soak if you have debuff, hard burn phase during blood frenzy",
 	},
-	[2899211690] = {
-		["Updated"] = 1474509773,
-		["Name"] = "Il'gynoth",
-		["Id"] = 2899211690,
-		["UpdateId"] = 1351219073,
-		["Contents"] = "Tanks - pick up dominator tentacles, dodge ground slam\n            pick up nightmare horror, swap 3 stacks eye of fate\n            interupt mind flay\n\nDPS - DPS Prio - Ichors by eye, deathglare, corruptor, dominator, horror\n         take ichor to eye if fixate on you\n        try not to tank ichor, use stuns and slows\n         interupt mind flay\n         drop nightmare corruption if you have spew corruption away from raid\n         dodge ground slam\n        save major cds for heart\n\nHeals - Tanks take heavy dmg when tanking dominator and horrors\n            use externals on tank for 3rd eye of fate\n           take ichor to eye if fixate on you\n           drop nightmare corruption if you have spew corruption away from raid\n           heal cursed blood targets\n           dodge ground slam\n            dispel high stacks of touch of corruption\n\n\nph1 - kill adds (prio - Ichors by eye, deathglare, corruptor, dominator, horro), kite ichor to eye, drop pools at edge, dodge shit, interupt shit, ALL ADDS DEAD BEFORE ENTERING HEART ROOMS.\n\nph2 - stack in middle, run to edge spread if you get dbuff, pops cds and bur, get out before dark reconstitution finishes or you die.",
+	[3215089784] = {
+		["Updated"] = 1474509775,
+		["Name"] = "Nythendra",
+		["Id"] = 3215089784,
+		["UpdateId"] = 400624063,
+		["Contents"] = "Tanks - debuff volatile rot, move away form raid when it expires, taunt swap,                                                           drop near green\n\nhealers - high dmg end ph1 and ph2\n\nph1 - stay stacked in melee range beside boss\n         move togteher for breath\n         run behind raid group to drop rot\n\nph2 - dodge grreen pool when she sucks in\n         stay away from bugs\n\ncan't fail mechanics because pools will be everywhere and everytime you do you gain a permanent stacking dot that cannot be dispelled.",
 	},
 }
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["tree"] = {
+	["window"] = {
 	},
 	["display"] = {
 		["y"] = 124.718292236328,
@@ -69,10 +69,10 @@ AngryAssign_State = {
 		["scale"] = 1,
 		["hidden"] = true,
 	},
-	["window"] = {
-	},
-	["locked"] = true,
 	["directionUp"] = false,
+	["locked"] = true,
+	["tree"] = {
+	},
 }
 AngryAssign_Config = {
 }

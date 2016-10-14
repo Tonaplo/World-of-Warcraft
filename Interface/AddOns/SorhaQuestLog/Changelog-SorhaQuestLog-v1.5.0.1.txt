@@ -1,0 +1,97 @@
+------------------------------------------------------------------------
+r192 | sorha2 | 2016-10-06 16:25:41 +0000 (Thu, 06 Oct 2016) | 1 line
+Changed paths:
+   A /tags/v1.5.0.1 (from /trunk:191)
+
+Tagging as v1.5.0.1
+------------------------------------------------------------------------
+r191 | sorha2 | 2016-10-05 01:59:39 +0000 (Wed, 05 Oct 2016) | 4 lines
+Changed paths:
+   M /trunk/Modules/Achievements.lua
+   M /trunk/Modules/Quests.lua
+   M /trunk/Modules/Scenarios.lua
+
+-Fix for achievements that change colour while not eligible
+-Potential fix for quests constantly playing quest complete sound
+-Fix for affixes not disappearing on instance change
+-Fix for scenario time bars resetting 
+------------------------------------------------------------------------
+r190 | sorha2 | 2016-09-27 12:17:08 +0000 (Tue, 27 Sep 2016) | 1 line
+Changed paths:
+   M /trunk/Modules/Quests.lua
+
+Wake up Jeff before the day is through
+------------------------------------------------------------------------
+r189 | sorha2 | 2016-09-27 12:02:04 +0000 (Tue, 27 Sep 2016) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Modules/Quests.lua
+   M /trunk/Modules/Scenarios.lua
+   M /trunk/Templates.xml
+
+-Added Masque support for quest item buttons
+-First pass at adding support for mythic+ to scenario minion - UNTESTED 
+------------------------------------------------------------------------
+r188 | sorha2 | 2016-09-19 19:23:23 +0000 (Mon, 19 Sep 2016) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Libs
+
+Fix for nil error in options if a minion is disabled
+------------------------------------------------------------------------
+r187 | sorha2 | 2016-09-16 20:26:11 +0000 (Fri, 16 Sep 2016) | 3 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Modules/Achievements.lua
+   M /trunk/Modules/Quests.lua
+   M /trunk/Modules/RemoteQuests.lua
+   M /trunk/Modules/Scenarios.lua
+
+-Added anchoring for remote quests minion
+-More flexable anchoring, try not to loop things, ie Scen->Remote->Achieve->Scen... bad! :P
+-Removed quest log expanding code that was used to resolve GetNumQuestLogEntries() not returning collapsed zones, seems to be working now.
+------------------------------------------------------------------------
+r185 | sorha2 | 2016-09-12 21:49:57 +0000 (Mon, 12 Sep 2016) | 4 lines
+Changed paths:
+   M /trunk/Modules/Achievements.lua
+   M /trunk/Modules/Quests.lua
+   M /trunk/Modules/Scenarios.lua
+
+-Fix for some Meta Achievements
+-Fix for reputation quest nil comparison error.
+-Fix for some quests showing 1/1 when they are not complete
+-Removed debug message accidently left in scenario minion
+------------------------------------------------------------------------
+r184 | sorha2 | 2016-09-07 18:42:10 +0000 (Wed, 07 Sep 2016) | 1 line
+Changed paths:
+   M /trunk/Modules/Quests.lua
+
+Wake up packager, before the day is through
+------------------------------------------------------------------------
+r183 | sorha2 | 2016-09-07 18:20:38 +0000 (Wed, 07 Sep 2016) | 10 lines
+Changed paths:
+   M /trunk/Locales/Locale-enUS.lua
+   M /trunk/Modules/Quests.lua
+
+Added world quests zone. 
+-Shows all world quests you have tracked and any that are active (you're in them)
+-Right click to hide, left click to open map and highlight (active track)
+-Shift click to share details in chat (No quest Link)
+
+Dugi Arrow Support
+-Attempt to make dugi arrow appear when track clicking (ctrl+left default) a quest
+
+Minor objective fixes
+
+------------------------------------------------------------------------
+r182 | sorha2 | 2016-08-30 23:50:48 +0000 (Tue, 30 Aug 2016) | 3 lines
+Changed paths:
+   M /trunk/Locales/Locale-enUS.lua
+   M /trunk/Modules/Quests.lua
+   M /trunk/Modules/Scenarios.lua
+   M /trunk/Templates.xml
+
+-Couple quest bug fixes
+-Added initial support for Scenario Spell buttons.
+--Not to sure how this will work in combat, not hit a good testing situation yet :(
+------------------------------------------------------------------------
