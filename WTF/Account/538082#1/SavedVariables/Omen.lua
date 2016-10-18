@@ -2,8 +2,9 @@
 Omen3DB = {
 	["profileKeys"] = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["profiles"] = {
 		["Amranar - Proudmoore"] = {
@@ -34,10 +35,10 @@ Omen3DB = {
 			},
 			["ShowWith"] = {
 				["UseShowWith"] = false,
-				["PVP"] = true,
+				["HideWhileResting"] = false,
 				["Alone"] = true,
 				["Resting"] = true,
-				["HideWhileResting"] = false,
+				["PVP"] = true,
 				["HideInPVP"] = false,
 			},
 			["VGrip1"] = 155.316689874038,
@@ -57,7 +58,7 @@ Omen3DB = {
 					["g"] = 0.776470588235294,
 					["b"] = 0.776470588235294,
 				},
-				["UseMyBarColor"] = true,
+				["ShowHeadings"] = false,
 				["ShowValue"] = false,
 				["UseClassColors"] = false,
 				["Spacing"] = 1,
@@ -81,7 +82,7 @@ Omen3DB = {
 				},
 				["Font"] = "vibrocen",
 				["Height"] = 25,
-				["ShowHeadings"] = false,
+				["UseMyBarColor"] = true,
 				["FadeBarColor"] = {
 					["r"] = 0.466666666666667,
 					["g"] = 0.466666666666667,
@@ -89,7 +90,7 @@ Omen3DB = {
 				},
 			},
 		},
-		["Mallusof - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 			["MinimapIcon"] = {
 				["hide"] = true,
 			},
@@ -103,15 +104,15 @@ Omen3DB = {
 				["PVP"] = true,
 				["HideInPVP"] = false,
 			},
+			["PositionX"] = 428.618218069226,
+			["VGrip1"] = 155.316689874038,
+			["VGrip2"] = 155.316689874038,
+			["PositionY"] = 224.014743744153,
 			["TitleBar"] = {
 				["ShowTitleBar"] = false,
 				["FontSize"] = 12,
 				["Height"] = 18,
 			},
-			["PositionH"] = 196.984932998413,
-			["VGrip2"] = 155.316689874038,
-			["PositionY"] = 224.014743744153,
-			["PositionX"] = 428.618218069226,
 			["Warnings"] = {
 				["Sound"] = false,
 			},
@@ -132,7 +133,7 @@ Omen3DB = {
 				},
 				["Texture"] = "Solid",
 			},
-			["VGrip1"] = 155.316689874038,
+			["PositionH"] = 196.984932998413,
 			["Bar"] = {
 				["FontSize"] = 13,
 				["FontColor"] = {
@@ -141,23 +142,23 @@ Omen3DB = {
 					["r"] = 0.776470588235294,
 				},
 				["ShowTPS"] = false,
-				["UseClassColors"] = false,
-				["ShowHeadings"] = false,
+				["Font"] = "vibrocen",
+				["UseMyBarColor"] = true,
 				["BarColor"] = {
 					["a"] = 0.890000000596047,
 					["b"] = 0.368627450980392,
 					["g"] = 0.368627450980392,
 					["r"] = 0.368627450980392,
 				},
-				["Spacing"] = 1,
-				["ShowValue"] = false,
-				["Font"] = "vibrocen",
-				["Height"] = 25,
 				["FadeBarColor"] = {
 					["b"] = 0.466666666666667,
 					["g"] = 0.466666666666667,
 					["r"] = 0.466666666666667,
 				},
+				["ShowValue"] = false,
+				["UseClassColors"] = false,
+				["Height"] = 25,
+				["Spacing"] = 1,
 				["MyBarColor"] = {
 					["b"] = 0.592156862745098,
 					["g"] = 0.592156862745098,
@@ -168,11 +169,94 @@ Omen3DB = {
 					["g"] = 0.592156862745098,
 					["r"] = 0.592156862745098,
 				},
-				["UseMyBarColor"] = true,
+				["ShowHeadings"] = false,
 				["Texture"] = "Minimalist",
 			},
 		},
-		["Praerend - Proudmoore"] = {
+		["Mallusof - Proudmoore"] = {
+			["MinimapIcon"] = {
+				["hide"] = true,
+			},
+			["PositionW"] = 198.88604152751,
+			["Shown"] = false,
+			["ShowWith"] = {
+				["Alone"] = true,
+				["Resting"] = true,
+				["UseShowWith"] = false,
+				["HideWhileResting"] = false,
+				["PVP"] = true,
+				["HideInPVP"] = false,
+			},
+			["PositionX"] = 428.618218069226,
+			["VGrip1"] = 155.316689874038,
+			["VGrip2"] = 155.316689874038,
+			["PositionY"] = 224.014743744153,
+			["TitleBar"] = {
+				["ShowTitleBar"] = false,
+				["FontSize"] = 12,
+				["Height"] = 18,
+			},
+			["Warnings"] = {
+				["Sound"] = false,
+			},
+			["Locked"] = true,
+			["Background"] = {
+				["EdgeSize"] = 9,
+				["BorderTexture"] = "None",
+				["Color"] = {
+					["a"] = 0,
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["BorderColor"] = {
+					["a"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["Texture"] = "Solid",
+			},
+			["PositionH"] = 196.984932998413,
+			["Bar"] = {
+				["FontSize"] = 13,
+				["FontColor"] = {
+					["b"] = 0.776470588235294,
+					["g"] = 0.776470588235294,
+					["r"] = 0.776470588235294,
+				},
+				["ShowTPS"] = false,
+				["Font"] = "vibrocen",
+				["UseMyBarColor"] = true,
+				["BarColor"] = {
+					["a"] = 0.890000000596047,
+					["b"] = 0.368627450980392,
+					["g"] = 0.368627450980392,
+					["r"] = 0.368627450980392,
+				},
+				["FadeBarColor"] = {
+					["b"] = 0.466666666666667,
+					["g"] = 0.466666666666667,
+					["r"] = 0.466666666666667,
+				},
+				["ShowValue"] = false,
+				["UseClassColors"] = false,
+				["Height"] = 25,
+				["Spacing"] = 1,
+				["MyBarColor"] = {
+					["b"] = 0.592156862745098,
+					["g"] = 0.592156862745098,
+					["r"] = 0.592156862745098,
+				},
+				["AggroBarColor"] = {
+					["b"] = 0.592156862745098,
+					["g"] = 0.592156862745098,
+					["r"] = 0.592156862745098,
+				},
+				["ShowHeadings"] = false,
+				["Texture"] = "Minimalist",
+			},
+		},
+		["Mallusof - Tichondrius"] = {
 			["MinimapIcon"] = {
 				["hide"] = true,
 			},

@@ -5,6 +5,7 @@ SellOMatic2DB = {
 		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",

@@ -24,8 +24,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -34,8 +34,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -132,8 +132,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 				["Praerend - Emerald Dream"] = {
@@ -860,9 +861,9 @@ Bartender4DB = {
 								["ID"] = "Darion",
 							},
 							["enabled"] = true,
+							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["hidehotkey"] = true,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 65.2000631850609,
 								["x"] = 30.7749995048876,
@@ -899,16 +900,16 @@ Bartender4DB = {
 										0.0117647058823529, -- [3]
 										0, -- [4]
 									},
-									["Border"] = {
-										0.407843137254902, -- [1]
-										0.403921568627451, -- [2]
-										0.411764705882353, -- [3]
-										1, -- [4]
-									},
 									["Backdrop"] = {
 										0.109803921568628, -- [1]
 										0.109803921568628, -- [2]
 										0.109803921568628, -- [3]
+										1, -- [4]
+									},
+									["Border"] = {
+										0.407843137254902, -- [1]
+										0.403921568627451, -- [2]
+										0.411764705882353, -- [3]
 										1, -- [4]
 									},
 									["Highlight"] = {
@@ -943,6 +944,73 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Mallusof - Tichondrius"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499923706055,
+								["x"] = -231.499938964844,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
 				["PRIEST"] = {
 					["actionbars"] = {
 						{
@@ -964,8 +1032,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -974,8 +1042,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1031,8 +1099,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1041,8 +1109,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1072,8 +1140,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 				["Leveling"] = {
@@ -1177,6 +1246,73 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Default"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -167.000030517578,
+								["x"] = -231.499847412109,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 102,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 102,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
 				["Mallusof"] = {
 					["actionbars"] = {
 						{
@@ -1254,8 +1390,8 @@ Bartender4DB = {
 							},
 						}, -- [1]
 						{
-							["hidehotkey"] = true,
 							["version"] = 3,
+							["hidehotkey"] = true,
 							["fadeoutdelay"] = 0,
 							["skin"] = {
 								["ID"] = "Darion",
@@ -1318,7 +1454,7 @@ Bartender4DB = {
 								["Gloss"] = 0.3,
 							},
 							["position"] = {
-								["y"] = 68.378666697633,
+								["y"] = 70.2135933543259,
 								["x"] = -196.774797910221,
 								["point"] = "BOTTOM",
 								["scale"] = 0.850000023841858,
@@ -1403,7 +1539,8 @@ Bartender4DB = {
 							["show"] = "alwayshide",
 						}, -- [3]
 						{
-							["show"] = "alwayshide",
+							["enabled"] = false,
+							["version"] = 3,
 							["hidehotkey"] = true,
 							["skin"] = {
 								["ID"] = "Darion",
@@ -1477,7 +1614,7 @@ Bartender4DB = {
 								["always"] = true,
 								["vehicleui"] = false,
 							},
-							["version"] = 3,
+							["show"] = "alwayshide",
 						}, -- [4]
 						{
 							["enabled"] = false,
@@ -1557,6 +1694,7 @@ Bartender4DB = {
 							["version"] = 3,
 						}, -- [5]
 						{
+							["enabled"] = false,
 							["hidehotkey"] = true,
 							["skin"] = {
 								["ID"] = "Darion",
@@ -1633,11 +1771,7 @@ Bartender4DB = {
 							["version"] = 3,
 						}, -- [6]
 						{
-							["enabled"] = true,
-							["rows"] = 6,
-							["version"] = 3,
-							["fadeoutalpha"] = 0,
-							["fadeoutdelay"] = 0,
+							["hidehotkey"] = true,
 							["skin"] = {
 								["ID"] = "Darion",
 								["Colors"] = {
@@ -1693,18 +1827,17 @@ Bartender4DB = {
 								["Gloss"] = 0.3,
 							},
 							["position"] = {
-								["y"] = -213.248790899554,
-								["x"] = 20,
-								["point"] = "TOPLEFT",
-								["scale"] = 0.850000023841858,
+								["y"] = 137.326933311268,
+								["x"] = 344.016063367203,
+								["point"] = "LEFT",
+								["scale"] = 0.899999976158142,
 							},
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["possess"] = false,
-								["always"] = false,
-								["vehicleui"] = false,
+								["always"] = true,
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 						}, -- [7]
 						{
 							["hidehotkey"] = true,
@@ -1859,14 +1992,14 @@ Bartender4DB = {
 							["enabled"] = true,
 							["rows"] = 6,
 							["alpha"] = 0,
-							["fadeoutdelay"] = 0,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 65.2000631850609,
 								["x"] = -103.025039458551,
 								["point"] = "RIGHT",
 								["scale"] = 0.850000023841858,
 							},
-							["hidehotkey"] = true,
+							["fadeoutdelay"] = 0,
 							["skin"] = {
 								["Gloss"] = 0.3,
 								["Colors"] = {
@@ -1894,16 +2027,16 @@ Bartender4DB = {
 										0.403921568627451, -- [3]
 										1, -- [4]
 									},
-									["Backdrop"] = {
-										0.109803921568628, -- [1]
-										0.109803921568628, -- [2]
-										0.109803921568628, -- [3]
-										1, -- [4]
-									},
 									["Border"] = {
 										0.407843137254902, -- [1]
 										0.403921568627451, -- [2]
 										0.411764705882353, -- [3]
+										1, -- [4]
+									},
+									["Backdrop"] = {
+										0.109803921568628, -- [1]
+										0.109803921568628, -- [2]
+										0.109803921568628, -- [3]
 										1, -- [4]
 									},
 								},
@@ -1918,7 +2051,7 @@ Bartender4DB = {
 								["possess"] = false,
 								["vehicleui"] = false,
 							},
-							["fadeoutalpha"] = 0,
+							["hidehotkey"] = true,
 						}, -- [10]
 					},
 				},
@@ -1943,8 +2076,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1953,8 +2086,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1984,8 +2117,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 				["Proudmoore"] = {
@@ -2009,8 +2143,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -2019,74 +2153,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 102,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 102,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
-				["Default"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -167.000030517578,
-								["x"] = -231.499847412109,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
 							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -2119,6 +2187,72 @@ Bartender4DB = {
 						nil, -- [9]
 						{
 						}, -- [10]
+					},
+				},
+				["Tichondrius"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.499923706055,
+								["x"] = -231.499938964844,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
 					},
 				},
 				["Praerend"] = {
@@ -2198,9 +2332,9 @@ Bartender4DB = {
 							},
 						}, -- [1]
 						{
-							["hidehotkey"] = true,
 							["version"] = 3,
-							["fadeoutdelay"] = 0,
+							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0,
 							["skin"] = {
 								["ID"] = "Darion",
 								["Colors"] = {
@@ -2272,12 +2406,12 @@ Bartender4DB = {
 								["possess"] = false,
 								["always"] = false,
 							},
-							["fadeoutalpha"] = 0,
+							["fadeoutdelay"] = 0,
 						}, -- [2]
 						{
 							["enabled"] = false,
-							["version"] = 3,
 							["hidehotkey"] = true,
+							["version"] = 3,
 							["skin"] = {
 								["ID"] = "Darion",
 								["Colors"] = {
@@ -2717,9 +2851,9 @@ Bartender4DB = {
 						{
 							["enabled"] = true,
 							["rows"] = 6,
-							["fadeoutalpha"] = 0,
 							["hidehotkey"] = true,
-							["fadeoutdelay"] = 0,
+							["fadeoutalpha"] = 0,
+							["version"] = 3,
 							["skin"] = {
 								["ID"] = "Darion",
 								["Colors"] = {
@@ -2792,7 +2926,7 @@ Bartender4DB = {
 								["always"] = false,
 								["vehicleui"] = false,
 							},
-							["version"] = 3,
+							["fadeoutdelay"] = 0,
 						}, -- [9]
 						{
 							["enabled"] = true,
@@ -2833,16 +2967,16 @@ Bartender4DB = {
 										0.403921568627451, -- [3]
 										1, -- [4]
 									},
-									["Backdrop"] = {
-										0.109803921568628, -- [1]
-										0.109803921568628, -- [2]
-										0.109803921568628, -- [3]
-										1, -- [4]
-									},
 									["Border"] = {
 										0.407843137254902, -- [1]
 										0.403921568627451, -- [2]
 										0.411764705882353, -- [3]
+										1, -- [4]
+									},
+									["Backdrop"] = {
+										0.109803921568628, -- [1]
+										0.109803921568628, -- [2]
+										0.109803921568628, -- [3]
 										1, -- [4]
 									},
 								},
@@ -2899,6 +3033,14 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Mallusof - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.499755859375,
+						["point"] = "BOTTOM",
+					},
+				},
 				["PRIEST"] = {
 					["version"] = 3,
 					["position"] = {
@@ -2908,6 +3050,14 @@ Bartender4DB = {
 					},
 				},
 				["Gottagetlia - Aggramar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.999984741211,
+						["x"] = -31.4999389648438,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Praerend - Proudmoore"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.999984741211,
@@ -2947,11 +3097,11 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Praerend - Proudmoore"] = {
+				["Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.999984741211,
-						["x"] = -31.4999389648438,
+						["y"] = 223.000015258789,
+						["x"] = -31.499755859375,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -2981,10 +3131,10 @@ Bartender4DB = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
 					},
 				},
 				["Praerend - Emerald Dream"] = {
@@ -3026,6 +3176,16 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
+				["Mallusof - Tichondrius"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
 				["PRIEST"] = {
 					["padding"] = -2,
 					["version"] = 3,
@@ -3040,10 +3200,10 @@ Bartender4DB = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
 					},
 				},
 				["Leveling"] = {
@@ -3052,6 +3212,15 @@ Bartender4DB = {
 						["y"] = 5.5,
 						["x"] = -5.50000286102295,
 						["point"] = "TOPLEFT",
+						["scale"] = 1,
+					},
+				},
+				["Default"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
 				},
@@ -3088,13 +3257,23 @@ Bartender4DB = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
 					},
 				},
 				["Proudmoore"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Tichondrius"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -3102,15 +3281,6 @@ Bartender4DB = {
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["y"] = 41.75,
-					},
-				},
-				["Default"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
 					},
 				},
 				["Praerend"] = {
@@ -3146,47 +3316,7 @@ Bartender4DB = {
 		},
 		["XPBar"] = {
 			["profiles"] = {
-				["PRIEST"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 57,
-						["x"] = -516,
-						["point"] = "BOTTOM",
-					},
-				},
 				["WARRIOR"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 57,
-						["x"] = -516,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Leveling"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 12,
-						["x"] = -3,
-						["point"] = "BOTTOMLEFT",
-						["scale"] = 0.75,
-					},
-				},
-				["Mallusof"] = {
-					["version"] = 3,
-					["visibility"] = {
-						["possess"] = false,
-					},
-					["position"] = {
-						["y"] = 218.971488047664,
-						["x"] = 398.390317150055,
-						["point"] = "BOTTOMLEFT",
-						["scale"] = 0.9,
-					},
-				},
-				["Default"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -3207,7 +3337,56 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["PRIEST"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 57,
+						["x"] = -516,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Leveling"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12,
+						["x"] = -3,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.75,
+					},
+				},
+				["Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 57,
+						["x"] = -516,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Mallusof"] = {
+					["version"] = 3,
+					["visibility"] = {
+						["possess"] = false,
+					},
+					["position"] = {
+						["y"] = 218.971488047664,
+						["x"] = 398.390317150055,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.9,
+					},
+				},
 				["Proudmoore"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 57,
+						["x"] = -516,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Default"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -3231,6 +3410,17 @@ Bartender4DB = {
 			},
 		},
 		["APBar"] = {
+			["profiles"] = {
+				["Tichondrius"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 73,
+						["x"] = -516,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
@@ -3287,7 +3477,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Proudmoore"] = {
+				["Tichondrius"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -3305,7 +3495,25 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
+				["Proudmoore"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 				["Default"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Mallusof - Tichondrius"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -3375,16 +3583,16 @@ Bartender4DB = {
 								0.984313725490196, -- [3]
 								1, -- [4]
 							},
-							["Backdrop"] = {
-								0.980392156862745, -- [1]
-								1, -- [2]
-								0.968627450980392, -- [3]
-								1, -- [4]
-							},
 							["Border"] = {
 								0.0823529411764706, -- [1]
 								1, -- [2]
 								0.0431372549019608, -- [3]
+								1, -- [4]
+							},
+							["Backdrop"] = {
+								0.980392156862745, -- [1]
+								1, -- [2]
+								0.968627450980392, -- [3]
 								1, -- [4]
 							},
 						},
@@ -3398,6 +3606,14 @@ Bartender4DB = {
 						["y"] = 6.86929371378517,
 						["x"] = 62.9628141489055,
 						["point"] = "LEFT",
+					},
+				},
+				["Mallusof - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
 					},
 				},
 				["PRIEST"] = {
@@ -3422,6 +3638,15 @@ Bartender4DB = {
 						["y"] = 3,
 						["x"] = 299.746704101563,
 						["point"] = "TOPLEFT",
+					},
+				},
+				["Default"] = {
+					["onebag"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Mallusof"] = {
@@ -3454,16 +3679,16 @@ Bartender4DB = {
 								0.980392156862745, -- [3]
 								1, -- [4]
 							},
-							["Backdrop"] = {
-								0.980392156862745, -- [1]
-								1, -- [2]
-								0.968627450980392, -- [3]
-								1, -- [4]
-							},
 							["Border"] = {
 								0.0823529411764706, -- [1]
 								1, -- [2]
 								0.0431372549019608, -- [3]
+								1, -- [4]
+							},
+							["Backdrop"] = {
+								0.980392156862745, -- [1]
+								1, -- [2]
+								0.968627450980392, -- [3]
 								1, -- [4]
 							},
 							["Checked"] = {
@@ -3498,12 +3723,11 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Default"] = {
-					["onebag"] = true,
+				["Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 41.75,
-						["x"] = 463.5,
+						["y"] = 38.5,
+						["x"] = 345,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3537,16 +3761,16 @@ Bartender4DB = {
 								0.980392156862745, -- [3]
 								1, -- [4]
 							},
-							["Backdrop"] = {
-								0.980392156862745, -- [1]
-								1, -- [2]
-								0.968627450980392, -- [3]
-								1, -- [4]
-							},
 							["Border"] = {
 								0.0823529411764706, -- [1]
 								1, -- [2]
 								0.0431372549019608, -- [3]
+								1, -- [4]
+							},
+							["Backdrop"] = {
+								0.980392156862745, -- [1]
+								1, -- [2]
+								0.968627450980392, -- [3]
 								1, -- [4]
 							},
 							["Checked"] = {
@@ -3664,6 +3888,14 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Mallusof - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5001220703125,
+						["x"] = 99.5000610351563,
+						["point"] = "CENTER",
+					},
+				},
 				["PRIEST"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3686,6 +3918,14 @@ Bartender4DB = {
 						["y"] = 124.987449645996,
 						["x"] = -38,
 						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Default"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.4999389648438,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
 					},
 				},
 				["Mallusof"] = {
@@ -3775,30 +4015,17 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Default"] = {
+				["Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.4999389648438,
-						["x"] = 99.5001220703125,
+						["y"] = 47.5001220703125,
+						["x"] = 99.5000610351563,
 						["point"] = "CENTER",
 					},
 				},
 				["Praerend"] = {
-					["version"] = 3,
 					["fadeoutdelay"] = 1,
-					["position"] = {
-						["y"] = -184.129233809593,
-						["x"] = 432.482298123483,
-						["point"] = "LEFT",
-						["scale"] = 0.9,
-					},
-					["fadeoutalpha"] = 1,
-					["padding"] = 0,
-					["visibility"] = {
-						["nopet"] = false,
-						["always"] = false,
-						["possess"] = false,
-					},
+					["version"] = 3,
 					["skin"] = {
 						["Gloss"] = 0.3,
 						["Colors"] = {
@@ -3853,6 +4080,19 @@ Bartender4DB = {
 						},
 						["ID"] = "Darion",
 					},
+					["fadeoutalpha"] = 1,
+					["padding"] = 0,
+					["visibility"] = {
+						["nopet"] = false,
+						["always"] = false,
+						["possess"] = false,
+					},
+					["position"] = {
+						["y"] = -184.129233809593,
+						["x"] = 432.482298123483,
+						["point"] = "LEFT",
+						["scale"] = 0.9,
+					},
 				},
 			},
 		},
@@ -3870,10 +4110,10 @@ Bartender4DB = {
 				["Gorog - Bleeding Hollow"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 116,
 						["x"] = -460,
 						["point"] = "BOTTOM",
-						["y"] = 116,
+						["scale"] = 1,
 					},
 				},
 				["Praerend - Emerald Dream"] = {
@@ -3964,6 +4204,14 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
+				["Mallusof - Tichondrius"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999313354492,
+						["x"] = -82.4999389648438,
+						["point"] = "CENTER",
+					},
+				},
 				["PRIEST"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3986,6 +4234,15 @@ Bartender4DB = {
 						["y"] = 196.348983764648,
 						["x"] = -195.499542236328,
 						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Default"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 135,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
 				["Mallusof"] = {
@@ -4070,31 +4327,37 @@ Bartender4DB = {
 				["Praerend - Proudmoore"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 116,
 						["x"] = -460,
 						["point"] = "BOTTOM",
-						["y"] = 116,
+						["scale"] = 1,
 					},
 				},
 				["Proudmoore"] = {
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 135,
 						["x"] = -460,
 						["point"] = "BOTTOM",
-						["y"] = 135,
+						["scale"] = 1,
 					},
 				},
-				["Default"] = {
+				["Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 135,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
+						["y"] = -14.9999313354492,
+						["x"] = -82.4999389648438,
+						["point"] = "CENTER",
 					},
 				},
 				["Praerend"] = {
+					["position"] = {
+						["y"] = -16.5000041118852,
+						["x"] = -82.4999058483729,
+						["point"] = "CENTER",
+						["scale"] = 1,
+					},
+					["version"] = 3,
 					["skin"] = {
 						["Gloss"] = 0.3,
 						["Colors"] = {
@@ -4155,13 +4418,6 @@ Bartender4DB = {
 						},
 						["ID"] = "Darion",
 					},
-					["fadeoutdelay"] = 1,
-					["position"] = {
-						["y"] = -16.5000041118852,
-						["x"] = -82.4999058483729,
-						["point"] = "CENTER",
-						["scale"] = 1,
-					},
 					["fadeoutalpha"] = 1,
 					["padding"] = 1,
 					["visibility"] = {
@@ -4171,7 +4427,7 @@ Bartender4DB = {
 							false, -- [1]
 						},
 					},
-					["version"] = 3,
+					["fadeoutdelay"] = 1,
 				},
 			},
 		},
@@ -4203,13 +4459,7 @@ Bartender4DB = {
 				},
 				["Amranar"] = {
 					["rows"] = 2,
-					["fadeoutalpha"] = 0,
-					["position"] = {
-						["y"] = 295,
-						["x"] = -195,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 0.899999976158142,
-					},
+					["version"] = 3,
 					["skin"] = {
 						["Colors"] = {
 							["Normal"] = {
@@ -4270,11 +4520,25 @@ Bartender4DB = {
 						["Gloss"] = 0.3,
 						["ID"] = "Darion",
 					},
+					["position"] = {
+						["y"] = 295,
+						["x"] = -195,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 0.899999976158142,
+					},
 					["hidemacrotext"] = true,
 					["visibility"] = {
 						["always"] = false,
 					},
+					["fadeoutalpha"] = 0,
+				},
+				["Mallusof - Tichondrius"] = {
 					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
 				},
 				["PRIEST"] = {
 					["version"] = 3,
@@ -4300,20 +4564,17 @@ Bartender4DB = {
 						["point"] = "TOP",
 					},
 				},
-				["Mallusof"] = {
+				["Default"] = {
 					["version"] = 3,
-					["fadeoutalpha"] = 0,
 					["position"] = {
-						["y"] = 295,
-						["x"] = -195,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 0.899999976158142,
+						["y"] = 135,
+						["x"] = -120,
+						["point"] = "BOTTOM",
 					},
-					["hidemacrotext"] = true,
-					["rows"] = 2,
-					["visibility"] = {
-						["always"] = false,
-					},
+				},
+				["Mallusof"] = {
+					["fadeoutalpha"] = 0,
+					["version"] = 3,
 					["skin"] = {
 						["ID"] = "Darion",
 						["Colors"] = {
@@ -4373,6 +4634,17 @@ Bartender4DB = {
 							},
 						},
 						["Gloss"] = 0.3,
+					},
+					["hidemacrotext"] = true,
+					["rows"] = 2,
+					["visibility"] = {
+						["always"] = false,
+					},
+					["position"] = {
+						["y"] = 295,
+						["x"] = -195,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 0.899999976158142,
 					},
 				},
 				["Praerend - Proudmoore"] = {
@@ -4391,28 +4663,17 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Default"] = {
+				["Tichondrius"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 135,
-						["x"] = -120,
+						["y"] = 143,
+						["x"] = -460,
 						["point"] = "BOTTOM",
 					},
 				},
 				["Praerend"] = {
-					["version"] = 3,
 					["fadeoutalpha"] = 0,
-					["position"] = {
-						["y"] = 295,
-						["x"] = -195,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 0.899999976158142,
-					},
-					["hidemacrotext"] = true,
-					["rows"] = 2,
-					["visibility"] = {
-						["always"] = false,
-					},
+					["version"] = 3,
 					["skin"] = {
 						["ID"] = "Darion",
 						["Colors"] = {
@@ -4473,12 +4734,23 @@ Bartender4DB = {
 						},
 						["Gloss"] = 0.3,
 					},
+					["hidemacrotext"] = true,
+					["rows"] = 2,
+					["visibility"] = {
+						["always"] = false,
+					},
+					["position"] = {
+						["y"] = 295,
+						["x"] = -195,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 0.899999976158142,
+					},
 				},
 			},
 		},
 		["RepBar"] = {
 			["profiles"] = {
-				["PRIEST"] = {
+				["WARRIOR"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4487,7 +4759,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["WARRIOR"] = {
+				["Amranar"] = {
+					["position"] = {
+						["y"] = 9.99997877283215,
+						["x"] = 361.714377491161,
+						["point"] = "LEFT",
+					},
+					["version"] = 3,
+				},
+				["PRIEST"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4506,15 +4786,7 @@ Bartender4DB = {
 						["scale"] = 0.75,
 					},
 				},
-				["Mallusof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 9.99997877283215,
-						["x"] = 361.714377491161,
-						["point"] = "LEFT",
-					},
-				},
-				["Default"] = {
+				["Tichondrius"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4523,15 +4795,24 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Amranar"] = {
+				["Mallusof"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 9.99997877283215,
 						["x"] = 361.714377491161,
 						["point"] = "LEFT",
 					},
-					["version"] = 3,
 				},
 				["Proudmoore"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 65,
+						["x"] = -516,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Default"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4556,28 +4837,29 @@ Bartender4DB = {
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Emerald Dream"] = "Leveling",
 		["Amranar - Proudmoore"] = "Amranar",
+		["Miriyam - Emerald Dream"] = "Leveling",
 		["Morifa - Emerald Dream"] = "Leveling",
 		["Mallusof - Hyjal"] = "Leveling",
-		["Mallusof - Blackhand"] = "Leveling",
+		["Gryliz - Emerald Dream"] = "Leveling",
 		["Fimwack - Proudmoore"] = "Leveling",
 		["Greybone - Proudmoore"] = "Leveling",
-		["Miriyam - Emerald Dream"] = "Leveling",
-		["Faerand - Proudmoore"] = "Leveling",
-		["Contumon - Emerald Dream"] = "Leveling",
-		["Gryliz - Emerald Dream"] = "Leveling",
 		["Theodor - Emerald Dream"] = "Leveling",
-		["Rahran - Proudmoore"] = "Leveling",
+		["Mallusof - Proudmoore"] = "Mallusof",
+		["Contumon - Emerald Dream"] = "Leveling",
+		["Mallusof - Blackhand"] = "Leveling",
 		["Morifa - Proudmoore"] = "Leveling",
+		["Rahran - Proudmoore"] = "Leveling",
+		["Granjior - Proudmoore"] = "Leveling",
 		["Contumon - Blackhand"] = "Leveling",
 		["Farahn - Proudmoore"] = "Leveling",
 		["Mallusof - Emerald Dream"] = "Leveling",
-		["Granjior - Proudmoore"] = "Leveling",
-		["Mallusof - Ysera"] = "Leveling",
+		["Mallusof - Tichondrius"] = "Mallusof",
+		["Gottagetlia - Aggramar"] = "Leveling",
 		["Amranar - Emerald Dream"] = "Leveling",
 		["Prothalon - Emerald Dream"] = "Leveling",
 		["Miriyal - Proudmoore"] = "Leveling",
-		["Gottagetlia - Aggramar"] = "Leveling",
-		["Mallusof - Proudmoore"] = "Mallusof",
+		["Mallusof - Ysera"] = "Leveling",
+		["Faerand - Proudmoore"] = "Leveling",
 		["Praerend - Proudmoore"] = "Praerend",
 		["Novgorod - Emerald Dream"] = "Leveling",
 	},
@@ -4605,6 +4887,11 @@ Bartender4DB = {
 			},
 			["buttonlock"] = true,
 		},
+		["Mallusof - Tichondrius"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
 		["PRIEST"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
@@ -4621,6 +4908,11 @@ Bartender4DB = {
 				["minimapPos"] = 342.943048458802,
 			},
 			["buttonlock"] = true,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Default"] = {
+			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
@@ -4642,7 +4934,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Default"] = {
+		["Tichondrius"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
