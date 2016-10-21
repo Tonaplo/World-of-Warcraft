@@ -12,6 +12,7 @@ LUIDB = {
 		["Bags"] = {
 			["profiles"] = {
 				["Amranar - Proudmoore"] = {
+					["Enable"] = false,
 					["Bags"] = {
 						["CoordX"] = 210.677795410156,
 						["ShowNew"] = true,
@@ -47,22 +48,21 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["Clock"] = {
-						["Time24"] = true,
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -71,14 +71,15 @@ LUIDB = {
 					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["FPS"] = {
+					["Clock"] = {
+						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Bags"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -93,17 +94,15 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
-						["Display"] = 1155,
 					},
 					["Gold"] = {
 						["Font"] = "Prototype",
@@ -111,17 +110,19 @@ LUIDB = {
 					["DPS"] = {
 						["Font"] = "Prototype",
 					},
+					["CombatLock"] = true,
 					["Clock"] = {
 						["Font"] = "Prototype",
 						["Time24"] = true,
 					},
-					["CombatLock"] = true,
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
 						["Font"] = "Prototype",
+						["Display"] = 1155,
 					},
 				},
 				["Praerend - Proudmoore"] = {
@@ -171,14 +172,14 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1432912758,
+							["Mallusof"] = 1459747437,
 						},
 					},
 				},
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Amranar"] = 349978056,
+							["Amranar"] = 395594372,
 							["Praerend"] = 649633604,
 							["Mallusof"] = 1162234125,
 						},
@@ -189,6 +190,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -199,10 +205,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -230,10 +232,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -267,6 +268,10 @@ LUIDB = {
 							},
 						},
 						["Texts"] = {
+							["Name"] = {
+								["Point"] = "LEFT",
+								["RelativePoint"] = "LEFT",
+							},
 							["HealthPercent"] = {
 								["Point"] = "RIGHT",
 								["Enable"] = true,
@@ -279,18 +284,14 @@ LUIDB = {
 								},
 								["Size"] = 17,
 							},
-							["Name"] = {
-								["Point"] = "LEFT",
-								["RelativePoint"] = "LEFT",
-							},
 						},
 					},
 					["Settings"] = {
-						["show_v2_party_textures"] = false,
 						["show_v2_textures"] = false,
-						["ShowV2ArenaTextures"] = false,
-						["show_v2_arena_textures"] = false,
 						["ShowV2PartyTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["show_v2_party_textures"] = false,
+						["ShowV2ArenaTextures"] = false,
 					},
 					["Focus"] = {
 						["Castbar"] = {
@@ -309,19 +310,14 @@ LUIDB = {
 					},
 					["Target"] = {
 						["Castbar"] = {
-							["Colors"] = {
-								["Shield"] = {
-									["a"] = 0.1,
-									["b"] = 0,
-									["g"] = 0,
-									["r"] = 0.5,
-								},
-								["Bar"] = {
-									["a"] = 0.680000007152557,
-									["b"] = 0.0705882352941177,
-									["g"] = 1,
-									["r"] = 0,
-								},
+							["General"] = {
+								["Point"] = "CENTER",
+								["Width"] = 380,
+								["Y"] = -150,
+								["X"] = 0,
+								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
 							},
 							["Shield"] = {
 								["BarColor"] = {
@@ -341,20 +337,25 @@ LUIDB = {
 									["Size"] = 15,
 								},
 							},
-							["General"] = {
-								["Point"] = "CENTER",
-								["Width"] = 380,
-								["Y"] = -150,
-								["X"] = 0,
-								["Height"] = 30,
-								["IndividualColor"] = true,
-								["Icon"] = false,
+							["Colors"] = {
+								["Shield"] = {
+									["a"] = 0.1,
+									["b"] = 0,
+									["g"] = 0,
+									["r"] = 0.5,
+								},
+								["Bar"] = {
+									["a"] = 0.680000007152557,
+									["b"] = 0.0705882352941177,
+									["g"] = 1,
+									["r"] = 0,
+								},
 							},
 						},
-						["Icons"] = {
-							["PvP"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["X"] = 350,
 						["Aura"] = {
@@ -378,8 +379,8 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["Health"] = {
-								["Tapping"] = true,
 								["Color"] = "Gradient",
+								["Tapping"] = true,
 							},
 							["Power"] = {
 								["Color"] = "By Type",
@@ -393,10 +394,10 @@ LUIDB = {
 								},
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
+						["Icons"] = {
+							["PvP"] = {
+								["Enable"] = true,
+							},
 						},
 						["Texts"] = {
 							["PowerPercent"] = {
@@ -449,15 +450,20 @@ LUIDB = {
 							},
 						},
 					},
-					["ToT"] = {
-						["Point"] = "RIGHT",
-						["Y"] = -249.999954223633,
-						["X"] = -415.672241210938,
+					["Raid"] = {
+						["Enable"] = false,
+						["Texts"] = {
+							["HealthPercent"] = {
+								["Enable"] = true,
+							},
+						},
 					},
-					["PetTarget"] = {
-						["Point"] = "LEFT",
-						["Y"] = -243.912719726563,
-						["X"] = 35.2860870361328,
+					["BossTarget"] = {
+						["Castbar"] = {
+							["General"] = {
+								["Enable"] = false,
+							},
+						},
 					},
 					["Layout"] = "Mallusof",
 					["Pet"] = {
@@ -486,16 +492,10 @@ LUIDB = {
 								},
 							},
 						},
-						["Icons"] = {
-							["Resting"] = {
-								["Enable"] = true,
-							},
-							["Combat"] = {
-								["Enable"] = true,
-							},
-							["PvP"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+							["Aggro"] = true,
 						},
 						["Y"] = -200.000091552734,
 						["X"] = -350,
@@ -530,10 +530,16 @@ LUIDB = {
 							["ClassIcons"] = {
 							},
 						},
-						["Border"] = {
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-							["Aggro"] = true,
+						["Icons"] = {
+							["Resting"] = {
+								["Enable"] = true,
+							},
+							["Combat"] = {
+								["Enable"] = true,
+							},
+							["PvP"] = {
+								["Enable"] = true,
+							},
 						},
 						["Texts"] = {
 							["Power"] = {
@@ -548,42 +554,32 @@ LUIDB = {
 						},
 					},
 					["Version"] = 3600,
-					["BossTarget"] = {
-						["Castbar"] = {
-							["General"] = {
-								["Enable"] = false,
-							},
-						},
+					["PetTarget"] = {
+						["Point"] = "LEFT",
+						["Y"] = -243.912719726563,
+						["X"] = 35.2860870361328,
+					},
+					["ToT"] = {
+						["Point"] = "RIGHT",
+						["Y"] = -249.999954223633,
+						["X"] = -415.672241210938,
 					},
 					["Party"] = {
 						["Enable"] = false,
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
 					},
-					["Raid"] = {
-						["Enable"] = false,
-						["Texts"] = {
-							["HealthPercent"] = {
-								["Enable"] = true,
-							},
-						},
-					},
 				},
 				["Mallusof - Proudmoore"] = {
-					["BossTarget"] = {
-						["Castbar"] = {
-							["General"] = {
-								["Enable"] = false,
-							},
-						},
+					["PetTarget"] = {
+						["Y"] = -243.912719726563,
+						["X"] = 35.2860870361328,
+						["Point"] = "LEFT",
 					},
-					["Raid"] = {
-						["Enable"] = false,
-						["Texts"] = {
-							["HealthPercent"] = {
-								["Enable"] = true,
-							},
-						},
+					["ToT"] = {
+						["Y"] = -249.999954223633,
+						["X"] = -415.672241210938,
+						["Point"] = "RIGHT",
 					},
 					["Layout"] = "Mallusof",
 					["Pet"] = {
@@ -596,10 +592,12 @@ LUIDB = {
 						["X"] = 159.210083007813,
 						["Y"] = -55.5457916259766,
 					},
-					["PetTarget"] = {
-						["Y"] = -243.912719726563,
-						["X"] = 35.2860870361328,
-						["Point"] = "LEFT",
+					["BossTarget"] = {
+						["Castbar"] = {
+							["General"] = {
+								["Enable"] = false,
+							},
+						},
 					},
 					["Boss"] = {
 						["Y"] = 46.022289276123,
@@ -629,6 +627,10 @@ LUIDB = {
 							},
 						},
 						["Texts"] = {
+							["Name"] = {
+								["Point"] = "LEFT",
+								["RelativePoint"] = "LEFT",
+							},
 							["HealthPercent"] = {
 								["Point"] = "RIGHT",
 								["RelativePoint"] = "RIGHT",
@@ -641,18 +643,14 @@ LUIDB = {
 								},
 								["Size"] = 17,
 							},
-							["Name"] = {
-								["Point"] = "LEFT",
-								["RelativePoint"] = "LEFT",
-							},
 						},
 					},
 					["Settings"] = {
-						["show_v2_party_textures"] = false,
-						["ShowV2ArenaTextures"] = false,
-						["show_v2_arena_textures"] = false,
-						["ShowV2PartyTextures"] = false,
 						["show_v2_textures"] = false,
+						["ShowV2PartyTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["ShowV2ArenaTextures"] = false,
+						["show_v2_party_textures"] = false,
 					},
 					["Focus"] = {
 						["Y"] = 248.361129760742,
@@ -702,6 +700,15 @@ LUIDB = {
 									["Font"] = "Prototype",
 								},
 							},
+							["General"] = {
+								["Y"] = -150,
+								["X"] = 0,
+								["Point"] = "CENTER",
+								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
+								["Width"] = 380,
+							},
 							["Colors"] = {
 								["Shield"] = {
 									["a"] = 0.1,
@@ -716,28 +723,19 @@ LUIDB = {
 									["r"] = 0,
 								},
 							},
-							["General"] = {
-								["Y"] = -150,
-								["X"] = 0,
-								["Point"] = "CENTER",
-								["Height"] = 30,
-								["IndividualColor"] = true,
-								["Icon"] = false,
-								["Width"] = 380,
-							},
 						},
-						["Border"] = {
-							["Aggro"] = true,
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
+						["Icons"] = {
+							["PvP"] = {
+								["Enable"] = true,
+							},
 						},
 						["Bars"] = {
 							["TotalAbsorb"] = {
 								["Enable"] = true,
 							},
 							["Health"] = {
-								["Tapping"] = true,
 								["Color"] = "Gradient",
+								["Tapping"] = true,
 							},
 							["Power"] = {
 								["Color"] = "By Type",
@@ -751,10 +749,10 @@ LUIDB = {
 								},
 							},
 						},
-						["Icons"] = {
-							["PvP"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["Aggro"] = true,
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
 						},
 						["Texts"] = {
 							["PowerPercent"] = {
@@ -807,10 +805,13 @@ LUIDB = {
 							},
 						},
 					},
-					["ToT"] = {
-						["Y"] = -249.999954223633,
-						["X"] = -415.672241210938,
-						["Point"] = "RIGHT",
+					["Raid"] = {
+						["Enable"] = false,
+						["Texts"] = {
+							["HealthPercent"] = {
+								["Enable"] = true,
+							},
+						},
 					},
 					["Version"] = 3600,
 					["Player"] = {
@@ -841,10 +842,13 @@ LUIDB = {
 								},
 							},
 						},
-						["Border"] = {
-							["Aggro"] = true,
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
+						["Icons"] = {
+							["Combat"] = {
+								["Enable"] = true,
+							},
+							["Resting"] = {
+								["Enable"] = true,
+							},
 						},
 						["Bars"] = {
 							["TotalAbsorb"] = {
@@ -875,16 +879,10 @@ LUIDB = {
 								["Enable"] = true,
 							},
 						},
-						["Icons"] = {
-							["Resting"] = {
-								["Enable"] = true,
-							},
-							["Combat"] = {
-								["Enable"] = true,
-							},
-							["PvP"] = {
-								["Enable"] = true,
-							},
+						["Border"] = {
+							["Aggro"] = true,
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
 						},
 						["Texts"] = {
 							["PowerPercent"] = {
@@ -917,6 +915,94 @@ LUIDB = {
 						["Y"] = 247.184997558594,
 						["X"] = 33.2396621704102,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -350,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -200,
+								["X"] = 0,
+								["Point"] = "CENTER",
+								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
+								["Width"] = 380,
+							},
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Size"] = 15,
+									["Font"] = "Prototype",
+								},
+							},
+						},
+						["Border"] = {
+							["Aggro"] = true,
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+						},
+						["Bars"] = {
+							["AltPower"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Color"] = "Gradient",
+							},
+							["Power"] = {
+								["Color"] = "By Type",
+							},
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Texture"] = "Otravi",
+								["Width"] = 200,
+							},
+							["HealPrediction"] = {
+								["Enable"] = true,
+							},
+							["DruidMana"] = {
+								["Enable"] = false,
+								["OverPower"] = false,
+							},
+							["TotalAbsorb"] = {
+								["Enable"] = true,
+							},
+						},
+						["Icons"] = {
+							["Resting"] = {
+								["Enable"] = true,
+							},
+							["Combat"] = {
+								["Enable"] = true,
+							},
+							["PvP"] = {
+								["Enable"] = true,
+							},
+						},
+						["Texts"] = {
+							["PowerPercent"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Enable"] = false,
+							},
+							["Power"] = {
+								["Enable"] = false,
+							},
+						},
+					},
+					["Raid"] = {
+						["Enable"] = false,
+						["Texts"] = {
+							["HealthPercent"] = {
+								["Enable"] = true,
+							},
+						},
 					},
 					["Boss"] = {
 						["Y"] = 46.022289276123,
@@ -963,19 +1049,6 @@ LUIDB = {
 								["RelativePoint"] = "LEFT",
 							},
 						},
-					},
-					["Raid"] = {
-						["Enable"] = false,
-						["Texts"] = {
-							["HealthPercent"] = {
-								["Enable"] = true,
-							},
-						},
-					},
-					["Party"] = {
-						["Enable"] = false,
-						["X"] = 159.210083007813,
-						["Y"] = -55.5457916259766,
 					},
 					["Version"] = 3600,
 					["Focus"] = {
@@ -1147,85 +1220,10 @@ LUIDB = {
 						["ShowV2PartyTextures"] = false,
 						["show_v2_textures"] = false,
 					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -350,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -200,
-								["X"] = 0,
-								["Point"] = "CENTER",
-								["Height"] = 30,
-								["IndividualColor"] = true,
-								["Icon"] = false,
-								["Width"] = 380,
-							},
-							["Text"] = {
-								["Name"] = {
-									["Font"] = "Prototype",
-								},
-								["Time"] = {
-									["Size"] = 15,
-									["Font"] = "Prototype",
-								},
-							},
-						},
-						["Border"] = {
-							["Aggro"] = true,
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-						},
-						["Bars"] = {
-							["AltPower"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Color"] = "Gradient",
-							},
-							["Power"] = {
-								["Color"] = "By Type",
-							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Texture"] = "Otravi",
-								["Width"] = 200,
-							},
-							["HealPrediction"] = {
-								["Enable"] = true,
-							},
-							["DruidMana"] = {
-								["Enable"] = false,
-								["OverPower"] = false,
-							},
-							["TotalAbsorb"] = {
-								["Enable"] = true,
-							},
-						},
-						["Icons"] = {
-							["Resting"] = {
-								["Enable"] = true,
-							},
-							["Combat"] = {
-								["Enable"] = true,
-							},
-							["PvP"] = {
-								["Enable"] = true,
-							},
-						},
-						["Texts"] = {
-							["PowerPercent"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Enable"] = false,
-							},
-							["Power"] = {
-								["Enable"] = false,
-							},
-						},
+					["Party"] = {
+						["Enable"] = false,
+						["X"] = 159.210083007813,
+						["Y"] = -55.5457916259766,
 					},
 				},
 			},
@@ -1364,79 +1362,80 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/bt", -- [1]
-							"/sql", -- [2]
-							"/wa", -- [3]
-							"/bt", -- [4]
-							"/wa", -- [5]
-							"/bt", -- [6]
-							"/sql", -- [7]
-							"/bt", -- [8]
-							"/sql", -- [9]
+							"/sql", -- [1]
+							"/wa", -- [2]
+							"/reload", -- [3]
+							"/wa", -- [4]
+							"/bt", -- [5]
+							"/sql", -- [6]
+							"/wa", -- [7]
+							"/reload", -- [8]
+							"/bt", -- [9]
 							"/wa", -- [10]
 							"/bt", -- [11]
-							"/wa", -- [12]
+							"/sql", -- [12]
 							"/bt", -- [13]
 							"/sql", -- [14]
 							"/wa", -- [15]
-							"/bt", -- [16]
+							"/reload", -- [16]
 							"/wa", -- [17]
 							"/bt", -- [18]
 							"/sql", -- [19]
-							"/bt", -- [20]
-							"/sql", -- [21]
-							"/wa", -- [22]
-							"/bt", -- [23]
-							"/wa", -- [24]
-							"/bt", -- [25]
-							"/sql", -- [26]
+							"/wa", -- [20]
+							"/reload", -- [21]
+							"/bt", -- [22]
+							"/wa", -- [23]
+							"/bt", -- [24]
+							"/sql", -- [25]
+							"/wa", -- [26]
 							"/bt", -- [27]
-							"/sql", -- [28]
-							"/s dude", -- [29]
-							"/s wow", -- [30]
-							"/s DUDE", -- [31]
-							"/s REALLY", -- [32]
+							"/wa", -- [28]
+							"/bt", -- [29]
+							"/sql", -- [30]
+							"/bt", -- [31]
+							"/sql", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/raid more rolls?", -- [1]
-							"/g Sorry about that, guys. It was just with the freaking Addons and the game getting corrupted and spending every moment between bosses fixing broken UI and generally performing like shit kinda pisses me off. Was nice to play decently on Xavius at least. ", -- [2]
-							"/wa", -- [3]
-							"/RANGE 8", -- [4]
-							"/cw Kalithumos I have nothing :(", -- [5]
-							"/raid That too", -- [6]
-							"/g Ebal is terrible", -- [7]
-							"/g Yeah, I'm agreeing about that feral", -- [8]
-							"/g Was like", -- [9]
-							"/g or run into his rot", -- [10]
-							"/g thanks a lot", -- [11]
-							"/ROLL", -- [12]
-							"/raid I completely fucked up. This entire raid has just been a complete fucking shitfest for me.", -- [13]
-							"/raid caps", -- [14]
-							"/g Sorry about that, guys. It was just with the freaking Addons and the game getting corrupted and spending every moment between bosses fixing broken UI and generally performing like shit kinda pisses me off. Was nice to play decently on Xavius at least. ", -- [15]
-							"/RANGE 8", -- [16]
-							"/raid That too", -- [17]
-							"/g Yeah, I'm agreeing about that feral", -- [18]
-							"/g or run into his rot", -- [19]
-							"/ROLL", -- [20]
-							"/raid caps", -- [21]
-							"/RANGE 8", -- [22]
-							"/g Yeah, I'm agreeing about that feral", -- [23]
-							"/ROLL", -- [24]
-							"/RANGE 8", -- [25]
-							"/ROLL", -- [26]
-							"/g wtf", -- [27]
-							"/g turned in random quest", -- [28]
-							"/g  |cffa335ee|Hitem:138222::::::::110:257::5:3:1805:1502:3337:::|h[Vial of Nightmare Fog]|h|r", -- [29]
-							"/macro", -- [30]
-							"/rt", -- [31]
-							"/bt", -- [32]
+							"/2 TTFAF", -- [1]
+							"/wa", -- [2]
+							" \\wa", -- [3]
+							" that's awesome :P", -- [4]
+							"/p yeah, I've heard that too", -- [5]
+							"/p ready", -- [6]
+							"/p res", -- [7]
+							"/p thanks for the run", -- [8]
+							"/p tahnks a lot!", -- [9]
+							"/g thanks a lot", -- [10]
+							"/s going for 3 chest ye", -- [11]
+							"/p googo", -- [12]
+							"/p I could use that for Show", -- [13]
+							"/g gz", -- [14]
+							"/p not yet", -- [15]
+							"/p where are you?", -- [16]
+							"/s fuck yalll", -- [17]
+							"/wa", -- [18]
+							" that's awesome :P", -- [19]
+							"/p ready", -- [20]
+							"/p thanks for the run", -- [21]
+							"/g thanks a lot", -- [22]
+							"/p googo", -- [23]
+							"/g gz", -- [24]
+							"/p where are you?", -- [25]
+							"/wa", -- [26]
+							"/p ready", -- [27]
+							"/g thanks a lot", -- [28]
+							"/g gz", -- [29]
+							"/wa", -- [30]
+							"/g thanks a lot", -- [31]
+							"/wa", -- [32]
 						},
 					},
 				},
 			},
 			["profiles"] = {
 				["Amranar - Proudmoore"] = {
-					["y"] = 46.0000018399687,
+					["modules"] = {
+					},
 					["x"] = 27.9999974495862,
 					["General"] = {
 						["Font"] = {
@@ -1444,8 +1443,7 @@ LUIDB = {
 						},
 						["MinimalistTabs"] = false,
 					},
-					["modules"] = {
-					},
+					["y"] = 46.0000018399687,
 				},
 				["Praerend - Proudmoore"] = {
 					["y"] = 46.0000018399687,
@@ -1460,8 +1458,7 @@ LUIDB = {
 					},
 				},
 				["Mallusof - Proudmoore"] = {
-					["modules"] = {
-					},
+					["y"] = 46.0000018399687,
 					["x"] = 27.9999974495862,
 					["General"] = {
 						["MinimalistTabs"] = false,
@@ -1469,7 +1466,8 @@ LUIDB = {
 							["Font"] = "Prototype",
 						},
 					},
-					["y"] = 46.0000018399687,
+					["modules"] = {
+					},
 				},
 				["Mallusof - Tichondrius"] = {
 					["modules"] = {
@@ -1505,6 +1503,7 @@ LUIDB = {
 				["Mallusof - Proudmoore"] = {
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 					["Minimap"] = {
 						["IsShown"] = true,
@@ -2276,6 +2275,7 @@ LUIDB = {
 				["Mallusof - Proudmoore"] = {
 					["SidebarLeft1"] = {
 						["Enable"] = true,
+						["IsOpen"] = true,
 					},
 					["SidebarRight1"] = {
 						["IsOpen"] = true,
@@ -2444,7 +2444,6 @@ LUIDB = {
 			["Tooltip"] = {
 				["Y"] = -250,
 				["X"] = 0,
-				["Hidecombat"] = true,
 			},
 		},
 		["Mallusof - Proudmoore"] = {
@@ -2454,7 +2453,6 @@ LUIDB = {
 			["Tooltip"] = {
 				["Y"] = -250,
 				["X"] = 0,
-				["Hidecombat"] = true,
 			},
 			["General"] = {
 				["DamageFont"] = "Prototype",
