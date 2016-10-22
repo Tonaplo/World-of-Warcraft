@@ -2,10 +2,10 @@
 CanIMogItOptions = {
 	["showEquippableOnly"] = true,
 	["version"] = "1.5",
-	["showItemIconOverlay"] = true,
+	["showVerboseText"] = true,
 	["showUnknownOnly"] = false,
 	["showTransmoggableOnly"] = false,
-	["showVerboseText"] = true,
+	["showItemIconOverlay"] = true,
 	["debug"] = false,
 }
 CanIMogItDatabase = nil
