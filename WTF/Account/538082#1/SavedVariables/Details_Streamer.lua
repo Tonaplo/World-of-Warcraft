@@ -1,8 +1,9 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
 		["Praerend - Proudmoore"] = "Mallusof - Proudmoore",
+		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
+		["Farahn - Proudmoore"] = "Mallusof - Proudmoore",
 		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Proudmoore",
 	},

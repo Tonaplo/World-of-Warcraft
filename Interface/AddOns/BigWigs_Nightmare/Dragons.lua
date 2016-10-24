@@ -35,17 +35,13 @@ local markStacks = {
 	[203121] = 0, -- Mark of Taerar
 }
 local mythicAdd = 1
-
---------------------------------------------------------------------------------
--- Localization
---
-
-local L = mod:GetLocale()
+local infectionMarkerCount = 1
 
 --------------------------------------------------------------------------------
 -- Initialization
 --
 
+local infectionMarker = mod:AddMarkerOption(false, "player", 1, 203787, 1, 2, 3, 4) -- Volatile Infection
 function mod:GetOptions()
 	return {
 		--[[ General ]]--
@@ -60,9 +56,10 @@ function mod:GetOptions()
 
 		--[[ Emeriss ]]--
 		{203787, "PROXIMITY", "SAY"}, -- Volatile Infection
+		infectionMarker,
 		205298, -- Essence of Corruption
 		205300, -- Corruption
-		205528, -- Corruption of the Dream
+		204245, -- Corruption of the Dream
 
 		--[[ Lethon ]]--
 		203888, -- Spihon Spirit
@@ -76,14 +73,14 @@ function mod:GetOptions()
 		204078, -- Bellowing Roar
 
 		--[[ Mythic ]]--
-		214497, -- Nightmare Souls (Adds spawning in Hinterlands etc)
+		-13460, -- Lumbering Mindgorger
 	},{
 		[203028] = "general",
 		[207573] = -12768, -- Ysondre
 		[203787] = -12770, -- Emeriss
 		[203888] = -12772, -- Lethon
 		[204100] = -12774, -- Taerar
-		[214497] = "mythic",
+		[-13460] = "mythic",
 	}
 end
 
@@ -116,7 +113,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "BellowingRoar", 204078)
 
 	--[[ Mythic ]]--
-	self:Log("SPELL_AURA_APPLIED", "NightmareSouls", 214497)
+	self:Log("SPELL_AURA_APPLIED", "NightmareSouls", 214497) -- Add spawn
 end
 
 function mod:OnEngage()
@@ -132,6 +129,7 @@ function mod:OnEngage()
 		[203121] = 0, -- Mark of Taerar
 	}
 	mythicAdd = 1
+	infectionMarkerCount = 1
 	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT")
 	self:INSTANCE_ENCOUNTER_ENGAGE_UNIT()
 	self:Bar(203028, 17) -- Corrupted Breath
@@ -194,7 +192,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(unit, _, _, _, spellId)
 	elseif spellId == 205331 then -- Taerar: Seeping Fog
 		self:Message(205341, "Urgent", "Alarm")
 	elseif spellId == 205528 then -- Emeriss: Corruption of the Dream
-		self:Message(spellId, "Attention", "Alarm")
+		self:Message(204245, "Attention", "Alarm")
 	end
 end
 
@@ -274,6 +272,12 @@ do
 			self:Bar(args.spellId, 45)
 		end
 
+		if self:GetOption(infectionMarker) then
+			SetRaidTarget(args.destName, infectionMarkerCount)
+			infectionMarkerCount = infectionMarkerCount + 1
+			if infectionMarkerCount > 4 then infectionMarkerCount = 1 end
+		end
+
 		if self:Me(args.destGUID) then
 			self:Say(args.spellId)
 			self:OpenProximity(args.spellId, 10)
@@ -286,6 +290,9 @@ function mod:VolatileInfectionRemoved(args)
 	if self:Me(args.destGUID) then
 		self:CloseProximity(args.spellId)
 		self:StopBar(args.spellId, args.destName)
+	end
+	if self:GetOption(infectionMarker) then
+		SetRaidTarget(args.destName, 0)
 	end
 end
 
@@ -347,6 +354,6 @@ end
 function mod:NightmareSouls(args)
 	local spell = mythicAdd == 1 and 214610 or mythicAdd == 2 and 214588 or 214604 -- Dream Essence: Hinterlands / Ashenvale / Feralas
 	local percentage = mythicAdd == 1 and "90% - " or mythicAdd == 2 and "60% - " or "30% - "
-	self:Message(args.spellId, "Neutral", "Long", percentage .. self:SpellName(spell), spell)
+	self:Message(-13460, "Neutral", "Long", percentage .. self:SpellName(spell), spell)
 	mythicAdd = mythicAdd + 1
 end

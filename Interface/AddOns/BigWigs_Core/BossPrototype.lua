@@ -18,7 +18,7 @@
 -- @usage local mod, CL = BigWigs:NewBoss("Archimonde", 1026, 1438)
 
 local L = LibStub("AceLocale-3.0"):GetLocale("BigWigs: Common")
-local UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitDistanceSquared, UnitIsConnected = UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitDistanceSquared, UnitIsConnected
+local UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitIsConnected = UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitIsConnected
 local EJ_GetSectionInfo, GetSpellInfo, GetSpellTexture, IsSpellKnown = EJ_GetSectionInfo, GetSpellInfo, GetSpellTexture, IsSpellKnown
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
 local SendChatMessage, GetInstanceInfo = BigWigsLoader.SendChatMessage, BigWigsLoader.GetInstanceInfo
@@ -229,6 +229,7 @@ function boss:OnDisable(isWipe)
 	self.scheduledMessages = nil
 	self.scheduledScans = nil
 	self.scheduledScansCounter = nil
+	self.targetEventFunc = nil
 	self.isWiping = nil
 	self.isEngaged = nil
 
@@ -263,6 +264,31 @@ function boss:GetLocale()
 	return self.localization
 end
 boss.NewLocale = boss.GetLocale
+
+--- Create a custom marking option
+-- @param state Boolean value to represent default state
+-- @param markType The type of string to return (player, npc)
+-- @param icon An icon id to be used for the option texture
+-- @param id The spell id or journal id to be translated into a name for the returned string
+-- @param ... a series of raid icons being used by the marker function e.g. (1, 2, 3)
+-- @return an option string to be used in conjuction with :GetOption
+function boss:AddMarkerOption(state, markType, icon, id, ...)
+	local l = self:GetLocale()
+	local str = ""
+	for i = 1, select("#", ...) do
+		local num = select(i, ...)
+		local icon = format("|T13700%d:15|t", num)
+		str = str .. icon
+	end
+
+	local option = format(state and "custom_on_%d" or "custom_off_%d", id)
+	l[option] = format(L.marker, spells[id])
+	l[option.."_desc"] = format(markType == "player" and L.marker_player_desc or L.marker_npc_desc, spells[id], str)
+	if icon then
+		l[option.."_icon"] = icon
+	end
+	return option
+end
 
 -------------------------------------------------------------------------------
 -- Enable triggers
@@ -776,6 +802,32 @@ do
 	end
 end
 
+do
+	function boss:UPDATE_MOUSEOVER_UNIT(event)
+		self[self.targetEventFunc](self, event, "mouseover")
+	end
+	function boss:UNIT_TARGET(event, unit)
+		self[self.targetEventFunc](self, event, unit.."target")
+	end
+	--- Register a set of events commonly used for raid marking functionality and pass the unit to a designated function.
+	-- UPDATE_MOUSEOVER_UNIT, UNIT_TARGET, NAME_PLATE_UNIT_ADDED.
+	-- @param func callback function, passed (event, unit)
+	function boss:RegisterTargetEvents(func)
+		if self[func] then
+			self.targetEventFunc = func
+			self:RegisterEvent("UPDATE_MOUSEOVER_UNIT")
+			self:RegisterEvent("UNIT_TARGET")
+			self:RegisterEvent("NAME_PLATE_UNIT_ADDED", func)
+		end
+	end
+	--- Unregister the events registered by `RegisterTargetEvents`.
+	function boss:UnregisterTargetEvents()
+		self:UnregisterEvent("UPDATE_MOUSEOVER_UNIT")
+		self:UnregisterEvent("UNIT_TARGET")
+		self:UnregisterEvent("NAME_PLATE_UNIT_ADDED")
+	end
+end
+
 function boss:EncounterEnd(event, id, name, diff, size, status)
 	if self.engageId == id and self.enabledState then
 		if status == 1 then
@@ -871,23 +923,14 @@ do
 	end
 end
 
---- [IN FLUX] Get the distance between two group members.
+--- [DEPRECATED] Get the distance between two group members.
 -- Warning, this API will need to change in according to WoW 7.1 range regulations, do not rely on it.
 -- @param player the first player to check
 -- @param[opt="player"] otherPlayer second player to check
 -- @return distance
 function boss:Range(player, otherPlayer)
-	if not otherPlayer then
-		local distanceSquared = UnitDistanceSquared(player)
-		return distanceSquared == 0 and 200 or distanceSquared ^ 0.5
-	else
-		local ty, tx = UnitPosition(player)
-		local py, px = UnitPosition(otherPlayer)
-		local dx = tx - px
-		local dy = ty - py
-		local distance = (dx * dx + dy * dy) ^ 0.5
-		return distance
-	end
+	BigWigs:Print("The :Range API is deprecated.")
+	return 200
 end
 
 --- Check if you're the only person inside an instance, despite being in a group or not.
@@ -1048,6 +1091,7 @@ do
 			local spell = spellList[i]
 			if IsSpellKnown(spell) then
 				canInterrupt = spell -- XXX check for cooldown also?
+				break
 			end
 		end
 	end
@@ -1056,8 +1100,11 @@ do
 	-- @return boolean
 	function boss:Interrupter(guid)
 		-- We will probably need to make this smarter
-		if canInterrupt and guid and (UnitGUID("target") == guid or UnitGUID("focus") == guid) then
-			return true
+		if guid then
+			if canInterrupt and (UnitGUID("target") == guid or UnitGUID("focus") == guid) then
+				return canInterrupt
+			end
+			return
 		end
 		return canInterrupt
 	end
@@ -1165,6 +1212,29 @@ function boss:CloseAltPower(key)
 end
 
 -------------------------------------------------------------------------------
+-- InfoBox.
+-- @section InfoBox
+--
+
+function boss:SetInfo(key, line, text)
+	if checkFlag(self, key, C.INFOBOX) then
+		self:SendMessage("BigWigs_SetInfoBoxLine", self, line, type(text) == "number" and spells[text] or text)
+	end
+end
+
+function boss:OpenInfo(key)
+	if checkFlag(self, key, C.INFOBOX) then
+		self:SendMessage("BigWigs_ShowInfoBox", self)
+	end
+end
+
+function boss:CloseInfo(key)
+	if checkFlag(self, key, C.INFOBOX) then
+		self:SendMessage("BigWigs_HideInfoBox", self)
+	end
+end
+
+-------------------------------------------------------------------------------
 -- Proximity.
 -- @section proximity
 --
@@ -1249,17 +1319,14 @@ function boss:Message(key, color, sound, text, icon)
 	end
 end
 
---- Display a range warning message.
+--- [DEPRECATED] Display a range warning message.
 -- @param key the option key
 -- @param[opt] color the message color category
 -- @param[opt] sound the message sound
 -- @param[opt] text the message text (if nil, key is used)
 -- @param[opt] icon the message icon (spell id or texture name)
 function boss:RangeMessage(key, color, sound, text, icon)
-	if not checkFlag(self, key, C.MESSAGE) then return end
-	local textType = type(text)
-	self:SendMessage("BigWigs_Message", self, key, format(L.near, textType == "string" and text or spells[text or key]), color == nil and "Personal" or color, icon ~= false and icons[icon or textType == "number" and text or key])
-	self:SendMessage("BigWigs_Sound", self, key, sound == nil and "Alarm" or sound)
+	BigWigs:Print("The :RangeMessage API is deprecated.")
 end
 
 do

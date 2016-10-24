@@ -12,7 +12,7 @@ L.cast = "<Cast: %s>"
 L.casting = "Casting %s!"
 L.soon = "%s soon!"
 L.count = "%s (%d)"
-L.count_icon = "%s (%d|TInterface\\TARGETINGFRAME\\UI-RaidTargetingIcon_%d.blp:0|t)"
+L.count_icon = "%s (%d|T13700%d:0|t)"
 L.count_rticon = "%s (%d{rt%d})"
 L.near = "%s near YOU!"
 
@@ -59,3 +59,7 @@ L.custom_sec = "%s in %d sec!"
 L.focus_only = "|cffff0000Focus target alerts only.|r "
 L.trash = "Trash"
 
+-- Common raid marking locale
+L.marker = "%s Marker"
+L.marker_player_desc = "Mark players affected by %s with %s, requires promoted or leader."
+L.marker_npc_desc = "Mark %s with %s, requires promoted or leader."

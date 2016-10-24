@@ -9,7 +9,7 @@ local GetSpellInfo, GetSpellTexture, GetSpellDescription, EJ_GetSectionInfo = Ge
 local type, next, tonumber, gsub, lshift, band = type, next, tonumber, gsub, bit.lshift, bit.band
 
 -- Option bitflags
-local coreToggles = { "BAR", "MESSAGE", "ICON", "PULSE", "SOUND", "SAY", "PROXIMITY", "FLASH", "ME_ONLY", "EMPHASIZE", "TANK", "HEALER", "TANK_HEALER", "DISPEL", "ALTPOWER", "VOICE", "COUNTDOWN"}
+local coreToggles = { "BAR", "MESSAGE", "ICON", "PULSE", "SOUND", "SAY", "PROXIMITY", "FLASH", "ME_ONLY", "EMPHASIZE", "TANK", "HEALER", "TANK_HEALER", "DISPEL", "ALTPOWER", "VOICE", "COUNTDOWN", "INFOBOX" }
 for i, toggle in next, coreToggles do
 	C[toggle] = lshift(1, i - 1)
 	if L[toggle] then
@@ -19,7 +19,7 @@ for i, toggle in next, coreToggles do
 end
 
 -- Toggles that should actually be shown in the interface options
-local listToggles = { "MESSAGE", "FLASH", "BAR", "ICON", "SAY", "PROXIMITY", "ALTPOWER", "VOICE" }
+local listToggles = { "MESSAGE", "FLASH", "BAR", "ICON", "SAY", "PROXIMITY", "ALTPOWER", "VOICE", "INFOBOX" }
 local roleToggles = { "TANK", "HEALER", "TANK_HEALER", "DISPEL" }
 
 local used = nil
@@ -153,7 +153,7 @@ function BigWigs:GetBossOptionDetails(module, bossOption)
 					description = gsub(description, "{(%-?%d-)}", replaceIdWithDescription) -- Allow embedding an id in a string.
 					description = gsub(description, "{focus}", CL.focus_only) -- Allow embedding the focus prefix.
 				end
-				description = roleDesc.. gsub(description, "{rt(%d)}", "\124T13700%1:15\124t")
+				description = roleDesc.. gsub(description, "{rt(%d)}", "|T13700%1:15|t")
 			end
 			local icon = L[option .. "_icon"]
 			if icon == option .. "_icon" then icon = nil end

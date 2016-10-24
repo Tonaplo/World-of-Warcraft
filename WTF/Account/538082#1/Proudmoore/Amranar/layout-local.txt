@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: -1
-Y: 231
-W: 93
-H: 43
 Frame: SQLScenarioQuestsMinionAnchor
 FrameLevel: 1
 Anchor: TOPLEFT
