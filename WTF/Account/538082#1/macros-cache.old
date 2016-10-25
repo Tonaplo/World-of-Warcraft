@@ -2,7 +2,7 @@ VER 3 000000000000001A "DPSFrameMacro" "SPELL_SHADOW_SHADOWWORDPAIN"
 /run ((LibStub("AceAddon-3.0"):GetAddon("Quartz3")).db):SetProfile("DPS")
 /run RunScript(GetMacroBody("SetFramesDPS"))
 END
-VER 3 0000000000000006 "focus" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000006 "focus" "132222"
 /focus
 END
 VER 3 0000000000000014 "GET MONEY!" "ACHIEVEMENT_GUILDPERK_MOBILEBANKING"
@@ -32,6 +32,11 @@ VER 3 000000000000001C "Kosumoth Progres" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
 END
 VER 3 0000000000000017 "LFG" "INV_MISC_QUESTIONMARK"
 /2 Experienced 9/13 Mythic Disc/Holy Priest looking for weekday raiding guild. 7+ PM PST start time.
+END
+VER 3 000000000000001E "Move Alt Power" "132096"
+/run PlayerPowerBarAlt:ClearAllPoints() 
+/run PlayerPowerBarAlt:SetPoint("CENTER",-500,-600)
+/run PlayerPowerBarAlt:SetUserPlaced(true)
 END
 VER 3 0000000000000008 "Quarz" "INV_MISC_NOTE_05"
 /quartz

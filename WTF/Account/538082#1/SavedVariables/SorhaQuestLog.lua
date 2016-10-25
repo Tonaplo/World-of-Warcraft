@@ -3,26 +3,6 @@ SorhaQuestLogDB = {
 	["namespaces"] = {
 		["QuestTracker"] = {
 			["char"] = {
-				["Praerend - Proudmoore"] = {
-					["ZoneIsCollapsed"] = {
-						["Artifact"] = false,
-						["Blacksmithing"] = false,
-						["Stormheim"] = false,
-						["Warrior Campaign"] = false,
-						["World Quests"] = false,
-						["Garrison Campaign"] = false,
-						["The Nexus"] = false,
-						["Ironforge"] = false,
-						["Cooking"] = false,
-						["Jewelcrafting"] = false,
-						["The Ruby Sanctum"] = false,
-						["Battle Pets"] = false,
-						["Bonus Objectives"] = false,
-						["Spires of Arak"] = false,
-						["Auchindoun"] = false,
-						["End Time"] = false,
-					},
-				},
 				["Amranar - Proudmoore"] = {
 					["ZoneIsCollapsed"] = {
 						["Val'sharah"] = true,
@@ -31,24 +11,53 @@ SorhaQuestLogDB = {
 						["Herbalism"] = true,
 						["Druid Campaign"] = true,
 						["Dalaran"] = true,
-						["Bonus Objectives"] = false,
+						["Battle Pets"] = true,
 						["Cooking"] = true,
 						["Brawler's Guild"] = true,
 						["Artifact"] = true,
 						["Shattrath City"] = true,
-						["Battle Pets"] = true,
+						["Bonus Objectives"] = false,
 						["Azsuna"] = true,
 						["Suramar"] = true,
 						["World Quests"] = false,
 					},
 				},
+				["Morifa - Proudmoore"] = {
+					["ZoneIsCollapsed"] = {
+						["Hall of the Guardian"] = false,
+						["Seasonal"] = false,
+						["World Quests"] = false,
+						["Battle Pets"] = false,
+						["Bonus Objectives"] = false,
+					},
+				},
+				["Praerend - Proudmoore"] = {
+					["ZoneIsCollapsed"] = {
+						["Artifact"] = false,
+						["Blacksmithing"] = false,
+						["End Time"] = false,
+						["Warrior Campaign"] = false,
+						["World Quests"] = false,
+						["Garrison Campaign"] = false,
+						["The Nexus"] = false,
+						["Battle Pets"] = false,
+						["Cooking"] = false,
+						["Jewelcrafting"] = false,
+						["The Ruby Sanctum"] = false,
+						["Ironforge"] = false,
+						["Bonus Objectives"] = false,
+						["Spires of Arak"] = false,
+						["Auchindoun"] = false,
+						["Stormheim"] = false,
+					},
+				},
 				["Farahn - Proudmoore"] = {
 					["ZoneIsCollapsed"] = {
+						["World Quests"] = false,
 						["Engineering"] = true,
-						["Battle Pets"] = true,
 						["Azsuna"] = true,
 						["Bonus Objectives"] = false,
-						["World Quests"] = false,
+						["Battle Pets"] = true,
 					},
 				},
 				["Mallusof - Proudmoore"] = {
@@ -57,46 +66,34 @@ SorhaQuestLogDB = {
 						["Weekend Event"] = true,
 						["World Quests"] = false,
 						["The Emerald Nightmare"] = true,
-						["Battle Pets"] = true,
+						["Bonus Objectives"] = false,
 						["Suramar"] = false,
 						["Court of Stars"] = true,
 						["Neltharion's Lair"] = true,
 						["Shattrath City"] = true,
-						["Bonus Objectives"] = false,
-						["Darkmoon Faire"] = true,
+						["Battle Pets"] = true,
 						["Artifact"] = true,
+						["Darkmoon Faire"] = true,
 						["Stormheim"] = true,
 					},
 				},
 				["Mallusof - Tichondrius"] = {
 					["ZoneIsCollapsed"] = {
 						["Artifact"] = true,
-						["Vault of the Wardens"] = true,
 						["Moon Guard Stronghold"] = true,
 						["World Quests"] = false,
 						["Hallow's End"] = true,
 						["The Emerald Nightmare"] = true,
-						["Archaeology"] = true,
 						["Shattrath City"] = true,
 						["Bonus Objectives"] = false,
-						["Battle Pets"] = true,
 						["Darkmoon Faire"] = true,
+						["Battle Pets"] = true,
 					},
 				},
 			},
 			["profiles"] = {
 				["Default"] = {
-					["ZonesAndQuests"] = {
-						["QuestTitleIndent"] = 15,
-						["ShowDescWhenNoObjectives"] = true,
-						["CollapseOnLeave"] = true,
-						["QuestAfterPadding"] = 1,
-						["ObjectiveTextLast"] = true,
-						["ExpandOnEnter"] = true,
-						["DisplayPOITag"] = true,
-						["ShowQuestLevels"] = false,
-						["ObjectivesIndent"] = 5,
-					},
+					["ConfirmQuestAbandons"] = false,
 					["MinionLocation"] = {
 						["Y"] = 253.139984130859,
 						["X"] = -187.970199584961,
@@ -110,34 +107,16 @@ SorhaQuestLogDB = {
 						["MinionTitleFont"] = "Prototype",
 						["HeaderFont"] = "Prototype",
 					},
-					["ConfirmQuestAbandons"] = false,
-				},
-			},
-		},
-		["AchievementTracker"] = {
-			["profiles"] = {
-				["Default"] = {
-					["ShowTitle"] = false,
-					["Fonts"] = {
-						["AchievementTitleFont"] = "Prototype",
-						["MinionTitleFont"] = "Prototype",
-						["AchievementObjectiveFont"] = "Prototype",
-					},
-					["MinionLocation"] = {
-						["Y"] = -24.8160419464111,
-						["X"] = -275.01953125,
-						["Point"] = "TOP",
-						["RelativePoint"] = "TOP",
-					},
-				},
-			},
-		},
-		["RemoteQuestsTracker"] = {
-			["profiles"] = {
-				["Default"] = {
-					["MinionLocation"] = {
-						["Y"] = 132.009552001953,
-						["X"] = 182.664138793945,
+					["ZonesAndQuests"] = {
+						["QuestTitleIndent"] = 15,
+						["ShowDescWhenNoObjectives"] = true,
+						["CollapseOnLeave"] = true,
+						["QuestAfterPadding"] = 1,
+						["ObjectiveTextLast"] = true,
+						["ExpandOnEnter"] = true,
+						["DisplayPOITag"] = true,
+						["ShowQuestLevels"] = false,
+						["ObjectivesIndent"] = 5,
 					},
 				},
 			},
@@ -161,10 +140,39 @@ SorhaQuestLogDB = {
 				},
 			},
 		},
+		["RemoteQuestsTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["MinionLocation"] = {
+						["Y"] = 132.009552001953,
+						["X"] = 182.664138793945,
+					},
+				},
+			},
+		},
+		["AchievementTracker"] = {
+			["profiles"] = {
+				["Default"] = {
+					["ShowTitle"] = false,
+					["Fonts"] = {
+						["AchievementTitleFont"] = "Prototype",
+						["MinionTitleFont"] = "Prototype",
+						["AchievementObjectiveFont"] = "Prototype",
+					},
+					["MinionLocation"] = {
+						["Y"] = -24.8160419464111,
+						["X"] = -275.01953125,
+						["Point"] = "TOP",
+						["RelativePoint"] = "TOP",
+					},
+				},
+			},
+		},
 	},
 	["profileKeys"] = {
-		["Praerend - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",

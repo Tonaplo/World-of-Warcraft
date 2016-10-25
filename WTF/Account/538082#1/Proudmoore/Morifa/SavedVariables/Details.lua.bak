@@ -15,29 +15,14 @@ _detalhes_database = {
 	["active_profile"] = "Mallusof-Proudmoore",
 	["last_day"] = "24",
 	["ignore_nicktag"] = false,
-	["tabela_historico"] = {
-		["tabelas"] = {
-		},
-	},
-	["combat_counter"] = 10,
-	["cached_talents"] = {
-		["Player-5-0A0B74F2"] = {
-			22406, -- [1]
-			15760, -- [2]
-			22398, -- [3]
-			22488, -- [4]
-			22629, -- [5]
-			22378, -- [6]
-			22392, -- [7]
-		},
-	},
+	["combat_counter"] = 2,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
-			["showamount"] = false,
-			["useplayercolor"] = false,
 			["useclasscolors"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["showamount"] = false,
 			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
@@ -142,10 +127,10 @@ _detalhes_database = {
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
 			["scale"] = 1,
-			["row_height"] = 20,
+			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["point"] = "CENTER",
+			["y"] = 1.525878906250e-005,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -155,7 +140,7 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 1.525878906250e-005,
+			["row_height"] = 20,
 			["font_size"] = 10,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
@@ -166,8 +151,8 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 0,
 				["x"] = 0,
-				["size"] = 32,
 				["update_speed"] = 0.05,
+				["size"] = 32,
 				["attribute_type"] = 1,
 			},
 			["row_color"] = {
@@ -176,20 +161,25 @@ _detalhes_database = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["author"] = "Details! Team",
-			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["author"] = "Details! Team",
 		},
 	},
 	["savedbuffs"] = {
 	},
 	["character_data"] = {
-		["logons"] = 5,
+		["logons"] = 1,
+	},
+	["tabela_historico"] = {
+		["tabelas"] = {
+		},
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1477712558,
+		["nextreset"] = 1478664015,
 		["last_version"] = 8,
 	},
+	["last_instance_time"] = 0,
 	["tabela_instancias"] = {
 	},
 	["combat_id"] = 0,
@@ -373,11 +363,7 @@ _detalhes_database = {
 				["spec_file"] = "Interface\\AddOns\\Details\\images\\spec_icons_normal_alpha",
 				["textL_outline"] = true,
 				["textR_outline_small"] = true,
-				["textR_show_data"] = {
-					true, -- [1]
-					true, -- [2]
-					true, -- [3]
-				},
+				["textL_outline_small"] = true,
 				["percent_type"] = 1,
 				["fixed_text_color"] = {
 					1, -- [1]
@@ -456,7 +442,11 @@ _detalhes_database = {
 				},
 				["font_face"] = "Prototype",
 				["texture_class_colors"] = true,
-				["textL_outline_small"] = true,
+				["textR_show_data"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+				},
 				["fast_ps_update"] = false,
 				["textR_separator"] = ",",
 				["texture_custom_file"] = "Interface\\",
@@ -464,8 +454,13 @@ _detalhes_database = {
 			["bg_b"] = 0.0941,
 		}, -- [1]
 	},
-	["last_instance_time"] = 0,
 	["last_version"] = "v7.0.3.2994",
+	["cached_talents"] = {
+		["Player-5-0A174C95"] = {
+			16025, -- [1]
+			21145, -- [2]
+		},
+	},
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -492,7 +487,7 @@ _detalhes_database = {
 				[3] = 2,
 			},
 			["mode"] = 2,
-			["attribute"] = 2,
+			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
 					["y"] = -413.240310668945,
@@ -560,6 +555,6 @@ _detalhes_database = {
 	},
 	["last_instance_id"] = 0,
 	["cached_specs"] = {
-		["Player-5-0A0B74F2"] = 73,
+		["Player-5-0A174C95"] = 62,
 	},
 }
