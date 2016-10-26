@@ -8,6 +8,40 @@
 local _G = _G
 local L = CanIMogIt.L
 
+
+function stringSplit(input, sep)
+    local sep, fields = sep or ":", {}
+    local pattern = string.format("([^%s]+)", sep)
+    input:gsub(pattern, function(c) fields[#fields+1] = c end)
+    return fields
+end
+
+
+local rootStringMemoized = {}
+function getBeforeAfter(rootString)
+    if not rootStringMemoized[rootString] then
+        local s, e = string.find(rootString, '%%s')
+        local before = string.sub(rootString, 1, s-1)
+        local after = string.sub(rootString, e+1, -1)
+        rootStringMemoized[rootString] = {before, after}
+    end
+    return unpack(rootStringMemoized[rootString])
+end
+
+
+local function partOf(input, rootString)
+    -- Pulls the rootString out of input, leaving the rest of the string.
+    -- rootString is a constant with %s, such as "Required %s" or "Hello %s!"
+    -- We must assume that no part (before or after) of rootString is in the sub string...
+    before, after = getBeforeAfter(rootString)
+    local cleanBefore, count = input:gsub(before, "")
+    if before and count == 0 then return false end
+    local cleanAfter, count = cleanBefore:gsub(after, "")
+    if after and count == 0 then return false end
+    return cleanAfter
+end
+
+
 -- Tooltip setup
 CanIMogItTooltipScanner = CreateFrame( "GameTooltip", "CanIMogItTooltipScanner");
 CanIMogItTooltipScanner:SetOwner( WorldFrame, "ANCHOR_NONE" );
@@ -36,13 +70,37 @@ local function IsItemSoulbound(text)
 end
 
 
-function CanIMogItTooltipScanner:ScanTooltipBreak(func, itemLink, bag, slot)
-    -- Scans the tooltip, breaking when an item is found.
-    if bag and slot then
+-- local function GetRequiredText(text)
+--     -- Returns {Profession = level} if the text has a profession in it, 
+--     if text and text:GetText() then
+--         return partOf(text:GetText(), ITEM_REQ_SKILL)
+--     end
+-- end
+
+
+local function GetClassesText(text)
+    -- Returns the text of classes required by this item, or nil if None
+    if text and text:GetText() then
+        return partOf(text:GetText(), ITEM_CLASSES_ALLOWED)
+    end
+end
+
+
+function CanIMogItTooltipScanner:CIMI_SetItem(itemLink, bag, slot)
+    -- Sets the item for the tooltip based on the itemLink or bag and slot.
+    if bag and slot and bag == BANK_CONTAINER then
+        self:SetInventoryItem("player", BankButtonIDToInvSlotID(slot, nil))
+    elseif bag and slot then
         self:SetBagItem(bag, slot)
     else
         self:SetHyperlink(itemLink)
     end
+end
+
+
+function CanIMogItTooltipScanner:ScanTooltipBreak(func, itemLink, bag, slot)
+    -- Scans the tooltip, breaking when an item is found.
+    self:CIMI_SetItem(itemLink, bag, slot)
     local result;
     local tooltipName = self:GetName()
     for i = 1, self:NumLines() do
@@ -56,11 +114,7 @@ end
 
 function CanIMogItTooltipScanner:ScanTooltip(func, itemLink, bag, slot)
     -- Scans the tooltip, returning a table of all of the results.
-    if bag and slot then
-        self:SetBagItem(bag, slot)
-    else
-        self:SetHyperlink(itemLink)
-    end
+    self:CIMI_SetItem(itemLink, bag, slot)
     local tooltipName = self:GetName()
     local results = {}
     for i = 1, self:NumLines() do
@@ -70,7 +124,6 @@ function CanIMogItTooltipScanner:ScanTooltip(func, itemLink, bag, slot)
     self:ClearLines()
     return results
 end
-
 
 
 function CanIMogItTooltipScanner:GetRedText(itemLink)
@@ -86,6 +139,23 @@ function CanIMogItTooltipScanner:GetRedText(itemLink)
 end
 
 
+-- function CanIMogItTooltipScanner:GetProfessionInfo(itemLink)
+--     -- Returns all of the red text as space seperated string.
+--     local result = self:ScanTooltipBreak(GetProfessionText, itemLink)
+    
+--     return 
+-- end
+
+
+function CanIMogItTooltipScanner:GetClassesRequired(itemLink)
+    -- Returns a table of classes required for the item.
+    local result = self:ScanTooltipBreak(GetClassesText, itemLink)
+    if result then
+        return stringSplit(result, " ")
+    end
+end
+
+
 function CanIMogItTooltipScanner:IsItemSoulbound(bag, slot)
     -- Returns whether the item is soulbound or not.
     if bag and slot then
@@ -94,3 +164,15 @@ function CanIMogItTooltipScanner:IsItemSoulbound(bag, slot)
         return false
     end
 end
+
+
+-- function CanIMogItTooltipScanner:GetClassRestrictionsText(itemLink)
+--     -- Returns the class restrictions text from the tooltip.
+--     local result = self:ScanTooltip(GetRedText, itemLink)
+--     if not result then
+--         return {}
+--     end
+--     if result then
+--         return split(result, " ")
+--     end
+-- end

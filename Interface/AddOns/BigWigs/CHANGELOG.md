@@ -1,9 +1,12 @@
 # BigWigs
 
-## [v19.1](https://github.com/BigWigsMods/BigWigs/tree/v19.1) (2016-10-19) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v19...v19.1)
+## [v20.1](https://github.com/BigWigsMods/BigWigs/tree/v20.1) (2016-10-25) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v20...v20.1)
 
--   BrokenIsles/Calamir: cleanups  
--   BrokenIsles/Calamir: Fix option error, minor changes  
--   Update ptBR.lua (#77)  
--   zhCN/zhTW update. (#76)  
+-   Nightmare/Nythendra: Add InfoBox for Infested.  
+-   InfoBox: Color and trim names  
+-   Core: Add some debug  
+-   Nightmare/Cenarius: Add InfoBox for nightmare stacks.  
+-   InfoBox: Fix error, closes #82  
+-   Add `SetInfoByTable` API.  
+-   update zhCN/zhTW. (#81)  

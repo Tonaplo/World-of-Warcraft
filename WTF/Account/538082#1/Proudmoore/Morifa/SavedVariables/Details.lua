@@ -13,18 +13,19 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Mallusof-Proudmoore",
-	["last_day"] = "24",
+	["last_day"] = "25",
 	["ignore_nicktag"] = false,
-	["combat_counter"] = 4,
 	["tabela_historico"] = {
 		["tabelas"] = {
 		},
 	},
+	["combat_counter"] = 10,
+	["last_version"] = "v7.1.0.3097",
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -33,7 +34,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -42,9 +43,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["dps"] = 0,
-			["level"] = 1,
 			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
 		},
 		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
@@ -130,11 +131,11 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["author"] = "Details! Team",
+			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["arrow_anchor_y"] = 0,
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -142,7 +143,7 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["row_color"] = {
 				0.1, -- [1]
@@ -150,7 +151,7 @@ _detalhes_database = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["y"] = 1.525878906250e-005,
+			["font_size"] = 10,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
@@ -164,26 +165,28 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
+			["y"] = 1.525878906250e-005,
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["cached_talents"] = {
-		["Player-5-0A174C95"] = {
-			16025, -- [1]
-			21145, -- [2]
-		},
-	},
-	["character_data"] = {
-		["logons"] = 2,
-	},
 	["savedbuffs"] = {
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["cached_talents"] = {
+		["Player-5-0A174C95"] = {
+			22456, -- [1]
+			22471, -- [2]
+			22444, -- [3]
+			21631, -- [4]
+			22468, -- [5]
+			22451, -- [6]
+			22442, -- [7]
+		},
 	},
 	["tabela_instancias"] = {
 	},
@@ -233,11 +236,11 @@ _detalhes_database = {
 				["n_abilities"] = 3,
 				["n_enemies"] = 3,
 			},
-			["bg_alpha"] = 0.699999988079071,
+			["version"] = 3,
 			["stretch_button_side"] = 1,
 			["switch_all_roles_in_combat"] = false,
 			["switch_tank_in_combat"] = false,
-			["name"] = "LUI Frame",
+			["bg_alpha"] = 0.699999988079071,
 			["attribute_text"] = {
 				["show_timer"] = {
 					true, -- [1]
@@ -270,9 +273,13 @@ _detalhes_database = {
 				["ignorebars"] = false,
 				["onleave"] = 1,
 			},
-			["desaturated_menu"] = false,
+			["libwindow"] = {
+				["y"] = 52.6351928710938,
+				["x"] = -291.659912109375,
+				["point"] = "BOTTOMRIGHT",
+			},
 			["switch_tank"] = false,
-			["switch_damager"] = false,
+			["desaturated_menu"] = false,
 			["strata"] = "LOW",
 			["micro_displays_side"] = 2,
 			["row_show_animation"] = {
@@ -293,14 +300,14 @@ _detalhes_database = {
 				["space"] = -2,
 				["shadow"] = false,
 			},
-			["libwindow"] = {
-				["y"] = 52.6351928710938,
-				["x"] = -291.659912109375,
-				["point"] = "BOTTOMRIGHT",
-			},
-			["auto_hide_menu"] = {
-				["left"] = false,
-				["right"] = false,
+			["switch_damager"] = false,
+			["statusbar_info"] = {
+				["alpha"] = 1,
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
 			},
 			["window_scale"] = 1,
 			["menu_anchor_down"] = {
@@ -310,13 +317,13 @@ _detalhes_database = {
 			},
 			["plugins_grow_direction"] = 1,
 			["skin_custom"] = "",
+			["hide_icon"] = false,
 			["switch_damager_in_combat"] = false,
-			["grab_on_top"] = false,
 			["instance_button_anchor"] = {
 				-27, -- [1]
 				1, -- [2]
 			},
-			["hide_icon"] = false,
+			["grab_on_top"] = false,
 			["auto_current"] = true,
 			["toolbar_side"] = 1,
 			["bg_g"] = 0.0941,
@@ -324,7 +331,10 @@ _detalhes_database = {
 			["hide_in_combat"] = false,
 			["show_statusbar"] = true,
 			["backdrop_texture"] = "Details Ground",
-			["show_sidebars"] = true,
+			["auto_hide_menu"] = {
+				["left"] = false,
+				["right"] = false,
+			},
 			["wallpaper"] = {
 				["overlay"] = {
 					1, -- [1]
@@ -354,15 +364,8 @@ _detalhes_database = {
 					1, -- [3]
 				},
 			},
-			["statusbar_info"] = {
-				["alpha"] = 1,
-				["overlay"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				},
-			},
-			["version"] = 3,
+			["show_sidebars"] = true,
+			["name"] = "LUI Frame",
 			["row_info"] = {
 				["textR_outline"] = true,
 				["spec_file"] = "Interface\\AddOns\\Details\\images\\spec_icons_normal_alpha",
@@ -459,18 +462,17 @@ _detalhes_database = {
 			["bg_b"] = 0.0941,
 		}, -- [1]
 	},
-	["last_instance_time"] = 0,
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
+	["character_data"] = {
+		["logons"] = 4,
 	},
+	["last_instance_time"] = 0,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
 		["only_first"] = 5,
 		["where"] = 1,
 	},
-	["last_realversion"] = 113,
+	["last_realversion"] = 115,
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
@@ -541,7 +543,10 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["last_version"] = "v7.0.3.2994",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -555,6 +560,6 @@ _detalhes_database = {
 	},
 	["last_instance_id"] = 0,
 	["cached_specs"] = {
-		["Player-5-0A174C95"] = 62,
+		["Player-5-0A174C95"] = 63,
 	},
 }

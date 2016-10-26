@@ -1,0 +1,5 @@
+SorhaQuestLog: disabled
+AngryWorldQuests: disabled
+VuhDo: enabled
+VuhDoOptions: enabled
+autoturnin: disabled
