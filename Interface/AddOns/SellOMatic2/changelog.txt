@@ -1,8 +1,7 @@
-**a065:**
+**a068:**
 
-* [6ab30f9] Changed the logic that enables/disables the sell button.
-* [af5fd7e] Replaced SOMNone with enable/disable in the SellButton.
-* [54e6c6c] Changed the Texture function to the ColorTexture
+* Fixed issue with locale in Destroy module.
+* Updated TOC to latest patch.
 
 ----
 

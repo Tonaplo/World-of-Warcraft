@@ -1,9 +1,9 @@
-## Interface: 70000
-## X-Compatible-With: 70000
+## Interface: 70100
+## X-Compatible-With: 70100
 ## Title: Sell-O-Matic2
 ## Notes: Helps you automate selling stuff.
 ## Author: Silmano
-## Version: a065
+## Version: a068
 ## OptionalDeps: Ace3, LibGratuity-3.0
 ## SavedVariables: SellOMatic2DB
 ## X-Category: Tradeskill
@@ -11,7 +11,7 @@
 ## X-LoadOn-Slash: /som, /sellomatic
 ## X-LoadOn-Merchant: true
 ## X-LoadOn-InterfaceOptions: Sell-O-Matic
-## X-Curse-Packaged-Version: a065
+## X-Curse-Packaged-Version: a068
 ## X-Curse-Project-Name: Sell-O-Matic2
 ## X-Curse-Project-ID: sell-o-matic-2
 ## X-Curse-Repository-ID: wow/sell-o-matic-2/mainline
