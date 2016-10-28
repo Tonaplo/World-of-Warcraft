@@ -427,13 +427,11 @@ function VUHDO_OnEvent(_, anEvent, anArg1, anArg2, anArg3, anArg4, anArg5, anArg
 		end
 
 	elseif "UNIT_HEALTH" == anEvent then
-		if not anArg1 then return end --fix unit==nil on HEALTH-Events in patch 7.1
 		if (VUHDO_RAID or tEmptyRaid)[anArg1] then VUHDO_updateHealth(anArg1, 2); end -- VUHDO_UPDATE_HEALTH
 
 	-- TODO: is it ok to listen to both UNIT_HEALTH and UNIT_HEALTH_FREQUENT?
 	-- TODO: add options based on desired responsiveness and performance
 	elseif "UNIT_HEALTH_FREQUENT" == anEvent then
-		if not anArg1 then return end --fix unit==nil on HEALTH-Events in patch 7.1
  		if (VUHDO_RAID or tEmptyRaid)[anArg1] or VUHDO_isBossUnit(anArg1) then
  			VUHDO_updateHealth(anArg1, 2);
  		end
@@ -485,7 +483,6 @@ function VUHDO_OnEvent(_, anEvent, anArg1, anArg2, anArg3, anArg4, anArg5, anArg
 		VUHDO_setIsOutOfCombat(false);
 
 	elseif "UNIT_MAXHEALTH" == anEvent then
-		if not anArg1 then return end --fix unit==nil on HEALTH-Events in patch 7.1
 		if (VUHDO_RAID or tEmptyRaid)[anArg1] then VUHDO_updateHealth(anArg1, VUHDO_UPDATE_HEALTH_MAX); end
 
 	elseif "UNIT_TARGET" == anEvent then
@@ -1184,9 +1181,8 @@ function VUHDO_OnUpdate(_, aTimeDelta)
 	end
 
 	-- Update GCD-Bar
-	if VUHDO_GCD_UPDATE then
-		tGcdStart, tGcdDuration = GetSpellCooldown(VUHDO_SPELL_ID.GLOBAL_COOLDOWN);
-
+	if VUHDO_GCD_UPDATE and VUHDO_GCD_SPELLS[VUHDO_PLAYER_CLASS] then
+		tGcdStart, tGcdDuration = GetSpellCooldown(VUHDO_GCD_SPELLS[VUHDO_PLAYER_CLASS]);
 		if (tGcdDuration or 0) == 0 then
 			VuhDoGcdStatusBar:SetValue(0);
 			VUHDO_GCD_UPDATE = false;

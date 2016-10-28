@@ -12,8 +12,6 @@ local function setOption(info, value)
 	SellOMatic.db.profile[key] = value;
 end;
 
-local max_iLevel = 800
-
 local list_options = {
 	type = "group",
 	name = L["List Options"],
@@ -80,7 +78,7 @@ local list_options = {
 			order = 8,
 			type = "range",
 			min = 1,
-			max = max_iLevel,
+			max = 665,
 			step = 1,
 			get = getOption,
 			set = setOption,

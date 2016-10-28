@@ -87,20 +87,12 @@ end
 
 --
 local function VUHDO_kiloValidator(anInfo, aValue)
-	
-	return aValue >= 500 and VUHDO_round(aValue * 0.001) or "";
-
+	return aValue >= 500 and floor(aValue * 0.001 + 0.5) or "";
 end
 
 
 local function VUHDO_plusKiloValidator(anInfo, aValue)
-
-	if aValue >= 1000000 then
-		return format("+%.1fM", aValue * 0.000001) or "";
-	elseif aValue >= 500 then
-		return format("+%dk", VUHDO_round(aValue * 0.001)) or "";
-	end
-
+	return aValue >= 500 and format("+%dk", aValue * 0.001 + 0.5) or "";
 end
 
 --

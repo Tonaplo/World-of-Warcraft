@@ -21,12 +21,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1766990916,
 		["Contents"] = "Hero at the start of Phase 2!!(When Cenarius hits 30% hp)\n\nTanks- Tank adds away from boss. Tank swap after every spear @ Phase 2.\nConstantly move boss out of pools and around the room. @ Phase 2. Mitigate Damage accordingly for every spear(the more dmg you take from it the bigger the pool)\n\nHealers- Dispel anyone caught in a bramble. Stand near ancient always if he is friendly. Dispel Nightmare Javelin \n!!Dispel Twisted Touch of Life if a cast goes out(will be cast on either an add or boss) \n\nDps- Do not dmg the boss if he has Aura of Dread Thorns. Focus adds.\nBurn Rotten Drake down if he's at a low health.\n!! Interrupt Twisted Touch of Life from Twisted Sisters\nRanged dps kill the Entangling roots on Malfurion @ phase 2\n\n!Stack for Nightmare Ancient\n\nGet away from everyone else if you get Nightmare Javelin debuff\n!!Get the away if you have Scorned Touch debuff\n\nAvoid Dragon breath from Rotten Drake(will target a random player and breathe on them like an autist)\n\nStand in Dragon breath always if friendly.\n\nAvoid Nightmare brambles on floor(or use immunities to clear them)\nIf you get Unbound Touch buff clear bramble patches\n\n!!!!!Whoever is fixated by Nightmare brambles kite away from raid group\n\nAt 25-30 stacks of debuff step carefully into the green patch to remove the debuff or into the smaller patches that spawn if we have friendly wisps***Use green patch sparingly\n\n**Cleansed/friendly mob depends on the Nightmare seed that most players are near",
 	},
-	[3215089784] = {
-		["Updated"] = 1474509775,
-		["Name"] = "Nythendra",
-		["Id"] = 3215089784,
-		["UpdateId"] = 400624063,
-		["Contents"] = "Tanks - debuff volatile rot, move away form raid when it expires, taunt swap,                                                           drop near green\n\nhealers - high dmg end ph1 and ph2\n\nph1 - stay stacked in melee range beside boss\n         move togteher for breath\n         run behind raid group to drop rot\n\nph2 - dodge grreen pool when she sucks in\n         stay away from bugs\n\ncan't fail mechanics because pools will be everywhere and everytime you do you gain a permanent stacking dot that cannot be dispelled.",
+	[2899211690] = {
+		["Updated"] = 1474509773,
+		["Name"] = "Il'gynoth",
+		["Id"] = 2899211690,
+		["UpdateId"] = 1351219073,
+		["Contents"] = "Tanks - pick up dominator tentacles, dodge ground slam\n            pick up nightmare horror, swap 3 stacks eye of fate\n            interupt mind flay\n\nDPS - DPS Prio - Ichors by eye, deathglare, corruptor, dominator, horror\n         take ichor to eye if fixate on you\n        try not to tank ichor, use stuns and slows\n         interupt mind flay\n         drop nightmare corruption if you have spew corruption away from raid\n         dodge ground slam\n        save major cds for heart\n\nHeals - Tanks take heavy dmg when tanking dominator and horrors\n            use externals on tank for 3rd eye of fate\n           take ichor to eye if fixate on you\n           drop nightmare corruption if you have spew corruption away from raid\n           heal cursed blood targets\n           dodge ground slam\n            dispel high stacks of touch of corruption\n\n\nph1 - kill adds (prio - Ichors by eye, deathglare, corruptor, dominator, horro), kite ichor to eye, drop pools at edge, dodge shit, interupt shit, ALL ADDS DEAD BEFORE ENTERING HEART ROOMS.\n\nph2 - stack in middle, run to edge spread if you get dbuff, pops cds and bur, get out before dark reconstitution finishes or you die.",
 	},
 	[652629390] = {
 		["Updated"] = 1474509770,
@@ -35,12 +35,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 572314067,
 		["Contents"] = "Hero at the start of fight!!\n\nTanks- Face dragons away from raid. Around 7 stacks of the mark debuff tanks will swap dragons while dps and healers remain in the same spot/groups.\n**Taerar only(100 energy): Pick up his mirror image dragons and face them all away from raid\n**!!Lethon only(100 energy): Do not tank swap Ysondre and Lethon while Spirit Shades are up\n\nHealers- Dispel roots(Ysondre @ 100 energy)\n**Taerar only: dispel fog sleeping debuff + dispel fear if possible(Not on normal)\n**Lethon only:dispel shadow burst debuff(that he applies/casts while he is in the air)  if roots aren't needed to be dispelled soon(not on normal)\n\nDps- Kill the adds(if any spawn)>boss\n**Emeriss only: Kill and Interrupt Essence of Corruption. Move away from any adds that die while Emeriss is up in the air(Not on normal)\n**!!!Lethon only: Kill Spirit Shades ASAP while stunning, slowing, etc.\n\nRanged- Spread out in preparation for roots and Get away from purple swirls of death. 1 Ranged will stack in the  nightmare bloom(otherwise adds will spawn).\n\nSplit Group in half(1 tank, half the healers and half the dps) fighting the 2 dragons 45+ yrds away from each other\n\n**Taerar only: Avoid fogs. If he is up in the air use immunities before he casts fear(Not on normal)\n\n**Emeriss only: (100 energy)Spread if you get Volatile Infection. \n\n**Lethon only: Dont stand in Gloom projectils that fall from the sky(Only for the players within his mark)\n\n70% and 40% dragon in the air will switch with dragon on ground\n\n!!!!!!!!!10 stacks of a mark debuff = 30sec stun (Essentially a wipe because it will most likely happen to everyone)\n\nNightmare bloom spawns from Nightmare Blast(purple ball)\n\n**dragon in the air does nothing in normal mode",
 	},
-	[2899211690] = {
-		["Updated"] = 1474509773,
-		["Name"] = "Il'gynoth",
-		["Id"] = 2899211690,
-		["UpdateId"] = 1351219073,
-		["Contents"] = "Tanks - pick up dominator tentacles, dodge ground slam\n            pick up nightmare horror, swap 3 stacks eye of fate\n            interupt mind flay\n\nDPS - DPS Prio - Ichors by eye, deathglare, corruptor, dominator, horror\n         take ichor to eye if fixate on you\n        try not to tank ichor, use stuns and slows\n         interupt mind flay\n         drop nightmare corruption if you have spew corruption away from raid\n         dodge ground slam\n        save major cds for heart\n\nHeals - Tanks take heavy dmg when tanking dominator and horrors\n            use externals on tank for 3rd eye of fate\n           take ichor to eye if fixate on you\n           drop nightmare corruption if you have spew corruption away from raid\n           heal cursed blood targets\n           dodge ground slam\n            dispel high stacks of touch of corruption\n\n\nph1 - kill adds (prio - Ichors by eye, deathglare, corruptor, dominator, horro), kite ichor to eye, drop pools at edge, dodge shit, interupt shit, ALL ADDS DEAD BEFORE ENTERING HEART ROOMS.\n\nph2 - stack in middle, run to edge spread if you get dbuff, pops cds and bur, get out before dark reconstitution finishes or you die.",
+	[3215089784] = {
+		["Updated"] = 1474509775,
+		["Name"] = "Nythendra",
+		["Id"] = 3215089784,
+		["UpdateId"] = 400624063,
+		["Contents"] = "Tanks - debuff volatile rot, move away form raid when it expires, taunt swap,                                                           drop near green\n\nhealers - high dmg end ph1 and ph2\n\nph1 - stay stacked in melee range beside boss\n         move togteher for breath\n         run behind raid group to drop rot\n\nph2 - dodge grreen pool when she sucks in\n         stay away from bugs\n\ncan't fail mechanics because pools will be everywhere and everytime you do you gain a permanent stacking dot that cannot be dispelled.",
 	},
 	[3080827558] = {
 		["Updated"] = 1474509777,
@@ -60,6 +60,9 @@ AngryAssign_Pages = {
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
+	["window"] = {
+	},
+	["locked"] = true,
 	["tree"] = {
 	},
 	["display"] = {
@@ -69,9 +72,6 @@ AngryAssign_State = {
 		["scale"] = 1,
 		["hidden"] = true,
 	},
-	["window"] = {
-	},
-	["locked"] = true,
 	["directionUp"] = false,
 }
 AngryAssign_Config = {

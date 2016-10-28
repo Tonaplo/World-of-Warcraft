@@ -12,7 +12,7 @@ local function setOption(info, value)
 	SellOMatic.db.profile[key] = value;
 end;
 
-local max_iLevel = 800
+local max_iLevel = 650
 
 local item_options = {
 	type = "group",

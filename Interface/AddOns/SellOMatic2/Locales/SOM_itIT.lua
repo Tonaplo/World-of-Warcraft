@@ -13,7 +13,6 @@ if not L then return end
 -- L["Cancel"] = ""
 -- L["Choose the amount of information displayed"] = ""
 -- L["Command List"] = ""
--- L["Delete"] = ""
 -- L["delete items from the sell/save lists"] = ""
 -- L["destroy all junk items in your backpack"] = ""
 -- L["Destroy Commands"] = ""

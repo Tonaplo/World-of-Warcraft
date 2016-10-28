@@ -17,7 +17,6 @@ L["Blue quality item options"] = true
 L["Cancel"] = true
 L["Choose the amount of information displayed"] = true
 L["Command List"] = true
-L["Delete"] = true
 L["delete items from the sell/save lists"] = true
 L["destroy all junk items in your backpack"] = true
 L["Destroy Commands"] = true

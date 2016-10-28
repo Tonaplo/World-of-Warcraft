@@ -136,9 +136,8 @@ end
 
 --
 local function VUHDO_getKiloText(aNumber, aMaxNumber, aSetup)
-	return aSetup["LIFE_TEXT"]["verbose"] and aNumber 
-		or (aNumber >= 1000000 or aNumber <= -1000000) and format("%.1fM", aNumber * 0.000001)
-		or aMaxNumber > 100000 and format("%.0fk", aNumber * 0.001)
+	return aSetup["LIFE_TEXT"]["verbose"] and aNumber
+	  or aMaxNumber > 100000 and format("%.0fk", aNumber * 0.001)
 		or aMaxNumber > 10000 and format("%.1fk", aNumber * 0.001)
 		or aNumber;
 end
@@ -668,7 +667,6 @@ end
 local tInfo;
 local tAllButtons;
 function VUHDO_updateHealthBarsFor(aUnit, anUpdateMode)
-	if not aUnit then return end --fix unit==nil on HEALTH-Events in patch 7.1
 	VUHDO_updateBouquetsForEvent(aUnit, anUpdateMode);
 
   tAllButtons = VUHDO_getUnitButtons(aUnit);

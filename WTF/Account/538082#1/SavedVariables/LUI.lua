@@ -131,7 +131,7 @@ LUIDB = {
 					["FPS"] = {
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
@@ -143,7 +143,7 @@ LUIDB = {
 						["Font"] = "Prototype",
 						["Time24"] = true,
 					},
-					["Gold"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -173,7 +173,7 @@ LUIDB = {
 					["FPS"] = {
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
@@ -185,7 +185,7 @@ LUIDB = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -212,10 +212,10 @@ LUIDB = {
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
@@ -252,14 +252,14 @@ LUIDB = {
 						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
 					["Clock"] = {
 						["Font"] = "Prototype",
 						["Time24"] = true,
 					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["CombatLock"] = true,
 					["Gold"] = {
 						["Font"] = "Prototype",
 					},
@@ -280,7 +280,8 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
@@ -293,25 +294,24 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
+					["CombatLock"] = true,
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -320,7 +320,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1486074862,
+							["Mallusof"] = 1473223394,
 						},
 					},
 				},
@@ -340,21 +340,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -382,9 +375,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -408,6 +408,93 @@ LUIDB = {
 						["X"] = 33.2396621704102,
 						["Point"] = "BOTTOMLEFT",
 					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -350,
+						["Aura"] = {
+							["Debuffs"] = {
+								["Enable"] = true,
+							},
+						},
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -200,
+								["X"] = 0,
+								["Point"] = "CENTER",
+								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
+								["Width"] = 380,
+							},
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Size"] = 15,
+									["Font"] = "Prototype",
+								},
+							},
+						},
+						["Icons"] = {
+							["Combat"] = {
+								["Enable"] = true,
+							},
+							["Resting"] = {
+								["Enable"] = true,
+							},
+						},
+						["Bars"] = {
+							["AltPower"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Color"] = "Gradient",
+							},
+							["Power"] = {
+								["Color"] = "By Type",
+							},
+							["HealPrediction"] = {
+								["Enable"] = true,
+							},
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Width"] = 200,
+								["Texture"] = "Otravi",
+							},
+							["DruidMana"] = {
+								["Enable"] = false,
+								["OverPower"] = false,
+							},
+							["TotalAbsorb"] = {
+								["Enable"] = true,
+							},
+						},
+						["Border"] = {
+							["Aggro"] = true,
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+						},
+						["Texts"] = {
+							["PowerPercent"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Enable"] = false,
+							},
+							["Power"] = {
+								["Enable"] = false,
+							},
+						},
+					},
+					["ToT"] = {
+						["Y"] = -249.999954223633,
+						["X"] = -415.672241210938,
+						["Point"] = "RIGHT",
+					},
 					["Boss"] = {
 						["Y"] = 46.022289276123,
 						["X"] = -163.149322509766,
@@ -454,17 +541,13 @@ LUIDB = {
 							},
 						},
 					},
-					["ToT"] = {
-						["Y"] = -249.999954223633,
-						["X"] = -415.672241210938,
-						["Point"] = "RIGHT",
+					["Settings"] = {
+						["show_v2_textures"] = false,
+						["ShowV2PartyTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["ShowV2ArenaTextures"] = false,
+						["show_v2_party_textures"] = false,
 					},
-					["Party"] = {
-						["Enable"] = false,
-						["X"] = 159.210083007813,
-						["Y"] = -55.5457916259766,
-					},
-					["Version"] = 3600,
 					["Focus"] = {
 						["Y"] = 248.361129760742,
 						["X"] = 239.659820556641,
@@ -626,94 +709,11 @@ LUIDB = {
 							},
 						},
 					},
-					["Settings"] = {
-						["show_v2_textures"] = false,
-						["ShowV2PartyTextures"] = false,
-						["show_v2_arena_textures"] = false,
-						["ShowV2ArenaTextures"] = false,
-						["show_v2_party_textures"] = false,
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -350,
-						["Aura"] = {
-							["Debuffs"] = {
-								["Enable"] = true,
-							},
-						},
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -200,
-								["X"] = 0,
-								["Point"] = "CENTER",
-								["Height"] = 30,
-								["IndividualColor"] = true,
-								["Icon"] = false,
-								["Width"] = 380,
-							},
-							["Text"] = {
-								["Name"] = {
-									["Font"] = "Prototype",
-								},
-								["Time"] = {
-									["Size"] = 15,
-									["Font"] = "Prototype",
-								},
-							},
-						},
-						["Icons"] = {
-							["Combat"] = {
-								["Enable"] = true,
-							},
-							["Resting"] = {
-								["Enable"] = true,
-							},
-						},
-						["Bars"] = {
-							["AltPower"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Color"] = "Gradient",
-							},
-							["Power"] = {
-								["Color"] = "By Type",
-							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Width"] = 200,
-								["Texture"] = "Otravi",
-							},
-							["HealPrediction"] = {
-								["Enable"] = true,
-							},
-							["DruidMana"] = {
-								["Enable"] = false,
-								["OverPower"] = false,
-							},
-							["TotalAbsorb"] = {
-								["Enable"] = true,
-							},
-						},
-						["Border"] = {
-							["Aggro"] = true,
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-						},
-						["Texts"] = {
-							["PowerPercent"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Enable"] = false,
-							},
-							["Power"] = {
-								["Enable"] = false,
-							},
-						},
+					["Version"] = 3600,
+					["Party"] = {
+						["Enable"] = false,
+						["X"] = 159.210083007813,
+						["Y"] = -55.5457916259766,
 					},
 				},
 				["Druid"] = {
@@ -722,6 +722,26 @@ LUIDB = {
 						["X"] = 35.2860870361328,
 						["Point"] = "LEFT",
 					},
+					["Party"] = {
+						["Enable"] = false,
+						["X"] = 159.210083007813,
+						["Y"] = -55.5457916259766,
+					},
+					["Layout"] = "Mallusof",
+					["Pet"] = {
+						["Y"] = 247.184997558594,
+						["X"] = 33.2396621704102,
+						["Point"] = "BOTTOMLEFT",
+					},
+					["Version"] = 3600,
+					["Raid"] = {
+						["Enable"] = false,
+						["Texts"] = {
+							["HealthPercent"] = {
+								["Enable"] = true,
+							},
+						},
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -350,
@@ -759,10 +779,15 @@ LUIDB = {
 							},
 						},
 						["Bars"] = {
-							["HealPrediction"] = {
-								["Enable"] = true,
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Width"] = 200,
+								["Texture"] = "Otravi",
 							},
-							["AltPower"] = {
+							["TotalAbsorb"] = {
 								["Enable"] = true,
 							},
 							["Health"] = {
@@ -773,19 +798,14 @@ LUIDB = {
 							},
 							["ClassIcons"] = {
 							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Width"] = 200,
-								["Texture"] = "Otravi",
+							["HealPrediction"] = {
+								["Enable"] = true,
 							},
 							["DruidMana"] = {
 								["Enable"] = false,
 								["OverPower"] = false,
 							},
-							["TotalAbsorb"] = {
+							["AltPower"] = {
 								["Enable"] = true,
 							},
 						},
@@ -806,12 +826,6 @@ LUIDB = {
 							},
 						},
 					},
-					["Layout"] = "Mallusof",
-					["Pet"] = {
-						["Y"] = 247.184997558594,
-						["X"] = 33.2396621704102,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Settings"] = {
 						["show_v2_party_textures"] = false,
 						["ShowV2PartyTextures"] = false,
@@ -820,61 +834,6 @@ LUIDB = {
 						["show_v2_textures"] = false,
 						["ShowV2Textures"] = false,
 					},
-					["Raid"] = {
-						["Enable"] = false,
-						["Texts"] = {
-							["HealthPercent"] = {
-								["Enable"] = true,
-							},
-						},
-					},
-					["Boss"] = {
-						["Y"] = 46.022289276123,
-						["X"] = -163.149322509766,
-						["Point"] = "RIGHT",
-						["Castbar"] = {
-							["X"] = -310,
-							["General"] = {
-								["Enable"] = true,
-							},
-							["Text"] = {
-								["Name"] = {
-									["Font"] = "Prototype",
-								},
-								["Time"] = {
-									["Font"] = "Prototype",
-								},
-							},
-						},
-						["Padding"] = 40,
-						["Bars"] = {
-							["Health"] = {
-								["Color"] = "Gradient",
-							},
-							["Power"] = {
-								["Enable"] = true,
-							},
-						},
-						["Texts"] = {
-							["HealthPercent"] = {
-								["Point"] = "RIGHT",
-								["RelativePoint"] = "RIGHT",
-								["Enable"] = true,
-								["ShowAlways"] = true,
-								["IndividualColor"] = {
-									["b"] = 1,
-									["g"] = 1,
-									["r"] = 1,
-								},
-								["Size"] = 17,
-							},
-							["Name"] = {
-								["Point"] = "LEFT",
-								["RelativePoint"] = "LEFT",
-							},
-						},
-					},
-					["Version"] = 3600,
 					["Focus"] = {
 						["Y"] = 248.361129760742,
 						["X"] = 239.659820556641,
@@ -1044,10 +1003,51 @@ LUIDB = {
 						["X"] = -415.672241210938,
 						["Point"] = "RIGHT",
 					},
-					["Party"] = {
-						["Enable"] = false,
-						["X"] = 159.210083007813,
-						["Y"] = -55.5457916259766,
+					["Boss"] = {
+						["Y"] = 46.022289276123,
+						["X"] = -163.149322509766,
+						["Point"] = "RIGHT",
+						["Castbar"] = {
+							["X"] = -310,
+							["General"] = {
+								["Enable"] = true,
+							},
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Font"] = "Prototype",
+								},
+							},
+						},
+						["Padding"] = 40,
+						["Bars"] = {
+							["Health"] = {
+								["Color"] = "Gradient",
+							},
+							["Power"] = {
+								["Enable"] = true,
+							},
+						},
+						["Texts"] = {
+							["HealthPercent"] = {
+								["Point"] = "RIGHT",
+								["RelativePoint"] = "RIGHT",
+								["Enable"] = true,
+								["ShowAlways"] = true,
+								["IndividualColor"] = {
+									["b"] = 1,
+									["g"] = 1,
+									["r"] = 1,
+								},
+								["Size"] = 17,
+							},
+							["Name"] = {
+								["Point"] = "LEFT",
+								["RelativePoint"] = "LEFT",
+							},
+						},
 					},
 					["BossTarget"] = {
 						["Castbar"] = {
@@ -1063,6 +1063,100 @@ LUIDB = {
 						["X"] = 35.2860870361328,
 						["Point"] = "LEFT",
 					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -350,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -200,
+								["X"] = 0,
+								["Point"] = "CENTER",
+								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
+								["Width"] = 380,
+							},
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Font"] = "Prototype",
+									["Size"] = 15,
+								},
+							},
+						},
+						["Aura"] = {
+							["Debuffs"] = {
+								["Enable"] = true,
+							},
+						},
+						["Icons"] = {
+							["Combat"] = {
+								["Enable"] = true,
+							},
+							["Resting"] = {
+								["Enable"] = true,
+							},
+						},
+						["Bars"] = {
+							["AltPower"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Color"] = "Gradient",
+							},
+							["Power"] = {
+								["Color"] = "By Type",
+							},
+							["TotalAbsorb"] = {
+								["Enable"] = true,
+							},
+							["HealPrediction"] = {
+								["Enable"] = true,
+							},
+							["DruidMana"] = {
+								["Enable"] = false,
+								["OverPower"] = false,
+							},
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Width"] = 200,
+								["Texture"] = "Otravi",
+							},
+						},
+						["Border"] = {
+							["Aggro"] = true,
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+						},
+						["Texts"] = {
+							["PowerPercent"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Enable"] = false,
+							},
+							["Power"] = {
+								["Enable"] = false,
+							},
+						},
+					},
+					["Layout"] = "Mallusof",
+					["Pet"] = {
+						["Y"] = 247.184997558594,
+						["X"] = 33.2396621704102,
+						["Point"] = "BOTTOMLEFT",
+					},
+					["Version"] = 3600,
+					["ToT"] = {
+						["Y"] = -249.999954223633,
+						["X"] = -415.672241210938,
+						["Point"] = "RIGHT",
+					},
 					["Boss"] = {
 						["Y"] = 46.022289276123,
 						["X"] = -163.149322509766,
@@ -1109,12 +1203,6 @@ LUIDB = {
 							},
 						},
 					},
-					["Layout"] = "Mallusof",
-					["Pet"] = {
-						["Y"] = 247.184997558594,
-						["X"] = 33.2396621704102,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Settings"] = {
 						["show_v2_party_textures"] = false,
 						["ShowV2PartyTextures"] = false,
@@ -1123,17 +1211,6 @@ LUIDB = {
 						["show_v2_textures"] = false,
 						["ShowV2Textures"] = false,
 					},
-					["ToT"] = {
-						["Y"] = -249.999954223633,
-						["X"] = -415.672241210938,
-						["Point"] = "RIGHT",
-					},
-					["Party"] = {
-						["Enable"] = false,
-						["X"] = 159.210083007813,
-						["Y"] = -55.5457916259766,
-					},
-					["Version"] = 3600,
 					["Focus"] = {
 						["Y"] = 248.361129760742,
 						["X"] = 239.659820556641,
@@ -1306,87 +1383,10 @@ LUIDB = {
 							},
 						},
 					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -350,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -200,
-								["X"] = 0,
-								["Point"] = "CENTER",
-								["Height"] = 30,
-								["IndividualColor"] = true,
-								["Icon"] = false,
-								["Width"] = 380,
-							},
-							["Text"] = {
-								["Name"] = {
-									["Font"] = "Prototype",
-								},
-								["Time"] = {
-									["Font"] = "Prototype",
-									["Size"] = 15,
-								},
-							},
-						},
-						["Aura"] = {
-							["Debuffs"] = {
-								["Enable"] = true,
-							},
-						},
-						["Icons"] = {
-							["Combat"] = {
-								["Enable"] = true,
-							},
-							["Resting"] = {
-								["Enable"] = true,
-							},
-						},
-						["Bars"] = {
-							["AltPower"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Color"] = "Gradient",
-							},
-							["Power"] = {
-								["Color"] = "By Type",
-							},
-							["TotalAbsorb"] = {
-								["Enable"] = true,
-							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Width"] = 200,
-								["Texture"] = "Otravi",
-							},
-							["DruidMana"] = {
-								["Enable"] = false,
-								["OverPower"] = false,
-							},
-							["HealPrediction"] = {
-								["Enable"] = true,
-							},
-						},
-						["Border"] = {
-							["Aggro"] = true,
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-						},
-						["Texts"] = {
-							["PowerPercent"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Enable"] = false,
-							},
-							["Power"] = {
-								["Enable"] = false,
-							},
-						},
+					["Party"] = {
+						["Enable"] = false,
+						["X"] = 159.210083007813,
+						["Y"] = -55.5457916259766,
 					},
 					["BossTarget"] = {
 						["Castbar"] = {
@@ -1415,6 +1415,16 @@ LUIDB = {
 						["X"] = 33.2396621704102,
 						["Point"] = "BOTTOMLEFT",
 					},
+					["Party"] = {
+						["Enable"] = false,
+						["X"] = 159.210083007813,
+						["Y"] = -55.5457916259766,
+					},
+					["ToT"] = {
+						["Y"] = -249.999954223633,
+						["X"] = -415.672241210938,
+						["Point"] = "RIGHT",
+					},
 					["Boss"] = {
 						["Y"] = 46.022289276123,
 						["X"] = -163.149322509766,
@@ -1461,96 +1471,14 @@ LUIDB = {
 							},
 						},
 					},
-					["ToT"] = {
-						["Y"] = -249.999954223633,
-						["X"] = -415.672241210938,
-						["Point"] = "RIGHT",
+					["Settings"] = {
+						["show_v2_party_textures"] = false,
+						["ShowV2PartyTextures"] = false,
+						["ShowV2ArenaTextures"] = false,
+						["show_v2_arena_textures"] = false,
+						["show_v2_textures"] = false,
+						["ShowV2Textures"] = false,
 					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -350,
-						["Aura"] = {
-							["Debuffs"] = {
-								["Enable"] = true,
-							},
-						},
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -200,
-								["X"] = 0,
-								["Point"] = "CENTER",
-								["Height"] = 30,
-								["IndividualColor"] = true,
-								["Icon"] = false,
-								["Width"] = 380,
-							},
-							["Text"] = {
-								["Name"] = {
-									["Font"] = "Prototype",
-								},
-								["Time"] = {
-									["Size"] = 15,
-									["Font"] = "Prototype",
-								},
-							},
-						},
-						["Icons"] = {
-							["Combat"] = {
-								["Enable"] = true,
-							},
-							["Resting"] = {
-								["Enable"] = true,
-							},
-						},
-						["Bars"] = {
-							["HealPrediction"] = {
-								["Enable"] = true,
-							},
-							["TotalAbsorb"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Color"] = "Gradient",
-							},
-							["Power"] = {
-								["Color"] = "By Type",
-							},
-							["ClassIcons"] = {
-							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Width"] = 200,
-								["Texture"] = "Otravi",
-							},
-							["DruidMana"] = {
-								["Enable"] = false,
-								["OverPower"] = false,
-							},
-							["AltPower"] = {
-								["Enable"] = true,
-							},
-						},
-						["Border"] = {
-							["Aggro"] = true,
-							["EdgeSize"] = 8,
-							["EdgeFile"] = "1 Pixel",
-						},
-						["Texts"] = {
-							["PowerPercent"] = {
-								["Enable"] = true,
-							},
-							["Health"] = {
-								["Enable"] = false,
-							},
-							["Power"] = {
-								["Enable"] = false,
-							},
-						},
-					},
-					["Version"] = 3600,
 					["Focus"] = {
 						["Y"] = 248.361129760742,
 						["X"] = 239.659820556641,
@@ -1723,18 +1651,90 @@ LUIDB = {
 							},
 						},
 					},
-					["Settings"] = {
-						["show_v2_party_textures"] = false,
-						["ShowV2PartyTextures"] = false,
-						["ShowV2ArenaTextures"] = false,
-						["show_v2_arena_textures"] = false,
-						["show_v2_textures"] = false,
-						["ShowV2Textures"] = false,
-					},
-					["Party"] = {
-						["Enable"] = false,
-						["X"] = 159.210083007813,
-						["Y"] = -55.5457916259766,
+					["Version"] = 3600,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -350,
+						["Aura"] = {
+							["Debuffs"] = {
+								["Enable"] = true,
+							},
+						},
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -200,
+								["X"] = 0,
+								["Point"] = "CENTER",
+								["Height"] = 30,
+								["IndividualColor"] = true,
+								["Icon"] = false,
+								["Width"] = 380,
+							},
+							["Text"] = {
+								["Name"] = {
+									["Font"] = "Prototype",
+								},
+								["Time"] = {
+									["Size"] = 15,
+									["Font"] = "Prototype",
+								},
+							},
+						},
+						["Icons"] = {
+							["Combat"] = {
+								["Enable"] = true,
+							},
+							["Resting"] = {
+								["Enable"] = true,
+							},
+						},
+						["Bars"] = {
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Width"] = 200,
+								["Texture"] = "Otravi",
+							},
+							["AltPower"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Color"] = "Gradient",
+							},
+							["Power"] = {
+								["Color"] = "By Type",
+							},
+							["ClassIcons"] = {
+							},
+							["HealPrediction"] = {
+								["Enable"] = true,
+							},
+							["DruidMana"] = {
+								["Enable"] = false,
+								["OverPower"] = false,
+							},
+							["TotalAbsorb"] = {
+								["Enable"] = true,
+							},
+						},
+						["Border"] = {
+							["Aggro"] = true,
+							["EdgeSize"] = 8,
+							["EdgeFile"] = "1 Pixel",
+						},
+						["Texts"] = {
+							["PowerPercent"] = {
+								["Enable"] = true,
+							},
+							["Health"] = {
+								["Enable"] = false,
+							},
+							["Power"] = {
+								["Enable"] = false,
+							},
+						},
 					},
 				},
 				["PRIEST"] = {
@@ -2073,7 +2073,22 @@ LUIDB = {
 							},
 						},
 					},
-					["Version"] = 3600,
+					["Colors"] = {
+						["Smooth"] = {
+							{
+								0.690196078431373, -- [1]
+								0.309803921568627, -- [2]
+								0.309803921568627, -- [3]
+								1, -- [4]
+							}, -- [1]
+							{
+								nil, -- [1]
+								nil, -- [2]
+								nil, -- [3]
+								1, -- [4]
+							}, -- [2]
+						},
+					},
 					["Boss"] = {
 						["Castbar"] = {
 							["X"] = -310,
@@ -2133,22 +2148,7 @@ LUIDB = {
 						["Y"] = -243.912719726563,
 						["X"] = 35.2860870361328,
 					},
-					["Colors"] = {
-						["Smooth"] = {
-							{
-								0.690196078431373, -- [1]
-								0.309803921568627, -- [2]
-								0.309803921568627, -- [3]
-								1, -- [4]
-							}, -- [1]
-							{
-								nil, -- [1]
-								nil, -- [2]
-								nil, -- [3]
-								1, -- [4]
-							}, -- [2]
-						},
-					},
+					["Version"] = 3600,
 				},
 			},
 		},
@@ -2456,37 +2456,37 @@ LUIDB = {
 						},
 						["Alliance - Tichondrius"] = {
 							"/reload", -- [1]
-							"/salute", -- [2]
-							"/wa", -- [3]
-							"/salute", -- [4]
-							"/sigh", -- [5]
-							"/2 also, that's very untrue", -- [6]
-							"/2 a troll I see", -- [7]
+							"/i cheers", -- [2]
+							"/p phoneixbeard wants to help", -- [3]
+							"/i cheers", -- [4]
+							"/salute", -- [5]
+							"/i cheers", -- [6]
+							"/reload", -- [7]
 							"/salute", -- [8]
-							"/sigh", -- [9]
-							"/2 a troll I see", -- [10]
-							"/sigh", -- [11]
-							"/p same", -- [12]
-							"/p love it", -- [13]
-							"/p the best", -- [14]
-							"/p you mean", -- [15]
-							"/p when we were druids", -- [16]
-							"/p sorrya bout that", -- [17]
-							"/p you need to stun that", -- [18]
-							"/p knife dance", -- [19]
-							"/p sure", -- [20]
-							"/p dont kill adds right", -- [21]
-							"/p more stuns guys :)", -- [22]
-							"/p 2 DHs we should have plenty :)", -- [23]
-							"/p LoS though", -- [24]
-							"/p Wallina", -- [25]
-							"/p when you get the debuff", -- [26]
-							"/p you need to not get hit again", -- [27]
-							"/p nps", -- [28]
-							"/p that's why people block others", -- [29]
-							"/p who have the debuff", -- [30]
-							"/p I gtg", -- [31]
-							"/p but thanks!", -- [32]
+							"/p phoneixbeard wants to help", -- [9]
+							"/reload ui", -- [10]
+							"/reload", -- [11]
+							"/salute", -- [12]
+							"/i cheers", -- [13]
+							"/reload", -- [14]
+							"/p phoneixbeard wants to help", -- [15]
+							"/reload", -- [16]
+							"/i cheers", -- [17]
+							"/p phoneixbeard wants to help", -- [18]
+							"/i cheers", -- [19]
+							"/salute", -- [20]
+							"/reload", -- [21]
+							"/p phoneixbeard wants to help", -- [22]
+							"/reload", -- [23]
+							"/i cheers", -- [24]
+							"/p phoneixbeard wants to help", -- [25]
+							"/i cheers", -- [26]
+							"/salute", -- [27]
+							"/p phoneixbeard wants to help", -- [28]
+							"/i cheers", -- [29]
+							"/salute", -- [30]
+							"/i cheers", -- [31]
+							"/wa", -- [32]
 						},
 					},
 				},
@@ -2635,6 +2635,7 @@ LUIDB = {
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 				},
 			},
@@ -2775,13 +2776,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -2793,13 +2788,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -2939,7 +2940,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -2951,19 +2958,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -3103,13 +3104,7 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -3121,17 +3116,23 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -3266,13 +3267,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -3284,17 +3279,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -3430,13 +3431,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -3448,13 +3443,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -3656,7 +3657,6 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -3745,9 +3745,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -3765,11 +3765,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -3784,11 +3784,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -3801,9 +3801,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -3820,9 +3820,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -3839,9 +3839,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,

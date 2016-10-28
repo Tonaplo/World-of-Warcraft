@@ -1,38 +1,3 @@
-Version 3.77
-
-
-Known issues:
--- Limited support for Class Order Hall Bodyguards
---   Bodyguards can be used in panels when set to target or focus
---   Bodyguards have no unit ID so for now are only partially supported
--- AOE advisor not yet updated for Legion
---   Need new spell formulas and coefficients
---   No support yet for new AOEs like 'Power Word: Radiance'
--- Incoming heal estimation reported is not even close to accurate
---   Bug in Blizzard API UnitGetIncomingHeals() - returns bogus values
-
-
-Bugfixes:
--- Fixed role detection for Survival Hunters
--- Fixed role detection for Monks
--- Mage 'Remove Curse' is no longer a valid dispel
--- Updated all class dispel abilities
--- Updated all default spell bindings for healer dispels
--- Fixed display of GCD bar
--- Fixed absorption tracking for 'Befouled' and 'Touch of Harm'
--- Fixed shield absorption amount tracking of Hot icons
-
-
-Improvements:
--- Text provider '+<#n>k' now abbreviates millions as '+<#n>M'
--- Bar health text now abbreviates million as '<n>M'
--- Tooltip text now abbreviates millions as '<n>M'
--- Added default custom debuffs for Emerald Nightmare raid encounters
--- Added debuff absorption tracking for Mythic+ affix 'Overflow'
--- Added bouquet validator 'Counter: Mythic+ Overflow Absorb #k'
-
-
---------------------------------------------------------------
 Version 3.76
 
 

@@ -1,6 +1,6 @@
 --[[
 Name: LibKeyBound-1.0
-Revision: $Rev: 109 $
+Revision: $Rev: 98 $
 Author(s): Gello, Maul, Toadkiller, Tuller
 Website: http://www.wowace.com/wiki/LibKeyBound-1.0
 Documentation: http://www.wowace.com/wiki/LibKeyBound-1.0
@@ -10,7 +10,7 @@ Dependencies: CallbackHandler-1.0
 --]]
 
 local MAJOR = 'LibKeyBound-1.0'
-local MINOR = tonumber(("$Revision: 109 $"):match("(%d+)")) + 90000
+local MINOR = tonumber(("$Revision: 98 $"):match("(%d+)")) + 90000
 
 --[[
 	LibKeyBound-1.0
@@ -49,7 +49,6 @@ function LibKeyBound:Initialize()
 		f:SetFrameStrata('DIALOG')
 		f:SetToplevel(true)
 		f:EnableMouse(true)
-		f:SetMovable(true)
 		f:SetClampedToScreen(true)
 		f:SetWidth(360)
 		f:SetHeight(140)
@@ -66,9 +65,8 @@ function LibKeyBound:Initialize()
 		f:SetScript('OnShow', function() PlaySound('igMainMenuOption') end)
 		f:SetScript('OnHide', function() PlaySound('gsTitleOptionExit') end)
 
-		f:RegisterForDrag('LeftButton')
-		f:SetScript('OnDragStart', function(f) f:StartMoving() end) 
-		f:SetScript('OnDragStop', function(f) f:StopMovingOrSizing() end)
+		local tr = f:CreateTitleRegion()
+		tr:SetAllPoints(f)
 
 		local header = f:CreateTexture(nil, 'ARTWORK')
 		header:SetTexture('Interface\\DialogFrame\\UI-DialogBox-Header')

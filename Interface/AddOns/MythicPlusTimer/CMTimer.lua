@@ -17,10 +17,6 @@ function MythicPlusTimerCMTimer:Init()
     if MythicPlusTimerDB.pos.relativePoint == nil then
         MythicPlusTimerDB.pos.relativePoint = "RIGHT";
     end
-    
-    if not MythicPlusTimerDB.bestTimes then
-        MythicPlusTimerDB.bestTimes = {}
-    end
 
     MythicPlusTimerCMTimer.isCompleted = false;
     MythicPlusTimerCMTimer.started = false;
@@ -38,27 +34,6 @@ function MythicPlusTimerCMTimer:Init()
     MythicPlusTimerCMTimer.frame:SetWidth(100);
     MythicPlusTimerCMTimer.frame:SetHeight(100);
     MythicPlusTimerCMTimer.frameToggle = false
-
-
-    MythicPlusTimerCMTimer.eventFrame = CreateFrame("Frame")
-    MythicPlusTimerCMTimer.eventFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
-    MythicPlusTimerCMTimer.eventFrame:SetScript("OnEvent", function(self, event, timestamp, subEvent, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags)
-        if subEvent ~= "UNIT_DIED" then 
-            return 
-        end
-
-        local isPlayer = strfind(destGUID, "Player")
-        if not isPlayer then
-            return
-        end
-
-        local isFeign = UnitIsFeignDeath(destName);
-        if isFeign then
-            return
-        end
-        
-        MythicPlusTimerCMTimer:OnPlayerDeath()
-    end)
 end
 
 -- ---------------------------------------------------------------------------------------------------------------------
@@ -100,18 +75,14 @@ function MythicPlusTimerCMTimer:OnComplete()
     MythicPlusTimerCMTimer.frame:Hide();
     ObjectiveTrackerFrame:Show();
     MythicPlusTimerCMTimer:HideObjectivesFrames()
-
-    MythicPlusTimerDB.currentRun = {}
 end
 
 -- ---------------------------------------------------------------------------------------------------------------------
 function MythicPlusTimerCMTimer:OnStart()
-    MythicPlusTimerDB.currentRun = {}
-    
     MythicPlusTimerCMTimer.isCompleted = false;
     MythicPlusTimerCMTimer.started = true;
     MythicPlusTimerCMTimer.reset = false;
-    
+
     MythicPlusTimer:StartCMTimer()
 end
 
@@ -123,8 +94,6 @@ function MythicPlusTimerCMTimer:OnReset()
     MythicPlusTimerCMTimer.started = false;
     MythicPlusTimerCMTimer.reset = true;
     MythicPlusTimerCMTimer:HideObjectivesFrames()
-
-    MythicPlusTimerDB.currentRun = {}
 end
 
 -- ---------------------------------------------------------------------------------------------------------------------
@@ -154,27 +123,7 @@ function MythicPlusTimerCMTimer:ReStart()
     MythicPlusTimerCMTimer.timerStarted = false
     MythicPlusTimerCMTimer.started = false
     MythicPlusTimerCMTimer.isCompleted = false
-    MythicPlusTimerDB.currentRun = {}
     return
-end
-
-function MythicPlusTimerCMTimer:OnPlayerDeath()
-    local _, _, difficulty, _, _, _, _, _ = GetInstanceInfo();
-    local _, timeCM = GetWorldElapsedTime(1);
-
-    if difficulty ~= 8 then
-        return
-    end
-    
-    if not MythicPlusTimerCMTimer.started then
-        return
-    end
-    
-    if MythicPlusTimerDB.currentRun.death == nil then
-        return
-    end
-
-    MythicPlusTimerDB.currentRun.death = MythicPlusTimerDB.currentRun.death + 1
 end
 
 -- ---------------------------------------------------------------------------------------------------------------------
@@ -219,17 +168,7 @@ function MythicPlusTimerCMTimer:Draw()
         MythicPlusTimerCMTimer.frame:Show();
     end
    
-    if not MythicPlusTimerDB.bestTimes[currentZoneID] then
-        MythicPlusTimerDB.bestTimes[currentZoneID] = {}
-    end
-
-    if not MythicPlusTimerDB.currentRun.times  then
-        MythicPlusTimerDB.currentRun.times = {}
-    end
-
-    if MythicPlusTimerDB.currentRun.death == nil then
-        MythicPlusTimerDB.currentRun.death = 0
-    end
+    
     
     local cmLevel, affixes, empowered = C_ChallengeMode.GetActiveKeystoneInfo();
     local zoneName, _, maxTime = C_ChallengeMode.GetMapInfo(currentZoneID);
@@ -408,7 +347,7 @@ function MythicPlusTimerCMTimer:Draw()
         MythicPlusTimerCMTimer.frames.chesttimer.label3.text:SetText("3 "..MythicPlusTimer.L["Chests"].." ("..MythicPlusTimerCMTimer:FormatSeconds(threeChestTime).."):")
         MythicPlusTimerCMTimer.frames.chesttimer.label3.text:SetFontObject("GameFontHighlight");
         
-        MythicPlusTimerCMTimer.frames.chesttimer.time3.text:SetText(MythicPlusTimerCMTimer:FormatSeconds(timeLeft3))
+        MythicPlusTimerCMTimer.frames.chesttimer.time3.text:SetText(MythicPlusTimerCMTimer:FormatSeconds(timeLeft3));
         MythicPlusTimerCMTimer.frames.chesttimer.time3:Show()
     end
     
@@ -417,85 +356,36 @@ function MythicPlusTimerCMTimer:Draw()
     -- Objectives
     local _, _, steps = C_Scenario.GetStepInfo();
     if not MythicPlusTimerCMTimer.frames.objectives then
-        MythicPlusTimerCMTimer.frames.objectives = {}
+        MythicPlusTimerCMTimer.frames.objectives = {};
     end
-    
-    local stepsCount = 0
+
     for i = 1, steps do
-        stepsCount = stepsCount + 1
         if not MythicPlusTimerCMTimer.frames.objectives[i] then
             local f = CreateFrame("Frame", nil, MythicPlusTimerCMTimer.frame)
             f:SetAllPoints()
             f.text = f:CreateFontString(nil, "BACKGROUND", "GameFontHighlight");
-            f.text:SetPoint("TOPLEFT", 0, -90 - (i * 17))
+            f.text:SetPoint("TOPLEFT", 0, -90 - (i * 17));
 
             MythicPlusTimerCMTimer.frames.objectives[i] = f
         end
         MythicPlusTimerCMTimer.frames.objectives[i]:Show()
         
+        
         local name, _, status, curValue, finalValue = C_Scenario.GetCriteriaInfo(i);
         if status then
             MythicPlusTimerCMTimer.frames.objectives[i].text:SetFontObject("GameFontDisable")
-
-            if MythicPlusTimerDB.currentRun.times[i] == nil then
-                MythicPlusTimerDB.currentRun.times[i] = timeCM
-
-                if not MythicPlusTimerDB.bestTimes[currentZoneID][i] or timeCM < MythicPlusTimerDB.bestTimes[currentZoneID][i] then
-                    MythicPlusTimerDB.bestTimes[currentZoneID][i] = timeCM
-                end
-            end
         else
             MythicPlusTimerCMTimer.frames.objectives[i].text:SetFontObject("GameFontHighlight")
-            
-            if MythicPlusTimerDB.currentRun.times[i] then
-                MythicPlusTimerDB.currentRun.times[i] = nil
-            end
         end
 
-        local bestTimeStr = ""
-        if MythicPlusTimerDB.currentRun.times[i] and MythicPlusTimerDB.config.objectiveTime then
-            bestTimeStr = " - " .. MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.currentRun.times[i])
-            
-            if MythicPlusTimerDB.bestTimes[currentZoneID][i] then
-                local diff =  MythicPlusTimerDB.currentRun.times[i] - MythicPlusTimerDB.bestTimes[currentZoneID][i];
-                local diffStr = ""
-                if diff > 0 then
-                    diffStr = ", +" ..MythicPlusTimerCMTimer:FormatSeconds(diff)
-                end
-                
-                bestTimeStr = bestTimeStr .. " (".. MythicPlusTimer.L["Best"] ..": " .. MythicPlusTimerCMTimer:FormatSeconds(MythicPlusTimerDB.bestTimes[currentZoneID][i]) .. diffStr .. ")"
-            end
-        end
-        
         if finalValue >= 100 then
-            MythicPlusTimerCMTimer.frames.objectives[i].text:SetText("- "..curValue.."% "..name .. bestTimeStr);
+            MythicPlusTimerCMTimer.frames.objectives[i].text:SetText("- "..curValue.."% "..name);
         else
             if status then
                 curValue = finalValue
             end
 
-            MythicPlusTimerCMTimer.frames.objectives[i].text:SetText("- "..curValue.."/"..finalValue.." "..name .. bestTimeStr);
-        end
-    end
-    
-    
-    -- Death Count
-    if MythicPlusTimerDB.currentRun.death > 0 and MythicPlusTimerDB.config.deathCounter then
-        local i = stepsCount + 1
-        if not MythicPlusTimerCMTimer.frames.deathCounter then
-            local f = CreateFrame("Frame", nil, MythicPlusTimerCMTimer.frame)
-            f:SetAllPoints()
-            f.text = f:CreateFontString(nil, "BACKGROUND", "GameFontHighlight");
-            MythicPlusTimerCMTimer.frames.deathCounter = f
-        end
-        MythicPlusTimerCMTimer.frames.deathCounter.text:SetPoint("TOPLEFT", 0, -90 - (i * 17))
-        MythicPlusTimerCMTimer.frames.deathCounter:Show()
-
-        local seconds = MythicPlusTimerDB.currentRun.death * 5
-        MythicPlusTimerCMTimer.frames.deathCounter.text:SetText(MythicPlusTimerDB.currentRun.death.." "..MythicPlusTimer.L["Deaths"]..":|cFFFF0000 -"..MythicPlusTimerCMTimer:FormatSeconds(seconds))
-    else
-        if MythicPlusTimerCMTimer.frames.deathCounter then
-            MythicPlusTimerCMTimer.frames.deathCounter:Hide()
+            MythicPlusTimerCMTimer.frames.objectives[i].text:SetText("- "..curValue.."/"..finalValue.." "..name);
         end
     end
 end
