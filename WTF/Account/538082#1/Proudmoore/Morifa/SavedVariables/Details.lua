@@ -13,19 +13,22 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Mallusof-Proudmoore",
-	["last_day"] = "25",
+	["last_day"] = "27",
 	["ignore_nicktag"] = false,
 	["tabela_historico"] = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 10,
-	["last_version"] = "v7.1.0.3097",
+	["combat_counter"] = 14,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -34,7 +37,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -43,9 +46,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
@@ -135,7 +138,7 @@ _detalhes_database = {
 			["main_frame_locked"] = false,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -143,7 +146,7 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["row_color"] = {
 				0.1, -- [1]
@@ -151,7 +154,7 @@ _detalhes_database = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["font_size"] = 10,
+			["y"] = 1.525878906250e-005,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
@@ -165,14 +168,13 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["y"] = 1.525878906250e-005,
+			["font_size"] = 10,
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["savedbuffs"] = {
-	},
+	["last_instance_time"] = 0,
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -193,8 +195,8 @@ _detalhes_database = {
 	["combat_id"] = 0,
 	["savedStyles"] = {
 		{
-			["hide_in_combat_type"] = 1,
-			["menu_icons_size"] = 1,
+			["show_statusbar"] = true,
+			["backdrop_texture"] = "Details Ground",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -209,12 +211,12 @@ _detalhes_database = {
 			["bg_r"] = 0.0941,
 			["skin"] = "WoW Interface",
 			["following"] = {
+				["enabled"] = false,
 				["bar_color"] = {
 					1, -- [1]
 					1, -- [2]
 					1, -- [3]
 				},
-				["enabled"] = false,
 				["text_color"] = {
 					1, -- [1]
 					1, -- [2]
@@ -228,7 +230,7 @@ _detalhes_database = {
 				1, -- [4]
 			},
 			["switch_healer"] = false,
-			["micro_displays_locked"] = true,
+			["bars_sort_direction"] = 1,
 			["bars_inverted"] = false,
 			["switch_healer_in_combat"] = false,
 			["hide_out_of_combat"] = false,
@@ -236,11 +238,11 @@ _detalhes_database = {
 				["n_abilities"] = 3,
 				["n_enemies"] = 3,
 			},
-			["version"] = 3,
+			["name"] = "LUI Frame",
 			["stretch_button_side"] = 1,
 			["switch_all_roles_in_combat"] = false,
 			["switch_tank_in_combat"] = false,
-			["bg_alpha"] = 0.699999988079071,
+			["version"] = 3,
 			["attribute_text"] = {
 				["show_timer"] = {
 					true, -- [1]
@@ -249,7 +251,12 @@ _detalhes_database = {
 				},
 				["shadow"] = false,
 				["side"] = 1,
-				["text_size"] = 12,
+				["text_color"] = {
+					0.823529411764706, -- [1]
+					0.549019607843137, -- [2]
+					0, -- [3]
+					1, -- [4]
+				},
 				["custom_text"] = "{name}",
 				["text_face"] = "Prototype",
 				["anchor"] = {
@@ -258,14 +265,9 @@ _detalhes_database = {
 				},
 				["enabled"] = true,
 				["enable_custom_text"] = false,
-				["text_color"] = {
-					0.823529411764706, -- [1]
-					0.549019607843137, -- [2]
-					0, -- [3]
-					1, -- [4]
-				},
+				["text_size"] = 12,
 			},
-			["bars_sort_direction"] = 1,
+			["micro_displays_locked"] = true,
 			["menu_alpha"] = {
 				["enabled"] = false,
 				["onenter"] = 1,
@@ -273,21 +275,17 @@ _detalhes_database = {
 				["ignorebars"] = false,
 				["onleave"] = 1,
 			},
+			["switch_damager"] = false,
+			["ignore_mass_showhide"] = false,
 			["libwindow"] = {
 				["y"] = 52.6351928710938,
 				["x"] = -291.659912109375,
 				["point"] = "BOTTOMRIGHT",
 			},
-			["switch_tank"] = false,
-			["desaturated_menu"] = false,
 			["strata"] = "LOW",
 			["micro_displays_side"] = 2,
-			["row_show_animation"] = {
-				["anim"] = "Fade",
-				["options"] = {
-				},
-			},
-			["ignore_mass_showhide"] = false,
+			["window_scale"] = 1,
+			["switch_tank"] = false,
 			["hide_in_combat_alpha"] = 0,
 			["switch_all_roles_after_wipe"] = false,
 			["menu_icons"] = {
@@ -300,7 +298,34 @@ _detalhes_database = {
 				["space"] = -2,
 				["shadow"] = false,
 			},
-			["switch_damager"] = false,
+			["desaturated_menu"] = false,
+			["show_sidebars"] = true,
+			["row_show_animation"] = {
+				["anim"] = "Fade",
+				["options"] = {
+				},
+			},
+			["bars_grow_direction"] = 1,
+			["plugins_grow_direction"] = 1,
+			["skin_custom"] = "",
+			["grab_on_top"] = false,
+			["hide_icon"] = false,
+			["instance_button_anchor"] = {
+				-27, -- [1]
+				1, -- [2]
+			},
+			["switch_damager_in_combat"] = false,
+			["auto_current"] = true,
+			["toolbar_side"] = 1,
+			["bg_g"] = 0.0941,
+			["menu_anchor_down"] = {
+				-14, -- [1]
+				-3, -- [2]
+				["side"] = 2,
+			},
+			["hide_in_combat"] = false,
+			["hide_in_combat_type"] = 1,
+			["menu_icons_size"] = 1,
 			["statusbar_info"] = {
 				["alpha"] = 1,
 				["overlay"] = {
@@ -309,46 +334,20 @@ _detalhes_database = {
 					1, -- [3]
 				},
 			},
-			["window_scale"] = 1,
-			["menu_anchor_down"] = {
-				-14, -- [1]
-				-3, -- [2]
-				["side"] = 2,
-			},
-			["plugins_grow_direction"] = 1,
-			["skin_custom"] = "",
-			["hide_icon"] = false,
-			["switch_damager_in_combat"] = false,
-			["instance_button_anchor"] = {
-				-27, -- [1]
-				1, -- [2]
-			},
-			["grab_on_top"] = false,
-			["auto_current"] = true,
-			["toolbar_side"] = 1,
-			["bg_g"] = 0.0941,
-			["bars_grow_direction"] = 1,
-			["hide_in_combat"] = false,
-			["show_statusbar"] = true,
-			["backdrop_texture"] = "Details Ground",
-			["auto_hide_menu"] = {
-				["left"] = false,
-				["right"] = false,
-			},
 			["wallpaper"] = {
-				["overlay"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-					1, -- [4]
-				},
+				["enabled"] = false,
 				["texcoord"] = {
 					0, -- [1]
 					1, -- [2]
 					0, -- [3]
 					1, -- [4]
 				},
-				["enabled"] = false,
+				["overlay"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
 				["anchor"] = "all",
 				["height"] = 0,
 				["alpha"] = 0.5,
@@ -364,13 +363,16 @@ _detalhes_database = {
 					1, -- [3]
 				},
 			},
-			["show_sidebars"] = true,
-			["name"] = "LUI Frame",
+			["auto_hide_menu"] = {
+				["left"] = false,
+				["right"] = false,
+			},
+			["bg_alpha"] = 0.699999988079071,
 			["row_info"] = {
 				["textR_outline"] = true,
 				["spec_file"] = "Interface\\AddOns\\Details\\images\\spec_icons_normal_alpha",
 				["textL_outline"] = true,
-				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+				["textR_outline_small"] = true,
 				["textL_outline_small"] = true,
 				["percent_type"] = 1,
 				["fixed_text_color"] = {
@@ -392,6 +394,14 @@ _detalhes_database = {
 				},
 				["font_face_file"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				["textL_custom_text"] = "{data1}. {data3}{data2}",
+				["font_size"] = 12,
+				["height"] = 25,
+				["texture_file"] = "Interface\\AddOns\\LUI\\media\\textures\\statusbars\\gradient32x32.tga",
+				["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
+				["start_after_icon"] = false,
+				["textR_bracket"] = "(",
+				["use_spec_icons"] = true,
+				["textR_enable_custom_text"] = false,
 				["models"] = {
 					["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
 					["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
@@ -400,14 +410,6 @@ _detalhes_database = {
 					["lower_alpha"] = 0.1,
 					["upper_enabled"] = true,
 				},
-				["texture_custom_file"] = "Interface\\",
-				["texture_file"] = "Interface\\AddOns\\LUI\\media\\textures\\statusbars\\gradient32x32.tga",
-				["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
-				["start_after_icon"] = false,
-				["textR_bracket"] = "(",
-				["use_spec_icons"] = true,
-				["texture_custom"] = "",
-				["font_size"] = 12,
 				["fixed_texture_color"] = {
 					0, -- [1]
 					0, -- [2]
@@ -415,10 +417,10 @@ _detalhes_database = {
 				},
 				["textL_show_number"] = true,
 				["textL_enable_custom_text"] = false,
-				["textR_enable_custom_text"] = false,
+				["texture_custom"] = "",
 				["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 				["texture"] = "LUI_Gradient",
-				["textR_outline_small"] = true,
+				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 				["fixed_texture_background_color"] = {
 					0.619607, -- [1]
 					0.619607, -- [2]
@@ -428,7 +430,7 @@ _detalhes_database = {
 				["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar_background",
 				["texture_background"] = "DGround",
 				["alpha"] = 1,
-				["textL_class_colors"] = false,
+				["textR_class_colors"] = false,
 				["textR_outline_small_color"] = {
 					0, -- [1]
 					0, -- [2]
@@ -436,14 +438,7 @@ _detalhes_database = {
 					1, -- [4]
 				},
 				["no_icon"] = false,
-				["textR_class_colors"] = false,
-				["textR_show_data"] = {
-					true, -- [1]
-					true, -- [2]
-					true, -- [3]
-				},
-				["font_face"] = "Prototype",
-				["texture_class_colors"] = true,
+				["textL_class_colors"] = false,
 				["backdrop"] = {
 					["enabled"] = false,
 					["size"] = 6,
@@ -455,17 +450,24 @@ _detalhes_database = {
 					},
 					["texture"] = "Details BarBorder 2",
 				},
+				["font_face"] = "Prototype",
+				["texture_class_colors"] = true,
+				["textR_show_data"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+				},
 				["fast_ps_update"] = false,
 				["textR_separator"] = ",",
-				["height"] = 25,
+				["texture_custom_file"] = "Interface\\",
 			},
 			["bg_b"] = 0.0941,
 		}, -- [1]
 	},
+	["last_version"] = "v7.1.0.3097",
 	["character_data"] = {
-		["logons"] = 4,
+		["logons"] = 6,
 	},
-	["last_instance_time"] = 0,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -495,8 +497,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -413.240310668945,
-					["x"] = 586.222839355469,
+					["y"] = -411.193237304687,
+					["x"] = 587.246398925781,
 					["w"] = 245.865966796875,
 					["h"] = 173.444091796875,
 				},
@@ -529,8 +531,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -413.240310668945,
-					["x"] = 832.088928222656,
+					["y"] = -411.193237304687,
+					["x"] = 833.112121582031,
 					["w"] = 245.865966796875,
 					["h"] = 173.444091796875,
 				},
@@ -543,9 +545,7 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["savedbuffs"] = {
 	},
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {

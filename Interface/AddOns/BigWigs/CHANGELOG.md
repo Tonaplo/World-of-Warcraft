@@ -1,12 +1,8 @@
 # BigWigs
 
-## [v20.1](https://github.com/BigWigsMods/BigWigs/tree/v20.1) (2016-10-25) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v20...v20.1)
+## [v21.2](https://github.com/BigWigsMods/BigWigs/tree/v21.2) (2016-10-27) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v21.1...v21.2)
 
--   Nightmare/Nythendra: Add InfoBox for Infested.  
--   InfoBox: Color and trim names  
--   Core: Add some debug  
--   Nightmare/Cenarius: Add InfoBox for nightmare stacks.  
--   InfoBox: Fix error, closes #82  
--   Add `SetInfoByTable` API.  
--   update zhCN/zhTW. (#81)  
+-   Options: Fix an issue with not being able to disable custom boss options that are on by default, closes #84  
+-   Potential fix for DBM pull timers  
+-   Proximity: Tweak ranges  

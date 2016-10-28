@@ -1,11 +1,4 @@
 Version: 1
-Frame: PlayerFrame
-FrameLevel: 8
-Anchor: CENTER
-X: -300
-Y: 0
-W: 232
-H: 100
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,6 +6,13 @@ X: 300
 Y: 0
 W: 232
 H: 100
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,3 +20,10 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: PlayerFrame
+FrameLevel: 8
+Anchor: CENTER
+X: -300
+Y: 0
+W: 232
+H: 100
