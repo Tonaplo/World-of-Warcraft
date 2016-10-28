@@ -38,12 +38,15 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
@@ -55,21 +58,18 @@ LUIDB = {
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
 					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["Clock"] = {
-						["Time24"] = true,
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Memory"] = {
 						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -78,7 +78,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1472833364,
+							["Mallusof"] = 1473917956,
 						},
 					},
 				},
@@ -105,14 +105,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -140,16 +147,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -689,38 +689,38 @@ LUIDB = {
 							"/bt", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/s Shalaran", -- [1]
-							"/s yes", -- [2]
-							"/p that strat makes it easy", -- [3]
-							"/s Shalaran", -- [4]
-							"/p that strat makes it easy", -- [5]
-							"/s yes", -- [6]
-							"/s have you been there alreadt?", -- [7]
-							"/wa", -- [8]
-							"/s yes", -- [9]
-							"/s Shalaran", -- [10]
-							"/p need much more damage", -- [11]
+							"/s yes", -- [1]
+							"/p that strat makes it easy", -- [2]
+							"/s Shalaran", -- [3]
+							"/s yes", -- [4]
+							"/s Shalaran", -- [5]
+							"/p that strat makes it easy", -- [6]
+							"/s yes", -- [7]
+							"/p that strat makes it easy", -- [8]
+							"/s Shalaran", -- [9]
+							"/p that strat makes it easy", -- [10]
+							"/s Shalaran", -- [11]
 							"/s yes", -- [12]
-							"/s have you been there alreadt?", -- [13]
-							"/p that strat makes it easy", -- [14]
-							"/wa", -- [15]
+							"/s Shalaran", -- [13]
+							"/s yes", -- [14]
+							"/p that strat makes it easy", -- [15]
 							"/s Shalaran", -- [16]
 							"/s yes", -- [17]
-							"/p that strat makes it easy", -- [18]
-							"/s Shalaran", -- [19]
-							"/p that strat makes it easy", -- [20]
-							"/s yes", -- [21]
-							"/wa", -- [22]
-							"/s Shalaran", -- [23]
-							"/s yes", -- [24]
-							"/p that strat makes it easy", -- [25]
-							"/s Shalaran", -- [26]
-							"/p that strat makes it easy", -- [27]
-							"/s yes", -- [28]
+							"/s Shalaran", -- [18]
+							"/p that strat makes it easy", -- [19]
+							"/s yes", -- [20]
+							"/p that strat makes it easy", -- [21]
+							"/s Shalaran", -- [22]
+							"/p that strat makes it easy", -- [23]
+							"/s Shalaran", -- [24]
+							"/s yes", -- [25]
+							"/p that strat makes it easy", -- [26]
+							"/s yes", -- [27]
+							"/p that strat makes it easy", -- [28]
 							"/s Shalaran", -- [29]
-							"/p that strat makes it easy", -- [30]
-							"/s yes", -- [31]
-							"/p that strat makes it easy", -- [32]
+							"/s yes", -- [30]
+							"/p that strat makes it easy", -- [31]
+							"/s yes", -- [32]
 						},
 					},
 				},
@@ -749,6 +749,7 @@ LUIDB = {
 				["Base"] = {
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -890,7 +891,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -902,23 +909,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1054,13 +1055,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1072,17 +1067,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1155,6 +1156,7 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1222,9 +1224,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1241,9 +1243,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1262,11 +1264,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1279,9 +1281,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1298,9 +1300,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1341,7 +1343,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1350,12 +1352,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
 					["Auras"] = 2,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1375,7 +1378,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1409,7 +1412,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1418,13 +1421,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 		},

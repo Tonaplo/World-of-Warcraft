@@ -1,4 +1,11 @@
 Version: 1
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: LEFT
+X: 261
+Y: 99
+W: 128
+H: 64
 Frame: ColorPickerFrame
 FrameLevel: 21
 Anchor: RIGHT
@@ -34,13 +41,6 @@ X: 140
 Y: -52
 W: 385
 H: 240
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: LEFT
-X: 261
-Y: 99
-W: 351
-H: 92
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
