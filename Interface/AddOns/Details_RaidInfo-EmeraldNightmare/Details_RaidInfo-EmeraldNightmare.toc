@@ -2,7 +2,7 @@
 ## Title: Details: Emerald Nightmare
 ## Notes: Plugin for Details
 ## RequiredDeps: Details
-## X-Curse-Packaged-Version: r565
+## X-Curse-Packaged-Version: r567
 ## X-Curse-Project-Name: Details!
 ## X-Curse-Project-ID: details
 ## X-Curse-Repository-ID: wow/details/mainline

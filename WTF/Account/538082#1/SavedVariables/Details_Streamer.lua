@@ -1,12 +1,19 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Kaldorath - Proudmoore"] = "Mallusof - Proudmoore",
 		["Praerend - Proudmoore"] = "Mallusof - Proudmoore",
-		["Morifa - Proudmoore"] = "Mallusof - Proudmoore",
-		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
 		["Farahn - Proudmoore"] = "Mallusof - Proudmoore",
-		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
+		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Proudmoore",
+		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
+		["Granjior - Proudmoore"] = "Mallusof - Proudmoore",
+		["Rahran - Proudmoore"] = "Mallusof - Proudmoore",
+		["Fimwack - Proudmoore"] = "Mallusof - Proudmoore",
+		["Greybone - Proudmoore"] = "Mallusof - Proudmoore",
+		["Miriyal - Proudmoore"] = "Mallusof - Proudmoore",
+		["Faerand - Proudmoore"] = "Mallusof - Proudmoore",
+		["Morifa - Proudmoore"] = "Mallusof - Proudmoore",
 	},
 	["profiles"] = {
 		["Mallusof - Proudmoore"] = {
@@ -46,10 +53,10 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 1.525878906250e-005,
 			["font_size"] = 10,
+			["y"] = 1.525878906250e-005,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
@@ -69,7 +76,7 @@ Details_StreamerDB = {
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
