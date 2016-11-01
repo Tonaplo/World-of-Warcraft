@@ -1,3 +1,6 @@
+VER 3 000000000000001D "Camera" "1109100"
+/console cameraDistanceMaxZoomFactor 2.6
+END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END

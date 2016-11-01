@@ -22,37 +22,20 @@ BigWigs3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Advisor Melandrus"] = {
-		},
 		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Ivanyr"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Bosses_Advisor Vandros"] = {
-		},
-		["BigWigs_Bosses_Corstilax"] = {
-		},
-		["BigWigs_Bosses_Naltira"] = {
-		},
-		["BigWigs_Bosses_Patrol Captain Gerdo"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 20,
-					["width"] = 139.999557495117,
-					["font"] = "Friz Quadrata TT",
-					["posx"] = 425.458787633848,
-					["sound"] = true,
-					["posy"] = 396.516398724201,
-				},
-			},
-		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Bosses_Shadow-Lord Iskar"] = {
+			["profiles"] = {
+				["Default"] = {
+					[181753] = 0,
+					[181827] = 0,
+					[185345] = 0,
+				},
+			},
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
@@ -72,15 +55,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Shadow-Lord Iskar"] = {
-			["profiles"] = {
-				["Default"] = {
-					[181753] = 0,
-					[181827] = 0,
-					[185345] = 0,
-				},
-			},
-		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -88,9 +62,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Xavius"] = {
-		},
-		["BigWigs_Bosses_Talixae Flamewreath"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -106,16 +78,26 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Respawn"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["fontSize"] = 20,
+					["width"] = 139.999557495117,
+					["font"] = "Friz Quadrata TT",
+					["posx"] = 425.458787633848,
+					["sound"] = true,
+					["posy"] = 396.516398724201,
+				},
+			},
+		},
 		["BigWigs_Bosses_Nythendra"] = {
 			["profiles"] = {
 				["Default"] = {
 					[203045] = 0,
 				},
 			},
-		},
-		["BigWigs_Plugins_Respawn"] = {
-		},
-		["BigWigs_Bosses_General Xakal"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
@@ -743,24 +725,18 @@ BigWigsStatisticsDB = {
 				["kills"] = 4,
 			},
 		},
-		[1432] = {
-			["normal"] = {
-				["kills"] = 1,
-				["best"] = 437.290999999997,
-				["wipes"] = 1,
-			},
+		[1447] = {
 			["mythic"] = {
-				["kills"] = 3,
-				["best"] = 345.235,
-				["wipes"] = 1,
+				["wipes"] = 109,
 			},
 			["heroic"] = {
-				["best"] = 264.710999999999,
-				["kills"] = 3,
+				["kills"] = 5,
+				["wipes"] = 5,
+				["best"] = 259.499,
 			},
 			["LFR"] = {
-				["best"] = 276.891,
-				["kills"] = 3,
+				["best"] = 194.652,
+				["kills"] = 1,
 			},
 		},
 		[1394] = {
@@ -789,20 +765,24 @@ BigWigsStatisticsDB = {
 				["kills"] = 3,
 			},
 		},
-		[1372] = {
-			["heroic"] = {
-				["best"] = 324.116,
-				["kills"] = 3,
+		[1432] = {
+			["normal"] = {
+				["kills"] = 1,
+				["best"] = 437.290999999997,
+				["wipes"] = 1,
 			},
 			["mythic"] = {
-				["kills"] = 4,
-				["wipes"] = 34,
-				["best"] = 388.648000000001,
+				["kills"] = 3,
+				["best"] = 345.235,
+				["wipes"] = 1,
+			},
+			["heroic"] = {
+				["best"] = 264.710999999999,
+				["kills"] = 3,
 			},
 			["LFR"] = {
-				["kills"] = 5,
-				["best"] = 227.687999999995,
-				["wipes"] = 1,
+				["best"] = 276.891,
+				["kills"] = 3,
 			},
 		},
 		[1391] = {
@@ -871,18 +851,20 @@ BigWigsStatisticsDB = {
 				["kills"] = 4,
 			},
 		},
-		[1447] = {
-			["mythic"] = {
-				["wipes"] = 109,
-			},
+		[1372] = {
 			["heroic"] = {
-				["kills"] = 5,
-				["wipes"] = 5,
-				["best"] = 259.499,
+				["best"] = 324.116,
+				["kills"] = 3,
+			},
+			["mythic"] = {
+				["kills"] = 4,
+				["wipes"] = 34,
+				["best"] = 388.648000000001,
 			},
 			["LFR"] = {
-				["best"] = 194.652,
-				["kills"] = 1,
+				["kills"] = 5,
+				["best"] = 227.687999999995,
+				["wipes"] = 1,
 			},
 		},
 	},

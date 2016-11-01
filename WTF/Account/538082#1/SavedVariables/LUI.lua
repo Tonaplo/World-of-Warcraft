@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1492524973,
+							["Mallusof"] = 1429628263,
 						},
 					},
 				},
@@ -65,27 +65,27 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -105,6 +105,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -115,10 +120,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -146,10 +147,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -1043,72 +1043,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i lol", -- [1]
-							"/s lol", -- [2]
-							"/s sorry about that", -- [3]
-							"/bt", -- [4]
-							"/i thanks!", -- [5]
-							"/i that dps", -- [6]
-							"/i oh ", -- [7]
-							"/i Prolly not spam", -- [8]
-							"/bt", -- [9]
+							"/i oh ", -- [1]
+							"/i Prolly not spam", -- [2]
+							"/i lol", -- [3]
+							"/i oh ", -- [4]
+							"/i lol", -- [5]
+							"/s lol", -- [6]
+							"/bt", -- [7]
+							"/i that dps", -- [8]
+							"/i Prolly not spam", -- [9]
 							"/macro", -- [10]
-							"/i Prolly not spam", -- [11]
-							"/s lol", -- [12]
-							"/i jesus", -- [13]
-							"/i lol", -- [14]
-							"/i Prolly not spam", -- [15]
-							"/s lol", -- [16]
+							"/s lol", -- [11]
+							"/i lol", -- [12]
+							"/s lol", -- [13]
+							"/s sorry about that", -- [14]
+							"/i oh ", -- [15]
+							"/i Prolly not spam", -- [16]
 							"/i lol", -- [17]
-							"/s lol", -- [18]
-							"/s sorry about that", -- [19]
-							"/i thanks!", -- [20]
-							"/i oh ", -- [21]
-							"/bt", -- [22]
-							"/i Prolly not spam", -- [23]
-							"/i jesus", -- [24]
+							"/i oh ", -- [18]
+							"/i lol", -- [19]
+							"/s lol", -- [20]
+							"/i that dps", -- [21]
+							"/macro", -- [22]
+							"/i lol", -- [23]
+							"/s sorry about that", -- [24]
 							"/i Prolly not spam", -- [25]
-							"/i lol", -- [26]
-							"/s sorry about that", -- [27]
-							"/i oh ", -- [28]
-							"/i Prolly not spam", -- [29]
-							"/i lol", -- [30]
-							"/i oh ", -- [31]
-							"/i lol", -- [32]
+							"/i oh ", -- [26]
+							"/s lol", -- [27]
+							"/macro", -- [28]
+							"/s sorry about that", -- [29]
+							"/i oh ", -- [30]
+							"/macro", -- [31]
+							"/i oh ", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kalithumos-Tichondrius ever", -- [1]
-							"/cw Kalithumos-Tichondrius *except PvP server", -- [2]
-							"/wa", -- [3]
-							"/p thanks", -- [4]
-							"/p here", -- [5]
-							"/p what to do?", -- [6]
-							"/p who?", -- [7]
-							"/p wait", -- [8]
-							"/p tacs for pally", -- [9]
-							"/p cape", -- [10]
-							"/p gloves", -- [11]
-							"/p get", -- [12]
-							"/p disguise", -- [13]
-							"/p gj", -- [14]
-							"/p you have to speak to all the guys", -- [15]
-							"/p then it works", -- [16]
-							"/p cheers", -- [17]
-							"/g still need?", -- [18]
-							"/g I'll heal Arcway", -- [19]
-							"/g not EoA", -- [20]
-							"/p Cant talk", -- [21]
-							"/p people here sleeping", -- [22]
-							"/p voicechat, ye?", -- [23]
-							"/p link the key again", -- [24]
-							"/p thanks", -- [25]
-							"/p https://discord.gg/e69WY", -- [26]
-							"/p not req", -- [27]
-							"/p go", -- [28]
-							"/p yes", -- [29]
-							"/p thanks!", -- [30]
-							"/p I gtg", -- [31]
-							"/p cyall!", -- [32]
+							"/p cheers", -- [1]
+							"/p thanks", -- [2]
+							"/cw Kalithumos-Tichondrius ever", -- [3]
+							"/p cheers", -- [4]
+							"/cw Kalithumos-Tichondrius ever", -- [5]
+							"/macro", -- [6]
+							"/p tacs for pally", -- [7]
+							"/p thanks", -- [8]
+							"/p cheers", -- [9]
+							"/macro", -- [10]
+							"/p thanks", -- [11]
+							"/macro", -- [12]
+							"/bt", -- [13]
+							"/reload", -- [14]
+							"/p cheers", -- [15]
+							"/cw Kalithumos-Tichondrius ever", -- [16]
+							"/macro", -- [17]
+							"/p thanks", -- [18]
+							"/macro", -- [19]
+							"/bt", -- [20]
+							"/p cheers", -- [21]
+							"/macro", -- [22]
+							"/bt", -- [23]
+							"/macro", -- [24]
+							"/2 The funny part is that you all assume that all science comes from the US. The US is shit at science - always have been. ", -- [25]
+							"/2 Yes, I do. As most humans do", -- [26]
+							"/2 Cause most religion is freaking insane :P", -- [27]
+							"/2 hahahahaha, cause religion isnt contradictory at all, hahahaha", -- [28]
+							"/2 You're either unintelligent or a troll. I'm going to assume troll.", -- [29]
+							"/2 Honestly, I have no problem with religion. I have a problem with the people that wants to kill me if I dont believe in theirs. And there are a lot of those.", -- [30]
+							"/2 Christians", -- [31]
+							"/2 any really", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1132,14 +1132,14 @@ LUIDB = {
 				["Base"] = {
 					["modules"] = {
 					},
-					["x"] = 27.9999974495862,
+					["x"] = 33.3724626035666,
 					["General"] = {
 						["Font"] = {
 							["Font"] = "Prototype",
 						},
 						["MinimalistTabs"] = false,
 					},
-					["y"] = 46.0000018399687,
+					["y"] = 43.6975475017343,
 				},
 				["Default"] = {
 					["modules"] = {
@@ -1155,11 +1155,11 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
 					["SidebarRight1"] = {
-						["IsOpen"] = true,
 						["Anchor"] = "BT4Bar9",
 					},
 				},
@@ -1241,7 +1241,7 @@ LUIDB = {
 					["Micromenu"] = 1.5,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1250,13 +1250,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1312,7 +1311,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1321,15 +1320,16 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
+					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,

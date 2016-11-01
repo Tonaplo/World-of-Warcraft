@@ -24,6 +24,9 @@ END
 VER 3 0000000000000002 "reload ui" "INV_MISC_QUESTIONMARK"
 /reload ui
 END
+VER 3 000000000000001E "Tich" "SPELL_HOLY_NULLIFYDISEASE"
+/g I press this macro every time I get ganked, to remind everyone how much World PvP sucks, especially on this terrible server, and hopw we really need to move.
+END
 VER 3 0000000000000004 "WeakAuras" "INV_MISC_NOTE_05"
 /wa
 END
