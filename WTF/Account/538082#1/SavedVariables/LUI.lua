@@ -78,7 +78,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1449331682,
+							["Mallusof"] = 1449640690,
 						},
 					},
 				},
@@ -86,14 +86,14 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 36716179,
-							["Farahn"] = 43276327,
+							["Farahn"] = 47760328,
 							["Greybone"] = 6319739,
 							["Amranar"] = 405979909,
 							["Granjior"] = 257284526,
 							["Kaldorath"] = 33410543,
 							["Faerand"] = 34540287,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 303578478,
+							["Rahran"] = 303593878,
 							["Morifa"] = 389738100,
 							["Fimwack"] = 35169412,
 							["Praerend"] = 655319001,
@@ -105,14 +105,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -140,16 +147,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -655,72 +655,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/macro", -- [1]
-							"/WA", -- [2]
+							"/WA", -- [1]
+							"/macro", -- [2]
 							"/g thanks :)", -- [3]
 							"/macro", -- [4]
-							"/g thanks :)", -- [5]
-							"/details help", -- [6]
-							"/details reinstall", -- [7]
-							"/g thanks :)", -- [8]
-							"/wa", -- [9]
-							"/macro", -- [10]
-							"/g thanks :)", -- [11]
-							"/WA", -- [12]
-							"/wa", -- [13]
+							"/wa", -- [5]
+							"/g thanks :)", -- [6]
+							"/macro", -- [7]
+							"/wa", -- [8]
+							"/macro", -- [9]
+							"/g thanks :)", -- [10]
+							"/macro", -- [11]
+							"/wa", -- [12]
+							"/macro", -- [13]
 							"/g thanks :)", -- [14]
-							"/wa", -- [15]
+							"/WA", -- [15]
 							"/macro", -- [16]
-							"/WA", -- [17]
-							"/g thanks :)", -- [18]
-							"/macro", -- [19]
+							"/g thanks :)", -- [17]
+							"/macro", -- [18]
+							"/wa", -- [19]
 							"/g thanks :)", -- [20]
-							"/details help", -- [21]
-							"/g thanks :)", -- [22]
+							"/macro", -- [21]
+							"/wa", -- [22]
 							"/macro", -- [23]
-							"/WA", -- [24]
-							"/g thanks :)", -- [25]
-							"/macro", -- [26]
-							"/g thanks :)", -- [27]
-							"/details help", -- [28]
+							"/g thanks :)", -- [24]
+							"/wa", -- [25]
+							"/g thanks :)", -- [26]
+							"/macro", -- [27]
+							"/wa", -- [28]
 							"/macro", -- [29]
 							"/g thanks :)", -- [30]
-							"/details help", -- [31]
+							"/macro", -- [31]
 							"/g thanks :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/p bponus roll", -- [1]
-							"/tsm", -- [2]
-							"/p nevermind", -- [3]
-							"/p bponus roll", -- [4]
-							"/p nevermind", -- [5]
+							"/tsm", -- [1]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [2]
+							"/spit", -- [3]
+							"/p nevermind", -- [4]
+							"/macro", -- [5]
 							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [6]
-							"/cw Kaemnsux-Tichondrius Just fixing an addon issue", -- [7]
-							"/p nevermind", -- [8]
-							"/p bponus roll", -- [9]
-							"/macro", -- [10]
-							"/tsm", -- [11]
-							"/s DC", -- [12]
-							"/p nevermind", -- [13]
+							"/tsm", -- [7]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [8]
+							"/macro", -- [9]
+							"/p bponus roll", -- [10]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [11]
+							"/p bponus roll", -- [12]
+							"/tsm", -- [13]
 							"/macro", -- [14]
-							"/p nevermind", -- [15]
-							"/p bponus roll", -- [16]
-							"/tsm", -- [17]
-							"/p nevermind", -- [18]
-							"/p bponus roll", -- [19]
-							"/p nevermind", -- [20]
-							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [21]
-							"/p nevermind", -- [22]
-							"/macro", -- [23]
-							"/s DC", -- [24]
-							"/macro", -- [25]
-							"/p bponus roll", -- [26]
-							"/p nevermind", -- [27]
-							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [28]
-							"/macro", -- [29]
-							"/p bponus roll", -- [30]
-							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [31]
-							"/p bponus roll", -- [32]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [15]
+							"/tsm", -- [16]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [17]
+							"/spit", -- [18]
+							"/macro", -- [19]
+							"/tsm", -- [20]
+							"/macro", -- [21]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [22]
+							"/tsm", -- [23]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [24]
+							"/spit", -- [25]
+							"/tsm", -- [26]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [27]
+							"/spit", -- [28]
+							"/cw Kaemnsux-Tichondrius About to go to bed, sorry", -- [29]
+							"/2 Not voting is likely saying you dont care about what happens in your society", -- [30]
+							"/2 then vote gary johnson, if you donmt like the others", -- [31]
+							"/2 As long as you fucking vote. 2/3rds dont vote because \"my vote wont make a difference\". That's fucking retarded", -- [32]
 						},
 					},
 				},
@@ -1151,6 +1151,7 @@ LUIDB = {
 			["profiles"] = {
 				["Base"] = {
 					["SidebarLeft2"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 					},
@@ -1159,6 +1160,7 @@ LUIDB = {
 						["Anchor"] = "BT4Bar10",
 					},
 					["SidebarRight1"] = {
+						["IsOpen"] = true,
 						["Anchor"] = "BT4Bar9",
 					},
 				},
@@ -1184,14 +1186,15 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Base",
-		["Granjior - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
-		["Praerend - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
-		["Faerand - Proudmoore"] = "Base",
+		["Amranar - Proudmoore"] = "Base",
+		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
+		["Granjior - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
+		["Faerand - Proudmoore"] = "Base",
+		["Praerend - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -1341,7 +1344,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1350,12 +1353,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
+					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["Auras"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1375,7 +1379,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1409,7 +1413,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1418,13 +1422,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 		},
