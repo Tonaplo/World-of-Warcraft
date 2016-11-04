@@ -1,6 +1,9 @@
 
 MythicPlusTimerDB = {
-	["currentRun"] = {
+	["pos"] = {
+		["top"] = 190,
+		["left"] = -260,
+		["relativePoint"] = "RIGHT",
 	},
 	["config"] = {
 		["objectiveTime"] = true,
@@ -15,10 +18,13 @@ MythicPlusTimerDB = {
 			nil, -- [5]
 			1808, -- [6]
 		},
+		[1492] = {
+			258, -- [1]
+			683, -- [2]
+			nil, -- [3]
+			1064, -- [4]
+		},
 	},
-	["pos"] = {
-		["top"] = 190,
-		["left"] = -260,
-		["relativePoint"] = "RIGHT",
+	["currentRun"] = {
 	},
 }
