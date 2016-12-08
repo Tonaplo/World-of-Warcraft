@@ -502,6 +502,59 @@ VUHDO_CONFIG = {
 			"189032", -- [366]
 			"180164", -- [367]
 			"180166", -- [368]
+			"Infested", -- [369]
+			"Infested Ground", -- [370]
+			"Volatile Rot", -- [371]
+			"Burst of Corruption", -- [372]
+			"Unstable Decay", -- [373]
+			"Nightmare Corruption", -- [374]
+			"Dispersed Spores", -- [375]
+			"Touch of Corruption", -- [376]
+			"Nightmare Explosion", -- [377]
+			"Mind Flay", -- [378]
+			"Spew Corruption", -- [379]
+			"Cursed Blood", -- [380]
+			"Web of Pain", -- [381]
+			"Necrotic Venom", -- [382]
+			"Venomous Pool", -- [383]
+			"Twisting Shadows", -- [384]
+			"Wind Burn", -- [385]
+			"Dripping Fangs", -- [386]
+			"Focused Gaze", -- [387]
+			"198108", -- [388]
+			"Nightmarish Cacophony", -- [389]
+			"Miasma", -- [390]
+			"Mark of Ysondre", -- [391]
+			"Nightmare Bloom", -- [392]
+			"Wasting Dread", -- [393]
+			"Mark of Emeriss", -- [394]
+			"Volatile Infection", -- [395]
+			"Mark of Lethon", -- [396]
+			"Shadow Burst", -- [397]
+			"Mark of Taerar", -- [398]
+			"Bellowing Roar", -- [399]
+			"Collapsing Nightmare", -- [400]
+			"Cleansed Ground", -- [401]
+			"Creeping Nightmares", -- [402]
+			"Nightmare Brambles", -- [403]
+			"Desiccating Stomp", -- [404]
+			"Nightmare Javelin", -- [405]
+			"Scorned Touch", -- [406]
+			"Ancient Dream", -- [407]
+			"Unbound Touch", -- [408]
+			"Unbound Essence", -- [409]
+			"Dream Simulacrum", -- [410]
+			"Awakening to the Nightmare", -- [411]
+			"Corruption: Descent into Madness", -- [412]
+			"Corruption: Madness", -- [413]
+			"Darkening Soul", -- [414]
+			"Nightmare Blades", -- [415]
+			"Tormenting Fixation", -- [416]
+			"Blackening Soul", -- [417]
+			"Blackened", -- [418]
+			"Bonds of Terror", -- [419]
+			"Tainted Discharge", -- [420]
+			"The Infinite Dark", -- [421]
 		},
 		["isIcon"] = true,
 		["selected"] = "",
@@ -529,7 +582,7 @@ VUHDO_CONFIG = {
 			["USE_SHADOW"] = true,
 		},
 		["yAdjust"] = -34,
-		["version"] = 30,
+		["version"] = 31,
 		["isColor"] = false,
 		["isNoRangeFade"] = false,
 		["isStacks"] = false,
@@ -540,6 +593,20 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Shadow Burst"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Dream Simulacrum"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Feed Pool"] = {
 				["isStacks"] = false,
@@ -582,6 +649,20 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Volatile Infection"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Infested Ground"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Melt Armor"] = {
 				["isStacks"] = false,
@@ -666,6 +747,13 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Twisting Shadows"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Lightning Prison"] = {
 				["isStacks"] = false,
@@ -765,6 +853,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Mark of Ysondre"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Mark of Chaos"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -821,6 +916,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Collapsing Nightmare"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Chain Hurl"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -870,6 +972,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Corruption: Madness"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Summon Ball Lightning"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -883,6 +992,13 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Blackening Soul"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["181099"] = {
 				["isStacks"] = false,
@@ -1045,6 +1161,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Mind Flay"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Magnetic Crush"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -1121,6 +1244,13 @@ VUHDO_CONFIG = {
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Awakening to the Nightmare"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Arcing Energy"] = {
 				["isStacks"] = false,
@@ -1213,6 +1343,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Phantasmal Corruption"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Garrote"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -1255,6 +1392,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Slagged"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Rend Flesh"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -1283,6 +1427,27 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Consuming Magic"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Corruption: Descent into Madness"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Venom Bolt Volley"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Fel Touch"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -1291,6 +1456,13 @@ VUHDO_CONFIG = {
 				["isIcon"] = true,
 			},
 			["184676"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["189032"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1311,7 +1483,35 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["189031"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Dead Zone"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Fel Bomb"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Miasma"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Fel Chakram"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1346,7 +1546,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Rend and Tear"] = {
+			["Spew Corruption"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Nightmare Javelin"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Deadly Plague"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1360,7 +1574,35 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Hex of Confusion"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Cobalt Mine Blast"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Unbound Essence"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Fright"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Epicenter"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1381,12 +1623,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Hex of Confusion"] = {
+			["Bellowing Roar"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Suppression"] = {
 				["isStacks"] = false,
@@ -1402,12 +1644,40 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Nightmare Corruption"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Mark of Emeriss"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Static Wound"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Blackened"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Rapid Fire"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Kick Shell"] = {
 				["isStacks"] = false,
@@ -1430,6 +1700,34 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Scary Fog"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Fel Incineration"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Branded: Fortification"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Ancient Dream"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Black Hole"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -1437,7 +1735,56 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Corrupted Healing"] = {
+			["Shackled Torment"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Dripping Fangs"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Molten Torrent"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Mortal Rend"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Marked for Death"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Anima Font"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Mark of Taerar"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Desecrate"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1451,12 +1798,40 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Flames of Galakrond"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Poison Cloud"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Crashing Thunder"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
+			},
+			["Mark of Lethon"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Touch of Corruption"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Stone Gaze"] = {
 				["isStacks"] = false,
@@ -1479,6 +1854,20 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Reaching Attack"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Expel Magic: Arcane"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Dulled Synapses"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -1493,7 +1882,42 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Lightning Charge"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Keen Eyesight"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Mark of Chaos: Replication"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Penetrating Shot"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Nightmare Blades"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Arcane Shock"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1507,12 +1931,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Phantasmal Corruption"] = {
+			["Toxic Mist"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Fatal Strike"] = {
 				["isStacks"] = false,
@@ -1528,7 +1952,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Discharged Energy"] = {
+			["Blade Dance"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1542,12 +1966,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Rapid Fire"] = {
+			["Bloodsoaked Heartseeker"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Thundering Throw"] = {
 				["isStacks"] = false,
@@ -1556,21 +1980,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Dread Shadows"] = {
+			["Arcing Lightning"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Venom Bolt Volley"] = {
+			["Aggressive Behavior"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["189032"] = {
+			["Overcharge"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1584,7 +2008,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["189031"] = {
+			["Savage Vines"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1598,7 +2022,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Matter Swap"] = {
+			["Sundering Bite"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1619,28 +2043,28 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Font of Corruption"] = {
+			["Seared Flesh"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Screech"] = {
+			["Electrostatic Charge"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arcing Lightning"] = {
+			["Heart Seeker"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arcane Shock"] = {
+			["Branded"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1661,7 +2085,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fel Bomb"] = {
+			["Fracture"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1675,14 +2099,35 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fel Chakram"] = {
+			["Unseen Strike"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Whirling"] = {
+			["Troll Rush"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Unstable Decay"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Darkening Soul"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Volatile Fire"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1696,28 +2141,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Slumber Spores"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Volatile Fire"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Sonic Screech"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Maim"] = {
+			["Matter Swap"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1731,14 +2155,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Sundering Bite"] = {
+			["Wildfire Spark"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Reaching Attack"] = {
+			["Iron Prison"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1752,28 +2176,28 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Slagged"] = {
+			["180164"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Phantasmal Obliteration"] = {
+			["Wind Burn"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Overcharged"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Mark of Chaos: Replication"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Branded: Fortification"] = {
+			["Debilitation"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1794,7 +2218,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fright"] = {
+			["Fiery Edge"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1815,12 +2239,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Epicenter"] = {
+			["Focused Gaze"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Panic"] = {
 				["isStacks"] = false,
@@ -1836,7 +2260,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Overcharge"] = {
+			["Sundering Blow"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1850,14 +2274,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Branded: Displacement"] = {
+			["Carnivorous Bite"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Scary Fog"] = {
+			["Slimed"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1878,14 +2302,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Dark Hunt"] = {
+			["Pinned Down"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Penetrating Shot"] = {
+			["Gusting Bomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1899,21 +2323,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Molten Torrent"] = {
+			["Unbound Touch"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Pierced Armor"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Poison Cloud"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Marked for Death"] = {
+			["Wind Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1927,14 +2351,35 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["180164"] = {
+			["Nightmarish Cacophony"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Corrosive Blast"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Corrosive Blast"] = {
+			["Corruption Kick"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Soul Sever"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Devastating Arc"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -1948,42 +2393,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Slimed"] = {
+			["Necrotic Venom"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Charring Breath"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Expel Magic: Arcane"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["184450"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Flames of Galakrond"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["On the Hunt"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Deadly Plague"] = {
+			["Frozen Blood"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2004,21 +2428,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Corruption Kick"] = {
+			["Petrifying Slam"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Toxic Mist"] = {
+			["Cutter Laser Target"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fan of Flames"] = {
+			["Blazing Radiance"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2060,14 +2484,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Singe"] = {
+			["Fan of Flames"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fiery Edge"] = {
+			["Gift of the Man'ari"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2102,28 +2526,28 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Hunger"] = {
+			["Shield Bash"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Aggressive Behavior"] = {
+			["189030"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Savage Vines"] = {
+			["Nightmare Brambles"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
-			["Phantasmal Wounds"] = {
+			["Convulsive Shadows"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2137,21 +2561,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Cutter Laser Target"] = {
+			["Lightning Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Seared Flesh"] = {
+			["Overwhelming Assault"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Improved Synapses"] = {
+			["Bitter Thoughts"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2179,7 +2603,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Bolt"] = {
+			["Lightning Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2193,34 +2617,6 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Charring Breath"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Expel Magic: Fire"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Wildfire Spark"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Unseen Strike"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
 			["Force of Will"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -2228,21 +2624,49 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Shield Bash"] = {
+			["Arcane Volatility"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Overwhelming Assault"] = {
+			["Arterial Bleeding"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Iron Prison"] = {
+			["Exposed Veins"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["198108"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Touch of Doom"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Pheromones"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
+			["Focused Lightning"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2256,21 +2680,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Pungency"] = {
+			["Crossed Over"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Electrostatic Charge"] = {
+			["Sticky Resin"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Debilitation"] = {
+			["Bonecracker"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2298,7 +2722,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fragile Bones"] = {
+			["Decapitate"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2312,14 +2736,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Sundering Blow"] = {
+			["Dire Fixation"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Impeding Thrust"] = {
+			["Locked On"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2340,14 +2764,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Parasitic Growth"] = {
+			["Web of Pain"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
-			["Locked On"] = {
+			["Parasitic Growth"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2361,19 +2785,19 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Scorching Breath"] = {
+			["Maim"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Troll Rush"] = {
+			["Creeping Nightmares"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Arcane Velocity"] = {
 				["isStacks"] = false,
@@ -2382,14 +2806,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Pierced Armor"] = {
+			["Impeding Thrust"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Overcharged"] = {
+			["Bathed in Light"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2410,7 +2834,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Bathed in Light"] = {
+			["Flame Arrows"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2424,7 +2848,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Storm"] = {
+			["Cinders"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2438,14 +2862,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Iron Tomb"] = {
+			["Frostbite"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Pinned Down"] = {
+			["Iron Tomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2459,12 +2883,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Flame Arrows"] = {
+			["Bonds of Terror"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Pheromones of Zeal"] = {
 				["isStacks"] = false,
@@ -2473,7 +2897,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Gusting Bomb"] = {
+			["Ensnared"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2487,42 +2911,42 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Frozen Blood"] = {
+			["Froststorm Strike"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Petrifying Slam"] = {
+			["Dispersed Spores"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Fel Breath"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Decapitate"] = {
+			["Impaled"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Bonecracker"] = {
+			["Crimson Wake"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Carnivorous Bite"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Exhale"] = {
+			["Fragile Bones"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2543,14 +2967,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Touch of Doom"] = {
+			["Pungency"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Exposed Veins"] = {
+			["Exhale"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2564,12 +2988,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arterial Bleeding"] = {
+			["Volatile Rot"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Icy Blood"] = {
 				["isStacks"] = false,
@@ -2585,7 +3009,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["189030"] = {
+			["Expel Magic: Fire"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2620,19 +3044,19 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Crossed Over"] = {
+			["Improved Synapses"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Sticky Resin"] = {
+			["Wasting Dread"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Aim"] = {
 				["isStacks"] = false,
@@ -2648,21 +3072,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Dire Fixation"] = {
+			["Infested"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Maddening Shout"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fel Breath"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Frostbite"] = {
+			["Singe"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2676,7 +3100,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Cinders"] = {
+			["Amber Prison"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2690,7 +3114,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Ensnared"] = {
+			["Phantasmal Obliteration"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2704,14 +3128,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Arcane Volatility"] = {
+			["Hunger"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Froststorm Strike"] = {
+			["184450"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2746,14 +3170,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Impaled"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Focused Lightning"] = {
+			["Cleansing Waters"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2767,6 +3184,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
+			["Enkindle"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Voodoo Doll"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -2774,12 +3198,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Bitter Thoughts"] = {
+			["Nightmare Bloom"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Genetic Alteration"] = {
 				["isStacks"] = false,
@@ -2802,21 +3226,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Amber Prison"] = {
+			["Sonic Screech"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Blazing Radiance"] = {
+			["Slumber Spores"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Gift of the Man'ari"] = {
+			["Scorching Breath"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2830,14 +3254,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Devastating Arc"] = {
+			["Branded: Displacement"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Wind Storm"] = {
+			["Phantasmal Wounds"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2872,12 +3296,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Blade Dance"] = {
+			["Scorned Touch"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Naked and Afraid"] = {
 				["isStacks"] = false,
@@ -2886,28 +3310,28 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Cleansing Waters"] = {
+			["Whirling"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Enkindle"] = {
+			["Nightmare Explosion"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Dark Hunt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fracture"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Branded"] = {
+			["Overwhelming Corruption"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2921,7 +3345,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Soul Sever"] = {
+			["Heart of Fear"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2935,7 +3359,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Pheromones"] = {
+			["On the Hunt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2949,7 +3373,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Poison Bomb"] = {
+			["Font of Corruption"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2970,19 +3394,19 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Convulsive Shadows"] = {
+			["Dread Shadows"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Mortal Rend"] = {
+			["Tainted Discharge"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Cobalt Petrification"] = {
 				["isStacks"] = false,
@@ -2991,14 +3415,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Bloodsoaked Heartseeker"] = {
+			["Corrupted Healing"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Maddening Shout"] = {
+			["Discharged Energy"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3019,12 +3443,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Charge"] = {
+			["Tormenting Fixation"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Tail Lash"] = {
 				["isStacks"] = false,
@@ -3047,35 +3471,35 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Overwhelming Corruption"] = {
+			["Burst of Corruption"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Cursed Blood"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Venomous Pool"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Rend and Tear"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Heart Seeker"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Crimson Wake"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Heart of Fear"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
-			},
-			["Anima Font"] = {
+			["Poison Bomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3096,19 +3520,19 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Desecrate"] = {
+			["Screech"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Shackled Torment"] = {
+			["Cleansed Ground"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Fixate"] = {
 				["isStacks"] = false,
@@ -3124,12 +3548,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Consuming Magic"] = {
+			["Desiccating Stomp"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Petrification"] = {
 				["isStacks"] = false,
@@ -3138,7 +3562,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fel Incineration"] = {
+			["The Infinite Dark"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -5890,9 +6314,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -5900,9 +6324,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -5955,9 +6379,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -5987,9 +6411,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -5997,9 +6421,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6052,9 +6476,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6091,7 +6515,7 @@ VUHDO_RAID = {
 		["baseRange"] = true,
 		["class"] = "DEMONHUNTER",
 		["role"] = 61,
-		["sortMaxHp"] = 347340,
+		["sortMaxHp"] = 367800,
 		["map"] = "Dalaran70",
 		["threat"] = 0,
 		["powermax"] = 100,
@@ -6105,7 +6529,8 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 17,
-		["healthmax"] = 347340,
+		["healthmax"] = 367800,
+		["lifeLossPerc"] = 1,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Kaldorath",
@@ -6113,7 +6538,7 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 347340,
+		["health"] = 367800,
 		["className"] = "Demon Hunter",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -6139,16 +6564,16 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
+		["SIDE_LEFT"] = "",
 		["INCOMING_BAR"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana only",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["CLUSTER_BORDER"] = "",
-		["SIDE_LEFT"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

@@ -35,24 +35,24 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 36716179,
-							["Farahn"] = 47760328,
-							["Greybone"] = 6319739,
-							["Amranar"] = 417201204,
-							["Granjior"] = 257284526,
-							["Kaldorath"] = 33410543,
+							["Farahn"] = 59868823,
+							["Greybone"] = 7138739,
+							["Amranar"] = 469163492,
+							["Granjior"] = 258323680,
+							["Kaldorath"] = 34118943,
 							["Faerand"] = 34540287,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 35169412,
-							["Morifa"] = 389738100,
+							["Morifa"] = 396890402,
 							["Rahran"] = 303593878,
-							["Praerend"] = 655319001,
+							["Praerend"] = 677536180,
 						},
 					},
 				},
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1463614232,
+							["Mallusof"] = 1370501090,
 						},
 					},
 				},
@@ -65,27 +65,27 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["Instance"] = {
-						["Enable"] = true,
-						["Font"] = "Prototype",
-					},
-					["Bags"] = {
-						["Font"] = "Prototype",
-					},
-					["Friends"] = {
-						["Font"] = "Prototype",
-					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
+					["Instance"] = {
+						["Enable"] = true,
+						["Font"] = "Prototype",
+					},
 					["FPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Friends"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -105,14 +105,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -140,16 +147,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -669,6 +669,10 @@ LUIDB = {
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
 					},
 				},
 				["Default"] = {
@@ -1039,72 +1043,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/s why?", -- [1]
-							"/i ok", -- [2]
-							"/i so", -- [3]
-							"/i iof you stand in that circle", -- [4]
-							"/i you die", -- [5]
-							"/i meaning", -- [6]
-							"/i you go to the balcony", -- [7]
-							"/i also", -- [8]
-							"/i you need to kill the add", -- [9]
-							"/i as soon as possible", -- [10]
-							"/i just outside the circle", -- [11]
-							"/i Jan?", -- [12]
-							"/i ok", -- [13]
-							"/i here", -- [14]
-							"/i just follow the bear", -- [15]
-							"/i Jannae", -- [16]
-							"/i Lifebrip, please||?", -- [17]
-							"/i grip", -- [18]
-							"/i he moved", -- [19]
-							"/i YOU ARE A DEMON HUNTER", -- [20]
-							"/i THE MOST MOBILE CLASS IN THE GAME", -- [21]
-							"/i stop dashing then", -- [22]
-							"/i so you have dash for getting out of that", -- [23]
-							"/i nono", -- [24]
-							"/i DHs", -- [25]
-							"/i itnerrupt!", -- [26]
-							"/i jesus", -- [27]
-							"/i goodday to you", -- [28]
-							"/i It is one of the harder fights", -- [29]
-							"/i Remember to say so next time though", -- [30]
-							"/i so i can at least give you guidance", -- [31]
-							"/2 It's funny how you cant to afford off the \"liberal realm\" exactly because of your conservatism aka capitalism", -- [32]
+							"/i Come this way :)", -- [1]
+							"/i I fucked up", -- [2]
+							"/i I equipped them", -- [3]
+							"/i I fucked up", -- [4]
+							"/i I equipped them", -- [5]
+							"/i Come this way :)", -- [6]
+							"/i I fucked up", -- [7]
+							"/i I equipped them", -- [8]
+							"/i I fucked up", -- [9]
+							"/i I equipped them", -- [10]
+							"/i Come this way :)", -- [11]
+							"/i I equipped them", -- [12]
+							"/i Come this way :)", -- [13]
+							"/i I fucked up", -- [14]
+							"/i I equipped them", -- [15]
+							"/i I fucked up", -- [16]
+							"/i I equipped them", -- [17]
+							"/i Come this way :)", -- [18]
+							"/i I fucked up", -- [19]
+							"/i I equipped them", -- [20]
+							"/i I fucked up", -- [21]
+							"/i I equipped them", -- [22]
+							"/i Come this way :)", -- [23]
+							"/i I equipped them", -- [24]
+							"/i Come this way :)", -- [25]
+							"/i I fucked up", -- [26]
+							"/i I equipped them", -- [27]
+							"/i I fucked up", -- [28]
+							"/i I equipped them", -- [29]
+							"/i Come this way :)", -- [30]
+							"/i I equipped them", -- [31]
+							"/i Come this way :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/wa", -- [1]
-							"/raid I am", -- [2]
-							"/raid I called Hymn first", -- [3]
-							"/g Oh Boo", -- [4]
-							"/g go for it Comfort", -- [5]
-							"/cw Kalithumos Fuck boo, ", -- [6]
-							"/g Fine, you go second", -- [7]
-							"/g jesus", -- [8]
-							"/g correct", -- [9]
-							"/cw Kalithumos-Tichondrius QQ, you're leaving me out of the cooldown rotation", -- [10]
-							"/cw Kalithumos-Tichondrius I'm talking about Boo", -- [11]
-							"/cw Kalithumos-Tichondrius He's was bitching", -- [12]
-							"/cw Kalithumos-Tichondrius as he fucking always is", -- [13]
-							"/cw Kalithumos-Tichondrius then Iw as like fine", -- [14]
-							"/cw Kalithumos-Tichondrius have it your way", -- [15]
-							"/break 7", -- [16]
-							" near", -- [17]
-							"/WA", -- [18]
-							" Progressing Mythic Ursoc, sorry :P", -- [19]
-							"/wa", -- [20]
-							"/cw Meowfurryon-Tichondrius Oh yeah", -- [21]
-							"/cw Meowfurryon-Tichondrius I'm doing that towards the End", -- [22]
-							"/cw Meowfurryon-Tichondrius 6 min CDF", -- [23]
-							"/g bio sec", -- [24]
-							"/g b", -- [25]
-							"/g Anyone have extra  |cffffffff|Hitem:133572::::::::110:257::::::|h[Nightborne Delicacy Platter]|h|r?", -- [26]
-							"/cw Ririkaiho I'll buy a stack", -- [27]
-							"/cw Kalithumos-Tichondrius 3 min", -- [28]
-							"/cw Kalithumos-Tichondrius It would be nice to use it twice :P", -- [29]
-							"/g hmm", -- [30]
-							"/g invalid target", -- [31]
-							"/raid good night", -- [32]
+							"/cw Jwwin-Tichondrius which ones agaion?", -- [1]
+							"/p it's set to Normal", -- [2]
+							"/raid also, who needed enchants?", -- [3]
+							"/raid b", -- [4]
+							"/cw Jwwin-Tichondrius which ones agaion?", -- [5]
+							"/raid also, who needed enchants?", -- [6]
+							"/cw Jwwin-Tichondrius which ones agaion?", -- [7]
+							"/raid wtb int flask", -- [8]
+							"/raid I got some", -- [9]
+							"/raid Dax, you're on", -- [10]
+							"/cw Kalithumos 1 more", -- [11]
+							"/cw Kalithumos everyone is here", -- [12]
+							"/g hmm", -- [13]
+							"/raid also, who needed enchants?", -- [14]
+							"/cw Jwwin-Tichondrius which ones agaion?", -- [15]
+							"/raid also, who needed enchants?", -- [16]
+							"/cw Jwwin-Tichondrius which ones agaion?", -- [17]
+							"/raid wtb int flask", -- [18]
+							"/raid Dax, you're on", -- [19]
+							"/cw Kalithumos everyone is here", -- [20]
+							"/raid also, who needed enchants?", -- [21]
+							"/cw Jwwin-Tichondrius which ones agaion?", -- [22]
+							"/raid Dax, you're on", -- [23]
+							"/raid also, who needed enchants?", -- [24]
+							"/raid Dax, you're on", -- [25]
+							"/s sec", -- [26]
+							"/g sup?", -- [27]
+							"/g aight", -- [28]
+							"/p  |cffffff00|Hachievement:10776:Player-11-0A92183E:0:0:0:-1:0:0:0:0|h[No Time to Waste]|h|r", -- [29]
+							"/p  |cffa335ee|Hitem:138019::::::::110:257:4587520:::1458:3:1:::|h[Mythic Keystone]|h|r", -- [30]
+							"/p TROLOLOL", -- [31]
+							"/g  lol :P", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1151,12 +1155,18 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
 					["SidebarRight1"] = {
 						["IsOpen"] = true,
 						["Anchor"] = "BT4Bar9",
+					},
+				},
+				["Default"] = {
+					["SidebarRight1"] = {
+						["IsOpen"] = true,
 					},
 				},
 			},
@@ -1237,7 +1247,7 @@ LUIDB = {
 					["Micromenu"] = 1.5,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1307,23 +1317,6 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["interrupt"] = 2,
-					["panels"] = 1.2,
-					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
-					["mirrorbar"] = 1,
-				},
-			},
 			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -1340,6 +1333,23 @@ LUIDB = {
 					["bars"] = 2.4,
 					["omen"] = 3300,
 					["Auras"] = 2,
+				},
+			},
+			["Miriyal - Proudmoore"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["panels"] = 1.2,
+					["bartender"] = 3300,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1422,7 +1432,9 @@ LUIDB = {
 		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Morifa - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",

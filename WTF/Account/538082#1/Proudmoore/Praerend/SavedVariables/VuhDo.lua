@@ -1832,12 +1832,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Keen Eyesight"] = {
+			["Mark of Lethon"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Dulled Synapses"] = {
 				["isStacks"] = false,
@@ -1860,7 +1860,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Devastating Arc"] = {
+			["Keen Eyesight"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2378,7 +2378,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Eternal Darkness"] = {
+			["Infrared Light"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2399,14 +2399,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Infested"] = {
+			["Eternal Darkness"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
-			["Infrared Light"] = {
+			["Cutter Laser Target"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2462,14 +2462,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Gusting Bomb"] = {
+			["Infested"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
-			["Cutter Laser Target"] = {
+			["Thick Bones"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2539,7 +2539,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Storm"] = {
+			["Improved Synapses"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -2574,7 +2574,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Lightning Bolt"] = {
+			["Lightning Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3015,7 +3015,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Improved Synapses"] = {
+			["Lightning Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3050,14 +3050,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Iron Tomb"] = {
+			["Gusting Bomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Thick Bones"] = {
+			["Iron Tomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3344,12 +3344,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Mark of Lethon"] = {
+			["Devastating Arc"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Rend"] = {
 				["isStacks"] = false,
@@ -6333,9 +6333,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6343,9 +6343,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6398,9 +6398,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6427,9 +6427,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6437,9 +6437,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6492,9 +6492,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6532,14 +6532,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Skyhold",
+		["zone"] = "Val'sharah",
 		["baseRange"] = true,
 		["class"] = "WARRIOR",
 		["role"] = 60,
-		["sortMaxHp"] = 946920,
-		["map"] = "ValhallasWarriorOrderHome",
+		["sortMaxHp"] = 1116000,
+		["map"] = "Valsharah",
 		["threat"] = 0,
-		["powermax"] = 120,
+		["powermax"] = 130,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Praerend",
@@ -6550,7 +6550,8 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 1,
-		["healthmax"] = 946920,
+		["healthmax"] = 1116000,
+		["lifeLossPerc"] = 1,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Praerend",
@@ -6558,7 +6559,7 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 946920,
+		["health"] = 1116000,
 		["className"] = "Warrior",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -6572,16 +6573,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
-		["SIDE_LEFT"] = "",
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
-		["INCOMING_BAR"] = "",
 		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
+		["INCOMING_BAR"] = "",
+		["SIDE_LEFT"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]

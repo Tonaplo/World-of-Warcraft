@@ -1,0 +1,6 @@
+## Interface: 70100
+## Title: Conditioner
+## Notes: A spell rotation tracking AddOn
+## Author: Tony Allain
+## SavedVariablesPerCharacter: xl_num_desired_tracked, xl_ChildPosition, xl_LocX, xl_LocY, xl_DesiredScale, xl_OnTargetFrame, xl_current_target_dock, xl_savedvariables, xl_conditioner_options
+Conditioner.lua

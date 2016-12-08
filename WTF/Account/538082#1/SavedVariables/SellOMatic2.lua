@@ -8,17 +8,17 @@ SellOMatic2DB = {
 		["Mallusof - Tichondrius"] = "Default",
 		["Mallusof - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["autoSell"] = "JUNK",
 			["safe_mode"] = false,
+			["autoSell"] = "JUNK",
 		},
 	},
 }
