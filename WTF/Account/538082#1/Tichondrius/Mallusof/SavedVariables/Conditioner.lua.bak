@@ -7,8 +7,6 @@ xl_DesiredScale = 250
 xl_OnTargetFrame = 1
 xl_current_target_dock = 1
 xl_savedvariables = {
-	{
-	}, -- [1]
 }
 xl_conditioner_options = {
 	["hide_hotbar_incombat"] = false,
