@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("BigWigs", "ptBR")
+local L = BigWigsAPI:NewLocale("BigWigs", "ptBR")
 if not L then return end
 
 --L.getNewRelease = "Your BigWigs is old (/bwv) but you can easily update it using the Curse Client. Alternatively, you can update manually from curse.com or wowinterface.com."
@@ -9,8 +9,15 @@ if not L then return end
 --L.gitHubDesc = "BigWigs is open source software hosted on GitHub. We are always looking for new people to help us out and everyone is welcome to inspect our code, make contributions and submit bug reports. BigWigs is as great as it is today largely in part to the great WoW community helping us out.\n\n|cFF33FF99Our API is now documented and freely readable on the GitHub wiki.|r"
 
 --L.options = "Options"
---L.raidBosses = "Chefes de Raid"
---L.dungeonBosses = "Chefes de Masmorras"
+L.raidBosses = "Chefes de Raid"
+L.dungeonBosses = "Chefes de Masmorras"
+
+--L.infobox = "Information Box"
+--L.infobox_desc = "Display a box with information related to the encounter."
+--L.INFOBOX = L.infobox
+--L.INFOBOX_desc = L.infobox_desc
+
+--L.disabledAddOn = "You have the |cFF436EEE%s|r addon disabled, timers will not be shown."
 
 -- Core.lua
 L.berserk = "Frenesi"

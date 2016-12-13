@@ -1,8 +1,8 @@
 # BigWigs
 
-## [v21.2](https://github.com/BigWigsMods/BigWigs/tree/v21.2) (2016-10-27) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v21.1...v21.2)
+## [v29](https://github.com/BigWigsMods/BigWigs/tree/v29) (2016-12-12) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v28...v29)
 
--   Options: Fix an issue with not being able to disable custom boss options that are on by default, closes #84  
--   Potential fix for DBM pull timers  
--   Proximity: Tweak ranges  
+- bump version  
+- Loader: Change a callback error to a soft error (print) that doesn't break things, since more addons are doing it wrong than I thought.  
+- Core/BossPrototype: Fix an incorrect callback.  

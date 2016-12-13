@@ -17,7 +17,7 @@
 -- @alias boss
 -- @usage local mod, CL = BigWigs:NewBoss("Archimonde", 1026, 1438)
 
-local L = LibStub("AceLocale-3.0"):GetLocale("BigWigs: Common")
+local L = BigWigsAPI:GetLocale("BigWigs: Common")
 local UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitIsConnected = UnitAffectingCombat, UnitIsPlayer, UnitGUID, UnitPosition, UnitIsConnected
 local EJ_GetSectionInfo, GetSpellInfo, GetSpellTexture, IsSpellKnown = EJ_GetSectionInfo, GetSpellInfo, GetSpellTexture, IsSpellKnown
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
@@ -1102,7 +1102,7 @@ end
 local silencedOptions = {}
 do
 	bossUtilityFrame:Hide()
-	BigWigsLoader:RegisterMessage("BigWigs_SilenceOption", function(event, key, time)
+	BigWigsLoader.RegisterMessage(silencedOptions, "BigWigs_SilenceOption", function(event, key, time)
 		if key ~= nil then -- custom bars have a nil key
 			silencedOptions[key] = time
 			bossUtilityFrame:Show()

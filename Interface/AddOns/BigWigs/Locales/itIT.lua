@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("BigWigs", "itIT")
+local L = BigWigsAPI:NewLocale("BigWigs", "itIT")
 if not L then return end
 
 --L.getNewRelease = "Your BigWigs is old (/bwv) but you can easily update it using the Curse Client. Alternatively, you can update manually from curse.com or wowinterface.com."
@@ -11,6 +11,13 @@ if not L then return end
 --L.options = "Options"
 --L.raidBosses = "Raid Bosses"
 --L.dungeonBosses = "Dungeon Bosses"
+
+--L.infobox = "Information Box"
+--L.infobox_desc = "Display a box with information related to the encounter."
+--L.INFOBOX = L.infobox
+--L.INFOBOX_desc = L.infobox_desc
+
+--L.disabledAddOn = "You have the |cFF436EEE%s|r addon disabled, timers will not be shown."
 
 L.activeBossModules = "Moduli dei Combattimenti Attivi:"
 L.advanced = "Opzioni Avanzate"

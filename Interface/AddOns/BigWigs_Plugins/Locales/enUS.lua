@@ -1,4 +1,4 @@
-local L = LibStub("AceLocale-3.0"):NewLocale("BigWigs: Plugins", "enUS", true)
+local L = BigWigsAPI:NewLocale("BigWigs: Plugins", "enUS")
 
 L.general = "General"
 
@@ -147,6 +147,12 @@ L.countdownTest = "Test countdown"
 L.countdownAt = "Countdown at... (seconds)"
 
 -----------------------------------------------------------------------
+-- InfoBox.lua
+--
+
+L.infoBox = "InfoBox"
+
+-----------------------------------------------------------------------
 -- Messages.lua
 --
 
@@ -293,6 +299,9 @@ L.countWipes = "Count Wipes"
 L.recordBestTime = "Remember Best Time"
 L.createTimeBar = "Show 'Best Time' bar"
 L.bestTimeBar = "Best Time"
+L.printHealthOption = "Boss Health"
+L.healthPrint = "Health: %s."
+L.healthFormat = "%s (%.1f%%)"
 
 -----------------------------------------------------------------------
 -- Victory.lua

@@ -9,6 +9,8 @@ xl_current_target_dock = 1
 xl_savedvariables = {
 	{
 	}, -- [1]
+	{
+	}, -- [2]
 }
 xl_conditioner_options = {
 	["hide_hotbar_incombat"] = false,
