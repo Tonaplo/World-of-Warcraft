@@ -46,16 +46,14 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -65,11 +63,13 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -78,7 +78,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1554723074,
+							["Mallusof"] = 1562506316,
 						},
 					},
 				},
@@ -96,7 +96,7 @@ LUIDB = {
 							["Rahran"] = 303593878,
 							["Morifa"] = 396890402,
 							["Fimwack"] = 35169412,
-							["Praerend"] = 690528867,
+							["Praerend"] = 691913732,
 						},
 					},
 				},
@@ -105,21 +105,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -147,9 +140,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -655,72 +655,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i BuhBuh was getting targeted an awful lot then", -- [1]
-							"/i and run OUT of the big circle", -- [2]
-							"/i r?", -- [3]
-							"/i and run OUT of the big circle", -- [4]
-							"/i interrupt and kill the add", -- [5]
-							"/i r?", -- [6]
-							"/i and run OUT of the big circle", -- [7]
-							"/i interrupt and kill the add", -- [8]
-							"/i and run OUT of the big circle", -- [9]
-							"/i r?", -- [10]
-							"/i and run OUT of the big circle", -- [11]
-							"/i interrupt and kill the add", -- [12]
-							"/g arg", -- [13]
+							"/i and run OUT of the big circle", -- [1]
+							"/i r?", -- [2]
+							"/i and run OUT of the big circle", -- [3]
+							"/i r?", -- [4]
+							"/i BuhBuh was getting targeted an awful lot then", -- [5]
+							"/i interrupt and kill the add", -- [6]
+							"/i r?", -- [7]
+							"/i and run OUT of the big circle", -- [8]
+							"/i r?", -- [9]
+							"/i BuhBuh was getting targeted an awful lot then", -- [10]
+							"/i r?", -- [11]
+							"/i BuhBuh was getting targeted an awful lot then", -- [12]
+							"/i interrupt and kill the add", -- [13]
 							"/i r?", -- [14]
-							"/i BuhBuh was getting targeted an awful lot then", -- [15]
-							"/i and run OUT of the big circle", -- [16]
-							"/i r?", -- [17]
-							"/i and run OUT of the big circle", -- [18]
-							"/i interrupt and kill the add", -- [19]
-							"/i r?", -- [20]
-							"/i and run OUT of the big circle", -- [21]
-							"/i interrupt and kill the add", -- [22]
-							"/i and run OUT of the big circle", -- [23]
-							"/i r?", -- [24]
+							"/i and run OUT of the big circle", -- [15]
+							"/i r?", -- [16]
+							"/i BuhBuh was getting targeted an awful lot then", -- [17]
+							"/i interrupt and kill the add", -- [18]
+							"/i r?", -- [19]
+							"/i and run OUT of the big circle", -- [20]
+							"/i r?", -- [21]
+							"/i BuhBuh was getting targeted an awful lot then", -- [22]
+							"/i r?", -- [23]
+							"/i BuhBuh was getting targeted an awful lot then", -- [24]
 							"/i interrupt and kill the add", -- [25]
-							"/i r?", -- [26]
-							"/i and run OUT of the big circle", -- [27]
-							"/i interrupt and kill the add", -- [28]
-							"/i and run OUT of the big circle", -- [29]
-							"/i r?", -- [30]
-							"/i and run OUT of the big circle", -- [31]
-							"/i r?", -- [32]
+							"/i and run OUT of the big circle", -- [26]
+							"/i BuhBuh was getting targeted an awful lot then", -- [27]
+							"/i r?", -- [28]
+							"/i BuhBuh was getting targeted an awful lot then", -- [29]
+							"/i interrupt and kill the add", -- [30]
+							"/i BuhBuh was getting targeted an awful lot then", -- [31]
+							"/i interrupt and kill the add", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/roll 20000", -- [1]
-							"/raid G.I.R.L = Guy In Real Life", -- [2]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [3]
-							"/macro", -- [4]
-							"/reload ui", -- [5]
-							"/raid sec", -- [6]
-							"/roll 20000", -- [7]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [8]
-							"/reload ui", -- [9]
-							"/roll 20000", -- [10]
-							"/reload ui", -- [11]
-							"/raid ^^", -- [12]
-							"/ROLL 9001", -- [13]
-							"/ROLL 22222222", -- [14]
-							"/ROLL 999999", -- [15]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [1]
+							"/g ^^", -- [2]
+							"/bw", -- [3]
+							"/reload ui", -- [4]
+							"/g ^^", -- [5]
+							"/bw", -- [6]
+							"/g ^^", -- [7]
+							"/raid ^^", -- [8]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [9]
+							"/bw", -- [10]
+							"/roll 20000", -- [11]
+							"/reload ui", -- [12]
+							"/raid ^^", -- [13]
+							"/g ^^", -- [14]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [15]
 							"/g ^^", -- [16]
-							"/raid G.I.R.L = Guy In Real Life", -- [17]
-							"/macro", -- [18]
-							"/raid sec", -- [19]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [20]
-							"/roll 20000", -- [21]
+							"/bw", -- [17]
+							"/reload ui", -- [18]
+							"/g ^^", -- [19]
+							"/bw", -- [20]
+							"/g ^^", -- [21]
 							"/raid ^^", -- [22]
-							"/ROLL 22222222", -- [23]
-							"/g ^^", -- [24]
-							"/macro", -- [25]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [26]
-							"/raid ^^", -- [27]
-							"/g ^^", -- [28]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [29]
-							"/g ^^", -- [30]
-							"/bw", -- [31]
-							"/macro", -- [32]
+							"/bw", -- [23]
+							"/reload ui", -- [24]
+							"/g ^^", -- [25]
+							"/bw", -- [26]
+							"/g ^^", -- [27]
+							"/raid ^^", -- [28]
+							"/reload ui", -- [29]
+							"/bw", -- [30]
+							"/raid ^^", -- [31]
+							"/bw", -- [32]
 						},
 					},
 				},
@@ -1350,7 +1350,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1359,13 +1359,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1385,7 +1384,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1419,7 +1418,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1428,12 +1427,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
 					["Auras"] = 2,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},

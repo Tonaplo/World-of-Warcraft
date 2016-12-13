@@ -21,16 +21,16 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Amranar - Emerald Dream"] = "Amranar - Emerald Dream",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Prothalon - Emerald Dream"] = "Prothalon - Emerald Dream",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Novgorod - Emerald Dream"] = "Novgorod - Emerald Dream",
 	},
 	["realm"] = {
@@ -66,12 +66,12 @@ RCDatabase = {
 				["secondProf"] = "Enchanting",
 			}, -- [2]
 			{
-				["secondProfLevel"] = 700,
 				["name"] = "Praerend",
+				["secondProfLevel"] = 700,
+				["firstProf"] = "Blacksmithing",
+				["level"] = 109,
 				["class"] = "WARRIOR",
 				["firstProfLevel"] = 700,
-				["level"] = 108,
-				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [3]
 			{

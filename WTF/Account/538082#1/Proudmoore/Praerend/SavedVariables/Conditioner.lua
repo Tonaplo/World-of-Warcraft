@@ -1,9 +1,9 @@
 
 xl_num_desired_tracked = 5
 xl_ChildPosition = 1
-xl_LocX = 515.55545425415
-xl_LocY = 389.688816070557
-xl_DesiredScale = 100
+xl_LocX = 515.555473327637
+xl_LocY = 389.688873291016
+xl_DesiredScale = 70
 xl_OnTargetFrame = 1
 xl_current_target_dock = 1
 xl_savedvariables = {
@@ -90,7 +90,7 @@ xl_savedvariables = {
 			["use_condition"] = false,
 		}, -- [5]
 		{
-			6343, -- [1]
+			20243, -- [1]
 			["aura_target"] = 1,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,

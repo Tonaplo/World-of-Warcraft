@@ -1,16 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Odyn",
-		}, -- [1]
-		{
-			["boss"] = "God-King Skovald",
-		}, -- [2]
-		{
-			["boss"] = "Hyrja",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[204667] = {
 			["school"] = 4,
@@ -398,28 +387,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Solsten",
 		},
-		[194112] = {
+		[196376] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "God-King Skovald",
-		},
-		[193983] = {
-			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "God-King Skovald",
+			["source"] = "Archdruid Glaidalis",
 		},
-		[200682] = {
+		[199063] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Solsten",
+			["source"] = "Strangling Roots",
 		},
 		[191284] = {
 			["school"] = 1,
@@ -430,6 +413,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hymdall",
 		},
+		[198269] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archdruid Glaidalis",
+		},
 		[193234] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -438,15 +428,12 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[200289] = {
+		[196354] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[197965] = {
 			["school"] = 2,
@@ -467,13 +454,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fenryr",
 		},
-		[192133] = {
-			["school"] = 8,
+		[200238] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hyrja",
+			["source"] = "Shade of Xavius",
 		},
 		[192044] = {
 			["school"] = 2,
@@ -524,12 +513,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[192048] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[196496] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Fenryr",
 		},
 		[198379] = {
 			["school"] = 1,
@@ -550,19 +539,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[192231] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Liquid Magma Totem",
-		},
 		[192067] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hyrja",
+		},
+		[192231] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Liquid Magma Totem",
 		},
 		[204666] = {
 			["school"] = 8,
@@ -573,12 +562,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oakheart",
 		},
-		[196496] = {
-			["school"] = 1,
+		[192048] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fenryr",
 		},
 		[197967] = {
 			["school"] = 2,
@@ -589,29 +578,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[200238] = {
-			["school"] = 32,
+		[192133] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Hyrja",
+		},
+		[200289] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[196354] = {
-			["school"] = 1,
+		[200682] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
-		},
-		[198269] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "Solsten",
 		},
 		[198412] = {
 			["school"] = 2,
@@ -620,22 +610,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[199063] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Strangling Roots",
-		},
-		[196376] = {
-			["school"] = 1,
+		[193983] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "God-King Skovald",
 		},
+		[194112] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "God-King Skovald",
+		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Odyn",
+		}, -- [1]
+		{
+			["boss"] = "God-King Skovald",
+		}, -- [2]
+		{
+			["boss"] = "Hyrja",
+		}, -- [3]
 	},
 }
