@@ -50,18 +50,18 @@ SorhaQuestLogDB = {
 				},
 				["Mallusof - Tichondrius"] = {
 					["ZoneIsCollapsed"] = {
-						["Artifact"] = true,
+						["Black Rook Hold"] = true,
 						["Battlegrounds"] = true,
 						["Weekend Event"] = true,
 						["World Quests"] = false,
-						["The Emerald Nightmare"] = true,
-						["Suramar"] = true,
+						["Darkmoon Faire"] = true,
+						["Suramar"] = false,
 						["The Hunt for Illidan Stormrage"] = true,
 						["Bonus Objectives"] = false,
 						["Battle Pets"] = true,
-						["Black Rook Hold"] = true,
+						["The Emerald Nightmare"] = true,
 						["Trial of Valor"] = true,
-						["Darkmoon Faire"] = true,
+						["Artifact"] = true,
 					},
 				},
 				["Granjior - Proudmoore"] = {

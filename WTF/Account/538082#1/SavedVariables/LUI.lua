@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1552869655,
+							["Mallusof"] = 1566018646,
 						},
 					},
 				},
@@ -65,27 +65,27 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
-						["Font"] = "Prototype",
-					},
-					["Memory"] = {
-						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -105,14 +105,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -140,16 +146,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1077,35 +1077,35 @@ LUIDB = {
 							"/i r?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Jwwin would like him to be a guy", -- [1]
-							"/PLAYED", -- [2]
-							"/s WHERE IS HE?", -- [3]
-							"/bw", -- [4]
-							"/raid ^^", -- [5]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [6]
-							"/raid ^^", -- [7]
-							"/g Need People for Kara", -- [8]
-							"/g you got lead", -- [9]
-							"/g anyone?", -- [10]
-							"/g Just need 1 more", -- [11]
-							"/g I dont know", -- [12]
-							"/g I havent", -- [13]
-							"/g also, join discord", -- [14]
-							"/g lets summon", -- [15]
-							"/g whut", -- [16]
-							"/p https://discord.gg/xESCK", -- [17]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [1]
+							"/g anyone?", -- [2]
+							"/g Jwwin would like him to be a guy", -- [3]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [4]
+							"/g Jwwin would like him to be a guy", -- [5]
+							"/g anyone?", -- [6]
+							"/PLAYED", -- [7]
+							"/g morning", -- [8]
+							"/g anyone?", -- [9]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [10]
+							"/g also, join discord", -- [11]
+							"/g anyone?", -- [12]
+							"/PLAYED", -- [13]
+							"/g Jwwin would like him to be a guy", -- [14]
+							"/g morning", -- [15]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [16]
+							"/g anyone?", -- [17]
 							"/g Jwwin would like him to be a guy", -- [18]
-							"/s WHERE IS HE?", -- [19]
-							"/raid ^^", -- [20]
-							"/g Need People for Kara", -- [21]
-							"/g anyone?", -- [22]
-							"/g I dont know", -- [23]
-							"/g also, join discord", -- [24]
-							"/g whut", -- [25]
-							"/g Jwwin would like him to be a guy", -- [26]
-							"/raid ^^", -- [27]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [19]
+							"/g Jwwin would like him to be a guy", -- [20]
+							"/g anyone?", -- [21]
+							"/g morning", -- [22]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [23]
+							"/g anyone?", -- [24]
+							"/g Jwwin would like him to be a guy", -- [25]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [26]
+							"/g Jwwin would like him to be a guy", -- [27]
 							"/g anyone?", -- [28]
-							"/g also, join discord", -- [29]
+							"/cw Kalithumos-Tichondrius The Trash :P", -- [29]
 							"/g Jwwin would like him to be a guy", -- [30]
 							"/g anyone?", -- [31]
 							"/g Jwwin would like him to be a guy", -- [32]
@@ -1151,6 +1151,7 @@ LUIDB = {
 			["profiles"] = {
 				["Base"] = {
 					["SidebarLeft2"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 					},
@@ -1246,7 +1247,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1255,12 +1256,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
+					["mirrorbar"] = 1,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1316,7 +1318,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1333,7 +1335,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1342,13 +1344,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Greybone - Proudmoore"] = {

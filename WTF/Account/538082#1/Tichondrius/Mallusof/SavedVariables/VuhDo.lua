@@ -1537,7 +1537,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Rend and Tear"] = {
+			["Fel Chakram"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1572,14 +1572,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Venomous Pool"] = {
+			["Nightmare Javelin"] = {
 				["isStacks"] = true,
 				["animate"] = false,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Fel Chakram"] = {
+			["Rend and Tear"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1600,12 +1600,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Font of Corruption"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["Bellowing Roar"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Cobalt Mine Blast"] = {
 				["isStacks"] = false,
@@ -1614,7 +1614,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Hex of Confusion"] = {
+			["Font of Corruption"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1649,12 +1649,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Bellowing Roar"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
+			["Hex of Confusion"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Suppression"] = {
 				["isStacks"] = false,
@@ -1908,14 +1908,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Keen Eyesight"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["Mark of Lethon"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
-			["Devastating Arc"] = {
+			["Keen Eyesight"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2020,7 +2020,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Phantasmal Wounds"] = {
+			["Savage Vines"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2034,7 +2034,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Savage Vines"] = {
+			["Wind Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2664,7 +2664,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Exposed Veins"] = {
+			["Exhale"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2678,7 +2678,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Exhale"] = {
+			["Touch of Doom"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2727,7 +2727,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Impaled"] = {
+			["Blaze"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2755,7 +2755,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Fragile Bones"] = {
+			["Impaled"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2958,7 +2958,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Blaze"] = {
+			["Fragile Bones"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -3000,7 +3000,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Touch of Doom"] = {
+			["Exposed Veins"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -3287,7 +3287,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Wind Storm"] = {
+			["Phantasmal Wounds"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -3357,12 +3357,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Mark of Lethon"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
+			["Devastating Arc"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Malformed Blood"] = {
 				["isStacks"] = false,
@@ -3518,7 +3518,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Nightmare Javelin"] = {
+			["Venomous Pool"] = {
 				["isStacks"] = true,
 				["animate"] = false,
 				["timer"] = true,
@@ -3666,7 +3666,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "HIGH",
 		["MODEL"] = {
-			["sort"] = 6,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -3678,6 +3677,7 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 			},
 			["ordering"] = 0,
+			["sort"] = 6,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -6040,14 +6040,15 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"1", -- [2]
 		"target", -- [3]
 	},
-	["altshift2"] = {
-		[2] = "2",
-		[3] = "Mass Dispel",
-	},
 	["ctrl4"] = {
 		"ctrl-", -- [1]
 		"4", -- [2]
 		"Prayer of Mending", -- [3]
+	},
+	["2"] = {
+		"", -- [1]
+		"2", -- [2]
+		"Purify", -- [3]
 	},
 	["ctrl2"] = {
 		"ctrl-", -- [1]
@@ -6104,10 +6105,9 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"4", -- [2]
 		"Power Word: Shield", -- [3]
 	},
-	["2"] = {
-		"", -- [1]
-		"2", -- [2]
-		"Purify", -- [3]
+	["altshift2"] = {
+		[2] = "2",
+		[3] = "Mass Dispel",
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -6528,9 +6528,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6538,9 +6538,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6553,19 +6553,19 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
-			"", -- [3]
-		},
 		["altctrl1"] = {
 			"ALT-CTRL-", -- [1]
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["alt2"] = {
-			"ALT-", -- [1]
-			"-w4", -- [2]
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"-w16", -- [2]
 			"", -- [3]
 		},
 		["altshift2"] = {
@@ -6573,9 +6573,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w12", -- [2]
 			"", -- [3]
 		},
-		["altctrlshift2"] = {
-			"ALT-CTRL-SHIFT-", -- [1]
-			"-w16", -- [2]
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift1"] = {
@@ -6588,14 +6588,14 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["ctrl1"] = {
-			"CTRL-", -- [1]
-			"-w5", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -6631,6 +6631,9 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL9"] = "",
 	["SPELL10"] = "",
 	["SPELL14"] = "",
+	["SPELL11"] = "",
+	["SPELL8"] = "",
+	["SPELL1"] = "",
 	["WHEEL"] = {
 		["alt1"] = {
 			"ALT-", -- [1]
@@ -6642,9 +6645,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6652,9 +6655,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6667,19 +6670,19 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
-			"", -- [3]
-		},
 		["altctrl1"] = {
 			"ALT-CTRL-", -- [1]
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["alt2"] = {
-			"ALT-", -- [1]
-			"-w4", -- [2]
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"-w16", -- [2]
 			"", -- [3]
 		},
 		["altshift2"] = {
@@ -6687,9 +6690,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w12", -- [2]
 			"", -- [3]
 		},
-		["altctrlshift2"] = {
-			"ALT-CTRL-SHIFT-", -- [1]
-			"-w16", -- [2]
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift1"] = {
@@ -6702,20 +6705,17 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["ctrl1"] = {
-			"CTRL-", -- [1]
-			"-w5", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
-	["SPELL8"] = "",
-	["SPELL1"] = "",
-	["SPELL11"] = "",
 }
 VUHDO_SPELL_CONFIG = {
 	["smartCastModi"] = "all",
@@ -6752,12 +6752,12 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Netherlight Temple",
+		["zone"] = "Suramar",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
 		["role"] = 63,
-		["sortMaxHp"] = 2265660,
-		["map"] = "NetherlightTemple",
+		["sortMaxHp"] = 2281860,
+		["map"] = "Suramar",
 		["threat"] = 0,
 		["powermax"] = 1155000,
 		["threatPerc"] = 0,
@@ -6770,54 +6770,20 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 2265660,
+		["healthmax"] = 2281860,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Mallusof",
-		["power"] = 1155000,
+		["power"] = 96693,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 2265660,
+		["health"] = 2281860,
 		["className"] = "Priest",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["focus"] = {
-		["zone"] = "Netherlight Temple",
-		["baseRange"] = false,
-		["class"] = "WARRIOR",
-		["role"] = 61,
-		["sortMaxHp"] = 103926704,
-		["map"] = "NetherlightTemple",
-		["threat"] = 0,
-		["powermax"] = 0,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Bound Void Wraith",
-		["visible"] = true,
-		["isVehicle"] = false,
-		["group"] = 0,
-		["classId"] = 20,
-		["range"] = false,
-		["unit"] = "focus",
-		["powertype"] = 1,
-		["healthmax"] = 103926704,
-		["lifeLossPerc"] = 1,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Bound Void Wraith",
-		["power"] = 0,
-		["aggro"] = false,
-		["number"] = 0,
-		["health"] = 103926704,
-		["className"] = "Bound Void Wraith",
-		["afk"] = false,
-		["targetUnit"] = "focustarget",
-		["debuff"] = 3,
-		["connected"] = false,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -6827,7 +6793,7 @@ VUHDO_INDICATOR_CONFIG = {
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
 		["INCOMING_BAR"] = "",
-		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -6840,14 +6806,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SWIFTMEND_INDICATOR"] = "AOE Advice",
+		["DAMAGE_FLASH_BAR"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: All Powers",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["DAMAGE_FLASH_BAR"] = "",
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "AOE Advice",
+		["CLUSTER_BORDER"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {
