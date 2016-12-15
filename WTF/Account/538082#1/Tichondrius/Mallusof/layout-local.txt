@@ -41,13 +41,6 @@ X: 0
 Y: 0
 W: 898
 H: 504
-Frame: ScriptErrorsFrame
-FrameLevel: 0
-Anchor: RIGHT
-X: -238
-Y: 80
-W: 384
-H: 260
 Frame: mOnWD_MainFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -69,3 +62,10 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: RIGHT
+X: -238
+Y: 80
+W: 384
+H: 260

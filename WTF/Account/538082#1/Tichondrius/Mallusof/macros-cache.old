@@ -1,6 +1,11 @@
+VER 3 0100000000000003 "SoH" "INV_MISC_QUESTIONMARK"
+#showtooltip Symbol of Hope
+/y Symbol popped! Free healing for 10 sec!
+/use Symbol of Hope
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R3PH1NT1RM1PM1EM1PM2PT2DT2NM2PM2SR3PM3IH[x]3HR4LR4MR4DH4SH4HR5EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]3IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P1NT1RM1PM1NM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NKalKaeSliAceKaeEärHeaObjJwwViaRirBlaBut[x]DaoSawKalEllKaeMaeBus[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zhe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NKaeSliEärRèm[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

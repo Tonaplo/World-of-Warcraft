@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1566018646,
+							["Mallusof"] = 1556040733,
 						},
 					},
 				},
@@ -65,14 +65,17 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
@@ -82,21 +85,18 @@ LUIDB = {
 						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
+					["CombatLock"] = true,
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -105,20 +105,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
-					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
+					},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -146,10 +140,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -792,7 +792,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -804,19 +810,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -955,13 +955,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -973,13 +967,19 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1077,38 +1077,38 @@ LUIDB = {
 							"/i r?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [1]
-							"/g anyone?", -- [2]
-							"/g Jwwin would like him to be a guy", -- [3]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [4]
-							"/g Jwwin would like him to be a guy", -- [5]
-							"/g anyone?", -- [6]
-							"/PLAYED", -- [7]
-							"/g morning", -- [8]
-							"/g anyone?", -- [9]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [10]
-							"/g also, join discord", -- [11]
-							"/g anyone?", -- [12]
-							"/PLAYED", -- [13]
-							"/g Jwwin would like him to be a guy", -- [14]
-							"/g morning", -- [15]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [16]
-							"/g anyone?", -- [17]
-							"/g Jwwin would like him to be a guy", -- [18]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [19]
-							"/g Jwwin would like him to be a guy", -- [20]
-							"/g anyone?", -- [21]
-							"/g morning", -- [22]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [23]
-							"/g anyone?", -- [24]
-							"/g Jwwin would like him to be a guy", -- [25]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [26]
-							"/g Jwwin would like him to be a guy", -- [27]
-							"/g anyone?", -- [28]
-							"/cw Kalithumos-Tichondrius The Trash :P", -- [29]
-							"/g Jwwin would like him to be a guy", -- [30]
-							"/g anyone?", -- [31]
-							"/g Jwwin would like him to be a guy", -- [32]
+							"/raid need to summon the Alabam monk", -- [1]
+							"/raid I'm sorry", -- [2]
+							"/raid  /suicide", -- [3]
+							"/raid seriously/", -- [4]
+							"/raid that's", -- [5]
+							"/raid I rearragned groups once", -- [6]
+							"/raid lol", -- [7]
+							"/raid and then wanna replace me because of it", -- [8]
+							"/raid mt", -- [9]
+							"/cw Mánslaughter-BleedingHollow hahahahahah, you're an idiot :P Have a shit night.", -- [10]
+							"/g so this guy", -- [11]
+							"/g or rather", -- [12]
+							"/g he goes, \"sure. here's assist\"", -- [13]
+							"/g \"fuck you, that pissed me off\"", -- [14]
+							"/g because logic", -- [15]
+							"/raid sec", -- [16]
+							"/raid I'm sorry", -- [17]
+							"/raid seriously/", -- [18]
+							"/raid I rearragned groups once", -- [19]
+							"/raid and then wanna replace me because of it", -- [20]
+							"/cw Mánslaughter-BleedingHollow hahahahahah, you're an idiot :P Have a shit night.", -- [21]
+							"/g or rather", -- [22]
+							"/g \"fuck you, that pissed me off\"", -- [23]
+							"/raid sec", -- [24]
+							"/raid seriously/", -- [25]
+							"/raid and then wanna replace me because of it", -- [26]
+							"/g or rather", -- [27]
+							"/raid sec", -- [28]
+							"/raid and then wanna replace me because of it", -- [29]
+							"/raid sec", -- [30]
+							"/s stay", -- [31]
+							"/s here", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1151,11 +1151,11 @@ LUIDB = {
 			["profiles"] = {
 				["Base"] = {
 					["SidebarLeft2"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1221,11 +1221,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -1240,14 +1240,14 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1256,13 +1256,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1277,11 +1276,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1318,7 +1317,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1335,7 +1334,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1344,12 +1343,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
+					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1398,11 +1398,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -1415,9 +1415,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1433,11 +1433,11 @@ LUIDB = {
 		["Mallusof - Tichondrius"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Kaldorath - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Base"] = {
