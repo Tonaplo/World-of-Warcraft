@@ -6,30 +6,30 @@ RCDatabase = {
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Emerald Dream"] = "Praerend - Emerald Dream",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
-		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Emerald Dream"] = "Morifa - Emerald Dream",
 		["Makemeaturke - Stormrage"] = "Makemeaturke - Stormrage",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Granjior - Emerald Dream"] = "Granjior - Emerald Dream",
-		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
+		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 		["Contumon - Emerald Dream"] = "Contumon - Emerald Dream",
-		["Mallusof - Blackhand"] = "Mallusof - Blackhand",
+		["Gryliz - Emerald Dream"] = "Gryliz - Emerald Dream",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Amranar - Emerald Dream"] = "Amranar - Emerald Dream",
 		["Prothalon - Emerald Dream"] = "Prothalon - Emerald Dream",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Gryliz - Emerald Dream"] = "Gryliz - Emerald Dream",
-		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
+		["Mallusof - Blackhand"] = "Mallusof - Blackhand",
+		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Novgorod - Emerald Dream"] = "Novgorod - Emerald Dream",
 	},
@@ -38,11 +38,23 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 0,
 				["name"] = "Makemeaturke",
-				["class"] = "ROGUE",
 				["firstProfLevel"] = 0,
+				["class"] = "ROGUE",
 				["level"] = 1,
 				["firstProf"] = "No 1st Prof",
 				["secondProf"] = "No 2nd Prof",
+			}, -- [1]
+			["characterStored"] = 1,
+		},
+		["Bleeding Hollow"] = {
+			{
+				["secondProfLevel"] = 31,
+				["name"] = "Gorog",
+				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
+				["level"] = 12,
+				["firstProf"] = "Blacksmithing",
+				["secondProf"] = "Mining",
 			}, -- [1]
 			["characterStored"] = 1,
 		},
@@ -58,26 +70,14 @@ RCDatabase = {
 			}, -- [1]
 			["characterStored"] = 1,
 		},
-		["Bleeding Hollow"] = {
-			{
-				["secondProfLevel"] = 31,
-				["name"] = "Gorog",
-				["firstProfLevel"] = 1,
-				["class"] = "WARRIOR",
-				["level"] = 12,
-				["firstProf"] = "Blacksmithing",
-				["secondProf"] = "Mining",
-			}, -- [1]
-			["characterStored"] = 1,
-		},
 		["Blackhand"] = {
 			{
 				["name"] = "Mallusof",
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 700,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 700,
 				["secondProf"] = "Enchanting",
 			}, -- [1]
 			{
@@ -85,8 +85,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 83,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2]
 			{
@@ -94,138 +94,30 @@ RCDatabase = {
 				["secondProfLevel"] = 15,
 				["firstProf"] = "Alchemy",
 				["level"] = 10,
-				["firstProfLevel"] = 1,
 				["class"] = "DRUID",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Herbalism",
 			}, -- [3]
 			["characterStored"] = 3,
 		},
-		["Proudmoore"] = {
+		["Aggramar"] = {
 			{
-				["name"] = "Eiwar",
+				["name"] = "Gottagetlia",
 				["secondProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
-				["level"] = 1,
-				["class"] = "HUNTER",
+				["level"] = 19,
+				["class"] = "SHAMAN",
 				["firstProfLevel"] = 0,
 				["secondProf"] = "No 2nd Prof",
 			}, -- [1]
-			{
-				["secondProfLevel"] = 741,
-				["name"] = "Mallusof",
-				["firstProfLevel"] = 774,
-				["class"] = "PRIEST",
-				["level"] = 110,
-				["firstProf"] = "Tailoring",
-				["secondProf"] = "Enchanting",
-			}, -- [2]
-			{
-				["name"] = "Praerend",
-				["secondProfLevel"] = 700,
-				["firstProf"] = "Blacksmithing",
-				["level"] = 109,
-				["firstProfLevel"] = 700,
-				["class"] = "WARRIOR",
-				["secondProf"] = "Jewelcrafting",
-			}, -- [3]
-			{
-				["secondProfLevel"] = 715,
-				["name"] = "Rahran",
-				["firstProfLevel"] = 700,
-				["class"] = "ROGUE",
-				["level"] = 100,
-				["firstProf"] = "Leatherworking",
-				["secondProf"] = "Skinning",
-			}, -- [4]
-			{
-				["name"] = "Amranar",
-				["secondProfLevel"] = 787,
-				["firstProf"] = "Alchemy",
-				["level"] = 110,
-				["class"] = "DRUID",
-				["firstProfLevel"] = 711,
-				["secondProf"] = "Herbalism",
-			}, -- [5]
-			{
-				["name"] = "Morifa",
-				["secondProfLevel"] = 702,
-				["firstProf"] = "Herbalism",
-				["level"] = 100,
-				["firstProfLevel"] = 71,
-				["class"] = "MAGE",
-				["secondProf"] = "Inscription",
-			}, -- [6]
-			{
-				["name"] = "Farahn",
-				["secondProfLevel"] = 566,
-				["firstProf"] = "Mining",
-				["level"] = 103,
-				["class"] = "SHAMAN",
-				["firstProfLevel"] = 89,
-				["secondProf"] = "Engineering",
-			}, -- [7]
-			{
-				["secondProfLevel"] = 700,
-				["name"] = "Granjior",
-				["class"] = "PALADIN",
-				["firstProfLevel"] = 700,
-				["level"] = 100,
-				["firstProf"] = "Mining",
-				["secondProf"] = "Engineering",
-			}, -- [8]
-			{
-				["name"] = "Faerand",
-				["secondProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
-				["level"] = 100,
-				["class"] = "HUNTER",
-				["firstProfLevel"] = 0,
-				["secondProf"] = "No 2nd Prof",
-			}, -- [9]
-			{
-				["name"] = "Fimwack",
-				["secondProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
-				["level"] = 100,
-				["firstProfLevel"] = 0,
-				["class"] = "WARLOCK",
-				["secondProf"] = "No 2nd Prof",
-			}, -- [10]
-			{
-				["name"] = "Miriyal",
-				["secondProfLevel"] = 700,
-				["firstProf"] = "Leatherworking",
-				["level"] = 100,
-				["class"] = "MONK",
-				["firstProfLevel"] = 700,
-				["secondProf"] = "Skinning",
-			}, -- [11]
-			{
-				["secondProfLevel"] = 700,
-				["name"] = "Greybone",
-				["class"] = "DEATHKNIGHT",
-				["firstProfLevel"] = 700,
-				["level"] = 100,
-				["firstProf"] = "Blacksmithing",
-				["secondProf"] = "Mining",
-			}, -- [12]
-			{
-				["name"] = "Kaldorath",
-				["secondProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
-				["level"] = 100,
-				["class"] = "DEMONHUNTER",
-				["firstProfLevel"] = 0,
-				["secondProf"] = "No 2nd Prof",
-			}, -- [13]
-			["characterStored"] = 13,
+			["characterStored"] = 1,
 		},
 		["Emerald Dream"] = {
 			{
 				["secondProfLevel"] = 2,
 				["name"] = "Contumon",
-				["firstProfLevel"] = 65,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 65,
 				["level"] = 21,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -233,8 +125,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 0,
 				["name"] = "Morifa",
-				["firstProfLevel"] = 20,
 				["class"] = "MAGE",
+				["firstProfLevel"] = 20,
 				["level"] = 15,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "No 2nd Prof",
@@ -242,8 +134,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 14,
 				["name"] = "Amranar",
-				["firstProfLevel"] = 659,
 				["class"] = "DRUID",
+				["firstProfLevel"] = 659,
 				["level"] = 92,
 				["firstProf"] = "Alchemy",
 				["secondProf"] = "Herbalism",
@@ -253,8 +145,8 @@ RCDatabase = {
 				["secondProfLevel"] = 86,
 				["firstProf"] = "Leatherworking",
 				["level"] = 20,
-				["class"] = "SHAMAN",
 				["firstProfLevel"] = 59,
+				["class"] = "SHAMAN",
 				["secondProf"] = "Skinning",
 			}, -- [4]
 			{
@@ -262,8 +154,8 @@ RCDatabase = {
 				["secondProfLevel"] = 113,
 				["firstProf"] = "Mining",
 				["level"] = 20,
-				["firstProfLevel"] = 65,
 				["class"] = "PALADIN",
+				["firstProfLevel"] = 65,
 				["secondProf"] = "Skinning",
 			}, -- [5]
 			{
@@ -271,8 +163,8 @@ RCDatabase = {
 				["secondProfLevel"] = 101,
 				["firstProf"] = "Alchemy",
 				["level"] = 19,
-				["firstProfLevel"] = 26,
 				["class"] = "MONK",
+				["firstProfLevel"] = 26,
 				["secondProf"] = "Inscription",
 			}, -- [6]
 			{
@@ -280,16 +172,16 @@ RCDatabase = {
 				["secondProfLevel"] = 51,
 				["firstProf"] = "Herbalism",
 				["level"] = 21,
-				["firstProfLevel"] = 129,
 				["class"] = "ROGUE",
+				["firstProfLevel"] = 129,
 				["secondProf"] = "Mining",
 			}, -- [7]
 			nil, -- [8]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -297,8 +189,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -306,8 +198,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -315,8 +207,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -324,8 +216,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -333,8 +225,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -342,8 +234,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -351,8 +243,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -360,8 +252,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -369,8 +261,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -378,8 +270,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -387,8 +279,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -396,8 +288,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -407,15 +299,15 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 83,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [22]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -425,15 +317,15 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 83,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [24]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -443,15 +335,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [26]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -461,15 +353,15 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 83,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [28]
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 83,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -477,8 +369,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 83,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -486,8 +378,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 84,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -497,15 +389,15 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 85,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [32]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -515,15 +407,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [34]
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -533,15 +425,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [36]
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -549,8 +441,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -558,8 +450,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -567,8 +459,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -576,8 +468,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -585,8 +477,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -594,8 +486,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -603,8 +495,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -612,8 +504,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -621,8 +513,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -630,8 +522,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -639,8 +531,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -650,15 +542,15 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 85,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [49]
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -666,8 +558,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 1,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -677,8 +569,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 86,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [52]
 			{
@@ -686,8 +578,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 86,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [53]
 			{
@@ -695,8 +587,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 88,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [54]
 			{
@@ -704,8 +596,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 89,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [55]
 			{
@@ -713,8 +605,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 89,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [56]
 			{
@@ -722,8 +614,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [57]
 			{
@@ -731,8 +623,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [58]
 			{
@@ -740,8 +632,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [59]
 			{
@@ -749,8 +641,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [60]
 			{
@@ -758,8 +650,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [61]
 			{
@@ -767,8 +659,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [62]
 			{
@@ -776,8 +668,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [63]
 			{
@@ -785,8 +677,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [64]
 			{
@@ -794,8 +686,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [65]
 			{
@@ -803,8 +695,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [66]
 			{
@@ -812,8 +704,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [67]
 			{
@@ -821,8 +713,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [68]
 			{
@@ -830,8 +722,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [69]
 			{
@@ -839,8 +731,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [70]
 			{
@@ -848,8 +740,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [71]
 			{
@@ -857,8 +749,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [72]
 			{
@@ -866,8 +758,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 90,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [73]
 			{
@@ -875,8 +767,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [74]
 			{
@@ -884,8 +776,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [75]
 			{
@@ -893,8 +785,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [76]
 			{
@@ -902,8 +794,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [77]
 			{
@@ -911,8 +803,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [78]
 			{
@@ -920,8 +812,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [79]
 			{
@@ -929,8 +821,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [80]
 			{
@@ -938,8 +830,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [81]
 			{
@@ -947,8 +839,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [82]
 			{
@@ -956,8 +848,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [83]
 			{
@@ -965,8 +857,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [84]
 			{
@@ -974,8 +866,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [85]
 			{
@@ -983,8 +875,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [86]
 			{
@@ -992,8 +884,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [87]
 			{
@@ -1001,8 +893,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [88]
 			{
@@ -1010,8 +902,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [89]
 			{
@@ -1019,8 +911,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [90]
 			{
@@ -1028,15 +920,15 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [91]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1046,8 +938,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [93]
 			{
@@ -1055,8 +947,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [94]
 			{
@@ -1064,8 +956,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [95]
 			{
@@ -1073,8 +965,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [96]
 			{
@@ -1082,8 +974,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [97]
 			{
@@ -1091,8 +983,8 @@ RCDatabase = {
 				["secondProfLevel"] = 1,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [98]
 			{
@@ -1100,8 +992,8 @@ RCDatabase = {
 				["secondProfLevel"] = 2,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [99]
 			{
@@ -1109,8 +1001,8 @@ RCDatabase = {
 				["secondProfLevel"] = 12,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [100]
 			{
@@ -1118,8 +1010,8 @@ RCDatabase = {
 				["secondProfLevel"] = 17,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [101]
 			{
@@ -1127,8 +1019,8 @@ RCDatabase = {
 				["secondProfLevel"] = 22,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [102]
 			{
@@ -1136,8 +1028,8 @@ RCDatabase = {
 				["secondProfLevel"] = 27,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [103]
 			{
@@ -1145,15 +1037,15 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [104]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1161,8 +1053,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1170,8 +1062,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1179,8 +1071,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1188,8 +1080,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1197,8 +1089,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1206,8 +1098,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1215,8 +1107,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1226,8 +1118,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [113]
 			{
@@ -1235,8 +1127,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [114]
 			{
@@ -1244,8 +1136,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [115]
 			{
@@ -1253,8 +1145,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [116]
 			{
@@ -1262,8 +1154,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [117]
 			{
@@ -1271,8 +1163,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [118]
 			{
@@ -1280,8 +1172,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [119]
 			{
@@ -1289,8 +1181,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [120]
 			{
@@ -1298,8 +1190,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [121]
 			{
@@ -1307,8 +1199,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [122]
 			{
@@ -1316,8 +1208,8 @@ RCDatabase = {
 				["secondProfLevel"] = 32,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [123]
 			{
@@ -1325,8 +1217,8 @@ RCDatabase = {
 				["secondProfLevel"] = 42,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [124]
 			{
@@ -1334,8 +1226,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [125]
 			{
@@ -1343,8 +1235,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [126]
 			{
@@ -1352,8 +1244,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [127]
 			{
@@ -1361,8 +1253,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [128]
 			{
@@ -1370,15 +1262,15 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [129]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -1388,8 +1280,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [131]
 			{
@@ -1397,8 +1289,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [132]
 			{
@@ -1406,8 +1298,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [133]
 			{
@@ -1415,8 +1307,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [134]
 			{
@@ -1424,8 +1316,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [135]
 			{
@@ -1433,8 +1325,8 @@ RCDatabase = {
 				["secondProfLevel"] = 43,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [136]
 			{
@@ -1442,8 +1334,8 @@ RCDatabase = {
 				["secondProfLevel"] = 44,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [137]
 			{
@@ -1451,8 +1343,8 @@ RCDatabase = {
 				["secondProfLevel"] = 45,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [138]
 			{
@@ -1460,8 +1352,8 @@ RCDatabase = {
 				["secondProfLevel"] = 46,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [139]
 			{
@@ -1469,8 +1361,8 @@ RCDatabase = {
 				["secondProfLevel"] = 47,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [140]
 			{
@@ -1478,8 +1370,8 @@ RCDatabase = {
 				["secondProfLevel"] = 48,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [141]
 			{
@@ -1487,8 +1379,8 @@ RCDatabase = {
 				["secondProfLevel"] = 49,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [142]
 			{
@@ -1496,8 +1388,8 @@ RCDatabase = {
 				["secondProfLevel"] = 50,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [143]
 			{
@@ -1505,8 +1397,8 @@ RCDatabase = {
 				["secondProfLevel"] = 51,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [144]
 			{
@@ -1514,8 +1406,8 @@ RCDatabase = {
 				["secondProfLevel"] = 52,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [145]
 			{
@@ -1523,8 +1415,8 @@ RCDatabase = {
 				["secondProfLevel"] = 53,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [146]
 			{
@@ -1532,8 +1424,8 @@ RCDatabase = {
 				["secondProfLevel"] = 54,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [147]
 			{
@@ -1541,8 +1433,8 @@ RCDatabase = {
 				["secondProfLevel"] = 55,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [148]
 			{
@@ -1550,8 +1442,8 @@ RCDatabase = {
 				["secondProfLevel"] = 56,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [149]
 			{
@@ -1559,8 +1451,8 @@ RCDatabase = {
 				["secondProfLevel"] = 57,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [150]
 			{
@@ -1568,8 +1460,8 @@ RCDatabase = {
 				["secondProfLevel"] = 58,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [151]
 			{
@@ -1577,8 +1469,8 @@ RCDatabase = {
 				["secondProfLevel"] = 59,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [152]
 			{
@@ -1586,8 +1478,8 @@ RCDatabase = {
 				["secondProfLevel"] = 60,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [153]
 			{
@@ -1595,8 +1487,8 @@ RCDatabase = {
 				["secondProfLevel"] = 61,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [154]
 			{
@@ -1604,8 +1496,8 @@ RCDatabase = {
 				["secondProfLevel"] = 62,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [155]
 			{
@@ -1613,8 +1505,8 @@ RCDatabase = {
 				["secondProfLevel"] = 63,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [156]
 			{
@@ -1622,8 +1514,8 @@ RCDatabase = {
 				["secondProfLevel"] = 64,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [157]
 			{
@@ -1631,8 +1523,8 @@ RCDatabase = {
 				["secondProfLevel"] = 65,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [158]
 			{
@@ -1640,8 +1532,8 @@ RCDatabase = {
 				["secondProfLevel"] = 66,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [159]
 			{
@@ -1649,8 +1541,8 @@ RCDatabase = {
 				["secondProfLevel"] = 67,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [160]
 			{
@@ -1658,8 +1550,8 @@ RCDatabase = {
 				["secondProfLevel"] = 68,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [161]
 			{
@@ -1667,8 +1559,8 @@ RCDatabase = {
 				["secondProfLevel"] = 69,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [162]
 			{
@@ -1676,8 +1568,8 @@ RCDatabase = {
 				["secondProfLevel"] = 70,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [163]
 			{
@@ -1685,8 +1577,8 @@ RCDatabase = {
 				["secondProfLevel"] = 71,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [164]
 			{
@@ -1694,8 +1586,8 @@ RCDatabase = {
 				["secondProfLevel"] = 71,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [165]
 			{
@@ -1703,8 +1595,8 @@ RCDatabase = {
 				["secondProfLevel"] = 72,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [166]
 			{
@@ -1712,8 +1604,8 @@ RCDatabase = {
 				["secondProfLevel"] = 73,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [167]
 			{
@@ -1721,8 +1613,8 @@ RCDatabase = {
 				["secondProfLevel"] = 74,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [168]
 			{
@@ -1730,8 +1622,8 @@ RCDatabase = {
 				["secondProfLevel"] = 75,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [169]
 			{
@@ -1739,8 +1631,8 @@ RCDatabase = {
 				["secondProfLevel"] = 76,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [170]
 			{
@@ -1748,8 +1640,8 @@ RCDatabase = {
 				["secondProfLevel"] = 77,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [171]
 			{
@@ -1757,8 +1649,8 @@ RCDatabase = {
 				["secondProfLevel"] = 78,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [172]
 			{
@@ -1766,8 +1658,8 @@ RCDatabase = {
 				["secondProfLevel"] = 79,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [173]
 			{
@@ -1775,8 +1667,8 @@ RCDatabase = {
 				["secondProfLevel"] = 80,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [174]
 			{
@@ -1784,8 +1676,8 @@ RCDatabase = {
 				["secondProfLevel"] = 81,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [175]
 			{
@@ -1793,8 +1685,8 @@ RCDatabase = {
 				["secondProfLevel"] = 82,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [176]
 			{
@@ -1802,8 +1694,8 @@ RCDatabase = {
 				["secondProfLevel"] = 83,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [177]
 			{
@@ -1811,8 +1703,8 @@ RCDatabase = {
 				["secondProfLevel"] = 84,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [178]
 			{
@@ -1820,8 +1712,8 @@ RCDatabase = {
 				["secondProfLevel"] = 85,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [179]
 			{
@@ -1829,8 +1721,8 @@ RCDatabase = {
 				["secondProfLevel"] = 86,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [180]
 			{
@@ -1838,8 +1730,8 @@ RCDatabase = {
 				["secondProfLevel"] = 87,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [181]
 			{
@@ -1847,8 +1739,8 @@ RCDatabase = {
 				["secondProfLevel"] = 88,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [182]
 			{
@@ -1856,8 +1748,8 @@ RCDatabase = {
 				["secondProfLevel"] = 89,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [183]
 			{
@@ -1865,8 +1757,8 @@ RCDatabase = {
 				["secondProfLevel"] = 90,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [184]
 			{
@@ -1874,8 +1766,8 @@ RCDatabase = {
 				["secondProfLevel"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [185]
 			{
@@ -1883,8 +1775,8 @@ RCDatabase = {
 				["secondProfLevel"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [186]
 			{
@@ -1892,8 +1784,8 @@ RCDatabase = {
 				["secondProfLevel"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [187]
 			{
@@ -1901,8 +1793,8 @@ RCDatabase = {
 				["secondProfLevel"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [188]
 			{
@@ -1910,8 +1802,8 @@ RCDatabase = {
 				["secondProfLevel"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [189]
 			{
@@ -1919,8 +1811,8 @@ RCDatabase = {
 				["secondProfLevel"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [190]
 			{
@@ -1928,8 +1820,8 @@ RCDatabase = {
 				["secondProfLevel"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [191]
 			{
@@ -1937,8 +1829,8 @@ RCDatabase = {
 				["secondProfLevel"] = 97,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [192]
 			{
@@ -1946,8 +1838,8 @@ RCDatabase = {
 				["secondProfLevel"] = 98,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [193]
 			{
@@ -1955,8 +1847,8 @@ RCDatabase = {
 				["secondProfLevel"] = 99,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [194]
 			{
@@ -1964,8 +1856,8 @@ RCDatabase = {
 				["secondProfLevel"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [195]
 			{
@@ -1973,8 +1865,8 @@ RCDatabase = {
 				["secondProfLevel"] = 101,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [196]
 			{
@@ -1982,8 +1874,8 @@ RCDatabase = {
 				["secondProfLevel"] = 102,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [197]
 			{
@@ -1991,8 +1883,8 @@ RCDatabase = {
 				["secondProfLevel"] = 103,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [198]
 			{
@@ -2000,8 +1892,8 @@ RCDatabase = {
 				["secondProfLevel"] = 104,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [199]
 			{
@@ -2009,8 +1901,8 @@ RCDatabase = {
 				["secondProfLevel"] = 105,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [200]
 			{
@@ -2018,8 +1910,8 @@ RCDatabase = {
 				["secondProfLevel"] = 106,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [201]
 			{
@@ -2027,8 +1919,8 @@ RCDatabase = {
 				["secondProfLevel"] = 107,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [202]
 			{
@@ -2036,15 +1928,15 @@ RCDatabase = {
 				["secondProfLevel"] = 108,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [203]
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2052,8 +1944,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2061,8 +1953,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2070,8 +1962,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2079,8 +1971,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2088,8 +1980,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2097,8 +1989,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2108,15 +2000,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [211]
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2124,8 +2016,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2133,8 +2025,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2142,8 +2034,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2151,8 +2043,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2160,8 +2052,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 108,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2169,8 +2061,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 118,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2178,8 +2070,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2189,15 +2081,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [220]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -2207,8 +2099,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [222]
 			{
@@ -2216,8 +2108,8 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [223]
 			{
@@ -2225,8 +2117,8 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [224]
 			{
@@ -2234,8 +2126,8 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [225]
 			{
@@ -2243,8 +2135,8 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [226]
 			{
@@ -2252,8 +2144,8 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [227]
 			{
@@ -2261,8 +2153,8 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [228]
 			{
@@ -2270,15 +2162,15 @@ RCDatabase = {
 				["secondProfLevel"] = 119,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [229]
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2286,8 +2178,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2295,8 +2187,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2304,8 +2196,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2313,8 +2205,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2322,8 +2214,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2331,8 +2223,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 119,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2340,8 +2232,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2349,8 +2241,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2358,8 +2250,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2367,8 +2259,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2376,8 +2268,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2385,8 +2277,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2394,8 +2286,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2405,15 +2297,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [244]
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2421,8 +2313,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2430,8 +2322,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2439,8 +2331,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2448,8 +2340,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2457,8 +2349,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 120,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2466,8 +2358,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2477,15 +2369,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [252]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -2495,15 +2387,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [254]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -2513,8 +2405,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [256]
 			{
@@ -2522,8 +2414,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [257]
 			{
@@ -2531,8 +2423,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [258]
 			{
@@ -2540,8 +2432,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [259]
 			{
@@ -2549,8 +2441,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [260]
 			{
@@ -2558,8 +2450,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [261]
 			{
@@ -2567,8 +2459,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [262]
 			{
@@ -2576,8 +2468,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [263]
 			{
@@ -2585,8 +2477,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [264]
 			{
@@ -2594,8 +2486,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [265]
 			{
@@ -2603,8 +2495,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [266]
 			{
@@ -2612,8 +2504,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [267]
 			{
@@ -2621,15 +2513,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [268]
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2637,8 +2529,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2646,8 +2538,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2655,8 +2547,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2664,8 +2556,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2673,8 +2565,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2682,8 +2574,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 130,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2691,8 +2583,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 131,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2700,8 +2592,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2709,8 +2601,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -2720,8 +2612,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [279]
 			{
@@ -2729,8 +2621,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [280]
 			{
@@ -2738,8 +2630,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [281]
 			{
@@ -2747,8 +2639,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [282]
 			{
@@ -2756,8 +2648,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [283]
 			{
@@ -2765,8 +2657,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [284]
 			{
@@ -2774,8 +2666,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [285]
 			{
@@ -2783,8 +2675,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [286]
 			{
@@ -2792,8 +2684,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [287]
 			{
@@ -2801,15 +2693,15 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 1,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [288]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -2819,8 +2711,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [290]
 			{
@@ -2828,8 +2720,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [291]
 			{
@@ -2837,8 +2729,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [292]
 			{
@@ -2846,8 +2738,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [293]
 			{
@@ -2855,8 +2747,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [294]
 			{
@@ -2864,8 +2756,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [295]
 			{
@@ -2873,8 +2765,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [296]
 			{
@@ -2882,15 +2774,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [297]
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2898,8 +2790,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2907,8 +2799,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2916,8 +2808,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2925,8 +2817,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2934,8 +2826,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2943,8 +2835,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2952,8 +2844,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 141,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["level"] = 91,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -2961,8 +2853,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -2972,8 +2864,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [307]
 			{
@@ -2981,8 +2873,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [308]
 			{
@@ -2990,8 +2882,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [309]
 			{
@@ -2999,8 +2891,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [310]
 			{
@@ -3008,8 +2900,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [311]
 			{
@@ -3017,8 +2909,8 @@ RCDatabase = {
 				["secondProfLevel"] = 141,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [312]
 			{
@@ -3026,8 +2918,8 @@ RCDatabase = {
 				["secondProfLevel"] = 151,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [313]
 			{
@@ -3035,8 +2927,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [314]
 			{
@@ -3044,8 +2936,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [315]
 			{
@@ -3053,8 +2945,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [316]
 			{
@@ -3062,8 +2954,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [317]
 			{
@@ -3071,8 +2963,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [318]
 			{
@@ -3080,8 +2972,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [319]
 			{
@@ -3089,8 +2981,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [320]
 			{
@@ -3098,8 +2990,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [321]
 			{
@@ -3107,8 +2999,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [322]
 			{
@@ -3116,8 +3008,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [323]
 			{
@@ -3125,8 +3017,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [324]
 			{
@@ -3134,8 +3026,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [325]
 			{
@@ -3143,8 +3035,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [326]
 			{
@@ -3152,8 +3044,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [327]
 			{
@@ -3161,8 +3053,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [328]
 			{
@@ -3170,8 +3062,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [329]
 			{
@@ -3179,8 +3071,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [330]
 			{
@@ -3188,8 +3080,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [331]
 			{
@@ -3197,8 +3089,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [332]
 			{
@@ -3206,8 +3098,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [333]
 			{
@@ -3215,8 +3107,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 1,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [334]
 			{
@@ -3224,8 +3116,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [335]
 			{
@@ -3233,15 +3125,15 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [336]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3249,8 +3141,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3258,8 +3150,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3267,8 +3159,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3276,8 +3168,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3285,8 +3177,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3294,8 +3186,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3303,8 +3195,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3312,8 +3204,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3321,8 +3213,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3330,8 +3222,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3339,8 +3231,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3348,8 +3240,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3357,8 +3249,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3366,8 +3258,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3375,8 +3267,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3384,8 +3276,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3393,8 +3285,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3402,8 +3294,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3411,8 +3303,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3420,8 +3312,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3429,8 +3321,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3438,8 +3330,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3447,8 +3339,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3458,8 +3350,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [361]
 			{
@@ -3467,8 +3359,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [362]
 			{
@@ -3476,8 +3368,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [363]
 			{
@@ -3485,8 +3377,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [364]
 			{
@@ -3494,8 +3386,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [365]
 			{
@@ -3503,8 +3395,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [366]
 			{
@@ -3512,8 +3404,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 91,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [367]
 			{
@@ -3521,15 +3413,15 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [368]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -3539,8 +3431,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [370]
 			{
@@ -3548,8 +3440,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [371]
 			{
@@ -3557,8 +3449,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [372]
 			{
@@ -3566,8 +3458,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [373]
 			{
@@ -3575,8 +3467,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [374]
 			{
@@ -3584,8 +3476,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [375]
 			{
@@ -3593,8 +3485,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [376]
 			{
@@ -3602,8 +3494,8 @@ RCDatabase = {
 				["secondProfLevel"] = 152,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [377]
 			{
@@ -3611,8 +3503,8 @@ RCDatabase = {
 				["secondProfLevel"] = 153,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [378]
 			{
@@ -3620,8 +3512,8 @@ RCDatabase = {
 				["secondProfLevel"] = 163,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [379]
 			{
@@ -3629,15 +3521,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [380]
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3647,8 +3539,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [382]
 			{
@@ -3656,8 +3548,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [383]
 			{
@@ -3665,8 +3557,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [384]
 			{
@@ -3674,8 +3566,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [385]
 			{
@@ -3683,8 +3575,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [386]
 			{
@@ -3692,8 +3584,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [387]
 			{
@@ -3701,8 +3593,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [388]
 			{
@@ -3710,8 +3602,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [389]
 			{
@@ -3719,8 +3611,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [390]
 			{
@@ -3728,8 +3620,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [391]
 			{
@@ -3737,8 +3629,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [392]
 			{
@@ -3746,8 +3638,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [393]
 			{
@@ -3755,8 +3647,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [394]
 			{
@@ -3764,8 +3656,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [395]
 			{
@@ -3773,8 +3665,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [396]
 			{
@@ -3782,8 +3674,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [397]
 			{
@@ -3791,8 +3683,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [398]
 			{
@@ -3800,8 +3692,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [399]
 			{
@@ -3809,8 +3701,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [400]
 			{
@@ -3818,8 +3710,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [401]
 			{
@@ -3827,8 +3719,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [402]
 			{
@@ -3836,8 +3728,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [403]
 			{
@@ -3845,8 +3737,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [404]
 			{
@@ -3854,15 +3746,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [405]
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3870,8 +3762,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3879,8 +3771,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3888,8 +3780,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3897,8 +3789,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3906,8 +3798,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3915,8 +3807,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 163,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3924,8 +3816,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 164,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3933,8 +3825,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 2,
+				["class"] = "WARRIOR",
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -3944,8 +3836,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [415]
 			{
@@ -3953,8 +3845,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [416]
 			{
@@ -3962,8 +3854,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [417]
 			{
@@ -3971,8 +3863,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [418]
 			{
@@ -3980,8 +3872,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [419]
 			{
@@ -3989,15 +3881,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [420]
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4005,8 +3897,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4014,8 +3906,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4023,8 +3915,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4032,8 +3924,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4041,8 +3933,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4050,8 +3942,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 2,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 2,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4059,8 +3951,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 12,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 12,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4068,8 +3960,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 12,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 12,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4077,8 +3969,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 13,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 13,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4086,8 +3978,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 13,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 13,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4095,8 +3987,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 174,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 13,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 13,
 				["level"] = 92,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4106,8 +3998,8 @@ RCDatabase = {
 				["secondProfLevel"] = 174,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 92,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [433]
 			{
@@ -4115,8 +4007,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [434]
 			{
@@ -4124,8 +4016,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [435]
 			{
@@ -4133,8 +4025,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [436]
 			{
@@ -4142,8 +4034,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [437]
 			{
@@ -4151,8 +4043,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [438]
 			{
@@ -4160,8 +4052,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [439]
 			{
@@ -4169,8 +4061,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 13,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [440]
 			{
@@ -4178,8 +4070,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 18,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [441]
 			{
@@ -4187,15 +4079,15 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 18,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [442]
 			{
 				["secondProfLevel"] = 179,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 18,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4203,8 +4095,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4214,8 +4106,8 @@ RCDatabase = {
 				["secondProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
 				["level"] = 2,
-				["class"] = "PALADIN",
 				["firstProfLevel"] = 0,
+				["class"] = "PALADIN",
 				["secondProf"] = "No 2nd Prof",
 			}, -- [445]
 			{
@@ -4223,15 +4115,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [446]
 			{
 				["secondProfLevel"] = 179,
 				["name"] = "Theodor",
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4241,15 +4133,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [448]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4259,8 +4151,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [450]
 			{
@@ -4268,15 +4160,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [451]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4286,8 +4178,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [453]
 			{
@@ -4295,8 +4187,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [454]
 			{
@@ -4304,8 +4196,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [455]
 			{
@@ -4313,8 +4205,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [456]
 			{
@@ -4322,8 +4214,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [457]
 			{
@@ -4331,8 +4223,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [458]
 			{
@@ -4340,8 +4232,8 @@ RCDatabase = {
 				["secondProfLevel"] = 179,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [459]
 			{
@@ -4349,8 +4241,8 @@ RCDatabase = {
 				["secondProfLevel"] = 180,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [460]
 			{
@@ -4358,8 +4250,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [461]
 			{
@@ -4367,8 +4259,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [462]
 			{
@@ -4376,8 +4268,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [463]
 			{
@@ -4385,8 +4277,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [464]
 			{
@@ -4394,8 +4286,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 18,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [465]
 			{
@@ -4403,8 +4295,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 19,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 19,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [466]
 			{
@@ -4412,8 +4304,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [467]
 			{
@@ -4421,8 +4313,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [468]
 			{
@@ -4430,8 +4322,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [469]
 			{
@@ -4439,8 +4331,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [470]
 			{
@@ -4448,8 +4340,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [471]
 			{
@@ -4457,8 +4349,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [472]
 			{
@@ -4466,8 +4358,8 @@ RCDatabase = {
 				["secondProfLevel"] = 190,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 29,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [473]
 			{
@@ -4475,15 +4367,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [474]
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4491,8 +4383,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4500,8 +4392,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4509,8 +4401,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4518,8 +4410,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4527,8 +4419,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4536,8 +4428,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4545,8 +4437,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 190,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4554,8 +4446,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 200,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4563,8 +4455,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4572,8 +4464,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4581,8 +4473,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4590,8 +4482,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4599,8 +4491,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 29,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4608,8 +4500,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 30,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4617,8 +4509,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4626,8 +4518,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4635,8 +4527,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4644,8 +4536,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4653,8 +4545,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4662,8 +4554,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4671,8 +4563,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4680,8 +4572,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4689,8 +4581,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4698,8 +4590,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4707,8 +4599,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4716,8 +4608,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4725,8 +4617,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Theodor",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4734,8 +4626,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4745,15 +4637,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [504]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4761,8 +4653,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4770,8 +4662,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4779,8 +4671,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4788,8 +4680,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4797,8 +4689,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4806,8 +4698,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4815,8 +4707,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4824,8 +4716,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -4835,8 +4727,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [514]
 			{
@@ -4844,8 +4736,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [515]
 			{
@@ -4853,8 +4745,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [516]
 			{
@@ -4862,8 +4754,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [517]
 			{
@@ -4871,8 +4763,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [518]
 			{
@@ -4880,8 +4772,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [519]
 			{
@@ -4889,8 +4781,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [520]
 			{
@@ -4898,8 +4790,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [521]
 			{
@@ -4907,8 +4799,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [522]
 			{
@@ -4916,15 +4808,15 @@ RCDatabase = {
 				["secondProfLevel"] = 201,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [523]
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4932,8 +4824,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4941,8 +4833,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4950,8 +4842,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4959,8 +4851,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4968,8 +4860,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4977,8 +4869,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 201,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4986,8 +4878,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 202,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -4995,8 +4887,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 202,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5004,8 +4896,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 202,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5013,8 +4905,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 202,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5022,8 +4914,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 202,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5031,8 +4923,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 212,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 40,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5040,8 +4932,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 212,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 41,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5049,8 +4941,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 212,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 51,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5058,8 +4950,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 212,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 51,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5069,8 +4961,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [540]
 			{
@@ -5078,8 +4970,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [541]
 			{
@@ -5087,8 +4979,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [542]
 			{
@@ -5096,8 +4988,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [543]
 			{
@@ -5105,8 +4997,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [544]
 			{
@@ -5114,8 +5006,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [545]
 			{
@@ -5123,8 +5015,8 @@ RCDatabase = {
 				["secondProfLevel"] = 223,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [546]
 			{
@@ -5132,8 +5024,8 @@ RCDatabase = {
 				["secondProfLevel"] = 224,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [547]
 			{
@@ -5141,8 +5033,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [548]
 			{
@@ -5150,8 +5042,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [549]
 			{
@@ -5159,8 +5051,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [550]
 			{
@@ -5168,8 +5060,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [551]
 			{
@@ -5177,8 +5069,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 62,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [552]
 			{
@@ -5186,8 +5078,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 63,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 63,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [553]
 			{
@@ -5195,8 +5087,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [554]
 			{
@@ -5204,8 +5096,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [555]
 			{
@@ -5213,8 +5105,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [556]
 			{
@@ -5222,8 +5114,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [557]
 			{
@@ -5231,8 +5123,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [558]
 			{
@@ -5240,8 +5132,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [559]
 			{
@@ -5249,8 +5141,8 @@ RCDatabase = {
 				["secondProfLevel"] = 234,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 93,
-				["firstProfLevel"] = 73,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [560]
 			{
@@ -5258,15 +5150,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [561]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5276,15 +5168,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [563]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5294,15 +5186,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [565]
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5310,8 +5202,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5319,8 +5211,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5328,8 +5220,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5337,8 +5229,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5346,8 +5238,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5355,8 +5247,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 73,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5364,8 +5256,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 74,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5373,8 +5265,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 74,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5382,8 +5274,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 74,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5391,8 +5283,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 74,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5400,8 +5292,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 74,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5409,8 +5301,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 234,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 84,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5418,8 +5310,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 235,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 84,
+				["class"] = "WARRIOR",
 				["level"] = 93,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -5429,8 +5321,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [580]
 			{
@@ -5438,8 +5330,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [581]
 			{
@@ -5447,8 +5339,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [582]
 			{
@@ -5456,8 +5348,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [583]
 			{
@@ -5465,8 +5357,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [584]
 			{
@@ -5474,8 +5366,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [585]
 			{
@@ -5483,8 +5375,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [586]
 			{
@@ -5492,8 +5384,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [587]
 			{
@@ -5501,8 +5393,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [588]
 			{
@@ -5510,8 +5402,8 @@ RCDatabase = {
 				["secondProfLevel"] = 289,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [589]
 			{
@@ -5519,8 +5411,8 @@ RCDatabase = {
 				["secondProfLevel"] = 290,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [590]
 			{
@@ -5528,8 +5420,8 @@ RCDatabase = {
 				["secondProfLevel"] = 290,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [591]
 			{
@@ -5537,8 +5429,8 @@ RCDatabase = {
 				["secondProfLevel"] = 290,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [592]
 			{
@@ -5546,8 +5438,8 @@ RCDatabase = {
 				["secondProfLevel"] = 290,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [593]
 			{
@@ -5555,8 +5447,8 @@ RCDatabase = {
 				["secondProfLevel"] = 290,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [594]
 			{
@@ -5564,8 +5456,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 128,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [595]
 			{
@@ -5573,8 +5465,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 129,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [596]
 			{
@@ -5582,15 +5474,15 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [597]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5598,8 +5490,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5607,8 +5499,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5616,8 +5508,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5625,8 +5517,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5634,8 +5526,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5643,8 +5535,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5654,8 +5546,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [605]
 			{
@@ -5663,8 +5555,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [606]
 			{
@@ -5672,8 +5564,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [607]
 			{
@@ -5681,8 +5573,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [608]
 			{
@@ -5690,8 +5582,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [609]
 			{
@@ -5699,8 +5591,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [610]
 			{
@@ -5708,8 +5600,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [611]
 			{
@@ -5717,8 +5609,8 @@ RCDatabase = {
 				["secondProfLevel"] = 300,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [612]
 			{
@@ -5726,8 +5618,8 @@ RCDatabase = {
 				["secondProfLevel"] = 301,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [613]
 			{
@@ -5735,8 +5627,8 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [614]
 			{
@@ -5744,8 +5636,8 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [615]
 			{
@@ -5753,8 +5645,8 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [616]
 			{
@@ -5762,8 +5654,8 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [617]
 			{
@@ -5771,8 +5663,8 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 139,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [618]
 			{
@@ -5780,8 +5672,8 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 140,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [619]
 			{
@@ -5789,15 +5681,15 @@ RCDatabase = {
 				["secondProfLevel"] = 311,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 150,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [620]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5807,15 +5699,15 @@ RCDatabase = {
 				["secondProfLevel"] = 322,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 94,
-				["firstProfLevel"] = 161,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 161,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [622]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5823,8 +5715,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5832,8 +5724,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5841,8 +5733,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5852,15 +5744,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [627]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5868,8 +5760,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5877,8 +5769,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5886,8 +5778,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5895,8 +5787,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5904,8 +5796,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5913,8 +5805,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5922,8 +5814,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5931,8 +5823,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5940,8 +5832,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5949,8 +5841,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5958,8 +5850,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5967,8 +5859,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5976,8 +5868,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5985,8 +5877,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -5994,8 +5886,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6003,8 +5895,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6012,8 +5904,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6021,8 +5913,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6030,8 +5922,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6039,8 +5931,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6048,8 +5940,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6057,8 +5949,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6068,8 +5960,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [651]
 			{
@@ -6077,8 +5969,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [652]
 			{
@@ -6086,8 +5978,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [653]
 			{
@@ -6095,8 +5987,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [654]
 			{
@@ -6104,8 +5996,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [655]
 			{
@@ -6113,8 +6005,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [656]
 			{
@@ -6122,8 +6014,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [657]
 			{
@@ -6131,8 +6023,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [658]
 			{
@@ -6140,8 +6032,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [659]
 			{
@@ -6149,8 +6041,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [660]
 			{
@@ -6158,8 +6050,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [661]
 			{
@@ -6167,8 +6059,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [662]
 			{
@@ -6176,8 +6068,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [663]
 			{
@@ -6185,8 +6077,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [664]
 			{
@@ -6194,8 +6086,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [665]
 			{
@@ -6203,8 +6095,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [666]
 			{
@@ -6212,8 +6104,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [667]
 			{
@@ -6221,8 +6113,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [668]
 			{
@@ -6230,8 +6122,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [669]
 			{
@@ -6239,8 +6131,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [670]
 			{
@@ -6248,8 +6140,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [671]
 			{
@@ -6257,8 +6149,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [672]
 			{
@@ -6266,15 +6158,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [673]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6284,8 +6176,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [675]
 			{
@@ -6293,8 +6185,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [676]
 			{
@@ -6302,8 +6194,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [677]
 			{
@@ -6311,8 +6203,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [678]
 			{
@@ -6320,8 +6212,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [679]
 			{
@@ -6329,8 +6221,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [680]
 			{
@@ -6338,8 +6230,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [681]
 			{
@@ -6347,8 +6239,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [682]
 			{
@@ -6356,8 +6248,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [683]
 			{
@@ -6365,8 +6257,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [684]
 			{
@@ -6374,15 +6266,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [685]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6392,15 +6284,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [687]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6410,15 +6302,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [689]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6428,8 +6320,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [691]
 			{
@@ -6437,8 +6329,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [692]
 			{
@@ -6446,8 +6338,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [693]
 			{
@@ -6455,8 +6347,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [694]
 			{
@@ -6464,8 +6356,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [695]
 			{
@@ -6473,8 +6365,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [696]
 			{
@@ -6482,8 +6374,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [697]
 			{
@@ -6491,8 +6383,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [698]
 			{
@@ -6500,8 +6392,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [699]
 			{
@@ -6509,8 +6401,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [700]
 			{
@@ -6518,8 +6410,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [701]
 			{
@@ -6527,8 +6419,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [702]
 			{
@@ -6536,8 +6428,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [703]
 			{
@@ -6545,8 +6437,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [704]
 			{
@@ -6554,8 +6446,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [705]
 			{
@@ -6563,8 +6455,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [706]
 			{
@@ -6572,8 +6464,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [707]
 			{
@@ -6581,8 +6473,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [708]
 			{
@@ -6590,8 +6482,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [709]
 			{
@@ -6599,8 +6491,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [710]
 			{
@@ -6608,8 +6500,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [711]
 			{
@@ -6617,15 +6509,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [712]
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6633,8 +6525,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6642,8 +6534,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6651,8 +6543,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6660,8 +6552,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6669,8 +6561,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6678,8 +6570,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 194,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 194,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6687,8 +6579,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 195,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 195,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6696,8 +6588,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 195,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 195,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6705,8 +6597,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 195,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 195,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6714,8 +6606,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 195,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 195,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6723,8 +6615,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 195,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 195,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6732,8 +6624,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 355,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6741,8 +6633,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 356,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6750,8 +6642,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 366,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 94,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6759,8 +6651,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 366,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6768,8 +6660,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 366,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6777,8 +6669,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 366,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6786,8 +6678,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 366,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -6797,15 +6689,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [732]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6815,8 +6707,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [734]
 			{
@@ -6824,8 +6716,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [735]
 			{
@@ -6833,8 +6725,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [736]
 			{
@@ -6842,8 +6734,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [737]
 			{
@@ -6851,8 +6743,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [738]
 			{
@@ -6860,8 +6752,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [739]
 			{
@@ -6869,8 +6761,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [740]
 			{
@@ -6878,8 +6770,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [741]
 			{
@@ -6887,8 +6779,8 @@ RCDatabase = {
 				["secondProfLevel"] = 366,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [742]
 			{
@@ -6896,8 +6788,8 @@ RCDatabase = {
 				["secondProfLevel"] = 367,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [743]
 			{
@@ -6905,8 +6797,8 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [744]
 			{
@@ -6914,8 +6806,8 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [745]
 			{
@@ -6923,8 +6815,8 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [746]
 			{
@@ -6932,8 +6824,8 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [747]
 			{
@@ -6941,8 +6833,8 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [748]
 			{
@@ -6950,8 +6842,8 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 205,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 205,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [749]
 			{
@@ -6959,15 +6851,15 @@ RCDatabase = {
 				["secondProfLevel"] = 377,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 206,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 206,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [750]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6977,15 +6869,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [752]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -6995,8 +6887,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [754]
 			{
@@ -7004,15 +6896,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [755]
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7020,8 +6912,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7029,8 +6921,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7038,8 +6930,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7047,8 +6939,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7056,8 +6948,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7065,8 +6957,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7074,8 +6966,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7083,8 +6975,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7092,8 +6984,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7101,8 +6993,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 388,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 218,
+				["class"] = "WARRIOR",
 				["level"] = 95,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -7110,8 +7002,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7119,8 +7011,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7128,8 +7020,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7137,8 +7029,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7146,8 +7038,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7155,8 +7047,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7164,8 +7056,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7173,8 +7065,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7182,8 +7074,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7191,8 +7083,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7200,8 +7092,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7209,8 +7101,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7218,8 +7110,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7227,8 +7119,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7236,8 +7128,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7245,8 +7137,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7256,15 +7148,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [783]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7274,8 +7166,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [785]
 			{
@@ -7283,8 +7175,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [786]
 			{
@@ -7292,8 +7184,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [787]
 			{
@@ -7301,8 +7193,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [788]
 			{
@@ -7310,8 +7202,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [789]
 			{
@@ -7319,8 +7211,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [790]
 			{
@@ -7328,8 +7220,8 @@ RCDatabase = {
 				["secondProfLevel"] = 388,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [791]
 			{
@@ -7337,8 +7229,8 @@ RCDatabase = {
 				["secondProfLevel"] = 389,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [792]
 			{
@@ -7346,8 +7238,8 @@ RCDatabase = {
 				["secondProfLevel"] = 389,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [793]
 			{
@@ -7355,8 +7247,8 @@ RCDatabase = {
 				["secondProfLevel"] = 389,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [794]
 			{
@@ -7364,8 +7256,8 @@ RCDatabase = {
 				["secondProfLevel"] = 389,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [795]
 			{
@@ -7373,8 +7265,8 @@ RCDatabase = {
 				["secondProfLevel"] = 389,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [796]
 			{
@@ -7382,8 +7274,8 @@ RCDatabase = {
 				["secondProfLevel"] = 399,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 218,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 218,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [797]
 			{
@@ -7391,8 +7283,8 @@ RCDatabase = {
 				["secondProfLevel"] = 399,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 219,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 219,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [798]
 			{
@@ -7400,15 +7292,15 @@ RCDatabase = {
 				["secondProfLevel"] = 399,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["firstProfLevel"] = 229,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 229,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [799]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7418,15 +7310,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [801]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7436,15 +7328,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [803]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7452,8 +7344,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7461,8 +7353,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7470,8 +7362,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7479,8 +7371,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7488,8 +7380,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7497,8 +7389,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7506,8 +7398,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7515,8 +7407,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7524,8 +7416,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7533,8 +7425,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7542,8 +7434,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7553,8 +7445,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [816]
 			{
@@ -7562,8 +7454,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [817]
 			{
@@ -7571,8 +7463,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [818]
 			{
@@ -7580,8 +7472,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [819]
 			{
@@ -7589,8 +7481,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [820]
 			{
@@ -7598,8 +7490,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [821]
 			{
@@ -7607,8 +7499,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [822]
 			{
@@ -7616,8 +7508,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [823]
 			{
@@ -7625,8 +7517,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [824]
 			{
@@ -7634,8 +7526,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [825]
 			{
@@ -7643,8 +7535,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [826]
 			{
@@ -7652,8 +7544,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [827]
 			{
@@ -7661,8 +7553,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [828]
 			{
@@ -7670,8 +7562,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [829]
 			{
@@ -7679,8 +7571,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [830]
 			{
@@ -7688,8 +7580,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [831]
 			{
@@ -7697,8 +7589,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [832]
 			{
@@ -7706,8 +7598,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [833]
 			{
@@ -7715,8 +7607,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [834]
 			{
@@ -7724,8 +7616,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [835]
 			{
@@ -7733,8 +7625,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [836]
 			{
@@ -7742,8 +7634,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [837]
 			{
@@ -7751,8 +7643,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [838]
 			{
@@ -7760,8 +7652,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [839]
 			{
@@ -7769,8 +7661,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [840]
 			{
@@ -7778,8 +7670,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [841]
 			{
@@ -7787,8 +7679,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [842]
 			{
@@ -7796,8 +7688,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [843]
 			{
@@ -7805,8 +7697,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [844]
 			{
@@ -7814,8 +7706,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [845]
 			{
@@ -7823,8 +7715,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [846]
 			{
@@ -7832,8 +7724,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [847]
 			{
@@ -7841,8 +7733,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [848]
 			{
@@ -7850,8 +7742,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [849]
 			{
@@ -7859,8 +7751,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [850]
 			{
@@ -7868,8 +7760,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [851]
 			{
@@ -7877,8 +7769,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [852]
 			{
@@ -7886,8 +7778,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [853]
 			{
@@ -7895,15 +7787,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [854]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7911,8 +7803,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7920,8 +7812,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7929,8 +7821,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7938,8 +7830,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7947,8 +7839,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7956,8 +7848,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7965,8 +7857,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7974,8 +7866,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7983,8 +7875,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -7992,8 +7884,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8001,8 +7893,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8010,8 +7902,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8019,8 +7911,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8028,8 +7920,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8037,8 +7929,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8046,8 +7938,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8055,8 +7947,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8064,8 +7956,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8073,8 +7965,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8082,8 +7974,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8091,8 +7983,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8102,15 +7994,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [877]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8120,15 +8012,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [879]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8138,15 +8030,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [881]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8154,8 +8046,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8163,8 +8055,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8172,8 +8064,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8181,8 +8073,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8190,8 +8082,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8199,8 +8091,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8208,8 +8100,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8217,8 +8109,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8226,8 +8118,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8235,8 +8127,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8244,8 +8136,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8255,8 +8147,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [894]
 			{
@@ -8264,8 +8156,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [895]
 			{
@@ -8273,8 +8165,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [896]
 			{
@@ -8282,8 +8174,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [897]
 			{
@@ -8291,8 +8183,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [898]
 			{
@@ -8300,8 +8192,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [899]
 			{
@@ -8309,8 +8201,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [900]
 			{
@@ -8318,8 +8210,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [901]
 			{
@@ -8327,8 +8219,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [902]
 			{
@@ -8336,8 +8228,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [903]
 			{
@@ -8345,8 +8237,8 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [904]
 			{
@@ -8354,15 +8246,15 @@ RCDatabase = {
 				["secondProfLevel"] = 443,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 95,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 273,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [905]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8370,8 +8262,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8379,8 +8271,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8388,8 +8280,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8397,8 +8289,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8406,8 +8298,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8415,8 +8307,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8424,8 +8316,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8433,8 +8325,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8444,8 +8336,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [915]
 			{
@@ -8453,8 +8345,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [916]
 			{
@@ -8462,8 +8354,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [917]
 			{
@@ -8471,8 +8363,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [918]
 			{
@@ -8480,8 +8372,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [919]
 			{
@@ -8489,8 +8381,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [920]
 			{
@@ -8498,8 +8390,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [921]
 			{
@@ -8507,8 +8399,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [922]
 			{
@@ -8516,15 +8408,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [923]
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8532,8 +8424,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8541,8 +8433,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8550,8 +8442,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8559,8 +8451,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8568,8 +8460,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8577,8 +8469,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8586,8 +8478,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8595,8 +8487,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8604,8 +8496,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8613,8 +8505,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 443,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8622,8 +8514,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 444,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8631,8 +8523,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8640,8 +8532,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8649,8 +8541,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8658,8 +8550,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 273,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 273,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8667,8 +8559,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 274,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 274,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8676,8 +8568,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 284,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 284,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8685,8 +8577,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 284,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 284,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8694,8 +8586,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 454,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 284,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 284,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -8703,8 +8595,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8714,15 +8606,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [945]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8732,8 +8624,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [947]
 			{
@@ -8741,8 +8633,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [948]
 			{
@@ -8750,8 +8642,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [949]
 			{
@@ -8759,8 +8651,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [950]
 			{
@@ -8768,8 +8660,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [951]
 			{
@@ -8777,8 +8669,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [952]
 			{
@@ -8786,8 +8678,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [953]
 			{
@@ -8795,8 +8687,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [954]
 			{
@@ -8804,15 +8696,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [955]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8822,15 +8714,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [957]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8840,15 +8732,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [959]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8858,15 +8750,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [961]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8876,15 +8768,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [963]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8894,15 +8786,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["secondProf"] = "Enchanting",
 			}, -- [965]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 715,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 715,
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -8912,8 +8804,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [967]
 			{
@@ -8921,8 +8813,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [968]
 			{
@@ -8930,8 +8822,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [969]
 			{
@@ -8939,8 +8831,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [970]
 			{
@@ -8948,8 +8840,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [971]
 			{
@@ -8957,8 +8849,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [972]
 			{
@@ -8966,8 +8858,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [973]
 			{
@@ -8975,8 +8867,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [974]
 			{
@@ -8984,15 +8876,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Engineering",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [975]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 715,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Engineering",
 				["secondProf"] = "Enchanting",
@@ -9002,8 +8894,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [977]
 			{
@@ -9011,8 +8903,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [978]
 			{
@@ -9020,8 +8912,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [979]
 			{
@@ -9029,8 +8921,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [980]
 			{
@@ -9038,8 +8930,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [981]
 			{
@@ -9047,8 +8939,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [982]
 			{
@@ -9056,8 +8948,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 1,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 1,
 				["secondProf"] = "Enchanting",
 			}, -- [983]
 			{
@@ -9065,8 +8957,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 2,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 2,
 				["secondProf"] = "Enchanting",
 			}, -- [984]
 			{
@@ -9074,8 +8966,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 3,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 3,
 				["secondProf"] = "Enchanting",
 			}, -- [985]
 			{
@@ -9083,8 +8975,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 4,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 4,
 				["secondProf"] = "Enchanting",
 			}, -- [986]
 			{
@@ -9092,8 +8984,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 5,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 5,
 				["secondProf"] = "Enchanting",
 			}, -- [987]
 			{
@@ -9101,8 +8993,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 6,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 6,
 				["secondProf"] = "Enchanting",
 			}, -- [988]
 			{
@@ -9110,8 +9002,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 7,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 7,
 				["secondProf"] = "Enchanting",
 			}, -- [989]
 			{
@@ -9119,8 +9011,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 8,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 8,
 				["secondProf"] = "Enchanting",
 			}, -- [990]
 			{
@@ -9128,8 +9020,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 9,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 9,
 				["secondProf"] = "Enchanting",
 			}, -- [991]
 			{
@@ -9137,8 +9029,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 10,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 10,
 				["secondProf"] = "Enchanting",
 			}, -- [992]
 			{
@@ -9146,8 +9038,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 11,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 11,
 				["secondProf"] = "Enchanting",
 			}, -- [993]
 			{
@@ -9155,8 +9047,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 12,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 12,
 				["secondProf"] = "Enchanting",
 			}, -- [994]
 			{
@@ -9164,8 +9056,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 13,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 13,
 				["secondProf"] = "Enchanting",
 			}, -- [995]
 			{
@@ -9173,8 +9065,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 14,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 14,
 				["secondProf"] = "Enchanting",
 			}, -- [996]
 			{
@@ -9182,8 +9074,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 15,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 15,
 				["secondProf"] = "Enchanting",
 			}, -- [997]
 			{
@@ -9191,8 +9083,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 16,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 16,
 				["secondProf"] = "Enchanting",
 			}, -- [998]
 			{
@@ -9200,8 +9092,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 17,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 17,
 				["secondProf"] = "Enchanting",
 			}, -- [999]
 			{
@@ -9209,8 +9101,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 18,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 18,
 				["secondProf"] = "Enchanting",
 			}, -- [1000]
 			{
@@ -9218,8 +9110,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 19,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 19,
 				["secondProf"] = "Enchanting",
 			}, -- [1001]
 			{
@@ -9227,8 +9119,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 20,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 20,
 				["secondProf"] = "Enchanting",
 			}, -- [1002]
 			{
@@ -9236,8 +9128,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 21,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 21,
 				["secondProf"] = "Enchanting",
 			}, -- [1003]
 			{
@@ -9245,8 +9137,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 22,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 22,
 				["secondProf"] = "Enchanting",
 			}, -- [1004]
 			{
@@ -9254,8 +9146,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 23,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 23,
 				["secondProf"] = "Enchanting",
 			}, -- [1005]
 			{
@@ -9263,8 +9155,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 24,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 24,
 				["secondProf"] = "Enchanting",
 			}, -- [1006]
 			{
@@ -9272,8 +9164,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 25,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 25,
 				["secondProf"] = "Enchanting",
 			}, -- [1007]
 			{
@@ -9281,8 +9173,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 26,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 26,
 				["secondProf"] = "Enchanting",
 			}, -- [1008]
 			{
@@ -9290,8 +9182,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 27,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 27,
 				["secondProf"] = "Enchanting",
 			}, -- [1009]
 			{
@@ -9299,8 +9191,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 28,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 28,
 				["secondProf"] = "Enchanting",
 			}, -- [1010]
 			{
@@ -9308,8 +9200,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 29,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 29,
 				["secondProf"] = "Enchanting",
 			}, -- [1011]
 			{
@@ -9317,8 +9209,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 30,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 30,
 				["secondProf"] = "Enchanting",
 			}, -- [1012]
 			{
@@ -9326,8 +9218,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 30,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 30,
 				["secondProf"] = "Enchanting",
 			}, -- [1013]
 			{
@@ -9335,8 +9227,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 31,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 31,
 				["secondProf"] = "Enchanting",
 			}, -- [1014]
 			{
@@ -9344,8 +9236,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 32,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 32,
 				["secondProf"] = "Enchanting",
 			}, -- [1015]
 			{
@@ -9353,8 +9245,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 33,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 33,
 				["secondProf"] = "Enchanting",
 			}, -- [1016]
 			{
@@ -9362,8 +9254,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 34,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 34,
 				["secondProf"] = "Enchanting",
 			}, -- [1017]
 			{
@@ -9371,8 +9263,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 35,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 35,
 				["secondProf"] = "Enchanting",
 			}, -- [1018]
 			{
@@ -9380,8 +9272,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 36,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 36,
 				["secondProf"] = "Enchanting",
 			}, -- [1019]
 			{
@@ -9389,8 +9281,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 37,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 37,
 				["secondProf"] = "Enchanting",
 			}, -- [1020]
 			{
@@ -9398,8 +9290,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 38,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 38,
 				["secondProf"] = "Enchanting",
 			}, -- [1021]
 			{
@@ -9407,8 +9299,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 39,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 39,
 				["secondProf"] = "Enchanting",
 			}, -- [1022]
 			{
@@ -9416,8 +9308,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 40,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 40,
 				["secondProf"] = "Enchanting",
 			}, -- [1023]
 			{
@@ -9425,8 +9317,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 40,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 40,
 				["secondProf"] = "Enchanting",
 			}, -- [1024]
 			{
@@ -9434,8 +9326,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 41,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 41,
 				["secondProf"] = "Enchanting",
 			}, -- [1025]
 			{
@@ -9443,8 +9335,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 41,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 41,
 				["secondProf"] = "Enchanting",
 			}, -- [1026]
 			{
@@ -9452,8 +9344,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 41,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 41,
 				["secondProf"] = "Enchanting",
 			}, -- [1027]
 			{
@@ -9461,8 +9353,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 41,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 41,
 				["secondProf"] = "Enchanting",
 			}, -- [1028]
 			{
@@ -9470,8 +9362,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 41,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 41,
 				["secondProf"] = "Enchanting",
 			}, -- [1029]
 			{
@@ -9479,8 +9371,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 42,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 42,
 				["secondProf"] = "Enchanting",
 			}, -- [1030]
 			{
@@ -9488,8 +9380,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 42,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 42,
 				["secondProf"] = "Enchanting",
 			}, -- [1031]
 			{
@@ -9497,8 +9389,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 42,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 42,
 				["secondProf"] = "Enchanting",
 			}, -- [1032]
 			{
@@ -9506,8 +9398,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 43,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 43,
 				["secondProf"] = "Enchanting",
 			}, -- [1033]
 			{
@@ -9515,8 +9407,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 43,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 43,
 				["secondProf"] = "Enchanting",
 			}, -- [1034]
 			{
@@ -9524,8 +9416,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 43,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 43,
 				["secondProf"] = "Enchanting",
 			}, -- [1035]
 			{
@@ -9533,8 +9425,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 44,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 44,
 				["secondProf"] = "Enchanting",
 			}, -- [1036]
 			{
@@ -9542,8 +9434,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 44,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 44,
 				["secondProf"] = "Enchanting",
 			}, -- [1037]
 			{
@@ -9551,8 +9443,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 44,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 44,
 				["secondProf"] = "Enchanting",
 			}, -- [1038]
 			{
@@ -9560,8 +9452,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 44,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 44,
 				["secondProf"] = "Enchanting",
 			}, -- [1039]
 			{
@@ -9569,8 +9461,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1040]
 			{
@@ -9578,8 +9470,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1041]
 			{
@@ -9587,8 +9479,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1042]
 			{
@@ -9596,8 +9488,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1043]
 			{
@@ -9605,8 +9497,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1044]
 			{
@@ -9614,8 +9506,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1045]
 			{
@@ -9623,8 +9515,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1046]
 			{
@@ -9632,8 +9524,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1047]
 			{
@@ -9641,8 +9533,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1048]
 			{
@@ -9650,8 +9542,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1049]
 			{
@@ -9659,8 +9551,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 45,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 45,
 				["secondProf"] = "Enchanting",
 			}, -- [1050]
 			{
@@ -9668,8 +9560,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1051]
 			{
@@ -9677,8 +9569,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1052]
 			{
@@ -9686,8 +9578,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1053]
 			{
@@ -9695,8 +9587,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1054]
 			{
@@ -9704,8 +9596,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1055]
 			{
@@ -9713,8 +9605,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1056]
 			{
@@ -9722,8 +9614,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1057]
 			{
@@ -9731,8 +9623,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1058]
 			{
@@ -9740,8 +9632,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1059]
 			{
@@ -9749,8 +9641,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1060]
 			{
@@ -9758,8 +9650,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1061]
 			{
@@ -9767,8 +9659,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1062]
 			{
@@ -9776,8 +9668,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1063]
 			{
@@ -9785,8 +9677,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1064]
 			{
@@ -9794,8 +9686,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1065]
 			{
@@ -9803,8 +9695,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 46,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 46,
 				["secondProf"] = "Enchanting",
 			}, -- [1066]
 			{
@@ -9812,8 +9704,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1067]
 			{
@@ -9821,8 +9713,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1068]
 			{
@@ -9830,8 +9722,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1069]
 			{
@@ -9839,8 +9731,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1070]
 			{
@@ -9848,8 +9740,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1071]
 			{
@@ -9857,8 +9749,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1072]
 			{
@@ -9866,8 +9758,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1073]
 			{
@@ -9875,8 +9767,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1074]
 			{
@@ -9884,8 +9776,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1075]
 			{
@@ -9893,8 +9785,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1076]
 			{
@@ -9902,8 +9794,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1077]
 			{
@@ -9911,8 +9803,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1078]
 			{
@@ -9920,8 +9812,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1079]
 			{
@@ -9929,8 +9821,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1080]
 			{
@@ -9938,8 +9830,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1081]
 			{
@@ -9947,8 +9839,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1082]
 			{
@@ -9956,8 +9848,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1083]
 			{
@@ -9965,8 +9857,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1084]
 			{
@@ -9974,8 +9866,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1085]
 			{
@@ -9983,8 +9875,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1086]
 			{
@@ -9992,8 +9884,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 47,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 47,
 				["secondProf"] = "Enchanting",
 			}, -- [1087]
 			{
@@ -10001,8 +9893,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 48,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 48,
 				["secondProf"] = "Enchanting",
 			}, -- [1088]
 			{
@@ -10010,8 +9902,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 49,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 49,
 				["secondProf"] = "Enchanting",
 			}, -- [1089]
 			{
@@ -10019,8 +9911,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 50,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 50,
 				["secondProf"] = "Enchanting",
 			}, -- [1090]
 			{
@@ -10028,8 +9920,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 50,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 50,
 				["secondProf"] = "Enchanting",
 			}, -- [1091]
 			{
@@ -10037,8 +9929,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 50,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 50,
 				["secondProf"] = "Enchanting",
 			}, -- [1092]
 			{
@@ -10046,8 +9938,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 51,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 51,
 				["secondProf"] = "Enchanting",
 			}, -- [1093]
 			{
@@ -10055,8 +9947,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 52,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 52,
 				["secondProf"] = "Enchanting",
 			}, -- [1094]
 			{
@@ -10064,8 +9956,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 53,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 53,
 				["secondProf"] = "Enchanting",
 			}, -- [1095]
 			{
@@ -10073,8 +9965,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 54,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 54,
 				["secondProf"] = "Enchanting",
 			}, -- [1096]
 			{
@@ -10082,8 +9974,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1097]
 			{
@@ -10091,8 +9983,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1098]
 			{
@@ -10100,8 +9992,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1099]
 			{
@@ -10109,8 +10001,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1100]
 			{
@@ -10118,8 +10010,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1101]
 			{
@@ -10127,8 +10019,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1102]
 			{
@@ -10136,8 +10028,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1103]
 			{
@@ -10145,8 +10037,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 55,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 55,
 				["secondProf"] = "Enchanting",
 			}, -- [1104]
 			{
@@ -10154,8 +10046,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 56,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 56,
 				["secondProf"] = "Enchanting",
 			}, -- [1105]
 			{
@@ -10163,8 +10055,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 57,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 57,
 				["secondProf"] = "Enchanting",
 			}, -- [1106]
 			{
@@ -10172,8 +10064,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 58,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 58,
 				["secondProf"] = "Enchanting",
 			}, -- [1107]
 			{
@@ -10181,8 +10073,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 59,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 59,
 				["secondProf"] = "Enchanting",
 			}, -- [1108]
 			{
@@ -10190,8 +10082,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 60,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 60,
 				["secondProf"] = "Enchanting",
 			}, -- [1109]
 			{
@@ -10199,8 +10091,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 60,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 60,
 				["secondProf"] = "Enchanting",
 			}, -- [1110]
 			{
@@ -10208,8 +10100,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 60,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 60,
 				["secondProf"] = "Enchanting",
 			}, -- [1111]
 			{
@@ -10217,8 +10109,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 60,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 60,
 				["secondProf"] = "Enchanting",
 			}, -- [1112]
 			{
@@ -10226,8 +10118,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 61,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 61,
 				["secondProf"] = "Enchanting",
 			}, -- [1113]
 			{
@@ -10235,8 +10127,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 62,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 62,
 				["secondProf"] = "Enchanting",
 			}, -- [1114]
 			{
@@ -10244,8 +10136,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 63,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 63,
 				["secondProf"] = "Enchanting",
 			}, -- [1115]
 			{
@@ -10253,8 +10145,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 64,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 64,
 				["secondProf"] = "Enchanting",
 			}, -- [1116]
 			{
@@ -10262,8 +10154,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 65,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 65,
 				["secondProf"] = "Enchanting",
 			}, -- [1117]
 			{
@@ -10271,8 +10163,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 66,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 66,
 				["secondProf"] = "Enchanting",
 			}, -- [1118]
 			{
@@ -10280,8 +10172,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 67,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 67,
 				["secondProf"] = "Enchanting",
 			}, -- [1119]
 			{
@@ -10289,8 +10181,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 68,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 68,
 				["secondProf"] = "Enchanting",
 			}, -- [1120]
 			{
@@ -10298,8 +10190,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 69,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 69,
 				["secondProf"] = "Enchanting",
 			}, -- [1121]
 			{
@@ -10307,8 +10199,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1122]
 			{
@@ -10316,8 +10208,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1123]
 			{
@@ -10325,8 +10217,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1124]
 			{
@@ -10334,8 +10226,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1125]
 			{
@@ -10343,8 +10235,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1126]
 			{
@@ -10352,8 +10244,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1127]
 			{
@@ -10361,8 +10253,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 70,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 70,
 				["secondProf"] = "Enchanting",
 			}, -- [1128]
 			{
@@ -10370,8 +10262,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 71,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 71,
 				["secondProf"] = "Enchanting",
 			}, -- [1129]
 			{
@@ -10379,8 +10271,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 72,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 72,
 				["secondProf"] = "Enchanting",
 			}, -- [1130]
 			{
@@ -10388,8 +10280,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 73,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 73,
 				["secondProf"] = "Enchanting",
 			}, -- [1131]
 			{
@@ -10397,8 +10289,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 74,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 74,
 				["secondProf"] = "Enchanting",
 			}, -- [1132]
 			{
@@ -10406,8 +10298,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1133]
 			{
@@ -10415,8 +10307,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1134]
 			{
@@ -10424,8 +10316,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1135]
 			{
@@ -10433,8 +10325,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1136]
 			{
@@ -10442,8 +10334,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1137]
 			{
@@ -10451,8 +10343,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1138]
 			{
@@ -10460,8 +10352,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1139]
 			{
@@ -10469,8 +10361,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1140]
 			{
@@ -10478,8 +10370,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1141]
 			{
@@ -10487,8 +10379,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1142]
 			{
@@ -10496,8 +10388,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1143]
 			{
@@ -10505,8 +10397,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1144]
 			{
@@ -10514,8 +10406,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1145]
 			{
@@ -10523,8 +10415,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1146]
 			{
@@ -10532,8 +10424,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 75,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 75,
 				["secondProf"] = "Enchanting",
 			}, -- [1147]
 			{
@@ -10541,8 +10433,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 76,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 76,
 				["secondProf"] = "Enchanting",
 			}, -- [1148]
 			{
@@ -10550,8 +10442,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 76,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 76,
 				["secondProf"] = "Enchanting",
 			}, -- [1149]
 			{
@@ -10559,8 +10451,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 77,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 77,
 				["secondProf"] = "Enchanting",
 			}, -- [1150]
 			{
@@ -10568,8 +10460,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 78,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 78,
 				["secondProf"] = "Enchanting",
 			}, -- [1151]
 			{
@@ -10577,8 +10469,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 79,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 79,
 				["secondProf"] = "Enchanting",
 			}, -- [1152]
 			{
@@ -10586,8 +10478,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 80,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 80,
 				["secondProf"] = "Enchanting",
 			}, -- [1153]
 			{
@@ -10595,8 +10487,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 81,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 81,
 				["secondProf"] = "Enchanting",
 			}, -- [1154]
 			{
@@ -10604,8 +10496,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 82,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 82,
 				["secondProf"] = "Enchanting",
 			}, -- [1155]
 			{
@@ -10613,8 +10505,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 83,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 83,
 				["secondProf"] = "Enchanting",
 			}, -- [1156]
 			{
@@ -10622,8 +10514,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 84,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 84,
 				["secondProf"] = "Enchanting",
 			}, -- [1157]
 			{
@@ -10631,8 +10523,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 85,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 85,
 				["secondProf"] = "Enchanting",
 			}, -- [1158]
 			{
@@ -10640,8 +10532,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 86,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 86,
 				["secondProf"] = "Enchanting",
 			}, -- [1159]
 			{
@@ -10649,8 +10541,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 87,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 87,
 				["secondProf"] = "Enchanting",
 			}, -- [1160]
 			{
@@ -10658,8 +10550,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 88,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 88,
 				["secondProf"] = "Enchanting",
 			}, -- [1161]
 			{
@@ -10667,8 +10559,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 89,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 89,
 				["secondProf"] = "Enchanting",
 			}, -- [1162]
 			{
@@ -10676,8 +10568,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 90,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 90,
 				["secondProf"] = "Enchanting",
 			}, -- [1163]
 			{
@@ -10685,8 +10577,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 91,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 91,
 				["secondProf"] = "Enchanting",
 			}, -- [1164]
 			{
@@ -10694,8 +10586,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 92,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 92,
 				["secondProf"] = "Enchanting",
 			}, -- [1165]
 			{
@@ -10703,8 +10595,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 93,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 93,
 				["secondProf"] = "Enchanting",
 			}, -- [1166]
 			{
@@ -10712,8 +10604,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 93,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 93,
 				["secondProf"] = "Enchanting",
 			}, -- [1167]
 			{
@@ -10721,8 +10613,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 94,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 94,
 				["secondProf"] = "Enchanting",
 			}, -- [1168]
 			{
@@ -10730,8 +10622,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 95,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 95,
 				["secondProf"] = "Enchanting",
 			}, -- [1169]
 			{
@@ -10739,8 +10631,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 96,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 96,
 				["secondProf"] = "Enchanting",
 			}, -- [1170]
 			{
@@ -10748,8 +10640,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 97,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 97,
 				["secondProf"] = "Enchanting",
 			}, -- [1171]
 			{
@@ -10757,8 +10649,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1172]
 			{
@@ -10766,8 +10658,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1173]
 			{
@@ -10775,8 +10667,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1174]
 			{
@@ -10784,8 +10676,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1175]
 			{
@@ -10793,8 +10685,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1176]
 			{
@@ -10802,8 +10694,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1177]
 			{
@@ -10811,8 +10703,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1178]
 			{
@@ -10820,8 +10712,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 98,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 98,
 				["secondProf"] = "Enchanting",
 			}, -- [1179]
 			{
@@ -10829,8 +10721,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 99,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 99,
 				["secondProf"] = "Enchanting",
 			}, -- [1180]
 			{
@@ -10838,8 +10730,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 100,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 100,
 				["secondProf"] = "Enchanting",
 			}, -- [1181]
 			{
@@ -10847,8 +10739,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 100,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 100,
 				["secondProf"] = "Enchanting",
 			}, -- [1182]
 			{
@@ -10856,8 +10748,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 100,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 100,
 				["secondProf"] = "Enchanting",
 			}, -- [1183]
 			{
@@ -10865,8 +10757,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 101,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 101,
 				["secondProf"] = "Enchanting",
 			}, -- [1184]
 			{
@@ -10874,8 +10766,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 101,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 101,
 				["secondProf"] = "Enchanting",
 			}, -- [1185]
 			{
@@ -10883,8 +10775,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 101,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 101,
 				["secondProf"] = "Enchanting",
 			}, -- [1186]
 			{
@@ -10892,8 +10784,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 101,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 101,
 				["secondProf"] = "Enchanting",
 			}, -- [1187]
 			{
@@ -10901,8 +10793,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 102,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 102,
 				["secondProf"] = "Enchanting",
 			}, -- [1188]
 			{
@@ -10910,8 +10802,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 102,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 102,
 				["secondProf"] = "Enchanting",
 			}, -- [1189]
 			{
@@ -10919,8 +10811,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1190]
 			{
@@ -10928,8 +10820,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1191]
 			{
@@ -10937,8 +10829,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1192]
 			{
@@ -10946,8 +10838,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1193]
 			{
@@ -10955,8 +10847,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1194]
 			{
@@ -10964,8 +10856,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1195]
 			{
@@ -10973,8 +10865,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 103,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 103,
 				["secondProf"] = "Enchanting",
 			}, -- [1196]
 			{
@@ -10982,8 +10874,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 104,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 104,
 				["secondProf"] = "Enchanting",
 			}, -- [1197]
 			{
@@ -10991,8 +10883,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1198]
 			{
@@ -11000,8 +10892,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1199]
 			{
@@ -11009,8 +10901,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1200]
 			{
@@ -11018,8 +10910,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1201]
 			{
@@ -11027,8 +10919,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1202]
 			{
@@ -11036,8 +10928,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1203]
 			{
@@ -11045,8 +10937,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1204]
 			{
@@ -11054,8 +10946,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1205]
 			{
@@ -11063,8 +10955,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1206]
 			{
@@ -11072,8 +10964,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1207]
 			{
@@ -11081,8 +10973,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1208]
 			{
@@ -11090,8 +10982,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1209]
 			{
@@ -11099,8 +10991,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1210]
 			{
@@ -11108,8 +11000,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1211]
 			{
@@ -11117,8 +11009,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1212]
 			{
@@ -11126,8 +11018,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1213]
 			{
@@ -11135,8 +11027,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 105,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 105,
 				["secondProf"] = "Enchanting",
 			}, -- [1214]
 			{
@@ -11144,8 +11036,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 106,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 106,
 				["secondProf"] = "Enchanting",
 			}, -- [1215]
 			{
@@ -11153,8 +11045,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 107,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 107,
 				["secondProf"] = "Enchanting",
 			}, -- [1216]
 			{
@@ -11162,8 +11054,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 108,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 108,
 				["secondProf"] = "Enchanting",
 			}, -- [1217]
 			{
@@ -11171,8 +11063,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 109,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 109,
 				["secondProf"] = "Enchanting",
 			}, -- [1218]
 			{
@@ -11180,8 +11072,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1219]
 			{
@@ -11189,8 +11081,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1220]
 			{
@@ -11198,8 +11090,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1221]
 			{
@@ -11207,8 +11099,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1222]
 			{
@@ -11216,8 +11108,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1223]
 			{
@@ -11225,8 +11117,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1224]
 			{
@@ -11234,8 +11126,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1225]
 			{
@@ -11243,8 +11135,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1226]
 			{
@@ -11252,8 +11144,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1227]
 			{
@@ -11261,8 +11153,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 110,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Enchanting",
 			}, -- [1228]
 			{
@@ -11270,8 +11162,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 111,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 111,
 				["secondProf"] = "Enchanting",
 			}, -- [1229]
 			{
@@ -11279,8 +11171,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 112,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 112,
 				["secondProf"] = "Enchanting",
 			}, -- [1230]
 			{
@@ -11288,8 +11180,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 113,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 113,
 				["secondProf"] = "Enchanting",
 			}, -- [1231]
 			{
@@ -11297,8 +11189,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 114,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 114,
 				["secondProf"] = "Enchanting",
 			}, -- [1232]
 			{
@@ -11306,8 +11198,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1233]
 			{
@@ -11315,8 +11207,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1234]
 			{
@@ -11324,8 +11216,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1235]
 			{
@@ -11333,8 +11225,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1236]
 			{
@@ -11342,8 +11234,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1237]
 			{
@@ -11351,8 +11243,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1238]
 			{
@@ -11360,8 +11252,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1239]
 			{
@@ -11369,8 +11261,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 115,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 115,
 				["secondProf"] = "Enchanting",
 			}, -- [1240]
 			{
@@ -11378,8 +11270,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 116,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 116,
 				["secondProf"] = "Enchanting",
 			}, -- [1241]
 			{
@@ -11387,8 +11279,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 117,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 117,
 				["secondProf"] = "Enchanting",
 			}, -- [1242]
 			{
@@ -11396,8 +11288,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 118,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 118,
 				["secondProf"] = "Enchanting",
 			}, -- [1243]
 			{
@@ -11405,8 +11297,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 119,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 119,
 				["secondProf"] = "Enchanting",
 			}, -- [1244]
 			{
@@ -11414,8 +11306,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 120,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 120,
 				["secondProf"] = "Enchanting",
 			}, -- [1245]
 			{
@@ -11423,8 +11315,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 120,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 120,
 				["secondProf"] = "Enchanting",
 			}, -- [1246]
 			{
@@ -11432,8 +11324,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 120,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 120,
 				["secondProf"] = "Enchanting",
 			}, -- [1247]
 			{
@@ -11441,8 +11333,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 121,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 121,
 				["secondProf"] = "Enchanting",
 			}, -- [1248]
 			{
@@ -11450,8 +11342,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 122,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 122,
 				["secondProf"] = "Enchanting",
 			}, -- [1249]
 			{
@@ -11459,8 +11351,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 123,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 123,
 				["secondProf"] = "Enchanting",
 			}, -- [1250]
 			{
@@ -11468,8 +11360,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 124,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 124,
 				["secondProf"] = "Enchanting",
 			}, -- [1251]
 			{
@@ -11477,8 +11369,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1252]
 			{
@@ -11486,8 +11378,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1253]
 			{
@@ -11495,8 +11387,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1254]
 			{
@@ -11504,8 +11396,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1255]
 			{
@@ -11513,8 +11405,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1256]
 			{
@@ -11522,8 +11414,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1257]
 			{
@@ -11531,8 +11423,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1258]
 			{
@@ -11540,8 +11432,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1259]
 			{
@@ -11549,8 +11441,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1260]
 			{
@@ -11558,8 +11450,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1261]
 			{
@@ -11567,8 +11459,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 125,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 125,
 				["secondProf"] = "Enchanting",
 			}, -- [1262]
 			{
@@ -11576,8 +11468,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 126,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 126,
 				["secondProf"] = "Enchanting",
 			}, -- [1263]
 			{
@@ -11585,8 +11477,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 127,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 127,
 				["secondProf"] = "Enchanting",
 			}, -- [1264]
 			{
@@ -11594,8 +11486,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 128,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 128,
 				["secondProf"] = "Enchanting",
 			}, -- [1265]
 			{
@@ -11603,8 +11495,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 129,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 129,
 				["secondProf"] = "Enchanting",
 			}, -- [1266]
 			{
@@ -11612,8 +11504,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 130,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 130,
 				["secondProf"] = "Enchanting",
 			}, -- [1267]
 			{
@@ -11621,8 +11513,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 131,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 131,
 				["secondProf"] = "Enchanting",
 			}, -- [1268]
 			{
@@ -11630,8 +11522,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 132,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 132,
 				["secondProf"] = "Enchanting",
 			}, -- [1269]
 			{
@@ -11639,8 +11531,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 133,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 133,
 				["secondProf"] = "Enchanting",
 			}, -- [1270]
 			{
@@ -11648,8 +11540,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 134,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 134,
 				["secondProf"] = "Enchanting",
 			}, -- [1271]
 			{
@@ -11657,8 +11549,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 135,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 135,
 				["secondProf"] = "Enchanting",
 			}, -- [1272]
 			{
@@ -11666,8 +11558,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 136,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 136,
 				["secondProf"] = "Enchanting",
 			}, -- [1273]
 			{
@@ -11675,8 +11567,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 137,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 137,
 				["secondProf"] = "Enchanting",
 			}, -- [1274]
 			{
@@ -11684,8 +11576,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 138,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 138,
 				["secondProf"] = "Enchanting",
 			}, -- [1275]
 			{
@@ -11693,8 +11585,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 139,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 139,
 				["secondProf"] = "Enchanting",
 			}, -- [1276]
 			{
@@ -11702,8 +11594,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 139,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 139,
 				["secondProf"] = "Enchanting",
 			}, -- [1277]
 			{
@@ -11711,8 +11603,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 139,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 139,
 				["secondProf"] = "Enchanting",
 			}, -- [1278]
 			{
@@ -11720,8 +11612,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 140,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 140,
 				["secondProf"] = "Enchanting",
 			}, -- [1279]
 			{
@@ -11729,8 +11621,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 140,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 140,
 				["secondProf"] = "Enchanting",
 			}, -- [1280]
 			{
@@ -11738,8 +11630,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 141,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 141,
 				["secondProf"] = "Enchanting",
 			}, -- [1281]
 			{
@@ -11747,8 +11639,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 142,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 142,
 				["secondProf"] = "Enchanting",
 			}, -- [1282]
 			{
@@ -11756,8 +11648,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 142,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 142,
 				["secondProf"] = "Enchanting",
 			}, -- [1283]
 			{
@@ -11765,8 +11657,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 142,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 142,
 				["secondProf"] = "Enchanting",
 			}, -- [1284]
 			{
@@ -11774,8 +11666,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 142,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 142,
 				["secondProf"] = "Enchanting",
 			}, -- [1285]
 			{
@@ -11783,8 +11675,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 143,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 143,
 				["secondProf"] = "Enchanting",
 			}, -- [1286]
 			{
@@ -11792,8 +11684,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 143,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 143,
 				["secondProf"] = "Enchanting",
 			}, -- [1287]
 			{
@@ -11801,8 +11693,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 143,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 143,
 				["secondProf"] = "Enchanting",
 			}, -- [1288]
 			{
@@ -11810,8 +11702,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 143,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 143,
 				["secondProf"] = "Enchanting",
 			}, -- [1289]
 			{
@@ -11819,8 +11711,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 143,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 143,
 				["secondProf"] = "Enchanting",
 			}, -- [1290]
 			{
@@ -11828,8 +11720,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 144,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 144,
 				["secondProf"] = "Enchanting",
 			}, -- [1291]
 			{
@@ -11837,8 +11729,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 144,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 144,
 				["secondProf"] = "Enchanting",
 			}, -- [1292]
 			{
@@ -11846,8 +11738,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 144,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 144,
 				["secondProf"] = "Enchanting",
 			}, -- [1293]
 			{
@@ -11855,8 +11747,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 144,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 144,
 				["secondProf"] = "Enchanting",
 			}, -- [1294]
 			{
@@ -11864,8 +11756,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1295]
 			{
@@ -11873,8 +11765,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1296]
 			{
@@ -11882,8 +11774,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1297]
 			{
@@ -11891,8 +11783,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1298]
 			{
@@ -11900,8 +11792,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1299]
 			{
@@ -11909,8 +11801,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1300]
 			{
@@ -11918,8 +11810,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1301]
 			{
@@ -11927,8 +11819,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1302]
 			{
@@ -11936,8 +11828,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1303]
 			{
@@ -11945,8 +11837,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1304]
 			{
@@ -11954,8 +11846,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1305]
 			{
@@ -11963,8 +11855,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1306]
 			{
@@ -11972,8 +11864,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1307]
 			{
@@ -11981,8 +11873,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1308]
 			{
@@ -11990,8 +11882,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1309]
 			{
@@ -11999,8 +11891,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1310]
 			{
@@ -12008,8 +11900,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1311]
 			{
@@ -12017,8 +11909,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1312]
 			{
@@ -12026,8 +11918,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1313]
 			{
@@ -12035,8 +11927,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1314]
 			{
@@ -12044,8 +11936,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1315]
 			{
@@ -12053,8 +11945,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1316]
 			{
@@ -12062,8 +11954,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1317]
 			{
@@ -12071,8 +11963,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1318]
 			{
@@ -12080,8 +11972,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1319]
 			{
@@ -12089,8 +11981,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1320]
 			{
@@ -12098,8 +11990,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1321]
 			{
@@ -12107,8 +11999,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1322]
 			{
@@ -12116,8 +12008,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1323]
 			{
@@ -12125,8 +12017,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1324]
 			{
@@ -12134,8 +12026,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1325]
 			{
@@ -12143,8 +12035,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1326]
 			{
@@ -12152,8 +12044,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1327]
 			{
@@ -12161,8 +12053,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1328]
 			{
@@ -12170,8 +12062,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1329]
 			{
@@ -12179,8 +12071,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1330]
 			{
@@ -12188,8 +12080,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1331]
 			{
@@ -12197,8 +12089,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1332]
 			{
@@ -12206,8 +12098,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1333]
 			{
@@ -12215,8 +12107,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1334]
 			{
@@ -12224,8 +12116,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1335]
 			{
@@ -12233,8 +12125,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1336]
 			{
@@ -12242,8 +12134,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1337]
 			{
@@ -12251,8 +12143,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1338]
 			{
@@ -12260,8 +12152,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1339]
 			{
@@ -12269,8 +12161,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 145,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 145,
 				["secondProf"] = "Enchanting",
 			}, -- [1340]
 			{
@@ -12278,8 +12170,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 146,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 146,
 				["secondProf"] = "Enchanting",
 			}, -- [1341]
 			{
@@ -12287,8 +12179,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 147,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 147,
 				["secondProf"] = "Enchanting",
 			}, -- [1342]
 			{
@@ -12296,8 +12188,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 148,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 148,
 				["secondProf"] = "Enchanting",
 			}, -- [1343]
 			{
@@ -12305,8 +12197,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 149,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 149,
 				["secondProf"] = "Enchanting",
 			}, -- [1344]
 			{
@@ -12314,8 +12206,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 150,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 150,
 				["secondProf"] = "Enchanting",
 			}, -- [1345]
 			{
@@ -12323,8 +12215,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 150,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 150,
 				["secondProf"] = "Enchanting",
 			}, -- [1346]
 			{
@@ -12332,8 +12224,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 150,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 150,
 				["secondProf"] = "Enchanting",
 			}, -- [1347]
 			{
@@ -12341,8 +12233,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 150,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 150,
 				["secondProf"] = "Enchanting",
 			}, -- [1348]
 			{
@@ -12350,8 +12242,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 150,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 150,
 				["secondProf"] = "Enchanting",
 			}, -- [1349]
 			{
@@ -12359,8 +12251,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 150,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 150,
 				["secondProf"] = "Enchanting",
 			}, -- [1350]
 			{
@@ -12368,8 +12260,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 151,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 151,
 				["secondProf"] = "Enchanting",
 			}, -- [1351]
 			{
@@ -12377,8 +12269,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 152,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 152,
 				["secondProf"] = "Enchanting",
 			}, -- [1352]
 			{
@@ -12386,8 +12278,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 153,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 153,
 				["secondProf"] = "Enchanting",
 			}, -- [1353]
 			{
@@ -12395,8 +12287,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 154,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 154,
 				["secondProf"] = "Enchanting",
 			}, -- [1354]
 			{
@@ -12404,8 +12296,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 155,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 155,
 				["secondProf"] = "Enchanting",
 			}, -- [1355]
 			{
@@ -12413,8 +12305,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 155,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 155,
 				["secondProf"] = "Enchanting",
 			}, -- [1356]
 			{
@@ -12422,8 +12314,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 155,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 155,
 				["secondProf"] = "Enchanting",
 			}, -- [1357]
 			{
@@ -12431,8 +12323,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 155,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 155,
 				["secondProf"] = "Enchanting",
 			}, -- [1358]
 			{
@@ -12440,8 +12332,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 156,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 156,
 				["secondProf"] = "Enchanting",
 			}, -- [1359]
 			{
@@ -12449,8 +12341,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 157,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 157,
 				["secondProf"] = "Enchanting",
 			}, -- [1360]
 			{
@@ -12458,8 +12350,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 158,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 158,
 				["secondProf"] = "Enchanting",
 			}, -- [1361]
 			{
@@ -12467,8 +12359,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 159,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 159,
 				["secondProf"] = "Enchanting",
 			}, -- [1362]
 			{
@@ -12476,8 +12368,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1363]
 			{
@@ -12485,8 +12377,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1364]
 			{
@@ -12494,8 +12386,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1365]
 			{
@@ -12503,8 +12395,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1366]
 			{
@@ -12512,8 +12404,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1367]
 			{
@@ -12521,8 +12413,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1368]
 			{
@@ -12530,8 +12422,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1369]
 			{
@@ -12539,8 +12431,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1370]
 			{
@@ -12548,8 +12440,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1371]
 			{
@@ -12557,8 +12449,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1372]
 			{
@@ -12566,8 +12458,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1373]
 			{
@@ -12575,8 +12467,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1374]
 			{
@@ -12584,8 +12476,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1375]
 			{
@@ -12593,8 +12485,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1376]
 			{
@@ -12602,8 +12494,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1377]
 			{
@@ -12611,8 +12503,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 160,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 160,
 				["secondProf"] = "Enchanting",
 			}, -- [1378]
 			{
@@ -12620,8 +12512,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 161,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 161,
 				["secondProf"] = "Enchanting",
 			}, -- [1379]
 			{
@@ -12629,8 +12521,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 162,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 162,
 				["secondProf"] = "Enchanting",
 			}, -- [1380]
 			{
@@ -12638,8 +12530,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 163,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 163,
 				["secondProf"] = "Enchanting",
 			}, -- [1381]
 			{
@@ -12647,8 +12539,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 164,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 164,
 				["secondProf"] = "Enchanting",
 			}, -- [1382]
 			{
@@ -12656,8 +12548,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 165,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 165,
 				["secondProf"] = "Enchanting",
 			}, -- [1383]
 			{
@@ -12665,8 +12557,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 165,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 165,
 				["secondProf"] = "Enchanting",
 			}, -- [1384]
 			{
@@ -12674,8 +12566,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 165,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 165,
 				["secondProf"] = "Enchanting",
 			}, -- [1385]
 			{
@@ -12683,8 +12575,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 166,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 166,
 				["secondProf"] = "Enchanting",
 			}, -- [1386]
 			{
@@ -12692,8 +12584,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 167,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 167,
 				["secondProf"] = "Enchanting",
 			}, -- [1387]
 			{
@@ -12701,8 +12593,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 168,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 168,
 				["secondProf"] = "Enchanting",
 			}, -- [1388]
 			{
@@ -12710,8 +12602,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 169,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 169,
 				["secondProf"] = "Enchanting",
 			}, -- [1389]
 			{
@@ -12719,8 +12611,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["secondProf"] = "Enchanting",
 			}, -- [1390]
 			{
@@ -12728,15 +12620,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["secondProf"] = "Enchanting",
 			}, -- [1391]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12744,8 +12636,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12753,8 +12645,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12762,8 +12654,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12771,8 +12663,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12780,8 +12672,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12789,8 +12681,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12798,8 +12690,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 170,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 170,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12807,8 +12699,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12816,8 +12708,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12825,8 +12717,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12834,8 +12726,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12843,8 +12735,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12852,8 +12744,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12861,8 +12753,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12870,8 +12762,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12879,8 +12771,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12888,8 +12780,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12897,8 +12789,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 171,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 171,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -12908,8 +12800,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1411]
 			{
@@ -12917,8 +12809,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1412]
 			{
@@ -12926,8 +12818,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1413]
 			{
@@ -12935,8 +12827,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1414]
 			{
@@ -12944,8 +12836,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1415]
 			{
@@ -12953,8 +12845,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1416]
 			{
@@ -12962,8 +12854,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1417]
 			{
@@ -12971,8 +12863,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1418]
 			{
@@ -12980,8 +12872,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1419]
 			{
@@ -12989,8 +12881,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1420]
 			{
@@ -12998,8 +12890,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1421]
 			{
@@ -13007,8 +12899,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1422]
 			{
@@ -13016,8 +12908,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1423]
 			{
@@ -13025,8 +12917,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1424]
 			{
@@ -13034,8 +12926,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1425]
 			{
@@ -13043,8 +12935,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1426]
 			{
@@ -13052,8 +12944,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1427]
 			{
@@ -13061,8 +12953,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1428]
 			{
@@ -13070,8 +12962,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1429]
 			{
@@ -13079,8 +12971,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1430]
 			{
@@ -13088,8 +12980,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1431]
 			{
@@ -13097,8 +12989,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1432]
 			{
@@ -13106,8 +12998,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1433]
 			{
@@ -13115,8 +13007,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1434]
 			{
@@ -13124,8 +13016,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1435]
 			{
@@ -13133,8 +13025,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1436]
 			{
@@ -13142,8 +13034,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1437]
 			{
@@ -13151,8 +13043,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1438]
 			{
@@ -13160,8 +13052,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1439]
 			{
@@ -13169,8 +13061,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1440]
 			{
@@ -13178,8 +13070,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1441]
 			{
@@ -13187,8 +13079,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1442]
 			{
@@ -13196,8 +13088,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1443]
 			{
@@ -13205,8 +13097,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1444]
 			{
@@ -13214,8 +13106,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1445]
 			{
@@ -13223,8 +13115,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1446]
 			{
@@ -13232,8 +13124,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1447]
 			{
@@ -13241,8 +13133,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1448]
 			{
@@ -13250,8 +13142,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1449]
 			{
@@ -13259,8 +13151,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1450]
 			{
@@ -13268,8 +13160,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1451]
 			{
@@ -13277,8 +13169,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1452]
 			{
@@ -13286,8 +13178,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1453]
 			{
@@ -13295,8 +13187,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1454]
 			{
@@ -13304,8 +13196,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1455]
 			{
@@ -13313,8 +13205,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1456]
 			{
@@ -13322,8 +13214,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1457]
 			{
@@ -13331,8 +13223,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1458]
 			{
@@ -13340,8 +13232,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1459]
 			{
@@ -13349,8 +13241,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1460]
 			{
@@ -13358,8 +13250,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1461]
 			{
@@ -13367,8 +13259,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1462]
 			{
@@ -13376,8 +13268,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1463]
 			{
@@ -13385,8 +13277,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1464]
 			{
@@ -13394,8 +13286,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1465]
 			{
@@ -13403,8 +13295,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1466]
 			{
@@ -13412,8 +13304,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1467]
 			{
@@ -13421,8 +13313,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1468]
 			{
@@ -13430,8 +13322,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1469]
 			{
@@ -13439,8 +13331,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1470]
 			{
@@ -13448,8 +13340,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1471]
 			{
@@ -13457,8 +13349,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1472]
 			{
@@ -13466,8 +13358,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1473]
 			{
@@ -13475,8 +13367,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1474]
 			{
@@ -13484,8 +13376,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1475]
 			{
@@ -13493,8 +13385,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1476]
 			{
@@ -13502,8 +13394,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1477]
 			{
@@ -13511,8 +13403,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1478]
 			{
@@ -13520,8 +13412,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1479]
 			{
@@ -13529,8 +13421,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1480]
 			{
@@ -13538,8 +13430,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1481]
 			{
@@ -13547,8 +13439,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1482]
 			{
@@ -13556,8 +13448,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1483]
 			{
@@ -13565,15 +13457,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [1484]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13583,15 +13475,15 @@ RCDatabase = {
 				["secondProfLevel"] = 465,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 96,
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [1486]
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13599,8 +13491,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13608,8 +13500,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13617,8 +13509,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13626,8 +13518,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13635,8 +13527,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13644,8 +13536,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 295,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 295,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13653,8 +13545,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 296,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 296,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13662,8 +13554,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13671,8 +13563,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13680,8 +13572,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13689,8 +13581,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13698,8 +13590,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 465,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13707,8 +13599,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 466,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13716,8 +13608,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 476,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 306,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 306,
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -13727,15 +13619,15 @@ RCDatabase = {
 				["secondProfLevel"] = 476,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 96,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 306,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [1502]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13743,8 +13635,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13752,8 +13644,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13761,8 +13653,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13770,8 +13662,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13779,8 +13671,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13788,8 +13680,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13797,8 +13689,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13806,8 +13698,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13815,8 +13707,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13824,8 +13716,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13833,8 +13725,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13842,8 +13734,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13851,8 +13743,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13860,8 +13752,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13869,8 +13761,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13878,8 +13770,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13887,8 +13779,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13896,8 +13788,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13905,8 +13797,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13914,8 +13806,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13923,8 +13815,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13932,8 +13824,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 171,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13941,8 +13833,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13950,8 +13842,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13959,8 +13851,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13968,8 +13860,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13977,8 +13869,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13986,8 +13878,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -13995,8 +13887,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14004,8 +13896,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14013,8 +13905,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14022,8 +13914,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 172,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14031,8 +13923,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 173,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14040,8 +13932,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 174,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14049,8 +13941,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14058,8 +13950,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14067,8 +13959,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14076,8 +13968,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14085,8 +13977,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14094,8 +13986,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14103,8 +13995,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14112,8 +14004,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14121,8 +14013,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14130,8 +14022,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14139,8 +14031,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14148,8 +14040,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14157,8 +14049,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14166,8 +14058,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14175,8 +14067,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14184,8 +14076,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14193,8 +14085,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14202,8 +14094,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 175,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14211,8 +14103,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 176,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14220,8 +14112,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 177,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14229,8 +14121,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 178,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14238,8 +14130,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 179,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14247,8 +14139,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14256,8 +14148,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14265,8 +14157,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14274,8 +14166,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14283,8 +14175,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14292,8 +14184,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14301,8 +14193,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14310,8 +14202,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14319,8 +14211,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14328,8 +14220,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 180,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14337,8 +14229,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 181,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14346,8 +14238,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 182,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14355,8 +14247,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 183,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14364,8 +14256,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 183,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14373,8 +14265,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 183,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14382,8 +14274,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 184,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14391,8 +14283,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 184,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14400,8 +14292,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14409,8 +14301,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14418,8 +14310,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14427,8 +14319,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14436,8 +14328,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14445,8 +14337,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14454,8 +14346,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14463,8 +14355,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14472,8 +14364,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14481,8 +14373,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14490,8 +14382,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 185,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14499,8 +14391,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 186,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14508,8 +14400,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 187,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14517,8 +14409,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 188,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14526,8 +14418,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 189,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14535,8 +14427,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14544,8 +14436,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14553,8 +14445,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14562,8 +14454,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14571,8 +14463,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14580,8 +14472,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14589,8 +14481,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14598,8 +14490,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14607,8 +14499,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14616,8 +14508,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14625,8 +14517,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14634,8 +14526,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 190,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14643,8 +14535,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 191,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14652,8 +14544,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 192,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14661,8 +14553,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14670,8 +14562,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14679,8 +14571,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14688,8 +14580,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14697,8 +14589,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14706,8 +14598,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14715,8 +14607,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14724,8 +14616,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14733,8 +14625,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14742,8 +14634,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14751,8 +14643,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14760,8 +14652,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14769,8 +14661,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14778,8 +14670,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 193,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14787,8 +14679,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 194,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14796,8 +14688,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14805,8 +14697,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14814,8 +14706,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14823,8 +14715,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14832,8 +14724,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14841,8 +14733,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14850,8 +14742,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14859,8 +14751,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14868,8 +14760,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14877,8 +14769,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 195,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14886,8 +14778,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 196,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14895,8 +14787,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 197,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14904,8 +14796,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 198,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14913,8 +14805,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 199,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14922,8 +14814,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 200,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14931,8 +14823,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 200,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14940,8 +14832,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 203,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14949,8 +14841,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 206,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14958,8 +14850,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 206,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14967,8 +14859,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 206,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14976,8 +14868,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 206,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14985,8 +14877,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 206,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -14994,8 +14886,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 207,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15003,8 +14895,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 208,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15012,8 +14904,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 209,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15021,8 +14913,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15030,8 +14922,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15039,8 +14931,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15048,8 +14940,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15057,8 +14949,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15066,8 +14958,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15075,8 +14967,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15084,8 +14976,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15093,8 +14985,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15102,8 +14994,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15111,8 +15003,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15120,8 +15012,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15129,8 +15021,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 210,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15138,8 +15030,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 211,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15147,8 +15039,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 212,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15156,8 +15048,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 213,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15165,8 +15057,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 214,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15174,8 +15066,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 214,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15183,8 +15075,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 224,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15192,8 +15084,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 224,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15201,8 +15093,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 224,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15210,8 +15102,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 224,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15219,8 +15111,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 224,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15228,8 +15120,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15237,8 +15129,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15246,8 +15138,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15255,8 +15147,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15264,8 +15156,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15273,8 +15165,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15282,8 +15174,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15291,8 +15183,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15300,8 +15192,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 234,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15309,8 +15201,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 244,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15318,8 +15210,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 244,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15327,8 +15219,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 244,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15336,8 +15228,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 244,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15345,8 +15237,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 244,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15354,8 +15246,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 247,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15363,8 +15255,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15372,8 +15264,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15381,8 +15273,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15390,8 +15282,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15399,8 +15291,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15408,8 +15300,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15417,8 +15309,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15426,8 +15318,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15435,8 +15327,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15444,8 +15336,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15453,8 +15345,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15462,8 +15354,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15471,8 +15363,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15480,8 +15372,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15489,8 +15381,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15498,8 +15390,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15507,8 +15399,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15516,8 +15408,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15525,8 +15417,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 250,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15534,8 +15426,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 251,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15543,8 +15435,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 252,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15552,8 +15444,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 253,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15561,8 +15453,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 254,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15570,8 +15462,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 255,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15579,8 +15471,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 256,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15588,8 +15480,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 257,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15597,8 +15489,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 258,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15606,8 +15498,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 259,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15615,8 +15507,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 259,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15624,8 +15516,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15633,8 +15525,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15642,8 +15534,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15651,8 +15543,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15660,8 +15552,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15669,8 +15561,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15678,8 +15570,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15687,8 +15579,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15696,8 +15588,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15705,8 +15597,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15714,8 +15606,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15723,8 +15615,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15732,8 +15624,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15741,8 +15633,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15750,8 +15642,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15759,8 +15651,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15768,8 +15660,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15777,8 +15669,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15786,8 +15678,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15795,8 +15687,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15804,8 +15696,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15813,8 +15705,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15822,8 +15714,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15831,8 +15723,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15840,8 +15732,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15849,8 +15741,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15858,8 +15750,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15867,8 +15759,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15876,8 +15768,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15885,8 +15777,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15894,8 +15786,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15903,8 +15795,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15912,8 +15804,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15921,8 +15813,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15930,8 +15822,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15939,8 +15831,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15948,8 +15840,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15957,8 +15849,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15966,8 +15858,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15975,8 +15867,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15984,8 +15876,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -15993,8 +15885,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16002,8 +15894,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16011,8 +15903,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16020,8 +15912,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16029,8 +15921,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16038,8 +15930,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16047,8 +15939,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16056,8 +15948,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16065,8 +15957,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16074,8 +15966,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16083,8 +15975,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16092,8 +15984,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16101,8 +15993,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16110,8 +16002,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16119,8 +16011,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16128,8 +16020,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16137,8 +16029,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16146,8 +16038,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16155,8 +16047,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16164,8 +16056,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16173,8 +16065,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16182,8 +16074,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16191,8 +16083,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16200,8 +16092,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16209,8 +16101,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16218,8 +16110,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16227,8 +16119,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16236,8 +16128,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16245,8 +16137,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16254,8 +16146,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16263,8 +16155,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16272,8 +16164,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16281,8 +16173,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16290,8 +16182,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16299,8 +16191,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16308,8 +16200,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16317,8 +16209,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16326,8 +16218,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16335,8 +16227,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16344,8 +16236,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16353,8 +16245,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16362,8 +16254,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16371,8 +16263,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16380,8 +16272,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16389,8 +16281,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16398,8 +16290,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16407,8 +16299,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16416,8 +16308,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16425,8 +16317,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16434,8 +16326,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16443,8 +16335,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16452,8 +16344,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16461,8 +16353,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16470,8 +16362,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16479,8 +16371,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16488,8 +16380,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16497,8 +16389,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16506,8 +16398,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16515,8 +16407,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16524,8 +16416,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16533,8 +16425,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16542,8 +16434,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16551,8 +16443,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16560,8 +16452,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16569,8 +16461,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16578,8 +16470,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16587,8 +16479,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16596,8 +16488,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16605,8 +16497,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16614,8 +16506,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16623,8 +16515,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16632,8 +16524,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16641,8 +16533,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16650,8 +16542,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16659,8 +16551,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16668,8 +16560,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 260,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16677,8 +16569,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 261,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16686,8 +16578,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 262,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16695,8 +16587,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 263,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16704,8 +16596,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 264,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16713,8 +16605,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16722,8 +16614,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16731,8 +16623,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16740,8 +16632,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16749,8 +16641,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16758,8 +16650,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16767,8 +16659,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16776,8 +16668,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16785,8 +16677,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16794,8 +16686,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16803,8 +16695,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16812,8 +16704,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16821,8 +16713,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 265,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16830,8 +16722,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 266,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16839,8 +16731,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 267,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16848,8 +16740,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 268,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16857,8 +16749,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 269,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16866,8 +16758,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16875,8 +16767,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16884,8 +16776,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16893,8 +16785,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16902,8 +16794,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16911,8 +16803,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16920,8 +16812,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16929,8 +16821,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16938,8 +16830,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16947,8 +16839,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16956,8 +16848,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16965,8 +16857,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16974,8 +16866,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16983,8 +16875,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 270,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -16992,8 +16884,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 271,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17001,8 +16893,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 272,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17010,8 +16902,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 273,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17019,8 +16911,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 274,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17028,8 +16920,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17037,8 +16929,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17046,8 +16938,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17055,8 +16947,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17064,8 +16956,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17073,8 +16965,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17082,8 +16974,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17091,8 +16983,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 275,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17100,8 +16992,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 276,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17109,8 +17001,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 277,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17118,8 +17010,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 278,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17127,8 +17019,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 279,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17136,8 +17028,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 280,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17145,8 +17037,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 280,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17154,8 +17046,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 280,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17163,8 +17055,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 280,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17172,8 +17064,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 280,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17181,8 +17073,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 280,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17190,8 +17082,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 281,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17199,8 +17091,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 282,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17208,8 +17100,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 282,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17217,8 +17109,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 283,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17226,8 +17118,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 284,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17235,8 +17127,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 284,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17244,8 +17136,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17253,8 +17145,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17262,8 +17154,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17271,8 +17163,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17280,8 +17172,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17289,8 +17181,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17298,8 +17190,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17307,8 +17199,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17316,8 +17208,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17325,8 +17217,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17334,8 +17226,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17343,8 +17235,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17352,8 +17244,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17361,8 +17253,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17370,8 +17262,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 285,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17379,8 +17271,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 295,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17388,8 +17280,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17397,8 +17289,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17406,8 +17298,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17415,8 +17307,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17424,8 +17316,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17433,8 +17325,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17442,8 +17334,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17451,8 +17343,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17460,8 +17352,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17469,8 +17361,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17478,8 +17370,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17487,8 +17379,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17496,8 +17388,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17505,8 +17397,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17514,8 +17406,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 305,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17523,8 +17415,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 306,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17532,8 +17424,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 307,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17541,8 +17433,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 308,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17550,8 +17442,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 309,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17559,8 +17451,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 310,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17568,8 +17460,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 311,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17577,8 +17469,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 312,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17586,8 +17478,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 313,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17595,8 +17487,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 313,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17604,8 +17496,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 314,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17613,8 +17505,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 314,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17622,8 +17514,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 315,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17631,8 +17523,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 316,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17640,8 +17532,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 316,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17649,8 +17541,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 316,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17658,8 +17550,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 316,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17667,8 +17559,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 317,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17676,8 +17568,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 317,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17685,8 +17577,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 317,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17694,8 +17586,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 318,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17703,8 +17595,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 318,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17712,8 +17604,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 318,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17721,8 +17613,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 319,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17730,8 +17622,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 320,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17739,8 +17631,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 321,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17748,8 +17640,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 322,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17757,8 +17649,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 322,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17766,8 +17658,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 322,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17775,8 +17667,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 322,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17784,8 +17676,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 322,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17793,8 +17685,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 323,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17802,8 +17694,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 324,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17811,8 +17703,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 324,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17820,8 +17712,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17829,8 +17721,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17838,8 +17730,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17847,8 +17739,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17856,8 +17748,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17865,8 +17757,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17874,8 +17766,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17883,8 +17775,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17892,8 +17784,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17901,8 +17793,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17910,8 +17802,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17919,8 +17811,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17928,8 +17820,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17937,8 +17829,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17946,8 +17838,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17955,8 +17847,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17964,8 +17856,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17973,8 +17865,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17982,8 +17874,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -17991,8 +17883,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18000,8 +17892,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18009,8 +17901,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18018,8 +17910,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18027,8 +17919,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18036,8 +17928,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18045,8 +17937,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18054,8 +17946,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18063,8 +17955,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18072,8 +17964,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18081,8 +17973,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18090,8 +17982,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18099,8 +17991,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18108,8 +18000,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18117,8 +18009,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18126,8 +18018,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18135,8 +18027,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18144,8 +18036,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18153,8 +18045,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18162,8 +18054,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18171,8 +18063,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18180,8 +18072,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18189,8 +18081,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18198,8 +18090,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18207,8 +18099,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18216,8 +18108,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18225,8 +18117,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18234,8 +18126,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18243,8 +18135,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18252,8 +18144,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18261,8 +18153,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18270,8 +18162,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18279,8 +18171,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18288,8 +18180,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18297,8 +18189,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18306,8 +18198,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18315,8 +18207,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18324,8 +18216,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18333,8 +18225,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18342,8 +18234,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18351,8 +18243,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18360,8 +18252,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18369,8 +18261,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18378,8 +18270,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18387,8 +18279,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18396,8 +18288,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18405,8 +18297,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18414,8 +18306,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18423,8 +18315,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18432,8 +18324,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18441,8 +18333,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18450,8 +18342,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18459,8 +18351,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18468,8 +18360,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18477,8 +18369,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18486,8 +18378,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18495,8 +18387,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18504,8 +18396,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18513,8 +18405,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18522,8 +18414,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18531,8 +18423,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18540,8 +18432,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18549,8 +18441,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18558,8 +18450,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18567,8 +18459,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18576,8 +18468,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18585,8 +18477,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18594,8 +18486,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18603,8 +18495,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18612,8 +18504,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18621,8 +18513,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18630,8 +18522,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18639,8 +18531,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18648,8 +18540,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18657,8 +18549,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18666,8 +18558,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18675,8 +18567,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18684,8 +18576,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18693,8 +18585,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18702,8 +18594,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18711,8 +18603,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18720,8 +18612,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18729,8 +18621,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18738,8 +18630,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18747,8 +18639,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18756,8 +18648,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18765,8 +18657,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18774,8 +18666,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18783,8 +18675,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18792,8 +18684,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18801,8 +18693,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18810,8 +18702,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18819,8 +18711,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18828,8 +18720,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18837,8 +18729,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18846,8 +18738,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18855,8 +18747,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18864,8 +18756,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18873,8 +18765,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18882,8 +18774,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18891,8 +18783,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18900,8 +18792,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18909,8 +18801,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18918,8 +18810,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18927,8 +18819,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18936,8 +18828,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18945,8 +18837,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18954,8 +18846,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18963,8 +18855,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18972,8 +18864,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18981,8 +18873,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18990,8 +18882,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -18999,8 +18891,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19008,8 +18900,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19017,8 +18909,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19026,8 +18918,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19035,8 +18927,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19044,8 +18936,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19053,8 +18945,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19062,8 +18954,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19071,8 +18963,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19080,8 +18972,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19089,8 +18981,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19098,8 +18990,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19107,8 +18999,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19116,8 +19008,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19125,8 +19017,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19134,8 +19026,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19143,8 +19035,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19152,8 +19044,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19161,8 +19053,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19170,8 +19062,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19179,8 +19071,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19188,8 +19080,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19197,8 +19089,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19206,8 +19098,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19215,8 +19107,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19224,8 +19116,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19233,8 +19125,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19242,8 +19134,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19251,8 +19143,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19260,8 +19152,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19269,8 +19161,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19278,8 +19170,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19287,8 +19179,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19296,8 +19188,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19305,8 +19197,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19314,8 +19206,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19323,8 +19215,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19332,8 +19224,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19341,8 +19233,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19350,8 +19242,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19359,8 +19251,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19368,8 +19260,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19377,8 +19269,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19386,8 +19278,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19395,8 +19287,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19404,8 +19296,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19413,8 +19305,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19422,8 +19314,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19431,8 +19323,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19440,8 +19332,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19449,8 +19341,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19458,8 +19350,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19467,8 +19359,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19476,8 +19368,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19485,8 +19377,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19494,8 +19386,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19503,8 +19395,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19512,8 +19404,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19521,8 +19413,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19530,8 +19422,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19539,8 +19431,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19548,8 +19440,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19557,8 +19449,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19566,8 +19458,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19575,8 +19467,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19584,8 +19476,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19593,8 +19485,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19602,8 +19494,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19611,8 +19503,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19620,8 +19512,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19629,8 +19521,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19638,8 +19530,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19647,8 +19539,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19656,8 +19548,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19665,8 +19557,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19674,8 +19566,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19683,8 +19575,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19692,8 +19584,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19701,8 +19593,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19710,8 +19602,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19719,8 +19611,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19728,8 +19620,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19737,8 +19629,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19746,8 +19638,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19755,8 +19647,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19764,8 +19656,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19773,8 +19665,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19782,8 +19674,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19791,8 +19683,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19800,8 +19692,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19809,8 +19701,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19818,8 +19710,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19827,8 +19719,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19836,8 +19728,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19845,8 +19737,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19854,8 +19746,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19863,8 +19755,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19872,8 +19764,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19881,8 +19773,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19890,8 +19782,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19899,8 +19791,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19908,8 +19800,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19917,8 +19809,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19926,8 +19818,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19935,8 +19827,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19944,8 +19836,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19953,8 +19845,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19962,8 +19854,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19971,8 +19863,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19980,8 +19872,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19989,8 +19881,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -19998,8 +19890,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20007,8 +19899,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20016,8 +19908,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20025,8 +19917,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20034,8 +19926,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20043,8 +19935,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20052,8 +19944,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20061,8 +19953,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20070,8 +19962,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20079,8 +19971,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20088,8 +19980,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20097,8 +19989,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20106,8 +19998,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20115,8 +20007,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20124,8 +20016,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20133,8 +20025,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20142,8 +20034,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20151,8 +20043,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20160,8 +20052,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20169,8 +20061,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20178,8 +20070,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20187,8 +20079,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20196,8 +20088,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20205,8 +20097,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 325,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20216,8 +20108,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2223]
 			{
@@ -20225,8 +20117,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2224]
 			{
@@ -20234,8 +20126,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2225]
 			{
@@ -20243,8 +20135,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2226]
 			{
@@ -20252,8 +20144,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2227]
 			{
@@ -20261,8 +20153,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2228]
 			{
@@ -20270,8 +20162,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 400,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 400,
 				["secondProf"] = "Enchanting",
 			}, -- [2229]
 			{
@@ -20279,8 +20171,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 401,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 401,
 				["secondProf"] = "Enchanting",
 			}, -- [2230]
 			{
@@ -20288,8 +20180,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2231]
 			{
@@ -20297,8 +20189,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2232]
 			{
@@ -20306,8 +20198,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2233]
 			{
@@ -20315,8 +20207,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2234]
 			{
@@ -20324,8 +20216,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2235]
 			{
@@ -20333,8 +20225,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2236]
 			{
@@ -20342,8 +20234,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2237]
 			{
@@ -20351,8 +20243,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2238]
 			{
@@ -20360,8 +20252,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2239]
 			{
@@ -20369,8 +20261,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2240]
 			{
@@ -20378,8 +20270,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2241]
 			{
@@ -20387,8 +20279,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2242]
 			{
@@ -20396,8 +20288,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2243]
 			{
@@ -20405,8 +20297,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2244]
 			{
@@ -20414,8 +20306,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2245]
 			{
@@ -20423,8 +20315,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2246]
 			{
@@ -20432,8 +20324,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2247]
 			{
@@ -20441,8 +20333,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2248]
 			{
@@ -20450,8 +20342,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2249]
 			{
@@ -20459,8 +20351,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2250]
 			{
@@ -20468,8 +20360,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2251]
 			{
@@ -20477,8 +20369,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2252]
 			{
@@ -20486,8 +20378,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2253]
 			{
@@ -20495,8 +20387,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2254]
 			{
@@ -20504,8 +20396,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2255]
 			{
@@ -20513,8 +20405,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2256]
 			{
@@ -20522,8 +20414,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2257]
 			{
@@ -20531,8 +20423,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2258]
 			{
@@ -20540,8 +20432,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2259]
 			{
@@ -20549,8 +20441,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2260]
 			{
@@ -20558,8 +20450,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2261]
 			{
@@ -20567,8 +20459,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2262]
 			{
@@ -20576,8 +20468,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2263]
 			{
@@ -20585,8 +20477,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2264]
 			{
@@ -20594,8 +20486,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2265]
 			{
@@ -20603,8 +20495,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2266]
 			{
@@ -20612,8 +20504,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2267]
 			{
@@ -20621,8 +20513,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2268]
 			{
@@ -20630,8 +20522,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2269]
 			{
@@ -20639,8 +20531,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2270]
 			{
@@ -20648,15 +20540,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["secondProf"] = "Enchanting",
 			}, -- [2271]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20664,8 +20556,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20673,8 +20565,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20682,8 +20574,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20691,8 +20583,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20700,8 +20592,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20709,8 +20601,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20718,8 +20610,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20727,8 +20619,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20736,8 +20628,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20745,8 +20637,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20754,8 +20646,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20763,8 +20655,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 406,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 406,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20772,8 +20664,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 407,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 407,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20781,8 +20673,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 407,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 407,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20792,15 +20684,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 407,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2287]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 442,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -20810,8 +20702,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2289]
 			{
@@ -20819,8 +20711,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2290]
 			{
@@ -20828,8 +20720,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2291]
 			{
@@ -20837,8 +20729,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2292]
 			{
@@ -20846,8 +20738,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2293]
 			{
@@ -20855,8 +20747,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2294]
 			{
@@ -20864,8 +20756,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2295]
 			{
@@ -20873,8 +20765,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2296]
 			{
@@ -20882,8 +20774,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2297]
 			{
@@ -20891,8 +20783,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 442,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 442,
 				["secondProf"] = "Enchanting",
 			}, -- [2298]
 			{
@@ -20900,8 +20792,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 445,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 445,
 				["secondProf"] = "Enchanting",
 			}, -- [2299]
 			{
@@ -20909,8 +20801,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2300]
 			{
@@ -20918,8 +20810,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2301]
 			{
@@ -20927,8 +20819,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2302]
 			{
@@ -20936,8 +20828,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2303]
 			{
@@ -20945,8 +20837,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2304]
 			{
@@ -20954,8 +20846,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2305]
 			{
@@ -20963,8 +20855,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2306]
 			{
@@ -20972,8 +20864,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2307]
 			{
@@ -20981,8 +20873,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2308]
 			{
@@ -20990,8 +20882,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2309]
 			{
@@ -20999,8 +20891,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2310]
 			{
@@ -21008,8 +20900,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2311]
 			{
@@ -21017,8 +20909,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2312]
 			{
@@ -21026,8 +20918,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2313]
 			{
@@ -21035,8 +20927,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2314]
 			{
@@ -21044,8 +20936,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2315]
 			{
@@ -21053,8 +20945,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2316]
 			{
@@ -21062,8 +20954,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2317]
 			{
@@ -21071,8 +20963,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2318]
 			{
@@ -21080,8 +20972,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2319]
 			{
@@ -21089,8 +20981,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2320]
 			{
@@ -21098,8 +20990,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2321]
 			{
@@ -21107,8 +20999,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2322]
 			{
@@ -21116,8 +21008,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2323]
 			{
@@ -21125,8 +21017,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2324]
 			{
@@ -21134,8 +21026,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 450,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 450,
 				["secondProf"] = "Enchanting",
 			}, -- [2325]
 			{
@@ -21143,8 +21035,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 451,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 451,
 				["secondProf"] = "Enchanting",
 			}, -- [2326]
 			{
@@ -21152,8 +21044,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 452,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 452,
 				["secondProf"] = "Enchanting",
 			}, -- [2327]
 			{
@@ -21161,8 +21053,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 452,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 452,
 				["secondProf"] = "Enchanting",
 			}, -- [2328]
 			{
@@ -21170,8 +21062,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 453,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 453,
 				["secondProf"] = "Enchanting",
 			}, -- [2329]
 			{
@@ -21179,8 +21071,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 454,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 454,
 				["secondProf"] = "Enchanting",
 			}, -- [2330]
 			{
@@ -21188,8 +21080,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 455,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 455,
 				["secondProf"] = "Enchanting",
 			}, -- [2331]
 			{
@@ -21197,8 +21089,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 455,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 455,
 				["secondProf"] = "Enchanting",
 			}, -- [2332]
 			{
@@ -21206,8 +21098,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 455,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 455,
 				["secondProf"] = "Enchanting",
 			}, -- [2333]
 			{
@@ -21215,8 +21107,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 455,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 455,
 				["secondProf"] = "Enchanting",
 			}, -- [2334]
 			{
@@ -21224,8 +21116,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 456,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 456,
 				["secondProf"] = "Enchanting",
 			}, -- [2335]
 			{
@@ -21233,8 +21125,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2336]
 			{
@@ -21242,8 +21134,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2337]
 			{
@@ -21251,8 +21143,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2338]
 			{
@@ -21260,8 +21152,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2339]
 			{
@@ -21269,8 +21161,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2340]
 			{
@@ -21278,8 +21170,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2341]
 			{
@@ -21287,8 +21179,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2342]
 			{
@@ -21296,8 +21188,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2343]
 			{
@@ -21305,8 +21197,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2344]
 			{
@@ -21314,8 +21206,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2345]
 			{
@@ -21323,8 +21215,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2346]
 			{
@@ -21332,8 +21224,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2347]
 			{
@@ -21341,8 +21233,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2348]
 			{
@@ -21350,8 +21242,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2349]
 			{
@@ -21359,8 +21251,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 457,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 457,
 				["secondProf"] = "Enchanting",
 			}, -- [2350]
 			{
@@ -21368,8 +21260,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 458,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 458,
 				["secondProf"] = "Enchanting",
 			}, -- [2351]
 			{
@@ -21377,8 +21269,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 459,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 459,
 				["secondProf"] = "Enchanting",
 			}, -- [2352]
 			{
@@ -21386,8 +21278,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 459,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 459,
 				["secondProf"] = "Enchanting",
 			}, -- [2353]
 			{
@@ -21395,8 +21287,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2354]
 			{
@@ -21404,8 +21296,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2355]
 			{
@@ -21413,8 +21305,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2356]
 			{
@@ -21422,8 +21314,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2357]
 			{
@@ -21431,8 +21323,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2358]
 			{
@@ -21440,8 +21332,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2359]
 			{
@@ -21449,8 +21341,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2360]
 			{
@@ -21458,8 +21350,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2361]
 			{
@@ -21467,8 +21359,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2362]
 			{
@@ -21476,8 +21368,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2363]
 			{
@@ -21485,8 +21377,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2364]
 			{
@@ -21494,8 +21386,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2365]
 			{
@@ -21503,8 +21395,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 460,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 460,
 				["secondProf"] = "Enchanting",
 			}, -- [2366]
 			{
@@ -21512,8 +21404,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 461,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 461,
 				["secondProf"] = "Enchanting",
 			}, -- [2367]
 			{
@@ -21521,8 +21413,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 462,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 462,
 				["secondProf"] = "Enchanting",
 			}, -- [2368]
 			{
@@ -21530,8 +21422,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 463,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 463,
 				["secondProf"] = "Enchanting",
 			}, -- [2369]
 			{
@@ -21539,8 +21431,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 464,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 464,
 				["secondProf"] = "Enchanting",
 			}, -- [2370]
 			{
@@ -21548,8 +21440,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2371]
 			{
@@ -21557,8 +21449,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2372]
 			{
@@ -21566,8 +21458,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2373]
 			{
@@ -21575,8 +21467,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2374]
 			{
@@ -21584,8 +21476,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2375]
 			{
@@ -21593,8 +21485,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2376]
 			{
@@ -21602,8 +21494,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2377]
 			{
@@ -21611,8 +21503,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2378]
 			{
@@ -21620,8 +21512,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2379]
 			{
@@ -21629,8 +21521,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 465,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 465,
 				["secondProf"] = "Enchanting",
 			}, -- [2380]
 			{
@@ -21638,8 +21530,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 466,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 466,
 				["secondProf"] = "Enchanting",
 			}, -- [2381]
 			{
@@ -21647,8 +21539,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 467,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 467,
 				["secondProf"] = "Enchanting",
 			}, -- [2382]
 			{
@@ -21656,8 +21548,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 468,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 468,
 				["secondProf"] = "Enchanting",
 			}, -- [2383]
 			{
@@ -21665,8 +21557,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 469,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 469,
 				["secondProf"] = "Enchanting",
 			}, -- [2384]
 			{
@@ -21674,8 +21566,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2385]
 			{
@@ -21683,8 +21575,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2386]
 			{
@@ -21692,8 +21584,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2387]
 			{
@@ -21701,8 +21593,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2388]
 			{
@@ -21710,8 +21602,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2389]
 			{
@@ -21719,8 +21611,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2390]
 			{
@@ -21728,8 +21620,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2391]
 			{
@@ -21737,8 +21629,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2392]
 			{
@@ -21746,8 +21638,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 470,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 470,
 				["secondProf"] = "Enchanting",
 			}, -- [2393]
 			{
@@ -21755,8 +21647,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 471,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 471,
 				["secondProf"] = "Enchanting",
 			}, -- [2394]
 			{
@@ -21764,8 +21656,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 472,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 472,
 				["secondProf"] = "Enchanting",
 			}, -- [2395]
 			{
@@ -21773,8 +21665,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 473,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 473,
 				["secondProf"] = "Enchanting",
 			}, -- [2396]
 			{
@@ -21782,8 +21674,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 474,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 474,
 				["secondProf"] = "Enchanting",
 			}, -- [2397]
 			{
@@ -21791,8 +21683,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2398]
 			{
@@ -21800,8 +21692,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2399]
 			{
@@ -21809,8 +21701,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2400]
 			{
@@ -21818,8 +21710,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2401]
 			{
@@ -21827,8 +21719,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2402]
 			{
@@ -21836,8 +21728,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2403]
 			{
@@ -21845,8 +21737,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2404]
 			{
@@ -21854,8 +21746,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2405]
 			{
@@ -21863,8 +21755,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2406]
 			{
@@ -21872,8 +21764,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2407]
 			{
@@ -21881,8 +21773,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2408]
 			{
@@ -21890,8 +21782,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 475,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 475,
 				["secondProf"] = "Enchanting",
 			}, -- [2409]
 			{
@@ -21899,8 +21791,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 476,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 476,
 				["secondProf"] = "Enchanting",
 			}, -- [2410]
 			{
@@ -21908,8 +21800,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 477,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 477,
 				["secondProf"] = "Enchanting",
 			}, -- [2411]
 			{
@@ -21917,8 +21809,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 478,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 478,
 				["secondProf"] = "Enchanting",
 			}, -- [2412]
 			{
@@ -21926,8 +21818,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 479,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 479,
 				["secondProf"] = "Enchanting",
 			}, -- [2413]
 			{
@@ -21935,8 +21827,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2414]
 			{
@@ -21944,8 +21836,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2415]
 			{
@@ -21953,8 +21845,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2416]
 			{
@@ -21962,8 +21854,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2417]
 			{
@@ -21971,8 +21863,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2418]
 			{
@@ -21980,8 +21872,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2419]
 			{
@@ -21989,8 +21881,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2420]
 			{
@@ -21998,8 +21890,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2421]
 			{
@@ -22007,8 +21899,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2422]
 			{
@@ -22016,8 +21908,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 480,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 480,
 				["secondProf"] = "Enchanting",
 			}, -- [2423]
 			{
@@ -22025,8 +21917,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 481,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 481,
 				["secondProf"] = "Enchanting",
 			}, -- [2424]
 			{
@@ -22034,8 +21926,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 482,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 482,
 				["secondProf"] = "Enchanting",
 			}, -- [2425]
 			{
@@ -22043,8 +21935,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 483,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 483,
 				["secondProf"] = "Enchanting",
 			}, -- [2426]
 			{
@@ -22052,8 +21944,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 484,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 484,
 				["secondProf"] = "Enchanting",
 			}, -- [2427]
 			{
@@ -22061,8 +21953,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2428]
 			{
@@ -22070,8 +21962,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2429]
 			{
@@ -22079,8 +21971,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2430]
 			{
@@ -22088,8 +21980,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2431]
 			{
@@ -22097,8 +21989,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2432]
 			{
@@ -22106,8 +21998,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2433]
 			{
@@ -22115,8 +22007,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2434]
 			{
@@ -22124,8 +22016,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2435]
 			{
@@ -22133,8 +22025,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2436]
 			{
@@ -22142,15 +22034,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 485,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 485,
 				["secondProf"] = "Enchanting",
 			}, -- [2437]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 486,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 486,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22160,8 +22052,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2439]
 			{
@@ -22169,8 +22061,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2440]
 			{
@@ -22178,8 +22070,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2441]
 			{
@@ -22187,8 +22079,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2442]
 			{
@@ -22196,8 +22088,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2443]
 			{
@@ -22205,8 +22097,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2444]
 			{
@@ -22214,8 +22106,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2445]
 			{
@@ -22223,8 +22115,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2446]
 			{
@@ -22232,15 +22124,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 486,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2447]
 			{
 				["secondProfLevel"] = 477,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22248,8 +22140,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 477,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["level"] = 96,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22259,15 +22151,15 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 97,
-				["firstProfLevel"] = 307,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 307,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2450]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 518,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 518,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22277,8 +22169,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 97,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2452]
 			{
@@ -22286,8 +22178,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 97,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2453]
 			{
@@ -22295,8 +22187,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2454]
 			{
@@ -22304,8 +22196,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2455]
 			{
@@ -22313,8 +22205,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2456]
 			{
@@ -22322,8 +22214,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2457]
 			{
@@ -22331,8 +22223,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2458]
 			{
@@ -22340,8 +22232,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 307,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2459]
 			{
@@ -22349,8 +22241,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 308,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2460]
 			{
@@ -22358,8 +22250,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 308,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2461]
 			{
@@ -22367,8 +22259,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 308,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2462]
 			{
@@ -22376,8 +22268,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 308,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2463]
 			{
@@ -22385,8 +22277,8 @@ RCDatabase = {
 				["secondProfLevel"] = 477,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 308,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2464]
 			{
@@ -22394,15 +22286,15 @@ RCDatabase = {
 				["secondProfLevel"] = 478,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 98,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 308,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2465]
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22410,8 +22302,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22419,8 +22311,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22428,8 +22320,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22437,8 +22329,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22446,8 +22338,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22455,8 +22347,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 319,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22464,8 +22356,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 324,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22473,8 +22365,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 324,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22482,8 +22374,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 478,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 324,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22491,8 +22383,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22500,8 +22392,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22509,8 +22401,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22518,8 +22410,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22527,8 +22419,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22536,8 +22428,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22545,8 +22437,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 508,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22554,8 +22446,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 509,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22563,8 +22455,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 509,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22572,8 +22464,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 509,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22581,8 +22473,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 509,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22590,8 +22482,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22599,8 +22491,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22608,8 +22500,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22617,8 +22509,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22626,8 +22518,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22635,8 +22527,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 329,
+				["class"] = "WARRIOR",
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22646,15 +22538,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 518,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 518,
 				["secondProf"] = "Enchanting",
 			}, -- [2493]
 			{
 				["secondProfLevel"] = 519,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 329,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 329,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -22664,8 +22556,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2495]
 			{
@@ -22673,8 +22565,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2496]
 			{
@@ -22682,8 +22574,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2497]
 			{
@@ -22691,8 +22583,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2498]
 			{
@@ -22700,8 +22592,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2499]
 			{
@@ -22709,8 +22601,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2500]
 			{
@@ -22718,8 +22610,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2501]
 			{
@@ -22727,8 +22619,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2502]
 			{
@@ -22736,8 +22628,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2503]
 			{
@@ -22745,8 +22637,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2504]
 			{
@@ -22754,8 +22646,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 518,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2505]
 			{
@@ -22763,8 +22655,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 528,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2506]
 			{
@@ -22772,15 +22664,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2507]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22788,8 +22680,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22797,8 +22689,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22806,8 +22698,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22815,8 +22707,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22824,8 +22716,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22833,8 +22725,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 529,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22842,8 +22734,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 539,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22851,8 +22743,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 540,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22860,8 +22752,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 540,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22871,15 +22763,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 540,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 540,
 				["secondProf"] = "Enchanting",
 			}, -- [2518]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 551,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 551,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22887,8 +22779,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22896,8 +22788,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22905,8 +22797,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22914,8 +22806,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22923,8 +22815,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22932,8 +22824,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22941,8 +22833,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22950,8 +22842,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22959,8 +22851,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 556,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 556,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -22970,8 +22862,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2529]
 			{
@@ -22979,8 +22871,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2530]
 			{
@@ -22988,8 +22880,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2531]
 			{
@@ -22997,8 +22889,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2532]
 			{
@@ -23006,8 +22898,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2533]
 			{
@@ -23015,8 +22907,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2534]
 			{
@@ -23024,8 +22916,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2535]
 			{
@@ -23033,8 +22925,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2536]
 			{
@@ -23042,8 +22934,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2537]
 			{
@@ -23051,8 +22943,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2538]
 			{
@@ -23060,8 +22952,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2539]
 			{
@@ -23069,8 +22961,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2540]
 			{
@@ -23078,8 +22970,8 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2541]
 			{
@@ -23087,15 +22979,15 @@ RCDatabase = {
 				["secondProfLevel"] = 541,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 361,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2542]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23103,8 +22995,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23112,8 +23004,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23121,8 +23013,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23130,8 +23022,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23139,8 +23031,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23148,8 +23040,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 576,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23157,8 +23049,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23166,8 +23058,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23175,8 +23067,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23184,8 +23076,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23193,8 +23085,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23202,8 +23094,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23211,8 +23103,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23220,8 +23112,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23229,8 +23121,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23238,8 +23130,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23247,8 +23139,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 586,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23258,8 +23150,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2561]
 			{
@@ -23267,8 +23159,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2562]
 			{
@@ -23276,8 +23168,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2563]
 			{
@@ -23285,8 +23177,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2564]
 			{
@@ -23294,8 +23186,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2565]
 			{
@@ -23303,8 +23195,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2566]
 			{
@@ -23312,8 +23204,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2567]
 			{
@@ -23321,8 +23213,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2568]
 			{
@@ -23330,8 +23222,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2569]
 			{
@@ -23339,8 +23231,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2570]
 			{
@@ -23348,8 +23240,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2571]
 			{
@@ -23357,8 +23249,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2572]
 			{
@@ -23366,8 +23258,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2573]
 			{
@@ -23375,8 +23267,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2574]
 			{
@@ -23384,8 +23276,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2575]
 			{
@@ -23393,8 +23285,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2576]
 			{
@@ -23402,8 +23294,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2577]
 			{
@@ -23411,8 +23303,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2578]
 			{
@@ -23420,8 +23312,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2579]
 			{
@@ -23429,8 +23321,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2580]
 			{
@@ -23438,8 +23330,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2581]
 			{
@@ -23447,8 +23339,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2582]
 			{
@@ -23456,8 +23348,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2583]
 			{
@@ -23465,8 +23357,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2584]
 			{
@@ -23474,15 +23366,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 607,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 607,
 				["secondProf"] = "Enchanting",
 			}, -- [2585]
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23490,8 +23382,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23499,8 +23391,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23508,8 +23400,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23517,8 +23409,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23526,8 +23418,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23535,8 +23427,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23544,8 +23436,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23553,8 +23445,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23562,8 +23454,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23571,8 +23463,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 563,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23580,8 +23472,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 573,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23589,8 +23481,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 574,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23598,8 +23490,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 574,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23607,8 +23499,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 574,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23616,8 +23508,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 574,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 382,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 382,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23625,8 +23517,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 574,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 392,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 392,
 				["level"] = 100,
 				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
@@ -23636,15 +23528,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 607,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2603]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 609,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23654,15 +23546,15 @@ RCDatabase = {
 				["secondProfLevel"] = 574,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["firstProfLevel"] = 392,
 				["class"] = "WARRIOR",
+				["firstProfLevel"] = 392,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2605]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23670,8 +23562,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23679,8 +23571,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23688,8 +23580,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23697,8 +23589,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23706,8 +23598,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23715,8 +23607,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23724,8 +23616,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23733,8 +23625,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23742,8 +23634,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 609,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 609,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23753,15 +23645,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 611,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2616]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23769,8 +23661,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23778,8 +23670,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23787,8 +23679,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23796,8 +23688,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23805,8 +23697,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23814,8 +23706,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 615,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23825,8 +23717,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2624]
 			{
@@ -23834,8 +23726,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2625]
 			{
@@ -23843,8 +23735,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2626]
 			{
@@ -23852,8 +23744,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2627]
 			{
@@ -23861,8 +23753,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2628]
 			{
@@ -23870,8 +23762,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2629]
 			{
@@ -23879,15 +23771,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2630]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23897,15 +23789,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2632]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23915,15 +23807,15 @@ RCDatabase = {
 				["secondProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
 				["level"] = 2,
-				["class"] = "PALADIN",
 				["firstProfLevel"] = 0,
+				["class"] = "PALADIN",
 				["secondProf"] = "No 2nd Prof",
 			}, -- [2634]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23933,15 +23825,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["secondProf"] = "Enchanting",
 			}, -- [2636]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 616,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 616,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -23951,8 +23843,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2638]
 			{
@@ -23960,8 +23852,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2639]
 			{
@@ -23969,8 +23861,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2640]
 			{
@@ -23978,8 +23870,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2641]
 			{
@@ -23987,8 +23879,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2642]
 			{
@@ -23996,8 +23888,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2643]
 			{
@@ -24005,8 +23897,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 616,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2644]
 			{
@@ -24014,15 +23906,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2645]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24032,15 +23924,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["secondProf"] = "Enchanting",
 			}, -- [2647]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24050,15 +23942,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2649]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24068,8 +23960,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2651]
 			{
@@ -24077,15 +23969,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["secondProf"] = "Enchanting",
 			}, -- [2652]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24095,15 +23987,15 @@ RCDatabase = {
 				["secondProfLevel"] = 585,
 				["firstProf"] = "Blacksmithing",
 				["level"] = 100,
-				["class"] = "WARRIOR",
 				["firstProfLevel"] = 422,
+				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [2654]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24113,8 +24005,8 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["secondProf"] = "Enchanting",
 			}, -- [2656]
 			{
@@ -24122,15 +24014,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2657]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24140,15 +24032,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["secondProf"] = "Enchanting",
 			}, -- [2659]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24158,15 +24050,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2661]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24176,15 +24068,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["secondProf"] = "Enchanting",
 			}, -- [2663]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24194,15 +24086,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2665]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24212,15 +24104,15 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["secondProf"] = "Enchanting",
 			}, -- [2667]
 			{
 				["secondProfLevel"] = 700,
 				["name"] = "Mallusof",
-				["firstProfLevel"] = 617,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 617,
 				["level"] = 100,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -24230,23 +24122,131 @@ RCDatabase = {
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Tailoring",
 				["level"] = 100,
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 617,
+				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 			}, -- [2669]
 			["characterStored"] = 2669,
 		},
-		["Aggramar"] = {
+		["Proudmoore"] = {
 			{
-				["name"] = "Gottagetlia",
+				["name"] = "Eiwar",
 				["secondProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
-				["level"] = 19,
+				["level"] = 1,
 				["firstProfLevel"] = 0,
-				["class"] = "SHAMAN",
+				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 			}, -- [1]
-			["characterStored"] = 1,
+			{
+				["secondProfLevel"] = 741,
+				["name"] = "Mallusof",
+				["class"] = "PRIEST",
+				["firstProfLevel"] = 774,
+				["level"] = 110,
+				["firstProf"] = "Tailoring",
+				["secondProf"] = "Enchanting",
+			}, -- [2]
+			{
+				["name"] = "Praerend",
+				["secondProfLevel"] = 700,
+				["firstProf"] = "Blacksmithing",
+				["level"] = 109,
+				["class"] = "WARRIOR",
+				["firstProfLevel"] = 700,
+				["secondProf"] = "Jewelcrafting",
+			}, -- [3]
+			{
+				["secondProfLevel"] = 715,
+				["name"] = "Rahran",
+				["class"] = "ROGUE",
+				["firstProfLevel"] = 700,
+				["level"] = 100,
+				["firstProf"] = "Leatherworking",
+				["secondProf"] = "Skinning",
+			}, -- [4]
+			{
+				["name"] = "Amranar",
+				["secondProfLevel"] = 787,
+				["firstProf"] = "Alchemy",
+				["level"] = 110,
+				["firstProfLevel"] = 711,
+				["class"] = "DRUID",
+				["secondProf"] = "Herbalism",
+			}, -- [5]
+			{
+				["name"] = "Morifa",
+				["secondProfLevel"] = 702,
+				["firstProf"] = "Herbalism",
+				["level"] = 100,
+				["class"] = "MAGE",
+				["firstProfLevel"] = 71,
+				["secondProf"] = "Inscription",
+			}, -- [6]
+			{
+				["name"] = "Farahn",
+				["secondProfLevel"] = 566,
+				["firstProf"] = "Mining",
+				["level"] = 103,
+				["firstProfLevel"] = 89,
+				["class"] = "SHAMAN",
+				["secondProf"] = "Engineering",
+			}, -- [7]
+			{
+				["secondProfLevel"] = 700,
+				["name"] = "Granjior",
+				["firstProfLevel"] = 700,
+				["class"] = "PALADIN",
+				["level"] = 100,
+				["firstProf"] = "Mining",
+				["secondProf"] = "Engineering",
+			}, -- [8]
+			{
+				["name"] = "Faerand",
+				["secondProfLevel"] = 0,
+				["firstProf"] = "No 1st Prof",
+				["level"] = 100,
+				["firstProfLevel"] = 0,
+				["class"] = "HUNTER",
+				["secondProf"] = "No 2nd Prof",
+			}, -- [9]
+			{
+				["name"] = "Fimwack",
+				["secondProfLevel"] = 0,
+				["firstProf"] = "No 1st Prof",
+				["level"] = 100,
+				["class"] = "WARLOCK",
+				["firstProfLevel"] = 0,
+				["secondProf"] = "No 2nd Prof",
+			}, -- [10]
+			{
+				["name"] = "Miriyal",
+				["secondProfLevel"] = 700,
+				["firstProf"] = "Leatherworking",
+				["level"] = 100,
+				["firstProfLevel"] = 700,
+				["class"] = "MONK",
+				["secondProf"] = "Skinning",
+			}, -- [11]
+			{
+				["secondProfLevel"] = 700,
+				["name"] = "Greybone",
+				["firstProfLevel"] = 700,
+				["class"] = "DEATHKNIGHT",
+				["level"] = 100,
+				["firstProf"] = "Blacksmithing",
+				["secondProf"] = "Mining",
+			}, -- [12]
+			{
+				["name"] = "Kaldorath",
+				["secondProfLevel"] = 0,
+				["firstProf"] = "No 1st Prof",
+				["level"] = 100,
+				["firstProfLevel"] = 0,
+				["class"] = "DEMONHUNTER",
+				["secondProf"] = "No 2nd Prof",
+			}, -- [13]
+			["characterStored"] = 13,
 		},
 	},
 }
