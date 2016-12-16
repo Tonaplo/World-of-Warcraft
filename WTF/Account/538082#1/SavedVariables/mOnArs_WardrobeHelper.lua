@@ -13,8 +13,8 @@ mOnWDSave = {
 	["completionistMode"] = false,
 	["blacklist"] = {
 	},
-	["hideList"] = false,
 	["miniListRowCount"] = 25,
+	["hideList"] = false,
 	["disableProgress"] = false,
 	["hideCompletedInstances"] = true,
 }
