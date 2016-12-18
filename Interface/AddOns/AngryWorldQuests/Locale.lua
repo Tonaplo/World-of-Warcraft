@@ -29,8 +29,6 @@ langs.enUS = {
 	config_lootUpgradesLevelValue1 = "Higher ilvl only",
 	config_lootUpgradesLevelValue2 = "Up to same ilvl",
 	config_lootUpgradesLevelValue = "Up to %d ilvls less",
-	config_flightMapTracked = "Show tracked World Quest POI icons on the flight map",
-	config_flightMapAll = "Show all World Quest POI icons on the flight map",
 	CURRENT_ZONE = "Current Zone",
 }
 langs.enGB = langs.enUS
@@ -54,11 +52,36 @@ langs.esES = {
 	config_lootUpgradesLevelValue1 = "De mayor ilvl",
 	config_lootUpgradesLevelValue2 = "Del mismo ilvl",
 	config_lootUpgradesLevelValue = "Hasta %d ilvl menos",
-	config_flightMapTracked = "Mostrar Misiones del Mundo en seguimiento en el mapa de vuelo",
-	config_flightMapAll = "Mostrar todas las Misiones del Mundo en el mapa de vuelo",
 	CURRENT_ZONE = "Zona actual",
 }
 langs.esMX = langs.esES
+
+langs.deDE = {
+	UPGRADES = "Verbesserungen",
+	config_showAtTop = "Zeige oben im Quest Log",
+	config_onlyCurrentZone = "Zeige nur Worldquests aus der aktuellen Zone",
+	config_showEverywhere = "Zeige Worldquests auf allen Karten",
+	config_hideFilteredPOI = "Verberge gefiltere Worldquest Symbole auf der Weltkarte",
+	config_hideUntrackedPOI = "Verberge nicht verfolgte Worldquest Symbole auf der Weltkarte",
+	config_showHoveredPOI = "Zeige Worldquest Symbole immer, wenn unter der Maus",
+	config_showContinentPOI = "Zeige Worldquestsymbole auf der Kontinent-Karte",
+	config_lootFilterUpgrades = "Zeige nur Verbesserungen für den Lootfilter",
+	config_timeFilterDuration = "Dauer für \"Verbleibende Zeit\" Filter",
+	config_enabledFilters = "Aktivierte Filter",
+	config_sortMethod = "Sortiere Weltquests nach",
+	config_sortMethod_1 = NAME,
+	config_sortMethod_2 = CLOSES_IN,
+	config_sortMethod_3 = ZONE,
+	config_sortMethod_4 = FACTION,
+	config_sortMethod_5 = REWARDS,
+	config_characterConfig = "Charakterspezifische Konfiguration",
+	config_saveFilters = "Speichere Filter zwischen Sitzungen",
+	config_lootUpgradesLevel = "Lootfilter zeigt Verbesserungen",
+	config_lootUpgradesLevelValue1 = "Nur höhrere Gegenstandsstufe",
+	config_lootUpgradesLevelValue2 = "Bis zur gleichen Gegenstandsstufe",
+	config_lootUpgradesLevelValue = "Bis zu %d Gegenstandsstufen weniger",
+	CURRENT_ZONE = "Aktuelle Zone",
+}
 
 langs.koKR = {
 	UPGRADES = "업그레이드",
@@ -83,8 +106,6 @@ langs.koKR = {
 	config_lootUpgradesLevelValue1 = "높은 등급 전리품",
 	config_lootUpgradesLevelValue2 = "동일한 등급 전리품",
 	config_lootUpgradesLevelValue = "%d등급 낮은 전리품",
-	config_flightMapTracked = "비행 지도에 추적중인 전역퀘스트 아이콘을 표시합니다",
-	config_flightMapAll = "비행 지도에 모든 전역퀘스트 아이콘을 표시합니다",
 	CURRENT_ZONE = "현재 지역",
 }
 
@@ -111,8 +132,6 @@ langs.zhCN = {
 	config_lootUpgradesLevelValue1 = "仅显示更高装等",
 	config_lootUpgradesLevelValue2 = "显示最高同等级",
 	config_lootUpgradesLevelValue = "最多相差%d装等",
-	config_flightMapTracked = "在飞行地图点上显示当前追踪的世界任务",
-	config_flightMapAll = "在飞行地图点上显示所有的世界任务",
 	CURRENT_ZONE = "当前区域",
 }
 
@@ -139,8 +158,6 @@ langs.zhTW = {
 	config_lootUpgradesLevelValue1 = "僅顯示更高裝等物品",
 	config_lootUpgradesLevelValue2 = "顯示最高同裝等物品",
 	config_lootUpgradesLevelValue = "最多相差%d裝等",
-	config_flightMapTracked = "在飛行地圖點上顯示當前追蹤的世界任務",
-	config_flightMapAll = "在飛行地圖點上顯示所有的世界任務",
 	CURRENT_ZONE = "當前區域",
 }
 

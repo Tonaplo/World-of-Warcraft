@@ -1,7 +1,7 @@
 local ADDON, Addon = ...
 local Config = Addon:NewModule('Config')
 
-local configVersion = 7
+local configVersion = 8
 local configDefaults = {
 	collapsed = false,
 	showAtTop = true,
@@ -9,7 +9,7 @@ local configDefaults = {
 	onlyCurrentZone = true,
 	showEverywhere = false,
 	selectedFilters = 0,
-	disabledFilters = bit.bor(2^(8-1), 2^(9-1), 2^(10-1), 2^(11-1), 2^(12-1), 2^(13-1), 2^(14-1)),
+	disabledFilters = bit.bor(2^(8-1), 2^(9-1), 2^(10-1), 2^(11-1), 2^(12-1), 2^(13-1), 2^(14-1), 2^(15-1)),
 	filterEmissary = 0,
 	filterLoot = 0,
 	filterFaction = 0,
@@ -22,8 +22,6 @@ local configDefaults = {
 	hideFilteredPOI = false,
 	showContinentPOI = false,
 	showComparisonRight = false,
-	flightMapTracked = true,
-	flightMapAll = false,
 	sortMethod = 1,
 	extendedInfo = false,
 	saveFilters = false,
@@ -360,7 +358,7 @@ Panel_OnRefresh = function(self)
 		dropdowns = {}
 		filterCheckboxes = {}
 
-		local checkboxes_order = { "showAtTop", "onlyCurrentZone", "showEverywhere", "showContinentPOI", "hideFilteredPOI", "hideUntrackedPOI", "showHoveredPOI", "lootFilterUpgrades", "flightMapTracked" }
+		local checkboxes_order = { "showAtTop", "onlyCurrentZone", "showEverywhere", "showContinentPOI", "hideFilteredPOI", "hideUntrackedPOI", "showHoveredPOI", "lootFilterUpgrades" }
 
 		for i,key in ipairs(checkboxes_order) do
 			checkboxes[i] = CreateFrame("CheckButton", nil, self, "InterfaceOptionsCheckButtonTemplate")
@@ -439,7 +437,7 @@ function Config:CreatePanel()
 	return panel
 end
 
-function Config:Startup()
+function Config:BeforeStartup()
 	if AngryWorldQuests_Config == nil then AngryWorldQuests_Config = {} end
 	if AngryWorldQuests_CharacterConfig == nil then AngryWorldQuests_CharacterConfig = {} end
 
@@ -467,6 +465,12 @@ function Config:Startup()
 	end
 	if AngryWorldQuests_CharacterConfig['__version'] <= 6 and AngryWorldQuests_CharacterConfig['disabledFilters'] then
 		AngryWorldQuests_CharacterConfig['disabledFilters'] = bit.bor(2^(13-1), 2^(14-1), AngryWorldQuests_CharacterConfig['disabledFilters'])
+	end
+	if AngryWorldQuests_Config['__version'] <= 7 and AngryWorldQuests_Config['disabledFilters'] then
+		AngryWorldQuests_Config['disabledFilters'] = bit.bor(2^(15-1), AngryWorldQuests_Config['disabledFilters'])
+	end
+	if AngryWorldQuests_CharacterConfig['__version'] <= 7 and AngryWorldQuests_CharacterConfig['disabledFilters'] then
+		AngryWorldQuests_CharacterConfig['disabledFilters'] = bit.bor(2^(15-1), AngryWorldQuests_CharacterConfig['disabledFilters'])
 	end
 
 	AngryWorldQuests_Config['__version'] = configVersion

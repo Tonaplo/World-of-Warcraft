@@ -16,9 +16,9 @@ local MAPID_ORDER = { [MAPID_SURAMAR] = 1, [MAPID_AZSUNA] = 2, [MAPID_VALSHARAH]
 
 local CURRENCYID_RESOURCES = 1220
 
-local FILTER_COUNT = 14
-local FILTER_ICONS = { "achievement_reputation_01", "inv_7xp_inscription_talenttome01", "inv_misc_lockboxghostiron", "inv_orderhall_orderresources", "inv_misc_coin_01", "inv_box_01", "ability_bossmagistrix_timewarp2", "achievement_reputation_06", "pvpcurrency-honor-horde", "inv_misc_note_01", "tracking_wildpet", "", "inv_misc_map_01", "icon_treasuremap" }
-local FILTER_NAMES = { BOUNTY_BOARD_LOCKED_TITLE, ARTIFACT_POWER, BONUS_ROLL_REWARD_ITEM, "Order Resources", BONUS_ROLL_REWARD_MONEY, ITEMS, CLOSES_IN, FACTION, PVP, TRADE_SKILLS, SHOW_PET_BATTLES_ON_MAP_TEXT, RAID_FRAME_SORT_LABEL, TRACKING, ZONE }
+local FILTER_COUNT = 15
+local FILTER_ICONS = { "achievement_reputation_01", "inv_7xp_inscription_talenttome01", "inv_misc_lockboxghostiron", "inv_orderhall_orderresources", "inv_misc_coin_01", "inv_box_01", "ability_bossmagistrix_timewarp2", "achievement_reputation_06", "pvpcurrency-honor-horde", "inv_misc_note_01", "tracking_wildpet", "", "inv_misc_map_01", "icon_treasuremap", "achievement_raregarrisonquests_x" }
+local FILTER_NAMES = { BOUNTY_BOARD_LOCKED_TITLE, ARTIFACT_POWER, BONUS_ROLL_REWARD_ITEM, "Order Resources", BONUS_ROLL_REWARD_MONEY, ITEMS, CLOSES_IN, FACTION, PVP, TRADE_SKILLS, SHOW_PET_BATTLES_ON_MAP_TEXT, RAID_FRAME_SORT_LABEL, TRACKING, ZONE, ITEM_QUALITY3_DESC }
 local FILTER_EMISSARY = 1
 local FILTER_ARTIFACT_POWER = 2
 local FILTER_LOOT = 3
@@ -33,7 +33,8 @@ local FILTER_PETBATTLE = 11
 local FILTER_SORT = 12
 local FILTER_TRACKED = 13
 local FILTER_ZONE = 14
-local FILTER_ORDER = { FILTER_EMISSARY, FILTER_TIME, FILTER_ZONE, FILTER_TRACKED, FILTER_FACTION, FILTER_ARTIFACT_POWER, FILTER_LOOT, FILTER_ORDER_RESOURCES, FILTER_GOLD, FILTER_ITEMS, FILTER_PVP, FILTER_PROFESSION, FILTER_PETBATTLE, FILTER_SORT }
+local FILTER_RARE = 15
+local FILTER_ORDER = { FILTER_EMISSARY, FILTER_TIME, FILTER_ZONE, FILTER_TRACKED, FILTER_FACTION, FILTER_ARTIFACT_POWER, FILTER_LOOT, FILTER_ORDER_RESOURCES, FILTER_GOLD, FILTER_ITEMS, FILTER_PVP, FILTER_PROFESSION, FILTER_PETBATTLE, FILTER_RARE, FILTER_SORT }
 QF.FilterNames = FILTER_NAMES
 QF.FilterOrder = FILTER_ORDER
 local FILTER_TIME_VALUES = { 1, 3, 6, 12, 24 }
@@ -58,7 +59,6 @@ local myTaskPOI
 
 local TitleButton_RarityColorTable = { [LE_WORLD_QUEST_QUALITY_COMMON] = 110, [LE_WORLD_QUEST_QUALITY_RARE] = 113, [LE_WORLD_QUEST_QUALITY_EPIC] = 120 }
 
-
 local QuestMapFrame_IsQuestWorldQuest = QuestUtils_IsQuestWorldQuest or QuestMapFrame_IsQuestWorldQuest
 
 -- ===================
@@ -78,7 +78,7 @@ local function GetMapAreaIDs()
 	end
 	local conts = { GetMapContinents() }
 	local contID = conts[contIndex*2 - 1]
-	if #mapHeirarchy == 0 then contID = mapID end
+	if #mapHeirarchy == 0 or not contID then contID = mapID end
 	if Config.showEverywhere and not tContains(MAPID_ALL, mapID) then
 		return MAPID_BROKENISLES, MAPID_BROKENISLES
 	else
@@ -311,8 +311,7 @@ local function FilterMenu_Initialize(self, level)
 		info.checked = info.value == value
 		UIDropDownMenu_AddButton(info, level)
 
-		local currentMapID, continentMapID = GetMapAreaIDs()
-		local bounties = GetQuestBountyInfoForMapID(currentMapID)
+		local bounties = GetQuestBountyInfoForMapID(MAPID_BROKENISLES)
 		for _, bounty in ipairs(bounties) do
 			if not IsQuestComplete(bounty.questID) then
 				info.text =  GetQuestLogTitle(GetQuestLogIndexByID(bounty.questID))
@@ -398,15 +397,18 @@ local function FilterButton_ShowMenu(self)
 end
 
 local function FilterButton_OnClick(self, button)
-	HideDropDownMenu(1)
 	PlaySound("igMainMenuOptionCheckBoxOn")
 	if (button == 'RightButton' and (self.index == FILTER_EMISSARY or self.index == FILTER_LOOT or self.index == FILTER_FACTION or self.index == FILTER_ZONE  or self.index == FILTER_TIME))
 			or (self.index == FILTER_SORT)
 			or (self.index == FILTER_FACTION and not Config:GetFilter(FILTER_FACTION) and Config.filterFaction == 0) then
-		if not (filterMenu and UIDROPDOWNMENU_OPEN_MENU == filterMenu and DropDownList1:IsShown() and filterMenu.index == self.index) then
+		if filterMenu and UIDROPDOWNMENU_OPEN_MENU == filterMenu and DropDownList1:IsShown() and filterMenu.index == self.index then
+			HideDropDownMenu(1)
+		else
+			HideDropDownMenu(1)
 			FilterButton_ShowMenu(self)
 		end
 	else
+		HideDropDownMenu(1)
 		if IsShiftKeyDown() then
 			if self.index == FILTER_EMISSARY then Config:Set('filterEmissary', 0, true) end
 			if self.index == FILTER_LOOT then Config:Set('filterLoot', 0, true) end
@@ -589,7 +591,7 @@ local function TaskPOI_IsFiltered(self, bounties, hasFilters, selectedFilters)
 		end
 
 		if selectedFilters[FILTER_FACTION] then
-			if (factionID == Config.filterFaction or Addon.Data:QuestHasFaction(self.questID, Config.filterFaction)) and not capped then
+			if (factionID == Config.filterFaction or Addon.Data:QuestHasFaction(self.questID, Config.filterFaction)) then
 				isFiltered = false
 			end
 		end
@@ -621,6 +623,12 @@ local function TaskPOI_IsFiltered(self, bounties, hasFilters, selectedFilters)
 
 		if selectedFilters[FILTER_TRACKED] then
 			if IsWorldQuestHardWatched(self.questID) or GetSuperTrackedQuestID() == self.questID then
+				isFiltered = false
+			end
+		end
+
+		if selectedFilters[FILTER_RARE] then
+			if rarity ~= LE_WORLD_QUEST_QUALITY_COMMON then
 				isFiltered = false
 			end
 		end
