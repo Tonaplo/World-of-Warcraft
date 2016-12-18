@@ -37,7 +37,7 @@ LUIDB = {
 							["Miriyal"] = 36716179,
 							["Farahn"] = 60067363,
 							["Greybone"] = 7138739,
-							["Amranar"] = 476911652,
+							["Amranar"] = 476845652,
 							["Granjior"] = 258323680,
 							["Kaldorath"] = 34118943,
 							["Faerand"] = 34540287,
@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1574444240,
+							["Mallusof"] = 1580736990,
 						},
 					},
 				},
@@ -65,10 +65,7 @@ LUIDB = {
 					["Guild"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
@@ -81,22 +78,25 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
+						["Font"] = "Prototype",
+					},
 					["Memory"] = {
 						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -105,11 +105,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -120,6 +115,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -147,9 +146,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -792,13 +792,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -810,13 +804,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -955,7 +955,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -967,19 +973,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1043,72 +1043,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i interrupt and kill the add", -- [1]
-							"/i and run OUT of the big circle", -- [2]
-							"/i r?", -- [3]
+							"/i r?", -- [1]
+							"/i interrupt and kill the add", -- [2]
+							"/i and run OUT of the big circle", -- [3]
 							"/i BuhBuh was getting targeted an awful lot then", -- [4]
-							"/i interrupt and kill the add", -- [5]
-							"/i r?", -- [6]
-							"/i interrupt and kill the add", -- [7]
-							"/i and run OUT of the big circle", -- [8]
-							"/i interrupt and kill the add", -- [9]
-							"/i and run OUT of the big circle", -- [10]
-							"/i r?", -- [11]
-							"/i interrupt and kill the add", -- [12]
+							"/i r?", -- [5]
+							"/i and run OUT of the big circle", -- [6]
+							"/i r?", -- [7]
+							"/i interrupt and kill the add", -- [8]
+							"/i r?", -- [9]
+							"/i interrupt and kill the add", -- [10]
+							"/i and run OUT of the big circle", -- [11]
+							"/i r?", -- [12]
 							"/i BuhBuh was getting targeted an awful lot then", -- [13]
-							"/i and run OUT of the big circle", -- [14]
-							"/i interrupt and kill the add", -- [15]
-							"/i and run OUT of the big circle", -- [16]
-							"/i r?", -- [17]
+							"/i interrupt and kill the add", -- [14]
+							"/i r?", -- [15]
+							"/i interrupt and kill the add", -- [16]
+							"/i and run OUT of the big circle", -- [17]
 							"/i BuhBuh was getting targeted an awful lot then", -- [18]
-							"/i interrupt and kill the add", -- [19]
-							"/i r?", -- [20]
-							"/i interrupt and kill the add", -- [21]
-							"/i and run OUT of the big circle", -- [22]
-							"/i r?", -- [23]
+							"/i r?", -- [19]
+							"/i and run OUT of the big circle", -- [20]
+							"/i r?", -- [21]
+							"/i interrupt and kill the add", -- [22]
+							"/i and run OUT of the big circle", -- [23]
 							"/i BuhBuh was getting targeted an awful lot then", -- [24]
-							"/i interrupt and kill the add", -- [25]
-							"/i r?", -- [26]
-							"/i interrupt and kill the add", -- [27]
-							"/i and run OUT of the big circle", -- [28]
+							"/i r?", -- [25]
+							"/i and run OUT of the big circle", -- [26]
+							"/i r?", -- [27]
+							"/i interrupt and kill the add", -- [28]
 							"/i BuhBuh was getting targeted an awful lot then", -- [29]
-							"/i r?", -- [30]
-							"/i and run OUT of the big circle", -- [31]
-							"/i r?", -- [32]
+							"/i and run OUT of the big circle", -- [30]
+							"/i interrupt and kill the add", -- [31]
+							"/i and run OUT of the big circle", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/cw Thesehánds-Tichondrius I might be back later tonight", -- [1]
-							"/g Are you ready to see", -- [2]
-							"/cw Thesehánds-Tichondrius It was a good time :)", -- [3]
-							"/cw Thesehánds-Tichondrius I think that", -- [4]
-							"/cw Thesehánds-Tichondrius later", -- [5]
-							"/p ye, was good anyways", -- [6]
+							"/cw Thesehánds-Tichondrius thanks though", -- [2]
+							"/i please chain pull :)", -- [3]
+							"/i but", -- [4]
+							"/i I'm fucked", -- [5]
+							"/g  |cff1eff00|Hitem:141288::::::::110:257:512::1:1812:110:::|h[Ettin Bone Fragment]|h|r", -- [6]
 							"/cw Thesehánds-Tichondrius shit happens :)", -- [7]
-							"/cw Thesehánds-Tichondrius :P", -- [8]
-							"/cw Thesehánds-Tichondrius thanks though", -- [9]
-							"/g 1", -- [10]
-							"/cw Thesehánds-Tichondrius I might be back later tonight", -- [11]
-							"/cw Thesehánds-Tichondrius It was a good time :)", -- [12]
-							"/cw Thesehánds-Tichondrius later", -- [13]
-							"/cw Thesehánds-Tichondrius shit happens :)", -- [14]
-							"/cw Thesehánds-Tichondrius thanks though", -- [15]
-							"/cw Thesehánds-Tichondrius I might be back later tonight", -- [16]
-							"/cw Thesehánds-Tichondrius later", -- [17]
-							"/cw Thesehánds-Tichondrius thanks though", -- [18]
-							"/cw Thesehánds-Tichondrius later", -- [19]
-							"/i please chain pull :)", -- [20]
-							"/i wtf", -- [21]
-							"/i need to ress", -- [22]
-							"/i no", -- [23]
-							"/i but", -- [24]
-							"/i I need to deal damage to heal", -- [25]
-							"/i when I'm far away", -- [26]
-							"/i or there are no mobs", -- [27]
-							"/i I'm fucked", -- [28]
-							"/i cheers", -- [29]
-							"/g <3", -- [30]
-							"/g Who wanted an Iron Relic?", -- [31]
-							"/g  |cff1eff00|Hitem:141288::::::::110:257:512::1:1812:110:::|h[Ettin Bone Fragment]|h|r", -- [32]
+							"/cw Thesehánds-Tichondrius thanks though", -- [8]
+							"/i but", -- [9]
+							"/g  |cff1eff00|Hitem:141288::::::::110:257:512::1:1812:110:::|h[Ettin Bone Fragment]|h|r", -- [10]
+							"/cw Thesehánds-Tichondrius thanks though", -- [11]
+							"/g  |cff1eff00|Hitem:141288::::::::110:257:512::1:1812:110:::|h[Ettin Bone Fragment]|h|r", -- [12]
+							"/SIGH", -- [13]
+							"/g fuck", -- [14]
+							"/g this", -- [15]
+							"/g place", -- [16]
+							"/g fuck this server", -- [17]
+							"/g fuck pvp", -- [18]
+							"/g fuck you guys for wanting to here", -- [19]
+							"/g fuck everything", -- [20]
+							"/g FUCK THIS FUCKING PALCE", -- [21]
+							"/wave", -- [22]
+							"/i Could we kill WQ mob please :)", -- [23]
+							"/i thanks", -- [24]
+							"/i cheers", -- [25]
+							"/p don run back", -- [26]
+							"/p interruopt", -- [27]
+							"/p we will need cham", -- [28]
+							"/p nope", -- [29]
+							"/p lol", -- [30]
+							"/p cheers", -- [31]
+							"/p thanks guy, bb :)", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1221,11 +1221,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -1240,14 +1240,14 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1256,12 +1256,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
+					["mirrorbar"] = 1,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1276,11 +1277,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1317,7 +1318,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1326,16 +1327,15 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1398,11 +1398,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -1415,9 +1415,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1433,11 +1433,11 @@ LUIDB = {
 		["Mallusof - Tichondrius"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Kaldorath - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Base"] = {
