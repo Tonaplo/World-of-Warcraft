@@ -530,4 +530,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Burst of Corruption"] = 897143,
 	["Gusting Bomb"] = 236154,
 }
-VUHDO_GI_SCAN_IDX = 189651
+VUHDO_GI_SCAN_IDX = 181151
