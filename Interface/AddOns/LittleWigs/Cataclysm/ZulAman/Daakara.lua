@@ -30,7 +30,6 @@ L["form"] = "Phases"
 L["form_desc"] = "Warn when Daakara changes form."
 L["lynx_message"] = "Lynx Form!"
 L["lynx_trigger"] = "Let me introduce you to me new bruddas: fang and claw!"
-
 end
 L = mod:GetLocale()
 

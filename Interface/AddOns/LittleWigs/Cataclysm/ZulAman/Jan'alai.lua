@@ -26,7 +26,6 @@ L["bomb"] = "Fire Bombs"
 L["bomb_desc"] = "Show timers for Fire Bombs."
 L["bomb_message"] = "Fire Bombs incoming!"
 L["bomb_trigger"] = "I burn ya now!"
-
 end
 L = mod:GetLocale()
 

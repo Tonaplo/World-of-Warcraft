@@ -768,10 +768,11 @@ function SQLAchievementCriteria:Update()
 	self.ProgressBarText = quantityString;
 
 	if ( criteriaType == CRITERIA_TYPE_ACHIEVEMENT and assetID ) then
-		_, criteriaString = GetAchievementInfo(assetID);
+		local _, tmp = GetAchievementInfo(assetID);
+		criteriaString = tmp;
 	end
 	
-	if (criteriaString ~= "") then
+	if (criteriaString and criteriaString ~= "") then		
 		if string.match(criteriaString, ".+/.+") then
 			local _, _, criteriaText = string.match(criteriaString, "(.*)/(%S*)%s*(.*)")
 			self.Text = criteriaText;

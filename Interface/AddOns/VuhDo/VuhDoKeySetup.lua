@@ -12,6 +12,7 @@ local VUHDO_buildTargetMacroText;
 local VUHDO_buildFocusMacroText;
 local VUHDO_buildAssistMacroText;
 local VUHDO_buildExtraActionButtonMacroText;
+local VUHDO_buildMouseLookMacroText;
 local VUHDO_replaceMacroTemplates;
 local VUHDO_isActionValid;
 local VUHDO_isSpellKnown;
@@ -44,6 +45,7 @@ function VUHDO_keySetupInitLocalOverrides()
 	VUHDO_buildFocusMacroText = _G["VUHDO_buildFocusMacroText"];
 	VUHDO_buildAssistMacroText = _G["VUHDO_buildAssistMacroText"];
 	VUHDO_buildExtraActionButtonMacroText = _G["VUHDO_buildExtraActionButtonMacroText"];
+	VUHDO_buildMouseLookMacroText = _G["VUHDO_buildMouseLookMacroText"];
 	VUHDO_replaceMacroTemplates = _G["VUHDO_replaceMacroTemplates"];
 	VUHDO_isActionValid = _G["VUHDO_isActionValid"];
 	VUHDO_isSpellKnown = _G["VUHDO_isSpellKnown"];
@@ -54,11 +56,16 @@ end
 
 local VUHDO_REZ_SPELLS_NAMES = {
 	[VUHDO_SPELL_ID.REDEMPTION] = true,
+	[VUHDO_SPELL_ID.ABSOLUTION] = true,
 	[VUHDO_SPELL_ID.ANCESTRAL_SPIRIT] = true,
+	[VUHDO_SPELL_ID.ANCESTRAL_VISION] = true,
 	[VUHDO_SPELL_ID.REVIVE] = true,
 	[VUHDO_SPELL_ID.REBIRTH] = true,
+	[VUHDO_SPELL_ID.REVITALIZE] = true,
 	[VUHDO_SPELL_ID.RESURRECTION] = true,
+	[VUHDO_SPELL_ID.MASS_RESURRECTION] = true,
 	[VUHDO_SPELL_ID.RESUSCITATE] = true,
+	[VUHDO_SPELL_ID.REAWAKEN] = true,
 };
 
 
@@ -91,6 +98,10 @@ local function _VUHDO_setupHealButtonAttributes(aModiKey, aButtonId, anAction, a
 		aButton:SetAttribute(aModiKey .. "type" .. aButtonId, "macro");
 		aButton:SetAttribute(aModiKey .. "macrotext" .. aButtonId, VUHDO_buildExtraActionButtonMacroText(tUnit));
 
+	elseif "mouselook" == tActionLow then
+		aButton:SetAttribute(aModiKey .. "type" .. aButtonId, "macro");
+		aButton:SetAttribute(aModiKey .. "macrotext" .. aButtonId, VUHDO_buildMouseLookMacroText());
+
 	elseif "menu" == tActionLow or "tell" == tActionLow then
 		aButton:SetAttribute(aModiKey .. "type" .. aButtonId, nil);
 
@@ -106,7 +117,7 @@ local function _VUHDO_setupHealButtonAttributes(aModiKey, aButtonId, anAction, a
 			elseif UnitIsUnit(tUnit, "target") then
 				sDropdown = TargetFrameDropDown;
 			--[[elseif (UnitIsUnit(tUnit, "focus")) then
-				sDropdown = FocusFrameDropDown;]] -- Problem, wenn Fokus löschen
+				sDropdown = FocusFrameDropDown;]] -- Problem, wenn Fokus lï¿½schen
 
 			elseif UnitIsUnit(tUnit, "pet") then
 				sDropdown = PetFrameDropDown;
@@ -324,6 +335,10 @@ function VUHDO_setupAllHealButtonAttributes(aButton, aUnit, anIsDisable, aForceT
 		aButton:SetAttribute("_onleave", "self:ClearBindings();");
 		aButton:SetAttribute("_onshow", "self:ClearBindings();");
 		aButton:SetAttribute("_onhide", "self:ClearBindings();");
+		aButton:SetAttribute(
+			"_onmousedown", 
+			"if not self:IsUnderMouse(false) then self:ClearBindings(); end"
+		);
 	end
 end
 local VUHDO_setupAllHealButtonAttributes = VUHDO_setupAllHealButtonAttributes;
@@ -403,7 +418,7 @@ function VUHDO_setupSmartCast(aButton)
 
 	-- Resurrect?
 	if VUHDO_CONFIG["SMARTCAST_RESURRECT"] and tInfo["dead"] then
-		local tMainRes, _ = VUHDO_getResurrectionSpells();
+		local tMainRes = VUHDO_getResurrectionSpells();
 		if tMainRes then
 			VUHDO_setupAllButtonsTo(aButton, tMainRes);
 			return true;

@@ -56,6 +56,7 @@ function SlashCmdList.DETAILS (msg, editbox)
 	
 	elseif (command == Loc ["STRING_SLASH_SHOW"] or command == Loc ["STRING_SLASH_SHOW_ALIAS1"] or command == "show") then
 	
+		_detalhes.LastShowCommand = GetTime()
 		local instance = rest:match ("^(%S*)%s*(.-)$")
 		instance = tonumber (instance)
 		if (instance) then
@@ -1102,7 +1103,7 @@ function SlashCmdList.DETAILS (msg, editbox)
 							["128289"] = true, --warrior prot
 						}
 
-						if (equip_id == 17) then
+						if (equip_id == 17) then -- and false
 							local itemId = select (2, strsplit (":", item))
 							if (artifact_offhands [itemId]) then
 								local mainHand = GetInventoryItemLink (unitid, 16)
@@ -1120,10 +1121,10 @@ function SlashCmdList.DETAILS (msg, editbox)
 						if (ItemUpgradeInfo) then
 							local ilvl = ItemUpgradeInfo:GetUpgradedItemLevel (item)
 							item_level = item_level + (ilvl or iLevel)
-							--print (iName, ilvl, iLevel)
+							print (item, ilvl, iLevel)
 						else
 							item_level = item_level + iLevel
-							--print (iName, iLevel)
+							print (iName, iLevel, "-|cFFFF0000lib not found|r-")
 						end
 						
 						--> 16 = main hand 17 = off hand

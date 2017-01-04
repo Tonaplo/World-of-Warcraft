@@ -1,6 +1,9 @@
--------------------------------------------DON'T MODIFY BELOW HERE-------------------------------------------
-
+-------------------------------------------VER 1.2.0-------------------------------------------
+--by Tony Allain
+-----------------------------------------------------------------------------------------------
 local conditioner_frame,events = CreateFrame("Frame"), {}
+conditioner_frame.temp_storage = {}
+conditioner_frame.temp_validate = 0
 local name = UnitName("player")
 local GCD_SpellID = 61304
 local priority_buttons = {}
@@ -9,13 +12,17 @@ local POSITION_LEFT = {"BOTTOMRIGHT", "BOTTOMLEFT", -1, 1}
 local POSITION_RIGHT = {"BOTTOMLEFT", "BOTTOMRIGHT", 1, 1}
 local POSITION_TOP = {"BOTTOM", "TOP", 1, 1}
 local POSITION_BOTTOM = {"TOP", "BOTTOM", 1, -1}
+--garbage_var is a popular global, also by Blizzard AddOns, we need to use a local version
+local garbage_var = 0
+local conditions_height = 485
+local menu_options_height = 175
+local max_num_tracked = 10
 local positions = {
 POSITION_LEFT, 	--1
 POSITION_TOP, 	--2
 POSITION_RIGHT, --3
 POSITION_BOTTOM --4
 }
-local menu_options_height = 100
 local tracked_spells = {}
 local target_dock_side = {1,3}
 if (not xl_current_target_dock) then
@@ -29,7 +36,6 @@ if (not xl_conditioner_options) then
 		hide_hotbar_incombat = false,
 	}
 end
-local max_num_tracked = 5
 local button_choices = {
 "Left",
 "Up",
@@ -37,7 +43,6 @@ local button_choices = {
 "Down"
 }
 local slots_to_display = {}
-local secure_buttons = {}
 local RTB_buffs = {
 199600, -- +25% energy regen
 193356, -- +1 combo point generator
@@ -47,7 +52,7 @@ local RTB_buffs = {
 193358  -- +50% attack speed
 }
 local base_GCD = 1.5
---some classes have a 1.0 base GCD, no function to find that so we need to set that up as tribal knowledge, we can set up a dynamic adjustment so we track if we ever find GCD at 1 or lower then we kind of know we start at 1
+--some classes have a 1.0 base GCD, no function to find that so we need to set that up as tribal knowledge, we can set up a dynamic adjustment so we track if we ever find GCD at 1 or lower then we kind of know we start at 1 c_button
 
 local ResourceTypes = {
 	MANA,
@@ -69,7 +74,10 @@ local ResourceTypes = {
 	ARCANE_CHARGES,
 	FURY,
 	PAIN,
-	"My Health",
+	"Focus Target's Health",		--4
+	"Target of Target's Health",	--3
+	"My Pet's Health",				--2
+	"My Health",					--1
 	"Target's Health"
 }
 local AltResourceTypes = {
@@ -92,9 +100,22 @@ local AltResourceTypes = {
 	ARCANE_CHARGES,
 	FURY,
 	PAIN,
-	"My Health",
+	"Focus Target's Health",		--4
+	"Target of Target's Health",	--3
+	"My Pet's Health",				--2
+	"My Health",					--1
 	"Target's Health"
 }
+
+function ConditionerTooltip(frame)
+	if (frame.tooltip) then
+		GameTooltip:SetOwner(frame, "ANCHOR_RIGHT", 0, 0);
+		GameTooltip:SetText(frame.tooltip, 1, 1, 1, true);
+		GameTooltip:AddLine(frame.tooltipdesc, nil, nil, nil, true);
+		GameTooltip:SetMinimumWidth(150);
+		GameTooltip:Show();
+	end
+end
 
 --SAVED VARIABLES HANDLING
 function CreateConditions()
@@ -131,7 +152,6 @@ end
 
 --it works!
 function StoreConditions()
-	--print("StoreConditions")
 	--key the spec setup
 	local k, v = CreateConditions()
 	if (k) then
@@ -150,7 +170,7 @@ function DistributeSavedVars()
 			if (myspec == k) then
 				--dump info
 				for i,j in pairs(v) do
-					--print(k .. " : priority button : " .. i)
+					--print(k .. " : priority c_button : " .. i)
 					if (j) then 
 						--key is the priority slot, value is a table
 						--copy all the conditions over
@@ -204,9 +224,9 @@ end
 --maintaining a list of these because when I click on one I want to hide others
 local condition_buttons = {}
 
-function ShouldRerollRTB()
+function ShouldRerollRTB(threshold)
 	local num_active = 0
-	local spell_name, spell_texture, spell_stacks, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, timemod
+	local spell_name, spell_texture, spell_stacks, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, timemod, garbage_var
 
 	for k,v in pairs(RTB_buffs) do
 		--find out if it is active
@@ -215,11 +235,14 @@ function ShouldRerollRTB()
 		if (is_active) then
 			num_active = num_active + 1
 			--save out some info
-			spell_name, _, spell_texture, spell_stacks, _, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, _, _, _, timemod, _, _, _ = UnitBuff("player",name)
+			spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitBuff("player",name)
 		end
 	end
 	--if there are less than 3 active we should reroll (true)
-	local shouldreroll = (num_active < 2)
+	if (not threshold) or (threshold and threshold == 0) then
+		threshold = 2
+	end
+	local shouldreroll = (num_active < threshold)
 	--print(spell_name)
 	return shouldreroll, num_active, spell_name, spell_duration, expire_time, timemod
 end
@@ -251,7 +274,7 @@ if (not xl_LocY) then
 	xl_LocY = 0.5*GetScreenHeight()*UIParent:GetScale()
 end
 if (not xl_DesiredScale) then
-	xl_DesiredScale = MaxScale
+	xl_DesiredScale = MaxScale/2
 end
 
 local backdrop = {
@@ -318,7 +341,7 @@ local MenuBackdrop = {
 local priority_visibility_updater = CreateFrame("Frame", nil, SpellBookSkillLineTab1)
 
 --need a frame that is just a bucket to hold your priority list
-local priority_list = CreateFrame("Frame", nil, UIParent)
+local priority_list = CreateFrame("Frame", "ConditionerPriorityList", UIParent)
 priority_list:SetPoint("TOPLEFT", SpellBookSkillLineTab1, "TOPRIGHT", 0, 8)
 priority_list:SetWidth(60)
 priority_list:SetHeight(75)
@@ -354,7 +377,7 @@ function MaintainVisibility()
 			for k,v in ipairs(priority_buttons) do
 				--priority buttons start at 2, tracked_spells starts at 1
 				if (k > 1) then
-					--we're on a priority button we can change
+					--we're on a priority c_button we can change
 					if ((k-1) <= num_tracked) then
 						--we need to place a spell
 						priority_buttons[k].spellID = tracked_spells[k-1]
@@ -370,7 +393,7 @@ function MaintainVisibility()
 			end
 		end
 	--else
-		--we need to init the first button?
+		--we need to init the first c_button?
 		--MakePriorityButton(priority_buttons, priority_list)
 		--MakePriorityButton(procwatch_buttons, procwatch_list)
 	--end	
@@ -397,6 +420,22 @@ flavor1:SetHeight(60)
 flavor1:SetFrameLevel(menu_options:GetFrameLevel() - 1)
 flavor1:SetBackdrop(backdrop)
 
+function NewSlider(parent, name, offsety, minText, min_Value, maxText, max_Value, sliderText, initValue)
+	local new_slider = CreateFrame("Slider", name, parent, "OptionsSliderTemplate")
+	new_slider:SetPoint("TOP", parent, "BOTTOM", 0, -offsety)
+	new_slider.textLow = _G[name .. "Low"]
+	new_slider.textHigh = _G[name .. "High"]
+	new_slider.text = _G[name .. "Text"]
+	new_slider.textLow:SetText(minText)
+	new_slider.textHigh:SetText(maxText)
+	new_slider.text:SetText(sliderText)
+	new_slider:SetMinMaxValues(min_Value,max_Value)
+	new_slider.minValue, new_slider.maxValue = new_slider:GetMinMaxValues()
+	new_slider:SetValue(initValue)
+	new_slider:SetValueStep(1)
+	return new_slider
+end
+
 priority_visibility_updater:SetScript("OnHide", function(...)
 	priority_list:Hide()
 	menu_options:Hide()
@@ -407,51 +446,51 @@ priority_visibility_updater:SetScript("OnHide", function(...)
 		v.conditions:Hide()
 		v:SetText(">")
 	end
-	StoreConditions()
 end)
-priority_visibility_updater:SetScript("OnShow", function(...)
-	priority_list:Show()
-	isEditMode=true
-	MaintainVisibility()
-	DistributeSavedVars()
-end)
+
+--Create the dropdown, and configure its appearance
+local directionDropDown = CreateFrame("Frame", "TargetPivot", menu_options, "ConditionerUIDropDownMenuTemplate")
 
 --OPTION BUTTONS
 local button_options = CreateFrame("Button", nil, priority_list, "UIPanelInfoButton")
 button_options:SetPoint("BOTTOMLEFT", SpellBookSkillLineTab1, "TOPRIGHT", 50, -6)
-button_options:SetScript("OnClick", function(self, button, down)
+button_options:SetScript("OnClick", function(self, c_button, down)
+	PlaySound("UChatScrollButton")
+	StoreConditions()
 	if (menu_options:IsShown()) then
 		menu_options:Hide()
 	else
 		menu_options:Show()
-		for k,v in pairs(condition_buttons) do
-			v.conditions:Hide()
-			v:SetText(">")
-		end
 	end
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
+
+	ConditionerTutorial_Dismiss(11)
+	ConditionerTutorial_Alert(12, directionDropDown)
 end)
 
---Create the dropdown, and configure its appearance
-local directionDropDown = CreateFrame("Frame", "TargetPivot", menu_options, "UIDropDownMenuTemplate")
-directionDropDown:SetPoint("TOP", menu_options, "TOP", 0, -15)
-UIDropDownMenu_SetWidth(directionDropDown, menu_options:GetWidth()*(7/10))
-UIDropDownMenu_SetText(directionDropDown, "Docking : " .. Target_Frame_Choices[xl_OnTargetFrame])
 
-UIDropDownMenu_Initialize(directionDropDown, function(self, level, menuList)
-	local info = UIDropDownMenu_CreateInfo()
+menu_options:SetScript("OnHide", function(...)
+	StoreConditions()
+end)
+
+directionDropDown:SetPoint("TOP", menu_options, "TOP", 0, -15)
+CONDITIONERDROPDOWNMENU_SetWidth(directionDropDown, menu_options:GetWidth()*(7/10))
+CONDITIONERDROPDOWNMENU_SetText(directionDropDown, "Docking : " .. Target_Frame_Choices[xl_OnTargetFrame])
+
+CONDITIONERDROPDOWNMENU_Initialize(directionDropDown, function(self, level, menuList)
+	local info = CONDITIONERDROPDOWNMENU_CreateInfo()
 	for i=1,#Target_Frame_Choices do
 		info.text = Target_Frame_Choices[i]
 		info.func = self.SetValue
 		info.arg1 = i
 		info.checked = (i == xl_OnTargetFrame)
-		UIDropDownMenu_AddButton(info)
+		CONDITIONERDROPDOWNMENU_AddButton(info)
 	end
 end)
 
 function directionDropDown:SetValue(newValue)
 	xl_OnTargetFrame = newValue
-	UIDropDownMenu_SetText(directionDropDown, "Docking : " .. Target_Frame_Choices[xl_OnTargetFrame])
+	CONDITIONERDROPDOWNMENU_SetText(directionDropDown, "Docking : " .. Target_Frame_Choices[xl_OnTargetFrame])
 	--update the children frames, might as well stamp location if we're undocking
 	local x,y,w,h = watched_frames[1]:GetBoundsRect()
 	xl_LocX = x + w/2
@@ -459,14 +498,25 @@ function directionDropDown:SetValue(newValue)
 	watched_frames[1].tempDrag = false
 	watched_frames[1].cycleNameplatePositions = false
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
-	CloseDropDownMenus()
+	ConditionerCloseDropDownMenus()
 	StoreConditions()
+
+	ConditionerTutorial_Dismiss(12)
+	ConditionerTutorial_Alert(13, ConditionerWatchFrame0)
 end
 
-directionDropDown:SetScript("OnShow", function(...)
-	UIDropDownMenu_SetText(directionDropDown, "Docking : " .. Target_Frame_Choices[xl_OnTargetFrame])
+menu_options:SetScript("OnShow", function(...)
+	for k,v in pairs(condition_buttons) do
+		v.conditions:Hide()
+		v:SetText(">")
+	end
+	CONDITIONERDROPDOWNMENU_SetText(directionDropDown, "Docking : " .. Target_Frame_Choices[xl_OnTargetFrame])
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 end)
+--directionDropDown:SetScript("OnShow", function(self, ...)
+	
+	
+--end)
 
 function UpdateWatchFramePositions(resize, main_position, child_position, target_frame)
 	if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
@@ -494,58 +544,57 @@ function UpdateWatchFramePositions(resize, main_position, child_position, target
 		end
 	end
 		
-		--nameplate pivoting
-		if (target_frame == 1) then
-			--default is to where the player decided
-			watched_frames[1]:SetPoint("CENTER", UIParent, "BOTTOMLEFT", xl_LocX, xl_LocY)
+	--nameplate pivoting
+	if (target_frame == 1) then
+		--default is to where the player decided
+		watched_frames[1]:SetPoint("CENTER", UIParent, "BOTTOMLEFT", xl_LocX, xl_LocY)
+		watched_frames[1].tempDrag = false
+		watched_frames[1].cycleNameplatePositions = false
+	elseif (target_frame == 2) then
+		--we want to try to attach to the target's frame
+		local namePlateTarget = C_NamePlate.GetNamePlateForUnit("target")
+		if (namePlateTarget) then
+			watched_frames[1].cycleNameplatePositions = true
+			watched_frames[1]:SetPoint(positions[target_dock_side[xl_current_target_dock]][1], namePlateTarget.UnitFrame, positions[target_dock_side[xl_current_target_dock]][2], 0, 0)
 			watched_frames[1].tempDrag = false
+			local x,y,w,h = watched_frames[1]:GetBoundsRect()
+			xl_LocX = x + w/2
+			xl_LocY = y + h/2
+		else
+			--we can't dock it, but we should enable a tempDrag
 			watched_frames[1].cycleNameplatePositions = false
-		elseif (target_frame == 2) then
-			--we want to try to attach to the target's frame
-			local namePlateTarget = C_NamePlate.GetNamePlateForUnit("target")
-			if (namePlateTarget) then
-				watched_frames[1].cycleNameplatePositions = true
-				watched_frames[1]:SetPoint(positions[target_dock_side[xl_current_target_dock]][1], namePlateTarget.UnitFrame, positions[target_dock_side[xl_current_target_dock]][2], 0, 0)
-				watched_frames[1].tempDrag = false
-				local x,y,w,h = watched_frames[1]:GetBoundsRect()
-				xl_LocX = x + w/2
-				xl_LocY = y + h/2
-			else
-				--we can't dock it, but we should enable a tempDrag
-				watched_frames[1].cycleNameplatePositions = false
-				watched_frames[1]:ClearAllPoints()
-				watched_frames[1]:SetPoint("CENTER", UIParent, "BOTTOMLEFT", xl_LocX, xl_LocY)
-				watched_frames[1].tempDrag = true
-			end
-		elseif (target_frame == 3) then
-			--we want to attach it to the player's frame
-			local namePlateTarget = C_NamePlate.GetNamePlateForUnit("player")
-			if (namePlateTarget) then
-				watched_frames[1].cycleNameplatePositions = true
-				watched_frames[1]:SetPoint(positions[target_dock_side[xl_current_target_dock]][1], namePlateTarget.UnitFrame, positions[target_dock_side[xl_current_target_dock]][2], 0, 0)
-				watched_frames[1].tempDrag = false
-				local x,y,w,h = watched_frames[1]:GetBoundsRect()
-				xl_LocX = x + w/2
-				xl_LocY = y + h/2
-			else
-				--we can't dock it, but we should enable a tempDrag
-				watched_frames[1].cycleNameplatePositions = false
-				watched_frames[1]:ClearAllPoints()
-				watched_frames[1]:SetPoint("CENTER", UIParent, "BOTTOMLEFT", xl_LocX, xl_LocY)
-				watched_frames[1].tempDrag = true
-			end
+			watched_frames[1]:ClearAllPoints()
+			watched_frames[1]:SetPoint("CENTER", UIParent, "BOTTOMLEFT", xl_LocX, xl_LocY)
+			watched_frames[1].tempDrag = true
 		end
-		
-		--update children
-		for k,v in ipairs(watched_frames) do
-			if (k > 1) then
-				local parent = watched_frames[k-1]
-				local size = resize*(math.pow(0.75,(k-1)))
-				v:ClearAllPoints()
-				v:SetPoint(positions[child_position][1], parent, positions[child_position][2], positions[child_position][3]*size*0.03125, positions[child_position][4]*size*0.03125)
-			end
+	elseif (target_frame == 3) then
+		--we want to attach it to the player's frame
+		local namePlateTarget = C_NamePlate.GetNamePlateForUnit("player")
+		if (namePlateTarget) then
+			watched_frames[1].cycleNameplatePositions = true
+			watched_frames[1]:SetPoint(positions[target_dock_side[xl_current_target_dock]][1], namePlateTarget.UnitFrame, positions[target_dock_side[xl_current_target_dock]][2], 0, 0)
+			watched_frames[1].tempDrag = false
+			local x,y,w,h = watched_frames[1]:GetBoundsRect()
+			xl_LocX = x + w/2
+			xl_LocY = y + h/2
+		else
+			--we can't dock it, but we should enable a tempDrag
+			watched_frames[1].cycleNameplatePositions = false
+			watched_frames[1]:ClearAllPoints()
+			watched_frames[1]:SetPoint("CENTER", UIParent, "BOTTOMLEFT", xl_LocX, xl_LocY)
+			watched_frames[1].tempDrag = true
 		end
+	end
 	
+	--update children
+	for k,v in ipairs(watched_frames) do
+		if (k > 1) then
+			local parent = watched_frames[k-1]
+			local size = resize*(math.pow(0.75,(k-1)))
+			v:ClearAllPoints()
+			v:SetPoint(positions[child_position][1], parent, positions[child_position][2], positions[child_position][3]*size*0.03125, positions[child_position][4]*size*0.03125)
+		end
+	end
 end
 
 function UpdatePrioritySize()
@@ -554,7 +603,7 @@ function UpdatePrioritySize()
 		local count = 1
 		for k,v in pairs(priority_buttons) do
 			if (v.spellID == 0) then
-				--nothing, it's hidden or the default button slot, accounted for by starting at 1
+				--nothing, it's hidden or the default c_button slot, accounted for by starting at 1
 			else
 				count = count + 1
 			end
@@ -565,6 +614,7 @@ function UpdatePrioritySize()
 			priority_list:SetHeight(60)
 		end
 	end
+	ConditionerTutorial_Alert(4, _G['ConditionerPriorityButton' .. FirstEmptySlot(priority_buttons) - 1])
 end
 
 function FirstEmptySlot(fromtable)
@@ -583,7 +633,7 @@ function FirstEmptySlot(fromtable)
 	--returning -1 means we reached the end of the list and they're all occupied
 end
 
--- updating data won't be the same as changing button states and dropdown options, more in depth, the button itself needs init/set/get functions
+-- updating data won't be the same as changing c_button states and dropdown options, more in depth, the c_button itself needs init/set/get functions
 function MoveConditions(source_frame, dest_frame, swap)
 	--going to just overwrite dest_frame contents with source_frame, unless it is a swap
 	local tempconditions = dest_frame.more.conditions.options:Get()
@@ -600,22 +650,62 @@ function MoveConditions(source_frame, dest_frame, swap)
 	StoreConditions()
 end
 
+function TempConditions(frame, place)
+	--I need a test to make sure the spell I place is the same as the spell I picked up, otherwise I need to clear
+	if (place) then
+		--it means I want to place stuff from my temp_storage into this new frame
+		local count = 0
+		for k,v in pairs(conditioner_frame.temp_storage) do
+			count = count + 1
+		end
+		if (count == 0) then
+			--it doesn't have anything, just init
+			frame.more.conditions.options:Init()
+			--print("Nothing to place, initializing")
+		else
+			--it has stuff, set it IF the spell on the cursor matches what we picked up last
+			frame.more.conditions.options:Set(conditioner_frame.temp_storage)
+			--we have to do the spell check AFTER because we emptied the cursor at this point
+			if (frame.spellID == conditioner_frame.temp_validate) then
+				--print("we're fine, we placed a spell that matched our last spell we picked up")
+				--done with re-arrange tutorial, this is where they would have HAD to re-arrange
+				ConditionerTutorial_Dismiss(4)
+				ConditionerTutorial_Alert(5, _G['ConditionerPriorityButton' .. FirstEmptySlot(priority_buttons) - 1].more)
+			else
+				--print("the user picked up a spell off the priority list then ditched it and picked up a new spell")
+				frame.more.conditions.options:Init()
+			end
+			--then we EMPTY the temp buckets
+			conditioner_frame.temp_storage = {}
+			conditioner_frame.temp_validate = 0
+		end
+	else
+		--it means I want to store stuff from this frame to temp_storage
+		conditioner_frame.temp_storage = frame.more.conditions.options:Get()
+		--print("Picking up conditions")
+		conditioner_frame.temp_validate = frame.spellID
+		--print("picked up " .. frame.spellID)
+	end
+end
+
 function RemoveFromPrioList(fromtable, self, pickup)
-	--making this button empty and shrink the list to make this make sense, move anything after it upwards
+	--making this c_button empty and shrink the list to make this make sense, move anything after it upwards
 	--same logic, but if we are right clicking, we want to store cursor info
 	if (pickup) then
 		PickupSpell(self.spellID)
+		--this is where I need to store conditions somewhere temporarily
+		TempConditions(self, false)
 	end
 	--we're technically just overwriting all textures after this
 	if (self.index > 1) then
 		--if (self.index < #priority_buttons) then
 		if (self.index < #fromtable) then
-			--this is not the last button, we need to shift everything then clear the last button before an empty one
+			--this is not the last c_button, we need to shift everything then clear the last c_button before an empty one
 			--how many displayed buttons are there?
 			local last_occupied_slot = FirstEmptySlot(fromtable)
 			for i=self.index,last_occupied_slot do
 				if (i < last_occupied_slot) then
-					--there exists a button after this, steal from it unless its an empty hidden one
+					--there exists a c_button after this, steal from it unless its an empty hidden one
 					local sid = fromtable[i+1].spellID
 					local tid = GetSpellTexture(sid)
 					fromtable[i].spellID = sid
@@ -631,7 +721,7 @@ function RemoveFromPrioList(fromtable, self, pickup)
 				end
 			end
 		else
-			--this IS the last button, just clear it
+			--this IS the last c_button, just clear it
 			self.spellID = 0
 			self.more.conditions.options:Init()
 			self.texture:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
@@ -650,14 +740,7 @@ function RemoveFromPrioList(fromtable, self, pickup)
 end
 
 function AddToPrioList(fromtable, self, list)
-	local _,_,_,spellID = GetCursorInfo()
-	--[[we might have an item/trinket/etc, NYI
-	local _,itemID,_ = GetCursorInfo()
-	local hasItem = CursorHasItem()
-	if (hasItem) then
-		local iteminfo = {GetItemInfo(itemID)}
-		--10 is texture
-	end]]
+	local garbage_var,garbage_var,garbage_var,spellID = GetCursorInfo()
 	local texture
 	local textureID
 	local currentID = self.spellID
@@ -669,10 +752,10 @@ function AddToPrioList(fromtable, self, list)
 	if (spellID) then
 		textureID = GetSpellTexture(spellID)
 		if (currentID == 0) then
-			--something on cursor, empty slot, PLACE SPELL
+			--something on cursor, empty slot, PLACE SPELL - place conditions from temp into new slot
 			action = 1
 		else
-			--something on cursor, occupied slot, SWAP SPELL
+			--something on cursor, occupied slot, INSERT - place conditions from temp into new slot
 			action = 2
 		end
 	else
@@ -680,14 +763,14 @@ function AddToPrioList(fromtable, self, list)
 			--nothing on cursor, empty slot, NOTHING
 			action = 3
 		else
-			--nothing on cursor, occupied slot, PICK UP SPELL
+			--nothing on cursor, occupied slot, PICK UP SPELL - store conditions into temp
 			action = 4
 		end
 	end
 	
 	if (action == 1) then
 		--PLACE
-		--I'm only adding a new button if the last button has no spellID and was hidden, otherwise I am just showing it
+		--I'm only adding a new c_button if the last c_button has no spellID and was hidden, otherwise I am just showing it
 		local freeslot = -1
 		if (#fromtable > 1) then
 			--is there an available slot somewhere?
@@ -699,29 +782,32 @@ function AddToPrioList(fromtable, self, list)
 				end
 			end
 			if (freeslot == -1) then
-				--nothing was free, we'll need to add a button
+				--nothing was free, we'll need to add a c_button
 				MakePriorityButton(fromtable, list)
 			else
-				--something actually was free, we stored out freeslot to continue, we do NOT need to make a new button
-				--we just need to SHOW this button
+				--something actually was free, we stored out freeslot to continue, we do NOT need to make a new c_button
+				--we just need to SHOW this c_button
 				fromtable[freeslot]:Show()
-				fromtable[freeslot].more.conditions.options:Init()
+				--fromtable[freeslot].more.conditions.options:Init()
 			end
 		else
 			MakePriorityButton(fromtable, list)
 		end
 		--we have to shift stuff down if this was an empty slot, aka the first one
-		--going back on the previous design, just put stuff in the last button
+		--going back on the previous design, just put stuff in the last c_button
 		if (freeslot == -1) then
 			freeslot = #fromtable
 		end
 		--just put it in the free slot, the above code is INSERTION code to shift everything down, we use that for action 2
 		fromtable[freeslot].spellID = spellID
 		fromtable[freeslot].texture:SetTexture(textureID)
-		fromtable[freeslot].more.conditions.options:Init()
+		--fromtable[freeslot].more.conditions.options:Init()
+
+		--we've added something, we should be okay to try and send temp information there
+		TempConditions(fromtable[freeslot], true)
 	elseif (action == 2) then
 		--INSERT
-		--I'm only adding a new button if the last button has no spellID and was hidden, otherwise I am just showing it
+		--I'm only adding a new c_button if the last c_button has no spellID and was hidden, otherwise I am just showing it
 		local freeslot = -1
 		if (#fromtable > 1) then
 			--is there an available slot somewhere?
@@ -733,11 +819,11 @@ function AddToPrioList(fromtable, self, list)
 				end
 			end
 			if (freeslot == -1) then
-				--nothing was free, we'll need to add a button
+				--nothing was free, we'll need to add a c_button
 				MakePriorityButton(fromtable, list)
 			else
-				--something actually was free, we stored out freeslot to continue, we do NOT need to make a new button
-				--we just need to SHOW this button
+				--something actually was free, we stored out freeslot to continue, we do NOT need to make a new c_button
+				--we just need to SHOW this c_button
 				fromtable[freeslot]:Show()
 				fromtable[freeslot].more.conditions.options:Init()
 			end
@@ -763,7 +849,8 @@ function AddToPrioList(fromtable, self, list)
 			end
 		end
 		--whatever we placed, init
-		self.more.conditions.options:Init()
+		--self.more.conditions.options:Init()
+		TempConditions(self, true)
 	elseif (action == 3) then
 		--NOTHING
 	elseif (action == 4) then
@@ -820,11 +907,13 @@ function MakeCheckBox(anchor1, parent, anchor2, contents, text1, text2)
 	newEditButton.text:SetJustifyV("CENTER")
 	newEditButton.text:SetText(contents)
 	newEditButton.text:SetTextColor(0,1,0,1)
+	newEditButton:SetScript("OnEnter", function(self, ...) ConditionerTooltip(self) end)
+	newEditButton:SetScript("OnLeave", function(self, ...) GameTooltip:Hide() end)
 	return newEditButton
 end
 
 function NewDropDownMenu(title, name, parent, choices, currentchoice, point)
-	local NewDropDown = CreateFrame("Frame", name, parent, "UIDropDownMenuTemplate")
+	local NewDropDown = CreateFrame("Frame", name, parent, "ConditionerUIDropDownMenuTemplate")
 	NewDropDown:SetPoint("TOP", point, "BOTTOM", 0, -12)
 	NewDropDown.text = NewDropDown:CreateFontString("CheckListText", "OVERLAY", "GameTooltipText")
 	NewDropDown.text:SetPoint("BOTTOM", NewDropDown, "TOP", 0, -12)
@@ -833,17 +922,19 @@ function NewDropDownMenu(title, name, parent, choices, currentchoice, point)
 	NewDropDown.text:SetJustifyH("CENTER")
 	NewDropDown.text:SetJustifyV("CENTER")
 	NewDropDown.text:SetTextColor(0,1,0,1)
-	UIDropDownMenu_SetWidth(NewDropDown, parent:GetWidth()*(7/10))
-	UIDropDownMenu_SetText(NewDropDown, choices[currentchoice])
+	CONDITIONERDROPDOWNMENU_SetWidth(NewDropDown, parent:GetWidth()*(7/10))
+	CONDITIONERDROPDOWNMENU_SetText(NewDropDown, choices[currentchoice])
 
-	UIDropDownMenu_Initialize(NewDropDown, function(self, level, menuList)
-		local info = UIDropDownMenu_CreateInfo()
+	CONDITIONERDROPDOWNMENU_Initialize(NewDropDown, function(self, level, menuList)
+		local info = CONDITIONERDROPDOWNMENU_CreateInfo()
 
 		--DROPDOWN DEBT, need to re-write this to be proper, not this sloppy by reference workaround
 		if (choices == parent:GetParent().target_choices) then
 			currentchoice = parent.options.aura_target
 		elseif (choices == parent:GetParent().stack_choices) then
 			currentchoice = parent.options.stack_conditional
+		elseif (choices == parent:GetParent().charge_choices) then
+			currentchoice = parent.options.charge_conditional
 		elseif (choices == ResourceTypes) then
 			currentchoice = parent.options.resource_type
 		elseif (choices == parent:GetParent().resource_choices) then
@@ -864,14 +955,14 @@ function NewDropDownMenu(title, name, parent, choices, currentchoice, point)
 					info.func = self.SetValue
 					info.arg1 = i
 					info.checked = (i == currentchoice)
-					UIDropDownMenu_AddButton(info)
+					CONDITIONERDROPDOWNMENU_AddButton(info)
 				end
 			else
 				info.text = choices[i]
 				info.func = self.SetValue
 				info.arg1 = i
 				info.checked = (i == currentchoice)
-				UIDropDownMenu_AddButton(info)
+				CONDITIONERDROPDOWNMENU_AddButton(info)
 			end
 		end
 	end)
@@ -881,6 +972,8 @@ function NewDropDownMenu(title, name, parent, choices, currentchoice, point)
 			parent.options.aura_target = newValue
 		elseif (choices == parent:GetParent().stack_choices) then
 			parent.options.stack_conditional = newValue
+		elseif (choices == parent:GetParent().charge_choices) then
+			parent.options.charge_conditional = newValue
 		elseif (choices == ResourceTypes) then
 			parent.options.resource_type = newValue
 		elseif (choices == parent:GetParent().resource_choices) then
@@ -890,16 +983,19 @@ function NewDropDownMenu(title, name, parent, choices, currentchoice, point)
 		elseif (choices == parent:GetParent().alt_resource_choices) then
 			parent.options.alt_resource_condition = newValue
 		end
-		UIDropDownMenu_SetText(NewDropDown, choices[newValue])
-		CloseDropDownMenus()
+		CONDITIONERDROPDOWNMENU_SetText(NewDropDown, choices[newValue])
+		ConditionerCloseDropDownMenus()
 		StoreConditions()
 	end
 
 	return NewDropDown
 end
 
+
+--make priority button
 function MakePriorityButton(fortable, listline)
-	local newbutton = CreateFrame("Button", nil, listline)
+	local tutorialID = #fortable or 0
+	local newbutton = CreateFrame("Button", "ConditionerPriorityButton" .. tutorialID, listline)
 	table.insert(fortable, newbutton)
 	--some properties to fetch
 	newbutton.spellID = 0
@@ -937,20 +1033,33 @@ function MakePriorityButton(fortable, listline)
 
 		--we need a frame containing conditions
 		newbutton.more.conditions = CreateFrame("Frame", nil, newbutton.more)
-		newbutton.more.conditions:SetSize(200,450)
+		newbutton.more.conditions:SetSize(200,conditions_height)
 		newbutton.more.conditions:SetBackdrop(MenuBackdrop)
+		newbutton.more.conditions:SetClampedToScreen(true)
 		newbutton.more.conditions:SetPoint("TOPLEFT", newbutton.more, "BOTTOMRIGHT", -8, 4)
 		
 		newbutton.more.conditions.closebutton = CreateFrame("Button", nil, newbutton.more.conditions, "UIPanelButtonTemplate")
 		newbutton.more.conditions.closebutton:SetPoint("BOTTOM", newbutton.more.conditions, "BOTTOM", 2, 9)
 		newbutton.more.conditions.closebutton:SetSize(newbutton.more.conditions:GetWidth()*(9.4/10), 24)
 		newbutton.more.conditions.closebutton:SetText("Close")
-		--I've built this temple... have to maintain the foundation
+		--I've built this temple... have to maintain the foundation, will do a code cleanup after we've established popularity
 		newbutton.more.target_choices = {
 			"Player", 
-			"Target"
+			"Target",
+			"Pet",
+			"Focus",
+			"MouseOver",
+			"TargetTarget",
 		}
 		newbutton.more.stack_choices = {
+			"==",
+			"<",
+			">",
+			"<=",
+			">=",
+			"~=",
+		}
+		newbutton.more.charge_choices = {
 			"==",
 			"<",
 			">",
@@ -974,6 +1083,7 @@ function MakePriorityButton(fortable, listline)
 			">=",
 			"~=",
 		}
+
 		newbutton.more.conditions.options = {
 			--should we delay for GCD?
 			use_condition = false,
@@ -996,36 +1106,45 @@ function MakePriorityButton(fortable, listline)
 			alt_resource_condition = 1,
 			alt_min_resource_to_cast = 0, --flat value OR percent value
 			alt_resource_by_percentage = false, --if true then min_resource_to_cast needs calculations against my max resource of that type
+
+			--extra options post v1.0.1
+			highlight_only = false,
+			num_charges = 0,
+			charge_conditional = 1,
 		}
 		--we have properties, we need UI hooks for each of these... lots of edit boxes
 		--should we use this condition at all?
-		--could just make it a standard button
+		--could just make it a standard c_button
 		newbutton.more.conditions.UseCondition = CreateFrame("Button", nil, newbutton.more.conditions, "UIPanelButtonTemplate")
 		newbutton.more.conditions.UseCondition:SetPoint("BOTTOM", newbutton.more.conditions, "TOP", 2, -3)
 		newbutton.more.conditions.UseCondition:SetWidth(newbutton.more.conditions:GetWidth()*(9.5/10))
-		newbutton.more.conditions.UseCondition:SetText("Disabled")
+		newbutton.more.conditions.UseCondition:SetText("Currently: Disabled")
 		newbutton.more.conditions.UseCondition:SetScript("OnClick", function(self, ...)
+			PlaySound("UChatScrollButton")
 			newbutton.more.conditions.options.use_condition = not newbutton.more.conditions.options.use_condition
 			StoreConditions()
 			if (newbutton.more.conditions.options.use_condition) then
-				self:SetText("Enabled")
+				self:SetText("Currently: Enabled")
 				newbutton.more.conditions:SetTextColors(true)
-				-- change the text color on the > button
+				-- change the text color on the > c_button
 
 			else
-				self:SetText("Disabled")
+				self:SetText("Currently: Disabled")
 				newbutton.more.conditions:SetTextColors(false)
-				-- change the text color on the > button
-
+				-- change the text color on the > c_button
 			end
+			--tutorial
+			ConditionerTutorial_Dismiss(6)
+			ConditionerTutorial_Alert(7, newbutton.more.conditions.closebutton, self)
+			--tutorial
 		end)
 
 		--hotkey assignment to display?
 		newbutton.more.conditions.HotKey = MakeEditBox(nil, "TOP", newbutton.more.conditions, "TOP", "Displayed Keybinding", newbutton.more.conditions, newbutton.more.conditions:GetWidth() - 32, 32)
 		newbutton.more.conditions.HotKey.text:SetTextColor(0,1,1,1)
 		newbutton.more.conditions.HotKey:SetScript("OnKeyUp", function(self, ...) self:GetParent().options.key_binding = self:GetText() StoreConditions() end)
-		newbutton.more.conditions.HotKey:SetScript("OnMouseDown", function(self, button)
-			if (button == "RightButton") then
+		newbutton.more.conditions.HotKey:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
 				self:SetText("")
 				self:GetParent().options.key_binding = self:GetText()
 				StoreConditions()
@@ -1037,8 +1156,8 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.AuraEdit:ClearAllPoints()
 		newbutton.more.conditions.AuraEdit:SetPoint("TOP", newbutton.more.conditions.HotKey, "BOTTOM", 0, -14)
 		newbutton.more.conditions.AuraEdit:SetScript("OnKeyUp", function(self, ...) self:GetParent().options.active_aura = self:GetText() StoreConditions() end)
-		newbutton.more.conditions.AuraEdit:SetScript("OnMouseDown", function(self, button)
-			if (button == "RightButton") then
+		newbutton.more.conditions.AuraEdit:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
 				self:SetText("")
 				self:GetParent().options.active_aura = self:GetText()
 				StoreConditions()
@@ -1048,23 +1167,27 @@ function MakePriorityButton(fortable, listline)
 
 		newbutton.more.conditions.MaintainAura = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Maintain\nAura")
 		newbutton.more.conditions.MaintainAura:ClearAllPoints()
-		newbutton.more.conditions.MaintainAura:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", -newbutton.more.conditions:GetWidth()/5, -65)
-		newbutton.more.conditions.MaintainAura:SetScript("OnClick", function(self, ...) newbutton.more.conditions.options.maintain_aura = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.MaintainAura:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", -newbutton.more.conditions:GetWidth()/3.3, -65)
+		newbutton.more.conditions.MaintainAura:SetScript("OnClick", function(self, ...) PlaySound("UChatScrollButton") newbutton.more.conditions.options.maintain_aura = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.MaintainAura.tooltip = "Maintain Aura"
+		newbutton.more.conditions.MaintainAura.tooltipdesc = "Example Usage: If you have Shadow Word: Pain as the Active Aura, the desired spell will show up when Shadow Word: Pain is NOT active or it is about to fall off your target."
 		--who is the target? dropdown (name, parent, choices, currentchoice, point)
 
 		newbutton.more.conditions.Interrupt = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Is\nInterrupt")
 		newbutton.more.conditions.Interrupt:ClearAllPoints()
-		newbutton.more.conditions.Interrupt:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", newbutton.more.conditions:GetWidth()/5, -65)
-		newbutton.more.conditions.Interrupt:SetScript("OnClick", function(self, ...) newbutton.more.conditions.options.is_interrupt = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.Interrupt:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", 0, -65)
+		newbutton.more.conditions.Interrupt:SetScript("OnClick", function(self, ...) PlaySound("UChatScrollButton") newbutton.more.conditions.options.is_interrupt = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.Interrupt.tooltip = "Is Interrupt"
+		newbutton.more.conditions.Interrupt.tooltipdesc = "If your spell will be off cooldown before your Target finishes casting an interruptable spell, your spell will be displayed."
 		
 		newbutton.more.conditions.DropDown = NewDropDownMenu("Aura Target", "AuraOwner" .. newbutton.index, newbutton.more.conditions, newbutton.more.target_choices, newbutton.more.conditions.options.aura_target, newbutton.more.conditions.MaintainAura)
 		newbutton.more.conditions.DropDown:ClearAllPoints()
 		newbutton.more.conditions.DropDown:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", 0, -10)
-		UIDropDownMenu_SetWidth(newbutton.more.conditions.DropDown, newbutton.more.conditions:GetWidth()*(1/2.5))
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.DropDown, newbutton.more.conditions:GetWidth()*(1/2.5))
 
 		--stacks? edit box
 		newbutton.more.conditions.StackDropDown = NewDropDownMenu("Stack Condition", "StackCondition" .. newbutton.index, newbutton.more.conditions, newbutton.more.stack_choices, newbutton.more.conditions.options.stack_conditional, newbutton.more.conditions.DropDown)
-		UIDropDownMenu_SetWidth(newbutton.more.conditions.StackDropDown, newbutton.more.conditions:GetWidth()*(1/5))
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.StackDropDown, newbutton.more.conditions:GetWidth()*(1/5))
 		newbutton.more.conditions.StackDropDown:ClearAllPoints()
 		newbutton.more.conditions.StackDropDown:SetPoint("TOP", newbutton.more.conditions.DropDown, "BOTTOM", -16, -62)
 		newbutton.more.conditions.StackDropDown.text:ClearAllPoints()
@@ -1083,11 +1206,11 @@ function MakePriorityButton(fortable, listline)
 			self:GetParent().options.num_stacks = self:GetNumber()
 			StoreConditions()
 		end)
-		newbutton.more.conditions.NumStacks:SetScript("OnMouseDown", function(self, button)
-			if (button == "RightButton") then
+		newbutton.more.conditions.NumStacks:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
 				self:SetNumber("")
 				self:GetParent().options.num_stacks = self:GetNumber()
-			elseif (button == "LeftButton") and (self:GetNumber() == 0) then
+			elseif (c_button == "LeftButton") and (self:GetNumber() == 0) then
 				self:SetNumber("")
 				self:GetParent().options.num_stacks = self:GetNumber()
 			end
@@ -1098,12 +1221,12 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.ResourceDropDown = NewDropDownMenu("Resource Type", "ResourceTypeChoice" .. newbutton.index, newbutton.more.conditions, ResourceTypes, newbutton.more.conditions.options.resource_type, newbutton.more.conditions.StackDropDown)
 		newbutton.more.conditions.ResourceDropDown:ClearAllPoints()
 		newbutton.more.conditions.ResourceDropDown:SetPoint("TOP", newbutton.more.conditions.StackDropDown, "BOTTOM", 16, -12)
-		UIDropDownMenu_SetWidth(newbutton.more.conditions.ResourceDropDown, newbutton.more.conditions:GetWidth()*(3/5))
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.ResourceDropDown, newbutton.more.conditions:GetWidth()*(3/5))
 		--min amount to cast, edit box, also checkbox if it is percent or not
 
 		--basically copying stack count setup but also with a checkbox for percent or flat
 		newbutton.more.conditions.ResourceCondition = NewDropDownMenu("Resource Condition", "ResourceCondition" .. newbutton.index, newbutton.more.conditions, newbutton.more.resource_choices, newbutton.more.conditions.options.resource_condition, newbutton.more.conditions.DropDown)
-		UIDropDownMenu_SetWidth(newbutton.more.conditions.ResourceCondition, newbutton.more.conditions:GetWidth()*(1/5))
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.ResourceCondition, newbutton.more.conditions:GetWidth()*(1/5))
 		newbutton.more.conditions.ResourceCondition:ClearAllPoints()
 		newbutton.more.conditions.ResourceCondition:SetPoint("TOP", newbutton.more.conditions.ResourceDropDown, "BOTTOM", -40, -12)
 		newbutton.more.conditions.ResourceCondition.text:ClearAllPoints()
@@ -1117,11 +1240,11 @@ function MakePriorityButton(fortable, listline)
 			self:GetParent().options.min_resource_to_cast = self:GetNumber()
 			StoreConditions()
 		end)
-		newbutton.more.conditions.ResourceAmount:SetScript("OnMouseDown", function(self, button)
-			if (button == "RightButton") then
+		newbutton.more.conditions.ResourceAmount:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
 				self:SetNumber("")
 				self:GetParent().options.min_resource_to_cast = self:GetNumber()
-			elseif (button == "LeftButton") and (self:GetNumber() == 0) then
+			elseif (c_button == "LeftButton") and (self:GetNumber() == 0) then
 				self:SetNumber("")
 				self:GetParent().options.min_resource_to_cast = self:GetNumber()
 			end
@@ -1130,6 +1253,7 @@ function MakePriorityButton(fortable, listline)
 		--percent?
 		newbutton.more.conditions.ResourcePercent = MakeCheckBox("LEFT", newbutton.more.conditions.ResourceAmount, "RIGHT", "%")
 		newbutton.more.conditions.ResourcePercent:SetScript("OnClick", function(self, ...)
+			PlaySound("UChatScrollButton")
 			newbutton.more.conditions.options.resource_by_percentage = self:GetChecked()
 			if (newbutton.more.conditions.options.resource_by_percentage) then
 				if (newbutton.more.conditions.ResourceAmount:GetNumber() > 100) then
@@ -1149,12 +1273,12 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.AltResourceDropDown = NewDropDownMenu("Alternate Resource Type", "AltResourceTypeChoice" .. newbutton.index, newbutton.more.conditions, AltResourceTypes, newbutton.more.conditions.options.alt_resource_type, newbutton.more.conditions.StackDropDown)
 		newbutton.more.conditions.AltResourceDropDown:ClearAllPoints()
 		newbutton.more.conditions.AltResourceDropDown:SetPoint("TOP", newbutton.more.conditions.ResourceAmount, "BOTTOM", -16, -12)
-		UIDropDownMenu_SetWidth(newbutton.more.conditions.AltResourceDropDown, newbutton.more.conditions:GetWidth()*(3/5))
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.AltResourceDropDown, newbutton.more.conditions:GetWidth()*(3/5))
 		--min amount to cast, edit box, also checkbox if it is percent or not
 
 		--basically copying stack count setup but also with a checkbox for percent or flat
 		newbutton.more.conditions.AltResourceCondition = NewDropDownMenu("Resource Condition", "AltResourceCondition" .. newbutton.index, newbutton.more.conditions, newbutton.more.alt_resource_choices, newbutton.more.conditions.options.alt_resource_condition, newbutton.more.conditions.DropDown)
-		UIDropDownMenu_SetWidth(newbutton.more.conditions.AltResourceCondition, newbutton.more.conditions:GetWidth()*(1/5))
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.AltResourceCondition, newbutton.more.conditions:GetWidth()*(1/5))
 		newbutton.more.conditions.AltResourceCondition:ClearAllPoints()
 		newbutton.more.conditions.AltResourceCondition:SetPoint("TOP", newbutton.more.conditions.AltResourceDropDown, "BOTTOM", -40, -12)
 		newbutton.more.conditions.AltResourceCondition.text:ClearAllPoints()
@@ -1168,11 +1292,11 @@ function MakePriorityButton(fortable, listline)
 			self:GetParent().options.alt_min_resource_to_cast = self:GetNumber()
 			StoreConditions()
 		end)
-		newbutton.more.conditions.AltResourceAmount:SetScript("OnMouseDown", function(self, button)
-			if (button == "RightButton") then
+		newbutton.more.conditions.AltResourceAmount:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
 				self:SetNumber("")
 				self:GetParent().options.alt_min_resource_to_cast = self:GetNumber()
-			elseif (button == "LeftButton") and (self:GetNumber() == 0) then
+			elseif (c_button == "LeftButton") and (self:GetNumber() == 0) then
 				self:SetNumber("")
 				self:GetParent().options.alt_min_resource_to_cast = self:GetNumber()
 			end
@@ -1181,6 +1305,7 @@ function MakePriorityButton(fortable, listline)
 		--percent?
 		newbutton.more.conditions.AltResourcePercent = MakeCheckBox("LEFT", newbutton.more.conditions.AltResourceAmount, "RIGHT", "%")
 		newbutton.more.conditions.AltResourcePercent:SetScript("OnClick", function(self, ...)
+			PlaySound("UChatScrollButton")
 			newbutton.more.conditions.options.alt_resource_by_percentage = self:GetChecked()
 			if (newbutton.more.conditions.options.alt_resource_by_percentage) then
 				if (newbutton.more.conditions.AltResourceAmount:GetNumber() > 100) then
@@ -1195,11 +1320,58 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.AltResourcePercent.text:ClearAllPoints()
 		newbutton.more.conditions.AltResourcePercent.text:SetPoint("BOTTOM", newbutton.more.conditions.AltResourcePercent, "TOP", 8, -4)
 		--END ALTERNATE RESOURCE
+		
+		--more conditions
+		--highlighted only? checkbox
+		newbutton.more.conditions.HighlightOnly = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Highlight\nOnly")
+		newbutton.more.conditions.HighlightOnly:ClearAllPoints()
+		newbutton.more.conditions.HighlightOnly:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", newbutton.more.conditions:GetWidth()/3.3, -65)
+		newbutton.more.conditions.HighlightOnly:SetScript("OnClick", function(self, ...) PlaySound("UChatScrollButton") newbutton.more.conditions.options.highlight_only = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.HighlightOnly.tooltip = "Highlight Only"
+		newbutton.more.conditions.HighlightOnly.tooltipdesc = "Your spell will be displayed if it has that glowing golden outline surrounding it, like when Pyroblast has a highlight from Hot Streak!"
+
+		--number of charges? dropdown like stack condition
+		newbutton.more.conditions.ChargeDropDown = NewDropDownMenu("Number of Charges", "ChargeCondition" .. newbutton.index, newbutton.more.conditions, newbutton.more.charge_choices, newbutton.more.conditions.options.charge_conditional, newbutton.more.conditions.AltResourceAmount)
+		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.ChargeDropDown, newbutton.more.conditions:GetWidth()*(1/5))
+		newbutton.more.conditions.ChargeDropDown:ClearAllPoints()
+		newbutton.more.conditions.ChargeDropDown:SetPoint("TOP", newbutton.more.conditions.AltResourceAmount, "BOTTOM", -32, -10)
+		newbutton.more.conditions.ChargeDropDown.text:ClearAllPoints()
+		newbutton.more.conditions.ChargeDropDown.text:SetPoint("BOTTOM", newbutton.more.conditions.ChargeDropDown, "TOP", 16, -12)
+
+		newbutton.more.conditions.NumCharges = MakeEditBox(nil, "LEFT", newbutton.more.conditions.ChargeDropDown, "RIGHT", "", newbutton.more.conditions, 32, 32)
+		newbutton.more.conditions.NumCharges:SetNumeric(true)
+		newbutton.more.conditions.NumCharges:ClearAllPoints()
+		newbutton.more.conditions.NumCharges:SetPoint("LEFT", newbutton.more.conditions.ChargeDropDown, "RIGHT", -20, 0)
+		newbutton.more.conditions.NumCharges:SetScript("OnKeyUp", function(self, text)
+			if (self:GetNumber() > 99) then
+				self:SetNumber(99)
+			elseif (self:GetNumber() <= 0) then
+				self:SetNumber(0)
+			end
+			self:GetParent().options.num_charges = self:GetNumber()
+			StoreConditions()
+		end)
+		newbutton.more.conditions.NumCharges:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
+				self:SetNumber("")
+				self:GetParent().options.num_charges = self:GetNumber()
+			elseif (c_button == "LeftButton") and (self:GetNumber() == 0) then
+				self:SetNumber("")
+				self:GetParent().options.num_charges = self:GetNumber()
+			end
+			StoreConditions()
+		end)
+		--number of charges? dropdown like stack condition
 
 		--does it consume a variable amount? do you want to cast it at full strength? this is kind of implied with min to cast right?
-		newbutton.more:SetScript("OnClick", function(...)
+		newbutton.more:SetScript("OnClick", function(self, ...)
+			--tutorial
+			ConditionerTutorial_Dismiss(5)
+			ConditionerTutorial_Alert(6, self.conditions.UseCondition, self.conditions.UseCondition)
+			ConditionerTutorial_Alert(7, newbutton.more.conditions.closebutton, newbutton.more.conditions.UseCondition)
+			--tutorial
+			PlaySound("UChatScrollButton")
 			DistributeSavedVars()
-			--close the options window
 			menu_options:Hide()
 			--toggle visibility of conditions
 			if (newbutton.more.conditions:IsShown()) then
@@ -1224,27 +1396,36 @@ function MakePriorityButton(fortable, listline)
 					v.conditions.AltResourceAmount:SetNumber(v.conditions.options.alt_min_resource_to_cast)
 					v.conditions.NumStacks:SetNumber(v.conditions.options.num_stacks)
 					v.conditions.HotKey:SetText(v.conditions.options.key_binding)
+					v.conditions.HighlightOnly:SetChecked(v.conditions.options.highlight_only)
+					v.conditions.NumCharges:SetNumber(v.conditions.options.num_charges)
 					if (newbutton.more.conditions.options.use_condition) then
-						v.conditions.UseCondition:SetText("Enabled")
+						v.conditions.UseCondition:SetText("Currently: Enabled")
 						v.conditions:SetTextColors(true)
 					else
-						v.conditions.UseCondition:SetText("Disabled")
+						v.conditions.UseCondition:SetText("Currently: Disabled")
 						v.conditions:SetTextColors(false)
 					end
 					--DROPDOWN DEBT
-					UIDropDownMenu_SetText(v.conditions.DropDown, v.target_choices[v.conditions.options.aura_target])
-					UIDropDownMenu_SetText(v.conditions.StackDropDown, v.stack_choices[v.conditions.options.stack_conditional])
-					UIDropDownMenu_SetText(v.conditions.ResourceDropDown, ResourceTypes[v.conditions.options.resource_type])
-					UIDropDownMenu_SetText(v.conditions.ResourceCondition, v.resource_choices[v.conditions.options.resource_condition])
-					UIDropDownMenu_SetText(v.conditions.AltResourceDropDown, AltResourceTypes[v.conditions.options.alt_resource_type])
-					UIDropDownMenu_SetText(v.conditions.AltResourceCondition, v.alt_resource_choices[v.conditions.options.alt_resource_condition])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.DropDown, v.target_choices[v.conditions.options.aura_target])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.StackDropDown, v.stack_choices[v.conditions.options.stack_conditional])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.ResourceDropDown, ResourceTypes[v.conditions.options.resource_type])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.ResourceCondition, v.resource_choices[v.conditions.options.resource_condition])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.AltResourceDropDown, AltResourceTypes[v.conditions.options.alt_resource_type])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.AltResourceCondition, v.alt_resource_choices[v.conditions.options.alt_resource_condition])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.ChargeDropDown, v.charge_choices[v.conditions.options.charge_conditional])
 				end
 			end
 			StoreConditions()
 		end)
 
-		newbutton.more.conditions.closebutton:SetScript("OnClick", function(...)
+		newbutton.more.conditions.closebutton:SetScript("OnClick", function(self, ...)
+			PlaySound("UChatScrollButton")
+			--tutorial
+			ConditionerTutorial_Dismiss(7)
+			ConditionerTutorial_Alert(8, ConditionerWatchFrame0)
+			--tutorial
 			DistributeSavedVars()
+			menu_options:Hide()
 			--toggle visibility of conditions
 			if (newbutton.more.conditions:IsShown()) then
 				newbutton.more.conditions:Hide()
@@ -1268,20 +1449,23 @@ function MakePriorityButton(fortable, listline)
 					v.conditions.AltResourceAmount:SetNumber(v.conditions.options.alt_min_resource_to_cast)
 					v.conditions.NumStacks:SetNumber(v.conditions.options.num_stacks)
 					v.conditions.HotKey:SetText(v.conditions.options.key_binding)
+					v.conditions.HighlightOnly:SetChecked(v.conditions.options.highlight_only)
+					v.conditions.NumCharges:SetNumber(v.conditions.options.num_charges)
 					if (newbutton.more.conditions.options.use_condition) then
-						v.conditions.UseCondition:SetText("Enabled")
+						v.conditions.UseCondition:SetText("Currently: Enabled")
 						v.conditions:SetTextColors(true)
 					else
-						v.conditions.UseCondition:SetText("Disabled")
+						v.conditions.UseCondition:SetText("Currently: Disabled")
 						v.conditions:SetTextColors(false)
 					end
 					--DROPDOWN DEBT
-					UIDropDownMenu_SetText(v.conditions.DropDown, v.target_choices[v.conditions.options.aura_target])
-					UIDropDownMenu_SetText(v.conditions.StackDropDown, v.stack_choices[v.conditions.options.stack_conditional])
-					UIDropDownMenu_SetText(v.conditions.ResourceDropDown, ResourceTypes[v.conditions.options.resource_type])
-					UIDropDownMenu_SetText(v.conditions.ResourceCondition, v.resource_choices[v.conditions.options.resource_condition])
-					UIDropDownMenu_SetText(v.conditions.AltResourceDropDown, AltResourceTypes[v.conditions.options.alt_resource_type])
-					UIDropDownMenu_SetText(v.conditions.AltResourceCondition, v.alt_resource_choices[v.conditions.options.alt_resource_condition])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.DropDown, v.target_choices[v.conditions.options.aura_target])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.StackDropDown, v.stack_choices[v.conditions.options.stack_conditional])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.ResourceDropDown, ResourceTypes[v.conditions.options.resource_type])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.ResourceCondition, v.resource_choices[v.conditions.options.resource_condition])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.AltResourceDropDown, AltResourceTypes[v.conditions.options.alt_resource_type])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.AltResourceCondition, v.alt_resource_choices[v.conditions.options.alt_resource_condition])
+					CONDITIONERDROPDOWNMENU_SetText(v.conditions.ChargeDropDown, v.charge_choices[v.conditions.options.charge_conditional])
 				end
 			end
 			StoreConditions()
@@ -1300,7 +1484,8 @@ function MakePriorityButton(fortable, listline)
 				self.AuraEdit.text:SetTextColor(0,1,0,1)
 				self.MaintainAura.text:SetTextColor(0,1,0,1)
 				self.Interrupt.text:SetTextColor(0,1,0,1)
-				--self.HotKey.text:SetTextColor(0,1,0,1)
+				self.HighlightOnly.text:SetTextColor(0,1,0,1)
+				self.ChargeDropDown.text:SetTextColor(0,1,0,1)
 			else
 				self.DropDown.text:SetTextColor(1,0,0,1)
 				self.StackDropDown.text:SetTextColor(1,0,0,1)
@@ -1313,7 +1498,8 @@ function MakePriorityButton(fortable, listline)
 				self.AuraEdit.text:SetTextColor(1,0,0,1)
 				self.MaintainAura.text:SetTextColor(1,0,0,1)
 				self.Interrupt.text:SetTextColor(1,0,0,1)
-				--self.HotKey.text:SetTextColor(1,0,0,1)
+				self.HighlightOnly.text:SetTextColor(1,0,0,1)
+				self.ChargeDropDown.text:SetTextColor(1,0,0,1)
 			end
 		end
 
@@ -1335,6 +1521,10 @@ function MakePriorityButton(fortable, listline)
 			self.alt_resource_condition = 1
 			self.alt_min_resource_to_cast = 0 --flat value OR percent value
 			self.alt_resource_by_percentage = false 
+			--extra options post v1.0.1
+			self.highlight_only = false
+			self.num_charges = 0
+			self.charge_conditional = 1
 			StoreConditions()
 		end
 
@@ -1404,9 +1594,6 @@ function MakePriorityButton(fortable, listline)
 				return false
 			end
 			if (self.more.conditions.options.use_condition) then
-				--here's an interesting one, highlight
-				--local should_highlight = 
-				--local is_highlighted = IsSpellOverlayed(my_id)
 				--we're basically running a check on if the condition is met for whatever spell is in this priority slot, we'll use this status on our watch frames to determine if it is even on the priority list
 				--assuming if I am the target it is because of a buff, if my target is the target it is a debuff
 				local my_target = self.more.target_choices[self.more.conditions.options.aura_target]
@@ -1417,18 +1604,53 @@ function MakePriorityButton(fortable, listline)
 				GCD = math.max(GCD, 0.75)
 
 				local should_interrupt = self.more.conditions.options.is_interrupt
-				local cast_spell, _, _, _, icstart, endcast, _, _, uninterruptable = UnitCastingInfo("target")
-				local channel_spell, _, _, _, ichstart, endchannel, _, notInterruptible = UnitChannelInfo("target")
+				local cast_spell, garbage_var, garbage_var, garbage_var, icstart, endcast, garbage_var, garbage_var, uninterruptable = UnitCastingInfo("target")
+				local channel_spell, garbage_var, garbage_var, garbage_var, ichstart, endchannel, garbage_var, notInterruptible = UnitChannelInfo("target")
 				local endtime = endcast or endchannel
 				local starttime = icstart or ichstart
 				local condition_interrupt = false
 				local condition_aura_active = false
 
-				local spell_name, _, spell_texture, spell_stacks, _, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, _, _, _, timemod, _, _, _ = UnitBuff(my_target,watched_aura_name)
+				local spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitBuff(my_target,watched_aura_name)
 
 				if (not spell_name) then
 					--try again
-					spell_name, _, spell_texture, spell_stacks, _, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, _, _, _, timemod, _, _, _ = UnitDebuff(my_target,watched_aura_name)
+					spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitDebuff(my_target,watched_aura_name)
+				end
+
+				--spell charges
+				local spell_charges, max_charges
+				local charge_condition = true
+				local desired_charges = self.more.conditions.options.num_charges
+				if (desired_charges > 0) then
+					--we care about charges, so this might end up false
+					spell_charges, max_charges, garbage_var, garbage_var = GetSpellCharges(my_id)
+					if (not spell_charges) then
+						spell_charges = 0
+					end
+					local condition_charge_operator = self.more.conditions.options.charge_conditional
+					if (condition_charge_operator == 1) then
+						charge_condition = (spell_charges == desired_charges)
+					elseif (condition_charge_operator == 2) then
+						charge_condition = (spell_charges < desired_charges)
+					elseif (condition_charge_operator == 3) then
+						charge_condition = (spell_charges > desired_charges)
+					elseif (condition_charge_operator == 4) then
+						charge_condition = (spell_charges <= desired_charges)
+					elseif (condition_charge_operator == 5) then
+						charge_condition = (spell_charges >= desired_charges)
+					elseif (condition_charge_operator == 6) then
+						charge_condition = (spell_charges ~= desired_charges)
+					end
+				end
+
+				--highlight condition
+				local wants_highlight = self.more.conditions.options.highlight_only
+				local highlight_condition = true
+
+				if (wants_highlight) then
+					--check if it is a success
+					highlight_condition = IsSpellOverlayed(my_id)
 				end
 
 				if (not should_interrupt) then
@@ -1438,9 +1660,9 @@ function MakePriorityButton(fortable, listline)
 						if (not uninterruptable) and (not notInterruptible) then
 							--will we even make it?
 							local interrupt_name = GetSpellInfo(self.spellID)
-							local interrupt_start, interrupt_duration, _ = GetSpellCooldown(interrupt_name)
+							local interrupt_start, interrupt_duration, garbage_var = GetSpellCooldown(interrupt_name)
 							if (not interrupt_start) then
-								interrupt_start, interrupt_duration, _ = GetSpellCooldown(self.spellID)
+								interrupt_start, interrupt_duration, garbage_var = GetSpellCooldown(self.spellID)
 							end
 							local interrupt_endtime = (interrupt_start + interrupt_duration)*1000
 							--will my interrupt be ready before this dude finishes casting
@@ -1494,6 +1716,18 @@ function MakePriorityButton(fortable, listline)
 					--it is my health
 					current_power = UnitHealth("player")
 					max_power = UnitHealthMax("player")
+				elseif (my_resource_type == (#ResourceTypes-2)) then
+					--it is my pet's health
+					current_power = UnitHealth("pet")
+					max_power = UnitHealthMax("pet")
+				elseif (my_resource_type == (#ResourceTypes-3)) then
+					--it is my targettarget's health
+					current_power = UnitHealth("targettarget")
+					max_power = UnitHealthMax("targettarget")
+				elseif (my_resource_type == (#ResourceTypes-4)) then
+					--it is my focus target's health
+					current_power = UnitHealth("focus")
+					max_power = UnitHealthMax("focus")
 				else
 					current_power = UnitPower("player", my_resource_type-1, false)
 					max_power = UnitPowerMax("player", my_resource_type-1)
@@ -1547,6 +1781,18 @@ function MakePriorityButton(fortable, listline)
 					--it is my health
 					alt_current_power = UnitHealth("player")
 					alt_max_power = UnitHealthMax("player")
+				elseif (alt_my_resource_type == (#AltResourceTypes-2)) then
+					--it is my health
+					alt_current_power = UnitHealth("pet")
+					alt_max_power = UnitHealthMax("pet")
+				elseif (alt_my_resource_type == (#AltResourceTypes-3)) then
+					--it is my health
+					alt_current_power = UnitHealth("targettarget")
+					alt_max_power = UnitHealthMax("targettarget")
+				elseif (alt_my_resource_type == (#AltResourceTypes-4)) then
+					--it is my health
+					alt_current_power = UnitHealth("focus")
+					alt_max_power = UnitHealthMax("focus")
 				else
 					alt_current_power = UnitPower("player", alt_my_resource_type-1, false)
 					alt_max_power = UnitPowerMax("player", alt_my_resource_type-1)
@@ -1600,8 +1846,14 @@ function MakePriorityButton(fortable, listline)
 
 				--ROLL THE BONES
 				local RTB_Reroll, RTB_Count = false, 0
-				if (watched_aura_name:lower() == "roll the bones") then
-					RTB_Reroll, RTB_Count, spell_name, spell_duration, expire_time, timemod = ShouldRerollRTB()
+				--just instruct Rogues to separate the threshold by a comma
+				local rtb_string, rtb_threshold = strsplit(",", tostring(watched_aura_name), 0)
+				if (rtb_threshold) then
+					rtb_threshold = tonumber(rtb_threshold)
+				end
+				if (rtb_string:lower() == "roll the bones") then
+				--if (watched_aura_name:lower() == "roll the bones") then
+					RTB_Reroll, RTB_Count, spell_name, spell_duration, expire_time, timemod = ShouldRerollRTB(rtb_threshold)
 				end
 
 				if ((spell_name) or (watched_aura_name == "")) then
@@ -1671,7 +1923,7 @@ function MakePriorityButton(fortable, listline)
 						if (expire_time) then
 							time_left = (expire_time - GetTime())/timemod
 							--print(time_left)
-							--this priority button lines up with a tracked spell, self.Duration is NOT correct, just the first watched frame? I need to know where my frame is
+							--this priority c_button lines up with a tracked spell, self.Duration is NOT correct, just the first watched frame? I need to know where my frame is
 							--scale the text size for the frame
 							--watched_frames[mySlotID].Duration:SetSize(watched_frames[mySlotID]:GetWidth(), watched_frames[mySlotID]:GetHeight()*percent_remaining)
 							--if we want to maintain, we don't want to show this
@@ -1713,7 +1965,7 @@ function MakePriorityButton(fortable, listline)
 				end
 
 				--FINAL COMPARISON
-				if (condition_aura_active) and (condition_stack_bool) and (condition_resources) and (alt_condition_resources) and (condition_interrupt) then
+				if (condition_aura_active) and (condition_stack_bool) and (condition_resources) and (alt_condition_resources) and (condition_interrupt) and (charge_condition) and (highlight_condition) then
 					--within here we need to factor stacks and if it is a maintain
 					state = true
 				else
@@ -1735,15 +1987,28 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions:Hide()
 	end
 	newbutton:RegisterForClicks("LeftButtonDown","RightButtonDown")
-	newbutton:SetScript("OnClick", function(self, button, down)
-		if (button == "LeftButton") then
+	newbutton:SetScript("OnClick", function(self, c_button, down)
+		--PlaySound("UChatScrollButton")
+		if (c_button == "LeftButton") then
 			AddToPrioList(fortable, self, listline)
-		elseif (button == "RightButton") then
-			RemoveFromPrioList(fortable, self)
+			--tutorial
+			ConditionerTutorial_Dismiss(2)
+			ConditionerTutorial_Alert(3, _G['ConditionerPriorityButton' .. FirstEmptySlot(priority_buttons) - 1])
+			--tutorial
+		elseif (c_button == "RightButton") then
+			if (xl_conditionertutorial.current_step == 4) and (xl_conditionertutorial[4] == 0) then
+				--don't let them remove from the list just during the tutorial
+			else
+				RemoveFromPrioList(fortable, self)
+			end
+			PlaySound("UChatScrollButton")
+			ConditionerTutorial_Dismiss(3)
+			ConditionerTutorial_Alert(4, _G['ConditionerPriorityButton' .. #priority_buttons-2])
 		end
 	end)
 	return newbutton
 end
+--make priority button
 
 function NewEdgeFile(thickness)
 	local edgeprops = {
@@ -1769,7 +2034,8 @@ function NewEdgeFile(thickness)
 end
 
 function NewWatchFrame(size, parent, ...)
-	local newframe = CreateFrame("Frame")
+	local watchID = #watched_frames or 0
+	local newframe = CreateFrame("Frame", "ConditionerWatchFrame" .. watchID)
 	newframe.edge = CreateFrame("Frame", nil, newframe)
 	newframe.edge:Hide()
 	newframe.level = newframe:GetFrameLevel()
@@ -1800,30 +2066,70 @@ function NewWatchFrame(size, parent, ...)
 			if (xl_DesiredScale > MaxScale) then
 				xl_DesiredScale = MaxScale
 			end
-
 			UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 		end
+		ConditionerTutorial_Alert(8, ConditionerWatchFrame0)
+		ConditionerTutorial_Dismiss(8)
+		ConditionerTutorial_Alert(9, ConditionerWatchFrame0)
 	end)
-	newframe:SetScript("OnMouseDown", function(self, button)
+	newframe:SetScript("OnMouseDown", function(self, c_button)
 		if (self.canDrag) then
 			--this is a main frame, let's cycle through directions
-			if (button == "RightButton") then
-				--print("Right")
-				local x,y,w,h = self:GetBoundsRect()
-				xl_LocX = x + w/2
-				xl_LocY = y + h/2
-				if (xl_ChildPosition < #button_choices) then
-					xl_ChildPosition = xl_ChildPosition+1
+			if (c_button == "RightButton") then
+				if (IsControlKeyDown()) then
+					--they want to change dock sides, only do this if they are using player/target nameplate option
+					--if (xl_OnTargetFrame == 1) then
+						--nothing, it is set to free drag
+					--else
+						--we're going to cycle through the pivot positions on the nameplate I have targeted
+						if (xl_current_target_dock < #target_dock_side) then
+							xl_current_target_dock = xl_current_target_dock + 1
+							if (xl_conditionertutorial.current_step == 13) then
+								ConditionerTutorialFrame.text:SetText("|cff00ffffCONDITIONER|r\n" .. "You can only interact with the tracking spells while out of combat.")
+							end
+						else
+							xl_current_target_dock = 1
+							ConditionerTutorial_Dismiss(13)
+							ConditionerTutorial_Alert(14)
+						end
+						--we should inform them as to which side was chosen
+						if (xl_OnTargetFrame == 2) then
+							--target
+							if (xl_current_target_dock == 1) then
+								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00LEFT|r side of |cffff6600TARGET|r nameplate.", 0, 0.5, 1)
+							else
+								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00RIGHT|r side of |cffff6600TARGET|r nameplate.", 0, 0.5, 1)
+							end
+						else
+							--player
+							if (xl_current_target_dock == 1) then
+								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00LEFT|r side of |cffff6600YOUR|r nameplate.", 0, 0.5, 1)
+							else
+								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00RIGHT|r side of |cffff6600YOUR|r nameplate.", 0, 0.5, 1)
+							end
+						end
+						if (xl_current_target_dock == 1) then
+							PlaySound("igCharacterInfoOpen")
+						else
+							PlaySound("igCharacterInfoClose")
+						end
+					--end
 				else
-					xl_ChildPosition = 1
-				end
-			elseif (button == "LeftButton") and (self.cycleNameplatePositions) and (not self.tempDrag) then
-				--we're going to cycle through the pivot positions on the nameplate I have targeted
-				if (xl_current_target_dock < #target_dock_side) then
-					xl_current_target_dock = xl_current_target_dock + 1
-				else
-					xl_current_target_dock = 1
-				end
+					PlaySound("UChatScrollButton")
+					--they want to rotate
+					--print("Right")
+					local x,y,w,h = self:GetBoundsRect()
+					xl_LocX = x + w/2
+					xl_LocY = y + h/2
+					if (xl_ChildPosition < #button_choices) then
+						xl_ChildPosition = xl_ChildPosition+1
+					else
+						xl_ChildPosition = 1
+						ConditionerTutorial_Dismiss(10)
+						ConditionerTutorial_Alert(11, button_options)
+					end
+				end	
+			--elseif (c_button == "LeftButton") and (self.cycleNameplatePositions) and (not self.tempDrag) then
 			end
 			UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 		end
@@ -1835,6 +2141,7 @@ function NewWatchFrame(size, parent, ...)
 			xl_LocX = x + w/2
 			xl_LocY = y + h/2
 		end
+		PlaySound("UChatScrollButton")
 	end)
 	newframe:SetScript("OnDragStop", function(self, ...)
 		if (self.canDrag) and ((xl_OnTargetFrame == 1) or (self.tempDrag))  then
@@ -1843,6 +2150,8 @@ function NewWatchFrame(size, parent, ...)
 			xl_LocX = x + w/2
 			xl_LocY = y + h/2
 		end
+		ConditionerTutorial_Dismiss(9)
+		ConditionerTutorial_Alert(10, ConditionerWatchFrame0)
 	end)
 	--end drag functionality
 	local arg1 = select(1,...)
@@ -1918,13 +2227,28 @@ end
 function events:ADDON_LOADED(...)
 	local arg1 = select(1,...)
 	if (arg1 == "Conditioner") then
+		--if they're really loaded, what are they
+		--don't do anything except set up saved variables
+		--MaintainVisibility()
+		--DistributeSavedVars()
 		--easy way to just force an update, in case we reload and don't check the spellbook before we enter combat
 		InitWatchedFrames()
-		SpellBookFrame:Show()
-		SpellBookFrame:Hide()
+		--SpellBookFrame:Show()
+		--SpellBookFrame:Hide()
 	end
 end
---TEST
+
+function events:PLAYER_ENTERING_WORLD(...)
+	ConditionerTutorial_Alert(1)
+end
+
+function events:ADDON_ACTION_FORBIDDEN(...)
+	local arg1 = select(1,...)
+	local arg2 = select(2,...)
+
+	--print(arg1 .. " supposedly called " .. tostring(arg2))
+end
+
 function events:PLAYER_REGEN_DISABLED(...)
 	--some assumptions
 	conditioner_frame.ReputationBarWasVisible = ReputationWatchBar:IsShown()
@@ -1932,6 +2256,7 @@ function events:PLAYER_REGEN_DISABLED(...)
 	conditioner_frame.ArtifactWatchBarWasVisible = ArtifactWatchBar:IsShown()
 
 	if (xl_conditioner_options.hide_hotbar_incombat) then
+		ArtifactWatchBar:SetParent(MainMenuBarArtFrame)
 		MainMenuBarArtFrame:Hide()
 		ArtifactWatchBar:Hide()
 		ReputationWatchBar:Hide()
@@ -1943,7 +2268,7 @@ function events:PLAYER_REGEN_ENABLED(...)
 	if (conditioner_frame.MainMenuBarWasVisible) then
 		MainMenuBarArtFrame:Show()
 	end
-	if (conditioner_frame.ArtifactWatchBarWasVisible) and (not UnitAffectingCombat("player")) then
+	if (conditioner_frame.ArtifactWatchBarWasVisible) then
 		ArtifactWatchBar:Show()
 	end
 	if (conditioner_frame.ReputationBarWasVisible) then
@@ -1970,7 +2295,7 @@ function events:PLAYER_SPECIALIZATION_CHANGED(...)
 	for k,v in ipairs(priority_buttons) do
 		--priority buttons start at 2, tracked_spells starts at 1
 		if (k > 1) then
-			--we're on a priority button we can change
+			--we're on a priority c_button we can change
 			if ((k-1) <= #tracked_spells) then
 				--we need to place a spell
 				priority_buttons[k].spellID = tracked_spells[k-1]
@@ -2049,7 +2374,7 @@ function ResortList(list)
 		if (priority_buttons[lowest_index+1]:Condition()) then
 			table.insert(sortedlist, lowest_index)
 			priority_buttons[lowest_index+1]:SetSlot(#sortedlist)
-			--print("priority button is ready to push " .. lowest_index .. " is in watched frame slot " .. #sortedlist)
+			--print("priority c_button is ready to push " .. lowest_index .. " is in watched frame slot " .. #sortedlist)
 			--bug was I was setting the watched slot to i instead of the size of the sorted list, it always was 1 less than before
 		else
 			--table.insert(deprioritized_list, lowest_index)
@@ -2071,17 +2396,38 @@ function Debug()
 	end
 end
 
---menu options hide_hotbar_incombat
---MakeCheckBox(anchor1, parent, anchor2, contents, text1, text2)
 local HideHotbar = MakeCheckBox("TOP", directionDropDown, "BOTTOM", "Hide Hotbar In Combat")
 HideHotbar.text:SetTextColor(1,1,1,1)
-HideHotbar:SetScript("OnClick", function(self, button, down)
+HideHotbar:SetScript("OnClick", function(self, c_button, down)
 	xl_conditioner_options.hide_hotbar_incombat = self:GetChecked()
+	PlaySound("UChatScrollButton")
 end)
 HideHotbar:SetScript("OnShow", function(self)
 	self:SetChecked(xl_conditioner_options.hide_hotbar_incombat)
 end)
---menu options
+
+--NewSlider(parent, name, offsety, minText, min_Value, maxText, max_Value, sliderText, initValue)
+local ConditionerSlider = NewSlider(HideHotbar, "ConditionerTrackingSlider", 10, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
+ConditionerSlider:SetScript("OnValueChanged", function(self, event, ...)
+	ConditionerSlider:SetValue(ConditionerSlider:GetValue())
+	xl_num_desired_tracked = ConditionerSlider:GetValue()
+	self.text:SetText("Spells Displayed: " .. tostring(xl_num_desired_tracked))
+	GetWatchedCooldowns()
+end)
+
+ConditionerSlider:SetScript("OnShow", function(self, ...)
+	ConditionerSlider:SetValue(xl_num_desired_tracked)
+end)
+
+--Tutorial Restart
+local conditioner_help = CreateFrame("Button", nil, menu_options, "UIPanelButtonTemplate")
+conditioner_help:SetPoint("BOTTOM", menu_options, "BOTTOM", 0, 10)
+conditioner_help:SetText("Reset Tutorial")
+conditioner_help:SetSize(menu_options:GetWidth()/2, 24)
+conditioner_help:SetScript("OnClick", function(self, c_button, down)
+	ConditionerResetTutorial()
+	PlaySound("UChatScrollButton")
+end)
 
 function GetWatchedCooldowns()
 	--so we have a list of spells, we need to find out how close to finishing they are in order to pick the right one
@@ -2091,7 +2437,7 @@ function GetWatchedCooldowns()
 			local time_now = GetTime()
 			local my_haste = GetHaste()/100
 			--local GCD = 1.5/(1 + my_haste)
-			local _,standard_GCD,_ = GetSpellCooldown(GCD_SpellID)
+			local garbage_var,standard_GCD,garbage_var = GetSpellCooldown(GCD_SpellID)
 			--we can use this to re-factor out our haste and find out base GCD
 			standard_GCD = tonumber(standard_GCD)
 			if (standard_GCD > 0) then
@@ -2113,9 +2459,9 @@ function GetWatchedCooldowns()
 
 			for k,v in ipairs(tracked_spells) do
 				local s_name = GetSpellInfo(v)
-				local start_time, total_duration,_ = GetSpellCooldown(s_name)
+				local start_time, total_duration,garbage_var = GetSpellCooldown(s_name)
 				if (not start_time) then
-					start_time, total_duration,_ = GetSpellCooldown(v)
+					start_time, total_duration,garbage_var = GetSpellCooldown(v)
 				end
 				local time_remaining = (start_time + total_duration) - time_now
 				if (time_remaining <= 0) then
@@ -2131,46 +2477,52 @@ function GetWatchedCooldowns()
 			slots_to_display = ResortList(cooldowns)
 
 			--slots_to_display has in order, up to the number of desired spells read to be shown
-			for i=1,xl_num_desired_tracked do
-				--try to display all the desired tracking numbers if we can
-				--we can display it if we're in combat or editing
-				if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
-					if (i <= #slots_to_display) then
-						local ready_texture = GetSpellTexture(tracked_spells[slots_to_display[i]])
-						watched_frames[i].texture:SetTexture(ready_texture)
-						watched_frames[i]:Show()
-						watched_frames[i].edge:Show()
-						--I can show the cooldown here
-						--this is an additional watched frame, show some cooldown info
-						local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
-						local s,d,_ = GetSpellCooldown(spellname)
-						if (not s) then
-							s,d,_ = GetSpellCooldown(tracked_spells[slots_to_display[i]])
-						end
-						--this keeps the frame in sync, so a spell that was on cooldown getting pushed away while a spell that is ready causes the highlight to happen, how to avoid this...
-						watched_frames[i].cooldown:SetCooldown(s,d)
-					else
-						--there is nothing to display, hide it
-						watched_frames[i]:Hide()
-					end
-					--no mouse interaction in combat
-					if (i == 1) then
-						if (not isEditMode) then
-							watched_frames[i]:EnableMouse(false)
-						else
-							watched_frames[i]:EnableMouse(true)
-						end
-					else
-						watched_frames[i]:EnableMouse(false)
-					end
-				else
-					--we're not in combat or editing, hide everything
+			--for i=1,xl_num_desired_tracked do
+			for i=1,max_num_tracked do
+				if (i > xl_num_desired_tracked) then
+					--hide it
 					watched_frames[i]:Hide()
-					--allow mouse interact again
-					if (i == 1) then
-						watched_frames[i]:EnableMouse(true)
+				else
+					--try to display all the desired tracking numbers if we can
+					--we can display it if we're in combat or editing
+					if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
+						if (i <= #slots_to_display) then
+							local ready_texture = GetSpellTexture(tracked_spells[slots_to_display[i]])
+							watched_frames[i].texture:SetTexture(ready_texture)
+							watched_frames[i]:Show()
+							watched_frames[i].edge:Show()
+							--I can show the cooldown here
+							--this is an additional watched frame, show some cooldown info
+							local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
+							local s,d,garbage_var = GetSpellCooldown(spellname)
+							if (not s) then
+								s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
+							end
+							--this keeps the frame in sync, so a spell that was on cooldown getting pushed away while a spell that is ready causes the highlight to happen, how to avoid this...
+							watched_frames[i].cooldown:SetCooldown(s,d)
+						else
+							--there is nothing to display, hide it
+							watched_frames[i]:Hide()
+						end
+						--no mouse interaction in combat
+						if (i == 1) then
+							if (not isEditMode) then
+								watched_frames[i]:EnableMouse(false)
+							else
+								watched_frames[i]:EnableMouse(true)
+							end
+						else
+							watched_frames[i]:EnableMouse(false)
+						end
 					else
-						watched_frames[i]:EnableMouse(false)
+						--we're not in combat or editing, hide everything
+						watched_frames[i]:Hide()
+						--allow mouse interact again
+						if (i == 1) then
+							watched_frames[i]:EnableMouse(true)
+						else
+							watched_frames[i]:EnableMouse(false)
+						end
 					end
 				end
 			end
@@ -2194,12 +2546,25 @@ function GetWatchedCooldowns()
 	end
 end
 
+priority_visibility_updater:SetScript("OnShow", function(...)
+	priority_list:Show()
+	isEditMode=true
+	MaintainVisibility()
+	DistributeSavedVars()
+	--might be on tutorial between logins
+	ConditionerTutorial_Alert(3, _G['ConditionerPriorityButton' .. FirstEmptySlot(priority_buttons) - 1])
+	ConditionerTutorial_Alert(4, _G['ConditionerPriorityButton' .. FirstEmptySlot(priority_buttons) - 1])
+	ConditionerTutorial_Alert(5, _G['ConditionerPriorityButton' .. FirstEmptySlot(priority_buttons) - 1].more)
+	ConditionerTutorial_Alert(8, ConditionerWatchFrame0)
+	ConditionerTutorial_Alert(9, ConditionerWatchFrame0)
+	ConditionerTutorial_Alert(10, ConditionerWatchFrame0)
+	ConditionerTutorial_Alert(11, button_options)
+	ConditionerTutorial_Alert(12, button_options)
+	ConditionerTutorial_Alert(13, ConditionerWatchFrame0)
+	ConditionerTutorial_Alert(14)
+end)
+
 conditioner_frame:SetScript("OnUpdate", function(self,elapsed) self:Update(self,elapsed) end)
 function conditioner_frame:Update(self, elapsed)
-	--has a problem with the map frame
-	if (WorldMapFrame:IsShown()) then
-		--nothing
-	else
-		GetWatchedCooldowns()            
-	end
+	GetWatchedCooldowns()
 end

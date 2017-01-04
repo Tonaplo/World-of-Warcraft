@@ -622,7 +622,6 @@ WeakAuras.load_prototype = {
             single_spec = GetSpecialization();
           end
 
-          -- print ("Using talent cache", single_class, single_spec);
           -- If a single specific class was found, load the specific list for it
           if(single_class and WeakAuras.talent_types_specific[single_class]
             and single_spec and WeakAuras.talent_types_specific[single_class][single_spec]) then
@@ -747,7 +746,8 @@ WeakAuras.load_prototype = {
       display = L["Instance Type"],
       type = "multiselect",
       values = "group_types",
-      init = "arg"
+      init = "arg",
+      control = "WeakAurasSortedDropdown"
     },
     {
       name = "difficulty",
@@ -1058,7 +1058,6 @@ WeakAuras.event_prototypes = {
     automatic = true
   },
   -- Todo: Give useful options to condition based on GUID and flag info
-  -- Todo: Allow options to pass information from combat message to the display?
   ["Combat Log"] = {
     type = "event",
     events = {
@@ -1411,10 +1410,10 @@ WeakAuras.event_prototypes = {
         end
         local showOn = %s
       ]=];
-      if(trigger.use_remaining and trigger.showOn == "showOnCooldown") then
+      if(trigger.use_remaining and trigger.showOn ~= "showOnReady") then
         local ret2 = [[
           local expirationTime = startTime + duration
-          local remaining = expirationTime - GetTime();
+          local remaining = expirationTime > 0 and (expirationTime - GetTime()) or 0;
           local remainingCheck = %s;
           if(remaining >= remainingCheck) then
             WeakAuras.ScheduleCooldownScan(expirationTime - remainingCheck);
@@ -1445,7 +1444,7 @@ WeakAuras.event_prototypes = {
         name = "remaining",
         display = L["Remaining Time"],
         type = "number",
-        enable = function(trigger) return (trigger.showOn == "showOnCooldown") end
+        enable = function(trigger) return (trigger.showOn ~= "showOnReady") end
       },
       {
         name = "charges",
@@ -1495,7 +1494,8 @@ WeakAuras.event_prototypes = {
       return WeakAuras.GetSpellCharges(trigger.realSpellName);
     end,
     hasSpellID = true,
-    automaticrequired = true
+    automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Cooldown Ready (Spell)"] = {
     type = "event",
@@ -1531,6 +1531,62 @@ WeakAuras.event_prototypes = {
     end,
     hasSpellID = true
   },
+  ["Charges Changed (Spell)"] = {
+    type = "event",
+    events = {
+      "SPELL_CHARGES_CHANGED",
+    },
+    name = L["Charges Changed (Spell)"],
+    init = function(trigger)
+    --trigger.spellName = WeakAuras.CorrectSpellName(trigger.spellName) or 0;
+      trigger.spellName = trigger.spellName or 0;
+      WeakAuras.WatchSpellCooldown(trigger.spellName or 0);
+      local ret = [[
+        local triggerDirection = "%s";
+        local directionCheck = triggerDirection == "CHANGED"
+           or (triggerDirection == "GAINED" and direction > 0)
+           or (triggerDirection == "LOST" and direction < 0)
+      ]]
+      return ret:format(trigger.direction or "CHANGED");
+    end,
+    args = {
+      {
+        name = "spellName",
+        required = true,
+        display = L["Spell"],
+        type = "spell",
+        init = "arg"
+      },
+      {
+        name = "direction",
+        required = true,
+        display = L["Charge gained/lost"],
+        type = "select",
+        values = "charges_change_type",
+        init = "arg",
+        test = "directionCheck"
+      },
+      {
+        name = "charges",
+        display = L["Charges"],
+        type = "number",
+        init = "arg",
+      }
+    },
+    nameFunc = function(trigger)
+      local name = GetSpellInfo(trigger.spellName or 0);
+      if(name) then
+        return name;
+      else
+        return "Invalid";
+      end
+    end,
+    iconFunc = function(trigger)
+      local _, _, icon = GetSpellInfo(trigger.spellName or 0);
+      return icon;
+    end,
+    hasSpellID = true
+  },
   ["Cooldown Progress (Item)"] = {
     type = "status",
     events = {
@@ -1550,10 +1606,10 @@ WeakAuras.event_prototypes = {
         local startTime, duration = WeakAuras.GetItemCooldown(%s);
         local showOn = %s
       ]];
-      if(trigger.use_remaining and trigger.showOn == "showOnCooldown") then
+      if(trigger.use_remaining and trigger.showOn ~= "showOnReady") then
         local ret2 = [[
           local expirationTime = startTime + duration
-          local remaining = expirationTime - GetTime();
+          local remaining = expirationTime > 0 and (expirationTime - GetTime()) or 0;
           local remainingCheck = %s;
           if(remaining >= remainingCheck) then
             WeakAuras.ScheduleCooldownScan(expirationTime - remainingCheck);
@@ -1575,7 +1631,7 @@ WeakAuras.event_prototypes = {
         name = "remaining",
         display = L["Remaining Time"],
         type = "number",
-        enable = function(trigger) return (trigger.showOn == "showOnCooldown") end,
+        enable = function(trigger) return (trigger.showOn ~= "showOnReady") end,
         init = "remaining"
       },
       {
@@ -1612,21 +1668,37 @@ WeakAuras.event_prototypes = {
       return icon;
     end,
     hasItemID = true,
-    automaticrequired = true
+    automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Cooldown Progress (Equipment Slot)"] = {
     type = "status",
     events = {
-      "BAG_UPDATE_COOLDOWN",
-      "COOLDOWN_REMAINING_CHECK"
+      "ITEM_SLOT_COOLDOWN_READY",
+      "ITEM_SLOT_COOLDOWN_STARTED",
+      "ITEM_SLOT_COOLDOWN_CHANGED",
+      "COOLDOWN_REMAINING_CHECK",
     },
     force_events = "ITEM_COOLDOWN_FORCE",
     name = L["Cooldown Progress (Equipment Slot)"],
     init = function(trigger)
+      WeakAuras.WatchItemSlotCooldown(trigger.itemSlot);
       local ret = [[
-        local startTime, duration, enable = GetInventoryItemCooldown("player", %s);
+        local startTime, duration, enable = WeakAuras.GetItemSlotCooldown(%s);
         local showOn = %s
+        local remaining = startTime + duration - GetTime();
       ]];
+      if(trigger.use_remaining and trigger.showOn ~= "showOnReady") then
+        local ret2 = [[
+          local expirationTime = startTime + duration
+          local remaining = expirationTime > 0 and (expirationTime - GetTime()) or 0;
+          local remainingCheck = %s;
+          if(remaining >= remainingCheck) then
+            WeakAuras.ScheduleCooldownScan(expirationTime - remainingCheck);
+          end
+        ]];
+        ret = ret..ret2:format(tonumber(trigger.remaining or 0) or 0);
+      end
       return ret:format(trigger.itemSlot or "0",  "[[" .. (trigger.showOn or "") .. "]]");
     end,
     args = {
@@ -1642,7 +1714,7 @@ WeakAuras.event_prototypes = {
         name = "remaining",
         display = L["Remaining Time"],
         type = "number",
-        enable = function(trigger) return (trigger.showOn == "showOnCooldown") end,
+        enable = function(trigger) return (trigger.showOn ~= "showOnCooldown") end,
         init = "remaining"
       },
       {
@@ -1678,7 +1750,8 @@ WeakAuras.event_prototypes = {
     iconFunc = function(trigger)
       return GetInventoryItemTexture("player", trigger.itemSlot or 0);
     end,
-    automaticrequired = true
+    automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Cooldown Ready (Item)"] = {
     type = "event",
@@ -1839,7 +1912,7 @@ WeakAuras.event_prototypes = {
             WeakAuras.ScheduleDbmCheck(bar.expirationTime - remainingCheck);
           end
         ]]
-        copyOrSchedule = copyOrSchedule:format(trigger.remaining_operator or "", trigger.remaining or 0);
+        copyOrSchedule = copyOrSchedule:format(trigger.remaining_operator or "<", trigger.remaining or 0);
       else
         copyOrSchedule = [[
           WeakAuras.CopyBarToState(bar, states, id);
@@ -1937,7 +2010,8 @@ WeakAuras.event_prototypes = {
         type = "toggle"
       }
     },
-    automaticrequired = true
+    automaticrequired = true,
+    automaticAutoHide = false
   },
   -- BigWigs
   ["BigWigs Message"] = {
@@ -2136,6 +2210,7 @@ WeakAuras.event_prototypes = {
       }
     },
     automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Global Cooldown"] = {
     type = "status",
@@ -2178,7 +2253,8 @@ WeakAuras.event_prototypes = {
       return icon;
     end,
     hasSpellID = true,
-    automaticrequired = true
+    automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Swing Timer"] = {
     type = "status",
@@ -2337,7 +2413,8 @@ WeakAuras.event_prototypes = {
     type = "status",
     events = {
       "PLAYER_TOTEM_UPDATE",
-      "COOLDOWN_REMAINING_CHECK"
+      "COOLDOWN_REMAINING_CHECK",
+      "PLAYER_ENTERING_WORLD"
     },
     force_events = true,
     name = L["Totem"],
@@ -2752,7 +2829,8 @@ WeakAuras.event_prototypes = {
         display = L["Message Type"],
         type = "select",
         values = "chat_message_types",
-        test = "event=='%s'"
+        test = "event=='%s'",
+        control = "WeakAurasSortedDropdown"
       },
       {
         name = "message",
@@ -2784,6 +2862,24 @@ WeakAuras.event_prototypes = {
     },
     name = L["Ready Check"],
     args = {}
+  },
+  ["Combat Events"] = {
+    type = "event",
+    events = {
+      "PLAYER_REGEN_ENABLED",
+      "PLAYER_REGEN_DISABLED"
+    },
+    name = L["Entering/Leaving Combat"],
+    args = {
+      {
+        name = "eventtype",
+        required = true,
+        display = L["Type"],
+        type = "select",
+        values = "combat_event_type",
+        test = "event == (\"%s\")"
+      }
+    }
   },
   ["Death Knight Rune"] = {
     type = "status",
@@ -2900,6 +2996,7 @@ WeakAuras.event_prototypes = {
       return "Interface\\PlayerFrame\\UI-PlayerFrame-Deathknight-SingleRune";
     end,
     automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Item Equipped"] = {
     type = "status",
@@ -3200,7 +3297,8 @@ WeakAuras.event_prototypes = {
         return icon;
       end
     end,
-    automaticrequired = true
+    automaticrequired = true,
+    automaticAutoHide = false
   },
   ["Conditions"] = {
     type = "status",

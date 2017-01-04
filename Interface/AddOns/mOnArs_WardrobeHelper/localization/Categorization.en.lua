@@ -134,3 +134,6 @@ c["Zul'Farrak"] = {1, 1, "Zul'Farrak"}
 c["Zul'Gurub"] = {4, 1, "Zul'Gurub"}
 
 c["Outland"] = {2, 2, "Outland"}
+
+c["Trial of Valor"] = {7, 2, "Trial of Valor"}
+c["Return to Karazhan"] = {7, 1, "Return to Karazhan"}

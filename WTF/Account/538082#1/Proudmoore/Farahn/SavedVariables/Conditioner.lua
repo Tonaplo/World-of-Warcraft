@@ -26,8 +26,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 76,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
 			188389, -- [1]
@@ -46,8 +46,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
 			51505, -- [1]
@@ -66,8 +66,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 		{
 			205495, -- [1]
@@ -86,8 +86,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [5]
 		{
 			188196, -- [1]
@@ -106,8 +106,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [6]
 		{
 			57994, -- [1]
@@ -126,8 +126,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [7]
 	}, -- [1]
 	{
@@ -140,7 +140,7 @@ xl_savedvariables = {
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
 			["active_aura"] = "Boulderfist",
-			["key_binding"] = "",
+			["key_binding"] = "E",
 			["resource_type"] = 1,
 			["maintain_aura"] = true,
 			["alt_resource_type"] = 1,
@@ -160,7 +160,7 @@ xl_savedvariables = {
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
 			["active_aura"] = "Flametongue",
-			["key_binding"] = "",
+			["key_binding"] = "Shift F",
 			["resource_type"] = 1,
 			["maintain_aura"] = true,
 			["alt_resource_type"] = 1,
@@ -180,7 +180,7 @@ xl_savedvariables = {
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
-			["key_binding"] = "",
+			["key_binding"] = "F",
 			["resource_type"] = 1,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
@@ -193,7 +193,7 @@ xl_savedvariables = {
 			["use_condition"] = false,
 		}, -- [4]
 		{
-			204945, -- [1]
+			187874, -- [1]
 			["aura_target"] = 1,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
@@ -213,6 +213,26 @@ xl_savedvariables = {
 			["use_condition"] = false,
 		}, -- [5]
 		{
+			204945, -- [1]
+			["aura_target"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "Shift 2",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+		}, -- [6]
+		{
 			60103, -- [1]
 			["aura_target"] = 1,
 			["clip_gcd"] = true,
@@ -231,7 +251,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 5,
 			["alt_min_resource_to_cast"] = 110,
 			["use_condition"] = true,
-		}, -- [6]
+		}, -- [7]
 		{
 			201897, -- [1]
 			["aura_target"] = 1,
@@ -240,27 +260,7 @@ xl_savedvariables = {
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-		}, -- [7]
-		{
-			193796, -- [1]
-			["aura_target"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "",
+			["key_binding"] = "E",
 			["resource_type"] = 1,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
@@ -272,6 +272,26 @@ xl_savedvariables = {
 			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
 		}, -- [8]
+		{
+			193796, -- [1]
+			["aura_target"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "Shift F",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+		}, -- [9]
 	}, -- [2]
 }
 xl_conditioner_options = {

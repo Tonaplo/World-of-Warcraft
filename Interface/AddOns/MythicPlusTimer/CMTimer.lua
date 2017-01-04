@@ -31,7 +31,7 @@ function MythicPlusTimerCMTimer:Init()
     
     MythicPlusTimerCMTimer.frame = CreateFrame("Frame", "CmTimer", UIParent);
     MythicPlusTimerCMTimer.frame:SetPoint(MythicPlusTimerDB.pos.relativePoint,MythicPlusTimerDB.pos.left,MythicPlusTimerDB.pos.top)
-    MythicPlusTimerCMTimer.frame:SetMovable(true)
+    MythicPlusTimerCMTimer.frame:EnableMouse(true)
     MythicPlusTimerCMTimer.frame:RegisterForDrag("LeftButton")
     MythicPlusTimerCMTimer.frame:SetScript("OnDragStart", MythicPlusTimerCMTimer.frame.StartMoving)
     MythicPlusTimerCMTimer.frame:SetScript("OnDragStop", MythicPlusTimerCMTimer.frame.StopMovingOrSizing)
@@ -64,7 +64,7 @@ end
 -- ---------------------------------------------------------------------------------------------------------------------
 function MythicPlusTimerCMTimer:ToggleFrame()
     if MythicPlusTimerCMTimer.frameToggle then
-        MythicPlusTimerCMTimer.frame:EnableMouse(false)
+        MythicPlusTimerCMTimer.frame:SetMovable(false)
         MythicPlusTimerCMTimer.frame:SetBackdrop(nil)
         MythicPlusTimerCMTimer.frameToggle = false
 
@@ -73,7 +73,7 @@ function MythicPlusTimerCMTimer:ToggleFrame()
         MythicPlusTimerDB.pos.top = yOfs;
         MythicPlusTimerDB.pos.left = xOfs;
     else
-        MythicPlusTimerCMTimer.frame:EnableMouse(true)
+        MythicPlusTimerCMTimer.frame:SetMovable(true)
         local backdrop = {
             bgFile = "Interface/Tooltips/UI-Tooltip-Background",
             edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
@@ -244,7 +244,6 @@ function MythicPlusTimerCMTimer:Draw()
         MythicPlusTimerCMTimer.frames.info = f
     end
     MythicPlusTimerCMTimer.frames.info.text:SetText("+" .. cmLevel .. " - " .. zoneName);
-
     
     
     -- Tooltip
@@ -256,22 +255,27 @@ function MythicPlusTimerCMTimer:Draw()
         MythicPlusTimerCMTimer.frames.infos = i
 
         local debuffOnEnter = function(self, motion)
+            if not MythicPlusTimerCMTimer.frames.infos.tooltip then
+                return
+            end
+            
             GameTooltip:Hide()
             GameTooltip:ClearLines()
-            GameTooltip:SetOwner(self, "ANCHOR_LEFT")
+            GameTooltip:SetOwner(MythicPlusTimerCMTimer.frame, "ANCHOR_LEFT")
             
-            for _, v in pairs(self.tooltip) do
+            for _, v in pairs(MythicPlusTimerCMTimer.frames.infos.tooltip) do
                 GameTooltip:AddLine(v)
             end
             GameTooltip:Show()
         end
 
+        
         local debuffOnLeave = function(self, motion)
             GameTooltip:Hide()
         end
 
-        i:SetScript("OnEnter", debuffOnEnter)
-        i:SetScript("OnLeave", debuffOnLeave)
+        MythicPlusTimerCMTimer.frame:SetScript("OnEnter", debuffOnEnter)
+        MythicPlusTimerCMTimer.frame:SetScript("OnLeave", debuffOnLeave)
     end
     
     local tooltip = {};

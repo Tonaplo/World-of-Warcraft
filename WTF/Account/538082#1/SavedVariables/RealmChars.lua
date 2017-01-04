@@ -6,11 +6,11 @@ RCDatabase = {
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Emerald Dream"] = "Praerend - Emerald Dream",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Morifa - Emerald Dream"] = "Morifa - Emerald Dream",
 		["Makemeaturke - Stormrage"] = "Makemeaturke - Stormrage",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Granjior - Emerald Dream"] = "Granjior - Emerald Dream",
@@ -21,7 +21,7 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
@@ -48,7 +48,7 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 763,
+				["secondProfLevel"] = 765,
 				["name"] = "Mallusof",
 				["class"] = "PRIEST",
 				["firstProfLevel"] = 780,
@@ -159,9 +159,9 @@ RCDatabase = {
 				["name"] = "Farahn",
 				["secondProfLevel"] = 566,
 				["firstProf"] = "Mining",
-				["level"] = 103,
+				["level"] = 106,
 				["class"] = "SHAMAN",
-				["firstProfLevel"] = 89,
+				["firstProfLevel"] = 110,
 				["secondProf"] = "Engineering",
 			}, -- [7]
 			{

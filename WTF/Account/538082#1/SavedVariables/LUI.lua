@@ -35,7 +35,7 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 36716179,
-							["Farahn"] = 60067363,
+							["Farahn"] = 84122389,
 							["Greybone"] = 7138739,
 							["Amranar"] = 476845652,
 							["Granjior"] = 258323680,
@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2086398142,
+							["Mallusof"] = 2091400038,
 						},
 					},
 				},
@@ -112,11 +112,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -127,6 +122,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -154,9 +153,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1084,38 +1084,38 @@ LUIDB = {
 							"/i r?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g I ", -- [1]
-							"/g . No .", -- [2]
-							"/g aight", -- [3]
-							"/p you all did :P{", -- [4]
-							"/g Shit that happens when you DC", -- [5]
-							"/g I ", -- [6]
-							"/g aight", -- [7]
-							"/g Shit that happens when you DC", -- [8]
-							"/g aight", -- [9]
-							"/s LOL", -- [10]
-							"/s I want your cloack Kali", -- [11]
-							"/g Ace: 30, Kali: 45, Kaedwyn: 1232, Blakey: 3", -- [12]
-							"/p LOL", -- [13]
-							"/p KJALI", -- [14]
-							"/p take light", -- [15]
-							"/g I ", -- [16]
-							"/g aight", -- [17]
-							"/g Shit that happens when you DC", -- [18]
-							"/g aight", -- [19]
-							"/s LOL", -- [20]
-							"/g Ace: 30, Kali: 45, Kaedwyn: 1232, Blakey: 3", -- [21]
-							"/p KJALI", -- [22]
-							"/g I ", -- [23]
-							"/g Shit that happens when you DC", -- [24]
-							"/s LOL", -- [25]
-							"/p KJALI", -- [26]
-							"/g Shit that happens when you DC", -- [27]
-							"/p KJALI", -- [28]
-							"/s fuck these", -- [29]
-							"/s ..........", -- [30]
-							"/g Aight", -- [31]
-							"/g goodnight guys", -- [32]
+							"/p cya", -- [1]
+							"/cw Meowfurryon-Tichondrius am", -- [2]
+							"/cw Kalithumos-Tichondrius he cant be trusted, because he leaves at random times", -- [3]
+							"/cw Kalithumos-Tichondrius The entire raid has been me a Meow just being  annoyed with him", -- [4]
+							"/cw Kalithumos-Tichondrius He puts out numbers yes", -- [5]
+							"/cw Kalithumos-Tichondrius I'd take Amumu any day over him ", -- [6]
+							"/cw Kalithumos-Tichondrius aight", -- [7]
+							"/p Aight", -- [8]
+							"/p where are we going", -- [9]
+							"/p does anyone have a book?", -- [10]
+							"/p R", -- [11]
+							"/p 568 k", -- [12]
+							"/p oh", -- [13]
+							"/p WTF", -- [14]
+							" ye", -- [15]
+							" and then a arcway 11", -- [16]
+							"/p tyt", -- [17]
+							"/cw Meowfurryon-Tichondrius am", -- [18]
+							"/cw Kalithumos-Tichondrius The entire raid has been me a Meow just being  annoyed with him", -- [19]
+							"/cw Kalithumos-Tichondrius I'd take Amumu any day over him ", -- [20]
+							"/p Aight", -- [21]
+							"/p does anyone have a book?", -- [22]
+							"/p 568 k", -- [23]
+							"/p WTF", -- [24]
+							" and then a arcway 11", -- [25]
+							"/cw Meowfurryon-Tichondrius am", -- [26]
+							"/cw Kalithumos-Tichondrius I'd take Amumu any day over him ", -- [27]
+							"/p does anyone have a book?", -- [28]
+							"/p WTF", -- [29]
+							"/cw Meowfurryon-Tichondrius am", -- [30]
+							"/p does anyone have a book?", -- [31]
+							"/cw Meowfurryon-Tichondrius am", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1158,11 +1158,11 @@ LUIDB = {
 			["profiles"] = {
 				["Base"] = {
 					["SidebarLeft2"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1254,7 +1254,7 @@ LUIDB = {
 					["Micromenu"] = 1.5,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1263,12 +1263,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
+					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1324,7 +1325,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1333,16 +1334,15 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,

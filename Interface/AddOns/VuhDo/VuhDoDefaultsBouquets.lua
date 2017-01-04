@@ -497,13 +497,27 @@ VUHDO_DEFAULT_RAID_CDS_BOUQUET = {
 
 VUHDO_DEFAULT_PVP_FLAGS_BOUQUET = {
 	[VUHDO_I18N_DEF_PVP_FLAGS] = {
-	}
+	},
 };
 
 
 VUHDO_DEFAULT_PALADIN_BEACON_BOUQUET = {
 	[VUHDO_I18N_BOUQUET_PALADIN_BEACON] = {
-	}
+	},
+};
+
+
+VUHDO_DEFAULT_OVERFLOW_COUNTER_BOUQUET = {
+	[VUHDO_I18N_BOUQUET_OVERFLOW_COUNTER] = {
+		{
+			["name"] = "OVERFLOW_COUNTER",
+			["mine"] = true, 
+			["others"] = true,
+			["icon"] = 1,
+			["color"] = VUHDO_makeFullColorForBouquet(1, 1, 1, 1, 1, 1, 1, 1),
+			["custom"] = { [1] = 1, ["radio"] = 1, ["bright"] = 1 },
+		},
+	},
 };
 
 
@@ -584,7 +598,7 @@ VUHDO_DEFAULT_INDICATOR_CONFIG = {
 		["BAR_BORDER"] = VUHDO_I18N_DEF_BOUQUET_BORDER_MULTI_AGGRO,
 		["CLUSTER_BORDER"] = "",
 		["DAMAGE_FLASH_BAR"] = "",
-		["HEALTH_BAR"] = VUHDO_I18N_DEF_BOUQUET_BAR_HEALTH,
+		["HEALTH_BAR"] = VUHDO_I18N_DEF_BOUQUET_BAR_HEALTH_CLASS_COLOR,
 		["HEALTH_BAR_PANEL"] = {
 			[1] = "",
 			[2] = "",
@@ -1301,6 +1315,12 @@ function VUHDO_loadDefaultBouquets()
 		VUHDO_AddSpellBouquetItem(VUHDO_I18N_BOUQUET_PALADIN_BEACON, unpack(tPaladinBeacons));
 	end
 	tPaladinBeacons = nil;
+
+	if VUHDO_BOUQUETS["VERSION"] < 15 then
+		VUHDO_BOUQUETS["VERSION"] = 15;
+		VUHDO_addDefaultBouquet(VUHDO_DEFAULT_OVERFLOW_COUNTER_BOUQUET);
+	end
+	VUHDO_DEFAULT_OVERFLOW_COUNTER_BOUQUET = nil;
 
 	VUHDO_buildGenericHealthBarBouquet();
 	VUHDO_buildGenericTargetHealthBouquet();

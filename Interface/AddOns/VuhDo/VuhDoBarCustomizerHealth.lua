@@ -252,7 +252,7 @@ function VUHDO_overhealTextCallback(aUnit, aPanelNum, aProviderName, aText, aVal
 		tBar = VUHDO_getHealthBar(tButton, 1);
 		VUHDO_getOverhealText(tBar):SetText(aText);
 
-		-- Sonderwurst Overheal wirklich nötig?
+		-- Sonderwurst Overheal wirklich nï¿½tig?
 		if strfind(aProviderName, "OVERHEAL", 1, true) then
 			tInfo = VUHDO_RAID[aUnit];
 			if tInfo then
@@ -668,10 +668,14 @@ end
 local tInfo;
 local tAllButtons;
 function VUHDO_updateHealthBarsFor(aUnit, anUpdateMode)
-	if not aUnit then return end --fix unit==nil on HEALTH-Events in patch 7.1
+	-- as of patch 7.1 we are seeing empty units on health related events
+	if not aUnit then
+		return;
+	end
+
 	VUHDO_updateBouquetsForEvent(aUnit, anUpdateMode);
 
-  tAllButtons = VUHDO_getUnitButtons(aUnit);
+	tAllButtons = VUHDO_getUnitButtons(aUnit);
 	if not tAllButtons then	return; end
 
 	if 2 == anUpdateMode then -- VUHDO_UPDATE_HEALTH
@@ -711,7 +715,7 @@ function VUHDO_updateHealthBarsFor(aUnit, anUpdateMode)
 	elseif 5 == anUpdateMode then -- VUHDO_UPDATE_RANGE
 		VUHDO_determineIncHeal(aUnit);
 		for _, tButton in pairs(tAllButtons) do
-			VUHDO_customizeText(tButton, 2, false); -- für d/c tag -- VUHDO_UPDATE_HEALTH
+			VUHDO_customizeText(tButton, 2, false); -- fï¿½r d/c tag -- VUHDO_UPDATE_HEALTH
 			VUHDO_customizeDebuffIconsRange(tButton);
 		end
 		VUHDO_updateIncHeal(aUnit);

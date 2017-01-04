@@ -29,7 +29,6 @@ if L then
 
 L["phase"] = "Phase"
 L["phase_desc"] = "Warn for phase changes."
-
 end
 L = mod:GetLocale()
 

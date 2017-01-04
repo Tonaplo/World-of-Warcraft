@@ -26,8 +26,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = true,
 		}, -- [2]
 		{
 			17, -- [1]
@@ -46,8 +46,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = false,
 		}, -- [3]
 		{
 			47540, -- [1]
@@ -66,8 +66,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = false,
 		}, -- [4]
 		{
 			585, -- [1]
@@ -86,8 +86,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = false,
 		}, -- [5]
 	}, -- [1]
 	{

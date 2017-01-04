@@ -260,33 +260,35 @@ local function getUpdateHelper()
 									newInstances[categoryName]['difficulties'][difficultyName]["collected"] = newInstances[categoryName]['difficulties'][difficultyName]["collected"] + 1
 								else
 									table.insert(newInstances[categoryName]['difficulties'][difficultyName]["bosses"][bossName]['items'], item)
-									if category["#allSources"] then
-										for j = 1,#sources do
-											local i1, i2, b1, i3, b2, itemString, visualString, sourceType = C_TransmogCollection.GetAppearanceSourceInfo(sources[j].sourceID)
-											local id = tonumber(string.match(itemString, 'item:([^:]*):'))
-											if id ~= item.id and (o.isCollected(sources, id) == false) then
-												local otherSources = bossName .. " - " .. o.strings["Other Sources"]
-												if newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources] == nil then
-													newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources] = {}
-													newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources]['items'] = {}
-												end
-												local newItem = {}
-												newItem.id = id
-												newItem.visualID = item.visualID
-												newItem.sourceData = {}
-												if sourceType == 1 then
-													local drops = C_TransmogCollection.GetAppearanceSourceDrops(sources[j].sourceID)
-													for k=1,#drops do
-														table.insert(newItem.sourceData, drops[k].instance)
-													end
-												else
-													newItem.sourceData[1] = o.TYPES[sourceType]
-												end
-												table.insert(newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources]['items'], newItem)
+								end
+
+								if category["#allSources"] and (collected == false or mOnWDSave.completionistMode) then
+									for j = 1,#sources do
+										local i1, i2, b1, i3, b2, itemString, visualString, sourceType = C_TransmogCollection.GetAppearanceSourceInfo(sources[j].sourceID)
+										local id = tonumber(string.match(itemString, 'item:([^:]*):'))
+										if id ~= item.id and (o.isCollected(sources, id) == false) then
+											local otherSources = bossName .. " - " .. o.strings["Other Sources"]
+											if newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources] == nil then
+												newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources] = {}
+												newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources]['items'] = {}
 											end
+											local newItem = {}
+											newItem.id = id
+											newItem.visualID = item.visualID
+											newItem.sourceData = {}
+											if sourceType == 1 then
+												local drops = C_TransmogCollection.GetAppearanceSourceDrops(sources[j].sourceID)
+												for k=1,#drops do
+													table.insert(newItem.sourceData, drops[k].instance)
+												end
+											else
+												newItem.sourceData[1] = o.TYPES[sourceType]
+											end
+											table.insert(newInstances[categoryName]['difficulties'][difficultyName]['bosses'][otherSources]['items'], newItem)
 										end
 									end
 								end
+
 								newInstances[categoryName]["total"] = newInstances[categoryName]["total"] + 1
 								newInstances[categoryName]['difficulties'][difficultyName]["total"] = newInstances[categoryName]['difficulties'][difficultyName]["total"] + 1
 							else
@@ -439,7 +441,18 @@ o.createInstanceNames = function(name)
 		namesToTry[#namesToTry + 1] = 'Sonnenbrunnenplateau'
 	elseif name == 'Sonnenbrunnenplateau' then
 		namesToTry[#namesToTry + 1] = 'Der Sonnenbrunnen'
+
+	elseif name == 'Die Scharlachroten Hallen' then
+		namesToTry[#namesToTry + 1] = 'Scharlachrote Hallen'
+	elseif name == 'Scharlachrote Hallen' then
+		namesToTry[#namesToTry + 1] = 'Die Scharlachroten Hallen'
+
+	elseif name == 'Scharlachrotes Kloster' then
+			namesToTry[#namesToTry + 1] = 'Das Scharlachrote Kloster'
+	elseif name == 'Das Scharlachrote Kloster' then
+			namesToTry[#namesToTry + 1] = 'Scharlachrotes Kloster'
 	end
+
 
 	local tmp = string.explodePHP(name, ": ")
 	if #tmp == 2 then

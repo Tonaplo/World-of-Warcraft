@@ -26,10 +26,9 @@ local barrier = 3
 local L = mod:NewLocale("enUS", true)
 if L then
 
-L["barrier_down_message"] = "Barrier %d down!" -- Needs review
+L["barrier_down_message"] = "Barrier %d down!"
 L["phase"] = "Phase"
 L["phase_desc"] = "Warn for phase changes."
-
 end
 L = mod:GetLocale()
 

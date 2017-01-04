@@ -1,3 +1,16 @@
+﻿== 1.16.3 ==
+ * bumped TOC to 7.1
+ * categorized "Return to Karazhan" and "Trial of Valor"
+
+== 1.16.2 ==
+ * added custom category for Season 1 (thanks to Urtgard)
+ * fixed some instances in German
+
+== 1.16.1 ==
+ * updated Chinese localization
+ * removed Legion Invasion data
+ * fixed Completionist mode for custom categories
+
 == 1.16 ==
  * fixed Stockade for "Current Instance"
  * support for adding custom data to already existing categories (eg. Trash drops, Shared loot, ...)

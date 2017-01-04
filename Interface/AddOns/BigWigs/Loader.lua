@@ -7,7 +7,7 @@ local bwFrame = CreateFrame("Frame")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 29
+local BIGWIGS_VERSION = 31
 local BIGWIGS_RELEASE_STRING = ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -18,7 +18,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "d5c4347" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "df1c3cd" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -207,7 +207,7 @@ local function loadAndEnableCore()
 end
 
 local function loadCoreAndOpenOptions()
-	if not BigWigsOptions and (InCombatLockdown() or UnitAffectingCombat("player")) then
+	if not BigWigsOptions and not IsAltKeyDown() and (InCombatLockdown() or UnitAffectingCombat("player")) then -- Allow combat loading using ALT key.
 		sysprint(L.blizzRestrictionsConfig)
 		return
 	end
@@ -573,7 +573,7 @@ do
 
 	local L = GetLocale()
 	if L == "ptBR" then
-		delayedMessages[#delayedMessages+1] = "Can you translate BigWigs into Brazilian Portugese (ptBR)? Check out our GitHub page!"
+		--delayedMessages[#delayedMessages+1] = "Can you translate BigWigs into Brazilian Portugese (ptBR)? Check out our GitHub page!"
 	elseif L == "itIT" then
 		delayedMessages[#delayedMessages+1] = "Can you translate BigWigs into Italian (itIT)? Check out our GitHub page!"
 	elseif L == "esES" then
@@ -601,7 +601,8 @@ end
 do
 	local callbackMap = {}
 	function public:RegisterMessage(msg, func)
-		if self == public then print(".RegisterMessage(addon, message, function) attempted to register a function to BigWigsLoader, you might be using : instead of . to register the callback.") end
+		-- XXX temp friendly error via geterrorhandler
+		if self == public then geterrorhandler()(".RegisterMessage(addon, message, function) attempted to register a function to BigWigsLoader, you might be using : instead of . to register the callback.") end
 		if type(msg) ~= "string" then error(":RegisterMessage(message, function) attempted to register invalid message, must be a string!") end
 		local funcType = type(func)
 		if funcType == "string" then
@@ -655,8 +656,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "15512" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "7.1.4" -- Same as above but is changed between alpha and release cycles e.g. "N.N.N" for a release and "N.N.N alpha" for the alpha duration
+	local DBMdotRevision = "15610" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "7.1.6" -- Same as above but is changed between alpha and release cycles e.g. "N.N.N" for a release and "N.N.N alpha" for the alpha duration
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil

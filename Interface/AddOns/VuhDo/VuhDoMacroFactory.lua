@@ -200,7 +200,17 @@ local function VUHDO_generateTargetMacroText(aTarget, aFriendlyAction, aHostileA
 			tModiSpell = "[noharm,@vuhdo] ";
 		end
 
-		tFriendText = "/use " .. tModiSpell .. aFriendlyAction .. "\n";
+		-- Legion introduced an Order Hall follower for Shamans which yields a mission reward
+		-- This reward is an item ambiguously named 'Healing Stream Totem'
+		-- Explicitly use '/cast' so that the 'Healing Stream Totem' spell is used instead
+		if tLowerFriendly == strlower(VUHDO_SPELL_ID.BUFF_HEALING_STREAM_TOTEM) then
+			tFriendText = "/cast ";
+		else
+			tFriendText = "/use ";
+		end
+
+		tFriendText = tFriendText .. tModiSpell .. aFriendlyAction .. "\n";
+
 		if VUHDO_SPELL_CONFIG["IS_AUTO_TARGET"] then
 			tFriendText = tFriendText .. "/tar [@vuhdo]\n";
 		end
@@ -291,12 +301,25 @@ end
 
 
 
+--
+function VUHDO_buildMouseLookMacroText()
+	return "/run if IsMouselooking() then MouselookStop() else MouselookStart() end\n";
+end
+
+
+
 local VUHDO_PROHIBIT_HELP = {
 	[VUHDO_SPELL_ID.REBIRTH] = true,
 	[VUHDO_SPELL_ID.REDEMPTION] = true,
+	[VUHDO_SPELL_ID.ABSOLUTION] = true,
 	[VUHDO_SPELL_ID.ANCESTRAL_SPIRIT] = true,
+	[VUHDO_SPELL_ID.ANCESTRAL_VISION] = true,
 	[VUHDO_SPELL_ID.REVIVE] = true,
+	[VUHDO_SPELL_ID.REVITALIZE] = true,
 	[VUHDO_SPELL_ID.RESURRECTION] = true,
+	[VUHDO_SPELL_ID.MASS_RESURRECTION] = true,
+	[VUHDO_SPELL_ID.RESUSCITATE] = true,
+	[VUHDO_SPELL_ID.REAWAKEN] = true,
 	[VUHDO_SPELL_ID.RAISE_ALLY] = true,
 }
 
@@ -327,6 +350,7 @@ local tModiSpell;
 local tSpellPost;
 local tVehicleCond;
 local tStopText;
+local tCastText;
 local function VUHDO_generateRaidMacroTemplate(anAction, anIsKeyboard, aTarget, aPet)
 	if VUHDO_SPELL_CONFIG["IS_CANCEL_CURRENT"] then
 		tStopText = "/stopcasting\n";
@@ -344,8 +368,17 @@ local function VUHDO_generateRaidMacroTemplate(anAction, anIsKeyboard, aTarget, 
 
 	tSpellPost = VUHDO_getAutoBattleRezText(anIsKeyboard);
 
+	-- Legion introduced an Order Hall follower for Shamans which yields a mission reward
+	-- This reward is an item ambiguously named 'Healing Stream Totem'
+	-- Explicitly use '/cast' so that the 'Healing Stream Totem' spell is used instead
+	if strlower(anAction) == strlower(VUHDO_SPELL_ID.BUFF_HEALING_STREAM_TOTEM) then
+		tCastText = "/cast ";
+	else
+		tCastText = "/use ";
+	end
+
 	if anIsKeyboard then
-		tText = tText .. "/use [" .. tModiSpell .. "@mouseover] " .. anAction .. "\n";
+		tText = tText .. tCastText .. "[" .. tModiSpell .. "@mouseover] " .. anAction .. "\n";
 		tText = tText .. tSpellPost;
 	else
 		if aPet and VUHDO_SPELL_ID.REBIRTH ~= anAction then
@@ -353,7 +386,7 @@ local function VUHDO_generateRaidMacroTemplate(anAction, anIsKeyboard, aTarget, 
 		else
 			tVehicleCond = "";
 		end
-		tText = tText .. "/use [" .. tModiSpell .. "nounithasvehicleui,@vuhdo]" .. tVehicleCond .. " " .. anAction .. "\n";
+		tText = tText .. tCastText .. "[" .. tModiSpell .. "nounithasvehicleui,@vuhdo]" .. tVehicleCond .. " " .. anAction .. "\n";
 		tText = tText .. tSpellPost;
 		if aPet then
 			tText = tText .. "/tar [unithasvehicleui,@vdpet]\n";

@@ -524,9 +524,24 @@ end
 
 
 --
+local tResurrectionSpells;
+local tKnownResurrectionSpells;
 function VUHDO_getResurrectionSpells()
-	return (VUHDO_RESURRECTION_SPELLS[VUHDO_PLAYER_CLASS] or sEmpty)[1],
-		(VUHDO_RESURRECTION_SPELLS[VUHDO_PLAYER_CLASS] or sEmpty)[2];
+	tResurrectionSpells = (VUHDO_RESURRECTION_SPELLS[VUHDO_PLAYER_CLASS] or sEmpty)[GetSpecialization() or 0];
+
+	if tResurrectionSpells then
+		tKnownResurrectionSpells = { };
+
+		for _, tResurrectionSpell in ipairs(tResurrectionSpells) do
+			if VUHDO_isSpellKnown(tResurrectionSpell) then
+				tinsert(tKnownResurrectionSpells, tResurrectionSpell);
+			end
+		end
+
+		return unpack(tKnownResurrectionSpells);
+	else
+		return nil;
+	end
 end
 
 
@@ -673,6 +688,7 @@ function VUHDO_isActionValid(anActionName, anIsCustom)
 	 or VUHDO_SPELL_KEY_TELL == tActionLowerName
 	 or VUHDO_SPELL_KEY_TARGET == tActionLowerName 
 	 or VUHDO_SPELL_KEY_EXTRAACTIONBUTTON == tActionLowerName 
+	 or VUHDO_SPELL_KEY_MOUSELOOK == tActionLowerName 
 	 or VUHDO_SPELL_KEY_DROPDOWN == tActionLowerName then
 		return VUHDO_I18N_COMMAND, 0.8, 1, 0.8, "CMD";
 	end
@@ -774,8 +790,12 @@ end
 local tPlayerX, tPlayerY;
 local tUnitX, tUnitY;
 local tFacing;
+local tIsInInstance;
 function VUHDO_getUnitDirection(aUnit)
-	if (WorldMapFrame ~= nil and WorldMapFrame:IsShown())
+	-- as of patch 7.1 GetPlayerFacing()/GetPlayerMapPosition() do not function inside instances
+	tIsInInstance, _ = IsInInstance();
+
+	if tIsInInstance or (WorldMapFrame ~= nil and WorldMapFrame:IsShown())
 		or (GetMouseFocus() ~= nil and GetMouseFocus():GetName() == nil) then
 		return nil;
 	end

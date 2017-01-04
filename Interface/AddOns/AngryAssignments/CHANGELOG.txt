@@ -1,3 +1,19 @@
+## v1.8.6
+
+* Small bug fix for chat output.
+
+## v1.8.5
+
+* Fix for displaying backdrop in 7.1
+
+## v1.8.4
+
+* Fixed bug when displaying assignments with growth direction down on 7.1
+
+## v1.8.3
+
+* ToC update for 7.1
+
 ## v1.8.2
 
 * Added ability to set categories for other categories, so can have multi-layered categories.

@@ -28,7 +28,6 @@ L["forms"] = "Forms"
 L["forms_desc"] = "Warn for form changes."
 L["troll_message"] = "Troll Form"
 L["troll_trigger"] = "Make way for da Nalorakk!"
-
 end
 L = mod:GetLocale()
 

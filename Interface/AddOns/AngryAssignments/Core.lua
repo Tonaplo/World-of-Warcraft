@@ -12,8 +12,8 @@ BINDING_NAME_AngryAssign_LOCK = "Toggle Lock"
 BINDING_NAME_AngryAssign_DISPLAY = "Toggle Display"
 BINDING_NAME_AngryAssign_OUTPUT = "Output Assignment to Chat"
 
-local AngryAssign_Version = 'v1.8.2'
-local AngryAssign_Timestamp = '20160828140714'
+local AngryAssign_Version = 'v1.8.6'
+local AngryAssign_Timestamp = '20161128220122'
 
 local protocolVersion = 1
 local comPrefix = "AnAss"..protocolVersion
@@ -777,7 +777,7 @@ function AngryAssign_PageMenu(pageId)
 end
 
 local CategoriesDropDownList
-function AngryAssign_CategoryMenu(catId)
+local function AngryAssign_CategoryMenu(catId)
 	local cat = AngryAssign_Categories[catId]
 	if not cat then return end
 
@@ -1157,7 +1157,7 @@ function AngryAssign:UpdateTree(id)
 	if not self.window then return end
 	self.window.tree:SetTree( self:GetTree() )
 	if id then
-		self.window.tree:SelectByValue( id )
+		self:SetSelectedId( id )
 	end
 end
 
@@ -1684,13 +1684,9 @@ function AngryAssign:UpdateDirection()
 		self.display_text:ClearAllPoints()
 		self.display_text:SetPoint("BOTTOMLEFT", 0, 8)
 		self.display_text:SetPoint("RIGHT", 0, 0)
-		self.display_text:SetInsertMode("BOTTOM")
+		self.display_text:SetInsertMode(SCROLLING_MESSAGE_FRAME_INSERT_MODE_BOTTOM)
 		self.direction_button:GetNormalTexture():SetTexCoord(0, 0.5, 0.5, 1)
 		self.direction_button:GetPushedTexture():SetTexCoord(0.5, 1, 0.5, 1)
-
-		self.backdrop:ClearAllPoints()
-		self.backdrop:SetPoint("BOTTOMLEFT", -4, -4)
-		self.backdrop:SetPoint("BOTTOMRIGHT", 4, -4)
 
 		self.display_glow:ClearAllPoints()
 		self.display_glow:SetPoint("BOTTOM", 0, -4)
@@ -1701,13 +1697,9 @@ function AngryAssign:UpdateDirection()
 		self.display_text:ClearAllPoints()
 		self.display_text:SetPoint("TOPLEFT", 0, -8)
 		self.display_text:SetPoint("RIGHT", 0, 0)
-		self.display_text:SetInsertMode("TOP")
+		self.display_text:SetInsertMode(SCROLLING_MESSAGE_FRAME_INSERT_MODE_TOP)
 		self.direction_button:GetNormalTexture():SetTexCoord(0, 0.5, 0, 0.5)
 		self.direction_button:GetPushedTexture():SetTexCoord(0.5, 1, 0, 0.5)
-
-		self.backdrop:ClearAllPoints()
-		self.backdrop:SetPoint("TOPLEFT", -4, 4)
-		self.backdrop:SetPoint("TOPRIGHT", 4, 4)
 
 		self.display_glow:ClearAllPoints()
 		self.display_glow:SetPoint("TOP", 0, 4)
@@ -1723,21 +1715,24 @@ function AngryAssign:UpdateDirection()
 end
 
 function AngryAssign:UpdateBackdrop()
-	local regions = { self.display_text:GetRegions() }
-
-	local min, max, last_height
-	for i, region in ipairs(regions) do
-		if region:GetObjectType() == "FontString" then
-			local position = region:GetBottom()
-			if min == nil or position < min then min = position end
-			if max == nil or position > max then
-				max = position
-				last_height = region:GetHeight()
-			end
+	local first, last
+	for lineIndex, visibleLine in ipairs(self.display_text.visibleLines) do
+		local messageInfo = self.display_text.historyBuffer:GetEntryAtIndex(lineIndex)
+		if messageInfo then
+			if not first then first = visibleLine end
+			last = visibleLine
 		end
 	end
-	if min ~= nil and max ~= nil and self:GetConfig('backdropShow') then
-		self.backdrop:SetHeight( max - min + last_height + 8 )
+
+	if first and last and self:GetConfig('backdropShow') then
+		self.backdrop:ClearAllPoints()
+		if AngryAssign_State.directionUp then
+			self.backdrop:SetPoint("TOPLEFT", last, "TOPLEFT", -4, 4)
+			self.backdrop:SetPoint("BOTTOMRIGHT", first, "BOTTOMRIGHT", 4, -4)
+		else
+			self.backdrop:SetPoint("TOPLEFT", first, "TOPLEFT", -4, 4)
+			self.backdrop:SetPoint("BOTTOMRIGHT", last, "BOTTOMRIGHT", 4, -4)
+		end
 		self.backdrop:SetColorTexture( HexToRGB(self:GetConfig('backdropColor')) )
 		self.backdrop:Show()
 	else
@@ -1994,6 +1989,7 @@ function AngryAssign:OutputDisplayed(id)
 			:gsub(ci_pattern('{skull}'), "{rt8}")
 			:gsub(ci_pattern('{healthstone}'), "{hs}")
 			:gsub(ci_pattern('{hs}'), 'Healthstone')
+			:gsub(ci_pattern('{bloodlust}'), "{bl}")
 			:gsub(ci_pattern('{bl}'), 'Bloodlust')
 			:gsub(ci_pattern('{icon%s+([%w_]+)}'), '')
 			:gsub(ci_pattern('{damage}'), 'Damage')

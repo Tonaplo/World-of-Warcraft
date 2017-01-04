@@ -494,7 +494,7 @@ o.GUIpagingHelper = function(N)
 						row.text1:SetTextColor(1,1,1,0.6)
 						row.text2:SetTextColor(1,1,1,0.6)
 						row.percent:SetTextColor(1,1,1,0.6)
-						row:Disable()
+						row:Enable()
 						row.star:Hide()
 					end
 				end

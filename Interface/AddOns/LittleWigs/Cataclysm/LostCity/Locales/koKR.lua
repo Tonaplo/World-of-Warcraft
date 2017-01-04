@@ -7,5 +7,4 @@ L["phase_warning"] = "곧 2 단계!"
 L["servant"] = "하수인 소환"
 L["servant_desc"] = "시아마트의 하수인 소환을 알립니다."
 L["servant_message"] = "시아마트의 하수인 소환!"
-
 end

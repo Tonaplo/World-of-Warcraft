@@ -1,8 +1,14 @@
 # BigWigs
 
-## [v29](https://github.com/BigWigsMods/BigWigs/tree/v29) (2016-12-12) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v28...v29)
+## [v31](https://github.com/BigWigsMods/BigWigs/tree/v31) (2016-12-27) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v30.1...v31)
 
 - bump version  
-- Loader: Change a callback error to a soft error (print) that doesn't break things, since more addons are doing it wrong than I thought.  
-- Core/BossPrototype: Fix an incorrect callback.  
+- Review and update ptBR translation (#142)  
+- Revert "Helya: cleanup"  
+- Helya: cleanup  
+- Helya: Count the breaths  
+- Helya:  
+    - Reduce message spam (add spawns and mythic add casts in P2)  
+    - Fix mythic Fury of the Maw timer  
+    - Improve Taint of the Sea removed messages  

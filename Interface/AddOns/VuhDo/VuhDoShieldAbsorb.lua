@@ -20,7 +20,6 @@ local VUHDO_SHIELDS = {
 
 --
 local VUHDO_PUMP_SHIELDS = {
-	[VUHDO_SPELL_ID.CLARITY_OF_WILL] = 0.75,
 }
 
 
@@ -47,6 +46,10 @@ local VUHDO_ABSORB_DEBUFFS = {
 
 	-- Patch 7.0 - Legion
 	[221772] = function(aUnit) return select(17, UnitDebuff(aUnit, VUHDO_SPELL_ID.DEBUFF_OVERFLOW)), 10 * 60; end, -- Mythic+ affix
+
+	-- Patch 7.1 - Legion - Trial of Valor
+	[228253] = function(aUnit) return select(17, UnitDebuff(aUnit, VUHDO_SPELL_ID.DEBUFF_SHADOW_LICK)), 10 * 60; end, -- Shadow Lick
+	[232450] = function(aUnit) return select(17, UnitDebuff(aUnit, VUHDO_SPELL_ID.DEBUFF_CORRUPTED_AXION)), 10 * 60; end, -- Corrupted Axion
 
 	--[79105] = function(aUnit) return 280000, 60 * 60; end, -- @TESTING PW:F
 };
@@ -109,6 +112,9 @@ local function VUHDO_initShieldValue(aUnit, aShieldName, anAmount, aDuration)
 
 	if sIsPumpAegis and VUHDO_PUMP_SHIELDS[aShieldName] then
 		VUHDO_SHIELD_SIZE[aUnit][aShieldName] = VUHDO_RAID["player"]["healthmax"] * VUHDO_PUMP_SHIELDS[aShieldName];
+	elseif aShieldName == VUHDO_SPELL_ID.CLARITY_OF_WILL then
+		-- as of patch 7.0 Priest CoW is capped at twice the initial cast amount
+		VUHDO_SHIELD_SIZE[aUnit][aShieldName] = anAmount * 2;
 	else
 		VUHDO_SHIELD_SIZE[aUnit][aShieldName] = anAmount;
 	end

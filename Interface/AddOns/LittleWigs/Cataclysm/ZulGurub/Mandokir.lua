@@ -30,7 +30,6 @@ L["Ohgan_message"] = "Ohgan rebirth!"
 L["rebirth"] = "Ghost rebirth"
 L["rebirth_desc"] = "Warn for Ghost rebirth remaining."
 L["rebirth_message"] = "Ghost rebirth - %d left"
-
 end
 L = mod:GetLocale()
 

@@ -59,6 +59,16 @@ local myTaskPOI
 
 local TitleButton_RarityColorTable = { [LE_WORLD_QUEST_QUALITY_COMMON] = 110, [LE_WORLD_QUEST_QUALITY_RARE] = 113, [LE_WORLD_QUEST_QUALITY_EPIC] = 120 }
 
+local My_HideDropDownMenu, My_DropDownList1, My_UIDropDownMenu_AddButton, My_UIDropDownMenu_Initialize, My_ToggleDropDownMenu, My_UIDropDownMenuTemplate
+function QF:BeforeStartup()
+	My_HideDropDownMenu = Lib_HideDropDownMenu or HideDropDownMenu
+	My_DropDownList1 = Lib_DropDownList1 or DropDownList1
+	My_UIDropDownMenu_AddButton = Lib_UIDropDownMenu_AddButton or UIDropDownMenu_AddButton
+	My_UIDropDownMenu_Initialize = Lib_UIDropDownMenu_Initialize or UIDropDownMenu_Initialize
+	My_ToggleDropDownMenu = Lib_ToggleDropDownMenu or ToggleDropDownMenu
+	My_UIDropDownMenuTemplate = Lib_UIDropDownMenu_Initialize and "Lib_UIDropDownMenuTemplate" or "UIDropDownMenuTemplate"
+end
+
 local QuestMapFrame_IsQuestWorldQuest = QuestUtils_IsQuestWorldQuest or QuestMapFrame_IsQuestWorldQuest
 
 -- ===================
@@ -211,10 +221,8 @@ local function TitleButton_OnClick(self, button)
 		end
 	else
 		PlaySound("igMainMenuOptionCheckBoxOn")
-		if IsModifiedClick("CHATLINK") and ChatEdit_GetActiveWindow() then
-			local title, factionID, capped = C_TaskQuest.GetQuestInfoByQuestID(self.questID)
-			-- ChatEdit_InsertLink( string.format("|cffffff00|Hquest:%d:110|h[%s]|h|r", self.questID, title) )
-			ChatEdit_InsertLink( string.format("[%s]", title) )
+		if ChatEdit_TryInsertQuestLinkForQuestID(self.questID) then
+			
 		elseif ( button == "RightButton" ) then
 			if ( self.mapID ) then
 				SetMapByID(self.mapID)
@@ -309,7 +317,7 @@ local function FilterMenu_Initialize(self, level)
 		info.text = ALL
 		info.value = 0
 		info.checked = info.value == value
-		UIDropDownMenu_AddButton(info, level)
+		My_UIDropDownMenu_AddButton(info, level)
 
 		local bounties = GetQuestBountyInfoForMapID(MAPID_BROKENISLES)
 		for _, bounty in ipairs(bounties) do
@@ -318,7 +326,7 @@ local function FilterMenu_Initialize(self, level)
 				info.icon = bounty.icon
 				info.value = bounty.questID
 				info.checked = info.value == value
-				UIDropDownMenu_AddButton(info, level)
+				My_UIDropDownMenu_AddButton(info, level)
 			end
 		end
 	elseif self.index == FILTER_LOOT then
@@ -328,25 +336,25 @@ local function FilterMenu_Initialize(self, level)
 		info.text = ALL
 		info.value = FILTER_LOOT_ALL
 		info.checked = info.value == value
-		UIDropDownMenu_AddButton(info, level)
+		My_UIDropDownMenu_AddButton(info, level)
 
 		info.text = Addon.Locale.UPGRADES
 		info.value = FILTER_LOOT_UPGRADES
 		info.checked = info.value == value
-		UIDropDownMenu_AddButton(info, level)
+		My_UIDropDownMenu_AddButton(info, level)
 	elseif self.index == FILTER_ZONE then
 		local value = Config.filterZone
 
 		info.text = Addon.Locale.CURRENT_ZONE
 		info.value = 0
 		info.checked = info.value == value
-		UIDropDownMenu_AddButton(info, level)
+		My_UIDropDownMenu_AddButton(info, level)
 
 		for _,mapID in ipairs(MAPID_ALL) do
 			info.text = GetMapNameByID(mapID)
 			info.value = mapID
 			info.checked = info.value == value
-			UIDropDownMenu_AddButton(info, level)
+			My_UIDropDownMenu_AddButton(info, level)
 		end
 	elseif self.index == FILTER_FACTION then
 		local value = Config.filterFaction
@@ -355,7 +363,7 @@ local function FilterMenu_Initialize(self, level)
 			info.text =  GetFactionInfoByID(factionID)
 			info.value = factionID
 			info.checked = info.value == value
-			UIDropDownMenu_AddButton(info, level)
+			My_UIDropDownMenu_AddButton(info, level)
 		end
 	elseif self.index == FILTER_TIME then
 		local value = Config.filterTime ~= 0 and Config.filterTime or Config.timeFilterDuration
@@ -364,7 +372,7 @@ local function FilterMenu_Initialize(self, level)
 			info.text = string.format(FORMATED_HOURS, hours)
 			info.value = hours
 			info.checked = info.value == value
-			UIDropDownMenu_AddButton(info, level)
+			My_UIDropDownMenu_AddButton(info, level)
 		end
 	elseif self.index == FILTER_SORT then
 		local value = Config.sortMethod
@@ -372,7 +380,7 @@ local function FilterMenu_Initialize(self, level)
 		info.text = FILTER_NAMES[ self.index ]
 		info.notCheckable = true
 		info.isTitle = true
-		UIDropDownMenu_AddButton(info, level)
+		My_UIDropDownMenu_AddButton(info, level)
 
 		info.notCheckable = false
 		info.isTitle = false
@@ -381,19 +389,19 @@ local function FilterMenu_Initialize(self, level)
 			info.text =  Addon.Locale["config_sortMethod_"..sortIndex]
 			info.value = sortIndex
 			info.checked = info.value == value
-			UIDropDownMenu_AddButton(info, level)
+			My_UIDropDownMenu_AddButton(info, level)
 		end
 	end
 end
 
 local function FilterButton_ShowMenu(self)
 	if not filterMenu then
-		filterMenu = CreateFrame("Button", "DropDownMenuTest", QuestMapFrame, "UIDropDownMenuTemplate")
+		filterMenu = CreateFrame("Button", "DropDownMenuAWQ", QuestMapFrame, My_UIDropDownMenuTemplate)
 	end
 
 	filterMenu.index = self.index
-	UIDropDownMenu_Initialize(filterMenu, FilterMenu_Initialize, "MENU")
-	ToggleDropDownMenu(1, nil, filterMenu, self, 0, 0)
+	My_UIDropDownMenu_Initialize(filterMenu, FilterMenu_Initialize, "MENU")
+	My_ToggleDropDownMenu(1, nil, filterMenu, self, 0, 0)
 end
 
 local function FilterButton_OnClick(self, button)
@@ -401,14 +409,15 @@ local function FilterButton_OnClick(self, button)
 	if (button == 'RightButton' and (self.index == FILTER_EMISSARY or self.index == FILTER_LOOT or self.index == FILTER_FACTION or self.index == FILTER_ZONE  or self.index == FILTER_TIME))
 			or (self.index == FILTER_SORT)
 			or (self.index == FILTER_FACTION and not Config:GetFilter(FILTER_FACTION) and Config.filterFaction == 0) then
-		if filterMenu and UIDROPDOWNMENU_OPEN_MENU == filterMenu and DropDownList1:IsShown() and filterMenu.index == self.index then
-			HideDropDownMenu(1)
+		local MY_UIDROPDOWNMENU_OPEN_MENU = Lib_UIDropDownMenu_Initialize and LIB_UIDROPDOWNMENU_OPEN_MENU or UIDROPDOWNMENU_OPEN_MENU
+		if filterMenu and MY_UIDROPDOWNMENU_OPEN_MENU == filterMenu and My_DropDownList1:IsShown() and filterMenu.index == self.index then
+			My_HideDropDownMenu(1)
 		else
-			HideDropDownMenu(1)
+			My_HideDropDownMenu(1)
 			FilterButton_ShowMenu(self)
 		end
 	else
-		HideDropDownMenu(1)
+		My_HideDropDownMenu(1)
 		if IsShiftKeyDown() then
 			if self.index == FILTER_EMISSARY then Config:Set('filterEmissary', 0, true) end
 			if self.index == FILTER_LOOT then Config:Set('filterLoot', 0, true) end
@@ -1215,6 +1224,18 @@ function QF:FrameUpdate()
 	MapFrame_Update()
 end
 
+function AddQuestTimeToTooltip(questID)
+	local timeLeftMinutes = C_TaskQuest.GetQuestTimeLeftMinutes(questID)
+	if timeLeftMinutes and timeLeftMinutes >= 24 * 60 + WORLD_QUESTS_TIME_CRITICAL_MINUTES then
+		local daysLeft = math.floor( (timeLeftMinutes - WORLD_QUESTS_TIME_CRITICAL_MINUTES) / 1440 )
+		local hoursLeft = math.floor( (timeLeftMinutes - WORLD_QUESTS_TIME_CRITICAL_MINUTES - daysLeft * 1440) / 60 )
+
+		local color = NORMAL_FONT_COLOR;
+		local timeString = string.format("%s %s", D_DAYS:format(daysLeft), D_HOURS:format(hoursLeft))
+		_G["WorldMapTooltipTextLeft"..WorldMapTooltip:NumLines()]:SetText(BONUS_OBJECTIVE_TIME_LEFT:format(timeString), color.r, color.g, color.b)
+	end
+end
+
 function QF:Startup()
 	Config = Addon.Config
 
@@ -1244,6 +1265,7 @@ function QF:Startup()
 	hooksecurefunc("QuestLogQuests_Update", QuestFrame_Update)
 	hooksecurefunc("WorldMapTrackingOptionsDropDown_OnClick", QuestFrame_Update)
 	hooksecurefunc("WorldMap_UpdateQuestBonusObjectives", UpdateQuestBonusObjectives)
+	hooksecurefunc("WorldMap_AddQuestTimeToTooltip", AddQuestTimeToTooltip)
 
 	myTaskPOI = WorldMap_GetOrCreateTaskPOI("AWQ0")
 	myTaskPOI:Hide()

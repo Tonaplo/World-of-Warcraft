@@ -1,6 +1,6 @@
-## Interface:  70000
+## Interface:  70100
 ## Title: mOnAr's WardrobeHelper
-## Version: 1.16
+## Version: 1.16.3
 ## Author: Seamoon/mOnAr
 ## Notes:
 ## SavedVariables: mOnWDSave
@@ -50,7 +50,7 @@ customCategories\Tier15.lua
 customCategories\Tier16.lua
 customCategories\Tier17.lua
 customCategories\Tier18.lua
-customCategories\LegionInvasion.lua
+customCategories\Season1.lua
 
 additionalInstanceData\additionalData.lua
 

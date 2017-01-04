@@ -427,14 +427,16 @@ function VUHDO_OnEvent(_, anEvent, anArg1, anArg2, anArg3, anArg4, anArg5, anArg
 		end
 
 	elseif "UNIT_HEALTH" == anEvent then
-		if not anArg1 then return end --fix unit==nil on HEALTH-Events in patch 7.1
-		if (VUHDO_RAID or tEmptyRaid)[anArg1] then VUHDO_updateHealth(anArg1, 2); end -- VUHDO_UPDATE_HEALTH
+		-- as of patch 7.1 we are seeing empty units on health related events
+		if anArg1 and (VUHDO_RAID or tEmptyRaid)[anArg1] then 
+			VUHDO_updateHealth(anArg1, 2); -- VUHDO_UPDATE_HEALTH
+		end
 
 	-- TODO: is it ok to listen to both UNIT_HEALTH and UNIT_HEALTH_FREQUENT?
 	-- TODO: add options based on desired responsiveness and performance
 	elseif "UNIT_HEALTH_FREQUENT" == anEvent then
-		if not anArg1 then return end --fix unit==nil on HEALTH-Events in patch 7.1
- 		if (VUHDO_RAID or tEmptyRaid)[anArg1] or VUHDO_isBossUnit(anArg1) then
+		-- as of patch 7.1 we are seeing empty units on health related events
+		if anArg1 and ((VUHDO_RAID or tEmptyRaid)[anArg1] or VUHDO_isBossUnit(anArg1)) then
  			VUHDO_updateHealth(anArg1, 2);
  		end
 
@@ -485,8 +487,10 @@ function VUHDO_OnEvent(_, anEvent, anArg1, anArg2, anArg3, anArg4, anArg5, anArg
 		VUHDO_setIsOutOfCombat(false);
 
 	elseif "UNIT_MAXHEALTH" == anEvent then
-		if not anArg1 then return end --fix unit==nil on HEALTH-Events in patch 7.1
-		if (VUHDO_RAID or tEmptyRaid)[anArg1] then VUHDO_updateHealth(anArg1, VUHDO_UPDATE_HEALTH_MAX); end
+		-- as of patch 7.1 we are seeing empty units on health related events
+		if anArg1 and (VUHDO_RAID or tEmptyRaid)[anArg1] then 
+			VUHDO_updateHealth(anArg1, VUHDO_UPDATE_HEALTH_MAX);
+		end
 
 	elseif "UNIT_TARGET" == anEvent then
 		if VUHDO_VARIABLES_LOADED and "player" ~= anArg1 then
@@ -635,7 +639,7 @@ function VUHDO_OnEvent(_, anEvent, anArg1, anArg2, anArg3, anArg4, anArg5, anArg
 	elseif "LFG_PROPOSAL_SUCCEEDED" == anEvent then
 		VUHDO_lateRaidReload();
 	--elseif("UPDATE_MACROS" == anEvent) then
-		--VUHDO_timeReloadUI(0.1); -- @WARNING Lädt wg. shield macro alle 8 sec.
+		--VUHDO_timeReloadUI(0.1); -- @WARNING Lï¿½dt wg. shield macro alle 8 sec.
 
 	elseif "UNIT_FACTION" == anEvent then
 		if (VUHDO_RAID or tEmptyRaid)[anArg1] then VUHDO_updateBouquetsForEvent(anArg1, VUHDO_UPDATE_MINOR_FLAGS); end
@@ -714,7 +718,7 @@ function VUHDO_slashCmd(aCommand)
 
 	elseif tCommandWord == "load" and tParsedTexts[2] then
 		local tTokens = VUHDO_splitString(tParsedTexts[2] .. (tParsedTexts[3] or ""), ",");
-		if #tTokens >= 2 and not VUHDO_strempty(tTokens[2]) > 0 then
+		if #tTokens >= 2 and not VUHDO_strempty(tTokens[2]) then
 			local tName = strtrim(tTokens[2]);
 			if (VUHDO_SPELL_LAYOUTS[tName] ~= nil) then
 				VUHDO_activateLayout(tName);
@@ -758,9 +762,9 @@ function VUHDO_slashCmd(aCommand)
 		VUHDO_ctraBroadCastMaintanks();
 		VUHDO_Msg(VUHDO_I18N_MTS_BROADCASTED);
 
-	--[[elseif (tCommandWord == "pron") then
+	elseif (tCommandWord == "pron") then
 		SetCVar("scriptProfile", "1");
-		ReloadUI();]]
+		ReloadUI();
 	elseif tCommandWord == "proff" then
 		SetCVar("scriptProfile", "0");
 		ReloadUI();
@@ -801,8 +805,11 @@ function VUHDO_slashCmd(aCommand)
 
 
 	elseif aCommand == "?" or strfind(tCommandWord, "help")	or aCommand == "" then
-		local tLines = VUHDO_splitString(VUHDO_I18N_COMMAND_LIST, "§");
-		for _, tCurLine in ipairs(tLines) do VUHDO_MsgC(tCurLine); end
+		local tLines = VUHDO_splitString(VUHDO_I18N_COMMAND_LIST, "ï¿½");
+
+		for _, tCurLine in ipairs(tLines) do 
+			VUHDO_MsgC(tCurLine);
+		end
 	else
 		VUHDO_Msg(VUHDO_I18N_BAD_COMMAND, 1, 0.4, 0.4);
 	end
@@ -1125,7 +1132,7 @@ local function VUHDO_doReloadRoster(anIsQuick)
 			end
 		end
 
-		VUHDO_initDebuffs(); -- Verzögerung nach Taltentwechsel-Spell?
+		VUHDO_initDebuffs(); -- Verzï¿½gerung nach Taltentwechsel-Spell?
 	end
 end
 
