@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
 	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["_1000000"] = 2500,
+	["_200000"] = 1000,
+	["LOG_DE_DATA_X"] = true,
 	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
-	["LOG_DE_DATA_X"] = true,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -30,16 +30,34 @@ AUCTIONATOR_SHOPPING_LISTS = {
 		["isSorted"] = false,
 	}, -- [2]
 }
-AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = nil
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
 	["Tichondrius_Alliance"] = {
 	},
+	["Proudmoore_Alliance"] = {
+	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
+	["Farahn"] = {
+		["firstSeen"] = 1483600164,
+		["firstVersion"] = "4.0.16",
+	},
 	["Mallusof"] = {
 		["firstSeen"] = 1483496960,
+		["firstVersion"] = "4.0.16",
+	},
+	["Amranar"] = {
+		["firstSeen"] = 1483766799,
+		["firstVersion"] = "4.0.16",
+	},
+	["Morifa"] = {
+		["firstSeen"] = 1483926402,
+		["firstVersion"] = "4.0.16",
+	},
+	["Praerend"] = {
+		["firstSeen"] = 1483896128,
 		["firstVersion"] = "4.0.16",
 	},
 }

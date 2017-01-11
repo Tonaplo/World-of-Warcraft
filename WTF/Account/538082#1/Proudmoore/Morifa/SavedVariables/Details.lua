@@ -13,62 +13,60 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Mallusof-Proudmoore",
-	["last_day"] = "19",
+	["last_day"] = "08",
 	["ignore_nicktag"] = false,
-	["combat_counter"] = 107,
+	["combat_counter"] = 119,
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 75,
+					["combatId"] = 86,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Oublion"] = true,
-								["Queen Kraklaa"] = true,
+								["Flashwyrm"] = true,
 							},
 							["targets"] = {
-								["Oublion"] = 1864142,
-								["Queen Kraklaa"] = 1370310,
+								["Flashwyrm"] = 994426,
 							},
 							["pets"] = {
 							},
+							["spec"] = 63,
 							["on_hold"] = false,
 							["classe"] = "MAGE",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 3234452.005726,
+							["total_without_pet"] = 994426.004015,
+							["end_time"] = 1483927073,
 							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 994426.004015,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["end_time"] = 1479542560,
 							["friendlyfire_total"] = 0,
-							["spec"] = 63,
 							["nome"] = "Morifa",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									[133] = {
-										["c_amt"] = 15,
+									[31661] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 588417,
+										["c_dmg"] = 120969,
 										["g_amt"] = 0,
-										["n_max"] = 21319,
+										["n_max"] = 31297,
 										["targets"] = {
-											["Oublion"] = 669430,
-											["Queen Kraklaa"] = 260095,
+											["Flashwyrm"] = 182623,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 341108,
-										["n_min"] = 18477,
+										["n_dmg"] = 61654,
+										["n_min"] = 30357,
 										["g_dmg"] = 0,
-										["counter"] = 32,
-										["total"] = 929525,
-										["c_max"] = 41218,
-										["id"] = 133,
+										["counter"] = 4,
+										["total"] = 182623,
+										["c_max"] = 62575,
+										["id"] = 31661,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -77,28 +75,55 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 17,
+										["n_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 36954,
+										["c_min"] = 58394,
+									},
+									[108853] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 70300,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Flashwyrm"] = 70300,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 70300,
+										["c_max"] = 35150,
+										["id"] = 108853,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 35150,
 									},
 									[44461] = {
 										["c_amt"] = 5,
 										["b_amt"] = 0,
-										["c_dmg"] = 87070,
+										["c_dmg"] = 95753,
 										["g_amt"] = 0,
-										["n_max"] = 9746,
+										["n_max"] = 9709,
 										["targets"] = {
-											["Oublion"] = 87719,
-											["Queen Kraklaa"] = 36387,
+											["Flashwyrm"] = 161036,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 37036,
-										["n_min"] = 8772,
+										["n_dmg"] = 65283,
+										["n_min"] = 8704,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 124106,
-										["c_max"] = 17544,
-										["IMMUNE"] = 1,
+										["counter"] = 12,
+										["total"] = 161036,
+										["c_max"] = 19419,
 										["id"] = 44461,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -108,29 +133,27 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 7,
 										["r_amt"] = 0,
-										["c_min"] = 16894,
+										["c_min"] = 18749,
 									},
-									[11366] = {
-										["c_amt"] = 5,
+									[133] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 426723,
+										["c_dmg"] = 39546,
 										["g_amt"] = 0,
-										["n_max"] = 46721,
+										["n_max"] = 0,
 										["targets"] = {
-											["Oublion"] = 534180,
-											["Queen Kraklaa"] = 471886,
+											["Flashwyrm"] = 39546,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 579343,
-										["n_min"] = 40492,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 1006066,
-										["c_max"] = 90328,
-										["IMMUNE"] = 1,
-										["id"] = 11366,
+										["counter"] = 1,
+										["total"] = 39546,
+										["c_max"] = 39546,
+										["id"] = 133,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -139,27 +162,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 13,
+										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 80984,
+										["c_min"] = 39546,
 									},
 									[194466] = {
-										["c_amt"] = 4,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 260701,
+										["c_dmg"] = 138094,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Queen Kraklaa"] = 197353,
-											["Oublion"] = 63348,
+											["Flashwyrm"] = 138094,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 260701,
-										["c_max"] = 68221,
+										["counter"] = 2,
+										["total"] = 138094,
+										["c_max"] = 72813,
 										["id"] = 194466,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -171,27 +193,25 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 63348,
+										["c_min"] = 65281,
 									},
-									[12654] = {
-										["c_amt"] = 0,
+									[2120] = {
+										["c_amt"] = 3,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 145527,
 										["g_amt"] = 0,
-										["n_max"] = 8110,
+										["n_max"] = 24254,
 										["targets"] = {
-											["Oublion"] = 203330,
-											["Queen Kraklaa"] = 194761,
+											["Flashwyrm"] = 259869,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 398091,
-										["n_min"] = 936,
+										["n_dmg"] = 114342,
+										["n_min"] = 22522,
 										["g_dmg"] = 0,
-										["counter"] = 107,
-										["total"] = 398091,
-										["c_max"] = 0,
-										["IMMUNE"] = 5,
-										["id"] = 12654,
+										["counter"] = 8,
+										["total"] = 259869,
+										["c_max"] = 48509,
+										["id"] = 2120,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -200,59 +220,27 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 102,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 48509,
 									},
-									[217694] = {
-										["c_amt"] = 14,
+									[224637] = {
+										["c_amt"] = 3,
 										["b_amt"] = 0,
-										["c_dmg"] = 78802,
-										["g_amt"] = 0,
-										["n_max"] = 3047,
-										["targets"] = {
-											["Oublion"] = 87838,
-											["Queen Kraklaa"] = 51790,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 60826,
-										["n_min"] = 2640,
-										["g_dmg"] = 0,
-										["counter"] = 37,
-										["total"] = 139628,
-										["c_max"] = 6093,
-										["IMMUNE"] = 1,
-										["id"] = 217694,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 22,
-										["r_amt"] = 0,
-										["c_min"] = 5280,
-									},
-									[108853] = {
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 376335,
+										["c_dmg"] = 65277,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Oublion"] = 218297,
-											["Queen Kraklaa"] = 158038,
+											["Flashwyrm"] = 65277,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 376335,
-										["c_max"] = 34109,
-										["id"] = 108853,
+										["counter"] = 3,
+										["total"] = 65277,
+										["c_max"] = 21759,
+										["id"] = 224637,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -263,58 +251,114 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 29561,
+										["c_min"] = 21759,
+									},
+									[217694] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 17580,
+										["g_amt"] = 0,
+										["n_max"] = 3139,
+										["targets"] = {
+											["Flashwyrm"] = 32437,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14857,
+										["n_min"] = 2720,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 32437,
+										["c_max"] = 6279,
+										["id"] = 217694,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 5441,
+									},
+									[12654] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1797,
+										["targets"] = {
+											["Flashwyrm"] = 45244,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 45244,
+										["n_min"] = 810,
+										["g_dmg"] = 0,
+										["counter"] = 38,
+										["total"] = 45244,
+										["c_max"] = 0,
+										["id"] = 12654,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 38,
+										["r_amt"] = 0,
+										["c_min"] = 0,
 									},
 								},
 							},
 							["grupo"] = true,
-							["total"] = 3234452.005726,
 							["serial"] = "Player-5-0A174C95",
-							["last_dps"] = 29460.3516324445,
+							["last_dps"] = 59397.0854148308,
 							["custom"] = 0,
-							["last_event"] = 1479542559,
-							["damage_taken"] = 392301.005726,
-							["start_time"] = 1479542450,
+							["last_event"] = 1483927073,
+							["damage_taken"] = 146987.004015,
+							["start_time"] = 1483927058,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 75,
+					["combatId"] = 86,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.001298,
+							["totalabsorb"] = 0.007067,
 							["last_hps"] = 0,
 							["healing_from"] = {
 								["Morifa"] = true,
 							},
 							["targets"] = {
-								["Morifa"] = 329182,
+								["Morifa"] = 27250,
 							},
-							["targets_overheal"] = {
-								["Morifa"] = 24118,
+							["targets_absorbs"] = {
 							},
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
-							["targets_absorbs"] = {
+							["totalover_without_pet"] = 0.007067,
+							["targets_overheal"] = {
 							},
 							["classe"] = "MAGE",
-							["totalover"] = 24118.001298,
-							["total_without_pet"] = 329182.001298,
-							["totalover_without_pet"] = 0.001298,
-							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007067,
+							["total_without_pet"] = 27250.007067,
+							["end_time"] = 1483927073,
+							["iniciar_hps"] = false,
 							["fight_component"] = true,
-							["total"] = 329182.001298,
-							["healing_taken"] = 329182.001298,
-							["end_time"] = 1479542560,
+							["total"] = 27250.007067,
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 1483927073,
 							["nome"] = "Morifa",
 							["spec"] = 63,
 							["grupo"] = true,
-							["last_event"] = 1479542559,
+							["healing_taken"] = 27250.007067,
 							["heal_enemy"] = {
 							},
 							["spells"] = {
@@ -325,14 +369,14 @@ _detalhes_database = {
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 24116,
+										["n_max"] = 7289,
 										["targets"] = {
-											["Morifa"] = 305064,
+											["Morifa"] = 27250,
 										},
-										["n_min"] = 889,
-										["counter"] = 55,
+										["n_min"] = 2701,
+										["counter"] = 6,
 										["overheal"] = 0,
-										["total"] = 305064,
+										["total"] = 27250,
 										["c_max"] = 0,
 										["id"] = 11426,
 										["targets_absorbs"] = {
@@ -341,36 +385,9 @@ _detalhes_database = {
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 305064,
+										["n_curado"] = 27250,
 										["m_healed"] = 0,
-										["n_amt"] = 55,
-										["absorbed"] = 0,
-									},
-									[194316] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Morifa"] = 24118,
-										},
-										["n_max"] = 4020,
-										["targets"] = {
-											["Morifa"] = 24118,
-										},
-										["n_min"] = 4019,
-										["counter"] = 12,
-										["overheal"] = 24118,
-										["total"] = 24118,
-										["c_max"] = 0,
-										["id"] = 194316,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 24118,
-										["m_healed"] = 0,
-										["n_amt"] = 12,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 								},
@@ -378,20 +395,20 @@ _detalhes_database = {
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1479542453,
-							["serial"] = "Player-5-0A174C95",
+							["start_time"] = 1483927067,
 							["delay"] = 0,
+							["serial"] = "Player-5-0A174C95",
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 75,
+					["combatId"] = 86,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 75,
+					["combatId"] = 86,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -399,17 +416,8 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[217694] = {
-										["uptime"] = 27,
-										["activedamt"] = 0,
-										["id"] = 217694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
 									[12654] = {
-										["uptime"] = 106,
+										["uptime"] = 15,
 										["activedamt"] = 0,
 										["id"] = 12654,
 										["actived"] = false,
@@ -417,93 +425,77 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-								},
-							},
-							["buff_uptime"] = 471,
-							["classe"] = "MAGE",
-							["interrupt_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[2139] = {
-										["id"] = 2139,
-										["interrompeu_oque"] = {
-											[183020] = 1,
-										},
+									[217694] = {
+										["uptime"] = 6,
+										["activedamt"] = 0,
+										["id"] = 217694,
+										["actived"] = false,
 										["targets"] = {
-											["Oublion"] = 1,
 										},
-										["counter"] = 1,
+										["counter"] = 0,
+									},
+									[2120] = {
+										["uptime"] = 11,
+										["activedamt"] = 0,
+										["id"] = 2120,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[31661] = {
+										["uptime"] = 4,
+										["activedamt"] = 0,
+										["id"] = 31661,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
 									},
 								},
+							},
+							["cc_done_targets"] = {
+								["Flashwyrm"] = 4,
+							},
+							["buff_uptime"] = 49,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[31661] = {
+										["id"] = 31661,
+										["targets"] = {
+											["Flashwyrm"] = 4,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["classe"] = "MAGE",
+							["pets"] = {
 							},
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[157644] = {
-										["uptime"] = 46,
-										["activedamt"] = 10,
-										["id"] = 157644,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[212653] = {
-										["uptime"] = 1,
-										["activedamt"] = 2,
-										["id"] = 212653,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156150] = {
-										["uptime"] = 44,
-										["activedamt"] = 11,
-										["id"] = 156150,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[116267] = {
-										["uptime"] = 110,
+									[11426] = {
+										["uptime"] = 7,
 										["activedamt"] = 1,
-										["id"] = 116267,
+										["id"] = 11426,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 									[48107] = {
-										["uptime"] = 29,
-										["activedamt"] = 17,
+										["uptime"] = 3,
+										["activedamt"] = 3,
 										["id"] = 48107,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									[194316] = {
-										["uptime"] = 12,
-										["activedamt"] = 2,
-										["id"] = 194316,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48108] = {
-										["uptime"] = 21,
-										["activedamt"] = 19,
-										["id"] = 48108,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
 									[156070] = {
-										["uptime"] = 110,
+										["uptime"] = 16,
 										["activedamt"] = 1,
 										["id"] = 156070,
 										["actived"] = false,
@@ -511,10 +503,37 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[11426] = {
-										["uptime"] = 98,
-										["activedamt"] = 4,
-										["id"] = 11426,
+									[48108] = {
+										["uptime"] = 3,
+										["activedamt"] = 2,
+										["id"] = 48108,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[157644] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 157644,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156150] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 156150,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[116267] = {
+										["uptime"] = 16,
+										["activedamt"] = 1,
+										["id"] = 116267,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -522,34 +541,48 @@ _detalhes_database = {
 									},
 								},
 							},
-							["interrompeu_oque"] = {
-								[183020] = 1,
+							["cc_break_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[217694] = {
+										["cc_break_oque"] = {
+											[31661] = 1,
+										},
+										["id"] = 217694,
+										["cc_break"] = 1,
+										["targets"] = {
+											["Flashwyrm"] = 1,
+										},
+										["counter"] = 0,
+									},
+								},
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 133,
-							["interrupt_targets"] = {
-								["Oublion"] = 1,
-							},
+							["debuff_uptime"] = 36,
+							["cc_break"] = 1.00593,
+							["cc_done"] = 4.00274,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 63,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[133] = 31,
-								[2139] = 1,
-								[11426] = 3,
-								[194466] = 4,
-								[44457] = 8,
-								[212653] = 2,
-								[11366] = 19,
-								[108853] = 12,
+								[31661] = 1,
+								[2120] = 2,
+								[133] = 1,
+								[44457] = 1,
+								[108853] = 2,
+								[11426] = 1,
+								[194466] = 2,
 							},
-							["interrupt"] = 1.006066,
+							["cc_break_oque"] = {
+								[31661] = 1,
+							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1479542560,
+							["last_event"] = 1483927073,
 							["nome"] = "Morifa",
-							["pets"] = {
+							["cc_break_targets"] = {
+								["Flashwyrm"] = 1,
 							},
 							["serial"] = "Player-5-0A174C95",
 							["tipo"] = 4,
@@ -557,7 +590,7 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 75,
+					["combatId"] = 86,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -567,32 +600,299 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Oublion",
-				["combat_counter"] = 107,
+				["enemy"] = "Flashwyrm",
+				["combat_counter"] = 119,
 				["playing_solo"] = true,
 				["totals"] = {
-					3234451.905839, -- [1]
-					329182, -- [2]
+					994425.914592, -- [1]
+					27250, -- [2]
 					{
-						-0.00367100000000065, -- [1]
-						[0] = -0.011684,
-						[6] = 0,
-						[3] = -0.0085990000000038,
+						0, -- [1]
+						[0] = -0.00604,
+						[6] = 172.998694,
+						[3] = -173.005672,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
+						["interrupt"] = -0.00431599999999999,
 						["dispell"] = 0,
-						["cc_break"] = 0,
+						["cc_break"] = 1,
 						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
+					["Morifa"] = {
+						{
+							true, -- [1]
+							181439, -- [2]
+							2524, -- [3]
+							1483927588.633, -- [4]
+							484916, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2643, -- [3]
+							1483927590.175, -- [4]
+							484797, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2642, -- [3]
+							1483927591.061, -- [4]
+							484798, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2819, -- [3]
+							1483927591.061, -- [4]
+							481979, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2583, -- [3]
+							1483927591.687, -- [4]
+							479396, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2818, -- [3]
+							1483927592.048, -- [4]
+							476578, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2525, -- [3]
+							1483927592.342, -- [4]
+							474053, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2819, -- [3]
+							1483927592.67, -- [4]
+							471234, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2760, -- [3]
+							1483927592.67, -- [4]
+							468474, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [9]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2525, -- [3]
+							1483927593.128, -- [4]
+							470897, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [10]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2701, -- [3]
+							1483927593.128, -- [4]
+							468196, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [11]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2642, -- [3]
+							1483927593.486, -- [4]
+							465554, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [12]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2642, -- [3]
+							1483927593.879, -- [4]
+							462912, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [13]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2466, -- [3]
+							1483927594.075, -- [4]
+							460446, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [14]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2818, -- [3]
+							1483927594.075, -- [4]
+							457628, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [15]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2583, -- [3]
+							1483927594.567, -- [4]
+							455045, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [16]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2525, -- [3]
+							1483927595.186, -- [4]
+							457482, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [17]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2701, -- [3]
+							1483927595.35, -- [4]
+							454781, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [18]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2584, -- [3]
+							1483927596.128, -- [4]
+							452197, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [19]
+						{
+							true, -- [1]
+							181439, -- [2]
+							2760, -- [3]
+							1483927597.62, -- [4]
+							454396, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 21,
+					},
 				},
 				["frags_need_refresh"] = true,
 				["__call"] = {
@@ -606,31 +906,30 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Morifa"] = 329182.001298,
+							["Morifa"] = 27250.007067,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Morifa"] = 3234452.005726,
+							["Morifa"] = 994426.004015,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 20850.567,
-				["combat_id"] = 75,
+				["end_time"] = 38855.148,
+				["combat_id"] = 86,
 				["instance_type"] = "none",
 				["frags"] = {
-					["Queen Kraklaa"] = 1,
-					["Oublion"] = 1,
+					["Flashwyrm"] = 4,
 				},
-				["data_fim"] = "00:02:40",
-				["data_inicio"] = "00:00:50",
+				["data_fim"] = "17:57:54",
+				["data_inicio"] = "17:57:37",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					3234452, -- [1]
-					329182, -- [2]
+					994426, -- [1]
+					27250, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -642,43 +941,43 @@ _detalhes_database = {
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
+						["interrupt"] = 0,
 						["dispell"] = 0,
-						["cc_break"] = 0,
+						["cc_break"] = 1,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 20740.777,
-				["contra"] = "Oublion",
+				["start_time"] = 38838.406,
+				["contra"] = "Flashwyrm",
 				["TimeData"] = {
 				},
 			}, -- [1]
 			{
 				{
-					["combatId"] = 74,
+					["combatId"] = 85,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Mak'rana Warrior"] = true,
+								["Flashwyrm"] = true,
 							},
 							["targets"] = {
-								["Mak'rana Warrior"] = 383907,
+								["Flashwyrm"] = 252310,
 							},
 							["pets"] = {
 							},
-							["total"] = 383907.001467,
+							["total"] = 252310.008714,
 							["on_hold"] = false,
 							["classe"] = "MAGE",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 383907.001467,
+							["total_without_pet"] = 252310.008714,
 							["colocacao"] = 1,
 							["friendlyfire"] = {
 							},
 							["dps_started"] = false,
-							["end_time"] = 1479542436,
+							["end_time"] = 1483927043,
 							["friendlyfire_total"] = 0,
 							["spec"] = 63,
 							["nome"] = "Morifa",
@@ -686,80 +985,22 @@ _detalhes_database = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									[133] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 79593,
-										["g_amt"] = 0,
-										["n_max"] = 21319,
-										["targets"] = {
-											["Mak'rana Warrior"] = 139286,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 59693,
-										["n_min"] = 18476,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 139286,
-										["c_max"] = 41218,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 38375,
-									},
-									[108853] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 30698,
+										["c_dmg"] = 38081,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 19773,
 										["targets"] = {
-											["Mak'rana Warrior"] = 30698,
+											["Flashwyrm"] = 57854,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 30698,
-										["c_max"] = 30698,
-										["id"] = 108853,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 30698,
-									},
-									[11366] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 80984,
-										["g_amt"] = 0,
-										["n_max"] = 43607,
-										["targets"] = {
-											["Mak'rana Warrior"] = 124591,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 43607,
-										["n_min"] = 43607,
+										["n_dmg"] = 19773,
+										["n_min"] = 19773,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 124591,
-										["c_max"] = 80984,
-										["id"] = 11366,
+										["total"] = 57854,
+										["c_max"] = 38081,
+										["id"] = 133,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -770,1090 +1011,52 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 80984,
+										["c_min"] = 38081,
 									},
-									[12654] = {
-										["c_amt"] = 0,
+									[194466] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 67792,
 										["g_amt"] = 0,
-										["n_max"] = 4616,
-										["targets"] = {
-											["Mak'rana Warrior"] = 31962,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 31962,
-										["n_min"] = 326,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 31962,
-										["c_max"] = 0,
-										["id"] = 12654,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[217694] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 29044,
-										["g_amt"] = 0,
-										["n_max"] = 3046,
-										["targets"] = {
-											["Mak'rana Warrior"] = 37878,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8834,
-										["n_min"] = 2843,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 37878,
-										["c_max"] = 6093,
-										["id"] = 217694,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 5484,
-									},
-									[44461] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 9746,
-										["targets"] = {
-											["Mak'rana Warrior"] = 19492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 19492,
-										["n_min"] = 9746,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 19492,
-										["c_max"] = 0,
-										["id"] = 44461,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A174C95",
-							["last_dps"] = 14142.3046293024,
-							["custom"] = 0,
-							["last_event"] = 1479542435,
-							["damage_taken"] = 163855.001467,
-							["start_time"] = 1479542409,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 74,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.005781,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Morifa"] = true,
-							},
-							["targets"] = {
-								["Morifa"] = 98560,
-							},
-							["targets_absorbs"] = {
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.005781,
-							["targets_overheal"] = {
-								["Morifa"] = 36179,
-							},
-							["classe"] = "MAGE",
-							["totalover"] = 36179.005781,
-							["total_without_pet"] = 98560.005781,
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["fight_component"] = true,
-							["total"] = 98560.005781,
-							["healing_taken"] = 98560.005781,
-							["end_time"] = 1479542436,
-							["nome"] = "Morifa",
-							["spec"] = 63,
-							["grupo"] = true,
-							["last_event"] = 1479542426,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[11426] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 12997,
-										["targets"] = {
-											["Morifa"] = 98560,
-										},
-										["n_min"] = 7636,
-										["counter"] = 10,
-										["overheal"] = 0,
-										["total"] = 98560,
-										["c_max"] = 0,
-										["id"] = 11426,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 98560,
-										["m_healed"] = 0,
-										["n_amt"] = 10,
-										["absorbed"] = 0,
-									},
-									[194316] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Morifa"] = 36179,
-										},
 										["n_max"] = 0,
 										["targets"] = {
-											["Morifa"] = 0,
-										},
-										["n_min"] = 0,
-										["counter"] = 9,
-										["overheal"] = 36179,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 194316,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 0,
-										["m_healed"] = 0,
-										["n_amt"] = 9,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1479542417,
-							["serial"] = "Player-5-0A174C95",
-							["delay"] = 1479542426,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 74,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 74,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[217694] = {
-										["uptime"] = 6,
-										["activedamt"] = 0,
-										["id"] = 217694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[12654] = {
-										["uptime"] = 13,
-										["activedamt"] = 0,
-										["id"] = 12654,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 109,
-							["classe"] = "MAGE",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[157644] = {
-										["uptime"] = 9,
-										["activedamt"] = 2,
-										["id"] = 157644,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[212653] = {
-										["uptime"] = 0,
-										["activedamt"] = 1,
-										["id"] = 212653,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156150] = {
-										["uptime"] = 12,
-										["activedamt"] = 3,
-										["id"] = 156150,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[116267] = {
-										["uptime"] = 28,
-										["activedamt"] = 1,
-										["id"] = 116267,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48107] = {
-										["uptime"] = 3,
-										["activedamt"] = 2,
-										["id"] = 48107,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[194316] = {
-										["uptime"] = 9,
-										["activedamt"] = 2,
-										["id"] = 194316,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48108] = {
-										["uptime"] = 2,
-										["activedamt"] = 2,
-										["id"] = 48108,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156070] = {
-										["uptime"] = 28,
-										["activedamt"] = 1,
-										["id"] = 156070,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[11426] = {
-										["uptime"] = 18,
-										["activedamt"] = 1,
-										["id"] = 11426,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 19,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 63,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[133] = 5,
-								[44457] = 2,
-								[212653] = 1,
-								[11366] = 2,
-								[108853] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1479542436,
-							["nome"] = "Morifa",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A174C95",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 74,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Morifa"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Mak'rana Warrior",
-				["combat_counter"] = 106,
-				["playing_solo"] = true,
-				["totals"] = {
-					383906.992223, -- [1]
-					98560, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Morifa"] = 98560.005781,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Morifa"] = 383907.001467,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 20726.999,
-				["combat_id"] = 74,
-				["instance_type"] = "none",
-				["frags"] = {
-					["Mak'rana Warrior"] = 1,
-				},
-				["data_fim"] = "00:00:36",
-				["data_inicio"] = "00:00:08",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					383907, -- [1]
-					98560, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 20698.937,
-				["contra"] = "Mak'rana Warrior",
-				["TimeData"] = {
-				},
-			}, -- [2]
-			{
-				{
-					["combatId"] = 73,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Mak'rana Warrior"] = true,
-								["Scuttleback Pincher"] = true,
-							},
-							["targets"] = {
-								["Mak'rana Warrior"] = 394256,
-								["Scuttleback Pincher"] = 134356,
-							},
-							["pets"] = {
-							},
-							["total"] = 528612.003005,
-							["on_hold"] = false,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 528612.003005,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1479542395,
-							["friendlyfire_total"] = 0,
-							["spec"] = 63,
-							["nome"] = "Morifa",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[133] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 156343,
-										["g_amt"] = 0,
-										["n_max"] = 21319,
-										["targets"] = {
-											["Mak'rana Warrior"] = 216036,
+											["Flashwyrm"] = 67792,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 59693,
-										["n_min"] = 18476,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 67792,
+										["c_max"] = 67792,
+										["id"] = 194466,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 67792,
+									},
+									[12654] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1790,
+										["targets"] = {
+											["Flashwyrm"] = 9822,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9822,
+										["n_min"] = 436,
 										["g_dmg"] = 0,
 										["counter"] = 7,
-										["total"] = 216036,
-										["c_max"] = 41218,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 36954,
-									},
-									[11366] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 46721,
-										["targets"] = {
-											["Mak'rana Warrior"] = 87212,
-											["Scuttleback Pincher"] = 40492,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 127704,
-										["n_min"] = 40491,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 127704,
-										["c_max"] = 0,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[108853] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 60259,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Mak'rana Warrior"] = 29561,
-											["Scuttleback Pincher"] = 30698,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 60259,
-										["c_max"] = 30698,
-										["id"] = 108853,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 29561,
-									},
-									[12654] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3319,
-										["targets"] = {
-											["Mak'rana Warrior"] = 29179,
-											["Scuttleback Pincher"] = 32322,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 61501,
-										["n_min"] = 283,
-										["g_dmg"] = 0,
-										["counter"] = 33,
-										["total"] = 61501,
-										["c_max"] = 0,
-										["id"] = 12654,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 33,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[217694] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 10967,
-										["g_amt"] = 0,
-										["n_max"] = 3046,
-										["targets"] = {
-											["Mak'rana Warrior"] = 14724,
-											["Scuttleback Pincher"] = 13301,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17058,
-										["n_min"] = 2640,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 28025,
-										["c_max"] = 5687,
-										["id"] = 217694,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 5280,
-									},
-									[44461] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 9097,
-										["targets"] = {
-											["Mak'rana Warrior"] = 17544,
-											["Scuttleback Pincher"] = 17543,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 35087,
-										["n_min"] = 8447,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 35087,
-										["c_max"] = 0,
-										["id"] = 44461,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A174C95",
-							["last_dps"] = 29187.3448735562,
-							["custom"] = 0,
-							["last_event"] = 1479542395,
-							["damage_taken"] = 128523.003005,
-							["start_time"] = 1479542377,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 73,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.008053,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Morifa"] = true,
-							},
-							["targets"] = {
-								["Morifa"] = 98560,
-							},
-							["last_event"] = 1479542391,
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.008053,
-							["targets_overheal"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008053,
-							["total_without_pet"] = 98560.008053,
-							["iniciar_hps"] = false,
-							["classe"] = "MAGE",
-							["fight_component"] = true,
-							["total"] = 98560.008053,
-							["serial"] = "Player-5-0A174C95",
-							["healing_taken"] = 98560.008053,
-							["nome"] = "Morifa",
-							["spec"] = 63,
-							["grupo"] = true,
-							["end_time"] = 1479542395,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[11426] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 19174,
-										["targets"] = {
-											["Morifa"] = 98560,
-										},
-										["n_min"] = 3599,
-										["counter"] = 13,
-										["overheal"] = 0,
-										["total"] = 98560,
-										["c_max"] = 0,
-										["id"] = 11426,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 98560,
-										["m_healed"] = 0,
-										["n_amt"] = 13,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1479542381,
-							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 73,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 73,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[12654] = {
-										["uptime"] = 18,
-										["activedamt"] = 0,
-										["id"] = 12654,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[217694] = {
-										["uptime"] = 6,
-										["activedamt"] = 0,
-										["id"] = 217694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 69,
-							["classe"] = "MAGE",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[11426] = {
-										["uptime"] = 10,
-										["activedamt"] = 1,
-										["id"] = 11426,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[116267] = {
-										["uptime"] = 18,
-										["activedamt"] = 1,
-										["id"] = 116267,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156070] = {
-										["uptime"] = 18,
-										["activedamt"] = 1,
-										["id"] = 156070,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48108] = {
-										["uptime"] = 3,
-										["activedamt"] = 3,
-										["id"] = 48108,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48107] = {
-										["uptime"] = 5,
-										["activedamt"] = 3,
-										["id"] = 48107,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156150] = {
-										["uptime"] = 8,
-										["activedamt"] = 2,
-										["id"] = 156150,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[157644] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 157644,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 24,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 63,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[133] = 6,
-								[44457] = 1,
-								[108853] = 2,
-								[11366] = 3,
-								[11426] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1479542395,
-							["nome"] = "Morifa",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A174C95",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 73,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Morifa"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Mak'rana Warrior",
-				["combat_counter"] = 105,
-				["playing_solo"] = true,
-				["totals"] = {
-					528611.996196, -- [1]
-					98560, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Morifa"] = 98560.008053,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Morifa"] = 528612.003005,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 20686.055,
-				["combat_id"] = 73,
-				["instance_type"] = "none",
-				["frags"] = {
-					["Mak'rana Warrior"] = 1,
-					["Scuttleback Pincher"] = 1,
-				},
-				["data_fim"] = "23:59:55",
-				["data_inicio"] = "23:59:37",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					528612, -- [1]
-					98560, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 20667.944,
-				["contra"] = "Mak'rana Warrior",
-				["TimeData"] = {
-				},
-			}, -- [3]
-			{
-				{
-					["combatId"] = 72,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Mak'rana Warrior"] = true,
-							},
-							["targets"] = {
-								["Mak'rana Warrior"] = 413726,
-							},
-							["pets"] = {
-							},
-							["total"] = 413726.006166,
-							["on_hold"] = false,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 413726.006166,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1479542367,
-							["friendlyfire_total"] = 0,
-							["spec"] = 63,
-							["nome"] = "Morifa",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[108853] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 59122,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Mak'rana Warrior"] = 59122,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 59122,
-										["c_max"] = 29561,
-										["id"] = 108853,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 29561,
-									},
-									[217694] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 10561,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Mak'rana Warrior"] = 10561,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 10561,
-										["c_max"] = 5281,
-										["id"] = 217694,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 5280,
-									},
-									[12654] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4041,
-										["targets"] = {
-											["Mak'rana Warrior"] = 23676,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 23676,
-										["n_min"] = 609,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 23676,
+										["total"] = 9822,
 										["c_max"] = 0,
 										["id"] = 12654,
 										["r_dmg"] = 0,
@@ -1869,456 +1072,21 @@ _detalhes_database = {
 										["c_min"] = 0,
 									},
 									[11366] = {
-										["c_amt"] = 2,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 174427,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 43607,
+										["n_max"] = 46542,
 										["targets"] = {
-											["Mak'rana Warrior"] = 218034,
+											["Flashwyrm"] = 46542,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 43607,
-										["n_min"] = 43607,
+										["n_dmg"] = 46542,
+										["n_min"] = 46542,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 218034,
-										["c_max"] = 93443,
-										["id"] = 11366,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 80984,
-									},
-									[133] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 82435,
-										["g_amt"] = 0,
-										["n_max"] = 19898,
-										["targets"] = {
-											["Mak'rana Warrior"] = 102333,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 19898,
-										["n_min"] = 19898,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 102333,
-										["c_max"] = 42639,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 39796,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A174C95",
-							["last_dps"] = 55068.0162606222,
-							["custom"] = 0,
-							["last_event"] = 1479542367,
-							["damage_taken"] = 18834.006166,
-							["start_time"] = 1479542360,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 72,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.004704,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Morifa"] = true,
-							},
-							["targets"] = {
-								["Morifa"] = 18834,
-							},
-							["last_event"] = 1479542367,
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.004704,
-							["targets_overheal"] = {
-								["Morifa"] = 37604,
-							},
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 37604.004704,
-							["total_without_pet"] = 18834.004704,
-							["iniciar_hps"] = false,
-							["classe"] = "MAGE",
-							["fight_component"] = true,
-							["total"] = 18834.004704,
-							["serial"] = "Player-5-0A174C95",
-							["healing_taken"] = 18834.004704,
-							["nome"] = "Morifa",
-							["spec"] = 63,
-							["grupo"] = true,
-							["end_time"] = 1479542367,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[11426] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Morifa"] = 37604,
-										},
-										["n_max"] = 9453,
-										["targets"] = {
-											["Morifa"] = -18770,
-										},
-										["n_min"] = 9381,
-										["counter"] = 3,
-										["overheal"] = 37604,
-										["total"] = -18770,
+										["counter"] = 1,
+										["total"] = 46542,
 										["c_max"] = 0,
-										["id"] = 11426,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = -37604,
-										["m_amt"] = 0,
-										["c_min"] = -37604,
-										["n_curado"] = 18834,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1479542364,
-							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 72,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 72,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[12654] = {
-										["uptime"] = 7,
-										["activedamt"] = 0,
-										["id"] = 12654,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[217694] = {
-										["uptime"] = 2,
-										["activedamt"] = 0,
-										["id"] = 217694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 28,
-							["classe"] = "MAGE",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[11426] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 11426,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[116267] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 116267,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156070] = {
-										["uptime"] = 7,
-										["activedamt"] = 1,
-										["id"] = 156070,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[157644] = {
-										["uptime"] = 3,
-										["activedamt"] = 1,
-										["id"] = 157644,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156150] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = 156150,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48108] = {
-										["uptime"] = 4,
-										["activedamt"] = 3,
-										["id"] = 48108,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48107] = {
-										["uptime"] = 0,
-										["activedamt"] = 3,
-										["id"] = 48107,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 9,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 63,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[108853] = 2,
-								[11366] = 3,
-								[133] = 2,
-								[44457] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1479542367,
-							["nome"] = "Morifa",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A174C95",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 72,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Morifa"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Mak'rana Warrior",
-				["combat_counter"] = 104,
-				["playing_solo"] = true,
-				["totals"] = {
-					413725.995302, -- [1]
-					18834, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Morifa"] = 18834.004704,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Morifa"] = 413726.006166,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 20658.055,
-				["combat_id"] = 72,
-				["instance_type"] = "none",
-				["frags"] = {
-					["Mak'rana Warrior"] = 1,
-				},
-				["data_fim"] = "23:59:27",
-				["data_inicio"] = "23:59:20",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					413726, -- [1]
-					-18770, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 20650.542,
-				["contra"] = "Mak'rana Warrior",
-				["TimeData"] = {
-				},
-			}, -- [4]
-			{
-				{
-					["combatId"] = 71,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Mak'rana Warrior"] = true,
-							},
-							["targets"] = {
-								["Mak'rana Warrior"] = 394194,
-							},
-							["pets"] = {
-							},
-							["total"] = 394194.003244,
-							["on_hold"] = false,
-							["classe"] = "MAGE",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 394194.003244,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1479542352,
-							["friendlyfire_total"] = 0,
-							["spec"] = 63,
-							["nome"] = "Morifa",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[133] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 119390,
-										["g_amt"] = 0,
-										["n_max"] = 19898,
-										["targets"] = {
-											["Mak'rana Warrior"] = 176952,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 57562,
-										["n_min"] = 17766,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 176952,
-										["c_max"] = 42639,
-										["id"] = 133,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 36954,
-									},
-									[11366] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 87213,
-										["g_amt"] = 0,
-										["n_max"] = 43607,
-										["targets"] = {
-											["Mak'rana Warrior"] = 130820,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 43607,
-										["n_min"] = 43607,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 130820,
-										["c_max"] = 87213,
 										["id"] = 11366,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -2330,24 +1098,24 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 87213,
+										["c_min"] = 0,
 									},
 									[108853] = {
-										["c_amt"] = 1,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 32972,
+										["c_dmg"] = 70300,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Mak'rana Warrior"] = 32972,
+											["Flashwyrm"] = 70300,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 32972,
-										["c_max"] = 32972,
+										["counter"] = 2,
+										["total"] = 70300,
+										["c_max"] = 35150,
 										["id"] = 108853,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -2359,25 +1127,358 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 32972,
+										["c_min"] = 35150,
 									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A174C95",
+							["last_dps"] = 25928.4769000109,
+							["custom"] = 0,
+							["last_event"] = 1483927042,
+							["damage_taken"] = 34247.008714,
+							["start_time"] = 1483927035,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 85,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 85,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 85,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
 									[12654] = {
+										["uptime"] = 7,
+										["activedamt"] = 0,
+										["id"] = 12654,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 30,
+							["classe"] = "MAGE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[48107] = {
+										["uptime"] = 4,
+										["activedamt"] = 3,
+										["id"] = 48107,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156070] = {
+										["uptime"] = 10,
+										["activedamt"] = 1,
+										["id"] = 156070,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[157644] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 157644,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[48108] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 48108,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156150] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 156150,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[116267] = {
+										["uptime"] = 10,
+										["activedamt"] = 1,
+										["id"] = 116267,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 63,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[194466] = 1,
+								[11366] = 1,
+								[133] = 2,
+								[108853] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1483927043,
+							["nome"] = "Morifa",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A174C95",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 85,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Morifa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Flashwyrm",
+				["combat_counter"] = 118,
+				["playing_solo"] = true,
+				["totals"] = {
+					252309.98193, -- [1]
+					-0.005977, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Morifa"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							7070, -- [3]
+							1483927054.676, -- [4]
+							484917, -- [5]
+							"Flashwyrm", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Morifa"] = 252310.008714,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 38824.63,
+				["combat_id"] = 85,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Flashwyrm"] = 1,
+				},
+				["data_fim"] = "17:57:23",
+				["data_inicio"] = "17:57:14",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					252310, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 38814.899,
+				["contra"] = "Flashwyrm",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 84,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Burrowing Leyworm"] = true,
+							},
+							["targets"] = {
+								["Burrowing Leyworm"] = 632963,
+							},
+							["pets"] = {
+							},
+							["total"] = 632963.006809,
+							["on_hold"] = false,
+							["classe"] = "MAGE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 632963.006809,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1483926957,
+							["friendlyfire_total"] = 0,
+							["spec"] = 63,
+							["nome"] = "Morifa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[31661] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 2770,
+										["n_max"] = 29161,
 										["targets"] = {
-											["Mak'rana Warrior"] = 15882,
+											["Burrowing Leyworm"] = 29161,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 15882,
-										["n_min"] = 271,
+										["n_dmg"] = 29161,
+										["n_min"] = 29161,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 15882,
+										["counter"] = 1,
+										["total"] = 29161,
 										["c_max"] = 0,
-										["id"] = 12654,
+										["id"] = 31661,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -2386,26 +1487,171 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
+									},
+									[108853] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 31635,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 31635,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31635,
+										["c_max"] = 31635,
+										["id"] = 108853,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 31635,
+									},
+									[44461] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 40176,
+										["g_amt"] = 0,
+										["n_max"] = 10044,
+										["targets"] = {
+											["Burrowing Leyworm"] = 50220,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10044,
+										["n_min"] = 10044,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 50220,
+										["c_max"] = 20088,
+										["id"] = 44461,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 20088,
+									},
+									[133] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 123031,
+										["g_amt"] = 0,
+										["n_max"] = 19773,
+										["targets"] = {
+											["Burrowing Leyworm"] = 142804,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19773,
+										["n_min"] = 19773,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 142804,
+										["c_max"] = 43940,
+										["id"] = 133,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 38081,
+									},
+									[194466] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 75324,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 75324,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 75324,
+										["c_max"] = 75324,
+										["id"] = 194466,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 75324,
+									},
+									[224637] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 25107,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 25107,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 25107,
+										["c_max"] = 25107,
+										["id"] = 224637,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 25107,
 									},
 									[217694] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 11983,
+										["c_dmg"] = 12558,
 										["g_amt"] = 0,
-										["n_max"] = 3046,
+										["n_max"] = 3139,
 										["targets"] = {
-											["Mak'rana Warrior"] = 18075,
+											["Burrowing Leyworm"] = 18731,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 6092,
-										["n_min"] = 3046,
+										["n_dmg"] = 6173,
+										["n_min"] = 3034,
 										["g_dmg"] = 0,
 										["counter"] = 4,
-										["total"] = 18075,
-										["c_max"] = 6093,
+										["total"] = 18731,
+										["c_max"] = 6279,
 										["id"] = 217694,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -2417,25 +1663,25 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 5890,
+										["c_min"] = 6279,
 									},
-									[44461] = {
-										["c_amt"] = 1,
+									[12654] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 19493,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 3349,
 										["targets"] = {
-											["Mak'rana Warrior"] = 19493,
+											["Burrowing Leyworm"] = 73813,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 73813,
+										["n_min"] = 311,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 19493,
-										["c_max"] = 19493,
-										["id"] = 44461,
+										["counter"] = 26,
+										["total"] = 73813,
+										["c_max"] = 0,
+										["id"] = 12654,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -2444,86 +1690,116 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 26,
 										["r_amt"] = 0,
-										["c_min"] = 19493,
+										["c_min"] = 0,
+									},
+									[11366] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 96294,
+										["g_amt"] = 0,
+										["n_max"] = 48147,
+										["targets"] = {
+											["Burrowing Leyworm"] = 186168,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 89874,
+										["n_min"] = 41727,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 186168,
+										["c_max"] = 96294,
+										["id"] = 11366,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 96294,
 									},
 								},
 							},
 							["grupo"] = true,
 							["serial"] = "Player-5-0A174C95",
-							["last_dps"] = 36247.7244362299,
+							["last_dps"] = 38144.0886349947,
 							["custom"] = 0,
-							["last_event"] = 1479542352,
-							["damage_taken"] = 42122.003244,
-							["start_time"] = 1479542341,
+							["last_event"] = 1483926956,
+							["damage_taken"] = 80728.006809,
+							["start_time"] = 1483926940,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 71,
+					["combatId"] = 84,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.002289,
+							["totalabsorb"] = 0.002351,
 							["last_hps"] = 0,
 							["healing_from"] = {
 								["Morifa"] = true,
 							},
 							["targets"] = {
-								["Morifa"] = 42122,
+								["Morifa"] = 12225,
 							},
-							["last_event"] = 1479542350,
+							["targets_absorbs"] = {
+							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.002289,
+							["totalover_without_pet"] = 0.002351,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.002289,
-							["total_without_pet"] = 42122.002289,
-							["iniciar_hps"] = false,
 							["classe"] = "MAGE",
+							["totalover"] = 0.002351,
+							["total_without_pet"] = 12225.002351,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
 							["fight_component"] = true,
-							["total"] = 42122.002289,
-							["serial"] = "Player-5-0A174C95",
-							["healing_taken"] = 42122.002289,
+							["total"] = 12225.002351,
+							["healing_taken"] = 12225.002351,
+							["end_time"] = 1483926957,
 							["nome"] = "Morifa",
 							["spec"] = 63,
 							["grupo"] = true,
-							["end_time"] = 1479542352,
+							["last_event"] = 1483926943,
 							["heal_enemy"] = {
 							},
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
-									[11426] = {
+									[194316] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 14152,
+										["n_max"] = 4075,
 										["targets"] = {
-											["Morifa"] = 42122,
+											["Morifa"] = 12225,
 										},
-										["n_min"] = 8427,
-										["counter"] = 4,
+										["n_min"] = 4075,
+										["counter"] = 3,
 										["overheal"] = 0,
-										["total"] = 42122,
+										["total"] = 12225,
 										["c_max"] = 0,
-										["id"] = 11426,
+										["id"] = 194316,
 										["targets_absorbs"] = {
 										},
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 42122,
+										["n_curado"] = 12225,
 										["m_healed"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 3,
 										["absorbed"] = 0,
 									},
 								},
@@ -2531,30 +1807,49 @@ _detalhes_database = {
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1479542346,
-							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
+							["start_time"] = 1483926954,
+							["serial"] = "Player-5-0A174C95",
+							["delay"] = 1483926943,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 71,
+					["combatId"] = 84,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 71,
+					["combatId"] = 84,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
+							["cc_break_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[133] = {
+										["cc_break_oque"] = {
+											[31661] = 1,
+										},
+										["id"] = 133,
+										["cc_break"] = 1,
+										["targets"] = {
+											["Burrowing Leyworm"] = 1,
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrupt_targets"] = {
+								["Burrowing Leyworm"] = 1,
+							},
+							["cc_break"] = 1.002863,
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
 									[12654] = {
-										["uptime"] = 11,
+										["uptime"] = 16,
 										["activedamt"] = 0,
 										["id"] = 12654,
 										["actived"] = false,
@@ -2571,33 +1866,73 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-								},
-							},
-							["buff_uptime"] = 47,
-							["classe"] = "MAGE",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[11426] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 11426,
+									[31661] = {
+										["uptime"] = 3,
+										["activedamt"] = 0,
+										["id"] = 31661,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									[157644] = {
-										["uptime"] = 7,
-										["activedamt"] = 2,
-										["id"] = 157644,
+								},
+							},
+							["pets"] = {
+							},
+							["cc_done_targets"] = {
+								["Burrowing Leyworm"] = 1,
+							},
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[31661] = {
+										["id"] = 31661,
+										["targets"] = {
+											["Burrowing Leyworm"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["classe"] = "MAGE",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[2139] = {
+										["id"] = 2139,
+										["interrompeu_oque"] = {
+											[80117] = 1,
+										},
+										["targets"] = {
+											["Burrowing Leyworm"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[194316] = {
+										["uptime"] = 3,
+										["activedamt"] = 1,
+										["id"] = 194316,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[48107] = {
+										["uptime"] = 3,
+										["activedamt"] = 3,
+										["id"] = 48107,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 									[156070] = {
-										["uptime"] = 11,
+										["uptime"] = 17,
 										["activedamt"] = 1,
 										["id"] = 156070,
 										["actived"] = false,
@@ -2605,19 +1940,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[48108] = {
-										["uptime"] = 2,
-										["activedamt"] = 3,
-										["id"] = 48108,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[48107] = {
-										["uptime"] = 1,
-										["activedamt"] = 2,
-										["id"] = 48107,
+									[157644] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 157644,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2632,8 +1958,573 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
+									[48108] = {
+										["uptime"] = 3,
+										["activedamt"] = 3,
+										["id"] = 48108,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[116267] = {
-										["uptime"] = 11,
+										["uptime"] = 17,
+										["activedamt"] = 1,
+										["id"] = 116267,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrupt"] = 1.008869,
+							["interrompeu_oque"] = {
+								[80117] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 22,
+							["buff_uptime"] = 52,
+							["cc_done"] = 1.006568,
+							["nome"] = "Morifa",
+							["spec"] = 63,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[108853] = 1,
+								[31661] = 1,
+								[44457] = 1,
+								[2139] = 1,
+								[11366] = 3,
+								[133] = 3,
+							},
+							["cc_break_oque"] = {
+								[31661] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["cc_break_targets"] = {
+								["Burrowing Leyworm"] = 1,
+							},
+							["serial"] = "Player-5-0A174C95",
+							["last_event"] = 1483926957,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 84,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Morifa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Burrowing Leyworm",
+				["combat_counter"] = 117,
+				["playing_solo"] = true,
+				["totals"] = {
+					632962.974544, -- [1]
+					12224.992623, -- [2]
+					{
+						-0.002487, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = -0.00774799999999232,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 1,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Morifa"] = 12225.002351,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Morifa"] = 632963.006809,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 38738.606,
+				["combat_id"] = 84,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Burrowing Leyworm"] = 5,
+					["Leystone Spiderling"] = 4,
+				},
+				["data_fim"] = "17:55:57",
+				["data_inicio"] = "17:55:41",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					632963, -- [1]
+					12225, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 1,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 38722.012,
+				["contra"] = "Burrowing Leyworm",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 83,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Burrowing Leyworm"] = true,
+							},
+							["targets"] = {
+								["Burrowing Leyworm"] = 615973,
+							},
+							["pets"] = {
+							},
+							["total"] = 615973.005895,
+							["on_hold"] = false,
+							["classe"] = "MAGE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 615973.005895,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1483926933,
+							["friendlyfire_total"] = 0,
+							["spec"] = 63,
+							["nome"] = "Morifa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[133] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 203589,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 203589,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 203589,
+										["c_max"] = 43940,
+										["id"] = 133,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 38081,
+									},
+									[44461] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 20088,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 20088,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 20088,
+										["c_max"] = 20088,
+										["id"] = 44461,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 20088,
+									},
+									[11366] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 93084,
+										["g_amt"] = 0,
+										["n_max"] = 48147,
+										["targets"] = {
+											["Burrowing Leyworm"] = 186168,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 93084,
+										["n_min"] = 44937,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 186168,
+										["c_max"] = 93084,
+										["id"] = 11366,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 93084,
+									},
+									[194466] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 70302,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 70302,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 70302,
+										["c_max"] = 70302,
+										["id"] = 194466,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 70302,
+									},
+									[12654] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3469,
+										["targets"] = {
+											["Burrowing Leyworm"] = 49871,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 49871,
+										["n_min"] = 807,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 49871,
+										["c_max"] = 0,
+										["id"] = 12654,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 19,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[217694] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 11930,
+										["g_amt"] = 0,
+										["n_max"] = 3139,
+										["targets"] = {
+											["Burrowing Leyworm"] = 17999,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6069,
+										["n_min"] = 2930,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 17999,
+										["c_max"] = 6070,
+										["id"] = 217694,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 5860,
+									},
+									[108853] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 67956,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 67956,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 67956,
+										["c_max"] = 35150,
+										["id"] = 108853,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 32806,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A174C95",
+							["last_dps"] = 47367.9641567949,
+							["custom"] = 0,
+							["last_event"] = 1483926932,
+							["damage_taken"] = 88897.005895,
+							["start_time"] = 1483926920,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 83,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.006513,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Morifa"] = true,
+							},
+							["targets"] = {
+								["Morifa"] = 66578,
+							},
+							["last_event"] = 1483926933,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.006513,
+							["targets_overheal"] = {
+								["Morifa"] = 1,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 1.006513,
+							["total_without_pet"] = 66578.006513,
+							["iniciar_hps"] = false,
+							["classe"] = "MAGE",
+							["fight_component"] = true,
+							["total"] = 66578.006513,
+							["serial"] = "Player-5-0A174C95",
+							["healing_taken"] = 66578.006513,
+							["nome"] = "Morifa",
+							["spec"] = 63,
+							["grupo"] = true,
+							["end_time"] = 1483926933,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[11426] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Morifa"] = 1,
+										},
+										["n_max"] = 18601,
+										["targets"] = {
+											["Morifa"] = 66577,
+										},
+										["n_min"] = 7017,
+										["counter"] = 6,
+										["overheal"] = 1,
+										["total"] = 66577,
+										["c_max"] = 0,
+										["id"] = 11426,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = -1,
+										["m_amt"] = 0,
+										["c_min"] = -1,
+										["n_curado"] = 66578,
+										["m_healed"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1483926923,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 83,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 83,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[217694] = {
+										["uptime"] = 3,
+										["activedamt"] = 0,
+										["id"] = 217694,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[12654] = {
+										["uptime"] = 12,
+										["activedamt"] = 0,
+										["id"] = 12654,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 53,
+							["classe"] = "MAGE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[11426] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 11426,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[48107] = {
+										["uptime"] = 5,
+										["activedamt"] = 4,
+										["id"] = 48107,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156070] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 156070,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156150] = {
+										["actived_at"] = 1483926931,
+										["uptime"] = 4,
+										["activedamt"] = 2,
+										["id"] = 156150,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[48108] = {
+										["uptime"] = 5,
+										["activedamt"] = 3,
+										["id"] = 48108,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[116267] = {
+										["uptime"] = 13,
 										["activedamt"] = 1,
 										["id"] = 116267,
 										["actived"] = false,
@@ -2644,20 +2535,20 @@ _detalhes_database = {
 								},
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 14,
+							["debuff_uptime"] = 15,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 63,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[11366] = 2,
-								[108853] = 1,
-								[44457] = 1,
-								[133] = 5,
+								[194466] = 1,
+								[108853] = 2,
+								[133] = 4,
+								[11366] = 3,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1479542352,
+							["last_event"] = 1483926933,
 							["nome"] = "Morifa",
 							["pets"] = {
 							},
@@ -2667,7 +2558,7 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 71,
+					["combatId"] = 83,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -2677,12 +2568,147 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Mak'rana Warrior",
-				["combat_counter"] = 103,
+				["enemy"] = "Burrowing Leyworm",
+				["combat_counter"] = 116,
 				["playing_solo"] = true,
 				["totals"] = {
-					394193.993623, -- [1]
-					42122, -- [2]
+					615972.982514, -- [1]
+					66577.99166, -- [2]
+					{
+						-0.004317, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = -0.00323900000000776,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Morifa"] = {
+						{
+							true, -- [1]
+							90302, -- [2]
+							17846, -- [3]
+							1483926935.473, -- [4]
+							434008, -- [5]
+							"Burrowing Leyworm", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Morifa"] = 66578.006513,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Morifa"] = 615973.005895,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 38715.068,
+				["combat_id"] = 83,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Burrowing Leyworm"] = 2,
+					["Leystone Spiderling"] = 2,
+				},
+				["data_fim"] = "17:55:34",
+				["data_inicio"] = "17:55:21",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					615973, -- [1]
+					66577, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -2695,6 +2721,419 @@ _detalhes_database = {
 						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
 						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 38702.064,
+				["contra"] = "Burrowing Leyworm",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 82,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Burrowing Leyworm"] = 320177,
+							},
+							["pets"] = {
+							},
+							["total"] = 320177.002558,
+							["on_hold"] = false,
+							["classe"] = "MAGE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 320177.002558,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1483926911,
+							["friendlyfire_total"] = 0,
+							["spec"] = 63,
+							["nome"] = "Morifa",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[133] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21970,
+										["targets"] = {
+											["Burrowing Leyworm"] = 21970,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 21970,
+										["n_min"] = 21970,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 21970,
+										["c_max"] = 0,
+										["id"] = 133,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[44461] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8705,
+										["targets"] = {
+											["Burrowing Leyworm"] = 8705,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8705,
+										["n_min"] = 8705,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8705,
+										["c_max"] = 0,
+										["id"] = 44461,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[108853] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 31635,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Burrowing Leyworm"] = 31635,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31635,
+										["c_max"] = 31635,
+										["id"] = 108853,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 31635,
+									},
+									[12654] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3924,
+										["targets"] = {
+											["Burrowing Leyworm"] = 12600,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12600,
+										["n_min"] = 2396,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 12600,
+										["c_max"] = 0,
+										["id"] = 12654,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[217694] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 11721,
+										["g_amt"] = 0,
+										["n_max"] = 2930,
+										["targets"] = {
+											["Burrowing Leyworm"] = 17372,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5651,
+										["n_min"] = 2721,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 17372,
+										["c_max"] = 6070,
+										["id"] = 217694,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 5651,
+									},
+									[11366] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 186168,
+										["g_amt"] = 0,
+										["n_max"] = 41727,
+										["targets"] = {
+											["Burrowing Leyworm"] = 227895,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 41727,
+										["n_min"] = 41727,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 227895,
+										["c_max"] = 96294,
+										["id"] = 11366,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 89874,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A174C95",
+							["last_dps"] = 55653.9201386692,
+							["custom"] = 0,
+							["last_event"] = 1483926910,
+							["damage_taken"] = 0.002558,
+							["start_time"] = 1483926905,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 82,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 82,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 82,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[12654] = {
+										["uptime"] = 5,
+										["activedamt"] = 0,
+										["id"] = 12654,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[217694] = {
+										["uptime"] = 4,
+										["activedamt"] = 0,
+										["id"] = 217694,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 28,
+							["classe"] = "MAGE",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[2139] = {
+										["id"] = 2139,
+										["interrompeu_oque"] = {
+											[9591] = 1,
+										},
+										["targets"] = {
+											["Burrowing Leyworm"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[11426] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 11426,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[116267] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 116267,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156070] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 156070,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[48107] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 48107,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156150] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 156150,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[48108] = {
+										["uptime"] = 3,
+										["activedamt"] = 2,
+										["id"] = 48108,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[157644] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 157644,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrompeu_oque"] = {
+								[9591] = 1,
+							},
+							["debuff_uptime"] = 9,
+							["interrupt_targets"] = {
+								["Burrowing Leyworm"] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 63,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[2139] = 1,
+								[11366] = 2,
+								[44457] = 1,
+								[108853] = 1,
+							},
+							["interrupt"] = 1.00579,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1483926911,
+							["nome"] = "Morifa",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A174C95",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 82,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Morifa"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Burrowing Leyworm",
+				["combat_counter"] = 115,
+				["playing_solo"] = true,
+				["totals"] = {
+					320176.983001, -- [1]
+					0, -- [2]
+					{
+						-0.001779, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = -0.00781200000000126,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
 						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
@@ -2716,30 +3155,29 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Morifa"] = 42122.002289,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Morifa"] = 394194.003244,
+							["Morifa"] = 320177.002558,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 20642.673,
-				["combat_id"] = 71,
+				["end_time"] = 38692.385,
+				["combat_id"] = 82,
 				["instance_type"] = "none",
 				["frags"] = {
-					["Mak'rana Warrior"] = 1,
+					["Burrowing Leyworm"] = 2,
 				},
-				["data_fim"] = "23:59:12",
-				["data_inicio"] = "23:59:01",
+				["data_fim"] = "17:55:11",
+				["data_inicio"] = "17:55:05",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					394194, -- [1]
-					42122, -- [2]
+					320177, -- [1]
+					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -2751,74 +3189,57 @@ _detalhes_database = {
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
+						["interrupt"] = 1,
 						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 20631.798,
-				["contra"] = "Mak'rana Warrior",
+				["start_time"] = 38686.632,
+				["contra"] = "Burrowing Leyworm",
 				["TimeData"] = {
 				},
 			}, -- [5]
 		},
 	},
 	["plugin_database"] = {
-		["DETAILS_PLUGIN_TINY_THREAT"] = {
-			["updatespeed"] = 1,
-			["animate"] = false,
-			["showamount"] = false,
-			["useplayercolor"] = false,
-			["useclasscolors"] = false,
-			["author"] = "Details! Team",
-			["playercolor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			},
-			["enabled"] = true,
-		},
-		["DETAILS_PLUGIN_TIME_ATTACK"] = {
-			["enabled"] = true,
-			["realm_last_shown"] = 40,
-			["saved_as_anonymous"] = true,
-			["recently_as_anonymous"] = true,
-			["dps"] = 0,
-			["disable_sharing"] = false,
-			["history"] = {
-			},
-			["time"] = 40,
-			["history_lastindex"] = 0,
-			["realm_lastamt"] = 0,
-			["realm_history"] = {
-			},
-			["author"] = "Details! Team",
-		},
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
 			},
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
+			["enabled"] = true,
 			["dps"] = 0,
-			["author"] = "Details! Team",
 			["level"] = 1,
-			["enabled"] = true,
-		},
-		["DETAILS_PLUGIN_VANGUARD"] = {
-			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
-			["tank_block_color"] = {
-				0.24705882, -- [1]
-				0.0039215, -- [2]
-				0, -- [3]
-				0.8, -- [4]
-			},
-			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["last_boss"] = false,
+			["v1"] = true,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
 			["first_run"] = false,
-			["tank_block_size"] = 150,
+			["endurance_threshold"] = 3,
+			["max_deaths_for_timeline"] = 5,
+			["deaths_threshold"] = 10,
+			["show_icon"] = 1,
+			["max_segments_for_current"] = 2,
+			["max_deaths_for_current"] = 15,
+			["last_player"] = false,
+			["InstalledAt"] = 1483926399,
+			["last_encounter_hash"] = false,
+			["showing_type"] = 4,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["last_combat_id"] = 0,
+			["timeline_cutoff_delete_time"] = 3,
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -2827,27 +3248,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
-		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -2874,11 +3279,11 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["point"] = "CENTER",
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -2888,8 +3293,13 @@ _detalhes_database = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["y"] = 1.525878906250e-005,
-			["font_size"] = 10,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
@@ -2899,39 +3309,129 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 0,
 				["x"] = 0,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["font_size"] = 10,
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["enabled"] = true,
+			["animate"] = false,
+			["useplayercolor"] = false,
 			["author"] = "Details! Team",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["useclasscolors"] = false,
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["showamount"] = false,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["tank_block_texture"] = "Details Serenity",
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["auto_create"] = true,
+				["show_method"] = 4,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1480833055,
-		["last_version"] = 8,
+	["cached_talents"] = {
+		["Player-5-0A174C95"] = {
+			22456, -- [1]
+			22471, -- [2]
+			22451, -- [3]
+			21631, -- [4]
+			22447, -- [5]
+			22442, -- [6]
+			22468, -- [7]
+		},
 	},
 	["character_data"] = {
-		["logons"] = 13,
+		["logons"] = 14,
 	},
-	["last_version"] = "v7.1.0.3114",
+	["last_version"] = "v7.1.0.3266",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
 	["tabela_instancias"] = {
 	},
-	["combat_id"] = 75,
+	["combat_id"] = 86,
 	["savedStyles"] = {
 	},
-	["last_instance_time"] = 0,
+	["savedbuffs"] = {
+	},
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -2953,31 +3453,39 @@ _detalhes_database = {
 					["targets"] = {
 						["Legion Skyterror"] = 0,
 						["Soultorn Jailer"] = 0,
-						["Grim Inquisitor"] = 0,
-						["Hatecoil Slavemaster"] = 0,
-						["Hatecoil Raider"] = 0,
-						["Nightglaive the Traitor"] = 0,
-						["Cove Skrog"] = 0,
-						["Eredar Supplicant"] = 0,
-						["Fel Seeker"] = 0,
-						["Vile Doombringer"] = 0,
-						["Felspider"] = 0,
 						["Boss Whalebelly"] = 0,
+						["Nightglaive the Traitor"] = 0,
+						["Hatecoil Slavemaster"] = 0,
+						["Vile Doombringer"] = 0,
+						["Cove Skrog"] = 0,
+						["Felspider"] = 0,
+						["Hatecoil Raider"] = 0,
+						["Scuttleback Pincher"] = 0,
+						["Mak'rana Warrior"] = 0,
+						["Eredar Supplicant"] = 0,
+						["Queen Kraklaa"] = 0,
+						["Oublion"] = 0,
+						["Grim Inquisitor"] = 0,
+						["Golden Xue"] = 0,
 						["Ooker Dooker"] = 0,
 						["Mo'arg Crusher"] = 0,
-						["Golden Xue"] = 0,
+						["Fel Seeker"] = 0,
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 0.002865,
-					["tipo"] = 1,
+					["on_hold"] = false,
+					["last_event"] = 0,
 					["classe"] = "MAGE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002865,
-					["delay"] = 0,
+					["serial"] = "Player-5-0A174C95",
 					["dps_started"] = false,
 					["end_time"] = 1479537046,
+					["spec"] = 63,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Morifa",
 					["spells"] = {
 						["_ActorTable"] = {
 							[31661] = {
@@ -2998,15 +3506,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 31661,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[122] = {
 								["c_amt"] = 0,
@@ -3027,15 +3535,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 122,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[44461] = {
 								["c_amt"] = 0,
@@ -3046,18 +3554,22 @@ _detalhes_database = {
 								["targets"] = {
 									["Legion Skyterror"] = 0,
 									["Soultorn Jailer"] = 0,
-									["Grim Inquisitor"] = 0,
-									["Hatecoil Raider"] = 0,
+									["Boss Whalebelly"] = 0,
 									["Nightglaive the Traitor"] = 0,
 									["Hatecoil Slavemaster"] = 0,
-									["Eredar Supplicant"] = 0,
-									["Cove Skrog"] = 0,
 									["Vile Doombringer"] = 0,
-									["Fel Seeker"] = 0,
-									["Boss Whalebelly"] = 0,
+									["Cove Skrog"] = 0,
+									["Mak'rana Warrior"] = 0,
+									["Hatecoil Raider"] = 0,
+									["Scuttleback Pincher"] = 0,
+									["Eredar Supplicant"] = 0,
+									["Queen Kraklaa"] = 0,
+									["Grim Inquisitor"] = 0,
+									["Oublion"] = 0,
+									["Golden Xue"] = 0,
 									["Ooker Dooker"] = 0,
 									["Mo'arg Crusher"] = 0,
-									["Golden Xue"] = 0,
+									["Fel Seeker"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -3068,15 +3580,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 44461,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[133] = {
 								["c_amt"] = 0,
@@ -3086,18 +3598,21 @@ _detalhes_database = {
 								["n_max"] = 0,
 								["targets"] = {
 									["Legion Skyterror"] = 0,
+									["Mak'rana Warrior"] = 0,
 									["Soultorn Jailer"] = 0,
 									["Grim Inquisitor"] = 0,
+									["Queen Kraklaa"] = 0,
 									["Hatecoil Raider"] = 0,
 									["Nightglaive the Traitor"] = 0,
+									["Oublion"] = 0,
 									["Eredar Supplicant"] = 0,
-									["Hatecoil Slavemaster"] = 0,
+									["Golden Xue"] = 0,
 									["Vile Doombringer"] = 0,
-									["Cove Skrog"] = 0,
+									["Boss Whalebelly"] = 0,
 									["Fel Seeker"] = 0,
 									["Ooker Dooker"] = 0,
-									["Boss Whalebelly"] = 0,
-									["Golden Xue"] = 0,
+									["Hatecoil Slavemaster"] = 0,
+									["Cove Skrog"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -3108,15 +3623,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 133,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[194466] = {
 								["c_amt"] = 0,
@@ -3125,13 +3640,15 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Eredar Supplicant"] = 0,
-									["Vile Doombringer"] = 0,
 									["Soultorn Jailer"] = 0,
 									["Boss Whalebelly"] = 0,
-									["Ooker Dooker"] = 0,
 									["Hatecoil Raider"] = 0,
 									["Nightglaive the Traitor"] = 0,
+									["Eredar Supplicant"] = 0,
+									["Vile Doombringer"] = 0,
+									["Oublion"] = 0,
+									["Ooker Dooker"] = 0,
+									["Queen Kraklaa"] = 0,
 									["Golden Xue"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -3143,15 +3660,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 194466,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[2120] = {
 								["c_amt"] = 0,
@@ -3171,15 +3688,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 2120,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[224637] = {
 								["c_amt"] = 0,
@@ -3199,15 +3716,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 224637,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[217694] = {
 								["c_amt"] = 0,
@@ -3218,17 +3735,21 @@ _detalhes_database = {
 								["targets"] = {
 									["Legion Skyterror"] = 0,
 									["Soultorn Jailer"] = 0,
-									["Grim Inquisitor"] = 0,
-									["Hatecoil Raider"] = 0,
-									["Nightglaive the Traitor"] = 0,
-									["Eredar Supplicant"] = 0,
+									["Boss Whalebelly"] = 0,
+									["Oublion"] = 0,
 									["Hatecoil Slavemaster"] = 0,
 									["Vile Doombringer"] = 0,
 									["Cove Skrog"] = 0,
-									["Fel Seeker"] = 0,
+									["Mak'rana Warrior"] = 0,
+									["Hatecoil Raider"] = 0,
+									["Eredar Supplicant"] = 0,
+									["Scuttleback Pincher"] = 0,
+									["Grim Inquisitor"] = 0,
+									["Queen Kraklaa"] = 0,
+									["Nightglaive the Traitor"] = 0,
 									["Ooker Dooker"] = 0,
-									["Boss Whalebelly"] = 0,
 									["Golden Xue"] = 0,
+									["Fel Seeker"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -3239,15 +3760,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 217694,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[12654] = {
 								["c_amt"] = 0,
@@ -3258,19 +3779,23 @@ _detalhes_database = {
 								["targets"] = {
 									["Legion Skyterror"] = 0,
 									["Soultorn Jailer"] = 0,
-									["Grim Inquisitor"] = 0,
-									["Hatecoil Slavemaster"] = 0,
-									["Hatecoil Raider"] = 0,
-									["Nightglaive the Traitor"] = 0,
-									["Cove Skrog"] = 0,
-									["Eredar Supplicant"] = 0,
-									["Fel Seeker"] = 0,
-									["Vile Doombringer"] = 0,
-									["Felspider"] = 0,
 									["Boss Whalebelly"] = 0,
+									["Nightglaive the Traitor"] = 0,
+									["Hatecoil Slavemaster"] = 0,
+									["Vile Doombringer"] = 0,
+									["Cove Skrog"] = 0,
+									["Felspider"] = 0,
+									["Hatecoil Raider"] = 0,
+									["Scuttleback Pincher"] = 0,
+									["Mak'rana Warrior"] = 0,
+									["Eredar Supplicant"] = 0,
+									["Queen Kraklaa"] = 0,
+									["Oublion"] = 0,
+									["Grim Inquisitor"] = 0,
+									["Golden Xue"] = 0,
 									["Ooker Dooker"] = 0,
 									["Mo'arg Crusher"] = 0,
-									["Golden Xue"] = 0,
+									["Fel Seeker"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -3281,15 +3806,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 12654,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[11366] = {
 								["c_amt"] = 0,
@@ -3299,17 +3824,21 @@ _detalhes_database = {
 								["n_max"] = 0,
 								["targets"] = {
 									["Legion Skyterror"] = 0,
+									["Scuttleback Pincher"] = 0,
 									["Soultorn Jailer"] = 0,
 									["Grim Inquisitor"] = 0,
+									["Mak'rana Warrior"] = 0,
 									["Hatecoil Raider"] = 0,
 									["Nightglaive the Traitor"] = 0,
+									["Queen Kraklaa"] = 0,
 									["Eredar Supplicant"] = 0,
+									["Oublion"] = 0,
 									["Vile Doombringer"] = 0,
+									["Golden Xue"] = 0,
+									["Boss Whalebelly"] = 0,
+									["Ooker Dooker"] = 0,
 									["Hatecoil Slavemaster"] = 0,
 									["Fel Seeker"] = 0,
-									["Ooker Dooker"] = 0,
-									["Boss Whalebelly"] = 0,
-									["Golden Xue"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -3320,15 +3849,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 11366,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[108853] = {
 								["c_amt"] = 0,
@@ -3338,17 +3867,21 @@ _detalhes_database = {
 								["n_max"] = 0,
 								["targets"] = {
 									["Legion Skyterror"] = 0,
+									["Scuttleback Pincher"] = 0,
 									["Soultorn Jailer"] = 0,
 									["Grim Inquisitor"] = 0,
+									["Mak'rana Warrior"] = 0,
 									["Hatecoil Raider"] = 0,
 									["Nightglaive the Traitor"] = 0,
+									["Queen Kraklaa"] = 0,
 									["Eredar Supplicant"] = 0,
+									["Oublion"] = 0,
 									["Vile Doombringer"] = 0,
+									["Golden Xue"] = 0,
+									["Boss Whalebelly"] = 0,
+									["Ooker Dooker"] = 0,
 									["Hatecoil Slavemaster"] = 0,
 									["Fel Seeker"] = 0,
-									["Ooker Dooker"] = 0,
-									["Boss Whalebelly"] = 0,
-									["Golden Xue"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -3359,32 +3892,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 108853,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
-					["nome"] = "Morifa",
-					["spec"] = 63,
 					["grupo"] = true,
 					["total"] = 0.002865,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["tipo"] = 1,
+					["damage_taken"] = 0.002865,
 					["start_time"] = 1479537043,
-					["serial"] = "Player-5-0A174C95",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["last_dps"] = 0,
 				}, -- [1]
 			},
 		}, -- [1]
@@ -3395,31 +3924,28 @@ _detalhes_database = {
 					["flag_original"] = 1297,
 					["totalabsorb"] = 0.001234,
 					["last_hps"] = 0,
-					["healing_from"] = {
+					["targets_overheal"] = {
+						["Morifa"] = 0,
 					},
 					["targets"] = {
 						["Morifa"] = 0,
 					},
-					["delay"] = 0,
+					["serial"] = "Player-5-0A174C95",
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
-						["Morifa"] = 0,
+					["totalover_without_pet"] = 0.001234,
+					["healing_from"] = {
 					},
 					["classe"] = "MAGE",
 					["totalover"] = 0.001234,
 					["total_without_pet"] = 0.001234,
-					["totalover_without_pet"] = 0.001234,
+					["iniciar_hps"] = false,
 					["healing_taken"] = 0.001234,
 					["fight_component"] = true,
-					["total"] = 0.001234,
-					["heal_enemy_amt"] = 0,
 					["end_time"] = 1479537046,
+					["spec"] = 63,
+					["heal_enemy_amt"] = 0,
 					["nome"] = "Morifa",
-					["targets_absorbs"] = {
-					},
-					["grupo"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							[11426] = {
@@ -3443,24 +3969,54 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 0,
 								["m_healed"] = 0,
 								["n_amt"] = 0,
-								["n_curado"] = 0,
+								["absorbed"] = 0,
+							},
+							[194316] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Morifa"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Morifa"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 194316,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["n_curado"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["total"] = 0.001234,
 					["heal_enemy"] = {
 					},
-					["spec"] = 63,
+					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["on_hold"] = false,
 					["start_time"] = 1479537043,
-					["serial"] = "Player-5-0A174C95",
-					["last_event"] = 0,
+					["delay"] = 0,
+					["targets_absorbs"] = {
+					},
 				}, -- [1]
 			},
 		}, -- [2]
@@ -3474,6 +4030,47 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[31661] = {
+								["id"] = 31661,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[122] = {
+								["id"] = 122,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[80354] = {
+								["id"] = 80354,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[12654] = {
+								["id"] = 12654,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[217694] = {
+								["id"] = 217694,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[2120] = {
+								["id"] = 2120,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
 					["cc_break_spells"] = {
 						["_ActorTable"] = {
 							[44461] = {
@@ -3506,52 +4103,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["debuff_uptime_spells"] = {
-						["_ActorTable"] = {
-							[31661] = {
-								["id"] = 31661,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[122] = {
-								["id"] = 122,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[80354] = {
-								["id"] = 80354,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[2120] = {
-								["id"] = 2120,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[217694] = {
-								["id"] = 217694,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[12654] = {
-								["id"] = 12654,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-						["tipo"] = 9,
+					["interrupt_targets"] = {
+						["Eredar Supplicant"] = 0,
+						["Oublion"] = 0,
+						["Golden Xue"] = 0,
 					},
-					["nome"] = "Morifa",
-					["pets"] = {
-					},
-					["buff_uptime_targets"] = {
-					},
+					["buff_uptime"] = 0,
+					["grupo"] = true,
 					["cc_done_spells"] = {
 						["_ActorTable"] = {
 							[122] = {
@@ -3577,13 +4135,14 @@ _detalhes_database = {
 						["_ActorTable"] = {
 							[2139] = {
 								["id"] = 2139,
-								["counter"] = 0,
-								["targets"] = {
-									["Eredar Supplicant"] = 0,
-									["Golden Xue"] = 0,
-								},
 								["interrompeu_oque"] = {
 								},
+								["targets"] = {
+									["Eredar Supplicant"] = 0,
+									["Oublion"] = 0,
+									["Golden Xue"] = 0,
+								},
+								["counter"] = 0,
 							},
 						},
 						["tipo"] = 9,
@@ -3616,6 +4175,12 @@ _detalhes_database = {
 							},
 							[48107] = {
 								["id"] = 48107,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[194316] = {
+								["id"] = 194316,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -3659,17 +4224,22 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["cc_break"] = 0,
+					["cc_done_targets"] = {
+						["Hatecoil Slavemaster"] = 0,
+						["Vile Doombringer"] = 0,
+						["Fel Seeker"] = 0,
+					},
 					["interrompeu_oque"] = {
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 0,
-					["buff_uptime"] = 0,
+					["buff_uptime_targets"] = {
+					},
 					["cc_done"] = 0,
 					["interrupt"] = 0,
 					["spec"] = 63,
-					["grupo"] = true,
-					["debuff_uptime_targets"] = {
+					["cc_break"] = 0,
+					["pets"] = {
 					},
 					["spell_cast"] = {
 						[31661] = 0,
@@ -3678,31 +4248,25 @@ _detalhes_database = {
 						[133] = 0,
 						[194466] = 0,
 						[2120] = 0,
-						[44457] = 0,
-						[108853] = 0,
-						[190319] = 0,
-						[11426] = 0,
-						[11366] = 0,
-						[122] = 0,
 						[2139] = 0,
+						[122] = 0,
+						[44457] = 0,
+						[11366] = 0,
+						[11426] = 0,
+						[190319] = 0,
+						[108853] = 0,
 					},
 					["cc_break_oque"] = {
 					},
-					["last_event"] = 0,
 					["tipo"] = 4,
-					["interrupt_targets"] = {
-						["Eredar Supplicant"] = 0,
-						["Golden Xue"] = 0,
-					},
+					["last_event"] = 0,
+					["nome"] = "Morifa",
 					["cc_break_targets"] = {
 						["Vile Doombringer"] = 0,
 						["Hatecoil Slavemaster"] = 0,
 					},
 					["serial"] = "Player-5-0A174C95",
-					["cc_done_targets"] = {
-						["Hatecoil Slavemaster"] = 0,
-						["Vile Doombringer"] = 0,
-						["Fel Seeker"] = 0,
+					["debuff_uptime_targets"] = {
 					},
 				}, -- [1]
 			},
@@ -3729,15 +4293,15 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -3750,7 +4314,20 @@ _detalhes_database = {
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["overall_refreshed"] = true,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
 		["CombatSkillCache"] = {
 		},
 		["totals_grupo"] = {
@@ -3765,31 +4342,18 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
 		["start_time"] = 15335.531,
 		["TimeData"] = {
 		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-		},
+		["overall_refreshed"] = true,
 	},
 	["last_realversion"] = 115,
 	["local_instances_config"] = {
@@ -3813,8 +4377,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -409.329177856445,
-					["x"] = 523.432556152344,
+					["y"] = -409.329193115234,
+					["x"] = 522.409729003906,
 					["w"] = 286.230102539063,
 					["h"] = 175.026428222656,
 				},
@@ -3846,8 +4410,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -409.328872680664,
-					["x"] = 809.662902832031,
+					["y"] = -409.329193115234,
+					["x"] = 808.639953613281,
 					["w"] = 286.230255126953,
 					["h"] = 175.026412963867,
 				},
@@ -3860,31 +4424,21 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["savedbuffs"] = {
-	},
+	["last_instance_time"] = 0,
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["cached_talents"] = {
-		["Player-5-0A174C95"] = {
-			22456, -- [1]
-			22471, -- [2]
-			22451, -- [3]
-			21631, -- [4]
-			22447, -- [5]
-			22442, -- [6]
-			22468, -- [7]
-		},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1485222404,
+		["last_version"] = 8,
 	},
 	["last_instance_id"] = 0,
 	["cached_specs"] = {
-		["Player-5-083F4C80"] = 265,
-		["Player-5-09D28249"] = 258,
 		["Player-5-0A174C95"] = 63,
-		["Player-5-0A67A4B7"] = 63,
+		["Player-5-0AA5B307"] = 269,
 	},
 }
