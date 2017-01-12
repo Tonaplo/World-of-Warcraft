@@ -28,8 +28,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
@@ -51,8 +51,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
@@ -74,8 +74,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 	}, -- [1]
@@ -99,12 +99,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = true,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = true,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
 			32379, -- [1]
@@ -122,12 +122,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 2,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = true,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = true,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
 			228260, -- [1]
@@ -145,12 +145,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 		{
 			8092, -- [1]
@@ -168,12 +168,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [5]
 		{
 			589, -- [1]
@@ -183,7 +183,7 @@ xl_savedvariables = {
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
-			["active_aura"] = "",
+			["active_aura"] = "Shadow Word: Pain",
 			["key_binding"] = "",
 			["resource_type"] = 1,
 			["maintain_aura"] = true,
@@ -191,12 +191,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 6,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [6]
 		{
 			34914, -- [1]
@@ -206,7 +206,7 @@ xl_savedvariables = {
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
-			["active_aura"] = "",
+			["active_aura"] = "Vampiric Touch",
 			["key_binding"] = "",
 			["resource_type"] = 1,
 			["maintain_aura"] = true,
@@ -214,12 +214,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [7]
 		{
 			32379, -- [1]
@@ -237,12 +237,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 3,
 			["is_interrupt"] = false,
 			["num_stacks"] = 1,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
+			["highlight_only"] = true,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = true,
-			["num_charges"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [8]
 	}, -- [3]
 }
