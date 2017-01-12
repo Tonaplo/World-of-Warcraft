@@ -74,10 +74,8 @@ module.ToggleUnit = setmetatable({
 				_G["oUF_LUI_"..ufUnits[unit]]:SetPoint(module.db[unit].Point, UIParent, module.db[unit].Point, x, y)
 			else
 				local f = oUF:Spawn(ufUnits[unit], "oUF_LUI_"..ufUnits[unit])
-				if f then 
-					f:SetScale(module.db[unit].Scale)
-					f:SetPoint(module.db[unit].Point, UIParent, module.db[unit].Point, x, y)
-				end
+				f:SetScale(module.db[unit].Scale)
+				f:SetPoint(module.db[unit].Point, UIParent, module.db[unit].Point, x, y)
 			end
 
 			if Blizzard:IsHideable(unit) then

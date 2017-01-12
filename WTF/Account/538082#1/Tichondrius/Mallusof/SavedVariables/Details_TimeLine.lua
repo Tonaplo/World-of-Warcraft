@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "23:56:20",
+			["date_start"] = "23:54:13",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 127,
+		}, -- [1]
+		{
+			["date_end"] = "23:50:20",
+			["date_start"] = "23:50:04",
+			["name"] = "Mana Devourer",
+			["total_time"] = 16.0009999999966,
+		}, -- [2]
+		{
+			["date_end"] = "23:49:46",
+			["date_start"] = "23:48:30",
+			["name"] = "Mana Devourer",
+			["total_time"] = 76.0049999999974,
+		}, -- [3]
+		{
+			["date_end"] = "23:46:05",
+			["date_start"] = "23:44:24",
+			["name"] = "Shade of Medivh",
+			["total_time"] = 101.004999999997,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -241,7 +261,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Slicedlol"] = {
@@ -285,30 +304,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:56:20",
-			["date_start"] = "23:54:13",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 127,
-		}, -- [1]
-		{
-			["date_end"] = "23:50:20",
-			["date_start"] = "23:50:04",
-			["name"] = "Mana Devourer",
-			["total_time"] = 16.0009999999966,
-		}, -- [2]
-		{
-			["date_end"] = "23:49:46",
-			["date_start"] = "23:48:30",
-			["name"] = "Mana Devourer",
-			["total_time"] = 76.0049999999974,
-		}, -- [3]
-		{
-			["date_end"] = "23:46:05",
-			["date_start"] = "23:44:24",
-			["name"] = "Shade of Medivh",
-			["total_time"] = 101.004999999997,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

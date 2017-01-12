@@ -1,6 +1,6 @@
--------------------------------------------VER 1.2.0-------------------------------------------
+--[[-----------------------------------------VER 1.2.7-------------------------------------------
 --by Tony Allain
------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------]]
 local conditioner_frame,events = CreateFrame("Frame"), {}
 conditioner_frame.temp_storage = {}
 conditioner_frame.temp_validate = 0
@@ -8,14 +8,13 @@ local name = UnitName("player")
 local GCD_SpellID = 61304
 local priority_buttons = {}
 local watched_frames = {}
-local POSITION_LEFT = {"BOTTOMRIGHT", "BOTTOMLEFT", -1, 1}
-local POSITION_RIGHT = {"BOTTOMLEFT", "BOTTOMRIGHT", 1, 1}
-local POSITION_TOP = {"BOTTOM", "TOP", 1, 1}
-local POSITION_BOTTOM = {"TOP", "BOTTOM", 1, -1}
---garbage_var is a popular global, also by Blizzard AddOns, we need to use a local version
+local POSITION_LEFT = {"BOTTOMRIGHT", "BOTTOMLEFT", -1, 0}
+local POSITION_RIGHT = {"BOTTOMLEFT", "BOTTOMRIGHT", 1, 0}
+local POSITION_TOP = {"BOTTOM", "TOP", 0, 1}
+local POSITION_BOTTOM = {"TOP", "BOTTOM", 0, -1}
 local garbage_var = 0
 local conditions_height = 485
-local menu_options_height = 175
+local menu_options_height = 250
 local max_num_tracked = 10
 local positions = {
 POSITION_LEFT, 	--1
@@ -34,6 +33,8 @@ end
 if (not xl_conditioner_options) then
 	xl_conditioner_options = {
 		hide_hotbar_incombat = false,
+		tapersize = 0.75,
+		opacity = 1.0,
 	}
 end
 local button_choices = {
@@ -519,9 +520,12 @@ end)
 --end)
 
 function UpdateWatchFramePositions(resize, main_position, child_position, target_frame)
+	if (not xl_conditioner_options.tapersize) then
+		xl_conditioner_options.tapersize = 0.75
+	end
 	if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
 		for k,v in ipairs(watched_frames) do
-			local newsize = resize*(math.pow(0.75,(k-1)))
+			local newsize = resize*(math.pow(xl_conditioner_options.tapersize,(k-1)))
 			watched_frames[k]:ClearAllPoints()
 			watched_frames[k]:SetSize(newsize, newsize)
 			watched_frames[k].edge:SetSize(newsize+(0.0625*newsize), newsize+(0.0625*newsize))
@@ -590,10 +594,19 @@ function UpdateWatchFramePositions(resize, main_position, child_position, target
 	for k,v in ipairs(watched_frames) do
 		if (k > 1) then
 			local parent = watched_frames[k-1]
-			local size = resize*(math.pow(0.75,(k-1)))
+			--this looks weird because I am docking the inner texture frame to the edge of the previous frame, so it looks jagged, need some math to space it out just right
+			local parentedgewidth = (watched_frames[k-1].edge:GetWidth() - watched_frames[k-1]:GetWidth())/2
+			local myedgewidth = (v.edge:GetWidth() - v:GetWidth())/2
+			local delta = math.abs(parentedgewidth) - math.abs(myedgewidth)/2
 			v:ClearAllPoints()
-			v:SetPoint(positions[child_position][1], parent, positions[child_position][2], positions[child_position][3]*size*0.03125, positions[child_position][4]*size*0.03125)
+			v:SetPoint(positions[child_position][1], parent, positions[child_position][2], positions[child_position][3]*delta, 0)
 		end
+
+		--update texture alpha
+		if (not xl_conditioner_options.opacity) then
+			xl_conditioner_options.opacity = 1.0
+		end
+		v.texture:SetAlpha(xl_conditioner_options.opacity)
 	end
 end
 
@@ -1036,6 +1049,8 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions:SetSize(200,conditions_height)
 		newbutton.more.conditions:SetBackdrop(MenuBackdrop)
 		newbutton.more.conditions:SetClampedToScreen(true)
+		local menubarheight = MainMenuBar:GetHeight()
+		newbutton.more.conditions:SetClampRectInsets(0,0,0,-1.75*menubarheight)
 		newbutton.more.conditions:SetPoint("TOPLEFT", newbutton.more, "BOTTOMRIGHT", -8, 4)
 		
 		newbutton.more.conditions.closebutton = CreateFrame("Button", nil, newbutton.more.conditions, "UIPanelButtonTemplate")
@@ -1592,13 +1607,20 @@ function MakePriorityButton(fortable, listline)
 			local known = FindSpellBookSlotBySpellID(my_id)
 			if (not known) then
 				return false
+			else
+				--it might be a passive
+				local byname = GetSpellInfo(my_id)
+				local ispassive = IsPassiveSpell(byname)
+				if (ispassive) then
+					return false
+				end
 			end
 			if (self.more.conditions.options.use_condition) then
 				--we're basically running a check on if the condition is met for whatever spell is in this priority slot, we'll use this status on our watch frames to determine if it is even on the priority list
 				--assuming if I am the target it is because of a buff, if my target is the target it is a debuff
 				local my_target = self.more.target_choices[self.more.conditions.options.aura_target]
 				local watched_aura_name = self.more.conditions.options.active_aura
-				local aura_func = UnitBuff
+				--local aura_func = UnitBuff
 				local my_haste = GetHaste()/100
 				local GCD = base_GCD/(1 + my_haste)
 				GCD = math.max(GCD, 0.75)
@@ -1611,11 +1633,11 @@ function MakePriorityButton(fortable, listline)
 				local condition_interrupt = false
 				local condition_aura_active = false
 
-				local spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitBuff(my_target,watched_aura_name)
+				local spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitBuff(my_target,watched_aura_name, nil, "PLAYER")
 
 				if (not spell_name) then
 					--try again
-					spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitDebuff(my_target,watched_aura_name)
+					spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitDebuff(my_target,watched_aura_name, nil, "PLAYER")
 				end
 
 				--spell charges
@@ -1936,7 +1958,8 @@ function MakePriorityButton(fortable, listline)
 							watched_frames[mySlotID].Duration:SetSize(watched_frames[mySlotID]:GetWidth(), watched_frames[mySlotID]:GetHeight()*percent_remaining)
 							watched_frames[mySlotID].Duration:Show()
 							--change color based on time left?
-							watched_frames[mySlotID].text:SetTextColor(percent_remaining, 1-percent_remaining , 0, 0.5 + percent_remaining/2)
+							--watched_frames[mySlotID].text:SetTextColor(percent_remaining, 1-percent_remaining , 0, 0.5 + percent_remaining/2)
+							watched_frames[mySlotID].text:SetTextColor(percent_remaining, 1-percent_remaining , 0)
 
 							--it's lingering TEST
 							if (time_left <= 0) then
@@ -2401,13 +2424,14 @@ HideHotbar.text:SetTextColor(1,1,1,1)
 HideHotbar:SetScript("OnClick", function(self, c_button, down)
 	xl_conditioner_options.hide_hotbar_incombat = self:GetChecked()
 	PlaySound("UChatScrollButton")
+	StoreConditions()
 end)
 HideHotbar:SetScript("OnShow", function(self)
 	self:SetChecked(xl_conditioner_options.hide_hotbar_incombat)
 end)
 
 --NewSlider(parent, name, offsety, minText, min_Value, maxText, max_Value, sliderText, initValue)
-local ConditionerSlider = NewSlider(HideHotbar, "ConditionerTrackingSlider", 10, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
+local ConditionerSlider = NewSlider(HideHotbar, "ConditionerTrackingSlider", 20, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
 ConditionerSlider:SetScript("OnValueChanged", function(self, event, ...)
 	ConditionerSlider:SetValue(ConditionerSlider:GetValue())
 	xl_num_desired_tracked = ConditionerSlider:GetValue()
@@ -2417,6 +2441,32 @@ end)
 
 ConditionerSlider:SetScript("OnShow", function(self, ...)
 	ConditionerSlider:SetValue(xl_num_desired_tracked)
+end)
+
+--taper size
+local TaperSlider = NewSlider(ConditionerSlider, "ConditionerTaperSlider", 20, "50%", 50, "100%", 100, "Taper Size: " .. tostring(xl_conditioner_options.tapersize*100 .. "%"), xl_conditioner_options.tapersize)
+TaperSlider:SetScript("OnValueChanged", function(self, event, ...)
+	TaperSlider:SetValue(TaperSlider:GetValue())
+	xl_conditioner_options.tapersize = TaperSlider:GetValue()/100
+	self.text:SetText("Taper Size: " .. tostring(xl_conditioner_options.tapersize*100 .. "%"))
+	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
+end)
+
+TaperSlider:SetScript("OnShow", function(self, ...)
+	TaperSlider:SetValue(xl_conditioner_options.tapersize*100)
+end)
+
+--TEXTURE ALPHA
+local TextureAlphaSlider = NewSlider(TaperSlider, "ConditionerAlphaSlider", 25, "0%", 0, "100%", 100, "Texture Opacity" .. tostring(xl_conditioner_options.opacity*100 .. "%"), xl_conditioner_options.opacity)
+TextureAlphaSlider:SetScript("OnValueChanged", function(self, event, ...)
+	TextureAlphaSlider:SetValue(TextureAlphaSlider:GetValue())
+	xl_conditioner_options.opacity = TextureAlphaSlider:GetValue()/100
+	self.text:SetText("Texture Opacity: " .. tostring(xl_conditioner_options.opacity*100 .. "%"))
+	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
+end)
+
+TextureAlphaSlider:SetScript("OnShow", function(self, ...)
+	TextureAlphaSlider:SetValue(xl_conditioner_options.opacity*100)
 end)
 
 --Tutorial Restart

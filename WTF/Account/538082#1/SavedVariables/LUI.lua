@@ -45,10 +45,7 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Clock"] = {
-						["Time24"] = true,
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
@@ -59,24 +56,27 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
-					["CombatLock"] = true,
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Gold"] = {
+						["Font"] = "Prototype",
+					},
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Bags"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2014598557,
+							["Mallusof"] = 2014729966,
 						},
 					},
 				},
@@ -112,11 +112,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -127,6 +122,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -154,9 +153,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -283,7 +283,6 @@ LUIDB = {
 							},
 							["Health"] = {
 								["Color"] = "Gradient",
-								["Tapping"] = true,
 							},
 							["Power"] = {
 								["Color"] = "By Type",
@@ -697,37 +696,37 @@ LUIDB = {
 						},
 						["Alliance - Tichondrius"] = {
 							"/g r", -- [1]
-							"/g ef", -- [2]
-							"/g gr", -- [3]
-							"/g g", -- [4]
-							"/g f", -- [5]
-							"/g fr", -- [6]
-							"/g f", -- [7]
-							"/g This fight makes me hate this game", -- [8]
-							"/g AGAIn", -- [9]
-							"/g wtf", -- [10]
-							" Did you get payment", -- [11]
-							"/g g", -- [12]
-							"/g f", -- [13]
-							"/g r", -- [14]
-							"/g gr", -- [15]
-							"/g f", -- [16]
-							"/g This fight makes me hate this game", -- [17]
-							"/g wtf", -- [18]
-							"/g g", -- [19]
-							"/g r", -- [20]
-							"/g f", -- [21]
-							"/g wtf", -- [22]
-							"/g r", -- [23]
-							"/g wtf", -- [24]
+							"/g wtf", -- [2]
+							"/g I soloed Deck Defender", -- [3]
+							"/g r", -- [4]
+							"/g I soloed Deck Defender", -- [5]
+							"/g Kaem,n", -- [6]
+							"/g 10 sec", -- [7]
+							"/g not on my screen :P", -- [8]
+							"/g gr", -- [9]
+							"/g This fight makes me hate this game", -- [10]
+							"/g g", -- [11]
+							"/g f", -- [12]
+							"/g r", -- [13]
+							"/g I soloed Deck Defender", -- [14]
+							"/g The bubbler lasts", -- [15]
+							"/g r", -- [16]
+							"/g wtf", -- [17]
+							"/g I soloed Deck Defender", -- [18]
+							"/g r", -- [19]
+							"/g I soloed Deck Defender", -- [20]
+							"/g Kaem,n", -- [21]
+							"/g not on my screen :P", -- [22]
+							"/g This fight makes me hate this game", -- [23]
+							"/g f", -- [24]
 							"/g I soloed Deck Defender", -- [25]
-							"/g I havent been watching Kaemn", -- [26]
-							"/g that fuck face", -- [27]
+							"/g r", -- [26]
+							"/g I soloed Deck Defender", -- [27]
 							"/g Kaem,n", -- [28]
-							"/g The bubbler lasts", -- [29]
-							"/g 10 sec", -- [30]
-							"/g then you have to go get it", -- [31]
-							"/g not on my screen :P", -- [32]
+							"/g This fight makes me hate this game", -- [29]
+							"/g I soloed Deck Defender", -- [30]
+							"/g Kaem,n", -- [31]
+							"/g I soloed Deck Defender", -- [32]
 						},
 					},
 				},
@@ -898,13 +897,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -916,17 +909,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1061,7 +1060,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1073,23 +1078,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1205,8 +1204,8 @@ LUIDB = {
 		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
@@ -1241,9 +1240,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1260,9 +1259,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1281,11 +1280,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1298,9 +1297,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1317,9 +1316,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1360,7 +1359,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1369,13 +1368,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1395,7 +1393,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1404,12 +1402,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
+					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["Auras"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1429,7 +1428,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
