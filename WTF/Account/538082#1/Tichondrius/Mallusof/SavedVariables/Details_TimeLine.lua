@@ -1,5 +1,50 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Slicedlol"] = {
+				{
+					123.908000000003, -- [1]
+					"Slicedlol", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Slicedlol"] = {
+				{
+					71.4289999999965, -- [1]
+					"Slicedlol", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Mallusof"] = {
+				{
+					72.1710000000021, -- [1]
+					"Mallusof", -- [2]
+					47788, -- [3]
+				}, -- [1]
+				{
+					72.1710000000021, -- [1]
+					"Slicedlol", -- [2]
+					47788, -- [3]
+				}, -- [2]
+			},
+		}, -- [3]
+		{
+			["Slicedlol"] = {
+				{
+					94.0360000000001, -- [1]
+					"Slicedlol", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -10,39 +55,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_end"] = "23:56:20",
-			["date_start"] = "23:54:13",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 127,
-		}, -- [1]
-		{
-			["date_end"] = "23:50:20",
-			["date_start"] = "23:50:04",
-			["name"] = "Mana Devourer",
-			["total_time"] = 16.0009999999966,
-		}, -- [2]
-		{
-			["date_end"] = "23:49:46",
-			["date_start"] = "23:48:30",
-			["name"] = "Mana Devourer",
-			["total_time"] = 76.0049999999974,
-		}, -- [3]
-		{
-			["date_end"] = "23:46:05",
-			["date_start"] = "23:44:24",
-			["name"] = "Shade of Medivh",
-			["total_time"] = 101.004999999997,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Daoxu"] = {
@@ -266,49 +279,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Slicedlol"] = {
-				{
-					123.908000000003, -- [1]
-					"Slicedlol", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "23:54:13",
+			["date_end"] = "23:56:20",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 127,
 		}, -- [1]
 		{
+			["date_start"] = "23:50:04",
+			["date_end"] = "23:50:20",
+			["name"] = "Mana Devourer",
+			["total_time"] = 16.0009999999966,
 		}, -- [2]
 		{
-			["Mallusof"] = {
-				{
-					72.1710000000021, -- [1]
-					"Mallusof", -- [2]
-					47788, -- [3]
-				}, -- [1]
-				{
-					72.1710000000021, -- [1]
-					"Slicedlol", -- [2]
-					47788, -- [3]
-				}, -- [2]
-			},
-			["Slicedlol"] = {
-				{
-					71.4289999999965, -- [1]
-					"Slicedlol", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "23:48:30",
+			["date_end"] = "23:49:46",
+			["name"] = "Mana Devourer",
+			["total_time"] = 76.0049999999974,
 		}, -- [3]
 		{
-			["Slicedlol"] = {
-				{
-					94.0360000000001, -- [1]
-					"Slicedlol", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "23:44:24",
+			["date_end"] = "23:46:05",
+			["name"] = "Shade of Medivh",
+			["total_time"] = 101.004999999997,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }
