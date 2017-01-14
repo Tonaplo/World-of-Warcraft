@@ -20,13 +20,6 @@ X: -151
 Y: -26
 W: 210
 H: 175
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -186
-Y: -48
-W: 60
-H: 60
 Frame: DetailsStatusBarOptions
 FrameLevel: 1
 Anchor: CENTER
@@ -76,3 +69,10 @@ X: 0
 Y: 0
 W: 648
 H: 420
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -186
+Y: -48
+W: 60
+H: 60

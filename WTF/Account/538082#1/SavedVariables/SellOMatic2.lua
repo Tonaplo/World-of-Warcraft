@@ -17,8 +17,8 @@ SellOMatic2DB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["safe_mode"] = false,
 			["autoSell"] = "JUNK",
+			["safe_mode"] = false,
 		},
 	},
 }

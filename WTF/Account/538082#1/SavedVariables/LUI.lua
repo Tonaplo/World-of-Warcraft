@@ -45,7 +45,10 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["CombatLock"] = true,
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
@@ -56,27 +59,24 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["DPS"] = {
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["Clock"] = {
-						["Time24"] = true,
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["CombatLock"] = true,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["FPS"] = {
-						["Font"] = "Prototype",
-					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2049235631,
+							["Mallusof"] = 2051203989,
 						},
 					},
 				},
@@ -93,9 +93,9 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 36716179,
-							["Farahn"] = 107611821,
+							["Farahn"] = 110473885,
 							["Greybone"] = 7138739,
-							["Amranar"] = 519527245,
+							["Amranar"] = 520532712,
 							["Granjior"] = 258323680,
 							["Kaldorath"] = 34118943,
 							["Faerand"] = 34540287,
@@ -661,72 +661,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g Only Priest I beleive", -- [1]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [2]
-							"/cw Budabellie-Kil'jaeden ye", -- [3]
-							"/cw Ravokon-EmeraldDream I'llafter", -- [4]
-							" pretty sure I did", -- [5]
-							"/cw Budabellie-Kil'jaeden I have Adds?", -- [6]
-							"/i nvm", -- [7]
-							"/cw Budabellie-Kil'jaeden let me know :)", -- [8]
-							"/i ya please", -- [9]
-							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [10]
-							"/cw Budabellie-Kil'jaeden ye?", -- [11]
-							"/cw Budabellie-Kil'jaeden 7?", -- [12]
-							"/cw Budabellie-Kil'jaeden on 5?", -- [13]
-							"/g How many do you guys have down ?", -- [14]
-							"/g Do you have a Resto Shammy?", -- [15]
-							"/g If you have Resto Shammy", -- [16]
-							"/g SLT is god for it", -- [17]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [18]
-							"/cw Ravokon-EmeraldDream I'llafter", -- [19]
-							"/cw Budabellie-Kil'jaeden I have Adds?", -- [20]
-							"/cw Budabellie-Kil'jaeden let me know :)", -- [21]
-							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [22]
-							"/cw Budabellie-Kil'jaeden 7?", -- [23]
-							"/g How many do you guys have down ?", -- [24]
-							"/g If you have Resto Shammy", -- [25]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [26]
-							"/cw Budabellie-Kil'jaeden I have Adds?", -- [27]
-							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [28]
-							"/g How many do you guys have down ?", -- [29]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [30]
-							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [31]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [32]
+							"/g How many do you guys have down ?", -- [1]
+							"/reload ui", -- [2]
+							"/g If you have Resto Shammy", -- [3]
+							"/reload ui", -- [4]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [5]
+							"/g If you have Resto Shammy", -- [6]
+							"/reload ui", -- [7]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [8]
+							"/reload ui", -- [9]
+							"/g If you have Resto Shammy", -- [10]
+							"/reload ui", -- [11]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [12]
+							"/cw Budabellie-Kil'jaeden 7?", -- [13]
+							"/g If you have Resto Shammy", -- [14]
+							"/g How many do you guys have down ?", -- [15]
+							"/reload ui", -- [16]
+							"/g If you have Resto Shammy", -- [17]
+							"/reload ui", -- [18]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [19]
+							"/g If you have Resto Shammy", -- [20]
+							"/reload ui", -- [21]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [22]
+							"/reload ui", -- [23]
+							"/g If you have Resto Shammy", -- [24]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [25]
+							"/g If you have Resto Shammy", -- [26]
+							"/reload ui", -- [27]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [28]
+							"/reload ui", -- [29]
+							"/g If you have Resto Shammy", -- [30]
+							"/reload ui", -- [31]
+							"/g If you have Resto Shammy", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kaemn I'm gonna whisper you a ton", -- [1]
-							"/cw Kaemn testing something out", -- [2]
-							"/cw Kaemn just ignore it", -- [3]
-							"/cw Kaemn ok?", -- [4]
-							"/pvp", -- [5]
-							"/cw Ellorana wait", -- [6]
+							"/cw Kaemn yo", -- [1]
+							"/g r", -- [2]
+							"/cw Kaemn yo", -- [3]
+							"/cw Kaemn I'm gonna whisper you a ton", -- [4]
+							"/cw Kaemn just ignore it", -- [5]
+							"/pvp", -- [6]
 							"/g thanks Kaem", -- [7]
-							"/g r", -- [8]
-							"/g Kaem,n", -- [9]
-							"/g I still", -- [10]
-							"/g Kaem,n", -- [11]
-							"/g I still", -- [12]
-							"/g fucking hate this place", -- [13]
-							"/g This fight makes me hate this game", -- [14]
-							"/g I still", -- [15]
-							"/g fucking hate this place", -- [16]
-							"/g I still", -- [17]
+							"/g Kaem,n", -- [8]
+							"/g I still", -- [9]
+							"/g This fight makes me hate this game", -- [10]
+							"/g fucking hate this place", -- [11]
+							"/cw Kaemn yo", -- [12]
+							"/cw Kaemn ok?", -- [13]
+							"/g r", -- [14]
+							"/g fucking hate this place", -- [15]
+							"/cw Kaemn yo", -- [16]
+							"/g r", -- [17]
 							"/cw Kaemn yo", -- [18]
-							"/cw Kaemn testing something out", -- [19]
-							"/cw Kaemn ok?", -- [20]
-							"/cw Ellorana wait", -- [21]
-							"/g r", -- [22]
-							"/g I still", -- [23]
-							"/g fucking hate this place", -- [24]
-							"/g I still", -- [25]
-							"/cw Kaemn yo", -- [26]
-							"/cw Kaemn ok?", -- [27]
-							"/g r", -- [28]
-							"/g fucking hate this place", -- [29]
+							"/cw Kaemn I'm gonna whisper you a ton", -- [19]
+							"/pvp", -- [20]
+							"/g Kaem,n", -- [21]
+							"/g This fight makes me hate this game", -- [22]
+							"/cw Kaemn yo", -- [23]
+							"/g r", -- [24]
+							"/cw Kaemn yo", -- [25]
+							"/cw Kaemn I'm gonna whisper you a ton", -- [26]
+							"/g Kaem,n", -- [27]
+							"/cw Kaemn yo", -- [28]
+							"/cw Kaemn I'm gonna whisper you a ton", -- [29]
 							"/cw Kaemn yo", -- [30]
-							"/g r", -- [31]
-							"/cw Kaemn yo", -- [32]
+							"/cw Kaemn-Tichondrius Cant right now, sorry", -- [31]
+							"/cw Kalithumos Boo is not going to be part of progress, why should he have a say at all", -- [32]
 						},
 					},
 				},
@@ -897,7 +897,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -909,23 +915,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1060,13 +1060,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1078,17 +1072,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1205,8 +1205,8 @@ LUIDB = {
 		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
 		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
@@ -1241,9 +1241,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1260,9 +1260,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1281,11 +1281,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1298,9 +1298,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1317,9 +1317,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1405,11 +1405,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Faerand - Proudmoore"] = {
