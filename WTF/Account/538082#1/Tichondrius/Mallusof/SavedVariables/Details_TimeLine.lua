@@ -1,61 +1,39 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_end"] = "23:56:20",
+			["date_start"] = "23:54:13",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 127,
+		}, -- [1]
+		{
+			["date_end"] = "23:50:20",
+			["date_start"] = "23:50:04",
+			["name"] = "Mana Devourer",
+			["total_time"] = 16.0009999999966,
+		}, -- [2]
+		{
+			["date_end"] = "23:49:46",
+			["date_start"] = "23:48:30",
+			["name"] = "Mana Devourer",
+			["total_time"] = 76.0049999999974,
+		}, -- [3]
+		{
+			["date_end"] = "23:46:05",
+			["date_start"] = "23:44:24",
+			["name"] = "Shade of Medivh",
+			["total_time"] = 101.004999999997,
+		}, -- [4]
+	},
 	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Slicedlol"] = {
-				{
-					123.908000000003, -- [1]
-					"Slicedlol", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Slicedlol"] = {
-				{
-					71.4289999999965, -- [1]
-					"Slicedlol", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-			["Mallusof"] = {
-				{
-					72.1710000000021, -- [1]
-					"Mallusof", -- [2]
-					47788, -- [3]
-				}, -- [1]
-				{
-					72.1710000000021, -- [1]
-					"Slicedlol", -- [2]
-					47788, -- [3]
-				}, -- [2]
-			},
-		}, -- [3]
-		{
-			["Slicedlol"] = {
-				{
-					94.0360000000001, -- [1]
-					"Slicedlol", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Daoxu"] = {
@@ -279,36 +257,58 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["combat_data"] = {
+	["cooldowns_timeline"] = {
 		{
-			["date_start"] = "23:54:13",
-			["date_end"] = "23:56:20",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 127,
+			["Slicedlol"] = {
+				{
+					123.908000000003, -- [1]
+					"Slicedlol", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
 		}, -- [1]
 		{
-			["date_start"] = "23:50:04",
-			["date_end"] = "23:50:20",
-			["name"] = "Mana Devourer",
-			["total_time"] = 16.0009999999966,
 		}, -- [2]
 		{
-			["date_start"] = "23:48:30",
-			["date_end"] = "23:49:46",
-			["name"] = "Mana Devourer",
-			["total_time"] = 76.0049999999974,
+			["Mallusof"] = {
+				{
+					72.1710000000021, -- [1]
+					"Mallusof", -- [2]
+					47788, -- [3]
+				}, -- [1]
+				{
+					72.1710000000021, -- [1]
+					"Slicedlol", -- [2]
+					47788, -- [3]
+				}, -- [2]
+			},
+			["Slicedlol"] = {
+				{
+					71.4289999999965, -- [1]
+					"Slicedlol", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
-			["date_start"] = "23:44:24",
-			["date_end"] = "23:46:05",
-			["name"] = "Shade of Medivh",
-			["total_time"] = 101.004999999997,
+			["Slicedlol"] = {
+				{
+					94.0360000000001, -- [1]
+					"Slicedlol", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
 		}, -- [4]
 	},
 }

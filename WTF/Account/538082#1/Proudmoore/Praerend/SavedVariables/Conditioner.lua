@@ -26,8 +26,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 4,
-			["alt_min_resource_to_cast"] = 70,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 70,
 		}, -- [2]
 		{
 			190456, -- [1]
@@ -46,8 +46,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 5,
-			["alt_min_resource_to_cast"] = 20,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 20,
 		}, -- [3]
 		{
 			23922, -- [1]
@@ -66,8 +66,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 		{
 			6572, -- [1]
@@ -86,8 +86,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [5]
 		{
 			20243, -- [1]
@@ -106,11 +106,13 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [6]
 	},
 }
 xl_conditioner_options = {
+	["opacity"] = 1,
 	["hide_hotbar_incombat"] = false,
+	["tapersize"] = 0.75,
 }

@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2019980803,
+							["Mallusof"] = 2049235631,
 						},
 					},
 				},
@@ -95,7 +95,7 @@ LUIDB = {
 							["Miriyal"] = 36716179,
 							["Farahn"] = 107611821,
 							["Greybone"] = 7138739,
-							["Amranar"] = 489494270,
+							["Amranar"] = 519527245,
 							["Granjior"] = 258323680,
 							["Kaldorath"] = 34118943,
 							["Faerand"] = 34540287,
@@ -112,11 +112,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -127,6 +122,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -154,9 +153,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -661,72 +661,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/cw Budabellie-Kil'jaeden that was easy", -- [1]
-							"/cw Budabellie-Kil'jaeden on 5?", -- [2]
+							"/g Only Priest I beleive", -- [1]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [2]
 							"/cw Budabellie-Kil'jaeden ye", -- [3]
-							"/i ya please", -- [4]
-							"/i nvm", -- [5]
-							"/cw Budabellie-Kil'jaeden 7?", -- [6]
-							"/cw Budabellie-Kil'jaeden ye?", -- [7]
-							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [8]
-							"/cw Budabellie-Kil'jaeden I have Adds?", -- [9]
-							"/cw Wartörn-Stormrage LOL", -- [10]
-							"/cw Ravokon-EmeraldDream I'llafter", -- [11]
-							" pretty sure I did", -- [12]
-							"/cw Budabellie-Kil'jaeden let me know :)", -- [13]
-							"/cw Budabellie-Kil'jaeden on 5?", -- [14]
-							"/i ya please", -- [15]
-							"/cw Budabellie-Kil'jaeden 7?", -- [16]
-							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [17]
-							"/cw Wartörn-Stormrage LOL", -- [18]
-							" pretty sure I did", -- [19]
-							"/cw Budabellie-Kil'jaeden on 5?", -- [20]
-							"/cw Budabellie-Kil'jaeden 7?", -- [21]
-							"/cw Wartörn-Stormrage LOL", -- [22]
-							"/cw Budabellie-Kil'jaeden on 5?", -- [23]
-							"/cw Wartörn-Stormrage LOL", -- [24]
-							"/g How many do you guys have down ?", -- [25]
-							"/g Which ones?", -- [26]
-							"/g Do you have a Resto Shammy?", -- [27]
-							"/g on the team", -- [28]
-							"/g If you have Resto Shammy", -- [29]
-							"/g go Ilgynoth", -- [30]
-							"/g SLT is god for it", -- [31]
-							"/g Only Priest I beleive", -- [32]
+							"/cw Ravokon-EmeraldDream I'llafter", -- [4]
+							" pretty sure I did", -- [5]
+							"/cw Budabellie-Kil'jaeden I have Adds?", -- [6]
+							"/i nvm", -- [7]
+							"/cw Budabellie-Kil'jaeden let me know :)", -- [8]
+							"/i ya please", -- [9]
+							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [10]
+							"/cw Budabellie-Kil'jaeden ye?", -- [11]
+							"/cw Budabellie-Kil'jaeden 7?", -- [12]
+							"/cw Budabellie-Kil'jaeden on 5?", -- [13]
+							"/g How many do you guys have down ?", -- [14]
+							"/g Do you have a Resto Shammy?", -- [15]
+							"/g If you have Resto Shammy", -- [16]
+							"/g SLT is god for it", -- [17]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [18]
+							"/cw Ravokon-EmeraldDream I'llafter", -- [19]
+							"/cw Budabellie-Kil'jaeden I have Adds?", -- [20]
+							"/cw Budabellie-Kil'jaeden let me know :)", -- [21]
+							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [22]
+							"/cw Budabellie-Kil'jaeden 7?", -- [23]
+							"/g How many do you guys have down ?", -- [24]
+							"/g If you have Resto Shammy", -- [25]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [26]
+							"/cw Budabellie-Kil'jaeden I have Adds?", -- [27]
+							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [28]
+							"/g How many do you guys have down ?", -- [29]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [30]
+							"/cw Budabellie-Kil'jaeden yup :) Thanks for communication btw", -- [31]
+							"/cw Budabellie-Kil'jaeden that was easy", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g r", -- [1]
-							"/g This fight makes me hate this game", -- [2]
-							"/g Kaem,n", -- [3]
-							"/g r", -- [4]
-							"/g Kaem,n", -- [5]
-							"/g I still", -- [6]
-							"/g fucking", -- [7]
-							"/g Kaem,n", -- [8]
-							"/g r", -- [9]
+							"/cw Kaemn I'm gonna whisper you a ton", -- [1]
+							"/cw Kaemn testing something out", -- [2]
+							"/cw Kaemn just ignore it", -- [3]
+							"/cw Kaemn ok?", -- [4]
+							"/pvp", -- [5]
+							"/cw Ellorana wait", -- [6]
+							"/g thanks Kaem", -- [7]
+							"/g r", -- [8]
+							"/g Kaem,n", -- [9]
 							"/g I still", -- [10]
 							"/g Kaem,n", -- [11]
 							"/g I still", -- [12]
 							"/g fucking hate this place", -- [13]
-							"/g chrisdt", -- [14]
-							"/g This fight makes me hate this game", -- [15]
-							"/g r", -- [16]
+							"/g This fight makes me hate this game", -- [14]
+							"/g I still", -- [15]
+							"/g fucking hate this place", -- [16]
 							"/g I still", -- [17]
-							"/g Kaem,n", -- [18]
-							"/g I still", -- [19]
-							"/g fucking hate this place", -- [20]
-							"/g This fight makes me hate this game", -- [21]
-							"/g I still", -- [22]
-							"/g fucking hate this place", -- [23]
-							"/g I still", -- [24]
-							"/cw Kaemn yo", -- [25]
-							"/cw Kaemn I'm gonna whisper you a ton", -- [26]
-							"/cw Kaemn testing something out", -- [27]
-							"/cw Kaemn just ignore it", -- [28]
-							"/cw Kaemn ok?", -- [29]
-							"/pvp", -- [30]
-							"/cw Ellorana wait", -- [31]
-							"/g thanks Kaem", -- [32]
+							"/cw Kaemn yo", -- [18]
+							"/cw Kaemn testing something out", -- [19]
+							"/cw Kaemn ok?", -- [20]
+							"/cw Ellorana wait", -- [21]
+							"/g r", -- [22]
+							"/g I still", -- [23]
+							"/g fucking hate this place", -- [24]
+							"/g I still", -- [25]
+							"/cw Kaemn yo", -- [26]
+							"/cw Kaemn ok?", -- [27]
+							"/g r", -- [28]
+							"/g fucking hate this place", -- [29]
+							"/cw Kaemn yo", -- [30]
+							"/g r", -- [31]
+							"/cw Kaemn yo", -- [32]
 						},
 					},
 				},
@@ -1162,6 +1162,7 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1359,7 +1360,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1368,13 +1369,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -1394,7 +1394,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1403,12 +1403,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
+					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["Auras"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1428,7 +1429,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,

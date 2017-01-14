@@ -1,5 +1,13 @@
 
 DetailsTimeLineDB = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["max_segments"] = 4,
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -8,70 +16,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
-		{
-			["date_end"] = "08:19:01",
-			["date_start"] = "08:18:01",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 60,
-		}, -- [1]
-		{
-			["date_end"] = "08:15:20",
-			["date_start"] = "08:14:07",
-			["name"] = "Dresaron",
-			["total_time"] = 73.002,
-		}, -- [2]
-		{
-			["date_end"] = "08:13:26",
-			["date_start"] = "08:12:52",
-			["name"] = "Dresaron",
-			["total_time"] = 34.0149999999999,
-		}, -- [3]
-		{
-			["date_end"] = "08:12:19",
-			["date_start"] = "08:11:08",
-			["name"] = "Oakheart",
-			["total_time"] = 71.0119999999997,
-		}, -- [4]
-	},
-	["cooldowns_timeline"] = {
-		{
-			["Mayim-Tichondrius"] = {
-				{
-					15.2250000000004, -- [1]
-					"Mayim-Tichondrius", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Mayim-Tichondrius"] = {
-				{
-					21.7050000000004, -- [1]
-					"Mayim-Tichondrius", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Mayim-Tichondrius"] = {
-				{
-					52.5499999999997, -- [1]
-					"Mayim-Tichondrius", -- [2]
-					48707, -- [3]
-				}, -- [1]
-				{
-					68.085, -- [1]
-					"Mayim-Tichondrius", -- [2]
-					55233, -- [3]
-				}, -- [2]
-			},
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -190,11 +134,67 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
+		{
+			["Mayim-Tichondrius"] = {
+				{
+					15.2250000000004, -- [1]
+					"Mayim-Tichondrius", -- [2]
+					48707, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Mayim-Tichondrius"] = {
+				{
+					21.7050000000004, -- [1]
+					"Mayim-Tichondrius", -- [2]
+					48707, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			["Mayim-Tichondrius"] = {
+				{
+					52.5499999999997, -- [1]
+					"Mayim-Tichondrius", -- [2]
+					48707, -- [3]
+				}, -- [1]
+				{
+					68.085, -- [1]
+					"Mayim-Tichondrius", -- [2]
+					55233, -- [3]
+				}, -- [2]
+			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "08:18:01",
+			["date_end"] = "08:19:01",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 60,
+		}, -- [1]
+		{
+			["date_start"] = "08:14:07",
+			["date_end"] = "08:15:20",
+			["name"] = "Dresaron",
+			["total_time"] = 73.002,
+		}, -- [2]
+		{
+			["date_start"] = "08:12:52",
+			["date_end"] = "08:13:26",
+			["name"] = "Dresaron",
+			["total_time"] = 34.0149999999999,
+		}, -- [3]
+		{
+			["date_start"] = "08:11:08",
+			["date_end"] = "08:12:19",
+			["name"] = "Oakheart",
+			["total_time"] = 71.0119999999997,
+		}, -- [4]
 	},
 }

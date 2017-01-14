@@ -21,16 +21,16 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Amranar - Emerald Dream"] = "Amranar - Emerald Dream",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Prothalon - Emerald Dream"] = "Prothalon - Emerald Dream",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Novgorod - Emerald Dream"] = "Novgorod - Emerald Dream",
 	},
 	["realm"] = {
@@ -62,8 +62,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 766,
 				["name"] = "Mallusof",
-				["class"] = "PRIEST",
 				["firstProfLevel"] = 780,
+				["class"] = "PRIEST",
 				["level"] = 110,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
@@ -120,12 +120,12 @@ RCDatabase = {
 				["secondProf"] = "Enchanting",
 			}, -- [2]
 			{
-				["secondProfLevel"] = 700,
 				["name"] = "Praerend",
-				["firstProfLevel"] = 700,
-				["class"] = "WARRIOR",
-				["level"] = 110,
+				["secondProfLevel"] = 700,
 				["firstProf"] = "Blacksmithing",
+				["level"] = 110,
+				["class"] = "WARRIOR",
+				["firstProfLevel"] = 700,
 				["secondProf"] = "Jewelcrafting",
 			}, -- [3]
 			{
@@ -138,12 +138,12 @@ RCDatabase = {
 				["secondProf"] = "Skinning",
 			}, -- [4]
 			{
+				["secondProfLevel"] = 789,
 				["name"] = "Amranar",
-				["secondProfLevel"] = 788,
-				["firstProf"] = "Alchemy",
-				["level"] = 110,
-				["firstProfLevel"] = 713,
 				["class"] = "DRUID",
+				["firstProfLevel"] = 713,
+				["level"] = 110,
+				["firstProf"] = "Alchemy",
 				["secondProf"] = "Herbalism",
 			}, -- [5]
 			{
@@ -160,7 +160,7 @@ RCDatabase = {
 				["name"] = "Farahn",
 				["firstProfLevel"] = 123,
 				["class"] = "SHAMAN",
-				["level"] = 108,
+				["level"] = 109,
 				["firstProf"] = "Mining",
 				["secondProf"] = "Engineering",
 			}, -- [7]
