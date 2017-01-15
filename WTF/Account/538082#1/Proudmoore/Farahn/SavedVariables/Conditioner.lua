@@ -1,9 +1,9 @@
 
-xl_num_desired_tracked = 5
+xl_num_desired_tracked = 2
 xl_ChildPosition = 1
-xl_LocX = 496.391223907471
-xl_LocY = 338.880146026611
-xl_DesiredScale = 70
+xl_LocX = 621.591369628906
+xl_LocY = 373.058074951172
+xl_DesiredScale = 50
 xl_OnTargetFrame = 1
 xl_current_target_dock = 1
 xl_savedvariables = {
@@ -26,9 +26,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 76,
 			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 76,
+			["use_condition"] = true,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [2]
@@ -49,9 +49,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [3]
@@ -72,9 +72,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [4]
@@ -95,9 +95,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [5]
@@ -118,9 +118,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [6]
@@ -141,9 +141,9 @@ xl_savedvariables = {
 			["is_interrupt"] = true,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [7]
@@ -166,13 +166,59 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
+		{
+			201897, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 4,
+			["active_aura"] = "",
+			["key_binding"] = "E",
+			["resource_type"] = 12,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 20,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+		}, -- [3]
+		{
+			201897, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 4,
+			["active_aura"] = "",
+			["key_binding"] = "E",
+			["resource_type"] = 12,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 2,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+		}, -- [4]
 		{
 			193796, -- [1]
 			["aura_target"] = 1,
@@ -189,13 +235,13 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [3]
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+		}, -- [5]
 		{
 			17364, -- [1]
 			["aura_target"] = 1,
@@ -212,36 +258,13 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 40,
-			["use_condition"] = true,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
 			["alt_resource_condition"] = 5,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
-		}, -- [4]
-		{
-			201897, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "E",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["num_stacks"] = 2,
 			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
-		}, -- [5]
+		}, -- [6]
 		{
 			187874, -- [1]
 			["aura_target"] = 1,
@@ -258,13 +281,36 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [6]
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+		}, -- [7]
+		{
+			201897, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+		}, -- [8]
 		{
 			60103, -- [1]
 			["aura_target"] = 1,
@@ -281,36 +327,13 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 110,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 5,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
-		}, -- [7]
-		{
-			201897, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "E",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
-		}, -- [8]
+			["alt_min_resource_to_cast"] = 110,
+		}, -- [9]
 		{
 			193796, -- [1]
 			["aura_target"] = 1,
@@ -327,13 +350,13 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [9]
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+		}, -- [10]
 	}, -- [2]
 }
 xl_conditioner_options = {
