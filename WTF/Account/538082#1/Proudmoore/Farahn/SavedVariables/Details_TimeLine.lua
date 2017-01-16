@@ -1,39 +1,112 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
-			["date_end"] = "01:37:10",
 			["date_start"] = "01:36:08",
+			["date_end"] = "01:37:10",
 			["name"] = "Sael'orn",
 			["total_time"] = 61.9989999999998,
 		}, -- [1]
 		{
-			["date_end"] = "01:31:05",
 			["date_start"] = "01:29:30",
+			["date_end"] = "01:31:05",
 			["name"] = "Shivermaw",
 			["total_time"] = 95.0100000000002,
 		}, -- [2]
 		{
-			["date_end"] = "01:24:26",
 			["date_start"] = "01:23:02",
+			["date_end"] = "01:24:26",
 			["name"] = "Millificent Manastorm",
 			["total_time"] = 84.0029999999997,
 		}, -- [3]
 		{
-			["date_start"] = "08:18:01",
 			["date_end"] = "08:19:01",
+			["date_start"] = "08:18:01",
 			["name"] = "Shade of Xavius",
 			["total_time"] = 60,
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["cooldowns_timeline"] = {
+		{
+			["Luighsearch-Hyjal"] = {
+				{
+					4.67699999999968, -- [1]
+					"Luighsearch-Hyjal", -- [2]
+					22842, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Luighsearch-Hyjal"] = {
+				{
+					38.7510000000002, -- [1]
+					"Luighsearch-Hyjal", -- [2]
+					22842, -- [3]
+				}, -- [1]
+				{
+					68.3290000000006, -- [1]
+					"Luighsearch-Hyjal", -- [2]
+					61336, -- [3]
+				}, -- [2]
+				{
+					68.9949999999999, -- [1]
+					"Luighsearch-Hyjal", -- [2]
+					22842, -- [3]
+				}, -- [3]
+			},
+			["Phlair"] = {
+				{
+					55.451, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					31821, -- [3]
+				}, -- [1]
+			},
+			["Alenicus"] = {
+				{
+					34.9380000000001, -- [1]
+					"Alenicus", -- [2]
+					1022, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Luighsearch-Hyjal"] = {
+				{
+					37.9759999999997, -- [1]
+					"Luighsearch-Hyjal", -- [2]
+					22842, -- [3]
+				}, -- [1]
+			},
+			["Phlair"] = {
+				{
+					53.9269999999997, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					31821, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Mayim-Tichondrius"] = {
+				{
+					15.2250000000004, -- [1]
+					"Mayim-Tichondrius", -- [2]
+					48707, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
 	},
-	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Farahn"] = {
@@ -78,16 +151,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Phlair"] = {
-				[202306] = {
-					34.2539999999999, -- [1]
-					51.3620000000001, -- [2]
-					52.1570000000002, -- [3]
-					61.0990000000002, -- [4]
-					["source"] = "Phase Spider",
-					["active"] = false,
-				},
-			},
 			["Luighsearch-Hyjal"] = {
 				[202306] = {
 					14.0559999999996, -- [1]
@@ -108,24 +171,18 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Phlair"] = {
+				[202306] = {
+					34.2539999999999, -- [1]
+					51.3620000000001, -- [2]
+					52.1570000000002, -- [3]
+					61.0990000000002, -- [4]
+					["source"] = "Phase Spider",
+					["active"] = false,
+				},
+			},
 		}, -- [1]
 		{
-			["Phlair"] = {
-				[201380] = {
-					5.47299999999996, -- [1]
-					17.9800000000005, -- [2]
-					["source"] = "Shivermaw",
-					["active"] = false,
-				},
-			},
-			["Farahn"] = {
-				[201380] = {
-					92.4750000000004, -- [1]
-					94.2740000000003, -- [2]
-					["source"] = "Shivermaw",
-					["active"] = false,
-				},
-			},
 			["Luighsearch-Hyjal"] = {
 				[201380] = {
 					5.47299999999996, -- [1]
@@ -138,6 +195,22 @@ DetailsTimeLineDB = {
 					78.973, -- [8]
 					92.4750000000004, -- [9]
 					95.0100000000002, -- [10]
+					["source"] = "Shivermaw",
+					["active"] = false,
+				},
+			},
+			["Farahn"] = {
+				[201380] = {
+					92.4750000000004, -- [1]
+					94.2740000000003, -- [2]
+					["source"] = "Shivermaw",
+					["active"] = false,
+				},
+			},
+			["Phlair"] = {
+				[201380] = {
+					5.47299999999996, -- [1]
+					17.9800000000005, -- [2]
 					["source"] = "Shivermaw",
 					["active"] = false,
 				},
@@ -200,7 +273,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Luighsearch-Hyjal"] = {
+			["Phlair"] = {
 				[202310] = {
 					59.665, -- [1]
 					67.6719999999996, -- [2]
@@ -208,7 +281,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Phlair"] = {
+			["Luighsearch-Hyjal"] = {
 				[202310] = {
 					59.665, -- [1]
 					67.6719999999996, -- [2]
@@ -242,84 +315,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
-		{
-			["Luighsearch-Hyjal"] = {
-				{
-					4.67699999999968, -- [1]
-					"Luighsearch-Hyjal", -- [2]
-					22842, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Phlair"] = {
-				{
-					55.451, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					31821, -- [3]
-				}, -- [1]
-			},
-			["Luighsearch-Hyjal"] = {
-				{
-					38.7510000000002, -- [1]
-					"Luighsearch-Hyjal", -- [2]
-					22842, -- [3]
-				}, -- [1]
-				{
-					68.3290000000006, -- [1]
-					"Luighsearch-Hyjal", -- [2]
-					61336, -- [3]
-				}, -- [2]
-				{
-					68.9949999999999, -- [1]
-					"Luighsearch-Hyjal", -- [2]
-					22842, -- [3]
-				}, -- [3]
-			},
-			["Alenicus"] = {
-				{
-					34.9380000000001, -- [1]
-					"Alenicus", -- [2]
-					1022, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Luighsearch-Hyjal"] = {
-				{
-					37.9759999999997, -- [1]
-					"Luighsearch-Hyjal", -- [2]
-					22842, -- [3]
-				}, -- [1]
-			},
-			["Phlair"] = {
-				{
-					53.9269999999997, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					31821, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Mayim-Tichondrius"] = {
-				{
-					15.2250000000004, -- [1]
-					"Mayim-Tichondrius", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

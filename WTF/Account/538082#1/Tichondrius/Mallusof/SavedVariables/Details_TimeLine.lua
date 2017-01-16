@@ -1,84 +1,22 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Mallusof"] = {
-				{
-					["time"] = 76.3889999999992,
-					["events"] = {
-						{
-							true, -- [1]
-							1, -- [2]
-							3438, -- [3]
-							1484431986.171, -- [4]
-							19293, -- [5]
-							"Sra'thik Amber-Trapper", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							1, -- [2]
-							3553, -- [3]
-							1484431986.171, -- [4]
-							19293, -- [5]
-							"Zar'thik Battle-Mender", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							1, -- [2]
-							29023, -- [3]
-							1484431986.171, -- [4]
-							19293, -- [5]
-							"Wind Lord Mel'jarak", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							9730, -- [10]
-						}, -- [3]
-					},
-				}, -- [1]
-			},
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["combat_data"] = {
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "17:46:51",
-			["date_start"] = "17:46:19",
-			["name"] = "Grand Empress Shek'zeer",
-			["total_time"] = 31.4749999999986,
 		}, -- [1]
 		{
-			["date_end"] = "17:44:50",
-			["date_start"] = "17:43:56",
-			["name"] = "Amber-Shaper Un'sok",
-			["total_time"] = 54.1569999999992,
 		}, -- [2]
 		{
-			["date_end"] = "17:40:48",
-			["date_start"] = "17:40:28",
-			["name"] = "Wind Lord Mel'jarak",
-			["total_time"] = 20.2710000000006,
 		}, -- [3]
 		{
-			["date_start"] = "14:11:49",
-			["date_end"] = "14:13:05",
-			["name"] = "Wind Lord Mel'jarak",
-			["total_time"] = 76.3889999999992,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -167,7 +105,33 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["combat_data"] = {
+		{
+			["date_start"] = "17:46:19",
+			["date_end"] = "17:46:51",
+			["name"] = "Grand Empress Shek'zeer",
+			["total_time"] = 31.4749999999986,
+		}, -- [1]
+		{
+			["date_start"] = "17:43:56",
+			["date_end"] = "17:44:50",
+			["name"] = "Amber-Shaper Un'sok",
+			["total_time"] = 54.1569999999992,
+		}, -- [2]
+		{
+			["date_start"] = "17:40:28",
+			["date_end"] = "17:40:48",
+			["name"] = "Wind Lord Mel'jarak",
+			["total_time"] = 20.2710000000006,
+		}, -- [3]
+		{
+			["date_end"] = "14:13:05",
+			["date_start"] = "14:11:49",
+			["name"] = "Wind Lord Mel'jarak",
+			["total_time"] = 76.3889999999992,
+		}, -- [4]
+	},
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
@@ -175,13 +139,49 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+			["Mallusof"] = {
+				{
+					["time"] = 76.3889999999992,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							3438, -- [3]
+							1484431986.171, -- [4]
+							19293, -- [5]
+							"Sra'thik Amber-Trapper", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							3553, -- [3]
+							1484431986.171, -- [4]
+							19293, -- [5]
+							"Zar'thik Battle-Mender", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							29023, -- [3]
+							1484431986.171, -- [4]
+							19293, -- [5]
+							"Wind Lord Mel'jarak", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							9730, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
 		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
 	},
 }

@@ -35,15 +35,15 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 36716179,
-							["Farahn"] = 119463151,
+							["Farahn"] = 137281427,
 							["Greybone"] = 7138739,
-							["Amranar"] = 520532712,
+							["Amranar"] = 484065467,
 							["Granjior"] = 258323680,
 							["Kaldorath"] = 34118943,
 							["Faerand"] = 34540287,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 35169412,
-							["Morifa"] = 397264502,
+							["Morifa"] = 404484825,
 							["Rahran"] = 303593878,
 							["Praerend"] = 708944375,
 						},
@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2057182748,
+							["Mallusof"] = 2014898714,
 						},
 					},
 				},
@@ -72,27 +72,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -112,14 +112,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -147,16 +153,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -1049,72 +1049,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g If you have Resto Shammy", -- [1]
-							"/g How many do you guys have down ?", -- [2]
-							"/g If you have Resto Shammy", -- [3]
-							"/g How many do you guys have down ?", -- [4]
+							"/g wow", -- [1]
+							"/g this War of the Ancients scenario", -- [2]
+							"/g in the druid campaign", -- [3]
+							"/g is super sick", -- [4]
 							"/g thanks!", -- [5]
-							"/reload ui", -- [6]
+							"/i hey!", -- [6]
 							"/cw Budabellie-Kil'jaeden that was easy", -- [7]
-							"/reload ui", -- [8]
-							"/g If you have Resto Shammy", -- [9]
+							"/i hey!", -- [8]
+							"/raid same", -- [9]
 							"/g How many do you guys have down ?", -- [10]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [11]
-							"/g If you have Resto Shammy", -- [12]
-							"/reload ui", -- [13]
-							"/g If you have Resto Shammy", -- [14]
-							"/g How many do you guys have down ?", -- [15]
-							"/g If you have Resto Shammy", -- [16]
-							"/g How many do you guys have down ?", -- [17]
-							"/g thanks!", -- [18]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [19]
-							"/g If you have Resto Shammy", -- [20]
+							"/i hey!", -- [11]
+							"/raid same", -- [12]
+							"/i hey!", -- [13]
+							"/p Ashe and Sarp, coming?", -- [14]
+							"/p indeed not :P", -- [15]
+							"/p First Mythic for me", -- [16]
+							"/p ty guys :)", -- [17]
+							"/g wow", -- [18]
+							"/g in the druid campaign", -- [19]
+							"/g thanks!", -- [20]
 							"/cw Budabellie-Kil'jaeden that was easy", -- [21]
-							"/reload ui", -- [22]
-							"/g How many do you guys have down ?", -- [23]
-							"/g thanks!", -- [24]
-							"/g If you have Resto Shammy", -- [25]
-							"/reload ui", -- [26]
+							"/raid same", -- [22]
+							"/i hey!", -- [23]
+							"/p Ashe and Sarp, coming?", -- [24]
+							"/p First Mythic for me", -- [25]
+							"/g wow", -- [26]
 							"/g thanks!", -- [27]
-							"/reload ui", -- [28]
-							"/i hey!", -- [29]
-							"/i thanks Phla", -- [30]
-							"/i that was close", -- [31]
-							"/i gz!", -- [32]
+							"/raid same", -- [28]
+							"/p Ashe and Sarp, coming?", -- [29]
+							"/g wow", -- [30]
+							"/raid same", -- [31]
+							"/g wow", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g r", -- [1]
-							"/cw Kaemn yo", -- [2]
-							"/pvp", -- [3]
-							"/cw Kaemn yo", -- [4]
-							"/g Kaem,n", -- [5]
-							"/pvp", -- [6]
-							"/cw Kaemn yo", -- [7]
-							"/g Kaem,n", -- [8]
-							"/cw Kaemn yo", -- [9]
-							"/pvp", -- [10]
-							"/cw Kaemn yo", -- [11]
-							"/g Kaem,n", -- [12]
-							"/cw Kaemn-Tichondrius Cant right now, sorry", -- [13]
-							"/pvp", -- [14]
-							"/g r", -- [15]
-							"/cw Kaemn yo", -- [16]
-							"/pvp", -- [17]
-							"/cw Kaemn yo", -- [18]
-							"/g Kaem,n", -- [19]
-							"/pvp", -- [20]
-							"/cw Kaemn yo", -- [21]
-							"/g Kaem,n", -- [22]
-							"/cw Kaemn yo", -- [23]
-							"/pvp", -- [24]
-							"/g Kaem,n", -- [25]
-							"/pvp", -- [26]
-							"/cw Kaemn yo", -- [27]
-							"/g Kaem,n", -- [28]
-							"/cw Kaemn yo", -- [29]
-							"/pvp", -- [30]
-							"/cw Kaemn yo", -- [31]
-							"/pvp", -- [32]
+							"/cw Kaemn yo", -- [1]
+							"/pvp", -- [2]
+							"/g r", -- [3]
+							"/pvp", -- [4]
+							"/g r", -- [5]
+							"/wave", -- [6]
+							"/smile", -- [7]
+							"/sigh", -- [8]
+							"/g go ahead :)", -- [9]
+							"/g make it in guild chat for me to see :P", -- [10]
+							"/g aight, where are you?", -- [11]
+							"/g well ya", -- [12]
+							"/g Only after they're at 54 in all specs though", -- [13]
+							"/g ye", -- [14]
+							"/g I'll prolly not do 54 for Shadow", -- [15]
+							"/g I'm in Dal", -- [16]
+							"/g Looking at the trade district", -- [17]
+							"/g ye", -- [18]
+							"/g HAHAHAHAHAHA", -- [19]
+							"/g I fucking love it", -- [20]
+							"/g dude", -- [21]
+							"/g you're my hero now", -- [22]
+							"/hug", -- [23]
+							"/love", -- [24]
+							"/g I love it dude", -- [25]
+							"/g Dude", -- [26]
+							"/g the best", -- [27]
+							"/g Kaemn", -- [28]
+							"/g I need like 100 Arkhana", -- [29]
+							"/g Could you move the stack in the first tab down to the second tab, then I'll pay the GBank", -- [30]
+							"/g I Gave 5 k", -- [31]
+							" thanks!", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1157,12 +1157,10 @@ LUIDB = {
 			["profiles"] = {
 				["Base"] = {
 					["SidebarLeft2"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1256,7 +1254,7 @@ LUIDB = {
 					["Micromenu"] = 1.5,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1265,12 +1263,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
+					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1326,7 +1325,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1343,7 +1342,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1352,13 +1351,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Greybone - Proudmoore"] = {

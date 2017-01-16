@@ -1,9 +1,9 @@
 Version: 1
 Frame: Vd1
 FrameLevel: 2
-Anchor: BOTTOMLEFT
-X: 459
-Y: 191
+Anchor: BOTTOM
+X: 2
+Y: 76
 W: 93
 H: 43
 Frame: TargetFrame
@@ -48,13 +48,6 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: DetailsOptionsWindow
-FrameLevel: 1
-Anchor: CENTER
-X: 229
-Y: 85
-W: 897
-H: 592
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
