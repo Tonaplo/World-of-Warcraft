@@ -43,16 +43,16 @@ LUIDB = {
 							["Faerand"] = 34540287,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 35169412,
-							["Morifa"] = 404484825,
+							["Morifa"] = 404652852,
 							["Rahran"] = 303593878,
-							["Praerend"] = 708944375,
+							["Praerend"] = 743277884,
 						},
 					},
 				},
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2014898714,
+							["Mallusof"] = 2359627272,
 						},
 					},
 				},
@@ -72,15 +72,14 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
@@ -92,18 +91,19 @@ LUIDB = {
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
+					["CombatLock"] = true,
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -798,13 +798,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -816,13 +810,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -961,7 +961,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -973,19 +979,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1049,72 +1049,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g wow", -- [1]
-							"/g this War of the Ancients scenario", -- [2]
-							"/g in the druid campaign", -- [3]
-							"/g is super sick", -- [4]
-							"/g thanks!", -- [5]
-							"/i hey!", -- [6]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [7]
-							"/i hey!", -- [8]
-							"/raid same", -- [9]
-							"/g How many do you guys have down ?", -- [10]
-							"/i hey!", -- [11]
-							"/raid same", -- [12]
-							"/i hey!", -- [13]
-							"/p Ashe and Sarp, coming?", -- [14]
-							"/p indeed not :P", -- [15]
-							"/p First Mythic for me", -- [16]
-							"/p ty guys :)", -- [17]
-							"/g wow", -- [18]
-							"/g in the druid campaign", -- [19]
-							"/g thanks!", -- [20]
-							"/cw Budabellie-Kil'jaeden that was easy", -- [21]
-							"/raid same", -- [22]
-							"/i hey!", -- [23]
-							"/p Ashe and Sarp, coming?", -- [24]
-							"/p First Mythic for me", -- [25]
-							"/g wow", -- [26]
-							"/g thanks!", -- [27]
-							"/raid same", -- [28]
-							"/p Ashe and Sarp, coming?", -- [29]
-							"/g wow", -- [30]
-							"/raid same", -- [31]
-							"/g wow", -- [32]
+							"/p ?", -- [1]
+							"/cw Soonerpride-Perenolde Need that?", -- [2]
+							"/cw Soonerpride-Perenolde thanks!", -- [3]
+							"/p Wildthorn", -- [4]
+							"/p 16 itemlevels", -- [5]
+							"/p oh wow", -- [6]
+							"/p 35 ilevel upgrade :P", -- [7]
+							"/p lol", -- [8]
+							"/p thanks man", -- [9]
+							"/p 16 itemlevels", -- [10]
+							"/p 35 ilevel upgrade :P", -- [11]
+							"/p thanks man", -- [12]
+							"/p 35 ilevel upgrade :P", -- [13]
+							"/s uips", -- [14]
+							"/p anyone want?", -- [15]
+							"/p Need that Relic?", -- [16]
+							"/p SoonerPride", -- [17]
+							"/p ?", -- [18]
+							"/cw Soonerpride-Perenolde thanks!", -- [19]
+							"/p 16 itemlevels", -- [20]
+							"/p 35 ilevel upgrade :P", -- [21]
+							"/p thanks man", -- [22]
+							"/p 35 ilevel upgrade :P", -- [23]
+							"/s uips", -- [24]
+							"/p Need that Relic?", -- [25]
+							"/p ?", -- [26]
+							"/p 16 itemlevels", -- [27]
+							"/p thanks man", -- [28]
+							"/s uips", -- [29]
+							"/p ?", -- [30]
+							"/p thanks man", -- [31]
+							"/p ?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kaemn yo", -- [1]
-							"/pvp", -- [2]
-							"/g r", -- [3]
-							"/pvp", -- [4]
-							"/g r", -- [5]
-							"/wave", -- [6]
-							"/smile", -- [7]
-							"/sigh", -- [8]
-							"/g go ahead :)", -- [9]
-							"/g make it in guild chat for me to see :P", -- [10]
-							"/g aight, where are you?", -- [11]
-							"/g well ya", -- [12]
-							"/g Only after they're at 54 in all specs though", -- [13]
-							"/g ye", -- [14]
-							"/g I'll prolly not do 54 for Shadow", -- [15]
-							"/g I'm in Dal", -- [16]
-							"/g Looking at the trade district", -- [17]
-							"/g ye", -- [18]
-							"/g HAHAHAHAHAHA", -- [19]
-							"/g I fucking love it", -- [20]
-							"/g dude", -- [21]
-							"/g you're my hero now", -- [22]
-							"/hug", -- [23]
-							"/love", -- [24]
-							"/g I love it dude", -- [25]
-							"/g Dude", -- [26]
-							"/g the best", -- [27]
-							"/g Kaemn", -- [28]
-							"/g I need like 100 Arkhana", -- [29]
-							"/g Could you move the stack in the first tab down to the second tab, then I'll pay the GBank", -- [30]
-							"/g I Gave 5 k", -- [31]
-							" thanks!", -- [32]
+							"/raid :(", -- [1]
+							" I do, ye", -- [2]
+							"/raid :(", -- [3]
+							"/raid 1", -- [4]
+							"/roll 50000", -- [5]
+							"/raid 1", -- [6]
+							"/roll 35000", -- [7]
+							"/raid 1", -- [8]
+							"/roll 30000", -- [9]
+							"/raid WTF", -- [10]
+							"/AA", -- [11]
+							"/raid 1. YELLOW", -- [12]
+							"/raid Aight, sorry about that one healers", -- [13]
+							"/raid I got first", -- [14]
+							"/raid Ellestria second", -- [15]
+							"/raid Sombrador 3rd", -- [16]
+							"/raid ORANGE 1", -- [17]
+							"/raid windowms", -- [18]
+							"/raid wisdoms", -- [19]
+							"/raid plox", -- [20]
+							"/cw Eärendìl Wisdom, plox", -- [21]
+							"/cw Sombrador-Tichondrius yeah, for your Tranq", -- [22]
+							"/cw Sombrador-Tichondrius was just for everyone", -- [23]
+							"/cw Eärendìl wisdom", -- [24]
+							"/cw Eärendìl :)", -- [25]
+							"/raid ya please", -- [26]
+							"/i wuuuuuuuuuuut", -- [27]
+							"/g wuuuuuuuuut", -- [28]
+							"/g  |cffa335ee|Hitem:139332::::::::110:257::6:3:1806:1517:3337:::|h[Blackened Portalstone Necklace]|h|r off Ilgynoth", -- [29]
+							"/g Ilgynoth quest", -- [30]
+							"/g ye", -- [31]
+							"/g thanks!", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1228,11 +1228,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -1247,11 +1247,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Morifa - Proudmoore"] = {
@@ -1263,9 +1263,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1284,11 +1284,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1405,11 +1405,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -1422,9 +1422,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1440,11 +1440,11 @@ LUIDB = {
 		["Mallusof - Tichondrius"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Kaldorath - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Base"] = {

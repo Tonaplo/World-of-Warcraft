@@ -106,9 +106,9 @@ AngryAssign_State = {
 		},
 		["scrollvalue"] = 0,
 		["fullwidth"] = 666,
-		["treesizable"] = true,
-		["treewidth"] = 175,
 		["selected"] = "-2745425050927667050",
+		["treewidth"] = 175,
+		["treesizable"] = true,
 	},
 	["display"] = {
 		["y"] = 113.461578369141,
