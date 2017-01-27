@@ -13,954 +13,509 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Mallusof-Proudmoore",
-	["last_day"] = "08",
+	["last_day"] = "26",
 	["ignore_nicktag"] = false,
-	["combat_counter"] = 35,
+	["combat_counter"] = 83,
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
+					["combatId"] = 51,
 					["tipo"] = 2,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Darkfiend Dreamtwister"] = true,
+								["Darkfiend Dreadbringer"] = true,
+								["Defiled Grovewalker"] = true,
+								["Ancient Annihilator"] = true,
 							},
 							["targets"] = {
-								["Training Dummy"] = 5417076,
+								["Ancient Annihilator"] = 2023115,
+								["Darkfiend Dreamtwister"] = 488092,
+								["Defiled Grovewalker"] = 520045,
+								["Darkfiend Dreadbringer"] = 676723,
 							},
-							["delay"] = 0,
 							["pets"] = {
 							},
-							["custom"] = 0,
-							["tipo"] = 1,
+							["spec"] = 70,
+							["on_hold"] = false,
 							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 5417076.006088,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3707975.007383,
+							["end_time"] = 1485424439,
+							["colocacao"] = 1,
 							["dps_started"] = false,
-							["end_time"] = 1481228833,
-							["damage_taken"] = 0.006088,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 17,
-										["b_amt"] = 1,
-										["c_dmg"] = 223209,
-										["g_amt"] = 0,
-										["n_max"] = 6998,
-										["targets"] = {
-											["Training Dummy"] = 402643,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 179434,
-										["n_min"] = 4672,
-										["g_dmg"] = 0,
-										["counter"] = 45,
-										["total"] = 402643,
-										["c_max"] = 14006,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["c_min"] = 12096,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 4672,
-										["n_amt"] = 28,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									}, -- [1]
-									[35395] = {
-										["c_amt"] = 11,
-										["b_amt"] = 3,
-										["c_dmg"] = 373239,
-										["g_amt"] = 0,
-										["n_max"] = 18021,
-										["targets"] = {
-											["Training Dummy"] = 863154,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 489915,
-										["n_min"] = 11740,
-										["g_dmg"] = 0,
-										["counter"] = 41,
-										["total"] = 863154,
-										["c_max"] = 36351,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["c_min"] = 31167,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 36494,
-										["n_amt"] = 30,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[228288] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 114238,
-										["g_amt"] = 0,
-										["n_max"] = 28559,
-										["targets"] = {
-											["Training Dummy"] = 428387,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 314149,
-										["n_min"] = 28559,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 428387,
-										["c_max"] = 57119,
-										["id"] = 228288,
-										["r_dmg"] = 0,
-										["c_min"] = 57119,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[205729] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 41368,
-										["targets"] = {
-											["Training Dummy"] = 184814,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 184814,
-										["n_min"] = 1818,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 184814,
-										["c_max"] = 0,
-										["id"] = 205729,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 19,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[224266] = {
-										["c_amt"] = 7,
-										["b_amt"] = 2,
-										["c_dmg"] = 962256,
-										["g_amt"] = 0,
-										["n_max"] = 73689,
-										["targets"] = {
-											["Training Dummy"] = 2378484,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1416228,
-										["n_min"] = 31024,
-										["g_dmg"] = 0,
-										["counter"] = 29,
-										["total"] = 2378484,
-										["c_max"] = 147692,
-										["id"] = 224266,
-										["r_dmg"] = 0,
-										["c_min"] = 128432,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 83107,
-										["n_amt"] = 22,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[20271] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 171345,
-										["g_amt"] = 0,
-										["n_max"] = 28557,
-										["targets"] = {
-											["Training Dummy"] = 456915,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 285570,
-										["n_min"] = 28557,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 456915,
-										["c_max"] = 57115,
-										["id"] = 20271,
-										["r_dmg"] = 0,
-										["c_min"] = 57115,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_dmg"] = 0,
-										["spellschool"] = 2,
-									},
-									[184575] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 340105,
-										["g_amt"] = 0,
-										["n_max"] = 29270,
-										["targets"] = {
-											["Training Dummy"] = 702679,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 362574,
-										["n_min"] = 26159,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 702679,
-										["c_max"] = 60034,
-										["id"] = 184575,
-										["r_dmg"] = 0,
-										["c_min"] = 52154,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["nome"] = "Granjior",
-							["spec"] = 70,
-							["grupo"] = true,
-							["last_dps"] = 39088.7548785423,
+							["total"] = 3707975.007383,
 							["friendlyfire"] = {
 							},
-							["colocacao"] = 1,
-							["last_event"] = 1481228828,
-							["on_hold"] = false,
-							["start_time"] = 1481228694,
-							["serial"] = "Player-5-0A1AA198",
-							["total"] = 5417076.006088,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 17,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 17,
-					["_ActorTable"] = {
-						{
-							["received"] = 0.002099,
-							["resource"] = 79.002099,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PALADIN",
-							["resource_type"] = 9,
+							["friendlyfire_total"] = 0,
 							["nome"] = "Granjior",
 							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["tipo"] = 3,
-							["total"] = 0.002099,
-							["last_event"] = 1481228828,
-							["serial"] = "Player-5-0A1AA198",
-							["spec"] = 70,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 17,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[197277] = {
-										["uptime"] = 108,
-										["activedamt"] = 0,
-										["id"] = 197277,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[209785] = {
-										["uptime"] = 29,
-										["activedamt"] = 5,
-										["id"] = 209785,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[203528] = {
-										["uptime"] = 139,
-										["activedamt"] = 1,
-										["id"] = 203528,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[203538] = {
-										["uptime"] = 139,
-										["activedamt"] = 1,
-										["id"] = 203538,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[156071] = {
-										["uptime"] = 139,
-										["activedamt"] = 1,
-										["id"] = 156071,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[203539] = {
-										["uptime"] = 139,
-										["activedamt"] = 1,
-										["id"] = 203539,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[223819] = {
-										["uptime"] = 23,
-										["activedamt"] = 4,
-										["id"] = 223819,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[231843] = {
-										["uptime"] = 26,
-										["activedamt"] = 11,
-										["id"] = 231843,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 108,
-							["nome"] = "Granjior",
-							["spec"] = 70,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[184575] = 19,
-								[20271] = 13,
-								[85256] = 29,
-								[35395] = 41,
-							},
-							["tipo"] = 4,
-							["last_event"] = 1481228833,
-							["buff_uptime_targets"] = {
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["buff_uptime"] = 634,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 17,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Granjior"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Training Dummy",
-				["combat_counter"] = 34,
-				["playing_solo"] = true,
-				["totals"] = {
-					5417075.986593, -- [1]
-					-0.005962, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Granjior"] = 5417076.006088,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 188548.315,
-				["combat_id"] = 17,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Scourge Haunt"] = 1,
-				},
-				["data_fim"] = "12:27:13",
-				["data_inicio"] = "12:24:55",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					5417076, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 188409.731,
-				["TimeData"] = {
-				},
-				["pvp"] = true,
-			}, -- [1]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 16,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Balnazzar"] = true,
-								["Shadow Imp"] = true,
-								["[*] Haze of the Dreadlord"] = true,
-							},
-							["targets"] = {
-								["Balnazzar"] = 1709621,
-								["Shadow Imp"] = 442478,
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["total"] = 2152099.001101,
-							["classe"] = "PALADIN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 2152099.001101,
-							["spec"] = 70,
-							["dps_started"] = false,
-							["end_time"] = 1479544983,
-							["on_hold"] = false,
-							["last_event"] = 1479544981,
-							["nome"] = "Granjior",
-							["spells"] = {
+								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 77629,
+										["c_amt"] = 5,
+										["b_amt"] = 1,
+										["c_dmg"] = 68227,
 										["g_amt"] = 0,
-										["n_max"] = 7005,
+										["n_max"] = 6983,
 										["targets"] = {
-											["Balnazzar"] = 154617,
-											["Shadow Imp"] = 7005,
+											["Ancient Annihilator"] = 184420,
+											["Darkfiend Dreamtwister"] = 34185,
+											["Defiled Grovewalker"] = 12420,
+											["Darkfiend Dreadbringer"] = 6485,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 83993,
-										["n_min"] = 6145,
+										["n_dmg"] = 169283,
+										["n_min"] = 4814,
 										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 161622,
-										["c_max"] = 13593,
+										["counter"] = 31,
+										["total"] = 237510,
+										["c_max"] = 13966,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 12355,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
 										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 4814,
+										["n_amt"] = 26,
 										["r_amt"] = 0,
+										["c_min"] = 13228,
 									}, -- [1]
-									[213757] = {
-										["c_amt"] = 0,
+									[228288] = {
+										["c_amt"] = 3,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 186420,
 										["g_amt"] = 0,
-										["n_max"] = 93078,
+										["n_max"] = 31070,
 										["targets"] = {
-											["Balnazzar"] = 248618,
+											["Darkfiend Dreadbringer"] = 155350,
+											["Darkfiend Dreamtwister"] = 62138,
+											["Defiled Grovewalker"] = 93210,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 248618,
-										["n_min"] = 62462,
+										["n_dmg"] = 124278,
+										["n_min"] = 31069,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 248618,
-										["c_max"] = 0,
-										["id"] = 213757,
+										["counter"] = 7,
+										["total"] = 310698,
+										["c_max"] = 62140,
+										["id"] = 228288,
 										["r_dmg"] = 0,
 										["spellschool"] = 2,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[184689] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 72106,
-										["g_amt"] = 0,
-										["n_max"] = 36053,
-										["targets"] = {
-											["Balnazzar"] = 36053,
-											["Shadow Imp"] = 108159,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 72106,
-										["n_min"] = 36053,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 144212,
-										["c_max"] = 72106,
-										["id"] = 184689,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 72106,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[205273] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 73821,
-										["g_amt"] = 0,
-										["n_max"] = 36910,
-										["targets"] = {
-											["Balnazzar"] = 110731,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 36910,
-										["n_min"] = 36910,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 110731,
-										["c_max"] = 73821,
-										["id"] = 205273,
-										["r_dmg"] = 0,
-										["spellschool"] = 6,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 73821,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[184575] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 156826,
-										["g_amt"] = 0,
-										["n_max"] = 28395,
-										["targets"] = {
-											["Balnazzar"] = 264395,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 107569,
-										["n_min"] = 26298,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 264395,
-										["c_max"] = 79026,
-										["id"] = 184575,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 77800,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
 										["r_amt"] = 0,
+										["c_min"] = 62140,
 									},
 									[224239] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 149150,
+										["c_amt"] = 8,
+										["b_amt"] = 1,
+										["c_dmg"] = 489509,
 										["g_amt"] = 0,
-										["n_max"] = 20034,
+										["n_max"] = 38440,
 										["targets"] = {
-											["Shadow Imp"] = 282680,
+											["Ancient Annihilator"] = 378704,
+											["Darkfiend Dreamtwister"] = 99997,
+											["Defiled Grovewalker"] = 238505,
+											["Darkfiend Dreadbringer"] = 411239,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 133530,
-										["n_min"] = 17963,
+										["n_dmg"] = 638936,
+										["n_min"] = 23461,
 										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 282680,
-										["c_max"] = 39671,
+										["counter"] = 29,
+										["total"] = 1128445,
+										["c_max"] = 78469,
 										["id"] = 224239,
 										["r_dmg"] = 0,
 										["spellschool"] = 2,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 35975,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
 										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 24499,
+										["n_amt"] = 21,
 										["r_amt"] = 0,
+										["c_min"] = 45996,
 									},
 									[35395] = {
-										["c_amt"] = 5,
+										["c_amt"] = 6,
 										["b_amt"] = 0,
-										["c_dmg"] = 144200,
+										["c_dmg"] = 229895,
 										["g_amt"] = 0,
-										["n_max"] = 15734,
+										["n_max"] = 20801,
 										["targets"] = {
-											["Balnazzar"] = 288328,
-											["Shadow Imp"] = 44634,
+											["Ancient Annihilator"] = 421705,
+											["Darkfiend Dreamtwister"] = 39205,
+											["Defiled Grovewalker"] = 55958,
+											["Darkfiend Dreadbringer"] = 20801,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 188762,
-										["n_min"] = 13612,
+										["n_dmg"] = 307774,
+										["n_min"] = 17707,
 										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 332962,
-										["c_max"] = 30841,
+										["counter"] = 22,
+										["total"] = 537669,
+										["c_max"] = 39205,
 										["id"] = 35395,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 27361,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["a_amt"] = 0,
+										["n_amt"] = 16,
 										["r_amt"] = 0,
+										["c_min"] = 35776,
 									},
-									[227170] = {
-										["c_amt"] = 3,
+									[205273] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 211471,
+										["c_dmg"] = 82847,
 										["g_amt"] = 0,
-										["n_max"] = 36470,
+										["n_max"] = 41424,
 										["targets"] = {
-											["Balnazzar"] = 283050,
+											["Ancient Annihilator"] = 165694,
+											["Darkfiend Dreamtwister"] = 41423,
+											["Defiled Grovewalker"] = 82848,
+											["Darkfiend Dreadbringer"] = 82848,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 71579,
-										["n_min"] = 35109,
+										["n_dmg"] = 289966,
+										["n_min"] = 41423,
 										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 283050,
-										["c_max"] = 72650,
-										["id"] = 227170,
+										["counter"] = 8,
+										["total"] = 372813,
+										["c_max"] = 82847,
+										["id"] = 205273,
 										["r_dmg"] = 0,
-										["spellschool"] = 64,
+										["spellschool"] = 6,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 69222,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
+										["n_amt"] = 7,
 										["r_amt"] = 0,
+										["c_min"] = 82847,
 									},
-									[20271] = {
+									[184575] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 300032,
+										["g_amt"] = 0,
+										["n_max"] = 38924,
+										["targets"] = {
+											["Ancient Annihilator"] = 408989,
+											["Darkfiend Dreamtwister"] = 74707,
+											["Defiled Grovewalker"] = 37104,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 220768,
+										["n_min"] = 35170,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 520800,
+										["c_max"] = 79110,
+										["id"] = 184575,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 70732,
+									},
+									[224266] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 28557,
+										["n_max"] = 79362,
 										["targets"] = {
-											["Balnazzar"] = 114228,
+											["Ancient Annihilator"] = 152929,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 114228,
-										["n_min"] = 28557,
+										["n_dmg"] = 152929,
+										["n_min"] = 73567,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 114228,
+										["counter"] = 2,
+										["total"] = 152929,
 										["c_max"] = 0,
-										["id"] = 20271,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[224266] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 114488,
-										["g_amt"] = 0,
-										["n_max"] = 53654,
-										["targets"] = {
-											["Balnazzar"] = 209601,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 95113,
-										["n_min"] = 41459,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 209601,
-										["c_max"] = 114488,
 										["id"] = 224266,
 										["r_dmg"] = 0,
 										["spellschool"] = 2,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 114488,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
 										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[20271] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 248540,
+										["g_amt"] = 0,
+										["n_max"] = 31068,
+										["targets"] = {
+											["Ancient Annihilator"] = 310674,
+											["Darkfiend Dreamtwister"] = 62135,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 124269,
+										["n_min"] = 31067,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 372809,
+										["c_max"] = 62135,
+										["id"] = 20271,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 62135,
+									},
+									[227170] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37557,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 74302,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 74302,
+										["n_min"] = 36745,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 74302,
+										["c_max"] = 0,
+										["id"] = 227170,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
 									},
 								},
-								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 30308.2653977912,
+							["serial"] = "Player-5-0A1AA198",
+							["last_dps"] = 41158.5637405152,
 							["custom"] = 0,
+							["last_event"] = 1485424439,
+							["damage_taken"] = 952866.007383,
+							["start_time"] = 1485424357,
+							["delay"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 398126.001101,
-							["start_time"] = 1479544922,
-							["delay"] = 1479544925,
-							["friendlyfire_total"] = 0,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
+					["combatId"] = 51,
 					["tipo"] = 3,
-					["combatId"] = 16,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.001122,
+							["totalabsorb"] = 0.005028,
 							["last_hps"] = 0,
 							["healing_from"] = {
 								["Granjior"] = true,
 							},
 							["targets"] = {
-								["Granjior"] = 205506,
+								["Granjior"] = 370854,
+								["Temple Guard"] = 65028,
 							},
-							["delay"] = 1479544964,
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.001122,
-							["targets_overheal"] = {
-							},
-							["classe"] = "PALADIN",
-							["totalover"] = 0.001122,
-							["total_without_pet"] = 205506.001122,
-							["iniciar_hps"] = false,
-							["healing_taken"] = 205506.001122,
-							["fight_component"] = true,
-							["end_time"] = 1479544983,
-							["heal_enemy_amt"] = 0,
-							["total"] = 205506.001122,
-							["nome"] = "Granjior",
 							["targets_absorbs"] = {
 							},
-							["grupo"] = true,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005028,
+							["targets_overheal"] = {
+								["Temple Guard"] = 242382,
+								["Temple Archer"] = 195084,
+							},
+							["classe"] = "PALADIN",
+							["totalover"] = 437466.005028,
+							["total_without_pet"] = 388584.005028,
+							["end_time"] = 1485424439,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["total"] = 388584.005028,
+							["heal_enemy_amt"] = 0,
+							["last_event"] = 1485424438,
+							["nome"] = "Granjior",
 							["spec"] = 70,
+							["grupo"] = true,
+							["healing_taken"] = 370854.005028,
 							["heal_enemy"] = {
 							},
 							["spells"] = {
+								["tipo"] = 3,
 								["_ActorTable"] = {
-									[214894] = {
-										["c_amt"] = 1,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 0,
-										["targets"] = {
-											["Granjior"] = 97346,
-										},
-										["n_min"] = 0,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 97346,
-										["c_max"] = 97346,
-										["id"] = 214894,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 97346,
-										["m_amt"] = 0,
-										["c_min"] = 97346,
-										["n_curado"] = 0,
-										["n_amt"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[184662] = {
+									[203539] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 17848,
+										["n_max"] = 773,
 										["targets"] = {
-											["Granjior"] = 108160,
+											["Granjior"] = 30903,
 										},
-										["n_min"] = 1139,
-										["counter"] = 23,
+										["n_min"] = 772,
+										["counter"] = 40,
 										["overheal"] = 0,
-										["total"] = 108160,
+										["total"] = 30903,
 										["c_max"] = 0,
-										["id"] = 184662,
+										["id"] = 203539,
 										["targets_absorbs"] = {
 										},
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 108160,
-										["n_amt"] = 23,
+										["n_curado"] = 30903,
 										["m_healed"] = 0,
+										["n_amt"] = 40,
+										["absorbed"] = 0,
+									},
+									[203538] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 14631,
+										["targets"] = {
+											["Granjior"] = 209893,
+										},
+										["n_min"] = 585,
+										["counter"] = 36,
+										["overheal"] = 0,
+										["total"] = 209893,
+										["c_max"] = 0,
+										["id"] = 203538,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 209893,
+										["m_healed"] = 0,
+										["n_amt"] = 36,
+										["absorbed"] = 0,
+									},
+									[210191] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Temple Guard"] = 242382,
+											["Temple Archer"] = 195084,
+										},
+										["n_max"] = 17730,
+										["targets"] = {
+											["Temple Guard"] = 17730,
+											["Temple Archer"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 7,
+										["overheal"] = 437466,
+										["total"] = 17730,
+										["c_max"] = 0,
+										["id"] = 210191,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 17730,
+										["m_healed"] = 0,
+										["n_amt"] = 7,
+										["absorbed"] = 0,
+									},
+									[214894] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 65029,
+										["targets"] = {
+											["Granjior"] = 130058,
+										},
+										["n_min"] = 65029,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 130058,
+										["c_max"] = 0,
+										["id"] = 214894,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 130058,
+										["m_healed"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
-								["tipo"] = 3,
 							},
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1479544966,
+							["start_time"] = 1485424349,
+							["delay"] = 0,
 							["serial"] = "Player-5-0A1AA198",
-							["last_event"] = 1479544964,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
+					["combatId"] = 51,
 					["tipo"] = 7,
-					["combatId"] = 16,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 31.00828,
+							["resource"] = 42.003583,
 							["targets"] = {
 							},
 							["pets"] = {
@@ -968,33 +523,34 @@ _detalhes_database = {
 							["powertype"] = 0,
 							["classe"] = "PALADIN",
 							["fight_component"] = true,
-							["total"] = 0.00828,
+							["total"] = 0.003583,
 							["nome"] = "Granjior",
 							["spec"] = 70,
 							["grupo"] = true,
 							["resource_type"] = 9,
-							["last_event"] = 1479544978,
-							["received"] = 0.00828,
+							["tipo"] = 3,
+							["received"] = 0.003583,
 							["spells"] = {
+								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
-								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A1AA198",
-							["tipo"] = 3,
+							["last_event"] = 1485424437,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
+					["combatId"] = 51,
 					["tipo"] = 9,
-					["combatId"] = 16,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
 								["_ActorTable"] = {
 									[205273] = {
-										["uptime"] = 12,
+										["uptime"] = 17,
 										["activedamt"] = 0,
 										["id"] = 205273,
 										["actived"] = false,
@@ -1003,7 +559,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[205290] = {
-										["uptime"] = 12,
+										["uptime"] = 11,
 										["activedamt"] = 0,
 										["id"] = 205290,
 										["actived"] = false,
@@ -1011,17 +567,17 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[213757] = {
-										["uptime"] = 17,
-										["activedamt"] = 0,
-										["id"] = 213757,
+									[209928] = {
+										["uptime"] = 51,
+										["activedamt"] = 1,
+										["id"] = 209928,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 									[197277] = {
-										["uptime"] = 32,
+										["uptime"] = 63,
 										["activedamt"] = 0,
 										["id"] = 197277,
 										["actived"] = false,
@@ -1030,667 +586,46 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
-								["tipo"] = 9,
 							},
-							["buff_uptime"] = 32,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[184662] = {
-										["uptime"] = 10,
-										["activedamt"] = 1,
-										["id"] = 184662,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Strength Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Strength Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["The Fires of Justice"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "The Fires of Justice",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[209785] = {
-										["actived_at"] = 1479544978,
-										["uptime"] = 4,
-										["actived"] = true,
-										["id"] = 209785,
-										["activedamt"] = 2,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[223819] = {
-										["uptime"] = 12,
-										["activedamt"] = 1,
-										["id"] = 223819,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["WoW's 12th Anniversary"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "WoW's 12th Anniversary",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[221887] = {
-										["uptime"] = 6,
-										["activedamt"] = 2,
-										["id"] = 221887,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 73,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 70,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[213757] = 3,
-								[210191] = 1,
-								[205273] = 2,
-								[184575] = 6,
-								[35395] = 19,
-								[20271] = 5,
-								[190784] = 2,
-								[184662] = 1,
-								[85256] = 3,
-								[53385] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "Granjior",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["last_event"] = 1479544983,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 16,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Granjior"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Balnazzar",
-				["combat_counter"] = 32,
-				["totals"] = {
-					2152098.93125901, -- [1]
-					205506, -- [2]
-					{
-						0, -- [1]
-						[0] = -0.0275980000005802,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Granjior"] = 205506.001122,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Granjior"] = 2152099.001101,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 23274.195,
-				["combat_id"] = 16,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Shadow Imp"] = 7,
-				},
-				["data_fim"] = "00:43:04",
-				["contra"] = "Balnazzar",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					2152099, -- [1]
-					205506, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 23203.188,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "00:41:53",
-			}, -- [2]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 15,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Wrathguard Cleaver"] = true,
-								["Eredar Deathspeaker"] = true,
-							},
-							["targets"] = {
-								["Wrathguard Cleaver"] = 414074,
-								["Eredar Deathspeaker"] = 257934,
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["total"] = 672008.006827,
-							["classe"] = "PALADIN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 672008.006827,
-							["spec"] = 70,
-							["dps_started"] = false,
-							["end_time"] = 1479544812,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1479544811,
-							["nome"] = "Granjior",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 22730,
-										["g_amt"] = 0,
-										["n_max"] = 5960,
-										["targets"] = {
-											["Eredar Deathspeaker"] = 34781,
-											["Wrathguard Cleaver"] = 16926,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 28977,
-										["n_min"] = 5558,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 51707,
-										["c_max"] = 11456,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 11274,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[184689] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 104179,
-										["targets"] = {
-											["Wrathguard Cleaver"] = 104179,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 104179,
-										["n_min"] = 104179,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 104179,
-										["c_max"] = 0,
-										["id"] = 184689,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[224239] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 23864,
-										["targets"] = {
-											["Wrathguard Cleaver"] = 38047,
-											["Eredar Deathspeaker"] = 38873,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 76920,
-										["n_min"] = 15009,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 76920,
-										["c_max"] = 0,
-										["id"] = 224239,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[228288] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 27012,
-										["targets"] = {
-											["Eredar Deathspeaker"] = 27012,
-											["Wrathguard Cleaver"] = 27012,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 54024,
-										["n_min"] = 27012,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 54024,
-										["c_max"] = 0,
-										["id"] = 228288,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[227170] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 34720,
-										["targets"] = {
-											["Wrathguard Cleaver"] = 34720,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 34720,
-										["n_min"] = 34720,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 34720,
-										["c_max"] = 0,
-										["id"] = 227170,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[184575] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 148102,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Eredar Deathspeaker"] = 77852,
-											["Wrathguard Cleaver"] = 70250,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 148102,
-										["c_max"] = 77852,
-										["id"] = 184575,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 70250,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[224266] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 34074,
-										["targets"] = {
-											["Wrathguard Cleaver"] = 34074,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 34074,
-										["n_min"] = 34074,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 34074,
-										["c_max"] = 0,
-										["id"] = 224266,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[20271] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 27010,
-										["targets"] = {
-											["Wrathguard Cleaver"] = 27010,
-											["Eredar Deathspeaker"] = 27010,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 54020,
-										["n_min"] = 27010,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 54020,
-										["c_max"] = 0,
-										["id"] = 20271,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[35395] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 50357,
-										["g_amt"] = 0,
-										["n_max"] = 13659,
-										["targets"] = {
-											["Eredar Deathspeaker"] = 52406,
-											["Wrathguard Cleaver"] = 61856,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 63905,
-										["n_min"] = 11499,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 114262,
-										["c_max"] = 25491,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 24866,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 32351.6275191166,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1479544790,
-							["delay"] = 0,
-							["damage_taken"] = 121410.006827,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 15,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.007422,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-								["Granjior"] = 104180,
-							},
-							["total"] = 104180.007422,
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Granjior"] = true,
-							},
-							["healing_taken"] = 104180.007422,
-							["totalover"] = 0.007422,
-							["total_without_pet"] = 104180.007422,
-							["totalover_without_pet"] = 0.007422,
-							["classe"] = "PALADIN",
-							["fight_component"] = true,
-							["end_time"] = 1479544812,
-							["heal_enemy_amt"] = 0,
-							["spec"] = 70,
-							["nome"] = "Granjior",
-							["targets_absorbs"] = {
-							},
-							["grupo"] = true,
-							["last_event"] = 1479544806,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-									[184662] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 17242,
-										["targets"] = {
-											["Granjior"] = 104180,
-										},
-										["n_min"] = 4933,
-										["counter"] = 10,
-										["overheal"] = 0,
-										["total"] = 104180,
-										["c_max"] = 0,
-										["id"] = 184662,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 104180,
-										["n_amt"] = 10,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1479544793,
-							["delay"] = 0,
-							["serial"] = "Player-5-0A1AA198",
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 15,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 11.003996,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PALADIN",
-							["fight_component"] = true,
-							["total"] = 0.003996,
-							["nome"] = "Granjior",
-							["spec"] = 70,
-							["grupo"] = true,
-							["resource_type"] = 9,
-							["last_event"] = 1479544809,
-							["received"] = 0.003996,
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 15,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[197277] = {
-										["uptime"] = 16,
-										["activedamt"] = 0,
-										["id"] = 197277,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 16,
+							["buff_uptime"] = 291,
 							["classe"] = "PALADIN",
 							["interrupt_spells"] = {
+								["tipo"] = 9,
 								["_ActorTable"] = {
 									[96231] = {
 										["id"] = 96231,
 										["interrompeu_oque"] = {
-											[193022] = 1,
-											[196944] = 1,
+											[195041] = 4,
 										},
 										["targets"] = {
-											["Eredar Deathspeaker"] = 1,
-											["Balnazzar"] = 1,
+											["Ancient Annihilator"] = 4,
 										},
-										["counter"] = 2,
+										["counter"] = 4,
 									},
 								},
-								["tipo"] = 9,
 							},
 							["buff_uptime_spells"] = {
+								["tipo"] = 9,
 								["_ActorTable"] = {
+									[171628] = {
+										["actived_at"] = 1485424349,
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 171628,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[231843] = {
+										["uptime"] = 12,
+										["activedamt"] = 7,
+										["id"] = 231843,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[209785] = {
 										["uptime"] = 2,
 										["activedamt"] = 1,
@@ -1700,74 +635,82 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									["Draenic Strength Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Strength Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["WoW's 12th Anniversary"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "WoW's 12th Anniversary",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[184662] = {
-										["uptime"] = 14,
+									[156071] = {
+										["uptime"] = 90,
 										["activedamt"] = 1,
-										["id"] = 184662,
+										["id"] = 156071,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[203539] = {
+										["uptime"] = 90,
+										["activedamt"] = 1,
+										["id"] = 203539,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[223819] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 223819,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[203538] = {
+										["uptime"] = 90,
+										["activedamt"] = 1,
+										["id"] = 203538,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 								},
-								["tipo"] = 9,
 							},
 							["interrompeu_oque"] = {
-								[193022] = 1,
-								[196944] = 1,
+								[195041] = 4,
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 16,
-							["spec"] = 70,
+							["debuff_uptime"] = 142,
+							["interrupt_targets"] = {
+								["Ancient Annihilator"] = 4,
+							},
 							["buff_uptime_targets"] = {
 							},
-							["interrupt_targets"] = {
-								["Eredar Deathspeaker"] = 1,
-								["Balnazzar"] = 1,
-							},
+							["spec"] = 70,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[184662] = 1,
-								[35395] = 7,
-								[85256] = 1,
-								[184575] = 2,
-								[96231] = 1,
-								[20271] = 1,
-								[53385] = 2,
+								[53385] = 10,
+								[205273] = 3,
+								[184575] = 10,
+								[35395] = 22,
+								[96231] = 4,
+								[20271] = 8,
+								[209928] = 7,
+								[85256] = 2,
+								[210191] = 2,
 							},
-							["pets"] = {
-							},
+							["interrupt"] = 4.008952,
 							["debuff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 1485424439,
 							["nome"] = "Granjior",
-							["last_event"] = 1479544912,
+							["pets"] = {
+							},
 							["serial"] = "Player-5-0A1AA198",
-							["interrupt"] = 2.003368,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
+					["combatId"] = 51,
 					["tipo"] = 2,
-					["combatId"] = 15,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1776,11 +719,12 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Wrathguard Cleaver",
-				["combat_counter"] = 31,
+				["enemy"] = "Ancient Annihilator",
+				["combat_counter"] = 83,
+				["playing_solo"] = true,
 				["totals"] = {
-					672007.986563, -- [1]
-					104180, -- [2]
+					3707974.9513, -- [1]
+					388583.98798, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -1790,10 +734,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 2,
 						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 4,
+						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -1801,6 +745,83 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
+					["Granjior"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							274809, -- [3]
+							1485424506.841, -- [4]
+							1, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
 				},
 				["frags_need_refresh"] = true,
 				["__call"] = {
@@ -1810,36 +831,37 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
-					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
-							["Granjior"] = 104180.007422,
+							["Granjior"] = 388584.005028,
 						}, -- [1]
+					},
+					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Granjior"] = 672008.006827,
+							["Granjior"] = 3707975.007383,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 23103.025,
-				["combat_id"] = 15,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
+				["end_time"] = 2796.627,
+				["combat_id"] = 51,
+				["instance_type"] = "none",
 				["frags"] = {
-					["Eredar Deathspeaker"] = 1,
-					["Wrathguard Cleaver"] = 1,
+					["Darkfiend Dreadbringer"] = 3,
+					["Darkfiend Dreamtwister"] = 2,
+					["Defiled Grovewalker"] = 1,
+					["Ancient Annihilator"] = 1,
 				},
-				["data_fim"] = "00:40:12",
-				["contra"] = "Wrathguard Cleaver",
+				["data_fim"] = "01:54:00",
+				["data_inicio"] = "01:52:30",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					672008, -- [1]
-					104180, -- [2]
+					3707975, -- [1]
+					388584, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -1849,958 +871,377 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 2,
 						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 4,
+						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 23081.026,
+				["start_time"] = 2706.537,
+				["contra"] = "Ancient Annihilator",
 				["TimeData"] = {
 				},
-				["data_inicio"] = "00:39:50",
-			}, -- [3]
+			}, -- [1]
 			{
 				{
+					["combatId"] = 50,
 					["tipo"] = 2,
-					["combatId"] = 14,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Ravenous Felstalker"] = true,
+								["Darkfiend Dreadbringer"] = true,
 							},
 							["targets"] = {
-								["Ravenous Felstalker"] = 913020,
+								["Darkfiend Dreadbringer"] = 553366,
 							},
-							["serial"] = "Player-5-0A1AA198",
 							["pets"] = {
 							},
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
+							["total"] = 553366.006321,
+							["on_hold"] = false,
 							["classe"] = "PALADIN",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 913020.007837,
-							["spec"] = 70,
+							["total_without_pet"] = 553366.006321,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["total"] = 913020.007837,
-							["on_hold"] = false,
-							["last_event"] = 1479544774,
+							["end_time"] = 1485424304,
+							["friendlyfire_total"] = 0,
+							["spec"] = 70,
 							["nome"] = "Granjior",
 							["spells"] = {
+								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 2,
-										["b_amt"] = 1,
-										["c_dmg"] = 21854,
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 14323,
 										["g_amt"] = 0,
-										["n_max"] = 5717,
+										["n_max"] = 7248,
 										["targets"] = {
-											["Ravenous Felstalker"] = 63755,
+											["Darkfiend Dreadbringer"] = 49567,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 41901,
-										["n_min"] = 3788,
+										["n_dmg"] = 35244,
+										["n_min"] = 6715,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 63755,
-										["c_max"] = 11434,
+										["counter"] = 6,
+										["total"] = 49567,
+										["c_max"] = 14323,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 10420,
-										["successful_casted"] = 0,
-										["b_dmg"] = 3788,
-										["n_amt"] = 8,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[228288] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 54025,
-										["g_amt"] = 0,
-										["n_max"] = 27012,
-										["targets"] = {
-											["Ravenous Felstalker"] = 108049,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 54024,
-										["n_min"] = 27012,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 108049,
-										["c_max"] = 54025,
-										["id"] = 228288,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 54025,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
-									},
+										["c_min"] = 14323,
+									}, -- [1]
 									[35395] = {
-										["c_amt"] = 1,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 25583,
+										["c_dmg"] = 83772,
 										["g_amt"] = 0,
-										["n_max"] = 12465,
+										["n_max"] = 21312,
 										["targets"] = {
-											["Ravenous Felstalker"] = 97962,
+											["Darkfiend Dreadbringer"] = 146493,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 72379,
-										["n_min"] = 11503,
+										["n_dmg"] = 62721,
+										["n_min"] = 20696,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 97962,
-										["c_max"] = 25583,
+										["counter"] = 5,
+										["total"] = 146493,
+										["c_max"] = 42057,
 										["id"] = 35395,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 25583,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[227170] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37949,
-										["targets"] = {
-											["Ravenous Felstalker"] = 73301,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 73301,
-										["n_min"] = 35352,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 73301,
-										["c_max"] = 0,
-										["id"] = 227170,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[224239] = {
-										["c_amt"] = 3,
-										["b_amt"] = 2,
-										["c_dmg"] = 141659,
-										["g_amt"] = 0,
-										["n_max"] = 24369,
-										["targets"] = {
-											["Ravenous Felstalker"] = 420801,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 279142,
-										["n_min"] = 11724,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 420801,
-										["c_max"] = 49203,
-										["id"] = 224239,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 46018,
-										["successful_casted"] = 0,
-										["b_dmg"] = 28636,
-										["n_amt"] = 14,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[20271] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 27010,
-										["targets"] = {
-											["Ravenous Felstalker"] = 81030,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 81030,
-										["n_min"] = 27010,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 81030,
-										["c_max"] = 0,
-										["id"] = 20271,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
 										["r_amt"] = 0,
+										["c_min"] = 41715,
 									},
-									[184575] = {
+									[228288] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 23222,
+										["n_max"] = 31069,
 										["targets"] = {
-											["Ravenous Felstalker"] = 68122,
+											["Darkfiend Dreadbringer"] = 31069,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 68122,
-										["n_min"] = 22412,
+										["n_dmg"] = 31069,
+										["n_min"] = 31069,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 68122,
+										["counter"] = 1,
+										["total"] = 31069,
 										["c_max"] = 0,
+										["id"] = 228288,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[184575] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 76192,
+										["g_amt"] = 0,
+										["n_max"] = 40913,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 117105,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 40913,
+										["n_min"] = 40913,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 117105,
+										["c_max"] = 76192,
 										["id"] = 184575,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["end_time"] = 1479544775,
-							["last_dps"] = 32598.5435531657,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 286516.007837,
-							["start_time"] = 1479544747,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 14,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.004656,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Granjior"] = true,
-							},
-							["targets"] = {
-								["Granjior"] = 46882,
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["targets_overheal"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.004656,
-							["total_without_pet"] = 46882.004656,
-							["totalover_without_pet"] = 0.004656,
-							["classe"] = "PALADIN",
-							["fight_component"] = true,
-							["end_time"] = 1479544775,
-							["healing_taken"] = 46882.004656,
-							["total"] = 46882.004656,
-							["nome"] = "Granjior",
-							["spec"] = 70,
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-									[214894] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 46882,
-										["targets"] = {
-											["Granjior"] = 46882,
-										},
-										["n_min"] = 46882,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 46882,
-										["c_max"] = 0,
-										["id"] = 214894,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 46882,
-										["n_amt"] = 1,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["custom"] = 0,
-							["last_event"] = 1479544767,
-							["on_hold"] = false,
-							["start_time"] = 1479544767,
-							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 14,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 13.006631,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PALADIN",
-							["fight_component"] = true,
-							["total"] = 0.006631,
-							["nome"] = "Granjior",
-							["spec"] = 70,
-							["grupo"] = true,
-							["resource_type"] = 9,
-							["last_event"] = 1479544772,
-							["received"] = 0.006631,
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 14,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[197277] = {
-										["uptime"] = 24,
-										["activedamt"] = 0,
-										["id"] = 197277,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 4,
-							["classe"] = "PALADIN",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[223819] = {
-										["actived_at"] = 1479544774,
-										["uptime"] = 4,
-										["actived"] = true,
-										["id"] = 223819,
-										["activedamt"] = 4,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Strength Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Strength Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["WoW's 12th Anniversary"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "WoW's 12th Anniversary",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Divine Purpose"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Divine Purpose",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 24,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 70,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[210191] = 1,
-								[53385] = 6,
-								[184575] = 3,
-								[20271] = 2,
-								[35395] = 7,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["nome"] = "Granjior",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["last_event"] = 1479544775,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 14,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Granjior"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Ravenous Felstalker",
-				["combat_counter"] = 30,
-				["totals"] = {
-					913019.991201, -- [1]
-					46882, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Granjior"] = 46882.004656,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Granjior"] = 913020.007837,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 23065.444,
-				["combat_id"] = 14,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Ravenous Felstalker"] = 3,
-				},
-				["data_fim"] = "00:39:35",
-				["contra"] = "Ravenous Felstalker",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					913020, -- [1]
-					46882, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 23037.436,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "00:39:07",
-			}, -- [4]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 13,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Dark Inquisitor"] = true,
-								["Jailer Zerus"] = true,
-							},
-							["targets"] = {
-								["Dark Inquisitor"] = 277506,
-								["Jailer Zerus"] = 1404489,
-							},
-							["serial"] = "Player-5-0A1AA198",
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["total"] = 1681995.008311,
-							["classe"] = "PALADIN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1681995.008311,
-							["spec"] = 70,
-							["dps_started"] = false,
-							["end_time"] = 1479544712,
-							["friendlyfire"] = {
-							},
-							["last_event"] = 1479544711,
-							["nome"] = "Granjior",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6108,
-										["targets"] = {
-											["Dark Inquisitor"] = 11768,
-											["Jailer Zerus"] = 88849,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 100617,
-										["n_min"] = 5219,
-										["g_dmg"] = 0,
-										["counter"] = 18,
-										["total"] = 100617,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 18,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[35395] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 49222,
-										["g_amt"] = 0,
-										["n_max"] = 13056,
-										["targets"] = {
-											["Dark Inquisitor"] = 25732,
-											["Jailer Zerus"] = 173117,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 149627,
-										["n_min"] = 11908,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 198849,
-										["c_max"] = 25705,
-										["id"] = 35395,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 23517,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[224239] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 16654,
-										["targets"] = {
-											["Dark Inquisitor"] = 16654,
-											["Jailer Zerus"] = 16092,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 32746,
-										["n_min"] = 16092,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 32746,
-										["c_max"] = 0,
-										["id"] = 224239,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[228288] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 27012,
-										["targets"] = {
-											["Jailer Zerus"] = 27012,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 27012,
-										["n_min"] = 27012,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 27012,
-										["c_max"] = 0,
-										["id"] = 228288,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
 										["r_amt"] = 0,
-									},
-									[213757] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 297699,
-										["g_amt"] = 0,
-										["n_max"] = 60163,
-										["targets"] = {
-											["Jailer Zerus"] = 357862,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 60163,
-										["n_min"] = 60163,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 357862,
-										["c_max"] = 177371,
-										["id"] = 213757,
-										["r_dmg"] = 0,
-										["spellschool"] = 2,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 120328,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[227170] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 37046,
-										["targets"] = {
-											["Dark Inquisitor"] = 73129,
-											["Jailer Zerus"] = 35503,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 108632,
-										["n_min"] = 35503,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 108632,
-										["c_max"] = 0,
-										["id"] = 227170,
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["c_min"] = 76192,
 									},
 									[224266] = {
-										["c_amt"] = 3,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 255839,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 50037,
+										["n_max"] = 52056,
 										["targets"] = {
-											["Dark Inquisitor"] = 97233,
-											["Jailer Zerus"] = 437465,
+											["Darkfiend Dreadbringer"] = 52056,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 278859,
-										["n_min"] = 33800,
+										["n_dmg"] = 52056,
+										["n_min"] = 52056,
 										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 534698,
-										["c_max"] = 99207,
+										["counter"] = 1,
+										["total"] = 52056,
+										["c_max"] = 0,
 										["id"] = 224266,
 										["r_dmg"] = 0,
 										["spellschool"] = 2,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 61200,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
+										["c_min"] = 0,
 									},
-									[20271] = {
-										["c_amt"] = 1,
+									[224239] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 54021,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 27010,
+										["n_max"] = 38183,
 										["targets"] = {
-											["Dark Inquisitor"] = 27010,
-											["Jailer Zerus"] = 108041,
+											["Darkfiend Dreadbringer"] = 126009,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 81030,
-										["n_min"] = 27010,
+										["n_dmg"] = 126009,
+										["n_min"] = 25693,
 										["g_dmg"] = 0,
 										["counter"] = 4,
-										["total"] = 135051,
-										["c_max"] = 54021,
+										["total"] = 126009,
+										["c_max"] = 0,
+										["id"] = 224239,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[20271] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31067,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 31067,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31067,
+										["n_min"] = 31067,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31067,
+										["c_max"] = 0,
 										["id"] = 20271,
 										["r_dmg"] = 0,
 										["spellschool"] = 2,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 54021,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
-									},
-									[184575] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 65544,
-										["g_amt"] = 0,
-										["n_max"] = 25980,
-										["targets"] = {
-											["Dark Inquisitor"] = 25980,
-											["Jailer Zerus"] = 160548,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 120984,
-										["n_min"] = 23272,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 186528,
-										["c_max"] = 65544,
-										["id"] = 184575,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 65544,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["c_min"] = 0,
 									},
 								},
-								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire_total"] = 0,
-							["last_dps"] = 29987.9657029186,
+							["serial"] = "Player-5-0A1AA198",
+							["last_dps"] = 41804.4878991461,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1479544655,
+							["last_event"] = 1485424303,
+							["damage_taken"] = 81136.006321,
+							["start_time"] = 1485424291,
 							["delay"] = 0,
-							["damage_taken"] = 233441.008311,
+							["tipo"] = 1,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
+					["combatId"] = 50,
 					["tipo"] = 3,
-					["combatId"] = 13,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.007606,
+							["totalabsorb"] = 0.004092,
 							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-								["Granjior"] = 46882,
-							},
-							["total"] = 46882.007606,
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
 							["healing_from"] = {
 								["Granjior"] = true,
 							},
-							["healing_taken"] = 46882.007606,
-							["totalover"] = 0.007606,
-							["total_without_pet"] = 46882.007606,
-							["totalover_without_pet"] = 0.007606,
+							["targets"] = {
+								["Granjior"] = 32353,
+							},
+							["last_event"] = 1485424302,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.004092,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004092,
+							["total_without_pet"] = 32353.004092,
+							["iniciar_hps"] = false,
 							["classe"] = "PALADIN",
 							["fight_component"] = true,
-							["end_time"] = 1479544712,
-							["heal_enemy_amt"] = 0,
-							["spec"] = 70,
+							["total"] = 32353.004092,
+							["serial"] = "Player-5-0A1AA198",
+							["healing_taken"] = 32353.004092,
 							["nome"] = "Granjior",
-							["targets_absorbs"] = {
-							},
+							["spec"] = 70,
 							["grupo"] = true,
-							["last_event"] = 1479544676,
+							["end_time"] = 1485424304,
 							["heal_enemy"] = {
 							},
 							["spells"] = {
+								["tipo"] = 3,
 								["_ActorTable"] = {
-									[214894] = {
+									[203538] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 46882,
+										["n_max"] = 6260,
 										["targets"] = {
-											["Granjior"] = 46882,
+											["Granjior"] = 29262,
 										},
-										["n_min"] = 46882,
-										["counter"] = 1,
+										["n_min"] = 128,
+										["counter"] = 7,
 										["overheal"] = 0,
-										["total"] = 46882,
+										["total"] = 29262,
 										["c_max"] = 0,
-										["id"] = 214894,
+										["id"] = 203538,
 										["targets_absorbs"] = {
 										},
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 46882,
-										["n_amt"] = 1,
+										["n_curado"] = 29262,
 										["m_healed"] = 0,
+										["n_amt"] = 7,
+										["absorbed"] = 0,
+									},
+									[203539] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 773,
+										["targets"] = {
+											["Granjior"] = 3091,
+										},
+										["n_min"] = 772,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 3091,
+										["c_max"] = 0,
+										["id"] = 203539,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 3091,
+										["m_healed"] = 0,
+										["n_amt"] = 4,
 										["absorbed"] = 0,
 									},
 								},
-								["tipo"] = 3,
 							},
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1479544711,
-							["delay"] = 1479544676,
-							["serial"] = "Player-5-0A1AA198",
+							["start_time"] = 1485424291,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
 				{
+					["combatId"] = 50,
 					["tipo"] = 7,
-					["combatId"] = 13,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 26.00125,
+							["resource"] = 9.00641,
 							["targets"] = {
 							},
 							["pets"] = {
@@ -2808,33 +1249,43 @@ _detalhes_database = {
 							["powertype"] = 0,
 							["classe"] = "PALADIN",
 							["fight_component"] = true,
-							["total"] = 0.00125,
+							["total"] = 0.00641,
 							["nome"] = "Granjior",
 							["spec"] = 70,
 							["grupo"] = true,
 							["resource_type"] = 9,
-							["last_event"] = 1479544708,
-							["received"] = 0.00125,
+							["tipo"] = 3,
+							["received"] = 0.00641,
 							["spells"] = {
+								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
-								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A1AA198",
-							["tipo"] = 3,
+							["last_event"] = 1485424303,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
+					["combatId"] = 50,
 					["tipo"] = 9,
-					["combatId"] = 13,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
 								["_ActorTable"] = {
+									[209928] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 209928,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[197277] = {
-										["uptime"] = 33,
+										["uptime"] = 5,
 										["activedamt"] = 0,
 										["id"] = 197277,
 										["actived"] = false,
@@ -2842,59 +1293,1589 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[213757] = {
-										["uptime"] = 18,
-										["activedamt"] = 0,
-										["id"] = 213757,
+								},
+							},
+							["buff_uptime"] = 39,
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[203539] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 203539,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[203538] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 203538,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156071] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 156071,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 								},
-								["tipo"] = 9,
 							},
-							["buff_uptime"] = 13,
+							["fight_component"] = true,
+							["debuff_uptime"] = 13,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 70,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[85256] = 1,
+								[35395] = 5,
+								[209928] = 2,
+								[184575] = 2,
+								[20271] = 1,
+								[53385] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1485424304,
+							["nome"] = "Granjior",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A1AA198",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 50,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Granjior"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Darkfiend Dreadbringer",
+				["combat_counter"] = 82,
+				["playing_solo"] = true,
+				["totals"] = {
+					553365.972973, -- [1]
+					32353, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Granjior"] = 32353.004092,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Granjior"] = 553366.006321,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2661.235,
+				["combat_id"] = 50,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Darkfiend Dreadbringer"] = 2,
+				},
+				["data_fim"] = "01:51:45",
+				["data_inicio"] = "01:51:31",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					553366, -- [1]
+					32353, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2647.998,
+				["contra"] = "Darkfiend Dreadbringer",
+				["TimeData"] = {
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 49,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Darkfiend Dreamtwister"] = true,
+							},
+							["targets"] = {
+								["Darkfiend Dreadbringer"] = 146667,
+								["Darkfiend Dreamtwister"] = 222745,
+							},
+							["pets"] = {
+							},
+							["total"] = 369412.006368,
+							["on_hold"] = false,
 							["classe"] = "PALADIN",
-							["interrupt_spells"] = {
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 369412.006368,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1485424289,
+							["friendlyfire_total"] = 0,
+							["spec"] = 70,
+							["nome"] = "Granjior",
+							["spells"] = {
+								["tipo"] = 2,
 								["_ActorTable"] = {
-									[96231] = {
-										["id"] = 96231,
-										["interrompeu_oque"] = {
-											[182217] = 1,
-										},
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7095,
 										["targets"] = {
-											["Jailer Zerus"] = 1,
+											["Darkfiend Dreadbringer"] = 7095,
+											["Darkfiend Dreamtwister"] = 6756,
 										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13851,
+										["n_min"] = 6756,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 13851,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[35395] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19639,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 19639,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19639,
+										["n_min"] = 19639,
+										["g_dmg"] = 0,
 										["counter"] = 1,
+										["total"] = 19639,
+										["c_max"] = 0,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[205273] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 165696,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 82848,
+											["Darkfiend Dreamtwister"] = 82848,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 165696,
+										["c_max"] = 82848,
+										["id"] = 205273,
+										["r_dmg"] = 0,
+										["spellschool"] = 6,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 82848,
+									},
+									[184575] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37482,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 37482,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 37482,
+										["n_min"] = 37482,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 37482,
+										["c_max"] = 0,
+										["id"] = 184575,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[20271] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31067,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 31067,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31067,
+										["n_min"] = 31067,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31067,
+										["c_max"] = 0,
+										["id"] = 20271,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[224239] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 25657,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 25657,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 25657,
+										["n_min"] = 25657,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 25657,
+										["c_max"] = 0,
+										["id"] = 224239,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[227170] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 76020,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 76020,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 76020,
+										["c_max"] = 76020,
+										["id"] = 227170,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 76020,
 									},
 								},
-								["tipo"] = 9,
 							},
-							["buff_uptime_spells"] = {
+							["grupo"] = true,
+							["serial"] = "Player-5-0A1AA198",
+							["last_dps"] = 72362.782834084,
+							["custom"] = 0,
+							["last_event"] = 1485424288,
+							["damage_taken"] = 6591.006368,
+							["start_time"] = 1485424283,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 49,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.004427,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Granjior"] = true,
+							},
+							["targets"] = {
+								["Granjior"] = 6591,
+							},
+							["last_event"] = 1485424284,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.004427,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004427,
+							["total_without_pet"] = 6591.004427,
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 6591.004427,
+							["serial"] = "Player-5-0A1AA198",
+							["healing_taken"] = 6591.004427,
+							["nome"] = "Granjior",
+							["spec"] = 70,
+							["grupo"] = true,
+							["end_time"] = 1485424289,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
 								["_ActorTable"] = {
+									[203538] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 6591,
+										["targets"] = {
+											["Granjior"] = 6591,
+										},
+										["n_min"] = 6591,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 6591,
+										["c_max"] = 0,
+										["id"] = 203538,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 6591,
+										["m_healed"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1485424284,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 49,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 1.004393,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 0.004393,
+							["nome"] = "Granjior",
+							["spec"] = 70,
+							["grupo"] = true,
+							["resource_type"] = 9,
+							["tipo"] = 3,
+							["received"] = 0.004393,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Player-5-0A1AA198",
+							["last_event"] = 1485424285,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 49,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[205290] = {
+										["uptime"] = 2,
+										["activedamt"] = 0,
+										["id"] = 205290,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[205273] = {
+										["uptime"] = 2,
+										["activedamt"] = 0,
+										["id"] = 205273,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 22,
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[203539] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 203539,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[203538] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 203538,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156071] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 156071,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[223819] = {
-										["uptime"] = 10,
-										["activedamt"] = 4,
+										["uptime"] = 4,
+										["activedamt"] = 1,
 										["id"] = 223819,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									["Draenic Strength Flask"] = {
-										["uptime"] = 0,
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 70,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[205273] = 1,
+								[35395] = 1,
+								[53385] = 1,
+								[20271] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1485424289,
+							["nome"] = "Granjior",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A1AA198",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 49,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Granjior"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Darkfiend Dreamtwister",
+				["combat_counter"] = 81,
+				["playing_solo"] = true,
+				["totals"] = {
+					369411.986855, -- [1]
+					6591, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Granjior"] = 6591.004427,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Granjior"] = 369412.006368,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2645.878,
+				["combat_id"] = 49,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Darkfiend Dreadbringer"] = 1,
+					["Darkfiend Dreamtwister"] = 1,
+				},
+				["data_fim"] = "01:51:29",
+				["data_inicio"] = "01:51:24",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					369412, -- [1]
+					6591, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2640.773,
+				["contra"] = "Darkfiend Dreamtwister",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 48,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Darkfiend Dreamtwister"] = true,
+							},
+							["targets"] = {
+								["Darkfiend Dreamtwister"] = 313605,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "PALADIN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 313605.006865,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1485424257,
+							["friendlyfire_total"] = 0,
+							["spec"] = 70,
+							["nome"] = "Granjior",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7103,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 20866,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20866,
+										["n_min"] = 6862,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 20866,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[224266] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 78260,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 78260,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 78260,
+										["n_min"] = 78260,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 78260,
+										["c_max"] = 0,
+										["id"] = 224266,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[20271] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31067,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 31067,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31067,
+										["n_min"] = 31067,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31067,
+										["c_max"] = 0,
+										["id"] = 20271,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[184575] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 80389,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 80389,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 80389,
+										["c_max"] = 80389,
+										["id"] = 184575,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 80389,
+									},
+									[35395] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 84023,
+										["g_amt"] = 0,
+										["n_max"] = 19000,
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 103023,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19000,
+										["n_min"] = 19000,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 103023,
+										["c_max"] = 42165,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 41858,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 313605.006865,
+							["serial"] = "Player-5-0A1AA198",
+							["last_dps"] = 44120.0065932769,
+							["custom"] = 0,
+							["last_event"] = 1485424257,
+							["damage_taken"] = 18380.006865,
+							["start_time"] = 1485424250,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 48,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.004345,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Granjior"] = true,
+							},
+							["targets"] = {
+								["Granjior"] = 18380,
+							},
+							["last_event"] = 1485424257,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.004345,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004345,
+							["total_without_pet"] = 18380.004345,
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 18380.004345,
+							["serial"] = "Player-5-0A1AA198",
+							["healing_taken"] = 18380.004345,
+							["nome"] = "Granjior",
+							["spec"] = 70,
+							["grupo"] = true,
+							["end_time"] = 1485424257,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[203538] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 7140,
+										["targets"] = {
+											["Granjior"] = 18380,
+										},
+										["n_min"] = 5618,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 18380,
+										["c_max"] = 0,
+										["id"] = 203538,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 18380,
+										["m_healed"] = 0,
+										["n_amt"] = 3,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1485424250,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 48,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 7.001738,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 0.001738,
+							["nome"] = "Granjior",
+							["spec"] = 70,
+							["grupo"] = true,
+							["resource_type"] = 9,
+							["tipo"] = 3,
+							["received"] = 0.001738,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Player-5-0A1AA198",
+							["last_event"] = 1485424283,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 48,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[197277] = {
+										["uptime"] = 4,
 										["activedamt"] = 0,
-										["id"] = "Draenic Strength Flask",
+										["id"] = 197277,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									["WoW's 12th Anniversary"] = {
-										["uptime"] = 0,
+								},
+							},
+							["buff_uptime"] = 22,
+							["classe"] = "PALADIN",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[96231] = {
+										["id"] = 96231,
+										["interrompeu_oque"] = {
+											[188927] = 1,
+										},
+										["targets"] = {
+											["Darkfiend Dreamtwister"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[203539] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 203539,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[203538] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 203538,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156071] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 156071,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[223819] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 223819,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrompeu_oque"] = {
+								[188927] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 4,
+							["interrupt_targets"] = {
+								["Darkfiend Dreamtwister"] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 70,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[85256] = 1,
+								[35395] = 3,
+								[184575] = 1,
+								[96231] = 1,
+								[20271] = 1,
+							},
+							["interrupt"] = 1.007019,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1485424257,
+							["nome"] = "Granjior",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A1AA198",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 48,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Granjior"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Darkfiend Dreamtwister",
+				["combat_counter"] = 78,
+				["playing_solo"] = true,
+				["totals"] = {
+					313604.9648, -- [1]
+					18380, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Granjior"] = 25286.009102,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Granjior"] = 719212.019249,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2614.156,
+				["combat_id"] = 48,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Darkfiend Dreamtwister"] = 1,
+				},
+				["data_fim"] = "01:50:57",
+				["data_inicio"] = "01:50:50",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					313605, -- [1]
+					18380, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2607.048,
+				["contra"] = "Darkfiend Dreamtwister",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 47,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Darkfiend Dreadbringer"] = true,
+							},
+							["targets"] = {
+								["Darkfiend Dreadbringer"] = 335235,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "PALADIN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 335235.006093,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1485424179,
+							["friendlyfire_total"] = 0,
+							["spec"] = 70,
+							["nome"] = "Granjior",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 14030,
+										["g_amt"] = 0,
+										["n_max"] = 6725,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 33955,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 19925,
+										["n_min"] = 6576,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 33955,
+										["c_max"] = 14030,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 14030,
+									}, -- [1]
+									[224266] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 82371,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 132888,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 132888,
+										["n_min"] = 50517,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 132888,
+										["c_max"] = 0,
+										["id"] = 224266,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[35395] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 38697,
+										["g_amt"] = 0,
+										["n_max"] = 20643,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 100447,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 61750,
+										["n_min"] = 20493,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 100447,
+										["c_max"] = 38697,
+										["id"] = 35395,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 38697,
+									},
+									[20271] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31068,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 31068,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31068,
+										["n_min"] = 31068,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31068,
+										["c_max"] = 0,
+										["id"] = 20271,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[227170] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 36877,
+										["targets"] = {
+											["Darkfiend Dreadbringer"] = 36877,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 36877,
+										["n_min"] = 36877,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 36877,
+										["c_max"] = 0,
+										["id"] = 227170,
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 335235.006093,
+							["serial"] = "Player-5-0A1AA198",
+							["last_dps"] = 39130.9683778452,
+							["custom"] = 0,
+							["last_event"] = 1485424177,
+							["damage_taken"] = 21586.006093,
+							["start_time"] = 1485424170,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 47,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.00758,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Granjior"] = true,
+							},
+							["targets"] = {
+								["Granjior"] = 18941,
+							},
+							["last_event"] = 1485424178,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.00758,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.00758,
+							["total_without_pet"] = 18941.00758,
+							["iniciar_hps"] = false,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 18941.00758,
+							["serial"] = "Player-5-0A1AA198",
+							["healing_taken"] = 18941.00758,
+							["nome"] = "Granjior",
+							["spec"] = 70,
+							["grupo"] = true,
+							["end_time"] = 1485424179,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[203538] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 5784,
+										["targets"] = {
+											["Granjior"] = 17395,
+										},
+										["n_min"] = 1872,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 17395,
+										["c_max"] = 0,
+										["id"] = 203538,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 17395,
+										["m_healed"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+									[203539] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 773,
+										["targets"] = {
+											["Granjior"] = 1546,
+										},
+										["n_min"] = 773,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 1546,
+										["c_max"] = 0,
+										["id"] = 203539,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 1546,
+										["m_healed"] = 0,
+										["n_amt"] = 2,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1485424171,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 47,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 4.004261,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PALADIN",
+							["fight_component"] = true,
+							["total"] = 0.004261,
+							["nome"] = "Granjior",
+							["spec"] = 70,
+							["grupo"] = true,
+							["resource_type"] = 9,
+							["tipo"] = 3,
+							["received"] = 0.004261,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Player-5-0A1AA198",
+							["last_event"] = 1485424176,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 47,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[197277] = {
+										["uptime"] = 2,
 										["activedamt"] = 0,
-										["id"] = "WoW's 12th Anniversary",
+										["id"] = 197277,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 30,
+							["classe"] = "PALADIN",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[203539] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 203539,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[203538] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 203538,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156071] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 156071,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2902,7 +2883,7 @@ _detalhes_database = {
 									},
 									[209785] = {
 										["uptime"] = 3,
-										["activedamt"] = 2,
+										["activedamt"] = 1,
 										["id"] = 209785,
 										["actived"] = false,
 										["targets"] = {
@@ -2910,45 +2891,32 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
-								["tipo"] = 9,
-							},
-							["interrompeu_oque"] = {
-								[182217] = 1,
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 51,
-							["spec"] = 70,
+							["debuff_uptime"] = 2,
 							["buff_uptime_targets"] = {
 							},
-							["interrupt_targets"] = {
-								["Jailer Zerus"] = 1,
-							},
+							["spec"] = 70,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[85256] = 9,
-								[35395] = 14,
-								[53385] = 1,
-								[213757] = 3,
-								[184575] = 6,
-								[96231] = 2,
-								[20271] = 3,
-								[210191] = 1,
-							},
-							["pets"] = {
+								[35395] = 4,
+								[85256] = 2,
+								[20271] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["tipo"] = 4,
+							["last_event"] = 1485424179,
 							["nome"] = "Granjior",
-							["last_event"] = 1479544712,
+							["pets"] = {
+							},
 							["serial"] = "Player-5-0A1AA198",
-							["interrupt"] = 1.004974,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
+					["combatId"] = 47,
 					["tipo"] = 2,
-					["combatId"] = 13,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2957,11 +2925,12 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Jailer Zerus",
-				["combat_counter"] = 29,
+				["enemy"] = "Darkfiend Dreadbringer",
+				["combat_counter"] = 76,
+				["playing_solo"] = true,
 				["totals"] = {
-					1681994.98793, -- [1]
-					46881.997504, -- [2]
+					335234.977697, -- [1]
+					18941, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -2971,10 +2940,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 1,
 						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2991,36 +2960,35 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
-					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
-							["Granjior"] = 46882.007606,
+							["Granjior"] = 18941.00758,
 						}, -- [1]
+					},
+					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Granjior"] = 1681995.008311,
+							["Granjior"] = 563606.012676,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 23002.723,
-				["combat_id"] = 13,
-				["instance_type"] = "scenario",
-				["hasSaved"] = true,
+				["end_time"] = 2535.965,
+				["combat_id"] = 47,
+				["instance_type"] = "none",
+				["resincked"] = true,
 				["frags"] = {
-					["Dark Inquisitor"] = 1,
-					["Jailer Zerus"] = 1,
+					["Darkfiend Dreadbringer"] = 1,
 				},
-				["data_fim"] = "00:38:32",
-				["contra"] = "Jailer Zerus",
+				["data_fim"] = "01:49:39",
+				["data_inicio"] = "01:49:31",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					1681995, -- [1]
-					46882, -- [2]
+					335235, -- [1]
+					18941, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -3030,76 +2998,59 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 1,
 						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 22945.714,
+				["start_time"] = 2527.398,
+				["contra"] = "Darkfiend Dreadbringer",
 				["TimeData"] = {
 				},
-				["data_inicio"] = "00:37:35",
 			}, -- [5]
 		},
 	},
 	["plugin_database"] = {
-		["DETAILS_PLUGIN_TINY_THREAT"] = {
-			["updatespeed"] = 1,
-			["enabled"] = true,
-			["animate"] = false,
-			["useplayercolor"] = false,
-			["author"] = "Details! Team",
-			["useclasscolors"] = false,
-			["playercolor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			},
-			["showamount"] = false,
-		},
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
 			},
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["enabled"] = true,
+			["author"] = "Details! Team",
 			["dps"] = 0,
 			["level"] = 1,
-			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
-			["realm_last_shown"] = 40,
-			["saved_as_anonymous"] = true,
-			["recently_as_anonymous"] = true,
-			["dps"] = 0,
-			["disable_sharing"] = false,
-			["history"] = {
-			},
-			["time"] = 40,
-			["history_lastindex"] = 0,
-			["author"] = "Details! Team",
-			["realm_history"] = {
-			},
-			["realm_lastamt"] = 0,
 		},
-		["DETAILS_PLUGIN_VANGUARD"] = {
-			["enabled"] = true,
-			["tank_block_color"] = {
-				0.24705882, -- [1]
-				0.0039215, -- [2]
-				0, -- [3]
-				0.8, -- [4]
+		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
+			["last_boss"] = false,
+			["v1"] = true,
+			["captures"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
 			},
-			["tank_block_texture"] = "Details Serenity",
-			["show_inc_bars"] = false,
-			["author"] = "Details! Team",
 			["first_run"] = false,
-			["tank_block_size"] = 150,
+			["endurance_threshold"] = 3,
+			["max_deaths_for_timeline"] = 5,
+			["deaths_threshold"] = 10,
+			["show_icon"] = 1,
+			["max_segments_for_current"] = 2,
+			["max_deaths_for_current"] = 15,
+			["last_player"] = false,
+			["InstalledAt"] = 1485421825,
+			["last_encounter_hash"] = false,
+			["showing_type"] = 4,
+			["timeline_cutoff_time"] = 3,
+			["last_segment"] = false,
+			["last_combat_id"] = 0,
+			["timeline_cutoff_delete_time"] = 3,
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -3108,27 +3059,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
-		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -3155,11 +3090,11 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
+			["scale"] = 1,
+			["row_height"] = 20,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["point"] = "CENTER",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -3167,14 +3102,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["font_size"] = 10,
 			["y"] = 1.525878906250e-005,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
@@ -3185,22 +3115,114 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 0,
 				["x"] = 0,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_CHART_VIEWER"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["tabs"] = {
+				{
+					["name"] = "Your Damage",
+					["segment_type"] = 2,
+					["version"] = "v2.0",
+					["data"] = "Player Damage Done",
+					["texture"] = "line",
+				}, -- [1]
+				["last_selected"] = 1,
+			},
+			["options"] = {
+				["auto_create"] = true,
+				["show_method"] = 4,
+				["window_scale"] = 1,
+			},
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["nick_tag_cache"] = {
+		["nextreset"] = 1486717839,
+		["last_version"] = 8,
 	},
 	["character_data"] = {
-		["logons"] = 10,
+		["logons"] = 11,
 	},
 	["last_instance_time"] = 0,
 	["SoloTablesSaved"] = {
@@ -3209,10 +3231,20 @@ _detalhes_database = {
 	},
 	["tabela_instancias"] = {
 	},
-	["combat_id"] = 17,
+	["combat_id"] = 51,
 	["savedStyles"] = {
 	},
-	["last_version"] = "v7.1.0.3114",
+	["cached_talents"] = {
+		["Player-5-0A1AA198"] = {
+			22590, -- [1]
+			22591, -- [2]
+			22186, -- [3]
+			22182, -- [4]
+			22483, -- [5]
+			22896, -- [6]
+			22319, -- [7]
+		},
+	},
 	["savedbuffs"] = {
 	},
 	["announce_deaths"] = {
@@ -3225,777 +3257,21 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
-				{
-					["flag_original"] = 1297,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["Balnazzar"] = 0,
-						["Anguished Spectre"] = 0,
-						["Risen Legionnaire"] = 0,
-						["Cannoneer Dargal"] = 0,
-						["Jailer Zerus"] = 0,
-						["Eredar Deathspeaker"] = 0,
-						["Shadow Imp"] = 0,
-						["Training Dummy"] = 0,
-						["Spectral Mortar <Cannoneer Dargal>"] = 0,
-						["Wrathguard Cleaver"] = 0,
-						["Disturbed Resident"] = 0,
-						["Ravenous Felstalker"] = 0,
-						["Dark Inquisitor"] = 0,
-					},
-					["pets"] = {
-					},
-					["friendlyfire"] = {
-					},
-					["last_event"] = 0,
-					["classe"] = "PALADIN",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.008263,
-					["serial"] = "Player-5-0A1AA198",
-					["dps_started"] = false,
-					["end_time"] = 1479544316,
-					["spec"] = 70,
-					["on_hold"] = false,
-					["nome"] = "Granjior",
-					["spells"] = {
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Anguished Spectre"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Cannoneer Dargal"] = 0,
-									["Jailer Zerus"] = 0,
-									["Eredar Deathspeaker"] = 0,
-									["Shadow Imp"] = 0,
-									["Training Dummy"] = 0,
-									["Spectral Mortar <Cannoneer Dargal>"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Disturbed Resident"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Dark Inquisitor"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							}, -- [1]
-							[213757] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Jailer Zerus"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 213757,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[184689] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Shadow Imp"] = 0,
-									["Wrathguard Cleaver"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 184689,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[205273] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 205273,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[184575] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Anguished Spectre"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Cannoneer Dargal"] = 0,
-									["Jailer Zerus"] = 0,
-									["Eredar Deathspeaker"] = 0,
-									["Training Dummy"] = 0,
-									["Spectral Mortar <Cannoneer Dargal>"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Disturbed Resident"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Dark Inquisitor"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 184575,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[224239] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Disturbed Resident"] = 0,
-									["Anguished Spectre"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Cannoneer Dargal"] = 0,
-									["Jailer Zerus"] = 0,
-									["Eredar Deathspeaker"] = 0,
-									["Shadow Imp"] = 0,
-									["Spectral Mortar <Cannoneer Dargal>"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Dark Inquisitor"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 224239,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[35395] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Anguished Spectre"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Cannoneer Dargal"] = 0,
-									["Jailer Zerus"] = 0,
-									["Eredar Deathspeaker"] = 0,
-									["Shadow Imp"] = 0,
-									["Training Dummy"] = 0,
-									["Spectral Mortar <Cannoneer Dargal>"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Disturbed Resident"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Dark Inquisitor"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 35395,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[227170] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Dark Inquisitor"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Jailer Zerus"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 227170,
-								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
-								["r_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[20271] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Anguished Spectre"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Cannoneer Dargal"] = 0,
-									["Jailer Zerus"] = 0,
-									["Eredar Deathspeaker"] = 0,
-									["Training Dummy"] = 0,
-									["Spectral Mortar <Cannoneer Dargal>"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Disturbed Resident"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Dark Inquisitor"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 20271,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[224266] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Balnazzar"] = 0,
-									["Anguished Spectre"] = 0,
-									["Training Dummy"] = 0,
-									["Dark Inquisitor"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Jailer Zerus"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 224266,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[228288] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Disturbed Resident"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Spectral Mortar <Cannoneer Dargal>"] = 0,
-									["Jailer Zerus"] = 0,
-									["Eredar Deathspeaker"] = 0,
-									["Training Dummy"] = 0,
-									["Ravenous Felstalker"] = 0,
-									["Wrathguard Cleaver"] = 0,
-									["Cannoneer Dargal"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 228288,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
-							},
-							[205729] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Training Dummy"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 205729,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-						["tipo"] = 2,
-					},
-					["grupo"] = true,
-					["total"] = 0.008263,
-					["friendlyfire_total"] = 0,
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1479544313,
-					["delay"] = 0,
-					["damage_taken"] = 0.008263,
-				}, -- [1]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
-				{
-					["flag_original"] = 1297,
-					["totalabsorb"] = 0.003157,
-					["last_hps"] = 0,
-					["healing_from"] = {
-					},
-					["targets"] = {
-						["Granjior"] = 0,
-					},
-					["healing_taken"] = 0.003157,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
-					},
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 0.003157,
-					["total_without_pet"] = 0.003157,
-					["totalover_without_pet"] = 0.003157,
-					["spec"] = 70,
-					["fight_component"] = true,
-					["total"] = 0.003157,
-					["classe"] = "PALADIN",
-					["end_time"] = 1481226219,
-					["nome"] = "Granjior",
-					["spells"] = {
-						["_ActorTable"] = {
-							[214894] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["Granjior"] = 0,
-								},
-								["n_min"] = 0,
-								["counter"] = 0,
-								["overheal"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 214894,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 0,
-								["m_amt"] = 0,
-								["n_amt"] = 0,
-								["m_healed"] = 0,
-								["n_curado"] = 0,
-								["c_min"] = 0,
-								["absorbed"] = 0,
-							},
-							[184662] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["Granjior"] = 0,
-								},
-								["n_min"] = 0,
-								["counter"] = 0,
-								["overheal"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 184662,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 0,
-								["m_amt"] = 0,
-								["n_amt"] = 0,
-								["m_healed"] = 0,
-								["n_curado"] = 0,
-								["c_min"] = 0,
-								["absorbed"] = 0,
-							},
-						},
-						["tipo"] = 3,
-					},
-					["grupo"] = true,
-					["delay"] = 0,
-					["heal_enemy"] = {
-					},
-					["targets_absorbs"] = {
-					},
-					["custom"] = 0,
-					["tipo"] = 2,
-					["on_hold"] = false,
-					["start_time"] = 1481226216,
-					["serial"] = "Player-5-0A1AA198",
-					["last_event"] = 0,
-				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
-				{
-					["received"] = 0.002918,
-					["resource"] = 288.070173,
-					["targets"] = {
-					},
-					["pets"] = {
-					},
-					["powertype"] = 0,
-					["classe"] = "PALADIN",
-					["total"] = 0.002918,
-					["nome"] = "Granjior",
-					["spec"] = 70,
-					["grupo"] = true,
-					["flag_original"] = 1297,
-					["tipo"] = 3,
-					["resource_type"] = 9,
-					["spells"] = {
-						["_ActorTable"] = {
-						},
-						["tipo"] = 7,
-					},
-					["serial"] = "Player-5-0A1AA198",
-					["last_event"] = 0,
-				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
-				{
-					["flag_original"] = 1047,
-					["debuff_uptime_spells"] = {
-						["_ActorTable"] = {
-							[205273] = {
-								["id"] = 205273,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[197277] = {
-								["id"] = 197277,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[205290] = {
-								["id"] = 205290,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[213757] = {
-								["id"] = 213757,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-						["tipo"] = 9,
-					},
-					["pets"] = {
-					},
-					["classe"] = "PALADIN",
-					["interrupt_spells"] = {
-						["_ActorTable"] = {
-							[96231] = {
-								["id"] = 96231,
-								["interrompeu_oque"] = {
-								},
-								["targets"] = {
-									["Eredar Deathspeaker"] = 0,
-									["Risen Legionnaire"] = 0,
-									["Balnazzar"] = 0,
-									["Jailer Zerus"] = 0,
-								},
-								["counter"] = 0,
-							},
-						},
-						["tipo"] = 9,
-					},
-					["buff_uptime_spells"] = {
-						["_ActorTable"] = {
-							[221887] = {
-								["id"] = 221887,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Draenic Strength Flask"] = {
-								["id"] = "Draenic Strength Flask",
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[156071] = {
-								["id"] = 156071,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Divine Purpose"] = {
-								["id"] = "Divine Purpose",
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[223819] = {
-								["id"] = 223819,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[231843] = {
-								["id"] = 231843,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[203528] = {
-								["id"] = 203528,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[209785] = {
-								["id"] = 209785,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[184662] = {
-								["id"] = 184662,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[203539] = {
-								["id"] = 203539,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["The Fires of Justice"] = {
-								["id"] = "The Fires of Justice",
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[203538] = {
-								["id"] = 203538,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["WoW's 12th Anniversary"] = {
-								["id"] = "WoW's 12th Anniversary",
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[219159] = {
-								["id"] = 219159,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-						["tipo"] = 9,
-					},
-					["interrompeu_oque"] = {
-					},
-					["debuff_uptime"] = 0,
-					["interrupt"] = 0,
-					["debuff_uptime_targets"] = {
-					},
-					["spec"] = 70,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[213757] = 0,
-						[53385] = 0,
-						[205273] = 0,
-						[184575] = 0,
-						[35395] = 0,
-						[96231] = 0,
-						[20271] = 0,
-						[190784] = 0,
-						[210191] = 0,
-						[85256] = 0,
-						[184662] = 0,
-					},
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 0,
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["nome"] = "Granjior",
-					["serial"] = "Player-5-0A1AA198",
-					["interrupt_targets"] = {
-						["Eredar Deathspeaker"] = 0,
-						["Risen Legionnaire"] = 0,
-						["Balnazzar"] = 0,
-						["Jailer Zerus"] = 0,
-					},
-				}, -- [1]
 			},
 		}, -- [4]
 		{
@@ -4003,32 +3279,26 @@ _detalhes_database = {
 			["_ActorTable"] = {
 			},
 		}, -- [5]
-		["raid_roster"] = {
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
 		},
+		["start_time"] = 0,
+		["data_inicio"] = 0,
+		["combat_counter"] = 40,
 		["last_events_tables"] = {
 		},
-		["combat_counter"] = 15,
-		["totals"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
-			}, -- [4]
-			["voidzone_damage"] = 0,
-			["frags_total"] = 0,
+		["raid_roster"] = {
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -4042,53 +3312,62 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
-		["frags_need_refresh"] = false,
-		["__call"] = {
-		},
-		["data_inicio"] = 0,
-		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["PhaseData"] = {
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
 			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["CombatSkillCache"] = {
 		},
-		["overall_refreshed"] = true,
-		["start_time"] = 0,
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
 		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
 			["Raid Damage Done"] = {
 			},
 		},
-		["player_last_events"] = {
+		["__call"] = {
 		},
 	},
-	["last_realversion"] = 115,
+	["last_realversion"] = 116,
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
 			["sub_attribute"] = 1,
 			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4096,25 +3375,23 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
-			["is_open"] = true,
-			["isLocked"] = false,
 			["snap"] = {
-				[3] = 2,
+				2, -- [1]
 			},
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -409.329177856445,
-					["x"] = 523.432556152344,
+					["y"] = -412.401275634766,
+					["x"] = 810.627624511719,
 					["w"] = 286.230102539063,
 					["h"] = 175.026428222656,
 				},
 				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
+					["y"] = -60.4225769042969,
+					["x"] = 238.412536621094,
+					["w"] = 299.999877929688,
+					["h"] = 300,
 				},
 			},
 		}, -- [1]
@@ -4132,47 +3409,37 @@ _detalhes_database = {
 			["is_open"] = true,
 			["isLocked"] = false,
 			["snap"] = {
-				1, -- [1]
+				[3] = 1,
 			},
 			["mode"] = 2,
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -409.328872680664,
-					["x"] = 809.662902832031,
+					["y"] = -412.401275634766,
+					["x"] = 524.397155761719,
 					["w"] = 286.230255126953,
-					["h"] = 175.026412963867,
+					["h"] = 175.026428222656,
 				},
 				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
+					["y"] = -344.908004760742,
+					["x"] = 515.734802246094,
 					["w"] = 300,
-					["h"] = 200,
+					["h"] = 300,
 				},
 			},
 		}, -- [2]
 	},
-	["cached_talents"] = {
-		["Player-5-0A1AA198"] = {
-			22590, -- [1]
-			22591, -- [2]
-			22179, -- [3]
-			22483, -- [4]
-			22186, -- [5]
-			22182, -- [6]
-			22319, -- [7]
-		},
-	},
+	["last_version"] = "v7.1.5.3305",
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1482522229,
-		["last_version"] = 8,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["last_instance_id"] = 0,
 	["cached_specs"] = {

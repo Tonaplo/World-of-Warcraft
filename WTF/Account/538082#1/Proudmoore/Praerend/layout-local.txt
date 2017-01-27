@@ -1,9 +1,9 @@
 Version: 1
 Frame: Vd1
 FrameLevel: 2
-Anchor: BOTTOM
-X: -451
-Y: 85
+Anchor: BOTTOMLEFT
+X: 468
+Y: 95
 W: 85
 H: 55
 Frame: TargetFrame
@@ -40,7 +40,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 648
-H: 420
+H: 455
 Frame: PlayerFrame
 FrameLevel: 1
 Anchor: CENTER

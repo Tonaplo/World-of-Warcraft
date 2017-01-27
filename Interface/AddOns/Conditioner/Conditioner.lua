@@ -1,5 +1,7 @@
---[[-----------------------------------------VER 1.2.7-------------------------------------------
+--[[-----------------------------------------VER 1.3.0-------------------------------------------
 --by Tony Allain
+fixed an issue where reloading the UI or not having opened your spellbook since login would prevent the tracked spells from showing up
+fixed the weird distorted tracking frames
 -----------------------------------------------------------------------------------------------]]
 local conditioner_frame,events = CreateFrame("Frame"), {}
 conditioner_frame.temp_storage = {}
@@ -400,6 +402,36 @@ function MaintainVisibility()
 	--end	
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 	UpdatePrioritySize()
+end
+
+function TC(slot, hide)
+	if (hide) then
+		watched_frames[slot]:Hide()
+	else
+		watched_frames[slot]:Show()
+	end
+end
+
+function ConditionerHotfix()
+	if (not xl_conditioner_options.tapersize) then
+		xl_conditioner_options.tapersize = 0.75
+	end
+	if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
+		for k,v in ipairs(watched_frames) do
+			local newsize = xl_DesiredScale*(math.pow(xl_conditioner_options.tapersize,(k-1)))
+			--watched_frames[k]:ClearAllPoints()
+			--watched_frames[k]:SetSize(newsize, newsize)
+			--watched_frames[k].edge:SetSize(newsize+(0.0625*newsize), newsize+(0.0625*newsize))
+			--watched_frames[k].edge:SetPoint("CENTER", watched_frames[k], "CENTER", 0, 0)
+			local edgefile = NewEdgeFile(newsize/4)
+			watched_frames[k].edge:SetBackdrop(edgefile)
+			watched_frames[k].edge:SetBackdropColor(0, 0, 0, 0)
+			--have to update other things
+			local scalar = 0.5
+			watched_frames[k].text:SetTextHeight(watched_frames[k]:GetWidth()*scalar)
+			watched_frames[k].Duration:SetWidth(watched_frames[k]:GetWidth())
+		end
+	end
 end
 
 --need a menu box
@@ -2100,47 +2132,41 @@ function NewWatchFrame(size, parent, ...)
 			--this is a main frame, let's cycle through directions
 			if (c_button == "RightButton") then
 				if (IsControlKeyDown()) then
-					--they want to change dock sides, only do this if they are using player/target nameplate option
-					--if (xl_OnTargetFrame == 1) then
-						--nothing, it is set to free drag
-					--else
-						--we're going to cycle through the pivot positions on the nameplate I have targeted
-						if (xl_current_target_dock < #target_dock_side) then
-							xl_current_target_dock = xl_current_target_dock + 1
-							if (xl_conditionertutorial.current_step == 13) then
-								ConditionerTutorialFrame.text:SetText("|cff00ffffCONDITIONER|r\n" .. "You can only interact with the tracking spells while out of combat.")
-							end
-						else
-							xl_current_target_dock = 1
-							ConditionerTutorial_Dismiss(13)
-							ConditionerTutorial_Alert(14)
+					--we're going to cycle through the pivot positions on the nameplate I have targeted
+					if (xl_current_target_dock < #target_dock_side) then
+						xl_current_target_dock = xl_current_target_dock + 1
+						if (xl_conditionertutorial.current_step == 13) then
+							ConditionerTutorialFrame.text:SetText("|cff00ffffCONDITIONER|r\n" .. "You can only interact with the tracking spells while out of combat.")
 						end
-						--we should inform them as to which side was chosen
-						if (xl_OnTargetFrame == 2) then
-							--target
-							if (xl_current_target_dock == 1) then
-								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00LEFT|r side of |cffff6600TARGET|r nameplate.", 0, 0.5, 1)
-							else
-								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00RIGHT|r side of |cffff6600TARGET|r nameplate.", 0, 0.5, 1)
-							end
-						else
-							--player
-							if (xl_current_target_dock == 1) then
-								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00LEFT|r side of |cffff6600YOUR|r nameplate.", 0, 0.5, 1)
-							else
-								ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00RIGHT|r side of |cffff6600YOUR|r nameplate.", 0, 0.5, 1)
-							end
-						end
+					else
+						xl_current_target_dock = 1
+						ConditionerTutorial_Dismiss(13)
+						ConditionerTutorial_Alert(14)
+					end
+					--we should inform them as to which side was chosen
+					if (xl_OnTargetFrame == 2) then
+						--target
 						if (xl_current_target_dock == 1) then
-							PlaySound("igCharacterInfoOpen")
+							ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00LEFT|r side of |cffff6600TARGET|r nameplate.", 0, 0.5, 1)
 						else
-							PlaySound("igCharacterInfoClose")
+							ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00RIGHT|r side of |cffff6600TARGET|r nameplate.", 0, 0.5, 1)
 						end
-					--end
+					else
+						--player
+						if (xl_current_target_dock == 1) then
+							ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00LEFT|r side of |cffff6600YOUR|r nameplate.", 0, 0.5, 1)
+						else
+							ChatFrame1:AddMessage("|cff00ffffConditioner:|r Docked to |cff00ff00RIGHT|r side of |cffff6600YOUR|r nameplate.", 0, 0.5, 1)
+						end
+					end
+					if (xl_current_target_dock == 1) then
+						PlaySound("igCharacterInfoOpen")
+					else
+						PlaySound("igCharacterInfoClose")
+					end
 				else
 					PlaySound("UChatScrollButton")
 					--they want to rotate
-					--print("Right")
 					local x,y,w,h = self:GetBoundsRect()
 					xl_LocX = x + w/2
 					xl_LocY = y + h/2
@@ -2152,7 +2178,6 @@ function NewWatchFrame(size, parent, ...)
 						ConditionerTutorial_Alert(11, button_options)
 					end
 				end	
-			--elseif (c_button == "LeftButton") and (self.cycleNameplatePositions) and (not self.tempDrag) then
 			end
 			UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 		end
@@ -2211,10 +2236,6 @@ function NewWatchFrame(size, parent, ...)
 	newframe.hotkeytext = newframe.edge:CreateFontString("CheckListText", "OVERLAY", "NumberFontNormal")
 	newframe.hotkeytext:SetText("")
 	newframe.hotkeytext:SetTextColor(0,1,1,1)
-	--[[background for hotkey, players might put a long string here, it'll look weird if they aren't all uniform, disable and add later based on feedback
-	newframe.hotkeytexture = newframe:CreateTexture()
-	newframe.hotkeytexture:SetTexture("asdf")
-	newframe.hotkeytexture:SetAllPoints(newframe.hotkeytext)]]
 	--overlay for counting down aura timers
 	newframe.edge:SetFrameLevel(newframe.level + 2)
 	newframe.edge:SetSize(size+(0.0625*size), size+(0.0625*size))
@@ -2245,19 +2266,15 @@ function InitWatchedFrames()
 		end
 		table.insert(watched_frames, NewWatchFrame(xl_DesiredScale*(math.pow(0.75,(i-1))), parentframe, position[1], position[2], position[3], position[4]))
 	end
+
+	MaintainVisibility()
+	DistributeSavedVars()
 end
 
 function events:ADDON_LOADED(...)
 	local arg1 = select(1,...)
 	if (arg1 == "Conditioner") then
-		--if they're really loaded, what are they
-		--don't do anything except set up saved variables
-		--MaintainVisibility()
-		--DistributeSavedVars()
-		--easy way to just force an update, in case we reload and don't check the spellbook before we enter combat
 		InitWatchedFrames()
-		--SpellBookFrame:Show()
-		--SpellBookFrame:Hide()
 	end
 end
 
@@ -2576,6 +2593,7 @@ function GetWatchedCooldowns()
 					end
 				end
 			end
+
 		else
 			--we aren't tracking anything, hide the frame
 			for k,v in pairs(watched_frames) do
@@ -2594,6 +2612,8 @@ function GetWatchedCooldowns()
 			v:Hide()
 		end
 	end
+
+	ConditionerHotfix()
 end
 
 priority_visibility_updater:SetScript("OnShow", function(...)
