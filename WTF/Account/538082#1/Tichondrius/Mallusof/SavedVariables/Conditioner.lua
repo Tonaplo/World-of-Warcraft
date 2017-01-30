@@ -28,8 +28,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
 			["alt_resource_condition"] = 1,
+			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
@@ -51,8 +51,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
 			["alt_resource_condition"] = 1,
+			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
@@ -74,8 +74,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
 			["alt_resource_condition"] = 1,
+			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 	}, -- [1]
@@ -121,7 +121,7 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 2,
+			["num_stacks"] = 0,
 			["num_charges"] = 0,
 			["highlight_only"] = true,
 			["min_resource_to_cast"] = 0,

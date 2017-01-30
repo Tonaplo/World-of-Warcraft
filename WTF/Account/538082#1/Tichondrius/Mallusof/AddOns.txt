@@ -1,4 +1,4 @@
-SorhaQuestLog: enabled
+SorhaQuestLog: disabled
 AngryWorldQuests: enabled
 VuhDo: enabled
 VuhDoOptions: enabled

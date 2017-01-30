@@ -1,4 +1,4 @@
 
 AngryWorldQuests_CharacterConfig = {
-	["__version"] = 7,
+	["__version"] = 8,
 }

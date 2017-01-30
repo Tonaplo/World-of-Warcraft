@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 648
-H: 420
+H: 455
 Frame: PlayerFrame
 FrameLevel: 8
 Anchor: CENTER
@@ -27,3 +27,10 @@ X: -300
 Y: 0
 W: 232
 H: 100
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -165
+Y: -20
+W: 60
+H: 60
