@@ -1,11 +1,11 @@
 Version: 1
 Frame: Vd1
 FrameLevel: 2
-Anchor: BOTTOM
-X: 2
-Y: 185
+Anchor: BOTTOMLEFT
+X: 449
+Y: 64
 W: 93
-H: 84
+H: 43
 Frame: TargetFrame
 FrameLevel: 14
 Anchor: CENTER
@@ -40,7 +40,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 648
-H: 420
+H: 455
 Frame: PlayerFrame
 FrameLevel: 8
 Anchor: CENTER
@@ -51,7 +51,7 @@ H: 100
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
-X: -61
-Y: -11
-W: 50
-H: 50
+X: -106
+Y: 18
+W: 60
+H: 60

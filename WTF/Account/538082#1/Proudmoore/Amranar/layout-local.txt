@@ -47,7 +47,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 648
-H: 420
+H: 455
 Frame: PlayerFrame
 FrameLevel: 8
 Anchor: CENTER

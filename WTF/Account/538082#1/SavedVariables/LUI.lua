@@ -45,10 +45,7 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Clock"] = {
-						["Time24"] = true,
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
@@ -59,24 +56,27 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
-					["CombatLock"] = true,
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Gold"] = {
+						["Font"] = "Prototype",
+					},
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Bags"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,25 +85,25 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2244955049,
+							["Mallusof"] = 2213898571,
 						},
 					},
 				},
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 36716179,
-							["Farahn"] = 142450670,
+							["Miriyal"] = 40001464,
+							["Farahn"] = 173860456,
 							["Greybone"] = 7138739,
 							["Amranar"] = 484065467,
-							["Granjior"] = 261219066,
+							["Granjior"] = 266780707,
 							["Kaldorath"] = 34118943,
-							["Faerand"] = 34540287,
+							["Faerand"] = 35501542,
 							["Mallusof"] = 1162234125,
 							["Rahran"] = 303593878,
-							["Morifa"] = 426075901,
-							["Fimwack"] = 35152465,
-							["Praerend"] = 795311526,
+							["Morifa"] = 440291144,
+							["Fimwack"] = 36280684,
+							["Praerend"] = 796493726,
 						},
 					},
 				},
@@ -443,8 +443,8 @@ LUIDB = {
 							["Colors"] = {
 								["Bar"] = {
 									["a"] = 1,
-									["r"] = 1,
 									["g"] = 1,
+									["r"] = 1,
 								},
 							},
 						},
@@ -714,72 +714,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p oh lol", -- [1]
-							"/cw Xkwizit-Sargeras I can tank this easily. Dont be worried about my gear", -- [2]
-							"/g How are you guys doing", -- [3]
-							"/p oh lol", -- [4]
-							"/g How are you guys doing", -- [5]
-							"/p lets do this", -- [6]
-							"/g How are you guys doing", -- [7]
-							"/p oh lol", -- [8]
-							"/g let me tank? rofl", -- [9]
-							"/cw Xkwizit-Sargeras I can tank this easily. Dont be worried about my gear", -- [10]
-							"/cw Sorranne-Proudmoore I dont ahve to do Suramar again", -- [11]
-							"/g How are you guys doing", -- [12]
-							"/p lets do this", -- [13]
-							"/g How are you guys doing", -- [14]
-							"/p oh lol", -- [15]
-							"/cw Xkwizit-Sargeras I can tank this easily. Dont be worried about my gear", -- [16]
-							"/g How are you guys doing", -- [17]
-							"/p oh lol", -- [18]
-							"/g How are you guys doing", -- [19]
-							"/p lets do this", -- [20]
-							"/p oh lol", -- [21]
-							"/cw Xkwizit-Sargeras I can tank this easily. Dont be worried about my gear", -- [22]
-							"/g How are you guys doing", -- [23]
-							"/p oh lol", -- [24]
-							"/g How are you guys doing", -- [25]
-							"/p lets do this", -- [26]
-							"/cw Xkwizit-Sargeras I can tank this easily. Dont be worried about my gear", -- [27]
-							"/p oh lol", -- [28]
-							"/p lets do this", -- [29]
-							"/p oh lol", -- [30]
-							"/2 This trade chat is way worse. My main is on Tich", -- [31]
-							"/2 ^", -- [32]
+							"/p  |cffa335ee|Hitem:134412::::::::110:263::23:3:1727:1492:1813:::|h[Cloak of Unwavering Loyalty]|h|r", -- [1]
+							"/reload ui\\", -- [2]
+							"/p on these 4 runs", -- [3]
+							"/p ty for awesome group", -- [4]
+							"/p awesome", -- [5]
+							"/p nps", -- [6]
+							"/p yup :P", -- [7]
+							"/p so close to the magical 880", -- [8]
+							"/p shit happens", -- [9]
+							"/bt", -- [10]
+							"/p I went from 814", -- [11]
+							"/p can be hard when you're low ilevel, lol", -- [12]
+							"/p need the trinket? :)", -- [13]
+							"/s or", -- [14]
+							"/p  |cffa335ee|Hitem:140794::::::::110:263::5:4:3444:42:1487:3336:::|h[Arcanogolem Digit]|h|r", -- [15]
+							"/p Have a great evening :)", -- [16]
+							"/p no thanks :)", -- [17]
+							"/reload ui\\", -- [18]
+							"/p ty for awesome group", -- [19]
+							"/p nps", -- [20]
+							"/p so close to the magical 880", -- [21]
+							"/bt", -- [22]
+							"/p can be hard when you're low ilevel, lol", -- [23]
+							"/s or", -- [24]
+							"/p Have a great evening :)", -- [25]
+							"/reload ui\\", -- [26]
+							"/p nps", -- [27]
+							"/bt", -- [28]
+							"/s or", -- [29]
+							"/reload ui\\", -- [30]
+							"/bt", -- [31]
+							"/reload ui\\", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Gekkabijin-Tichondrius nps buddy", -- [1]
-							"/g Does anyone have time to test something with me?", -- [2]
-							"/cw Kalithumos-Tichondrius the world first kill", -- [3]
-							"/cw Gekkabijin-Tichondrius nps buddy", -- [4]
-							"/cw Kalithumos-Tichondrius the world first kill", -- [5]
-							"/g Could someone link Alchemy, please", -- [6]
-							"/g thanks Jwwin and ED", -- [7]
-							"/s Proc for me baby", -- [8]
-							"/cw Jwwin-Tichondrius int", -- [9]
-							"/cw Jwwin-Tichondrius Whispered Pact", -- [10]
-							"/cw Jwwin-Tichondrius wait", -- [11]
-							"/cw Jwwin-Tichondrius I gave you mats for 6", -- [12]
-							"/cw Jwwin-Tichondrius well thanks :P", -- [13]
-							"/raid H Noghthold", -- [14]
-							"/raid closet please", -- [15]
-							"/cw Meowfurryon Man, I need to be better", -- [16]
-							"/cw Meowfurryon You ust outclassed me there", -- [17]
-							"/cw Meowfurryon-Tichondrius Sure", -- [18]
-							"/cw Meowfurryon-Tichondrius No", -- [19]
-							"/cw Meowfurryon-Tichondrius that was my main problem", -- [20]
-							"/cw Meowfurryon-Tichondrius yeah", -- [21]
-							"/cw Meowfurryon-Tichondrius I always screw up those \"healing mechanic\" bosses", -- [22]
-							"/cw Meowfurryon-Tichondrius It's a ton of healing", -- [23]
-							"/cw Meowfurryon-Tichondrius I just need to manage it  correctly", -- [24]
-							"/COMBATLOG", -- [25]
-							"/cw Meowfurryon-Tichondrius here", -- [26]
-							"/raid here", -- [27]
-							"/raid 1", -- [28]
-							"/roll 30000", -- [29]
-							"/raid 1", -- [30]
-							"/ROLL 30000", -- [31]
-							" give it 1 more", -- [32]
+							"/roll 50000", -- [1]
+							"/cw Meowfurryon-Tichondrius So you want the first?", -- [2]
+							"/cw Meowfurryon-Tichondrius You take the first then", -- [3]
+							"/cw Meowfurryon-Tichondrius you do first", -- [4]
+							"/cw Arkator-Tichondrius so if it gives tier to someone, give it to them", -- [5]
+							"/raid who is a JC?", -- [6]
+							"/raid 1", -- [7]
+							"/ROLL", -- [8]
+							"/cw Meowfurryon-Tichondrius because Hymn has longer CD than tranq", -- [9]
+							"/combatlog", -- [10]
+							"/cw Arkator-Tichondrius awesome", -- [11]
+							"/ROLL 30000", -- [12]
+							"/cw Arkator-Tichondrius It's my best stats and it gives me at least 15 itemlevels", -- [13]
+							"/cw Meowfurryon-Tichondrius I will from now on", -- [14]
+							"/READYCHECK", -- [15]
+							"/roll 50000", -- [16]
+							"/raid 1", -- [17]
+							"/cw Meowfurryon-Tichondrius So you want the first?", -- [18]
+							"/cw Meowfurryon-Tichondrius you do first", -- [19]
+							"/raid who is a JC?", -- [20]
+							"/ROLL", -- [21]
+							"/combatlog", -- [22]
+							"/ROLL 30000", -- [23]
+							"/cw Meowfurryon-Tichondrius I will from now on", -- [24]
+							"/roll 50000", -- [25]
+							"/cw Meowfurryon-Tichondrius So you want the first?", -- [26]
+							"/raid who is a JC?", -- [27]
+							"/combatlog", -- [28]
+							"/cw Meowfurryon-Tichondrius I will from now on", -- [29]
+							"/cw Meowfurryon-Tichondrius So you want the first?", -- [30]
+							"/combatlog", -- [31]
+							"/cw Meowfurryon-Tichondrius So you want the first?", -- [32]
 						},
 					},
 				},
@@ -950,13 +950,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -968,17 +962,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1113,7 +1113,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1125,23 +1131,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1215,6 +1215,7 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1256,8 +1257,9 @@ LUIDB = {
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
-		["Granjior - Proudmoore"] = "Base",
 		["Morifa - Proudmoore"] = "Base",
+		["Granjior - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
@@ -1293,9 +1295,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1312,9 +1314,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1333,11 +1335,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1350,9 +1352,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1369,9 +1371,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1423,11 +1425,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Greybone - Proudmoore"] = {

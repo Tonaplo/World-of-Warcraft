@@ -13,22 +13,25 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Mallusof-Proudmoore",
-	["last_day"] = "29",
+	["last_day"] = "02",
 	["ignore_nicktag"] = false,
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 12,
+					["combatId"] = 38,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Xel'toth"] = true,
+								["Phantomflame Infernal <Allaris Narassin> <Allaris Narassin>"] = true,
+								["Environment (Falling)"] = true,
+								["Allaris Narassin"] = true,
 							},
 							["targets"] = {
-								["Xel'toth"] = 1146557,
+								["Allaris Narassin"] = 1081053,
+								["Phantomflame Infernal <Allaris Narassin>"] = 92437,
 							},
 							["pets"] = {
 								"Aggoketh <Fimwack>", -- [1]
@@ -38,11 +41,11 @@ _detalhes_database = {
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 968833.008478,
-							["end_time"] = 1485742267,
+							["total_without_pet"] = 935569.008474,
+							["end_time"] = 1486028612,
 							["colocacao"] = 1,
 							["dps_started"] = false,
-							["total"] = 1146557.008478,
+							["total"] = 1173490.008474,
 							["friendlyfire"] = {
 							},
 							["friendlyfire_total"] = 0,
@@ -51,21 +54,21 @@ _detalhes_database = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									[17962] = {
-										["c_amt"] = 2,
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 84469,
+										["c_dmg"] = 43770,
 										["g_amt"] = 0,
-										["n_max"] = 16316,
+										["n_max"] = 25565,
 										["targets"] = {
-											["Xel'toth"] = 116788,
+											["Allaris Narassin"] = 120385,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 32319,
-										["n_min"] = 16003,
+										["n_dmg"] = 76615,
+										["n_min"] = 14968,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 116788,
-										["c_max"] = 49200,
+										["counter"] = 5,
+										["total"] = 120385,
+										["c_max"] = 43770,
 										["id"] = 17962,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -75,26 +78,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 4,
 										["r_amt"] = 0,
-										["c_min"] = 35269,
+										["c_min"] = 43770,
 									},
 									[116858] = {
 										["c_amt"] = 4,
 										["b_amt"] = 0,
-										["c_dmg"] = 367033,
+										["c_dmg"] = 320684,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Xel'toth"] = 367033,
+											["Allaris Narassin"] = 320684,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 4,
-										["total"] = 367033,
-										["c_max"] = 96781,
+										["total"] = 320684,
+										["c_max"] = 105138,
 										["id"] = 116858,
 										["r_dmg"] = 0,
 										["spellschool"] = 124,
@@ -106,24 +109,25 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 78603,
+										["c_min"] = 64923,
 									},
 									[348] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 23275,
+										["c_dmg"] = 26919,
 										["g_amt"] = 0,
-										["n_max"] = 9405,
+										["n_max"] = 10578,
 										["targets"] = {
-											["Xel'toth"] = 32680,
+											["Allaris Narassin"] = 37341,
+											["Phantomflame Infernal <Allaris Narassin>"] = 10578,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 9405,
-										["n_min"] = 9405,
+										["n_dmg"] = 21000,
+										["n_min"] = 10422,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 32680,
-										["c_max"] = 23275,
+										["counter"] = 3,
+										["total"] = 47919,
+										["c_max"] = 26919,
 										["id"] = 348,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -133,26 +137,27 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 23275,
+										["c_min"] = 26919,
 									},
 									[157736] = {
-										["c_amt"] = 2,
+										["c_amt"] = 4,
 										["b_amt"] = 0,
-										["c_dmg"] = 29580,
+										["c_dmg"] = 48792,
 										["g_amt"] = 0,
-										["n_max"] = 7945,
+										["n_max"] = 7859,
 										["targets"] = {
-											["Xel'toth"] = 86862,
+											["Allaris Narassin"] = 110235,
+											["Phantomflame Infernal <Allaris Narassin>"] = 36577,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 57282,
-										["n_min"] = 2665,
+										["n_dmg"] = 98020,
+										["n_min"] = 4123,
 										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 86862,
-										["c_max"] = 15904,
+										["counter"] = 20,
+										["total"] = 146812,
+										["c_max"] = 15538,
 										["id"] = 157736,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -162,26 +167,27 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 9,
+										["n_amt"] = 16,
 										["r_amt"] = 0,
-										["c_min"] = 13676,
+										["c_min"] = 9523,
 									},
 									[196448] = {
-										["c_amt"] = 7,
+										["c_amt"] = 5,
 										["b_amt"] = 0,
-										["c_dmg"] = 74738,
+										["c_dmg"] = 49782,
 										["g_amt"] = 0,
-										["n_max"] = 7198,
+										["n_max"] = 7168,
 										["targets"] = {
-											["Xel'toth"] = 264598,
+											["Allaris Narassin"] = 190347,
+											["Phantomflame Infernal <Allaris Narassin>"] = 3585,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 189860,
-										["n_min"] = 4471,
+										["n_dmg"] = 144150,
+										["n_min"] = 3585,
 										["g_dmg"] = 0,
-										["counter"] = 40,
-										["total"] = 264598,
-										["c_max"] = 14160,
+										["counter"] = 32,
+										["total"] = 193932,
+										["c_max"] = 11317,
 										["id"] = 196448,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -191,25 +197,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 33,
+										["n_amt"] = 27,
 										["r_amt"] = 0,
-										["c_min"] = 8459,
+										["c_min"] = 8836,
 									},
 									[29722] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 25058,
+										["n_max"] = 25630,
 										["targets"] = {
-											["Xel'toth"] = 100872,
+											["Allaris Narassin"] = 64140,
+											["Phantomflame Infernal <Allaris Narassin>"] = 41697,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 100872,
-										["n_min"] = 15303,
+										["n_dmg"] = 105837,
+										["n_min"] = 16067,
 										["g_dmg"] = 0,
 										["counter"] = 5,
-										["total"] = 100872,
+										["total"] = 105837,
 										["c_max"] = 0,
 										["id"] = 29722,
 										["r_dmg"] = 0,
@@ -228,33 +235,33 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["serial"] = "Player-5-0A2F3583",
-							["last_dps"] = 36985.7099509032,
+							["last_dps"] = 30577.1537983736,
 							["custom"] = 0,
-							["last_event"] = 1485742265,
-							["damage_taken"] = 265000.008478,
-							["start_time"] = 1485742238,
+							["last_event"] = 1486028611,
+							["damage_taken"] = 103519.008474,
+							["start_time"] = 1486028574,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
+							["serial"] = "Pet-0-3136-1220-30244-78158-0102701361",
 							["damage_from"] = {
-								["Xel'toth"] = true,
+								["Phantomflame Infernal <Allaris Narassin> <Allaris Narassin>"] = true,
 							},
 							["targets"] = {
-								["Xel'toth"] = 177724,
+								["Allaris Narassin"] = 237921,
 							},
-							["end_time"] = 1485742267,
+							["end_time"] = 1486028612,
 							["pets"] = {
 							},
 							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 177724.008082,
+							["total_without_pet"] = 237921.004797,
 							["dps_started"] = false,
-							["total"] = 177724.008082,
+							["total"] = 237921.004797,
 							["classe"] = "PET",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Aggoketh <Fimwack>",
@@ -262,20 +269,20 @@ _detalhes_database = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									[85692] = {
-										["c_amt"] = 1,
+										["c_amt"] = 3,
 										["b_amt"] = 0,
-										["c_dmg"] = 28665,
+										["c_dmg"] = 85995,
 										["g_amt"] = 0,
 										["n_max"] = 17199,
 										["targets"] = {
-											["Xel'toth"] = 177724,
+											["Allaris Narassin"] = 237921,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 149059,
+										["n_dmg"] = 151926,
 										["n_min"] = 14332,
 										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 177724,
+										["counter"] = 13,
+										["total"] = 237921,
 										["c_max"] = 28665,
 										["id"] = 85692,
 										["r_dmg"] = 0,
@@ -297,81 +304,762 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 2717.008082,
-							["start_time"] = 1485742241,
+							["damage_taken"] = 265.004797,
+							["start_time"] = 1486028577,
 							["delay"] = 0,
-							["last_event"] = 1485742265,
+							["last_event"] = 1486028611,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 12,
+					["combatId"] = 38,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.003299,
-							["last_hps"] = 0,
 							["healing_from"] = {
 								["Fimwack"] = true,
-							},
-							["targets"] = {
-								["Aggoketh <Fimwack>"] = 2717,
-								["Fimwack"] = 211898,
-							},
-							["targets_absorbs"] = {
 							},
 							["pets"] = {
 								"Aggoketh <Fimwack>", -- [1]
 							},
-							["totalover_without_pet"] = 0.003299,
-							["targets_overheal"] = {
-								["Fimwack"] = 2,
-							},
-							["classe"] = "WARLOCK",
-							["totalover"] = 2.003299,
-							["total_without_pet"] = 214615.003299,
-							["end_time"] = 1485742267,
 							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 214615.003299,
 							["heal_enemy_amt"] = 0,
-							["last_event"] = 1485742259,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["healing_taken"] = 211898.003299,
+							["totalover"] = 0.008675,
+							["total_without_pet"] = 96268.008675,
+							["total"] = 96268.008675,
+							["targets_absorbs"] = {
+							},
 							["heal_enemy"] = {
 							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A2F3583",
+							["totalabsorb"] = 0.008675,
+							["last_hps"] = 2508.41650620143,
+							["targets"] = {
+								["Aggoketh <Fimwack>"] = 265,
+								["Fimwack"] = 96003,
+							},
+							["totalover_without_pet"] = 0.008675,
+							["healing_taken"] = 96003.008675,
+							["fight_component"] = true,
+							["end_time"] = 1486028612,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Fimwack",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
 									[108366] = {
-										["c_amt"] = 2,
+										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Fimwack"] = 2,
 										},
-										["n_max"] = 18810,
+										["n_max"] = 15198,
 										["targets"] = {
-											["Aggoketh <Fimwack>"] = 2717,
-											["Fimwack"] = 206056,
+											["Aggoketh <Fimwack>"] = 265,
+											["Fimwack"] = 96003,
 										},
-										["n_min"] = 437,
-										["counter"] = 22,
-										["overheal"] = 2,
-										["total"] = 208773,
+										["n_min"] = 265,
+										["counter"] = 12,
+										["overheal"] = 0,
+										["total"] = 96268,
 										["c_max"] = 0,
 										["id"] = 108366,
 										["targets_absorbs"] = {
 										},
 										["m_crit"] = 0,
-										["c_curado"] = -2,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 96268,
+										["m_healed"] = 0,
+										["n_amt"] = 12,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 1486028612,
+							["start_time"] = 1486028576,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.001548,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["healing_taken"] = 265.001548,
+							["totalover"] = 0.001548,
+							["total_without_pet"] = 0.001548,
+							["end_time"] = 1486028612,
+							["totalover_without_pet"] = 0.001548,
+							["fight_component"] = true,
+							["total"] = 0.001548,
+							["classe"] = "PET",
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["targets_absorbs"] = {
+							},
+							["serial"] = "Pet-0-3136-1220-30244-78158-0102701361",
+							["heal_enemy_amt"] = 0,
+							["heal_enemy"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1486028612,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 38,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 7.003905,
+							["targets"] = {
+								["Fimwack"] = 294000,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 294000.003905,
+							["nome"] = "Fimwack",
+							["spec"] = 267,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 294000.003905,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[116858] = {
+										["id"] = 116858,
+										["total"] = 294000,
+										["targets"] = {
+											["Fimwack"] = 294000,
+										},
+										["counter"] = 5,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A2F3583",
+							["last_event"] = 1486028610,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 38,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[157736] = {
+										["uptime"] = 37,
+										["activedamt"] = 0,
+										["id"] = 157736,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 100,
+							["classe"] = "WARLOCK",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[156070] = {
+										["uptime"] = 38,
+										["activedamt"] = 1,
+										["id"] = 156070,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[117828] = {
+										["uptime"] = 20,
+										["activedamt"] = 3,
+										["id"] = 117828,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[196447] = {
+										["uptime"] = 4,
+										["activedamt"] = 3,
+										["id"] = 196447,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[108366] = {
+										["uptime"] = 38,
+										["activedamt"] = 1,
+										["id"] = 108366,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["interrompeu_oque"] = {
+								[79932] = 1,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 37,
+							["interrupt_targets"] = {
+								["Allaris Narassin"] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 5,
+								[116858] = 5,
+								[171140] = 1,
+								[196447] = 3,
+								[348] = 2,
+								[29722] = 4,
+							},
+							["interrupt"] = 1.007553,
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1486028612,
+							["nome"] = "Fimwack",
+							["pets"] = {
+								"Aggoketh <Fimwack>", -- [1]
+							},
+							["serial"] = "Player-5-0A2F3583",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["last_event"] = 1486028574,
+							["fight_component"] = true,
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["interrupt_targets"] = {
+								["Allaris Narassin"] = 1,
+							},
+							["interrupt"] = 1.002452,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[85692] = 13,
+							},
+							["tipo"] = 4,
+							["classe"] = "PET",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[171138] = {
+										["id"] = 171138,
+										["interrompeu_oque"] = {
+											[79932] = 1,
+										},
+										["targets"] = {
+											["Allaris Narassin"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Pet-0-3136-1220-30244-78158-0102701361",
+							["interrompeu_oque"] = {
+								[79932] = 1,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 38,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Fimwack"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Allaris Narassin",
+				["combat_counter"] = 68,
+				["playing_solo"] = true,
+				["totals"] = {
+					1173489.990653, -- [1]
+					96268, -- [2]
+					{
+						0, -- [1]
+						[0] = 294000,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 1,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Fimwack"] = 96268.008675,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Fimwack"] = 1173490.008474,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 20542.175,
+				["combat_id"] = 38,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Phantomflame Infernal"] = 1,
+					["Allaris Narassin"] = 1,
+				},
+				["data_fim"] = "01:43:33",
+				["data_inicio"] = "01:42:54",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					935569, -- [1]
+					96268, -- [2]
+					{
+						0, -- [1]
+						[0] = 294000,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 20503.797,
+				["contra"] = "Allaris Narassin",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 37,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["[*] Felfire Bomb"] = true,
+								["Occul'tharon"] = true,
+							},
+							["targets"] = {
+								["Occul'tharon"] = 1450212,
+							},
+							["spec"] = 267,
+							["pets"] = {
+								"Aggoketh <Fimwack>", -- [1]
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1486028027,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1146364.007634,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 1450212.007634,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Fimwack",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 49754,
+										["g_amt"] = 0,
+										["n_max"] = 25147,
+										["targets"] = {
+											["Occul'tharon"] = 138737,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 88983,
+										["n_min"] = 19768,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 138737,
+										["c_max"] = 49754,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 49754,
+									},
+									[116858] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 298690,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Occul'tharon"] = 298690,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 298690,
+										["c_max"] = 84159,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 68736,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 10450,
+										["targets"] = {
+											["Occul'tharon"] = 20318,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 20318,
+										["n_min"] = 9868,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 20318,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 10272,
+										["g_amt"] = 0,
+										["n_max"] = 8088,
+										["targets"] = {
+											["Occul'tharon"] = 104773,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 94501,
+										["n_min"] = 4420,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 104773,
+										["c_max"] = 10272,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 10272,
+									},
+									[196448] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 92162,
+										["g_amt"] = 0,
+										["n_max"] = 6951,
+										["targets"] = {
+											["Occul'tharon"] = 306664,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 214502,
+										["n_min"] = 4179,
+										["g_dmg"] = 0,
+										["counter"] = 45,
+										["total"] = 306664,
+										["c_max"] = 14425,
+										["id"] = 196448,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 37,
+										["r_amt"] = 0,
+										["c_min"] = 8430,
+									},
+									[29722] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 168002,
+										["g_amt"] = 0,
+										["n_max"] = 20800,
+										["targets"] = {
+											["Occul'tharon"] = 277182,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 109180,
+										["n_min"] = 15385,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 277182,
+										["c_max"] = 45307,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 36470,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A2F3583",
+							["last_dps"] = 35368.4366420532,
+							["custom"] = 0,
+							["last_event"] = 1486028026,
+							["damage_taken"] = 557179.007634,
+							["start_time"] = 1486027986,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Occul'tharon"] = 303848,
+							},
+							["end_time"] = 1486028027,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 303848.006459,
+							["dps_started"] = false,
+							["total"] = 303848.006459,
+							["classe"] = "PET",
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[85692] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 126126,
+										["g_amt"] = 0,
+										["n_max"] = 17199,
+										["targets"] = {
+											["Occul'tharon"] = 303848,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 177722,
+										["n_min"] = 14332,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 303848,
+										["c_max"] = 34398,
+										["id"] = 85692,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 28665,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.006459,
+							["start_time"] = 1486027990,
+							["delay"] = 0,
+							["last_event"] = 1486028026,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 37,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 4.004566,
+							["total_without_pet"] = 323924.004566,
+							["total"] = 323924.004566,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A2F3583",
+							["totalabsorb"] = 0.004566,
+							["last_hps"] = 7900.0074278961,
+							["targets"] = {
+								["Fimwack"] = 323924,
+							},
+							["totalover_without_pet"] = 0.004566,
+							["healing_taken"] = 323924.004566,
+							["fight_component"] = true,
+							["end_time"] = 1486028027,
+							["targets_overheal"] = {
+								["Fimwack"] = 4,
+							},
+							["nome"] = "Fimwack",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 4,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Fimwack"] = 4,
+										},
+										["n_max"] = 30729,
+										["targets"] = {
+											["Fimwack"] = 298060,
+										},
+										["n_min"] = 4036,
+										["counter"] = 28,
+										["overheal"] = 4,
+										["total"] = 298060,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = -4,
 										["m_amt"] = 0,
 										["c_min"] = -1,
-										["n_curado"] = 208775,
+										["n_curado"] = 298064,
 										["m_healed"] = 0,
-										["n_amt"] = 20,
+										["n_amt"] = 24,
 										["absorbed"] = 0,
 									},
 									[77220] = {
@@ -379,14 +1067,14 @@ _detalhes_database = {
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 2212,
+										["n_max"] = 4058,
 										["targets"] = {
-											["Fimwack"] = 5840,
+											["Fimwack"] = 25860,
 										},
-										["n_min"] = 73,
-										["counter"] = 8,
+										["n_min"] = 207,
+										["counter"] = 17,
 										["overheal"] = 0,
-										["total"] = 5840,
+										["total"] = 25860,
 										["c_max"] = 0,
 										["id"] = 77220,
 										["targets_absorbs"] = {
@@ -395,71 +1083,31 @@ _detalhes_database = {
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 5840,
+										["n_curado"] = 25860,
 										["m_healed"] = 0,
-										["n_amt"] = 8,
+										["n_amt"] = 17,
 										["absorbed"] = 0,
 									},
 								},
 							},
+							["grupo"] = true,
+							["classe"] = "WARLOCK",
 							["custom"] = 0,
 							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1485742236,
+							["last_event"] = 1486028026,
+							["start_time"] = 1486027989,
 							["delay"] = 0,
-							["serial"] = "Player-5-0A2F3583",
+							["spec"] = 267,
 						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorb"] = 0.006405,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Fimwack"] = true,
-							},
-							["healing_taken"] = 2717.006405,
-							["totalover"] = 0.006405,
-							["total_without_pet"] = 0.006405,
-							["end_time"] = 1485742267,
-							["totalover_without_pet"] = 0.006405,
-							["fight_component"] = true,
-							["total"] = 0.006405,
-							["classe"] = "PET",
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["targets_absorbs"] = {
-							},
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["heal_enemy_amt"] = 0,
-							["heal_enemy"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1485742267,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 12,
+					["combatId"] = 37,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 5.002214,
+							["resource"] = 6.007979,
 							["targets"] = {
 								["Fimwack"] = 235200,
 							},
@@ -468,13 +1116,13 @@ _detalhes_database = {
 							["powertype"] = 0,
 							["classe"] = "WARLOCK",
 							["fight_component"] = true,
-							["total"] = 235200.002214,
+							["total"] = 235200.007979,
 							["nome"] = "Fimwack",
 							["spec"] = 267,
 							["grupo"] = true,
 							["resource_type"] = 7,
 							["tipo"] = 3,
-							["received"] = 235200.002214,
+							["received"] = 235200.007979,
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
@@ -489,12 +1137,12 @@ _detalhes_database = {
 								},
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1485742263,
+							["last_event"] = 1486028025,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 12,
+					["combatId"] = 37,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -503,7 +1151,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
 									[157736] = {
-										["uptime"] = 25,
+										["uptime"] = 39,
 										["activedamt"] = 0,
 										["id"] = 157736,
 										["actived"] = false,
@@ -513,7 +1161,7 @@ _detalhes_database = {
 									},
 								},
 							},
-							["buff_uptime"] = 30,
+							["buff_uptime"] = 42,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
@@ -528,11 +1176,10 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[117828] = {
-										["actived_at"] = 1485742260,
-										["uptime"] = 14,
+										["uptime"] = 10,
 										["activedamt"] = 3,
 										["id"] = 117828,
-										["actived"] = true,
+										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
@@ -547,8 +1194,8 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[196447] = {
-										["uptime"] = 6,
 										["activedamt"] = 3,
+										["uptime"] = 8,
 										["id"] = 196447,
 										["actived"] = false,
 										["targets"] = {
@@ -556,9 +1203,9 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[108366] = {
-										["actived_at"] = 1485742257,
-										["uptime"] = 10,
-										["activedamt"] = 7,
+										["actived_at"] = 1486028023,
+										["uptime"] = 24,
+										["activedamt"] = 14,
 										["id"] = 108366,
 										["actived"] = true,
 										["targets"] = {
@@ -577,7 +1224,7 @@ _detalhes_database = {
 								},
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 25,
+							["debuff_uptime"] = 39,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 267,
@@ -585,14 +1232,13 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[17962] = 4,
 								[116858] = 4,
-								[171140] = 1,
-								[196447] = 3,
-								[29722] = 5,
 								[348] = 2,
+								[196447] = 3,
+								[29722] = 10,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1485742267,
+							["last_event"] = 1486028027,
 							["nome"] = "Fimwack",
 							["pets"] = {
 								"Aggoketh <Fimwack>", -- [1]
@@ -607,18 +1253,17 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["classe"] = "PET",
-							["fight_component"] = true,
 							["tipo"] = 4,
 							["spell_cast"] = {
-								[85692] = 11,
+								[85692] = 16,
 							},
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
 							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 12,
+					["combatId"] = 37,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -628,11 +1273,11 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Xel'toth",
-				["combat_counter"] = 35,
+				["enemy"] = "Occul'tharon",
+				["combat_counter"] = 67,
 				["totals"] = {
-					1146556.993272, -- [1]
-					214615, -- [2]
+					1450211.98191, -- [1]
+					323924, -- [2]
 					{
 						0, -- [1]
 						[0] = 235200,
@@ -653,6 +1298,83 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
+					["Fimwack"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							8341, -- [3]
+							1486028186.021, -- [4]
+							330419, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
 				},
 				["frags_need_refresh"] = true,
 				["__call"] = {
@@ -666,30 +1388,30 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Fimwack"] = 214615.003299,
+							["Fimwack"] = 323924.004566,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Fimwack"] = 1146557.008478,
+							["Fimwack"] = 1450212.007634,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 25081.595,
-				["combat_id"] = 12,
+				["end_time"] = 19957.227,
+				["combat_id"] = 37,
 				["instance_type"] = "scenario",
 				["frags"] = {
-					["Xel'toth"] = 1,
+					["Occul'tharon"] = 1,
 				},
-				["data_fim"] = "18:11:07",
-				["data_inicio"] = "18:10:36",
+				["data_fim"] = "01:33:48",
+				["data_inicio"] = "01:33:07",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					968833, -- [1]
-					214613, -- [2]
+					1146364, -- [1]
+					323920, -- [2]
 					{
 						0, -- [1]
 						[0] = 235200,
@@ -707,62 +1429,90 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 25050.595,
-				["contra"] = "Xel'toth",
+				["start_time"] = 19916.224,
+				["contra"] = "Occul'tharon",
 				["TimeData"] = {
 				},
-			}, -- [1]
+			}, -- [2]
 			{
 				{
-					["combatId"] = 11,
+					["combatId"] = 36,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Nelach, the All-Seeing"] = true,
-								["All-Seeing Eye"] = true,
+								["Imprisoned Imp"] = true,
 							},
 							["targets"] = {
-								["All-Seeing Eye"] = 593806,
-								["Nelach, the All-Seeing"] = 713803,
+								["Imprisoned Imp"] = 196182,
+								["Occul'tharon"] = 10770,
 							},
 							["spec"] = 267,
 							["pets"] = {
 								"Aggoketh <Fimwack>", -- [1]
 							},
 							["colocacao"] = 1,
-							["end_time"] = 1485742117,
+							["end_time"] = 1486027986,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 1190084.008329,
+							["total_without_pet"] = 178287.004663,
 							["friendlyfire"] = {
 							},
 							["dps_started"] = false,
-							["total"] = 1307609.008329,
+							["total"] = 206952.004663,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["nome"] = "Fimwack",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
+									[42223] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 59525,
+										["g_amt"] = 0,
+										["n_max"] = 7300,
+										["targets"] = {
+											["Imprisoned Imp"] = 132651,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73126,
+										["n_min"] = 4973,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 132651,
+										["c_max"] = 14438,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 10096,
+									},
 									[17962] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 43058,
+										["c_dmg"] = 34866,
 										["g_amt"] = 0,
-										["n_max"] = 22228,
+										["n_max"] = 0,
 										["targets"] = {
-											["Nelach, the All-Seeing"] = 82240,
+											["Imprisoned Imp"] = 34866,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 39182,
-										["n_min"] = 16954,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 82240,
-										["c_max"] = 43058,
+										["counter"] = 1,
+										["total"] = 34866,
+										["c_max"] = 34866,
 										["id"] = 17962,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -772,145 +1522,27 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 43058,
-									},
-									[116858] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 87963,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Nelach, the All-Seeing"] = 87963,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 87963,
-										["c_max"] = 87963,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 87963,
+										["c_min"] = 34866,
 									},
 									[348] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 13026,
+										["n_max"] = 10770,
 										["targets"] = {
-											["Nelach, the All-Seeing"] = 25683,
+											["Occul'tharon"] = 10770,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 25683,
-										["n_min"] = 12657,
+										["n_dmg"] = 10770,
+										["n_min"] = 10770,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 25683,
+										["counter"] = 1,
+										["total"] = 10770,
 										["c_max"] = 0,
 										["id"] = 348,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[157736] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 15919,
-										["g_amt"] = 0,
-										["n_max"] = 7653,
-										["targets"] = {
-											["Nelach, the All-Seeing"] = 61063,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 45144,
-										["n_min"] = 4782,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 61063,
-										["c_max"] = 15919,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 15919,
-									},
-									[196448] = {
-										["c_amt"] = 16,
-										["b_amt"] = 0,
-										["c_dmg"] = 145360,
-										["g_amt"] = 0,
-										["n_max"] = 6998,
-										["targets"] = {
-											["All-Seeing Eye"] = 85714,
-											["Nelach, the All-Seeing"] = 221863,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 162217,
-										["n_min"] = 2121,
-										["g_dmg"] = 0,
-										["counter"] = 56,
-										["total"] = 307577,
-										["c_max"] = 14203,
-										["id"] = 196448,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 40,
-										["r_amt"] = 0,
-										["c_min"] = 4375,
-									},
-									[29722] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 30950,
-										["g_amt"] = 0,
-										["n_max"] = 18575,
-										["targets"] = {
-											["Nelach, the All-Seeing"] = 30950,
-											["All-Seeing Eye"] = 18575,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 18575,
-										["n_min"] = 18575,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 49525,
-										["c_max"] = 30950,
-										["id"] = 29722,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
@@ -921,734 +1553,38 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 30950,
-									},
-									[42223] = {
-										["c_amt"] = 13,
-										["b_amt"] = 0,
-										["c_dmg"] = 168743,
-										["g_amt"] = 0,
-										["n_max"] = 8093,
-										["targets"] = {
-											["All-Seeing Eye"] = 489517,
-											["Nelach, the All-Seeing"] = 86516,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 407290,
-										["n_min"] = 4720,
-										["g_dmg"] = 0,
-										["counter"] = 77,
-										["total"] = 576033,
-										["c_max"] = 16101,
-										["id"] = 42223,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 64,
-										["r_amt"] = 0,
-										["c_min"] = 9607,
+										["c_min"] = 0,
 									},
 								},
 							},
 							["grupo"] = true,
 							["serial"] = "Player-5-0A2F3583",
-							["last_dps"] = 59447.5817570944,
+							["last_dps"] = 19616.2388424154,
 							["custom"] = 0,
-							["last_event"] = 1485742116,
-							["damage_taken"] = 289648.008329,
-							["start_time"] = 1485742095,
+							["last_event"] = 1486027986,
+							["damage_taken"] = 18072.004663,
+							["start_time"] = 1486027944,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Nelach, the All-Seeing"] = 117525,
+								["Imprisoned Imp"] = 28665,
 							},
-							["end_time"] = 1485742117,
+							["end_time"] = 1486027954,
 							["pets"] = {
 							},
 							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 117525.00294,
+							["total_without_pet"] = 28665.001432,
 							["dps_started"] = false,
-							["total"] = 117525.00294,
-							["classe"] = "PET",
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[85692] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 17199,
-										["targets"] = {
-											["Nelach, the All-Seeing"] = 117525,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 117525,
-										["n_min"] = 14332,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 117525,
-										["c_max"] = 0,
-										["id"] = 85692,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00294,
-							["start_time"] = 1485742098,
-							["delay"] = 0,
-							["last_event"] = 1485742116,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 11,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.001591,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-								["Fimwack"] = 7,
-							},
-							["targets"] = {
-								["Fimwack"] = 166224,
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 7,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Fimwack"] = 7,
-										},
-										["n_max"] = 13344,
-										["targets"] = {
-											["Fimwack"] = 157527,
-										},
-										["n_min"] = 819,
-										["counter"] = 42,
-										["overheal"] = 7,
-										["total"] = 157527,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = -7,
-										["m_amt"] = 0,
-										["c_min"] = -1,
-										["n_curado"] = 157534,
-										["m_healed"] = 0,
-										["n_amt"] = 35,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 977,
-										["targets"] = {
-											["Fimwack"] = 8690,
-										},
-										["n_min"] = 3,
-										["counter"] = 27,
-										["overheal"] = 0,
-										["total"] = 8690,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 8690,
-										["m_healed"] = 0,
-										["n_amt"] = 27,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Fimwack"] = true,
-							},
-							["healing_taken"] = 166224.001591,
-							["totalover"] = 7.001591,
-							["total_without_pet"] = 166224.001591,
-							["totalover_without_pet"] = 0.001591,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["end_time"] = 1485742117,
-							["last_event"] = 1485742115,
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 166224.001591,
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1485742095,
-							["serial"] = "Player-5-0A2F3583",
-							["delay"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 11,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 5.002585,
-							["targets"] = {
-								["Fimwack"] = 176400,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["total"] = 176400.002585,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["resource_type"] = 7,
-							["tipo"] = 3,
-							["received"] = 176400.002585,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[5740] = {
-										["id"] = 5740,
-										["total"] = 117600,
-										["targets"] = {
-											["Fimwack"] = 117600,
-										},
-										["counter"] = 2,
-									},
-									[116858] = {
-										["id"] = 116858,
-										["total"] = 58800,
-										["targets"] = {
-											["Fimwack"] = 58800,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1485742115,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 11,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[157736] = {
-										["uptime"] = 21,
-										["activedamt"] = 0,
-										["id"] = 157736,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[5740] = {
-										["uptime"] = 9,
-										["activedamt"] = 0,
-										["id"] = 5740,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 40,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Soul Leech"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Soul Leech",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[117828] = {
-										["uptime"] = 22,
-										["activedamt"] = 1,
-										["id"] = 117828,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Intellect Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Intellect Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[196447] = {
-										["uptime"] = 5,
-										["activedamt"] = 2,
-										["id"] = 196447,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[5740] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 5740,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[108366] = {
-										["actived_at"] = 1485742111,
-										["uptime"] = 2,
-										["activedamt"] = 9,
-										["id"] = 108366,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 30,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 3,
-								[116858] = 1,
-								[348] = 1,
-								[196447] = 2,
-								[29722] = 1,
-								[5740] = 2,
-								[42223] = 77,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1485742117,
-							["nome"] = "Fimwack",
-							["pets"] = {
-								"Aggoketh <Fimwack>", -- [1]
-							},
-							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[85692] = 8,
-							},
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 11,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Fimwack"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Nelach, the All-Seeing",
-				["combat_counter"] = 34,
-				["totals"] = {
-					1307608.975802, -- [1]
-					166223.993579, -- [2]
-					{
-						0, -- [1]
-						[0] = 176400,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Fimwack"] = 166224.001591,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Fimwack"] = 1307609.008329,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 24931.67,
-				["combat_id"] = 11,
-				["instance_type"] = "scenario",
-				["frags"] = {
-					["Nelach, the All-Seeing"] = 1,
-					["All-Seeing Eye"] = 6,
-				},
-				["data_fim"] = "18:08:37",
-				["data_inicio"] = "18:08:15",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					1190084, -- [1]
-					166217, -- [2]
-					{
-						0, -- [1]
-						[0] = 176400,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 24909.664,
-				["contra"] = "Nelach, the All-Seeing",
-				["TimeData"] = {
-				},
-			}, -- [2]
-			{
-				{
-					["combatId"] = 10,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Dreadscar Sunderer"] = true,
-							},
-							["targets"] = {
-								["Dreadscar Sunderer"] = 725689,
-							},
-							["spec"] = 267,
-							["pets"] = {
-								"Aggoketh <Fimwack>", -- [1]
-							},
-							["colocacao"] = 1,
-							["end_time"] = 1485742086,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 625363.002677,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 725689.002677,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Fimwack",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 23902,
-										["targets"] = {
-											["Dreadscar Sunderer"] = 40027,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 40027,
-										["n_min"] = 16125,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 40027,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[116858] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 178175,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Dreadscar Sunderer"] = 178175,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 178175,
-										["c_max"] = 99377,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 78798,
-									},
-									[348] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 13428,
-										["targets"] = {
-											["Dreadscar Sunderer"] = 23583,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 23583,
-										["n_min"] = 10155,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 23583,
-										["c_max"] = 0,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[157736] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 22288,
-										["g_amt"] = 0,
-										["n_max"] = 7619,
-										["targets"] = {
-											["Dreadscar Sunderer"] = 78567,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 56279,
-										["n_min"] = 5199,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 78567,
-										["c_max"] = 11982,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 10306,
-									},
-									[196448] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 68782,
-										["g_amt"] = 0,
-										["n_max"] = 7057,
-										["targets"] = {
-											["Dreadscar Sunderer"] = 195277,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 126495,
-										["n_min"] = 2862,
-										["g_dmg"] = 0,
-										["counter"] = 29,
-										["total"] = 195277,
-										["c_max"] = 13713,
-										["id"] = 196448,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 23,
-										["r_amt"] = 0,
-										["c_min"] = 8807,
-									},
-									[29722] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 30734,
-										["g_amt"] = 0,
-										["n_max"] = 23185,
-										["targets"] = {
-											["Dreadscar Sunderer"] = 109734,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 79000,
-										["n_min"] = 15803,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 109734,
-										["c_max"] = 30734,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 30734,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
-							["last_dps"] = 42675.0369113177,
-							["custom"] = 0,
-							["last_event"] = 1485742085,
-							["damage_taken"] = 287722.002677,
-							["start_time"] = 1485742069,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Dreadscar Sunderer"] = 100326,
-							},
-							["end_time"] = 1485742086,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 100326.004385,
-							["dps_started"] = false,
-							["total"] = 100326.004385,
+							["total"] = 28665.001432,
 							["classe"] = "PET",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Aggoketh <Fimwack>",
@@ -1660,16 +1596,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 28665,
 										["g_amt"] = 0,
-										["n_max"] = 14333,
+										["n_max"] = 0,
 										["targets"] = {
-											["Dreadscar Sunderer"] = 100326,
+											["Imprisoned Imp"] = 28665,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 71661,
-										["n_min"] = 14332,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 100326,
+										["counter"] = 1,
+										["total"] = 28665,
 										["c_max"] = 28665,
 										["id"] = 85692,
 										["r_dmg"] = 0,
@@ -1680,7 +1616,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 0,
 										["r_amt"] = 0,
 										["c_min"] = 28665,
 									},
@@ -1691,26 +1627,48 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.004385,
-							["start_time"] = 1485742072,
+							["damage_taken"] = 0.001432,
+							["start_time"] = 1486027947,
 							["delay"] = 0,
-							["last_event"] = 1485742083,
+							["last_event"] = 1486027947,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 10,
+					["combatId"] = 36,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.005492,
-							["last_hps"] = 0,
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.006454,
+							["total_without_pet"] = 18072.006454,
+							["total"] = 18072.006454,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A2F3583",
+							["totalabsorb"] = 0.006454,
+							["last_hps"] = 1807.01994340562,
+							["targets"] = {
+								["Fimwack"] = 18072,
+							},
+							["totalover_without_pet"] = 0.006454,
+							["healing_taken"] = 18072.006454,
+							["fight_component"] = true,
+							["end_time"] = 1486027954,
 							["targets_overheal"] = {
 							},
-							["targets"] = {
-								["Fimwack"] = 168295,
-							},
+							["nome"] = "Fimwack",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
@@ -1719,14 +1677,14 @@ _detalhes_database = {
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 29943,
+										["n_max"] = 3808,
 										["targets"] = {
-											["Fimwack"] = 158291,
+											["Fimwack"] = 18072,
 										},
-										["n_min"] = 8856,
-										["counter"] = 9,
+										["n_min"] = 2322,
+										["counter"] = 6,
 										["overheal"] = 0,
-										["total"] = 158291,
+										["total"] = 18072,
 										["c_max"] = 0,
 										["id"] = 108366,
 										["targets_absorbs"] = {
@@ -1735,113 +1693,66 @@ _detalhes_database = {
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 158291,
+										["n_curado"] = 18072,
 										["m_healed"] = 0,
-										["n_amt"] = 9,
-										["absorbed"] = 0,
-									},
-									[77220] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 1960,
-										["targets"] = {
-											["Fimwack"] = 10004,
-										},
-										["n_min"] = 215,
-										["counter"] = 11,
-										["overheal"] = 0,
-										["total"] = 10004,
-										["c_max"] = 0,
-										["id"] = 77220,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 10004,
-										["m_healed"] = 0,
-										["n_amt"] = 11,
+										["n_amt"] = 6,
 										["absorbed"] = 0,
 									},
 								},
 							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Fimwack"] = true,
-							},
-							["healing_taken"] = 168295.005492,
-							["totalover"] = 0.005492,
-							["total_without_pet"] = 168295.005492,
-							["totalover_without_pet"] = 0.005492,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["end_time"] = 1485742086,
-							["last_event"] = 1485742084,
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
 							["grupo"] = true,
-							["total"] = 168295.005492,
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
+							["classe"] = "WARLOCK",
 							["custom"] = 0,
 							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1485742072,
-							["serial"] = "Player-5-0A2F3583",
+							["last_event"] = 1486027951,
+							["start_time"] = 1486027947,
 							["delay"] = 0,
+							["spec"] = 267,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 10,
+					["combatId"] = 36,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 5.002919,
+							["resource"] = 1.00241,
 							["targets"] = {
-								["Fimwack"] = 117600,
+								["Fimwack"] = 58800,
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
 							["classe"] = "WARLOCK",
 							["fight_component"] = true,
-							["total"] = 117600.002919,
+							["total"] = 58800.00241,
 							["nome"] = "Fimwack",
 							["spec"] = 267,
 							["grupo"] = true,
 							["resource_type"] = 7,
 							["tipo"] = 3,
-							["received"] = 117600.002919,
+							["received"] = 58800.00241,
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
-									[116858] = {
-										["id"] = 116858,
-										["total"] = 117600,
+									[5740] = {
+										["id"] = 5740,
+										["total"] = 58800,
 										["targets"] = {
-											["Fimwack"] = 117600,
+											["Fimwack"] = 58800,
 										},
-										["counter"] = 2,
+										["counter"] = 1,
 									},
 								},
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1485742082,
+							["last_event"] = 1486027986,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 10,
+					["combatId"] = 36,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -1849,591 +1760,10 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[157736] = {
-										["actived_at"] = 1485742085,
-										["uptime"] = 13,
-										["activedamt"] = -1,
-										["id"] = 157736,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 19,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Soul Leech"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Soul Leech",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[117828] = {
-										["uptime"] = 8,
-										["activedamt"] = 1,
-										["id"] = 117828,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Intellect Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Intellect Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[196447] = {
-										["uptime"] = 4,
-										["activedamt"] = 2,
-										["id"] = 196447,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[108366] = {
-										["actived_at"] = 1485742085,
+									[5740] = {
 										["uptime"] = 7,
-										["activedamt"] = 6,
-										["id"] = 108366,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 13,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[17962] = 2,
-								[116858] = 2,
-								[348] = 1,
-								[196447] = 2,
-								[29722] = 3,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1485742086,
-							["nome"] = "Fimwack",
-							["pets"] = {
-								"Aggoketh <Fimwack>", -- [1]
-							},
-							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[85692] = 6,
-							},
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 10,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Fimwack"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Dreadscar Sunderer",
-				["combat_counter"] = 33,
-				["totals"] = {
-					725688.976266, -- [1]
-					168294.998266, -- [2]
-					{
-						0, -- [1]
-						[0] = 117600,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Fimwack"] = 168295.005492,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Fimwack"] = 725689.002677,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 24900.358,
-				["combat_id"] = 10,
-				["instance_type"] = "scenario",
-				["frags"] = {
-					["Dreadscar Sunderer"] = 2,
-				},
-				["data_fim"] = "18:08:06",
-				["data_inicio"] = "18:07:49",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					625363, -- [1]
-					168295, -- [2]
-					{
-						0, -- [1]
-						[0] = 117600,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 24883.353,
-				["contra"] = "Dreadscar Sunderer",
-				["TimeData"] = {
-				},
-			}, -- [3]
-			{
-				{
-					["combatId"] = 9,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Dreadscar Jailer"] = true,
-							},
-							["targets"] = {
-								["Dreadscar Jailer"] = 279624,
-							},
-							["pets"] = {
-								"Aggoketh <Fimwack>", -- [1]
-							},
-							["total"] = 279624.003382,
-							["on_hold"] = false,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 250959.003382,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1485742015,
-							["friendlyfire_total"] = 0,
-							["spec"] = 267,
-							["nome"] = "Fimwack",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 18665,
-										["targets"] = {
-											["Dreadscar Jailer"] = 18665,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 18665,
-										["n_min"] = 18665,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 18665,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[116858] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 83713,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Dreadscar Jailer"] = 83713,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 83713,
-										["c_max"] = 83713,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 83713,
-									},
-									[157736] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 10916,
-										["g_amt"] = 0,
-										["n_max"] = 4802,
-										["targets"] = {
-											["Dreadscar Jailer"] = 20464,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 9548,
-										["n_min"] = 4746,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 20464,
-										["c_max"] = 10916,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 10916,
-									},
-									[196448] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 56444,
-										["g_amt"] = 0,
-										["n_max"] = 6546,
-										["targets"] = {
-											["Dreadscar Jailer"] = 110979,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 54535,
-										["n_min"] = 4240,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 110979,
-										["c_max"] = 14167,
-										["id"] = 196448,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 8509,
-									},
-									[29722] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 17138,
-										["targets"] = {
-											["Dreadscar Jailer"] = 17138,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17138,
-										["n_min"] = 17138,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 17138,
-										["c_max"] = 0,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
-							["last_dps"] = 46604.0005636667,
-							["custom"] = 0,
-							["last_event"] = 1485742015,
-							["damage_taken"] = 29197.003382,
-							["start_time"] = 1485742009,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Dreadscar Jailer"] = 28665,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 28665.004081,
-							["dps_started"] = false,
-							["total"] = 28665.004081,
-							["classe"] = "PET",
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[85692] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 14333,
-										["targets"] = {
-											["Dreadscar Jailer"] = 28665,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 28665,
-										["n_min"] = 14332,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 28665,
-										["c_max"] = 0,
-										["id"] = 85692,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1485742015,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004081,
-							["start_time"] = 1485742011,
-							["delay"] = 0,
-							["last_event"] = 1485742013,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 9,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.004317,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Fimwack"] = true,
-							},
-							["targets"] = {
-								["Fimwack"] = 29197,
-							},
-							["last_event"] = 1485742013,
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.004317,
-							["targets_overheal"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.004317,
-							["total_without_pet"] = 29197.004317,
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["total"] = 29197.004317,
-							["serial"] = "Player-5-0A2F3583",
-							["healing_taken"] = 29197.004317,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["end_time"] = 1485742015,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 15903,
-										["targets"] = {
-											["Fimwack"] = 29197,
-										},
-										["n_min"] = 13294,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 29197,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 29197,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1485742013,
-							["delay"] = 0,
-							["targets_absorbs"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 9,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 1.008243,
-							["targets"] = {
-								["Fimwack"] = 58800,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["total"] = 58800.008243,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["resource_type"] = 7,
-							["tipo"] = 3,
-							["received"] = 58800.008243,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[116858] = {
-										["id"] = 116858,
-										["total"] = 58800,
-										["targets"] = {
-											["Fimwack"] = 58800,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1485742013,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 9,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[157736] = {
-										["uptime"] = 6,
 										["activedamt"] = 0,
-										["id"] = 157736,
+										["id"] = 5740,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2441,20 +1771,11 @@ _detalhes_database = {
 									},
 								},
 							},
-							["buff_uptime"] = 4,
+							["buff_uptime"] = 7,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[196447] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = 196447,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
 									["Soul Leech"] = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
@@ -2465,8 +1786,8 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 									[117828] = {
-										["uptime"] = 4,
-										["activedamt"] = 1,
+										["uptime"] = 0,
+										["activedamt"] = 0,
 										["id"] = 117828,
 										["actived"] = false,
 										["targets"] = {
@@ -2482,608 +1803,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 6,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 267,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[29722] = 1,
-								[116858] = 1,
-								[17962] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1485742015,
-							["nome"] = "Fimwack",
-							["pets"] = {
-								"Aggoketh <Fimwack>", -- [1]
-							},
-							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[85692] = 2,
-							},
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 9,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Fimwack"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Dreadscar Jailer",
-				["combat_counter"] = 32,
-				["totals"] = {
-					279623.980377, -- [1]
-					29196.995495, -- [2]
-					{
-						0, -- [1]
-						[0] = 58800,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Fimwack"] = 29197.004317,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Fimwack"] = 279624.003382,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 24830.194,
-				["combat_id"] = 9,
-				["instance_type"] = "scenario",
-				["frags"] = {
-					["Dreadscar Jailer"] = 1,
-				},
-				["data_fim"] = "18:06:56",
-				["data_inicio"] = "18:06:50",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					250959, -- [1]
-					29197, -- [2]
-					{
-						0, -- [1]
-						[0] = 58800,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 24824.194,
-				["contra"] = "Dreadscar Jailer",
-				["TimeData"] = {
-				},
-			}, -- [4]
-			{
-				{
-					["combatId"] = 8,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Dreadscar Jailer"] = true,
-							},
-							["targets"] = {
-								["Dreadscar Jailer"] = 319180,
-							},
-							["pets"] = {
-								"Aggoketh <Fimwack>", -- [1]
-							},
-							["spec"] = 267,
-							["on_hold"] = false,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 273317.001739,
-							["end_time"] = 1485742009,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 319180.001739,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["nome"] = "Fimwack",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[29722] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 24110,
-										["targets"] = {
-											["Dreadscar Jailer"] = 24110,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 24110,
-										["n_min"] = 24110,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 24110,
-										["c_max"] = 0,
-										["id"] = 29722,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[116858] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 66777,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Dreadscar Jailer"] = 66777,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 66777,
-										["c_max"] = 66777,
-										["id"] = 116858,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 66777,
-									},
-									[348] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 17622,
-										["g_amt"] = 0,
-										["n_max"] = 14472,
-										["targets"] = {
-											["Dreadscar Jailer"] = 32094,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 14472,
-										["n_min"] = 14472,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 32094,
-										["c_max"] = 17622,
-										["id"] = 348,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 17622,
-									},
-									[157736] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6939,
-										["targets"] = {
-											["Dreadscar Jailer"] = 17394,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17394,
-										["n_min"] = 4933,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 17394,
-										["c_max"] = 0,
-										["id"] = 157736,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[196448] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 14097,
-										["g_amt"] = 0,
-										["n_max"] = 7231,
-										["targets"] = {
-											["Dreadscar Jailer"] = 98613,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 84516,
-										["n_min"] = 4456,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 98613,
-										["c_max"] = 14097,
-										["id"] = 196448,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 14,
-										["r_amt"] = 0,
-										["c_min"] = 14097,
-									},
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 18314,
-										["targets"] = {
-											["Dreadscar Jailer"] = 34329,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 34329,
-										["n_min"] = 16015,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 34329,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
-							["last_dps"] = 35436.8826178472,
-							["custom"] = 0,
-							["last_event"] = 1485742008,
-							["damage_taken"] = 26097.001739,
-							["start_time"] = 1485741994,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Dreadscar Jailer"] = 45863,
-							},
-							["end_time"] = 1485742003,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 45863.004054,
-							["dps_started"] = false,
-							["total"] = 45863.004054,
-							["classe"] = "PET",
-							["ownerName"] = "Fimwack",
-							["nome"] = "Aggoketh <Fimwack>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[85692] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 17199,
-										["targets"] = {
-											["Dreadscar Jailer"] = 45863,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 45863,
-										["n_min"] = 14332,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 45863,
-										["c_max"] = 0,
-										["id"] = 85692,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004054,
-							["start_time"] = 1485741997,
-							["delay"] = 0,
-							["last_event"] = 1485742002,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 8,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.001595,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-								["Fimwack"] = 26097,
-							},
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 13564,
-										["targets"] = {
-											["Fimwack"] = 26097,
-										},
-										["n_min"] = 12533,
-										["counter"] = 2,
-										["overheal"] = 0,
-										["total"] = 26097,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 26097,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Fimwack"] = true,
-							},
-							["healing_taken"] = 26097.001595,
-							["totalover"] = 0.001595,
-							["total_without_pet"] = 26097.001595,
-							["totalover_without_pet"] = 0.001595,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["end_time"] = 1485742003,
-							["last_event"] = 1485742000,
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["total"] = 26097.001595,
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1485741998,
-							["serial"] = "Player-5-0A2F3583",
-							["delay"] = 0,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 8,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 2.007714,
-							["targets"] = {
-								["Fimwack"] = 58800,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["total"] = 58800.007714,
-							["nome"] = "Fimwack",
-							["spec"] = 267,
-							["grupo"] = true,
-							["resource_type"] = 7,
-							["tipo"] = 3,
-							["received"] = 58800.007714,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[116858] = {
-										["id"] = 116858,
-										["total"] = 58800,
-										["targets"] = {
-											["Fimwack"] = 58800,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1485742002,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 8,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[157736] = {
-										["uptime"] = 8,
-										["activedamt"] = 0,
-										["id"] = 157736,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 2,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Soul Leech"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Soul Leech",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[117828] = {
-										["actived_at"] = 1485741998,
-										["uptime"] = 0,
+									[5740] = {
+										["uptime"] = 7,
 										["activedamt"] = 1,
-										["id"] = 117828,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Soulstone"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Soulstone",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[196447] = {
-										["uptime"] = 2,
-										["activedamt"] = 1,
-										["id"] = 196447,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Intellect Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Intellect Flask",
+										["id"] = 5740,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -3101,20 +1824,18 @@ _detalhes_database = {
 								},
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 8,
+							["debuff_uptime"] = 7,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 267,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[196447] = 1,
-								[116858] = 1,
-								[29722] = 1,
-								[17962] = 2,
+								[5740] = 1,
+								[42223] = 17,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1485742003,
+							["last_event"] = 1486027954,
 							["nome"] = "Fimwack",
 							["pets"] = {
 								"Aggoketh <Fimwack>", -- [1]
@@ -3133,13 +1854,13 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[85692] = 3,
 							},
-							["serial"] = "Pet-0-3135-1522-6501-78158-0102701361",
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
 							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 8,
+					["combatId"] = 36,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -3149,11 +1870,11 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Dreadscar Jailer",
-				["combat_counter"] = 31,
+				["enemy"] = "Imprisoned Imp",
+				["combat_counter"] = 65,
 				["totals"] = {
-					319179.978396, -- [1]
-					26096.995755, -- [2]
+					206951.988448, -- [1]
+					18072, -- [2]
 					{
 						0, -- [1]
 						[0] = 58800,
@@ -3187,30 +1908,31 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Fimwack"] = 26097.001595,
+							["Fimwack"] = 28050.007897,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Fimwack"] = 301558.001739,
+							["Fimwack"] = 338127.009518,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 24817.523,
-				["combat_id"] = 8,
+				["end_time"] = 19884.035,
+				["combat_id"] = 36,
 				["instance_type"] = "scenario",
+				["resincked"] = true,
 				["frags"] = {
-					["Dreadscar Jailer"] = 1,
+					["Imprisoned Imp"] = 4,
 				},
-				["data_fim"] = "18:06:43",
-				["data_inicio"] = "18:06:34",
+				["data_fim"] = "01:32:34",
+				["data_inicio"] = "01:32:24",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					273317, -- [1]
-					26097, -- [2]
+					178287, -- [1]
+					18072, -- [2]
 					{
 						0, -- [1]
 						[0] = 58800,
@@ -3228,8 +1950,1140 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 24808.516,
-				["contra"] = "Dreadscar Jailer",
+				["start_time"] = 19874.034,
+				["contra"] = "Imprisoned Imp",
+				["TimeData"] = {
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 35,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Imprisoned Imp"] = true,
+							},
+							["targets"] = {
+								["Imprisoned Imp"] = 179014,
+							},
+							["pets"] = {
+								"Aggoketh <Fimwack>", -- [1]
+							},
+							["spec"] = 267,
+							["on_hold"] = false,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 164681.002604,
+							["end_time"] = 1486027944,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 179014.002604,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["nome"] = "Fimwack",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[42223] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 21822,
+										["g_amt"] = 0,
+										["n_max"] = 7818,
+										["targets"] = {
+											["Imprisoned Imp"] = 101254,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 79432,
+										["n_min"] = 4896,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 101254,
+										["c_max"] = 11679,
+										["id"] = 42223,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 10143,
+									},
+									[17962] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 35719,
+										["g_amt"] = 0,
+										["n_max"] = 15246,
+										["targets"] = {
+											["Imprisoned Imp"] = 50965,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 15246,
+										["n_min"] = 15246,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 50965,
+										["c_max"] = 35719,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 35719,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12462,
+										["targets"] = {
+											["Imprisoned Imp"] = 12462,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12462,
+										["n_min"] = 12462,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 12462,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A2F3583",
+							["last_dps"] = 19886.0256169731,
+							["custom"] = 0,
+							["last_event"] = 1486027943,
+							["damage_taken"] = 13949.002604,
+							["start_time"] = 1486027928,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Imprisoned Imp"] = 14333,
+							},
+							["end_time"] = 1486027937,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 14333.007326,
+							["dps_started"] = false,
+							["total"] = 14333.007326,
+							["classe"] = "PET",
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[85692] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14333,
+										["targets"] = {
+											["Imprisoned Imp"] = 14333,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14333,
+										["n_min"] = 14333,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14333,
+										["c_max"] = 0,
+										["id"] = 85692,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007326,
+							["start_time"] = 1486027931,
+							["delay"] = 0,
+							["last_event"] = 1486027931,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 35,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003848,
+							["total_without_pet"] = 13949.003848,
+							["total"] = 13949.003848,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A2F3583",
+							["totalabsorb"] = 0.003848,
+							["last_hps"] = 2133.85403824376,
+							["targets"] = {
+								["Fimwack"] = 13949,
+							},
+							["totalover_without_pet"] = 0.003848,
+							["healing_taken"] = 13949.003848,
+							["fight_component"] = true,
+							["end_time"] = 1486027937,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Fimwack",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3774,
+										["targets"] = {
+											["Fimwack"] = 13949,
+										},
+										["n_min"] = 2357,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 13949,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 13949,
+										["m_healed"] = 0,
+										["n_amt"] = 5,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 1486027933,
+							["start_time"] = 1486027930,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 35,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 2.004693,
+							["targets"] = {
+								["Fimwack"] = 58800,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 58800.004693,
+							["nome"] = "Fimwack",
+							["spec"] = 267,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 58800.004693,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[5740] = {
+										["id"] = 5740,
+										["total"] = 58800,
+										["targets"] = {
+											["Fimwack"] = 58800,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A2F3583",
+							["last_event"] = 1486027944,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 35,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5740] = {
+										["uptime"] = 6,
+										["activedamt"] = 0,
+										["id"] = 5740,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[157736] = {
+										["uptime"] = 1,
+										["activedamt"] = 0,
+										["id"] = 157736,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 6,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[5740] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 5740,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Soul Leech"] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = "Soul Leech",
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Backdraft"] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = "Backdraft",
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Draenic Intellect Flask"] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = "Draenic Intellect Flask",
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5740] = 1,
+								[42223] = 15,
+								[29722] = 1,
+								[348] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1486027937,
+							["nome"] = "Fimwack",
+							["pets"] = {
+								"Aggoketh <Fimwack>", -- [1]
+							},
+							["serial"] = "Player-5-0A2F3583",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[85692] = 2,
+							},
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 35,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Fimwack"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Imprisoned Imp",
+				["combat_counter"] = 64,
+				["totals"] = {
+					179013.98816, -- [1]
+					13949, -- [2]
+					{
+						0, -- [1]
+						[0] = 58800,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Fimwack"] = 13949.003848,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Fimwack"] = 163768.002604,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 19866.373,
+				["combat_id"] = 35,
+				["instance_type"] = "scenario",
+				["frags"] = {
+					["Imprisoned Imp"] = 3,
+				},
+				["data_fim"] = "01:32:17",
+				["data_inicio"] = "01:32:08",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					164681, -- [1]
+					13949, -- [2]
+					{
+						0, -- [1]
+						[0] = 58800,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 19857.371,
+				["contra"] = "Imprisoned Imp",
+				["TimeData"] = {
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 34,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Cell Watcher"] = true,
+							},
+							["targets"] = {
+								["Cell Watcher"] = 571872,
+							},
+							["spec"] = 267,
+							["pets"] = {
+								"Aggoketh <Fimwack>", -- [1]
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1486027914,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 500211.00753,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 571872.00753,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Fimwack",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[17962] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 24380,
+										["targets"] = {
+											["Cell Watcher"] = 46694,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 46694,
+										["n_min"] = 22314,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 46694,
+										["c_max"] = 0,
+										["id"] = 17962,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 73947,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Cell Watcher"] = 73947,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 73947,
+										["c_max"] = 73947,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 73947,
+									},
+									[348] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 12801,
+										["targets"] = {
+											["Cell Watcher"] = 22700,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 22700,
+										["n_min"] = 9899,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 22700,
+										["c_max"] = 0,
+										["id"] = 348,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[157736] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 25701,
+										["g_amt"] = 0,
+										["n_max"] = 8151,
+										["targets"] = {
+											["Cell Watcher"] = 82354,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 56653,
+										["n_min"] = 6091,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 82354,
+										["c_max"] = 12913,
+										["id"] = 157736,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 12788,
+									},
+									[196448] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 20826,
+										["g_amt"] = 0,
+										["n_max"] = 6917,
+										["targets"] = {
+											["Cell Watcher"] = 115041,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 94215,
+										["n_min"] = 2158,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 115041,
+										["c_max"] = 11231,
+										["id"] = 196448,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 18,
+										["r_amt"] = 0,
+										["c_min"] = 9595,
+									},
+									[29722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 85398,
+										["g_amt"] = 0,
+										["n_max"] = 20924,
+										["targets"] = {
+											["Cell Watcher"] = 159475,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 74077,
+										["n_min"] = 16523,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 159475,
+										["c_max"] = 43389,
+										["id"] = 29722,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 42009,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A2F3583",
+							["last_dps"] = 33635.5727285017,
+							["custom"] = 0,
+							["last_event"] = 1486027912,
+							["damage_taken"] = 115759.00753,
+							["start_time"] = 1486027897,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Cell Watcher"] = 71661,
+							},
+							["end_time"] = 1486027914,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 71661.002307,
+							["dps_started"] = false,
+							["total"] = 71661.002307,
+							["classe"] = "PET",
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[85692] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14333,
+										["targets"] = {
+											["Cell Watcher"] = 71661,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 71661,
+										["n_min"] = 14332,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 71661,
+										["c_max"] = 0,
+										["id"] = 85692,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.002307,
+							["start_time"] = 1486027900,
+							["delay"] = 0,
+							["last_event"] = 1486027910,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 34,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003353,
+							["total_without_pet"] = 115759.003353,
+							["total"] = 115759.003353,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A2F3583",
+							["totalabsorb"] = 0.003353,
+							["last_hps"] = 6808.55213227839,
+							["targets"] = {
+								["Fimwack"] = 115759,
+							},
+							["totalover_without_pet"] = 0.003353,
+							["healing_taken"] = 115759.003353,
+							["fight_component"] = true,
+							["end_time"] = 1486027914,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Fimwack",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 12783,
+										["targets"] = {
+											["Fimwack"] = 115759,
+										},
+										["n_min"] = 9513,
+										["counter"] = 10,
+										["overheal"] = 0,
+										["total"] = 115759,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 115759,
+										["m_healed"] = 0,
+										["n_amt"] = 10,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "WARLOCK",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 1486027912,
+							["start_time"] = 1486027900,
+							["delay"] = 0,
+							["spec"] = 267,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 34,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 5.006807,
+							["targets"] = {
+								["Fimwack"] = 58800,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 58800.006807,
+							["nome"] = "Fimwack",
+							["spec"] = 267,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["tipo"] = 3,
+							["received"] = 58800.006807,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[116858] = {
+										["id"] = 116858,
+										["total"] = 58800,
+										["targets"] = {
+											["Fimwack"] = 58800,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A2F3583",
+							["last_event"] = 1486027928,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 34,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[157736] = {
+										["uptime"] = 15,
+										["activedamt"] = 0,
+										["id"] = 157736,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[80240] = {
+										["uptime"] = 6,
+										["activedamt"] = 0,
+										["id"] = 80240,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 11,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[196447] = {
+										["actived_at"] = 1486027911,
+										["uptime"] = 2,
+										["activedamt"] = 2,
+										["id"] = 196447,
+										["actived"] = true,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Soul Leech"] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = "Soul Leech",
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[117828] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 117828,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									["Draenic Intellect Flask"] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = "Draenic Intellect Flask",
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 21,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 267,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[17962] = 2,
+								[116858] = 1,
+								[348] = 1,
+								[196447] = 2,
+								[80240] = 1,
+								[29722] = 3,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1486027914,
+							["nome"] = "Fimwack",
+							["pets"] = {
+								"Aggoketh <Fimwack>", -- [1]
+							},
+							["serial"] = "Player-5-0A2F3583",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Fimwack",
+							["nome"] = "Aggoketh <Fimwack>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[85692] = 5,
+							},
+							["serial"] = "Pet-0-3878-0-21389-78158-0302701361",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 34,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Fimwack"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Cell Watcher",
+				["combat_counter"] = 63,
+				["totals"] = {
+					571871.987286, -- [1]
+					115759, -- [2]
+					{
+						0, -- [1]
+						[0] = 58800,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Fimwack"] = 115759.003353,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Fimwack"] = 571872.00753,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 19843.293,
+				["combat_id"] = 34,
+				["instance_type"] = "scenario",
+				["frags"] = {
+					["Cell Watcher"] = 2,
+				},
+				["data_fim"] = "01:31:54",
+				["data_inicio"] = "01:31:37",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					500211, -- [1]
+					115759, -- [2]
+					{
+						0, -- [1]
+						[0] = 58800,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 19826.291,
+				["contra"] = "Cell Watcher",
 				["TimeData"] = {
 				},
 			}, -- [5]
@@ -3237,7 +3091,7 @@ _detalhes_database = {
 	},
 	["savedbuffs"] = {
 	},
-	["combat_counter"] = 35,
+	["combat_counter"] = 68,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -3245,10 +3099,10 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["enabled"] = true,
+			["author"] = "Details! Team",
 			["dps"] = 0,
 			["level"] = 1,
-			["author"] = "Details! Team",
+			["enabled"] = true,
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -3267,15 +3121,15 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 15,
 			["last_player"] = false,
-			["author"] = "Details! Team",
+			["InstalledAt"] = 1485740473,
 			["last_encounter_hash"] = false,
-			["enabled"] = true,
+			["showing_type"] = 4,
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 0,
 			["timeline_cutoff_delete_time"] = 3,
-			["showing_type"] = 4,
-			["InstalledAt"] = 1485740473,
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -3284,11 +3138,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -3315,11 +3169,11 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
+			["scale"] = 1,
+			["row_height"] = 20,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["point"] = "CENTER",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -3327,14 +3181,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["font_size"] = 10,
 			["y"] = 1.525878906250e-005,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
@@ -3345,47 +3194,59 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 0,
 				["x"] = 0,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["enabled"] = true,
+			["showamount"] = false,
 			["animate"] = false,
 			["useplayercolor"] = false,
-			["author"] = "Details! Team",
 			["useclasscolors"] = false,
+			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
-			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -3394,22 +3255,6 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_TIME_ATTACK"] = {
-			["enabled"] = true,
-			["realm_last_shown"] = 40,
-			["saved_as_anonymous"] = true,
-			["recently_as_anonymous"] = true,
-			["dps"] = 0,
-			["disable_sharing"] = false,
-			["history"] = {
-			},
-			["time"] = 40,
-			["history_lastindex"] = 0,
-			["author"] = "Details! Team",
-			["realm_history"] = {
-			},
-			["realm_lastamt"] = 0,
 		},
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
 			["enabled"] = true,
@@ -3425,38 +3270,44 @@ _detalhes_database = {
 				["last_selected"] = 1,
 			},
 			["options"] = {
-				["show_method"] = 4,
 				["auto_create"] = true,
+				["show_method"] = 4,
 				["window_scale"] = 1,
 			},
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 	},
-	["character_data"] = {
-		["logons"] = 10,
-	},
 	["force_font_outline"] = "",
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 11,
 	},
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1487036483,
+		["last_version"] = 8,
 	},
+	["last_instance_time"] = 0,
 	["tabela_instancias"] = {
 	},
-	["combat_id"] = 12,
+	["combat_id"] = 38,
 	["savedStyles"] = {
 	},
 	["cached_talents"] = {
@@ -3470,7 +3321,7 @@ _detalhes_database = {
 			21182, -- [7]
 		},
 	},
-	["last_realversion"] = 116,
+	["last_version"] = "v7.1.5.3315",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -3486,28 +3337,27 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
+						["Nelach, the All-Seeing"] = 0,
+						["All-Seeing Eye"] = 0,
+						["Dreadscar Sunderer"] = 0,
 						["Dreadscar Jailer"] = 0,
 						["Blighted Scavenger"] = 0,
+						["Xel'toth"] = 0,
 						["Dreadscar Torturer"] = 0,
 						["Felbound Eye"] = 0,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["last_event"] = 0,
+					["last_dps"] = 0,
+					["tipo"] = 1,
 					["classe"] = "WARLOCK",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003794,
-					["spec"] = 267,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1485741984,
-					["friendlyfire_total"] = 0,
-					["friendlyfire"] = {
-					},
-					["nome"] = "Fimwack",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[17962] = {
 								["c_amt"] = 0,
@@ -3516,8 +3366,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Nelach, the All-Seeing"] = 0,
+									["Dreadscar Sunderer"] = 0,
 									["Blighted Scavenger"] = 0,
 									["Dreadscar Jailer"] = 0,
+									["Xel'toth"] = 0,
 									["Dreadscar Torturer"] = 0,
 									["Felbound Eye"] = 0,
 								},
@@ -3530,15 +3383,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 17962,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[116858] = {
 								["c_amt"] = 0,
@@ -3547,7 +3400,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Dreadscar Sunderer"] = 0,
 									["Blighted Scavenger"] = 0,
+									["Nelach, the All-Seeing"] = 0,
+									["Xel'toth"] = 0,
 									["Dreadscar Torturer"] = 0,
 									["Dreadscar Jailer"] = 0,
 								},
@@ -3560,15 +3416,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 116858,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[348] = {
 								["c_amt"] = 0,
@@ -3577,8 +3433,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Nelach, the All-Seeing"] = 0,
+									["Dreadscar Sunderer"] = 0,
 									["Dreadscar Jailer"] = 0,
 									["Blighted Scavenger"] = 0,
+									["Xel'toth"] = 0,
 									["Dreadscar Torturer"] = 0,
 									["Felbound Eye"] = 0,
 								},
@@ -3591,15 +3450,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 348,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[157736] = {
 								["c_amt"] = 0,
@@ -3608,8 +3467,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Nelach, the All-Seeing"] = 0,
+									["Dreadscar Sunderer"] = 0,
 									["Dreadscar Jailer"] = 0,
 									["Blighted Scavenger"] = 0,
+									["Xel'toth"] = 0,
 									["Dreadscar Torturer"] = 0,
 									["Felbound Eye"] = 0,
 								},
@@ -3622,15 +3484,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 157736,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[196448] = {
 								["c_amt"] = 0,
@@ -3639,8 +3501,12 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Nelach, the All-Seeing"] = 0,
+									["All-Seeing Eye"] = 0,
+									["Dreadscar Sunderer"] = 0,
 									["Dreadscar Jailer"] = 0,
 									["Blighted Scavenger"] = 0,
+									["Xel'toth"] = 0,
 									["Dreadscar Torturer"] = 0,
 									["Felbound Eye"] = 0,
 								},
@@ -3653,45 +3519,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196448,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[42223] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Blighted Scavenger"] = 0,
-									["Dreadscar Torturer"] = 0,
-									["Felbound Eye"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 42223,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 							},
 							[29722] = {
 								["c_amt"] = 0,
@@ -3700,7 +3536,11 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Nelach, the All-Seeing"] = 0,
+									["Dreadscar Sunderer"] = 0,
 									["Dreadscar Jailer"] = 0,
+									["All-Seeing Eye"] = 0,
+									["Xel'toth"] = 0,
 									["Blighted Scavenger"] = 0,
 									["Felbound Eye"] = 0,
 								},
@@ -3713,27 +3553,64 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 29722,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[42223] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Blighted Scavenger"] = 0,
+									["All-Seeing Eye"] = 0,
+									["Nelach, the All-Seeing"] = 0,
+									["Dreadscar Torturer"] = 0,
+									["Felbound Eye"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 42223,
+								["r_dmg"] = 0,
 								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
+					["damage_taken"] = 0.003794,
+					["nome"] = "Fimwack",
+					["spec"] = 267,
 					["grupo"] = true,
 					["total"] = 0.003794,
-					["serial"] = "Player-5-0A2F3583",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.003794,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1485741981,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-5-0A2F3583",
+					["friendlyfire_total"] = 0,
 				}, -- [1]
 			},
 		}, -- [1]
@@ -3744,24 +3621,42 @@ _detalhes_database = {
 					["flag_original"] = 1297,
 					["totalabsorb"] = 0.007162,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
+					["healing_from"] = {
 					},
 					["targets"] = {
 						["Aggoketh <Fimwack>"] = 0,
 						["Fimwack"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["spec"] = 267,
 					["pets"] = {
 					},
+					["iniciar_hps"] = false,
+					["targets_overheal"] = {
+						["Fimwack"] = 0,
+					},
+					["healing_taken"] = 0.007162,
+					["totalover"] = 0.007162,
+					["total_without_pet"] = 0.007162,
 					["totalover_without_pet"] = 0.007162,
+					["heal_enemy_amt"] = 0,
+					["fight_component"] = true,
+					["total"] = 0.007162,
+					["classe"] = "WARLOCK",
+					["end_time"] = 1485741984,
+					["nome"] = "Fimwack",
+					["targets_absorbs"] = {
+					},
+					["grupo"] = true,
+					["delay"] = 0,
+					["heal_enemy"] = {
+					},
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[108366] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Fimwack"] = 0,
 								},
 								["n_max"] = 0,
 								["targets"] = {
@@ -3779,10 +3674,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 0,
-								["m_healed"] = 0,
 								["n_amt"] = 0,
+								["m_healed"] = 0,
+								["n_curado"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[77220] = {
@@ -3805,37 +3700,21 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 0,
-								["m_healed"] = 0,
 								["n_amt"] = 0,
+								["m_healed"] = 0,
+								["n_curado"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["classe"] = "WARLOCK",
-					["totalover"] = 0.007162,
-					["total_without_pet"] = 0.007162,
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["fight_component"] = true,
-					["total"] = 0.007162,
-					["healing_taken"] = 0.007162,
-					["end_time"] = 1485741984,
-					["nome"] = "Fimwack",
-					["targets_absorbs"] = {
-					},
-					["grupo"] = true,
-					["spec"] = 267,
-					["heal_enemy"] = {
-					},
-					["last_event"] = 0,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1485741981,
 					["serial"] = "Player-5-0A2F3583",
-					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -3844,7 +3723,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 17.028394,
+					["resource"] = 35.052069,
 					["targets"] = {
 						["Fimwack"] = 0,
 					},
@@ -3857,11 +3736,10 @@ _detalhes_database = {
 					["nome"] = "Fimwack",
 					["spec"] = 267,
 					["grupo"] = true,
-					["resource_type"] = 7,
+					["tipo"] = 3,
 					["last_event"] = 0,
 					["received"] = 0.002612,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[116858] = {
 								["id"] = 116858,
@@ -3880,9 +3758,10 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["serial"] = "Player-5-0A2F3583",
-					["tipo"] = 3,
+					["resource_type"] = 7,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -3892,7 +3771,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[157736] = {
 								["id"] = 157736,
@@ -3907,14 +3785,14 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime"] = 0,
 					["classe"] = "WARLOCK",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							["Draenic Intellect Flask"] = {
-								["id"] = "Draenic Intellect Flask",
+							["Soulstone"] = {
+								["id"] = "Soulstone",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -3931,8 +3809,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Soulstone"] = {
-								["id"] = "Soulstone",
+							["Draenic Intellect Flask"] = {
+								["id"] = "Draenic Intellect Flask",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -3943,14 +3821,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[108366] = {
-								["id"] = 108366,
+							[5740] = {
+								["id"] = 5740,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[5740] = {
-								["id"] = 5740,
+							[108366] = {
+								["id"] = 108366,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -3962,6 +3840,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 0,
@@ -3972,19 +3851,20 @@ _detalhes_database = {
 						[17962] = 0,
 						[116858] = 0,
 						[348] = 0,
+						[171140] = 0,
 						[196447] = 0,
-						[42223] = 0,
-						[5740] = 0,
 						[29722] = 0,
+						[5740] = 0,
+						[42223] = 0,
 					},
-					["debuff_uptime_targets"] = {
+					["pets"] = {
 					},
 					["last_event"] = 0,
 					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-5-0A2F3583",
-					["pets"] = {
+					["debuff_uptime_targets"] = {
 					},
 				}, -- [1]
 			},
@@ -4000,7 +3880,7 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 23,
 		["totals"] = {
-			-0.00803, -- [1]
+			-0.012327, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
@@ -4011,15 +3891,15 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -4033,12 +3913,12 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
-				["cooldowns_defensive"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
 		["frags_need_refresh"] = false,
@@ -4049,19 +3929,7 @@ _detalhes_database = {
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
+		["player_last_events"] = {
 		},
 		["CombatSkillCache"] = {
 		},
@@ -4073,10 +3941,22 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["player_last_events"] = {
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
 		},
 	},
-	["last_version"] = "v7.1.5.3315",
+	["last_realversion"] = 116,
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
@@ -4096,7 +3976,7 @@ _detalhes_database = {
 				2, -- [1]
 			},
 			["mode"] = 2,
-			["attribute"] = 1,
+			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
 					["y"] = -412.401275634766,
@@ -4146,17 +4026,20 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["last_instance_time"] = 0,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["nick_tag_cache"] = {
-		["nextreset"] = 1487036483,
-		["last_version"] = 8,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["last_instance_id"] = 0,
 	["cached_specs"] = {
