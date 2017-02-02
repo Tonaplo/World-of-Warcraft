@@ -1,4 +1,11 @@
 Version: 1
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -177
+Y: -19
+W: 70
+H: 70
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER

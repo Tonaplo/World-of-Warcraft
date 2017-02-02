@@ -45,7 +45,10 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["CombatLock"] = true,
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
@@ -56,27 +59,24 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
+					["Memory"] = {
+						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
+					["Gold"] = {
+						["Font"] = "Prototype",
+					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["CombatLock"] = true,
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
-					["Clock"] = {
-						["Time24"] = true,
-						["Font"] = "Prototype",
-					},
 					["Bags"] = {
-						["Font"] = "Prototype",
-					},
-					["Memory"] = {
-						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -94,15 +94,15 @@ LUIDB = {
 						["Alliance"] = {
 							["Miriyal"] = 40001464,
 							["Farahn"] = 173860456,
-							["Greybone"] = 7138739,
+							["Greybone"] = 7154139,
 							["Amranar"] = 484065467,
 							["Granjior"] = 266780707,
-							["Kaldorath"] = 34118943,
-							["Faerand"] = 35501542,
+							["Kaldorath"] = 37544559,
+							["Faerand"] = 33369768,
 							["Mallusof"] = 1162234125,
 							["Rahran"] = 303593878,
 							["Morifa"] = 440291144,
-							["Fimwack"] = 36280684,
+							["Fimwack"] = 36717853,
 							["Praerend"] = 796493726,
 						},
 					},
@@ -714,38 +714,38 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p  |cffa335ee|Hitem:134412::::::::110:263::23:3:1727:1492:1813:::|h[Cloak of Unwavering Loyalty]|h|r", -- [1]
-							"/reload ui\\", -- [2]
-							"/p on these 4 runs", -- [3]
-							"/p ty for awesome group", -- [4]
-							"/p awesome", -- [5]
-							"/p nps", -- [6]
-							"/p yup :P", -- [7]
-							"/p so close to the magical 880", -- [8]
-							"/p shit happens", -- [9]
-							"/bt", -- [10]
-							"/p I went from 814", -- [11]
-							"/p can be hard when you're low ilevel, lol", -- [12]
-							"/p need the trinket? :)", -- [13]
-							"/s or", -- [14]
-							"/p  |cffa335ee|Hitem:140794::::::::110:263::5:4:3444:42:1487:3336:::|h[Arcanogolem Digit]|h|r", -- [15]
+							"/reload ui\\", -- [1]
+							"/kneel", -- [2]
+							"/p Have a great evening :)", -- [3]
+							"/reload ui\\", -- [4]
+							"/p Have a great evening :)", -- [5]
+							"/kneel", -- [6]
+							"/reload ui\\", -- [7]
+							"/kneel", -- [8]
+							"/p Have a great evening :)", -- [9]
+							"/kneel", -- [10]
+							"/p Have a great evening :)", -- [11]
+							"/s or", -- [12]
+							"/p Have a great evening :)", -- [13]
+							"/reload ui\\", -- [14]
+							"/kneel", -- [15]
 							"/p Have a great evening :)", -- [16]
-							"/p no thanks :)", -- [17]
-							"/reload ui\\", -- [18]
-							"/p ty for awesome group", -- [19]
-							"/p nps", -- [20]
-							"/p so close to the magical 880", -- [21]
-							"/bt", -- [22]
-							"/p can be hard when you're low ilevel, lol", -- [23]
-							"/s or", -- [24]
-							"/p Have a great evening :)", -- [25]
+							"/reload ui\\", -- [17]
+							"/p Have a great evening :)", -- [18]
+							"/kneel", -- [19]
+							"/reload ui\\", -- [20]
+							"/kneel", -- [21]
+							"/p Have a great evening :)", -- [22]
+							"/kneel", -- [23]
+							"/p Have a great evening :)", -- [24]
+							"/s or", -- [25]
 							"/reload ui\\", -- [26]
-							"/p nps", -- [27]
-							"/bt", -- [28]
-							"/s or", -- [29]
-							"/reload ui\\", -- [30]
-							"/bt", -- [31]
-							"/reload ui\\", -- [32]
+							"/p Have a great evening :)", -- [27]
+							"/kneel", -- [28]
+							"/p Have a great evening :)", -- [29]
+							"/s or", -- [30]
+							"/p Have a great evening :)", -- [31]
+							"/s or", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/roll 50000", -- [1]
@@ -950,7 +950,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -962,23 +968,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1113,13 +1113,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1131,17 +1125,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1257,9 +1257,9 @@ LUIDB = {
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
-		["Granjior - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
+		["Granjior - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
@@ -1295,9 +1295,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1314,9 +1314,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1335,11 +1335,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1352,9 +1352,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1371,9 +1371,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1425,11 +1425,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Greybone - Proudmoore"] = {
