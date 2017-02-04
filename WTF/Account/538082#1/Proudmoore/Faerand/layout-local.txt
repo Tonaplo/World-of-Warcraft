@@ -37,7 +37,7 @@ H: 100
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
-X: -194
-Y: -26
+X: -211
+Y: 22
 W: 75
 H: 75

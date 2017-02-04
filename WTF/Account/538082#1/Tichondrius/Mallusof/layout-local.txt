@@ -20,3 +20,10 @@ X: -118
 Y: 118
 W: 384
 H: 260
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -203
+Y: 15
+W: 60
+H: 60

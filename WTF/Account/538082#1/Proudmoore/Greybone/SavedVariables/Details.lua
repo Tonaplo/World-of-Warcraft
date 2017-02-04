@@ -13,14 +13,14 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Mallusof-Proudmoore",
-	["last_day"] = "02",
+	["last_day"] = "04",
 	["ignore_nicktag"] = false,
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 22,
 					["tipo"] = 2,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -29,24 +29,20 @@ _detalhes_database = {
 							["targets"] = {
 								["Training Dummy"] = 3454653,
 							},
-							["spec"] = 251,
+							["delay"] = 1486050425,
 							["pets"] = {
 							},
-							["colocacao"] = 1,
-							["timeMachine"] = 3,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3454653.004587,
-							["friendlyfire"] = {
-							},
+							["nome"] = "Greybone",
 							["dps_started"] = true,
 							["total"] = 3454653.004587,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = true,
-							["nome"] = "Greybone",
+							["damage_taken"] = 0.004587,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 27,
@@ -64,19 +60,19 @@ _detalhes_database = {
 										["counter"] = 80,
 										["total"] = 300732,
 										["c_max"] = 9080,
-										["MISS"] = 14,
+										["c_min"] = 3920,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["b_dmg"] = 9397,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 9397,
+										["a_amt"] = 0,
 										["n_amt"] = 39,
-										["r_amt"] = 0,
-										["c_min"] = 3920,
+										["spellschool"] = 1,
+										["MISS"] = 14,
 									}, -- [1]
 									[49184] = {
 										["c_amt"] = 4,
@@ -96,16 +92,16 @@ _detalhes_database = {
 										["c_max"] = 58406,
 										["id"] = 49184,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 11681,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 17,
-										["r_amt"] = 0,
-										["c_min"] = 11681,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 									[222024] = {
 										["c_amt"] = 7,
@@ -125,16 +121,16 @@ _detalhes_database = {
 										["c_max"] = 41691,
 										["id"] = 222024,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 33676,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 33676,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[222026] = {
 										["c_amt"] = 4,
@@ -154,16 +150,16 @@ _detalhes_database = {
 										["c_max"] = 51523,
 										["id"] = 222026,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 42194,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 42194,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 									[66196] = {
 										["c_amt"] = 2,
@@ -183,16 +179,16 @@ _detalhes_database = {
 										["c_max"] = 25674,
 										["id"] = 66196,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 19891,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 19891,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 									[66198] = {
 										["c_amt"] = 7,
@@ -212,16 +208,16 @@ _detalhes_database = {
 										["c_max"] = 21348,
 										["id"] = 66198,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 16914,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 16914,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[205165] = {
 										["c_amt"] = 6,
@@ -241,16 +237,16 @@ _detalhes_database = {
 										["c_max"] = 21238,
 										["id"] = 205165,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 21238,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 21238,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 									[196771] = {
 										["c_amt"] = 17,
@@ -270,45 +266,16 @@ _detalhes_database = {
 										["c_max"] = 6371,
 										["id"] = 196771,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 5540,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 37,
-										["r_amt"] = 0,
-										["c_min"] = 5540,
-									},
-									[195750] = {
-										["c_amt"] = 26,
-										["b_amt"] = 0,
-										["c_dmg"] = 285486,
-										["g_amt"] = 0,
-										["n_max"] = 5842,
-										["targets"] = {
-											["Training Dummy"] = 717770,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 432284,
-										["n_min"] = 5079,
-										["g_dmg"] = 0,
-										["counter"] = 103,
-										["total"] = 717770,
-										["c_max"] = 11684,
-										["id"] = 195750,
-										["r_dmg"] = 0,
-										["spellschool"] = 16,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 77,
-										["r_amt"] = 0,
-										["c_min"] = 10159,
+										["spellschool"] = 16,
 									},
 									[55095] = {
 										["c_amt"] = 26,
@@ -328,34 +295,67 @@ _detalhes_database = {
 										["c_max"] = 9734,
 										["id"] = 55095,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 3822,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 60,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[195750] = {
+										["c_amt"] = 26,
+										["b_amt"] = 0,
+										["c_dmg"] = 285486,
+										["g_amt"] = 0,
+										["n_max"] = 5842,
+										["targets"] = {
+											["Training Dummy"] = 717770,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 432284,
+										["n_min"] = 5079,
+										["g_dmg"] = 0,
+										["counter"] = 103,
+										["total"] = 717770,
+										["c_max"] = 11684,
+										["id"] = 195750,
+										["r_dmg"] = 0,
+										["c_min"] = 10159,
 										["r_amt"] = 0,
-										["c_min"] = 3822,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 77,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["timeMachine"] = 1,
+							["spec"] = 251,
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F35D1",
-							["last_dps"] = 47203.0962409579,
-							["custom"] = 0,
+							["last_dps"] = 47203.0962409582,
+							["on_hold"] = true,
+							["colocacao"] = 1,
 							["last_event"] = 1486050425,
-							["damage_taken"] = 0.004587,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1486050336,
-							["delay"] = 1486050425,
-							["tipo"] = 1,
+							["serial"] = "Player-5-0A2F35D1",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 22,
 					["tipo"] = 3,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -368,21 +368,21 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
-							["spec"] = 251,
+							["totalover_without_pet"] = 0.008121,
+							["healing_from"] = {
+							},
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 71345.008121,
 							["total_without_pet"] = 0.008121,
-							["healing_from"] = {
-							},
-							["end_time"] = 1486050409,
-							["totalover_without_pet"] = 0.008121,
-							["total"] = 0.008121,
 							["healing_taken"] = 0.008121,
+							["iniciar_hps"] = false,
 							["classe"] = "DEATHKNIGHT",
+							["total"] = 0.008121,
+							["targets_absorbs"] = {
+							},
+							["delay"] = 1486050374,
 							["nome"] = "Greybone",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53365] = {
 										["c_amt"] = 0,
@@ -405,35 +405,35 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 0,
-										["m_healed"] = 0,
 										["n_amt"] = 3,
+										["m_healed"] = 0,
+										["n_curado"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["last_event"] = 1486050374,
+							["end_time"] = 1486050409,
 							["heal_enemy"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["spec"] = 251,
 							["custom"] = 0,
-							["tipo"] = 2,
+							["last_event"] = 1486050374,
 							["on_hold"] = false,
 							["start_time"] = 1486050408,
 							["serial"] = "Player-5-0A2F35D1",
-							["delay"] = 1486050374,
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 22,
 					["tipo"] = 7,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 365.003337,
 							["resource"] = 3.003337,
 							["targets"] = {
 								["Greybone"] = 365,
@@ -442,15 +442,9 @@ _detalhes_database = {
 							},
 							["powertype"] = 6,
 							["classe"] = "DEATHKNIGHT",
-							["total"] = 365.003337,
-							["nome"] = "Greybone",
-							["spec"] = 251,
-							["grupo"] = true,
 							["resource_type"] = 5,
-							["tipo"] = 3,
-							["received"] = 365.003337,
+							["nome"] = "Greybone",
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[49184] = {
 										["id"] = 49184,
@@ -485,138 +479,144 @@ _detalhes_database = {
 										["counter"] = 13,
 									},
 								},
+								["tipo"] = 7,
 							},
-							["serial"] = "Player-5-0A2F35D1",
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["tipo"] = 3,
+							["total"] = 365.003337,
 							["last_event"] = 1486050424,
+							["serial"] = "Player-5-0A2F35D1",
+							["spec"] = 251,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 22,
 					["tipo"] = 9,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[55095] = {
 										["uptime"] = 72,
 										["activedamt"] = 3,
 										["id"] = 55095,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[211793] = {
 										["activedamt"] = 0,
 										["uptime"] = 33,
 										["id"] = 211793,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["buff_uptime"] = 317,
+							["pets"] = {
+							},
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[207203] = {
 										["uptime"] = 73,
 										["activedamt"] = 1,
 										["id"] = 207203,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[51124] = {
 										["activedamt"] = 7,
 										["uptime"] = 32,
 										["id"] = 51124,
-										["actived"] = false,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[59052] = {
-										["activedamt"] = 4,
-										["uptime"] = 9,
-										["id"] = 59052,
 										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[156071] = {
-										["uptime"] = 73,
-										["activedamt"] = 1,
-										["id"] = 156071,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[196770] = {
-										["activedamt"] = 3,
-										["uptime"] = 24,
-										["id"] = 196770,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[53365] = {
-										["uptime"] = 45,
-										["activedamt"] = 3,
-										["id"] = 53365,
-										["actived"] = false,
-										["targets"] = {
-										},
 										["counter"] = 0,
 									},
 									[194879] = {
 										["uptime"] = 61,
 										["activedamt"] = 6,
 										["id"] = 194879,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[59052] = {
+										["activedamt"] = 4,
+										["uptime"] = 9,
+										["id"] = 59052,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196770] = {
+										["activedamt"] = 3,
+										["uptime"] = 24,
+										["id"] = 196770,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[53365] = {
+										["uptime"] = 45,
+										["activedamt"] = 3,
+										["id"] = 53365,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[156071] = {
+										["uptime"] = 73,
+										["activedamt"] = 1,
+										["id"] = 156071,
+										["targets"] = {
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 105,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Greybone",
 							["spec"] = 251,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[49020] = 12,
 								[49143] = 13,
-								[211793] = 27,
-								[49184] = 7,
-								[196771] = 27,
 								[196770] = 3,
+								[49184] = 7,
+								[211793] = 27,
+								[196771] = 27,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1486050409,
+							["buff_uptime_targets"] = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1486050409,
-							["nome"] = "Greybone",
-							["pets"] = {
-							},
 							["serial"] = "Player-5-0A2F35D1",
-							["tipo"] = 4,
+							["buff_uptime"] = 317,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 22,
 					["tipo"] = 2,
+					["combatId"] = 22,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -629,7 +629,7 @@ _detalhes_database = {
 				["combat_counter"] = 48,
 				["playing_solo"] = true,
 				["totals"] = {
-					3454652.982423, -- [1]
+					3454652.966614, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -640,15 +640,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -660,6 +660,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Greybone"] = 3415071.009732,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -669,16 +674,12 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Greybone"] = 3415071.009732,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 3296.97,
 				["combat_id"] = 22,
 				["instance_type"] = "none",
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "07:46:49",
@@ -697,12 +698,12 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 3223.783,
@@ -712,8 +713,8 @@ _detalhes_database = {
 			}, -- [1]
 			{
 				{
-					["combatId"] = 21,
 					["tipo"] = 2,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -722,24 +723,20 @@ _detalhes_database = {
 							["targets"] = {
 								["Training Dummy"] = 703733,
 							},
-							["spec"] = 251,
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["colocacao"] = 1,
-							["end_time"] = 1486050113,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 703733.003558,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 703733.003558,
-							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
-							["nome"] = "Greybone",
+							["dps_started"] = false,
+							["end_time"] = 1486050113,
+							["damage_taken"] = 0.003558,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 6,
@@ -757,19 +754,19 @@ _detalhes_database = {
 										["counter"] = 22,
 										["total"] = 88070,
 										["c_max"] = 9815,
-										["MISS"] = 2,
+										["c_min"] = 3008,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["b_dmg"] = 9685,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 9685,
+										["a_amt"] = 0,
 										["n_amt"] = 14,
-										["r_amt"] = 0,
-										["c_min"] = 3008,
+										["spellschool"] = 1,
+										["MISS"] = 2,
 									}, -- [1]
 									[205165] = {
 										["c_amt"] = 0,
@@ -789,16 +786,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 205165,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 									[66196] = {
 										["c_amt"] = 0,
@@ -818,16 +815,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 66196,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 									[55095] = {
 										["c_amt"] = 7,
@@ -847,103 +844,16 @@ _detalhes_database = {
 										["c_max"] = 9734,
 										["id"] = 55095,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
+										["c_min"] = 8464,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 26,
-										["r_amt"] = 0,
-										["c_min"] = 8464,
-									},
-									[222026] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 47315,
-										["g_amt"] = 0,
-										["n_max"] = 24464,
-										["targets"] = {
-											["Training Dummy"] = 71779,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 24464,
-										["n_min"] = 24464,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 71779,
-										["c_max"] = 47315,
-										["id"] = 222026,
-										["r_dmg"] = 0,
+										["a_dmg"] = 0,
 										["spellschool"] = 16,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 47315,
-									},
-									[49184] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 69577,
-										["g_amt"] = 0,
-										["n_max"] = 29203,
-										["targets"] = {
-											["Training Dummy"] = 127220,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 57643,
-										["n_min"] = 5078,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 127220,
-										["c_max"] = 46725,
-										["id"] = 49184,
-										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 10156,
-									},
-									[66198] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 61296,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Training Dummy"] = 61296,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 61296,
-										["c_max"] = 21711,
-										["id"] = 66198,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 18911,
 									},
 									[222024] = {
 										["c_amt"] = 3,
@@ -963,46 +873,154 @@ _detalhes_database = {
 										["c_max"] = 43721,
 										["id"] = 222024,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 38736,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[222026] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 47315,
+										["g_amt"] = 0,
+										["n_max"] = 24464,
+										["targets"] = {
+											["Training Dummy"] = 71779,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 24464,
+										["n_min"] = 24464,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 71779,
+										["c_max"] = 47315,
+										["id"] = 222026,
+										["r_dmg"] = 0,
+										["c_min"] = 47315,
 										["r_amt"] = 0,
-										["c_min"] = 38736,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[66198] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 61296,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Training Dummy"] = 61296,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 61296,
+										["c_max"] = 21711,
+										["id"] = 66198,
+										["r_dmg"] = 0,
+										["c_min"] = 18911,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[49184] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 69577,
+										["g_amt"] = 0,
+										["n_max"] = 29203,
+										["targets"] = {
+											["Training Dummy"] = 127220,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 57643,
+										["n_min"] = 5078,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 127220,
+										["c_max"] = 46725,
+										["id"] = 49184,
+										["r_dmg"] = 0,
+										["c_min"] = 10156,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Greybone",
+							["spec"] = 251,
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F35D1",
 							["last_dps"] = 29820.4586447729,
-							["custom"] = 0,
+							["friendlyfire_total"] = 0,
+							["colocacao"] = 1,
 							["last_event"] = 1486050111,
-							["damage_taken"] = 0.003558,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1486050078,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-5-0A2F35D1",
+							["total"] = 703733.003558,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 21,
 					["tipo"] = 3,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.003114,
 							["last_hps"] = 0,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Greybone"] = true,
 							},
 							["targets"] = {
 								["Greybone"] = 71345,
 							},
+							["total"] = 71345.003114,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.003114,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003114,
+							["total_without_pet"] = 71345.003114,
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["end_time"] = 1486050102,
+							["healing_taken"] = 71345.003114,
+							["targets_absorbs"] = {
+							},
+							["nome"] = "Greybone",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53365] = {
 										["c_amt"] = 0,
@@ -1024,49 +1042,32 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 71345,
-										["m_healed"] = 0,
 										["n_amt"] = 3,
+										["m_healed"] = 0,
+										["n_curado"] = 71345,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Greybone"] = true,
-							},
-							["healing_taken"] = 71345.003114,
-							["totalover"] = 0.003114,
-							["total_without_pet"] = 71345.003114,
-							["totalover_without_pet"] = 0.003114,
-							["classe"] = "DEATHKNIGHT",
-							["fight_component"] = true,
-							["end_time"] = 1486050102,
-							["last_event"] = 1486050088,
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Greybone",
-							["spec"] = 251,
 							["grupo"] = true,
-							["total"] = 71345.003114,
+							["delay"] = 1486050088,
 							["heal_enemy"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["spec"] = 251,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
 							["start_time"] = 1486050091,
 							["serial"] = "Player-5-0A2F35D1",
-							["delay"] = 1486050088,
+							["last_event"] = 1486050088,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 21,
 					["tipo"] = 7,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1083,11 +1084,10 @@ _detalhes_database = {
 							["nome"] = "Greybone",
 							["spec"] = 251,
 							["grupo"] = true,
-							["resource_type"] = 5,
+							["last_event"] = 1486050111,
 							["tipo"] = 3,
 							["received"] = 75.00256,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[49020] = {
 										["id"] = 49020,
@@ -1106,92 +1106,93 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A2F35D1",
-							["last_event"] = 1486050111,
+							["resource_type"] = 5,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 21,
 					["tipo"] = 9,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[55095] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 55095,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 100,
 							["classe"] = "DEATHKNIGHT",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[207203] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 207203,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[51124] = {
 										["uptime"] = 14,
 										["activedamt"] = 4,
 										["id"] = 51124,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[156071] = {
 										["uptime"] = 24,
 										["activedamt"] = 1,
 										["id"] = 156071,
-										["actived"] = false,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[194879] = {
-										["uptime"] = 12,
-										["activedamt"] = 2,
-										["id"] = 194879,
 										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[53365] = {
-										["uptime"] = 24,
-										["activedamt"] = 1,
-										["id"] = 53365,
-										["actived"] = false,
-										["targets"] = {
-										},
 										["counter"] = 0,
 									},
 									[59052] = {
 										["uptime"] = 2,
 										["activedamt"] = 1,
 										["id"] = 59052,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[53365] = {
+										["uptime"] = 24,
+										["activedamt"] = 1,
+										["id"] = 53365,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194879] = {
+										["uptime"] = 12,
+										["activedamt"] = 2,
+										["id"] = 194879,
+										["targets"] = {
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 24,
@@ -1204,20 +1205,20 @@ _detalhes_database = {
 								[49020] = 3,
 								[49143] = 2,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["last_event"] = 1486050102,
 							["nome"] = "Greybone",
 							["pets"] = {
 							},
 							["serial"] = "Player-5-0A2F35D1",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 21,
 					["tipo"] = 2,
+					["combatId"] = 21,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1241,15 +1242,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1261,6 +1262,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Greybone"] = 653425.006638,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1270,16 +1276,12 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Greybone"] = 653425.006638,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 2989.904,
 				["combat_id"] = 21,
 				["instance_type"] = "none",
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "07:41:42",
@@ -1298,12 +1300,12 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 2966.305,
@@ -1313,8 +1315,8 @@ _detalhes_database = {
 			}, -- [2]
 			{
 				{
-					["combatId"] = 20,
 					["tipo"] = 2,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1323,24 +1325,20 @@ _detalhes_database = {
 							["targets"] = {
 								["Dungeoneer's Training Dummy"] = 346,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["spec"] = 251,
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 346.001187,
-							["end_time"] = 1486050067,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 346.001187,
-							["friendlyfire"] = {
-							},
 							["friendlyfire_total"] = 0,
-							["nome"] = "Greybone",
+							["dps_started"] = false,
+							["end_time"] = 1486050067,
+							["damage_taken"] = 0.001187,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1356,22 +1354,22 @@ _detalhes_database = {
 										["n_min"] = 0,
 										["g_dmg"] = 346,
 										["counter"] = 4,
-										["DODGE"] = 1,
+										["c_min"] = 0,
 										["total"] = 346,
 										["c_max"] = 0,
-										["MISS"] = 2,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["b_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 0,
+										["a_dmg"] = 0,
 										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["MISS"] = 2,
+										["DODGE"] = 1,
 									}, -- [1]
 									[49184] = {
 										["c_amt"] = 0,
@@ -1389,49 +1387,70 @@ _detalhes_database = {
 										["counter"] = 2,
 										["total"] = 0,
 										["c_max"] = 0,
-										["MISS"] = 2,
+										["c_min"] = 0,
 										["id"] = 49184,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
+										["r_amt"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["b_dmg"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["spellschool"] = 16,
+										["MISS"] = 2,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Greybone",
+							["spec"] = 251,
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F35D1",
 							["last_dps"] = 35.7033522856249,
-							["custom"] = 0,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
 							["last_event"] = 1486050061,
-							["damage_taken"] = 0.001187,
+							["on_hold"] = false,
 							["start_time"] = 1486050058,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-5-0A2F35D1",
+							["total"] = 346.001187,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 20,
 					["tipo"] = 3,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.008176,
 							["last_hps"] = 0,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Greybone"] = true,
 							},
 							["targets"] = {
 								["Greybone"] = 23782,
 							},
+							["total"] = 23782.008176,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008176,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.008176,
+							["total_without_pet"] = 23782.008176,
+							["iniciar_hps"] = false,
+							["classe"] = "DEATHKNIGHT",
+							["fight_component"] = true,
+							["end_time"] = 1486050067,
+							["healing_taken"] = 23782.008176,
+							["targets_absorbs"] = {
+							},
+							["nome"] = "Greybone",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53365] = {
 										["c_amt"] = 0,
@@ -1453,52 +1472,35 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 23782,
-										["m_healed"] = 0,
 										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 23782,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Greybone"] = true,
-							},
-							["healing_taken"] = 23782.008176,
-							["totalover"] = 0.008176,
-							["total_without_pet"] = 23782.008176,
-							["totalover_without_pet"] = 0.008176,
-							["classe"] = "DEATHKNIGHT",
-							["fight_component"] = true,
-							["end_time"] = 1486050067,
-							["last_event"] = 1486050058,
-							["heal_enemy_amt"] = 0,
-							["nome"] = "Greybone",
-							["spec"] = 251,
 							["grupo"] = true,
-							["total"] = 23782.008176,
+							["delay"] = 0,
 							["heal_enemy"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["spec"] = 251,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
 							["start_time"] = 1486050058,
 							["serial"] = "Player-5-0A2F35D1",
-							["delay"] = 0,
+							["last_event"] = 1486050058,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 20,
 					["tipo"] = 7,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 12.005576,
 							["resource"] = 0.005576,
 							["targets"] = {
 								["Greybone"] = 12,
@@ -1510,12 +1512,7 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["total"] = 12.005576,
 							["nome"] = "Greybone",
-							["spec"] = 251,
-							["grupo"] = true,
-							["tipo"] = 3,
-							["received"] = 12.005576,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[49184] = {
 										["id"] = 49184,
@@ -1526,24 +1523,29 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
-							["serial"] = "Player-5-0A2F35D1",
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
 							["last_event"] = 1486050078,
+							["serial"] = "Player-5-0A2F35D1",
+							["spec"] = 251,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 20,
 					["tipo"] = 9,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
 							["flag_original"] = 1047,
-							["nome"] = "Greybone",
-							["spec"] = 251,
-							["grupo"] = true,
+							["fight_component"] = true,
 							["buff_uptime_targets"] = {
 							},
+							["spec"] = 251,
+							["grupo"] = true,
+							["nome"] = "Greybone",
 							["buff_uptime"] = 27,
 							["pets"] = {
 							},
@@ -1551,47 +1553,47 @@ _detalhes_database = {
 								[49184] = 2,
 							},
 							["classe"] = "DEATHKNIGHT",
-							["tipo"] = 4,
+							["last_event"] = 1486050067,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[53365] = {
 										["uptime"] = 9,
 										["activedamt"] = 1,
 										["id"] = 53365,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[207203] = {
 										["uptime"] = 9,
 										["activedamt"] = 1,
 										["id"] = 207203,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[156071] = {
 										["uptime"] = 9,
 										["activedamt"] = 1,
 										["id"] = 156071,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-5-0A2F35D1",
-							["last_event"] = 1486050067,
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 20,
 					["tipo"] = 2,
+					["combatId"] = 20,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1615,15 +1617,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1635,6 +1637,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Greybone"] = 346.001187,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1644,15 +1651,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Greybone"] = 346.001187,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 2955.445,
 				["combat_id"] = 20,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "07:41:08",
@@ -1671,12 +1674,12 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 2945.754,
@@ -1686,8 +1689,8 @@ _detalhes_database = {
 			}, -- [3]
 			{
 				{
-					["combatId"] = 19,
 					["tipo"] = 2,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1697,23 +1700,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Dungeoneer's Training Dummy"] = 68,
 							},
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "DEATHKNIGHT",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 68.007266,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1486050024,
-							["friendlyfire_total"] = 0,
-							["spec"] = 251,
-							["nome"] = "Greybone",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1733,16 +1729,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[49184] = {
 										["c_amt"] = 0,
@@ -1760,72 +1756,71 @@ _detalhes_database = {
 										["counter"] = 1,
 										["total"] = 0,
 										["c_max"] = 0,
-										["MISS"] = 1,
+										["c_min"] = 0,
 										["id"] = 49184,
 										["r_dmg"] = 0,
-										["spellschool"] = 16,
+										["r_amt"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["b_dmg"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["spellschool"] = 16,
+										["MISS"] = 1,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
-							["total"] = 68.007266,
-							["serial"] = "Player-5-0A2F35D1",
-							["last_dps"] = 107.098056692877,
-							["custom"] = 0,
-							["last_event"] = 1486050058,
+							["dps_started"] = false,
+							["end_time"] = 1486050024,
 							["damage_taken"] = 461146.007266,
+							["total"] = 68.007266,
+							["nome"] = "Greybone",
+							["spec"] = 251,
+							["grupo"] = true,
+							["last_dps"] = 107.098056692877,
+							["friendlyfire_total"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1486050058,
+							["on_hold"] = false,
 							["start_time"] = 1486050024,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-5-0A2F35D1",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 19,
 					["tipo"] = 3,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.004584,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Greybone"] = true,
+							["targets_overheal"] = {
 							},
 							["targets"] = {
 								["Greybone"] = 23802,
 							},
-							["last_event"] = 1486050024,
+							["end_time"] = 1486050024,
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.004584,
-							["targets_overheal"] = {
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Greybone"] = true,
 							},
-							["heal_enemy_amt"] = 0,
+							["healing_taken"] = 23802.004584,
 							["totalover"] = 0.004584,
 							["total_without_pet"] = 23802.004584,
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.004584,
 							["classe"] = "DEATHKNIGHT",
 							["fight_component"] = true,
 							["total"] = 23802.004584,
-							["serial"] = "Player-5-0A2F35D1",
-							["healing_taken"] = 23802.004584,
-							["nome"] = "Greybone",
-							["spec"] = 251,
-							["grupo"] = true,
-							["end_time"] = 1486050024,
-							["heal_enemy"] = {
-							},
+							["heal_enemy_amt"] = 0,
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[53365] = {
 										["c_amt"] = 0,
@@ -1847,10 +1842,10 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 23782,
-										["m_healed"] = 0,
 										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 23782,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 									[207203] = {
@@ -1873,30 +1868,38 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_curado"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 20,
-										["m_healed"] = 0,
 										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 20,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1486050024,
-							["delay"] = 0,
+							["nome"] = "Greybone",
+							["spec"] = 251,
+							["grupo"] = true,
 							["targets_absorbs"] = {
 							},
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1486050024,
+							["on_hold"] = false,
+							["start_time"] = 1486050024,
+							["serial"] = "Player-5-0A2F35D1",
+							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 19,
 					["tipo"] = 7,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 1.002498,
 							["resource"] = 0.002498,
 							["targets"] = {
 								["Greybone"] = 1,
@@ -1907,12 +1910,7 @@ _detalhes_database = {
 							["classe"] = "DEATHKNIGHT",
 							["total"] = 1.002498,
 							["nome"] = "Greybone",
-							["spec"] = 251,
-							["grupo"] = true,
-							["tipo"] = 3,
-							["received"] = 1.002498,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[49184] = {
 										["id"] = 49184,
@@ -1923,69 +1921,74 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
-							["serial"] = "Player-5-0A2F35D1",
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
 							["last_event"] = 1486050058,
+							["serial"] = "Player-5-0A2F35D1",
+							["spec"] = 251,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 19,
 					["tipo"] = 9,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 						{
-							["fight_component"] = true,
-							["buff_uptime_targets"] = {
-							},
+							["flag_original"] = 1047,
+							["nome"] = "Greybone",
 							["spec"] = 251,
 							["grupo"] = true,
-							["flag_original"] = 1047,
-							["buff_uptime"] = 0,
-							["nome"] = "Greybone",
+							["fight_component"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1486050024,
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
 							["classe"] = "DEATHKNIGHT",
+							["buff_uptime"] = 0,
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[53365] = {
 										["uptime"] = 0,
 										["activedamt"] = 1,
 										["id"] = 53365,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[207203] = {
 										["uptime"] = 0,
 										["activedamt"] = 1,
 										["id"] = 207203,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[156071] = {
 										["uptime"] = 0,
 										["activedamt"] = 1,
 										["id"] = 156071,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["serial"] = "Player-5-0A2F35D1",
-							["tipo"] = 4,
+							["last_event"] = 1486050024,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 19,
 					["tipo"] = 2,
+					["combatId"] = 19,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2041,8 +2044,8 @@ _detalhes_database = {
 						"DEATHKNIGHT", -- [4]
 						396360, -- [5]
 						"0m 0s", -- [6]
-						["dead_at"] = 0.635000000000218,
 						["dead"] = true,
+						["dead_at"] = 0.635000000000218,
 					}, -- [1]
 				},
 				["enemy"] = "Dungeoneer's Training Dummy",
@@ -2060,15 +2063,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2080,6 +2083,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Greybone"] = 68.007266,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2089,15 +2097,11 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Greybone"] = 68.007266,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 2912.525,
 				["combat_id"] = 19,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "07:40:25",
@@ -2116,12 +2120,12 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 2911.89,
@@ -2131,11 +2135,8 @@ _detalhes_database = {
 			}, -- [4]
 		},
 	},
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
-	},
-	["combat_counter"] = 49,
+	["last_instance_time"] = 0,
+	["combat_counter"] = 50,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -2143,10 +2144,10 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
-			["dps"] = 0,
-			["level"] = 1,
 			["enabled"] = true,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -2165,15 +2166,15 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 15,
 			["last_player"] = false,
-			["author"] = "Details! Team",
+			["InstalledAt"] = 1485740441,
 			["last_encounter_hash"] = false,
-			["enabled"] = true,
+			["showing_type"] = 4,
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 0,
 			["timeline_cutoff_delete_time"] = 3,
-			["showing_type"] = 4,
-			["InstalledAt"] = 1485740441,
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -2182,11 +2183,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -2213,11 +2214,11 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -2227,8 +2228,13 @@ _detalhes_database = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["font_size"] = 10,
-			["y"] = 1.525878906250e-005,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
@@ -2238,33 +2244,33 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 0,
 				["x"] = 0,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["y"] = 1.525878906250e-005,
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["showamount"] = false,
-			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -2277,19 +2283,15 @@ _detalhes_database = {
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -2297,22 +2299,6 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
 			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_TIME_ATTACK"] = {
-			["enabled"] = true,
-			["realm_last_shown"] = 40,
-			["saved_as_anonymous"] = true,
-			["recently_as_anonymous"] = true,
-			["dps"] = 0,
-			["disable_sharing"] = false,
-			["history"] = {
-			},
-			["time"] = 40,
-			["history_lastindex"] = 0,
-			["realm_lastamt"] = 0,
-			["realm_history"] = {
-			},
 			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
@@ -2329,24 +2315,51 @@ _detalhes_database = {
 				["last_selected"] = 1,
 			},
 			["options"] = {
-				["show_method"] = 4,
 				["auto_create"] = true,
+				["show_method"] = 4,
 				["window_scale"] = 1,
 			},
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
 		},
 	},
-	["last_instance_time"] = 0,
 	["force_font_outline"] = "",
-	["nick_tag_cache"] = {
-		["nextreset"] = 1487036449,
-		["last_version"] = 8,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
 	},
-	["savedbuffs"] = {
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["cached_talents"] = {
+		["Player-5-0A2F35D1"] = {
+			22519, -- [1]
+			22023, -- [2]
+			22017, -- [3]
+			22529, -- [4]
+			22020, -- [5]
+			22525, -- [6]
+			22531, -- [7]
+		},
 	},
 	["tabela_instancias"] = {
 	},
@@ -2354,7 +2367,9 @@ _detalhes_database = {
 	["savedStyles"] = {
 	},
 	["last_version"] = "v7.1.5.3315",
-	["last_realversion"] = 116,
+	["character_data"] = {
+		["logons"] = 12,
+	},
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -2365,21 +2380,583 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Training Dummy"] = 0,
+						["Dungeoneer's Training Dummy"] = 0,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["last_event"] = 0,
+					["classe"] = "DEATHKNIGHT",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.008267,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["end_time"] = 1486229380,
+					["friendlyfire_total"] = 0,
+					["spec"] = 251,
+					["nome"] = "Greybone",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+									["Dungeoneer's Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[49184] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+									["Dungeoneer's Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 49184,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[222024] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 222024,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[222026] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 222026,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[66196] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 66196,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[66198] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 66198,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[205165] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 205165,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[196771] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 196771,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[195750] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 195750,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[55095] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 55095,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["total"] = 0.008267,
+					["serial"] = "Player-5-0A2F35D1",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.008267,
+					["start_time"] = 1486229377,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorb"] = 0.002504,
+					["last_hps"] = 0,
+					["targets_overheal"] = {
+						["Greybone"] = 0,
+					},
+					["targets"] = {
+						["Greybone"] = 0,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["healing_from"] = {
+					},
+					["classe"] = "DEATHKNIGHT",
+					["totalover"] = 0.002504,
+					["total_without_pet"] = 0.002504,
+					["last_event"] = 0,
+					["totalover_without_pet"] = 0.002504,
+					["heal_enemy_amt"] = 0,
+					["total"] = 0.002504,
+					["end_time"] = 1486229380,
+					["spec"] = 251,
+					["nome"] = "Greybone",
+					["targets_absorbs"] = {
+					},
+					["grupo"] = true,
+					["healing_taken"] = 0.002504,
+					["heal_enemy"] = {
+					},
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[53365] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Greybone"] = 0,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Greybone"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 53365,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[207203] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Greybone"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 0,
+								["overheal"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 207203,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["custom"] = 0,
+					["tipo"] = 2,
+					["on_hold"] = false,
+					["start_time"] = 1486229377,
+					["delay"] = 0,
+					["serial"] = "Player-5-0A2F35D1",
+				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 0.003602,
+					["resource"] = 4.017573,
+					["targets"] = {
+						["Greybone"] = 0,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 6,
+					["classe"] = "DEATHKNIGHT",
+					["total"] = 0.003602,
+					["nome"] = "Greybone",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[49184] = {
+								["id"] = 49184,
+								["total"] = 0,
+								["targets"] = {
+									["Greybone"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[196770] = {
+								["id"] = 196770,
+								["total"] = 0,
+								["targets"] = {
+									["Greybone"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[49020] = {
+								["id"] = 49020,
+								["total"] = 0,
+								["targets"] = {
+									["Greybone"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[195617] = {
+								["id"] = 195617,
+								["total"] = 0,
+								["targets"] = {
+									["Greybone"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 251,
+					["serial"] = "Player-5-0A2F35D1",
+					["last_event"] = 0,
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[55095] = {
+								["id"] = 55095,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[211793] = {
+								["id"] = 211793,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 0,
+					["classe"] = "DEATHKNIGHT",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[207203] = {
+								["id"] = 207203,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[51124] = {
+								["id"] = 51124,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[156071] = {
+								["id"] = 156071,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[194879] = {
+								["id"] = 194879,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196770] = {
+								["id"] = 196770,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[53365] = {
+								["id"] = 53365,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[59052] = {
+								["id"] = 59052,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 251,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[49020] = 0,
+						[49143] = 0,
+						[196771] = 0,
+						[196770] = 0,
+						[211793] = 0,
+						[49184] = 0,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["nome"] = "Greybone",
+					["serial"] = "Player-5-0A2F35D1",
+					["pets"] = {
+					},
+				}, -- [1]
 			},
 		}, -- [4]
 		{
@@ -2387,26 +2964,32 @@ _detalhes_database = {
 			["_ActorTable"] = {
 			},
 		}, -- [5]
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-			["damage"] = {
-			},
+		["raid_roster"] = {
 		},
-		["start_time"] = 0,
-		["data_inicio"] = 0,
-		["combat_counter"] = 43,
 		["last_events_tables"] = {
 		},
-		["raid_roster"] = {
+		["combat_counter"] = 43,
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -2420,56 +3003,50 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["data_inicio"] = 0,
+		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["totals"] = {
-			0, -- [1]
-			0, -- [2]
+		["PhaseData"] = {
 			{
-				0, -- [1]
-				[0] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-			["frags_total"] = 0,
-			["voidzone_damage"] = 0,
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
 		},
 		["CombatSkillCache"] = {
 		},
-		["player_last_events"] = {
-		},
-		["frags_need_refresh"] = false,
+		["overall_refreshed"] = true,
+		["start_time"] = 0,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
 			["Raid Damage Done"] = {
 			},
 		},
-		["__call"] = {
+		["player_last_events"] = {
 		},
 	},
-	["character_data"] = {
-		["logons"] = 11,
-	},
+	["last_realversion"] = 116,
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
@@ -2539,27 +3116,18 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["cached_talents"] = {
-		["Player-5-0A2F35D1"] = {
-			22519, -- [1]
-			22023, -- [2]
-			22017, -- [3]
-			22529, -- [4]
-			22020, -- [5]
-			22525, -- [6]
-			22531, -- [7]
-		},
+	["savedbuffs"] = {
 	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["nick_tag_cache"] = {
+		["nextreset"] = 1487036449,
+		["last_version"] = 8,
 	},
 	["last_instance_id"] = 0,
 	["cached_specs"] = {
