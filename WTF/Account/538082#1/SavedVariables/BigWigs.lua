@@ -32,7 +32,14 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Bosses_Shadow-Lord Iskar"] = {
+			["profiles"] = {
+				["Default"] = {
+					[181753] = 0,
+					[181827] = 0,
+					[185345] = 0,
+				},
+			},
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -65,8 +72,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
-		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -81,6 +86,8 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["LibDualSpec-1.0"] = {
+		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -93,8 +100,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Respawn"] = {
-		},
 		["BigWigs_Bosses_Nythendra"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -102,16 +107,11 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Respawn"] = {
+		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Bosses_Shadow-Lord Iskar"] = {
-			["profiles"] = {
-				["Default"] = {
-					[181753] = 0,
-					[181827] = 0,
-					[185345] = 0,
-				},
-			},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -128,8 +128,8 @@ BigWigs3DB = {
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Theodor - Emerald Dream"] = "Default",
 		["Mallusof - Proudmoore"] = "Default",
@@ -148,14 +148,14 @@ BigWigs3DB = {
 			},
 			[294] = true,
 			["953:8"] = true,
-			["1042:1"] = true,
+			[75] = true,
 			[295] = true,
 			["964:1"] = true,
 			["994:3"] = true,
-			["993:4"] = true,
-			["993:2"] = true,
 			[76] = true,
-			[75] = true,
+			["993:2"] = true,
+			["993:4"] = true,
+			["1042:1"] = true,
 		},
 	},
 	["profiles"] = {
@@ -261,8 +261,8 @@ BigWigsStatisticsDB = {
 	[824] = {
 		[325] = {
 			["25h"] = {
-				["best"] = 38.979,
-				["kills"] = 8,
+				["best"] = 27.0730000000003,
+				["kills"] = 9,
 			},
 			["10h"] = {
 				["best"] = 22.2869999999966,
@@ -275,7 +275,7 @@ BigWigsStatisticsDB = {
 		},
 		[333] = {
 			["25h"] = {
-				["kills"] = 6,
+				["kills"] = 7,
 				["wipes"] = 1,
 				["best"] = 78.8459999999996,
 			},
@@ -289,24 +289,10 @@ BigWigsStatisticsDB = {
 				["kills"] = 2,
 			},
 		},
-		[324] = {
-			["25h"] = {
-				["best"] = 33.7349999999999,
-				["kills"] = 8,
-			},
-			["10h"] = {
-				["best"] = 14.6990000000005,
-				["kills"] = 18,
-			},
-			["10"] = {
-				["best"] = 35.6599999999999,
-				["kills"] = 2,
-			},
-		},
 		[317] = {
 			["25h"] = {
-				["kills"] = 7,
-				["best"] = 21.04,
+				["kills"] = 8,
+				["best"] = 12.8269999999993,
 				["wipes"] = 1,
 			},
 			["10h"] = {
@@ -318,13 +304,27 @@ BigWigsStatisticsDB = {
 				["kills"] = 2,
 			},
 		},
+		[324] = {
+			["25h"] = {
+				["best"] = 24.7569999999996,
+				["kills"] = 9,
+			},
+			["10h"] = {
+				["best"] = 14.6990000000005,
+				["kills"] = 18,
+			},
+			["10"] = {
+				["best"] = 35.6599999999999,
+				["kills"] = 2,
+			},
+		},
 		[311] = {
 			["25"] = {
 				["wipes"] = 1,
 			},
 			["25h"] = {
-				["kills"] = 8,
-				["best"] = 29.067,
+				["kills"] = 9,
+				["best"] = 19.6020000000008,
 				["wipes"] = 1,
 			},
 			["10h"] = {
@@ -338,7 +338,7 @@ BigWigsStatisticsDB = {
 		},
 		[332] = {
 			["25h"] = {
-				["kills"] = 6,
+				["kills"] = 7,
 				["best"] = 187.466999999999,
 				["wipes"] = 2,
 			},
@@ -354,7 +354,7 @@ BigWigsStatisticsDB = {
 		},
 		[331] = {
 			["25h"] = {
-				["kills"] = 7,
+				["kills"] = 8,
 				["wipes"] = 7,
 				["best"] = 14.4969999999994,
 			},
@@ -369,7 +369,7 @@ BigWigsStatisticsDB = {
 		},
 		[318] = {
 			["25h"] = {
-				["wipes"] = 7,
+				["wipes"] = 9,
 			},
 			["10h"] = {
 				["wipes"] = 18,
@@ -1269,18 +1269,18 @@ BigWigsStatisticsDB = {
 				["kills"] = 9,
 			},
 		},
-		[1197] = {
+		[1148] = {
 			["heroic"] = {
-				["wipes"] = 6,
+				["best"] = 277.796999999999,
+				["kills"] = 1,
 			},
 			["normal"] = {
-				["best"] = 262.664,
+				["best"] = 96.4890000000001,
 				["kills"] = 1,
 			},
 			["LFR"] = {
-				["kills"] = 4,
-				["wipes"] = 2,
-				["best"] = 297.732,
+				["best"] = 221.1,
+				["kills"] = 3,
 			},
 		},
 		[1153] = {
@@ -1297,18 +1297,18 @@ BigWigsStatisticsDB = {
 				["kills"] = 3,
 			},
 		},
-		[1148] = {
+		[1197] = {
 			["heroic"] = {
-				["best"] = 277.796999999999,
-				["kills"] = 1,
+				["wipes"] = 6,
 			},
 			["normal"] = {
-				["best"] = 96.4890000000001,
+				["best"] = 262.664,
 				["kills"] = 1,
 			},
 			["LFR"] = {
-				["best"] = 221.1,
-				["kills"] = 3,
+				["kills"] = 4,
+				["wipes"] = 2,
+				["best"] = 297.732,
 			},
 		},
 	},
@@ -1336,17 +1336,6 @@ BigWigsStatisticsDB = {
 				["best"] = 313.642,
 			},
 		},
-		[1743] = {
-			["normal"] = {
-				["best"] = 417.422,
-				["kills"] = 1,
-			},
-			["heroic"] = {
-				["kills"] = 1,
-				["wipes"] = 5,
-				["best"] = 559.214000000007,
-			},
-		},
 		[1713] = {
 			["normal"] = {
 				["best"] = 176.784,
@@ -1358,15 +1347,26 @@ BigWigsStatisticsDB = {
 				["best"] = 270.008000000002,
 			},
 		},
-		[1732] = {
+		[1743] = {
 			["normal"] = {
-				["best"] = 324.45,
+				["best"] = 417.422,
 				["kills"] = 1,
 			},
 			["heroic"] = {
 				["kills"] = 1,
-				["wipes"] = 2,
-				["best"] = 398.004000000001,
+				["wipes"] = 5,
+				["best"] = 559.214000000007,
+			},
+		},
+		[1762] = {
+			["normal"] = {
+				["best"] = 263.081,
+				["kills"] = 1,
+			},
+			["heroic"] = {
+				["kills"] = 1,
+				["wipes"] = 1,
+				["best"] = 430.684000000001,
 			},
 		},
 		[1706] = {
@@ -1424,15 +1424,15 @@ BigWigsStatisticsDB = {
 				["kills"] = 1,
 			},
 		},
-		[1762] = {
+		[1732] = {
 			["normal"] = {
-				["best"] = 263.081,
+				["best"] = 324.45,
 				["kills"] = 1,
 			},
 			["heroic"] = {
 				["kills"] = 1,
-				["wipes"] = 1,
-				["best"] = 430.684000000001,
+				["wipes"] = 2,
+				["best"] = 398.004000000001,
 			},
 		},
 	},

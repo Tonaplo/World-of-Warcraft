@@ -1,39 +1,66 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "00:42:05",
-			["date_start"] = "00:40:52",
-			["name"] = "Odyn",
-			["total_time"] = 73.0040000000008,
-		}, -- [1]
-		{
-			["date_end"] = "00:40:01",
-			["date_start"] = "00:38:53",
-			["name"] = "God-King Skovald",
-			["total_time"] = 68.0020000000004,
-		}, -- [2]
-		{
-			["date_end"] = "00:33:32",
-			["date_start"] = "00:32:46",
-			["name"] = "Fenryr",
-			["total_time"] = 46.0020000000004,
-		}, -- [3]
-		{
-			["date_end"] = "00:32:41",
-			["date_start"] = "00:32:05",
-			["name"] = "Fenryr",
-			["total_time"] = 35.9990000000034,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+			["Strangenumb-Tichondrius"] = {
+				{
+					["time"] = 23.0390000000007,
+					["events"] = {
+						{
+							true, -- [1]
+							193827, -- [2]
+							175094, -- [3]
+							1485938354.672, -- [4]
+							186113, -- [5]
+							"God-King Skovald", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							0, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							193827, -- [2]
+							197952, -- [3]
+							1485938356.175, -- [4]
+							141265, -- [5]
+							"God-King Skovald", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							0, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							193827, -- [2]
+							213653, -- [3]
+							1485938357.683, -- [4]
+							1, -- [5]
+							"God-King Skovald", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							70520, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Lillethal-Suramar"] = {
@@ -66,26 +93,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Naughtykitty-Eldre'Thalas"] = {
-				[223203] = {
-					73.0040000000008, -- [1]
-					73.0040000000008, -- [2]
-					["source"] = "Naughtykitty-Eldre'Thalas",
-					["active"] = false,
-				},
-				[192229] = {
-					73.0040000000008, -- [1]
-					["source"] = "Naughtykitty-Eldre'Thalas",
-					["active"] = true,
-				},
-			},
-			["Unknown"] = {
-				[223203] = {
-					73.0040000000008, -- [1]
-					["source"] = "Unknown",
-					["active"] = true,
-				},
-			},
 			["Dunbasmora"] = {
 				[223203] = {
 					73.0040000000008, -- [1]
@@ -108,6 +115,21 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
+			["Unknown"] = {
+				[223203] = {
+					73.0040000000008, -- [1]
+					["source"] = "Unknown",
+					["active"] = true,
+				},
+			},
+			["Clamfarts"] = {
+				[197963] = {
+					45.255000000001, -- [1]
+					48.4010000000017, -- [2]
+					["source"] = "Odyn",
+					["active"] = false,
+				},
+			},
 			["Hemmorhagic-Sargeras"] = {
 				[197966] = {
 					45.255000000001, -- [1]
@@ -116,10 +138,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Clamfarts"] = {
-				[197963] = {
+			["Morifa"] = {
+				[197964] = {
 					45.255000000001, -- [1]
-					48.4010000000017, -- [2]
+					49.1729999999989, -- [2]
 					["source"] = "Odyn",
 					["active"] = false,
 				},
@@ -148,12 +170,17 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Morifa"] = {
-				[197964] = {
-					45.255000000001, -- [1]
-					49.1729999999989, -- [2]
-					["source"] = "Odyn",
+			["Naughtykitty-Eldre'Thalas"] = {
+				[223203] = {
+					73.0040000000008, -- [1]
+					73.0040000000008, -- [2]
+					["source"] = "Naughtykitty-Eldre'Thalas",
 					["active"] = false,
+				},
+				[192229] = {
+					73.0040000000008, -- [1]
+					["source"] = "Naughtykitty-Eldre'Thalas",
+					["active"] = true,
 				},
 			},
 		}, -- [1]
@@ -236,6 +263,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Clamfarts"] = {
@@ -390,58 +418,30 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
+	["combat_data"] = {
 		{
+			["date_end"] = "00:42:05",
+			["date_start"] = "00:40:52",
+			["name"] = "Odyn",
+			["total_time"] = 73.0040000000008,
 		}, -- [1]
 		{
-			["Strangenumb-Tichondrius"] = {
-				{
-					["time"] = 23.0390000000007,
-					["events"] = {
-						{
-							true, -- [1]
-							193827, -- [2]
-							175094, -- [3]
-							1485938354.672, -- [4]
-							186113, -- [5]
-							"God-King Skovald", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							0, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							193827, -- [2]
-							197952, -- [3]
-							1485938356.175, -- [4]
-							141265, -- [5]
-							"God-King Skovald", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							0, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							193827, -- [2]
-							213653, -- [3]
-							1485938357.683, -- [4]
-							1, -- [5]
-							"God-King Skovald", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							70520, -- [10]
-						}, -- [3]
-					},
-				}, -- [1]
-			},
+			["date_end"] = "00:40:01",
+			["date_start"] = "00:38:53",
+			["name"] = "God-King Skovald",
+			["total_time"] = 68.0020000000004,
 		}, -- [2]
 		{
+			["date_end"] = "00:33:32",
+			["date_start"] = "00:32:46",
+			["name"] = "Fenryr",
+			["total_time"] = 46.0020000000004,
 		}, -- [3]
 		{
+			["date_end"] = "00:32:41",
+			["date_start"] = "00:32:05",
+			["name"] = "Fenryr",
+			["total_time"] = 35.9990000000034,
 		}, -- [4]
 	},
 }

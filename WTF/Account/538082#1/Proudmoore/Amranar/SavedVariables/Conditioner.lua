@@ -1,8 +1,8 @@
 
 xl_num_desired_tracked = 5
 xl_ChildPosition = 1
-xl_LocX = 492.799949645996
-xl_LocY = 389.688781738281
+xl_LocX = 472.177722930908
+xl_LocY = 405.333106994629
 xl_DesiredScale = 70
 xl_OnTargetFrame = 1
 xl_current_target_dock = 1
@@ -26,9 +26,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 80,
-			["alt_resource_condition"] = 5,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 5,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [2]
@@ -49,9 +49,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [3]
@@ -72,9 +72,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [4]
@@ -95,9 +95,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [5]
@@ -118,9 +118,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [6]
@@ -141,9 +141,9 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
 			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [7]

@@ -1,39 +1,67 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
-			["date_end"] = "23:09:49",
 			["date_start"] = "23:08:49",
+			["date_end"] = "23:09:49",
 			["name"] = "Shade of Xavius",
 			["total_time"] = 60.009,
 		}, -- [1]
 		{
-			["date_end"] = "23:06:06",
 			["date_start"] = "23:05:06",
+			["date_end"] = "23:06:06",
 			["name"] = "Dresaron",
 			["total_time"] = 60.0069999999996,
 		}, -- [2]
 		{
-			["date_end"] = "23:05:02",
 			["date_start"] = "23:04:54",
+			["date_end"] = "23:05:02",
 			["name"] = "Dresaron",
 			["total_time"] = 8.0010000000002,
 		}, -- [3]
 		{
-			["date_end"] = "23:04:31",
 			["date_start"] = "23:04:16",
+			["date_end"] = "23:04:31",
 			["name"] = "Dresaron",
 			["total_time"] = 15.0010000000002,
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["cooldowns_timeline"] = {
+		{
+			["Lukeydukey-Stormrage"] = {
+				{
+					38.7169999999987, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Lukeydukey-Stormrage"] = {
+				{
+					35.4889999999996, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
-	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Aldras-Arthas"] = {
@@ -44,16 +72,12 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Lukeydukey-Stormrage"] = {
-				[200238] = {
-					41.0789999999997, -- [1]
-					46.0829999999987, -- [2]
-					["source"] = "Shade of Xavius",
-					["active"] = false,
-				},
-				[200289] = {
-					54.4969999999994, -- [1]
-					59.2860000000001, -- [2]
+			["Spørk-AeriePeak"] = {
+				[200182] = {
+					4.68900000000031, -- [1]
+					12.6939999999995, -- [2]
+					49.5550000000003, -- [3]
+					57.5679999999993, -- [4]
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
@@ -78,18 +102,32 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Spørk-AeriePeak"] = {
-				[200182] = {
-					4.68900000000031, -- [1]
-					12.6939999999995, -- [2]
-					49.5550000000003, -- [3]
-					57.5679999999993, -- [4]
+			["Lukeydukey-Stormrage"] = {
+				[200238] = {
+					41.0789999999997, -- [1]
+					46.0829999999987, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+				[200289] = {
+					54.4969999999994, -- [1]
+					59.2860000000001, -- [2]
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
+			["Granjior"] = {
+				[199460] = {
+					22.7049999999999, -- [1]
+					24.2530000000006, -- [2]
+					44.5320000000011, -- [3]
+					46.902, -- [4]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
 			["Aldras-Arthas"] = {
 				[199460] = {
 					22.7049999999999, -- [1]
@@ -104,14 +142,6 @@ DetailsTimeLineDB = {
 				[191326] = {
 					51.5429999999997, -- [1]
 					59.5210000000007, -- [2]
-					["source"] = "Dresaron",
-					["active"] = false,
-				},
-			},
-			["Lukeydukey-Stormrage"] = {
-				[199460] = {
-					22.7049999999999, -- [1]
-					25.8009999999995, -- [2]
 					["source"] = "Dresaron",
 					["active"] = false,
 				},
@@ -146,12 +176,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Granjior"] = {
+			["Lukeydukey-Stormrage"] = {
 				[199460] = {
 					22.7049999999999, -- [1]
-					24.2530000000006, -- [2]
-					44.5320000000011, -- [3]
-					46.902, -- [4]
+					25.8009999999995, -- [2]
 					["source"] = "Dresaron",
 					["active"] = false,
 				},
@@ -162,39 +190,11 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
-		{
-			["Lukeydukey-Stormrage"] = {
-				{
-					38.7169999999987, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Lukeydukey-Stormrage"] = {
-				{
-					35.4889999999996, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
