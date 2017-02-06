@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2293026405,
+							["Mallusof"] = 2291033018,
 						},
 					},
 				},
@@ -72,8 +72,7 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
@@ -86,24 +85,25 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
+					["Memory"] = {
+						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["DPS"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -112,11 +112,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -127,6 +122,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -154,9 +153,10 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -860,13 +860,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -878,13 +872,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1023,7 +1023,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1035,19 +1041,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1145,38 +1145,38 @@ LUIDB = {
 							"/g gz!", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/raid nps", -- [1]
-							"/raid Hey fellas", -- [2]
-							"/raid yeah, have tank and heals go one way", -- [3]
-							"/raid While the achievement doesn't track, 20 ichors is the number needed to kill the eyeball, so if you only aim for the above, you should have a very good idea whether or not you've succeeded.", -- [4]
-							"/g Hey boys]", -- [5]
-							"/raid Instead of using feathers to get to the outer platforms, you can reach them using slow fall when mounted before pulling the boss. However, we discovered that the people who did this didn't get the achievement (presumably because they couldn't tag the boss ", -- [6]
-							"/raid same", -- [7]
-							"/g SURE", -- [8]
-							"/raid I need a sec", -- [9]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [1]
+							"/raid I never got an answer", -- [2]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [3]
+							"/raid I'll explain later", -- [4]
+							"/raid there", -- [5]
+							"/raid Thing is", -- [6]
+							"/g <3", -- [7]
+							"/raid really", -- [8]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [9]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [10]
-							"/raid sorry guys, I need a small carry here - currently on the phone, hope that's ok?", -- [11]
-							"/raid I never got an answer", -- [12]
-							"/raid I'll explain later", -- [13]
+							"/raid there", -- [11]
+							"/g <3", -- [12]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [13]
 							"/raid there", -- [14]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [15]
-							"/raid Thing is", -- [16]
-							"/raid Confirmed, you need to light up all 12 of them... Best way to do it to get really big normal group, or smaller group on heroic", -- [17]
-							"/raid Hey fellas", -- [18]
-							"/raid While the achievement doesn't track, 20 ichors is the number needed to kill the eyeball, so if you only aim for the above, you should have a very good idea whether or not you've succeeded.", -- [19]
-							"/raid Instead of using feathers to get to the outer platforms, you can reach them using slow fall when mounted before pulling the boss. However, we discovered that the people who did this didn't get the achievement (presumably because they couldn't tag the boss ", -- [20]
-							"/g SURE", -- [21]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [22]
-							"/raid I never got an answer", -- [23]
-							"/raid there", -- [24]
-							"/raid Thing is", -- [25]
-							"/raid Hey fellas", -- [26]
-							"/raid Instead of using feathers to get to the outer platforms, you can reach them using slow fall when mounted before pulling the boss. However, we discovered that the people who did this didn't get the achievement (presumably because they couldn't tag the boss ", -- [27]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [28]
-							"/raid there", -- [29]
-							"/raid Hey fellas", -- [30]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [31]
-							"/raid Hey fellas", -- [32]
+							"/cw Coaxed-Tichondrius ye", -- [16]
+							"/cw Coaxed-Tichondrius I need shards", -- [17]
+							"/cw Coaxed-Tichondrius :(", -- [18]
+							"/raid but WHY", -- [19]
+							"/cw Kaligon-Tichondrius Lol, I find it much easier than Fire and Arcane", -- [20]
+							"/raid It wont tax the healers", -- [21]
+							"/raid you'll just die", -- [22]
+							"/raid I'm leaving you for dead at least", -- [23]
+							"/raid ye", -- [24]
+							"/cw Kalithumos fuck thuis]", -- [25]
+							"/cw Kalithumos noone gives a fuck about what I say", -- [26]
+							"/cw Kalithumos or takes any fucking direction", -- [27]
+							"/cw Kalithumos they all just fucking do what they please", -- [28]
+							"/cw Kalithumos Noone lines up", -- [29]
+							"/cw Kalithumos noone stops popping the shield", -- [30]
+							"/cw Kalithumos noone spreads for the eyes", -- [31]
+							"/g good night", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1223,7 +1223,6 @@ LUIDB = {
 						["Anchor"] = "BT4Bar8",
 					},
 					["SidebarLeft1"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 					},
@@ -1291,11 +1290,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -1310,14 +1309,14 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1326,12 +1325,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
+					["mirrorbar"] = 1,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Auras"] = 2,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1346,11 +1346,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1387,7 +1387,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1396,16 +1396,15 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1468,11 +1467,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Amranar - Proudmoore"] = {
@@ -1485,9 +1484,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1504,11 +1503,11 @@ LUIDB = {
 		["Kaldorath - Proudmoore"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Base"] = {

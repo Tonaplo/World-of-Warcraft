@@ -3,510 +3,1170 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				22.3389999999999, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				1.60399999999936, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [1]
 			{
-				52.3369999999995, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				6.60399999999936, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				54.9269999999997, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing very slowly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				10.6749999999956, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [3]
 			{
-				54.9269999999997, -- [1]
-				"Feel like time is standing still?", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				16.6219999999958, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [4]
 			{
-				66.9329999999973, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				16.6219999999958, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				89.9229999999989, -- [1]
-				"The wheels of time turn against you.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				5, -- [4]
+				20.5989999999947, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [6]
 			{
-				92.0669999999991, -- [1]
-				"|TInterface\\Icons\\spell_mage_altertime:20|tYou've been given a |cFFFF0000|Hspell:206617|h[Time Bomb]|h|r.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				2, -- [4]
+				30.2339999999967, -- [1]
+				"|TInterface\\Icons\\inv_axe_2h_felfireraid_d_01:20|t %s readies |cFFFF0000|Hspell:206675|h[Shatter Essence]|h|r.", -- [2]
+				"Fel Lord Kuraz'mal", -- [3]
+				1, -- [4]
 			}, -- [7]
 			{
-				97.9120000000003, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				30.6129999999976, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [8]
 			{
-				109.947, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				34.6080000000002, -- [1]
+				"The vessel must be made ready!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [9]
 			{
-				130.239999999998, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				40.3179999999993, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [10]
 			{
-				130.239999999998, -- [1]
-				"Precise. Perfect. Inevitable.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				40.3179999999993, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				168.162, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				44.1679999999978, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [12]
 			{
-				175.253999999997, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				65.3659999999945, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [13]
 			{
-				180.16, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				65.3659999999945, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [14]
 			{
-				199.115999999998, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tThe passage of time is now normal.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				68.4439999999959, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [15]
 			{
-				199.115999999998, -- [1]
-				"Time waits for no one.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				73.3549999999959, -- [1]
+				"You failed, heroes! The ritual is upon us! But first, I'll indulge myself a bit... and finish you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				219.115999999998, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				93.1289999999935, -- [1]
+				"A taste of the master's might!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [17]
 			{
-				271.097999999998, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				105.370999999999, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [18]
 			{
-				285.654999999999, -- [1]
-				"So linear. So limited.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				110.079999999994, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Azagrim for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [19]
 			{
-				288.873, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				120.786, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [20]
 			{
-				338.875, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing very slowly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				132.034, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [21]
 			{
-				338.875, -- [1]
-				"Feel like time is standing still?", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				132.034, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [22]
 			{
-				373.734999999997, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				143.132999999994, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [23]
 			{
-				378.737999999998, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				145.377, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t You are afflicted with |cFFFF0000|Hspell:206222|h[Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
 			}, -- [24]
 			{
-				378.737999999998, -- [1]
-				"Precise. Perfect. Inevitable.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				151.496999999996, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [25]
 			{
-				380.866999999998, -- [1]
-				"The wheels of time turn against you.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				5, -- [4]
+				151.496999999996, -- [1]
+				"You'll never escape my grasp!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [26]
 			{
-				380.866999999998, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				154.269, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [27]
 			{
-				380.866999999998, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s reaches |cFFFF0000|Hspell:207972|h[Full Power]|h|r !", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				159.032999999996, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Beltheris for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [28]
 			{
-				382, -- [1]
-				"|TInterface\\Icons\\spell_mage_altertime:20|tYou've been given a |cFFFF0000|Hspell:206617|h[Time Bomb]|h|r.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				2, -- [4]
+				168.695, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [29]
 			{
-				394.275999999998, -- [1]
-				"It was only a matter of time.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				168.695, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [30]
-			["boss"] = "Chronomatic Anomaly",
+			{
+				174.252, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				187.436999999998, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				205.347999999998, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				205.347999999998, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				227.564999999995, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				232.002, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				232.002, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [37]
+			{
+				238.149999999994, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [38]
+			{
+				238.149999999994, -- [1]
+				"Drink in the glory!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				241.932999999997, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				241.932999999997, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				276.457999999999, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				278.687999999995, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t You are afflicted with |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [43]
+			{
+				280.902999999998, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				285.430999999997, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [45]
+			{
+				293.178, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [46]
+			{
+				297.966, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Dalvengyr for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [47]
+			{
+				299.280999999995, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				315.375999999997, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [49]
+			{
+				315.375999999997, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				320.945, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [51]
+			{
+				333.308999999994, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				334.239999999998, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [53]
+			{
+				346.746999999996, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [54]
+			{
+				347.899999999994, -- [1]
+				"Thus do the champions of this world fall!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [55]
+			["boss"] = "Gul'dan",
 		}, -- [1]
 		{
 			{
-				22.8369999999995, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				1.73500000000058, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [1]
 			{
-				44.7659999999996, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				6.75100000000384, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				52.8630000000012, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				10.7460000000065, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [3]
 			{
-				65.7460000000028, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing very slowly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				16.7150000000038, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [4]
 			{
-				65.7460000000028, -- [1]
-				"Feel like time is standing still?", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				16.7150000000038, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				77.7489999999998, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				20.7330000000002, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				97.7330000000002, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				30.0430000000051, -- [1]
+				"|TInterface\\Icons\\inv_axe_2h_felfireraid_d_01:20|t %s readies |cFFFF0000|Hspell:206675|h[Shatter Essence]|h|r.", -- [2]
+				"Fel Lord Kuraz'mal", -- [3]
+				1, -- [4]
 			}, -- [7]
 			{
-				108.771000000001, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				30.7360000000044, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [8]
 			{
-				120.724000000002, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				34.7060000000056, -- [1]
+				"The vessel must be made ready!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [9]
 			{
-				144.204000000002, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				40.8300000000018, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [10]
 			{
-				144.204000000002, -- [1]
-				"Precise. Perfect. Inevitable.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				40.8300000000018, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				182.308000000001, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				44.6990000000005, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [12]
 			{
-				194.321, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				65.8560000000071, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [13]
 			{
-				203.392, -- [1]
-				"So linear. So limited.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				65.8560000000071, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				212.196, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tThe passage of time is now normal.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				68.9700000000012, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [15]
 			{
-				212.196, -- [1]
-				"Time waits for no one.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				77.4950000000026, -- [1]
+				"You failed, heroes! The ritual is upon us! But first, I'll indulge myself a bit... and finish you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				227.126, -- [1]
-				"The wheels of time turn against you.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				5, -- [4]
+				96.9300000000003, -- [1]
+				"A taste of the master's might!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [17]
 			{
-				228.674000000003, -- [1]
-				"|TInterface\\Icons\\spell_mage_altertime:20|tYou've been given a |cFFFF0000|Hspell:206617|h[Time Bomb]|h|r.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				2, -- [4]
+				109.136000000006, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [18]
 			{
-				232.036, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				113.915000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Azagrim for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [19]
 			{
-				244.189000000002, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				124.698000000004, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [20]
 			{
-				284.196, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				135.822, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [21]
 			{
-				301.77, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				135.822, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [22]
 			{
-				301.77, -- [1]
-				"Precise. Perfect. Inevitable.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				146.894, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [23]
 			{
-				351.809000000001, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing very slowly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				149.152000000002, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [24]
 			{
-				351.809000000001, -- [1]
-				"Feel like time is standing still?", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				149.152000000002, -- [1]
+				"You'll never escape my grasp!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [25]
 			{
-				386.783, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				149.152000000002, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t You are afflicted with |cFFFF0000|Hspell:206222|h[Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
 			}, -- [26]
 			{
-				391.775000000001, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				158.052000000003, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [27]
 			{
-				391.775000000001, -- [1]
-				"Precise. Perfect. Inevitable.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				162.812000000005, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Beltheris for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [28]
 			{
-				396.848000000002, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				172.485000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [29]
 			{
-				396.848000000002, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s reaches |cFFFF0000|Hspell:207972|h[Full Power]|h|r !", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				172.485000000001, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [30]
 			{
-				410.573, -- [1]
-				"It was only a matter of time.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				178.020000000004, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [31]
-			["boss"] = "Chronomatic Anomaly",
+			{
+				191.415000000001, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				209.160000000003, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				209.160000000003, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				225.698000000004, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				225.698000000004, -- [1]
+				"Drink in the glory!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				231.354000000007, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				235.710000000006, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				245.822, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [39]
+			{
+				245.822, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				250.831000000006, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				280.263000000006, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				284.693000000007, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [43]
+			{
+				289.221000000005, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [44]
+			{
+				296.911, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [45]
+			{
+				301.686000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Dalvengyr for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [46]
+			{
+				314.376000000004, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb1:20|t %s gains |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [47]
+			{
+				314.376000000004, -- [1]
+				"I will not fail you, master! More power... just need more power...", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				319.157000000007, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [49]
+			{
+				319.157000000007, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				324.693000000007, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [51]
+			["boss"] = "Gul'dan",
 		}, -- [2]
 		{
 			{
 				0.1, -- [1]
-				"Why defy that which devours all things?", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				"You will not stop the ritual!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				0.1, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tThe passage of time is now normal.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				2.05299999999988, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [2]
 			{
-				20.1660000000011, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				7.02900000000227, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				23.1730000000025, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				11.0500000000029, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [4]
 			{
-				45.2220000000016, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				21.0299999999988, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				53.104000000003, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				30.5109999999986, -- [1]
+				"|TInterface\\Icons\\inv_axe_2h_felfireraid_d_01:20|t %s readies |cFFFF0000|Hspell:206675|h[Shatter Essence]|h|r.", -- [2]
+				"Fel Lord Kuraz'mal", -- [3]
 				1, -- [4]
 			}, -- [6]
 			{
-				62.9630000000034, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing very slowly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				31.0760000000009, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [7]
 			{
-				62.9630000000034, -- [1]
-				"Feel like time is standing still?", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				35.0400000000009, -- [1]
+				"The vessel must be made ready!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				104.695000000003, -- [1]
-				"A timely demise.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				41.237000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [9]
 			{
-				105.948, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				41.237000000001, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [10]
 			{
-				117.783000000003, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				45.1039999999994, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [11]
 			{
-				154.990000000002, -- [1]
-				"A timely demise.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				66.2390000000014, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [12]
 			{
-				170.427000000003, -- [1]
-				"|TInterface\\Icons\\ability_mage_timewarp:20|tTime is passing much more quickly.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				66.2390000000014, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [13]
 			{
-				170.427000000003, -- [1]
-				"Precise. Perfect. Inevitable.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				69.4409999999989, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				177.402000000002, -- [1]
-				"Time is on MY side.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				105.357000000004, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t You are afflicted with |cFFFF0000|Hspell:206222|h[Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
 			}, -- [15]
 			{
-				208.419000000002, -- [1]
-				"A Waning Time Particle falls out of the Nightwell.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				109.544000000002, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [16]
 			{
-				209.029000000002, -- [1]
-				"A timely demise.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				114.308000000005, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Azagrim for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [17]
 			{
-				220.464, -- [1]
-				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				1, -- [4]
+				125.107000000004, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [18]
 			{
-				224.487000000001, -- [1]
-				"A timely demise.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				129.669999999998, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
 			}, -- [19]
 			{
-				264.493000000002, -- [1]
-				"A timely demise.", -- [2]
-				"Chronomatic Anomaly", -- [3]
-				7, -- [4]
+				136.207999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [20]
 			{
-				294.495000000003, -- [1]
-				"So linear. So limited.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				136.207999999999, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [21]
 			{
-				324.479000000003, -- [1]
-				"So linear. So limited.", -- [2]
-				"Chronomatic Anomaly", -- [3]
+				147.309999999998, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [22]
-			["boss"] = "Chronomatic Anomaly",
+			{
+				158.423000000003, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				161.662000000004, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				161.662000000004, -- [1]
+				"You'll never escape my grasp!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				163.207000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Beltheris for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				172.868000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				172.868000000002, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				178.408000000003, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				191.779999999999, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				209.518000000004, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				209.518000000004, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				231.769, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				236.220000000001, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				246.137000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				246.137000000002, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				252.558000000005, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				252.558000000005, -- [1]
+				"Drink in the glory!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				261.614000000001, -- [1]
+				"One by one you fall!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				280.664000000004, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				285.101000000002, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				297.311999999998, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				302.099999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Dalvengyr for aid|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [43]
+			{
+				304.131000000001, -- [1]
+				"One by one you fall!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				319.514999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [45]
+			{
+				319.514999999999, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [46]
+			{
+				325.012000000002, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				338.440000000002, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				342.953000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [49]
+			{
+				349.459000000003, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [50]
+			{
+				356.224999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [51]
+			{
+				356.224999999999, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				359.578999999998, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb1:20|t %s gains |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [53]
+			{
+				359.578999999998, -- [1]
+				"I will not fail you, master! More power... just need more power...", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [54]
+			{
+				369.575000000004, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [55]
+			{
+				391.764999999999, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [56]
+			{
+				404.275000000002, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [57]
+			{
+				413.987999999998, -- [1]
+				"My will is unbreakable!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [58]
+			{
+				416.243999999999, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t You are afflicted with |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r!", -- [2]
+				"Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [59]
+			{
+				429.527000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [60]
+			{
+				429.527000000002, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [61]
+			{
+				434.906999999999, -- [1]
+				"No more distractions! I have work to do...", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [62]
+			{
+				449.455999999998, -- [1]
+				"Surrender! I may yet show mercy!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [63]
+			{
+				449.775000000002, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [64]
+			{
+				456.711000000003, -- [1]
+				"Time to return the demon hunter's soul to his body... and deny the Legion's master a host!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [65]
+			{
+				461.982000000004, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [66]
+			{
+				474.457999999999, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [67]
+			{
+				495.163000000001, -- [1]
+				"This is our world, not the Legion's!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [68]
+			{
+				499.311000000002, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [69]
+			{
+				513.199000000001, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [70]
+			{
+				519.474000000002, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [71]
+			{
+				536.966, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [72]
+			{
+				549.752, -- [1]
+				"We can stop him! I know it!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [73]
+			{
+				564.440000000002, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [74]
+			{
+				571.967000000004, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [75]
+			{
+				588.220000000001, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [76]
+			{
+				590.440999999999, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [77]
+			{
+				599.451999999998, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [78]
+			{
+				604.18, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [79]
+			{
+				615.692000000003, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [80]
+			{
+				622.631000000001, -- [1]
+				"Keep pressing, champions! Gul'dan wavers! He WILL fall!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [81]
+			{
+				624.289000000004, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [82]
+			{
+				630.904000000002, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [83]
+			{
+				636.981, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [84]
+			{
+				639.061000000002, -- [1]
+				"One by one you fall!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [85]
+			{
+				646.739999999998, -- [1]
+				"You should have bent the knee!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [86]
+			{
+				646.938000000002, -- [1]
+				"Thus do the champions of this world fall!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [87]
+			["boss"] = "Gul'dan",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -1305,6 +1965,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Comfert",
+		},
+		[229886] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Elisande",
 		},
 		[201733] = {
 			["school"] = 1,
@@ -12253,14 +12922,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbaron",
 		},
-		[199063] = {
+		[215443] = {
 			["school"] = 8,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Strangling Roots",
+			["source"] = "Elerethe Renferal",
 		},
 		[223419] = {
 			["school"] = 1,
@@ -12392,14 +13060,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nythendra",
 		},
-		[206744] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Gul'dan",
-		},
 		[215234] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -12408,6 +13068,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Dominator Tentacle",
+		},
+		[206612] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
 		},
 		[212886] = {
 			["school"] = 32,
@@ -12425,13 +13092,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Comfert",
 		},
-		[206612] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Chronomatic Anomaly",
-		},
 		[195187] = {
 			["school"] = 4,
 			["token"] = {
@@ -12440,6 +13100,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ember",
+		},
+		[206744] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Gul'dan",
 		},
 		[186269] = {
 			["school"] = 8,
@@ -12594,13 +13262,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Racialist",
 		},
-		[201628] = {
-			["school"] = 127,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Kaemn",
-		},
 		[206339] = {
 			["school"] = 4,
 			["token"] = {
@@ -12623,6 +13284,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Blingtron 5000",
+		},
+		[201628] = {
+			["school"] = 127,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kaemn",
 		},
 		[1449] = {
 			["school"] = 64,
@@ -12917,15 +13585,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bustinanut",
 		},
-		[201633] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Earthen Shield Totem",
-		},
 		[198245] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -12952,6 +13611,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Mirror Image",
+		},
+		[201633] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Earthen Shield Totem",
 		},
 		[193376] = {
 			["school"] = 1,
@@ -13053,14 +13721,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elisande",
 		},
-		[202659] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Blood-Princess Thal'ena",
-		},
 		[203096] = {
 			["school"] = 40,
 			["type"] = "DEBUFF",
@@ -13068,13 +13728,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Nythendra",
-		},
-		[188838] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Kaemnsux",
 		},
 		[192307] = {
 			["school"] = 2,
@@ -13085,6 +13738,21 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Hyrja",
+		},
+		[188838] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Kaemnsux",
+		},
+		[202659] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Blood-Princess Thal'ena",
 		},
 		[210337] = {
 			["school"] = 32,
@@ -13233,14 +13901,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Scorcher",
 		},
-		[215458] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[70890] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spellblade Aluriel",
+			["source"] = "Kaedwyn",
 		},
 		[203685] = {
 			["school"] = 1,
@@ -13428,12 +14094,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cenarius",
 		},
-		[227234] = {
-			["school"] = 32,
+		[210854] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Helya",
+			["source"] = "Pidin",
 		},
 		[203176] = {
 			["school"] = 64,
@@ -13534,13 +14200,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sonic Pulse",
 		},
-		[208808] = {
-			["school"] = 64,
+		[229283] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Elisande",
+			["source"] = "Command Ship",
 		},
 		[221605] = {
 			["school"] = 4,
@@ -13548,14 +14214,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Gul'dan",
-		},
-		[231843] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Eärendìl",
 		},
 		[198030] = {
 			["school"] = 124,
@@ -13571,6 +14229,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Ursoc",
+		},
+		[231843] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Eärendìl",
 		},
 		[211368] = {
 			["school"] = 32,
@@ -13750,14 +14416,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Deepbeard",
 		},
-		[229287] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[206954] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Command Ship",
+			["source"] = "Star Augur Etraeus",
 		},
 		[219049] = {
 			["school"] = 8,
@@ -13766,22 +14430,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Naturalist Tel'arn",
-		},
-		[206954] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Star Augur Etraeus",
-		},
-		[51963] = {
-			["school"] = 40,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ebon Gargoyle",
 		},
 		[121994] = {
 			["school"] = 1,
@@ -13792,6 +14440,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amber-Shaper Un'sok",
 		},
+		[51963] = {
+			["school"] = 40,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ebon Gargoyle",
+		},
 		[192432] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -13799,6 +14456,15 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Slicedlol",
+		},
+		[229287] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Command Ship",
 		},
 		[230067] = {
 			["school"] = 32,
@@ -14028,13 +14694,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ursoc",
 		},
-		[211887] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[228267] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Elisande",
+			["source"] = "Gul'dan",
 		},
 		[8936] = {
 			["school"] = 8,
@@ -14093,13 +14758,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elerethe Renferal",
 		},
-		[145152] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[82414] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lunorah",
+			["source"] = "Cho'gall",
 		},
 		[213936] = {
 			["school"] = 32,
@@ -14132,12 +14796,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slicedlol",
 		},
-		[82414] = {
-			["school"] = 32,
+		[197556] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Cho'gall",
+			["source"] = "Fenryr",
 		},
 		[198013] = {
 			["school"] = 124,
@@ -14240,18 +14905,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadsoul Defiler",
 		},
-		[122853] = {
-			["school"] = 8,
+		[196534] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Destructor Tentacle",
 		},
-		[209331] = {
+		[114919] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gethrean",
+			["source"] = "Kalithumos",
 		},
 		[197558] = {
 			["school"] = 1,
@@ -14401,14 +15069,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ymiron, the Fallen King",
 		},
-		[214964] = {
-			["school"] = 16,
+		[87023] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Kaemn",
+			["source"] = "Benzzin",
 		},
 		[122336] = {
 			["school"] = 1,
@@ -14539,13 +15207,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Benzzin",
 		},
-		[207288] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[111850] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Comfert",
+			["source"] = "Elder Regail",
 		},
 		[33778] = {
 			["school"] = 8,
@@ -14810,15 +15479,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guarm",
 		},
-		[198079] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Smashspite the Hateful",
-		},
 		[232698] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -14826,14 +15486,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "PlayerYJKYLC",
-		},
-		[196543] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Fenryr",
 		},
 		[108839] = {
 			["school"] = 16,
@@ -14844,13 +15496,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Benzzin",
 		},
-		[117227] = {
+		[196543] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Elder Asani",
+			["source"] = "Fenryr",
 		},
 		[214459] = {
 			["school"] = 4,
@@ -14859,6 +15511,23 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Headrush",
+		},
+		[117227] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Elder Asani",
+		},
+		[198079] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Smashspite the Hateful",
 		},
 		[195072] = {
 			["school"] = 1,
@@ -15012,23 +15681,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dklewis-Bronzebeard",
 		},
-		[210879] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[118312] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Fel Lord Betrug",
+			["source"] = "Elder Asani",
 		},
-		[211903] = {
+		[157644] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Quinsidious-Garithos",
+			["source"] = "Kaligon",
 		},
 		[191948] = {
 			["school"] = 32,
@@ -15046,21 +15713,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Monkjing",
 		},
-		[118312] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Elder Asani",
-		},
-		[157644] = {
+		[224188] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kaligon",
+			["source"] = "Smashspite the Hateful",
+		},
+		[210879] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fel Lord Betrug",
 		},
 		[111854] = {
 			["school"] = 1,
@@ -15069,13 +15738,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Instructor Chillheart",
 		},
-		[224188] = {
+		[211903] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Smashspite the Hateful",
+			["source"] = "Quinsidious-Garithos",
 		},
 		[108271] = {
 			["school"] = 1,
@@ -15141,13 +15810,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[69369] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[228796] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Pawsicle",
+			["source"] = "Nightbane",
 		},
 		[191941] = {
 			["school"] = 1,
@@ -15292,22 +15962,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mrrgria",
 		},
-		[228287] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Bodgyal",
-		},
-		[209859] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Blightshard Shaper",
-		},
 		[192018] = {
 			["school"] = 2,
 			["token"] = {
@@ -15317,6 +15971,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hyrja",
 		},
+		[209859] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Blightshard Shaper",
+		},
+		[192675] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mystic Tornado",
+		},
 		[206788] = {
 			["school"] = 1,
 			["token"] = {
@@ -15325,12 +15994,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trilliax",
 		},
-		[192675] = {
-			["school"] = 64,
+		[228287] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mystic Tornado",
+			["source"] = "Bodgyal",
 		},
 		[211907] = {
 			["school"] = 1,
@@ -15564,14 +16234,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deranged Mindflayer",
 		},
-		[228796] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[69369] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Nightbane",
+			["source"] = "Pawsicle",
 		},
 		[212423] = {
 			["school"] = 1,
@@ -15925,14 +16594,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaemn",
 		},
-		[111850] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[207288] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Elder Regail",
+			["source"] = "Comfert",
 		},
 		[228808] = {
 			["school"] = 4,
@@ -16009,14 +16677,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dempa",
 		},
-		[87023] = {
-			["school"] = 4,
+		[214964] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Benzzin",
+			["source"] = "Kaemn",
 		},
 		[201523] = {
 			["school"] = 1,
@@ -16119,21 +16787,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Waning Time Particle",
 		},
-		[114919] = {
+		[209331] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kalithumos",
+			["source"] = "Gethrean",
 		},
-		[196534] = {
-			["school"] = 1,
+		[122853] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Destructor Tentacle",
 		},
 		[204241] = {
 			["school"] = 2,
@@ -16210,6 +16875,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kalithumos",
 		},
+		[145152] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lunorah",
+		},
 		[123184] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -16231,14 +16904,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Star Augur Etraeus",
 		},
-		[197556] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Fenryr",
-		},
 		[228012] = {
 			["school"] = 1,
 			["token"] = {
@@ -16248,12 +16913,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hymdall",
 		},
-		[228267] = {
-			["school"] = 32,
+		[211887] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Elisande",
 		},
 		[227789] = {
 			["school"] = 2,
@@ -16554,13 +17220,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[229283] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[208808] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Command Ship",
+			["source"] = "Elisande",
 		},
 		[205345] = {
 			["school"] = 4,
@@ -16610,12 +17276,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Onyxia",
 		},
-		[210854] = {
-			["school"] = 16,
+		[227234] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Pidin",
+			["source"] = "Helya",
 		},
 		[122] = {
 			["school"] = 16,
@@ -16723,12 +17389,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Seacursed Soulkeeper",
 		},
-		[70890] = {
-			["school"] = 32,
+		[215458] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kaedwyn",
+			["source"] = "Spellblade Aluriel",
 		},
 		[207707] = {
 			["school"] = 1,
@@ -17280,13 +17948,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightmare Ancient",
 		},
-		[215443] = {
+		[199063] = {
 			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Elerethe Renferal",
+			["source"] = "Strangling Roots",
 		},
 		[200376] = {
 			["school"] = 1,
