@@ -4,7 +4,6 @@
 -- - We could merge the "pre" debuffs with the actual debuffs for Mark of Frost and Searing Brand.
 --   I decided to do it like that because you have more customization options (emphasize and stuff)
 
-
 --------------------------------------------------------------------------------
 -- Module Declaration
 --
@@ -18,10 +17,25 @@ mod.respawnTime = 30
 --------------------------------------------------------------------------------
 -- Locals
 --
-local timers = {
+local heroicTimers = {
+	-- Annihilate
 	[212492] = {8.0, 45.0, 40.0, 44.0, 38.0, 37.0, 33.0, 47.0, 41.0, 44.0, 38.0, 37.0},
 }
+local mythicTimers = {
+	-- Annihilate
+	[212492] = {8, 45, 30, 37, 35, 43, 27, 37, 41, 37, 35, 43, 27},
+
+	-- Fel Lash
+	[230403] = {7, 11, 6, 12, 6},
+}
+local timers = mod:Mythic() and mythicTimers or heroicTimers
+local phase = 0 -- will immediately get incremented by mod:Stages()
 local annihilateCount = 1
+local felLashCount = 1
+local searingBrandTargets = {}
+local frostbittenStacks = {}
+local mobCollector = {}
+local isInfoOpen = nil
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -33,6 +47,8 @@ local L = mod:GetLocale()
 -- Initialization
 --
 
+local searingBrandMarker = mod:AddMarkerOption(false, "player", 1, 213166, 1, 2, 3, 4, 5, 6)
+local fieryAddMarker = mod:AddMarkerOption(false, "npc", 1, 213867, 1, 2, 3, 4, 5, 6)
 function mod:GetOptions()
 	return {
 		--[[ General ]]--
@@ -43,7 +59,7 @@ function mod:GetOptions()
 		--[[ Master of Frost ]]--
 		{212531, "SAY", "FLASH"}, -- Pre Mark of Frost
 		{212587, "SAY", "FLASH"}, -- Mark of Frost
-		212647, -- Frostbitten
+		{212647, "INFOBOX"}, -- Frostbitten
 		212530, -- Replicate: Mark of Frost
 		212735, -- Detonate: Mark of Frost
 		213853, -- Animate: Mark of Frost"
@@ -53,8 +69,10 @@ function mod:GetOptions()
 		--[[ Master of Fire ]]--
 		{213148, "SAY"}, -- Pre Searing Brand
 		213166, -- Searing Brand
-		213275, -- Detonate: Searing Brand
+		searingBrandMarker,
+		{213275, "SAY"}, -- Detonate: Searing Brand
 		213567, -- Animate: Searing Brand
+		fieryAddMarker,
 		213278, -- Burning Ground
 
 		--[[ Master of the Arcane ]]--
@@ -64,11 +82,18 @@ function mod:GetOptions()
 		213564, -- Animate: Arcane Orb
 		213569, -- Armageddon
 		213504, -- Arcane Fog
+
+		--[[ Mythic ]]--
+		230901, -- Fel Soul
+		{230504, "TANK"}, -- Decimate
+		230414, -- Fel Stomp
+		230403, -- Fel Lash
 	}, {
 		[212492] = "general",
 		[212531] = -13376, -- Master of Frost
 		[213148] = -13379, -- Master of Fire
 		[213520] = -13380, -- Master of the Arcane
+		[230901] = "mythic",
 	}
 end
 
@@ -86,14 +111,17 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "MarkOfFrostApplied", 212587)
 	self:Log("SPELL_AURA_APPLIED", "Frostbitten", 212647)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "Frostbitten", 212647)
+	self:Log("SPELL_AURA_REMOVED", "FrostbittenRemoved", 212647)
 	self:Log("SPELL_CAST_START", "ReplicateMarkOfFrost", 212530)
 	self:Log("SPELL_CAST_START", "DetonateMarkOfFrost", 212735)
 	self:Log("SPELL_CAST_START", "AnimateMarkOfFrost", 213853)
 	self:Log("SPELL_CAST_START", "FrozenTempest", 213083)
+	self:Death("IcyEnchantmentDeath", 107237)
 
 	--[[ Master of Fire ]]--
 	self:Log("SPELL_AURA_APPLIED", "PreSearingBrandApplied", 213148)
 	self:Log("SPELL_AURA_APPLIED", "SearingBrandApplied", 213166)
+	self:Log("SPELL_AURA_REMOVED", "SearingBrandRemoved", 213166)
 	self:Log("SPELL_CAST_START", "DetonateSearingBrand", 213275)
 	self:Log("SPELL_CAST_START", "AnimateSearingBrand", 213567)
 
@@ -102,22 +130,38 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "AnimateArcaneOrb", 213564)
 	self:Log("SPELL_AURA_APPLIED", "Armageddon", 213569)
 
+	--[[ Mythic ]]--
+	self:Log("SPELL_CAST_SUCCESS", "SeveredSoul", 230951)
+	self:Log("SPELL_AURA_REMOVED", "SeveredSoulRemoved", 230951)
+	self:Log("SPELL_CAST_START", "Decimate", 230504)
+	self:Log("SPELL_CAST_SUCCESS", "FelLash", 230403)
+
 	--[[ Many ground effects, handle it! ]]--
-	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 212736, 213278, 213504) -- Pool of Frost / Burning Ground / Arcane Fog
-	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 212736, 213278, 213504)
-	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 212736, 213278, 213504)
+	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 212736, 213278, 213504, 230414) -- Pool of Frost / Burning Ground / Arcane Fog / Fel Stomp
+	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 212736, 213278, 213504, 230414)
+	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 212736, 213278, 213504, 230414)
 	self:Log("SPELL_DAMAGE", "GroundEffectDamage", 213520) -- Arcane Orb
 	self:Log("SPELL_MISSED", "GroundEffectDamage", 213520)
 end
 
 function mod:OnEngage()
+	phase = 0 -- will immediately get incremented by mod:Stages()
 	annihilateCount = 1
+	wipe(searingBrandTargets)
+	wipe(frostbittenStacks)
+	wipe(mobCollector)
+	isInfoOpen = nil
+
+	timers = self:Mythic() and mythicTimers or heroicTimers
 	self:Bar(212492, timers[212492][annihilateCount]) -- Annihilate
 	-- other bars are in mod:Stages()
+
 	if self:Normal() then
 		self:Berserk(645)
 	elseif self:Heroic() then
 		self:Berserk(490)
+	elseif self:Mythic() then
+		self:Berserk(450)
 	end
 end
 
@@ -151,21 +195,41 @@ end
 
 do
 	function mod:Stages(args)
+		phase = phase + 1
 		self:Message("stages", "Neutral", "Long", args.spellName, args.spellId)
 
-		if args.spellId == 216389 or args.spellId == 213864 then -- Icy
+		if args.spellId == 216389 then -- Icy
+			if self:Mythic() then -- Fel Soul
+				self:Bar(230901, 18)
+			end
 			self:Bar(212587, 18) -- Mark of Frost (timer is the "pre" mark of frost aura applied)
-			self:Bar(212530, 41) -- Replicate: Mark of Frost
-			self:Bar(212735, 71) -- Detonate: Mark of Frost
-			self:Bar(213853, 75, nil, 31687) -- Animate: Mark of Frost, Water Elemental icon
-			self:Bar("stages", 85, self:SpellName(213867), 213867) -- Next: Fiery
+			self:Bar(212530, self:Mythic() and 28 or 41) -- Replicate: Mark of Frost
+			self:Bar(212735, self:Mythic() and 48 or 71) -- Detonate: Mark of Frost
+			self:Bar(213853, self:Mythic() and 65 or 75, nil, 31687) -- Animate: Mark of Frost, Water Elemental icon
+			self:Bar("stages", self:Mythic() and 75 or 85, self:SpellName(213867), 213867) -- Next: Fiery
+		elseif args.spellId == 213864 then -- Icy after the first one, different timers in mythic
+			if self:Mythic() then -- Fel Soul
+				self:Bar(230901, 15)
+			end
+			self:Bar(212587, self:Mythic() and 2 or 18) -- Mark of Frost (timer is the "pre" mark of frost aura applied)
+			self:Bar(212530, self:Mythic() and 15 or 41) -- Replicate: Mark of Frost
+			self:Bar(212735, self:Mythic() and 35 or 71) -- Detonate: Mark of Frost
+			self:Bar(213853, self:Mythic() and 52 or 75, nil, 31687) -- Animate: Mark of Frost, Water Elemental icon
+			self:Bar("stages", self:Mythic() and 75 or 85, self:SpellName(213867), 213867) -- Next: Fiery
 		elseif args.spellId == 213867 then -- Fiery
-			self:Bar(213166, 18) -- Searing Brand (timer is the "pre" mark of frost aura applied)
-			self:Bar(213275, 48) -- Detonate: Searing Brand
-			self:Bar(213567, 65) -- Animate: Searing Brand
-			self:Bar("stages", 85, self:SpellName(213869), 213869) -- Next: Magic
+			wipe(searingBrandTargets)
+			if self:Mythic() then -- Fel Soul
+				self:Bar(230901, 18)
+			end
+			self:Bar(213166, 18) -- Searing Brand
+			self:Bar(213275, self:Mythic() and 40 or 48) -- Detonate: Searing Brand
+			self:Bar(213567, self:Mythic() and 55 or 65) -- Animate: Searing Brand
+			self:Bar("stages", self:Mythic() and 75 or 85, self:SpellName(213869), 213869) -- Next: Magic
 		else -- Magic
-			self:Bar(213852, 16) -- Replicate: Arcane Orb
+			if self:Mythic() then -- Fel Soul
+				self:Bar(230901, 15)
+			end
+			self:Bar(213852, self:Mythic() and 15 or 16) -- Replicate: Arcane Orb
 			self:Bar(213390, 38) -- Detonate: Arcane Orb
 			self:Bar(213564, 55) -- Animate: Arcane Orb
 			self:Bar("stages", 70, self:SpellName(216389), 216389) -- Next: Frost
@@ -201,10 +265,33 @@ do
 	end
 end
 
-function mod:Frostbitten(args)
-	local amount = args.amount or 1
-	if self:Me(args.destGUID) and amount % 2 == 0 and amount > 5 then
-		self:StackMessage(args.spellId, args.destName, amount, "Important", amount > 7 and "Warning")
+do
+	local prev = 0
+	function mod:Frostbitten(args)
+		local amount = args.amount or 1
+		if self:Me(args.destGUID) and amount % 2 == 0 and amount > 5 then
+			self:StackMessage(args.spellId, args.destName, amount, "Important", amount > 7 and "Warning")
+		end
+
+		frostbittenStacks[args.destName] = amount
+
+		local t = GetTime()
+		if t-prev > 2 then
+			prev = t
+			if not isInfoOpen then
+				isInfoOpen = true
+				self:OpenInfo(args.spellId, args.spellName)
+			end
+			self:SetInfoByTable(args.spellId, frostbittenStacks)
+		end
+	end
+end
+
+function mod:FrostbittenRemoved(args)
+	frostbittenStacks[args.destName] = nil
+	if not next(frostbittenStacks) and isInfoOpen then
+		self:CloseInfo(args.spellId)
+		isInfoOpen = nil
 	end
 end
 
@@ -220,9 +307,20 @@ function mod:DetonateMarkOfFrost(args)
 	self:Message(args.spellId, "Important", "Alarm")
 end
 
-function mod:FrozenTempest(args)
-	self:Message(args.spellId, "Important")
-	self:Bar(args.spellId, 12, CL.cast:format(args.spellName))
+do
+	local guid, text = "", ""
+	function mod:FrozenTempest(args)
+		guid = args.sourceGUID
+		self:Message(args.spellId, "Important")
+		text = CL.cast:format(args.spellName)
+		self:Bar(args.spellId, self:Mythic() and 10 or 12, text)
+	end
+
+	function mod:IcyEnchantmentDeath(args)
+		if args.destGUID == guid then
+			self:StopBar(text)
+		end
+	end
 end
 
 --[[ Master of Fire ]]--
@@ -232,6 +330,11 @@ do
 		list[#list+1] = args.destName
 		if #list == 1 then
 			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, list, "Urgent")
+		end
+
+		if self:GetOption(searingBrandMarker) then
+			searingBrandTargets[#searingBrandTargets+1] = args.destName
+			SetRaidTarget(args.destName, #searingBrandTargets)
 		end
 
 		if self:Me(args.destGUID) then
@@ -250,12 +353,47 @@ function mod:SearingBrandApplied(args)
 	end
 end
 
-function mod:DetonateSearingBrand(args)
-	self:Message(args.spellId, "Important", "Alarm")
+function mod:SearingBrandRemoved(args)
+	if self:GetOption(searingBrandMarker) then
+		SetRaidTarget(args.destName, 0)
+	end
 end
 
-function mod:AnimateSearingBrand(args)
-	self:Message(args.spellId, "Important", "Info")
+function mod:DetonateSearingBrand(args)
+	self:Message(args.spellId, "Important", "Alarm")
+	if UnitDebuff("player", self:SpellName(213166)) then -- Searing Brand
+		self:Say(args.spellId, 151913)
+	end
+end
+
+do
+	local fieryAddMarks = {}
+	function mod:FieryAddMark(event, unit)
+		local guid = UnitGUID(unit)
+		if self:MobId(guid) == 107285 and not mobCollector[guid] then
+			for i = 1, 6 do
+				if not fieryAddMarks[i] then
+					SetRaidTarget(unit, i)
+					fieryAddMarks[i] = guid
+					mobCollector[guid] = true
+					if i == 6 then
+						self:UnregisterTargetEvents()
+					end
+					return
+				end
+			end
+		end
+	end
+
+	function mod:AnimateSearingBrand(args)
+		self:Message(args.spellId, "Important", "Info")
+
+		if self:GetOption(fieryAddMarker) then
+			wipe(fieryAddMarks)
+			self:RegisterTargetEvents("FieryAddMark")
+			self:ScheduleTimer("UnregisterTargetEvents", 10)
+		end
+	end
 end
 
 --[[ Master of the Arcane ]]--
@@ -274,8 +412,38 @@ do
 		if t-prev > 1 then -- Throttle because 8 adds cast it simultaneously
 			prev = t
 			self:Message(args.spellId, "Urgent", "Info")
-			self:Bar(args.spellId, 30, CL.cast:format(args.spellName))
+			self:Bar(args.spellId, self:Mythic() and 15 or 30, CL.cast:format(args.spellName))
 		end
+	end
+end
+
+--[[ Mythic ]]--
+function mod:SeveredSoul(args)
+	self:Message(230901, "Positive", "Info", CL.count:format(args.spellName, felLashCount))
+	self:Bar(230901, 45, CL.over:format(self:SpellName(230901))) -- Fel Soul
+	self:CDBar(230504, phase % 3 == 1 and 18 or phase % 3 == 2 and 11 or 10) -- Decimate
+	if phase % 3 == 0 then -- Magic
+		felLashCount = 1
+		self:Bar(230403, timers[230403][felLashCount], CL.count:format(self:SpellName(230403), felLashCount)) -- Fel Lash
+	end
+end
+
+function mod:SeveredSoulRemoved(args)
+	self:StopBar(230504)
+	self:StopBar(CL.count:format(self:SpellName(230403), felLashCount))
+end
+
+function mod:Decimate(args)
+	self:Message(args.spellId, "Urgent")
+	self:CDBar(args.spellId, phase % 3 == 1 and 20.5 or phase % 3 == 2 and 17 or 18)
+end
+
+function mod:FelLash(args)
+	self:Message(args.spellId, "Positive", "Long", CL.count:format(args.spellName, felLashCount))
+	felLashCount = felLashCount + 1
+	local timer = timers[args.spellId][felLashCount]
+	if timer then
+		self:Bar(args.spellId, timer, CL.count:format(args.spellName, felLashCount))
 	end
 end
 

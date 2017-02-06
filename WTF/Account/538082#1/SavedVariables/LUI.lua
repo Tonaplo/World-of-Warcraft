@@ -37,13 +37,13 @@ LUIDB = {
 							["Miriyal"] = 40001464,
 							["Farahn"] = 177696107,
 							["Greybone"] = 7154139,
-							["Amranar"] = 497087792,
+							["Amranar"] = 502661611,
 							["Granjior"] = 266780707,
 							["Kaldorath"] = 37544559,
 							["Faerand"] = 33369768,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 45944905,
-							["Morifa"] = 443065744,
+							["Morifa"] = 445954322,
 							["Rahran"] = 321861175,
 							["Praerend"] = 814728954,
 						},
@@ -52,7 +52,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2274369613,
+							["Mallusof"] = 2293026405,
 						},
 					},
 				},
@@ -72,27 +72,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -112,14 +112,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -147,16 +154,9 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
@@ -219,6 +219,7 @@ LUIDB = {
 							["Text"] = {
 								["Name"] = {
 									["Font"] = "Prototype",
+									["OffsetX"] = 0,
 									["Size"] = 15,
 								},
 								["Time"] = {
@@ -246,6 +247,14 @@ LUIDB = {
 							},
 						},
 						["Point"] = "LEFT",
+						["Texts"] = {
+							["Power"] = {
+								["Point"] = "LEFT",
+								["Enable"] = true,
+								["Y"] = 0,
+								["Size"] = 14,
+							},
+						},
 					},
 					["Target"] = {
 						["Castbar"] = {
@@ -1102,72 +1111,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p ty!", -- [1]
-							"/p my bad", -- [2]
-							"/p I would love the chest", -- [3]
-							"/p my bad", -- [4]
-							"/p I would love the chest", -- [5]
-							"/p ty!", -- [6]
-							"/p my bad", -- [7]
-							"/p I would love the chest", -- [8]
-							"/p my bad", -- [9]
-							"/macro", -- [10]
-							"/p I would love the chest", -- [11]
-							"/p my bad", -- [12]
-							"/p I would love the chest", -- [13]
-							"/p ty!", -- [14]
-							"/p my bad", -- [15]
-							"/p ty!", -- [16]
-							"/p my bad", -- [17]
-							"/p ty!", -- [18]
-							"/p my bad", -- [19]
-							"/p I would love the chest", -- [20]
-							"/p ty!", -- [21]
-							"/p I would love the chest", -- [22]
-							"/macro", -- [23]
-							"/p my bad", -- [24]
-							"/p ty!", -- [25]
-							"/p my bad", -- [26]
-							"/p I would love the chest", -- [27]
-							"/macro", -- [28]
-							"/p ty!", -- [29]
-							"/p I would love the chest", -- [30]
-							"/p ty!", -- [31]
-							"/macro", -- [32]
+							"/p 10 itemlevels fo rme", -- [1]
+							"/g gz!", -- [2]
+							"/p Sure, if you want", -- [3]
+							"/p  |cffa335ee|Hitem:140801::::::::110:64::5:3:3516:1492:3336:::|h[Fury of the Burning Sky]|h|r", -- [4]
+							"/g i'LL DO THAST :p", -- [5]
+							"/p I need 1 more... Wanna do Reg Mythic Maw quick", -- [6]
+							"/p yeeeeeeeea", -- [7]
+							"/p  |cffa335ee|Hitem:140801::::::::110:64::5:3:3516:1492:3336:::|h[Fury of the Burning Sky]|h|r replaciong  |cff0070dd|Hitem:129259::::::::110:64:512:11:1:1793:107:::|h[Bane of the Darklady]|h|r", -- [8]
+							"/p It's late in the week", -- [9]
+							"/s this is a terible place lol", -- [10]
+							"/p alright!", -- [11]
+							"/p caps", -- [12]
+							"/p hero?", -- [13]
+							"/vuhdo opt", -- [14]
+							"/p jesus", -- [15]
+							"/p  |cffa335ee|Hitem:137372::::::::110:64::23:3:1727:1502:3336:::|h[Wristbands of the Swirling Deeps]|h|r VS  |cff1eff00|Hitem:129992::::::::110:64:512:11:1:664:108:::|h[Cuffs of Unrelenting Anguish]|h|r", -- [16]
+							"/p Maw then?", -- [17]
+							"/g gz!", -- [18]
+							"/p  |cffa335ee|Hitem:140801::::::::110:64::5:3:3516:1492:3336:::|h[Fury of the Burning Sky]|h|r", -- [19]
+							"/p I need 1 more... Wanna do Reg Mythic Maw quick", -- [20]
+							"/p  |cffa335ee|Hitem:140801::::::::110:64::5:3:3516:1492:3336:::|h[Fury of the Burning Sky]|h|r replaciong  |cff0070dd|Hitem:129259::::::::110:64:512:11:1:1793:107:::|h[Bane of the Darklady]|h|r", -- [21]
+							"/s this is a terible place lol", -- [22]
+							"/p caps", -- [23]
+							"/vuhdo opt", -- [24]
+							"/p  |cffa335ee|Hitem:137372::::::::110:64::23:3:1727:1502:3336:::|h[Wristbands of the Swirling Deeps]|h|r VS  |cff1eff00|Hitem:129992::::::::110:64:512:11:1:664:108:::|h[Cuffs of Unrelenting Anguish]|h|r", -- [25]
+							"/g gz!", -- [26]
+							"/p I need 1 more... Wanna do Reg Mythic Maw quick", -- [27]
+							"/s this is a terible place lol", -- [28]
+							"/vuhdo opt", -- [29]
+							"/g gz!", -- [30]
+							"/s this is a terible place lol", -- [31]
+							"/g gz!", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g thanks!", -- [1]
-							"/g What happened?", -- [2]
-							"/g lo", -- [3]
-							"/p r", -- [4]
-							"/p brb", -- [5]
-							"/p yay!", -- [6]
-							"/p If that still works, yea", -- [7]
-							"/p +", -- [8]
-							"/g 27kl", -- [9]
-							"/p YE", -- [10]
-							"/p Do not interrupt them", -- [11]
-							"/p but do not EVER interrupt them,", -- [12]
-							"/i going shadow lol", -- [13]
-							"/p grabbing a flask", -- [14]
-							"/g thanks!", -- [15]
-							"/g lo", -- [16]
-							"/p brb", -- [17]
-							"/p If that still works, yea", -- [18]
-							"/g 27kl", -- [19]
-							"/p Do not interrupt them", -- [20]
-							"/i going shadow lol", -- [21]
-							"/g thanks!", -- [22]
-							"/p brb", -- [23]
-							"/g 27kl", -- [24]
-							"/i going shadow lol", -- [25]
-							"/p brb", -- [26]
-							"/i going shadow lol", -- [27]
-							"/g Fuck this fucking shit server", -- [28]
-							"/g Who the fuck enjoys the fucking shit", -- [29]
-							"/g What kind of sadistic fuck do you have to be", -- [30]
-							"/g to enjoy this fucking crap", -- [31]
-							"/g Fuck you, fucking stupid PvPers", -- [32]
+							"/raid nps", -- [1]
+							"/raid Hey fellas", -- [2]
+							"/raid yeah, have tank and heals go one way", -- [3]
+							"/raid While the achievement doesn't track, 20 ichors is the number needed to kill the eyeball, so if you only aim for the above, you should have a very good idea whether or not you've succeeded.", -- [4]
+							"/g Hey boys]", -- [5]
+							"/raid Instead of using feathers to get to the outer platforms, you can reach them using slow fall when mounted before pulling the boss. However, we discovered that the people who did this didn't get the achievement (presumably because they couldn't tag the boss ", -- [6]
+							"/raid same", -- [7]
+							"/g SURE", -- [8]
+							"/raid I need a sec", -- [9]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [10]
+							"/raid sorry guys, I need a small carry here - currently on the phone, hope that's ok?", -- [11]
+							"/raid I never got an answer", -- [12]
+							"/raid I'll explain later", -- [13]
+							"/raid there", -- [14]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [15]
+							"/raid Thing is", -- [16]
+							"/raid Confirmed, you need to light up all 12 of them... Best way to do it to get really big normal group, or smaller group on heroic", -- [17]
+							"/raid Hey fellas", -- [18]
+							"/raid While the achievement doesn't track, 20 ichors is the number needed to kill the eyeball, so if you only aim for the above, you should have a very good idea whether or not you've succeeded.", -- [19]
+							"/raid Instead of using feathers to get to the outer platforms, you can reach them using slow fall when mounted before pulling the boss. However, we discovered that the people who did this didn't get the achievement (presumably because they couldn't tag the boss ", -- [20]
+							"/g SURE", -- [21]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [22]
+							"/raid I never got an answer", -- [23]
+							"/raid there", -- [24]
+							"/raid Thing is", -- [25]
+							"/raid Hey fellas", -- [26]
+							"/raid Instead of using feathers to get to the outer platforms, you can reach them using slow fall when mounted before pulling the boss. However, we discovered that the people who did this didn't get the achievement (presumably because they couldn't tag the boss ", -- [27]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [28]
+							"/raid there", -- [29]
+							"/raid Hey fellas", -- [30]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [31]
+							"/raid Hey fellas", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -1210,7 +1219,6 @@ LUIDB = {
 			["profiles"] = {
 				["Base"] = {
 					["SidebarLeft2"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 					},
@@ -1309,7 +1317,7 @@ LUIDB = {
 					["Micromenu"] = 1.5,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1379,23 +1387,6 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["interrupt"] = 2,
-					["panels"] = 1.2,
-					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["Auras"] = 2,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
-					["mirrorbar"] = 1,
-				},
-			},
 			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -1412,6 +1403,23 @@ LUIDB = {
 					["bars"] = 2.4,
 					["omen"] = 3300,
 					["Auras"] = 2,
+				},
+			},
+			["Miriyal - Proudmoore"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["panels"] = 1.2,
+					["bartender"] = 3300,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["Auras"] = 2,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Greybone - Proudmoore"] = {

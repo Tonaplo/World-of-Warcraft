@@ -1,7 +1,7 @@
 # LittleWigs
 
-## [v7.1.4](https://github.com/BigWigsMods/LittleWigs/tree/v7.1.4) (2017-01-10) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.1.3...v7.1.4)
+## [v7.1.5](https://github.com/BigWigsMods/LittleWigs/tree/v7.1.5) (2017-01-31) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.1.4...v7.1.5)
 
-- Add important trash abilities (#16)  
-- NeltharionsLair/UlaroggCragshaper: Fix events not unregistering.  
+- Legion/NeltharionsLair/UlaroggCragshaper: Revert totem marker, closes #18  
+- CourtOfStars/Trash: Reduce spam  

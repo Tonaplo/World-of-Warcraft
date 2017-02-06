@@ -1,10 +1,5 @@
 
 --------------------------------------------------------------------------------
--- TODO List:
--- - TimeRelease healing remaining InfoBox
--- - Mythic data!
-
---------------------------------------------------------------------------------
 -- Module Declaration
 --
 
@@ -165,25 +160,31 @@ do
 			[206609] = {5, 15}, -- Time Release
 			[206617] = {36.5}, -- Time Bomb
 			[219815] = {48}, -- Temporal Orb
-			[-13022] = {38}, -- Add
+			[-13022] = {28}, -- Add
 		},
 		["normal2"] = {
 			[206609] = {5, 16}, -- Time Release
 			[206617] = {19.5}, -- Time Bomb
-			[219815] = {13, 23}, -- Temporal Orb
+			[219815] = {13}, -- Temporal Orb
 			[-13022] = {}, -- Add
 		},
 		["slow1"] = {
 			[206609] = {5, 23}, -- Time Release
 			[206617] = {22.2}, -- Time Bomb
 			[219815] = {30}, -- Temporal Orb
-			[-13022] = {}, -- Add
+			[-13022] = {38}, -- Add
+		},
+		["slow2"] = {
+			[206609] = {28}, -- Time Release
+			[206617] = {}, -- Time Bomb
+			[219815] = {8}, -- Temporal Orb
+			[-13022] = {23}, -- Add
 		},
 		["fast1"] = {
 			[206609] = {10, 15, 20, 15}, -- Time Release
 			[206617] = {}, -- Time Bomb
 			[219815] = {15, 25}, -- Temporal Orb
-			[-13022] = {}, -- Add
+			[-13022] = {32}, -- Add
 		}
 	}
 
@@ -200,6 +201,10 @@ local currentTimers = nil
 --
 
 local L = mod:GetLocale()
+if L then
+	L.affected = "Affected"
+	L.totalAbsorb = "Total Absorb"
+end
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -209,7 +214,7 @@ function mod:GetOptions()
 	return {
 		"stages", -- Speed: Slow / Normal / Fast
 		{206607, "TANK"}, -- Chronometric Particles
-		206609, -- Time Release
+		{206609, "INFOBOX"}, -- Time Release
 		{206617, "SAY"}, -- Time Bomb
 		219815, -- Temporal Orb
 		207871, -- Vortex (standing in stuff)
@@ -253,6 +258,8 @@ function mod:OnEngage()
 	wipe(bombSayTimers)
 	timers = getTimers(self)
 	currentTimers = nil
+	self:SetInfo(206609, 1, L.affected) -- Time Release InfoBox
+	self:SetInfo(206609, 3, L.totalAbsorb)
 	if self:Mythic() then
 		self:Berserk(360, true, nil, 207976, 207976) -- Full power
 	end
@@ -333,9 +340,8 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 			end
 
 			local stageTable = currentTimers and currentTimers["stages"]
-			if stageTable then
-				local spellId, time = unpack(stageTable)
-				self:Bar("stages", time, spellId, spellId)
+			if stageTable and stageTable[1] then
+				self:Bar("stages", stageTable[2], stageTable[1])
 			end
 		end
 	end
@@ -372,13 +378,71 @@ function mod:TimeReleaseRemoved(args)
 	end
 end
 
-function mod:TimeReleaseSuccess(args)
-	self:Message(206609, "Attention", "Alarm", CL.incoming:format(args.spellName))
+do
+	local debuffName = mod:SpellName(219966)
+	local scheduled, scanCount, lookingForDebuffs = nil, 0, nil
 
-	releaseCount = releaseCount + 1
-	local releaseTime = currentTimers and currentTimers[206609][releaseCount]
-	if releaseTime then
-		self:Bar(206609, releaseTime) -- Time Release
+	local function updateTimeReleaseInfobox(self)
+		scheduled = nil
+		local playerTable = {}
+		for unit in self:IterateGroup() do
+			local name, _, _, _, _, _, _, _, _, _, spellID, _, _, _, _, _, value, _, _ = UnitDebuff(unit, debuffName)
+			if name then
+				playerTable[#playerTable+1] = {name = self:UnitName(unit), value = value}
+			end
+		end
+
+		if #playerTable > 0 then
+			scheduled = self:ScheduleTimer(updateTimeReleaseInfobox, 0.5, self)
+			lookingForDebuffs = nil
+
+			local absorbRemaining = 0
+			for _,t in pairs(playerTable) do
+				absorbRemaining = absorbRemaining + t.value
+			end
+
+			self:SetInfo(206609, 1, L.affected)
+			self:SetInfo(206609, 2, #playerTable)
+			self:SetInfo(206609, 3, L.totalAbsorb)
+			self:SetInfo(206609, 4, AbbreviateNumbers(absorbRemaining))
+
+			sort(playerTable, function(a, b) return a.value > b.value end)
+
+			for i = 1, math.min(3, #playerTable) do
+				if playerTable[i] then
+					self:SetInfo(206609, 3+i*2, self:ColorName(playerTable[i].name))
+					self:SetInfo(206609, 4+i*2, AbbreviateNumbers(playerTable[i].value))
+				else
+					self:SetInfo(206609, 3+i*2, "")
+					self:SetInfo(206609, 4+i*2, "")
+				end
+			end
+			self:OpenInfo(206609, debuffName)
+		else -- no debuffs in the raid
+			if lookingForDebuffs then -- debuffs will be applied soon
+				scanCount = scanCount + 1
+				if scanCount < 9 then -- scan for 4s every .5s. debuffs could've been applied and removed between our scans
+					scheduled = self:ScheduleTimer(updateTimeReleaseInfobox, 0.5, self)
+				end
+			end
+			self:CloseInfo(206609)
+		end
+
+	end
+
+	function mod:TimeReleaseSuccess(args)
+		self:Message(206609, "Attention", "Alarm", CL.incoming:format(args.spellName))
+
+		releaseCount = releaseCount + 1
+		local releaseTime = currentTimers and currentTimers[206609][releaseCount]
+		if releaseTime then
+			self:Bar(206609, releaseTime) -- Time Release
+		end
+		scanCount = 0
+		lookingForDebuffs = true
+		if not scheduled then
+			scheduled = self:ScheduleTimer(updateTimeReleaseInfobox, 0.5, self)
+		end
 	end
 end
 

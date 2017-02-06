@@ -24,7 +24,7 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 5,
 			["is_interrupt"] = false,
-			["num_stacks"] = 2,
+			["num_stacks"] = 3,
 			["alt_min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
 			["min_resource_to_cast"] = 0,
@@ -33,15 +33,15 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 		}, -- [2]
 		{
-			44614, -- [1]
+			108853, -- [1]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
-			["active_aura"] = "Brain Freeze",
-			["key_binding"] = "",
+			["active_aura"] = "Icey Veins",
+			["key_binding"] = "Shift F",
 			["resource_type"] = 1,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
@@ -55,6 +55,29 @@ xl_savedvariables = {
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [3]
+		{
+			44614, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "Brain Freeze",
+			["key_binding"] = "F",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
+		}, -- [4]
 		{
 			108853, -- [1]
 			["aura_target"] = 1,
@@ -77,7 +100,7 @@ xl_savedvariables = {
 			["use_condition"] = true,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [4]
+		}, -- [5]
 		{
 			108853, -- [1]
 			["aura_target"] = 1,
@@ -100,7 +123,7 @@ xl_savedvariables = {
 			["use_condition"] = true,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [5]
+		}, -- [6]
 		{
 			214634, -- [1]
 			["aura_target"] = 1,
@@ -110,30 +133,7 @@ xl_savedvariables = {
 			["resource_by_percentage"] = false,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["highlight_only"] = false,
-			["num_charges"] = 0,
-		}, -- [6]
-		{
-			84714, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "",
+			["key_binding"] = "2",
 			["resource_type"] = 1,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
@@ -147,6 +147,29 @@ xl_savedvariables = {
 			["highlight_only"] = false,
 			["num_charges"] = 0,
 		}, -- [7]
+		{
+			84714, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "Shift 1",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
+		}, -- [8]
 		{
 			116, -- [1]
 			["aura_target"] = 1,
@@ -169,7 +192,7 @@ xl_savedvariables = {
 			["use_condition"] = false,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [8]
+		}, -- [9]
 	},
 }
 xl_conditioner_options = {

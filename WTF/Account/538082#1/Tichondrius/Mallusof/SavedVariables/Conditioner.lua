@@ -1,9 +1,9 @@
 
 xl_num_desired_tracked = 5
-xl_ChildPosition = 1
-xl_LocX = 479.999809265137
-xl_LocY = 398.93314743042
-xl_DesiredScale = 60
+xl_ChildPosition = 3
+xl_LocX = 862.799522399902
+xl_LocY = 167.333221435547
+xl_DesiredScale = 40
 xl_OnTargetFrame = 1
 xl_current_target_dock = 2
 xl_savedvariables = {
@@ -28,8 +28,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
 			["alt_resource_condition"] = 1,
+			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
@@ -51,8 +51,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
 			["alt_resource_condition"] = 1,
+			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
@@ -74,8 +74,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
 			["alt_resource_condition"] = 1,
+			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 	}, -- [1]
@@ -127,7 +127,7 @@ xl_savedvariables = {
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = true,
-			["num_charges"] = 0,
+			["num_charges"] = 2,
 		}, -- [3]
 		{
 			228260, -- [1]
