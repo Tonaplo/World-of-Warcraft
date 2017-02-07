@@ -4,16 +4,16 @@ Details_StreamerDB = {
 		["Kaldorath - Proudmoore"] = "Mallusof - Proudmoore",
 		["Praerend - Proudmoore"] = "Mallusof - Proudmoore",
 		["Farahn - Proudmoore"] = "Mallusof - Proudmoore",
-		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
-		["Mallusof - Tichondrius"] = "Mallusof - Proudmoore",
-		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
-		["Granjior - Proudmoore"] = "Mallusof - Proudmoore",
-		["Rahran - Proudmoore"] = "Mallusof - Proudmoore",
-		["Fimwack - Proudmoore"] = "Mallusof - Proudmoore",
-		["Greybone - Proudmoore"] = "Mallusof - Proudmoore",
 		["Miriyal - Proudmoore"] = "Mallusof - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Proudmoore",
 		["Faerand - Proudmoore"] = "Mallusof - Proudmoore",
+		["Granjior - Proudmoore"] = "Mallusof - Proudmoore",
+		["Fimwack - Proudmoore"] = "Mallusof - Proudmoore",
 		["Morifa - Proudmoore"] = "Mallusof - Proudmoore",
+		["Greybone - Proudmoore"] = "Mallusof - Proudmoore",
+		["Rahran - Proudmoore"] = "Mallusof - Proudmoore",
+		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
+		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
 	},
 	["profiles"] = {
 		["Mallusof - Proudmoore"] = {
@@ -43,15 +43,10 @@ Details_StreamerDB = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -59,7 +54,12 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["font_size"] = 10,
 			["per_second"] = {

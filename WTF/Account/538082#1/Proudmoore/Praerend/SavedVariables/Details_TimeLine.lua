@@ -1,14 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 			["Vorthael-Gilneas"] = {
@@ -213,6 +206,17 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Yawgmothlast-Eitrigg"] = {
@@ -345,6 +349,12 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["combat_data"] = {
 		{
 			["date_end"] = "22:52:50",
@@ -369,16 +379,6 @@ DetailsTimeLineDB = {
 			["date_start"] = "22:38:10",
 			["name"] = "Corstilax",
 			["total_time"] = 57.0030000000006,
-		}, -- [4]
-	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
 		}, -- [4]
 	},
 }

@@ -18,6 +18,9 @@ END
 VER 3 000000000000001C "Kosumoth Progres" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
 /run local a={43730,43731,43732,43733,43734,43735,43736,43737,43760,43761}for i,q in ipairs(a)do print(format("Orb %s: %s",i, IsQuestFlaggedCompleted(q) and "\124cFF00FF00Done\124r" or "\124cFFFF0000Not Done\124r")) end
 END
+VER 3 000000000000001F "No Castbars!" "134430"
+/console DefaultCompactNamePlateFriendlyFrameOptions.hideCastbar true
+END
 VER 3 0000000000000003 "Rchars" "INV_MISC_QUESTIONMARK"
 /rchars
 END
