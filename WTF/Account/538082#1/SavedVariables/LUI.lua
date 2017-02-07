@@ -45,12 +45,15 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["CombatLock"] = true,
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
@@ -62,21 +65,18 @@ LUIDB = {
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
 					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["Clock"] = {
-						["Time24"] = true,
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Memory"] = {
 						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2297071051,
+							["Mallusof"] = 2297293903,
 						},
 					},
 				},
@@ -112,20 +112,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
-					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
+					},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -153,10 +147,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -724,71 +724,71 @@ LUIDB = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
 							"/p tahnks guys", -- [1]
-							"/p Maw then?", -- [2]
-							"/p  |cffa335ee|Hitem:137372::::::::110:64::23:3:1727:1502:3336:::|h[Wristbands of the Swirling Deeps]|h|r VS  |cff1eff00|Hitem:129992::::::::110:64:512:11:1:664:108:::|h[Cuffs of Unrelenting Anguish]|h|r", -- [3]
-							"/p 10 itemlevels fo rme", -- [4]
+							"/macro", -- [2]
+							"/p tahnks guys", -- [3]
+							"/p  |cffa335ee|Hitem:137372::::::::110:64::23:3:1727:1502:3336:::|h[Wristbands of the Swirling Deeps]|h|r VS  |cff1eff00|Hitem:129992::::::::110:64:512:11:1:664:108:::|h[Cuffs of Unrelenting Anguish]|h|r", -- [4]
 							"/p Maw then?", -- [5]
-							"/p 10 itemlevels fo rme", -- [6]
-							"/p howdy", -- [7]
-							"/p fellas", -- [8]
-							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [9]
-							"/p at the stone", -- [10]
-							"/p sec", -- [11]
-							"/p started", -- [12]
-							"/p right", -- [13]
-							"/p faster", -- [14]
-							"/p think so?", -- [15]
-							"/p aight, ty!", -- [16]
+							"/p howdy", -- [6]
+							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [7]
+							"/p sec", -- [8]
+							"/p right", -- [9]
+							"/p think so?", -- [10]
+							"/p tahnks guys", -- [11]
+							"/p Maw then?", -- [12]
+							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [13]
+							"/p right", -- [14]
+							"/p tahnks guys", -- [15]
+							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [16]
 							"/p tahnks guys", -- [17]
-							"/p  |cffa335ee|Hitem:137372::::::::110:64::23:3:1727:1502:3336:::|h[Wristbands of the Swirling Deeps]|h|r VS  |cff1eff00|Hitem:129992::::::::110:64:512:11:1:664:108:::|h[Cuffs of Unrelenting Anguish]|h|r", -- [18]
-							"/p Maw then?", -- [19]
+							"/macro", -- [18]
+							"/p  |cffa335ee|Hitem:137372::::::::110:64::23:3:1727:1502:3336:::|h[Wristbands of the Swirling Deeps]|h|r VS  |cff1eff00|Hitem:129992::::::::110:64:512:11:1:664:108:::|h[Cuffs of Unrelenting Anguish]|h|r", -- [19]
 							"/p howdy", -- [20]
-							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [21]
-							"/p sec", -- [22]
-							"/p right", -- [23]
-							"/p think so?", -- [24]
-							"/p tahnks guys", -- [25]
-							"/p Maw then?", -- [26]
-							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [27]
-							"/p right", -- [28]
-							"/p tahnks guys", -- [29]
-							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [30]
-							"/p tahnks guys", -- [31]
+							"/p sec", -- [21]
+							"/p think so?", -- [22]
+							"/p Maw then?", -- [23]
+							"/p right", -- [24]
+							"/p  |cffa335ee|Hitem:138019::::::::110:64:5111808:::1477:4:6:1:::|h[Mythic Keystone]|h|r", -- [25]
+							"/macro", -- [26]
+							"/p howdy", -- [27]
+							"/p think so?", -- [28]
+							"/p right", -- [29]
+							"/macro", -- [30]
+							"/p think so?", -- [31]
 							"/macro", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kalithumos noone spreads for the eyes", -- [1]
-							"/g good night", -- [2]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [3]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [4]
-							"/raid there", -- [5]
-							"/g <3", -- [6]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [7]
-							"/raid there", -- [8]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Chronomatic Anomaly Time Bomb]", -- [9]
-							"/cw Coaxed-Tichondrius ye", -- [10]
-							"/cw Coaxed-Tichondrius :(", -- [11]
-							"/cw Kaligon-Tichondrius Lol, I find it much easier than Fire and Arcane", -- [12]
-							"/raid you'll just die", -- [13]
-							"/raid ye", -- [14]
-							"/cw Kalithumos noone gives a fuck about what I say", -- [15]
-							"/cw Kalithumos they all just fucking do what they please", -- [16]
-							"/cw Kalithumos noone stops popping the shield", -- [17]
-							"/g good night", -- [18]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Skorpyron Broken Shard]", -- [19]
-							"/g <3", -- [20]
-							"/raid there", -- [21]
-							"/cw Coaxed-Tichondrius ye", -- [22]
-							"/cw Kaligon-Tichondrius Lol, I find it much easier than Fire and Arcane", -- [23]
-							"/raid ye", -- [24]
-							"/cw Kalithumos they all just fucking do what they please", -- [25]
-							"/g good night", -- [26]
-							"/g <3", -- [27]
-							"/cw Coaxed-Tichondrius ye", -- [28]
-							"/raid ye", -- [29]
-							"/g good night", -- [30]
-							"/cw Coaxed-Tichondrius ye", -- [31]
-							"/g good night", -- [32]
+							"/cw Coaxed-Tichondrius ye", -- [1]
+							"/raid ye", -- [2]
+							"/g good night", -- [3]
+							"/cw Coaxed-Tichondrius ye", -- [4]
+							"/g good night", -- [5]
+							"/cw Kalithumos noone spreads for the eyes", -- [6]
+							"/raid there", -- [7]
+							"/cw Coaxed-Tichondrius ye", -- [8]
+							"/raid ye", -- [9]
+							"/g good night", -- [10]
+							"/cw Coaxed-Tichondrius ye", -- [11]
+							"/g good night", -- [12]
+							"/cw Kalithumos noone spreads for the eyes", -- [13]
+							"/cw Coaxed-Tichondrius ye", -- [14]
+							"/g good night", -- [15]
+							"/cw Kalithumos noone spreads for the eyes", -- [16]
+							"/g good night", -- [17]
+							"/g Hey ED", -- [18]
+							"/g at what time did you guys kill Guldan yesterday?", -- [19]
+							"/g oh, not bad", -- [20]
+							"/g 40", -- [21]
+							"/g And you died", -- [22]
+							"/g when the druids healed", -- [23]
+							"/g I'm actually really sick of this", -- [24]
+							"/g this is why I left with Meow yesterday", -- [25]
+							"/g I sick of this ranking crap", -- [26]
+							"/g makes shit a million times harder and take more rtime", -- [27]
+							"/g I'm saying ti because I'm tired of it", -- [28]
+							"/g not popping cooldowns when called for because it does more healing at a different time", -- [29]
+							"/g not switching, because you wanna tunnel boss", -- [30]
+							"/g anyways, those were my two cents.", -- [31]
+							"/g cya later", -- [32]
 						},
 					},
 				},
@@ -959,7 +959,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -971,23 +977,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1122,13 +1122,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1140,17 +1134,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1265,9 +1265,9 @@ LUIDB = {
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
-		["Granjior - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
+		["Granjior - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
@@ -1303,9 +1303,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1322,9 +1322,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1343,11 +1343,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -1360,9 +1360,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1379,9 +1379,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1422,7 +1422,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1456,7 +1456,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1465,13 +1465,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1491,7 +1490,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1500,12 +1499,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
 					["Auras"] = 2,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},
