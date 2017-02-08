@@ -1,7 +1,43 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "22:52:50",
+			["date_start"] = "22:50:54",
+			["name"] = "Advisor Vandros",
+			["total_time"] = 116.002,
+		}, -- [1]
+		{
+			["date_end"] = "22:49:09",
+			["date_start"] = "22:48:25",
+			["name"] = "General Xakal",
+			["total_time"] = 44.0049999999992,
+		}, -- [2]
+		{
+			["date_end"] = "22:43:24",
+			["date_start"] = "22:42:31",
+			["name"] = "Nal'tira",
+			["total_time"] = 53.003999999999,
+		}, -- [3]
+		{
+			["date_end"] = "22:39:07",
+			["date_start"] = "22:38:10",
+			["name"] = "Corstilax",
+			["total_time"] = 57.0030000000006,
+		}, -- [4]
+	},
 	["cooldowns_timeline"] = {
 		{
 			["Vorthael-Gilneas"] = {
@@ -206,17 +242,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Yawgmothlast-Eitrigg"] = {
@@ -349,36 +374,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "22:52:50",
-			["date_start"] = "22:50:54",
-			["name"] = "Advisor Vandros",
-			["total_time"] = 116.002,
-		}, -- [1]
-		{
-			["date_end"] = "22:49:09",
-			["date_start"] = "22:48:25",
-			["name"] = "General Xakal",
-			["total_time"] = 44.0049999999992,
-		}, -- [2]
-		{
-			["date_end"] = "22:43:24",
-			["date_start"] = "22:42:31",
-			["name"] = "Nal'tira",
-			["total_time"] = 53.003999999999,
-		}, -- [3]
-		{
-			["date_end"] = "22:39:07",
-			["date_start"] = "22:38:10",
-			["name"] = "Corstilax",
-			["total_time"] = 57.0030000000006,
-		}, -- [4]
 	},
 }

@@ -77,20 +77,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taintheart Deadeye",
 		},
-		[196354] = {
+		[199345] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archdruid Glaidalis",
-		},
-		[198376] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dresaron",
+		},
+		[200329] = {
+			["school"] = 33,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "Shade of Xavius",
 		},
 		[204611] = {
 			["school"] = 8,
@@ -120,22 +124,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[199345] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[200182] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dresaron",
+			["source"] = "Shade of Xavius",
 		},
-		[198401] = {
-			["school"] = 1,
+		[201191] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "Hatespawn Slime",
 		},
 		[199051] = {
 			["school"] = 1,
@@ -207,12 +211,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[201191] = {
-			["school"] = 32,
+		[198401] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hatespawn Slime",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[204574] = {
 			["school"] = 1,
@@ -232,15 +236,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[200182] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[196354] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[198386] = {
 			["school"] = 1,
@@ -249,14 +250,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archdruid Glaidalis",
 		},
-		[200329] = {
-			["school"] = 33,
-			["type"] = "DEBUFF",
+		[198376] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[191326] = {
 			["school"] = 4,

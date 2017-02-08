@@ -1277,12 +1277,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[192799] = {
-			["school"] = 8,
+		[196376] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Blightshard Skitter",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[195332] = {
 			["school"] = 4,
@@ -1293,14 +1294,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ember",
 		},
-		[193055] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[193566] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Call the Seas",
+			["source"] = "Ymiron, the Fallen King",
 		},
 		[209628] = {
 			["school"] = 1,
@@ -1310,13 +1310,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Advisor Melandrus",
 		},
-		[193566] = {
-			["school"] = 32,
+		[193055] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ymiron, the Fallen King",
+			["source"] = "Call the Seas",
 		},
 		[193364] = {
 			["school"] = 32,
@@ -1485,13 +1486,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Congealed Goo",
 		},
-		[194463] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Glazer",
-		},
 		[198551] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -1500,13 +1494,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbaron",
 		},
-		[217011] = {
-			["school"] = 1,
+		[194463] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Angry Crowd",
+			["source"] = "Glazer",
+		},
+		[210879] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fel Lord Betrug",
 		},
 		[209921] = {
 			["school"] = 4,
@@ -1530,13 +1533,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Void-Touched Juggernaut",
 		},
-		[200404] = {
-			["school"] = 4,
+		[209602] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Dargrul",
+			["source"] = "Advisor Melandrus",
 		},
 		[193210] = {
 			["school"] = 4,
@@ -1631,15 +1634,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glazer",
 		},
-		[227233] = {
-			["school"] = 32,
+		[207815] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Helya",
+			["source"] = "Patrol Captain Gerdo",
 		},
 		[201172] = {
 			["school"] = 32,
@@ -1964,21 +1967,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "God-King Skovald",
 		},
-		[200284] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Nal'tira",
-		},
 		[192067] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hyrja",
+		},
+		[192108] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[201369] = {
 			["school"] = 4,
@@ -2015,20 +2017,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Helya",
 		},
-		[192108] = {
-			["school"] = 1,
+		[202328] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Fel Lord Betrug",
+		},
+		[196068] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-		},
-		[193513] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ymiron, the Fallen King",
 		},
 		[192044] = {
 			["school"] = 2,
@@ -2037,13 +2039,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hyrja",
 		},
-		[202328] = {
-			["school"] = 32,
+		[200284] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Fel Lord Betrug",
+			["source"] = "Nal'tira",
 		},
 		[194216] = {
 			["school"] = 64,
@@ -2175,14 +2178,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Talixae Flamewreath",
 		},
-		[199775] = {
+		[192621] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Naraxas",
+			["source"] = "Ash'Golm",
 		},
 		[194218] = {
 			["school"] = 64,
@@ -2191,12 +2193,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbaron",
 		},
-		[204502] = {
-			["school"] = 4,
+		[193260] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
 		},
 		[209676] = {
 			["school"] = 1,
@@ -2248,6 +2251,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ivanyr",
 		},
+		[205014] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shadow Beast",
+		},
 		[196838] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -2257,14 +2268,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Fenryr",
-		},
-		[205014] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Shadow Beast",
 		},
 		[199457] = {
 			["school"] = 32,
@@ -2375,15 +2378,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Hatecoil",
 		},
-		[200289] = {
+		[198245] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Smashspite the Hateful",
 		},
 		[198820] = {
 			["school"] = 32,
@@ -2604,23 +2608,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archdruid Glaidalis",
 		},
-		[197418] = {
+		[196396] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Ivanyr",
+		},
+		[201379] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Illysanna Ravencrest",
-		},
-		[224374] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Infernal Imp",
+			["source"] = "Shivermaw",
 		},
 		[197546] = {
 			["school"] = 1,
@@ -2660,12 +2661,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[201379] = {
-			["school"] = 1,
+		[224374] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shivermaw",
+			["source"] = "Infernal Imp",
 		},
 		[194289] = {
 			["school"] = 1,
@@ -2681,13 +2684,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 		},
-		[196396] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[197418] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ivanyr",
+			["source"] = "Illysanna Ravencrest",
 		},
 		[198058] = {
 			["school"] = 2,
@@ -2804,16 +2808,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Archdruid Glaidalis",
 		},
-		[198245] = {
+		[200289] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Smashspite the Hateful",
+			["source"] = "Shade of Xavius",
 		},
 		[200551] = {
 			["school"] = 8,
@@ -2866,21 +2869,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Infernal Imp",
 		},
-		[193260] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[204502] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shade of Xavius",
+		},
+		[199775] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[192621] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ash'Golm",
+			["source"] = "Naraxas",
 		},
 		[220481] = {
 			["school"] = 64,
@@ -2910,12 +2913,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Patrol Captain Gerdo",
 		},
-		[196068] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[193513] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Ymiron, the Fallen King",
 		},
 		[195187] = {
 			["school"] = 4,
@@ -3101,15 +3104,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Deepbeard",
 		},
-		[207815] = {
-			["school"] = 1,
+		[227233] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Patrol Captain Gerdo",
+			["source"] = "Helya",
 		},
 		[204899] = {
 			["school"] = 1,
@@ -3132,23 +3135,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Helya",
 		},
-		[209602] = {
+		[200404] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Dargrul",
+		},
+		[217011] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Advisor Melandrus",
-		},
-		[210879] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fel Lord Betrug",
+			["source"] = "Angry Crowd",
 		},
 		[193977] = {
 			["school"] = 16,
@@ -3290,13 +3291,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fenryr",
 		},
-		[196376] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[192799] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "Blightshard Skitter",
 		},
 		[203816] = {
 			["school"] = 1,

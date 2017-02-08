@@ -9,8 +9,8 @@ VER 3 0100000000000003 "SoH" "INV_MISC_QUESTIONMARK"
 /use Symbol of Hope
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R4PH1LR1PT1PM1HR1DH2EM2LR2MR2RM2DR3NM3SR[x]3DH3RM4HR4NM4OM4ET[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]3IH[x]0__[x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NKalArkHeaEärDaoEllZaeSawKalSliSomWafKae[x]MeoTetNarNînCoaKae[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x]Akk[x][x][x][x][x]Zhe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

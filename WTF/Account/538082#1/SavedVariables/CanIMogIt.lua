@@ -13,12 +13,14 @@ CanIMogItOptions = {
 CanIMogItDatabase = {
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
@@ -110,6 +112,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[21834] = {
+				["sources"] = {
+					[60637] = {
+						["subClass"] = "Shields",
+					},
+				},
+				["slot"] = "INVTYPE_SHIELD",
+			},
 			[21962] = {
 				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
@@ -192,6 +202,14 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[73305] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[26889] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[73446] = {
+						["subClass"] = "Cosmetic",
 					},
 				},
 			},
@@ -384,10 +402,13 @@ CanIMogItDatabase = {
 			[539] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
+					[75489] = {
+						["subClass"] = "Mail",
+					},
 					[29752] = {
 						["subClass"] = "Leather",
 					},
-					[75489] = {
+					[75654] = {
 						["subClass"] = "Mail",
 					},
 				},
@@ -395,29 +416,32 @@ CanIMogItDatabase = {
 			[541] = {
 				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[75764] = {
-						["subClass"] = "Mail",
-					},
-					[26762] = {
-						["subClass"] = "Leather",
-					},
-					[29758] = {
-						["subClass"] = "Leather",
-					},
-					[25784] = {
-						["subClass"] = "Leather",
-					},
 					[42172] = {
 						["subClass"] = "Leather",
 					},
 					[29734] = {
 						["subClass"] = "Leather",
 					},
+					[75993] = {
+						["subClass"] = "Mail",
+					},
 					[24163] = {
 						["subClass"] = "Leather",
 					},
-					[75993] = {
+					[26762] = {
+						["subClass"] = "Leather",
+					},
+					[25784] = {
+						["subClass"] = "Leather",
+					},
+					[75605] = {
 						["subClass"] = "Mail",
+					},
+					[75764] = {
+						["subClass"] = "Mail",
+					},
+					[29758] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -847,6 +871,14 @@ CanIMogItDatabase = {
 					},
 					[42743] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[22348] = {
+				["slot"] = "INVTYPE_RANGED",
+				["sources"] = {
+					[78555] = {
+						["subClass"] = "Bows",
 					},
 				},
 			},
@@ -2375,6 +2407,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[11850] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[46909] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
 			[1486] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
@@ -2394,10 +2434,13 @@ CanIMogItDatabase = {
 			[12106] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[24244] = {
+					[26123] = {
 						["subClass"] = "Leather",
 					},
-					[26123] = {
+					[75493] = {
+						["subClass"] = "Mail",
+					},
+					[24244] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -3343,10 +3386,13 @@ CanIMogItDatabase = {
 			[2172] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[25791] = {
-						["subClass"] = "Leather",
+					[75591] = {
+						["subClass"] = "Mail",
 					},
 					[29727] = {
+						["subClass"] = "Leather",
+					},
+					[25791] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -4264,6 +4310,9 @@ CanIMogItDatabase = {
 					[78970] = {
 						["subClass"] = "Cloth",
 					},
+					[79039] = {
+						["subClass"] = "Cloth",
+					},
 				},
 			},
 			[31379] = {
@@ -4278,6 +4327,9 @@ CanIMogItDatabase = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
 					[32946] = {
+						["subClass"] = "Staves",
+					},
+					[32947] = {
 						["subClass"] = "Staves",
 					},
 				},
@@ -5783,6 +5835,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[14542] = {
+				["slot"] = "INVTYPE_TABARD",
+				["sources"] = {
+					[31795] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
 			[14606] = {
 				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
@@ -6628,6 +6688,9 @@ CanIMogItDatabase = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
 					[33348] = {
+						["subClass"] = "Cloth",
+					},
+					[33393] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -7718,6 +7781,9 @@ CanIMogItDatabase = {
 					[68653] = {
 						["subClass"] = "Leather",
 					},
+					[81341] = {
+						["subClass"] = "Leather",
+					},
 					[81343] = {
 						["subClass"] = "Leather",
 					},
@@ -7823,6 +7889,14 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_SHIELD",
+			},
+			[23327] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[60440] = {
+						["subClass"] = "Crossbows",
+					},
+				},
 			},
 			[9714] = {
 				["sources"] = {
@@ -8088,6 +8162,9 @@ CanIMogItDatabase = {
 					[74000] = {
 						["subClass"] = "Leather",
 					},
+					[81349] = {
+						["subClass"] = "Leather",
+					},
 				},
 			},
 			[1411] = {
@@ -8114,10 +8191,13 @@ CanIMogItDatabase = {
 					[80325] = {
 						["subClass"] = "Mail",
 					},
-					[76481] = {
+					[68567] = {
 						["subClass"] = "Mail",
 					},
-					[68567] = {
+					[80330] = {
+						["subClass"] = "Mail",
+					},
+					[76481] = {
 						["subClass"] = "Mail",
 					},
 				},
@@ -8130,6 +8210,67 @@ CanIMogItDatabase = {
 						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[22284] = {
+				["sources"] = {
+					[81595] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[22384] = {
+				["sources"] = {
+					[81592] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[1222] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[29782] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[27549] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[77479] = {
+						["subClass"] = "Cloth",
+					},
+					[77581] = {
+						["subClass"] = "Cloth",
+					},
+					[68478] = {
+						["subClass"] = "Cloth",
+					},
+					[77547] = {
+						["subClass"] = "Cloth",
+					},
+					[78622] = {
+						["subClass"] = "Cloth",
+					},
+					[77513] = {
+						["subClass"] = "Cloth",
+					},
+					[77615] = {
+						["subClass"] = "Cloth",
+					},
+					[80431] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[11879] = {
+				["sources"] = {
+					[46908] = {
+						["subClass"] = "Staves",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[5802] = {
 				["slot"] = "INVTYPE_HAND",
@@ -8152,6 +8293,17 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[36554] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[14027] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[29683] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[32613] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -8179,6 +8331,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[11826] = {
+				["sources"] = {
+					[46916] = {
+						["subClass"] = "Shields",
+					},
+				},
+				["slot"] = "INVTYPE_SHIELD",
+			},
 			[27807] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
@@ -8204,6 +8364,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[11855] = {
+				["sources"] = {
+					[46907] = {
+						["subClass"] = "Staves",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
 			[11954] = {
 				["sources"] = {
 					[46969] = {
@@ -8211,6 +8379,33 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
+			},
+			[6759] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[14434] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[11824] = {
+				["sources"] = {
+					[46918] = {
+						["subClass"] = "Two-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[12935] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[27489] = {
+						["subClass"] = "Leather",
+					},
+					[27492] = {
+						["subClass"] = "Leather",
+					},
+				},
 			},
 			[1515] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -8231,11 +8426,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[28373] = {
+				["sources"] = {
+					[83914] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_CLOAK",
+			},
 			[6106] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
 					[18768] = {
 						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[1842] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[26094] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -8285,6 +8496,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[15910] = {
+				["sources"] = {
+					[78774] = {
+						["subClass"] = "Plate",
+						["classRestrictions"] = {
+							"Warrior", -- [1]
+						},
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
 			[12466] = {
 				["sources"] = {
 					[25165] = {
@@ -8304,10 +8526,34 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
+			[26908] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[78932] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[11817] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[22753] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
 			[8499] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
 					[15126] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[1386] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[13390] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -8319,6 +8565,46 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_CHEST",
+			},
+			[23625] = {
+				["sources"] = {
+					[63609] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_LEGS",
+			},
+			[12174] = {
+				["sources"] = {
+					[76787] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
+			[17501] = {
+				["sources"] = {
+					[40674] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[9234] = {
+				["sources"] = {
+					[72650] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_CHEST",
+			},
+			[30353] = {
+				["sources"] = {
+					[83057] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[21601] = {
 				["slot"] = "INVTYPE_FEET",
@@ -8335,6 +8621,33 @@ CanIMogItDatabase = {
 						["subClass"] = "Cloth",
 					},
 					[18153] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[9607] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[18267] = {
+						["subClass"] = "Staves",
+					},
+					[18666] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[14449] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[31270] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[29332] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[78686] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -8377,10 +8690,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[9511] = {
+				["sources"] = {
+					[18896] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HAND",
+			},
 			[18210] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
 					[42886] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[22305] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[78554] = {
 						["subClass"] = "Daggers",
 					},
 				},
@@ -8390,6 +8719,14 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[30285] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[27342] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[68413] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -8419,6 +8756,14 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[20426] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[50797] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[13426] = {
 				["slot"] = "INVTYPE_HAND",
@@ -8487,6 +8832,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[19536] = {
+				["sources"] = {
+					[74052] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_HAND",
+			},
 			[23329] = {
 				["sources"] = {
 					[60898] = {
@@ -8494,6 +8847,14 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
+			},
+			[9351] = {
+				["sources"] = {
+					[17546] = {
+						["subClass"] = "Two-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[13778] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -8522,6 +8883,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[13414] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[27377] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[27096] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[78961] = {
+						["subClass"] = "Plate",
+					},
+				},
+			},
 			[9843] = {
 				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
@@ -8529,6 +8906,22 @@ CanIMogItDatabase = {
 						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[29087] = {
+				["sources"] = {
+					[81135] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_ROBE",
+			},
+			[32017] = {
+				["sources"] = {
+					[81178] = {
+						["subClass"] = "Leather",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[14034] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -8554,6 +8947,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
+			[31381] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[79523] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
 			[28320] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
@@ -8570,6 +8971,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[30815] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[81045] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			[14258] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
@@ -8578,11 +8987,50 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[32801] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[84127] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[18186] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[42720] = {
+						["subClass"] = "Cloth",
+					},
+					[45517] = {
+						["subClass"] = "Cloth",
+					},
+					[42810] = {
+						["subClass"] = "Cloth",
+					},
+					[45521] = {
+						["subClass"] = "Cloth",
+					},
+					[42814] = {
+						["subClass"] = "Cloth",
+					},
+					[42716] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			[1795] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
 					[30883] = {
 						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[32802] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[84109] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -8613,19 +9061,27 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
+			[30283] = {
+				["sources"] = {
+					[81123] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_ROBE",
+			},
+			[1602] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[73339] = {
+						["subClass"] = "Cosmetic",
+					},
+				},
+			},
 			[14578] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
 					[32073] = {
 						["subClass"] = "Staves",
-					},
-				},
-			},
-			[7322] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[32869] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -8642,6 +9098,22 @@ CanIMogItDatabase = {
 						["subClass"] = "Daggers",
 					},
 				},
+			},
+			[7322] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[32869] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[29344] = {
+				["sources"] = {
+					[80820] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[1839] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -8667,6 +9139,54 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[32411] = {
+				["sources"] = {
+					[81634] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[9898] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[18014] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[32328] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[73828] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[8839] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[15770] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[32804] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[84112] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[32806] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[84118] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			[25889] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
@@ -8674,6 +9194,14 @@ CanIMogItDatabase = {
 						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[667] = {
+				["sources"] = {
+					[69195] = {
+						["subClass"] = "Guns",
+					},
+				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[21922] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -8690,6 +9218,14 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[5081] = {
+				["sources"] = {
+					[7022] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[11059] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -8719,6 +9255,14 @@ CanIMogItDatabase = {
 				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
 					[4799] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[13961] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[29486] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -8753,6 +9297,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[17168] = {
+				["sources"] = {
+					[46421] = {
+						["subClass"] = "Staves",
+					},
+					[46423] = {
+						["subClass"] = "Staves",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
 			[11347] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
@@ -8773,6 +9328,14 @@ CanIMogItDatabase = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
 					[45075] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[19100] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[44990] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -8833,6 +9396,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[17100] = {
+				["sources"] = {
+					[46426] = {
+						["subClass"] = "Leather",
+					},
+					[46425] = {
+						["subClass"] = "Leather",
+					},
+					[46428] = {
+						["subClass"] = "Leather",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
 			[19363] = {
 				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
@@ -8857,6 +9434,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[32809] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[84121] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			[7978] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
@@ -8865,11 +9450,51 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[17119] = {
+				["sources"] = {
+					[74102] = {
+						["subClass"] = "Leather",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
 			[23842] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
 					[62875] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12582] = {
+				["sources"] = {
+					[25105] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
+			},
+			[8455] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[15053] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[7540] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[13064] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[12486] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[24795] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -8880,6 +9505,56 @@ CanIMogItDatabase = {
 						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[12454] = {
+				["sources"] = {
+					[24748] = {
+						["subClass"] = "Plate",
+					},
+					[24801] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
+			[19404] = {
+				["sources"] = {
+					[74245] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_CHEST",
+			},
+			[26849] = {
+				["sources"] = {
+					[68579] = {
+						["subClass"] = "Mail",
+					},
+					[73819] = {
+						["subClass"] = "Mail",
+					},
+					[76455] = {
+						["subClass"] = "Mail",
+					},
+					[76473] = {
+						["subClass"] = "Mail",
+					},
+					[82886] = {
+						["subClass"] = "Mail",
+					},
+					[82384] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
+			},
+			[5080] = {
+				["sources"] = {
+					[7021] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[12243] = {
 				["sources"] = {
@@ -8914,16 +9589,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[15910] = {
+			[8715] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[78774] = {
-						["subClass"] = "Plate",
-						["classRestrictions"] = {
-							"Warrior", -- [1]
-						},
+					[15518] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
 			[12371] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -8941,13 +9613,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[29344] = {
+			[12586] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[80820] = {
+					[25109] = {
 						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_CLOAK",
 			},
 			[12467] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -8965,24 +9637,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7013] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[7542] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[12140] = {
-						["subClass"] = "One-Handed Maces",
+					[13067] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[26956] = {
+			[5542] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[74403] = {
-						["subClass"] = "Plate",
-					},
-					[68708] = {
-						["subClass"] = "Plate",
+					[10565] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
 			[12595] = {
 				["sources"] = {
@@ -9016,21 +9685,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32831] = {
-				["slot"] = "INVTYPE_HAND",
+			[24522] = {
 				["sources"] = {
-					[83167] = {
-						["subClass"] = "Cloth",
+					[74252] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[29082] = {
-				["slot"] = "INVTYPE_HAND",
+			[21155] = {
 				["sources"] = {
-					[81150] = {
+					[74244] = {
 						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[2174] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -9040,13 +9709,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12174] = {
+			[31373] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[76787] = {
-						["subClass"] = "Mail",
+					[79534] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
 			[12851] = {
 				["sources"] = {
@@ -9056,13 +9725,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[9234] = {
+			[13771] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[72650] = {
-						["subClass"] = "Mail",
+					[28793] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[12915] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -9073,10 +9742,10 @@ CanIMogItDatabase = {
 					[27483] = {
 						["subClass"] = "Cloth",
 					},
-					[27458] = {
+					[29558] = {
 						["subClass"] = "Cloth",
 					},
-					[27486] = {
+					[27458] = {
 						["subClass"] = "Cloth",
 					},
 					[26696] = {
@@ -9085,7 +9754,7 @@ CanIMogItDatabase = {
 					[29524] = {
 						["subClass"] = "Cloth",
 					},
-					[29558] = {
+					[27486] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -9098,13 +9767,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17892] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[28231] = {
 				["sources"] = {
-					[42904] = {
-						["subClass"] = "Staves",
+					[76664] = {
+						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[13011] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -9114,14 +9783,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30177] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[17892] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[81563] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
+					[42904] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -9163,21 +9829,21 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[32017] = {
+			[22605] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[81178] = {
-						["subClass"] = "Leather",
-					},
-				},
-				["slot"] = "INVTYPE_FEET",
-			},
-			[19536] = {
-				["sources"] = {
-					[74052] = {
+					[70244] = {
 						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+			},
+			[19537] = {
+				["sources"] = {
+					[74055] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_ROBE",
 			},
 			[22435] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -9212,13 +9878,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14449] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[12594] = {
 				["sources"] = {
-					[31270] = {
-						["subClass"] = "One-Handed Maces",
+					[25161] = {
+						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_ROBE",
 			},
 			[13395] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -9228,16 +9894,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4667] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[26850] = {
 				["sources"] = {
-					[7088] = {
-						["subClass"] = "Cloth",
+					[68583] = {
+						["subClass"] = "Mail",
 					},
-					[10595] = {
-						["subClass"] = "Cloth",
+					[80320] = {
+						["subClass"] = "Mail",
+					},
+					[76487] = {
+						["subClass"] = "Mail",
+					},
+					[82890] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[13459] = {
 				["sources"] = {
@@ -9281,11 +9953,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30815] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[9614] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[81045] = {
-						["subClass"] = "Cloth",
+					[17290] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -9316,29 +9988,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31381] = {
-				["slot"] = "INVTYPE_WAIST",
+			[3845] = {
 				["sources"] = {
-					[79523] = {
+					[69216] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[12296] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[24547] = {
+						["subClass"] = "Leather",
+						["classRestrictions"] = {
+							"Rogue", -- [1]
+						},
+					},
+				},
+			},
+			[5924] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[69202] = {
 						["subClass"] = "Mail",
 					},
 				},
-			},
-			[23625] = {
-				["sources"] = {
-					[63609] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[29087] = {
-				["sources"] = {
-					[81135] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_ROBE",
 			},
 			[13779] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -9348,13 +10023,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[29332] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[23624] = {
 				["sources"] = {
-					[78686] = {
-						["subClass"] = "Cloth",
+					[63615] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[13843] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -9364,13 +10039,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[29083] = {
+			[28700] = {
 				["sources"] = {
-					[81156] = {
-						["subClass"] = "Cloth",
+					[60967] = {
+						["subClass"] = "Warglaives",
+					},
+					[73859] = {
+						["subClass"] = "Warglaives",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[27810] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -9380,29 +10058,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32808] = {
-				["slot"] = "INVTYPE_WRIST",
+			[24542] = {
 				["sources"] = {
-					[84130] = {
+					[74058] = {
 						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[9607] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[9519] = {
 				["sources"] = {
-					[18267] = {
-						["subClass"] = "Staves",
-					},
-					[18666] = {
-						["subClass"] = "Staves",
+					[17155] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
 			[155] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
 					[34259] = {
+						["subClass"] = "Staves",
+					},
+					[28164] = {
 						["subClass"] = "Staves",
 					},
 				},
@@ -9455,13 +10133,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30283] = {
+			[27463] = {
 				["sources"] = {
-					[81123] = {
-						["subClass"] = "Cloth",
+					[68471] = {
+						["subClass"] = "Mail",
+					},
+					[80424] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_ROBE",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[14259] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -9474,37 +10155,49 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19538] = {
+			[4376] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[74051] = {
-						["subClass"] = "Cloth",
+					[75505] = {
+						["subClass"] = "Mail",
+					},
+					[29740] = {
+						["subClass"] = "Leather",
+					},
+					[29768] = {
+						["subClass"] = "Leather",
+					},
+					[75893] = {
+						["subClass"] = "Mail",
+					},
+					[28305] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
 			},
-			[9511] = {
+			[31385] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[18896] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HAND",
-			},
-			[9898] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[18014] = {
+					[79527] = {
 						["subClass"] = "Mail",
 					},
 				},
 			},
-			[32801] = {
-				["slot"] = "INVTYPE_WAIST",
+			[27864] = {
 				["sources"] = {
-					[84127] = {
-						["subClass"] = "Cloth",
+					[73779] = {
+						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
+			},
+			[31309] = {
+				["sources"] = {
+					[79509] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HAND",
 			},
 			[14419] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -9525,21 +10218,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32802] = {
-				["slot"] = "INVTYPE_FEET",
+			[27866] = {
 				["sources"] = {
-					[84109] = {
-						["subClass"] = "Cloth",
+					[80339] = {
+						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[32804] = {
-				["slot"] = "INVTYPE_HAND",
+			[12272] = {
 				["sources"] = {
-					[84112] = {
-						["subClass"] = "Cloth",
+					[25028] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[14547] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -9568,27 +10261,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9351] = {
+			[4970] = {
 				["sources"] = {
-					[17546] = {
-						["subClass"] = "Two-Handed Axes",
+					[6910] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[13414] = {
-				["slot"] = "INVTYPE_WAIST",
+			[26844] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[27377] = {
-						["subClass"] = "Cloth",
+					[25123] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[1602] = {
-				["slot"] = "INVTYPE_HEAD",
+			[31387] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[73339] = {
-						["subClass"] = "Cosmetic",
+					[79529] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -9600,21 +10293,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32411] = {
+			[13034] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[81634] = {
-						["subClass"] = "Plate",
+					[74186] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[19088] = {
+			[21924] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[46655] = {
-						["subClass"] = "Cloth",
+					[66482] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[10740] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -9682,19 +10375,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32806] = {
-				["slot"] = "INVTYPE_LEGS",
+			[31382] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[84118] = {
-						["subClass"] = "Cloth",
+					[79526] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[21924] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[17829] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[66482] = {
-						["subClass"] = "Miscellaneous",
+					[41430] = {
+						["subClass"] = "Daggers",
+					},
+					[42798] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -9706,44 +10402,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8039] = {
-				["slot"] = "INVTYPE_LEGS",
+			[16658] = {
 				["sources"] = {
-					[14002] = {
+					[40038] = {
 						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[32809] = {
-				["slot"] = "INVTYPE_ROBE",
+			[20445] = {
 				["sources"] = {
-					[84121] = {
-						["subClass"] = "Cloth",
+					[74061] = {
+						["subClass"] = "Staves",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[18186] = {
+			[27868] = {
+				["sources"] = {
+					[73777] = {
+						["subClass"] = "Leather",
+					},
+				},
 				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[42720] = {
-						["subClass"] = "Cloth",
-					},
-					[45517] = {
-						["subClass"] = "Cloth",
-					},
-					[42810] = {
-						["subClass"] = "Cloth",
-					},
-					[45521] = {
-						["subClass"] = "Cloth",
-					},
-					[42814] = {
-						["subClass"] = "Cloth",
-					},
-					[42716] = {
-						["subClass"] = "Cloth",
-					},
-				},
 			},
 			[11124] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -9753,16 +10434,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17168] = {
+			[5835] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[46421] = {
-						["subClass"] = "Staves",
-					},
-					[46423] = {
-						["subClass"] = "Staves",
+					[8607] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[22372] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -9772,13 +10450,34 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[667] = {
+			[18185] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[69195] = {
-						["subClass"] = "Guns",
+					[43126] = {
+						["subClass"] = "Cloth",
+					},
+					[43140] = {
+						["subClass"] = "Cloth",
+					},
+					[42801] = {
+						["subClass"] = "Cloth",
+					},
+					[42707] = {
+						["subClass"] = "Cloth",
+					},
+					[42805] = {
+						["subClass"] = "Cloth",
+					},
+					[43122] = {
+						["subClass"] = "Cloth",
+					},
+					[42711] = {
+						["subClass"] = "Cloth",
+					},
+					[43144] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[11252] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -9829,13 +10528,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[5081] = {
+			[2211] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[7022] = {
-						["subClass"] = "Plate",
+					[9912] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[18789] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -9861,11 +10560,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[15763] = {
-				["slot"] = "INVTYPE_ROBE",
+			[2982] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[36556] = {
-						["subClass"] = "Cloth",
+					[27883] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -9902,22 +10601,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5835] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[15763] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[8607] = {
+					[36556] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[26954] = {
-				["slot"] = "INVTYPE_FEET",
+			[14730] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[74402] = {
-						["subClass"] = "Plate",
-					},
-					[82791] = {
-						["subClass"] = "Plate",
+					[32811] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -9986,33 +10682,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26953] = {
+			[11014] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[68724] = {
-						["subClass"] = "Plate",
-					},
-					[74407] = {
-						["subClass"] = "Plate",
+					[20767] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
-			[26850] = {
+			[3022] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[68583] = {
-						["subClass"] = "Mail",
-					},
-					[80320] = {
-						["subClass"] = "Mail",
-					},
-					[76487] = {
-						["subClass"] = "Mail",
-					},
-					[82890] = {
-						["subClass"] = "Mail",
+					[14384] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[3006] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -10063,21 +10747,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8839] = {
-				["slot"] = "INVTYPE_LEGS",
+			[10950] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[15770] = {
-						["subClass"] = "Cloth",
+					[20512] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[17119] = {
+			[26575] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[74102] = {
+					[68794] = {
+						["subClass"] = "Leather",
+					},
+					[76000] = {
 						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
 			[12244] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -10087,14 +10774,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7447] = {
-				["slot"] = "INVTYPE_ROBE",
+			[8277] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[12928] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
+					[14612] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -10120,27 +10804,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8277] = {
-				["slot"] = "INVTYPE_TABARD",
+			[12372] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[14612] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[8715] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[15518] = {
+					[24638] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[16678] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[39784] = {
-						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -10152,6 +10820,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[16678] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[39784] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[16742] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[39776] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
 			[12500] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
@@ -10160,19 +10844,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17109] = {
+			[31313] = {
 				["sources"] = {
-					[46435] = {
-						["subClass"] = "Leather",
+					[79515] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[7540] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[26595] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[13064] = {
-						["subClass"] = "Miscellaneous",
+					[74387] = {
+						["subClass"] = "Leather",
+					},
+					[74511] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -10195,14 +10882,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17829] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[201] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[41430] = {
-						["subClass"] = "Daggers",
+					[75771] = {
+						["subClass"] = "Mail",
 					},
-					[42798] = {
-						["subClass"] = "Daggers",
+					[25789] = {
+						["subClass"] = "Leather",
+					},
+					[42171] = {
+						["subClass"] = "Leather",
+					},
+					[26765] = {
+						["subClass"] = "Leather",
+					},
+					[25787] = {
+						["subClass"] = "Leather",
+					},
+					[75992] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10217,13 +10916,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5080] = {
+			[12426] = {
 				["sources"] = {
-					[7021] = {
-						["subClass"] = "Plate",
+					[25034] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
+				["slot"] = "INVTYPE_ROBE",
 			},
 			[3190] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -10247,11 +10946,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5542] = {
-				["slot"] = "INVTYPE_FEET",
+			[4871] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[10565] = {
-						["subClass"] = "Leather",
+					[69094] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10269,11 +10968,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2982] = {
-				["slot"] = "INVTYPE_WRIST",
+			[4872] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[27883] = {
-						["subClass"] = "Leather",
+					[69188] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10294,27 +10993,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6555] = {
+			[13108] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[10033] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_CHEST",
-			},
-			[12582] = {
-				["sources"] = {
-					[25105] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
-			},
-			[8455] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[15053] = {
+					[31241] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[13391] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[27170] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[11091] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[18068] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10343,21 +11042,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13108] = {
-				["slot"] = "INVTYPE_WAIST",
+			[6555] = {
 				["sources"] = {
-					[31241] = {
-						["subClass"] = "Cloth",
+					[10033] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
-			[32837] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[25931] = {
 				["sources"] = {
-					[84133] = {
-						["subClass"] = "Cloth",
+					[73189] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[13172] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -10378,24 +11077,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12486] = {
+			[6667] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[24795] = {
+					[10317] = {
 						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[12454] = {
+			[31394] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[24748] = {
-						["subClass"] = "Plate",
-					},
-					[24801] = {
-						["subClass"] = "Plate",
+					[79541] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
 			[208] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -10430,23 +11126,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7542] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[21261] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[13067] = {
-						["subClass"] = "Miscellaneous",
+					[55897] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
 			[26852] = {
 				["sources"] = {
+					[81629] = {
+						["subClass"] = "Mail",
+					},
 					[68596] = {
 						["subClass"] = "Mail",
 					},
-					[76463] = {
+					[73826] = {
 						["subClass"] = "Mail",
 					},
-					[81629] = {
+					[76463] = {
 						["subClass"] = "Mail",
 					},
 				},
@@ -10500,11 +11199,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13556] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[9461] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[31752] = {
-						["subClass"] = "Cloth",
+					[16928] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -10516,10 +11215,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13844] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[19046] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[32286] = {
+					[44878] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -10584,14 +11283,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[9749] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13844] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[18514] = {
-						["subClass"] = "Plate",
-					},
-					[74069] = {
-						["subClass"] = "Plate",
+					[32286] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -10625,27 +11321,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[12586] = {
-				["slot"] = "INVTYPE_HEAD",
+			[20808] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[25109] = {
+					[51896] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[24522] = {
-				["sources"] = {
-					[74252] = {
-						["subClass"] = "Mail",
-					},
-				},
-				["slot"] = "INVTYPE_WRIST",
-			},
-			[14036] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[30052] = {
-						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10656,6 +11336,34 @@ CanIMogItDatabase = {
 						["subClass"] = "Staves",
 					},
 				},
+			},
+			[14036] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[30052] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[26961] = {
+				["sources"] = {
+					[76433] = {
+						["subClass"] = "Plate",
+					},
+					[73966] = {
+						["subClass"] = "Plate",
+					},
+					[68657] = {
+						["subClass"] = "Plate",
+					},
+					[73998] = {
+						["subClass"] = "Plate",
+					},
+					[68272] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[14100] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -10673,10 +11381,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12459] = {
-				["slot"] = "INVTYPE_ROBE",
+			[25893] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[25111] = {
+					[69658] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -10689,19 +11397,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4376] = {
-				["slot"] = "INVTYPE_WAIST",
+			[3772] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[29768] = {
-						["subClass"] = "Leather",
-					},
-					[28305] = {
-						["subClass"] = "Leather",
-					},
-					[29740] = {
-						["subClass"] = "Leather",
-					},
-					[75893] = {
+					[4749] = {
 						["subClass"] = "Mail",
 					},
 				},
@@ -10736,11 +11435,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22605] = {
-				["slot"] = "INVTYPE_WRIST",
+			[11061] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[70244] = {
-						["subClass"] = "Cloth",
+					[20899] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10798,13 +11497,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19537] = {
+			[22246] = {
 				["sources"] = {
-					[74055] = {
-						["subClass"] = "Cloth",
+					[58954] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
-				["slot"] = "INVTYPE_ROBE",
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[3654] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -10825,11 +11524,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9614] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[3774] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[17290] = {
-						["subClass"] = "Staves",
+					[4752] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -10852,13 +11551,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26213] = {
-				["slot"] = "INVTYPE_HAND",
+			[5076] = {
 				["sources"] = {
-					[69573] = {
-						["subClass"] = "Cloth",
+					[7017] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[3702] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -10960,29 +11659,29 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[11061] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[26213] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[20899] = {
-						["subClass"] = "Mail",
+					[69573] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[28231] = {
+			[9513] = {
 				["sources"] = {
-					[76664] = {
-						["subClass"] = "Leather",
+					[18894] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[22246] = {
+			[30436] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[58954] = {
-						["subClass"] = "One-Handed Swords",
+					[80927] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[18215] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -11004,21 +11703,33 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7499] = {
+			[21732] = {
+				["sources"] = {
+					[60899] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[62158] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[64190] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[62034] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[60438] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
 				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[13017] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
 			},
-			[12594] = {
+			[10054] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[25161] = {
-						["subClass"] = "Cloth",
+					[18619] = {
+						["subClass"] = "Wands",
 					},
 				},
-				["slot"] = "INVTYPE_ROBE",
 			},
 			[3838] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -11034,13 +11745,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3845] = {
+			[28230] = {
 				["sources"] = {
-					[69216] = {
-						["subClass"] = "One-Handed Swords",
+					[76665] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[241] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -11074,48 +11785,54 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31310] = {
+			[12975] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[79511] = {
-						["subClass"] = "Plate",
+					[26258] = {
+						["subClass"] = "Cloth",
 					},
-				},
-				["slot"] = "INVTYPE_HEAD",
-			},
-			[12296] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[24547] = {
-						["subClass"] = "Leather",
-						["classRestrictions"] = {
-							"Rogue", -- [1]
-						},
+					[32290] = {
+						["subClass"] = "Cloth",
 					},
-				},
-			},
-			[24542] = {
-				["sources"] = {
-					[74058] = {
+					[32317] = {
 						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
-			[12272] = {
+			[9958] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[25028] = {
-						["subClass"] = "Mail",
+					[18254] = {
+						["subClass"] = "Daggers",
+					},
+					[18679] = {
+						["subClass"] = "Daggers",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
-			[23624] = {
+			[22237] = {
 				["sources"] = {
-					[63615] = {
+					[62924] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_HAND",
+			},
+			[12593] = {
+				["sources"] = {
+					[25160] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_LEGS",
+			},
+			[15924] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[36677] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
 			},
 			[31396] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -11141,13 +11858,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9519] = {
+			[11957] = {
 				["sources"] = {
-					[17155] = {
-						["subClass"] = "Plate",
+					[46971] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[27557] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -11165,19 +11882,19 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[27864] = {
+			[31384] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[73779] = {
-						["subClass"] = "Leather",
+					[79525] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
-			[15924] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[11829] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[36677] = {
-						["subClass"] = "Miscellaneous",
+					[46881] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -11200,10 +11917,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27866] = {
+			[23623] = {
 				["sources"] = {
-					[80339] = {
-						["subClass"] = "Leather",
+					[63605] = {
+						["subClass"] = "Plate",
 					},
 				},
 				["slot"] = "INVTYPE_HEAD",
@@ -11216,24 +11933,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27463] = {
+			[32484] = {
 				["sources"] = {
-					[68471] = {
-						["subClass"] = "Mail",
-					},
-					[80424] = {
-						["subClass"] = "Mail",
+					[81002] = {
+						["subClass"] = "Leather",
+						["classRestrictions"] = {
+							"Druid", -- [1]
+						},
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[4062] = {
-				["slot"] = "INVTYPE_FEET",
+			[12213] = {
 				["sources"] = {
-					[14620] = {
-						["subClass"] = "Cloth",
+					[24432] = {
+						["subClass"] = "Two-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[8075] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -11259,22 +11976,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32484] = {
+			[4062] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[81002] = {
-						["subClass"] = "Leather",
-						["classRestrictions"] = {
-							"Druid", -- [1]
-						},
+					[14620] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
-			[12373] = {
-				["slot"] = "INVTYPE_ROBE",
+			[31383] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[24639] = {
-						["subClass"] = "Cloth",
+					[79530] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -11318,21 +12032,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16552] = {
-				["slot"] = "INVTYPE_WAIST",
+			[12373] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[38914] = {
+					[24639] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[31387] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[13701] = {
 				["sources"] = {
-					[79529] = {
-						["subClass"] = "Mail",
+					[28233] = {
+						["subClass"] = "Plate",
+					},
+					[28250] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[261] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -11342,11 +12059,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24934] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[16744] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[66605] = {
-						["subClass"] = "Staves",
+					[40048] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -11366,14 +12083,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16744] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[40048] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
 			[12597] = {
 				["sources"] = {
 					[25167] = {
@@ -11381,6 +12090,14 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_CHEST",
+			},
+			[8502] = {
+				["slot"] = "INVTYPE_TABARD",
+				["sources"] = {
+					[15131] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
 			},
 			[17064] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -11390,13 +12107,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4970] = {
+			[7227] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[6910] = {
-						["subClass"] = "Leather",
+					[12492] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
 			[8598] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -11406,35 +12123,44 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26844] = {
+			[13774] = {
 				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[25123] = {
-						["subClass"] = "Mail",
+					[28796] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[22682] = {
-				["slot"] = "INVTYPE_CHEST",
+			[26964] = {
 				["sources"] = {
-					[70264] = {
-						["subClass"] = "Mail",
+					[73994] = {
+						["subClass"] = "Plate",
 					},
-				},
-			},
-			[12053] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[24186] = {
+					[77794] = {
 						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
-			[31382] = {
-				["slot"] = "INVTYPE_FEET",
+			[24541] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[79526] = {
+					[74190] = {
 						["subClass"] = "Mail",
+					},
+				},
+			},
+			[13077] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[29916] = {
+						["subClass"] = "Cloth",
+					},
+					[29812] = {
+						["subClass"] = "Cloth",
+					},
+					[29964] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -11484,13 +12210,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[11082] = {
-				["slot"] = "INVTYPE_TABARD",
+			[21927] = {
 				["sources"] = {
-					[20953] = {
-						["subClass"] = "Miscellaneous",
+					[60638] = {
+						["subClass"] = "Shields",
 					},
 				},
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[21991] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -11500,17 +12226,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13077] = {
-				["slot"] = "INVTYPE_HEAD",
+			[22055] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[29916] = {
-						["subClass"] = "Cloth",
+					[58034] = {
+						["subClass"] = "Leather",
 					},
-					[29812] = {
-						["subClass"] = "Cloth",
-					},
-					[29964] = {
-						["subClass"] = "Cloth",
+					[57234] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -11522,13 +12245,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14730] = {
-				["slot"] = "INVTYPE_HAND",
+			[26950] = {
 				["sources"] = {
-					[32811] = {
-						["subClass"] = "Mail",
+					[76486] = {
+						["subClass"] = "Plate",
+					},
+					[80316] = {
+						["subClass"] = "Plate",
+					},
+					[82889] = {
+						["subClass"] = "Plate",
+					},
+					[81619] = {
+						["subClass"] = "Plate",
+					},
+					[68581] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[13173] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -11541,21 +12276,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14025] = {
+			[26968] = {
 				["sources"] = {
-					[29993] = {
-						["subClass"] = "Cloth",
+					[73956] = {
+						["subClass"] = "Plate",
+					},
+					[74002] = {
+						["subClass"] = "Plate",
+					},
+					[68863] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_ROBE",
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[22055] = {
-				["slot"] = "INVTYPE_WAIST",
+			[9318] = {
 				["sources"] = {
-					[58034] = {
-						["subClass"] = "Leather",
+					[17541] = {
+						["subClass"] = "Shields",
 					},
 				},
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[26854] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -11633,13 +12374,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27868] = {
+			[17500] = {
 				["sources"] = {
-					[73777] = {
-						["subClass"] = "Leather",
+					[40673] = {
+						["subClass"] = "Crossbows",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[27110] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -11690,34 +12431,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[18185] = {
-				["slot"] = "INVTYPE_HEAD",
+			[16049] = {
 				["sources"] = {
-					[43126] = {
-						["subClass"] = "Cloth",
-					},
-					[43140] = {
-						["subClass"] = "Cloth",
-					},
-					[42801] = {
-						["subClass"] = "Cloth",
-					},
-					[42707] = {
-						["subClass"] = "Cloth",
-					},
-					[42805] = {
-						["subClass"] = "Cloth",
-					},
-					[43122] = {
-						["subClass"] = "Cloth",
-					},
-					[42711] = {
-						["subClass"] = "Cloth",
-					},
-					[43144] = {
-						["subClass"] = "Cloth",
+					[39786] = {
+						["subClass"] = "Two-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[302] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -11757,10 +12477,52 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[517] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[311] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[29746] = {
+					[29506] = {
+						["subClass"] = "Staves",
+					},
+					[29542] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[27814] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[74377] = {
+						["subClass"] = "Cloth",
+					},
+					[68719] = {
+						["subClass"] = "Cloth",
+					},
+					[68372] = {
+						["subClass"] = "Cloth",
+					},
+					[76261] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[308] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[171] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[13253] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[33182] = {
+						["subClass"] = "Cloth",
+					},
+					[76570] = {
+						["subClass"] = "Cloth",
+					},
+					[28189] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -11773,33 +12535,6 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[308] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[171] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[14508] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[31647] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[311] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[29506] = {
-						["subClass"] = "Staves",
-					},
-					[29542] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
 			[14037] = {
 				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
@@ -11808,27 +12543,44 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11014] = {
-				["slot"] = "INVTYPE_FEET",
+			[14605] = {
 				["sources"] = {
-					[20767] = {
+					[32319] = {
+						["subClass"] = "Two-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[13195] = {
+				["sources"] = {
+					[28247] = {
+						["subClass"] = "Plate",
+					},
+					[28263] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[27217] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[76847] = {
+						["subClass"] = "Cloth",
+					},
+					[78981] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[10280] = {
-				["slot"] = "INVTYPE_FEET",
+			[14421] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[74352] = {
-						["subClass"] = "Mail",
+					[30762] = {
+						["subClass"] = "Cloth",
 					},
-				},
-			},
-			[10950] = {
-				["slot"] = "INVTYPE_BODY",
-				["sources"] = {
-					[20512] = {
-						["subClass"] = "Miscellaneous",
+					[30809] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -11840,14 +12592,6 @@ CanIMogItDatabase = {
 						["classRestrictions"] = {
 							"Druid", -- [1]
 						},
-					},
-				},
-			},
-			[316] = {
-				["slot"] = "INVTYPE_HOLDABLE",
-				["sources"] = {
-					[37355] = {
-						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -11883,6 +12627,22 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
+			[325] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[189] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[326] = {
+				["sources"] = {
+					[190] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+				["slot"] = "INVTYPE_HOLDABLE",
+			},
 			[24743] = {
 				["sources"] = {
 					[63764] = {
@@ -11890,25 +12650,6 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
-			},
-			[5196] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
-				["sources"] = {
-					[14597] = {
-						["subClass"] = "Wands",
-					},
-				},
-			},
-			[14421] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[30762] = {
-						["subClass"] = "Cloth",
-					},
-					[30809] = {
-						["subClass"] = "Cloth",
-					},
-				},
 			},
 			[16617] = {
 				["slot"] = "INVTYPE_FEET",
@@ -11918,11 +12659,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[325] = {
-				["slot"] = "INVTYPE_ROBE",
+			[5196] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[189] = {
-						["subClass"] = "Cloth",
+					[14597] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -11934,13 +12675,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24332] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[4452] = {
 				["sources"] = {
-					[72528] = {
-						["subClass"] = "Cloth",
+					[6070] = {
+						["subClass"] = "Bows",
 					},
 				},
+				["slot"] = "INVTYPE_RANGED",
 			},
 			[14581] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -11950,11 +12691,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12372] = {
-				["slot"] = "INVTYPE_LEGS",
+			[334] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[24638] = {
-						["subClass"] = "Cloth",
+					[10743] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
 			},
@@ -11999,37 +12740,40 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[334] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[14773] = {
 				["sources"] = {
-					[10743] = {
-						["subClass"] = "Two-Handed Maces",
+					[32770] = {
+						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
-			[326] = {
-				["sources"] = {
-					[190] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-				["slot"] = "INVTYPE_HOLDABLE",
-			},
-			[11091] = {
+			[32481] = {
 				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[18068] = {
+					[80998] = {
+						["subClass"] = "Leather",
+						["classRestrictions"] = {
+							"Druid", -- [1]
+						},
+					},
+				},
+			},
+			[21735] = {
+				["sources"] = {
+					[62035] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[5882] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[69201] = {
 						["subClass"] = "Mail",
 					},
 				},
-			},
-			[31307] = {
-				["sources"] = {
-					[79514] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_FEET",
 			},
 			[21608] = {
 				["sources"] = {
@@ -12055,19 +12799,28 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20445] = {
+			[17480] = {
 				["sources"] = {
-					[74061] = {
-						["subClass"] = "Staves",
+					[43085] = {
+						["subClass"] = "Plate",
+					},
+					[43081] = {
+						["subClass"] = "Plate",
+					},
+					[43086] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[17769] = {
-				["slot"] = "INVTYPE_HEAD",
+			[5468] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[41194] = {
+					[7814] = {
 						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
 			},
@@ -12095,22 +12848,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26575] = {
+			[26902] = {
 				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[68794] = {
+					[79090] = {
 						["subClass"] = "Leather",
 					},
-					[76000] = {
+					[78631] = {
+						["subClass"] = "Leather",
+					},
+					[79057] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[4872] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[31395] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[69188] = {
-						["subClass"] = "Mail",
+					[79518] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -12122,29 +12878,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12426] = {
+			[22239] = {
 				["sources"] = {
-					[25034] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_ROBE",
-			},
-			[25931] = {
-				["sources"] = {
-					[73189] = {
+					[64241] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[21983] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[7286] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[62156] = {
-						["subClass"] = "Miscellaneous",
+					[12579] = {
+						["subClass"] = "Staves",
 					},
 				},
+			},
+			[13455] = {
+				["sources"] = {
+					[28176] = {
+						["subClass"] = "Plate",
+					},
+					[33252] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[26599] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -12154,16 +12913,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26595] = {
-				["slot"] = "INVTYPE_HAND",
+			[22287] = {
 				["sources"] = {
-					[74387] = {
-						["subClass"] = "Leather",
-					},
-					[74511] = {
-						["subClass"] = "Leather",
+					[81596] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[354] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -12173,11 +12929,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21261] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[9768] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[55897] = {
-						["subClass"] = "One-Handed Maces",
+					[18003] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -12189,13 +12945,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20808] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[12581] = {
 				["sources"] = {
-					[51896] = {
-						["subClass"] = "Cloth",
+					[25103] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[15541] = {
 				["slot"] = "INVTYPE_FEET",
@@ -12221,11 +12977,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11241] = {
-				["slot"] = "INVTYPE_BODY",
+			[13169] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[21566] = {
-						["subClass"] = "Miscellaneous",
+					[29658] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -12237,21 +12993,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31384] = {
-				["slot"] = "INVTYPE_HAND",
+			[17573] = {
 				["sources"] = {
-					[79525] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[22233] = {
-				["sources"] = {
-					[62095] = {
+					[45069] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
+				["slot"] = "INVTYPE_HAND",
+			},
+			[4869] = {
+				["slot"] = "INVTYPE_CHEST",
+				["sources"] = {
+					[69207] = {
+						["subClass"] = "Mail",
+					},
+				},
 			},
 			[15765] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -12307,30 +13063,27 @@ CanIMogItDatabase = {
 			[27815] = {
 				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[68792] = {
+					[80459] = {
 						["subClass"] = "Cloth",
 					},
 					[74638] = {
 						["subClass"] = "Cloth",
 					},
-					[76022] = {
+					[68792] = {
 						["subClass"] = "Cloth",
 					},
-					[80459] = {
+					[76022] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[26963] = {
+			[12453] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[73990] = {
-						["subClass"] = "Plate",
-					},
-					[77798] = {
-						["subClass"] = "Plate",
+					[24747] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[373] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -12348,21 +13101,24 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[12593] = {
+			[26588] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[25160] = {
-						["subClass"] = "Cloth",
+					[73984] = {
+						["subClass"] = "Leather",
+					},
+					[74011] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
-			[22237] = {
+			[31311] = {
 				["sources"] = {
-					[62924] = {
+					[79512] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[12054] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -12372,13 +13128,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[383] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[22231] = {
 				["sources"] = {
-					[1324] = {
-						["subClass"] = "Cloth",
+					[62092] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[32422] = {
 				["sources"] = {
@@ -12388,13 +13144,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_TABARD",
 			},
-			[5076] = {
+			[24744] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[7017] = {
-						["subClass"] = "Plate",
+					[66497] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[8215] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -12412,18 +13168,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12246] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[383] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[24767] = {
-						["subClass"] = "Staves",
+					[1324] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[12374] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[29351] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[24640] = {
+					[79047] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -12444,11 +13200,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24744] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[12374] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[66497] = {
-						["subClass"] = "Two-Handed Maces",
+					[24640] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -12499,21 +13255,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10054] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[21836] = {
 				["sources"] = {
-					[18619] = {
-						["subClass"] = "Wands",
+					[64406] = {
+						["subClass"] = "Shields",
+					},
+					[65551] = {
+						["subClass"] = "Shields",
 					},
 				},
+				["slot"] = "INVTYPE_SHIELD",
 			},
-			[28230] = {
+			[393] = {
 				["sources"] = {
-					[76665] = {
-						["subClass"] = "Leather",
+					[28153] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[8503] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -12523,21 +13282,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[29351] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[395] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[79047] = {
-						["subClass"] = "Cloth",
+					[32875] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[17500] = {
+			[26594] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[40673] = {
-						["subClass"] = "Crossbows",
+					[68702] = {
+						["subClass"] = "Leather",
+					},
+					[74385] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[17194] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -12558,14 +13320,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9958] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[8951] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[18254] = {
-						["subClass"] = "Daggers",
-					},
-					[18679] = {
-						["subClass"] = "Daggers",
+					[15936] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -12599,11 +13358,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[3022] = {
-				["slot"] = "INVTYPE_LEGS",
+			[12490] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[14384] = {
-						["subClass"] = "Cloth",
+					[24799] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -12615,21 +13374,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17898] = {
-				["slot"] = "INVTYPE_WAIST",
+			[6508] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[41763] = {
-						["subClass"] = "Cloth",
+					[9920] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[22121] = {
-				["slot"] = "INVTYPE_HAND",
+			[28229] = {
 				["sources"] = {
-					[63080] = {
+					[73782] = {
 						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[21929] = {
 				["sources"] = {
@@ -12639,10 +13398,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHIELD",
 			},
-			[8951] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[17898] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[15936] = {
+					[41763] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -12688,14 +13447,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24541] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[74190] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
 			[6636] = {
 				["sources"] = {
 					[66419] = {
@@ -12703,6 +13454,17 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_RANGED",
+			},
+			[1251] = {
+				["slot"] = "INVTYPE_CHEST",
+				["sources"] = {
+					[33332] = {
+						["subClass"] = "Leather",
+					},
+					[75905] = {
+						["subClass"] = "Mail",
+					},
+				},
 			},
 			[13270] = {
 				["slot"] = "INVTYPE_HAND",
@@ -12737,13 +13499,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[418] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13366] = {
 				["sources"] = {
-					[28457] = {
-						["subClass"] = "One-Handed Maces",
+					[28208] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[22697] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -12780,13 +13542,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[23623] = {
+			[21604] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[63605] = {
-						["subClass"] = "Plate",
+					[60946] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[9463] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -12796,13 +13558,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9513] = {
+			[1951] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[18894] = {
-						["subClass"] = "Plate",
+					[17879] = {
+						["subClass"] = "Cloth",
+					},
+					[17526] = {
+						["subClass"] = "Cloth",
+					},
+					[26096] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[19050] = {
 				["sources"] = {
@@ -12839,58 +13607,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7227] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[12492] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[9687] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[17477] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[26961] = {
-				["sources"] = {
-					[76433] = {
-						["subClass"] = "Plate",
-					},
-					[73966] = {
-						["subClass"] = "Plate",
-					},
-					[68657] = {
-						["subClass"] = "Plate",
-					},
-					[73998] = {
-						["subClass"] = "Plate",
-					},
-					[68272] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_WAIST",
-			},
-			[433] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[303] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[6956] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[12585] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
 			[27816] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
@@ -12911,24 +13627,61 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13701] = {
+			[9687] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[28233] = {
-						["subClass"] = "Plate",
-					},
-					[28250] = {
-						["subClass"] = "Plate",
+					[17477] = {
+						["subClass"] = "Daggers",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
 			},
-			[31306] = {
+			[15972] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[79510] = {
+					[36867] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[433] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[303] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[9815] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[19602] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[6956] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[12585] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[23622] = {
+				["sources"] = {
+					[63602] = {
 						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
+			},
+			[31390] = {
 				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[79522] = {
+						["subClass"] = "Leather",
+					},
+				},
 			},
 			[9911] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -12954,19 +13707,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31391] = {
-				["slot"] = "INVTYPE_FEET",
+			[19399] = {
 				["sources"] = {
-					[79517] = {
+					[46434] = {
 						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
-			[7286] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[13644] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[12579] = {
-						["subClass"] = "Staves",
+					[27985] = {
+						["subClass"] = "Fist Weapons",
 					},
 				},
 			},
@@ -12978,11 +13731,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32615] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[14262] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[82883] = {
-						["subClass"] = "Wands",
+					[30533] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -12994,11 +13747,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14262] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[32615] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[30533] = {
-						["subClass"] = "Daggers",
+					[82883] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -13018,11 +13771,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27553] = {
-				["slot"] = "INVTYPE_HAND",
+			[14313] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[80831] = {
-						["subClass"] = "Cloth",
+					[31983] = {
+						["subClass"] = "Leather",
+					},
+					[31989] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -13067,13 +13823,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16049] = {
+			[22117] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[39786] = {
-						["subClass"] = "Two-Handed Axes",
+					[63128] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[7276] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -13091,36 +13847,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26950] = {
+			[22492] = {
 				["sources"] = {
-					[76486] = {
-						["subClass"] = "Plate",
+					[78558] = {
+						["subClass"] = "One-Handed Axes",
 					},
-					[80316] = {
-						["subClass"] = "Plate",
-					},
-					[82889] = {
-						["subClass"] = "Plate",
-					},
-					[81619] = {
-						["subClass"] = "Plate",
-					},
-					[68581] = {
-						["subClass"] = "Plate",
+					[80586] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
+				["slot"] = "INVTYPE_WEAPON",
 			},
-			[13195] = {
+			[21610] = {
 				["sources"] = {
-					[28247] = {
-						["subClass"] = "Plate",
-					},
-					[28263] = {
+					[58036] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_HAND",
 			},
 			[7340] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -13130,13 +13874,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9318] = {
+			[30056] = {
 				["sources"] = {
-					[17541] = {
-						["subClass"] = "Shields",
+					[80920] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[17195] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -13174,11 +13918,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10935] = {
-				["slot"] = "INVTYPE_BODY",
+			[22058] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[20496] = {
-						["subClass"] = "Miscellaneous",
+					[57242] = {
+						["subClass"] = "Leather",
+					},
+					[57241] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -13222,13 +13969,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30056] = {
+			[10935] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[80920] = {
-						["subClass"] = "Cloth",
+					[20496] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_CLOAK",
 			},
 			[21930] = {
 				["sources"] = {
@@ -13249,11 +13996,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22058] = {
-				["slot"] = "INVTYPE_CHEST",
+			[30248] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[57242] = {
-						["subClass"] = "Leather",
+					[83348] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
 			},
@@ -13265,19 +14015,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26968] = {
+			[30440] = {
 				["sources"] = {
-					[73956] = {
-						["subClass"] = "Plate",
-					},
-					[74002] = {
-						["subClass"] = "Plate",
-					},
-					[68863] = {
-						["subClass"] = "Plate",
+					[80929] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[11127] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -13295,21 +14039,21 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CLOAK",
 			},
-			[5882] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[15524] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[69201] = {
-						["subClass"] = "Mail",
+					[36446] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[14605] = {
+			[15492] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[32319] = {
-						["subClass"] = "Two-Handed Axes",
+					[35510] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[26601] = {
 				["slot"] = "INVTYPE_FEET",
@@ -13322,16 +14066,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13253] = {
-				["slot"] = "INVTYPE_HEAD",
+			[22612] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[33182] = {
-						["subClass"] = "Cloth",
-					},
-					[76570] = {
-						["subClass"] = "Cloth",
-					},
-					[28189] = {
+					[66963] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -13344,24 +14082,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26964] = {
+			[22110] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[73994] = {
-						["subClass"] = "Plate",
-					},
-					[77794] = {
-						["subClass"] = "Plate",
+					[61158] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
-			[6970] = {
-				["slot"] = "INVTYPE_FEET",
+			[12338] = {
 				["sources"] = {
-					[72453] = {
-						["subClass"] = "Cloth",
+					[82869] = {
+						["subClass"] = "Bows",
 					},
 				},
+				["slot"] = "INVTYPE_RANGED",
 			},
 			[26921] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -13379,9 +14114,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14601] = {
+			[5012] = {
 				["sources"] = {
-					[32309] = {
+					[69102] = {
 						["subClass"] = "Plate",
 					},
 				},
@@ -13406,22 +14141,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26596] = {
-				["slot"] = "INVTYPE_HEAD",
+			[22283] = {
 				["sources"] = {
-					[68714] = {
-						["subClass"] = "Leather",
+					[66418] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[32481] = {
-				["slot"] = "INVTYPE_HEAD",
+			[16214] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[80998] = {
-						["subClass"] = "Leather",
-						["classRestrictions"] = {
-							"Druid", -- [1]
-						},
+					[37335] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -13433,11 +14165,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[6504] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[13861] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[9909] = {
-						["subClass"] = "Mail",
+					[29604] = {
+						["subClass"] = "Cloth",
+					},
+					[34210] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -13457,98 +14192,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27217] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[76847] = {
-						["subClass"] = "Cloth",
-					},
-					[78981] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[4452] = {
-				["sources"] = {
-					[6070] = {
-						["subClass"] = "Bows",
-					},
-				},
-				["slot"] = "INVTYPE_RANGED",
-			},
-			[9768] = {
-				["slot"] = "INVTYPE_CHEST",
-				["sources"] = {
-					[18003] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[21735] = {
-				["sources"] = {
-					[62035] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
-			[4869] = {
-				["slot"] = "INVTYPE_CHEST",
-				["sources"] = {
-					[69207] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[22239] = {
-				["sources"] = {
-					[64241] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[17480] = {
-				["sources"] = {
-					[43085] = {
-						["subClass"] = "Plate",
-					},
-					[43081] = {
-						["subClass"] = "Plate",
-					},
-					[43086] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_SHOULDER",
-			},
-			[22491] = {
-				["sources"] = {
-					[81574] = {
-						["subClass"] = "Shields",
-					},
-				},
-				["slot"] = "INVTYPE_SHIELD",
-			},
-			[9815] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[19602] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[21733] = {
-				["sources"] = {
-					[62036] = {
-						["subClass"] = "One-Handed Axes",
-					},
-					[62159] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
 			[8108] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
@@ -13557,48 +14200,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16214] = {
-				["slot"] = "INVTYPE_HAND",
+			[11799] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[37335] = {
-						["subClass"] = "Cloth",
+					[22734] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[508] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[29373] = {
-						["subClass"] = "Cloth",
-					},
-					[30322] = {
-						["subClass"] = "Cloth",
-					},
-					[27852] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[12311] = {
-				["sources"] = {
-					[24562] = {
-						["subClass"] = "Mail",
-					},
-				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[12215] = {
-				["sources"] = {
-					[25035] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[24490] = {
+			[24485] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[63935] = {
+					[63743] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -13619,13 +14232,126 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17573] = {
+			[3778] = {
 				["sources"] = {
-					[45069] = {
+					[33331] = {
+						["subClass"] = "Plate",
+					},
+					[33388] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_LEGS",
+			},
+			[585] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[1304] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[10949] = {
+				["slot"] = "INVTYPE_BODY",
+				["sources"] = {
+					[20511] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[14892] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[33262] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12439] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[24727] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[16748] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[39788] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[32424] = {
+				["sources"] = {
+					[81608] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+				["slot"] = "INVTYPE_TABARD",
+			},
+			[508] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[29373] = {
+						["subClass"] = "Cloth",
+					},
+					[30322] = {
+						["subClass"] = "Cloth",
+					},
+					[27852] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[26922] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[80066] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[12215] = {
+				["sources"] = {
+					[25035] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_LEGS",
+			},
+			[24490] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[63935] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12279] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[25072] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[12311] = {
+				["sources"] = {
+					[24562] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_LEGS",
+			},
+			[3722] = {
+				["sources"] = {
+					[4676] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[16556] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -13635,22 +14361,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26594] = {
-				["slot"] = "INVTYPE_CHEST",
+			[12970] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[68702] = {
+					[26252] = {
 						["subClass"] = "Leather",
 					},
-					[74385] = {
+					[29643] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[12439] = {
-				["slot"] = "INVTYPE_LEGS",
+			[8344] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[24727] = {
-						["subClass"] = "Mail",
+					[14869] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -13686,24 +14412,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12581] = {
+			[22059] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[25103] = {
-						["subClass"] = "Plate",
+					[58031] = {
+						["subClass"] = "Leather",
+					},
+					[57237] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
-			[21836] = {
+			[13111] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[64406] = {
-						["subClass"] = "Shields",
-					},
-					[65551] = {
-						["subClass"] = "Shields",
+					[27450] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
 			[536] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -13741,13 +14467,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22231] = {
+			[22379] = {
+				["slot"] = "INVTYPE_SHIELD",
 				["sources"] = {
-					[62092] = {
-						["subClass"] = "Plate",
+					[81573] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[4349] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -13757,11 +14483,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21739] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[9464] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[66619] = {
-						["subClass"] = "Miscellaneous",
+					[16923] = {
+						["subClass"] = "Leather",
+					},
+					[16931] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -13773,29 +14502,29 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[12453] = {
-				["slot"] = "INVTYPE_HAND",
+			[4397] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[24747] = {
-						["subClass"] = "Mail",
+					[5984] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[2207] = {
-				["slot"] = "INVTYPE_LEGS",
+			[21739] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[2554] = {
-						["subClass"] = "Cloth",
+					[66619] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[6508] = {
-				["slot"] = "INVTYPE_FEET",
+			[3613] = {
 				["sources"] = {
-					[9920] = {
-						["subClass"] = "Mail",
+					[33365] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[4445] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -13805,11 +14534,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[572] = {
+			[688] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[32847] = {
-						["subClass"] = "One-Handed Maces",
+					[14388] = {
+						["subClass"] = "Daggers",
+					},
+					[27920] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -13832,19 +14564,28 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13111] = {
-				["slot"] = "INVTYPE_LEGS",
+			[564] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[27450] = {
-						["subClass"] = "Cloth",
+					[75498] = {
+						["subClass"] = "Mail",
+					},
+					[75773] = {
+						["subClass"] = "Mail",
+					},
+					[25795] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[26922] = {
-				["slot"] = "INVTYPE_FEET",
+			[630] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[80066] = {
-						["subClass"] = "Leather",
+					[27488] = {
+						["subClass"] = "Staves",
+					},
+					[27491] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -13864,21 +14605,24 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[22379] = {
-				["slot"] = "INVTYPE_SHIELD",
+			[572] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[81573] = {
-						["subClass"] = "Shields",
+					[32847] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[4685] = {
-				["slot"] = "INVTYPE_CHEST",
+			[14551] = {
 				["sources"] = {
-					[69210] = {
-						["subClass"] = "Leather",
+					[31951] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[31954] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[26602] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -13923,26 +14667,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9368] = {
-				["slot"] = "INVTYPE_WRIST",
+			[4685] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[18522] = {
-						["subClass"] = "Cloth",
-					},
-					[18545] = {
-						["subClass"] = "Cloth",
-					},
-					[16686] = {
-						["subClass"] = "Cloth",
-					},
-					[18114] = {
-						["subClass"] = "Cloth",
-					},
-					[18122] = {
-						["subClass"] = "Cloth",
-					},
-					[18548] = {
-						["subClass"] = "Cloth",
+					[69210] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -14004,6 +14733,9 @@ CanIMogItDatabase = {
 					[18287] = {
 						["subClass"] = "Daggers",
 					},
+					[46915] = {
+						["subClass"] = "Daggers",
+					},
 					[17549] = {
 						["subClass"] = "Daggers",
 					},
@@ -14012,13 +14744,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31311] = {
+			[14455] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[79512] = {
-						["subClass"] = "Plate",
+					[65595] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[13719] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -14028,13 +14760,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3774] = {
-				["slot"] = "INVTYPE_HAND",
+			[9839] = {
 				["sources"] = {
-					[4752] = {
-						["subClass"] = "Mail",
+					[17864] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[9688] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -14047,21 +14779,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[23058] = {
-				["slot"] = "INVTYPE_FEET",
+			[29354] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[63374] = {
-						["subClass"] = "Leather",
+					[78687] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13479] = {
+			[5309] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[27471] = {
-						["subClass"] = "One-Handed Swords",
+					[7488] = {
+						["subClass"] = "Daggers",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[9784] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -14118,14 +14850,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[630] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[2663] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[27488] = {
-						["subClass"] = "Staves",
-					},
-					[27491] = {
-						["subClass"] = "Staves",
+					[14614] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -14175,13 +14904,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13353] = {
+			[5389] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[28234] = {
-						["subClass"] = "Shields",
+					[13897] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
 			[32617] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -14210,21 +14939,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5405] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[10277] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[7656] = {
-						["subClass"] = "One-Handed Maces",
+					[21284] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[28229] = {
+			[676] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[73782] = {
-						["subClass"] = "Leather",
+					[4389] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[14423] = {
 				["slot"] = "INVTYPE_HAND",
@@ -14237,40 +14966,49 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14455] = {
-				["slot"] = "INVTYPE_HOLDABLE",
-				["sources"] = {
-					[65595] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[664] = {
+			[24811] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[589] = {
-						["subClass"] = "Daggers",
+					[60635] = {
+						["subClass"] = "Fist Weapons",
 					},
 				},
 			},
-			[2663] = {
-				["slot"] = "INVTYPE_LEGS",
+			[21740] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[14614] = {
+					[64211] = {
+						["subClass"] = "Polearms",
+					},
+					[64195] = {
+						["subClass"] = "Polearms",
+					},
+					[58950] = {
+						["subClass"] = "Polearms",
+					},
+					[65560] = {
+						["subClass"] = "Polearms",
+					},
+				},
+			},
+			[21843] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[58956] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[60444] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[10456] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[19633] = {
 						["subClass"] = "Cloth",
 					},
 				},
-			},
-			[14551] = {
-				["sources"] = {
-					[31951] = {
-						["subClass"] = "One-Handed Axes",
-					},
-					[31954] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[14583] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -14291,10 +15029,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGED",
 			},
-			[676] = {
+			[17901] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[4389] = {
+					[41766] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -14307,10 +15045,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5309] = {
+			[664] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[7488] = {
+					[589] = {
 						["subClass"] = "Daggers",
 					},
 				},
@@ -14342,10 +15080,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17901] = {
-				["slot"] = "INVTYPE_LEGS",
+			[10117] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[41766] = {
+					[21941] = {
+						["subClass"] = "Cloth",
+					},
+					[18792] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -14358,19 +15099,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[21612] = {
+			[5405] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[60944] = {
-						["subClass"] = "Plate",
-					},
-					[57250] = {
-						["subClass"] = "Plate",
-					},
-					[62209] = {
-						["subClass"] = "Plate",
+					[7656] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[10840] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -14388,13 +15123,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22060] = {
-				["slot"] = "INVTYPE_LEGS",
+			[718] = {
 				["sources"] = {
-					[62207] = {
-						["subClass"] = "Leather",
+					[14455] = {
+						["subClass"] = "Staves",
+					},
+					[32209] = {
+						["subClass"] = "Staves",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[5469] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -14436,40 +15174,37 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26597] = {
-				["slot"] = "INVTYPE_LEGS",
+			[11512] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[68718] = {
-						["subClass"] = "Leather",
-					},
-					[74389] = {
-						["subClass"] = "Leather",
+					[22003] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[21604] = {
-				["slot"] = "INVTYPE_LEGS",
+			[28228] = {
 				["sources"] = {
-					[60946] = {
+					[76667] = {
 						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
-			[31390] = {
-				["slot"] = "INVTYPE_WAIST",
+			[10508] = {
 				["sources"] = {
-					[79522] = {
-						["subClass"] = "Leather",
+					[19690] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[12490] = {
-				["slot"] = "INVTYPE_CHEST",
+			[22380] = {
 				["sources"] = {
-					[24799] = {
-						["subClass"] = "Mail",
+					[81572] = {
+						["subClass"] = "Shields",
 					},
 				},
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[5613] = {
 				["slot"] = "INVTYPE_FEET",
@@ -14499,13 +15234,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19399] = {
+			[9517] = {
 				["sources"] = {
-					[46434] = {
-						["subClass"] = "Leather",
+					[17153] = {
+						["subClass"] = "Plate",
+					},
+					[19635] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_FEET",
 			},
 			[22636] = {
 				["sources"] = {
@@ -14523,19 +15261,27 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[13366] = {
+			[3498] = {
 				["sources"] = {
-					[28208] = {
-						["subClass"] = "Two-Handed Swords",
+					[10688] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[22828] = {
 				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
 					[70360] = {
 						["subClass"] = "Leather",
+					},
+				},
+			},
+			[12248] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[25047] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -14549,17 +15295,6 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_FEET",
-			},
-			[718] = {
-				["sources"] = {
-					[14455] = {
-						["subClass"] = "Staves",
-					},
-					[32209] = {
-						["subClass"] = "Staves",
-					},
-				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[27115] = {
 				["sources"] = {
@@ -14612,13 +15347,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22492] = {
+			[3135] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[78558] = {
-						["subClass"] = "One-Handed Axes",
+					[16687] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[27563] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -14634,13 +15369,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13644] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[9497] = {
 				["sources"] = {
-					[27985] = {
-						["subClass"] = "Fist Weapons",
+					[21484] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
 			[19501] = {
 				["sources"] = {
@@ -14650,13 +15385,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHIELD",
 			},
-			[12462] = {
+			[23621] = {
 				["sources"] = {
-					[24760] = {
-						["subClass"] = "Bows",
+					[63594] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_RANGED",
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[27819] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -14694,11 +15429,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6109] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[3458] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[32957] = {
-						["subClass"] = "Staves",
+					[66660] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -14710,13 +15445,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[766] = {
+			[6509] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[72383] = {
-						["subClass"] = "Miscellaneous",
+					[9921] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_HOLDABLE",
 			},
 			[3015] = {
 				["sources"] = {
@@ -14742,13 +15477,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[29163] = {
+			[13112] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[82007] = {
+					[29520] = {
+						["subClass"] = "Cloth",
+					},
+					[29554] = {
 						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[3047] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -14758,21 +15496,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32618] = {
+			[6109] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[82871] = {
-						["subClass"] = "Two-Handed Maces",
+					[32957] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[12248] = {
-				["slot"] = "INVTYPE_HAND",
+			[766] = {
 				["sources"] = {
-					[25047] = {
-						["subClass"] = "Plate",
+					[72383] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
+				["slot"] = "INVTYPE_HOLDABLE",
 			},
 			[12280] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -14806,13 +15544,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12568] = {
-				["slot"] = "INVTYPE_LEGS",
+			[27460] = {
 				["sources"] = {
-					[25004] = {
-						["subClass"] = "Plate",
+					[77644] = {
+						["subClass"] = "Mail",
+					},
+					[77508] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[12440] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -14838,34 +15579,37 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3135] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[29163] = {
 				["sources"] = {
-					[16687] = {
+					[82007] = {
 						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[3143] = {
-				["slot"] = "INVTYPE_CHEST",
+			[12568] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[3784] = {
-						["subClass"] = "Mail",
+					[25004] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
-			[15524] = {
+			[9605] = {
+				["sources"] = {
+					[17277] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+				},
 				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[36446] = {
-						["subClass"] = "Staves",
-					},
-				},
 			},
-			[15492] = {
-				["slot"] = "INVTYPE_ROBE",
+			[13304] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[35510] = {
+					[32053] = {
+						["subClass"] = "Cloth",
+					},
+					[32056] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -14920,25 +15664,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22117] = {
-				["slot"] = "INVTYPE_WAIST",
+			[9337] = {
 				["sources"] = {
-					[63128] = {
-						["subClass"] = "Leather",
+					[17531] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[1951] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[26924] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[17879] = {
-						["subClass"] = "Cloth",
-					},
-					[17526] = {
-						["subClass"] = "Cloth",
-					},
-					[26096] = {
-						["subClass"] = "Cloth",
+					[80068] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -14950,13 +15688,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[21933] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[22957] = {
 				["sources"] = {
-					[66454] = {
-						["subClass"] = "One-Handed Maces",
+					[63161] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[8825] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -14974,22 +15712,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13112] = {
-				["slot"] = "INVTYPE_ROBE",
+			[27116] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[29520] = {
-						["subClass"] = "Cloth",
+					[68430] = {
+						["subClass"] = "Plate",
 					},
-					[29554] = {
-						["subClass"] = "Cloth",
+					[77586] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
-			[6509] = {
-				["slot"] = "INVTYPE_CHEST",
+			[21933] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[9921] = {
-						["subClass"] = "Mail",
+					[66454] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -15020,13 +15758,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[22509] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[13508] = {
 				["sources"] = {
-					[81581] = {
-						["subClass"] = "Guns",
+					[28180] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[13176] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -15047,33 +15785,30 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHIELD",
 			},
-			[13528] = {
-				["slot"] = "INVTYPE_WRIST",
+			[3399] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[76646] = {
-						["subClass"] = "Cloth",
+					[27896] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
-			[18990] = {
-				["slot"] = "INVTYPE_FEET",
+			[9561] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[47269] = {
-						["subClass"] = "Cloth",
+					[17221] = {
+						["subClass"] = "Daggers",
 					},
-					[47271] = {
-						["subClass"] = "Cloth",
+					[20769] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[13304] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[22509] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[32053] = {
-						["subClass"] = "Cloth",
-					},
-					[32056] = {
-						["subClass"] = "Cloth",
+					[81581] = {
+						["subClass"] = "Guns",
 					},
 				},
 			},
@@ -15096,21 +15831,24 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[13720] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[858] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[30518] = {
-						["subClass"] = "Cloth",
+					[10741] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[9337] = {
+			[26860] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[17531] = {
-						["subClass"] = "Plate",
+					[81367] = {
+						["subClass"] = "Mail",
+					},
+					[81369] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[22829] = {
 				["slot"] = "INVTYPE_FEET",
@@ -15131,32 +15869,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22957] = {
+			[13528] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[63161] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_CHEST",
-			},
-			[27116] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[68430] = {
-						["subClass"] = "Plate",
-					},
-					[77586] = {
-						["subClass"] = "Plate",
+					[76646] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9497] = {
+			[3391] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[21484] = {
-						["subClass"] = "Plate",
+					[4136] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+			},
+			[18990] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[47269] = {
+						["subClass"] = "Cloth",
+					},
+					[47271] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[19054] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -15166,14 +15904,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9561] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[854] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[17221] = {
-						["subClass"] = "Daggers",
-					},
-					[20769] = {
-						["subClass"] = "Daggers",
+					[1627] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -15185,21 +15920,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[858] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13720] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[10741] = {
-						["subClass"] = "One-Handed Maces",
+					[30518] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[11727] = {
+			[12871] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[46955] = {
-						["subClass"] = "Plate",
+					[26759] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
 			},
 			[6893] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -15209,21 +15944,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22612] = {
+			[3333] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[66963] = {
-						["subClass"] = "Cloth",
+					[31885] = {
+						["subClass"] = "Leather",
+					},
+					[31888] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[13287] = {
+			[13976] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[28217] = {
-						["subClass"] = "One-Handed Axes",
+					[29565] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[9785] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -15276,10 +16014,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13976] = {
-				["slot"] = "INVTYPE_HAND",
+			[9881] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[29565] = {
+					[72712] = {
+						["subClass"] = "Cloth",
+					},
+					[20904] = {
+						["subClass"] = "Cloth",
+					},
+					[21439] = {
+						["subClass"] = "Cloth",
+					},
+					[20763] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -15292,24 +16039,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3778] = {
+			[22604] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[33331] = {
-						["subClass"] = "Plate",
-					},
-					[33388] = {
-						["subClass"] = "Plate",
+					[70340] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
-			[22283] = {
+			[13003] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[66418] = {
-						["subClass"] = "Two-Handed Swords",
+					[32866] = {
+						["subClass"] = "Leather",
+					},
+					[28000] = {
+						["subClass"] = "Leather",
+					},
+					[27997] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[14104] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -15354,11 +16104,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10949] = {
-				["slot"] = "INVTYPE_BODY",
+			[22057] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[20511] = {
-						["subClass"] = "Miscellaneous",
+					[58030] = {
+						["subClass"] = "Leather",
+					},
+					[65993] = {
+						["subClass"] = "Leather",
+					},
+					[57235] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -15389,19 +16145,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12233] = {
+			[3639] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[25097] = {
-						["subClass"] = "Plate",
-					},
-					[25092] = {
-						["subClass"] = "Plate",
-					},
-					[74359] = {
-						["subClass"] = "Plate",
+					[4546] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[14424] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -15430,21 +16180,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13496] = {
+			[29164] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[82870] = {
-						["subClass"] = "One-Handed Axes",
+					[81943] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
-			[3639] = {
-				["slot"] = "INVTYPE_CHEST",
+			[14552] = {
 				["sources"] = {
-					[4546] = {
-						["subClass"] = "Leather",
+					[31957] = {
+						["subClass"] = "Guns",
+					},
+					[31960] = {
+						["subClass"] = "Guns",
 					},
 				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[14584] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -15454,37 +16207,40 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5012] = {
+			[17903] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[69102] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[29164] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[81943] = {
+					[41768] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3722] = {
+			[3783] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[4676] = {
+					[4761] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[3815] = {
+				["sources"] = {
+					[59033] = {
+						["subClass"] = "Shields",
+					},
+				},
+				["slot"] = "INVTYPE_SHIELD",
+			},
+			[22382] = {
+				["sources"] = {
+					[80286] = {
+						["subClass"] = "One-Handed Swords",
+					},
+					[80289] = {
 						["subClass"] = "One-Handed Swords",
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
-			},
-			[22110] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[61158] = {
-						["subClass"] = "Leather",
-					},
-				},
 			},
 			[14744] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -15533,10 +16289,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22059] = {
+			[12996] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[58031] = {
+					[27475] = {
+						["subClass"] = "Leather",
+					},
+					[27478] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -15552,11 +16311,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[11001] = {
-				["slot"] = "INVTYPE_HAND",
+			[21829] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[20705] = {
-						["subClass"] = "Leather",
+					[58955] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -15582,21 +16341,24 @@ CanIMogItDatabase = {
 					[65502] = {
 						["subClass"] = "Staves",
 					},
-				},
-			},
-			[3783] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[4761] = {
-						["subClass"] = "Mail",
+					[60442] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[17903] = {
-				["slot"] = "INVTYPE_FEET",
+			[21765] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[41768] = {
+					[73499] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[11001] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[20705] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -15616,14 +16378,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[956] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[12900] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[27482] = {
-						["subClass"] = "Daggers",
+					[31589] = {
+						["subClass"] = "Cloth",
 					},
-					[27485] = {
-						["subClass"] = "Daggers",
+					[31928] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -15635,30 +16397,33 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3815] = {
+			[954] = {
 				["sources"] = {
-					[59033] = {
-						["subClass"] = "Shields",
+					[27461] = {
+						["subClass"] = "Bows",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
+				["slot"] = "INVTYPE_RANGED",
 			},
-			[22382] = {
-				["sources"] = {
-					[80286] = {
-						["subClass"] = "One-Handed Swords",
-					},
-					[80289] = {
-						["subClass"] = "One-Handed Swords",
-					},
-				},
+			[956] = {
 				["slot"] = "INVTYPE_WEAPON",
-			},
-			[3781] = {
-				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[4759] = {
-						["subClass"] = "Mail",
+					[27482] = {
+						["subClass"] = "Daggers",
+					},
+					[27485] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[12598] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[25176] = {
+						["subClass"] = "Leather",
+					},
+					[25178] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -15684,24 +16449,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12970] = {
-				["slot"] = "INVTYPE_WAIST",
+			[14903] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[26252] = {
-						["subClass"] = "Leather",
-					},
-					[29643] = {
-						["subClass"] = "Leather",
+					[33294] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[12338] = {
+			[21606] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[82869] = {
-						["subClass"] = "Bows",
+					[60954] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_RANGED",
 			},
 			[7741] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -15719,9 +16481,12 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[21837] = {
+			[3242] = {
 				["sources"] = {
-					[62154] = {
+					[33351] = {
+						["subClass"] = "Shields",
+					},
+					[33395] = {
 						["subClass"] = "Shields",
 					},
 				},
@@ -15738,21 +16503,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4155] = {
-				["slot"] = "INVTYPE_HAND",
+			[12469] = {
 				["sources"] = {
-					[5589] = {
-						["subClass"] = "Mail",
+					[24769] = {
+						["subClass"] = "Plate",
 					},
-				},
-			},
-			[3613] = {
-				["sources"] = {
-					[33365] = {
+					[25148] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
+				["slot"] = "INVTYPE_HAND",
+			},
+			[7226] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[12491] = {
+						["subClass"] = "Leather",
+					},
+				},
 			},
 			[27245] = {
 				["sources"] = {
@@ -15762,40 +16530,43 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[5308] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[13642] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[69213] = {
-						["subClass"] = "Two-Handed Maces",
+					[27971] = {
+						["subClass"] = "Leather",
+					},
+					[27967] = {
+						["subClass"] = "Leather",
+					},
+					[32837] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[14552] = {
+			[12917] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[31957] = {
-						["subClass"] = "Guns",
-					},
-					[31960] = {
-						["subClass"] = "Guns",
+					[27463] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[14024] = {
-				["slot"] = "INVTYPE_HEAD",
+			[16056] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[29676] = {
+					[39808] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[1014] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[1016] = {
 						["subClass"] = "Cloth",
 					},
-					[31863] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[14892] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[33262] = {
+					[30303] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -15811,11 +16582,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10277] = {
-				["slot"] = "INVTYPE_ROBE",
+			[12345] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[21284] = {
-						["subClass"] = "Cloth",
+					[25068] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -15863,19 +16634,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[7385] = {
+				["sources"] = {
+					[13400] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
+			},
 			[8029] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
 					[13989] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[16056] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[39808] = {
-						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -15895,30 +16666,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8077] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[12057] = {
 				["sources"] = {
-					[14084] = {
-						["subClass"] = "Daggers",
+					[24834] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[1012] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
 					[1014] = {
 						["subClass"] = "Staves",
-					},
-				},
-			},
-			[1014] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[1016] = {
-						["subClass"] = "Cloth",
-					},
-					[30303] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -15930,13 +16690,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12345] = {
-				["slot"] = "INVTYPE_CHEST",
+			[12505] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[25068] = {
-						["subClass"] = "Mail",
+					[24820] = {
+						["subClass"] = "Leather",
 					},
 				},
+			},
+			[12452] = {
+				["sources"] = {
+					[24746] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[8157] = {
 				["slot"] = "INVTYPE_TABARD",
@@ -16043,35 +16811,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10117] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[12388] = {
 				["sources"] = {
-					[21941] = {
-						["subClass"] = "Cloth",
-					},
-					[18792] = {
+					[24659] = {
 						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[13861] = {
-				["slot"] = "INVTYPE_HAND",
+			[17392] = {
 				["sources"] = {
-					[29604] = {
-						["subClass"] = "Cloth",
-					},
-					[34210] = {
-						["subClass"] = "Cloth",
+					[41758] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
-			[4414] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[6537] = {
 				["sources"] = {
-					[32882] = {
-						["subClass"] = "One-Handed Maces",
+					[10044] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[17200] = {
 				["slot"] = "INVTYPE_FEET",
@@ -16081,19 +16843,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[28228] = {
+			[12292] = {
 				["sources"] = {
-					[76667] = {
-						["subClass"] = "Leather",
+					[24543] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[13081] = {
-				["slot"] = "INVTYPE_WRIST",
+			[4414] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[28220] = {
-						["subClass"] = "Cloth",
+					[32882] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -16105,22 +16867,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22127] = {
-				["slot"] = "INVTYPE_FEET",
+			[12228] = {
 				["sources"] = {
-					[66416] = {
-						["subClass"] = "Leather",
+					[24469] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
-			[13177] = {
-				["slot"] = "INVTYPE_WRIST",
+			[22255] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[26709] = {
-						["subClass"] = "Cloth",
+					[66857] = {
+						["subClass"] = "One-Handed Maces",
 					},
-					[26713] = {
-						["subClass"] = "Cloth",
+					[67327] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -16168,6 +16930,9 @@ CanIMogItDatabase = {
 					[66027] = {
 						["subClass"] = "One-Handed Maces",
 					},
+					[66496] = {
+						["subClass"] = "One-Handed Maces",
+					},
 					[61127] = {
 						["subClass"] = "One-Handed Maces",
 					},
@@ -16183,7 +16948,7 @@ CanIMogItDatabase = {
 					[62150] = {
 						["subClass"] = "One-Handed Maces",
 					},
-					[66496] = {
+					[60632] = {
 						["subClass"] = "One-Handed Maces",
 					},
 				},
@@ -16204,30 +16969,60 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9018] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[22127] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[16068] = {
-						["subClass"] = "Daggers",
+					[66416] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[3498] = {
+			[1180] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[10688] = {
+					[1215] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[13177] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[26709] = {
+						["subClass"] = "Cloth",
+					},
+					[26713] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[7977] = {
+				["sources"] = {
+					[13936] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[22255] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[22383] = {
 				["sources"] = {
-					[66857] = {
-						["subClass"] = "One-Handed Maces",
+					[81594] = {
+						["subClass"] = "One-Handed Swords",
 					},
-					[67327] = {
-						["subClass"] = "One-Handed Maces",
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[27246] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[78603] = {
+						["subClass"] = "Leather",
+					},
+					[77528] = {
+						["subClass"] = "Leather",
+					},
+					[77460] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -16242,30 +17037,6 @@ CanIMogItDatabase = {
 					},
 					[73823] = {
 						["subClass"] = "Leather",
-					},
-				},
-			},
-			[22383] = {
-				["sources"] = {
-					[81594] = {
-						["subClass"] = "One-Handed Swords",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
-			[1184] = {
-				["sources"] = {
-					[26093] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-				["slot"] = "INVTYPE_HOLDABLE",
-			},
-			[13305] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[30794] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -16285,13 +17056,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HAND",
 			},
-			[13561] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[6035] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[29879] = {
-						["subClass"] = "Cloth",
-					},
-					[29882] = {
+					[13837] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -16326,40 +17094,40 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1180] = {
-				["slot"] = "INVTYPE_BODY",
+			[4718] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[1215] = {
+					[17206] = {
 						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[9466] = {
-				["slot"] = "INVTYPE_LEGS",
+			[13561] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[16933] = {
-						["subClass"] = "Leather",
+					[29879] = {
+						["subClass"] = "Cloth",
+					},
+					[29882] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[23621] = {
+			[13689] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[63594] = {
+					[28194] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[9530] = {
+				["sources"] = {
+					[17144] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
-			},
-			[27246] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[77528] = {
-						["subClass"] = "Leather",
-					},
-					[78603] = {
-						["subClass"] = "Leather",
-					},
-				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[9562] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -16418,21 +17186,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3458] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[1184] = {
 				["sources"] = {
-					[66660] = {
-						["subClass"] = "Cloth",
+					[26093] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
+				["slot"] = "INVTYPE_HOLDABLE",
 			},
-			[13689] = {
-				["slot"] = "INVTYPE_LEGS",
+			[6890] = {
 				["sources"] = {
-					[28194] = {
-						["subClass"] = "Cloth",
+					[12513] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
 			[27822] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -16481,33 +17249,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1691] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[11940] = {
 				["sources"] = {
-					[24068] = {
-						["subClass"] = "Cloth",
-					},
-					[10577] = {
-						["subClass"] = "Cloth",
-					},
-					[72742] = {
-						["subClass"] = "Cloth",
-					},
-					[24198] = {
-						["subClass"] = "Cloth",
+					[46970] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[27460] = {
+			[9466] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[77644] = {
-						["subClass"] = "Mail",
-					},
-					[77508] = {
-						["subClass"] = "Mail",
+					[16933] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[5006] = {
 				["sources"] = {
@@ -16528,13 +17284,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9605] = {
+			[9522] = {
 				["sources"] = {
-					[17277] = {
-						["subClass"] = "Two-Handed Swords",
+					[17158] = {
+						["subClass"] = "Plate",
+					},
+					[17859] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[1264] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -16552,21 +17311,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13657] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13482] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[31973] = {
+					[27495] = {
+						["subClass"] = "Leather",
+					},
+					[27498] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[3462] = {
-				["slot"] = "INVTYPE_LEGS",
+			[23620] = {
 				["sources"] = {
-					[4263] = {
-						["subClass"] = "Leather",
+					[63597] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[5118] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -16576,22 +17338,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1222] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[9018] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[29782] = {
-						["subClass"] = "Cloth",
+					[16068] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[22057] = {
-				["slot"] = "INVTYPE_FEET",
+			[9648] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[58030] = {
-						["subClass"] = "Leather",
-					},
-					[65993] = {
-						["subClass"] = "Leather",
+					[17346] = {
+						["subClass"] = "Polearms",
 					},
 				},
 			},
@@ -16603,26 +17362,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9839] = {
+			[32557] = {
 				["sources"] = {
-					[17864] = {
+					[80961] = {
 						["subClass"] = "Plate",
+						["classRestrictions"] = {
+							"Warrior", -- [1]
+						},
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
+				["slot"] = "INVTYPE_WAIST",
 			},
-			[13508] = {
+			[9553] = {
 				["sources"] = {
-					[28180] = {
-						["subClass"] = "Plate",
+					[17194] = {
+						["subClass"] = "Shields",
 					},
 				},
+				["slot"] = "INVTYPE_SHIELD",
+			},
+			[12971] = {
 				["slot"] = "INVTYPE_CHEST",
-			},
-			[22122] = {
-				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[63104] = {
+					[26253] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -16651,57 +17413,45 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12598] = {
-				["slot"] = "INVTYPE_ROBE",
+			[4477] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[25176] = {
-						["subClass"] = "Leather",
-					},
-					[25178] = {
+					[7057] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[12871] = {
+			[1535] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[1644] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[8197] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[26759] = {
-						["subClass"] = "Leather",
+					[14391] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13003] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[2495] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[32866] = {
-						["subClass"] = "Leather",
-					},
-					[28000] = {
-						["subClass"] = "Leather",
-					},
-					[27997] = {
-						["subClass"] = "Leather",
+					[10192] = {
+						["subClass"] = "Fist Weapons",
 					},
 				},
 			},
-			[12916] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[9332] = {
 				["sources"] = {
-					[26693] = {
-						["subClass"] = "Leather",
-					},
-					[26697] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[10508] = {
-				["sources"] = {
-					[19690] = {
+					[17141] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[5358] = {
 				["sources"] = {
@@ -16711,11 +17461,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[12505] = {
-				["slot"] = "INVTYPE_HEAD",
+			[22000] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[24820] = {
-						["subClass"] = "Leather",
+					[63767] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -16736,6 +17486,9 @@ CanIMogItDatabase = {
 					[65597] = {
 						["subClass"] = "One-Handed Maces",
 					},
+					[33378] = {
+						["subClass"] = "One-Handed Maces",
+					},
 				},
 			},
 			[17585] = {
@@ -16746,16 +17499,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12469] = {
+			[2858] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[24769] = {
-						["subClass"] = "Plate",
-					},
-					[25148] = {
-						["subClass"] = "Plate",
+					[3371] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
 			[21808] = {
 				["sources"] = {
@@ -16773,11 +17523,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5534] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[4910] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[7931] = {
-						["subClass"] = "Wands",
+					[69189] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -16805,19 +17555,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21606] = {
-				["slot"] = "INVTYPE_CHEST",
+			[25452] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[60954] = {
-						["subClass"] = "Leather",
+					[69610] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[22448] = {
-				["slot"] = "INVTYPE_FEET",
+			[12920] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[61345] = {
-						["subClass"] = "Mail",
+					[27459] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -16868,6 +17618,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[11300] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[21674] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
 			[22640] = {
 				["sources"] = {
 					[70320] = {
@@ -16875,14 +17633,6 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_HEAD",
-			},
-			[30830] = {
-				["sources"] = {
-					[78917] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_CLOAK",
 			},
 			[26863] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -16906,13 +17656,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13332] = {
+			[22609] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[33212] = {
-						["subClass"] = "Guns",
+					[70324] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[22896] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -16922,13 +17672,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4502] = {
-				["slot"] = "INVTYPE_LEGS",
+			[3750] = {
 				["sources"] = {
-					[6194] = {
-						["subClass"] = "Leather",
+					[4713] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[27119] = {
 				["sources"] = {
@@ -16938,16 +17688,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[12996] = {
-				["slot"] = "INVTYPE_HAND",
+			[9516] = {
 				["sources"] = {
-					[27475] = {
-						["subClass"] = "Leather",
-					},
-					[27478] = {
-						["subClass"] = "Leather",
+					[18892] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[27247] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -16960,24 +17707,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3242] = {
+			[22448] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[33351] = {
-						["subClass"] = "Shields",
-					},
-					[33395] = {
-						["subClass"] = "Shields",
+					[61345] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
-			[21765] = {
-				["slot"] = "INVTYPE_HEAD",
+			[6300] = {
 				["sources"] = {
-					[73499] = {
-						["subClass"] = "Cloth",
+					[9439] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[11674] = {
 				["slot"] = "INVTYPE_HAND",
@@ -16990,13 +17734,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12900] = {
-				["slot"] = "INVTYPE_WAIST",
+			[31374] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[31589] = {
-						["subClass"] = "Cloth",
-					},
-					[31928] = {
+					[79538] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -17037,11 +17778,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12917] = {
-				["slot"] = "INVTYPE_CHEST",
+			[30274] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[27463] = {
-						["subClass"] = "Leather",
+					[81146] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17068,43 +17809,55 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12057] = {
+			[1200] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[24834] = {
-						["subClass"] = "One-Handed Swords",
+					[10447] = {
+						["subClass"] = "Daggers",
+					},
+					[31285] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[12327] = {
+				["sources"] = {
+					[35456] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[13642] = {
-				["slot"] = "INVTYPE_HAND",
+			[10948] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[27971] = {
-						["subClass"] = "Leather",
-					},
-					[27967] = {
-						["subClass"] = "Leather",
-					},
-					[32837] = {
-						["subClass"] = "Leather",
+					[20510] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[7226] = {
-				["slot"] = "INVTYPE_WRIST",
+			[9678] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[12491] = {
-						["subClass"] = "Leather",
+					[18272] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[17433] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[18687] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[18688] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[18251] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[21163] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
-			},
-			[7977] = {
-				["sources"] = {
-					[13936] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[1504] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -17114,26 +17867,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13004] = {
-				["slot"] = "INVTYPE_WRIST",
+			[12538] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[27986] = {
-						["subClass"] = "Leather",
-					},
-					[31874] = {
-						["subClass"] = "Leather",
-					},
-					[32865] = {
-						["subClass"] = "Leather",
-					},
-					[31944] = {
-						["subClass"] = "Leather",
-					},
-					[31870] = {
-						["subClass"] = "Leather",
-					},
-					[31948] = {
-						["subClass"] = "Leather",
+					[24915] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -17153,13 +17891,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9512] = {
+			[8494] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[17164] = {
-						["subClass"] = "Plate",
+					[15118] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[16281] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -17177,11 +17915,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4477] = {
-				["slot"] = "INVTYPE_CHEST",
+			[8859] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[7057] = {
-						["subClass"] = "Leather",
+					[15790] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17193,13 +17931,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11145] = {
-				["slot"] = "INVTYPE_WRIST",
+			[4507] = {
 				["sources"] = {
-					[21292] = {
-						["subClass"] = "Cloth",
+					[17540] = {
+						["subClass"] = "Guns",
 					},
 				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[8251] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -17209,11 +17947,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12538] = {
-				["slot"] = "INVTYPE_HEAD",
+			[1696] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[24915] = {
-						["subClass"] = "Mail",
+					[28370] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -17274,33 +18012,36 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26864] = {
-				["slot"] = "INVTYPE_FEET",
+			[562] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[68772] = {
-						["subClass"] = "Mail",
+					[29749] = {
+						["subClass"] = "Leather",
 					},
-					[68257] = {
-						["subClass"] = "Mail",
-					},
-					[74648] = {
-						["subClass"] = "Mail",
+					[29780] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[13306] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[17285] = {
 				["sources"] = {
-					[28252] = {
-						["subClass"] = "Cloth",
+					[45053] = {
+						["subClass"] = "Plate",
+					},
+					[45052] = {
+						["subClass"] = "Plate",
+					},
+					[45048] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[1676] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[8955] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[10444] = {
-						["subClass"] = "Cloth",
+					[15956] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -17312,31 +18053,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12452] = {
+			[10937] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[24746] = {
-						["subClass"] = "Plate",
+					[20498] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[9339] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13306] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[18676] = {
-						["subClass"] = "Daggers",
-					},
-					[18343] = {
-						["subClass"] = "Daggers",
-					},
-					[21222] = {
-						["subClass"] = "Daggers",
-					},
-					[18675] = {
-						["subClass"] = "Daggers",
-					},
-					[16649] = {
-						["subClass"] = "Daggers",
+					[28252] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17351,13 +18080,16 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[12388] = {
+			[27120] = {
 				["sources"] = {
-					[24659] = {
-						["subClass"] = "Cloth",
+					[77490] = {
+						["subClass"] = "Plate",
+					},
+					[68436] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[21617] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -17367,11 +18099,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22833] = {
-				["slot"] = "INVTYPE_LEGS",
+			[13466] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[70328] = {
-						["subClass"] = "Leather",
+					[34082] = {
+						["subClass"] = "Cloth",
+					},
+					[29844] = {
+						["subClass"] = "Cloth",
+					},
+					[29842] = {
+						["subClass"] = "Cloth",
+					},
+					[76632] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17392,13 +18133,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8859] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[21809] = {
 				["sources"] = {
-					[15790] = {
-						["subClass"] = "Cloth",
+					[58952] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[21873] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -17422,13 +18163,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8955] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[6526] = {
 				["sources"] = {
-					[15956] = {
-						["subClass"] = "Wands",
+					[10037] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[13082] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -17473,24 +18214,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22961] = {
+			[22385] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[61426] = {
-						["subClass"] = "Plate",
+					[78553] = {
+						["subClass"] = "One-Handed Swords",
 					},
-					[63224] = {
-						["subClass"] = "Plate",
+					[78560] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[12292] = {
+			[11501] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[24543] = {
-						["subClass"] = "Plate",
+					[22021] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[26608] = {
 				["sources"] = {
@@ -17519,36 +18260,36 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[13402] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[27267] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[1680] = {
+			[1676] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[30845] = {
+					[10444] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13466] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[26864] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[34082] = {
-						["subClass"] = "Cloth",
+					[68772] = {
+						["subClass"] = "Mail",
 					},
-					[29844] = {
-						["subClass"] = "Cloth",
+					[68257] = {
+						["subClass"] = "Mail",
 					},
-					[29842] = {
-						["subClass"] = "Cloth",
+					[74648] = {
+						["subClass"] = "Mail",
 					},
-					[76632] = {
-						["subClass"] = "Cloth",
+				},
+			},
+			[26928] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[80060] = {
+						["subClass"] = "Leather",
+					},
+					[80086] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -17566,24 +18307,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6766] = {
-				["slot"] = "INVTYPE_CHEST",
+			[22961] = {
 				["sources"] = {
-					[10604] = {
-						["subClass"] = "Cloth",
+					[61426] = {
+						["subClass"] = "Plate",
+					},
+					[63224] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[27120] = {
+			[9467] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[77490] = {
-						["subClass"] = "Plate",
-					},
-					[68436] = {
-						["subClass"] = "Plate",
+					[16934] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
 			[1700] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -17602,13 +18343,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9531] = {
+			[13626] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[17145] = {
-						["subClass"] = "Plate",
+					[27935] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
 			},
 			[9563] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -17626,21 +18367,21 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[13626] = {
-				["slot"] = "INVTYPE_WRIST",
+			[1658] = {
 				["sources"] = {
-					[27935] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[12228] = {
-				["sources"] = {
-					[24469] = {
+					[26147] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
+				["slot"] = "INVTYPE_WAIST",
+			},
+			[5219] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[7240] = {
+						["subClass"] = "Fist Weapons",
+					},
+				},
 			},
 			[27568] = {
 				["sources"] = {
@@ -17650,14 +18391,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[12935] = {
-				["slot"] = "INVTYPE_WRIST",
+			[20804] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[27489] = {
-						["subClass"] = "Leather",
+					[51894] = {
+						["subClass"] = "Cloth",
 					},
-					[27492] = {
-						["subClass"] = "Leather",
+					[51895] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17705,48 +18446,48 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12971] = {
-				["slot"] = "INVTYPE_CHEST",
+			[22242] = {
 				["sources"] = {
-					[26253] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[12437] = {
-				["sources"] = {
-					[24725] = {
+					[62102] = {
 						["subClass"] = "Guns",
 					},
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[13482] = {
-				["slot"] = "INVTYPE_CHEST",
+			[14435] = {
 				["sources"] = {
-					[27495] = {
-						["subClass"] = "Leather",
+					[66421] = {
+						["subClass"] = "One-Handed Swords",
 					},
-					[27498] = {
-						["subClass"] = "Leather",
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[11735] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[22536] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[6035] = {
-				["slot"] = "INVTYPE_HAND",
+			[9241] = {
 				["sources"] = {
-					[13837] = {
-						["subClass"] = "Cloth",
+					[20892] = {
+						["subClass"] = "Plate",
+					},
+					[21469] = {
+						["subClass"] = "Plate",
 					},
 				},
-			},
-			[4910] = {
 				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[9529] = {
 				["sources"] = {
-					[69189] = {
-						["subClass"] = "Leather",
+					[17143] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[10043] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -17756,6 +18497,25 @@ CanIMogItDatabase = {
 					},
 					[74068] = {
 						["subClass"] = "Plate",
+					},
+				},
+			},
+			[7118] = {
+				["sources"] = {
+					[60800] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[32495] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[80977] = {
+						["subClass"] = "Mail",
+						["classRestrictions"] = {
+							"Shaman", -- [1]
+						},
 					},
 				},
 			},
@@ -17770,38 +18530,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[32495] = {
-				["slot"] = "INVTYPE_WAIST",
+			[5091] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[80977] = {
-						["subClass"] = "Mail",
-						["classRestrictions"] = {
-							"Shaman", -- [1]
-						},
-					},
-				},
-			},
-			[14234] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[31913] = {
-						["subClass"] = "Cloth",
-					},
-					[31974] = {
-						["subClass"] = "Cloth",
-					},
-					[31702] = {
-						["subClass"] = "Cloth",
-					},
-					[31916] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[8197] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[14391] = {
+					[13793] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -17814,29 +18546,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11940] = {
+			[14243] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[46970] = {
-						["subClass"] = "Two-Handed Swords",
-					},
-				},
-				["slot"] = "INVTYPE_2HWEAPON",
-			},
-			[9648] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[17346] = {
-						["subClass"] = "Polearms",
+					[32854] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[6526] = {
+			[1967] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[10037] = {
-						["subClass"] = "Plate",
+					[2247] = {
+						["subClass"] = "Cloth",
+					},
+					[30306] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[31694] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[80926] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[14426] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -17846,18 +18581,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31374] = {
-				["slot"] = "INVTYPE_CHEST",
+			[9523] = {
 				["sources"] = {
-					[79538] = {
-						["subClass"] = "Cloth",
+					[17159] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
-			[23620] = {
+			[28226] = {
 				["sources"] = {
-					[63597] = {
-						["subClass"] = "Plate",
+					[76670] = {
+						["subClass"] = "Leather",
 					},
 				},
 				["slot"] = "INVTYPE_FEET",
@@ -17870,11 +18605,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2495] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[8345] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[10192] = {
-						["subClass"] = "Fist Weapons",
+					[14870] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17911,27 +18646,39 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4507] = {
+			[26607] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[17540] = {
-						["subClass"] = "Guns",
+					[68597] = {
+						["subClass"] = "Leather",
+					},
+					[76464] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[16726] = {
+			[14310] = {
 				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[40186] = {
+					[33323] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[9467] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[17943] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[16934] = {
-						["subClass"] = "Leather",
+					[41931] = {
+						["subClass"] = "Cloth",
+					},
+					[41935] = {
+						["subClass"] = "Cloth",
+					},
+					[45492] = {
+						["subClass"] = "Cloth",
+					},
+					[45496] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -17943,29 +18690,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6549] = {
+			[4931] = {
 				["sources"] = {
-					[10023] = {
+					[69092] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[11242] = {
-				["slot"] = "INVTYPE_BODY",
+			[7049] = {
 				["sources"] = {
-					[21567] = {
-						["subClass"] = "Miscellaneous",
+					[12243] = {
+						["subClass"] = "Crossbows",
 					},
 				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[9459] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[5422] = {
 				["sources"] = {
-					[16918] = {
-						["subClass"] = "Leather",
+					[7673] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[14906] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -17983,19 +18730,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11501] = {
-				["slot"] = "INVTYPE_WAIST",
+			[23619] = {
 				["sources"] = {
-					[22021] = {
-						["subClass"] = "Cloth",
+					[63618] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
-			[22609] = {
-				["slot"] = "INVTYPE_LEGS",
+			[7678] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[70324] = {
-						["subClass"] = "Cloth",
+					[32959] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -18007,13 +18754,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26161] = {
-				["slot"] = "INVTYPE_LEGS",
+			[7710] = {
 				["sources"] = {
-					[69608] = {
-						["subClass"] = "Cloth",
+					[13407] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[17907] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -18042,29 +18789,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12376] = {
+			[19332] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[24812] = {
-						["subClass"] = "One-Handed Swords",
+					[47021] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
-			[2858] = {
-				["slot"] = "INVTYPE_FEET",
+			[27458] = {
 				["sources"] = {
-					[3371] = {
+					[77535] = {
+						["subClass"] = "Mail",
+					},
+					[78610] = {
+						["subClass"] = "Mail",
+					},
+					[80419] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
+			[18197] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[42783] = {
 						["subClass"] = "Cloth",
 					},
 				},
-			},
-			[7710] = {
-				["sources"] = {
-					[13407] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[18291] = {
 				["sources"] = {
@@ -18115,18 +18868,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[7742] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[13450] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
 			[26865] = {
 				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
 					[74628] = {
+						["subClass"] = "Mail",
+					},
+					[82919] = {
 						["subClass"] = "Mail",
 					},
 					[68768] = {
@@ -18135,8 +18883,13 @@ CanIMogItDatabase = {
 					[76013] = {
 						["subClass"] = "Mail",
 					},
-					[82919] = {
-						["subClass"] = "Mail",
+				},
+			},
+			[7742] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[13450] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -18148,11 +18901,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1535] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[27249] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[1644] = {
-						["subClass"] = "Cloth",
+					[77463] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -18164,27 +18917,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[1952] = {
-				["slot"] = "INVTYPE_HAND",
+			[11515] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[8466] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[11300] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[21674] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[27249] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[77463] = {
-						["subClass"] = "Leather",
+					[22006] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -18199,13 +18936,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9516] = {
+			[19059] = {
 				["sources"] = {
-					[18892] = {
-						["subClass"] = "Plate",
+					[44843] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[19123] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[45113] = {
+						["subClass"] = "Cloth",
+					},
+					[45117] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[22831] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[70296] = {
+						["subClass"] = "Leather",
+					},
+				},
 			},
 			[11675] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -18218,13 +18974,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12327] = {
+			[11803] = {
 				["sources"] = {
-					[35456] = {
-						["subClass"] = "One-Handed Axes",
+					[46919] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[7918] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -18234,14 +18990,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9612] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[4707] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[17475] = {
-						["subClass"] = "Staves",
-					},
-					[18250] = {
-						["subClass"] = "Staves",
+					[29303] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -18253,28 +19006,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9678] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[26946] = {
 				["sources"] = {
-					[18272] = {
-						["subClass"] = "One-Handed Maces",
+					[76815] = {
+						["subClass"] = "Plate",
 					},
-					[17433] = {
-						["subClass"] = "One-Handed Maces",
+					[68569] = {
+						["subClass"] = "Plate",
 					},
-					[18687] = {
-						["subClass"] = "One-Handed Maces",
+					[81623] = {
+						["subClass"] = "Plate",
 					},
-					[18688] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[18251] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[21163] = {
-						["subClass"] = "One-Handed Maces",
+					[76490] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[27825] = {
 				["slot"] = "INVTYPE_FEET",
@@ -18304,38 +19051,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9520] = {
+			[2869] = {
 				["sources"] = {
-					[17156] = {
-						["subClass"] = "Plate",
+					[69219] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
+				["slot"] = "INVTYPE_SHIELD",
 			},
-			[19123] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[11963] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[45113] = {
-						["subClass"] = "Cloth",
+					[23059] = {
+						["subClass"] = "Daggers",
 					},
-					[45117] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[14310] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[33323] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[30274] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[81146] = {
-						["subClass"] = "Cloth",
+					[46904] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -18346,6 +19077,28 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
+			},
+			[9284] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[19121] = {
+						["subClass"] = "Cloth",
+					},
+					[18471] = {
+						["subClass"] = "Cloth",
+					},
+					[17704] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[6342] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[9512] = {
+						["subClass"] = "Staves",
+					},
+				},
 			},
 			[32368] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -18363,38 +19116,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8345] = {
-				["slot"] = "INVTYPE_FEET",
+			[13315] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[14870] = {
+					[29800] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[22493] = {
+				["sources"] = {
+					[80285] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[2789] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[30523] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[8040] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[14003] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[10948] = {
-				["slot"] = "INVTYPE_BODY",
-				["sources"] = {
-					[20510] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[26607] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[68597] = {
-						["subClass"] = "Leather",
-					},
-					[76464] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[10937] = {
-				["slot"] = "INVTYPE_BODY",
-				["sources"] = {
-					[20498] = {
-						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -18406,18 +19156,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13263] = {
+			[6535] = {
 				["sources"] = {
-					[28191] = {
+					[10042] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
+				["slot"] = "INVTYPE_HAND",
 			},
-			[31694] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[3764] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[80926] = {
+					[4733] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[2080] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[28453] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -18427,14 +19185,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[24943] = {
 						["subClass"] = "Plate",
-					},
-				},
-			},
-			[2080] = {
-				["slot"] = "INVTYPE_ROBE",
-				["sources"] = {
-					[28453] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -18462,13 +19212,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22062] = {
-				["slot"] = "INVTYPE_WRIST",
+			[5013] = {
 				["sources"] = {
-					[62204] = {
-						["subClass"] = "Leather",
+					[69215] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[12571] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -18478,27 +19228,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9493] = {
+			[4686] = {
 				["sources"] = {
-					[17535] = {
+					[33349] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
+				["slot"] = "INVTYPE_CHEST",
 			},
-			[17285] = {
+			[8932] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[45053] = {
-						["subClass"] = "Plate",
-					},
-					[45052] = {
-						["subClass"] = "Plate",
-					},
-					[45048] = {
-						["subClass"] = "Plate",
+					[15893] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[8572] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -18524,11 +19268,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8040] = {
-				["slot"] = "INVTYPE_HAND",
+			[2226] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[14003] = {
-						["subClass"] = "Cloth",
+					[6164] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -18552,13 +19296,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7049] = {
+			[27248] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[12243] = {
-						["subClass"] = "Crossbows",
+					[80414] = {
+						["subClass"] = "Leather",
+					},
+					[78605] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[17524] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -18574,11 +19321,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2200] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[4399] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[14380] = {
-						["subClass"] = "Cloth",
+					[5986] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -18601,21 +19348,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22242] = {
-				["sources"] = {
-					[62102] = {
-						["subClass"] = "Guns",
-					},
-				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
-			},
-			[30257] = {
+			[12931] = {
 				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[83442] = {
+					[26699] = {
+						["subClass"] = "Cloth",
+					},
+					[26095] = {
+						["subClass"] = "Cloth",
+					},
+					[26701] = {
 						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[22643] = {
+				["sources"] = {
+					[70256] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[22003] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -18713,6 +19466,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
+			[8008] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[13968] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			[9276] = {
 				["sources"] = {
 					[20882] = {
@@ -18720,14 +19481,6 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_WAIST",
-			},
-			[22643] = {
-				["sources"] = {
-					[70256] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_WRIST",
 			},
 			[2328] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -18745,13 +19498,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9532] = {
+			[9499] = {
 				["sources"] = {
-					[18926] = {
+					[17855] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[9404] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -18764,13 +19517,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[18868] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[22963] = {
 				["sources"] = {
-					[45072] = {
-						["subClass"] = "Cloth",
+					[61483] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[9468] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -18780,13 +19533,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9596] = {
+			[13691] = {
 				["sources"] = {
-					[17265] = {
-						["subClass"] = "One-Handed Swords",
+					[28198] = {
+						["subClass"] = "Plate",
+					},
+					[28231] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+				["slot"] = "INVTYPE_HAND",
 			},
 			[27250] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -18807,16 +19563,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13691] = {
+			[9596] = {
 				["sources"] = {
-					[28198] = {
-						["subClass"] = "Plate",
-					},
-					[28231] = {
-						["subClass"] = "Plate",
+					[17265] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[13723] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -18826,24 +19579,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13772] = {
-				["slot"] = "INVTYPE_LEGS",
+			[22368] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[28794] = {
-						["subClass"] = "Cloth",
+					[80290] = {
+						["subClass"] = "Polearms",
 					},
 				},
 			},
-			[20804] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[9532] = {
 				["sources"] = {
-					[51894] = {
-						["subClass"] = "Cloth",
-					},
-					[51895] = {
-						["subClass"] = "Cloth",
+					[18926] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[2432] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -18896,10 +19646,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[6985] = {
-				["slot"] = "INVTYPE_WAIST",
+			[2512] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[72465] = {
+					[13995] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -18931,13 +19681,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14435] = {
+			[2200] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[66421] = {
-						["subClass"] = "One-Handed Swords",
+					[14380] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[10044] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -18955,22 +19705,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2512] = {
-				["slot"] = "INVTYPE_HEAD",
+			[20404] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[13995] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[14235] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[31936] = {
-						["subClass"] = "Cloth",
-					},
-					[31978] = {
-						["subClass"] = "Cloth",
+					[74092] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -18984,6 +19723,17 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_HEAD",
+			},
+			[14235] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[31936] = {
+						["subClass"] = "Cloth",
+					},
+					[31978] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[10204] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -19009,20 +19759,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[17943] = {
-				["slot"] = "INVTYPE_WRIST",
+			[16821] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[41931] = {
-						["subClass"] = "Cloth",
-					},
-					[41935] = {
-						["subClass"] = "Cloth",
-					},
-					[45492] = {
-						["subClass"] = "Cloth",
-					},
-					[45496] = {
-						["subClass"] = "Cloth",
+					[39747] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -19042,27 +19783,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2869] = {
+			[20995] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[69219] = {
-						["subClass"] = "Shields",
-					},
-				},
-				["slot"] = "INVTYPE_SHIELD",
-			},
-			[5091] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[13793] = {
+					[56029] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[16821] = {
-				["slot"] = "INVTYPE_HAND",
+			[2640] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[39747] = {
-						["subClass"] = "Mail",
+					[3373] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[14555] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[31982] = {
+						["subClass"] = "Cloth",
+					},
+					[31988] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -19074,11 +19818,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14243] = {
-				["slot"] = "INVTYPE_WRIST",
+			[10748] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[32854] = {
-						["subClass"] = "Cloth",
+					[20179] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -19090,13 +19834,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14555] = {
-				["slot"] = "INVTYPE_ROBE",
+			[2712] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[31982] = {
-						["subClass"] = "Cloth",
-					},
-					[31988] = {
+					[10506] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -19128,19 +19869,22 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGED",
 			},
-			[2640] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[2082] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[3373] = {
-						["subClass"] = "Leather",
+					[28449] = {
+						["subClass"] = "Cloth",
+					},
+					[29268] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[10748] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[17397] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[20179] = {
-						["subClass"] = "One-Handed Maces",
+					[41761] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -19160,19 +19904,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2712] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[5423] = {
 				["sources"] = {
-					[10506] = {
-						["subClass"] = "Cloth",
+					[7674] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
-			},
-			[6342] = {
 				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[18868] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[9512] = {
-						["subClass"] = "Staves",
+					[45072] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -19200,13 +19944,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[28226] = {
+			[16237] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[76670] = {
-						["subClass"] = "Leather",
+					[37360] = {
+						["subClass"] = "Wands",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
 			},
 			[22068] = {
 				["slot"] = "INVTYPE_HAND",
@@ -19232,19 +19976,25 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[17397] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[588] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[41761] = {
-						["subClass"] = "Mail",
+					[4342] = {
+						["subClass"] = "Daggers",
+					},
+					[26102] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[2789] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[12844] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[30523] = {
-						["subClass"] = "One-Handed Maces",
+					[25777] = {
+						["subClass"] = "Cloth",
+					},
+					[30470] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -19256,13 +20006,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6535] = {
+			[14485] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[10042] = {
-						["subClass"] = "Plate",
+					[33298] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
 			[26611] = {
 				["sources"] = {
@@ -19299,48 +20049,48 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2848] = {
-				["slot"] = "INVTYPE_HAND",
+			[11388] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[3352] = {
+					[22736] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[4931] = {
+			[12553] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[69092] = {
-						["subClass"] = "Plate",
+					[24955] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
-			[4686] = {
+			[23646] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[33349] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_CHEST",
-			},
-			[27248] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[80414] = {
-						["subClass"] = "Leather",
-					},
-					[78605] = {
+					[62431] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[23619] = {
+			[639] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[63618] = {
-						["subClass"] = "Plate",
+					[558] = {
+						["subClass"] = "Staves",
+					},
+					[10694] = {
+						["subClass"] = "Staves",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+			},
+			[15707] = {
+				["sources"] = {
+					[36569] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[27187] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -19358,13 +20108,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[15707] = {
+			[5807] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[36569] = {
+					[8565] = {
+						["subClass"] = "Cloth",
+					},
+					[12553] = {
 						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[2912] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -19385,30 +20138,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9528] = {
-				["sources"] = {
-					[17140] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
-			},
-			[27571] = {
-				["sources"] = {
-					[83027] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_HAND",
-			},
-			[16808] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[39800] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
 			[2952] = {
 				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
@@ -19420,6 +20149,30 @@ CanIMogItDatabase = {
 					},
 					[30505] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[27571] = {
+				["sources"] = {
+					[83027] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_HAND",
+			},
+			[31397] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[79516] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[11804] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[22740] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -19454,27 +20207,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19332] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[3862] = {
 				["sources"] = {
-					[47021] = {
-						["subClass"] = "Miscellaneous",
+					[10558] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
-			[27458] = {
+			[26842] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[77535] = {
-						["subClass"] = "Mail",
-					},
-					[78610] = {
-						["subClass"] = "Mail",
-					},
-					[80419] = {
-						["subClass"] = "Mail",
+					[73423] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
 			[2992] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -19484,71 +20231,64 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17643] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[45107] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[588] = {
+			[2804] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[4342] = {
-						["subClass"] = "Daggers",
-					},
-					[26102] = {
-						["subClass"] = "Daggers",
+					[29304] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[2352] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[19268] = {
 				["sources"] = {
-					[77345] = {
-						["subClass"] = "Cosmetic",
+					[82862] = {
+						["subClass"] = "One-Handed Axes",
 					},
-					[60968] = {
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[9329] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[16636] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[4909] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[69089] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[12412] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[24944] = {
+						["subClass"] = "Plate",
+					},
+				},
+			},
+			[21992] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[62030] = {
+						["subClass"] = "Polearms",
+					},
+				},
+			},
+			[32562] = {
+				["sources"] = {
+					[80959] = {
+						["subClass"] = "Plate",
 						["classRestrictions"] = {
-							"Demon", -- [1]
-							"Hunter", -- [2]
+							"Warrior", -- [1]
 						},
 					},
 				},
-			},
-			[14893] = {
 				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[33265] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[3764] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[4733] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[8008] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[13968] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[4707] = {
-				["slot"] = "INVTYPE_HOLDABLE",
-				["sources"] = {
-					[29303] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
 			},
 			[24436] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -19558,14 +20298,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3064] = {
-				["slot"] = "INVTYPE_WAIST",
+			[12252] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[9686] = {
-						["subClass"] = "Cloth",
+					[74361] = {
+						["subClass"] = "Leather",
 					},
-					[14368] = {
-						["subClass"] = "Cloth",
+					[24953] = {
+						["subClass"] = "Leather",
+					},
+					[25067] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -19593,22 +20336,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26946] = {
+			[15523] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[76815] = {
-						["subClass"] = "Plate",
-					},
-					[68569] = {
-						["subClass"] = "Plate",
-					},
-					[81623] = {
-						["subClass"] = "Plate",
-					},
-					[76490] = {
-						["subClass"] = "Plate",
+					[36445] = {
+						["subClass"] = "Staves",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
 			},
 			[33252] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -19664,44 +20398,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12252] = {
-				["slot"] = "INVTYPE_CHEST",
+			[8957] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[74361] = {
-						["subClass"] = "Leather",
+					[15963] = {
+						["subClass"] = "Cloth",
 					},
-					[24953] = {
-						["subClass"] = "Leather",
-					},
-					[25067] = {
-						["subClass"] = "Leather",
+					[15964] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[4421] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13084] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[15318] = {
-						["subClass"] = "Daggers",
-					},
-					[26752] = {
-						["subClass"] = "Daggers",
-					},
-					[14583] = {
-						["subClass"] = "Daggers",
+					[28203] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9284] = {
-				["slot"] = "INVTYPE_WAIST",
+			[9021] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[19121] = {
-						["subClass"] = "Cloth",
-					},
-					[18471] = {
-						["subClass"] = "Cloth",
-					},
-					[17704] = {
+					[16074] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -19728,21 +20447,21 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HAND",
 			},
-			[17206] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[14261] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[41203] = {
-						["subClass"] = "Cloth",
+					[30521] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[13315] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[26612] = {
 				["sources"] = {
-					[29800] = {
-						["subClass"] = "Daggers",
+					[68713] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[12828] = {
 				["sources"] = {
@@ -19752,21 +20471,30 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[4903] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[26868] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[69191] = {
-						["subClass"] = "Cloth",
+					[68784] = {
+						["subClass"] = "Mail",
+					},
+					[74644] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[13052] = {
+			[9405] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[32310] = {
-						["subClass"] = "Plate",
+					[21446] = {
+						["subClass"] = "Cloth",
+					},
+					[20764] = {
+						["subClass"] = "Cloth",
+					},
+					[21470] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
 			},
 			[3232] = {
 				["sources"] = {
@@ -19784,16 +20512,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8957] = {
-				["slot"] = "INVTYPE_WRIST",
+			[9501] = {
 				["sources"] = {
-					[15963] = {
-						["subClass"] = "Cloth",
-					},
-					[15964] = {
-						["subClass"] = "Cloth",
+					[17865] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[6511] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -19803,16 +20528,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17910] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[13052] = {
 				["sources"] = {
-					[66422] = {
-						["subClass"] = "Polearms",
-					},
-					[81773] = {
-						["subClass"] = "Polearms",
+					[32310] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[8989] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -19838,33 +20560,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6655] = {
+			[9533] = {
 				["sources"] = {
-					[10290] = {
-						["subClass"] = "Wands",
+					[25692] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["slot"] = "INVTYPE_HAND",
 			},
-			[3336] = {
+			[7762] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[13537] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[6975] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[12226] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[9405] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[21446] = {
-						["subClass"] = "Cloth",
-					},
-					[20764] = {
-						["subClass"] = "Cloth",
-					},
-					[21470] = {
-						["subClass"] = "Cloth",
+					[19031] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -19876,13 +20592,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[22517] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[6655] = {
 				["sources"] = {
-					[80288] = {
-						["subClass"] = "One-Handed Maces",
+					[10290] = {
+						["subClass"] = "Wands",
 					},
 				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[13340] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -19932,11 +20648,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13628] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[12487] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[30737] = {
-						["subClass"] = "Daggers",
+					[24796] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -19948,21 +20664,33 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9501] = {
+			[27188] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[17865] = {
-						["subClass"] = "Plate",
+					[80031] = {
+						["subClass"] = "Cloth",
+					},
+					[80578] = {
+						["subClass"] = "Cloth",
+					},
+					[80044] = {
+						["subClass"] = "Cloth",
+					},
+					[80053] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
-			[9533] = {
+			[27252] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[25692] = {
-						["subClass"] = "Plate",
+					[77527] = {
+						["subClass"] = "Leather",
+					},
+					[77493] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
 			[9565] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -19991,10 +20719,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[20406] = {
+			[1878] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[74093] = {
+					[29263] = {
 						["subClass"] = "Daggers",
 					},
 				},
@@ -20027,11 +20755,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8932] = {
-				["slot"] = "INVTYPE_HAND",
+			[10045] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[15893] = {
-						["subClass"] = "Cloth",
+					[18511] = {
+						["subClass"] = "Plate",
+					},
+					[74063] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -20074,11 +20805,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2226] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[14300] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[6164] = {
-						["subClass"] = "Daggers",
+					[31984] = {
+						["subClass"] = "Leather",
+					},
+					[31990] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -20090,11 +20824,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10205] = {
-				["slot"] = "INVTYPE_FEET",
+			[22466] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[74353] = {
-						["subClass"] = "Leather",
+					[61219] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -20106,16 +20840,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12931] = {
-				["slot"] = "INVTYPE_ROBE",
+			[29172] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[26699] = {
-						["subClass"] = "Cloth",
-					},
-					[26095] = {
-						["subClass"] = "Cloth",
-					},
-					[26701] = {
+					[80491] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -20163,14 +20891,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[14300] = {
-				["slot"] = "INVTYPE_CHEST",
+			[20406] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[31984] = {
-						["subClass"] = "Leather",
-					},
-					[31990] = {
-						["subClass"] = "Leather",
+					[74093] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -20244,14 +20969,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3648] = {
-				["slot"] = "INVTYPE_HOLDABLE",
-				["sources"] = {
-					[13066] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
 			[10493] = {
 				["sources"] = {
 					[19675] = {
@@ -20260,19 +20977,27 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HAND",
 			},
-			[29172] = {
-				["slot"] = "INVTYPE_LEGS",
+			[3560] = {
 				["sources"] = {
-					[80491] = {
+					[10163] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[9004] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[16044] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[22302] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[17040] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[80291] = {
-						["subClass"] = "Daggers",
+					[38922] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -20300,13 +21025,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5513] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[21814] = {
 				["sources"] = {
-					[10521] = {
-						["subClass"] = "Wands",
+					[62146] = {
+						["subClass"] = "Bows",
+					},
+					[60630] = {
+						["subClass"] = "Bows",
 					},
 				},
+				["slot"] = "INVTYPE_RANGED",
 			},
 			[10749] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -20327,19 +21055,19 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[21622] = {
-				["slot"] = "INVTYPE_FEET",
+			[14908] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[65991] = {
-						["subClass"] = "Cloth",
+					[33322] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[16237] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[10941] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[37360] = {
-						["subClass"] = "Wands",
+					[20503] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -20359,11 +21087,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10941] = {
-				["slot"] = "INVTYPE_BODY",
+			[21878] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[20503] = {
-						["subClass"] = "Miscellaneous",
+					[66459] = {
+						["subClass"] = "Daggers",
+					},
+					[62028] = {
+						["subClass"] = "Daggers",
+					},
+					[66491] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -20375,24 +21109,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11005] = {
-				["slot"] = "INVTYPE_ROBE",
+			[17911] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[20722] = {
-						["subClass"] = "Cloth",
-					},
-					[21451] = {
-						["subClass"] = "Cloth",
+					[42786] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[30426] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[17498] = {
 				["sources"] = {
-					[68630] = {
-						["subClass"] = "Cloth",
+					[43106] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+					[41784] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+					[40671] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[22134] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -20402,11 +21139,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22368] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[22130] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[80290] = {
-						["subClass"] = "Polearms",
+					[66428] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -20418,19 +21155,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9329] = {
-				["slot"] = "INVTYPE_HAND",
+			[32468] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[16636] = {
+					[81033] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[26613] = {
-				["slot"] = "INVTYPE_LEGS",
+			[7727] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[68365] = {
-						["subClass"] = "Mail",
+					[13433] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -20448,11 +21185,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22518] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[26613] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[81583] = {
-						["subClass"] = "One-Handed Maces",
+					[68365] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -20491,10 +21228,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20995] = {
-				["slot"] = "INVTYPE_ROBE",
+			[13862] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[56029] = {
+					[34214] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -20537,13 +21274,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12844] = {
-				["slot"] = "INVTYPE_FEET",
+			[3444] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[25777] = {
-						["subClass"] = "Cloth",
-					},
-					[30470] = {
+					[7608] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -20594,38 +21328,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14485] = {
-				["slot"] = "INVTYPE_FEET",
+			[5230] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[33298] = {
+					[13732] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[21619] = {
-				["slot"] = "INVTYPE_LEGS",
+			[3111] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[60947] = {
-						["subClass"] = "Cloth",
-					},
-					[66625] = {
-						["subClass"] = "Cloth",
-					},
-					[60461] = {
+					[9706] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[2082] = {
-				["slot"] = "INVTYPE_WAIST",
+			[11837] = {
 				["sources"] = {
-					[28449] = {
-						["subClass"] = "Cloth",
-					},
-					[29268] = {
-						["subClass"] = "Cloth",
+					[22775] = {
+						["subClass"] = "Staves",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[7983] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -20635,58 +21360,46 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19268] = {
-				["sources"] = {
-					[82862] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
-			[27829] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[68582] = {
-						["subClass"] = "Cloth",
-					},
-					[76489] = {
-						["subClass"] = "Cloth",
-					},
-					[80322] = {
-						["subClass"] = "Cloth",
-					},
-					[82892] = {
-						["subClass"] = "Cloth",
-					},
-					[81622] = {
-						["subClass"] = "Cloth",
-					},
-					[73822] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[12553] = {
-				["slot"] = "INVTYPE_ROBE",
-				["sources"] = {
-					[24955] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[15523] = {
+			[22162] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[36445] = {
-						["subClass"] = "Staves",
+					[67328] = {
+						["subClass"] = "Polearms",
 					},
 				},
 			},
-			[23646] = {
-				["slot"] = "INVTYPE_FEET",
+			[9840] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[62431] = {
-						["subClass"] = "Leather",
+					[17880] = {
+						["subClass"] = "Cloth",
+					},
+					[35451] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[4109] = {
+				["sources"] = {
+					[69199] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[765] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[10716] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[16537] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[39799] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -20698,27 +21411,27 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[2804] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[8878] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[29304] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[31397] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[79516] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[26842] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[73423] = {
+					[24733] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[451] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[10715] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[8191] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[14367] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -20749,37 +21462,43 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[8191] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[28661] = {
 				["sources"] = {
-					[14367] = {
-						["subClass"] = "Wands",
+					[73783] = {
+						["subClass"] = "Warglaives",
 					},
-				},
-			},
-			[13862] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[34214] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[16209] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[37329] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[16760] = {
-				["sources"] = {
-					[39755] = {
-						["subClass"] = "One-Handed Axes",
+					[76193] = {
+						["subClass"] = "Warglaives",
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
+			},
+			[12247] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[24477] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12477] = {
+				["sources"] = {
+					[24781] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_WAIST",
+			},
+			[10371] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[19428] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
+					},
+				},
 			},
 			[12413] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -20797,19 +21516,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12477] = {
+			[16760] = {
 				["sources"] = {
-					[24781] = {
-						["subClass"] = "Plate",
+					[39755] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[12509] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
 					[24827] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[10339] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[19368] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -20821,14 +21548,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12573] = {
-				["sources"] = {
-					[25033] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_SHOULDER",
-			},
 			[8510] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
@@ -20837,24 +21556,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9807] = {
-				["slot"] = "INVTYPE_LEGS",
+			[12463] = {
 				["sources"] = {
-					[20724] = {
-						["subClass"] = "Cloth",
+					[25190] = {
+						["subClass"] = "Plate",
 					},
-					[72603] = {
-						["subClass"] = "Cloth",
+					[24819] = {
+						["subClass"] = "Plate",
+					},
+					[24762] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[3560] = {
+			[14603] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[10163] = {
-						["subClass"] = "Two-Handed Swords",
+					[32314] = {
+						["subClass"] = "Polearms",
+					},
+					[32326] = {
+						["subClass"] = "Polearms",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[17208] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -20873,22 +21598,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12925] = {
-				["slot"] = "INVTYPE_FEET",
+			[21815] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[27470] = {
-						["subClass"] = "Leather",
-					},
-					[27509] = {
-						["subClass"] = "Leather",
+					[62147] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[8862] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[17912] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[15793] = {
-						["subClass"] = "Miscellaneous",
+					[42784] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -20936,19 +21658,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[25846] = {
-				["slot"] = "INVTYPE_LEGS",
+			[12925] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[72907] = {
-						["subClass"] = "Cloth",
+					[27470] = {
+						["subClass"] = "Leather",
+					},
+					[27509] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[21815] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[8862] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[62147] = {
-						["subClass"] = "Staves",
+					[15793] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -20968,13 +21693,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[17912] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[13053] = {
 				["sources"] = {
-					[42784] = {
-						["subClass"] = "Staves",
+					[32308] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[30261] = {
 				["slot"] = "INVTYPE_HAND",
@@ -20995,33 +21720,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1878] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[24385] = {
 				["sources"] = {
-					[29263] = {
-						["subClass"] = "Daggers",
+					[74053] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
+			},
+			[14210] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[30386] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
-			[14908] = {
+			[1773] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[33322] = {
+					[9504] = {
 						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[27809] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[74379] = {
-						["subClass"] = "Cloth",
-					},
-					[74513] = {
-						["subClass"] = "Cloth",
-					},
-					[68709] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21033,14 +21752,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22834] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[723] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[70344] = {
-						["subClass"] = "Leather",
-					},
-					[73428] = {
-						["subClass"] = "Leather",
+					[32955] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -21055,19 +21771,22 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[1896] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[2346] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[2147] = {
-						["subClass"] = "Wands",
+					[28459] = {
+						["subClass"] = "Daggers",
+					},
+					[76896] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[16716] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[4704] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[39752] = {
-						["subClass"] = "Leather",
+					[17209] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -21096,13 +21815,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4704] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[9502] = {
 				["sources"] = {
-					[17209] = {
-						["subClass"] = "Miscellaneous",
+					[17866] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[9406] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -21123,21 +21842,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6759] = {
-				["slot"] = "INVTYPE_HEAD",
+			[9566] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[14434] = {
+					[18689] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[27190] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[79995] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9502] = {
+			[19064] = {
 				["sources"] = {
-					[17866] = {
-						["subClass"] = "Plate",
+					[44895] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[19128] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -21147,43 +21874,38 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9566] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[18689] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[16537] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[39799] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[5230] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[13732] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[29677] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[80918] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[22162] = {
+			[1864] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[67328] = {
-						["subClass"] = "Polearms",
+					[25815] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[13660] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[31979] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[12573] = {
+				["sources"] = {
+					[25033] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[13114] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[28556] = {
+						["subClass"] = "Cloth",
+					},
+					[31219] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21206,13 +21928,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7762] = {
-				["slot"] = "INVTYPE_FEET",
+			[23617] = {
 				["sources"] = {
-					[13537] = {
-						["subClass"] = "Cloth",
+					[63577] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[27830] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -21272,19 +21994,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11730] = {
-				["slot"] = "INVTYPE_CHEST",
+			[24055] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[46929] = {
-						["subClass"] = "Leather",
+					[66537] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[12247] = {
-				["slot"] = "INVTYPE_WRIST",
+			[3582] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[24477] = {
-						["subClass"] = "Cloth",
+					[33287] = {
+						["subClass"] = "Leather",
+					},
+					[75964] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -21307,18 +22032,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22130] = {
-				["slot"] = "INVTYPE_LEGS",
+			[31679] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[66428] = {
-						["subClass"] = "Leather",
+					[68458] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[451] = {
+			[32394] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[10715] = {
+					[76500] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -21340,10 +22065,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12501] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13730] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[24813] = {
+					[31920] = {
+						["subClass"] = "Leather",
+					},
+					[31924] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -21364,51 +22092,45 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22466] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[794] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[61219] = {
+					[21201] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[723] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[32955] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[14603] = {
+			[31423] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[32314] = {
-						["subClass"] = "Polearms",
-					},
-					[32326] = {
+					[81791] = {
 						["subClass"] = "Polearms",
 					},
 				},
 			},
-			[2346] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[9539] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[28459] = {
-						["subClass"] = "Daggers",
-					},
-					[76896] = {
-						["subClass"] = "Daggers",
+					[17180] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[5232] = {
+			[20037] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[24201] = {
-						["subClass"] = "One-Handed Swords",
+					[50811] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+			},
+			[4350] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[69190] = {
+						["subClass"] = "Leather",
+					},
+				},
 			},
 			[10430] = {
 				["sources"] = {
@@ -21432,11 +22154,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13660] = {
-				["slot"] = "INVTYPE_HEAD",
+			[26870] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[31979] = {
-						["subClass"] = "Leather",
+					[74652] = {
+						["subClass"] = "Mail",
+					},
+					[74632] = {
+						["subClass"] = "Mail",
+					},
+					[68255] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -21459,10 +22187,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGED",
 			},
-			[1842] = {
+			[6754] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[26094] = {
+					[10570] = {
 						["subClass"] = "Staves",
 					},
 				},
@@ -21492,11 +22220,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13938] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[13474] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[29323] = {
-						["subClass"] = "Wands",
+					[29501] = {
+						["subClass"] = "Cloth",
+					},
+					[29535] = {
+						["subClass"] = "Cloth",
+					},
+					[27455] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21508,27 +22242,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12463] = {
+			[3278] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[25190] = {
-						["subClass"] = "Plate",
-					},
-					[24819] = {
-						["subClass"] = "Plate",
-					},
-					[24762] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
-			},
-			[9840] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[17880] = {
+					[13073] = {
 						["subClass"] = "Cloth",
 					},
-					[35451] = {
+				},
+			},
+			[9315] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[16622] = {
+						["subClass"] = "Cloth",
+					},
+					[18115] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -21541,22 +22269,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13333] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[6690] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[29898] = {
-						["subClass"] = "One-Handed Maces",
+					[10408] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3525] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[2629] = {
 				["sources"] = {
-					[14044] = {
-						["subClass"] = "Cloth",
+					[3078] = {
+						["subClass"] = "Two-Handed Swords",
 					},
-					[11928] = {
-						["subClass"] = "Cloth",
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[3390] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[10433] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[13317] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -21575,14 +22311,6 @@ CanIMogItDatabase = {
 						["subClass"] = "Daggers",
 					},
 				},
-			},
-			[4109] = {
-				["sources"] = {
-					[69199] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[11006] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -21603,11 +22331,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8878] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[31906] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[24733] = {
-						["subClass"] = "Cloth",
+					[80788] = {
+						["subClass"] = "Cosmetic",
 					},
 				},
 			},
@@ -21627,24 +22355,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3582] = {
-				["slot"] = "INVTYPE_HEAD",
+			[10934] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[33287] = {
-						["subClass"] = "Leather",
-					},
-					[75964] = {
-						["subClass"] = "Mail",
+					[20495] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[13356] = {
+			[22273] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[28254] = {
-						["subClass"] = "Staves",
-					},
-					[30803] = {
+					[63758] = {
 						["subClass"] = "Staves",
 					},
 				},
@@ -21657,36 +22379,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26615] = {
+			[22520] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[68361] = {
-						["subClass"] = "Mail",
-					},
-					[74400] = {
-						["subClass"] = "Mail",
-					},
-					[74516] = {
-						["subClass"] = "Mail",
-					},
-					[68730] = {
-						["subClass"] = "Mail",
+					[78549] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
-			[794] = {
+			[26725] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[21201] = {
+					[69533] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[18851] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[12239] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[44308] = {
-						["subClass"] = "Cloth",
+					[24962] = {
+						["subClass"] = "Leather",
+					},
+					[25022] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -21698,10 +22414,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13749] = {
-				["slot"] = "INVTYPE_FEET",
+			[3525] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[30393] = {
+					[14044] = {
+						["subClass"] = "Cloth",
+					},
+					[11928] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -21714,16 +22433,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHIELD",
 			},
-			[15828] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[5011] = {
 				["sources"] = {
-					[36409] = {
-						["subClass"] = "Staves",
-					},
-					[36859] = {
-						["subClass"] = "Staves",
+					[69101] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[18873] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -21733,11 +22449,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17492] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[21994] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[40665] = {
-						["subClass"] = "Cloth",
+					[63765] = {
+						["subClass"] = "Polearms",
 					},
 				},
 			},
@@ -21749,11 +22465,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6298] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[1652] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[29408] = {
-						["subClass"] = "Daggers",
+					[34246] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21792,19 +22508,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13845] = {
-				["slot"] = "INVTYPE_WRIST",
+			[2246] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[32249] = {
+					[30854] = {
+						["subClass"] = "Cloth",
+					},
+					[30852] = {
+						["subClass"] = "Cloth",
+					},
+					[29376] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[1864] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[21761] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[25815] = {
-						["subClass"] = "Staves",
+					[73494] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21816,11 +22538,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21294] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[12898] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[61952] = {
-						["subClass"] = "One-Handed Maces",
+					[31943] = {
+						["subClass"] = "Cloth",
+					},
+					[31947] = {
+						["subClass"] = "Cloth",
+					},
+					[31279] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21844,10 +22572,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1400] = {
+			[3686] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[10067] = {
+					[10579] = {
+						["subClass"] = "Cloth",
+					},
+					[31710] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -21869,54 +22600,49 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10371] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[19428] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
-					},
-				},
-			},
-			[10339] = {
+			[12834] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[19368] = {
-						["subClass"] = "Staves",
+					[82867] = {
+						["subClass"] = "Polearms",
 					},
 				},
 			},
-			[12277] = {
+			[13845] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[32249] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[3094] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[4309] = {
+						["subClass"] = "Cloth",
+					},
+					[6899] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12964] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[26244] = {
+						["subClass"] = "Leather",
+					},
+					[29657] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[21294] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[24520] = {
+					[61952] = {
 						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[17778] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[41271] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
-			[32394] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[76500] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[6080] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[18750] = {
-						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -21931,11 +22657,19 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[10934] = {
-				["slot"] = "INVTYPE_BODY",
+			[6080] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[20495] = {
-						["subClass"] = "Miscellaneous",
+					[18750] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[8547] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[15213] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -21963,13 +22697,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24385] = {
+			[447] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[74053] = {
+					[10703] = {
 						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[12350] = {
 				["slot"] = "INVTYPE_HAND",
@@ -21982,22 +22716,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14210] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[8483] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[30386] = {
-						["subClass"] = "Wands",
+					[15102] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[12239] = {
+			[1569] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[24962] = {
-						["subClass"] = "Leather",
-					},
-					[25022] = {
-						["subClass"] = "Leather",
+					[10708] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -22044,22 +22775,19 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[9335] = {
-				["slot"] = "INVTYPE_HEAD",
+			[6298] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[16643] = {
-						["subClass"] = "Cloth",
+					[29408] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[3686] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[17778] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[10579] = {
-						["subClass"] = "Cloth",
-					},
-					[31710] = {
-						["subClass"] = "Cloth",
+					[41271] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -22082,29 +22810,47 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8927] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[15888] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[17786] = {
+			[2958] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[45095] = {
+					[30467] = {
+						["subClass"] = "Cloth",
+					},
+					[33282] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[21945] = {
+			[24832] = {
 				["sources"] = {
-					[63756] = {
-						["subClass"] = "One-Handed Axes",
+					[62343] = {
+						["subClass"] = "One-Handed Swords",
+					},
+					[63752] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
+			},
+			[21881] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[66384] = {
+						["subClass"] = "Daggers",
+					},
+					[65538] = {
+						["subClass"] = "Daggers",
+					},
+					[63763] = {
+						["subClass"] = "Daggers",
+					},
+					[61128] = {
+						["subClass"] = "Daggers",
+					},
+					[64193] = {
+						["subClass"] = "Daggers",
+					},
+				},
 			},
 			[12830] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -22152,23 +22898,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21881] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[17786] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[66384] = {
-						["subClass"] = "Daggers",
-					},
-					[65538] = {
-						["subClass"] = "Daggers",
-					},
-					[63763] = {
-						["subClass"] = "Daggers",
-					},
-					[61128] = {
-						["subClass"] = "Daggers",
-					},
-					[64193] = {
-						["subClass"] = "Daggers",
+					[45095] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -22191,32 +22925,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13086] = {
-				["slot"] = "INVTYPE_HEAD",
+			[26168] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[28265] = {
+					[69570] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3390] = {
+			[12277] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[10433] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[13317] = {
+					[24520] = {
 						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[5011] = {
+			[24488] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[69101] = {
-						["subClass"] = "Plate",
+					[66824] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[13182] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -22226,13 +22957,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9279] = {
+			[26615] = {
 				["sources"] = {
-					[81387] = {
-						["subClass"] = "Plate",
+					[68361] = {
+						["subClass"] = "Mail",
+					},
+					[74400] = {
+						["subClass"] = "Mail",
+					},
+					[74516] = {
+						["subClass"] = "Mail",
+					},
+					[68730] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[6624] = {
 				["sources"] = {
@@ -22258,21 +22998,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[23617] = {
+			[1529] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[63577] = {
-						["subClass"] = "Plate",
+					[27933] = {
+						["subClass"] = "Leather",
+					},
+					[28376] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
-			[30839] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[22649] = {
 				["sources"] = {
-					[76913] = {
-						["subClass"] = "Cloth",
+					[78548] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[9311] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -22290,13 +23033,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12964] = {
-				["slot"] = "INVTYPE_FEET",
+			[11730] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[26244] = {
-						["subClass"] = "Leather",
-					},
-					[29657] = {
+					[46929] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -22307,13 +23047,13 @@ CanIMogItDatabase = {
 					[16808] = {
 						["subClass"] = "Cloth",
 					},
+					[20719] = {
+						["subClass"] = "Cloth",
+					},
 					[18808] = {
 						["subClass"] = "Cloth",
 					},
 					[20716] = {
-						["subClass"] = "Cloth",
-					},
-					[20719] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -22326,13 +23066,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[31679] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[9535] = {
 				["sources"] = {
-					[68458] = {
-						["subClass"] = "Cloth",
+					[17150] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[23097] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -22342,19 +23082,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9535] = {
+			[27256] = {
 				["sources"] = {
-					[17150] = {
-						["subClass"] = "Plate",
+					[68395] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_CHEST",
 			},
-			[13662] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[9567] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[31968] = {
-						["subClass"] = "Leather",
+					[17536] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -22369,41 +23109,35 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[27256] = {
+			[6816] = {
 				["sources"] = {
-					[68395] = {
-						["subClass"] = "Leather",
+					[11870] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
+				["slot"] = "INVTYPE_SHIELD",
 			},
-			[13730] = {
-				["slot"] = "INVTYPE_HEAD",
+			[1478] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[31920] = {
-						["subClass"] = "Leather",
-					},
-					[31924] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[3094] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[4309] = {
-						["subClass"] = "Cloth",
-					},
-					[6899] = {
+					[4180] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[31423] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[21945] = {
 				["sources"] = {
-					[81791] = {
-						["subClass"] = "Polearms",
+					[63756] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[6470] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[9813] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -22440,99 +23174,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20037] = {
-				["slot"] = "INVTYPE_WRIST",
+			[21841] = {
 				["sources"] = {
-					[50811] = {
-						["subClass"] = "Cloth",
+					[60904] = {
+						["subClass"] = "Two-Handed Axes",
+					},
+					[60439] = {
+						["subClass"] = "Two-Handed Axes",
 					},
 				},
-			},
-			[24488] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[66824] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[6470] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[9813] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[14046] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[30053] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[1652] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[34246] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[6754] = {
 				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[10570] = {
-						["subClass"] = "Staves",
-					},
-				},
 			},
-			[13474] = {
-				["slot"] = "INVTYPE_WRIST",
+			[17966] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[29501] = {
+					[41886] = {
 						["subClass"] = "Cloth",
 					},
-					[29535] = {
-						["subClass"] = "Cloth",
-					},
-					[27455] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[8357] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[15672] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[9315] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[16622] = {
-						["subClass"] = "Cloth",
-					},
-					[18115] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[14238] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[31725] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[6690] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[10408] = {
+					[41890] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -22545,28 +23204,51 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27562] = {
-				["slot"] = "INVTYPE_HAND",
+			[14046] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[81297] = {
-						["subClass"] = "Cloth",
-					},
-					[82954] = {
-						["subClass"] = "Cloth",
-					},
-					[81296] = {
-						["subClass"] = "Cloth",
-					},
-					[68843] = {
-						["subClass"] = "Cloth",
+					[30053] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[7184] = {
+			[14028] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[29684] = {
+						["subClass"] = "Wands",
+					},
+				},
+			},
+			[1485] = {
 				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[20911] = {
-						["subClass"] = "Mail",
+					[27866] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[8927] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[15888] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[14600] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[32289] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[14238] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[31725] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -22578,52 +23260,98 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17490] = {
+			[7550] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[13081] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12848] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[40663] = {
+					[25837] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9764] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[17668] = {
-						["subClass"] = "Cloth",
-					},
-					[18101] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[22273] = {
+			[9608] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[63758] = {
+					[18655] = {
+						["subClass"] = "Staves",
+					},
+					[18656] = {
+						["subClass"] = "Staves",
+					},
+					[18265] = {
+						["subClass"] = "Staves",
+					},
+					[17547] = {
+						["subClass"] = "Staves",
+					},
+					[21162] = {
 						["subClass"] = "Staves",
 					},
 				},
 			},
-			[854] = {
-				["slot"] = "INVTYPE_HAND",
+			[7184] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[1627] = {
+					[20911] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[24697] = {
+				["slot"] = "INVTYPE_TABARD",
+				["sources"] = {
+					[66827] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[17777] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[41266] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13354] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[2586] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[29894] = {
-						["subClass"] = "Daggers",
+					[9701] = {
+						["subClass"] = "Cloth",
 					},
-					[29803] = {
-						["subClass"] = "Daggers",
+				},
+			},
+			[11517] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[22008] = {
+						["subClass"] = "Cloth",
 					},
-					[33221] = {
-						["subClass"] = "Daggers",
+					[22429] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[8874] = {
+				["slot"] = "INVTYPE_ROBE",
+				["sources"] = {
+					[15807] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[29336] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[79107] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -22643,10 +23371,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1322] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[10324] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[25839] = {
+					[19326] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -22693,27 +23421,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17815] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[2840] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[41414] = {
+					[14558] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[12497] = {
-				["slot"] = "INVTYPE_FEET",
+			[22034] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[24808] = {
+					[63606] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[10324] = {
-				["slot"] = "INVTYPE_WAIST",
+			[3334] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[19326] = {
-						["subClass"] = "Cloth",
+					[27468] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -22728,18 +23456,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9745] = {
+			[7547] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[17872] = {
-						["subClass"] = "Shields",
+					[13075] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
-			[21761] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[764] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[73494] = {
+					[32888] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -22784,49 +23512,49 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12898] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[31943] = {
-						["subClass"] = "Cloth",
-					},
-					[31947] = {
-						["subClass"] = "Cloth",
-					},
-					[31279] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[17915] = {
-				["sources"] = {
-					[43111] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
-			[12834] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[82867] = {
-						["subClass"] = "Polearms",
-					},
-				},
-			},
-			[7547] = {
+			[17659] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[13075] = {
+					[45066] = {
+						["subClass"] = "Cloth",
+					},
+					[45123] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[6011] = {
+			[22033] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[63603] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[3847] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[13842] = {
-						["subClass"] = "Leather",
+					[14307] = {
+						["subClass"] = "Cloth",
+					},
+					[14449] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[5602] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[14070] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[1684] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[29412] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -22865,26 +23593,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3334] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[27468] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
 			[22714] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
 					[65541] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
-			[22522] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[81579] = {
 						["subClass"] = "Staves",
 					},
 				},
@@ -22897,19 +23609,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8547] = {
-				["slot"] = "INVTYPE_WRIST",
+			[962] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[15213] = {
+					[29329] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[14447] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[31243] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[14028] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[9745] = {
 				["sources"] = {
-					[29684] = {
-						["subClass"] = "Wands",
+					[17872] = {
+						["subClass"] = "Shields",
+					},
+				},
+				["slot"] = "INVTYPE_SHIELD",
+			},
+			[23098] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[62577] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -22921,21 +23649,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[23098] = {
-				["slot"] = "INVTYPE_HAND",
+			[27193] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[62577] = {
+					[80000] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[8483] = {
-				["slot"] = "INVTYPE_FEET",
+			[19067] = {
 				["sources"] = {
-					[15102] = {
-						["subClass"] = "Cloth",
+					[44867] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[15710] = {
 				["sources"] = {
@@ -22945,11 +23673,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[1569] = {
-				["slot"] = "INVTYPE_HAND",
+			[1373] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[10708] = {
-						["subClass"] = "Cloth",
+					[1455] = {
+						["subClass"] = "Daggers",
+					},
+					[31733] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -22961,18 +23692,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[18293] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[10946] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[43110] = {
-						["subClass"] = "Daggers",
+					[20508] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[27193] = {
-				["slot"] = "INVTYPE_WRIST",
+			[18205] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[80000] = {
+					[42874] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -22993,27 +23724,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17659] = {
-				["slot"] = "INVTYPE_HAND",
+			[17665] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[45066] = {
-						["subClass"] = "Cloth",
-					},
-					[45123] = {
+					[45081] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[24832] = {
+			[1008] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[62343] = {
-						["subClass"] = "One-Handed Swords",
+					[17304] = {
+						["subClass"] = "Fist Weapons",
 					},
-					[63752] = {
-						["subClass"] = "One-Handed Swords",
+					[26224] = {
+						["subClass"] = "Fist Weapons",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[11903] = {
 				["sources"] = {
@@ -23023,19 +23751,22 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[7550] = {
-				["slot"] = "INVTYPE_WAIST",
+			[6128] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[13081] = {
+					[12378] = {
+						["subClass"] = "Cloth",
+					},
+					[21790] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13859] = {
-				["slot"] = "INVTYPE_WAIST",
+			[902] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[34212] = {
-						["subClass"] = "Cloth",
+					[877] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -23047,38 +23778,44 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12848] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[25837] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[1684] = {
+			[1622] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[29412] = {
+					[1744] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[1529] = {
-				["slot"] = "INVTYPE_WAIST",
+			[26589] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[27933] = {
-						["subClass"] = "Leather",
-					},
-					[28376] = {
+					[76424] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[17777] = {
+			[5244] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[41266] = {
+					[21302] = {
 						["subClass"] = "Cloth",
+					},
+					[72673] = {
+						["subClass"] = "Cloth",
+					},
+					[18335] = {
+						["subClass"] = "Cloth",
+					},
+					[31637] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[5314] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[7496] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -23093,11 +23830,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2586] = {
-				["slot"] = "INVTYPE_WRIST",
+			[26604] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[9701] = {
-						["subClass"] = "Cloth",
+					[82887] = {
+						["subClass"] = "Leather",
+					},
+					[68580] = {
+						["subClass"] = "Leather",
+					},
+					[82385] = {
+						["subClass"] = "Leather",
+					},
+					[80191] = {
+						["subClass"] = "Leather",
+					},
+					[76474] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -23125,22 +23874,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11517] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[21051] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[22008] = {
-						["subClass"] = "Cloth",
-					},
-					[22429] = {
+					[61011] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[12575] = {
-				["slot"] = "INVTYPE_LEGS",
+			[24698] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[25055] = {
-						["subClass"] = "Cloth",
+					[66831] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -23205,27 +23951,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21051] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[12575] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[61011] = {
+					[25055] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[18205] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[2255] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[42874] = {
-						["subClass"] = "Cloth",
+					[4221] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[14447] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[1914] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[31243] = {
-						["subClass"] = "Cloth",
+					[33295] = {
+						["subClass"] = "Polearms",
 					},
 				},
 			},
@@ -23268,11 +24014,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21575] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[12895] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[66846] = {
-						["subClass"] = "Staves",
+					[31601] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -23292,6 +24038,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[4689] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[6482] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
 			[4401] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
@@ -23300,14 +24054,6 @@ CanIMogItDatabase = {
 					},
 					[11875] = {
 						["subClass"] = "Wands",
-					},
-				},
-			},
-			[12895] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[31601] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -23343,20 +24089,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11733] = {
-				["slot"] = "INVTYPE_LEGS",
+			[20800] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[23148] = {
+					[51897] = {
 						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
-					},
-					[23230] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
 					},
 				},
 			},
@@ -23371,19 +24108,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13407] = {
-				["slot"] = "INVTYPE_WRIST",
+			[26938] = {
 				["sources"] = {
-					[27313] = {
-						["subClass"] = "Cloth",
+					[68770] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
-			[1485] = {
-				["slot"] = "INVTYPE_CHEST",
+			[9408] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[27866] = {
-						["subClass"] = "Leather",
+					[21485] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -23403,11 +24140,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4689] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[13535] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[6482] = {
-						["subClass"] = "Miscellaneous",
+					[76652] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -23427,13 +24164,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9408] = {
-				["slot"] = "INVTYPE_ROBE",
+			[9536] = {
 				["sources"] = {
-					[21485] = {
-						["subClass"] = "Cloth",
+					[18901] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[13375] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -23443,32 +24180,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9312] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13407] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[16619] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[17478] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[2337] = {
-				["slot"] = "INVTYPE_CHEST",
-				["sources"] = {
-					[13797] = {
+					[27313] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[26938] = {
+			[13439] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[68770] = {
-						["subClass"] = "Plate",
+					[76598] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
+			},
+			[9376] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[19128] = {
+						["subClass"] = "Cloth",
+					},
+					[20875] = {
+						["subClass"] = "Cloth",
+					},
+					[16698] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[4705] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -23502,13 +24242,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HAND",
 			},
-			[9536] = {
+			[19068] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[18901] = {
-						["subClass"] = "Plate",
+					[44870] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
 			[9568] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -23543,27 +24283,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13535] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[19361] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[76652] = {
-						["subClass"] = "Staves",
+					[47038] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[21988] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[9856] = {
 				["sources"] = {
-					[60905] = {
-						["subClass"] = "Staves",
-					},
-					[62347] = {
-						["subClass"] = "Staves",
-					},
-					[66017] = {
-						["subClass"] = "Staves",
+					[21448] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[4865] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -23584,28 +24318,21 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[201] = {
-				["slot"] = "INVTYPE_LEGS",
+			[18931] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[75771] = {
-						["subClass"] = "Mail",
-					},
-					[25789] = {
-						["subClass"] = "Leather",
-					},
-					[42171] = {
-						["subClass"] = "Leather",
-					},
-					[26765] = {
-						["subClass"] = "Leather",
-					},
-					[25787] = {
-						["subClass"] = "Leather",
-					},
-					[75992] = {
-						["subClass"] = "Mail",
+					[44454] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
+			},
+			[4929] = {
+				["sources"] = {
+					[69208] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[13951] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -23617,14 +24344,6 @@ CanIMogItDatabase = {
 						["subClass"] = "Daggers",
 					},
 				},
-			},
-			[4929] = {
-				["sources"] = {
-					[69208] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[13983] = {
 				["slot"] = "INVTYPE_HAND",
@@ -23642,19 +24361,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13355] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[33242] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
 			[9984] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
 					[21593] = {
 						["subClass"] = "Staves",
+					},
+				},
+			},
+			[2497] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[18664] = {
+						["subClass"] = "Miscellaneous",
+					},
+					[32114] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -23680,19 +24402,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5563] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[32445] = {
 				["sources"] = {
-					[12228] = {
-						["subClass"] = "Cloth",
-					},
-					[12227] = {
-						["subClass"] = "Cloth",
-					},
-					[12711] = {
-						["subClass"] = "Cloth",
+					[82064] = {
+						["subClass"] = "Shields",
 					},
 				},
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[20220] = {
 				["slot"] = "INVTYPE_HAND",
@@ -23710,23 +24426,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26604] = {
-				["slot"] = "INVTYPE_HEAD",
+			[22522] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[82887] = {
-						["subClass"] = "Leather",
-					},
-					[68580] = {
-						["subClass"] = "Leather",
-					},
-					[82385] = {
-						["subClass"] = "Leather",
-					},
-					[80191] = {
-						["subClass"] = "Leather",
-					},
-					[76474] = {
-						["subClass"] = "Leather",
+					[81579] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -23738,38 +24442,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5244] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[19364] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[21302] = {
-						["subClass"] = "Cloth",
-					},
-					[72673] = {
-						["subClass"] = "Cloth",
-					},
-					[18335] = {
-						["subClass"] = "Cloth",
-					},
-					[31637] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[902] = {
-				["slot"] = "INVTYPE_BODY",
-				["sources"] = {
-					[877] = {
+					[47075] = {
 						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[962] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[11282] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[29329] = {
-						["subClass"] = "One-Handed Maces",
+					[21653] = {
+						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[4430] = {
+				["sources"] = {
+					[10696] = {
+						["subClass"] = "Two-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[2585] = {
 				["slot"] = "INVTYPE_FEET",
@@ -23787,22 +24482,25 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[17491] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[21955] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[40664] = {
-						["subClass"] = "Cloth",
-					},
-					[73774] = {
-						["subClass"] = "Cloth",
+					[65565] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[19361] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[5563] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[47038] = {
-						["subClass"] = "Miscellaneous",
+					[12228] = {
+						["subClass"] = "Cloth",
+					},
+					[12227] = {
+						["subClass"] = "Cloth",
+					},
+					[12711] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -23814,33 +24512,30 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[1004] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[23807] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[1006] = {
+					[62574] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[1008] = {
+			[9312] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[17304] = {
-						["subClass"] = "Fist Weapons",
+					[16619] = {
+						["subClass"] = "One-Handed Maces",
 					},
-					[26224] = {
-						["subClass"] = "Fist Weapons",
+					[17478] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[3847] = {
-				["slot"] = "INVTYPE_FEET",
+			[14751] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[14307] = {
-						["subClass"] = "Cloth",
-					},
-					[14449] = {
-						["subClass"] = "Cloth",
+					[32813] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -23889,27 +24584,48 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2255] = {
-				["slot"] = "INVTYPE_WAIST",
+			[23615] = {
 				["sources"] = {
-					[4221] = {
-						["subClass"] = "Leather",
+					[63573] = {
+						["subClass"] = "Plate",
+					},
+					[66474] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[1622] = {
-				["slot"] = "INVTYPE_LEGS",
+			[633] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[1744] = {
+					[67921] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[8922] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[27540] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[15882] = {
-						["subClass"] = "Daggers",
+					[77577] = {
+						["subClass"] = "Cloth",
+					},
+					[68474] = {
+						["subClass"] = "Cloth",
+					},
+					[80427] = {
+						["subClass"] = "Cloth",
+					},
+					[77645] = {
+						["subClass"] = "Cloth",
+					},
+					[77509] = {
+						["subClass"] = "Cloth",
+					},
+					[77475] = {
+						["subClass"] = "Cloth",
+					},
+					[77543] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -23937,11 +24653,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5602] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[9379] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[14070] = {
-						["subClass"] = "Daggers",
+					[16702] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -23961,13 +24677,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1914] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[9634] = {
 				["sources"] = {
-					[33295] = {
-						["subClass"] = "Polearms",
+					[17335] = {
+						["subClass"] = "Two-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[2753] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -23977,10 +24693,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27564] = {
-				["slot"] = "INVTYPE_LEGS",
+			[13911] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[68424] = {
+					[29031] = {
+						["subClass"] = "Cloth",
+					},
+					[29717] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -23993,11 +24712,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9379] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[9570] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[16702] = {
-						["subClass"] = "Cloth",
+					[20782] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[21200] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -24009,24 +24731,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6128] = {
+			[2427] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[12378] = {
-						["subClass"] = "Cloth",
-					},
-					[21790] = {
+					[21180] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[959] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[3443] = {
 				["sources"] = {
-					[954] = {
-						["subClass"] = "Cloth",
+					[13409] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[22460] = {
 				["slot"] = "INVTYPE_HAND",
@@ -24044,11 +24763,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26589] = {
-				["slot"] = "INVTYPE_LEGS",
+			[998] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[76424] = {
-						["subClass"] = "Leather",
+					[29308] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24071,16 +24790,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1373] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[22975] = {
 				["sources"] = {
-					[1455] = {
-						["subClass"] = "Daggers",
-					},
-					[31733] = {
-						["subClass"] = "Daggers",
+					[61472] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[26939] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -24090,22 +24806,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10946] = {
-				["slot"] = "INVTYPE_BODY",
+			[8922] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[20508] = {
-						["subClass"] = "Miscellaneous",
+					[15882] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[2084] = {
-				["slot"] = "INVTYPE_FEET",
+			[18193] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[33306] = {
-						["subClass"] = "Leather",
+					[42779] = {
+						["subClass"] = "Cloth",
 					},
-					[75966] = {
-						["subClass"] = "Mail",
+					[74060] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24125,13 +24841,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17665] = {
-				["slot"] = "INVTYPE_HEAD",
+			[19069] = {
 				["sources"] = {
-					[45081] = {
-						["subClass"] = "Cloth",
+					[44872] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[15711] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -24141,22 +24857,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13911] = {
-				["slot"] = "INVTYPE_FEET",
+			[4674] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[29031] = {
-						["subClass"] = "Cloth",
-					},
-					[29717] = {
+					[6453] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[17751] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[511] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[41169] = {
-						["subClass"] = "Wands",
+					[25838] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24176,11 +24889,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8799] = {
-				["slot"] = "INVTYPE_FEET",
+			[15846] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[15674] = {
-						["subClass"] = "Cloth",
+					[36824] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -24192,63 +24905,60 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[27221] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[1157] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[78957] = {
-						["subClass"] = "Cloth",
-					},
-					[78916] = {
-						["subClass"] = "Cloth",
-					},
-					[78630] = {
-						["subClass"] = "Cloth",
-					},
-					[79080] = {
-						["subClass"] = "Cloth",
+					[4751] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[12952] = {
+			[21820] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[26229] = {
-						["subClass"] = "One-Handed Maces",
+					[66378] = {
+						["subClass"] = "Daggers",
 					},
-				},
-			},
-			[10942] = {
-				["slot"] = "INVTYPE_BODY",
-				["sources"] = {
-					[20504] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[21616] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[58044] = {
-						["subClass"] = "Cloth",
-					},
-					[59031] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[5314] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[7496] = {
+					[67965] = {
 						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[633] = {
-				["slot"] = "INVTYPE_ROBE",
+			[17199] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[67921] = {
+					[40841] = {
 						["subClass"] = "Cloth",
+					},
+					[41239] = {
+						["subClass"] = "Cloth",
+					},
+					[40842] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[9679] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[19164] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[22039] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[63125] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[16780] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[39748] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -24260,11 +24970,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGED",
 			},
-			[19364] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[8799] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[47075] = {
-						["subClass"] = "Miscellaneous",
+					[15674] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24282,10 +24992,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2427] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[3057] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[21180] = {
+					[4306] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -24298,13 +25008,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12256] = {
+			[17900] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[24964] = {
-						["subClass"] = "Cloth",
-					},
-					[25037] = {
+					[41765] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -24317,10 +25024,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[6129] = {
-				["slot"] = "INVTYPE_HEAD",
+			[12256] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[13671] = {
+					[24964] = {
+						["subClass"] = "Cloth",
+					},
+					[25037] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -24344,19 +25054,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3878] = {
-				["slot"] = "INVTYPE_ROBE",
+			[17920] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[6205] = {
-						["subClass"] = "Cloth",
+					[42880] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[8385] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[9763] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[14923] = {
-						["subClass"] = "Staves",
+					[20181] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24379,19 +25089,43 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[12480] = {
+			[8385] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[24785] = {
-						["subClass"] = "One-Handed Swords",
+					[14923] = {
+						["subClass"] = "Staves",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
-			[20800] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[1534] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[51897] = {
+					[1643] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[22461] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[61229] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12576] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[25083] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[5932] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[69204] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -24418,30 +25152,6 @@ CanIMogItDatabase = {
 					},
 					[66620] = {
 						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[12576] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[25083] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[12960] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[26240] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[8929] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[15890] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24478,19 +25188,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13184] = {
-				["slot"] = "INVTYPE_FEET",
+			[6577] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[31267] = {
-						["subClass"] = "Cloth",
+					[34235] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[10320] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[3369] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[3297] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[4101] = {
-						["subClass"] = "One-Handed Maces",
+					[12244] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -24510,11 +25223,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9249] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[9185] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[18098] = {
-						["subClass"] = "Cloth",
+					[16407] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -24532,19 +25245,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3241] = {
-				["slot"] = "INVTYPE_FEET",
+			[12960] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[3920] = {
-						["subClass"] = "Cloth",
+					[26240] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[13408] = {
-				["slot"] = "INVTYPE_ROBE",
+			[26940] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[27323] = {
-						["subClass"] = "Cloth",
+					[74637] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -24580,22 +25293,19 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[6577] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[30395] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[34235] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[10320] = {
-						["subClass"] = "One-Handed Maces",
+					[80930] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3297] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[13184] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[12244] = {
-						["subClass"] = "Wands",
+					[31267] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -24607,21 +25317,33 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[13472] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[9409] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[27447] = {
+					[20768] = {
+						["subClass"] = "Cloth",
+					},
+					[16827] = {
+						["subClass"] = "Cloth",
+					},
+					[18805] = {
+						["subClass"] = "Cloth",
+					},
+					[20721] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3321] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[13280] = {
 				["sources"] = {
-					[29773] = {
-						["subClass"] = "Cloth",
+					[34062] = {
+						["subClass"] = "Plate",
+					},
+					[34101] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[6657] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -24631,10 +25353,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30779] = {
-				["slot"] = "INVTYPE_WRIST",
+			[9249] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[81805] = {
+					[18098] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -24647,16 +25369,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[9313] = {
+			[13408] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[17544] = {
-						["subClass"] = "Crossbows",
-					},
-					[17563] = {
-						["subClass"] = "Crossbows",
+					[27323] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[18686] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -24669,11 +25388,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26940] = {
-				["slot"] = "INVTYPE_HAND",
+			[3369] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[74637] = {
-						["subClass"] = "Plate",
+					[4101] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -24693,13 +25412,28 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[32445] = {
+			[9280] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[82064] = {
-						["subClass"] = "Shields",
+					[18527] = {
+						["subClass"] = "Cloth",
+					},
+					[18539] = {
+						["subClass"] = "Cloth",
+					},
+					[18100] = {
+						["subClass"] = "Cloth",
+					},
+					[17687] = {
+						["subClass"] = "Cloth",
+					},
+					[19130] = {
+						["subClass"] = "Cloth",
+					},
+					[17664] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
 			[6801] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -24712,27 +25446,30 @@ CanIMogItDatabase = {
 			[13632] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[32857] = {
+					[27945] = {
 						["subClass"] = "Leather",
 					},
-					[31878] = {
+					[32857] = {
 						["subClass"] = "Leather",
 					},
 					[31882] = {
 						["subClass"] = "Leather",
 					},
-					[27945] = {
+					[31878] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[3443] = {
+			[2319] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[13409] = {
-						["subClass"] = "Plate",
+					[22562] = {
+						["subClass"] = "Cloth",
+					},
+					[26753] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[3425] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -24742,6 +25479,17 @@ CanIMogItDatabase = {
 					},
 					[10566] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[21845] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[66388] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[68095] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -24761,28 +25509,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17900] = {
-				["slot"] = "INVTYPE_HAND",
+			[11218] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[41765] = {
-						["subClass"] = "Cloth",
+					[21479] = {
+						["subClass"] = "Wands",
 					},
-				},
-			},
-			[27560] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[68838] = {
-						["subClass"] = "Cloth",
-					},
-					[81316] = {
-						["subClass"] = "Cloth",
-					},
-					[81314] = {
-						["subClass"] = "Cloth",
-					},
-					[68426] = {
-						["subClass"] = "Cloth",
+					[21480] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -24805,19 +25539,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[15846] = {
-				["slot"] = "INVTYPE_WAIST",
+			[28319] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[36824] = {
-						["subClass"] = "Leather",
+					[80866] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[22039] = {
-				["slot"] = "INVTYPE_WAIST",
+			[3497] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[63125] = {
-						["subClass"] = "Cloth",
+					[69206] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -24840,30 +25574,30 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[23807] = {
-				["slot"] = "INVTYPE_WAIST",
+			[9760] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[62574] = {
+					[17657] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[998] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[22022] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[29308] = {
+					[63566] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[18193] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[21844] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[42779] = {
-						["subClass"] = "Cloth",
+					[62103] = {
+						["subClass"] = "One-Handed Maces",
 					},
-					[74060] = {
-						["subClass"] = "Cloth",
+					[62153] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -24875,16 +25609,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[23615] = {
+			[2310] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[63573] = {
-						["subClass"] = "Plate",
-					},
-					[66474] = {
-						["subClass"] = "Plate",
+					[9441] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[32507] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -24903,24 +25634,21 @@ CanIMogItDatabase = {
 					[32843] = {
 						["subClass"] = "Cloth",
 					},
+					[31933] = {
+						["subClass"] = "Cloth",
+					},
 					[31930] = {
 						["subClass"] = "Cloth",
 					},
 					[31717] = {
 						["subClass"] = "Cloth",
 					},
-					[31933] = {
-						["subClass"] = "Cloth",
-					},
 				},
 			},
-			[11218] = {
+			[5225] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[21479] = {
-						["subClass"] = "Wands",
-					},
-					[21480] = {
+					[10517] = {
 						["subClass"] = "Wands",
 					},
 				},
@@ -24938,13 +25666,13 @@ CanIMogItDatabase = {
 					[83088] = {
 						["subClass"] = "One-Handed Swords",
 					},
+					[83087] = {
+						["subClass"] = "One-Handed Swords",
+					},
 					[81770] = {
 						["subClass"] = "One-Handed Swords",
 					},
 					[74231] = {
-						["subClass"] = "One-Handed Swords",
-					},
-					[83087] = {
 						["subClass"] = "One-Handed Swords",
 					},
 				},
@@ -24964,29 +25692,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20564] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
-				["sources"] = {
-					[50813] = {
-						["subClass"] = "Wands",
-					},
-				},
-			},
-			[1124] = {
+			[15185] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[42162] = {
+					[36870] = {
 						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[9634] = {
+			[12957] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[17335] = {
-						["subClass"] = "Two-Handed Axes",
+					[26237] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+			},
+			[7249] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[12521] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[3625] = {
 				["sources"] = {
@@ -25004,29 +25732,29 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[2518] = {
-				["slot"] = "INVTYPE_HAND",
+			[1899] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[2940] = {
+					[2153] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[1196] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[30479] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9570] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[4057] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[20782] = {
-						["subClass"] = "One-Handed Maces",
+					[6463] = {
+						["subClass"] = "Cloth",
 					},
-					[21200] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[2310] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[9441] = {
+					[26097] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25094,6 +25822,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[10945] = {
+				["slot"] = "INVTYPE_BODY",
+				["sources"] = {
+					[20507] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
 			[7553] = {
 				["sources"] = {
 					[13085] = {
@@ -25101,14 +25837,6 @@ CanIMogItDatabase = {
 					},
 				},
 				["slot"] = "INVTYPE_CHEST",
-			},
-			[22975] = {
-				["sources"] = {
-					[61472] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[14912] = {
 				["sources"] = {
@@ -25140,13 +25868,16 @@ CanIMogItDatabase = {
 					[58951] = {
 						["subClass"] = "Daggers",
 					},
+					[60441] = {
+						["subClass"] = "Daggers",
+					},
 				},
 			},
-			[10945] = {
-				["slot"] = "INVTYPE_BODY",
+			[21886] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[20507] = {
-						["subClass"] = "Miscellaneous",
+					[60634] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -25177,11 +25908,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7569] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[897] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[13110] = {
-						["subClass"] = "Wands",
+					[67920] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -25201,19 +25932,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1196] = {
-				["slot"] = "INVTYPE_WRIST",
+			[17153] = {
 				["sources"] = {
-					[30479] = {
-						["subClass"] = "Cloth",
+					[39849] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
-			[4674] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[946] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[6453] = {
-						["subClass"] = "Cloth",
+					[14588] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -25251,34 +25982,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1534] = {
-				["slot"] = "INVTYPE_FEET",
+			[11905] = {
 				["sources"] = {
-					[1643] = {
-						["subClass"] = "Cloth",
+					[46927] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[9280] = {
-				["slot"] = "INVTYPE_FEET",
+			[8187] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[18527] = {
-						["subClass"] = "Cloth",
-					},
-					[18539] = {
-						["subClass"] = "Cloth",
-					},
-					[18100] = {
-						["subClass"] = "Cloth",
-					},
-					[17687] = {
-						["subClass"] = "Cloth",
-					},
-					[19130] = {
-						["subClass"] = "Cloth",
-					},
-					[17664] = {
-						["subClass"] = "Cloth",
+					[14349] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -25290,27 +26006,36 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1157] = {
+			[11486] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[21952] = {
+						["subClass"] = "Wands",
+					},
+				},
+			},
+			[31934] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[81127] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[1076] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[4751] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[1899] = {
-				["slot"] = "INVTYPE_HOLDABLE",
-				["sources"] = {
-					[2153] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[9763] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[20181] = {
+					[29276] = {
 						["subClass"] = "Cloth",
+					},
+					[9816] = {
+						["subClass"] = "Leather",
+					},
+					[1085] = {
+						["subClass"] = "Cloth",
+					},
+					[9928] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -25322,14 +26047,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17153] = {
-				["sources"] = {
-					[39849] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
 			[3921] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
@@ -25338,19 +26055,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8187] = {
-				["slot"] = "INVTYPE_TABARD",
+			[19071] = {
 				["sources"] = {
-					[14349] = {
-						["subClass"] = "Miscellaneous",
+					[44875] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
+			},
+			[3495] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[69196] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[3803] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[578] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[69205] = {
-						["subClass"] = "Cloth",
+					[32841] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -25378,13 +26103,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2319] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[3803] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[22562] = {
-						["subClass"] = "Cloth",
-					},
-					[26753] = {
+					[69205] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25397,32 +26119,29 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HAND",
 			},
-			[21845] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[5442] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[66388] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[68095] = {
-						["subClass"] = "One-Handed Maces",
+					[7709] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
-			[28319] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[1649] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[80866] = {
+					[30388] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[11905] = {
+			[23806] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[46927] = {
-						["subClass"] = "Plate",
+					[62575] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[11937] = {
 				["slot"] = "INVTYPE_FEET",
@@ -25432,27 +26151,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17920] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[11969] = {
 				["sources"] = {
-					[42880] = {
+					[46910] = {
 						["subClass"] = "Staves",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[5425] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[19124] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[7676] = {
-						["subClass"] = "Miscellaneous",
+					[45116] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9760] = {
-				["slot"] = "INVTYPE_LEGS",
+			[7569] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[17657] = {
-						["subClass"] = "Cloth",
+					[13110] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -25464,14 +26183,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4057] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[5425] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[6463] = {
-						["subClass"] = "Cloth",
-					},
-					[26097] = {
-						["subClass"] = "Cloth",
+					[7676] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -25483,19 +26199,22 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[1649] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[13653] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[30388] = {
-						["subClass"] = "Cloth",
+					[32011] = {
+						["subClass"] = "Daggers",
+					},
+					[32014] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[578] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[14740] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[32841] = {
-						["subClass"] = "One-Handed Maces",
+					[32659] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -25526,27 +26245,30 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[15185] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[3321] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[36870] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[31934] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[81127] = {
+					[29773] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[5442] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[3878] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[7709] = {
-						["subClass"] = "Wands",
+					[6205] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[2383] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[13304] = {
+						["subClass"] = "Cloth",
+					},
+					[14585] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -25582,11 +26304,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11486] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[1733] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[21952] = {
-						["subClass"] = "Wands",
+					[1890] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -25598,10 +26320,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19124] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[2339] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[45116] = {
+					[25773] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25614,20 +26336,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1076] = {
-				["slot"] = "INVTYPE_FEET",
+			[20564] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[29276] = {
-						["subClass"] = "Cloth",
-					},
-					[9816] = {
-						["subClass"] = "Leather",
-					},
-					[1085] = {
-						["subClass"] = "Cloth",
-					},
-					[9928] = {
-						["subClass"] = "Mail",
+					[50813] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -25648,27 +26361,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3495] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13472] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[69196] = {
-						["subClass"] = "One-Handed Maces",
+					[27447] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[897] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[9313] = {
 				["sources"] = {
-					[67920] = {
-						["subClass"] = "Daggers",
+					[17544] = {
+						["subClass"] = "Crossbows",
+					},
+					[17563] = {
+						["subClass"] = "Crossbows",
 					},
 				},
-			},
-			[5225] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
+			},
+			[30779] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[10517] = {
-						["subClass"] = "Wands",
+					[81805] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -25680,14 +26396,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21844] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[8929] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[62103] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[62153] = {
-						["subClass"] = "One-Handed Maces",
+					[15890] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -25713,50 +26426,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27549] = {
-				["slot"] = "INVTYPE_ROBE",
-				["sources"] = {
-					[77479] = {
-						["subClass"] = "Cloth",
-					},
-					[77581] = {
-						["subClass"] = "Cloth",
-					},
-					[68478] = {
-						["subClass"] = "Cloth",
-					},
-					[77547] = {
-						["subClass"] = "Cloth",
-					},
-					[78622] = {
-						["subClass"] = "Cloth",
-					},
-					[77513] = {
-						["subClass"] = "Cloth",
-					},
-					[77615] = {
-						["subClass"] = "Cloth",
-					},
-					[80431] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[13653] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[32011] = {
-						["subClass"] = "Daggers",
-					},
-					[32014] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[22022] = {
+			[3241] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[63566] = {
+					[3920] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12480] = {
+				["sources"] = {
+					[24785] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[1689] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[7070] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25769,26 +26458,26 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[23806] = {
-				["slot"] = "INVTYPE_FEET",
+			[6129] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[62575] = {
+					[13671] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[12957] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[1124] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[26237] = {
-						["subClass"] = "Cloth",
+					[42162] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[14740] = {
-				["slot"] = "INVTYPE_FEET",
+			[11013] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[32659] = {
+					[20766] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25809,21 +26498,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[946] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[568] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[14588] = {
-						["subClass"] = "Daggers",
+					[25802] = {
+						["subClass"] = "Leather",
+					},
+					[25800] = {
+						["subClass"] = "Leather",
+					},
+					[26125] = {
+						["subClass"] = "Leather",
+					},
+					[75490] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[2383] = {
-				["slot"] = "INVTYPE_WAIST",
+			[2518] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[13304] = {
-						["subClass"] = "Cloth",
-					},
-					[14585] = {
+					[2940] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25921,21 +26616,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1733] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[24795] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[1890] = {
-						["subClass"] = "Daggers",
+					[66828] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[9679] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[9538] = {
 				["sources"] = {
-					[19164] = {
-						["subClass"] = "Staves",
+					[25697] = {
+						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[19136] = {
 				["sources"] = {
@@ -25945,10 +26640,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHIELD",
 			},
-			[1689] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[21616] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[7070] = {
+					[58044] = {
+						["subClass"] = "Cloth",
+					},
+					[59031] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25961,10 +26659,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7249] = {
-				["slot"] = "INVTYPE_FEET",
+			[27564] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[12521] = {
+					[68424] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -25977,11 +26675,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2339] = {
-				["slot"] = "INVTYPE_CHEST",
+			[10942] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[25773] = {
-						["subClass"] = "Cloth",
+					[20504] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -25996,25 +26694,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16780] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[16919] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[39748] = {
-						["subClass"] = "One-Handed Maces",
+					[38896] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[17199] = {
-				["slot"] = "INVTYPE_WAIST",
+			[17751] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[40841] = {
-						["subClass"] = "Cloth",
-					},
-					[41239] = {
-						["subClass"] = "Cloth",
-					},
-					[40842] = {
-						["subClass"] = "Cloth",
+					[41169] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -26026,36 +26718,21 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[3497] = {
-				["slot"] = "INVTYPE_CHEST",
+			[959] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[69206] = {
-						["subClass"] = "Mail",
+					[954] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[27540] = {
-				["slot"] = "INVTYPE_WAIST",
+			[17491] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[77577] = {
+					[40664] = {
 						["subClass"] = "Cloth",
 					},
-					[68474] = {
-						["subClass"] = "Cloth",
-					},
-					[80427] = {
-						["subClass"] = "Cloth",
-					},
-					[77645] = {
-						["subClass"] = "Cloth",
-					},
-					[77509] = {
-						["subClass"] = "Cloth",
-					},
-					[77475] = {
-						["subClass"] = "Cloth",
-					},
-					[77543] = {
+					[73774] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -26068,11 +26745,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21955] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[27560] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[65565] = {
-						["subClass"] = "Staves",
+					[68838] = {
+						["subClass"] = "Cloth",
+					},
+					[81316] = {
+						["subClass"] = "Cloth",
+					},
+					[81314] = {
+						["subClass"] = "Cloth",
+					},
+					[68426] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -26084,13 +26770,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[21820] = {
+			[1762] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[66378] = {
+					[25824] = {
 						["subClass"] = "Daggers",
 					},
-					[67965] = {
+					[25886] = {
 						["subClass"] = "Daggers",
 					},
 				},
@@ -26103,20 +26789,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9409] = {
-				["slot"] = "INVTYPE_HAND",
+			[14207] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[20768] = {
-						["subClass"] = "Cloth",
-					},
-					[16827] = {
-						["subClass"] = "Cloth",
-					},
-					[18805] = {
-						["subClass"] = "Cloth",
-					},
-					[20721] = {
-						["subClass"] = "Cloth",
+					[46914] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
 			},
@@ -26136,10 +26813,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9185] = {
-				["slot"] = "INVTYPE_TABARD",
+			[15824] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[16407] = {
+					[36398] = {
 						["subClass"] = "Miscellaneous",
 					},
 				},
@@ -26152,37 +26829,34 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13280] = {
-				["sources"] = {
-					[34062] = {
-						["subClass"] = "Plate",
-					},
-					[34101] = {
-						["subClass"] = "Plate",
-					},
-				},
+			[2337] = {
 				["slot"] = "INVTYPE_CHEST",
-			},
-			[22461] = {
-				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[61229] = {
+					[13797] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[24795] = {
-				["slot"] = "INVTYPE_TABARD",
+			[20274] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[66828] = {
+					[50924] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[4700] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[14587] = {
 						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[11013] = {
-				["slot"] = "INVTYPE_ROBE",
+			[8798] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[20766] = {
+					[15673] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -26195,13 +26869,16 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[21829] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[17980] = {
 				["sources"] = {
-					[58955] = {
-						["subClass"] = "Staves",
+					[81751] = {
+						["subClass"] = "One-Handed Swords",
+					},
+					[74113] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[14561] = {
 				["slot"] = "INVTYPE_HAND",
@@ -26219,29 +26896,44 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3057] = {
-				["slot"] = "INVTYPE_FEET",
+			[2201] = {
 				["sources"] = {
-					[4306] = {
+					[2541] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[1398] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[30289] = {
 						["subClass"] = "Cloth",
+					},
+					[9702] = {
+						["subClass"] = "Cloth",
+					},
+					[25778] = {
+						["subClass"] = "Cloth",
+					},
+					[9815] = {
+						["subClass"] = "Leather",
+					},
+					[9927] = {
+						["subClass"] = "Mail",
+					},
+					[9935] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[11282] = {
-				["slot"] = "INVTYPE_HAND",
+			[14689] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[21653] = {
-						["subClass"] = "Cloth",
+					[32492] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-			},
-			[4430] = {
-				["sources"] = {
-					[10696] = {
-						["subClass"] = "Two-Handed Swords",
-					},
-				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[1329] = {
 				["slot"] = "INVTYPE_HAND",
@@ -26259,27 +26951,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16919] = {
-				["slot"] = "INVTYPE_HAND",
+			[21575] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[38896] = {
+					[66846] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[22037] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[63616] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[5932] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[12952] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[69204] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[4700] = {
-				["slot"] = "INVTYPE_HOLDABLE",
-				["sources"] = {
-					[14587] = {
-						["subClass"] = "Miscellaneous",
+					[26229] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -26299,11 +26991,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[511] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[22645] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[25838] = {
-						["subClass"] = "Cloth",
+					[80293] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
 			},
@@ -26315,13 +27007,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[564] = {
-				["slot"] = "INVTYPE_WAIST",
+			[2084] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[25795] = {
+					[33306] = {
 						["subClass"] = "Leather",
 					},
-					[75773] = {
+					[75966] = {
 						["subClass"] = "Mail",
 					},
 				},
@@ -26353,30 +27045,42 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1762] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[25824] = {
-						["subClass"] = "Daggers",
-					},
-					[25886] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[18931] = {
-				["slot"] = "INVTYPE_TABARD",
-				["sources"] = {
-					[44454] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[22037] = {
+			[1004] = {
 				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[63616] = {
+					[1006] = {
 						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[21988] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[60905] = {
+						["subClass"] = "Staves",
+					},
+					[62347] = {
+						["subClass"] = "Staves",
+					},
+					[66017] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[11733] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[23148] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
+					},
+					[23230] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
 			},
@@ -26388,26 +27092,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1398] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13355] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[30289] = {
-						["subClass"] = "Cloth",
-					},
-					[9702] = {
-						["subClass"] = "Cloth",
-					},
-					[25778] = {
-						["subClass"] = "Cloth",
-					},
-					[9815] = {
-						["subClass"] = "Leather",
-					},
-					[9927] = {
-						["subClass"] = "Mail",
-					},
-					[9935] = {
-						["subClass"] = "Mail",
+					[33242] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -26442,13 +27131,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20274] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[22528] = {
 				["sources"] = {
-					[50924] = {
+					[78557] = {
 						["subClass"] = "Staves",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[11298] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -26458,36 +27147,30 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14751] = {
-				["slot"] = "INVTYPE_LEGS",
+			[17915] = {
 				["sources"] = {
-					[32813] = {
-						["subClass"] = "Mail",
+					[43111] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[7739] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[13447] = {
+						["subClass"] = "Cloth",
+					},
+					[21667] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[15824] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[3843] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[36398] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-			},
-			[568] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[25802] = {
+					[69203] = {
 						["subClass"] = "Leather",
-					},
-					[25800] = {
-						["subClass"] = "Leather",
-					},
-					[26125] = {
-						["subClass"] = "Leather",
-					},
-					[75490] = {
-						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -26523,49 +27206,43 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9856] = {
+			[9279] = {
 				["sources"] = {
-					[21448] = {
+					[81387] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_HAND",
 			},
-			[7739] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[13859] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[13447] = {
-						["subClass"] = "Cloth",
-					},
-					[21667] = {
+					[34212] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[8798] = {
-				["slot"] = "INVTYPE_WRIST",
+			[13086] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[15673] = {
+					[28265] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[2497] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[6011] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[18664] = {
-						["subClass"] = "Miscellaneous",
-					},
-					[32114] = {
-						["subClass"] = "Miscellaneous",
+					[13842] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[764] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[18293] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[32888] = {
-						["subClass"] = "Cloth",
+					[43110] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -26610,16 +27287,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[9376] = {
-				["slot"] = "INVTYPE_LEGS",
+			[8357] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[19128] = {
-						["subClass"] = "Cloth",
-					},
-					[20875] = {
-						["subClass"] = "Cloth",
-					},
-					[16698] = {
+					[15672] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -26632,38 +27303,41 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13439] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[13662] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[76598] = {
-						["subClass"] = "Miscellaneous",
+					[31968] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[17980] = {
+			[17815] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[81751] = {
-						["subClass"] = "One-Handed Swords",
-					},
-					[74113] = {
-						["subClass"] = "One-Handed Swords",
+					[41414] = {
+						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[30839] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[76913] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[13354] = {
 				["slot"] = "INVTYPE_WEAPON",
-			},
-			[2201] = {
 				["sources"] = {
-					[2541] = {
-						["subClass"] = "One-Handed Swords",
+					[29894] = {
+						["subClass"] = "Daggers",
 					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
-			[22645] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[80293] = {
-						["subClass"] = "Two-Handed Maces",
+					[29803] = {
+						["subClass"] = "Daggers",
+					},
+					[33221] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -26675,34 +27349,34 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8874] = {
-				["slot"] = "INVTYPE_ROBE",
+			[12497] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[15807] = {
+					[24808] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[29336] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[24880] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[79107] = {
-						["subClass"] = "Cloth",
+					[58953] = {
+						["subClass"] = "Fist Weapons",
 					},
 				},
 			},
-			[3843] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[32446] = {
 				["sources"] = {
-					[69203] = {
-						["subClass"] = "Leather",
+					[82065] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
-			[22034] = {
+			[26214] = {
 				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[63606] = {
+					[69589] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -26723,11 +27397,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[22033] = {
-				["slot"] = "INVTYPE_HAND",
+			[12217] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[63603] = {
-						["subClass"] = "Cloth",
+					[24780] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -26755,11 +27429,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24880] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[1400] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[58953] = {
-						["subClass"] = "Fist Weapons",
+					[10067] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -26866,13 +27540,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[17966] = {
-				["slot"] = "INVTYPE_ROBE",
+			[9020] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[41886] = {
-						["subClass"] = "Cloth",
-					},
-					[41890] = {
+					[16071] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -26896,23 +27567,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[9608] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[1322] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[18655] = {
-						["subClass"] = "Staves",
-					},
-					[18656] = {
-						["subClass"] = "Staves",
-					},
-					[18265] = {
-						["subClass"] = "Staves",
-					},
-					[17547] = {
-						["subClass"] = "Staves",
-					},
-					[21162] = {
-						["subClass"] = "Staves",
+					[25839] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -26949,11 +27608,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[14600] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[9764] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[32289] = {
-						["subClass"] = "One-Handed Maces",
+					[17668] = {
+						["subClass"] = "Cloth",
+					},
+					[18101] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -26968,11 +27630,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26214] = {
-				["slot"] = "INVTYPE_HEAD",
+			[5113] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[69589] = {
-						["subClass"] = "Cloth",
+					[24197] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -26990,11 +27652,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12217] = {
-				["slot"] = "INVTYPE_FEET",
+			[17490] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[24780] = {
-						["subClass"] = "Leather",
+					[40663] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -27014,13 +27676,22 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGED",
 			},
-			[21841] = {
+			[27562] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[60904] = {
-						["subClass"] = "Two-Handed Axes",
+					[81297] = {
+						["subClass"] = "Cloth",
+					},
+					[82954] = {
+						["subClass"] = "Cloth",
+					},
+					[81296] = {
+						["subClass"] = "Cloth",
+					},
+					[68843] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[6626] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -27028,16 +27699,16 @@ CanIMogItDatabase = {
 					[32975] = {
 						["subClass"] = "Staves",
 					},
+					[32976] = {
+						["subClass"] = "Staves",
+					},
 				},
 			},
-			[2958] = {
-				["slot"] = "INVTYPE_LEGS",
+			[11129] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[30467] = {
-						["subClass"] = "Cloth",
-					},
-					[33282] = {
-						["subClass"] = "Cloth",
+					[21205] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
@@ -27073,11 +27744,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5113] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[17492] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[24197] = {
-						["subClass"] = "Miscellaneous",
+					[40665] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -27100,21 +27771,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2840] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[17557] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[14558] = {
+					[45106] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9020] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[5232] = {
 				["sources"] = {
-					[16071] = {
-						["subClass"] = "Cloth",
+					[24201] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[9507] = {
 				["sources"] = {
@@ -27124,11 +27795,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[9539] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[27264] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[17180] = {
-						["subClass"] = "Cloth",
+					[79094] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -27140,10 +27811,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1478] = {
-				["slot"] = "INVTYPE_WRIST",
+			[9335] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[4180] = {
+					[16643] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -27156,11 +27827,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_2HWEAPON",
 			},
-			[9567] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[15828] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[17536] = {
-						["subClass"] = "One-Handed Maces",
+					[36409] = {
+						["subClass"] = "Staves",
+					},
+					[36859] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -27172,13 +27846,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6816] = {
+			[13749] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[11870] = {
-						["subClass"] = "Shields",
+					[30393] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
 			[19522] = {
 				["slot"] = "INVTYPE_CHEST",
@@ -27188,35 +27862,38 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11129] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[12501] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[21205] = {
-						["subClass"] = "Wands",
+					[24813] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[447] = {
-				["slot"] = "INVTYPE_CHEST",
+			[18851] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[10703] = {
+					[44308] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3278] = {
-				["slot"] = "INVTYPE_HAND",
+			[13356] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[13073] = {
-						["subClass"] = "Cloth",
+					[28254] = {
+						["subClass"] = "Staves",
+					},
+					[30803] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
-			[26168] = {
-				["slot"] = "INVTYPE_HAND",
+			[21876] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[69570] = {
-						["subClass"] = "Cloth",
+					[62104] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
 			},
@@ -27247,27 +27924,27 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[4350] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[69190] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[21994] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[63765] = {
-						["subClass"] = "Polearms",
-					},
-				},
-			},
-			[1773] = {
+			[13333] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[9504] = {
+					[29898] = {
 						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[13938] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[29323] = {
+						["subClass"] = "Wands",
+					},
+				},
+			},
+			[32447] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[82066] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -27324,10 +28001,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26725] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[25846] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[69533] = {
+					[72907] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -27344,6 +28021,9 @@ CanIMogItDatabase = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
 					[32235] = {
+						["subClass"] = "Cloth",
+					},
+					[22765] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -27423,16 +28103,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2246] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[12476] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[30854] = {
+					[24779] = {
 						["subClass"] = "Cloth",
 					},
-					[30852] = {
-						["subClass"] = "Cloth",
-					},
-					[29376] = {
+					[25108] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -27465,11 +28142,26 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[21876] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[27829] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[62104] = {
-						["subClass"] = "Two-Handed Maces",
+					[68582] = {
+						["subClass"] = "Cloth",
+					},
+					[76489] = {
+						["subClass"] = "Cloth",
+					},
+					[80322] = {
+						["subClass"] = "Cloth",
+					},
+					[82892] = {
+						["subClass"] = "Cloth",
+					},
+					[81622] = {
+						["subClass"] = "Cloth",
+					},
+					[73822] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -27481,13 +28173,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2629] = {
+			[1896] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[3078] = {
-						["subClass"] = "Two-Handed Swords",
+					[2147] = {
+						["subClass"] = "Wands",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[14914] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -27513,11 +28205,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17557] = {
-				["slot"] = "INVTYPE_WRIST",
+			[22518] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[45106] = {
-						["subClass"] = "Cloth",
+					[81583] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -27537,11 +28229,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31906] = {
-				["slot"] = "INVTYPE_HEAD",
+			[11005] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[80788] = {
-						["subClass"] = "Cosmetic",
+					[20722] = {
+						["subClass"] = "Cloth",
+					},
+					[21451] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -27561,10 +28256,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3111] = {
-				["slot"] = "INVTYPE_HEAD",
+			[21622] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[9706] = {
+					[65991] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -27585,11 +28280,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3444] = {
-				["slot"] = "INVTYPE_ROBE",
+			[3648] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[7608] = {
-						["subClass"] = "Cloth",
+					[13066] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -27628,14 +28323,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13114] = {
-				["slot"] = "INVTYPE_WRIST",
+			[10205] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[28556] = {
-						["subClass"] = "Cloth",
-					},
-					[31219] = {
-						["subClass"] = "Cloth",
+					[74353] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -27664,38 +28356,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[765] = {
+			[29677] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[10716] = {
+					[80918] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[14027] = {
+			[13628] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[29683] = {
-						["subClass"] = "One-Handed Maces",
-					},
-					[32613] = {
-						["subClass"] = "One-Handed Maces",
+					[30737] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
-			[12487] = {
+			[16209] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[37329] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[3336] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[24796] = {
+					[12226] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[14261] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[30521] = {
-						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -27707,40 +28396,43 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27190] = {
+			[17910] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[66422] = {
+						["subClass"] = "Polearms",
+					},
+					[81773] = {
+						["subClass"] = "Polearms",
+					},
+				},
+			},
+			[27809] = {
 				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[79995] = {
+					[74379] = {
+						["subClass"] = "Cloth",
+					},
+					[74513] = {
+						["subClass"] = "Cloth",
+					},
+					[68709] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[9004] = {
-				["slot"] = "INVTYPE_FEET",
+			[22517] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[16044] = {
-						["subClass"] = "Cloth",
+					[80288] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[26870] = {
-				["slot"] = "INVTYPE_WRIST",
+			[17206] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[74652] = {
-						["subClass"] = "Mail",
-					},
-					[74632] = {
-						["subClass"] = "Mail",
-					},
-					[68255] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[32468] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[81033] = {
+					[41203] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -27775,21 +28467,24 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[17040] = {
+			[3064] = {
 				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[38922] = {
+					[9686] = {
+						["subClass"] = "Cloth",
+					},
+					[14368] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13053] = {
+			[11875] = {
 				["sources"] = {
-					[32308] = {
-						["subClass"] = "Plate",
+					[46912] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[11907] = {
 				["sources"] = {
@@ -27807,11 +28502,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13084] = {
-				["slot"] = "INVTYPE_LEGS",
+			[16716] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[28203] = {
-						["subClass"] = "Cloth",
+					[39752] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -27823,11 +28518,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[4909] = {
-				["slot"] = "INVTYPE_HEAD",
+			[9807] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[69089] = {
-						["subClass"] = "Leather",
+					[20724] = {
+						["subClass"] = "Cloth",
+					},
+					[72603] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -27839,41 +28537,32 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[17498] = {
+			[22834] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[43106] = {
-						["subClass"] = "Two-Handed Swords",
+					[70344] = {
+						["subClass"] = "Leather",
 					},
-					[41784] = {
-						["subClass"] = "Two-Handed Swords",
-					},
-					[40671] = {
-						["subClass"] = "Two-Handed Swords",
-					},
-				},
-				["slot"] = "INVTYPE_2HWEAPON",
-			},
-			[12476] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[24779] = {
-						["subClass"] = "Cloth",
-					},
-					[25108] = {
-						["subClass"] = "Cloth",
+					[73428] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[28661] = {
+			[5513] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[73783] = {
-						["subClass"] = "Warglaives",
-					},
-					[76193] = {
-						["subClass"] = "Warglaives",
+					[10521] = {
+						["subClass"] = "Wands",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+			},
+			[27566] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[81319] = {
+						["subClass"] = "Cloth",
+					},
+				},
 			},
 			[24386] = {
 				["sources"] = {
@@ -27883,11 +28572,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[21992] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[2848] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[62030] = {
-						["subClass"] = "Polearms",
+					[3352] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -27994,13 +28683,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7727] = {
-				["slot"] = "INVTYPE_ROBE",
+			[9528] = {
 				["sources"] = {
-					[13433] = {
-						["subClass"] = "Cloth",
+					[17140] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[8548] = {
 				["slot"] = "INVTYPE_FEET",
@@ -28010,13 +28699,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3862] = {
+			[22302] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[10558] = {
-						["subClass"] = "Plate",
+					[80291] = {
+						["subClass"] = "Daggers",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
 			},
 			[8612] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -28026,51 +28715,58 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17911] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[21619] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[42786] = {
-						["subClass"] = "Staves",
+					[60947] = {
+						["subClass"] = "Cloth",
+					},
+					[66625] = {
+						["subClass"] = "Cloth",
+					},
+					[60461] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[21878] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[4903] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[66459] = {
-						["subClass"] = "Daggers",
-					},
-					[62028] = {
-						["subClass"] = "Daggers",
-					},
-					[66491] = {
-						["subClass"] = "Daggers",
+					[69191] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[21814] = {
+			[13910] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[62146] = {
-						["subClass"] = "Bows",
+					[29030] = {
+						["subClass"] = "Cloth",
 					},
-				},
-				["slot"] = "INVTYPE_RANGED",
-			},
-			[639] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[558] = {
-						["subClass"] = "Staves",
-					},
-					[10694] = {
-						["subClass"] = "Staves",
+					[29493] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[27566] = {
-				["slot"] = "INVTYPE_WRIST",
+			[2352] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[81319] = {
+					[77345] = {
+						["subClass"] = "Cosmetic",
+					},
+					[60968] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Demon", -- [1]
+							"Hunter", -- [2]
+						},
+					},
+				},
+			},
+			[6985] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[72465] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -28127,79 +28823,67 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10045] = {
-				["slot"] = "INVTYPE_CHEST",
-				["sources"] = {
-					[18511] = {
-						["subClass"] = "Plate",
-					},
-					[74063] = {
-						["subClass"] = "Plate",
-					},
-				},
-			},
-			[6975] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[19031] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[27252] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[77527] = {
-						["subClass"] = "Leather",
-					},
-					[77493] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[27188] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[80031] = {
-						["subClass"] = "Cloth",
-					},
-					[80578] = {
-						["subClass"] = "Cloth",
-					},
-					[80044] = {
-						["subClass"] = "Cloth",
-					},
-					[80053] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[26868] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[68784] = {
-						["subClass"] = "Mail",
-					},
-					[74644] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[26612] = {
-				["sources"] = {
-					[68713] = {
-						["subClass"] = "Mail",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
-			},
-			[9021] = {
+			[30257] = {
 				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[16074] = {
+					[83442] = {
 						["subClass"] = "Cloth",
 					},
 				},
+			},
+			[4421] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[15318] = {
+						["subClass"] = "Daggers",
+					},
+					[26752] = {
+						["subClass"] = "Daggers",
+					},
+					[14583] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[30426] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[68630] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[9242] = {
+				["sources"] = {
+					[20888] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
+			},
+			[17643] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[45107] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[1823] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[2012] = {
+						["subClass"] = "Wands",
+					},
+				},
+			},
+			[3669] = {
+				["sources"] = {
+					[69182] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[22467] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -28217,13 +28901,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9499] = {
+			[16808] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[17855] = {
-						["subClass"] = "Plate",
+					[39800] = {
+						["subClass"] = "Staves",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
 			[13379] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -28241,11 +28925,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12412] = {
-				["slot"] = "INVTYPE_HAND",
+			[13772] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[24944] = {
-						["subClass"] = "Plate",
+					[28794] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -28268,24 +28952,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13910] = {
-				["slot"] = "INVTYPE_FEET",
+			[14893] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[29030] = {
-						["subClass"] = "Cloth",
-					},
-					[29493] = {
+					[33265] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3669] = {
+			[1952] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[69182] = {
-						["subClass"] = "One-Handed Swords",
+					[8466] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[9508] = {
 				["sources"] = {
@@ -28314,13 +28995,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1823] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[9521] = {
 				["sources"] = {
-					[2012] = {
-						["subClass"] = "Wands",
+					[17157] = {
+						["subClass"] = "Plate",
+					},
+					[21441] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[13731] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -28349,11 +29033,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22831] = {
-				["slot"] = "INVTYPE_HAND",
+			[26161] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[70296] = {
-						["subClass"] = "Leather",
+					[69608] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -28365,16 +29049,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5807] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[13263] = {
 				["sources"] = {
-					[8565] = {
-						["subClass"] = "Cloth",
-					},
-					[12553] = {
-						["subClass"] = "Cloth",
+					[28191] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[2458] = {
 				["slot"] = "INVTYPE_HOLDABLE",
@@ -28407,13 +29088,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5013] = {
+			[9493] = {
 				["sources"] = {
-					[69215] = {
+					[17535] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
+				["slot"] = "INVTYPE_FEET",
 			},
 			[14019] = {
 				["sources"] = {
@@ -28455,13 +29136,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5423] = {
+			[22062] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[7674] = {
-						["subClass"] = "Two-Handed Swords",
+					[62204] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[14211] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -28501,11 +29182,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20404] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[14234] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[74092] = {
-						["subClass"] = "Daggers",
+					[31913] = {
+						["subClass"] = "Cloth",
+					},
+					[31974] = {
+						["subClass"] = "Cloth",
+					},
+					[31702] = {
+						["subClass"] = "Cloth",
+					},
+					[31916] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -28552,11 +29242,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5219] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[14531] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[7240] = {
-						["subClass"] = "Fist Weapons",
+					[31747] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -28585,13 +29275,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22963] = {
+			[9531] = {
 				["sources"] = {
-					[61483] = {
+					[17145] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_FEET",
 			},
 			[5283] = {
 				["slot"] = "INVTYPE_FEET",
@@ -28601,24 +29291,53 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9521] = {
+			[6766] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[17157] = {
-						["subClass"] = "Plate",
-					},
-					[21441] = {
-						["subClass"] = "Plate",
+					[10604] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
 			},
-			[22493] = {
+			[22833] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[80285] = {
-						["subClass"] = "One-Handed Axes",
+					[70328] = {
+						["subClass"] = "Leather",
 					},
 				},
+			},
+			[1680] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[30845] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[5347] = {
 				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[7536] = {
+						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[13402] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[27267] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[5379] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[13309] = {
+						["subClass"] = "Wands",
+					},
+				},
 			},
 			[22001] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -28631,38 +29350,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5347] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[7536] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[18197] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[42783] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[5379] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
-				["sources"] = {
-					[13309] = {
-						["subClass"] = "Wands",
-					},
-				},
-			},
-			[5422] = {
-				["sources"] = {
-					[7673] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_WEAPON",
-			},
 			[14915] = {
 				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
@@ -28671,11 +29358,23 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11735] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[9339] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[22536] = {
-						["subClass"] = "Miscellaneous",
+					[18676] = {
+						["subClass"] = "Daggers",
+					},
+					[18343] = {
+						["subClass"] = "Daggers",
+					},
+					[21222] = {
+						["subClass"] = "Daggers",
+					},
+					[18675] = {
+						["subClass"] = "Daggers",
+					},
+					[16649] = {
+						["subClass"] = "Daggers",
 					},
 				},
 			},
@@ -28687,65 +29386,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3790] = {
+			[9612] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[26851] = {
-						["subClass"] = "Bows",
+					[17475] = {
+						["subClass"] = "Staves",
+					},
+					[18250] = {
+						["subClass"] = "Staves",
 					},
 				},
-				["slot"] = "INVTYPE_RANGED",
 			},
 			[2738] = {
 				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
 					[9819] = {
 						["subClass"] = "Leather",
-					},
-				},
-			},
-			[9241] = {
-				["sources"] = {
-					[20892] = {
-						["subClass"] = "Plate",
-					},
-					[21469] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_SHOULDER",
-			},
-			[9529] = {
-				["sources"] = {
-					[17143] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_WRIST",
-			},
-			[2762] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[6869] = {
-						["subClass"] = "Cloth",
-					},
-					[8359] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[1658] = {
-				["sources"] = {
-					[26147] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_WAIST",
-			},
-			[8494] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[15118] = {
-						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -28765,32 +29421,72 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHIELD",
 			},
-			[9523] = {
+			[2762] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[17159] = {
+					[6869] = {
+						["subClass"] = "Cloth",
+					},
+					[8359] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[6549] = {
+				["sources"] = {
+					[10023] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
-			},
-			[562] = {
 				["slot"] = "INVTYPE_WAIST",
+			},
+			[9459] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[29749] = {
-						["subClass"] = "Leather",
-					},
-					[29780] = {
+					[16918] = {
 						["subClass"] = "Leather",
 					},
 				},
 			},
-			[19059] = {
+			[3790] = {
 				["sources"] = {
-					[44843] = {
-						["subClass"] = "One-Handed Maces",
+					[26851] = {
+						["subClass"] = "Bows",
+					},
+				},
+				["slot"] = "INVTYPE_RANGED",
+			},
+			[9520] = {
+				["sources"] = {
+					[17156] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
+			},
+			[12376] = {
+				["sources"] = {
+					[24812] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
 				["slot"] = "INVTYPE_WEAPON",
+			},
+			[11514] = {
+				["slot"] = "INVTYPE_TABARD",
+				["sources"] = {
+					[22005] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[9512] = {
+				["sources"] = {
+					[17164] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[30786] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -28800,13 +29496,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6300] = {
+			[30830] = {
 				["sources"] = {
-					[9439] = {
-						["subClass"] = "Plate",
+					[78917] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
+				["slot"] = "INVTYPE_CLOAK",
 			},
 			[33155] = {
 				["slot"] = "INVTYPE_BODY",
@@ -28816,27 +29512,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[7678] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[5534] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 				["sources"] = {
-					[32959] = {
-						["subClass"] = "Staves",
+					[7931] = {
+						["subClass"] = "Wands",
 					},
 				},
 			},
 			[26947] = {
 				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[76480] = {
+					[80329] = {
 						["subClass"] = "Plate",
 					},
-					[68164] = {
+					[76480] = {
 						["subClass"] = "Plate",
 					},
 					[80324] = {
 						["subClass"] = "Plate",
 					},
-					[80329] = {
+					[68164] = {
 						["subClass"] = "Plate",
 					},
 				},
@@ -28849,13 +29545,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3750] = {
+			[1690] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[4713] = {
-						["subClass"] = "Plate",
+					[27844] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[11524] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -28868,14 +29564,54 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1967] = {
-				["slot"] = "INVTYPE_FEET",
+			[6968] = {
 				["sources"] = {
-					[2247] = {
-						["subClass"] = "Cloth",
+					[14300] = {
+						["subClass"] = "Bows",
 					},
-					[30306] = {
-						["subClass"] = "Cloth",
+				},
+				["slot"] = "INVTYPE_RANGED",
+			},
+			[19077] = {
+				["slot"] = "INVTYPE_SHIELD",
+				["sources"] = {
+					[44898] = {
+						["subClass"] = "Shields",
+					},
+				},
+			},
+			[15526] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[35599] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[17453] = {
+				["sources"] = {
+					[41800] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_HAND",
+			},
+			[27459] = {
+				["sources"] = {
+					[77470] = {
+						["subClass"] = "Mail",
+					},
+					[77606] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
+			},
+			[16726] = {
+				["slot"] = "INVTYPE_WAIST",
+				["sources"] = {
+					[40186] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -28890,46 +29626,6 @@ CanIMogItDatabase = {
 					},
 					[21295] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[12920] = {
-				["slot"] = "INVTYPE_WAIST",
-				["sources"] = {
-					[27459] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[25452] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[69610] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[27459] = {
-				["sources"] = {
-					[77470] = {
-						["subClass"] = "Mail",
-					},
-				},
-				["slot"] = "INVTYPE_FEET",
-			},
-			[9242] = {
-				["sources"] = {
-					[20888] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_FEET",
-			},
-			[1690] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[27844] = {
-						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -28949,16 +29645,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1200] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[11720] = {
 				["sources"] = {
-					[10447] = {
-						["subClass"] = "Daggers",
-					},
-					[31285] = {
-						["subClass"] = "Daggers",
+					[46953] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[11876] = {
 				["sources"] = {
@@ -28968,16 +29661,28 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[9522] = {
+			[13004] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[17158] = {
-						["subClass"] = "Plate",
+					[27986] = {
+						["subClass"] = "Leather",
 					},
-					[17859] = {
-						["subClass"] = "Plate",
+					[31874] = {
+						["subClass"] = "Leather",
+					},
+					[32865] = {
+						["subClass"] = "Leather",
+					},
+					[31944] = {
+						["subClass"] = "Leather",
+					},
+					[31870] = {
+						["subClass"] = "Leather",
+					},
+					[31948] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
 			[16035] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -28987,29 +29692,32 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6890] = {
+			[889] = {
 				["sources"] = {
-					[12513] = {
-						["subClass"] = "Plate",
+					[10263] = {
+						["subClass"] = "Crossbows",
+					},
+					[29779] = {
+						["subClass"] = "Crossbows",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[7118] = {
+			[13753] = {
+				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[60800] = {
-						["subClass"] = "One-Handed Swords",
+					[30524] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
-			[6968] = {
+			[13657] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[14300] = {
-						["subClass"] = "Bows",
+					[31973] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_RANGED",
 			},
 			[16163] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -29019,13 +29727,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9553] = {
+			[13305] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[17194] = {
-						["subClass"] = "Shields",
+					[30794] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
 			[16227] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -29035,19 +29743,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9332] = {
+			[12437] = {
 				["sources"] = {
-					[17141] = {
-						["subClass"] = "Plate",
+					[24725] = {
+						["subClass"] = "Guns",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[1696] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13081] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[28370] = {
-						["subClass"] = "Leather",
+					[28220] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -29089,16 +29797,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WEAPON",
 			},
-			[26928] = {
-				["slot"] = "INVTYPE_WRIST",
+			[10064] = {
 				["sources"] = {
-					[80060] = {
-						["subClass"] = "Leather",
-					},
-					[80086] = {
-						["subClass"] = "Leather",
+					[21458] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
 			[33156] = {
 				["slot"] = "INVTYPE_TABARD",
@@ -29135,13 +29840,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21809] = {
+			[12516] = {
 				["sources"] = {
-					[58952] = {
-						["subClass"] = "Two-Handed Swords",
+					[24841] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[12548] = {
 				["slot"] = "INVTYPE_HAND",
@@ -29162,35 +29867,38 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11720] = {
+			[8077] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[46953] = {
-						["subClass"] = "Plate",
+					[14084] = {
+						["subClass"] = "Daggers",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
-			},
-			[6537] = {
-				["sources"] = {
-					[10044] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[7385] = {
-				["sources"] = {
-					[13400] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[24095] = {
 				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
 					[62358] = {
 						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[11145] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[21292] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[12847] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[26847] = {
+						["subClass"] = "Leather",
+					},
+					[35449] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -29202,21 +29910,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[15526] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[13332] = {
 				["sources"] = {
-					[35599] = {
-						["subClass"] = "Staves",
+					[33212] = {
+						["subClass"] = "Guns",
 					},
 				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
-			[10064] = {
+			[26861] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[21458] = {
-						["subClass"] = "Plate",
+					[81380] = {
+						["subClass"] = "Mail",
+					},
+					[68864] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
 			[17478] = {
 				["sources"] = {
@@ -29238,13 +29949,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_HEAD",
 			},
-			[17453] = {
+			[22122] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[41800] = {
-						["subClass"] = "Plate",
+					[63104] = {
+						["subClass"] = "Leather",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
 			},
 			[8805] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -29308,16 +30019,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[889] = {
+			[17967] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[10263] = {
-						["subClass"] = "Crossbows",
+					[41943] = {
+						["subClass"] = "Cloth",
 					},
-					[29779] = {
-						["subClass"] = "Crossbows",
+					[41940] = {
+						["subClass"] = "Cloth",
+					},
+					[41942] = {
+						["subClass"] = "Cloth",
+					},
+					[41944] = {
+						["subClass"] = "Cloth",
+					},
+					[41941] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[22213] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -29327,27 +30047,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9530] = {
-				["sources"] = {
-					[17144] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_WAIST",
-			},
-			[22000] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[63767] = {
-						["subClass"] = "One-Handed Maces",
-					},
-				},
-			},
-			[14903] = {
+			[12916] = {
 				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[33294] = {
-						["subClass"] = "Cloth",
+					[26693] = {
+						["subClass"] = "Leather",
+					},
+					[26697] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[12495] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[24806] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -29362,6 +30077,14 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[4502] = {
+				["slot"] = "INVTYPE_LEGS",
+				["sources"] = {
+					[6194] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
 			[9221] = {
 				["sources"] = {
 					[72588] = {
@@ -29370,24 +30093,18 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_CHEST",
 			},
-			[12847] = {
-				["slot"] = "INVTYPE_HAND",
+			[13496] = {
 				["sources"] = {
-					[26847] = {
-						["subClass"] = "Leather",
-					},
-					[35449] = {
-						["subClass"] = "Leather",
+					[82870] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
-			[3333] = {
-				["slot"] = "INVTYPE_FEET",
+			[3462] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[31885] = {
-						["subClass"] = "Leather",
-					},
-					[31888] = {
+					[4263] = {
 						["subClass"] = "Leather",
 					},
 				},
@@ -29400,13 +30117,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22604] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[856] = {
 				["sources"] = {
-					[70340] = {
-						["subClass"] = "Cloth",
+					[28162] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[26948] = {
 				["slot"] = "INVTYPE_HAND",
@@ -29494,11 +30211,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24531] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[5308] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[77343] = {
-						["subClass"] = "Cosmetic",
+					[69213] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
 			},
@@ -29518,11 +30235,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13753] = {
+			[3143] = {
 				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[30524] = {
-						["subClass"] = "Cloth",
+					[3784] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -29534,11 +30251,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[4718] = {
-				["slot"] = "INVTYPE_HOLDABLE",
+			[32618] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[17206] = {
-						["subClass"] = "Miscellaneous",
+					[82871] = {
+						["subClass"] = "Two-Handed Maces",
 					},
 				},
 			},
@@ -29566,11 +30283,20 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12495] = {
-				["slot"] = "INVTYPE_LEGS",
+			[1691] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[24806] = {
-						["subClass"] = "Leather",
+					[24068] = {
+						["subClass"] = "Cloth",
+					},
+					[10577] = {
+						["subClass"] = "Cloth",
+					},
+					[72742] = {
+						["subClass"] = "Cloth",
+					},
+					[24198] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -29582,19 +30308,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[24485] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[14024] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[63743] = {
+					[29676] = {
+						["subClass"] = "Cloth",
+					},
+					[31863] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[22606] = {
-				["slot"] = "INVTYPE_ROBE",
+			[22060] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[70272] = {
-						["subClass"] = "Cloth",
+					[62207] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -29712,11 +30441,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21843] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[22606] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[58956] = {
-						["subClass"] = "One-Handed Maces",
+					[70272] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -29728,32 +30457,50 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9517] = {
+			[21612] = {
 				["sources"] = {
-					[17153] = {
+					[60944] = {
 						["subClass"] = "Plate",
 					},
-					[19635] = {
+					[57250] = {
+						["subClass"] = "Plate",
+					},
+					[62209] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_FEET",
+				["slot"] = "INVTYPE_LEGS",
 			},
-			[9514] = {
+			[9368] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[18887] = {
-						["subClass"] = "Plate",
+					[18522] = {
+						["subClass"] = "Cloth",
+					},
+					[18545] = {
+						["subClass"] = "Cloth",
+					},
+					[18548] = {
+						["subClass"] = "Cloth",
+					},
+					[16686] = {
+						["subClass"] = "Cloth",
+					},
+					[18122] = {
+						["subClass"] = "Cloth",
+					},
+					[18114] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[954] = {
+			[21837] = {
 				["sources"] = {
-					[27461] = {
-						["subClass"] = "Bows",
+					[62154] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_RANGED",
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[14756] = {
 				["slot"] = "INVTYPE_FEET",
@@ -29771,33 +30518,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[17967] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[24531] = {
+				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[41943] = {
-						["subClass"] = "Cloth",
-					},
-					[41940] = {
-						["subClass"] = "Cloth",
-					},
-					[41942] = {
-						["subClass"] = "Cloth",
-					},
-					[41944] = {
-						["subClass"] = "Cloth",
-					},
-					[41941] = {
-						["subClass"] = "Cloth",
+					[77343] = {
+						["subClass"] = "Cosmetic",
 					},
 				},
 			},
-			[13705] = {
+			[2207] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[28251] = {
-						["subClass"] = "Crossbows",
+					[2554] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[14884] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -29869,30 +30604,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9881] = {
-				["slot"] = "INVTYPE_LEGS",
+			[9514] = {
 				["sources"] = {
-					[20904] = {
-						["subClass"] = "Cloth",
-					},
-					[20763] = {
-						["subClass"] = "Cloth",
-					},
-					[21439] = {
-						["subClass"] = "Cloth",
-					},
-					[72712] = {
-						["subClass"] = "Cloth",
+					[18887] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[11726] = {
+			[4155] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[46963] = {
-						["subClass"] = "One-Handed Axes",
+					[5589] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
 			[30404] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -29902,29 +30628,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3399] = {
-				["slot"] = "INVTYPE_RANGEDRIGHT",
+			[12233] = {
 				["sources"] = {
-					[27896] = {
-						["subClass"] = "Wands",
+					[25097] = {
+						["subClass"] = "Plate",
+					},
+					[25092] = {
+						["subClass"] = "Plate",
+					},
+					[74359] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_CHEST",
+			},
+			[3781] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[4759] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
-			[3391] = {
-				["slot"] = "INVTYPE_LEGS",
+			[13287] = {
 				["sources"] = {
-					[4136] = {
-						["subClass"] = "Cloth",
+					[28217] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
-			},
-			[26924] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[80068] = {
-						["subClass"] = "Leather",
-					},
-				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[22470] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -29953,14 +30685,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[585] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[1304] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
 			[14090] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
@@ -29968,6 +30692,14 @@ CanIMogItDatabase = {
 						["subClass"] = "Mail",
 					},
 				},
+			},
+			[12462] = {
+				["sources"] = {
+					[24760] = {
+						["subClass"] = "Bows",
+					},
+				},
+				["slot"] = "INVTYPE_RANGED",
 			},
 			[3874] = {
 				["slot"] = "INVTYPE_FEET",
@@ -30018,32 +30750,29 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19156] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[13705] = {
 				["sources"] = {
-					[66503] = {
-						["subClass"] = "Fist Weapons",
-					},
-				},
-			},
-			[688] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[14388] = {
-						["subClass"] = "Daggers",
-					},
-					[27920] = {
-						["subClass"] = "Daggers",
-					},
-				},
-			},
-			[13331] = {
-				["sources"] = {
-					[34652] = {
-						["subClass"] = "Guns",
+					[28251] = {
+						["subClass"] = "Crossbows",
 					},
 				},
 				["slot"] = "INVTYPE_RANGEDRIGHT",
+			},
+			[19079] = {
+				["sources"] = {
+					[44902] = {
+						["subClass"] = "Mail",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
+			},
+			[11726] = {
+				["sources"] = {
+					[46963] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[7875] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -30077,41 +30806,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[1251] = {
+			[11727] = {
+				["sources"] = {
+					[46955] = {
+						["subClass"] = "Plate",
+					},
+				},
+				["slot"] = "INVTYPE_FEET",
+			},
+			[11813] = {
 				["slot"] = "INVTYPE_CHEST",
 				["sources"] = {
-					[33332] = {
+					[46877] = {
 						["subClass"] = "Leather",
 					},
-					[75905] = {
-						["subClass"] = "Mail",
-					},
 				},
 			},
-			[23622] = {
-				["sources"] = {
-					[63602] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HAND",
-			},
-			[22229] = {
-				["sources"] = {
-					[62072] = {
-						["subClass"] = "Plate",
-					},
-					[66390] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HAND",
-			},
-			[15972] = {
+			[19156] = {
 				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[36867] = {
-						["subClass"] = "One-Handed Maces",
+					[66503] = {
+						["subClass"] = "Fist Weapons",
+					},
+				},
+			},
+			[11877] = {
+				["slot"] = "INVTYPE_RANGEDRIGHT",
+				["sources"] = {
+					[46905] = {
+						["subClass"] = "Guns",
 					},
 				},
 			},
@@ -30123,22 +30846,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21740] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[13331] = {
 				["sources"] = {
-					[64211] = {
-						["subClass"] = "Polearms",
-					},
-					[64195] = {
-						["subClass"] = "Polearms",
-					},
-					[58950] = {
-						["subClass"] = "Polearms",
-					},
-					[65560] = {
-						["subClass"] = "Polearms",
+					[34652] = {
+						["subClass"] = "Guns",
 					},
 				},
+				["slot"] = "INVTYPE_RANGEDRIGHT",
 			},
 			[8035] = {
 				["slot"] = "INVTYPE_HAND",
@@ -30148,11 +30862,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5389] = {
-				["slot"] = "INVTYPE_ROBE",
+			[418] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[13897] = {
-						["subClass"] = "Cloth",
+					[28457] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -30175,19 +30889,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[29354] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[23058] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[78687] = {
-						["subClass"] = "Cloth",
+					[63374] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[10456] = {
-				["slot"] = "INVTYPE_FEET",
+			[22121] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[19633] = {
-						["subClass"] = "Cloth",
+					[63080] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -30199,27 +30913,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14313] = {
-				["slot"] = "INVTYPE_LEGS",
+			[22229] = {
 				["sources"] = {
-					[31983] = {
-						["subClass"] = "Leather",
+					[62072] = {
+						["subClass"] = "Plate",
 					},
-					[31989] = {
-						["subClass"] = "Leather",
+					[66390] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
-			[5468] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13479] = {
 				["sources"] = {
-					[7814] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
+					[27471] = {
+						["subClass"] = "One-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_WEAPON",
 			},
 			[12261] = {
 				["sources"] = {
@@ -30237,14 +30948,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[9464] = {
-				["slot"] = "INVTYPE_HAND",
+			[12246] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[16923] = {
-						["subClass"] = "Leather",
-					},
-					[16931] = {
-						["subClass"] = "Leather",
+					[24767] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -30264,11 +30972,14 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[16748] = {
-				["slot"] = "INVTYPE_FEET",
+			[26597] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[39788] = {
-						["subClass"] = "Mail",
+					[68718] = {
+						["subClass"] = "Leather",
+					},
+					[74389] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -30291,13 +31002,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[15818] = {
+			[13353] = {
 				["sources"] = {
-					[36388] = {
-						["subClass"] = "One-Handed Swords",
+					[28234] = {
+						["subClass"] = "Shields",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+				["slot"] = "INVTYPE_SHIELD",
 			},
 			[12549] = {
 				["slot"] = "INVTYPE_LEGS",
@@ -30318,11 +31029,35 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[8344] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[22491] = {
 				["sources"] = {
-					[14869] = {
-						["subClass"] = "Daggers",
+					[81574] = {
+						["subClass"] = "Shields",
+					},
+				},
+				["slot"] = "INVTYPE_SHIELD",
+			},
+			[15818] = {
+				["sources"] = {
+					[36388] = {
+						["subClass"] = "One-Handed Swords",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[8582] = {
+				["slot"] = "INVTYPE_CHEST",
+				["sources"] = {
+					[15289] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[6970] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[72453] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -30334,38 +31069,11 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WAIST",
 			},
-			[8582] = {
-				["slot"] = "INVTYPE_CHEST",
-				["sources"] = {
-					[15289] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[12279] = {
+			[6504] = {
 				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
-					[25072] = {
+					[9909] = {
 						["subClass"] = "Mail",
-					},
-				},
-			},
-			[32424] = {
-				["sources"] = {
-					[81608] = {
-						["subClass"] = "Miscellaneous",
-					},
-				},
-				["slot"] = "INVTYPE_TABARD",
-			},
-			[26588] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[73984] = {
-						["subClass"] = "Leather",
-					},
-					[74011] = {
-						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -30385,14 +31093,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26909] = {
-				["slot"] = "INVTYPE_WRIST",
+			[17769] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[79089] = {
-						["subClass"] = "Leather",
-					},
-					[79034] = {
-						["subClass"] = "Leather",
+					[41194] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -30404,13 +31109,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22287] = {
+			[14601] = {
 				["sources"] = {
-					[81596] = {
-						["subClass"] = "Two-Handed Swords",
+					[32309] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_LEGS",
 			},
 			[21831] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -30428,14 +31133,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26902] = {
-				["slot"] = "INVTYPE_WAIST",
+			[12488] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[78631] = {
-						["subClass"] = "Leather",
-					},
-					[79090] = {
-						["subClass"] = "Leather",
+					[24797] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -30444,6 +31146,90 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[29360] = {
 						["subClass"] = "Daggers",
+					},
+				},
+			},
+			[316] = {
+				["slot"] = "INVTYPE_HOLDABLE",
+				["sources"] = {
+					[37355] = {
+						["subClass"] = "Miscellaneous",
+					},
+				},
+			},
+			[21733] = {
+				["sources"] = {
+					[62159] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[62036] = {
+						["subClass"] = "One-Handed Axes",
+					},
+					[60437] = {
+						["subClass"] = "One-Handed Axes",
+					},
+				},
+				["slot"] = "INVTYPE_WEAPON",
+			},
+			[30405] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[74625] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[26909] = {
+				["slot"] = "INVTYPE_WRIST",
+				["sources"] = {
+					[79089] = {
+						["subClass"] = "Leather",
+					},
+					[79034] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[27553] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[80831] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[22407] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[63170] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[26596] = {
+				["slot"] = "INVTYPE_HEAD",
+				["sources"] = {
+					[68714] = {
+						["subClass"] = "Leather",
+					},
+				},
+			},
+			[13317] = {
+				["slot"] = "INVTYPE_2HWEAPON",
+				["sources"] = {
+					[28206] = {
+						["subClass"] = "Staves",
+					},
+					[33196] = {
+						["subClass"] = "Staves",
+					},
+				},
+			},
+			[31391] = {
+				["slot"] = "INVTYPE_FEET",
+				["sources"] = {
+					[79517] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -30458,87 +31244,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[31395] = {
-				["slot"] = "INVTYPE_LEGS",
-				["sources"] = {
-					[79518] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[30405] = {
-				["slot"] = "INVTYPE_CLOAK",
-				["sources"] = {
-					[74625] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[13455] = {
-				["sources"] = {
-					[28176] = {
-						["subClass"] = "Plate",
-					},
-					[33252] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_FEET",
-			},
-			[13169] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[29658] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[22407] = {
-				["slot"] = "INVTYPE_FEET",
-				["sources"] = {
-					[63170] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[30440] = {
-				["sources"] = {
-					[80929] = {
-						["subClass"] = "Cloth",
-					},
-				},
-				["slot"] = "INVTYPE_CLOAK",
-			},
-			[13317] = {
-				["slot"] = "INVTYPE_2HWEAPON",
-				["sources"] = {
-					[28206] = {
-						["subClass"] = "Staves",
-					},
-					[33196] = {
-						["subClass"] = "Staves",
-					},
-				},
-			},
-			[12488] = {
-				["slot"] = "INVTYPE_WRIST",
-				["sources"] = {
-					[24797] = {
-						["subClass"] = "Mail",
-					},
-				},
-			},
-			[30248] = {
-				["slot"] = "INVTYPE_ROBE",
-				["sources"] = {
-					[83348] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
-					},
-				},
-			},
 			[13413] = {
 				["slot"] = "INVTYPE_SHOULDER",
 				["sources"] = {
@@ -30550,13 +31255,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21610] = {
+			[31306] = {
 				["sources"] = {
-					[58036] = {
+					[79510] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[9382] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -30645,36 +31350,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21732] = {
+			[24934] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[60899] = {
-						["subClass"] = "One-Handed Axes",
-					},
-					[62158] = {
-						["subClass"] = "One-Handed Axes",
-					},
-					[62034] = {
-						["subClass"] = "One-Handed Axes",
-					},
-					[64190] = {
-						["subClass"] = "One-Handed Axes",
+					[66605] = {
+						["subClass"] = "Staves",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
 			},
-			[13774] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[16552] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[28796] = {
+					[38914] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[31383] = {
-				["slot"] = "INVTYPE_CHEST",
+			[12053] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[79530] = {
-						["subClass"] = "Mail",
+					[24186] = {
+						["subClass"] = "Plate",
 					},
 				},
 			},
@@ -30737,13 +31433,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[395] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[2221] = {
 				["sources"] = {
-					[32875] = {
-						["subClass"] = "One-Handed Maces",
+					[10043] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[20040] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -30805,27 +31501,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[3772] = {
-				["slot"] = "INVTYPE_CHEST",
+			[7499] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[4749] = {
-						["subClass"] = "Mail",
+					[13017] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
-			[12975] = {
-				["slot"] = "INVTYPE_ROBE",
+			[3734] = {
 				["sources"] = {
-					[26258] = {
-						["subClass"] = "Cloth",
-					},
-					[32290] = {
-						["subClass"] = "Cloth",
-					},
-					[32317] = {
-						["subClass"] = "Cloth",
+					[4693] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[14373] = {
 				["sources"] = {
@@ -30835,13 +31525,16 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[31394] = {
-				["slot"] = "INVTYPE_CHEST",
+			[26963] = {
 				["sources"] = {
-					[79541] = {
-						["subClass"] = "Leather",
+					[73990] = {
+						["subClass"] = "Plate",
+					},
+					[77798] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[10342] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -30898,37 +31591,40 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2221] = {
+			[9749] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[10043] = {
+					[18514] = {
+						["subClass"] = "Plate",
+					},
+					[74069] = {
 						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
-			[24540] = {
-				["slot"] = "INVTYPE_WAIST",
+			[13556] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[74189] = {
-						["subClass"] = "Mail",
+					[31752] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[4871] = {
-				["slot"] = "INVTYPE_LEGS",
+			[32837] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[69094] = {
-						["subClass"] = "Mail",
+					[84133] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[3734] = {
+			[21983] = {
+				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
-					[4693] = {
-						["subClass"] = "Two-Handed Swords",
+					[62156] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[5316] = {
 				["sources"] = {
@@ -30938,13 +31634,16 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[31313] = {
+			[30243] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[79515] = {
-						["subClass"] = "Plate",
+					[83345] = {
+						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
-				["slot"] = "INVTYPE_WRIST",
 			},
 			[14789] = {
 				["slot"] = "INVTYPE_WEAPON",
@@ -30952,13 +31651,16 @@ CanIMogItDatabase = {
 					[32965] = {
 						["subClass"] = "Daggers",
 					},
+					[32966] = {
+						["subClass"] = "Daggers",
+					},
 				},
 			},
-			[13391] = {
-				["slot"] = "INVTYPE_WRIST",
+			[11241] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[27170] = {
-						["subClass"] = "Mail",
+					[21566] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -30970,13 +31672,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[14773] = {
+			[22233] = {
 				["sources"] = {
-					[32770] = {
-						["subClass"] = "Cloth",
+					[62095] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_WRIST",
 			},
 			[14917] = {
 				["sources"] = {
@@ -31018,16 +31720,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[6906] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[31307] = {
 				["sources"] = {
-					[11983] = {
-						["subClass"] = "Staves",
-					},
-					[14104] = {
-						["subClass"] = "Staves",
+					[79514] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_FEET",
 			},
 			[22024] = {
 				["slot"] = "INVTYPE_HAND",
@@ -31048,28 +31747,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16742] = {
-				["slot"] = "INVTYPE_WRIST",
+			[24540] = {
+				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[39776] = {
+					[74189] = {
 						["subClass"] = "Mail",
 					},
 				},
 			},
-			[27814] = {
-				["slot"] = "INVTYPE_ROBE",
+			[6906] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[68719] = {
-						["subClass"] = "Cloth",
+					[11983] = {
+						["subClass"] = "Staves",
 					},
-					[76261] = {
-						["subClass"] = "Cloth",
-					},
-					[68372] = {
-						["subClass"] = "Cloth",
-					},
-					[74377] = {
-						["subClass"] = "Cloth",
+					[14104] = {
+						["subClass"] = "Staves",
 					},
 				},
 			},
@@ -31081,11 +31774,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[2717] = {
-				["slot"] = "INVTYPE_LEGS",
+			[24332] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[3185] = {
-						["subClass"] = "Mail",
+					[72528] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -31097,19 +31790,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[16658] = {
+			[10280] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[40038] = {
-						["subClass"] = "Cloth",
+					[74352] = {
+						["subClass"] = "Mail",
 					},
 				},
-				["slot"] = "INVTYPE_HEAD",
 			},
-			[11913] = {
-				["slot"] = "INVTYPE_HEAD",
+			[14508] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[74087] = {
-						["subClass"] = "Leather",
+					[31647] = {
+						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -31124,27 +31817,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13034] = {
+			[2717] = {
 				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[74186] = {
+					[3185] = {
 						["subClass"] = "Mail",
 					},
 				},
 			},
-			[2211] = {
-				["slot"] = "INVTYPE_FEET",
+			[11913] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[9912] = {
-						["subClass"] = "Mail",
+					[74087] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
-			[9747] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[11082] = {
+				["slot"] = "INVTYPE_TABARD",
 				["sources"] = {
-					[72702] = {
-						["subClass"] = "One-Handed Maces",
+					[20953] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
@@ -31162,27 +31855,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[22681] = {
-				["slot"] = "INVTYPE_FEET",
+			[9747] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[70284] = {
+					[72702] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[22682] = {
+				["slot"] = "INVTYPE_CHEST",
+				["sources"] = {
+					[70264] = {
 						["subClass"] = "Mail",
 					},
 				},
 			},
-			[19531] = {
-				["slot"] = "INVTYPE_CHEST",
+			[517] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[74084] = {
-						["subClass"] = "Leather",
-					},
-				},
-			},
-			[8502] = {
-				["slot"] = "INVTYPE_TABARD",
-				["sources"] = {
-					[15131] = {
-						["subClass"] = "Miscellaneous",
+					[29746] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -31202,13 +31895,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[12213] = {
+			[14025] = {
 				["sources"] = {
-					[24432] = {
-						["subClass"] = "Two-Handed Axes",
+					[29993] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_2HWEAPON",
+				["slot"] = "INVTYPE_ROBE",
 			},
 			[9776] = {
 				["slot"] = "INVTYPE_WRIST",
@@ -31229,27 +31922,27 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[11957] = {
+			[10036] = {
+				["slot"] = "INVTYPE_2HWEAPON",
 				["sources"] = {
-					[46971] = {
-						["subClass"] = "Shields",
+					[18497] = {
+						["subClass"] = "Two-Handed Swords",
 					},
 				},
-				["slot"] = "INVTYPE_SHIELD",
 			},
-			[31309] = {
+			[22681] = {
+				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[79509] = {
-						["subClass"] = "Plate",
-					},
-				},
-				["slot"] = "INVTYPE_HAND",
-			},
-			[31385] = {
-				["slot"] = "INVTYPE_HEAD",
-				["sources"] = {
-					[79527] = {
+					[70284] = {
 						["subClass"] = "Mail",
+					},
+				},
+			},
+			[19531] = {
+				["slot"] = "INVTYPE_CHEST",
+				["sources"] = {
+					[74084] = {
+						["subClass"] = "Leather",
 					},
 				},
 			},
@@ -31261,11 +31954,11 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[5924] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[11846] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[69202] = {
-						["subClass"] = "Mail",
+					[46911] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
 			},
@@ -31280,16 +31973,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[28700] = {
+			[31310] = {
 				["sources"] = {
-					[60967] = {
-						["subClass"] = "Warglaives",
-					},
-					[73859] = {
-						["subClass"] = "Warglaives",
+					[79511] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_WEAPON",
+				["slot"] = "INVTYPE_HEAD",
 			},
 			[16917] = {
 				["slot"] = "INVTYPE_ROBE",
@@ -31299,19 +31989,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			[4667] = {
+				["slot"] = "INVTYPE_CLOAK",
+				["sources"] = {
+					[7088] = {
+						["subClass"] = "Cloth",
+					},
+					[10595] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
 			[24539] = {
 				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
 					[74091] = {
 						["subClass"] = "Leather",
-					},
-				},
-			},
-			[6667] = {
-				["slot"] = "INVTYPE_WEAPON",
-				["sources"] = {
-					[10317] = {
-						["subClass"] = "One-Handed Maces",
 					},
 				},
 			},
@@ -31337,27 +32030,22 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30436] = {
+			[13107] = {
+				["sources"] = {
+					[29994] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_LEGS",
+			},
+			[30177] = {
 				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[80927] = {
+					[81563] = {
 						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[25893] = {
-				["slot"] = "INVTYPE_SHOULDER",
-				["sources"] = {
-					[69658] = {
-						["subClass"] = "Cloth",
-					},
-				},
-			},
-			[13771] = {
-				["slot"] = "INVTYPE_ROBE",
-				["sources"] = {
-					[28793] = {
-						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
 			},
@@ -31375,11 +32063,25 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[10036] = {
-				["slot"] = "INVTYPE_2HWEAPON",
+			[12459] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[18497] = {
-						["subClass"] = "Two-Handed Swords",
+					[25111] = {
+						["subClass"] = "Cloth",
+					},
+				},
+			},
+			[9289] = {
+				["slot"] = "INVTYPE_CHEST",
+				["sources"] = {
+					[17042] = {
+						["subClass"] = "Mail",
+					},
+					[17050] = {
+						["subClass"] = "Mail",
+					},
+					[17026] = {
+						["subClass"] = "Mail",
 					},
 				},
 			},
@@ -31405,19 +32107,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9289] = {
-				["slot"] = "INVTYPE_CHEST",
+			[19403] = {
 				["sources"] = {
-					[17042] = {
-						["subClass"] = "Mail",
-					},
-					[17050] = {
-						["subClass"] = "Mail",
-					},
-					[17026] = {
+					[74247] = {
 						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_HAND",
 			},
 			[6180] = {
 				["sources"] = {
@@ -31435,13 +32131,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_ROBE",
 			},
-			[9461] = {
-				["slot"] = "INVTYPE_WAIST",
+			[17109] = {
 				["sources"] = {
-					[16928] = {
+					[46435] = {
 						["subClass"] = "Leather",
 					},
 				},
+				["slot"] = "INVTYPE_WAIST",
 			},
 			[16714] = {
 				["slot"] = "INVTYPE_HEAD",
@@ -31462,13 +32158,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[21155] = {
+			[7447] = {
+				["slot"] = "INVTYPE_ROBE",
 				["sources"] = {
-					[74244] = {
+					[12928] = {
 						["subClass"] = "Cloth",
+						["classRestrictions"] = {
+							"Priest", -- [1]
+						},
 					},
 				},
-				["slot"] = "INVTYPE_CLOAK",
 			},
 			[12550] = {
 				["slot"] = "INVTYPE_SHOULDER",
@@ -31489,25 +32188,6 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_FEET",
 			},
-			[30243] = {
-				["slot"] = "INVTYPE_HAND",
-				["sources"] = {
-					[83345] = {
-						["subClass"] = "Cloth",
-						["classRestrictions"] = {
-							"Priest", -- [1]
-						},
-					},
-				},
-			},
-			[19404] = {
-				["sources"] = {
-					[74245] = {
-						["subClass"] = "Mail",
-					},
-				},
-				["slot"] = "INVTYPE_CHEST",
-			},
 			[7541] = {
 				["slot"] = "INVTYPE_HOLDABLE",
 				["sources"] = {
@@ -31516,52 +32196,65 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[19403] = {
+			[26953] = {
 				["sources"] = {
-					[74247] = {
-						["subClass"] = "Mail",
+					[68724] = {
+						["subClass"] = "Plate",
+					},
+					[74407] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_HAND",
+				["slot"] = "INVTYPE_WAIST",
 			},
-			[31373] = {
+			[26954] = {
 				["slot"] = "INVTYPE_FEET",
 				["sources"] = {
-					[79534] = {
+					[74402] = {
+						["subClass"] = "Plate",
+					},
+					[82791] = {
+						["subClass"] = "Plate",
+					},
+				},
+			},
+			[19088] = {
+				["sources"] = {
+					[46655] = {
+						["subClass"] = "Cloth",
+					},
+				},
+				["slot"] = "INVTYPE_SHOULDER",
+			},
+			[26848] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[76468] = {
+						["subClass"] = "Mail",
+					},
+					[68576] = {
+						["subClass"] = "Mail",
+					},
+					[80309] = {
+						["subClass"] = "Mail",
+					},
+				},
+			},
+			[32831] = {
+				["slot"] = "INVTYPE_HAND",
+				["sources"] = {
+					[83167] = {
 						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[13107] = {
+			[7543] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[29994] = {
-						["subClass"] = "Cloth",
+					[13068] = {
+						["subClass"] = "Daggers",
 					},
 				},
-				["slot"] = "INVTYPE_LEGS",
-			},
-			[26849] = {
-				["sources"] = {
-					[68579] = {
-						["subClass"] = "Mail",
-					},
-					[73819] = {
-						["subClass"] = "Mail",
-					},
-					[76455] = {
-						["subClass"] = "Mail",
-					},
-					[76473] = {
-						["subClass"] = "Mail",
-					},
-					[82886] = {
-						["subClass"] = "Mail",
-					},
-					[82384] = {
-						["subClass"] = "Mail",
-					},
-				},
-				["slot"] = "INVTYPE_HEAD",
 			},
 			[21577] = {
 				["slot"] = "INVTYPE_2HWEAPON",
@@ -31595,25 +32288,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26848] = {
-				["slot"] = "INVTYPE_HAND",
+			[8039] = {
+				["slot"] = "INVTYPE_LEGS",
 				["sources"] = {
-					[76468] = {
-						["subClass"] = "Mail",
-					},
-					[68576] = {
-						["subClass"] = "Mail",
-					},
-					[80309] = {
-						["subClass"] = "Mail",
+					[14002] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[7543] = {
-				["slot"] = "INVTYPE_WEAPON",
+			[32808] = {
+				["slot"] = "INVTYPE_WRIST",
 				["sources"] = {
-					[13068] = {
-						["subClass"] = "Daggers",
+					[84130] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -31639,27 +32326,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[13961] = {
-				["slot"] = "INVTYPE_WAIST",
+			[29083] = {
 				["sources"] = {
-					[29486] = {
+					[81156] = {
 						["subClass"] = "Cloth",
 					},
 				},
+				["slot"] = "INVTYPE_HEAD",
 			},
-			[17100] = {
+			[19538] = {
 				["sources"] = {
-					[46426] = {
-						["subClass"] = "Leather",
-					},
-					[46425] = {
-						["subClass"] = "Leather",
-					},
-					[46428] = {
-						["subClass"] = "Leather",
+					[74051] = {
+						["subClass"] = "Cloth",
 					},
 				},
-				["slot"] = "INVTYPE_WAIST",
+				["slot"] = "INVTYPE_FEET",
 			},
 			[30407] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -31685,13 +32366,13 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_RANGED",
 			},
-			[19100] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[9518] = {
 				["sources"] = {
-					[44990] = {
-						["subClass"] = "Cloth",
+					[17154] = {
+						["subClass"] = "Plate",
 					},
 				},
+				["slot"] = "INVTYPE_CHEST",
 			},
 			[22473] = {
 				["slot"] = "INVTYPE_WAIST",
@@ -31828,13 +32509,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[9518] = {
+			[4441] = {
 				["sources"] = {
-					[17154] = {
-						["subClass"] = "Plate",
+					[13374] = {
+						["subClass"] = "Two-Handed Axes",
 					},
 				},
-				["slot"] = "INVTYPE_CHEST",
+				["slot"] = "INVTYPE_2HWEAPON",
 			},
 			[13702] = {
 				["slot"] = "INVTYPE_CLOAK",
@@ -31844,21 +32525,21 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[20426] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[27464] = {
 				["sources"] = {
-					[50797] = {
-						["subClass"] = "Cloth",
+					[77541] = {
+						["subClass"] = "Mail",
 					},
 				},
+				["slot"] = "INVTYPE_SHOULDER",
 			},
-			[28373] = {
+			[22352] = {
+				["slot"] = "INVTYPE_RANGED",
 				["sources"] = {
-					[83914] = {
-						["subClass"] = "Cloth",
+					[81576] = {
+						["subClass"] = "Bows",
 					},
 				},
-				["slot"] = "INVTYPE_CLOAK",
 			},
 			[19402] = {
 				["sources"] = {
@@ -31868,10 +32549,10 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_LEGS",
 			},
-			[32328] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[29082] = {
+				["slot"] = "INVTYPE_HAND",
 				["sources"] = {
-					[73828] = {
+					[81150] = {
 						["subClass"] = "Cloth",
 					},
 				},
@@ -31887,13 +32568,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[30353] = {
+			[26956] = {
 				["sources"] = {
-					[83057] = {
-						["subClass"] = "Cloth",
+					[74403] = {
+						["subClass"] = "Plate",
+					},
+					[68708] = {
+						["subClass"] = "Plate",
 					},
 				},
-				["slot"] = "INVTYPE_CLOAK",
+				["slot"] = "INVTYPE_HAND",
 			},
 			[13926] = {
 				["slot"] = "INVTYPE_RANGEDRIGHT",
@@ -31903,27 +32587,36 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[27342] = {
-				["slot"] = "INVTYPE_WAIST",
+			[1686] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[68413] = {
-						["subClass"] = "Mail",
+					[66663] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
-			[17501] = {
-				["sources"] = {
-					[40674] = {
-						["subClass"] = "One-Handed Axes",
-					},
-				},
+			[7013] = {
 				["slot"] = "INVTYPE_WEAPON",
-			},
-			[27096] = {
-				["slot"] = "INVTYPE_WAIST",
 				["sources"] = {
-					[78961] = {
-						["subClass"] = "Plate",
+					[12140] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[27221] = {
+				["slot"] = "INVTYPE_SHOULDER",
+				["sources"] = {
+					[78957] = {
+						["subClass"] = "Cloth",
+					},
+					[78916] = {
+						["subClass"] = "Cloth",
+					},
+					[78630] = {
+						["subClass"] = "Cloth",
+					},
+					[79080] = {
+						["subClass"] = "Cloth",
 					},
 				},
 			},
@@ -31951,27 +32644,33 @@ CanIMogItDatabase = {
 				},
 				["slot"] = "INVTYPE_WRIST",
 			},
-			[4441] = {
+			[11242] = {
+				["slot"] = "INVTYPE_BODY",
 				["sources"] = {
-					[13374] = {
-						["subClass"] = "Two-Handed Axes",
-					},
-				},
-				["slot"] = "INVTYPE_2HWEAPON",
-			},
-			[22352] = {
-				["slot"] = "INVTYPE_RANGED",
-				["sources"] = {
-					[81576] = {
-						["subClass"] = "Bows",
+					[21567] = {
+						["subClass"] = "Miscellaneous",
 					},
 				},
 			},
-			[1686] = {
-				["slot"] = "INVTYPE_CLOAK",
+			[11882] = {
+				["slot"] = "INVTYPE_WEAPON",
 				["sources"] = {
-					[66663] = {
-						["subClass"] = "Cloth",
+					[46913] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[46906] = {
+						["subClass"] = "One-Handed Maces",
+					},
+					[46917] = {
+						["subClass"] = "One-Handed Maces",
+					},
+				},
+			},
+			[22496] = {
+				["slot"] = "INVTYPE_WEAPON",
+				["sources"] = {
+					[78552] = {
+						["subClass"] = "One-Handed Axes",
 					},
 				},
 			},
@@ -31983,18 +32682,18 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			[26908] = {
-				["slot"] = "INVTYPE_SHOULDER",
+			[26890] = {
+				["slot"] = "INVTYPE_HEAD",
 				["sources"] = {
-					[78932] = {
-						["subClass"] = "Leather",
+					[73445] = {
+						["subClass"] = "Cosmetic",
 					},
 				},
 			},
-			[1386] = {
-				["slot"] = "INVTYPE_HEAD",
+			[28439] = {
+				["slot"] = "INVTYPE_CLOAK",
 				["sources"] = {
-					[13390] = {
+					[68632] = {
 						["subClass"] = "Cloth",
 					},
 				},
