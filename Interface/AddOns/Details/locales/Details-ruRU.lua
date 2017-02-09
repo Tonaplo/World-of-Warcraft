@@ -113,6 +113,7 @@ L["STRING_CUSTOM_EDITCODE_DESC"] = "Это продвинутая функция
 L["STRING_CUSTOM_EDITTOOLTIP_DESC"] = "Это код подсказки, запускается, когда пользователь держит курсор над полосой. "
 L["STRING_CUSTOM_ENEMY_DT"] = "Получено урона"
 L["STRING_CUSTOM_EXPORT"] = "Экспортировать"
+L["STRING_CUSTOM_FUNC_INVALID"] = "Пользовательский скрипт содержит ошибку и не может обновить окно."
 L["STRING_CUSTOM_HEALTHSTONE_DEFAULT"] = "Исцеляющие зелья и камни"
 L["STRING_CUSTOM_HEALTHSTONE_DEFAULT_DESC"] = "Показать, кто в вашей рейдовой группе использовал исцеляющие камни и зелья"
 L["STRING_CUSTOM_ICON"] = "Иконка:"

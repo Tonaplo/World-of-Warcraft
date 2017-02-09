@@ -1,9 +1,9 @@
 
 SellOMatic2DB = {
 	["profileKeys"] = {
-		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Mallusof - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
@@ -14,8 +14,8 @@ SellOMatic2DB = {
 		["Miriyal - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Mallusof - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
