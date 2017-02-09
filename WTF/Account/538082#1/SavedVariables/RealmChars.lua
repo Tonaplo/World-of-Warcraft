@@ -64,8 +64,8 @@ RCDatabase = {
 				["secondProfLevel"] = 776,
 				["firstProf"] = "Tailoring",
 				["level"] = 110,
-				["firstProfLevel"] = 780,
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 780,
 				["secondProf"] = "Enchanting",
 			}, -- [1]
 			["characterStored"] = 1,
@@ -24148,12 +24148,12 @@ RCDatabase = {
 				["secondProf"] = "Enchanting",
 			}, -- [2]
 			{
-				["name"] = "Praerend",
 				["secondProfLevel"] = 700,
-				["firstProf"] = "Blacksmithing",
-				["level"] = 110,
-				["class"] = "WARRIOR",
+				["name"] = "Praerend",
 				["firstProfLevel"] = 700,
+				["class"] = "WARRIOR",
+				["level"] = 110,
+				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [3]
 			{
@@ -24168,8 +24168,8 @@ RCDatabase = {
 			{
 				["secondProfLevel"] = 790,
 				["name"] = "Amranar",
-				["firstProfLevel"] = 713,
 				["class"] = "DRUID",
+				["firstProfLevel"] = 713,
 				["level"] = 110,
 				["firstProf"] = "Alchemy",
 				["secondProf"] = "Herbalism",
@@ -24193,12 +24193,12 @@ RCDatabase = {
 				["secondProf"] = "Engineering",
 			}, -- [7]
 			{
-				["secondProfLevel"] = 700,
 				["name"] = "Granjior",
-				["class"] = "PALADIN",
-				["firstProfLevel"] = 700,
-				["level"] = 102,
+				["secondProfLevel"] = 700,
 				["firstProf"] = "Mining",
+				["level"] = 102,
+				["firstProfLevel"] = 700,
+				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 			}, -- [8]
 			{

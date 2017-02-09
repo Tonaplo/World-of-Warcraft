@@ -53,14 +53,16 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -70,13 +72,11 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -101,16 +101,16 @@ LUIDB = {
 						["Alliance"] = {
 							["Miriyal"] = 41102548,
 							["Farahn"] = 210224285,
-							["Greybone"] = 11545899,
+							["Greybone"] = 7059843,
 							["Amranar"] = 503801082,
-							["Granjior"] = 274157337,
+							["Granjior"] = 275213057,
 							["Kaldorath"] = 38985903,
 							["Faerand"] = 35188244,
 							["Mallusof"] = 1162234125,
 							["Rahran"] = 322869492,
 							["Morifa"] = 451825413,
 							["Fimwack"] = 53875181,
-							["Praerend"] = 807152893,
+							["Praerend"] = 755684865,
 						},
 					},
 				},
@@ -745,72 +745,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/macro", -- [1]
-							"/g only 839 tho", -- [2]
-							"/s \\details", -- [3]
-							"/g only 839 tho", -- [4]
-							"/details", -- [5]
-							"/details options 1", -- [6]
-							"/macro", -- [7]
-							"/s \\details", -- [8]
-							"/details reinstall", -- [9]
-							"/macro", -- [10]
-							"/p tahnks guys", -- [11]
-							"/g only 839 tho", -- [12]
-							"/macro", -- [13]
-							"/g only 839 tho", -- [14]
-							"/s \\details", -- [15]
-							"/macro", -- [16]
-							"/g only 839 tho", -- [17]
-							"/s \\details", -- [18]
-							"/g only 839 tho", -- [19]
-							"/details", -- [20]
-							"/macro", -- [21]
-							"/details reinstall", -- [22]
-							"/p tahnks guys", -- [23]
-							"/macro", -- [24]
-							"/s \\details", -- [25]
-							"/g only 839 tho", -- [26]
-							"/details", -- [27]
-							"/details reinstall", -- [28]
-							"/macro", -- [29]
-							"/g only 839 tho", -- [30]
-							"/details reinstall", -- [31]
-							"/g only 839 tho", -- [32]
+							"/cw Delapidin-Khaz'goroth Easy, but fun :)", -- [1]
+							"/cw Popsicless-Kilrogg gz! :)", -- [2]
+							"/cw Delapidin-Khaz'goroth yeah", -- [3]
+							"/cw Delapidin-Khaz'goroth ok", -- [4]
+							"/cw Delapidin-Khaz'goroth trololol", -- [5]
+							"/cw Delapidin-Khaz'goroth looking at the eye", -- [6]
+							"/cw Delapidin-Khaz'goroth :)", -- [7]
+							"/raid I'd like thering", -- [8]
+							"/cw Delapidin-Khaz'goroth or you?", -- [9]
+							"/cw Delapidin-Khaz'goroth k", -- [10]
+							"/cw Delapidin-Khaz'goroth :)", -- [11]
+							"/cw Delapidin-Khaz'goroth He is easy :P", -- [12]
+							"/cw Delapidin-Khaz'goroth yeah, but understandable", -- [13]
+							"/cw Delapidin-Khaz'goroth It's really good :P", -- [14]
+							"/cw Delapidin-Khaz'goroth 3", -- [15]
+							"/pull 10", -- [16]
+							"/cw Delapidin-Khaz'goroth hmm, nah I think I'm good :) This was a lot of fun though L:)", -- [17]
+							"/cw Popsicless-Kilrogg gz! :)", -- [18]
+							"/cw Delapidin-Khaz'goroth ok", -- [19]
+							"/cw Delapidin-Khaz'goroth looking at the eye", -- [20]
+							"/raid I'd like thering", -- [21]
+							"/cw Delapidin-Khaz'goroth k", -- [22]
+							"/cw Delapidin-Khaz'goroth He is easy :P", -- [23]
+							"/cw Delapidin-Khaz'goroth It's really good :P", -- [24]
+							"/pull 10", -- [25]
+							"/cw Popsicless-Kilrogg gz! :)", -- [26]
+							"/cw Delapidin-Khaz'goroth looking at the eye", -- [27]
+							"/cw Delapidin-Khaz'goroth k", -- [28]
+							"/cw Delapidin-Khaz'goroth It's really good :P", -- [29]
+							"/cw Popsicless-Kilrogg gz! :)", -- [30]
+							"/cw Delapidin-Khaz'goroth k", -- [31]
+							"/cw Popsicless-Kilrogg gz! :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/2 *are", -- [1]
-							"/cw Arkator-Tichondrius well, not tro me", -- [2]
+							"/g because of stupid fucking PvP", -- [1]
+							"/reload ui", -- [2]
 							"/g I sick of this ranking crap", -- [3]
-							"/2 *are", -- [4]
-							"/g I sick of this ranking crap", -- [5]
-							"/sigh", -- [6]
-							"/s \\sit", -- [7]
-							"/g fine, HSing", -- [8]
-							"/2 *are", -- [9]
-							"/g I sick of this ranking crap", -- [10]
-							"/cw Arkator-Tichondrius well, not tro me", -- [11]
-							"/raid Anyone have a tome?", -- [12]
-							"/g I sick of this ranking crap", -- [13]
-							"/g fine, HSing", -- [14]
-							"/g I sick of this ranking crap", -- [15]
-							"/2 *are", -- [16]
-							"/cw Arkator-Tichondrius well, not tro me", -- [17]
-							"/g I sick of this ranking crap", -- [18]
-							"/2 *are", -- [19]
-							"/g I sick of this ranking crap", -- [20]
-							"/sigh", -- [21]
-							"/g fine, HSing", -- [22]
-							"/g I sick of this ranking crap", -- [23]
-							"/raid Anyone have a tome?", -- [24]
-							"/g fine, HSing", -- [25]
-							"/2 *are", -- [26]
-							"/g I sick of this ranking crap", -- [27]
-							"/sigh", -- [28]
-							"/g I sick of this ranking crap", -- [29]
-							"/g fine, HSing", -- [30]
-							"/g I sick of this ranking crap", -- [31]
-							"/g fine, HSing", -- [32]
+							"/g I hate, hate, hate, hate this place", -- [4]
+							"/g After 12 years of playing this game, I am 100% certain that I will always fucking hate it.", -- [5]
+							"/g in taking away someone other people like", -- [6]
+							"/2 *are", -- [7]
+							"/g Completely", -- [8]
+							"/g I sick of this ranking crap", -- [9]
+							"/g No", -- [10]
+							"/g fine, HSing", -- [11]
+							"/g I dont want it to change. I just want to not deal with it ever./", -- [12]
+							"/g And it's here", -- [13]
+							"/g I just fucking dont", -- [14]
+							"/g If it wasnt here, I would be fine with this palce", -- [15]
+							"/g What there is a point in", -- [16]
+							"/g were half the guild fucking hates being", -- [17]
+							"/reload ui", -- [18]
+							"/g I hate, hate, hate, hate this place", -- [19]
+							"/g in taking away someone other people like", -- [20]
+							"/g Completely", -- [21]
+							"/g No", -- [22]
+							"/g I dont want it to change. I just want to not deal with it ever./", -- [23]
+							"/g I just fucking dont", -- [24]
+							"/g What there is a point in", -- [25]
+							"/reload ui", -- [26]
+							"/g in taking away someone other people like", -- [27]
+							"/g No", -- [28]
+							"/g I just fucking dont", -- [29]
+							"/reload ui", -- [30]
+							"/g No", -- [31]
+							"/reload ui", -- [32]
 						},
 					},
 				},
@@ -1716,7 +1716,6 @@ LUIDB = {
 						},
 					},
 					["SidebarLeft2"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar8",
 						["State"] = {
