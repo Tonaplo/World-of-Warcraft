@@ -2,7 +2,7 @@ Version: 1
 Frame: Vd1
 FrameLevel: 2
 Anchor: BOTTOM
-X: -27
+X: -6
 Y: 79
 W: 85
 H: 55
