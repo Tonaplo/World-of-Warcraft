@@ -1,39 +1,65 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
-			["date_end"] = "21:55:32",
 			["date_start"] = "21:55:02",
+			["date_end"] = "21:55:32",
 			["name"] = "Shade of Xavius",
 			["total_time"] = 30.0040000000008,
 		}, -- [1]
 		{
-			["date_end"] = "21:53:04",
 			["date_start"] = "21:52:34",
+			["date_end"] = "21:53:04",
 			["name"] = "Dresaron",
 			["total_time"] = 30.0050000000047,
 		}, -- [2]
 		{
-			["date_end"] = "21:52:30",
 			["date_start"] = "21:52:27",
+			["date_end"] = "21:52:30",
 			["name"] = "Dresaron",
 			["total_time"] = 3.00299999999697,
 		}, -- [3]
 		{
-			["date_end"] = "21:52:18",
 			["date_start"] = "21:52:02",
+			["date_end"] = "21:52:18",
 			["name"] = "Dresaron",
 			["total_time"] = 16.0099999999948,
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+			["Granjior"] = {
+				{
+					28.5699999999997, -- [1]
+					"Granjior", -- [2]
+					6940, -- [3]
+				}, -- [1]
+				{
+					28.5699999999997, -- [1]
+					"Alerlaand-EmeraldDream", -- [2]
+					6940, -- [3]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
-	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Granjior"] = {
@@ -74,37 +100,11 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Granjior"] = {
-				{
-					28.5699999999997, -- [1]
-					"Granjior", -- [2]
-					6940, -- [3]
-				}, -- [1]
-				{
-					28.5699999999997, -- [1]
-					"Alerlaand-EmeraldDream", -- [2]
-					6940, -- [3]
-				}, -- [2]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
