@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "12:45:57",
-			["date_end"] = "12:48:10",
-			["name"] = "Helya",
-			["total_time"] = 133.011999999999,
-		}, -- [1]
-		{
-			["date_start"] = "12:42:15",
-			["date_end"] = "12:43:14",
-			["name"] = "Harbaron",
-			["total_time"] = 59.0040000000008,
-		}, -- [2]
-		{
-			["date_start"] = "12:38:22",
-			["date_end"] = "12:39:15",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 53,
-		}, -- [3]
-		{
-			["date_start"] = "12:36:56",
-			["date_end"] = "12:38:19",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 83.0049999999992,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Yôgâpânts-Durotan"] = {
@@ -112,13 +94,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Blastchain"] = {
@@ -254,12 +229,6 @@ DetailsTimeLineDB = {
 					["source"] = "Seacursed Slaver",
 					["active"] = false,
 				},
-				[198944] = {
-					4.15399999999863, -- [1]
-					9.14999999999964, -- [2]
-					["source"] = "Enslaved Shieldmaiden",
-					["active"] = false,
-				},
 				[201566] = {
 					52.0999999999986, -- [1]
 					52.1700000000001, -- [2]
@@ -269,6 +238,12 @@ DetailsTimeLineDB = {
 				[199061] = {
 					69.003999999999, -- [1]
 					69.0469999999987, -- [2]
+					["source"] = "Enslaved Shieldmaiden",
+					["active"] = false,
+				},
+				[198944] = {
+					4.15399999999863, -- [1]
+					9.14999999999964, -- [2]
 					["source"] = "Enslaved Shieldmaiden",
 					["active"] = false,
 				},
@@ -298,6 +273,18 @@ DetailsTimeLineDB = {
 					["source"] = "Enslaved Shieldmaiden",
 					["active"] = false,
 				},
+				[200208] = {
+					34.6919999999991, -- [1]
+					38.6869999999999, -- [2]
+					["source"] = "Seacursed Soulkeeper",
+					["active"] = false,
+				},
+				[199185] = {
+					32.8109999999997, -- [1]
+					38.8189999999995, -- [2]
+					["source"] = "Cursed Falke",
+					["active"] = false,
+				},
 				[201566] = {
 					52.6759999999995, -- [1]
 					53.0919999999987, -- [2]
@@ -308,18 +295,6 @@ DetailsTimeLineDB = {
 					67.125, -- [7]
 					67.6829999999991, -- [8]
 					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-				[199185] = {
-					32.8109999999997, -- [1]
-					38.8189999999995, -- [2]
-					["source"] = "Cursed Falke",
-					["active"] = false,
-				},
-				[200208] = {
-					34.6919999999991, -- [1]
-					38.6869999999999, -- [2]
-					["source"] = "Seacursed Soulkeeper",
 					["active"] = false,
 				},
 				[194674] = {
@@ -357,6 +332,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "12:45:57",
+			["date_end"] = "12:48:10",
+			["name"] = "Helya",
+			["total_time"] = 133.011999999999,
+		}, -- [1]
+		{
+			["date_start"] = "12:42:15",
+			["date_end"] = "12:43:14",
+			["name"] = "Harbaron",
+			["total_time"] = 59.0040000000008,
+		}, -- [2]
+		{
+			["date_start"] = "12:38:22",
+			["date_end"] = "12:39:15",
+			["name"] = "Ymiron, the Fallen King",
+			["total_time"] = 53,
+		}, -- [3]
+		{
+			["date_start"] = "12:36:56",
+			["date_end"] = "12:38:19",
+			["name"] = "Ymiron, the Fallen King",
+			["total_time"] = 83.0049999999992,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -367,5 +368,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "13:01:26",
+			["date_start"] = "12:59:31",
+			["name"] = "Odyn",
+			["total_time"] = 115.004999999999,
+		}, -- [1]
+		{
+			["date_end"] = "12:58:40",
+			["date_start"] = "12:57:29",
+			["name"] = "God-King Skovald",
+			["total_time"] = 70.9989999999998,
+		}, -- [2]
+		{
+			["date_end"] = "12:49:54",
+			["date_start"] = "12:48:47",
+			["name"] = "Fenryr",
+			["total_time"] = 66.9989999999998,
+		}, -- [3]
+		{
+			["date_end"] = "12:48:32",
+			["date_start"] = "12:47:50",
+			["name"] = "Fenryr",
+			["total_time"] = 42.0030000000006,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -48,20 +68,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Jarnogan-Stormrage"] = {
-				[197966] = {
-					45.860999999999, -- [1]
-					51.4789999999994, -- [2]
-					["source"] = "Odyn",
-					["active"] = false,
-				},
-				[197967] = {
-					101.866, -- [1]
-					107.476999999999, -- [2]
-					["source"] = "Odyn",
-					["active"] = false,
-				},
-			},
 			["Pharasma-Sargeras"] = {
 				[197963] = {
 					45.860999999999, -- [1]
@@ -72,6 +78,20 @@ DetailsTimeLineDB = {
 				[197966] = {
 					101.866, -- [1]
 					115.004999999999, -- [2]
+					["source"] = "Odyn",
+					["active"] = false,
+				},
+			},
+			["Jarnogan-Stormrage"] = {
+				[197966] = {
+					45.860999999999, -- [1]
+					51.4789999999994, -- [2]
+					["source"] = "Odyn",
+					["active"] = false,
+				},
+				[197967] = {
+					101.866, -- [1]
+					107.476999999999, -- [2]
 					["source"] = "Odyn",
 					["active"] = false,
 				},
@@ -124,6 +144,14 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Jarnogan-Stormrage"] = {
+				[196497] = {
+					53.3960000000007, -- [1]
+					57.4330000000009, -- [2]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
+			},
 			["Pharasma-Sargeras"] = {
 				[197556] = {
 					10.4740000000002, -- [1]
@@ -135,14 +163,6 @@ DetailsTimeLineDB = {
 				},
 				[196497] = {
 					14.5879999999997, -- [1]
-					57.4330000000009, -- [2]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
-			},
-			["Jarnogan-Stormrage"] = {
-				[196497] = {
-					53.3960000000007, -- [1]
 					57.4330000000009, -- [2]
 					["source"] = "Fenryr",
 					["active"] = false,
@@ -204,7 +224,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Jarnogan-Stormrage"] = {
@@ -444,30 +463,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "13:01:26",
-			["date_start"] = "12:59:31",
-			["name"] = "Odyn",
-			["total_time"] = 115.004999999999,
-		}, -- [1]
-		{
-			["date_end"] = "12:58:40",
-			["date_start"] = "12:57:29",
-			["name"] = "God-King Skovald",
-			["total_time"] = 70.9989999999998,
-		}, -- [2]
-		{
-			["date_end"] = "12:49:54",
-			["date_start"] = "12:48:47",
-			["name"] = "Fenryr",
-			["total_time"] = 66.9989999999998,
-		}, -- [3]
-		{
-			["date_end"] = "12:48:32",
-			["date_start"] = "12:47:50",
-			["name"] = "Fenryr",
-			["total_time"] = 42.0030000000006,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
