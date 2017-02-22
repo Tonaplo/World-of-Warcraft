@@ -2,8 +2,8 @@ Version: 1
 Frame: Vd1
 FrameLevel: 2
 Anchor: BOTTOM
-X: -23
-Y: 78
+X: -14
+Y: 67
 W: 85
 H: 55
 Frame: TargetFrame
