@@ -1,5 +1,31 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Cramlepaly-Ysera"] = {
+				{
+					50.9359999999997, -- [1]
+					"Cramlepaly-Ysera", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Destroyeurs-Stormreaver"] = {
+				{
+					36.1060000000016, -- [1]
+					"Destroyeurs-Stormreaver", -- [2]
+					108271, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -10,31 +36,140 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
+	["hide_on_combat"] = false,
+	["debuff_timeline"] = {
 		{
-			["date_start"] = "08:18:38",
-			["date_end"] = "08:20:13",
-			["name"] = "Advisor Vandros",
-			["total_time"] = 95.0049999999999,
+			["Surariel"] = {
+				[181500] = {
+					72.0020000000004, -- [1]
+					["source"] = "Nightfallen Overseer",
+					["active"] = true,
+				},
+			},
+			["Actualtrash"] = {
+				[181500] = {
+					72.0020000000004, -- [1]
+					["source"] = "Nightfallen Hungerer",
+					["active"] = true,
+				},
+				[181502] = {
+					72.0020000000004, -- [1]
+					["source"] = "Nightfallen Hungerer",
+					["active"] = true,
+				},
+			},
+			["Amranar"] = {
+				[200238] = {
+					46.4169999999995, -- [1]
+					51.4349999999995, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+			},
+			["Cramlepaly-Ysera"] = {
+				[200182] = {
+					44.0030000000006, -- [1]
+					46.0650000000005, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+				[200289] = {
+					57.3989999999994, -- [1]
+					57.7119999999995, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+				[200329] = {
+					57.9799999999996, -- [1]
+					62.9809999999998, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+			},
+			["Destroyeurs-Stormreaver"] = {
+				[200238] = {
+					16.0850000000009, -- [1]
+					21.0900000000001, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+				[200289] = {
+					38.0110000000004, -- [1]
+					58.005000000001, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+			},
+			["Daikazu"] = {
+				[181500] = {
+					72.0020000000004, -- [1]
+					["source"] = "Nightfallen Overseer",
+					["active"] = true,
+				},
+				[181502] = {
+					72.0020000000004, -- [1]
+					["source"] = "Nightfallen Overseer",
+					["active"] = true,
+				},
+			},
 		}, -- [1]
 		{
-			["date_start"] = "08:16:33",
-			["date_end"] = "08:17:18",
-			["name"] = "General Xakal",
-			["total_time"] = 45,
+			["Romalder-Frostmourne"] = {
+				[191326] = {
+					51.8160000000007, -- [1]
+					58.8610000000008, -- [2]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Amranar"] = {
+				[199460] = {
+					42.5820000000003, -- [1]
+					44.2050000000017, -- [2]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Destroyeurs-Stormreaver"] = {
+				[199460] = {
+					20.7350000000006, -- [1]
+					23.0300000000007, -- [2]
+					24.9760000000006, -- [3]
+					25.8910000000014, -- [4]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Cramlepaly-Ysera"] = {
+				[191326] = {
+					16.4460000000017, -- [1]
+					24.4380000000001, -- [2]
+					36.2400000000016, -- [3]
+					42.2470000000012, -- [4]
+					52.8210000000017, -- [5]
+					58.8610000000008, -- [6]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Dbabysmackz-Ysera"] = {
+				[199460] = {
+					20.7350000000006, -- [1]
+					22.5740000000005, -- [2]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+				[191326] = {
+					52.8210000000017, -- [1]
+					58.8610000000008, -- [2]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
 		}, -- [2]
 		{
-			["date_start"] = "08:12:02",
-			["date_end"] = "08:12:51",
-			["name"] = "Nal'tira",
-			["total_time"] = 48.999,
 		}, -- [3]
 		{
-			["date_start"] = "08:08:51",
-			["date_end"] = "08:09:49",
-			["name"] = "Corstilax",
-			["total_time"] = 58.0039999999999,
 		}, -- [4]
 	},
 	["backdrop_color"] = {
@@ -43,153 +178,30 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["debuff_timeline"] = {
+	["combat_data"] = {
 		{
-			["Noggin-Darkspear"] = {
-				[203957] = {
-					41.982, -- [1]
-					43.1499999999999, -- [2]
-					["source"] = "Timeless Wraith",
-					["active"] = false,
-				},
-			},
-			["Spacejamm-Greymane"] = {
-				[203957] = {
-					61.7469999999999, -- [1]
-					62.191, -- [2]
-					["source"] = "Timeless Wraith",
-					["active"] = false,
-				},
-			},
-			["Rìplé-Frostmourne"] = {
-				[203957] = {
-					47.99, -- [1]
-					50.7559999999999, -- [2]
-					["source"] = "Timeless Wraith",
-					["active"] = false,
-				},
-				[220871] = {
-					88.3799999999999, -- [1]
-					94.499, -- [2]
-					["source"] = "Advisor Vandros",
-					["active"] = false,
-				},
-			},
+			["date_end"] = "21:29:31",
+			["date_start"] = "21:28:19",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 72.0020000000004,
 		}, -- [1]
 		{
+			["date_end"] = "21:25:30",
+			["date_start"] = "21:24:06",
+			["name"] = "Dresaron",
+			["total_time"] = 83.0020000000004,
 		}, -- [2]
 		{
-			["Spacejamm-Greymane"] = {
-				[200284] = {
-					37.2529999999999, -- [1]
-					42.269, -- [2]
-					["source"] = "Nal'tira",
-					["active"] = false,
-				},
-			},
-			["Rìplé-Frostmourne"] = {
-				[200284] = {
-					37.2529999999999, -- [1]
-					42.269, -- [2]
-					["source"] = "Nal'tira",
-					["active"] = false,
-				},
-			},
+			["date_end"] = "21:23:54",
+			["date_start"] = "21:23:46",
+			["name"] = "Dresaron",
+			["total_time"] = 7.00600000000122,
 		}, -- [3]
 		{
-			["Noggin-Darkspear"] = {
-				[195362] = {
-					16.231, -- [1]
-					35.1009999999999, -- [2]
-					46.6199999999999, -- [3]
-					56.7939999999999, -- [4]
-					["source"] = "[*] Nightwell Energy",
-					["active"] = false,
-				},
-				[195804] = {
-					22.347, -- [1]
-					37.1909999999998, -- [2]
-					["source"] = "Corstilax",
-					["active"] = false,
-				},
-			},
-			["Líghtabove-AeriePeak"] = {
-				[195362] = {
-					16.231, -- [1]
-					35.1009999999999, -- [2]
-					46.6199999999999, -- [3]
-					56.7939999999999, -- [4]
-					["source"] = "[*] Nightwell Energy",
-					["active"] = false,
-				},
-			},
-			["Amranar"] = {
-				[195362] = {
-					16.231, -- [1]
-					39.0889999999999, -- [2]
-					46.6319999999998, -- [3]
-					56.7939999999999, -- [4]
-					["source"] = "[*] Nightwell Energy",
-					["active"] = false,
-				},
-			},
-			["Spacejamm-Greymane"] = {
-				[195362] = {
-					16.221, -- [1]
-					36.0909999999999, -- [2]
-					46.6199999999999, -- [3]
-					57.7679999999998, -- [4]
-					["source"] = "[*] Nightwell Energy",
-					["active"] = false,
-				},
-				[196068] = {
-					51.9199999999999, -- [1]
-					58.0039999999999, -- [2]
-					["source"] = "[*] Suppression Protocol",
-					["active"] = false,
-				},
-			},
-			["Rìplé-Frostmourne"] = {
-				[196074] = {
-					10.7649999999999, -- [1]
-					28.779, -- [2]
-					["source"] = "Corstilax",
-					["active"] = false,
-				},
-				[195362] = {
-					16.231, -- [1]
-					38.096, -- [2]
-					46.6319999999998, -- [3]
-					56.7939999999999, -- [4]
-					["source"] = "[*] Nightwell Energy",
-					["active"] = false,
-				},
-				[196068] = {
-					5.75399999999991, -- [1]
-					17.7659999999999, -- [2]
-					["source"] = "[*] Suppression Protocol",
-					["active"] = false,
-				},
-			},
+			["date_end"] = "21:23:46",
+			["date_start"] = "21:23:27",
+			["name"] = "Dresaron",
+			["total_time"] = 19.7799999999988,
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Rìplé-Frostmourne"] = {
-				{
-					11.029, -- [1]
-					"Rìplé-Frostmourne", -- [2]
-					108271, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
-	},
-	["window_scale"] = 1,
 }
