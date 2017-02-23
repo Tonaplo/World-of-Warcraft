@@ -10,6 +10,29 @@ xl_savedvariables = {
 	[2] = {
 		nil, -- [1]
 		{
+			49998, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "Shift 2",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["num_stacks"] = 0,
+			["alt_min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["highlight_only"] = true,
+			["num_charges"] = 0,
+		}, -- [2]
+		{
 			49143, -- [1]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
@@ -31,7 +54,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 5,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [2]
+		}, -- [3]
 		{
 			49184, -- [1]
 			["aura_target"] = 2,
@@ -54,7 +77,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [3]
+		}, -- [4]
 		{
 			49143, -- [1]
 			["aura_target"] = 1,
@@ -77,7 +100,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 5,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [4]
+		}, -- [5]
 		{
 			49184, -- [1]
 			["aura_target"] = 1,
@@ -100,7 +123,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [5]
+		}, -- [6]
 		{
 			207256, -- [1]
 			["aura_target"] = 1,
@@ -123,7 +146,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 5,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [6]
+		}, -- [7]
 		{
 			49143, -- [1]
 			["aura_target"] = 1,
@@ -146,7 +169,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [7]
+		}, -- [8]
 		{
 			49020, -- [1]
 			["aura_target"] = 1,
@@ -169,7 +192,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [8]
+		}, -- [9]
 		{
 			196770, -- [1]
 			["aura_target"] = 1,
@@ -192,7 +215,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [9]
+		}, -- [10]
 		{
 			49020, -- [1]
 			["aura_target"] = 1,
@@ -215,7 +238,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 1,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [10]
+		}, -- [11]
 		{
 			49143, -- [1]
 			["aura_target"] = 1,
@@ -238,7 +261,7 @@ xl_savedvariables = {
 			["alt_resource_condition"] = 5,
 			["highlight_only"] = false,
 			["num_charges"] = 0,
-		}, -- [11]
+		}, -- [12]
 	},
 }
 xl_conditioner_options = {
