@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: -13
-Y: 192
-W: 85
-H: 55
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -34,6 +27,13 @@ X: -300
 Y: 0
 W: 232
 H: 100
+Frame: mOnWD_MiniList
+FrameLevel: 1
+Anchor: TOP
+X: 23
+Y: -93
+W: 200
+H: 364
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
