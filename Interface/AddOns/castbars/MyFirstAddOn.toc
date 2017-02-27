@@ -1,3 +1,0 @@
-## Interface: 70100
-## Title: MyFirstAddOn
-code.lua

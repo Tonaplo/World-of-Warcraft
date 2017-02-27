@@ -6,11 +6,11 @@ RCDatabase = {
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Emerald Dream"] = "Praerend - Emerald Dream",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Emerald Dream"] = "Morifa - Emerald Dream",
 		["Makemeaturke - Stormrage"] = "Makemeaturke - Stormrage",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Granjior - Emerald Dream"] = "Granjior - Emerald Dream",
@@ -21,7 +21,7 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
@@ -60,12 +60,12 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["name"] = "Mallusof",
 				["secondProfLevel"] = 788,
-				["firstProf"] = "Tailoring",
-				["level"] = 110,
-				["firstProfLevel"] = 780,
+				["name"] = "Mallusof",
 				["class"] = "PRIEST",
+				["firstProfLevel"] = 780,
+				["level"] = 110,
+				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",
 			}, -- [1]
 			["characterStored"] = 1,
@@ -24166,12 +24166,12 @@ RCDatabase = {
 				["secondProf"] = "Skinning",
 			}, -- [4]
 			{
-				["secondProfLevel"] = 790,
 				["name"] = "Amranar",
-				["class"] = "DRUID",
-				["firstProfLevel"] = 713,
-				["level"] = 110,
+				["secondProfLevel"] = 790,
 				["firstProf"] = "Alchemy",
+				["level"] = 110,
+				["firstProfLevel"] = 713,
+				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 			}, -- [5]
 			{
@@ -24193,12 +24193,12 @@ RCDatabase = {
 				["secondProf"] = "Engineering",
 			}, -- [7]
 			{
-				["name"] = "Granjior",
 				["secondProfLevel"] = 700,
-				["firstProf"] = "Mining",
-				["level"] = 103,
+				["name"] = "Granjior",
 				["class"] = "PALADIN",
 				["firstProfLevel"] = 700,
+				["level"] = 104,
+				["firstProf"] = "Mining",
 				["secondProf"] = "Engineering",
 			}, -- [8]
 			{
@@ -24212,37 +24212,37 @@ RCDatabase = {
 			}, -- [9]
 			{
 				["name"] = "Fimwack",
-				["secondProfLevel"] = 28,
+				["secondProfLevel"] = 32,
 				["firstProf"] = "Herbalism",
-				["level"] = 106,
+				["level"] = 107,
+				["firstProfLevel"] = 42,
 				["class"] = "WARLOCK",
-				["firstProfLevel"] = 33,
 				["secondProf"] = "Mining",
 			}, -- [10]
 			{
 				["name"] = "Miriyal",
 				["secondProfLevel"] = 700,
 				["firstProf"] = "Leatherworking",
-				["level"] = 102,
-				["firstProfLevel"] = 700,
+				["level"] = 103,
 				["class"] = "MONK",
+				["firstProfLevel"] = 700,
 				["secondProf"] = "Skinning",
 			}, -- [11]
 			{
+				["secondProfLevel"] = 715,
 				["name"] = "Greybone",
-				["secondProfLevel"] = 706,
-				["firstProf"] = "Blacksmithing",
-				["level"] = 102,
-				["firstProfLevel"] = 700,
 				["class"] = "DEATHKNIGHT",
+				["firstProfLevel"] = 700,
+				["level"] = 104,
+				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Mining",
 			}, -- [12]
 			{
 				["secondProfLevel"] = 0,
 				["name"] = "Kaldorath",
-				["class"] = "DEMONHUNTER",
 				["firstProfLevel"] = 0,
-				["level"] = 103,
+				["class"] = "DEMONHUNTER",
+				["level"] = 105,
 				["firstProf"] = "No 1st Prof",
 				["secondProf"] = "No 2nd Prof",
 			}, -- [13]

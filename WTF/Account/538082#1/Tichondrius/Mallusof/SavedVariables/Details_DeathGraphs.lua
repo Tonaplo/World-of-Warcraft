@@ -208,10 +208,10 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 				["overall"] = {
-					[210342] = 210473,
 					[214308] = 767520,
-					[214877] = 1995399,
 					[210279] = 376490,
+					[214877] = 1995399,
+					[210342] = 210473,
 				},
 				["name"] = "Objective",
 			},
@@ -250,17 +250,6 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Foxu",
 			},
-			["Slicedlol"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[210279] = 871535,
-					[214877] = 1939880,
-					[210342] = 197007,
-				},
-				["name"] = "Slicedlol",
-			},
 			["Kalithumos"] = {
 				["class"] = "PALADIN",
 				["deaths"] = {
@@ -273,6 +262,16 @@ DeathGraphsDBDeaths = {
 					[211196] = 907962,
 				},
 				["name"] = "Kalithumos",
+			},
+			["Ellestria"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[214308] = 835038,
+					[210279] = 299262,
+				},
+				["name"] = "Ellestria",
 			},
 			["Tetsunochi"] = {
 				["class"] = "ROGUE",
@@ -355,15 +354,16 @@ DeathGraphsDBDeaths = {
 				},
 				["name"] = "Nîne",
 			},
-			["Ellestria"] = {
-				["class"] = "DRUID",
+			["Slicedlol"] = {
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 				["overall"] = {
-					[214308] = 835038,
-					[210279] = 299262,
+					[210279] = 871535,
+					[214877] = 1939880,
+					[210342] = 197007,
 				},
-				["name"] = "Ellestria",
+				["name"] = "Slicedlol",
 			},
 			["PlayerYJKYLC"] = {
 				["class"] = "PRIEST",
@@ -410,22 +410,22 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Kaligon"] = {
-				["name"] = "Kaligon",
-				["class"] = "MAGE",
-				["overall"] = {
-					[227514] = 1922035,
-					[228228] = 222478,
-				},
-				["deaths"] = {
-				},
-			},
 			["Kaliboo"] = {
 				["name"] = "Kaliboo",
 				["class"] = "MONK",
 				["overall"] = {
 					235541, -- [1]
 					[124255] = 275550,
+				},
+				["deaths"] = {
+				},
+			},
+			["Zoephos"] = {
+				["name"] = "Zoephos",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[227721] = 9367701,
+					[232800] = 748552,
 				},
 				["deaths"] = {
 				},
@@ -449,12 +449,12 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Zoephos"] = {
-				["name"] = "Zoephos",
-				["class"] = "PRIEST",
+			["Kaligon"] = {
+				["name"] = "Kaligon",
+				["class"] = "MAGE",
 				["overall"] = {
-					[227721] = 9367701,
-					[232800] = 748552,
+					[227514] = 1922035,
+					[228228] = 222478,
 				},
 				["deaths"] = {
 				},
@@ -748,11 +748,11 @@ DeathGraphsDBDeaths = {
 				["overall"] = {
 					[208385] = 416492,
 					[211634] = 8132835,
-					[209034] = 3351744,
-					[209294] = 1736814,
 					[189448] = 223864,
-					[208860] = 479131,
+					[209294] = 1736814,
 					[207830] = 1965812,
+					[208860] = 479131,
+					[209034] = 3351744,
 				},
 				["name"] = "Tetsunochi",
 			},
@@ -948,11 +948,11 @@ DeathGraphsDBDeaths = {
 					[207830] = 7829588,
 					[980] = 25824,
 					[206656] = 998562,
-					[206369] = 3421142,
-					[210451] = 1769903,
-					[211634] = 1781844,
-					[205595] = 6722074,
 					[209294] = 2036718,
+					[210451] = 1769903,
+					[206369] = 3421142,
+					[205595] = 6722074,
+					[211634] = 1781844,
 				},
 				["name"] = "Westsydes",
 			},
@@ -1010,12 +1010,12 @@ DeathGraphsDBDeaths = {
 					4315445, -- [1]
 					[208385] = 399029,
 					[211634] = 5400317,
-					[209034] = 4289314,
+					[189448] = 3782237,
 					[205595] = 1733287,
 					[207859] = 1124324,
-					[189448] = 3782237,
-					[209294] = 831995,
 					[207830] = 3907706,
+					[209294] = 831995,
+					[209034] = 4289314,
 				},
 				["name"] = "Slicedlol",
 			},
@@ -1028,13 +1028,13 @@ DeathGraphsDBDeaths = {
 					[207859] = 1287912,
 					[206652] = 801907,
 					[205595] = 1712752,
-					[206369] = 3326887,
-					[205782] = 1962587,
 					[211634] = 1860398,
+					[205782] = 1962587,
+					[209294] = 3532182,
 					[206656] = 1113615,
 					[205741] = 1621482,
 					[207830] = 1950803,
-					[209294] = 3532182,
+					[206369] = 3326887,
 				},
 				["name"] = "Mallusof",
 			},
@@ -1062,9 +1062,9 @@ DeathGraphsDBDeaths = {
 					[212105] = 99889,
 					[188443] = 97875,
 					[224239] = 1601627,
+					[211634] = 945000,
 					[206369] = 14858308,
 					[209294] = 531443,
-					[211634] = 945000,
 					[207830] = 3758034,
 					[205595] = 1747343,
 				},
@@ -1538,10 +1538,10 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 				["overall"] = {
-					[203045] = 373800,
-					[203097] = 385345,
 					[204470] = 559803,
+					[203097] = 385345,
 					[204506] = 115130,
+					[203045] = 373800,
 				},
 				["name"] = "PlayerYJKYLC",
 			},
@@ -3340,6 +3340,13 @@ DeathGraphsDBEndurance = {
 			["killed"] = true,
 		},
 		["player_db"] = {
+			["Sauri"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
 			["Zoephos"] = {
 				["encounters"] = 1,
 				["points"] = 90,
@@ -3352,13 +3359,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Kaliboo"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
 			["Headrush"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -3366,12 +3366,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Sauri"] = {
+			["Kaliboo"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+				["class"] = "MONK",
 			},
 			["Eärendìl"] = {
 				["encounters"] = 1,
@@ -3387,19 +3387,24 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "ROGUE",
 			},
-			["Slicedlol"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
 			["Bralith-Proudmoore"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
+			},
+			["Shámbám-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						166.048999999999, -- [2]
+						"Cleansing Flame |cFFFF33331,232,685|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "SHAMAN",
 			},
 			["Kaligon"] = {
 				["encounters"] = 1,
@@ -3429,17 +3434,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Shámbám-Stormrage"] = {
+			["Slicedlol"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						166.048999999999, -- [2]
-						"Cleansing Flame |cFFFF33331,232,685|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "SHAMAN",
+				["class"] = "ROGUE",
 			},
 			["Swoljah"] = {
 				["encounters"] = 1,
@@ -3516,10 +3516,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ilovedyou-Darkspear"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -3530,17 +3530,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
-			["Nightmarê-Sargeras"] = {
+			["Sixy-Windrunner"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -3634,10 +3634,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ilovedyou-Darkspear"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -3648,17 +3648,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
-			["Nightmarê-Sargeras"] = {
+			["Sixy-Windrunner"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -3725,10 +3725,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ilovedyou-Darkspear"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -3765,7 +3765,7 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["class"] = "DEMONHUNTER",
@@ -3786,10 +3786,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Nightmarê-Sargeras"] = {
+			["Sixy-Windrunner"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -3990,10 +3990,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ilovedyou-Darkspear"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -4025,7 +4025,7 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DEMONHUNTER",
@@ -4046,10 +4046,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Nightmarê-Sargeras"] = {
+			["Sixy-Windrunner"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -4196,10 +4196,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Kalithumos"] = {
+			["Ellestria"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "PALADIN",
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
@@ -4224,10 +4224,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ellestria"] = {
+			["Slicedlol"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "DRUID",
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
@@ -4271,10 +4271,10 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Slicedlol"] = {
+			["Kalithumos"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "ROGUE",
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -4351,16 +4351,11 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEMONHUNTER",
+				["points"] = 200,
+				["class"] = "MONK",
 				["deaths"] = {
-					{
-						1, -- [1]
-						5.46899999999914, -- [2]
-						"Web of Pain |cFFFF33335,441,897|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Nemesissong-Stormrage"] = {
@@ -4380,17 +4375,22 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 			},
+			["Sixy-Windrunner"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						5.46899999999914, -- [2]
+						"Web of Pain |cFFFF33335,441,897|r", -- [3]
+					}, -- [1]
+				},
+			},
 			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 2,
 				["points"] = 200,
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Nightmarê-Sargeras"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -4696,10 +4696,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ilovedyou-Darkspear"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
@@ -4710,17 +4710,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
-			["Nightmarê-Sargeras"] = {
+			["Sixy-Windrunner"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -4788,11 +4788,16 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Sixy-Windrunner"] = {
+			["Ilovedyou-Darkspear"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
+					{
+						1, -- [1]
+						95.5, -- [2]
+						"Infested Ground |cFFFF3333163,777|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Carbonaceous-Kel'Thuzad"] = {
@@ -4823,10 +4828,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Nightmarê-Sargeras"] = {
+			["Sixy-Windrunner"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MONK",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -4844,16 +4849,11 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Ilovedyou-Darkspear"] = {
+			["Nightmarê-Sargeras"] = {
 				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEMONHUNTER",
+				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
-					{
-						1, -- [1]
-						95.5, -- [2]
-						"Infested Ground |cFFFF3333163,777|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Gâutrúc-Jubei'Thos"] = {
@@ -9382,16 +9382,16 @@ DeathGraphsDBGraph = {
 			[64] = {
 				1483848218, -- [1]
 			},
-			[41] = {
+			[139] = {
 				1483848218, -- [1]
 			},
-			[139] = {
+			[81] = {
 				1483848218, -- [1]
 			},
 			[83] = {
 				1483848218, -- [1]
 			},
-			[81] = {
+			[41] = {
 				1483848218, -- [1]
 			},
 		},
@@ -10459,6 +10459,50 @@ DeathGraphsDBGraph = {
 					1484624748, -- [2]
 				}, -- [20]
 			},
+			["Nightmare Souls"] = {
+				{
+					11, -- [1]
+					1484019848, -- [2]
+				}, -- [1]
+				{
+					72, -- [1]
+					1484019848, -- [2]
+				}, -- [2]
+				{
+					160, -- [1]
+					1484019848, -- [2]
+				}, -- [3]
+				{
+					11, -- [1]
+					1484624748, -- [2]
+				}, -- [4]
+				{
+					78, -- [1]
+					1484624748, -- [2]
+				}, -- [5]
+				{
+					189, -- [1]
+					1484624748, -- [2]
+				}, -- [6]
+			},
+			["Shades of Taerar"] = {
+				{
+					72, -- [1]
+					1484019848, -- [2]
+				}, -- [1]
+				{
+					120, -- [1]
+					1484019848, -- [2]
+				}, -- [2]
+				{
+					77, -- [1]
+					1484624748, -- [2]
+				}, -- [3]
+				{
+					126, -- [1]
+					1484624748, -- [2]
+				}, -- [4]
+			},
 			["Corrupted Breath"] = {
 				{
 					16, -- [1]
@@ -10685,23 +10729,167 @@ DeathGraphsDBGraph = {
 					1484624748, -- [2]
 				}, -- [56]
 			},
-			["Shades of Taerar"] = {
+			["Call Defiled Spirit"] = {
 				{
-					72, -- [1]
+					32, -- [1]
 					1484019848, -- [2]
 				}, -- [1]
 				{
-					120, -- [1]
+					66, -- [1]
 					1484019848, -- [2]
 				}, -- [2]
 				{
-					77, -- [1]
-					1484624748, -- [2]
+					100, -- [1]
+					1484019848, -- [2]
 				}, -- [3]
 				{
-					126, -- [1]
-					1484624748, -- [2]
+					134, -- [1]
+					1484019848, -- [2]
 				}, -- [4]
+				{
+					168, -- [1]
+					1484019848, -- [2]
+				}, -- [5]
+				{
+					202, -- [1]
+					1484019848, -- [2]
+				}, -- [6]
+				{
+					236, -- [1]
+					1484019848, -- [2]
+				}, -- [7]
+				{
+					270, -- [1]
+					1484019848, -- [2]
+				}, -- [8]
+				{
+					304, -- [1]
+					1484019848, -- [2]
+				}, -- [9]
+				{
+					32, -- [1]
+					1484624748, -- [2]
+				}, -- [10]
+				{
+					66, -- [1]
+					1484624748, -- [2]
+				}, -- [11]
+				{
+					100, -- [1]
+					1484624748, -- [2]
+				}, -- [12]
+				{
+					134, -- [1]
+					1484624748, -- [2]
+				}, -- [13]
+				{
+					168, -- [1]
+					1484624748, -- [2]
+				}, -- [14]
+				{
+					202, -- [1]
+					1484624748, -- [2]
+				}, -- [15]
+				{
+					236, -- [1]
+					1484624748, -- [2]
+				}, -- [16]
+				{
+					270, -- [1]
+					1484624748, -- [2]
+				}, -- [17]
+				{
+					304, -- [1]
+					1484624748, -- [2]
+				}, -- [18]
+				{
+					338, -- [1]
+					1484624748, -- [2]
+				}, -- [19]
+				{
+					372, -- [1]
+					1484624748, -- [2]
+				}, -- [20]
+			},
+			["Bellowing Roar"] = {
+				{
+					179, -- [1]
+					1484019848, -- [2]
+				}, -- [1]
+				{
+					224, -- [1]
+					1484019848, -- [2]
+				}, -- [2]
+				{
+					268, -- [1]
+					1484019848, -- [2]
+				}, -- [3]
+				{
+					313, -- [1]
+					1484019848, -- [2]
+				}, -- [4]
+				{
+					50, -- [1]
+					1484624748, -- [2]
+				}, -- [5]
+				{
+					194, -- [1]
+					1484624748, -- [2]
+				}, -- [6]
+				{
+					239, -- [1]
+					1484624748, -- [2]
+				}, -- [7]
+				{
+					284, -- [1]
+					1484624748, -- [2]
+				}, -- [8]
+				{
+					329, -- [1]
+					1484624748, -- [2]
+				}, -- [9]
+				{
+					374, -- [1]
+					1484624748, -- [2]
+				}, -- [10]
+			},
+			["Siphon Spirit"] = {
+				{
+					158, -- [1]
+					1484019848, -- [2]
+				}, -- [1]
+				{
+					207, -- [1]
+					1484019848, -- [2]
+				}, -- [2]
+				{
+					257, -- [1]
+					1484019848, -- [2]
+				}, -- [3]
+				{
+					307, -- [1]
+					1484019848, -- [2]
+				}, -- [4]
+				{
+					175, -- [1]
+					1484624748, -- [2]
+				}, -- [5]
+				{
+					225, -- [1]
+					1484624748, -- [2]
+				}, -- [6]
+				{
+					276, -- [1]
+					1484624748, -- [2]
+				}, -- [7]
+				{
+					325, -- [1]
+					1484624748, -- [2]
+				}, -- [8]
+				{
+					375, -- [1]
+					1484624748, -- [2]
+				}, -- [9]
 			},
 			["Corrupted Burst"] = {
 				{
@@ -11429,194 +11617,6 @@ DeathGraphsDBGraph = {
 					1484624748, -- [2]
 				}, -- [181]
 			},
-			["Call Defiled Spirit"] = {
-				{
-					32, -- [1]
-					1484019848, -- [2]
-				}, -- [1]
-				{
-					66, -- [1]
-					1484019848, -- [2]
-				}, -- [2]
-				{
-					100, -- [1]
-					1484019848, -- [2]
-				}, -- [3]
-				{
-					134, -- [1]
-					1484019848, -- [2]
-				}, -- [4]
-				{
-					168, -- [1]
-					1484019848, -- [2]
-				}, -- [5]
-				{
-					202, -- [1]
-					1484019848, -- [2]
-				}, -- [6]
-				{
-					236, -- [1]
-					1484019848, -- [2]
-				}, -- [7]
-				{
-					270, -- [1]
-					1484019848, -- [2]
-				}, -- [8]
-				{
-					304, -- [1]
-					1484019848, -- [2]
-				}, -- [9]
-				{
-					32, -- [1]
-					1484624748, -- [2]
-				}, -- [10]
-				{
-					66, -- [1]
-					1484624748, -- [2]
-				}, -- [11]
-				{
-					100, -- [1]
-					1484624748, -- [2]
-				}, -- [12]
-				{
-					134, -- [1]
-					1484624748, -- [2]
-				}, -- [13]
-				{
-					168, -- [1]
-					1484624748, -- [2]
-				}, -- [14]
-				{
-					202, -- [1]
-					1484624748, -- [2]
-				}, -- [15]
-				{
-					236, -- [1]
-					1484624748, -- [2]
-				}, -- [16]
-				{
-					270, -- [1]
-					1484624748, -- [2]
-				}, -- [17]
-				{
-					304, -- [1]
-					1484624748, -- [2]
-				}, -- [18]
-				{
-					338, -- [1]
-					1484624748, -- [2]
-				}, -- [19]
-				{
-					372, -- [1]
-					1484624748, -- [2]
-				}, -- [20]
-			},
-			["Bellowing Roar"] = {
-				{
-					179, -- [1]
-					1484019848, -- [2]
-				}, -- [1]
-				{
-					224, -- [1]
-					1484019848, -- [2]
-				}, -- [2]
-				{
-					268, -- [1]
-					1484019848, -- [2]
-				}, -- [3]
-				{
-					313, -- [1]
-					1484019848, -- [2]
-				}, -- [4]
-				{
-					50, -- [1]
-					1484624748, -- [2]
-				}, -- [5]
-				{
-					194, -- [1]
-					1484624748, -- [2]
-				}, -- [6]
-				{
-					239, -- [1]
-					1484624748, -- [2]
-				}, -- [7]
-				{
-					284, -- [1]
-					1484624748, -- [2]
-				}, -- [8]
-				{
-					329, -- [1]
-					1484624748, -- [2]
-				}, -- [9]
-				{
-					374, -- [1]
-					1484624748, -- [2]
-				}, -- [10]
-			},
-			["Siphon Spirit"] = {
-				{
-					158, -- [1]
-					1484019848, -- [2]
-				}, -- [1]
-				{
-					207, -- [1]
-					1484019848, -- [2]
-				}, -- [2]
-				{
-					257, -- [1]
-					1484019848, -- [2]
-				}, -- [3]
-				{
-					307, -- [1]
-					1484019848, -- [2]
-				}, -- [4]
-				{
-					175, -- [1]
-					1484624748, -- [2]
-				}, -- [5]
-				{
-					225, -- [1]
-					1484624748, -- [2]
-				}, -- [6]
-				{
-					276, -- [1]
-					1484624748, -- [2]
-				}, -- [7]
-				{
-					325, -- [1]
-					1484624748, -- [2]
-				}, -- [8]
-				{
-					375, -- [1]
-					1484624748, -- [2]
-				}, -- [9]
-			},
-			["Nightmare Souls"] = {
-				{
-					11, -- [1]
-					1484019848, -- [2]
-				}, -- [1]
-				{
-					72, -- [1]
-					1484019848, -- [2]
-				}, -- [2]
-				{
-					160, -- [1]
-					1484019848, -- [2]
-				}, -- [3]
-				{
-					11, -- [1]
-					1484624748, -- [2]
-				}, -- [4]
-				{
-					78, -- [1]
-					1484624748, -- [2]
-				}, -- [5]
-				{
-					189, -- [1]
-					1484624748, -- [2]
-				}, -- [6]
-			},
 			["Essence of Corruption"] = {
 				{
 					30, -- [1]
@@ -11808,13 +11808,13 @@ DeathGraphsDBGraph = {
 			["Corruption"] = 205300,
 			["Defiled Eruption"] = 203771,
 			["Dark Offering"] = 203897,
-			["Corrupted Breath"] = 203028,
+			["Nightmare Souls"] = 214497,
 			["Shades of Taerar"] = 204100,
-			["Corrupted Burst"] = 203817,
+			["Corrupted Breath"] = 203028,
 			["Call Defiled Spirit"] = 207573,
 			["Bellowing Roar"] = 204078,
 			["Siphon Spirit"] = 203888,
-			["Nightmare Souls"] = 214497,
+			["Corrupted Burst"] = 203817,
 			["Essence of Corruption"] = 205298,
 			["Volatile Infection"] = 203787,
 			["Tail Lash"] = 204122,

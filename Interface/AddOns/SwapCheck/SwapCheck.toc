@@ -1,0 +1,8 @@
+## Interface: 60000
+## Title: SwapCheck
+## Notes: Determines if you have been swapblasted and announces it.
+## Author: MaxwellDemonic
+## Version: 1.0.1
+## SavedVariables: settings
+SwapCheck.lua
+SwapCheck.xml

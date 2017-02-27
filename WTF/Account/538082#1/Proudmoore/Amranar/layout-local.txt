@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: 10
-Y: 72
-W: 93
-H: 43
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -13,6 +6,13 @@ X: 300
 Y: 0
 W: 232
 H: 100
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: -231
+Y: 7
+W: 128
+H: 64
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -62,10 +62,3 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: -231
-Y: 7
-W: 267
-H: 216

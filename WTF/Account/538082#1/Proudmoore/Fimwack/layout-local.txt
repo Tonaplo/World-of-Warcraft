@@ -13,6 +13,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: mOnWD_MiniList
+FrameLevel: 1
+Anchor: TOP
+X: 23
+Y: -93
+W: 200
+H: 364
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,13 +34,6 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: mOnWD_MiniList
-FrameLevel: 1
-Anchor: TOP
-X: 23
-Y: -93
-W: 200
-H: 364
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
