@@ -1,5 +1,5 @@
 
-settings = {
-	["swpChkEnabled"] = 1,
-	["announceType"] = "AUTO",
+swapBlasterList = {
 }
+lastSwapCaster = nil
+lastSwapTime = 0

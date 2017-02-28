@@ -41,6 +41,13 @@ X: -118
 Y: 118
 W: 384
 H: 260
+Frame: mOnWD_MiniList
+FrameLevel: 1
+Anchor: TOP
+X: -391
+Y: -181
+W: 200
+H: 364
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER

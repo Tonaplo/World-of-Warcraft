@@ -13,13 +13,13 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_day"] = "26",
+	["last_day"] = "27",
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 327,
 					["tipo"] = 2,
+					["combatId"] = 327,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -31,26 +31,24 @@ _detalhes_database = {
 								["Smolderhide Warrior"] = 689400,
 								["Nightmare Creeper"] = 649399,
 							},
+							["serial"] = "Player-5-0A2F3583",
 							["pets"] = {
 								"Chaos Tear <Fimwack>", -- [1]
 								"Lazgup <Fimwack>", -- [2]
 							},
-							["spec"] = 267,
-							["on_hold"] = false,
+							["colocacao"] = 1,
+							["total"] = 1338799.001821,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 744468.001821,
-							["end_time"] = 1488161201,
-							["colocacao"] = 1,
+							["spec"] = 267,
 							["dps_started"] = false,
-							["total"] = 1338799.001821,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["end_time"] = 1488161201,
+							["on_hold"] = false,
+							["last_event"] = 1488161200,
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[17962] = {
 										["c_amt"] = 0,
@@ -73,13 +71,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[116858] = {
 										["c_amt"] = 2,
@@ -102,13 +100,13 @@ _detalhes_database = {
 										["spellschool"] = 124,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 231112,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 231112,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -132,13 +130,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[157736] = {
 										["c_amt"] = 0,
@@ -162,13 +160,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[196448] = {
 										["c_amt"] = 0,
@@ -192,35 +190,35 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 10,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
+							["friendlyfire"] = {
+							},
 							["last_dps"] = 92554.3727494633,
 							["custom"] = 0,
-							["last_event"] = 1488161200,
+							["tipo"] = 1,
 							["damage_taken"] = 368575.001821,
 							["start_time"] = 1488161189,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-108493-00003389A6",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Nightmare Creeper"] = 455692,
 							},
-							["end_time"] = 1488161201,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -228,13 +226,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 455692.005112,
-							["dps_started"] = false,
 							["total"] = 455692.005112,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161201,
+							["serial"] = "Creature-0-3777-1220-7275-108493-00003389A6",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Chaos Tear <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[215279] = {
 										["c_amt"] = 2,
@@ -257,36 +255,36 @@ _detalhes_database = {
 										["spellschool"] = 124,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 227846,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 227846,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161192,
 							["damage_taken"] = 0.005112,
 							["start_time"] = 1488161191,
 							["delay"] = 0,
-							["last_event"] = 1488161192,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Smolderhide Warrior"] = 79222,
 								["Nightmare Creeper"] = 59417,
 							},
-							["end_time"] = 1488161201,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -294,13 +292,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 138639.001334,
-							["dps_started"] = false,
 							["total"] = 138639.001334,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161201,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Lazgup <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -324,36 +322,37 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161200,
 							["damage_taken"] = 0.001334,
 							["start_time"] = 1488161191,
 							["delay"] = 0,
-							["last_event"] = 1488161200,
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 327,
 					["tipo"] = 3,
+					["combatId"] = 327,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fimwack"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -378,11 +377,8 @@ _detalhes_database = {
 							["healing_taken"] = 357620.007969,
 							["fight_component"] = true,
 							["end_time"] = 1488161201,
-							["targets_overheal"] = {
-							},
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[108366] = {
 										["c_amt"] = 0,
@@ -406,17 +402,21 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["c_min"] = 0,
 										["n_curado"] = 357620,
-										["m_healed"] = 0,
 										["n_amt"] = 12,
+										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "WARLOCK",
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["last_event"] = 1488161200,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["last_event"] = 1488161200,
+							["classe"] = "WARLOCK",
 							["start_time"] = 1488161186,
 							["delay"] = 0,
 							["spec"] = 267,
@@ -424,8 +424,8 @@ _detalhes_database = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 327,
 					["tipo"] = 7,
+					["combatId"] = 327,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -443,10 +443,9 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["resource_type"] = 7,
-							["tipo"] = 3,
+							["last_event"] = 1488161200,
 							["received"] = 695010.003879,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[227413] = {
 										["id"] = 227413,
@@ -465,20 +464,20 @@ _detalhes_database = {
 										["counter"] = 2,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1488161200,
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 327,
 					["tipo"] = 9,
+					["combatId"] = 327,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[157736] = {
 										["uptime"] = 8,
@@ -490,11 +489,11 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 48,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[218845] = {
 										["uptime"] = 12,
@@ -542,6 +541,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 8,
@@ -558,13 +558,13 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1488161201,
+							["tipo"] = 4,
 							["nome"] = "Fimwack",
 							["pets"] = {
 								"Lazgup <Fimwack>", -- [1]
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
+							["last_event"] = 1488161201,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -572,19 +572,19 @@ _detalhes_database = {
 							["nome"] = "Lazgup <Fimwack>",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["spell_cast"] = {
 								[3110] = 5,
 							},
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 327,
 					["tipo"] = 2,
+					["combatId"] = 327,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -609,10 +609,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -726,14 +726,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Fimwack"] = 357620.007969,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -744,12 +744,13 @@ _detalhes_database = {
 				["end_time"] = 18950.71,
 				["combat_id"] = 327,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 					["Smolderhide Warrior"] = 1,
 					["Nightmare Creeper"] = 1,
 				},
 				["data_fim"] = "18:06:41",
-				["data_inicio"] = "18:06:27",
+				["contra"] = "Nightmare Creeper",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -764,16 +765,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 18936.245,
-				["contra"] = "Nightmare Creeper",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						0.001821, -- [1]
@@ -810,11 +810,12 @@ _detalhes_database = {
 						["max_value"] = 237383,
 					},
 				},
+				["data_inicio"] = "18:06:27",
 			}, -- [1]
 			{
 				{
-					["combatId"] = 326,
 					["tipo"] = 2,
+					["combatId"] = 326,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -825,7 +826,7 @@ _detalhes_database = {
 								["Morphael"] = 2963142,
 								["Dark Manifestation <[*] Unleashed Madness>"] = 580340,
 							},
-							["spec"] = 267,
+							["serial"] = "Player-5-0A2F3583",
 							["pets"] = {
 								"Imp <Fimwack>", -- [1]
 								"Lazgup <Fimwack>", -- [2]
@@ -833,20 +834,19 @@ _detalhes_database = {
 								"Chaos Tear <Fimwack>", -- [4]
 							},
 							["colocacao"] = 1,
-							["end_time"] = 1488161119,
+							["total"] = 3543482.001699,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2245167.001699,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["end_time"] = 1488161119,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 3543482.001699,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
+							["last_event"] = 1488161117,
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[17962] = {
 										["c_amt"] = 1,
@@ -869,13 +869,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 97468,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 97468,
 									},
 									[116858] = {
 										["c_amt"] = 2,
@@ -898,13 +898,13 @@ _detalhes_database = {
 										["spellschool"] = 124,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 189824,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 189824,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -927,13 +927,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[157736] = {
 										["c_amt"] = 2,
@@ -956,13 +956,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 33152,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 33152,
 									},
 									[196448] = {
 										["c_amt"] = 9,
@@ -986,13 +986,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 17091,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 39,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 17091,
 									},
 									[29722] = {
 										["c_amt"] = 2,
@@ -1016,36 +1016,35 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 110553,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 110553,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
+							["friendlyfire_total"] = 0,
 							["last_dps"] = 126697.726033285,
 							["custom"] = 0,
-							["last_event"] = 1488161117,
-							["damage_taken"] = 27001.001699,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1488161091,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 27001.001699,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-416-0000338943",
 							["damage_from"] = {
 								["Morphael"] = true,
 							},
 							["targets"] = {
 								["Morphael"] = 496287,
 							},
-							["end_time"] = 1488161119,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -1053,13 +1052,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 496287.00226,
-							["dps_started"] = false,
 							["total"] = 496287.00226,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161119,
+							["serial"] = "Creature-0-3777-1220-7275-416-0000338943",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Imp <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -1082,35 +1081,35 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 9,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161116,
 							["damage_taken"] = 78643.00226,
 							["start_time"] = 1488161093,
 							["delay"] = 0,
-							["last_event"] = 1488161116,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Morphael"] = 303284,
 							},
-							["end_time"] = 1488161119,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -1118,13 +1117,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 303284.00666,
-							["dps_started"] = false,
 							["total"] = 303284.00666,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161119,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Lazgup <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 1,
@@ -1147,35 +1146,35 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 55143,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 9,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 55143,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161117,
 							["damage_taken"] = 0.00666,
 							["start_time"] = 1488161093,
 							["delay"] = 0,
-							["last_event"] = 1488161117,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-94584-0000338944",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Morphael"] = 287288,
 							},
-							["end_time"] = 1488161119,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -1183,13 +1182,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 287288.004404,
-							["dps_started"] = false,
 							["total"] = 287288.004404,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161119,
+							["serial"] = "Creature-0-3777-1220-7275-94584-0000338944",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Unstable Tear <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[187394] = {
 										["c_amt"] = 5,
@@ -1212,35 +1211,35 @@ _detalhes_database = {
 										["spellschool"] = 126,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 19442,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 20,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 19442,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161100,
 							["damage_taken"] = 0.004404,
 							["start_time"] = 1488161112,
 							["delay"] = 1488161100,
-							["last_event"] = 1488161100,
+							["classe"] = "PET",
 						}, -- [4]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-108493-0000338946",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Morphael"] = 211456,
 							},
-							["end_time"] = 1488161119,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -1248,13 +1247,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 211456.002089,
-							["dps_started"] = false,
 							["total"] = 211456.002089,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161119,
+							["serial"] = "Creature-0-3777-1220-7275-108493-0000338946",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Chaos Tear <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[215279] = {
 										["c_amt"] = 1,
@@ -1277,36 +1276,37 @@ _detalhes_database = {
 										["spellschool"] = 124,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 211456,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 211456,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161096,
 							["damage_taken"] = 0.002089,
 							["start_time"] = 1488161118,
 							["delay"] = 1488161096,
-							["last_event"] = 1488161096,
+							["classe"] = "PET",
 						}, -- [5]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 326,
 					["tipo"] = 3,
+					["combatId"] = 326,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fimwack"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -1331,11 +1331,8 @@ _detalhes_database = {
 							["healing_taken"] = 27001.005322,
 							["fight_component"] = true,
 							["end_time"] = 1488161119,
-							["targets_overheal"] = {
-							},
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[108366] = {
 										["c_amt"] = 0,
@@ -1359,17 +1356,21 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["c_min"] = 0,
 										["n_curado"] = 27001,
-										["m_healed"] = 0,
 										["n_amt"] = 1,
+										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "WARLOCK",
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["last_event"] = 1488161093,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["last_event"] = 1488161093,
+							["classe"] = "WARLOCK",
 							["start_time"] = 1488161118,
 							["delay"] = 1488161093,
 							["spec"] = 267,
@@ -1377,8 +1378,8 @@ _detalhes_database = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 326,
 					["tipo"] = 7,
+					["combatId"] = 326,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1396,10 +1397,9 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["resource_type"] = 7,
-							["tipo"] = 3,
+							["last_event"] = 1488161115,
 							["received"] = 695010.002746,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[116858] = {
 										["id"] = 116858,
@@ -1418,20 +1418,20 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1488161115,
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 326,
 					["tipo"] = 9,
+					["combatId"] = 326,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[157736] = {
 										["uptime"] = 26,
@@ -1443,11 +1443,11 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 79,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[156070] = {
 										["uptime"] = 28,
@@ -1486,12 +1486,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["cc_break"] = 2.002143,
+							["nome"] = "Fimwack",
 							["fight_component"] = true,
 							["debuff_uptime"] = 26,
 							["cc_break_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[196448] = {
 										["cc_break_oque"] = {
@@ -1506,11 +1506,9 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Imp <Fimwack>", -- [1]
-								"Lazgup <Fimwack>", -- [2]
-							},
+							["cc_break"] = 2.002143,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 267,
@@ -1528,14 +1526,17 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 1488161119,
-							["nome"] = "Fimwack",
 							["cc_break_targets"] = {
 								["Morphael"] = 1,
 								["Dark Manifestation"] = 1,
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
+							["pets"] = {
+								"Imp <Fimwack>", -- [1]
+								"Lazgup <Fimwack>", -- [2]
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -1543,15 +1544,15 @@ _detalhes_database = {
 							["nome"] = "Imp <Fimwack>",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
+							["serial"] = "Creature-0-3777-1220-7275-416-0000338943",
 							["spell_cast"] = {
 								[89808] = 1,
 								[209928] = 1,
 								[3110] = 9,
 							},
-							["serial"] = "Creature-0-3777-1220-7275-416-0000338943",
-							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -1559,19 +1560,19 @@ _detalhes_database = {
 							["nome"] = "Lazgup <Fimwack>",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["spell_cast"] = {
 								[3110] = 10,
 							},
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
-							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 326,
 					["tipo"] = 2,
+					["combatId"] = 326,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1596,10 +1597,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 2,
 						["dead"] = 0,
 					}, -- [4]
@@ -1616,14 +1617,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Fimwack"] = 27001.005322,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -1634,13 +1635,14 @@ _detalhes_database = {
 				["end_time"] = 18868.597,
 				["combat_id"] = 326,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 					["Dark Manifestation"] = 5,
 					["Darkfiend Tormentor"] = 1,
 					["Morphael"] = 1,
 				},
 				["data_fim"] = "18:05:19",
-				["data_inicio"] = "18:04:51",
+				["contra"] = "Morphael",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1655,16 +1657,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 2,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 18840.629,
-				["contra"] = "Morphael",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						32539.001699, -- [1]
@@ -1727,11 +1728,12 @@ _detalhes_database = {
 						["max_value"] = 493678,
 					},
 				},
+				["data_inicio"] = "18:04:51",
 			}, -- [2]
 			{
 				{
-					["combatId"] = 325,
 					["tipo"] = 2,
+					["combatId"] = 325,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1741,27 +1743,26 @@ _detalhes_database = {
 							["targets"] = {
 								["Darkfiend Tormentor"] = 1398865,
 							},
-							["spec"] = 267,
+							["serial"] = "Player-5-0A2F3583",
 							["pets"] = {
 								"Lazgup <Fimwack>", -- [1]
 								"Unstable Tear <Fimwack>", -- [2]
 								"Shadowy Tear <Fimwack>", -- [3]
 							},
 							["colocacao"] = 1,
-							["end_time"] = 1488161051,
+							["total"] = 1398865.005047,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 932979.005047,
+							["spec"] = 267,
+							["dps_started"] = false,
+							["end_time"] = 1488161051,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 1398865.005047,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
+							["last_event"] = 1488161051,
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[17962] = {
 										["c_amt"] = 0,
@@ -1784,13 +1785,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[116858] = {
 										["c_amt"] = 1,
@@ -1813,13 +1814,13 @@ _detalhes_database = {
 										["spellschool"] = 124,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 205162,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 205162,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -1842,13 +1843,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[157736] = {
 										["c_amt"] = 1,
@@ -1871,13 +1872,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 32900,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 32900,
 									},
 									[196448] = {
 										["c_amt"] = 6,
@@ -1900,35 +1901,34 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 14789,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 24,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 14789,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
+							["friendlyfire_total"] = 0,
 							["last_dps"] = 92493.0577259335,
 							["custom"] = 0,
-							["last_event"] = 1488161051,
-							["damage_taken"] = 302605.005047,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1488161036,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 302605.005047,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-94584-0000338912",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Darkfiend Tormentor"] = 194419,
 							},
-							["end_time"] = 1488161051,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -1936,13 +1936,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 194419.00767,
-							["dps_started"] = false,
 							["total"] = 194419.00767,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161051,
+							["serial"] = "Creature-0-3777-1220-7275-94584-0000338912",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Unstable Tear <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[187394] = {
 										["c_amt"] = 1,
@@ -1965,35 +1965,35 @@ _detalhes_database = {
 										["spellschool"] = 126,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 19442,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 18,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 19442,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161048,
 							["damage_taken"] = 0.00767,
 							["start_time"] = 1488161043,
 							["delay"] = 0,
-							["last_event"] = 1488161048,
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["damage_from"] = {
 							},
 							["targets"] = {
 								["Darkfiend Tormentor"] = 165426,
 							},
-							["end_time"] = 1488161051,
 							["pets"] = {
 							},
 							["on_hold"] = false,
@@ -2001,13 +2001,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 165426.004307,
-							["dps_started"] = false,
 							["total"] = 165426.004307,
-							["classe"] = "PET",
+							["dps_started"] = false,
+							["end_time"] = 1488161051,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Lazgup <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -2030,29 +2030,30 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161050,
 							["damage_taken"] = 0.004307,
 							["start_time"] = 1488161039,
 							["delay"] = 0,
-							["last_event"] = 1488161050,
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-99887-0000338914",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -2065,13 +2066,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 106041.006335,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 106041.006335,
-							["classe"] = "PET",
+							["serial"] = "Creature-0-3777-1220-7275-99887-0000338914",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Shadowy Tear <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[196657] = {
 										["c_amt"] = 1,
@@ -2094,37 +2095,37 @@ _detalhes_database = {
 										["spellschool"] = 32,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 70694,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 70694,
 									},
 								},
-							},
-							["friendlyfire"] = {
+								["tipo"] = 2,
 							},
 							["end_time"] = 1488161051,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161047,
 							["damage_taken"] = 0.006335,
 							["start_time"] = 1488161045,
 							["delay"] = 0,
-							["last_event"] = 1488161047,
+							["friendlyfire"] = {
+							},
 						}, -- [4]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 325,
 					["tipo"] = 3,
+					["combatId"] = 325,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fimwack"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -2149,11 +2150,8 @@ _detalhes_database = {
 							["healing_taken"] = 302605.003595,
 							["fight_component"] = true,
 							["end_time"] = 1488161051,
-							["targets_overheal"] = {
-							},
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[108366] = {
 										["c_amt"] = 0,
@@ -2177,17 +2175,21 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["c_min"] = 0,
 										["n_curado"] = 302605,
-										["m_healed"] = 0,
 										["n_amt"] = 12,
+										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "WARLOCK",
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["last_event"] = 1488161050,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["last_event"] = 1488161050,
+							["classe"] = "WARLOCK",
 							["start_time"] = 1488161038,
 							["delay"] = 0,
 							["spec"] = 267,
@@ -2195,8 +2197,8 @@ _detalhes_database = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 325,
 					["tipo"] = 7,
+					["combatId"] = 325,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2214,10 +2216,9 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["resource_type"] = 7,
-							["tipo"] = 3,
+							["last_event"] = 1488161051,
 							["received"] = 364260.005315,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[227413] = {
 										["id"] = 227413,
@@ -2236,20 +2237,20 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1488161051,
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 325,
 					["tipo"] = 9,
+					["combatId"] = 325,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[157736] = {
 										["uptime"] = 15,
@@ -2270,11 +2271,11 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 45,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[156070] = {
 										["uptime"] = 15,
@@ -2313,6 +2314,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 18,
@@ -2330,13 +2332,13 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1488161051,
+							["tipo"] = 4,
 							["nome"] = "Fimwack",
 							["pets"] = {
 								"Lazgup <Fimwack>", -- [1]
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
+							["last_event"] = 1488161051,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2344,19 +2346,19 @@ _detalhes_database = {
 							["nome"] = "Lazgup <Fimwack>",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["spell_cast"] = {
 								[3110] = 6,
 							},
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 325,
 					["tipo"] = 2,
+					["combatId"] = 325,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2381,10 +2383,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2401,14 +2403,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Fimwack"] = 302605.003595,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2419,11 +2421,12 @@ _detalhes_database = {
 				["end_time"] = 18801.302,
 				["combat_id"] = 325,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 					["Darkfiend Tormentor"] = 3,
 				},
 				["data_fim"] = "18:04:12",
-				["data_inicio"] = "18:03:57",
+				["contra"] = "Darkfiend Tormentor",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2438,16 +2441,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 18786.178,
-				["contra"] = "Darkfiend Tormentor",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						77443.005047, -- [1]
@@ -2486,11 +2488,12 @@ _detalhes_database = {
 						["max_value"] = 205162,
 					},
 				},
+				["data_inicio"] = "18:03:57",
 			}, -- [3]
 			{
 				{
-					["combatId"] = 324,
 					["tipo"] = 2,
+					["combatId"] = 324,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2500,25 +2503,23 @@ _detalhes_database = {
 								["Darkfiend Dreamworg"] = 230553,
 								["Darkfiend Tormentor"] = 41196,
 							},
+							["serial"] = "Player-5-0A2F3583",
 							["pets"] = {
 								"Lazgup <Fimwack>", -- [1]
 							},
-							["spec"] = 267,
-							["on_hold"] = false,
+							["colocacao"] = 1,
+							["total"] = 271749.001573,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 242041.001573,
-							["end_time"] = 1488161016,
-							["colocacao"] = 1,
+							["spec"] = 267,
 							["dps_started"] = false,
-							["total"] = 271749.001573,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
+							["end_time"] = 1488161016,
+							["on_hold"] = false,
+							["last_event"] = 1488161014,
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[42223] = {
 										["c_amt"] = 1,
@@ -2542,13 +2543,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 36208,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 36208,
 									},
 									[348] = {
 										["c_amt"] = 1,
@@ -2571,29 +2572,30 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 65378,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 65378,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
+							["friendlyfire"] = {
+							},
 							["last_dps"] = 43292.815289616,
 							["custom"] = 0,
-							["last_event"] = 1488161014,
+							["tipo"] = 1,
 							["damage_taken"] = 0.001573,
 							["start_time"] = 1488161010,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -2606,13 +2608,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 29708.006882,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 29708.006882,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Lazgup <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -2635,56 +2637,56 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
-							},
-							["friendlyfire"] = {
+								["tipo"] = 2,
 							},
 							["end_time"] = 1488161016,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488161014,
 							["damage_taken"] = 0.006882,
 							["start_time"] = 1488161014,
 							["delay"] = 0,
-							["last_event"] = 1488161014,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 324,
 					["tipo"] = 3,
+					["combatId"] = 324,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 324,
 					["tipo"] = 7,
+					["combatId"] = 324,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 324,
 					["tipo"] = 9,
+					["combatId"] = 324,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[5740] = {
 										["actived_at"] = 1488161015,
 										["uptime"] = 0,
-										["activedamt"] = -2,
-										["id"] = 5740,
 										["actived"] = false,
+										["id"] = 5740,
+										["activedamt"] = -2,
 										["targets"] = {
 										},
 										["counter"] = 0,
@@ -2699,11 +2701,13 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["buff_uptime"] = 15,
+							["pets"] = {
+								"Lazgup <Fimwack>", -- [1]
+							},
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[156070] = {
 										["uptime"] = 6,
@@ -2742,6 +2746,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 2,
 							["buff_uptime_targets"] = {
@@ -2752,15 +2757,13 @@ _detalhes_database = {
 								[42223] = 6,
 								[348] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["buff_uptime"] = 15,
 							["last_event"] = 1488161016,
 							["nome"] = "Fimwack",
-							["pets"] = {
-								"Lazgup <Fimwack>", -- [1]
-							},
-							["serial"] = "Player-5-0A2F3583",
 							["tipo"] = 4,
+							["serial"] = "Player-5-0A2F3583",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2768,19 +2771,19 @@ _detalhes_database = {
 							["nome"] = "Lazgup <Fimwack>",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["spell_cast"] = {
 								[3110] = 2,
 							},
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 324,
 					["tipo"] = 2,
+					["combatId"] = 324,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2804,10 +2807,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2824,13 +2827,13 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2841,13 +2844,14 @@ _detalhes_database = {
 				["end_time"] = 18766.329,
 				["combat_id"] = 324,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 					["Bloodworm"] = 1,
 					["Darkfiend Tormentor"] = 1,
 					["Darkfiend Dreamworg"] = 1,
 				},
 				["data_fim"] = "18:03:37",
-				["data_inicio"] = "18:03:31",
+				["contra"] = "Darkfiend Tormentor",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2862,16 +2866,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 18760.052,
-				["contra"] = "Darkfiend Tormentor",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						93949.001573, -- [1]
@@ -2892,11 +2895,12 @@ _detalhes_database = {
 						["max_value"] = 93949,
 					},
 				},
+				["data_inicio"] = "18:03:31",
 			}, -- [4]
 			{
 				{
-					["combatId"] = 323,
 					["tipo"] = 2,
+					["combatId"] = 323,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2906,55 +2910,54 @@ _detalhes_database = {
 							["targets"] = {
 								["Darkfiend Dreamworg"] = 629125,
 							},
+							["serial"] = "Player-5-0A2F3583",
 							["pets"] = {
 								"Lazgup <Fimwack>", -- [1]
 								"Chaos Tear <Fimwack>", -- [2]
 							},
-							["total"] = 629125.001622,
-							["on_hold"] = false,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 334955.001622,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1488160964,
-							["friendlyfire_total"] = 0,
 							["spec"] = 267,
+							["dps_started"] = false,
+							["total"] = 629125.001622,
+							["on_hold"] = false,
+							["last_event"] = 1488160963,
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
-									[116858] = {
-										["c_amt"] = 1,
+									[17962] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 225106,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 47678,
 										["targets"] = {
-											["Darkfiend Dreamworg"] = 225106,
+											["Darkfiend Dreamworg"] = 47678,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 47678,
+										["n_min"] = 47678,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 225106,
-										["c_max"] = 225106,
-										["id"] = 116858,
+										["total"] = 47678,
+										["c_max"] = 0,
+										["id"] = 17962,
 										["r_dmg"] = 0,
-										["spellschool"] = 124,
+										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 225106,
 									},
 									[348] = {
 										["c_amt"] = 0,
@@ -2977,42 +2980,13 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[17962] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 47678,
-										["targets"] = {
-											["Darkfiend Dreamworg"] = 47678,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 47678,
-										["n_min"] = 47678,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 47678,
-										["c_max"] = 0,
-										["id"] = 17962,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[157736] = {
 										["c_amt"] = 0,
@@ -3035,29 +3009,58 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+									},
+									[116858] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 225106,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Darkfiend Dreamworg"] = 225106,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 225106,
+										["c_max"] = 225106,
+										["id"] = 116858,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 225106,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A2F3583",
+							["end_time"] = 1488160964,
 							["last_dps"] = 102714.285979102,
 							["custom"] = 0,
-							["last_event"] = 1488160963,
+							["tipo"] = 1,
 							["damage_taken"] = 55493.001622,
 							["start_time"] = 1488160958,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3777-1220-7275-108493-00003388C0",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -3070,13 +3073,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 211457.004592,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 211457.004592,
-							["classe"] = "PET",
+							["serial"] = "Creature-0-3777-1220-7275-108493-00003388C0",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Chaos Tear <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[215279] = {
 										["c_amt"] = 1,
@@ -3099,30 +3102,30 @@ _detalhes_database = {
 										["spellschool"] = 124,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 211457,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 211457,
 									},
 								},
-							},
-							["friendlyfire"] = {
+								["tipo"] = 2,
 							},
 							["end_time"] = 1488160964,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488160961,
 							["damage_taken"] = 0.004592,
 							["start_time"] = 1488160961,
 							["delay"] = 0,
-							["last_event"] = 1488160961,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["damage_from"] = {
 							},
 							["targets"] = {
@@ -3135,13 +3138,13 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 82713.006054,
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 82713.006054,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["ownerName"] = "Fimwack",
 							["nome"] = "Lazgup <Fimwack>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -3164,37 +3167,37 @@ _detalhes_database = {
 										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
-							},
-							["friendlyfire"] = {
+								["tipo"] = 2,
 							},
 							["end_time"] = 1488160964,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
+							["last_event"] = 1488160963,
 							["damage_taken"] = 0.006054,
 							["start_time"] = 1488160960,
 							["delay"] = 0,
-							["last_event"] = 1488160963,
+							["friendlyfire"] = {
+							},
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 323,
 					["tipo"] = 3,
+					["combatId"] = 323,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Fimwack"] = true,
+							["targets_overheal"] = {
 							},
 							["pets"] = {
 							},
@@ -3219,11 +3222,8 @@ _detalhes_database = {
 							["healing_taken"] = 55493.006278,
 							["fight_component"] = true,
 							["end_time"] = 1488160964,
-							["targets_overheal"] = {
-							},
 							["nome"] = "Fimwack",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[108366] = {
 										["c_amt"] = 0,
@@ -3247,17 +3247,21 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["c_min"] = 0,
 										["n_curado"] = 55493,
-										["m_healed"] = 0,
 										["n_amt"] = 2,
+										["m_healed"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["classe"] = "WARLOCK",
+							["healing_from"] = {
+								["Fimwack"] = true,
+							},
+							["last_event"] = 1488160963,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["last_event"] = 1488160963,
+							["classe"] = "WARLOCK",
 							["start_time"] = 1488160960,
 							["delay"] = 0,
 							["spec"] = 267,
@@ -3265,8 +3269,8 @@ _detalhes_database = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 323,
 					["tipo"] = 7,
+					["combatId"] = 323,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3284,10 +3288,9 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["resource_type"] = 7,
-							["tipo"] = 3,
+							["last_event"] = 1488161009,
 							["received"] = 695010.001619,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[227413] = {
 										["id"] = 227413,
@@ -3314,20 +3317,20 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["last_event"] = 1488161009,
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 323,
 					["tipo"] = 9,
+					["combatId"] = 323,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[157736] = {
 										["uptime"] = 5,
@@ -3339,11 +3342,11 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 18,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[156070] = {
 										["uptime"] = 6,
@@ -3373,6 +3376,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 5,
@@ -3381,19 +3385,19 @@ _detalhes_database = {
 							["spec"] = 267,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[116858] = 1,
 								[196586] = 1,
 								[17962] = 1,
+								[116858] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1488160964,
+							["tipo"] = 4,
 							["nome"] = "Fimwack",
 							["pets"] = {
 								"Lazgup <Fimwack>", -- [1]
 							},
 							["serial"] = "Player-5-0A2F3583",
-							["tipo"] = 4,
+							["last_event"] = 1488160964,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3401,19 +3405,19 @@ _detalhes_database = {
 							["nome"] = "Lazgup <Fimwack>",
 							["pets"] = {
 							},
+							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
+							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
 							["spell_cast"] = {
 								[3110] = 3,
 							},
-							["serial"] = "Pet-0-3777-1220-7275-416-010261F87E",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 323,
 					["tipo"] = 2,
+					["combatId"] = 323,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3437,10 +3441,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -3457,14 +3461,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Fimwack"] = 55493.006278,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -3475,12 +3479,13 @@ _detalhes_database = {
 				["end_time"] = 18713.909,
 				["combat_id"] = 323,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 					["Earthquake Totem"] = 1,
 					["Darkfiend Dreamworg"] = 1,
 				},
 				["data_fim"] = "18:02:44",
-				["data_inicio"] = "18:02:38",
+				["contra"] = "Darkfiend Dreamworg",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3495,16 +3500,15 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 18707.784,
-				["contra"] = "Darkfiend Dreamworg",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						77993.001622, -- [1]
@@ -3525,6 +3529,7 @@ _detalhes_database = {
 						["max_value"] = 241801,
 					},
 				},
+				["data_inicio"] = "18:02:38",
 			}, -- [5]
 		},
 	},
@@ -3533,8 +3538,8 @@ _detalhes_database = {
 		["nextreset"] = 1488401456,
 		["last_version"] = 8,
 	},
-	["combat_counter"] = 461,
-	["last_instance_time"] = 1487918565,
+	["combat_counter"] = 463,
+	["force_font_outline"] = "",
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -3542,8 +3547,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["dps"] = 0,
 			["author"] = "Details! Team",
+			["dps"] = 0,
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -3617,6 +3622,25 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = 1.525878906250e-005,
+			["x"] = 3.05175781250e-005,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -3628,34 +3652,15 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
 			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["font_size"] = 10,
-			["x"] = 3.05175781250e-005,
-			["font_face"] = "Friz Quadrata TT",
-			["y"] = 1.525878906250e-005,
 			["author"] = "Details! Team",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -3666,21 +3671,14 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -3747,16 +3745,24 @@ _detalhes_database = {
 			},
 			["author"] = "Details! Team",
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["last_encounter"] = "Prince Malchezaar",
-	["character_data"] = {
-		["logons"] = 29,
+	["savedbuffs"] = {
 	},
-	["force_font_outline"] = "",
+	["character_data"] = {
+		["logons"] = 31,
+	},
+	["last_instance_time"] = 1487918565,
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -3797,22 +3803,22 @@ _detalhes_database = {
 						["Roar"] = true,
 						["Eredar Riftweaver"] = true,
 						["Hatecoil Slavemaster"] = true,
-						["Darkfiend Tormentor"] = true,
+						["Sharazaan"] = true,
 						["Stinger Wasp"] = true,
 						["Veil Prowler"] = true,
-						["Sharazaan"] = true,
-						["Oublion"] = true,
+						["Felsoul Magus"] = true,
 						["Smolderhide Hunter"] = true,
+						["Darkfiend Dreamworg"] = true,
 						["Smolderhide Warrior"] = true,
 						["Arkethrax"] = true,
-						["Darkfiend Dreamworg"] = true,
+						["Darkfiend Tormentor"] = true,
 						["Tide Behemoth"] = true,
 						["Boss Whalebelly"] = true,
 						["Queen Kraklaa"] = true,
 						["The Crone"] = true,
 						["Morphael"] = true,
 						["Bitterbrine Saltcaster"] = true,
-						["Felsoul Magus"] = true,
+						["Oublion"] = true,
 						["Prince Oceanus"] = true,
 						["Veil Shadowrunner"] = true,
 						["Chaos Spawn"] = true,
@@ -3834,16 +3840,16 @@ _detalhes_database = {
 						["Redcrested Heron"] = 2266741,
 						["Oublion"] = 3472282,
 						["Nightmare Creeper"] = 649399,
-						["Hatecoil Slavemaster"] = 2543526,
+						["Chaos Spawn"] = 671114,
 						["Eredar Riftweaver"] = 2102175,
 						["Roar"] = 887997,
-						["Darkfiend Tormentor"] = 1398865,
+						["Tinhead"] = 667728,
 						["Boss Whalebelly"] = 3234751,
 						["Juvenile Scuttleback"] = 6072,
 						["Stinger Wasp"] = 203154,
 						["Veil Prowler"] = 1994546,
-						["Tinhead"] = 667728,
 						["Smolderhide Hunter"] = 581584,
+						["Darkfiend Tormentor"] = 1398865,
 						["Strawman"] = 825542,
 						["Smolderhide Warrior"] = 1348640,
 						["Arkethrax"] = 2080697,
@@ -3857,9 +3863,8 @@ _detalhes_database = {
 						["Chieftain Graw"] = 787504,
 						["Prince Oceanus"] = 6151421,
 						["Veil Shadowrunner"] = 2686230,
-						["Chaos Spawn"] = 671114,
+						["Hatecoil Slavemaster"] = 2543526,
 					},
-					["delay"] = 0,
 					["pets"] = {
 						"Human Cleric <Fimwack>", -- [1]
 						"Lazgup <Fimwack> <Fimwack>", -- [2]
@@ -3870,16 +3875,18 @@ _detalhes_database = {
 						"Doomguard <Fimwack> <Fimwack>", -- [7]
 						"Unstable Tear <Fimwack> <Fimwack>", -- [8]
 					},
-					["last_dps"] = 0,
+					["classe"] = "WARLOCK",
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 59564349.189863,
-					["tipo"] = 1,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1487919677,
-					["classe"] = "WARLOCK",
-					["total"] = 86338522.189863,
+					["friendlyfire"] = {
+					},
+					["last_dps"] = 0,
 					["nome"] = "Fimwack",
 					["spec"] = 267,
 					["grupo"] = true,
@@ -3906,12 +3913,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
 							[42223] = {
 								["c_amt"] = 52,
@@ -3920,21 +3927,23 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 24972,
 								["targets"] = {
-									["Mak'rana Warrior"] = 287366,
-									["Smolderhide Warrior"] = 176405,
 									["Felguard Invader"] = 1109734,
 									["Bitterbrine Venomer"] = 373864,
 									["Redcrested Heron"] = 389956,
-									["Tide Behemoth"] = 567612,
-									["Stinger Wasp"] = 58168,
-									["Hatecoil Slavemaster"] = 375047,
-									["Bitterbrine Saltcaster"] = 834315,
-									["Smolderhide Hunter"] = 186892,
-									["Eredar Riftweaver"] = 198137,
 									["Chaos Spawn"] = 53406,
+									["Eredar Riftweaver"] = 198137,
+									["Stinger Wasp"] = 58168,
+									["Veil Prowler"] = 493701,
+									["Mak'rana Warrior"] = 287366,
+									["Smolderhide Warrior"] = 176405,
+									["Darkfiend Tormentor"] = 0,
+									["Tide Behemoth"] = 567612,
+									["Smolderhide Hunter"] = 186892,
+									["Bitterbrine Saltcaster"] = 834315,
+									["Hatecoil Slavemaster"] = 375047,
 									["Felsoul Magus"] = 317837,
 									["Veil Shadowrunner"] = 660769,
-									["Veil Prowler"] = 493701,
+									["Darkfiend Dreamworg"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 4214365,
@@ -3945,10 +3954,10 @@ _detalhes_database = {
 								["c_max"] = 46620,
 								["id"] = 42223,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 230,
@@ -3974,10 +3983,10 @@ _detalhes_database = {
 								["c_max"] = 15601,
 								["id"] = 234153,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 14,
@@ -4008,26 +4017,26 @@ _detalhes_database = {
 									["Chaos Spawn"] = 95098,
 									["Eredar Riftweaver"] = 153556,
 									["Hatecoil Slavemaster"] = 167398,
-									["Darkfiend Tormentor"] = 59890,
-									["Roar"] = 887997,
+									["Prince Oceanus"] = 130465,
+									["Felsoul Magus"] = 59246,
 									["Stinger Wasp"] = 38386,
 									["Veil Prowler"] = 123206,
-									["Boss Whalebelly"] = 65601,
 									["Smolderhide Hunter"] = 31573,
+									["Darkfiend Dreamworg"] = 130656,
 									["Strawman"] = 825542,
 									["Smolderhide Warrior"] = 58848,
 									["Arkethrax"] = 34747,
-									["Darkfiend Dreamworg"] = 130656,
+									["Darkfiend Tormentor"] = 59890,
 									["Tide Behemoth"] = 230114,
 									["Bitterbrine Saltcaster"] = 213612,
 									["Queen Kraklaa"] = 66769,
 									["The Crone"] = 846919,
 									["Morphael"] = 64885,
-									["Felsoul Magus"] = 59246,
+									["Boss Whalebelly"] = 65601,
 									["Chieftain Graw"] = 33856,
-									["Prince Oceanus"] = 130465,
-									["Veil Shadowrunner"] = 229865,
 									["Tinhead"] = 667728,
+									["Veil Shadowrunner"] = 229865,
+									["Roar"] = 887997,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 5459029,
@@ -4038,10 +4047,10 @@ _detalhes_database = {
 								["c_max"] = 77479,
 								["id"] = 348,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 73,
@@ -4055,8 +4064,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 34355,
 								["targets"] = {
-									["Darkfiend Tormentor"] = 136406,
-									["Sharazaan"] = 132588,
+									["Bitterbrine Saltcaster"] = 646087,
+									["Flog the Captain-Eater"] = 340210,
 									["Narashi Spitescale"] = 50541,
 									["Boss Whalebelly"] = 236285,
 									["Bitterbrine Venomer"] = 391023,
@@ -4064,25 +4073,25 @@ _detalhes_database = {
 									["Oublion"] = 194270,
 									["Nightmare Creeper"] = 19250,
 									["Hatecoil Slavemaster"] = 264803,
-									["Bitterbrine Saltcaster"] = 646087,
 									["Eredar Riftweaver"] = 233395,
 									["Felsoul Magus"] = 141649,
-									["Smolderhide Hunter"] = 124145,
-									["Stinger Wasp"] = 17011,
-									["Flog the Captain-Eater"] = 340210,
-									["Cove Skrog"] = 458878,
-									["Mak'rana Warrior"] = 485716,
+									["Ooker Dooker"] = 111644,
 									["Felguard Invader"] = 503503,
+									["Cove Skrog"] = 458878,
+									["Stinger Wasp"] = 17011,
 									["Veil Prowler"] = 189242,
+									["Mak'rana Warrior"] = 485716,
+									["Darkfiend Dreamworg"] = 110888,
+									["Sharazaan"] = 132588,
 									["Smolderhide Warrior"] = 115104,
 									["Arkethrax"] = 76970,
-									["Darkfiend Dreamworg"] = 110888,
+									["Darkfiend Tormentor"] = 136406,
 									["Tide Behemoth"] = 413331,
 									["Smolderhide Chanter"] = 156387,
 									["Queen Kraklaa"] = 123180,
 									["Chaos Spawn"] = 99773,
 									["Morphael"] = 186905,
-									["Ooker Dooker"] = 111644,
+									["Smolderhide Hunter"] = 124145,
 									["Chieftain Graw"] = 91799,
 									["Prince Oceanus"] = 384647,
 									["Veil Shadowrunner"] = 254354,
@@ -4098,9 +4107,9 @@ _detalhes_database = {
 								["id"] = 157736,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 5,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4122,21 +4131,22 @@ _detalhes_database = {
 									["Oublion"] = 203743,
 									["Hatecoil Slavemaster"] = 69672,
 									["Bitterbrine Saltcaster"] = 175306,
+									["Eredar Riftweaver"] = 189605,
 									["Flog the Captain-Eater"] = 277934,
 									["Cove Skrog"] = 305295,
 									["Mak'rana Warrior"] = 201390,
-									["Sharazaan"] = 119041,
-									["Eredar Riftweaver"] = 189605,
+									["Darkfiend Tormentor"] = 114137,
+									["Ooker Dooker"] = 58323,
 									["Smolderhide Warrior"] = 110063,
 									["Arkethrax"] = 51321,
-									["Darkfiend Tormentor"] = 114137,
+									["Darkfiend Dreamworg"] = 0,
 									["Tide Behemoth"] = 148196,
 									["Smolderhide Chanter"] = 228514,
 									["Queen Kraklaa"] = 165539,
-									["Felguard Invader"] = 151159,
-									["Morphael"] = 196218,
 									["Veil Prowler"] = 130308,
-									["Ooker Dooker"] = 58323,
+									["Morphael"] = 196218,
+									["Felguard Invader"] = 151159,
+									["Sharazaan"] = 119041,
 									["Prince Oceanus"] = 527336,
 									["Veil Shadowrunner"] = 50098,
 									["Chief Bitterbrine"] = 123990,
@@ -4150,10 +4160,10 @@ _detalhes_database = {
 								["c_max"] = 150447,
 								["id"] = 17962,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 39,
@@ -4186,7 +4196,7 @@ _detalhes_database = {
 									["Veil Prowler"] = 478088,
 									["Dark Manifestation <[*] Unleashed Madness>"] = 154763,
 									["Chaos Spawn"] = 193749,
-									["Boss Whalebelly"] = 563575,
+									["Felsoul Magus"] = 336027,
 									["Smolderhide Warrior"] = 224155,
 									["Arkethrax"] = 304026,
 									["Darkfiend Dreamworg"] = 254144,
@@ -4195,7 +4205,7 @@ _detalhes_database = {
 									["Queen Kraklaa"] = 269421,
 									["Bitterbrine Saltcaster"] = 814465,
 									["Morphael"] = 566730,
-									["Felsoul Magus"] = 336027,
+									["Boss Whalebelly"] = 563575,
 									["Chieftain Graw"] = 50103,
 									["Prince Oceanus"] = 1076896,
 									["Veil Shadowrunner"] = 649045,
@@ -4211,9 +4221,9 @@ _detalhes_database = {
 								["id"] = 196448,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 6,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4233,12 +4243,12 @@ _detalhes_database = {
 									["Redcrested Heron"] = 417615,
 									["Oublion"] = 280241,
 									["Bitterbrine Saltcaster"] = 250723,
-									["Ooker Dooker"] = 463181,
+									["Felguard Invader"] = 694592,
 									["Flog the Captain-Eater"] = 733700,
 									["Cove Skrog"] = 1416670,
 									["Mak'rana Warrior"] = 218761,
-									["Felguard Invader"] = 694592,
 									["Darkfiend Tormentor"] = 205162,
+									["Ooker Dooker"] = 463181,
 									["Smolderhide Warrior"] = 468495,
 									["Arkethrax"] = 474793,
 									["Darkfiend Dreamworg"] = 466589,
@@ -4262,10 +4272,10 @@ _detalhes_database = {
 								["c_max"] = 348990,
 								["id"] = 116858,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -4291,12 +4301,12 @@ _detalhes_database = {
 									["Tide Behemoth"] = 643363,
 									["Smolderhide Chanter"] = 67128,
 									["Queen Kraklaa"] = 381965,
-									["Felsoul Magus"] = 113403,
-									["Morphael"] = 233377,
 									["Sharazaan"] = 64158,
+									["Morphael"] = 233377,
+									["Felsoul Magus"] = 113403,
 									["Dorothee"] = 1704709,
-									["Prince Oceanus"] = 216358,
 									["Ooker Dooker"] = 214728,
+									["Prince Oceanus"] = 216358,
 									["Chief Bitterbrine"] = 181151,
 								},
 								["m_dmg"] = 0,
@@ -4309,9 +4319,9 @@ _detalhes_database = {
 								["id"] = 29722,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 3,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4325,11 +4335,10 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 15672229.189863,
 					["start_time"] = 1487918955,
 					["serial"] = "Player-5-0A2F3583",
-					["damage_taken"] = 15672229.189863,
+					["total"] = 86338522.189863,
 				}, -- [1]
 				{
 					["flag_original"] = 2632,
@@ -4339,17 +4348,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
-					["monster"] = true,
+					["dps_started"] = false,
+					["nome"] = "Chess Chest Bunny",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.019269,
 					["delay"] = 0,
-					["dps_started"] = false,
+					["monster"] = true,
 					["end_time"] = 1487919762,
-					["nome"] = "Chess Chest Bunny",
-					["damage_taken"] = 0.019269,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -4372,10 +4381,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4391,11 +4400,11 @@ _detalhes_database = {
 					["total"] = 0.019269,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["on_hold"] = false,
-					["start_time"] = 1487919759,
-					["serial"] = "Creature-0-3884-532-66-25213-00002FDA26",
 					["friendlyfire"] = {
 					},
+					["start_time"] = 1487919759,
+					["serial"] = "Creature-0-3884-532-66-25213-00002FDA26",
+					["damage_taken"] = 0.019269,
 				}, -- [2]
 				{
 					["flag_original"] = 2584,
@@ -4437,10 +4446,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 37459,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4481,11 +4490,11 @@ _detalhes_database = {
 						["Boss Whalebelly"] = true,
 						["Redcrested Heron"] = true,
 						["Smolderhide Warrior"] = true,
-						["Felsoul Magus"] = true,
-						["Queen Kraklaa"] = true,
-						["Felguard Invader"] = true,
-						["Sharazaan"] = true,
 						["Veil Shadowrunner"] = true,
+						["Queen Kraklaa"] = true,
+						["Felsoul Magus"] = true,
+						["Sharazaan"] = true,
+						["Felguard Invader"] = true,
 						["Ooker Dooker"] = true,
 						["Prince Oceanus"] = true,
 						["Flog the Captain-Eater"] = true,
@@ -4500,22 +4509,22 @@ _detalhes_database = {
 						["Nightmare Creeper"] = 59417,
 						["Hatecoil Slavemaster"] = 250940,
 						["Bitterbrine Saltcaster"] = 136368,
-						["Sharazaan"] = 215864,
-						["Darkfiend Tormentor"] = 165426,
 						["Eredar Riftweaver"] = 188668,
+						["Felguard Invader"] = 470091,
 						["Felsoul Magus"] = 180343,
 						["Flog the Captain-Eater"] = 519976,
-						["Cove Skrog"] = 673783,
 						["Smolderhide Hunter"] = 58174,
-						["Felguard Invader"] = 470091,
+						["Cove Skrog"] = 673783,
 						["Veil Prowler"] = 362957,
+						["Chaos Spawn"] = 140680,
+						["Queen Kraklaa"] = 222198,
 						["Smolderhide Warrior"] = 195570,
 						["Arkethrax"] = 193487,
 						["Darkfiend Dreamworg"] = 247809,
 						["Tide Behemoth"] = 446850,
 						["Smolderhide Chanter"] = 113995,
-						["Queen Kraklaa"] = 222198,
-						["Chaos Spawn"] = 140680,
+						["Sharazaan"] = 215864,
+						["Darkfiend Tormentor"] = 165426,
 						["Morphael"] = 303284,
 						["Ooker Dooker"] = 161141,
 						["Chieftain Graw"] = 145435,
@@ -4523,23 +4532,20 @@ _detalhes_database = {
 						["Veil Shadowrunner"] = 108635,
 						["Chief Bitterbrine"] = 201976,
 					},
-					["friendlyfire_total"] = 0,
 					["pets"] = {
 					},
-					["total"] = 7220642.153945,
-					["classe"] = "PET",
+					["friendlyfire"] = {
+					},
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 7220642.153945,
-					["friendlyfire"] = {
-					},
+					["classe"] = "PET",
 					["dps_started"] = false,
-					["end_time"] = 1488161201,
+					["total"] = 7220642.153945,
 					["serial"] = "Pet-0-3777-1220-8351-416-040261F87E",
 					["ownerName"] = "Fimwack",
 					["nome"] = "Lazgup <Fimwack> <Fimwack>",
-					["on_hold"] = false,
-					["last_dps"] = 0,
 					["spells"] = {
 						["_ActorTable"] = {
 							[3110] = {
@@ -4557,22 +4563,22 @@ _detalhes_database = {
 									["Nightmare Creeper"] = 59417,
 									["Hatecoil Slavemaster"] = 250940,
 									["Bitterbrine Saltcaster"] = 136368,
-									["Sharazaan"] = 215864,
-									["Darkfiend Tormentor"] = 165426,
 									["Eredar Riftweaver"] = 188668,
+									["Felguard Invader"] = 470091,
 									["Felsoul Magus"] = 180343,
 									["Flog the Captain-Eater"] = 519976,
-									["Cove Skrog"] = 673783,
 									["Smolderhide Hunter"] = 58174,
-									["Felguard Invader"] = 470091,
+									["Cove Skrog"] = 673783,
 									["Veil Prowler"] = 362957,
+									["Chaos Spawn"] = 140680,
+									["Queen Kraklaa"] = 222198,
 									["Smolderhide Warrior"] = 195570,
 									["Arkethrax"] = 193487,
 									["Darkfiend Dreamworg"] = 247809,
 									["Tide Behemoth"] = 446850,
 									["Smolderhide Chanter"] = 113995,
-									["Queen Kraklaa"] = 222198,
-									["Chaos Spawn"] = 140680,
+									["Sharazaan"] = 215864,
+									["Darkfiend Tormentor"] = 165426,
 									["Morphael"] = 303284,
 									["Ooker Dooker"] = 161141,
 									["Chieftain Graw"] = 145435,
@@ -4590,9 +4596,9 @@ _detalhes_database = {
 								["id"] = 3110,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 1,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4603,24 +4609,26 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["custom"] = 0,
+					["on_hold"] = false,
 					["tipo"] = 1,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["damage_taken"] = 337101.153945,
 					["start_time"] = 1488161188,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["end_time"] = 1488161201,
 				}, -- [4]
 				{
 					["flag_original"] = 8465,
-					["delay"] = 0,
 					["damage_from"] = {
 						["Queen Kraklaa"] = true,
 						["Bitterbrine Saltcaster"] = true,
 						["Boss Whalebelly"] = true,
-						["Veil Shadowrunner"] = true,
-						["Prince Oceanus"] = true,
 						["Flog the Captain-Eater"] = true,
 						["Ooker Dooker"] = true,
+						["Veil Shadowrunner"] = true,
+						["Prince Oceanus"] = true,
 					},
 					["targets"] = {
 						["Narashi Spitescale"] = 22253,
@@ -4638,9 +4646,9 @@ _detalhes_database = {
 						["Tide Behemoth"] = 267969,
 						["Felguard Invader"] = 353831,
 						["Queen Kraklaa"] = 207502,
-						["Chaos Spawn"] = 88408,
-						["Sharazaan"] = 231793,
 						["Ooker Dooker"] = 155049,
+						["Sharazaan"] = 231793,
+						["Chaos Spawn"] = 88408,
 						["Veil Prowler"] = 217044,
 						["Prince Oceanus"] = 461090,
 						["Veil Shadowrunner"] = 51262,
@@ -4648,16 +4656,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["total"] = 4598147.103945,
-					["tipo"] = 1,
+					["last_dps"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4598147.103945,
 					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
-					["end_time"] = 1488159491,
-					["last_dps"] = 0,
+					["total"] = 4598147.103945,
+					["delay"] = 0,
 					["ownerName"] = "Fimwack",
 					["nome"] = "Ritssyn Flamescowl <Fimwack> <Fimwack>",
 					["spells"] = {
@@ -4683,9 +4690,9 @@ _detalhes_database = {
 									["Eredar Riftweaver"] = 17421,
 									["Queen Kraklaa"] = 75841,
 									["Felguard Invader"] = 158599,
-									["Sharazaan"] = 117693,
-									["Veil Prowler"] = 79438,
 									["Ooker Dooker"] = 75553,
+									["Veil Prowler"] = 79438,
+									["Sharazaan"] = 117693,
 									["Prince Oceanus"] = 234546,
 									["Veil Shadowrunner"] = 27583,
 									["Chief Bitterbrine"] = 50398,
@@ -4699,10 +4706,10 @@ _detalhes_database = {
 								["c_max"] = 34703,
 								["id"] = 216136,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 77,
@@ -4729,11 +4736,11 @@ _detalhes_database = {
 									["Chaos Spawn"] = 14353,
 									["Queen Kraklaa"] = 19648,
 									["Felguard Invader"] = 36751,
-									["Eredar Riftweaver"] = 24406,
+									["Prince Oceanus"] = 73022,
 									["Sharazaan"] = 34874,
 									["Veil Prowler"] = 46124,
-									["Prince Oceanus"] = 73022,
 									["Ooker Dooker"] = 22299,
+									["Eredar Riftweaver"] = 24406,
 									["Chief Bitterbrine"] = 22480,
 								},
 								["m_dmg"] = 0,
@@ -4746,9 +4753,9 @@ _detalhes_database = {
 								["id"] = 216139,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 4,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4775,11 +4782,11 @@ _detalhes_database = {
 									["Chaos Spawn"] = 52632,
 									["Queen Kraklaa"] = 54884,
 									["Eredar Riftweaver"] = 30052,
-									["Felguard Invader"] = 108128,
+									["Prince Oceanus"] = 54222,
 									["Sharazaan"] = 30052,
 									["Veil Prowler"] = 56368,
-									["Prince Oceanus"] = 54222,
 									["Ooker Dooker"] = 26018,
+									["Felguard Invader"] = 108128,
 									["Chief Bitterbrine"] = 29902,
 								},
 								["m_dmg"] = 0,
@@ -4792,9 +4799,9 @@ _detalhes_database = {
 								["id"] = 216095,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 1,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4822,8 +4829,8 @@ _detalhes_database = {
 									["Tide Behemoth"] = 72676,
 									["Eredar Riftweaver"] = 31966,
 									["Queen Kraklaa"] = 57129,
-									["Chaos Spawn"] = 21423,
 									["Ooker Dooker"] = 31179,
+									["Chaos Spawn"] = 21423,
 									["Sharazaan"] = 49174,
 									["Veil Prowler"] = 35114,
 									["Prince Oceanus"] = 99300,
@@ -4840,9 +4847,9 @@ _detalhes_database = {
 								["id"] = 216145,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 6,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -4853,6 +4860,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
+					["end_time"] = 1488159491,
+					["tipo"] = 1,
 					["damage_taken"] = 40875.103945,
 					["custom"] = 0,
 					["last_event"] = 0,
@@ -4868,25 +4877,24 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["Hatecoil Slavemaster"] = 94305,
-						["Darkfiend Tormentor"] = 106041,
-						["Redcrested Heron"] = 96642,
 						["Ooker Dooker"] = 514870,
 						["Prince Oceanus"] = 378355,
+						["Darkfiend Tormentor"] = 106041,
+						["Redcrested Heron"] = 96642,
 						["Flog the Captain-Eater"] = 284640,
 						["Cove Skrog"] = 255496,
 					},
-					["friendlyfire_total"] = 0,
 					["pets"] = {
 					},
-					["total"] = 1730349.043065,
-					["classe"] = "PET",
+					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1730349.043065,
-					["last_dps"] = 0,
+					["classe"] = "PET",
 					["dps_started"] = false,
-					["end_time"] = 1488161052,
-					["last_event"] = 0,
+					["total"] = 1730349.043065,
+					["serial"] = "Creature-0-3777-1220-8351-99887-00002FDE84",
 					["ownerName"] = "Fimwack",
 					["nome"] = "Shadowy Tear <Fimwack> <Fimwack>",
 					["spells"] = {
@@ -4899,10 +4907,10 @@ _detalhes_database = {
 								["n_max"] = 40652,
 								["targets"] = {
 									["Hatecoil Slavemaster"] = 94305,
-									["Darkfiend Tormentor"] = 106041,
-									["Redcrested Heron"] = 96642,
 									["Ooker Dooker"] = 514870,
 									["Prince Oceanus"] = 378355,
+									["Darkfiend Tormentor"] = 106041,
+									["Redcrested Heron"] = 96642,
 									["Flog the Captain-Eater"] = 284640,
 									["Cove Skrog"] = 255496,
 								},
@@ -4915,10 +4923,10 @@ _detalhes_database = {
 								["c_max"] = 81305,
 								["id"] = 196657,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 34,
@@ -4929,49 +4937,48 @@ _detalhes_database = {
 						["tipo"] = 2,
 					},
 					["on_hold"] = false,
+					["last_event"] = 0,
 					["damage_taken"] = 0.043065,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["friendlyfire"] = {
 					},
 					["start_time"] = 1488161043,
-					["serial"] = "Creature-0-3777-1220-8351-99887-00002FDE84",
 					["delay"] = 0,
+					["end_time"] = 1488161052,
 				}, -- [6]
 				{
 					["flag_original"] = 8465,
-					["on_hold"] = false,
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Felsoul Magus"] = 203503,
+						["Chief Bitterbrine"] = 248382,
 						["Narashi Spitescale"] = 255105,
 						["Felguard Invader"] = 217543,
 						["Arkethrax"] = 219614,
-						["Hatecoil Slavemaster"] = 186449,
+						["Veil Shadowrunner"] = 231913,
 						["Tide Behemoth"] = 196444,
 						["Nightmare Creeper"] = 455692,
-						["Sharazaan"] = 255105,
+						["Hatecoil Slavemaster"] = 186449,
 						["Eredar Riftweaver"] = 217543,
 						["Morphael"] = 211456,
-						["Veil Shadowrunner"] = 231913,
-						["Chief Bitterbrine"] = 248382,
+						["Felsoul Magus"] = 203503,
+						["Sharazaan"] = 255105,
 						["Ooker Dooker"] = 205347,
 						["Flog the Captain-Eater"] = 238619,
 						["Cove Skrog"] = 209651,
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1488161201,
-					["serial"] = "Creature-0-3777-1220-8351-108493-00002FDE87",
+					["on_hold"] = false,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3552366.085659,
 					["classe"] = "PET",
 					["dps_started"] = false,
-					["total"] = 3552366.085659,
-					["damage_taken"] = 0.085659,
+					["end_time"] = 1488161201,
+					["serial"] = "Creature-0-3777-1220-8351-108493-00002FDE87",
 					["ownerName"] = "Fimwack",
 					["nome"] = "Chaos Tear <Fimwack> <Fimwack>",
 					["spells"] = {
@@ -4983,18 +4990,18 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Felsoul Magus"] = 203503,
+									["Chief Bitterbrine"] = 248382,
 									["Narashi Spitescale"] = 255105,
 									["Felguard Invader"] = 217543,
 									["Arkethrax"] = 219614,
-									["Hatecoil Slavemaster"] = 186449,
+									["Veil Shadowrunner"] = 231913,
 									["Tide Behemoth"] = 196444,
 									["Nightmare Creeper"] = 455692,
-									["Sharazaan"] = 255105,
+									["Hatecoil Slavemaster"] = 186449,
 									["Eredar Riftweaver"] = 217543,
 									["Morphael"] = 211456,
-									["Veil Shadowrunner"] = 231913,
-									["Chief Bitterbrine"] = 248382,
+									["Felsoul Magus"] = 203503,
+									["Sharazaan"] = 255105,
 									["Ooker Dooker"] = 205347,
 									["Flog the Captain-Eater"] = 238619,
 									["Cove Skrog"] = 209651,
@@ -5008,10 +5015,10 @@ _detalhes_database = {
 								["c_max"] = 255105,
 								["id"] = 215279,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -5021,19 +5028,19 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
+					["damage_taken"] = 0.085659,
+					["tipo"] = 1,
 					["last_dps"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
 					["start_time"] = 1488161188,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["total"] = 3552366.085659,
 				}, -- [7]
 				{
 					["flag_original"] = 8465,
-					["friendlyfire"] = {
-					},
 					["damage_from"] = {
 						["Queen Kraklaa"] = true,
 						["Morphael"] = true,
@@ -5054,16 +5061,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1488161119,
-					["delay"] = 0,
+					["friendlyfire"] = {
+					},
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3480157.041436,
 					["classe"] = "PET",
 					["dps_started"] = false,
-					["total"] = 3480157.041436,
-					["last_event"] = 0,
+					["end_time"] = 1488161119,
+					["delay"] = 0,
 					["ownerName"] = "Fimwack",
 					["nome"] = "Imp <Fimwack> <Fimwack>",
 					["spells"] = {
@@ -5094,9 +5101,9 @@ _detalhes_database = {
 								["id"] = 3110,
 								["r_dmg"] = 0,
 								["IMMUNE"] = 1,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -5107,6 +5114,8 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
+					["total"] = 3480157.041436,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
@@ -5128,19 +5137,17 @@ _detalhes_database = {
 						["Oublion"] = 160968,
 						["Flog the Captain-Eater"] = 405660,
 					},
-					["last_dps"] = 0,
 					["pets"] = {
 					},
-					["end_time"] = 1488159430,
+					["last_dps"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1756096.027135,
 					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
-					["total"] = 1756096.027135,
-					["friendlyfire"] = {
-					},
+					["end_time"] = 1488159430,
+					["serial"] = "Creature-0-3777-1220-8351-11859-00002FE06F",
 					["ownerName"] = "Fimwack",
 					["nome"] = "Doomguard <Fimwack> <Fimwack>",
 					["spells"] = {
@@ -5167,10 +5174,10 @@ _detalhes_database = {
 								["c_max"] = 116265,
 								["id"] = 85692,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
@@ -5180,18 +5187,19 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 16432.027135,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
+					["damage_taken"] = 16432.027135,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488159418,
-					["serial"] = "Creature-0-3777-1220-8351-11859-00002FE06F",
 					["delay"] = 0,
+					["total"] = 1756096.027135,
 				}, -- [9]
 				{
 					["flag_original"] = 8465,
-					["on_hold"] = false,
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -5208,19 +5216,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_event"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2517225.06435,
-					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1488161119,
 					["serial"] = "Creature-0-3777-1220-8351-94584-00002FE0C3",
 					["ownerName"] = "Fimwack",
 					["nome"] = "Unstable Tear <Fimwack> <Fimwack>",
-					["total"] = 2517225.06435,
 					["spells"] = {
 						["_ActorTable"] = {
 							[187394] = {
@@ -5250,10 +5256,10 @@ _detalhes_database = {
 								["c_max"] = 22641,
 								["id"] = 187394,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 170,
@@ -5263,6 +5269,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
+					["friendlyfire_total"] = 0,
+					["last_event"] = 0,
+					["total"] = 2517225.06435,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 0.06435,
@@ -5278,35 +5287,33 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
+					["totalabsorb"] = 0.154312,
+					["last_hps"] = 0,
 					["healing_from"] = {
 						["Floranasia"] = true,
 						["Fimwack"] = true,
 					},
+					["targets"] = {
+						["Fimwack"] = 0,
+						["Lazgup <Fimwack>"] = 312509,
+					},
+					["serial"] = "Player-5-0A2F3583",
 					["pets"] = {
 						"Lazgup <Fimwack> <Fimwack>", -- [1]
 						"Doomguard <Fimwack> <Fimwack>", -- [2]
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["targets_overheal"] = {
+						["Lazgup <Fimwack>"] = 1,
+						["Fimwack"] = 22,
+					},
+					["classe"] = "WARLOCK",
 					["totalover"] = 1841272.154312,
 					["total_without_pet"] = 13020652.154312,
-					["total"] = 13020652.154312,
-					["spec"] = 267,
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["serial"] = "Player-5-0A2F3583",
-					["totalabsorb"] = 0.154312,
-					["last_hps"] = 0,
-					["targets"] = {
-						["Fimwack"] = 8479034,
-						["Lazgup <Fimwack>"] = 312509,
-					},
 					["totalover_without_pet"] = 0.154312,
 					["healing_taken"] = 12751746.154312,
 					["fight_component"] = true,
-					["end_time"] = 1487919677,
-					["nome"] = "Fimwack",
+					["total"] = 13020652.154312,
 					["spells"] = {
 						["_ActorTable"] = {
 							[77220] = {
@@ -5329,8 +5336,8 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["n_amt"] = 106,
 								["m_healed"] = 0,
+								["n_amt"] = 106,
 								["n_curado"] = 206382,
 								["c_min"] = 0,
 								["absorbed"] = 0,
@@ -5355,8 +5362,8 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["n_amt"] = 16,
 								["m_healed"] = 0,
+								["n_amt"] = 16,
 								["n_curado"] = 800609,
 								["c_min"] = 0,
 								["absorbed"] = 0,
@@ -5384,8 +5391,8 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = -23,
 								["m_amt"] = 0,
-								["n_amt"] = 408,
 								["m_healed"] = 0,
+								["n_amt"] = 408,
 								["n_curado"] = 11660719,
 								["c_min"] = -1,
 								["absorbed"] = 0,
@@ -5410,8 +5417,8 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["n_amt"] = 1,
 								["m_healed"] = 0,
+								["n_amt"] = 1,
 								["n_curado"] = 352942,
 								["c_min"] = 0,
 								["absorbed"] = 0,
@@ -5419,19 +5426,21 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["grupo"] = true,
-					["classe"] = "WARLOCK",
-					["targets_overheal"] = {
-						["Lazgup <Fimwack>"] = 1,
-						["Fimwack"] = 22,
-					},
-					["custom"] = 0,
-					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
+					["nome"] = "Fimwack",
 					["targets_absorbs"] = {
 					},
+					["grupo"] = true,
+					["end_time"] = 1487919677,
+					["heal_enemy"] = {
+					},
+					["spec"] = 267,
+					["custom"] = 0,
+					["tipo"] = 2,
+					["on_hold"] = false,
 					["start_time"] = 1487919071,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -5442,7 +5451,8 @@ _detalhes_database = {
 					},
 					["targets"] = {
 					},
-					["delay"] = 0,
+					["targets_absorbs"] = {
+					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
@@ -5462,12 +5472,11 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["classe"] = "PET",
+					["delay"] = 0,
 					["total"] = 0.018212,
 					["heal_enemy"] = {
 					},
-					["targets_absorbs"] = {
-					},
+					["classe"] = "PET",
 					["custom"] = 0,
 					["tipo"] = 2,
 					["on_hold"] = false,
@@ -5481,9 +5490,8 @@ _detalhes_database = {
 					["last_hps"] = 0,
 					["healing_from"] = {
 					},
+					["serial"] = "Creature-0-3777-1220-8351-11859-00002FE06F",
 					["targets"] = {
-					},
-					["targets_absorbs"] = {
 					},
 					["pets"] = {
 					},
@@ -5491,9 +5499,16 @@ _detalhes_database = {
 					["targets_overheal"] = {
 						["Doomguard <Fimwack>"] = 1841249,
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["totalover"] = 1841249.022104,
 					["total_without_pet"] = 0.022104,
+					["targets_absorbs"] = {
+					},
+					["iniciar_hps"] = false,
+					["end_time"] = 1488159430,
+					["heal_enemy_amt"] = 0,
+					["ownerName"] = "Fimwack",
+					["nome"] = "Doomguard <Fimwack> <Fimwack>",
 					["spells"] = {
 						["_ActorTable"] = {
 							[22987] = {
@@ -5517,8 +5532,8 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["n_amt"] = 3,
 								["m_healed"] = 0,
+								["n_amt"] = 3,
 								["n_curado"] = 0,
 								["c_min"] = 0,
 								["absorbed"] = 0,
@@ -5526,22 +5541,16 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["iniciar_hps"] = false,
-					["classe"] = "PET",
-					["total"] = 0.022104,
 					["healing_taken"] = 0.022104,
-					["ownerName"] = "Fimwack",
-					["nome"] = "Doomguard <Fimwack> <Fimwack>",
-					["end_time"] = 1488159430,
 					["heal_enemy"] = {
 					},
-					["serial"] = "Creature-0-3777-1220-8351-11859-00002FE06F",
+					["total"] = 0.022104,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488159426,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [3]
 			},
 		}, -- [2]
@@ -5550,9 +5559,9 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 157.207791,
+					["resource"] = 179.234909,
 					["targets"] = {
-						["Fimwack"] = 13427820,
+						["Fimwack"] = 0,
 					},
 					["pets"] = {
 					},
@@ -5564,7 +5573,7 @@ _detalhes_database = {
 					["spec"] = 267,
 					["grupo"] = true,
 					["received"] = 19271070.177225,
-					["tipo"] = 3,
+					["last_event"] = 0,
 					["resource_type"] = 7,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -5572,7 +5581,7 @@ _detalhes_database = {
 								["id"] = 5740,
 								["total"] = 4667250,
 								["targets"] = {
-									["Fimwack"] = 3822000,
+									["Fimwack"] = 0,
 								},
 								["counter"] = 16,
 							},
@@ -5580,7 +5589,7 @@ _detalhes_database = {
 								["id"] = 116858,
 								["total"] = 14369250,
 								["targets"] = {
-									["Fimwack"] = 9371250,
+									["Fimwack"] = 0,
 								},
 								["counter"] = 48,
 							},
@@ -5588,7 +5597,7 @@ _detalhes_database = {
 								["id"] = 227413,
 								["total"] = 234570,
 								["targets"] = {
-									["Fimwack"] = 234570,
+									["Fimwack"] = 0,
 								},
 								["counter"] = 7,
 							},
@@ -5596,7 +5605,7 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["serial"] = "Player-5-0A2F3583",
-					["last_event"] = 0,
+					["tipo"] = 3,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -5606,7 +5615,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["cc_break_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[196448] = {
 								["cc_break_oque"] = {
@@ -5621,6 +5629,15 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
+					},
+					["dispell"] = 1.003852,
+					["cooldowns_defensive"] = 2.008663,
+					["pets"] = {
+						"Ritssyn Flamescowl <Fimwack> <Fimwack>", -- [1]
+						"Lazgup <Fimwack> <Fimwack>", -- [2]
+						"Imp <Fimwack> <Fimwack>", -- [3]
+						"Doomguard <Fimwack> <Fimwack>", -- [4]
 					},
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -5657,6 +5674,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[80240] = {
+								["uptime"] = 13,
+								["id"] = 80240,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[5740] = {
 								["uptime"] = 103,
 								["actived_at"] = 1488158433,
@@ -5666,24 +5691,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[80240] = {
-								["uptime"] = 13,
-								["id"] = 80240,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 						},
 						["tipo"] = 9,
 					},
-					["dispell"] = 1.003852,
-					["cooldowns_defensive"] = 2.008663,
-					["pets"] = {
-						"Ritssyn Flamescowl <Fimwack> <Fimwack>", -- [1]
-						"Lazgup <Fimwack> <Fimwack>", -- [2]
-						"Imp <Fimwack> <Fimwack>", -- [3]
-						"Doomguard <Fimwack> <Fimwack>", -- [4]
+					["debuff_uptime_targets"] = {
+					},
+					["classe"] = "WARLOCK",
+					["cooldowns_defensive_targets"] = {
+						["Fimwack"] = 2,
 					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -5779,18 +5794,17 @@ _detalhes_database = {
 							},
 							[23225] = {
 								["uptime"] = 0,
-								["activedamt"] = 1,
-								["id"] = 23225,
 								["actived_at"] = 1488159457,
+								["id"] = 23225,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[84751] = {
-								["uptime"] = 0,
-								["activedamt"] = 1,
-								["id"] = 84751,
-								["actived_at"] = 1488159123,
+							[156070] = {
+								["uptime"] = 852,
+								["id"] = 156070,
+								["activedamt"] = 38,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -5803,10 +5817,11 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[156070] = {
-								["uptime"] = 852,
-								["id"] = 156070,
-								["activedamt"] = 38,
+							[84751] = {
+								["uptime"] = 0,
+								["actived_at"] = 1488159123,
+								["id"] = 84751,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -5840,30 +5855,22 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["buff_uptime"] = 3182,
-					["classe"] = "WARLOCK",
-					["cooldowns_defensive_targets"] = {
-						["Fimwack"] = 2,
-					},
-					["dispell_oque"] = {
-						[182701] = 1,
-					},
 					["dispell_spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 9,
 					},
-					["last_event"] = 0,
+					["buff_uptime"] = 3182,
 					["fight_component"] = true,
 					["debuff_uptime"] = 738,
 					["cc_break"] = 2.002143,
+					["serial"] = "Player-5-0A2F3583",
+					["nome"] = "Fimwack",
+					["spec"] = 267,
+					["grupo"] = true,
 					["dispell_targets"] = {
 						["Fimwack"] = 1,
 					},
-					["buff_uptime_targets"] = {
-					},
-					["spec"] = 267,
-					["grupo"] = true,
 					["spell_cast"] = {
 						[234153] = 5,
 						[348] = 71,
@@ -5886,15 +5893,14 @@ _detalhes_database = {
 					["cc_break_oque"] = {
 						[105421] = 2,
 					},
-					["nome"] = "Fimwack",
 					["tipo"] = 4,
-					["debuff_uptime_targets"] = {
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
 					},
 					["cc_break_targets"] = {
 						["Morphael"] = 1,
 						["Dark Manifestation"] = 1,
 					},
-					["serial"] = "Player-5-0A2F3583",
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[104773] = {
@@ -5907,23 +5913,26 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
+					["dispell_oque"] = {
+						[182701] = 1,
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 8465,
+					["ownerName"] = "Fimwack",
+					["nome"] = "Ritssyn Flamescowl <Fimwack> <Fimwack>",
 					["spell_cast"] = {
 						[216136] = 103,
 						[216145] = 50,
 						[216095] = 30,
 						[216139] = 39,
 					},
-					["ownerName"] = "Fimwack",
-					["nome"] = "Ritssyn Flamescowl <Fimwack> <Fimwack>",
+					["tipo"] = 4,
+					["classe"] = "PET",
 					["pets"] = {
 					},
-					["last_event"] = 0,
-					["classe"] = "PET",
 					["serial"] = "Creature-0-3777-1220-8351-108799-00002FDDDC",
-					["tipo"] = 4,
+					["last_event"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 4369,
@@ -5932,21 +5941,27 @@ _detalhes_database = {
 					["spell_cast"] = {
 						[3110] = 219,
 					},
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
+					["serial"] = "Pet-0-3777-1220-8351-416-040261F87E",
 					["pets"] = {
 					},
-					["serial"] = "Pet-0-3777-1220-8351-416-040261F87E",
 				}, -- [3]
 				{
 					["flag_original"] = 8465,
+					["ownerName"] = "Fimwack",
+					["nome"] = "Imp <Fimwack> <Fimwack>",
 					["dispell"] = 1.0029,
-					["pets"] = {
-					},
-					["classe"] = "PET",
 					["dispell_oque"] = {
 						[182701] = 1,
+					},
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[89808] = 7,
+						[209928] = 1,
+						[3110] = 55,
 					},
 					["dispell_spells"] = {
 						["_ActorTable"] = {
@@ -5964,19 +5979,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["ownerName"] = "Fimwack",
-					["nome"] = "Imp <Fimwack> <Fimwack>",
-					["spell_cast"] = {
-						[89808] = 7,
-						[209928] = 1,
-						[3110] = 55,
-					},
+					["tipo"] = 4,
+					["classe"] = "PET",
 					["dispell_targets"] = {
 						["Fimwack"] = 1,
 					},
-					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3777-1220-8351-416-00002FDF3A",
+					["last_event"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 8465,
@@ -5986,12 +5995,12 @@ _detalhes_database = {
 						[22987] = 4,
 						[85692] = 25,
 					},
+					["tipo"] = 4,
 					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
+					["serial"] = "Creature-0-3777-1220-8351-11859-00002FE06F",
 					["pets"] = {
 					},
-					["serial"] = "Creature-0-3777-1220-8351-11859-00002FE06F",
 				}, -- [5]
 			},
 		}, -- [4]
@@ -6047,6 +6056,7 @@ _detalhes_database = {
 			},
 		},
 		["end_time"] = 18950.71,
+		["data_inicio"] = "23:00:09",
 		["totals_grupo"] = {
 			86338522.181026, -- [1]
 			13020652.153247, -- [2]
@@ -6067,7 +6077,6 @@ _detalhes_database = {
 				["cooldowns_defensive"] = 2.006882,
 			}, -- [4]
 		},
-		["overall_refreshed"] = true,
 		["hasSaved"] = true,
 		["frags"] = {
 		},
@@ -6184,7 +6193,7 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["data_inicio"] = "23:00:09",
+		["overall_refreshed"] = true,
 	},
 	["cached_talents"] = {
 		["Player-5-0A2F3583"] = {
@@ -6265,8 +6274,7 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["savedbuffs"] = {
-	},
+	["last_encounter"] = "Prince Malchezaar",
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -6280,13 +6288,6 @@ _detalhes_database = {
 	},
 	["last_instance_id"] = 532,
 	["cached_specs"] = {
-		["Player-5-0AB0AAD6"] = 70,
-		["Player-5-0AAF531D"] = 66,
-		["Player-5-07FC63D7"] = 265,
-		["Player-5-0023AFAC"] = 73,
-		["Player-5-02EBD307"] = 251,
-		["Player-5-058B8B4B"] = 72,
 		["Player-5-0A2F3583"] = 267,
-		["Player-5-08C9F2BA"] = 267,
 	},
 }

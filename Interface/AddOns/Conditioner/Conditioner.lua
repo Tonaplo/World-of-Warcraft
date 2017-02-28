@@ -1,7 +1,6 @@
---[[-----------------------------------------VER 1.3.0-------------------------------------------
+--[[-----------------------------------------VER 1.3.2-------------------------------------------
 --by Tony Allain
-fixed an issue where reloading the UI or not having opened your spellbook since login would prevent the tracked spells from showing up
-fixed the weird distorted tracking frames
+7.2.0 ready
 -----------------------------------------------------------------------------------------------]]
 local conditioner_frame,events = CreateFrame("Frame"), {}
 conditioner_frame.temp_storage = {}
@@ -402,14 +401,6 @@ function MaintainVisibility()
 	--end	
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 	UpdatePrioritySize()
-end
-
-function TC(slot, hide)
-	if (hide) then
-		watched_frames[slot]:Hide()
-	else
-		watched_frames[slot]:Show()
-	end
 end
 
 function ConditionerHotfix()
@@ -1144,6 +1135,9 @@ function MakePriorityButton(fortable, listline)
 			num_stacks = 0, --do we need to factor how many stacks are up?
 			stack_conditional = 1,
 
+			--new conditions
+			duration_remaining = 0;
+
 			--based on your resources or health
 			resource_type = 1, --this needs to be a dropdown for all resource types and health
 			resource_condition = 1,
@@ -1215,9 +1209,48 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.MaintainAura = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Maintain\nAura")
 		newbutton.more.conditions.MaintainAura:ClearAllPoints()
 		newbutton.more.conditions.MaintainAura:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", -newbutton.more.conditions:GetWidth()/3.3, -65)
-		newbutton.more.conditions.MaintainAura:SetScript("OnClick", function(self, ...) PlaySound("UChatScrollButton") newbutton.more.conditions.options.maintain_aura = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.MaintainAura:SetScript("OnClick", function(self, ...)
+			PlaySound("UChatScrollButton") 
+			newbutton.more.conditions.options.maintain_aura = self:GetChecked() 
+			StoreConditions() 
+		end)
 		newbutton.more.conditions.MaintainAura.tooltip = "Maintain Aura"
-		newbutton.more.conditions.MaintainAura.tooltipdesc = "Example Usage: If you have Shadow Word: Pain as the Active Aura, the desired spell will show up when Shadow Word: Pain is NOT active or it is about to fall off your target."
+		newbutton.more.conditions.MaintainAura.tooltipdesc = "Example Usage: If you have Shadow Word: Pain as the Active Aura, the desired spell will show up when Shadow Word: Pain is NOT active or it is about to fall off your target.\n\nYou can specify the number of seconds left on your active aura to display this spell or it appears with 1.5 sec remaining by default."
+
+		--we need a maintain aura edit box for number of seconds remaining if they want more of a buffer than GCD
+		--call it Time Remaining? Refresh at [] seconds?
+		--
+		newbutton.more.conditions.MaintainAura.TimeLeft = MakeEditBox(nil, "LEFT", newbutton.more.conditions.MaintainAura, "RIGHT", "", newbutton.more.conditions, 32, 32)
+		newbutton.more.conditions.MaintainAura.TimeLeft:SetNumeric(true)
+		newbutton.more.conditions.MaintainAura.TimeLeft:ClearAllPoints()
+		newbutton.more.conditions.MaintainAura.TimeLeft:SetPoint("LEFT", newbutton.more.conditions.MaintainAura, "RIGHT", -10, -2)
+		newbutton.more.conditions.MaintainAura.TimeLeft:SetScript("OnKeyUp", function(self, text)
+			if (self:GetNumber() > 99) then
+				self:SetNumber(99)
+			elseif (self:GetNumber() <= 0) then
+				self:SetNumber(0)
+			end
+			self:GetParent().options.duration_remaining = self:GetNumber()
+			if (self:GetNumber() > 0) then
+				newbutton.more.conditions.MaintainAura:SetChecked(true)
+				newbutton.more.conditions.options.maintain_aura = newbutton.more.conditions.MaintainAura:GetChecked()
+			end
+			StoreConditions()
+		end)
+		newbutton.more.conditions.MaintainAura.TimeLeft:SetScript("OnMouseDown", function(self, c_button)
+			if (c_button == "RightButton") then
+				self:SetNumber("")
+				self:GetParent().options.duration_remaining = self:GetNumber()
+				newbutton.more.conditions.MaintainAura:SetChecked(false)
+				newbutton.more.conditions.options.maintain_aura = newbutton.more.conditions.MaintainAura:GetChecked()
+			elseif (c_button == "LeftButton") and (self:GetNumber() == 0) then
+				self:SetNumber("")
+				self:GetParent().options.duration_remaining = self:GetNumber()
+			end
+	
+			StoreConditions()
+		end)
+		
 		--who is the target? dropdown (name, parent, choices, currentchoice, point)
 
 		newbutton.more.conditions.Interrupt = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Is\nInterrupt")
@@ -1436,6 +1469,7 @@ function MakePriorityButton(fortable, listline)
 					end
 					v.conditions.AuraEdit:SetText(v.conditions.options.active_aura)
 					v.conditions.MaintainAura:SetChecked(v.conditions.options.maintain_aura)
+					v.conditions.MaintainAura.TimeLeft:SetNumber(v.conditions.options.duration_remaining)
 					v.conditions.Interrupt:SetChecked(v.conditions.options.is_interrupt)
 					v.conditions.ResourcePercent:SetChecked(v.conditions.options.resource_by_percentage)
 					v.conditions.ResourceAmount:SetNumber(v.conditions.options.min_resource_to_cast)
@@ -1489,6 +1523,7 @@ function MakePriorityButton(fortable, listline)
 					end
 					v.conditions.AuraEdit:SetText(v.conditions.options.active_aura)
 					v.conditions.MaintainAura:SetChecked(v.conditions.options.maintain_aura)
+					v.conditions.MaintainAura.TimeLeft:SetNumber(v.conditions.options.duration_remaining)
 					v.conditions.Interrupt:SetChecked(v.conditions.options.is_interrupt)
 					v.conditions.ResourcePercent:SetChecked(v.conditions.options.resource_by_percentage)
 					v.conditions.ResourceAmount:SetNumber(v.conditions.options.min_resource_to_cast)
@@ -1530,6 +1565,7 @@ function MakePriorityButton(fortable, listline)
 				self.AltResourcePercent.text:SetTextColor(0,1,0,1)
 				self.AuraEdit.text:SetTextColor(0,1,0,1)
 				self.MaintainAura.text:SetTextColor(0,1,0,1)
+				self.MaintainAura.TimeLeft.text:SetTextColor(0,1,0,1)
 				self.Interrupt.text:SetTextColor(0,1,0,1)
 				self.HighlightOnly.text:SetTextColor(0,1,0,1)
 				self.ChargeDropDown.text:SetTextColor(0,1,0,1)
@@ -1544,6 +1580,7 @@ function MakePriorityButton(fortable, listline)
 				self.AltResourcePercent.text:SetTextColor(1,0,0,1)
 				self.AuraEdit.text:SetTextColor(1,0,0,1)
 				self.MaintainAura.text:SetTextColor(1,0,0,1)
+				self.MaintainAura.TimeLeft.text:SetTextColor(1,0,0,1)
 				self.Interrupt.text:SetTextColor(1,0,0,1)
 				self.HighlightOnly.text:SetTextColor(1,0,0,1)
 				self.ChargeDropDown.text:SetTextColor(1,0,0,1)
@@ -1572,6 +1609,7 @@ function MakePriorityButton(fortable, listline)
 			self.highlight_only = false
 			self.num_charges = 0
 			self.charge_conditional = 1
+			self.duration_remaining = 0
 			StoreConditions()
 		end
 
@@ -1652,7 +1690,7 @@ function MakePriorityButton(fortable, listline)
 				--assuming if I am the target it is because of a buff, if my target is the target it is a debuff
 				local my_target = self.more.target_choices[self.more.conditions.options.aura_target]
 				local watched_aura_name = self.more.conditions.options.active_aura
-				--local aura_func = UnitBuff
+				local duration_condition = self.more.conditions.options.duration_remaining
 				local my_haste = GetHaste()/100
 				local GCD = base_GCD/(1 + my_haste)
 				GCD = math.max(GCD, 0.75)
@@ -1958,7 +1996,12 @@ function MakePriorityButton(fortable, listline)
 					if (expire_time) then
 						time_left = (expire_time - GetTime())/timemod
 						--a little heads up? nah
-						if (time_left <= GCD) and (time_left > 0) then
+						local timeCompare = GCD
+						if (duration_condition) and (duration_condition > 0) then
+							--use this instead of GCD
+							timeCompare = duration_condition
+						end
+						if (time_left <= timeCompare) and (time_left > 0) then
 							--flip once more because we want this to be displayed with 1 GCD remaining
 							condition_aura_active = not condition_aura_active
 						else

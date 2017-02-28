@@ -13,22 +13,25 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_day"] = "25",
+	["last_day"] = "27",
 	["ignore_nicktag"] = false,
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 206,
+					["combatId"] = 259,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Fel Annihilator"] = true,
+								["Ael'Yith"] = true,
+								["Orbyth"] = true,
 							},
 							["targets"] = {
-								["Fel Annihilator"] = 10955496,
+								["Orbyth"] = 1726100,
+								["Ael'Yith"] = 1901518,
+								["Excess Power"] = 23129,
 							},
 							["pets"] = {
 							},
@@ -37,11 +40,11 @@ _detalhes_database = {
 							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 10955496.008384,
-							["end_time"] = 1488061141,
+							["total_without_pet"] = 3650747.004079,
+							["end_time"] = 1488230011,
 							["colocacao"] = 1,
 							["dps_started"] = false,
-							["total"] = 10955496.008384,
+							["total"] = 3650747.004079,
 							["friendlyfire"] = {
 							},
 							["friendlyfire_total"] = 0,
@@ -50,22 +53,24 @@ _detalhes_database = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 21,
+										["c_amt"] = 7,
 										["b_amt"] = 0,
-										["c_dmg"] = 271848,
+										["c_dmg"] = 112314,
 										["g_amt"] = 0,
-										["n_max"] = 12288,
+										["n_max"] = 11793,
 										["targets"] = {
-											["Fel Annihilator"] = 925916,
+											["Orbyth"] = 102248,
+											["Ael'Yith"] = 129984,
+											["Excess Power"] = 23129,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 654068,
-										["n_min"] = 4716,
+										["n_dmg"] = 143047,
+										["n_min"] = 4402,
 										["g_dmg"] = 0,
-										["counter"] = 104,
-										["total"] = 925916,
-										["c_max"] = 24477,
-										["MISS"] = 6,
+										["counter"] = 30,
+										["total"] = 255361,
+										["c_max"] = 23129,
+										["MISS"] = 4,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -75,55 +80,27 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 77,
+										["n_amt"] = 19,
 										["r_amt"] = 0,
-										["c_min"] = 9288,
+										["c_min"] = 9574,
 									}, -- [1]
-									[199552] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 163305,
-										["g_amt"] = 0,
-										["n_max"] = 35534,
-										["targets"] = {
-											["Fel Annihilator"] = 567424,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 404119,
-										["n_min"] = 9062,
-										["g_dmg"] = 0,
-										["counter"] = 32,
-										["total"] = 567424,
-										["c_max"] = 59870,
-										["id"] = 199552,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 26,
-										["r_amt"] = 0,
-										["c_min"] = 18720,
-									},
 									[192611] = {
-										["c_amt"] = 3,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 363515,
+										["c_dmg"] = 234131,
 										["g_amt"] = 0,
-										["n_max"] = 72703,
+										["n_max"] = 71773,
 										["targets"] = {
-											["Fel Annihilator"] = 981491,
+											["Ael'Yith"] = 114510,
+											["Orbyth"] = 248649,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 617976,
-										["n_min"] = 60585,
+										["n_dmg"] = 129028,
+										["n_min"] = 57255,
 										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 981491,
-										["c_max"] = 121172,
+										["counter"] = 4,
+										["total"] = 363159,
+										["c_max"] = 119621,
 										["id"] = 192611,
 										["r_dmg"] = 0,
 										["spellschool"] = 127,
@@ -133,26 +110,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 121171,
+										["c_min"] = 114510,
 									},
 									[201628] = {
-										["c_amt"] = 11,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 399710,
+										["c_dmg"] = 93359,
 										["g_amt"] = 0,
-										["n_max"] = 24943,
+										["n_max"] = 25123,
 										["targets"] = {
-											["Fel Annihilator"] = 660049,
+											["Orbyth"] = 298301,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 260339,
-										["n_min"] = 9464,
+										["n_dmg"] = 204942,
+										["n_min"] = 11381,
 										["g_dmg"] = 0,
-										["counter"] = 28,
-										["total"] = 660049,
-										["c_max"] = 49816,
+										["counter"] = 14,
+										["total"] = 298301,
+										["c_max"] = 46712,
 										["id"] = 201628,
 										["r_dmg"] = 0,
 										["spellschool"] = 127,
@@ -162,26 +139,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 17,
+										["n_amt"] = 12,
 										["r_amt"] = 0,
-										["c_min"] = 20652,
+										["c_min"] = 46647,
 									},
 									[198030] = {
-										["c_amt"] = 30,
+										["c_amt"] = 10,
 										["b_amt"] = 0,
-										["c_dmg"] = 774030,
+										["c_dmg"] = 226242,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Fel Annihilator"] = 774030,
+											["Orbyth"] = 226242,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 30,
-										["total"] = 774030,
-										["c_max"] = 28524,
+										["counter"] = 10,
+										["total"] = 226242,
+										["c_max"] = 23434,
 										["id"] = 198030,
 										["r_dmg"] = 0,
 										["spellschool"] = 124,
@@ -193,23 +170,24 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 21810,
+										["c_min"] = 21409,
 									},
 									[236237] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 15446,
+										["n_max"] = 15479,
 										["targets"] = {
-											["Fel Annihilator"] = 371490,
+											["Ael'Yith"] = 90817,
+											["Orbyth"] = 17257,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 371490,
-										["n_min"] = 4671,
+										["n_dmg"] = 108074,
+										["n_min"] = 5820,
 										["g_dmg"] = 0,
-										["counter"] = 46,
-										["total"] = 371490,
+										["counter"] = 13,
+										["total"] = 108074,
 										["c_max"] = 0,
 										["id"] = 236237,
 										["r_dmg"] = 0,
@@ -220,199 +198,25 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 46,
+										["n_amt"] = 13,
 										["r_amt"] = 0,
 										["c_min"] = 0,
-									},
-									[202761] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 5695,
-										["targets"] = {
-											["Fel Annihilator"] = 157969,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 157969,
-										["n_min"] = 2861,
-										["g_dmg"] = 0,
-										["counter"] = 31,
-										["total"] = 157969,
-										["c_max"] = 0,
-										["id"] = 202761,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 31,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[201428] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 100231,
-										["targets"] = {
-											["Fel Annihilator"] = 632437,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 632437,
-										["n_min"] = 61205,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 632437,
-										["c_max"] = 0,
-										["id"] = 201428,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[199547] = {
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 1428966,
-										["g_amt"] = 0,
-										["n_max"] = 78596,
-										["targets"] = {
-											["Fel Annihilator"] = 3082633,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1653667,
-										["n_min"] = 46713,
-										["g_dmg"] = 0,
-										["counter"] = 38,
-										["total"] = 3082633,
-										["c_max"] = 154467,
-										["id"] = 199547,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 26,
-										["r_amt"] = 0,
-										["c_min"] = 96066,
-									},
-									[213243] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 195437,
-										["g_amt"] = 0,
-										["n_max"] = 98975,
-										["targets"] = {
-											["Fel Annihilator"] = 1397779,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1202342,
-										["n_min"] = 75017,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 1397779,
-										["c_max"] = 195437,
-										["id"] = 213243,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 14,
-										["r_amt"] = 0,
-										["c_min"] = 195437,
-									},
-									[210153] = {
-										["c_amt"] = 2,
-										["b_amt"] = 1,
-										["c_dmg"] = 54817,
-										["g_amt"] = 0,
-										["n_max"] = 49144,
-										["targets"] = {
-											["Fel Annihilator"] = 380109,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 325292,
-										["n_min"] = 9899,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 380109,
-										["c_max"] = 27853,
-										["id"] = 210153,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 9899,
-										["n_amt"] = 14,
-										["r_amt"] = 0,
-										["c_min"] = 26964,
-									},
-									[203796] = {
-										["c_amt"] = 15,
-										["b_amt"] = 1,
-										["c_dmg"] = 383771,
-										["g_amt"] = 0,
-										["n_max"] = 15101,
-										["targets"] = {
-											["Fel Annihilator"] = 974711,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 590940,
-										["n_min"] = 8417,
-										["g_dmg"] = 0,
-										["counter"] = 61,
-										["total"] = 974711,
-										["c_max"] = 29443,
-										["id"] = 203796,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 8417,
-										["n_amt"] = 46,
-										["r_amt"] = 0,
-										["c_min"] = 22533,
 									},
 									[200166] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 49458,
+										["n_max"] = 38949,
 										["targets"] = {
-											["Fel Annihilator"] = 49458,
+											["Orbyth"] = 38949,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 49458,
-										["n_min"] = 49458,
+										["n_dmg"] = 38949,
+										["n_min"] = 38949,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 49458,
+										["total"] = 38949,
 										["c_max"] = 0,
 										["id"] = 200166,
 										["r_dmg"] = 0,
@@ -427,37 +231,185 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
+									[201428] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 275906,
+										["g_amt"] = 0,
+										["n_max"] = 94508,
+										["targets"] = {
+											["Ael'Yith"] = 850027,
+											["Orbyth"] = 172574,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 746695,
+										["n_min"] = 59202,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 1022601,
+										["c_max"] = 154797,
+										["id"] = 201428,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 121109,
+									},
+									[199547] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 58203,
+										["targets"] = {
+											["Ael'Yith"] = 105382,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 105382,
+										["n_min"] = 47179,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 105382,
+										["c_max"] = 0,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[210153] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 125790,
+										["g_amt"] = 0,
+										["n_max"] = 46534,
+										["targets"] = {
+											["Ael'Yith"] = 230831,
+											["Orbyth"] = 187745,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 292786,
+										["n_min"] = 12677,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 418576,
+										["c_max"] = 33910,
+										["id"] = 210153,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["r_amt"] = 0,
+										["c_min"] = 28620,
+									},
+									[213243] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 363452,
+										["g_amt"] = 0,
+										["n_max"] = 94289,
+										["targets"] = {
+											["Ael'Yith"] = 176868,
+											["Orbyth"] = 357263,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 170679,
+										["n_min"] = 76390,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 534131,
+										["c_max"] = 186584,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 176868,
+									},
+									[203796] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 142353,
+										["g_amt"] = 0,
+										["n_max"] = 14404,
+										["targets"] = {
+											["Ael'Yith"] = 203099,
+											["Orbyth"] = 76872,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 137618,
+										["n_min"] = 10835,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 279971,
+										["c_max"] = 28439,
+										["id"] = 203796,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["r_amt"] = 0,
+										["c_min"] = 21510,
+									},
 								},
 							},
 							["grupo"] = true,
 							["serial"] = "Player-5-0A6AF472",
-							["last_dps"] = 87636.957110503,
+							["last_dps"] = 116336.222685028,
 							["custom"] = 0,
-							["last_event"] = 1488061140,
-							["damage_taken"] = 1434383.008384,
-							["start_time"] = 1488061016,
+							["last_event"] = 1488230010,
+							["damage_taken"] = 91800.004079,
+							["start_time"] = 1488229980,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 206,
+					["combatId"] = 259,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["healing_from"] = {
-								["Prophet Velen"] = true,
 								["Kaldorath"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
 							["heal_enemy_amt"] = 0,
-							["totalover"] = 539415.002934,
-							["total_without_pet"] = 328060.002934,
-							["total"] = 328060.002934,
+							["totalover"] = 1396839.001022,
+							["total_without_pet"] = 91800.001022,
+							["total"] = 91800.001022,
 							["targets_absorbs"] = {
 							},
 							["heal_enemy"] = {
@@ -465,17 +417,17 @@ _detalhes_database = {
 							["colocacao"] = 1,
 							["on_hold"] = false,
 							["serial"] = "Player-5-0A6AF472",
-							["totalabsorb"] = 0.002934,
-							["last_hps"] = 2624.27008186545,
+							["totalabsorb"] = 0.001022,
+							["last_hps"] = 2925.3370199164,
 							["targets"] = {
-								["Kaldorath"] = 447067,
+								["Kaldorath"] = 262987,
 							},
-							["totalover_without_pet"] = 0.002934,
-							["healing_taken"] = 1420536.002934,
+							["totalover_without_pet"] = 0.001022,
+							["healing_taken"] = 91800.001022,
 							["fight_component"] = true,
-							["end_time"] = 1488061141,
+							["end_time"] = 1488230011,
 							["targets_overheal"] = {
-								["Kaldorath"] = 539415,
+								["Kaldorath"] = 1396839,
 							},
 							["nome"] = "Kaldorath",
 							["spells"] = {
@@ -485,16 +437,16 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Kaldorath"] = 539415,
+											["Kaldorath"] = 959169,
 										},
-										["n_max"] = 68382,
+										["n_max"] = 26515,
 										["targets"] = {
-											["Kaldorath"] = 328060,
+											["Kaldorath"] = 91800,
 										},
-										["n_min"] = 2792,
-										["counter"] = 24,
-										["overheal"] = 539415,
-										["total"] = 328060,
+										["n_min"] = 21659,
+										["counter"] = 23,
+										["overheal"] = 959169,
+										["total"] = 91800,
 										["c_max"] = 0,
 										["id"] = 143924,
 										["targets_absorbs"] = {
@@ -503,9 +455,36 @@ _detalhes_database = {
 										["c_curado"] = 0,
 										["m_amt"] = 0,
 										["c_min"] = 0,
-										["n_curado"] = 328060,
+										["n_curado"] = 91800,
 										["m_healed"] = 0,
-										["n_amt"] = 24,
+										["n_amt"] = 23,
+										["absorbed"] = 0,
+									},
+									[178963] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Kaldorath"] = 437670,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Kaldorath"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 437670,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 178963,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 0,
+										["m_healed"] = 0,
+										["n_amt"] = 2,
 										["absorbed"] = 0,
 									},
 								},
@@ -514,20 +493,20 @@ _detalhes_database = {
 							["classe"] = "DEMONHUNTER",
 							["custom"] = 0,
 							["tipo"] = 2,
-							["last_event"] = 1488061047,
-							["start_time"] = 1488061111,
-							["delay"] = 1488061047,
+							["last_event"] = 1488230008,
+							["start_time"] = 1488229980,
+							["delay"] = 0,
 							["spec"] = 577,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 206,
+					["combatId"] = 259,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 1573.007879,
+							["resource"] = 527.007237,
 							["targets"] = {
 							},
 							["pets"] = {
@@ -535,25 +514,25 @@ _detalhes_database = {
 							["powertype"] = 1,
 							["classe"] = "DEMONHUNTER",
 							["fight_component"] = true,
-							["total"] = 0.007879,
+							["total"] = 0.007237,
 							["nome"] = "Kaldorath",
 							["spec"] = 577,
 							["grupo"] = true,
 							["resource_type"] = 17,
 							["tipo"] = 3,
-							["received"] = 0.007879,
+							["received"] = 0.007237,
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
 							},
 							["serial"] = "Player-5-0A6AF472",
-							["last_event"] = 1488061138,
+							["last_event"] = 1488230010,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 206,
+					["combatId"] = 259,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -561,10 +540,10 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[202761] = {
-										["uptime"] = 62,
+									[200166] = {
+										["uptime"] = 3,
 										["activedamt"] = 0,
-										["id"] = 202761,
+										["id"] = 200166,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -572,13 +551,48 @@ _detalhes_database = {
 									},
 								},
 							},
-							["buff_uptime"] = 99,
+							["buff_uptime"] = 148,
 							["classe"] = "DEMONHUNTER",
+							["interrupt_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[183752] = {
+										["id"] = 183752,
+										["interrompeu_oque"] = {
+											[186229] = 1,
+											[181500] = 1,
+										},
+										["targets"] = {
+											["Ael'Yith"] = 1,
+											["Orbyth"] = 1,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
+									[222952] = {
+										["uptime"] = 31,
+										["activedamt"] = 1,
+										["id"] = 222952,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[198013] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 198013,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[162264] = {
-										["uptime"] = 30,
+										["uptime"] = 29,
 										["activedamt"] = 1,
 										["id"] = 162264,
 										["actived"] = false,
@@ -586,10 +600,37 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[198013] = {
+									[224173] = {
+										["uptime"] = 10,
+										["activedamt"] = 1,
+										["id"] = 224173,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[202866] = {
+										["uptime"] = 26,
+										["activedamt"] = 2,
+										["id"] = 202866,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[208628] = {
+										["uptime"] = 15,
 										["activedamt"] = 3,
-										["uptime"] = 5,
-										["id"] = 198013,
+										["id"] = 208628,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[156073] = {
+										["uptime"] = 31,
+										["activedamt"] = 1,
+										["id"] = 156073,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -604,83 +645,36 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									["Draenic Agility Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Agility Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[208628] = {
-										["activedamt"] = 12,
-										["uptime"] = 52,
-										["id"] = 208628,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[224170] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = 224170,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Huntmaster's Infusion"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Huntmaster's Infusion",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[188499] = {
-										["uptime"] = 8,
-										["activedamt"] = 8,
-										["id"] = 188499,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Momentum"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Momentum",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
 								},
 							},
+							["interrompeu_oque"] = {
+								[186229] = 1,
+								[181500] = 1,
+							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 62,
+							["debuff_uptime"] = 3,
+							["interrupt_targets"] = {
+								["Ael'Yith"] = 1,
+								["Orbyth"] = 1,
+							},
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[201427] = 4,
-								[188499] = 8,
-								[198013] = 3,
-								[201467] = 3,
-								[200166] = 1,
-								[195072] = 13,
-								[162794] = 19,
-								[232893] = 15,
-								[131347] = 1,
+								[201427] = 6,
+								[232893] = 4,
+								[198013] = 1,
 								[210152] = 4,
+								[162794] = 1,
+								[201467] = 1,
+								[183752] = 2,
+								[195072] = 4,
 							},
+							["interrupt"] = 2.001988,
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1488061141,
+							["last_event"] = 1488230011,
 							["nome"] = "Kaldorath",
 							["pets"] = {
 							},
@@ -690,7 +684,7 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 206,
+					["combatId"] = 259,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -701,16 +695,610 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Fel Annihilator",
-				["combat_counter"] = 265,
+				["enemy"] = "Orbyth",
+				["combat_counter"] = 326,
+				["playing_solo"] = true,
 				["totals"] = {
-					10955495.946932, -- [1]
-					328059.994686, -- [2]
+					3650746.987094, -- [1]
+					91800, -- [2]
 					{
-						-0.001695, -- [1]
+						0, -- [1]
 						[0] = 0,
 						[6] = 0,
-						[3] = -0.004828,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 2,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 91800.001022,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Kaldorath"] = 3650747.006032,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 18958.536,
+				["combat_id"] = 259,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Orbyth"] = 1,
+					["Ael'Yith"] = 1,
+					["Excess Power"] = 1,
+				},
+				["data_fim"] = "13:13:32",
+				["data_inicio"] = "13:13:01",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					3650747, -- [1]
+					91800, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 2,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 18927.155,
+				["contra"] = "Orbyth",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						158570.004079, -- [1]
+						155569, -- [2]
+						235485, -- [3]
+						216293, -- [4]
+						133463, -- [5]
+						27703, -- [6]
+						78290, -- [7]
+						89866.0000000001, -- [8]
+						136376, -- [9]
+						0, -- [10]
+						15650, -- [11]
+						68074, -- [12]
+						115210, -- [13]
+						86087, -- [14]
+						209464, -- [15]
+						0, -- [16]
+						38600, -- [17]
+						104380, -- [18]
+						201451, -- [19]
+						255879, -- [20]
+						107355, -- [21]
+						154724, -- [22]
+						134327, -- [23]
+						176868, -- [24]
+						92869, -- [25]
+						93760, -- [26]
+						205990, -- [27]
+						210869, -- [28]
+						0, -- [29]
+						100396, -- [30]
+						47179, -- [31]
+						["max_value"] = 255879,
+					},
+					["Raid Damage Done"] = {
+						158570, -- [1]
+						155569, -- [2]
+						235485, -- [3]
+						216293, -- [4]
+						133463, -- [5]
+						27703, -- [6]
+						78290, -- [7]
+						89866, -- [8]
+						136376, -- [9]
+						0, -- [10]
+						15650, -- [11]
+						68074, -- [12]
+						115210, -- [13]
+						86087, -- [14]
+						209464, -- [15]
+						0, -- [16]
+						38600, -- [17]
+						104380, -- [18]
+						201451, -- [19]
+						255879, -- [20]
+						107355, -- [21]
+						154724, -- [22]
+						134327, -- [23]
+						176868, -- [24]
+						92869, -- [25]
+						93760, -- [26]
+						205990, -- [27]
+						210869, -- [28]
+						0, -- [29]
+						100396, -- [30]
+						47179, -- [31]
+						["max_value"] = 255879,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 258,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Withered Outcast"] = true,
+							},
+							["targets"] = {
+								["Withered Outcast"] = 680210,
+							},
+							["pets"] = {
+							},
+							["spec"] = 577,
+							["on_hold"] = false,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 680210.002554,
+							["end_time"] = 1488229909,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 680210.002554,
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 23097,
+										["g_amt"] = 0,
+										["n_max"] = 10936,
+										["targets"] = {
+											["Withered Outcast"] = 52933,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29836,
+										["n_min"] = 4400,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 52933,
+										["c_max"] = 23097,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 23097,
+									}, -- [1]
+									[213243] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 186802,
+										["g_amt"] = 0,
+										["n_max"] = 75850,
+										["targets"] = {
+											["Withered Outcast"] = 262652,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 75850,
+										["n_min"] = 75850,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 262652,
+										["c_max"] = 186802,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 186802,
+									},
+									[199552] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 33317,
+										["targets"] = {
+											["Withered Outcast"] = 44172,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 44172,
+										["n_min"] = 10855,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 44172,
+										["c_max"] = 0,
+										["id"] = 199552,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[203796] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 49498,
+										["g_amt"] = 0,
+										["n_max"] = 11556,
+										["targets"] = {
+											["Withered Outcast"] = 61054,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11556,
+										["n_min"] = 11556,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 61054,
+										["c_max"] = 26674,
+										["id"] = 203796,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 22824,
+									},
+									[192611] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 67951,
+										["targets"] = {
+											["Withered Outcast"] = 124577,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 124577,
+										["n_min"] = 56626,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 124577,
+										["c_max"] = 0,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7386,
+										["targets"] = {
+											["Withered Outcast"] = 7386,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7386,
+										["n_min"] = 7386,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7386,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[199547] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 73864,
+										["targets"] = {
+											["Withered Outcast"] = 127436,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 127436,
+										["n_min"] = 53572,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 127436,
+										["c_max"] = 0,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A6AF472",
+							["last_dps"] = 79020.6787353609,
+							["custom"] = 0,
+							["last_event"] = 1488229908,
+							["damage_taken"] = 58095.002554,
+							["start_time"] = 1488229902,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 258,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 0.004863,
+							["total_without_pet"] = 216180.004863,
+							["total"] = 216180.004863,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.004863,
+							["last_hps"] = 25113.8481485822,
+							["targets"] = {
+								["Kaldorath"] = 216180,
+							},
+							["totalover_without_pet"] = 0.004863,
+							["healing_taken"] = 216180.004863,
+							["fight_component"] = true,
+							["end_time"] = 1488229909,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[178963] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 216180,
+										["targets"] = {
+											["Kaldorath"] = 216180,
+										},
+										["n_min"] = 216180,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 216180,
+										["c_max"] = 0,
+										["id"] = 178963,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 216180,
+										["m_healed"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 1488229909,
+							["start_time"] = 1488229909,
+							["delay"] = 0,
+							["spec"] = 577,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 258,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 115.007221,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 0.007221,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["resource_type"] = 17,
+							["tipo"] = 3,
+							["received"] = 0.007221,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["last_event"] = 1488229907,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 258,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 22,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[188499] = 1,
+								[195072] = 2,
+								[162794] = 1,
+								[232893] = 2,
+							},
+							["classe"] = "DEMONHUNTER",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[156073] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 156073,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[188499] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 188499,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[208628] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 208628,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+									[222952] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 222952,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["last_event"] = 1488229909,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 258,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Withered Outcast",
+				["combat_counter"] = 325,
+				["playing_solo"] = true,
+				["totals"] = {
+					680209.986791, -- [1]
+					216180, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
@@ -739,31 +1327,31 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Kaldorath"] = 328060.002934,
+							["Kaldorath"] = 216180.004863,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Kaldorath"] = 10955496.008384,
+							["Kaldorath"] = 680210.002554,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 14079.129,
-				["combat_id"] = 206,
-				["instance_type"] = "scenario",
+				["end_time"] = 18856.447,
+				["combat_id"] = 258,
+				["instance_type"] = "none",
 				["frags"] = {
-					["Fel Annihilator"] = 1,
-					["High General Rakeesh"] = 1,
+					["Withered Outcast"] = 1,
+					["Withered Skulker"] = 1,
 				},
-				["data_fim"] = "14:19:02",
-				["data_inicio"] = "14:16:57",
+				["data_fim"] = "13:11:50",
+				["data_inicio"] = "13:11:41",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					10955496, -- [1]
-					328060, -- [2]
+					680210, -- [1]
+					216180, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -781,298 +1369,61 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 13954.119,
-				["contra"] = "Fel Annihilator",
+				["start_time"] = 18847.839,
+				["contra"] = "Withered Outcast",
 				["TimeData"] = {
 					["Player Damage Done"] = {
-						14378.008384, -- [1]
-						55153, -- [2]
-						72703, -- [3]
-						168729, -- [4]
-						235134, -- [5]
-						303560, -- [6]
-						131299, -- [7]
-						45674, -- [8]
-						68055, -- [9]
-						92686, -- [10]
-						0, -- [11]
-						154091, -- [12]
-						119612, -- [13]
-						49616, -- [14]
-						66430, -- [15]
-						0, -- [16]
-						107079, -- [17]
-						24231, -- [18]
-						197449, -- [19]
-						81423, -- [20]
-						0, -- [21]
-						81440, -- [22]
-						240054, -- [23]
-						128643, -- [24]
-						96432, -- [25]
-						72317, -- [26]
-						21127, -- [27]
-						16919, -- [28]
-						93312, -- [29]
-						42445, -- [30]
-						125917, -- [31]
-						214474, -- [32]
-						5694, -- [33]
-						35756, -- [34]
-						5695, -- [35]
-						100295, -- [36]
-						34409, -- [37]
-						18651, -- [38]
-						94863, -- [39]
-						117125, -- [40]
-						76532, -- [41]
-						20836, -- [42]
-						32592, -- [43]
-						103557, -- [44]
-						64390, -- [45]
-						116779, -- [46]
-						18553, -- [47]
-						55706, -- [48]
-						143920, -- [49]
-						9345, -- [50]
-						121171, -- [51]
-						0, -- [52]
-						143869, -- [53]
-						0, -- [54]
-						140017, -- [55]
-						90581, -- [56]
-						44064, -- [57]
-						52119, -- [58]
-						105540, -- [59]
-						83150, -- [60]
-						5695, -- [61]
-						96929, -- [62]
-						74488, -- [63]
-						221401, -- [64]
-						29553, -- [65]
-						119544, -- [66]
-						130621, -- [67]
-						98160, -- [68]
-						130341, -- [69]
-						69227, -- [70]
-						273314, -- [71]
-						121172, -- [72]
-						293533, -- [73]
-						122258, -- [74]
-						72451, -- [75]
-						12288, -- [76]
-						80079, -- [77]
-						21628, -- [78]
-						79762, -- [79]
-						21597, -- [80]
-						106135, -- [81]
-						97800, -- [82]
-						173577, -- [83]
-						80875, -- [84]
-						96010, -- [85]
-						0, -- [86]
-						27973, -- [87]
-						150498, -- [88]
-						16386, -- [89]
-						21210, -- [90]
-						0, -- [91]
-						91262, -- [92]
-						91398, -- [93]
-						64235, -- [94]
-						216779, -- [95]
-						153257, -- [96]
-						234504, -- [97]
-						81722, -- [98]
-						38858, -- [99]
-						0, -- [100]
-						60585, -- [101]
-						141715, -- [102]
-						164158, -- [103]
-						144737, -- [104]
-						33481, -- [105]
-						226665, -- [106]
-						119106, -- [107]
-						76152, -- [108]
-						308120, -- [109]
-						0, -- [110]
-						104101, -- [111]
-						146982, -- [112]
-						100619, -- [113]
-						66064, -- [114]
-						0, -- [115]
-						27333, -- [116]
-						0, -- [117]
-						64408, -- [118]
-						38653, -- [119]
-						4909, -- [120]
-						86198, -- [121]
-						98975, -- [122]
-						23459, -- [123]
-						146965, -- [124]
-						0, -- [125]
-						["max_value"] = 308120,
+						0.002554, -- [1]
+						107516, -- [2]
+						15956, -- [3]
+						56626, -- [4]
+						67269, -- [5]
+						287085, -- [6]
+						0, -- [7]
+						145758, -- [8]
+						["max_value"] = 287085,
 					},
 					["Raid Damage Done"] = {
-						14378, -- [1]
-						55153, -- [2]
-						72703, -- [3]
-						168729, -- [4]
-						235134, -- [5]
-						303560, -- [6]
-						131299, -- [7]
-						45674, -- [8]
-						68055, -- [9]
-						92686, -- [10]
-						0, -- [11]
-						154091, -- [12]
-						119612, -- [13]
-						49616, -- [14]
-						66430, -- [15]
-						0, -- [16]
-						107079, -- [17]
-						24231, -- [18]
-						197449, -- [19]
-						81423, -- [20]
-						0, -- [21]
-						81440, -- [22]
-						240054, -- [23]
-						128643, -- [24]
-						96432, -- [25]
-						72317, -- [26]
-						21127, -- [27]
-						16919, -- [28]
-						93312, -- [29]
-						42445, -- [30]
-						125917, -- [31]
-						214474, -- [32]
-						5694, -- [33]
-						35756, -- [34]
-						5695, -- [35]
-						100295, -- [36]
-						34409, -- [37]
-						18651, -- [38]
-						94863, -- [39]
-						117125, -- [40]
-						76532, -- [41]
-						20836, -- [42]
-						32592, -- [43]
-						103557, -- [44]
-						64390, -- [45]
-						116779, -- [46]
-						18553, -- [47]
-						55706, -- [48]
-						143920, -- [49]
-						9345, -- [50]
-						121171, -- [51]
-						0, -- [52]
-						143869, -- [53]
-						0, -- [54]
-						140017, -- [55]
-						90581, -- [56]
-						44064, -- [57]
-						52119, -- [58]
-						105540, -- [59]
-						83150, -- [60]
-						5695, -- [61]
-						96929, -- [62]
-						74488, -- [63]
-						221401, -- [64]
-						29553, -- [65]
-						119544, -- [66]
-						130621, -- [67]
-						98160, -- [68]
-						130341, -- [69]
-						69227, -- [70]
-						273314, -- [71]
-						121172, -- [72]
-						293533, -- [73]
-						122258, -- [74]
-						72451, -- [75]
-						12288, -- [76]
-						80079, -- [77]
-						21628, -- [78]
-						79762, -- [79]
-						21597, -- [80]
-						106135, -- [81]
-						97800, -- [82]
-						173577, -- [83]
-						80875, -- [84]
-						96010, -- [85]
-						0, -- [86]
-						27973, -- [87]
-						150498, -- [88]
-						16386, -- [89]
-						21210, -- [90]
-						0, -- [91]
-						91262, -- [92]
-						91398, -- [93]
-						64235, -- [94]
-						216779, -- [95]
-						153257, -- [96]
-						234504, -- [97]
-						81722, -- [98]
-						38858, -- [99]
-						0, -- [100]
-						60585, -- [101]
-						141715, -- [102]
-						164158, -- [103]
-						144737, -- [104]
-						33481, -- [105]
-						226665, -- [106]
-						119106, -- [107]
-						76152, -- [108]
-						308120, -- [109]
-						0, -- [110]
-						104101, -- [111]
-						146982, -- [112]
-						100619, -- [113]
-						66064, -- [114]
-						0, -- [115]
-						27333, -- [116]
-						0, -- [117]
-						64408, -- [118]
-						38653, -- [119]
-						4909, -- [120]
-						86198, -- [121]
-						98975, -- [122]
-						23459, -- [123]
-						146965, -- [124]
-						0, -- [125]
-						["max_value"] = 308120,
+						0, -- [1]
+						107516, -- [2]
+						15956, -- [3]
+						56626, -- [4]
+						67269, -- [5]
+						287085, -- [6]
+						0, -- [7]
+						145758, -- [8]
+						["max_value"] = 287085,
 					},
 				},
-			}, -- [1]
+			}, -- [2]
 			{
 				{
-					["combatId"] = 205,
+					["combatId"] = 257,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Environment (Falling)"] = true,
-								["Fel Annihilator"] = true,
-								["Felguard"] = true,
+								["Withered Outcast"] = true,
 							},
 							["targets"] = {
-								["Fel Annihilator"] = 85379,
-								["Felguard"] = 729463,
+								["Withered Outcast"] = 1271245,
 							},
-							["spec"] = 577,
 							["pets"] = {
 							},
-							["colocacao"] = 1,
-							["end_time"] = 1488061016,
+							["spec"] = 577,
+							["on_hold"] = false,
 							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 814842.001723,
+							["total_without_pet"] = 1271245.001871,
+							["end_time"] = 1488229897,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 1271245.001871,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 814842.001723,
 							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
 							["nome"] = "Kaldorath",
 							["spells"] = {
 								["tipo"] = 2,
@@ -1080,20 +1431,19 @@ _detalhes_database = {
 									{
 										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 34292,
+										["c_dmg"] = 41180,
 										["g_amt"] = 0,
-										["n_max"] = 11722,
+										["n_max"] = 10595,
 										["targets"] = {
-											["Fel Annihilator"] = 24793,
-											["Felguard"] = 60712,
+											["Withered Outcast"] = 85576,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 51213,
-										["n_min"] = 4828,
+										["n_dmg"] = 44396,
+										["n_min"] = 4473,
 										["g_dmg"] = 0,
 										["counter"] = 9,
-										["total"] = 85505,
-										["c_max"] = 24793,
+										["total"] = 85576,
+										["c_max"] = 22874,
 										["MISS"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
@@ -1106,24 +1456,24 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
 										["r_amt"] = 0,
-										["c_min"] = 9499,
+										["c_min"] = 18306,
 									}, -- [1]
 									[213243] = {
-										["c_amt"] = 1,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 192926,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 92199,
+										["n_max"] = 94080,
 										["targets"] = {
-											["Felguard"] = 285125,
+											["Withered Outcast"] = 168842,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 92199,
-										["n_min"] = 92199,
+										["n_dmg"] = 168842,
+										["n_min"] = 74762,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 285125,
-										["c_max"] = 192926,
+										["total"] = 168842,
+										["c_max"] = 0,
 										["id"] = 213243,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -1133,26 +1483,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 2,
 										["r_amt"] = 0,
-										["c_min"] = 192926,
+										["c_min"] = 0,
 									},
 									[199552] = {
-										["c_amt"] = 0,
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 52387,
 										["g_amt"] = 0,
-										["n_max"] = 29182,
+										["n_max"] = 27976,
 										["targets"] = {
-											["Felguard"] = 58102,
+											["Withered Outcast"] = 146155,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 58102,
-										["n_min"] = 9592,
+										["n_dmg"] = 93768,
+										["n_min"] = 10380,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 58102,
-										["c_max"] = 0,
+										["counter"] = 8,
+										["total"] = 146155,
+										["c_max"] = 52387,
 										["id"] = 199552,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -1162,26 +1512,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 7,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 52387,
 									},
 									[203796] = {
-										["c_amt"] = 1,
+										["c_amt"] = 3,
 										["b_amt"] = 0,
-										["c_dmg"] = 28703,
+										["c_dmg"] = 71735,
 										["g_amt"] = 0,
-										["n_max"] = 12534,
+										["n_max"] = 13722,
 										["targets"] = {
-											["Felguard"] = 64832,
+											["Withered Outcast"] = 107738,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 36129,
-										["n_min"] = 11642,
+										["n_dmg"] = 36003,
+										["n_min"] = 10852,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 64832,
-										["c_max"] = 28703,
+										["counter"] = 6,
+										["total"] = 107738,
+										["c_max"] = 26417,
 										["id"] = 203796,
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
@@ -1193,54 +1543,24 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
 										["r_amt"] = 0,
-										["c_min"] = 28703,
-									},
-									[202761] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 5695,
-										["targets"] = {
-											["Felguard"] = 19930,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 19930,
-										["n_min"] = 4745,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 19930,
-										["c_max"] = 0,
-										["id"] = 202761,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 22556,
 									},
 									[192611] = {
-										["c_amt"] = 1,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 121172,
+										["c_dmg"] = 249155,
 										["g_amt"] = 0,
-										["n_max"] = 60586,
+										["n_max"] = 56626,
 										["targets"] = {
-											["Fel Annihilator"] = 60586,
-											["Felguard"] = 121172,
+											["Withered Outcast"] = 305781,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 60586,
-										["n_min"] = 60586,
+										["n_dmg"] = 56626,
+										["n_min"] = 56626,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 181758,
-										["c_max"] = 121172,
+										["counter"] = 3,
+										["total"] = 305781,
+										["c_max"] = 135903,
 										["id"] = 192611,
 										["r_dmg"] = 0,
 										["spellschool"] = 127,
@@ -1252,632 +1572,24 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 121172,
-									},
-									[236237] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6124,
-										["targets"] = {
-											["Felguard"] = 10870,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10870,
-										["n_min"] = 4746,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 10870,
-										["c_max"] = 0,
-										["id"] = 236237,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[199547] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 61251,
-										["targets"] = {
-											["Felguard"] = 108720,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 108720,
-										["n_min"] = 47469,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 108720,
-										["c_max"] = 0,
-										["id"] = 199547,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A6AF472",
-							["last_dps"] = 81024.436490403,
-							["custom"] = 0,
-							["last_event"] = 1488061016,
-							["damage_taken"] = 479435.001723,
-							["start_time"] = 1488060616,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 205,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["combatId"] = 205,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 148.007363,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 1,
-							["classe"] = "DEMONHUNTER",
-							["total"] = 0.007363,
-							["nome"] = "Kaldorath",
-							["spec"] = 577,
-							["grupo"] = true,
-							["resource_type"] = 17,
-							["tipo"] = 3,
-							["received"] = 0.007363,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["serial"] = "Player-5-0A6AF472",
-							["last_event"] = 1488061016,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 205,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[202761] = {
-										["uptime"] = 8,
-										["activedamt"] = 0,
-										["id"] = 202761,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 1,
-							["classe"] = "DEMONHUNTER",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[224170] = {
-										["actived_at"] = 1488060618,
-										["uptime"] = 0,
-										["activedamt"] = 1,
-										["id"] = 224170,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[188499] = {
-										["uptime"] = 1,
-										["activedamt"] = 1,
-										["id"] = 188499,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Huntmaster's Infusion"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Huntmaster's Infusion",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[208628] = {
-										["actived_at"] = 1488060624,
-										["uptime"] = 0,
-										["activedamt"] = 1,
-										["id"] = 208628,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Momentum"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Momentum",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Agility Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Agility Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["debuff_uptime"] = 8,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 577,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[183752] = 1,
-								[188499] = 1,
-								[195072] = 1,
-								[162794] = 1,
-								[232893] = 2,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1488060625,
-							["nome"] = "Kaldorath",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A6AF472",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 205,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Kaldorath"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Felguard",
-				["combat_counter"] = 264,
-				["totals"] = {
-					814841.944012, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-					["Kaldorath"] = {
-						{
-							true, -- [1]
-							204175, -- [2]
-							3381, -- [3]
-							1488060627.818, -- [4]
-							786828, -- [5]
-							"Felguard", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							204175, -- [2]
-							3381, -- [3]
-							1488060630.819, -- [4]
-							792637, -- [5]
-							"Felguard", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							204175, -- [2]
-							3381, -- [3]
-							1488060633.817, -- [4]
-							807751, -- [5]
-							"Felguard", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [3]
-						{
-							true, -- [1]
-							204175, -- [2]
-							3381, -- [3]
-							1488060636.818, -- [4]
-							813533, -- [5]
-							"Felguard", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [4]
-						{
-							true, -- [1]
-							3, -- [2]
-							269240, -- [3]
-							1488060698.655, -- [4]
-							638920, -- [5]
-							"Environment (Falling)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [5]
-						{
-							true, -- [1]
-							1, -- [2]
-							69597, -- [3]
-							1488061017.176, -- [4]
-							908160, -- [5]
-							"Fel Annihilator", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 7,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Kaldorath"] = 729463.001723,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 13562.856,
-				["combat_id"] = 205,
-				["instance_type"] = "scenario",
-				["frags"] = {
-					["Felguard"] = 2,
-				},
-				["data_fim"] = "14:10:25",
-				["data_inicio"] = "14:10:16",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					814842, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 13553.853,
-				["contra"] = "Felguard",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						132624.001723, -- [1]
-						0, -- [2]
-						72926, -- [3]
-						96557, -- [4]
-						76630, -- [5]
-						0, -- [6]
-						4745, -- [7]
-						147360, -- [8]
-						198621, -- [9]
-						["max_value"] = 198621,
-					},
-					["Raid Damage Done"] = {
-						132624, -- [1]
-						0, -- [2]
-						72926, -- [3]
-						96557, -- [4]
-						76630, -- [5]
-						0, -- [6]
-						4745, -- [7]
-						147360, -- [8]
-						198621, -- [9]
-						["max_value"] = 198621,
-					},
-				},
-			}, -- [2]
-			{
-				{
-					["combatId"] = 204,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["Rakeeshi Sorcerer"] = true,
-							},
-							["targets"] = {
-								["Rakeeshi Sorcerer"] = 1249862,
-							},
-							["pets"] = {
-							},
-							["total"] = 1249862.003574,
-							["on_hold"] = false,
-							["classe"] = "DEMONHUNTER",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1249862.003574,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1488060591,
-							["friendlyfire_total"] = 0,
-							["spec"] = 577,
-							["nome"] = "Kaldorath",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 9825,
-										["g_amt"] = 0,
-										["n_max"] = 11948,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 44252,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 34427,
-										["n_min"] = 5040,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 44252,
-										["c_max"] = 9825,
-										["MISS"] = 2,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 9825,
-									}, -- [1]
-									[199552] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 23077,
-										["g_amt"] = 0,
-										["n_max"] = 32950,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 79062,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 55985,
-										["n_min"] = 11131,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 79062,
-										["c_max"] = 23077,
-										["id"] = 199552,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 23077,
-									},
-									[192611] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 60586,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 60586,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 60586,
-										["n_min"] = 60586,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 60586,
-										["c_max"] = 0,
-										["id"] = 192611,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[201628] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 214883,
-										["g_amt"] = 0,
-										["n_max"] = 20276,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 313011,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 98128,
-										["n_min"] = 9647,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 313011,
-										["c_max"] = 41855,
-										["id"] = 201628,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 18832,
+										["c_min"] = 113252,
 									},
 									[198030] = {
-										["c_amt"] = 10,
+										["c_amt"] = 16,
 										["b_amt"] = 0,
-										["c_dmg"] = 226223,
+										["c_dmg"] = 337713,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 226223,
+											["Withered Outcast"] = 337713,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 226223,
-										["c_max"] = 23671,
+										["counter"] = 16,
+										["total"] = 337713,
+										["c_max"] = 22182,
 										["id"] = 198030,
 										["r_dmg"] = 0,
 										["spellschool"] = 124,
@@ -1889,23 +1601,52 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 21707,
+										["c_min"] = 20136,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6220,
+										["targets"] = {
+											["Withered Outcast"] = 10858,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10858,
+										["n_min"] = 4638,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 10858,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["spellschool"] = 124,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
 									},
 									[199547] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 75918,
+										["n_max"] = 62202,
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 134108,
+											["Withered Outcast"] = 108582,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 134108,
-										["n_min"] = 58190,
+										["n_dmg"] = 108582,
+										["n_min"] = 46380,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 134108,
+										["total"] = 108582,
 										["c_max"] = 0,
 										["id"] = 199547,
 										["r_dmg"] = 0,
@@ -1920,240 +1661,135 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[202761] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 5695,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 33219,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 33219,
-										["n_min"] = 4745,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 33219,
-										["c_max"] = 0,
-										["id"] = 202761,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[236237] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 7591,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 7591,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7591,
-										["n_min"] = 7591,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 7591,
-										["c_max"] = 0,
-										["id"] = 236237,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[198813] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 17970,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 17970,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 17970,
-										["c_max"] = 17970,
-										["id"] = 198813,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 17970,
-									},
-									[213243] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 184595,
-										["g_amt"] = 0,
-										["n_max"] = 79802,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 264397,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 79802,
-										["n_min"] = 79802,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 264397,
-										["c_max"] = 184595,
-										["id"] = 213243,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 184595,
-									},
-									[203796] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 55576,
-										["g_amt"] = 0,
-										["n_max"] = 13867,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 69443,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13867,
-										["n_min"] = 13867,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 69443,
-										["c_max"] = 27795,
-										["id"] = 203796,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 27781,
-									},
 								},
 							},
 							["grupo"] = true,
 							["serial"] = "Player-5-0A6AF472",
-							["last_dps"] = 73503.9992692273,
+							["last_dps"] = 98906.4811227514,
 							["custom"] = 0,
-							["last_event"] = 1488060590,
-							["damage_taken"] = 101285.003574,
-							["start_time"] = 1488060574,
+							["last_event"] = 1488229896,
+							["damage_taken"] = 200939.001871,
+							["start_time"] = 1488229884,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 204,
+					["combatId"] = 257,
 					["tipo"] = 3,
 					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.005847,
+							["total_without_pet"] = 216180.005847,
+							["total"] = 216180.005847,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.005847,
+							["last_hps"] = 19475.6762024286,
+							["targets"] = {
+								["Kaldorath"] = 216180,
+							},
+							["totalover_without_pet"] = 0.005847,
+							["healing_taken"] = 216180.005847,
+							["fight_component"] = true,
+							["end_time"] = 1488229897,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[178963] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 216180,
+										["targets"] = {
+											["Kaldorath"] = 216180,
+										},
+										["n_min"] = 216180,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 216180,
+										["c_max"] = 0,
+										["id"] = 178963,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["n_curado"] = 216180,
+										["m_healed"] = 0,
+										["n_amt"] = 1,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["classe"] = "DEMONHUNTER",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 1488229895,
+							["start_time"] = 1488229895,
+							["delay"] = 0,
+							["spec"] = 577,
+						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 204,
+					["combatId"] = 257,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 171.004629,
+							["resource"] = 219.008341,
 							["targets"] = {
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "DEMONHUNTER",
-							["total"] = 0.004629,
+							["fight_component"] = true,
+							["total"] = 0.008341,
 							["nome"] = "Kaldorath",
 							["spec"] = 577,
 							["grupo"] = true,
 							["resource_type"] = 17,
 							["tipo"] = 3,
-							["received"] = 0.004629,
+							["received"] = 0.008341,
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
 							},
 							["serial"] = "Player-5-0A6AF472",
-							["last_event"] = 1488060589,
+							["last_event"] = 1488229896,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 204,
+					["combatId"] = 257,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[202761] = {
-										["uptime"] = 12,
-										["activedamt"] = 0,
-										["id"] = 202761,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[216776] = {
-										["uptime"] = 13,
-										["activedamt"] = 0,
-										["id"] = 216776,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[198813] = {
-										["uptime"] = 3,
-										["activedamt"] = 0,
-										["id"] = 198813,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 22,
+							["buff_uptime"] = 47,
 							["classe"] = "DEMONHUNTER",
 							["interrupt_spells"] = {
 								["tipo"] = 9,
@@ -2161,10 +1797,10 @@ _detalhes_database = {
 									[183752] = {
 										["id"] = 183752,
 										["interrompeu_oque"] = {
-											[180395] = 1,
+											[181500] = 1,
 										},
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 1,
+											["Withered Outcast"] = 1,
 										},
 										["counter"] = 1,
 									},
@@ -2173,10 +1809,10 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									[224170] = {
-										["uptime"] = 10,
+									[222952] = {
+										["uptime"] = 13,
 										["activedamt"] = 1,
-										["id"] = 224170,
+										["id"] = 222952,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2200,8 +1836,17 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
+									[202866] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 202866,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[208628] = {
-										["uptime"] = 9,
+										["uptime"] = 5,
 										["activedamt"] = 1,
 										["id"] = 208628,
 										["actived"] = false,
@@ -2209,19 +1854,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									["Momentum"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Momentum",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Agility Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Agility Flask",
+									[156073] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 156073,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2230,29 +1866,26 @@ _detalhes_database = {
 								},
 							},
 							["interrompeu_oque"] = {
-								[180395] = 1,
+								[181500] = 1,
 							},
-							["debuff_uptime"] = 28,
-							["interrupt_targets"] = {
-								["Rakeeshi Sorcerer"] = 1,
-							},
+							["fight_component"] = true,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 577,
 							["grupo"] = true,
 							["spell_cast"] = {
 								[183752] = 1,
-								[195072] = 3,
+								[195072] = 1,
 								[198013] = 1,
 								[162794] = 1,
-								[201467] = 1,
 								[188499] = 1,
 								[232893] = 2,
 							},
-							["interrupt"] = 1.006555,
-							["debuff_uptime_targets"] = {
+							["interrupt_targets"] = {
+								["Withered Outcast"] = 1,
 							},
-							["last_event"] = 1488060591,
+							["interrupt"] = 1.002723,
+							["last_event"] = 1488229897,
 							["nome"] = "Kaldorath",
 							["pets"] = {
 							},
@@ -2262,7 +1895,7 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 204,
+					["combatId"] = 257,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -2273,11 +1906,12 @@ _detalhes_database = {
 				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Rakeeshi Sorcerer",
-				["combat_counter"] = 263,
+				["enemy"] = "Withered Outcast",
+				["combat_counter"] = 324,
+				["playing_solo"] = true,
 				["totals"] = {
-					1249861.965647, -- [1]
-					0, -- [2]
+					1271244.99452, -- [1]
+					216180, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -2311,31 +1945,31 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
+							["Kaldorath"] = 216180.005847,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Kaldorath"] = 1249862.003574,
+							["Kaldorath"] = 1271245.001871,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 13529.359,
-				["combat_id"] = 204,
-				["instance_type"] = "scenario",
+				["end_time"] = 18844.223,
+				["combat_id"] = 257,
+				["instance_type"] = "none",
 				["frags"] = {
-					["Screeching Felspawn"] = 1,
-					["Rakeeshi Sorcerer"] = 1,
-					["Felguard"] = 2,
+					["Withered Outcast"] = 3,
+					["Withered Skulker"] = 1,
 				},
-				["data_fim"] = "14:09:52",
-				["data_inicio"] = "14:09:35",
+				["data_fim"] = "13:11:38",
+				["data_inicio"] = "13:11:25",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					1249862, -- [1]
-					0, -- [2]
+					1271245, -- [1]
+					216180, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -2353,106 +1987,93 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 13512.355,
-				["contra"] = "Rakeeshi Sorcerer",
+				["start_time"] = 18831.37,
+				["contra"] = "Withered Outcast",
 				["TimeData"] = {
 					["Player Damage Done"] = {
-						17970.003574, -- [1]
-						0, -- [2]
-						5695, -- [3]
-						0, -- [4]
-						5694, -- [5]
-						0, -- [6]
-						10735, -- [7]
-						135944, -- [8]
-						91009, -- [9]
-						273219, -- [10]
-						123609, -- [11]
-						70411, -- [12]
-						85841, -- [13]
-						243260, -- [14]
-						39081, -- [15]
-						147394, -- [16]
-						0, -- [17]
-						["max_value"] = 273219,
+						169878.001871, -- [1]
+						164531, -- [2]
+						94080, -- [3]
+						56247, -- [4]
+						65792.0000000001, -- [5]
+						200185, -- [6]
+						0, -- [7]
+						273105, -- [8]
+						64608, -- [9]
+						99804, -- [10]
+						51018, -- [11]
+						0, -- [12]
+						["max_value"] = 273105,
 					},
 					["Raid Damage Done"] = {
-						17970, -- [1]
-						0, -- [2]
-						5695, -- [3]
-						0, -- [4]
-						5694, -- [5]
-						0, -- [6]
-						10735, -- [7]
-						135944, -- [8]
-						91009, -- [9]
-						273219, -- [10]
-						123609, -- [11]
-						70411, -- [12]
-						85841, -- [13]
-						243260, -- [14]
-						39081, -- [15]
-						147394, -- [16]
-						0, -- [17]
-						["max_value"] = 273219,
+						169878, -- [1]
+						164531, -- [2]
+						94080, -- [3]
+						56247, -- [4]
+						65792, -- [5]
+						200185, -- [6]
+						0, -- [7]
+						273105, -- [8]
+						64608, -- [9]
+						99804, -- [10]
+						51018, -- [11]
+						0, -- [12]
+						["max_value"] = 273105,
 					},
 				},
 			}, -- [3]
 			{
 				{
-					["combatId"] = 203,
+					["combatId"] = 256,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Rakeeshi Sorcerer"] = true,
-								["Karzak the Impaler"] = true,
-								["Felbound Wrathlord"] = true,
+								["Withered Skulker"] = true,
+								["Withered Outcast"] = true,
 							},
 							["targets"] = {
-								["Rakeeshi Sorcerer"] = 1048307,
-								["Karzak the Impaler"] = 4794771,
-								["Felbound Wrathlord"] = 493510,
+								["Withered Skulker"] = 474047,
+								["Withered Outcast"] = 631205,
+							},
+							["pets"] = {
+								"Kayn Sunfury <Kaldorath>", -- [1]
 							},
 							["spec"] = 577,
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["end_time"] = 1488060465,
+							["on_hold"] = false,
 							["classe"] = "DEMONHUNTER",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 6336588.008858,
+							["total_without_pet"] = 822443.003179,
+							["end_time"] = 1488229858,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 1105252.003179,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 6336588.008858,
 							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
 							["nome"] = "Kaldorath",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 11,
-										["b_amt"] = 1,
-										["c_dmg"] = 164013,
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 14493,
+										["n_max"] = 11649,
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 60313,
-											["Karzak the Impaler"] = 327011,
-											["Felbound Wrathlord"] = 33956,
+											["Withered Skulker"] = 11649,
+											["Withered Outcast"] = 32431,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 257267,
-										["n_min"] = 4786,
+										["n_dmg"] = 44080,
+										["n_min"] = 4489,
 										["g_dmg"] = 0,
-										["counter"] = 46,
-										["total"] = 421280,
-										["c_max"] = 22304,
-										["MISS"] = 7,
+										["counter"] = 5,
+										["total"] = 44080,
+										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -2461,270 +2082,30 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 9649,
-										["n_amt"] = 28,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
-										["c_min"] = 9432,
+										["c_min"] = 0,
 									}, -- [1]
-									[199552] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 72059,
-										["g_amt"] = 0,
-										["n_max"] = 42782,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 109931,
-											["Karzak the Impaler"] = 65158,
-											["Felbound Wrathlord"] = 85706,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 188736,
-										["n_min"] = 8762,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 260795,
-										["c_max"] = 27614,
-										["id"] = 199552,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 17739,
-									},
-									[192611] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 174487,
-										["g_amt"] = 0,
-										["n_max"] = 87244,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 220532,
-											["Karzak the Impaler"] = 508919,
-											["Felbound Wrathlord"] = 72703,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 627667,
-										["n_min"] = 60586,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 802154,
-										["c_max"] = 174487,
-										["id"] = 192611,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 174487,
-									},
-									[201628] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 203253,
-										["g_amt"] = 0,
-										["n_max"] = 35093,
-										["targets"] = {
-											["Karzak the Impaler"] = 419433,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 216180,
-										["n_min"] = 14181,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 419433,
-										["c_max"] = 58055,
-										["id"] = 201628,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 33751,
-									},
-									[198030] = {
-										["c_amt"] = 21,
-										["b_amt"] = 0,
-										["c_dmg"] = 618386,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 28375,
-											["Karzak the Impaler"] = 320050,
-											["Felbound Wrathlord"] = 269961,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 618386,
-										["c_max"] = 33991,
-										["id"] = 198030,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 25995,
-									},
-									[236237] = {
+									[213243] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 14109,
+										["n_max"] = 90630,
 										["targets"] = {
-											["Karzak the Impaler"] = 121010,
-											["Rakeeshi Sorcerer"] = 58496,
+											["Withered Skulker"] = 90630,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 179506,
-										["n_min"] = 5618,
-										["g_dmg"] = 0,
-										["counter"] = 19,
-										["total"] = 179506,
-										["c_max"] = 0,
-										["id"] = 236237,
-										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 19,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[202761] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 8201,
-										["targets"] = {
-											["Karzak the Impaler"] = 90982,
-											["Rakeeshi Sorcerer"] = 11390,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 102372,
-										["n_min"] = 3513,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 102372,
-										["c_max"] = 0,
-										["id"] = 202761,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[201428] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 140294,
-										["targets"] = {
-											["Karzak the Impaler"] = 671463,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 671463,
-										["n_min"] = 74291,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 671463,
-										["c_max"] = 0,
-										["id"] = 201428,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[210153] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 67297,
-										["g_amt"] = 0,
-										["n_max"] = 51814,
-										["targets"] = {
-											["Karzak the Impaler"] = 424343,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 357046,
-										["n_min"] = 13219,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 424343,
-										["c_max"] = 39418,
-										["id"] = 210153,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 14,
-										["r_amt"] = 0,
-										["c_min"] = 27879,
-									},
-									[200166] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 59349,
-										["targets"] = {
-											["Karzak the Impaler"] = 59349,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 59349,
-										["n_min"] = 59349,
+										["n_dmg"] = 90630,
+										["n_min"] = 90630,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 59349,
+										["total"] = 90630,
 										["c_max"] = 0,
-										["id"] = 200166,
+										["id"] = 213243,
 										["r_dmg"] = 0,
-										["spellschool"] = 124,
+										["spellschool"] = 4,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
@@ -2735,83 +2116,51 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									[213243] = {
-										["c_amt"] = 4,
+									[199552] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 735991,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 93267,
+										["n_max"] = 9266,
 										["targets"] = {
-											["Karzak the Impaler"] = 922033,
+											["Withered Outcast"] = 9266,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 186042,
-										["n_min"] = 92775,
+										["n_dmg"] = 9266,
+										["n_min"] = 9266,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 922033,
-										["c_max"] = 232416,
-										["id"] = 213243,
+										["counter"] = 1,
+										["total"] = 9266,
+										["c_max"] = 0,
+										["id"] = 199552,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
+										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 158027,
-									},
-									[199547] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 253915,
-										["g_amt"] = 0,
-										["n_max"] = 106364,
-										["targets"] = {
-											["Karzak the Impaler"] = 538681,
-											["Rakeeshi Sorcerer"] = 513416,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 798182,
-										["n_min"] = 56179,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 1052097,
-										["c_max"] = 141091,
-										["id"] = 199547,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 112824,
+										["c_min"] = 0,
 									},
 									[203796] = {
-										["c_amt"] = 5,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 141300,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 17365,
+										["n_max"] = 12896,
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 45854,
-											["Karzak the Impaler"] = 326339,
-											["Felbound Wrathlord"] = 31184,
+											["Withered Outcast"] = 12896,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 262077,
-										["n_min"] = 11956,
+										["n_dmg"] = 12896,
+										["n_min"] = 12896,
 										["g_dmg"] = 0,
-										["counter"] = 24,
-										["total"] = 403377,
-										["c_max"] = 33430,
+										["counter"] = 1,
+										["total"] = 12896,
+										["c_max"] = 0,
 										["id"] = 203796,
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
@@ -2821,1078 +2170,126 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 19,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 22814,
+										["c_min"] = 0,
+									},
+									[192611] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 141986,
+										["g_amt"] = 0,
+										["n_max"] = 70992,
+										["targets"] = {
+											["Withered Skulker"] = 141986,
+											["Withered Outcast"] = 127618,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 127618,
+										["n_min"] = 56626,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 269604,
+										["c_max"] = 141986,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 141986,
+									},
+									[201628] = {
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["c_dmg"] = 43729,
+										["g_amt"] = 0,
+										["n_max"] = 24476,
+										["targets"] = {
+											["Withered Outcast"] = 244972,
+											["Withered Skulker"] = 150995,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 352238,
+										["n_min"] = 8403,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 395967,
+										["c_max"] = 22900,
+										["id"] = 201628,
+										["r_dmg"] = 0,
+										["spellschool"] = 127,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 8403,
+										["n_amt"] = 20,
+										["r_amt"] = 0,
+										["c_min"] = 20829,
 									},
 								},
 							},
 							["grupo"] = true,
 							["serial"] = "Player-5-0A6AF472",
-							["last_dps"] = 88008.1667896945,
+							["last_dps"] = 150764.152663928,
 							["custom"] = 0,
-							["last_event"] = 1488060456,
-							["damage_taken"] = 510406.008858,
-							["start_time"] = 1488060393,
+							["last_event"] = 1488229857,
+							["damage_taken"] = 164823.003179,
+							["start_time"] = 1488229850,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 203,
-					["tipo"] = 3,
-					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Kaldorath"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 891784.001322,
-							["total_without_pet"] = 467134.001322,
-							["total"] = 467134.001322,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-5-0A6AF472",
-							["totalabsorb"] = 0.001322,
-							["last_hps"] = 6489.32418312143,
-							["targets"] = {
-								["Kaldorath"] = 816125,
-							},
-							["totalover_without_pet"] = 0.001322,
-							["healing_taken"] = 467134.001322,
-							["fight_component"] = true,
-							["end_time"] = 1488060465,
-							["targets_overheal"] = {
-								["Kaldorath"] = 891784,
-							},
-							["nome"] = "Kaldorath",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[101649] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Kaldorath"] = 1484,
-										},
-										["n_max"] = 311,
-										["targets"] = {
-											["Kaldorath"] = 596,
-										},
-										["n_min"] = 285,
-										["counter"] = 5,
-										["overheal"] = 1484,
-										["total"] = 596,
-										["c_max"] = 0,
-										["id"] = 101649,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 596,
-										["m_healed"] = 0,
-										["n_amt"] = 3,
-										["absorbed"] = 0,
-									},
-									[202644] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Kaldorath"] = 265727,
-										},
-										["n_max"] = 152086,
-										["targets"] = {
-											["Kaldorath"] = 184215,
-										},
-										["n_min"] = 32129,
-										["counter"] = 2,
-										["overheal"] = 265727,
-										["total"] = 184215,
-										["c_max"] = 0,
-										["id"] = 202644,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 184215,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Kaldorath"] = 624573,
-										},
-										["n_max"] = 79438,
-										["targets"] = {
-											["Kaldorath"] = 282323,
-										},
-										["n_min"] = 0,
-										["counter"] = 21,
-										["overheal"] = 624573,
-										["total"] = 282323,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 282323,
-										["m_healed"] = 0,
-										["n_amt"] = 21,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["classe"] = "DEMONHUNTER",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["last_event"] = 1488060457,
-							["start_time"] = 1488060411,
-							["delay"] = 1488060439,
-							["spec"] = 577,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 203,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["resource"] = 650.006228,
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["powertype"] = 1,
-							["classe"] = "DEMONHUNTER",
-							["fight_component"] = true,
-							["total"] = 0.006228,
-							["nome"] = "Kaldorath",
-							["spec"] = 577,
-							["grupo"] = true,
-							["resource_type"] = 17,
-							["tipo"] = 3,
-							["received"] = 0.006228,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-								},
-							},
-							["serial"] = "Player-5-0A6AF472",
-							["last_event"] = 1488060452,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 203,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime"] = 38,
-							["debuff_uptime_targets"] = {
-							},
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[189804] = {
-										["uptime"] = 38,
-										["activedamt"] = 0,
-										["id"] = 189804,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["nome"] = "Farseer Nobundo",
-							["spell_cast"] = {
-								[190330] = 6,
-								[189804] = 4,
-								[90399] = 3,
-							},
-							["pets"] = {
-							},
-							["buff_uptime"] = 13,
-							["tipo"] = 4,
-							["last_event"] = 1488060454,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Earth Shield"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Earth Shield",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[90399] = {
-										["actived_at"] = 1488060451,
-										["uptime"] = 13,
-										["activedamt"] = 1,
-										["id"] = 90399,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Creature-0-3780-1624-19060-110695-000031FDFC",
-							["classe"] = "PALADIN",
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Liani the Lifegiver",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1488060393,
-							["buff_uptime"] = 0,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Earth Shield"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Earth Shield",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Creature-0-3780-1624-19060-111082-000031FDFC",
-							["classe"] = "PALADIN",
-						}, -- [2]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[202761] = {
-										["uptime"] = 29,
-										["activedamt"] = 0,
-										["id"] = 202761,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[216776] = {
-										["uptime"] = 1,
-										["activedamt"] = 0,
-										["id"] = 216776,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 93,
-							["classe"] = "DEMONHUNTER",
-							["interrupt_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[183752] = {
-										["id"] = 183752,
-										["interrompeu_oque"] = {
-											[180392] = 1,
-										},
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[188499] = {
-										["uptime"] = 2,
-										["activedamt"] = 2,
-										["id"] = 188499,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[198013] = {
-										["uptime"] = 4,
-										["activedamt"] = 2,
-										["id"] = 198013,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Demon Soul"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Demon Soul",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Draenic Agility Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Agility Flask",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[163073] = {
-										["actived_at"] = 1488060457,
-										["uptime"] = 15,
-										["activedamt"] = 1,
-										["id"] = 163073,
-										["actived"] = true,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[224170] = {
-										["uptime"] = 10,
-										["activedamt"] = 1,
-										["id"] = 224170,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[162264] = {
-										["uptime"] = 30,
-										["activedamt"] = 1,
-										["id"] = 162264,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[210152] = {
-										["uptime"] = 4,
-										["activedamt"] = 4,
-										["id"] = 210152,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[208628] = {
-										["uptime"] = 28,
-										["activedamt"] = 7,
-										["id"] = 208628,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["interrompeu_oque"] = {
-								[180392] = 1,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 30,
-							["interrupt_targets"] = {
-								["Rakeeshi Sorcerer"] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 577,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[201427] = 3,
-								[188499] = 2,
-								[198013] = 2,
-								[210152] = 4,
-								[200166] = 1,
-								[195072] = 7,
-								[162794] = 6,
-								[232893] = 6,
-								[201467] = 1,
-								[183752] = 1,
-							},
-							["interrupt"] = 1.003467,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1488060465,
-							["nome"] = "Kaldorath",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A6AF472",
-							["tipo"] = 4,
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 203,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Da'kesh the Elementalist"] = true,
-					["Fister Rockfist"] = true,
-					["Farseer Nobundo"] = true,
-					["Liani the Lifegiver"] = true,
-					["Kaldorath"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Felbound Wrathlord",
-				["combat_counter"] = 262,
-				["totals"] = {
-					6336587.966496, -- [1]
-					467133.994626, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-					["Kaldorath"] = {
-						{
-							true, -- [1]
-							180392, -- [2]
-							31315, -- [3]
-							1488060566.804, -- [4]
-							876845, -- [5]
-							"Rakeeshi Sorcerer", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							180392, -- [2]
-							35023, -- [3]
-							1488060572.583, -- [4]
-							869285, -- [5]
-							"Rakeeshi Sorcerer", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Kaldorath"] = 467134.001322,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Kaldorath"] = 6336588.008858,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 13402.811,
-				["combat_id"] = 203,
-				["instance_type"] = "scenario",
-				["frags"] = {
-					["Screeching Felspawn"] = 3,
-					["Rakeeshi Sorcerer"] = 2,
-					["Karzak the Impaler"] = 1,
-					["Felguard"] = 7,
-				},
-				["data_fim"] = "14:07:45",
-				["data_inicio"] = "14:06:33",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					6336588, -- [1]
-					467134, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 13330.811,
-				["contra"] = "Felbound Wrathlord",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						31149.008858, -- [1]
-						134376, -- [2]
-						163960, -- [3]
-						0, -- [4]
-						145405, -- [5]
-						144423, -- [6]
-						85205, -- [7]
-						31759, -- [8]
-						311780, -- [9]
-						0, -- [10]
-						164567, -- [11]
-						107723, -- [12]
-						73640, -- [13]
-						159947, -- [14]
-						0, -- [15]
-						352935, -- [16]
-						0, -- [17]
-						106920, -- [18]
-						251914, -- [19]
-						5592, -- [20]
-						5780, -- [21]
-						0, -- [22]
-						0, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0, -- [26]
-						0, -- [27]
-						0, -- [28]
-						87243, -- [29]
-						230082, -- [30]
-						99608, -- [31]
-						70934, -- [32]
-						159799, -- [33]
-						206628, -- [34]
-						223927, -- [35]
-						165989, -- [36]
-						136215, -- [37]
-						83381, -- [38]
-						61921, -- [39]
-						21012, -- [40]
-						6833, -- [41]
-						123333, -- [42]
-						229780, -- [43]
-						210719, -- [44]
-						66434, -- [45]
-						115937, -- [46]
-						85827, -- [47]
-						210107, -- [48]
-						299416, -- [49]
-						246135, -- [50]
-						174268, -- [51]
-						0, -- [52]
-						73910, -- [53]
-						119925, -- [54]
-						242491, -- [55]
-						110970, -- [56]
-						97940, -- [57]
-						0, -- [58]
-						0, -- [59]
-						38163, -- [60]
-						0, -- [61]
-						0, -- [62]
-						60586, -- [63]
-						0, -- [64]
-						0, -- [65]
-						0, -- [66]
-						0, -- [67]
-						0, -- [68]
-						0, -- [69]
-						0, -- [70]
-						0, -- [71]
-						0, -- [72]
-						["max_value"] = 352935,
-					},
-					["Raid Damage Done"] = {
-						31149, -- [1]
-						134376, -- [2]
-						163960, -- [3]
-						0, -- [4]
-						145405, -- [5]
-						144423, -- [6]
-						85205, -- [7]
-						31759, -- [8]
-						311780, -- [9]
-						0, -- [10]
-						164567, -- [11]
-						107723, -- [12]
-						73640, -- [13]
-						159947, -- [14]
-						0, -- [15]
-						352935, -- [16]
-						0, -- [17]
-						106920, -- [18]
-						251914, -- [19]
-						5592, -- [20]
-						5780, -- [21]
-						0, -- [22]
-						0, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0, -- [26]
-						0, -- [27]
-						0, -- [28]
-						87243, -- [29]
-						230082, -- [30]
-						99608, -- [31]
-						70934, -- [32]
-						159799, -- [33]
-						206628, -- [34]
-						223927, -- [35]
-						165989, -- [36]
-						136215, -- [37]
-						83381, -- [38]
-						61921, -- [39]
-						21012, -- [40]
-						6833, -- [41]
-						123333, -- [42]
-						229780, -- [43]
-						210719, -- [44]
-						66434, -- [45]
-						115937, -- [46]
-						85827, -- [47]
-						210107, -- [48]
-						299416, -- [49]
-						246135, -- [50]
-						174268, -- [51]
-						0, -- [52]
-						73910, -- [53]
-						119925, -- [54]
-						242491, -- [55]
-						110970, -- [56]
-						97940, -- [57]
-						0, -- [58]
-						0, -- [59]
-						38163, -- [60]
-						0, -- [61]
-						0, -- [62]
-						60586, -- [63]
-						0, -- [64]
-						0, -- [65]
-						0, -- [66]
-						0, -- [67]
-						0, -- [68]
-						0, -- [69]
-						0, -- [70]
-						0, -- [71]
-						0, -- [72]
-						["max_value"] = 352935,
-					},
-				},
-			}, -- [4]
-			{
-				{
-					["combatId"] = 202,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3022-1220-31212-111944-00003495E0",
 							["damage_from"] = {
-								["Rakeeshi Sorcerer"] = true,
-								["Felguard"] = true,
 							},
 							["targets"] = {
-								["Rakeeshi Sorcerer"] = 1544617,
-								["Felbound Wrathlord"] = 1006617,
-								["Felguard"] = 15033,
+								["Withered Outcast"] = 204022,
+								["Withered Skulker"] = 78787,
 							},
 							["pets"] = {
 							},
-							["spec"] = 577,
 							["on_hold"] = false,
-							["classe"] = "DEMONHUNTER",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 2566267.00309,
-							["end_time"] = 1488060385,
-							["colocacao"] = 1,
+							["total_without_pet"] = 282809.008008,
 							["dps_started"] = false,
-							["total"] = 2566267.00309,
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["nome"] = "Kaldorath",
+							["total"] = 282809.008008,
+							["classe"] = "PET",
+							["ownerName"] = "Kaldorath",
+							["nome"] = "Kayn Sunfury <Kaldorath>",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									{
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 114906,
-										["g_amt"] = 0,
-										["n_max"] = 14522,
-										["targets"] = {
-											["Felbound Wrathlord"] = 60871,
-											["Rakeeshi Sorcerer"] = 184497,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 130462,
-										["n_min"] = 5781,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 245368,
-										["c_max"] = 28416,
-										["MISS"] = 2,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["r_amt"] = 0,
-										["c_min"] = 14462,
-									}, -- [1]
-									[213243] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 401776,
-										["g_amt"] = 0,
-										["n_max"] = 106413,
-										["targets"] = {
-											["Felbound Wrathlord"] = 178864,
-											["Rakeeshi Sorcerer"] = 426703,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 203791,
-										["n_min"] = 97378,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 605567,
-										["c_max"] = 222912,
-										["id"] = 213243,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 178864,
-									},
-									[199552] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 39946,
-										["targets"] = {
-											["Felbound Wrathlord"] = 148470,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 148470,
-										["n_min"] = 10783,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 148470,
-										["c_max"] = 0,
-										["id"] = 199552,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[199547] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 72066,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 72066,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 72066,
-										["n_min"] = 72066,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 72066,
-										["c_max"] = 0,
-										["id"] = 199547,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[203796] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 62314,
-										["g_amt"] = 0,
-										["n_max"] = 17777,
-										["targets"] = {
-											["Felbound Wrathlord"] = 60082,
-											["Rakeeshi Sorcerer"] = 108257,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 106025,
-										["n_min"] = 13631,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 168339,
-										["c_max"] = 33374,
-										["id"] = 203796,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 28940,
-									},
-									[192611] = {
+									[222946] = {
 										["c_amt"] = 1,
-										["b_amt"] = 1,
-										["c_dmg"] = 174487,
-										["g_amt"] = 0,
-										["n_max"] = 87243,
-										["targets"] = {
-											["Felbound Wrathlord"] = 50891,
-											["Rakeeshi Sorcerer"] = 494378,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 370782,
-										["n_min"] = 50891,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 545269,
-										["c_max"] = 174487,
-										["id"] = 192611,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 50891,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 174487,
-									},
-									[198030] = {
-										["c_amt"] = 13,
 										["b_amt"] = 0,
-										["c_dmg"] = 372465,
+										["c_dmg"] = 81183,
 										["g_amt"] = 0,
-										["n_max"] = 0,
+										["n_max"] = 42721,
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 243681,
-											["Felbound Wrathlord"] = 128784,
+											["Withered Outcast"] = 166625,
+											["Withered Skulker"] = 78787,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 164229,
+										["n_min"] = 38728,
 										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 372465,
-										["c_max"] = 32940,
-										["id"] = 198030,
+										["counter"] = 5,
+										["total"] = 245412,
+										["c_max"] = 81183,
+										["id"] = 222946,
 										["r_dmg"] = 0,
-										["spellschool"] = 124,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 26025,
-									},
-									[201628] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 172925,
-										["g_amt"] = 0,
-										["n_max"] = 28876,
-										["targets"] = {
-											["Felbound Wrathlord"] = 378655,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 205730,
-										["n_min"] = 12456,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 378655,
-										["c_max"] = 59625,
-										["id"] = 201628,
-										["r_dmg"] = 0,
-										["spellschool"] = 127,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 27936,
-									},
-									[202761] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 8201,
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 15035,
-											["Felguard"] = 15033,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 30068,
-										["n_min"] = 6833,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 30068,
-										["c_max"] = 0,
-										["id"] = 202761,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
+										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
@@ -3901,108 +2298,34 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 81183,
 									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-5-0A6AF472",
-							["last_dps"] = 67526.2341619289,
-							["custom"] = 0,
-							["last_event"] = 1488060385,
-							["damage_taken"] = 156330.00309,
-							["start_time"] = 1488060345,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Rakeeshi Sorcerer"] = 1386,
-							},
-							["pets"] = {
-								"Summoned Searing Totem <Da'kesh the Elementalist>", -- [1]
-							},
-							["classe"] = "PALADIN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006844,
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1488060383,
-							["dps_started"] = false,
-							["total"] = 1386.006844,
-							["colocacao"] = 2,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Da'kesh the Elementalist",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["serial"] = "Creature-0-3780-1624-19060-111078-000031FDFC",
-							["last_dps"] = 36.4700253657502,
-							["custom"] = 0,
-							["last_event"] = 1488060355,
-							["damage_taken"] = 0.006844,
-							["start_time"] = 1488060374,
-							["delay"] = 1488060355,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 8722,
-							["serial"] = "Creature-0-3780-1624-19060-22895-000031FF94",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Rakeeshi Sorcerer"] = 1386,
-							},
-							["end_time"] = 1488060383,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1386.008356,
-							["dps_started"] = false,
-							["total"] = 1386.008356,
-							["classe"] = "PET",
-							["ownerName"] = "Da'kesh the Elementalist",
-							["nome"] = "Summoned Searing Totem <Da'kesh the Elementalist>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[39592] = {
+									[222948] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 493,
+										["n_max"] = 37397,
 										["targets"] = {
-											["Rakeeshi Sorcerer"] = 1386,
+											["Withered Outcast"] = 37397,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1386,
-										["n_min"] = 419,
+										["n_dmg"] = 37397,
+										["n_min"] = 37397,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1386,
+										["counter"] = 1,
+										["total"] = 37397,
 										["c_max"] = 0,
-										["id"] = 39592,
+										["id"] = 222948,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
+										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -4010,487 +2333,180 @@ _detalhes_database = {
 							},
 							["friendlyfire"] = {
 							},
+							["end_time"] = 1488229858,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 0.008356,
-							["start_time"] = 1488060374,
-							["delay"] = 1488060355,
-							["last_event"] = 1488060355,
-						}, -- [3]
+							["damage_taken"] = 0.008008,
+							["start_time"] = 1488229856,
+							["delay"] = 0,
+							["last_event"] = 1488229857,
+						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 202,
+					["combatId"] = 256,
 					["tipo"] = 3,
 					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Kaldorath"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 908698.003432,
-							["total_without_pet"] = 182366.003432,
-							["total"] = 182366.003432,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-5-0A6AF472",
-							["totalabsorb"] = 0.003432,
-							["last_hps"] = 4798.60023765909,
-							["targets"] = {
-								["Kaldorath"] = 664232,
-							},
-							["totalover_without_pet"] = 0.003432,
-							["healing_taken"] = 182366.003432,
-							["fight_component"] = true,
-							["end_time"] = 1488060383,
-							["targets_overheal"] = {
-								["Kaldorath"] = 908698,
-							},
-							["nome"] = "Kaldorath",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[101649] = {
-										["c_amt"] = 2,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Kaldorath"] = 571,
-										},
-										["n_max"] = 298,
-										["targets"] = {
-											["Kaldorath"] = 1160,
-										},
-										["n_min"] = 290,
-										["counter"] = 4,
-										["overheal"] = 571,
-										["total"] = 1160,
-										["c_max"] = 572,
-										["id"] = 101649,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 572,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 588,
-										["m_healed"] = 0,
-										["n_amt"] = 2,
-										["absorbed"] = 0,
-									},
-									[202644] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Kaldorath"] = 908127,
-										},
-										["n_max"] = 91431,
-										["targets"] = {
-											["Kaldorath"] = 181206,
-										},
-										["n_min"] = 0,
-										["counter"] = 5,
-										["overheal"] = 908127,
-										["total"] = 181206,
-										["c_max"] = 0,
-										["id"] = 202644,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 181206,
-										["m_healed"] = 0,
-										["n_amt"] = 5,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["classe"] = "DEMONHUNTER",
-							["custom"] = 0,
-							["tipo"] = 2,
-							["last_event"] = 1488060382,
-							["start_time"] = 1488060347,
-							["delay"] = 0,
-							["spec"] = 577,
-						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 202,
+					["combatId"] = 256,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["resource"] = 385.001513,
+							["resource"] = 49.003723,
 							["targets"] = {
 							},
 							["pets"] = {
 							},
 							["powertype"] = 1,
 							["classe"] = "DEMONHUNTER",
-							["fight_component"] = true,
-							["total"] = 0.001513,
+							["total"] = 0.003723,
 							["nome"] = "Kaldorath",
 							["spec"] = 577,
 							["grupo"] = true,
 							["resource_type"] = 17,
 							["tipo"] = 3,
-							["received"] = 0.001513,
+							["received"] = 0.003723,
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
 								},
 							},
 							["serial"] = "Player-5-0A6AF472",
-							["last_event"] = 1488060393,
+							["last_event"] = 1488229857,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 202,
+					["combatId"] = 256,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["debuff_uptime"] = 4,
-							["debuff_uptime_targets"] = {
-							},
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[189804] = {
-										["uptime"] = 3,
-										["activedamt"] = 0,
-										["id"] = 189804,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[1604] = {
-										["uptime"] = 1,
-										["activedamt"] = 0,
-										["id"] = 1604,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
 							["grupo"] = true,
-							["nome"] = "Farseer Nobundo",
 							["spell_cast"] = {
-								[190330] = 2,
-								[189804] = 1,
+								[188499] = 1,
+								[195072] = 2,
+								[201467] = 1,
+								[232893] = 1,
 							},
 							["pets"] = {
+								"Kayn Sunfury <Kaldorath>", -- [1]
 							},
-							["buff_uptime"] = 0,
-							["tipo"] = 4,
-							["last_event"] = 1488060383,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Earth Shield"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Earth Shield",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Creature-0-3780-1624-19060-110695-000031FDFC",
-							["classe"] = "PALADIN",
-						}, -- [1]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime"] = 38,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[189804] = {
-										["uptime"] = 38,
-										["activedamt"] = 1,
-										["id"] = 189804,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["nome"] = "Liani the Lifegiver",
-							["grupo"] = true,
-							["debuff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 0,
 							["buff_uptime_targets"] = {
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 41,
 							["tipo"] = 4,
-							["last_event"] = 1488060383,
+							["last_event"] = 1488229860,
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									["Earth Shield"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Earth Shield",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Creature-0-3780-1624-19060-111082-000031FDFC",
-							["classe"] = "PALADIN",
-						}, -- [2]
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[202761] = {
-										["uptime"] = 32,
-										["activedamt"] = -1,
-										["id"] = 202761,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 50,
-							["classe"] = "DEMONHUNTER",
-							["interrupt_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[183752] = {
-										["id"] = 183752,
-										["interrompeu_oque"] = {
-											[180392] = 1,
-										},
-										["targets"] = {
-											["Rakeeshi Sorcerer"] = 1,
-										},
-										["counter"] = 1,
-									},
-								},
-							},
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[224170] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = 224170,
+									[222952] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 222952,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 									[188499] = {
-										["uptime"] = 2,
-										["activedamt"] = 2,
+										["uptime"] = 1,
+										["activedamt"] = 1,
 										["id"] = 188499,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									[198013] = {
-										["uptime"] = 2,
+									[224173] = {
+										["uptime"] = 8,
 										["activedamt"] = 1,
-										["id"] = 198013,
+										["id"] = 224173,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									["Demon Soul"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Demon Soul",
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									["Huntmaster's Infusion"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Huntmaster's Infusion",
+									[202866] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 202866,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 									[208628] = {
-										["uptime"] = 16,
-										["activedamt"] = 4,
+										["uptime"] = 6,
+										["activedamt"] = 1,
 										["id"] = 208628,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									[163073] = {
-										["actived_at"] = 1488060382,
-										["uptime"] = 30,
-										["activedamt"] = 0,
-										["id"] = 163073,
-										["actived"] = true,
+									[156073] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 156073,
+										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
-									["Draenic Agility Flask"] = {
-										["uptime"] = 0,
-										["activedamt"] = 0,
-										["id"] = "Draenic Agility Flask",
+									[222938] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 222938,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 								},
-							},
-							["interrompeu_oque"] = {
-								[180392] = 1,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 32,
-							["interrupt_targets"] = {
-								["Rakeeshi Sorcerer"] = 1,
-							},
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 577,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[183752] = 2,
-								[232893] = 4,
-								[198013] = 1,
-								[201467] = 1,
-								[188499] = 2,
-								[195072] = 4,
-							},
-							["interrupt"] = 1.005568,
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1488060383,
-							["nome"] = "Kaldorath",
-							["pets"] = {
 							},
 							["serial"] = "Player-5-0A6AF472",
-							["tipo"] = 4,
-						}, -- [3]
+							["classe"] = "DEMONHUNTER",
+						}, -- [1]
 						{
-							["flag_original"] = 1047,
-							["debuff_uptime"] = 76,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[172779] = {
-										["uptime"] = 38,
-										["activedamt"] = 1,
-										["id"] = 172779,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[189804] = {
-										["uptime"] = 38,
-										["activedamt"] = 1,
-										["id"] = 189804,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-							},
-							["nome"] = "Fister Rockfist",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1488060345,
-							["debuff_uptime_targets"] = {
-							},
-							["serial"] = "Creature-0-3780-1624-19060-111083-000031FDFC",
-							["classe"] = "PALADIN",
-						}, -- [4]
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Da'kesh the Elementalist",
-							["grupo"] = true,
-							["pets"] = {
-								"Summoned Searing Totem <Da'kesh the Elementalist>", -- [1]
-							},
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3780-1624-19060-111078-000031FDFC",
-							["classe"] = "PALADIN",
-						}, -- [5]
-						{
-							["flag_original"] = 8722,
-							["ownerName"] = "Da'kesh the Elementalist",
-							["nome"] = "Summoned Searing Totem <Da'kesh the Elementalist>",
+							["flag_original"] = 8465,
+							["ownerName"] = "Kaldorath",
+							["nome"] = "Kayn Sunfury <Kaldorath>",
 							["pets"] = {
 							},
 							["classe"] = "PET",
 							["tipo"] = 4,
 							["spell_cast"] = {
-								[39592] = 3,
+								[222938] = 1,
 							},
-							["serial"] = "Creature-0-3780-1624-19060-22895-000031FF94",
+							["serial"] = "Creature-0-3022-1220-31212-111944-00003495E0",
 							["last_event"] = 0,
-						}, -- [6]
+						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 202,
+					["combatId"] = 256,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
-					["Da'kesh the Elementalist"] = true,
-					["Fister Rockfist"] = true,
-					["Farseer Nobundo"] = true,
-					["Liani the Lifegiver"] = true,
 					["Kaldorath"] = true,
 				},
-				["overall_added"] = true,
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Rakeeshi Sorcerer",
-				["combat_counter"] = 260,
+				["enemy"] = "Withered Outcast",
+				["combat_counter"] = 323,
+				["playing_solo"] = true,
 				["totals"] = {
-					2567652.979343, -- [1]
-					182366, -- [2]
+					1105251.978443, -- [1]
+					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -4502,7 +2518,7 @@ _detalhes_database = {
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
+						["interrupt"] = 0,
 						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
@@ -4524,35 +2540,30 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Kaldorath"] = 182366.003432,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Da'kesh the Elementalist"] = 1386.006844,
-							["Kaldorath"] = 2910032.010134,
+							["Kaldorath"] = 1105252.003179,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 13321.217,
-				["combat_id"] = 202,
-				["instance_type"] = "scenario",
-				["resincked"] = true,
+				["end_time"] = 18804.983,
+				["combat_id"] = 256,
+				["instance_type"] = "none",
 				["frags"] = {
-					["Screeching Felspawn"] = 1,
-					["Rakeeshi Sorcerer"] = 4,
-					["Felbound Wrathlord"] = 2,
-					["Felguard"] = 5,
+					["Withered Outcast"] = 1,
+					["Withered Skulker"] = 2,
 				},
-				["data_fim"] = "14:06:24",
-				["data_inicio"] = "14:05:46",
+				["data_fim"] = "13:10:59",
+				["data_inicio"] = "13:10:51",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					2566267, -- [1]
-					182366, -- [2]
+					822443, -- [1]
+					0, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -4564,104 +2575,719 @@ _detalhes_database = {
 						["ress"] = 0,
 						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 1,
+						["interrupt"] = 0,
 						["dispell"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 13283.213,
-				["contra"] = "Rakeeshi Sorcerer",
+				["start_time"] = 18797.652,
+				["contra"] = "Withered Outcast",
 				["TimeData"] = {
 					["Player Damage Done"] = {
-						38303.00309, -- [1]
-						6833, -- [2]
-						191659, -- [3]
-						8200, -- [4]
-						8201, -- [5]
-						134829, -- [6]
-						0, -- [7]
-						33473, -- [8]
-						0, -- [9]
-						103159, -- [10]
-						38859, -- [11]
-						79536, -- [12]
-						53796, -- [13]
-						0, -- [14]
-						0, -- [15]
-						5797, -- [16]
-						89396, -- [17]
-						32399, -- [18]
-						263255, -- [19]
-						109210, -- [20]
-						0, -- [21]
-						0, -- [22]
-						0, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0, -- [26]
-						0, -- [27]
-						87243, -- [28]
-						222912, -- [29]
-						0, -- [30]
-						39042, -- [31]
-						225378, -- [32]
-						87831, -- [33]
-						99982, -- [34]
-						257757, -- [35]
-						253780, -- [36]
-						0, -- [37]
-						0, -- [38]
-						["max_value"] = 263255,
+						80746.003179, -- [1]
+						212978, -- [2]
+						0, -- [3]
+						84776, -- [4]
+						152894, -- [5]
+						453244, -- [6]
+						120614, -- [7]
+						["max_value"] = 453244,
 					},
 					["Raid Damage Done"] = {
-						38303, -- [1]
-						6833, -- [2]
-						191659, -- [3]
-						8200, -- [4]
-						8201, -- [5]
-						134829, -- [6]
-						0, -- [7]
-						33473, -- [8]
-						0, -- [9]
-						103159, -- [10]
-						38859, -- [11]
-						79536, -- [12]
-						53796, -- [13]
-						0, -- [14]
-						0, -- [15]
-						5797, -- [16]
-						89396, -- [17]
-						32399, -- [18]
-						263255, -- [19]
-						109210, -- [20]
-						0, -- [21]
-						0, -- [22]
-						0, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0, -- [26]
-						0, -- [27]
-						87243, -- [28]
-						222912, -- [29]
-						0, -- [30]
-						39042, -- [31]
-						225378, -- [32]
-						87831, -- [33]
-						99982, -- [34]
-						257757, -- [35]
-						253780, -- [36]
-						0, -- [37]
-						0, -- [38]
-						["max_value"] = 263255,
+						80746, -- [1]
+						212978, -- [2]
+						0, -- [3]
+						84776, -- [4]
+						152894, -- [5]
+						207832, -- [6]
+						83217, -- [7]
+						["max_value"] = 212978,
 					},
 				},
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 255,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Withered Outcast"] = true,
+								["Withered Skulker"] = true,
+							},
+							["targets"] = {
+								["Withered Outcast"] = 2050776,
+								["Withered Skulker"] = 539090,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2589866.008067,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1488229765,
+							["damage_taken"] = 450335.008067,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 98107,
+										["g_amt"] = 0,
+										["n_max"] = 11288,
+										["targets"] = {
+											["Withered Outcast"] = 126164,
+											["Withered Skulker"] = 17593,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 45650,
+										["n_min"] = 4412,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 143757,
+										["c_max"] = 22148,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 8640,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[213243] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 348209,
+										["g_amt"] = 0,
+										["n_max"] = 75520,
+										["targets"] = {
+											["Withered Outcast"] = 423729,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 75520,
+										["n_min"] = 75520,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 423729,
+										["c_max"] = 180167,
+										["id"] = 213243,
+										["r_dmg"] = 0,
+										["c_min"] = 168042,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[199552] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 17753,
+										["g_amt"] = 0,
+										["n_max"] = 28067,
+										["targets"] = {
+											["Withered Skulker"] = 52325,
+											["Withered Outcast"] = 117377,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 151949,
+										["n_min"] = 8382,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 169702,
+										["c_max"] = 17753,
+										["id"] = 199552,
+										["r_dmg"] = 0,
+										["c_min"] = 17753,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[199547] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 356496,
+										["g_amt"] = 0,
+										["n_max"] = 54269,
+										["targets"] = {
+											["Withered Outcast"] = 348202,
+											["Withered Skulker"] = 108381,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 100087,
+										["n_min"] = 45818,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 456583,
+										["c_max"] = 135773,
+										["id"] = 199547,
+										["r_dmg"] = 0,
+										["c_min"] = 108381,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 127,
+									},
+									[203796] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 25880,
+										["g_amt"] = 0,
+										["n_max"] = 13611,
+										["targets"] = {
+											["Withered Outcast"] = 75499,
+											["Withered Skulker"] = 10506,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 60125,
+										["n_min"] = 10506,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 86005,
+										["c_max"] = 25880,
+										["id"] = 203796,
+										["r_dmg"] = 0,
+										["c_min"] = 25880,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[192611] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 104192,
+										["g_amt"] = 0,
+										["n_max"] = 56626,
+										["targets"] = {
+											["Withered Skulker"] = 112119,
+											["Withered Outcast"] = 380527,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 388454,
+										["n_min"] = 52096,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 492646,
+										["c_max"] = 104192,
+										["id"] = 192611,
+										["r_dmg"] = 0,
+										["c_min"] = 104192,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 127,
+									},
+									[198030] = {
+										["c_amt"] = 28,
+										["b_amt"] = 0,
+										["c_dmg"] = 594826,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Withered Skulker"] = 213356,
+											["Withered Outcast"] = 381470,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 28,
+										["total"] = 594826,
+										["c_max"] = 22235,
+										["id"] = 198030,
+										["r_dmg"] = 0,
+										["c_min"] = 20273,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[236237] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13577,
+										["targets"] = {
+											["Withered Skulker"] = 24810,
+											["Withered Outcast"] = 91312,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 116122,
+										["n_min"] = 4581,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 116122,
+										["c_max"] = 0,
+										["id"] = 236237,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 124,
+									},
+									[185123] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 106496,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Withered Outcast"] = 106496,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 106496,
+										["c_max"] = 106496,
+										["id"] = 185123,
+										["r_dmg"] = 0,
+										["c_min"] = 106496,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["last_dps"] = 142637.330399658,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["last_event"] = 1488229764,
+							["on_hold"] = false,
+							["start_time"] = 1488229747,
+							["serial"] = "Player-5-0A6AF472",
+							["total"] = 2589866.008067,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 255,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DEMONHUNTER",
+							["totalover"] = 0.003093,
+							["total_without_pet"] = 432360.003093,
+							["total"] = 432360.003093,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A6AF472",
+							["totalabsorb"] = 0.003093,
+							["last_hps"] = 23812.3039650235,
+							["targets"] = {
+								["Kaldorath"] = 432360,
+							},
+							["totalover_without_pet"] = 0.003093,
+							["healing_taken"] = 432360.003093,
+							["fight_component"] = true,
+							["end_time"] = 1488229765,
+							["nome"] = "Kaldorath",
+							["spells"] = {
+								["_ActorTable"] = {
+									[178963] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 216180,
+										["targets"] = {
+											["Kaldorath"] = 432360,
+										},
+										["n_min"] = 216180,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 432360,
+										["c_max"] = 0,
+										["id"] = 178963,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["n_curado"] = 432360,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Kaldorath"] = true,
+							},
+							["spec"] = 577,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1488229755,
+							["delay"] = 0,
+							["last_event"] = 1488229764,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 255,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 301.006848,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "DEMONHUNTER",
+							["fight_component"] = true,
+							["total"] = 0.006848,
+							["nome"] = "Kaldorath",
+							["spec"] = 577,
+							["grupo"] = true,
+							["last_event"] = 1488229764,
+							["tipo"] = 3,
+							["received"] = 0.006848,
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-5-0A6AF472",
+							["resource_type"] = 17,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 255,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime"] = 60,
+							["classe"] = "DEMONHUNTER",
+							["interrupt_spells"] = {
+								["_ActorTable"] = {
+									[183752] = {
+										["id"] = 183752,
+										["counter"] = 1,
+										["targets"] = {
+											["Withered Skulker"] = 1,
+										},
+										["interrompeu_oque"] = {
+											[181500] = 1,
+										},
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[222952] = {
+										["uptime"] = 18,
+										["activedamt"] = 1,
+										["id"] = 222952,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188499] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 188499,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198013] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 198013,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202866] = {
+										["uptime"] = 12,
+										["activedamt"] = 2,
+										["id"] = 202866,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[208628] = {
+										["uptime"] = 9,
+										["activedamt"] = 3,
+										["id"] = 208628,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[156073] = {
+										["uptime"] = 18,
+										["activedamt"] = 1,
+										["id"] = 156073,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["interrompeu_oque"] = {
+								[181500] = 1,
+							},
+							["fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 577,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[162794] = 3,
+								[195072] = 3,
+								[198013] = 1,
+								[188499] = 1,
+								[232893] = 3,
+								[183752] = 1,
+							},
+							["tipo"] = 4,
+							["interrupt"] = 1.007177,
+							["last_event"] = 1488229765,
+							["pets"] = {
+							},
+							["nome"] = "Kaldorath",
+							["serial"] = "Player-5-0A6AF472",
+							["interrupt_targets"] = {
+								["Withered Skulker"] = 1,
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 255,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Kaldorath"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Withered Outcast",
+				["combat_counter"] = 320,
+				["playing_solo"] = true,
+				["totals"] = {
+					2589865.964885, -- [1]
+					432360, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Kaldorath"] = 2703118.011138,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Kaldorath"] = 432360.003093,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 18712.115,
+				["combat_id"] = 255,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						106496.008067, -- [1]
+						180856, -- [2]
+						192941, -- [3]
+						0, -- [4]
+						221080, -- [5]
+						62537, -- [6]
+						447119, -- [7]
+						85170, -- [8]
+						200133, -- [9]
+						171079, -- [10]
+						21653, -- [11]
+						358930, -- [12]
+						0, -- [13]
+						158156, -- [14]
+						54269, -- [15]
+						97639, -- [16]
+						0, -- [17]
+						231808, -- [18]
+						["max_value"] = 447119,
+					},
+					["Raid Damage Done"] = {
+						106496, -- [1]
+						180856, -- [2]
+						192941, -- [3]
+						0, -- [4]
+						221080, -- [5]
+						62537, -- [6]
+						447119, -- [7]
+						85170, -- [8]
+						200133, -- [9]
+						171079, -- [10]
+						21653, -- [11]
+						358930, -- [12]
+						0, -- [13]
+						158156, -- [14]
+						54269, -- [15]
+						97639, -- [16]
+						0, -- [17]
+						231808, -- [18]
+						["max_value"] = 447119,
+					},
+				},
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Withered Skulker"] = 2,
+					["Withered Outcast"] = 5,
+				},
+				["data_fim"] = "13:09:26",
+				["data_inicio"] = "13:09:08",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2589866, -- [1]
+					432360, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 1,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 18693.958,
+				["contra"] = "Withered Outcast",
+				["instance_type"] = "none",
 			}, -- [5]
 		},
 	},
 	["savedbuffs"] = {
 	},
-	["combat_counter"] = 265,
+	["combat_counter"] = 327,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -4669,10 +3295,10 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
+			["enabled"] = true,
 			["dps"] = 0,
 			["level"] = 1,
-			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -4691,15 +3317,15 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 15,
 			["last_player"] = false,
-			["author"] = "Details! Team",
+			["InstalledAt"] = 1486050498,
 			["last_encounter_hash"] = false,
-			["enabled"] = true,
+			["showing_type"] = 4,
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 206,
 			["timeline_cutoff_delete_time"] = 3,
-			["showing_type"] = 4,
-			["InstalledAt"] = 1486050498,
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -4708,11 +3334,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -4739,12 +3365,12 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
-			["point"] = "CENTER",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -4752,8 +3378,14 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -4761,37 +3393,31 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 0,
 				["x"] = 0,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["use_spark"] = true,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
 			["y"] = 1.525878906250e-005,
-			["author"] = "Details! Team",
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
+			["enabled"] = true,
 			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -4811,13 +3437,13 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -4825,22 +3451,6 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
 			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_TIME_ATTACK"] = {
-			["enabled"] = true,
-			["realm_last_shown"] = 40,
-			["saved_as_anonymous"] = true,
-			["recently_as_anonymous"] = true,
-			["dps"] = 0,
-			["disable_sharing"] = false,
-			["history"] = {
-			},
-			["time"] = 40,
-			["history_lastindex"] = 0,
-			["realm_lastamt"] = 0,
-			["realm_history"] = {
-			},
 			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
@@ -4855,8 +3465,8 @@ _detalhes_database = {
 					["texture"] = "line",
 				}, -- [1]
 				{
-					["iType"] = "raid-TANK",
 					["version"] = "v2.0",
+					["iType"] = "raid-TANK",
 					["options"] = {
 						["iType"] = "raid-TANK",
 						["name"] = "Tanks Damage Taken",
@@ -4869,170 +3479,51 @@ _detalhes_database = {
 				["last_selected"] = 2,
 			},
 			["options"] = {
-				["show_method"] = 4,
 				["auto_create"] = true,
+				["show_method"] = 4,
 				["window_scale"] = 1,
 			},
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["author"] = "Details! Team",
+			["realm_history"] = {
+			},
+			["realm_lastamt"] = 0,
 		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 		},
 	},
-	["character_data"] = {
-		["logons"] = 23,
-	},
 	["force_font_outline"] = "",
-	["nick_tag_cache"] = {
-		["last_version"] = 8,
-		[178403530] = {
-			"Konzphiel", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Randolph Moloch", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-BurntEarth", -- [4]
-			{
-				0.087890625, -- [1]
-				0.916015625, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			2, -- [7]
-		},
-		["nextreset"] = 1488993133,
+	["character_data"] = {
+		["logons"] = 26,
 	},
-	["cached_talents"] = {
-		["Player-5-01F00707"] = {
-			19233, -- [1]
-			22331, -- [2]
-			19241, -- [3]
-			22128, -- [4]
-			22334, -- [5]
-			22335, -- [6]
-			22133, -- [7]
-		},
-		["Player-5-0A6AF472"] = {
-			22765, -- [1]
-			22493, -- [2]
-			21864, -- [3]
-			22909, -- [4]
-			21866, -- [5]
-		},
-		["Player-105-067CC02A"] = {
-			22040, -- [1]
-			22044, -- [2]
-			19280, -- [3]
-			19279, -- [4]
-			22047, -- [5]
-			19295, -- [6]
-			19293, -- [7]
-		},
-		["Creature-0-3780-1624-19060-111789-0000320263"] = {
-		},
-		["Player-67-0A8E0444"] = {
-			21651, -- [1]
-			21778, -- [2]
-			21716, -- [3]
-			21710, -- [4]
-			18569, -- [5]
-			19283, -- [6]
-			22160, -- [7]
-		},
-		["Creature-0-3780-1624-19060-109143-0000320260"] = {
-		},
-		["Player-125-07C0D3E3"] = {
-			22039, -- [1]
-			21181, -- [2]
-			19280, -- [3]
-			22480, -- [4]
-			19291, -- [5]
-			21182, -- [6]
-			22481, -- [7]
-		},
-		["Creature-0-3780-1624-19060-111082-000031FDFC"] = {
-		},
-		["Creature-0-3780-1624-19060-110695-000031FDFC"] = {
-		},
-		["Creature-0-3780-1624-19060-111792-0000320263"] = {
-		},
-		["Creature-0-3780-1624-19060-111083-000031FDFC"] = {
-		},
-		["Player-120-07F62AFD"] = {
-			22316, -- [1]
-			22317, -- [2]
-			22487, -- [3]
-			21637, -- [4]
-			21719, -- [5]
-			22310, -- [6]
-			22312, -- [7]
-		},
-		["Player-3208-063DDB4D"] = {
-			22279, -- [1]
-			22495, -- [2]
-			19347, -- [3]
-			22267, -- [4]
-			22284, -- [5]
-			22287, -- [6]
-			22308, -- [7]
-		},
-		["Player-76-094DC52B"] = {
-			18569, -- [1]
-			18570, -- [2]
-			22160, -- [3]
-			18577, -- [4]
-			21704, -- [5]
-			22165, -- [6]
-			22404, -- [7]
-		},
-		["Player-9-0AAE1F2B"] = {
-			18574, -- [1]
-			18570, -- [2]
-			22160, -- [3]
-			18577, -- [4]
-			21704, -- [5]
-			21716, -- [6]
-			22404, -- [7]
-		},
-		["Player-3693-073EECB6"] = {
-			22624, -- [1]
-			22409, -- [2]
-			22380, -- [3]
-			15757, -- [4]
-			22393, -- [5]
-			22397, -- [6]
-			22407, -- [7]
-		},
-		["Creature-0-3780-1624-19060-111078-000031FDFC"] = {
-		},
-		["Player-47-07B3CA05"] = {
-			22456, -- [1]
-			22442, -- [2]
-			22444, -- [3]
-			22465, -- [4]
-			22904, -- [5]
-			22451, -- [6]
-			21633, -- [7]
-		},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
+	["last_instance_time"] = 1488056966,
 	["tabela_instancias"] = {
 	},
-	["combat_id"] = 206,
+	["combat_id"] = 259,
 	["savedStyles"] = {
 	},
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
 	},
-	["last_realversion"] = 116,
+	["last_version"] = "v7.1.5.3370",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -5045,7 +3536,177 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["on_hold"] = false,
+					["damage_from"] = {
+						["Runas the Shamed"] = true,
+						["Questioner Arev'naal"] = true,
+						["Valarjar Purifier"] = true,
+						["[*] Tempest"] = true,
+						["Valarjar Falconer"] = true,
+						["Ishkaneth"] = true,
+						["Valarjar Marksman"] = true,
+						["Frenzied Felfire"] = true,
+						["Netherflame Infernal"] = true,
+						["Tyndrissen"] = true,
+						["King Haldor"] = true,
+						["Hyrja"] = true,
+						["Environment (Falling)"] = true,
+						["Leystone Spiderling"] = true,
+						["Ael'Yith"] = true,
+						["Felshade Oculus <Questioner Arev'naal>"] = true,
+						["God-King Skovald"] = true,
+						["Valarjar Aspirant"] = true,
+						["Withered Fanatic"] = true,
+						["Soultorn Jailer"] = true,
+						["Felbound Infernal <Kaldorath>"] = true,
+						["Solsten"] = true,
+						["Fel Annihilator"] = true,
+						["Huk'roth the Huntmaster"] = true,
+						["Vile Doombringer"] = true,
+						["Damaged Construct"] = true,
+						["Valarjar Runecarver"] = true,
+						["Felguard"] = true,
+						["Overseer Lykill"] = true,
+						["Grim Oculus"] = true,
+						["Ebonclaw Worg"] = true,
+						["[*] Static Field"] = true,
+						["[*] Glowing Fragment"] = true,
+						["Valarjar Mystic"] = true,
+						["Valarjar Champion"] = true,
+						["Karzak the Impaler"] = true,
+						["Burning Hellion"] = true,
+						["Nightglaive the Traitor"] = true,
+						["Withered Outcast"] = true,
+						["Chittering Sycophant"] = true,
+						["Felstalker"] = true,
+						["Rakeeshi Sorcerer"] = true,
+						["Vile Stalker"] = true,
+						["King Ranulf"] = true,
+						["Hymdall"] = true,
+						["Orbyth"] = true,
+						["Valarjar Thundercaller"] = true,
+						["Yorg Murkmouth"] = true,
+						["Grim Inquisitor"] = true,
+						["Steeljaw Grizzly"] = true,
+						["Mo'arg Crusher"] = true,
+						["Odyn"] = true,
+						["Fel Seeker"] = true,
+						["Legion Skyterror"] = true,
+						["King Bjorn"] = true,
+						["Burrowing Leyworm"] = true,
+						["Storm Drake"] = true,
+						["Angerhoof Bull"] = true,
+						["Doomguard"] = true,
+						["King Tor"] = true,
+						["Valarjar Shieldmaiden"] = true,
+						["Flashwyrm"] = true,
+						["Volynd Stormbringer"] = true,
+						["Fenryr"] = true,
+						["Felguard Shocktrooper"] = true,
+						["Felsurge Spiderling"] = true,
+						["Felbound Wrathlord"] = true,
+						["Felsurge Hunter"] = true,
+						["Blerg"] = true,
+						["Trained Hawk"] = true,
+						["Olmyr the Enlightened"] = true,
+						["Wild Manarunner"] = true,
+						["Nightfallen Overseer"] = true,
+						["Valarjar Trapper"] = true,
+						["Withered Exile"] = true,
+						["Withered Mana-Rager"] = true,
+						["Eredar Supplicant"] = true,
+						["Nightfallen Hungerer"] = true,
+						["Withered Scavenger"] = true,
+						["[*] Focused Mana Ray"] = true,
+						["Kaldorath"] = true,
+						["Nightfallen Construct"] = true,
+						["Excess Power <Ael'Yith>"] = true,
+						["Withered Skulker"] = true,
+					},
+					["targets"] = {
+						["Runas the Shamed"] = 2629074,
+						["Questioner Arev'naal"] = 2113130,
+						["Valarjar Purifier"] = 620014,
+						["Valarjar Falconer"] = 600406,
+						["Ishkaneth"] = 1916695,
+						["Valarjar Marksman"] = 6626508,
+						["Frenzied Felfire"] = 869406,
+						["Felspider"] = 87472,
+						["Tyndrissen"] = 1723078,
+						["King Haldor"] = 1551471,
+						["Kaldorath"] = 124613,
+						["Leystone Spiderling"] = 2624246,
+						["Ael'Yith"] = 5484527,
+						["Felshade Oculus <Questioner Arev'naal>"] = 392745,
+						["God-King Skovald"] = 3630050,
+						["Steeljaw Grizzly"] = 6216419,
+						["Withered Fanatic"] = 1957486,
+						["Soultorn Jailer"] = 5477226,
+						["Felbound Infernal <Kaldorath>"] = 812781,
+						["Solsten"] = 1667795,
+						["Fel Annihilator"] = 10955496,
+						["Huk'roth the Huntmaster"] = 6446537,
+						["Vile Doombringer"] = 1318658,
+						["Damaged Construct"] = 668610,
+						["Valarjar Runecarver"] = 4321283,
+						["Felguard"] = 7786897,
+						["Overseer Lykill"] = 2319354,
+						["Ebonclaw Worg"] = 4294209,
+						["Orbyth"] = 1726100,
+						["Valarjar Thundercaller"] = 9579923,
+						["Valarjar Champion"] = 18638654,
+						["Karzak the Impaler"] = 4794771,
+						["Burning Hellion"] = 213813,
+						["Nightglaive the Traitor"] = 2949697,
+						["Withered Outcast"] = 3800561,
+						["Chittering Sycophant"] = 9378130,
+						["Felstalker"] = 7815895,
+						["Rakeeshi Sorcerer"] = 3747349,
+						["Vile Stalker"] = 1328650,
+						["Blerg"] = 77859,
+						["Hymdall"] = 4175336,
+						["Excess Power"] = 23129,
+						["King Tor"] = 1073190,
+						["Valarjar Trapper"] = 2902454,
+						["Mo'arg Crusher"] = 2141162,
+						["Fel Seeker"] = 2316808,
+						["Valarjar Mystic"] = 4664327,
+						["Yorg Murkmouth"] = 2322143,
+						["Grim Inquisitor"] = 5765535,
+						["Odyn"] = 4127203,
+						["Storm Drake"] = 2310429,
+						["Angerhoof Bull"] = 1600856,
+						["Doomguard"] = 1686183,
+						["Hyrja"] = 3841419,
+						["Withered Mana-Rager"] = 1292280,
+						["King Ranulf"] = 2389818,
+						["Volynd Stormbringer"] = 3838454,
+						["Fenryr"] = 6069374,
+						["Felbound Imp"] = 173092,
+						["Burrowing Leyworm"] = 6392126,
+						["Valarjar Shieldmaiden"] = 4815768,
+						["Felguard Shocktrooper"] = 368204,
+						["Legion Skyterror"] = 2483675,
+						["Trained Hawk"] = 372123,
+						["Olmyr the Enlightened"] = 2839374,
+						["Wild Manarunner"] = 581368,
+						["Nightfallen Overseer"] = 3414964,
+						["King Bjorn"] = 2206309,
+						["Flashwyrm"] = 1466126,
+						["Withered Exile"] = 5995095,
+						["Eredar Supplicant"] = 3658896,
+						["Valarjar Aspirant"] = 731601,
+						["Felbound Wrathlord"] = 1500127,
+						["Nightfallen Hungerer"] = 2025267,
+						["Withered Scavenger"] = 655806,
+						["Nightfallen Construct"] = 2554464,
+						["Excess Power <Ael'Yith>"] = 435229,
+						["Withered Skulker"] = 1490007,
+					},
+					["pets"] = {
+						"Felbound Infernal <Kaldorath> <Kaldorath>", -- [1]
+						"Kayn Sunfury <Kaldorath> <Kaldorath>", -- [2]
+					},
+					["start_time"] = 1488054179,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -5064,177 +3725,121 @@ _detalhes_database = {
 							["FULL_HIT_AMT"] = 0,
 						},
 					},
-					["damage_from"] = {
-						["Karzak the Impaler"] = true,
-						["Felbound Wrathlord"] = true,
-						["Valarjar Purifier"] = true,
-						["[*] Tempest"] = true,
-						["Valarjar Falconer"] = true,
-						["Chittering Sycophant"] = true,
-						["Felstalker"] = true,
-						["Valarjar Marksman"] = true,
-						["Valarjar Shieldmaiden"] = true,
-						["King Ranulf"] = true,
-						["Hymdall"] = true,
-						["Hyrja"] = true,
-						["God-King Skovald"] = true,
-						["Odyn"] = true,
-						["Steeljaw Grizzly"] = true,
-						["Storm Drake"] = true,
-						["Angerhoof Bull"] = true,
-						["Solsten"] = true,
-						["Yorg Murkmouth"] = true,
-						["Huk'roth the Huntmaster"] = true,
-						["Volynd Stormbringer"] = true,
-						["Fenryr"] = true,
-						["Valarjar Runecarver"] = true,
-						["Fel Annihilator"] = true,
-						["Felguard"] = true,
-						["Rakeeshi Sorcerer"] = true,
-						["Trained Hawk"] = true,
-						["Olmyr the Enlightened"] = true,
-						["Doomguard"] = true,
-						["Felbound Infernal <Kaldorath>"] = true,
-						["Valarjar Trapper"] = true,
-						["Ebonclaw Worg"] = true,
-						["[*] Static Field"] = true,
-						["Valarjar Aspirant"] = true,
-						["King Bjorn"] = true,
-						["King Tor"] = true,
-						["King Haldor"] = true,
-						["Valarjar Mystic"] = true,
-						["[*] Glowing Fragment"] = true,
-						["Valarjar Thundercaller"] = true,
-						["Valarjar Champion"] = true,
-					},
-					["targets"] = {
-						["Karzak the Impaler"] = 4794771,
-						["Felbound Wrathlord"] = 1500127,
-						["Valarjar Purifier"] = 620014,
-						["Valarjar Falconer"] = 600406,
-						["Chittering Sycophant"] = 9378130,
-						["Felstalker"] = 7815895,
-						["Valarjar Marksman"] = 6626508,
-						["Valarjar Shieldmaiden"] = 4815768,
-						["King Ranulf"] = 2389818,
-						["King Haldor"] = 1551471,
-						["Hyrja"] = 3841419,
-						["God-King Skovald"] = 3630050,
-						["Odyn"] = 4127203,
-						["Steeljaw Grizzly"] = 6216419,
-						["Storm Drake"] = 2310429,
-						["Angerhoof Bull"] = 1600856,
-						["Solsten"] = 1667795,
-						["Yorg Murkmouth"] = 2322143,
-						["Huk'roth the Huntmaster"] = 6446537,
-						["Volynd Stormbringer"] = 3838454,
-						["Fenryr"] = 6069374,
-						["Valarjar Runecarver"] = 4321283,
-						["Fel Annihilator"] = 10955496,
-						["Felguard"] = 7786897,
-						["Rakeeshi Sorcerer"] = 3747349,
-						["Trained Hawk"] = 372123,
-						["Olmyr the Enlightened"] = 2839374,
-						["Doomguard"] = 1686183,
-						["Felbound Imp"] = 173092,
-						["Valarjar Trapper"] = 2902454,
-						["Ebonclaw Worg"] = 4294209,
-						["Valarjar Aspirant"] = 731601,
-						["Kaldorath"] = 124613,
-						["Valarjar Mystic"] = 4664327,
-						["Felbound Infernal <Kaldorath>"] = 812781,
-						["King Bjorn"] = 2206309,
-						["Hymdall"] = 4175336,
-						["King Tor"] = 1073190,
-						["Valarjar Thundercaller"] = 9579923,
-						["Valarjar Champion"] = 18638654,
-					},
-					["pets"] = {
-						"Felbound Infernal <Kaldorath> <Kaldorath>", -- [1]
-					},
-					["isTank"] = true,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
+					["classe"] = "DEMONHUNTER",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 163124168.223682,
-					["classe"] = "DEMONHUNTER",
+					["total_without_pet"] = 243517974.383568,
+					["damage_taken"] = 89036176.383568,
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 163248781.223682,
-					["friendlyfire"] = {
-					},
+					["total"] = 245987309.383568,
+					["friendlyfire_total"] = 71427,
 					["end_time"] = 1488057018,
 					["nome"] = "Kaldorath",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
-								["c_amt"] = 345,
-								["b_amt"] = 22,
-								["c_dmg"] = 5530543,
+								["c_amt"] = 451,
+								["b_amt"] = 28,
+								["c_dmg"] = 7246790,
 								["g_amt"] = 0,
-								["n_max"] = 15915,
+								["n_max"] = 17588,
 								["targets"] = {
-									["Karzak the Impaler"] = 327011,
-									["Felbound Wrathlord"] = 94827,
+									["Runas the Shamed"] = 189146,
+									["Questioner Arev'naal"] = 166107,
 									["Valarjar Purifier"] = 107351,
 									["Valarjar Falconer"] = 30441,
-									["Chittering Sycophant"] = 372490,
-									["Felstalker"] = 76997,
+									["Ishkaneth"] = 87432,
 									["Valarjar Marksman"] = 766321,
-									["Valarjar Shieldmaiden"] = 262654,
-									["King Ranulf"] = 376981,
+									["Frenzied Felfire"] = 49472,
+									["Burrowing Leyworm"] = 279903,
+									["Tyndrissen"] = 111242,
 									["King Haldor"] = 244723,
 									["Hyrja"] = 596504,
+									["Leystone Spiderling"] = 36389,
+									["Ael'Yith"] = 445121,
+									["Withered Skulker"] = 65405,
 									["God-King Skovald"] = 572430,
-									["Odyn"] = 520783,
 									["Steeljaw Grizzly"] = 408933,
-									["Storm Drake"] = 289023,
+									["Withered Fanatic"] = 78775,
+									["Soultorn Jailer"] = 163955,
 									["Felbound Infernal <Kaldorath>"] = 36522,
 									["Solsten"] = 211805,
-									["Yorg Murkmouth"] = 288851,
+									["Fel Annihilator"] = 925916,
 									["Huk'roth the Huntmaster"] = 397664,
+									["Vile Doombringer"] = 96815,
+									["Damaged Construct"] = 21980,
+									["Valarjar Runecarver"] = 383249,
+									["Felguard"] = 510155,
+									["Overseer Lykill"] = 222600,
+									["Ebonclaw Worg"] = 231803,
+									["Orbyth"] = 102248,
+									["King Tor"] = 87725,
+									["Valarjar Champion"] = 940472,
+									["Withered Scavenger"] = 6459,
+									["Nightglaive the Traitor"] = 232772,
+									["Withered Outcast"] = 276139,
+									["Chittering Sycophant"] = 372490,
+									["Felstalker"] = 76997,
+									["Rakeeshi Sorcerer"] = 265691,
+									["Vile Stalker"] = 26541,
+									["King Ranulf"] = 376981,
+									["Hymdall"] = 558782,
+									["Mo'arg Crusher"] = 95763,
+									["Fel Seeker"] = 39505,
+									["Valarjar Thundercaller"] = 545933,
+									["Valarjar Trapper"] = 222442,
+									["Karzak the Impaler"] = 327011,
+									["Storm Drake"] = 289023,
+									["Angerhoof Bull"] = 206086,
+									["Doomguard"] = 86305,
+									["Valarjar Mystic"] = 326556,
+									["Yorg Murkmouth"] = 288851,
+									["Grim Inquisitor"] = 368024,
 									["Volynd Stormbringer"] = 293068,
 									["Fenryr"] = 852499,
-									["Valarjar Runecarver"] = 383249,
-									["Fel Annihilator"] = 925916,
-									["Felguard"] = 510155,
-									["Rakeeshi Sorcerer"] = 265691,
+									["Felbound Imp"] = 12917,
+									["Odyn"] = 520783,
+									["Withered Mana-Rager"] = 46315,
+									["Legion Skyterror"] = 95984,
+									["Flashwyrm"] = 70951,
 									["Trained Hawk"] = 15581,
 									["Olmyr the Enlightened"] = 363106,
-									["Doomguard"] = 86305,
-									["Felbound Imp"] = 12917,
-									["Valarjar Trapper"] = 222442,
-									["Ebonclaw Worg"] = 231803,
-									["Valarjar Aspirant"] = 35879,
-									["Valarjar Mystic"] = 326556,
-									["Angerhoof Bull"] = 206086,
+									["Wild Manarunner"] = 26771,
+									["Nightfallen Overseer"] = 187830,
 									["King Bjorn"] = 303699,
-									["Hymdall"] = 558782,
-									["King Tor"] = 87725,
+									["Felguard Shocktrooper"] = 26713,
+									["Withered Exile"] = 131140,
+									["Eredar Supplicant"] = 203866,
+									["Valarjar Shieldmaiden"] = 262654,
+									["Valarjar Aspirant"] = 35879,
+									["Nightfallen Hungerer"] = 74087,
+									["Felbound Wrathlord"] = 94827,
 									["Felbound Infernal"] = 0,
-									["Valarjar Thundercaller"] = 545933,
-									["Valarjar Champion"] = 940472,
+									["Nightfallen Construct"] = 94381,
+									["Excess Power"] = 23129,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 7619632,
+								["n_dmg"] = 10046345,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1504,
-								["total"] = 13150175,
+								["counter"] = 1991,
+								["r_amt"] = 0,
+								["total"] = 17293135,
 								["c_max"] = 31286,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["MISS"] = 221,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["EVADE"] = 2,
+								["r_dmg"] = 0,
+								["MISS"] = 292,
+								["b_dmg"] = 182274,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
-								["b_dmg"] = 146487,
-								["n_amt"] = 938,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 1243,
+								["id"] = 1,
+								["IMMUNE"] = 3,
 							}, -- [1]
 							[204598] = {
 								["c_amt"] = 82,
@@ -5252,24 +3857,24 @@ _detalhes_database = {
 									["Fenryr"] = 247126,
 									["Valarjar Runecarver"] = 359650,
 									["Valarjar Marksman"] = 301791,
-									["Yorg Murkmouth"] = 155348,
-									["Odyn"] = 225010,
+									["Valarjar Champion"] = 943406,
+									["Valarjar Thundercaller"] = 631171,
 									["Valarjar Shieldmaiden"] = 468251,
 									["Trained Hawk"] = 69729,
 									["Olmyr the Enlightened"] = 61233,
-									["Angerhoof Bull"] = 52931,
+									["Valarjar Mystic"] = 310414,
 									["King Ranulf"] = 116516,
 									["Valarjar Trapper"] = 343507,
 									["Hymdall"] = 195803,
 									["Hyrja"] = 165356,
 									["King Bjorn"] = 113946,
-									["King Tor"] = 98159,
-									["King Haldor"] = 52310,
 									["Ebonclaw Worg"] = 248943,
+									["King Haldor"] = 52310,
+									["Yorg Murkmouth"] = 155348,
 									["God-King Skovald"] = 255674,
-									["Valarjar Mystic"] = 310414,
-									["Valarjar Thundercaller"] = 631171,
-									["Valarjar Champion"] = 943406,
+									["Angerhoof Bull"] = 52931,
+									["King Tor"] = 98159,
+									["Odyn"] = 225010,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 4262605,
@@ -5280,52 +3885,84 @@ _detalhes_database = {
 								["c_max"] = 55675,
 								["id"] = 204598,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 309,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[198030] = {
-								["c_amt"] = 407,
+								["c_amt"] = 1047,
 								["b_amt"] = 0,
-								["c_dmg"] = 11249979,
+								["c_dmg"] = 25987594,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Runas the Shamed"] = 209901,
 									["Karzak the Impaler"] = 320050,
 									["Felbound Wrathlord"] = 398745,
+									["Nightglaive the Traitor"] = 248138,
+									["Withered Outcast"] = 719183,
+									["Chittering Sycophant"] = 1855492,
+									["Felstalker"] = 4936890,
+									["Rakeeshi Sorcerer"] = 498279,
+									["Vile Stalker"] = 607382,
+									["Frenzied Felfire"] = 242257,
+									["Burrowing Leyworm"] = 1599115,
+									["Tyndrissen"] = 246208,
+									["Leystone Spiderling"] = 309397,
+									["Ael'Yith"] = 212194,
+									["Felshade Oculus <Questioner Arev'naal>"] = 143407,
+									["Mo'arg Crusher"] = 497703,
+									["Fel Seeker"] = 563309,
+									["Withered Exile"] = 417773,
+									["Withered Fanatic"] = 107477,
+									["Nightfallen Hungerer"] = 505275,
 									["Felbound Infernal <Kaldorath>"] = 238861,
 									["Doomguard"] = 242986,
 									["Fel Annihilator"] = 774030,
 									["Huk'roth the Huntmaster"] = 845245,
-									["Felstalker"] = 4936890,
-									["Rakeeshi Sorcerer"] = 498279,
-									["Chittering Sycophant"] = 1855492,
+									["Vile Doombringer"] = 197501,
 									["Felguard"] = 1139401,
+									["Ishkaneth"] = 226766,
+									["Overseer Lykill"] = 209832,
+									["Wild Manarunner"] = 62613,
+									["Felguard Shocktrooper"] = 202913,
+									["Grim Inquisitor"] = 1687274,
+									["Withered Mana-Rager"] = 208931,
+									["Questioner Arev'naal"] = 206827,
+									["Eredar Supplicant"] = 898543,
+									["Soultorn Jailer"] = 1046867,
+									["Legion Skyterror"] = 825866,
+									["Nightfallen Overseer"] = 883395,
+									["Withered Scavenger"] = 191216,
+									["Orbyth"] = 226242,
+									["Nightfallen Construct"] = 820754,
+									["Withered Skulker"] = 213356,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 407,
-								["total"] = 11249979,
+								["counter"] = 1050,
+								["total"] = 25987594,
 								["c_max"] = 34609,
 								["id"] = 198030,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["EVADE"] = 3,
 							},
 							[214743] = {
 								["c_amt"] = 7,
@@ -5344,19 +3981,19 @@ _detalhes_database = {
 									["Valarjar Marksman"] = 114173,
 									["Valarjar Shieldmaiden"] = 30803,
 									["Olmyr the Enlightened"] = 58308,
-									["Odyn"] = 58327,
+									["Valarjar Champion"] = 178275,
 									["King Ranulf"] = 57653,
 									["Valarjar Trapper"] = 31475,
 									["Hymdall"] = 59148,
 									["Hyrja"] = 91465,
+									["Valarjar Thundercaller"] = 29980,
 									["Ebonclaw Worg"] = 29082,
-									["King Bjorn"] = 30526,
 									["King Haldor"] = 29335,
 									["Valarjar Aspirant"] = 61708,
 									["God-King Skovald"] = 87859,
+									["King Bjorn"] = 30526,
 									["Valarjar Mystic"] = 30195,
-									["Valarjar Thundercaller"] = 29980,
-									["Valarjar Champion"] = 178275,
+									["Odyn"] = 58327,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1092913,
@@ -5367,15 +4004,15 @@ _detalhes_database = {
 								["c_max"] = 61708,
 								["id"] = 214743,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 37,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[204021] = {
 								["c_amt"] = 0,
@@ -5395,15 +4032,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 204021,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[204490] = {
 								["c_amt"] = 0,
@@ -5425,16 +4062,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 204490,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 3,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["IMMUNE"] = 3,
 							},
 							[204157] = {
 								["c_amt"] = 5,
@@ -5449,14 +4086,14 @@ _detalhes_database = {
 									["Angerhoof Bull"] = 12908,
 									["Ebonclaw Worg"] = 13090,
 									["Hyrja"] = 12740,
-									["Odyn"] = 12912,
-									["King Tor"] = 12483,
+									["Valarjar Champion"] = 39765,
+									["Valarjar Thundercaller"] = 12612,
 									["Volynd Stormbringer"] = 26954,
 									["Fenryr"] = 38880,
 									["King Haldor"] = 13230,
 									["Valarjar Marksman"] = 25636,
-									["Valarjar Thundercaller"] = 12612,
-									["Valarjar Champion"] = 39765,
+									["King Tor"] = 12483,
+									["Odyn"] = 12912,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 181315,
@@ -5467,15 +4104,15 @@ _detalhes_database = {
 								["c_max"] = 27010,
 								["id"] = 204157,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 14,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[178741] = {
 								["c_amt"] = 352,
@@ -5489,29 +4126,29 @@ _detalhes_database = {
 									["Valarjar Purifier"] = 175708,
 									["Solsten"] = 360772,
 									["Valarjar Falconer"] = 263994,
-									["Yorg Murkmouth"] = 296344,
+									["Valarjar Champion"] = 5446036,
 									["Volynd Stormbringer"] = 856938,
 									["Fenryr"] = 1005601,
 									["Valarjar Runecarver"] = 1133228,
 									["Valarjar Marksman"] = 1264708,
-									["Odyn"] = 638737,
-									["Valarjar Mystic"] = 1402279,
+									["Valarjar Thundercaller"] = 2710090,
+									["Angerhoof Bull"] = 324819,
 									["Valarjar Shieldmaiden"] = 1380345,
 									["Trained Hawk"] = 135092,
 									["Olmyr the Enlightened"] = 372125,
-									["King Bjorn"] = 366754,
-									["King Ranulf"] = 308876,
 									["Valarjar Trapper"] = 821504,
+									["King Ranulf"] = 308876,
+									["King Bjorn"] = 366754,
 									["Hymdall"] = 618676,
 									["Hyrja"] = 595268,
-									["King Tor"] = 266776,
-									["King Haldor"] = 196674,
-									["Ebonclaw Worg"] = 1347186,
 									["Steeljaw Grizzly"] = 1758044,
+									["Ebonclaw Worg"] = 1347186,
+									["King Haldor"] = 196674,
+									["King Tor"] = 266776,
 									["God-King Skovald"] = 506350,
-									["Angerhoof Bull"] = 324819,
-									["Valarjar Thundercaller"] = 2710090,
-									["Valarjar Champion"] = 5446036,
+									["Yorg Murkmouth"] = 296344,
+									["Valarjar Mystic"] = 1402279,
+									["Odyn"] = 638737,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 16152422,
@@ -5522,45 +4159,80 @@ _detalhes_database = {
 								["c_max"] = 104434,
 								["id"] = 178741,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1342,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[200166] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 321269,
+								["g_amt"] = 0,
+								["n_max"] = 59349,
+								["targets"] = {
+									["Withered Exile"] = 343989,
+									["Karzak the Impaler"] = 59349,
+									["Soultorn Jailer"] = 54600,
+									["Grim Inquisitor"] = 54600,
+									["Nightglaive the Traitor"] = 75833,
+									["Fel Annihilator"] = 49458,
+									["Huk'roth the Huntmaster"] = 50148,
+									["Ael'Yith"] = 92552,
+									["Orbyth"] = 38949,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 498209,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 819478,
+								["c_max"] = 92552,
+								["id"] = 200166,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[183752] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 59349,
+								["n_max"] = 0,
 								["targets"] = {
-									["Fel Annihilator"] = 49458,
-									["Huk'roth the Huntmaster"] = 50148,
-									["Karzak the Impaler"] = 59349,
+									["Withered Fanatic"] = 0,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 158955,
+								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 158955,
+								["counter"] = 1,
+								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 200166,
+								["id"] = 183752,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["EVADE"] = 1,
 							},
 							[203782] = {
 								["c_amt"] = 103,
@@ -5574,29 +4246,29 @@ _detalhes_database = {
 									["Valarjar Purifier"] = 55957,
 									["Solsten"] = 362613,
 									["Valarjar Falconer"] = 29076,
-									["Yorg Murkmouth"] = 567314,
+									["Valarjar Champion"] = 888105,
 									["Volynd Stormbringer"] = 276676,
 									["Fenryr"] = 1408959,
 									["Valarjar Runecarver"] = 446871,
 									["Valarjar Marksman"] = 1162242,
-									["Odyn"] = 705010,
-									["Valarjar Mystic"] = 341371,
+									["Valarjar Thundercaller"] = 875708,
+									["Angerhoof Bull"] = 421977,
 									["Valarjar Shieldmaiden"] = 335658,
 									["Trained Hawk"] = 27272,
 									["Olmyr the Enlightened"] = 620928,
-									["King Bjorn"] = 312089,
-									["King Ranulf"] = 638340,
 									["Valarjar Trapper"] = 286017,
+									["King Ranulf"] = 638340,
+									["King Bjorn"] = 312089,
 									["Hymdall"] = 1002518,
 									["Hyrja"] = 933614,
-									["King Tor"] = 82299,
-									["King Haldor"] = 283868,
-									["Ebonclaw Worg"] = 419596,
 									["Steeljaw Grizzly"] = 395412,
+									["Ebonclaw Worg"] = 419596,
+									["King Haldor"] = 283868,
+									["King Tor"] = 82299,
 									["God-King Skovald"] = 772307,
-									["Angerhoof Bull"] = 421977,
-									["Valarjar Thundercaller"] = 875708,
-									["Valarjar Champion"] = 888105,
+									["Yorg Murkmouth"] = 567314,
+									["Valarjar Mystic"] = 341371,
+									["Odyn"] = 705010,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 8568239,
@@ -5607,15 +4279,15 @@ _detalhes_database = {
 								["c_max"] = 85125,
 								["id"] = 203782,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 95732,
 								["n_amt"] = 308,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[235964] = {
 								["c_amt"] = 3,
@@ -5625,10 +4297,10 @@ _detalhes_database = {
 								["n_max"] = 47416,
 								["targets"] = {
 									["Volynd Stormbringer"] = 30613,
-									["Odyn"] = 403274,
-									["Valarjar Mystic"] = 62623,
-									["Valarjar Thundercaller"] = 30380,
 									["Valarjar Champion"] = 208287,
+									["Valarjar Thundercaller"] = 30380,
+									["Valarjar Mystic"] = 62623,
+									["Odyn"] = 403274,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 485299,
@@ -5639,114 +4311,15 @@ _detalhes_database = {
 								["c_max"] = 95062,
 								["id"] = 235964,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 54523,
 								["n_amt"] = 14,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[198813] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 17970,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Rakeeshi Sorcerer"] = 17970,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 17970,
-								["c_max"] = 17970,
-								["id"] = 198813,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[199547] = {
-								["c_amt"] = 21,
-								["b_amt"] = 0,
-								["c_dmg"] = 2614261,
-								["g_amt"] = 0,
-								["n_max"] = 106364,
-								["targets"] = {
-									["Fel Annihilator"] = 3082633,
-									["Huk'roth the Huntmaster"] = 947753,
-									["Rakeeshi Sorcerer"] = 647524,
-									["Karzak the Impaler"] = 538681,
-									["Chittering Sycophant"] = 389965,
-									["Felbound Infernal <Kaldorath>"] = 136771,
-									["Doomguard"] = 161040,
-									["Felguard"] = 972270,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 4262376,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 82,
-								["total"] = 6876637,
-								["c_max"] = 165362,
-								["id"] = 199547,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 61,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[201628] = {
-								["c_amt"] = 56,
-								["b_amt"] = 0,
-								["c_dmg"] = 2124452,
-								["g_amt"] = 0,
-								["n_max"] = 35093,
-								["targets"] = {
-									["Karzak the Impaler"] = 419433,
-									["Felbound Wrathlord"] = 378655,
-									["Felbound Infernal <Kaldorath>"] = 232197,
-									["Doomguard"] = 205186,
-									["Fel Annihilator"] = 660049,
-									["Chittering Sycophant"] = 1679698,
-									["Felstalker"] = 105533,
-									["Rakeeshi Sorcerer"] = 313011,
-									["Felguard"] = 1068453,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2937763,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 217,
-								["total"] = 5062215,
-								["c_max"] = 59625,
-								["id"] = 201628,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 161,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[228478] = {
 								["c_amt"] = 100,
@@ -5760,29 +4333,29 @@ _detalhes_database = {
 									["Valarjar Purifier"] = 122534,
 									["Solsten"] = 507293,
 									["Valarjar Falconer"] = 190415,
-									["Yorg Murkmouth"] = 233571,
+									["Valarjar Champion"] = 7591133,
 									["Volynd Stormbringer"] = 1311104,
 									["Fenryr"] = 903115,
 									["Valarjar Runecarver"] = 1253470,
 									["Valarjar Marksman"] = 1514465,
-									["Odyn"] = 650386,
-									["Valarjar Mystic"] = 1681726,
+									["Valarjar Thundercaller"] = 3794889,
+									["Angerhoof Bull"] = 170200,
 									["Valarjar Shieldmaiden"] = 1967441,
 									["Trained Hawk"] = 124449,
 									["Olmyr the Enlightened"] = 708269,
-									["King Bjorn"] = 579713,
-									["King Ranulf"] = 302956,
 									["Valarjar Trapper"] = 855888,
+									["King Ranulf"] = 302956,
+									["King Bjorn"] = 579713,
 									["Hymdall"] = 841510,
 									["Hyrja"] = 551907,
-									["King Tor"] = 480788,
-									["King Haldor"] = 372339,
-									["Ebonclaw Worg"] = 1621581,
 									["Steeljaw Grizzly"] = 2215454,
+									["Ebonclaw Worg"] = 1621581,
+									["King Haldor"] = 372339,
+									["King Tor"] = 480788,
 									["God-King Skovald"] = 481805,
-									["Angerhoof Bull"] = 170200,
-									["Valarjar Thundercaller"] = 3794889,
-									["Valarjar Champion"] = 7591133,
+									["Yorg Murkmouth"] = 233571,
+									["Valarjar Mystic"] = 1681726,
+									["Odyn"] = 650386,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 19350566,
@@ -5793,15 +4366,214 @@ _detalhes_database = {
 								["c_max"] = 131060,
 								["id"] = 228478,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 212731,
 								["n_amt"] = 321,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[199547] = {
+								["c_amt"] = 37,
+								["b_amt"] = 1,
+								["c_dmg"] = 4633571,
+								["g_amt"] = 0,
+								["n_max"] = 106364,
+								["targets"] = {
+									["Legion Skyterror"] = 305640,
+									["Karzak the Impaler"] = 538681,
+									["Soultorn Jailer"] = 250582,
+									["Questioner Arev'naal"] = 411945,
+									["Doomguard"] = 161040,
+									["Felbound Infernal <Kaldorath>"] = 136771,
+									["Nightglaive the Traitor"] = 125823,
+									["Withered Outcast"] = 456784,
+									["Fel Annihilator"] = 3082633,
+									["Huk'roth the Huntmaster"] = 947753,
+									["Vile Doombringer"] = 254207,
+									["Damaged Construct"] = 95904,
+									["Ishkaneth"] = 339314,
+									["Rakeeshi Sorcerer"] = 647524,
+									["Flashwyrm"] = 132322,
+									["Felguard"] = 972270,
+									["Burrowing Leyworm"] = 1278113,
+									["Tyndrissen"] = 246862,
+									["Overseer Lykill"] = 615448,
+									["Chittering Sycophant"] = 389965,
+									["Nightfallen Overseer"] = 254311,
+									["Frenzied Felfire"] = 226347,
+									["Runas the Shamed"] = 596458,
+									["Withered Exile"] = 125812,
+									["Eredar Supplicant"] = 281835,
+									["Leystone Spiderling"] = 68863,
+									["Ael'Yith"] = 461679,
+									["Withered Skulker"] = 600640,
+									["Withered Fanatic"] = 68890,
+									["Nightfallen Construct"] = 122243,
+									["Mo'arg Crusher"] = 301107,
+									["Fel Seeker"] = 253017,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10117212,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 196,
+								["total"] = 14750783,
+								["c_max"] = 165362,
+								["id"] = 199547,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 31978,
+								["n_amt"] = 159,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[201628] = {
+								["c_amt"] = 227,
+								["b_amt"] = 12,
+								["c_dmg"] = 7495853,
+								["g_amt"] = 0,
+								["n_max"] = 35093,
+								["targets"] = {
+									["Runas the Shamed"] = 341079,
+									["Karzak the Impaler"] = 419433,
+									["Grim Inquisitor"] = 639153,
+									["Nightglaive the Traitor"] = 296154,
+									["Withered Outcast"] = 0,
+									["Chittering Sycophant"] = 1679698,
+									["Felstalker"] = 105533,
+									["Rakeeshi Sorcerer"] = 313011,
+									["Vile Stalker"] = 0,
+									["Frenzied Felfire"] = 127715,
+									["Burrowing Leyworm"] = 76626,
+									["Tyndrissen"] = 336768,
+									["Leystone Spiderling"] = 291162,
+									["Ael'Yith"] = 236723,
+									["Withered Skulker"] = 0,
+									["Withered Mana-Rager"] = 346271,
+									["Fel Seeker"] = 544973,
+									["Withered Exile"] = 2146623,
+									["Withered Fanatic"] = 854490,
+									["Nightfallen Hungerer"] = 852274,
+									["Felbound Infernal <Kaldorath>"] = 232197,
+									["Flashwyrm"] = 705901,
+									["Fel Annihilator"] = 660049,
+									["Vile Doombringer"] = 51920,
+									["Damaged Construct"] = 177890,
+									["Felguard"] = 1068453,
+									["Overseer Lykill"] = 354394,
+									["Wild Manarunner"] = 273026,
+									["Felguard Shocktrooper"] = 0,
+									["Questioner Arev'naal"] = 266773,
+									["Eredar Supplicant"] = 893459,
+									["Felbound Wrathlord"] = 378655,
+									["Felspider"] = 20586,
+									["Ishkaneth"] = 275906,
+									["Doomguard"] = 205186,
+									["Orbyth"] = 298301,
+									["Soultorn Jailer"] = 1346469,
+									["Nightfallen Construct"] = 696739,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10017737,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 834,
+								["total"] = 17513590,
+								["c_max"] = 59625,
+								["id"] = 201628,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 122606,
+								["n_amt"] = 607,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[192611] = {
+								["c_amt"] = 63,
+								["b_amt"] = 4,
+								["c_dmg"] = 7918726,
+								["g_amt"] = 0,
+								["n_max"] = 87244,
+								["targets"] = {
+									["Runas the Shamed"] = 348347,
+									["Karzak the Impaler"] = 508919,
+									["Burning Hellion"] = 133770,
+									["Felbound Wrathlord"] = 123594,
+									["Nightglaive the Traitor"] = 234097,
+									["Withered Outcast"] = 862981,
+									["Chittering Sycophant"] = 1919355,
+									["Felstalker"] = 1805497,
+									["Rakeeshi Sorcerer"] = 775496,
+									["Vile Stalker"] = 388810,
+									["Frenzied Felfire"] = 102556,
+									["Burrowing Leyworm"] = 1114748,
+									["Tyndrissen"] = 355310,
+									["Blerg"] = 55738,
+									["Leystone Spiderling"] = 819338,
+									["Ael'Yith"] = 454636,
+									["Felshade Oculus <Questioner Arev'naal>"] = 54982,
+									["Mo'arg Crusher"] = 428064,
+									["Fel Seeker"] = 523932,
+									["Withered Exile"] = 528140,
+									["Withered Fanatic"] = 287846,
+									["Soultorn Jailer"] = 929702,
+									["Felbound Infernal <Kaldorath>"] = 53417,
+									["Flashwyrm"] = 356718,
+									["Fel Annihilator"] = 981491,
+									["Huk'roth the Huntmaster"] = 462601,
+									["Vile Doombringer"] = 200655,
+									["Damaged Construct"] = 51722,
+									["Felbound Imp"] = 145406,
+									["Nightfallen Construct"] = 359401,
+									["Grim Inquisitor"] = 1038945,
+									["Felguard"] = 1325347,
+									["Felspider"] = 66886,
+									["Doomguard"] = 290812,
+									["Overseer Lykill"] = 189507,
+									["Wild Manarunner"] = 56185,
+									["Felguard Shocktrooper"] = 110699,
+									["Questioner Arev'naal"] = 340888,
+									["Legion Skyterror"] = 412457,
+									["Withered Mana-Rager"] = 235978,
+									["Eredar Supplicant"] = 648783,
+									["Nightfallen Hungerer"] = 224879,
+									["Nightfallen Overseer"] = 825394,
+									["Withered Scavenger"] = 214758,
+									["Ishkaneth"] = 324951,
+									["Orbyth"] = 248649,
+									["Excess Power <Ael'Yith>"] = 283438,
+									["Withered Skulker"] = 235563,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 14522662,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 297,
+								["total"] = 22441388,
+								["c_max"] = 174487,
+								["id"] = 192611,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 184344,
+								["n_amt"] = 234,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[189112] = {
 								["c_amt"] = 7,
@@ -5821,12 +4593,12 @@ _detalhes_database = {
 									["Olmyr the Enlightened"] = 44876,
 									["Ebonclaw Worg"] = 45337,
 									["Hyrja"] = 44876,
-									["Valarjar Aspirant"] = 44876,
-									["Odyn"] = 45337,
-									["Angerhoof Bull"] = 45337,
-									["Hymdall"] = 44876,
-									["Valarjar Thundercaller"] = 224842,
 									["Valarjar Champion"] = 405267,
+									["Valarjar Aspirant"] = 44876,
+									["Hymdall"] = 44876,
+									["Angerhoof Bull"] = 45337,
+									["Valarjar Thundercaller"] = 224842,
+									["Odyn"] = 45337,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1263904,
@@ -5837,15 +4609,15 @@ _detalhes_database = {
 								["c_max"] = 90675,
 								["id"] = 189112,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 28,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[207685] = {
 								["c_amt"] = 0,
@@ -5866,245 +4638,135 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 207685,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 2,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["IMMUNE"] = 2,
 							},
 							[185123] = {
-								["c_amt"] = 0,
+								["c_amt"] = 3,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 347397,
 								["g_amt"] = 0,
 								["n_max"] = 96155,
 								["targets"] = {
+									["Burrowing Leyworm"] = 156362,
+									["Withered Fanatic"] = 52825,
+									["Soultorn Jailer"] = 63546,
+									["Wild Manarunner"] = 52516,
+									["Felguard Shocktrooper"] = 0,
+									["Withered Outcast"] = 106496,
 									["Chittering Sycophant"] = 96155,
+									["Withered Exile"] = 106866,
+									["Nightfallen Overseer"] = 198055,
+									["Legion Skyterror"] = 126898,
+									["Vile Stalker"] = 121743,
+									["Nightfallen Construct"] = 69309,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 96155,
+								["n_dmg"] = 803374,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 1,
-								["total"] = 96155,
-								["c_max"] = 0,
+								["counter"] = 16,
+								["total"] = 1150771,
+								["c_max"] = 135607,
 								["id"] = 185123,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[210153] = {
-								["c_amt"] = 11,
-								["b_amt"] = 2,
-								["c_dmg"] = 558479,
-								["g_amt"] = 0,
-								["n_max"] = 62092,
-								["targets"] = {
-									["Fel Annihilator"] = 380109,
-									["Huk'roth the Huntmaster"] = 712582,
-									["Karzak the Impaler"] = 424343,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 958555,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 52,
-								["total"] = 1517034,
-								["c_max"] = 116294,
-								["id"] = 210153,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["n_amt"] = 13,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 21836,
-								["n_amt"] = 41,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[201428] = {
-								["c_amt"] = 2,
-								["b_amt"] = 1,
-								["c_dmg"] = 365858,
-								["g_amt"] = 0,
-								["n_max"] = 140294,
-								["targets"] = {
-									["Fel Annihilator"] = 632437,
-									["Huk'roth the Huntmaster"] = 965983,
-									["Karzak the Impaler"] = 671463,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1904025,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 22,
-								["total"] = 2269883,
-								["c_max"] = 203816,
-								["id"] = 201428,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 84670,
-								["n_amt"] = 20,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
-							[179057] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 218041,
-								["g_amt"] = 0,
-								["n_max"] = 37095,
-								["targets"] = {
-									["Chittering Sycophant"] = 30912,
-									["Felstalker"] = 408826,
-									["Huk'roth the Huntmaster"] = 77223,
-									["Doomguard"] = 30912,
-									["Felguard"] = 87063,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 416895,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 19,
-								["total"] = 634936,
-								["c_max"] = 54511,
-								["id"] = 179057,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 15,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[199552] = {
-								["c_amt"] = 49,
-								["b_amt"] = 2,
-								["c_dmg"] = 1544935,
-								["g_amt"] = 0,
-								["n_max"] = 46515,
-								["targets"] = {
-									["Karzak the Impaler"] = 65158,
-									["Felbound Wrathlord"] = 234176,
-									["Felbound Infernal <Kaldorath>"] = 71721,
-									["Doomguard"] = 251931,
-									["Fel Annihilator"] = 567424,
-									["Chittering Sycophant"] = 1442147,
-									["Felstalker"] = 163750,
-									["Rakeeshi Sorcerer"] = 188993,
-									["Huk'roth the Huntmaster"] = 300180,
-									["Felguard"] = 879741,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2620286,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 201,
-								["total"] = 4165221,
-								["c_max"] = 92324,
-								["id"] = 199552,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 29897,
-								["n_amt"] = 152,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[203796] = {
-								["c_amt"] = 43,
-								["b_amt"] = 3,
-								["c_dmg"] = 1223046,
-								["g_amt"] = 0,
-								["n_max"] = 18160,
-								["targets"] = {
-									["Karzak the Impaler"] = 326339,
-									["Felbound Wrathlord"] = 91266,
-									["Felbound Infernal <Kaldorath>"] = 37703,
-									["Doomguard"] = 67354,
-									["Fel Annihilator"] = 974711,
-									["Huk'roth the Huntmaster"] = 351857,
-									["Chittering Sycophant"] = 332407,
-									["Felstalker"] = 26523,
-									["Rakeeshi Sorcerer"] = 223554,
-									["Felbound Imp"] = 14769,
-									["Felguard"] = 358360,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1581797,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 159,
-								["total"] = 2804843,
-								["c_max"] = 36119,
-								["id"] = 203796,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 25695,
-								["n_amt"] = 116,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[236237] = {
+							[202761] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 20381,
+								["n_max"] = 8430,
 								["targets"] = {
-									["Fel Annihilator"] = 371490,
-									["Huk'roth the Huntmaster"] = 202008,
-									["Chittering Sycophant"] = 114240,
-									["Karzak the Impaler"] = 121010,
-									["Rakeeshi Sorcerer"] = 66087,
-									["Doomguard"] = 16103,
-									["Felguard"] = 221932,
+									["Runas the Shamed"] = 42318,
+									["Karzak the Impaler"] = 90982,
+									["Questioner Arev'naal"] = 43280,
+									["Valarjar Purifier"] = 22324,
+									["Nightglaive the Traitor"] = 62289,
+									["Valarjar Falconer"] = 22480,
+									["Chittering Sycophant"] = 47836,
+									["Felstalker"] = 21423,
+									["Valarjar Marksman"] = 286397,
+									["Vile Stalker"] = 4771,
+									["Frenzied Felfire"] = 12696,
+									["Valarjar Shieldmaiden"] = 66972,
+									["King Ranulf"] = 77181,
+									["King Haldor"] = 39340,
+									["Hyrja"] = 180882,
+									["Leystone Spiderling"] = 23083,
+									["Steeljaw Grizzly"] = 110712,
+									["God-King Skovald"] = 136769,
+									["Valarjar Thundercaller"] = 44804,
+									["Withered Mana-Rager"] = 21159,
+									["Odyn"] = 140497,
+									["Withered Exile"] = 38470,
+									["Valarjar Mystic"] = 35511,
+									["Soultorn Jailer"] = 86750,
+									["Rakeeshi Sorcerer"] = 59644,
+									["Storm Drake"] = 67284,
+									["Angerhoof Bull"] = 89918,
+									["Flashwyrm"] = 16349,
+									["Hymdall"] = 148543,
+									["Fel Annihilator"] = 157969,
+									["Huk'roth the Huntmaster"] = 125472,
+									["Volynd Stormbringer"] = 40559,
+									["Fenryr"] = 251190,
+									["Valarjar Runecarver"] = 89608,
+									["Valarjar Trapper"] = 22480,
+									["Felbound Infernal <Kaldorath>"] = 5589,
+									["Felguard"] = 67075,
+									["Grim Inquisitor"] = 86945,
+									["Burrowing Leyworm"] = 71172,
+									["Overseer Lykill"] = 46021,
+									["Wild Manarunner"] = 22122,
+									["Felguard Shocktrooper"] = 4771,
+									["King Bjorn"] = 22480,
+									["Ebonclaw Worg"] = 96618,
+									["Olmyr the Enlightened"] = 83716,
+									["Eredar Supplicant"] = 17311,
+									["Blerg"] = 22121,
+									["Legion Skyterror"] = 31738,
+									["Yorg Murkmouth"] = 67802,
+									["Doomguard"] = 20501,
+									["Solsten"] = 22324,
+									["King Tor"] = 44960,
+									["Valarjar Champion"] = 351088,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 1112870,
+								["n_dmg"] = 3812296,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 127,
-								["total"] = 1112870,
+								["counter"] = 687,
+								["total"] = 3812296,
 								["c_max"] = 0,
-								["id"] = 236237,
+								["id"] = 202761,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 127,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 687,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[207407] = {
 								["c_amt"] = 40,
@@ -6123,19 +4785,19 @@ _detalhes_database = {
 									["Valarjar Marksman"] = 436581,
 									["Valarjar Shieldmaiden"] = 145241,
 									["Olmyr the Enlightened"] = 309921,
-									["Odyn"] = 314905,
+									["Valarjar Champion"] = 704912,
 									["King Ranulf"] = 356860,
 									["Valarjar Trapper"] = 126452,
 									["Hymdall"] = 330291,
 									["Hyrja"] = 331773,
+									["Valarjar Thundercaller"] = 203814,
 									["Ebonclaw Worg"] = 125034,
-									["King Bjorn"] = 183713,
 									["King Haldor"] = 128643,
 									["Valarjar Aspirant"] = 147748,
 									["God-King Skovald"] = 443534,
+									["King Bjorn"] = 183713,
 									["Valarjar Mystic"] = 210369,
-									["Valarjar Thundercaller"] = 203814,
-									["Valarjar Champion"] = 704912,
+									["Odyn"] = 314905,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 3994164,
@@ -6146,187 +4808,461 @@ _detalhes_database = {
 								["c_max"] = 122195,
 								["id"] = 207407,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 41241,
 								["n_amt"] = 132,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[202761] = {
+							[179057] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 218041,
+								["g_amt"] = 0,
+								["n_max"] = 37095,
+								["targets"] = {
+									["Withered Scavenger"] = 23904,
+									["Nightfallen Overseer"] = 71712,
+									["Doomguard"] = 30912,
+									["Withered Outcast"] = 0,
+									["Huk'roth the Huntmaster"] = 77223,
+									["Withered Skulker"] = 0,
+									["Felstalker"] = 408826,
+									["Chittering Sycophant"] = 30912,
+									["Felguard"] = 87063,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 512511,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 23,
+								["total"] = 730552,
+								["c_max"] = 54511,
+								["id"] = 179057,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 19,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[199552] = {
+								["c_amt"] = 133,
+								["b_amt"] = 6,
+								["c_dmg"] = 4001987,
+								["g_amt"] = 0,
+								["n_max"] = 46515,
+								["targets"] = {
+									["Runas the Shamed"] = 171393,
+									["Withered Scavenger"] = 133750,
+									["Burning Hellion"] = 80043,
+									["Felbound Wrathlord"] = 234176,
+									["Nightglaive the Traitor"] = 60828,
+									["Withered Outcast"] = 368490,
+									["Chittering Sycophant"] = 1442147,
+									["Felstalker"] = 163750,
+									["Rakeeshi Sorcerer"] = 188993,
+									["Frenzied Felfire"] = 60992,
+									["Burrowing Leyworm"] = 496443,
+									["Tyndrissen"] = 156882,
+									["Leystone Spiderling"] = 756491,
+									["Ael'Yith"] = 65856,
+									["Felshade Oculus <Questioner Arev'naal>"] = 153164,
+									["Mo'arg Crusher"] = 139821,
+									["Fel Seeker"] = 187913,
+									["Withered Exile"] = 285767,
+									["Withered Fanatic"] = 60377,
+									["Soultorn Jailer"] = 118263,
+									["Felbound Infernal <Kaldorath>"] = 71721,
+									["Doomguard"] = 251931,
+									["Fel Annihilator"] = 567424,
+									["Huk'roth the Huntmaster"] = 300180,
+									["Vile Doombringer"] = 200292,
+									["Damaged Construct"] = 106703,
+									["Felguard"] = 879741,
+									["Overseer Lykill"] = 161272,
+									["Wild Manarunner"] = 88135,
+									["Nightfallen Overseer"] = 452720,
+									["Grim Inquisitor"] = 380004,
+									["Nightfallen Hungerer"] = 269379,
+									["Withered Mana-Rager"] = 146085,
+									["Eredar Supplicant"] = 216541,
+									["Questioner Arev'naal"] = 276903,
+									["Karzak the Impaler"] = 65158,
+									["Legion Skyterror"] = 290186,
+									["Ishkaneth"] = 123032,
+									["Nightfallen Construct"] = 111033,
+									["Excess Power <Ael'Yith>"] = 26837,
+									["Withered Skulker"] = 156683,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 6465512,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 549,
+								["total"] = 10467499,
+								["c_max"] = 92324,
+								["id"] = 199552,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 58081,
+								["n_amt"] = 412,
+								["a_dmg"] = 0,
+								["IMMUNE"] = 4,
+							},
+							[210153] = {
+								["c_amt"] = 24,
+								["b_amt"] = 3,
+								["c_dmg"] = 1135988,
+								["g_amt"] = 0,
+								["n_max"] = 62092,
+								["targets"] = {
+									["Karzak the Impaler"] = 424343,
+									["Soultorn Jailer"] = 409517,
+									["Grim Inquisitor"] = 146976,
+									["Nightglaive the Traitor"] = 274784,
+									["Fel Annihilator"] = 380109,
+									["Huk'roth the Huntmaster"] = 712582,
+									["Ael'Yith"] = 577926,
+									["Orbyth"] = 187745,
+									["Eredar Supplicant"] = 100176,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2078170,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 115,
+								["total"] = 3214158,
+								["c_max"] = 116294,
+								["id"] = 210153,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 58009,
+								["n_amt"] = 91,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[203796] = {
+								["c_amt"] = 97,
+								["b_amt"] = 7,
+								["c_dmg"] = 2577225,
+								["g_amt"] = 0,
+								["n_max"] = 21525,
+								["targets"] = {
+									["Runas the Shamed"] = 200427,
+									["Karzak the Impaler"] = 326339,
+									["Felbound Wrathlord"] = 91266,
+									["Nightglaive the Traitor"] = 147430,
+									["Withered Outcast"] = 216724,
+									["Chittering Sycophant"] = 332407,
+									["Felstalker"] = 26523,
+									["Rakeeshi Sorcerer"] = 223554,
+									["Vile Stalker"] = 0,
+									["Frenzied Felfire"] = 32102,
+									["Burrowing Leyworm"] = 220435,
+									["Tyndrissen"] = 114447,
+									["Leystone Spiderling"] = 52188,
+									["Ael'Yith"] = 420126,
+									["Withered Skulker"] = 64226,
+									["Mo'arg Crusher"] = 104669,
+									["Fel Seeker"] = 13460,
+									["Withered Exile"] = 94999,
+									["Withered Fanatic"] = 121683,
+									["Nightfallen Hungerer"] = 26591,
+									["Felbound Infernal <Kaldorath>"] = 37703,
+									["Flashwyrm"] = 35166,
+									["Fel Annihilator"] = 974711,
+									["Huk'roth the Huntmaster"] = 351857,
+									["Vile Doombringer"] = 93693,
+									["Damaged Construct"] = 39325,
+									["Felbound Imp"] = 14769,
+									["Felguard"] = 358360,
+									["Overseer Lykill"] = 190081,
+									["Withered Scavenger"] = 8030,
+									["Felguard Shocktrooper"] = 23108,
+									["Grim Inquisitor"] = 317993,
+									["Withered Mana-Rager"] = 26497,
+									["Doomguard"] = 67354,
+									["Eredar Supplicant"] = 145516,
+									["Nightfallen Overseer"] = 115195,
+									["Questioner Arev'naal"] = 122734,
+									["Soultorn Jailer"] = 146255,
+									["Legion Skyterror"] = 116659,
+									["Orbyth"] = 76872,
+									["Ishkaneth"] = 125143,
+									["Nightfallen Construct"] = 94028,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3733420,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 385,
+								["total"] = 6310645,
+								["c_max"] = 36119,
+								["id"] = 203796,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 63230,
+								["n_amt"] = 288,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[236237] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 8430,
+								["n_max"] = 20381,
 								["targets"] = {
-									["Karzak the Impaler"] = 90982,
-									["Valarjar Purifier"] = 22324,
-									["Valarjar Falconer"] = 22480,
-									["Chittering Sycophant"] = 47836,
-									["Felstalker"] = 21423,
-									["Valarjar Marksman"] = 286397,
-									["Valarjar Shieldmaiden"] = 66972,
-									["King Ranulf"] = 77181,
-									["King Haldor"] = 39340,
-									["Hyrja"] = 180882,
-									["God-King Skovald"] = 136769,
-									["Odyn"] = 140497,
-									["Steeljaw Grizzly"] = 110712,
-									["Storm Drake"] = 67284,
-									["Angerhoof Bull"] = 89918,
-									["Solsten"] = 22324,
-									["Yorg Murkmouth"] = 67802,
-									["Huk'roth the Huntmaster"] = 125472,
-									["Volynd Stormbringer"] = 40559,
-									["Fenryr"] = 251190,
-									["Valarjar Runecarver"] = 89608,
-									["Felguard"] = 67075,
-									["Olmyr the Enlightened"] = 83716,
-									["Fel Annihilator"] = 157969,
-									["King Bjorn"] = 22480,
-									["Ebonclaw Worg"] = 96618,
-									["Rakeeshi Sorcerer"] = 59644,
-									["Doomguard"] = 20501,
-									["Felbound Infernal <Kaldorath>"] = 5589,
-									["Valarjar Trapper"] = 22480,
-									["Hymdall"] = 148543,
-									["King Tor"] = 44960,
-									["Valarjar Mystic"] = 35511,
-									["Valarjar Thundercaller"] = 44804,
-									["Valarjar Champion"] = 351088,
+									["Runas the Shamed"] = 59642,
+									["Withered Scavenger"] = 25430,
+									["Questioner Arev'naal"] = 41192,
+									["Nightglaive the Traitor"] = 71752,
+									["Withered Outcast"] = 127368,
+									["Chittering Sycophant"] = 114240,
+									["Ishkaneth"] = 33927,
+									["Rakeeshi Sorcerer"] = 66087,
+									["Frenzied Felfire"] = 15269,
+									["Burrowing Leyworm"] = 125223,
+									["Tyndrissen"] = 28565,
+									["Excess Power <Ael'Yith>"] = 36521,
+									["Ael'Yith"] = 214158,
+									["Withered Skulker"] = 68374,
+									["Mo'arg Crusher"] = 42905,
+									["Fel Seeker"] = 32773,
+									["Withered Exile"] = 25161,
+									["Nightfallen Construct"] = 12223,
+									["Doomguard"] = 16103,
+									["Fel Annihilator"] = 371490,
+									["Huk'roth the Huntmaster"] = 202008,
+									["Vile Doombringer"] = 25420,
+									["Damaged Construct"] = 21476,
+									["Felguard"] = 221932,
+									["Overseer Lykill"] = 61538,
+									["Nightfallen Overseer"] = 87136,
+									["Eredar Supplicant"] = 79416,
+									["Soultorn Jailer"] = 13818,
+									["Legion Skyterror"] = 32482,
+									["Karzak the Impaler"] = 121010,
+									["Orbyth"] = 17257,
+									["Felshade Oculus <Questioner Arev'naal>"] = 41192,
+									["Leystone Spiderling"] = 150444,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 3158930,
+								["n_dmg"] = 2603532,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 570,
-								["total"] = 3158930,
+								["counter"] = 336,
+								["total"] = 2603532,
 								["c_max"] = 0,
-								["id"] = 202761,
+								["id"] = 236237,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 570,
+								["n_amt"] = 335,
+								["a_dmg"] = 0,
+								["IMMUNE"] = 1,
+							},
+							[201428] = {
+								["c_amt"] = 10,
+								["b_amt"] = 1,
+								["c_dmg"] = 1538971,
+								["g_amt"] = 0,
+								["n_max"] = 140294,
+								["targets"] = {
+									["Fel Annihilator"] = 632437,
+									["Karzak the Impaler"] = 671463,
+									["Ael'Yith"] = 1727226,
+									["Orbyth"] = 172574,
+									["Nightglaive the Traitor"] = 591726,
+									["Huk'roth the Huntmaster"] = 965983,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3222438,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 48,
+								["total"] = 4761409,
+								["c_max"] = 203816,
+								["id"] = 201428,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 84670,
+								["n_amt"] = 38,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[213243] = {
-								["c_amt"] = 53,
-								["b_amt"] = 3,
-								["c_dmg"] = 6048288,
+								["c_amt"] = 77,
+								["b_amt"] = 5,
+								["c_dmg"] = 10173371,
 								["g_amt"] = 0,
 								["n_max"] = 119987,
 								["targets"] = {
+									["Runas the Shamed"] = 318309,
 									["Karzak the Impaler"] = 922033,
 									["Felbound Wrathlord"] = 178864,
 									["Valarjar Purifier"] = 37583,
+									["Nightglaive the Traitor"] = 528071,
+									["Withered Outcast"] = 666396,
+									["Ishkaneth"] = 380224,
 									["Chittering Sycophant"] = 1097433,
+									["Grim Inquisitor"] = 837246,
+									["Valarjar Thundercaller"] = 475700,
 									["Felstalker"] = 270456,
 									["Valarjar Marksman"] = 459503,
+									["Vile Stalker"] = 169447,
+									["Fel Annihilator"] = 1397779,
 									["Valarjar Shieldmaiden"] = 113527,
+									["Tyndrissen"] = 126794,
+									["Rakeeshi Sorcerer"] = 691100,
+									["Hymdall"] = 375189,
 									["King Ranulf"] = 154455,
+									["Valarjar Trapper"] = 192689,
 									["King Haldor"] = 191009,
 									["Hyrja"] = 337034,
+									["Solsten"] = 149722,
+									["Excess Power <Ael'Yith>"] = 88433,
+									["Ael'Yith"] = 576330,
+									["Withered Skulker"] = 85760,
 									["God-King Skovald"] = 373322,
+									["Withered Exile"] = 244927,
+									["Withered Mana-Rager"] = 261044,
 									["Odyn"] = 412025,
 									["Steeljaw Grizzly"] = 224910,
+									["Withered Fanatic"] = 163426,
+									["Nightfallen Construct"] = 174353,
+									["Questioner Arev'naal"] = 236481,
 									["Storm Drake"] = 227767,
 									["Angerhoof Bull"] = 118824,
 									["Doomguard"] = 313053,
+									["Fenryr"] = 613741,
 									["Yorg Murkmouth"] = 282754,
 									["Huk'roth the Huntmaster"] = 1007821,
 									["Volynd Stormbringer"] = 77014,
-									["Fenryr"] = 613741,
+									["Damaged Construct"] = 153610,
 									["Valarjar Runecarver"] = 231810,
+									["Burrowing Leyworm"] = 965950,
+									["Legion Skyterror"] = 245765,
 									["Felguard"] = 1157100,
+									["Withered Scavenger"] = 52259,
 									["Olmyr the Enlightened"] = 190524,
+									["Overseer Lykill"] = 268661,
+									["Vile Doombringer"] = 198155,
+									["Nightfallen Overseer"] = 339216,
 									["King Bjorn"] = 293389,
 									["Ebonclaw Worg"] = 115939,
-									["Fel Annihilator"] = 1397779,
-									["Rakeeshi Sorcerer"] = 691100,
-									["Solsten"] = 149722,
-									["Valarjar Trapper"] = 192689,
-									["Hymdall"] = 375189,
+									["Flashwyrm"] = 148719,
+									["Eredar Supplicant"] = 173450,
+									["Soultorn Jailer"] = 846902,
+									["Mo'arg Crusher"] = 360297,
+									["Nightfallen Hungerer"] = 72782,
+									["Leystone Spiderling"] = 83266,
+									["Orbyth"] = 357263,
 									["Valarjar Mystic"] = 263283,
-									["Valarjar Thundercaller"] = 475700,
 									["Valarjar Champion"] = 709276,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 7608340,
+								["n_dmg"] = 12606793,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 196,
-								["total"] = 13656628,
+								["counter"] = 281,
+								["total"] = 22780164,
 								["c_max"] = 235955,
 								["id"] = 213243,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 78327,
-								["n_amt"] = 143,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 210466,
+								["n_amt"] = 204,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[192611] = {
-								["c_amt"] = 21,
-								["b_amt"] = 1,
-								["c_dmg"] = 2859302,
+							[198813] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 33774,
 								["g_amt"] = 0,
-								["n_max"] = 87244,
+								["n_max"] = 11591,
 								["targets"] = {
-									["Karzak the Impaler"] = 508919,
-									["Felbound Wrathlord"] = 123594,
-									["Felbound Infernal <Kaldorath>"] = 53417,
-									["Doomguard"] = 290812,
-									["Fel Annihilator"] = 981491,
-									["Huk'roth the Huntmaster"] = 462601,
-									["Chittering Sycophant"] = 1919355,
-									["Felstalker"] = 1805497,
-									["Rakeeshi Sorcerer"] = 775496,
-									["Felbound Imp"] = 145406,
-									["Felguard"] = 1325347,
+									["Burrowing Leyworm"] = 8036,
+									["Leystone Spiderling"] = 33625,
+									["Rakeeshi Sorcerer"] = 17970,
+									["Mo'arg Crusher"] = 11591,
+									["Vile Stalker"] = 9956,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 5532633,
+								["n_dmg"] = 47404,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 102,
-								["total"] = 8391935,
-								["c_max"] = 174487,
-								["id"] = 192611,
+								["counter"] = 7,
+								["total"] = 81178,
+								["c_max"] = 17970,
+								["id"] = 198813,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 50891,
-								["n_amt"] = 81,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["last_dps"] = 0,
+					["spec"] = 581,
+					["tipo"] = 1,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["isTank"] = true,
+					["serial"] = "Player-5-0A6AF472",
+					["friendlyfire"] = {
+						["Kaldorath"] = {
+							["total"] = 71427,
+							["spells"] = {
+								[197499] = 71427,
 							},
 						},
 					},
-					["grupo"] = true,
-					["spec"] = 581,
-					["serial"] = "Player-5-0A6AF472",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1488054947,
-					["delay"] = 0,
-					["damage_taken"] = 77682522.223682,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
@@ -6344,11 +5280,11 @@ _detalhes_database = {
 						["Hymdall"] = true,
 						["[*] Static Field"] = true,
 						["Hyrja"] = true,
-						["[*] Infernal Flames"] = true,
 						["[*] Sanctify"] = true,
-						["[*] Tempest"] = true,
-						["God-King Skovald"] = true,
+						["[*] Infernal Flames"] = true,
 						["[*] Crackling Storm"] = true,
+						["God-King Skovald"] = true,
+						["[*] Tempest"] = true,
 						["Valarjar Thundercaller"] = true,
 						["Odyn"] = true,
 					},
@@ -6358,12 +5294,12 @@ _detalhes_database = {
 						["Valarjar Purifier"] = 411519,
 						["Solsten"] = 1746078,
 						["Valarjar Falconer"] = 534820,
-						["Odyn"] = 4997151,
+						["Valarjar Champion"] = 10414367,
 						["Volynd Stormbringer"] = 4994235,
 						["Fenryr"] = 7202896,
 						["Valarjar Runecarver"] = 3472261,
 						["Valarjar Marksman"] = 9229996,
-						["Valarjar Mystic"] = 2468660,
+						["Valarjar Thundercaller"] = 7353590,
 						["Angerhoof Bull"] = 1113575,
 						["Valarjar Shieldmaiden"] = 3225870,
 						["Trained Hawk"] = 56758,
@@ -6373,36 +5309,36 @@ _detalhes_database = {
 						["Valarjar Trapper"] = 3112309,
 						["Hymdall"] = 5675356,
 						["Hyrja"] = 5321424,
-						["King Bjorn"] = 1697336,
-						["King Haldor"] = 1261648,
-						["Ebonclaw Worg"] = 4255942,
 						["Steeljaw Grizzly"] = 6676538,
+						["Ebonclaw Worg"] = 4255942,
+						["King Haldor"] = 1261648,
+						["King Bjorn"] = 1697336,
 						["God-King Skovald"] = 5359026,
 						["Honored Ancestor"] = 323423,
-						["Valarjar Thundercaller"] = 7353590,
-						["Valarjar Champion"] = 10414367,
+						["Valarjar Mystic"] = 2468660,
+						["Odyn"] = 4997151,
 					},
+					["delay"] = 0,
 					["pets"] = {
 						"Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>", -- [1]
 					},
-					["classe"] = "PRIEST",
+					["nome"] = "Silentnight-Darkspear",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 96769757.116061,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1488057018,
 					["friendlyfire"] = {
 					},
-					["total"] = 99408314.116061,
-					["nome"] = "Silentnight-Darkspear",
+					["dps_started"] = false,
+					["end_time"] = 1488057018,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
 					["spec"] = 258,
 					["grupo"] = true,
-					["on_hold"] = false,
+					["total"] = 99408314.116061,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[15407] = {
 								["c_amt"] = 116,
@@ -6418,24 +5354,24 @@ _detalhes_database = {
 									["Fenryr"] = 879718,
 									["Valarjar Runecarver"] = 433059,
 									["Valarjar Marksman"] = 689629,
-									["Odyn"] = 384573,
-									["Angerhoof Bull"] = 207157,
+									["Valarjar Champion"] = 1523421,
+									["Valarjar Thundercaller"] = 488387,
 									["Valarjar Shieldmaiden"] = 98953,
-									["Valarjar Mystic"] = 49266,
+									["Angerhoof Bull"] = 207157,
 									["Olmyr the Enlightened"] = 481756,
 									["King Tor"] = 40142,
 									["King Ranulf"] = 600433,
 									["Valarjar Trapper"] = 444246,
 									["Hymdall"] = 882161,
 									["Hyrja"] = 570282,
-									["King Bjorn"] = 305080,
-									["King Haldor"] = 294368,
-									["Ebonclaw Worg"] = 434240,
 									["Valarjar Aspirant"] = 149066,
+									["Ebonclaw Worg"] = 434240,
+									["King Haldor"] = 294368,
+									["King Bjorn"] = 305080,
 									["God-King Skovald"] = 761121,
 									["Honored Ancestor"] = 115076,
-									["Valarjar Thundercaller"] = 488387,
-									["Valarjar Champion"] = 1523421,
+									["Valarjar Mystic"] = 49266,
+									["Odyn"] = 384573,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 8011125,
@@ -6446,15 +5382,15 @@ _detalhes_database = {
 								["c_max"] = 37323,
 								["id"] = 15407,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 525,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[237388] = {
 								["c_amt"] = 129,
@@ -6476,10 +5412,10 @@ _detalhes_database = {
 									["Valarjar Trapper"] = 285407,
 									["Ebonclaw Worg"] = 1010852,
 									["King Bjorn"] = 16216,
-									["King Tor"] = 204328,
-									["Valarjar Aspirant"] = 29853,
-									["Valarjar Mystic"] = 662966,
 									["Valarjar Thundercaller"] = 1306117,
+									["Valarjar Mystic"] = 662966,
+									["Valarjar Aspirant"] = 29853,
+									["King Tor"] = 204328,
 									["Valarjar Champion"] = 1961186,
 								},
 								["m_dmg"] = 0,
@@ -6491,15 +5427,15 @@ _detalhes_database = {
 								["c_max"] = 22114,
 								["id"] = 237388,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 650,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[228360] = {
 								["c_amt"] = 2,
@@ -6509,18 +5445,18 @@ _detalhes_database = {
 								["n_max"] = 45613,
 								["targets"] = {
 									["Steeljaw Grizzly"] = 78916,
-									["Odyn"] = 78494,
+									["Valarjar Champion"] = 185419,
 									["King Bjorn"] = 36490,
 									["Hymdall"] = 60817,
 									["Hyrja"] = 62199,
-									["God-King Skovald"] = 37320,
-									["King Tor"] = 36490,
+									["Valarjar Mystic"] = 40354,
+									["Valarjar Runecarver"] = 74640,
 									["Volynd Stormbringer"] = 77674,
 									["Fenryr"] = 133798,
-									["Valarjar Runecarver"] = 74640,
+									["God-King Skovald"] = 37320,
 									["Valarjar Marksman"] = 109470,
-									["Valarjar Mystic"] = 40354,
-									["Valarjar Champion"] = 185419,
+									["King Tor"] = 36490,
+									["Odyn"] = 78494,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 866119,
@@ -6531,15 +5467,15 @@ _detalhes_database = {
 								["c_max"] = 72981,
 								["id"] = 228360,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 24,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[34914] = {
 								["c_amt"] = 184,
@@ -6557,8 +5493,8 @@ _detalhes_database = {
 									["Fenryr"] = 1623788,
 									["Valarjar Runecarver"] = 1403618,
 									["Valarjar Marksman"] = 4024610,
-									["Odyn"] = 1044465,
-									["Valarjar Mystic"] = 846571,
+									["Valarjar Champion"] = 3346035,
+									["Valarjar Thundercaller"] = 2970512,
 									["Valarjar Shieldmaiden"] = 1247116,
 									["Angerhoof Bull"] = 355364,
 									["Olmyr the Enlightened"] = 667106,
@@ -6567,14 +5503,14 @@ _detalhes_database = {
 									["Valarjar Trapper"] = 1327696,
 									["Hymdall"] = 1082746,
 									["Hyrja"] = 1078695,
-									["King Bjorn"] = 436749,
-									["King Haldor"] = 294491,
-									["Ebonclaw Worg"] = 1643792,
 									["Steeljaw Grizzly"] = 2308313,
+									["Ebonclaw Worg"] = 1643792,
+									["King Haldor"] = 294491,
+									["King Bjorn"] = 436749,
 									["God-King Skovald"] = 1128550,
 									["Honored Ancestor"] = 54905,
-									["Valarjar Thundercaller"] = 2970512,
-									["Valarjar Champion"] = 3346035,
+									["Valarjar Mystic"] = 846571,
+									["Odyn"] = 1044465,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 21144345,
@@ -6585,15 +5521,15 @@ _detalhes_database = {
 								["c_max"] = 91999,
 								["id"] = 34914,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 720,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[8092] = {
 								["c_amt"] = 17,
@@ -6612,19 +5548,19 @@ _detalhes_database = {
 									["Valarjar Marksman"] = 517682,
 									["Valarjar Shieldmaiden"] = 139231,
 									["Olmyr the Enlightened"] = 352935,
-									["Odyn"] = 528534,
+									["Valarjar Champion"] = 139231,
 									["King Ranulf"] = 239574,
 									["King Bjorn"] = 274677,
 									["Hymdall"] = 719920,
 									["Hyrja"] = 737114,
-									["Ebonclaw Worg"] = 66896,
-									["King Tor"] = 55746,
+									["Valarjar Thundercaller"] = 57013,
+									["Angerhoof Bull"] = 178389,
 									["King Haldor"] = 178387,
 									["Steeljaw Grizzly"] = 225114,
 									["God-King Skovald"] = 733576,
-									["Angerhoof Bull"] = 178389,
-									["Valarjar Thundercaller"] = 57013,
-									["Valarjar Champion"] = 139231,
+									["Ebonclaw Worg"] = 66896,
+									["King Tor"] = 55746,
+									["Odyn"] = 528534,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 4803338,
@@ -6635,15 +5571,15 @@ _detalhes_database = {
 								["c_max"] = 155491,
 								["id"] = 8092,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 72,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[199911] = {
 								["c_amt"] = 4,
@@ -6652,13 +5588,13 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 99356,
 								["targets"] = {
+									["King Ranulf"] = 170980,
+									["Hymdall"] = 358846,
+									["Volynd Stormbringer"] = 161715,
+									["Valarjar Marksman"] = 512941,
 									["God-King Skovald"] = 370556,
 									["King Bjorn"] = 89842,
-									["Volynd Stormbringer"] = 161715,
 									["King Haldor"] = 237182,
-									["King Ranulf"] = 170980,
-									["Valarjar Marksman"] = 512941,
-									["Hymdall"] = 358846,
 									["Hyrja"] = 540275,
 								},
 								["m_dmg"] = 0,
@@ -6670,15 +5606,15 @@ _detalhes_database = {
 								["c_max"] = 183767,
 								["id"] = 199911,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 20,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[226943] = {
 								["c_amt"] = 0,
@@ -6699,16 +5635,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 226943,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 4,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["IMMUNE"] = 4,
 							},
 							[148859] = {
 								["c_amt"] = 54,
@@ -6726,23 +5662,23 @@ _detalhes_database = {
 									["Fenryr"] = 168961,
 									["Valarjar Runecarver"] = 63436,
 									["Valarjar Marksman"] = 286223,
-									["Odyn"] = 44480,
+									["Valarjar Champion"] = 214287,
 									["Valarjar Shieldmaiden"] = 145395,
-									["Valarjar Mystic"] = 48820,
+									["Valarjar Thundercaller"] = 180602,
 									["Olmyr the Enlightened"] = 55723,
-									["King Bjorn"] = 7601,
+									["Angerhoof Bull"] = 33419,
 									["King Ranulf"] = 61832,
 									["Valarjar Trapper"] = 102565,
 									["Hymdall"] = 77540,
 									["Hyrja"] = 87538,
 									["King Tor"] = 31012,
-									["King Haldor"] = 23411,
-									["Ebonclaw Worg"] = 133414,
 									["Steeljaw Grizzly"] = 228648,
+									["Ebonclaw Worg"] = 133414,
+									["King Haldor"] = 23411,
 									["God-King Skovald"] = 66912,
-									["Angerhoof Bull"] = 33419,
-									["Valarjar Thundercaller"] = 180602,
-									["Valarjar Champion"] = 214287,
+									["King Bjorn"] = 7601,
+									["Valarjar Mystic"] = 48820,
+									["Odyn"] = 44480,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1642760,
@@ -6753,15 +5689,15 @@ _detalhes_database = {
 								["c_max"] = 16813,
 								["id"] = 148859,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 250,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[228361] = {
 								["c_amt"] = 7,
@@ -6771,19 +5707,19 @@ _detalhes_database = {
 								["n_max"] = 40355,
 								["targets"] = {
 									["Steeljaw Grizzly"] = 118374,
-									["Odyn"] = 124107,
+									["Valarjar Champion"] = 148928,
 									["Storm Drake"] = 39457,
 									["King Bjorn"] = 36490,
 									["Hymdall"] = 91226,
 									["Hyrja"] = 62200,
-									["God-King Skovald"] = 37319,
-									["King Tor"] = 72981,
+									["Valarjar Mystic"] = 40355,
+									["Valarjar Runecarver"] = 74639,
 									["Volynd Stormbringer"] = 155350,
 									["Fenryr"] = 127717,
-									["Valarjar Runecarver"] = 74639,
+									["God-King Skovald"] = 37319,
 									["Valarjar Marksman"] = 109470,
-									["Valarjar Mystic"] = 40355,
-									["Valarjar Champion"] = 148928,
+									["King Tor"] = 72981,
+									["Odyn"] = 124107,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 718504,
@@ -6794,15 +5730,15 @@ _detalhes_database = {
 								["c_max"] = 91226,
 								["id"] = 228361,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 20,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[589] = {
 								["c_amt"] = 222,
@@ -6820,8 +5756,8 @@ _detalhes_database = {
 									["Fenryr"] = 1356952,
 									["Valarjar Runecarver"] = 879576,
 									["Valarjar Marksman"] = 2511357,
-									["Odyn"] = 931170,
-									["Valarjar Mystic"] = 780328,
+									["Valarjar Champion"] = 2895860,
+									["Valarjar Thundercaller"] = 1897096,
 									["Valarjar Shieldmaiden"] = 997817,
 									["Angerhoof Bull"] = 244556,
 									["Olmyr the Enlightened"] = 540752,
@@ -6830,14 +5766,14 @@ _detalhes_database = {
 									["Valarjar Trapper"] = 952395,
 									["Hymdall"] = 759407,
 									["Hyrja"] = 719226,
-									["King Bjorn"] = 334426,
-									["King Haldor"] = 233809,
-									["Ebonclaw Worg"] = 966748,
 									["Steeljaw Grizzly"] = 1708960,
+									["Ebonclaw Worg"] = 966748,
+									["King Haldor"] = 233809,
+									["King Bjorn"] = 334426,
 									["God-King Skovald"] = 882965,
 									["Honored Ancestor"] = 73559,
-									["Valarjar Thundercaller"] = 1897096,
-									["Valarjar Champion"] = 2895860,
+									["Valarjar Mystic"] = 780328,
+									["Odyn"] = 931170,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 16486650,
@@ -6848,48 +5784,15 @@ _detalhes_database = {
 								["c_max"] = 48422,
 								["id"] = 589,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1077,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[205065] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 438782,
-								["g_amt"] = 0,
-								["n_max"] = 76020,
-								["targets"] = {
-									["Odyn"] = 456120,
-									["Fenryr"] = 774215,
-									["God-King Skovald"] = 316586,
-									["Valarjar Thundercaller"] = 372165,
-									["Hymdall"] = 281386,
-									["Hyrja"] = 371620,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2133310,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 44,
-								["total"] = 2572092,
-								["c_max"] = 121633,
-								["id"] = 205065,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 39,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 							},
 							[205448] = {
 								["c_amt"] = 12,
@@ -6902,12 +5805,12 @@ _detalhes_database = {
 									["King Bjorn"] = 159765,
 									["Hymdall"] = 878066,
 									["Hyrja"] = 754433,
-									["Honored Ancestor"] = 79883,
-									["God-King Skovald"] = 694104,
-									["Volynd Stormbringer"] = 163396,
-									["Fenryr"] = 958588,
 									["Valarjar Runecarver"] = 81698,
 									["Valarjar Marksman"] = 159765,
+									["Volynd Stormbringer"] = 163396,
+									["Fenryr"] = 958588,
+									["God-King Skovald"] = 694104,
+									["Honored Ancestor"] = 79883,
 									["Valarjar Thundercaller"] = 81698,
 									["Odyn"] = 684633,
 								},
@@ -6920,25 +5823,58 @@ _detalhes_database = {
 								["c_max"] = 199706,
 								["id"] = 205448,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 42,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[205065] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 438782,
+								["g_amt"] = 0,
+								["n_max"] = 76020,
+								["targets"] = {
+									["Hyrja"] = 371620,
+									["Fenryr"] = 774215,
+									["God-King Skovald"] = 316586,
+									["Hymdall"] = 281386,
+									["Valarjar Thundercaller"] = 372165,
+									["Odyn"] = 456120,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2133310,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 44,
+								["total"] = 2572092,
+								["c_max"] = 121633,
+								["id"] = 205065,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 39,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-120-07F62AFD",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["damage_taken"] = 11185797.116061,
 					["start_time"] = 1488055692,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-120-07F62AFD",
+					["classe"] = "PRIEST",
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
@@ -6951,17 +5887,17 @@ _detalhes_database = {
 						["Valarjar Runecarver"] = true,
 						["Valarjar Marksman"] = true,
 						["Valarjar Shieldmaiden"] = true,
-						["[*] Static Field"] = true,
+						["Hyrja"] = true,
 						["King Bjorn"] = true,
 						["Hymdall"] = true,
-						["Hyrja"] = true,
-						["[*] Infernal Flames"] = true,
-						["[*] Tempest"] = true,
-						["[*] Sanctify"] = true,
-						["King Tor"] = true,
-						["God-King Skovald"] = true,
-						["Ebonclaw Worg"] = true,
+						["[*] Static Field"] = true,
 						["Valarjar Thundercaller"] = true,
+						["Ebonclaw Worg"] = true,
+						["[*] Sanctify"] = true,
+						["[*] Tempest"] = true,
+						["God-King Skovald"] = true,
+						["[*] Infernal Flames"] = true,
+						["King Tor"] = true,
 						["Odyn"] = true,
 					},
 					["targets"] = {
@@ -6974,46 +5910,46 @@ _detalhes_database = {
 						["Fenryr"] = 6664202,
 						["Valarjar Runecarver"] = 1666506,
 						["Valarjar Marksman"] = 2404234,
-						["Odyn"] = 6932379,
-						["Valarjar Mystic"] = 1697541,
+						["Valarjar Champion"] = 5324000,
+						["Valarjar Thundercaller"] = 5252121,
 						["Valarjar Shieldmaiden"] = 2259436,
-						["King Bjorn"] = 333695,
-						["Olmyr the Enlightened"] = 1260725,
 						["King Tor"] = 2593255,
-						["King Ranulf"] = 2633750,
+						["Olmyr the Enlightened"] = 1260725,
 						["Valarjar Trapper"] = 1649814,
+						["King Ranulf"] = 2633750,
+						["King Bjorn"] = 333695,
 						["Hymdall"] = 4256461,
 						["Hyrja"] = 5920565,
-						["Angerhoof Bull"] = 2358925,
-						["King Haldor"] = 1563095,
-						["Ebonclaw Worg"] = 2206198,
 						["Steeljaw Grizzly"] = 3158668,
+						["Ebonclaw Worg"] = 2206198,
+						["King Haldor"] = 1563095,
+						["Angerhoof Bull"] = 2358925,
 						["God-King Skovald"] = 6857899,
 						["Honored Ancestor"] = 190480,
-						["Valarjar Thundercaller"] = 5252121,
-						["Valarjar Champion"] = 5324000,
+						["Valarjar Mystic"] = 1697541,
+						["Odyn"] = 6932379,
 					},
+					["delay"] = 0,
 					["pets"] = {
 						"Bloodstalker <Raffe> <Raffe>", -- [1]
 					},
-					["classe"] = "ROGUE",
+					["nome"] = "Raffe",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 73946624.137956,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1488057018,
 					["friendlyfire"] = {
 					},
-					["total"] = 74887416.137956,
-					["nome"] = "Raffe",
+					["dps_started"] = false,
+					["end_time"] = 1488057018,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
 					["spec"] = 261,
 					["grupo"] = true,
-					["on_hold"] = false,
+					["total"] = 74887416.137956,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 188,
@@ -7031,23 +5967,23 @@ _detalhes_database = {
 									["Fenryr"] = 690130,
 									["Valarjar Runecarver"] = 176825,
 									["Valarjar Marksman"] = 218485,
-									["Odyn"] = 512943,
+									["Valarjar Champion"] = 406756,
 									["Valarjar Shieldmaiden"] = 244037,
-									["Steeljaw Grizzly"] = 306751,
+									["Valarjar Thundercaller"] = 401283,
 									["Olmyr the Enlightened"] = 179080,
-									["King Bjorn"] = 13924,
-									["King Ranulf"] = 129167,
 									["Valarjar Trapper"] = 192576,
+									["King Ranulf"] = 129167,
+									["King Bjorn"] = 13924,
 									["Hymdall"] = 440549,
 									["Hyrja"] = 474855,
-									["King Tor"] = 275562,
-									["Valarjar Mystic"] = 33545,
-									["King Haldor"] = 173314,
+									["Steeljaw Grizzly"] = 306751,
 									["Ebonclaw Worg"] = 84153,
+									["King Haldor"] = 173314,
+									["Valarjar Mystic"] = 33545,
 									["God-King Skovald"] = 620665,
 									["Honored Ancestor"] = 29117,
-									["Valarjar Thundercaller"] = 401283,
-									["Valarjar Champion"] = 406756,
+									["King Tor"] = 275562,
+									["Odyn"] = 512943,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 4260610,
@@ -7058,16 +5994,16 @@ _detalhes_database = {
 								["c_max"] = 25133,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 171,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 32801,
 								["n_amt"] = 731,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["MISS"] = 171,
 							}, -- [1]
 							[209784] = {
 								["c_amt"] = 2,
@@ -7076,12 +6012,12 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 89389,
 								["targets"] = {
-									["Odyn"] = 207734,
+									["Hyrja"] = 60121,
 									["Fenryr"] = 62285,
 									["Storm Drake"] = 58248,
 									["God-King Skovald"] = 175253,
 									["Hymdall"] = 44389,
-									["Hyrja"] = 60121,
+									["Odyn"] = 207734,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 371003,
@@ -7092,15 +6028,15 @@ _detalhes_database = {
 								["c_max"] = 118682,
 								["id"] = 209784,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[197835] = {
 								["c_amt"] = 45,
@@ -7114,13 +6050,13 @@ _detalhes_database = {
 									["Valarjar Purifier"] = 30650,
 									["Solsten"] = 48300,
 									["Ebonclaw Worg"] = 378897,
+									["Valarjar Thundercaller"] = 496144,
 									["Steeljaw Grizzly"] = 192104,
-									["Valarjar Trapper"] = 139613,
 									["Volynd Stormbringer"] = 16100,
 									["Valarjar Aspirant"] = 40671,
 									["Valarjar Runecarver"] = 127935,
+									["Valarjar Trapper"] = 139613,
 									["Valarjar Mystic"] = 128364,
-									["Valarjar Thundercaller"] = 496144,
 									["Valarjar Champion"] = 817757,
 								},
 								["m_dmg"] = 0,
@@ -7132,15 +6068,15 @@ _detalhes_database = {
 								["c_max"] = 21904,
 								["id"] = 197835,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 199,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[195452] = {
 								["c_amt"] = 104,
@@ -7158,21 +6094,21 @@ _detalhes_database = {
 									["Valarjar Runecarver"] = 286387,
 									["Valarjar Marksman"] = 882028,
 									["Valarjar Shieldmaiden"] = 1092769,
-									["Odyn"] = 2085214,
+									["Valarjar Champion"] = 2617556,
 									["Olmyr the Enlightened"] = 442056,
-									["Valarjar Mystic"] = 453175,
+									["Valarjar Thundercaller"] = 2699051,
 									["King Ranulf"] = 747165,
 									["Valarjar Trapper"] = 507010,
 									["Hymdall"] = 1415483,
 									["Hyrja"] = 1900051,
-									["King Tor"] = 962079,
-									["King Haldor"] = 428279,
-									["Ebonclaw Worg"] = 838478,
-									["Steeljaw Grizzly"] = 1514298,
-									["God-King Skovald"] = 2173148,
 									["Valarjar Purifier"] = 249775,
-									["Valarjar Thundercaller"] = 2699051,
-									["Valarjar Champion"] = 2617556,
+									["King Haldor"] = 428279,
+									["Steeljaw Grizzly"] = 1514298,
+									["Ebonclaw Worg"] = 838478,
+									["God-King Skovald"] = 2173148,
+									["King Tor"] = 962079,
+									["Valarjar Mystic"] = 453175,
+									["Odyn"] = 2085214,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 18010535,
@@ -7183,15 +6119,15 @@ _detalhes_database = {
 								["c_max"] = 131240,
 								["id"] = 195452,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 475,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[121473] = {
 								["c_amt"] = 9,
@@ -7204,14 +6140,14 @@ _detalhes_database = {
 									["Valarjar Purifier"] = 113706,
 									["Ebonclaw Worg"] = 72734,
 									["Hyrja"] = 110432,
-									["Odyn"] = 104121,
-									["God-King Skovald"] = 125505,
-									["Valarjar Mystic"] = 114285,
+									["Valarjar Champion"] = 102615,
+									["Valarjar Thundercaller"] = 110046,
 									["Valarjar Trapper"] = 34873,
 									["Valarjar Runecarver"] = 12424,
+									["God-King Skovald"] = 125505,
 									["Valarjar Marksman"] = 36881,
-									["Valarjar Thundercaller"] = 110046,
-									["Valarjar Champion"] = 102615,
+									["Valarjar Mystic"] = 114285,
+									["Odyn"] = 104121,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 869349,
@@ -7222,15 +6158,15 @@ _detalhes_database = {
 								["c_max"] = 27303,
 								["id"] = 121473,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 70,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[121474] = {
 								["c_amt"] = 8,
@@ -7243,13 +6179,13 @@ _detalhes_database = {
 									["Valarjar Purifier"] = 48259,
 									["Ebonclaw Worg"] = 28771,
 									["Hyrja"] = 68288,
-									["Odyn"] = 52970,
+									["Valarjar Champion"] = 36349,
+									["Valarjar Thundercaller"] = 48876,
 									["Valarjar Trapper"] = 29101,
-									["Valarjar Mystic"] = 42794,
 									["God-King Skovald"] = 71935,
 									["Valarjar Marksman"] = 26051,
-									["Valarjar Thundercaller"] = 48876,
-									["Valarjar Champion"] = 36349,
+									["Valarjar Mystic"] = 42794,
+									["Odyn"] = 52970,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 407556,
@@ -7260,15 +6196,15 @@ _detalhes_database = {
 								["c_max"] = 13565,
 								["id"] = 121474,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 4406,
 								["n_amt"] = 66,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[185438] = {
 								["c_amt"] = 25,
@@ -7287,14 +6223,14 @@ _detalhes_database = {
 									["King Ranulf"] = 182994,
 									["Ebonclaw Worg"] = 169770,
 									["Hyrja"] = 469973,
-									["Odyn"] = 948564,
-									["Valarjar Purifier"] = 172700,
-									["King Tor"] = 185305,
+									["Valarjar Champion"] = 536128,
+									["Valarjar Thundercaller"] = 180252,
+									["Valarjar Mystic"] = 192373,
 									["King Haldor"] = 189687,
 									["God-King Skovald"] = 460057,
-									["Valarjar Mystic"] = 192373,
-									["Valarjar Thundercaller"] = 180252,
-									["Valarjar Champion"] = 536128,
+									["Valarjar Purifier"] = 172700,
+									["King Tor"] = 185305,
+									["Odyn"] = 948564,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 493732,
@@ -7305,15 +6241,15 @@ _detalhes_database = {
 								["c_max"] = 261331,
 								["id"] = 185438,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[53] = {
 								["c_amt"] = 64,
@@ -7331,24 +6267,24 @@ _detalhes_database = {
 									["Fenryr"] = 1840148,
 									["Valarjar Runecarver"] = 410187,
 									["Valarjar Marksman"] = 873302,
-									["Odyn"] = 1225403,
-									["Valarjar Mystic"] = 380131,
+									["Valarjar Champion"] = 482544,
+									["Valarjar Thundercaller"] = 904935,
 									["Valarjar Shieldmaiden"] = 339178,
-									["King Bjorn"] = 73040,
-									["Olmyr the Enlightened"] = 385935,
 									["King Tor"] = 704286,
-									["King Ranulf"] = 723878,
+									["Olmyr the Enlightened"] = 385935,
 									["Valarjar Trapper"] = 536880,
+									["King Ranulf"] = 723878,
+									["King Bjorn"] = 73040,
 									["Hymdall"] = 1254385,
 									["Hyrja"] = 1310102,
-									["Angerhoof Bull"] = 712866,
-									["King Haldor"] = 626679,
-									["Ebonclaw Worg"] = 176303,
 									["Steeljaw Grizzly"] = 603191,
+									["Ebonclaw Worg"] = 176303,
+									["King Haldor"] = 626679,
+									["Angerhoof Bull"] = 712866,
 									["God-King Skovald"] = 1439566,
 									["Honored Ancestor"] = 161363,
-									["Valarjar Thundercaller"] = 904935,
-									["Valarjar Champion"] = 482544,
+									["Valarjar Mystic"] = 380131,
+									["Odyn"] = 1225403,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 12006849,
@@ -7359,48 +6295,51 @@ _detalhes_database = {
 								["c_max"] = 136651,
 								["id"] = 53,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 40488,
 								["n_amt"] = 319,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[209783] = {
-								["c_amt"] = 6,
+							[196958] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 1540151,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 120214,
+								["n_max"] = 0,
 								["targets"] = {
-									["Odyn"] = 631216,
-									["Fenryr"] = 244204,
-									["Storm Drake"] = 246353,
-									["God-King Skovald"] = 361416,
-									["Hymdall"] = 177176,
-									["Hyrja"] = 110225,
+									["Hyrja"] = 0,
+									["King Haldor"] = 0,
+									["God-King Skovald"] = 0,
+									["Fenryr"] = 0,
+									["King Ranulf"] = 0,
+									["Storm Drake"] = 0,
+									["King Tor"] = 0,
+									["Odyn"] = 0,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 230439,
+								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 1770590,
-								["c_max"] = 392943,
-								["id"] = 209783,
+								["counter"] = 17,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 196958,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 0,
+								["a_dmg"] = 0,
+								["IMMUNE"] = 17,
 							},
 							[196819] = {
 								["c_amt"] = 18,
@@ -7417,21 +6356,21 @@ _detalhes_database = {
 									["Valarjar Runecarver"] = 436726,
 									["Valarjar Marksman"] = 191708,
 									["Valarjar Shieldmaiden"] = 306734,
-									["Odyn"] = 1105189,
+									["Valarjar Champion"] = 255611,
 									["Olmyr the Enlightened"] = 253654,
-									["Valarjar Purifier"] = 498852,
+									["Valarjar Mystic"] = 307554,
 									["King Ranulf"] = 580544,
 									["Valarjar Trapper"] = 150359,
 									["Hymdall"] = 872099,
 									["Hyrja"] = 1350802,
+									["Valarjar Thundercaller"] = 307554,
+									["Valarjar Purifier"] = 498852,
+									["Ebonclaw Worg"] = 457092,
+									["King Haldor"] = 145136,
+									["God-King Skovald"] = 1371278,
 									["King Bjorn"] = 246731,
 									["King Tor"] = 417023,
-									["King Haldor"] = 145136,
-									["Ebonclaw Worg"] = 457092,
-									["God-King Skovald"] = 1371278,
-									["Valarjar Thundercaller"] = 307554,
-									["Valarjar Mystic"] = 307554,
-									["Valarjar Champion"] = 255611,
+									["Odyn"] = 1105189,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 7178745,
@@ -7442,61 +6381,58 @@ _detalhes_database = {
 								["c_max"] = 441499,
 								["id"] = 196819,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 50,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[196958] = {
-								["c_amt"] = 0,
+							[209783] = {
+								["c_amt"] = 6,
 								["b_amt"] = 0,
-								["c_dmg"] = 0,
+								["c_dmg"] = 1540151,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 120214,
 								["targets"] = {
-									["Odyn"] = 0,
-									["God-King Skovald"] = 0,
-									["King Tor"] = 0,
-									["Fenryr"] = 0,
-									["King Ranulf"] = 0,
-									["Storm Drake"] = 0,
-									["King Haldor"] = 0,
-									["Hyrja"] = 0,
+									["Hyrja"] = 110225,
+									["Fenryr"] = 244204,
+									["Storm Drake"] = 246353,
+									["God-King Skovald"] = 361416,
+									["Hymdall"] = 177176,
+									["Odyn"] = 631216,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 0,
+								["n_dmg"] = 230439,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 17,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 196958,
+								["counter"] = 8,
+								["total"] = 1770590,
+								["c_max"] = 392943,
+								["id"] = 209783,
 								["r_dmg"] = 0,
-								["IMMUNE"] = 17,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 2,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-5-01F00707",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["damage_taken"] = 11184776.137956,
 					["start_time"] = 1488055738,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-5-01F00707",
+					["classe"] = "ROGUE",
 				}, -- [3]
 				{
 					["flag_original"] = 8466,
@@ -7515,32 +6451,29 @@ _detalhes_database = {
 						["Valarjar Trapper"] = 59402,
 						["Hymdall"] = 52380,
 						["Hyrja"] = 65716,
-						["Odyn"] = 59025,
+						["Valarjar Champion"] = 68684,
+						["Valarjar Thundercaller"] = 103980,
+						["Valarjar Mystic"] = 45320,
+						["God-King Skovald"] = 59076,
 						["Valarjar Purifier"] = 38789,
 						["King Tor"] = 49000,
-						["God-King Skovald"] = 59076,
-						["Valarjar Mystic"] = 45320,
-						["Valarjar Thundercaller"] = 103980,
-						["Valarjar Champion"] = 68684,
+						["Odyn"] = 59025,
 					},
 					["pets"] = {
 					},
-					["last_event"] = 0,
 					["boss_fight_component"] = true,
+					["tipo"] = 1,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 940792.095647,
-					["last_dps"] = 0,
-					["friendlyfire"] = {
-					},
+					["serial"] = "Creature-0-3019-1477-27077-97930-000031F2B1",
 					["dps_started"] = false,
 					["total"] = 940792.095647,
-					["damage_taken"] = 404104.095647,
+					["last_dps"] = 0,
 					["ownerName"] = "Raffe",
 					["nome"] = "Bloodstalker <Raffe> <Raffe>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 13,
@@ -7559,13 +6492,13 @@ _detalhes_database = {
 									["Valarjar Trapper"] = 59402,
 									["Hymdall"] = 52380,
 									["Hyrja"] = 65716,
-									["Odyn"] = 59025,
+									["Valarjar Champion"] = 68684,
+									["Valarjar Thundercaller"] = 103980,
+									["Valarjar Mystic"] = 45320,
+									["God-King Skovald"] = 59076,
 									["Valarjar Purifier"] = 38789,
 									["King Tor"] = 49000,
-									["God-King Skovald"] = 59076,
-									["Valarjar Mystic"] = 45320,
-									["Valarjar Thundercaller"] = 103980,
-									["Valarjar Champion"] = 68684,
+									["Odyn"] = 59025,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 829933,
@@ -7576,26 +6509,29 @@ _detalhes_database = {
 								["c_max"] = 10069,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 201,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
+					["damage_taken"] = 404104.095647,
 					["friendlyfire_total"] = 0,
 					["end_time"] = 1488058953,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["on_hold"] = false,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058937,
 					["delay"] = 0,
-					["serial"] = "Creature-0-3019-1477-27077-97930-000031F2B1",
+					["on_hold"] = false,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
@@ -7604,14 +6540,14 @@ _detalhes_database = {
 						["[*] Dancing Blade"] = true,
 						["Hymdall"] = true,
 						["[*] Static Field"] = true,
-						["Volynd Stormbringer"] = true,
-						["[*] Tempest"] = true,
-						["[*] Sanctify"] = true,
-						["Hyrja"] = true,
-						["Valarjar Runecarver"] = true,
-						["Valarjar Shieldmaiden"] = true,
-						["Valarjar Thundercaller"] = true,
 						["Solsten"] = true,
+						["[*] Sanctify"] = true,
+						["Volynd Stormbringer"] = true,
+						["Valarjar Shieldmaiden"] = true,
+						["Valarjar Runecarver"] = true,
+						["Hyrja"] = true,
+						["Valarjar Thundercaller"] = true,
+						["[*] Tempest"] = true,
 					},
 					["targets"] = {
 						["Valarjar Shieldmaiden"] = 9811931,
@@ -7622,10 +6558,10 @@ _detalhes_database = {
 						["Hyrja"] = 6749594,
 						["Solsten"] = 4403117,
 						["Volynd Stormbringer"] = 3692076,
-						["Valarjar Aspirant"] = 400951,
-						["Valarjar Runecarver"] = 2514297,
-						["Valarjar Mystic"] = 3434396,
 						["Valarjar Thundercaller"] = 6704994,
+						["Valarjar Runecarver"] = 2514297,
+						["Valarjar Aspirant"] = 400951,
+						["Valarjar Mystic"] = 3434396,
 						["Valarjar Champion"] = 7480171,
 					},
 					["pets"] = {
@@ -7633,23 +6569,21 @@ _detalhes_database = {
 						"Hati <Krøn-Nemesis> <Krøn-Nemesis>", -- [2]
 						"Beast <Krøn-Nemesis> <Krøn-Nemesis>", -- [3]
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["total"] = 58078389.035481,
+					["tipo"] = 1,
+					["classe"] = "HUNTER",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 24407812.035481,
-					["classe"] = "HUNTER",
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1488057018,
-					["friendlyfire"] = {
-					},
-					["total"] = 58078389.035481,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["nome"] = "Krøn-Nemesis",
 					["spec"] = 253,
 					["grupo"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[194392] = {
 								["c_amt"] = 79,
@@ -7665,10 +6599,10 @@ _detalhes_database = {
 									["Hymdall"] = 556855,
 									["Hyrja"] = 508716,
 									["Solsten"] = 332674,
-									["Valarjar Aspirant"] = 106416,
-									["Valarjar Runecarver"] = 311270,
-									["Valarjar Mystic"] = 467403,
 									["Valarjar Thundercaller"] = 1260539,
+									["Valarjar Runecarver"] = 311270,
+									["Valarjar Aspirant"] = 106416,
+									["Valarjar Mystic"] = 467403,
 									["Valarjar Champion"] = 2050586,
 								},
 								["m_dmg"] = 0,
@@ -7680,15 +6614,15 @@ _detalhes_database = {
 								["c_max"] = 38245,
 								["id"] = 194392,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 351,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[212621] = {
 								["c_amt"] = 1,
@@ -7708,15 +6642,15 @@ _detalhes_database = {
 								["c_max"] = 233796,
 								["id"] = 212621,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[2643] = {
 								["c_amt"] = 9,
@@ -7732,8 +6666,8 @@ _detalhes_database = {
 									["Hyrja"] = 35283,
 									["Valarjar Shieldmaiden"] = 232449,
 									["Valarjar Runecarver"] = 23987,
-									["Valarjar Mystic"] = 61192,
 									["Valarjar Thundercaller"] = 116942,
+									["Valarjar Mystic"] = 61192,
 									["Valarjar Champion"] = 184756,
 								},
 								["m_dmg"] = 0,
@@ -7745,15 +6679,15 @@ _detalhes_database = {
 								["c_max"] = 31411,
 								["id"] = 2643,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 38,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[202761] = {
 								["c_amt"] = 0,
@@ -7770,8 +6704,8 @@ _detalhes_database = {
 									["Volynd Stormbringer"] = 211967,
 									["Solsten"] = 58463,
 									["Valarjar Runecarver"] = 21041,
-									["Valarjar Mystic"] = 62781,
 									["Valarjar Thundercaller"] = 36821,
+									["Valarjar Mystic"] = 62781,
 									["Valarjar Champion"] = 119867,
 								},
 								["m_dmg"] = 0,
@@ -7783,15 +6717,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 202761,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 175,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[75] = {
 								["c_amt"] = 37,
@@ -7808,10 +6742,10 @@ _detalhes_database = {
 									["Hyrja"] = 458437,
 									["Solsten"] = 269442,
 									["Volynd Stormbringer"] = 339545,
-									["Valarjar Aspirant"] = 10937,
-									["Valarjar Runecarver"] = 103722,
-									["Valarjar Mystic"] = 129921,
 									["Valarjar Thundercaller"] = 285757,
+									["Valarjar Runecarver"] = 103722,
+									["Valarjar Aspirant"] = 10937,
+									["Valarjar Mystic"] = 129921,
 									["Valarjar Champion"] = 142733,
 								},
 								["m_dmg"] = 0,
@@ -7823,15 +6757,15 @@ _detalhes_database = {
 								["c_max"] = 28643,
 								["id"] = 75,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 163,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[198670] = {
 								["c_amt"] = 2,
@@ -7842,8 +6776,8 @@ _detalhes_database = {
 								["targets"] = {
 									["Volynd Stormbringer"] = 575412,
 									["Valarjar Runecarver"] = 96827,
-									["Valarjar Mystic"] = 290482,
 									["Valarjar Thundercaller"] = 290482,
+									["Valarjar Mystic"] = 290482,
 									["Valarjar Champion"] = 304314,
 								},
 								["m_dmg"] = 0,
@@ -7855,15 +6789,15 @@ _detalhes_database = {
 								["c_max"] = 193655,
 								["id"] = 198670,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 8,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[204147] = {
 								["c_amt"] = 0,
@@ -7883,142 +6817,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 204147,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[193455] = {
-								["c_amt"] = 19,
-								["b_amt"] = 0,
-								["c_dmg"] = 2259969,
-								["g_amt"] = 0,
-								["n_max"] = 77594,
-								["targets"] = {
-									["Valarjar Shieldmaiden"] = 1209640,
-									["Olmyr the Enlightened"] = 644680,
-									["Storm Drake"] = 257633,
-									["Valarjar Purifier"] = 56323,
-									["Hymdall"] = 1432079,
-									["Hyrja"] = 1394596,
-									["Solsten"] = 786711,
-									["Valarjar Runecarver"] = 302892,
-									["Valarjar Mystic"] = 415540,
-									["Valarjar Thundercaller"] = 767566,
-									["Valarjar Champion"] = 652398,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 5660089,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 109,
-								["total"] = 7920058,
-								["c_max"] = 147513,
-								["id"] = 193455,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 90,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[19434] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 240056,
-								["g_amt"] = 0,
-								["n_max"] = 130560,
-								["targets"] = {
-									["Volynd Stormbringer"] = 1015156,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 775100,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 1015156,
-								["c_max"] = 240056,
-								["id"] = 19434,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 8,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[185358] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 294786,
-								["g_amt"] = 0,
-								["n_max"] = 38737,
-								["targets"] = {
-									["Volynd Stormbringer"] = 683123,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 388337,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 15,
-								["total"] = 683123,
-								["c_max"] = 77473,
-								["id"] = 185358,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 11,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[193340] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 5929,
-								["targets"] = {
-									["Valarjar Shieldmaiden"] = 35714,
-									["Volynd Stormbringer"] = 33749,
-									["Valarjar Runecarver"] = 32039,
-									["Hyrja"] = 32557,
-									["Hymdall"] = 28300,
-									["Valarjar Champion"] = 22793,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 185152,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 41,
-								["total"] = 185152,
-								["c_max"] = 0,
-								["id"] = 193340,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 41,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[2] = {
 								["c_amt"] = 0,
@@ -8038,25 +6845,154 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 2,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[19434] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 240056,
+								["g_amt"] = 0,
+								["n_max"] = 130560,
+								["targets"] = {
+									["Volynd Stormbringer"] = 1015156,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 775100,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 1015156,
+								["c_max"] = 240056,
+								["id"] = 19434,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[185358] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 294786,
+								["g_amt"] = 0,
+								["n_max"] = 38737,
+								["targets"] = {
+									["Volynd Stormbringer"] = 683123,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 388337,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 15,
+								["total"] = 683123,
+								["c_max"] = 77473,
+								["id"] = 185358,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[193340] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 5929,
+								["targets"] = {
+									["Valarjar Shieldmaiden"] = 35714,
+									["Volynd Stormbringer"] = 33749,
+									["Valarjar Runecarver"] = 32039,
+									["Valarjar Champion"] = 22793,
+									["Hymdall"] = 28300,
+									["Hyrja"] = 32557,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 185152,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 41,
+								["total"] = 185152,
+								["c_max"] = 0,
+								["id"] = 193340,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 41,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[193455] = {
+								["c_amt"] = 19,
+								["b_amt"] = 0,
+								["c_dmg"] = 2259969,
+								["g_amt"] = 0,
+								["n_max"] = 77594,
+								["targets"] = {
+									["Valarjar Shieldmaiden"] = 1209640,
+									["Olmyr the Enlightened"] = 644680,
+									["Storm Drake"] = 257633,
+									["Valarjar Purifier"] = 56323,
+									["Hymdall"] = 1432079,
+									["Hyrja"] = 1394596,
+									["Solsten"] = 786711,
+									["Valarjar Runecarver"] = 302892,
+									["Valarjar Thundercaller"] = 767566,
+									["Valarjar Mystic"] = 415540,
+									["Valarjar Champion"] = 652398,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 5660089,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 109,
+								["total"] = 7920058,
+								["c_max"] = 147513,
+								["id"] = 193455,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 90,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-3208-063DDB4D",
+					["friendlyfire"] = {
+					},
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["damage_taken"] = 6859501.035481,
 					["start_time"] = 1488056429,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-3208-063DDB4D",
+					["friendlyfire_total"] = 0,
 				}, -- [5]
 				{
 					["flag_original"] = 4370,
@@ -8075,32 +7011,27 @@ _detalhes_database = {
 						["Hymdall"] = 3161589,
 						["Hyrja"] = 2752255,
 						["Solsten"] = 1632444,
-						["Valarjar Aspirant"] = 144918,
-						["Valarjar Runecarver"] = 949733,
-						["Valarjar Mystic"] = 1235794,
 						["Valarjar Thundercaller"] = 2104012,
+						["Valarjar Runecarver"] = 949733,
+						["Valarjar Aspirant"] = 144918,
+						["Valarjar Mystic"] = 1235794,
 						["Valarjar Champion"] = 1751102,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
 					["boss_fight_component"] = true,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 19521308.047136,
-					["serial"] = "Pet-0-3023-1220-20708-32517-060145267A",
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 19521308.047136,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["ownerName"] = "Krøn-Nemesis",
 					["nome"] = "Loque <Krøn-Nemesis> <Krøn-Nemesis>",
-					["classe"] = "PET",
-					["end_time"] = 1488057643,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 78,
@@ -8117,8 +7048,8 @@ _detalhes_database = {
 									["Hyrja"] = 463506,
 									["Solsten"] = 275784,
 									["Valarjar Runecarver"] = 157320,
-									["Valarjar Mystic"] = 135164,
 									["Valarjar Thundercaller"] = 344366,
+									["Valarjar Mystic"] = 135164,
 									["Valarjar Champion"] = 157073,
 								},
 								["m_dmg"] = 0,
@@ -8130,15 +7061,15 @@ _detalhes_database = {
 								["c_max"] = 22247,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 205,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[16827] = {
 								["c_amt"] = 56,
@@ -8155,8 +7086,8 @@ _detalhes_database = {
 									["Hyrja"] = 881744,
 									["Solsten"] = 745945,
 									["Valarjar Runecarver"] = 408308,
-									["Valarjar Mystic"] = 320224,
 									["Valarjar Thundercaller"] = 776691,
+									["Valarjar Mystic"] = 320224,
 									["Valarjar Champion"] = 347082,
 								},
 								["m_dmg"] = 0,
@@ -8168,15 +7099,15 @@ _detalhes_database = {
 								["c_max"] = 101856,
 								["id"] = 16827,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 94,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[83381] = {
 								["c_amt"] = 16,
@@ -8192,8 +7123,8 @@ _detalhes_database = {
 									["Hyrja"] = 1407005,
 									["Solsten"] = 610715,
 									["Valarjar Runecarver"] = 310236,
-									["Valarjar Mystic"] = 538070,
 									["Valarjar Thundercaller"] = 576849,
+									["Valarjar Mystic"] = 538070,
 									["Valarjar Champion"] = 276261,
 								},
 								["m_dmg"] = 0,
@@ -8205,15 +7136,15 @@ _detalhes_database = {
 								["c_max"] = 199190,
 								["id"] = 83381,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 45,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[118459] = {
 								["c_amt"] = 0,
@@ -8224,11 +7155,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Valarjar Shieldmaiden"] = 1096097,
 									["Valarjar Aspirant"] = 144918,
-									["Valarjar Mystic"] = 242336,
-									["Valarjar Runecarver"] = 73869,
-									["Storm Drake"] = 83965,
-									["Valarjar Purifier"] = 62189,
 									["Valarjar Thundercaller"] = 406106,
+									["Storm Drake"] = 83965,
+									["Valarjar Runecarver"] = 73869,
+									["Valarjar Purifier"] = 62189,
+									["Valarjar Mystic"] = 242336,
 									["Valarjar Champion"] = 970686,
 								},
 								["m_dmg"] = 0,
@@ -8240,31 +7171,36 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 118459,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 124,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1488057556,
-					["delay"] = 0,
 					["damage_taken"] = 515214.047136,
+					["classe"] = "PET",
+					["end_time"] = 1488057643,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1488057556,
+					["serial"] = "Pet-0-3023-1220-20708-32517-060145267A",
+					["last_dps"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 8466,
 					["damage_from"] = {
 						["Valarjar Shieldmaiden"] = true,
-						["Valarjar Aspirant"] = true,
 						["Storm Drake"] = true,
+						["Valarjar Aspirant"] = true,
 					},
 					["targets"] = {
 						["Valarjar Shieldmaiden"] = 444955,
@@ -8275,30 +7211,25 @@ _detalhes_database = {
 						["Hyrja"] = 416495,
 						["Solsten"] = 309809,
 						["Valarjar Runecarver"] = 153074,
-						["Valarjar Mystic"] = 112820,
 						["Valarjar Thundercaller"] = 323848,
+						["Valarjar Mystic"] = 112820,
 						["Valarjar Champion"] = 147394,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
 					["boss_fight_component"] = true,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 2790547.052587,
-					["serial"] = "Creature-0-3019-1477-27077-100324-000031F29E",
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 2790547.052587,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["ownerName"] = "Krøn-Nemesis",
 					["nome"] = "Hati <Krøn-Nemesis> <Krøn-Nemesis>",
-					["classe"] = "PET",
-					["end_time"] = 1488057643,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 61,
@@ -8315,8 +7246,8 @@ _detalhes_database = {
 									["Hyrja"] = 416495,
 									["Solsten"] = 309809,
 									["Valarjar Runecarver"] = 153074,
-									["Valarjar Mystic"] = 112820,
 									["Valarjar Thundercaller"] = 323848,
+									["Valarjar Mystic"] = 112820,
 									["Valarjar Champion"] = 147394,
 								},
 								["m_dmg"] = 0,
@@ -8328,64 +7259,69 @@ _detalhes_database = {
 								["c_max"] = 21322,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 184,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1488057560,
-					["delay"] = 0,
 					["damage_taken"] = 40056.052587,
+					["classe"] = "PET",
+					["end_time"] = 1488057643,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1488057560,
+					["serial"] = "Creature-0-3019-1477-27077-100324-000031F29E",
+					["last_dps"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 1298,
 					["damage_from"] = {
-						["Valarjar Thundercaller"] = true,
 						["Hymdall"] = true,
+						["Valarjar Thundercaller"] = true,
 						["[*] Static Field"] = true,
 					},
 					["targets"] = {
 					},
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
+					["nome"] = "Muhfeels-Elune",
+					["damage_taken"] = 879079.023142,
+					["classe"] = "DRUID",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.023142,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["total"] = 0.023142,
-					["classe"] = "DRUID",
-					["end_time"] = 1488057018,
-					["nome"] = "Muhfeels-Elune",
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
+					["end_time"] = 1488057018,
 					["spec"] = 105,
-					["serial"] = "Player-67-0A8E0444",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["last_dps"] = 0,
 					["start_time"] = 1488057015,
-					["delay"] = 0,
-					["damage_taken"] = 879079.023142,
+					["serial"] = "Player-67-0A8E0444",
+					["friendlyfire_total"] = 0,
 				}, -- [8]
 				{
 					["flag_original"] = 8466,
@@ -8401,32 +7337,27 @@ _detalhes_database = {
 						["Hymdall"] = 1183665,
 						["Hyrja"] = 974369,
 						["Solsten"] = 989815,
-						["Valarjar Aspirant"] = 126686,
-						["Valarjar Runecarver"] = 519712,
-						["Valarjar Mystic"] = 658463,
 						["Valarjar Thundercaller"] = 1519027,
+						["Valarjar Runecarver"] = 519712,
+						["Valarjar Aspirant"] = 126686,
+						["Valarjar Mystic"] = 658463,
 						["Valarjar Champion"] = 2104228,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
 					["boss_fight_component"] = true,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 11358722.039179,
-					["serial"] = "Creature-0-3019-1477-27077-113344-000031F2BE",
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 11358722.039179,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
 					["ownerName"] = "Krøn-Nemesis",
 					["nome"] = "Beast <Krøn-Nemesis> <Krøn-Nemesis>",
-					["classe"] = "PET",
-					["end_time"] = 1488057643,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 35,
@@ -8443,8 +7374,8 @@ _detalhes_database = {
 									["Hyrja"] = 477452,
 									["Solsten"] = 415759,
 									["Valarjar Runecarver"] = 120647,
-									["Valarjar Mystic"] = 132712,
 									["Valarjar Thundercaller"] = 214152,
+									["Valarjar Mystic"] = 132712,
 									["Valarjar Champion"] = 186433,
 								},
 								["m_dmg"] = 0,
@@ -8456,15 +7387,15 @@ _detalhes_database = {
 								["c_max"] = 27750,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 154,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[201754] = {
 								["c_amt"] = 20,
@@ -8480,10 +7411,10 @@ _detalhes_database = {
 									["Hymdall"] = 650722,
 									["Hyrja"] = 496917,
 									["Solsten"] = 574056,
-									["Valarjar Aspirant"] = 126686,
-									["Valarjar Runecarver"] = 399065,
-									["Valarjar Mystic"] = 525751,
 									["Valarjar Thundercaller"] = 1304875,
+									["Valarjar Runecarver"] = 399065,
+									["Valarjar Aspirant"] = 126686,
+									["Valarjar Mystic"] = 525751,
 									["Valarjar Champion"] = 1917795,
 								},
 								["m_dmg"] = 0,
@@ -8495,24 +7426,29 @@ _detalhes_database = {
 								["c_max"] = 145693,
 								["id"] = 201754,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 90,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1488057556,
-					["delay"] = 0,
 					["damage_taken"] = 21741.039179,
+					["classe"] = "PET",
+					["end_time"] = 1488057643,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1488057556,
+					["serial"] = "Creature-0-3019-1477-27077-113344-000031F2BE",
+					["last_dps"] = 0,
 				}, -- [9]
 				{
 					["flag_original"] = 68168,
@@ -8524,33 +7460,31 @@ _detalhes_database = {
 						["Krøn-Nemesis"] = true,
 						["Bloodstalker <Raffe>"] = true,
 						["Shadowfiend <Silentnight-Darkspear>"] = true,
-						["Beast <Krøn-Nemesis>"] = true,
 						["Silentnight-Darkspear"] = true,
+						["Beast <Krøn-Nemesis>"] = true,
 					},
 					["targets"] = {
 						["Muhfeels-Elune"] = 287117,
 						["Raffe"] = 294702,
 						["Krøn-Nemesis"] = 301714,
-						["Kaldorath"] = 3504667,
 						["Silentnight-Darkspear"] = 525852,
+						["Kaldorath"] = 3504667,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Hymdall",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4914052.011882,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057157,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Hymdall",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -8566,22 +7500,22 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 45,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["total"] = 2659882,
 								["c_max"] = 0,
-								["DODGE"] = 4,
+								["MISS"] = 2,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 5,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 34,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 34,
+								["DODGE"] = 4,
+								["a_amt"] = 0,
 							}, -- [1]
 							[191284] = {
 								["c_amt"] = 0,
@@ -8593,8 +7527,8 @@ _detalhes_database = {
 									["Muhfeels-Elune"] = 287117,
 									["Raffe"] = 294702,
 									["Krøn-Nemesis"] = 301714,
-									["Silentnight-Darkspear"] = 306975,
 									["Kaldorath"] = 216241,
+									["Silentnight-Darkspear"] = 306975,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1406749,
@@ -8605,15 +7539,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 191284,
 								["r_dmg"] = 0,
-								["a_dmg"] = 155851,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 1,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 10,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 1,
+								["a_dmg"] = 155851,
 							},
 							[193092] = {
 								["c_amt"] = 0,
@@ -8622,8 +7556,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 179227,
 								["targets"] = {
-									["Kaldorath"] = 628544,
 									["Silentnight-Darkspear"] = 218877,
+									["Kaldorath"] = 628544,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 847421,
@@ -8634,15 +7568,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193092,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 15,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[193235] = {
 								["c_amt"] = 0,
@@ -8661,27 +7595,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193235,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 4914052.011882,
-					["serial"] = "Creature-0-3019-1477-27077-94960-000031F291",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 21567488.011882,
+					["friendlyfire_total"] = 0,
+					["total"] = 4914052.011882,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057061,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-94960-000031F291",
+					["damage_taken"] = 21567488.011882,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
@@ -8693,21 +7629,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "[*] Dancing Blade",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 112372.013379,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057157,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "[*] Dancing Blade",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[193234] = {
 								["c_amt"] = 0,
@@ -8728,34 +7662,59 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193234,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["MISS"] = 1,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 112372.013379,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.013379,
+					["friendlyfire_total"] = 0,
+					["total"] = 112372.013379,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057153,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["damage_taken"] = 0.013379,
 				}, -- [11]
 				{
 					["flag_original"] = 8466,
+					["damage_from"] = {
+						["God-King Skovald"] = true,
+					},
+					["targets"] = {
+						["Volynd Stormbringer"] = 447572,
+						["Fenryr"] = 319310,
+						["God-King Skovald"] = 330017,
+						["Hyrja"] = 337842,
+						["Hymdall"] = 483241,
+						["Odyn"] = 720575,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["tipo"] = 1,
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 2638557.027628,
+					["serial"] = "Creature-0-3019-1477-27077-19668-000031F307",
+					["dps_started"] = false,
+					["end_time"] = 1488058953,
 					["damage_taken"] = 8128.027628,
+					["ownerName"] = "Silentnight-Darkspear",
+					["nome"] = "Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 14,
@@ -8767,9 +7726,9 @@ _detalhes_database = {
 									["Volynd Stormbringer"] = 447572,
 									["Fenryr"] = 319310,
 									["God-King Skovald"] = 330017,
-									["Odyn"] = 720575,
-									["Hymdall"] = 483241,
 									["Hyrja"] = 337842,
+									["Hymdall"] = 483241,
+									["Odyn"] = 720575,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1662894,
@@ -8780,52 +7739,29 @@ _detalhes_database = {
 								["c_max"] = 106359,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 46,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["damage_from"] = {
-						["God-King Skovald"] = true,
-					},
-					["targets"] = {
-						["Volynd Stormbringer"] = 447572,
-						["Fenryr"] = 319310,
-						["God-King Skovald"] = 330017,
-						["Odyn"] = 720575,
-						["Hymdall"] = 483241,
-						["Hyrja"] = 337842,
-					},
-					["pets"] = {
-					},
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
-					["classe"] = "PET",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 2638557.027628,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1488058953,
-					["friendlyfire_total"] = 0,
-					["ownerName"] = "Silentnight-Darkspear",
-					["nome"] = "Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>",
 					["boss_fight_component"] = true,
 					["total"] = 2638557.027628,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["on_hold"] = false,
+					["last_event"] = 0,
+					["last_dps"] = 0,
 					["start_time"] = 1488058937,
 					["delay"] = 0,
-					["serial"] = "Creature-0-3019-1477-27077-19668-000031F307",
+					["on_hold"] = false,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
@@ -8835,26 +7771,24 @@ _detalhes_database = {
 						["Muhfeels-Elune"] = 301526,
 						["Raffe"] = 323342,
 						["Krøn-Nemesis"] = 162184,
-						["Kaldorath"] = 288867,
 						["Silentnight-Darkspear"] = 315281,
+						["Kaldorath"] = 288867,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "[*] Static Field",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1391200.011605,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057157,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "[*] Static Field",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[193260] = {
 								["c_amt"] = 0,
@@ -8866,8 +7800,8 @@ _detalhes_database = {
 									["Muhfeels-Elune"] = 301526,
 									["Raffe"] = 323342,
 									["Krøn-Nemesis"] = 162184,
-									["Kaldorath"] = 288867,
 									["Silentnight-Darkspear"] = 315281,
+									["Kaldorath"] = 288867,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1391200,
@@ -8878,27 +7812,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193260,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 1391200.011605,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.011605,
+					["friendlyfire_total"] = 0,
+					["total"] = 1391200.011605,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057147,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["damage_taken"] = 0.011605,
 				}, -- [13]
 				{
 					["flag_original"] = 1298,
@@ -8912,40 +7848,38 @@ _detalhes_database = {
 						["Bear Trap"] = true,
 						["Olmyr the Enlightened"] = true,
 						["King Bjorn"] = true,
-						["Odyn"] = true,
+						["Valarjar Champion"] = true,
 						["Hyrja"] = true,
-						["[*] Infernal Flames"] = true,
 						["[*] Crackling Storm"] = true,
+						["Solsten"] = true,
 						["[*] Sanctify"] = true,
 						["Valarjar Aspirant"] = true,
 						["God-King Skovald"] = true,
-						["Solsten"] = true,
+						["[*] Infernal Flames"] = true,
 						["Valarjar Thundercaller"] = true,
-						["Valarjar Champion"] = true,
+						["Odyn"] = true,
 					},
 					["targets"] = {
 						["Steeljaw Grizzly"] = 6238,
 						["Olmyr the Enlightened"] = 6156,
 						["Fenryr"] = 294687,
 					},
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["friendlyfire_total"] = 0,
+					["nome"] = "Jalarius-Sargeras",
+					["total"] = 307081.066344,
 					["classe"] = "DRUID",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 307081.066344,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
-					["total"] = 307081.066344,
-					["friendlyfire"] = {
-					},
 					["end_time"] = 1488057389,
-					["nome"] = "Jalarius-Sargeras",
+					["damage_taken"] = 9867653.066344,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -8966,15 +7900,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[5176] = {
 								["c_amt"] = 0,
@@ -8994,43 +7928,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 5176,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[164815] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 17398,
-								["targets"] = {
-									["Fenryr"] = 76577,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 76577,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 8,
-								["total"] = 76577,
-								["c_max"] = 0,
-								["id"] = 164815,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 8,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 							},
 							[164812] = {
 								["c_amt"] = 1,
@@ -9050,27 +7956,57 @@ _detalhes_database = {
 								["c_max"] = 17400,
 								["id"] = 164812,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 10,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[164815] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 17398,
+								["targets"] = {
+									["Fenryr"] = 76577,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 76577,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 8,
+								["total"] = 76577,
+								["c_max"] = 0,
+								["id"] = 164815,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
+					["friendlyfire"] = {
+					},
 					["spec"] = 105,
-					["serial"] = "Player-76-094DC52B",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["last_dps"] = 0,
 					["start_time"] = 1488057366,
-					["delay"] = 0,
-					["damage_taken"] = 9867653.066344,
+					["serial"] = "Player-76-094DC52B",
+					["friendlyfire_total"] = 0,
 				}, -- [14]
 				{
 					["flag_original"] = 2632,
@@ -9079,38 +8015,36 @@ _detalhes_database = {
 						["Hati <Krøn-Nemesis>"] = true,
 						["Krøn-Nemesis"] = true,
 						["Bloodstalker <Raffe>"] = true,
-						["Kaldorath"] = true,
-						["Beast <Krøn-Nemesis>"] = true,
-						["Raffe"] = true,
 						["Silentnight-Darkspear"] = true,
+						["Raffe"] = true,
+						["Beast <Krøn-Nemesis>"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
 						["Loque <Krøn-Nemesis>"] = 314198,
 						["Raffe"] = 235215,
 						["Krøn-Nemesis"] = 156617,
 						["Bloodstalker <Raffe>"] = 112704,
-						["Silentnight-Darkspear"] = 109227,
-						["Hati <Krøn-Nemesis>"] = 16072,
-						["Kaldorath"] = 2625388,
 						["Beast <Krøn-Nemesis>"] = 10775,
+						["Kaldorath"] = 2625388,
+						["Hati <Krøn-Nemesis>"] = 16072,
+						["Silentnight-Darkspear"] = 109227,
 					},
-					["on_hold"] = false,
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Valarjar Shieldmaiden",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3580196.021539,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057389,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Valarjar Shieldmaiden",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -9120,8 +8054,8 @@ _detalhes_database = {
 								["n_max"] = 48783,
 								["targets"] = {
 									["Loque <Krøn-Nemesis>"] = 247266,
-									["Loque"] = 0,
 									["Krøn-Nemesis"] = 43808,
+									["Loque"] = 0,
 									["Kaldorath"] = 1792158,
 								},
 								["m_dmg"] = 0,
@@ -9129,22 +8063,22 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 105,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["total"] = 2083232,
 								["c_max"] = 0,
-								["DODGE"] = 19,
+								["MISS"] = 5,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 5,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 17,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 64,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 64,
+								["DODGE"] = 19,
+								["a_amt"] = 0,
 							}, -- [1]
 							[198944] = {
 								["c_amt"] = 0,
@@ -9165,15 +8099,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 198944,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 16,
 								["b_dmg"] = 0,
 								["n_amt"] = 16,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[199050] = {
 								["c_amt"] = 0,
@@ -9189,10 +8123,10 @@ _detalhes_database = {
 									["Raffe"] = 235215,
 									["Krøn-Nemesis"] = 112809,
 									["Bloodstalker <Raffe>"] = 112704,
-									["Silentnight-Darkspear"] = 109227,
+									["Beast <Krøn-Nemesis>"] = 10775,
 									["Bloodstalker"] = 0,
 									["Beast"] = 0,
-									["Beast <Krøn-Nemesis>"] = 10775,
+									["Silentnight-Darkspear"] = 109227,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1017266,
@@ -9201,31 +8135,33 @@ _detalhes_database = {
 								["counter"] = 26,
 								["total"] = 1017266,
 								["c_max"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["id"] = 199050,
 								["r_dmg"] = 0,
-								["DODGE"] = 2,
 								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 3,
 								["m_amt"] = 0,
 								["successful_casted"] = 11,
 								["b_dmg"] = 0,
 								["n_amt"] = 21,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["DODGE"] = 2,
+								["a_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 3580196.021539,
-					["serial"] = "Creature-0-3019-1477-27077-95832-0000B1F291",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 20113005.021539,
+					["friendlyfire_total"] = 0,
+					["total"] = 3580196.021539,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057270,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-95832-0000B1F291",
+					["damage_taken"] = 20113005.021539,
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -9233,35 +8169,33 @@ _detalhes_database = {
 						["Loque <Krøn-Nemesis>"] = true,
 						["Raffe"] = true,
 						["Krøn-Nemesis"] = true,
-						["Kaldorath"] = true,
-						["Silentnight-Darkspear"] = true,
 						["Beast <Krøn-Nemesis>"] = true,
+						["Silentnight-Darkspear"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
 						["Loque <Krøn-Nemesis>"] = 6036,
 						["Hati <Krøn-Nemesis>"] = 13853,
 						["Krøn-Nemesis"] = 129981,
 						["Jalarius-Sargeras"] = 263946,
-						["Silentnight-Darkspear"] = 121907,
 						["Kaldorath"] = 233328,
+						["Silentnight-Darkspear"] = 121907,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Valarjar Aspirant",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 769051.010741,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057540,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Valarjar Aspirant",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -9277,22 +8211,22 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 11,
-								["DODGE"] = 1,
+								["r_amt"] = 0,
 								["total"] = 233328,
 								["c_max"] = 0,
-								["a_amt"] = 0,
+								["MISS"] = 2,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 2,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 7,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 7,
+								["a_amt"] = 0,
+								["DODGE"] = 1,
 							}, -- [1]
 							[199033] = {
 								["c_amt"] = 0,
@@ -9302,8 +8236,8 @@ _detalhes_database = {
 								["n_max"] = 129981,
 								["targets"] = {
 									["Loque <Krøn-Nemesis>"] = 6036,
-									["Beast"] = 0,
 									["Krøn-Nemesis"] = 129981,
+									["Beast"] = 0,
 									["Silentnight-Darkspear"] = 121907,
 								},
 								["m_dmg"] = 0,
@@ -9315,16 +8249,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 199033,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["MISS"] = 1,
 							},
 							[191508] = {
 								["c_amt"] = 0,
@@ -9346,16 +8280,16 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 191508,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["r_amt"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["MISS"] = 1,
 							},
 							[199034] = {
 								["c_amt"] = 0,
@@ -9374,27 +8308,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 199034,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 769051.010741,
-					["serial"] = "Creature-0-3019-1477-27077-101637-000031F441",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 2916916.010741,
+					["friendlyfire_total"] = 0,
+					["total"] = 769051.010741,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057497,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-101637-000031F441",
+					["damage_taken"] = 2916916.010741,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
@@ -9403,35 +8339,33 @@ _detalhes_database = {
 						["Hati <Krøn-Nemesis>"] = true,
 						["Krøn-Nemesis"] = true,
 						["Bloodstalker <Raffe>"] = true,
-						["Kaldorath"] = true,
-						["Raffe"] = true,
-						["Silentnight-Darkspear"] = true,
 						["Beast <Krøn-Nemesis>"] = true,
+						["Silentnight-Darkspear"] = true,
+						["Raffe"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
 						["Raffe"] = 675566,
 						["Krøn-Nemesis"] = 681469,
 						["Jalarius-Sargeras"] = 643062,
-						["Kaldorath"] = 1505003,
 						["Silentnight-Darkspear"] = 662894,
+						["Kaldorath"] = 1505003,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Solsten",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4167994.008316,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057546,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Solsten",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -9447,22 +8381,22 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 21,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["total"] = 897903,
 								["c_max"] = 0,
-								["MISS"] = 2,
+								["DODGE"] = 1,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 1,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 3,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 15,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 15,
+								["MISS"] = 2,
+								["a_amt"] = 0,
 							}, -- [1]
 							[200901] = {
 								["c_amt"] = 0,
@@ -9481,15 +8415,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 200901,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[200682] = {
 								["c_amt"] = 0,
@@ -9501,8 +8435,8 @@ _detalhes_database = {
 									["Raffe"] = 675566,
 									["Krøn-Nemesis"] = 681469,
 									["Jalarius-Sargeras"] = 643062,
-									["Silentnight-Darkspear"] = 662894,
 									["Kaldorath"] = 607100,
+									["Silentnight-Darkspear"] = 662894,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 3270091,
@@ -9513,27 +8447,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 200682,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 60,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 4167994.008316,
-					["serial"] = "Creature-0-3019-1477-27077-97219-000031F291",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 9671499.008316,
+					["friendlyfire_total"] = 0,
+					["total"] = 4167994.008316,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057483,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-97219-000031F291",
+					["damage_taken"] = 9671499.008316,
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
@@ -9542,33 +8478,31 @@ _detalhes_database = {
 						["Hati <Krøn-Nemesis>"] = true,
 						["Krøn-Nemesis"] = true,
 						["Jalarius-Sargeras"] = true,
-						["Kaldorath"] = true,
-						["Silentnight-Darkspear"] = true,
-						["Raffe"] = true,
 						["Beast <Krøn-Nemesis>"] = true,
+						["Raffe"] = true,
+						["Silentnight-Darkspear"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
-						["Kaldorath"] = 738285,
-						["Silentnight-Darkspear"] = 42190,
 						["Jalarius-Sargeras"] = 41738,
+						["Silentnight-Darkspear"] = 42190,
+						["Kaldorath"] = 738285,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Olmyr the Enlightened",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 822213.008841,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057546,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Olmyr the Enlightened",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -9586,19 +8520,19 @@ _detalhes_database = {
 								["counter"] = 19,
 								["total"] = 738285,
 								["c_max"] = 0,
-								["a_amt"] = 1,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 2,
 								["a_dmg"] = 39557,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 4,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 13,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["DODGE"] = 2,
+								["a_amt"] = 1,
 							}, -- [1]
 							[192288] = {
 								["c_amt"] = 0,
@@ -9607,8 +8541,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 42190,
 								["targets"] = {
-									["Silentnight-Darkspear"] = 42190,
 									["Jalarius-Sargeras"] = 41738,
+									["Silentnight-Darkspear"] = 42190,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 83928,
@@ -9619,15 +8553,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 192288,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[192158] = {
 								["c_amt"] = 0,
@@ -9646,55 +8580,55 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 192158,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 822213.008841,
-					["serial"] = "Creature-0-3019-1477-27077-97202-000031F291",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 9652404.008841,
+					["friendlyfire_total"] = 0,
+					["total"] = 822213.008841,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057497,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-97202-000031F291",
+					["damage_taken"] = 9652404.008841,
 				}, -- [18]
 				{
 					["flag_original"] = 2632,
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Silentnight-Darkspear"] = 205314,
+						["Jalarius-Sargeras"] = 270886,
 						["Raffe"] = 635463,
 						["Krøn-Nemesis"] = 140084,
-						["Jalarius-Sargeras"] = 270886,
+						["Silentnight-Darkspear"] = 205314,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "[*] Sanctify",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1251747.014435,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057546,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "[*] Sanctify",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[192206] = {
 								["c_amt"] = 0,
@@ -9703,10 +8637,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 71528,
 								["targets"] = {
-									["Silentnight-Darkspear"] = 205314,
+									["Jalarius-Sargeras"] = 270886,
 									["Raffe"] = 635463,
 									["Krøn-Nemesis"] = 140084,
-									["Jalarius-Sargeras"] = 270886,
+									["Silentnight-Darkspear"] = 205314,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1251747,
@@ -9717,27 +8651,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 192206,
 								["r_dmg"] = 0,
-								["a_dmg"] = 137102,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 2,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 2,
+								["a_dmg"] = 137102,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 1251747.014435,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.014435,
+					["friendlyfire_total"] = 0,
+					["total"] = 1251747.014435,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057531,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["damage_taken"] = 0.014435,
 				}, -- [19]
 				{
 					["flag_original"] = 68168,
@@ -9749,34 +8685,32 @@ _detalhes_database = {
 						["Krøn-Nemesis"] = true,
 						["Bloodstalker <Raffe>"] = true,
 						["Shadowfiend <Silentnight-Darkspear>"] = true,
-						["Beast <Krøn-Nemesis>"] = true,
 						["Silentnight-Darkspear"] = true,
+						["Beast <Krøn-Nemesis>"] = true,
 					},
 					["targets"] = {
 						["Raffe"] = 1851943,
 						["Krøn-Nemesis"] = 2012409,
 						["Jalarius-Sargeras"] = 1781834,
-						["Kaldorath"] = 2950115,
 						["Silentnight-Darkspear"] = 1818662,
+						["Kaldorath"] = 2950115,
 					},
-					["on_hold"] = false,
+					["dps_started"] = false,
 					["pets"] = {
 					},
 					["boss"] = true,
-					["boss_fight_component"] = true,
+					["nome"] = "Hyrja",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 10414963.005274,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488057643,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Hyrja",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -9794,19 +8728,19 @@ _detalhes_database = {
 								["counter"] = 21,
 								["total"] = 966941,
 								["c_max"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 6,
 								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 4,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 11,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["DODGE"] = 6,
+								["a_amt"] = 0,
 							}, -- [1]
 							[200901] = {
 								["c_amt"] = 0,
@@ -9825,15 +8759,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 200901,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[200682] = {
 								["c_amt"] = 0,
@@ -9845,8 +8779,8 @@ _detalhes_database = {
 									["Raffe"] = 1616371,
 									["Krøn-Nemesis"] = 1631106,
 									["Jalarius-Sargeras"] = 1524289,
-									["Silentnight-Darkspear"] = 1586519,
 									["Kaldorath"] = 1463820,
+									["Silentnight-Darkspear"] = 1586519,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 7822105,
@@ -9857,15 +8791,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 200682,
 								["r_dmg"] = 0,
-								["a_dmg"] = 2256699,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 25,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 90,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 25,
+								["a_dmg"] = 2256699,
 							},
 							[191976] = {
 								["c_amt"] = 0,
@@ -9874,10 +8808,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 160149,
 								["targets"] = {
-									["Silentnight-Darkspear"] = 232143,
+									["Jalarius-Sargeras"] = 257545,
 									["Raffe"] = 235572,
 									["Krøn-Nemesis"] = 381303,
-									["Jalarius-Sargeras"] = 257545,
+									["Silentnight-Darkspear"] = 232143,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1106563,
@@ -9888,15 +8822,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 191976,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 9,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[192018] = {
 								["c_amt"] = 0,
@@ -9916,35 +8850,37 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 192018,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 10414963.005274,
-					["serial"] = "Creature-0-3019-1477-27077-95833-000031F290",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 21833002.005274,
+					["friendlyfire_total"] = 0,
+					["total"] = 10414963.005274,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488057557,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-95833-000031F290",
+					["damage_taken"] = 21833002.005274,
 				}, -- [20]
 				{
 					["flag_original"] = 1298,
 					["damage_from"] = {
-						["[*] Crackling Storm"] = true,
+						["God-King Skovald"] = true,
 						["[*] Infernal Flames"] = true,
 						["Fenryr"] = true,
-						["God-King Skovald"] = true,
+						["[*] Crackling Storm"] = true,
 						["King Bjorn"] = true,
 						["[*] Glowing Fragment"] = true,
 						["Odyn"] = true,
@@ -9952,41 +8888,41 @@ _detalhes_database = {
 					["targets"] = {
 						["Steeljaw Grizzly"] = 4565626,
 						["Trained Hawk"] = 275218,
-						["Valarjar Trapper"] = 1169705,
-						["King Haldor"] = 1815634,
-						["Storm Drake"] = 1486037,
 						["Angerhoof Bull"] = 1219603,
 						["Ebonclaw Worg"] = 2151379,
-						["Honored Ancestor"] = 91294,
+						["Storm Drake"] = 1486037,
+						["Valarjar Trapper"] = 1169705,
+						["King Haldor"] = 1815634,
+						["Valarjar Marksman"] = 1458491,
 						["Valarjar Falconer"] = 825564,
 						["King Ranulf"] = 1781991,
 						["King Bjorn"] = 1704031,
 						["Fenryr"] = 7465311,
 						["God-King Skovald"] = 4861222,
-						["Valarjar Marksman"] = 1458491,
+						["Honored Ancestor"] = 91294,
 						["King Tor"] = 1305729,
 						["Odyn"] = 5684892,
 					},
+					["delay"] = 0,
 					["pets"] = {
 					},
-					["classe"] = "MAGE",
+					["nome"] = "Tinkelbell-Shu'halo",
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 37861727.082087,
-					["boss_fight_component"] = true,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1488057957,
 					["friendlyfire"] = {
 					},
-					["total"] = 37861727.082087,
-					["nome"] = "Tinkelbell-Shu'halo",
+					["dps_started"] = false,
+					["end_time"] = 1488057957,
+					["on_hold"] = false,
+					["tipo"] = 1,
+					["boss_fight_component"] = true,
 					["spec"] = 63,
 					["grupo"] = true,
-					["on_hold"] = false,
+					["total"] = 37861727.082087,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[31661] = {
 								["c_amt"] = 0,
@@ -10008,15 +8944,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 31661,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[153564] = {
 								["c_amt"] = 12,
@@ -10047,15 +8983,15 @@ _detalhes_database = {
 								["c_max"] = 725926,
 								["id"] = 153564,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 11,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[155158] = {
 								["c_amt"] = 36,
@@ -10083,15 +9019,15 @@ _detalhes_database = {
 								["c_max"] = 23097,
 								["id"] = 155158,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 81,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[44461] = {
 								["c_amt"] = 26,
@@ -10121,15 +9057,15 @@ _detalhes_database = {
 								["c_max"] = 35999,
 								["id"] = 44461,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 34,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[133] = {
 								["c_amt"] = 26,
@@ -10159,15 +9095,15 @@ _detalhes_database = {
 								["c_max"] = 98092,
 								["id"] = 133,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 42,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[194466] = {
 								["c_amt"] = 14,
@@ -10176,13 +9112,13 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["King Tor"] = 145187,
+									["King Ranulf"] = 135827,
+									["King Haldor"] = 145187,
+									["Angerhoof Bull"] = 135827,
+									["Fenryr"] = 679135,
 									["God-King Skovald"] = 148486,
 									["King Bjorn"] = 145187,
-									["Fenryr"] = 679135,
-									["King Ranulf"] = 135827,
-									["Angerhoof Bull"] = 135827,
-									["King Haldor"] = 145187,
+									["King Tor"] = 145187,
 									["Odyn"] = 508154,
 								},
 								["m_dmg"] = 0,
@@ -10194,15 +9130,15 @@ _detalhes_database = {
 								["c_max"] = 217780,
 								["id"] = 194466,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[2120] = {
 								["c_amt"] = 10,
@@ -10217,10 +9153,10 @@ _detalhes_database = {
 									["Valarjar Trapper"] = 208269,
 									["Ebonclaw Worg"] = 260335,
 									["Valarjar Falconer"] = 159751,
-									["King Bjorn"] = 278275,
+									["Angerhoof Bull"] = 104134,
 									["Valarjar Marksman"] = 195251,
 									["King Tor"] = 166965,
-									["Angerhoof Bull"] = 104134,
+									["King Bjorn"] = 278275,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1668662,
@@ -10231,46 +9167,57 @@ _detalhes_database = {
 								["c_max"] = 111310,
 								["id"] = 2120,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 32,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[122] = {
-								["c_amt"] = 3,
+							[108853] = {
+								["c_amt"] = 82,
 								["b_amt"] = 0,
-								["c_dmg"] = 18201,
+								["c_dmg"] = 5647272,
 								["g_amt"] = 0,
-								["n_max"] = 3033,
+								["n_max"] = 0,
 								["targets"] = {
-									["Steeljaw Grizzly"] = 12132,
-									["Angerhoof Bull"] = 3033,
-									["Ebonclaw Worg"] = 18200,
-									["Storm Drake"] = 6067,
+									["Steeljaw Grizzly"] = 329269,
+									["Valarjar Trapper"] = 329270,
+									["Ebonclaw Worg"] = 395124,
+									["Storm Drake"] = 131707,
+									["Angerhoof Bull"] = 263415,
+									["King Haldor"] = 281568,
+									["Valarjar Marksman"] = 246952,
+									["Valarjar Falconer"] = 269403,
+									["King Ranulf"] = 395124,
+									["King Bjorn"] = 281568,
+									["Fenryr"] = 1053658,
+									["God-King Skovald"] = 719920,
+									["Honored Ancestor"] = 70392,
+									["King Tor"] = 140784,
+									["Odyn"] = 739118,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 21231,
+								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 10,
-								["total"] = 39432,
-								["c_max"] = 6067,
-								["id"] = 122,
+								["counter"] = 82,
+								["total"] = 5647272,
+								["c_max"] = 105589,
+								["id"] = 108853,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 7,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[224637] = {
 								["c_amt"] = 2,
@@ -10291,15 +9238,15 @@ _detalhes_database = {
 								["c_max"] = 48395,
 								["id"] = 224637,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[217694] = {
 								["c_amt"] = 44,
@@ -10309,17 +9256,17 @@ _detalhes_database = {
 								["n_max"] = 8251,
 								["targets"] = {
 									["Steeljaw Grizzly"] = 231545,
-									["King Ranulf"] = 25728,
 									["Storm Drake"] = 61748,
+									["King Ranulf"] = 25728,
 									["Angerhoof Bull"] = 20580,
 									["Ebonclaw Worg"] = 15436,
-									["Honored Ancestor"] = 16501,
-									["Valarjar Falconer"] = 31576,
 									["King Bjorn"] = 33004,
+									["Valarjar Falconer"] = 31576,
+									["Valarjar Marksman"] = 15436,
 									["King Haldor"] = 33002,
 									["Fenryr"] = 190389,
 									["God-King Skovald"] = 101253,
-									["Valarjar Marksman"] = 15436,
+									["Honored Ancestor"] = 16501,
 									["King Tor"] = 33002,
 									["Odyn"] = 63254,
 								},
@@ -10332,15 +9279,15 @@ _detalhes_database = {
 								["c_max"] = 16502,
 								["id"] = 217694,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 75,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[12654] = {
 								["c_amt"] = 0,
@@ -10351,18 +9298,18 @@ _detalhes_database = {
 								["targets"] = {
 									["Steeljaw Grizzly"] = 1193409,
 									["Trained Hawk"] = 38009,
-									["Angerhoof Bull"] = 105918,
-									["King Haldor"] = 325051,
-									["Storm Drake"] = 284121,
 									["Valarjar Trapper"] = 218534,
 									["Ebonclaw Worg"] = 675806,
-									["Honored Ancestor"] = 4401,
+									["Storm Drake"] = 284121,
+									["Angerhoof Bull"] = 105918,
+									["King Haldor"] = 325051,
+									["Valarjar Marksman"] = 291268,
 									["Valarjar Falconer"] = 113388,
 									["King Ranulf"] = 287694,
 									["King Bjorn"] = 342580,
 									["Fenryr"] = 1303947,
 									["God-King Skovald"] = 876829,
-									["Valarjar Marksman"] = 291268,
+									["Honored Ancestor"] = 4401,
 									["King Tor"] = 303941,
 									["Odyn"] = 932028,
 								},
@@ -10375,15 +9322,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 12654,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 948,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[11366] = {
 								["c_amt"] = 20,
@@ -10412,15 +9359,15 @@ _detalhes_database = {
 								["c_max"] = 277174,
 								["id"] = 11366,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 28,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[2948] = {
 								["c_amt"] = 13,
@@ -10449,105 +9396,91 @@ _detalhes_database = {
 								["c_max"] = 39599,
 								["id"] = 2948,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 19,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[108853] = {
-								["c_amt"] = 82,
+							[122] = {
+								["c_amt"] = 3,
 								["b_amt"] = 0,
-								["c_dmg"] = 5647272,
+								["c_dmg"] = 18201,
 								["g_amt"] = 0,
-								["n_max"] = 0,
+								["n_max"] = 3033,
 								["targets"] = {
-									["Steeljaw Grizzly"] = 329269,
-									["Angerhoof Bull"] = 263415,
-									["King Haldor"] = 281568,
-									["Storm Drake"] = 131707,
-									["Valarjar Trapper"] = 329270,
-									["Ebonclaw Worg"] = 395124,
-									["Honored Ancestor"] = 70392,
-									["Valarjar Falconer"] = 269403,
-									["King Ranulf"] = 395124,
-									["King Bjorn"] = 281568,
-									["Fenryr"] = 1053658,
-									["God-King Skovald"] = 719920,
-									["Valarjar Marksman"] = 246952,
-									["King Tor"] = 140784,
-									["Odyn"] = 739118,
+									["Steeljaw Grizzly"] = 12132,
+									["Angerhoof Bull"] = 3033,
+									["Ebonclaw Worg"] = 18200,
+									["Storm Drake"] = 6067,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 0,
+								["n_dmg"] = 21231,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 82,
-								["total"] = 5647272,
-								["c_max"] = 105589,
-								["id"] = 108853,
+								["counter"] = 10,
+								["total"] = 39432,
+								["c_max"] = 6067,
+								["id"] = 122,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 7,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-47-07B3CA05",
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["damage_taken"] = 2609711.082087,
 					["start_time"] = 1488057345,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-47-07B3CA05",
+					["classe"] = "MAGE",
 				}, -- [21]
 				{
 					["flag_original"] = 68168,
-					["last_event"] = 0,
 					["damage_from"] = {
 						["Raffe"] = true,
-						["Kaldorath"] = true,
-						["Bloodstalker <Raffe>"] = true,
-						["Jalarius-Sargeras"] = true,
-						["Shadowfiend <Silentnight-Darkspear>"] = true,
-						["Tinkelbell-Shu'halo"] = true,
 						["Silentnight-Darkspear"] = true,
+						["Bloodstalker <Raffe>"] = true,
+						["Tinkelbell-Shu'halo"] = true,
+						["Shadowfiend <Silentnight-Darkspear>"] = true,
+						["Jalarius-Sargeras"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
 						["Raffe"] = 1307461,
 						["Jalarius-Sargeras"] = 1381634,
-						["Kaldorath"] = 3678160,
-						["Tinkelbell-Shu'halo"] = 979338,
 						["Silentnight-Darkspear"] = 783090,
+						["Tinkelbell-Shu'halo"] = 979338,
+						["Kaldorath"] = 3678160,
 					},
-					["on_hold"] = false,
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
+					["monster"] = true,
+					["nome"] = "Fenryr",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						[128] = 248677,
 					},
 					["total_without_pet"] = 8129683.016755,
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1488058239,
-					["friendlyfire_total"] = 0,
-					["monster"] = true,
-					["nome"] = "Fenryr",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -10556,30 +9489,30 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 106573,
 								["targets"] = {
-									["Silentnight-Darkspear"] = 100034,
 									["Kaldorath"] = 2907747,
+									["Silentnight-Darkspear"] = 100034,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 3007781,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 56,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["total"] = 3007781,
 								["c_max"] = 0,
-								["MISS"] = 1,
+								["DODGE"] = 6,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 6,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 12,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 37,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 37,
+								["MISS"] = 1,
+								["a_amt"] = 0,
 							}, -- [1]
 							[196543] = {
 								["c_amt"] = 0,
@@ -10598,190 +9531,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196543,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[200561] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 200561,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[197558] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 197558,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 4,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[196838] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 196838,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 2,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[196496] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 37543,
-								["targets"] = {
-									["Raffe"] = 104973,
-									["Jalarius-Sargeras"] = 167895,
-									["Silentnight-Darkspear"] = 137166,
-									["Tinkelbell-Shu'halo"] = 171377,
-									["Kaldorath"] = 44841,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 626252,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 19,
-								["total"] = 626252,
-								["c_max"] = 0,
-								["id"] = 196496,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 19,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[196497] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 38536,
-								["targets"] = {
-									["Raffe"] = 525096,
-									["Jalarius-Sargeras"] = 808700,
-									["Silentnight-Darkspear"] = 545890,
-									["Tinkelbell-Shu'halo"] = 807961,
-									["Kaldorath"] = 195643,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2883290,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 159,
-								["total"] = 2883290,
-								["c_max"] = 0,
-								["id"] = 196497,
-								["r_dmg"] = 0,
-								["a_dmg"] = 150662,
-								["m_crit"] = 0,
-								["a_amt"] = 7,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 159,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[196512] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 127011,
-								["targets"] = {
-									["Raffe"] = 677392,
-									["Jalarius-Sargeras"] = 405039,
-									["Kaldorath"] = 529929,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1612360,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 19,
-								["total"] = 1612360,
-								["c_max"] = 0,
-								["id"] = 196512,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 7,
-								["b_dmg"] = 0,
-								["n_amt"] = 19,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[196567] = {
 								["c_amt"] = 0,
@@ -10800,56 +9558,232 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196567,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[200561] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 200561,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[196838] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 196838,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 2,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[196496] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 37543,
+								["targets"] = {
+									["Raffe"] = 104973,
+									["Jalarius-Sargeras"] = 167895,
+									["Kaldorath"] = 44841,
+									["Tinkelbell-Shu'halo"] = 171377,
+									["Silentnight-Darkspear"] = 137166,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 626252,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 626252,
+								["c_max"] = 0,
+								["id"] = 196496,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 19,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[196497] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 38536,
+								["targets"] = {
+									["Raffe"] = 525096,
+									["Jalarius-Sargeras"] = 808700,
+									["Kaldorath"] = 195643,
+									["Tinkelbell-Shu'halo"] = 807961,
+									["Silentnight-Darkspear"] = 545890,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2883290,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 159,
+								["total"] = 2883290,
+								["c_max"] = 0,
+								["id"] = 196497,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 159,
+								["a_amt"] = 7,
+								["a_dmg"] = 150662,
+							},
+							[196512] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 127011,
+								["targets"] = {
+									["Raffe"] = 677392,
+									["Kaldorath"] = 529929,
+									["Jalarius-Sargeras"] = 405039,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1612360,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 19,
+								["total"] = 1612360,
+								["c_max"] = 0,
+								["id"] = 196512,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 7,
+								["b_dmg"] = 0,
+								["n_amt"] = 19,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[197558] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 197558,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 4,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["total"] = 8129683.016755,
-					["serial"] = "Creature-0-3019-1477-27077-95674-000031F34C",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 27696470.016755,
+					["friendlyfire_total"] = 0,
+					["total"] = 8129683.016755,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058093,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-95674-000031F34C",
+					["damage_taken"] = 27696470.016755,
 				}, -- [22]
 				{
 					["flag_original"] = 2632,
 					["damage_from"] = {
-						["Kaldorath"] = true,
+						["Silentnight-Darkspear"] = true,
 						["Raffe"] = true,
 						["Tinkelbell-Shu'halo"] = true,
-						["Silentnight-Darkspear"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
-						["Kaldorath"] = 3877518,
 						["Raffe"] = 386168,
+						["Kaldorath"] = 3877518,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Ebonclaw Worg",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 4263686.002373,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488058293,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Ebonclaw Worg",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -10865,22 +9799,22 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 59,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["total"] = 1663898,
 								["c_max"] = 0,
-								["MISS"] = 4,
+								["DODGE"] = 9,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 9,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 10,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 36,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["a_dmg"] = 0,
+								["n_amt"] = 36,
+								["MISS"] = 4,
+								["a_amt"] = 0,
 							}, -- [1]
 							[199177] = {
 								["c_amt"] = 0,
@@ -10896,22 +9830,22 @@ _detalhes_database = {
 								["n_min"] = 0,
 								["g_dmg"] = 0,
 								["counter"] = 19,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["total"] = 1219400,
 								["c_max"] = 0,
-								["DODGE"] = 1,
+								["MISS"] = 1,
 								["id"] = 199177,
 								["r_dmg"] = 0,
-								["MISS"] = 1,
-								["a_dmg"] = 0,
+								["b_dmg"] = 0,
+								["m_amt"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 4,
-								["m_amt"] = 0,
-								["successful_casted"] = 19,
-								["b_dmg"] = 0,
-								["n_amt"] = 13,
-								["r_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 19,
+								["a_dmg"] = 0,
+								["n_amt"] = 13,
+								["DODGE"] = 1,
+								["a_amt"] = 0,
 							},
 							[199182] = {
 								["c_amt"] = 0,
@@ -10920,8 +9854,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 129701,
 								["targets"] = {
-									["Kaldorath"] = 994220,
 									["Raffe"] = 386168,
+									["Kaldorath"] = 994220,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1380388,
@@ -10932,15 +9866,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 199182,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 14,
 								["b_dmg"] = 0,
 								["n_amt"] = 17,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[199179] = {
 								["c_amt"] = 0,
@@ -10959,64 +9893,64 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 199179,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 14,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 4263686.002373,
-					["serial"] = "Creature-0-3019-1477-27077-96608-0002B1F34C",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 12907728.002373,
+					["friendlyfire_total"] = 0,
+					["total"] = 4263686.002373,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058245,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-96608-0002B1F34C",
+					["damage_taken"] = 12907728.002373,
 				}, -- [23]
 				{
 					["flag_original"] = 68168,
 					["damage_from"] = {
 						["Raffe"] = true,
 						["Bloodstalker <Raffe>"] = true,
-						["Kaldorath"] = true,
+						["Silentnight-Darkspear"] = true,
 						["Shadowfiend <Silentnight-Darkspear>"] = true,
 						["Tinkelbell-Shu'halo"] = true,
-						["Silentnight-Darkspear"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
 						["Raffe"] = 576569,
 						["Jalarius-Sargeras"] = 681527,
-						["Kaldorath"] = 2880695,
+						["Silentnight-Darkspear"] = 962683,
 						["Shadowfiend <Silentnight-Darkspear>"] = 8128,
 						["Tinkelbell-Shu'halo"] = 267652,
-						["Silentnight-Darkspear"] = 962683,
+						["Kaldorath"] = 2880695,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "God-King Skovald",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 						[128] = 474900,
 					},
 					["total_without_pet"] = 5377254.006918,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488058820,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "God-King Skovald",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11034,19 +9968,19 @@ _detalhes_database = {
 								["counter"] = 28,
 								["total"] = 1918039,
 								["c_max"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 1,
 								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 5,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 22,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["DODGE"] = 1,
+								["a_amt"] = 0,
 							}, -- [1]
 							[194112] = {
 								["c_amt"] = 0,
@@ -11065,15 +9999,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 194112,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[193826] = {
 								["c_amt"] = 0,
@@ -11092,15 +10026,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193826,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[193827] = {
 								["c_amt"] = 0,
@@ -11109,10 +10043,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 114189,
 								["targets"] = {
-									["Jalarius-Sargeras"] = 368604,
+									["Silentnight-Darkspear"] = 480180,
 									["Raffe"] = 83983,
 									["Tinkelbell-Shu'halo"] = 267652,
-									["Silentnight-Darkspear"] = 480180,
+									["Jalarius-Sargeras"] = 368604,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1200419,
@@ -11123,15 +10057,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193827,
 								["r_dmg"] = 0,
-								["a_dmg"] = 360961,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 4,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 13,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 4,
+								["a_dmg"] = 360961,
 							},
 							[193660] = {
 								["c_amt"] = 0,
@@ -11143,8 +10077,8 @@ _detalhes_database = {
 									["Raffe"] = 492586,
 									["Jalarius-Sargeras"] = 312923,
 									["Shadowfiend <Silentnight-Darkspear>"] = 8128,
-									["Kaldorath"] = 441215,
 									["Silentnight-Darkspear"] = 482503,
+									["Kaldorath"] = 441215,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1737355,
@@ -11155,15 +10089,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193660,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 5,
 								["b_dmg"] = 0,
 								["n_amt"] = 12,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[193668] = {
 								["c_amt"] = 0,
@@ -11183,42 +10117,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193668,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[193659] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 193659,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 5,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
 							},
 							[193686] = {
 								["c_amt"] = 0,
@@ -11238,55 +10145,82 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193686,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[193659] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 193659,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 5,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 5377254.006918,
-					["serial"] = "Vehicle-0-3019-1477-27077-95675-000031F93B",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 20708197.006918,
+					["friendlyfire_total"] = 0,
+					["total"] = 5377254.006918,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058721,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Vehicle-0-3019-1477-27077-95675-000031F93B",
+					["damage_taken"] = 20708197.006918,
 				}, -- [24]
 				{
 					["flag_original"] = 2632,
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Silentnight-Darkspear"] = 129459,
+						["Jalarius-Sargeras"] = 601787,
 						["Raffe"] = 98694,
 						["Tinkelbell-Shu'halo"] = 431641,
-						["Jalarius-Sargeras"] = 601787,
+						["Silentnight-Darkspear"] = 129459,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "[*] Infernal Flames",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1261581.009732,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488058820,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "[*] Infernal Flames",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[193702] = {
 								["c_amt"] = 0,
@@ -11295,10 +10229,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 95019,
 								["targets"] = {
-									["Silentnight-Darkspear"] = 129459,
+									["Jalarius-Sargeras"] = 601787,
 									["Raffe"] = 98694,
 									["Tinkelbell-Shu'halo"] = 431641,
-									["Jalarius-Sargeras"] = 601787,
+									["Silentnight-Darkspear"] = 129459,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1261581,
@@ -11309,62 +10243,62 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193702,
 								["r_dmg"] = 0,
-								["a_dmg"] = 33202,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 1,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 29,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 1,
+								["a_dmg"] = 33202,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 1261581.009732,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.009732,
+					["friendlyfire_total"] = 0,
+					["total"] = 1261581.009732,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058798,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["damage_taken"] = 0.009732,
 				}, -- [25]
 				{
 					["flag_original"] = 68168,
 					["damage_from"] = {
 						["Tinkelbell-Shu'halo"] = true,
 						["Bloodstalker <Raffe>"] = true,
-						["Kaldorath"] = true,
+						["Silentnight-Darkspear"] = true,
 						["Shadowfiend <Silentnight-Darkspear>"] = true,
 						["Raffe"] = true,
-						["Silentnight-Darkspear"] = true,
+						["Kaldorath"] = true,
 					},
 					["targets"] = {
 						["Tinkelbell-Shu'halo"] = 205687,
 						["Jalarius-Sargeras"] = 226353,
-						["Kaldorath"] = 2347364,
-						["Raffe"] = 169822,
 						["Silentnight-Darkspear"] = 314712,
+						["Raffe"] = 169822,
+						["Kaldorath"] = 2347364,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "Odyn",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 3263938.011315,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488058953,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "Odyn",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11382,19 +10316,19 @@ _detalhes_database = {
 								["counter"] = 36,
 								["total"] = 2184555,
 								["c_max"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 4,
 								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 3,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 29,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["DODGE"] = 4,
+								["a_amt"] = 0,
 							}, -- [1]
 							[198263] = {
 								["c_amt"] = 0,
@@ -11413,15 +10347,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 198263,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[197963] = {
 								["c_amt"] = 0,
@@ -11441,98 +10375,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 197963,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[197965] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 10434,
-								["targets"] = {
-									["Silentnight-Darkspear"] = 31300,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 31300,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 3,
-								["total"] = 31300,
-								["c_max"] = 0,
-								["id"] = 197965,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[198077] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 198077,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 1,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[197966] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 10211,
-								["targets"] = {
-									["Jalarius-Sargeras"] = 61265,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 61265,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 6,
-								["total"] = 61265,
-								["c_max"] = 0,
-								["id"] = 197966,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 6,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[197967] = {
 								["c_amt"] = 0,
@@ -11552,15 +10403,102 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 197967,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[198077] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 198077,
+								["r_dmg"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 1,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[197966] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 10211,
+								["targets"] = {
+									["Jalarius-Sargeras"] = 61265,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 61265,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 6,
+								["total"] = 61265,
+								["c_max"] = 0,
+								["id"] = 197966,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 6,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[198058] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 149517,
+								["targets"] = {
+									["Tinkelbell-Shu'halo"] = 173575,
+									["Jalarius-Sargeras"] = 165088,
+									["Silentnight-Darkspear"] = 283412,
+									["Raffe"] = 169822,
+									["Kaldorath"] = 153188,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 945085,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 25,
+								["total"] = 945085,
+								["c_max"] = 0,
+								["id"] = 198058,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 25,
+								["a_amt"] = 1,
+								["a_dmg"] = 28394,
 							},
 							[197961] = {
 								["c_amt"] = 0,
@@ -11579,85 +10517,81 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 197961,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[198058] = {
+							[197965] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 149517,
+								["n_max"] = 10434,
 								["targets"] = {
-									["Tinkelbell-Shu'halo"] = 173575,
-									["Jalarius-Sargeras"] = 165088,
-									["Kaldorath"] = 153188,
-									["Raffe"] = 169822,
-									["Silentnight-Darkspear"] = 283412,
+									["Silentnight-Darkspear"] = 31300,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 945085,
+								["n_dmg"] = 31300,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 25,
-								["total"] = 945085,
+								["counter"] = 3,
+								["total"] = 31300,
 								["c_max"] = 0,
-								["id"] = 198058,
+								["id"] = 197965,
 								["r_dmg"] = 0,
-								["a_dmg"] = 28394,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 1,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 25,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 3,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 3263938.011315,
-					["serial"] = "Creature-0-3019-1477-27077-95676-000031F290",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 21741625.011315,
+					["friendlyfire_total"] = 0,
+					["total"] = 3263938.011315,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058891,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Creature-0-3019-1477-27077-95676-000031F290",
+					["damage_taken"] = 21741625.011315,
 				}, -- [26]
 				{
 					["flag_original"] = 2632,
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Tinkelbell-Shu'halo"] = 349175,
 						["Kaldorath"] = 317954,
+						["Tinkelbell-Shu'halo"] = 349175,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["dps_started"] = false,
+					["nome"] = "[*] Glowing Fragment",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 667129.004588,
-					["last_event"] = 0,
-					["dps_started"] = false,
+					["delay"] = 0,
+					["monster"] = true,
 					["end_time"] = 1488058953,
-					["friendlyfire"] = {
-					},
-					["friendlyfire_total"] = 0,
-					["nome"] = "[*] Glowing Fragment",
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[198088] = {
 								["c_amt"] = 0,
@@ -11666,8 +10600,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 349175,
 								["targets"] = {
-									["Tinkelbell-Shu'halo"] = 349175,
 									["Kaldorath"] = 317954,
+									["Tinkelbell-Shu'halo"] = 349175,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 667129,
@@ -11678,27 +10612,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 198088,
 								["r_dmg"] = 0,
-								["a_dmg"] = 349175,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 1,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 1,
+								["a_dmg"] = 349175,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
-					["total"] = 667129.004588,
-					["serial"] = "",
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.004588,
+					["friendlyfire_total"] = 0,
+					["total"] = 667129.004588,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1488058949,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "",
+					["damage_taken"] = 0.004588,
 				}, -- [27]
 				{
 					["flag_original"] = 68168,
@@ -11710,23 +10646,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["last_event"] = 0,
-					["classe"] = "UNKNOW",
+					["monster"] = true,
+					["tipo"] = 1,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 124613.00838,
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1488059945,
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 124613.00838,
-					["monster"] = true,
+					["end_time"] = 1488059945,
+					["on_hold"] = false,
 					["ownerName"] = "Kaldorath",
 					["nome"] = "Felbound Infernal <Kaldorath> <Kaldorath>",
-					["friendlyfire"] = {
-					},
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -11744,19 +10676,19 @@ _detalhes_database = {
 								["counter"] = 7,
 								["total"] = 78829,
 								["c_max"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 3,
 								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
 								["PARRY"] = 1,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["DODGE"] = 3,
+								["a_amt"] = 0,
 							}, -- [1]
 							[185782] = {
 								["c_amt"] = 0,
@@ -11776,15 +10708,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 185782,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 4,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[185773] = {
 								["c_amt"] = 0,
@@ -11804,25 +10736,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 185773,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 6,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Creature-0-3780-1624-19060-110384-000031FE0E",
+					["damage_taken"] = 812781.00838,
+					["friendlyfire"] = {
+					},
+					["total"] = 124613.00838,
 					["custom"] = 0,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["last_dps"] = 0,
 					["start_time"] = 1488059928,
-					["delay"] = 0,
-					["damage_taken"] = 812781.00838,
+					["serial"] = "Creature-0-3780-1624-19060-110384-000031FE0E",
+					["classe"] = "UNKNOW",
 				}, -- [28]
 				{
 					["flag_original"] = 1047,
@@ -11834,33 +10770,140 @@ _detalhes_database = {
 					["pets"] = {
 						"Summoned Searing Totem <Da'kesh the Elementalist> <Da'kesh the Elementalist>", -- [1]
 					},
+					["damage_taken"] = 0.013058,
 					["classe"] = "PALADIN",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.013058,
-					["on_hold"] = false,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1488060384,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["total"] = 1386.013058,
 					["nome"] = "Da'kesh the Elementalist",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["total"] = 1386.013058,
+					["tipo"] = 1,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1488060372,
 					["serial"] = "Creature-0-3780-1624-19060-111078-000031FDFC",
+					["friendlyfire"] = {
+					},
+				}, -- [29]
+				{
+					["flag_original"] = 8465,
+					["damage_from"] = {
+						["Fel Seeker"] = true,
+					},
+					["targets"] = {
+						["Withered Exile"] = 1505428,
+						["Withered Fanatic"] = 161697,
+						["Grim Inquisitor"] = 208375,
+						["Runas the Shamed"] = 152054,
+						["Mo'arg Crusher"] = 159242,
+						["Fel Seeker"] = 157926,
+					},
+					["pets"] = {
+					},
+					["damage_taken"] = 26365.022779,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 2344722.022779,
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 2344722.022779,
+					["delay"] = 0,
+					["ownerName"] = "Kaldorath",
+					["nome"] = "Kayn Sunfury <Kaldorath> <Kaldorath>",
+					["spells"] = {
+						["_ActorTable"] = {
+							[222946] = {
+								["c_amt"] = 12,
+								["b_amt"] = 0,
+								["c_dmg"] = 958080,
+								["g_amt"] = 0,
+								["n_max"] = 43184,
+								["targets"] = {
+									["Withered Exile"] = 1229594,
+									["Withered Fanatic"] = 161697,
+									["Grim Inquisitor"] = 165470,
+									["Runas the Shamed"] = 113878,
+									["Mo'arg Crusher"] = 117786,
+									["Fel Seeker"] = 119234,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 949579,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 36,
+								["total"] = 1907659,
+								["c_max"] = 83910,
+								["id"] = 222946,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 24,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[222948] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 42905,
+								["targets"] = {
+									["Withered Exile"] = 275834,
+									["Grim Inquisitor"] = 42905,
+									["Runas the Shamed"] = 38176,
+									["Mo'arg Crusher"] = 41456,
+									["Fel Seeker"] = 38692,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 437063,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 437063,
+								["c_max"] = 0,
+								["id"] = 222948,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["classe"] = "PET",
+					["last_dps"] = 0,
+					["end_time"] = 1488229428,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.013058,
-					["start_time"] = 1488060372,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [29]
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1488229425,
+					["serial"] = "Creature-0-3022-1220-31212-111944-0000348C60",
+					["on_hold"] = false,
+				}, -- [30]
 			},
 		}, -- [1]
 		{
@@ -11869,15 +10912,15 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1297,
 					["targets_overheal"] = {
-						["Kaldorath"] = 47480318,
+						["Kaldorath"] = 1396839,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "DEMONHUNTER",
-					["totalover"] = 47480318.197709,
-					["total_without_pet"] = 44541052.197709,
-					["total"] = 44541052.197709,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 56130896.312962,
+					["total_without_pet"] = 51961927.312962,
+					["total"] = 51961927.312962,
 					["targets_absorbs"] = {
 					},
 					["heal_enemy"] = {
@@ -11885,33 +10928,32 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["isTank"] = true,
 					["serial"] = "Player-5-0A6AF472",
-					["totalabsorb"] = 0.197709,
+					["totalabsorb"] = 0.312962,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Kaldorath"] = 65721233,
+						["Kaldorath"] = 479167,
 					},
-					["totalover_without_pet"] = 0.197709,
-					["healing_taken"] = 75753315.197709,
+					["totalover_without_pet"] = 0.312962,
+					["healing_taken"] = 83174190.312962,
 					["fight_component"] = true,
 					["end_time"] = 1488057018,
 					["nome"] = "Kaldorath",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[202644] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Kaldorath"] = 7295643,
+									["Kaldorath"] = 8413789,
 								},
 								["n_max"] = 236812,
 								["targets"] = {
-									["Kaldorath"] = 4601248,
+									["Kaldorath"] = 6878233,
 								},
 								["n_min"] = 0,
-								["counter"] = 54,
-								["overheal"] = 7295643,
-								["total"] = 4601248,
+								["counter"] = 70,
+								["overheal"] = 8413789,
+								["total"] = 6878233,
 								["c_max"] = 0,
 								["id"] = 202644,
 								["targets_absorbs"] = {
@@ -11919,10 +10961,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 4601248,
 								["m_healed"] = 0,
-								["n_amt"] = 54,
+								["n_amt"] = 70,
+								["n_curado"] = 6878233,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[197996] = {
@@ -11946,10 +10988,37 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 343868,
 								["m_healed"] = 0,
 								["n_amt"] = 1,
+								["n_curado"] = 343868,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[178963] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 4556079,
+								},
+								["n_max"] = 216180,
+								["targets"] = {
+									["Kaldorath"] = 3668089,
+								},
+								["n_min"] = 0,
+								["counter"] = 39,
+								["overheal"] = 4556079,
+								["total"] = 3668089,
+								["c_max"] = 0,
+								["id"] = 178963,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 39,
+								["m_healed"] = 0,
+								["n_curado"] = 3668089,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[203794] = {
@@ -11973,10 +11042,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 2677206,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 4074054,
 								["m_healed"] = 0,
 								["n_amt"] = 251,
+								["n_curado"] = 4074054,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[203963] = {
@@ -11999,10 +11068,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1985841,
 								["m_healed"] = 0,
 								["n_amt"] = 29,
+								["n_curado"] = 1985841,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[210042] = {
@@ -12026,26 +11095,26 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 193501,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 30406,
 								["m_healed"] = 0,
 								["n_amt"] = 4,
+								["n_curado"] = 30406,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[143924] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Kaldorath"] = 1612002,
+									["Kaldorath"] = 4588355,
 								},
-								["n_max"] = 103177,
+								["n_max"] = 133065,
 								["targets"] = {
-									["Kaldorath"] = 1088953,
+									["Kaldorath"] = 2552016,
 								},
 								["n_min"] = 0,
-								["counter"] = 69,
-								["overheal"] = 1612002,
-								["total"] = 1088953,
+								["counter"] = 153,
+								["overheal"] = 4588355,
+								["total"] = 2552016,
 								["c_max"] = 0,
 								["id"] = 143924,
 								["targets_absorbs"] = {
@@ -12053,10 +11122,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1088953,
 								["m_healed"] = 0,
-								["n_amt"] = 69,
+								["n_amt"] = 153,
+								["n_curado"] = 2552016,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[101649] = {
@@ -12080,10 +11149,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 2849,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 2325,
 								["m_healed"] = 0,
 								["n_amt"] = 15,
+								["n_curado"] = 2325,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[207693] = {
@@ -12107,10 +11176,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 6769707,
 								["m_healed"] = 0,
 								["n_amt"] = 502,
+								["n_curado"] = 6769707,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[228477] = {
@@ -12134,78 +11203,99 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 6583048,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 16188046,
 								["m_healed"] = 0,
 								["n_amt"] = 146,
+								["n_curado"] = 16188046,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[209426] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 12738,
+								["targets"] = {
+									["Kaldorath"] = 12738,
+								},
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 0,
+								["total"] = 12738,
+								["c_max"] = 0,
+								["id"] = 209426,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["n_amt"] = 1,
+								["m_healed"] = 0,
+								["n_curado"] = 12738,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
 					["healing_from"] = {
 						["Muhfeels-Elune"] = true,
 						["Prophet Velen"] = true,
 						["Jalarius-Sargeras"] = true,
-						["Silentnight-Darkspear"] = true,
 						["Kaldorath"] = true,
+						["Silentnight-Darkspear"] = true,
 					},
-					["heal_enemy_amt"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["last_event"] = 0,
-					["start_time"] = 1488055377,
-					["delay"] = 0,
 					["spec"] = 581,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["classe"] = "DEMONHUNTER",
+					["start_time"] = 1488055142,
+					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
 					["totalabsorb"] = 0.121682,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
-						["Raffe"] = 35853,
-						["Krøn-Nemesis"] = 122617,
-						["Jalarius-Sargeras"] = 78114,
-						["Kaldorath"] = 387642,
-						["Silentnight-Darkspear"] = 17319589,
+					["healing_from"] = {
+						["Muhfeels-Elune"] = true,
+						["Silentnight-Darkspear"] = true,
+						["Jalarius-Sargeras"] = true,
 					},
 					["targets"] = {
 						["Loque <Krøn-Nemesis>"] = 38329,
 						["Raffe"] = 521937,
 						["Krøn-Nemesis"] = 449799,
 						["Jalarius-Sargeras"] = 742200,
+						["Silentnight-Darkspear"] = 9641364,
 						["Tinkelbell-Shu'halo"] = 101613,
 						["Kaldorath"] = 1360406,
-						["Silentnight-Darkspear"] = 9641364,
 					},
-					["targets_absorbs"] = {
-					},
+					["tipo"] = 2,
 					["pets"] = {
 						"Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>", -- [1]
 					},
-					["iniciar_hps"] = false,
-					["healing_from"] = {
-						["Muhfeels-Elune"] = true,
-						["Jalarius-Sargeras"] = true,
-						["Silentnight-Darkspear"] = true,
+					["totalover_without_pet"] = 0.121682,
+					["targets_overheal"] = {
+						["Raffe"] = 35853,
+						["Krøn-Nemesis"] = 122617,
+						["Jalarius-Sargeras"] = 78114,
+						["Silentnight-Darkspear"] = 17319589,
+						["Kaldorath"] = 387642,
 					},
-					["healing_taken"] = 12874603.121682,
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 17943815.121682,
 					["total_without_pet"] = 11767296.121682,
-					["end_time"] = 1488057018,
-					["totalover_without_pet"] = 0.121682,
+					["iniciar_hps"] = false,
 					["classe"] = "PRIEST",
-					["total"] = 11767296.121682,
-					["boss_fight_component"] = true,
-					["heal_enemy_amt"] = 0,
-					["nome"] = "Silentnight-Darkspear",
-					["spec"] = 258,
-					["grupo"] = true,
-					["last_event"] = 0,
-					["heal_enemy"] = {
+					["healing_taken"] = 12874603.121682,
+					["end_time"] = 1488057018,
+					["targets_absorbs"] = {
 					},
+					["total"] = 11767296.121682,
+					["nome"] = "Silentnight-Darkspear",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[15290] = {
 								["c_amt"] = 0,
@@ -12214,8 +11304,8 @@ _detalhes_database = {
 									["Raffe"] = 35853,
 									["Krøn-Nemesis"] = 44556,
 									["Jalarius-Sargeras"] = 78114,
-									["Silentnight-Darkspear"] = 226828,
 									["Kaldorath"] = 387635,
+									["Silentnight-Darkspear"] = 226828,
 								},
 								["n_max"] = 164676,
 								["targets"] = {
@@ -12223,8 +11313,8 @@ _detalhes_database = {
 									["Raffe"] = 486084,
 									["Krøn-Nemesis"] = 405243,
 									["Jalarius-Sargeras"] = 429459,
-									["Silentnight-Darkspear"] = 104541,
 									["Kaldorath"] = 322898,
+									["Silentnight-Darkspear"] = 104541,
 								},
 								["n_min"] = 0,
 								["counter"] = 44,
@@ -12237,27 +11327,27 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1786554,
 								["m_healed"] = 0,
 								["n_amt"] = 44,
+								["n_curado"] = 1786554,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[17] = {
 								["c_amt"] = 38,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Kaldorath"] = 7,
-									["Krøn-Nemesis"] = 78061,
 									["Silentnight-Darkspear"] = 1535216,
+									["Krøn-Nemesis"] = 78061,
+									["Kaldorath"] = 7,
 								},
 								["n_max"] = 155606,
 								["targets"] = {
 									["Tinkelbell-Shu'halo"] = 101613,
 									["Krøn-Nemesis"] = -78061,
 									["Jalarius-Sargeras"] = 234627,
-									["Kaldorath"] = 649866,
 									["Silentnight-Darkspear"] = -293865,
+									["Kaldorath"] = 649866,
 								},
 								["n_min"] = 0,
 								["counter"] = 89,
@@ -12270,10 +11360,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = -1613284,
 								["m_amt"] = 0,
-								["c_min"] = -168818,
-								["n_curado"] = 2227464,
 								["m_healed"] = 0,
 								["n_amt"] = 51,
+								["n_curado"] = 2227464,
+								["c_min"] = -168818,
 								["absorbed"] = 0,
 							},
 							[203963] = {
@@ -12296,10 +11386,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 2387166,
 								["m_healed"] = 0,
 								["n_amt"] = 27,
+								["n_curado"] = 2387166,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[34914] = {
@@ -12323,10 +11413,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 5366112,
 								["m_healed"] = 0,
 								["n_amt"] = 903,
+								["n_curado"] = 5366112,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[197996] = {
@@ -12350,37 +11440,31 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 0,
 								["m_healed"] = 0,
 								["n_amt"] = 1,
+								["n_curado"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
+					["grupo"] = true,
+					["serial"] = "Player-120-07F62AFD",
+					["heal_enemy"] = {
+					},
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488055709,
 					["delay"] = 0,
-					["serial"] = "Player-120-07F62AFD",
+					["spec"] = 258,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
 					["totalabsorb"] = 0.10447,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
-						["Raffe"] = 3155260,
-					},
-					["targets"] = {
-						["Raffe"] = 4391932,
-					},
-					["targets_absorbs"] = {
-					},
-					["pets"] = {
-						"Bloodstalker <Raffe> <Raffe>", -- [1]
-					},
-					["iniciar_hps"] = false,
 					["healing_from"] = {
 						["Muhfeels-Elune"] = true,
 						["Raffe"] = true,
@@ -12388,23 +11472,40 @@ _detalhes_database = {
 						["Jalarius-Sargeras"] = true,
 						["Silentnight-Darkspear"] = true,
 					},
-					["heal_enemy_amt"] = 0,
+					["targets"] = {
+						["Raffe"] = 4391932,
+					},
+					["nome"] = "Raffe",
+					["pets"] = {
+						"Bloodstalker <Raffe> <Raffe>", -- [1]
+					},
+					["iniciar_hps"] = false,
+					["targets_overheal"] = {
+						["Raffe"] = 3155260,
+					},
+					["healing_taken"] = 12001046.10447,
 					["totalover"] = 3155260.10447,
 					["total_without_pet"] = 4319811.10447,
-					["healing_taken"] = 12001046.10447,
 					["totalover_without_pet"] = 0.10447,
+					["heal_enemy_amt"] = 0,
 					["classe"] = "ROGUE",
+					["total"] = 4319811.10447,
+					["tipo"] = 2,
 					["end_time"] = 1488057018,
 					["boss_fight_component"] = true,
-					["total"] = 4319811.10447,
-					["nome"] = "Raffe",
-					["spec"] = 261,
+					["targets_absorbs"] = {
+					},
 					["grupo"] = true,
-					["last_event"] = 0,
+					["serial"] = "Player-5-01F00707",
 					["heal_enemy"] = {
 					},
+					["spec"] = 261,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1488056896,
+					["delay"] = 0,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[185311] = {
 								["c_amt"] = 0,
@@ -12427,63 +11528,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 615873,
 								["m_healed"] = 0,
 								["n_amt"] = 55,
-								["absorbed"] = 0,
-							},
-							[197996] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Raffe"] = 1495042,
-								},
-								["n_max"] = 0,
-								["targets"] = {
-									["Raffe"] = 0,
-								},
-								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 1495042,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 197996,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 0,
-								["m_amt"] = 0,
+								["n_curado"] = 615873,
 								["c_min"] = 0,
-								["n_curado"] = 0,
-								["m_healed"] = 0,
-								["n_amt"] = 1,
-								["absorbed"] = 0,
-							},
-							[203963] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-								},
-								["n_max"] = 144000,
-								["targets"] = {
-									["Raffe"] = 3214394,
-								},
-								["n_min"] = 0,
-								["counter"] = 30,
-								["overheal"] = 0,
-								["total"] = 3214394,
-								["c_max"] = 0,
-								["id"] = 203963,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 3214394,
-								["m_healed"] = 0,
-								["n_amt"] = 30,
 								["absorbed"] = 0,
 							},
 							[158188] = {
@@ -12507,26 +11555,74 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 489544,
 								["m_healed"] = 0,
 								["n_amt"] = 18,
+								["n_curado"] = 489544,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[203963] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 144000,
+								["targets"] = {
+									["Raffe"] = 3214394,
+								},
+								["n_min"] = 0,
+								["counter"] = 30,
+								["overheal"] = 0,
+								["total"] = 3214394,
+								["c_max"] = 0,
+								["id"] = 203963,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 30,
+								["n_curado"] = 3214394,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[197996] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Raffe"] = 1495042,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Raffe"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 1495042,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 197996,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 1,
+								["n_curado"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["custom"] = 0,
-					["tipo"] = 2,
-					["on_hold"] = false,
-					["start_time"] = 1488056896,
-					["delay"] = 0,
-					["serial"] = "Player-5-01F00707",
 				}, -- [3]
 				{
 					["flag_original"] = 8466,
 					["totalabsorb"] = 0.050494,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
+					["healing_from"] = {
 					},
 					["targets"] = {
 					},
@@ -12534,75 +11630,74 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
-					["healing_from"] = {
+					["totalover_without_pet"] = 0.050494,
+					["targets_overheal"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.050494,
 					["totalover"] = 0.050494,
 					["total_without_pet"] = 0.050494,
-					["classe"] = "PET",
-					["totalover_without_pet"] = 0.050494,
-					["healing_taken"] = 0.050494,
-					["total"] = 0.050494,
-					["boss_fight_component"] = true,
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["end_time"] = 1488058953,
+					["delay"] = 0,
 					["ownerName"] = "Raffe",
 					["nome"] = "Bloodstalker <Raffe> <Raffe>",
-					["end_time"] = 1488058953,
-					["tipo"] = 2,
-					["heal_enemy"] = {
-					},
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
+					["classe"] = "PET",
+					["total"] = 0.050494,
+					["heal_enemy"] = {
+					},
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["on_hold"] = false,
 					["start_time"] = 1488058950,
 					["serial"] = "Creature-0-3019-1477-27077-97930-0000B1F2B1",
-					["delay"] = 0,
+					["last_event"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
 					["totalabsorb"] = 0.048699,
 					["last_hps"] = 0,
-					["healing_from"] = {
-						["Muhfeels-Elune"] = true,
-						["Jalarius-Sargeras"] = true,
-						["Krøn-Nemesis"] = true,
-						["Silentnight-Darkspear"] = true,
+					["targets_overheal"] = {
 					},
 					["targets"] = {
 						["Krøn-Nemesis"] = 1686817,
 					},
-					["targets_absorbs"] = {
-					},
+					["total"] = 1686817.048699,
 					["pets"] = {
 						"Loque <Krøn-Nemesis> <Krøn-Nemesis>", -- [1]
 						"Hati <Krøn-Nemesis> <Krøn-Nemesis>", -- [2]
 						"Beast <Krøn-Nemesis> <Krøn-Nemesis>", -- [3]
 					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
+					["totalover_without_pet"] = 0.048699,
+					["healing_from"] = {
+						["Muhfeels-Elune"] = true,
+						["Silentnight-Darkspear"] = true,
+						["Krøn-Nemesis"] = true,
+						["Jalarius-Sargeras"] = true,
 					},
-					["healing_taken"] = 5656962.048699,
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.048699,
 					["total_without_pet"] = 1686817.048699,
-					["totalover_without_pet"] = 0.048699,
+					["iniciar_hps"] = false,
 					["classe"] = "HUNTER",
 					["fight_component"] = true,
-					["total"] = 1686817.048699,
 					["end_time"] = 1488057018,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 5656962.048699,
+					["targets_absorbs"] = {
+					},
 					["nome"] = "Krøn-Nemesis",
 					["spec"] = 253,
 					["grupo"] = true,
-					["last_event"] = 0,
+					["delay"] = 0,
 					["heal_enemy"] = {
 					},
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[203963] = {
 								["c_amt"] = 0,
@@ -12624,208 +11719,200 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1686817,
 								["m_healed"] = 0,
 								["n_amt"] = 30,
+								["n_curado"] = 1686817,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["custom"] = 0,
 					["tipo"] = 2,
 					["on_hold"] = false,
 					["start_time"] = 1488056973,
-					["delay"] = 0,
 					["serial"] = "Player-3208-063DDB4D",
+					["last_event"] = 0,
 				}, -- [5]
 				{
 					["flag_original"] = 4370,
 					["totalabsorb"] = 0.032823,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Muhfeels-Elune"] = true,
+						["Silentnight-Darkspear"] = true,
+						["Jalarius-Sargeras"] = true,
 					},
 					["targets"] = {
+					},
+					["targets_absorbs"] = {
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["healing_from"] = {
-						["Muhfeels-Elune"] = true,
-						["Jalarius-Sargeras"] = true,
-						["Silentnight-Darkspear"] = true,
+					["targets_overheal"] = {
 					},
 					["classe"] = "PET",
 					["totalover"] = 0.032823,
 					["total_without_pet"] = 0.032823,
-					["boss_fight_component"] = true,
 					["totalover_without_pet"] = 0.032823,
 					["healing_taken"] = 408208.032823,
 					["end_time"] = 1488057546,
-					["total"] = 0.032823,
+					["delay"] = 0,
 					["ownerName"] = "Krøn-Nemesis",
 					["nome"] = "Loque <Krøn-Nemesis> <Krøn-Nemesis>",
-					["targets_absorbs"] = {
-					},
-					["heal_enemy_amt"] = 0,
-					["tipo"] = 2,
-					["heal_enemy"] = {
-					},
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
+					["heal_enemy_amt"] = 0,
+					["total"] = 0.032823,
+					["heal_enemy"] = {
+					},
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["on_hold"] = false,
 					["start_time"] = 1488057543,
 					["serial"] = "Pet-0-3023-1220-20708-32517-060145267A",
-					["delay"] = 0,
+					["last_event"] = 0,
 				}, -- [6]
 				{
 					["flag_original"] = 8466,
 					["totalabsorb"] = 0.040213,
 					["last_hps"] = 0,
+					["targets_overheal"] = {
+					},
+					["targets"] = {
+					},
+					["tipo"] = 2,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
 					["healing_from"] = {
 						["Muhfeels-Elune"] = true,
 						["Jalarius-Sargeras"] = true,
 					},
-					["targets"] = {
-					},
-					["pets"] = {
-					},
-					["totalover_without_pet"] = 0.040213,
-					["targets_overheal"] = {
-					},
 					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.040213,
 					["total_without_pet"] = 0.040213,
-					["classe"] = "PET",
-					["iniciar_hps"] = false,
+					["totalover_without_pet"] = 0.040213,
 					["healing_taken"] = 36574.040213,
-					["end_time"] = 1488057643,
-					["nome"] = "Hati <Krøn-Nemesis> <Krøn-Nemesis>",
+					["total"] = 0.040213,
+					["serial"] = "Creature-0-3019-1477-27077-100324-000031F29E",
 					["ownerName"] = "Krøn-Nemesis",
 					["boss_fight_component"] = true,
 					["targets_absorbs"] = {
 					},
-					["total"] = 0.040213,
-					["delay"] = 0,
+					["classe"] = "PET",
+					["end_time"] = 1488057643,
 					["heal_enemy"] = {
 					},
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488057640,
-					["serial"] = "Creature-0-3019-1477-27077-100324-000031F29E",
-					["last_event"] = 0,
+					["delay"] = 0,
+					["nome"] = "Hati <Krøn-Nemesis> <Krøn-Nemesis>",
 				}, -- [7]
 				{
 					["flag_original"] = 8466,
 					["totalabsorb"] = 0.034042,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
-					},
-					["targets"] = {
-					},
-					["boss_fight_component"] = true,
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
 					["healing_from"] = {
 						["Jalarius-Sargeras"] = true,
 					},
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 0.034042,
-					["total_without_pet"] = 0.034042,
-					["classe"] = "PET",
-					["totalover_without_pet"] = 0.034042,
-					["healing_taken"] = 4932.034042,
-					["end_time"] = 1488057643,
+					["targets"] = {
+					},
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 3,
 					},
+					["pets"] = {
+					},
+					["totalover_without_pet"] = 0.034042,
+					["targets_overheal"] = {
+					},
+					["healing_taken"] = 4932.034042,
+					["totalover"] = 0.034042,
+					["total_without_pet"] = 0.034042,
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["total"] = 0.034042,
+					["delay"] = 0,
 					["ownerName"] = "Krøn-Nemesis",
 					["nome"] = "Beast <Krøn-Nemesis> <Krøn-Nemesis>",
-					["total"] = 0.034042,
-					["last_event"] = 0,
-					["heal_enemy"] = {
-					},
 					["targets_absorbs"] = {
 					},
+					["classe"] = "PET",
+					["end_time"] = 1488057643,
+					["heal_enemy"] = {
+					},
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488057640,
 					["serial"] = "Creature-0-3019-1477-27077-113344-000031F2BE",
-					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [8]
 				{
 					["flag_original"] = 8466,
 					["totalabsorb"] = 0.030207,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
+					["healing_from"] = {
+						["Jalarius-Sargeras"] = true,
 					},
 					["targets"] = {
 					},
-					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
-					["healing_from"] = {
-						["Jalarius-Sargeras"] = true,
+					["totalover_without_pet"] = 0.030207,
+					["targets_overheal"] = {
 					},
 					["classe"] = "PET",
 					["totalover"] = 0.030207,
 					["total_without_pet"] = 0.030207,
-					["heal_enemy_amt"] = 0,
-					["totalover_without_pet"] = 0.030207,
+					["iniciar_hps"] = false,
 					["healing_taken"] = 9447.030207,
-					["total"] = 0.030207,
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
-					},
+					["end_time"] = 1488058820,
+					["delay"] = 0,
 					["ownerName"] = "Silentnight-Darkspear",
 					["nome"] = "Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>",
-					["end_time"] = 1488058820,
-					["serial"] = "Creature-0-3019-1477-27077-19668-000031F307",
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
+					},
+					["heal_enemy_amt"] = 0,
+					["total"] = 0.030207,
 					["heal_enemy"] = {
 					},
 					["targets_absorbs"] = {
 					},
 					["custom"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 					["on_hold"] = false,
 					["start_time"] = 1488058817,
-					["delay"] = 0,
-					["tipo"] = 2,
+					["serial"] = "Creature-0-3019-1477-27077-19668-000031F307",
+					["boss_fight_component"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 1298,
 					["totalabsorb"] = 0.102449,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
-						["Loque <Krøn-Nemesis>"] = 167331,
-						["Hati <Krøn-Nemesis>"] = 436578,
-						["Jalarius-Sargeras"] = 5873227,
-						["Beast <Krøn-Nemesis>"] = 352625,
-						["Raffe"] = 5103722,
-						["Krøn-Nemesis"] = 1110989,
-						["Bloodstalker <Raffe>"] = 793117,
-						["Tinkelbell-Shu'halo"] = 2043632,
-						["Shadowfiend <Silentnight-Darkspear>"] = 543831,
-						["Kaldorath"] = 14931901,
-						["Silentnight-Darkspear"] = 4747187,
+					["healing_from"] = {
+						["Silentnight-Darkspear"] = true,
+						["Jalarius-Sargeras"] = true,
 					},
 					["targets"] = {
 						["Loque <Krøn-Nemesis>"] = 277785,
@@ -12834,48 +11921,37 @@ _detalhes_database = {
 						["Beast <Krøn-Nemesis>"] = 8438,
 						["Raffe"] = 6198159,
 						["Krøn-Nemesis"] = 2349860,
-						["Tinkelbell-Shu'halo"] = 922381,
+						["Silentnight-Darkspear"] = 3062396,
 						["Shadowfiend <Silentnight-Darkspear>"] = 13125,
 						["Kaldorath"] = 26976445,
-						["Silentnight-Darkspear"] = 3062396,
+						["Tinkelbell-Shu'halo"] = 922381,
 					},
+					["tipo"] = 2,
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["targets_overheal"] = {
+						["Loque <Krøn-Nemesis>"] = 167331,
+						["Hati <Krøn-Nemesis>"] = 436578,
+						["Jalarius-Sargeras"] = 5873227,
+						["Beast <Krøn-Nemesis>"] = 352625,
+						["Raffe"] = 5103722,
+						["Krøn-Nemesis"] = 1110989,
+						["Bloodstalker <Raffe>"] = 793117,
+						["Silentnight-Darkspear"] = 4747187,
+						["Shadowfiend <Silentnight-Darkspear>"] = 543831,
+						["Kaldorath"] = 14931901,
+						["Tinkelbell-Shu'halo"] = 2043632,
+					},
+					["classe"] = "DRUID",
+					["totalover"] = 36104140.102449,
+					["total_without_pet"] = 53057562.102449,
+					["totalover_without_pet"] = 0.102449,
+					["healing_taken"] = 16190545.102449,
+					["heal_enemy_amt"] = 0,
+					["end_time"] = 1488057389,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
-							[157982] = {
-								["c_amt"] = 6,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Jalarius-Sargeras"] = 121755,
-									["Shadowfiend <Silentnight-Darkspear>"] = 260005,
-									["Silentnight-Darkspear"] = 86993,
-									["Kaldorath"] = 59914,
-								},
-								["n_max"] = 76354,
-								["targets"] = {
-									["Krøn-Nemesis"] = 358803,
-									["Jalarius-Sargeras"] = 296854,
-									["Shadowfiend <Silentnight-Darkspear>"] = 0,
-									["Silentnight-Darkspear"] = 331614,
-									["Kaldorath"] = 398210,
-								},
-								["n_min"] = 0,
-								["counter"] = 25,
-								["overheal"] = 528667,
-								["total"] = 1385481,
-								["c_max"] = 129070,
-								["id"] = 157982,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 607478,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 778003,
-								["m_healed"] = 0,
-								["n_amt"] = 19,
-								["absorbed"] = 0,
-							},
 							[203963] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
@@ -12896,10 +11972,38 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 4154520,
 								["m_healed"] = 0,
 								["n_amt"] = 30,
+								["n_curado"] = 4154520,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[18562] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 169716,
+								},
+								["n_max"] = 236608,
+								["targets"] = {
+									["Kaldorath"] = 1167105,
+									["Jalarius-Sargeras"] = 764914,
+								},
+								["n_min"] = 0,
+								["counter"] = 10,
+								["overheal"] = 169716,
+								["total"] = 1932019,
+								["c_max"] = 0,
+								["id"] = 18562,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 10,
+								["n_curado"] = 1932019,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[81269] = {
@@ -12912,10 +12016,10 @@ _detalhes_database = {
 									["Raffe"] = 1750228,
 									["Krøn-Nemesis"] = 233618,
 									["Bloodstalker <Raffe>"] = 366529,
-									["Tinkelbell-Shu'halo"] = 211445,
+									["Kaldorath"] = 1379500,
 									["Shadowfiend <Silentnight-Darkspear>"] = 95554,
 									["Silentnight-Darkspear"] = 1228807,
-									["Kaldorath"] = 1379500,
+									["Tinkelbell-Shu'halo"] = 211445,
 								},
 								["n_max"] = 18516,
 								["targets"] = {
@@ -12926,10 +12030,10 @@ _detalhes_database = {
 									["Raffe"] = 1905098,
 									["Krøn-Nemesis"] = 105697,
 									["Bloodstalker <Raffe>"] = 0,
-									["Tinkelbell-Shu'halo"] = 97427,
+									["Silentnight-Darkspear"] = 621307,
 									["Shadowfiend <Silentnight-Darkspear>"] = 0,
 									["Kaldorath"] = 2684507,
-									["Silentnight-Darkspear"] = 621307,
+									["Tinkelbell-Shu'halo"] = 97427,
 								},
 								["n_min"] = 0,
 								["counter"] = 973,
@@ -12942,10 +12046,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 1999212,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 4636062,
 								["m_healed"] = 0,
 								["n_amt"] = 780,
+								["n_curado"] = 4636062,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[48503] = {
@@ -12956,8 +12060,8 @@ _detalhes_database = {
 								},
 								["n_max"] = 67148,
 								["targets"] = {
-									["Jalarius-Sargeras"] = 59098,
 									["Kaldorath"] = 1145091,
+									["Jalarius-Sargeras"] = 59098,
 								},
 								["n_min"] = 0,
 								["counter"] = 21,
@@ -12970,10 +12074,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1204189,
 								["m_healed"] = 0,
 								["n_amt"] = 21,
+								["n_curado"] = 1204189,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[145110] = {
@@ -12982,18 +12086,18 @@ _detalhes_database = {
 								["targets_overheal"] = {
 									["Raffe"] = 38346,
 									["Krøn-Nemesis"] = 21675,
-									["Silentnight-Darkspear"] = 50137,
-									["Tinkelbell-Shu'halo"] = 33956,
 									["Kaldorath"] = 124078,
+									["Tinkelbell-Shu'halo"] = 33956,
+									["Silentnight-Darkspear"] = 50137,
 								},
 								["n_max"] = 28467,
 								["targets"] = {
 									["Loque <Krøn-Nemesis>"] = 28467,
 									["Raffe"] = 471207,
 									["Krøn-Nemesis"] = 374011,
+									["Silentnight-Darkspear"] = 220299,
 									["Tinkelbell-Shu'halo"] = 136844,
 									["Kaldorath"] = 1319199,
-									["Silentnight-Darkspear"] = 220299,
 								},
 								["n_min"] = 0,
 								["counter"] = 100,
@@ -13006,10 +12110,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 2550027,
 								["m_healed"] = 0,
 								["n_amt"] = 100,
+								["n_curado"] = 2550027,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[155777] = {
@@ -13019,18 +12123,18 @@ _detalhes_database = {
 									["Raffe"] = 434705,
 									["Krøn-Nemesis"] = 24056,
 									["Jalarius-Sargeras"] = 425502,
+									["Silentnight-Darkspear"] = 206766,
 									["Tinkelbell-Shu'halo"] = 65858,
 									["Kaldorath"] = 2995458,
-									["Silentnight-Darkspear"] = 206766,
 								},
 								["n_max"] = 20128,
 								["targets"] = {
 									["Raffe"] = 656148,
 									["Krøn-Nemesis"] = 95139,
 									["Jalarius-Sargeras"] = 1015641,
+									["Silentnight-Darkspear"] = 153490,
 									["Tinkelbell-Shu'halo"] = 83348,
 									["Kaldorath"] = 4846898,
-									["Silentnight-Darkspear"] = 153490,
 								},
 								["n_min"] = 0,
 								["counter"] = 639,
@@ -13043,25 +12147,25 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 2426387,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 4424277,
 								["m_healed"] = 0,
 								["n_amt"] = 500,
+								["n_curado"] = 4424277,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[200389] = {
 								["c_amt"] = 13,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Jalarius-Sargeras"] = 39632,
 									["Kaldorath"] = 43735,
+									["Jalarius-Sargeras"] = 39632,
 								},
 								["n_max"] = 20370,
 								["targets"] = {
-									["Kaldorath"] = 536203,
+									["Jalarius-Sargeras"] = 313734,
 									["Raffe"] = 34921,
 									["Krøn-Nemesis"] = 110204,
-									["Jalarius-Sargeras"] = 313734,
+									["Kaldorath"] = 536203,
 								},
 								["n_min"] = 0,
 								["counter"] = 58,
@@ -13074,216 +12178,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 398852,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 596210,
 								["m_healed"] = 0,
 								["n_amt"] = 45,
-								["absorbed"] = 0,
-							},
-							[33763] = {
-								["c_amt"] = 69,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Kaldorath"] = 825728,
-								},
-								["n_max"] = 6973,
-								["targets"] = {
-									["Raffe"] = 15907,
-									["Kaldorath"] = 1023263,
-								},
-								["n_min"] = 0,
-								["counter"] = 272,
-								["overheal"] = 825728,
-								["total"] = 1039170,
-								["c_max"] = 13621,
-								["id"] = 33763,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 412670,
-								["m_amt"] = 0,
+								["n_curado"] = 596210,
 								["c_min"] = 0,
-								["n_curado"] = 626500,
-								["m_healed"] = 0,
-								["n_amt"] = 203,
-								["absorbed"] = 0,
-							},
-							[774] = {
-								["c_amt"] = 146,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Raffe"] = 557355,
-									["Krøn-Nemesis"] = 73733,
-									["Jalarius-Sargeras"] = 507830,
-									["Tinkelbell-Shu'halo"] = 79017,
-									["Kaldorath"] = 3300452,
-									["Silentnight-Darkspear"] = 118141,
-								},
-								["n_max"] = 20127,
-								["targets"] = {
-									["Raffe"] = 855095,
-									["Krøn-Nemesis"] = 146116,
-									["Jalarius-Sargeras"] = 1283237,
-									["Tinkelbell-Shu'halo"] = 112042,
-									["Kaldorath"] = 4814295,
-									["Silentnight-Darkspear"] = 252893,
-								},
-								["n_min"] = 0,
-								["counter"] = 716,
-								["overheal"] = 4636528,
-								["total"] = 7463678,
-								["c_max"] = 39365,
-								["id"] = 774,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 2425696,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 5037982,
-								["m_healed"] = 0,
-								["n_amt"] = 570,
-								["absorbed"] = 0,
-							},
-							[189800] = {
-								["c_amt"] = 48,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Loque <Krøn-Nemesis>"] = 31517,
-									["Hati <Krøn-Nemesis>"] = 112187,
-									["Jalarius-Sargeras"] = 641441,
-									["Beast <Krøn-Nemesis>"] = 140233,
-									["Raffe"] = 556950,
-									["Krøn-Nemesis"] = 188480,
-									["Bloodstalker <Raffe>"] = 154257,
-									["Tinkelbell-Shu'halo"] = 415571,
-									["Shadowfiend <Silentnight-Darkspear>"] = 56094,
-									["Kaldorath"] = 549125,
-									["Silentnight-Darkspear"] = 670249,
-								},
-								["n_max"] = 25271,
-								["targets"] = {
-									["Loque <Krøn-Nemesis>"] = 69451,
-									["Hati <Krøn-Nemesis>"] = 9816,
-									["Jalarius-Sargeras"] = 483767,
-									["Beast <Krøn-Nemesis>"] = 0,
-									["Raffe"] = 464913,
-									["Krøn-Nemesis"] = 222127,
-									["Bloodstalker <Raffe>"] = 0,
-									["Tinkelbell-Shu'halo"] = 71216,
-									["Shadowfiend <Silentnight-Darkspear>"] = 0,
-									["Silentnight-Darkspear"] = 338561,
-									["Kaldorath"] = 903977,
-								},
-								["n_min"] = 0,
-								["counter"] = 312,
-								["overheal"] = 3516104,
-								["total"] = 2563828,
-								["c_max"] = 44446,
-								["id"] = 189800,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 766339,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1797489,
-								["m_healed"] = 0,
-								["n_amt"] = 264,
-								["absorbed"] = 0,
-							},
-							[8936] = {
-								["c_amt"] = 90,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Jalarius-Sargeras"] = 218795,
-									["Kaldorath"] = 1635779,
-								},
-								["n_max"] = 77279,
-								["targets"] = {
-									["Raffe"] = 65743,
-									["Jalarius-Sargeras"] = 704290,
-									["Kaldorath"] = 3088658,
-								},
-								["n_min"] = 0,
-								["counter"] = 321,
-								["overheal"] = 1854574,
-								["total"] = 3858691,
-								["c_max"] = 154559,
-								["id"] = 8936,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 2672601,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1186090,
-								["m_healed"] = 0,
-								["n_amt"] = 231,
-								["absorbed"] = 0,
-							},
-							[145109] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Jalarius-Sargeras"] = 209284,
-								},
-								["n_max"] = 28467,
-								["targets"] = {
-									["Jalarius-Sargeras"] = 3434492,
-								},
-								["n_min"] = 0,
-								["counter"] = 128,
-								["overheal"] = 209284,
-								["total"] = 3434492,
-								["c_max"] = 0,
-								["id"] = 145109,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 3434492,
-								["m_healed"] = 0,
-								["n_amt"] = 128,
-								["absorbed"] = 0,
-							},
-							[189853] = {
-								["c_amt"] = 10,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Raffe"] = 102926,
-									["Krøn-Nemesis"] = 44038,
-									["Jalarius-Sargeras"] = 302768,
-									["Tinkelbell-Shu'halo"] = 47759,
-									["Kaldorath"] = 1251567,
-									["Silentnight-Darkspear"] = 54245,
-								},
-								["n_max"] = 63178,
-								["targets"] = {
-									["Raffe"] = 47759,
-									["Krøn-Nemesis"] = 0,
-									["Jalarius-Sargeras"] = 65340,
-									["Tinkelbell-Shu'halo"] = 0,
-									["Kaldorath"] = 791798,
-									["Silentnight-Darkspear"] = 41273,
-								},
-								["n_min"] = 0,
-								["counter"] = 43,
-								["overheal"] = 1803303,
-								["total"] = 946170,
-								["c_max"] = 116624,
-								["id"] = 189853,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 318277,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 627893,
-								["m_healed"] = 0,
-								["n_amt"] = 33,
 								["absorbed"] = 0,
 							},
 							[33778] = {
@@ -13307,38 +12205,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 110399,
 								["m_amt"] = 0,
-								["c_min"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 10,
 								["n_curado"] = 116466,
-								["m_healed"] = 0,
-								["n_amt"] = 10,
-								["absorbed"] = 0,
-							},
-							[18562] = {
-								["c_amt"] = 0,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Kaldorath"] = 169716,
-								},
-								["n_max"] = 236608,
-								["targets"] = {
-									["Jalarius-Sargeras"] = 764914,
-									["Kaldorath"] = 1167105,
-								},
-								["n_min"] = 0,
-								["counter"] = 10,
-								["overheal"] = 169716,
-								["total"] = 1932019,
-								["c_max"] = 0,
-								["id"] = 18562,
-								["targets_absorbs"] = {
-								},
-								["m_crit"] = 0,
-								["c_curado"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
-								["n_curado"] = 1932019,
-								["m_healed"] = 0,
-								["n_amt"] = 10,
 								["absorbed"] = 0,
 							},
 							[48438] = {
@@ -13352,10 +12222,10 @@ _detalhes_database = {
 									["Raffe"] = 1663212,
 									["Krøn-Nemesis"] = 525389,
 									["Bloodstalker <Raffe>"] = 272331,
-									["Tinkelbell-Shu'halo"] = 1190026,
+									["Silentnight-Darkspear"] = 2331849,
 									["Shadowfiend <Silentnight-Darkspear>"] = 132178,
 									["Kaldorath"] = 2014980,
-									["Silentnight-Darkspear"] = 2331849,
+									["Tinkelbell-Shu'halo"] = 1190026,
 								},
 								["n_max"] = 11768,
 								["targets"] = {
@@ -13366,10 +12236,10 @@ _detalhes_database = {
 									["Raffe"] = 1452161,
 									["Krøn-Nemesis"] = 883479,
 									["Bloodstalker <Raffe>"] = 0,
-									["Tinkelbell-Shu'halo"] = 327144,
+									["Silentnight-Darkspear"] = 878279,
 									["Shadowfiend <Silentnight-Darkspear>"] = 9447,
 									["Kaldorath"] = 2359014,
-									["Silentnight-Darkspear"] = 878279,
+									["Tinkelbell-Shu'halo"] = 327144,
 								},
 								["n_min"] = 0,
 								["counter"] = 2425,
@@ -13382,57 +12252,301 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 2663128,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 5154304,
 								["m_healed"] = 0,
 								["n_amt"] = 1952,
+								["n_curado"] = 5154304,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[189853] = {
+								["c_amt"] = 10,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Raffe"] = 102926,
+									["Krøn-Nemesis"] = 44038,
+									["Jalarius-Sargeras"] = 302768,
+									["Silentnight-Darkspear"] = 54245,
+									["Tinkelbell-Shu'halo"] = 47759,
+									["Kaldorath"] = 1251567,
+								},
+								["n_max"] = 63178,
+								["targets"] = {
+									["Raffe"] = 47759,
+									["Krøn-Nemesis"] = 0,
+									["Jalarius-Sargeras"] = 65340,
+									["Silentnight-Darkspear"] = 41273,
+									["Tinkelbell-Shu'halo"] = 0,
+									["Kaldorath"] = 791798,
+								},
+								["n_min"] = 0,
+								["counter"] = 43,
+								["overheal"] = 1803303,
+								["total"] = 946170,
+								["c_max"] = 116624,
+								["id"] = 189853,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 318277,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 33,
+								["n_curado"] = 627893,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[8936] = {
+								["c_amt"] = 90,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 1635779,
+									["Jalarius-Sargeras"] = 218795,
+								},
+								["n_max"] = 77279,
+								["targets"] = {
+									["Raffe"] = 65743,
+									["Kaldorath"] = 3088658,
+									["Jalarius-Sargeras"] = 704290,
+								},
+								["n_min"] = 0,
+								["counter"] = 321,
+								["overheal"] = 1854574,
+								["total"] = 3858691,
+								["c_max"] = 154559,
+								["id"] = 8936,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 2672601,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 231,
+								["n_curado"] = 1186090,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[145109] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Jalarius-Sargeras"] = 209284,
+								},
+								["n_max"] = 28467,
+								["targets"] = {
+									["Jalarius-Sargeras"] = 3434492,
+								},
+								["n_min"] = 0,
+								["counter"] = 128,
+								["overheal"] = 209284,
+								["total"] = 3434492,
+								["c_max"] = 0,
+								["id"] = 145109,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 128,
+								["n_curado"] = 3434492,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[774] = {
+								["c_amt"] = 146,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Raffe"] = 557355,
+									["Krøn-Nemesis"] = 73733,
+									["Jalarius-Sargeras"] = 507830,
+									["Silentnight-Darkspear"] = 118141,
+									["Tinkelbell-Shu'halo"] = 79017,
+									["Kaldorath"] = 3300452,
+								},
+								["n_max"] = 20127,
+								["targets"] = {
+									["Raffe"] = 855095,
+									["Krøn-Nemesis"] = 146116,
+									["Jalarius-Sargeras"] = 1283237,
+									["Silentnight-Darkspear"] = 252893,
+									["Tinkelbell-Shu'halo"] = 112042,
+									["Kaldorath"] = 4814295,
+								},
+								["n_min"] = 0,
+								["counter"] = 716,
+								["overheal"] = 4636528,
+								["total"] = 7463678,
+								["c_max"] = 39365,
+								["id"] = 774,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 2425696,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 570,
+								["n_curado"] = 5037982,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[33763] = {
+								["c_amt"] = 69,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 825728,
+								},
+								["n_max"] = 6973,
+								["targets"] = {
+									["Kaldorath"] = 1023263,
+									["Raffe"] = 15907,
+								},
+								["n_min"] = 0,
+								["counter"] = 272,
+								["overheal"] = 825728,
+								["total"] = 1039170,
+								["c_max"] = 13621,
+								["id"] = 33763,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 412670,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 203,
+								["n_curado"] = 626500,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[189800] = {
+								["c_amt"] = 48,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Loque <Krøn-Nemesis>"] = 31517,
+									["Hati <Krøn-Nemesis>"] = 112187,
+									["Jalarius-Sargeras"] = 641441,
+									["Beast <Krøn-Nemesis>"] = 140233,
+									["Raffe"] = 556950,
+									["Krøn-Nemesis"] = 188480,
+									["Bloodstalker <Raffe>"] = 154257,
+									["Silentnight-Darkspear"] = 670249,
+									["Shadowfiend <Silentnight-Darkspear>"] = 56094,
+									["Kaldorath"] = 549125,
+									["Tinkelbell-Shu'halo"] = 415571,
+								},
+								["n_max"] = 25271,
+								["targets"] = {
+									["Loque <Krøn-Nemesis>"] = 69451,
+									["Hati <Krøn-Nemesis>"] = 9816,
+									["Jalarius-Sargeras"] = 483767,
+									["Beast <Krøn-Nemesis>"] = 0,
+									["Raffe"] = 464913,
+									["Krøn-Nemesis"] = 222127,
+									["Bloodstalker <Raffe>"] = 0,
+									["Kaldorath"] = 903977,
+									["Shadowfiend <Silentnight-Darkspear>"] = 0,
+									["Silentnight-Darkspear"] = 338561,
+									["Tinkelbell-Shu'halo"] = 71216,
+								},
+								["n_min"] = 0,
+								["counter"] = 312,
+								["overheal"] = 3516104,
+								["total"] = 2563828,
+								["c_max"] = 44446,
+								["id"] = 189800,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 766339,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 264,
+								["n_curado"] = 1797489,
+								["c_min"] = 0,
+								["absorbed"] = 0,
+							},
+							[157982] = {
+								["c_amt"] = 6,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Kaldorath"] = 59914,
+									["Shadowfiend <Silentnight-Darkspear>"] = 260005,
+									["Silentnight-Darkspear"] = 86993,
+									["Jalarius-Sargeras"] = 121755,
+								},
+								["n_max"] = 76354,
+								["targets"] = {
+									["Krøn-Nemesis"] = 358803,
+									["Jalarius-Sargeras"] = 296854,
+									["Shadowfiend <Silentnight-Darkspear>"] = 0,
+									["Kaldorath"] = 398210,
+									["Silentnight-Darkspear"] = 331614,
+								},
+								["n_min"] = 0,
+								["counter"] = 25,
+								["overheal"] = 528667,
+								["total"] = 1385481,
+								["c_max"] = 129070,
+								["id"] = 157982,
+								["targets_absorbs"] = {
+								},
+								["m_crit"] = 0,
+								["c_curado"] = 607478,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
+								["n_amt"] = 19,
+								["n_curado"] = 778003,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["pets"] = {
-					},
-					["totalover_without_pet"] = 0.102449,
-					["healing_from"] = {
-						["Jalarius-Sargeras"] = true,
-						["Silentnight-Darkspear"] = true,
-					},
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 36104140.102449,
-					["total_without_pet"] = 53057562.102449,
-					["end_time"] = 1488057389,
-					["iniciar_hps"] = false,
-					["healing_taken"] = 16190545.102449,
 					["total"] = 53057562.102449,
-					["boss_fight_component"] = true,
-					["classe"] = "DRUID",
 					["nome"] = "Jalarius-Sargeras",
-					["spec"] = 105,
-					["grupo"] = true,
-					["last_event"] = 0,
-					["heal_enemy"] = {
-					},
 					["targets_absorbs"] = {
 					},
+					["grupo"] = true,
+					["delay"] = 0,
+					["heal_enemy"] = {
+					},
+					["boss_fight_component"] = true,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488056089,
 					["serial"] = "Player-76-094DC52B",
-					["delay"] = 0,
+					["spec"] = 105,
 				}, -- [10]
 				{
 					["flag_original"] = 1298,
 					["totalabsorb"] = 0.060921,
 					["last_hps"] = 0,
-					["targets_overheal"] = {
-						["Tinkelbell-Shu'halo"] = 1459583,
+					["healing_from"] = {
+						["Tinkelbell-Shu'halo"] = true,
+						["Jalarius-Sargeras"] = true,
+						["Silentnight-Darkspear"] = true,
 					},
 					["targets"] = {
 						["Tinkelbell-Shu'halo"] = 3121518,
 					},
+					["nome"] = "Tinkelbell-Shu'halo",
+					["pets"] = {
+					},
+					["totalover_without_pet"] = 0.060921,
+					["targets_overheal"] = {
+						["Tinkelbell-Shu'halo"] = 1459583,
+					},
+					["classe"] = "MAGE",
+					["totalover"] = 1459583.060921,
+					["total_without_pet"] = 1832911.060921,
+					["iniciar_hps"] = false,
+					["healing_taken"] = 2762545.060921,
+					["heal_enemy_amt"] = 0,
+					["end_time"] = 1488058016,
+					["tipo"] = 2,
+					["total"] = 1832911.060921,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[194316] = {
 								["c_amt"] = 0,
@@ -13455,10 +12569,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 14248,
 								["m_healed"] = 0,
 								["n_amt"] = 13,
+								["n_curado"] = 14248,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[235313] = {
@@ -13481,10 +12595,10 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 1578270,
 								["m_healed"] = 0,
 								["n_amt"] = 33,
+								["n_curado"] = 1578270,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[197996] = {
@@ -13508,45 +12622,27 @@ _detalhes_database = {
 								["m_crit"] = 0,
 								["c_curado"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
-								["n_curado"] = 240393,
 								["m_healed"] = 0,
 								["n_amt"] = 1,
+								["n_curado"] = 240393,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["pets"] = {
-					},
-					["totalover_without_pet"] = 0.060921,
-					["healing_from"] = {
-						["Tinkelbell-Shu'halo"] = true,
-						["Silentnight-Darkspear"] = true,
-						["Jalarius-Sargeras"] = true,
-					},
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 1459583.060921,
-					["total_without_pet"] = 1832911.060921,
-					["last_event"] = 0,
-					["iniciar_hps"] = false,
-					["healing_taken"] = 2762545.060921,
-					["end_time"] = 1488058016,
-					["boss_fight_component"] = true,
-					["classe"] = "MAGE",
-					["nome"] = "Tinkelbell-Shu'halo",
-					["spec"] = 63,
 					["grupo"] = true,
-					["total"] = 1832911.060921,
+					["delay"] = 0,
 					["heal_enemy"] = {
 					},
-					["targets_absorbs"] = {
-					},
+					["spec"] = 63,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1488057903,
 					["serial"] = "Player-47-07B3CA05",
-					["delay"] = 0,
+					["targets_absorbs"] = {
+					},
 				}, -- [11]
 			},
 		}, -- [2]
@@ -13555,7 +12651,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 19496.22838,
+					["resource"] = 34303.511691,
 					["targets"] = {
 					},
 					["pets"] = {
@@ -13563,21 +12659,21 @@ _detalhes_database = {
 					["powertype"] = 1,
 					["classe"] = "DEMONHUNTER",
 					["fight_component"] = true,
-					["total"] = 0.22838,
+					["total"] = 0.425667,
 					["nome"] = "Kaldorath",
 					["spec"] = 581,
 					["grupo"] = true,
-					["received"] = 0.22838,
+					["tipo"] = 3,
 					["resource_type"] = 17,
 					["last_event"] = 0,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
 					["isTank"] = true,
 					["serial"] = "Player-5-0A6AF472",
-					["tipo"] = 3,
+					["received"] = 0.425667,
 				}, -- [1]
 				{
 					["received"] = 0.121724,
@@ -13591,18 +12687,18 @@ _detalhes_database = {
 					["resource_type"] = 13,
 					["nome"] = "Silentnight-Darkspear",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["boss_fight_component"] = true,
 					["flag_original"] = 1298,
-					["tipo"] = 3,
-					["total"] = 0.121724,
-					["spec"] = 258,
-					["serial"] = "Player-120-07F62AFD",
 					["last_event"] = 0,
+					["tipo"] = 3,
+					["spec"] = 258,
+					["total"] = 0.121724,
+					["serial"] = "Player-120-07F62AFD",
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["received"] = 6895.148178,
@@ -13617,7 +12713,6 @@ _detalhes_database = {
 					["resource_type"] = 4,
 					["nome"] = "Raffe",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[98440] = {
 								["id"] = 98440,
@@ -13636,15 +12731,16 @@ _detalhes_database = {
 								["counter"] = 43,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["boss_fight_component"] = true,
 					["flag_original"] = 1298,
-					["tipo"] = 3,
-					["total"] = 6895.148178,
-					["spec"] = 261,
-					["serial"] = "Player-5-01F00707",
 					["last_event"] = 0,
+					["tipo"] = 3,
+					["spec"] = 261,
+					["total"] = 6895.148178,
+					["serial"] = "Player-5-01F00707",
+					["boss_fight_component"] = true,
 				}, -- [3]
 			},
 		}, -- [3]
@@ -13662,7 +12758,6 @@ _detalhes_database = {
 						["Kaldorath"] = 1,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							["Spring Blossoms"] = {
 								["uptime"] = 0,
@@ -13712,9 +12807,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[228128] = {
+							["Wild Growth"] = {
 								["uptime"] = 0,
-								["id"] = 228128,
+								["id"] = "Wild Growth",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -13722,12 +12817,12 @@ _detalhes_database = {
 							},
 							[774] = {
 								["uptime"] = 83,
-								["activedamt"] = 7,
+								["counter"] = 0,
 								["id"] = 774,
-								["actived_at"] = 4464171203,
+								["activedamt"] = 7,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 4464171203,
 							},
 							["Dungeon Preparation"] = {
 								["uptime"] = 0,
@@ -13747,21 +12842,21 @@ _detalhes_database = {
 							},
 							[16870] = {
 								["uptime"] = 49,
-								["activedamt"] = 6,
+								["counter"] = 0,
 								["id"] = 16870,
-								["actived_at"] = 1488057017,
+								["activedamt"] = 6,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488057017,
 							},
 							[48438] = {
 								["uptime"] = 36,
-								["activedamt"] = 7,
+								["counter"] = 0,
 								["id"] = 48438,
-								["actived_at"] = 2976114073,
+								["activedamt"] = 7,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 2976114073,
 							},
 							["Rejuvenation"] = {
 								["uptime"] = 0,
@@ -13771,9 +12866,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Wild Growth"] = {
+							[228128] = {
 								["uptime"] = 0,
-								["id"] = "Wild Growth",
+								["id"] = 228128,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -13788,9 +12883,9 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["boss_fight_component"] = true,
-					["nome"] = "Muhfeels-Elune",
 					["spec"] = 105,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -13798,18 +12893,19 @@ _detalhes_database = {
 						[768] = 1,
 						[48438] = 7,
 						[5185] = 1,
-						[18562] = 3,
-						[774] = 41,
 						[33763] = 10,
 						[145205] = 5,
 						[8936] = 7,
-					},
-					["buff_uptime_targets"] = {
+						[18562] = 3,
+						[774] = 41,
 					},
 					["tipo"] = 4,
+					["serial"] = "Player-67-0A8E0444",
+					["last_event"] = 0,
+					["buff_uptime_targets"] = {
+					},
 					["buff_uptime"] = 228,
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[102342] = {
 								["id"] = 102342,
@@ -13819,14 +12915,13 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["serial"] = "Player-67-0A8E0444",
-					["last_event"] = 0,
+					["nome"] = "Muhfeels-Elune",
 				}, -- [1]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[15407] = {
 								["uptime"] = 489,
@@ -13892,14 +12987,6 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[197996] = {
-								["uptime"] = 28,
-								["id"] = 197996,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[193743] = {
 								["uptime"] = 12,
 								["id"] = 193743,
@@ -13908,7 +12995,16 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[197996] = {
+								["uptime"] = 28,
+								["id"] = 197996,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
+						["tipo"] = 9,
 					},
 					["dispell"] = 2.001252,
 					["cooldowns_defensive"] = 3.015107,
@@ -13917,33 +13013,32 @@ _detalhes_database = {
 					},
 					["classe"] = "PRIEST",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[220543] = {
 								["id"] = 220543,
-								["interrompeu_oque"] = {
-									[192563] = 1,
-									[198959] = 1,
-								},
+								["counter"] = 2,
 								["targets"] = {
 									["Valarjar Runecarver"] = 1,
 									["Valarjar Purifier"] = 1,
 								},
-								["counter"] = 2,
+								["interrompeu_oque"] = {
+									[192563] = 1,
+									[198959] = 1,
+								},
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[586] = {
 								["uptime"] = 10,
-								["actived_at"] = 1488058289,
+								["counter"] = 0,
 								["id"] = 586,
 								["activedamt"] = 2,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488058289,
 							},
 							[202285] = {
 								["uptime"] = 2,
@@ -13955,12 +13050,12 @@ _detalhes_database = {
 							},
 							[17] = {
 								["uptime"] = 257,
-								["actived_at"] = 4464174757,
+								["counter"] = 0,
 								["id"] = 17,
 								["activedamt"] = 25,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 4464174757,
 							},
 							["Body and Soul"] = {
 								["uptime"] = 0,
@@ -13980,12 +13075,12 @@ _detalhes_database = {
 							},
 							[194249] = {
 								["uptime"] = 298,
-								["actived_at"] = 1488058647,
+								["counter"] = 0,
 								["id"] = 194249,
 								["activedamt"] = 16,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488058647,
 							},
 							["Shadowform"] = {
 								["uptime"] = 0,
@@ -13997,21 +13092,21 @@ _detalhes_database = {
 							},
 							[202879] = {
 								["uptime"] = 314,
-								["activedamt"] = 29,
+								["counter"] = 0,
 								["id"] = 202879,
-								["actived_at"] = 8928346781,
+								["activedamt"] = 29,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 8928346781,
 							},
 							[123254] = {
 								["uptime"] = 721,
-								["activedamt"] = 27,
+								["counter"] = 0,
 								["id"] = 123254,
-								["actived_at"] = 31249215528,
+								["activedamt"] = 27,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 31249215528,
 							},
 							[205065] = {
 								["uptime"] = 28,
@@ -14021,13 +13116,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Voidform"] = {
-								["uptime"] = 0,
-								["id"] = "Voidform",
-								["activedamt"] = 0,
+							[232698] = {
+								["uptime"] = 238,
+								["counter"] = 0,
+								["id"] = 232698,
+								["activedamt"] = 15,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 11904465426,
 							},
 							["Stormwind Champion"] = {
 								["uptime"] = 0,
@@ -14037,11 +13133,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[232698] = {
-								["uptime"] = 238,
-								["activedamt"] = 15,
-								["id"] = 232698,
-								["actived_at"] = 11904465426,
+							["Luck of the Draw"] = {
+								["uptime"] = 0,
+								["id"] = "Luck of the Draw",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -14062,13 +13157,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Odyn's Blessing"] = {
-								["uptime"] = 0,
-								["id"] = "Odyn's Blessing",
-								["activedamt"] = 0,
+							[15407] = {
+								["uptime"] = 485,
+								["counter"] = 0,
+								["id"] = 15407,
+								["activedamt"] = 155,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488057448,
 							},
 							["Fade"] = {
 								["uptime"] = 0,
@@ -14096,9 +13192,17 @@ _detalhes_database = {
 							},
 							[65081] = {
 								["uptime"] = 84,
-								["actived_at"] = 1488057226,
+								["counter"] = 0,
 								["id"] = 65081,
 								["activedamt"] = 29,
+								["targets"] = {
+								},
+								["actived_at"] = 1488057226,
+							},
+							["Power Word: Shield"] = {
+								["uptime"] = 0,
+								["id"] = "Power Word: Shield",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -14106,14 +13210,6 @@ _detalhes_database = {
 							["Mind Flay"] = {
 								["uptime"] = 0,
 								["id"] = "Mind Flay",
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Power Word: Shield"] = {
-								["uptime"] = 0,
-								["id"] = "Power Word: Shield",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -14127,24 +13223,24 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[15407] = {
-								["uptime"] = 485,
-								["actived_at"] = 1488057448,
-								["id"] = 15407,
-								["activedamt"] = 155,
+							["Odyn's Blessing"] = {
+								["uptime"] = 0,
+								["id"] = "Odyn's Blessing",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							["Luck of the Draw"] = {
+							["Voidform"] = {
 								["uptime"] = 0,
-								["id"] = "Luck of the Draw",
+								["id"] = "Voidform",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["interrompeu_oque"] = {
 						[192563] = 1,
@@ -14159,24 +13255,18 @@ _detalhes_database = {
 						["Valarjar Runecarver"] = 1,
 						["Valarjar Purifier"] = 1,
 					},
-					["interrupt_targets"] = {
-						["Valarjar Runecarver"] = 1,
-						["Valarjar Purifier"] = 1,
-					},
-					["boss_fight_component"] = true,
 					["serial"] = "Player-120-07F62AFD",
 					["cc_break_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[8092] = {
 								["cc_break_oque"] = {
 									[207685] = 1,
 								},
 								["id"] = 8092,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Valarjar Champion"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							[15407] = {
@@ -14184,10 +13274,10 @@ _detalhes_database = {
 									[207685] = 1,
 								},
 								["id"] = 15407,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Valarjar Thundercaller"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							[34914] = {
@@ -14196,7 +13286,6 @@ _detalhes_database = {
 									[122] = 2,
 								},
 								["id"] = 34914,
-								["cc_break"] = 5,
 								["targets"] = {
 									["Angerhoof Bull"] = 1,
 									["Storm Drake"] = 1,
@@ -14204,6 +13293,7 @@ _detalhes_database = {
 									["Valarjar Thundercaller"] = 1,
 									["Valarjar Trapper"] = 1,
 								},
+								["cc_break"] = 5,
 								["counter"] = 0,
 							},
 							[589] = {
@@ -14212,18 +13302,18 @@ _detalhes_database = {
 									[122] = 1,
 								},
 								["id"] = 589,
-								["cc_break"] = 2,
 								["targets"] = {
 									["Storm Drake"] = 1,
 									["Valarjar Trapper"] = 1,
 								},
+								["cc_break"] = 2,
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime"] = 2482,
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[15487] = {
 								["id"] = 15487,
@@ -14234,7 +13324,9 @@ _detalhes_database = {
 								["counter"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
+					["boss_fight_component"] = true,
 					["cooldowns_defensive_targets"] = {
 						["Silentnight-Darkspear"] = 3,
 					},
@@ -14243,35 +13335,37 @@ _detalhes_database = {
 						[198931] = 1,
 					},
 					["dispell_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[528] = {
-								["dispell"] = 1,
+								["targets"] = {
+									["Volynd Stormbringer"] = 1,
+								},
 								["id"] = 528,
 								["dispell_oque"] = {
 									[198745] = 1,
 								},
-								["targets"] = {
-									["Volynd Stormbringer"] = 1,
-								},
+								["dispell"] = 1,
 								["counter"] = 0,
 							},
 							[32592] = {
-								["dispell"] = 1,
+								["targets"] = {
+									["Valarjar Mystic"] = 1,
+								},
 								["id"] = 32592,
 								["dispell_oque"] = {
 									[198931] = 1,
 								},
-								["targets"] = {
-									["Valarjar Mystic"] = 1,
-								},
+								["dispell"] = 1,
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["dispell_targets"] = {
-						["Volynd Stormbringer"] = 1,
-						["Valarjar Mystic"] = 1,
+					["interrupt_targets"] = {
+						["Valarjar Runecarver"] = 1,
+						["Valarjar Purifier"] = 1,
+					},
+					["buff_uptime_targets"] = {
 					},
 					["cc_done"] = 2.019736,
 					["nome"] = "Silentnight-Darkspear",
@@ -14290,21 +13384,29 @@ _detalhes_database = {
 						[15487] = 2,
 						[15286] = 3,
 						[147193] = 323,
-						[197996] = 1,
-						[193743] = 2,
-						[528] = 5,
-						[34433] = 6,
-						[205369] = 15,
 						[34914] = 148,
+						[193743] = 2,
+						[34433] = 6,
+						[528] = 5,
+						[205369] = 15,
+						[197996] = 1,
 					},
 					["cc_break_oque"] = {
 						[207685] = 6,
 						[122] = 3,
 					},
-					["interrupt"] = 2.012079,
 					["tipo"] = 4,
+					["last_event"] = 0,
+					["interrupt"] = 2.012079,
+					["cc_break_targets"] = {
+						["Angerhoof Bull"] = 1,
+						["Valarjar Marksman"] = 1,
+						["Storm Drake"] = 2,
+						["Valarjar Trapper"] = 2,
+						["Valarjar Thundercaller"] = 2,
+						["Valarjar Champion"] = 1,
+					},
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[15286] = {
 								["id"] = 15286,
@@ -14314,32 +13416,25 @@ _detalhes_database = {
 								["counter"] = 3,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["cc_break_targets"] = {
-						["Angerhoof Bull"] = 1,
-						["Valarjar Marksman"] = 1,
-						["Storm Drake"] = 2,
-						["Valarjar Trapper"] = 2,
-						["Valarjar Thundercaller"] = 2,
-						["Valarjar Champion"] = 1,
+					["dispell_targets"] = {
+						["Volynd Stormbringer"] = 1,
+						["Valarjar Mystic"] = 1,
 					},
-					["buff_uptime_targets"] = {
-					},
-					["last_event"] = 0,
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[137619] = {
 								["uptime"] = 361,
-								["actived_at"] = 1488057208,
+								["counter"] = 0,
 								["id"] = 137619,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488057208,
 							},
 							[209786] = {
 								["uptime"] = 8,
@@ -14373,9 +13468,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[197996] = {
-								["uptime"] = 30,
-								["id"] = 197996,
+							[196958] = {
+								["uptime"] = 20,
+								["id"] = 196958,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -14397,44 +13492,99 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[196958] = {
-								["uptime"] = 20,
-								["id"] = 196958,
+							[197996] = {
+								["uptime"] = 30,
+								["id"] = 197996,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
+					},
+					["pets"] = {
 					},
 					["buff_uptime"] = 1030,
-					["pets"] = {
+					["cc_break"] = 10.035595,
+					["cc_break_spells"] = {
+						["_ActorTable"] = {
+							["DEBUFF"] = {
+								["cc_break_oque"] = {
+									[207685] = 1,
+									[122] = 1,
+								},
+								["id"] = "DEBUFF",
+								["targets"] = {
+									["Valarjar Champion"] = 1,
+									["Angerhoof Bull"] = 1,
+								},
+								["cc_break"] = 2,
+								["counter"] = 0,
+							},
+							[197835] = {
+								["cc_break_oque"] = {
+									[207685] = 6,
+								},
+								["id"] = 197835,
+								["targets"] = {
+									["Valarjar Runecarver"] = 1,
+									["Valarjar Mystic"] = 1,
+									["Valarjar Thundercaller"] = 2,
+									["Valarjar Champion"] = 2,
+								},
+								["cc_break"] = 6,
+								["counter"] = 0,
+							},
+							[195452] = {
+								["cc_break_oque"] = {
+									[207685] = 1,
+								},
+								["id"] = 195452,
+								["targets"] = {
+									["Valarjar Champion"] = 1,
+								},
+								["cc_break"] = 1,
+								["counter"] = 0,
+							},
+							[53] = {
+								["cc_break_oque"] = {
+									[207685] = 1,
+								},
+								["id"] = 53,
+								["targets"] = {
+									["Valarjar Trapper"] = 1,
+								},
+								["cc_break"] = 1,
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
 					},
 					["classe"] = "ROGUE",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[1766] = {
 								["id"] = 1766,
+								["counter"] = 5,
+								["targets"] = {
+									["Olmyr the Enlightened"] = 1,
+									["King Ranulf"] = 1,
+									["Valarjar Runecarver"] = 1,
+									["Valarjar Thundercaller"] = 1,
+									["King Tor"] = 1,
+								},
 								["interrompeu_oque"] = {
 									[198595] = 1,
 									[192288] = 1,
 									[198962] = 1,
 									[199726] = 2,
 								},
-								["targets"] = {
-									["Olmyr the Enlightened"] = 1,
-									["King Ranulf"] = 1,
-									["King Tor"] = 1,
-									["Valarjar Thundercaller"] = 1,
-									["Valarjar Runecarver"] = 1,
-								},
-								["counter"] = 5,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[202285] = {
 								["uptime"] = 4,
@@ -14454,21 +13604,21 @@ _detalhes_database = {
 							},
 							[121471] = {
 								["uptime"] = 135,
-								["actived_at"] = 1488057174,
+								["counter"] = 0,
 								["id"] = 121471,
 								["activedamt"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488057174,
 							},
 							[212283] = {
 								["uptime"] = 517,
-								["activedamt"] = 21,
+								["counter"] = 0,
 								["id"] = 212283,
-								["actived_at"] = 14880578765,
+								["activedamt"] = 21,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 14880578765,
 							},
 							[228128] = {
 								["uptime"] = 0,
@@ -14526,9 +13676,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Stealth"] = {
+							["Symbols of Death"] = {
 								["uptime"] = 0,
-								["id"] = "Stealth",
+								["id"] = "Symbols of Death",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -14544,26 +13694,17 @@ _detalhes_database = {
 							},
 							[1784] = {
 								["uptime"] = 56,
-								["actived_at"] = 1488057541,
+								["counter"] = 0,
 								["id"] = 1784,
 								["activedamt"] = 8,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[31665] = {
-								["uptime"] = 123,
 								["actived_at"] = 1488057541,
-								["id"] = 31665,
-								["activedamt"] = 12,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
-							[220901] = {
-								["uptime"] = 48,
-								["id"] = 220901,
-								["activedamt"] = 8,
+							["Luck of the Draw"] = {
+								["uptime"] = 0,
+								["id"] = "Luck of the Draw",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -14576,77 +13717,33 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Luck of the Draw"] = {
+							["Stealth"] = {
 								["uptime"] = 0,
-								["id"] = "Luck of the Draw",
+								["id"] = "Stealth",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							["Symbols of Death"] = {
-								["uptime"] = 0,
-								["id"] = "Symbols of Death",
-								["activedamt"] = 0,
+							[220901] = {
+								["uptime"] = 48,
+								["id"] = 220901,
+								["activedamt"] = 8,
 								["targets"] = {
 								},
 								["counter"] = 0,
+							},
+							[31665] = {
+								["uptime"] = 123,
+								["counter"] = 0,
+								["id"] = 31665,
+								["activedamt"] = 12,
+								["targets"] = {
+								},
+								["actived_at"] = 1488057541,
 							},
 						},
-					},
-					["cc_break_spells"] = {
 						["tipo"] = 9,
-						["_ActorTable"] = {
-							[53] = {
-								["cc_break_oque"] = {
-									[207685] = 1,
-								},
-								["id"] = 53,
-								["cc_break"] = 1,
-								["targets"] = {
-									["Valarjar Trapper"] = 1,
-								},
-								["counter"] = 0,
-							},
-							["DEBUFF"] = {
-								["cc_break_oque"] = {
-									[207685] = 1,
-									[122] = 1,
-								},
-								["id"] = "DEBUFF",
-								["cc_break"] = 2,
-								["targets"] = {
-									["Angerhoof Bull"] = 1,
-									["Valarjar Champion"] = 1,
-								},
-								["counter"] = 0,
-							},
-							[195452] = {
-								["cc_break_oque"] = {
-									[207685] = 1,
-								},
-								["id"] = 195452,
-								["cc_break"] = 1,
-								["targets"] = {
-									["Valarjar Champion"] = 1,
-								},
-								["counter"] = 0,
-							},
-							[197835] = {
-								["cc_break_oque"] = {
-									[207685] = 6,
-								},
-								["id"] = 197835,
-								["cc_break"] = 6,
-								["targets"] = {
-									["Valarjar Runecarver"] = 1,
-									["Valarjar Thundercaller"] = 2,
-									["Valarjar Mystic"] = 1,
-									["Valarjar Champion"] = 2,
-								},
-								["counter"] = 0,
-							},
-						},
 					},
 					["interrompeu_oque"] = {
 						[198595] = 1,
@@ -14654,20 +13751,14 @@ _detalhes_database = {
 						[198962] = 1,
 						[199726] = 2,
 					},
-					["boss_fight_component"] = true,
-					["debuff_uptime"] = 2031,
-					["cc_break"] = 10.035595,
-					["interrupt_targets"] = {
-						["Olmyr the Enlightened"] = 1,
-						["King Ranulf"] = 1,
-						["King Tor"] = 1,
-						["Valarjar Thundercaller"] = 1,
-						["Valarjar Runecarver"] = 1,
+					["buff_uptime_targets"] = {
 					},
+					["debuff_uptime"] = 2031,
+					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["nome"] = "Raffe",
 					["spec"] = 261,
 					["grupo"] = true,
-					["interrupt"] = 5.013073,
 					["spell_cast"] = {
 						[137619] = 8,
 						[121471] = 10,
@@ -14676,45 +13767,65 @@ _detalhes_database = {
 						[195125] = 4,
 						[185438] = 30,
 						[196819] = 68,
-						[197996] = 1,
+						[121473] = 79,
 						[202287] = 1,
-						[193743] = 2,
-						[185313] = 4,
-						[185311] = 10,
-						[121474] = 74,
-						[212743] = 59,
-						[209782] = 8,
-						[53] = 384,
-						[197835] = 61,
 						[195452] = 100,
 						[2983] = 6,
-						[121473] = 79,
+						[193743] = 2,
+						[121474] = 74,
+						[53] = 384,
+						[209782] = 8,
 						[1784] = 8,
+						[197835] = 61,
+						[185311] = 10,
+						[212743] = 59,
+						[185313] = 4,
+						[197996] = 1,
 					},
 					["cc_break_oque"] = {
 						[207685] = 9,
 						[122] = 1,
 					},
-					["debuff_uptime_targets"] = {
+					["interrupt_targets"] = {
+						["Olmyr the Enlightened"] = 1,
+						["King Ranulf"] = 1,
+						["Valarjar Runecarver"] = 1,
+						["Valarjar Thundercaller"] = 1,
+						["King Tor"] = 1,
 					},
 					["last_event"] = 0,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["cc_break_targets"] = {
-						["Angerhoof Bull"] = 1,
-						["Valarjar Thundercaller"] = 2,
-						["Valarjar Runecarver"] = 1,
 						["Valarjar Trapper"] = 1,
 						["Valarjar Mystic"] = 1,
+						["Valarjar Runecarver"] = 1,
+						["Angerhoof Bull"] = 1,
+						["Valarjar Thundercaller"] = 2,
 						["Valarjar Champion"] = 4,
 					},
 					["serial"] = "Player-5-01F00707",
-					["tipo"] = 4,
+					["interrupt"] = 5.013073,
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
-					["debuff_uptime_spells"] = {
+					["cc_break_spells"] = {
+						["_ActorTable"] = {
+							[193455] = {
+								["cc_break_oque"] = {
+									[207685] = 1,
+								},
+								["id"] = 193455,
+								["targets"] = {
+									["Valarjar Mystic"] = 1,
+								},
+								["cc_break"] = 1,
+								["counter"] = 0,
+							},
+						},
 						["tipo"] = 9,
+					},
+					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[117526] = {
 								["uptime"] = 29,
@@ -14724,9 +13835,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[187131] = {
-								["uptime"] = 36,
-								["id"] = 187131,
+							[117405] = {
+								["uptime"] = 44,
+								["id"] = 117405,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -14740,9 +13851,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[117405] = {
-								["uptime"] = 44,
-								["id"] = 117405,
+							[185365] = {
+								["uptime"] = 7,
+								["id"] = 185365,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -14772,88 +13883,60 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[185365] = {
-								["uptime"] = 7,
-								["id"] = 185365,
+							[187131] = {
+								["uptime"] = 36,
+								["id"] = 187131,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
-					},
-					["cc_done_targets"] = {
-						["Valarjar Shieldmaiden"] = 5,
-						["Valarjar Aspirant"] = 1,
-						["Valarjar Mystic"] = 2,
-						["Valarjar Runecarver"] = 1,
-						["Storm Drake"] = 1,
-						["Valarjar Thundercaller"] = 6,
-						["Valarjar Champion"] = 6,
-					},
-					["interrupt_targets"] = {
-						["Valarjar Mystic"] = 1,
-						["Valarjar Runecarver"] = 1,
-					},
-					["cc_break_spells"] = {
 						["tipo"] = 9,
-						["_ActorTable"] = {
-							[193455] = {
-								["cc_break_oque"] = {
-									[207685] = 1,
-								},
-								["id"] = 193455,
-								["cc_break"] = 1,
-								["targets"] = {
-									["Valarjar Mystic"] = 1,
-								},
-								["counter"] = 0,
-							},
-						},
 					},
-					["buff_uptime"] = 573,
+					["nome"] = "Krøn-Nemesis",
 					["pets"] = {
 						"Loque <Krøn-Nemesis> <Krøn-Nemesis>", -- [1]
 						"Beast <Krøn-Nemesis> <Krøn-Nemesis>", -- [2]
 					},
+					["buff_uptime"] = 573,
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[117405] = {
 								["id"] = 117405,
 								["targets"] = {
 									["Valarjar Shieldmaiden"] = 5,
 									["Valarjar Aspirant"] = 1,
-									["Valarjar Mystic"] = 2,
+									["Valarjar Thundercaller"] = 6,
 									["Valarjar Runecarver"] = 1,
 									["Storm Drake"] = 1,
-									["Valarjar Thundercaller"] = 6,
+									["Valarjar Mystic"] = 2,
 									["Valarjar Champion"] = 6,
 								},
 								["counter"] = 22,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "HUNTER",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[147362] = {
 								["id"] = 147362,
-								["interrompeu_oque"] = {
-									[198934] = 1,
-									[198959] = 1,
-								},
+								["counter"] = 2,
 								["targets"] = {
 									["Valarjar Mystic"] = 1,
 									["Valarjar Runecarver"] = 1,
 								},
-								["counter"] = 2,
+								["interrompeu_oque"] = {
+									[198934] = 1,
+									[198959] = 1,
+								},
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							["Whispers of Insanity"] = {
 								["uptime"] = 0,
@@ -14873,21 +13956,21 @@ _detalhes_database = {
 							},
 							[120694] = {
 								["uptime"] = 278,
-								["actived_at"] = 7440286466,
+								["counter"] = 0,
 								["id"] = 120694,
 								["activedamt"] = 45,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 7440286466,
 							},
 							[19574] = {
 								["uptime"] = 135,
-								["activedamt"] = 11,
+								["counter"] = 0,
 								["id"] = 19574,
-								["actived_at"] = 2976114187,
+								["activedamt"] = 11,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 2976114187,
 							},
 							[194594] = {
 								["uptime"] = 23,
@@ -14969,10 +14052,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[177172] = {
-								["uptime"] = 60,
-								["id"] = 177172,
-								["activedamt"] = 6,
+							[228128] = {
+								["uptime"] = 0,
+								["id"] = 228128,
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -14993,17 +14076,19 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[228128] = {
-								["uptime"] = 0,
-								["id"] = 228128,
-								["activedamt"] = 0,
+							[177172] = {
+								["uptime"] = 60,
+								["id"] = 177172,
+								["activedamt"] = 6,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["cc_break"] = 1.006658,
+					["debuff_uptime_targets"] = {
+					},
 					["interrompeu_oque"] = {
 						[198934] = 1,
 						[198959] = 1,
@@ -15012,10 +14097,14 @@ _detalhes_database = {
 					["debuff_uptime"] = 862,
 					["interrupt"] = 2.016496,
 					["cc_done"] = 22.037034,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
+					["interrupt_targets"] = {
+						["Valarjar Mystic"] = 1,
+						["Valarjar Runecarver"] = 1,
+					},
+					["cc_break"] = 1.006658,
 					["spec"] = 253,
-					["grupo"] = true,
 					["spell_cast"] = {
 						[34026] = 61,
 						[198670] = 2,
@@ -15025,70 +14114,54 @@ _detalhes_database = {
 						[120679] = 45,
 						[2643] = 13,
 						[109248] = 6,
-						[117526] = 12,
+						[147362] = 3,
 						[117405] = 30,
 						[781] = 3,
 						[204147] = 1,
 						[187698] = 1,
 						[193530] = 2,
 						[204477] = 1,
-						[212431] = 1,
+						[5116] = 3,
 						[185358] = 15,
 						[224577] = 45,
 						[186387] = 1,
-						[5116] = 3,
+						[212431] = 1,
 						[185901] = 5,
-						[147362] = 3,
+						[117526] = 12,
 					},
 					["cc_break_oque"] = {
 						[207685] = 1,
 					},
-					["buff_uptime_targets"] = {
-					},
+					["last_event"] = 0,
 					["tipo"] = 4,
-					["nome"] = "Krøn-Nemesis",
+					["grupo"] = true,
 					["cc_break_targets"] = {
 						["Valarjar Mystic"] = 1,
 					},
 					["serial"] = "Player-3208-063DDB4D",
-					["last_event"] = 0,
+					["cc_done_targets"] = {
+						["Valarjar Shieldmaiden"] = 5,
+						["Valarjar Aspirant"] = 1,
+						["Valarjar Thundercaller"] = 6,
+						["Valarjar Runecarver"] = 1,
+						["Storm Drake"] = 1,
+						["Valarjar Mystic"] = 2,
+						["Valarjar Champion"] = 6,
+					},
 				}, -- [4]
 				{
 					["flag_original"] = 1047,
 					["cc_break_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[204598] = {
 								["cc_break_oque"] = {
 									[207685] = 1,
 								},
 								["id"] = 204598,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Valarjar Thundercaller"] = 1,
 								},
-								["counter"] = 0,
-							},
-							[214743] = {
-								["cc_break_oque"] = {
-									[122] = 1,
-								},
-								["id"] = 214743,
 								["cc_break"] = 1,
-								["targets"] = {
-									["Ebonclaw Worg"] = 1,
-								},
-								["counter"] = 0,
-							},
-							[207407] = {
-								["cc_break_oque"] = {
-									[122] = 1,
-								},
-								["id"] = 207407,
-								["cc_break"] = 1,
-								["targets"] = {
-									["Steeljaw Grizzly"] = 1,
-								},
 								["counter"] = 0,
 							},
 							[228478] = {
@@ -15098,14 +14171,36 @@ _detalhes_database = {
 									[31661] = 2,
 								},
 								["id"] = 228478,
-								["cc_break"] = 17,
 								["targets"] = {
 									["Steeljaw Grizzly"] = 3,
 									["Valarjar Runecarver"] = 1,
-									["Ebonclaw Worg"] = 8,
 									["Valarjar Thundercaller"] = 1,
+									["Ebonclaw Worg"] = 8,
 									["Valarjar Champion"] = 4,
 								},
+								["cc_break"] = 17,
+								["counter"] = 0,
+							},
+							[207407] = {
+								["cc_break_oque"] = {
+									[122] = 1,
+								},
+								["id"] = 207407,
+								["targets"] = {
+									["Steeljaw Grizzly"] = 1,
+								},
+								["cc_break"] = 1,
+								["counter"] = 0,
+							},
+							[203782] = {
+								["cc_break_oque"] = {
+									[207685] = 1,
+								},
+								["id"] = 203782,
+								["targets"] = {
+									["Valarjar Marksman"] = 1,
+								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							[202761] = {
@@ -15113,10 +14208,10 @@ _detalhes_database = {
 									[207685] = 1,
 								},
 								["id"] = 202761,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Angerhoof Bull"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							["DEBUFF"] = {
@@ -15126,12 +14221,12 @@ _detalhes_database = {
 									[31661] = 1,
 								},
 								["id"] = "DEBUFF",
-								["cc_break"] = 4,
 								["targets"] = {
 									["Valarjar Runecarver"] = 1,
 									["Ebonclaw Worg"] = 2,
 									["Steeljaw Grizzly"] = 1,
 								},
+								["cc_break"] = 4,
 								["counter"] = 0,
 							},
 							[235964] = {
@@ -15139,40 +14234,41 @@ _detalhes_database = {
 									[207685] = 1,
 								},
 								["id"] = 235964,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Valarjar Champion"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
-							[203782] = {
+							[214743] = {
 								["cc_break_oque"] = {
-									[207685] = 1,
+									[122] = 1,
 								},
-								["id"] = 203782,
-								["cc_break"] = 1,
+								["id"] = 214743,
 								["targets"] = {
-									["Valarjar Marksman"] = 1,
+									["Ebonclaw Worg"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 						},
-					},
-					["debuff_uptime_targets"] = {
-					},
-					["cc_break_targets"] = {
-						["Steeljaw Grizzly"] = 5,
-						["Angerhoof Bull"] = 1,
-						["Ebonclaw Worg"] = 11,
-						["Valarjar Runecarver"] = 2,
-						["Valarjar Marksman"] = 1,
-						["Valarjar Thundercaller"] = 2,
-						["Valarjar Champion"] = 5,
-					},
-					["buff_uptime"] = 3822,
-					["debuff_uptime_spells"] = {
 						["tipo"] = 9,
+					},
+					["pets"] = {
+						"Felbound Infernal <Kaldorath> <Kaldorath>", -- [1]
+						"Flaming Punch <Kaldorath> <Kaldorath>", -- [2]
+						"Kayn Sunfury <Kaldorath> <Kaldorath>", -- [3]
+					},
+					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
+							[185245] = {
+								["uptime"] = 9,
+								["id"] = 185245,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[207744] = {
 								["uptime"] = 16,
 								["id"] = 207744,
@@ -15183,57 +14279,16 @@ _detalhes_database = {
 							},
 							[80354] = {
 								["uptime"] = 27,
-								["actived_at"] = 1488059534,
+								["counter"] = 0,
 								["id"] = 80354,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488059534,
 							},
 							[204598] = {
 								["uptime"] = 299,
 								["id"] = 204598,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[198813] = {
-								["uptime"] = 3,
-								["id"] = 198813,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[207407] = {
-								["uptime"] = 131,
-								["id"] = 207407,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[216776] = {
-								["uptime"] = 20,
-								["id"] = 216776,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[202761] = {
-								["uptime"] = 1190,
-								["actived_at"] = 1488057183,
-								["id"] = 202761,
-								["activedamt"] = -2,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[179057] = {
-								["uptime"] = 20,
-								["id"] = 179057,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -15247,17 +14302,25 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[197996] = {
-								["uptime"] = 30,
-								["id"] = 197996,
+							[207407] = {
+								["uptime"] = 131,
+								["id"] = 207407,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[193765] = {
+							[193743] = {
 								["uptime"] = 24,
-								["id"] = 193765,
+								["id"] = 193743,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[200166] = {
+								["uptime"] = 15,
+								["id"] = 200166,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -15271,22 +14334,6 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[193743] = {
-								["uptime"] = 24,
-								["id"] = 193743,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[185245] = {
-								["uptime"] = 9,
-								["id"] = 185245,
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[204490] = {
 								["uptime"] = 30,
 								["id"] = 204490,
@@ -15295,57 +14342,132 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-						},
-					},
-					["pets"] = {
-						"Felbound Infernal <Kaldorath> <Kaldorath>", -- [1]
-						"Flaming Punch <Kaldorath> <Kaldorath>", -- [2]
-					},
-					["classe"] = "DEMONHUNTER",
-					["interrupt_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[183752] = {
-								["id"] = 183752,
-								["interrompeu_oque"] = {
-									[198962] = 1,
-									[198934] = 1,
-									[205621] = 2,
-									[192563] = 1,
-									[198595] = 4,
-									[180392] = 2,
-									[198959] = 2,
-									[198931] = 1,
-									[192288] = 3,
-									[180395] = 1,
-									[199726] = 3,
-								},
-								["targets"] = {
-									["Olmyr the Enlightened"] = 3,
-									["King Ranulf"] = 2,
-									["Valarjar Purifier"] = 1,
-									["King Haldor"] = 1,
-									["Felstalker"] = 2,
-									["Valarjar Runecarver"] = 3,
-									["Rakeeshi Sorcerer"] = 3,
-									["Valarjar Thundercaller"] = 4,
-									["Valarjar Mystic"] = 2,
-								},
-								["counter"] = 21,
-							},
-						},
-					},
-					["buff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[224170] = {
-								["uptime"] = 40,
-								["activedamt"] = 5,
-								["id"] = 224170,
-								["actived_at"] = 1488060201,
+							[193765] = {
+								["uptime"] = 24,
+								["id"] = 193765,
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
+							},
+							[197996] = {
+								["uptime"] = 30,
+								["id"] = 197996,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202761] = {
+								["uptime"] = 1439,
+								["counter"] = 0,
+								["id"] = 202761,
+								["activedamt"] = -2,
+								["targets"] = {
+								},
+								["actived_at"] = 1488057183,
+							},
+							[198813] = {
+								["uptime"] = 9,
+								["id"] = 198813,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[179057] = {
+								["uptime"] = 25,
+								["id"] = 179057,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[216776] = {
+								["uptime"] = 20,
+								["id"] = 216776,
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["isTank"] = true,
+					["classe"] = "DEMONHUNTER",
+					["interrupt_spells"] = {
+						["_ActorTable"] = {
+							[183752] = {
+								["id"] = 183752,
+								["counter"] = 50,
+								["targets"] = {
+									["Legion Skyterror"] = 1,
+									["Withered Fanatic"] = 1,
+									["Grim Inquisitor"] = 2,
+									["Valarjar Purifier"] = 1,
+									["Nightglaive the Traitor"] = 1,
+									["Withered Outcast"] = 2,
+									["Felstalker"] = 2,
+									["Rakeeshi Sorcerer"] = 3,
+									["Ishkaneth"] = 1,
+									["Burrowing Leyworm"] = 6,
+									["Tyndrissen"] = 2,
+									["Overseer Lykill"] = 1,
+									["Valarjar Mystic"] = 2,
+									["King Ranulf"] = 2,
+									["Withered Exile"] = 1,
+									["King Haldor"] = 1,
+									["Valarjar Runecarver"] = 3,
+									["Eredar Supplicant"] = 4,
+									["Questioner Arev'naal"] = 1,
+									["Ael'Yith"] = 3,
+									["Withered Skulker"] = 1,
+									["Nightfallen Overseer"] = 1,
+									["Orbyth"] = 1,
+									["Valarjar Thundercaller"] = 4,
+									["Olmyr the Enlightened"] = 3,
+								},
+								["interrompeu_oque"] = {
+									[205621] = 2,
+									[180395] = 1,
+									[186041] = 1,
+									[192563] = 1,
+									[192288] = 3,
+									[180392] = 2,
+									[198934] = 1,
+									[183132] = 1,
+									[185868] = 2,
+									[181505] = 1,
+									[198931] = 1,
+									[185299] = 4,
+									[186229] = 1,
+									[198962] = 1,
+									[185900] = 1,
+									[181500] = 8,
+									[198959] = 2,
+									[197413] = 1,
+									[198595] = 4,
+									[209263] = 2,
+									[80117] = 3,
+									[9591] = 3,
+									[182739] = 1,
+									[199726] = 3,
+								},
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[224170] = {
+								["uptime"] = 157,
+								["counter"] = 0,
+								["id"] = 224170,
+								["activedamt"] = 17,
+								["targets"] = {
+								},
+								["actived_at"] = 1488060201,
 							},
 							[218256] = {
 								["uptime"] = 54,
@@ -15381,12 +14503,12 @@ _detalhes_database = {
 							},
 							[178740] = {
 								["uptime"] = 621,
-								["actived_at"] = 11904466073,
+								["counter"] = 0,
 								["id"] = 178740,
 								["activedamt"] = 112,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 11904466073,
 							},
 							["Feast of Souls"] = {
 								["uptime"] = 0,
@@ -15397,9 +14519,9 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[212800] = {
-								["uptime"] = 10,
+								["uptime"] = 35,
 								["id"] = 212800,
-								["activedamt"] = 1,
+								["activedamt"] = 4,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15408,6 +14530,14 @@ _detalhes_database = {
 								["uptime"] = 0,
 								["id"] = "Huntmaster's Infusion",
 								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[180938] = {
+								["uptime"] = 11,
+								["id"] = 180938,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15422,34 +14552,58 @@ _detalhes_database = {
 							},
 							[203981] = {
 								["uptime"] = 676,
-								["actived_at"] = 16368638019,
+								["counter"] = 0,
 								["id"] = 203981,
 								["activedamt"] = 161,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 16368638019,
 							},
 							[222952] = {
-								["uptime"] = 47,
+								["uptime"] = 885,
 								["id"] = 222952,
-								["activedamt"] = 1,
+								["activedamt"] = 39,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[188499] = {
-								["uptime"] = 28,
+								["uptime"] = 74,
 								["id"] = 188499,
-								["activedamt"] = 28,
+								["activedamt"] = 75,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[179183] = {
+								["uptime"] = 29,
+								["id"] = 179183,
+								["activedamt"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[224173] = {
+								["uptime"] = 20,
+								["id"] = 224173,
+								["activedamt"] = 2,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[208628] = {
-								["uptime"] = 196,
-								["activedamt"] = 50,
+								["uptime"] = 602,
+								["counter"] = 0,
 								["id"] = 208628,
+								["activedamt"] = 146,
+								["targets"] = {
+								},
 								["actived_at"] = 5952240527,
+							},
+							[163024] = {
+								["uptime"] = 35,
+								["id"] = 163024,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15463,12 +14617,13 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[198013] = {
-								["uptime"] = 30,
+								["uptime"] = 82,
+								["counter"] = 0,
 								["id"] = 198013,
-								["activedamt"] = 16,
+								["activedamt"] = 49,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 4464686987,
 							},
 							["Immolation Aura"] = {
 								["uptime"] = 0,
@@ -15477,6 +14632,15 @@ _detalhes_database = {
 								["targets"] = {
 								},
 								["counter"] = 0,
+							},
+							[222938] = {
+								["uptime"] = 8,
+								["counter"] = 0,
+								["id"] = 222938,
+								["activedamt"] = 4,
+								["targets"] = {
+								},
+								["actived_at"] = 1488228850,
 							},
 							[228128] = {
 								["uptime"] = 0,
@@ -15495,19 +14659,35 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[163073] = {
-								["uptime"] = 160,
-								["activedamt"] = 8,
+								["uptime"] = 277,
+								["counter"] = 0,
 								["id"] = 163073,
+								["activedamt"] = 20,
+								["targets"] = {
+								},
 								["actived_at"] = 14880602140,
+							},
+							[219479] = {
+								["uptime"] = 0,
+								["id"] = 219479,
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[207693] = {
 								["uptime"] = 964,
-								["activedamt"] = 127,
+								["counter"] = 0,
 								["id"] = 207693,
+								["activedamt"] = 127,
+								["targets"] = {
+								},
 								["actived_at"] = 20832811322,
+							},
+							["Demon Spikes"] = {
+								["uptime"] = 0,
+								["id"] = "Demon Spikes",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15520,19 +14700,44 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[203819] = {
-								["uptime"] = 792,
-								["actived_at"] = 16368635516,
-								["id"] = 203819,
-								["activedamt"] = 136,
+							[202866] = {
+								["uptime"] = 132,
+								["id"] = 202866,
+								["activedamt"] = 14,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
+							[203819] = {
+								["uptime"] = 792,
+								["counter"] = 0,
+								["id"] = 203819,
+								["activedamt"] = 136,
+								["targets"] = {
+								},
+								["actived_at"] = 16368635516,
+							},
 							[156073] = {
-								["uptime"] = 47,
+								["uptime"] = 883,
 								["id"] = 156073,
+								["activedamt"] = 40,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[35713] = {
+								["uptime"] = 0,
+								["counter"] = 0,
+								["id"] = 35713,
 								["activedamt"] = 1,
+								["targets"] = {
+								},
+								["actived_at"] = 1488229511,
+							},
+							["Odyn's Blessing"] = {
+								["uptime"] = 0,
+								["id"] = "Odyn's Blessing",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -15540,6 +14745,31 @@ _detalhes_database = {
 							["Luck of the Draw"] = {
 								["uptime"] = 0,
 								["id"] = "Luck of the Draw",
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[216303] = {
+								["uptime"] = 25,
+								["id"] = 216303,
+								["activedamt"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[88749] = {
+								["uptime"] = 0,
+								["counter"] = 0,
+								["id"] = 88749,
+								["activedamt"] = 1,
+								["targets"] = {
+								},
+								["actived_at"] = 1488227701,
+							},
+							[209426] = {
+								["uptime"] = 0,
+								["id"] = 209426,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -15570,20 +14800,29 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[162264] = {
-								["uptime"] = 60,
+								["uptime"] = 168,
 								["id"] = 162264,
-								["activedamt"] = 2,
+								["activedamt"] = 7,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[210152] = {
-								["uptime"] = 13,
+								["uptime"] = 25,
 								["id"] = 210152,
-								["activedamt"] = 13,
+								["activedamt"] = 26,
 								["targets"] = {
 								},
 								["counter"] = 0,
+							},
+							[131347] = {
+								["uptime"] = 0,
+								["counter"] = 0,
+								["id"] = 131347,
+								["activedamt"] = 1,
+								["targets"] = {
+								},
+								["actived_at"] = 1488229417,
 							},
 							["Draenic Agility Flask"] = {
 								["uptime"] = 0,
@@ -15593,155 +14832,190 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Odyn's Blessing"] = {
+							[23239] = {
 								["uptime"] = 0,
-								["id"] = "Odyn's Blessing",
-								["activedamt"] = 0,
+								["counter"] = 0,
+								["id"] = 23239,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488229474,
 							},
-							["Demon Spikes"] = {
-								["uptime"] = 0,
-								["id"] = "Demon Spikes",
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[219479] = {
-								["uptime"] = 0,
-								["id"] = 219479,
-								["activedamt"] = 0,
+							[224172] = {
+								["uptime"] = 6,
+								["id"] = 224172,
+								["activedamt"] = 2,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
+					["interrupt"] = 50.154817,
 					["interrompeu_oque"] = {
-						[198962] = 1,
-						[198934] = 1,
 						[205621] = 2,
-						[192563] = 1,
-						[198595] = 4,
-						[180392] = 2,
-						[198959] = 2,
-						[198931] = 1,
-						[192288] = 3,
 						[180395] = 1,
+						[186041] = 1,
+						[192563] = 1,
+						[192288] = 3,
+						[180392] = 2,
+						[198934] = 1,
+						[183132] = 1,
+						[185868] = 2,
+						[181505] = 1,
+						[198931] = 1,
+						[185299] = 4,
+						[186229] = 1,
+						[198962] = 1,
+						[185900] = 1,
+						[181500] = 8,
+						[198959] = 2,
+						[197413] = 1,
+						[198595] = 4,
+						[209263] = 2,
+						[80117] = 3,
+						[9591] = 3,
+						[182739] = 1,
 						[199726] = 3,
 					},
 					["fight_component"] = true,
-					["debuff_uptime"] = 1929,
-					["cc_break"] = 27.035544,
-					["interrupt_targets"] = {
-						["Olmyr the Enlightened"] = 3,
-						["King Ranulf"] = 2,
-						["Valarjar Purifier"] = 1,
-						["King Haldor"] = 1,
-						["Felstalker"] = 2,
-						["Valarjar Runecarver"] = 3,
-						["Rakeeshi Sorcerer"] = 3,
-						["Valarjar Thundercaller"] = 4,
-						["Valarjar Mystic"] = 2,
+					["debuff_uptime"] = 2204,
+					["buff_uptime"] = 6645,
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
 					},
+					["interrupt_targets"] = {
+						["Legion Skyterror"] = 1,
+						["Withered Fanatic"] = 1,
+						["Grim Inquisitor"] = 2,
+						["Valarjar Purifier"] = 1,
+						["Nightglaive the Traitor"] = 1,
+						["Withered Outcast"] = 2,
+						["Felstalker"] = 2,
+						["Rakeeshi Sorcerer"] = 3,
+						["Ishkaneth"] = 1,
+						["Burrowing Leyworm"] = 6,
+						["Tyndrissen"] = 2,
+						["Overseer Lykill"] = 1,
+						["Valarjar Mystic"] = 2,
+						["King Ranulf"] = 2,
+						["Withered Exile"] = 1,
+						["King Haldor"] = 1,
+						["Valarjar Runecarver"] = 3,
+						["Eredar Supplicant"] = 4,
+						["Questioner Arev'naal"] = 1,
+						["Ael'Yith"] = 3,
+						["Withered Skulker"] = 1,
+						["Nightfallen Overseer"] = 1,
+						["Orbyth"] = 1,
+						["Valarjar Thundercaller"] = 4,
+						["Olmyr the Enlightened"] = 3,
+					},
+					["cc_break"] = 27.035544,
 					["nome"] = "Kaldorath",
-					["spec"] = 581,
-					["grupo"] = true,
 					["spell_cast"] = {
-						[201427] = 11,
+						[201427] = 25,
 						[218256] = 9,
-						[196718] = 1,
+						[196718] = 3,
 						[203782] = 413,
-						[201467] = 12,
+						[201467] = 31,
 						[178740] = 112,
 						[185245] = 3,
 						[202137] = 6,
 						[203720] = 143,
-						[162794] = 43,
+						[162794] = 104,
 						[193743] = 2,
 						[197996] = 1,
 						[193783] = 2,
-						[188499] = 28,
+						[188499] = 75,
 						[207407] = 44,
 						[204021] = 2,
 						[204596] = 50,
-						[198013] = 16,
+						[198013] = 49,
+						[198793] = 5,
 						[207684] = 8,
-						[183752] = 32,
+						[183752] = 67,
 						[235964] = 17,
 						[207685] = 8,
-						[232893] = 196,
+						[232893] = 279,
 						[203795] = 15,
-						[200166] = 2,
-						[185123] = 1,
-						[204157] = 13,
-						[179057] = 4,
+						[156073] = 1,
+						[187827] = 4,
+						[204255] = 402,
+						[195072] = 156,
+						[131347] = 5,
+						[200166] = 5,
 						[204513] = 2,
 						[204598] = 52,
-						[204490] = 6,
+						[180463] = 1,
 						[228477] = 186,
-						[210152] = 13,
-						[131347] = 3,
-						[195072] = 54,
-						[204255] = 402,
-						[187827] = 4,
+						[210152] = 26,
+						[204490] = 6,
+						[179057] = 5,
+						[204157] = 13,
+						[185123] = 6,
 					},
 					["cc_break_oque"] = {
 						[207685] = 16,
 						[122] = 8,
 						[31661] = 3,
 					},
+					["grupo"] = true,
+					["tipo"] = 4,
 					["buff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
-					["interrupt"] = 21.055683,
-					["isTank"] = true,
+					["cc_break_targets"] = {
+						["Steeljaw Grizzly"] = 5,
+						["Valarjar Marksman"] = 1,
+						["Valarjar Thundercaller"] = 2,
+						["Valarjar Runecarver"] = 2,
+						["Angerhoof Bull"] = 1,
+						["Ebonclaw Worg"] = 11,
+						["Valarjar Champion"] = 5,
+					},
 					["serial"] = "Player-5-0A6AF472",
-					["tipo"] = 4,
+					["spec"] = 581,
 				}, -- [5]
 				{
 					["flag_original"] = 8466,
 					["ownerName"] = "Muhfeels-Elune",
 					["nome"] = "Efflorescence <Muhfeels-Elune> <Muhfeels-Elune>",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[81262] = 5,
 					},
+					["last_event"] = 0,
+					["classe"] = "PET",
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
-					["classe"] = "PET",
 					["serial"] = "Creature-0-3019-1477-27077-47649-000031F2A5",
-					["last_event"] = 0,
+					["boss_fight_component"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 4370,
 					["cc_break_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[16827] = {
 								["cc_break_oque"] = {
 									[207685] = 2,
 								},
 								["id"] = 16827,
-								["cc_break"] = 2,
 								["targets"] = {
 									["Valarjar Mystic"] = 1,
 									["Valarjar Shieldmaiden"] = 1,
 								},
+								["cc_break"] = 2,
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["boss_fight_component"] = true,
 					["pets"] = {
 					},
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["ownerName"] = "Krøn-Nemesis",
-					["nome"] = "Loque <Krøn-Nemesis> <Krøn-Nemesis>",
+					["boss_fight_component"] = true,
 					["cc_break"] = 2.002721,
 					["spell_cast"] = {
 						[90328] = 1,
@@ -15752,51 +15026,53 @@ _detalhes_database = {
 					["cc_break_oque"] = {
 						[207685] = 2,
 					},
-					["tipo"] = 4,
+					["last_event"] = 0,
+					["nome"] = "Loque <Krøn-Nemesis> <Krøn-Nemesis>",
 					["cc_break_targets"] = {
 						["Valarjar Mystic"] = 1,
 						["Valarjar Shieldmaiden"] = 1,
 					},
 					["serial"] = "Pet-0-3023-1220-20708-32517-060145267A",
+					["tipo"] = 4,
 				}, -- [7]
 				{
 					["flag_original"] = 8466,
-					["nome"] = "Beast <Krøn-Nemesis> <Krøn-Nemesis>",
 					["ownerName"] = "Krøn-Nemesis",
-					["boss_fight_component"] = true,
+					["nome"] = "Beast <Krøn-Nemesis> <Krøn-Nemesis>",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[120694] = 45,
 						[201754] = 45,
 					},
-					["tipo"] = 4,
+					["pets"] = {
+					},
 					["last_event"] = 0,
 					["classe"] = "PET",
 					["serial"] = "Creature-0-3019-1477-27077-113344-000031F2BE",
-					["pets"] = {
-					},
+					["boss_fight_component"] = true,
 				}, -- [8]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Hymdall",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3019-1477-27077-94960-000031F291",
 					["spell_cast"] = {
 						[193235] = 4,
 						[191284] = 2,
 					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3019-1477-27077-94960-000031F291",
-					["classe"] = "UNKNOW",
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -15805,6 +15081,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 1,
 					["spellschool"] = 1,
+					["nome"] = "Dancing Blade",
 					["debuff_uptime_targets"] = {
 						["Krøn-Nemesis"] = {
 							["activedamt"] = 0,
@@ -15817,20 +15094,19 @@ _detalhes_database = {
 							["actived"] = false,
 						},
 					},
-					["damage_spellid"] = 193234,
-					["nome"] = "Dancing Blade",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "[*] Dancing Blade",
-					["boss_fight_component"] = true,
 					["serial"] = "",
-					["last_event"] = 0,
+					["damage_spellid"] = 193234,
+					["boss_fight_component"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -15839,47 +15115,47 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 20,
 					["spellschool"] = 1,
+					["nome"] = "Bloodletting Sweep",
 					["debuff_uptime_targets"] = {
-						["Kaldorath"] = {
-							["activedamt"] = 0,
-							["uptime"] = 16,
-							["actived"] = false,
-						},
 						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
 							["uptime"] = 4,
 							["actived"] = false,
 						},
+						["Kaldorath"] = {
+							["activedamt"] = 0,
+							["uptime"] = 16,
+							["actived"] = false,
+						},
 					},
-					["damage_spellid"] = 193092,
-					["nome"] = "Bloodletting Sweep",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Hymdall",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-3019-1477-27077-94960-000031F291",
-					["last_event"] = 0,
+					["damage_spellid"] = 193092,
+					["boss_fight_component"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 8466,
 					["ownerName"] = "Silentnight-Darkspear",
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["pets"] = {
 					},
+					["nome"] = "Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>",
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["serial"] = "Creature-0-3019-1477-27077-19668-000031F307",
 					["spell_cast"] = {
 						[63619] = 12,
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["nome"] = "Shadowfiend <Silentnight-Darkspear> <Silentnight-Darkspear>",
-					["serial"] = "Creature-0-3019-1477-27077-19668-000031F307",
-					["classe"] = "PET",
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -15888,6 +15164,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 6,
 					["spellschool"] = 8,
+					["nome"] = "Static Field",
 					["debuff_uptime_targets"] = {
 						["Muhfeels-Elune"] = {
 							["activedamt"] = 0,
@@ -15904,29 +15181,27 @@ _detalhes_database = {
 							["uptime"] = 1,
 							["actived"] = false,
 						},
-						["Kaldorath"] = {
-							["activedamt"] = 0,
-							["uptime"] = 0,
-							["actived"] = false,
-						},
 						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
 							["uptime"] = 1,
 							["actived"] = false,
 						},
+						["Kaldorath"] = {
+							["activedamt"] = 0,
+							["uptime"] = 0,
+							["actived"] = false,
+						},
 					},
-					["damage_spellid"] = 193260,
-					["nome"] = "Static Field",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "[*] Static Field",
-					["boss_fight_component"] = true,
 					["serial"] = "",
-					["last_event"] = 0,
+					["damage_spellid"] = 193260,
+					["boss_fight_component"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[164812] = {
 								["uptime"] = 16,
@@ -15961,17 +15236,17 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 9.037758,
 					["buff_uptime"] = 1268,
 					["classe"] = "DRUID",
 					["cooldowns_defensive_targets"] = {
 						["[*] raid wide cooldown"] = 1,
-						["Jalarius-Sargeras"] = 2,
 						["Kaldorath"] = 6,
+						["Jalarius-Sargeras"] = 2,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[740] = {
 								["uptime"] = 7,
@@ -15983,21 +15258,21 @@ _detalhes_database = {
 							},
 							[155777] = {
 								["uptime"] = 150,
-								["actived_at"] = 5952232162,
+								["counter"] = 0,
 								["id"] = 155777,
 								["activedamt"] = 14,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 5952232162,
 							},
 							[48504] = {
 								["uptime"] = 37,
-								["actived_at"] = 1488058815,
+								["counter"] = 0,
 								["id"] = 48504,
 								["activedamt"] = 4,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488058815,
 							},
 							[22812] = {
 								["uptime"] = 24,
@@ -16031,15 +15306,6 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[200389] = {
-								["uptime"] = 41,
-								["actived_at"] = 1488058817,
-								["id"] = 200389,
-								["activedamt"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							["Living Seed"] = {
 								["uptime"] = 0,
 								["id"] = "Living Seed",
@@ -16048,39 +15314,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Regrowth"] = {
-								["uptime"] = 0,
-								["id"] = "Regrowth",
-								["activedamt"] = 0,
+							[48438] = {
+								["uptime"] = 364,
+								["counter"] = 0,
+								["id"] = 48438,
+								["activedamt"] = 58,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[8936] = {
-								["uptime"] = 59,
-								["actived_at"] = 1488058815,
-								["id"] = 8936,
-								["activedamt"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Phased Webbing"] = {
-								["uptime"] = 0,
-								["id"] = "Phased Webbing",
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[215198] = {
-								["uptime"] = 260,
-								["actived_at"] = 4464175957,
-								["id"] = 215198,
-								["activedamt"] = 16,
-								["targets"] = {
-								},
-								["counter"] = 0,
+								["actived_at"] = 8928347466,
 							},
 							[137452] = {
 								["uptime"] = 4,
@@ -16090,19 +15331,53 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[8936] = {
+								["uptime"] = 59,
+								["counter"] = 0,
+								["id"] = 8936,
+								["activedamt"] = 5,
+								["targets"] = {
+								},
+								["actived_at"] = 1488058815,
+							},
 							[774] = {
 								["uptime"] = 206,
-								["actived_at"] = 4464174625,
+								["counter"] = 0,
 								["id"] = 774,
 								["activedamt"] = 16,
 								["targets"] = {
 								},
+								["actived_at"] = 4464174625,
+							},
+							[215198] = {
+								["uptime"] = 260,
+								["counter"] = 0,
+								["id"] = 215198,
+								["activedamt"] = 16,
+								["targets"] = {
+								},
+								["actived_at"] = 4464175957,
+							},
+							["Regrowth"] = {
+								["uptime"] = 0,
+								["id"] = "Regrowth",
+								["activedamt"] = 0,
+								["targets"] = {
+								},
 								["counter"] = 0,
 							},
-							[165961] = {
-								["uptime"] = 10,
-								["id"] = 165961,
-								["activedamt"] = 1,
+							[16870] = {
+								["uptime"] = 64,
+								["id"] = 16870,
+								["activedamt"] = 7,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[768] = {
+								["uptime"] = 19,
+								["id"] = 768,
+								["activedamt"] = 3,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -16139,14 +15414,6 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[208253] = {
-								["uptime"] = 8,
-								["id"] = 208253,
-								["activedamt"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							["Cat Form"] = {
 								["uptime"] = 0,
 								["id"] = "Cat Form",
@@ -16155,25 +15422,34 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[16870] = {
-								["uptime"] = 64,
-								["id"] = 16870,
-								["activedamt"] = 7,
+							[208253] = {
+								["uptime"] = 8,
+								["id"] = 208253,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[768] = {
-								["uptime"] = 19,
-								["id"] = 768,
-								["activedamt"] = 3,
+							[200389] = {
+								["uptime"] = 41,
+								["counter"] = 0,
+								["id"] = 200389,
+								["activedamt"] = 5,
+								["targets"] = {
+								},
+								["actived_at"] = 1488058817,
+							},
+							["Phased Webbing"] = {
+								["uptime"] = 0,
+								["id"] = "Phased Webbing",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[1850] = {
-								["uptime"] = 15,
-								["id"] = 1850,
+							[165961] = {
+								["uptime"] = 10,
+								["id"] = 165961,
 								["activedamt"] = 1,
 								["targets"] = {
 								},
@@ -16195,11 +15471,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[48438] = {
-								["uptime"] = 364,
-								["activedamt"] = 58,
-								["id"] = 48438,
-								["actived_at"] = 8928347466,
+							[1850] = {
+								["uptime"] = 15,
+								["id"] = 1850,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -16213,13 +15488,15 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 69,
-					["buff_uptime_targets"] = {
+					["pets"] = {
+						"Efflorescence <Jalarius-Sargeras> <Jalarius-Sargeras>", -- [1]
 					},
+					["boss_fight_component"] = true,
 					["spec"] = 105,
 					["grupo"] = true,
-					["boss_fight_component"] = true,
 					["spell_cast"] = {
 						[740] = 1,
 						[157982] = 5,
@@ -16232,27 +15509,17 @@ _detalhes_database = {
 						[8921] = 1,
 						[33763] = 17,
 						[193743] = 3,
-						[1850] = 1,
 						[145205] = 33,
-						[768] = 1,
-						[102342] = 6,
-						[102280] = 2,
-						[93402] = 1,
-						[48438] = 63,
-						[18562] = 10,
 						[783] = 1,
+						[768] = 1,
+						[18562] = 10,
+						[48438] = 63,
+						[93402] = 1,
+						[102280] = 2,
+						[1850] = 1,
+						[102342] = 6,
 					},
-					["pets"] = {
-						"Efflorescence <Jalarius-Sargeras> <Jalarius-Sargeras>", -- [1]
-					},
-					["debuff_uptime_targets"] = {
-					},
-					["last_event"] = 0,
-					["nome"] = "Jalarius-Sargeras",
-					["tipo"] = 4,
-					["serial"] = "Player-76-094DC52B",
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[102342] = {
 								["id"] = 102342,
@@ -16276,6 +15543,15 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
+						["tipo"] = 9,
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["nome"] = "Jalarius-Sargeras",
+					["debuff_uptime_targets"] = {
+					},
+					["serial"] = "Player-76-094DC52B",
+					["buff_uptime_targets"] = {
 					},
 				}, -- [14]
 				{
@@ -16285,41 +15561,40 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["pets"] = {
 					},
+					["boss_fight_component"] = true,
+					["classe"] = "PET",
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3019-1477-27077-47649-000031F3EA",
 					["spell_cast"] = {
 						[81262] = 33,
 					},
-					["classe"] = "PET",
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3019-1477-27077-47649-000031F3EA",
-					["tipo"] = 4,
 				}, -- [15]
 				{
 					["flag_original"] = 68168,
-					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Valarjar Shieldmaiden",
 					["spell_cast"] = {
 						[198944] = 16,
 						[199050] = 11,
 					},
-					["monster"] = true,
-					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
-					["nome"] = "Valarjar Shieldmaiden",
+					["tipo"] = 4,
 					["pets"] = {
 					},
 					["serial"] = "Creature-0-3019-1477-27077-95832-0000B1F291",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [16]
 				{
 					["flag_original"] = 68168,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["boss_fight_component"] = true,
 					["boss_debuff"] = true,
 					["monster"] = true,
 					["debuff_uptime"] = 88,
@@ -16331,32 +15606,32 @@ _detalhes_database = {
 							["actived"] = false,
 						},
 					},
-					["nome"] = "Breach Armor",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Valarjar Shieldmaiden",
-					["damage_spellid"] = 198944,
 					["serial"] = "Creature-0-3019-1477-27077-95832-0000B1F291",
-					["last_event"] = 0,
+					["damage_spellid"] = 198944,
+					["nome"] = "Breach Armor",
 				}, -- [17]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "UNKNOW",
-					["boss_fight_component"] = true,
 					["boss_debuff"] = true,
 					["monster"] = true,
 					["debuff_uptime"] = 64,
 					["spellschool"] = 1,
 					["debuff_uptime_targets"] = {
-						["Silentnight-Darkspear"] = {
+						["Kaldorath"] = {
 							["activedamt"] = 0,
-							["uptime"] = 8,
+							["uptime"] = 32,
 							["actived"] = false,
 						},
 						["Raffe"] = {
@@ -16369,42 +15644,43 @@ _detalhes_database = {
 							["uptime"] = 8,
 							["actived"] = false,
 						},
-						["Kaldorath"] = {
+						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
-							["uptime"] = 32,
+							["uptime"] = 8,
 							["actived"] = false,
 						},
 					},
-					["nome"] = "Mortal Hew",
+					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Valarjar Shieldmaiden",
-					["damage_spellid"] = 199050,
 					["serial"] = "Creature-0-3019-1477-27077-95832-000031F291",
-					["last_event"] = 0,
+					["damage_spellid"] = 199050,
+					["nome"] = "Mortal Hew",
 				}, -- [18]
 				{
 					["flag_original"] = 2632,
-					["boss_fight_component"] = true,
+					["last_event"] = 0,
+					["nome"] = "Valarjar Aspirant",
 					["spell_cast"] = {
 						[199033] = 3,
 						[191508] = 2,
 						[199034] = 3,
 					},
-					["monster"] = true,
-					["tipo"] = 4,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
-					["nome"] = "Valarjar Aspirant",
+					["tipo"] = 4,
 					["pets"] = {
 					},
 					["serial"] = "Creature-0-3019-1477-27077-101637-000031F441",
-					["last_event"] = 0,
+					["monster"] = true,
 				}, -- [19]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -16413,6 +15689,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 302,
 					["spellschool"] = 8,
+					["nome"] = "Eye of the Storm",
 					["debuff_uptime_targets"] = {
 						["Raffe"] = {
 							["activedamt"] = 0,
@@ -16429,87 +15706,85 @@ _detalhes_database = {
 							["uptime"] = 62,
 							["actived"] = false,
 						},
-						["Kaldorath"] = {
-							["activedamt"] = 0,
-							["uptime"] = 68,
-							["actived"] = false,
-						},
 						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
 							["uptime"] = 52,
 							["actived"] = false,
 						},
+						["Kaldorath"] = {
+							["activedamt"] = 0,
+							["uptime"] = 68,
+							["actived"] = false,
+						},
 					},
-					["damage_spellid"] = 203963,
-					["nome"] = "Eye of the Storm",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "[*] Eye of the Storm",
-					["boss_fight_component"] = true,
 					["serial"] = "",
-					["last_event"] = 0,
+					["damage_spellid"] = 203963,
+					["boss_fight_component"] = true,
 				}, -- [20]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Solsten",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3019-1477-27077-97219-000031F291",
 					["spell_cast"] = {
 						[200901] = 2,
 					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3019-1477-27077-97219-000031F291",
-					["classe"] = "UNKNOW",
 				}, -- [21]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Olmyr the Enlightened",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3019-1477-27077-97202-000031F291",
 					["spell_cast"] = {
 						[192288] = 2,
 						[192158] = 2,
 					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3019-1477-27077-97202-000031F291",
-					["classe"] = "UNKNOW",
 				}, -- [22]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Hyrja",
 					["pets"] = {
 					},
-					["spell_cast"] = {
-						[192018] = 2,
-						[200901] = 3,
-						[191976] = 5,
-					},
+					["classe"] = "UNKNOW",
 					["flag_original"] = 68168,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-3019-1477-27077-95833-000031F290",
-					["classe"] = "UNKNOW",
+					["spell_cast"] = {
+						[192018] = 2,
+						[191976] = 5,
+						[200901] = 3,
+					},
 				}, -- [23]
 				{
 					["flag_original"] = 1298,
 					["cc_break_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[12654] = {
 								["cc_break_oque"] = {
 									[122] = 1,
 								},
 								["id"] = 12654,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Storm Drake"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							[44461] = {
@@ -16517,10 +15792,10 @@ _detalhes_database = {
 									[122] = 1,
 								},
 								["id"] = 44461,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Angerhoof Bull"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							[2120] = {
@@ -16528,10 +15803,10 @@ _detalhes_database = {
 									[207685] = 1,
 								},
 								["id"] = 2120,
-								["cc_break"] = 1,
 								["targets"] = {
 									["Ebonclaw Worg"] = 1,
 								},
+								["cc_break"] = 1,
 								["counter"] = 0,
 							},
 							[217694] = {
@@ -16541,46 +15816,20 @@ _detalhes_database = {
 									[207685] = 1,
 								},
 								["id"] = 217694,
-								["cc_break"] = 3,
 								["targets"] = {
 									["Storm Drake"] = 1,
 									["Angerhoof Bull"] = 1,
 									["Steeljaw Grizzly"] = 1,
 								},
+								["cc_break"] = 3,
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
-					["buff_uptime"] = 874,
-					["boss_fight_component"] = true,
-					["cc_done_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[122] = {
-								["id"] = 122,
-								["targets"] = {
-									["Steeljaw Grizzly"] = 4,
-									["Angerhoof Bull"] = 1,
-									["Ebonclaw Worg"] = 4,
-									["Storm Drake"] = 1,
-								},
-								["counter"] = 10,
-							},
-							[31661] = {
-								["id"] = 31661,
-								["targets"] = {
-									["Ebonclaw Worg"] = 3,
-									["Angerhoof Bull"] = 1,
-								},
-								["counter"] = 4,
-							},
-						},
-					},
-					["classe"] = "MAGE",
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[31661] = {
 								["uptime"] = 1,
@@ -16655,9 +15904,34 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
-					},
-					["buff_uptime_spells"] = {
 						["tipo"] = 9,
+					},
+					["cc_done_spells"] = {
+						["_ActorTable"] = {
+							[122] = {
+								["id"] = 122,
+								["targets"] = {
+									["Steeljaw Grizzly"] = 4,
+									["Angerhoof Bull"] = 1,
+									["Ebonclaw Worg"] = 4,
+									["Storm Drake"] = 1,
+								},
+								["counter"] = 10,
+							},
+							[31661] = {
+								["id"] = 31661,
+								["targets"] = {
+									["Ebonclaw Worg"] = 3,
+									["Angerhoof Bull"] = 1,
+								},
+								["counter"] = 4,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["classe"] = "MAGE",
+					["tipo"] = 4,
+					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
 							["Heating Up"] = {
 								["uptime"] = 0,
@@ -16701,12 +15975,12 @@ _detalhes_database = {
 							},
 							[48107] = {
 								["uptime"] = 230,
-								["activedamt"] = 89,
+								["counter"] = 0,
 								["id"] = 48107,
-								["actived_at"] = 5952233178,
+								["activedamt"] = 89,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 5952233178,
 							},
 							[48108] = {
 								["uptime"] = 92,
@@ -16726,12 +16000,12 @@ _detalhes_database = {
 							},
 							[235313] = {
 								["uptime"] = 179,
-								["activedamt"] = 13,
+								["counter"] = 0,
 								["id"] = 235313,
-								["actived_at"] = 7440292646,
+								["activedamt"] = 13,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 7440292646,
 							},
 							["Time Warp"] = {
 								["uptime"] = 0,
@@ -16743,12 +16017,12 @@ _detalhes_database = {
 							},
 							[194316] = {
 								["uptime"] = 13,
-								["activedamt"] = 3,
+								["counter"] = 0,
 								["id"] = 194316,
-								["actived_at"] = 1488058238,
+								["activedamt"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488058238,
 							},
 							["Luck of the Draw"] = {
 								["uptime"] = 0,
@@ -16760,12 +16034,12 @@ _detalhes_database = {
 							},
 							[188031] = {
 								["uptime"] = 0,
-								["activedamt"] = 1,
+								["counter"] = 0,
 								["id"] = 188031,
-								["actived_at"] = 1488058560,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488058560,
 							},
 							["Enhanced Pyrotechnics"] = {
 								["uptime"] = 0,
@@ -16807,14 +16081,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[80353] = {
-								["uptime"] = 0,
-								["activedamt"] = 1,
-								["id"] = 80353,
-								["actived_at"] = 1488058926,
+							[157644] = {
+								["uptime"] = 200,
+								["counter"] = 0,
+								["id"] = 157644,
+								["activedamt"] = 22,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 7440292017,
 							},
 							["Odyn's Blessing"] = {
 								["uptime"] = 0,
@@ -16824,18 +16098,20 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[157644] = {
-								["uptime"] = 200,
-								["actived_at"] = 7440292017,
-								["id"] = 157644,
-								["activedamt"] = 22,
+							[80353] = {
+								["uptime"] = 0,
+								["counter"] = 0,
+								["id"] = 80353,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488058926,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["cc_break"] = 6.007775,
+					["boss_fight_component"] = true,
+					["nome"] = "Tinkelbell-Shu'halo",
 					["debuff_uptime"] = 905,
 					["cc_done_targets"] = {
 						["Steeljaw Grizzly"] = 4,
@@ -16844,7 +16120,8 @@ _detalhes_database = {
 						["Storm Drake"] = 1,
 					},
 					["cc_done"] = 14.02386,
-					["nome"] = "Tinkelbell-Shu'halo",
+					["debuff_uptime_targets"] = {
+					},
 					["spec"] = 63,
 					["grupo"] = true,
 					["spell_cast"] = {
@@ -16863,10 +16140,10 @@ _detalhes_database = {
 						[108853] = 85,
 						[212653] = 4,
 						[2948] = 34,
-						[193743] = 2,
+						[133] = 69,
 						[155158] = 22,
 						[11366] = 50,
-						[133] = 69,
+						[193743] = 2,
 					},
 					["cc_break_oque"] = {
 						[31661] = 1,
@@ -16876,8 +16153,7 @@ _detalhes_database = {
 					["buff_uptime_targets"] = {
 					},
 					["last_event"] = 0,
-					["debuff_uptime_targets"] = {
-					},
+					["cc_break"] = 6.007775,
 					["cc_break_targets"] = {
 						["Storm Drake"] = 2,
 						["Angerhoof Bull"] = 2,
@@ -16885,46 +16161,46 @@ _detalhes_database = {
 						["Steeljaw Grizzly"] = 1,
 					},
 					["serial"] = "Player-47-07B3CA05",
-					["tipo"] = 4,
+					["buff_uptime"] = 874,
 				}, -- [24]
 				{
-					["monster"] = true,
 					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["monster"] = true,
 					["interrupt"] = 3.015445,
 					["interrupt_targets"] = {
 						["Silentnight-Darkspear"] = 3,
 					},
-					["classe"] = "UNKNOW",
+					["nome"] = "Fenryr",
 					["boss_fight_component"] = true,
+					["spell_cast"] = {
+						[197558] = 4,
+						[196838] = 2,
+						[196543] = 4,
+						[196567] = 1,
+						[196512] = 7,
+						[200561] = 1,
+					},
+					["classe"] = "UNKNOW",
 					["pets"] = {
 					},
-					["nome"] = "Fenryr",
-					["tipo"] = 4,
 					["last_event"] = 0,
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[196543] = {
 								["id"] = 196543,
+								["counter"] = 3,
+								["targets"] = {
+									["Silentnight-Darkspear"] = 3,
+								},
 								["interrompeu_oque"] = {
 									[8092] = 1,
 									[15407] = 1,
 									[228260] = 1,
 								},
-								["targets"] = {
-									["Silentnight-Darkspear"] = 3,
-								},
-								["counter"] = 3,
 							},
 						},
-					},
-					["spell_cast"] = {
-						[197558] = 4,
-						[196838] = 2,
-						[200561] = 1,
-						[196567] = 1,
-						[196512] = 7,
-						[196543] = 4,
+						["tipo"] = 9,
 					},
 					["serial"] = "Creature-0-3019-1477-27077-95674-000031F34C",
 					["interrompeu_oque"] = {
@@ -16936,9 +16212,9 @@ _detalhes_database = {
 				{
 					["flag_original"] = 68168,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -16947,6 +16223,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 504,
 					["spellschool"] = 1,
+					["nome"] = "Ravenous Leap",
 					["debuff_uptime_targets"] = {
 						["Tinkelbell-Shu'halo"] = {
 							["activedamt"] = 0,
@@ -16958,9 +16235,9 @@ _detalhes_database = {
 							["uptime"] = 110,
 							["actived"] = false,
 						},
-						["Silentnight-Darkspear"] = {
+						["Kaldorath"] = {
 							["activedamt"] = 0,
-							["uptime"] = 106,
+							["uptime"] = 64,
 							["actived"] = false,
 						},
 						["Raffe"] = {
@@ -16968,25 +16245,23 @@ _detalhes_database = {
 							["uptime"] = 112,
 							["actived"] = false,
 						},
-						["Kaldorath"] = {
+						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
-							["uptime"] = 64,
+							["uptime"] = 106,
 							["actived"] = false,
 						},
 					},
-					["damage_spellid"] = 197556,
-					["nome"] = "Ravenous Leap",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Fenryr",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-3019-1477-27077-95674-000031F34C",
-					["last_event"] = 0,
+					["damage_spellid"] = 197556,
+					["boss_fight_component"] = true,
 				}, -- [26]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime"] = 45,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[199184] = {
 								["uptime"] = 45,
@@ -16997,8 +16272,8 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["boss_fight_component"] = true,
 					["debuff_uptime_targets"] = {
 					},
 					["spell_cast"] = {
@@ -17006,20 +16281,21 @@ _detalhes_database = {
 						[199182] = 14,
 						[199179] = 14,
 					},
+					["boss_fight_component"] = true,
 					["nome"] = "Ebonclaw Worg",
 					["tipo"] = 4,
-					["last_event"] = 0,
 					["pets"] = {
 					},
+					["last_event"] = 0,
 					["serial"] = "Creature-0-3019-1477-27077-96608-000031F34D",
 					["classe"] = "UNKNOW",
 				}, -- [27]
 				{
 					["flag_original"] = 68168,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17028,32 +16304,37 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 12,
 					["spellschool"] = 1,
+					["nome"] = "Scent of Blood",
 					["debuff_uptime_targets"] = {
-						["Jalarius-Sargeras"] = {
-							["activedamt"] = 0,
-							["uptime"] = 6,
-							["actived"] = false,
-						},
 						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
 							["uptime"] = 6,
 							["actived"] = false,
 						},
+						["Jalarius-Sargeras"] = {
+							["activedamt"] = 0,
+							["uptime"] = 6,
+							["actived"] = false,
+						},
 					},
-					["damage_spellid"] = 196838,
-					["nome"] = "Scent of Blood",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Fenryr",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-3019-1477-27077-99868-000031F791",
-					["last_event"] = 0,
+					["damage_spellid"] = 196838,
+					["boss_fight_component"] = true,
 				}, -- [28]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "God-King Skovald",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["serial"] = "Vehicle-0-3019-1477-27077-95675-000031F93B",
 					["spell_cast"] = {
 						[194112] = 2,
 						[193826] = 2,
@@ -17061,18 +16342,13 @@ _detalhes_database = {
 						[193660] = 5,
 						[193668] = 4,
 					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Vehicle-0-3019-1477-27077-95675-000031F93B",
-					["classe"] = "UNKNOW",
 				}, -- [29]
 				{
 					["flag_original"] = 68168,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17081,6 +16357,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 23,
 					["spellschool"] = 1,
+					["nome"] = "Ragged Slash",
 					["debuff_uptime_targets"] = {
 						["Kaldorath"] = {
 							["activedamt"] = 0,
@@ -17088,20 +16365,19 @@ _detalhes_database = {
 							["actived"] = false,
 						},
 					},
-					["damage_spellid"] = 193686,
-					["nome"] = "Ragged Slash",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "God-King Skovald",
-					["boss_fight_component"] = true,
 					["serial"] = "Vehicle-0-3019-1477-27077-95675-000031F93B",
-					["last_event"] = 0,
+					["damage_spellid"] = 193686,
+					["boss_fight_component"] = true,
 				}, -- [30]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17110,6 +16386,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 17,
 					["spellschool"] = 4,
+					["nome"] = "Infernal Flames",
 					["debuff_uptime_targets"] = {
 						["Raffe"] = {
 							["activedamt"] = 0,
@@ -17121,9 +16398,9 @@ _detalhes_database = {
 							["uptime"] = 5,
 							["actived"] = false,
 						},
-						["Silentnight-Darkspear"] = {
+						["Kaldorath"] = {
 							["activedamt"] = 0,
-							["uptime"] = 3,
+							["uptime"] = 0,
 							["actived"] = false,
 						},
 						["Tinkelbell-Shu'halo"] = {
@@ -17131,26 +16408,25 @@ _detalhes_database = {
 							["uptime"] = 7,
 							["actived"] = false,
 						},
-						["Kaldorath"] = {
+						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
-							["uptime"] = 0,
+							["uptime"] = 3,
 							["actived"] = false,
 						},
 					},
-					["damage_spellid"] = 193702,
-					["nome"] = "Infernal Flames",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "[*] Infernal Flames",
-					["boss_fight_component"] = true,
 					["serial"] = "",
-					["last_event"] = 0,
+					["damage_spellid"] = 193702,
+					["boss_fight_component"] = true,
 				}, -- [31]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17159,6 +16435,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 1,
 					["spellschool"] = 2,
+					["nome"] = "Spear of Light",
 					["debuff_uptime_targets"] = {
 						["Tinkelbell-Shu'halo"] = {
 							["activedamt"] = 0,
@@ -17166,37 +16443,36 @@ _detalhes_database = {
 							["actived"] = false,
 						},
 					},
-					["damage_spellid"] = 200988,
-					["nome"] = "Spear of Light",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "[*] Spear of Light",
-					["boss_fight_component"] = true,
 					["serial"] = "",
-					["last_event"] = 0,
+					["damage_spellid"] = 200988,
+					["boss_fight_component"] = true,
 				}, -- [32]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Odyn",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3019-1477-27077-95676-000031F290",
 					["spell_cast"] = {
 						[197961] = 1,
 						[198077] = 1,
 						[198263] = 1,
 					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3019-1477-27077-95676-000031F290",
-					["classe"] = "UNKNOW",
 				}, -- [33]
 				{
 					["flag_original"] = 68168,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17205,6 +16481,7 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 31,
 					["spellschool"] = 2,
+					["nome"] = "Runic Brand",
 					["debuff_uptime_targets"] = {
 						["Raffe"] = {
 							["activedamt"] = 0,
@@ -17216,9 +16493,9 @@ _detalhes_database = {
 							["uptime"] = 12,
 							["actived"] = false,
 						},
-						["Silentnight-Darkspear"] = {
+						["Kaldorath"] = {
 							["activedamt"] = 0,
-							["uptime"] = 7,
+							["uptime"] = 3,
 							["actived"] = false,
 						},
 						["Tinkelbell-Shu'halo"] = {
@@ -17226,26 +16503,25 @@ _detalhes_database = {
 							["uptime"] = 7,
 							["actived"] = false,
 						},
-						["Kaldorath"] = {
+						["Silentnight-Darkspear"] = {
 							["activedamt"] = 0,
-							["uptime"] = 3,
+							["uptime"] = 7,
 							["actived"] = false,
 						},
 					},
-					["damage_spellid"] = 197966,
-					["nome"] = "Runic Brand",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Odyn",
-					["boss_fight_component"] = true,
 					["serial"] = "Creature-0-3019-1477-27077-95676-000031F290",
-					["last_event"] = 0,
+					["damage_spellid"] = 197966,
+					["boss_fight_component"] = true,
 				}, -- [34]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17254,48 +16530,48 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 6,
 					["spellschool"] = 2,
+					["nome"] = "Glowing Fragment",
 					["debuff_uptime_targets"] = {
-						["Tinkelbell-Shu'halo"] = {
-							["activedamt"] = 0,
-							["uptime"] = 3,
-							["actived"] = false,
-						},
 						["Kaldorath"] = {
 							["activedamt"] = 0,
 							["uptime"] = 3,
 							["actived"] = false,
 						},
+						["Tinkelbell-Shu'halo"] = {
+							["activedamt"] = 0,
+							["uptime"] = 3,
+							["actived"] = false,
+						},
 					},
-					["damage_spellid"] = 198088,
-					["nome"] = "Glowing Fragment",
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "[*] Glowing Fragment",
-					["boss_fight_component"] = true,
 					["serial"] = "",
-					["last_event"] = 0,
+					["damage_spellid"] = 198088,
+					["boss_fight_component"] = true,
 				}, -- [35]
 				{
 					["flag_original"] = 2632,
+					["classe"] = "UNKNOW",
 					["ownerName"] = "Kaldorath",
 					["nome"] = "Felbound Infernal <Kaldorath> <Kaldorath>",
-					["fight_component"] = true,
 					["pets"] = {
 					},
+					["tipo"] = 4,
 					["monster"] = true,
 					["last_event"] = 0,
-					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[185782] = 1,
 					},
 					["serial"] = "Creature-0-3780-1624-19060-110384-000031FE0E",
-					["tipo"] = 4,
+					["fight_component"] = true,
 				}, -- [36]
 				{
 					["flag_original"] = 2632,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
@@ -17305,10 +16581,6 @@ _detalhes_database = {
 					["debuff_uptime"] = 9,
 					["spellschool"] = 4,
 					["ownerName"] = "Kaldorath",
-					["nome"] = "Flaming Punch <Kaldorath> <Kaldorath>",
-					["damage_spellid"] = 185782,
-					["last_event"] = 0,
-					["damage_twin"] = "Felbound Infernal",
 					["debuff_uptime_targets"] = {
 						["Kaldorath"] = {
 							["activedamt"] = 0,
@@ -17316,13 +16588,16 @@ _detalhes_database = {
 							["actived"] = false,
 						},
 					},
-					["serial"] = "Creature-0-3780-1624-19060-110384-000031FE0E",
+					["nome"] = "Flaming Punch <Kaldorath> <Kaldorath>",
+					["last_event"] = 0,
+					["damage_twin"] = "Felbound Infernal",
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3780-1624-19060-110384-000031FE0E",
+					["damage_spellid"] = 185782,
 				}, -- [37]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[189804] = {
 								["uptime"] = 46,
@@ -17341,12 +16616,12 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "PALADIN",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							["Earth Shield"] = {
 								["uptime"] = 0,
@@ -17358,17 +16633,19 @@ _detalhes_database = {
 							},
 							[90399] = {
 								["uptime"] = 13,
-								["activedamt"] = 1,
+								["counter"] = 0,
 								["id"] = 90399,
-								["actived_at"] = 1488060451,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1488060451,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 47,
-					["nome"] = "Farseer Nobundo",
+					["buff_uptime_targets"] = {
+					},
 					["grupo"] = true,
 					["spell_cast"] = {
 						[190330] = 9,
@@ -17378,16 +16655,14 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 					},
 					["tipo"] = 4,
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 13,
-					["serial"] = "Creature-0-3780-1624-19060-110695-000031FDFC",
+					["nome"] = "Farseer Nobundo",
 					["last_event"] = 0,
+					["serial"] = "Creature-0-3780-1624-19060-110695-000031FDFC",
+					["buff_uptime"] = 13,
 				}, -- [38]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[189804] = {
 								["uptime"] = 38,
@@ -17398,12 +16673,12 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["pets"] = {
 					},
 					["classe"] = "PALADIN",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							["Earth Shield"] = {
 								["uptime"] = 0,
@@ -17414,9 +16689,11 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 38,
-					["nome"] = "Liani the Lifegiver",
+					["buff_uptime_targets"] = {
+					},
 					["grupo"] = true,
 					["spell_cast"] = {
 						[101650] = 1,
@@ -17424,17 +16701,15 @@ _detalhes_database = {
 					["debuff_uptime_targets"] = {
 					},
 					["last_event"] = 0,
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 0,
-					["serial"] = "Creature-0-3780-1624-19060-111082-000031FDFC",
+					["nome"] = "Liani the Lifegiver",
 					["tipo"] = 4,
+					["serial"] = "Creature-0-3780-1624-19060-111082-000031FDFC",
+					["buff_uptime"] = 0,
 				}, -- [39]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime"] = 76,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[172779] = {
 								["uptime"] = 38,
@@ -17453,17 +16728,18 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime_targets"] = {
 					},
 					["grupo"] = true,
 					["pets"] = {
 					},
-					["tipo"] = 4,
 					["last_event"] = 0,
+					["classe"] = "PALADIN",
 					["nome"] = "Fister Rockfist",
 					["serial"] = "Creature-0-3780-1624-19060-111083-000031FDFC",
-					["classe"] = "PALADIN",
+					["tipo"] = 4,
 				}, -- [40]
 				{
 					["flag_original"] = 1047,
@@ -17472,11 +16748,25 @@ _detalhes_database = {
 					["pets"] = {
 						"Summoned Searing Totem <Da'kesh the Elementalist> <Da'kesh the Elementalist>", -- [1]
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["classe"] = "PALADIN",
+					["last_event"] = 0,
 					["serial"] = "Creature-0-3780-1624-19060-111078-000031FDFC",
+					["tipo"] = 4,
 				}, -- [41]
+				{
+					["flag_original"] = 8465,
+					["ownerName"] = "Kaldorath",
+					["nome"] = "Kayn Sunfury <Kaldorath> <Kaldorath>",
+					["pets"] = {
+					},
+					["last_event"] = 0,
+					["classe"] = "PET",
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3022-1220-31212-111944-0000348C60",
+					["spell_cast"] = {
+						[222938] = 4,
+					},
+				}, -- [42]
 			},
 		}, -- [4]
 		{
@@ -17490,26 +16780,26 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 223,
 		["totals"] = {
-			594233736.261442, -- [1]
-			118492449.771624, -- [2]
+			691834485.72009, -- [1]
+			125913324.853106, -- [2]
 			{
-				0.068775, -- [1]
-				[0] = 0.119808,
-				[6] = 0,
+				0.264565000000001, -- [1]
+				[0] = 0.10998,
+				[6] = -0.0100060000000006,
 				[3] = 6895.301126,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 13.042429,
-				["interrupt"] = 35.116308,
-				["dispell"] = 2.001252,
-				["cc_break"] = 55.099703,
 				["dead"] = 0,
+				["cc_break"] = 55.099703,
+				["interrupt"] = 64.215442,
+				["debuff_uptime"] = 0,
+				["dispell"] = 2.001252,
+				["cooldowns_defensive"] = 13.042429,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -17521,137 +16811,22 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
-			["damage"] = {
-			},
 		},
-		["end_time"] = 14079.129,
+		["end_time"] = 18958.536,
 		["data_inicio"] = "13:09:40",
-		["frags"] = {
-		},
-		["data_fim"] = "14:19:02",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 125.01,
-				["name"] = "Fel Annihilator",
-				["clock"] = "14:16:57",
-			}, -- [1]
-			{
-				["elapsed"] = 17.0040000000008,
-				["name"] = "Rakeeshi Sorcerer",
-				["clock"] = "14:09:35",
-			}, -- [2]
-			{
-				["elapsed"] = 72,
-				["name"] = "Felbound Wrathlord",
-				["clock"] = "14:06:33",
-			}, -- [3]
-			{
-				["elapsed"] = 38.0040000000008,
-				["name"] = "Rakeeshi Sorcerer",
-				["clock"] = "14:05:46",
-			}, -- [4]
-			{
-				["elapsed"] = 11.0010000000002,
-				["name"] = "Felguard",
-				["clock"] = "14:05:26",
-			}, -- [5]
-			{
-				["elapsed"] = 25.0030000000006,
-				["name"] = "Felguard",
-				["clock"] = "14:04:38",
-			}, -- [6]
-			{
-				["elapsed"] = 59.0029999999988,
-				["name"] = "Chittering Sycophant",
-				["clock"] = "14:03:32",
-			}, -- [7]
-			{
-				["elapsed"] = 19.0020000000004,
-				["name"] = "Chittering Sycophant",
-				["clock"] = "14:03:05",
-			}, -- [8]
-			{
-				["elapsed"] = 11.005000000001,
-				["name"] = "Chittering Sycophant",
-				["clock"] = "14:02:47",
-			}, -- [9]
-			{
-				["elapsed"] = 42.005000000001,
-				["name"] = "Huk'roth the Huntmaster",
-				["clock"] = "14:00:35",
-			}, -- [10]
-			{
-				["elapsed"] = 16.9989999999998,
-				["name"] = "Felguard",
-				["clock"] = "14:00:13",
-			}, -- [11]
-			{
-				["elapsed"] = 40.0060000000012,
-				["name"] = "Felstalker",
-				["clock"] = "13:59:11",
-			}, -- [12]
-			{
-				["elapsed"] = 31.0059999999994,
-				["name"] = "Felstalker",
-				["clock"] = "13:58:34",
-			}, -- [13]
-			{
-				["elapsed"] = 47.2199999999994,
-				["name"] = "Yorg Murkmouth",
-				["clock"] = "13:51:28",
-			}, -- [14]
-			{
-				["elapsed"] = 82.0049999999992,
-				["name"] = "Odyn",
-				["clock"] = "13:41:11",
-			}, -- [15]
-			{
-				["elapsed"] = 112.004999999999,
-				["name"] = "God-King Skovald",
-				["clock"] = "13:38:28",
-			}, -- [16]
-			{
-				["elapsed"] = 52.0030000000006,
-				["name"] = "Trash Cleanup",
-				["clock"] = "13:36:47",
-			}, -- [17]
-			{
-				["elapsed"] = 29.9989999999998,
-				["name"] = "Trash Cleanup",
-				["clock"] = "13:36:11",
-			}, -- [18]
-			{
-				["elapsed"] = 48.0010000000002,
-				["name"] = "Trash Cleanup",
-				["clock"] = "13:35:14",
-			}, -- [19]
-			{
-				["elapsed"] = 59,
-				["name"] = "Trash Cleanup",
-				["clock"] = "13:33:20",
-			}, -- [20]
-		},
-		["start_time"] = 11944.671,
-		["TimeData"] = {
-			["Player Damage Done"] = {
-			},
-			["Raid Damage Done"] = {
-			},
-		},
 		["totals_grupo"] = {
-			433793094.664217, -- [1]
-			125832426.622822, -- [2]
+			516531622.824103, -- [1]
+			133253301.738075, -- [2]
 			{
-				0.068775, -- [1]
+				0.266062, -- [1]
 				[0] = 0.119808,
 				[6] = 0,
 				[3] = 6895.301126,
@@ -17659,16 +16834,133 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 13.042429,
-				["interrupt"] = 30.097331,
-				["dispell"] = 2.001252,
-				["cc_break"] = 53.096982,
 				["dead"] = 0,
+				["cc_break"] = 53.096982,
+				["interrupt"] = 59.196465,
+				["debuff_uptime"] = 0,
+				["dispell"] = 2.001252,
+				["cooldowns_defensive"] = 13.042429,
 			}, -- [4]
 		},
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "13:13:32",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 31.3810000000012,
+				["name"] = "Orbyth",
+				["clock"] = "13:13:01",
+			}, -- [1]
+			{
+				["elapsed"] = 12.8530000000028,
+				["name"] = "Withered Outcast",
+				["clock"] = "13:11:25",
+			}, -- [2]
+			{
+				["elapsed"] = 18.1570000000029,
+				["name"] = "Withered Outcast",
+				["clock"] = "13:09:08",
+			}, -- [3]
+			{
+				["elapsed"] = 18.4379999999983,
+				["name"] = "Withered Outcast",
+				["clock"] = "13:08:43",
+			}, -- [4]
+			{
+				["elapsed"] = 44.6280000000006,
+				["name"] = "Ael'Yith",
+				["clock"] = "13:05:55",
+			}, -- [5]
+			{
+				["elapsed"] = 21.982,
+				["name"] = "Withered Scavenger",
+				["clock"] = "13:05:12",
+			}, -- [6]
+			{
+				["elapsed"] = 31.4300000000003,
+				["name"] = "Nightfallen Construct",
+				["clock"] = "13:04:35",
+			}, -- [7]
+			{
+				["elapsed"] = 10.9010000000017,
+				["name"] = "Withered Fanatic",
+				["clock"] = "13:03:37",
+			}, -- [8]
+			{
+				["elapsed"] = 39.1100000000006,
+				["name"] = "Withered Fanatic",
+				["clock"] = "13:02:06",
+			}, -- [9]
+			{
+				["elapsed"] = 23.2849999999999,
+				["name"] = "Ishkaneth",
+				["clock"] = "13:01:14",
+			}, -- [10]
+			{
+				["elapsed"] = 38.6929999999993,
+				["name"] = "Withered Scavenger",
+				["clock"] = "13:00:21",
+			}, -- [11]
+			{
+				["elapsed"] = 12.0660000000025,
+				["name"] = "Nightfallen Hungerer",
+				["clock"] = "13:00:00",
+			}, -- [12]
+			{
+				["elapsed"] = 44.1830000000009,
+				["name"] = "Runas the Shamed",
+				["clock"] = "12:57:23",
+			}, -- [13]
+			{
+				["elapsed"] = 14.7239999999983,
+				["name"] = "Wild Manarunner",
+				["clock"] = "12:55:23",
+			}, -- [14]
+			{
+				["elapsed"] = 19.9989999999998,
+				["name"] = "Withered Exile",
+				["clock"] = "12:54:51",
+			}, -- [15]
+			{
+				["elapsed"] = 11.0099999999984,
+				["name"] = "Withered Exile",
+				["clock"] = "12:54:03",
+			}, -- [16]
+			{
+				["elapsed"] = 13.739999999998,
+				["name"] = "Flashwyrm",
+				["clock"] = "12:51:28",
+			}, -- [17]
+			{
+				["elapsed"] = 10.0619999999981,
+				["name"] = "Burrowing Leyworm",
+				["clock"] = "12:50:16",
+			}, -- [18]
+			{
+				["elapsed"] = 19.2989999999991,
+				["name"] = "Burrowing Leyworm",
+				["clock"] = "12:49:50",
+			}, -- [19]
+			{
+				["elapsed"] = 16.6650000000009,
+				["name"] = "Burrowing Leyworm",
+				["clock"] = "12:49:25",
+			}, -- [20]
+		},
+		["start_time"] = 15985.471,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
+		["overall_refreshed"] = true,
 	},
-	["last_version"] = "v7.1.5.3370",
+	["last_realversion"] = 116,
 	["local_instances_config"] = {
 		{
 			["segment"] = 0,
@@ -17737,22 +17029,51 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["last_instance_time"] = 1488056966,
+	["cached_talents"] = {
+		["Player-5-0A6AF472"] = {
+			22765, -- [1]
+			22493, -- [2]
+			21864, -- [3]
+			22909, -- [4]
+			21866, -- [5]
+		},
+	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["nick_tag_cache"] = {
+		["last_version"] = 8,
+		[178403530] = {
+			"Konzphiel", -- [1]
+			"Interface\\EncounterJournal\\UI-EJ-BOSS-Randolph Moloch", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\PetBattles\\Weather-BurntEarth", -- [4]
+			{
+				0.087890625, -- [1]
+				0.916015625, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["nextreset"] = 1488993133,
 	},
 	["last_instance_id"] = 1477,
 	["cached_specs"] = {
 		["Player-5-0A6AF472"] = 577,
-		["Player-1168-07BF3786"] = 577,
-		["Player-5-0A6C3C0C"] = 581,
 	},
 }

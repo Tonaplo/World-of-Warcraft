@@ -6,11 +6,11 @@ RCDatabase = {
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Emerald Dream"] = "Praerend - Emerald Dream",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Emerald Dream"] = "Morifa - Emerald Dream",
 		["Makemeaturke - Stormrage"] = "Makemeaturke - Stormrage",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Granjior - Emerald Dream"] = "Granjior - Emerald Dream",
@@ -21,7 +21,7 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
@@ -24212,10 +24212,10 @@ RCDatabase = {
 			}, -- [9]
 			{
 				["name"] = "Fimwack",
-				["secondProfLevel"] = 32,
+				["secondProfLevel"] = 33,
 				["firstProf"] = "Herbalism",
-				["level"] = 107,
-				["firstProfLevel"] = 42,
+				["level"] = 108,
+				["firstProfLevel"] = 43,
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 			}, -- [10]
@@ -24238,12 +24238,12 @@ RCDatabase = {
 				["secondProf"] = "Mining",
 			}, -- [12]
 			{
-				["secondProfLevel"] = 0,
 				["name"] = "Kaldorath",
-				["firstProfLevel"] = 0,
-				["class"] = "DEMONHUNTER",
-				["level"] = 105,
+				["secondProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
+				["level"] = 107,
+				["class"] = "DEMONHUNTER",
+				["firstProfLevel"] = 0,
 				["secondProf"] = "No 2nd Prof",
 			}, -- [13]
 			["characterStored"] = 13,
