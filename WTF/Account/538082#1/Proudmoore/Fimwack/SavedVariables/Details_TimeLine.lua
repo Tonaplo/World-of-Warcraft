@@ -1,41 +1,22 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["combat_data"] = {
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
+	["cooldowns_timeline"] = {
 		{
-			["date_start"] = "23:11:00",
-			["date_end"] = "23:11:00",
-			["name"] = "Prince Malchezaar",
-			["total_time"] = 0.174999999999272,
 		}, -- [1]
 		{
-			["date_start"] = "23:11:00",
-			["date_end"] = "23:11:00",
-			["name"] = "Prince Malchezaar",
-			["total_time"] = 0.174999999999272,
 		}, -- [2]
 		{
-			["date_start"] = "23:01:21",
-			["date_end"] = "23:01:22",
-			["name"] = "Chess Event",
-			["total_time"] = 1.0010000000002,
 		}, -- [3]
 		{
-			["date_start"] = "22:59:35",
-			["date_end"] = "22:59:35",
-			["name"] = "Netherspite",
-			["total_time"] = 0.194999999999709,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -68,7 +49,33 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["combat_data"] = {
+		{
+			["date_end"] = "23:11:00",
+			["date_start"] = "23:11:00",
+			["name"] = "Prince Malchezaar",
+			["total_time"] = 0.174999999999272,
+		}, -- [1]
+		{
+			["date_end"] = "23:11:00",
+			["date_start"] = "23:11:00",
+			["name"] = "Prince Malchezaar",
+			["total_time"] = 0.174999999999272,
+		}, -- [2]
+		{
+			["date_end"] = "23:01:22",
+			["date_start"] = "23:01:21",
+			["name"] = "Chess Event",
+			["total_time"] = 1.0010000000002,
+		}, -- [3]
+		{
+			["date_end"] = "22:59:35",
+			["date_start"] = "22:59:35",
+			["name"] = "Netherspite",
+			["total_time"] = 0.194999999999709,
+		}, -- [4]
+	},
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
@@ -77,12 +84,5 @@ DetailsTimeLineDB = {
 		}, -- [3]
 		{
 		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
 	},
 }

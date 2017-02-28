@@ -1,3 +1,9 @@
+VER 3 0100000000000005 "KROSUS LEFT" "INV_SWORD_04"
+/RAID left
+END
+VER 3 0100000000000006 "krosus right" "132273"
+/raid right
+END
 VER 3 0100000000000004 "Shine" "INV_MISC_QUESTIONMARK"
 #showtooltip Shining Force
 /target Mallusof

@@ -5,12 +5,14 @@ function SlashCmdList.SWAPCHECK(msg, editbox) -- 4.
 
 	if msg == 'list' then
 		local a = {};
-		for n in pairs(swapBlasterList) do table.insert(a, n) end
+		for value in pairs(swapBlasterList) do table.insert(a, value) end
 		table.sort(a);
+		--print("List of Fuckfaces:");
 		SendChatMessage("List of Fuckfaces:", "GUILD", DEFAULT_CHAT_FRAME.editBox.languageID);
  
-		for name, value in pairs(swapBlasterList) do
-			SendChatMessage(name .. " swapblasted " .. value .. " times" , "GUILD", DEFAULT_CHAT_FRAME.editBox.languageID);
+		for value, name in pairs(a) do
+			--print(name .. " swapblasted " .. swapBlasterList[name] .. " times" );
+			SendChatMessage(name .. " swapblasted " .. swapBlasterList[name] .. " times" , "GUILD", DEFAULT_CHAT_FRAME.editBox.languageID);
 		end
 	elseif msg == 'reset' then
 		print("SwapCheck was |cff00ff00Reset|r");
@@ -37,9 +39,6 @@ function SwapCheck_EventHandler(self, event, ...)
 		print("SwapCheck is |cff00ff00Enabled|r");
 		print("Type /swapcheck list to get a list of the trolls using this cursed item.");
 		print("Type /swapcheck reset to reset current data.");
-		swapBlasterList = {};
-		lastSwapCaster = nil;
-		lastSwapTime = 0;
 	end
 	
 	if event == "UNIT_SPELLCAST_SUCCEEDED" then
@@ -52,7 +51,7 @@ function SwapCheck_EventHandler(self, event, ...)
 			-- Check that it isnt the second cast of the swap before marking it.
 			local currentTime = GetTime();
 			local casterName = UnitName(unitID);
-			if not (lastSwapCaster == casterName and currentTime + 1 < lastSwapTime) then
+			if not (lastSwapCaster == casterName and currentTime == lastSwapTime) then
 				-- Initialize the troll if it's the first time he decided to be an asshole.
 				
 				if swapBlasterList[casterName] == nil then
@@ -61,8 +60,12 @@ function SwapCheck_EventHandler(self, event, ...)
 				
 				-- Send chat messages
 				swapBlasterList[casterName] = swapBlasterList[casterName] + 1;
-				SendChatMessage("A fuckface called " .. casterName .. " used Swapblaster and should be fucking shot", "YELL", DEFAULT_CHAT_FRAME.editBox.languageID);
-				SendChatMessage("Hey " .. casterName .. " you're an asshole for using the Swapblaster.", "WHISPER", nil, casterName)
+				if spellID == 161399 then
+					SendChatMessage("A fuckface called " .. casterName .. " used Swapblaster and should be fucking shot", "YELL", DEFAULT_CHAT_FRAME.editBox.languageID);
+				else
+					SendChatMessage("A fuckface called " .. casterName .. " used Swapblaster, but got fucked by Neural Silencer", "YELL", DEFAULT_CHAT_FRAME.editBox.languageID);
+				end
+				SendChatMessage("Hey " .. casterName .. ", you're an asshole for using the Swapblaster.", "WHISPER", nil, casterName)
 			
 				-- Mark the last person that did this horrible thing.
 				lastSwapTime = currentTime;

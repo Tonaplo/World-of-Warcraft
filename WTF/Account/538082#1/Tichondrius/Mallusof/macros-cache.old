@@ -1,3 +1,9 @@
+VER 3 0100000000000005 "KROSUS LEFT" "INV_SWORD_04"
+/RAID left
+END
+VER 3 0100000000000006 "krosus right" "132273"
+/raid right
+END
 VER 3 0100000000000004 "Shine" "INV_MISC_QUESTIONMARK"
 #showtooltip Shining Force
 /target Mallusof
@@ -9,8 +15,8 @@ VER 3 0100000000000003 "SoH" "INV_MISC_QUESTIONMARK"
 /use Symbol of Hope
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R3PH1NM[x]1DH1PT1OT2PM2RM2RM2EM2PM3OM3LR4LR4MR4RM4HR4HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NKalJww[x]EllHeaIleAceTetSliZaeEärCoaArkSawKalAllDaoNar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x]Akk[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
