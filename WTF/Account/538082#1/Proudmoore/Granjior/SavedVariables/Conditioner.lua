@@ -10,6 +10,30 @@ xl_savedvariables = {
 	[3] = {
 		nil, -- [1]
 		{
+			205228, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "Shift Q",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [2]
+		{
 			20271, -- [1]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
@@ -24,14 +48,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
-		}, -- [2]
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [3]
 		{
 			85256, -- [1]
 			["aura_target"] = 1,
@@ -47,14 +72,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 10,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 5,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 5,
-		}, -- [3]
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [4]
 		{
 			205273, -- [1]
 			["aura_target"] = 1,
@@ -70,14 +96,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 10,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
-		}, -- [4]
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [5]
 		{
 			184575, -- [1]
 			["aura_target"] = 1,
@@ -93,14 +120,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 10,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
+			["alt_resource_condition"] = 4,
 			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 3,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["alt_resource_condition"] = 4,
-			["alt_min_resource_to_cast"] = 3,
-		}, -- [5]
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [6]
 		{
 			35395, -- [1]
 			["aura_target"] = 1,
@@ -116,14 +144,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
-		}, -- [6]
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [7]
 		{
 			85256, -- [1]
 			["aura_target"] = 1,
@@ -139,14 +168,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 10,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
+			["alt_resource_condition"] = 5,
 			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 3,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["alt_resource_condition"] = 5,
-			["alt_min_resource_to_cast"] = 3,
-		}, -- [7]
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [8]
 	},
 	[2] = {
 		nil, -- [1]
@@ -165,13 +195,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 23,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 40,
 			["alt_resource_condition"] = 4,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 40,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [2]
 		{
 			53600, -- [1]
@@ -188,13 +219,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = false,
 			["num_charges"] = 3,
+			["duration_remaining"] = 0,
 		}, -- [3]
 		{
 			204019, -- [1]
@@ -211,18 +243,19 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["highlight_only"] = false,
 			["num_charges"] = 3,
+			["duration_remaining"] = 0,
 		}, -- [4]
 		{
 			20271, -- [1]
 			["aura_target"] = 1,
-			["charge_conditional"] = 1,
+			["charge_conditional"] = 5,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
@@ -234,13 +267,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
+			["num_stacks"] = 0,
 			["highlight_only"] = false,
-			["num_charges"] = 0,
+			["alt_min_resource_to_cast"] = 0,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["num_charges"] = 2,
+			["duration_remaining"] = 0,
 		}, -- [5]
 		{
 			26573, -- [1]
@@ -257,13 +291,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [6]
 		{
 			31935, -- [1]
@@ -280,14 +315,63 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [7]
+		{
+			20271, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "3",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [8]
+		{
+			204019, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "E",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["alt_resource_condition"] = 1,
+			["num_stacks"] = 0,
+			["highlight_only"] = false,
+			["alt_min_resource_to_cast"] = 0,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
+		}, -- [9]
 	},
 }
 xl_conditioner_options = {
