@@ -1,0 +1,2 @@
+
+SwapCheck = nil
