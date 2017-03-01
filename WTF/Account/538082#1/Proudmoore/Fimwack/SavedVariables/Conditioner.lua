@@ -26,8 +26,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
 			104316, -- [1]
@@ -46,8 +46,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
 			18540, -- [1]
@@ -66,8 +66,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 		{
 			105174, -- [1]
@@ -86,8 +86,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 5,
-			["alt_min_resource_to_cast"] = 4,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 4,
 		}, -- [5]
 		{
 			119898, -- [1]
@@ -106,8 +106,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [6]
 		{
 			1454, -- [1]
@@ -126,8 +126,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 4,
-			["alt_min_resource_to_cast"] = 60,
 			["use_condition"] = true,
+			["alt_min_resource_to_cast"] = 60,
 		}, -- [7]
 		{
 			157695, -- [1]
@@ -146,8 +146,8 @@ xl_savedvariables = {
 			["num_stacks"] = 0,
 			["min_resource_to_cast"] = 0,
 			["alt_resource_condition"] = 1,
-			["alt_min_resource_to_cast"] = 0,
 			["use_condition"] = false,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [8]
 	},
 	[3] = {
@@ -167,14 +167,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 6,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [2]
 		{
 			348, -- [1]
@@ -191,14 +191,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 6,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [3]
 		{
 			196098, -- [1]
@@ -215,14 +215,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [4]
 		{
 			116858, -- [1]
@@ -239,14 +239,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 5,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 5,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [5]
 		{
 			196586, -- [1]
@@ -263,14 +263,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 2,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 2,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [6]
 		{
 			196447, -- [1]
@@ -287,14 +287,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [7]
 		{
 			17962, -- [1]
@@ -311,14 +311,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [8]
 		{
 			116858, -- [1]
@@ -335,14 +335,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 5,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 2,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 2,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [9]
 		{
 			686, -- [1]
@@ -359,14 +359,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["num_stacks"] = 0,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [10]
 	},
 }

@@ -27,6 +27,13 @@ X: 201
 Y: 72
 W: 170
 H: 40
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -199
+Y: 11
+W: 50
+H: 50
 Frame: DetailsPlayerDetailsWindow
 FrameLevel: 1
 Anchor: CENTER
@@ -62,10 +69,3 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -199
-Y: 11
-W: 50
-H: 50

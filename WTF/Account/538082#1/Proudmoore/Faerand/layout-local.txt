@@ -13,6 +13,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -211
+Y: 22
+W: 75
+H: 75
 Frame: mOnWD_MainFrame
 FrameLevel: 1
 Anchor: TOPLEFT
@@ -34,10 +41,3 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -211
-Y: 22
-W: 75
-H: 75

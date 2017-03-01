@@ -13,6 +13,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -209
+Y: 25
+W: 70
+H: 70
 Frame: ChartViewerWindowFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,10 +55,3 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -209
-Y: 25
-W: 70
-H: 70
