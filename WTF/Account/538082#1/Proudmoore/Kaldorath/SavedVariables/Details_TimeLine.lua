@@ -1,37 +1,47 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["combat_data"] = {
+		{
+			["date_start"] = "13:41:11",
+			["date_end"] = "13:42:33",
+			["name"] = "Odyn",
+			["total_time"] = 82.0049999999992,
+		}, -- [1]
+		{
+			["date_start"] = "13:38:28",
+			["date_end"] = "13:40:20",
+			["name"] = "God-King Skovald",
+			["total_time"] = 112.004999999999,
+		}, -- [2]
+		{
+			["date_start"] = "13:31:41",
+			["date_end"] = "13:32:58",
+			["name"] = "Fenryr",
+			["total_time"] = 77.0079999999998,
+		}, -- [3]
+		{
+			["date_start"] = "13:30:48",
+			["date_end"] = "13:31:33",
+			["name"] = "Fenryr",
+			["total_time"] = 45.0059999999994,
+		}, -- [4]
+	},
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Silentnight-Darkspear"] = {
-				{
-					59.9210000000003, -- [1]
-					"Silentnight-Darkspear", -- [2]
-					15286, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Jalarius-Sargeras"] = {
-				{
-					14.244999999999, -- [1]
-					"Kaldorath", -- [2]
-					102342, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -51,10 +61,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Kaldorath"] = {
-				[197963] = {
+			["Silentnight-Darkspear"] = {
+				[197965] = {
 					45.7780000000003, -- [1]
-					49.3469999999998, -- [2]
+					53.3809999999994, -- [2]
 					["source"] = "Odyn",
 					["active"] = false,
 				},
@@ -67,10 +77,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Silentnight-Darkspear"] = {
-				[197965] = {
+			["Kaldorath"] = {
+				[197963] = {
 					45.7780000000003, -- [1]
-					53.3809999999994, -- [2]
+					49.3469999999998, -- [2]
 					["source"] = "Odyn",
 					["active"] = false,
 				},
@@ -127,9 +137,21 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Kaldorath"] = {
+			["Silentnight-Darkspear"] = {
+				[197556] = {
+					50.2579999999998, -- [1]
+					54.9349999999995, -- [2]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
+				[196838] = {
+					65.4049999999988, -- [1]
+					71.4139999999989, -- [2]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
 				[196497] = {
-					54.9470000000001, -- [1]
+					14.3439999999991, -- [1]
 					75.2420000000002, -- [2]
 					["source"] = "Fenryr",
 					["active"] = false,
@@ -151,21 +173,9 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Silentnight-Darkspear"] = {
-				[197556] = {
-					50.2579999999998, -- [1]
-					54.9349999999995, -- [2]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
-				[196838] = {
-					65.4049999999988, -- [1]
-					71.4139999999989, -- [2]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
+			["Kaldorath"] = {
 				[196497] = {
-					14.3439999999991, -- [1]
+					54.9470000000001, -- [1]
 					75.2420000000002, -- [2]
 					["source"] = "Fenryr",
 					["active"] = false,
@@ -175,40 +185,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "13:42:33",
-			["date_start"] = "13:41:11",
-			["name"] = "Odyn",
-			["total_time"] = 82.0049999999992,
-		}, -- [1]
-		{
-			["date_end"] = "13:40:20",
-			["date_start"] = "13:38:28",
-			["name"] = "God-King Skovald",
-			["total_time"] = 112.004999999999,
-		}, -- [2]
-		{
-			["date_end"] = "13:32:58",
-			["date_start"] = "13:31:41",
-			["name"] = "Fenryr",
-			["total_time"] = 77.0079999999998,
-		}, -- [3]
-		{
-			["date_end"] = "13:31:33",
-			["date_start"] = "13:30:48",
-			["name"] = "Fenryr",
-			["total_time"] = 45.0059999999994,
-		}, -- [4]
-	},
-	["deaths_data"] = {
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
+			["Silentnight-Darkspear"] = {
+				{
+					59.9210000000003, -- [1]
+					"Silentnight-Darkspear", -- [2]
+					15286, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
 		}, -- [3]
 		{
+			["Jalarius-Sargeras"] = {
+				{
+					14.244999999999, -- [1]
+					"Kaldorath", -- [2]
+					102342, -- [3]
+				}, -- [1]
+			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 }
