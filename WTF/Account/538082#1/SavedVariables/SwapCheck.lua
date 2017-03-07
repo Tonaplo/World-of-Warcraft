@@ -1,15 +1,14 @@
 
 swapBlasterList = {
-	["Kaemnsux"] = 15,
-	["Nardolas"] = 13,
-	["Acekicker"] = 2,
-	["Ellestria"] = 1,
-	["Zaelsynth"] = 1,
-	["Olongson"] = 11,
-	["Kalithumos"] = 2,
-	["Ileiaris"] = 2,
-	["Slicedlol"] = 3,
-	["Coaxed"] = 3,
+	["Kaemnsux"] = 6,
+	["Eärendìl"] = 3,
+	["Acekicker"] = 1,
+	["Slicedlol"] = 4,
+	["Sombrador"] = 1,
+	["Nardolas"] = 2,
+	["Ileiaris"] = 3,
+	["Ellestria"] = 3,
+	["Coaxed"] = 8,
 }
-lastSwapCaster = nil
-lastSwapTime = 0
+lastSwapCaster = "Coaxed"
+lastSwapTime = 13077.414
