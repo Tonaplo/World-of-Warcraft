@@ -1,17 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -22,7 +10,44 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "22:46:15",
+			["date_start"] = "22:45:33",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 42.0039999999999,
+		}, -- [1]
+		{
+			["date_end"] = "22:42:47",
+			["date_start"] = "22:41:26",
+			["name"] = "Dresaron",
+			["total_time"] = 81.009,
+		}, -- [2]
+		{
+			["date_end"] = "22:39:31",
+			["date_start"] = "22:38:28",
+			["name"] = "Oakheart",
+			["total_time"] = 63,
+		}, -- [3]
+		{
+			["date_end"] = "22:34:17",
+			["date_start"] = "22:33:40",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 37.0010000000002,
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Eros-Ner'zhul"] = {
@@ -43,34 +68,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
-			["Dizneylycan-Mok'Nathal"] = {
-				[199460] = {
-					56.3629999999994, -- [1]
-					58.5879999999997, -- [2]
-					79.3609999999999, -- [3]
-					80.7179999999999, -- [4]
-					["source"] = "Dresaron",
-					["active"] = false,
-				},
-			},
-			["Keptyk-Kilrogg"] = {
-				[191326] = {
-					27.0019999999995, -- [1]
-					33.0049999999992, -- [2]
-					48.8209999999999, -- [3]
-					56.808, -- [4]
-					63.3399999999992, -- [5]
-					71.3339999999998, -- [6]
-					["source"] = "Dresaron",
-					["active"] = false,
-				},
-				[199460] = {
-					33.3339999999998, -- [1]
-					36.4449999999997, -- [2]
-					["source"] = "Dresaron",
-					["active"] = false,
-				},
-			},
 			["Eros-Ner'zhul"] = {
 				[191326] = {
 					27.0019999999995, -- [1]
@@ -95,6 +92,34 @@ DetailsTimeLineDB = {
 					57.9839999999995, -- [2]
 					79.3309999999992, -- [3]
 					80.701, -- [4]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Dizneylycan-Mok'Nathal"] = {
+				[199460] = {
+					56.3629999999994, -- [1]
+					58.5879999999997, -- [2]
+					79.3609999999999, -- [3]
+					80.7179999999999, -- [4]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Keptyk-Kilrogg"] = {
+				[191326] = {
+					27.0019999999995, -- [1]
+					33.0049999999992, -- [2]
+					48.8209999999999, -- [3]
+					56.808, -- [4]
+					63.3399999999992, -- [5]
+					71.3339999999998, -- [6]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+				[199460] = {
+					33.3339999999998, -- [1]
+					36.4449999999997, -- [2]
 					["source"] = "Dresaron",
 					["active"] = false,
 				},
@@ -163,36 +188,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "22:46:15",
-			["date_start"] = "22:45:33",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 42.0039999999999,
-		}, -- [1]
-		{
-			["date_end"] = "22:42:47",
-			["date_start"] = "22:41:26",
-			["name"] = "Dresaron",
-			["total_time"] = 81.009,
-		}, -- [2]
-		{
-			["date_end"] = "22:39:31",
-			["date_start"] = "22:38:28",
-			["name"] = "Oakheart",
-			["total_time"] = 63,
-		}, -- [3]
-		{
-			["date_end"] = "22:34:17",
-			["date_start"] = "22:33:40",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 37.0010000000002,
-		}, -- [4]
 	},
 }
