@@ -49,14 +49,14 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 55724271,
-							["Farahn"] = 286374253,
+							["Farahn"] = 296325319,
 							["Greybone"] = 45968633,
 							["Amranar"] = 494519694,
 							["Granjior"] = 305808321,
 							["Kaldorath"] = 107439342,
 							["Faerand"] = 71984483,
 							["Mallusof"] = 1162234125,
-							["Fimwack"] = 159233379,
+							["Fimwack"] = 166312611,
 							["Morifa"] = 525691911,
 							["Rahran"] = 340810261,
 							["Praerend"] = 757716374,
@@ -86,7 +86,8 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["FPS"] = {
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
@@ -99,25 +100,24 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
+					["CombatLock"] = true,
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -907,13 +907,7 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -925,13 +919,19 @@ LUIDB = {
 						0.98, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1070,7 +1070,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1082,19 +1088,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1233,13 +1233,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1251,13 +1245,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1397,13 +1397,7 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1415,17 +1409,23 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.95, -- [1]
@@ -1484,38 +1484,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i not as it used to", -- [1]
-							"/i Heals is brb, watch yourselves", -- [2]
-							"/i DH are you trying?", -- [3]
-							"/i I know bud", -- [4]
-							"/cw Albia-Hellscream I was mostly trolling Shammy", -- [5]
-							"/s dude", -- [6]
-							"/i all three DPS", -- [7]
-							"/i yup", -- [8]
-							"/i all three DPS", -- [9]
+							"/i yup", -- [1]
+							"/2 LF Large and active PvE guild", -- [2]
+							"/s hmm", -- [3]
+							"/2 LF Large and active PvE guild", -- [4]
+							"/i rofl", -- [5]
+							"/s hmm", -- [6]
+							"/2 LF Large and active PvE guild", -- [7]
+							"/i rofl", -- [8]
+							"/2 LF Large and active PvE guild", -- [9]
 							"/s hmm", -- [10]
-							"/i Heals is brb, watch yourselves", -- [11]
-							"/i I know bud", -- [12]
-							"/s dude", -- [13]
-							"/i yup", -- [14]
-							"/s hmm", -- [15]
-							"/i I know bud", -- [16]
-							"/i yup", -- [17]
-							"/i I know bud", -- [18]
-							"/s soulstones", -- [19]
-							"/s healer is locked out", -- [20]
-							"/cw Êlspéth-Sargeras Could I have cloak?", -- [21]
-							"/cw Êlspéth-Sargeras thanks :)", -- [22]
-							"/cw Êlspéth-Sargeras ty!", -- [23]
-							"/i LOL", -- [24]
-							"/i hahahahaha", -- [25]
-							"/i I know what happened, lol", -- [26]
-							"/i rofl", -- [27]
-							"/i newly dinged 110 dude :P", -- [28]
-							"/i I'm doing my best :P", -- [29]
-							"/i I know it's not much :P", -- [30]
-							"/i well that was fun :P", -- [31]
-							"/i ty", -- [32]
+							"/2 LF Large and active PvE guild", -- [11]
+							"/i rofl", -- [12]
+							"/s my bad", -- [13]
+							"/s hmm", -- [14]
+							"/i yup", -- [15]
+							"/2 LF Large and active PvE guild", -- [16]
+							"/s hmm", -- [17]
+							"/2 LF Large and active PvE guild", -- [18]
+							"/i rofl", -- [19]
+							"/s hmm", -- [20]
+							"/2 LF Large and active PvE guild", -- [21]
+							"/i rofl", -- [22]
+							"/2 LF Large and active PvE guild", -- [23]
+							"/s hmm", -- [24]
+							"/i rofl", -- [25]
+							"/s hmm", -- [26]
+							"/2 LF Large and active PvE guild", -- [27]
+							"/i rofl", -- [28]
+							"/2 LF Large and active PvE guild", -- [29]
+							"/s hmm", -- [30]
+							"/2 LF Large and active PvE guild", -- [31]
+							"/s hmm", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
 							"/g Great Guild Message", -- [1]
@@ -1790,7 +1790,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Rahran - Proudmoore"] = {
+			["Kaldorath - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1801,10 +1801,10 @@ LUIDB = {
 					["bartender"] = 3300,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["Auras"] = 2,
+					["mirrorbar"] = 1,
 					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["mirrorbar"] = 1,
+					["Auras"] = 2,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -1836,11 +1836,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Farahn - Proudmoore"] = {
@@ -1855,11 +1855,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Morifa - Proudmoore"] = {
@@ -1871,9 +1871,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -1892,11 +1892,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {
@@ -1993,9 +1993,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2014,14 +2014,14 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
-			["Kaldorath - Proudmoore"] = {
+			["Rahran - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -2032,10 +2032,10 @@ LUIDB = {
 					["bartender"] = 3300,
 					["lui"] = 3403,
 					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
+					["Auras"] = 2,
 					["bars"] = 2.4,
 					["threatbar"] = 2,
-					["Auras"] = 2,
+					["mirrorbar"] = 1,
 				},
 			},
 		},
@@ -2050,11 +2050,11 @@ LUIDB = {
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {
