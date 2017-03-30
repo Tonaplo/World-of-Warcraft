@@ -361,7 +361,7 @@ local function CreatePluginFrames()
 	TimeLineFrame.Height = 498
 	
 	local mode_buttons_y_pos = 10
-	local mode_buttons_width = 140
+	local mode_buttons_width = 100
 	local mode_buttons_height = 20
 	
 	local CONST_TOTAL_TIMELINES = 20
@@ -482,6 +482,7 @@ local function CreatePluginFrames()
 		
 	--> dropdown select combat (label)
 		local select_segment_label = DetailsFrameWork:NewLabel (TimeLineFrame, nil, "$parentSegmentLabel", nil, Loc ["STRING_SELECT_SEGMENT"], "GameFontNormal", nil, "orange")
+		select_segment_label.textsize = 9
 		
 	--> dropdown select combat (dropdown)
 		local selectCombatOption = function (_, _, segment)
@@ -513,11 +514,13 @@ local function CreatePluginFrames()
 		show_cooldowns_button:SetPoint ("bottomleft", TimeLineFrame, "bottomleft", 10, mode_buttons_y_pos)
 		show_cooldowns_button:SetIcon ([[Interface\ICONS\Spell_Holy_GuardianSpirit]], nil, nil, nil, {5/64, 59/64, 5/64, 59/64}, nil, nil, 2)
 		show_cooldowns_button:SetTextColor ("orange")
+		show_cooldowns_button.textsize = 9
 
 		local show_debuffs_button = framework:NewButton (TimeLineFrame, _, "$parentModeDebuffsButton", "ModeDebuffsButton", mode_buttons_width, mode_buttons_height, change_mode, type_debuff, nil, nil, "Debuffs", 1, options_button_template)
 		show_debuffs_button:SetPoint ("bottomleft", show_cooldowns_button, "bottomright", 5, 0)
 		show_debuffs_button:SetIcon ([[Interface\ICONS\Spell_Shadow_ShadowWordPain]], nil, nil, nil, {5/64, 59/64, 5/64, 59/64}, nil, nil, 2)
 		show_debuffs_button:SetTextColor ("orange")
+		show_debuffs_button.textsize = 9
 
 		local all_buttons = {show_cooldowns_button, show_debuffs_button}
 	
@@ -580,16 +583,39 @@ local function CreatePluginFrames()
 			end
 		end
 
-		local delete_button = framework:NewButton (TimeLineFrame, _, "$parentDeleteButton", "DeleteButton", 120, 20, delete_button_func, nil, nil, nil, "Reset Data", 1, options_button_template)
+		local delete_button = framework:NewButton (TimeLineFrame, _, "$parentDeleteButton", "DeleteButton", 100, 20, delete_button_func, nil, nil, nil, "Reset Data", 1, options_button_template)
 		delete_button:SetPoint ("bottomright", TimeLineFrame, "bottomright", -10, 10)
 		delete_button:SetIcon ([[Interface\Buttons\UI-StopButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
 		delete_button:SetTextColor ("orange")
+		delete_button.textsize = 9
 		
-		local options_button = framework:NewButton (TimeLineFrame, _, "$parentOptionsPanelButton", "OptionsPanelButton", 120, 20, TimeLine.OpenOptionsPanel, nil, nil, nil, "Options", 1, options_button_template)
+		local options_button = framework:NewButton (TimeLineFrame, _, "$parentOptionsPanelButton", "OptionsPanelButton", 100, 20, TimeLine.OpenOptionsPanel, nil, nil, nil, "Options", 1, options_button_template)
 		options_button:SetPoint ("right", delete_button, "left", 2, 0)
 		options_button:SetIcon ([[Interface\Buttons\UI-OptionsButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
 		options_button:SetTextColor ("orange")
+		options_button.textsize = 9
+		
+		--
+			local useIconsFunc = function()
+				TimeLine.db.useicons = not TimeLine.db.useicons
+				TimeLine:Refresh()
+			end
+			
+			local useIconsText = framework:CreateLabel (TimeLineFrame, "Spell Icons", 10, "orange", nil, "UseIconsLabel", nil, "overlay")
+			useIconsText:SetPoint ("right", options_button, "left", -2, 0)
 
+			local useIconsCheckbox = framework:CreateSwitch (TimeLineFrame, useIconsFunc, false)
+			useIconsCheckbox:SetTemplate (framework:GetTemplate ("switch", "OPTIONS_CHECKBOX_TEMPLATE"))
+			useIconsCheckbox:SetAsCheckBox()
+			useIconsCheckbox:SetSize (16, 16)
+			useIconsCheckbox:SetPoint ("right", useIconsText, "left", -2, 0)
+			
+			function TimeLine:UpdateShowSpellIconState()
+				useIconsCheckbox:SetValue (TimeLine.db.useicons)
+			end
+			
+		--
+		
 	--> search field
 		local onPressEnter = function (_, _, text)
 			if (text) then
@@ -599,6 +625,7 @@ local function CreatePluginFrames()
 		end
 		
 		local search_label = DetailsFrameWork:NewLabel (TimeLineFrame, nil, "$parentSearchLabel", nil, Loc ["STRING_SEARCH"], "GameFontNormal", nil, "orange")
+		search_label.textsize = 9
 		search_label:SetPoint ("left", show_debuffs_button, "right", 5, 0)
 		local searchbox = DetailsFrameWork:NewTextEntry (TimeLineFrame, _, "$parentSearch", "searchbox", 100, 20, onPressEnter, nil, nil, nil, nil, options_button_template)
 		searchbox:SetPoint ("left", search_label, "right", 2, 0)
@@ -633,7 +660,6 @@ local function CreatePluginFrames()
 	--> set the point on the segment box
 	select_segment_label:SetPoint ("left", clearsearch, "right", 2, 0)
 	select_segment_dropdown:SetPoint ("left", select_segment_label, "right", 2, 0)
-	
 
 	local backdrop_row = {bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tile = true, tileSize = 16, insets = {left = 0, right = 0, top = 0, bottom = 0}}
 	
@@ -832,6 +858,11 @@ local function CreatePluginFrames()
 		
 		block.texture:SetColorTexture (unpack (color))
 		
+		if (TimeLine.db.useicons) then
+			local _, _, icon = GetSpellInfo (spellid)
+			block.texture:SetTexture (icon)
+		end
+		
 		if (search) then
 			local spellname = GetSpellInfo (spellid)
 			spellname = string.lower (spellname)
@@ -996,7 +1027,7 @@ local function CreatePluginFrames()
 							block = row.blocks [o]
 						end
 						
-						local debuff_elapsed = end_time - start_time
+						local debuff_elapsed = (end_time or 0) - (start_time or 0)
 						
 						block.debuff_start = start_time
 						block.debuff_end = end_time
@@ -1181,7 +1212,7 @@ function TimeLine:OnCooldown (token, time, who_serial, who_name, who_flags, targ
 	end
 	
 	local data = {_combat_object:GetCombatTime(), target_name, spellid}
-
+	
 	local player_table = TimeLine.current_battle_cooldowns_timeline [who_name]
 	
 	if (not player_table) then
@@ -1380,6 +1411,7 @@ function TimeLine:OnEvent (_, event, ...)
 					DetailsTimeLineDB = db
 					
 					db.hide_on_combat = false
+					db.useicons = false
 					db.max_segments = 4
 					db.backdrop_color = {0, 0, 0, .4}
 					db.window_scale = 1
@@ -1426,6 +1458,7 @@ function TimeLine:OnEvent (_, event, ...)
 				end
 				
 				TimeLine:RefreshBackgroundColor()
+				TimeLine:UpdateShowSpellIconState()
 				
 			end
 		end

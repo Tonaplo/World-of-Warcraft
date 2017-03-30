@@ -65,7 +65,7 @@ function SwapCheck_EventHandler(self, event, ...)
 				else
 					SendChatMessage("A fuckface called " .. casterName .. " used Swapblaster, but got fucked by Neural Silencer", "YELL", DEFAULT_CHAT_FRAME.editBox.languageID);
 				end
-				SendChatMessage("Hey " .. casterName .. ", you're an asshole for using the Swapblaster.", "WHISPER", nil, casterName)
+				--SendChatMessage("Hey " .. casterName .. ", you're an asshole for using the Swapblaster.", "WHISPER", nil, casterName)
 			
 				-- Mark the last person that did this horrible thing.
 				lastSwapTime = currentTime;

@@ -52,26 +52,6 @@ if L then
 	L[205445] = "|T1391537:15:15:0:0:64:64:4:60:4:60|t|cFFFF0000天狼|r"
 	L[216345] = "|T1391536:15:15:0:0:64:64:4:60:4:60|t|cFF00FF00猎户|r"
 	L[216344] = "|T1391535:15:15:0:0:64:64:4:60:4:60|t|cFF00DDFF天龙|r"
-
-	L.nameplate_requirement = "此功能当前只支持 KuiNameplates。只限史诗难度。"
-
-	L.custom_off_icy_ejection_nameplates = "显示 {206936} 到友方姓名板。" -- Icy Ejection
-	L.custom_off_icy_ejection_nameplates_desc = L.nameplate_requirement
-
-	L.custom_on_fel_ejection_nameplates = "显示 {205649} 到友方姓名板。" -- Fel Ejection
-	L.custom_on_fel_ejection_nameplates_desc = L.nameplate_requirement
-
-	L.custom_on_gravitational_pull_nameplates = "显示 {214335} 到友方姓名板。" -- Gravitational Pull
-	L.custom_on_gravitational_pull_nameplates_desc = L.nameplate_requirement
-
-	L.custom_on_grand_conjunction_nameplates = "显示 {205408} 到友方姓名板。" -- Grand Conjunction
-	L.custom_on_grand_conjunction_nameplates_desc = L.nameplate_requirement
-
-	L.custom_off_gc_replacement_icons = "{205408} 使用更明亮些的图标"
-	L.custom_off_gc_replacement_icons_desc = "替换姓名板上强力联结图标获得更加的视觉效果："
-
-	L.custom_off_gc_redgreen_icons = "{205408} 只使用红色和绿色"
-	L.custom_off_gc_redgreen_icons_desc = "更改姓名板匹配星座标记图标为 |T876914:15:15:0:0:64:64:4:60:4:60|t 不匹配星座标记为 |T876915:15:15:0:0:64:64:4:60:4:60|t。"
 end
 
 L = BigWigs:NewBossLocale("Grand Magistrix Elisande", "zhCN")
@@ -81,18 +61,25 @@ if L then
 	L.ring_yell = "让时间的浪潮碾碎你们！"
 	L.orb_yell = "你们会发现，时间极不稳定。"
 
+	L.slowTimeZone = "时间减速区域"
 	L.fastTimeZone = "时间加速区域"
+
+	L.boss_active = "艾利桑德激活"
+	L.boss_active_desc = "清理小怪事件到艾利桑德激活计时。"
+	L.elisande_trigger = "我早就预见了你们的到来，命运指引你们来到此地。为了阻止军团，你们想背水一战。"
 end
 
 L = BigWigs:NewBossLocale("Gul'dan", "zhCN")
 if L then
-	L[211152] = "（强化）%s"
+	L.empowered = "（强化）%s"
 	L.gains = "古尔丹获得 >%s<"
-	--L.p4_mythic_start_yell = "Time to return the demon hunter's soul to his body... and deny the Legion's master a host!"
+	L.p4_mythic_start_yell = "该让这个恶魔猎手的灵魂回到躯体中……防止军团之王占据它了！"
 
-	L.nightorb_desc = "召唤夜之球，击杀后将出现时间区域。"
+	L.nightorb_desc = "召唤暗夜宝珠，击杀后将出现时间停止力场。"
 
 	L.manifest_desc = "召唤埃辛诺斯灵魂碎片，击杀后将出现恶魔精华。"
+
+	L.winds_desc = "古尔丹召唤暴虐之风将玩家吹离平台。"
 end
 
 L = BigWigs:NewBossLocale("Nighthold Trash", "zhCN")
@@ -119,8 +106,9 @@ if L then
 	L.weaver = "暮色卫队织法者"
 	L.archmage = "夏多雷大法师"
 	L.manasaber = "驯养的魔刃豹"
+	L.naturalist = "夏多雷自然学家"
 
-	--[[ Aluriel to Krosos ]]--
+	--[[ Aluriel to Krosus ]]--
 	L.infernal = "灼热的地狱火"
 
 	--[[ Aluriel to Tichondrius ]]--

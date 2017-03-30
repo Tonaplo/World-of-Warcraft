@@ -1,5 +1,19 @@
 
-settings = {
-	["swpChkEnabled"] = 1,
-	["announceType"] = "AUTO",
+swapBlasterList = {
+	["Kaemnsux"] = 11,
+	["Deepsidont"] = 4,
+	["Eärendìl"] = 5,
+	["Tetsunochi"] = 3,
+	["Acekicker"] = 19,
+	["Slicedlol"] = 17,
+	["Mactoventus"] = 4,
+	["Sombrador"] = 6,
+	["Zaelsynth"] = 1,
+	["Ellestria"] = 7,
+	["Nardolas"] = 5,
+	["Ileiaris"] = 9,
+	["Kalithumos"] = 1,
+	["Coaxed"] = 17,
 }
+lastSwapCaster = "Deepsidont"
+lastSwapTime = 15384.688

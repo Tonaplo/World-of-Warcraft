@@ -1,5 +1,5 @@
 
-local dversion = 48
+local dversion = 49
 local major, minor = "DetailsFramework-1.0", dversion
 local DF, oldminor = LibStub:NewLibrary (major, minor)
 
@@ -414,13 +414,13 @@ end
 		end
 		
 		if (_type (v1) == "string") then
-			--local frameGlobal = _G [v1]
+			local frameGlobal = _G [v1]
 			if (frameGlobal and frameGlobal.GetObjectType) then
 				return DF:CheckPoints (frameGlobal, v2, v3, v4, v5, object)
 			end
 			
 		elseif (_type (v2) == "string") then
-			--local frameGlobal = _G [v2]
+			local frameGlobal = _G [v2]
 			if (frameGlobal and frameGlobal.GetObjectType) then
 				return DF:CheckPoints (v1, frameGlobal, v3, v4, v5, object)
 			end

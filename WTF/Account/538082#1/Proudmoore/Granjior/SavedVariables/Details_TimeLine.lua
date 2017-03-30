@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "21:26:06",
-			["date_end"] = "21:27:21",
-			["name"] = "Odyn",
-			["total_time"] = 75.0029999999997,
-		}, -- [1]
-		{
-			["date_start"] = "21:24:07",
-			["date_end"] = "21:25:15",
-			["name"] = "God-King Skovald",
-			["total_time"] = 68.0050000000001,
-		}, -- [2]
-		{
-			["date_start"] = "21:20:21",
-			["date_end"] = "21:20:58",
-			["name"] = "Hymdall",
-			["total_time"] = 37,
-		}, -- [3]
-		{
-			["date_start"] = "21:16:52",
-			["date_end"] = "21:18:37",
-			["name"] = "Fenryr",
-			["total_time"] = 105.003,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -54,13 +36,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Gatebreaker-Dalaran"] = {
@@ -87,18 +62,18 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Granjior"] = {
-				[197966] = {
-					45.8239999999996, -- [1]
-					50.7370000000001, -- [2]
-					["source"] = "Odyn",
-					["active"] = false,
-				},
-			},
 			["Grumpyween-Aggramar"] = {
 				[197963] = {
 					45.8239999999996, -- [1]
 					51.4519999999993, -- [2]
+					["source"] = "Odyn",
+					["active"] = false,
+				},
+			},
+			["Granjior"] = {
+				[197966] = {
+					45.8239999999996, -- [1]
+					50.7370000000001, -- [2]
 					["source"] = "Odyn",
 					["active"] = false,
 				},
@@ -109,6 +84,22 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+			["Gatebreaker-Dalaran"] = {
+				[197556] = {
+					12.0819999999994, -- [1]
+					15.5909999999994, -- [2]
+					48.5289999999996, -- [3]
+					53.7139999999999, -- [4]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
+				[196497] = {
+					16.1399999999994, -- [1]
+					61.2089999999998, -- [2]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
+			},
 			["Rallock-Magtheridon"] = {
 				[197556] = {
 					12.0819999999994, -- [1]
@@ -125,17 +116,15 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Gatebreaker-Dalaran"] = {
+			["Vlavfu-Sargeras"] = {
 				[197556] = {
-					12.0819999999994, -- [1]
-					15.5909999999994, -- [2]
-					48.5289999999996, -- [3]
-					53.7139999999999, -- [4]
+					48.5289999999996, -- [1]
+					52.1329999999998, -- [2]
 					["source"] = "Fenryr",
 					["active"] = false,
 				},
 				[196497] = {
-					16.1399999999994, -- [1]
+					53.0889999999999, -- [1]
 					61.2089999999998, -- [2]
 					["source"] = "Fenryr",
 					["active"] = false,
@@ -165,20 +154,32 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Vlavfu-Sargeras"] = {
-				[197556] = {
-					48.5289999999996, -- [1]
-					52.1329999999998, -- [2]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
-				[196497] = {
-					53.0889999999999, -- [1]
-					61.2089999999998, -- [2]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
-			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "21:26:06",
+			["date_end"] = "21:27:21",
+			["name"] = "Odyn",
+			["total_time"] = 75.0029999999997,
+		}, -- [1]
+		{
+			["date_start"] = "21:24:07",
+			["date_end"] = "21:25:15",
+			["name"] = "God-King Skovald",
+			["total_time"] = 68.0050000000001,
+		}, -- [2]
+		{
+			["date_start"] = "21:20:21",
+			["date_end"] = "21:20:58",
+			["name"] = "Hymdall",
+			["total_time"] = 37,
+		}, -- [3]
+		{
+			["date_start"] = "21:16:52",
+			["date_end"] = "21:18:37",
+			["name"] = "Fenryr",
+			["total_time"] = 105.003,
 		}, -- [4]
 	},
 	["deaths_data"] = {
@@ -191,5 +192,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

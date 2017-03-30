@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: 4
-Y: 80
-W: 85
-H: 55
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER

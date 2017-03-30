@@ -1,25 +1,13 @@
-changeset:   56:34d5950927d3
-tag:         tip
+changeset:   59:6e21ada8d5c7
+tag:         v58-release
 user:        Tercio
-date:        Thu Dec 29 14:08:49 2016 -0200
-summary:     - finished the layout transition to match all other plugin apearances.
+date:        Tue Mar 28 19:23:45 2017 -0300
+summary:     - 7.2 ToC Update.
 
 
-changeset:   55:33fb71a0f483
+changeset:   58:29a77789aad8
 user:        Tercio
-date:        Mon Nov 28 17:02:47 2016 -0200
-summary:     Added tag v1.10 release for changeset cd3f584aafcf
-
-
-changeset:   54:62db5bbb8328
-user:        Tercio
-date:        Mon Nov 28 16:58:29 2016 -0200
-summary:     Added tag r1.1 for changeset cd3f584aafcf
-
-
-changeset:   53:d72c83c4bb87
-user:        Tercio
-date:        Mon Nov 28 16:55:42 2016 -0200
-summary:     Added tag v1.1 for changeset cd3f584aafcf
+date:        Wed Mar 01 11:09:01 2017 -0300
+summary:     Added tag v57-release for changeset e8ff9d7a7126
 
 

@@ -1541,7 +1541,10 @@ do
 			[91797]	= true, -- Monstrous Blow
 			[115001]	= true, -- Remorseless Winter (Stunned)
 			[47476]	= true, -- Strangulate
-			
+		
+		--deamon hunter
+			[217832]	= true, -- Imprison
+		
 		--druid
 			[33786] 	= true, -- Cyclone
 			[339]		= true, -- Entangling Toots
@@ -1555,6 +1558,7 @@ do
 			[81261] 	= true, -- Solar Beam
 			[107566] 	= true, -- Staggering Shout
 			[16979]	= true, -- Wild Charge (talent)
+			[209753]	= true, -- Cyclone (honor talent)
 
 		--hunter
 			[117405]	= true, -- Binding Shot
@@ -1651,6 +1655,7 @@ do
 			[30283]	= true, -- Shadowfury
 			[19647]	= true, -- Spell Lock (Felhunters)
 			[31117]	= true, -- Unstable Affliction
+			[179057]	= true, --Chaos Nova
 			
 		--warrior
 			[100]		= true, -- Charge
@@ -1849,8 +1854,7 @@ do
 		[47788] = {180, 10}, -- Guardian Spirit
 		[47585] = {120, 6}, -- Dispersion
 		[33206] = {180, 8}, -- Pain Suppression
-		[64901] = {360, 8}, -- Symbol of Hope
-		["PRIEST"] = {15286, 47788, 47585, 33206, 62618, 109964, 64843, 64901}, --108968 142723
+		["PRIEST"] = {15286, 47788, 47585, 33206, 62618, 109964, 64843}, --108968 142723
 		
 		-- Rogue
 		[1966] = {1.5, 5}, -- Feint

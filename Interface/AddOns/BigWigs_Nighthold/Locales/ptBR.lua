@@ -52,20 +52,6 @@ if L then
 	--L[205445] = "|T1391537:15:15:0:0:64:64:4:60:4:60|t|cFFFF0000Wolf|r"
 	--L[216345] = "|T1391536:15:15:0:0:64:64:4:60:4:60|t|cFF00FF00Hunter|r"
 	--L[216344] = "|T1391535:15:15:0:0:64:64:4:60:4:60|t|cFF00DDFFDragon|r"
-
-	--L.nameplate_requirement = "This feature is currently only supported by KuiNameplates. Mythic only."
-
-	--L.custom_off_icy_ejection_nameplates = "Show {206936} on friendly nameplates" -- Icy Ejection
-	--L.custom_off_icy_ejection_nameplates_desc = L.nameplate_requirement
-
-	--L.custom_on_fel_ejection_nameplates = "Show {205649} on friendly nameplates" -- Fel Ejection
-	--L.custom_on_fel_ejection_nameplates_desc = L.nameplate_requirement
-
-	--L.custom_on_gravitational_pull_nameplates = "Show {214335} on friendly nameplates" -- Gravitational Pull
-	--L.custom_on_gravitational_pull_nameplates_desc = L.nameplate_requirement
-
-	--L.custom_on_grand_conjunction_nameplates = "Show {205408} on friendly nameplates" -- Grand Conjunction
-	--L.custom_on_grand_conjunction_nameplates_desc = L.nameplate_requirement
 end
 
 L = BigWigs:NewBossLocale("Grand Magistrix Elisande", "ptBR")
@@ -75,18 +61,25 @@ if L then
 	--L.ring_yell = "Let the waves of time crash over you!"
 	--L.orb_yell = "You'll find time can be quite volatile."
 
+	--L.slowTimeZone = "Slow Time Zone"
 	--L.fastTimeZone = "Fast Time Zone"
+
+	--L.boss_active = "Elisande Active"
+	--L.boss_active_desc = "Time until Elisande is active after clearing the trash event."
+	--L.elisande_trigger = "I foresaw your coming, of course. The threads of fate that led you to this place. Your desperate attempt to stop the Legion."
 end
 
 L = BigWigs:NewBossLocale("Gul'dan", "ptBR")
 if L then
-	--L[211152] = "(E) %s" -- (E) Eye of Gul'dan
+	--L.empowered = "(E) %s" -- (E) Eye of Gul'dan
 	--L.gains = "Gul'dan gains %s"
 	--L.p4_mythic_start_yell = "Time to return the demon hunter's soul to his body... and deny the Legion's master a host!"
 
 	--L.nightorb_desc = "Summons a Nightorb, killing it will spawn a Time Zone."
 
 	--L.manifest_desc = "Summons a Soul Fragment of Azzinoth, killing it will spawn a Demonic Essence."
+
+	--L.winds_desc = "Gul'dan summons Violent Winds to push the players off the platform."
 end
 
 L = BigWigs:NewBossLocale("Nighthold Trash", "ptBR")
@@ -113,16 +106,12 @@ if L then
 	--L.weaver = "Duskwatch Weaver"
 	--L.archmage = "Shal'dorei Archmage"
 	--L.manasaber = "Domesticated Manasaber"
+	L.naturalist = "Naturalista Shal'dorei"
 
-	--[[ Aluriel to Krosos ]]--
+	--[[ Aluriel to Krosus ]]--
 	--L.infernal = "Searing Infernal"
 
 	--[[ Aluriel to Tichondrius ]]--
 	--L.watcher = "Abyss Watcher"
 end
 
-
-local L = BigWigs:NewBossLocale("Krosus", "ptBR")
-if L then
-
-end

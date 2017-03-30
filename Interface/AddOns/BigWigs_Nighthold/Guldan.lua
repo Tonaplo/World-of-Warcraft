@@ -2,7 +2,6 @@
 --------------------------------------------------------------------------------
 -- TODO List:
 -- - Soul Siphon CD
--- - Change all empowered abilities to use bar texts like (E) Eye of Gul'dan
 
 --------------------------------------------------------------------------------
 -- Module Declaration
@@ -27,11 +26,24 @@ local blackHarvestCount = 1
 local stormCount = 1
 local flamesCount = 1
 local eyeCount = 1
+local eyeOnMe = false
 local severCount = 1
 local crashCounter = 1
 local orbCounter = 1
 local visionCounter = 1
 local timeStopCheck = nil
+local liquidHellfireEmpowered = false
+local eyeEmpowered = false
+local bondsEmpowered = false
+local expectedBonds = mod:Mythic() and 4 or 3
+local parasiteSayTimers = {}
+local normalTimers = {
+	-- Black Harvest (206744 _start), after 227427 _applied
+	[206744] = {71.2, 82.8, 100}, -- not sure if complete
+
+	-- Empowered Eye of Gul'dan P3 (211152 _start), after 227427 _applied
+	[211152] = {42.7, 71.4, 71.4, 28.6, 114.3}, -- not sure if complete
+}
 local heroicTimers = {
 	-- Hand of Gul'dan P2
 	[212258] = {13.5, 48.9, 138.9}, -- not sure if complete, next is at least over 105s
@@ -62,10 +74,13 @@ local mythicTimers = {
 	[211152] = {35.1, 52.6, 53.3, 20.4, 84.2, 52.6},
 
 	-- Flames of Sargeras (When applied).
-	[221606] = {25.7, 6.4, 7.4, 29.4, 6.4, 7.4, 29.4, 6.4, 7.4, 29.4, 6.4, 7.4, 29.5, 7.4, 7.4, 28.4, 6.4, 7.4, 28.4, 6.4, 7.4}
+	[221606] = {25.7, 6.4, 7.4, 29.4, 6.4, 7.4, 29.4, 6.4, 7.4, 29.4, 6.4, 7.4, 29.5, 7.4, 7.4, 28.4, 6.4, 7.4, 28.4, 6.4, 7.4},
+
+	-- Violent Winds
+	[218144] = {11.5, 43.4, 66, 75.4}
 }
 
-local timers = mod:Mythic() and mythicTimers or heroicTimers
+local timers = mod:Mythic() and mythicTimers or mod:Heroic() and heroicTimers or normalTimers
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -73,7 +88,7 @@ local timers = mod:Mythic() and mythicTimers or heroicTimers
 
 local L = mod:GetLocale()
 if L then
-	L[211152] = "(E) %s" -- (E) Eye of Gul'dan
+	L.empowered = "(E) %s" -- (E) Eye of Gul'dan
 	L.gains = "Gul'dan gains %s"
 	L.p4_mythic_start_yell = "Time to return the demon hunter's soul to his body... and deny the Legion's master a host!"
 
@@ -84,9 +99,11 @@ if L then
 	L.manifest = "{221149}"
 	L.manifest_desc = "Summons a Soul Fragment of Azzinoth, killing it will spawn a Demonic Essence."
 	L.manifest_icon = "inv_weapon_glave_01"
-end
 
-L[211152] = L[211152]:format(mod:SpellName(209270))
+	L.winds = "{218144}" -- Violent Winds
+	L.winds_desc = "Gul'dan summons Violent Winds to push the players off the platform."
+	L.winds_icon = 218144
+end
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -115,7 +132,7 @@ function mod:GetOptions()
 
 		--[[ Fel Lord Kuraz'mal ]]--
 		{206675, "TANK"}, -- Shatter Essence
-		210273, -- Fel Obelisk
+		229945, -- Fel Obelisk
 
 		--[[ D'zorykx the Trapper ]]--
 		208545, -- Anguished Spirits
@@ -138,6 +155,7 @@ function mod:GetOptions()
 		{227556, "TANK"}, -- Fury of the Fel   XXX untested
 
 		--[[ Mythic ]] --
+		"winds", -- Violent Winds
 		211439, -- Will of the Demon Within
 		220957, -- Soulsever
 		227071, -- Flame Crash
@@ -160,7 +178,7 @@ function mod:GetOptions()
 		[208545] = -14902, -- D'zorykx the Trapper
 		[206339] = -14062, -- Stage Two
 		[221891] = -14090, -- Stage Three
-		[211439] = "mythic",
+		["winds"] = "mythic",
 	}
 end
 
@@ -202,6 +220,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "EyeOfGuldan", 209270, 211152) -- Normal, Empowered
 	self:Log("SPELL_AURA_APPLIED", "EyeOfGuldanApplied", 209454, 221728) -- Normal, Empowered
 	self:Log("SPELL_AURA_REMOVED", "EyeOfGuldanRemoved", 209454, 221728) -- Normal, Empowered
+	self:Log("SPELL_DAMAGE", "EyeofGuldandDamage", 209518, 211132) -- Normal, Empowered
+	self:Log("SPELL_MISSED", "EyeofGuldandDamage", 209518, 211132) -- Normal, Empowered
 	self:Log("SPELL_CAST_START", "CarrionWave", 208672)
 
 	--[[ Stage Three ]]--
@@ -226,10 +246,13 @@ function mod:OnBossEnable()
 	-- Mythic
 	self:Log("SPELL_CAST_START", "WilloftheDemonWithin", 211439)
 	self:Log("SPELL_AURA_APPLIED", "ParasiticWound", 206847)
+	self:Log("SPELL_AURA_REMOVED", "ParasiticWoundRemoved", 206847)
 	self:Log("SPELL_AURA_APPLIED", "ShadowyGaze", 206983)
 	self:Log("SPELL_AURA_APPLIED", "ShearedSoul", 206458)
 	self:Log("SPELL_AURA_APPLIED", "Wounded", 227009)
 	self:Log("SPELL_CAST_START", "Soulsever", 220957)
+	self:Log("SPELL_AURA_APPLIED", "TimeStop", 206310)
+	self:Log("SPELL_AURA_REMOVED", "TimeStopRemoved", 206310)
 	self:Log("SPELL_CAST_START", "VisionsoftheDarkTitan", 227008)
 	self:Log("SPELL_CAST_SUCCESS", "VisionsoftheDarkTitanSuccess", 227008)
 
@@ -249,9 +272,14 @@ function mod:OnEngage()
 	stormCount = 1
 	flamesCount = 1
 	eyeCount = 1
+	eyeOnMe = false
 	obeliskCounter = 1
 	timeStopCheck = nil
-	timers = self:Mythic() and mythicTimers or heroicTimers
+	liquidHellfireEmpowered = false
+	bondsEmpowered = false
+	eyeEmpowered = false
+	expectedBonds = self:Mythic() and 4 or 3
+	timers = self:Mythic() and mythicTimers or self:Heroic() and heroicTimers or normalTimers
 	if self:Mythic() then
 		phase = 2 -- Mythic skips the P1 of heroic
 		self:Bar(212258, timers[212258][handOfGuldanCount], CL.count:format(self:SpellName(212258), handOfGuldanCount)) -- Hand of Gul'dan
@@ -279,7 +307,7 @@ end
 function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 	if spellId == 210273 then -- Fel Obelisk
 		obeliskCounter = obeliskCounter+1
-		self:Message(spellId, "Attention", "Alarm")
+		self:Message(229945, "Attention", "Alarm")
 		self:Bar(229945, self:Mythic() and ((obeliskCounter % 2 == 0) and 5 or 16) or 23) -- Fel Obelisk
 	elseif spellId == 227035 then -- Parasitic Wound
 		self:Bar(206847, 36.0)
@@ -300,20 +328,24 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 end
 
 function mod:RAID_BOSS_EMOTE(event, msg)
-	if msg:find("206221") then -- Gains Empowered Bonds of Fel
+	if msg:find("206221", nil, true) and not bondsEmpowered then -- Gains Empowered Bonds of Fel
+		bondsEmpowered = true
 		self:Message(209011, "Neutral", nil, L.gains:format(self:SpellName(206221)))
 		local oldText = CL.count:format(self:SpellName(209011), bondsCount)
-		self:Bar(209011, self:BarTimeLeft(oldText), CL.count:format(self:SpellName(206221), bondsCount))
+		self:Bar(209011, self:BarTimeLeft(oldText), CL.count:format(L.empowered:format(self:SpellName(209011)), bondsCount)) -- (E) Bonds of Fel
 		self:StopBar(oldText) -- Bonds of Fel
-	elseif msg:find("206220") then -- Empowered Liquid Hellfire
+	elseif msg:find("206220", nil, true) and not liquidHellfireEmpowered then -- Empowered Liquid Hellfire
+		liquidHellfireEmpowered = true -- Fires every cast, not just on gaining empowered
 		self:Message(206219, "Neutral", nil, L.gains:format(self:SpellName(206220)))
 		local oldText = CL.count:format(self:SpellName(206219), liquidHellfireCount)
-		self:Bar(206219, self:BarTimeLeft(oldText), CL.count:format(self:SpellName(206220), liquidHellfireCount))
+		self:Bar(206219, self:BarTimeLeft(oldText), CL.count:format(L.empowered:format(self:SpellName(206219)), liquidHellfireCount)) -- (E) Liquid Hellfire
 		self:StopBar(oldText) -- Liquid Hellfire
-	elseif msg:find("211152") then -- Empowered Eye of Gul'dan
+	elseif msg:find("211152", nil, true) and not eyeEmpowered then -- Empowered Eye of Gul'dan
+		eyeEmpowered = true
 		self:Message(211152, "Neutral", nil, L.gains:format(self:SpellName(211152)))
-		self:Bar(211152, self:BarTimeLeft(209270), L[211152])
-		self:StopBar(209270) -- Eye of Gul'dan
+		local oldText = CL.count:format(self:SpellName(209270), eyeCount)
+		self:Bar(211152, self:BarTimeLeft(oldText), CL.count:format(L.empowered:format(self:SpellName(209270)), eyeCount)) -- (E) Eye of Guldan
+		self:StopBar(oldText) -- Eye of Gul'dan
 	end
 end
 
@@ -344,43 +376,50 @@ end
 
 function mod:EyeOfAmanThul(args)
 	self:Message("stages", "Neutral", "Long", args.spellName, args.spellId)
-	self:Bar(206219, 6) -- Liquid Hellfire
+	self:Bar(206219, 6, CL.count:format(self:SpellName(206219), liquidHellfireCount)) -- Liquid Hellfire
 	self:Bar(206515, 9.8) -- Fel Efflux
 end
 
 function mod:EyeOfAmanThulRemoved(args) -- Phase 2 start
+	self:StopBar(CL.count:format(self:SpellName(206219), liquidHellfireCount)) -- Liquid Hellfire
+	self:StopBar(CL.count:format(self:SpellName(212258), handOfGuldanCount)) -- Hand of Gul'dan
+
 	phase = 2
 	handOfGuldanCount = 1
 	liquidHellfireCount = 1
+	bondsCount = 1
+	eyeCount = 1
+
 	self:Message("stages", "Neutral", "Long", CL.stage:format(2), args.spellId)
-	self:Bar(206219, 23.5, CL.count:format(self:SpellName(206219), liquidHellfireCount)) -- Liquid Hellfire
-	self:Bar(209011, 9.5) -- Bonds of Fel
-	if self:Easy() then
-		self:StopBar(212258) -- Hand of Gul'dan
-	else
+	self:Bar(209011, self:Easy() and 7.5 or 9.5, CL.count:format(self:SpellName(209011), bondsCount)) -- Bonds of Fel
+	if not self:Easy() then
 		self:Bar(212258, 13.5, CL.count:format(self:SpellName(212258), handOfGuldanCount)) -- Hand of Gul'dan
 	end
-	self:Bar(209270, self:Easy() and 32.4 or 29) -- Eye of Gul'dan
+	self:Bar(206219, self:Easy() and 45 or 23.5, CL.count:format(self:SpellName(206219), liquidHellfireCount)) -- Liquid Hellfire
+	self:Bar(209270, self:Easy() and 32.4 or 29, CL.count:format(self:SpellName(209270), eyeCount)) -- Eye of Gul'dan
 end
 
 function mod:Phase3Start(args) -- The Eye of Aman'thul applied (227427)
-	phase = 3
-	eyeCount = 1
-	self:Message("stages", "Neutral", "Long", CL.stage:format(3), args.spellId)
-	self:StopBar(CL.count:format(self:SpellName(206221), bondsCount)) -- Empowered Bonds of Fel
 	self:StopBar(CL.count:format(self:SpellName(212258), handOfGuldanCount)) -- Hand of Gul'dan
-	self:StopBar(CL.count:format(self:SpellName(206220), liquidHellfireCount)) -- Empowered Liquid Hellfire
+	self:StopBar(CL.count:format(L.empowered:format(self:SpellName(209011)), bondsCount)) -- Empowered Bonds of Fel
+	self:StopBar(CL.count:format(L.empowered:format(self:SpellName(206219)), liquidHellfireCount)) -- Empowered Liquid Hellfire
+	self:StopBar(CL.count:format(L.empowered:format(self:SpellName(209270)), eyeCount)) -- Empowered Eye of Gul'dan
+
+	eyeCount = 1
+	phase = 3
+	self:Message("stages", "Neutral", "Long", CL.stage:format(3), args.spellId)
 	self:Bar("stages", 8, args.spellName, args.spellId)
-	self:Bar(221606, self:Mythic() and 24.5 or 27.5) -- Flames of Sargeras
-	self:Bar(211152, self:Easy() and 42.6 or timers[211152][eyeCount], L[211152]) -- Empowered Eye of Gul'dan
+	self:CDBar("winds", 11.5, CL.count:format(self:SpellName(218144), blackHarvestCount), 218144) -- Violent Winds, using blackHarvestCount, only once below Mythic.
+	self:Bar(221606, self:Mythic() and 24.5 or self:Heroic() and 27.5 or 29.3) -- Flames of Sargeras
+	self:Bar(211152, timers[211152][eyeCount], CL.count:format(L.empowered:format(self:SpellName(209270)), eyeCount)) -- Empowered Eye of Gul'dan
 	self:Bar(206744, timers[206744][blackHarvestCount]) -- Black Harvest
-	self:Bar(167935, timers[167935][stormCount]) -- Storm of the Destroyer
+	self:Bar(167935, self:Easy() and 94 or timers[167935][stormCount]) -- Storm of the Destroyer
 end
 
 function mod:Deaths(args)
 	if args.mobId == 104537 then --fel lord kuraz'mal
 		self:StopBar(206675) -- Shatter Essence
-		self:StopBar(210273) -- Fel Obelisk
+		self:StopBar(229945) -- Fel Obelisk
 	elseif args.mobId == 104534 then --d'zorykx the trapper
 		self:StopBar(206883) -- Soul Vortex
 		self:StopBar(CL.cast:format(self:SpellName(206883))) -- Soul Vortex cast
@@ -390,24 +429,37 @@ function mod:Deaths(args)
 		self:StopBar(CL.count:format(self:SpellName(221606), flamesCount % 3 == 0 and 3 or flamesCount % 3)) -- Flames Bar
 		self:StopBar(206744) -- Black Harvest
 		self:StopBar(167935) -- Storm of the Destroyer
-		self:StopBar(CL.count:format(self:SpellName(211152), eyeCount)) -- Eye of Guldan
+		self:StopBar(CL.count:format(L.empowered:format(self:SpellName(209270)), eyeCount)) -- Eye of Guldan
 	end
 end
 
 --[[ Stage One ]]--
 function mod:LiquidHellfire(args)
+	local spellName = self:SpellName(206219)
 	self:Message(206219, "Urgent", "Alarm", CL.incoming:format(CL.count:format(args.spellName, liquidHellfireCount)))
 	liquidHellfireCount = liquidHellfireCount + 1
-	if phase == 1 then
-		self:Bar(206219, liquidHellfireCount == 1 and 15 or 25, CL.count:format(args.spellName, liquidHellfireCount))
-	else
-		self:Bar(206219, (self:Mythic() and ((liquidHellfireCount == 5 or liquidHellfireCount == 7) and 66 or 33)) or (liquidHellfireCount == 5 and 73.2 or 36.6), CL.count:format(args.spellName, liquidHellfireCount)) -- gets skipped once
+	if self:Mythic() and liquidHellfireCount == 3 then -- Empowered spells are set in Mythic
+		liquidHellfireEmpowered = true
 	end
+	if liquidHellfireEmpowered then
+		spellName = L.empowered:format(spellName)
+	end
+	local t = 0
+	if phase == 1 then
+		t = liquidHellfireCount == 2 and 15 or (self:Easy() and liquidHellfireCount > 3 and 32.5) or 25
+	elseif self:Mythic() then
+		t = (liquidHellfireCount == 5 or liquidHellfireCount == 7) and 66 or 33
+	elseif self:Easy() then
+		t = liquidHellfireCount == 5 and 82.5 or 41.2
+	else
+		t = liquidHellfireCount == 5 and 73.2 or 36.6
+	end
+	self:Bar(206219, t, CL.count:format(spellName, liquidHellfireCount)) -- gets skipped once
 end
 
 function mod:FelEfflux(args)
 	self:Message(206515, "Important", "Alert")
-	self:CDBar(206515, 12)
+	self:CDBar(206515, self:Easy() and 15.6 or 12) -- easy: pull, 11, 14, EyeOfAmanThul, 10, 15.6, 16.8, 15.6,...
 end
 
 function mod:HandOfGuldan(args)
@@ -437,7 +489,7 @@ end
 --[[ Fel Lord Kuraz'mal ]]--
 function mod:ShatterEssence(args)
 	self:Message(args.spellId, "Important", "Warning", CL.casting:format(args.spellName))
-	self:Bar(args.spellId, 3, CL.cast:format(args.spellName))
+	self:CastBar(args.spellId, 3)
 	self:Bar(args.spellId, self:Mythic() and 21 or 52)
 end
 
@@ -448,7 +500,7 @@ end
 
 function mod:SoulVortex(args)
 	self:Message(args.spellId, "Urgent", "Long")
-	self:Bar(args.spellId, 9, CL.cast:format(args.spellName)) -- actual cast + pull in
+	self:CastBar(args.spellId, 9) -- actual cast + pull in
 	self:Bar(args.spellId, 21.1)
 end
 
@@ -464,54 +516,88 @@ end
 
 --[[ Stage Two ]]--
 function mod:BondsOfFelCast(args)
+	local spellName = self:SpellName(209011)
 	self:Message(209011, "Attention", "Info", CL.casting:format(CL.count:format(args.spellName, bondsCount)))
 	bondsCount = bondsCount + 1
-	self:Bar(209011, self:Mythic() and 40 or 44.5, CL.count:format(args.spellName, bondsCount))
+	if self:Mythic() then -- Only the first cast is not empowered
+		bondsEmpowered = true
+	end
+	if bondsEmpowered then
+		spellName = L.empowered:format(spellName)
+	end
+	self:Bar(209011, self:Mythic() and 40 or self:Heroic() and 44.5 or 50, CL.count:format(spellName, bondsCount))
 end
 
 do
-	local list = mod:NewTargetList()
+	local list, scheduled = mod:NewTargetList(), nil
 	function mod:BondsOfFel(args)
 		list[#list+1] = args.destName
 		if #list == 1 then
-			self:ScheduleTimer("TargetMessage", 0.5, 209011, list, "Important", "Warning", CL.count:format(self:SpellName(209011), bondsCount-1), nil, true) -- Have the bonds number in the list warning also
+			scheduled = self:ScheduleTimer("TargetMessage", 1, 209011, list, "Important", "Warning", CL.count:format(self:SpellName(209011), bondsCount-1), nil, true) -- Have the bonds number in the list warning also
 		end
 		if self:Me(args.destGUID) then
 			self:Say(209011, CL.count:format(args.spellName, #list))
 			self:Flash(209011)
 		end
+		if #list == expectedBonds then
+			self:CancelTimer(scheduled)
+			self:TargetMessage(209011, list, "Important", "Warning", CL.count:format(self:SpellName(209011), bondsCount-1), nil, true) -- Have the bonds number in the list warning also
+		end
 	end
 end
 
-do
-	local easyTimes = {0, 71.4, 71.4, 28.6} -- initial timer is started in phase transition
-	function mod:EyeOfGuldan(args)
-		local spellName = L[args.spellId] and L[args.spellId] or args.spellName
-		self:Message(args.spellId, "Urgent", "Alert", CL.count:format(spellName, eyeCount))
-		eyeCount = eyeCount + 1
-		local timer = nil
-		if phase == 2 then
-			timer = self:Easy() and 60 or (self:Mythic() and (eyeCount == 7 and 80 or 48)) or 53.3
-		else
-			timer = self:Easy() and easyTimes[eyeCount] or timers[211152][eyeCount]
-		end
-		if timer then
-			self:Bar(args.spellId, timer, CL.count:format(spellName, eyeCount))
-		end
+function mod:EyeOfGuldan(args)
+	local spellName = self:SpellName(209270)
+	self:Message(args.spellId, "Urgent", "Alert", CL.count:format(args.spellName, eyeCount))
+	eyeCount = eyeCount + 1
+	if self:Mythic() and eyeCount == 6 then -- Empowered Eye next in Mythic
+		eyeEmpowered = true
+	end
+	if eyeEmpowered then
+		spellName = L.empowered:format(spellName)
+	end
+	local timer = nil
+	if phase == 2 then
+		timer = self:LFR() and 64 or self:Normal() and 60 or (self:Mythic() and (eyeCount == 7 and 80 or 48)) or 53.3
+	else
+		timer = timers[211152][eyeCount]
+	end
+	if timer or self:Easy() then -- message for incomplete easy timers
+		self:Bar(args.spellId, timer, CL.count:format(spellName, eyeCount))
 	end
 end
 
 function mod:EyeOfGuldanApplied(args)
 	if self:Me(args.destGUID) then
+		eyeOnMe = true
 		local id = args.spellId == 209454 and 209270 or 211152
-		self:Message(id, "Personal", "Alert", CL.you:format(L[id] or args.spellName))
+		local spellName = args.spellId == 209454 and args.spellName or L.empowered:format(args.spellName)
+		self:Message(id, "Personal", "Alert", CL.you:format(spellName))
 		self:OpenProximity(id, 8)
 	end
 end
 
 function mod:EyeOfGuldanRemoved(args)
 	if self:Me(args.destGUID) then
+		eyeOnMe = false
 		self:CloseProximity(args.spellId == 209454 and 209270 or 211152)
+	end
+end
+
+do
+	local prev = 0
+	function mod:EyeofGuldandDamage(args)
+		if self:Me(args.destGUID) then
+			local id = args.spellId == 209518 and 209270 or 211152
+			local spellName = args.spellId == 209518 and args.spellName or L.empowered:format(args.spellName)
+			local t = GetTime()
+			if t-prev < 0.5 then -- Warn if you take more than one tick
+				self:Message(id, "Personal", "Alert", CL.underyou:format(spellName))
+			elseif eyeOnMe == false then -- Always warn if you arn't fixated
+				self:Message(id, "Personal", "Alert", CL.underyou:format(spellName))
+			end
+			prev = t
+		end
 	end
 end
 
@@ -523,24 +609,22 @@ function mod:CarrionWave(args)
 end
 
 --[[ Stage Three ]]--
-do
-	local prev = 0
-	function mod:FuryOfTheFel(args)
-		local t = GetTime()
-		if t-prev > 5 then
-			local amount = args.amount or 1
-			self:Message(args.spellId, "Positive", "Info", CL.count:format(args.spellName, amount))
-		end
-	end
+function mod:FuryOfTheFel(args)
+	local amount = args.amount or 1
+	self:Message(args.spellId, "Positive", "Info", CL.count:format(args.spellName, amount))
 end
 
 function mod:StormOfTheDestroyer(args)
 	self:Message(167935, "Important", "Long")
 	if args.spellId == 167819 then -- First Storm
 		stormCount = stormCount + 1
-		local timer = timers[167935][stormCount]
-		if timer then
-			self:Bar(167935, timer) -- timers should be complete
+		if self:Easy() then
+			self:Bar(167935, stormCount == 2 and 78.5 or 70)
+		else
+			local timer = timers[167935][stormCount]
+			if timer then
+				self:Bar(167935, timer) -- timers should be complete
+			end
 		end
 	end
 end
@@ -566,8 +650,15 @@ function mod:BlackHarvest(args)
 	self:Message(args.spellId, "Urgent", "Alert", CL.incoming:format(args.spellName))
 	blackHarvestCount = blackHarvestCount + 1
 	local timer = timers[args.spellId][blackHarvestCount]
-	if timer then
+	if timer or self:Easy() then -- message for incomplete easy timers
 		self:CDBar(args.spellId, timer)
+	end
+	-- Violet Winds timers
+	if self:Mythic() then
+		local windsTimer = timers[218144][blackHarvestCount]
+		if windsTimer then
+			self:Bar("winds", windsTimer, CL.count:format(self:SpellName(218144), blackHarvestCount), 218144)
+		end
 	end
 end
 
@@ -597,9 +688,13 @@ do
 		if t-prev > 5 then
 			prev = t
 			flamesCount = flamesCount + 1
-			local timer = timers[args.spellId][flamesCount]
-			if timer then
-				self:Bar(args.spellId, timer, CL.count:format(args.spellName, flamesCount % 3 == 0 and 3 or flamesCount % 3))
+			if self:Easy() then
+				self:Bar(args.spellId, flamesCount == 9 and 41 or flamesCount % 2 == 0 and 19 or 39.6)
+			else
+				local timer = timers[args.spellId][flamesCount]
+				if timer then
+					self:Bar(args.spellId, timer, CL.count:format(args.spellName, flamesCount % 3 == 0 and 3 or flamesCount % 3))
+				end
 			end
 		end
 	end
@@ -613,7 +708,7 @@ function mod:WilloftheDemonWithin(args)
 	end
 
 	self:Message(args.spellId, "Attention", "Warning")
-	self:Bar(args.spellId, 4, CL.cast:format(args.spellName))
+	self:CastBar(args.spellId, 4)
 
 	severCount = 1
 	crashCounter = 1
@@ -635,15 +730,49 @@ do
 		if self:Me(args.destGUID) then
 			self:Flash(args.spellId)
 			self:Say(args.spellId)
-			self:ScheduleTimer("Say", remaining-3, args.spellId, 3, true)
-			self:ScheduleTimer("Say", remaining-2, args.spellId, 2, true)
-			self:ScheduleTimer("Say", remaining-1, args.spellId, 1, true)
+			for i = 1, 3 do
+				if remaining-i > 0 then
+					parasiteSayTimers[#parasiteSayTimers+1] = self:ScheduleTimer("Say", remaining-i, 206847, i, true)
+				end
+			end
 		end
 
 		playerList[#playerList+1] = args.destName
 
 		if #playerList == 1 then
 			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, playerList, "Urgent", "Alarm", nil, nil, true)
+		end
+	end
+end
+
+function mod:ParasiticWoundRemoved(args) -- Stop Parasite Say Messages
+	if self:Me(args.destGUID) then
+		for _,timer in pairs(parasiteSayTimers) do
+			self:CancelTimer(timer)
+		end
+		wipe(parasiteSayTimers)
+	end
+end
+
+function mod:TimeStop(args) -- Stop Parasite Say Messages
+	if self:Me(args.destGUID) then
+		for _,timer in pairs(parasiteSayTimers) do
+			self:CancelTimer(timer)
+		end
+		wipe(parasiteSayTimers)
+	end
+end
+
+function mod:TimeStopRemoved(args) -- Resume Parasite Say Messages
+	if self:Me(args.destGUID) then
+		local debuff, _, _, _, _, _, expires = UnitDebuff("player", self:SpellName(206847))
+		if not debuff then return end
+		local remaining = floor(expires - GetTime())
+
+		for i = 1, 3 do
+			if remaining-i > 0 then
+				parasiteSayTimers[#parasiteSayTimers+1] = self:ScheduleTimer("Say", remaining-i, 206847, i, true)
+			end
 		end
 	end
 end
@@ -692,7 +821,7 @@ do
 
 	function mod:PurifiedEssence(args)
 		self:Message(args.spellId, "Important", "Alarm", CL.cast:format(args.spellName))
-		self:Bar(args.spellId, 4, CL.cast:format(args.spellName))
+		self:CastBar(args.spellId, 4)
 		if not timeStopCheck then
 			checkForTimeStop(self)
 		end
@@ -708,7 +837,7 @@ do
 	function mod:VisionsoftheDarkTitan(args)
 		visionCounter = visionCounter+1
 		self:Message(args.spellId, "Important", "Alarm", CL.casting:format(args.spellName))
-		self:Bar(args.spellId, 9, CL.cast:format(args.spellName))
+		self:CastBar(args.spellId, 9)
 		if visionCounter ~= 4 then
 			self:Bar(args.spellId, visionCounter == 3 and 150 or 90, CL.count:format(args.spellName, visionCounter))
 		end

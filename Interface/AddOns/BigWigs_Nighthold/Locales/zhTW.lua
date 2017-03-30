@@ -52,20 +52,6 @@ if L then
 	L[205445] = "|T1391537:15:15:0:0:64:64:4:60:4:60|t|cFFFF0000貪狼|r"
 	L[216345] = "|T1391536:15:15:0:0:64:64:4:60:4:60|t|cFF00FF00獵戶|r"
 	L[216344] = "|T1391535:15:15:0:0:64:64:4:60:4:60|t|cFF00DDFF飛龍|r"
-
-	L.nameplate_requirement = "這個功能目前只有KuiNameplates支援。傳奇難度限定。"
-
-	L.custom_off_icy_ejection_nameplates = "在友方姓名板顯示 {206936} " -- Icy Ejection
-	L.custom_off_icy_ejection_nameplates_desc = L.nameplate_requirement
-
-	L.custom_on_fel_ejection_nameplates = "在友方姓名板顯示 {205649} " -- Fel Ejection
-	L.custom_on_fel_ejection_nameplates_desc = L.nameplate_requirement
-
-	L.custom_on_gravitational_pull_nameplates = "在友方姓名板顯示 {214335} " -- Gravitational Pull
-	L.custom_on_gravitational_pull_nameplates_desc = L.nameplate_requirement
-
-	L.custom_on_grand_conjunction_nameplates = "在友方姓名板顯示 {205408} " -- Grand Conjunction
-	L.custom_on_grand_conjunction_nameplates_desc = L.nameplate_requirement
 end
 
 L = BigWigs:NewBossLocale("Grand Magistrix Elisande", "zhTW")
@@ -75,49 +61,57 @@ if L then
 	L.ring_msg = "時間的浪潮會粉碎你！"
 	L.orb_msg = "你會發現時光有時很不穩定。"
 
+	--L.slowTimeZone = "Slow Time Zone"
 	L.fastTimeZone = "加速區域"
+
+	L.boss_active = "艾莉珊德備戰"
+	L.boss_active_desc = "為清光小怪後的劇情事件提供計時，直到艾莉珊德可被攻擊。"
+	--L.elisande_trigger = "I foresaw your coming, of course. The threads of fate that led you to this place. Your desperate attempt to stop the Legion."
 end
 
 L = BigWigs:NewBossLocale("Gul'dan", "zhTW")
 if L then
-	L[211152] = "(強化) %s" -- (E) Eye of Gul'dan
+	L.empowered = "(強化) %s" -- (E) Eye of Gul'dan
 	L.gains = "古爾丹獲得%s"
 	--L.p4_mythic_start_yell = "Time to return the demon hunter's soul to his body... and deny the Legion's master a host!"
 
-	L.nightorb_desc = "召喚一個夜之球，擊殺它會生成一個時間區域。"
+	L.nightorb_desc = "召喚一個夜之球，擊殺它會生成一個時間停止力場。"
 
 	L.manifest_desc = "召喚一個埃辛諾斯靈魂碎片，擊殺它會生成一個惡魔精華。"
+
+	L.winds_desc = "古爾丹召喚強風將玩家吹離平台。"
 end
 
 L = BigWigs:NewBossLocale("Nighthold Trash", "zhTW")
 if L then
 	--[[ Skorpyron to Trilliax ]]--
-	--L.torm = "Torm the Brute"
-	--L.fulminant = "Fulminant"
-	--L.pulsauron = "Pulsauron"
+	L.torm = "野蠻的托姆"
+	L.fulminant = "爆燃元素"
+	L.pulsauron = "時脈之靈"
 
 	--[[ Chronomatic Anomaly to Trilliax ]]--
 	L.sludgerax = "淤泥雷克斯"
 
 	--[[ Trilliax to Aluriel ]]--
-	--L.karzun = "Kar'zun"
+	L.karzun = "卡祖恩"
 	L.guardian = "金輝守護者"
-	--L.battle_magus = "Duskwatch Battle-Magus"
+	L.battle_magus = "暮衛魔戰士"
 	L.chronowraith = "時光怨靈"
-	--L.protector = "Nighthold Protector"
+	L.protector = "暮衛保衛者"
 
 	--[[ Aluriel to Etraeus ]]--
 	L.jarin = "占星師賈倫"
 
 	--[[ Aluriel to Telarn ]]--
-	--L.weaver = "Duskwatch Weaver"
+	L.weaver = "暮衛編織者"
 	L.archmage = "夏多雷大法師"
 	L.manasaber = "被馴養的法力刃豹"
+	--L.naturalist = "Shal'dorei Naturalist"
 
-	--[[ Aluriel to Krosos ]]--
-	--L.infernal = "Searing Infernal"
+	--[[ Aluriel to Krosus ]]--
+	L.infernal = "灼熱的煉獄火"
 
 	--[[ Aluriel to Tichondrius ]]--
-	--L.watcher = "Abyss Watcher"
+	L.watcher = "暮衛哨兵"
 end
 

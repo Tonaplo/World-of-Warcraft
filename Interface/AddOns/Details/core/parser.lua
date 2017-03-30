@@ -248,6 +248,19 @@
 		--> spirit link toten
 		if (spellid == 98021) then
 			return parser:SLT_damage (token, time, who_serial, who_name, who_flags, alvo_serial, alvo_name, alvo_flags, spellid, spellname, spelltype, amount, overkill, school, resisted, blocked, absorbed, critical, glacing, crushing, isoffhand)
+			
+		--> Light of the Martyr - paladin spell which causes damage to the caster it self
+		elseif (spellid == 196917) then
+			local healingActor = healing_cache [who_name]
+			if (healingActor and healingActor.spells) then
+				local spell = healingActor.spells._ActorTable [spellid]
+				if (spell) then
+					healingActor.total = healingActor.total - (amount or 0)
+					spell.total = spell.total - (amount or 0)
+					return
+				end
+			end
+			return --> ignore this event
 		end
 		
 		if (is_using_spellId_override) then
@@ -1016,7 +1029,7 @@
 		end
 		
 		--> chamar a fun��o de cura pra contar a cura
-		return parser:heal (token, time, owner_serial, owner_name, owner_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, shieldid, shieldname, shieldtype, amount, 0, 0, nil, nil, true)
+		return parser:heal (token, time, owner_serial, owner_name, owner_flags, alvo_serial, alvo_name, alvo_flags, alvo_flags2, shieldid, shieldname, shieldtype, amount, 0, 0, nil, true)
 		
 	end
 

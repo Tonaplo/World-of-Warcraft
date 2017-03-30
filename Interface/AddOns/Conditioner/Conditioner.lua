@@ -1,10 +1,12 @@
---[[-----------------------------------------VER 1.3.2-------------------------------------------
+--[[-----------------------------------------VER 1.5.2-------------------------------------------
 --by Tony Allain
 7.2.0 ready
 -----------------------------------------------------------------------------------------------]]
-local conditioner_frame,events = CreateFrame("Frame"), {}
+local conditioner_frame = CreateFrame("Frame")
+conditioner_frame.events = {}
 conditioner_frame.temp_storage = {}
 conditioner_frame.temp_validate = 0
+conditioner_frame.always_show = false
 local name = UnitName("player")
 local GCD_SpellID = 61304
 local priority_buttons = {}
@@ -14,8 +16,8 @@ local POSITION_RIGHT = {"BOTTOMLEFT", "BOTTOMRIGHT", 1, 0}
 local POSITION_TOP = {"BOTTOM", "TOP", 0, 1}
 local POSITION_BOTTOM = {"TOP", "BOTTOM", 0, -1}
 local garbage_var = 0
-local conditions_height = 485
-local menu_options_height = 250
+local conditions_height = 525
+local menu_options_height = 300
 local max_num_tracked = 10
 local positions = {
 POSITION_LEFT, 	--1
@@ -150,6 +152,71 @@ function CreateConditions()
 	end
 
 	return specID, conditionset
+end
+
+function ConditionerAuraCheck(unit, buffMasks, buffTypes)
+	local activeMasks = 0
+	local satisfied = false
+	if (tostring(buffMasks) == "0") then
+		return true
+	end
+	if (not buffTypes) then
+		buffTypes = 0
+	end
+	buffTypes = tostring(buffTypes)
+
+	local BuffFunc = UnitBuff
+	if (buffTypes == "1") then
+		BuffFunc = UnitBuff
+	elseif (buffTypes == "2") then
+		BuffFunc = UnitDebuff
+	end
+	local hasPoison, hasMagic, hasCurse, hasDisease = false, false, false, false
+
+	for i=1,128 do
+		local exists, trashVar, trashVar, trashVar, hasBuff, trashVar, trashVar = BuffFunc(unit, i)
+		if (buffTypes == "0") or (buffTypes == "3") then
+			--try both
+			exists, trashVar, trashVar, trashVar, hasBuff, trashVar, trashVar = UnitDebuff(unit, i)
+			if (not exists) then
+				exists, trashVar, trashVar, trashVar, hasBuff, trashVar, trashVar = UnitBuff(unit, i)
+			end
+		end
+		if (hasBuff) then
+			if (hasBuff == "Magic") then
+				hasMagic = true
+			end
+			if (hasBuff == "Curse") then
+				hasCurse = true
+			end
+			if (hasBuff == "Poison") then
+				hasPoison = true
+			end
+			if (hasBuff == "Disease") then
+				hasDisease = true
+			end
+		end
+	end
+
+	if (hasMagic) then
+		activeMasks = activeMasks + 1
+	end
+	if (hasCurse) then
+		activeMasks = activeMasks + 2
+	end
+	if (hasPoison) then
+		activeMasks = activeMasks + 4
+	end
+	if (hasDisease) then
+		activeMasks = activeMasks + 8
+	end
+
+	if (bit.band(tonumber(buffMasks), tonumber(activeMasks)) > 0) then
+		satisfied = true
+	end
+
+	--print(string.format("%s | %s | %s | %s", tostring(hasPoison), tostring(hasMagic), tostring(hasCurse), tostring(hasDisease)))
+	return satisfied
 end
 
 --it works!
@@ -407,7 +474,7 @@ function ConditionerHotfix()
 	if (not xl_conditioner_options.tapersize) then
 		xl_conditioner_options.tapersize = 0.75
 	end
-	if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
+	if ((UnitAffectingCombat("player") or (isEditMode) or conditioner_frame.always_show) and (not UnitHasVehicleUI("player"))) then
 		for k,v in ipairs(watched_frames) do
 			local newsize = xl_DesiredScale*(math.pow(xl_conditioner_options.tapersize,(k-1)))
 			--watched_frames[k]:ClearAllPoints()
@@ -431,7 +498,7 @@ menu_options:Hide()
 menu_options:SetPoint("TOPLEFT", SpellBookSkillLineTab1, "TOPRIGHT", 54, 8)
 menu_options:SetSize(200, menu_options_height)
 menu_options:SetBackdrop(MenuBackdrop)
-menu_options.text = menu_options:CreateFontString("CheckListText", "OVERLAY", "GameTooltipText")
+menu_options.text = menu_options:CreateFontString(nil, "OVERLAY", "GameTooltipText")
 menu_options.text:SetSize(menu_options:GetWidth(), 40)
 menu_options.text:SetPoint("TOP", menu_options, "TOP", 0, 26)
 menu_options.text:SetJustifyH("CENTER")
@@ -492,6 +559,16 @@ button_options:SetScript("OnClick", function(self, c_button, down)
 	ConditionerTutorial_Alert(12, directionDropDown)
 end)
 
+button_options:SetScript("OnEnter", function(self)
+	GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0);
+	GameTooltip:SetText("Conditioner", 1, 1, 1, true);
+	GameTooltip:AddLine("View More Options!", nil, nil, nil, true);
+	GameTooltip:Show();
+end)
+
+button_options:SetScript("OnLeave", function(self)
+	GameTooltip:Hide()
+end)
 
 menu_options:SetScript("OnHide", function(...)
 	StoreConditions()
@@ -546,7 +623,7 @@ function UpdateWatchFramePositions(resize, main_position, child_position, target
 	if (not xl_conditioner_options.tapersize) then
 		xl_conditioner_options.tapersize = 0.75
 	end
-	if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
+	if ((UnitAffectingCombat("player") or (isEditMode) or conditioner_frame.always_show) and (not UnitHasVehicleUI("player"))) then
 		for k,v in ipairs(watched_frames) do
 			local newsize = resize*(math.pow(xl_conditioner_options.tapersize,(k-1)))
 			watched_frames[k]:ClearAllPoints()
@@ -919,7 +996,7 @@ function MakeEditBox(buttonname, anchor1, point, anchor2, contents, parent, w, h
 	newEditButton:SetScript("OnEnterPressed", function(self) self:ClearFocus() end)
 	newEditButton:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
 	newEditButton:SetScript("OnLeave", function(self) self:ClearFocus() end)
-	newEditButton.text = newEditButton:CreateFontString("CheckListText", "OVERLAY", "GameTooltipText")
+	newEditButton.text = newEditButton:CreateFontString(nil, "OVERLAY", "GameTooltipText")
 	newEditButton.text:SetWidth(w)
 	newEditButton.text:SetHeight(h)
 	newEditButton.text:SetPoint("BOTTOM", newEditButton, "TOP", 0, -12)
@@ -933,7 +1010,7 @@ end
 function MakeCheckBox(anchor1, parent, anchor2, contents, text1, text2)
 	local newEditButton = CreateFrame("CheckButton", nil, parent, "UICheckButtonTemplate")
 	newEditButton:SetPoint(anchor1, parent, anchor2, 0, -12)
-	newEditButton.text = newEditButton:CreateFontString("CheckListText", "OVERLAY", "GameTooltipText")
+	newEditButton.text = newEditButton:CreateFontString(nil, "OVERLAY", "GameTooltipText")
 	if (text1) then
 		newEditButton.text:SetPoint(text1, newEditButton, text2, 0, 0)
 	else
@@ -951,7 +1028,7 @@ end
 function NewDropDownMenu(title, name, parent, choices, currentchoice, point)
 	local NewDropDown = CreateFrame("Frame", name, parent, "ConditionerUIDropDownMenuTemplate")
 	NewDropDown:SetPoint("TOP", point, "BOTTOM", 0, -12)
-	NewDropDown.text = NewDropDown:CreateFontString("CheckListText", "OVERLAY", "GameTooltipText")
+	NewDropDown.text = NewDropDown:CreateFontString(nil, "OVERLAY", "GameTooltipText")
 	NewDropDown.text:SetPoint("BOTTOM", NewDropDown, "TOP", 0, -12)
 	NewDropDown.text:SetSize(parent:GetWidth(), NewDropDown:GetHeight())
 	NewDropDown.text:SetText(title)
@@ -1052,7 +1129,7 @@ function MakePriorityButton(fortable, listline)
 	newbutton.highlighttexture:SetTexture("Interface\\BUTTONS\\Micro-Highlight")
 	newbutton:SetHighlightTexture(newbutton.highlighttexture)
 	if (newbutton.index == 1) then
-		newbutton.text = newbutton:CreateFontString("CheckListText", "OVERLAY", "GameTooltipText")
+		newbutton.text = newbutton:CreateFontString(nil, "OVERLAY", "GameTooltipText")
 		newbutton.text:SetWidth(newbutton:GetWidth())
 		newbutton.text:SetHeight(newbutton:GetHeight())
 		newbutton.text:SetPoint("CENTER", newbutton, "CENTER", 2, 0)
@@ -1082,11 +1159,27 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.closebutton:SetText("Close")
 		--I've built this temple... have to maintain the foundation, will do a code cleanup after we've established popularity
 		newbutton.more.target_choices = {
+			"Me", 
+			"Any Target",
+			"Friendly Target",
+			"Enemy Target",
+			"Any MouseOver",
+			"Friendly MouseOver",
+			"Enemy MouseOver",
+			"My Pet",
+			"My Focus",
+			"Target's Target",
+		}
+		newbutton.more.target_choices_enum = {
 			"Player", 
 			"Target",
+			"Target",
+			"Target",
+			"MouseOver",
+			"MouseOver",
+			"MouseOver",
 			"Pet",
 			"Focus",
-			"MouseOver",
 			"TargetTarget",
 		}
 		newbutton.more.stack_choices = {
@@ -1121,6 +1214,12 @@ function MakePriorityButton(fortable, listline)
 			">=",
 			"~=",
 		}
+		newbutton.more.dispelTypeChoices = {
+			"Magic", 	--1
+			"Curse", 	--2
+			"Poison", 	--4
+			"Disease" 	--8
+		}
 
 		newbutton.more.conditions.options = {
 			--should we delay for GCD?
@@ -1136,7 +1235,9 @@ function MakePriorityButton(fortable, listline)
 			stack_conditional = 1,
 
 			--new conditions
-			duration_remaining = 0;
+			duration_remaining = 0,
+			dispel_mask = 0,
+			bufftype_mask = 0,
 
 			--based on your resources or health
 			resource_type = 1, --this needs to be a dropdown for all resource types and health
@@ -1174,6 +1275,9 @@ function MakePriorityButton(fortable, listline)
 				newbutton.more.conditions:SetTextColors(false)
 				-- change the text color on the > c_button
 			end
+			for k,v in pairs(newbutton.more.conditions) do
+				newbutton.more.conditions.DispelDropDown.Options:Hide()
+			end
 			--tutorial
 			ConditionerTutorial_Dismiss(6)
 			ConditionerTutorial_Alert(7, newbutton.more.conditions.closebutton, self)
@@ -1206,7 +1310,7 @@ function MakePriorityButton(fortable, listline)
 		end)
 		--maintain aura? checkbox is easier, if it is either not active or under 3 sec duration, refresh it, IF IT IS TRUE these conditions make sense, otherwise using maintain on a proc like dragon scales doesn't work
 
-		newbutton.more.conditions.MaintainAura = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Maintain\nAura")
+		newbutton.more.conditions.MaintainAura = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Seconds\nLeft")
 		newbutton.more.conditions.MaintainAura:ClearAllPoints()
 		newbutton.more.conditions.MaintainAura:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", -newbutton.more.conditions:GetWidth()/3.3, -65)
 		newbutton.more.conditions.MaintainAura:SetScript("OnClick", function(self, ...)
@@ -1231,18 +1335,18 @@ function MakePriorityButton(fortable, listline)
 				self:SetNumber(0)
 			end
 			self:GetParent().options.duration_remaining = self:GetNumber()
-			if (self:GetNumber() > 0) then
+			--[[if (self:GetNumber() > 0) then
 				newbutton.more.conditions.MaintainAura:SetChecked(true)
 				newbutton.more.conditions.options.maintain_aura = newbutton.more.conditions.MaintainAura:GetChecked()
-			end
+			end]]
 			StoreConditions()
 		end)
 		newbutton.more.conditions.MaintainAura.TimeLeft:SetScript("OnMouseDown", function(self, c_button)
 			if (c_button == "RightButton") then
 				self:SetNumber("")
 				self:GetParent().options.duration_remaining = self:GetNumber()
-				newbutton.more.conditions.MaintainAura:SetChecked(false)
-				newbutton.more.conditions.options.maintain_aura = newbutton.more.conditions.MaintainAura:GetChecked()
+				--newbutton.more.conditions.MaintainAura:SetChecked(false)
+				--newbutton.more.conditions.options.maintain_aura = newbutton.more.conditions.MaintainAura:GetChecked()
 			elseif (c_button == "LeftButton") and (self:GetNumber() == 0) then
 				self:SetNumber("")
 				self:GetParent().options.duration_remaining = self:GetNumber()
@@ -1296,11 +1400,126 @@ function MakePriorityButton(fortable, listline)
 			end
 			StoreConditions()
 		end)
+
+		--DISPEL TYPES button expand UIPanelButtonTemplate
+		newbutton.more.conditions.DispelDropDown = CreateFrame("Button", "DispelTypeChoice" .. newbutton.index, newbutton.more.conditions, "UIPanelButtonTemplate")
+		newbutton.more.conditions.DispelDropDown:SetText("Dispel Filter")
+		newbutton.more.conditions.DispelDropDown:SetPoint("TOP", newbutton.more.conditions.StackDropDown, "BOTTOM", 16, -6)
+		newbutton.more.conditions.DispelDropDown:SetSize(newbutton.more.conditions:GetWidth()*(3/4), 25)
+
+		newbutton.more.conditions.DispelDropDown:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT", 0, 0);
+			GameTooltip:SetText("Conditioner", 1, 1, 1, true);
+			GameTooltip:AddLine("Specify Buff, Debuff, or Both (checked or unchecked).\nIf ANY of the checked dispel types are on your Aura Target, this condition passes.", nil, nil, nil, true);
+			GameTooltip:SetMinimumWidth(150);
+			GameTooltip:Show();
+		end)
+
+		newbutton.more.conditions.DispelDropDown:SetScript("OnLeave", function(self)
+			GameTooltip:Hide()
+		end)
+		
+		newbutton.more.conditions.DispelDropDown.Options = CreateFrame("Frame", nil, newbutton.more.conditions.DispelDropDown)
+		newbutton.more.conditions.DispelDropDown.Options:SetPoint("LEFT", newbutton.more.conditions.DispelDropDown, "RIGHT")
+		newbutton.more.conditions.DispelDropDown.Options:SetBackdrop(MenuBackdrop)
+		newbutton.more.conditions.DispelDropDown.Options:SetSize(newbutton.more.conditions:GetWidth()*0.6, 205)
+
+		newbutton.more.conditions.DispelDropDown.Options.CheckBoxes = {
+			Buff = {index = -1, Box = 0},
+			Debuff = {index = -2, Box = 0},
+			Magic = {index = 1, Box = 0},
+			Curse = {index = 2, Box = 0},
+			Poison = {index = 4, Box = 0},
+			Disease = {index = 8, Box = 0},
+		}
+		
+		for k,v in pairs(newbutton.more.conditions.DispelDropDown.Options.CheckBoxes) do
+			v.Box = MakeCheckBox("LEFT", newbutton.more.conditions.DispelDropDown.Options, "LEFT", k, "LEFT", "RIGHT")
+			v.Box:ClearAllPoints()
+			v.Box.text:SetTextColor(1,0,0,1)
+			if (v.index == -1) then
+				v.Box:SetPoint("TOPLEFT", newbutton.more.conditions.DispelDropDown.Options, "TOPLEFT", 10, -10)
+			elseif (v.index == -2) then
+				v.Box:SetPoint("TOPLEFT", newbutton.more.conditions.DispelDropDown.Options, "TOPLEFT", 10, -40)
+			elseif (v.index == 1) then
+				v.Box:SetPoint("TOPLEFT", newbutton.more.conditions.DispelDropDown.Options, "TOPLEFT", 10, -70)
+			elseif (v.index == 2) then
+				v.Box:SetPoint("TOPLEFT", newbutton.more.conditions.DispelDropDown.Options, "TOPLEFT", 10, -100)
+			elseif (v.index == 4) then
+				v.Box:SetPoint("TOPLEFT", newbutton.more.conditions.DispelDropDown.Options, "TOPLEFT", 10, -130)
+			elseif (v.index == 8) then
+				v.Box:SetPoint("TOPLEFT", newbutton.more.conditions.DispelDropDown.Options, "TOPLEFT", 10, -160)
+			end
+		end
+
+		function newbutton.more.conditions.DispelDropDown.Options:GetDispelTypes()
+			local mask = 0
+			local types = 0
+			for k,v in pairs(self.CheckBoxes) do
+				if (v.index > 0) and (v.Box:GetChecked()) then
+					mask = mask + v.index
+				elseif (v.index < 0) and (v.Box:GetChecked()) then
+					types = types + (v.index*-1)
+				end
+			end
+			--print(string.format("%s | %s", mask, types))
+			return mask, types
+		end
+	
+		newbutton.more.conditions.DispelDropDown.Options:Hide()
+
+		newbutton.more.conditions.DispelDropDown:SetScript("OnClick", function(self)
+			local saved_masks = newbutton.more.conditions.options.dispel_mask
+			local saved_bufftypes = newbutton.more.conditions.options.bufftype_mask
+			--toggle window
+			if (self.Options:IsShown()) then
+				self.Options:Hide()
+			else
+				for k,v in pairs(self.Options.CheckBoxes) do
+					if (v.index > 0) then
+						if (bit.band(saved_masks, v.index) > 0) then
+							v.Box.text:SetTextColor(0,1,0,1)
+							v.Box:SetChecked(true)
+						else
+							v.Box.text:SetTextColor(1,0,0,1)
+							v.Box:SetChecked(false)
+						end
+					else
+						if (bit.band(saved_bufftypes, v.index*-1) > 0) then
+							v.Box.text:SetTextColor(0,1,0,1)
+							v.Box:SetChecked(true)
+						else
+							v.Box.text:SetTextColor(1,0,0,1)
+							v.Box:SetChecked(false)
+						end
+					end
+				end
+				self.Options:Show()
+			end
+		end)
+
+		--set up scripts
+		for k,v in pairs(newbutton.more.conditions.DispelDropDown.Options.CheckBoxes) do
+			v.Box:SetScript("OnClick", function(self)
+				local isChecked = self:GetChecked()
+				--change colors
+				if (isChecked) then
+					v.Box.text:SetTextColor(0,1,0,1)
+				else
+					v.Box.text:SetTextColor(1,0,0,1)
+				end
+				local masks, types = self:GetParent():GetDispelTypes()
+				--save them
+				newbutton.more.conditions.options.dispel_mask = masks
+				newbutton.more.conditions.options.bufftype_mask = types
+				StoreConditions()
+			end)
+		end
 		
 		--resource type? another dropdown, doing this twice, it is useful to be able to throttle two things
-		newbutton.more.conditions.ResourceDropDown = NewDropDownMenu("Resource Type", "ResourceTypeChoice" .. newbutton.index, newbutton.more.conditions, ResourceTypes, newbutton.more.conditions.options.resource_type, newbutton.more.conditions.StackDropDown)
+		newbutton.more.conditions.ResourceDropDown = NewDropDownMenu("Resource Type", "ResourceTypeChoice" .. newbutton.index, newbutton.more.conditions, ResourceTypes, newbutton.more.conditions.options.resource_type, newbutton.more.conditions.DispelDropDown)
 		newbutton.more.conditions.ResourceDropDown:ClearAllPoints()
-		newbutton.more.conditions.ResourceDropDown:SetPoint("TOP", newbutton.more.conditions.StackDropDown, "BOTTOM", 16, -12)
+		newbutton.more.conditions.ResourceDropDown:SetPoint("TOP", newbutton.more.conditions.DispelDropDown, "BOTTOM", 0, -18)
 		CONDITIONERDROPDOWNMENU_SetWidth(newbutton.more.conditions.ResourceDropDown, newbutton.more.conditions:GetWidth()*(3/5))
 		--min amount to cast, edit box, also checkbox if it is percent or not
 
@@ -1443,6 +1662,22 @@ function MakePriorityButton(fortable, listline)
 		end)
 		--number of charges? dropdown like stack condition
 
+		newbutton.more:SetScript("OnEnter", function(self)
+			local buttonState = self:GetText()
+			GameTooltip:SetOwner(self, "ANCHOR_LEFT", 0, 0);
+			GameTooltip:SetText("Conditioner", 1, 1, 1, true);
+			if (buttonState == ">") then
+				GameTooltip:AddLine("View Conditions", nil, nil, nil, true);
+			else
+				GameTooltip:AddLine("Hide Conditions", nil, nil, nil, true);
+			end
+			GameTooltip:Show();
+		end)
+
+		newbutton.more:SetScript("OnLeave", function(self)
+			GameTooltip:Hide()
+		end)
+
 		--does it consume a variable amount? do you want to cast it at full strength? this is kind of implied with min to cast right?
 		newbutton.more:SetScript("OnClick", function(self, ...)
 			--tutorial
@@ -1460,6 +1695,7 @@ function MakePriorityButton(fortable, listline)
 			else
 				--hide others
 				for k,v in pairs(condition_buttons) do
+					v.conditions.DispelDropDown.Options:Hide()
 					if (v == newbutton.more) then
 						v.conditions:Show()
 						v:SetText("<")
@@ -1514,6 +1750,7 @@ function MakePriorityButton(fortable, listline)
 			else
 				--hide others
 				for k,v in pairs(condition_buttons) do
+					v.conditions.DispelDropDown.Options:Hide()
 					if (v == newbutton.more) then
 						v.conditions:Show()
 						v:SetText("<")
@@ -1610,6 +1847,8 @@ function MakePriorityButton(fortable, listline)
 			self.num_charges = 0
 			self.charge_conditional = 1
 			self.duration_remaining = 0
+			self.dispel_mask = 0
+			self.bufftype_mask = 0
 			StoreConditions()
 		end
 
@@ -1685,10 +1924,40 @@ function MakePriorityButton(fortable, listline)
 					return false
 				end
 			end
+			local interrupt_spellName = ""
 			if (self.more.conditions.options.use_condition) then
 				--we're basically running a check on if the condition is met for whatever spell is in this priority slot, we'll use this status on our watch frames to determine if it is even on the priority list
 				--assuming if I am the target it is because of a buff, if my target is the target it is a debuff
-				local my_target = self.more.target_choices[self.more.conditions.options.aura_target]
+				local my_target = self.more.target_choices_enum[self.more.conditions.options.aura_target]
+				local my_target_id = self.more.conditions.options.aura_target
+				--3 is friendly 5+
+				--4 is enemy less than 5
+				local reactionType = UnitReaction("player", my_target)
+				local isDead = UnitIsDead(my_target)
+
+				--no dead targets
+				if (isDead) then
+					return false
+				end
+				
+				if (reactionType) then
+					--Friendly Target or MouseOver
+					if (my_target_id == 3 or my_target_id == 6) and (reactionType < 5) then
+						return false
+					--Enemy Target or MouseOver
+					elseif (my_target_id == 4 or my_target_id == 7) and (reactionType > 4) then
+						return false
+					end
+				else
+					--nothing targeted
+					--if it's Me or My Pet, it's okay to show up, otherwise hide it
+					--friendly target should be implicit because it'll fall back to me
+					if (my_target_id == 1 or my_target_id == 8  or my_target_id == 3) then
+						--nothing
+					else
+						return false
+					end
+				end
 				local watched_aura_name = self.more.conditions.options.active_aura
 				local duration_condition = self.more.conditions.options.duration_remaining
 				local my_haste = GetHaste()/100
@@ -1696,8 +1965,8 @@ function MakePriorityButton(fortable, listline)
 				GCD = math.max(GCD, 0.75)
 
 				local should_interrupt = self.more.conditions.options.is_interrupt
-				local cast_spell, garbage_var, garbage_var, garbage_var, icstart, endcast, garbage_var, garbage_var, uninterruptable = UnitCastingInfo("target")
-				local channel_spell, garbage_var, garbage_var, garbage_var, ichstart, endchannel, garbage_var, notInterruptible = UnitChannelInfo("target")
+				local cast_spell, garbage_var, garbage_var, cast_texture, icstart, endcast, garbage_var, garbage_var, uninterruptable = UnitCastingInfo("target")
+				local channel_spell, garbage_var, garbage_var, channel_texture, ichstart, endchannel, garbage_var, notInterruptible = UnitChannelInfo("target")
 				local endtime = endcast or endchannel
 				local starttime = icstart or ichstart
 				local condition_interrupt = false
@@ -1708,6 +1977,15 @@ function MakePriorityButton(fortable, listline)
 				if (not spell_name) then
 					--try again
 					spell_name, garbage_var, spell_texture, spell_stacks, garbage_var, spell_duration, expire_time, spell_caster, cansteal, onnameplate, spell_id, canapply, garbage_var, garbage_var, garbage_var, timemod, garbage_var, garbage_var, garbage_var = UnitDebuff(my_target,watched_aura_name, nil, "PLAYER")
+				end
+
+				local wanted_dispel_masks = self.more.conditions.options.dispel_mask
+				local wanted_bufftype_masks = self.more.conditions.options.bufftype_mask
+
+				--if nothing is set we're fine
+				local DispelCondition = true
+				if (wanted_dispel_masks > 0) then
+					DispelCondition = ConditionerAuraCheck(my_target, wanted_dispel_masks, wanted_bufftype_masks)
 				end
 
 				--spell charges
@@ -1745,6 +2023,9 @@ function MakePriorityButton(fortable, listline)
 					highlight_condition = IsSpellOverlayed(my_id)
 				end
 
+				local spell_to_interrupt = cast_spell or channel_spell
+				interrupt_spellName = spell_to_interrupt
+
 				if (not should_interrupt) then
 					condition_interrupt = true
 				else
@@ -1766,7 +2047,6 @@ function MakePriorityButton(fortable, listline)
 									condition_interrupt = true
 								else
 									--hmmm we do care, is this the spell?
-									local spell_to_interrupt = cast_spell or channel_spell
 									if (watched_aura_name:lower() == spell_to_interrupt:lower()) then
 										--this is it! aura condition should be true as well
 										condition_interrupt = true
@@ -1782,6 +2062,68 @@ function MakePriorityButton(fortable, listline)
 							end
 						else
 							condition_interrupt = false
+						end
+					end
+				end
+
+				if (not condition_interrupt) then
+					--if (mySlotID and watched_frames[mySlotID]) then
+						for k,v in pairs(watched_frames) do
+							if (v.interruptFrame) then
+								v.interruptFrame:Hide()
+							end
+						end
+					--end
+				else
+					if (should_interrupt) then
+						--show an icon of the spell we're going to interrupt?
+						if (watched_frames[mySlotID]) then
+							--init here, why not
+							local s_texture = cast_texture or channel_texture
+							if (not watched_frames[mySlotID].interruptFrame) then
+								watched_frames[mySlotID].interruptFrame = CreateFrame("Frame")
+								watched_frames[mySlotID].interruptFrameTexture = watched_frames[mySlotID].interruptFrame:CreateTexture()
+								watched_frames[mySlotID].interruptFrame.FillBar = CreateFrame("Frame", nil, watched_frames[mySlotID].interruptFrame)
+								watched_frames[mySlotID].interruptFrame.FillBarTexture = watched_frames[mySlotID].interruptFrame.FillBar:CreateTexture()
+								watched_frames[mySlotID].interruptFrame.Text = watched_frames[mySlotID].interruptFrame.FillBar:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar") --SystemFont_NamePlateCastBar 
+							end
+
+							if (watched_frames[mySlotID].interruptFrame) then
+								watched_frames[mySlotID].interruptFrame:SetSize(watched_frames[mySlotID]:GetWidth()*0.25, watched_frames[mySlotID]:GetHeight()*0.25)
+								if (xl_ChildPosition == 2) then
+									--we need to move it BELOW
+									watched_frames[mySlotID].interruptFrame:ClearAllPoints()
+									watched_frames[mySlotID].interruptFrame:SetPoint("TOPLEFT", watched_frames[mySlotID], "BOTTOMLEFT")
+								else
+									watched_frames[mySlotID].interruptFrame:ClearAllPoints()
+									watched_frames[mySlotID].interruptFrame:SetPoint("BOTTOMLEFT", watched_frames[mySlotID], "TOPLEFT")
+								end
+								watched_frames[mySlotID].interruptFrameTexture:SetTexture(s_texture)
+								watched_frames[mySlotID].interruptFrameTexture:SetAllPoints(watched_frames[mySlotID].interruptFrame)
+
+								--fill bar always next to interrupt frame
+								watched_frames[mySlotID].interruptFrame.FillBar:SetPoint("TOPLEFT", watched_frames[mySlotID].interruptFrame, "TOPRIGHT")
+								watched_frames[mySlotID].interruptFrame.FillBar:SetPoint("BOTTOMLEFT", watched_frames[mySlotID].interruptFrame, "BOTTOMRIGHT")
+								--always to the right of slot
+								watched_frames[mySlotID].interruptFrame.FillBar:SetPoint("RIGHT", watched_frames[mySlotID], "RIGHT")
+
+								watched_frames[mySlotID].interruptFrame.FillBarTexture:SetPoint("TOPLEFT", watched_frames[mySlotID].interruptFrame.FillBar, "TOPLEFT")
+								watched_frames[mySlotID].interruptFrame.FillBarTexture:SetPoint("BOTTOMLEFT", watched_frames[mySlotID].interruptFrame.FillBar, "BOTTOMLEFT")
+								watched_frames[mySlotID].interruptFrame.FillBarTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-BarFill")
+								
+								watched_frames[mySlotID].interruptFrame.FillBarTexture:SetGradient("HORIZONTAL", 0, 1, 1, 0, 1, 1)
+							
+								watched_frames[mySlotID].interruptFrame.Text:SetPoint("LEFT", watched_frames[mySlotID].interruptFrame, "RIGHT")
+								watched_frames[mySlotID].interruptFrame.Text:SetText(interrupt_spellName)
+
+								watched_frames[mySlotID].interruptFrame:Show()
+							end
+						end
+					else
+						if (mySlotID and watched_frames[mySlotID]) then
+							if (watched_frames[mySlotID].interruptFrame) then
+								watched_frames[mySlotID].interruptFrame:Hide()
+							end
 						end
 					end
 				end
@@ -1962,6 +2304,7 @@ function MakePriorityButton(fortable, listline)
 					--stack condition needs to be 1 or more
 					if (condition_stacks) then
 						if (condition_stacks > 0) then
+							--it means we want to use this condition
 							if (condition_stack_operator == 1) then
 								condition_stack_bool = (spell_stacks == condition_stacks)
 							elseif (condition_stack_operator == 2) then
@@ -1977,11 +2320,11 @@ function MakePriorityButton(fortable, listline)
 							end
 
 							--in this case, if we pass the condition, we pass the aura check
-							if (condition_stack_bool) then
-								condition_aura_active = true
-							end
+							--if (condition_stack_bool) then
+								--condition_aura_active = true
+							--end
 						else
-							--we're at 0 it passes anyways
+							--we don't care
 							condition_stack_bool = true
 						end
 					else
@@ -1990,33 +2333,53 @@ function MakePriorityButton(fortable, listline)
 					end
 				end
 
-				--maintain means we want to show this ability when the aura is NOT on the target
-				if (condition_maintain) then
-					condition_aura_active = not condition_aura_active
-					if (expire_time) then
-						time_left = (expire_time - GetTime())/timemod
-						--a little heads up? nah
-						local timeCompare = GCD
-						if (duration_condition) and (duration_condition > 0) then
-							--use this instead of GCD
-							timeCompare = duration_condition
-						end
-						if (time_left <= timeCompare) and (time_left > 0) then
-							--flip once more because we want this to be displayed with 1 GCD remaining
-							condition_aura_active = not condition_aura_active
-						else
+				--show if condition_stack_bool is true
 
+				--maintain means we want to show this ability when the aura is NOT on the target
+				local maintain_bool = false
+				if (condition_maintain) then
+					--how do we pass?
+					--if the aura is NOT active OR if it is below a threshold
+					if (condition_aura_active) then
+						--the aura is active, we fail unless it meets a duration threshold
+						if (expire_time) then
+							time_left = (expire_time - GetTime())/timemod
+							--local timeCompare = GCD
+							local timeCompare = 0
+							if (duration_condition) and (duration_condition > 0) then
+								--use this instead of GCD
+								timeCompare = duration_condition
+							end
+							if (time_left <= timeCompare) and (time_left > 0) then
+								maintain_bool = true
+								condition_stack_bool = true
+							end
+						else
+							--no expire time, it isn't active
+							maintain_bool = true
 						end
 					else
-
+						--aura isn't active
+						maintain_bool = true
 					end
+				else
+					--we don't care about maintain we should use aura active here
+					maintain_bool = condition_aura_active
 				end
+
+				--if this is being used and condition is active we're ok
+				if (condition_stack_bool) and (condition_stacks > 0) then
+					maintain_bool = true
+				end
+
+				--has a buff or debuff of a dispel type?
+
 
 				--this should really be its own function, we have some order of operations problems
 				if (mySlotID) then
 					--there is a problem when removing frames at random, hide all the durations/texts first?
 					--WE HAVE TO MAINTAIN CONDITION STATE for this to pass
-					if (condition_aura_active) and (condition_stack_bool) and (condition_resources) and (alt_condition_resources) then
+					if (maintain_bool) and (condition_stack_bool) and (condition_resources) and (alt_condition_resources) and (DispelCondition) then
 						if (expire_time) then
 							time_left = (expire_time - GetTime())/timemod
 							--print(time_left)
@@ -2035,6 +2398,12 @@ function MakePriorityButton(fortable, listline)
 							--change color based on time left?
 							--watched_frames[mySlotID].text:SetTextColor(percent_remaining, 1-percent_remaining , 0, 0.5 + percent_remaining/2)
 							watched_frames[mySlotID].text:SetTextColor(percent_remaining, 1-percent_remaining , 0)
+
+							--interrupt watcher
+							if (watched_frames[mySlotID].interruptFrame and watched_frames[mySlotID].interruptFrame.FillBarTexture) then
+								--watched_frames[mySlotID].interruptFrame.Text:SetTextHeight(watched_frames[mySlotID].interruptFrame:GetHeight()*0.5)
+								watched_frames[mySlotID].interruptFrame.FillBarTexture:SetWidth((1-percent_remaining)*watched_frames[mySlotID].interruptFrame.FillBar:GetWidth())
+							end
 
 							--it's lingering TEST
 							if (time_left <= 0) then
@@ -2063,7 +2432,8 @@ function MakePriorityButton(fortable, listline)
 				end
 
 				--FINAL COMPARISON
-				if (condition_aura_active) and (condition_stack_bool) and (condition_resources) and (alt_condition_resources) and (condition_interrupt) and (charge_condition) and (highlight_condition) then
+				--print(string.format("%s %s", tostring(maintain_bool), tostring(condition_stack_bool)))
+				if (maintain_bool) and (condition_stack_bool) and (condition_resources) and (alt_condition_resources) and (condition_interrupt) and (charge_condition) and (highlight_condition) and (DispelCondition) then
 					--within here we need to factor stacks and if it is a maintain
 					state = true
 				else
@@ -2076,6 +2446,9 @@ function MakePriorityButton(fortable, listline)
 					watched_frames[mySlotID].text:SetText("")
 					watched_frames[mySlotID].Duration:Hide()
 					watched_frames[mySlotID].text:SetTextColor(1,1,1,0.5)
+					if (watched_frames[mySlotID].interruptFrame) then
+						watched_frames[mySlotID].interruptFrame:Hide()
+					end
 				end
 			end
 			return state
@@ -2104,6 +2477,41 @@ function MakePriorityButton(fortable, listline)
 			ConditionerTutorial_Alert(4, _G['ConditionerPriorityButton' .. #priority_buttons-2])
 		end
 	end)
+
+	newbutton:SetScript("OnEnter", function(self) 
+		if (self.index > 1) then
+			if (self.spellID and self.spellID > 0) then
+				GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0);
+				GameTooltip:SetSpellByID(self.spellID);
+				--might have a spell on the cursor
+				local garbage_var,garbage_var,garbage_var,hasSpell = GetCursorInfo()
+				if (hasSpell) then
+					--left click to insert
+					--right click to ditch the spell
+					GameTooltip:AddLine("\nLeft Click - Insert Spell\nRight Click - Cancel Placement", nil, nil, nil, true);
+				else
+					if (not UnitAffectingCombat("player")) then
+						GameTooltip:AddLine("\nLeft Click - Pick Up\nRight Click - Delete", nil, nil, nil, true);
+					else
+						GameTooltip:AddLine("\nRight Click - Delete", nil, nil, nil, true);
+					end
+				end
+				GameTooltip:Show();
+			end
+		else
+			--this is the first button
+			GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0);
+			GameTooltip:SetText("Conditioner", 1, 1, 1, true);
+			GameTooltip:AddLine("Drag spells here to add them to the end of the priority list. You can also insert spells anywhere.", nil, nil, nil, true);
+			GameTooltip:SetMinimumWidth(150);
+			GameTooltip:Show();
+		end
+	end)
+
+	newbutton:SetScript("OnLeave", function(self) 
+		GameTooltip:Hide();
+	end)
+
 	return newbutton
 end
 --make priority button
@@ -2147,28 +2555,44 @@ function NewWatchFrame(size, parent, ...)
 	if (parent == SpellActivationOverlayFrame) then
 		newframe.canDrag = true
 		newframe:EnableMouse(true)
+		newframe:SetClampedToScreen(true)
+
+		--tooltip stuff
+		newframe:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner(self, "ANCHOR_TOP", 0, 0);
+			GameTooltip:SetText("Conditioner", 1, 1, 1, true);
+			GameTooltip:AddLine("Left Click - Drag\nRight Click - Rotate\nCtrl+Right Click - Pivot\nMouse Wheel - Scale", nil, nil, nil, true);
+			GameTooltip:Show();
+		end)
+
+		newframe:SetScript("OnLeave", function(self)
+			GameTooltip:Hide()
+		end)
+		
 	end
-	newframe:SetClampedToScreen(true)
+	--newframe:SetClampedToScreen(true)
 	newframe:SetMovable(true)
 	newframe:RegisterForDrag("LeftButton")
 	--I can also use mousewheel to adjust size of the buttons
 	newframe:SetScript("OnMouseWheel", function(self, delta)
-		if (self.canDrag) then
-			local x,y,w,h = self:GetBoundsRect()
-			xl_LocX = x + w/2
-			xl_LocY = y + h/2
-			xl_DesiredScale = xl_DesiredScale + delta*10
-			if (xl_DesiredScale < MinScale) then
-				xl_DesiredScale = MinScale
+		if (isEditMode) then
+			if (self.canDrag) then
+				local x,y,w,h = self:GetBoundsRect()
+				xl_LocX = x + w/2
+				xl_LocY = y + h/2
+				xl_DesiredScale = xl_DesiredScale + delta*10
+				if (xl_DesiredScale < MinScale) then
+					xl_DesiredScale = MinScale
+				end
+				if (xl_DesiredScale > MaxScale) then
+					xl_DesiredScale = MaxScale
+				end
+				UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 			end
-			if (xl_DesiredScale > MaxScale) then
-				xl_DesiredScale = MaxScale
-			end
-			UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
+			ConditionerTutorial_Alert(8, ConditionerWatchFrame0)
+			ConditionerTutorial_Dismiss(8)
+			ConditionerTutorial_Alert(9, ConditionerWatchFrame0)
 		end
-		ConditionerTutorial_Alert(8, ConditionerWatchFrame0)
-		ConditionerTutorial_Dismiss(8)
-		ConditionerTutorial_Alert(9, ConditionerWatchFrame0)
 	end)
 	newframe:SetScript("OnMouseDown", function(self, c_button)
 		if (self.canDrag) then
@@ -2273,10 +2697,10 @@ function NewWatchFrame(size, parent, ...)
 	newframe.Duration:SetBackdropColor(1, 1, 1, 1)
 	newframe.Duration:Hide()
 	--"NumberFontNormalHuge"
-	newframe.text = newframe.edge:CreateFontString("CheckListText", "OVERLAY", "NumberFontNormal")
+	newframe.text = newframe.edge:CreateFontString(nil, "OVERLAY", "NumberFontNormalLarge")
 	newframe.text:SetText("")
 	--hotkey GameTooltipText
-	newframe.hotkeytext = newframe.edge:CreateFontString("CheckListText", "OVERLAY", "NumberFontNormal")
+	newframe.hotkeytext = newframe.edge:CreateFontString(nil, "OVERLAY", "NumberFontNormalLarge")
 	newframe.hotkeytext:SetText("")
 	newframe.hotkeytext:SetTextColor(0,1,1,1)
 	--overlay for counting down aura timers
@@ -2314,39 +2738,43 @@ function InitWatchedFrames()
 	DistributeSavedVars()
 end
 
-function events:ADDON_LOADED(...)
+function conditioner_frame.events:ADDON_LOADED(...)
 	local arg1 = select(1,...)
 	if (arg1 == "Conditioner") then
 		InitWatchedFrames()
 	end
 end
 
-function events:PLAYER_ENTERING_WORLD(...)
+function conditioner_frame.events:PLAYER_ENTERING_WORLD(...)
 	ConditionerTutorial_Alert(1)
 end
-
-function events:ADDON_ACTION_FORBIDDEN(...)
+--[[
+function conditioner_frame.events:ADDON_ACTION_FORBIDDEN(...)
 	local arg1 = select(1,...)
 	local arg2 = select(2,...)
 
 	--print(arg1 .. " supposedly called " .. tostring(arg2))
-end
+end]]
 
-function events:PLAYER_REGEN_DISABLED(...)
+function conditioner_frame.events:PLAYER_REGEN_DISABLED(...)
 	--some assumptions
 	conditioner_frame.ReputationBarWasVisible = ReputationWatchBar:IsShown()
 	conditioner_frame.MainMenuBarWasVisible = MainMenuBarArtFrame:IsShown()
 	conditioner_frame.ArtifactWatchBarWasVisible = ArtifactWatchBar:IsShown()
+	conditioner_frame.ExpBarWasVisible = MainMenuExpBar:IsShown()
 
 	if (xl_conditioner_options.hide_hotbar_incombat) then
 		ArtifactWatchBar:SetParent(MainMenuBarArtFrame)
+		MainMenuExpBar:SetParent(MainMenuBarArtFrame)
+		ReputationWatchBar:SetParent(MainMenuBarArtFrame)
 		MainMenuBarArtFrame:Hide()
 		ArtifactWatchBar:Hide()
 		ReputationWatchBar:Hide()
+		MainMenuExpBar:Hide()
 	end
 end
  
-function events:PLAYER_REGEN_ENABLED(...)
+function conditioner_frame.events:PLAYER_REGEN_ENABLED(...)
 	--the user might have changed the checkbox in combat for whatever reason, there's no reason not to show these again as they are visible by default
 	if (conditioner_frame.MainMenuBarWasVisible) then
 		MainMenuBarArtFrame:Show()
@@ -2357,21 +2785,24 @@ function events:PLAYER_REGEN_ENABLED(...)
 	if (conditioner_frame.ReputationBarWasVisible) then
 		ReputationWatchBar:Show()
 	end
+	if (conditioner_frame.ExpBarWasVisible) then
+		MainMenuExpBar:Show()
+	end
 end
 
-function events:PLAYER_TARGET_CHANGED(...)
+function conditioner_frame.events:PLAYER_TARGET_CHANGED(...)
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 end
 
-function events:NAME_PLATE_UNIT_ADDED(...)
+function conditioner_frame.events:NAME_PLATE_UNIT_ADDED(...)
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 end
 
-function events:NAME_PLATE_UNIT_REMOVED(...)
+function conditioner_frame.events:NAME_PLATE_UNIT_REMOVED(...)
 	UpdateWatchFramePositions(xl_DesiredScale, MainPosition, xl_ChildPosition, xl_OnTargetFrame)
 end
 
-function events:PLAYER_SPECIALIZATION_CHANGED(...)
+function conditioner_frame.events:PLAYER_SPECIALIZATION_CHANGED(...)
 	tracked_spells = GetSpellsForCurrentSpec()
 	
 	--we have leftover old spell icons on our priority_buttons with index 2-N
@@ -2399,10 +2830,10 @@ end
 
 -----------------------------------------------EVENT LISTENERS-----------------------------------------------
 conditioner_frame:SetScript("OnEvent", function(self, event, ...)
-	events[event](self, ...); -- call one of the functions above
+	conditioner_frame.events[event](self, ...); -- call one of the functions above
 end)
-for k, v in pairs(events) do
-	conditioner_frame:RegisterEvent(k); -- Register all events for which handlers have been defined
+for k, v in pairs(conditioner_frame.events) do
+	conditioner_frame:RegisterEvent(k); -- Register all conditioner_frame.events for which handlers have been defined
 end
 
 function ResortList(list)
@@ -2490,8 +2921,19 @@ HideHotbar:SetScript("OnShow", function(self)
 	self:SetChecked(xl_conditioner_options.hide_hotbar_incombat)
 end)
 
+local AlwaysShow = MakeCheckBox("TOP", HideHotbar, "BOTTOM", "Always Show Conditioner")
+AlwaysShow.text:SetTextColor(1,1,1,1)
+AlwaysShow:SetScript("OnClick", function(self, c_button, down)
+	xl_conditioner_options.always_show = self:GetChecked()
+	PlaySound("UChatScrollButton")
+	StoreConditions()
+end)
+AlwaysShow:SetScript("OnShow", function(self)
+	self:SetChecked(xl_conditioner_options.always_show)
+end)
+
 --NewSlider(parent, name, offsety, minText, min_Value, maxText, max_Value, sliderText, initValue)
-local ConditionerSlider = NewSlider(HideHotbar, "ConditionerTrackingSlider", 20, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
+local ConditionerSlider = NewSlider(AlwaysShow, "ConditionerTrackingSlider", 20, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
 ConditionerSlider:SetScript("OnValueChanged", function(self, event, ...)
 	ConditionerSlider:SetValue(ConditionerSlider:GetValue())
 	xl_num_desired_tracked = ConditionerSlider:GetValue()
@@ -2540,8 +2982,26 @@ conditioner_help:SetScript("OnClick", function(self, c_button, down)
 end)
 
 function GetWatchedCooldowns()
+	conditioner_frame.always_show = xl_conditioner_options.always_show
+	if (xl_conditioner_options.always_show) then
+		--check if we need to pivot to target
+		if (xl_OnTargetFrame) and (xl_OnTargetFrame == 2) then
+			--we need a target
+			if (UnitExists("target") and not UnitIsDead("target")) then
+				--we should only pass if target nameplate is visible
+				local namePlateTarget = C_NamePlate.GetNamePlateForUnit("target")
+				if (namePlateTarget) then
+					conditioner_frame.always_show = true
+				else
+					conditioner_frame.always_show = false
+				end
+			else
+				conditioner_frame.always_show = false
+			end
+		end
+	end
 	--so we have a list of spells, we need to find out how close to finishing they are in order to pick the right one
-	if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
+	if ((UnitAffectingCombat("player") or (isEditMode) or conditioner_frame.always_show) and (not UnitHasVehicleUI("player"))) then
 		if (#tracked_spells > 0) then
 			local cooldowns = {}
 			local time_now = GetTime()
@@ -2595,25 +3055,67 @@ function GetWatchedCooldowns()
 				else
 					--try to display all the desired tracking numbers if we can
 					--we can display it if we're in combat or editing
-					if ((UnitAffectingCombat("player") or (isEditMode)) and (not UnitHasVehicleUI("player"))) then
-						if (i <= #slots_to_display) then
-							local ready_texture = GetSpellTexture(tracked_spells[slots_to_display[i]])
-							watched_frames[i].texture:SetTexture(ready_texture)
-							watched_frames[i]:Show()
-							watched_frames[i].edge:Show()
-							--I can show the cooldown here
-							--this is an additional watched frame, show some cooldown info
-							local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
-							local s,d,garbage_var = GetSpellCooldown(spellname)
-							if (not s) then
-								s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
+					if ((UnitAffectingCombat("player") or (isEditMode) or conditioner_frame.always_show) and (not UnitHasVehicleUI("player"))) then
+						--if I need a target and don't have one, don't show
+						if (xl_OnTargetFrame) and (xl_OnTargetFrame == 2) then
+							if (UnitExists("target")) and (not UnitIsDead("target")) then
+								if (i <= #slots_to_display) then
+									local ready_texture = GetSpellTexture(tracked_spells[slots_to_display[i]])
+									watched_frames[i].texture:SetTexture(ready_texture)
+									watched_frames[i]:Show()
+									watched_frames[i].edge:Show()
+									--I can show the cooldown here
+									--this is an additional watched frame, show some cooldown info
+									local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
+									local s,d,garbage_var = GetSpellCooldown(spellname)
+									if (not s) then
+										s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
+									end
+									--this keeps the frame in sync, so a spell that was on cooldown getting pushed away while a spell that is ready causes the highlight to happen, how to avoid this...
+									--only update if my durations don't match
+									local garbage_var, cd_d = watched_frames[i].cooldown:GetCooldownTimes()
+									--if they don't match then set it
+									if (cd_d == d) then
+										--do nothing
+									else
+										watched_frames[i].cooldown:SetCooldown(s,d)
+									end
+								else
+									--there is nothing to display, hide it
+									watched_frames[i]:Hide()
+								end
+							else
+								--we have no target 
+								watched_frames[i]:Hide()
 							end
-							--this keeps the frame in sync, so a spell that was on cooldown getting pushed away while a spell that is ready causes the highlight to happen, how to avoid this...
-							watched_frames[i].cooldown:SetCooldown(s,d)
 						else
-							--there is nothing to display, hide it
-							watched_frames[i]:Hide()
+							--we don't care about having a target
+							if (i <= #slots_to_display) then
+								local ready_texture = GetSpellTexture(tracked_spells[slots_to_display[i]])
+								watched_frames[i].texture:SetTexture(ready_texture)
+								watched_frames[i]:Show()
+								watched_frames[i].edge:Show()
+								--I can show the cooldown here
+								--this is an additional watched frame, show some cooldown info
+								local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
+								local s,d,garbage_var = GetSpellCooldown(spellname)
+								if (not s) then
+									s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
+								end
+								--this keeps the frame in sync, so a spell that was on cooldown getting pushed away while a spell that is ready causes the highlight to happen, how to avoid this...
+								local garbage_var, cd_d = watched_frames[i].cooldown:GetCooldownTimes()
+								--if they don't match then set it
+								if (cd_d == d) then
+									--do nothing
+								else
+									watched_frames[i].cooldown:SetCooldown(s,d)
+								end
+							else
+								--there is nothing to display, hide it
+								watched_frames[i]:Hide()
+							end
 						end
+
 						--no mouse interaction in combat
 						if (i == 1) then
 							if (not isEditMode) then
@@ -2644,6 +3146,9 @@ function GetWatchedCooldowns()
 				v.text:SetText("")
 				v.text:SetTextColor(1,1,1,0.5)
 				v:Hide()
+				if (v.interruptFrame) then
+					v.interruptFrame:Hide()
+				end
 			end
 		end
 	else
@@ -2653,6 +3158,9 @@ function GetWatchedCooldowns()
 			v.text:SetText("")
 			v.text:SetTextColor(1,1,1,0.5)
 			v:Hide()
+			if (v.interruptFrame) then
+				v.interruptFrame:Hide()
+			end
 		end
 	end
 
@@ -2660,6 +3168,9 @@ function GetWatchedCooldowns()
 end
 
 priority_visibility_updater:SetScript("OnShow", function(...)
+	if (not xl_conditioner_options.always_show) then
+		xl_conditioner_options.always_show = false
+	end
 	priority_list:Show()
 	isEditMode=true
 	MaintainVisibility()

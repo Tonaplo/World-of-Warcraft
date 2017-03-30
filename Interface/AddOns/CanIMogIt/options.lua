@@ -16,7 +16,7 @@ StaticPopupDialogs["CANIMOGIT_NEW_DATABASE"] = {
   preferredIndex = 3,  -- avoid some UI taint, see http://www.wowace.com/announcements/how-to-avoid-some-ui-taint/
 }
 
-CanIMogIt_OptionsVersion = "1.7"
+CanIMogIt_OptionsVersion = "1.8"
 
 CanIMogItOptions_Defaults = {
     ["options"] = {
@@ -25,6 +25,7 @@ CanIMogItOptions_Defaults = {
         ["showEquippableOnly"] = true,
         ["showTransmoggableOnly"] = true,
         ["showUnknownOnly"] = false,
+        ["showSetTooltipText"] = true,
         ["showItemIconOverlay"] = true,
         ["showVerboseText"] = false,
         ["showSourceLocationTooltip"] = false,
@@ -50,6 +51,10 @@ CanIMogItOptions_DisplayData = {
         ["displayName"] = L["Unknown Items Only"],
         ["description"] = L["Only show on items that you haven't learned."]
     },
+    ["showSetTooltipText"] = {
+        ["displayName"] = L["Show Transmog Set Info"],
+        ["description"] = L["Show information on the tooltip about transmog sets."]
+    },
     ["showItemIconOverlay"] = {
         ["displayName"] = L["Show Bag Icons"],
         ["description"] = L["Shows the icon directly on the item in your bag."]
@@ -60,7 +65,7 @@ CanIMogItOptions_DisplayData = {
     },
     ["showSourceLocationTooltip"] = {
         ["displayName"] = L["Show Source Location Tooltip"] .. " " .. CanIMogIt.YELLOW .. L["(Experimental)"],
-        ["description"] = L["Shows a tooltip with the source locations of an appearance (ie. Quest, Vendor, World Drop)."] .. "\n\n" .. L["Please note that this may not always be correct as Blizzard's information is incomplete."]
+        ["description"] = L["Shows a tooltip with the source locations of an appearance (ie. Quest, Vendor, World Drop). This only works on items your current class can learn."] .. "\n\n" .. L["Please note that this may not always be correct as Blizzard's information is incomplete."]
     },
     ["printDatabaseScan"] = {
         ["displayName"] = L["Database Scanning chat messages"],
@@ -116,6 +121,7 @@ CanIMogIt.frame:HookScript("OnEvent", function(self, event, ...)
     self:OnVoidStorageOpened(event, ...)
     self:GetAppearancesEvent(event, ...)
     self:ItemOverlayEvents(event, ...)
+    self:TradeSkillEvents(event, ...)
 end)
 
 
@@ -132,6 +138,8 @@ local function checkboxOnClick(self)
     self:SetValue(checked)
     -- Reset the cache when an option changes.
     CanIMogIt:ResetCache()
+    
+    CanIMogIt:SendMessage("OptionUpdate")
 end
 
 
@@ -166,6 +174,7 @@ local function createOptionsMenu()
     local showEquippableOnly = newCheckbox(CanIMogIt.frame, "showEquippableOnly")
     local showTransmoggableOnly = newCheckbox(CanIMogIt.frame, "showTransmoggableOnly")
     local showUnknownOnly = newCheckbox(CanIMogIt.frame, "showUnknownOnly")
+    local showSetTooltipText = newCheckbox(CanIMogIt.frame, "showSetTooltipText")
     local showItemIconOverlay = newCheckbox(CanIMogIt.frame, "showItemIconOverlay")
     local showVerboseText = newCheckbox(CanIMogIt.frame, "showVerboseText")
     local showSourceLocationTooltip = newCheckbox(CanIMogIt.frame, "showSourceLocationTooltip")
@@ -176,7 +185,8 @@ local function createOptionsMenu()
     showEquippableOnly:SetPoint("TOPLEFT", debug, "BOTTOMLEFT")
     showTransmoggableOnly:SetPoint("TOPLEFT", showEquippableOnly, "BOTTOMLEFT")
     showUnknownOnly:SetPoint("TOPLEFT", showTransmoggableOnly, "BOTTOMLEFT")
-    showItemIconOverlay:SetPoint("TOPLEFT", showUnknownOnly, "BOTTOMLEFT")
+    showSetTooltipText:SetPoint("TOPLEFT", showUnknownOnly, "BOTTOMLEFT")
+    showItemIconOverlay:SetPoint("TOPLEFT", showSetTooltipText, "BOTTOMLEFT")
     showVerboseText:SetPoint("TOPLEFT", showItemIconOverlay, "BOTTOMLEFT")
     showSourceLocationTooltip:SetPoint("TOPLEFT", showVerboseText, "BOTTOMLEFT")
     printDatabaseScan:SetPoint("TOPLEFT", showSourceLocationTooltip, "BOTTOMLEFT")

@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: BOTTOM
+X: -17
+Y: 235
+W: 93
+H: 43
 Frame: TargetFrame
 FrameLevel: 14
 Anchor: CENTER
@@ -55,3 +62,10 @@ X: -300
 Y: 0
 W: 232
 H: 100
+Frame: LootHistoryFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 274
+Y: 167
+W: 210
+H: 175

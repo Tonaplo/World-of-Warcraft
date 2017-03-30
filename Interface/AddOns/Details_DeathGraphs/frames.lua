@@ -2780,7 +2780,6 @@ do
 		
 		--> update the bottom time elapsed line
 		function timeLine.UpdateTimers (length)
-
 			if (length <= 0) then
 				timeLine.ResetTimeline()
 				return
@@ -2788,6 +2787,10 @@ do
 		
 			local interval = length / 20
 			local startTime = graphFrame.currentStartTime - graphFrame.currentStartTimeDiff
+			startTime = max (0, startTime)
+			
+			--print ("interval", interval, "startTime", startTime)
+			
 			for i = 1, 20 do
 				local time = floor (interval * i) + startTime
 				local label = timeLine.Labels [i]

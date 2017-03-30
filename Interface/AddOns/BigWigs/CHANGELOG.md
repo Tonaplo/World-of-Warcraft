@@ -1,11 +1,10 @@
 # BigWigs
 
-## [v45.1](https://github.com/BigWigsMods/BigWigs/tree/v45.1) (2017-02-17) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v45...v45.1)
+## [v50](https://github.com/BigWigsMods/BigWigs/tree/v50) (2017-03-28) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v49.2...v50)
 
 - bump version  
-- Guldan: Fix Option Error (#177)  
-- Sasszine: drycode (#176)  
-- Demonic Inquisition: drycode (#175)  
-- update zhTW (#174)  
-- zhCN update. (#173)  
+- TombOfSargeras: Remove load conditions  
+- Nighthold/Etraeus: Purge nameplate code  
+- bump toc  
+- Guldan: Fix Eye of Guldan target message  

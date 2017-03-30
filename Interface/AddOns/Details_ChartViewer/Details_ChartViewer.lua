@@ -7,7 +7,6 @@ local _string_len = string.len
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
 local ipairs = ipairs
 
-
 --> Create the plugin Object
 local ChartViewer = _detalhes:NewPluginObject ("Details_ChartViewer", DETAILSPLUGIN_ALWAYSENABLED)
 --> Main Frame
@@ -33,11 +32,6 @@ local function CreatePluginFrames (data)
 	c:SetFrameLevel (ChartViewerWindowFrame:GetFrameLevel()+1)
 	c:GetNormalTexture():SetDesaturated (true)
 	c:SetAlpha (1)
-	
-	
-	--local title = _detalhes.gump:NewLabel (ChartViewerWindowFrame, nil, "$parentTitle", nil, "Chart Viewer", nil, 20, "yellow")
-	--title:SetPoint (12, -13)
-	--_detalhes.gump:SetFontOutline (title, true)
 
 	function ChartViewer:OnDetailsEvent (event)
 
@@ -844,7 +838,7 @@ local create_add_tab_button = function()
 	
 	local fw = ChartViewer:GetFramework()
 	
-	local button = fw:CreateButton (ChartViewerWindowFrame, ChartViewer.OpenAddTabPanel, 86, 16, "New Tab")
+	local button = fw:CreateButton (ChartViewerWindowFrame, ChartViewer.OpenAddTabPanel, 86, 16, "Add Chart")
 	button:SetTextColor (1, 0.93, 0.74)
 	--button:SetIcon ([[Interface\Buttons\UI-OptionsButton]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
 	button:SetIcon ([[Interface\PaperDollInfoFrame\Character-Plus]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
@@ -1101,7 +1095,7 @@ function ChartViewer:OnEvent (_, event, ...)
 					welcome:SetBackdrop ({edgeFile = "Interface\\Buttons\\UI-SliderBar-Border", edgeSize = 8,
 					bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 130, insets = {left = 1, right = 1, top = 5, bottom = 5}})
 					
-					local str = _detalhes.gump:CreateLabel (welcome, "- Each tab shows a graphic.\n\n- Double click a tab to edit it.\n\n- Click on 'New Tab' to create a new tab.\n\n- Press escape or right mouse button to close the panel.")
+					local str = _detalhes.gump:CreateLabel (welcome, "- Each tab shows a graphic.\n\n- Double click a tab to edit it.\n\n- Click on 'Add Chart' to create a new tab.\n\n- Press escape or right mouse button to close the panel.")
 					str:SetPoint (15, -15)
 					str:SetWidth (270)
 					
@@ -1122,7 +1116,7 @@ function ChartViewer:OnEvent (_, event, ...)
 				if (saveddata.options.auto_create == nil) then
 					saveddata.options.auto_create = true
 				end
-
+				
 				ChartViewer.tabs = saveddata.tabs
 				ChartViewer.options = saveddata.options
 				
@@ -1132,6 +1126,8 @@ function ChartViewer:OnEvent (_, event, ...)
 				
 				if (#ChartViewer.tabs == 0) then
 					ChartViewer.tabs [1] = {name = "Your Damage", segment_type = 2, data = "Player Damage Done", texture = "line", version = "v2.0"}
+					ChartViewer.tabs [2] = {name = "Class Damage", segment_type = 1, data = "PRESET_DAMAGE_SAME_CLASS", texture = "line", version = "v2.0", iType = "raid-DAMAGER"}
+					ChartViewer.tabs [3] = {name = "Raid Damage", segment_type = 2, data = "Raid Damage Done", texture = "line", version = "v2.0"}
 				end
 				
 				--> register wow events

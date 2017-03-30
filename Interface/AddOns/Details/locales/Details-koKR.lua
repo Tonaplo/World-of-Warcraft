@@ -48,7 +48,7 @@ L["STRING_ATTRIBUTE_HEAL_DONE"] = "치유량"
 L["STRING_ATTRIBUTE_HEAL_ENEMY"] = "적의 치유량"
 L["STRING_ATTRIBUTE_HEAL_HPS"] = "HPS"
 L["STRING_ATTRIBUTE_HEAL_OVERHEAL"] = "초과 치유"
-L["STRING_ATTRIBUTE_HEAL_PREVENT"] = "방지한 피해"
+L["STRING_ATTRIBUTE_HEAL_PREVENT"] = "막은 피해"
 L["STRING_ATTRIBUTE_HEAL_TAKEN"] = "받은 치유"
 L["STRING_ATTRIBUTE_MISC"] = "기타"
 L["STRING_ATTRIBUTE_MISC_BUFF_UPTIME"] = "강화 효과 유지 시간"
@@ -77,13 +77,13 @@ L["STRING_CHANNEL_SAY"] = "일반 대화"
 L["STRING_CHANNEL_WHISPER"] = "귓속말"
 L["STRING_CHANNEL_WHISPER_TARGET_COOLDOWN"] = "생존기 대상에게 귓속말"
 L["STRING_CHANNEL_YELL"] = "외침"
-L["STRING_CLICK_REPORT_LINE1"] = "|cFFFFCC22클릭|r: |cFFFFEE00보고|r"
+L["STRING_CLICK_REPORT_LINE1"] = "|cFFFFCC22클릭|r: |cFFFFEE00보고하기|r"
 L["STRING_CLICK_REPORT_LINE2"] = "|cFFFFCC22Shift+클릭|r: |cFFFFEE00창 모드|r"
 L["STRING_CLOSEALL"] = "모든 창이 닫혔습니다, 다시 열려면 '/details show'를 입력하세요."
 L["STRING_COLOR"] = "색상"
 L["STRING_COMMAND_LIST"] = "명령어 목록"
 L["STRING_COOLTIP_NOOPTIONS"] = "옵션 없음"
-L["STRING_CRITICAL_HITS"] = "치명타 및 극대화 타격"
+L["STRING_CRITICAL_HITS"] = "치명타 및 극대화 적중"
 L["STRING_CRITICAL_ONLY"] = "치명타"
 L["STRING_CURRENT"] = "현재"
 L["STRING_CURRENTFIGHT"] = "현재 세분화"
@@ -149,7 +149,7 @@ L["STRING_CUSTOM_SKIN_TEXTURE_DESC"] = [=[.tga 파일의 이름입니다.
 
 |cFFFFFF00WoW/Interface/|r
 
-|cFFFFFF00중요:|r 파일을 만들기 전에 게임 클라이언트를 닫으세요. 그 후에, /reload로 무늬 파일에 저장된 변경 내용을 적용할 수 있습니다.]=]
+|cFFFFFF00중요:|r 파일을 만들기 전에 게임 클라이언트를 닫으세요. 이후부터는 /reload로 텍스쳐 파일에 저장된 변경 내용을 적용할 수 있습니다.]=]
 L["STRING_CUSTOM_SOURCE"] = "출처:"
 L["STRING_CUSTOM_SOURCE_DESC"] = [=[효과를 일으킨 대상입니다.
 
@@ -164,16 +164,16 @@ L["STRING_CUSTOM_TARGET_DESC"] = [=[출처의 대상입니다.
 우측 버튼은 공격대 전투 중 npc들의 목록을 보여줍니다.]=]
 L["STRING_CUSTOM_TEMPORARILY"] = " (|cFFFFC000임시|r)"
 L["STRING_DAMAGE"] = "피해"
-L["STRING_DAMAGE_DPS_IN"] = "받은 DPS from"
+L["STRING_DAMAGE_DPS_IN"] = "받은 DPS:"
 L["STRING_DAMAGE_FROM"] = "피해 출처"
-L["STRING_DAMAGE_TAKEN_FROM"] = "받은 피해 출처"
-L["STRING_DAMAGE_TAKEN_FROM2"] = "적용된 피해 출처"
+L["STRING_DAMAGE_TAKEN_FROM"] = "받은 피해 출처:"
+L["STRING_DAMAGE_TAKEN_FROM2"] = "적용된 피해 출처:"
 L["STRING_DEFENSES"] = "방어"
 L["STRING_DESCENDING"] = "내림차순"
 L["STRING_DETACH_DESC"] = "창 그룹 해제"
-L["STRING_DISPELLED"] = "버프/디버프 제거됨"
+L["STRING_DISPELLED"] = "제거된 강화 효과/약화 효과"
 L["STRING_DODGE"] = "회피"
-L["STRING_DOT"] = " (도트)"
+L["STRING_DOT"] = " (지속 피해)"
 L["STRING_DPS"] = "Dps"
 L["STRING_EMPTY_SEGMENT"] = "빈 세분화"
 L["STRING_ENABLED"] = "사용"
@@ -198,14 +198,14 @@ L["STRING_FEEDBACK_SEND_FEEDBACK"] = "피드백 보내기"
 L["STRING_FEEDBACK_WOWI_DESC"] = "Details! 프로젝트 페이지에 의견을 남깁니다."
 L["STRING_FIGHTNUMBER"] = "전투 #"
 L["STRING_FREEZE"] = "이 세분화는 지금 사용할 수 없음"
-L["STRING_FROM"] = "출처"
+L["STRING_FROM"] = "출처:"
 L["STRING_GERAL"] = "일반"
 L["STRING_GLANCING"] = "빗맞음"
 L["STRING_HEAL"] = "치유"
 L["STRING_HEAL_ABSORBED"] = "흡수된 치유"
 L["STRING_HEAL_CRIT"] = "극대화 치유"
-L["STRING_HEALING_FROM"] = "받은 치유 출처"
-L["STRING_HEALING_HPS_FROM"] = "받은 HPS 출처"
+L["STRING_HEALING_FROM"] = "받은 치유 출처:"
+L["STRING_HEALING_HPS_FROM"] = "받은 HPS 출처:"
 L["STRING_HITS"] = "횟수"
 L["STRING_HPS"] = "Hps"
 L["STRING_IMAGEEDIT_ALPHA"] = "투명도"
@@ -234,8 +234,8 @@ L["STRING_KEYBIND_SEGMENTCONTROL"] = "세분화"
 L["STRING_KEYBIND_TOGGLE_WINDOW"] = "창 #%s 표시 전환"
 L["STRING_KEYBIND_TOGGLE_WINDOWS"] = "모든 창 표시 전환"
 L["STRING_KEYBIND_WINDOW_CONTROL"] = "창"
-L["STRING_KEYBIND_WINDOW_REPORT"] = "창 #%s에 표시된 데이터 보고"
-L["STRING_KEYBIND_WINDOW_REPORT_HEADER"] = "데이터 보고"
+L["STRING_KEYBIND_WINDOW_REPORT"] = "창 #%s에 표시된 데이터를 보고합니다."
+L["STRING_KEYBIND_WINDOW_REPORT_HEADER"] = "데이터 보고하기"
 L["STRING_KILLED"] = "죽임"
 L["STRING_LAST_COOLDOWN"] = "마지막으로 사용한 생존기"
 L["STRING_LEFT"] = "좌측"
@@ -247,7 +247,7 @@ L["STRING_MASTERY"] = "특화"
 L["STRING_MAXIMUM"] = "최대"
 L["STRING_MAXIMUM_SHORT"] = "최대"
 L["STRING_MEDIA"] = "미디어"
-L["STRING_MELEE"] = "근접"
+L["STRING_MELEE"] = "근접 공격"
 L["STRING_MEMORY_ALERT_BUTTON"] = "이해했습니다"
 L["STRING_MEMORY_ALERT_TEXT1"] = "Details!는 많은 메모리를 사용합니다, 하지만 |cFFFF8800많은 사람들이 생각하는 것과 달리|r, 애드온에 의한 메모리 사용량은 게임 성능이나 FPS에 |cFFFF8800영향을 주지 않습니다|r."
 L["STRING_MEMORY_ALERT_TEXT2"] = "따라서 Details!가 많은 양의 메모리를 사용하는 걸 알게 되었더라도, 혼란스러워 하지마세요 :D |cFFFF8800모두 정상입니다!|r, 그리고 이 메모리는 애드온을 더 빠르게 만들어주는 |cFFFF8800캐시를 저장하는데 사용됩니다|r."
@@ -298,7 +298,7 @@ L["STRING_MODE_RAID"] = "플러그인: 공격대"
 L["STRING_MODE_SELF"] = "플러그인: 솔로 플레이"
 L["STRING_MORE_INFO"] = "자세한 정보는 오른쪽에 있습니다."
 L["STRING_MULTISTRIKE"] = "연속타격"
-L["STRING_MULTISTRIKE_HITS"] = "연속타격"
+L["STRING_MULTISTRIKE_HITS"] = "연속타격 적중"
 L["STRING_MUSIC_DETAILS_ROBERTOCARLOS"] = [=[잊으려는 노력을 하지 않으면
 난 오랜 시간 당신의 삶에 머물거에요
 우리의 아주 작은 것까지도]=]
@@ -315,7 +315,7 @@ L["STRING_NOCLOSED_INSTANCES"] = [=[닫혀있는 창이 없습니다,
 L["STRING_NOLAST_COOLDOWN"] = "사용한 생존기 없음"
 L["STRING_NOMORE_INSTANCES"] = [=[창 최대 갯수에 도달했습니다.
 옵션 창에서 제한 갯수를 변경하세요.]=]
-L["STRING_NORMAL_HITS"] = "일반 타격"
+L["STRING_NORMAL_HITS"] = "일반 적중"
 L["STRING_NUMERALSYSTEM"] = "명수법"
 L["STRING_NUMERALSYSTEM_ARABIC_MYRIAD_EASTASIA"] = "동아시아 국가들이 사용합니다, 천 단위와 만 단위로 구분합니다."
 L["STRING_NUMERALSYSTEM_ARABIC_WESTERN"] = "서양"
@@ -367,7 +367,7 @@ L["STRING_OPTIONS_BAR_BACKDROP_ENABLED_DESC"] = "바 테두리를 켜거나 끕�
 L["STRING_OPTIONS_BAR_BACKDROP_SIZE_DESC"] = "테두리 크기를 조절합니다."
 L["STRING_OPTIONS_BAR_BACKDROP_TEXTURE_DESC"] = "테두리 모양을 변경합니다."
 L["STRING_OPTIONS_BAR_BCOLOR"] = "배경 색상"
-L["STRING_OPTIONS_BAR_BTEXTURE_DESC"] = "이 무늬를 상위 무늬 아래에 놓고 크기를 항상 창의 너비와 맞춥니다."
+L["STRING_OPTIONS_BAR_BTEXTURE_DESC"] = "이 텍스쳐를 상위 텍스쳐 밑에 놓고 크기를 항상 창의 너비와 맞춥니다."
 L["STRING_OPTIONS_BAR_COLOR_DESC"] = [=[이 무늬의 색상과 투명도입니다.
 
 |cFFFFFF00중요|r: 직업 색상을 사용하면 선택한 색상은 무시됩니다.]=]
@@ -393,7 +393,7 @@ L["STRING_OPTIONS_BAR_ICONFILE5"] = "둥근 아이콘"
 L["STRING_OPTIONS_BAR_ICONFILE6"] = "기본 (투명한 흑백)"
 L["STRING_OPTIONS_BAR_SPACING"] = "간격"
 L["STRING_OPTIONS_BAR_SPACING_DESC"] = "바 사이의 간격 크기입니다."
-L["STRING_OPTIONS_BAR_TEXTURE_DESC"] = "바 상단에 쓰이는 무늬입니다."
+L["STRING_OPTIONS_BAR_TEXTURE_DESC"] = "바의 상단에 쓰이는 텍스쳐입니다."
 L["STRING_OPTIONS_BARLEFTTEXTCUSTOM"] = "사용자 설정 문자 활성화"
 L["STRING_OPTIONS_BARLEFTTEXTCUSTOM_DESC"] = "활성화하면 아래 입력 창에 쓰이는 규칙에 따라 좌측 문자가 표시됩니다."
 L["STRING_OPTIONS_BARLEFTTEXTCUSTOM2"] = ""
@@ -426,7 +426,7 @@ L["STRING_OPTIONS_BARRIGHTTEXTCUSTOM2_DESC"] = [=[|cFFFFFF00{data1}|r: 첫번째
 
 |cFFFFFF00Scape Sequences|r: 색상이나 텍스쳐를 추가합니다. 자세한 정보는 'UI escape sequences' 검색하세요.]=]
 L["STRING_OPTIONS_BARS"] = "바 일반 설정"
-L["STRING_OPTIONS_BARS_CUSTOM_TEXTURE"] = "사용자 설정 무늬 파일"
+L["STRING_OPTIONS_BARS_CUSTOM_TEXTURE"] = "사용자 설정 텍스쳐 파일"
 L["STRING_OPTIONS_BARS_CUSTOM_TEXTURE_DESC"] = [=[
 
 |cFFFFFF00중요|r: 이미지는 256x32 픽셀이어야 합니다.]=]
@@ -446,7 +446,7 @@ L["STRING_OPTIONS_BG_ALL_ALLY_DESC"] = [=[활성화하면 창이 그룹 모드�
 L["STRING_OPTIONS_BG_ANCHOR"] = "전장:"
 L["STRING_OPTIONS_BG_REMOTE_PARSER"] = "스마트 점수"
 L["STRING_OPTIONS_BG_REMOTE_PARSER_DESC"] = "활성화하면 피해와 치유를 점수판과 맞춥니다."
-L["STRING_OPTIONS_CAURAS"] = "효과 수집"
+L["STRING_OPTIONS_CAURAS"] = "오라 수집"
 L["STRING_OPTIONS_CAURAS_DESC"] = [=[수집 허용:
 
 - |cFFFFFF00강화 효과 유지 시간|r
@@ -501,7 +501,7 @@ L["STRING_OPTIONS_CHEAL_DESC"] = [=[수집 허용:
 - |cFFFFFF00치유량|r
 - |cFFFFFF00흡수|r
 - |cFFFFFF00초당 치유|r
-- |cFFFFFF00초과치유|r
+- |cFFFFFF00초과 치유|r
 - |cFFFFFF00받은 치유|r
 - |cFFFFFF00적이 받은 치유|r
 - |cFFFFFF00막은 피해|r]=]
@@ -886,9 +886,9 @@ L["STRING_OPTIONS_REALMNAME_DESC"] = [=[활성화하면 캐릭터의 서버 이�
 
 |cFFFFFF00비활성|r: Charles-데스윙
 |cFFFFFF00활성|r: Charles]=]
-L["STRING_OPTIONS_REPORT_ANCHOR"] = "보고:"
+L["STRING_OPTIONS_REPORT_ANCHOR"] = "보고서:"
 L["STRING_OPTIONS_REPORT_HEALLINKS"] = "이로운 주문 링크"
-L["STRING_OPTIONS_REPORT_HEALLINKS_DESC"] = [=[이 옵션이 활성화 된 상태에서 보고서를 전송하면 |cFF55FF55이로운|r 주문이 이름 대신 주문 링크로 보고됩니다.
+L["STRING_OPTIONS_REPORT_HEALLINKS_DESC"] = [=[이 옵션이 활성화된 상태에서 보고서를 전송하면 |cFF55FF55이로운|r 주문이 이름 대신 주문 링크로 보고됩니다.
 
 |cFFFF5555해로운|r 주문은 기본적으로 링크로 보고됩니다.]=]
 L["STRING_OPTIONS_REPORT_SCHEMA"] = "형식"
@@ -920,8 +920,8 @@ L["STRING_OPTIONS_RT_DEATH_MSG"] = "Details! %s 죽음"
 L["STRING_OPTIONS_RT_DEATHS_ANCHOR"] = "죽음 알리기:"
 L["STRING_OPTIONS_RT_DEATHS_FIRST"] = "최대"
 L["STRING_OPTIONS_RT_DEATHS_FIRST_DESC"] = "전투 중 처음 X 번째 죽음까지만 알리도록 합니다."
-L["STRING_OPTIONS_RT_DEATHS_HITS"] = "타격 횟수"
-L["STRING_OPTIONS_RT_DEATHS_HITS_DESC"] = "죽음을 알릴 때 타격 횟수를 표시합니다."
+L["STRING_OPTIONS_RT_DEATHS_HITS"] = "적중 횟수"
+L["STRING_OPTIONS_RT_DEATHS_HITS_DESC"] = "죽음을 알릴 때 적중 횟수를 표시합니다."
 L["STRING_OPTIONS_RT_DEATHS_ONOFF_DESC"] = "공격대원이 죽으면 죽은 플레이어를 공격대 채널에 알립니다."
 L["STRING_OPTIONS_RT_DEATHS_WHERE"] = "인스턴스"
 L["STRING_OPTIONS_RT_DEATHS_WHERE_DESC"] = [=[죽음을 보고할 곳을 선택합니다.
@@ -933,23 +933,23 @@ L["STRING_OPTIONS_RT_DEATHS_WHERE1"] = "공격대 & 던전"
 L["STRING_OPTIONS_RT_DEATHS_WHERE2"] = "공격대만"
 L["STRING_OPTIONS_RT_DEATHS_WHERE3"] = "던전만"
 L["STRING_OPTIONS_RT_FIRST_HIT"] = "첫 타격"
-L["STRING_OPTIONS_RT_FIRST_HIT_DESC"] = "대화창에 (|cFFFFFF00자신에게만|r) 누가 첫 타격을 줬는지 표시합니다, 대체로 전투를 시작한 사람입니다."
+L["STRING_OPTIONS_RT_FIRST_HIT_DESC"] = "대화창에 (|cFFFFFF00자신에게만|r) 첫번째로 적중시킨 사람을 표시합니다, 대체로 전투를 시작한 사람입니다."
 L["STRING_OPTIONS_RT_IGNORE_TITLE"] = "알림을 사용할 생존기"
 L["STRING_OPTIONS_RT_INFOS"] = "추가 정보:"
 L["STRING_OPTIONS_RT_INFOS_PREPOTION"] = "시작물약 사용"
 L["STRING_OPTIONS_RT_INFOS_PREPOTION_DESC"] = "활성화 한 후 공격대 전투가 끝나면, 대화창에 (|cFFFFFF00자신에게만|r) 전투 시작 전 물약을 사용한 사람을 출력합니다."
-L["STRING_OPTIONS_RT_INTERRUPT"] = "%s 차단함!"
-L["STRING_OPTIONS_RT_INTERRUPT_ANCHOR"] = "차단 알리기:"
+L["STRING_OPTIONS_RT_INTERRUPT"] = "%s 차단!"
+L["STRING_OPTIONS_RT_INTERRUPT_ANCHOR"] = "시전 방해 알리기:"
 L["STRING_OPTIONS_RT_INTERRUPT_NEXT"] = "다음: %s"
 L["STRING_OPTIONS_RT_INTERRUPTS_CHANNEL"] = "채널"
 L["STRING_OPTIONS_RT_INTERRUPTS_CHANNEL_DESC"] = [=[경보 메시지를 보내는 데 사용할 대화 채널입니다.
 
-|cFFFFFF00혼자 보기|r를 선택하면 모든 차단이 당신의 대화창에만 표시됩니다.
+|cFFFFFF00혼자 보기|r를 선택하면 모든 시전 방해가 자신의 대화창에만 표시됩니다.
 ]=]
 L["STRING_OPTIONS_RT_INTERRUPTS_CUSTOM"] = "사용자 설정 구문"
 L["STRING_OPTIONS_RT_INTERRUPTS_CUSTOM_DESC"] = [=[출력할 구문을 입력하세요.
 
-|cFFFFFF00{spell}|r 차단된 주문 이름을 추가합니다.
+|cFFFFFF00{spell}|r 시전 방해된 주문 이름을 추가합니다.
 
 |cFFFFFF00{next}|r '다음 플레이어'에 적은 이름을 추가합니다.
 ]=]
@@ -1158,7 +1158,7 @@ L["STRING_OPTIONS_TOOLTIPS_BACKGROUNDCOLOR"] = "배경 색상"
 L["STRING_OPTIONS_TOOLTIPS_BACKGROUNDCOLOR_DESC"] = "배경에 사용할 색상을 선택합니다."
 L["STRING_OPTIONS_TOOLTIPS_BORDER_COLOR_DESC"] = "테두리 색상을 변경합니다."
 L["STRING_OPTIONS_TOOLTIPS_BORDER_SIZE_DESC"] = "테두리 크기를 변경합니다."
-L["STRING_OPTIONS_TOOLTIPS_BORDER_TEXTURE_DESC"] = "테두리 무늬 파일을 수정합니다."
+L["STRING_OPTIONS_TOOLTIPS_BORDER_TEXTURE_DESC"] = "테두리 텍스쳐 파일을 수정합니다."
 L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR"] = "문자 색상"
 L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR_DESC"] = "툴팁 문자에 사용할 색상을 변경합니다."
 L["STRING_OPTIONS_TOOLTIPS_FONTFACE"] = "문자 글꼴"
@@ -1308,14 +1308,14 @@ L["STRING_OPTIONSMENU_ROWSETTINGS"] = "바: 일반"
 L["STRING_OPTIONSMENU_ROWTEXTS"] = "바: 문자"
 L["STRING_OPTIONSMENU_SKIN"] = "스킨 선택"
 L["STRING_OPTIONSMENU_SPELLS"] = "주문 사용자 설정"
-L["STRING_OPTIONSMENU_SPELLS_CONSOLIDATE"] = "같은 이름의 일반 주문 통합하기"
+L["STRING_OPTIONSMENU_SPELLS_CONSOLIDATE"] = "같은 이름의 주문을 공통 주문으로 통합하기"
 L["STRING_OPTIONSMENU_TITLETEXT"] = "제목 바: 문자"
 L["STRING_OPTIONSMENU_TOOLTIP"] = "툴팁"
 L["STRING_OPTIONSMENU_WALLPAPER"] = "창: 배경화면"
 L["STRING_OPTIONSMENU_WINDOW"] = "창: 일반"
 L["STRING_OVERALL"] = "종합"
 L["STRING_OVERHEAL"] = "초과 치유"
-L["STRING_OVERHEALED"] = "초과 치유함"
+L["STRING_OVERHEALED"] = "초과 치유됨"
 L["STRING_PARRY"] = "무기 막기"
 L["STRING_PERCENTAGE"] = "백분율"
 L["STRING_PET"] = "소환수"
@@ -1361,7 +1361,7 @@ L["STRING_QUERY_INSPECT_TALENTS"] = "클릭하여 검색하기"
 L["STRING_RAID_WIDE"] = "[*] 공격대 단위 쿨다운"
 L["STRING_RAIDCHECK_PLUGIN_DESC"] = "공격대 던전에 있을 때, Details! 제목 바 위에 영약, 음식, 시작물약 사용을 보여주는 아이콘을 표시합니다."
 L["STRING_RAIDCHECK_PLUGIN_NAME"] = "공격대 확인"
-L["STRING_REPORT"] = "for"
+L["STRING_REPORT"] = ":"
 L["STRING_REPORT_BUTTON_TOOLTIP"] = "보고서 창을 열려면 클릭하세요"
 L["STRING_REPORT_FIGHT"] = "전투"
 L["STRING_REPORT_FIGHTS"] = "전투"
@@ -1391,7 +1391,7 @@ L["STRING_REPORTFRAME_SAY"] = "일반 대화"
 L["STRING_REPORTFRAME_SEND"] = "전송"
 L["STRING_REPORTFRAME_WHISPER"] = "귓속말"
 L["STRING_REPORTFRAME_WHISPERTARGET"] = "대상에게 귓속말"
-L["STRING_REPORTFRAME_WINDOW_TITLE"] = "Details! 링크"
+L["STRING_REPORTFRAME_WINDOW_TITLE"] = "Details! 링크하기"
 L["STRING_REPORTHISTORY"] = "최근 보고 기록"
 L["STRING_RESISTED"] = "저항함"
 L["STRING_RESIZE_ALL"] = "모든 창 자유로운 크기 조절"
@@ -1452,7 +1452,7 @@ L["STRING_SLASH_WIPECONFIG_CONFIRM"] = "클릭하면 재설치를 진행합니�
 L["STRING_SLASH_WIPECONFIG_DESC"] = "모든 설정을 기본값으로 돌립니다, Details!가 제대로 작동하지 않을 때 사용하세요."
 L["STRING_SLASH_WORLDBOSS"] = "worldboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "이번 주에 처치한 우두머리를 보여주는 매크로를 실행합니다."
-L["STRING_SPELL_INTERRUPTED"] = "차단된 주문"
+L["STRING_SPELL_INTERRUPTED"] = "시전 방해된 주문"
 L["STRING_SPELLS"] = "주문"
 L["STRING_SPIRIT_LINK_TOTEM"] = "생명력 교환"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[토템 범위 안의 플레이어들 간에
@@ -1468,7 +1468,7 @@ L["STRING_SWITCH_WARNING"] = "역할 바뀜. 변경: |cFFFFAA00%s|r"
 L["STRING_TARGET"] = "대상"
 L["STRING_TARGETS"] = "대상"
 L["STRING_TARGETS_OTHER1"] = "소환수와 다른 대상들"
-L["STRING_TEXTURE"] = "무늬"
+L["STRING_TEXTURE"] = "텍스쳐"
 L["STRING_TIME_OF_DEATH"] = "죽음"
 L["STRING_TOOOLD"] = "Details! 버전이 너무 오래되어 설치할 수 없습니다."
 L["STRING_TOP"] = "상단"
@@ -1481,7 +1481,7 @@ L["STRING_TUTORIAL_OVERALL1"] = "옵션 창 > PvE/PvP에서 종합 데이터 설
 L["STRING_UNKNOW"] = "알 수 없음"
 L["STRING_UNKNOWSPELL"] = "알 수 없는 주문"
 L["STRING_UNLOCK"] = [=[이 버튼으로
- 창 그룹 해제]=]
+창 그룹 해제]=]
 L["STRING_UNLOCK_WINDOW"] = "잠금해제"
 L["STRING_UPTADING"] = "갱신 중"
 L["STRING_VERSION_UPDATE"] = "새 버전: 변경 내용을 보려면 클릭하세요"
@@ -1583,6 +1583,6 @@ L["STRING_WINDOW_NUMBER"] = "창 번호"
 L["STRING_WINDOW1ATACH_DESC"] = "창 그룹을 만들려면 창 #2를 창 #1 가까이 드래그하세요."
 L["STRING_WIPE_ALERT"] = "공격대장 요청: 전멸하세요!"
 L["STRING_WIPE_ERROR1"] = "이미 전멸 신호를 보냈습니다."
-L["STRING_WIPE_ERROR2"] = "공격대 전투 중이 아닙니다."
-L["STRING_WIPE_ERROR3"] = "공격대 전투를 끝낼 수 없습니다."
+L["STRING_WIPE_ERROR2"] = "공격대 우두머리 전투 중이 아닙니다."
+L["STRING_WIPE_ERROR3"] = "우두머리 전투를 끝낼 수 없습니다."
 L["STRING_YES"] = "네"
