@@ -15,5 +15,5 @@ swapBlasterList = {
 	["Kalithumos"] = 1,
 	["Coaxed"] = 17,
 }
-lastSwapCaster = "Deepsidont"
-lastSwapTime = 15384.688
+lastSwapCaster = nil
+lastSwapTime = 0

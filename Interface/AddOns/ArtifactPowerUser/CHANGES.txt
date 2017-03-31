@@ -1,0 +1,12 @@
+tag 046722797a1b7bef15a3f782470b9eb83d9b575c 2.2
+Author:	FlyNeko <iv-darya@yandex.ru>
+Date:	Sun Jan 8 22:57:14 2017 +0300
+
+Tagging as 2.2
+
+commit 7f0904edd805099206a1f1b5c974197e6e6fbe26
+Author: FlyNeko <iv-darya@yandex.ru>
+Date:   Sun Jan 8 22:15:13 2017 +0300
+
+    Minor fix
+

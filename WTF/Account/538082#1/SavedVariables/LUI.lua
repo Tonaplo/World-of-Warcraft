@@ -50,16 +50,14 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1155,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -72,11 +70,13 @@ LUIDB = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1155,
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2918448465,
+							["Mallusof"] = 2886011435,
 						},
 					},
 				},
@@ -126,6 +126,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -136,10 +141,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -167,30 +168,13 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -676,6 +660,22 @@ LUIDB = {
 						},
 					},
 				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -788,44 +788,48 @@ LUIDB = {
 							"/g nice!", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/4 but had to interrupt", -- [1]
-							"/4 Can I buy some Leytorrents off anyone?", -- [2]
-							"/g gg", -- [3]
-							"/raid 1", -- [4]
-							"/raid I hate this fight already", -- [5]
-							"/raid I'm still loling the fuck out of that", -- [6]
-							"/raid 1", -- [7]
-							"/4 and then Hope on the Adds", -- [8]
-							"/4 True", -- [9]
-							"/roll 30000", -- [10]
-							"/4 I got 4/5 of the last orbs", -- [11]
-							"/4 If I pop it a second earlier, we're good", -- [12]
-							"/4 Can I buy some Leytorrents off anyone?", -- [13]
-							"/raid 1", -- [14]
-							"/raid I'm still loling the fuck out of that", -- [15]
-							"/4 and then Hope on the Adds", -- [16]
-							"/roll 30000", -- [17]
-							"/4 If I pop it a second earlier, we're good", -- [18]
-							"/raid 1", -- [19]
-							"/4 and then Hope on the Adds", -- [20]
-							"/4 If I pop it a second earlier, we're good", -- [21]
-							"/4 and then Hope on the Adds", -- [22]
-							"/s indeed", -- [23]
-							"/s all good", -- [24]
-							"/s go ahead", -- [25]
-							"/s yes", -- [26]
-							"/s weronmg", -- [27]
-							"/i this way", -- [28]
-							"/i hmm", -- [29]
-							"/i you migthe b  right", -- [30]
-							"/i he got it?", -- [31]
-							"/i cheers", -- [32]
+							"/p crobs?", -- [1]
+							"/p k", -- [2]
+							"/p ogogog", -- [3]
+							"/p sorry about that", -- [4]
+							"/p How is it with the new system", -- [5]
+							"/p +10 is max, right?", -- [6]
+							"/p cheers", -- [7]
+							"/p |cffa335ee|Hkeystone:234:6:1:6:0:0|h[Keystone: Return to Karazhan: Upper]|h|r", -- [8]
+							"/p sure, if you wanna", -- [9]
+							"/p should be easy", -- [10]
+							"/p Queue us up", -- [11]
+							"/p fucking horde", -- [12]
+							"/p wait, we're on my server?", -- [13]
+							"/p I should have waited", -- [14]
+							"/p and let you zone first", -- [15]
+							"/p I HATE this server", -- [16]
+							"/p wtf", -- [17]
+							"/p why are we here?", -- [18]
+							"/p all r??", -- [19]
+							"/p going", -- [20]
+							"/p 20 sec silence", -- [21]
+							"/p wtf", -- [22]
+							"/p I've forgotten this palce", -- [23]
+							"/p I'm sorry", -- [24]
+							"/p thanks gys!", -- [25]
+							"/p cyall!", -- [26]
+							"/p |cffa335ee|Hkeystone:209:9:1:6:3:0|h[Keystone: The Arcway]|h|r", -- [27]
+							"/p No ty :)", -- [28]
+							"/p to both", -- [29]
+							"/p I'm done for the night", -- [30]
+							"/p thanks though!", -- [31]
+							"/p hopefully cya again!", -- [32]
 						},
 					},
 				},
 			},
 			["profiles"] = {
 				["Gottagetlia - Aggramar"] = {
+					["modules"] = {
+					},
+				},
+				["Default"] = {
 					["modules"] = {
 					},
 				},
@@ -845,10 +849,6 @@ LUIDB = {
 					["modules"] = {
 					},
 				},
-				["Default"] = {
-					["modules"] = {
-					},
-				},
 			},
 		},
 		["Panels"] = {
@@ -858,6 +858,14 @@ LUIDB = {
 						["IsShown"] = true,
 					},
 					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
+				},
+				["Default"] = {
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -885,14 +893,6 @@ LUIDB = {
 						["IsShown"] = true,
 					},
 					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
-				},
-				["Default"] = {
-					["MicroMenu"] = {
-						["IsShown"] = true,
-					},
-					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1070,6 +1070,169 @@ LUIDB = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
+						0.4, -- [4]
+					},
+				},
+				["Default"] = {
+					["micromenu_btn"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["color_bottom"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.5, -- [4]
+					},
+					["tpsborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["tps"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["chat"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["bar"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.7, -- [4]
+					},
+					["micromenu_bg"] = {
+						0.66, -- [1]
+						0, -- [2]
+						0.43, -- [3]
+						0.8, -- [4]
+					},
+					["orb_cycle"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["color_top"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.5, -- [4]
+					},
+					["raid"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["theme"] = "Paladin",
+					["micromenu_bg2"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.7, -- [4]
+					},
+					["chatborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["minimap"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						1, -- [4]
+					},
+					["editbox"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["bar2"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.6, -- [4]
+					},
+					["dpsborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["dps"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["chat2"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["sidebar"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["micromenu"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+					},
+					["navi"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.6, -- [4]
+					},
+					["chat2border"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
+					["orb"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+					},
+					["navi_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
 						0.4, -- [4]
 					},
 				},
@@ -1399,169 +1562,6 @@ LUIDB = {
 						0.7, -- [4]
 					},
 				},
-				["Default"] = {
-					["micromenu_btn"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["color_bottom"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.5, -- [4]
-					},
-					["tpsborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["tps"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["chat"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["bar"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.7, -- [4]
-					},
-					["micromenu_bg"] = {
-						0.66, -- [1]
-						0, -- [2]
-						0.43, -- [3]
-						0.8, -- [4]
-					},
-					["orb_cycle"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["color_top"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.5, -- [4]
-					},
-					["raid"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["theme"] = "Paladin",
-					["micromenu_bg2"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0.7, -- [4]
-					},
-					["chatborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["minimap"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						1, -- [4]
-					},
-					["editbox"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["bar2"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.6, -- [4]
-					},
-					["dpsborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["dps"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["chat2"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["sidebar"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["micromenu"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-					},
-					["navi"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.6, -- [4]
-					},
-					["chat2border"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["orb"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-					},
-					["navi_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-				},
 			},
 		},
 		["Forte"] = {
@@ -1598,6 +1598,11 @@ LUIDB = {
 		},
 		["Bars"] = {
 			["profiles"] = {
+				["Default"] = {
+					["SidebarRight1"] = {
+						["IsOpen"] = true,
+					},
+				},
 				["Zaliga - Bleeding Hollow"] = {
 					["StatesLoaded"] = true,
 					["Bottombar5"] = {
@@ -1680,6 +1685,7 @@ LUIDB = {
 						},
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 						["State"] = {
@@ -1737,11 +1743,6 @@ LUIDB = {
 						["State"] = {
 							"10", -- [1]
 						},
-					},
-				},
-				["Default"] = {
-					["SidebarRight1"] = {
-						["IsOpen"] = true,
 					},
 				},
 			},
@@ -1967,7 +1968,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1976,12 +1977,13 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
 					["Auras"] = 2,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -2001,7 +2003,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -2010,13 +2012,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Faerand - Proudmoore"] = {
@@ -2036,7 +2037,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -2061,6 +2062,11 @@ LUIDB = {
 				["Merchant"] = false,
 			},
 		},
+		["Default"] = {
+			["modules"] = {
+				["Merchant"] = false,
+			},
+		},
 		["Base"] = {
 			["modules"] = {
 				["Cooldown"] = false,
@@ -2076,11 +2082,6 @@ LUIDB = {
 			},
 		},
 		["Zaliga - Bleeding Hollow"] = {
-			["modules"] = {
-				["Merchant"] = false,
-			},
-		},
-		["Default"] = {
 			["modules"] = {
 				["Merchant"] = false,
 			},

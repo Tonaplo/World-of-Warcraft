@@ -3,3 +3,4 @@ AngryWorldQuests: enabled
 VuhDo: enabled
 VuhDoOptions: enabled
 autoturnin: disabled
+MythicPlusTimer: disabled

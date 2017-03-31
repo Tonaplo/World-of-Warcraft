@@ -21,16 +21,16 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Amranar - Emerald Dream"] = "Amranar - Emerald Dream",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Prothalon - Emerald Dream"] = "Prothalon - Emerald Dream",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
-		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
+		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Novgorod - Emerald Dream"] = "Novgorod - Emerald Dream",
 	},
 	["realm"] = {
@@ -24238,7 +24238,7 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 789,
+				["secondProfLevel"] = 790,
 				["name"] = "Mallusof",
 				["class"] = "PRIEST",
 				["firstProfLevel"] = 780,
