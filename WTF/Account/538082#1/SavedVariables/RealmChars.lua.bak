@@ -21,16 +21,16 @@ RCDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Amranar - Emerald Dream"] = "Amranar - Emerald Dream",
 		["Contumon - Blackhand"] = "Contumon - Blackhand",
-		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
+		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
 		["Mallusof - Emerald Dream"] = "Mallusof - Emerald Dream",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Prothalon - Emerald Dream"] = "Prothalon - Emerald Dream",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Theodor - Emerald Dream"] = "Theodor - Emerald Dream",
-		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Eiwar - Proudmoore"] = "Eiwar - Proudmoore",
+		["Miriyam - Emerald Dream"] = "Miriyam - Emerald Dream",
 		["Novgorod - Emerald Dream"] = "Novgorod - Emerald Dream",
 	},
 	["realm"] = {
@@ -66,12 +66,12 @@ RCDatabase = {
 				["secondProf"] = "Enchanting",
 			}, -- [2]
 			{
-				["secondProfLevel"] = 700,
 				["name"] = "Praerend",
+				["secondProfLevel"] = 700,
+				["firstProf"] = "Blacksmithing",
+				["level"] = 110,
 				["firstProfLevel"] = 700,
 				["class"] = "WARRIOR",
-				["level"] = 110,
-				["firstProf"] = "Blacksmithing",
 				["secondProf"] = "Jewelcrafting",
 			}, -- [3]
 			{
@@ -84,7 +84,7 @@ RCDatabase = {
 				["secondProf"] = "Skinning",
 			}, -- [4]
 			{
-				["secondProfLevel"] = 790,
+				["secondProfLevel"] = 791,
 				["name"] = "Amranar",
 				["class"] = "DRUID",
 				["firstProfLevel"] = 713,
@@ -133,8 +133,8 @@ RCDatabase = {
 				["secondProfLevel"] = 46,
 				["firstProf"] = "Herbalism",
 				["level"] = 110,
-				["firstProfLevel"] = 57,
 				["class"] = "WARLOCK",
+				["firstProfLevel"] = 57,
 				["secondProf"] = "Mining",
 			}, -- [10]
 			{
@@ -159,9 +159,9 @@ RCDatabase = {
 				["name"] = "Kaldorath",
 				["secondProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
-				["level"] = 109,
-				["firstProfLevel"] = 0,
+				["level"] = 110,
 				["class"] = "DEMONHUNTER",
+				["firstProfLevel"] = 0,
 				["secondProf"] = "No 2nd Prof",
 			}, -- [13]
 			["characterStored"] = 13,
@@ -24241,7 +24241,7 @@ RCDatabase = {
 				["secondProfLevel"] = 790,
 				["name"] = "Mallusof",
 				["class"] = "PRIEST",
-				["firstProfLevel"] = 780,
+				["firstProfLevel"] = 785,
 				["level"] = 110,
 				["firstProf"] = "Tailoring",
 				["secondProf"] = "Enchanting",

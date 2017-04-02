@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 2886011435,
+							["Mallusof"] = 2802311300,
 						},
 					},
 				},
@@ -102,15 +102,15 @@ LUIDB = {
 							["Miriyal"] = 64479627,
 							["Farahn"] = 304525748,
 							["Greybone"] = 51361410,
-							["Amranar"] = 504132078,
+							["Amranar"] = 480196314,
 							["Granjior"] = 321738613,
-							["Kaldorath"] = 131104288,
+							["Kaldorath"] = 135871446,
 							["Faerand"] = 76687812,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 362991678,
+							["Rahran"] = 361124974,
 							["Morifa"] = 531951369,
-							["Fimwack"] = 166312611,
-							["Praerend"] = 765043131,
+							["Fimwack"] = 176855412,
+							["Praerend"] = 770167470,
 						},
 					},
 				},
@@ -126,21 +126,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -168,13 +161,28 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
 			["profiles"] = {
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -668,14 +676,6 @@ LUIDB = {
 						},
 					},
 				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 			},
 		},
 		["Threat"] = {
@@ -754,78 +754,82 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g nice!", -- [1]
-							"/g LOL", -- [2]
-							"/g My main is not even fully skilled up", -- [3]
-							"/g Then again, he has crafting stuff", -- [4]
-							"/g gz!", -- [5]
-							"/g Key word being \"most\"", -- [6]
-							"/s this quest", -- [7]
-							" ... no? :P", -- [8]
-							"/cw Chìhero So you're trying to poach people?", -- [9]
-							"/salute", -- [10]
-							" ... no? :P", -- [11]
-							"/salute", -- [12]
-							"/g Most evil people think they are actually doing good.", -- [13]
-							" SAS is more expensive", -- [14]
-							"/salute", -- [15]
-							"/g Most evil people think they are actually doing good.", -- [16]
-							"/salute", -- [17]
-							"/g nice!", -- [18]
-							"/g My main is not even fully skilled up", -- [19]
-							"/g gz!", -- [20]
-							"/s this quest", -- [21]
-							"/cw Chìhero So you're trying to poach people?", -- [22]
-							" ... no? :P", -- [23]
-							"/g Most evil people think they are actually doing good.", -- [24]
-							"/salute", -- [25]
-							"/g nice!", -- [26]
-							"/g gz!", -- [27]
-							"/cw Chìhero So you're trying to poach people?", -- [28]
-							"/g Most evil people think they are actually doing good.", -- [29]
-							"/g nice!", -- [30]
-							"/cw Chìhero So you're trying to poach people?", -- [31]
-							"/g nice!", -- [32]
+							"/p thans all", -- [1]
+							"/g I think it gives more AP", -- [2]
+							"/p thans all", -- [3]
+							"/p hey", -- [4]
+							"/p and T is next to Y", -- [5]
+							"/p He didnt like the Dad Joke", -- [6]
+							"/p Dude", -- [7]
+							"/p It's just +2", -- [8]
+							"/p |cffa335ee|Hkeystone:233:2:1:0:0:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [9]
+							"/p that's retarded", -- [10]
+							"/p thans all", -- [11]
+							"/p and T is next to Y", -- [12]
+							"/p Dude", -- [13]
+							"/p |cffa335ee|Hkeystone:233:2:1:0:0:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [14]
+							"/p thans all", -- [15]
+							"/p Dude", -- [16]
+							"/p thans all", -- [17]
+							"/g I think it gives more AP", -- [18]
+							"/p hey", -- [19]
+							"/p He didnt like the Dad Joke", -- [20]
+							"/p It's just +2", -- [21]
+							"/p that's retarded", -- [22]
+							"/p and T is next to Y", -- [23]
+							"/p |cffa335ee|Hkeystone:233:2:1:0:0:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [24]
+							"/p Dude", -- [25]
+							"/g I think it gives more AP", -- [26]
+							"/p He didnt like the Dad Joke", -- [27]
+							"/p that's retarded", -- [28]
+							"/p |cffa335ee|Hkeystone:233:2:1:0:0:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [29]
+							"/g I think it gives more AP", -- [30]
+							"/p that's retarded", -- [31]
+							"/g I think it gives more AP", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/p crobs?", -- [1]
-							"/p k", -- [2]
-							"/p ogogog", -- [3]
-							"/p sorry about that", -- [4]
-							"/p How is it with the new system", -- [5]
-							"/p +10 is max, right?", -- [6]
-							"/p cheers", -- [7]
-							"/p |cffa335ee|Hkeystone:234:6:1:6:0:0|h[Keystone: Return to Karazhan: Upper]|h|r", -- [8]
-							"/p sure, if you wanna", -- [9]
-							"/p should be easy", -- [10]
-							"/p Queue us up", -- [11]
-							"/p fucking horde", -- [12]
-							"/p wait, we're on my server?", -- [13]
-							"/p I should have waited", -- [14]
-							"/p and let you zone first", -- [15]
-							"/p I HATE this server", -- [16]
-							"/p wtf", -- [17]
-							"/p why are we here?", -- [18]
-							"/p all r??", -- [19]
-							"/p going", -- [20]
-							"/p 20 sec silence", -- [21]
-							"/p wtf", -- [22]
-							"/p I've forgotten this palce", -- [23]
-							"/p I'm sorry", -- [24]
-							"/p thanks gys!", -- [25]
-							"/p cyall!", -- [26]
-							"/p |cffa335ee|Hkeystone:209:9:1:6:3:0|h[Keystone: The Arcway]|h|r", -- [27]
-							"/p No ty :)", -- [28]
-							"/p to both", -- [29]
-							"/p I'm done for the night", -- [30]
-							"/p thanks though!", -- [31]
-							"/p hopefully cya again!", -- [32]
+							"/cw Kalithumos-Tichondrius And I bitch about that alot", -- [1]
+							"/cw Kalithumos Open the M+ pane", -- [2]
+							"/raid We need to roll agaion", -- [3]
+							"/cw Condìtioner Hey bud", -- [4]
+							"/g I'm gonna go do Sentinax stuff.", -- [5]
+							"/cw Condìtioner-Tichondrius it's a good addon :P", -- [6]
+							"/g what key", -- [7]
+							"/cw Kaligon-Tichondrius Grip is awesome", -- [8]
+							"/cw Kalithumos-Tichondrius fine", -- [9]
+							"/g well", -- [10]
+							"/raid group 3", -- [11]
+							"/cw Condìtioner-Tichondrius hahaha. that's pretty rad", -- [12]
+							"/raid nope", -- [13]
+							"/s  mmmmmmmm", -- [14]
+							"/g Fucking", -- [15]
+							"/g And I cant even get to my fucking corpse now", -- [16]
+							"/cw Kalithumos-Tichondrius And I bitch about that alot", -- [17]
+							"/raid We need to roll agaion", -- [18]
+							"/g I'm gonna go do Sentinax stuff.", -- [19]
+							"/g what key", -- [20]
+							"/cw Kalithumos-Tichondrius fine", -- [21]
+							"/raid group 3", -- [22]
+							"/raid nope", -- [23]
+							"/g Fucking", -- [24]
+							"/cw Kalithumos-Tichondrius And I bitch about that alot", -- [25]
+							"/g I'm gonna go do Sentinax stuff.", -- [26]
+							"/cw Kalithumos-Tichondrius fine", -- [27]
+							"/raid nope", -- [28]
+							"/cw Kalithumos-Tichondrius And I bitch about that alot", -- [29]
+							"/cw Kalithumos-Tichondrius fine", -- [30]
+							"/cw Kalithumos-Tichondrius And I bitch about that alot", -- [31]
+							"/g Indeed", -- [32]
 						},
 					},
 				},
 			},
 			["profiles"] = {
 				["Gottagetlia - Aggramar"] = {
+					["modules"] = {
+					},
+				},
+				["Zaliga - Bleeding Hollow"] = {
 					["modules"] = {
 					},
 				},
@@ -845,15 +849,30 @@ LUIDB = {
 					["modules"] = {
 					},
 				},
-				["Zaliga - Bleeding Hollow"] = {
-					["modules"] = {
-					},
-				},
 			},
 		},
 		["Panels"] = {
 			["profiles"] = {
 				["Gottagetlia - Aggramar"] = {
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
+				},
+				["Base"] = {
+					["Chat"] = {
+						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Raid"] = {
+						["Direction"] = "SOLID",
+						["Width"] = 400,
+						["AlwaysShow"] = true,
+						["Anchor"] = "GridLayoutFrame",
+						["Height"] = 200,
+					},
 					["Minimap"] = {
 						["IsShown"] = true,
 					},
@@ -874,25 +893,6 @@ LUIDB = {
 						["IsShown"] = true,
 					},
 					["Minimap"] = {
-						["IsShown"] = true,
-					},
-				},
-				["Base"] = {
-					["Chat"] = {
-						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
-					["Raid"] = {
-						["Direction"] = "SOLID",
-						["Width"] = 400,
-						["AlwaysShow"] = true,
-						["Anchor"] = "GridLayoutFrame",
-						["Height"] = 200,
-					},
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
-					["MicroMenu"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -1071,6 +1071,169 @@ LUIDB = {
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
+					},
+				},
+				["Zaliga - Bleeding Hollow"] = {
+					["micromenu_btn"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.8, -- [4]
+					},
+					["color_bottom"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.5, -- [4]
+					},
+					["tpsborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["tps"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["chat"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["navi_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu_bg"] = {
+						0.65, -- [1]
+						0.56, -- [2]
+						0, -- [3]
+						0.8, -- [4]
+					},
+					["orb_cycle"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["color_top"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.5, -- [4]
+					},
+					["raid"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["theme"] = "Rogue",
+					["micromenu_bg2"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["orb"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+					},
+					["chat2border"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["navi"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.6, -- [4]
+					},
+					["bar2"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.5, -- [4]
+					},
+					["dpsborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["dps"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["chat2"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu_btn_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.8, -- [4]
+					},
+					["raidborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["sidebar"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["orb_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+					},
+					["editbox"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["minimap"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						1, -- [4]
+					},
+					["chatborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["bar"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.7, -- [4]
 					},
 				},
 				["Default"] = {
@@ -1399,169 +1562,6 @@ LUIDB = {
 						0.4, -- [4]
 					},
 				},
-				["Zaliga - Bleeding Hollow"] = {
-					["micromenu_btn"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.8, -- [4]
-					},
-					["color_bottom"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.5, -- [4]
-					},
-					["tpsborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["tps"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["chat"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["navi_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["micromenu_bg"] = {
-						0.65, -- [1]
-						0.56, -- [2]
-						0, -- [3]
-						0.8, -- [4]
-					},
-					["orb_cycle"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["color_top"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.5, -- [4]
-					},
-					["raid"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["theme"] = "Rogue",
-					["micromenu_bg2"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["orb"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-					},
-					["chat2border"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["navi"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.6, -- [4]
-					},
-					["bar2"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.5, -- [4]
-					},
-					["dpsborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["dps"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["chat2"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["micromenu_btn_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.8, -- [4]
-					},
-					["raidborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["sidebar"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["orb_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["micromenu"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-					},
-					["editbox"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["minimap"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						1, -- [4]
-					},
-					["chatborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["bar"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.7, -- [4]
-					},
-				},
 			},
 		},
 		["Forte"] = {
@@ -1598,78 +1598,6 @@ LUIDB = {
 		},
 		["Bars"] = {
 			["profiles"] = {
-				["Default"] = {
-					["SidebarRight1"] = {
-						["IsOpen"] = true,
-					},
-				},
-				["Zaliga - Bleeding Hollow"] = {
-					["StatesLoaded"] = true,
-					["Bottombar5"] = {
-						["State"] = {
-							"5", -- [1]
-							["Alt"] = "5",
-							["Ctrl"] = "5",
-						},
-					},
-					["Bottombar1"] = {
-						["State"] = {
-							"1", -- [1]
-							"3", -- [2]
-							"5", -- [3]
-							["Alt"] = "1",
-							["Ctrl"] = "1",
-						},
-					},
-					["SidebarRight2"] = {
-						["State"] = {
-							"8", -- [1]
-						},
-					},
-					["Bottombar4"] = {
-						["State"] = {
-							"4", -- [1]
-							["Alt"] = "4",
-							["Ctrl"] = "4",
-						},
-					},
-					["Bottombar3"] = {
-						["State"] = {
-							"3", -- [1]
-							["Alt"] = "3",
-							["Ctrl"] = "3",
-						},
-					},
-					["Bottombar2"] = {
-						["State"] = {
-							"2", -- [1]
-							["Alt"] = "2",
-							["Ctrl"] = "2",
-						},
-					},
-					["Bottombar6"] = {
-						["State"] = {
-							"6", -- [1]
-							["Alt"] = "6",
-							["Ctrl"] = "6",
-						},
-					},
-					["SidebarLeft1"] = {
-						["State"] = {
-							"9", -- [1]
-						},
-					},
-					["SidebarLeft2"] = {
-						["State"] = {
-							"7", -- [1]
-						},
-					},
-					["SidebarRight1"] = {
-						["State"] = {
-							"10", -- [1]
-						},
-					},
-				},
 				["Base"] = {
 					["SidebarRight2"] = {
 						["State"] = {
@@ -1740,6 +1668,78 @@ LUIDB = {
 					["SidebarRight1"] = {
 						["IsOpen"] = true,
 						["Anchor"] = "BT4Bar9",
+						["State"] = {
+							"10", -- [1]
+						},
+					},
+				},
+				["Default"] = {
+					["SidebarRight1"] = {
+						["IsOpen"] = true,
+					},
+				},
+				["Zaliga - Bleeding Hollow"] = {
+					["StatesLoaded"] = true,
+					["Bottombar5"] = {
+						["State"] = {
+							"5", -- [1]
+							["Alt"] = "5",
+							["Ctrl"] = "5",
+						},
+					},
+					["Bottombar1"] = {
+						["State"] = {
+							"1", -- [1]
+							"3", -- [2]
+							"5", -- [3]
+							["Alt"] = "1",
+							["Ctrl"] = "1",
+						},
+					},
+					["SidebarRight2"] = {
+						["State"] = {
+							"8", -- [1]
+						},
+					},
+					["Bottombar4"] = {
+						["State"] = {
+							"4", -- [1]
+							["Alt"] = "4",
+							["Ctrl"] = "4",
+						},
+					},
+					["Bottombar3"] = {
+						["State"] = {
+							"3", -- [1]
+							["Alt"] = "3",
+							["Ctrl"] = "3",
+						},
+					},
+					["Bottombar2"] = {
+						["State"] = {
+							"2", -- [1]
+							["Alt"] = "2",
+							["Ctrl"] = "2",
+						},
+					},
+					["Bottombar6"] = {
+						["State"] = {
+							"6", -- [1]
+							["Alt"] = "6",
+							["Ctrl"] = "6",
+						},
+					},
+					["SidebarLeft1"] = {
+						["State"] = {
+							"9", -- [1]
+						},
+					},
+					["SidebarLeft2"] = {
+						["State"] = {
+							"7", -- [1]
+						},
+					},
+					["SidebarRight1"] = {
 						["State"] = {
 							"10", -- [1]
 						},
@@ -1968,7 +1968,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Morifa - Proudmoore"] = {
+			["Miriyal - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -1977,13 +1977,12 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
-					["threatbar"] = 2,
-					["bars"] = 2.4,
-					["omen"] = 3300,
 					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
+					["bars"] = 2.4,
+					["threatbar"] = 2,
+					["Auras"] = 2,
 				},
 			},
 			["Greybone - Proudmoore"] = {
@@ -2003,7 +2002,7 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Miriyal - Proudmoore"] = {
+			["Fimwack - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -2037,7 +2036,7 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
-			["Fimwack - Proudmoore"] = {
+			["Morifa - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
 					["raidmenu"] = 2.4,
@@ -2046,18 +2045,24 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["mirrorbar"] = 1,
-					["bars"] = 2.4,
-					["threatbar"] = 2,
 					["Auras"] = 2,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
+					["threatbar"] = 2,
+					["bars"] = 2.4,
+					["omen"] = 3300,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {
+			["modules"] = {
+				["Merchant"] = false,
+			},
+		},
+		["Zaliga - Bleeding Hollow"] = {
 			["modules"] = {
 				["Merchant"] = false,
 			},
@@ -2079,11 +2084,6 @@ LUIDB = {
 			["Tooltip"] = {
 				["Y"] = -240,
 				["X"] = 0,
-			},
-		},
-		["Zaliga - Bleeding Hollow"] = {
-			["modules"] = {
-				["Merchant"] = false,
 			},
 		},
 	},

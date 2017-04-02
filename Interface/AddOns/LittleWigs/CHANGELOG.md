@@ -1,7 +1,10 @@
 # LittleWigs
 
-## [v7.2.0](https://github.com/BigWigsMods/LittleWigs/tree/v7.2.0) (2017-03-28) [](#top)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.1.9...v7.2.0)
+## [v7.2.2](https://github.com/BigWigsMods/LittleWigs/tree/v7.2.2) (2017-03-31) [](#top)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.2.1...v7.2.2)
 
-- CathedralOfEternalNight: remove load conditions  
-- Cathedral of Eternal Night: Prepare Locales  
+- bump toc  
+- Karazhan/Moroes: Fix minor bug (#50)  
+- MawOfSouls/Helya: Update Brackwater Barrage  
+- HallsOfValor/God-KingSkovald: Fix warmup bar  
+- VaultOfTheWardens/CordanaFelsong: Fix warmup bar  
