@@ -1,6 +1,7 @@
 
 GottaGoFastDB = {
 	["profileKeys"] = {
+		["Granjior - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
