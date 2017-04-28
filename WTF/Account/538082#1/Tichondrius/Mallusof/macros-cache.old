@@ -1,3 +1,11 @@
+VER 3 0100000000000007 "Archer Flash" "135907"
+/target Damaged
+END
+VER 3 0100000000000008 "Disc Challenged" "338784"
+/tar Jormog the Behemoth
+/focus
+/tar Tugar Bloodtotem
+END
 VER 3 0100000000000005 "KROSUS LEFT" "INV_SWORD_04"
 /RAID left
 END
@@ -14,8 +22,12 @@ VER 3 0100000000000003 "SoH" "INV_MISC_QUESTIONMARK"
 /y Symbol popped! Free healing for 10 sec!
 /use Symbol of Hope
 END
+VER 3 0100000000000009 "Tugar" "132094"
+/tar Tugar Bloodtotem
+/focus
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]

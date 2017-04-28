@@ -1,39 +1,66 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "23:06:34",
-			["date_start"] = "23:05:31",
-			["name"] = "Sha of Doubt",
-			["total_time"] = 63.0020000000004,
-		}, -- [1]
-		{
-			["date_end"] = "23:04:36",
-			["date_start"] = "23:03:39",
-			["name"] = "Liu Flameheart",
-			["total_time"] = 57.0059999999994,
-		}, -- [2]
-		{
-			["date_end"] = "23:02:33",
-			["date_start"] = "23:01:49",
-			["name"] = "Lorewalker Stonestep",
-			["total_time"] = 44,
-		}, -- [3]
-		{
-			["date_end"] = "22:59:42",
-			["date_start"] = "22:57:03",
-			["name"] = "Wise Mari",
-			["total_time"] = 159.004999999999,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+			["Wulfmanjack"] = {
+				{
+					["time"] = 48.5990000000002,
+					["events"] = {
+						{
+							true, -- [1]
+							107110, -- [2]
+							6047, -- [3]
+							1489129468.164, -- [4]
+							11545, -- [5]
+							"[*] Jade Fire", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							107110, -- [2]
+							5882, -- [3]
+							1489129468.809, -- [4]
+							5080, -- [5]
+							"[*] Jade Fire", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							107110, -- [2]
+							6006, -- [3]
+							1489129469.164, -- [4]
+							1, -- [5]
+							"[*] Jade Fire", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							926, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Jestersdead"] = {
@@ -158,6 +185,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Pingpally-Exodar"] = {
@@ -201,58 +229,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
+	["combat_data"] = {
 		{
+			["date_end"] = "23:06:34",
+			["date_start"] = "23:05:31",
+			["name"] = "Sha of Doubt",
+			["total_time"] = 63.0020000000004,
 		}, -- [1]
 		{
-			["Wulfmanjack"] = {
-				{
-					["time"] = 48.5990000000002,
-					["events"] = {
-						{
-							true, -- [1]
-							107110, -- [2]
-							6047, -- [3]
-							1489129468.164, -- [4]
-							11545, -- [5]
-							"[*] Jade Fire", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							107110, -- [2]
-							5882, -- [3]
-							1489129468.809, -- [4]
-							5080, -- [5]
-							"[*] Jade Fire", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							107110, -- [2]
-							6006, -- [3]
-							1489129469.164, -- [4]
-							1, -- [5]
-							"[*] Jade Fire", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							926, -- [10]
-						}, -- [3]
-					},
-				}, -- [1]
-			},
+			["date_end"] = "23:04:36",
+			["date_start"] = "23:03:39",
+			["name"] = "Liu Flameheart",
+			["total_time"] = 57.0059999999994,
 		}, -- [2]
 		{
+			["date_end"] = "23:02:33",
+			["date_start"] = "23:01:49",
+			["name"] = "Lorewalker Stonestep",
+			["total_time"] = 44,
 		}, -- [3]
 		{
+			["date_end"] = "22:59:42",
+			["date_start"] = "22:57:03",
+			["name"] = "Wise Mari",
+			["total_time"] = 159.004999999999,
 		}, -- [4]
 	},
 }

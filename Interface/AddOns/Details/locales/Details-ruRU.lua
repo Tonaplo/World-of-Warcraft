@@ -1188,6 +1188,7 @@ L["STRING_TARGETS"] = "Цели"
 L["STRING_TARGETS_OTHER1"] = "Питомцы и другие цели"
 L["STRING_TEXTURE"] = "Текстура"
 L["STRING_TIME_OF_DEATH"] = "Смерть"
+L["STRING_TOOOLD"] = "не может быть установлено, потому что ваша версия Details! устарела."
 L["STRING_TOP_TO_BOTTOM"] = "Сверху вниз"
 L["STRING_TUTORIAL_FULLY_DELETE_WINDOW"] = [=[Вы закрыли окно и сможете в любой момент его снова открыть.
 Чтобы удалить окно полностью, перейдите в Настройки -> Окно: Общее -> Удалить.]=]

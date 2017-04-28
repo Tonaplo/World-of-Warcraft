@@ -1,132 +1,17 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Granjior - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["History"] = {
-				[1466] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 38871.433,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 4,
-								["hours"] = 1,
-								["mins"] = 45,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Celiborn (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Darkámh (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Slickzlolz (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Rogue",
-									["name"] = "Shádows (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Amranar",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"04:24.627", -- [1]
-								"09:17.944", -- [2]
-								"12:02.779", -- [3]
-								"15:18.803", -- [4]
-								"14:05.438", -- [5]
-							},
-							["startTime"] = 37957.141,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 40333.096,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 4,
-								["hours"] = 2,
-								["mins"] = 9,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Warrior",
-									["name"] = "Darkoverlord (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Darkámh (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Slickzlolz (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Rogue",
-									["name"] = "Shádows (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Amranar",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"04:25.020", -- [1]
-								"09:10.295", -- [2]
-								"12:46.511", -- [3]
-								"15:54.419", -- [4]
-								"14:54.625", -- [5]
-							},
-							["startTime"] = 39383.116,
-						}, -- [2]
-					},
-					["name"] = "Darkheart Thicket",
-					["zoneID"] = 1466,
-					["objectives"] = {
-						"Archdruid Glaidalis", -- [1]
-						"Oakheart", -- [2]
-						"Dresaron", -- [3]
-						"Shade of Xavius", -- [4]
-						"Enemy Forces", -- [5]
-					},
-				},
-			},
-		},
+		["Miriyal - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 	},
 }

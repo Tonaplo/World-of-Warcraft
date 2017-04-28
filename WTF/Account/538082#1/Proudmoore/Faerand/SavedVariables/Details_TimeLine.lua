@@ -1,7 +1,13 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["max_segments"] = 4,
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -10,32 +16,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
-		}, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_start"] = "00:11:28",
-			["date_end"] = "00:13:08",
-			["name"] = "Odyn",
-			["total_time"] = 100.001000000004,
-		}, -- [1]
-		{
-			["date_start"] = "00:08:57",
-			["date_end"] = "00:10:26",
-			["name"] = "God-King Skovald",
-			["total_time"] = 89.0020000000004,
-		}, -- [2]
-		{
-			["date_start"] = "00:02:22",
-			["date_end"] = "00:03:46",
-			["name"] = "Fenryr",
-			["total_time"] = 84.0109999999986,
-		}, -- [3]
-		{
-			["date_start"] = "00:00:56",
-			["date_end"] = "00:01:42",
-			["name"] = "Fenryr",
-			["total_time"] = 46.0089999999982,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -206,6 +186,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Coolcatkatie-Frostmourne"] = {
@@ -254,11 +235,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["combat_data"] = {
+		{
+			["date_start"] = "00:11:28",
+			["date_end"] = "00:13:08",
+			["name"] = "Odyn",
+			["total_time"] = 100.001000000004,
+		}, -- [1]
+		{
+			["date_start"] = "00:08:57",
+			["date_end"] = "00:10:26",
+			["name"] = "God-King Skovald",
+			["total_time"] = 89.0020000000004,
+		}, -- [2]
+		{
+			["date_start"] = "00:02:22",
+			["date_end"] = "00:03:46",
+			["name"] = "Fenryr",
+			["total_time"] = 84.0109999999986,
+		}, -- [3]
+		{
+			["date_start"] = "00:00:56",
+			["date_end"] = "00:01:42",
+			["name"] = "Fenryr",
+			["total_time"] = 46.0089999999982,
+		}, -- [4]
 	},
 }

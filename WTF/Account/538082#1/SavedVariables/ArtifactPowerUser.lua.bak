@@ -2,8 +2,8 @@
 ArtifactPowerUserDB = {
 	["size"] = 64,
 	["position"] = {
-		["y"] = -30.4230270385742,
-		["x"] = 14.0500860214233,
+		["y"] = -24.2830772399902,
+		["x"] = 3.81634378433228,
 		["point"] = "TOPLEFT",
 		["relativePoint"] = "TOPLEFT",
 	},

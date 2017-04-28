@@ -1,21 +1,21 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Miriyal - Proudmoore"] = "Mallusof - Proudmoore",
 		["Rahran - Proudmoore"] = "Mallusof - Proudmoore",
-		["Faerand - Proudmoore"] = "Mallusof - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Mallusof - Proudmoore",
+		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
 		["Praerend - Proudmoore"] = "Mallusof - Proudmoore",
 		["Farahn - Proudmoore"] = "Mallusof - Proudmoore",
-		["Morifa - Proudmoore"] = "Mallusof - Proudmoore",
+		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Proudmoore",
 		["Gottagetlia - Aggramar"] = "Mallusof - Proudmoore",
 		["Granjior - Proudmoore"] = "Mallusof - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Mallusof - Proudmoore",
-		["Fimwack - Proudmoore"] = "Mallusof - Proudmoore",
+		["Miriyal - Proudmoore"] = "Mallusof - Proudmoore",
 		["Greybone - Proudmoore"] = "Mallusof - Proudmoore",
-		["Amranar - Proudmoore"] = "Mallusof - Proudmoore",
-		["Mallusof - Proudmoore"] = "Mallusof - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Mallusof - Proudmoore",
+		["Fimwack - Proudmoore"] = "Mallusof - Proudmoore",
+		["Faerand - Proudmoore"] = "Mallusof - Proudmoore",
+		["Morifa - Proudmoore"] = "Mallusof - Proudmoore",
 	},
 	["profiles"] = {
 		["Mallusof - Proudmoore"] = {
@@ -43,22 +43,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["main_frame_strata"] = "LOW",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 0,
-				["x"] = 0,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -68,20 +58,30 @@ Details_StreamerDB = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 1.525878906250e-005,
 			["font_size"] = 10,
-			["use_spark"] = true,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = 1.525878906250e-005,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0,
+				["x"] = 0,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["main_frame_strata"] = "LOW",
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }

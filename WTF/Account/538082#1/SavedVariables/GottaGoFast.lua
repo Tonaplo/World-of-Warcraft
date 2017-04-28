@@ -1,12 +1,18 @@
 
 GottaGoFastDB = {
 	["profileKeys"] = {
-		["Granjior - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

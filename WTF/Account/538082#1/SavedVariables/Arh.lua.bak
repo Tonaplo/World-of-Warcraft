@@ -11,13 +11,13 @@ Arh_Config = {
 		["Locked"] = false,
 		["FollowDigsite"] = true,
 		["PlaySounds"] = true,
-		["posY"] = 72,
+		["posY"] = 0,
 		["TooltipsScale"] = 1,
 		["Alpha"] = 1,
 		["FollowArchy"] = true,
 		["ShowTooltips"] = true,
 		["MountRed"] = true,
-		["posX"] = 200.999938964844,
+		["posX"] = 0,
 	},
 	["HUD"] = {
 		["GreenSectAlpha"] = 0.1,
@@ -62,7 +62,7 @@ Arh_Config = {
 		["ShowOnBattlefieldMinimap"] = true,
 	},
 	["Minimap"] = {
-		["minimapPos"] = 317.492816464149,
+		["minimapPos"] = 0,
 		["hide"] = false,
 	},
 }

@@ -1,5 +1,11 @@
+VER 3 0000000000000026 "AceKicker" "132092"
+/g I press this macro everytime some asshole in guildchat says something about me hating this server and worldpvp.
+END
 VER 3 000000000000001D "Camera" "1109100"
 /console cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 0000000000000025 "cluck" "INV_MISC_QUESTIONMARK"
+/chicken
 END
 VER 3 0000000000000006 "focus" "132222"
 /focus
@@ -18,8 +24,17 @@ END
 VER 3 000000000000001C "Kosumoth Progres" "ACHIEVEMENT_GUILDPERK_QUICK AND DEAD"
 /run local a={43730,43731,43732,43733,43734,43735,43736,43737,43760,43761}for i,q in ipairs(a)do print(format("Orb %s: %s",i, IsQuestFlaggedCompleted(q) and "\124cFF00FF00Done\124r" or "\124cFFFF0000Not Done\124r")) end
 END
+VER 3 0000000000000023 "MindBender Wyrm" "413580"
+/run local a={45470,47207,47208,47209,47210,47211,47212,47213}for i,q in ipairs(a)do print(format("Page %s: %s",i, IsQuestFlaggedCompleted(q) and "\124cFF00FF00Done\124r" or "\124cFFFF0000Not Done\124r")) end
+END
+VER 3 0000000000000022 "MPH" "651381"
+/mph
+END
 VER 3 000000000000001F "No Castbars!" "134430"
 /console DefaultCompactNamePlateFriendlyFrameOptions.hideCastbar true
+END
+VER 3 0000000000000024 "page shit" "INV_MISC_QUESTIONMARK"
+251564waswdsaw
 END
 VER 3 0000000000000003 "Rchars" "INV_MISC_QUESTIONMARK"
 /rchars

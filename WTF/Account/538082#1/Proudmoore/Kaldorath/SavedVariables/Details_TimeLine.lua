@@ -11,37 +11,107 @@ DetailsTimeLineDB = {
 		}, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
-			["date_end"] = "00:50:24",
 			["date_start"] = "00:47:52",
+			["date_end"] = "00:50:24",
 			["name"] = "Helya",
 			["total_time"] = 152.003000000004,
 		}, -- [1]
 		{
-			["date_end"] = "00:45:23",
 			["date_start"] = "00:44:01",
+			["date_end"] = "00:45:23",
 			["name"] = "Harbaron",
 			["total_time"] = 82.0079999999944,
 		}, -- [2]
 		{
-			["date_end"] = "00:39:39",
 			["date_start"] = "00:38:31",
+			["date_end"] = "00:39:39",
 			["name"] = "Ymiron, the Fallen King",
 			["total_time"] = 68.0020000000004,
 		}, -- [3]
 		{
-			["date_end"] = "00:38:27",
 			["date_start"] = "00:37:20",
+			["date_end"] = "00:38:27",
 			["name"] = "Ymiron, the Fallen King",
 			["total_time"] = 67.0070000000051,
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["cooldowns_timeline"] = {
+		{
+			["Khiill-Tichondrius"] = {
+				{
+					35.2540000000008, -- [1]
+					"Khiill-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [1]
+				{
+					35.2540000000008, -- [1]
+					"Khiill-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [2]
+				{
+					108.024000000005, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [3]
+			},
+			["Darksidê-MoonGuard"] = {
+				{
+					105.882000000005, -- [1]
+					"Darksidê-MoonGuard", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Khiill-Tichondrius"] = {
+				{
+					50.2209999999977, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+				{
+					59.6009999999951, -- [1]
+					"Khiill-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [2]
+				{
+					59.6009999999951, -- [1]
+					"Khiill-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [3]
+			},
+		}, -- [2]
+		{
+			["Darksidê-MoonGuard"] = {
+				{
+					38.6100000000006, -- [1]
+					"Darksidê-MoonGuard", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Khiill-Tichondrius"] = {
+				{
+					17.5060000000012, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+				{
+					49.9560000000056, -- [1]
+					"Khiill-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [2]
+				{
+					49.9560000000056, -- [1]
+					"Khiill-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [3]
+			},
+		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -279,81 +349,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
-		{
-			["Khiill-Tichondrius"] = {
-				{
-					35.2540000000008, -- [1]
-					"Khiill-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [1]
-				{
-					35.2540000000008, -- [1]
-					"Khiill-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [2]
-				{
-					108.024000000005, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [3]
-			},
-			["Darksidê-MoonGuard"] = {
-				{
-					105.882000000005, -- [1]
-					"Darksidê-MoonGuard", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Khiill-Tichondrius"] = {
-				{
-					50.2209999999977, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-				{
-					59.6009999999951, -- [1]
-					"Khiill-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [2]
-				{
-					59.6009999999951, -- [1]
-					"Khiill-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [3]
-			},
-		}, -- [2]
-		{
-			["Darksidê-MoonGuard"] = {
-				{
-					38.6100000000006, -- [1]
-					"Darksidê-MoonGuard", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Khiill-Tichondrius"] = {
-				{
-					17.5060000000012, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-				{
-					49.9560000000056, -- [1]
-					"Khiill-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [2]
-				{
-					49.9560000000056, -- [1]
-					"Khiill-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [3]
-			},
-		}, -- [4]
-	},
 	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 }
