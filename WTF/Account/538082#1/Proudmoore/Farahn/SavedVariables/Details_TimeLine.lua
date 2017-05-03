@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -59,6 +53,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "23:06:34",
+			["date_start"] = "23:05:31",
+			["name"] = "Sha of Doubt",
+			["total_time"] = 63.0020000000004,
+		}, -- [1]
+		{
+			["date_end"] = "23:04:36",
+			["date_start"] = "23:03:39",
+			["name"] = "Liu Flameheart",
+			["total_time"] = 57.0059999999994,
+		}, -- [2]
+		{
+			["date_end"] = "23:02:33",
+			["date_start"] = "23:01:49",
+			["name"] = "Lorewalker Stonestep",
+			["total_time"] = 44,
+		}, -- [3]
+		{
+			["date_end"] = "22:59:42",
+			["date_start"] = "22:57:03",
+			["name"] = "Wise Mari",
+			["total_time"] = 159.004999999999,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -185,7 +205,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Pingpally-Exodar"] = {
@@ -229,30 +248,11 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:06:34",
-			["date_start"] = "23:05:31",
-			["name"] = "Sha of Doubt",
-			["total_time"] = 63.0020000000004,
-		}, -- [1]
-		{
-			["date_end"] = "23:04:36",
-			["date_start"] = "23:03:39",
-			["name"] = "Liu Flameheart",
-			["total_time"] = 57.0059999999994,
-		}, -- [2]
-		{
-			["date_end"] = "23:02:33",
-			["date_start"] = "23:01:49",
-			["name"] = "Lorewalker Stonestep",
-			["total_time"] = 44,
-		}, -- [3]
-		{
-			["date_end"] = "22:59:42",
-			["date_start"] = "22:57:03",
-			["name"] = "Wise Mari",
-			["total_time"] = 159.004999999999,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

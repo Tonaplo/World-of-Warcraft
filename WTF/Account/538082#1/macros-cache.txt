@@ -30,6 +30,9 @@ END
 VER 3 0000000000000022 "MPH" "651381"
 /mph
 END
+VER 3 0000000000000027 "Newplayers" "1516058"
+/i Hey guys. If any of you are new, feel free to ask about fights and I'll do my best to explain them :)
+END
 VER 3 000000000000001F "No Castbars!" "134430"
 /console DefaultCompactNamePlateFriendlyFrameOptions.hideCastbar true
 END

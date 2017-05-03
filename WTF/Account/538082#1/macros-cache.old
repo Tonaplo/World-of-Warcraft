@@ -40,7 +40,8 @@ VER 3 0000000000000003 "Rchars" "INV_MISC_QUESTIONMARK"
 /rchars
 END
 VER 3 0000000000000020 "Ready target?" "237447"
-/s Ready, %t? 
+/s Ready, %t?
+/i 
 END
 VER 3 0000000000000002 "reload ui" "INV_MISC_QUESTIONMARK"
 /reload ui

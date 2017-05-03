@@ -9,6 +9,8 @@ local character = {
 		secondProf = nil,
 		firstProfLevel = 0,
 		secondProfLevel = 0,
+		itemLevelOverall = 0,
+		itemLevelEquipped = 0,
 }
 
 local defaultDB = {
@@ -23,6 +25,7 @@ function RCharsAddon:OnInitialize()
 	RCharsAddon:RegisterChatCommand("rchars", "SlashOpenMainWindow")
 	self:RegisterEvent("TRADE_SKILL_UPDATE")
 	self:RegisterEvent("PLAYER_LEVEL_UP")
+	RCharsAddon:RegisterEvent("PLAYER_AVG_ITEM_LEVEL_UPDATE", "SaveData")
 end
 
 function RCharsAddon:OnEnable()
@@ -69,6 +72,8 @@ function RCharsAddon:SaveData()
 		Prof2skillLevel = 0
 	end
 	
+	local overall, equipped = GetAverageItemLevel();
+	
 	local current = self.db.realm
 	local exists = false
 	local charIndex = 0
@@ -83,12 +88,14 @@ function RCharsAddon:SaveData()
 	end
 	
 	if exists == true then
-		self.db.realm[charIndex] = {name = charname, level = charlevel, class = englishClass, firstProf = Prof1name, firstProfLevel = Prof1skillLevel, secondProf = Prof2name, secondProfLevel = Prof2skillLevel}
+		self.db.realm[charIndex] = {name = charname, level = charlevel, class = englishClass, firstProf = Prof1name, firstProfLevel = Prof1skillLevel, secondProf = Prof2name, secondProfLevel = Prof2skillLevel, itemLevelOverall = overall, itemLevelEquipped = equipped}
 	end
+	
+	
 	
 	if exists == false then
 		self.db.realm.characterStored = self.db.realm.characterStored + 1
-		self.db.realm[self.db.realm.characterStored] = {name = charname, level = charlevel, class = englishClass, firstProf = Prof1name, firstProfLevel = Prof1skillLevel, secondProf = Prof2name, secondProfLevel = Prof2skillLevel}
+		self.db.realm[self.db.realm.characterStored] = {name = charname, level = charlevel, class = englishClass, firstProf = Prof1name, firstProfLevel = Prof1skillLevel, secondProf = Prof2name, secondProfLevel = Prof2skillLevel,  itemLevelOverall = overall, itemLevelEquipped = equipped}
 	end
 end
 
@@ -98,9 +105,9 @@ function RCharsAddon:OpenMainWindow()
 	f = AceGUI:Create("Frame")
 	f:SetCallback("OnClose",function(widget) AceGUI:Release(widget) created = false end)
 	f:SetTitle("RealmChars")
-	f:SetStatusText("This addon lists all your characters on a realm, along wih their profession info")
+	f:SetStatusText("This addon lists all your characters on this realm, along wih relevant info about them.")
 	f:SetLayout("Flow")
-	f:SetHeight(600)
+	f:SetHeight(750)
 	
 	
 		
@@ -109,12 +116,12 @@ function RCharsAddon:OpenMainWindow()
 	for key, character in ipairs(current) do --actualcode
 	
 		local color = RCharsAddon:GetClassColor(character.class)
-		
+		print(character.class)
 		label = AceGUI:Create("Label")
-		label:SetFont( "Fonts\\MORPHEUS.TTF", 24, "THICKOUTLINE ")
-		label:SetText('|cff' .. color .. character.name .. '|r' .. " - Level: ".. character.level .. "\n" .. character.firstProf .. ": " .. character.firstProfLevel .. "\n" .. character.secondProf .. ": " .. character.secondProfLevel .. "\n")
+		label:SetFont( "Fonts\\FRIZQT__.TTF", 18, "THICKOUTLINE ")
+		label:SetText("|cff" .. color .. character.name .. "|r - Level: |cff00FF00".. character.level .. "|r\n" ..  "Overall ILevel: |cff00FF00" .. character.itemLevelOverall .. "|r\nEquipped ILevel: |cff00FF00" .. character.itemLevelEquipped .. "|r\n" .. character.firstProf .. ": |cff00FF00" .. character.firstProfLevel .. "|r\n" .. character.secondProf .. ": |cff00FF00" .. character.secondProfLevel .. "|r\n")
 		label:SetWidth(330)
-		label:SetHeight(95)
+		label:SetHeight(105)
 		f:AddChild(label)
 	end
 	
@@ -123,42 +130,34 @@ end
 
 function RCharsAddon:GetClassColor(input)
 	
-	if input == "DEATH KNIGHT" then
+	if input == "DEATHKNIGHT" then
 		return "c41f3b"
-	end
-	if input == "WARRIOR" then
+	elseif input == "WARRIOR" then
 		return "c79c6e"
-	end
-	if input == "DRUID" then
+	elseif input == "DRUID" then
 		return "ff7d0a"
-	end
-	if input == "HUNTER" then
+	elseif input == "HUNTER" then
 		return "abd473"
-	end
-	if input == "MAGE" then
+	elseif input == "MAGE" then
 		return "69ccf0"
-	end
-	if input == "MONK" then
+	elseif input == "MONK" then
 		return "00ff96"
-	end
-	if input == "PALADIN" then
+	elseif input == "PALADIN" then
 		return "f58cba"
-	end
-	if input == "PRIEST" then
+	elseif input == "PRIEST" then
 		return "ffffff"
-	end
-	if input == "ROGUE" then
+	elseif input == "ROGUE" then
 		return "fff569"
-	end
-	if input == "SHAMAN" then
+	elseif input == "SHAMAN" then
 		return "0070de"
-	end
-	if input == "WARLOCK" then
+	elseif input == "WARLOCK" then
 		return "9482c9"
+	elseif input == "DEMONHUNTER" then
+		return "A330C9"
 	end
 	
 	--No class stored yet
 	return "FFFFFF"
 end
 
-local optionsFrame = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("TPLAddon", "Tonaplo's Professions Leveler")
+local optionsFrame = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("RealmChars", "RealmChars")

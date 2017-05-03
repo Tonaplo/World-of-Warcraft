@@ -1,17 +1,5 @@
 
 DetailsTimeLineDB = {
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
 			["date_end"] = "00:05:29",
@@ -38,6 +26,7 @@ DetailsTimeLineDB = {
 			["total_time"] = 72.0030000000006,
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 			["Heavychick"] = {
@@ -90,6 +79,13 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Sannroth-ShatteredHand"] = {
@@ -196,11 +192,15 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
+	["window_scale"] = 1,
 }

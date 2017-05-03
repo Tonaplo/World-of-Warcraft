@@ -1,6 +1,6 @@
 ## Interface: 60100
 ## Title: RealmChars
-## Notes: This addon shows you all your characters on your realm, what levels they are what professions they have and what level those professions are.
+## Notes: This addon shows you all your characters on your realm, what their itemlevel is, and whether or not they have certain things unlocked. Use /rchars to see.
 ## Author: Tonaplo
 ## Version: 1.0.0
 ## SavedVariables: RCDatabase

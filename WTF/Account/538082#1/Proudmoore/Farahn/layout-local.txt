@@ -20,6 +20,13 @@ X: 274
 Y: 167
 W: 210
 H: 175
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -197
+Y: 20
+W: 60
+H: 60
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: TOPLEFT
@@ -41,10 +48,3 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -197
-Y: 20
-W: 60
-H: 60

@@ -16,6 +16,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = true,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 4,
 			["active_aura"] = "",
 			["key_binding"] = "F",
@@ -24,13 +25,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 7,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 75,
-			["alt_resource_condition"] = 5,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 45,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 5,
+			["min_resource_to_cast"] = 75,
+			["use_condition"] = true,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [2]
 		{
 			195182, -- [1]
@@ -39,6 +42,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "Bone Shield",
 			["key_binding"] = "E",
@@ -47,13 +51,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 0,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [3]
 		{
 			50842, -- [1]
@@ -62,6 +68,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "Blood Plague",
 			["key_binding"] = "Shift F",
@@ -70,13 +77,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 0,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [4]
 		{
 			43265, -- [1]
@@ -85,6 +94,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
 			["key_binding"] = "Q",
@@ -93,13 +103,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [5]
 		{
 			49998, -- [1]
@@ -108,6 +120,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
 			["key_binding"] = "F",
@@ -116,13 +129,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 7,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 5,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 85,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 5,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [6]
 		{
 			195182, -- [1]
@@ -131,6 +146,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "Bone Shield",
 			["key_binding"] = "E",
@@ -139,13 +155,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 4,
 			["is_interrupt"] = false,
-			["num_stacks"] = 5,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 0,
+			["num_stacks"] = 5,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [7]
 		{
 			206930, -- [1]
@@ -154,6 +172,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
 			["key_binding"] = "3",
@@ -162,13 +181,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 6,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 5,
-			["use_condition"] = true,
 			["alt_min_resource_to_cast"] = 3,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 5,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [8]
 		{
 			205223, -- [1]
@@ -177,6 +198,7 @@ xl_savedvariables = {
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
 			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "",
 			["key_binding"] = "Shift Q",
@@ -185,37 +207,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["use_condition"] = false,
 			["alt_min_resource_to_cast"] = 0,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_resource_condition"] = 1,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 		}, -- [9]
-		{
-			50842, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "Shift F",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["num_stacks"] = 0,
-			["num_charges"] = 0,
-			["highlight_only"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["use_condition"] = false,
-			["alt_min_resource_to_cast"] = 0,
-		}, -- [10]
 	}, -- [1]
 	{
 		nil, -- [1]
@@ -238,8 +239,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
@@ -261,8 +262,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = true,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
@@ -284,8 +285,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 5,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 5,
 			["alt_min_resource_to_cast"] = 25,
 		}, -- [4]
 		{
@@ -307,8 +308,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [5]
 		{
@@ -330,8 +331,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 5,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 5,
 			["alt_min_resource_to_cast"] = 80,
 		}, -- [6]
 		{
@@ -353,8 +354,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [7]
 		{
@@ -376,8 +377,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 2,
-			["alt_resource_condition"] = 5,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 5,
 			["alt_min_resource_to_cast"] = 25,
 		}, -- [8]
 		{
@@ -399,8 +400,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [9]
 		{
@@ -422,8 +423,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [10]
 		{
@@ -445,8 +446,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [11]
 		{
@@ -468,8 +469,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
 			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
 			["alt_min_resource_to_cast"] = 0,
 		}, -- [12]
 		{
@@ -491,8 +492,8 @@ xl_savedvariables = {
 			["num_charges"] = 0,
 			["highlight_only"] = false,
 			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 5,
 			["use_condition"] = true,
+			["alt_resource_condition"] = 5,
 			["alt_min_resource_to_cast"] = 40,
 		}, -- [13]
 	}, -- [2]
@@ -693,6 +694,7 @@ xl_savedvariables = {
 	}, -- [3]
 }
 xl_conditioner_options = {
+	["always_show"] = false,
 	["opacity"] = 1,
 	["hide_hotbar_incombat"] = false,
 	["tapersize"] = 0.75,
