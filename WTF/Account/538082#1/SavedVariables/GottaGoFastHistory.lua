@@ -1,22 +1,22 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,6 +1,7 @@
 
 HandyNotes_LegionTreasuresDB = {
 	["profileKeys"] = {
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
@@ -9,6 +10,8 @@ HandyNotes_LegionTreasuresDB = {
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["profiles"] = {
+		["Greybone - Proudmoore"] = {
+		},
 		["Kaldorath - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {

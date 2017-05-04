@@ -1,5 +1,13 @@
 
 DetailsTimeLineDB = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["max_segments"] = 4,
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -8,120 +16,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
-		{
-			["date_end"] = "02:09:48",
-			["date_start"] = "02:09:02",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 46.0069999999978,
-		}, -- [1]
-		{
-			["date_end"] = "02:06:39",
-			["date_start"] = "02:05:22",
-			["name"] = "Dresaron",
-			["total_time"] = 77.0040000000008,
-		}, -- [2]
-		{
-			["date_end"] = "02:05:20",
-			["date_start"] = "02:04:12",
-			["name"] = "Dresaron",
-			["total_time"] = 68.0060000000012,
-		}, -- [3]
-		{
-			["date_end"] = "02:04:03",
-			["date_start"] = "02:03:12",
-			["name"] = "Dresaron",
-			["total_time"] = 51.0080000000016,
-		}, -- [4]
-	},
-	["cooldowns_timeline"] = {
-		{
-			["Darkoverlord-Zul'jin"] = {
-				{
-					21.6860000000015, -- [1]
-					"Darkoverlord-Zul'jin", -- [2]
-					2565, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Shádows-Exodar"] = {
-				{
-					39.5500000000029, -- [1]
-					"Shádows-Exodar", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-			["Darkámh-Ragnaros"] = {
-				{
-					42.1779999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Shádows-Exodar"] = {
-				{
-					13.3440000000046, -- [1]
-					"Shádows-Exodar", -- [2]
-					1966, -- [3]
-				}, -- [1]
-				{
-					18.5169999999998, -- [1]
-					"Shádows-Exodar", -- [2]
-					1966, -- [3]
-				}, -- [2]
-				{
-					47.9020000000019, -- [1]
-					"Shádows-Exodar", -- [2]
-					1966, -- [3]
-				}, -- [3]
-			},
-			["Darkoverlord-Zul'jin"] = {
-				{
-					8.17700000000332, -- [1]
-					"Darkoverlord-Zul'jin", -- [2]
-					2565, -- [3]
-				}, -- [1]
-				{
-					26.4360000000015, -- [1]
-					"Darkoverlord-Zul'jin", -- [2]
-					2565, -- [3]
-				}, -- [2]
-			},
-			["Amranar"] = {
-				{
-					9.71700000000419, -- [1]
-					"Darkoverlord-Zul'jin", -- [2]
-					102342, -- [3]
-				}, -- [1]
-				{
-					50.5790000000052, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					740, -- [3]
-				}, -- [2]
-			},
-		}, -- [3]
-		{
-			["Shádows-Exodar"] = {
-				{
-					32.1010000000024, -- [1]
-					"Shádows-Exodar", -- [2]
-					1966, -- [3]
-				}, -- [1]
-			},
-			["Darkoverlord-Zul'jin"] = {
-				{
-					47.6320000000051, -- [1]
-					"Darkoverlord-Zul'jin", -- [2]
-					2565, -- [3]
-				}, -- [1]
-			},
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -240,11 +134,117 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
+		{
+			["Darkoverlord-Zul'jin"] = {
+				{
+					21.6860000000015, -- [1]
+					"Darkoverlord-Zul'jin", -- [2]
+					2565, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Shádows-Exodar"] = {
+				{
+					39.5500000000029, -- [1]
+					"Shádows-Exodar", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Darkámh-Ragnaros"] = {
+				{
+					42.1779999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Shádows-Exodar"] = {
+				{
+					13.3440000000046, -- [1]
+					"Shádows-Exodar", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					18.5169999999998, -- [1]
+					"Shádows-Exodar", -- [2]
+					1966, -- [3]
+				}, -- [2]
+				{
+					47.9020000000019, -- [1]
+					"Shádows-Exodar", -- [2]
+					1966, -- [3]
+				}, -- [3]
+			},
+			["Darkoverlord-Zul'jin"] = {
+				{
+					8.17700000000332, -- [1]
+					"Darkoverlord-Zul'jin", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					26.4360000000015, -- [1]
+					"Darkoverlord-Zul'jin", -- [2]
+					2565, -- [3]
+				}, -- [2]
+			},
+			["Amranar"] = {
+				{
+					9.71700000000419, -- [1]
+					"Darkoverlord-Zul'jin", -- [2]
+					102342, -- [3]
+				}, -- [1]
+				{
+					50.5790000000052, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
+				}, -- [2]
+			},
+		}, -- [3]
+		{
+			["Shádows-Exodar"] = {
+				{
+					32.1010000000024, -- [1]
+					"Shádows-Exodar", -- [2]
+					1966, -- [3]
+				}, -- [1]
+			},
+			["Darkoverlord-Zul'jin"] = {
+				{
+					47.6320000000051, -- [1]
+					"Darkoverlord-Zul'jin", -- [2]
+					2565, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "02:09:02",
+			["date_end"] = "02:09:48",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 46.0069999999978,
+		}, -- [1]
+		{
+			["date_start"] = "02:05:22",
+			["date_end"] = "02:06:39",
+			["name"] = "Dresaron",
+			["total_time"] = 77.0040000000008,
+		}, -- [2]
+		{
+			["date_start"] = "02:04:12",
+			["date_end"] = "02:05:20",
+			["name"] = "Dresaron",
+			["total_time"] = 68.0060000000012,
+		}, -- [3]
+		{
+			["date_start"] = "02:03:12",
+			["date_end"] = "02:04:03",
+			["name"] = "Dresaron",
+			["total_time"] = 51.0080000000016,
+		}, -- [4]
 	},
 }

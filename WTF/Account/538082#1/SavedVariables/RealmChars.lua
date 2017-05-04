@@ -30,14 +30,14 @@ RCDatabase = {
 			}, -- [1]
 			{
 				["secondProfLevel"] = 791,
-				["itemLevelEquipped"] = 873.0625,
+				["itemLevelEquipped"] = 875.9375,
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["itemLevelOverall"] = 875.9375,
+				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 713,
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 875.9375,
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
@@ -117,14 +117,14 @@ RCDatabase = {
 				["firstProf"] = "Leatherworking",
 			}, -- [9]
 			{
-				["secondProfLevel"] = 724,
-				["itemLevelEquipped"] = 814.1875,
+				["secondProfLevel"] = 725,
+				["itemLevelEquipped"] = 839.5625,
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["itemLevelOverall"] = 814.1875,
+				["itemLevelOverall"] = 839.5625,
 				["level"] = 110,
-				["firstProfLevel"] = 700,
+				["firstProfLevel"] = 704,
 				["firstProf"] = "Blacksmithing",
 			}, -- [10]
 			{

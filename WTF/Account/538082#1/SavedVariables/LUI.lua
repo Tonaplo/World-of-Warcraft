@@ -52,8 +52,8 @@ LUIDB = {
 						["Alliance"] = {
 							["Miriyal"] = 97520003,
 							["Farahn"] = 307605792,
-							["Greybone"] = 18290126,
-							["Amranar"] = 480731309,
+							["Greybone"] = 44582966,
+							["Amranar"] = 475346746,
 							["Granjior"] = 330584895,
 							["Kaldorath"] = 135657038,
 							["Faerand"] = 94359429,
@@ -68,7 +68,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 995967358,
+							["Mallusof"] = 1003364975,
 						},
 					},
 				},
@@ -88,27 +88,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -128,21 +128,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -170,13 +163,28 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
 			["profiles"] = {
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -675,14 +683,6 @@ LUIDB = {
 					},
 					["PartyPet"] = {
 						["Enable"] = false,
-					},
-				},
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
 					},
 				},
 			},
@@ -1845,72 +1845,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/RCHARS", -- [1]
+							"/macro", -- [1]
 							"/RELOAD", -- [2]
-							"/rchars", -- [3]
-							"/macro", -- [4]
-							"/RCHARS", -- [5]
-							"/rchars", -- [6]
-							"/RCHARS", -- [7]
-							"/RELOAD", -- [8]
-							"/RCHARS", -- [9]
-							"/RELOAD", -- [10]
-							"/rchars", -- [11]
-							"/RCHARS", -- [12]
-							"/macro", -- [13]
-							"/RELOAD", -- [14]
-							"/RCHARS", -- [15]
+							"/RCHARS", -- [3]
+							"/RELOAD", -- [4]
+							"/i need that", -- [5]
+							"/RCHARS", -- [6]
+							"/RELOAD", -- [7]
+							"/i need that", -- [8]
+							"/RELOAD", -- [9]
+							"/RCHARS", -- [10]
+							"/RELOAD", -- [11]
+							"/i need that", -- [12]
+							"/RELOAD", -- [13]
+							"/RCHARS", -- [14]
+							"/macro", -- [15]
 							"/RELOAD", -- [16]
-							"/rchars", -- [17]
-							"/macro", -- [18]
-							"/RCHARS", -- [19]
-							"/rchars", -- [20]
-							"/RCHARS", -- [21]
-							"/RELOAD", -- [22]
-							"/rchars", -- [23]
-							"/macro", -- [24]
-							"/RCHARS", -- [25]
-							"/rchars", -- [26]
-							"/RCHARS", -- [27]
-							"/RELOAD", -- [28]
-							"/macro", -- [29]
-							"/rchars", -- [30]
+							"/RCHARS", -- [17]
+							"/RELOAD", -- [18]
+							"/i need that", -- [19]
+							"/RCHARS", -- [20]
+							"/RELOAD", -- [21]
+							"/i need that", -- [22]
+							"/RELOAD", -- [23]
+							"/RCHARS", -- [24]
+							"/i need that", -- [25]
+							"/RCHARS", -- [26]
+							"/RELOAD", -- [27]
+							"/i need that", -- [28]
+							"/RELOAD", -- [29]
+							"/RCHARS", -- [30]
 							"/RELOAD", -- [31]
-							"/rchars", -- [32]
+							"/RCHARS", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Tafè-Tichondrius Sick heals btw :)", -- [1]
-							"/READYCHECK", -- [2]
+							"/READYCHECK", -- [1]
+							"/cw Tafè-Tichondrius Sick heals btw :)", -- [2]
 							"/cw Arkator-Tichondrius Yeah, but if the two of us stand together, we dont blow up", -- [3]
-							" I havent", -- [4]
-							"/raid lol", -- [5]
-							"/cw Arkator-Tichondrius yea", -- [6]
-							"/cw Tafè Use Barrier on the first Fel Slash I think", -- [7]
-							"/cw Tafè-Tichondrius Yeah, I think that's the idea", -- [8]
-							"/g I'm sorry", -- [9]
-							"/p |cffa335ee|Hitem:140839::::::::110:257::6:3:3518:1502:3528:::|h[Parasitic Spore]|h|r", -- [10]
-							"/cw Arkator-Tichondrius hm", -- [11]
-							"/cw Tafè-Tichondrius better", -- [12]
-							"/raid LOL", -- [13]
-							"/g |cffa335ee|Hkeystone:233:9:1:5:14:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [14]
-							" Bring Hangookie more", -- [15]
-							"/sorry", -- [16]
-							" got", -- [17]
-							"/READYCHECK", -- [18]
-							" I havent", -- [19]
-							"/cw Arkator-Tichondrius yea", -- [20]
-							"/cw Tafè-Tichondrius Yeah, I think that's the idea", -- [21]
-							"/p |cffa335ee|Hitem:140839::::::::110:257::6:3:3518:1502:3528:::|h[Parasitic Spore]|h|r", -- [22]
-							"/cw Tafè-Tichondrius better", -- [23]
-							"/g |cffa335ee|Hkeystone:233:9:1:5:14:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [24]
-							"/sorry", -- [25]
-							"/READYCHECK", -- [26]
-							"/cw Arkator-Tichondrius yea", -- [27]
-							"/p |cffa335ee|Hitem:140839::::::::110:257::6:3:3518:1502:3528:::|h[Parasitic Spore]|h|r", -- [28]
-							"/g |cffa335ee|Hkeystone:233:9:1:5:14:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [29]
-							"/READYCHECK", -- [30]
-							"/p |cffa335ee|Hitem:140839::::::::110:257::6:3:3518:1502:3528:::|h[Parasitic Spore]|h|r", -- [31]
-							"/READYCHECK", -- [32]
+							"/raid lol", -- [4]
+							"/cw Tafè Use Barrier on the first Fel Slash I think", -- [5]
+							"/g I'm sorry", -- [6]
+							"/cw Arkator-Tichondrius hm", -- [7]
+							"/raid LOL", -- [8]
+							" Bring Hangookie more", -- [9]
+							" got", -- [10]
+							" I havent", -- [11]
+							"/cw Tafè-Tichondrius Yeah, I think that's the idea", -- [12]
+							"/cw Tafè-Tichondrius better", -- [13]
+							"/sorry", -- [14]
+							"/cw Arkator-Tichondrius yea", -- [15]
+							"/g |cffa335ee|Hkeystone:233:9:1:5:14:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [16]
+							"/p |cffa335ee|Hitem:140839::::::::110:257::6:3:3518:1502:3528:::|h[Parasitic Spore]|h|r", -- [17]
+							"/cw Tafè-Tichondrius Sick heals btw :)", -- [18]
+							"/raid lol", -- [19]
+							"/g I'm sorry", -- [20]
+							"/raid LOL", -- [21]
+							" got", -- [22]
+							"/cw Tafè-Tichondrius Yeah, I think that's the idea", -- [23]
+							"/sorry", -- [24]
+							"/g |cffa335ee|Hkeystone:233:9:1:5:14:0|h[Keystone: Cathedral of Eternal Night]|h|r", -- [25]
+							"/cw Tafè-Tichondrius Sick heals btw :)", -- [26]
+							"/g I'm sorry", -- [27]
+							" got", -- [28]
+							"/sorry", -- [29]
+							"/cw Tafè-Tichondrius Sick heals btw :)", -- [30]
+							" got", -- [31]
+							"/cw Tafè-Tichondrius Sick heals btw :)", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2574,22 +2574,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {
