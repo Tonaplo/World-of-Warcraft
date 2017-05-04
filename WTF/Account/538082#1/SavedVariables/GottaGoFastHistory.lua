@@ -1,36 +1,27 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
-		["Gorog - Bleeding Hollow"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["History"] = {
 				[1501] = {
-					["objectives"] = {
-						"Amalgam of Souls", -- [1]
-						"Illysanna Ravencrest", -- [2]
-						"Smashspite the Hateful", -- [3]
-						"Lord Kur'talos Ravencrest", -- [4]
-						"Enemy Forces", -- [5]
-					},
-					["zoneID"] = 1501,
-					["name"] = "Black Rook Hold",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -55,17 +46,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 30,
 								["month"] = 4,
 								["hours"] = 14,
-								["year"] = 2017,
 								["mins"] = 23,
-							},
-							["level"] = 12,
-							["startTime"] = 10963.762,
-							["objectiveTimes"] = {
-								"02:13.571", -- [1]
-								"10:50.927", -- [2]
-								"18:22.987", -- [3]
-								"22:43.152", -- [4]
-								"20:15.676", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -94,6 +76,15 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 12,
+							["objectiveTimes"] = {
+								"02:13.571", -- [1]
+								"10:50.927", -- [2]
+								"18:22.987", -- [3]
+								"22:43.152", -- [4]
+								"20:15.676", -- [5]
+							},
+							["startTime"] = 10963.762,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -118,17 +109,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 30,
 								["month"] = 4,
 								["hours"] = 15,
-								["year"] = 2017,
 								["mins"] = 3,
-							},
-							["level"] = 11,
-							["startTime"] = 12694.76,
-							["objectiveTimes"] = {
-								"05:35.038", -- [1]
-								"15:39.886", -- [2]
-								"29:04.169", -- [3]
-								"35:40.450", -- [4]
-								"32:04.754", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -157,6 +139,15 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"05:35.038", -- [1]
+								"15:39.886", -- [2]
+								"29:04.169", -- [3]
+								"35:40.450", -- [4]
+								"32:04.754", -- [5]
+							},
+							["startTime"] = 12694.76,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -181,17 +172,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 2,
 								["month"] = 5,
 								["hours"] = 21,
-								["year"] = 2017,
 								["mins"] = 18,
-							},
-							["level"] = 11,
-							["startTime"] = 5579.52,
-							["objectiveTimes"] = {
-								"01:52.826", -- [1]
-								"10:01.117", -- [2]
-								"18:50.151", -- [3]
-								"24:10.434", -- [4]
-								"22:39.823", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -220,20 +202,28 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"01:52.826", -- [1]
+								"10:01.117", -- [2]
+								"18:50.151", -- [3]
+								"24:10.434", -- [4]
+								"22:39.823", -- [5]
+							},
+							["startTime"] = 5579.52,
 						}, -- [3]
+					},
+					["name"] = "Black Rook Hold",
+					["zoneID"] = 1501,
+					["objectives"] = {
+						"Amalgam of Souls", -- [1]
+						"Illysanna Ravencrest", -- [2]
+						"Smashspite the Hateful", -- [3]
+						"Lord Kur'talos Ravencrest", -- [4]
+						"Enemy Forces", -- [5]
 					},
 				},
 				[1493] = {
-					["objectives"] = {
-						"Tirathon Saltheril", -- [1]
-						"Inquisitor Tormentorum", -- [2]
-						"Ash'golm", -- [3]
-						"Glazer", -- [4]
-						"Cordana Felsong", -- [5]
-						"Enemy Forces", -- [6]
-					},
-					["zoneID"] = 1493,
-					["name"] = "Vault of the Wardens",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -258,18 +248,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 30,
 								["month"] = 4,
 								["hours"] = 13,
-								["year"] = 2017,
 								["mins"] = 41,
-							},
-							["level"] = 10,
-							["startTime"] = 8471.782,
-							["objectiveTimes"] = {
-								"05:48.099", -- [1]
-								"09:53.779", -- [2]
-								"15:01.624", -- [3]
-								"12:44.634", -- [4]
-								"22:00.609", -- [5]
-								"19:07.143", -- [6]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -298,18 +278,30 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"05:48.099", -- [1]
+								"09:53.779", -- [2]
+								"15:01.624", -- [3]
+								"12:44.634", -- [4]
+								"22:00.609", -- [5]
+								"19:07.143", -- [6]
+							},
+							["startTime"] = 8471.782,
 						}, -- [1]
+					},
+					["name"] = "Vault of the Wardens",
+					["zoneID"] = 1493,
+					["objectives"] = {
+						"Tirathon Saltheril", -- [1]
+						"Inquisitor Tormentorum", -- [2]
+						"Ash'golm", -- [3]
+						"Glazer", -- [4]
+						"Cordana Felsong", -- [5]
+						"Enemy Forces", -- [6]
 					},
 				},
 				[1492] = {
-					["objectives"] = {
-						"Ymiron, the Fallen King", -- [1]
-						"Harbaron", -- [2]
-						"Helya", -- [3]
-						"Enemy Forces", -- [4]
-					},
-					["zoneID"] = 1492,
-					["name"] = "Maw of Souls",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -334,16 +326,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 2,
 								["month"] = 5,
 								["hours"] = 21,
-								["year"] = 2017,
 								["mins"] = 51,
-							},
-							["level"] = 13,
-							["startTime"] = 7651.484,
-							["objectiveTimes"] = {
-								"03:02.506", -- [1]
-								"08:35.812", -- [2]
-								"23:15.617", -- [3]
-								"17:29.652", -- [4]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -372,7 +356,23 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 13,
+							["objectiveTimes"] = {
+								"03:02.506", -- [1]
+								"08:35.812", -- [2]
+								"23:15.617", -- [3]
+								"17:29.652", -- [4]
+							},
+							["startTime"] = 7651.484,
 						}, -- [1]
+					},
+					["name"] = "Maw of Souls",
+					["zoneID"] = 1492,
+					["objectives"] = {
+						"Ymiron, the Fallen King", -- [1]
+						"Harbaron", -- [2]
+						"Helya", -- [3]
+						"Enemy Forces", -- [4]
 					},
 				},
 			},

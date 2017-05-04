@@ -1,22 +1,22 @@
 
 HandyNotes_LegionTreasuresDB = {
 	["profileKeys"] = {
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["profiles"] = {
-		["Greybone - Proudmoore"] = {
+		["Amranar - Proudmoore"] = {
 		},
 		["Kaldorath - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Greybone - Proudmoore"] = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
