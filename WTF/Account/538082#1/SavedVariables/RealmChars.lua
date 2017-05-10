@@ -4,11 +4,11 @@ RCDatabase = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
@@ -96,14 +96,14 @@ RCDatabase = {
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 798.875,
+				["itemLevelEquipped"] = 797.4375,
 				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 				["name"] = "Granjior",
 				["firstProf"] = "Mining",
 				["level"] = 110,
 				["firstProfLevel"] = 701,
-				["itemLevelOverall"] = 798.875,
+				["itemLevelOverall"] = 799.8125,
 			}, -- [8]
 			{
 				["secondProfLevel"] = 764,
@@ -111,20 +111,20 @@ RCDatabase = {
 				["class"] = "MONK",
 				["secondProf"] = "Skinning",
 				["name"] = "Miriyal",
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 819.4375,
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["itemLevelOverall"] = 819.4375,
+				["firstProf"] = "Leatherworking",
 			}, -- [9]
 			{
-				["secondProfLevel"] = 725,
-				["itemLevelEquipped"] = 847.875,
+				["secondProfLevel"] = 728,
+				["itemLevelEquipped"] = 869.9375,
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["itemLevelOverall"] = 847.875,
+				["itemLevelOverall"] = 869.9375,
 				["level"] = 110,
-				["firstProfLevel"] = 709,
+				["firstProfLevel"] = 715,
 				["firstProf"] = "Blacksmithing",
 			}, -- [10]
 			{
@@ -156,15 +156,15 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 799,
+				["secondProfLevel"] = 800,
 				["itemLevelEquipped"] = 908.125,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 910.9375,
+				["firstProf"] = "Tailoring",
 				["level"] = 110,
 				["firstProfLevel"] = 789,
-				["firstProf"] = "Tailoring",
+				["itemLevelOverall"] = 910.9375,
 			}, -- [1]
 			["characterStored"] = 1,
 		},

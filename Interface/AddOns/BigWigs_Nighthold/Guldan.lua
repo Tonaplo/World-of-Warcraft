@@ -31,6 +31,7 @@ local severCount = 1
 local crashCounter = 1
 local orbCounter = 1
 local visionCounter = 1
+local essenceCount = 1
 local timeStopCheck = nil
 local liquidHellfireEmpowered = false
 local eyeEmpowered = false
@@ -62,7 +63,7 @@ local heroicTimers = {
 }
 local mythicTimers = {
 	-- Hand of Gul'dan "P2"
-	[212258] = {16.6, 181.6},
+	[212258] = {16.6, 165},
 
 	-- Storm of the Destroyer (167819 _start), after 227427 _applied
 	[167935] = {72.6, 57.9, 51.6, 64.7, 57.4},
@@ -88,6 +89,8 @@ local timers = mod:Mythic() and mythicTimers or mod:Heroic() and heroicTimers or
 
 local L = mod:GetLocale()
 if L then
+	L.warmup_trigger = "Have you forgotten" -- Have you forgotten your humiliation on the Broken Shore? How your precious high king was bent and broken before me? Will you beg for your lives as he did, whimpering like some worthless dog?
+
 	L.empowered = "(E) %s" -- (E) Eye of Gul'dan
 	L.gains = "Gul'dan gains %s"
 	L.p4_mythic_start_yell = "Time to return the demon hunter's soul to his body... and deny the Legion's master a host!"
@@ -95,6 +98,7 @@ if L then
 	L.nightorb = "{227283}"
 	L.nightorb_desc = "Summons a Nightorb, killing it will spawn a Time Zone."
 	L.nightorb_icon = "inv_icon_shadowcouncilorb_purple"
+	L.timeStopZone = "Time Stop Zone"
 
 	L.manifest = "{221149}"
 	L.manifest_desc = "Summons a Soul Fragment of Azzinoth, killing it will spawn a Demonic Essence."
@@ -112,6 +116,7 @@ end
 function mod:GetOptions()
 	return {
 		--[[ General ]]--
+		"warmup",
 		"stages",
 		"berserk",
 
@@ -170,7 +175,7 @@ function mod:GetOptions()
 		227009, -- Wounded
 		{206310, "EMPHASIZE"}, -- Time Stop
 	}, {
-		["stages"] = "general",
+		["warmup"] = "general",
 		[210339] = -14886, -- Essence of Aman'Thul
 		[206219] = -14885, -- Stage One
 		[207938] = -14897, -- Inquisitor Vethriz
@@ -261,6 +266,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "BulwarkofAzzinoth", 221408)
 	self:Log("SPELL_CAST_START", "PurifiedEssence", 221486)
 	self:Log("SPELL_CAST_SUCCESS", "PurifiedEssenceSuccess", 221486)
+
+	self:Death("NightorbDeath", 111054)
 end
 
 function mod:OnEngage()
@@ -274,6 +281,7 @@ function mod:OnEngage()
 	eyeCount = 1
 	eyeOnMe = false
 	obeliskCounter = 1
+	essenceCount = 1
 	timeStopCheck = nil
 	liquidHellfireEmpowered = false
 	bondsEmpowered = false
@@ -301,6 +309,8 @@ function mod:CHAT_MSG_MONSTER_YELL(event, msg, npcname)
 		phase = 4
 		self:Message("stages", "Neutral", "Long", CL.stage:format(phase), false)
 		self:Bar(211439, 39) -- Will of the Demon Within
+	elseif msg:find(L.warmup_trigger, nil, true) then
+		self:Bar("warmup", 62, CL.active, "achievement_thenighthold_guldan")
 	end
 end
 
@@ -412,7 +422,7 @@ function mod:Phase3Start(args) -- The Eye of Aman'thul applied (227427)
 	self:CDBar("winds", 11.5, CL.count:format(self:SpellName(218144), blackHarvestCount), 218144) -- Violent Winds, using blackHarvestCount, only once below Mythic.
 	self:Bar(221606, self:Mythic() and 24.5 or self:Heroic() and 27.5 or 29.3) -- Flames of Sargeras
 	self:Bar(211152, timers[211152][eyeCount], CL.count:format(L.empowered:format(self:SpellName(209270)), eyeCount)) -- Empowered Eye of Gul'dan
-	self:Bar(206744, timers[206744][blackHarvestCount]) -- Black Harvest
+	self:Bar(206744, timers[206744][blackHarvestCount], CL.count:format(self:SpellName(206744), blackHarvestCount)) -- Black Harvest
 	self:Bar(167935, self:Easy() and 94 or timers[167935][stormCount]) -- Storm of the Destroyer
 end
 
@@ -647,11 +657,11 @@ function mod:SoulCorrosion(args)
 end
 
 function mod:BlackHarvest(args)
-	self:Message(args.spellId, "Urgent", "Alert", CL.incoming:format(args.spellName))
+	self:Message(args.spellId, "Urgent", "Alert", CL.count:format(args.spellName, blackHarvestCount))
 	blackHarvestCount = blackHarvestCount + 1
 	local timer = timers[args.spellId][blackHarvestCount]
 	if timer or self:Easy() then -- message for incomplete easy timers
-		self:CDBar(args.spellId, timer)
+		self:CDBar(args.spellId, timer, CL.count:format(args.spellName, blackHarvestCount))
 	end
 	-- Violet Winds timers
 	if self:Mythic() then
@@ -813,15 +823,16 @@ do
 			-- Nothing
 		elseif not UnitDebuff("player", timeStop) then
 			self:Message(206310, "Personal", "Warning", CL.no:format(timeStop))
-			timeStopCheck = self:ScheduleTimer(checkForTimeStop, 1, self)
+			timeStopCheck = self:ScheduleTimer(checkForTimeStop, 1.5, self)
 		else
 			self:Message(206310, "Positive", nil, CL.you:format(timeStop))
 		end
 	end
 
 	function mod:PurifiedEssence(args)
-		self:Message(args.spellId, "Important", "Alarm", CL.cast:format(args.spellName))
-		self:CastBar(args.spellId, 4)
+		self:Message(args.spellId, "Important", "Alarm", CL.cast:format(CL.count:format(args.spellName, essenceCount)))
+		essenceCount = essenceCount + 1
+		self:CastBar(args.spellId, 4, CL.count:format(args.spellName, essenceCount))
 		if not timeStopCheck then
 			checkForTimeStop(self)
 		end
@@ -867,4 +878,8 @@ end
 
 function mod:BulwarkofAzzinoth(args)
 	self:Message(args.spellId, "Urgent", "Alert")
+end
+
+function mod:NightorbDeath(args)
+	self:Bar(206310, 10, CL.count:format(L.timeStopZone, orbCounter-1))
 end

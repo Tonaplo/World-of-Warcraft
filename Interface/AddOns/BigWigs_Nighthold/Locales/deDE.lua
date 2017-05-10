@@ -71,11 +71,14 @@ end
 
 L = BigWigs:NewBossLocale("Gul'dan", "deDE")
 if L then
+	--L.warmup_trigger = "Have you forgotten" -- Have you forgotten your humiliation on the Broken Shore? How your precious high king was bent and broken before me? Will you beg for your lives as he did, whimpering like some worthless dog?
+
 	L.empowered = "(A) %s" -- (E) Eye of Gul'dan
 	L.gains = "Gul'dan erhält %s"
 	L.p4_mythic_start_yell = "Zeit, die Seele des Dämonenjägers seinem Körper zurückzugeben... und der Legion einen Wirt zu nehmen!"
 
 	L.nightorb_desc = "Beschwört eine Nachtkugel, beim Töten dieser Kugel erscheint eine Zeitzone."
+	--L.timeStopZone = "Time Stop Zone"
 
 	L.manifest_desc = "Beschwört ein Seelenfragment von Azzinoth, beim Töten des Fragments erscheint eine Dämonische Essenz."
 
@@ -103,6 +106,7 @@ if L then
 	L.jarin = "Astrologe Jarin"
 
 	--[[ Aluriel to Telarn ]]--
+	L.defender = "Astralverteidiger"
 	L.weaver = "Weber der Dämmerwache"
 	L.archmage = "Erzmagierin der Shal'dorei"
 	L.manasaber = "Zahmer Manasäbler"
@@ -112,6 +116,6 @@ if L then
 	L.infernal = "Sengende Höllenbestie"
 
 	--[[ Aluriel to Tichondrius ]]--
+	L.chaosmage = "Chaosmagier des Dämonenpakts"
 	L.watcher = "Abgrundbeobachter"
 end
-

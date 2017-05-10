@@ -66,16 +66,19 @@ if L then
 
 	L.boss_active = "艾利桑德激活"
 	L.boss_active_desc = "清理小怪事件到艾利桑德激活计时。"
-	L.elisande_trigger = "我早就预见了你们的到来，命运指引你们来到此地。为了阻止军团，你们想背水一战。"
+	L.elisande_trigger = "我早就预见了你们的到来。命运指引你们来到此地。为了阻止军团，你们想背水一战。"
 end
 
 L = BigWigs:NewBossLocale("Gul'dan", "zhCN")
 if L then
+	L.warmup_trigger = "你们忘了破碎海滩的耻辱了吗？" -- 你们忘了破碎海滩的耻辱了吗？你们的宝贝国王是怎么在我面前卑躬屈膝，支离破碎的？你们也想像他一样，像条狗一样呜咽求饶吗？
+
 	L.empowered = "（强化）%s"
 	L.gains = "古尔丹获得 >%s<"
 	L.p4_mythic_start_yell = "该让这个恶魔猎手的灵魂回到躯体中……防止军团之王占据它了！"
 
 	L.nightorb_desc = "召唤暗夜宝珠，击杀后将出现时间停止力场。"
+	L.timeStopZone = "时间停止区域"
 
 	L.manifest_desc = "召唤埃辛诺斯灵魂碎片，击杀后将出现恶魔精华。"
 
@@ -103,6 +106,7 @@ if L then
 	L.jarin = "占星家贾林"
 
 	--[[ Aluriel to Telarn ]]--
+	--L.defender = "Astral Defender"
 	L.weaver = "暮色卫队织法者"
 	L.archmage = "夏多雷大法师"
 	L.manasaber = "驯养的魔刃豹"
@@ -112,6 +116,6 @@ if L then
 	L.infernal = "灼热的地狱火"
 
 	--[[ Aluriel to Tichondrius ]]--
+	--L.chaosmage = "Felsworn Chaos-Mage"
 	L.watcher = "深渊守护者"
 end
-

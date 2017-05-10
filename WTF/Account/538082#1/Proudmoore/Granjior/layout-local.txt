@@ -34,13 +34,6 @@ X: 239
 Y: -106
 W: 384
 H: 260
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 648
-H: 455
 Frame: PlayerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,3 +41,10 @@ X: -300
 Y: 0
 W: 232
 H: 100
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 455

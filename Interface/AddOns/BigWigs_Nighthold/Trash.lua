@@ -26,6 +26,7 @@ mod:RegisterEnableMob(
 	112803, -- Astrologer Jarin
 
 	--[[ Aluriel to Telarn ]]--
+	112638, -- Astral Defender
 	112973, -- Duskwatch Weaver
 	112595, -- Shal'dorei Archmage
 	111295, -- Domesticated Manasaber
@@ -35,6 +36,7 @@ mod:RegisterEnableMob(
 	111210, -- Searing Infernal
 
 	--[[ Aluriel to Tichondrius ]]--
+	113012, -- Felsworn Chaos-Mage
 	113043 -- Abyss Watcher
 )
 
@@ -69,6 +71,7 @@ if L then
 	L.jarin = "Astrologer Jarin"
 
 	--[[ Aluriel to Telarn ]]--
+	L.defender = "Astral Defender"
 	L.weaver = "Duskwatch Weaver"
 	L.archmage = "Shal'dorei Archmage"
 	L.manasaber = "Domesticated Manasaber"
@@ -78,7 +81,12 @@ if L then
 	L.infernal = "Searing Infernal"
 
 	--[[ Aluriel to Tichondrius ]]--
+	L.chaosmage = "Felsworn Chaos-Mage"
 	L.watcher = "Abyss Watcher"
+
+	L.fear = "{224944} ({5782})"
+	L.fear_desc = 224944
+	L.fear_icon = 224944
 end
 
 --------------------------------------------------------------------------------
@@ -104,7 +112,7 @@ function mod:GetOptions()
 		wrapMarker,
 		231005, -- Arcane Emanations (Kar'zun)
 		225927, -- Gravity Well (Gilded Guardian)
-		224440, -- Crushing Stomp (Gilded Guardian)
+		{224440, "FLASH"}, -- Crushing Stomp (Gilded Guardian)
 		224510, -- Crackling Slice (Duskwatch Battle-Magus)
 		225412, -- Mass Siphon (Chronowraith)
 		224568, -- Mass Suppress (Nighthold Protector)
@@ -114,6 +122,7 @@ function mod:GetOptions()
 		{224632, "SAY", "FLASH"}, -- Heavenly Crash (Astrologer Jarin)
 
 		--[[ Aluriel to Telarn ]]--
+		225390, -- Stellar Dust (Astral Defender)
 		{225845, "FLASH"}, -- Chosen Fate (Duskwatch Weaver)
 		{225105, "FLASH", "SAY", "PROXIMITY"}, -- Arcanic Release (Shal'dorei Archmage)
 		225800, -- Greater Time Warp (Shal'dorei Archmage)
@@ -124,6 +133,7 @@ function mod:GetOptions()
 		{221344, "SAY", "FLASH"}, -- Annihilating Orb (Searing Infernal)
 
 		--[[ Aluriel to Tichondrius ]]--
+		{"fear", "SAY", "FLASH"}, -- Will of the Legion (Felsworn Chaos-Mage)
 		{224982, "SAY", "FLASH"}, -- Fel Glare (Abyss Watcher)
 	}, {
 		[230438] = L.torm,
@@ -136,11 +146,13 @@ function mod:GetOptions()
 		[225412] = L.chronowraith,
 		[224568] = L.protector,
 		[224632] = L.jarin,
+		[225390] = L.defender,
 		[225845] = L.weaver,
 		[225105] = L.archmage,
 		[225857] = L.manasaber,
 		[225856] = L.naturalist,
 		[221344] = L.infernal,
+		["fear"] = L.chaosmage,
 		[224982] = L.watcher,
 	}
 end
@@ -149,10 +161,10 @@ function mod:OnBossEnable()
 	--[[ General ]]--
 	self:RegisterMessage("BigWigs_OnBossEngage", "Disable")
 
-	-- Rumbling Ground, Disrupting Energy, Poison Brambles
-	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 230488, 224572, 225856)
-	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 230488, 224572, 225856)
-	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 230488, 224572, 225856)
+	-- Rumbling Ground, Disrupting Energy, Poison Brambles, Stellar Dust
+	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 230488, 224572, 225856, 225390)
+	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 230488, 224572, 225856, 225390)
+	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 230488, 224572, 225856, 225390)
 
 	--[[ Skorpyron to Chronomatic Anomaly ]]--
 	self:Log("SPELL_CAST_START", "DevastatingStrike", 230438)
@@ -196,6 +208,8 @@ function mod:OnBossEnable()
 	self:Death("InfernalDeath", 111210)
 
 	--[[ Aluriel to Tichondrius ]]--
+	self:Log("SPELL_AURA_APPLIED", "WillOfTheLegion", 224944)
+	self:Log("SPELL_AURA_REMOVED", "WillOfTheLegionRemoved", 224944)
 	self:Log("SPELL_AURA_APPLIED", "FelGlare", 224982)
 end
 
@@ -341,8 +355,9 @@ function mod:GravityWell(args)
 end
 
 function mod:CrushingStomp(args)
-	self:Message(args.spellId, "Urgent", "Long")
+	self:Message(args.spellId, "Urgent", "Warning")
 	self:CDBar(args.spellId, 23)
+	self:Flash(args.spellId)
 end
 
 function mod:GuardianDeath()
@@ -460,6 +475,21 @@ function mod:InfernalDeath()
 end
 
 --[[ Aluriel to Tichondrius ]]--
+function mod:WillOfTheLegion(args)
+	local fear = self:SpellName(5782) -- "Fear"
+	self:TargetMessage("fear", args.destName, "Important", "Long", fear, args.spellId, true)
+	self:TargetBar("fear", 10, args.destName, fear, args.spellId)
+	if self:Me(args.destGUID) then
+		self:Say("fear", fear)
+	elseif self:Dispeller("magic") then
+		self:Flash("fear", args.spellId)
+	end
+end
+
+function mod:WillOfTheLegionRemoved(args)
+	self:StopBar(5782, args.destName) -- "Fear"
+end
+
 function mod:FelGlare(args)
 	self:TargetMessage(args.spellId, args.destName, "Important", "Warning", nil, nil, true)
 	self:TargetBar(args.spellId, 10, args.destName)

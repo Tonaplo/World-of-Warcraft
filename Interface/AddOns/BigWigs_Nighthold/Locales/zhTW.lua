@@ -71,11 +71,14 @@ end
 
 L = BigWigs:NewBossLocale("Gul'dan", "zhTW")
 if L then
+	--L.warmup_trigger = "Have you forgotten" -- Have you forgotten your humiliation on the Broken Shore? How your precious high king was bent and broken before me? Will you beg for your lives as he did, whimpering like some worthless dog?
+
 	L.empowered = "(強化) %s" -- (E) Eye of Gul'dan
 	L.gains = "古爾丹獲得%s"
 	--L.p4_mythic_start_yell = "Time to return the demon hunter's soul to his body... and deny the Legion's master a host!"
 
 	L.nightorb_desc = "召喚一個夜之球，擊殺它會生成一個時間停止力場。"
+	--L.timeStopZone = "Time Stop Zone"
 
 	L.manifest_desc = "召喚一個埃辛諾斯靈魂碎片，擊殺它會生成一個惡魔精華。"
 
@@ -103,6 +106,7 @@ if L then
 	L.jarin = "占星師賈倫"
 
 	--[[ Aluriel to Telarn ]]--
+	--L.defender = "Astral Defender"
 	L.weaver = "暮衛編織者"
 	L.archmage = "夏多雷大法師"
 	L.manasaber = "被馴養的法力刃豹"
@@ -112,6 +116,6 @@ if L then
 	L.infernal = "灼熱的煉獄火"
 
 	--[[ Aluriel to Tichondrius ]]--
+	--L.chaosmage = "Felsworn Chaos-Mage"
 	L.watcher = "暮衛哨兵"
 end
-

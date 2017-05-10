@@ -47,7 +47,7 @@ end
 L = BigWigs:NewBossLocale("Star Augur Etraeus", "koKR")
 if L then
 	L.yourSign = "당신의 별자리"
-	L.with = "같은"
+	L.with = "같음"
 	L[205429] = "|T1391538:15:15:0:0:64:64:4:60:4:60|t|cFFFFDD00게|r"
 	L[205445] = "|T1391537:15:15:0:0:64:64:4:60:4:60|t|cFFFF0000늑대|r"
 	L[216345] = "|T1391536:15:15:0:0:64:64:4:60:4:60|t|cFF00FF00사냥꾼|r"
@@ -71,11 +71,16 @@ end
 
 L = BigWigs:NewBossLocale("Gul'dan", "koKR")
 if L then
+	L.warmup_trigger = "부서진 해변에서의 치욕을 잊었느냐?"
+        --    Horde : 부서진 해변에서의 치욕을 잊었느냐? 너희의 그 잘난 족장이 나약한 돼지 새끼처럼 배를 찔린 것을 잊었나? 그자처럼, 너희도 지옥의 타락에 물든 채 제발 죽여 달라고 빌며 서서히 죽어 갈 작정이냐?
+        -- Alliance : 부서진 해변에서의 치욕을 잊었느냐? 너희의 그 소중한 왕이 내 앞에서 부서지고 망가진 모습을 잊었나? 그자가 그랬듯, 개처럼 낑낑대며 목숨을 구걸할 작정이냐?
+
 	L.empowered = "(강화) %s" -- (E) Eye of Gul'dan
 	L.gains = "굴단 %s 획득"
 	L.p4_mythic_start_yell = "악마사냥꾼의 영혼을 육신으로 돌려보내야 할 때요... 군단의 주인을 거부해야 하오!"
 
 	L.nightorb_desc = "밤의 보주를 소환합니다, 처치하면 시간 지역이 생성됩니다."
+	L.timeStopZone = "시간 정지 지역"
 
 	L.manifest_desc = "아지노스의 영혼 파편을 소환합니다, 처치하면 악마의 정수가 생성됩니다."
 
@@ -94,7 +99,7 @@ if L then
 
 	--[[ Trilliax to Aluriel ]]--
 	L.karzun = "카르준"
-	--L.guardian = "Gilded Guardian" -- World Quest Objective
+	L.guardian = "금박 수호자"
 	L.battle_magus = "황혼감시대 전투마법사"
 	L.chronowraith = "시간격노"
 	L.protector = "밤의 요새 수호자"
@@ -103,14 +108,16 @@ if L then
 	L.jarin = "점성술사 자린"
 
 	--[[ Aluriel to Telarn ]]--
+	L.defender = "별의 수호병"
 	L.weaver = "황혼감시대 역술사"
-        L.archmage = "샬도레이 대마법사"
-        L.manasaber = "길들인 마나호랑이"
-        L.naturalist = "샬도레이 박물학자"
+	L.archmage = "샬도레이 대마법사"
+	L.manasaber = "길들인 마나호랑이"
+	L.naturalist = "샬도레이 박물학자"
 
 	--[[ Aluriel to Krosus ]]--
 	L.infernal = "불타는 지옥불정령"
 
 	--[[ Aluriel to Tichondrius ]]--
+	L.chaosmage = "지옥서약 혼돈마법사"
 	L.watcher = "심연 감시자"
 end

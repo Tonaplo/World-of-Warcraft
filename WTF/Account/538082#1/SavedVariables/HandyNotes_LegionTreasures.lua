@@ -1,29 +1,35 @@
 
 HandyNotes_LegionTreasuresDB = {
 	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
+		["Rahran - Proudmoore"] = {
+		},
 		["Amranar - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Mallusof - Tichondrius"] = {
+			["icon_item"] = true,
+		},
+		["Granjior - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Mallusof - Tichondrius"] = {
-			["icon_item"] = true,
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }

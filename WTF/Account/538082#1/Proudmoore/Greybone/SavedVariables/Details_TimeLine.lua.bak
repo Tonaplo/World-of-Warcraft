@@ -1,7 +1,339 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_end"] = "17:59:32",
+			["date_start"] = "17:58:18",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 74.005000000001,
+		}, -- [1]
+		{
+			["date_end"] = "17:54:51",
+			["date_start"] = "17:53:38",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 73,
+		}, -- [2]
+		{
+			["date_end"] = "17:45:18",
+			["date_start"] = "17:44:13",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 65.0159999999996,
+		}, -- [3]
+		{
+			["date_start"] = "20:47:39",
+			["date_end"] = "20:48:34",
+			["name"] = "Wrath of Azshara",
+			["total_time"] = 55.0029999999988,
+		}, -- [4]
+	},
 	["max_segments"] = 4,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["window_scale"] = 1,
+	["debuff_timeline"] = {
+		{
+			["Hareega-Zul'jin"] = {
+				[223203] = {
+					74.005000000001, -- [1]
+					74.005000000001, -- [2]
+					74.005000000001, -- [3]
+					["source"] = "Hareega-Zul'jin",
+					["active"] = true,
+				},
+			},
+			["Falquion-Nemesis"] = {
+				[224333] = {
+					45.632999999998, -- [1]
+					47.0999999999985, -- [2]
+					["source"] = "[*] Enveloping Winds",
+					["active"] = false,
+				},
+			},
+			["Milkybuthole-Zul'jin"] = {
+				[223203] = {
+					74.005000000001, -- [1]
+					74.005000000001, -- [2]
+					74.005000000001, -- [3]
+					74.005000000001, -- [4]
+					["source"] = "Milkybuthole-Zul'jin",
+					["active"] = false,
+				},
+				[223202] = {
+					74.005000000001, -- [1]
+					["source"] = "Milkybuthole-Zul'jin",
+					["active"] = true,
+				},
+			},
+			["Møzo-Zul'jin"] = {
+				[223203] = {
+					74.005000000001, -- [1]
+					74.005000000001, -- [2]
+					74.005000000001, -- [3]
+					74.005000000001, -- [4]
+					["source"] = "Møzo-Zul'jin",
+					["active"] = false,
+				},
+				[223202] = {
+					74.005000000001, -- [1]
+					["source"] = "Møzo-Zul'jin",
+					["active"] = true,
+				},
+			},
+			["Noterus-Nemesis"] = {
+				[224333] = {
+					22.9619999999995, -- [1]
+					25.1009999999988, -- [2]
+					34.2999999999993, -- [3]
+					36.1499999999978, -- [4]
+					["source"] = "[*] Enveloping Winds",
+					["active"] = false,
+				},
+			},
+			["Tylmarandy-Zul'jin"] = {
+				[223203] = {
+					74.005000000001, -- [1]
+					74.005000000001, -- [2]
+					74.005000000001, -- [3]
+					74.005000000001, -- [4]
+					["source"] = "Tylmarandy-Zul'jin",
+					["active"] = false,
+				},
+				[223202] = {
+					74.005000000001, -- [1]
+					["source"] = "Tylmarandy-Zul'jin",
+					["active"] = true,
+				},
+			},
+		}, -- [1]
+		{
+			["Greybone"] = {
+				[208165] = {
+					27.2839999999997, -- [1]
+					31.2999999999993, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+				[213304] = {
+					73, -- [1]
+					73, -- [2]
+					["source"] = "Suspicious Noble",
+					["active"] = false,
+				},
+			},
+			["Fleya-Sargeras"] = {
+				[208165] = {
+					27.2839999999997, -- [1]
+					66.8679999999986, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+			["Ramzi-Zul'jin"] = {
+				[208165] = {
+					27.2839999999997, -- [1]
+					72.1130000000012, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+			["Noterus-Nemesis"] = {
+				[208165] = {
+					27.2839999999997, -- [1]
+					72.1130000000012, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+			["Falquion-Nemesis"] = {
+				[208165] = {
+					27.2839999999997, -- [1]
+					72.1130000000012, -- [2]
+					["source"] = "Talixae Flamewreath",
+					["active"] = false,
+				},
+			},
+		}, -- [2]
+		{
+			["Greybone"] = {
+				[207278] = {
+					14.7169999999969, -- [1]
+					16.7219999999979, -- [2]
+					42.6339999999982, -- [3]
+					45.2109999999993, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+				[206574] = {
+					50.9199999999983, -- [1]
+					54.9290000000001, -- [2]
+					["source"] = "[*] Resonant Slash",
+					["active"] = false,
+				},
+			},
+			["Fleya-Sargeras"] = {
+				[207278] = {
+					14.7169999999969, -- [1]
+					19.7359999999972, -- [2]
+					42.6339999999982, -- [3]
+					44.6729999999989, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+			["Falquion-Nemesis"] = {
+				[207278] = {
+					14.7169999999969, -- [1]
+					24.0669999999991, -- [2]
+					42.6339999999982, -- [3]
+					44.8189999999995, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+				[215204] = {
+					30.9049999999988, -- [1]
+					32.7109999999993, -- [2]
+					["source"] = "Vigilant Duskwatch",
+					["active"] = false,
+				},
+			},
+			["Noterus-Nemesis"] = {
+				[206580] = {
+					7.22099999999773, -- [1]
+					8.91599999999744, -- [2]
+					22.9929999999986, -- [3]
+					26.3669999999984, -- [4]
+					["source"] = "[*] Resonant Slash",
+					["active"] = false,
+				},
+				[207278] = {
+					14.7169999999969, -- [1]
+					26.3669999999984, -- [2]
+					42.6339999999982, -- [3]
+					45.2749999999978, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+				[215204] = {
+					45.7159999999967, -- [1]
+					51.732, -- [2]
+					["source"] = "Vigilant Duskwatch",
+					["active"] = false,
+				},
+			},
+			["Ramzi-Zul'jin"] = {
+				[207278] = {
+					14.7169999999969, -- [1]
+					34.7150000000002, -- [2]
+					42.6339999999982, -- [3]
+					61.3629999999976, -- [4]
+					["source"] = "Patrol Captain Gerdo",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Lorriea-Khadgar"] = {
+				[196665] = {
+					28.0549999999985, -- [1]
+					55.0029999999988, -- [2]
+					55.0029999999988, -- [3]
+					["source"] = "Lightning Stalker",
+					["active"] = true,
+				},
+			},
+			["Eraserhead-Eldre'Thalas"] = {
+				[192706] = {
+					40.9599999999991, -- [1]
+					43.4229999999989, -- [2]
+					["source"] = "Wrath of Azshara",
+					["active"] = false,
+				},
+			},
+			["Greybone"] = {
+				[196665] = {
+					28.0549999999985, -- [1]
+					55.0029999999988, -- [2]
+					["source"] = "Lightning Stalker",
+					["active"] = false,
+				},
+			},
+			["Andrewqtxo-Tichondrius"] = {
+				[196666] = {
+					32.9969999999994, -- [1]
+					55.0029999999988, -- [2]
+					["source"] = "Tidal Wave",
+					["active"] = false,
+				},
+			},
+			["Shockerspam-Stormrage"] = {
+				[196666] = {
+					27.3529999999992, -- [1]
+					55.0029999999988, -- [2]
+					["source"] = "Tidal Wave",
+					["active"] = false,
+				},
+				[196665] = {
+					50.9199999999983, -- [1]
+					55.0029999999988, -- [2]
+					["source"] = "Lightning Stalker",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+			["Noterus-Nemesis"] = {
+				{
+					23.8260000000009, -- [1]
+					"Noterus-Nemesis", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					44.9110000000001, -- [1]
+					"Noterus-Nemesis", -- [2]
+					1966, -- [3]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["Noterus-Nemesis"] = {
+				{
+					16.6869999999981, -- [1]
+					"Noterus-Nemesis", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					26.8139999999985, -- [1]
+					"Noterus-Nemesis", -- [2]
+					31224, -- [3]
+				}, -- [2]
+			},
+			["Fleya-Sargeras"] = {
+				{
+					22.4739999999983, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Greybone"] = {
+				{
+					53.646999999999, -- [1]
+					"Greybone", -- [2]
+					55233, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -11,177 +343,5 @@ DetailsTimeLineDB = {
 		}, -- [3]
 		{
 		}, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "10:57:44",
-			["date_start"] = "10:57:08",
-			["name"] = "Moroes",
-			["total_time"] = 36.0080000000016,
-		}, -- [1]
-		{
-			["date_end"] = "10:56:07",
-			["date_start"] = "10:55:48",
-			["name"] = "Attumen the Huntsman",
-			["total_time"] = 19.0080000000016,
-		}, -- [2]
-		{
-			["date_end"] = "10:51:47",
-			["date_start"] = "10:51:31",
-			["name"] = "Maiden of Virtue",
-			["total_time"] = 16.0040000000008,
-		}, -- [3]
-		{
-			["date_end"] = "10:48:44",
-			["date_start"] = "10:48:17",
-			["name"] = "Opera Hall",
-			["total_time"] = 26.9990000000107,
-		}, -- [4]
-	},
-	["debuff_timeline"] = {
-		{
-			["Clausia"] = {
-				[227545] = {
-					9.98799999999756, -- [1]
-					12.0059999999939, -- [2]
-					["source"] = "Baroness Dorothea Millstipe",
-					["active"] = false,
-				},
-				[227742] = {
-					9.02400000000489, -- [1]
-					35.4649999999965, -- [2]
-					["source"] = "Moroes",
-					["active"] = false,
-				},
-				[238606] = {
-					12.3399999999965, -- [1]
-					15.4839999999967, -- [2]
-					["source"] = "Arcane Warden",
-					["active"] = false,
-				},
-			},
-			["Macatchelous-Goldrinn"] = {
-				[238606] = {
-					18.403999999995, -- [1]
-					20.9180000000051, -- [2]
-					["source"] = "Arcane Warden",
-					["active"] = false,
-				},
-			},
-			["Greybone"] = {
-				[227832] = {
-					34.6230000000069, -- [1]
-					36.0080000000016, -- [2]
-					["source"] = "Moroes",
-					["active"] = false,
-				},
-				[230297] = {
-					13.1989999999932, -- [1]
-					23.2020000000048, -- [2]
-					["source"] = "Skeletal Waiter",
-					["active"] = false,
-				},
-				[238606] = {
-					18.403999999995, -- [1]
-					28.4149999999936, -- [2]
-					["source"] = "Arcane Warden",
-					["active"] = false,
-				},
-				[227851] = {
-					33.0819999999949, -- [1]
-					34.5969999999943, -- [2]
-					["source"] = "Moroes",
-					["active"] = false,
-				},
-				[227742] = {
-					29.6680000000051, -- [1]
-					35.4649999999965, -- [2]
-					["source"] = "Moroes",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-			["Turkeybird-Sargeras"] = {
-				[227404] = {
-					4.72500000000582, -- [1]
-					8.91400000000431, -- [2]
-					["source"] = "Midnight",
-					["active"] = false,
-				},
-			},
-			["Greybone"] = {
-				[227404] = {
-					4.72500000000582, -- [1]
-					8.91400000000431, -- [2]
-					["source"] = "Midnight",
-					["active"] = false,
-				},
-			},
-			["Smallung-Sargeras"] = {
-				[227404] = {
-					4.72500000000582, -- [1]
-					8.91400000000431, -- [2]
-					["source"] = "Midnight",
-					["active"] = false,
-				},
-			},
-			["Macatchelous-Goldrinn"] = {
-				[227404] = {
-					4.72500000000582, -- [1]
-					8.91400000000431, -- [2]
-					["source"] = "Midnight",
-					["active"] = false,
-				},
-			},
-			["Clausia"] = {
-				[227404] = {
-					4.72500000000582, -- [1]
-					8.91400000000431, -- [2]
-					["source"] = "Midnight",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["cooldowns_timeline"] = {
-		{
-			["Smallung-Sargeras"] = {
-				{
-					9.36800000000221, -- [1]
-					"Smallung-Sargeras", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-			["Greybone"] = {
-				{
-					4.62700000000768, -- [1]
-					"Greybone", -- [2]
-					55233, -- [3]
-				}, -- [1]
-				{
-					7.56299999999465, -- [1]
-					"Greybone", -- [2]
-					48707, -- [3]
-				}, -- [2]
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
 	},
 }

@@ -1,49 +1,47 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["combat_data"] = {
+		{
+			["date_start"] = "23:35:54",
+			["date_end"] = "23:37:31",
+			["name"] = "Yan-Zhu the Uncasked",
+			["total_time"] = 97.0029999999988,
+		}, -- [1]
+		{
+			["date_start"] = "23:31:15",
+			["date_end"] = "23:31:54",
+			["name"] = "Hoptallus",
+			["total_time"] = 39.005000000001,
+		}, -- [2]
+		{
+			["date_start"] = "23:30:23",
+			["date_end"] = "23:31:15",
+			["name"] = "Hoptallus",
+			["total_time"] = 51.869999999999,
+		}, -- [3]
+		{
+			["date_start"] = "23:29:13",
+			["date_end"] = "23:30:00",
+			["name"] = "Ook-Ook",
+			["total_time"] = 47.0070000000014,
+		}, -- [4]
+	},
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
-		{
-			["Amorica-Stormrage"] = {
-				{
-					6.18399999999929, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108281, -- [3]
-				}, -- [1]
-				{
-					74.9310000000005, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [2]
-			},
-		}, -- [1]
-		{
-			["Amorica-Stormrage"] = {
-				{
-					5.54299999999967, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108281, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Amorica-Stormrage"] = {
-				{
-					5.90099999999984, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108281, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -253,40 +251,42 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "23:37:31",
-			["date_start"] = "23:35:54",
-			["name"] = "Yan-Zhu the Uncasked",
-			["total_time"] = 97.0029999999988,
+			["Amorica-Stormrage"] = {
+				{
+					6.18399999999929, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108281, -- [3]
+				}, -- [1]
+				{
+					74.9310000000005, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [2]
+			},
 		}, -- [1]
 		{
-			["date_end"] = "23:31:54",
-			["date_start"] = "23:31:15",
-			["name"] = "Hoptallus",
-			["total_time"] = 39.005000000001,
-		}, -- [2]
-		{
-			["date_end"] = "23:31:15",
-			["date_start"] = "23:30:23",
-			["name"] = "Hoptallus",
-			["total_time"] = 51.869999999999,
-		}, -- [3]
-		{
-			["date_end"] = "23:30:00",
-			["date_start"] = "23:29:13",
-			["name"] = "Ook-Ook",
-			["total_time"] = 47.0070000000014,
-		}, -- [4]
-	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
+			["Amorica-Stormrage"] = {
+				{
+					5.54299999999967, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108281, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
 		}, -- [3]
 		{
+			["Amorica-Stormrage"] = {
+				{
+					5.90099999999984, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108281, -- [3]
+				}, -- [1]
+			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 }
