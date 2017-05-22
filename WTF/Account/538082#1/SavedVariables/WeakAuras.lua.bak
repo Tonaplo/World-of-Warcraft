@@ -279,6 +279,963 @@ WeakAurasSaved = {
 			[193359] = 1269442,
 		},
 	},
+	["talent_cache"] = {
+		["HUNTER"] = {
+			{
+				["name"] = "Posthaste",
+				["icon"] = "INTERFACE\\ICONS\\ability_hunter_posthaste",
+			}, -- [1]
+			{
+				["name"] = "Narrow Escape",
+				["icon"] = "Interface\\Icons\\INV_Misc_Web_01",
+			}, -- [2]
+			{
+				["name"] = "Crouching Tiger, Hidden Chimaera",
+				["icon"] = "INTERFACE\\ICONS\\ability_hunter_pet_chimera",
+			}, -- [3]
+			{
+				["name"] = "Binding Shot",
+				["icon"] = "INTERFACE\\ICONS\\spell_shaman_bindelemental",
+			}, -- [4]
+			{
+				["name"] = "Wyvern Sting",
+				["icon"] = "Interface\\Icons\\INV_Spear_02",
+			}, -- [5]
+			{
+				["name"] = "Intimidation",
+				["icon"] = "Interface\\Icons\\Ability_Devour",
+			}, -- [6]
+			{
+				["name"] = "Exhilaration",
+				["icon"] = "INTERFACE\\ICONS\\ability_hunter_onewithnature",
+			}, -- [7]
+			{
+				["name"] = "Iron Hawk",
+				["icon"] = "Interface\\Icons\\spell_hunter_aspectoftheironhawk",
+			}, -- [8]
+			{
+				["name"] = "Spirit Bond",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_AspectMastery",
+			}, -- [9]
+			{
+				["name"] = "Steady Focus",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ImprovedSteadyShot",
+			}, -- [10]
+			{
+				["name"] = "Dire Beast",
+				["icon"] = "INTERFACE\\ICONS\\ability_hunter_sickem",
+			}, -- [11]
+			{
+				["name"] = "Thrill of the Hunt",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_ThrilloftheHunt",
+			}, -- [12]
+			{
+				["name"] = "A Murder of Crows",
+				["icon"] = "Interface\\Icons\\ability_hunter_murderofcrows",
+			}, -- [13]
+			{
+				["name"] = "Blink Strikes",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
+			}, -- [14]
+			{
+				["name"] = "Stampede",
+				["icon"] = "INTERFACE\\ICONS\\ability_hunter_bestialdiscipline",
+			}, -- [15]
+			{
+				["name"] = "Glaive Toss",
+				["icon"] = "Interface\\Icons\\ability_glaivetoss",
+			}, -- [16]
+			{
+				["name"] = "Powershot",
+				["icon"] = "INTERFACE\\ICONS\\ability_hunter_resistanceisfutile",
+			}, -- [17]
+			{
+				["name"] = "Barrage",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_RapidRegeneration",
+			}, -- [18]
+			{
+				["name"] = "Exotic Munitions",
+				["icon"] = "Interface\\Icons\\inv_ammo_bullet_07",
+			}, -- [19]
+			{
+				["name"] = "Focusing Shot",
+				["icon"] = "Interface\\Icons\\spell_hunter_focusingshot",
+			}, -- [20]
+			{
+				["name"] = "Adaptation",
+				["icon"] = "Interface\\Icons\\spell_hunter_adaptation",
+			}, -- [21]
+		},
+		["WARRIOR"] = {
+			{
+				["name"] = "Juggernaut",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_BullRush",
+			}, -- [1]
+			{
+				["name"] = "Double Time",
+				["icon"] = "Interface\\Icons\\INV_Misc_Horn_04",
+			}, -- [2]
+			{
+				["name"] = "Warbringer",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Warbringer",
+			}, -- [3]
+			{
+				["name"] = "Enraged Regeneration",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_FocusedRage",
+			}, -- [4]
+			{
+				["name"] = "Second Wind",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Harass",
+			}, -- [5]
+			{
+				["name"] = "Impending Victory",
+				["icon"] = "Interface\\Icons\\spell_impending_victory",
+			}, -- [6]
+			{
+				["name"] = "Taste for Blood",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_HungerforBlood",
+			}, -- [7]
+			{
+				["name"] = "Sudden Death",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ImprovedDisciplines",
+			}, -- [8]
+			{
+				["name"] = "Slam",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
+			}, -- [9]
+			{
+				["name"] = "Storm Bolt",
+				["icon"] = "Interface\\Icons\\warrior_talent_icon_stormbolt",
+			}, -- [10]
+			{
+				["name"] = "Shockwave",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Shockwave",
+			}, -- [11]
+			{
+				["name"] = "Dragon Roar",
+				["icon"] = "Interface\\Icons\\ability_warrior_dragonroar",
+			}, -- [12]
+			{
+				["name"] = "Mass Spell Reflection",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldBreak",
+			}, -- [13]
+			{
+				["name"] = "Safeguard",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Safeguard",
+			}, -- [14]
+			{
+				["name"] = "Vigilance",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Vigilance",
+			}, -- [15]
+			{
+				["name"] = "Avatar",
+				["icon"] = "Interface\\Icons\\warrior_talent_icon_avatar",
+			}, -- [16]
+			{
+				["name"] = "Bloodbath",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_BloodBath",
+			}, -- [17]
+			{
+				["name"] = "Bladestorm",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Bladestorm",
+			}, -- [18]
+			{
+				["name"] = "Anger Management",
+				["icon"] = "Interface\\Icons\\warrior_talent_icon_angermanagement",
+			}, -- [19]
+			{
+				["name"] = "Ravager",
+				["icon"] = "Interface\\Icons\\warrior_talent_icon_ravager",
+			}, -- [20]
+			{
+				["name"] = "Siegebreaker",
+				["icon"] = "Interface\\Icons\\inv_mace_2h_draenorguard_b_01_horde",
+			}, -- [21]
+		},
+		["ROGUE"] = {
+			{
+				["name"] = "Nightstalker",
+				["icon"] = "Interface\\Icons\\Ability_Stealth",
+			}, -- [1]
+			{
+				["name"] = "Subterfuge",
+				["icon"] = "Interface\\Icons\\rogue_subterfuge",
+			}, -- [2]
+			{
+				["name"] = "Shadow Focus",
+				["icon"] = "Interface\\Icons\\rogue_shadowfocus",
+			}, -- [3]
+			{
+				["name"] = "Deadly Throw",
+				["icon"] = "Interface\\Icons\\INV_ThrowingKnife_06",
+			}, -- [4]
+			{
+				["name"] = "Nerve Strike",
+				["icon"] = "Interface\\Icons\\rogue_nerve _strike",
+			}, -- [5]
+			{
+				["name"] = "Combat Readiness",
+				["icon"] = "INTERFACE\\ICONS\\ability_rogue_combatreadiness",
+			}, -- [6]
+			{
+				["name"] = "Cheat Death",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_CheatDeath",
+			}, -- [7]
+			{
+				["name"] = "Leeching Poison",
+				["icon"] = "Interface\\Icons\\rogue_leeching_poison",
+			}, -- [8]
+			{
+				["name"] = "Elusiveness",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_TurntheTables",
+			}, -- [9]
+			{
+				["name"] = "Cloak and Dagger",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_UnfairAdvantage",
+			}, -- [10]
+			{
+				["name"] = "Shadowstep",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
+			}, -- [11]
+			{
+				["name"] = "Burst of Speed",
+				["icon"] = "Interface\\Icons\\rogue_burstofspeed",
+			}, -- [12]
+			{
+				["name"] = "Prey on the Weak",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_PreyontheWeak",
+			}, -- [13]
+			{
+				["name"] = "Internal Bleeding",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_BloodSplatter",
+			}, -- [14]
+			{
+				["name"] = "Dirty Tricks",
+				["icon"] = "Interface\\Icons\\ability_rogue_dirtydeeds",
+			}, -- [15]
+			{
+				["name"] = "Shuriken Toss",
+				["icon"] = "INTERFACE\\ICONS\\inv_throwingknife_07",
+			}, -- [16]
+			{
+				["name"] = "Marked for Death",
+				["icon"] = "Interface\\Icons\\Achievement_BG_killingblow_berserker",
+			}, -- [17]
+			{
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_SlaughterfromtheShadows",
+			}, -- [18]
+			{
+				["name"] = "Venom Rush",
+				["icon"] = "Interface\\Icons\\rogue_venomzest",
+			}, -- [19]
+			{
+				["name"] = "Shadow Reflection",
+				["icon"] = "Interface\\Icons\\rogue_shadow_reflection",
+			}, -- [20]
+			{
+				["name"] = "Death from Above",
+				["icon"] = "Interface\\Icons\\spell_rogue_deathfromabove",
+			}, -- [21]
+		},
+		["MAGE"] = {
+			{
+				["name"] = "Evanesce",
+				["icon"] = "Interface\\Icons\\Ability_Mage_NetherWindPresence",
+			}, -- [1]
+			{
+				["name"] = "Blazing Speed",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BurningSpeed",
+			}, -- [2]
+			{
+				["name"] = "Ice Floes",
+				["icon"] = "Interface\\Icons\\spell_mage_iceflows",
+			}, -- [3]
+			{
+				["name"] = "Alter Time",
+				["icon"] = "Interface\\Icons\\spell_mage_altertime",
+			}, -- [4]
+			{
+				["name"] = "Flameglow",
+				["icon"] = "Interface\\Icons\\INV_Elemental_Primal_Fire",
+			}, -- [5]
+			{
+				["name"] = "Ice Barrier",
+				["icon"] = "Interface\\Icons\\Spell_Ice_Lament",
+			}, -- [6]
+			{
+				["name"] = "Ring of Frost",
+				["icon"] = "INTERFACE\\ICONS\\spell_frost_ring of frost",
+			}, -- [7]
+			{
+				["name"] = "Ice Ward",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostWard",
+			}, -- [8]
+			{
+				["name"] = "Frostjaw",
+				["icon"] = "Interface\\Icons\\ability_mage_frostjaw",
+			}, -- [9]
+			{
+				["name"] = "Greater Invisibility",
+				["icon"] = "Interface\\Icons\\ability_mage_greaterinvisibility",
+			}, -- [10]
+			{
+				["name"] = "Cauterize",
+				["icon"] = "Interface\\Icons\\spell_fire_rune",
+			}, -- [11]
+			{
+				["name"] = "Cold Snap",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
+			}, -- [12]
+			{
+				["name"] = "Living Bomb",
+				["icon"] = "Interface\\Icons\\Ability_Mage_LivingBomb",
+			}, -- [13]
+			{
+				["name"] = "Unstable Magic",
+				["icon"] = "Interface\\Icons\\spell_mage_unstablemagic",
+			}, -- [14]
+			{
+				["name"] = "Blast Wave",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism_02",
+			}, -- [15]
+			{
+				["name"] = "Mirror Image",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			}, -- [16]
+			{
+				["name"] = "Rune of Power",
+				["icon"] = "Interface\\Icons\\spell_mage_runeofpower",
+			}, -- [17]
+			{
+				["name"] = "Incanter's Flow",
+				["icon"] = "Interface\\Icons\\Ability_Mage_IncantersAbsorbtion",
+			}, -- [18]
+			{
+				["name"] = "Kindling",
+				["icon"] = "Interface\\Icons\\spell_mage_kindling",
+			}, -- [19]
+			{
+				["name"] = "Prismatic Crystal",
+				["icon"] = "Interface\\Icons\\spell_mage_focusingcrystal",
+			}, -- [20]
+			{
+				["name"] = "Meteor",
+				["icon"] = "Interface\\Icons\\spell_mage_meteor",
+			}, -- [21]
+		},
+		["PRIEST"] = {
+			{
+				["name"] = "Desperate Prayer",
+				["icon"] = "Interface\\Icons\\Spell_Holy_TestOfFaith",
+			}, -- [1]
+			{
+				["name"] = "Spectral Guise",
+				["icon"] = "Interface\\Icons\\spell_priest_spectralguise",
+			}, -- [2]
+			{
+				["name"] = "Angelic Bulwark",
+				["icon"] = "Interface\\Icons\\ability_priest_angelicbulwark",
+			}, -- [3]
+			{
+				["name"] = "Body and Soul",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SymbolOfHope",
+			}, -- [4]
+			{
+				["name"] = "Angelic Feather",
+				["icon"] = "Interface\\Icons\\ability_priest_angelicfeather",
+			}, -- [5]
+			{
+				["name"] = "Phantasm",
+				["icon"] = "Interface\\Icons\\ability_priest_phantasm",
+			}, -- [6]
+			{
+				["name"] = "Surge of Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
+			}, -- [7]
+			{
+				["name"] = "Mindbender",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
+			}, -- [8]
+			{
+				["name"] = "Power Word: Solace",
+				["icon"] = "Interface\\Icons\\ability_priest_flashoflight",
+			}, -- [9]
+			{
+				["name"] = "Void Tendrils",
+				["icon"] = "Interface\\Icons\\spell_priest_voidtendrils",
+			}, -- [10]
+			{
+				["name"] = "Psychic Scream",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
+			}, -- [11]
+			{
+				["name"] = "Dominate Mind",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
+			}, -- [12]
+			{
+				["name"] = "Twist of Fate",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_MindTwisting",
+			}, -- [13]
+			{
+				["name"] = "Power Infusion",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
+			}, -- [14]
+			{
+				["name"] = "Spirit Shell",
+				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
+			}, -- [15]
+			{
+				["name"] = "Cascade",
+				["icon"] = "Interface\\Icons\\ability_priest_cascade",
+			}, -- [16]
+			{
+				["name"] = "Divine Star",
+				["icon"] = "Interface\\Icons\\spell_priest_divinestar",
+			}, -- [17]
+			{
+				["name"] = "Halo",
+				["icon"] = "Interface\\Icons\\ability_priest_halo",
+			}, -- [18]
+			{
+				["name"] = "Clarity of Will",
+				["icon"] = "Interface\\Icons\\ability_priest_clarityofwill",
+			}, -- [19]
+			{
+				["name"] = "Words of Mending",
+				["icon"] = "Interface\\Icons\\ability_priest_wordsofmeaning",
+			}, -- [20]
+			{
+				["name"] = "Saving Grace",
+				["icon"] = "Interface\\Icons\\ability_priest_savinggrace",
+			}, -- [21]
+		},
+		["WARLOCK"] = {
+			{
+				["name"] = "Dark Regeneration",
+				["icon"] = "Interface\\Icons\\spell_warlock_darkregeneration",
+			}, -- [1]
+			{
+				["name"] = "Soul Leech",
+				["icon"] = "Interface\\Icons\\warlock_siphonlife",
+			}, -- [2]
+			{
+				["name"] = "Searing Flames",
+				["icon"] = "Interface\\Icons\\inv_ember",
+			}, -- [3]
+			{
+				["name"] = "Howl of Terror",
+				["icon"] = "Interface\\Icons\\ability_warlock_howlofterror",
+			}, -- [4]
+			{
+				["name"] = "Mortal Coil",
+				["icon"] = "Interface\\Icons\\ability_warlock_mortalcoil",
+			}, -- [5]
+			{
+				["name"] = "Shadowfury",
+				["icon"] = "Interface\\Icons\\ability_warlock_shadowfurytga",
+			}, -- [6]
+			{
+				["name"] = "Soul Link",
+				["icon"] = "Interface\\Icons\\ability_warlock_soullink",
+			}, -- [7]
+			{
+				["name"] = "Sacrificial Pact",
+				["icon"] = "Interface\\Icons\\warlock_sacrificial_pact",
+			}, -- [8]
+			{
+				["name"] = "Dark Bargain",
+				["icon"] = "Interface\\Icons\\ability_deathwing_bloodcorruption_death",
+			}, -- [9]
+			{
+				["name"] = "Blood Horror",
+				["icon"] = "Interface\\Icons\\ability_deathwing_bloodcorruption_earth",
+			}, -- [10]
+			{
+				["name"] = "Burning Rush",
+				["icon"] = "Interface\\Icons\\ability_deathwing_sealarmorbreachtga",
+			}, -- [11]
+			{
+				["name"] = "Unbound Will",
+				["icon"] = "Interface\\Icons\\warlock_spelldrain",
+			}, -- [12]
+			{
+				["name"] = "Grimoire of Supremacy",
+				["icon"] = "Interface\\Icons\\warlock_grimoireofcommand",
+			}, -- [13]
+			{
+				["name"] = "Grimoire of Service",
+				["icon"] = "Interface\\Icons\\warlock_grimoireofservice",
+			}, -- [14]
+			{
+				["name"] = "Grimoire of Sacrifice",
+				["icon"] = "Interface\\Icons\\warlock_grimoireofsacrifice",
+			}, -- [15]
+			{
+				["name"] = "Archimonde's Darkness",
+				["icon"] = "Interface\\Icons\\Achievement_Boss_Archimonde ",
+			}, -- [16]
+			{
+				["name"] = "Kil'jaeden's Cunning",
+				["icon"] = "Interface\\Icons\\Achievement_Boss_Kiljaedan",
+			}, -- [17]
+			{
+				["name"] = "Mannoroth's Fury",
+				["icon"] = "Interface\\Icons\\Achievement_Boss_Magtheridon",
+			}, -- [18]
+			{
+				["name"] = "Charred Remains",
+				["icon"] = "Interface\\Icons\\warlock_charredremains",
+			}, -- [19]
+			{
+				["name"] = "Cataclysm",
+				["icon"] = "INTERFACE\\ICONS\\achievement_zone_cataclysm",
+			}, -- [20]
+			{
+				["name"] = "Demonic Servitude",
+				["icon"] = "Interface\\Icons\\spell_warlock_demonicservitude",
+			}, -- [21]
+		},
+		["PALADIN"] = {
+			{
+				["name"] = "Speed of Light",
+				["icon"] = "Interface\\Icons\\ability_paladin_speedoflight",
+			}, -- [1]
+			{
+				["name"] = "Long Arm of the Law",
+				["icon"] = "Interface\\Icons\\ability_paladin_longarmofthelaw",
+			}, -- [2]
+			{
+				["name"] = "Pursuit of Justice",
+				["icon"] = "Interface\\Icons\\ability_paladin_veneration",
+			}, -- [3]
+			{
+				["name"] = "Fist of Justice",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			}, -- [4]
+			{
+				["name"] = "Repentance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			}, -- [5]
+			{
+				["name"] = "Blinding Light",
+				["icon"] = "Interface\\Icons\\ability_paladin_blindinglight",
+			}, -- [6]
+			{
+				["name"] = "Selfless Healer",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
+			}, -- [7]
+			{
+				["name"] = "Eternal Flame",
+				["icon"] = "Interface\\Icons\\INV_Torch_Thrown",
+			}, -- [8]
+			{
+				["name"] = "Sacred Shield",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
+			}, -- [9]
+			{
+				["name"] = "Hand of Purity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWisdom",
+			}, -- [10]
+			{
+				["name"] = "Unbreakable Spirit",
+				["icon"] = "Interface\\Icons\\spell_holy_unyieldingfaith",
+			}, -- [11]
+			{
+				["name"] = "Clemency",
+				["icon"] = "Interface\\Icons\\ability_paladin_clemency",
+			}, -- [12]
+			{
+				["name"] = "Holy Avenger",
+				["icon"] = "Interface\\Icons\\ability_paladin_holyavenger",
+			}, -- [13]
+			{
+				["name"] = "Sanctified Wrath",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
+			}, -- [14]
+			{
+				["name"] = "Divine Purpose",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
+			}, -- [15]
+			{
+				["name"] = "Holy Prism",
+				["icon"] = "Interface\\Icons\\spell_paladin_holyprism",
+			}, -- [16]
+			{
+				["name"] = "Light's Hammer",
+				["icon"] = "Interface\\Icons\\spell_paladin_lightshammer",
+			}, -- [17]
+			{
+				["name"] = "Execution Sentence",
+				["icon"] = "Interface\\Icons\\spell_paladin_executionsentence",
+			}, -- [18]
+			{
+				["name"] = "Empowered Seals",
+				["icon"] = "Interface\\Icons\\ability_paladin_empoweredseals",
+			}, -- [19]
+			{
+				["name"] = "Seraphim",
+				["icon"] = "Interface\\Icons\\ability_paladin_seraphim",
+			}, -- [20]
+			{
+				["name"] = "Holy Shield",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
+			}, -- [21]
+		},
+		["DEATHKNIGHT"] = {
+			{
+				["name"] = "Plaguebearer",
+				["icon"] = "Interface\\Icons\\Achievement_Zone_WesternPlaguelands_01",
+			}, -- [1]
+			{
+				["name"] = "Plague Leech",
+				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_02",
+			}, -- [2]
+			{
+				["name"] = "Unholy Blight",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
+			}, -- [3]
+			{
+				["name"] = "Lichborne",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
+			}, -- [4]
+			{
+				["name"] = "Anti-Magic Zone",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_AntiMagicZone",
+			}, -- [5]
+			{
+				["name"] = "Purgatory",
+				["icon"] = "Interface\\Icons\\INV_Misc_ShadowEgg",
+			}, -- [6]
+			{
+				["name"] = "Death's Advance",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicEmpathy",
+			}, -- [7]
+			{
+				["name"] = "Chilblains",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Wisp",
+			}, -- [8]
+			{
+				["name"] = "Asphyxiate",
+				["icon"] = "Interface\\Icons\\ability_deathknight_asphixiate",
+			}, -- [9]
+			{
+				["name"] = "Blood Tap",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_BloodTap",
+			}, -- [10]
+			{
+				["name"] = "Runic Empowerment",
+				["icon"] = "Interface\\Icons\\INV_Misc_Rune_10",
+			}, -- [11]
+			{
+				["name"] = "Runic Corruption",
+				["icon"] = "INTERFACE\\ICONS\\spell_shadow_rune",
+			}, -- [12]
+			{
+				["name"] = "Death Pact",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
+			}, -- [13]
+			{
+				["name"] = "Death Siphon",
+				["icon"] = "Interface\\Icons\\ability_deathknight_deathsiphon",
+			}, -- [14]
+			{
+				["name"] = "Conversion",
+				["icon"] = "Interface\\Icons\\ability_deathknight_deathsiphon2",
+			}, -- [15]
+			{
+				["name"] = "Gorefiend's Grasp",
+				["icon"] = "Interface\\Icons\\ability_deathknight_aoedeathgrip",
+			}, -- [16]
+			{
+				["name"] = "Remorseless Winter",
+				["icon"] = "Interface\\Icons\\ability_deathknight_remorselesswinters2",
+			}, -- [17]
+			{
+				["name"] = "Desecrated Ground",
+				["icon"] = "Interface\\Icons\\ability_deathknight_desecratedground",
+			}, -- [18]
+			{
+				["name"] = "Necrotic Plague",
+				["icon"] = "Interface\\Icons\\spell_deathknight_necroticplague",
+			}, -- [19]
+			{
+				["name"] = "Defile",
+				["icon"] = "Interface\\Icons\\spell_deathknight_defile",
+			}, -- [20]
+			{
+				["name"] = "Breath of Sindragosa",
+				["icon"] = "Interface\\Icons\\spell_deathknight_breathofsindragosa",
+			}, -- [21]
+		},
+		["DRUID"] = {
+			{
+				["name"] = "Feline Swiftness",
+				["icon"] = "Interface\\Icons\\spell_druid_tirelesspursuit",
+			}, -- [1]
+			{
+				["name"] = "Displacer Beast",
+				["icon"] = "Interface\\Icons\\spell_druid_displacement",
+			}, -- [2]
+			{
+				["name"] = "Wild Charge",
+				["icon"] = "Interface\\Icons\\spell_druid_wildcharge",
+			}, -- [3]
+			{
+				["name"] = "Ysera's Gift",
+				["icon"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Green",
+			}, -- [4]
+			{
+				["name"] = "Renewal",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureBlessing",
+			}, -- [5]
+			{
+				["name"] = "Cenarion Ward",
+				["icon"] = "Interface\\Icons\\Ability_Druid_NaturalPerfection",
+			}, -- [6]
+			{
+				["name"] = "Faerie Swarm",
+				["icon"] = "Interface\\Icons\\spell_druid_swarm",
+			}, -- [7]
+			{
+				["name"] = "Mass Entanglement",
+				["icon"] = "Interface\\Icons\\spell_druid_massentanglement",
+			}, -- [8]
+			{
+				["name"] = "Typhoon",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Typhoon",
+			}, -- [9]
+			{
+				["name"] = "Soul of the Forest",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ManaTree",
+			}, -- [10]
+			{
+				["name"] = "Incarnation: King of the Jungle",
+				["icon"] = "Interface\\Icons\\spell_druid_incarnation",
+			}, -- [11]
+			{
+				["name"] = "Force of Nature",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ForceofNature",
+			}, -- [12]
+			{
+				["name"] = "Incapacitating Roar",
+				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
+			}, -- [13]
+			{
+				["name"] = "Ursol's Vortex",
+				["icon"] = "Interface\\Icons\\spell_druid_ursolsvortex",
+			}, -- [14]
+			{
+				["name"] = "Mighty Bash",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Bash",
+			}, -- [15]
+			{
+				["name"] = "Heart of the Wild",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfAgility",
+			}, -- [16]
+			{
+				["name"] = "Dream of Cenarius",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Dreamstate",
+			}, -- [17]
+			{
+				["name"] = "Nature's Vigil",
+				["icon"] = "Interface\\Icons\\Achievement_Zone_Feralas",
+			}, -- [18]
+			{
+				["name"] = "Lunar Inspiration",
+				["icon"] = "Interface\\Icons\\spell_druid_lunarinspiration",
+			}, -- [19]
+			{
+				["name"] = "Bloodtalons",
+				["icon"] = "Interface\\Icons\\spell_druid_bloodythrash",
+			}, -- [20]
+			{
+				["name"] = "Claws of Shirvallah",
+				["icon"] = "Interface\\Icons\\talentspec_druid_feral_cat",
+			}, -- [21]
+		},
+		["MONK"] = {
+			{
+				["name"] = "Celerity",
+				["icon"] = "Interface\\Icons\\ability_monk_quipunch",
+			}, -- [1]
+			{
+				["name"] = "Tiger's Lust",
+				["icon"] = "Interface\\Icons\\ability_monk_tigerslust",
+			}, -- [2]
+			{
+				["name"] = "Momentum",
+				["icon"] = "Interface\\Icons\\ability_monk_standingkick",
+			}, -- [3]
+			{
+				["name"] = "Chi Wave",
+				["icon"] = "Interface\\Icons\\ability_monk_chiwave",
+			}, -- [4]
+			{
+				["name"] = "Zen Sphere",
+				["icon"] = "Interface\\Icons\\ability_monk_forcesphere",
+			}, -- [5]
+			{
+				["name"] = "Chi Burst",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
+			}, -- [6]
+			{
+				["name"] = "Power Strikes",
+				["icon"] = "Interface\\Icons\\ability_monk_powerstrikes",
+			}, -- [7]
+			{
+				["name"] = "Ascension",
+				["icon"] = "Interface\\Icons\\ability_monk_ascension",
+			}, -- [8]
+			{
+				["name"] = "Chi Brew",
+				["icon"] = "Interface\\Icons\\ability_monk_chibrew",
+			}, -- [9]
+			{
+				["name"] = "Ring of Peace",
+				["icon"] = "Interface\\Icons\\spell_monk_ringofpeace",
+			}, -- [10]
+			{
+				["name"] = "Charging Ox Wave",
+				["icon"] = "Interface\\Icons\\ability_monk_chargingoxwave",
+			}, -- [11]
+			{
+				["name"] = "Leg Sweep",
+				["icon"] = "Interface\\Icons\\ability_monk_legsweep",
+			}, -- [12]
+			{
+				["name"] = "Healing Elixirs",
+				["icon"] = "Interface\\Icons\\ability_monk_jasmineforcetea",
+			}, -- [13]
+			{
+				["name"] = "Dampen Harm",
+				["icon"] = "Interface\\Icons\\ability_monk_dampenharm",
+			}, -- [14]
+			{
+				["name"] = "Diffuse Magic",
+				["icon"] = "Interface\\Icons\\spell_monk_diffusemagic",
+			}, -- [15]
+			{
+				["name"] = "Rushing Jade Wind",
+				["icon"] = "Interface\\Icons\\ability_monk_rushingjadewind",
+			}, -- [16]
+			{
+				["name"] = "Invoke Xuen, the White Tiger",
+				["icon"] = "Interface\\Icons\\ability_monk_summontigerstatue",
+			}, -- [17]
+			{
+				["name"] = "Chi Torpedo",
+				["icon"] = "Interface\\Icons\\ability_monk_quitornado",
+			}, -- [18]
+			{
+				["name"] = "Soul Dance",
+				["icon"] = "Interface\\Icons\\ability_monk_souldance",
+			}, -- [19]
+			{
+				["name"] = "Chi Explosion",
+				["icon"] = "Interface\\Icons\\ability_monk_chiexplosion",
+			}, -- [20]
+			{
+				["name"] = "Serenity",
+				["icon"] = "Interface\\Icons\\ability_monk_serenity",
+			}, -- [21]
+		},
+		["SHAMAN"] = {
+			{
+				["name"] = "Nature's Guardian",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
+			}, -- [1]
+			{
+				["name"] = "Stone Bulwark Totem",
+				["icon"] = "Interface\\Icons\\ability_shaman_stonebulwark",
+			}, -- [2]
+			{
+				["name"] = "Astral Shift",
+				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
+			}, -- [3]
+			{
+				["name"] = "Frozen Power",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
+			}, -- [4]
+			{
+				["name"] = "Earthgrab Totem",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
+			}, -- [5]
+			{
+				["name"] = "Windwalk Totem",
+				["icon"] = "Interface\\Icons\\ability_shaman_windwalktotem",
+			}, -- [6]
+			{
+				["name"] = "Call of the Elements",
+				["icon"] = "Interface\\Icons\\ability_shaman_multitotemactivation",
+			}, -- [7]
+			{
+				["name"] = "Totemic Persistence",
+				["icon"] = "Interface\\Icons\\ability_shaman_totemcooldownrefund",
+			}, -- [8]
+			{
+				["name"] = "Totemic Projection",
+				["icon"] = "Interface\\Icons\\ability_shaman_totemrelocation",
+			}, -- [9]
+			{
+				["name"] = "Elemental Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+			}, -- [10]
+			{
+				["name"] = "Ancestral Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ElementalOath",
+			}, -- [11]
+			{
+				["name"] = "Echo of the Elements",
+				["icon"] = "Interface\\Icons\\ability_shaman_echooftheelements",
+			}, -- [12]
+			{
+				["name"] = "Rushing Streams",
+				["icon"] = "Interface\\Icons\\INV_Spear_04",
+			}, -- [13]
+			{
+				["name"] = "Ancestral Guidance",
+				["icon"] = "Interface\\Icons\\ability_shaman_ancestralguidance",
+			}, -- [14]
+			{
+				["name"] = "Conductivity",
+				["icon"] = "Interface\\Icons\\ability_shaman_fortifyingwaters",
+			}, -- [15]
+			{
+				["name"] = "Unleashed Fury",
+				["icon"] = "Interface\\Icons\\shaman_talent_unleashedfury",
+			}, -- [16]
+			{
+				["name"] = "Primal Elementalist",
+				["icon"] = "Interface\\Icons\\shaman_talent_primalelementalist",
+			}, -- [17]
+			{
+				["name"] = "Elemental Blast",
+				["icon"] = "Interface\\Icons\\shaman_talent_elementalblast",
+			}, -- [18]
+			{
+				["name"] = "Elemental Fusion",
+				["icon"] = "Interface\\Icons\\spell_shaman_shockinglava",
+			}, -- [19]
+			{
+				["name"] = "Storm Elemental Totem",
+				["icon"] = "Interface\\Icons\\spell_shaman_stormtotem",
+			}, -- [20]
+			{
+				["name"] = "Liquid Magma",
+				["icon"] = "Interface\\Icons\\spell_shaman_spewlava",
+			}, -- [21]
+		},
+	},
+	["login_squelch_time"] = 10,
+	["registered"] = {
+	},
+	["frame"] = {
+		["xOffset"] = -217.203491210938,
+		["yOffset"] = -185.586730957031,
+		["height"] = 491.999877929687,
+		["width"] = 630.00048828125,
+	},
 	["displays"] = {
 		["Life Cocoon"] = {
 			["xOffset"] = 20,
@@ -800,20 +1757,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 120517,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Halo",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -2083,7 +3040,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["stacksFont"] = "Friz Quadrata TT",
@@ -2599,9 +3555,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["cooldown"] = true,
-			["init_completed"] = 1,
+			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
@@ -2997,9 +3952,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["cooldown"] = true,
-			["init_completed"] = 1,
+			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\chant2.ogg",
@@ -3257,7 +4211,6 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -3273,6 +4226,7 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
@@ -3540,9 +4494,8 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["disjunctive"] = "any",
-			["stacksPoint"] = "CENTER",
 			["stickyDuration"] = false,
-			["init_completed"] = 1,
+			["stacksPoint"] = "CENTER",
 			["icon"] = true,
 			["additional_triggers"] = {
 			},
@@ -3616,7 +4569,7 @@ WeakAurasSaved = {
 				},
 			},
 			["trigger"] = {
-				["duration"] = "4",
+				["duration"] = "2",
 				["subeventPrefix"] = "SPELL",
 				["use_HasPet"] = false,
 				["custom_hide"] = "timed",
@@ -3767,20 +4720,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Power Word: Shield",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 17,
 			},
@@ -3910,7 +4863,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["rotation"] = 0,
 			["height"] = 40,
@@ -4275,7 +5228,6 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -4284,6 +5236,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -4354,20 +5307,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 34433,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Shadowfiend",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -4548,7 +5501,6 @@ WeakAurasSaved = {
 			["fontSize"] = 31,
 			["displayStacks"] = "%p",
 			["regionType"] = "icon",
-			["init_completed"] = 1,
 			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -5441,20 +6393,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 64901,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Symbol of Hope",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -5510,9 +6462,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "PriestHolySounds",
 			["cooldown"] = false,
-			["init_completed"] = 1,
+			["parent"] = "PriestHolySounds",
 			["stickyDuration"] = false,
 			["xOffset"] = 20,
 			["stacksContainment"] = "INSIDE",
@@ -5930,7 +6881,7 @@ WeakAurasSaved = {
 			["rotation"] = 0,
 			["radius"] = 200,
 			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 		},
 		["Priest Void Shadow Fiend"] = {
 			["parent"] = "DPS Cooldowns",
@@ -6036,9 +6987,8 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
 			["stickyDuration"] = false,
-			["init_completed"] = 1,
+			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -7461,8 +8411,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["disjunctive"] = "all",
 			["id"] = "Mage Mirror Image",
@@ -7592,6 +8542,7 @@ WeakAurasSaved = {
 				},
 			},
 			["stacksPoint"] = "CENTER",
+			["init_completed"] = 1,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -8428,8 +9379,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["xOffset"] = 20,
 			["id"] = "Mage Icy Veins",
@@ -8570,8 +9521,8 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["xOffset"] = 20,
 			["yOffset"] = 0,
@@ -8952,7 +9903,6 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["desaturate"] = false,
-			["stacksPoint"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -8968,7 +9918,7 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["init_completed"] = 1,
+			["stacksPoint"] = "CENTER",
 			["icon"] = true,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
@@ -9644,9 +10594,8 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
 			["stickyDuration"] = false,
-			["init_completed"] = 1,
+			["cooldown"] = true,
 			["yOffset"] = 0,
 			["color"] = {
 				1, -- [1]
@@ -9977,8 +10926,8 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
@@ -11459,8 +12408,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["cooldown"] = true,
 			["desaturate"] = false,
+			["cooldown"] = true,
 			["icon"] = true,
 			["id"] = "Paladin Hand of Hinderance",
 			["stacksContainment"] = "INSIDE",
@@ -11680,20 +12629,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 47788,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Guardian Spirit",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -11748,9 +12697,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "PriestHolySounds",
 			["cooldown"] = false,
-			["init_completed"] = 1,
+			["parent"] = "PriestHolySounds",
 			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -11802,20 +12750,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 62618,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Power Word: Barrier",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -12342,7 +13290,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["borderOffset"] = 5,
@@ -12821,6 +13768,7 @@ WeakAurasSaved = {
 			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
+			["init_completed"] = 1,
 			["parent"] = "DPS Cooldowns",
 			["id"] = "Monk Zen Med",
 			["stacksContainment"] = "INSIDE",
@@ -12956,8 +13904,8 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["customTriggerLogic"] = "function(trigger)\n    if(trigger[1]) then\n        WeakAuras.regions[aura_env.id].region.icon:SetTexture(\"Interface\\\\Icons\\\\spell_nature_sleep\")\n        WeakAuras.regions[aura_env.id].region.icon:SetDesaturated(true);\n        return true;\n    end\n    start, duration, enable = GetSpellCooldown(\"Time Warp\");\n    --if(not start) then\n    --WeakAuras.regions[aura_env.id].region.icon:SetTexture(\"Interface\\\\Icons\\\\ability_shaman_heroism\")\n    WeakAuras.regions[aura_env.id].region.icon:SetDesaturated(false);\n    return true;\n    -- end\n    --return false;\nend",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["icon"] = true,
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["color"] = {
 				1, -- [1]
@@ -13520,8 +14468,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["icon"] = true,
+			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
 			["animation"] = {
 				["start"] = {
@@ -13779,8 +14727,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stacksPoint"] = "CENTER",
 			["stickyDuration"] = false,
+			["stacksPoint"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -13848,10 +14796,9 @@ WeakAurasSaved = {
 			["yOffset"] = 332.903686523438,
 			["regionType"] = "text",
 			["parent"] = "Nighthold",
-			["url"] = "https://wago.io/EJ34WlqvM",
 			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
-			["init_completed"] = 1,
+			["url"] = "https://wago.io/EJ34WlqvM",
 			["actions"] = {
 				["start"] = {
 				},
@@ -13864,44 +14811,13 @@ WeakAurasSaved = {
 					["do_custom"] = true,
 				},
 			},
-			["selfPoint"] = "BOTTOM",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["anchorPoint"] = "CENTER",
-			["anchorFrameType"] = "SCREEN",
-			["justify"] = "LEFT",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["unevent"] = "auto",
-						["event"] = "Chat Message",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["events"] = "COMBAT_LOG_EVENT_UNFILTERED, ENCOUNTER_END",
-						["custom"] = "function(event, timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellID, spellName, spellSchool)\n    \n    if event == \"SPELL_CAST_SUCCESS\" and spellID == 205370 then\n        aura_env.Beam = aura_env.Beam+1\n        return true\n    end\n    return false\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-						["check"] = "event",
-						["use_unit"] = true,
-						["custom_type"] = "status",
-						["subeventSuffix"] = "_CAST_START",
-					},
-					["untrigger"] = {
-						["custom"] = "function(e, timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellID, spellName, spellSchool)\n    \n    if e == \"ENCOUNTER_END\" then\n        aura_env.Beam = 0\n        aura_env.mode = \"\"\n        return true\n    end\n    return false\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					},
-				}, -- [1]
-			},
 			["trigger"] = {
 				["duration"] = "5",
 				["unit"] = "player",
@@ -13923,18 +14839,49 @@ WeakAurasSaved = {
 				["subeventSuffix"] = "_CAST_START",
 				["subeventPrefix"] = "SPELL",
 			},
+			["justify"] = "LEFT",
+			["selfPoint"] = "BOTTOM",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["unevent"] = "auto",
+						["event"] = "Chat Message",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["events"] = "COMBAT_LOG_EVENT_UNFILTERED, ENCOUNTER_END",
+						["custom"] = "function(event, timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellID, spellName, spellSchool)\n    \n    if event == \"SPELL_CAST_SUCCESS\" and spellID == 205370 then\n        aura_env.Beam = aura_env.Beam+1\n        return true\n    end\n    return false\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+						["check"] = "event",
+						["use_unit"] = true,
+						["custom_type"] = "status",
+						["subeventSuffix"] = "_CAST_START",
+					},
+					["untrigger"] = {
+						["custom"] = "function(e, timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceRaidFlags, destGUID, destName, destFlags, destRaidFlags, spellID, spellName, spellSchool)\n    \n    if e == \"ENCOUNTER_END\" then\n        aura_env.Beam = 0\n        aura_env.mode = \"\"\n        return true\n    end\n    return false\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					},
+				}, -- [1]
+			},
+			["id"] = "Krosus Beams",
 			["frameStrata"] = 1,
-			["width"] = 19.4432563781738,
+			["anchorFrameType"] = "SCREEN",
 			["disjunctive"] = "all",
 			["font"] = "Friz Quadrata TT",
 			["numTriggers"] = 2,
-			["id"] = "Krosus Beams",
+			["width"] = 19.4432563781738,
 			["height"] = 60.3763084411621,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
 			},
 			["load"] = {
 				["talent"] = {
@@ -14051,7 +14998,6 @@ WeakAurasSaved = {
 			["fontSize"] = 31,
 			["displayStacks"] = "%p",
 			["regionType"] = "icon",
-			["init_completed"] = 1,
 			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
@@ -14594,9 +15540,9 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
+			["stickyDuration"] = false,
 			["parent"] = "DPS Cooldowns",
 			["id"] = "Paladin Shield of Vengeance",
 			["stacksContainment"] = "INSIDE",
@@ -15091,20 +16037,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Apotheosis",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 200183,
 			},
@@ -15162,7 +16108,6 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["stacksPoint"] = "CENTER",
 			["parent"] = "PriestHolySounds",
-			["init_completed"] = 1,
 			["stickyDuration"] = false,
 			["xOffset"] = 20,
 			["stacksContainment"] = "INSIDE",
@@ -15928,20 +16873,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Prayer of Mending",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 33076,
 			},
@@ -15994,9 +16939,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "PriestHolySounds",
 			["stacksPoint"] = "CENTER",
-			["init_completed"] = 1,
+			["parent"] = "PriestHolySounds",
 			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -16666,9 +17610,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
-			["init_completed"] = 1,
+			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -18595,7 +19538,7 @@ WeakAurasSaved = {
 			["id"] = "Wisdom raiders need this",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["width"] = 538.270935058594,
+			["width"] = 22.5131988525391,
 			["xOffset"] = -25.5831298828125,
 			["font"] = "Friz Quadrata TT",
 			["numTriggers"] = 1,
@@ -19225,11 +20168,11 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["icon"] = true,
 			["untrigger"] = {
 				["unit"] = "pet",
 				["use_unit"] = true,
 			},
+			["icon"] = true,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksContainment"] = "INSIDE",
@@ -19963,9 +20906,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "PriestHolyIcons",
 			["stacksPoint"] = "CENTER",
-			["init_completed"] = 1,
+			["parent"] = "PriestHolyIcons",
 			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
@@ -20531,7 +21473,7 @@ WeakAurasSaved = {
 			["rotation"] = 0,
 			["radius"] = 200,
 			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 		},
 		["Cenarius: Creeping Nightmares"] = {
 			["parent"] = "Emerald Nightmare",
@@ -20739,7 +21681,6 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["xOffset"] = 0,
 			["actions"] = {
 				["start"] = {
 				},
@@ -20748,6 +21689,7 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
+			["xOffset"] = 0,
 			["stickyDuration"] = false,
 			["yOffset"] = 0,
 			["stacksContainment"] = "INSIDE",
@@ -20870,7 +21812,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["stacksFont"] = "Friz Quadrata TT",
@@ -21515,7 +22456,6 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -21531,6 +22471,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["stickyDuration"] = false,
 			["stacksPoint"] = "TOP",
 			["actions"] = {
 				["start"] = {
@@ -22054,8 +22995,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["cooldown"] = true,
 			["desaturate"] = false,
+			["cooldown"] = true,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -23053,7 +23994,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
 				["spellIds"] = {
@@ -23504,7 +24445,8 @@ WeakAurasSaved = {
 				"massdispell", -- [16]
 			},
 			["animate"] = false,
-			["regionType"] = "dynamicgroup",
+			["untrigger"] = {
+			},
 			["xOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -23514,7 +24456,7 @@ WeakAurasSaved = {
 			},
 			["border"] = "None",
 			["yOffset"] = 370,
-			["anchorPoint"] = "BOTTOM",
+			["regionType"] = "dynamicgroup",
 			["backgroundInset"] = 0,
 			["sort"] = "none",
 			["activeTriggerMode"] = 0,
@@ -23522,15 +24464,9 @@ WeakAurasSaved = {
 			["background"] = "None",
 			["expanded"] = false,
 			["constantFactor"] = "RADIUS",
-			["id"] = "Interrupts and Dispells",
+			["selfPoint"] = "BOTTOM",
 			["radius"] = 200,
 			["width"] = 380.000061035156,
-			["selfPoint"] = "BOTTOM",
-			["align"] = "CENTER",
-			["rotation"] = 0,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["stagger"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -23545,7 +24481,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["numTriggers"] = 1,
 			["trigger"] = {
 				["type"] = "aura",
 				["spellIds"] = {
@@ -23555,8 +24490,15 @@ WeakAurasSaved = {
 				["names"] = {
 				},
 			},
-			["height"] = 269.999969482422,
+			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stagger"] = 0,
 			["borderOffset"] = 16,
+			["numTriggers"] = 1,
+			["align"] = "CENTER",
+			["height"] = 269.999969482422,
+			["id"] = "Interrupts and Dispells",
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -23596,8 +24538,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["untrigger"] = {
-			},
+			["anchorPoint"] = "BOTTOM",
 		},
 		["Revival"] = {
 			["color"] = {
@@ -24628,18 +25569,18 @@ WeakAurasSaved = {
 				["custom_hide"] = "timed",
 				["unevent"] = "auto",
 				["use_showOn"] = true,
-				["names"] = {
-				},
+				["unit"] = "player",
 				["event"] = "Cooldown Progress (Spell)",
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["realSpellName"] = "Adrenaline Rush",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["subeventSuffix"] = "_CAST_START",
 				["showOn"] = "showOnCooldown",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
+				["use_unit"] = true,
+				["names"] = {
+				},
 				["debuffType"] = "HELPFUL",
 			},
 			["desaturate"] = true,
@@ -24950,7 +25891,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["stacksFont"] = "Friz Quadrata TT",
@@ -25106,20 +26046,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 2050,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Holy Word: Serenity",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -25172,9 +26112,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "PriestHolySounds",
 			["cooldown"] = false,
-			["init_completed"] = 1,
+			["parent"] = "PriestHolySounds",
 			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -25360,7 +26299,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["rotation"] = 0,
 			["height"] = 40,
@@ -25471,20 +26410,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Light's Wrath",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 207946,
 			},
@@ -25899,8 +26838,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stacksPoint"] = "CENTER",
 			["stickyDuration"] = false,
+			["stacksPoint"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -25971,20 +26910,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Pain Suppression",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 33206,
 			},
@@ -26159,7 +27098,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["borderOffset"] = 5,
@@ -26911,7 +27849,6 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -26927,6 +27864,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["stickyDuration"] = false,
 			["stacksPoint"] = "TOP",
 			["icon"] = true,
 			["additional_triggers"] = {
@@ -27047,7 +27985,6 @@ WeakAurasSaved = {
 			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -27063,6 +28000,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["stickyDuration"] = false,
 			["stacksPoint"] = "TOP",
 			["icon"] = true,
 			["additional_triggers"] = {
@@ -27325,9 +28263,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["cooldown"] = true,
-			["init_completed"] = 1,
+			["desaturate"] = false,
 			["icon"] = true,
 			["additional_triggers"] = {
 			},
@@ -27396,20 +28333,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 47540,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Penance",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -27671,20 +28608,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Schism",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 214621,
 			},
@@ -27862,6 +28799,7 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["cooldown"] = true,
 			["desaturate"] = false,
+			["init_completed"] = 1,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -28332,13 +29270,13 @@ WeakAurasSaved = {
 			["disjunctive"] = "all",
 			["parent"] = "UseNows",
 			["mirror"] = false,
-			["untrigger"] = {
-			},
+			["yOffset"] = 85,
 			["regionType"] = "texture",
 			["xOffset"] = 0,
 			["blendMode"] = "BLEND",
 			["activeTriggerMode"] = -10,
-			["yOffset"] = 85,
+			["untrigger"] = {
+			},
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\WaterDrop.ogg",
@@ -28905,8 +29843,8 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["customTriggerLogic"] = "function(trigger)\n    if(trigger[1]) then\n        WeakAuras.regions[aura_env.id].region.icon:SetTexture(\"Interface\\\\Icons\\\\spell_nature_sleep\")\n        WeakAuras.regions[aura_env.id].region.icon:SetDesaturated(true);\n        return true;\n    end\n    start, duration, enable = GetSpellCooldown(\"Heroism\");\n    --if(not start) then\n        --WeakAuras.regions[aura_env.id].region.icon:SetTexture(\"Interface\\\\Icons\\\\ability_shaman_heroism\")\n        WeakAuras.regions[aura_env.id].region.icon:SetDesaturated(false);\n        return true;\n   -- end\n    --return false;\nend",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["icon"] = true,
+			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
 			["disjunctive"] = "custom",
 			["yOffset"] = 0,
@@ -29626,20 +30564,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Holy Word: Sanctify",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 34861,
 			},
@@ -29693,9 +30631,8 @@ WeakAurasSaved = {
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["parent"] = "PriestHolySounds",
-			["stacksPoint"] = "CENTER",
 			["stickyDuration"] = false,
-			["init_completed"] = 1,
+			["stacksPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -30983,20 +31920,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Divine Hymn",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 64843,
 			},
@@ -31051,9 +31988,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "PriestHolySounds",
 			["stacksPoint"] = "CENTER",
-			["init_completed"] = 1,
+			["parent"] = "PriestHolySounds",
 			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -31108,18 +32044,18 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
 				["event"] = "Cooldown Progress (Spell)",
-				["names"] = {
-				},
+				["use_unit"] = true,
 				["realSpellName"] = "Power Infusion",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["use_unit"] = true,
-				["unit"] = "player",
+				["names"] = {
+				},
+				["subeventPrefix"] = "SPELL",
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
@@ -31322,8 +32258,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["cooldown"] = true,
 			["disjunctive"] = "all",
 			["id"] = "Mage Pet Ability",
@@ -31381,20 +32317,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 47536,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Rapture",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -31595,9 +32531,8 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["stacksPoint"] = "CENTER",
 			["desaturate"] = false,
-			["init_completed"] = 1,
+			["stacksPoint"] = "CENTER",
 			["icon"] = true,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
@@ -31662,7 +32597,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
 				["spellIds"] = {
@@ -32337,7 +33272,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["rotation"] = 0,
 			["height"] = 100.000015258789,
@@ -32384,7 +33319,7 @@ WeakAurasSaved = {
 			["border"] = "None",
 			["regionType"] = "dynamicgroup",
 			["sort"] = "none",
-			["expanded"] = false,
+			["expanded"] = true,
 			["constantFactor"] = "RADIUS",
 			["borderOffset"] = 16,
 			["id"] = "Nighthold",
@@ -33467,7 +34402,6 @@ WeakAurasSaved = {
 			["fontSize"] = 31,
 			["displayStacks"] = "%p",
 			["regionType"] = "icon",
-			["init_completed"] = 1,
 			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -33883,7 +34817,6 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["stacksPoint"] = "CENTER",
 			["stickyDuration"] = false,
-			["init_completed"] = 1,
 			["icon"] = true,
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
@@ -33974,16 +34907,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_zoneId"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_encounterid"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
+				["use_zone"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -33992,11 +34925,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_zone"] = false,
-				["role"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_zoneId"] = false,
 				["encounterid"] = "1867",
 				["size"] = {
 					["multi"] = {
@@ -34152,9 +35085,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["stacksPoint"] = "TOP",
-			["init_completed"] = 1,
+			["stickyDuration"] = false,
 			["yOffset"] = 0,
 			["icon"] = true,
 			["stacksContainment"] = "OUTSIDE",
@@ -34910,20 +35842,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["custom_hide"] = "timed",
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Divine Star",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["spellName"] = 110744,
 			},
@@ -35171,20 +36103,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 129250,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Power Word: Solace",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -35359,7 +36291,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
@@ -35928,20 +36859,20 @@ WeakAurasSaved = {
 			["trigger"] = {
 				["spellName"] = 204883,
 				["type"] = "status",
-				["names"] = {
-				},
+				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
 				["event"] = "Cooldown Progress (Spell)",
-				["unit"] = "player",
+				["names"] = {
+				},
 				["realSpellName"] = "Circle of Healing",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnReady",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["debuffType"] = "HELPFUL",
 				["custom_hide"] = "timed",
 			},
@@ -36108,7 +37039,6 @@ WeakAurasSaved = {
 			["regionType"] = "aurabar",
 			["stacks"] = false,
 			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
 			["texture"] = "Blizzard",
 			["textFont"] = "Prototype",
 			["stacksFont"] = "Friz Quadrata TT",
@@ -37103,9 +38033,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
-			["init_completed"] = 1,
+			["stickyDuration"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -37323,7 +38252,7 @@ WeakAurasSaved = {
 			["selfPoint"] = "TOP",
 			["align"] = "CENTER",
 			["rotation"] = 0,
-			["height"] = 119.999908447266,
+			["height"] = 1047.99996948242,
 			["load"] = {
 				["talent"] = {
 					["multi"] = {
@@ -37367,12 +38296,12 @@ WeakAurasSaved = {
 			["border"] = "None",
 			["regionType"] = "dynamicgroup",
 			["sort"] = "none",
-			["expanded"] = true,
+			["expanded"] = false,
 			["constantFactor"] = "RADIUS",
 			["borderOffset"] = 16,
 			["id"] = "UseNows",
 			["frameStrata"] = 1,
-			["width"] = 120,
+			["width"] = 200,
 			["anchorFrameType"] = "SCREEN",
 			["disjunctive"] = "all",
 			["numTriggers"] = 1,
@@ -37514,9 +38443,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
 			["stacksPoint"] = "CENTER",
-			["init_completed"] = 1,
+			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
 			["icon"] = true,
 			["stacksContainment"] = "INSIDE",
@@ -37573,7 +38501,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["rotation"] = 0,
 			["height"] = 40,
@@ -37747,9 +38675,8 @@ WeakAurasSaved = {
 			["fontSize"] = 18,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["desaturate"] = false,
 			["cooldown"] = true,
-			["init_completed"] = 1,
+			["desaturate"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -37888,8 +38815,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["cooldown"] = true,
 			["desaturate"] = false,
+			["cooldown"] = true,
 			["icon"] = true,
 			["additional_triggers"] = {
 			},
@@ -38051,18 +38978,18 @@ WeakAurasSaved = {
 				["spellName"] = 527,
 				["subeventSuffix"] = "_CAST_START",
 				["use_showOn"] = true,
-				["unit"] = "player",
+				["use_unit"] = true,
 				["event"] = "Cooldown Progress (Spell)",
-				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
 				["realSpellName"] = "Purify",
 				["use_spellName"] = true,
 				["spellIds"] = {
 				},
 				["unevent"] = "auto",
 				["showOn"] = "showOnCooldown",
-				["names"] = {
-				},
-				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
 				["debuffType"] = "HELPFUL",
 			},
 			["text"] = true,
@@ -38529,6 +39456,8 @@ WeakAurasSaved = {
 			["fontSize"] = 15,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
+			["desaturate"] = false,
+			["stacksPoint"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -38544,8 +39473,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["desaturate"] = false,
-			["stacksPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
@@ -38654,7 +39581,6 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["init_completed"] = 1,
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\hic3.ogg",
@@ -39034,961 +39960,4 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 		},
 	},
-	["registered"] = {
-	},
-	["frame"] = {
-		["xOffset"] = -217.203491210938,
-		["yOffset"] = -185.586730957031,
-		["height"] = 491.999877929687,
-		["width"] = 630.00048828125,
-	},
-	["talent_cache"] = {
-		["HUNTER"] = {
-			{
-				["name"] = "Posthaste",
-				["icon"] = "INTERFACE\\ICONS\\ability_hunter_posthaste",
-			}, -- [1]
-			{
-				["name"] = "Narrow Escape",
-				["icon"] = "Interface\\Icons\\INV_Misc_Web_01",
-			}, -- [2]
-			{
-				["name"] = "Crouching Tiger, Hidden Chimaera",
-				["icon"] = "INTERFACE\\ICONS\\ability_hunter_pet_chimera",
-			}, -- [3]
-			{
-				["name"] = "Binding Shot",
-				["icon"] = "INTERFACE\\ICONS\\spell_shaman_bindelemental",
-			}, -- [4]
-			{
-				["name"] = "Wyvern Sting",
-				["icon"] = "Interface\\Icons\\INV_Spear_02",
-			}, -- [5]
-			{
-				["name"] = "Intimidation",
-				["icon"] = "Interface\\Icons\\Ability_Devour",
-			}, -- [6]
-			{
-				["name"] = "Exhilaration",
-				["icon"] = "INTERFACE\\ICONS\\ability_hunter_onewithnature",
-			}, -- [7]
-			{
-				["name"] = "Iron Hawk",
-				["icon"] = "Interface\\Icons\\spell_hunter_aspectoftheironhawk",
-			}, -- [8]
-			{
-				["name"] = "Spirit Bond",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_AspectMastery",
-			}, -- [9]
-			{
-				["name"] = "Steady Focus",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_ImprovedSteadyShot",
-			}, -- [10]
-			{
-				["name"] = "Dire Beast",
-				["icon"] = "INTERFACE\\ICONS\\ability_hunter_sickem",
-			}, -- [11]
-			{
-				["name"] = "Thrill of the Hunt",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_ThrilloftheHunt",
-			}, -- [12]
-			{
-				["name"] = "A Murder of Crows",
-				["icon"] = "Interface\\Icons\\ability_hunter_murderofcrows",
-			}, -- [13]
-			{
-				["name"] = "Blink Strikes",
-				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane04",
-			}, -- [14]
-			{
-				["name"] = "Stampede",
-				["icon"] = "INTERFACE\\ICONS\\ability_hunter_bestialdiscipline",
-			}, -- [15]
-			{
-				["name"] = "Glaive Toss",
-				["icon"] = "Interface\\Icons\\ability_glaivetoss",
-			}, -- [16]
-			{
-				["name"] = "Powershot",
-				["icon"] = "INTERFACE\\ICONS\\ability_hunter_resistanceisfutile",
-			}, -- [17]
-			{
-				["name"] = "Barrage",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_RapidRegeneration",
-			}, -- [18]
-			{
-				["name"] = "Exotic Munitions",
-				["icon"] = "Interface\\Icons\\inv_ammo_bullet_07",
-			}, -- [19]
-			{
-				["name"] = "Focusing Shot",
-				["icon"] = "Interface\\Icons\\spell_hunter_focusingshot",
-			}, -- [20]
-			{
-				["name"] = "Adaptation",
-				["icon"] = "Interface\\Icons\\spell_hunter_adaptation",
-			}, -- [21]
-		},
-		["WARRIOR"] = {
-			{
-				["name"] = "Juggernaut",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_BullRush",
-			}, -- [1]
-			{
-				["name"] = "Double Time",
-				["icon"] = "Interface\\Icons\\INV_Misc_Horn_04",
-			}, -- [2]
-			{
-				["name"] = "Warbringer",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_Warbringer",
-			}, -- [3]
-			{
-				["name"] = "Enraged Regeneration",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_FocusedRage",
-			}, -- [4]
-			{
-				["name"] = "Second Wind",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Harass",
-			}, -- [5]
-			{
-				["name"] = "Impending Victory",
-				["icon"] = "Interface\\Icons\\spell_impending_victory",
-			}, -- [6]
-			{
-				["name"] = "Taste for Blood",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_HungerforBlood",
-			}, -- [7]
-			{
-				["name"] = "Sudden Death",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_ImprovedDisciplines",
-			}, -- [8]
-			{
-				["name"] = "Slam",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_DecisiveStrike",
-			}, -- [9]
-			{
-				["name"] = "Storm Bolt",
-				["icon"] = "Interface\\Icons\\warrior_talent_icon_stormbolt",
-			}, -- [10]
-			{
-				["name"] = "Shockwave",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_Shockwave",
-			}, -- [11]
-			{
-				["name"] = "Dragon Roar",
-				["icon"] = "Interface\\Icons\\ability_warrior_dragonroar",
-			}, -- [12]
-			{
-				["name"] = "Mass Spell Reflection",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldBreak",
-			}, -- [13]
-			{
-				["name"] = "Safeguard",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_Safeguard",
-			}, -- [14]
-			{
-				["name"] = "Vigilance",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_Vigilance",
-			}, -- [15]
-			{
-				["name"] = "Avatar",
-				["icon"] = "Interface\\Icons\\warrior_talent_icon_avatar",
-			}, -- [16]
-			{
-				["name"] = "Bloodbath",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_BloodBath",
-			}, -- [17]
-			{
-				["name"] = "Bladestorm",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_Bladestorm",
-			}, -- [18]
-			{
-				["name"] = "Anger Management",
-				["icon"] = "Interface\\Icons\\warrior_talent_icon_angermanagement",
-			}, -- [19]
-			{
-				["name"] = "Ravager",
-				["icon"] = "Interface\\Icons\\warrior_talent_icon_ravager",
-			}, -- [20]
-			{
-				["name"] = "Siegebreaker",
-				["icon"] = "Interface\\Icons\\inv_mace_2h_draenorguard_b_01_horde",
-			}, -- [21]
-		},
-		["ROGUE"] = {
-			{
-				["name"] = "Nightstalker",
-				["icon"] = "Interface\\Icons\\Ability_Stealth",
-			}, -- [1]
-			{
-				["name"] = "Subterfuge",
-				["icon"] = "Interface\\Icons\\rogue_subterfuge",
-			}, -- [2]
-			{
-				["name"] = "Shadow Focus",
-				["icon"] = "Interface\\Icons\\rogue_shadowfocus",
-			}, -- [3]
-			{
-				["name"] = "Deadly Throw",
-				["icon"] = "Interface\\Icons\\INV_ThrowingKnife_06",
-			}, -- [4]
-			{
-				["name"] = "Nerve Strike",
-				["icon"] = "Interface\\Icons\\rogue_nerve _strike",
-			}, -- [5]
-			{
-				["name"] = "Combat Readiness",
-				["icon"] = "INTERFACE\\ICONS\\ability_rogue_combatreadiness",
-			}, -- [6]
-			{
-				["name"] = "Cheat Death",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_CheatDeath",
-			}, -- [7]
-			{
-				["name"] = "Leeching Poison",
-				["icon"] = "Interface\\Icons\\rogue_leeching_poison",
-			}, -- [8]
-			{
-				["name"] = "Elusiveness",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_TurntheTables",
-			}, -- [9]
-			{
-				["name"] = "Cloak and Dagger",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_UnfairAdvantage",
-			}, -- [10]
-			{
-				["name"] = "Shadowstep",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_Shadowstep",
-			}, -- [11]
-			{
-				["name"] = "Burst of Speed",
-				["icon"] = "Interface\\Icons\\rogue_burstofspeed",
-			}, -- [12]
-			{
-				["name"] = "Prey on the Weak",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_PreyontheWeak",
-			}, -- [13]
-			{
-				["name"] = "Internal Bleeding",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_BloodSplatter",
-			}, -- [14]
-			{
-				["name"] = "Dirty Tricks",
-				["icon"] = "Interface\\Icons\\ability_rogue_dirtydeeds",
-			}, -- [15]
-			{
-				["name"] = "Shuriken Toss",
-				["icon"] = "INTERFACE\\ICONS\\inv_throwingknife_07",
-			}, -- [16]
-			{
-				["name"] = "Marked for Death",
-				["icon"] = "Interface\\Icons\\Achievement_BG_killingblow_berserker",
-			}, -- [17]
-			{
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_SlaughterfromtheShadows",
-			}, -- [18]
-			{
-				["name"] = "Venom Rush",
-				["icon"] = "Interface\\Icons\\rogue_venomzest",
-			}, -- [19]
-			{
-				["name"] = "Shadow Reflection",
-				["icon"] = "Interface\\Icons\\rogue_shadow_reflection",
-			}, -- [20]
-			{
-				["name"] = "Death from Above",
-				["icon"] = "Interface\\Icons\\spell_rogue_deathfromabove",
-			}, -- [21]
-		},
-		["MAGE"] = {
-			{
-				["name"] = "Evanesce",
-				["icon"] = "Interface\\Icons\\Ability_Mage_NetherWindPresence",
-			}, -- [1]
-			{
-				["name"] = "Blazing Speed",
-				["icon"] = "Interface\\Icons\\Spell_Fire_BurningSpeed",
-			}, -- [2]
-			{
-				["name"] = "Ice Floes",
-				["icon"] = "Interface\\Icons\\spell_mage_iceflows",
-			}, -- [3]
-			{
-				["name"] = "Alter Time",
-				["icon"] = "Interface\\Icons\\spell_mage_altertime",
-			}, -- [4]
-			{
-				["name"] = "Flameglow",
-				["icon"] = "Interface\\Icons\\INV_Elemental_Primal_Fire",
-			}, -- [5]
-			{
-				["name"] = "Ice Barrier",
-				["icon"] = "Interface\\Icons\\Spell_Ice_Lament",
-			}, -- [6]
-			{
-				["name"] = "Ring of Frost",
-				["icon"] = "INTERFACE\\ICONS\\spell_frost_ring of frost",
-			}, -- [7]
-			{
-				["name"] = "Ice Ward",
-				["icon"] = "Interface\\Icons\\Spell_Frost_FrostWard",
-			}, -- [8]
-			{
-				["name"] = "Frostjaw",
-				["icon"] = "Interface\\Icons\\ability_mage_frostjaw",
-			}, -- [9]
-			{
-				["name"] = "Greater Invisibility",
-				["icon"] = "Interface\\Icons\\ability_mage_greaterinvisibility",
-			}, -- [10]
-			{
-				["name"] = "Cauterize",
-				["icon"] = "Interface\\Icons\\spell_fire_rune",
-			}, -- [11]
-			{
-				["name"] = "Cold Snap",
-				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
-			}, -- [12]
-			{
-				["name"] = "Living Bomb",
-				["icon"] = "Interface\\Icons\\Ability_Mage_LivingBomb",
-			}, -- [13]
-			{
-				["name"] = "Unstable Magic",
-				["icon"] = "Interface\\Icons\\spell_mage_unstablemagic",
-			}, -- [14]
-			{
-				["name"] = "Blast Wave",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism_02",
-			}, -- [15]
-			{
-				["name"] = "Mirror Image",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-			}, -- [16]
-			{
-				["name"] = "Rune of Power",
-				["icon"] = "Interface\\Icons\\spell_mage_runeofpower",
-			}, -- [17]
-			{
-				["name"] = "Incanter's Flow",
-				["icon"] = "Interface\\Icons\\Ability_Mage_IncantersAbsorbtion",
-			}, -- [18]
-			{
-				["name"] = "Kindling",
-				["icon"] = "Interface\\Icons\\spell_mage_kindling",
-			}, -- [19]
-			{
-				["name"] = "Prismatic Crystal",
-				["icon"] = "Interface\\Icons\\spell_mage_focusingcrystal",
-			}, -- [20]
-			{
-				["name"] = "Meteor",
-				["icon"] = "Interface\\Icons\\spell_mage_meteor",
-			}, -- [21]
-		},
-		["PRIEST"] = {
-			{
-				["name"] = "Desperate Prayer",
-				["icon"] = "Interface\\Icons\\Spell_Holy_TestOfFaith",
-			}, -- [1]
-			{
-				["name"] = "Spectral Guise",
-				["icon"] = "Interface\\Icons\\spell_priest_spectralguise",
-			}, -- [2]
-			{
-				["name"] = "Angelic Bulwark",
-				["icon"] = "Interface\\Icons\\ability_priest_angelicbulwark",
-			}, -- [3]
-			{
-				["name"] = "Body and Soul",
-				["icon"] = "Interface\\Icons\\Spell_Holy_SymbolOfHope",
-			}, -- [4]
-			{
-				["name"] = "Angelic Feather",
-				["icon"] = "Interface\\Icons\\ability_priest_angelicfeather",
-			}, -- [5]
-			{
-				["name"] = "Phantasm",
-				["icon"] = "Interface\\Icons\\ability_priest_phantasm",
-			}, -- [6]
-			{
-				["name"] = "Surge of Light",
-				["icon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
-			}, -- [7]
-			{
-				["name"] = "Mindbender",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_3",
-			}, -- [8]
-			{
-				["name"] = "Power Word: Solace",
-				["icon"] = "Interface\\Icons\\ability_priest_flashoflight",
-			}, -- [9]
-			{
-				["name"] = "Void Tendrils",
-				["icon"] = "Interface\\Icons\\spell_priest_voidtendrils",
-			}, -- [10]
-			{
-				["name"] = "Psychic Scream",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
-			}, -- [11]
-			{
-				["name"] = "Dominate Mind",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordDominate",
-			}, -- [12]
-			{
-				["name"] = "Twist of Fate",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_MindTwisting",
-			}, -- [13]
-			{
-				["name"] = "Power Infusion",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
-			}, -- [14]
-			{
-				["name"] = "Spirit Shell",
-				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
-			}, -- [15]
-			{
-				["name"] = "Cascade",
-				["icon"] = "Interface\\Icons\\ability_priest_cascade",
-			}, -- [16]
-			{
-				["name"] = "Divine Star",
-				["icon"] = "Interface\\Icons\\spell_priest_divinestar",
-			}, -- [17]
-			{
-				["name"] = "Halo",
-				["icon"] = "Interface\\Icons\\ability_priest_halo",
-			}, -- [18]
-			{
-				["name"] = "Clarity of Will",
-				["icon"] = "Interface\\Icons\\ability_priest_clarityofwill",
-			}, -- [19]
-			{
-				["name"] = "Words of Mending",
-				["icon"] = "Interface\\Icons\\ability_priest_wordsofmeaning",
-			}, -- [20]
-			{
-				["name"] = "Saving Grace",
-				["icon"] = "Interface\\Icons\\ability_priest_savinggrace",
-			}, -- [21]
-		},
-		["WARLOCK"] = {
-			{
-				["name"] = "Dark Regeneration",
-				["icon"] = "Interface\\Icons\\spell_warlock_darkregeneration",
-			}, -- [1]
-			{
-				["name"] = "Soul Leech",
-				["icon"] = "Interface\\Icons\\warlock_siphonlife",
-			}, -- [2]
-			{
-				["name"] = "Searing Flames",
-				["icon"] = "Interface\\Icons\\inv_ember",
-			}, -- [3]
-			{
-				["name"] = "Howl of Terror",
-				["icon"] = "Interface\\Icons\\ability_warlock_howlofterror",
-			}, -- [4]
-			{
-				["name"] = "Mortal Coil",
-				["icon"] = "Interface\\Icons\\ability_warlock_mortalcoil",
-			}, -- [5]
-			{
-				["name"] = "Shadowfury",
-				["icon"] = "Interface\\Icons\\ability_warlock_shadowfurytga",
-			}, -- [6]
-			{
-				["name"] = "Soul Link",
-				["icon"] = "Interface\\Icons\\ability_warlock_soullink",
-			}, -- [7]
-			{
-				["name"] = "Sacrificial Pact",
-				["icon"] = "Interface\\Icons\\warlock_sacrificial_pact",
-			}, -- [8]
-			{
-				["name"] = "Dark Bargain",
-				["icon"] = "Interface\\Icons\\ability_deathwing_bloodcorruption_death",
-			}, -- [9]
-			{
-				["name"] = "Blood Horror",
-				["icon"] = "Interface\\Icons\\ability_deathwing_bloodcorruption_earth",
-			}, -- [10]
-			{
-				["name"] = "Burning Rush",
-				["icon"] = "Interface\\Icons\\ability_deathwing_sealarmorbreachtga",
-			}, -- [11]
-			{
-				["name"] = "Unbound Will",
-				["icon"] = "Interface\\Icons\\warlock_spelldrain",
-			}, -- [12]
-			{
-				["name"] = "Grimoire of Supremacy",
-				["icon"] = "Interface\\Icons\\warlock_grimoireofcommand",
-			}, -- [13]
-			{
-				["name"] = "Grimoire of Service",
-				["icon"] = "Interface\\Icons\\warlock_grimoireofservice",
-			}, -- [14]
-			{
-				["name"] = "Grimoire of Sacrifice",
-				["icon"] = "Interface\\Icons\\warlock_grimoireofsacrifice",
-			}, -- [15]
-			{
-				["name"] = "Archimonde's Darkness",
-				["icon"] = "Interface\\Icons\\Achievement_Boss_Archimonde ",
-			}, -- [16]
-			{
-				["name"] = "Kil'jaeden's Cunning",
-				["icon"] = "Interface\\Icons\\Achievement_Boss_Kiljaedan",
-			}, -- [17]
-			{
-				["name"] = "Mannoroth's Fury",
-				["icon"] = "Interface\\Icons\\Achievement_Boss_Magtheridon",
-			}, -- [18]
-			{
-				["name"] = "Charred Remains",
-				["icon"] = "Interface\\Icons\\warlock_charredremains",
-			}, -- [19]
-			{
-				["name"] = "Cataclysm",
-				["icon"] = "INTERFACE\\ICONS\\achievement_zone_cataclysm",
-			}, -- [20]
-			{
-				["name"] = "Demonic Servitude",
-				["icon"] = "Interface\\Icons\\spell_warlock_demonicservitude",
-			}, -- [21]
-		},
-		["PALADIN"] = {
-			{
-				["name"] = "Speed of Light",
-				["icon"] = "Interface\\Icons\\ability_paladin_speedoflight",
-			}, -- [1]
-			{
-				["name"] = "Long Arm of the Law",
-				["icon"] = "Interface\\Icons\\ability_paladin_longarmofthelaw",
-			}, -- [2]
-			{
-				["name"] = "Pursuit of Justice",
-				["icon"] = "Interface\\Icons\\ability_paladin_veneration",
-			}, -- [3]
-			{
-				["name"] = "Fist of Justice",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
-			}, -- [4]
-			{
-				["name"] = "Repentance",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
-			}, -- [5]
-			{
-				["name"] = "Blinding Light",
-				["icon"] = "Interface\\Icons\\ability_paladin_blindinglight",
-			}, -- [6]
-			{
-				["name"] = "Selfless Healer",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
-			}, -- [7]
-			{
-				["name"] = "Eternal Flame",
-				["icon"] = "Interface\\Icons\\INV_Torch_Thrown",
-			}, -- [8]
-			{
-				["name"] = "Sacred Shield",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
-			}, -- [9]
-			{
-				["name"] = "Hand of Purity",
-				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWisdom",
-			}, -- [10]
-			{
-				["name"] = "Unbreakable Spirit",
-				["icon"] = "Interface\\Icons\\spell_holy_unyieldingfaith",
-			}, -- [11]
-			{
-				["name"] = "Clemency",
-				["icon"] = "Interface\\Icons\\ability_paladin_clemency",
-			}, -- [12]
-			{
-				["name"] = "Holy Avenger",
-				["icon"] = "Interface\\Icons\\ability_paladin_holyavenger",
-			}, -- [13]
-			{
-				["name"] = "Sanctified Wrath",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_SanctifiedWrath",
-			}, -- [14]
-			{
-				["name"] = "Divine Purpose",
-				["icon"] = "Interface\\Icons\\Spell_Holy_DivinePurpose",
-			}, -- [15]
-			{
-				["name"] = "Holy Prism",
-				["icon"] = "Interface\\Icons\\spell_paladin_holyprism",
-			}, -- [16]
-			{
-				["name"] = "Light's Hammer",
-				["icon"] = "Interface\\Icons\\spell_paladin_lightshammer",
-			}, -- [17]
-			{
-				["name"] = "Execution Sentence",
-				["icon"] = "Interface\\Icons\\spell_paladin_executionsentence",
-			}, -- [18]
-			{
-				["name"] = "Empowered Seals",
-				["icon"] = "Interface\\Icons\\ability_paladin_empoweredseals",
-			}, -- [19]
-			{
-				["name"] = "Seraphim",
-				["icon"] = "Interface\\Icons\\ability_paladin_seraphim",
-			}, -- [20]
-			{
-				["name"] = "Holy Shield",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfProtection",
-			}, -- [21]
-		},
-		["DEATHKNIGHT"] = {
-			{
-				["name"] = "Plaguebearer",
-				["icon"] = "Interface\\Icons\\Achievement_Zone_WesternPlaguelands_01",
-			}, -- [1]
-			{
-				["name"] = "Plague Leech",
-				["icon"] = "Interface\\Icons\\Ability_Creature_Disease_02",
-			}, -- [2]
-			{
-				["name"] = "Unholy Blight",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Contagion",
-			}, -- [3]
-			{
-				["name"] = "Lichborne",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_RaiseDead",
-			}, -- [4]
-			{
-				["name"] = "Anti-Magic Zone",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_AntiMagicZone",
-			}, -- [5]
-			{
-				["name"] = "Purgatory",
-				["icon"] = "Interface\\Icons\\INV_Misc_ShadowEgg",
-			}, -- [6]
-			{
-				["name"] = "Death's Advance",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_DemonicEmpathy",
-			}, -- [7]
-			{
-				["name"] = "Chilblains",
-				["icon"] = "Interface\\Icons\\Spell_Frost_Wisp",
-			}, -- [8]
-			{
-				["name"] = "Asphyxiate",
-				["icon"] = "Interface\\Icons\\ability_deathknight_asphixiate",
-			}, -- [9]
-			{
-				["name"] = "Blood Tap",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_BloodTap",
-			}, -- [10]
-			{
-				["name"] = "Runic Empowerment",
-				["icon"] = "Interface\\Icons\\INV_Misc_Rune_10",
-			}, -- [11]
-			{
-				["name"] = "Runic Corruption",
-				["icon"] = "INTERFACE\\ICONS\\spell_shadow_rune",
-			}, -- [12]
-			{
-				["name"] = "Death Pact",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathPact",
-			}, -- [13]
-			{
-				["name"] = "Death Siphon",
-				["icon"] = "Interface\\Icons\\ability_deathknight_deathsiphon",
-			}, -- [14]
-			{
-				["name"] = "Conversion",
-				["icon"] = "Interface\\Icons\\ability_deathknight_deathsiphon2",
-			}, -- [15]
-			{
-				["name"] = "Gorefiend's Grasp",
-				["icon"] = "Interface\\Icons\\ability_deathknight_aoedeathgrip",
-			}, -- [16]
-			{
-				["name"] = "Remorseless Winter",
-				["icon"] = "Interface\\Icons\\ability_deathknight_remorselesswinters2",
-			}, -- [17]
-			{
-				["name"] = "Desecrated Ground",
-				["icon"] = "Interface\\Icons\\ability_deathknight_desecratedground",
-			}, -- [18]
-			{
-				["name"] = "Necrotic Plague",
-				["icon"] = "Interface\\Icons\\spell_deathknight_necroticplague",
-			}, -- [19]
-			{
-				["name"] = "Defile",
-				["icon"] = "Interface\\Icons\\spell_deathknight_defile",
-			}, -- [20]
-			{
-				["name"] = "Breath of Sindragosa",
-				["icon"] = "Interface\\Icons\\spell_deathknight_breathofsindragosa",
-			}, -- [21]
-		},
-		["DRUID"] = {
-			{
-				["name"] = "Feline Swiftness",
-				["icon"] = "Interface\\Icons\\spell_druid_tirelesspursuit",
-			}, -- [1]
-			{
-				["name"] = "Displacer Beast",
-				["icon"] = "Interface\\Icons\\spell_druid_displacement",
-			}, -- [2]
-			{
-				["name"] = "Wild Charge",
-				["icon"] = "Interface\\Icons\\spell_druid_wildcharge",
-			}, -- [3]
-			{
-				["name"] = "Ysera's Gift",
-				["icon"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Green",
-			}, -- [4]
-			{
-				["name"] = "Renewal",
-				["icon"] = "Interface\\Icons\\Spell_Nature_NatureBlessing",
-			}, -- [5]
-			{
-				["name"] = "Cenarion Ward",
-				["icon"] = "Interface\\Icons\\Ability_Druid_NaturalPerfection",
-			}, -- [6]
-			{
-				["name"] = "Faerie Swarm",
-				["icon"] = "Interface\\Icons\\spell_druid_swarm",
-			}, -- [7]
-			{
-				["name"] = "Mass Entanglement",
-				["icon"] = "Interface\\Icons\\spell_druid_massentanglement",
-			}, -- [8]
-			{
-				["name"] = "Typhoon",
-				["icon"] = "Interface\\Icons\\Ability_Druid_Typhoon",
-			}, -- [9]
-			{
-				["name"] = "Soul of the Forest",
-				["icon"] = "Interface\\Icons\\Ability_Druid_ManaTree",
-			}, -- [10]
-			{
-				["name"] = "Incarnation: King of the Jungle",
-				["icon"] = "Interface\\Icons\\spell_druid_incarnation",
-			}, -- [11]
-			{
-				["name"] = "Force of Nature",
-				["icon"] = "Interface\\Icons\\Ability_Druid_ForceofNature",
-			}, -- [12]
-			{
-				["name"] = "Incapacitating Roar",
-				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
-			}, -- [13]
-			{
-				["name"] = "Ursol's Vortex",
-				["icon"] = "Interface\\Icons\\spell_druid_ursolsvortex",
-			}, -- [14]
-			{
-				["name"] = "Mighty Bash",
-				["icon"] = "Interface\\Icons\\Ability_Druid_Bash",
-			}, -- [15]
-			{
-				["name"] = "Heart of the Wild",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlessingOfAgility",
-			}, -- [16]
-			{
-				["name"] = "Dream of Cenarius",
-				["icon"] = "Interface\\Icons\\Ability_Druid_Dreamstate",
-			}, -- [17]
-			{
-				["name"] = "Nature's Vigil",
-				["icon"] = "Interface\\Icons\\Achievement_Zone_Feralas",
-			}, -- [18]
-			{
-				["name"] = "Lunar Inspiration",
-				["icon"] = "Interface\\Icons\\spell_druid_lunarinspiration",
-			}, -- [19]
-			{
-				["name"] = "Bloodtalons",
-				["icon"] = "Interface\\Icons\\spell_druid_bloodythrash",
-			}, -- [20]
-			{
-				["name"] = "Claws of Shirvallah",
-				["icon"] = "Interface\\Icons\\talentspec_druid_feral_cat",
-			}, -- [21]
-		},
-		["MONK"] = {
-			{
-				["name"] = "Celerity",
-				["icon"] = "Interface\\Icons\\ability_monk_quipunch",
-			}, -- [1]
-			{
-				["name"] = "Tiger's Lust",
-				["icon"] = "Interface\\Icons\\ability_monk_tigerslust",
-			}, -- [2]
-			{
-				["name"] = "Momentum",
-				["icon"] = "Interface\\Icons\\ability_monk_standingkick",
-			}, -- [3]
-			{
-				["name"] = "Chi Wave",
-				["icon"] = "Interface\\Icons\\ability_monk_chiwave",
-			}, -- [4]
-			{
-				["name"] = "Zen Sphere",
-				["icon"] = "Interface\\Icons\\ability_monk_forcesphere",
-			}, -- [5]
-			{
-				["name"] = "Chi Burst",
-				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
-			}, -- [6]
-			{
-				["name"] = "Power Strikes",
-				["icon"] = "Interface\\Icons\\ability_monk_powerstrikes",
-			}, -- [7]
-			{
-				["name"] = "Ascension",
-				["icon"] = "Interface\\Icons\\ability_monk_ascension",
-			}, -- [8]
-			{
-				["name"] = "Chi Brew",
-				["icon"] = "Interface\\Icons\\ability_monk_chibrew",
-			}, -- [9]
-			{
-				["name"] = "Ring of Peace",
-				["icon"] = "Interface\\Icons\\spell_monk_ringofpeace",
-			}, -- [10]
-			{
-				["name"] = "Charging Ox Wave",
-				["icon"] = "Interface\\Icons\\ability_monk_chargingoxwave",
-			}, -- [11]
-			{
-				["name"] = "Leg Sweep",
-				["icon"] = "Interface\\Icons\\ability_monk_legsweep",
-			}, -- [12]
-			{
-				["name"] = "Healing Elixirs",
-				["icon"] = "Interface\\Icons\\ability_monk_jasmineforcetea",
-			}, -- [13]
-			{
-				["name"] = "Dampen Harm",
-				["icon"] = "Interface\\Icons\\ability_monk_dampenharm",
-			}, -- [14]
-			{
-				["name"] = "Diffuse Magic",
-				["icon"] = "Interface\\Icons\\spell_monk_diffusemagic",
-			}, -- [15]
-			{
-				["name"] = "Rushing Jade Wind",
-				["icon"] = "Interface\\Icons\\ability_monk_rushingjadewind",
-			}, -- [16]
-			{
-				["name"] = "Invoke Xuen, the White Tiger",
-				["icon"] = "Interface\\Icons\\ability_monk_summontigerstatue",
-			}, -- [17]
-			{
-				["name"] = "Chi Torpedo",
-				["icon"] = "Interface\\Icons\\ability_monk_quitornado",
-			}, -- [18]
-			{
-				["name"] = "Soul Dance",
-				["icon"] = "Interface\\Icons\\ability_monk_souldance",
-			}, -- [19]
-			{
-				["name"] = "Chi Explosion",
-				["icon"] = "Interface\\Icons\\ability_monk_chiexplosion",
-			}, -- [20]
-			{
-				["name"] = "Serenity",
-				["icon"] = "Interface\\Icons\\ability_monk_serenity",
-			}, -- [21]
-		},
-		["SHAMAN"] = {
-			{
-				["name"] = "Nature's Guardian",
-				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
-			}, -- [1]
-			{
-				["name"] = "Stone Bulwark Totem",
-				["icon"] = "Interface\\Icons\\ability_shaman_stonebulwark",
-			}, -- [2]
-			{
-				["name"] = "Astral Shift",
-				["icon"] = "Interface\\Icons\\ability_shaman_astralshift",
-			}, -- [3]
-			{
-				["name"] = "Frozen Power",
-				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
-			}, -- [4]
-			{
-				["name"] = "Earthgrab Totem",
-				["icon"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
-			}, -- [5]
-			{
-				["name"] = "Windwalk Totem",
-				["icon"] = "Interface\\Icons\\ability_shaman_windwalktotem",
-			}, -- [6]
-			{
-				["name"] = "Call of the Elements",
-				["icon"] = "Interface\\Icons\\ability_shaman_multitotemactivation",
-			}, -- [7]
-			{
-				["name"] = "Totemic Persistence",
-				["icon"] = "Interface\\Icons\\ability_shaman_totemcooldownrefund",
-			}, -- [8]
-			{
-				["name"] = "Totemic Projection",
-				["icon"] = "Interface\\Icons\\ability_shaman_totemrelocation",
-			}, -- [9]
-			{
-				["name"] = "Elemental Mastery",
-				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
-			}, -- [10]
-			{
-				["name"] = "Ancestral Swiftness",
-				["icon"] = "Interface\\Icons\\Spell_Shaman_ElementalOath",
-			}, -- [11]
-			{
-				["name"] = "Echo of the Elements",
-				["icon"] = "Interface\\Icons\\ability_shaman_echooftheelements",
-			}, -- [12]
-			{
-				["name"] = "Rushing Streams",
-				["icon"] = "Interface\\Icons\\INV_Spear_04",
-			}, -- [13]
-			{
-				["name"] = "Ancestral Guidance",
-				["icon"] = "Interface\\Icons\\ability_shaman_ancestralguidance",
-			}, -- [14]
-			{
-				["name"] = "Conductivity",
-				["icon"] = "Interface\\Icons\\ability_shaman_fortifyingwaters",
-			}, -- [15]
-			{
-				["name"] = "Unleashed Fury",
-				["icon"] = "Interface\\Icons\\shaman_talent_unleashedfury",
-			}, -- [16]
-			{
-				["name"] = "Primal Elementalist",
-				["icon"] = "Interface\\Icons\\shaman_talent_primalelementalist",
-			}, -- [17]
-			{
-				["name"] = "Elemental Blast",
-				["icon"] = "Interface\\Icons\\shaman_talent_elementalblast",
-			}, -- [18]
-			{
-				["name"] = "Elemental Fusion",
-				["icon"] = "Interface\\Icons\\spell_shaman_shockinglava",
-			}, -- [19]
-			{
-				["name"] = "Storm Elemental Totem",
-				["icon"] = "Interface\\Icons\\spell_shaman_stormtotem",
-			}, -- [20]
-			{
-				["name"] = "Liquid Magma",
-				["icon"] = "Interface\\Icons\\spell_shaman_spewlava",
-			}, -- [21]
-		},
-	},
-	["login_squelch_time"] = 10,
 }

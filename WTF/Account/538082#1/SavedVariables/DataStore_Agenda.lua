@@ -22,34 +22,36 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-05-16",
+			["NextWeeklyReset"] = "2017-05-23",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1493959702,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1493839052,
+				["lastUpdate"] = 1494907647,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2017-05-13|18:30|Mythic NH|1|2", -- [1]
-					"2017-05-14|18:30|Helya? Hellyeah!|1|2", -- [2]
-					"2017-05-15|18:00|Trash|5|9", -- [3]
-					"2017-05-15|18:30|Raid Night!|1|2", -- [4]
+					"2017-05-22|18:30|Raid Night!|1|2", -- [1]
 				},
 				["Contacts"] = {
 					["Meowfurryon"] = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1494306869,
+				["DungeonIDs"] = {
+					["The Nighthold Heroic|285919055"] = "163962|1495387638|0|1",
+					["The Nighthold Normal|321413126"] = "163962|1495387638|0|1",
+					["Return to Karazhan Mythic|663860167"] = "163962|1495387638|0|0",
+				},
+				["lastUpdate"] = 1495387660,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1493618350,
+				["lastUpdate"] = 1495436514,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1493792286,
@@ -64,26 +66,22 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["DungeonIDs"] = {
-					["Halls of Valor Mythic|247352953"] = "554000|1494392799|0|0",
-					["Maw of Souls Mythic|247355393"] = "554000|1494392799|0|0",
-				},
-				["lastUpdate"] = 1494392846,
+				["lastUpdate"] = 1495436451,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1493961576,
+				["lastUpdate"] = 1495436638,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1493792687,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1493618382,
+				["lastUpdate"] = 1495436574,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1493793096,
+				["lastUpdate"] = 1495436775,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1493963287,
+				["lastUpdate"] = 1495436717,
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["lastUpdate"] = 1493618514,

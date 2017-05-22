@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Gal'darah",
+		}, -- [1]
+		{
+			["boss"] = "Moorabi",
+		}, -- [2]
+		{
+			["boss"] = "Scourgelord Tyrannus",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[58769] = {
 			["school"] = 1,
@@ -867,31 +878,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stormforged Tactician",
 		},
-		[59824] = {
+		[51750] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "King Ymiron",
+		},
+		[59322] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gal'darah",
+			["source"] = "Skadi the Ruthless",
 		},
-		[59823] = {
+		[59147] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Rhino Spirit",
-		},
-		[55142] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Moorabi",
+			["source"] = "Hardened Steel Skycaller",
 		},
 		[59141] = {
 			["school"] = 4,
@@ -901,13 +913,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blistering Steamrager",
 		},
-		[32865] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wrathbone Sorcerer",
-		},
 		[48260] = {
 			["school"] = 1,
 			["token"] = {
@@ -916,15 +921,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gortok Palehoof",
 		},
-		[68774] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[59837] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Forgemaster Garfrost",
+			["source"] = "Loken",
 		},
 		[41107] = {
 			["school"] = 1,
@@ -943,14 +945,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ick",
 		},
-		[29544] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Commander Kolurg",
-		},
 		[69017] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -960,13 +954,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Exploding Orb",
 		},
-		[68987] = {
-			["school"] = 1,
+		[56920] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ick",
+			["source"] = "Horde Cleric",
+		},
+		[57052] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Crystalline Keeper",
+		},
+		[25058] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mage Hunter Initiate",
 		},
 		[75330] = {
 			["school"] = 32,
@@ -977,21 +987,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Wrathbone Sorcerer",
 		},
-		[57052] = {
-			["school"] = 64,
+		[53792] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crystalline Keeper",
+			["source"] = "General Bjarngrim",
 		},
-		[56934] = {
-			["school"] = 4,
+		[68987] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Grand Magus Telestra",
+			["source"] = "Ick",
 		},
 		[52097] = {
 			["school"] = 8,
@@ -1009,14 +1020,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Exploding Orb",
 		},
-		[69028] = {
-			["school"] = 32,
+		[69582] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Krick",
+			["source"] = "Plagueborn Horror",
 		},
 		[61556] = {
 			["school"] = 8,
@@ -1066,14 +1077,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[69582] = {
-			["school"] = 4,
+		[68789] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Plagueborn Horror",
+			["source"] = "Forgemaster Garfrost",
 		},
 		[200289] = {
 			["school"] = 1,
@@ -1102,10 +1111,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crazed Mana-Wraith",
 		},
-		[68789] = {
+		[68788] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Forgemaster Garfrost",
 		},
@@ -1127,11 +1137,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anomalus",
 		},
-		[68788] = {
-			["school"] = 1,
+		[68786] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Forgemaster Garfrost",
 		},
@@ -1152,21 +1163,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crazed Mana-Surge",
 		},
-		[68786] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Forgemaster Garfrost",
-		},
-		[212335] = {
+		[61507] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Goopface",
+			["source"] = "Hardened Steel Skycaller",
 		},
 		[50155] = {
 			["school"] = 1,
@@ -1181,6 +1183,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Azure Magus",
+		},
+		[59407] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ritual Channeler",
 		},
 		[59166] = {
 			["school"] = 8,
@@ -1199,32 +1210,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[1604] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Crystalline Tangler",
-		},
-		[198379] = {
-			["school"] = 1,
+		[56969] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
+			["source"] = "Azure Scale-Binder",
 		},
-		[69245] = {
+		[56937] = {
 			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Grand Magus Telestra",
+		},
+		[23113] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Rimefang",
+			["source"] = "Molten Golem",
 		},
 		[47731] = {
 			["school"] = 64,
@@ -1242,12 +1256,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Horde Cleric",
 		},
-		[58967] = {
-			["school"] = 8,
+		[55142] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Drakkari Battle Rider",
+			["source"] = "Moorabi",
 		},
 		[200111] = {
 			["school"] = 4,
@@ -1256,14 +1273,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[57086] = {
-			["school"] = 1,
+		[47747] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ormorok the Tree-Shaper",
+			["source"] = "Anomalus",
 		},
 		[69021] = {
 			["school"] = 1,
@@ -1282,14 +1299,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Steward",
 		},
-		[59795] = {
-			["school"] = 8,
+		[57063] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ionar",
+			["source"] = "Anomalus",
 		},
 		[69579] = {
 			["school"] = 1,
@@ -1301,29 +1318,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Warrior",
 		},
-		[59168] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Stormfury Revenant",
-		},
-		[57082] = {
-			["school"] = 0,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ormorok the Tree-Shaper",
-		},
-		[60067] = {
-			["school"] = 1,
+		[39376] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mage Hunter Ascendant",
+		},
+		[50182] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Commander Kolurg",
+			["source"] = "Mage Hunter Ascendant",
 		},
 		[48082] = {
 			["school"] = 8,
@@ -1335,6 +1346,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crystalline Frayer",
 		},
+		[60067] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Commander Kolurg",
+		},
 		[21049] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -1344,41 +1365,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Horde Berserker",
 		},
-		[50182] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[57082] = {
+			["school"] = 0,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mage Hunter Ascendant",
+			["source"] = "Ormorok the Tree-Shaper",
 		},
-		[39376] = {
-			["school"] = 4,
+		[59168] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Stormfury Revenant",
+		},
+		[59795] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mage Hunter Ascendant",
+			["source"] = "Ionar",
 		},
-		[57063] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Anomalus",
-		},
-		[47747] = {
-			["school"] = 64,
+		[57086] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Anomalus",
+			["source"] = "Ormorok the Tree-Shaper",
 		},
 		[15284] = {
 			["school"] = 1,
@@ -1388,44 +1405,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Bjarngrim",
 		},
-		[23113] = {
-			["school"] = 4,
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Crystalline Tangler",
+		},
+		[58967] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Drakkari Battle Rider",
+		},
+		[69245] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Molten Golem",
+			["source"] = "Rimefang",
 		},
-		[56937] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Grand Magus Telestra",
-		},
-		[56969] = {
-			["school"] = 64,
+		[198379] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Azure Scale-Binder",
-		},
-		[59407] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ritual Channeler",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[199051] = {
 			["school"] = 1,
@@ -1443,12 +1455,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Warrior",
 		},
-		[61507] = {
+		[212335] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hardened Steel Skycaller",
+			["source"] = "Goopface",
 		},
 		[204502] = {
 			["school"] = 4,
@@ -1484,23 +1496,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unbound Firestorm",
 		},
-		[53792] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[69028] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "General Bjarngrim",
+			["source"] = "Krick",
 		},
-		[25058] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[56934] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mage Hunter Initiate",
+			["source"] = "Grand Magus Telestra",
 		},
 		[200359] = {
 			["school"] = 1,
@@ -1509,13 +1521,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[56920] = {
-			["school"] = 32,
+		[29544] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Horde Cleric",
+			["source"] = "Commander Kolurg",
 		},
 		[47748] = {
 			["school"] = 64,
@@ -1541,12 +1553,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ymirjar Savage",
 		},
-		[59837] = {
-			["school"] = 8,
+		[68774] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Loken",
+			["source"] = "Forgemaster Garfrost",
 		},
 		[47780] = {
 			["school"] = 1,
@@ -1556,43 +1571,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Steward",
 		},
-		[59147] = {
-			["school"] = 1,
+		[32865] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hardened Steel Skycaller",
+			["source"] = "Wrathbone Sorcerer",
 		},
-		[59322] = {
+		[59823] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rhino Spirit",
+		},
+		[59824] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Skadi the Ruthless",
+			["source"] = "Gal'darah",
 		},
-		[51750] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "King Ymiron",
-		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Gal'darah",
-		}, -- [1]
-		{
-			["boss"] = "Moorabi",
-		}, -- [2]
-		{
-			["boss"] = "Scourgelord Tyrannus",
-		}, -- [3]
 	},
 }

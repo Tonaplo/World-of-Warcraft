@@ -53,14 +53,16 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -70,13 +72,11 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 791999762,
+							["Mallusof"] = 1468270801,
 						},
 					},
 				},
@@ -99,16 +99,16 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 99473503,
-							["Farahn"] = 307605792,
-							["Greybone"] = 10310646,
+							["Miriyal"] = 101914065,
+							["Farahn"] = 305306263,
+							["Greybone"] = 6297864,
 							["Amranar"] = 475346746,
-							["Granjior"] = 331808032,
+							["Granjior"] = 348066546,
 							["Kaldorath"] = 135657038,
-							["Faerand"] = 94359429,
+							["Faerand"] = 90578466,
 							["Mallusof"] = 1162234125,
 							["Rahran"] = 388844631,
-							["Morifa"] = 469972969,
+							["Morifa"] = 469377948,
 							["Fimwack"] = 170576478,
 							["Praerend"] = 774812982,
 						},
@@ -763,72 +763,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p l;ol", -- [1]
-							"/p my bad", -- [2]
-							"/p dammit", -- [3]
-							"/p I dislike Pallys this Expac", -- [4]
-							"/p I dont like healing with them", -- [5]
-							"/p and their mastery is wtf", -- [6]
-							"/p each to their own )", -- [7]
-							"/p I dont", -- [8]
-							"/p same", -- [9]
-							"/p yeah", -- [10]
-							"/p I'd love them", -- [11]
-							"/p 15 itemlevels here", -- [12]
-							"/p you?", -- [13]
-							"/p Vesu?", -- [14]
-							"/p give it to him", -- [15]
-							"/p quick maw?", -- [16]
-							"/p Chrinder?", -- [17]
-							"/p Syp?", -- [18]
-							"/p Who is lead?", -- [19]
-							"/p Syp?", -- [20]
-							"/p oh awesome", -- [21]
-							"/p dem heals", -- [22]
-							"/p We could ask for DPS", -- [23]
-							"/p we'd prob be fine", -- [24]
-							"/p yay!", -- [25]
-							"/p care", -- [26]
-							"/p healer is locked out", -- [27]
-							"/p nps", -- [28]
-							"/g gz!", -- [29]
-							"/g aight", -- [30]
-							"/p cheers!", -- [31]
-							"/p have a good one :)", -- [32]
+							"/g Anyone for a +3 Vault?", -- [1]
+							" Kewl, write me on Bnet when you're ready :P", -- [2]
+							"/g Anyone for a +3 Vault?", -- [3]
+							" Kewl, write me on Bnet when you're ready :P", -- [4]
+							"/s WTF", -- [5]
+							"/p hide strat?", -- [6]
+							" Kewl, write me on Bnet when you're ready :P", -- [7]
+							"/g Anyone for a +3 Vault?", -- [8]
+							" Kewl, write me on Bnet when you're ready :P", -- [9]
+							"/s WTF", -- [10]
+							" Kewl, write me on Bnet when you're ready :P", -- [11]
+							"/s WTF", -- [12]
+							"/p hide strat?", -- [13]
+							" Kewl, write me on Bnet when you're ready :P", -- [14]
+							"/g Anyone for a +3 Vault?", -- [15]
+							" Kewl, write me on Bnet when you're ready :P", -- [16]
+							"/s WTF", -- [17]
+							"/p hide strat?", -- [18]
+							" Kewl, write me on Bnet when you're ready :P", -- [19]
+							"/g Anyone for a +3 Vault?", -- [20]
+							" Kewl, write me on Bnet when you're ready :P", -- [21]
+							"/s WTF", -- [22]
+							" Kewl, write me on Bnet when you're ready :P", -- [23]
+							"/s WTF", -- [24]
+							"/p hide strat?", -- [25]
+							"/g Anyone for a +3 Vault?", -- [26]
+							"/s WTF", -- [27]
+							" Kewl, write me on Bnet when you're ready :P", -- [28]
+							"/s WTF", -- [29]
+							"/p hide strat?", -- [30]
+							"/s WTF", -- [31]
+							"/p hide strat?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Meowfurryoff-Tichondrius I meant void phase", -- [1]
-							"/cw Meowfurryoff-Tichondrius ye", -- [2]
-							"/raid BIO", -- [3]
-							"/raid Oh and", -- [4]
-							"/raid I got that recorded", -- [5]
-							"/raid I've been super bad at uploading, sorry", -- [6]
-							"/raid I have Botanist ready to upload", -- [7]
-							"/raid But the Tich one got corrupted :(", -- [8]
-							"/cw Meowfurryoff-Tichondrius Yeah", -- [9]
-							"/cw Meowfurryoff-Tichondrius Just spamming PoH on last phase", -- [10]
-							"/cw Meowfurryoff-Tichondrius Apo was good for it too thouh", -- [11]
-							"/cw Meowfurryoff-Tichondrius true", -- [12]
-							"/cw Meowfurryoff-Tichondrius the spot healing though", -- [13]
-							"/cw Meowfurryoff-Tichondrius true", -- [14]
-							"/cw Meowfurryoff-Tichondrius Yeah they are awesome", -- [15]
-							"/cw Meowfurryoff-Tichondrius Cloak is amazeballs", -- [16]
-							"/cw Meowfurryoff-Tichondrius I want that so hard", -- [17]
-							"/cw Meowfurryoff-Tichondrius the trinket though", -- [18]
-							"/cw Meowfurryoff-Tichondrius Disc is supposed to be god in ToS right?", -- [19]
-							"/cw Meowfurryoff-Tichondrius lawl", -- [20]
-							"/cw Meowfurryoff-Tichondrius such troll", -- [21]
-							"/cw Meowfurryoff-Tichondrius hgahaha", -- [22]
-							"/cw Meowfurryoff-Tichondrius totally", -- [23]
-							"/raid LOL", -- [24]
-							"/raid 50\\", -- [25]
-							"/raid  /agree Arkator", -- [26]
-							"/cw Meowfurryoff-Tichondrius NO", -- [27]
-							"/cw Meowfurryoff-Tichondrius You had it with me", -- [28]
-							"/cw Meowfurryoff-Tichondrius and then I got it", -- [29]
-							"/cw Meowfurryoff-Tichondrius so we blew everyone up", -- [30]
-							"/cw Meowfurryoff-Tichondrius compeltely", -- [31]
-							"/raid ^^", -- [32]
+							"/i The purpledunkball", -- [1]
+							"/g Otherwise any NH", -- [2]
+							"/g Mythic Helya", -- [3]
+							"/g I joined a normal NH group in group finder, join me if you want", -- [4]
+							"/g Thanks Kele :P", -- [5]
+							"/raid Me and Rynaa should be fine tbh", -- [6]
+							"/g I want 300 mill AP", -- [7]
+							"/g same", -- [8]
+							"/g M Eli", -- [9]
+							"/g and M Helya", -- [10]
+							"/raid 1 phase?", -- [11]
+							"/raid distract", -- [12]
+							"/raid LOL", -- [13]
+							"/raid sec", -- [14]
+							"/cw Crazytemplar-Frostmourne I already DE'd :( I'm really sorry :(", -- [15]
+							"/sigh", -- [16]
+							"/i Something about dunking something in their base", -- [17]
+							"/g Otherwise any NH", -- [18]
+							"/g I joined a normal NH group in group finder, join me if you want", -- [19]
+							"/raid Me and Rynaa should be fine tbh", -- [20]
+							"/g same", -- [21]
+							"/g and M Helya", -- [22]
+							"/raid distract", -- [23]
+							"/raid sec", -- [24]
+							"/sigh", -- [25]
+							"/g Otherwise any NH", -- [26]
+							"/raid Me and Rynaa should be fine tbh", -- [27]
+							"/g and M Helya", -- [28]
+							"/raid sec", -- [29]
+							"/g Otherwise any NH", -- [30]
+							"/g and M Helya", -- [31]
+							"/g Otherwise any NH", -- [32]
 						},
 					},
 				},
@@ -915,6 +915,7 @@ LUIDB = {
 				["Base"] = {
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -2121,7 +2122,6 @@ LUIDB = {
 						},
 					},
 					["SidebarLeft1"] = {
-						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 						["State"] = {

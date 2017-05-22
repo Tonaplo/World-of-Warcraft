@@ -22,21 +22,18 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-05-09",
+			["NextWeeklyReset"] = "2017-05-23",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1493839052,
+				["lastUpdate"] = 1494907647,
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1493959702,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2017-05-13|18:30|Mythic NH|1|2", -- [1]
-					"2017-05-14|18:30|Helya? Hellyeah!|1|2", -- [2]
-					"2017-05-15|18:00|Trash|5|9", -- [3]
-					"2017-05-15|18:30|Raid Night!|1|2", -- [4]
+					"2017-05-22|18:30|Raid Night!|1|2", -- [1]
 				},
 				["Contacts"] = {
 					["Meowfurryon"] = {
@@ -44,13 +41,14 @@ DataStore_AgendaDB = {
 					},
 				},
 				["DungeonIDs"] = {
-					["The Nighthold Mythic|247136096"] = "35253|1494306743|0|1",
-					["Trial of Valor Mythic|247147406"] = "35253|1494306743|0|1",
+					["The Nighthold Heroic|285919055"] = "163962|1495387638|0|1",
+					["The Nighthold Normal|321413126"] = "163962|1495387638|0|1",
+					["Return to Karazhan Mythic|663860167"] = "163962|1495387638|0|0",
 				},
-				["lastUpdate"] = 1494306869,
+				["lastUpdate"] = 1495387660,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1493963287,
+				["lastUpdate"] = 1495436717,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1493792687,
@@ -59,17 +57,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493792286,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["DungeonIDs"] = {
-					["Naxxramas 25 Player|331693511"] = "222809|1494119176|0|1",
-					["Maw of Souls Mythic|331680444"] = "222809|1494119176|0|0",
-					["Eye of Azshara Mythic|331720308"] = "222809|1494119176|0|0",
-					["Cathedral of Eternal Night Mythic|331677944"] = "222809|1494119176|0|0",
-					["Vault of Archavon 25 Player|331693260"] = "222809|1494119176|0|1",
-				},
-				["lastUpdate"] = 1494119186,
+				["lastUpdate"] = 1495436451,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1493793096,
+				["lastUpdate"] = 1495177957,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1493618480,
@@ -78,16 +69,16 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1493961576,
+				["lastUpdate"] = 1495436638,
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1493618403,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1493618382,
+				["lastUpdate"] = 1495436574,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1493618350,
+				["lastUpdate"] = 1495436514,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,
