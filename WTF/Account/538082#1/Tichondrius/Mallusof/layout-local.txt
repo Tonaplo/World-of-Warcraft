@@ -20,6 +20,13 @@ X: -388
 Y: 23
 W: 210
 H: 175
+Frame: Arh_MainFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 201
+Y: 72
+W: 170
+H: 40
 Frame: DetailsReportWindow
 FrameLevel: 1
 Anchor: CENTER
@@ -55,13 +62,6 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: Arh_MainFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 201
-Y: 72
-W: 170
-H: 40
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER

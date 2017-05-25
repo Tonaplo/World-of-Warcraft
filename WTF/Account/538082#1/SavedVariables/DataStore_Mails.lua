@@ -1,44 +1,44 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1495406599,
+				["lastVisitDate"] = "2017/05/21 15:43",
+			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1495307491,
+				["lastUpdate"] = 1495503740,
 				["Mails"] = {
 					{
-						["icon"] = 134327,
+						["lastCheck"] = 1495503740,
 						["sender"] = "Thaumaturge Vashreen",
 						["subject"] = "Lost Item",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
-						["lastCheck"] = 1495307491,
-						["daysLeft"] = 24.3002662658691,
+						["icon"] = 134327,
+						["daysLeft"] = 22.0289821624756,
 					}, -- [1]
 				},
-				["lastVisitDate"] = "2017/05/20 12:11",
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1495406599,
-				["lastVisitDate"] = "2017/05/21 15:43",
+				["lastVisitDate"] = "2017/05/22 18:42",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1495161164,

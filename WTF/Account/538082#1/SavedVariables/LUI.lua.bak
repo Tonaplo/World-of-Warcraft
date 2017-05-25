@@ -56,7 +56,7 @@ LUIDB = {
 							["Amranar"] = 475346746,
 							["Granjior"] = 348066546,
 							["Kaldorath"] = 135657038,
-							["Faerand"] = 92913233,
+							["Faerand"] = 90578466,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 170576478,
 							["Morifa"] = 469377948,
@@ -68,7 +68,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1468270801,
+							["Mallusof"] = 1298484707,
 						},
 					},
 				},
@@ -88,27 +88,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
-						["Font"] = "Prototype",
-					},
-					["Memory"] = {
-						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -128,6 +128,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -138,10 +143,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -169,14 +170,21 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -670,14 +678,6 @@ LUIDB = {
 					},
 				},
 				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
 							["ClassIcons"] = {
@@ -1845,72 +1845,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p hide strat?", -- [1]
-							"/g Anyone for a +3 Vault?", -- [2]
-							" Kewl, write me on Bnet when you're ready :P", -- [3]
-							"/p hide strat?", -- [4]
-							" Kewl, write me on Bnet when you're ready :P", -- [5]
-							"/g Anyone for a +3 Vault?", -- [6]
-							"/p hide strat?", -- [7]
+							"/g Anyone for a +3 Vault?", -- [1]
+							" Kewl, write me on Bnet when you're ready :P", -- [2]
+							"/g Anyone for a +3 Vault?", -- [3]
+							" Kewl, write me on Bnet when you're ready :P", -- [4]
+							"/s WTF", -- [5]
+							"/p hide strat?", -- [6]
+							" Kewl, write me on Bnet when you're ready :P", -- [7]
 							"/g Anyone for a +3 Vault?", -- [8]
 							" Kewl, write me on Bnet when you're ready :P", -- [9]
-							"/g Anyone for a +3 Vault?", -- [10]
+							"/s WTF", -- [10]
 							" Kewl, write me on Bnet when you're ready :P", -- [11]
 							"/s WTF", -- [12]
-							" Kewl, write me on Bnet when you're ready :P", -- [13]
-							"/p hide strat?", -- [14]
+							"/p hide strat?", -- [13]
+							" Kewl, write me on Bnet when you're ready :P", -- [14]
 							"/g Anyone for a +3 Vault?", -- [15]
 							" Kewl, write me on Bnet when you're ready :P", -- [16]
-							"/p hide strat?", -- [17]
-							" Kewl, write me on Bnet when you're ready :P", -- [18]
-							"/g Anyone for a +3 Vault?", -- [19]
-							"/p hide strat?", -- [20]
-							"/g Anyone for a +3 Vault?", -- [21]
-							" Kewl, write me on Bnet when you're ready :P", -- [22]
-							"/g Anyone for a +3 Vault?", -- [23]
-							" Kewl, write me on Bnet when you're ready :P", -- [24]
-							"/s WTF", -- [25]
-							"/p hide strat?", -- [26]
-							" Kewl, write me on Bnet when you're ready :P", -- [27]
-							"/g Anyone for a +3 Vault?", -- [28]
-							" Kewl, write me on Bnet when you're ready :P", -- [29]
-							"/s WTF", -- [30]
-							" Kewl, write me on Bnet when you're ready :P", -- [31]
-							"/s WTF", -- [32]
+							"/s WTF", -- [17]
+							"/p hide strat?", -- [18]
+							" Kewl, write me on Bnet when you're ready :P", -- [19]
+							"/g Anyone for a +3 Vault?", -- [20]
+							" Kewl, write me on Bnet when you're ready :P", -- [21]
+							"/s WTF", -- [22]
+							" Kewl, write me on Bnet when you're ready :P", -- [23]
+							"/s WTF", -- [24]
+							"/p hide strat?", -- [25]
+							"/g Anyone for a +3 Vault?", -- [26]
+							"/s WTF", -- [27]
+							" Kewl, write me on Bnet when you're ready :P", -- [28]
+							"/s WTF", -- [29]
+							"/p hide strat?", -- [30]
+							"/s WTF", -- [31]
+							"/p hide strat?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/i The purpledunkball", -- [1]
-							"/g Otherwise any NH", -- [2]
-							"/g Mythic Helya", -- [3]
-							"/g I joined a normal NH group in group finder, join me if you want", -- [4]
-							"/g Thanks Kele :P", -- [5]
-							"/raid Me and Rynaa should be fine tbh", -- [6]
-							"/g I want 300 mill AP", -- [7]
-							"/g same", -- [8]
-							"/g M Eli", -- [9]
-							"/g and M Helya", -- [10]
-							"/raid 1 phase?", -- [11]
-							"/raid distract", -- [12]
-							"/raid LOL", -- [13]
-							"/raid sec", -- [14]
-							"/cw Crazytemplar-Frostmourne I already DE'd :( I'm really sorry :(", -- [15]
-							"/sigh", -- [16]
-							"/i Something about dunking something in their base", -- [17]
-							"/g Otherwise any NH", -- [18]
-							"/g I joined a normal NH group in group finder, join me if you want", -- [19]
-							"/raid Me and Rynaa should be fine tbh", -- [20]
-							"/g same", -- [21]
-							"/g and M Helya", -- [22]
-							"/raid distract", -- [23]
-							"/raid sec", -- [24]
-							"/sigh", -- [25]
-							"/g Otherwise any NH", -- [26]
-							"/raid Me and Rynaa should be fine tbh", -- [27]
-							"/g and M Helya", -- [28]
-							"/raid sec", -- [29]
-							"/g Otherwise any NH", -- [30]
-							"/g and M Helya", -- [31]
-							"/g Otherwise any NH", -- [32]
+							"/raid I need a summon too", -- [1]
+							"/4 You guys get the high HPS, I get the dying guys as much as I can", -- [2]
+							"/cw Tafè-Tichondrius thanks!", -- [3]
+							"/cw Kaligon-Tichondrius As in", -- [4]
+							"/cw Meowfurryoff-Tichondrius I just saw it when I was mogging :P", -- [5]
+							" let's do that", -- [6]
+							"/g and M Helya", -- [7]
+							"/4 You guys get the high HPS, I get the dying guys as much as I can", -- [8]
+							"/cw Kaligon-Tichondrius As in", -- [9]
+							" let's do that", -- [10]
+							"/4 You guys get the high HPS, I get the dying guys as much as I can", -- [11]
+							" let's do that", -- [12]
+							"/cw Meowfurryoff-Tichondrius yeah, it's supposed to do around that", -- [13]
+							"/cw Meowfurryoff-Tichondrius maybe slightly more", -- [14]
+							"/macro", -- [15]
+							"/bw", -- [16]
+							"/cw Kalithumos Put as mark on me", -- [17]
+							"/cw Kalithumos this shit is easy as fuck to dodge", -- [18]
+							"/cw Kalithumos-Tichondrius ....", -- [19]
+							"/cw Kaligon Now this is pissing me off", -- [20]
+							"/cw Kaligon It's been stupid for a lot of pulls", -- [21]
+							"/cw Kaligon-Tichondrius Not just him, it feels like a ton of people are just pissing around", -- [22]
+							"/cw Kaligon-Tichondrius People are also all over the place, not taking anywhere near the optimal paths", -- [23]
+							"/cw Kaligon-Tichondrius That's a tank mistake", -- [24]
+							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [25]
+							"/cw Kaligon-Tichondrius ye", -- [26]
+							"/cw Kaligon-Tichondrius bubbles on top of eachother", -- [27]
+							"/2 Since you read it yourself, you're terrible as well.", -- [28]
+							"/g Reportme, you're so full of shit", -- [29]
+							"/g Read Trade chat", -- [30]
+							"/g sure n", -- [31]
+							"/g np", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2159,6 +2159,7 @@ LUIDB = {
 						},
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 						["State"] = {
@@ -2573,22 +2574,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {

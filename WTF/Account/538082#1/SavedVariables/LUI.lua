@@ -53,16 +53,14 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -72,11 +70,13 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1468270801,
+							["Mallusof"] = 1319616958,
 						},
 					},
 				},
@@ -128,21 +128,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -170,13 +163,28 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
 			["profiles"] = {
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -677,14 +685,6 @@ LUIDB = {
 						},
 					},
 				},
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 			},
 		},
 		["Threat"] = {
@@ -797,38 +797,38 @@ LUIDB = {
 							"/p hide strat?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/i The purpledunkball", -- [1]
-							"/g Otherwise any NH", -- [2]
-							"/g Mythic Helya", -- [3]
-							"/g I joined a normal NH group in group finder, join me if you want", -- [4]
-							"/g Thanks Kele :P", -- [5]
-							"/raid Me and Rynaa should be fine tbh", -- [6]
-							"/g I want 300 mill AP", -- [7]
-							"/g same", -- [8]
-							"/g M Eli", -- [9]
-							"/g and M Helya", -- [10]
-							"/raid 1 phase?", -- [11]
-							"/raid distract", -- [12]
-							"/raid LOL", -- [13]
-							"/raid sec", -- [14]
-							"/cw Crazytemplar-Frostmourne I already DE'd :( I'm really sorry :(", -- [15]
-							"/sigh", -- [16]
-							"/i Something about dunking something in their base", -- [17]
-							"/g Otherwise any NH", -- [18]
-							"/g I joined a normal NH group in group finder, join me if you want", -- [19]
-							"/raid Me and Rynaa should be fine tbh", -- [20]
-							"/g same", -- [21]
-							"/g and M Helya", -- [22]
-							"/raid distract", -- [23]
-							"/raid sec", -- [24]
-							"/sigh", -- [25]
-							"/g Otherwise any NH", -- [26]
-							"/raid Me and Rynaa should be fine tbh", -- [27]
-							"/g and M Helya", -- [28]
-							"/raid sec", -- [29]
-							"/g Otherwise any NH", -- [30]
-							"/g and M Helya", -- [31]
-							"/g Otherwise any NH", -- [32]
+							"/cw Kaligon-Tichondrius As in", -- [1]
+							"/4 You guys get the high HPS, I get the dying guys as much as I can", -- [2]
+							"/cw Meowfurryoff-Tichondrius yeah, it's supposed to do around that", -- [3]
+							"/macro", -- [4]
+							"/cw Kalithumos Put as mark on me", -- [5]
+							"/cw Kalithumos-Tichondrius ....", -- [6]
+							"/cw Kaligon It's been stupid for a lot of pulls", -- [7]
+							"/cw Kaligon-Tichondrius People are also all over the place, not taking anywhere near the optimal paths", -- [8]
+							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [9]
+							"/cw Kaligon-Tichondrius bubbles on top of eachother", -- [10]
+							"/g Reportme, you're so full of shit", -- [11]
+							"/g sure n", -- [12]
+							"/raid I need a summon too", -- [13]
+							"/cw Meowfurryoff-Tichondrius I just saw it when I was mogging :P", -- [14]
+							"/cw Kaligon-Tichondrius As in", -- [15]
+							"/cw Meowfurryoff-Tichondrius yeah, it's supposed to do around that", -- [16]
+							"/cw Kalithumos Put as mark on me", -- [17]
+							"/cw Kaligon It's been stupid for a lot of pulls", -- [18]
+							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [19]
+							"/g Reportme, you're so full of shit", -- [20]
+							"/raid I need a summon too", -- [21]
+							"/cw Kaligon-Tichondrius As in", -- [22]
+							"/cw Kalithumos Put as mark on me", -- [23]
+							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [24]
+							"/raid I need a summon too", -- [25]
+							"/cw Kalithumos Put as mark on me", -- [26]
+							"/raid I need a summon too", -- [27]
+							"/g court what", -- [28]
+							"/g level", -- [29]
+							"/g this week", -- [30]
+							"/g ... that made no sense", -- [31]
+							"/g Every Ret Paladin is already Meow's bitch", -- [32]
 						},
 					},
 				},
@@ -2122,6 +2122,7 @@ LUIDB = {
 						},
 					},
 					["SidebarLeft1"] = {
+						["IsOpen"] = true,
 						["Enable"] = true,
 						["Anchor"] = "BT4Bar10",
 						["State"] = {
@@ -2274,22 +2275,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["luiconfig"] = {
