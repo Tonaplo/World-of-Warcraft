@@ -1,74 +1,217 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
 				["EquippedArtifact"] = "Scepter of Sargeras",
-				["ArtifactKnowledgeMultiplier"] = 1001,
+				["Artifacts"] = {
+					["Ulthalesh, the Deadwind Harvester"] = {
+						["rank"] = 1,
+						["tier"] = 1,
+					},
+					["Scepter of Sargeras"] = {
+						["pointsRemaining"] = 456720,
+						["rank"] = 32,
+						["tier"] = 1,
+					},
+				},
+				["Class"] = "WARLOCK",
+				["lastUpdate"] = 1493959599,
 				["Specializations"] = {
 					[3] = 14745,
 				},
-				["lastUpdate"] = 1493959599,
-				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 26,
-				["Artifacts"] = {
-					["Ulthalesh, the Deadwind Harvester"] = {
-						["tier"] = 1,
-						["rank"] = 1,
-					},
-					["Scepter of Sargeras"] = {
-						["tier"] = 1,
-						["rank"] = 32,
-						["pointsRemaining"] = 456720,
-					},
-				},
+				["ArtifactKnowledgeMultiplier"] = 1001,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
-				["Artifacts"] = {
-					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 2382146,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-					["Light's Wrath"] = {
-						["tier"] = 2,
-						["rank"] = 40,
-						["pointsRemaining"] = 10864055,
-					},
-					["Xal'atath, Blade of the Black Empire"] = {
-						["tier"] = 2,
-						["rank"] = 42,
-						["pointsRemaining"] = 27057370,
-					},
-				},
-				["Class"] = "PRIEST",
-				["lastUpdate"] = 1495692615,
+				["EquippedArtifact"] = "Light's Wrath",
+				["ArtifactKnowledgeMultiplier"] = 18201,
 				["Specializations"] = {
 					7638, -- [1]
 					10103, -- [2]
 					6489, -- [3]
 				},
+				["lastUpdate"] = 1495727815,
+				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 37,
-				["ArtifactKnowledgeMultiplier"] = 18201,
+				["Artifacts"] = {
+					["T'uure, Beacon of the Naaru"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 2382146,
+					},
+					["Xal'atath, Blade of the Black Empire"] = {
+						["pointsRemaining"] = 27057370,
+						["rank"] = 42,
+						["tier"] = 2,
+					},
+					["Light's Wrath"] = {
+						["pointsRemaining"] = 10864055,
+						["rank"] = 40,
+						["tier"] = 2,
+					},
+				},
+			},
+			["Default.Proudmoore.Amranar"] = {
+				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
+				["ArtifactKnowledgeMultiplier"] = 1701,
+				["Specializations"] = {
+					[3] = 7039,
+					[4] = 8171,
+				},
+				["lastUpdate"] = 1494907308,
+				["Class"] = "DRUID",
+				["ArtifactKnowledge"] = 28,
+				["Artifacts"] = {
+					["Claws of Ursoc"] = {
+						["tier"] = 1,
+						["rank"] = 29,
+						["pointsRemaining"] = 9725,
+					},
+					["G'Hanir, the Mother Tree"] = {
+						["pointsRemaining"] = 2294517,
+						["rank"] = 35,
+						["tier"] = 1,
+					},
+				},
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["EquippedArtifact"] = "The Aldrachi Warblades",
+				["ArtifactKnowledgeMultiplier"] = 1701,
+				["Specializations"] = {
+					[2] = 6997,
+				},
+				["lastUpdate"] = 1493792257,
+				["Class"] = "DEMONHUNTER",
+				["ArtifactKnowledge"] = 28,
+				["Artifacts"] = {
+					["The Aldrachi Warblades"] = {
+						["tier"] = 1,
+						["rank"] = 33,
+						["pointsRemaining"] = 722960,
+					},
+				},
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
+				["ArtifactKnowledgeMultiplier"] = 3801,
+				["Specializations"] = {
+					[3] = 7575,
+				},
+				["lastUpdate"] = 1495436477,
+				["Class"] = "MAGE",
+				["ArtifactKnowledge"] = 31,
+				["Artifacts"] = {
+					["Ebonchill, Greatstaff of Alodi"] = {
+						["tier"] = 1,
+						["rank"] = 33,
+						["pointsRemaining"] = 1773690,
+					},
+				},
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
+				["Artifacts"] = {
+					["Fu Zan, the Wanderer's Companion"] = {
+						["pointsRemaining"] = 73740,
+						["rank"] = 26,
+						["tier"] = 1,
+					},
+				},
+				["Class"] = "MONK",
+				["lastUpdate"] = 1495436690,
+				["Specializations"] = {
+					7646, -- [1]
+				},
+				["ArtifactKnowledge"] = 26,
+				["ArtifactKnowledgeMultiplier"] = 1001,
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["EquippedArtifact"] = "The Dreadblades",
+				["ArtifactKnowledgeMultiplier"] = 1001,
+				["Specializations"] = {
+					[2] = 11223,
+				},
+				["lastUpdate"] = 1493792358,
+				["Class"] = "ROGUE",
+				["ArtifactKnowledge"] = 26,
+				["Artifacts"] = {
+					["The Dreadblades"] = {
+						["tier"] = 1,
+						["rank"] = 20,
+						["pointsRemaining"] = 1374465,
+					},
+				},
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["EquippedArtifact"] = "Maw of the Damned",
+				["Artifacts"] = {
+					["Blades of the Fallen Prince"] = {
+						["pointsRemaining"] = 488955,
+						["rank"] = 31,
+						["tier"] = 1,
+					},
+					["Maw of the Damned"] = {
+						["pointsRemaining"] = 1251880,
+						["rank"] = 39,
+						["tier"] = 2,
+					},
+					["Apocalypse"] = {
+						["pointsRemaining"] = 1025,
+						["rank"] = 1,
+						["tier"] = 1,
+					},
+				},
+				["Class"] = "DEATHKNIGHT",
+				["lastUpdate"] = 1495436399,
+				["Specializations"] = {
+					16277, -- [1]
+					5882, -- [2]
+					12122, -- [3]
+				},
+				["ArtifactKnowledge"] = 32,
+				["ArtifactKnowledgeMultiplier"] = 4901,
+			},
+			["Default.Proudmoore.Granjior"] = {
+				["EquippedArtifact"] = "Ashbringer",
+				["ArtifactKnowledgeMultiplier"] = 250,
+				["Specializations"] = {
+					9558, -- [1]
+					[3] = 8087,
+				},
+				["lastUpdate"] = 1495436618,
+				["Class"] = "PALADIN",
+				["ArtifactKnowledge"] = 25,
+				["Artifacts"] = {
+					["The Silver Hand"] = {
+						["tier"] = 1,
+						["rank"] = 26,
+						["pointsRemaining"] = 52930,
+					},
+					["Ashbringer"] = {
+						["tier"] = 1,
+						["rank"] = 19,
+						["pointsRemaining"] = 21460,
+					},
+				},
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1493618401,
@@ -77,75 +220,22 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "WARRIOR",
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["EquippedArtifact"] = "The Aldrachi Warblades",
+			["Default.Proudmoore.Farahn"] = {
+				["EquippedArtifact"] = "Doomhammer",
+				["ArtifactKnowledgeMultiplier"] = 1001,
+				["Specializations"] = {
+					[2] = 9631,
+				},
+				["lastUpdate"] = 1495436544,
+				["Class"] = "SHAMAN",
+				["ArtifactKnowledge"] = 26,
 				["Artifacts"] = {
-					["The Aldrachi Warblades"] = {
-						["pointsRemaining"] = 722960,
-						["rank"] = 33,
+					["Doomhammer"] = {
 						["tier"] = 1,
+						["rank"] = 34,
+						["pointsRemaining"] = 1774895,
 					},
 				},
-				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1493792257,
-				["Specializations"] = {
-					[2] = 6997,
-				},
-				["ArtifactKnowledge"] = 28,
-				["ArtifactKnowledgeMultiplier"] = 1701,
-			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1493618455,
-				["Specializations"] = {
-					[3] = 487,
-				},
-				["Class"] = "ROGUE",
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["EquippedArtifact"] = "Maw of the Damned",
-				["ArtifactKnowledgeMultiplier"] = 4901,
-				["Specializations"] = {
-					16277, -- [1]
-					5882, -- [2]
-					12122, -- [3]
-				},
-				["lastUpdate"] = 1495436399,
-				["Class"] = "DEATHKNIGHT",
-				["ArtifactKnowledge"] = 32,
-				["Artifacts"] = {
-					["Blades of the Fallen Prince"] = {
-						["tier"] = 1,
-						["rank"] = 31,
-						["pointsRemaining"] = 488955,
-					},
-					["Apocalypse"] = {
-						["tier"] = 1,
-						["rank"] = 1,
-						["pointsRemaining"] = 1025,
-					},
-					["Maw of the Damned"] = {
-						["tier"] = 2,
-						["rank"] = 39,
-						["pointsRemaining"] = 1251880,
-					},
-				},
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["Artifacts"] = {
-					["Titanstrike"] = {
-						["pointsRemaining"] = 2684965,
-						["rank"] = 36,
-						["tier"] = 1,
-					},
-				},
-				["Class"] = "HUNTER",
-				["lastUpdate"] = 1495436756,
-				["Specializations"] = {
-					13719, -- [1]
-				},
-				["ArtifactKnowledge"] = 29,
-				["ArtifactKnowledgeMultiplier"] = 2201,
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
@@ -154,141 +244,51 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
-			["Default.Proudmoore.Granjior"] = {
-				["EquippedArtifact"] = "Ashbringer",
-				["Artifacts"] = {
-					["The Silver Hand"] = {
-						["pointsRemaining"] = 52930,
-						["rank"] = 26,
-						["tier"] = 1,
-					},
-					["Ashbringer"] = {
-						["pointsRemaining"] = 21460,
-						["rank"] = 19,
-						["tier"] = 1,
-					},
-				},
-				["Class"] = "PALADIN",
-				["lastUpdate"] = 1495436618,
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1493618455,
 				["Specializations"] = {
-					9558, -- [1]
-					[3] = 8087,
-				},
-				["ArtifactKnowledge"] = 25,
-				["ArtifactKnowledgeMultiplier"] = 250,
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["EquippedArtifact"] = "The Dreadblades",
-				["Artifacts"] = {
-					["The Dreadblades"] = {
-						["pointsRemaining"] = 1374465,
-						["rank"] = 20,
-						["tier"] = 1,
-					},
+					[3] = 487,
 				},
 				["Class"] = "ROGUE",
-				["lastUpdate"] = 1493792358,
-				["Specializations"] = {
-					[2] = 11223,
-				},
-				["ArtifactKnowledge"] = 26,
-				["ArtifactKnowledgeMultiplier"] = 1001,
 			},
-			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "Doomhammer",
-				["Artifacts"] = {
-					["Doomhammer"] = {
-						["pointsRemaining"] = 1774895,
-						["rank"] = 34,
-						["tier"] = 1,
-					},
-				},
-				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1495436544,
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
+				["ArtifactKnowledgeMultiplier"] = 2201,
 				["Specializations"] = {
-					[2] = 9631,
+					13719, -- [1]
 				},
-				["ArtifactKnowledge"] = 26,
-				["ArtifactKnowledgeMultiplier"] = 1001,
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
-				["ArtifactKnowledgeMultiplier"] = 1001,
-				["Specializations"] = {
-					7646, -- [1]
-				},
-				["lastUpdate"] = 1495436690,
-				["Class"] = "MONK",
-				["ArtifactKnowledge"] = 26,
+				["lastUpdate"] = 1495436756,
+				["Class"] = "HUNTER",
+				["ArtifactKnowledge"] = 29,
 				["Artifacts"] = {
-					["Fu Zan, the Wanderer's Companion"] = {
+					["Titanstrike"] = {
 						["tier"] = 1,
-						["rank"] = 26,
-						["pointsRemaining"] = 73740,
+						["rank"] = 36,
+						["pointsRemaining"] = 2684965,
 					},
 				},
-			},
-			["Default.Proudmoore.Morifa"] = {
-				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
-				["Artifacts"] = {
-					["Ebonchill, Greatstaff of Alodi"] = {
-						["pointsRemaining"] = 1773690,
-						["rank"] = 33,
-						["tier"] = 1,
-					},
-				},
-				["Class"] = "MAGE",
-				["lastUpdate"] = 1495436477,
-				["Specializations"] = {
-					[3] = 7575,
-				},
-				["ArtifactKnowledge"] = 31,
-				["ArtifactKnowledgeMultiplier"] = 3801,
-			},
-			["Default.Proudmoore.Amranar"] = {
-				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
-				["Artifacts"] = {
-					["Claws of Ursoc"] = {
-						["pointsRemaining"] = 9725,
-						["rank"] = 29,
-						["tier"] = 1,
-					},
-					["G'Hanir, the Mother Tree"] = {
-						["tier"] = 1,
-						["rank"] = 35,
-						["pointsRemaining"] = 2294517,
-					},
-				},
-				["Class"] = "DRUID",
-				["lastUpdate"] = 1494907308,
-				["Specializations"] = {
-					[3] = 7039,
-					[4] = 8171,
-				},
-				["ArtifactKnowledge"] = 28,
-				["ArtifactKnowledgeMultiplier"] = 1701,
 			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["HUNTER"] = {
@@ -523,87 +523,61 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 24015,
 		},
-		["DEATHKNIGHT"] = {
+		["PALADIN"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 250,
+					["id"] = 65,
 					["talents"] = {
-						19165, -- [1]
-						19166, -- [2]
-						19217, -- [3]
-						19218, -- [4]
-						19219, -- [5]
-						19220, -- [6]
-						19221, -- [7]
-						22134, -- [8]
-						22135, -- [9]
-						22013, -- [10]
-						22014, -- [11]
-						22015, -- [12]
-						19227, -- [13]
-						19226, -- [14]
-						19228, -- [15]
-						19230, -- [16]
-						19231, -- [17]
-						19232, -- [18]
-						21207, -- [19]
-						21208, -- [20]
-						21209, -- [21]
+						17565, -- [1]
+						17567, -- [2]
+						17569, -- [3]
+						22176, -- [4]
+						17575, -- [5]
+						17577, -- [6]
+						22179, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22181, -- [10]
+						17591, -- [11]
+						17593, -- [12]
+						17597, -- [13]
+						17599, -- [14]
+						22164, -- [15]
+						22189, -- [16]
+						22190, -- [17]
+						22484, -- [18]
+						21668, -- [19]
+						21671, -- [20]
+						21203, -- [21]
 					},
 				}, -- [1]
-				{
-					["id"] = 251,
+				[3] = {
+					["id"] = 70,
 					["talents"] = {
-						22016, -- [1]
-						22017, -- [2]
-						22018, -- [3]
-						22019, -- [4]
-						22020, -- [5]
-						22021, -- [6]
-						22515, -- [7]
-						22517, -- [8]
-						22519, -- [9]
-						22521, -- [10]
-						22523, -- [11]
-						22525, -- [12]
-						22527, -- [13]
-						22529, -- [14]
-						22031, -- [15]
-						22531, -- [16]
-						22533, -- [17]
-						22535, -- [18]
-						22023, -- [19]
-						22109, -- [20]
-						22537, -- [21]
+						22590, -- [1]
+						22557, -- [2]
+						22175, -- [3]
+						22319, -- [4]
+						22592, -- [5]
+						22593, -- [6]
+						22896, -- [7]
+						22180, -- [8]
+						21811, -- [9]
+						22375, -- [10]
+						22182, -- [11]
+						22183, -- [12]
+						22595, -- [13]
+						22185, -- [14]
+						22186, -- [15]
+						22485, -- [16]
+						22483, -- [17]
+						22484, -- [18]
+						22591, -- [19]
+						22215, -- [20]
+						22634, -- [21]
 					},
-				}, -- [2]
-				{
-					["id"] = 252,
-					["talents"] = {
-						22024, -- [1]
-						22025, -- [2]
-						22026, -- [3]
-						22027, -- [4]
-						22028, -- [5]
-						22029, -- [6]
-						22516, -- [7]
-						22518, -- [8]
-						22520, -- [9]
-						22522, -- [10]
-						22524, -- [11]
-						22526, -- [12]
-						22528, -- [13]
-						22530, -- [14]
-						22022, -- [15]
-						22532, -- [16]
-						22534, -- [17]
-						22536, -- [18]
-						22030, -- [19]
-						22110, -- [20]
-						22538, -- [21]
-					},
-				}, -- [3]
+				},
 			},
 			["Version"] = 24015,
 		},
@@ -801,61 +775,87 @@ DataStore_TalentsRefDB = {
 			},
 			["Version"] = 24015,
 		},
-		["PALADIN"] = {
+		["DEATHKNIGHT"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
 				{
-					["id"] = 65,
+					["id"] = 250,
 					["talents"] = {
-						17565, -- [1]
-						17567, -- [2]
-						17569, -- [3]
-						22176, -- [4]
-						17575, -- [5]
-						17577, -- [6]
-						22179, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22181, -- [10]
-						17591, -- [11]
-						17593, -- [12]
-						17597, -- [13]
-						17599, -- [14]
-						22164, -- [15]
-						22189, -- [16]
-						22190, -- [17]
-						22484, -- [18]
-						21668, -- [19]
-						21671, -- [20]
-						21203, -- [21]
+						19165, -- [1]
+						19166, -- [2]
+						19217, -- [3]
+						19218, -- [4]
+						19219, -- [5]
+						19220, -- [6]
+						19221, -- [7]
+						22134, -- [8]
+						22135, -- [9]
+						22013, -- [10]
+						22014, -- [11]
+						22015, -- [12]
+						19227, -- [13]
+						19226, -- [14]
+						19228, -- [15]
+						19230, -- [16]
+						19231, -- [17]
+						19232, -- [18]
+						21207, -- [19]
+						21208, -- [20]
+						21209, -- [21]
 					},
 				}, -- [1]
-				[3] = {
-					["id"] = 70,
+				{
+					["id"] = 251,
 					["talents"] = {
-						22590, -- [1]
-						22557, -- [2]
-						22175, -- [3]
-						22319, -- [4]
-						22592, -- [5]
-						22593, -- [6]
-						22896, -- [7]
-						22180, -- [8]
-						21811, -- [9]
-						22375, -- [10]
-						22182, -- [11]
-						22183, -- [12]
-						22595, -- [13]
-						22185, -- [14]
-						22186, -- [15]
-						22485, -- [16]
-						22483, -- [17]
-						22484, -- [18]
-						22591, -- [19]
-						22215, -- [20]
-						22634, -- [21]
+						22016, -- [1]
+						22017, -- [2]
+						22018, -- [3]
+						22019, -- [4]
+						22020, -- [5]
+						22021, -- [6]
+						22515, -- [7]
+						22517, -- [8]
+						22519, -- [9]
+						22521, -- [10]
+						22523, -- [11]
+						22525, -- [12]
+						22527, -- [13]
+						22529, -- [14]
+						22031, -- [15]
+						22531, -- [16]
+						22533, -- [17]
+						22535, -- [18]
+						22023, -- [19]
+						22109, -- [20]
+						22537, -- [21]
 					},
-				},
+				}, -- [2]
+				{
+					["id"] = 252,
+					["talents"] = {
+						22024, -- [1]
+						22025, -- [2]
+						22026, -- [3]
+						22027, -- [4]
+						22028, -- [5]
+						22029, -- [6]
+						22516, -- [7]
+						22518, -- [8]
+						22520, -- [9]
+						22522, -- [10]
+						22524, -- [11]
+						22526, -- [12]
+						22528, -- [13]
+						22530, -- [14]
+						22022, -- [15]
+						22532, -- [16]
+						22534, -- [17]
+						22536, -- [18]
+						22030, -- [19]
+						22110, -- [20]
+						22538, -- [21]
+					},
+				}, -- [3]
 			},
 			["Version"] = 24015,
 		},
