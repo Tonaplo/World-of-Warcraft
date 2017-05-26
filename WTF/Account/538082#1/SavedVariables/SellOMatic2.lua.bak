@@ -14,15 +14,15 @@ SellOMatic2DB = {
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["autoSell"] = "JUNK",
 			["safe_mode"] = false,
+			["autoSell"] = "JUNK",
 		},
 	},
 }

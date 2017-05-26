@@ -53,14 +53,16 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -70,13 +72,11 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1319616958,
+							["Mallusof"] = 1313501862,
 						},
 					},
 				},
@@ -128,14 +128,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -163,36 +169,14 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -685,6 +669,22 @@ LUIDB = {
 						},
 					},
 				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -763,71 +763,71 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g Anyone for a +3 Vault?", -- [1]
-							" Kewl, write me on Bnet when you're ready :P", -- [2]
-							"/g Anyone for a +3 Vault?", -- [3]
+							"/p hide strat?", -- [1]
+							"/g Anyone for a +3 Vault?", -- [2]
+							"/s WTF", -- [3]
 							" Kewl, write me on Bnet when you're ready :P", -- [4]
 							"/s WTF", -- [5]
 							"/p hide strat?", -- [6]
-							" Kewl, write me on Bnet when you're ready :P", -- [7]
-							"/g Anyone for a +3 Vault?", -- [8]
-							" Kewl, write me on Bnet when you're ready :P", -- [9]
-							"/s WTF", -- [10]
-							" Kewl, write me on Bnet when you're ready :P", -- [11]
-							"/s WTF", -- [12]
-							"/p hide strat?", -- [13]
-							" Kewl, write me on Bnet when you're ready :P", -- [14]
+							"/s WTF", -- [7]
+							"/p hide strat?", -- [8]
+							"/g Anyone for a +3 Vault?", -- [9]
+							" Kewl, write me on Bnet when you're ready :P", -- [10]
+							"/p hide strat?", -- [11]
+							"/g Anyone for a +3 Vault?", -- [12]
+							"/s WTF", -- [13]
+							"/p hide strat?", -- [14]
 							"/g Anyone for a +3 Vault?", -- [15]
-							" Kewl, write me on Bnet when you're ready :P", -- [16]
-							"/s WTF", -- [17]
-							"/p hide strat?", -- [18]
-							" Kewl, write me on Bnet when you're ready :P", -- [19]
-							"/g Anyone for a +3 Vault?", -- [20]
-							" Kewl, write me on Bnet when you're ready :P", -- [21]
-							"/s WTF", -- [22]
-							" Kewl, write me on Bnet when you're ready :P", -- [23]
+							"/s WTF", -- [16]
+							" Kewl, write me on Bnet when you're ready :P", -- [17]
+							"/s WTF", -- [18]
+							"/p hide strat?", -- [19]
+							"/s WTF", -- [20]
+							"/p hide strat?", -- [21]
+							"/g Anyone for a +3 Vault?", -- [22]
+							"/p hide strat?", -- [23]
 							"/s WTF", -- [24]
-							"/p hide strat?", -- [25]
-							"/g Anyone for a +3 Vault?", -- [26]
-							"/s WTF", -- [27]
-							" Kewl, write me on Bnet when you're ready :P", -- [28]
+							"/g Anyone for a +3 Vault?", -- [25]
+							" Kewl, write me on Bnet when you're ready :P", -- [26]
+							"/p hide strat?", -- [27]
+							"/g Anyone for a +3 Vault?", -- [28]
 							"/s WTF", -- [29]
-							"/p hide strat?", -- [30]
-							"/s WTF", -- [31]
-							"/p hide strat?", -- [32]
+							" Kewl, write me on Bnet when you're ready :P", -- [30]
+							"/g Anyone for a +3 Vault?", -- [31]
+							" Kewl, write me on Bnet when you're ready :P", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Kaligon-Tichondrius As in", -- [1]
-							"/4 You guys get the high HPS, I get the dying guys as much as I can", -- [2]
-							"/cw Meowfurryoff-Tichondrius yeah, it's supposed to do around that", -- [3]
-							"/macro", -- [4]
+							"/g I want that", -- [1]
+							"/g Every Ret Paladin is already Meow's bitch", -- [2]
+							"/cw Kalithumos Put as mark on me", -- [3]
+							"/g court what", -- [4]
 							"/cw Kalithumos Put as mark on me", -- [5]
-							"/cw Kalithumos-Tichondrius ....", -- [6]
+							"/g ... that made no sense", -- [6]
 							"/cw Kaligon It's been stupid for a lot of pulls", -- [7]
-							"/cw Kaligon-Tichondrius People are also all over the place, not taking anywhere near the optimal paths", -- [8]
-							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [9]
-							"/cw Kaligon-Tichondrius bubbles on top of eachother", -- [10]
-							"/g Reportme, you're so full of shit", -- [11]
-							"/g sure n", -- [12]
-							"/raid I need a summon too", -- [13]
-							"/cw Meowfurryoff-Tichondrius I just saw it when I was mogging :P", -- [14]
-							"/cw Kaligon-Tichondrius As in", -- [15]
-							"/cw Meowfurryoff-Tichondrius yeah, it's supposed to do around that", -- [16]
-							"/cw Kalithumos Put as mark on me", -- [17]
-							"/cw Kaligon It's been stupid for a lot of pulls", -- [18]
-							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [19]
-							"/g Reportme, you're so full of shit", -- [20]
+							"/raid I need a summon too", -- [8]
+							"/s a table please?", -- [9]
+							"/s table pelase \":)", -- [10]
+							"/i I do", -- [11]
+							"/i anyone wants the feet?", -- [12]
+							"/g Depends", -- [13]
+							"/g Getting the others up to that now as well", -- [14]
+							"/g it was A LOT", -- [15]
+							"/g and M+", -- [16]
+							"/g holy fuck", -- [17]
+							"/g Every Ret Paladin is already Meow's bitch", -- [18]
+							"/g court what", -- [19]
+							"/g ... that made no sense", -- [20]
 							"/raid I need a summon too", -- [21]
-							"/cw Kaligon-Tichondrius As in", -- [22]
-							"/cw Kalithumos Put as mark on me", -- [23]
-							"/cw Kaligon-Tichondrius when the  fast add dies on the slow or vice versa", -- [24]
-							"/raid I need a summon too", -- [25]
-							"/cw Kalithumos Put as mark on me", -- [26]
-							"/raid I need a summon too", -- [27]
-							"/g court what", -- [28]
-							"/g level", -- [29]
-							"/g this week", -- [30]
-							"/g ... that made no sense", -- [31]
+							"/s table pelase \":)", -- [22]
+							"/i anyone wants the feet?", -- [23]
+							"/g Getting the others up to that now as well", -- [24]
+							"/g and M+", -- [25]
+							"/g Every Ret Paladin is already Meow's bitch", -- [26]
+							"/g ... that made no sense", -- [27]
+							"/s table pelase \":)", -- [28]
+							"/g Getting the others up to that now as well", -- [29]
+							"/g Every Ret Paladin is already Meow's bitch", -- [30]
+							"/s table pelase \":)", -- [31]
 							"/g Every Ret Paladin is already Meow's bitch", -- [32]
 						},
 					},
@@ -2275,22 +2275,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {
