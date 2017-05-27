@@ -1,5 +1,30 @@
 
 RematchSaved = {
+	[117950] = {
+		{
+			"BattlePet-0-000008688254", -- [1]
+			115, -- [2]
+			779, -- [3]
+			334, -- [4]
+			844, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000008683967", -- [1]
+			210, -- [2]
+			654, -- [3]
+			212, -- [4]
+			190, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-000006CDF3BD", -- [1]
+			210, -- [2]
+			212, -- [3]
+			650, -- [4]
+			458, -- [5]
+		}, -- [3]
+		["tab"] = 2,
+		["teamName"] = "Madam Viciosa",
+	},
 }
 RematchSettings = {
 	["ScriptFilters"] = {
@@ -33,11 +58,16 @@ RematchSettings = {
 		["FavoritesFirst"] = true,
 	},
 	["JournalPanel"] = 1,
+	["BackupCount"] = 0,
 	["TeamGroups"] = {
 		{
 			"General", -- [1]
 			"Interface\\Icons\\PetJournalPortrait", -- [2]
 		}, -- [1]
+		{
+			"The Broken Shore", -- [1]
+			1118739, -- [2]
+		}, -- [2]
 	},
 	["Filters"] = {
 		["Other"] = {
@@ -49,6 +79,7 @@ RematchSettings = {
 		["Tough"] = {
 		},
 		["Level"] = {
+			[4] = true,
 		},
 		["Sources"] = {
 		},
@@ -67,17 +98,49 @@ RematchSettings = {
 	},
 	["CollapsedOptHeaders"] = {
 	},
+	["loadedTeam"] = 117950,
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
+		["BattlePet-0-000008683967"] = {
+			1, -- [1]
+			true, -- [2]
+			190, -- [3]
+			25, -- [4]
+			1675, -- [5]
+			255, -- [6]
+			210, -- [7]
+			3, -- [8]
+		},
+		["BattlePet-0-000008688254"] = {
+			1, -- [1]
+			true, -- [2]
+			844, -- [3]
+			25, -- [4]
+			1400, -- [5]
+			276, -- [6]
+			309, -- [7]
+			4, -- [8]
+		},
+		["BattlePet-0-000006CDF3BD"] = {
+			1, -- [1]
+			true, -- [2]
+			458, -- [3]
+			25, -- [4]
+			1338, -- [5]
+			248, -- [6]
+			206, -- [7]
+			2, -- [8]
+		},
 	},
+	["JournalUsed"] = true,
 	["CornerPos"] = "BOTTOMLEFT",
 	["LevelingSlots"] = {
 	},
 	["LevelingQueue"] = {
 	},
 	["YPos"] = 250.59748840332,
-	["SelectedTab"] = 1,
+	["SelectedTab"] = 2,
 	["PetNotes"] = {
 	},
 }

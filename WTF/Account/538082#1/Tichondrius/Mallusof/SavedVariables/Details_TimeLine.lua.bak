@@ -1,74 +1,7 @@
 
 DetailsTimeLineDB = {
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Tonke-Dalaran"] = {
-				{
-					["time"] = 23.9010000000126,
-					["events"] = {
-						{
-							true, -- [1]
-							194960, -- [2]
-							327907, -- [3]
-							1495739973.506, -- [4]
-							211734, -- [5]
-							"[*] Soul Echoes", -- [6]
-							2890, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							194960, -- [2]
-							327907, -- [3]
-							1495739974.522, -- [4]
-							1, -- [5]
-							"[*] Soul Echoes", -- [6]
-							nil, -- [7]
-							32, -- [8]
-							false, -- [9]
-							52511, -- [10]
-						}, -- [2]
-					},
-				}, -- [1]
-			},
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
-		{
-			["date_start"] = "12:33:09",
-			["date_end"] = "12:34:02",
-			["name"] = "Lord Kur'talos Ravencrest",
-			["total_time"] = 53,
-		}, -- [1]
-		{
-			["date_start"] = "12:31:17",
-			["date_end"] = "12:31:45",
-			["name"] = "Smashspite the Hateful",
-			["total_time"] = 27.9990000000107,
-		}, -- [2]
-		{
-			["date_start"] = "12:26:32",
-			["date_end"] = "12:27:27",
-			["name"] = "Ilysanna Ravencrest",
-			["total_time"] = 55.0050000000047,
-		}, -- [3]
-		{
-			["date_start"] = "12:19:10",
-			["date_end"] = "12:20:22",
-			["name"] = "Amalgam of Souls",
-			["total_time"] = 72.002999999997,
-		}, -- [4]
-	},
 	["cooldowns_timeline"] = {
 		{
 			["Urooz-MoonGuard"] = {
@@ -141,6 +74,48 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			["Tonke-Dalaran"] = {
+				{
+					["time"] = 23.9010000000126,
+					["events"] = {
+						{
+							true, -- [1]
+							194960, -- [2]
+							327907, -- [3]
+							1495739973.506, -- [4]
+							211734, -- [5]
+							"[*] Soul Echoes", -- [6]
+							2890, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							194960, -- [2]
+							327907, -- [3]
+							1495739974.522, -- [4]
+							1, -- [5]
+							"[*] Soul Echoes", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							52511, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Ffxigirl-Whisperwind"] = {
@@ -258,11 +233,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "12:33:09",
+			["date_end"] = "12:34:02",
+			["name"] = "Lord Kur'talos Ravencrest",
+			["total_time"] = 53,
+		}, -- [1]
+		{
+			["date_start"] = "12:31:17",
+			["date_end"] = "12:31:45",
+			["name"] = "Smashspite the Hateful",
+			["total_time"] = 27.9990000000107,
+		}, -- [2]
+		{
+			["date_start"] = "12:26:32",
+			["date_end"] = "12:27:27",
+			["name"] = "Ilysanna Ravencrest",
+			["total_time"] = 55.0050000000047,
+		}, -- [3]
+		{
+			["date_start"] = "12:19:10",
+			["date_end"] = "12:20:22",
+			["name"] = "Amalgam of Souls",
+			["total_time"] = 72.002999999997,
+		}, -- [4]
 	},
 }

@@ -1,13 +1,421 @@
 
 DetailsTimeLineDB = {
+	["combat_data"] = {
+		{
+			["date_end"] = "23:08:24",
+			["date_start"] = "23:06:47",
+			["name"] = "Erudax",
+			["total_time"] = 97.005000000001,
+		}, -- [1]
+		{
+			["date_end"] = "23:03:48",
+			["date_start"] = "23:02:28",
+			["name"] = "Drahga Shadowburner",
+			["total_time"] = 80.0010000000002,
+		}, -- [2]
+		{
+			["date_end"] = "22:58:21",
+			["date_start"] = "22:56:51",
+			["name"] = "Forgemaster Throngus",
+			["total_time"] = 90.003999999999,
+		}, -- [3]
+		{
+			["date_end"] = "22:55:20",
+			["date_start"] = "22:54:16",
+			["name"] = "General Umbriss",
+			["total_time"] = 64.0020000000004,
+		}, -- [4]
+	},
+	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["debuff_timeline"] = {
+		{
+			["Mygqt-EmeraldDream"] = {
+				[182515] = {
+					97.005000000001, -- [1]
+					97.005000000001, -- [2]
+					["source"] = "Mygqt-EmeraldDream",
+					["active"] = false,
+				},
+			},
+			["Scrubnub-WyrmrestAccord"] = {
+				[75755] = {
+					71.8280000000014, -- [1]
+					72.8650000000016, -- [2]
+					["source"] = "Faceless Corruptor",
+					["active"] = false,
+				},
+				[75694] = {
+					88.3709999999992, -- [1]
+					89.6359999999986, -- [2]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+			},
+			["Bortaguss"] = {
+				[182515] = {
+					97.005000000001, -- [1]
+					97.005000000001, -- [2]
+					["source"] = "Mygqt-EmeraldDream",
+					["active"] = false,
+				},
+			},
+			["Kalishter-Quel'Thalas"] = {
+				[75792] = {
+					20.6320000000014, -- [1]
+					25.6369999999988, -- [2]
+					56.6820000000007, -- [3]
+					61.6840000000011, -- [4]
+					["source"] = "Erudax",
+					["active"] = false,
+				},
+				[75694] = {
+					32.5460000000021, -- [1]
+					42.7920000000013, -- [2]
+					88.3709999999992, -- [3]
+					97.005000000001, -- [4]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+				[75692] = {
+					32.5460000000021, -- [1]
+					44.5529999999999, -- [2]
+					88.3830000000016, -- [3]
+					97.005000000001, -- [4]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+			},
+			["Feyling-WyrmrestAccord"] = {
+				[75861] = {
+					14.1330000000016, -- [1]
+					20.1369999999988, -- [2]
+					["source"] = "Erudax",
+					["active"] = false,
+				},
+				[75694] = {
+					88.3709999999992, -- [1]
+					90.619999999999, -- [2]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+				[75692] = {
+					88.3830000000016, -- [1]
+					91.3970000000009, -- [2]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+			},
+			["Vinsabel-WyrmrestAccord"] = {
+				[75861] = {
+					50.1340000000018, -- [1]
+					56.1490000000013, -- [2]
+					["source"] = "Erudax",
+					["active"] = false,
+				},
+				[75694] = {
+					88.3709999999992, -- [1]
+					89.6359999999986, -- [2]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+				[75692] = {
+					88.3830000000016, -- [1]
+					91.3970000000009, -- [2]
+					["source"] = "[*] Shadow Gale",
+					["active"] = false,
+				},
+			},
+			["Mallusof"] = {
+				[75861] = {
+					72.0030000000006, -- [1]
+					75.206000000002, -- [2]
+					["source"] = "Erudax",
+					["active"] = false,
+				},
+			},
+			["Bigredfemist"] = {
+				[182515] = {
+					97.005000000001, -- [1]
+					97.005000000001, -- [2]
+					["source"] = "Mygqt-EmeraldDream",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+			["Scrubnub-WyrmrestAccord"] = {
+				[75317] = {
+					45.5460000000003, -- [1]
+					49.8080000000009, -- [2]
+					["source"] = "[*] Seeping Twilight",
+					["active"] = false,
+				},
+			},
+			["Feyling-WyrmrestAccord"] = {
+				[75317] = {
+					31.5400000000009, -- [1]
+					33.8090000000011, -- [2]
+					41.5410000000011, -- [3]
+					43.8050000000003, -- [4]
+					44.5470000000005, -- [5]
+					46.8029999999999, -- [6]
+					["source"] = "[*] Seeping Twilight",
+					["active"] = false,
+				},
+			},
+			["Vinsabel-WyrmrestAccord"] = {
+				[75317] = {
+					31.5400000000009, -- [1]
+					33.8090000000011, -- [2]
+					37.5500000000011, -- [3]
+					38.8109999999997, -- [4]
+					43.5419999999995, -- [5]
+					46.8029999999999, -- [6]
+					52.982, -- [7]
+					55.2430000000004, -- [8]
+					["source"] = "[*] Seeping Twilight",
+					["active"] = false,
+				},
+			},
+			["Kalishter-Quel'Thalas"] = {
+				[75317] = {
+					31.5400000000009, -- [1]
+					49.8080000000009, -- [2]
+					52.982, -- [3]
+					71.2360000000008, -- [4]
+					["source"] = "[*] Seeping Twilight",
+					["active"] = false,
+				},
+			},
+		}, -- [2]
+		{
+			["Scrubnub-WyrmrestAccord"] = {
+				[74976] = {
+					54.8149999999987, -- [1]
+					55.7999999999993, -- [2]
+					76.6459999999988, -- [3]
+					77.146999999999, -- [4]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+			},
+			["Kalishter-Quel'Thalas"] = {
+				[74976] = {
+					54.8149999999987, -- [1]
+					56.2299999999996, -- [2]
+					76.6459999999988, -- [3]
+					78.5829999999987, -- [4]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+				[90764] = {
+					49.5450000000001, -- [1]
+					67.3249999999989, -- [2]
+					70.1359999999986, -- [3]
+					79.9259999999995, -- [4]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+				[74987] = {
+					8.11599999999999, -- [1]
+					13.6939999999995, -- [2]
+					["source"] = "[*] Cave In",
+					["active"] = false,
+				},
+				[76715] = {
+					1.90699999999924, -- [1]
+					9.91200000000026, -- [2]
+					["source"] = "Twilight Beguiler",
+					["active"] = false,
+				},
+			},
+			["Feyling-WyrmrestAccord"] = {
+				[74976] = {
+					54.7899999999991, -- [1]
+					57.860999999999, -- [2]
+					76.6459999999988, -- [3]
+					78.7639999999992, -- [4]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+				[74987] = {
+					8.11599999999999, -- [1]
+					20.5749999999989, -- [2]
+					23.7950000000001, -- [3]
+					31.0730000000003, -- [4]
+					34.7240000000002, -- [5]
+					41.5820000000003, -- [6]
+					50.476999999999, -- [7]
+					57.3199999999997, -- [8]
+					["source"] = "[*] Cave In",
+					["active"] = false,
+				},
+				[75056] = {
+					88.7849999999999, -- [1]
+					90.003999999999, -- [2]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+			},
+			["Vinsabel-WyrmrestAccord"] = {
+				[74976] = {
+					54.7899999999991, -- [1]
+					65.4470000000001, -- [2]
+					76.6459999999988, -- [3]
+					81.9529999999995, -- [4]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+				[74987] = {
+					56.5839999999989, -- [1]
+					62.5889999999999, -- [2]
+					["source"] = "[*] Cave In",
+					["active"] = false,
+				},
+			},
+			["Mallusof"] = {
+				[74976] = {
+					54.7899999999991, -- [1]
+					54.8429999999989, -- [2]
+					76.6459999999988, -- [3]
+					76.8320000000003, -- [4]
+					["source"] = "Forgemaster Throngus",
+					["active"] = false,
+				},
+				[76711] = {
+					8.34900000000016, -- [1]
+					8.72799999999916, -- [2]
+					["source"] = "Twilight Beguiler",
+					["active"] = false,
+				},
+				[76715] = {
+					3.71999999999935, -- [1]
+					8.72799999999916, -- [2]
+					["source"] = "Twilight Beguiler",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Vinsabel-WyrmrestAccord"] = {
+				[74837] = {
+					15.5730000000003, -- [1]
+					25.5739999999987, -- [2]
+					["source"] = "Malignant Trogg",
+					["active"] = false,
+				},
+			},
+			["Feyling-WyrmrestAccord"] = {
+				[74837] = {
+					16.6039999999994, -- [1]
+					26.6029999999992, -- [2]
+					["source"] = "Trogg Dweller",
+					["active"] = false,
+				},
+			},
+			["Kalishter-Quel'Thalas"] = {
+				[76507] = {
+					13.2139999999999, -- [1]
+					22.2139999999999, -- [2]
+					["source"] = "Trogg Dweller",
+					["active"] = false,
+				},
+				[74846] = {
+					10.7839999999997, -- [1]
+					12.7960000000003, -- [2]
+					31.4599999999991, -- [3]
+					41.473, -- [4]
+					52.1229999999996, -- [5]
+					54.125, -- [6]
+					["source"] = "General Umbriss",
+					["active"] = false,
+				},
+				[74837] = {
+					15.5730000000003, -- [1]
+					17.7829999999994, -- [2]
+					["source"] = "Malignant Trogg",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+			["Feyling-WyrmrestAccord"] = {
+				{
+					19.2590000000018, -- [1]
+					"Feyling-WyrmrestAccord", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Kalishter-Quel'Thalas"] = {
+				{
+					14.3950000000004, -- [1]
+					"Kalishter-Quel'Thalas", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					43.0200000000004, -- [1]
+					"Kalishter-Quel'Thalas", -- [2]
+					633, -- [3]
+				}, -- [2]
+				{
+					94.3980000000011, -- [1]
+					"Kalishter-Quel'Thalas", -- [2]
+					31850, -- [3]
+				}, -- [3]
+			},
+		}, -- [1]
+		{
+			["Kalishter-Quel'Thalas"] = {
+				{
+					2.11599999999999, -- [1]
+					"Kalishter-Quel'Thalas", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Kalishter-Quel'Thalas"] = {
+				{
+					61.3269999999993, -- [1]
+					"Kalishter-Quel'Thalas", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+			["Feyling-WyrmrestAccord"] = {
+				{
+					32.610999999999, -- [1]
+					"Feyling-WyrmrestAccord", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Feyling-WyrmrestAccord"] = {
+				{
+					23.0110000000004, -- [1]
+					"Feyling-WyrmrestAccord", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Kalishter-Quel'Thalas"] = {
+				{
+					1.77599999999984, -- [1]
+					"Kalishter-Quel'Thalas", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,253 +424,25 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
-			["Tonke-Dalaran"] = {
+			["Scrubnub-WyrmrestAccord"] = {
 				{
-					["time"] = 23.9010000000126,
+					["time"] = 19.4269999999997,
 					["events"] = {
 						{
 							true, -- [1]
-							194960, -- [2]
-							327907, -- [3]
-							1495739973.506, -- [4]
-							211734, -- [5]
-							"[*] Soul Echoes", -- [6]
-							2890, -- [7]
-							32, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							194960, -- [2]
-							327907, -- [3]
-							1495739974.522, -- [4]
+							74675, -- [2]
+							90526, -- [3]
+							1495864476.727, -- [4]
 							1, -- [5]
-							"[*] Soul Echoes", -- [6]
-							nil, -- [7]
-							32, -- [8]
+							"General Umbriss", -- [6]
+							11857, -- [7]
+							1, -- [8]
 							false, -- [9]
-							52511, -- [10]
-						}, -- [2]
+							44961, -- [10]
+						}, -- [1]
 					},
 				}, -- [1]
 			},
-		}, -- [4]
-	},
-	["debuff_timeline"] = {
-		{
-			["Ffxigirl-Whisperwind"] = {
-				[201733] = {
-					45.7729999999865, -- [1]
-					50.5709999999963, -- [2]
-					["source"] = "Dantalionax",
-					["active"] = false,
-				},
-			},
-			["Nöc"] = {
-				[223203] = {
-					53, -- [1]
-					53, -- [2]
-					["source"] = "Nöc",
-					["active"] = false,
-				},
-				[223202] = {
-					53, -- [1]
-					["source"] = "Nöc",
-					["active"] = true,
-				},
-			},
-			["Snookiie-Deathwing"] = {
-				[198635] = {
-					5.63500000000931, -- [1]
-					50.5709999999963, -- [2]
-					["source"] = "Kur'talos Ravencrest",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-			["Ffxigirl-Whisperwind"] = {
-				[198079] = {
-					4.69900000002235, -- [1]
-					9.71199999999953, -- [2]
-					["source"] = "Smashspite the Hateful",
-					["active"] = false,
-				},
-				[224188] = {
-					10.4260000000068, -- [1]
-					27.3530000000028, -- [2]
-					["source"] = "Smashspite the Hateful",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-			["Ffxigirl-Whisperwind"] = {
-				[197478] = {
-					11.5240000000049, -- [1]
-					17.6430000000109, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-				[197521] = {
-					17.6529999999912, -- [1]
-					19.8630000000121, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-			},
-			["Snookiie-Deathwing"] = {
-				[197478] = {
-					11.5240000000049, -- [1]
-					17.5119999999879, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-				[197521] = {
-					17.5430000000051, -- [1]
-					19.4409999999916, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-			},
-			["Mallusof"] = {
-				[197521] = {
-					18.2900000000082, -- [1]
-					19.8630000000121, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-				[197478] = {
-					11.5240000000049, -- [1]
-					18.1929999999993, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-				[197546] = {
-					7.8640000000014, -- [1]
-					52.1760000000068, -- [2]
-					["source"] = "Illysanna Ravencrest",
-					["active"] = false,
-				},
-			},
-		}, -- [3]
-		{
-			["Ffxigirl-Whisperwind"] = {
-				[194956] = {
-					23.1939999999886, -- [1]
-					53.1849999999977, -- [2]
-					["source"] = "Amalgam of Souls",
-					["active"] = false,
-				},
-			},
-			["Tonke-Dalaran"] = {
-				[194966] = {
-					16.8489999999874, -- [1]
-					23.8559999999998, -- [2]
-					["source"] = "Amalgam of Souls",
-					["active"] = false,
-				},
-			},
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
-		{
-			["Snookiie-Deathwing"] = {
-				{
-					34.7200000000012, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					22812, -- [3]
-				}, -- [1]
-			},
-			["Urooz-MoonGuard"] = {
-				{
-					27.6190000000061, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Snookiie-Deathwing"] = {
-				{
-					3.04899999999907, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					3.37799999999697, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					22812, -- [3]
-				}, -- [2]
-				{
-					19.9490000000224, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					22842, -- [3]
-				}, -- [3]
-			},
-		}, -- [2]
-		{
-			["Snookiie-Deathwing"] = {
-				{
-					3.50099999998929, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					22812, -- [3]
-				}, -- [1]
-				{
-					12.3010000000068, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					61336, -- [3]
-				}, -- [2]
-			},
-		}, -- [3]
-		{
-			["Urooz-MoonGuard"] = {
-				{
-					9.16500000000815, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-			["Snookiie-Deathwing"] = {
-				{
-					1.84700000000885, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					2.20799999998417, -- [1]
-					"Snookiie-Deathwing", -- [2]
-					22812, -- [3]
-				}, -- [2]
-			},
-		}, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "12:34:02",
-			["date_start"] = "12:33:09",
-			["name"] = "Lord Kur'talos Ravencrest",
-			["total_time"] = 53,
-		}, -- [1]
-		{
-			["date_end"] = "12:31:45",
-			["date_start"] = "12:31:17",
-			["name"] = "Smashspite the Hateful",
-			["total_time"] = 27.9990000000107,
-		}, -- [2]
-		{
-			["date_end"] = "12:27:27",
-			["date_start"] = "12:26:32",
-			["name"] = "Ilysanna Ravencrest",
-			["total_time"] = 55.0050000000047,
-		}, -- [3]
-		{
-			["date_end"] = "12:20:22",
-			["date_start"] = "12:19:10",
-			["name"] = "Amalgam of Souls",
-			["total_time"] = 72.002999999997,
 		}, -- [4]
 	},
 }
