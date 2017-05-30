@@ -322,7 +322,7 @@ ringContainer = CreateFrame("FRAME", nil, panel) do
 			PlaySound("UChatScrollButton")
 		end)
 		b:SetScript("OnEnter", function(self)
-			GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+			GameTooltip:SetOwner(self, "ANCHOR_NONE")
 			GameTooltip:SetPoint("LEFT", self, "RIGHT", 2, 0)
 			GameTooltip:AddLine(L"Add a new slice", 1, 1, 1)
 			GameTooltip:Show()

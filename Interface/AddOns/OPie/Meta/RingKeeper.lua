@@ -114,7 +114,7 @@ local RK_ParseMacro, RK_QuantizeMacro do -- +RingKeeper:SetMountPreference(groun
 	local parseLine, quantizeLine, prepareQuantizer do
 		local tip = CreateFrame("GameTooltip")
 		tip:AddFontStrings(tip:CreateFontString(), tip:CreateFontString())
-		tip:SetOwner(UIParent, "ANCHOR_CURSOR")
+		tip:SetOwner(UIParent, "ANCHOR_NONE")
 		parseLine = genLineParser(function(value)
 			local prefix, tkey, tval = value:match("^%s*(!?)%s*{{(%a+):([%a%d/]+)}}%s*$")
 			if tkey == "spell" then

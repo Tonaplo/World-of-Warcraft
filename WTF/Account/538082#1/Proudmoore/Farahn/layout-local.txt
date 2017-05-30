@@ -7,7 +7,7 @@ Y: 0
 W: 232
 H: 100
 Frame: ColorPickerFrame
-FrameLevel: 21
+FrameLevel: 27
 Anchor: CENTER
 X: 0
 Y: 0
@@ -41,6 +41,13 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: BWMessageAnchor
+FrameLevel: 1
+Anchor: TOP
+X: 6
+Y: -200
+W: 200
+H: 20
 Frame: PlayerFrame
 FrameLevel: 8
 Anchor: CENTER

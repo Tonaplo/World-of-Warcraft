@@ -1,4 +1,11 @@
+VER 3 000000000000002A "CooldownRotation" "1386546"
+/cdr
+END
 VER 3 0000000000000006 "focus" "132222"
+/focus
+END
+VER 3 000000000000002B "Focus Elisande" "135440"
+/tar Elisande
 /focus
 END
 VER 3 0000000000000027 "Newplayers" "1516058"
@@ -6,7 +13,11 @@ VER 3 0000000000000027 "Newplayers" "1516058"
 END
 VER 3 0000000000000028 "Opie" "915741"
 /opie
-/click ORLClose Macros
+/click ORLCloseActiveRing Macros
+END
+VER 3 0000000000000029 "Penance Focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Penance
+/cast [exists][@focus] Penance
 END
 VER 3 0000000000000003 "Rchars" "134162"
 /rchars

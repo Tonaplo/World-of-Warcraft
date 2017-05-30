@@ -20,7 +20,7 @@ local bindLines = {} do
 	local function onEnter(self)
 		if self.tooltipTitle then
 			local c1, c2 = HIGHLIGHT_FONT_COLOR, NORMAL_FONT_COLOR
-			GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+			GameTooltip:SetOwner(self, "ANCHOR_BOTTOMRIGHT")
 			GameTooltip:AddLine(self.tooltipTitle, c1.r, c1.g, c1.b)
 			GameTooltip:AddLine(self.tooltipText or "", c2.r, c2.g, c2.b, 1)
 			GameTooltip:Show()

@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "02:09:02",
+			["date_end"] = "02:09:48",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 46.0069999999978,
+		}, -- [1]
+		{
+			["date_start"] = "02:05:22",
+			["date_end"] = "02:06:39",
+			["name"] = "Dresaron",
+			["total_time"] = 77.0040000000008,
+		}, -- [2]
+		{
+			["date_start"] = "02:04:12",
+			["date_end"] = "02:05:20",
+			["name"] = "Dresaron",
+			["total_time"] = 68.0060000000012,
+		}, -- [3]
+		{
+			["date_start"] = "02:03:12",
+			["date_end"] = "02:04:03",
+			["name"] = "Dresaron",
+			["total_time"] = 51.0080000000016,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -134,7 +154,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Darkoverlord-Zul'jin"] = {
@@ -221,30 +240,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "02:09:02",
-			["date_end"] = "02:09:48",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 46.0069999999978,
-		}, -- [1]
-		{
-			["date_start"] = "02:05:22",
-			["date_end"] = "02:06:39",
-			["name"] = "Dresaron",
-			["total_time"] = 77.0040000000008,
-		}, -- [2]
-		{
-			["date_start"] = "02:04:12",
-			["date_end"] = "02:05:20",
-			["name"] = "Dresaron",
-			["total_time"] = 68.0060000000012,
-		}, -- [3]
-		{
-			["date_start"] = "02:03:12",
-			["date_end"] = "02:04:03",
-			["name"] = "Dresaron",
-			["total_time"] = 51.0080000000016,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

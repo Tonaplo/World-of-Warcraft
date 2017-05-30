@@ -254,6 +254,26 @@ OneRing_Config = {
 					["icon"] = 1339449,
 					["id"] = "/click ORLOpen Base",
 				}, -- [8]
+				{
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
+				}, -- [9]
+				{
+					"item", -- [1]
+					127770, -- [2]
+					["sliceToken"] = "ABuepjv9NWy",
+				}, -- [10]
+				{
+					"item", -- [1]
+					142117, -- [2]
+					["sliceToken"] = "ABuepjv9NWt",
+				}, -- [11]
+				{
+					"item", -- [1]
+					127846, -- [2]
+					["sliceToken"] = "ABuepjv9NWi",
+				}, -- [12]
 				["save"] = true,
 				["name"] = "Consumables",
 			},
@@ -274,8 +294,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuepjqUmtwp",
 					["id"] = 232698,
+					["sliceToken"] = "ABuepjqUmtwp",
 				}, -- [4]
 				["save"] = true,
 				["name"] = "Abilities",
@@ -335,33 +355,33 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
+					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
 					["icon"] = 134414,
-					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
+					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
 					["icon"] = 134707,
-					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
+					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
 					["icon"] = 1505928,
-					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
+					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
 					["icon"] = 134055,
-					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
+					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
 					["icon"] = 132147,
-					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				["name"] = "Base",
 				["save"] = true,
@@ -428,6 +448,11 @@ OneRing_Config = {
 					["icon"] = 1339449,
 					["id"] = "/click ORLOpen Base",
 				}, -- [12]
+				{
+					"macro", -- [1]
+					"CooldownRotation", -- [2]
+					["sliceToken"] = "ABuepkz9WXe",
+				}, -- [13]
 				["save"] = true,
 				["name"] = "Macros",
 			},

@@ -1,0 +1,11 @@
+## Interface: 60100
+## Title: CDR
+## Notes: Type /cdr to use. Allows setup of cooldowns for specific events or times
+## Author: Tonaplo
+## Version: 1.0.0
+## SavedVariables: CDRDatabase
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+
+embeds.xml
+CooldownRotationMain.lua

@@ -393,6 +393,7 @@ xl_savedvariables = {
 	}, -- [2]
 }
 xl_conditioner_options = {
+	["always_show"] = false,
 	["opacity"] = 0.7,
 	["hide_hotbar_incombat"] = false,
 	["tapersize"] = 0.75,

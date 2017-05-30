@@ -9,11 +9,11 @@ RCDatabase = {
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 	},
 	["realm"] = {
 		["Proudmoore"] = {
@@ -34,10 +34,10 @@ RCDatabase = {
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 875.9375,
 				["level"] = 110,
 				["firstProfLevel"] = 713,
-				["itemLevelOverall"] = 875.9375,
+				["firstProf"] = "Alchemy",
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
@@ -52,14 +52,14 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
-				["itemLevelEquipped"] = 867.3125,
+				["itemLevelEquipped"] = 873.875,
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
-				["itemLevelOverall"] = 867.3125,
+				["firstProf"] = "Mining",
 				["level"] = 110,
 				["firstProfLevel"] = 165,
-				["firstProf"] = "Mining",
+				["itemLevelOverall"] = 873.875,
 			}, -- [4]
 			{
 				["secondProfLevel"] = 703,
@@ -133,10 +133,10 @@ RCDatabase = {
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 843.1875,
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 843.1875,
+				["firstProf"] = "No 1st Prof",
 			}, -- [11]
 			["characterStored"] = 11,
 		},
@@ -157,11 +157,11 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 909.6875,
+				["itemLevelEquipped"] = 909.5625,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 913.625,
+				["itemLevelOverall"] = 913.3125,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
 				["firstProf"] = "Tailoring",
