@@ -1,36 +1,36 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Guilds"] = {
-			["Default.Proudmoore.Imperial Alliance"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Bleeding Hollow.Imperium"] = {
-				["faction"] = "Horde",
-			},
 			["Default.Tichondrius.Wisdom"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Risen"] = {
 				["faction"] = "Alliance",
+			},
+			["Default.Proudmoore.Imperial Alliance"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Bleeding Hollow.Imperium"] = {
+				["faction"] = "Horde",
 			},
 		},
 		["Version"] = 1,
@@ -50,26 +50,26 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Imperial Alliance",
 			},
-			["Default.Proudmoore.Faerand"] = {
+			["Default.Proudmoore.Rahran"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["faction"] = "Horde",
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["guildName"] = "Risen",
-				["faction"] = "Alliance",
-			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["faction"] = "Horde",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["faction"] = "Alliance",

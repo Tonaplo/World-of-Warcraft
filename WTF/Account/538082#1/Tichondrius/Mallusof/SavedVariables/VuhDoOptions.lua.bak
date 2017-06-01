@@ -467,8 +467,8 @@ VUHDO_GLOBAL_ICONS = {
 	["Tenderizing Strikes"] = 350570,
 	["Warped Armor"] = 132358,
 	["Overload"] = 136050,
-	["Exposed Veins"] = 457636,
 	["Touch of Doom"] = 1120185,
+	["Exposed Veins"] = 457636,
 	["Frail Soul"] = 236226,
 	["Arterial Bleeding"] = 236304,
 	["Icy Blood"] = 136243,
@@ -554,4 +554,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Blessing of Protection"] = 135964,
 	["Glossy"] = "Interface\\AddOns\\VuhDo\\Images\\icon_white_square",
 }
-VUHDO_GI_SCAN_IDX = 147401
+VUHDO_GI_SCAN_IDX = 128751

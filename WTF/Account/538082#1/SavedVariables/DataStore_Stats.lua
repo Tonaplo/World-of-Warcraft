@@ -1,22 +1,22 @@
 
 DataStore_StatsDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -47,16 +47,16 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1496124948,
+				["lastUpdate"] = 1496352016,
 				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|17.950000762939",
-					["HealthMax"] = 3988560,
-					["Melee"] = "10918-16379|2.8540000915527|0|0|17.950000762939|0",
-					["MaxPower"] = "0|1155000",
-					["Defense"] = "2014|1|3|0|0|0",
-					["PVP"] = "857|0",
-					["Base"] = "5924|7506|66476|49647|2014",
-					["Spell"] = "49647|49647|0|17.950000762939|9337|44000",
+					["Ranged"] = "1-2|0|0|0|12.295000076294",
+					["HealthMax"] = 3900660,
+					["Melee"] = "2411-4480|1.3710000514984|0|0|12.295000076294|0",
+					["MaxPower"] = "13|100",
+					["Defense"] = "2032|1|3|0|0|0",
+					["PVP"] = "866|0",
+					["Base"] = "5924|7506|65011|43570|2032",
+					["Spell"] = "43570|43570|0|12.295000076294|11254|35200",
 				},
 			},
 			["Default.Proudmoore.Miriyal"] = {
@@ -72,17 +72,17 @@ DataStore_StatsDB = {
 					["Defense"] = "2366|1|10.984939575195|3|0|0",
 				},
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1495995682,
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1493792657,
 				["Stats"] = {
-					["Ranged"] = "28951-28952|2.6340000629425|23665|0|22.854999542236",
-					["HealthMax"] = 1981440,
-					["Melee"] = "22606-22607|2.6340000629425|23665|0|22.854999542236|0",
-					["MaxPower"] = "2|120",
-					["Defense"] = "2507|1|17.832326889038|0|0|0",
+					["Ranged"] = "16005-16006|0|19892|0|23.840000152588",
+					["HealthMax"] = 1445640,
+					["Melee"] = "26225-28129|2.3680000305176|29838|0|23.840000152588|0",
+					["MaxPower"] = "3|100",
+					["Defense"] = "1809|1|9.8346309661865|3|0|0",
 					["PVP"] = "0|0",
-					["Base"] = "6227|23665|33024|6006|2507",
-					["Spell"] = "6006|6006|0|22.854999542236|5218|0",
+					["Base"] = "8481|19892|24094|5000|1809",
+					["Spell"] = "5000|5000|0|23.840000152588|3669|0",
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
@@ -98,32 +98,6 @@ DataStore_StatsDB = {
 					["Spell"] = "4997|4997|0|16.417499542236|4452|0",
 				},
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1493618471,
-				["Stats"] = {
-					["Ranged"] = "1-1|0|0|0|11.190473556519",
-					["HealthMax"] = 807,
-					["Melee"] = "82-96|3.6000001430511|57|0|11.190473556519|0",
-					["MaxPower"] = "1|100",
-					["Spell"] = "17|17|0|11.190473556519|0|0",
-					["PVP"] = "0|0",
-					["Base"] = "57|20|39|17|58",
-					["Defense"] = "58|1|3|5.3831577301025|3|0",
-				},
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1493792657,
-				["Stats"] = {
-					["Ranged"] = "16005-16006|0|19892|0|23.840000152588",
-					["HealthMax"] = 1445640,
-					["Melee"] = "26225-28129|2.3680000305176|29838|0|23.840000152588|0",
-					["MaxPower"] = "3|100",
-					["Defense"] = "1809|1|9.8346309661865|3|0|0",
-					["PVP"] = "0|0",
-					["Base"] = "8481|19892|24094|5000|1809",
-					["Spell"] = "5000|5000|0|23.840000152588|3669|0",
-				},
-			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 				["Stats"] = {
@@ -137,6 +111,19 @@ DataStore_StatsDB = {
 					["Defense"] = "87|1|2.82537317276|0|3|0",
 				},
 			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1495995682,
+				["Stats"] = {
+					["Ranged"] = "28951-28952|2.6340000629425|23665|0|22.854999542236",
+					["HealthMax"] = 1981440,
+					["Melee"] = "22606-22607|2.6340000629425|23665|0|22.854999542236|0",
+					["MaxPower"] = "2|120",
+					["Defense"] = "2507|1|17.832326889038|0|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "6227|23665|33024|6006|2507",
+					["Spell"] = "6006|6006|0|22.854999542236|5218|0",
+				},
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436399,
 				["Stats"] = {
@@ -148,6 +135,19 @@ DataStore_StatsDB = {
 					["PVP"] = "0|0",
 					["Base"] = "27058|7908|82389|4202|6856",
 					["Defense"] = "6856|1|3|20.397411346436|0|0",
+				},
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1493618471,
+				["Stats"] = {
+					["Ranged"] = "1-1|0|0|0|11.190473556519",
+					["HealthMax"] = 807,
+					["Melee"] = "82-96|3.6000001430511|57|0|11.190473556519|0",
+					["MaxPower"] = "1|100",
+					["Spell"] = "17|17|0|11.190473556519|0|0",
+					["PVP"] = "0|0",
+					["Base"] = "57|20|39|17|58",
+					["Defense"] = "58|1|3|5.3831577301025|3|0",
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {

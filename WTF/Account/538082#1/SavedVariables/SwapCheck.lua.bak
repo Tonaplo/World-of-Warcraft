@@ -22,5 +22,5 @@ swapBlasterList = {
 	["Tetsunochi"] = 4,
 	["Coaxed"] = 56,
 }
-lastSwapCaster = "Slicedlol"
-lastSwapTime = 35709.722
+lastSwapCaster = nil
+lastSwapTime = 0

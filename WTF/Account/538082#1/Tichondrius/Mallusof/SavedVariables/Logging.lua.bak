@@ -60,4 +60,9 @@ logInstances = {
 		["mapID"] = 1228,
 		["option"] = false,
 	}, -- [12]
+	{
+		["difficulty"] = 4,
+		["mapID"] = 603,
+		["option"] = false,
+	}, -- [13]
 }

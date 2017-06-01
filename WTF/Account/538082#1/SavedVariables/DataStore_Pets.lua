@@ -1,22 +1,22 @@
 
 DataStore_PetsDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -99,8 +99,8 @@ DataStore_PetsDB = {
 				[194357] = 97238,
 				[135261] = 68666,
 				[173543] = 86717,
-				[142880] = 71488,
 				[53316] = 29147,
+				[142880] = 71488,
 				[35910] = 21008,
 				[193434] = 98116,
 				[159296] = 78895,
@@ -108,8 +108,8 @@ DataStore_PetsDB = {
 				[187532] = 94623,
 				[236285] = 119040,
 				[93813] = 51632,
-				[71840] = 38374,
 				[135263] = 68661,
+				[71840] = 38374,
 				[190036] = 85009,
 				[141447] = 71020,
 				[70613] = 37865,
@@ -138,23 +138,23 @@ DataStore_PetsDB = {
 				[167394] = 83594,
 				[100576] = 54027,
 				[147124] = 73011,
-				[188084] = 94867,
+				[65382] = 33529,
 				[65358] = 34364,
 				[215560] = 108568,
-				[135267] = 68659,
-				[65382] = 33529,
+				[184482] = 93143,
+				[188084] = 94867,
 				[141451] = 71033,
 				[171222] = 85773,
 				[10680] = 7390,
 				[62609] = 33238,
-				[89039] = 47944,
 				[10684] = 7389,
+				[89039] = 47944,
 				[135268] = 68658,
 				[170277] = 88401,
 				[135265] = 68663,
 				[223339] = 112132,
 				[110029] = 58163,
-				[184482] = 93143,
+				[135267] = 68659,
 				[179830] = 90201,
 				[65046] = 34278,
 				[78685] = 42183,
@@ -197,7 +197,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1493959445,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1496124928,
+				["lastUpdate"] = 1496352012,
 				["CRITTER"] = {
 					179831, -- [1]
 					170287, -- [2]
@@ -352,18 +352,6 @@ DataStore_PetsDB = {
 					15999, -- [1]
 				},
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1495995675,
-				["CRITTER"] = {
-					147124, -- [1]
-				},
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1493792269,
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1493618479,
-			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1493792358,
 				["CRITTER"] = {
@@ -373,10 +361,19 @@ DataStore_PetsDB = {
 					65046, -- [4]
 				},
 			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1493792269,
+			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 				["CRITTER"] = {
 					61725, -- [1]
+				},
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1495995675,
+				["CRITTER"] = {
+					147124, -- [1]
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
@@ -386,6 +383,9 @@ DataStore_PetsDB = {
 					135257, -- [2]
 					71840, -- [3]
 				},
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1493618479,
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1495436618,
