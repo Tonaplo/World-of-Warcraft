@@ -76,8 +76,8 @@ OneRing_Config = {
 			},
 			["CommonTrades"] = {
 				{
-					["sliceToken"] = "OPCCTt",
 					["id"] = "/cast {{spell:3908/51309}}",
+					["sliceToken"] = "OPCCTt",
 				}, -- [1]
 				{
 					["id"] = "/cast {{spell:2108/51302}}",
@@ -92,32 +92,32 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTj",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCCTe",
 					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
+					["sliceToken"] = "OPCCTe",
 				}, -- [5]
 				{
 					["id"] = "/cast {{spell:2259/51304}}",
 					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
-					["sliceToken"] = "OPCCTc",
 					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
+					["sliceToken"] = "OPCCTc",
 				}, -- [7]
 				{
 					["id"] = "/cast [mod] {{spell:51005}}; {{spell:45357/45363}}",
 					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["sliceToken"] = "OPCCTf",
 					["id"] = "/cast {{spell:3273/45542}}",
+					["sliceToken"] = "OPCCTf",
 				}, -- [9]
 				{
 					["id"] = "/cast {{spell:4036/51306}}",
 					["sliceToken"] = "OPCCTg",
 				}, -- [10]
 				{
-					["sliceToken"] = "OPCCTr",
 					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
+					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
 					["id"] = 53428,
@@ -128,8 +128,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTm",
 				}, -- [13]
 				{
-					["sliceToken"] = "ABuepjqUmtwi",
 					["id"] = 13262,
+					["sliceToken"] = "ABuepjqUmtwi",
 				}, -- [14]
 				{
 					["sliceToken"] = "ABuep4BpwxeZ",
@@ -279,12 +279,12 @@ OneRing_Config = {
 			},
 			["tAbilities"] = {
 				{
-					["sliceToken"] = "ABuep4BpwxR",
 					["id"] = 1706,
+					["sliceToken"] = "ABuep4BpwxR",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuep4Bpwx7",
 					["id"] = 2006,
+					["sliceToken"] = "ABuep4Bpwx7",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4BpwxE",
@@ -294,8 +294,8 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuepjqUmtwp",
 					["id"] = 232698,
+					["sliceToken"] = "ABuepjqUmtwp",
 				}, -- [4]
 				["save"] = true,
 				["name"] = "Abilities",

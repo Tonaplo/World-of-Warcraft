@@ -9,11 +9,11 @@ RCDatabase = {
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 	},
 	["realm"] = {
 		["Proudmoore"] = {
@@ -34,10 +34,10 @@ RCDatabase = {
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["itemLevelOverall"] = 875.9375,
+				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 713,
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 877.8125,
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
@@ -45,10 +45,10 @@ RCDatabase = {
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 871.375,
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["itemLevelOverall"] = 871.375,
+				["firstProf"] = "Blacksmithing",
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -129,11 +129,11 @@ RCDatabase = {
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 840.375,
+				["itemLevelEquipped"] = 847.5625,
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["itemLevelOverall"] = 843.1875,
+				["itemLevelOverall"] = 847.5625,
 				["level"] = 110,
 				["firstProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",

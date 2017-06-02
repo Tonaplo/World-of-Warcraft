@@ -29,7 +29,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493959702,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1496022524,
+				["lastUpdate"] = 1496378703,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -43,7 +43,7 @@ DataStore_AgendaDB = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1496351466,
+				["lastUpdate"] = 1496376854,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,
@@ -58,7 +58,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618480,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1493618403,
+				["lastUpdate"] = 1496379043,
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
@@ -69,14 +69,14 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1495436638,
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1495995688,
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1493792687,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1496035072,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1493792687,
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1496386896,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1495436717,

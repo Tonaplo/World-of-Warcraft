@@ -5,13 +5,14 @@ HandyNotesDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
@@ -22,11 +23,13 @@ HandyNotesDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
+		["Praerend - Proudmoore"] = {
+		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
-		},
 		["Fimwack - Proudmoore"] = {
+		},
+		["Morifa - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -34,7 +37,7 @@ HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }
@@ -44,13 +47,14 @@ HandyNotes_HandyNotesDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
@@ -61,11 +65,13 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
+		["Praerend - Proudmoore"] = {
+		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
-		},
 		["Fimwack - Proudmoore"] = {
+		},
+		["Morifa - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -73,7 +79,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }

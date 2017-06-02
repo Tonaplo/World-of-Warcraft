@@ -26,7 +26,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1496022524,
+				["lastUpdate"] = 1496378703,
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1493959702,
@@ -43,13 +43,13 @@ DataStore_AgendaDB = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1496352397,
+				["lastUpdate"] = 1496376854,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1495436717,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1493792687,
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1496387388,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1493792286,
@@ -57,8 +57,8 @@ DataStore_AgendaDB = {
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1495995688,
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1493792687,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436451,
@@ -70,7 +70,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1495436638,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1493618403,
+				["lastUpdate"] = 1496379043,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1496035072,

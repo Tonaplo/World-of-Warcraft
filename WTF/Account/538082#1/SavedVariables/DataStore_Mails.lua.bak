@@ -20,10 +20,6 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1495406599,
-				["lastVisitDate"] = "2017/05/21 15:43",
-			},
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1496121271,
 				["Mails"] = {
@@ -39,6 +35,10 @@ DataStore_MailsDB = {
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2017/05/29 22:14",
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1495406599,
+				["lastVisitDate"] = "2017/05/21 15:43",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1495995684,

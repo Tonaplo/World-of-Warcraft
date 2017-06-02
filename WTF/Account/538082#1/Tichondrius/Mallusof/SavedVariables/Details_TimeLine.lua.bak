@@ -1,39 +1,23 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "12:47:12",
-			["date_end"] = "12:47:32",
-			["name"] = "Dargrul the Underking",
-			["total_time"] = 20.0059999999939,
-		}, -- [1]
-		{
-			["date_start"] = "12:45:41",
-			["date_end"] = "12:46:10",
-			["name"] = "Naraxas",
-			["total_time"] = 29.0069999999978,
-		}, -- [2]
-		{
-			["date_start"] = "12:44:14",
-			["date_end"] = "12:44:37",
-			["name"] = "Ularogg Cragshaper",
-			["total_time"] = 23.0060000000085,
-		}, -- [3]
-		{
-			["date_start"] = "12:41:31",
-			["date_end"] = "12:41:52",
-			["name"] = "Rokmora",
-			["total_time"] = 21.0090000000055,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Felvapor"] = {
@@ -48,21 +32,6 @@ DetailsTimeLineDB = {
 				[223202] = {
 					20.0059999999939, -- [1]
 					["source"] = "Felvapor",
-					["active"] = true,
-				},
-			},
-			["ßdd"] = {
-				[223203] = {
-					20.0059999999939, -- [1]
-					20.0059999999939, -- [2]
-					20.0059999999939, -- [3]
-					20.0059999999939, -- [4]
-					["source"] = "ßdd",
-					["active"] = false,
-				},
-				[223202] = {
-					20.0059999999939, -- [1]
-					["source"] = "ßdd",
 					["active"] = true,
 				},
 			},
@@ -83,6 +52,21 @@ DetailsTimeLineDB = {
 					18.3859999999986, -- [2]
 					["source"] = "Molten Charskin",
 					["active"] = false,
+				},
+			},
+			["ßdd"] = {
+				[223203] = {
+					20.0059999999939, -- [1]
+					20.0059999999939, -- [2]
+					20.0059999999939, -- [3]
+					20.0059999999939, -- [4]
+					["source"] = "ßdd",
+					["active"] = false,
+				},
+				[223202] = {
+					20.0059999999939, -- [1]
+					["source"] = "ßdd",
+					["active"] = true,
 				},
 			},
 		}, -- [1]
@@ -167,6 +151,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -184,15 +169,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
+	["combat_data"] = {
 		{
+			["date_start"] = "12:47:12",
+			["date_end"] = "12:47:32",
+			["name"] = "Dargrul the Underking",
+			["total_time"] = 20.0059999999939,
 		}, -- [1]
 		{
+			["date_start"] = "12:45:41",
+			["date_end"] = "12:46:10",
+			["name"] = "Naraxas",
+			["total_time"] = 29.0069999999978,
 		}, -- [2]
 		{
+			["date_start"] = "12:44:14",
+			["date_end"] = "12:44:37",
+			["name"] = "Ularogg Cragshaper",
+			["total_time"] = 23.0060000000085,
 		}, -- [3]
 		{
+			["date_start"] = "12:41:31",
+			["date_end"] = "12:41:52",
+			["name"] = "Rokmora",
+			["total_time"] = 21.0090000000055,
 		}, -- [4]
 	},
 }

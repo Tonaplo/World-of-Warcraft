@@ -49,7 +49,7 @@ DataStore_TalentsDB = {
 					9573, -- [2]
 					6489, -- [3]
 				},
-				["lastUpdate"] = 1496352012,
+				["lastUpdate"] = 1496376840,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 39,
 				["Artifacts"] = {
@@ -59,7 +59,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 16602746,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
-						["pointsRemaining"] = 36427720,
+						["pointsRemaining"] = 85401220,
 						["rank"] = 48,
 						["tier"] = 2,
 					},
@@ -77,7 +77,7 @@ DataStore_TalentsDB = {
 					[3] = 7039,
 					[4] = 8171,
 				},
-				["lastUpdate"] = 1496022524,
+				["lastUpdate"] = 1496378658,
 				["Class"] = "DRUID",
 				["ArtifactKnowledge"] = 28,
 				["Artifacts"] = {
@@ -87,7 +87,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 9725,
 					},
 					["G'Hanir, the Mother Tree"] = {
-						["pointsRemaining"] = 2294517,
+						["pointsRemaining"] = 2804817,
 						["rank"] = 35,
 						["tier"] = 1,
 					},
@@ -161,70 +161,6 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
-			},
-			["Default.Proudmoore.Granjior"] = {
-				["EquippedArtifact"] = "Ashbringer",
-				["ArtifactKnowledgeMultiplier"] = 250,
-				["Specializations"] = {
-					9558, -- [1]
-					[3] = 8087,
-				},
-				["lastUpdate"] = 1495436618,
-				["Class"] = "PALADIN",
-				["ArtifactKnowledge"] = 25,
-				["Artifacts"] = {
-					["The Silver Hand"] = {
-						["tier"] = 1,
-						["rank"] = 26,
-						["pointsRemaining"] = 52930,
-					},
-					["Ashbringer"] = {
-						["tier"] = 1,
-						["rank"] = 19,
-						["pointsRemaining"] = 21460,
-					},
-				},
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["ArtifactKnowledgeMultiplier"] = 2201,
-				["Specializations"] = {
-					13719, -- [1]
-				},
-				["lastUpdate"] = 1495995674,
-				["Class"] = "HUNTER",
-				["ArtifactKnowledge"] = 29,
-				["Artifacts"] = {
-					["Titanstrike"] = {
-						["tier"] = 1,
-						["rank"] = 36,
-						["pointsRemaining"] = 2684965,
-					},
-				},
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "Doomhammer",
-				["ArtifactKnowledgeMultiplier"] = 1001,
-				["Specializations"] = {
-					[2] = 9631,
-				},
-				["lastUpdate"] = 1496035033,
-				["Class"] = "SHAMAN",
-				["ArtifactKnowledge"] = 26,
-				["Artifacts"] = {
-					["Doomhammer"] = {
-						["tier"] = 1,
-						["rank"] = 34,
-						["pointsRemaining"] = 7280395,
-					},
-				},
-			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Maw of the Damned",
 				["Artifacts"] = {
@@ -254,6 +190,70 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledge"] = 32,
 				["ArtifactKnowledgeMultiplier"] = 4901,
 			},
+			["Default.Proudmoore.Granjior"] = {
+				["EquippedArtifact"] = "Ashbringer",
+				["ArtifactKnowledgeMultiplier"] = 250,
+				["Specializations"] = {
+					9558, -- [1]
+					[3] = 8087,
+				},
+				["lastUpdate"] = 1495436618,
+				["Class"] = "PALADIN",
+				["ArtifactKnowledge"] = 25,
+				["Artifacts"] = {
+					["The Silver Hand"] = {
+						["tier"] = 1,
+						["rank"] = 26,
+						["pointsRemaining"] = 52930,
+					},
+					["Ashbringer"] = {
+						["tier"] = 1,
+						["rank"] = 19,
+						["pointsRemaining"] = 21460,
+					},
+				},
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["EquippedArtifact"] = "Scale of the Earth-Warder",
+				["ArtifactKnowledgeMultiplier"] = 1701,
+				["Specializations"] = {
+					[3] = 10713,
+				},
+				["lastUpdate"] = 1496378726,
+				["Class"] = "WARRIOR",
+				["ArtifactKnowledge"] = 28,
+				["Artifacts"] = {
+					["Scale of the Earth-Warder"] = {
+						["tier"] = 2,
+						["rank"] = 36,
+						["pointsRemaining"] = 2924335,
+					},
+				},
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["EquippedArtifact"] = "Doomhammer",
+				["ArtifactKnowledgeMultiplier"] = 1001,
+				["Specializations"] = {
+					[2] = 9631,
+				},
+				["lastUpdate"] = 1496035033,
+				["Class"] = "SHAMAN",
+				["ArtifactKnowledge"] = 26,
+				["Artifacts"] = {
+					["Doomhammer"] = {
+						["tier"] = 1,
+						["rank"] = 34,
+						["pointsRemaining"] = 7280395,
+					},
+				},
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
+			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618455,
 				["Specializations"] = {
@@ -261,12 +261,22 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1493618401,
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
+				["ArtifactKnowledgeMultiplier"] = 2201,
 				["Specializations"] = {
-					[3] = 10713,
+					13719, -- [1]
 				},
-				["Class"] = "WARRIOR",
+				["lastUpdate"] = 1496386984,
+				["Class"] = "HUNTER",
+				["ArtifactKnowledge"] = 29,
+				["Artifacts"] = {
+					["Titanstrike"] = {
+						["tier"] = 1,
+						["rank"] = 38,
+						["pointsRemaining"] = 28615,
+					},
+				},
 			},
 		},
 	},

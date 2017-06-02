@@ -1,17 +1,5 @@
 
 DetailsTimeLineDB = {
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
 			["date_end"] = "12:47:32",
@@ -38,6 +26,7 @@ DetailsTimeLineDB = {
 			["total_time"] = 21.0090000000055,
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -55,6 +44,13 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Felvapor"] = {
@@ -70,14 +66,6 @@ DetailsTimeLineDB = {
 					20.0059999999939, -- [1]
 					["source"] = "Felvapor",
 					["active"] = true,
-				},
-			},
-			["Momoqia-Frostmourne"] = {
-				[200154] = {
-					13.2590000000055, -- [1]
-					18.3859999999986, -- [2]
-					["source"] = "Molten Charskin",
-					["active"] = false,
 				},
 			},
 			["ßdd"] = {
@@ -104,6 +92,14 @@ DetailsTimeLineDB = {
 					20.0059999999939, -- [5]
 					["source"] = "Xeej-Mal'Ganis",
 					["active"] = true,
+				},
+			},
+			["Momoqia-Frostmourne"] = {
+				[200154] = {
+					13.2590000000055, -- [1]
+					18.3859999999986, -- [2]
+					["source"] = "Molten Charskin",
+					["active"] = false,
 				},
 			},
 		}, -- [1]
@@ -188,11 +184,15 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
+	["window_scale"] = 1,
 }
