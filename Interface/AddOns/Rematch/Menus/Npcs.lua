@@ -261,17 +261,16 @@ rematch.notableNPCs = {
 	{117951, 19, 2008, 2009, 2010 }, -- Nameless Mystic
 
 	-- Wailing Caverns (20)
-	{116786,20,1989}, -- Deviate Smallclaw
-	{116788,20,1988}, -- Deviate Chomper
-	{116787,20,1987}, -- Deviate Flapper
-	{116789,20,1990}, -- Son of Skum
-	{116792,20,1993}, -- Phyxia
-	{116791,20,1992}, -- Dreadcoil
-	{116790,20,1991}, -- Vilefang
-	{116793,20,1994}, -- Hiss
-	{116794,20,1995}, -- Growing Ectoplasm
-	{116795,20,1996}, -- Everliving Spore
-
+	{116786, 20, 1989}, -- Deviate Smallclaw
+	{116788, 20, 1988}, -- Deviate Chomper
+	{116787, 20, 1987}, -- Deviate Flapper
+	{116789, 20, 1990}, -- Son of Skum
+	{116792, 20, 1993}, -- Phyxia
+	{116791, 20, 1992}, -- Dreadcoil
+	{116790, 20, 1991}, -- Vilefang
+	{116793, 20, 1994}, -- Hiss
+	{116794, 20, 1995}, -- Growing Ectoplasm
+	{116795, 20, 1996}, -- Budding Everliving Spore
 }
 
 -- table of npcID's and the npcID they should actually refer to
@@ -399,18 +398,16 @@ function rematch:CacheNpcIDs()
 end
 
 
--- this returns the passed speciesIDs as a string of type icons 
+-- this returns the passed speciesIDs (or links) as a string of type icons 
 function rematch:NotablePetsAsText(...)
 	local pets = ""
 	for i=1,select("#",...) do
-		local speciesID = select(i,...)
-		if speciesID then
-			local name,icon,petType = C_PetJournal.GetPetInfoBySpeciesID(speciesID)
-			if petType then
-				local petIcon = format("\124T%s:16:16:0:0:64:64:59:5:5:59\124t",icon)
-				local typeIcon = rematch:PetTypeAsText(petType)
-				pets = pets..format("%s %s %s",petIcon,typeIcon,name).."\n"
-			end
+		local petID = select(i,...) -- can be a speciesID or link
+		local petInfo = rematch.petInfo:Fetch(petID)
+		if petInfo.speciesID and petInfo.petType then
+			local petIcon = format("\124T%s:16:16:0:0:64:64:59:5:5:59\124t",petInfo.icon)
+			local typeIcon = rematch:PetTypeAsText(petInfo.petType)
+			pets = pets..format("%s %s %s\n",petIcon,typeIcon,petInfo.name)
 		end
 	end
 	return (pets:gsub("\n$",""))

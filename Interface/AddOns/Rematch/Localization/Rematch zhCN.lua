@@ -2,6 +2,21 @@ local _,L = ...
 
 if GetLocale()=="zhCN" then
 
+-- New strings in 4.6.5
+	L["Broken Isle"] = "破碎海滩"
+	L["Wailing Caverns"] = "哀嚎洞穴"
+	L["Delete teams within the tab too"] = "删除标签内的队伍"
+	
+-- New strings in 4.6.2
+	L["A New Pet!"] = "一个新宠物！"
+	L["Click to Open!"] = "点击打开！"
+	L["%s\n\n%sWARNING!\124r There may be an issue with pet toasts in ElvUI not positioning properly. While using ElvUI it's recommended pet toasts remain hidden unless you've moved alerts in ElvUI."] = "%s\n\n%s警告!\124r ElvUI 中可能会存在宠物对话框位置不正确的问题。使用 ElvUI 时推荐将宠物对话框隐藏，除非在 ElvUI 中禁用弹出框。"
+
+-- New strings in 4.6.1
+	L["Only Load This Team"] = "仅加载这个队伍"
+	L["Imported Team"] = "已导入队伍"
+	L["This will only load the team and not save it.\n\nThis is for loading teams you do not intend to use more than once, like Family Familiar teams."] = "仅加载这个队伍而不保存它。\n\n该功能用于加载那些你只打算用一次的队伍，比如朋友的队伍。"
+
 -- New strings in 4.6.0
 	L["This allows you to create custom pet filters with a little bit of Lua code. See the reference buttons at the top of the New Script dialog for details.\n\nTo view or edit an existing script, click the Gear icon beside the script in the menu above."] = "你可以用 Lua 代码创建自己的宠物筛选器。 详情请点击 “新建脚本” 窗口顶部的各个参考选项。\n\n要查看或编辑一个脚本，点击脚本旁边的齿轮图标。"
 	L["Or With Panel Tabs"] = "或者点击选择面板标签时"

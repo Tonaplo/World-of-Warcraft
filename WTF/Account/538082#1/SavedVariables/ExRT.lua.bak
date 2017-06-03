@@ -15,10 +15,10 @@ VExRT = {
 		["Faerand-Proudmoore"] = "default",
 		["Amranar-Proudmoore"] = "default",
 		["Farahn-Proudmoore"] = "default",
-		["Kaldorath-Proudmoore"] = "default",
-		["Rahran-Proudmoore"] = "default",
-		["Greybone-Proudmoore"] = "default",
 		["Morifa-Proudmoore"] = "default",
+		["Rahran-Proudmoore"] = "default",
+		["Kaldorath-Proudmoore"] = "default",
+		["Greybone-Proudmoore"] = "default",
 		["Granjior-Proudmoore"] = "default",
 	},
 	["Arrow"] = {
@@ -103,14 +103,14 @@ VExRT = {
 			[1850] = "Inquisitor Tormentorum",
 			[1866] = "Gul'dan",
 			[2009] = "Anomalus",
-			[1883] = "Echo of Jaina",
+			[1121] = "The Four Horsemen",
 			[1107] = "Anub'Rekhan",
 			[1041] = "Altairus",
 			[1057] = "High Priestess Azil",
 			[1835] = "Lord Kur'talos Ravencrest",
-			[1121] = "The Four Horsemen",
-			[1867] = "Trilliax",
 			[2010] = "Grand Magus Telestra",
+			[1867] = "Trilliax",
+			[1883] = "Echo of Jaina",
 			[1964] = "The Curator",
 			[2008] = "Helya",
 			[1042] = "Asaad",
@@ -752,8 +752,31 @@ VExRT = {
 				"^1791^2^1496259854^23^1^5^911.79^", -- [442]
 				"^1792^2^1496259941^29^1^5^911.79^", -- [443]
 				"^1793^2^1496260031^20^1^5^911.79^", -- [444]
+				"^1822^8^1496513984^55^1^5^910.58^", -- [445]
+				"^1823^8^1496514337^54^1^5^910.76^Sankun-EmeraldDream", -- [446]
+				"^1824^8^1496514657^189^1^5^910.76^", -- [447]
 			},
 			["Kaldorath"] = {
+				"^1056^1^1496518023^0^1^5^807.94^", -- [1]
+				"^1059^1^1496518066^0^1^5^807.94^", -- [2]
+				"^1056^1^1496518218^0^1^5^807.94^", -- [3]
+				"^1059^1^1496518262^0^1^5^807.94^", -- [4]
+				"^1056^1^1496518325^0^1^5^807.94^", -- [5]
+				"^1059^1^1496518367^1^1^5^807.94^", -- [6]
+				"^1056^1^1496518430^0^1^5^807.94^", -- [7]
+				"^1059^1^1496518474^0^1^5^807.94^", -- [8]
+				"^1056^1^1496518565^1^1^5^807.94^", -- [9]
+				"^1059^1^1496518609^0^1^5^807.94^", -- [10]
+				"^1056^1^1496518672^0^1^5^807.94^", -- [11]
+				"^1059^1^1496518713^0^1^5^807.94^", -- [12]
+				"^1056^1^1496518783^0^1^5^807.94^", -- [13]
+				"^1059^1^1496518823^1^1^5^807.94^", -- [14]
+				"^1056^1^1496518877^0^1^5^807.94^", -- [15]
+				"^1059^1^1496518943^1^1^5^807.94^", -- [16]
+				"^1056^1^1496518998^0^1^5^807.94^", -- [17]
+				"^1059^1^1496519048^0^1^5^807.94^", -- [18]
+				"^1056^1^1496519108^0^1^5^807.94^", -- [19]
+				"^1059^1^1496519154^1^1^5^807.94^", -- [20]
 			},
 			["Fimwack"] = {
 				"^1964^2^1493958457^73^1^5^877.50^", -- [1]
@@ -1429,6 +1452,7 @@ VExRT = {
 			["Acekicker-Tichondrius"] = 70,
 			["Bluehakaider-Proudmoore"] = 70,
 			["Pvpedmypants-Stormrage"] = 253,
+			["Halforeo-EmeraldDream"] = 261,
 			["Eärendìl"] = 70,
 			["Tafè"] = 258,
 			["Deorsai-Proudmoore"] = 257,
@@ -1455,70 +1479,74 @@ VExRT = {
 			["Feníxx-Whisperwind"] = 70,
 			["Vdk-Quel'Thalas"] = 250,
 			["Amranar"] = 105,
+			["Shadowsteppe-Darrowmere"] = 259,
 			["Thamon"] = 252,
 			["Unholyhotty-Sen'jin"] = 257,
+			["Samiyah-Whisperwind"] = 65,
 			["Xji"] = 70,
 			["Drunknheals-Dalaran"] = 264,
-			["Asterdust-Sargeras"] = 581,
+			["Lystad-Elune"] = 266,
+			["Dedjus-Dalaran"] = 104,
+			["Putrimas-Saurfang"] = 258,
 			["Aantis-Antonidas"] = 70,
 			["Farahn"] = 263,
 			["Ketang-Uldaman"] = 262,
-			["Samiyah-Whisperwind"] = 65,
+			["Saerren-MoonGuard"] = 66,
 			["Lightnwind-Elune"] = 269,
 			["Baahamut-TheScryers"] = 70,
-			["Lystad-Elune"] = 266,
-			["Dedjus-Dalaran"] = 104,
-			["Gulsym-Sargeras"] = 266,
-			["Saerren-MoonGuard"] = 66,
+			["Asterdust-Sargeras"] = 581,
+			["Defend-Stormrage"] = 251,
+			["Zukiyakeyo-EmeraldDream"] = 250,
 			["Bermuar-Proudmoore"] = 62,
+			["Gulsym-Sargeras"] = 266,
 			["Hangooky"] = 257,
 			["Shftnaintez-Kilrogg"] = 105,
-			["Defend-Stormrage"] = 251,
-			["Chaosforge-BurningLegion"] = 72,
-			["Shadowsteppe-Darrowmere"] = 259,
 			["Primust-Lightbringer"] = 262,
+			["Chaosforge-BurningLegion"] = 72,
+			["Sankun-EmeraldDream"] = 254,
 			["Vaggur-Sargeras"] = 72,
 			["Gummyeggs"] = 265,
+			["Ntj-AeriePeak"] = 62,
 			["Deamonicus-Feathermoon"] = 260,
 			["Bustyknocks-Sargeras"] = 71,
-			["Ntj-AeriePeak"] = 62,
 			["Daarkblood-Stormrage"] = 250,
+			["Holyspawn-Proudmoore"] = 70,
 			["Hangookie"] = 65,
-			["Shrus-BurningLegion"] = 104,
+			["Steamedclamz-EmeraldDream"] = 260,
 			["Pervinka-Stormrage"] = 250,
 			["Sharpcry-Caelestrasz"] = 72,
-			["Holyspawn-Proudmoore"] = 70,
+			["Wolfsneakers-Suramar"] = 259,
 			["Meeoowwy-BlackwaterRaiders"] = 105,
 			["Shoguncr-Quel'Thalas"] = 270,
 			["Momoqia-Frostmourne"] = 577,
 			["Antiques-Windrunner"] = 102,
 			["Arkator-Tichondrius"] = 265,
 			["Carendos-Sargeras"] = 253,
-			["Wolfsneakers-Suramar"] = 259,
+			["Blakeyboy"] = 70,
 			["Cousinavi-Sargeras"] = 262,
-			["Steamedclamz-EmeraldDream"] = 260,
-			["Aced-SilverHand"] = 65,
+			["Jimhälpert"] = 72,
+			["Zaryanna-KulTiras"] = 66,
 			["Calithief-Darkspear"] = 269,
 			["Koaxed"] = 269,
-			["Daoxu"] = 253,
+			["Arylynn-Stormrage"] = 254,
 			["Vipersting-Shadowsong"] = 577,
 			["Youniverse-AeriePeak"] = 72,
 			["Kaligon"] = 64,
 			["Dcty-MoonGuard"] = 577,
 			["Luxxe-Sargeras"] = 253,
 			["Jaxgore-AeriePeak"] = 250,
-			["Blakeyboy"] = 70,
-			["Jimhälpert"] = 72,
+			["Aced-SilverHand"] = 65,
+			["Cairo-AeriePeak"] = 577,
 			["Horribledps-Windrunner"] = 254,
 			["Flay-Darkspear"] = 258,
 			["Pokimaneomg"] = 269,
-			["Tafè-Tichondrius"] = 256,
-			["Kenstricker-Stonemaul"] = 257,
-			["Crøøk-EmeraldDream"] = 262,
-			["Priist-Quel'Thalas"] = 62,
-			["Cairo-AeriePeak"] = 577,
-			["Sombrador"] = 105,
+			["Ileiaris-Tichondrius"] = 268,
 			["Chestosaurus-Mannoroth"] = 581,
+			["Crøøk-EmeraldDream"] = 262,
+			["ßubblez-Vek'nilash"] = 258,
+			["Slicedlol"] = 259,
+			["Sombrador"] = 105,
+			["Kenstricker-Stonemaul"] = 257,
 			["Clouddark-Stormrage"] = 73,
 			["Slaythe-EmeraldDream"] = 265,
 			["Jinnk-Khaz'goroth"] = 73,
@@ -1526,19 +1554,19 @@ VExRT = {
 			["Buffaffplz-Frostmourne"] = 265,
 			["Slimane"] = 64,
 			["Kalethia"] = 62,
-			["Putrimas-Saurfang"] = 258,
-			["Fistsofsteel-Frostmourne"] = 263,
-			["Nightaura-Undermine"] = 72,
-			["Slicedlol"] = 259,
-			["Yuniee"] = 265,
+			["Sulhyun-EmeraldDream"] = 265,
 			["Búî"] = 72,
+			["Nightaura-Undermine"] = 72,
+			["Tetsunochi"] = 259,
+			["Yuniee"] = 265,
+			["Kaldorath"] = 577,
 			["Shockpow-Sargeras"] = 263,
 			["Máver-Sargeras"] = 254,
-			["Tetsunochi"] = 259,
+			["Fistsofsteel-Frostmourne"] = 263,
 			["Gravyroll-Khaz'goroth"] = 251,
-			["Teals"] = 253,
-			["Vraax-Sargeras"] = 581,
 			["Alailea-Farstriders"] = 577,
+			["Vraax-Sargeras"] = 581,
+			["Teals"] = 253,
 			["Lilgangsta-Sargeras"] = 262,
 			["Ellesterra-Quel'Thalas"] = 72,
 			["Eltul-Ragnaros"] = 65,
@@ -1546,22 +1574,22 @@ VExRT = {
 			["Gracîela-Korgath"] = 105,
 			["Sykotik-Uther"] = 577,
 			["Faerand"] = 253,
-			["Ileiaris"] = 268,
+			["Loouux-Aman'Thul"] = 64,
 			["Rothem-Quel'Thalas"] = 72,
 			["Alexándro-Quel'Thalas"] = 251,
 			["Nîne"] = 577,
 			["Greetingsfam-EmeraldDream"] = 261,
-			["Jannok-Stormrage"] = 261,
 			["Discgusting-AeriePeak"] = 258,
+			["Jannok-Stormrage"] = 261,
 			["Hitsubato-Nemesis"] = 64,
 			["Toxicacid-Whisperwind"] = 64,
-			["Ellestria"] = 105,
+			["Chopperdave"] = 70,
 			["Sonissa-Quel'Thalas"] = 64,
 			["Xystria-Medivh"] = 577,
 			["Gâbriel-AeriePeak"] = 66,
 			["Missdita-Arathor"] = 251,
 			["Jimhälpert-Tichondrius"] = 72,
-			["Throtle-BoreanTundra"] = 265,
+			["Artemysia-Hellscream"] = 577,
 			["Acekicker"] = 70,
 			["Ryses-Sargeras"] = 577,
 			["Níghtshäde-Darkspear"] = 261,
@@ -1576,9 +1604,9 @@ VExRT = {
 			["Sikò-Dalaran"] = 253,
 			["Käguyä-Ragnaros"] = 70,
 			["Xji-Tichondrius"] = 70,
-			["Hzone-Blackrock"] = 257,
-			["Maotwo-Ravencrest"] = 105,
 			["Thaelcron-Whisperwind"] = 70,
+			["Maotwo-Ravencrest"] = 105,
+			["Hzone-Blackrock"] = 257,
 			["Radho-Ragnaros"] = 105,
 			["Yorhä-Sargeras"] = 577,
 			["Qualitea-Garona"] = 577,
@@ -1595,14 +1623,14 @@ VExRT = {
 			["Meowfurryoff-Tichondrius"] = 257,
 			["Celspar-Hellscream"] = 73,
 			["Ivanhammer-Durotan"] = 260,
-			["Artemysia-Hellscream"] = 577,
+			["Throtle-BoreanTundra"] = 265,
 			["Genjieggs"] = 254,
-			["Chopperdave"] = 70,
+			["Ellestria"] = 105,
 			["Maladonna-MoonGuard"] = 62,
-			["Mallusof"] = 258,
+			["Mallusof"] = 257,
 			["Meowfurryoff"] = 257,
 			["Blackkmamba"] = 577,
-			["Loouux-Aman'Thul"] = 64,
+			["Ileiaris"] = 268,
 			["Notbroken-Whisperwind"] = 104,
 			["Opaldruid-Khaz'goroth"] = 102,
 			["Loui-Uther"] = 104,
@@ -1613,15 +1641,15 @@ VExRT = {
 			["Bunny-Arathor"] = 264,
 			["Gettingbored"] = 65,
 			["Slippyfists-Uldaman"] = 269,
-			["ßubblez-Vek'nilash"] = 258,
-			["Ileiaris-Tichondrius"] = 268,
+			["Priist-Quel'Thalas"] = 62,
+			["Tafè-Tichondrius"] = 256,
 			["Blink-Korgath"] = 581,
 			["Monsterlock"] = 265,
 			["Githryn-Suramar"] = 72,
 			["Tylai-Uldaman"] = 268,
 			["Retfreaklol-Kel'Thuzad"] = 70,
-			["Arylynn-Stormrage"] = 254,
-			["Zaryanna-KulTiras"] = 66,
+			["Shrus-BurningLegion"] = 104,
+			["Daoxu"] = 253,
 			["Laurook-BurningLegion"] = 62,
 			["Kalithumos-Tichondrius"] = 66,
 			["Slicedlol-Tichondrius"] = 261,
@@ -1821,7 +1849,7 @@ VExRT = {
 		["lock"] = true,
 	},
 	["Attendance"] = {
-		["enabled"] = 2,
+		["enabled"] = 3,
 		["ModuleViewed3580"] = true,
 		["data"] = {
 			{
@@ -2321,6 +2349,10 @@ VExRT = {
 			}, -- [18]
 		},
 		["alts"] = {
+			{
+				"Kaedwyn", -- [1]
+				"Ileiaris", -- [2]
+			}, -- [1]
 		},
 	},
 	["InspectViewer"] = {
@@ -2334,44 +2366,53 @@ VExRT = {
 	["WhoPulled"] = {
 	},
 	["Note"] = {
-		["DefName"] = "Guldan",
-		["Strata"] = "HIGH",
-		["LastUpdateName"] = "Mallusof",
-		["AutoLoad"] = {
-			[4] = 1872,
-		},
-		["LastUpdateTime"] = 1496175866,
-		["Left"] = 5.40273523330689,
-		["Width"] = 319.217987060547,
-		["Top"] = 1082.53857421875,
-		["SelfText"] = "",
-		["Black"] = {
-			"Phase 1: \n Second Fast Add: {Priest} ||cffffffffMeowfurryoff||r  Hymn\n\nPhase 2: \n First Delphuric Beams:  {Druid} ||cffff7d0aEllestria||r  Tranq\n First Orbs: {Priest} ||cffffffffTafè||r  VE \n Second Delphuric Beams: {Druid} ||cffff7d0aSombrador||r \n Second Orbs: {Priest} ||cffffffffMallusof||r  Hymn +  {Warrior} ||cffc79c6eBúî||r Shout\n\nPhase 3:\n First Delphuric Beams:  {Priest} ||cffffffffMeowfurryoff||r  Hymn\n Conflexive Burst: {Druid} ||cffff7d0aEllestria||r Tranq\n\n\n", -- [1]
-			"Healer Button Rotation:\n\n1. ||cffff7d0aEllestria||r \n2. ||cffffffffMallusof||r \n3. ||cffffffffMeowfurryoff||r \n4. ||cffff7d0aSombrador||r \n\nCooldowns:\n\nFloater: {Druid} ||cffff7d0aSombrador||r Tranq\n\nPhase 1:\n Start + Bonds: {Priest} ||cffffffffMeowfurryoff||r  Hymn\n 1st Empowered Hellfire + Eyes: {Druid} ||cffff7d0aEllestria||r  Tranq\n 2nd Empower Hellfire: {Priest} ||cffffffffMallusof||r  Hymn\n 3rd Empower Hellfire + Eyes:  {Priest} ||cffffffffMeowfurryoff||r  Hymn\n 4th and last Empower Hellfire:  {Druid} ||cffff7d0aEllestria||r  Tranq\n\nPhase 2:\n 2nd Eyes: {Priest} ||cffffffffMallusof||r  Hymn\n 3rd Eyes:  {Druid} Double Innervate spam\n 4th Eyes: ", -- [2]
-			"", -- [3]
-		},
-		["Fix"] = true,
-		["Height"] = 323.597076416016,
-		["FontSize"] = 12,
-		["Text1"] = "Healer Button Rotation:\n\n1. ||cffff7d0aEllestria||r \n2. ||cffffffffMallusof||r \n3. ||cffffffffMeowfurryoff||r \n4. ||cffff7d0aSombrador||r \n\nCooldowns:\n\nFloater: {Druid} ||cffff7d0aSombrador||r Tranq\n\nPhase 1:\n Start + Bonds: {Priest} ||cffffffffMeowfurryoff||r  Hymn\n 1st Empowered Hellfire + Eyes: {Druid} ||cffff7d0aEllestria||r  Tranq\n 2nd Empower Hellfire: {Priest} ||cffffffffMallusof||r  Hymn\n 3rd Empower Hellfire + Eyes:  {Priest} ||cffffffffMeowfurryoff||r  Hymn\n 4th and last Empower Hellfire:  {Druid} ||cffff7d0aEllestria||r  Tranq\n\nPhase 2:\n 2nd Eyes: {Priest} ||cffffffffMallusof||r  Hymn\n 3rd Eyes:  {Druid} Double Innervate spam\n 4th Eyes: ",
 		["BlackNames"] = {
 			"Elisande Cooldowns", -- [1]
 			"Guldan", -- [2]
+			nil, -- [3]
+			"Guldan*", -- [4]
 		},
+		["FontSize"] = 12,
+		["AutoLoad"] = {
+		},
+		["Left"] = 5.40273523330689,
+		["HideOutsideRaid"] = true,
+		["SelfText"] = "",
+		["ScaleBack"] = 68,
+		["Text1"] = "Healer Button Rotation:\n\n1. ||cffff7d0aEllestria||r \n2. ||cffffffffMallusof||r \n3. ||cffffffffMeowfurryoff||r \n4. ||cffff7d0aSombrador||r \n\nPhase 1:\n Start + Bonds: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 1st Empowered Hellfire + Eyes: {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n 2nd Empower Hellfire: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n 3rd Empower Hellfire + Eyes:  {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 4th and last Empower Hellfire:  {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n\nPhase 2:\n Healing targets:\n  First Rogue: {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r\n  Second Rogue: {Druid} ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r\n\n 1st Harvest: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n 2nd Eyes: {Druid} ||cffff7d0aEllestria||r Innervate on Mall or Meow + {Priest} ||cffffffffTafe||r {spell:15286}VE\n 2nd Harvest: {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n 3rd Eyes: {Druid} ||cffff7d0aSombrador||r Innervate on Mall or Meow + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n 3rd Harvest: Personals\n 4th Eyes: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 4th Harvest: {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n Guldan should die before 5th eye, \n otherwise Eye will die with him seconds after.\n\n Phase 3:\n  Priority targes: Kaligon (Nightorbs) and Kalithumos (heal absorb)\n\n   2nd Flame Crash: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n   1st Nightorb charge: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n   5th Flame Crash: {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   Triple Charge: {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\nShould be GG then",
+		["enabled"] = true,
+		["SaveAllNew"] = true,
+		["LastUpdateName"] = "Mallusof",
+		["Scale"] = 100,
+		["LastUpdateTime"] = 1496525161,
+		["Width"] = 440.993988037109,
+		["Top"] = 1082.5380859375,
+		["Alpha"] = 100,
+		["Black"] = {
+			"Phase 1: \n Second Fast Add: {Priest} ||cffffffffMeowfurryoff||r  Hymn\n\nPhase 2: \n First Delphuric Beams:  {Druid} ||cffff7d0aEllestria||r  Tranq\n First Orbs: {Priest} ||cffffffffTafè||r  VE \n Second Delphuric Beams: {Druid} ||cffff7d0aSombrador||r \n Second Orbs: {Priest} ||cffffffffMallusof||r  Hymn +  {Warrior} ||cffc79c6eBúî||r Shout\n\nPhase 3:\n First Delphuric Beams:  {Priest} ||cffffffffMeowfurryoff||r  Hymn\n Conflexive Burst: {Druid} ||cffff7d0aEllestria||r Tranq\n\n\n", -- [1]
+			"Healer Button Rotation:\n\n1. ||cffff7d0aEllestria||r \n2. ||cffffffffMallusof||r \n3. ||cffffffffMeowfurryoff||r \n4. ||cffff7d0aSombrador||r \n\nPhase 1:\n Start + Bonds: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 1st Empowered Hellfire + Eyes: {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n 2nd Empower Hellfire: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n 3rd Empower Hellfire + Eyes:  {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 4th and last Empower Hellfire:  {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n\nPhase 2:\n Healing targets:\n  First Rogue: {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r\n  Second Rogue: {Druid} ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r\n\n 1st Harvest: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n 2nd Eyes: {Druid} ||cffff7d0aEllestria||r Innervate on Mall or Meow + {Priest} ||cffffffffTafe||r {spell:15286}VE\n 2nd Harvest: {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n 3rd Eyes: {Druid} ||cffff7d0aSombrador||r Innervate on Mall or Meow + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n 3rd Harvest: Personals\n 4th Eyes: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 4th Harvest: {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n Guldan should die before 5th eye, \n otherwise Eye will die with him seconds after.\n\n Phase 3:\n  Priority targes: Kaligon (Nightorbs) and Kalithumos (heal absorb)\n\n   2nd Flame Crash: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n   1st Nightorb charge: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n   5th Flame Crash: {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   Triple Charge: {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\nShould be GG then", -- [2]
+			"", -- [3]
+			"Healer Button Rotation:\n\n1. ||cffff7d0aEllestria||r \n2. ||cffffffffMallusof||r \n3. ||cffffffffMeowfurryoff||r \n4. ||cffff7d0aSombrador||r \n\nPhase 1:\n Start + Bonds: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 1st Empowered Hellfire + Eyes: {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n 2nd Empower Hellfire: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n 3rd Empower Hellfire + Eyes:  {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 4th and last Empower Hellfire:  {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n\nPhase 2:\n Healing targets:\n  First Rogue: {Druid} ||cffff7d0aEllestria||r + {Priest} ||cffffffffMallusof||r\n  Second Rogue: {Druid} ||cffff7d0aSombrador||r + {Priest} ||cffffffffMeowfurryoff||r\n\n 1st Harvest: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n 2nd Eyes: {Druid} ||cffff7d0aEllestria||r Innervate on Mall or Meow + {Priest} ||cffffffffTafe||r {spell:15286}VE\n 2nd Harvest: {Druid} ||cffff7d0aSombrador||r {spell:740}Tranq\n 3rd Eyes: {Druid} ||cffff7d0aSombrador||r Innervate on Mall or Meow + {Warrior} ||cffc79c6eBui||r {spell:97462}Shout\n 3rd Harvest: Personals\n 4th Eyes: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n 4th Harvest: {Druid} ||cffff7d0aEllestria||r  {spell:740}Tranq\n Guldan should die before 5th eye, \n otherwise Eye will die with him seconds after.\n\n Phase 3:\n  Priority targes: Kaligon (Nightorbs) and Kalithumos (heal absorb)\n\n   2nd Flame Crash: {Priest} ||cffffffffMallusof||r  {spell:64843}Hymn\n   1st Nightorb charge: {Priest} ||cffffffffMeowfurryoff||r  {spell:64843}Hymn\n   5th Flame Crash: {Warrior} ||cffc79c6eBui||r {spell:97462}Shout \n   Triple Charge: {Druid} ||cffff7d0aEllestria||r + {Druid} ||cffff7d0aSombrador||r  {spell:740}Tranq\n\nShould be GG then", -- [4]
+		},
+		["Outline"] = true,
+		["Height"] = 550.776184082031,
+		["DefName"] = "Guldan",
+		["Strata"] = "LOW",
+		["FontName"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 	},
 	["Addon"] = {
-		["Version"] = 3850,
+		["Version"] = 3860,
+		["Scale"] = 1,
 		["IconMiniMapTop"] = -80,
-		["PreVersion"] = 3850,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -47.297960215467,
-		["Scale"] = 1,
+		["PreVersion"] = 3850,
 	},
 	["InspectArtifact"] = {
 		["players"] = {
 			["Mallusof-Tichondrius"] = {
-				"42:38:1650-1-1:764-1-1:1575-1-1:1574-1-1:1573-4-4:1347-1-1:779-1-1:778-3-4:777-3-4:776-4-5:775-3-4:774-3-4:773-3-4:772-3-4:771-3-4:770-1-1:769-1-1:768-1-1:767-5-6:766-1-1:765-1-1:1576-0-50:1381-1-1:128827", -- [1]
-				1496260035, -- [2]
+				"52:39:1649-1-1:834-1-1:1571-1-1:1570-1-1:1569-4-4:1346-1-1:849-5-5:848-5-5:847-4-4:846-4-4:845-1-1:844-5-5:843-4-4:842-4-4:841-4-4:840-1-1:839-1-1:838-4-4:837-1-1:836-1-1:835-1-1:1572-1-50:1380-1-1:128825", -- [1]
+				1496514660, -- [2]
 			},
 			["Krixmix-Icecrown"] = {
 				"40:34:1634-1-1:960-1-1:1511-0-1:1510-0-1:1509-4-4:1334-1-1:979-1-1:962-1-1:961-1-1:959-1-1:958-1-1:957-1-1:956-4-5:955-3-4:954-4-5:953-3-4:952-3-4:951-3-4:950-3-4:949-3-4:948-4-5:1512-0-50:1366-1-1:128821", -- [1]
@@ -2421,13 +2462,17 @@ VExRT = {
 				"42:35:1648-1-1:883-1-1:1567-1-1:1566-1-1:1565-4-4:1345-1-1:898-1-1:897-1-1:896-4-5:895-3-4:894-3-4:893-3-4:892-3-4:891-3-4:890-3-4:889-3-4:888-5-6:887-1-1:886-1-1:885-1-1:884-1-1:1568-0-50:1379-1-1:128868", -- [1]
 				1494732690, -- [2]
 			},
+			["Shurburt-Proudmoore"] = {
+				"13:0:1641-0-1:783-1-1:1539-0-1:1538-0-1:1537-0-4:1296-1-1:798-0-1:797-1-1:796-0-1:795-0-1:794-1-1:793-0-1:792-0-3:791-4-4:790-0-3:789-0-3:788-3-3:787-0-3:786-4-4:785-0-3:784-1-3:1540-0-50:1373-0-20:128862", -- [1]
+				1493455929, -- [2]
+			},
 			["Divinechaos-Nazjatar"] = {
 				"49:32:1630-1-1:1010-1-1:1495-1-1:1494-1-1:1493-4-4:1330-1-1:1016-1-1:1015-1-1:1014-1-1:1013-1-1:1012-1-1:1011-1-1:1008-3-4:1007-3-4:1006-5-5:1005-4-4:1004-6-6:1003-4-4:1002-4-4:1001-4-4:1000-4-4:1496-0-50:1362-1-1:127829", -- [1]
 				1493587277, -- [2]
 			},
-			["Shurburt-Proudmoore"] = {
-				"13:0:1641-0-1:783-1-1:1539-0-1:1538-0-1:1537-0-4:1296-1-1:798-0-1:797-1-1:796-0-1:795-0-1:794-1-1:793-0-1:792-0-3:791-4-4:790-0-3:789-0-3:788-3-3:787-0-3:786-4-4:785-0-3:784-1-3:1540-0-50:1373-0-20:128862", -- [1]
-				1493455929, -- [2]
+			["Kaldorath"] = {
+				"5:28:1630-0-1:1010-1-1:1495-0-1:1494-0-1:1493-0-4:1330-1-1:1016-0-1:1015-0-1:1014-0-1:1013-0-1:1012-0-1:1011-1-1:1008-0-3:1007-1-4:1006-0-3:1005-0-3:1004-0-3:1003-3-3:1002-0-3:1001-0-3:1000-1-4:1496-0-50:1362-0-20:127829", -- [1]
+				1496519157, -- [2]
 			},
 			["Monkmaxi-Whisperwind"] = {
 				"40:30:1643-1-1:931-1-1:1547-0-1:1546-0-1:1545-4-4:1295-1-1:946-3-4:945-3-4:944-4-5:943-4-5:942-4-5:941-3-4:940-3-4:939-3-4:938-3-4:937-1-1:936-1-1:935-1-1:934-1-1:933-1-1:932-1-1:1548-0-50:1375-1-1:128937", -- [1]
@@ -2445,17 +2490,17 @@ VExRT = {
 				"37:36:1648-1-1:883-1-1:1567-0-1:1566-0-1:1565-0-4:1345-1-1:898-1-1:897-1-1:896-3-4:895-3-4:894-3-4:893-4-5:892-3-4:891-4-4:890-3-4:889-3-4:888-5-6:887-1-1:886-1-1:885-1-1:884-1-1:1568-0-50:1379-1-1:128868", -- [1]
 				1495085938, -- [2]
 			},
-			["Mecc-Baelgun"] = {
-				"39:36:1631-1-1:1096-1-1:1499-0-1:1498-0-1:1497-3-4:1434-1-1:1328-1-1:1236-1-1:1235-1-1:1234-3-4:1233-3-4:1232-4-5:1231-4-5:1230-3-4:1229-3-4:1228-1-1:1101-3-4:1100-4-5:1099-3-4:1098-1-1:1097-1-1:1500-0-50:1363-1-1:128832", -- [1]
-				1495325016, -- [2]
+			["Gallond-Baelgun"] = {
+				"38:27:1645-1-1:965-1-1:1555-0-1:1554-0-1:1553-2-4:1342-1-1:1186-4-5:977-3-4:976-5-6:975-3-4:974-3-4:973-1-1:972-3-4:971-3-4:970-3-4:969-3-4:968-1-1:967-1-1:966-1-1:964-1-1:963-1-1:1556-0-50:1377-1-1:128823", -- [1]
+				1493454546, -- [2]
 			},
 			["Greybone-Proudmoore"] = {
 				"38:32:1627-1-1:289-1-1:1483-0-1:1482-0-1:1481-2-4:1331-1-1:286-1-1:285-1-1:284-1-1:283-1-1:282-1-1:281-1-1:280-3-4:279-3-4:278-4-5:277-3-4:276-3-4:275-4-5:274-3-4:273-4-5:272-3-4:1484-0-50:1359-1-1:128402", -- [1]
 				1495434741, -- [2]
 			},
-			["Legendarìes-Tichondrius"] = {
-				"38:26:1641-0-1:783-1-1:1539-0-1:1538-0-1:1537-0-4:1296-1-1:798-1-1:797-1-1:796-1-1:795-1-1:794-1-1:793-1-1:792-3-3:791-3-3:790-3-3:789-3-3:788-5-5:787-3-3:786-3-3:785-3-3:784-4-4:1540-0-50:1373-4-20:128862", -- [1]
-				1494726306, -- [2]
+			["Amranar-Proudmoore"] = {
+				"35:28:1635-0-1:125-1-1:1515-0-1:1514-0-1:1513-0-4:1335-1-1:140-4-4:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-3-3:132-4-4:131-4-4:130-3-3:129-1-1:128-1-1:127-1-1:126-1-1:1516-0-50:1367-1-20:128306", -- [1]
+				1496378421, -- [2]
 			},
 			["Kudosnaps-Caelestrasz"] = {
 				"42:31:1687-1-1:899-1-1:1595-0-1:1594-1-1:1593-4-4:1351-1-1:930-1-1:913-4-5:912-3-4:911-3-4:910-3-4:909-3-4:908-6-6:907-3-4:906-3-4:905-3-4:904-1-1:903-1-1:902-1-1:901-1-1:900-1-1:1596-0-50:1388-1-1:128819", -- [1]
@@ -2465,9 +2510,9 @@ VExRT = {
 				"20:25:1642-0-1:1277-1-1:1543-0-1:1542-0-1:1541-0-4:1293-1-1:1292-1-1:1291-0-1:1290-0-1:1289-1-1:1288-0-1:1287-0-1:1286-0-3:1285-3-3:1284-0-3:1283-0-3:1282-3-3:1281-5-5:1280-2-3:1279-3-3:1278-3-3:1544-0-50:1374-0-20:128938", -- [1]
 				1493455929, -- [2]
 			},
-			["Eltul-Ragnaros"] = {
-				"46:36:1645-1-1:965-1-1:1555-1-1:1554-1-1:1553-4-4:1342-1-1:1186-3-4:977-5-5:976-5-5:975-3-4:974-3-4:973-1-1:972-4-4:971-4-4:970-4-5:969-3-4:968-1-1:967-1-1:966-1-1:964-1-1:963-1-1:1556-0-50:1377-1-1:128823", -- [1]
-				1496022617, -- [2]
+			["Mecc-Baelgun"] = {
+				"39:36:1631-1-1:1096-1-1:1499-0-1:1498-0-1:1497-3-4:1434-1-1:1328-1-1:1236-1-1:1235-1-1:1234-3-4:1233-3-4:1232-4-5:1231-4-5:1230-3-4:1229-3-4:1228-1-1:1101-3-4:1100-4-5:1099-3-4:1098-1-1:1097-1-1:1500-0-50:1363-1-1:128832", -- [1]
+				1495325016, -- [2]
 			},
 			["Eärendìl-Tichondrius"] = {
 				"53:38:1647-1-1:40-1-1:1563-1-1:1562-1-1:1561-4-4:1275-1-1:353-1-1:352-1-1:351-1-1:350-1-1:54-1-1:53-6-6:52-4-4:51-4-4:50-4-4:49-1-1:47-4-4:44-4-4:43-5-5:42-4-4:41-4-4:1564-2-50:1118-1-1:120978", -- [1]
@@ -2485,13 +2530,13 @@ VExRT = {
 				"31:29:1651-0-1:346-1-1:1579-0-1:1578-0-1:1577-0-4:1276-1-1:347-1-1:337-1-1:335-1-1:334-1-1:333-1-1:332-1-1:331-3-3:330-3-3:329-0-3:328-3-3:327-4-4:326-3-3:325-3-3:324-5-5:323-3-3:1580-0-50:1384-0-20:128870", -- [1]
 				1495325016, -- [2]
 			},
-			["Amranar-Proudmoore"] = {
-				"35:28:1635-0-1:125-1-1:1515-0-1:1514-0-1:1513-0-4:1335-1-1:140-4-4:139-1-1:138-1-1:137-3-3:136-3-3:135-3-3:134-3-3:133-3-3:132-4-4:131-4-4:130-3-3:129-1-1:128-1-1:127-1-1:126-1-1:1516-0-50:1367-1-20:128306", -- [1]
-				1496378421, -- [2]
-			},
 			["Jimhälpert-Tichondrius"] = {
 				"43:37:1715-1-1:984-1-1:1619-1-1:1618-1-1:1617-4-4:1357-1-1:996-3-4:995-4-4:994-3-4:993-3-4:992-4-5:991-3-4:990-5-6:989-3-4:988-3-4:987-1-1:986-1-1:985-1-1:982-1-1:981-1-1:980-1-1:1620-0-50:1394-1-1:128908", -- [1]
 				1496029410, -- [2]
+			},
+			["Legendarìes-Tichondrius"] = {
+				"38:26:1641-0-1:783-1-1:1539-0-1:1538-0-1:1537-0-4:1296-1-1:798-1-1:797-1-1:796-1-1:795-1-1:794-1-1:793-1-1:792-3-3:791-3-3:790-3-3:789-3-3:788-5-5:787-3-3:786-3-3:785-3-3:784-4-4:1540-0-50:1373-4-20:128862", -- [1]
+				1494726306, -- [2]
 			},
 			["Geturownfood-Cairne"] = {
 				"46:35:1641-1-1:783-1-1:1539-1-1:1538-1-1:1537-4-4:1296-1-1:798-1-1:797-1-1:796-1-1:795-1-1:794-1-1:793-1-1:792-3-4:791-3-4:790-3-4:789-5-5:788-5-5:787-3-4:786-5-5:785-4-4:784-3-4:1540-0-50:1373-1-1:128862", -- [1]
@@ -2573,9 +2618,9 @@ VExRT = {
 				"30:26:1713-0-1:803-1-1:1611-0-1:1610-0-1:1609-0-4:1355-1-1:818-1-1:817-1-1:816-1-1:815-1-1:814-1-1:813-1-1:812-3-3:811-3-3:810-3-4:809-4-4:808-3-3:807-3-3:806-0-3:805-3-3:804-3-3:1612-0-50:1392-0-20:128941", -- [1]
 				1493959212, -- [2]
 			},
-			["Gallond-Baelgun"] = {
-				"38:27:1645-1-1:965-1-1:1555-0-1:1554-0-1:1553-2-4:1342-1-1:1186-4-5:977-3-4:976-5-6:975-3-4:974-3-4:973-1-1:972-3-4:971-3-4:970-3-4:969-3-4:968-1-1:967-1-1:966-1-1:964-1-1:963-1-1:1556-0-50:1377-1-1:128823", -- [1]
-				1493454546, -- [2]
+			["Eltul-Ragnaros"] = {
+				"46:36:1645-1-1:965-1-1:1555-1-1:1554-1-1:1553-4-4:1342-1-1:1186-3-4:977-5-5:976-5-5:975-3-4:974-3-4:973-1-1:972-4-4:971-4-4:970-4-5:969-3-4:968-1-1:967-1-1:966-1-1:964-1-1:963-1-1:1556-0-50:1377-1-1:128823", -- [1]
+				1496022617, -- [2]
 			},
 			["Luxxe-Sargeras"] = {
 				"49:36:1636-1-1:881-1-1:1519-1-1:1518-1-1:1517-4-4:1336-1-1:1095-4-4:882-1-1:880-1-1:879-1-1:878-1-1:877-1-1:876-1-1:875-4-4:874-3-4:873-6-6:872-4-4:871-3-4:870-4-4:869-5-5:868-4-4:1520-0-50:1368-1-1:128861", -- [1]
@@ -2616,8 +2661,11 @@ VExRT = {
 		},
 	},
 	["RaidCheck"] = {
-		["FlaskExp"] = 1,
+		["FlaskExp"] = 2,
 		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 1033.10656738281,
+		["ReadyCheckLeft"] = 479.347473144531,
+		["ReadyCheckFrameScale"] = 100,
 	},
 	["Logging"] = {
 	},
@@ -2638,13 +2686,15 @@ VExRT = {
 		["wmKind"] = true,
 	},
 	["InviteTool"] = {
+		["AutoInvAccept"] = true,
 		["Words"] = "инв inv byd штм 123",
 		["InvByChat"] = true,
 		["RaidDiff"] = 16,
 		["PromoteRank"] = 3,
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
+		["LootThreshold"] = 4,
+		["AutoRaidDiff"] = true,
+		["MasterLooters"] = "Arkator, Kammander",
+		["LootMethod"] = "master",
 		["PromoteNames"] = "",
 		["OnlyGuild"] = true,
 		["Rank"] = 1,
@@ -2690,5 +2740,11 @@ VExRT = {
 		},
 		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
+		["Left"] = 1832.14477539063,
+		["Top"] = 859.792846679688,
+		["Lock"] = true,
+		["timeToKill"] = true,
+		["enabled"] = true,
+		["OnlyInCombat"] = true,
 	},
 }

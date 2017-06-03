@@ -5,9 +5,9 @@ HandyNotesDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
@@ -23,11 +23,11 @@ HandyNotesDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},
@@ -47,9 +47,9 @@ HandyNotes_HandyNotesDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
@@ -65,11 +65,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Fimwack - Proudmoore"] = {
 		},

@@ -1,22 +1,22 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -1351,6 +1351,68 @@ GottaGoFastHistoryDB = {
 								}, -- [5]
 							},
 						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+								[12] = {
+									["name"] = "Grievous",
+									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 5388.539,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 6,
+								["hours"] = 11,
+								["year"] = 2017,
+								["mins"] = 34,
+							},
+							["level"] = 10,
+							["startTime"] = 4385.789,
+							["objectiveTimes"] = {
+								"03:15.302", -- [1]
+								"09:31.612", -- [2]
+								"17:07.297", -- [3]
+								"13:32.557", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zukiyakeyo (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Sulhyun (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Sankun (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Rogue",
+									["name"] = "Halforeo (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [4]
 					},
 				},
 				[1466] = {

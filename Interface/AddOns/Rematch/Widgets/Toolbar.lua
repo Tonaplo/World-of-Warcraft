@@ -175,7 +175,8 @@ function toolbar:Update()
 
 	--[[ Save ]]
 	if toolbar.Save:IsVisible() then
-		local noTeam = not settings.loadedTeam
+		local noTeam = not settings.loadedTeam or settings.loadedTeam==1 -- 1=imported team
+		toolbar.Save:SetEnabled(not noTeam)
 		toolbar:DimButton(toolbar.Save,noTeam,noTeam)
 	end
 

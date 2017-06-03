@@ -20,7 +20,6 @@ rematch:InitModule(function()
 	card.PinButton.tooltipBody = L["While pinned, the pet card will display where you last moved it.\n\nClick this to unpin the pet card and snap it back to the pets."]
 	card.PetCardTitle:SetText(L["Pet Card"])
 	card.Front.Middle.AltFlipHelp:SetText(L["Hold [Alt] to view more about this pet."])
-	card.Front.Middle.WrappedModel.Label.Text:SetText(L["Click to Open!"])
 	for i=1,6 do
 		card.Front.Bottom.Abilities[i]:RegisterForClicks("AnyUp")
 	end
@@ -45,6 +44,10 @@ function rematch:ShowPetCard(parent,petID,force)
 
 	if settings.ClickPetCard and not force then
 		return
+	end
+
+	if petID==rematch.petInfo.petID then
+		rematch.petInfo:Reset() -- in case any stats change while card being refreshed
 	end
 
 	-- if FastPetCard not enabled, then cause a 0.25 delay before showing a card (unless it's forced)
@@ -172,27 +175,30 @@ function rematch:ShowPetCard(parent,petID,force)
 		info.Collected:Show()
 	end
 
-
 	local middle = card.Front.Middle
-	if leveling then
-		middle.PetModel:Hide()
+
+	-- update model in middle front of card
+	middle.LevelingModel:Hide()
+	if leveling then -- if this is a card for a leveling pet
+		middle.ModelScene:Hide()
 		middle.LevelingModel:Show()
-		middle.WrappedModel:Hide()
-	elseif petInfo.needsFanFare then
-		middle.PetModel:Hide()
+	elseif petInfo.displayID~=card.displayID or card.forceSceneChange then
+		middle.ModelScene:Show()
 		middle.LevelingModel:Hide()
-		middle.WrappedModel:Show()
-		middle.WrappedModel:SetAlpha(1)
-		middle.WrappedModel.Label:Show()
-		middle.WrappedModel:EnableMouse(true)
-	elseif petInfo.displayID and petInfo.displayID~=middle.PetModel.displayID then
-		middle.PetModel:Show()
-		middle.LevelingModel:Hide()
-		middle.WrappedModel:Hide()
-		middle.PetModel:SetDisplayInfo(petInfo.displayID)
-		middle.PetModel:SetDoBlend(false)
+		card.displayID = petInfo.displayID
+		local cardSceneID,loadoutSceneID = C_PetJournal.GetPetModelSceneInfoBySpeciesID(petInfo.speciesID)
+		middle.ModelScene:TransitionToModelSceneID(cardSceneID, CAMERA_TRANSITION_TYPE_IMMEDIATE, CAMERA_MODIFICATION_TYPE_DISCARD, card.forceSceneChange)
+		local actor = middle.ModelScene:GetActorByTag("unwrapped")
+		if actor then
+			actor:SetModelByCreatureDisplayID(petInfo.displayID)
+			actor:SetAnimationBlendOperation(LE_MODEL_BLEND_OPERATION_NONE)
+		end
+		card.forceSceneChange = nil
+		-- only PrepareForFanfare if fanfare ever observed to avoid loading Blizzard_Collections
+		if rematch:WasFanfareObserved(petInfo.needsFanfare) then
+			middle.ModelScene:PrepareForFanfare(petInfo.needsFanfare)
+		end
 	end
-	middle.PetModel.displayID = petInfo.displayID
 
 	-- stats along left of card
 	card.statIndex = 1
@@ -412,7 +418,7 @@ function rematch:ShowPetCard(parent,petID,force)
 		card.PinButton:Hide()
 	end
 	-- adjust card height to fit max of front height, back height or 416(standard size)
-	card:SetHeight(max(190+abs(card.ypos)+ybottom,backHeight,416))
+	card:SetHeight(max(190+max(abs(card.ypos),middle.ModelScene:GetHeight()+2)+ybottom,backHeight,416))
 
 	-- save parent and petID to recreate card if needed
 	card.parent = parent
@@ -530,6 +536,7 @@ function card:UpdateLockState()
 	card.CloseButton:EnableMouse(card.locked)
 	card.PinButton:EnableMouse(card.locked)
 	card.Front.Middle.PossibleBreedsCapture:EnableMouse(card.locked)
+	card.Front.Middle.ModelScene:EnableMouse(card.locked)
 	for _,button in pairs(card.statButtons) do
 		button:EnableMouse(locked)
 	end
@@ -591,7 +598,7 @@ end
 
 function card:PossibleBreedsOnEnter()
 	local middle = card.Front.Middle
-	if not middle.PossibleBreeds:IsVisible() then
+	if not middle.PossibleBreeds:IsVisible() or IsMouseButtonDown() then
 		return
 	end
 	local btable = middle.BreedTable
@@ -767,41 +774,45 @@ function card:TeamsStatOnClick()
 	card.keepOnScreen = nil
 end
 
--- from the "click" (OnMouseDown) of WrappedModel, also called via menu below
-function card:UnwrapPet()
-	local middle = card.Front.Middle
-	middle.PetModel:SetAlpha(0)
-	middle.PetModel:Show()
-	middle.PetModel:SetDisplayInfo(middle.PetModel.displayID)
-	middle.PetModel:SetDoBlend(false)
-	middle.WrappedModel.Label:Hide() -- hide "Click to Open!"
-	middle.WrappedModel:EnableMouse(false)
-	middle.WrappedModel:SetAnimation(148)
-	middle.UnwrapAnim:Play()
-	card.nowUnwrapping = true
-	PlaySound("UI_Store_Unwrap")
-	C_Timer.After(.8,function() -- swirling gold effect
-		if card.nowUnwrapping then
-			middle.PetModel:ApplySpellVisualKit(73393,true)
-		end
-	end)
-	C_Timer.After(1.6,function()
-		if card.nowUnwrapping then
-			middle.WrappedModel:Hide()
-			card.nowUnwrapping = nil
-			C_PetJournal.ClearFanfare(card.petID)
-			rematch:UpdateUI()
-		end
-	end)
+--[[ Unwrap ]]
+
+-- fanfare model stuff requires mixins from the load-on-demand journal
+-- returns true if there was ever a need for fanfare stuff (and handles
+-- necessary loading and mixin on that first attempt)
+local fanfareObserved = nil
+function rematch:WasFanfareObserved(needsFanfare)
+	if needsFanfare and not fanfareObserved then
+		LoadAddOn("Blizzard_Collections")
+		Mixin(card.Front.Middle.ModelScene,CollectionsWrappedModelSceneMixin)
+		fanfareObserved = true
+	end
+	return fanfareObserved
 end
 
--- when "Unwrap Pet" is chosen from the pet menu, it opens and locks the card and unwraps
+-- call to unwrap a pet (the locked pet card must be up when this is called!)
+function card:UnwrapPet()
+	local petID = card.petID
+	local petInfo = rematch.altInfo:Fetch(petID)
+	if petInfo.needsFanfare then
+		local modelScene = card.Front.Middle.ModelScene
+		if rematch:WasFanfareObserved(true) then -- just in case; load Blizzard_Collections and mixins
+			if not modelScene:IsUnwrapAnimating() then -- only run if animation not happening
+				local function OnFinishedCallback()
+					C_PetJournal.ClearFanfare(petID)
+					rematch:UpdateUI()
+				end
+				modelScene:StartUnwrapAnimation(OnFinishedCallback)
+			end
+		end
+	end
+end
+
+-- when Unwrap is called from a menu, the card is locked and shown for the unwrap
+-- animation to happen
 function card:UnwrapFromMenu()
 	local petID = rematch:GetMenuSubject()
 	local parent = rematch:GetMenuParent()
-	if parent and rematch:GetIDType(petID)=="pet" and C_PetJournal.PetNeedsFanfare(petID) then
-		card.locked = true
-		rematch:ShowPetCard(parent,petID,true)
-		card:UnwrapPet()
-	end
+	card.locked = true
+	rematch:ShowPetCard(parent,petID,true)
+	card:UnwrapPet()
 end

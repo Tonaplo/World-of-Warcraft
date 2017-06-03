@@ -67,12 +67,12 @@
 		<Layers>
 			<Layer level="ARTWORK">
 				<!-- red tint around edge of icon for when pet is injured -->
-				<Texture parentKey="Blood" file="Interface\ContainerFrame\Bags" hidden="true">
+				<Texture parentKey="Blood" file="Interface\ContainerFrame\Bags" alpha="0.75" hidden="true">
 					<Anchors>
 						<Anchor point="TOPLEFT" relativeKey="$parent.Icon"/>
 						<Anchor point="BOTTOMRIGHT" relativeKey="$parent.Icon"/>
 					</Anchors>
-					<TexCoords left="0.55078125" right="0.68359375" top="0.6640625" bottom="0.9296875"/>
+					<TexCoords left="0" right="0.16015625" top="0.51953125" bottom="0.6796875"/>
 					<Color r="1" g="0" b="0"/>
 				</Texture>
 			</Layer>

@@ -1,6 +1,6 @@
-## Interface: 70100
+## Interface: 70200
 ## Title: ArtifactPowerUser
-## Version: 2.2
+## Version: 2.4
 ## Notes: Creates button to use Artifact Power items faster
 ## Author: FlyNeko
 ## SavedVariables: ArtifactPowerUserDB

@@ -97,7 +97,9 @@
 		<NormalFont style="GameFontHighlight"/>
 		<Scripts>
 			<OnEnter>
-				Rematch.ShowTooltip(self)
+				if not IsMouseButtonDown() then
+					Rematch.ShowTooltip(self)
+				end
 			</OnEnter>
 			<OnLeave>
 				Rematch:HideTooltip()
@@ -460,11 +462,11 @@
 							<Layer level="BORDER">
 								<!-- shadow under pet model -->
 								<Texture file="Interface\PetBattles\PetJournal" alpha="0.85">
-									<Size x="168" y="96"/>	
+									<Size x="192" y="128"/>	
 									<Anchors>
 										<Anchor point="BOTTOMRIGHT" relativePoint="TOPRIGHT" x="-3" y="-190"/>
 									</Anchors>
-									<TexCoords left="0.52734375" right="0.79687500" top="0.02246094" bottom="0.09277344"/>	
+									<TexCoords left="0.52734375" right="0.75" top="0.02246094" bottom="0.09277344"/>	
 								</Texture>
 								<!-- pennant texture behind level -->
 								<Texture parentKey="LevelBG" file="Interface\AchievementFrame\UI-Achievement-Guild">
@@ -668,27 +670,42 @@
 
 							</Frame>
 
+
 							<!-- the model for the pet on the front of the card -->
-							<PlayerModel parentKey="PetModel">
+							<ModelScene parentKey="ModelScene" useParentLevel="true" inherits="ModelSceneMixinTemplate" mixin="CollectionsWrappedModelSceneMixin">
+								<KeyValues>
+									<KeyValue key="normalIntensity" value="0.75" type="number"/>
+									<KeyValue key="highlightIntensity" value="1.2" type="number"/>
+								</KeyValues>
+
 								<Size x="168" y="172"/>
 								<Anchors>
 									<Anchor point="TOPRIGHT" x="-3" y="-3"/>
 								</Anchors>
-								<Layers>
-									<Layer level="ARTWORK">
-										<Texture hidden="true">
-											<Color r="0" g="1" b="0" a="0.1"/>
-										</Texture>
-									</Layer>
-								</Layers>
+
 								<Scripts>
-									<OnLoad>
-										Model_OnLoad(self)
-										self:SetRotation(-MODELFRAME_DEFAULT_ROTATION)
-									</OnLoad>
-									<OnEvent function="Model_OnEvent"/>
+									<OnMouseUp inherit="append">
+										if RematchPetCard.petID then
+											RematchPetCard.UnwrapPet()
+										end
+									</OnMouseUp>
+									<OnEnter method="OnMouseEnter" />
+									<OnLeave method="OnMouseLeave" />
+									<OnShow method="OnShow" />
+									<OnHide>
+										if IsMouseButtonDown() then
+											-- don't get model stuck in rotate mode
+											self:GetScript("OnMouseUp")(self,"LeftButton")
+										end
+									</OnHide>
 								</Scripts>
-							</PlayerModel>
+								<Animations>
+									<AnimationGroup parentKey="UnwrapAnim" setToFinalAlpha="true">
+										<Alpha parentKey="WrappedAnim" startDelay="1.2" fromAlpha="1" toAlpha="0" duration=".3" order="1"/>
+										<Alpha parentKey="UnwrappedAnim" startDelay="1.2" fromAlpha="0" toAlpha="1" duration=".3" order="1"/>
+									</AnimationGroup>
+								</Animations>
+							</ModelScene>
 
 							<!-- separate leveling model since SetModel() and SetDisplayInfo() can't co-exist -->
 							<PlayerModel parentKey="LevelingModel">
@@ -706,102 +723,8 @@
 								</Scripts>
 							</PlayerModel>
 
-							<!-- wrapped/fanfare model needs to co-exist with PetModel; it fades out as PetModel fades in -->
-							<PlayerModel parentKey="WrappedModel" enableMouse="true" inherits="MouseDisabledModelTemplate">
-								<Size x="168" y="172"/>
-								<Anchors>
-									<Anchor point="TOPRIGHT" x="-3" y="-3"/>
-								</Anchors>
-								<Frames>
-									<!-- Label includes the "Click to Open!" message, glow and arrow that floats above the wrapped model -->
-									<Frame parentKey="Label">
-										<Size x="168" y="32"/>
-										<Anchors>
-											<Anchor point="TOP" x="-8" y="-40"/>
-										</Anchors>
-										<Layers>
-											<Layer level="ARTWORK">
-												<FontString parentKey="Text" inherits="GameFontHighlight">
-													<Anchors>
-														<Anchor point="TOP"/>
-													</Anchors>
-													<Shadow>
-														<Color r="0.32" g="0.5" b="1.0"/>
-													</Shadow>
-												</FontString>
-												<Texture parentKey="Glow" atlas="collections-newglow" alpha="0.75">
-													<Anchors>
-														<Anchor point="TOPLEFT" relativeKey="$parent.Text" x="-20" y="10"/>
-														<Anchor point="BOTTOMRIGHT" relativeKey="$parent.Text" x="20" y="-10"/>
-													</Anchors>
-												</Texture>
-												<Texture parentKey="Arrow" file="Interface\Addons\Rematch\Textures\titlebarbuttons">
-													<Size x="32" y="32"/>
-													<Anchors>
-														<Anchor point="TOP" relativeKey="$parent.Text" relativePoint="BOTTOM" x="0" y="8"/>
-													</Anchors>
-													<TexCoords left="0.75" right="1" top="0.5" bottom="0.75"/>
-												</Texture>
-											</Layer>
-										</Layers>
-										<Animations>
-											<!-- this animation makes the label bounce up and down -->
-											<AnimationGroup parentKey="AnimDown">
-												<Translation duration="0.5" order="1" offsetX="0" offsetY="-4" smoothing="IN_OUT"/>
-												<Scripts>
-													<OnFinished>
-														local parent = self:GetParent()
-														parent:SetPoint("TOP",-8,-44)
-														parent.AnimUp:Play()
-													</OnFinished>
-												</Scripts>
-											</AnimationGroup>
-											<AnimationGroup parentKey="AnimUp">
-												<Translation duration="0.5" order="1" offsetX="0" offsetY="4" smoothing="IN_OUT"/>
-												<Scripts>
-													<OnFinished>
-														local parent = self:GetParent()
-														parent:SetPoint("TOP",-8,-40)
-														parent.AnimDown:Play()
-													</OnFinished>
-												</Scripts>
-											</AnimationGroup>
-										</Animations>
-										<Scripts>
-											<OnShow>
-												-- instead of starting on OnLoad, kicking off on first OnShow
-												self.AnimDown:Play()
-												self:SetScript("OnShow",nil)
-											</OnShow>
-										</Scripts>
-									</Frame>
-								</Frames>
-								<Scripts>
-									<OnShow>
-										self:SetDisplayInfo(71933)
-										self:GetScript("OnLeave")(self)
-									</OnShow>
-									<OnEnter>
-										self:SetLight(true,false,0,0,0,1.2,1,1,1)
-										self.Label.Glow:SetAlpha(1)
-									</OnEnter>
-									<OnLeave>
-										self:SetLight(true,false,0,0,0,0.8,1,1,1)
-										self.Label.Glow:SetAlpha(0.75)
-									</OnLeave>
-									<OnMouseDown>
-										RematchPetCard:UnwrapPet()
-									</OnMouseDown>
-								</Scripts>
-							</PlayerModel>
 						</Frames>
-						<Animations>
-							<!-- animation to play when WrappedModel is clicked -->
-							<AnimationGroup parentKey="UnwrapAnim" setToFinalAlpha="true">
-								<Alpha childKey="WrappedModel" startDelay="1.2" fromAlpha="1" toAlpha="0" duration=".3" order="1"/>
-								<Alpha childKey="PetModel" startDelay="1.2" fromAlpha="0" toAlpha="1" duration=".3" order="1"/>
-							</AnimationGroup>
-						</Animations>
+
 					</Frame> <!-- Middle -->
 				</Frames>
 			</Frame> <!-- Front -->

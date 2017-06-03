@@ -1,6 +1,7 @@
 L = {}
 L["(Experimental)"] = "(실험용)"
 L["Adds tooltips to items showing if you have learned a transmog appearance."] = "아이템의 형상변환 등록 여부를 툴팁에 표시"
+L["Also shows a summary in the Appearance Sets UI of how many pieces of a transmog set you have collected."] = "또한 형상변환 세트 UI에 당신이 수집한 형상변환 갯수도 표시합니다."
 L["Another class can learn this item."] = "다른 직업이 형상변환 등록할 수 있음"
 L["Appearances updated: "] = "형상 변환 자료 갱신: "
 L["Can be learned by:"] = "형상변환 등록 가능:"
@@ -29,16 +30,21 @@ L["Only show on items that can be transmoggrified."] = "형상변환이 가능�
 L["Only show on items that you haven't learned."] = "아직 형상변환을 배우지 않은 아이템만 표시합니다."
 L["Please note that this may not always be correct as Blizzard's information is incomplete."] = "이는 블리자드의 정보가 불완전하기에 항상 올바른 것은 아닙니다."
 L["Show Bag Icons"] = "가방 아이콘 표시"
+L["Show information on the tooltip about transmog sets."] = "툴팁에 형상변환 세트에 대한 정보를 표시합니다."
 L["Show Source Location Tooltip"] = "출처 위치 툴팁 표시"
+L["Show Transmog Set Info"] = "형상변환 세트 정보 표시"
 L["Shows a more detailed text for some of the tooltips."] = "툴팁에 상세 정보를 표시합니다."
 L["Shows a tooltip with the source locations of an appearance (ie. Quest, Vendor, World Drop). This only works on items your current class can learn."] = "형상의 출처 위치(가령 퀘스트, 상인, 월드 드랍)가 있는 툴팁을 표시합니다."
 L["Shows chat messages on login about the database scan."] = "데이터베이스 검색에 대한 로그인 시 대화 메시지를 표시합니다."
 L["Shows messages on login about the database scan."] = "데이터베이스 검색에 대한 로그인 시 메시지를 표시합니다."
 L["Shows the icon directly on the item in your bag."] = "가방에 있는 아이템에 형상변환 가능 여부를 아이콘으로 표시합니다."
+--Translation missing 
+-- L["TEST IGNORE ME"] = ""
 L["Transmoggable Items Only"] = "형상변환 가능한 아이템만 표시"
 L["Unknown Items Only"] = "형상변환 미등록 아이템만 표시"
 L["Updating appearances database."] = "형상 변환 자료를 갱신중입니다."
 L["Verbose Text"] = "부가적인 설명"
+
 
 
 CanIMogIt:RegisterLocale("koKR", L)

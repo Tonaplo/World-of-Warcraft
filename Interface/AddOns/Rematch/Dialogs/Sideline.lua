@@ -173,7 +173,7 @@ function rematch:PushSideline()
 		end
 	end
 
-	if (loadout or settings.loadedTeam==originalKey) and (not rematch:GetSidelineContext("receivedTeam") or settings.loadedTeam==key) then
+	if (loadout or settings.loadedTeam==originalKey) and (not rematch:GetSidelineContext("receivedTeam") or settings.loadedTeam==key) and not (InCombatLockdown() or C_PetBattles.IsInBattle() or C_PetBattles.GetPVPMatchmakingInfo()) then
 		-- this is the current pets being pushed, do anything related to loaded team here
 		settings.loadedTeam = key
 		-- Loadteam in case any funny business with imported/received teams (changed loaded team)

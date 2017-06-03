@@ -1,6 +1,6 @@
 <Ui>
 
-	<Frame name="RematchMenuFrameTemplate" enableMouse="true" clampedToScreen="true" virtual="true">
+	<Frame name="RematchMenuFrameTemplate" enableMouse="true" clampedToScreen="true" hidden="true" virtual="true">
 		<Backdrop edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
 			<EdgeSize val="16"/>
 			<BorderColor r="0.5" g="0.5" b="0.5"/>

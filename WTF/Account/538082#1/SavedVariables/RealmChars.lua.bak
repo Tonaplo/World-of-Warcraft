@@ -85,14 +85,14 @@ RCDatabase = {
 			}, -- [6]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 804.0625,
+				["itemLevelEquipped"] = 807.9375,
 				["class"] = "DEMONHUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Kaldorath",
 				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 806.6875,
+				["itemLevelOverall"] = 807.9375,
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
@@ -133,10 +133,10 @@ RCDatabase = {
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["itemLevelOverall"] = 847.5625,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 847.5625,
 			}, -- [11]
 			["characterStored"] = 11,
 		},
@@ -157,14 +157,14 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 909.8125,
+				["itemLevelEquipped"] = 911.75,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["firstProf"] = "Tailoring",
+				["itemLevelOverall"] = 913.9375,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["itemLevelOverall"] = 913,
+				["firstProf"] = "Tailoring",
 			}, -- [1]
 			["characterStored"] = 1,
 		},

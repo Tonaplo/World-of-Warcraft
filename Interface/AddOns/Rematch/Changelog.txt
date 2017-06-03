@@ -1,3 +1,18 @@
+05/26/2017 version 4.6.7
+- Pet models should no longer overlap the "Collected" list on the pet card.
+- Fix for ability links not going across chats.
+
+05/21/2017 version 4.6.6
+- Reworked pet models to use the new ModelScene widget to correct some model scale/clipping issues.
+- Models can now be rotated in the pet card by dragging over the model.
+- Models can now be zoomed in/out on the pet card with mousewheel over the model.
+- When saving a team while in battle or pvp, the addon will no longer warn about the inability to load a team.
+- When option 'Move Toolbar To Bottom' is enabled, the save button is disabled when importing teams that are only loaded. The Save As button remains enabled.
+- When entering the journal view after the standalone view and entering combat, the standalone will not attempt to show.
+- Fix for the red accent/border not showing around injured pets.
+- Fix for some stat/rarity changes sometimes not being immediately reflected in the pet list and pet cards.
+- Simplified Chinese (zhCN) localization updated by Yonshuo from curse.com.
+
 04/02/2017 version 4.6.5
 - Light rework of pet card:
   - Fix for various breed issues on the pet card, such as possible breeds missing and pet breed missing on battle pet cards.

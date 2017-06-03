@@ -11,6 +11,7 @@
 	"ignored"   1                      ignored slot
 	"link"      "battlepet:42:25:etc"  linked pet
 	"battle"    "battle:2:1"           pet in battle (battle:owner:index)
+	"random"    "random:10"            random mechanical pet (random:0 for any pet type)
 	"unknown"   (anything, even nil)   indecipherable/undefined pet
 	
 	To simplify getting information about these different types of pets, to
@@ -34,7 +35,7 @@
 	The stat can be any of these:
 
 		petID: this is the pet reference Fetched (string, number, link, etc)
-		idType: "pet" "species" "leveling" "ignored" "link" "battle" or "unknown" (string)
+		idType: "pet" "species" "leveling" "ignored" "link" "battle" "random" or "unknown" (string)
 		speciesID: numeric speciesID of the pet (integer)
 		customName: user-renamed pet name (string)
 		speciesName: name of the species (string)
@@ -105,6 +106,10 @@
 		owned petID string or speciesID), Fetch(petID,true) will skip the
 		test of its type to improve performance.
 
+		link format:
+		"battlepet:<speciesID>:<level>:<rarity>:<health>:<power>:<speed>"
+
+
 ]]
 
 local rematch = Rematch
@@ -124,6 +129,7 @@ local apiByStat = {
 	breedID="Breed", breedName="Breed", possibleBreedIDs="PossibleBreeds",
 	possibleBreedNames="PossibleBreeds", numPossibleBreeds="PossibleBreeds", hasBreed="Breed",
 	owned="Valid", battleOwner="Battle", battleIndex="Battle", isSlotted="Slotted",
+	isLeveling="Queue",
 }
 
 -- indexed by petInfo table reference, this will contain reused tables like fetchedAPI
@@ -145,6 +151,8 @@ local function getIDType(id)
 			return "link"
 		elseif id:match("battle:%d:%d") then
 			return "battle"
+		elseif id:match("random:%d+") then
+			return "random"
 		end
 	elseif idType=="number" then
 		if id>1 then
@@ -193,10 +201,10 @@ local queryAPIs = {
 			fillInfoBySpeciesID(self,self.petID)
 		elseif idType=="leveling" then
 			self.name = "Leveling Pet"
-			self.icon = "Interface\\Rematch\\Textures\\LevelingIcon.blp"
+			self.icon = "Interface\\AddOns\\Rematch\\Textures\\LevelingIcon.blp"
 		elseif idType=="ignored" then
 			self.name = "Ignored Pet"
-			self.icon = "Interface\\Rematch\\Textures\\Ignored.blp"
+			self.icon = "Interface\\AddOns\\Rematch\\Textures\\Ignored.blp"
 		elseif idType=="link" then
 			local speciesID,level = self.petID:match("battlepet:(%d+):(%d+):")
 			speciesID = tonumber(speciesID)
@@ -220,6 +228,11 @@ local queryAPIs = {
 					self.displayID = C_PetBattles.GetDisplayID(owner,index)
 				end
 			end
+		elseif idType=="random" then
+			local petType = self.petID:match("random:(%d+)")
+			self.petType = tonumber(petType) or 0
+			self.name = "Random" -- add random type too
+			self.icon = "Interface\\Icons\\INV_Misc_QuestionMark" -- replace with random icon
 		else
 			self.name = "Unknown"
 			self.icon = "Interface\\Icons\\INV_Misc_QuestionMark"
@@ -231,7 +244,7 @@ local queryAPIs = {
 		if idType=="pet" then
 			self.health,self.maxHealth,self.power,self.speed,self.rarity = C_PetJournal.GetPetStats(self.petID)
 		elseif idType=="link" then
-			local rarity,health,power,speed = self.petID:match("battlepet:%d+:%d+:(%d+):(%d+):(%d+):(%d+):")
+			local rarity,health,power,speed = self.petID:match("battlepet:%d+:%d+:(%d+):(%d+):(%d+):(%d+)")
 			if rarity then
 				self.rarity = tonumber(rarity)+1 -- links are 0-3 rarity intead of 1-4
 				self.health = tonumber(health)

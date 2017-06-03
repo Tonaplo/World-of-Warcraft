@@ -136,29 +136,22 @@
 				<BarTexture file="Interface\TargetingFrame\UI-StatusBar"/>
 				<BarColor r="0.1" g="1.0" b="0.1" />
 			</StatusBar>
-			<PlayerModel parentKey="Model" useParentLevel="true">
-				<Size x="75" y="55"/>
+			<ModelScene parentKey="ModelScene" useParentLevel="true" inherits="ModelSceneMixinTemplate">
+				<Size x="88" y="100"/>
 				<Anchors>
-					<Anchor point="BOTTOMRIGHT" x="-1" y="12"/>
+					<Anchor point="BOTTOMRIGHT" x="-1" y="1"/>
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
 						<Texture parentKey="Shadows" atlas="PetJournal-BattleSlot-Shadow">
 							<Size x="69" y="42"/>
 							<Anchors>
-								<Anchor point="BOTTOM" x="4" y="-12"/>
+								<Anchor point="BOTTOM" x="4" y="8"/>
 							</Anchors>
 						</Texture>
 					</Layer>
 				</Layers>
-				<Scripts>
-					<OnLoad>
-						Model_OnLoad(self)
-						self:SetRotation(-MODELFRAME_DEFAULT_ROTATION)
-					</OnLoad>
-					<OnEvent function="Model_OnEvent"/>
-				</Scripts>
-			</PlayerModel>
+			</ModelScene>
 			<Button parentKey="Pet" useParentLevel="true" enableMouse="false" inherits="RematchBasePetListButtonTemplate">
 				<Size x="209" y="44"/>
 				<Anchors>

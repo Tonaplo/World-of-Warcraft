@@ -1,22 +1,22 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -58,19 +58,19 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
+			["Default.Aggramar.Gottagetlia"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
 			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["faction"] = "Horde",
-			},
 			["Default.Proudmoore.Greybone"] = {
 				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["guildName"] = "Risen",

@@ -73,6 +73,8 @@ function rematch:InitModule(func) tinsert(initFuncs,func) end
 function rematch:UpdateUI()
 	local roster = rematch.Roster
 
+	rematch.petInfo:Reset() -- reset any petInfo from previous execution
+
 	-- some stuff is only done while the rematch is on screen
 	local isVisible = rematch.Frame:IsVisible() or rematch.Journal:IsVisible()
 

@@ -140,7 +140,7 @@ end
 
 -- this returns the standalone frame when the journal hides
 function journal:DefaultJournalOnHide()
-	if journal.showStandaloneOnHide then
+	if journal.showStandaloneOnHide and not InCombatLockdown() then
 		journal.showStandaloneOnHide = nil
 		-- wait a frame to let UISpecialFrames go through everything (otherwise standalone frame can be next frame to hide)
 		C_Timer.After(0,function() rematch.Frame:Show() end)

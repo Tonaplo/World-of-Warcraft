@@ -55,13 +55,6 @@ X: 0
 Y: 0
 W: 898
 H: 504
-Frame: ScriptErrorsFrame
-FrameLevel: 0
-Anchor: CENTER
-X: 232
-Y: 49
-W: 384
-H: 260
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -69,3 +62,10 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: ScriptErrorsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: -160
+Y: 122
+W: 384
+H: 260

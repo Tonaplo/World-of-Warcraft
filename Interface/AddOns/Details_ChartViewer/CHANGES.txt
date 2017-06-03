@@ -1,13 +1,7 @@
-changeset:   36:95657d5d736c
-tag:         v2.5.1-release
+changeset:   38:af500463dc50
+tag:         a38-alpha
 user:        Tercio
-date:        Tue Mar 28 19:20:13 2017 -0300
-summary:     - 7.2 ToC update.
-
-
-changeset:   35:7384d85dae01
-user:        Tercio
-date:        Tue Mar 07 14:05:20 2017 -0300
-summary:     Added tag v2.5-release for changeset 87fde3188ab1
+date:        Mon May 08 17:01:42 2017 -0300
+summary:     - localization is now handled on curseforge.
 
 

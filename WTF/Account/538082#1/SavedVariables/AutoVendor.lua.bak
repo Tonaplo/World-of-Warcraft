@@ -1,0 +1,13 @@
+
+AutoVendorDB = {
+	["profileKeys"] = {
+		["Mallusof - Tichondrius"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["guildbankrepair"] = true,
+		},
+		["Mallusof - Tichondrius"] = {
+		},
+	},
+}

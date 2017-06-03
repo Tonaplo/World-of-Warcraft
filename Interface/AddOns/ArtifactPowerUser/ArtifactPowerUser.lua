@@ -20,7 +20,7 @@ local function ScanBags()
 					tooltipScanner:SetHyperlink(itemLink)
 					for i = 2,4 do
 						local tooltipText = _G[tooltipName.."TextLeft"..i]:GetText()
-						if tooltipText and tooltipText:match(ARTIFACT_POWER) then
+						if tooltipText and tooltipText:match("\124cFFE6CC80"..ARTIFACT_POWER.."\124r") then
 							Cache[itemLink] = true
 							return itemLink, bag, slot
 						end
@@ -108,7 +108,7 @@ local function CreateButton()
     self:RegisterEvent("UNIT_ENTERED_VEHICLE")
     self:RegisterEvent("UNIT_EXITED_VEHICLE")
 	self:RegisterEvent("PLAYER_SPECIALIZATION_CHANGED")
-	
+
 	self:SetScript("OnEvent", function(self, event, ...)
 		if event == "BAG_UPDATE_DELAYED" or event == "PLAYER_SPECIALIZATION_CHANGED" then
 			Update()

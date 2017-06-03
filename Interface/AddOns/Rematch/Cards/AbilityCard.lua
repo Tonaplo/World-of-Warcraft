@@ -141,7 +141,16 @@ function rematch:ChatLinkAbility()
 		if rematch:GetIDType(petID)=="pet" then
 			_,maxHealth,power,speed = C_PetJournal.GetPetStats(petID)
 		end
-		ChatEdit_InsertLink(GetBattlePetAbilityHyperlink(abilityID,maxHealth,power,speed))
+		local link = GetBattlePetAbilityHyperlink(abilityID,maxHealth,power,speed)
+		if link then
+			local _,abilityName = C_PetBattles.GetAbilityInfoByID(abilityID)
+			-- fix for [Brackets] not being in ability links in 7.2
+			if abilityName and not link:match("%[.+%]\124h\124r") then
+				-- add []s around abilityName if they don't already exist
+				link = link:gsub(rematch:DesensitizeText(abilityName),"["..abilityName.."]")
+			end
+			ChatEdit_InsertLink(link)
+		end
 		return true
 	end
 end

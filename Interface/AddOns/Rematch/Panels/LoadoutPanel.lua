@@ -43,7 +43,7 @@ function panel:UpdateLoadouts()
 		button.petID = petID
 		rematch:FillPetListButton(button.Pet,petID,true)
 		if petID then
-			local _,_,level,xp,maxXP,displayID = C_PetJournal.GetPetInfoByPetID(petID)
+			local speciesID,_,level,xp,maxXP,displayID = C_PetJournal.GetPetInfoByPetID(petID)
 			local health, maxHealth = C_PetJournal.GetPetStats(petID)
 			if level~=25 then
 				button.XP:Show()
@@ -69,13 +69,19 @@ function panel:UpdateLoadouts()
 			-- update model of loaded pet (if it's a different model; to avoid model restarting at first frame)
 			if button.displayID ~= displayID then
 				button.displayID = displayID
-				button.Model:SetDisplayInfo(displayID)
+				local _,loadoutSceneID = C_PetJournal.GetPetModelSceneInfoBySpeciesID(speciesID)
+				button.ModelScene:TransitionToModelSceneID(loadoutSceneID, CAMERA_TRANSITION_TYPE_IMMEDIATE, CAMERA_MODIFICATION_TYPE_DISCARD, true)
+				local actor = button.ModelScene:GetActorByTag("pet")
+				if actor then
+					actor:SetModelByCreatureDisplayID(displayID)
+					actor:SetAnimationBlendOperation(LE_MODEL_BLEND_OPERATION_NONE)
+				end
 			end
-			button.Model:Show()
+			button.ModelScene:Show()
 		else
 			button.XP:Hide()
 			button.HP:Hide()
-			button.Model:Hide()
+			button.ModelScene:Hide()
 		end
 		-- update loaded abilities
 		for j=1,3 do
