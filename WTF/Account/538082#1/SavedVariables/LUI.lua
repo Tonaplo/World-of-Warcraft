@@ -52,7 +52,7 @@ LUIDB = {
 						["Alliance"] = {
 							["Miriyal"] = 101914065,
 							["Farahn"] = 236475112,
-							["Greybone"] = 6297864,
+							["Greybone"] = 13983005,
 							["Amranar"] = 476374393,
 							["Granjior"] = 348066546,
 							["Kaldorath"] = 142770614,
@@ -68,7 +68,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1434613214,
+							["Mallusof"] = 1441538687,
 						},
 					},
 				},
@@ -88,27 +88,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
-						["Font"] = "Prototype",
-					},
-					["Memory"] = {
-						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -128,14 +128,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -163,36 +169,14 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -682,6 +666,22 @@ LUIDB = {
 					},
 					["PartyPet"] = {
 						["Enable"] = false,
+					},
+				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
 					},
 				},
 			},
@@ -1844,72 +1844,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/p have a good one", -- [1]
-							" Kewl, write me on Bnet when you're ready :P", -- [2]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [3]
-							" Kewl, write me on Bnet when you're ready :P", -- [4]
-							"/raid understood", -- [5]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [6]
-							" Kewl, write me on Bnet when you're ready :P", -- [7]
-							"/raid understood", -- [8]
-							" Kewl, write me on Bnet when you're ready :P", -- [9]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [10]
-							" Kewl, write me on Bnet when you're ready :P", -- [11]
-							"/raid understood", -- [12]
-							"/p :(", -- [13]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [14]
-							"/p have a good one", -- [15]
-							" Kewl, write me on Bnet when you're ready :P", -- [16]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [17]
-							" Kewl, write me on Bnet when you're ready :P", -- [18]
-							"/raid understood", -- [19]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [20]
-							" Kewl, write me on Bnet when you're ready :P", -- [21]
-							"/raid understood", -- [22]
-							" Kewl, write me on Bnet when you're ready :P", -- [23]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [24]
-							"/raid understood", -- [25]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [26]
-							" Kewl, write me on Bnet when you're ready :P", -- [27]
-							"/raid understood", -- [28]
-							" Kewl, write me on Bnet when you're ready :P", -- [29]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [30]
-							" Kewl, write me on Bnet when you're ready :P", -- [31]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [32]
+							"/g Misdirect doesnt work for tanks", -- [1]
+							"/s g", -- [2]
+							"/g Misdirect doesnt work for tanks", -- [3]
+							"/macro", -- [4]
+							"/p Hey guys!", -- [5]
+							"/p :)", -- [6]
+							"/p pulling to Bridge", -- [7]
+							"/p nice!", -- [8]
+							"/p Wanna run the +5?", -- [9]
+							"/p Sorry if my tanking is slightly dicey", -- [10]
+							"/p I have a new UI setup", -- [11]
+							"/p r", -- [12]
+							"/p oops", -- [13]
+							"/p drop", -- [14]
+							"/p nad my", -- [15]
+							"/p call for MB, heals", -- [16]
+							"/p oh shit", -- [17]
+							"/p yes", -- [18]
+							"/p I forgot the heal", -- [19]
+							"/p darn it", -- [20]
+							"/p WHUT", -- [21]
+							"/p nice", -- [22]
+							"/p 3 chet", -- [23]
+							"/p That's gonna be slower", -- [24]
+							"/p grevious is", -- [25]
+							"/p that we get a stacking dot", -- [26]
+							"/p whenever we're under 90% HP", -- [27]
+							"/p It means everyone has to be topped off always", -- [28]
+							"/p No worries :)", -- [29]
+							"/p was two good dungeons anyways :)", -- [30]
+							"/p indeed!", -- [31]
+							"/p Have a good one :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Basically, I just want a couiple of people at some point", -- [1]
-							"/g I made a weakaura that cycles through who should pop what external at what felscythe", -- [2]
-							"/g It works perfectly with Flash Heal so far, but i wanna make sure it works for real", -- [3]
-							"/g so someone has to step up right, fuckface", -- [4]
-							"/RT", -- [5]
-							"/p |cffffff00|Hquest:46193:-1|h[Borne of Fel]|h|r|cffffff00|Hquest:46196:-1|h[Class Dismissed]|h|r", -- [6]
-							"/p |cffffff00|Hquest:46196:-1|h[Class Dismissed]|h|r", -- [7]
-							" Niiiiiiiiiiiice!", -- [8]
-							" no ty", -- [9]
-							"/g Paying 1 guy 2k to come help me on Guldan with this thing", -- [10]
-							"/g I only want a tank", -- [11]
-							"/g Kali is helping me", -- [12]
-							"/p Argent defender?", -- [13]
-							"/p sec", -- [14]
-							"/g wrong fucking macro", -- [15]
-							"/g about 30 mins of 4 people or so's time", -- [16]
-							"/g I made a weakaura that cycles through who should pop what external at what felscythe", -- [17]
-							"/g so someone has to step up right, fuckface", -- [18]
-							"/p |cffffff00|Hquest:46193:-1|h[Borne of Fel]|h|r|cffffff00|Hquest:46196:-1|h[Class Dismissed]|h|r", -- [19]
-							" Niiiiiiiiiiiice!", -- [20]
-							"/g Paying 1 guy 2k to come help me on Guldan with this thing", -- [21]
-							"/g Kali is helping me", -- [22]
-							"/p sec", -- [23]
-							"/g about 30 mins of 4 people or so's time", -- [24]
-							"/g so someone has to step up right, fuckface", -- [25]
-							" Niiiiiiiiiiiice!", -- [26]
-							"/g Kali is helping me", -- [27]
-							"/g about 30 mins of 4 people or so's time", -- [28]
-							" Niiiiiiiiiiiice!", -- [29]
-							"/g about 30 mins of 4 people or so's time", -- [30]
-							"/g I wanna run Mythics", -- [31]
-							"/cw Saosín-Tichondrius NPS", -- [32]
+							" Niiiiiiiiiiiice!", -- [1]
+							"/g Basically, I just want a couiple of people at some point", -- [2]
+							" no ty", -- [3]
+							"/g I made a weakaura that cycles through who should pop what external at what felscythe", -- [4]
+							"/g so someone has to step up right, fuckface", -- [5]
+							"/g Basically, I just want a couiple of people at some point", -- [6]
+							"/g I made a weakaura that cycles through who should pop what external at what felscythe", -- [7]
+							"/g Basically, I just want a couiple of people at some point", -- [8]
+							"/g Anyone up for running Mythic modes of the WoD raids for achievements and Transmog?", -- [9]
+							"/2 LF Plate/Leather/Mail user to come do Mythic WoDs Raids for Transmog and Achievements", -- [10]
+							"/g it's late", -- [11]
+							"/g What is it", -- [12]
+							"/g ?", -- [13]
+							"/g TM v SS?", -- [14]
+							"/g :/", -- [15]
+							"/g noone wants to go to Wod with me?", -- [16]
+							"/g lol", -- [17]
+							"/g Slicewd?", -- [18]
+							"/g Insentience?", -- [19]
+							"/g literally", -- [20]
+							"/g jsut kill mythic raid bosses", -- [21]
+							"/g for achievements", -- [22]
+							"/g and transmog", -- [23]
+							"/g as fast as possible", -- [24]
+							"/g Oh I dont have a lot of mythi achievements, lol", -- [25]
+							"/g Wanna go?", -- [26]
+							"/g aight nps", -- [27]
+							"/g gz", -- [28]
+							"/g and qq", -- [29]
+							"/g Oh Kaaaaaaaaali", -- [30]
+							"/g Wanna go kill all the bosses in Highmaul for Mythic Achievements>", -- [31]
+							"/g qq", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2568,22 +2568,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {

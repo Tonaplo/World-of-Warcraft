@@ -5,439 +5,8 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Gul'dan",
 		["id"] = 1737,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "The Nighthold",
-			["id"] = 1866,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Gul'dan",
-			["encounter"] = "Gul'dan",
-			["ej_instance_id"] = 786,
-			["diff"] = 15,
-		},
 		["player_db"] = {
-			["Deorsai"] = {
-				["name"] = "Deorsai",
-				["class"] = "PRIEST",
-				["overall"] = {
-					[211132] = 655664,
-					[221781] = 397499,
-					[221891] = 198750,
-				},
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								221781, -- [2]
-								397499, -- [3]
-								1496022406.934, -- [4]
-								2242538, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								203539, -- [2]
-								8300, -- [3]
-								1496022407.507, -- [4]
-								2250838, -- [5]
-								"Eärendìl-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								221605, -- [2]
-								547298, -- [3]
-								1496022407.92, -- [4]
-								1703540, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								221781, -- [2]
-								397499, -- [3]
-								1496022408.012, -- [4]
-								1306041, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								221781, -- [2]
-								397499, -- [3]
-								1496022409.009, -- [4]
-								908542, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								203539, -- [2]
-								8300, -- [3]
-								1496022409.516, -- [4]
-								916842, -- [5]
-								"Eärendìl-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [6]
-							{
-								false, -- [1]
-								77489, -- [2]
-								55422, -- [3]
-								1496022409.516, -- [4]
-								972264, -- [5]
-								"Deorsai", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								774, -- [2]
-								34729, -- [3]
-								1496022409.612, -- [4]
-								1006993, -- [5]
-								"Amranar", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								211132, -- [2]
-								327832, -- [3]
-								1496022411.296, -- [4]
-								679161, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								203539, -- [2]
-								8300, -- [3]
-								1496022411.501, -- [4]
-								687461, -- [5]
-								"Eärendìl-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								221891, -- [2]
-								198750, -- [3]
-								1496022411.664, -- [4]
-								488711, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								774, -- [2]
-								0, -- [3]
-								1496022412.295, -- [4]
-								488711, -- [5]
-								"Amranar", -- [6]
-								nil, -- [7]
-								80514, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								211132, -- [2]
-								327832, -- [3]
-								1496022412.295, -- [4]
-								160879, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								200389, -- [2]
-								0, -- [3]
-								1496022412.295, -- [4]
-								160879, -- [5]
-								"Amranar", -- [6]
-								nil, -- [7]
-								40982, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								false, -- [1]
-								77489, -- [2]
-								0, -- [3]
-								1496022412.512, -- [4]
-								160879, -- [5]
-								"Deorsai", -- [6]
-								nil, -- [7]
-								55422, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								false, -- [1]
-								189800, -- [2]
-								0, -- [3]
-								1496022413.126, -- [4]
-								160879, -- [5]
-								"Amranar", -- [6]
-								nil, -- [7]
-								112199, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						320.169, -- [3]
-						3697320, -- [4]
-						"Gul'dan", -- [5]
-						1496022413.282, -- [6]
-						"PRIEST", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-			},
-			["Gummyeggs-Tichondrius"] = {
-				["name"] = "Gummyeggs-Tichondrius",
-				["class"] = "WARLOCK",
-				["overall"] = {
-					[206340] = 6062912,
-					[206339] = 158913,
-				},
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								1454, -- [2]
-								367254, -- [3]
-								1496022189.688, -- [4]
-								2986031, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								73450, -- [7]
-								32, -- [8]
-								true, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								108366, -- [2]
-								51079, -- [3]
-								1496022189.688, -- [4]
-								2986031, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								206339, -- [2]
-								51079, -- [3]
-								1496022189.688, -- [4]
-								2986031, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								108447, -- [2]
-								21864, -- [3]
-								1496022190.012, -- [4]
-								3007895, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [4]
-							{
-								false, -- [1]
-								108366, -- [2]
-								52025, -- [3]
-								1496022190.199, -- [4]
-								3007895, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [5]
-							{
-								true, -- [1]
-								206339, -- [2]
-								52025, -- [3]
-								1496022190.199, -- [4]
-								3007895, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								48438, -- [2]
-								22168, -- [3]
-								1496022190.24, -- [4]
-								3030063, -- [5]
-								"Radho-Ragnaros", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [7]
-							{
-								false, -- [1]
-								108366, -- [2]
-								28923, -- [3]
-								1496022190.691, -- [4]
-								3030063, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [8]
-							{
-								true, -- [1]
-								206339, -- [2]
-								52971, -- [3]
-								1496022190.691, -- [4]
-								3010824, -- [5]
-								"Gul'dan", -- [6]
-								33732, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								77489, -- [2]
-								39787, -- [3]
-								1496022190.855, -- [4]
-								3050611, -- [5]
-								"Deorsai", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [10]
-							{
-								false, -- [1]
-								108447, -- [2]
-								17813, -- [3]
-								1496022191.017, -- [4]
-								3068424, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								48438, -- [2]
-								20934, -- [3]
-								1496022191.038, -- [4]
-								3089358, -- [5]
-								"Radho-Ragnaros", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [12]
-							{
-								false, -- [1]
-								108366, -- [2]
-								52388, -- [3]
-								1496022191.186, -- [4]
-								3089358, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [13]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1496022191.186, -- [4]
-								3089358, -- [5]
-								"Gummyeggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								206339, -- [2]
-								53917, -- [3]
-								1496022191.186, -- [4]
-								3088134, -- [5]
-								"Gul'dan", -- [6]
-								52693, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								206340, -- [2]
-								6062912, -- [3]
-								1496022191.702, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								1212582, -- [7]
-								4, -- [8]
-								false, -- [9]
-								1762196, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						98.589, -- [3]
-						3672540, -- [4]
-						"Gul'dan", -- [5]
-						1496022191.702, -- [6]
-						"WARLOCK", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-			},
 			["Tafè-Tichondrius"] = {
-				["name"] = "Tafè-Tichondrius",
-				["class"] = "PRIEST",
-				["overall"] = {
-					[206581] = 1953180,
-					[227550] = 2473410,
-					[206370] = 1577389,
-				},
 				["deaths"] = {
 					{
 						{
@@ -630,14 +199,214 @@ DeathGraphsDBDeaths = {
 						1, -- [8]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
+				["name"] = "Tafè-Tichondrius",
+				["overall"] = {
+					[206581] = 1953180,
+					[227550] = 2473410,
+					[206370] = 1577389,
+				},
+			},
+			["Gummyeggs-Tichondrius"] = {
+				["deaths"] = {
+					{
+						{
+							{
+								true, -- [1]
+								1454, -- [2]
+								367254, -- [3]
+								1496022189.688, -- [4]
+								2986031, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								73450, -- [7]
+								32, -- [8]
+								true, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								false, -- [1]
+								108366, -- [2]
+								51079, -- [3]
+								1496022189.688, -- [4]
+								2986031, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								true, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [2]
+							{
+								true, -- [1]
+								206339, -- [2]
+								51079, -- [3]
+								1496022189.688, -- [4]
+								2986031, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								false, -- [1]
+								108447, -- [2]
+								21864, -- [3]
+								1496022190.012, -- [4]
+								3007895, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [4]
+							{
+								false, -- [1]
+								108366, -- [2]
+								52025, -- [3]
+								1496022190.199, -- [4]
+								3007895, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								true, -- [7]
+								0, -- [8]
+							}, -- [5]
+							{
+								true, -- [1]
+								206339, -- [2]
+								52025, -- [3]
+								1496022190.199, -- [4]
+								3007895, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [6]
+							{
+								false, -- [1]
+								48438, -- [2]
+								22168, -- [3]
+								1496022190.24, -- [4]
+								3030063, -- [5]
+								"Radho-Ragnaros", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [7]
+							{
+								false, -- [1]
+								108366, -- [2]
+								28923, -- [3]
+								1496022190.691, -- [4]
+								3030063, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								true, -- [7]
+								0, -- [8]
+							}, -- [8]
+							{
+								true, -- [1]
+								206339, -- [2]
+								52971, -- [3]
+								1496022190.691, -- [4]
+								3010824, -- [5]
+								"Gul'dan", -- [6]
+								33732, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [9]
+							{
+								false, -- [1]
+								77489, -- [2]
+								39787, -- [3]
+								1496022190.855, -- [4]
+								3050611, -- [5]
+								"Deorsai", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [10]
+							{
+								false, -- [1]
+								108447, -- [2]
+								17813, -- [3]
+								1496022191.017, -- [4]
+								3068424, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [11]
+							{
+								false, -- [1]
+								48438, -- [2]
+								20934, -- [3]
+								1496022191.038, -- [4]
+								3089358, -- [5]
+								"Radho-Ragnaros", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [12]
+							{
+								false, -- [1]
+								108366, -- [2]
+								52388, -- [3]
+								1496022191.186, -- [4]
+								3089358, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								true, -- [7]
+								0, -- [8]
+							}, -- [13]
+							{
+								false, -- [1]
+								108366, -- [2]
+								0, -- [3]
+								1496022191.186, -- [4]
+								3089358, -- [5]
+								"Gummyeggs-Tichondrius", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [14]
+							{
+								true, -- [1]
+								206339, -- [2]
+								53917, -- [3]
+								1496022191.186, -- [4]
+								3088134, -- [5]
+								"Gul'dan", -- [6]
+								52693, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [15]
+							{
+								true, -- [1]
+								206340, -- [2]
+								6062912, -- [3]
+								1496022191.702, -- [4]
+								1, -- [5]
+								"Gul'dan", -- [6]
+								1212582, -- [7]
+								4, -- [8]
+								false, -- [9]
+								1762196, -- [10]
+							}, -- [16]
+						}, -- [1]
+						false, -- [2]
+						98.589, -- [3]
+						3672540, -- [4]
+						"Gul'dan", -- [5]
+						1496022191.702, -- [6]
+						"WARLOCK", -- [7]
+						1, -- [8]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Gummyeggs-Tichondrius",
+				["overall"] = {
+					[206340] = 6062912,
+					[206339] = 158913,
+				},
 			},
 			["Kaedwyn-Tichondrius"] = {
-				["name"] = "Kaedwyn-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-					2227529, -- [1]
-					[227550] = 6940558,
-				},
 				["deaths"] = {
 					{
 						{
@@ -846,14 +615,14 @@ DeathGraphsDBDeaths = {
 						1, -- [8]
 					}, -- [1]
 				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Kaedwyn-Tichondrius",
+				["overall"] = {
+					2227529, -- [1]
+					[227550] = 6940558,
+				},
 			},
 			["Meowfurious-Tichondrius"] = {
-				["name"] = "Meowfurious-Tichondrius",
-				["class"] = "WARRIOR",
-				["overall"] = {
-					[221807] = 1069735,
-					[209087] = 1081662,
-				},
 				["deaths"] = {
 					{
 						{
@@ -1057,19 +826,226 @@ DeathGraphsDBDeaths = {
 						1, -- [8]
 					}, -- [1]
 				},
+				["class"] = "WARRIOR",
+				["name"] = "Meowfurious-Tichondrius",
+				["overall"] = {
+					[221807] = 1069735,
+					[209087] = 1081662,
+				},
+			},
+			["Deorsai"] = {
+				["deaths"] = {
+					{
+						{
+							{
+								true, -- [1]
+								221781, -- [2]
+								397499, -- [3]
+								1496022406.934, -- [4]
+								2242538, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								false, -- [1]
+								203539, -- [2]
+								8300, -- [3]
+								1496022407.507, -- [4]
+								2250838, -- [5]
+								"Eärendìl-Tichondrius", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [2]
+							{
+								true, -- [1]
+								221605, -- [2]
+								547298, -- [3]
+								1496022407.92, -- [4]
+								1703540, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								true, -- [1]
+								221781, -- [2]
+								397499, -- [3]
+								1496022408.012, -- [4]
+								1306041, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [4]
+							{
+								true, -- [1]
+								221781, -- [2]
+								397499, -- [3]
+								1496022409.009, -- [4]
+								908542, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [5]
+							{
+								false, -- [1]
+								203539, -- [2]
+								8300, -- [3]
+								1496022409.516, -- [4]
+								916842, -- [5]
+								"Eärendìl-Tichondrius", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [6]
+							{
+								false, -- [1]
+								77489, -- [2]
+								55422, -- [3]
+								1496022409.516, -- [4]
+								972264, -- [5]
+								"Deorsai", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [7]
+							{
+								false, -- [1]
+								774, -- [2]
+								34729, -- [3]
+								1496022409.612, -- [4]
+								1006993, -- [5]
+								"Amranar", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [8]
+							{
+								true, -- [1]
+								211132, -- [2]
+								327832, -- [3]
+								1496022411.296, -- [4]
+								679161, -- [5]
+								"Empowered Eye of Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [9]
+							{
+								false, -- [1]
+								203539, -- [2]
+								8300, -- [3]
+								1496022411.501, -- [4]
+								687461, -- [5]
+								"Eärendìl-Tichondrius", -- [6]
+								nil, -- [7]
+								0, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [10]
+							{
+								true, -- [1]
+								221891, -- [2]
+								198750, -- [3]
+								1496022411.664, -- [4]
+								488711, -- [5]
+								"Gul'dan", -- [6]
+								nil, -- [7]
+								32, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [11]
+							{
+								false, -- [1]
+								774, -- [2]
+								0, -- [3]
+								1496022412.295, -- [4]
+								488711, -- [5]
+								"Amranar", -- [6]
+								nil, -- [7]
+								80514, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [12]
+							{
+								true, -- [1]
+								211132, -- [2]
+								327832, -- [3]
+								1496022412.295, -- [4]
+								160879, -- [5]
+								"Empowered Eye of Gul'dan", -- [6]
+								nil, -- [7]
+								4, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [13]
+							{
+								false, -- [1]
+								200389, -- [2]
+								0, -- [3]
+								1496022412.295, -- [4]
+								160879, -- [5]
+								"Amranar", -- [6]
+								nil, -- [7]
+								40982, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [14]
+							{
+								false, -- [1]
+								77489, -- [2]
+								0, -- [3]
+								1496022412.512, -- [4]
+								160879, -- [5]
+								"Deorsai", -- [6]
+								nil, -- [7]
+								55422, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [15]
+							{
+								false, -- [1]
+								189800, -- [2]
+								0, -- [3]
+								1496022413.126, -- [4]
+								160879, -- [5]
+								"Amranar", -- [6]
+								nil, -- [7]
+								112199, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [16]
+						}, -- [1]
+						false, -- [2]
+						320.169, -- [3]
+						3697320, -- [4]
+						"Gul'dan", -- [5]
+						1496022413.282, -- [6]
+						"PRIEST", -- [7]
+						1, -- [8]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+				["name"] = "Deorsai",
+				["overall"] = {
+					[211132] = 655664,
+					[221781] = 397499,
+					[221891] = 198750,
+				},
 			},
 			["Amranar"] = {
-				["name"] = "Amranar",
-				["class"] = "DRUID",
-				["overall"] = {
-					[206370] = 1472049,
-					[206581] = 1974453,
-					[232692] = 1201226,
-					[221807] = 913576,
-					[206367] = 339200,
-					[209087] = 616139,
-					[228267] = 225975,
-				},
 				["deaths"] = {
 					{
 						{
@@ -1643,13 +1619,19 @@ DeathGraphsDBDeaths = {
 						1, -- [8]
 					}, -- [3]
 				},
+				["class"] = "DRUID",
+				["name"] = "Amranar",
+				["overall"] = {
+					[206370] = 1472049,
+					[206581] = 1974453,
+					[232692] = 1201226,
+					[228267] = 225975,
+					[206367] = 339200,
+					[209087] = 616139,
+					[221807] = 913576,
+				},
 			},
 			["Zaelsynth-Tichondrius"] = {
-				["name"] = "Zaelsynth-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-					[211132] = 1140795,
-				},
 				["deaths"] = {
 					{
 						{
@@ -1858,15 +1840,13 @@ DeathGraphsDBDeaths = {
 						1, -- [8]
 					}, -- [1]
 				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Zaelsynth-Tichondrius",
+				["overall"] = {
+					[211132] = 1140795,
+				},
 			},
 			["Chopperdave-Tichondrius"] = {
-				["name"] = "Chopperdave-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-					[206503] = 416555,
-					[221781] = 264479,
-					[221605] = 397380,
-				},
 				["deaths"] = {
 					{
 						{
@@ -2070,17 +2050,15 @@ DeathGraphsDBDeaths = {
 						1, -- [8]
 					}, -- [1]
 				},
+				["class"] = "PALADIN",
+				["name"] = "Chopperdave-Tichondrius",
+				["overall"] = {
+					[206503] = 416555,
+					[221781] = 264479,
+					[221605] = 397380,
+				},
 			},
 		},
-	},
-}
-DeathGraphsDBEndurance = {
-	["173715"] = {
-		["hash"] = "173715",
-		["type"] = "endurance",
-		["name"] = "Gul'dan",
-		["id"] = 1737,
-		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -2089,42 +2067,52 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1530,
 			["try_number"] = 1,
 			["name"] = "Gul'dan",
-			["encounter"] = "Gul'dan",
-			["ej_instance_id"] = 786,
 			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Gul'dan",
 		},
+		["diff"] = 15,
+	},
+}
+DeathGraphsDBEndurance = {
+	["173715"] = {
+		["hash"] = "173715",
+		["type"] = "endurance",
+		["name"] = "Gul'dan",
+		["id"] = 1737,
 		["player_db"] = {
 			["Eltul-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Eärendìl-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Xji-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Bustyknocks-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Amranar"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -2132,100 +2120,46 @@ DeathGraphsDBEndurance = {
 						"Empowered Liquid Hellfire |cFFFF33331,974,453|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "DRUID",
 			},
 			["Radho-Ragnaros"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
 			["Pokimaneomg-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Chopperdave-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Arkator-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Kalithumos-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "PALADIN",
-			},
-			["Tafè-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						205.224999999999, -- [2]
-						"Fel Scythe |cFFFF33332,473,410|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PRIEST",
-			},
-			["Kaedwyn-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Colbear-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Deorsai"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Meowfurious-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Insentience-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Zaelsynth-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Gummyeggs-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 90,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -2233,9 +2167,75 @@ DeathGraphsDBEndurance = {
 						"Bonds of Fel |cFFFF33336,062,912|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARLOCK",
+			},
+			["Kaedwyn-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Insentience-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Meowfurious-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Deorsai"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Colbear-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Zaelsynth-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Tafè-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						1, -- [1]
+						205.224999999999, -- [2]
+						"Fel Scythe |cFFFF33332,473,410|r", -- [3]
+					}, -- [1]
+				},
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "The Nighthold",
+			["id"] = 1866,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Gul'dan",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Gul'dan",
+		},
+		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -2245,9 +2245,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 3672540,
 				["timeofdeath"] = 98.589,
 				["name"] = "Gummyeggs-Tichondrius",
-				["time"] = 1496022191.702,
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 38s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -2608,14 +2605,14 @@ DeathGraphsDBCurrent = {
 						"Gummyeggs-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 38s",
+				["time"] = 1496022191.702,
 			}, -- [1]
 			{
 				["maxhealth"] = 4035060,
 				["timeofdeath"] = 205.224999999999,
 				["name"] = "Tafè-Tichondrius",
-				["time"] = 1496022298.338,
-				["class"] = "PRIEST",
-				["timestring"] = "3m 25s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -2990,14 +2987,14 @@ DeathGraphsDBCurrent = {
 						"Tafè-Tichondrius", -- [6]
 					}, -- [34]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "3m 25s",
+				["time"] = 1496022298.338,
 			}, -- [2]
 			{
 				["maxhealth"] = 2546820,
 				["timeofdeath"] = 240.117,
 				["name"] = "Amranar",
-				["time"] = 1496022333.23,
-				["class"] = "DRUID",
-				["timestring"] = "4m 0s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -3404,14 +3401,14 @@ DeathGraphsDBCurrent = {
 						"Amranar", -- [6]
 					}, -- [35]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "4m 0s",
+				["time"] = 1496022333.23,
 			}, -- [3]
 			{
 				["maxhealth"] = 2546820,
 				["timeofdeath"] = 281.941,
 				["name"] = "Amranar",
-				["time"] = 1496022375.054,
-				["class"] = "DRUID",
-				["timestring"] = "4m 41s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3746,14 +3743,14 @@ DeathGraphsDBCurrent = {
 						"Amranar", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "4m 41s",
+				["time"] = 1496022375.054,
 			}, -- [4]
 			{
 				["maxhealth"] = 6179880,
 				["timeofdeath"] = 304.920999999999,
 				["name"] = "Kaedwyn-Tichondrius",
-				["time"] = 1496022398.034,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "5m 4s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4148,14 +4145,14 @@ DeathGraphsDBCurrent = {
 						"Kaedwyn-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "5m 4s",
+				["time"] = 1496022398.034,
 			}, -- [5]
 			{
 				["maxhealth"] = 3697320,
 				["timeofdeath"] = 320.169,
 				["name"] = "Deorsai",
-				["time"] = 1496022413.282,
-				["class"] = "PRIEST",
-				["timestring"] = "5m 20s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4546,14 +4543,14 @@ DeathGraphsDBCurrent = {
 						"Deorsai", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "5m 20s",
+				["time"] = 1496022413.282,
 			}, -- [6]
 			{
 				["maxhealth"] = 3799560,
 				["timeofdeath"] = 323.077,
 				["name"] = "Chopperdave-Tichondrius",
-				["time"] = 1496022416.19,
-				["class"] = "PALADIN",
-				["timestring"] = "5m 23s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4938,14 +4935,14 @@ DeathGraphsDBCurrent = {
 						"Chopperdave-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 23s",
+				["time"] = 1496022416.19,
 			}, -- [7]
 			{
 				["maxhealth"] = 4021140,
 				["timeofdeath"] = 333.911999999999,
 				["name"] = "Zaelsynth-Tichondrius",
-				["time"] = 1496022427.025,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "5m 33s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5336,14 +5333,14 @@ DeathGraphsDBCurrent = {
 						"Zaelsynth-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "5m 33s",
+				["time"] = 1496022427.025,
 			}, -- [8]
 			{
 				["maxhealth"] = 4862430,
 				["timeofdeath"] = 342.038,
 				["name"] = "Meowfurious-Tichondrius",
-				["time"] = 1496022435.151,
-				["class"] = "WARRIOR",
-				["timestring"] = "5m 42s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -5732,14 +5729,14 @@ DeathGraphsDBCurrent = {
 						"Meowfurious-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "5m 42s",
+				["time"] = 1496022435.151,
 			}, -- [9]
 			{
 				["maxhealth"] = 2546820,
 				["timeofdeath"] = 342.078,
 				["name"] = "Amranar",
-				["time"] = 1496022435.191,
-				["class"] = "DRUID",
-				["timestring"] = "5m 42s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6110,6 +6107,9 @@ DeathGraphsDBCurrent = {
 						"Amranar", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "5m 42s",
+				["time"] = 1496022435.191,
 			}, -- [10]
 		},
 		["bossname"] = "Gul'dan",
@@ -6348,6 +6348,12 @@ DeathGraphsDBGraph = {
 					1496022480, -- [2]
 				}, -- [1]
 			},
+			["Black Harvest"] = {
+				{
+					340, -- [1]
+					1496022480, -- [2]
+				}, -- [1]
+			},
 			["Eye of Gul'dan"] = {
 				{
 					115, -- [1]
@@ -6365,12 +6371,6 @@ DeathGraphsDBGraph = {
 					171, -- [1]
 					1496022480, -- [2]
 				}, -- [4]
-			},
-			["Black Harvest"] = {
-				{
-					340, -- [1]
-					1496022480, -- [2]
-				}, -- [1]
 			},
 			["Shatter Essence"] = {
 				{
@@ -6412,8 +6412,8 @@ DeathGraphsDBGraph = {
 			["The Eye of Aman'Thul"] = 227427,
 			["Empowered Liquid Hellfire"] = 206220,
 			["Duplicate"] = 209291,
-			["Eye of Gul'dan"] = 209454,
 			["Black Harvest"] = 206744,
+			["Eye of Gul'dan"] = 209454,
 			["Shatter Essence"] = 206675,
 			["Fel Efflux"] = 206514,
 		},

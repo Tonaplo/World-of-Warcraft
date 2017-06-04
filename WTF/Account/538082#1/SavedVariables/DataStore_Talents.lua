@@ -1,22 +1,22 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -49,7 +49,7 @@ DataStore_TalentsDB = {
 					9573, -- [2]
 					6489, -- [3]
 				},
-				["lastUpdate"] = 1496551321,
+				["lastUpdate"] = 1496558557,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 39,
 				["Artifacts"] = {
@@ -62,7 +62,7 @@ DataStore_TalentsDB = {
 						["tier"] = 1,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
-						["pointsRemaining"] = 115559920,
+						["pointsRemaining"] = 148208970,
 						["rank"] = 51,
 						["tier"] = 2,
 					},
@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 					[3] = 7039,
 					[4] = 8171,
 				},
-				["lastUpdate"] = 1496378658,
+				["lastUpdate"] = 1496559209,
 				["Class"] = "DRUID",
 				["ArtifactKnowledge"] = 28,
 				["Artifacts"] = {
@@ -243,7 +243,7 @@ DataStore_TalentsDB = {
 						["tier"] = 1,
 					},
 					["Maw of the Damned"] = {
-						["pointsRemaining"] = 1251880,
+						["pointsRemaining"] = 15886580,
 						["rank"] = 39,
 						["tier"] = 2,
 					},
@@ -254,14 +254,14 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1495436399,
+				["lastUpdate"] = 1496565594,
 				["Specializations"] = {
 					16277, -- [1]
 					5882, -- [2]
 					12122, -- [3]
 				},
-				["ArtifactKnowledge"] = 32,
-				["ArtifactKnowledgeMultiplier"] = 4901,
+				["ArtifactKnowledge"] = 34,
+				["ArtifactKnowledgeMultiplier"] = 8301,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618455,
@@ -272,13 +272,13 @@ DataStore_TalentsDB = {
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["EquippedArtifact"] = "Scale of the Earth-Warder",
-				["ArtifactKnowledgeMultiplier"] = 1701,
+				["ArtifactKnowledgeMultiplier"] = 2901,
 				["Specializations"] = {
 					[3] = 10713,
 				},
-				["lastUpdate"] = 1496378726,
+				["lastUpdate"] = 1496561066,
 				["Class"] = "WARRIOR",
-				["ArtifactKnowledge"] = 28,
+				["ArtifactKnowledge"] = 30,
 				["Artifacts"] = {
 					["Scale of the Earth-Warder"] = {
 						["tier"] = 2,
@@ -292,22 +292,22 @@ DataStore_TalentsDB = {
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["HUNTER"] = {

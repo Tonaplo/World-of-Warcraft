@@ -1,9 +1,15 @@
 
 AutoVendorDB = {
 	["profileKeys"] = {
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
+		["Amranar - Proudmoore"] = {
+		},
+		["Praerend - Proudmoore"] = {
+		},
 		["Default"] = {
 			["guildbankrepair"] = true,
 			["junk"] = {

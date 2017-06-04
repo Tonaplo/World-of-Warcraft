@@ -1,9 +1,15 @@
 
 HandyNotes_BrokenShoreDB = {
 	["profileKeys"] = {
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["profiles"] = {
+		["Amranar - Proudmoore"] = {
+		},
+		["Praerend - Proudmoore"] = {
+		},
 		["Mallusof - Tichondrius"] = {
 		},
 	},

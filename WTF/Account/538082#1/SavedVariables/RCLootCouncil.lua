@@ -1,6 +1,9 @@
 
 RCLootCouncilDB = {
 	["profileKeys"] = {
+		["Amranar - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["global"] = {
@@ -437,17 +440,121 @@ RCLootCouncilDB = {
 			"21:42:01 - Event: (PLAYER_ENTERING_WORLD)", -- [406]
 			"21:42:01 - GetML()", -- [407]
 			"21:42:01 - LootMethod =  (personalloot)", -- [408]
+			"06/03/17", -- [409]
+			"22:56:44 - Logged In", -- [410]
+			"22:56:44 - ML initialized!", -- [411]
+			"22:57:00 - Mallusof-Tichondrius (2.3.3) (nil)", -- [412]
+			"22:57:00 - Event: (PLAYER_ENTERING_WORLD)", -- [413]
+			"22:57:00 - GetML()", -- [414]
+			"22:57:00 - LootMethod =  (personalloot)", -- [415]
+			"22:57:02 - GetPlayersGuildRank()", -- [416]
+			"22:57:02 - Found Guild Rank: Core Raider", -- [417]
+			"22:57:02 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [418]
+			"22:59:40 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [419]
+			"22:59:40 - GetML()", -- [420]
+			"22:59:40 - LootMethod =  (personalloot)", -- [421]
+			"23:02:40 - Event: (PLAYER_ENTERING_WORLD)", -- [422]
+			"23:02:40 - GetML()", -- [423]
+			"23:02:40 - LootMethod =  (personalloot)", -- [424]
+			"23:12:59 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Insentience) (distri:) (GUILD)", -- [425]
+			"23:13:12 - Event: (PLAYER_ENTERING_WORLD)", -- [426]
+			"23:13:12 - GetML()", -- [427]
+			"23:13:12 - LootMethod =  (personalloot)", -- [428]
+			"23:13:34 - Event: (PLAYER_ENTERING_WORLD)", -- [429]
+			"23:13:34 - GetML()", -- [430]
+			"23:13:34 - LootMethod =  (personalloot)", -- [431]
+			"23:16:26 - Event: (RAID_INSTANCE_WELCOME) (Ulduar (25 Player)) (204213) (0) (0)", -- [432]
+			"23:16:26 - Event: (PLAYER_ENTERING_WORLD)", -- [433]
+			"23:16:26 - GetML()", -- [434]
+			"23:16:26 - LootMethod =  (personalloot)", -- [435]
+			"23:42:37 - Event: (PLAYER_ENTERING_WORLD)", -- [436]
+			"23:42:37 - GetML()", -- [437]
+			"23:42:37 - LootMethod =  (personalloot)", -- [438]
+			"23:42:56 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Insentience) (distri:) (GUILD)", -- [439]
+			"06/03/17", -- [440]
+			"23:53:12 - Logged In", -- [441]
+			"23:53:12 - ML initialized!", -- [442]
+			"23:53:29 - Amranar-Proudmoore (2.3.3) (nil)", -- [443]
+			"23:53:29 - Event: (PLAYER_ENTERING_WORLD)", -- [444]
+			"23:53:29 - GetML()", -- [445]
+			"23:53:29 - LootMethod =  (personalloot)", -- [446]
+			"23:53:31 - GetPlayersGuildRank()", -- [447]
+			"23:53:31 - Found Guild Rank: Alternate", -- [448]
+			"23:53:31 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Amranar) (distri:) (GUILD)", -- [449]
+			"23:59:22 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Vivie) (distri:) (GUILD)", -- [450]
+			"00:12:32 - Comm received:^1^SverTest^T^N1^S2.3.2^t^^ (from:) (Librarien) (distri:) (GUILD)", -- [451]
+			"00:15:35 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Anjii) (distri:) (GUILD)", -- [452]
+			"00:18:00 - Comm received:^1^SverTest^T^N1^S2.2.5^t^^ (from:) (Minspec) (distri:) (GUILD)", -- [453]
+			"00:18:59 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Vivie) (distri:) (GUILD)", -- [454]
+			"00:20:55 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Kanael) (distri:) (GUILD)", -- [455]
+			"06/04/17", -- [456]
+			"00:24:19 - Logged In", -- [457]
+			"00:24:19 - ML initialized!", -- [458]
+			"00:24:24 - Praerend-Proudmoore (2.3.3) (nil)", -- [459]
+			"00:24:25 - Event: (PLAYER_ENTERING_WORLD)", -- [460]
+			"00:24:25 - GetML()", -- [461]
+			"00:24:25 - LootMethod =  (personalloot)", -- [462]
+			"00:24:26 - GetPlayersGuildRank()", -- [463]
+			"00:24:26 - Found Guild Rank: Alternate", -- [464]
+			"00:24:26 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Praerend) (distri:) (GUILD)", -- [465]
+			"00:44:40 - Comm received:^1^SverTest^T^N1^S2.3.2^t^^ (from:) (Shorthammer) (distri:) (GUILD)", -- [466]
+			"00:47:09 - Comm received:^1^SverTest^T^N1^S2.3.2^t^^ (from:) (Silentclaw) (distri:) (GUILD)", -- [467]
+			"06/04/17", -- [468]
+			"00:49:35 - Logged In", -- [469]
+			"00:49:35 - ML initialized!", -- [470]
+			"00:49:51 - Greybone-Proudmoore (2.3.3) (nil)", -- [471]
+			"00:49:51 - Event: (PLAYER_ENTERING_WORLD)", -- [472]
+			"00:49:51 - GetML()", -- [473]
+			"00:49:51 - LootMethod =  (personalloot)", -- [474]
+			"00:49:53 - GetPlayersGuildRank()", -- [475]
+			"00:49:53 - Found Guild Rank: Alternate", -- [476]
+			"00:49:53 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Greybone) (distri:) (GUILD)", -- [477]
+			"00:50:56 - Comm received:^1^SverTest^T^N1^S2.3.2^t^^ (from:) (Kypriss) (distri:) (GUILD)", -- [478]
+			"00:56:54 - Comm received:^1^SverTest^T^N1^S2.3.2^t^^ (from:) (Nephyte) (distri:) (GUILD)", -- [479]
+			"00:59:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [480]
+			"00:59:32 - GetML()", -- [481]
+			"00:59:32 - LootMethod =  (personalloot)", -- [482]
+			"01:01:41 - Event: (PLAYER_ENTERING_WORLD)", -- [483]
+			"01:01:41 - GetML()", -- [484]
+			"01:01:41 - LootMethod =  (personalloot)", -- [485]
+			"01:01:58 - Event: (RAID_INSTANCE_WELCOME) (Maw of Souls (Mythic)) (197882) (0) (0)", -- [486]
+			"01:01:58 - Event: (PLAYER_ENTERING_WORLD)", -- [487]
+			"01:01:58 - GetML()", -- [488]
+			"01:01:58 - LootMethod =  (personalloot)", -- [489]
+			"01:06:05 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Hiroko) (distri:) (GUILD)", -- [490]
+			"01:13:44 - Event: (PLAYER_ENTERING_WORLD)", -- [491]
+			"01:13:44 - GetML()", -- [492]
+			"01:13:44 - LootMethod =  (personalloot)", -- [493]
+			"01:17:53 - Event: (RAID_INSTANCE_WELCOME) (Neltharion's Lair (Mythic)) (196926) (0) (0)", -- [494]
+			"01:17:53 - Event: (PLAYER_ENTERING_WORLD)", -- [495]
+			"01:17:53 - GetML()", -- [496]
+			"01:17:53 - LootMethod =  (personalloot)", -- [497]
+			"01:30:56 - Comm received:^1^SverTest^T^N1^S2.2.5^t^^ (from:) (Zebuleon) (distri:) (GUILD)", -- [498]
+			"01:36:56 - Comm received:^1^SverTest^T^N1^S2.2.5^t^^ (from:) (Animus) (distri:) (GUILD)", -- [499]
+			"01:39:54 - Event: (PLAYER_ENTERING_WORLD)", -- [500]
+			"01:39:54 - GetML()", -- [501]
+			"01:39:54 - LootMethod =  (personalloot)", -- [502]
 		},
 		["version"] = "2.3.3",
 		["verTestCandidates"] = {
-			["Saosín-Tichondrius"] = "2.3.1-nil: - Mallusof-Tichondrius",
-			["Yuniee-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Mallusof-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Librarien-Proudmoore"] = "2.3.2-nil: - Greybone-Proudmoore",
+			["Amranar-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
+			["Vivie-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
 			["Búî-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["însensate-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Kanael-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
+			["Saosín-Tichondrius"] = "2.3.1-nil: - Mallusof-Tichondrius",
 			["Foxxa-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Greybone-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
+			["Silentclaw-Proudmoore"] = "2.3.2-nil: - Greybone-Proudmoore",
+			["Megaboo-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
+			["Yuniee-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Anjii-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
+			["Minspec-Proudmoore"] = "2.2.5-nil: - Greybone-Proudmoore",
 			["Insentience-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Zaelsynth-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["însensate-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Praerend-Proudmoore"] = "2.3.3-nil: - Praerend-Proudmoore",
 		},
 	},
 	["profiles"] = {
@@ -458,6 +565,17 @@ RCLootCouncilDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["UI"] = {
+				["sessionframe"] = {
+					["y"] = 88.1779169294896,
+					["x"] = 243.911359272986,
+					["scale"] = 0.800000011920929,
+				},
+				["lootframe"] = {
+					["y"] = 101.777699270512,
+					["x"] = 258.133478625537,
+					["point"] = "BOTTOM",
+					["scale"] = 0.800000011920929,
+				},
 				["history"] = {
 					["y"] = 6.527374034703830e-005,
 					["x"] = 0.000125169675811776,
@@ -469,23 +587,15 @@ RCLootCouncilDB = {
 					["point"] = "TOP",
 					["scale"] = 0.800000011920929,
 				},
-				["lootframe"] = {
-					["y"] = 101.777699270512,
-					["x"] = 258.133478625537,
-					["point"] = "BOTTOM",
-					["scale"] = 0.800000011920929,
-				},
-				["sessionframe"] = {
-					["y"] = 88.1779169294896,
-					["x"] = 243.911359272986,
-					["scale"] = 0.800000011920929,
-				},
 			},
 		},
 	},
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 }

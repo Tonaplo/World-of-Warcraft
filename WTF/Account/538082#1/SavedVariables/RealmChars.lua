@@ -34,10 +34,10 @@ RCDatabase = {
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 877.8125,
 				["level"] = 110,
 				["firstProfLevel"] = 713,
-				["itemLevelOverall"] = 877.8125,
+				["firstProf"] = "Alchemy",
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
@@ -45,10 +45,10 @@ RCDatabase = {
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["itemLevelOverall"] = 871.375,
+				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 871.375,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -118,11 +118,11 @@ RCDatabase = {
 			}, -- [9]
 			{
 				["secondProfLevel"] = 729,
-				["itemLevelEquipped"] = 873.6875,
+				["itemLevelEquipped"] = 877.5,
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["itemLevelOverall"] = 873.6875,
+				["itemLevelOverall"] = 877.5,
 				["level"] = 110,
 				["firstProfLevel"] = 715,
 				["firstProf"] = "Blacksmithing",
@@ -161,10 +161,10 @@ RCDatabase = {
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 913,
+				["firstProf"] = "Tailoring",
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["firstProf"] = "Tailoring",
+				["itemLevelOverall"] = 913,
 			}, -- [1]
 			["characterStored"] = 1,
 		},
