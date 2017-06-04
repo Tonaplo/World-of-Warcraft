@@ -1,22 +1,22 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -58,8 +58,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 54,
 							},
-							["level"] = 13,
 							["startTime"] = 13492.732,
+							["level"] = 13,
 							["objectiveTimes"] = {
 								"11:14.997", -- [1]
 								"24:02.184", -- [2]
@@ -134,8 +134,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 23,
 							},
-							["level"] = 12,
 							["startTime"] = 10963.762,
+							["level"] = 12,
 							["objectiveTimes"] = {
 								"02:13.571", -- [1]
 								"10:50.927", -- [2]
@@ -197,8 +197,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 3,
 							},
-							["level"] = 11,
 							["startTime"] = 12694.76,
+							["level"] = 11,
 							["objectiveTimes"] = {
 								"05:35.038", -- [1]
 								"15:39.886", -- [2]
@@ -260,8 +260,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 18,
 							},
-							["level"] = 11,
 							["startTime"] = 5579.52,
+							["level"] = 11,
 							["objectiveTimes"] = {
 								"01:52.826", -- [1]
 								"10:01.117", -- [2]
@@ -323,8 +323,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 47,
 							},
-							["level"] = 17,
 							["startTime"] = 11277.41,
+							["level"] = 17,
 							["objectiveTimes"] = {
 								"03:56.795", -- [1]
 								"25:06.999", -- [2]
@@ -386,8 +386,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 26,
 							},
-							["startTime"] = 39529.861,
 							["level"] = 11,
+							["startTime"] = 39529.861,
 							["objectiveTimes"] = {
 								"02:59.072", -- [1]
 								"10:33.728", -- [2]
@@ -437,8 +437,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 4,
 							},
-							["level"] = 2,
 							["startTime"] = 1282.314,
+							["level"] = 2,
 							["objectiveTimes"] = {
 								"02:39.748", -- [1]
 								"07:40.971", -- [2]
@@ -496,8 +496,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 59,
 							},
-							["level"] = 7,
 							["startTime"] = 2089.354,
+							["level"] = 7,
 							["objectiveTimes"] = {
 								"04:16.102", -- [1]
 								"10:33.934", -- [2]
@@ -559,8 +559,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 34,
 							},
-							["level"] = 10,
 							["startTime"] = 29940.675,
+							["level"] = 10,
 							["objectiveTimes"] = {
 								"02:04.374", -- [1]
 								"10:37.361", -- [2]
@@ -649,7 +649,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 13,
+							["startTime"] = 42373.241,
 							["objectiveTimes"] = {
 								"05:41.294", -- [1]
 								"19:23.417", -- [2]
@@ -657,7 +657,7 @@ GottaGoFastHistoryDB = {
 								"37:01.102", -- [4]
 								"31:54.934", -- [5]
 							},
-							["startTime"] = 42373.241,
+							["level"] = 13,
 						}, -- [9]
 					},
 				},
@@ -699,8 +699,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 48,
 							},
-							["level"] = 15,
 							["startTime"] = 15691.333,
+							["level"] = 15,
 							["objectiveTimes"] = {
 								"23:11.871", -- [1]
 								"17:53.280", -- [2]
@@ -790,7 +790,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 16294.016,
+							["level"] = 16,
 							["objectiveTimes"] = {
 								"09:46.455", -- [1]
 								"14:07.509", -- [2]
@@ -799,7 +799,7 @@ GottaGoFastHistoryDB = {
 								"34:46.409", -- [5]
 								"30:55.575", -- [6]
 							},
-							["level"] = 16,
+							["startTime"] = 16294.016,
 						}, -- [2]
 						{
 							["corrupt"] = true,
@@ -854,7 +854,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 18209.327,
+							["level"] = 18,
 							["objectiveTimes"] = {
 								"39:40", -- [1]
 								"33:16", -- [2]
@@ -863,7 +863,7 @@ GottaGoFastHistoryDB = {
 								"44:50", -- [5]
 								"41:49", -- [6]
 							},
-							["level"] = 18,
+							["startTime"] = 18209.327,
 						}, -- [3]
 						{
 							["corrupt"] = false,
@@ -906,7 +906,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 12300.514,
+							["level"] = 3,
 							["objectiveTimes"] = {
 								"14:16.316", -- [1]
 								"10:46.192", -- [2]
@@ -915,7 +915,7 @@ GottaGoFastHistoryDB = {
 								"17:24.157", -- [5]
 								"15:47.252", -- [6]
 							},
-							["level"] = 3,
+							["startTime"] = 12300.514,
 						}, -- [4]
 					},
 				},
@@ -962,14 +962,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "TANK",
 								}, -- [5]
 							},
-							["level"] = 2,
+							["startTime"] = 17315.105,
 							["objectiveTimes"] = {
 								"06:51.013", -- [1]
 								"16:28.623", -- [2]
 								"21:10.514", -- [3]
 								"16:28.623", -- [4]
 							},
-							["startTime"] = 17315.105,
+							["level"] = 2,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -997,8 +997,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 16,
 							},
-							["level"] = 13,
 							["startTime"] = 14303.36,
+							["level"] = 13,
 							["objectiveTimes"] = {
 								"07:19.652", -- [1]
 								"14:41.661", -- [2]
@@ -1059,8 +1059,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 0,
 							},
-							["level"] = 17,
 							["startTime"] = 17941.654,
+							["level"] = 17,
 							["objectiveTimes"] = {
 								"07:47.969", -- [1]
 								"22:37.766", -- [2]
@@ -1148,14 +1148,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 12,
+							["startTime"] = 20177.772,
 							["objectiveTimes"] = {
 								"05:30.883", -- [1]
 								"14:13.884", -- [2]
 								"19:13.957", -- [3]
 								"14:13.884", -- [4]
 							},
-							["startTime"] = 20177.772,
+							["level"] = 12,
 						}, -- [4]
 					},
 					["name"] = "Court of Stars",
@@ -1167,64 +1167,68 @@ GottaGoFastHistoryDB = {
 						"Enemy Forces", -- [4]
 					},
 				},
-				[1492] = {
+				[1477] = {
 					["objectives"] = {
-						"Ymiron, the Fallen King", -- [1]
-						"Harbaron", -- [2]
-						"Helya", -- [3]
-						"Enemy Forces", -- [4]
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
+						"Enemy Forces", -- [6]
 					},
-					["zoneID"] = 1492,
-					["name"] = "Maw of Souls",
+					["zoneID"] = 1477,
+					["name"] = "Halls of Valor",
 					["runs"] = {
 						{
 							["corrupt"] = false,
-							["deaths"] = 28,
+							["deaths"] = 7,
 							["affixes"] = {
-								[14] = {
-									["name"] = "Quaking",
-									["desc"] = "Periodically, all players emit a shockwave, inflicting damage and interrupting nearby allies.",
+								[2] = {
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
+								},
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
 								},
 								[10] = {
 									["name"] = "Fortified",
 									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
 								},
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
 							},
 							["active"] = false,
-							["endTime"] = 8907.722,
+							["endTime"] = 17555.643,
 							["timeStamp"] = {
-								["day"] = 2,
+								["day"] = 18,
 								["month"] = 5,
-								["hours"] = 21,
+								["hours"] = 0,
 								["year"] = 2017,
-								["mins"] = 51,
+								["mins"] = 27,
 							},
-							["level"] = 13,
-							["startTime"] = 7651.484,
+							["startTime"] = 15974.685,
+							["level"] = 14,
 							["objectiveTimes"] = {
-								"03:02.506", -- [1]
-								"08:35.812", -- [2]
-								"23:15.617", -- [3]
-								"17:29.652", -- [4]
+								"02:48.602", -- [1]
+								"10:13.223", -- [2]
+								"17:54.243", -- [3]
+								"24:57.725", -- [4]
+								"26:55.498", -- [5]
+								"24:57.725", -- [6]
 							},
 							["players"] = {
 								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
+									["class"] = "Monk",
+									["name"] = "Coaxed",
+									["role"] = "DAMAGER",
 								}, -- [1]
 								{
-									["class"] = "Death Knight",
-									["name"] = "Kaedwyn",
-									["role"] = "DAMAGER",
+									["class"] = "Monk",
+									["name"] = "Ileiaris",
+									["role"] = "TANK",
 								}, -- [2]
 								{
-									["class"] = "Mage",
-									["name"] = "Kaligon",
+									["class"] = "Paladin",
+									["name"] = "Blakeyboy",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
@@ -1239,180 +1243,6 @@ GottaGoFastHistoryDB = {
 								}, -- [5]
 							},
 						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 14544.233,
-							["timeStamp"] = {
-								["day"] = 26,
-								["month"] = 5,
-								["hours"] = 22,
-								["mins"] = 32,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Rogue",
-									["name"] = "Jogebai (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Miffle (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Shaman",
-									["name"] = "Shamalomin (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Hastiliarius (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 13840.505,
-							["objectiveTimes"] = {
-								"01:43.910", -- [1]
-								"05:36.566", -- [2]
-								"11:43.290", -- [3]
-								"08:57.310", -- [4]
-							},
-							["level"] = 6,
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 11,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
-								[4] = {
-									["name"] = "Necrotic",
-									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 5249.73,
-							["timeStamp"] = {
-								["day"] = 28,
-								["month"] = 5,
-								["hours"] = 12,
-								["year"] = 2017,
-								["mins"] = 29,
-							},
-							["level"] = 9,
-							["startTime"] = 4253.321,
-							["objectiveTimes"] = {
-								"03:50.682", -- [1]
-								"08:34.773", -- [2]
-								"17:31.136", -- [3]
-								"13:48.750", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Death Knight",
-									["name"] = "Mylilgnomey (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Wolfsneakers (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Shaman",
-									["name"] = "Shockpow (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Monk",
-									["name"] = "Oppaii (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Sanguine",
-									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-								[12] = {
-									["name"] = "Grievous",
-									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 5388.539,
-							["timeStamp"] = {
-								["day"] = 3,
-								["month"] = 6,
-								["hours"] = 11,
-								["year"] = 2017,
-								["mins"] = 34,
-							},
-							["level"] = 10,
-							["startTime"] = 4385.789,
-							["objectiveTimes"] = {
-								"03:15.302", -- [1]
-								"09:31.612", -- [2]
-								"17:07.297", -- [3]
-								"13:32.557", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Death Knight",
-									["name"] = "Zukiyakeyo (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Warlock",
-									["name"] = "Sulhyun (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hunter",
-									["name"] = "Sankun (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Rogue",
-									["name"] = "Halforeo (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [4]
 					},
 				},
 				[1466] = {
@@ -1440,8 +1270,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 32,
 							},
-							["startTime"] = 5127.132,
 							["level"] = 2,
+							["startTime"] = 5127.132,
 							["objectiveTimes"] = {
 								"03:31.497", -- [1]
 								"07:30.772", -- [2]
@@ -1503,8 +1333,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 21,
 							},
-							["level"] = 13,
 							["startTime"] = 7494.462,
+							["level"] = 13,
 							["objectiveTimes"] = {
 								"04:21.410", -- [1]
 								"09:26.032", -- [2]
@@ -1566,8 +1396,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 11,
 							},
-							["level"] = 10,
 							["startTime"] = 12036.767,
+							["level"] = 10,
 							["objectiveTimes"] = {
 								"04:33.077", -- [1]
 								"08:36.910", -- [2]
@@ -1617,8 +1447,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 41,
 							},
-							["level"] = 2,
 							["startTime"] = 10261.01,
+							["level"] = 2,
 							["objectiveTimes"] = {
 								"03:36.858", -- [1]
 								"07:35.789", -- [2]
@@ -1685,8 +1515,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 4,
 							},
-							["startTime"] = 6573.118,
 							["level"] = 5,
+							["startTime"] = 6573.118,
 							["objectiveTimes"] = {
 								"05:34.641", -- [1]
 								"11:29.219", -- [2]
@@ -1762,8 +1592,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 58,
 							},
-							["level"] = 16,
 							["startTime"] = 8892.435,
+							["level"] = 16,
 							["objectiveTimes"] = {
 								"04:29.105", -- [1]
 								"10:18.058", -- [2]
@@ -1840,8 +1670,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 41,
 							},
-							["level"] = 10,
 							["startTime"] = 8471.782,
+							["level"] = 10,
 							["objectiveTimes"] = {
 								"05:48.099", -- [1]
 								"09:53.779", -- [2]
@@ -1931,7 +1761,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 14607.043,
+							["level"] = 14,
 							["objectiveTimes"] = {
 								"05:48.997", -- [1]
 								"09:25.325", -- [2]
@@ -1940,7 +1770,7 @@ GottaGoFastHistoryDB = {
 								"20:22.348", -- [5]
 								"17:56.184", -- [6]
 							},
-							["level"] = 14,
+							["startTime"] = 14607.043,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -1956,8 +1786,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 33,
 							},
-							["level"] = 3,
 							["startTime"] = 7081.749,
+							["level"] = 3,
 							["objectiveTimes"] = {
 								"03:25.607", -- [1]
 								"06:34.176", -- [2]
@@ -1996,68 +1826,64 @@ GottaGoFastHistoryDB = {
 						}, -- [3]
 					},
 				},
-				[1477] = {
+				[1492] = {
 					["objectives"] = {
-						"Hymdall", -- [1]
-						"Hyrja", -- [2]
-						"Fenryr", -- [3]
-						"God-King Skovald", -- [4]
-						"Odyn", -- [5]
-						"Enemy Forces", -- [6]
+						"Ymiron, the Fallen King", -- [1]
+						"Harbaron", -- [2]
+						"Helya", -- [3]
+						"Enemy Forces", -- [4]
 					},
-					["zoneID"] = 1477,
-					["name"] = "Halls of Valor",
+					["zoneID"] = 1492,
+					["name"] = "Maw of Souls",
 					["runs"] = {
 						{
 							["corrupt"] = false,
-							["deaths"] = 7,
+							["deaths"] = 28,
 							["affixes"] = {
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								[14] = {
+									["name"] = "Quaking",
+									["desc"] = "Periodically, all players emit a shockwave, inflicting damage and interrupting nearby allies.",
 								},
 								[10] = {
 									["name"] = "Fortified",
 									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
 								},
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
 							},
 							["active"] = false,
-							["endTime"] = 17555.643,
+							["endTime"] = 8907.722,
 							["timeStamp"] = {
-								["day"] = 18,
+								["day"] = 2,
 								["month"] = 5,
-								["hours"] = 0,
+								["hours"] = 21,
 								["year"] = 2017,
-								["mins"] = 27,
+								["mins"] = 51,
 							},
-							["level"] = 14,
-							["startTime"] = 15974.685,
+							["startTime"] = 7651.484,
+							["level"] = 13,
 							["objectiveTimes"] = {
-								"02:48.602", -- [1]
-								"10:13.223", -- [2]
-								"17:54.243", -- [3]
-								"24:57.725", -- [4]
-								"26:55.498", -- [5]
-								"24:57.725", -- [6]
+								"03:02.506", -- [1]
+								"08:35.812", -- [2]
+								"23:15.617", -- [3]
+								"17:29.652", -- [4]
 							},
 							["players"] = {
 								{
-									["class"] = "Monk",
-									["name"] = "Coaxed",
-									["role"] = "DAMAGER",
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
 								}, -- [1]
 								{
-									["class"] = "Monk",
-									["name"] = "Ileiaris",
-									["role"] = "TANK",
+									["class"] = "Death Knight",
+									["name"] = "Kaedwyn",
+									["role"] = "DAMAGER",
 								}, -- [2]
 								{
-									["class"] = "Paladin",
-									["name"] = "Blakeyboy",
+									["class"] = "Mage",
+									["name"] = "Kaligon",
 									["role"] = "DAMAGER",
 								}, -- [3]
 								{
@@ -2072,6 +1898,180 @@ GottaGoFastHistoryDB = {
 								}, -- [5]
 							},
 						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 14544.233,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 5,
+								["hours"] = 22,
+								["mins"] = 32,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Rogue",
+									["name"] = "Jogebai (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Miffle (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Shamalomin (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Hastiliarius (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 6,
+							["objectiveTimes"] = {
+								"01:43.910", -- [1]
+								"05:36.566", -- [2]
+								"11:43.290", -- [3]
+								"08:57.310", -- [4]
+							},
+							["startTime"] = 13840.505,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+								[4] = {
+									["name"] = "Necrotic",
+									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 5249.73,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 5,
+								["hours"] = 12,
+								["year"] = 2017,
+								["mins"] = 29,
+							},
+							["startTime"] = 4253.321,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"03:50.682", -- [1]
+								"08:34.773", -- [2]
+								"17:31.136", -- [3]
+								"13:48.750", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Mylilgnomey (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Wolfsneakers (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Shockpow (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Monk",
+									["name"] = "Oppaii (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+								[12] = {
+									["name"] = "Grievous",
+									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 5388.539,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 6,
+								["hours"] = 11,
+								["year"] = 2017,
+								["mins"] = 34,
+							},
+							["startTime"] = 4385.789,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"03:15.302", -- [1]
+								"09:31.612", -- [2]
+								"17:07.297", -- [3]
+								"13:32.557", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zukiyakeyo (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Sulhyun (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Sankun (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Rogue",
+									["name"] = "Halforeo (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [4]
 					},
 				},
 			},

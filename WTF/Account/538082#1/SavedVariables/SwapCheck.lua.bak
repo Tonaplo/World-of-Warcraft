@@ -15,12 +15,12 @@ swapBlasterList = {
 	["Kalithumos"] = 5,
 	["Deepsidont"] = 8,
 	["Nardolanas"] = 3,
-	["Zaelsynth"] = 15,
+	["Zaelsynth"] = 16,
 	["Slicedlol"] = 107,
 	["Kaedwyn"] = 5,
 	["Ileiaris"] = 22,
 	["Tetsunochi"] = 4,
 	["Coaxed"] = 56,
 }
-lastSwapCaster = nil
-lastSwapTime = 0
+lastSwapCaster = "Zaelsynth"
+lastSwapTime = 5783.779

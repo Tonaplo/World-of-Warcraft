@@ -1,22 +1,22 @@
 
 GottaGoFastDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -28,7 +28,7 @@ GottaGoFastDB = {
 			["IncreaseColor"] = "ffff8500",
 			["DeathInObjectives"] = true,
 			["SpyHelper"] = true,
-			["ObjectiveFont"] = "Prototype",
+			["TimerAlign"] = "LEFT",
 			["AffixesColor"] = "ff0004ff",
 			["AutoDialog"] = true,
 			["TimerX"] = -50,
@@ -36,7 +36,7 @@ GottaGoFastDB = {
 			["FrameY"] = 8.18659019470215,
 			["DeathColor"] = "fff50009",
 			["Version"] = 26500,
-			["TimerAlign"] = "LEFT",
+			["ObjectiveFont"] = "Prototype",
 		},
 	},
 }
