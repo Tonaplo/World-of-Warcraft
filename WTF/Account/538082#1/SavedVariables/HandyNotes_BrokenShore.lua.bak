@@ -1,18 +1,21 @@
 
 HandyNotes_BrokenShoreDB = {
 	["profileKeys"] = {
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["profiles"] = {
-		["Morifa - Proudmoore"] = {
-		},
 		["Praerend - Proudmoore"] = {
 		},
+		["Morifa - Proudmoore"] = {
+		},
 		["Amranar - Proudmoore"] = {
+		},
+		["Farahn - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},

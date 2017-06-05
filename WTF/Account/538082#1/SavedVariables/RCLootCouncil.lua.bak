@@ -1,9 +1,10 @@
 
 RCLootCouncilDB = {
 	["profileKeys"] = {
-		["Morifa - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
@@ -20,7 +21,7 @@ RCLootCouncilDB = {
 			["Shields"] = "Shields",
 			["Polearms"] = "Polearms",
 			["Warglaives"] = "Warglaives",
-			["Daggers"] = "Daggers",
+			["Bows"] = "Bows",
 			["Two-Handed Swords"] = "Two-Handed Swords",
 			["One-Handed Axes"] = "One-Handed Axes",
 			["Leather"] = "Leather",
@@ -29,7 +30,7 @@ RCLootCouncilDB = {
 			["Fist Weapons"] = "Fist Weapons",
 			["Cloth"] = "Cloth",
 			["Wands"] = "Wands",
-			["Bows"] = "Bows",
+			["Daggers"] = "Daggers",
 			["Two-Handed Axes"] = "Two-Handed Axes",
 		},
 		["log"] = {
@@ -811,6 +812,38 @@ RCLootCouncilDB = {
 			"09:17:43 - Event: (PLAYER_ENTERING_WORLD)", -- [776]
 			"09:17:43 - GetML()", -- [777]
 			"09:17:43 - LootMethod =  (personalloot)", -- [778]
+			"06/05/17", -- [779]
+			"10:13:23 - Logged In", -- [780]
+			"10:13:23 - ML initialized!", -- [781]
+			"10:13:41 - Farahn-Proudmoore (2.3.3) (nil)", -- [782]
+			"10:13:42 - Event: (PLAYER_ENTERING_WORLD)", -- [783]
+			"10:13:42 - GetML()", -- [784]
+			"10:13:42 - LootMethod =  (personalloot)", -- [785]
+			"10:13:46 - GetPlayersGuildRank()", -- [786]
+			"10:13:46 - Found Guild Rank: Alternate", -- [787]
+			"10:13:46 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Farahn) (distri:) (GUILD)", -- [788]
+			"10:15:26 - Event: (PLAYER_ENTERING_WORLD)", -- [789]
+			"10:15:26 - GetML()", -- [790]
+			"10:15:26 - LootMethod =  (personalloot)", -- [791]
+			"10:35:48 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Megaboo) (distri:) (GUILD)", -- [792]
+			"10:36:39 - Comm received:^1^SverTest^T^N1^S2.3.0^t^^ (from:) (Alcimache) (distri:) (GUILD)", -- [793]
+			"06/05/17", -- [794]
+			"12:47:04 - Logged In", -- [795]
+			"12:47:04 - ML initialized!", -- [796]
+			"12:47:17 - Farahn-Proudmoore (2.3.3) (nil)", -- [797]
+			"12:47:18 - Event: (PLAYER_ENTERING_WORLD)", -- [798]
+			"12:47:18 - GetML()", -- [799]
+			"12:47:18 - LootMethod =  (personalloot)", -- [800]
+			"12:47:20 - GetPlayersGuildRank()", -- [801]
+			"12:47:20 - Found Guild Rank: Alternate", -- [802]
+			"12:47:20 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Farahn) (distri:) (GUILD)", -- [803]
+			"12:50:27 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Llymlaen) (distri:) (GUILD)", -- [804]
+			"12:54:19 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [805]
+			"12:54:19 - GetML()", -- [806]
+			"12:54:19 - LootMethod =  (personalloot)", -- [807]
+			"12:54:28 - Event: (PLAYER_ENTERING_WORLD)", -- [808]
+			"12:54:28 - GetML()", -- [809]
+			"12:54:28 - LootMethod =  (personalloot)", -- [810]
 		},
 		["version"] = "2.3.3",
 		["verTestCandidates"] = {
@@ -818,23 +851,25 @@ RCLootCouncilDB = {
 			["Librarien-Proudmoore"] = "2.3.2-nil: - Greybone-Proudmoore",
 			["Voskeeyy-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Amranar-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
+			["Nemain-Proudmoore"] = "2.3.3-nil: - Farahn-Proudmoore",
 			["Vivie-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
-			["Búî-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Silentclaw-Proudmoore"] = "2.3.2-nil: - Greybone-Proudmoore",
+			["Búî-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["însensate-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Greybone-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
-			["Megaboo-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
 			["Minspec-Proudmoore"] = "2.2.5-nil: - Greybone-Proudmoore",
+			["Megaboo-Proudmoore"] = "2.3.3-nil: - Farahn-Proudmoore",
 			["Yuniee-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Erain-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
 			["Kanael-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
 			["Saosín-Tichondrius"] = "2.3.1-nil: - Mallusof-Tichondrius",
-			["Praerend-Proudmoore"] = "2.3.3-nil: - Praerend-Proudmoore",
+			["Insentience-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Merial-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
 			["Foxxa-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Tetsunochi-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Eraaiin-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
-			["Insentience-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["Erain-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Praerend-Proudmoore"] = "2.3.3-nil: - Praerend-Proudmoore",
+			["Farahn-Proudmoore"] = "2.3.3-nil: - Farahn-Proudmoore",
 			["Anjii-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
 			["Eternalock-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
 			["Morifa-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
@@ -850,15 +885,15 @@ RCLootCouncilDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["UI"] = {
-				["history"] = {
-					["y"] = 6.527374034703830e-005,
-					["x"] = 0.000125169675811776,
-					["scale"] = 0.800000011920929,
-				},
 				["votingframe"] = {
 					["y"] = -53.1554488578804,
 					["x"] = 22.0445590919135,
 					["point"] = "TOP",
+					["scale"] = 0.800000011920929,
+				},
+				["history"] = {
+					["y"] = 6.527374034703830e-005,
+					["x"] = 0.000125169675811776,
 					["scale"] = 0.800000011920929,
 				},
 				["lootframe"] = {
@@ -878,9 +913,10 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},

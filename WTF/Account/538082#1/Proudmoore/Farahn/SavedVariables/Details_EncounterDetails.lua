@@ -171,6 +171,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Deepbeard",
 		},
+		[213809] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[59974] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -507,6 +513,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Svala Sorrowgrave",
+		},
+		[213564] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
 		},
 		[218807] = {
 			["school"] = 64,
@@ -1042,6 +1056,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Azure Serpent",
 		},
+		[213328] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
 		[210387] = {
 			["school"] = 1,
 			["token"] = {
@@ -1527,6 +1547,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oakheart",
 		},
+		[206820] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Trilliax",
+		},
 		[225362] = {
 			["school"] = 1,
 			["token"] = {
@@ -1675,7 +1703,9 @@ EncounterDetailsDB = {
 		},
 		[207720] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
@@ -1840,6 +1870,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Exploding Orb",
+		},
+		[213864] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
 		},
 		[187394] = {
 			["school"] = 126,
@@ -2122,6 +2161,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Taran Zhu",
 		},
+		[3110] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Imp",
+		},
 		[196354] = {
 			["school"] = 1,
 			["token"] = {
@@ -2194,6 +2240,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Oakheart",
+		},
+		[204284] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 		},
 		[193159] = {
 			["school"] = 1,
@@ -2483,6 +2536,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spellblade Aluriel",
 		},
+		[219023] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+		},
 		[193682] = {
 			["school"] = 16,
 			["token"] = {
@@ -2490,6 +2549,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Lady Hatecoil",
+		},
+		[225851] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Duskwatch Warden",
 		},
 		[31707] = {
 			["school"] = 16,
@@ -2523,6 +2590,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naraxas",
 		},
+		[88082] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mirror Image",
+		},
+		[194668] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Harbaron",
+		},
 		[59482] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -2531,6 +2613,31 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Ahn'kahar Guardian",
+		},
+		[213808] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Arcane Enchantment",
+		},
+		[198376] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Archdruid Glaidalis",
+		},
+		[213504] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[69029] = {
 			["school"] = 1,
@@ -2548,6 +2655,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Fiery Enchantment",
+		},
+		[206821] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Trilliax",
 		},
 		[224246] = {
 			["school"] = 64,
@@ -2573,6 +2687,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "General Pa'valak",
+		},
+		[55078] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rune Weapon",
 		},
 		[54719] = {
 			["school"] = 1,
@@ -2808,6 +2929,7 @@ EncounterDetailsDB = {
 		[224378] = {
 			["school"] = 64,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Celestial Acolyte",
@@ -3012,6 +3134,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trained Shadescale",
 		},
+		[205549] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Naraxas",
+		},
 		[116027] = {
 			["school"] = 4,
 			["token"] = {
@@ -3020,14 +3150,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hopper",
-		},
-		[205549] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Naraxas",
 		},
 		[206351] = {
 			["school"] = 4,
@@ -3227,15 +3349,14 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[199193] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[193055] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dantalionax",
+			["source"] = "Call the Seas",
 		},
 		[212530] = {
 			["school"] = 16,
@@ -3648,13 +3769,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "King Ymiron",
 		},
-		[1604] = {
-			["school"] = 1,
+		[204766] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Destructor Tentacle",
+			["source"] = "Crystalline Scorpid",
 		},
 		[59998] = {
 			["school"] = 2,
@@ -3681,38 +3805,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Taldaram",
 		},
-		[199457] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Harbaron",
-		},
 		[206610] = {
 			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Chronomatic Anomaly",
-		},
-		[206617] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Chronomatic Anomaly",
-		},
-		[197797] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Risen Arcanist",
 		},
 		[201159] = {
 			["school"] = 4,
@@ -3725,6 +3823,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Millificent Manastorm",
 		},
+		[206617] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
+		},
 		[205289] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3732,6 +3838,22 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Volatile Scorpid",
+		},
+		[204483] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[206618] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
 		},
 		[70381] = {
 			["school"] = 16,
@@ -3743,11 +3865,9 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Garfrost",
 		},
-		[204483] = {
+		[204292] = {
 			["school"] = 64,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Skorpyron",
@@ -3770,12 +3890,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trilliax",
 		},
-		[206618] = {
-			["school"] = 64,
+		[199457] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Chronomatic Anomaly",
+			["source"] = "Harbaron",
 		},
 		[213796] = {
 			["school"] = 16,
@@ -3802,18 +3922,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbaron",
 		},
-		[204292] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Skorpyron",
-		},
 		[107053] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+		},
+		[219808] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Waning Time Particle",
 		},
 		[106826] = {
 			["school"] = 1,
@@ -3824,12 +3946,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sha of Violence",
 		},
-		[120269] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
 		[198820] = {
 			["school"] = 32,
 			["token"] = {
@@ -3837,6 +3953,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Latosius",
+		},
+		[188169] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Rokmora",
 		},
 		[69167] = {
 			["school"] = 1,
@@ -3847,14 +3972,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Scourgelord Tyrannus",
-		},
-		[198376] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archdruid Glaidalis",
 		},
 		[199143] = {
 			["school"] = 1,
@@ -3871,6 +3988,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ularogg Cragshaper",
 		},
+		[69579] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fallen Warrior",
+		},
 		[199345] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3881,14 +4008,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[59839] = {
-			["school"] = 8,
+		[209433] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Slad'ran",
 		},
 		[194216] = {
 			["school"] = 64,
@@ -3906,23 +4030,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oakheart",
 		},
-		[69579] = {
+		[106853] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fallen Warrior",
-		},
-		[193375] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ularogg Cragshaper",
+			["source"] = "Master Snowdrift",
 		},
 		[59999] = {
 			["school"] = 2,
@@ -3935,14 +4051,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Allïcy-Nemesis",
 		},
-		[55964] = {
-			["school"] = 1,
+		[197797] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prince Taldaram",
+			["source"] = "Risen Arcanist",
 		},
 		[59023] = {
 			["school"] = 1,
@@ -3958,6 +4076,16 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Tichondrius",
+		},
+		[106827] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sha of Violence",
 		},
 		[198495] = {
 			["school"] = 16,
@@ -3984,20 +4112,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trilliax",
 		},
-		[201379] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shivermaw",
-		},
-		[210074] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Skorpyron",
-		},
 		[114291] = {
 			["school"] = 4,
 			["token"] = {
@@ -4005,21 +4119,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hopper",
 		},
-		[207261] = {
-			["school"] = 64,
+		[210074] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Patrol Captain Gerdo",
-		},
-		[124283] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "General Pa'valak",
+			["source"] = "Skorpyron",
 		},
 		[204448] = {
 			["school"] = 1,
@@ -4031,31 +4136,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skorpyron",
 		},
-		[68785] = {
-			["school"] = 17,
-			["type"] = "BUFF",
+		[207261] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Patrol Captain Gerdo",
+		},
+		[225803] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Forgemaster Garfrost",
 		},
-		[196078] = {
+		[201379] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Amalgam of Souls",
-		},
-		[208924] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Trilliax",
+			["source"] = "Shivermaw",
 		},
 		[214167] = {
 			["school"] = 64,
@@ -4075,21 +4178,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dantalionax",
 		},
-		[213852] = {
-			["school"] = 64,
+		[208924] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Spellblade Aluriel",
+			["source"] = "Trilliax",
 		},
-		[205344] = {
-			["school"] = 4,
+		[68785] = {
+			["school"] = 17,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Forgemaster Garfrost",
+		},
+		[48267] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Krosus",
+			["source"] = "Svala Sorrowgrave",
 		},
 		[201380] = {
 			["school"] = 16,
@@ -4099,6 +4212,22 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Shivermaw",
+		},
+		[205344] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Krosus",
+		},
+		[124283] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "General Pa'valak",
 		},
 		[202310] = {
 			["school"] = 8,
@@ -4150,14 +4279,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Talixae Flamewreath",
 		},
-		[117570] = {
+		[59840] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Figment of Doubt",
+			["source"] = "Slad'ran",
 		},
 		[115010] = {
 			["school"] = 1,
@@ -4410,13 +4540,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Helya",
 		},
-		[197165] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wrath of Azshara",
-		},
 		[192050] = {
 			["school"] = 8,
 			["token"] = {
@@ -4424,6 +4547,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Serpentrix",
+		},
+		[197165] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wrath of Azshara",
 		},
 		[199567] = {
 			["school"] = 32,
@@ -4697,6 +4827,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
+		[117570] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Figment of Doubt",
+		},
 		[243121] = {
 			["school"] = 8,
 			["token"] = {
@@ -4714,16 +4853,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Advisor Melandrus",
-		},
-		[59840] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Slad'ran",
 		},
 		[193717] = {
 			["school"] = 64,
@@ -4747,13 +4876,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[194668] = {
-			["school"] = 32,
+		[213852] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Harbaron",
+			["source"] = "Spellblade Aluriel",
 		},
 		[204459] = {
 			["school"] = 1,
@@ -4764,20 +4893,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skorpyron",
 		},
+		[196078] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Amalgam of Souls",
+		},
 		[106105] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Wise Mari",
-		},
-		[48267] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Svala Sorrowgrave",
 		},
 		[69238] = {
 			["school"] = 16,
@@ -4808,15 +4937,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gortok Palehoof",
 		},
-		[106853] = {
+		[55964] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Master Snowdrift",
+			["source"] = "Prince Taldaram",
 		},
 		[59331] = {
 			["school"] = 1,
@@ -4837,30 +4965,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sael'orn",
 		},
-		[106827] = {
+		[193375] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sha of Violence",
+			["source"] = "Ularogg Cragshaper",
 		},
-		[212099] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-		},
-		[188169] = {
+		[59839] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rokmora",
+			["source"] = "Slad'ran",
+		},
+		[212099] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
 		},
 		[119941] = {
 			["school"] = 8,
@@ -4871,14 +4997,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sap Puddle",
 		},
-		[219808] = {
-			["school"] = 64,
+		[132467] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Waning Time Particle",
+			["source"] = "Fire Spirit",
 		},
 		[215458] = {
 			["school"] = 1,
@@ -4889,19 +5013,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spellblade Aluriel",
 		},
-		[209433] = {
-			["school"] = 64,
+		[120269] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[195254] = {
+		[201392] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Amalgam of Souls",
+			["source"] = "Millificent Manastorm",
 		},
 		[121284] = {
 			["school"] = 8,
@@ -4911,6 +5035,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Wing Leader Ner'onok",
+		},
+		[195254] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Amalgam of Souls",
 		},
 		[196810] = {
 			["school"] = 2,
@@ -4953,17 +5085,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elisande",
 		},
-		[204766] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Crystalline Scorpid",
-		},
 		[194232] = {
 			["school"] = 32,
 			["token"] = {
@@ -4971,13 +5092,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harbaron",
 		},
-		[201392] = {
+		[1604] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Millificent Manastorm",
+			["source"] = "Destructor Tentacle",
 		},
 		[196534] = {
 			["school"] = 1,
@@ -5210,21 +5331,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elisande",
 		},
+		[199193] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dantalionax",
+		},
 		[104318] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Wild Imp",
-		},
-		[193055] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Call the Seas",
 		},
 		[205361] = {
 			["school"] = 4,
@@ -5533,253 +5655,271 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				9.80199999999968, -- [1]
-				"Careful not to singe the buds as you burn!", -- [2]
+				0.229999999999563, -- [1]
+				"How dare you disturb my pristine gardens!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				19.7799999999988, -- [1]
-				"One garden pest deserves another!", -- [2]
+				14.3279999999977, -- [1]
+				"Careful not to singe the buds as you burn!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				34.7790000000005, -- [1]
-				"At least power is something your feeble minds comprehend!", -- [2]
+				28.8089999999975, -- [1]
+				"One garden pest deserves another!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				44.7119999999995, -- [1]
-				"Careful not to singe the buds as you burn!", -- [2]
+				50.2129999999997, -- [1]
+				"At least power is something your feeble minds comprehend!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				54.8220000000001, -- [1]
-				"One garden pest deserves another!", -- [2]
+				64.5339999999997, -- [1]
+				"Careful not to singe the buds as you burn!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				57.0619999999999, -- [1]
-				"Wither in my heat, little weeds!", -- [2]
+				72.8719999999994, -- [1]
+				"The sun warms my beauties... but it shall scorch your bones!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				68.8629999999994, -- [1]
+				89.1970000000001, -- [1]
 				"When the light dies... so do you!", -- [2]
 				"Solarist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				78.8919999999998, -- [1]
+				103.448999999997, -- [1]
 				"One garden pest deserves another!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				88.9049999999988, -- [1]
+				117.712, -- [1]
 				"Careful not to singe the buds as you burn!", -- [2]
 				"Solarist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				98.8739999999998, -- [1]
+				132.038999999997, -- [1]
 				"At least power is something your feeble minds comprehend!", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				108.942999999999, -- [1]
+				146.363999999998, -- [1]
 				"When the light dies... so do you!", -- [2]
 				"Solarist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [11]
 			{
-				111.635, -- [1]
-				"Now you face three aspects of life, even as your cycle is about to end!", -- [2]
+				147.029999999999, -- [1]
+				"Can you hope to stand against the three primal forces that shape life itself?", -- [2]
 				"High Botanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [12]
 			{
-				121.638999999999, -- [1]
+				160.441999999999, -- [1]
 				"Nature nourishes those who truly appreciate it.", -- [2]
 				"Naturalist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [13]
 			{
-				129.635, -- [1]
+				171.894, -- [1]
 				"|TINTERFACE\\ICONS\\Spell_Arcane_PrismaticCloak:20|t Arcanist Tel'arn begins to cast |cFFF00000|Hspell:218807|h[Call of Night]|h|r!", -- [2]
 				"Arcanist Tel'arn", -- [3]
 				1, -- [4]
 			}, -- [14]
 			{
-				129.635, -- [1]
+				171.894, -- [1]
 				"Night falls upon you!", -- [2]
 				"Arcanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [15]
 			{
-				137.617, -- [1]
+				183.307999999997, -- [1]
 				"When the light dies... so do you!", -- [2]
 				"Solarist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				145.626, -- [1]
+				194.719999999998, -- [1]
 				"One garden pest deserves another!", -- [2]
 				"Arcanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [17]
 			{
-				153.654, -- [1]
+				206.061999999998, -- [1]
 				"Careful not to singe the buds as you burn!", -- [2]
 				"Solarist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [18]
 			{
-				163.634, -- [1]
+				220.495999999999, -- [1]
 				"At least power is something your feeble minds comprehend!", -- [2]
 				"Arcanist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [19]
 			{
-				171.641, -- [1]
+				231.916999999998, -- [1]
 				"Nature nourishes those who truly appreciate it.", -- [2]
 				"Naturalist Tel'arn", -- [3]
 				7, -- [4]
 			}, -- [20]
 			{
-				176.439, -- [1]
-				"A bitter... harvest...", -- [2]
+				243.365999999998, -- [1]
+				"|TINTERFACE\\ICONS\\Spell_Arcane_PrismaticCloak:20|t Arcanist Tel'arn begins to cast |cFFF00000|Hspell:218807|h[Call of Night]|h|r!", -- [2]
+				"Arcanist Tel'arn", -- [3]
+				1, -- [4]
+			}, -- [21]
+			{
+				243.365999999998, -- [1]
+				"Night falls upon you!", -- [2]
 				"Arcanist Tel'arn", -- [3]
 				7, -- [4]
-			}, -- [21]
+			}, -- [22]
+			{
+				254.828999999998, -- [1]
+				"When the light dies... so do you!", -- [2]
+				"Solarist Tel'arn", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				266.208999999999, -- [1]
+				"One garden pest deserves another!", -- [2]
+				"Arcanist Tel'arn", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				272.297999999999, -- [1]
+				"Someone... water... my plants...", -- [2]
+				"Arcanist Tel'arn", -- [3]
+				7, -- [4]
+			}, -- [25]
 			["boss"] = "High Botanist Tel'arn",
 		}, -- [1]
 		{
 			{
-				7.86700000000019, -- [1]
-				"The stars align! Fear their portents!", -- [2]
+				0.188000000001921, -- [1]
+				"If only you knew what lay beyond...", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				14.0849999999991, -- [1]
-				"Such insolence... very well, I shall show you!", -- [2]
+				8.26499999999942, -- [1]
+				"As the stars wax, so your lives wane!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				20.2330000000002, -- [1]
-				"See for yourself the cruel, frozen void that lies beyond the margin of Azeroth's skies!", -- [2]
+				20.0660000000025, -- [1]
+				"Such insolence... very well, I shall show you!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				62.6689999999999, -- [1]
-				"|TInterface\\Icons\\spell_frost_ring of frost:20|t%s begins to cast |cFFFF0000|Hspell:206949|h[Frigid Nova]|h|r!", -- [2]
+				26.2000000000007, -- [1]
+				"See for yourself the cruel, frozen void that lies beyond the margin of Azeroth's skies!", -- [2]
 				"Star Augur Etraeus", -- [3]
-				1, -- [4]
+				7, -- [4]
 			}, -- [4]
 			{
-				63.8429999999989, -- [1]
-				"Return to nothing.", -- [2]
+				40.4730000000018, -- [1]
+				"The stars have judged you, and found you wanting.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [5]
 			{
-				69.2129999999997, -- [1]
+				74.1900000000023, -- [1]
 				"As the stars wax, so your lives wane!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [6]
 			{
-				71.3159999999989, -- [1]
-				"The Burning Legion. Slayers of whole worlds.", -- [2]
+				91.7610000000022, -- [1]
+				"You can not avoid annihilation.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				77.107, -- [1]
-				"Could we hope to resist? Can you?!", -- [2]
+				104.635000000002, -- [1]
+				"The Burning Legion. Slayers of whole worlds.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [8]
 			{
-				104.775, -- [1]
-				"The stars have judged you, and found you wanting.", -- [2]
+				110.380000000001, -- [1]
+				"Could we hope to resist? Can you?!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [9]
 			{
-				124.083999999999, -- [1]
-				"You can not avoid annihilation.", -- [2]
+				117.302, -- [1]
+				"The stars align! Fear their portents!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [10]
 			{
-				130.411, -- [1]
-				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t%s begins to cast |cFFFF0000|Hspell:206517|h[Fel Nova]|h|r!", -- [2]
+				176.877, -- [1]
+				"As the stars wax, so your lives wane!", -- [2]
 				"Star Augur Etraeus", -- [3]
-				1, -- [4]
+				7, -- [4]
 			}, -- [11]
 			{
-				143.904, -- [1]
-				"As the stars wax, so your lives wane!", -- [2]
+				203.573, -- [1]
+				"Is that not enough? Must I show you the true horror of our reality?", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [12]
 			{
-				145.357, -- [1]
-				"Is that not enough? Must I show you the true horror of our reality?", -- [2]
+				210.492000000002, -- [1]
+				"Very well... witness what I have seen, and TREMBLE!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [13]
 			{
-				152.279, -- [1]
-				"Very well... witness what I have seen, and TREMBLE!", -- [2]
+				217.332000000002, -- [1]
+				"Avatars of non-existence... knowing nothing but hunger.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [14]
 			{
-				159.1, -- [1]
-				"Avatars of non-existence... knowing nothing but hunger.", -- [2]
+				217.618000000002, -- [1]
+				"The stars have judged you, and found you wanting.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [15]
 			{
-				165.335999999999, -- [1]
+				223.573, -- [1]
 				"These are the beings who will devour the future you so futilely fight to protect!", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [16]
 			{
-				180.252999999999, -- [1]
-				"As the stars wax, so your lives wane!", -- [2]
+				279.632000000001, -- [1]
+				"The stars have judged you, and found you wanting.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
 			}, -- [17]
 			{
-				185.137999999999, -- [1]
-				"|TInterface\\Icons\\spell_priest_shadoworbs:20|t%s begins to cast |cFFFF0000|Hspell:207439|h[Void Nova]|h|r!", -- [2]
-				"Star Augur Etraeus", -- [3]
-				1, -- [4]
-			}, -- [18]
-			{
-				220.646999999999, -- [1]
+				308.374, -- [1]
 				"Do not think... the future will be so easy.", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
-			}, -- [19]
+			}, -- [18]
 			["boss"] = "Star Augur Etraeus",
 		}, -- [2]
 		{
 			{
-				0.216000000000349, -- [1]
+				0.211999999999534, -- [1]
 				"If only you knew what lay beyond...", -- [2]
 				"Star Augur Etraeus", -- [3]
 				7, -- [4]
