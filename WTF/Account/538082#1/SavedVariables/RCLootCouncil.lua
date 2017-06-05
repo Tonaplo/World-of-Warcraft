@@ -1,9 +1,10 @@
 
 RCLootCouncilDB = {
 	["profileKeys"] = {
+		["Morifa - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 	["global"] = {
@@ -534,27 +535,269 @@ RCLootCouncilDB = {
 			"01:39:54 - Event: (PLAYER_ENTERING_WORLD)", -- [500]
 			"01:39:54 - GetML()", -- [501]
 			"01:39:54 - LootMethod =  (personalloot)", -- [502]
+			"06/04/17", -- [503]
+			"01:51:59 - Logged In", -- [504]
+			"01:51:59 - ML initialized!", -- [505]
+			"01:52:11 - Mallusof-Tichondrius (2.3.3) (nil)", -- [506]
+			"01:52:11 - Event: (PLAYER_ENTERING_WORLD)", -- [507]
+			"01:52:11 - GetML()", -- [508]
+			"01:52:11 - LootMethod =  (personalloot)", -- [509]
+			"01:52:14 - GetPlayersGuildRank()", -- [510]
+			"01:52:14 - Found Guild Rank: Core Raider", -- [511]
+			"01:52:14 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [512]
+			"02:16:49 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [513]
+			"02:16:49 - GetML()", -- [514]
+			"02:16:49 - LootMethod =  (personalloot)", -- [515]
+			"02:16:52 - Event: (PLAYER_ENTERING_WORLD)", -- [516]
+			"02:16:52 - GetML()", -- [517]
+			"02:16:52 - LootMethod =  (personalloot)", -- [518]
+			"02:23:42 - Event: (PLAYER_ENTERING_WORLD)", -- [519]
+			"02:23:42 - GetML()", -- [520]
+			"02:23:42 - LootMethod =  (personalloot)", -- [521]
+			"06/04/17", -- [522]
+			"11:42:55 - Logged In", -- [523]
+			"11:42:55 - ML initialized!", -- [524]
+			"11:43:16 - Mallusof-Tichondrius (2.3.3) (nil)", -- [525]
+			"11:43:16 - Event: (PLAYER_ENTERING_WORLD)", -- [526]
+			"11:43:16 - GetML()", -- [527]
+			"11:43:16 - LootMethod =  (personalloot)", -- [528]
+			"11:43:19 - GetPlayersGuildRank()", -- [529]
+			"11:43:19 - Found Guild Rank: Core Raider", -- [530]
+			"11:43:19 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [531]
+			"06/04/17", -- [532]
+			"11:58:22 - Logged In", -- [533]
+			"11:58:22 - ML initialized!", -- [534]
+			"11:58:31 - Mallusof-Tichondrius (2.3.3) (nil)", -- [535]
+			"11:58:32 - Event: (PLAYER_ENTERING_WORLD)", -- [536]
+			"11:58:32 - GetML()", -- [537]
+			"11:58:32 - LootMethod =  (personalloot)", -- [538]
+			"11:58:33 - GetPlayersGuildRank()", -- [539]
+			"11:58:33 - GetPlayersGuildRank()", -- [540]
+			"11:58:34 - GetPlayersGuildRank()", -- [541]
+			"11:58:34 - Found Guild Rank: Core Raider", -- [542]
+			"11:58:34 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [543]
+			"12:06:37 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [544]
+			"12:06:37 - GetML()", -- [545]
+			"12:06:37 - LootMethod =  (personalloot)", -- [546]
+			"12:09:53 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [547]
+			"12:09:53 - GetML()", -- [548]
+			"12:09:53 - LootMethod =  (group)", -- [549]
+			"12:09:58 - Event: (PLAYER_ENTERING_WORLD)", -- [550]
+			"12:09:58 - GetML()", -- [551]
+			"12:09:58 - LootMethod =  (group)", -- [552]
+			"12:18:51 - Event: (PLAYER_ENTERING_WORLD)", -- [553]
+			"12:18:51 - GetML()", -- [554]
+			"12:18:51 - LootMethod =  (group)", -- [555]
+			"12:42:43 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Zaelsynth) (distri:) (GUILD)", -- [556]
+			"12:44:06 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Tetsunochi) (distri:) (GUILD)", -- [557]
+			"13:10:42 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Incompatance) (distri:) (GUILD)", -- [558]
+			"06/04/17", -- [559]
+			"14:44:33 - Logged In", -- [560]
+			"14:44:33 - ML initialized!", -- [561]
+			"14:44:56 - Mallusof-Tichondrius (2.3.3) (nil)", -- [562]
+			"14:44:57 - Event: (PLAYER_ENTERING_WORLD)", -- [563]
+			"14:44:57 - GetML()", -- [564]
+			"14:44:57 - LootMethod =  (personalloot)", -- [565]
+			"14:44:59 - GetPlayersGuildRank()", -- [566]
+			"14:44:59 - Found Guild Rank: Core Raider", -- [567]
+			"14:44:59 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [568]
+			"14:45:55 - Event: (PLAYER_ENTERING_WORLD)", -- [569]
+			"14:45:55 - GetML()", -- [570]
+			"14:45:55 - LootMethod =  (personalloot)", -- [571]
+			"14:46:27 - Event: (PLAYER_ENTERING_WORLD)", -- [572]
+			"14:46:27 - GetML()", -- [573]
+			"14:46:27 - LootMethod =  (personalloot)", -- [574]
+			"14:46:40 - Event: (PLAYER_ENTERING_WORLD)", -- [575]
+			"14:46:40 - GetML()", -- [576]
+			"14:46:40 - LootMethod =  (personalloot)", -- [577]
+			"15:11:52 - Event: (PLAYER_ENTERING_WORLD)", -- [578]
+			"15:11:52 - GetML()", -- [579]
+			"15:11:52 - LootMethod =  (personalloot)", -- [580]
+			"15:13:28 - Event: (PLAYER_ENTERING_WORLD)", -- [581]
+			"15:13:28 - GetML()", -- [582]
+			"15:13:28 - LootMethod =  (personalloot)", -- [583]
+			"15:48:13 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Voskeeyy) (distri:) (GUILD)", -- [584]
+			"15:50:36 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Foxxa) (distri:) (GUILD)", -- [585]
+			"06/04/17", -- [586]
+			"15:56:32 - Logged In", -- [587]
+			"15:56:32 - ML initialized!", -- [588]
+			"15:56:47 - Morifa-Proudmoore (2.3.3) (nil)", -- [589]
+			"15:56:47 - Event: (PLAYER_ENTERING_WORLD)", -- [590]
+			"15:56:47 - GetML()", -- [591]
+			"15:56:47 - LootMethod =  (personalloot)", -- [592]
+			"15:56:49 - GetPlayersGuildRank()", -- [593]
+			"15:56:49 - Found Guild Rank: Alternate", -- [594]
+			"15:56:49 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Morifa) (distri:) (GUILD)", -- [595]
+			"15:57:13 - Event: (PLAYER_ENTERING_WORLD)", -- [596]
+			"15:57:13 - GetML()", -- [597]
+			"15:57:13 - LootMethod =  (personalloot)", -- [598]
+			"15:57:57 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [599]
+			"15:57:57 - GetML()", -- [600]
+			"15:57:57 - LootMethod =  (personalloot)", -- [601]
+			"15:59:00 - Event: (PLAYER_ENTERING_WORLD)", -- [602]
+			"15:59:00 - GetML()", -- [603]
+			"15:59:00 - LootMethod =  (personalloot)", -- [604]
+			"16:00:00 - Event: (PLAYER_ENTERING_WORLD)", -- [605]
+			"16:00:00 - GetML()", -- [606]
+			"16:00:00 - LootMethod =  (personalloot)", -- [607]
+			"16:05:56 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Heroic)) (143643) (0) (0)", -- [608]
+			"16:05:56 - Event: (PLAYER_ENTERING_WORLD)", -- [609]
+			"16:05:56 - GetML()", -- [610]
+			"16:05:56 - LootMethod =  (personalloot)", -- [611]
+			"16:07:12 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Eraaiin) (distri:) (GUILD)", -- [612]
+			"16:36:57 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Merial) (distri:) (GUILD)", -- [613]
+			"16:41:25 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Kanael) (distri:) (GUILD)", -- [614]
+			"16:57:51 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Merial) (distri:) (GUILD)", -- [615]
+			"16:59:24 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Megaboo) (distri:) (GUILD)", -- [616]
+			"17:06:39 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Konzphiel) (distri:) (GUILD)", -- [617]
+			"17:27:11 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Bmany) (distri:) (GUILD)", -- [618]
+			"17:36:06 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Kanael) (distri:) (GUILD)", -- [619]
+			"17:56:05 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Kanael) (distri:) (GUILD)", -- [620]
+			"17:58:50 - Event: (PLAYER_ENTERING_WORLD)", -- [621]
+			"17:58:50 - GetML()", -- [622]
+			"17:58:50 - LootMethod =  (personalloot)", -- [623]
+			"18:01:57 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Heroic)) (136682) (1) (0)", -- [624]
+			"18:01:57 - Event: (PLAYER_ENTERING_WORLD)", -- [625]
+			"18:01:57 - GetML()", -- [626]
+			"18:01:57 - LootMethod =  (personalloot)", -- [627]
+			"18:06:39 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Eraain) (distri:) (GUILD)", -- [628]
+			"18:20:09 - Event: (PLAYER_ENTERING_WORLD)", -- [629]
+			"18:20:09 - GetML()", -- [630]
+			"18:20:09 - LootMethod =  (personalloot)", -- [631]
+			"18:22:00 - Event: (PLAYER_ENTERING_WORLD)", -- [632]
+			"18:22:00 - GetML()", -- [633]
+			"18:22:00 - LootMethod =  (personalloot)", -- [634]
+			"06/04/17", -- [635]
+			"18:22:53 - Logged In", -- [636]
+			"18:22:53 - ML initialized!", -- [637]
+			"18:23:09 - Mallusof-Tichondrius (2.3.3) (nil)", -- [638]
+			"18:23:10 - Event: (PLAYER_ENTERING_WORLD)", -- [639]
+			"18:23:10 - GetML()", -- [640]
+			"18:23:10 - LootMethod =  (personalloot)", -- [641]
+			"18:23:12 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [642]
+			"18:23:12 - GetPlayersGuildRank()", -- [643]
+			"18:23:12 - Found Guild Rank: Core Raider", -- [644]
+			"18:29:02 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [645]
+			"18:29:02 - GetML()", -- [646]
+			"18:29:02 - LootMethod =  (personalloot)", -- [647]
+			"18:29:10 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [648]
+			"18:29:10 - GetML()", -- [649]
+			"18:29:10 - LootMethod =  (master)", -- [650]
+			"18:29:10 - MasterLooter =  (Kalithumos-Tichondrius)", -- [651]
+			"18:29:10 - Resetting council as we have a new ML!", -- [652]
+			"18:29:14 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [653]
+			"18:29:14 - GetML()", -- [654]
+			"18:29:14 - LootMethod =  (master)", -- [655]
+			"18:29:14 - MasterLooter =  (Arkator-Tichondrius)", -- [656]
+			"18:29:14 - Resetting council as we have a new ML!", -- [657]
+			"18:29:15 - Timer MLdb_check passed", -- [658]
+			"18:29:19 - Timer MLdb_check passed", -- [659]
+			"18:33:09 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [660]
+			"18:33:09 - GetML()", -- [661]
+			"18:33:09 - LootMethod =  (master)", -- [662]
+			"18:33:09 - MasterLooter =  (Arkator-Tichondrius)", -- [663]
+			"18:33:14 - Timer MLdb_check passed", -- [664]
+			"18:34:02 - Event: (PLAYER_ENTERING_WORLD)", -- [665]
+			"18:34:02 - GetML()", -- [666]
+			"18:34:02 - LootMethod =  (master)", -- [667]
+			"18:34:02 - MasterLooter =  (Arkator-Tichondrius)", -- [668]
+			"18:34:07 - Timer MLdb_check passed", -- [669]
+			"18:36:31 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Heroic)) (134608) (0) (0)", -- [670]
+			"18:36:31 - Event: (PLAYER_ENTERING_WORLD)", -- [671]
+			"18:36:31 - GetML()", -- [672]
+			"18:36:31 - LootMethod =  (master)", -- [673]
+			"18:36:31 - MasterLooter =  (Arkator-Tichondrius)", -- [674]
+			"18:36:36 - Timer MLdb_check passed", -- [675]
+			"18:40:08 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Voceh) (distri:) (GUILD)", -- [676]
+			"18:59:53 - Event: (PLAYER_ENTERING_WORLD)", -- [677]
+			"18:59:53 - GetML()", -- [678]
+			"18:59:53 - LootMethod =  (master)", -- [679]
+			"18:59:53 - MasterLooter =  (Arkator-Tichondrius)", -- [680]
+			"18:59:58 - Timer MLdb_check passed", -- [681]
+			"19:01:26 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Mythic)) (133113) (1) (0)", -- [682]
+			"19:01:26 - Event: (PLAYER_ENTERING_WORLD)", -- [683]
+			"19:01:26 - GetML()", -- [684]
+			"19:01:26 - LootMethod =  (master)", -- [685]
+			"19:01:26 - MasterLooter =  (Arkator-Tichondrius)", -- [686]
+			"19:01:31 - Timer MLdb_check passed", -- [687]
+			"19:02:53 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Voskeeyy) (distri:) (GUILD)", -- [688]
+			"20:31:06 - Event: (PLAYER_ENTERING_WORLD)", -- [689]
+			"20:31:06 - GetML()", -- [690]
+			"20:31:06 - LootMethod =  (master)", -- [691]
+			"20:31:06 - MasterLooter =  (Arkator-Tichondrius)", -- [692]
+			"20:31:11 - Timer MLdb_check passed", -- [693]
+			"20:34:59 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Yuniee) (distri:) (GUILD)", -- [694]
+			"20:39:21 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Mythic)) (127238) (0) (0)", -- [695]
+			"20:39:22 - Event: (PLAYER_ENTERING_WORLD)", -- [696]
+			"20:39:22 - GetML()", -- [697]
+			"20:39:22 - LootMethod =  (master)", -- [698]
+			"20:39:22 - MasterLooter =  (Arkator-Tichondrius)", -- [699]
+			"20:39:26 - Timer MLdb_check passed", -- [700]
+			"06/04/17", -- [701]
+			"21:13:43 - Logged In", -- [702]
+			"21:13:43 - ML initialized!", -- [703]
+			"21:13:44 - Mallusof-Tichondrius (2.3.3) (nil)", -- [704]
+			"21:13:45 - Event: (PLAYER_ENTERING_WORLD)", -- [705]
+			"21:13:45 - GetML()", -- [706]
+			"21:13:45 - LootMethod =  (master)", -- [707]
+			"21:13:45 - MasterLooter =  (Arkator-Tichondrius)", -- [708]
+			"21:13:45 - Resetting council as we have a new ML!", -- [709]
+			"21:13:45 - Player relog...", -- [710]
+			"21:13:45 - I'm an enchanter", -- [711]
+			"21:13:45 - GetPlayersGuildRank()", -- [712]
+			"21:13:45 - Found Guild Rank: Core Raider", -- [713]
+			"21:13:46 - Timer MLdb_check passed", -- [714]
+			"21:13:46 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [715]
+			"06/04/17", -- [716]
+			"21:22:37 - Logged In", -- [717]
+			"21:22:37 - ML initialized!", -- [718]
+			"21:22:38 - Mallusof-Tichondrius (2.3.3) (nil)", -- [719]
+			"21:22:39 - Event: (PLAYER_ENTERING_WORLD)", -- [720]
+			"21:22:39 - GetML()", -- [721]
+			"21:22:39 - LootMethod =  (master)", -- [722]
+			"21:22:39 - MasterLooter =  (Arkator-Tichondrius)", -- [723]
+			"21:22:39 - Resetting council as we have a new ML!", -- [724]
+			"21:22:39 - Player relog...", -- [725]
+			"21:22:39 - I'm an enchanter", -- [726]
+			"21:22:39 - GetPlayersGuildRank()", -- [727]
+			"21:22:39 - Found Guild Rank: Core Raider", -- [728]
+			"21:22:39 - Timer MLdb_check passed", -- [729]
+			"21:22:40 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Mallusof) (distri:) (GUILD)", -- [730]
+			"21:45:33 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Zaelsynth) (distri:) (GUILD)", -- [731]
+			"22:21:38 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Búî) (distri:) (GUILD)", -- [732]
+			"22:22:40 - Comm received:^1^SverTest^T^N1^S2.3.3^t^^ (from:) (Búî) (distri:) (GUILD)", -- [733]
+			"22:49:21 - Event: (PLAYER_ENTERING_WORLD)", -- [734]
+			"22:49:21 - GetML()", -- [735]
+			"22:49:21 - LootMethod =  (personalloot)", -- [736]
 		},
 		["version"] = "2.3.3",
 		["verTestCandidates"] = {
 			["Mallusof-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Librarien-Proudmoore"] = "2.3.2-nil: - Greybone-Proudmoore",
+			["Voskeeyy-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
 			["Amranar-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
 			["Vivie-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
 			["Búî-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["însensate-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["Kanael-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
-			["Saosín-Tichondrius"] = "2.3.1-nil: - Mallusof-Tichondrius",
-			["Foxxa-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["Greybone-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
 			["Silentclaw-Proudmoore"] = "2.3.2-nil: - Greybone-Proudmoore",
+			["însensate-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Greybone-Proudmoore"] = "2.3.3-nil: - Greybone-Proudmoore",
 			["Megaboo-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
-			["Yuniee-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["Anjii-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
 			["Minspec-Proudmoore"] = "2.2.5-nil: - Greybone-Proudmoore",
-			["Insentience-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
-			["Zaelsynth-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Yuniee-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Kanael-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Saosín-Tichondrius"] = "2.3.1-nil: - Mallusof-Tichondrius",
 			["Praerend-Proudmoore"] = "2.3.3-nil: - Praerend-Proudmoore",
+			["Merial-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Foxxa-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Tetsunochi-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Eraaiin-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Insentience-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Erain-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Anjii-Proudmoore"] = "2.3.3-nil: - Amranar-Proudmoore",
+			["Eternalock-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Morifa-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
+			["Zaelsynth-Tichondrius"] = "2.3.3-nil: - Mallusof-Tichondrius",
+			["Bmany-Proudmoore"] = "2.3.3-nil: - Morifa-Proudmoore",
 		},
 	},
 	["profiles"] = {
@@ -565,17 +808,6 @@ RCLootCouncilDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["UI"] = {
-				["sessionframe"] = {
-					["y"] = 88.1779169294896,
-					["x"] = 243.911359272986,
-					["scale"] = 0.800000011920929,
-				},
-				["lootframe"] = {
-					["y"] = 101.777699270512,
-					["x"] = 258.133478625537,
-					["point"] = "BOTTOM",
-					["scale"] = 0.800000011920929,
-				},
 				["history"] = {
 					["y"] = 6.527374034703830e-005,
 					["x"] = 0.000125169675811776,
@@ -587,15 +819,27 @@ RCLootCouncilDB = {
 					["point"] = "TOP",
 					["scale"] = 0.800000011920929,
 				},
+				["lootframe"] = {
+					["y"] = 101.777699270512,
+					["x"] = 258.133478625537,
+					["point"] = "BOTTOM",
+					["scale"] = 0.800000011920929,
+				},
+				["sessionframe"] = {
+					["y"] = 88.1779169294896,
+					["x"] = 243.911359272986,
+					["scale"] = 0.800000011920929,
+				},
 			},
 		},
 	},
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},
 }

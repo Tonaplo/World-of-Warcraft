@@ -1,22 +1,22 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Gottagetlia - Aggramar"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -980,6 +980,74 @@ GottaGoFastHistoryDB = {
 						"Enemy Forces", -- [5]
 					},
 				},
+				[1458] = {
+					["objectives"] = {
+						"Rokmora", -- [1]
+						"Ularogg Cragshaper", -- [2]
+						"Naraxas", -- [3]
+						"Dargrul", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1458,
+					["name"] = "Neltharion's Lair",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 28949.571,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 6,
+								["hours"] = 1,
+								["year"] = 2017,
+								["mins"] = 37,
+							},
+							["level"] = 5,
+							["startTime"] = 27794.283,
+							["objectiveTimes"] = {
+								"03:53.616", -- [1]
+								"10:35.990", -- [2]
+								"14:45.843", -- [3]
+								"19:24.864", -- [4]
+								"17:39.808", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Pharmercy (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druid",
+									["name"] = "Solarfire (*)",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Sansbrain (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Tenmah (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [1]
+					},
+				},
 				[1492] = {
 					["runs"] = {
 						{
@@ -1218,6 +1286,56 @@ GottaGoFastHistoryDB = {
 							},
 							["startTime"] = 4385.789,
 						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 27432.288,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 6,
+								["hours"] = 1,
+								["year"] = 2017,
+								["mins"] = 11,
+							},
+							["level"] = 2,
+							["startTime"] = 26837.297,
+							["objectiveTimes"] = {
+								"02:00.197", -- [1]
+								"05:10.206", -- [2]
+								"09:54.475", -- [3]
+								"07:33.282", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Pharmercy (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druid",
+									["name"] = "Solarfire (*)",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Sansbrain (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Tenmah (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [5]
 					},
 					["name"] = "Maw of Souls",
 					["zoneID"] = 1492,

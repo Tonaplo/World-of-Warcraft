@@ -1,9 +1,10 @@
 
 AutoVendorDB = {
 	["profileKeys"] = {
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
@@ -13,6 +14,8 @@ AutoVendorDB = {
 				[143681] = "Slightly Burnt Food",
 				[138967] = "Big Fountain Goldfish",
 			},
+		},
+		["Morifa - Proudmoore"] = {
 		},
 		["Praerend - Proudmoore"] = {
 		},

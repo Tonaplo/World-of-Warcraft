@@ -1,91 +1,43 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["combat_data"] = {
 		{
-			["date_end"] = "00:05:29",
 			["date_start"] = "00:04:36",
+			["date_end"] = "00:05:29",
 			["name"] = "Taran Zhu",
 			["total_time"] = 53.0030000000006,
 		}, -- [1]
 		{
-			["date_end"] = "00:02:27",
 			["date_start"] = "00:01:42",
+			["date_end"] = "00:02:27",
 			["name"] = "Sha of Violence",
 			["total_time"] = 45.012999999999,
 		}, -- [2]
 		{
-			["date_end"] = "23:59:23",
 			["date_start"] = "23:58:10",
+			["date_end"] = "23:59:23",
 			["name"] = "Master Snowdrift",
 			["total_time"] = 73.0139999999992,
 		}, -- [3]
 		{
-			["date_end"] = "23:54:31",
 			["date_start"] = "23:53:19",
+			["date_end"] = "23:54:31",
 			["name"] = "Gu Cloudstrike",
 			["total_time"] = 72.0030000000006,
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Heavychick"] = {
-				{
-					44.518, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-			["Sìñ-Mannoroth"] = {
-				{
-					14.4610000000012, -- [1]
-					"Sìñ-Mannoroth", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Sìñ-Mannoroth"] = {
-				{
-					11.2099999999991, -- [1]
-					"Sìñ-Mannoroth", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Sìñ-Mannoroth"] = {
-				{
-					18.9269999999997, -- [1]
-					"Sìñ-Mannoroth", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Thechiver"] = {
-				{
-					46.5579999999991, -- [1]
-					"Thechiver", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-			["Sìñ-Mannoroth"] = {
-				{
-					24.7049999999999, -- [1]
-					"Sìñ-Mannoroth", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Sannroth-ShatteredHand"] = {
@@ -107,16 +59,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Sìñ-Mannoroth"] = {
-				[106827] = {
-					8.81500000000051, -- [1]
-					14.5939999999991, -- [2]
-					28.2330000000002, -- [3]
-					35.5699999999997, -- [4]
-					["source"] = "Sha of Violence",
-					["active"] = false,
-				},
-			},
 			["Thechiver"] = {
 				[106827] = {
 					8.81500000000051, -- [1]
@@ -129,6 +71,16 @@ DetailsTimeLineDB = {
 				[106872] = {
 					17.3259999999991, -- [1]
 					21.3269999999993, -- [2]
+					["source"] = "Sha of Violence",
+					["active"] = false,
+				},
+			},
+			["Sìñ-Mannoroth"] = {
+				[106827] = {
+					8.81500000000051, -- [1]
+					14.5939999999991, -- [2]
+					28.2330000000002, -- [3]
+					35.5699999999997, -- [4]
 					["source"] = "Sha of Violence",
 					["active"] = false,
 				},
@@ -192,15 +144,63 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
+			["Sìñ-Mannoroth"] = {
+				{
+					14.4610000000012, -- [1]
+					"Sìñ-Mannoroth", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Heavychick"] = {
+				{
+					44.518, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
 		}, -- [1]
 		{
+			["Sìñ-Mannoroth"] = {
+				{
+					11.2099999999991, -- [1]
+					"Sìñ-Mannoroth", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
+			["Sìñ-Mannoroth"] = {
+				{
+					18.9269999999997, -- [1]
+					"Sìñ-Mannoroth", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
+			["Sìñ-Mannoroth"] = {
+				{
+					24.7049999999999, -- [1]
+					"Sìñ-Mannoroth", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Thechiver"] = {
+				{
+					46.5579999999991, -- [1]
+					"Thechiver", -- [2]
+					48707, -- [3]
+				}, -- [1]
+			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 }

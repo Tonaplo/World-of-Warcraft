@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1441538687,
+							["Mallusof"] = 1457231570,
 						},
 					},
 				},
@@ -101,14 +101,14 @@ LUIDB = {
 						["Alliance"] = {
 							["Miriyal"] = 101914065,
 							["Farahn"] = 236475112,
-							["Greybone"] = 6297864,
+							["Greybone"] = 13983005,
 							["Amranar"] = 476374393,
 							["Granjior"] = 348066546,
 							["Kaldorath"] = 142770614,
 							["Faerand"] = 99376085,
 							["Mallusof"] = 1162234125,
 							["Rahran"] = 388844631,
-							["Morifa"] = 469377948,
+							["Morifa"] = 439588348,
 							["Fimwack"] = 170576478,
 							["Praerend"] = 675367228,
 						},
@@ -128,14 +128,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -163,28 +170,13 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -268,7 +260,7 @@ LUIDB = {
 								},
 							},
 						},
-						["Y"] = 248.361129760742,
+						["Y"] = -50,
 						["X"] = 239.659820556641,
 						["Aura"] = {
 							["Buffs"] = {
@@ -684,6 +676,14 @@ LUIDB = {
 						},
 					},
 				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -762,72 +762,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [1]
-							"/p have a good one", -- [2]
-							"/g yo", -- [3]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [4]
-							"/p have a good one", -- [5]
-							"/cw Meowfurryoff-Tichondrius I highly doubt it :P", -- [6]
-							"/p have a good one", -- [7]
-							"/g yo", -- [8]
-							"/p have a good one", -- [9]
-							"/g yo", -- [10]
-							"/s g", -- [11]
-							"/g ARG", -- [12]
-							"/g sorry!", -- [13]
-							"/g Wrong amcro", -- [14]
-							"/g It's used in my other guild", -- [15]
-							"/g Because I'm so tired of Swapblasters", -- [16]
-							"/g I use Neural Silencers myself", -- [17]
-							"/g The point is exactly that it is", -- [18]
-							"/g It's the item", -- [19]
-							"/g that swaps your position with someone elses", -- [20]
-							"/g Ranged do it on Melee before the pull to fuck up their DPS", -- [21]
-							"/g people do it on other people to make them fall of the edges on places like Krosus bridge", -- [22]
-							"/g yeah", -- [23]
-							"/g there you go", -- [24]
-							"/g I'm really sick of it and have asked people to cut it out", -- [25]
-							"/g Especially since certain things dont work on you when you're using a Neural Silencer", -- [26]
-							"/g Misdirect doesnt work for tanks", -- [27]
-							"/g Lifegrip doesnt work", -- [28]
-							"/macro", -- [29]
-							"/g gz", -- [30]
-							"/macro", -- [31]
-							"/rt", -- [32]
+							"/p r", -- [1]
+							"/p call for MB, heals", -- [2]
+							"/p darn it", -- [3]
+							"/p That's gonna be slower", -- [4]
+							"/p It means everyone has to be topped off always", -- [5]
+							"/p Have a good one :)", -- [6]
+							"/p nice!", -- [7]
+							"/p call for MB, heals", -- [8]
+							"/p That's gonna be slower", -- [9]
+							"/p Have a good one :)", -- [10]
+							"/p call for MB, heals", -- [11]
+							"/p Have a good one :)", -- [12]
+							"/apu enable", -- [13]
+							"/raid NO", -- [14]
+							"/raid please no", -- [15]
+							"/RT", -- [16]
+							"/cw Kaligon-Tichondrius I'm mallusof", -- [17]
+							"/cw Kaligon-Tichondrius lol", -- [18]
+							"/cw Kaligon-Tichondrius dude wtf", -- [19]
+							"/cw Kaligon-Tichondrius that's freaking amazing", -- [20]
+							"/cw Kaligon-Tichondrius thansk", -- [21]
+							"/cw Kaligon-Tichondrius god no", -- [22]
+							"/cw Kaligon-Tichondrius I suck at DPS, lol", -- [23]
+							"/cw Kaligon-Tichondrius you know", -- [24]
+							"/cw Kaligon-Tichondrius you dont HAVE to give me all of the loot", -- [25]
+							"/cw Kaligon-Tichondrius like I love it", -- [26]
+							"/cw Kaligon-Tichondrius but you really dont :P", -- [27]
+							"/raid Yes", -- [28]
+							"/raid I want the ring", -- [29]
+							"/raid |cffa335ee|Hitem:140804::::::::110:64::5:3:3516:1497:3336:::|h[Star Gate]|h|r", -- [30]
+							"/1 I'm 10/10 LFR", -- [31]
+							"/g thanks! :P", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" Niiiiiiiiiiiice!", -- [1]
-							"/g Basically, I just want a couiple of people at some point", -- [2]
-							" no ty", -- [3]
-							"/g I made a weakaura that cycles through who should pop what external at what felscythe", -- [4]
-							"/g so someone has to step up right, fuckface", -- [5]
-							"/g Basically, I just want a couiple of people at some point", -- [6]
-							"/g I made a weakaura that cycles through who should pop what external at what felscythe", -- [7]
-							"/g Basically, I just want a couiple of people at some point", -- [8]
-							"/g Anyone up for running Mythic modes of the WoD raids for achievements and Transmog?", -- [9]
-							"/2 LF Plate/Leather/Mail user to come do Mythic WoDs Raids for Transmog and Achievements", -- [10]
-							"/g it's late", -- [11]
-							"/g What is it", -- [12]
-							"/g ?", -- [13]
-							"/g TM v SS?", -- [14]
-							"/g :/", -- [15]
-							"/g noone wants to go to Wod with me?", -- [16]
-							"/g lol", -- [17]
-							"/g Slicewd?", -- [18]
-							"/g Insentience?", -- [19]
-							"/g literally", -- [20]
-							"/g jsut kill mythic raid bosses", -- [21]
-							"/g for achievements", -- [22]
-							"/g and transmog", -- [23]
-							"/g as fast as possible", -- [24]
-							"/g Oh I dont have a lot of mythi achievements, lol", -- [25]
-							"/g Wanna go?", -- [26]
-							"/g aight nps", -- [27]
-							"/g gz", -- [28]
-							"/g and qq", -- [29]
-							"/g Oh Kaaaaaaaaali", -- [30]
-							"/g Wanna go kill all the bosses in Highmaul for Mythic Achievements>", -- [31]
-							"/g qq", -- [32]
+							"/cw Xji inside the bubble", -- [1]
+							"/rt", -- [2]
+							"/cw Hangookie-Tichondrius yup, healers are starting to know their turn", -- [3]
+							"/RT", -- [4]
+							"/cw Foxxa-Tichondrius awesome", -- [5]
+							"/cw Foxxa-Tichondrius That's what the last readycheck was for :P", -- [6]
+							"/cw Foxxa-Tichondrius 10 min break", -- [7]
+							"/cw Hangookie Thanks alot with the help", -- [8]
+							"/rt", -- [9]
+							"/cw Hangookie-Tichondrius and we really want as many CEs as we can get :P", -- [10]
+							"/raid no reason towaste ike 1 hour on Odyn and Guar,", -- [11]
+							"/cw Ellestria-Tichondrius surprise, lol", -- [12]
+							"/raid ^^", -- [13]
+							"/raid na", -- [14]
+							"/RT", -- [15]
+							"/cw Hangookie-Tichondrius yeah, we need more DPS", -- [16]
+							"/rt", -- [17]
+							"/RT", -- [18]
+							"/cw Foxxa-Tichondrius That's what the last readycheck was for :P", -- [19]
+							"/cw Hangookie Thanks alot with the help", -- [20]
+							"/cw Hangookie-Tichondrius and we really want as many CEs as we can get :P", -- [21]
+							"/cw Ellestria-Tichondrius surprise, lol", -- [22]
+							"/raid na", -- [23]
+							"/cw Hangookie-Tichondrius yeah, we need more DPS", -- [24]
+							"/RT", -- [25]
+							"/cw Hangookie Thanks alot with the help", -- [26]
+							"/cw Ellestria-Tichondrius surprise, lol", -- [27]
+							"/cw Hangookie-Tichondrius yeah, we need more DPS", -- [28]
+							"/cw Hangookie Thanks alot with the help", -- [29]
+							"/cw Hangookie-Tichondrius yeah, we need more DPS", -- [30]
+							"/rt", -- [31]
+							"/RELOAD", -- [32]
 						},
 					},
 				},
@@ -2269,22 +2269,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Base",
-		["Praerend - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
+		["Praerend - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
-		["Greybone - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -2618,6 +2618,7 @@ LUIDB = {
 			["Tooltip"] = {
 				["Y"] = -240,
 				["X"] = 0,
+				["Hidecombat"] = true,
 			},
 		},
 		["Default"] = {

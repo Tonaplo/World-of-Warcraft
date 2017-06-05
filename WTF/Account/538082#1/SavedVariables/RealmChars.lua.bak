@@ -63,11 +63,11 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 703,
-				["itemLevelEquipped"] = 856.5625,
+				["itemLevelEquipped"] = 880.4375,
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["itemLevelOverall"] = 856.5625,
+				["itemLevelOverall"] = 881.0625,
 				["level"] = 110,
 				["firstProfLevel"] = 167,
 				["firstProf"] = "Herbalism",
@@ -118,14 +118,14 @@ RCDatabase = {
 			}, -- [9]
 			{
 				["secondProfLevel"] = 729,
-				["itemLevelEquipped"] = 873.6875,
+				["itemLevelEquipped"] = 877.5,
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
 				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 715,
-				["itemLevelOverall"] = 873.6875,
+				["itemLevelOverall"] = 877.5,
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
@@ -157,11 +157,11 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 909.8125,
+				["itemLevelEquipped"] = 911.75,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 913,
+				["itemLevelOverall"] = 913.9375,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
 				["firstProf"] = "Tailoring",

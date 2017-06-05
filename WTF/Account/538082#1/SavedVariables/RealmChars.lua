@@ -63,14 +63,14 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 703,
-				["itemLevelEquipped"] = 856.5625,
+				["itemLevelEquipped"] = 880.4375,
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
 				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 167,
-				["itemLevelOverall"] = 856.5625,
+				["itemLevelOverall"] = 881.0625,
 			}, -- [5]
 			{
 				["secondProfLevel"] = 47,
@@ -157,14 +157,14 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 909.8125,
+				["itemLevelEquipped"] = 911.75,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["firstProf"] = "Tailoring",
+				["itemLevelOverall"] = 913.9375,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["itemLevelOverall"] = 913,
+				["firstProf"] = "Tailoring",
 			}, -- [1]
 			["characterStored"] = 1,
 		},

@@ -1,22 +1,22 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -42,7 +42,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
+				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["pointsRemaining"] = 16602746,
@@ -60,14 +60,14 @@ DataStore_TalentsDB = {
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
 						["rank"] = 51,
-						["pointsRemaining"] = 148208970,
+						["pointsRemaining"] = 421875620,
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1496558557,
+				["lastUpdate"] = 1496636539,
 				["Specializations"] = {
 					6550, -- [1]
-					9573, -- [2]
+					10103, -- [2]
 					6489, -- [3]
 				},
 				["ArtifactKnowledge"] = 39,
@@ -146,15 +146,15 @@ DataStore_TalentsDB = {
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Maw of the Damned",
-				["ArtifactKnowledgeMultiplier"] = 4901,
+				["ArtifactKnowledgeMultiplier"] = 8301,
 				["Specializations"] = {
 					16277, -- [1]
 					5882, -- [2]
 					12122, -- [3]
 				},
-				["lastUpdate"] = 1495436399,
+				["lastUpdate"] = 1496565594,
 				["Class"] = "DEATHKNIGHT",
-				["ArtifactKnowledge"] = 32,
+				["ArtifactKnowledge"] = 34,
 				["Artifacts"] = {
 					["Blades of the Fallen Prince"] = {
 						["tier"] = 1,
@@ -169,7 +169,7 @@ DataStore_TalentsDB = {
 					["Maw of the Damned"] = {
 						["tier"] = 2,
 						["rank"] = 39,
-						["pointsRemaining"] = 1251880,
+						["pointsRemaining"] = 15886580,
 					},
 				},
 			},
@@ -250,19 +250,24 @@ DataStore_TalentsDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
 				["Artifacts"] = {
+					["Aluneth, Greatstaff of the Magna"] = {
+						["tier"] = 1,
+						["rank"] = 16,
+						["pointsRemaining"] = 7900,
+					},
 					["Ebonchill, Greatstaff of Alodi"] = {
-						["pointsRemaining"] = 1773690,
-						["rank"] = 33,
+						["pointsRemaining"] = 2434650,
+						["rank"] = 50,
 						["tier"] = 1,
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1495436477,
+				["lastUpdate"] = 1496625720,
 				["Specializations"] = {
-					[3] = 7575,
+					[3] = 7670,
 				},
-				["ArtifactKnowledge"] = 31,
-				["ArtifactKnowledgeMultiplier"] = 3801,
+				["ArtifactKnowledge"] = 33,
+				["ArtifactKnowledgeMultiplier"] = 6401,
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
@@ -292,22 +297,22 @@ DataStore_TalentsDB = {
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["HUNTER"] = {
