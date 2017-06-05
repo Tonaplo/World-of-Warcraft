@@ -1,13 +1,16 @@
 
 AutoVendorDB = {
 	["profileKeys"] = {
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
+		["Greybone - Proudmoore"] = {
+		},
 		["Default"] = {
 			["guildbankrepair"] = true,
 			["junk"] = {
@@ -19,7 +22,7 @@ AutoVendorDB = {
 		},
 		["Praerend - Proudmoore"] = {
 		},
-		["Greybone - Proudmoore"] = {
+		["Farahn - Proudmoore"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},

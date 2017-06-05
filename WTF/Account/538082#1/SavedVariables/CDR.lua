@@ -1,11 +1,12 @@
 
 CDRDatabase = {
 	["profileKeys"] = {
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 	},

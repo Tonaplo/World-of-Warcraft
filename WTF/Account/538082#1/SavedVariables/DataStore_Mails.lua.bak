@@ -2,10 +2,10 @@
 DataStore_MailsDB = {
 	["profileKeys"] = {
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -28,13 +28,13 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496121271,
 				["Mails"] = {
 					{
-						["icon"] = 134327,
+						["lastCheck"] = 1496121271,
 						["sender"] = "Thaumaturge Vashreen",
 						["subject"] = "Lost Item",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
-						["lastCheck"] = 1496121271,
+						["icon"] = 134327,
 						["daysLeft"] = 14.8816432952881,
 					}, -- [1]
 				},
@@ -52,8 +52,8 @@ DataStore_MailsDB = {
 						["itemID"] = 82190,
 						["link"] = "|cff1eff00|Hitem:82190::::::-5:987234361:110:64:512:22::110:::|h[Mountain Helm of the Monkey]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1496617157,
 						["icon"] = 603660,
+						["lastCheck"] = 1496617157,
 						["daysLeft"] = 30,
 					}, -- [1]
 				},

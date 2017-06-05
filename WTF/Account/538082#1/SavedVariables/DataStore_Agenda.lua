@@ -2,10 +2,10 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -25,11 +25,11 @@ DataStore_AgendaDB = {
 			["NextWeeklyReset"] = "2017-06-06",
 		},
 		["Characters"] = {
-			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1496561033,
-			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1493959702,
+			},
+			["Default.Proudmoore.Amranar"] = {
+				["lastUpdate"] = 1496561033,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -41,20 +41,23 @@ DataStore_AgendaDB = {
 					},
 				},
 				["DungeonIDs"] = {
-					["Ulduar 25 Player|333468332"] = "119437|1496641762|0|1",
-					["The Nighthold Normal|249027316"] = "119437|1496641762|0|1",
-					["Return to Karazhan Mythic|321956927"] = "119437|1496641762|0|0",
-					["The Nighthold Mythic|332222364"] = "119437|1496641762|0|1",
-					["The Nighthold Heroic|333509452"] = "119437|1496641762|0|1",
-					["Trial of Valor Mythic|333516041"] = "119437|1496641762|0|1",
+					["Ulduar 25 Player|333468332"] = "81736|1496679464|0|1",
+					["The Nighthold Normal|249027316"] = "81736|1496679464|0|1",
+					["Return to Karazhan Mythic|321956927"] = "81736|1496679464|0|0",
+					["Trial of Valor Mythic|333516041"] = "81736|1496679464|0|1",
+					["The Nighthold Heroic|333509452"] = "81736|1496679464|0|1",
+					["The Nighthold Mythic|332222364"] = "81736|1496679464|0|1",
 				},
-				["lastUpdate"] = 1496641789,
+				["lastUpdate"] = 1496679596,
 			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1495436717,
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1493618456,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1493792687,
+			["Default.Proudmoore.Morifa"] = {
+				["DungeonIDs"] = {
+					["The Nighthold Heroic|333501508"] = "135478|1496625721|0|1",
+				},
+				["lastUpdate"] = 1496625738,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1496519193,
@@ -62,8 +65,8 @@ DataStore_AgendaDB = {
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1496387388,
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1496562547,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1496565691,
@@ -74,20 +77,17 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1495436638,
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1496562547,
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1496387388,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1496035072,
+				["lastUpdate"] = 1496686068,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["DungeonIDs"] = {
-					["The Nighthold Heroic|333501508"] = "135478|1496625721|0|1",
-				},
-				["lastUpdate"] = 1496625738,
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1493792687,
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1493618456,
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1495436717,
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["lastUpdate"] = 1493618514,

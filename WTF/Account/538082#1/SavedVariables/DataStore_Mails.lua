@@ -2,10 +2,10 @@
 DataStore_MailsDB = {
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -20,43 +20,33 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1495406599,
-				["lastVisitDate"] = "2017/05/21 15:43",
-			},
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1496121271,
 				["Mails"] = {
 					{
-						["lastCheck"] = 1496121271,
+						["icon"] = 134327,
 						["sender"] = "Thaumaturge Vashreen",
 						["subject"] = "Lost Item",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
-						["icon"] = 134327,
+						["lastCheck"] = 1496121271,
 						["daysLeft"] = 14.8816432952881,
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2017/05/29 22:14",
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1495406599,
+				["lastVisitDate"] = "2017/05/21 15:43",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1495995684,
 				["lastVisitDate"] = "2017/05/28 11:21",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1496617157,
-				["Mails"] = {
-					{
-						["sender"] = "Morifa",
-						["itemID"] = 82190,
-						["link"] = "|cff1eff00|Hitem:82190::::::-5:987234361:110:64:512:22::110:::|h[Mountain Helm of the Monkey]|h|r",
-						["count"] = 1,
-						["icon"] = 603660,
-						["lastCheck"] = 1496617157,
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
+				["lastUpdate"] = 1496682904,
+				["lastVisitDate"] = "2017/06/05 10:15",
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1496617159,
