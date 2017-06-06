@@ -16,7 +16,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 			["RotationTokens"] = {
 				["ABuep4Bpwxp"] = "OPCCTc",
 				["ABuep4Bpwxa"] = "OPCTA3",
@@ -29,7 +29,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 		},
 	},
 	["PersistentStorage"] = {
@@ -55,6 +55,11 @@ OneRing_Config = {
 					["icon"] = 1339449,
 					["id"] = "/click ORLOpen Base",
 				}, -- [4]
+				{
+					"item", -- [1]
+					109220, -- [2]
+					["sliceToken"] = "ABuepxugBVe",
+				}, -- [5]
 				["save"] = true,
 				["name"] = "Pots",
 			},
@@ -233,9 +238,9 @@ OneRing_Config = {
 					["sliceToken"] = "OPCRSc",
 				}, -- [9]
 				["name"] = "Target Markers",
-				["internal"] = true,
-				["hotkey"] = "ALT-R",
 				["save"] = true,
+				["hotkey"] = "ALT-R",
+				["internal"] = true,
 			},
 			["WorldMarkers"] = {
 				{
@@ -285,9 +290,124 @@ OneRing_Config = {
 					["c"] = "ccd8e5",
 				}, -- [9]
 				["name"] = "World Markers",
-				["internal"] = true,
-				["hotkey"] = "[group] ALT-Y",
 				["save"] = true,
+				["hotkey"] = "[group] ALT-Y",
+				["internal"] = true,
+			},
+			["tAbilities"] = {
+				{
+					["id"] = 1706,
+					["sliceToken"] = "ABuep4BpwxR",
+				}, -- [1]
+				{
+					["id"] = 2006,
+					["sliceToken"] = "ABuep4Bpwx7",
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuep4BpwxE",
+					["id"] = "/click ORLOpen Base",
+					["caption"] = "Base",
+					["icon"] = 1339449,
+					["fastClick"] = true,
+				}, -- [3]
+				{
+					["id"] = 232698,
+					["sliceToken"] = "ABuepjqUmtwp",
+				}, -- [4]
+				{
+					["id"] = 31687,
+					["sliceToken"] = "ABuep5Et2m1",
+				}, -- [5]
+				{
+					["id"] = 190336,
+					["sliceToken"] = "ABuep5Et2mr",
+				}, -- [6]
+				["save"] = true,
+				["name"] = "Abilities",
+			},
+			["onsumables"] = {
+				{
+					"item", -- [1]
+					140587, -- [2]
+					["sliceToken"] = "ABuepjqUmtZ",
+				}, -- [1]
+				{
+					"item", -- [1]
+					138292, -- [2]
+					["sliceToken"] = "ABuepjqUmtL",
+				}, -- [2]
+				{
+					"item", -- [1]
+					133572, -- [2]
+					["sliceToken"] = "ABuepjqUmtK",
+				}, -- [3]
+				{
+					"item", -- [1]
+					133570, -- [2]
+					["sliceToken"] = "ABuepjqUmtJ",
+				}, -- [4]
+				{
+					"item", -- [1]
+					127847, -- [2]
+					["sliceToken"] = "ABuepjqUmtH",
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuepjqUmt0",
+					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
+				}, -- [6]
+				{
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
+				}, -- [7]
+				{
+					"item", -- [1]
+					127770, -- [2]
+					["sliceToken"] = "ABuepjv9NWy",
+				}, -- [8]
+				["save"] = true,
+				["name"] = "Consumables",
+			},
+			["Base"] = {
+				{
+					["sliceToken"] = "ABuep4Bpwxd",
+					["caption"] = "Travel",
+					["icon"] = 134414,
+					["id"] = "/click ORLOpen SpecMenu",
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuep4BpwxS",
+					["caption"] = "Trade Skills",
+					["icon"] = 134707,
+					["id"] = "/click ORLOpen CommonTrades",
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuep4Bpwxeb",
+					["caption"] = "Macros",
+					["icon"] = 1505928,
+					["id"] = "/click ORLOpen Macros",
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuepjqUmtV",
+					["caption"] = "Consumables",
+					["icon"] = 134055,
+					["id"] = "/click ORLOpen onsumables",
+				}, -- [4]
+				{
+					["sliceToken"] = "ABuepjqUmtwq",
+					["caption"] = "Class Abilities",
+					["icon"] = 132147,
+					["id"] = "/click ORLOpen tAbilities",
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuep5oDlq5",
+					["icon"] = 1385152,
+					["id"] = "/click ORLOpen Pots",
+				}, -- [6]
+				["name"] = "Base",
+				["save"] = true,
+				["hotkey"] = "SHIFT-G",
 			},
 			["Macros"] = {
 				{
@@ -357,121 +477,6 @@ OneRing_Config = {
 				}, -- [13]
 				["save"] = true,
 				["name"] = "Macros",
-			},
-			["onsumables"] = {
-				{
-					"item", -- [1]
-					140587, -- [2]
-					["sliceToken"] = "ABuepjqUmtZ",
-				}, -- [1]
-				{
-					"item", -- [1]
-					138292, -- [2]
-					["sliceToken"] = "ABuepjqUmtL",
-				}, -- [2]
-				{
-					"item", -- [1]
-					133572, -- [2]
-					["sliceToken"] = "ABuepjqUmtK",
-				}, -- [3]
-				{
-					"item", -- [1]
-					133570, -- [2]
-					["sliceToken"] = "ABuepjqUmtJ",
-				}, -- [4]
-				{
-					"item", -- [1]
-					127847, -- [2]
-					["sliceToken"] = "ABuepjqUmtH",
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuepjqUmt0",
-					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
-				}, -- [6]
-				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuepjv9NWu",
-				}, -- [7]
-				{
-					"item", -- [1]
-					127770, -- [2]
-					["sliceToken"] = "ABuepjv9NWy",
-				}, -- [8]
-				["save"] = true,
-				["name"] = "Consumables",
-			},
-			["Base"] = {
-				{
-					["sliceToken"] = "ABuep4Bpwxd",
-					["id"] = "/click ORLOpen SpecMenu",
-					["caption"] = "Travel",
-					["icon"] = 134414,
-				}, -- [1]
-				{
-					["sliceToken"] = "ABuep4BpwxS",
-					["id"] = "/click ORLOpen CommonTrades",
-					["caption"] = "Trade Skills",
-					["icon"] = 134707,
-				}, -- [2]
-				{
-					["sliceToken"] = "ABuep4Bpwxeb",
-					["id"] = "/click ORLOpen Macros",
-					["caption"] = "Macros",
-					["icon"] = 1505928,
-				}, -- [3]
-				{
-					["sliceToken"] = "ABuepjqUmtV",
-					["id"] = "/click ORLOpen onsumables",
-					["caption"] = "Consumables",
-					["icon"] = 134055,
-				}, -- [4]
-				{
-					["sliceToken"] = "ABuepjqUmtwq",
-					["id"] = "/click ORLOpen tAbilities",
-					["caption"] = "Class Abilities",
-					["icon"] = 132147,
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuep5oDlq5",
-					["icon"] = 1385152,
-					["id"] = "/click ORLOpen Pots",
-				}, -- [6]
-				["name"] = "Base",
-				["save"] = true,
-				["hotkey"] = "SHIFT-G",
-			},
-			["tAbilities"] = {
-				{
-					["id"] = 1706,
-					["sliceToken"] = "ABuep4BpwxR",
-				}, -- [1]
-				{
-					["id"] = 2006,
-					["sliceToken"] = "ABuep4Bpwx7",
-				}, -- [2]
-				{
-					["sliceToken"] = "ABuep4BpwxE",
-					["id"] = "/click ORLOpen Base",
-					["caption"] = "Base",
-					["icon"] = 1339449,
-					["fastClick"] = true,
-				}, -- [3]
-				{
-					["id"] = 232698,
-					["sliceToken"] = "ABuepjqUmtwp",
-				}, -- [4]
-				{
-					["id"] = 31687,
-					["sliceToken"] = "ABuep5Et2m1",
-				}, -- [5]
-				{
-					["id"] = 190336,
-					["sliceToken"] = "ABuep5Et2mr",
-				}, -- [6]
-				["save"] = true,
-				["name"] = "Abilities",
 			},
 		},
 	},

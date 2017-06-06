@@ -6,6 +6,13 @@ X: 300
 Y: 0
 W: 232
 H: 100
+Frame: ColorPickerFrame
+FrameLevel: 21
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240
 Frame: LootHistoryFrame
 FrameLevel: 1
 Anchor: BOTTOM
@@ -16,7 +23,7 @@ H: 175
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
-X: -191
+X: -197
 Y: 20
 W: 60
 H: 60
@@ -41,10 +48,3 @@ X: -300
 Y: 0
 W: 232
 H: 100
-Frame: ColorPickerFrame
-FrameLevel: 21
-Anchor: CENTER
-X: 0
-Y: 0
-W: 365
-H: 240
