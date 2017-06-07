@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -59,6 +53,32 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "22:10:34",
+			["date_end"] = "22:11:44",
+			["name"] = "Fel Lord Betrug",
+			["total_time"] = 70.0069999999996,
+		}, -- [1]
+		{
+			["date_start"] = "22:04:59",
+			["date_end"] = "22:06:14",
+			["name"] = "Mindflayer Kaahrj",
+			["total_time"] = 75.0079999999998,
+		}, -- [2]
+		{
+			["date_start"] = "21:58:54",
+			["date_end"] = "22:00:20",
+			["name"] = "Millificent Manastorm",
+			["total_time"] = 86.005000000001,
+		}, -- [3]
+		{
+			["date_end"] = "22:43:47",
+			["date_start"] = "22:42:19",
+			["name"] = "Wrath of Azshara",
+			["total_time"] = 88.0299999999988,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -244,7 +264,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -304,30 +323,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "22:10:34",
-			["date_end"] = "22:11:44",
-			["name"] = "Fel Lord Betrug",
-			["total_time"] = 70.0069999999996,
-		}, -- [1]
-		{
-			["date_start"] = "22:04:59",
-			["date_end"] = "22:06:14",
-			["name"] = "Mindflayer Kaahrj",
-			["total_time"] = 75.0079999999998,
-		}, -- [2]
-		{
-			["date_start"] = "21:58:54",
-			["date_end"] = "22:00:20",
-			["name"] = "Millificent Manastorm",
-			["total_time"] = 86.005000000001,
-		}, -- [3]
-		{
-			["date_end"] = "22:43:47",
-			["date_start"] = "22:42:19",
-			["name"] = "Wrath of Azshara",
-			["total_time"] = 88.0299999999988,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

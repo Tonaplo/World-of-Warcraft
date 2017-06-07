@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "23:14:18",
+			["date_start"] = "23:13:15",
+			["name"] = "Oakheart",
+			["total_time"] = 63.0050000000001,
+		}, -- [1]
+		{
+			["date_end"] = "23:10:05",
+			["date_start"] = "23:09:00",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 65.0009999999998,
+		}, -- [2]
+		{
+			["date_start"] = "09:05:22",
+			["date_end"] = "09:07:14",
+			["name"] = "Fel Lord Betrug",
+			["total_time"] = 112.003,
+		}, -- [3]
+		{
+			["date_start"] = "08:59:26",
+			["date_end"] = "09:00:56",
+			["name"] = "Mindflayer Kaahrj",
+			["total_time"] = 90.0010000000002,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -255,7 +275,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Praerend"] = {
@@ -473,30 +492,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:14:18",
-			["date_start"] = "23:13:15",
-			["name"] = "Oakheart",
-			["total_time"] = 63.0050000000001,
-		}, -- [1]
-		{
-			["date_end"] = "23:10:05",
-			["date_start"] = "23:09:00",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 65.0009999999998,
-		}, -- [2]
-		{
-			["date_start"] = "09:05:22",
-			["date_end"] = "09:07:14",
-			["name"] = "Fel Lord Betrug",
-			["total_time"] = 112.003,
-		}, -- [3]
-		{
-			["date_start"] = "08:59:26",
-			["date_end"] = "09:00:56",
-			["name"] = "Mindflayer Kaahrj",
-			["total_time"] = 90.0010000000002,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

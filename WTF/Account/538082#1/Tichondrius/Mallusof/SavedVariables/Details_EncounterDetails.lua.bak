@@ -6663,6 +6663,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
+		[221356] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Twilight Stardancer",
+		},
 		[82285] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -11264,6 +11272,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaedwyn",
 		},
+		[221354] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Twilight Stardancer",
+		},
 		[64173] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -11916,13 +11931,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaedwyn",
 		},
-		[62942] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ancient Rune Giant",
-		},
 		[84918] = {
 			["school"] = 16,
 			["type"] = "BUFF",
@@ -11931,6 +11939,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Elementium Monstrosity",
+		},
+		[62942] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ancient Rune Giant",
 		},
 		[227646] = {
 			["school"] = 1,
@@ -12575,13 +12590,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[194384] = {
-			["school"] = 2,
+		[125873] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fuzionz",
+			["source"] = "The Sra'thik",
 		},
 		[159386] = {
 			["school"] = 4,
@@ -12847,6 +12862,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
+		[223565] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Horrid Eagle",
+		},
 		[227660] = {
 			["school"] = 1,
 			["token"] = {
@@ -12854,13 +12876,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Guarm",
-		},
-		[223565] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Horrid Eagle",
 		},
 		[238315] = {
 			["school"] = 32,
@@ -13473,6 +13488,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "He Softfoot",
 		},
+		[230229] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Helya",
+		},
 		[62692] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -13480,13 +13502,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "General Vezax",
-		},
-		[230229] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Helya",
 		},
 		[20243] = {
 			["school"] = 1,
@@ -13611,13 +13626,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jackbowa",
 		},
-		[193376] = {
-			["school"] = 1,
+		[201566] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ularogg Cragshaper",
+			["source"] = "Seacursed Slaver",
 		},
 		[132463] = {
 			["school"] = 8,
@@ -14017,15 +14033,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Daoxu",
 		},
-		[194918] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sàmáritan-Stormreaver",
-		},
 		[227678] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -14033,6 +14040,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Ileiaris",
+		},
+		[207203] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kaedwyn",
 		},
 		[228190] = {
 			["school"] = 4,
@@ -14218,14 +14233,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cenarius",
 		},
-		[208230] = {
+		[16827] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tichondrius",
+			["source"] = "야수 정령",
 		},
 		[228193] = {
 			["school"] = 4,
@@ -14235,12 +14248,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Luminore",
 		},
-		[16827] = {
+		[208230] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "야수 정령",
+			["source"] = "Tichondrius",
 		},
 		[229217] = {
 			["school"] = 1,
@@ -14330,14 +14345,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Racialist",
 		},
-		[59752] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[210279] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kaedwyn",
+			["source"] = "Cenarius",
 		},
 		[74699] = {
 			["school"] = 32,
@@ -14469,14 +14484,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bustinanut",
 		},
-		[31224] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[83914] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Jackbowa",
+			["source"] = "Vicious Mindlasher",
 		},
 		[223590] = {
 			["school"] = 32,
@@ -14503,14 +14518,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Strangling Roots",
 		},
-		[83914] = {
-			["school"] = 32,
+		[31224] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vicious Mindlasher",
+			["source"] = "Jackbowa",
 		},
 		[185539] = {
 			["school"] = 1,
@@ -14573,19 +14588,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Serpentrix",
 		},
-		[184689] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Acekicker",
-		},
 		[205164] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Kaedwyn",
+		},
+		[184689] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Acekicker",
 		},
 		[143955] = {
 			["school"] = 1,
@@ -14631,12 +14646,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaedwyn",
 		},
-		[205165] = {
-			["school"] = 16,
+		[64616] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kaedwyn",
+			["source"] = "Unknown",
 		},
 		[208748] = {
 			["school"] = 1,
@@ -14645,12 +14660,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Abomination",
 		},
-		[64616] = {
-			["school"] = 1,
+		[205165] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Kaedwyn",
 		},
 		[213867] = {
 			["school"] = 4,
@@ -14869,19 +14884,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tirathon Saltheril",
 		},
-		[232810] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Guarm",
-		},
 		[212335] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Stenchknuckle",
+		},
+		[232810] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Guarm",
 		},
 		[214712] = {
 			["school"] = 32,
@@ -15248,12 +15263,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lunorah",
 		},
-		[62443] = {
-			["school"] = 2,
+		[116680] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dark Rune Acolyte",
+			["source"] = "Thegoodramen",
 		},
 		[5217] = {
 			["school"] = 1,
@@ -15274,14 +15291,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tirathon Saltheril",
 		},
-		[116680] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[212853] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Thegoodramen",
+			["source"] = "Elerethe Renferal",
 		},
 		[209270] = {
 			["school"] = 32,
@@ -15375,13 +15390,15 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[204153] = {
-			["school"] = 32,
+		[220533] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tirathon Saltheril",
+			["source"] = "Dread Felbat",
 		},
 		[199034] = {
 			["school"] = 2,
@@ -15399,15 +15416,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Lord Betrug",
 		},
-		[220533] = {
-			["school"] = 1,
+		[204153] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dread Felbat",
+			["source"] = "Tirathon Saltheril",
 		},
 		[192380] = {
 			["school"] = 8,
@@ -15735,14 +15750,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corrupted Vermin",
 		},
-		[208253] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[159113] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ellestria",
+			["source"] = "Kargath Bladefist",
 		},
 		[188290] = {
 			["school"] = 32,
@@ -15793,12 +15810,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glazer",
 		},
-		[195457] = {
+		[199552] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "ßotch",
+			["source"] = "Killido",
 		},
 		[228729] = {
 			["school"] = 2,
@@ -15867,12 +15884,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Echo of Baine",
 		},
-		[63341] = {
-			["school"] = 1,
+		[228730] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mimiron",
+			["source"] = "Unknown",
 		},
 		[102352] = {
 			["school"] = 8,
@@ -16293,13 +16312,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spellblade Aluriel",
 		},
-		[238462] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[217987] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Thrashbite the Scornful",
+			["source"] = "Lurking Terror",
 		},
 		[227255] = {
 			["school"] = 32,
@@ -16472,22 +16490,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guarm",
 		},
-		[64623] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "VX-001",
-		},
-		[188301] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Plootoe",
-		},
 		[209288] = {
 			["school"] = 32,
 			["type"] = "BUFF",
@@ -16497,6 +16499,22 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Inconceivable Horror",
+		},
+		[188301] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Plootoe",
+		},
+		[64623] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "VX-001",
 		},
 		[217990] = {
 			["school"] = 1,
@@ -16522,12 +16540,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[199051] = {
-			["school"] = 1,
+		[194956] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Oakheart",
+			["source"] = "Amalgam of Souls",
 		},
 		[228228] = {
 			["school"] = 4,
@@ -16676,14 +16698,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elisande",
 		},
-		[205196] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dreadstalker",
-		},
 		[209291] = {
 			["school"] = 32,
 			["token"] = {
@@ -16691,6 +16705,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Eye of Gul'dan",
+		},
+		[205196] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dreadstalker",
 		},
 		[205708] = {
 			["school"] = 16,
@@ -16707,12 +16729,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaemn",
 		},
-		[98008] = {
-			["school"] = 8,
+		[224649] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Comfert",
+			["source"] = "Corruption Horror",
 		},
 		[199054] = {
 			["school"] = 8,
@@ -16753,12 +16775,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Air Current",
 		},
-		[196496] = {
-			["school"] = 1,
+		[229256] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Fenryr",
+			["source"] = "Odyn",
 		},
 		[206221] = {
 			["school"] = 4,
@@ -16776,13 +16799,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Facialist",
 		},
-		[194960] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[227720] = {
+			["school"] = 48,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Guarm",
 		},
 		[85467] = {
 			["school"] = 8,
@@ -16803,13 +16826,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guarm",
 		},
-		[229256] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[196496] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Odyn",
+			["source"] = "Fenryr",
 		},
 		[207288] = {
 			["school"] = 1,
@@ -16867,12 +16889,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Naz'jar Honor Guard",
 		},
-		[143262] = {
+		[196497] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "He Softfoot",
+			["source"] = "Fenryr",
 		},
 		[209294] = {
 			["school"] = 32,
@@ -16908,12 +16932,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Smashspite the Hateful",
 		},
-		[93402] = {
-			["school"] = 8,
+		[101592] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Delvios",
+			["source"] = "Murozond",
 		},
 		[157695] = {
 			["school"] = 127,
@@ -17095,18 +17119,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightborne Spellsword",
 		},
-		[219023] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-		},
 		[186263] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Narbog",
+		},
+		[219023] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
 		},
 		[74976] = {
 			["school"] = 1,
@@ -17278,13 +17302,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Comfert",
 		},
-		[198551] = {
-			["school"] = 32,
+		[231311] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Harbaron",
+			["source"] = "Odyn",
 		},
 		[132007] = {
 			["school"] = 1,
@@ -17294,6 +17318,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sha of Fear",
 		},
+		[215443] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Elerethe Renferal",
+		},
+		[101339] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Echo of Jaina",
+		},
 		[199063] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -17302,21 +17341,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Strangling Roots",
-		},
-		[223121] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Il'gynoth",
-		},
-		[215443] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Elerethe Renferal",
 		},
 		[236430] = {
 			["school"] = 1,
@@ -17492,14 +17516,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "PlayerYJKYLC",
 		},
-		[186269] = {
-			["school"] = 8,
+		[206744] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Blightshard Shaper",
+			["source"] = "Gul'dan",
 		},
 		[145152] = {
 			["school"] = 1,
@@ -17674,13 +17697,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Headrush",
 		},
-		[1449] = {
-			["school"] = 64,
+		[201628] = {
+			["school"] = 127,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kalethia",
+			["source"] = "Kaemn",
 		},
 		[202270] = {
 			["school"] = 2,
@@ -17734,19 +17756,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elbalthazar",
 		},
-		[193439] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Sawssier",
-		},
 		[238484] = {
 			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+		},
+		[193439] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sawssier",
 		},
 		[206388] = {
 			["school"] = 4,
@@ -17767,13 +17789,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glazer",
 		},
-		[74981] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[227735] = {
+			["school"] = 20,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Forgemaster Throngus",
+			["source"] = "Guarm",
 		},
 		[228247] = {
 			["school"] = 16,
@@ -17830,13 +17852,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Trilliax",
 		},
-		[227736] = {
-			["school"] = 1,
+		[207261] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Moroes",
+			["source"] = "Patrol Captain Gerdo",
 		},
 		[228248] = {
 			["school"] = 16,
@@ -17989,13 +18011,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sombrador",
 		},
-		[59638] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mirror Image",
-		},
 		[193443] = {
 			["school"] = 1,
 			["token"] = {
@@ -18003,6 +18018,15 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Glazer",
+		},
+		[201633] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Earthen Shield Totem",
 		},
 		[213534] = {
 			["school"] = 32,
@@ -18055,12 +18079,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pidin",
 		},
-		[205729] = {
-			["school"] = 2,
+		[238489] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Delvios",
+			["source"] = "Imp",
 		},
 		[192519] = {
 			["school"] = 4,
@@ -18092,6 +18117,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaemn",
 		},
+		[192432] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Slicedlol",
+		},
+		[202659] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Blood-Princess Thal'ena",
+		},
 		[229287] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -18101,22 +18142,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Command Ship",
 		},
-		[198564] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Ularogg Cragshaper",
-		},
-		[143292] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "He Softfoot",
-		},
 		[188838] = {
 			["school"] = 4,
 			["token"] = {
@@ -18125,13 +18150,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kaemnsux",
 		},
-		[223647] = {
+		[207267] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Haunting Nightmare",
+			["source"] = "Dotkeykong",
 		},
 		[210337] = {
 			["school"] = 32,
@@ -18139,13 +18163,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[202659] = {
+		[198564] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Blood-Princess Thal'ena",
+			["source"] = "Ularogg Cragshaper",
 		},
 		[74984] = {
 			["school"] = 1,
@@ -18163,13 +18187,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guarm",
 		},
-		[212385] = {
+		[62326] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crunchbelcher",
+			["source"] = "Dark Rune Commoner",
 		},
 		[208802] = {
 			["school"] = 32,
@@ -18211,12 +18234,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ularogg Cragshaper",
 		},
-		[207267] = {
-			["school"] = 32,
+		[227742] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dotkeykong",
+			["source"] = "Moroes",
 		},
 		[206792] = {
 			["school"] = 8,
@@ -18247,14 +18273,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hunternogi-Proudmoore",
 		},
-		[215458] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[70890] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Spellblade Aluriel",
+			["source"] = "Kaedwyn",
 		},
 		[31935] = {
 			["school"] = 2,
@@ -18273,12 +18297,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fel Scorcher",
 		},
-		[70890] = {
-			["school"] = 32,
+		[215458] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Kaedwyn",
+			["source"] = "Spellblade Aluriel",
 		},
 		[203685] = {
 			["school"] = 1,
@@ -18374,15 +18400,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jackbowa",
 		},
-		[243613] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Fulminating Lasher",
-		},
 		[202663] = {
 			["school"] = 4,
 			["token"] = {
@@ -18390,13 +18407,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Fel Scorcher",
-		},
-		[119519] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sha of Fear",
 		},
 		[223138] = {
 			["school"] = 1,
@@ -18406,11 +18416,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Facialist",
 		},
-		[74986] = {
-			["school"] = 1,
+		[119519] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sha of Fear",
+		},
+		[227233] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Helya",
+		},
+		[223650] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Haunting Nightmare",
 		},
 		[196811] = {
 			["school"] = 2,
@@ -18459,12 +18487,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cenarius",
 		},
-		[227234] = {
-			["school"] = 32,
+		[210854] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Helya",
+			["source"] = "Pidin",
 		},
 		[203176] = {
 			["school"] = 64,
@@ -18503,12 +18531,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kor'thik Elite Blademaster",
 		},
-		[217511] = {
-			["school"] = 1,
+		[221606] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Snowehh",
+			["source"] = "Gul'dan",
 		},
 		[197546] = {
 			["school"] = 1,
@@ -18529,13 +18558,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[221606] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[217511] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Snowehh",
 		},
 		[74987] = {
 			["school"] = 1,
@@ -18544,13 +18572,22 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[229283] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[75755] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Command Ship",
+			["source"] = "Faceless Corruptor",
+		},
+		[208808] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Elisande",
 		},
 		[176048] = {
 			["school"] = 1,
@@ -18560,14 +18597,6 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Hatecoil Warrior",
-		},
-		[208808] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Elisande",
 		},
 		[221605] = {
 			["school"] = 4,
@@ -18619,14 +18648,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sonic Ring",
 		},
-		[75755] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[229283] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Faceless Corruptor",
+			["source"] = "Command Ship",
 		},
 		[208809] = {
 			["school"] = 64,
@@ -18668,12 +18696,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Huej",
 		},
-		[210854] = {
-			["school"] = 16,
+		[227234] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Pidin",
+			["source"] = "Helya",
 		},
 		[228261] = {
 			["school"] = 4,
@@ -18698,22 +18726,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Command Ship",
 		},
-		[223650] = {
-			["school"] = 32,
+		[74986] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Haunting Nightmare",
 		},
-		[227233] = {
-			["school"] = 32,
+		[243613] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Helya",
+			["source"] = "Fulminating Lasher",
 		},
 		[210346] = {
 			["school"] = 32,
@@ -18811,30 +18837,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Drahga Shadowburner",
 		},
-		[227742] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[223647] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Moroes",
+			["source"] = "Haunting Nightmare",
 		},
-		[192432] = {
+		[143292] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Slicedlol",
+			["source"] = "He Softfoot",
 		},
-		[62326] = {
+		[212385] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Dark Rune Commoner",
+			["source"] = "Crunchbelcher",
 		},
 		[205741] = {
 			["school"] = 32,
@@ -18858,13 +18883,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dreadwing",
 		},
-		[238489] = {
-			["school"] = 4,
+		[205729] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Imp",
+			["source"] = "Delvios",
 		},
 		[194327] = {
 			["school"] = 32,
@@ -18905,14 +18929,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gethrean",
 		},
-		[201633] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[59638] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Earthen Shield Totem",
+			["source"] = "Mirror Image",
 		},
 		[204777] = {
 			["school"] = 40,
@@ -19002,13 +19024,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dantalionax",
 		},
-		[207261] = {
-			["school"] = 64,
+		[227736] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Patrol Captain Gerdo",
+			["source"] = "Moroes",
 		},
 		[143295] = {
 			["school"] = 32,
@@ -19026,13 +19048,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shal'dorei Archmage",
 		},
-		[227735] = {
-			["school"] = 20,
+		[74981] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Guarm",
+			["source"] = "Forgemaster Throngus",
 		},
 		[123790] = {
 			["school"] = 1,
@@ -19073,12 +19095,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[201628] = {
-			["school"] = 127,
+		[1449] = {
+			["school"] = 64,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kaemn",
+			["source"] = "Kalethia",
 		},
 		[206557] = {
 			["school"] = 1,
@@ -19182,13 +19205,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thegoodramen",
 		},
-		[206744] = {
-			["school"] = 32,
+		[186269] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Blightshard Shaper",
 		},
 		[228269] = {
 			["school"] = 4,
@@ -19296,13 +19320,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fenryr",
 		},
-		[231311] = {
-			["school"] = 2,
+		[198551] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Odyn",
+			["source"] = "Harbaron",
 		},
 		[231342] = {
 			["school"] = 2,
@@ -19312,12 +19336,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[101339] = {
-			["school"] = 1,
+		[223121] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Echo of Jaina",
+			["source"] = "Il'gynoth",
 		},
 		[205345] = {
 			["school"] = 4,
@@ -19541,12 +19565,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jackbowa",
 		},
-		[101592] = {
-			["school"] = 64,
+		[93402] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Murozond",
+			["source"] = "Delvios",
 		},
 		[201657] = {
 			["school"] = 8,
@@ -19555,14 +19579,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gethrean",
 		},
-		[196497] = {
+		[143262] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fenryr",
+			["source"] = "He Softfoot",
 		},
 		[87024] = {
 			["school"] = 4,
@@ -19578,12 +19600,12 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[224649] = {
-			["school"] = 32,
+		[98008] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Corruption Horror",
+			["source"] = "Comfert",
 		},
 		[228787] = {
 			["school"] = 1,
@@ -19610,13 +19632,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blakeyboy",
 		},
-		[227720] = {
-			["school"] = 48,
+		[194960] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guarm",
 		},
 		[84721] = {
 			["school"] = 16,
@@ -19711,16 +19733,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Glazer",
 		},
-		[194956] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[199051] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Amalgam of Souls",
+			["source"] = "Oakheart",
 		},
 		[198963] = {
 			["school"] = 8,
@@ -19834,12 +19852,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[217987] = {
-			["school"] = 32,
+		[238462] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lurking Terror",
+			["source"] = "Thrashbite the Scornful",
 		},
 		[201476] = {
 			["school"] = 8,
@@ -20061,14 +20080,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tormenting Orb",
 		},
-		[228730] = {
-			["school"] = 8,
+		[63341] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Mimiron",
 		},
 		[115181] = {
 			["school"] = 4,
@@ -20136,23 +20153,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Altairus",
 		},
-		[199552] = {
+		[195457] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Killido",
+			["source"] = "ßotch",
 		},
-		[159113] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[208253] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Kargath Bladefist",
+			["source"] = "Ellestria",
 		},
 		[231355] = {
 			["school"] = 2,
@@ -20345,12 +20360,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blightshard Shaper",
 		},
-		[212853] = {
-			["school"] = 32,
+		[62443] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Elerethe Renferal",
+			["source"] = "Dark Rune Acolyte",
 		},
 		[206788] = {
 			["school"] = 1,
@@ -20897,14 +20912,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Monkjing",
 		},
-		[210279] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[59752] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Cenarius",
+			["source"] = "Kaedwyn",
 		},
 		[200654] = {
 			["school"] = 2,
@@ -21057,13 +21072,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightmare Ichor",
 		},
-		[207203] = {
-			["school"] = 16,
+		[194918] = {
+			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kaedwyn",
+			["source"] = "Sàmáritan-Stormreaver",
 		},
 		[153564] = {
 			["school"] = 4,
@@ -21299,14 +21315,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "He Softfoot",
 		},
-		[201566] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[193376] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Seacursed Slaver",
+			["source"] = "Ularogg Cragshaper",
 		},
 		[143579] = {
 			["school"] = 32,
@@ -21836,13 +21851,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amalgam of Souls",
 		},
-		[125873] = {
-			["school"] = 1,
+		[194384] = {
+			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "The Sra'thik",
+			["source"] = "Fuzionz",
 		},
 		[198109] = {
 			["school"] = 1,
@@ -22540,864 +22555,1086 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				1.17199999999866, -- [1]
-				"Too late! I am unstoppable!", -- [2]
+				0.1, -- [1]
+				"You will not stop the ritual!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				3.51499999999942, -- [1]
-				"Pay for your crimes!", -- [2]
-				"Coaxed", -- [3]
-				7, -- [4]
+				2.03700000000026, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [2]
 			{
-				5.40499999999884, -- [1]
-				"Pay for your crimes!", -- [2]
-				"Kaligon", -- [3]
+				6.93199999999888, -- [1]
+				"Strike for Sargeras!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [3]
 			{
-				6.28700000000026, -- [1]
-				"My will is unbreakable!", -- [2]
+				11.0550000000003, -- [1]
+				"Burn from within!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [4]
 			{
-				7.28499999999986, -- [1]
-				"Taste my axe!", -- [2]
-				"Kalithumos", -- [3]
-				7, -- [4]
+				16.9779999999992, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [5]
 			{
-				8.41399999999885, -- [1]
+				16.9779999999992, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				21.0460000000003, -- [1]
+				"Rid me of these pests!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				30.0759999999991, -- [1]
+				"|TInterface\\Icons\\inv_axe_2h_felfireraid_d_01:20|t %s readies |cFFFF0000|Hspell:206675|h[Shatter Essence]|h|r.", -- [2]
+				"Fel Lord Kuraz'mal", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				31.0460000000003, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				35.0560000000005, -- [1]
+				"The vessel must be made ready!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				40.9869999999992, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				40.9869999999992, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				44.6520000000001, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				66.1309999999994, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				66.1309999999994, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				70.1800000000003, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				75.616, -- [1]
+				"You failed, heroes! The ritual is upon us! But first, I'll indulge myself a bit... and finish you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				95.6810000000005, -- [1]
+				"A taste of the master's might!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				103.483, -- [1]
 				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t You are afflicted with |cFFFF0000|Hspell:206222|h[Bonds of Fel]|h|r!", -- [2]
 				"Gul'dan", -- [3]
 				2, -- [4]
-			}, -- [6]
+			}, -- [19]
 			{
-				9.43000000000029, -- [1]
-				"I am a storm of pain!", -- [2]
-				"Acekicker", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				11.8050000000003, -- [1]
-				"Pay for your crimes!", -- [2]
-				"Zaelsynth", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				16.2379999999994, -- [1]
+				107.941999999999, -- [1]
 				"Strike for Sargeras!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
-			}, -- [9]
-			{
-				20.607, -- [1]
-				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [10]
-			{
-				20.607, -- [1]
-				"You'll never escape my grasp!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				26.3259999999991, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				36.277, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [13]
-			{
-				36.277, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				46.3079999999991, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				69.3209999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				69.3209999999999, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				74.2899999999991, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				86.2789999999986, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				96.616, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
 			}, -- [20]
 			{
-				96.616, -- [1]
-				"Drink in the glory!", -- [2]
+				112.723, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Azagrim for aid|h|r.", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [21]
 			{
-				102.278999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				113.898999999999, -- [1]
+				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
 			}, -- [22]
 			{
-				102.278999999999, -- [1]
-				"I'll make ashes of you!", -- [2]
+				113.898999999999, -- [1]
+				"You'll never escape my grasp!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [23]
 			{
-				122.117, -- [1]
+				123.486999999999, -- [1]
 				"Behold... power given form!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [24]
 			{
-				126.284, -- [1]
+				134.579, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
+			}, -- [25]
+			{
+				134.579, -- [1]
+				"I'll make ashes of you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				145.685, -- [1]
 				"My will is unbreakable!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
-			}, -- [25]
-			{
-				126.805999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [26]
-			{
-				135.314, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
 			}, -- [27]
 			{
-				135.314, -- [1]
-				"I'll make ashes of you!", -- [2]
+				156.609999999999, -- [1]
+				"Rid me of these pests!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [28]
 			{
-				150.405999999999, -- [1]
-				"One by one you fall!", -- [2]
+				161.459999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Beltheris for aid|h|r.", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [29]
 			{
-				166.304, -- [1]
-				"My will is unbreakable!", -- [2]
+				171.262999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [30]
 			{
-				170.100999999999, -- [1]
-				"Behold... power given form!", -- [2]
+				171.262999999999, -- [1]
+				"I'll make ashes of you!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [31]
 			{
-				174.846, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
+				176.81, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
 			}, -- [32]
 			{
-				178.760999999999, -- [1]
-				"No more distractions! I have work to do...", -- [2]
+				190.137999999999, -- [1]
+				"My will is unbreakable!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [33]
 			{
-				191.130999999999, -- [1]
-				"I am a storm of pain!", -- [2]
-				"Coaxed", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				193.332, -- [1]
-				"Surrender! I may yet show mercy!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [35]
-			{
-				208.677, -- [1]
-				"Fight for Azeroth! For all you hold dear!", -- [2]
-				"Archmage Khadgar", -- [3]
-				7, -- [4]
-			}, -- [36]
-			{
-				211.242, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [37]
-			{
-				214.411, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				218.780999999999, -- [1]
-				"One by one you fall!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [39]
-			["boss"] = "Gul'dan",
-		}, -- [1]
-		{
-			{
-				0.913000000000466, -- [1]
-				"Too late! I am unstoppable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				5.91200000000026, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				15.9380000000001, -- [1]
-				"Strike for Sargeras!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				20.1970000000001, -- [1]
-				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				20.1970000000001, -- [1]
-				"You'll never escape my grasp!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				25.7780000000002, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				35.9369999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [7]
-			{
-				35.9369999999999, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				45.8809999999994, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				68.9169999999995, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [10]
-			{
-				68.9169999999995, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				73.9279999999999, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				78.3289999999997, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [13]
-			{
-				85.9239999999991, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				88.1010000000006, -- [1]
+				192.34, -- [1]
 				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t You are afflicted with |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r!", -- [2]
 				"Gul'dan", -- [3]
 				2, -- [4]
-			}, -- [15]
+			}, -- [34]
 			{
-				88.3209999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [16]
-			{
-				96.348, -- [1]
+				192.82, -- [1]
 				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
 				"Gul'dan", -- [3]
 				1, -- [4]
-			}, -- [17]
-			{
-				96.348, -- [1]
-				"Drink in the glory!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				101.959999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				101.959999999999, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				121.907999999999, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				125.911, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				126.450999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [23]
-			{
-				134.758, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [24]
-			{
-				134.758, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [25]
-			{
-				164.503999999999, -- [1]
-				"No more distractions! I have work to do...", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				179.125, -- [1]
-				"Surrender! I may yet show mercy!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				189.659, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				194.975, -- [1]
-				"Fight for Azeroth! For all you hold dear!", -- [2]
-				"Archmage Khadgar", -- [3]
-				7, -- [4]
-			}, -- [29]
-			{
-				200.169, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [30]
-			{
-				205.718999999999, -- [1]
-				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Empowered Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [31]
-			{
-				221.23, -- [1]
-				"Why won't you die? Why do you keep resisting?", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [32]
-			{
-				228.989, -- [1]
-				"This is our world, not the Legion's!", -- [2]
-				"Archmage Khadgar", -- [3]
-				7, -- [4]
-			}, -- [33]
-			{
-				232.754999999999, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				238.101999999999, -- [1]
-				"Let the storm rain death upon you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
 			}, -- [35]
 			{
-				252.843999999999, -- [1]
-				"Behold... power given form!", -- [2]
+				193.021999999999, -- [1]
+				"Drink in the glory!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [36]
 			{
-				257.975, -- [1]
-				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Empowered Eye of Gul'dan", -- [3]
-				2, -- [4]
+				207.913999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
+				"Gul'dan", -- [3]
+				1, -- [4]
 			}, -- [37]
 			{
-				276.009, -- [1]
-				"Burn from within!", -- [2]
+				207.913999999999, -- [1]
+				"I'll make ashes of you!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [38]
 			{
-				277.714, -- [1]
-				"We can stop him! I know it!", -- [2]
-				"Archmage Khadgar", -- [3]
+				230.177, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [39]
 			{
-				282.341, -- [1]
-				"Why won't you die? Why do you keep resisting?", -- [2]
+				234.573, -- [1]
+				"My will is unbreakable!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [40]
 			{
-				296.018, -- [1]
-				"Let the storm rain death upon you!", -- [2]
+				244.565000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [41]
 			{
-				306.159, -- [1]
-				"Behold... power given form!", -- [2]
+				244.565000000001, -- [1]
+				"I'll make ashes of you!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [42]
 			{
-				308.812, -- [1]
-				"One by one you fall!", -- [2]
+				254.83, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb1:20|t %s gains |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r.", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [43]
 			{
-				319.158, -- [1]
-				"Burn from within!", -- [2]
+				254.83, -- [1]
+				"I will not fail you, master! More power... just need more power...", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [44]
 			{
-				326.552, -- [1]
-				"Behold... power given form!", -- [2]
+				279.016, -- [1]
+				"My will is unbreakable!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [45]
 			{
-				336.503000000001, -- [1]
-				"You should have bent the knee!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [46]
-			{
-				344.114, -- [1]
-				"One by one you fall!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [47]
-			{
-				347.601999999999, -- [1]
-				"Let the storm rain death upon you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [48]
-			{
-				357.572, -- [1]
-				"Why won't you die? Why do you keep resisting?", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [49]
-			["boss"] = "Gul'dan",
-		}, -- [2]
-		{
-			{
-				1.15200000000004, -- [1]
-				"Too late! I am unstoppable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				6.28199999999924, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				8.378999999999, -- [1]
-				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_green:20|t You are afflicted with |cFFFF0000|Hspell:206222|h[Bonds of Fel]|h|r!", -- [2]
-				"Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [3]
-			{
-				16.277, -- [1]
-				"Strike for Sargeras!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				20.6299999999992, -- [1]
-				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t %s gains |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				20.6299999999992, -- [1]
-				"You'll never escape my grasp!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				26.2710000000006, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				30.6479999999992, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [8]
-			{
-				36.3150000000005, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [9]
-			{
-				36.3150000000005, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				46.2099999999991, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				69.2999999999993, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelPyroblast:20|t %s begins to cast |cFFFF0000|Hspell:206219|h[Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				69.2999999999993, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				74.1990000000005, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				86.2790000000005, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				96.7009999999991, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s gains |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				96.7009999999991, -- [1]
-				"Drink in the glory!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				102.248, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [18]
-			{
-				102.248, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				122.317999999999, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				126.300999999999, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				126.822, -- [1]
-				"|TInterface\\Icons\\Spell_Shadow_SoulGem:20|t An |cFFFF0000|Hspell:209489|h[Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [22]
-			{
-				135.296, -- [1]
-				"|TInterface\\Icons\\Spell_Fire_FelFlameStrike:20|t %s begins to cast |cFFFF0000|Hspell:206220|h[Empowered Liquid Hellfire]|h|r.", -- [2]
-				"Gul'dan", -- [3]
-				1, -- [4]
-			}, -- [23]
-			{
-				135.296, -- [1]
-				"I'll make ashes of you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				166.245999999999, -- [1]
-				"My will is unbreakable!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [25]
-			{
-				168.652, -- [1]
-				"|TInterface\\Icons\\ability_felarakkoa_feldetonation_red:20|t You are afflicted with |cFFFF0000|Hspell:206221|h[Empowered Bonds of Fel]|h|r!", -- [2]
-				"Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [26]
-			{
-				170.057999999999, -- [1]
-				"No more distractions! I have work to do...", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				183.696, -- [1]
-				"Surrender! I may yet show mercy!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				199.543, -- [1]
-				"Fight for Azeroth! For all you hold dear!", -- [2]
-				"Archmage Khadgar", -- [3]
-				7, -- [4]
-			}, -- [29]
-			{
-				201.710999999999, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [30]
-			{
-				204.889999999999, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [31]
-			{
-				210.4, -- [1]
-				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Empowered Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [32]
-			{
-				225.936, -- [1]
-				"Why won't you die? Why do you keep resisting?", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [33]
-			{
-				233.641, -- [1]
-				"This is our world, not the Legion's!", -- [2]
-				"Archmage Khadgar", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				237.518, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [35]
-			{
-				242.703, -- [1]
-				"Let the storm rain death upon you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [36]
-			{
-				252.294, -- [1]
-				"You should have bent the knee!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [37]
-			{
-				257.5, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				262.717999999999, -- [1]
-				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
-				"Empowered Eye of Gul'dan", -- [3]
-				2, -- [4]
-			}, -- [39]
-			{
-				280.687, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [40]
-			{
-				283.610999999999, -- [1]
-				"We can stop him! I know it!", -- [2]
-				"Archmage Khadgar", -- [3]
-				7, -- [4]
-			}, -- [41]
-			{
-				286.975, -- [1]
-				"Why won't you die? Why do you keep resisting?", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [42]
-			{
-				300.654, -- [1]
-				"Let the storm rain death upon you!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [43]
-			{
-				310.82, -- [1]
-				"Behold... power given form!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [44]
-			{
-				323.780000000001, -- [1]
-				"Burn from within!", -- [2]
-				"Gul'dan", -- [3]
-				7, -- [4]
-			}, -- [45]
-			{
-				331.186, -- [1]
+				283.475, -- [1]
 				"Behold... power given form!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [46]
 			{
-				345.017, -- [1]
+				286.182999999999, -- [1]
 				"You should have bent the knee!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [47]
 			{
-				346.81, -- [1]
-				"Keep pressing, champions! Gul'dan wavers! He WILL fall!", -- [2]
-				"Archmage Khadgar", -- [3]
+				295.709999999999, -- [1]
+				"Kill them in my master's name!", -- [2]
+				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [48]
 			{
-				352.315000000001, -- [1]
-				"Let the storm rain death upon you!", -- [2]
+				300.464, -- [1]
+				"|TInterface\\Icons\\Spell_Shadow_MindRot:20|t %s summons Dalvengyr for aid|h|r.", -- [2]
 				"Gul'dan", -- [3]
-				7, -- [4]
+				1, -- [4]
 			}, -- [49]
 			{
-				356.418, -- [1]
-				"One by one you fall!", -- [2]
+				314.367, -- [1]
+				"No more distractions! I have work to do...", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [50]
 			{
-				362.489, -- [1]
-				"Why won't you die? Why do you keep resisting?", -- [2]
+				328.811, -- [1]
+				"Surrender! I may yet show mercy!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [51]
 			{
-				370.293, -- [1]
-				"You should have bent the knee!", -- [2]
-				"Gul'dan", -- [3]
+				336.199999999999, -- [1]
+				"Time to return the demon hunter's soul to his body... and deny the Legion's master a host!", -- [2]
+				"Archmage Khadgar", -- [3]
 				7, -- [4]
 			}, -- [52]
 			{
-				375.440000000001, -- [1]
+				341.422000000001, -- [1]
 				"Burn from within!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [53]
 			{
-				377.759, -- [1]
-				"One by one you fall!", -- [2]
+				353.922000000001, -- [1]
+				"Behold... power given form!", -- [2]
 				"Gul'dan", -- [3]
 				7, -- [4]
 			}, -- [54]
+			{
+				359.053, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [55]
+			{
+				371.25, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [56]
+			{
+				373.866, -- [1]
+				"This is our world, not the Legion's!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [57]
+			{
+				378.911, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [58]
+			{
+				392.704, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [59]
+			{
+				398.947, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [60]
+			{
+				416.298999999999, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [61]
+			{
+				421.024999999998, -- [1]
+				"|TInterface\\Icons\\inv_misc_trinket6oih_orb4:20|t An |cFFFF0000|Hspell:211152|h[Empowered Eye of Gul'dan]|h|r focuses on you!", -- [2]
+				"Empowered Eye of Gul'dan", -- [3]
+				2, -- [4]
+			}, -- [62]
+			{
+				426.151999999998, -- [1]
+				"We can stop him! I know it!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [63]
+			{
+				443.899000000001, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [64]
+			{
+				451.453999999998, -- [1]
+				"Why won't you die? Why do you keep resisting?", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [65]
+			{
+				459.006000000001, -- [1]
+				"Keep pressing, champions! Gul'dan wavers! He WILL fall!", -- [2]
+				"Archmage Khadgar", -- [3]
+				7, -- [4]
+			}, -- [66]
+			{
+				467.678, -- [1]
+				"Let the storm rain death upon you!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [67]
+			{
+				478.776999999998, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [68]
+			{
+				495.214, -- [1]
+				"Burn from within!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [69]
+			{
+				503.934000000001, -- [1]
+				"Behold... power given form!", -- [2]
+				"Gul'dan", -- [3]
+				7, -- [4]
+			}, -- [70]
 			["boss"] = "Gul'dan",
+		}, -- [1]
+		{
+			{
+				20.2240000000002, -- [1]
+				"I control the battlefield, not you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				31.2330000000002, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				33.1999999999989, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				56.0239999999994, -- [1]
+				"I control the battlefield, not you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				71.2189999999992, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				74.089, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				81.2389999999996, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				84.1869999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				113.205, -- [1]
+				"I control the battlefield, not you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				140.898999999999, -- [1]
+				"You exist in but a single moment. I am far less limited!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				167.483, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				167.902, -- [1]
+				"|TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				185.415999999999, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				187.442999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				208.457, -- [1]
+				"The threads of time answer to me!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				212.456, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t%s targets her enemies with |cFFFF0000|Hspell:214278|h[Delphuric Beams]|h|r !", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				226.446, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				228.486999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [18]
+			{
+				236.412, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				238.455, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [20]
+			{
+				243.462, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				243.887999999999, -- [1]
+				"|TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				265.338, -- [1]
+				"The threads of time answer to me!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				269.467999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t%s targets her enemies with |cFFFF0000|Hspell:214278|h[Delphuric Beams]|h|r !", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				280.441999999999, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				280.946, -- [1]
+				"|TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				301.849999999999, -- [1]
+				"Time shifts again, and your doom draws near!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				328.987999999999, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				332.985999999999, -- [1]
+				"The time streams are mine to command! You cannot win!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				346.014999999999, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				347.995999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				357.843999999999, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				358.123, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				386.998, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				388.975999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				393.985999999999, -- [1]
+				"The time streams are mine to command! You cannot win!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				396.851999999999, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				398.981, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [38]
+			{
+				403.514999999999, -- [1]
+				"Time is... slipping away! How can it be so?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				404.992, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				409.99, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [41]
+			{
+				430.998, -- [1]
+				"The time streams are mine to command! You cannot win!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				441.949999999999, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [43]
+			{
+				466.010999999999, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				466.010999999999, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [45]
+			{
+				478.940999999999, -- [1]
+				"It's... not possible! I... I was destined to win...", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [46]
+			["boss"] = "Grand Magistrix Elisande",
+		}, -- [2]
+		{
+			{
+				20.2200000000012, -- [1]
+				"I control the battlefield, not you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				31.1840000000011, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				33.2129999999997, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				56.1980000000003, -- [1]
+				"I control the battlefield, not you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				71.2049999999999, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				73.9950000000008, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [6]
+			{
+				81.1000000000004, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				84.1810000000005, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				113.1, -- [1]
+				"I control the battlefield, not you!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				133.445, -- [1]
+				"You exist in but a single moment. I am far less limited!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				160.339, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				160.82, -- [1]
+				"|TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				178.391, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				180.372000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				191.315000000001, -- [1]
+				"You were destined to die.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				201.372000000001, -- [1]
+				"The threads of time answer to me!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				205.403, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t%s targets her enemies with |cFFFF0000|Hspell:214278|h[Delphuric Beams]|h|r !", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [17]
+			{
+				219.388000000001, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				221.318000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				229.359, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				231.347, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [21]
+			{
+				236.372000000001, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				236.804, -- [1]
+				"|TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [23]
+			{
+				255.769, -- [1]
+				"An inevitable outcome.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				258.322, -- [1]
+				"The threads of time answer to me!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				262.382, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t%s targets her enemies with |cFFFF0000|Hspell:214278|h[Delphuric Beams]|h|r !", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				273.413, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				273.838, -- [1]
+				"|TInterface\\Icons\\SPELL_ARCANE_INVOCATION:20|t |cFFFF0000|Hspell:210022|h[Epocheric Orbs]|h|r fall from the sky!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				290.870000000001, -- [1]
+				"An inevitable outcome.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				318.374, -- [1]
+				"The threads of time answer to me!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				322.394, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t%s targets her enemies with |cFFFF0000|Hspell:214278|h[Delphuric Beams]|h|r !", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				344.702000000001, -- [1]
+				"Time shifts again, and your doom draws near!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				370.707, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				375.824000000001, -- [1]
+				"The time streams are mine to command! You cannot win!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				388.828000000001, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				390.73, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [36]
+			{
+				400.792000000001, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				400.792000000001, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [38]
+			{
+				429.818000000001, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				431.802, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				436.806000000001, -- [1]
+				"The time streams are mine to command! You cannot win!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				439.777, -- [1]
+				"Let the waves of time crash over you!", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				441.812, -- [1]
+				"|TInterface\\Icons\\Spell_Mage_ArcaneOrb.blp:20|t |cFFFF0000|Hspell:228877|h[Arcanetic Rings]|h|r Collapse in from the edge of the room!", -- [2]
+				"Echo of Elisande", -- [3]
+				1, -- [4]
+			}, -- [43]
+			{
+				446.828000000001, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				452.790000000001, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [45]
+			{
+				452.790000000001, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [46]
+			{
+				473.659, -- [1]
+				"The time streams are mine to command! You cannot win!", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				483.808000000001, -- [1]
+				"You'll find time can be quite volatile.", -- [2]
+				"Echo of Elisande", -- [3]
+				7, -- [4]
+			}, -- [48]
+			{
+				508.701000000001, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [49]
+			{
+				508.701000000001, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [50]
+			{
+				527.733, -- [1]
+				"Time is... slipping away! How can it be so?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [51]
+			{
+				573.808000000001, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				573.808000000001, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [53]
+			{
+				583.748, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [54]
+			{
+				583.748, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [55]
+			{
+				593.839, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [56]
+			{
+				593.839, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [57]
+			{
+				603.826000000001, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [58]
+			{
+				603.826000000001, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [59]
+			{
+				613.808000000001, -- [1]
+				"Will you race through time? Or be trapped in an endless eternity?", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [60]
+			{
+				613.808000000001, -- [1]
+				"|TInterface\\Icons\\6BF_Explosive_Shard.blp:20|t%s weaves |cFFFF0000|Hspell:209598|h[Conflexive]|h|r energies through her enemies!", -- [2]
+				"Elisande", -- [3]
+				1, -- [4]
+			}, -- [61]
+			{
+				626.718000000001, -- [1]
+				"You were destined to die.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [62]
+			{
+				642.021000000001, -- [1]
+				"You were destined to die.", -- [2]
+				"Elisande", -- [3]
+				7, -- [4]
+			}, -- [63]
+			["boss"] = "Grand Magistrix Elisande",
 		}, -- [3]
 	},
 }

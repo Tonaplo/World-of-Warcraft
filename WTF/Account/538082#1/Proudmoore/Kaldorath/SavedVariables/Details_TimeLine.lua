@@ -1,14 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -19,6 +12,17 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 		}, -- [1]
@@ -28,6 +32,12 @@ DetailsTimeLineDB = {
 		}, -- [3]
 		{
 		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["combat_data"] = {
 		{
@@ -53,16 +63,6 @@ DetailsTimeLineDB = {
 			["date_start"] = "12:44:08",
 			["name"] = "Slabhide",
 			["total_time"] = 1.05199999999968,
-		}, -- [4]
-	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
 		}, -- [4]
 	},
 }

@@ -13,41 +13,40 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_day"] = "04",
+	["last_day"] = "07",
 	["tabela_historico"] = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 942,
 					["tipo"] = 2,
+					["combatId"] = 942,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.004301,
-							["spec"] = 73,
 							["damage_from"] = {
 								["Lesser Sparring Partner"] = true,
 							},
 							["targets"] = {
 								["Lesser Sparring Partner"] = 11428730,
 							},
+							["serial"] = "Player-5-0A0B74F2",
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["end_time"] = 1496562550,
+							["total"] = 11428730.004301,
 							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11428730.004301,
+							["spec"] = 73,
+							["dps_started"] = false,
+							["end_time"] = 1496562550,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 11428730.004301,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
+							["last_event"] = 1496562549,
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 4,
@@ -70,72 +69,14 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 50017,
 										["successful_casted"] = 0,
 										["b_dmg"] = 100351,
 										["n_amt"] = 21,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 50017,
 									}, -- [1]
-									[6343] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 285746,
-										["g_amt"] = 0,
-										["n_max"] = 142874,
-										["targets"] = {
-											["Lesser Sparring Partner"] = 1246894,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 961148,
-										["n_min"] = 129885,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 1246894,
-										["c_max"] = 285746,
-										["id"] = 6343,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 285746,
-									},
-									[6572] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 761988,
-										["g_amt"] = 0,
-										["n_max"] = 190497,
-										["targets"] = {
-											["Lesser Sparring Partner"] = 952485,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 190497,
-										["n_min"] = 190497,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 952485,
-										["c_max"] = 380994,
-										["id"] = 6572,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 380994,
-									},
 									[236282] = {
 										["c_amt"] = 2,
 										["b_amt"] = 2,
@@ -157,71 +98,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 212129,
 										["successful_casted"] = 0,
 										["b_dmg"] = 150964,
 										["n_amt"] = 23,
-										["r_amt"] = 0,
-										["c_min"] = 212129,
-									},
-									[23922] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 1759372,
-										["g_amt"] = 0,
-										["n_max"] = 288852,
-										["targets"] = {
-											["Lesser Sparring Partner"] = 3702560,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1943188,
-										["n_min"] = 164121,
-										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 3702560,
-										["c_max"] = 577704,
-										["id"] = 23922,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
 										["r_amt"] = 0,
-										["c_min"] = 328241,
-									},
-									[203559] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 86797,
-										["targets"] = {
-											["Lesser Sparring Partner"] = 165704,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 165704,
-										["n_min"] = 78907,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 165704,
-										["c_max"] = 0,
-										["id"] = 203559,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[203526] = {
 										["c_amt"] = 1,
@@ -244,42 +127,42 @@ _detalhes_database = {
 										["spellschool"] = 36,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 91828,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 91828,
 									},
-									[126664] = {
-										["c_amt"] = 0,
+									[6572] = {
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 761988,
 										["g_amt"] = 0,
-										["n_max"] = 24540,
+										["n_max"] = 190497,
 										["targets"] = {
-											["Lesser Sparring Partner"] = 24540,
+											["Lesser Sparring Partner"] = 952485,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 24540,
-										["n_min"] = 24540,
+										["n_dmg"] = 190497,
+										["n_min"] = 190497,
 										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 24540,
-										["c_max"] = 0,
-										["id"] = 126664,
+										["counter"] = 3,
+										["total"] = 952485,
+										["c_max"] = 380994,
+										["id"] = 6572,
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 380994,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[115767] = {
 										["c_amt"] = 5,
@@ -302,31 +185,148 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 101776,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 14,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 101776,
+									},
+									[203559] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 86797,
+										["targets"] = {
+											["Lesser Sparring Partner"] = 165704,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 165704,
+										["n_min"] = 78907,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 165704,
+										["c_max"] = 0,
+										["id"] = 203559,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[23922] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 1759372,
+										["g_amt"] = 0,
+										["n_max"] = 288852,
+										["targets"] = {
+											["Lesser Sparring Partner"] = 3702560,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1943188,
+										["n_min"] = 164121,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 3702560,
+										["c_max"] = 577704,
+										["id"] = 23922,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 328241,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 24540,
+										["targets"] = {
+											["Lesser Sparring Partner"] = 24540,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 24540,
+										["n_min"] = 24540,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 24540,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									},
+									[6343] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 285746,
+										["g_amt"] = 0,
+										["n_max"] = 142874,
+										["targets"] = {
+											["Lesser Sparring Partner"] = 1246894,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 961148,
+										["n_min"] = 129885,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1246894,
+										["c_max"] = 285746,
+										["id"] = 6343,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 285746,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A0B74F2",
-							["last_dps"] = 196009.570108247,
+							["friendlyfire_total"] = 0,
+							["last_dps"] = 196009.570108235,
 							["custom"] = 0,
-							["last_event"] = 1496562549,
-							["damage_taken"] = 4470513.004301,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1496562492,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 4470513.004301,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 942,
 					["tipo"] = 3,
+					["combatId"] = 942,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -335,7 +335,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARRIOR",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.002323,
 							["total_without_pet"] = 3456199.002323,
 							["total"] = 3456199.002323,
@@ -348,7 +348,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["serial"] = "Player-5-0A0B74F2",
 							["totalabsorb"] = 3364481.002323,
-							["last_hps"] = 59275.8845820086,
+							["last_hps"] = 59275.8845820049,
 							["targets"] = {
 								["Praerend"] = 3456199,
 							},
@@ -356,12 +356,9 @@ _detalhes_database = {
 							["healing_taken"] = 3456199.002323,
 							["fight_component"] = true,
 							["end_time"] = 1496562550,
-							["healing_from"] = {
-								["Praerend"] = true,
-							},
+							["classe"] = "WARRIOR",
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[221903] = {
 										["c_amt"] = 0,
@@ -382,12 +379,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 91718,
 										["n_amt"] = 1,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 									[190456] = {
@@ -408,10 +405,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Praerend"] = 3364481,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 3364481,
 										["n_amt"] = 37,
@@ -420,22 +417,25 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1496562493,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Praerend"] = true,
+							},
 							["tipo"] = 2,
-							["spec"] = 73,
+							["custom"] = 0,
+							["last_event"] = 1496562546,
+							["start_time"] = 1496562493,
 							["totaldenied"] = 0.002323,
 							["delay"] = 0,
-							["last_event"] = 1496562546,
+							["spec"] = 73,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 942,
 					["tipo"] = 7,
+					["combatId"] = 942,
 					["_ActorTable"] = {
 						{
 							["received"] = 451.008934,
@@ -453,11 +453,10 @@ _detalhes_database = {
 							["spec"] = 73,
 							["grupo"] = true,
 							["resource_type"] = 11,
-							["flag_original"] = 1297,
 							["last_event"] = 1496562546,
+							["tipo"] = 3,
 							["alternatepower"] = 0.008934,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[6343] = {
 										["id"] = 6343,
@@ -492,20 +491,20 @@ _detalhes_database = {
 										["counter"] = 25,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 3,
+							["flag_original"] = 1297,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 942,
 					["tipo"] = 9,
+					["combatId"] = 942,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[1160] = {
 										["uptime"] = 12,
@@ -553,6 +552,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 13.003162,
 							["buff_uptime"] = 516,
@@ -565,7 +565,6 @@ _detalhes_database = {
 								["Praerend"] = 13,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[186401] = {
 										["uptime"] = 58,
@@ -730,6 +729,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 121,
@@ -743,17 +743,18 @@ _detalhes_database = {
 								[1160] = 1,
 								[23922] = 12,
 								[203524] = 1,
-								[6552] = 2,
-								[6343] = 8,
-								[52174] = 1,
 								[23920] = 2,
 								[190456] = 6,
+								[52174] = 1,
+								[6552] = 2,
+								[6343] = 8,
 								[2565] = 5,
 								[871] = 1,
 								[221992] = 1,
 							},
+							["debuff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[12975] = {
 										["id"] = 12975,
@@ -784,21 +785,20 @@ _detalhes_database = {
 										["counter"] = 5,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1496562550,
+							["tipo"] = 4,
 							["nome"] = "Praerend",
 							["pets"] = {
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 4,
+							["last_event"] = 1496562550,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 942,
 					["tipo"] = 2,
+					["combatId"] = 942,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -826,10 +826,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 13,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -846,14 +846,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Praerend"] = 3456199.002323,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -864,6 +864,7 @@ _detalhes_database = {
 				["end_time"] = 26049.265,
 				["combat_id"] = 942,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "00:49:11",
@@ -883,10 +884,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 13,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -1020,8 +1021,8 @@ _detalhes_database = {
 			}, -- [1]
 			{
 				{
-					["combatId"] = 941,
 					["tipo"] = 2,
+					["combatId"] = 941,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1032,23 +1033,16 @@ _detalhes_database = {
 							["targets"] = {
 								["Lesser Sparring Partner"] = 2515051,
 							},
+							["serial"] = "Player-5-0A0B74F2",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["colocacao"] = 1,
+							["total"] = 2515051.007971,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2515051.007971,
-							["end_time"] = 1496562344,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 2515051.007971,
-							["classe"] = "WARRIOR",
-							["on_hold"] = false,
-							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 1,
@@ -1071,13 +1065,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 80241,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 80241,
 									}, -- [1]
 									[236282] = {
 										["c_amt"] = 2,
@@ -1100,13 +1094,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 192727,
 										["successful_casted"] = 0,
 										["b_dmg"] = 65790,
 										["n_amt"] = 4,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 192727,
 									},
 									[23922] = {
 										["c_amt"] = 1,
@@ -1129,13 +1123,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 577704,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 577704,
 									},
 									[6343] = {
 										["c_amt"] = 0,
@@ -1158,13 +1152,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[126664] = {
 										["c_amt"] = 1,
@@ -1187,13 +1181,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 49081,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 49081,
 									},
 									[115767] = {
 										["c_amt"] = 1,
@@ -1216,32 +1210,39 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 111954,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 111954,
 									},
 								},
+								["tipo"] = 2,
 							},
-							["grupo"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1496562344,
+							["friendlyfire"] = {
+							},
+							["tipo"] = 1,
+							["nome"] = "Praerend",
 							["spec"] = 73,
-							["serial"] = "Player-5-0A0B74F2",
+							["grupo"] = true,
+							["classe"] = "WARRIOR",
 							["last_dps"] = 135283.255767358,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 1271834.007971,
+							["last_event"] = 1496562343,
+							["on_hold"] = false,
 							["start_time"] = 1496562324,
 							["delay"] = 0,
-							["last_event"] = 1496562343,
+							["damage_taken"] = 1271834.007971,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 941,
 					["tipo"] = 3,
+					["combatId"] = 941,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1250,7 +1251,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARRIOR",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001677,
 							["total_without_pet"] = 494380.001677,
 							["total"] = 494380.001677,
@@ -1271,12 +1272,9 @@ _detalhes_database = {
 							["healing_taken"] = 494380.001677,
 							["fight_component"] = true,
 							["end_time"] = 1496562344,
-							["healing_from"] = {
-								["Praerend"] = true,
-							},
+							["classe"] = "WARRIOR",
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[190456] = {
 										["c_amt"] = 0,
@@ -1296,10 +1294,10 @@ _detalhes_database = {
 										["targets_absorbs"] = {
 											["Praerend"] = 494380,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
 										["c_min"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
 										["m_amt"] = 0,
 										["n_curado"] = 494380,
 										["n_amt"] = 5,
@@ -1308,22 +1306,25 @@ _detalhes_database = {
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1496562326,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Praerend"] = true,
+							},
 							["tipo"] = 2,
-							["spec"] = 73,
+							["custom"] = 0,
+							["last_event"] = 1496562335,
+							["start_time"] = 1496562326,
 							["totaldenied"] = 0.001677,
 							["delay"] = 0,
-							["last_event"] = 1496562335,
+							["spec"] = 73,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 941,
 					["tipo"] = 7,
+					["combatId"] = 941,
 					["_ActorTable"] = {
 						{
 							["received"] = 123.003688,
@@ -1341,10 +1342,9 @@ _detalhes_database = {
 							["spec"] = 73,
 							["grupo"] = true,
 							["flag_original"] = 1297,
-							["last_event"] = 1496562491,
+							["tipo"] = 3,
 							["alternatepower"] = 0.003688,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[236282] = {
 										["id"] = 236282,
@@ -1362,14 +1362,6 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
-									[198304] = {
-										["id"] = 198304,
-										["total"] = 15,
-										["targets"] = {
-											["Praerend"] = 15,
-										},
-										["counter"] = 1,
-									},
 									[195707] = {
 										["id"] = 195707,
 										["total"] = 13,
@@ -1377,6 +1369,14 @@ _detalhes_database = {
 											["Praerend"] = 13,
 										},
 										["counter"] = 9,
+									},
+									[198304] = {
+										["id"] = 198304,
+										["total"] = 15,
+										["targets"] = {
+											["Praerend"] = 15,
+										},
+										["counter"] = 1,
 									},
 									[6343] = {
 										["id"] = 6343,
@@ -1387,20 +1387,20 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 3,
+							["last_event"] = 1496562491,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 941,
 					["tipo"] = 9,
+					["combatId"] = 941,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[105771] = {
 										["uptime"] = 0,
@@ -1439,6 +1439,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.00175,
 							["buff_uptime"] = 146,
@@ -1451,7 +1452,6 @@ _detalhes_database = {
 								["Praerend"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[228399] = {
 										["uptime"] = 10,
@@ -1480,10 +1480,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[132404] = {
-										["uptime"] = 7,
+									[205484] = {
+										["uptime"] = 20,
 										["activedamt"] = 1,
-										["id"] = 132404,
+										["id"] = 205484,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -1498,10 +1498,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[205484] = {
+									[72968] = {
 										["uptime"] = 20,
 										["activedamt"] = 1,
-										["id"] = 205484,
+										["id"] = 72968,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -1534,16 +1534,17 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[72968] = {
-										["uptime"] = 20,
+									[132404] = {
+										["uptime"] = 7,
 										["activedamt"] = 1,
-										["id"] = 72968,
+										["id"] = 132404,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 36,
@@ -1557,8 +1558,9 @@ _detalhes_database = {
 								[2565] = 1,
 								[6343] = 1,
 							},
+							["debuff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[2565] = {
 										["id"] = 2565,
@@ -1568,21 +1570,20 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1496562344,
+							["tipo"] = 4,
 							["nome"] = "Praerend",
 							["pets"] = {
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 4,
+							["last_event"] = 1496562344,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 941,
 					["tipo"] = 2,
+					["combatId"] = 941,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1610,10 +1611,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0.995257,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -1630,14 +1631,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Praerend"] = 494380.001677,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -1648,6 +1649,7 @@ _detalhes_database = {
 				["end_time"] = 25843.741,
 				["combat_id"] = 941,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "00:45:45",
@@ -1667,10 +1669,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -1728,36 +1730,35 @@ _detalhes_database = {
 			}, -- [2]
 			{
 				{
-					["combatId"] = 940,
 					["tipo"] = 2,
+					["combatId"] = 940,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.00502,
-							["total"] = 715447.00502,
 							["damage_from"] = {
 								["Lesser Sparring Partner"] = true,
 							},
 							["targets"] = {
 								["Lesser Sparring Partner"] = 715447,
 							},
+							["serial"] = "Player-5-0A0B74F2",
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
 							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
 							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 715447.00502,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1496561684,
-							["on_hold"] = false,
 							["spec"] = 73,
+							["dps_started"] = false,
+							["total"] = 715447.00502,
+							["friendlyfire"] = {
+							},
+							["last_event"] = 1496561682,
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -1780,13 +1781,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									}, -- [1]
 									[115767] = {
 										["c_amt"] = 2,
@@ -1809,13 +1810,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 101776,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 101776,
 									},
 									[126664] = {
 										["c_amt"] = 0,
@@ -1838,13 +1839,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[236282] = {
 										["c_amt"] = 0,
@@ -1867,13 +1868,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[23922] = {
 										["c_amt"] = 0,
@@ -1896,31 +1897,32 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A0B74F2",
+							["end_time"] = 1496561684,
 							["last_dps"] = 63090.5648165777,
 							["custom"] = 0,
-							["last_event"] = 1496561682,
-							["damage_taken"] = 345800.00502,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1496561673,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 345800.00502,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 940,
 					["tipo"] = 3,
+					["combatId"] = 940,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1929,7 +1931,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARRIOR",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.004547,
 							["total_without_pet"] = 89312.004547,
 							["total"] = 89312.004547,
@@ -1949,12 +1951,9 @@ _detalhes_database = {
 							["healing_taken"] = 89312.004547,
 							["fight_component"] = true,
 							["end_time"] = 1496561684,
-							["healing_from"] = {
-								["Praerend"] = true,
-							},
+							["classe"] = "WARRIOR",
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[221903] = {
 										["c_amt"] = 0,
@@ -1975,31 +1974,34 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 89312,
 										["n_amt"] = 1,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1496561675,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Praerend"] = true,
+							},
 							["tipo"] = 2,
-							["spec"] = 73,
+							["custom"] = 0,
+							["last_event"] = 1496561675,
+							["start_time"] = 1496561675,
 							["totaldenied"] = 0.004547,
 							["delay"] = 0,
-							["last_event"] = 1496561675,
+							["spec"] = 73,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 940,
 					["tipo"] = 7,
+					["combatId"] = 940,
 					["_ActorTable"] = {
 						{
 							["received"] = 49.00714,
@@ -2017,10 +2019,9 @@ _detalhes_database = {
 							["spec"] = 73,
 							["grupo"] = true,
 							["flag_original"] = 1297,
-							["last_event"] = 1496562323,
+							["tipo"] = 3,
 							["alternatepower"] = 0.00714,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[198304] = {
 										["id"] = 198304,
@@ -2055,20 +2056,20 @@ _detalhes_database = {
 										["counter"] = 3,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 3,
+							["last_event"] = 1496562323,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 940,
 					["tipo"] = 9,
+					["combatId"] = 940,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[105771] = {
 										["uptime"] = 0,
@@ -2098,6 +2099,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["cooldowns_defensive"] = 1.007641,
 							["buff_uptime"] = 77,
@@ -2110,12 +2112,11 @@ _detalhes_database = {
 								["Praerend"] = 1,
 							},
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
-									[5302] = {
-										["uptime"] = 6,
+									[186401] = {
+										["uptime"] = 11,
 										["activedamt"] = 1,
-										["id"] = 5302,
+										["id"] = 186401,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2130,6 +2131,15 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
+									[5302] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 5302,
+										["actived"] = false,
+										["targets"] = {
+										},
+										["counter"] = 0,
+									},
 									[214128] = {
 										["uptime"] = 10,
 										["activedamt"] = 1,
@@ -2139,19 +2149,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[186401] = {
+									[227723] = {
 										["uptime"] = 11,
 										["activedamt"] = 1,
-										["id"] = 186401,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[205484] = {
-										["uptime"] = 11,
-										["activedamt"] = 1,
-										["id"] = 205484,
+										["id"] = 227723,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -2175,16 +2176,17 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[227723] = {
+									[205484] = {
 										["uptime"] = 11,
 										["activedamt"] = 1,
-										["id"] = 227723,
+										["id"] = 205484,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 17,
@@ -2196,8 +2198,9 @@ _detalhes_database = {
 								[23922] = 1,
 								[221992] = 1,
 							},
+							["debuff_uptime_targets"] = {
+							},
 							["cooldowns_defensive_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[23920] = {
 										["id"] = 23920,
@@ -2207,21 +2210,20 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1496562176,
+							["tipo"] = 4,
 							["nome"] = "Praerend",
 							["pets"] = {
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 4,
+							["last_event"] = 1496562176,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 940,
 					["tipo"] = 2,
+					["combatId"] = 940,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2249,10 +2251,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2342,14 +2344,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Praerend"] = 89312.004547,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2360,6 +2362,7 @@ _detalhes_database = {
 				["end_time"] = 25183.402,
 				["combat_id"] = 940,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "00:34:45",
@@ -2379,10 +2382,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 1,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2422,8 +2425,8 @@ _detalhes_database = {
 			}, -- [3]
 			{
 				{
-					["combatId"] = 939,
 					["tipo"] = 2,
+					["combatId"] = 939,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -2433,24 +2436,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Lesser Sparring Partner"] = 305993,
 							},
-							["total"] = 305993.001355,
+							["serial"] = "Player-5-0A0B74F2",
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 305993.001355,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1496561488,
-							["friendlyfire_total"] = 0,
 							["spec"] = 73,
+							["dps_started"] = false,
+							["total"] = 305993.001355,
+							["on_hold"] = false,
+							["last_event"] = 1496561487,
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2473,13 +2475,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									}, -- [1]
 									[115767] = {
 										["c_amt"] = 1,
@@ -2502,13 +2504,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 101776,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 101776,
 									},
 									[126664] = {
 										["c_amt"] = 0,
@@ -2531,13 +2533,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[236282] = {
 										["c_amt"] = 0,
@@ -2560,37 +2562,38 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A0B74F2",
+							["end_time"] = 1496561488,
 							["last_dps"] = 46631.0578108686,
 							["custom"] = 0,
-							["last_event"] = 1496561487,
+							["tipo"] = 1,
 							["damage_taken"] = 0.001355,
 							["start_time"] = 1496561481,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 939,
 					["tipo"] = 3,
+					["combatId"] = 939,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 939,
 					["tipo"] = 7,
+					["combatId"] = 939,
 					["_ActorTable"] = {
 						{
 							["received"] = 20.005785,
@@ -2604,13 +2607,7 @@ _detalhes_database = {
 							["classe"] = "WARRIOR",
 							["total"] = 20.005785,
 							["nome"] = "Praerend",
-							["spec"] = 73,
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1496561672,
-							["alternatepower"] = 0.005785,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[236282] = {
 										["id"] = 236282,
@@ -2629,20 +2626,25 @@ _detalhes_database = {
 										["counter"] = 1,
 									},
 								},
+								["tipo"] = 7,
 							},
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1496561672,
+							["alternatepower"] = 0.005785,
+							["spec"] = 73,
 							["serial"] = "Player-5-0A0B74F2",
 							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 939,
 					["tipo"] = 9,
+					["combatId"] = 939,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[105771] = {
 										["uptime"] = 0,
@@ -2672,11 +2674,12 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
-							["buff_uptime"] = 39,
+							["pets"] = {
+							},
 							["classe"] = "WARRIOR",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[72968] = {
 										["uptime"] = 7,
@@ -2733,6 +2736,7 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 13,
 							["buff_uptime_targets"] = {
@@ -2742,20 +2746,19 @@ _detalhes_database = {
 							["spell_cast"] = {
 								[126664] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["buff_uptime"] = 39,
 							["last_event"] = 1496561488,
 							["nome"] = "Praerend",
-							["pets"] = {
-							},
-							["serial"] = "Player-5-0A0B74F2",
 							["tipo"] = 4,
+							["serial"] = "Player-5-0A0B74F2",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 939,
 					["tipo"] = 2,
+					["combatId"] = 939,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2782,10 +2785,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2802,13 +2805,13 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -2819,6 +2822,7 @@ _detalhes_database = {
 				["end_time"] = 24987.089,
 				["combat_id"] = 939,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "00:31:29",
@@ -2838,10 +2842,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -2871,36 +2875,35 @@ _detalhes_database = {
 			}, -- [4]
 			{
 				{
-					["combatId"] = 938,
 					["tipo"] = 2,
+					["combatId"] = 938,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.00422,
-							["spec"] = 73,
 							["damage_from"] = {
 								["Lesser Sparring Partner"] = true,
 							},
 							["targets"] = {
 								["Lesser Sparring Partner"] = 1134345,
 							},
+							["serial"] = "Player-5-0A0B74F2",
 							["pets"] = {
 							},
 							["colocacao"] = 1,
-							["end_time"] = 1496561434,
+							["total"] = 1134345.00422,
 							["classe"] = "WARRIOR",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1134345.00422,
+							["spec"] = 73,
+							["dps_started"] = false,
+							["end_time"] = 1496561434,
 							["friendlyfire"] = {
 							},
-							["dps_started"] = false,
-							["total"] = 1134345.00422,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
+							["last_event"] = 1496561432,
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 0,
@@ -2923,13 +2926,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									}, -- [1]
 									[236282] = {
 										["c_amt"] = 1,
@@ -2952,13 +2955,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 190268,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 190268,
 									},
 									[23922] = {
 										["c_amt"] = 0,
@@ -2981,13 +2984,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[6572] = {
 										["c_amt"] = 0,
@@ -3010,13 +3013,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[126664] = {
 										["c_amt"] = 0,
@@ -3039,13 +3042,13 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 									[115767] = {
 										["c_amt"] = 0,
@@ -3068,31 +3071,32 @@ _detalhes_database = {
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
+										["a_amt"] = 0,
 										["r_amt"] = 0,
-										["c_min"] = 0,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-5-0A0B74F2",
+							["friendlyfire_total"] = 0,
 							["last_dps"] = 102860.446519749,
 							["custom"] = 0,
-							["last_event"] = 1496561432,
-							["damage_taken"] = 683010.00422,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1496561423,
 							["delay"] = 0,
-							["tipo"] = 1,
+							["damage_taken"] = 683010.00422,
 						}, -- [1]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 938,
 					["tipo"] = 3,
+					["combatId"] = 938,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -3101,7 +3105,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARRIOR",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.007379,
 							["total_without_pet"] = 87150.007379,
 							["total"] = 87150.007379,
@@ -3121,12 +3125,9 @@ _detalhes_database = {
 							["healing_taken"] = 87150.007379,
 							["fight_component"] = true,
 							["end_time"] = 1496561434,
-							["healing_from"] = {
-								["Praerend"] = true,
-							},
+							["classe"] = "WARRIOR",
 							["nome"] = "Praerend",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[221903] = {
 										["c_amt"] = 0,
@@ -3147,31 +3148,34 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["n_curado"] = 87150,
 										["n_amt"] = 1,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["totaldenied"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1496561428,
-							["custom"] = 0,
+							["healing_from"] = {
+								["Praerend"] = true,
+							},
 							["tipo"] = 2,
-							["spec"] = 73,
+							["custom"] = 0,
+							["last_event"] = 1496561428,
+							["start_time"] = 1496561428,
 							["totaldenied"] = 0.007379,
 							["delay"] = 0,
-							["last_event"] = 1496561428,
+							["spec"] = 73,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 938,
 					["tipo"] = 7,
+					["combatId"] = 938,
 					["_ActorTable"] = {
 						{
 							["received"] = 61.003077,
@@ -3189,10 +3193,9 @@ _detalhes_database = {
 							["spec"] = 73,
 							["grupo"] = true,
 							["flag_original"] = 1297,
-							["last_event"] = 1496561480,
+							["tipo"] = 3,
 							["alternatepower"] = 0.003077,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
 									[198304] = {
 										["id"] = 198304,
@@ -3227,20 +3230,20 @@ _detalhes_database = {
 										["counter"] = 6,
 									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 3,
+							["last_event"] = 1496561480,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 938,
 					["tipo"] = 9,
+					["combatId"] = 938,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[105771] = {
 										["uptime"] = 0,
@@ -3270,11 +3273,11 @@ _detalhes_database = {
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 64,
 							["classe"] = "WARRIOR",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[72968] = {
 										["uptime"] = 11,
@@ -3285,10 +3288,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[5302] = {
-										["uptime"] = 1,
+									[205484] = {
+										["uptime"] = 11,
 										["activedamt"] = 1,
-										["id"] = 5302,
+										["id"] = 205484,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -3303,10 +3306,10 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[205484] = {
+									[227723] = {
 										["uptime"] = 11,
 										["activedamt"] = 1,
-										["id"] = 205484,
+										["id"] = 227723,
 										["actived"] = false,
 										["targets"] = {
 										},
@@ -3330,16 +3333,17 @@ _detalhes_database = {
 										},
 										["counter"] = 0,
 									},
-									[227723] = {
-										["uptime"] = 11,
+									[5302] = {
+										["uptime"] = 1,
 										["activedamt"] = 1,
-										["id"] = 227723,
+										["id"] = 5302,
 										["actived"] = false,
 										["targets"] = {
 										},
 										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 17,
@@ -3355,18 +3359,18 @@ _detalhes_database = {
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1496561434,
+							["tipo"] = 4,
 							["nome"] = "Praerend",
 							["pets"] = {
 							},
 							["serial"] = "Player-5-0A0B74F2",
-							["tipo"] = 4,
+							["last_event"] = 1496561434,
 						}, -- [1]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 938,
 					["tipo"] = 2,
+					["combatId"] = 938,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -3394,10 +3398,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -3414,14 +3418,14 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage_section"] = {
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
 							["Praerend"] = 87150.007379,
 						}, -- [1]
-					},
-					["damage_section"] = {
 					},
 					["damage"] = {
 						{
@@ -3432,6 +3436,7 @@ _detalhes_database = {
 				["end_time"] = 24933.24,
 				["combat_id"] = 938,
 				["instance_type"] = "none",
+				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "00:30:35",
@@ -3451,10 +3456,10 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
 						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
 						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
 						["cc_break"] = 0,
 						["dead"] = 0,
 					}, -- [4]
@@ -3499,10 +3504,8 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 1108,
-	["character_data"] = {
-		["logons"] = 62,
-	},
+	["combat_counter"] = 1110,
+	["last_encounter"] = "Xavius",
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -3511,9 +3514,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["dps"] = 0,
-			["level"] = 1,
 			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -3582,15 +3585,10 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -3598,9 +3596,13 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -3612,10 +3614,11 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["use_spark"] = true,
 			["x"] = 3.05175781250e-005,
 			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["y"] = 1.525878906250e-005,
-			["use_spark"] = true,
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
@@ -3623,7 +3626,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -3632,12 +3635,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -3649,6 +3647,10 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -3715,14 +3717,18 @@ _detalhes_database = {
 			},
 			["realm_lastamt"] = 0,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 	},
+	["savedbuffs"] = {
+	},
+	["character_data"] = {
+		["logons"] = 64,
+	},
 	["last_instance_time"] = 1493273129,
-	["force_font_outline"] = "",
-	["last_encounter"] = "Xavius",
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -3747,7 +3753,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1297,
 					["totalabsorbed"] = 0.03561,
-					["friendlyfire_total"] = 0,
 					["damage_from"] = {
 						["Lesser Sparring Partner"] = true,
 					},
@@ -3756,22 +3761,22 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_event"] = 0,
 					["classe"] = "WARRIOR",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 17749600.03561,
-					["friendlyfire"] = {
-					},
+					["serial"] = "Player-5-0A0B74F2",
 					["dps_started"] = false,
 					["end_time"] = 1496561143,
-					["total"] = 17749600.03561,
-					["on_hold"] = false,
+					["damage_taken"] = 7801317.03561,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Praerend",
 					["spec"] = 73,
 					["grupo"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 6,
@@ -3794,13 +3799,41 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 100351,
 								["n_amt"] = 37,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
+							[23922] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 2337076,
+								["g_amt"] = 0,
+								["n_max"] = 288852,
+								["targets"] = {
+									["Lesser Sparring Partner"] = 5100868,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2763792,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 18,
+								["total"] = 5100868,
+								["c_max"] = 577704,
+								["id"] = 23922,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 13,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
 							[203526] = {
 								["c_amt"] = 1,
 								["b_amt"] = 0,
@@ -3822,40 +3855,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[6343] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 285746,
-								["g_amt"] = 0,
-								["n_max"] = 142874,
-								["targets"] = {
-									["Lesser Sparring Partner"] = 1389768,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1104022,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 9,
-								["total"] = 1389768,
-								["c_max"] = 285746,
-								["id"] = 6343,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 8,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[236282] = {
 								["c_amt"] = 6,
@@ -3878,124 +3883,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 354675,
 								["n_amt"] = 37,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[23922] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 2337076,
-								["g_amt"] = 0,
-								["n_max"] = 288852,
-								["targets"] = {
-									["Lesser Sparring Partner"] = 5100868,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2763792,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 18,
-								["total"] = 5100868,
-								["c_max"] = 577704,
-								["id"] = 23922,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 13,
 								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[203559] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 86797,
-								["targets"] = {
-									["Lesser Sparring Partner"] = 165704,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 165704,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 2,
-								["total"] = 165704,
-								["c_max"] = 0,
-								["id"] = 203559,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[6572] = {
-								["c_amt"] = 2,
-								["b_amt"] = 0,
-								["c_dmg"] = 761988,
-								["g_amt"] = 0,
-								["n_max"] = 190497,
-								["targets"] = {
-									["Lesser Sparring Partner"] = 1298844,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 536856,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 5,
-								["total"] = 1298844,
-								["c_max"] = 380994,
-								["id"] = 6572,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[126664] = {
-								["c_amt"] = 2,
-								["b_amt"] = 0,
-								["c_dmg"] = 98162,
-								["g_amt"] = 0,
-								["n_max"] = 24541,
-								["targets"] = {
-									["Lesser Sparring Partner"] = 220863,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 122701,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 7,
-								["total"] = 220863,
-								["c_max"] = 49081,
-								["id"] = 126664,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 5,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[115767] = {
 								["c_amt"] = 9,
@@ -4018,22 +3911,135 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 34,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
+							},
+							[203559] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 86797,
+								["targets"] = {
+									["Lesser Sparring Partner"] = 165704,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 165704,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 165704,
+								["c_max"] = 0,
+								["id"] = 203559,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[6572] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 761988,
+								["g_amt"] = 0,
+								["n_max"] = 190497,
+								["targets"] = {
+									["Lesser Sparring Partner"] = 1298844,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 536856,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 5,
+								["total"] = 1298844,
+								["c_max"] = 380994,
+								["id"] = 6572,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 3,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[126664] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 98162,
+								["g_amt"] = 0,
+								["n_max"] = 24541,
+								["targets"] = {
+									["Lesser Sparring Partner"] = 220863,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 122701,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 220863,
+								["c_max"] = 49081,
+								["id"] = 126664,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[6343] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 285746,
+								["g_amt"] = 0,
+								["n_max"] = 142874,
+								["targets"] = {
+									["Lesser Sparring Partner"] = 1389768,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1104022,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 9,
+								["total"] = 1389768,
+								["c_max"] = 285746,
+								["id"] = 6343,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["serial"] = "Player-5-0A0B74F2",
+					["total"] = 17749600.03561,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 7801317.03561,
+					["last_dps"] = 0,
 					["start_time"] = 1496560994,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 				}, -- [1]
 			},
 		}, -- [1]
@@ -4052,7 +4058,7 @@ _detalhes_database = {
 					["total_without_pet"] = 4293720.025965,
 					["total"] = 4293720.025965,
 					["targets_absorbs"] = {
-						["Praerend"] = 3858861,
+						["Praerend"] = 0,
 					},
 					["heal_enemy"] = {
 					},
@@ -4061,7 +4067,7 @@ _detalhes_database = {
 					["totalabsorb"] = 3858861.025965,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Praerend"] = 4293720,
+						["Praerend"] = 0,
 					},
 					["totalover_without_pet"] = 0.025965,
 					["healing_taken"] = 4293720.025965,
@@ -4072,7 +4078,6 @@ _detalhes_database = {
 					},
 					["nome"] = "Praerend",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[221903] = {
 								["c_amt"] = 1,
@@ -4093,12 +4098,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 166679,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 268180,
 								["n_amt"] = 3,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[190456] = {
@@ -4121,25 +4126,26 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 3858861,
 								["n_amt"] = 42,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1496561080,
+					["spec"] = 73,
 					["classe"] = "WARRIOR",
 					["custom"] = 0,
-					["tipo"] = 2,
-					["spec"] = 73,
+					["last_event"] = 0,
+					["start_time"] = 1496561080,
 					["totaldenied"] = 0.025965,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -4148,9 +4154,9 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 8.040201,
+					["resource"] = 24.097449,
 					["targets"] = {
-						["Praerend"] = 698,
+						["Praerend"] = 0,
 					},
 					["pets"] = {
 					},
@@ -4160,50 +4166,57 @@ _detalhes_database = {
 					["alternatepower"] = 0.040201,
 					["nome"] = "Praerend",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
-							[6343] = {
-								["id"] = 6343,
-								["total"] = 44,
+							[236282] = {
+								["id"] = 236282,
+								["total"] = 211,
 								["targets"] = {
-									["Praerend"] = 44,
+									["Praerend"] = 0,
 								},
-								["counter"] = 8,
+								["counter"] = 43,
 							},
 							[23922] = {
 								["id"] = 23922,
 								["total"] = 370,
 								["targets"] = {
-									["Praerend"] = 370,
+									["Praerend"] = 0,
 								},
 								["counter"] = 17,
+							},
+							[6343] = {
+								["id"] = 6343,
+								["total"] = 44,
+								["targets"] = {
+									["Praerend"] = 0,
+								},
+								["counter"] = 8,
+							},
+							[198304] = {
+								["id"] = 198304,
+								["total"] = 0,
+								["targets"] = {
+									["Praerend"] = 0,
+								},
+								["counter"] = 0,
 							},
 							[195707] = {
 								["id"] = 195707,
 								["total"] = 73,
 								["targets"] = {
-									["Praerend"] = 73,
+									["Praerend"] = 0,
 								},
 								["counter"] = 68,
 							},
-							[236282] = {
-								["id"] = 236282,
-								["total"] = 211,
-								["targets"] = {
-									["Praerend"] = 211,
-								},
-								["counter"] = 43,
-							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["resource_type"] = 11,
-					["received"] = 698.040201,
 					["last_event"] = 0,
+					["tipo"] = 3,
 					["total"] = 698.040201,
 					["spec"] = 73,
 					["serial"] = "Player-5-0A0B74F2",
-					["tipo"] = 3,
+					["received"] = 698.040201,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -4213,7 +4226,6 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[1160] = {
 								["uptime"] = 12,
@@ -4256,48 +4268,15 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 14.010587,
 					["buff_uptime"] = 1051,
-					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[12975] = {
-								["id"] = 12975,
-								["targets"] = {
-									["Praerend"] = 2,
-								},
-								["counter"] = 2,
-							},
-							[2565] = {
-								["id"] = 2565,
-								["targets"] = {
-									["Praerend"] = 6,
-								},
-								["counter"] = 6,
-							},
-							[23920] = {
-								["id"] = 23920,
-								["targets"] = {
-									["Praerend"] = 4,
-								},
-								["counter"] = 4,
-							},
-							[871] = {
-								["id"] = 871,
-								["targets"] = {
-									["Praerend"] = 2,
-								},
-								["counter"] = 2,
-							},
-						},
-					},
 					["classe"] = "WARRIOR",
 					["cooldowns_defensive_targets"] = {
 						["Praerend"] = 14,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[186401] = {
 								["uptime"] = 146,
@@ -4452,6 +4431,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 246,
@@ -4467,22 +4447,55 @@ _detalhes_database = {
 						[203524] = 1,
 						[126664] = 3,
 						[871] = 1,
-						[23920] = 2,
-						[52174] = 2,
 						[6552] = 2,
-						[190456] = 8,
-						[2565] = 6,
-						[12975] = 1,
+						[52174] = 2,
+						[23920] = 2,
 						[6343] = 9,
+						[2565] = 6,
+						[190456] = 8,
+						[12975] = 1,
 					},
 					["debuff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
+					["cooldowns_defensive_spells"] = {
+						["_ActorTable"] = {
+							[12975] = {
+								["id"] = 12975,
+								["targets"] = {
+									["Praerend"] = 2,
+								},
+								["counter"] = 2,
+							},
+							[2565] = {
+								["id"] = 2565,
+								["targets"] = {
+									["Praerend"] = 6,
+								},
+								["counter"] = 6,
+							},
+							[23920] = {
+								["id"] = 23920,
+								["targets"] = {
+									["Praerend"] = 4,
+								},
+								["counter"] = 4,
+							},
+							[871] = {
+								["id"] = 871,
+								["targets"] = {
+									["Praerend"] = 2,
+								},
+								["counter"] = 2,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["last_event"] = 0,
 					["nome"] = "Praerend",
 					["pets"] = {
 					},
 					["serial"] = "Player-5-0A0B74F2",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [1]
 			},
 		}, -- [4]
@@ -4511,10 +4524,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 14.004912,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -4531,17 +4544,19 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage_section"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
-			},
-			["damage_section"] = {
 			},
 			["damage"] = {
 			},
 		},
 		["end_time"] = 26049.265,
+		["overall_refreshed"] = true,
 		["data_inicio"] = "00:25:20",
+		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = "00:49:11",
@@ -4605,10 +4620,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 14.004912,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -4681,7 +4696,7 @@ _detalhes_database = {
 				["normal"] = {
 					["y"] = -420.237152099609,
 					["x"] = 820.800842285156,
-					["w"] = 272.926879882813,
+					["w"] = 272.926727294922,
 					["h"] = 161.113494873047,
 				},
 				["solo"] = {
@@ -4693,8 +4708,7 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["savedbuffs"] = {
-	},
+	["force_font_outline"] = "",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},

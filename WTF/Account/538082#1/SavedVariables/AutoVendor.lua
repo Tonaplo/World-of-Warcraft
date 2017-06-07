@@ -1,15 +1,33 @@
 
 AutoVendorDB = {
 	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
-		["Praerend - Proudmoore"] = {
+		["Rahran - Proudmoore"] = {
+		},
+		["Amranar - Proudmoore"] = {
+		},
+		["Farahn - Proudmoore"] = {
+		},
+		["Fimwack - Proudmoore"] = {
+		},
+		["Mallusof - Tichondrius"] = {
+		},
+		["Miriyal - Proudmoore"] = {
+		},
+		["Granjior - Proudmoore"] = {
 		},
 		["Default"] = {
 			["guildbankrepair"] = true,
@@ -22,11 +40,11 @@ AutoVendorDB = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Farahn - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Faerand - Proudmoore"] = {
 		},
-		["Mallusof - Tichondrius"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }

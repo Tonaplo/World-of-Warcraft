@@ -1,25 +1,43 @@
 
 HandyNotes_BrokenShoreDB = {
 	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 	},
 	["profiles"] = {
-		["Amranar - Proudmoore"] = {
-		},
-		["Morifa - Proudmoore"] = {
+		["Rahran - Proudmoore"] = {
 		},
 		["Praerend - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
+		["Mallusof - Tichondrius"] = {
+		},
+		["Kaldorath - Proudmoore"] = {
+		},
+		["Granjior - Proudmoore"] = {
+		},
+		["Miriyal - Proudmoore"] = {
+		},
+		["Morifa - Proudmoore"] = {
+		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Mallusof - Tichondrius"] = {
+		["Amranar - Proudmoore"] = {
+		},
+		["Faerand - Proudmoore"] = {
+		},
+		["Fimwack - Proudmoore"] = {
 		},
 	},
 }

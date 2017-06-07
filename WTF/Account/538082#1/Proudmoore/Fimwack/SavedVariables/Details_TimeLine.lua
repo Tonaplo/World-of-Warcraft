@@ -1,7 +1,43 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "21:42:00",
+			["date_start"] = "21:40:09",
+			["name"] = "Viz'aduum the Watcher",
+			["total_time"] = 111.006000000001,
+		}, -- [1]
+		{
+			["date_end"] = "21:37:47",
+			["date_start"] = "21:37:40",
+			["name"] = "Mana Devourer",
+			["total_time"] = 7.00699999999961,
+		}, -- [2]
+		{
+			["date_end"] = "21:35:11",
+			["date_start"] = "21:34:32",
+			["name"] = "Mana Devourer",
+			["total_time"] = 39.009,
+		}, -- [3]
+		{
+			["date_end"] = "21:33:54",
+			["date_start"] = "21:32:57",
+			["name"] = "Mana Devourer",
+			["total_time"] = 57.0040000000008,
+		}, -- [4]
+	},
 	["cooldowns_timeline"] = {
 		{
 			["Savagedrunk-Stormrage"] = {
@@ -60,17 +96,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Moab-Ner'zhul"] = {
@@ -155,36 +180,11 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "21:42:00",
-			["date_start"] = "21:40:09",
-			["name"] = "Viz'aduum the Watcher",
-			["total_time"] = 111.006000000001,
-		}, -- [1]
-		{
-			["date_end"] = "21:37:47",
-			["date_start"] = "21:37:40",
-			["name"] = "Mana Devourer",
-			["total_time"] = 7.00699999999961,
-		}, -- [2]
-		{
-			["date_end"] = "21:35:11",
-			["date_start"] = "21:34:32",
-			["name"] = "Mana Devourer",
-			["total_time"] = 39.009,
-		}, -- [3]
-		{
-			["date_end"] = "21:33:54",
-			["date_start"] = "21:32:57",
-			["name"] = "Mana Devourer",
-			["total_time"] = 57.0040000000008,
-		}, -- [4]
 	},
 }

@@ -5,14 +5,14 @@ HandyNotes_LegionTreasuresDB = {
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
@@ -24,13 +24,13 @@ HandyNotes_LegionTreasuresDB = {
 		["Mallusof - Tichondrius"] = {
 			["icon_item"] = true,
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Morifa - Proudmoore"] = {
-		},
 		["Fimwack - Proudmoore"] = {
+		},
+		["Morifa - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -38,7 +38,7 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }

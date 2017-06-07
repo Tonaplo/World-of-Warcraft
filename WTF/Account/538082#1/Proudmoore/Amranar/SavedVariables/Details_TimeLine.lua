@@ -1,7 +1,43 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_start"] = "21:40:18",
+			["date_end"] = "21:41:23",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 65.0059999999994,
+		}, -- [1]
+		{
+			["date_start"] = "21:37:11",
+			["date_end"] = "21:38:23",
+			["name"] = "Dresaron",
+			["total_time"] = 72.0020000000004,
+		}, -- [2]
+		{
+			["date_start"] = "21:36:28",
+			["date_end"] = "21:37:03",
+			["name"] = "Dresaron",
+			["total_time"] = 35.0069999999996,
+		}, -- [3]
+		{
+			["date_start"] = "21:34:40",
+			["date_end"] = "21:35:33",
+			["name"] = "Oakheart",
+			["total_time"] = 53.0049999999992,
+		}, -- [4]
+	},
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -43,17 +79,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Arylynn-Stormrage"] = {
@@ -208,36 +233,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_start"] = "21:40:18",
-			["date_end"] = "21:41:23",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 65.0059999999994,
-		}, -- [1]
-		{
-			["date_start"] = "21:37:11",
-			["date_end"] = "21:38:23",
-			["name"] = "Dresaron",
-			["total_time"] = 72.0020000000004,
-		}, -- [2]
-		{
-			["date_start"] = "21:36:28",
-			["date_end"] = "21:37:03",
-			["name"] = "Dresaron",
-			["total_time"] = 35.0069999999996,
-		}, -- [3]
-		{
-			["date_start"] = "21:34:40",
-			["date_end"] = "21:35:33",
-			["name"] = "Oakheart",
-			["total_time"] = 53.0049999999992,
-		}, -- [4]
 	},
 }

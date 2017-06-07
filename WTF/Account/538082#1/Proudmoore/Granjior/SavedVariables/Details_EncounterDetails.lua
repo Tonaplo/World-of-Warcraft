@@ -771,12 +771,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hymdall",
 		},
-		[201120] = {
-			["school"] = 32,
+		[197550] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mindflayer Kaahrj",
+			["source"] = "King Deepbeard",
 		},
 		[194112] = {
 			["school"] = 1,
@@ -838,15 +840,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hyrja",
 		},
-		[192706] = {
-			["school"] = 64,
+		[201121] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Wrath of Azshara",
+			["source"] = "Mindflayer Kaahrj",
 		},
 		[201153] = {
 			["school"] = 32,
@@ -1053,14 +1054,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Solsten",
 		},
-		[201121] = {
-			["school"] = 32,
+		[192706] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mindflayer Kaahrj",
+			["source"] = "Wrath of Azshara",
 		},
 		[193826] = {
 			["school"] = 4,
@@ -1080,14 +1082,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Warlord Parjesh",
 		},
-		[197550] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[201120] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "King Deepbeard",
+			["source"] = "Mindflayer Kaahrj",
 		},
 		[191508] = {
 			["school"] = 2,

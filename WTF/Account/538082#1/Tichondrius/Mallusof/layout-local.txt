@@ -6,3 +6,10 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AltoholicFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 80
+Y: 93
+W: 832
+H: 447
