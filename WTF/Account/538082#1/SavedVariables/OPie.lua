@@ -167,9 +167,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
@@ -319,6 +319,10 @@ OneRing_Config = {
 					["id"] = 190336,
 					["sliceToken"] = "ABuep5Et2mr",
 				}, -- [6]
+				{
+					["sliceToken"] = "ABuepcdn0Le",
+					["id"] = 546,
+				}, -- [7]
 				["save"] = true,
 				["name"] = "Abilities",
 			},

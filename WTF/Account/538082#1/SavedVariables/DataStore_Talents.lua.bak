@@ -49,7 +49,7 @@ DataStore_TalentsDB = {
 					10103, -- [2]
 					6489, -- [3]
 				},
-				["lastUpdate"] = 1496877437,
+				["lastUpdate"] = 1496891644,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 40,
 				["Artifacts"] = {
@@ -67,7 +67,7 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Light's Wrath"] = {
-						["pointsRemaining"] = 138746255,
+						["pointsRemaining"] = 180747305,
 						["rank"] = 52,
 						["tier"] = 2,
 					},
@@ -187,82 +187,6 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
-			},
-			["Default.Proudmoore.Granjior"] = {
-				["EquippedArtifact"] = "Ashbringer",
-				["ArtifactKnowledgeMultiplier"] = 40001,
-				["Specializations"] = {
-					9558, -- [1]
-					[3] = 8087,
-				},
-				["lastUpdate"] = 1496822975,
-				["Class"] = "PALADIN",
-				["ArtifactKnowledge"] = 40,
-				["Artifacts"] = {
-					["The Silver Hand"] = {
-						["tier"] = 1,
-						["rank"] = 26,
-						["pointsRemaining"] = 52930,
-					},
-					["Ashbringer"] = {
-						["tier"] = 1,
-						["rank"] = 34,
-						["pointsRemaining"] = 1295950,
-					},
-				},
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["ArtifactKnowledgeMultiplier"] = 40001,
-				["Specializations"] = {
-					13719, -- [1]
-				},
-				["lastUpdate"] = 1496822840,
-				["Class"] = "HUNTER",
-				["ArtifactKnowledge"] = 40,
-				["Artifacts"] = {
-					["Titanstrike"] = {
-						["tier"] = 1,
-						["rank"] = 38,
-						["pointsRemaining"] = 28615,
-					},
-				},
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
-				["ArtifactKnowledgeMultiplier"] = 40001,
-				["Specializations"] = {
-					11614, -- [1]
-					9631, -- [2]
-					16283, -- [3]
-				},
-				["lastUpdate"] = 1496869235,
-				["Class"] = "SHAMAN",
-				["ArtifactKnowledge"] = 40,
-				["Artifacts"] = {
-					["Doomhammer"] = {
-						["tier"] = 1,
-						["rank"] = 34,
-						["pointsRemaining"] = 7280395,
-					},
-					["The Fist of Ra-den"] = {
-						["pointsRemaining"] = 214945,
-						["rank"] = 27,
-						["tier"] = 1,
-					},
-					["Sharas'dal, Scepter of Tides"] = {
-						["pointsRemaining"] = 2797220,
-						["rank"] = 46,
-						["tier"] = 1,
-					},
-				},
-			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Apocalypse",
 				["Artifacts"] = {
@@ -291,12 +215,28 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledge"] = 40,
 				["ArtifactKnowledgeMultiplier"] = 40001,
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1493618455,
+			["Default.Proudmoore.Granjior"] = {
+				["EquippedArtifact"] = "Ashbringer",
+				["ArtifactKnowledgeMultiplier"] = 40001,
 				["Specializations"] = {
-					[3] = 487,
+					9558, -- [1]
+					[3] = 8087,
 				},
-				["Class"] = "ROGUE",
+				["lastUpdate"] = 1496822975,
+				["Class"] = "PALADIN",
+				["ArtifactKnowledge"] = 40,
+				["Artifacts"] = {
+					["The Silver Hand"] = {
+						["tier"] = 1,
+						["rank"] = 26,
+						["pointsRemaining"] = 52930,
+					},
+					["Ashbringer"] = {
+						["tier"] = 1,
+						["rank"] = 34,
+						["pointsRemaining"] = 1295950,
+					},
+				},
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["EquippedArtifact"] = "Scale of the Earth-Warder",
@@ -312,6 +252,66 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 						["rank"] = 36,
 						["pointsRemaining"] = 2924335,
+					},
+				},
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
+				["ArtifactKnowledgeMultiplier"] = 40001,
+				["Specializations"] = {
+					11614, -- [1]
+					9631, -- [2]
+					16283, -- [3]
+				},
+				["lastUpdate"] = 1496908213,
+				["Class"] = "SHAMAN",
+				["ArtifactKnowledge"] = 40,
+				["Artifacts"] = {
+					["Doomhammer"] = {
+						["tier"] = 1,
+						["rank"] = 45,
+						["pointsRemaining"] = 1590695,
+					},
+					["The Fist of Ra-den"] = {
+						["pointsRemaining"] = 275095,
+						["rank"] = 48,
+						["tier"] = 1,
+					},
+					["Sharas'dal, Scepter of Tides"] = {
+						["pointsRemaining"] = 59257320,
+						["rank"] = 43,
+						["tier"] = 2,
+					},
+				},
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1493618455,
+				["Specializations"] = {
+					[3] = 487,
+				},
+				["Class"] = "ROGUE",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
+				["ArtifactKnowledgeMultiplier"] = 40001,
+				["Specializations"] = {
+					13719, -- [1]
+				},
+				["lastUpdate"] = 1496822840,
+				["Class"] = "HUNTER",
+				["ArtifactKnowledge"] = 40,
+				["Artifacts"] = {
+					["Titanstrike"] = {
+						["tier"] = 1,
+						["rank"] = 38,
+						["pointsRemaining"] = 28615,
 					},
 				},
 			},

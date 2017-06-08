@@ -4,11 +4,11 @@ RCDatabase = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
@@ -52,13 +52,13 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
-				["itemLevelEquipped"] = 868.75,
+				["itemLevelEquipped"] = 880.3125,
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
-				["itemLevelOverall"] = 875.4375,
+				["itemLevelOverall"] = 884.375,
 				["level"] = 110,
-				["firstProfLevel"] = 165,
+				["firstProfLevel"] = 167,
 				["firstProf"] = "Mining",
 			}, -- [4]
 			{
@@ -157,14 +157,14 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 910.1875,
+				["itemLevelEquipped"] = 913,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
 				["firstProf"] = "Tailoring",
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["itemLevelOverall"] = 913.3125,
+				["itemLevelOverall"] = 913.9375,
 			}, -- [1]
 			["characterStored"] = 1,
 		},

@@ -5,9 +5,9 @@ HandyNotes_BrokenShoreDB = {
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
@@ -23,11 +23,11 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},

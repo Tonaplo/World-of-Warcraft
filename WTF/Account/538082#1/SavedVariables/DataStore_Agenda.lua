@@ -43,9 +43,9 @@ DataStore_AgendaDB = {
 					},
 				},
 				["DungeonIDs"] = {
-					["The Nighthold Heroic|665431488"] = "489528|1496876471|0|1",
+					["The Nighthold Heroic|665431488"] = "474347|1496891644|0|1",
 				},
-				["lastUpdate"] = 1496878310,
+				["lastUpdate"] = 1496891759,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,
@@ -71,14 +71,17 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1496822976,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1496822960,
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1496887320,
-			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1496822841,
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["DungeonIDs"] = {
+					["The Nighthold Heroic|333661589"] = "455108|1496910883|0|1",
+				},
+				["lastUpdate"] = 1496910923,
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1496822960,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1496822895,

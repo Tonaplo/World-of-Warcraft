@@ -20,17 +20,17 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
-			["Default.Tichondrius.Wisdom"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Proudmoore.Risen"] = {
-				["faction"] = "Alliance",
-			},
 			["Default.Proudmoore.Imperial Alliance"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Bleeding Hollow.Imperium"] = {
 				["faction"] = "Horde",
+			},
+			["Default.Tichondrius.Wisdom"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Proudmoore.Risen"] = {
+				["faction"] = "Alliance",
 			},
 		},
 		["Version"] = 1,
@@ -50,8 +50,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Imperial Alliance",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["guildName"] = "Risen",
+			["Default.Proudmoore.Faerand"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
@@ -62,7 +61,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
 			},
-			["Default.Proudmoore.Faerand"] = {
+			["Default.Proudmoore.Rahran"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {

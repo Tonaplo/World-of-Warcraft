@@ -20,6 +20,10 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1496887241,
+				["lastVisitDate"] = "2017/06/07 19:00",
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,
 				["lastVisitDate"] = "2017/05/22 00:00",

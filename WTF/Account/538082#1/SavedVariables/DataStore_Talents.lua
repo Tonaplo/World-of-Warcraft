@@ -55,7 +55,7 @@ DataStore_TalentsDB = {
 					["Light's Wrath"] = {
 						["tier"] = 2,
 						["rank"] = 52,
-						["pointsRemaining"] = 138746255,
+						["pointsRemaining"] = 180747305,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
@@ -64,7 +64,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1496877437,
+				["lastUpdate"] = 1496891644,
 				["Specializations"] = {
 					6550, -- [1]
 					10103, -- [2]
@@ -73,19 +73,19 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledge"] = 40,
 				["ArtifactKnowledgeMultiplier"] = 40001,
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Scale of the Earth-Warder",
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
 				["Artifacts"] = {
-					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 2924335,
-						["rank"] = 36,
-						["tier"] = 2,
+					["Titanstrike"] = {
+						["pointsRemaining"] = 28615,
+						["rank"] = 38,
+						["tier"] = 1,
 					},
 				},
-				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1496823131,
+				["Class"] = "HUNTER",
+				["lastUpdate"] = 1496822840,
 				["Specializations"] = {
-					[3] = 10713,
+					13719, -- [1]
 				},
 				["ArtifactKnowledge"] = 40,
 				["ArtifactKnowledgeMultiplier"] = 40001,
@@ -120,6 +120,30 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["EquippedArtifact"] = "Scale of the Earth-Warder",
+				["Artifacts"] = {
+					["Scale of the Earth-Warder"] = {
+						["pointsRemaining"] = 2924335,
+						["rank"] = 36,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "WARRIOR",
+				["lastUpdate"] = 1496823131,
+				["Specializations"] = {
+					[3] = 10713,
+				},
+				["ArtifactKnowledge"] = 40,
+				["ArtifactKnowledgeMultiplier"] = 40001,
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Apocalypse",
 				["ArtifactKnowledgeMultiplier"] = 40001,
@@ -147,30 +171,6 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 15886580,
 					},
 				},
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["Artifacts"] = {
-					["Titanstrike"] = {
-						["pointsRemaining"] = 28615,
-						["rank"] = 38,
-						["tier"] = 1,
-					},
-				},
-				["Class"] = "HUNTER",
-				["lastUpdate"] = 1496822840,
-				["Specializations"] = {
-					13719, -- [1]
-				},
-				["ArtifactKnowledge"] = 40,
-				["ArtifactKnowledgeMultiplier"] = 40001,
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["EquippedArtifact"] = "Ashbringer",
@@ -216,23 +216,23 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
 				["Artifacts"] = {
 					["Doomhammer"] = {
-						["pointsRemaining"] = 7280395,
-						["rank"] = 34,
+						["pointsRemaining"] = 1590695,
+						["rank"] = 45,
 						["tier"] = 1,
 					},
 					["The Fist of Ra-den"] = {
 						["tier"] = 1,
-						["rank"] = 27,
-						["pointsRemaining"] = 214945,
+						["rank"] = 48,
+						["pointsRemaining"] = 275095,
 					},
 					["Sharas'dal, Scepter of Tides"] = {
-						["tier"] = 1,
-						["rank"] = 46,
-						["pointsRemaining"] = 2797220,
+						["tier"] = 2,
+						["rank"] = 44,
+						["pointsRemaining"] = 21857970,
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1496887180,
+				["lastUpdate"] = 1496910883,
 				["Specializations"] = {
 					11614, -- [1]
 					9631, -- [2]
