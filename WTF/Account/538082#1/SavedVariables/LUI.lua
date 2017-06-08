@@ -53,14 +53,16 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -70,13 +72,11 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -85,7 +85,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1493638696,
+							["Mallusof"] = 1511833966,
 						},
 					},
 				},
@@ -100,7 +100,7 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 102056437,
-							["Farahn"] = 243303624,
+							["Farahn"] = 181774053,
 							["Greybone"] = 13983005,
 							["Amranar"] = 476374393,
 							["Granjior"] = 348066546,
@@ -128,6 +128,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -138,10 +143,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -169,14 +170,21 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -676,14 +684,6 @@ LUIDB = {
 						},
 					},
 				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 			},
 		},
 		["Threat"] = {
@@ -762,72 +762,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i Could I get a mage table?", -- [1]
+							"/cw Kaligon-Tichondrius I'm mallusof", -- [1]
 							"/cw Sammoyung-Lightbringer need that?", -- [2]
 							"/i Could I get a mage table?", -- [3]
-							"/cw Sammoyung-Lightbringer need that?", -- [4]
-							"/i Could I get a mage table?", -- [5]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [6]
+							"/cw Kaligon-Tichondrius I'm mallusof", -- [4]
+							"/cw Sammoyung-Lightbringer need that?", -- [5]
+							"/i Could I get a mage table?", -- [6]
 							"/cw Sammoyung-Lightbringer need that?", -- [7]
-							"/i Could I get a mage table?", -- [8]
-							"/cw Sammoyung-Lightbringer need that?", -- [9]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [10]
-							"/i Could I get a mage table?", -- [11]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [12]
-							"/i Could I get a mage table?", -- [13]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [14]
-							"/i Could I get a mage table?", -- [15]
-							"/cw Sammoyung-Lightbringer need that?", -- [16]
-							"/i Could I get a mage table?", -- [17]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [18]
-							"/cw Sammoyung-Lightbringer need that?", -- [19]
-							"/i Could I get a mage table?", -- [20]
-							"/cw Sammoyung-Lightbringer need that?", -- [21]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [22]
-							"/i Could I get a mage table?", -- [23]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [24]
+							"/inv erelran", -- [8]
+							"/g Could I have someone invite a rfrined to the guild as a freidn?", -- [9]
+							"/g friend", -- [10]
+							"/i berserk", -- [11]
+							"/i Could I get a mage table?", -- [12]
+							"/cw Kaligon-Tichondrius I'm mallusof", -- [13]
+							"/i Could I get a mage table?", -- [14]
+							"/cw Sammoyung-Lightbringer need that?", -- [15]
+							"/cw Kaligon-Tichondrius I'm mallusof", -- [16]
+							"/cw Sammoyung-Lightbringer need that?", -- [17]
+							"/i Could I get a mage table?", -- [18]
+							"/cw Kaligon-Tichondrius I'm mallusof", -- [19]
+							"/cw Sammoyung-Lightbringer need that?", -- [20]
+							"/i Could I get a mage table?", -- [21]
+							"/cw Sammoyung-Lightbringer need that?", -- [22]
+							"/inv erelran", -- [23]
+							"/g friend", -- [24]
 							"/i Could I get a mage table?", -- [25]
 							"/cw Sammoyung-Lightbringer need that?", -- [26]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [27]
-							"/i Could I get a mage table?", -- [28]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [29]
+							"/i Could I get a mage table?", -- [27]
+							"/cw Sammoyung-Lightbringer need that?", -- [28]
+							"/inv erelran", -- [29]
 							"/i Could I get a mage table?", -- [30]
-							"/cw Kaligon-Tichondrius I'm mallusof", -- [31]
+							"/cw Sammoyung-Lightbringer need that?", -- [31]
 							"/i Could I get a mage table?", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/raid Flightmaster please", -- [1]
-							"/raid brb bio", -- [2]
-							"/raid can we go?", -- [3]
-							"/g keeps talking smack", -- [4]
-							"/g The problem with being a very good healer, is that you notice when you come back from an AFK", -- [5]
-							"/g I do not have a lot of respect for people that talk about how pro they are", -- [6]
-							"/g rofl", -- [7]
-							"/raid STAY", -- [8]
-							"/g lol", -- [9]
-							"/cw Droodhealz-Kil'jaeden yeah, people are standing in shit alot", -- [10]
-							"/raid I'll actually heal this time", -- [11]
-							"/cw Droodhealz-Kil'jaeden litterally noone does mechanics", -- [12]
+							"/cw Kalithumos-Tichondrius christ", -- [1]
+							"/g Alt's about to get ALOT of AK :P", -- [2]
+							"/g The problem with being a very good healer, is that you notice when you come back from an AFK", -- [3]
+							"/g Alt's about to get ALOT of AK :P", -- [4]
+							"/g x 11", -- [5]
+							"/g The problem with being a very good healer, is that you notice when you come back from an AFK", -- [6]
+							"/raid Flightmaster please", -- [7]
+							"/cw Kalithumos-Tichondrius christ", -- [8]
+							"/g Alt's about to get ALOT of AK :P", -- [9]
+							"/g The problem with being a very good healer, is that you notice when you come back from an AFK", -- [10]
+							"/g Alt's about to get ALOT of AK :P", -- [11]
+							"/g x 11", -- [12]
 							"/raid Flightmaster please", -- [13]
-							"/raid can we go?", -- [14]
-							"/g The problem with being a very good healer, is that you notice when you come back from an AFK", -- [15]
-							"/g rofl", -- [16]
-							"/g lol", -- [17]
-							"/raid I'll actually heal this time", -- [18]
-							"/raid Flightmaster please", -- [19]
-							"/g The problem with being a very good healer, is that you notice when you come back from an AFK", -- [20]
-							"/g lol", -- [21]
-							"/raid Flightmaster please", -- [22]
-							"/g lol", -- [23]
-							"/cw Kalithumos-Tichondrius christ", -- [24]
-							"/cw Kalithumos-Tichondrius congrats man!", -- [25]
-							"/cw Kalithumos-Tichondrius Did you see me get Sephuz, lol :P", -- [26]
-							"/cw Kalithumos-Tichondrius At least I'm only missing 2 for Holy now :P", -- [27]
-							"/cw Kalithumos-Tichondrius But dude awesome", -- [28]
-							"/cw Kalithumos-Tichondrius gz!", -- [29]
-							"/g |cffe6cc80|Hitem:147854::::::::110:256::14:1:610:::|h[Artifact Research Compendium: Volumes I-VII]|h|r", -- [30]
-							"/g x 11", -- [31]
-							"/g Alt's about to get ALOT of AK :P", -- [32]
+							"/g Alt's about to get ALOT of AK :P", -- [14]
+							"/g x 11", -- [15]
+							"/g Alt's about to get ALOT of AK :P", -- [16]
+							"/cw Phdreamd hey", -- [17]
+							"/cw Phdreamd-Tichondrius Could I invite you to group for a sec", -- [18]
+							"/cw Phdreamd-Tichondrius alright, thanjks buddy", -- [19]
+							"/cw Phdreamd-Tichondrius 9\\10, not quite 10/10 yet", -- [20]
+							"/cw Phdreamd-Tichondrius we're close though", -- [21]
+							"/cw Phdreamd-Tichondrius We will :)", -- [22]
+							"/cw Phdreamd-Tichondrius and thanks", -- [23]
+							"/cw Phdreamd-Tichondrius good luck to you too", -- [24]
+							"/cw Phdreamd-Tichondrius Mostly Horde", -- [25]
+							"/cw Phdreamd-Tichondrius It'sa decent server if you're Horde and like PvP", -- [26]
+							"/cw Phdreamd-Tichondrius If you're alliance and/or dont like PvP, it sucks balls", -- [27]
+							"/cw Phdreamd-Tichondrius I have desperately been trying to get my guild to transfer or faction change", -- [28]
+							"/cw Phdreamd-Tichondrius Since Legion launched", -- [29]
+							"/cw Phdreamd-Tichondrius So I would not recommend coming here", -- [30]
+							"/cw Phdreamd-Tichondrius anyways, I gtg", -- [31]
+							"/cw Phdreamd-Tichondrius good luck :)", -- [32]
 						},
 					},
 				},
@@ -2269,22 +2269,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {

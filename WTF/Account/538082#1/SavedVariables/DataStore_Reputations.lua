@@ -1,22 +1,22 @@
 
 DataStore_ReputationsDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -63,13 +63,13 @@ DataStore_ReputationsDB = {
 					[132] = 1500,
 					[136] = 12642,
 					[140] = 3835,
-					[24] = 2040,
+					[123] = 15075,
 					[112] = 3225,
 					[133] = 1500,
 					[137] = 13522,
-					[47] = 1000,
+					[24] = 2040,
 					[77] = 125,
-					[123] = 15075,
+					[47] = 1000,
 					[130] = 5700,
 					[49] = 2052,
 					[67] = 692,
@@ -84,7 +84,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1496820541,
+				["lastUpdate"] = 1496876470,
 				["Factions"] = {
 					42000, -- [1]
 					42000, -- [2]
@@ -183,15 +183,15 @@ DataStore_ReputationsDB = {
 					[27] = 20,
 					[78] = 16909,
 					[8] = 16609,
-					[19] = 5545,
+					[10] = 12255,
 					[9] = 8999,
 					[18] = 4707,
-					[113] = 8999,
+					[19] = 5545,
 					[20] = 6227,
 					[76] = 17608,
 					[6] = 14530,
 					[17] = 5007,
-					[10] = 12255,
+					[113] = 8999,
 				},
 				["guildRep"] = 42000,
 				["guildName"] = "Imperium",
@@ -248,39 +248,18 @@ DataStore_ReputationsDB = {
 				["guildRep"] = 42000,
 				["guildName"] = "Risen",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1496823056,
-				["guildName"] = "Risen",
-				["guildRep"] = 42000,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1493618470,
 				["Factions"] = {
-					4600, -- [1]
-					4500, -- [2]
-					4600, -- [3]
-					4600, -- [4]
-					9100, -- [5]
-					[59] = 650,
-					[60] = 15500,
-					[62] = 42000,
-					[63] = 12680,
-					[64] = 6340,
-					[66] = 6340,
-					[136] = 2275,
-					[140] = 11335,
-					[20] = 500,
-					[40] = 1232,
-					[137] = 5650,
-					[122] = 7500,
-					[112] = 4500,
-					[65] = 6340,
-					[67] = 6340,
-					[134] = 10510,
-					[138] = 4000,
-					[55] = 1945,
-					[75] = 4800,
-					[77] = 4500,
-					[139] = 5000,
-					[57] = 487,
-					[135] = 10140,
+					[7] = 16667,
+					[78] = 5740,
+					[8] = 5232,
+					[9] = 2632,
+					[10] = 2532,
+					[20] = 1000,
+					[76] = 5632,
+					[6] = 9442,
+					[113] = 5232,
 				},
 			},
 			["Default.Proudmoore.Praerend"] = {
@@ -341,20 +320,6 @@ DataStore_ReputationsDB = {
 				["guildRep"] = 42000,
 				["guildName"] = "Risen",
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1493618470,
-				["Factions"] = {
-					[7] = 16667,
-					[78] = 5740,
-					[8] = 5232,
-					[9] = 2632,
-					[10] = 2532,
-					[20] = 1000,
-					[76] = 5632,
-					[6] = 9442,
-					[113] = 5232,
-				},
-			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 				["Factions"] = {
@@ -366,6 +331,41 @@ DataStore_ReputationsDB = {
 					[9] = 2008,
 					[76] = 5008,
 					[78] = 4608,
+				},
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1496823056,
+				["guildName"] = "Risen",
+				["guildRep"] = 42000,
+				["Factions"] = {
+					4600, -- [1]
+					4500, -- [2]
+					4600, -- [3]
+					4600, -- [4]
+					9100, -- [5]
+					[59] = 650,
+					[60] = 15500,
+					[62] = 42000,
+					[63] = 12680,
+					[64] = 6340,
+					[66] = 6340,
+					[136] = 2275,
+					[140] = 11335,
+					[20] = 500,
+					[40] = 1232,
+					[137] = 5650,
+					[122] = 7500,
+					[112] = 4500,
+					[65] = 6340,
+					[67] = 6340,
+					[134] = 10510,
+					[138] = 4000,
+					[55] = 1945,
+					[75] = 4800,
+					[77] = 4500,
+					[139] = 5000,
+					[57] = 487,
+					[135] = 10140,
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {
@@ -442,7 +442,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1496823108,
+				["lastUpdate"] = 1496887180,
 				["guildName"] = "Risen",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -452,13 +452,13 @@ DataStore_ReputationsDB = {
 					42000, -- [4]
 					11235, -- [5]
 					[135] = 15092,
-					[139] = 6437,
+					[139] = 6662,
 					[62] = 42000,
 					[63] = 2731,
 					[64] = 1365,
 					[66] = 1365,
 					[18] = 1000,
-					[136] = 12375,
+					[136] = 12600,
 					[140] = 3835,
 					[20] = 1000,
 					[137] = 3250,
