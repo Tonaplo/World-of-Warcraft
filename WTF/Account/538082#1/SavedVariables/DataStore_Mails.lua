@@ -25,20 +25,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/06/07 01:06",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1496820698,
-				["Mails"] = {
-					{
-						["lastCheck"] = 1496820698,
-						["sender"] = "Thaumaturge Vashreen",
-						["subject"] = "Lost Item",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
-						["icon"] = 134327,
-						["daysLeft"] = 6.78797435760498,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2017/06/07 00:31",
+				["lastUpdate"] = 1496988898,
+				["lastVisitDate"] = "2017/06/08 23:14",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1496821680,
@@ -60,9 +48,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496821502,
 				["lastVisitDate"] = "2017/06/07 00:45",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1496821233,
-				["lastVisitDate"] = "2017/06/07 00:40",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1496820777,
+				["lastVisitDate"] = "2017/06/07 00:32",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1496907968,
@@ -88,9 +76,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496822021,
 				["lastVisitDate"] = "2017/06/07 00:53",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1496820777,
-				["lastVisitDate"] = "2017/06/07 00:32",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1496821233,
+				["lastVisitDate"] = "2017/06/07 00:40",
 			},
 		},
 	},

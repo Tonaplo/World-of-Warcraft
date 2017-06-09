@@ -21,8 +21,8 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1496711341,
-				["lastVisitDate"] = "2017/06/05 18:09",
+				["lastUpdate"] = 1496976496,
+				["lastVisitDate"] = "2017/06/08 19:48",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,

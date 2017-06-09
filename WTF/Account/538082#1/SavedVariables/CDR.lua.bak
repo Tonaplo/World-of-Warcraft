@@ -8,10 +8,10 @@ CDRDatabase = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 	},
 }

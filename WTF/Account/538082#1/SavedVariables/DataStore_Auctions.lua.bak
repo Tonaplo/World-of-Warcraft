@@ -29,8 +29,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2017/05/22 00:00",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1496711341,
-				["lastVisitDate"] = "2017/06/05 18:09",
+				["lastUpdate"] = 1496976496,
+				["lastVisitDate"] = "2017/06/08 19:48",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1495161140,
