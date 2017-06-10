@@ -16,7 +16,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 			["RotationTokens"] = {
 				["ABuep4Bpwxp"] = "OPCCTc",
 				["ABuep4Bpwxa"] = "OPCTA3",
@@ -29,7 +29,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 		},
 	},
 	["PersistentStorage"] = {
@@ -105,8 +105,8 @@ OneRing_Config = {
 			},
 			["CommonTrades"] = {
 				{
-					["id"] = "/cast {{spell:3908/51309}}",
 					["sliceToken"] = "OPCCTt",
+					["id"] = "/cast {{spell:3908/51309}}",
 				}, -- [1]
 				{
 					["id"] = "/cast {{spell:2108/51302}}",
@@ -121,8 +121,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTj",
 				}, -- [4]
 				{
-					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
 					["sliceToken"] = "OPCCTe",
+					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
 				}, -- [5]
 				{
 					["id"] = "/cast {{spell:2259/51304}}",
@@ -141,24 +141,24 @@ OneRing_Config = {
 					["id"] = "/cast {{spell:3273/45542}}",
 				}, -- [9]
 				{
-					["sliceToken"] = "OPCCTg",
 					["id"] = "/cast {{spell:4036/51306}}",
+					["sliceToken"] = "OPCCTg",
 				}, -- [10]
 				{
-					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
 					["sliceToken"] = "OPCCTr",
+					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
 				}, -- [11]
 				{
 					["id"] = 53428,
 					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["sliceToken"] = "OPCCTm",
 					["id"] = 2656,
+					["sliceToken"] = "OPCCTm",
 				}, -- [13]
 				{
-					["id"] = 13262,
 					["sliceToken"] = "ABuepjqUmtwi",
+					["id"] = 13262,
 				}, -- [14]
 				{
 					["sliceToken"] = "ABuep4BpwxeZ",
@@ -179,6 +179,22 @@ OneRing_Config = {
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
+			},
+			["Mounts"] = {
+				{
+					["sliceToken"] = "ABuepjqUmtwy",
+					["id"] = 150544,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuepjqUmtwt",
+					["id"] = 61425,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuepjqUmtw1",
+					["id"] = 72286,
+				}, -- [3]
+				["save"] = true,
+				["name"] = "Mounts",
 			},
 			["RaidSymbols"] = {
 				{
@@ -227,104 +243,9 @@ OneRing_Config = {
 					["sliceToken"] = "OPCRSc",
 				}, -- [9]
 				["name"] = "Target Markers",
-				["internal"] = true,
+				["save"] = true,
 				["hotkey"] = "ALT-R",
-				["save"] = true,
-			},
-			["Mounts"] = {
-				{
-					["sliceToken"] = "ABuepjqUmtwy",
-					["id"] = 150544,
-				}, -- [1]
-				{
-					["sliceToken"] = "ABuepjqUmtwt",
-					["id"] = 61425,
-				}, -- [2]
-				{
-					["sliceToken"] = "ABuepjqUmtw1",
-					["id"] = 72286,
-				}, -- [3]
-				["save"] = true,
-				["name"] = "Mounts",
-			},
-			["onsumables"] = {
-				{
-					"item", -- [1]
-					140587, -- [2]
-					["sliceToken"] = "ABuepjqUmtZ",
-				}, -- [1]
-				{
-					"item", -- [1]
-					138292, -- [2]
-					["sliceToken"] = "ABuepjqUmtL",
-				}, -- [2]
-				{
-					"item", -- [1]
-					133572, -- [2]
-					["sliceToken"] = "ABuepjqUmtK",
-				}, -- [3]
-				{
-					"item", -- [1]
-					133570, -- [2]
-					["sliceToken"] = "ABuepjqUmtJ",
-				}, -- [4]
-				{
-					"item", -- [1]
-					127847, -- [2]
-					["sliceToken"] = "ABuepjqUmtH",
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuepjqUmt0",
-					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
-				}, -- [6]
-				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuepjv9NWu",
-				}, -- [7]
-				{
-					"item", -- [1]
-					127770, -- [2]
-					["sliceToken"] = "ABuepjv9NWy",
-				}, -- [8]
-				["save"] = true,
-				["name"] = "Consumables",
-			},
-			["tAbilities"] = {
-				{
-					["id"] = 1706,
-					["sliceToken"] = "ABuep4BpwxR",
-				}, -- [1]
-				{
-					["id"] = 2006,
-					["sliceToken"] = "ABuep4Bpwx7",
-				}, -- [2]
-				{
-					["sliceToken"] = "ABuep4BpwxE",
-					["id"] = "/click ORLOpen Base",
-					["caption"] = "Base",
-					["icon"] = 1339449,
-					["fastClick"] = true,
-				}, -- [3]
-				{
-					["id"] = 232698,
-					["sliceToken"] = "ABuepjqUmtwp",
-				}, -- [4]
-				{
-					["id"] = 31687,
-					["sliceToken"] = "ABuep5Et2m1",
-				}, -- [5]
-				{
-					["id"] = 190336,
-					["sliceToken"] = "ABuep5Et2mr",
-				}, -- [6]
-				{
-					["sliceToken"] = "ABuepcdn0Le",
-					["id"] = 546,
-				}, -- [7]
-				["save"] = true,
-				["name"] = "Abilities",
+				["internal"] = true,
 			},
 			["WorldMarkers"] = {
 				{
@@ -374,9 +295,88 @@ OneRing_Config = {
 					["c"] = "ccd8e5",
 				}, -- [9]
 				["name"] = "World Markers",
-				["internal"] = true,
-				["hotkey"] = "[group] ALT-Y",
 				["save"] = true,
+				["hotkey"] = "[group] ALT-Y",
+				["internal"] = true,
+			},
+			["tAbilities"] = {
+				{
+					["sliceToken"] = "ABuep4BpwxR",
+					["id"] = 1706,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuep4Bpwx7",
+					["id"] = 2006,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuep4BpwxE",
+					["id"] = "/click ORLOpen Base",
+					["caption"] = "Base",
+					["icon"] = 1339449,
+					["fastClick"] = true,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuepjqUmtwp",
+					["id"] = 232698,
+				}, -- [4]
+				{
+					["id"] = 31687,
+					["sliceToken"] = "ABuep5Et2m1",
+				}, -- [5]
+				{
+					["id"] = 190336,
+					["sliceToken"] = "ABuep5Et2mr",
+				}, -- [6]
+				{
+					["id"] = 546,
+					["sliceToken"] = "ABuepcdn0Le",
+				}, -- [7]
+				["save"] = true,
+				["name"] = "Abilities",
+			},
+			["onsumables"] = {
+				{
+					"item", -- [1]
+					140587, -- [2]
+					["sliceToken"] = "ABuepjqUmtZ",
+				}, -- [1]
+				{
+					"item", -- [1]
+					138292, -- [2]
+					["sliceToken"] = "ABuepjqUmtL",
+				}, -- [2]
+				{
+					"item", -- [1]
+					133572, -- [2]
+					["sliceToken"] = "ABuepjqUmtK",
+				}, -- [3]
+				{
+					"item", -- [1]
+					133570, -- [2]
+					["sliceToken"] = "ABuepjqUmtJ",
+				}, -- [4]
+				{
+					"item", -- [1]
+					127847, -- [2]
+					["sliceToken"] = "ABuepjqUmtH",
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuepjqUmt0",
+					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
+				}, -- [6]
+				{
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
+				}, -- [7]
+				{
+					"item", -- [1]
+					127770, -- [2]
+					["sliceToken"] = "ABuepjv9NWy",
+				}, -- [8]
+				["save"] = true,
+				["name"] = "Consumables",
 			},
 			["Base"] = {
 				{

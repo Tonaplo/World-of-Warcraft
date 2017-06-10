@@ -1,6 +1,12 @@
 VER 3 000000000000002A "CooldownRotation" "1386546"
 /cdr
 END
+VER 3 000000000000002D "everything" "INV_MISC_QUESTIONMARK"
+/use Power infusion
+/use Draenic Versatility Potion
+/use Drums of the Mountain
+/use Shadowfiend
+END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END
@@ -14,6 +20,9 @@ END
 VER 3 0000000000000029 "Penance Focus" "INV_MISC_QUESTIONMARK"
 #showtooltip Penance
 /cast [exists][@focus] Penance
+END
+VER 3 000000000000002E "raest" "INV_MISC_QUESTIONMARK"
+/tar Raest
 END
 VER 3 0000000000000003 "Rchars" "134162"
 /rchars
