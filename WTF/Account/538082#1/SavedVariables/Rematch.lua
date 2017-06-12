@@ -2,21 +2,21 @@
 RematchSaved = {
 	[117950] = {
 		{
-			"BattlePet-0-000008688254", -- [1]
+			"BattlePet-0-000008A6D4E6", -- [1]
 			115, -- [2]
 			779, -- [3]
 			334, -- [4]
 			844, -- [5]
 		}, -- [1]
 		{
-			"BattlePet-0-000008683967", -- [1]
+			"BattlePet-0-000008A6D4E2", -- [1]
 			210, -- [2]
-			654, -- [3]
+			442, -- [3]
 			212, -- [4]
 			190, -- [5]
 		}, -- [2]
 		{
-			"BattlePet-0-000006CDF3BD", -- [1]
+			"BattlePet-0-000008A6D3F0", -- [1]
 			210, -- [2]
 			212, -- [3]
 			650, -- [4]
@@ -76,22 +76,22 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Tough"] = {
+		["Favorite"] = {
 		},
-		["Level"] = {
-			[4] = true,
+		["Collected"] = {
 		},
 		["Sources"] = {
 		},
 		["Breed"] = {
 		},
-		["Similar"] = {
-		},
 		["Script"] = {
 		},
-		["Collected"] = {
+		["Similar"] = {
 		},
-		["Favorite"] = {
+		["Level"] = {
+			[4] = true,
+		},
+		["Tough"] = {
 		},
 		["Types"] = {
 		},
@@ -102,7 +102,7 @@ RematchSettings = {
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
-		["BattlePet-0-000008683967"] = {
+		["BattlePet-0-000008A6D4E2"] = {
 			1, -- [1]
 			true, -- [2]
 			190, -- [3]
@@ -112,7 +112,7 @@ RematchSettings = {
 			227, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000008688254"] = {
+		["BattlePet-0-000008A6D4E6"] = {
 			1, -- [1]
 			true, -- [2]
 			844, -- [3]
@@ -122,7 +122,7 @@ RematchSettings = {
 			309, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000006CDF3BD"] = {
+		["BattlePet-0-000008A6D3F0"] = {
 			1, -- [1]
 			true, -- [2]
 			458, -- [3]

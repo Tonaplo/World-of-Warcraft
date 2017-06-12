@@ -48,3 +48,10 @@ X: -300
 Y: 0
 W: 232
 H: 100
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 60
+W: 370
+H: 110
