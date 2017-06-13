@@ -1,7 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 			["Rahsputin-SistersofElune"] = {
@@ -60,6 +58,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_start"] = "11:36:21",
@@ -85,6 +84,12 @@ DetailsTimeLineDB = {
 			["name"] = "Opera Hall",
 			["total_time"] = 249,
 		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -345,14 +350,6 @@ DetailsTimeLineDB = {
 					["source"] = "Mrs. Cauldrons",
 					["active"] = false,
 				},
-				[228221] = {
-					51.3919999999998, -- [1]
-					53.9399999999996, -- [2]
-					85.5770000000002, -- [3]
-					97.5799999999999, -- [4]
-					["source"] = "Babblet",
-					["active"] = false,
-				},
 				[228200] = {
 					21.2799999999997, -- [1]
 					22.2169999999996, -- [2]
@@ -361,11 +358,11 @@ DetailsTimeLineDB = {
 					["source"] = "Luminore",
 					["active"] = false,
 				},
-				[228215] = {
-					53.9399999999996, -- [1]
-					57.951, -- [2]
-					91.9870000000001, -- [3]
-					95.9930000000004, -- [4]
+				[228221] = {
+					51.3919999999998, -- [1]
+					53.9399999999996, -- [2]
+					85.5770000000002, -- [3]
+					97.5799999999999, -- [4]
 					["source"] = "Babblet",
 					["active"] = false,
 				},
@@ -375,6 +372,14 @@ DetailsTimeLineDB = {
 					199.66, -- [3]
 					207.664, -- [4]
 					["source"] = "Silver Forks",
+					["active"] = false,
+				},
+				[228215] = {
+					53.9399999999996, -- [1]
+					57.951, -- [2]
+					91.9870000000001, -- [3]
+					95.9930000000004, -- [4]
+					["source"] = "Babblet",
 					["active"] = false,
 				},
 			},
@@ -393,12 +398,6 @@ DetailsTimeLineDB = {
 					145.784, -- [11]
 					153.777, -- [12]
 					["source"] = "Mrs. Cauldrons",
-					["active"] = false,
-				},
-				[228200] = {
-					30.8320000000003, -- [1]
-					33.0389999999998, -- [2]
-					["source"] = "Luminore",
 					["active"] = false,
 				},
 				[228221] = {
@@ -423,6 +422,12 @@ DetailsTimeLineDB = {
 					85.5460000000003, -- [5]
 					89.5470000000005, -- [6]
 					["source"] = "Babblet",
+					["active"] = false,
+				},
+				[228200] = {
+					30.8320000000003, -- [1]
+					33.0389999999998, -- [2]
+					["source"] = "Luminore",
 					["active"] = false,
 				},
 			},
@@ -473,12 +478,6 @@ DetailsTimeLineDB = {
 					["source"] = "Mrs. Cauldrons",
 					["active"] = false,
 				},
-				[228200] = {
-					40.3209999999999, -- [1]
-					40.5590000000002, -- [2]
-					["source"] = "Luminore",
-					["active"] = false,
-				},
 				[228221] = {
 					12.4610000000002, -- [1]
 					24.4690000000001, -- [2]
@@ -491,10 +490,10 @@ DetailsTimeLineDB = {
 					["source"] = "Babblet",
 					["active"] = false,
 				},
-				[228215] = {
-					68.5079999999998, -- [1]
-					72.5029999999997, -- [2]
-					["source"] = "Babblet",
+				[228200] = {
+					40.3209999999999, -- [1]
+					40.5590000000002, -- [2]
+					["source"] = "Luminore",
 					["active"] = false,
 				},
 				[232135] = {
@@ -505,6 +504,12 @@ DetailsTimeLineDB = {
 					204.954, -- [5]
 					212.958, -- [6]
 					["source"] = "Silver Forks",
+					["active"] = false,
+				},
+				[228215] = {
+					68.5079999999998, -- [1]
+					72.5029999999997, -- [2]
+					["source"] = "Babblet",
 					["active"] = false,
 				},
 			},
@@ -540,6 +545,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Djínní-Drakkari"] = {
@@ -686,11 +692,5 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 }

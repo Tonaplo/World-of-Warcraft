@@ -2,10 +2,10 @@
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -28,13 +28,13 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1495436421,
 				["lastVisitDate"] = "2017/05/22 00:00",
 			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1497234267,
-				["lastVisitDate"] = "2017/06/11 19:24",
-			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1495161140,
 				["lastVisitDate"] = "2017/05/18 19:32",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1497234267,
+				["lastVisitDate"] = "2017/06/11 19:24",
 			},
 		},
 	},
