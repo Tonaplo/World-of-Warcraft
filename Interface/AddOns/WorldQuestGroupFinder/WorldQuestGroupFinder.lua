@@ -638,7 +638,7 @@ function WorldQuestGroupFinder.InitSearchProcess(questID, retry, forceCreate, wa
 				manualActionsFrame.NextButton:SetText(L["WQGF_FRAME_INIT_SEARCH"])
 				manualActionsFrame.NextButton:SetScript("OnClick", function(self, button, down)
 					if (NEW_AREA_TIMER) then NEW_AREA_TIMER:Cancel() end
-					C_LFGList.Search(1, title, 0, 4, selectedLanguages)
+					C_LFGList.Search(1, LFGListSearchPanel_ParseSearchTerms(title), 0, 4, selectedLanguages)
 					manualActionsFrame.NextButton:Disable()
 					C_Timer.After(1.5, function()
 						WorldQuestGroupFinder.InitSearchProcess(questID, true)
@@ -648,7 +648,7 @@ function WorldQuestGroupFinder.InitSearchProcess(questID, retry, forceCreate, wa
 			end
 			
 			if (not retry) then
-				C_LFGList.Search(1, title, 0, 4, selectedLanguages)
+				C_LFGList.Search(1, LFGListSearchPanel_ParseSearchTerms(title), 0, 4, selectedLanguages)
 				manualActionsFrame.NextButton:Disable()
 				C_Timer.After(1, function()
 					manualActionsFrame.NextButton:Enable()

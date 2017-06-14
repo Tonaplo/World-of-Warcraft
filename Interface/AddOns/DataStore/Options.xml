@@ -1,53 +1,54 @@
-<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="Options.lua"></Script>
 
-	<CheckButton name="DataStoreToggleableOptionTemplate" inherits="InterfaceOptionsCheckButtonTemplate" virtual="true">
-		<Size x="20" y="20" />
-		<Scripts>
-			<OnLoad>
-				local module = self:GetParent().module
-				local L = LibStub("AceLocale-3.0"):GetLocale(module)
-				
-				-- Set Label
-				self.Text:SetText(L[self.locLabel])
-				
-				-- Set the tooltip
-				DataStore:SetCheckBoxTooltip(self, L[self.locTitle], L[self.locEnabled], L[self.locDisabled])
-			</OnLoad>
-			<OnClick>
-				local module = self:GetParent().module
-				
-				DataStore:ToggleOption(self, module, self.option)
-			</OnClick>
-		</Scripts>
-	</CheckButton>
-	
 	<Frame name="DataStoreGeneralOptions" hidden="true">
-		<Size x="615" y="306" />
+		<Size>
+			<AbsDimension x="615" y="306"/>
+		</Size>
 		<Layers>
 			<Layer level="OVERLAY">
 				<FontString name="$parent_Title" inherits="GameFontHighlightLarge" justifyH="CENTER">
-					<Size x="400" y="30" />
+					<Size>
+						<AbsDimension x="400" y="30"/>
+					</Size>
 					<Anchors>
 						<Anchor point="TOP" />
 					</Anchors>
 				</FontString>
 				<FontString name="$parent_AddonsText" inherits="GameFontNormal" justifyH="LEFT">
-					<Size x="60" y="20" />
+					<Size>
+						<AbsDimension x="60" y="20"/>
+					</Size>
 					<Anchors>
-						<Anchor point="TOPLEFT" x="20" y="-40" />
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-40"/>
+							</Offset>
+						</Anchor>
 					</Anchors>
 				</FontString>
 				<FontString name="$parent_AddonsList" inherits="GameFontNormal" justifyH="LEFT" justifyV="TOP">
-					<Size x="220" y="240" />
+					<Size>
+						<AbsDimension x="220" y="240"/>
+					</Size>
 					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="$parent_AddonsText" relativePoint="BOTTOMLEFT" x="20" y="-20" />
+						<Anchor point="TOPLEFT" relativeTo="$parent_AddonsText" relativePoint="BOTTOMLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-20"/>
+							</Offset>
+						</Anchor>
 					</Anchors>
 				</FontString>
 				<FontString name="$parent_AddonsMem" inherits="GameFontNormal" justifyH="RIGHT" justifyV="TOP">
-					<Size x="60" y="240" />
+					<Size>
+						<AbsDimension x="60" y="240"/>
+					</Size>
 					<Anchors>
-						<Anchor point="TOPLEFT" relativeTo="$parent_AddonsList" relativePoint="TOPRIGHT" x="20" y="0" />
+						<Anchor point="TOPLEFT" relativeTo="$parent_AddonsList" relativePoint="TOPRIGHT">
+							<Offset>
+								<AbsDimension x="20" y="0"/>
+							</Offset>
+						</Anchor>
 					</Anchors>
 				</FontString>
 			</Layer>
@@ -59,9 +60,15 @@
 		</Scripts>
 		<Frames>
 			<Button name="$parent_Refresh" inherits="UIPanelButtonTemplate" text="Refresh">
-				<Size x="100" y="24" />
+				<Size>
+					<AbsDimension x="100" y="24"/>
+				</Size>
 				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="$parent_AddonsList" relativePoint="BOTTOMLEFT" x="30" y="-30" />
+					<Anchor point="TOPLEFT" relativeTo="$parent_AddonsList" relativePoint="BOTTOMLEFT" >
+						<Offset>
+							<AbsDimension x="30" y="-30"/>
+						</Offset>
+					</Anchor>
 				</Anchors>
 				<Scripts>
 					<OnClick>
@@ -73,7 +80,9 @@
 	</Frame>
 	
 	<Frame name="DataStoreHelp" hidden="true">
-		<Size x="615" y="400" />
+		<Size>
+			<AbsDimension x="615" y="400"/>
+		</Size>
 		<Scripts>
 			<OnUpdate>
 				DataStore:OnUpdate(self)
@@ -84,22 +93,40 @@
 		</Scripts>
 		<Frames>
 			<ScrollFrame name="$parent_ScrollFrame" inherits="UIPanelScrollFrameTemplate">
-				<Size x="615" y="400" />
+				<Size>
+					<AbsDimension x="615" y="400"/>
+				</Size>
 				<Anchors>
-					<Anchor point="TOPLEFT" x="10" y="-20" />
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-20"/>
+						</Offset>
+					</Anchor>
 				</Anchors>
 				<ScrollChild>
 					<Frame name="$parentScrollChildFrame">
-						<Size x="270" y="304" />
+						<Size>
+							<AbsDimension x="270" y="304"/>
+						</Size>
 						<Anchors>
-							<Anchor point="TOPLEFT" x="0" y="0" />
+							<Anchor point="TOPLEFT">
+								<Offset>
+									<AbsDimension x="0" y="0"/>
+								</Offset>
+							</Anchor>
 						</Anchors>
 						<Layers>
 							<Layer level="OVERLAY">
 								<FontString name="DataStoreHelp_Text" inherits="GameFontNormal" justifyH="LEFT" justifyV="TOP">
-									<Size x="580" />
+									<Size>
+										<AbsDimension x="580" />
+									</Size>
 									<Anchors>
-										<Anchor point="TOPLEFT" x="0" y="0" />
+										<Anchor point="TOPLEFT">
+											<Offset>
+												<AbsDimension x="0" y="0"/>
+											</Offset>
+										</Anchor>
 									</Anchors>
 								</FontString>
 							</Layer>

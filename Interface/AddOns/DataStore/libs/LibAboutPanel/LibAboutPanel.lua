@@ -3,8 +3,8 @@
 ****************************************************************************************
 LibAboutPanel
 
-File date: @file-date-iso@
-Project version: @project-version@
+File date: 2014-08-06T00:23:36Z
+Project version: 1.6.2
 
 Author: Tekkub, Ackis
 

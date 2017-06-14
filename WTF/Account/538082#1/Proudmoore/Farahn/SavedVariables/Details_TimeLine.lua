@@ -1,5 +1,13 @@
 
 DetailsTimeLineDB = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["max_segments"] = 4,
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -8,91 +16,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
-		{
-			["date_end"] = "23:27:25",
-			["date_start"] = "23:26:20",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 65.0069999999978,
-		}, -- [1]
-		{
-			["date_end"] = "23:24:00",
-			["date_start"] = "23:23:06",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 53.9989999999998,
-		}, -- [2]
-		{
-			["date_end"] = "23:16:05",
-			["date_start"] = "23:15:07",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 58.0130000000027,
-		}, -- [3]
-		{
-			["date_start"] = "20:25:05",
-			["date_end"] = "20:25:38",
-			["name"] = "Wrath of Azshara",
-			["total_time"] = 33.0089999999982,
-		}, -- [4]
-	},
-	["cooldowns_timeline"] = {
-		{
-			["Uthren"] = {
-				{
-					11.3709999999992, -- [1]
-					"Uthren", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					37.8849999999984, -- [1]
-					"Uthren", -- [2]
-					86659, -- [3]
-				}, -- [2]
-			},
-			["Farahn"] = {
-				{
-					44.0069999999978, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Uthren"] = {
-				{
-					42.7400000000016, -- [1]
-					"Uthren", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Cuisinarts-DarkIron"] = {
-				{
-					20.1730000000025, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-			["Farahn"] = {
-				{
-					42.7280000000028, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Karmarine-Dalaran"] = {
-				{
-					21.2580000000016, -- [1]
-					"Karmarine-Dalaran", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -224,11 +147,88 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
+		{
+			["Uthren"] = {
+				{
+					11.3709999999992, -- [1]
+					"Uthren", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					37.8849999999984, -- [1]
+					"Uthren", -- [2]
+					86659, -- [3]
+				}, -- [2]
+			},
+			["Farahn"] = {
+				{
+					44.0069999999978, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Uthren"] = {
+				{
+					42.7400000000016, -- [1]
+					"Uthren", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Cuisinarts-DarkIron"] = {
+				{
+					20.1730000000025, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+			["Farahn"] = {
+				{
+					42.7280000000028, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Karmarine-Dalaran"] = {
+				{
+					21.2580000000016, -- [1]
+					"Karmarine-Dalaran", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "23:26:20",
+			["date_end"] = "23:27:25",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 65.0069999999978,
+		}, -- [1]
+		{
+			["date_start"] = "23:23:06",
+			["date_end"] = "23:24:00",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 53.9989999999998,
+		}, -- [2]
+		{
+			["date_start"] = "23:15:07",
+			["date_end"] = "23:16:05",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 58.0130000000027,
+		}, -- [3]
+		{
+			["date_end"] = "20:25:38",
+			["date_start"] = "20:25:05",
+			["name"] = "Wrath of Azshara",
+			["total_time"] = 33.0089999999982,
+		}, -- [4]
 	},
 }
