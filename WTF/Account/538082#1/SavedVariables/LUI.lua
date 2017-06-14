@@ -69,14 +69,16 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
 					["Gold"] = {
@@ -89,13 +91,11 @@ LUIDB = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -104,7 +104,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5537949483,
+							["Mallusof"] = 5538586612,
 						},
 					},
 				},
@@ -147,21 +147,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -189,13 +182,28 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
 			["profiles"] = {
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -695,14 +703,6 @@ LUIDB = {
 						},
 					},
 				},
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 			},
 		},
 		["Threat"] = {
@@ -815,38 +815,38 @@ LUIDB = {
 							"/g |cffa335ee|Hitem:136714::::::::110:264::35:3:3416:1547:3336:::|h[Amalgam's Seventh Spine]|h|r", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/2 Went to Krasus' Landing expecting Bladestorming warriors. Was dissappoints", -- [1]
-							"/cw Resthaven hey bud", -- [2]
-							"/cw Bear-Daggerspine Do you mind if I invite you to a group? Testing out some stuff that needs one \":_)", -- [3]
-							"/cw Bear-Daggerspine ty!", -- [4]
-							"/g gz", -- [5]
-							"/cw Bear-Daggerspine cool!", -- [6]
-							"/bow", -- [7]
-							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [8]
+							"/cw Bear-Daggerspine cool!", -- [1]
+							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [2]
+							"/g gz", -- [3]
+							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [4]
+							"/console reloadui", -- [5]
+							"/p oh god the spam", -- [6]
+							"/cw Agean-Aggramar please turn that spam off. the quest compete thing is enough", -- [7]
+							"/cw Bear-Daggerspine ty!", -- [8]
 							"/g I could have it display a name too..... But I dont think that's really needed.", -- [9]
-							"/cw Resthaven hey bud", -- [10]
-							"/cw Bear-Daggerspine ty!", -- [11]
-							"/cw Bear-Daggerspine cool!", -- [12]
-							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [13]
-							"/cw Resthaven hey bud", -- [14]
-							"/cw Bear-Daggerspine cool!", -- [15]
-							"/cw Resthaven hey bud", -- [16]
-							"/2 Went to Krasus' Landing expecting Bladestorming warriors. Was dissappoints", -- [17]
-							"/cw Bear-Daggerspine Do you mind if I invite you to a group? Testing out some stuff that needs one \":_)", -- [18]
-							"/g gz", -- [19]
-							"/bow", -- [20]
-							"/g I could have it display a name too..... But I dont think that's really needed.", -- [21]
-							"/cw Bear-Daggerspine ty!", -- [22]
-							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [23]
-							"/cw Bear-Daggerspine cool!", -- [24]
-							"/2 Went to Krasus' Landing expecting Bladestorming warriors. Was dissappoints", -- [25]
+							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [10]
+							"/p oh god the spam", -- [11]
+							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [12]
+							"/p oh god the spam", -- [13]
+							"/reload", -- [14]
+							"/g gz", -- [15]
+							"/cw Bear-Daggerspine cool!", -- [16]
+							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [17]
+							"/g gz", -- [18]
+							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [19]
+							"/console reloadui", -- [20]
+							"/cw Agean-Aggramar please turn that spam off. the quest compete thing is enough", -- [21]
+							"/g I could have it display a name too..... But I dont think that's really needed.", -- [22]
+							"/p oh god the spam", -- [23]
+							"/reload", -- [24]
+							"/cw Bear-Daggerspine cool!", -- [25]
 							"/g gz", -- [26]
-							"/g I could have it display a name too..... But I dont think that's really needed.", -- [27]
-							"/g New Disc talent is pretty crazy |cff71d5ff|Htalent:22976|h[Evangelism]|h|r", -- [28]
-							"/2 Went to Krasus' Landing expecting Bladestorming warriors. Was dissappoints", -- [29]
-							"/g I could have it display a name too..... But I dont think that's really needed.", -- [30]
-							"/2 Went to Krasus' Landing expecting Bladestorming warriors. Was dissappoints", -- [31]
-							"/i this boss tho", -- [32]
+							"/console reloadui", -- [27]
+							"/g I could have it display a name too..... But I dont think that's really needed.", -- [28]
+							"/reload", -- [29]
+							"/g gz", -- [30]
+							"/g I could have it display a name too..... But I dont think that's really needed.", -- [31]
+							"/g gz", -- [32]
 						},
 					},
 				},
@@ -2290,22 +2290,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["luiconfig"] = {
