@@ -20,6 +20,8 @@ local UnitPower = UnitPower
 local UnitPowerMax = UnitPowerMax
 local UnitClass = UnitClass
 
+local SharedMedia = LibStub:GetLibrary ("LibSharedMedia-3.0")
+
 --> Create the plugin Object
 local RaidPowerBars = _detalhes:NewPluginObject ("Details_PowerBar")
 --> Main Frame
@@ -128,6 +130,16 @@ local function CreatePluginFrames (data)
 	function RaidPowerBars:UpdateRows()
 		for _, row in _ipairs (RaidPowerBars.Rows) do
 			row.width = RaidPowerBars.RowWidth
+			
+			local instance = RaidPowerBars:GetPluginInstance()
+			
+			row.textsize = instance.row_info.font_size
+			
+			local font = SharedMedia:Fetch ("font", instance.row_info.font_face, true) or instance.row_info.font_face
+			
+			row.textfont = font
+			row.texture = instance.row_info.texture
+			row.shadow = instance.row_info.textL_outline			
 		end
 	end
 	

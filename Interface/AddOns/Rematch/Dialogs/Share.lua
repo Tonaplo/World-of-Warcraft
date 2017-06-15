@@ -10,45 +10,6 @@ local rxData = nil -- will be a string built from messages sent from other clien
 -- in string format, P:etc are optional, as is N:notes+
 -- plain text: "name of team\n(NPC#123)\n1: Name of Pet (1,2,1)\netc"
 
--- patterns for importing teams from a string
--- (.*) gathers up trailing characters after the pattern; it's "" if empty
-local patterns = {
-	normal = "^([^\n]-):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(%d+):(.*)",
-	prefs = "P:(%d+):(%d+):(%d+):(%d+):([%d%.]+):([%d%.]+):(.*)",
-	notes = "N:(.+)",
-}
-
--- plain text match() and format() stubs; be very careful that these match!
-local importStubs = {
-	title_npcID = L["^(.-)%(.-NPC#(%d+)%)"], -- "Team (NPC Name NPC#1234)" or "Team (NPC#1234)"
-	allpets_capture = "%s*(1:[^\n]+\n%s*2:[^\n]+\n%s*3:[^\n]+)", -- captures 1: 2: 3: pet section
-	pet_with_abilities = L[":([^\n]-)[%(%[]*([12]).([12]).([12])[%)%]]*.-[\n]*"], -- "Name (1,2,1)"
-	pet_basic = L[":([^\n]+)"], -- when abilities can't be parsed, try for just a name
-	prefs = L["\n%s*Preferred leveling pets: ([^\n]+)%."], -- whole preferences line (%. excludes final .)
-	minHP_basic = L["at least (%d+) health"],
-	minHP_allowMM = L["or any Magic/Mechanical"],
-	minHP_expectedDD = L[".+[,%(](.-)damage expected%)"],
-	maxHP = L["at most (%d+) health"],
-	minXP = L["at least level ([%d%.]+)"],
-	maxXP = L["at most level ([%d%.]+)"],
-	leveling_pet = L["^[Ll][Ee][Vv][Ee][Ll][Ii][Nn][Gg] [Pp][Ee][Tt]$"], -- case insensitive compare
-	carry_pet = L["^[Cc][Aa][Rr][Rr][Yy] [Pp][Ee][Tt]$"], -- for attempting to import teams not created with rematch
-}
-local exportStubs = {
-	title_npcID_only = L["%s (NPC#%d)"], -- 1=name of npc, 2=npcID
-	title_npcID_name = L["%s (%s NPC#%d)"], -- 1=name of team, 2=name of npc, 3=npcID
-	pet_basic = L["%d: %s"], -- 1=slot, 2=pet name
-	pet_with_abilities = L["%d: %s (%d,%d,%d)"], -- 1=slot, 2=pet name, 3-5=1/2 ability
-	prefs = L["Preferred leveling pets: %s."], -- 1=concatenated string of preferences
-	minHP_basic = L["at least %d health"], -- 1=minHP
-	minHP_allowMM = L["at least %d health (or any Magic/Mechanical)"], -- 1=minHP
-	minHP_expectedDD = L["at least %d health (%s damage expected)"], -- 1=minHP, 2=expectedDD text
-	minHP_allowMM_expectedDD = L["at least %d health (or any Magic/Mechanical, %s damage expected)"], -- 1=minHP, 2=expectedDD text (", " critical!)
-	maxHP = L["at most %d health"], -- 1=maxHP
-	minXP = L["at least level %s"], -- 1=minXP
-	maxXP = L["at most level %s"], -- 1=maxXP
-}
-
 rematch:InitModule(function()
 	settings = RematchSettings
 	local radios = rematch.Dialog.ConflictRadios
@@ -59,106 +20,6 @@ rematch:InitModule(function()
 	rematch:RegisterEvent("CHAT_MSG_ADDON")
 	rematch:RegisterEvent("BN_CHAT_MSG_ADDON")
 end)
-
--- returns the sidelined team in plain-text format (or nil if it can't)
-function rematch:ConvertSidelineToPlainText()
-	local result = {}
-	local team,key = rematch:GetSideline()
-	if not key then return end -- no team sidelined, leave
-
-	if type(key)=="number" then
-		local npcName = rematch:GetNameFromNpcID(key)
-		if npcName==team.teamName then -- name of team is same as npcID: "Name of Team (NPC#123)"
-			tinsert(result,format(exportStubs.title_npcID_only,npcName,key))
-		else -- name of team is different from npcID: "Name of Team (Name of NPC (NPC#123)"
-			tinsert(result,format(exportStubs.title_npcID_name,team.teamName,npcName,key))
-		end
-	else -- named team, no npcID; first line is just the name of the team
-		tinsert(result,key)
-	end
-
-	tinsert(result,"") -- blank line separating title from rest
-
-	-- pets and abilities (1: Name of Pet (2/2/1)
-	for i=1,3 do
-		local speciesID, ability1, ability2, ability3 = rematch:ExportPet(team[i],3)
-		if speciesID and speciesID~=0 then
-			local name = C_PetJournal.GetPetInfoBySpeciesID(speciesID)
-			if name then
-				if ability3 then
-					tinsert(result,format(exportStubs.pet_with_abilities,i,name,ability1,ability2,ability3))
-				else
-					tinsert(result,format(exportStubs.pet_basic,i,name))
-				end
-			end
-		else
-			tinsert(result,format(exportStubs.pet_basic,i,L["Leveling Pet"]))
-		end
-	end
-
-	-- Preferred leveling pets: at least 700 health (or any magic/mechanical, dragonkin damage expected); at most 1200 health; at least level 5; at most level 24.5.
-	if rematch:HasPreferences(team) and not settings.DontIncludePreferences then
-		tinsert(result,"")
-		local subprefs = {}
-		if team.minHP then
-			local ddType = team.expectedDD and _G["BATTLE_PET_NAME_"..team.expectedDD]
-			if team.allowMM and team.expectedDD then
-				tinsert(subprefs,format(exportStubs.minHP_allowMM_expectedDD,team.minHP,ddType))
-			elseif team.allowMM and not team.expectedDD then
-				tinsert(subprefs,format(exportStubs.minHP_allowMM,team.minHP))
-			elseif not team.allowMM and team.expectedDD then
-				tinsert(subprefs,format(exportStubs.minHP_expectedDD,team.minHP,ddType))
-			else
-				tinsert(subprefs,format(exportStubs.minHP_basic,team.minHP))
-			end
-		end
-		if team.maxHP then
-			tinsert(subprefs,format(exportStubs.maxHP,team.maxHP))
-		end
-		if team.minXP then
-			tinsert(subprefs,format(exportStubs.minXP,team.minXP))
-		end
-		if team.maxXP then
-			tinsert(subprefs,format(exportStubs.maxXP,team.maxXP))
-		end
-		-- combine all of the above to "Preferred leveling pets: (stubs separated by a ;)."
-		tinsert(result,format(exportStubs.prefs,table.concat(subprefs,"; ")))
-	end
-
-	-- notes if any
-	if team.notes and not settings.DontIncludeNotes then
-		tinsert(result,"")
-		tinsert(result,team.notes:trim())
-	end
-
-	return table.concat(result,"\n")
-end
-
--- returns sidelined team in string format
-function rematch:ConvertSidelineToString()
-	local result = {}
-	local team,key = rematch:GetSideline()
-	if not key then return end
-	local name = rematch:GetSidelineTitle()
-	tinsert(result,format("%s:",name)) -- name of team
-	tinsert(result,format("%s:",type(key)=="number" and key or 0))
-	for i=1,3 do
-		tinsert(result,rematch:ExportPet(team[i]))
-	end
-	if rematch:HasPreferences(team) and not settings.DontIncludePreferences then
-		tinsert(result,format("P:%s:%s:%s:%s:%s:%s:",
-			team.minHP or 0,
-			team.allowMM and 1 or 0,
-			team.expectedDD or 0,
-			team.maxHP or 0,
-			team.minXP or 0,
-			team.maxXP or 0))
-	end
-	if team.notes and team.notes:trim()~="" and not settings.DontIncludeNotes then
-		tinsert(result,(format("N:%s",team.notes):gsub("\n","\\n")))
-	end
-	return table.concat(result)
-end
 
 --[[ Export Dialog ]]
 
@@ -331,116 +192,11 @@ function share:IsKeyUsed(name,npcID)
 	end
 end
 
--- if text contains string teams, returns the number of teams and the number of those keys
--- already used for an existing saved team. the first team is sidelined. if gather given
--- as a table, string lines are added to it
-function share:TestTextForStringTeams(text,gather)
-	text = (text or ""):trim()
-	if text=="" then return end
-	-- team name:npcID:pet01:p1-a1:p1-a2:p1-a3:pet02:p2-a1:p2-a2:p2-a3:pet03:p3-a1:p3-a2:p3-a3:
-	local teams = 0 -- number of teams in this text
-	local used = 0 -- number of keys already used by an existing saved team
-	for line in text:gmatch("[^\n]+") do
-		local name,npcID = line:trim():match(patterns.normal)
-		if name then
-			if type(gather)=="table" then
-				tinsert(gather,line)
-			else
-				if teams==0 then -- if this is first team, sideline it
-					share:ConvertStringToSideline(line)
-					rematch.Dialog:SetContext("plain",nil)
-				end
-				teams = teams+1
-				if share:IsKeyUsed(name,npcID) then
-					used = used+1
-				end
-			end
-		end
-	end
-	if teams>0 then
-		return teams,used
-	end
-end
-
--- after a received team has speciesIDs assigned, this function will go through
--- and convert speciesIDs to the highest level petIDs if they exist.
-function share:FindPetIDsForSideline()
-	local team = rematch:GetSideline()
-	-- find petIDs for the incoming pets
-	for i=1,3 do
-		if rematch:GetIDType(team[i][1])=="species" then
-			local petID = rematch:FindTemporaryPetID(team[i][1],i>1 and team[1][1],i>2 and team[2][1])
-			if petID then
-				team[i][5] = team[i][1] -- copy speciesID to 5th field if we found a real petID
-				team[i][1] = petID -- and put real petID in primary pet slot
-			end
-		end
-	end
-end
-
--- converts a single string to a team on the sideline
--- returns true if conversion successful
-function share:ConvertStringToSideline(text)
-	if type(text)~="string" then
-		return -- no idea what this is, leave!
-	end
-	-- gather normal pattern (name, npcID, pets, abilities) into info[1] through info[14]
-	-- if anything else exists (prefs and notes) it'd be in info[15] to parse afterwards
-	info = { text:match(patterns.normal) }
-	if #info==0 then
-		return -- no match happened, this text is bad
-	end
-	local name,npcID = info[1],tonumber(info[2])
-	local team,key
-	if npcID and npcID~=0 then
-		team,key = rematch:SetSideline(npcID,{teamName=name})
-	else
-		team,key = rematch:SetSideline(name,{})
-	end
-	team.tab = settings.SelectedTab>1 and settings.SelectedTab or nil
-	-- copy pets to sidelined team
-	for i=1,3 do
-		team[i] = {}
-		for j=1,4 do
-			team[i][j] = tonumber(info[3+(i-1)*4+(j-1)])
-		end
-	end
-	share:FindPetIDsForSideline() -- replace speciesIDs with petIDs
-	local leftover = info[15]
-	if leftover and leftover~="" then -- maybe preferences or notes included
-		-- gather possibly "P:0:0:etc" from remaining part of string, info[7] is leftover afterwards
-		info = { leftover:match(patterns.prefs) }
-		if info[1] then -- a match means preferences found
-			for i=1,#info do
-				if info[i]=="0" then
-					info[i] = nil -- nil any blank entries P:200:0:0:etc
-				end
-			end
-			team.minHP = tonumber(info[1])
-			team.allowMM = info[2]=="1" and true or nil
-			team.expectedDD = info[3]~="0" and tonumber(info[3]) or nil
-			team.maxHP = tonumber(info[4])
-			team.minXP = tonumber(info[5])
-			team.maxXP = tonumber(info[6])
-			leftover = info[7]
-		end
-		local notes = leftover:match(patterns.notes)
-		if notes then
-			team.notes = notes:gsub("\\n","\n")
-		end
-	end
-	return true
-end
-
 -- when editbox changes, its contents are tested to see if any teams are in its text
 -- the dialog is adjusted based on result
 function share:ImportEditBoxOnTextChanged()
 	local text = (self:GetText() or ""):trim()
-	local numTeams,numConflicts = share:TestTextForStringTeams(text)
-
-	if not numTeams then
-		numTeams = share:TestTextForPlainTextTeam(text) -- plain text only supports single teams
-	end
+	local numTeams,numConflicts = rematch:TestTextForStringTeams(text)
 
 	local dialog = rematch.Dialog
 	dialog.Accept:SetEnabled(numTeams and numTeams>0)
@@ -529,9 +285,9 @@ function share:AcceptImport()
 	elseif numTeams and numTeams>1 then -- multiline import
 		if not rematch:GetSidelineContext("plain") then -- importing string format
 			local teamStrings = {}
-			share:TestTextForStringTeams(rematch.Dialog.MultiLine.EditBox:GetText():trim(),teamStrings)
+			rematch:TestTextForStringTeams(rematch.Dialog.MultiLine.EditBox:GetText():trim(),teamStrings)
 			for _,line in ipairs(teamStrings) do
-				share:ConvertStringToSideline(line)
+				rematch:ConvertStringToSideline(line)
 				if not settings.ConflictOverwrite then
 					rematch:MakeSidelineUnique()
 				end
@@ -542,107 +298,6 @@ function share:AcceptImport()
 	end
 end
 
--- returns 1 (number of teams) if text contains a team in plain text format
-function share:TestTextForPlainTextTeam(text)
-	text = (text or ""):trim()
-	if text=="" then return end
-	if not text:match(".-\n%s*1: .-\n%s*2: .-\n%s*3: .+") then
-		return -- basic test that it has text in the first line and 1: 2: 3: for pets
-	end
-	-- name of team (and optional npcID) are in the first line of text
-	local name,npcID = text:match(importStubs.title_npcID)
-	if not name then
-		name = text:match("^(.-)\n") -- whole line is name if npcID not included
-	end
-	name = name:trim()
-	local team,key
-	if npcID then
-		team,key = rematch:SetSideline(tonumber(npcID),{teamName=name})
-	else
-		team,key = rematch:SetSideline(name,{})
-	end
-	team.tab = settings.SelectedTab>1 and settings.SelectedTab or nil
-	-- gather pets
-	local allpets = text:match(importStubs.allpets_capture)
-	if not allpets then
-		return -- can't interpret pets, actually
-	end
-	local abilities,pet = {}
-	for i=1,3 do
-		pet,abilities[1],abilities[2],abilities[3] = allpets:match(i..importStubs.pet_with_abilities)
-		if not pet then -- couldn't match "Pet Name (1,2,1)", try matching just its name
-			pet = allpets:match(i..importStubs.pet_basic)
-		end
-		if pet then
-			-- remove anything between extra ()s []s and breeds (P/P P/S etc) (and :!: from warcraftpets guides)
-			pet = pet:gsub("%(.-%)",""):gsub("%[.-%]",""):gsub("[BPHS]/[BPHS]",""):gsub(":!:",""):trim()
-			if pet:match(importStubs.leveling_pet) or pet:match(importStubs.carry_pet) then
-				team[i] = {0,0,0,0} -- this is a leveling pet
-			else
-				local speciesID = C_PetJournal.FindPetIDByName(pet)
-				if speciesID then -- parsed pet has a species ID woot
-					team[i] = {speciesID}
-				end
-			end
-		end
-		-- any pet that can't be interpreted given a blank entry
-		if not team[i] then
-			team[i] = {}
-		end
-		-- if pet has a speciesID and known abilties, add them to pet entry
-		if team[i][1] and team[i][1]~=0 and abilities[1] then
-			C_PetJournal.GetPetAbilityList(team[i][1],rematch.abilityList,rematch.levelList)
-			for j=1,3 do
-				team[i][j+1] = rematch.abilityList[abilities[j]=="2" and j+3 or j]
-			end
-		end
-	end
-	share:FindPetIDsForSideline() -- replace speciesIDs with petIDs
-	-- now look for any preferences
-	local prefs = text:match(importStubs.prefs)
-	if prefs then
-
-		local function parsenumber(text,pattern)
-			local number = text:match(pattern)
-			if number then
-				number = tonumber(number)
-				if number~=0 then -- "0" notes a nil
-					return number
-				end
-			end
-		end
-
-		local minHP = parsenumber(prefs,importStubs.minHP_basic) -- prefs:match(importStubs.minHP_basic)
-		if minHP then
-			team.minHP = tonumber(minHP)
-			if prefs:match(importStubs.minHP_allowMM) then
-				team.allowMM = true
-			end
-			local expectedDD = prefs:match(importStubs.minHP_expectedDD)
-			if expectedDD then
-				expectedDD = expectedDD:trim()
-				for i=1,10 do
-					if _G["BATTLE_PET_NAME_"..i]==expectedDD then
-						team.expectedDD = i
-					end
-				end
-			end
-		end
-		team.maxHP = parsenumber(prefs,importStubs.maxHP) -- tonumber(prefs:match(importStubs.maxHP) or "")
-		team.minXP = parsenumber(prefs,importStubs.minXP) -- tonumber(prefs:match(importStubs.minXP) or "")
-		team.maxXP = parsenumber(prefs,importStubs.maxXP) -- tonumber(prefs:match(importStubs.maxXP) or "")
-	end
-	-- notes are everything after preferences (if they exists) or pets otherwise
-	local _,notes
-	_,notes = text:match(importStubs.prefs.."(.*)")
-	if not notes then
-		_,notes = text:match(importStubs.allpets_capture.."\n(.+)")
-	end
-	if notes and notes:trim()~="" then
-		team.notes = notes:trim()
-	end
-	return 1
-end
 
 function share:ExportTeamTab()
 	rematch:ShowExportDialog(nil,true)
@@ -842,7 +497,7 @@ function share:HandleReceivedMessage(message,sender)
 
 			-- lines that do NOT begin with \002 are brand new teams...maybe
 			if not message:match("^\002") then
-				local name,npcID = message:match(patterns.normal)
+            local name,npcID = rematch:GetTeamStringNameAndNpcID(message)
 				if name then -- this looks like a team woot
 					-- we'll convert it to a team once we're sure we have the whole thing
 					rxData = message:gsub("\002",""):gsub("\003","")
@@ -858,7 +513,7 @@ function share:HandleReceivedMessage(message,sender)
 				share:SendMessage("ack",sender)
 			else -- lines that don't end with \003 are the final line
 				share:SendMessage("ok",sender) -- message fully received
-				if share:ConvertStringToSideline(rxData) then
+				if rematch:ConvertStringToSideline(rxData) then
 					if type(sender)=="number" then -- for bnet-sent teams, sender is a numeric toonID
 						rematch:SetSidelineContext("sender",(select(2,BNGetGameAccountInfo(sender))))
 					else -- for regularly sent teams, sender is the name
@@ -987,7 +642,7 @@ function rematch:ShowBackupDialog()
 	dialog.MultiLine:Show()
 	dialog.SmallText:SetSize(280,100)
 	dialog.SmallText:SetPoint("TOP",dialog.MultiLine,"BOTTOM",0,-8)
-	dialog.SmallText:SetText(L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records, specific breeds and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."])
+	dialog.SmallText:SetText(L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."])
 	dialog.SmallText:Show()
 
 	-- backup these two user settings

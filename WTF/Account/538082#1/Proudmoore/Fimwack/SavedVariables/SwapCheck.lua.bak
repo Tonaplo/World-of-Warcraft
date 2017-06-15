@@ -1,2 +1,0 @@
-
-SwapCheck = nil

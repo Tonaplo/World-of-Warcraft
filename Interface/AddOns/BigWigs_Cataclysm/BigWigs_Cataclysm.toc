@@ -1,20 +1,36 @@
-## Interface: 60100
-## X-Curse-Packaged-Version: r80-release
-## X-Curse-Project-Name: BigWigs_Cataclysm
-## X-Curse-Project-ID: bigwigs_cataclysm
-## X-Curse-Repository-ID: wow/bigwigs_cataclysm/mainline
+## Interface: 70200
 
-## Title: Big Wigs [|cffeda55fCataclysm|r]
-## Title-itIT: Big Wigs [|cffeda55fCataclysm|r]
-## Title-zhCN: Big Wigs [|cffeda55f大地的裂变|r]
-## Notes: A collection of Big Wigs modules from the Cataclysm era.
-## Notes-itIT: Una collezione di moduli Big Wigs dell'era di Cataclysm.
-## Notes-zhCN: Big Wigs 大地的裂变模块。
+## Title: BigWigs [|cffeda55fCataclysm|r]
+## Title-zhCN: BigWigs [|cffeda55f大地的裂变|r]
+## Title-zhTW: BigWigs [|cffeda55fCataclysm|r]
+## Title-deDE: BigWigs [|cffeda55fCataclysm|r]
+## Title-frFR: BigWigs [|cffeda55fCataclysm|r]
+## Title-itIT: BigWigs [|cffeda55fCataclysm|r]
+## Title-koKR: BigWigs [|cffeda55fCataclysm|r]
+## Title-ruRU: BigWigs [|cffeda55fCataclysm|r]
+## Title-ptBR: BigWigs [|cffeda55fCataclysm|r]
+## Title-esES: BigWigs [|cffeda55fCataclysm|r]
+## Title-esMX: BigWigs [|cffeda55fCataclysm|r]
+## Notes: A collection of BigWigs modules from the Cataclysm era.
+## Notes-zhCN: BigWigs 大地的裂变模块。
+## Notes-zhTW: A collection of BigWigs modules from the Cataclysm era.
+## Notes-deDE: Eine Sammlung von BigWigs-Modulen aus der Ära Cataclysm.
+## Notes-frFR: A collection of BigWigs modules from the Cataclysm era.
+## Notes-itIT: Una collezione di moduli BigWigs dell'era di Cataclysm.
+## Notes-koKR: A collection of BigWigs modules from the Cataclysm era.
+## Notes-ruRU: A collection of BigWigs modules from the Cataclysm era.
+## Notes-ptBR: A collection of BigWigs modules from the Cataclysm era.
+## Notes-esES: A collection of BigWigs modules from the Cataclysm era.
+## Notes-esMX: A collection of BigWigs modules from the Cataclysm era.
 
 ## LoadOnDemand: 1
 ## Dependencies: BigWigs
+## Version: v7.2.0
 
 ## X-Category: Raid
+## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
+## X-Curse-Project-ID: 45694
+## X-WoWI-ID: 21755
 ## X-BigWigs-LoadOn-ZoneId: 752, 758, 754, 824, 800, 773
 
 modules.xml

@@ -65,9 +65,9 @@ rematch:InitModule(function()
 	})
 
 	rematch:RegisterMenu("ShareMenu", {
-		{ text=L["Export As Plain Text"], func=function(self,key) rematch:SetSideline(key,saved[key]) rematch:SetSidelineContext("plain",true) rematch:ShowExportDialog(key) end, tooltipBody=L["Export this team in plain text that you can copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] },
-		{ text=L["Export As String"], func=function(self,key) rematch:SetSideline(key,saved[key]) rematch:ShowExportDialog(key) end, tooltipBody=L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nThe string format is best for copying multiple teams to be imported together, or for sharing teams with someone in another language.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] },
-		{ text=L["Import Team"], func=rematch.ShowImportDialog, tooltipBody=L["Import a single team or many teams that was exported from Rematch."] },
+		{ text=L["Copy As Plain Text"], func=function(self,key) rematch:SetSideline(key,saved[key]) rematch:SetSidelineContext("plain",true) rematch:ShowExportDialog(key) end, tooltipBody=L["Format this team into plain text to copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch."] },
+		{ text=L["Export Team"], func=function(self,key) rematch:SetSideline(key,saved[key]) rematch:ShowExportDialog(key) end, tooltipBody=L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] },
+		{ text=L["Import Team"], func=rematch.ShowImportDialog, tooltipBody=L["Import a single team or many teams that were exported from Rematch."] },
 		{ text=L["Send Team"], disabled=function() return settings.DisableShare end, disabledReason=L["Sharing is disabled in options."],func=function(self,key) rematch:SetSideline(key,saved[key]) rematch:ShowSendDialog() end, tooltipBody=L["Send this team to another online user of Rematch."] }
 	})
 

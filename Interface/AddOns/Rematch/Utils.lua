@@ -635,3 +635,21 @@ function rematch:SetRoundTexture(texture,filepath)
 	texture:SetMask("Textures\\MinimapMask")
 	texture:SetTexture(filepath)
 end
+
+-- for PetTags and and TeamStrings to store base-32 numbers in strings
+local digitsOut = {} -- to avoid garbage creation, this is reused to build a 32-base number
+local digitsIn = "0123456789ABCDEFGHIJKLMNOPQRSTUV"
+-- convert number to base 32: VV = 1023
+function rematch:ToBase32(number)
+	number = tonumber(number)
+	if number then
+		wipe(digitsOut)
+		number = math.abs(floor(number))
+		repeat
+			local digit = (number%32) + 1
+			number = floor(number/32)
+			tinsert(digitsOut, 1, digitsIn:sub(digit,digit))
+		until number==0
+		return table.concat(digitsOut,"")
+	end
+end

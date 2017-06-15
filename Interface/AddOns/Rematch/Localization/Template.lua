@@ -47,6 +47,10 @@ if GetLocale()=="????" then
 
 -- Widgets\PanelTabs.lua
 
+-- Process\PetInfo.lua
+
+-- Process\PetTag.lua
+
 -- Process\PetLoading.lua
 	L["You can't load a team during combat."] = nil
 	L["You can't load a team during a pet battle."] = nil
@@ -88,6 +92,20 @@ if GetLocale()=="????" then
 
 -- Process\Sanctuary.lua
 
+-- Process\TeamStrings.lua
+	L["%s (NPC#%d)"] = nil
+	L["%s (%s NPC#%d)"] = nil
+	L["%d: %s"] = nil
+	L["%d: %s (%d,%d,%d)"] = nil
+	L["Preferred leveling pets: %s."] = nil
+	L["at least %d health"] = nil
+	L["at least %d health (or any Magic/Mechanical)"] = nil
+	L["at least %d health (%s damage expected)"] = nil
+	L["at least %d health (or any Magic/Mechanical, %s damage expected)"] = nil
+	L["at most %d health"] = nil
+	L["at least level %s"] = nil
+	L["at most level %s"] = nil
+
 -- Menus\Menu.lua
 	L["Help"] = nil
 
@@ -109,12 +127,12 @@ if GetLocale()=="????" then
 	L["Add a leveling pet to this team?"] = nil
 	L["About Teams"] = nil
 	L["Teams named in %sWhite\124r have a target stored within them.\nTeams named in Gold do not.\n\n%sTo change pets or abilities in a team:\124r\n1) Load the team.\n2) Make any changes.\n3) Click Save at the bottom of the window."] = nil
-	L["Export As Plain Text"] = nil
-	L["Export this team in plain text that you can copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = nil
-	L["Export As String"] = nil
-	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nThe string format is best for copying multiple teams to be imported together, or for sharing teams with someone in another language.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = nil
+	L["Copy As Plain Text"] = nil
+	L["Format this team into plain text to copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch."] = nil
+	L["Export Team"] = nil
+	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = nil
 	L["Import Team"] = nil
-	L["Import a single team or many teams that was exported from Rematch."] = nil
+	L["Import a single team or many teams that were exported from Rematch."] = nil
 	L["Send Team"] = nil
 	L["Sharing is disabled in options."] = nil
 	L["Send this team to another online user of Rematch."] = nil
@@ -136,6 +154,7 @@ if GetLocale()=="????" then
 	L["Backup All Teams"] = nil
 	L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = nil
 	L["Import Teams"] = nil
+	L["Import a single team or many teams that was exported from Rematch."] = nil
 	L["Import From Pet Battle Teams"] = nil
 	L["Copy your existing teams from Pet Battle Teams to Rematch."] = nil
 
@@ -234,6 +253,8 @@ if GetLocale()=="????" then
 	L["Highmountain"] = nil
 	L["Dalaran"] = nil
 	L["Azsuna"] = nil
+	L["Broken Isle"] = nil
+	L["Wailing Caverns"] = nil
 	L["No Target"] = nil
 	L["Noteworthy Targets"] = nil
 	L["These are noteworthy targets such as tamers and legendary pets.\n\nChoose one to view the pets you would battle.\n\nTargets with a \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t already have a team saved."] = nil
@@ -249,7 +270,6 @@ if GetLocale()=="????" then
 	L["While pinned, the pet card will display where you last moved it.\n\nClick this to unpin the pet card and snap it back to the pets."] = nil
 	L["Pet Card"] = nil
 	L["Hold [Alt] to view more about this pet."] = nil
-	L["Click to Open!"] = nil
 	L["XP: %d/%d (%d%%)"] = nil
 	L["Possible Breeds"] = nil
 	L["Slotted"] = nil
@@ -458,6 +478,10 @@ if GetLocale()=="????" then
 	L["Instead of displaying the win percentage of a team on the win record button, display the total number of wins.\n\nTeam tabs that are sorted by win record will sort by total wins also."] = nil
 	L["Hide Win Record Buttons"] = nil
 	L["Hide the win record button displayed to the right of each team.\n\nYou can still manually edit a team's win record from its right-click menu and automatic tracking will continue if enabled."] = nil
+	L["Share In Legacy Format"] = nil
+	L["When exporting teams or sending to another Rematch user, use the old format.\n\nUse this option when sharing teams with someone on an older Rematch that's unable to import or receive newer teams."] = nil
+	L["Prioritize Breed On Import"] = nil
+	L["When importing or receiving teams, fill the team with the best matched breed as the first priority instead of the highest level."] = nil
 	L["Leveling Queue Options"] = nil
 	L["Prefer Living Pets"] = nil
 	L["When loading pets from the queue, skip dead pets and load living ones first."] = nil
@@ -551,6 +575,8 @@ if GetLocale()=="????" then
 	L["Choose a name and icon"] = nil
 	L["Delete this tab?"] = nil
 	L["Deleting this tab will move its teams to the %s tab."] = nil
+	L["Delete teams within the tab too"] = nil
+	L["%sWARNING!\124r This will %sPERMANENTLY DELETE\124r all teams in this tab!"] = nil
 
 -- Widgets\LoadedTeamPanel.lua
 	L["Reload Team"] = nil
@@ -603,31 +629,6 @@ if GetLocale()=="????" then
 	L["New Team"] = nil
 
 -- Dialogs\Share.lua
-	L["^(.-)%(.-NPC#(%d+)%)"] = nil
-	L[":([^\n]-)[%(%[]*([12]).([12]).([12])[%)%]]*.-[\n]*"] = nil
-	L[":([^\n]+)"] = nil
-	L["\n%s*Preferred leveling pets: ([^\n]+)%."] = nil
-	L["at least (%d+) health"] = nil
-	L["or any Magic/Mechanical"] = nil
-	L[".+[,%(](.-)damage expected%)"] = nil
-	L["at most (%d+) health"] = nil
-	L["at least level ([%d%.]+)"] = nil
-	L["at most level ([%d%.]+)"] = nil
-	L["^[Ll][Ee][Vv][Ee][Ll][Ii][Nn][Gg] [Pp][Ee][Tt]$"] = nil
-	L["^[Cc][Aa][Rr][Rr][Yy] [Pp][Ee][Tt]$"] = nil
-	L["%s (NPC#%d)"] = nil
-	L["%s (%s NPC#%d)"] = nil
-	L["%d: %s"] = nil
-	L["%d: %s (%d,%d,%d)"] = nil
-	L["Preferred leveling pets: %s."] = nil
-	L["at least %d health"] = nil
-	L["at least %d health (or any Magic/Mechanical)"] = nil
-	L["at least %d health (%s damage expected)"] = nil
-	L["at least %d health (or any Magic/Mechanical, %s damage expected)"] = nil
-	L["at most %d health"] = nil
-	L["at least level %s"] = nil
-	L["at most level %s"] = nil
-	L["Export Team"] = nil
 	L["Press Ctrl+C to copy these teams to the clipboard."] = nil
 	L["Press Ctrl+C to copy this team to the clipboard."] = nil
 	L["Include Preferences"] = nil
@@ -662,7 +663,7 @@ if GetLocale()=="????" then
 	L["Import"] = nil
 	L["%s%d\124r Rematch teams have the same name."] = nil
 	L["Please Wait..."] = nil
-	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records, specific breeds and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = nil
+	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = nil
 	L["Press Ctrl+C to copy these teams to the clipboard. Then paste them into an email to yourself or a text file someplace safe.\n\nIf you ever need to restore your teams, paste them back in with Import Teams."] = nil
 	L["Backup All Rematch Teams?"] = nil
 	L["You have %s%d\124r Rematch teams.\n\nWould you like to back them up?"] = nil

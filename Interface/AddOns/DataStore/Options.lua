@@ -1,4 +1,4 @@
-﻿if not DataStore then return end
+if not DataStore then return end
 
 local addonName = ...
 local addon = _G[addonName]
@@ -13,6 +13,7 @@ local addonList = {
 	"DataStore_Containers",
 	"DataStore_Crafts",
 	"DataStore_Currencies",
+	"DataStore_Garrisons",
 	"DataStore_Inventory",
 	"DataStore_Mails",
 	"DataStore_Pets",
@@ -150,11 +151,19 @@ function addon:SetupOptions()
 end
 
 function addon:ToggleOption(frame, module, option)
-	if frame:GetChecked() then 
-		addon:SetOption(module, option, 1)
+	local newValue
+	
+	if frame then							-- if a frame is provided ..
+		if frame:GetChecked() then 	-- .. then get its value (it is set before coming here)
+			newValue = true
+		else
+			newValue = false
+		end
 	else
-		addon:SetOption(module, option, 0)
+		newValue = not addon:GetOption(module, option)		-- no frame provided ? then actually toggle the current value
 	end
+	
+	addon:SetOption(module, option, newValue)
 end
 
 function addon:UpdateMyMemoryUsage()
@@ -207,7 +216,7 @@ end
 
 function addon:SetCheckBoxTooltip(frame, title, whenEnabled, whenDisabled)
 	frame.tooltipText = title
-	frame.tooltipRequirement = format("%s|r:\n%s\n\n%s|r:\n%s", GREEN..L["Enabled"], whenEnabled, RED..L["Disabled"], whenDisabled)
+	frame.tooltipRequirement = format("\n%s|r:\n%s\n\n%s|r:\n%s", GREEN..L["Enabled"], whenEnabled, RED..L["Disabled"], whenDisabled)
 end
 
 local OptionsPanelWidth, OptionsPanelHeight

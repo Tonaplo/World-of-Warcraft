@@ -5,6 +5,41 @@
 -- Template.lua is the "master file" with all current localization strings
 -- grouped by the file they're first encountered.
 
+-- New strings in 4.6.8
+	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = nil
+	L["Format this team into plain text to copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch."] = nil
+	L["Wailing Caverns"] = nil
+	L["Share In Legacy Format"] = nil
+	L["Prioritize Breed On Import"] = nil
+	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = nil
+	L["When exporting teams or sending to another Rematch user, use the old format.\n\nUse this option when sharing teams with someone on an older Rematch that's unable to import or receive newer teams."] = nil
+	L["%sWARNING!\124r This will %sPERMANENTLY DELETE\124r all teams in this tab!"] = nil
+	L["Delete teams within the tab too"] = nil
+	L["When importing or receiving teams, fill the team with the best matched breed as the first priority instead of the highest level."] = nil
+	L["Broken Isle"] = nil
+	L["Import a single team or many teams that were exported from Rematch."] = nil
+	L["Copy As Plain Text"] = nil
+
+-- Strings removed in 4.6.8
+	L[":([^\n]+)"] = nil
+	L["^[Cc][Aa][Rr][Rr][Yy] [Pp][Ee][Tt]$"] = nil
+	L["\n%s*Preferred leveling pets: ([^\n]+)%."] = nil
+	L["Click to Open!"] = nil
+	L["at least level ([%d%.]+)"] = nil
+	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records, specific breeds and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = nil
+	L["at most (%d+) health"] = nil
+	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nThe string format is best for copying multiple teams to be imported together, or for sharing teams with someone in another language.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = nil
+	L["at least (%d+) health"] = nil
+	L["Export this team in plain text that you can copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = nil
+	L["at most level ([%d%.]+)"] = nil
+	L[":([^\n]-)[%(%[]*([12]).([12]).([12])[%)%]]*.-[\n]*"] = nil
+	L["^[Ll][Ee][Vv][Ee][Ll][Ii][Nn][Gg] [Pp][Ee][Tt]$"] = nil
+	L[".+[,%(](.-)damage expected%)"] = nil
+	L["or any Magic/Mechanical"] = nil
+	L["^(.-)%(.-NPC#(%d+)%)"] = nil
+	L["Export As Plain Text"] = nil
+	L["Export As String"] = nil
+
 -- New strings in 4.6.2
 	L["A New Pet!"] = nil
 	L["Click to Open!"] = nil

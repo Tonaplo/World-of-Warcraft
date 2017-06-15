@@ -1,3 +1,18 @@
+06/04/2017 version 4.6.8
+- The format of team strings used to share teams (export, import, send) has changed.
+- Breeds are now supported in exported/imported teams if a breed addon is enabled for both the export and import process.
+- When filling out an imported or received team, the highest level of a species will be chosen first, followed by the same breed (if applicable), then rarity.
+- Added new option 'Share In Legacy Format' under Team Options in the Options tab, to export and send teams in the old format.
+- Added new option 'Prioritize Breed On Import' under Team Options in the Options tab, to fill imported or received teams by matching breed first, then level, then rarity.
+- Share option 'Export As Plain Text' changed to 'Copy As Plain Text'.
+- Share option 'Export As String' changed to 'Export Team'.
+- Added a petInfo table to the script filter system, for additional pet information such as possible breeds. See Process\PetInfo.lua.
+
+Special note on compatability:
+- All teams ever exported by Rematch in the string format can still be imported, even teams exported in 2013.
+- However, from this version forward, all new exported and sent teams will not be recognized by earlier versions of the addon unless 'Share In Legacy Format' is enabled.
+
+
 05/26/2017 version 4.6.7
 - Pet models should no longer overlap the "Collected" list on the pet card.
 - Fix for ability links not going across chats.
