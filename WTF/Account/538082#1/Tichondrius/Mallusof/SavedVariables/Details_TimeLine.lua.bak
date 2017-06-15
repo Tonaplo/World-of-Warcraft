@@ -1,57 +1,47 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_end"] = "23:46:29",
+			["date_start"] = "23:45:22",
+			["name"] = "Wing Leader Ner'onok",
+			["total_time"] = 67.0060000000012,
+		}, -- [1]
+		{
+			["date_end"] = "23:44:06",
+			["date_start"] = "23:41:57",
+			["name"] = "General Pa'valak",
+			["total_time"] = 129.005000000001,
+		}, -- [2]
+		{
+			["date_end"] = "23:40:09",
+			["date_start"] = "23:39:35",
+			["name"] = "Commander Vo'jak",
+			["total_time"] = 34.0070000000014,
+		}, -- [3]
+		{
+			["date_end"] = "23:39:16",
+			["date_start"] = "23:39:02",
+			["name"] = "Commander Vo'jak",
+			["total_time"] = 14.0069999999978,
+		}, -- [4]
+	},
 	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Filondri-Sargeras"] = {
-				{
-					4.78399999999965, -- [1]
-					"Filondri-Sargeras", -- [2]
-					22842, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Scotlandelev-KhazModan"] = {
-				{
-					24.3070000000007, -- [1]
-					"Scotlandelev-KhazModan", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Filondri-Sargeras"] = {
-				{
-					31.4350000000013, -- [1]
-					"Filondri-Sargeras", -- [2]
-					22842, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
-			["Mallusof"] = {
+			["Illigeek-Sargeras"] = {
 				[121443] = {
-					26.7530000000006, -- [1]
-					37.4680000000008, -- [2]
-					53.6229999999996, -- [3]
-					58.4670000000006, -- [4]
+					28.7260000000024, -- [1]
+					33.0290000000023, -- [2]
+					46.7560000000012, -- [3]
+					48.7750000000015, -- [4]
 					["source"] = "Wing Leader Ner'onok",
 					["active"] = false,
 				},
@@ -78,28 +68,22 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Illigeek-Sargeras"] = {
+			["Mallusof"] = {
 				[121443] = {
-					28.7260000000024, -- [1]
-					33.0290000000023, -- [2]
-					46.7560000000012, -- [3]
-					48.7750000000015, -- [4]
+					26.7530000000006, -- [1]
+					37.4680000000008, -- [2]
+					53.6229999999996, -- [3]
+					58.4670000000006, -- [4]
 					["source"] = "Wing Leader Ner'onok",
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
-			["Mallusof"] = {
-				[119354] = {
-					1.71199999999953, -- [1]
-					6.71900000000096, -- [2]
-					["source"] = "Sik'thik Bladedancer",
-					["active"] = false,
-				},
+			["Illigeek-Sargeras"] = {
 				[119840] = {
-					96.4459999999999, -- [1]
-					111.441000000003, -- [2]
+					32.5900000000001, -- [1]
+					44.5950000000012, -- [2]
 					["source"] = "Sik'thik Soldier",
 					["active"] = false,
 				},
@@ -138,10 +122,16 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Illigeek-Sargeras"] = {
+			["Mallusof"] = {
+				[119354] = {
+					1.71199999999953, -- [1]
+					6.71900000000096, -- [2]
+					["source"] = "Sik'thik Bladedancer",
+					["active"] = false,
+				},
 				[119840] = {
-					32.5900000000001, -- [1]
-					44.5950000000012, -- [2]
+					96.4459999999999, -- [1]
+					111.441000000003, -- [2]
 					["source"] = "Sik'thik Soldier",
 					["active"] = false,
 				},
@@ -152,36 +142,46 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["combat_data"] = {
+	["cooldowns_timeline"] = {
 		{
-			["date_start"] = "23:45:22",
-			["date_end"] = "23:46:29",
-			["name"] = "Wing Leader Ner'onok",
-			["total_time"] = 67.0060000000012,
 		}, -- [1]
 		{
-			["date_start"] = "23:41:57",
-			["date_end"] = "23:44:06",
-			["name"] = "General Pa'valak",
-			["total_time"] = 129.005000000001,
+			["Filondri-Sargeras"] = {
+				{
+					4.78399999999965, -- [1]
+					"Filondri-Sargeras", -- [2]
+					22842, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
-			["date_start"] = "23:39:35",
-			["date_end"] = "23:40:09",
-			["name"] = "Commander Vo'jak",
-			["total_time"] = 34.0070000000014,
+			["Filondri-Sargeras"] = {
+				{
+					31.4350000000013, -- [1]
+					"Filondri-Sargeras", -- [2]
+					22842, -- [3]
+				}, -- [1]
+			},
+			["Scotlandelev-KhazModan"] = {
+				{
+					24.3070000000007, -- [1]
+					"Scotlandelev-KhazModan", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
-			["date_start"] = "23:39:02",
-			["date_end"] = "23:39:16",
-			["name"] = "Commander Vo'jak",
-			["total_time"] = 14.0069999999978,
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
 		}, -- [4]
 	},
 }
