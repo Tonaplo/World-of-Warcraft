@@ -14,6 +14,7 @@ rematch:InitModule(function()
 		panel.Pets[i].XP:SetMinMaxValues(0,100)
 		panel.Pets[i]:RegisterForClicks("AnyUp")
 		panel.Pets[i]:RegisterForDrag("LeftButton")
+      panel.Pets[i].Footnote:RegisterForClicks("AnyUp")
 		for j=1,3 do
 			panel.Pets[i].Abilities[j].Arrow:SetTexCoord(1,0,0,0,1,1,0,1) -- rotate arrow
 		end
@@ -60,18 +61,21 @@ function panel:Update()
 				button.HP.Text:Hide()
 			end
 			button.HP:Show()
-			button.queueControl = rematch:IsSlotQueueControlled(i)
-			-- update leveling border if a slot is controlled by the queue
-			if rematch:IsSlotQueueControlled(i) then
-				button.Leveling:Show()
-				button.Leveling:SetDesaturated(not rematch:IsPetLeveling(petID))
+         -- if slot is special (leveling, ignored, random)
+         local specialPetID = rematch:GetSpecialSlot(i)
+			if specialPetID then
+				button.SpecialBorder:Show()
+            button.Footnote:Show()
+            rematch:SetFootnoteIcon(button.Footnote,specialPetID)
+            button.Footnote.tooltipTitle,button.Footnote.tooltipBody = rematch:GetSpecialTooltip(specialPetID)
 			else
-				button.Leveling:Hide()
+				button.SpecialBorder:Hide()
+            button.Footnote:Hide()
 			end
 		else
 			button.XP:Hide()
 			button.HP:Hide()
-			button.Leveling:Hide()
+			button.SpecialBorder:Hide()
 		end
 	end
 	panel:UpdateTarget()

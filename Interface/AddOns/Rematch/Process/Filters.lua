@@ -241,7 +241,7 @@ function roster:ParseSearchStatRanges(text)
 		for i=#info,1,-1 do
 			local operation = info[i]
 			if operation:match("[<>=%-]") then -- if this has one of < > = or - then
-				stat,minValue,maxValue = roster:ParseOperation(operation:lower())
+				local stat,minValue,maxValue = roster:ParseOperation(operation:lower())
 				if stat then -- operation was a stat range, add it to ranges
 					ranges[stat] = {minValue,maxValue}
 					hasStatRange = true

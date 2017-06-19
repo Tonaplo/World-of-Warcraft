@@ -50,6 +50,10 @@ function rematch:LoadTeam(key)
 		if petID==0 and levelingPick then
 			loadin[i][1] = rematch.topPicks[pickIndex]
 			pickIndex = pickIndex + 1
+      elseif petID=="ignored" then
+         loadin[i][1] = C_PetJournal.GetPetLoadOutInfo(i) -- keep loaded pet here if ignored
+      elseif rematch:GetSpecialPetIDType(petID)=="random" then
+         loadin[i][1] = petID -- will come back to this pet later
 		elseif petID and petID~=0 then
 			local idType = rematch:GetIDType(petID)
 			if idType=="species" then
@@ -61,7 +65,7 @@ function rematch:LoadTeam(key)
 				petID = rematch:FindTemporaryPetID(team[i][5],team[1][1],team[2][1],team[3][1])
 				missing[i] = petID or true
 			end
-			if petID and not C_PetJournal.PetIsRevoked(petID) then
+			if petID and idType=="pet" and not C_PetJournal.PetIsRevoked(petID) then
 				loadin[i][1] = petID
 				local speciesAbilities = rematch:GetAbilities(team[i][5])
 				for j=1,3 do
@@ -76,6 +80,20 @@ function rematch:LoadTeam(key)
 			end
 		end
 	end
+
+   -- replace random petIDs with a random pet after loadin filled, to prevent later slot's
+   -- pet being chosen as a random pet for an earlier slot
+   for slot=1,3 do
+      if rematch:GetSpecialPetIDType(loadin[slot][1])=="random" then
+         -- make sure random pet isn't one that's going to be loaded in another slot
+         local next1 = slot%3+1
+         local noPetID1 = loadin[next1][1] -- it's ok if these are nil
+         local next2 = next1%3+1
+         local noPetID2 = loadin[next2][1]
+         -- then pick a random pet from the random petID (that's not already loaded)
+         loadin[slot][1] = rematch:PickRandomPet(loadin[slot][1],next1,next2)
+      end
+   end
 
 	-- if "Load Healthiest Pet" enabled, go through loadin to look for injured/dead pets and replace
 	if settings.LoadHealthiest then
@@ -205,7 +223,7 @@ function rematch:LoadingDone(unsuccessful)
 	if rematch.LoadedTeamPanel:IsVisible() then
 		rematch.LoadedTeamPanel.Bling:Show()
 	end
-	rematch:AssignLevelingSlots()
+	rematch:AssignSpecialSlots()
 	rematch:UpdateQueue() -- team change may mean leveling pet preferences changed; this also does an UpdateUI
 
 	-- ShowOnInjured to summon window if any loaded pets are injured
@@ -269,5 +287,5 @@ end
 -- use this to wipe loadedTeam instead of setting it directly
 function rematch:UnloadTeam()
 	settings.loadedTeam = nil
-	rematch:AssignLevelingSlots() -- will clear leveling slots
+	rematch:AssignSpecialSlots() -- will clear leveling slots
 end

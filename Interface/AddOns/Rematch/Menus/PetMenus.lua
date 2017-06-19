@@ -28,6 +28,78 @@ rematch:InitModule(function()
 	rematch:UpdateScriptFilterMenu() -- by this function (really)
 	rematch:RegisterMenu("ScriptFilters",rematch.scriptFilterMenu,rematch.UpdateRoster)
 
+
+   -- loadout slots have their own menu to handle special slots
+   -- instead of a petID, the subject is a slot, so many functions are different than normal pet menus
+   -- also, this menu is guaranteed to be shown only for valid, slotted petIDs
+   rematch:RegisterMenu("LoadoutMenu", {
+      { title=true, -- title of menu is the slotted pet's name'
+        text = function(self,slot)
+           local petID = C_PetJournal.GetPetLoadOutInfo(slot)
+           return rematch.petInfo:Fetch(petID).name
+        end },
+      { text = rmf.GetSpecialLabel, type="leveling", hidden=rmf.IsSpecialHidden, petID=0, func=rmf.SetSpecialSlot },
+      { text = rmf.GetSpecialLabel, type="random", subMenu=function(entry,slot) return rematch:GetSpecialSlot(slot)~="random" and "RandomSlot" end, hidden = rmf.IsSpecialHidden },
+      { text = rmf.GetSpecialLabel, type="ignored", hidden=rmf.IsSpecialHidden, petID="ignored", func=rmf.SetSpecialSlot },
+      { text = rmf.GetSpecialLabel, type="random", hidden=rmf.IsSpecialNotRandom, func=rmf.SetSpecialSlot },
+      { spacer = true },
+		{ text = function(entry,slot) -- Summon/Dismiss
+				return C_PetJournal.GetSummonedPetGUID()==C_PetJournal.GetPetLoadOutInfo(slot) and PET_ACTION_DISMISS or SUMMON
+			end,
+			func=function(entry,slot)
+            local petID = C_PetJournal.GetPetLoadOutInfo(slot)
+				C_PetJournal.SummonPetByGUID(petID)
+			end },
+		{ text=L["Set Notes"], -- Set Notes
+        func=function(self,slot)
+				rematch.Notes.locked = true
+				rematch:ShowNotes("pet",(C_PetJournal.GetPetLoadOutInfo(slot)),true)
+				rematch.Notes.Content.ScrollFrame.EditBox:SetFocus(true)
+			end },
+		{ text=L["Find Similar"], -- Find Similar
+			hidden = rmf.PetCantBattle,
+			func=function(entry,slot)
+            local speciesID = rematch.petInfo:Fetch((C_PetJournal.GetPetLoadOutInfo(slot))).speciesID
+				roster:SetSimilarFilter(speciesID)
+			end },
+		{ text=BATTLE_PET_RENAME, -- Rename
+			func=function(entry,slot)
+            local petID = C_PetJournal.GetPetLoadOutInfo(slot)
+				local dialog = rematch:ShowDialog("Rename",300,180,BATTLE_PET_RENAME,L["Enter a new name"],ACCEPT,function() C_PetJournal.SetCustomName(petID,rematch.Dialog.EditBox:GetText()) end,CANCEL,nil,PET_RENAME_DEFAULT_LABEL,function() C_PetJournal.SetCustomName(petID,"") rematch.Dialog:Hide() end)
+				dialog.Pet:SetPoint("TOPRIGHT",-12,-28)
+				rematch:FillPetListButton(dialog.Pet,petID)
+				dialog.Pet:Show()
+				dialog.EditBox:SetPoint("TOP",0,-84)
+				dialog.EditBox:SetText(rematch:GetPetName(petID)) -- set starting name
+				dialog.EditBox:Show()
+			end,
+		},
+		{
+         text=function(entry,slot) -- Set/Remove Favorite
+            return rematch.petInfo:Fetch((C_PetJournal.GetPetLoadOutInfo(slot))).isFavorite and BATTLE_PET_UNFAVORITE or BATTLE_PET_FAVORITE
+			end,
+			func=function(entry,slot)
+            local petID = C_PetJournal.GetPetLoadOutInfo(slot)
+            C_PetJournal.SetFavorite(petID,rematch.petInfo:Fetch(petID).isFavorite and 0 or 1)
+			end },
+      { spacer = true },
+      { text = CANCEL },
+   })
+
+   rematch:RegisterMenu("RandomSlot", {
+      { text = L["Any Type"], type="random", var=0, icon="Interface\\Buttons\\UI-GroupLoot-Dice-Up", petID="random:0", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_1, type="random", var=1, icon=rmf.GetIcon, petID="random:1", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_2, type="random", var=2, icon=rmf.GetIcon, petID="random:2", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_3, type="random", var=3, icon=rmf.GetIcon, petID="random:3", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_4, type="random", var=4, icon=rmf.GetIcon, petID="random:4", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_5, type="random", var=5, icon=rmf.GetIcon, petID="random:5", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_6, type="random", var=6, icon=rmf.GetIcon, petID="random:6", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_7, type="random", var=7, icon=rmf.GetIcon, petID="random:7", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_8, type="random", var=8, icon=rmf.GetIcon, petID="random:8", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_9, type="random", var=9, icon=rmf.GetIcon, petID="random:9", func=rmf.SetSpecialSlot },
+      { text = BATTLE_PET_NAME_10, type="random", var=10, icon=rmf.GetIcon, petID="random:10", func=rmf.SetSpecialSlot },
+   })
+
 	-- this is the universal right-click menu for a pet: petpanel, queuepanel and loadoutpanel
 	rematch:RegisterMenu("PetMenu", {
 		{ title=true, maxWidth=200, text=function(entry,petID) return rematch:GetPetName(petID) end },
@@ -44,20 +116,20 @@ rematch:InitModule(function()
 			hidden=function(entry,petID)
 				local parent = rematch:GetMenuParent():GetParent()
 				local ggparent = parent:GetParent():GetParent()
-				return (parent~=RematchLoadoutPanel and ggparent~=RematchLoadoutPanel and parent~=RematchMiniPanel) or rematch:IsSlotQueueControlled(rematch:GetMenuParent():GetID())
+				return (parent~=RematchLoadoutPanel and ggparent~=RematchLoadoutPanel and parent~=RematchMiniPanel) or rematch:GetSpecialSlot(rematch:GetMenuParent():GetID())=="leveling"
 			end,
 			func=function(entry,petID)
-				rematch:SetLevelingSlot(rematch:GetMenuParent():GetID(),true)
+				rematch:SetSpecialSlot(rematch:GetMenuParent():GetID(),"leveling")
 				rematch:UpdateQueue()
 			end },
 		{ text=L["Stop Leveling This Slot"], -- for loadout slots only
 			hidden=function(entry,petID)
 				local parent = rematch:GetMenuParent():GetParent()
 				local ggparent = parent:GetParent():GetParent()
-				return (parent~=RematchLoadoutPanel and ggparent~=RematchLoadoutPanel and parent~=RematchMiniPanel) or not rematch:IsSlotQueueControlled(rematch:GetMenuParent():GetID())
+				return (parent~=RematchLoadoutPanel and ggparent~=RematchLoadoutPanel and parent~=RematchMiniPanel) or not rematch:GetSpecialSlot(rematch:GetMenuParent():GetID())=="leveling"
 			end,
 			func=function(entry,petID)
-				rematch:SetLevelingSlot(rematch:GetMenuParent():GetID(),nil)
+				rematch:SetSpecialSlot(rematch:GetMenuParent():GetID(),nil)
 				rematch:UpdateQueue()
 			end },
 		{ text=L["Set Notes"], func=function(self,petID)
@@ -380,6 +452,54 @@ rematch:InitModule(function()
 	})
 end)
 
+function rmf:GetSpecialLabel(slot)
+   local petID = rematch:GetSpecialSlot(slot)
+   if not petID then
+      return self.type=="leveling" and L["Put Leveling Pet Here"] or self.type=="random" and L["Put Random Pet Here"] or L["Ignore This Slot"]
+   else
+      return self.type=="leveling" and L["Stop Leveling This Slot"] or self.type=="random" and L["Stop Randomizing This Slot"] or L["Stop Ignoring This Slot"]
+   end
+end
+
+function rmf:IsSpecialHidden(slot)
+   local petID = rematch:GetSpecialSlot(slot)
+   if not petID then
+      return false
+   else
+      return self.petID~=petID
+   end
+end
+
+-- alternate hidden for non-submenu'd random special slot
+function rmf:IsSpecialNotRandom(slot)
+   local petID = rematch:GetSpecialSlot(slot)
+   return not (petID and rematch:GetSpecialPetIDType(petID)=="random")
+end
+
+-- func for the Put Leveling/Ignored Pet here 
+function rmf:SetSpecialSlot(slot)
+   if rematch:GetSpecialSlot(slot) then -- if slot already special, make it not special
+      rematch:SetSpecialSlot(slot,nil)
+   else -- if it wasn't special, then make it special with menu item's petID
+      -- this flags the slot only (no pets actually slotted yet)
+      rematch:SetSpecialSlot(slot,self.petID)
+      -- if this is a random petID
+      if rematch:GetSpecialPetIDType(self.petID)=="random" then
+         -- get the two other loadout pets so they aren't picked as a random pet
+         local next1 = slot%3+1
+         local noPetID1 = C_PetJournal.GetPetLoadOutInfo(next1)
+         local next2 = next1%3+1
+         local noPetID2 = C_PetJournal.GetPetLoadOutInfo(next2)
+         -- then pick a random pet from the random petID (that's not already loaded)
+         local petID = rematch:PickRandomPet(self.petID,next1,next2)
+         if petID then
+            rematch:SlotPet(slot,petID) -- and slot it if found
+         end
+      end
+   end
+   rematch:UpdateQueue() -- this will also trigger an UpdateUI
+end
+
 function rmf:GetValue() return roster:GetFilter(self.group,self.var) end
 function rmf:GetNotValue() return not roster:GetFilter(self.group,self.var) end
 function rmf:ToggleNotValue(subject,checked) roster:SetFilter(self.group,self.var,checked) end
@@ -390,7 +510,6 @@ function rmf:RarityText() return "\124c"..select(4,GetItemQualityColor(self.var-
 function rmf:GetSort() if self.order then return roster:GetSort(self.var)==self.order else return roster:GetSort(self.var) end end
 function rmf:SetSort(subject,checked) roster:SetSort(self.var,self.order or not checked) end
 function rmf:HideMenuHelp() return settings.HideMenuHelp end
-
 
 function rmf:ResetTypeGroup()
 	if roster:IsFilterUsed(self.group) then

@@ -557,4 +557,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Blessing of Protection"] = 135964,
 	["Glossy"] = "Interface\\AddOns\\VuhDo\\Images\\icon_white_square",
 }
-VUHDO_GI_SCAN_IDX = 74601
+VUHDO_GI_SCAN_IDX = 59151

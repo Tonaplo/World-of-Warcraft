@@ -5,7 +5,6 @@ local _,L = ...
 local rematch = Rematch
 local settings
 local queue -- the actual leveling queue (settings.LevelingQueue)
-local levelingSlots -- indexed 1,2,3; true if the slot should be under queue control (settings.LevelingSlots)
 
 local levelingPets = {} -- indexed by petID, lookup table of leveling pets (created in ProcessQueue)
 
@@ -15,7 +14,6 @@ rematch.skippedPicks = {} -- list of petIDs skipped due to preferences (for queu
 rematch:InitModule(function()
 	settings = RematchSettings
 	queue = settings.LevelingQueue
-	levelingSlots = settings.LevelingSlots
 end)
 
 -- returns true (and the precise level) of a petID if it can level
@@ -123,10 +121,10 @@ function rematch:ProcessQueue()
 
 	-- if we can swap pets, swap if any needed
 	if not (InCombatLockdown() or C_PetBattles.IsInBattle() or C_PetBattles.GetPVPMatchmakingInfo()) then
-		-- load the top picks into the levelingSlots
+		-- load the top picks into the slots specially marked for leveling
 		local pickIndex = 1
 		for i=1,3 do
-			if levelingSlots[i] then
+         if rematch:GetSpecialSlot(i)==0 then
 				local petID = C_PetJournal.GetPetLoadOutInfo(i)
 				if petID then -- going to not attempt to slot empty slots
 					local pickID = rematch.topPicks[pickIndex]
@@ -440,53 +438,4 @@ function rematch:ToastNextLevelingPet(petID)
 		rematch.LevelingToastSystem = AlertFrame:AddQueuedAlertFrameSubSystem("RematchLevelingToastTemplate", toastSetup, 2, 0)
 	end
 	rematch.LevelingToastSystem:AddAlert(petID)
-end
-
---[[
-	Marking a loadout slot as a leveling slot is done by:
-	- The right-click menu of the slot: "Put Leveling Pet Here"
-	- Loading a team that has leveling slots saved.
-	- If the option "Allow Manually Slotted Pets" is unchecked (default), dragging any pet
-		in the queue to the desired loadout slot.
-
-	Revoking the queue's control of a slot is done by:
-	- The right-click menu of the slot: "Stop Leveling This Slot"
-	- Loading a team that does not have a leveling pet in the slot.
-	- Unloading the currently loaded team.
-	- If the option "Allow Manually Slotted Pets" is checked, dragging any pet in the queue
-		to desired loadout slot.
-
-	Additionally:
-	- It will now be possible to mark leveling slots if no pets are in the queue.
-	- In the above situation, or if there are not enough pets in the queue to fill all leveling slots,
-		the gold border will turn grey/silver for slots without a leveling pet.
-]]
-
--- to be called after a team is loaded or unloaded or the start of a session;
--- marks each of the three slots true if they should be controlled by the queue
-function rematch:AssignLevelingSlots()
-	local settings = RematchSettings
-	if not levelingSlots then -- if this is called during InitSavedVars
-		levelingSlots = settings.LevelingSlots
-	end
-	wipe(levelingSlots)
-	local loadedTeam = settings.loadedTeam
-	local team = loadedTeam and RematchSaved[loadedTeam]
-	if team then
-		for i=1,3 do
-			if team[i][1]==0 then
-				rematch:SetLevelingSlot(i,true)
-			end
-		end
-	end
-end
-
--- use this to set whether a slot will be controlled by the queue
-function rematch:SetLevelingSlot(slot,state)
-	levelingSlots[slot] = state and true or nil
-end
-
--- returns whether the give slot is under queue control
-function rematch:IsSlotQueueControlled(slot)
-	return levelingSlots[slot]
 end

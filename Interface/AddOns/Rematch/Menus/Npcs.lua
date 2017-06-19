@@ -45,6 +45,7 @@ rematch.notableGroups = {
 	[18] = L["Azsuna"],
 	[19] = L["Broken Isle"],
 	[20] = L["Wailing Caverns"],
+   [21] = L["Deadmines"],
 }
 
 rematch.notableNPCs = {
@@ -271,6 +272,18 @@ rematch.notableNPCs = {
 	{116793, 20, 1994}, -- Hiss
 	{116794, 20, 1995}, -- Growing Ectoplasm
 	{116795, 20, 1996}, -- Budding Everliving Spore
+
+   -- Deadmines (21)
+   {119409, 21, 2031}, -- Foe Reaper 50
+   {119346, 21, 2023}, -- Unfortunate Defias
+   {119342, 21, 2027}, -- Angry Geode
+   {119341, 21, 2028}, -- Mining Monkey
+   {119408, 21, 2033}, -- "Captain" Klutz
+   {119343, 21, 2026}, -- Klutz's Battle Rat
+   {119345, 21, 2024}, -- Klutz's Battle Monkey
+   {119344, 21, 2025}, -- Klutz's Battle Bird
+   {119407, 21, 2032}, -- Cookie's Leftovers
+
 }
 
 -- table of npcID's and the npcID they should actually refer to

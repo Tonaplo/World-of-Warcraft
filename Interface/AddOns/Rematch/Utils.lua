@@ -62,17 +62,13 @@ function rematch:GetUnitNameandID(unit)
 	end
 end
 
+local utilsInfo -- GetPetIcon is used in so many places, using a unique petInfo for it
 function rematch:GetPetIcon(petID)
-	local idType = rematch:GetIDType(petID)
-	if idType=="pet" then
-		return (select(9,C_PetJournal.GetPetInfoByPetID(petID)))
-	elseif idType=="species" then
-		return (select(2,C_PetJournal.GetPetInfoBySpeciesID(petID)))
-	elseif idType=="leveling" then
-		return rematch.levelingIcon
-	else
-		return "Interface\\PaperDoll\\UI-Backpack-EmptySlot"
-	end
+   if not utilsInfo then
+      utilsInfo = rematch:CreatePetInfo()
+   end
+   utilsInfo:Fetch(petID)
+   return utilsInfo.icon or "Interface\\PaperDoll\\UI-Backpack-EmptySlot"
 end
 
 function rematch:GetPetName(petID)
@@ -265,13 +261,17 @@ function rematch:GetCorner(frame,reference,coords)
 end
 
 -- adds a leveling border to a button (only 3 main loadouts and queue leveling slot uses this)
-function rematch:AddLevelingBorder(button)
-	button.Leveling = button:CreateTexture(nil,"BACKGROUND")
+function rematch:AddSpecialBorder(button)
+	button.SpecialBorder = button:CreateTexture(nil,"BACKGROUND")
 	local cx,cy = button:GetSize()
-	button.Leveling:SetSize(cx+10,cy+10)
-	button.Leveling:SetPoint("CENTER")
-	button.Leveling:SetTexture("Interface\\PetBattles\\PetBattle-GoldSpeedFrame")
-	button.Leveling:SetTexCoord(0.1171875,0.7421875,0.1171875,0.734375)
+	button.SpecialBorder:SetSize(cx+10,cy+10)
+	button.SpecialBorder:SetPoint("CENTER")
+	button.SpecialBorder:SetTexture("Interface\\PetBattles\\PetBattle-GoldSpeedFrame")
+	button.SpecialBorder:SetTexCoord(0.1171875,0.7421875,0.1171875,0.734375)
+   button.SpecialFootnote = CreateFrame("Button",nil,button,"RematchFootnoteButtonTemplate,RematchTooltipScripts")
+   button.SpecialFootnote:SetPoint("TOPRIGHT",4,4)
+   button.SpecialFootnote:SetScript("OnClick",rematch.SpecialFootnoteOnClick)
+   button.SpecialFootnote:RegisterForClicks("AnyUp")
 end
 
 -- adds frameName to UISpecialFrames if value is true, removes it if value is false

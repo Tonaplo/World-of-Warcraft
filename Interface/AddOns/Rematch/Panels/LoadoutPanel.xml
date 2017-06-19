@@ -72,6 +72,9 @@
 				</Texture>
 			</Layer>
 		</Layers>
+      <KeyValues>
+         <KeyValue key="isLoadoutSlot" value="true"/>
+      </KeyValues>
 		<Frames>
 			<StatusBar parentKey="XP" inherits="RematchStatusBarTemplate">
 				<Anchors>
@@ -160,7 +163,7 @@
 				<Layers>
 					<Layer level="ARTWORK">
 						<!-- the same function that fills the pet/queue listbutton array fills this TypeIcons -->
-		        <Texture parentKey="TypeIcon">
+		            <Texture parentKey="TypeIcon">
 							<Size x="77" y="77"/>
 							<Anchors>
 								<Anchor point="TOPRIGHT" x="5" y="12"/>

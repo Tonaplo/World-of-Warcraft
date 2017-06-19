@@ -340,7 +340,9 @@ function panel:FillTeamButton(button,key)
 	end
 	for i=1,3 do
 		local petID = saved[key][i][1]
-		local icon = rematch:GetPetIcon(petID)
+      local petInfo = rematch.petInfo:Fetch(petID)
+      local icon = petInfo.icon
+		--local icon = rematch:GetPetIcon(petID)
 		if not icon then -- pet is not found, get its species instead
 			petID = saved[key][i][5]
 			icon = rematch:GetPetIcon(petID)

@@ -291,7 +291,7 @@ function rematch:ConvertSidelineToPlainText()
 	-- pets and abilities (1: Name of Pet (2/2/1)
 	for i=1,3 do
 		local speciesID, ability1, ability2, ability3 = rematch:ExportPet(team[i],3)
-		if speciesID and speciesID~=0 then
+		if speciesID and not rematch:GetSpecialPetIDType(speciesID) then
 			local name = C_PetJournal.GetPetInfoBySpeciesID(speciesID)
 			if name then
 				if ability3 then
@@ -301,7 +301,11 @@ function rematch:ConvertSidelineToPlainText()
 				end
 			end
 		else
-			tinsert(result,format(exportStubs.pet_basic,i,L["Leveling Pet"]))
+         local petName = L["Leveling Pet"]
+         if rematch:GetSpecialPetIDType(speciesID) then
+            petName = rematch:GetSpecialTooltip(speciesID) or petName
+         end
+         tinsert(result,format(exportStubs.pet_basic,i,petName))
 		end
 	end
 

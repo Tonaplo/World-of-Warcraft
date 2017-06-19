@@ -54,7 +54,7 @@
 					<Anchors>
 						<Anchor point="RIGHT" x="-6" y="0"/>
 					</Anchors>
-					<TexCoords left="0.25" right="0.5" top="0" bottom="0.5"/>
+					<TexCoords left="0.25" right="0.5" top="0" bottom="0.25"/>
 				</Texture>
 			</Layer>
 			<Layer level="OVERLAY">
@@ -169,7 +169,7 @@
 					<Anchors>
 						<Anchor point="TOPRIGHT"/>
 					</Anchors>
-					<TexCoords left="0.25" right="0.5" top="0" bottom="0.5"/>
+					<TexCoords left="0.125" right="0.25" top="0" bottom="0.25"/>
 				</Texture>
 				<FontString parentKey="Breed" inherits="GameFontNormal">
 					<Size x="0" y="12"/>

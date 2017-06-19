@@ -66,7 +66,7 @@ function rematch:CreatePetTag(petID,...)
    elseif petInfo.idType=="ignored" then
       return "ZI"
    elseif petInfo.idType=="random" then
-      return "ZR"..(petInfo.petType or 0)
+      return "ZR"..(rematch:ToBase32(petInfo.petType or 0))
    end
    -- if we reached here, this pet can't be turned into a tag
    return "ZU" -- Unknown
@@ -99,9 +99,15 @@ end
 -- if notPetID1 or notPetID2 are defined, it will not choose either of those
 -- if no petID is found, the speciesID will be returned as a petID
 function rematch:FindPetFromPetTag(tag,notPetID1,notPetID2)
-   if tag=="ZL" then
+   if type(tag)~="string" then
+      return -- all tags are strings
+   elseif tag=="ZL" then
       return 0 -- this tag is for a leveling pet
-   elseif type(tag)=="string" then
+   elseif tag=="ZI" then
+      return "ignored" -- this tag is for an ignored slot
+   elseif tag:match("^ZR%w") then
+      return "random:"..tonumber(tag:match("^ZR(%w)"),32) -- this tag is for a random pet
+   else -- this is a full tag with abilities, breed and speciesID
       local speciesID = tonumber(tag:sub(5,-1),32) -- speciesID begins at 5th character
       if speciesID then
 

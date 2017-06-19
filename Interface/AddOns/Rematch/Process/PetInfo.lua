@@ -8,7 +8,7 @@
    "pet"       "Battle-0-0000000etc"  a player-owned pet in the journal
    "species"   42                     speciesID species number
    "leveling"  0                      leveling slot
-   "ignored"   1                      ignored slot
+   "ignored"   "ignored"              ignored slot
    "link"      "battlepet:42:25:etc"  linked pet
    "battle"    "battle:2:1"           pet in battle (battle:owner:index)
    "random"    "random:10"            random mechanical pet (random:0 for any pet type)
@@ -155,14 +155,14 @@ local function getIDType(id)
          return "battle"
       elseif id:match("random:%d+") then
          return "random"
+      elseif id=="ignored" then
+         return "ignored"
       end
    elseif idType=="number" then
-      if id>1 then
+      if id>0 then
          return "species"
       elseif id==0 then
          return "leveling"
-      elseif id==1 then
-         return "ignored"
       end
    end
    return "unknown" -- if we reached here, no idea what this petID is!
@@ -206,7 +206,7 @@ local queryAPIs = {
          self.icon = "Interface\\AddOns\\Rematch\\Textures\\LevelingIcon.blp"
       elseif idType=="ignored" then
          self.name = "Ignored Pet"
-         self.icon = "Interface\\AddOns\\Rematch\\Textures\\Ignored.blp"
+         self.icon = "Interface\\AddOns\\Rematch\\Textures\\IgnoredIcon.blp"
       elseif idType=="link" then
          local speciesID,level = self.petID:match("battlepet:(%d+):(%d+):")
          speciesID = tonumber(speciesID)
@@ -236,8 +236,9 @@ local queryAPIs = {
          self.petType = petType
          -- name is "Random Pet" or "Random Humanoid", "Random Dragonkin", etc
          local suffix = PET_TYPE_SUFFIX[petType]
-         self.name = suffix and format("Random %s",suffix) or "Random Pet"
-         self.icon = "Interface\\Icons\\INV_Misc_QuestionMark" -- replace with random icon
+         self.name = suffix and format("Random %s",_G["BATTLE_PET_NAME_"..petType]) or "Random Pet"
+         self.icon = suffix and format("Interface\\Icons\\Icon_PetFamily_%s",suffix) or "Interface\\Icons\\INV_Misc_Dice_02"
+         --self.icon = "Interface\\Icons\\INV_Misc_QuestionMark" -- replace with random icon
       else
          self.name = "Unknown"
          self.icon = "Interface\\Icons\\INV_Misc_QuestionMark"
@@ -293,7 +294,7 @@ local queryAPIs = {
       if idType=="pet" and self.speciesID then
          self.valid = true
          self.owned = true -- owned is only true if regular petID is valid
-      elseif (idType=="species" and self.name) or (idType=="leveling" or idType=="ignored") or (idType=="link" and self.name) or (idType=="battle" and self.name) then
+      elseif (idType=="species" and self.name) or (idType=="leveling" or idType=="ignored" or idType=="random") or (idType=="link" and self.name) or (idType=="battle" and self.name) then
          self.valid = true
          self.owned = false
       else

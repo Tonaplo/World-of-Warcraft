@@ -44,9 +44,13 @@
 		<HitRectInsets>
 			<AbsInset left="0" right="0" top="0" bottom="-32"/>
 		</HitRectInsets>
+      <KeyValues>
+         <KeyValue key="isLoadoutSlot" value="true"/>
+      </KeyValues>
 		<Layers>
 			<Layer level="BACKGROUND">
-				<Texture parentKey="Leveling" file="Interface\PetBattles\PetBattle-GoldSpeedFrame">
+            <!-- gold border around a slot when it's a special slot -->
+				<Texture parentKey="SpecialBorder" file="Interface\PetBattles\PetBattle-GoldSpeedFrame">
 					<Size x="54" y="54"/>
 					<Anchors>
 						<Anchor point="CENTER"/>
@@ -56,6 +60,19 @@
 			</Layer>
 		</Layers>
 		<Frames>
+         <Button parentKey="Footnote" inherits="RematchFootnoteButtonTemplate,RematchTooltipScripts">
+            <Anchors>
+               <Anchor point="TOPRIGHT" x="4" y="4"/>
+            </Anchors>
+            <KeyValues>
+               <KeyValue key="icon" value="ignored"/>
+            </KeyValues>
+            <Scripts>
+               <OnClick>
+                  Rematch.SpecialFootnoteOnClick(self)
+               </OnClick>
+            </Scripts>
+         </Button>
 			<Button parentArray="Abilities" inherits="RematchMiniLoadoutAbilityTemplate" id="1">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativePoint="TOPRIGHT" x="5" y="4"/>

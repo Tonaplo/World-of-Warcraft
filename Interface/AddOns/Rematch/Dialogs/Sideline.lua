@@ -102,8 +102,13 @@ function rematch:SetSideline(key,team,loadout)
 	if loadout then
 		for i=1,3 do
 			local petID,ability1,ability2,ability3 = C_PetJournal.GetPetLoadOutInfo(i)
-			if rematch:IsSlotQueueControlled(i) then -- if this is slot is queue controlled
+         local specialPetID = rematch:GetSpecialSlot(i)
+         if specialPetID==0 then -- if this slot is queue controlled
 				sideline[key][i] = {0}
+         elseif specialPetID=="ignored" then -- ignored slot
+            sideline[key][i] = {"ignored"}
+         elseif specialPetID and rematch:GetSpecialPetIDType(specialPetID)=="random" then
+            sideline[key][i] = {specialPetID}
 			elseif petID then -- for normal pets, get its speciesID and add it too
 				local speciesID = C_PetJournal.GetPetInfoByPetID(petID)
 				sideline[key][i] = {petID,ability1,ability2,ability3,speciesID}

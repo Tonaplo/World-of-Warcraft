@@ -22,7 +22,7 @@ local petInfo = {} -- where the various stats of a pet are stored (petID, specie
 local filterFuncs = {} -- each filter group has a filterFuncs entry to process the petInfo
 
 local sortReference = { "name", "level", "rarity", "petType", "maxHealth", "power", "speed" }
-local sortStatTable -- will be the SortStats tempTable
+local sortStatsTable -- will be the SortStats tempTable
 local sortFavoritesTable -- will be the Favorites tempTable (improves speed 57% over using PetIsFavorite)
 local sortRelevanceTable -- will be the SearchRelevance tempTable
 local sortLowToHigh -- will be whether sort lists in ascending or descending stat order

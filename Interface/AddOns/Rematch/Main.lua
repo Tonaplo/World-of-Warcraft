@@ -127,12 +127,13 @@ end
 --[[ Events ]]
 
 function rematch:PLAYER_LOGIN()
-	rematch:InitSavedVars()
 	-- check for the existence of an object that's in a new file and shut down rematch if it's not accessible.
 	-- this is caused by new files added and user updates the addon while logged in to the game
-	if rematch:AddonDidntCompletelyLoad(rematch.Battle) or rematch:AddonUpdatedTooEarly() then
+	if rematch:AddonDidntCompletelyLoad(rematch.PickRandomPet) or rematch:AddonUpdatedTooEarly() then
 		return
 	end
+
+	rematch:InitSavedVars()
 
 	rematch:FindBreedSource()
 	local locale = GetLocale()
@@ -192,15 +193,23 @@ function rematch:InitSavedVars()
 	settings = RematchSettings
 	saved = RematchSaved
 	-- create settings sub-tables and default values if they don't exist
-	for k,v in pairs({"TeamGroups","Filters","FavoriteFilters","Sort","Sanctuary","LevelingQueue","PetNotes","ScriptFilters","LevelingSlots"}) do
+	for k,v in pairs({"TeamGroups","Filters","FavoriteFilters","Sort","Sanctuary","LevelingQueue","PetNotes","ScriptFilters","SpecialSlots"}) do
 		if type(settings[v])~="table" then
 			if v=="TeamGroups" then -- TeamGroups starts with a default entry
 				settings[v] = {{GENERAL,"Interface\\Icons\\PetJournalPortrait"}}
 			elseif v=="Sort" then
 				settings[v] = {Order=1,FavoritesFirst=true}
-			elseif v=="LevelingSlots" then
+			elseif v=="SpecialSlots" then
 				settings[v] = {}
-				rematch:AssignLevelingSlots()
+            if settings.LevelingSlots then -- if old LevelingSlots system is used
+               -- convert old leveling slots to new special slot system
+               for i=1,3 do
+                  rematch:SetSpecialSlot(i,settings.LevelingSlots and "leveling" or nil)
+               end
+               settings.LevelingSlots = nil
+            else -- otherwise setup new slot handling
+               rematch:AssignSpecialSlots()
+            end
 			else
 				settings[v] = {}
 			end
@@ -816,8 +825,15 @@ end
 --[[ RematchFootnoteButtonTemplate: for the little round buttons on list buttons (notes, leveling, etc) ]]
 
 local footnoteCoords = { 
-	notes={0,0.25,0,0.5}, leveling={0.25,0.5,0,.5}, preferences={0.5,0.75,0,0.5},
-	ascending={0.75,1,0,0.5}, median={0,0.25,0.5,1}, descending={0.25,0.5,0.5,1}
+	notes={0,0.125,0,0.25}, leveling={0.125,0.25,0,0.25}, preferences={0.25,0.375,0,0.25},
+	ascending={0.375,0.5,0,0.25}, median={0,0.125,0.25,0.5}, descending={0.125,0.375,0.25,0.5},
+   random={0.375,0.5,0.25,0.5}, ignored={0,0.125,0.5,0.75},
+   ["random:0"]={0.375,0.5,0.25,0.5}, ["random:1"]={0.125,0.25,0.5,0.75},
+   ["random:2"]={0.25,0.375,0.5,0.75}, ["random:3"]={0.375,0.5,0.5,0.75},
+   ["random:4"]={0,0.125,0.75,1}, ["random:5"]={0.125,0.25,0.75,1},
+   ["random:6"]={0.25,0.375,0.75,1}, ["random:7"]={0.375,0.5,0.75,1},
+   ["random:8"]={0.5,0.625,0,0.25}, ["random:9"]={0.625,0.75,0,0.25},
+   ["random:10"]={0.75,0.875,0,0.25}, [0]={0.125,0.25,0,0.25},
 }
 
 function rematch:FootnoteButtonOnLoad()
@@ -830,6 +846,9 @@ function rematch:SetFootnoteIcon(button,icon)
 	if icon and footnoteCoords[icon] then
 		local left,right,top,bottom = unpack(footnoteCoords[icon])
 		button:GetNormalTexture():SetTexCoord(left,right,top,bottom)
-		button:GetPushedTexture():SetTexCoord(left,right,top,bottom)
+      local pushedTexture = button:GetPushedTexture()
+      if pushedTexture then
+		   button:GetPushedTexture():SetTexCoord(left,right,top,bottom)
+      end
 	end
 end

@@ -91,18 +91,34 @@ function rematch:ShowPetCard(parent,petID,force)
 	-- make the petID the pet of interest for petInfo
 	local petInfo = rematch.petInfo:Fetch(petID)
 
-	local leveling = petInfo.idType=="leveling" -- whether this is a leveling pet card
+   -- whether this card is a leveling, ignored or random card
+   local isSpecial = rematch:GetSpecialPetIDType(petID)
 		
-	if (not petInfo.speciesID or not petInfo.petType) and not leveling then
+	if (not petInfo.speciesID or not petInfo.petType) and not isSpecial then
 		return
 	end
 
 	-- title stuff
 	card.Title.Name:SetText(petInfo.name)
-	if leveling then
-		card.Title.Icon.Texture:SetTexture("Interface\\AddOns\\Rematch\\Textures\\levelingicon-round")
-		card.Title.Type.Texture:SetTexCoord(0,1,0,1)
-		SetPortraitToTexture(card.Title.Type.Texture,"Interface\\Icons\\INV_Pet_Achievement_CatchPetFamily25")
+	if isSpecial then
+      if isSpecial=="leveling" then
+         card.Title.Icon.Texture:SetTexture("Interface\\AddOns\\Rematch\\Textures\\levelingicon-round")
+         card.Title.Type.Texture:SetTexCoord(0,1,0,1)
+         SetPortraitToTexture(card.Title.Type.Texture,"Interface\\Icons\\INV_Pet_Achievement_CatchPetFamily25")
+      elseif isSpecial=="ignored" then
+         card.Title.Icon.Texture:SetTexture("Interface\\AddOns\\Rematch\\Textures\\ignoredicon-round")
+         card.Title.Type.Texture:SetTexCoord(0,1,0,1)
+         SetPortraitToTexture(card.Title.Type.Texture,"Interface\\Icons\\Ability_Hunter_Pet_GoTo")
+      elseif isSpecial=="random" then
+         SetPortraitToTexture(card.Title.Icon.Texture,"Interface\\Icons\\INV_Misc_Dice_02")
+         if petInfo.petType==0 then
+            card.Title.Type.Texture:SetTexCoord(0,1,0,1)
+            SetPortraitToTexture(card.Title.Type.Texture,"Interface\\Icons\\INV_Misc_Dice_01")
+         else
+      		card.Title.Type.Texture:SetTexCoord(0.4921875,0.796875,0.50390625,0.65625)
+            rematch:FillPetTypeIcon(card.Title.Type.Texture,petInfo.petType,"Interface\\PetBattles\\PetIcon-")
+         end
+      end
 	else
 		SetPortraitToTexture(card.Title.Icon.Texture,petInfo.icon)
 		card.Title.Type.Texture:SetTexCoord(0.4921875,0.796875,0.50390625,0.65625)
@@ -132,7 +148,7 @@ function rematch:ShowPetCard(parent,petID,force)
 		info.XP:Hide()
 	end
 	-- "Hold [Alt] to flip card etc" help bit
-	if not settings.HideMenuHelp and not leveling then
+	if not settings.HideMenuHelp and not isSpecial then
 		info.AltFlipHelp:ClearAllPoints()
 		info.AltFlipHelp:SetPoint("BOTTOMLEFT",8,ybottom)
 		ybottom = ybottom + info.AltFlipHelp:GetStringHeight()+4
@@ -179,9 +195,13 @@ function rematch:ShowPetCard(parent,petID,force)
 
 	-- update model in middle front of card
 	middle.LevelingModel:Hide()
-	if leveling then -- if this is a card for a leveling pet
+	if isSpecial then -- if this is a card for a leveling pet (or ignored or random)
 		middle.ModelScene:Hide()
-		middle.LevelingModel:Show()
+      local m2 = isSpecial=="ignored" and "Interface\\Buttons\\talktomered.m2" or isSpecial=="random" and "Interface\\Buttons\\talktomequestionmark.m2" or "Interface\\Buttons\\talktomequestion_ltblue.m2"
+      C_Timer.After(0,function() -- not sure why this delay is necessary to set model
+   		middle.LevelingModel:Show()
+         middle.LevelingModel:SetModel(m2)
+      end)
 	elseif petInfo.displayID~=card.displayID or card.forceSceneChange then
 		middle.ModelScene:Show()
 		middle.LevelingModel:Hide()
@@ -214,7 +234,7 @@ function rematch:ShowPetCard(parent,petID,force)
 	end
 	info.RealName:SetShown(petInfo.customName and true)
 	-- actual stats here
-	if idType=="pet" then -- this is a pet player owns
+	if petInfo.idType=="pet" then -- this is a pet player owns
 		if petInfo.isSlotted then
 			card:AddStat(L["Slotted"],"Interface\\RaidFrame\\ReadyCheck-Ready",0,1,0,1,L["Slotted"],L["This pet is loaded in one of the three battle pet slots."])
 		end
@@ -222,7 +242,7 @@ function rematch:ShowPetCard(parent,petID,force)
 			card:AddStat(L["Favorite"],"Interface\\Common\\FavoritesIcon",0.125,0.71875,0.09375,0.6875,L["Favorite"],L["This pet is marked as a Favorite from its right-click menu."])
 		end
 		if rematch:IsPetLeveling(petID) then
-			card:AddStat(L["Leveling"],"Interface\\AddOns\\Rematch\\Textures\\footnotes",0.25,0.5,0,0.5,L["Leveling"],L["This pet is in Rematch's leveling queue."])
+			card:AddStat(L["Leveling"],"Interface\\AddOns\\Rematch\\Textures\\footnotes",0.125,0.25,0,0.25,L["Leveling"],L["This pet is in Rematch's leveling queue."])
 		end
 	end
 	if petInfo.canBattle and petInfo.power and petInfo.power>0 then
@@ -243,7 +263,7 @@ function rematch:ShowPetCard(parent,petID,force)
 		card:AddStat(petInfo.speciesID,"Interface\\WorldMap\\Gear_64Grey",0.1,0.9,0.1,0.9,L["Species ID"],L["All versions of this pet share this unique \"species\" number."])
 	end
 
-	if not leveling then
+	if not isSpecial then
 		local count = roster:IsPetInTeam(petID,true)
 		if count then
 			card:AddStat(format(L["%d Teams"],count),"Interface\\FriendsFrame\\UI-Toast-ChatInviteIcon",0.125,0.875,0.09375,0.84375,L["Teams"],format(L["%s Click to search for all teams that include this pet."],rematch.LMB),card.TeamsStatOnClick)
@@ -317,8 +337,12 @@ function rematch:ShowPetCard(parent,petID,force)
 		end
 	end
 	card.Front.Bottom.CantBattle:SetShown(not petInfo.canBattle)
-	if leveling then
+	if isSpecial=="leveling" then
 		card.Front.Bottom.CantBattle:SetText(L["When this team loads, your current leveling pet will go in this spot."])
+   elseif isSpecial=="ignored" then
+      card.Front.Bottom.CantBattle:SetText(L["When this team loads, this spot will be ignored."])
+   elseif isSpecial=="random" then
+      card.Front.Bottom.CantBattle:SetText(L["When this team loads, a random high level pet will go in this spot."])
 	else
 		card.Front.Bottom.CantBattle:SetText(BATTLE_PET_CANNOT_BATTLE)
 	end
@@ -338,7 +362,7 @@ function rematch:ShowPetCard(parent,petID,force)
 	--[[ Back ]]
 
 	local backHeight = 0 -- measuring height of back of card too in case lore needs more room
-	if not leveling then -- leveling pets have no back of card
+	if not isSpecial then -- leveling pets have no back of card
 		local sourceText = petInfo.sourceText
 		-- shrink font if source text is very long (some pets like spiders list nearly every zone in the game!)
 		local sourceLength = (sourceText or ""):len()
@@ -432,7 +456,7 @@ end
 
 -- called at end of ShowPetCard and in the OnEvent for MODIFIER_STATE_CHANGED
 function card:FlipCardIfAltDown()
-	local altDown = IsAltKeyDown() and card.petID~=0 -- don't flip leveling pets
+	local altDown = IsAltKeyDown() and not rematch:GetSpecialPetIDType(card.petID) -- don't flip leveling pets
 	card.Front:SetShown(not altDown)
 	card.Back:SetShown(altDown)
 end

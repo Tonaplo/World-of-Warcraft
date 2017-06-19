@@ -96,6 +96,7 @@ end
 function rematch:GetPrefSetFrom(frame)
 	local prefLoaded -- will be true if both team and tab have preferences (only relevant for loaded team)
 	local parent = frame:GetParent()
+   local prefSet,prefKey,prefLoaded
 	if parent.forLoadedTeam then
 		local hasTeamPreferences = rematch:HasPreferences(saved[settings.loadedTeam])
 		local hasTabPreferences = rematch:HasPreferences(nil,rematch:GetTabFromTeam(settings.loadedTeam))

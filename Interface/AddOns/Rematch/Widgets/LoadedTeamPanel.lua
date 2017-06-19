@@ -107,7 +107,7 @@ function panel:OnEnter()
 		end
 		if type(settings.loadedTeam)=="number" then
 			local npcName = rematch:GetNameFromNpcID(settings.loadedTeam)
-			if title~=npcName then
+			if teamName~=npcName then
 				body = format("%s%s%s\124r\n",body,rematch.hexGrey,npcName)
 			end
 		end

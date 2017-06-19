@@ -1,3 +1,16 @@
+06/18/2017 version 4.7.0
+- Added two new slot types: Ignored and Random.
+- Ignored slots will be left alone when a team loads.
+- Random slots will load a random high level/rarity pet of any type or a single type if chosen.
+- To mark a slot as Ignored or Random, right-click the loaded slot and choose 'Ignore This Slot' or 'Put Random Pet Here'.
+- Gold borders around loaded pets now means the slot is either Leveling, Ignored or Random slots, not just Leveling.
+- A small button will appear in the corner of the slot's pet to show what type of special slot it is.
+- The menu for loaded pets was simplified to shorten them and remove ambiguity of whether to stop leveling the slot or the pet in the slot.
+- Teams exported or sent will share the random or ignored slots, but only Rematch versions 4.7 or greater will recognize these special slots on import or receive.
+- Patch 7.2.5's Deadmines targets added to the Target menus.
+- Cleaned up a couple potential unintentional globals.
+- ruRU localization by Gizmi on curse.com.
+
 06/04/2017 version 4.6.8
 - The format of team strings used to share teams (export, import, send) has changed.
 - Breeds are now supported in exported/imported teams if a breed addon is enabled for both the export and import process.
@@ -11,7 +24,6 @@
 Special note on compatability:
 - All teams ever exported by Rematch in the string format can still be imported, even teams exported in 2013.
 - However, from this version forward, all new exported and sent teams will not be recognized by earlier versions of the addon unless 'Share In Legacy Format' is enabled.
-
 
 05/26/2017 version 4.6.7
 - Pet models should no longer overlap the "Collected" list on the pet card.

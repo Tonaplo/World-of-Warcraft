@@ -66,6 +66,11 @@ function rematch:ExportPet(pet,plain)
 			end
 		end
 	end
+   -- if this is a special slot, fill first return with special petID (0, "ignored", "random:x")
+   local specialPetID = pet[1]
+   if rematch:GetSpecialPetIDType(specialPetID) then
+      return specialPetID,0,0,0
+   end
 	-- if we reached here, this pet is a leveling pet (empty slots get turned into leveling pets)
 	return 0,0,0,0
 end

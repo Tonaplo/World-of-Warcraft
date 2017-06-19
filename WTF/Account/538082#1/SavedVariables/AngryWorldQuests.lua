@@ -1,4 +1,4 @@
 
 AngryWorldQuests_Config = {
-	["__version"] = 10,
+	["__version"] = 11,
 }

@@ -263,8 +263,8 @@ end
 -- this is a click of the main area of the list button
 function rematch:PetListButtonOnClick(button)
 
-	if rematch:HandlePetRightClick(self.petID,button) then return end
-	if rematch:HandlePetShiftClick(self.petID) then return end
+	if rematch.HandlePetRightClick(self,self.petID,button) then return end
+	if rematch.HandlePetShiftClick(self,self.petID) then return end
 
 	local anchorTo = self.Pet
 	-- self.Pet.Pet = main loadout button
@@ -282,8 +282,8 @@ end
 function rematch:PetListButtonPetOnClick(button)
 	-- check if pet being linked here
 	if self.noPickup then return end -- this pet is for display purposes, don't allow pickup or right-click
-	if rematch:HandlePetRightClick(self.petID,button) then return end
-	if rematch:HandlePetShiftClick(self.petID) then return end
+	if rematch.HandlePetRightClick(self,self.petID,button) then return end
+	if rematch.HandlePetShiftClick(self,self.petID) then return end
 	rematch.PetListButtonOnDragStart(self,button)
 end
 
@@ -301,7 +301,10 @@ function rematch:HandlePetRightClick(petID,button)
 		rematch:SetMenuSubject(petID)
 		if rematch:GetIDType(petID)=="pet" and C_PetJournal.PetNeedsFanfare(petID) then
 			rematch:ShowMenu("UnwrapMenu","cursor")
-		else
+		elseif self.isLoadoutSlot and petID then
+         rematch:SetMenuSubject(self:GetID())
+         rematch:ShowMenu("LoadoutMenu","cursor")
+      elseif petID then
 			rematch:ShowMenu("PetMenu","cursor")
 		end
 		return true
