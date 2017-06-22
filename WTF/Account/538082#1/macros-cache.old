@@ -21,6 +21,9 @@ VER 3 0000000000000029 "Penance Focus" "INV_MISC_QUESTIONMARK"
 #showtooltip Penance
 /cast [exists][@focus] Penance
 END
+VER 3 000000000000002E "raest" "INV_MISC_QUESTIONMARK"
+/tar Raest
+END
 VER 3 0000000000000003 "Rchars" "134162"
 /rchars
 END

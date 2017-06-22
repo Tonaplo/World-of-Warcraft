@@ -113,6 +113,7 @@ panel.opts = {
 	{ "check", "HideWinRecord", L["Hide Win Record Buttons"], L["Hide the win record button displayed to the right of each team.\n\nYou can still manually edit a team's win record from its right-click menu and automatic tracking will continue if enabled."], nil, true },
    { "check", "UseLegacyExport", L["Share In Legacy Format"]..newIcon, L["When exporting teams or sending to another Rematch user, use the old format.\n\nUse this option when sharing teams with someone on an older Rematch that's unable to import or receive newer teams."] },
    { "check", "PrioritizeBreedOnImport", L["Prioritize Breed On Import"]..newIcon, L["When importing or receiving teams, fill the team with the best matched breed as the first priority instead of the highest level."] },
+   { "check", "RandomAbilitiesToo", L["Randomize Abilities Too"]..newIcon, L["For random pets, randomize the pets' abilities also."]},
 	{ "header", L["Leveling Queue Options"], 5 },
 	{ "check", "QueueSkipDead", L["Prefer Living Pets"], L["When loading pets from the queue, skip dead pets and load living ones first."], nil, true },
 	{ "check", "QueuePreferFullHP", L["And At Full Health"], L["Also prefer uninjured pets when loading pets from the queue."], "QueueSkipDead", true },

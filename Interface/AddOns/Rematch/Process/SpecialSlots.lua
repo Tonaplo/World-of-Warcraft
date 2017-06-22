@@ -101,8 +101,11 @@ end
 
 -- this takes a random petID ("random:10") and returns a random petID of an owned pet
 -- if noPetID1 and/or noPetID2 defined, the random pet will not be one of those
--- a random pet is chosen from the highest level+rarity of the given type
-function rematch:PickRandomPet(petID,notPetID1,notPetID2)
+-- the random group is prioritized by level, rarity, whether in a team, and health
+-- pets not in a team are preferred, and full-health pets are preferred over injured pets,
+-- which are preferred over dead pets. if evenInTeams is true, then whether the pet is
+-- in a team is not a deciding factor.
+function rematch:PickRandomPet(petID,notPetID1,notPetID2,evenInTeams)
    if rematch:GetSpecialPetIDType(petID)=="random" then
       local petType = tonumber(petID:match("random:(%d+)"))
       local randomPetIDs = {}
@@ -110,8 +113,17 @@ function rematch:PickRandomPet(petID,notPetID1,notPetID2)
       for petID in rematch.Roster:AllOwnedPets() do
          if petID~=noPetID1 and petID~=noPetID2 then
             local petInfo = rematch.altInfo:Fetch(petID,true)
-            if (petType==0 or petInfo.petType==petType) and petInfo.canBattle then
-               local weight = petInfo.level*10 + petInfo.rarity
+            if (petType==0 or petInfo.petType==petType) and petInfo.canBattle and not petInfo.isDead then -- petType==0 is "any type"
+               -- calculating weights from lowest to highest
+               -- health is lowest: max health=2, injured=1, dead=0
+               local weight = petInfo.health==petInfo.maxHealth and 2 or petInfo.health>0 and 1 or 0
+               -- if pet not in any teams (or evenInTeams enabled and we don't care), add next highest
+               if evenInTeams or not petInfo.inTeams then
+                  weight = weight + 10
+               end
+               -- highest weight priority is level and rarity
+               weight = weight + petInfo.level*1000 + petInfo.rarity*100
+               -- at this point weight is: level->rarity->inTeam->health
                if weight>bestWeight then -- if this pet's weight is better
                   wipe(randomPetIDs) -- start list over
                   tinsert(randomPetIDs,petID) -- add pet to list

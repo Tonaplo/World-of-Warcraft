@@ -12,6 +12,8 @@ rematch:InitModule(function()
 	settings = RematchSettings
 	saved = RematchSaved
 
+   panel.Top.Team.Label:SetText(L["Loaded Team"])
+
 	local scrollFrame = panel.List.ScrollFrame
 	scrollFrame.update = panel.UpdateList
 	scrollFrame.ScrollBar.doNotHide = true

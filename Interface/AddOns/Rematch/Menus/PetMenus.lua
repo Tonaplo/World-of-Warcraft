@@ -491,7 +491,7 @@ function rmf:SetSpecialSlot(slot)
          local next2 = next1%3+1
          local noPetID2 = C_PetJournal.GetPetLoadOutInfo(next2)
          -- then pick a random pet from the random petID (that's not already loaded)
-         local petID = rematch:PickRandomPet(self.petID,next1,next2)
+         local petID = rematch:PickRandomPet(self.petID,noPetID1,noPetID2)
          if petID then
             rematch:SlotPet(slot,petID) -- and slot it if found
          end

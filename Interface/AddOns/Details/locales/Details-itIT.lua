@@ -76,6 +76,8 @@ if not L then return end
 --Translation missing 
 -- L["STRING_ATTRIBUTE_ENERGY"] = ""
 --Translation missing 
+-- L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = ""
+--Translation missing 
 -- L["STRING_ATTRIBUTE_ENERGY_ENERGY"] = ""
 --Translation missing 
 -- L["STRING_ATTRIBUTE_ENERGY_MANA"] = ""
@@ -87,6 +89,8 @@ if not L then return end
 -- L["STRING_ATTRIBUTE_ENERGY_RUNEPOWER"] = ""
 --Translation missing 
 -- L["STRING_ATTRIBUTE_HEAL"] = ""
+--Translation missing 
+-- L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = ""
 --Translation missing 
 -- L["STRING_ATTRIBUTE_HEAL_DONE"] = ""
 --Translation missing 
@@ -210,6 +214,8 @@ if not L then return end
 --Translation missing 
 -- L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET_DESC"] = ""
 --Translation missing 
+-- L["STRING_CUSTOM_DAMAGEONSHIELDS"] = ""
+--Translation missing 
 -- L["STRING_CUSTOM_DAMAGEONSKULL"] = ""
 --Translation missing 
 -- L["STRING_CUSTOM_DAMAGEONSKULL_DESC"] = ""
@@ -223,6 +229,8 @@ if not L then return end
 -- L["STRING_CUSTOM_DTBS"] = ""
 --Translation missing 
 -- L["STRING_CUSTOM_DTBS_DESC"] = ""
+--Translation missing 
+-- L["STRING_CUSTOM_DYNAMICOVERAL"] = ""
 --Translation missing 
 -- L["STRING_CUSTOM_EDIT"] = ""
 --Translation missing 

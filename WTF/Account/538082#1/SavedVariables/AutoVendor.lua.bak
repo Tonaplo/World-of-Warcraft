@@ -5,14 +5,14 @@ AutoVendorDB = {
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
@@ -21,11 +21,11 @@ AutoVendorDB = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
@@ -36,7 +36,7 @@ AutoVendorDB = {
 				[138967] = "Big Fountain Goldfish",
 			},
 		},
-		["Fimwack - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -44,7 +44,7 @@ AutoVendorDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }

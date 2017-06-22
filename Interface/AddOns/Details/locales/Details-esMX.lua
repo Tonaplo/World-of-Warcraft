@@ -43,6 +43,8 @@ L["STRING_ATTRIBUTE_DAMAGE_FRAGS"] = "Matanzas"
 L["STRING_ATTRIBUTE_DAMAGE_FRIENDLYFIRE"] = "Fuego amigo"
 L["STRING_ATTRIBUTE_DAMAGE_TAKEN"] = "Daño recibido"
 L["STRING_ATTRIBUTE_ENERGY"] = "Energía"
+--Translation missing 
+-- L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = ""
 L["STRING_ATTRIBUTE_ENERGY_ENERGY"] = "Energía generada"
 L["STRING_ATTRIBUTE_ENERGY_MANA"] = "Mana restaurada"
 L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "Ira generada"
@@ -50,6 +52,8 @@ L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "Ira generada"
 -- L["STRING_ATTRIBUTE_ENERGY_RESOURCES"] = ""
 L["STRING_ATTRIBUTE_ENERGY_RUNEPOWER"] = "Poder runico generado"
 L["STRING_ATTRIBUTE_HEAL"] = "Sanación"
+--Translation missing 
+-- L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = ""
 L["STRING_ATTRIBUTE_HEAL_DONE"] = "Sanación realizada"
 L["STRING_ATTRIBUTE_HEAL_ENEMY"] = "Curación de Enemigos"
 L["STRING_ATTRIBUTE_HEAL_HPS"] = "HPS"
@@ -136,6 +140,8 @@ L["STRING_CUSTOM_CREATED"] = "La nueva visualización se ha creado."
 --Translation missing 
 -- L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET_DESC"] = ""
 --Translation missing 
+-- L["STRING_CUSTOM_DAMAGEONSHIELDS"] = ""
+--Translation missing 
 -- L["STRING_CUSTOM_DAMAGEONSKULL"] = ""
 --Translation missing 
 -- L["STRING_CUSTOM_DAMAGEONSKULL_DESC"] = ""
@@ -146,6 +152,8 @@ L["STRING_CUSTOM_DONE"] = "Guardar"
 -- L["STRING_CUSTOM_DTBS"] = ""
 --Translation missing 
 -- L["STRING_CUSTOM_DTBS_DESC"] = ""
+--Translation missing 
+-- L["STRING_CUSTOM_DYNAMICOVERAL"] = ""
 L["STRING_CUSTOM_EDIT"] = "Editar"
 L["STRING_CUSTOM_EDIT_SEARCH_CODE"] = "Editar código de busca"
 L["STRING_CUSTOM_EDIT_TOOLTIP_CODE"] = "Editar código de descripción"

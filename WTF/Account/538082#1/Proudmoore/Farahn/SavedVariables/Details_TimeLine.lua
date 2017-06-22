@@ -1,7 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -12,6 +10,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_end"] = "10:37:45",
@@ -37,6 +36,12 @@ DetailsTimeLineDB = {
 			["name"] = "Corstilax",
 			["total_time"] = 62.0079999999998,
 		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -86,14 +91,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Kazufriser-Magtheridon"] = {
-				[226269] = {
-					34.4589999999998, -- [1]
-					50.107, -- [2]
-					["source"] = "Forgotten Spirit",
-					["active"] = false,
-				},
-			},
 			["Kume-Ravencrest"] = {
 				[226269] = {
 					34.4589999999998, -- [1]
@@ -105,6 +102,14 @@ DetailsTimeLineDB = {
 					66.4890000000005, -- [1]
 					67.8130000000001, -- [2]
 					["source"] = "Timeless Wraith",
+					["active"] = false,
+				},
+			},
+			["Kazufriser-Magtheridon"] = {
+				[226269] = {
+					34.4589999999998, -- [1]
+					50.107, -- [2]
+					["source"] = "Forgotten Spirit",
 					["active"] = false,
 				},
 			},
@@ -200,6 +205,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Gerdniels-Quel'Thalas"] = {
@@ -285,11 +291,5 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 }

@@ -48,6 +48,10 @@ if GetLocale()=="????" then
 -- Widgets\PanelTabs.lua
 
 -- Process\PetInfo.lua
+	L["Ignored Pet"] = nil
+	L["Random %s"] = nil
+	L["Random Pet"] = nil
+	L["Unknown"] = nil
 
 -- Process\PetTag.lua
 
@@ -111,7 +115,6 @@ if GetLocale()=="????" then
 	L["This slot is controlled by the leveling queue.\n\nTeams saved with leveling slots will load leveling pets from the queue into these slots."] = nil
 	L["Ignored Slot"] = nil
 	L["Teams saved with ignored slots will not load anything into these slots."] = nil
-	L["Random Pet"] = nil
 	L["Random %s Pet"] = nil
 	L["Teams saved with random slots will load a random high level pet into these slots."] = nil
 
@@ -351,6 +354,7 @@ if GetLocale()=="????" then
 	L["Save the currently loaded pets to this target."] = nil
 
 -- Panels\TeamPanel.lua
+	L["Loaded Team"] = nil
 
 -- Panels\QueuePanel.lua
 	L["Ascending Level"] = nil
@@ -358,6 +362,7 @@ if GetLocale()=="????" then
 	L["Median Level"] = nil
 	L["Type"] = nil
 	L["Queue"] = nil
+	L["Current Leveling Pet"] = nil
 	L["This is the leveling queue. Drag pets you want to level here.\n\nRight click any of the three battle pet slots and choose 'Put Leveling Pet Here' to mark it as a leveling slot you want controlled by the queue.\n\nWhile a leveling slot is active, the queue will fill the slot with the top-most pet in the queue. When this pet reaches level 25 (gratz!) it will leave the queue and the next pet in the queue will take its place.\n\nTeams saved with a leveling slot will reserve that slot for future leveling pets."] = nil
 	L["Sort by:"] = nil
 	L["Sort all pets in the queue from level 1 to level 24."] = nil
@@ -382,6 +387,7 @@ if GetLocale()=="????" then
 	L["No Active Sort"] = nil
 	L["Turn off Active Sort. Queued pets can then be rearranged and will not automatically reorder themselves.\n\nTo turn Active Sort back on, check %sActive Sort\124r in the Queue menu."] = nil
 	L["Turn Off Active Sort?"] = nil
+	L["This pet is already in the queue and Active Sort is enabled.\n\nWhile enabled, the queue has complete control over the order of pets in the queue.\n\nDo you want to turn off Active Sort to move this pet in the queue?"] = nil
 	L["Leveling Pets: %s%s"] = nil
 	L["Active Sort:"] = nil
 	L["Add these pets to the queue?"] = nil
@@ -499,6 +505,8 @@ if GetLocale()=="????" then
 	L["When exporting teams or sending to another Rematch user, use the old format.\n\nUse this option when sharing teams with someone on an older Rematch that's unable to import or receive newer teams."] = nil
 	L["Prioritize Breed On Import"] = nil
 	L["When importing or receiving teams, fill the team with the best matched breed as the first priority instead of the highest level."] = nil
+	L["Randomize Abilities Too"] = nil
+	L["For random pets, randomize the pets' abilities also."] = nil
 	L["Leveling Queue Options"] = nil
 	L["Prefer Living Pets"] = nil
 	L["When loading pets from the queue, skip dead pets and load living ones first."] = nil

@@ -5,6 +5,16 @@
 -- Template.lua is the "master file" with all current localization strings
 -- grouped by the file they're first encountered.
 
+-- New strings in 4.7.1
+	L["For random pets, randomize the pets' abilities also."] = nil
+	L["Random %s"] = nil
+	L["This pet is already in the queue and Active Sort is enabled.\n\nWhile enabled, the queue has complete control over the order of pets in the queue.\n\nDo you want to turn off Active Sort to move this pet in the queue?"] = nil
+	L["Ignored Pet"] = nil
+	L["Unknown"] = nil
+	L["Loaded Team"] = nil
+	L["Randomize Abilities Too"] = nil
+	L["Current Leveling Pet"] = nil
+
 -- New strings in 4.7.0
 	L["Any Type"] = nil
 	L["When this team loads, this spot will be ignored."] = nil

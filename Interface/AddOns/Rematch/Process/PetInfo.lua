@@ -80,6 +80,8 @@
       battleOwner: whether ally(1) or enemy(2) pet in battle (integer)
       battleIndex: 1-3 index of pet in battle (integer)
       isSlotted: whether pet is slotted (bool)
+      inTeams: whether pet is in any teams (pet and species idTypes only) (bool)
+      numTeams: number of teams the pet belongs to (pet and species only) (integer)
       
    How it works:
 
@@ -114,6 +116,7 @@
 
 ]]
 
+local _,L = ...
 local rematch = Rematch
 
 local GetPetInfoByPetID = C_PetJournal.GetPetInfoByPetID
@@ -131,16 +134,22 @@ local apiByStat = {
    breedID="Breed", breedName="Breed", possibleBreedIDs="PossibleBreeds",
    possibleBreedNames="PossibleBreeds", numPossibleBreeds="PossibleBreeds", hasBreed="Breed",
    owned="Valid", battleOwner="Battle", battleIndex="Battle", isSlotted="Slotted",
-   isLeveling="Queue",
+   inTeams="Teams", numTeams="Teams",
 }
 
 -- indexed by petInfo table reference, this will contain reused tables like fetchedAPI
 -- and abilityList to prevent garbage creation
 local hiddenTables = {}
 
+-- for Breed stat group
 local breedSource -- addon that's providing breed data: "BattlePetBreedID", "PetTracker_Breeds" or "LibPetBreedInfo-1.0"
 local breedLib -- for LibPetBreedInfo-1.0 only
 local breedNames = {nil,nil,"B/B","P/P","S/S","H/H","H/P","P/S","H/S","P/B","S/B","H/B"}
+
+-- for Teams stat group
+local petsInTeamsGathered -- becomes true when pets have been gathered in petsInTeams
+local petsInTeams = {} -- indexed by petID or speciesID, number of teams the pet belongs to
+local clearPetsInTeams -- function to clear the above two so old data isn't kept
 
 -- getIDType takes a petID and returns what type of id it is
 -- possible: "pet" "species" "leveling" "ignored" "link" "battle" "random" or "unknown"
@@ -202,10 +211,10 @@ local queryAPIs = {
       elseif idType=="species" then
          fillInfoBySpeciesID(self,self.petID)
       elseif idType=="leveling" then
-         self.name = "Leveling Pet"
+         self.name = L["Leveling Pet"]
          self.icon = "Interface\\AddOns\\Rematch\\Textures\\LevelingIcon.blp"
       elseif idType=="ignored" then
-         self.name = "Ignored Pet"
+         self.name = L["Ignored Pet"]
          self.icon = "Interface\\AddOns\\Rematch\\Textures\\IgnoredIcon.blp"
       elseif idType=="link" then
          local speciesID,level = self.petID:match("battlepet:(%d+):(%d+):")
@@ -236,11 +245,10 @@ local queryAPIs = {
          self.petType = petType
          -- name is "Random Pet" or "Random Humanoid", "Random Dragonkin", etc
          local suffix = PET_TYPE_SUFFIX[petType]
-         self.name = suffix and format("Random %s",_G["BATTLE_PET_NAME_"..petType]) or "Random Pet"
+         self.name = suffix and format(L["Random %s"],_G["BATTLE_PET_NAME_"..petType]) or L["Random Pet"]
          self.icon = suffix and format("Interface\\Icons\\Icon_PetFamily_%s",suffix) or "Interface\\Icons\\INV_Misc_Dice_02"
-         --self.icon = "Interface\\Icons\\INV_Misc_QuestionMark" -- replace with random icon
       else
-         self.name = "Unknown"
+         self.name = L["Unknown"]
          self.icon = "Interface\\Icons\\INV_Misc_QuestionMark"
       end
    end,
@@ -412,11 +420,45 @@ local queryAPIs = {
          self.battleIndex = tonumber(index)
       end
    end,
+   -- whether the pet is slotted
    Slotted = function(self)
       local idType = self.idType
       self.isSlotted = (idType=="pet" and C_PetJournal.PetIsSlotted(self.petID)) or (idType=="battle" and self.battleOwner==1)
    end,
+   -- pulls the number of teams the pet of interest belongs to
+   Teams = function(self)
+      -- in many cases, a request for the number of teams a pet belongs to will be run for
+      -- many pets. to reduce the work this causes, the table petsinTeams is filled for
+      -- all pets when first accessed and then emptied a frame later
+      if not petsInTeamsGathered then
+         petsInTeamsGathered = true
+         for _,team in pairs(RematchSaved) do
+            for i=1,3 do
+               local petID = team[i][1]
+               if petID then
+                  petsInTeams[petID] = (petsInTeams[petID] or 0) + 1
+               end
+            end
+         end
+         rematch:StartTimer("PetsInTeams",0,clearPetsInTeams) -- come back in a frame to reset
+      end
+      -- defining the actual stats inTeams and numTeams
+      local idType = self.idType
+      if idType=="pet" or idType=="species" then
+         local numTeams = petsInTeams[self.petID] or 0
+         self.inTeams = numTeams>0
+         self.numTeams = numTeams
+      end
+   end,
+
 }
+
+-- local function called the frame after a Teams stat is accessed
+-- wipes the petsInTeams table and clears the flag that data was gathered
+function clearPetsInTeams()
+   wipe(petsInTeams)
+   petsInTeamsGathered = nil
+end
 
 -- rematch:GetBreedSource() is used by the Breed and PossibleBreeds API
 -- the first time this runs it looks for a breed addon enabled and returns it

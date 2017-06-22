@@ -1,3 +1,13 @@
+06/20/2017 version 4.7.1
+- Random slots will prefer pets not in a team and at full health. Injured pets will have a higher priority than dead pets.
+- If all three slots in a team are random, it will disregard whether the random pet is in a team, but health preference still applies. This allows loading a team of totally random (healthy) pets.
+- If no chosen random pet type is available when a team loads, and 'Don't Warn About Missing Pets' is checked in Confirmation Options, a missing pet dialog will appear.
+- Added option 'Randomize Abilities Too' under Team Options, to randomize the abilities of random pets.
+- Added inTeams and numTeams to petInfo (usable in script filters).
+- Added a few strings left out of localization.
+- Fix for already-slotted pets in other slots from being chosen as a random pet.
+- ruRU localization updated by Gizmi on curse.com.
+
 06/18/2017 version 4.7.0
 - Added two new slot types: Ignored and Random.
 - Ignored slots will be left alone when a team loads.

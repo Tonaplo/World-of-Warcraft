@@ -61,7 +61,7 @@
 						</KeyValues>
 						<Layers>
 							<Layer level="ARTWORK">
-								<FontString parentKey="Label" inherits="GameFontNormalSmall" text="Current Leveling Pet">
+								<FontString parentKey="Label" inherits="GameFontNormalSmall">
 									<Anchors>
 										<Anchor point="BOTTOM" relativeTo="RematchQueuePanel" relativePoint="TOP" x="0" y="-39"/>
 									</Anchors>

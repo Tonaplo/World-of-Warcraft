@@ -44,6 +44,7 @@ function rematch:LoadTeam(key)
 
 	-- fill loadin from the team
 	local pickIndex = 1
+   local numRandomSlots = 0
 	for i=1,3 do
 		local petID = team[i][1]
 		local levelingPick = rematch.topPicks[pickIndex]
@@ -54,6 +55,7 @@ function rematch:LoadTeam(key)
          loadin[i][1] = C_PetJournal.GetPetLoadOutInfo(i) -- keep loaded pet here if ignored
       elseif rematch:GetSpecialPetIDType(petID)=="random" then
          loadin[i][1] = petID -- will come back to this pet later
+         numRandomSlots = numRandomSlots + 1
 		elseif petID and petID~=0 then
 			local idType = rematch:GetIDType(petID)
 			if idType=="species" then
@@ -91,7 +93,17 @@ function rematch:LoadTeam(key)
          local next2 = next1%3+1
          local noPetID2 = loadin[next2][1]
          -- then pick a random pet from the random petID (that's not already loaded)
-         loadin[slot][1] = rematch:PickRandomPet(loadin[slot][1],next1,next2)
+         -- if 3 slots are random, pass true for evenInTeams flag to pick pets in teams too
+         local petID = rematch:PickRandomPet(loadin[slot][1],noPetID1,noPetID2,numRandomSlots==3)
+         loadin[slot][1] = petID
+         if petID and settings.RandomAbilitiesToo then
+            local petInfo = rematch.petInfo:Fetch(petID)
+            for i=1,3 do
+               loadin[slot][i+1] = petInfo.abilityList[i+(random(100)>50 and 3 or 0)]
+            end
+         elseif not petID then
+            missing[slot] = true
+         end
       end
    end
 

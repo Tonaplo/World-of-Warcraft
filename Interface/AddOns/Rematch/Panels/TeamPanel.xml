@@ -308,7 +308,7 @@
 						</Anchors>
 						<Layers>
 							<Layer level="ARTWORK">
-								<FontString parentKey="Label" inherits="GameFontNormalSmall" text="Loaded Team">
+								<FontString parentKey="Label" inherits="GameFontNormalSmall">
 									<Anchors>
 										<Anchor point="BOTTOM" relativePoint="TOP"/>
 									</Anchors>

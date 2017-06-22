@@ -20,6 +20,7 @@ rematch:InitModule(function()
 	queue = settings.LevelingQueue
 
 	panel.Top.QueueButton:SetText(L["Queue"])
+   panel.Top.LevelingSlot.Label:SetText(L["Current Leveling Pet"])
 
 	-- setup list scrollframe
 	local scrollFrame = panel.List.ScrollFrame
@@ -141,7 +142,7 @@ function panel:LevelingSlotReceiveDrag(index)
 		if rematch:PetCanLevel(petID) then
 			if rematch:IsPetLeveling(petID) and settings.QueueActiveSort then
 				local dialog = rematch:ShowDialog("CancelActiveSort",300,196,L["Turn Off Active Sort?"],nil,YES,function(self) settings.QueueActiveSort=nil panel:LevelingSlotReceiveDrag(index) end,NO)
-				dialog:ShowText("This pet is already in the queue and Active Sort is enabled.\n\nWhile enabled, the queue has complete control over the order of pets in the queue.\n\nDo you want to turn off Active Sort to move this pet in the queue?",260,122,"TOP",0,-32)
+				dialog:ShowText(L["This pet is already in the queue and Active Sort is enabled.\n\nWhile enabled, the queue has complete control over the order of pets in the queue.\n\nDo you want to turn off Active Sort to move this pet in the queue?"],260,122,"TOP",0,-32)
 			else
 				rematch:InsertPetToQueue(index,petID)
 				ClearCursor()

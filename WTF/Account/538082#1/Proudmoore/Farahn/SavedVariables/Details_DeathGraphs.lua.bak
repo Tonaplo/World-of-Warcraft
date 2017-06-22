@@ -6,72 +6,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Skorpyron",
 		["id"] = 1706,
 		["diff"] = 15,
-		["player_db"] = {
-			["Farahn"] = {
-				["overall"] = {
-					[204292] = 1488161,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Farahn",
-				["class"] = "SHAMAN",
-			},
-			["Pvpedmypants-Stormrage"] = {
-				["overall"] = {
-					[204292] = 1863982,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pvpedmypants-Stormrage",
-				["class"] = "HUNTER",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["overall"] = {
-					356203, -- [1]
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-			},
-			["Koaxed-Tichondrius"] = {
-				["overall"] = {
-					[204292] = 1822784,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Koaxed-Tichondrius",
-				["class"] = "MONK",
-			},
-			["Insentience-Tichondrius"] = {
-				["overall"] = {
-					[204292] = 1797137,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Insentience-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[204292] = 1709370,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["overall"] = {
-					533272, -- [1]
-					[204275] = 874250,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jimhälpert-Tichondrius",
-				["class"] = "WARRIOR",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -85,6 +19,72 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Farahn"] = {
+				["name"] = "Farahn",
+				["class"] = "SHAMAN",
+				["overall"] = {
+					[204292] = 1488161,
+				},
+				["deaths"] = {
+				},
+			},
+			["Pvpedmypants-Stormrage"] = {
+				["name"] = "Pvpedmypants-Stormrage",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[204292] = 1863982,
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+					356203, -- [1]
+				},
+				["deaths"] = {
+				},
+			},
+			["Koaxed-Tichondrius"] = {
+				["name"] = "Koaxed-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+					[204292] = 1822784,
+				},
+				["deaths"] = {
+				},
+			},
+			["Insentience-Tichondrius"] = {
+				["name"] = "Insentience-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[204292] = 1797137,
+				},
+				["deaths"] = {
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[204292] = 1709370,
+				},
+				["deaths"] = {
+				},
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["name"] = "Jimhälpert-Tichondrius",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					533272, -- [1]
+					[204275] = 874250,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["175115"] = {
 		["hash"] = "175115",
@@ -92,65 +92,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Spellblade Aluriel",
 		["id"] = 1751,
 		["diff"] = 15,
-		["player_db"] = {
-			["Farahn"] = {
-				["overall"] = {
-					[213761] = 1055316,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Farahn",
-				["class"] = "SHAMAN",
-			},
-			["Phaerixia"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[212494] = 1158351,
-					[213328] = 440195,
-				},
-				["name"] = "Phaerixia",
-			},
-			["Nîne-Tichondrius"] = {
-				["overall"] = {
-					[212494] = 2348341,
-					[213807] = 22326,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nîne-Tichondrius",
-				["class"] = "DEMONHUNTER",
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["overall"] = {
-					[213520] = 1225439,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowfurryoff-Tichondrius",
-				["class"] = "PRIEST",
-			},
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[213761] = 1091611,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["overall"] = {
-					[212648] = 291655,
-					[213624] = 609239,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jimhälpert-Tichondrius",
-				["class"] = "WARRIOR",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -164,6 +105,65 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Farahn"] = {
+				["name"] = "Farahn",
+				["class"] = "SHAMAN",
+				["overall"] = {
+					[213761] = 1055316,
+				},
+				["deaths"] = {
+				},
+			},
+			["Phaerixia"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Phaerixia",
+				["overall"] = {
+					[212494] = 1158351,
+					[213328] = 440195,
+				},
+			},
+			["Nîne-Tichondrius"] = {
+				["name"] = "Nîne-Tichondrius",
+				["class"] = "DEMONHUNTER",
+				["overall"] = {
+					[212494] = 2348341,
+					[213807] = 22326,
+				},
+				["deaths"] = {
+				},
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["name"] = "Meowfurryoff-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[213520] = 1225439,
+				},
+				["deaths"] = {
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[213761] = 1091611,
+				},
+				["deaths"] = {
+				},
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["name"] = "Jimhälpert-Tichondrius",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					[212648] = 291655,
+					[213624] = 609239,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["176215"] = {
 		["hash"] = "176215",
@@ -171,140 +171,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Tichondrius",
 		["id"] = 1762,
 		["diff"] = 15,
-		["player_db"] = {
-			["Farahn"] = {
-				["overall"] = {
-					[223021] = 787231,
-					[206474] = 2763988,
-					[212795] = 2532175,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Farahn",
-				["class"] = "SHAMAN",
-			},
-			["Pvpedmypants-Stormrage"] = {
-				["overall"] = {
-					[223021] = 486569,
-					[206474] = 594960,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pvpedmypants-Stormrage",
-				["class"] = "HUNTER",
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["overall"] = {
-					[223021] = 500206,
-					[212795] = 1305086,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowfurryoff-Tichondrius",
-				["class"] = "PRIEST",
-			},
-			["Ciklone"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[223021] = 329426,
-					[215988] = 1751395,
-					[212795] = 1240028,
-				},
-				["name"] = "Ciklone",
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["overall"] = {
-					[223021] = 666369,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jimhälpert-Tichondrius",
-				["class"] = "WARRIOR",
-			},
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[212795] = 985944,
-					[223021] = 492425,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Unholyhotty-Sen'jin"] = {
-				["overall"] = {
-					[223021] = 332348,
-					[213534] = 701158,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Unholyhotty-Sen'jin",
-				["class"] = "PRIEST",
-			},
-			["Brezmartin"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[213534] = 1099171,
-					[223021] = 165424,
-				},
-				["name"] = "Brezmartin",
-			},
-			["Criphra-Hyjal"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[223021] = 496932,
-					[215988] = 1676691,
-					[206474] = 1705599,
-					[212795] = 1372945,
-				},
-				["name"] = "Criphra-Hyjal",
-			},
-			["Koaxed-Tichondrius"] = {
-				["overall"] = {
-					[206474] = 2257072,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Koaxed-Tichondrius",
-				["class"] = "MONK",
-			},
-			["Insentience-Tichondrius"] = {
-				["overall"] = {
-					99896, -- [1]
-					[223021] = 498619,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Insentience-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Zaelsynth-Tichondrius"] = {
-				["overall"] = {
-					[223021] = 339388,
-					[213534] = 932869,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zaelsynth-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Phaerixia"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[223021] = 334213,
-					[213534] = 705627,
-				},
-				["name"] = "Phaerixia",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -317,12 +183,202 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["diff"] = 15,
 		},
+		["player_db"] = {
+			["Farahn"] = {
+				["name"] = "Farahn",
+				["class"] = "SHAMAN",
+				["overall"] = {
+					[223021] = 787231,
+					[206474] = 2763988,
+					[212795] = 2532175,
+				},
+				["deaths"] = {
+				},
+			},
+			["Pvpedmypants-Stormrage"] = {
+				["name"] = "Pvpedmypants-Stormrage",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[223021] = 486569,
+					[206474] = 594960,
+				},
+				["deaths"] = {
+				},
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["name"] = "Meowfurryoff-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[223021] = 500206,
+					[212795] = 1305086,
+				},
+				["deaths"] = {
+				},
+			},
+			["Ciklone"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Ciklone",
+				["overall"] = {
+					[223021] = 329426,
+					[215988] = 1751395,
+					[212795] = 1240028,
+				},
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["name"] = "Jimhälpert-Tichondrius",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					[223021] = 666369,
+				},
+				["deaths"] = {
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[212795] = 985944,
+					[223021] = 492425,
+				},
+				["deaths"] = {
+				},
+			},
+			["Unholyhotty-Sen'jin"] = {
+				["name"] = "Unholyhotty-Sen'jin",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[223021] = 332348,
+					[213534] = 701158,
+				},
+				["deaths"] = {
+				},
+			},
+			["Brezmartin"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Brezmartin",
+				["overall"] = {
+					[213534] = 1099171,
+					[223021] = 165424,
+				},
+			},
+			["Criphra-Hyjal"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Criphra-Hyjal",
+				["overall"] = {
+					[223021] = 496932,
+					[215988] = 1676691,
+					[206474] = 1705599,
+					[212795] = 1372945,
+				},
+			},
+			["Koaxed-Tichondrius"] = {
+				["name"] = "Koaxed-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+					[206474] = 2257072,
+				},
+				["deaths"] = {
+				},
+			},
+			["Insentience-Tichondrius"] = {
+				["name"] = "Insentience-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					99896, -- [1]
+					[223021] = 498619,
+				},
+				["deaths"] = {
+				},
+			},
+			["Zaelsynth-Tichondrius"] = {
+				["name"] = "Zaelsynth-Tichondrius",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+					[223021] = 339388,
+					[213534] = 932869,
+				},
+				["deaths"] = {
+				},
+			},
+			["Phaerixia"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Phaerixia",
+				["overall"] = {
+					[223021] = 334213,
+					[213534] = 705627,
+				},
+			},
+		},
 	},
 	["174315"] = {
 		["hash"] = "174315",
 		["type"] = "deaths",
 		["name"] = "Grand Magistrix Elisande",
 		["id"] = 1743,
+		["player_db"] = {
+			["Farahn"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Farahn",
+				["overall"] = {
+					[229741] = 403425,
+					[208659] = 5753494,
+					[211799] = 726125,
+					[209568] = 367963,
+				},
+			},
+			["Koaxed-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Koaxed-Tichondrius",
+				["overall"] = {
+					[208659] = 4328383,
+					[211799] = 705908,
+				},
+			},
+			["Zaelsynth-Tichondrius"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[208659] = 2376656,
+					[229741] = 630942,
+				},
+				["name"] = "Zaelsynth-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Genjieggs-Tichondrius",
+				["overall"] = {
+					[229741] = 813734,
+					[209568] = 332019,
+					[211799] = 1367676,
+					[209433] = 1920698,
+				},
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Jimhälpert-Tichondrius",
+				["overall"] = {
+					[229741] = 1002468,
+					[208659] = 3499844,
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -336,431 +392,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 1872,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Farahn"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[229741] = 403425,
-					[208659] = 5753494,
-					[211799] = 726125,
-					[209568] = 367963,
-				},
-				["name"] = "Farahn",
-			},
-			["Koaxed-Tichondrius"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[208659] = 4328383,
-					[211799] = 705908,
-				},
-				["name"] = "Koaxed-Tichondrius",
-			},
-			["Zaelsynth-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								1, -- [1]
-								48707, -- [2]
-								1, -- [3]
-								1497145522.805, -- [4]
-								1410788, -- [5]
-								"Zaelsynth-Tichondrius", -- [6]
-							}, -- [1]
-							{
-								false, -- [1]
-								48707, -- [2]
-								342992, -- [3]
-								1497145525.314, -- [4]
-								1410788, -- [5]
-								"Zaelsynth-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [2]
-							{
-								true, -- [1]
-								209568, -- [2]
-								342992, -- [3]
-								1497145525.314, -- [4]
-								1410788, -- [5]
-								"Expedient Elemental", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								48707, -- [2]
-								434037, -- [3]
-								1497145526.628, -- [4]
-								1410788, -- [5]
-								"Zaelsynth-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [4]
-							{
-								true, -- [1]
-								229741, -- [2]
-								434037, -- [3]
-								1497145526.628, -- [4]
-								1410788, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								48707, -- [2]
-								0, -- [3]
-								1497145527.802, -- [4]
-								1410788, -- [5]
-								"Zaelsynth-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [6]
-							{
-								false, -- [1]
-								114942, -- [2]
-								131029, -- [3]
-								1497145528.195, -- [4]
-								1541817, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [7]
-							{
-								1, -- [1]
-								48792, -- [2]
-								1, -- [3]
-								1497145529.583, -- [4]
-								1541817, -- [5]
-								"Zaelsynth-Tichondrius", -- [6]
-							}, -- [8]
-							{
-								false, -- [1]
-								114942, -- [2]
-								148667, -- [3]
-								1497145530.215, -- [4]
-								1690484, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								true, -- [1]
-								229741, -- [2]
-								318469, -- [3]
-								1497145530.282, -- [4]
-								1372015, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								114942, -- [2]
-								330605, -- [3]
-								1497145531.218, -- [4]
-								1702620, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [11]
-							{
-								false, -- [1]
-								114942, -- [2]
-								336569, -- [3]
-								1497145532.238, -- [4]
-								2039189, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [12]
-							{
-								false, -- [1]
-								114942, -- [2]
-								119933, -- [3]
-								1497145532.832, -- [4]
-								2159122, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [13]
-							{
-								true, -- [1]
-								229741, -- [2]
-								312473, -- [3]
-								1497145533.908, -- [4]
-								1846649, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								208659, -- [2]
-								1188328, -- [3]
-								1497145535.337, -- [4]
-								658321, -- [5]
-								"[*] Arcanetic Ring", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								208659, -- [2]
-								1188328, -- [3]
-								1497145536.349, -- [4]
-								1, -- [5]
-								"[*] Arcanetic Ring", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								530007, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497145529.583, -- [1]
-							48792, -- [2]
-						}, -- [2]
-						32.5419999999976, -- [3]
-						4033860, -- [4]
-						"Grand Magistrix Elisande", -- [5]
-						1497145536.369, -- [6]
-						"DEATHKNIGHT", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Zaelsynth-Tichondrius",
-				["overall"] = {
-					[208659] = 2376656,
-					[229741] = 630942,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						{
-							{
-								false, -- [1]
-								208899, -- [2]
-								21157, -- [3]
-								1497145606.893, -- [4]
-								928352, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [1]
-							{
-								true, -- [1]
-								229741, -- [2]
-								434582, -- [3]
-								1497145608.132, -- [4]
-								409374, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								208899, -- [2]
-								22476, -- [3]
-								1497145608.912, -- [4]
-								431850, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [3]
-							{
-								false, -- [1]
-								213652, -- [2]
-								1281384, -- [3]
-								1497145609.507, -- [4]
-								1713234, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [4]
-							{
-								true, -- [1]
-								209568, -- [2]
-								353717, -- [3]
-								1497145611.684, -- [4]
-								1359517, -- [5]
-								"Expedient Elemental", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								209540, -- [2]
-								47204, -- [3]
-								1497145612.551, -- [4]
-								1406721, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								61295, -- [2]
-								326837, -- [3]
-								1497145614.186, -- [4]
-								1733558, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [7]
-							{
-								true, -- [1]
-								229741, -- [2]
-								395794, -- [3]
-								1497145615.413, -- [4]
-								1511119, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								209540, -- [2]
-								51475, -- [3]
-								1497145615.55, -- [4]
-								1562594, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								false, -- [1]
-								61295, -- [2]
-								50171, -- [3]
-								1497145616.764, -- [4]
-								1612765, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								209540, -- [2]
-								51476, -- [3]
-								1497145618.555, -- [4]
-								1664241, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10295, -- [3]
-								1497145618.956, -- [4]
-								1674536, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [12]
-							{
-								false, -- [1]
-								61295, -- [2]
-								49329, -- [3]
-								1497145619.337, -- [4]
-								1723865, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [13]
-							{
-								true, -- [1]
-								211799, -- [2]
-								1367676, -- [3]
-								1497145619.501, -- [4]
-								356189, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10295, -- [3]
-								1497145619.925, -- [4]
-								366484, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [15]
-							{
-								true, -- [1]
-								229741, -- [2]
-								417940, -- [3]
-								1497145620.276, -- [4]
-								1, -- [5]
-								"Elisande", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								51456, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						116.449000000001, -- [3]
-						3257340, -- [4]
-						"Grand Magistrix Elisande", -- [5]
-						1497145620.276, -- [6]
-						"HUNTER", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["overall"] = {
-					[229741] = 813734,
-					[209568] = 332019,
-					[211799] = 1367676,
-					[209433] = 1920698,
-				},
-				["name"] = "Genjieggs-Tichondrius",
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[229741] = 1002468,
-					[208659] = 3499844,
-				},
-				["name"] = "Jimhälpert-Tichondrius",
-			},
-		},
 		["diff"] = 15,
 	},
 	["171315"] = {
@@ -769,189 +400,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Krosus",
 		["id"] = 1713,
 		["diff"] = 15,
-		["player_db"] = {
-			["Ciklone"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[205348] = 1657037,
-					[206352] = 1616277,
-				},
-				["name"] = "Ciklone",
-			},
-			["Ileiaris-Tichondrius"] = {
-				["overall"] = {
-					[206677] = 2246492,
-					[124255] = 961110,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ileiaris-Tichondrius",
-				["class"] = "MONK",
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["overall"] = {
-					[205348] = 2681638,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowfurryoff-Tichondrius",
-				["class"] = "PRIEST",
-			},
-			["Edla"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					726757, -- [1]
-					[206677] = 3910036,
-					[205863] = 1473966,
-					[225362] = 2753958,
-				},
-				["name"] = "Edla",
-			},
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[206352] = 689021,
-					[206376] = 709344,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Stumpknots-Ner'zhul"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[225362] = 1261075,
-				},
-				["name"] = "Stumpknots-Ner'zhul",
-			},
-			["Criphra-Hyjal"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[205348] = 2710101,
-					[206352] = 1950693,
-				},
-				["name"] = "Criphra-Hyjal",
-			},
-			["Pvpedmypants-Stormrage"] = {
-				["overall"] = {
-					[225362] = 1302491,
-					[206352] = 672483,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pvpedmypants-Stormrage",
-				["class"] = "HUNTER",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["overall"] = {
-					[206677] = 3592017,
-					[205863] = 657788,
-					[225362] = 645444,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-			},
-			["Saizon"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[206352] = 1772971,
-					[205348] = 2199439,
-				},
-				["name"] = "Saizon",
-			},
-			["Archimtiros-Mannoroth"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[205348] = 2612651,
-					[206352] = 2332892,
-				},
-				["name"] = "Archimtiros-Mannoroth",
-			},
-			["Zaelsynth-Tichondrius"] = {
-				["overall"] = {
-					[225362] = 1370448,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zaelsynth-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Farahn"] = {
-				["overall"] = {
-					[205348] = 1405795,
-					[206352] = 1731201,
-					[225362] = 1263943,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Farahn",
-				["class"] = "SHAMAN",
-			},
-			["Unholyhotty-Sen'jin"] = {
-				["overall"] = {
-					[205348] = 2469209,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Unholyhotty-Sen'jin",
-				["class"] = "PRIEST",
-			},
-			["Koaxed-Tichondrius"] = {
-				["overall"] = {
-					[205863] = 2061831,
-					[225362] = 1285040,
-					[206352] = 632858,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Koaxed-Tichondrius",
-				["class"] = "MONK",
-			},
-			["Kaligon-Tichondrius"] = {
-				["overall"] = {
-					[206352] = 2531200,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kaligon-Tichondrius",
-				["class"] = "MAGE",
-			},
-			["Jedem-Ursin"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[205391] = 2525345,
-					[206352] = 1938564,
-				},
-				["name"] = "Jedem-Ursin",
-			},
-			["Viridae"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[206352] = 1399267,
-					[205391] = 2870430,
-					[206376] = 738611,
-				},
-				["name"] = "Viridae",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 6,
@@ -965,6 +413,189 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Ciklone"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Ciklone",
+				["overall"] = {
+					[205348] = 1657037,
+					[206352] = 1616277,
+				},
+			},
+			["Ileiaris-Tichondrius"] = {
+				["name"] = "Ileiaris-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+					[206677] = 2246492,
+					[124255] = 961110,
+				},
+				["deaths"] = {
+				},
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["name"] = "Meowfurryoff-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[205348] = 2681638,
+				},
+				["deaths"] = {
+				},
+			},
+			["Edla"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Edla",
+				["overall"] = {
+					726757, -- [1]
+					[206677] = 3910036,
+					[205863] = 1473966,
+					[225362] = 2753958,
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[206352] = 689021,
+					[206376] = 709344,
+				},
+				["deaths"] = {
+				},
+			},
+			["Stumpknots-Ner'zhul"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Stumpknots-Ner'zhul",
+				["overall"] = {
+					[225362] = 1261075,
+				},
+			},
+			["Criphra-Hyjal"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Criphra-Hyjal",
+				["overall"] = {
+					[205348] = 2710101,
+					[206352] = 1950693,
+				},
+			},
+			["Pvpedmypants-Stormrage"] = {
+				["name"] = "Pvpedmypants-Stormrage",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[225362] = 1302491,
+					[206352] = 672483,
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+					[206677] = 3592017,
+					[205863] = 657788,
+					[225362] = 645444,
+				},
+				["deaths"] = {
+				},
+			},
+			["Saizon"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Saizon",
+				["overall"] = {
+					[206352] = 1772971,
+					[205348] = 2199439,
+				},
+			},
+			["Archimtiros-Mannoroth"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Archimtiros-Mannoroth",
+				["overall"] = {
+					[205348] = 2612651,
+					[206352] = 2332892,
+				},
+			},
+			["Zaelsynth-Tichondrius"] = {
+				["name"] = "Zaelsynth-Tichondrius",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+					[225362] = 1370448,
+				},
+				["deaths"] = {
+				},
+			},
+			["Farahn"] = {
+				["name"] = "Farahn",
+				["class"] = "SHAMAN",
+				["overall"] = {
+					[205348] = 1405795,
+					[206352] = 1731201,
+					[225362] = 1263943,
+				},
+				["deaths"] = {
+				},
+			},
+			["Unholyhotty-Sen'jin"] = {
+				["name"] = "Unholyhotty-Sen'jin",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[205348] = 2469209,
+				},
+				["deaths"] = {
+				},
+			},
+			["Koaxed-Tichondrius"] = {
+				["name"] = "Koaxed-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+					[205863] = 2061831,
+					[225362] = 1285040,
+					[206352] = 632858,
+				},
+				["deaths"] = {
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				["name"] = "Kaligon-Tichondrius",
+				["class"] = "MAGE",
+				["overall"] = {
+					[206352] = 2531200,
+				},
+				["deaths"] = {
+				},
+			},
+			["Jedem-Ursin"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Jedem-Ursin",
+				["overall"] = {
+					[205391] = 2525345,
+					[206352] = 1938564,
+				},
+			},
+			["Viridae"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Viridae",
+				["overall"] = {
+					[206352] = 1399267,
+					[205391] = 2870430,
+					[206376] = 738611,
+				},
+			},
+		},
 	},
 	["173215"] = {
 		["hash"] = "173215",
@@ -972,45 +603,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Star Augur Etraeus",
 		["id"] = 1732,
 		["diff"] = 15,
-		["player_db"] = {
-			["Koaxed-Tichondrius"] = {
-				["overall"] = {
-					[206398] = 4270672,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Koaxed-Tichondrius",
-				["class"] = "MONK",
-			},
-			["Edla"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[206398] = 3117057,
-				},
-				["name"] = "Edla",
-			},
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[206577] = 2498719,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Felmyheart-Icecrown"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[206517] = 4765755,
-					[206398] = 2313966,
-				},
-				["name"] = "Felmyheart-Icecrown",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 8,
@@ -1023,6 +615,45 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["diff"] = 15,
 		},
+		["player_db"] = {
+			["Koaxed-Tichondrius"] = {
+				["name"] = "Koaxed-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+					[206398] = 4270672,
+				},
+				["deaths"] = {
+				},
+			},
+			["Edla"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Edla",
+				["overall"] = {
+					[206398] = 3117057,
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[206577] = 2498719,
+				},
+				["deaths"] = {
+				},
+			},
+			["Felmyheart-Icecrown"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Felmyheart-Icecrown",
+				["overall"] = {
+					[206517] = 4765755,
+					[206398] = 2313966,
+				},
+			},
+		},
 	},
 	["172515"] = {
 		["hash"] = "172515",
@@ -1030,18 +661,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Chronomatic Anomaly",
 		["id"] = 1725,
 		["diff"] = 15,
-		["player_db"] = {
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[219823] = 440786,
-					[206615] = 1368777,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -1054,6 +673,18 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["diff"] = 15,
 		},
+		["player_db"] = {
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[219823] = 440786,
+					[206615] = 1368777,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["173115"] = {
 		["hash"] = "173115",
@@ -1061,146 +692,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Trilliax",
 		["id"] = 1731,
 		["diff"] = 15,
-		["player_db"] = {
-			["Farahn"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[3] = 1069500,
-					[207141] = 5193805,
-					[212103] = 134556,
-				},
-				["name"] = "Farahn",
-			},
-			["Pvpedmypants-Stormrage"] = {
-				["overall"] = {
-					[207631] = 3383020,
-					[206798] = 282308,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Pvpedmypants-Stormrage",
-				["class"] = "HUNTER",
-			},
-			["Kalithumos-Tichondrius"] = {
-				["overall"] = {
-					1266496, -- [1]
-					[208918] = 330048,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kalithumos-Tichondrius",
-				["class"] = "PALADIN",
-			},
-			["Slicedlol-Tichondrius"] = {
-				["overall"] = {
-					[206749] = 97230,
-					[207631] = 4747647,
-					[206488] = 348087,
-					[208918] = 62004,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Slicedlol-Tichondrius",
-				["class"] = "ROGUE",
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["overall"] = {
-					[206488] = 396716,
-					[207631] = 5666306,
-					[206749] = 225807,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jimhälpert-Tichondrius",
-				["class"] = "WARRIOR",
-			},
-			["Talamelth"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[208501] = 117327,
-					[207141] = 2034716,
-					[206798] = 85165,
-				},
-				["name"] = "Talamelth",
-			},
-			["Reportmepls-Tichondrius"] = {
-				["overall"] = {
-					[206749] = 58359,
-					[207631] = 5906678,
-					[208918] = 57607,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Reportmepls-Tichondrius",
-				["class"] = "WARLOCK",
-			},
-			["Criphra-Hyjal"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[207141] = 1103890,
-					[212103] = 380284,
-				},
-				["name"] = "Criphra-Hyjal",
-			},
-			["Unshocked"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[206749] = 167758,
-					[206488] = 312534,
-					[207631] = 4468515,
-				},
-				["name"] = "Unshocked",
-			},
-			["Viridae"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[206749] = 99019,
-					[206798] = 188696,
-					[207631] = 4838428,
-				},
-				["name"] = "Viridae",
-			},
-			["Touchbuttpls"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[207631] = 4679741,
-					[208918] = 175575,
-				},
-				["name"] = "Touchbuttpls",
-			},
-			["Jedem-Ursin"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[207631] = 4621429,
-					[206749] = 283601,
-				},
-				["name"] = "Jedem-Ursin",
-			},
-			["Unholyhotty-Sen'jin"] = {
-				["overall"] = {
-					[207631] = 4873605,
-					[206749] = 279802,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Unholyhotty-Sen'jin",
-				["class"] = "PRIEST",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -1214,2720 +705,152 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Farahn"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Farahn",
+				["overall"] = {
+					[3] = 1069500,
+					[207141] = 5193805,
+					[212103] = 134556,
+				},
+			},
+			["Pvpedmypants-Stormrage"] = {
+				["name"] = "Pvpedmypants-Stormrage",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[207631] = 3383020,
+					[206798] = 282308,
+				},
+				["deaths"] = {
+				},
+			},
+			["Kalithumos-Tichondrius"] = {
+				["name"] = "Kalithumos-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+					1266496, -- [1]
+					[208918] = 330048,
+				},
+				["deaths"] = {
+				},
+			},
+			["Slicedlol-Tichondrius"] = {
+				["name"] = "Slicedlol-Tichondrius",
+				["class"] = "ROGUE",
+				["overall"] = {
+					[206749] = 97230,
+					[207631] = 4747647,
+					[206488] = 348087,
+					[208918] = 62004,
+				},
+				["deaths"] = {
+				},
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["name"] = "Jimhälpert-Tichondrius",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					[206488] = 396716,
+					[207631] = 5666306,
+					[206749] = 225807,
+				},
+				["deaths"] = {
+				},
+			},
+			["Talamelth"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Talamelth",
+				["overall"] = {
+					[208501] = 117327,
+					[207141] = 2034716,
+					[206798] = 85165,
+				},
+			},
+			["Unholyhotty-Sen'jin"] = {
+				["name"] = "Unholyhotty-Sen'jin",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[207631] = 4873605,
+					[206749] = 279802,
+				},
+				["deaths"] = {
+				},
+			},
+			["Criphra-Hyjal"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Criphra-Hyjal",
+				["overall"] = {
+					[207141] = 1103890,
+					[212103] = 380284,
+				},
+			},
+			["Unshocked"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Unshocked",
+				["overall"] = {
+					[206749] = 167758,
+					[206488] = 312534,
+					[207631] = 4468515,
+				},
+			},
+			["Viridae"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Viridae",
+				["overall"] = {
+					[206749] = 99019,
+					[206798] = 188696,
+					[207631] = 4838428,
+				},
+			},
+			["Touchbuttpls"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Touchbuttpls",
+				["overall"] = {
+					[207631] = 4679741,
+					[208918] = 175575,
+				},
+			},
+			["Jedem-Ursin"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Jedem-Ursin",
+				["overall"] = {
+					[207631] = 4621429,
+					[206749] = 283601,
+				},
+			},
+			["Reportmepls-Tichondrius"] = {
+				["name"] = "Reportmepls-Tichondrius",
+				["class"] = "WARLOCK",
+				["overall"] = {
+					[206749] = 58359,
+					[207631] = 5906678,
+					[208918] = 57607,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["173715"] = {
 		["hash"] = "173715",
 		["type"] = "deaths",
 		["name"] = "Gul'dan",
 		["id"] = 1737,
-		["player_db"] = {
-			["Farahn"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								false, -- [1]
-								77472, -- [2]
-								483880, -- [3]
-								1497146262.938, -- [4]
-								1878520, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								228265, -- [2]
-								55260, -- [3]
-								1497146263.256, -- [4]
-								1823259, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								208981, -- [2]
-								108961, -- [3]
-								1497146263.298, -- [4]
-								1932220, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								208536, -- [2]
-								160431, -- [3]
-								1497146263.683, -- [4]
-								1771789, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								208899, -- [2]
-								18498, -- [3]
-								1497146263.775, -- [4]
-								1790287, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								228265, -- [2]
-								55259, -- [3]
-								1497146264.244, -- [4]
-								1735028, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								208981, -- [2]
-								108961, -- [3]
-								1497146264.3, -- [4]
-								1843989, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								208536, -- [2]
-								160431, -- [3]
-								1497146264.69, -- [4]
-								1683558, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								221807, -- [2]
-								837185, -- [3]
-								1497146265.099, -- [4]
-								846373, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								true, -- [1]
-								228265, -- [2]
-								55260, -- [3]
-								1497146265.264, -- [4]
-								791113, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								61295, -- [2]
-								55358, -- [3]
-								1497146265.477, -- [4]
-								846471, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								208899, -- [2]
-								21100, -- [3]
-								1497146265.772, -- [4]
-								867571, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								228265, -- [2]
-								55260, -- [3]
-								1497146266.254, -- [4]
-								812311, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								73921, -- [2]
-								60852, -- [3]
-								1497146266.933, -- [4]
-								873163, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								221807, -- [2]
-								837185, -- [3]
-								1497146267.105, -- [4]
-								35978, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								228265, -- [2]
-								55260, -- [3]
-								1497146267.27, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								19282, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497145984.175, -- [1]
-							108271, -- [2]
-						}, -- [2]
-						367.292000000001, -- [3]
-						3301860, -- [4]
-						"Gul'dan", -- [5]
-						1497146267.27, -- [6]
-						"SHAMAN", -- [7]
-						1, -- [8]
-					}, -- [1]
-					{
-						{
-							{
-								false, -- [1]
-								61295, -- [2]
-								47607, -- [3]
-								1497146133.872, -- [4]
-								1977185, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								206367, -- [2]
-								129291, -- [3]
-								1497146134.365, -- [4]
-								1847894, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								208981, -- [2]
-								108961, -- [3]
-								1497146134.578, -- [4]
-								1956855, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								206367, -- [2]
-								131560, -- [3]
-								1497146134.856, -- [4]
-								1825295, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								213652, -- [2]
-								976072, -- [3]
-								1497146134.955, -- [4]
-								2801367, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								232692, -- [2]
-								1104198, -- [3]
-								1497146135.313, -- [4]
-								1442499, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								206367, -- [2]
-								133828, -- [3]
-								1497146135.369, -- [4]
-								1308671, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								208981, -- [2]
-								99055, -- [3]
-								1497146135.592, -- [4]
-								1407726, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								206367, -- [2]
-								136096, -- [3]
-								1497146135.861, -- [4]
-								1271630, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								114942, -- [2]
-								79169, -- [3]
-								1497146136.247, -- [4]
-								1350799, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								206367, -- [2]
-								138365, -- [3]
-								1497146136.366, -- [4]
-								1212434, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								61295, -- [2]
-								52026, -- [3]
-								1497146136.451, -- [4]
-								1264460, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								61295, -- [2]
-								482, -- [3]
-								1497146136.468, -- [4]
-								1264942, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								true, -- [1]
-								206367, -- [2]
-								140633, -- [3]
-								1497146136.857, -- [4]
-								1124309, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								206367, -- [2]
-								142901, -- [3]
-								1497146137.371, -- [4]
-								981408, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								206370, -- [2]
-								1529861, -- [3]
-								1497146137.436, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								548453, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497145984.175, -- [1]
-							108271, -- [2]
-						}, -- [2]
-						237.486000000001, -- [3]
-						3301860, -- [4]
-						"Gul'dan", -- [5]
-						1497146137.464, -- [6]
-						"SHAMAN", -- [7]
-						1, -- [8]
-					}, -- [2]
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Farahn",
-				["overall"] = {
-					[228265] = 165780,
-					[206367] = 421899,
-					[221807] = 837185,
-					[206370] = 1529861,
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								209518, -- [2]
-								164672, -- [3]
-								1497146065.689, -- [4]
-								2423894, -- [5]
-								"Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10314, -- [3]
-								1497146066.352, -- [4]
-								2434208, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10315, -- [3]
-								1497146066.623, -- [4]
-								2444523, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								61295, -- [2]
-								331195, -- [3]
-								1497146067.341, -- [4]
-								2775718, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								73921, -- [2]
-								54532, -- [3]
-								1497146067.4, -- [4]
-								3107821, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								213652, -- [2]
-								2248153, -- [3]
-								1497146068.422, -- [4]
-								5355974, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								183811, -- [2]
-								22498, -- [3]
-								1497146068.688, -- [4]
-								5378472, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								73921, -- [2]
-								89931, -- [3]
-								1497146069.107, -- [4]
-								5468403, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								61295, -- [2]
-								39624, -- [3]
-								1497146069.901, -- [4]
-								5508027, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								true, -- [1]
-								1, -- [2]
-								978560, -- [3]
-								1497146070.603, -- [4]
-								5508027, -- [5]
-								"Gul'dan", -- [6]
-								133440, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								229976, -- [2]
-								133440, -- [3]
-								1497146070.626, -- [4]
-								5508027, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								183811, -- [2]
-								11249, -- [3]
-								1497146070.626, -- [4]
-								4540716, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								183811, -- [2]
-								22497, -- [3]
-								1497146070.717, -- [4]
-								4563213, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								73921, -- [2]
-								47747, -- [3]
-								1497146070.812, -- [4]
-								4610960, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								false, -- [1]
-								183811, -- [2]
-								11248, -- [3]
-								1497146070.915, -- [4]
-								4622208, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								227550, -- [2]
-								7797979, -- [3]
-								1497146070.966, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								3175771, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497146031.421, -- [1]
-							86659, -- [2]
-						}, -- [2]
-						170.988000000001, -- [3]
-						6006624, -- [4]
-						"Gul'dan", -- [5]
-						1497146070.966, -- [6]
-						"PALADIN", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-					1274830, -- [1]
-					[227550] = 7797979,
-					[209518] = 164672,
-				},
-			},
-			["Heetahme-Garona"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								206367, -- [2]
-								78859, -- [3]
-								1497146033.691, -- [4]
-								2621849, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								206367, -- [2]
-								81179, -- [3]
-								1497146034.192, -- [4]
-								2540670, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								206367, -- [2]
-								83498, -- [3]
-								1497146034.69, -- [4]
-								2457172, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								206367, -- [2]
-								85817, -- [3]
-								1497146035.191, -- [4]
-								2371355, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								206367, -- [2]
-								88137, -- [3]
-								1497146035.677, -- [4]
-								2283218, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								206367, -- [2]
-								90456, -- [3]
-								1497146036.188, -- [4]
-								2192762, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								206367, -- [2]
-								92776, -- [3]
-								1497146036.692, -- [4]
-								2099986, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								206367, -- [2]
-								95095, -- [3]
-								1497146037.187, -- [4]
-								2004891, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								206367, -- [2]
-								97414, -- [3]
-								1497146037.684, -- [4]
-								1907477, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								true, -- [1]
-								206367, -- [2]
-								99733, -- [3]
-								1497146038.185, -- [4]
-								1807744, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								206367, -- [2]
-								102053, -- [3]
-								1497146038.691, -- [4]
-								1705691, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								true, -- [1]
-								206367, -- [2]
-								104372, -- [3]
-								1497146039.192, -- [4]
-								1601319, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								206367, -- [2]
-								106692, -- [3]
-								1497146039.677, -- [4]
-								1494627, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								true, -- [1]
-								206367, -- [2]
-								109011, -- [3]
-								1497146040.204, -- [4]
-								1385616, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								206367, -- [2]
-								111331, -- [3]
-								1497146040.691, -- [4]
-								1274285, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								206370, -- [2]
-								2227162, -- [3]
-								1497146041.169, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								952877, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						141.213, -- [3]
-						4178571, -- [4]
-						"Gul'dan", -- [5]
-						1497146041.191, -- [6]
-						"WARRIOR", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Heetahme-Garona",
-				["overall"] = {
-					[206370] = 2227162,
-					[206367] = 327034,
-				},
-			},
-			["Kalethia-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								211132, -- [2]
-								323567, -- [3]
-								1497146119.599, -- [4]
-								1242829, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								211132, -- [2]
-								323567, -- [3]
-								1497146120.623, -- [4]
-								919262, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								143924, -- [2]
-								18958, -- [3]
-								1497146121.108, -- [4]
-								938220, -- [5]
-								"Kalethia-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [3]
-							{
-								false, -- [1]
-								143924, -- [2]
-								18428, -- [3]
-								1497146122.742, -- [4]
-								956648, -- [5]
-								"Kalethia-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12461, -- [3]
-								1497146123.919, -- [4]
-								969109, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12460, -- [3]
-								1497146124.613, -- [4]
-								981569, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								143924, -- [2]
-								4532, -- [3]
-								1497146124.761, -- [4]
-								986101, -- [5]
-								"Kalethia-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12461, -- [3]
-								1497146124.812, -- [4]
-								998562, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12460, -- [3]
-								1497146125.049, -- [4]
-								1011022, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12460, -- [3]
-								1497146125.301, -- [4]
-								1023482, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [10]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12460, -- [3]
-								1497146125.574, -- [4]
-								1035942, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12461, -- [3]
-								1497146125.866, -- [4]
-								1048403, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [12]
-							{
-								false, -- [1]
-								143924, -- [2]
-								32675, -- [3]
-								1497146125.971, -- [4]
-								1081078, -- [5]
-								"Kalethia-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								183811, -- [2]
-								12460, -- [3]
-								1497146126.149, -- [4]
-								1093538, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [14]
-							{
-								false, -- [1]
-								143924, -- [2]
-								14503, -- [3]
-								1497146127.19, -- [4]
-								1108041, -- [5]
-								"Kalethia-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								206581, -- [2]
-								1624238, -- [3]
-								1497146127.935, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								516197, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						227.957000000002, -- [3]
-						3804360, -- [4]
-						"Gul'dan", -- [5]
-						1497146127.935, -- [6]
-						"MAGE", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-				["name"] = "Kalethia-Tichondrius",
-				["overall"] = {
-					[206581] = 1624238,
-					[211132] = 323567,
-				},
-			},
-			["Daoxu-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								false, -- [1]
-								183811, -- [2]
-								11249, -- [3]
-								1497146063.579, -- [4]
-								2466081, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [1]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10315, -- [3]
-								1497146065.1, -- [4]
-								2476396, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [2]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10314, -- [3]
-								1497146065.178, -- [4]
-								2486710, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [3]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10314, -- [3]
-								1497146066.04, -- [4]
-								2497024, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [4]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10314, -- [3]
-								1497146066.752, -- [4]
-								2507338, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [5]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10315, -- [3]
-								1497146066.817, -- [4]
-								2517653, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [6]
-							{
-								false, -- [1]
-								183811, -- [2]
-								11248, -- [3]
-								1497146068.753, -- [4]
-								2528901, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								183811, -- [2]
-								11249, -- [3]
-								1497146068.916, -- [4]
-								2540150, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [8]
-							{
-								false, -- [1]
-								183811, -- [2]
-								22498, -- [3]
-								1497146070.766, -- [4]
-								2562648, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								false, -- [1]
-								210339, -- [2]
-								1, -- [3]
-								1497146071.573, -- [4]
-								2562648, -- [5]
-								"Daoxu-Tichondrius", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [10]
-							{
-								true, -- [1]
-								206367, -- [2]
-								46533, -- [3]
-								1497146071.573, -- [4]
-								2516116, -- [5]
-								"Gul'dan", -- [6]
-								1, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								true, -- [1]
-								206367, -- [2]
-								48859, -- [3]
-								1497146072.089, -- [4]
-								2467257, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								206367, -- [2]
-								51186, -- [3]
-								1497146072.57, -- [4]
-								2416071, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								true, -- [1]
-								206367, -- [2]
-								53513, -- [3]
-								1497146073.081, -- [4]
-								2362558, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								206367, -- [2]
-								55840, -- [3]
-								1497146073.567, -- [4]
-								2306718, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								206370, -- [2]
-								4844141, -- [3]
-								1497146073.845, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								2537423, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						173.886000000002, -- [3]
-						3967020, -- [4]
-						"Gul'dan", -- [5]
-						1497146073.864, -- [6]
-						"HUNTER", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-				["name"] = "Daoxu-Tichondrius",
-				["overall"] = {
-					[206370] = 4844141,
-					[206367] = 160539,
-				},
-			},
-			["Slicedlol-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								false, -- [1]
-								143924, -- [2]
-								25665, -- [3]
-								1497146771.178, -- [4]
-								334702, -- [5]
-								"Slicedlol-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146771.221, -- [4]
-								345625, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								61295, -- [2]
-								121936, -- [3]
-								1497146771.442, -- [4]
-								467561, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								209069, -- [2]
-								23605, -- [3]
-								1497146771.463, -- [4]
-								491166, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								52042, -- [2]
-								77233, -- [3]
-								1497146771.626, -- [4]
-								568399, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10922, -- [3]
-								1497146771.826, -- [4]
-								579321, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								228265, -- [2]
-								87453, -- [3]
-								1497146772.051, -- [4]
-								491868, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								209069, -- [2]
-								23545, -- [3]
-								1497146772.328, -- [4]
-								515413, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								143924, -- [2]
-								59096, -- [3]
-								1497146772.405, -- [4]
-								574509, -- [5]
-								"Slicedlol-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146772.54, -- [4]
-								585432, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146772.911, -- [4]
-								596355, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								true, -- [1]
-								228265, -- [2]
-								87452, -- [3]
-								1497146773.028, -- [4]
-								508903, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								209069, -- [2]
-								47946, -- [3]
-								1497146773.167, -- [4]
-								556849, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								143924, -- [2]
-								7240, -- [3]
-								1497146773.618, -- [4]
-								564089, -- [5]
-								"Slicedlol-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								false, -- [1]
-								208899, -- [2]
-								22431, -- [3]
-								1497146773.618, -- [4]
-								586520, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								152987, -- [2]
-								2972126, -- [3]
-								1497146773.946, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								2385606, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497146730.821, -- [1]
-							31224, -- [2]
-						}, -- [2]
-						303.031999999999, -- [3]
-						3946260, -- [4]
-						"Gul'dan", -- [5]
-						1497146773.968, -- [6]
-						"ROGUE", -- [7]
-						2, -- [8]
-					}, -- [1]
-					{
-						{
-							{
-								true, -- [1]
-								206503, -- [2]
-								306084, -- [3]
-								1497146173.603, -- [4]
-								3297568, -- [5]
-								"[*] Flames of Sargeras", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								228190, -- [2]
-								97169, -- [3]
-								1497146173.627, -- [4]
-								3200399, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								143924, -- [2]
-								0, -- [3]
-								1497146173.801, -- [4]
-								3200399, -- [5]
-								"Slicedlol-Tichondrius", -- [6]
-								nil, -- [7]
-								28603, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								209540, -- [2]
-								0, -- [3]
-								1497146173.924, -- [4]
-								3200399, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								55030, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								208899, -- [2]
-								0, -- [3]
-								1497146174.034, -- [4]
-								3200399, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								19495, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								183811, -- [2]
-								0, -- [3]
-								1497146174.13, -- [4]
-								3200399, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								11005, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								221781, -- [2]
-								388678, -- [3]
-								1497146174.321, -- [4]
-								2811721, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								206503, -- [2]
-								306084, -- [3]
-								1497146174.601, -- [4]
-								2505637, -- [5]
-								"[*] Flames of Sargeras", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								228190, -- [2]
-								97170, -- [3]
-								1497146174.601, -- [4]
-								2408467, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								143924, -- [2]
-								0, -- [3]
-								1497146174.997, -- [4]
-								2408467, -- [5]
-								"Slicedlol-Tichondrius", -- [6]
-								nil, -- [7]
-								14693, -- [8]
-							}, -- [10]
-							{
-								false, -- [1]
-								52042, -- [2]
-								0, -- [3]
-								1497146175.055, -- [4]
-								2408467, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								74940, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								true, -- [1]
-								221605, -- [2]
-								583988, -- [3]
-								1497146175.111, -- [4]
-								1824479, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								221605, -- [2]
-								583988, -- [3]
-								1497146175.111, -- [4]
-								1240491, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								true, -- [1]
-								221605, -- [2]
-								583989, -- [3]
-								1497146175.111, -- [4]
-								656502, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								221605, -- [2]
-								583989, -- [3]
-								1497146175.111, -- [4]
-								72513, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								221781, -- [2]
-								388678, -- [3]
-								1497146175.134, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								316165, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497146157.946, -- [1]
-							1966, -- [2]
-						}, -- [2]
-						275.156000000003, -- [3]
-						3908280, -- [4]
-						"Gul'dan", -- [5]
-						1497146175.134, -- [6]
-						"ROGUE", -- [7]
-						1, -- [8]
-					}, -- [2]
-				},
-				["class"] = "ROGUE",
-				["name"] = "Slicedlol-Tichondrius",
-				["overall"] = {
-					[221605] = 1751966,
-					[221781] = 388678,
-					[152987] = 2972126,
-					[228265] = 262357,
-				},
-			},
-			["Zaelsynth-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								228265, -- [2]
-								47533, -- [3]
-								1497146770.769, -- [4]
-								1273955, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146770.769, -- [4]
-								1284878, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146770.793, -- [4]
-								1295801, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								209069, -- [2]
-								21620, -- [3]
-								1497146771.463, -- [4]
-								1317421, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146771.709, -- [4]
-								1328344, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								228265, -- [2]
-								47534, -- [3]
-								1497146771.764, -- [4]
-								1280810, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146771.805, -- [4]
-								1291733, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10922, -- [3]
-								1497146772.051, -- [4]
-								1302655, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								209069, -- [2]
-								21603, -- [3]
-								1497146772.328, -- [4]
-								1324258, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146772.678, -- [4]
-								1335181, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								228265, -- [2]
-								47533, -- [3]
-								1497146772.768, -- [4]
-								1287648, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								183811, -- [2]
-								21845, -- [3]
-								1497146773.067, -- [4]
-								1309493, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								209069, -- [2]
-								21586, -- [3]
-								1497146773.167, -- [4]
-								1331079, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								183811, -- [2]
-								21846, -- [3]
-								1497146773.315, -- [4]
-								1352925, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								228265, -- [2]
-								47533, -- [3]
-								1497146773.765, -- [4]
-								1305392, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								152987, -- [2]
-								2418218, -- [3]
-								1497146773.968, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								1235820, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497146768.831, -- [1]
-							48792, -- [2]
-						}, -- [2]
-						303.031999999999, -- [3]
-						4033860, -- [4]
-						"Gul'dan", -- [5]
-						1497146773.968, -- [6]
-						"DEATHKNIGHT", -- [7]
-						2, -- [8]
-					}, -- [1]
-					{
-						{
-							{
-								false, -- [1]
-								183811, -- [2]
-								20184, -- [3]
-								1497146266.436, -- [4]
-								1048183, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								73921, -- [2]
-								59791, -- [3]
-								1497146266.933, -- [4]
-								1107974, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								228265, -- [2]
-								29708, -- [3]
-								1497146267.068, -- [4]
-								1078266, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								221807, -- [2]
-								900159, -- [3]
-								1497146267.105, -- [4]
-								178107, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10092, -- [3]
-								1497146267.198, -- [4]
-								188199, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10092, -- [3]
-								1497146267.221, -- [4]
-								198291, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10092, -- [3]
-								1497146267.221, -- [4]
-								208383, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								228265, -- [2]
-								29709, -- [3]
-								1497146268.081, -- [4]
-								178674, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10092, -- [3]
-								1497146268.194, -- [4]
-								188766, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10092, -- [3]
-								1497146268.194, -- [4]
-								198858, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								183811, -- [2]
-								20184, -- [3]
-								1497146268.364, -- [4]
-								219042, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10092, -- [3]
-								1497146268.387, -- [4]
-								229134, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								45470, -- [2]
-								411233, -- [3]
-								1497146268.496, -- [4]
-								640367, -- [5]
-								"Zaelsynth-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								183811, -- [2]
-								20184, -- [3]
-								1497146268.753, -- [4]
-								660551, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								228265, -- [2]
-								29708, -- [3]
-								1497146269.091, -- [4]
-								630843, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								221807, -- [2]
-								900159, -- [3]
-								1497146269.115, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								32, -- [8]
-								false, -- [9]
-								269316, -- [10]
-							}, -- [16]
-						}, -- [1]
-						{
-							1497146235.526, -- [1]
-							48707, -- [2]
-						}, -- [2]
-						369.161, -- [3]
-						4033860, -- [4]
-						"Gul'dan", -- [5]
-						1497146269.139, -- [6]
-						"DEATHKNIGHT", -- [7]
-						1, -- [8]
-					}, -- [2]
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Zaelsynth-Tichondrius",
-				["overall"] = {
-					[228265] = 202017,
-					[221807] = 1800318,
-					[152987] = 2418218,
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								true, -- [1]
-								228190, -- [2]
-								84933, -- [3]
-								1497146771.361, -- [4]
-								2113844, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								false, -- [1]
-								208899, -- [2]
-								18323, -- [3]
-								1497146771.688, -- [4]
-								2132167, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10922, -- [3]
-								1497146771.764, -- [4]
-								2143089, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146771.784, -- [4]
-								2154012, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								228190, -- [2]
-								84933, -- [3]
-								1497146772.378, -- [4]
-								2069079, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146772.607, -- [4]
-								2080002, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146772.827, -- [4]
-								2090925, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								221605, -- [2]
-								510444, -- [3]
-								1497146772.869, -- [4]
-								1580481, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								221781, -- [2]
-								339729, -- [3]
-								1497146772.89, -- [4]
-								1240752, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146773.028, -- [4]
-								1251675, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [10]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146773.395, -- [4]
-								1262598, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [11]
-							{
-								false, -- [1]
-								183811, -- [2]
-								10923, -- [3]
-								1497146773.42, -- [4]
-								1273521, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [12]
-							{
-								false, -- [1]
-								208899, -- [2]
-								20490, -- [3]
-								1497146773.684, -- [4]
-								1294011, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								true, -- [1]
-								221781, -- [2]
-								339729, -- [3]
-								1497146773.707, -- [4]
-								954282, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								true, -- [1]
-								221605, -- [2]
-								510444, -- [3]
-								1497146773.86, -- [4]
-								443838, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								221605, -- [2]
-								510444, -- [3]
-								1497146773.885, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								66606, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						302.968999999997, -- [3]
-						4010160, -- [4]
-						"Gul'dan", -- [5]
-						1497146773.905, -- [6]
-						"MAGE", -- [7]
-						2, -- [8]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-					[221605] = 1020888,
-					[221781] = 679458,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								false, -- [1]
-								61295, -- [2]
-								42916, -- [3]
-								1497146114.355, -- [4]
-								2570511, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [1]
-							{
-								false, -- [1]
-								61295, -- [2]
-								845, -- [3]
-								1497146114.372, -- [4]
-								2571356, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [2]
-							{
-								true, -- [1]
-								211132, -- [2]
-								351826, -- [3]
-								1497146114.626, -- [4]
-								2219530, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								211132, -- [2]
-								351826, -- [3]
-								1497146114.626, -- [4]
-								1867704, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								211132, -- [2]
-								351826, -- [3]
-								1497146115.607, -- [4]
-								1346086, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								211132, -- [2]
-								351826, -- [3]
-								1497146116.613, -- [4]
-								994260, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								211132, -- [2]
-								351827, -- [3]
-								1497146117.624, -- [4]
-								642433, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								211132, -- [2]
-								351826, -- [3]
-								1497146118.628, -- [4]
-								290607, -- [5]
-								"Empowered Eye of Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								19750, -- [2]
-								351641, -- [3]
-								1497146121.168, -- [4]
-								642248, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								false, -- [1]
-								203924, -- [2]
-								325734, -- [3]
-								1497146121.247, -- [4]
-								967982, -- [5]
-								"Genjieggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								false, -- [1]
-								203924, -- [2]
-								325734, -- [3]
-								1497146123.242, -- [4]
-								1293716, -- [5]
-								"Genjieggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								203924, -- [2]
-								325734, -- [3]
-								1497146125.239, -- [4]
-								1619450, -- [5]
-								"Genjieggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								203924, -- [2]
-								325734, -- [3]
-								1497146127.248, -- [4]
-								1945184, -- [5]
-								"Genjieggs-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [13]
-							{
-								true, -- [1]
-								206581, -- [2]
-								1687826, -- [3]
-								1497146127.918, -- [4]
-								257358, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [14]
-							{
-								false, -- [1]
-								19750, -- [2]
-								430834, -- [3]
-								1497146131.423, -- [4]
-								688192, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								232692, -- [2]
-								1251944, -- [3]
-								1497146135.313, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								563752, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						235.357, -- [3]
-						3257340, -- [4]
-						"Gul'dan", -- [5]
-						1497146135.335, -- [6]
-						"HUNTER", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[232692] = 1251944,
-					[206581] = 1687826,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-					{
-						{
-							{
-								false, -- [1]
-								183811, -- [2]
-								13782, -- [3]
-								1497146018.142, -- [4]
-								1442223, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [1]
-							{
-								false, -- [1]
-								143924, -- [2]
-								1340, -- [3]
-								1497146018.587, -- [4]
-								1443563, -- [5]
-								"Daemonhater-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								98021, -- [2]
-								519455, -- [3]
-								1497146018.587, -- [4]
-								1963018, -- [5]
-								"Spirit Link Totem <Farahn>", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [3]
-							{
-								false, -- [1]
-								183811, -- [2]
-								13782, -- [3]
-								1497146018.984, -- [4]
-								1976800, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [4]
-							{
-								false, -- [1]
-								183811, -- [2]
-								27564, -- [3]
-								1497146018.984, -- [4]
-								2004364, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								false, -- [1]
-								143924, -- [2]
-								6129, -- [3]
-								1497146019.789, -- [4]
-								2010493, -- [5]
-								"Daemonhater-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								false, -- [1]
-								73921, -- [2]
-								48035, -- [3]
-								1497146019.855, -- [4]
-								2058528, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [7]
-							{
-								false, -- [1]
-								208899, -- [2]
-								16563, -- [3]
-								1497146019.989, -- [4]
-								2075091, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								143924, -- [2]
-								3641, -- [3]
-								1497146021.019, -- [4]
-								2078732, -- [5]
-								"Daemonhater-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [9]
-							{
-								false, -- [1]
-								183811, -- [2]
-								13924, -- [3]
-								1497146021.88, -- [4]
-								2092656, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [10]
-							{
-								false, -- [1]
-								208899, -- [2]
-								16444, -- [3]
-								1497146021.973, -- [4]
-								2109100, -- [5]
-								"Farahn", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [11]
-							{
-								false, -- [1]
-								143924, -- [2]
-								5405, -- [3]
-								1497146022.227, -- [4]
-								2114505, -- [5]
-								"Daemonhater-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [12]
-							{
-								true, -- [1]
-								227550, -- [2]
-								1728362, -- [3]
-								1497146022.537, -- [4]
-								386143, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								183811, -- [2]
-								13925, -- [3]
-								1497146022.537, -- [4]
-								400068, -- [5]
-								"Kalithumos-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-							}, -- [14]
-							{
-								false, -- [1]
-								143924, -- [2]
-								553, -- [3]
-								1497146023.433, -- [4]
-								400621, -- [5]
-								"Daemonhater-Tichondrius", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								true, -- [1]
-								227550, -- [2]
-								847876, -- [3]
-								1497146023.801, -- [4]
-								1, -- [5]
-								"Gul'dan", -- [6]
-								nil, -- [7]
-								4, -- [8]
-								false, -- [9]
-								447255, -- [10]
-							}, -- [16]
-						}, -- [1]
-						false, -- [2]
-						123.823, -- [3]
-						2952480, -- [4]
-						"Gul'dan", -- [5]
-						1497146023.801, -- [6]
-						"DEMONHUNTER", -- [7]
-						1, -- [8]
-					}, -- [1]
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[227550] = 2576238,
-					[206555] = 1116470,
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -3940,6 +863,114 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["encounter"] = "Gul'dan",
 		},
+		["player_db"] = {
+			["Farahn"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[228265] = 165780,
+					[206367] = 421899,
+					[221807] = 837185,
+					[206370] = 1529861,
+				},
+				["name"] = "Farahn",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+					1274830, -- [1]
+					[227550] = 7797979,
+					[209518] = 164672,
+				},
+				["name"] = "Kalithumos-Tichondrius",
+			},
+			["Heetahme-Garona"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206370] = 2227162,
+					[206367] = 327034,
+				},
+				["name"] = "Heetahme-Garona",
+			},
+			["Kalethia-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206581] = 1624238,
+					[211132] = 323567,
+				},
+				["name"] = "Kalethia-Tichondrius",
+			},
+			["Daoxu-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206370] = 4844141,
+					[206367] = 160539,
+				},
+				["name"] = "Daoxu-Tichondrius",
+			},
+			["Slicedlol-Tichondrius"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[221605] = 1751966,
+					[221781] = 388678,
+					[152987] = 2972126,
+					[228265] = 262357,
+				},
+				["name"] = "Slicedlol-Tichondrius",
+			},
+			["Zaelsynth-Tichondrius"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[228265] = 202017,
+					[221807] = 1800318,
+					[152987] = 2418218,
+				},
+				["name"] = "Zaelsynth-Tichondrius",
+			},
+			["Kaligon-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[221605] = 1020888,
+					[221781] = 679458,
+				},
+				["name"] = "Kaligon-Tichondrius",
+			},
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[227550] = 2576238,
+					[206555] = 1116470,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[232692] = 1251944,
+					[206581] = 1687826,
+				},
+				["name"] = "Genjieggs-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["176115"] = {
@@ -3948,159 +979,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "High Botanist Tel'arn",
 		["id"] = 1761,
 		["diff"] = 15,
-		["player_db"] = {
-			["Skreemoxemo-EmeraldDream"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[218780] = 770409,
-				},
-				["name"] = "Skreemoxemo-EmeraldDream",
-			},
-			["Farahn"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[218155] = 3625000,
-					[219950] = 584182,
-				},
-				["name"] = "Farahn",
-			},
-			["Meowtapes"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[219235] = 1086099,
-					[218838] = 115848,
-					[218780] = 819340,
-				},
-				["name"] = "Meowtapes",
-			},
-			["Redex-Quel'Thalas"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[223414] = 1268843,
-					[218780] = 794202,
-				},
-				["name"] = "Redex-Quel'Thalas",
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["overall"] = {
-					[218466] = 2179544,
-					[219950] = 627436,
-					[218838] = 232503,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowfurryoff-Tichondrius",
-				["class"] = "PRIEST",
-			},
-			["Galerap-Quel'Thalas"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-					2317737, -- [1]
-					[218508] = 1383074,
-				},
-				["name"] = "Galerap-Quel'Thalas",
-			},
-			["Beewin-Sargeras"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[223414] = 1348430,
-				},
-				["name"] = "Beewin-Sargeras",
-			},
-			["Crustymòot-Frostmourne"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-					1339332, -- [1]
-					[218508] = 3515547,
-				},
-				["name"] = "Crustymòot-Frostmourne",
-			},
-			["Myleftsock-Khaz'goroth"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-					3702887, -- [1]
-					[219950] = 1274841,
-				},
-				["name"] = "Myleftsock-Khaz'goroth",
-			},
-			["Chaák-Quel'Thalas"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[218155] = 3742642,
-					[219950] = 544334,
-				},
-				["name"] = "Chaák-Quel'Thalas",
-			},
-			["Mylittlepwne-EmeraldDream"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[218780] = 1442885,
-					[223414] = 814780,
-				},
-				["name"] = "Mylittlepwne-EmeraldDream",
-			},
-			["Talamelth"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[223414] = 228616,
-					[218780] = 619467,
-					[218155] = 3087806,
-				},
-				["name"] = "Talamelth",
-			},
-			["Touchbuttpls"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[218838] = 465123,
-				},
-				["name"] = "Touchbuttpls",
-			},
-			["Genjieggs-Tichondrius"] = {
-				["overall"] = {
-					[219235] = 265522,
-					[218838] = 114443,
-					[218780] = 809404,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Genjieggs-Tichondrius",
-				["class"] = "HUNTER",
-			},
-			["Cleptodog-Mok'Nathal"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-					[218155] = 4083423,
-					[219950] = 437608,
-				},
-				["name"] = "Cleptodog-Mok'Nathal",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 7,
@@ -4114,6 +992,159 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Skreemoxemo-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Skreemoxemo-EmeraldDream",
+				["overall"] = {
+					[218780] = 770409,
+				},
+			},
+			["Farahn"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Farahn",
+				["overall"] = {
+					[218155] = 3625000,
+					[219950] = 584182,
+				},
+			},
+			["Meowtapes"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Meowtapes",
+				["overall"] = {
+					[219235] = 1086099,
+					[218838] = 115848,
+					[218780] = 819340,
+				},
+			},
+			["Redex-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Redex-Quel'Thalas",
+				["overall"] = {
+					[223414] = 1268843,
+					[218780] = 794202,
+				},
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["name"] = "Meowfurryoff-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[218466] = 2179544,
+					[219950] = 627436,
+					[218838] = 232503,
+				},
+				["deaths"] = {
+				},
+			},
+			["Galerap-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Galerap-Quel'Thalas",
+				["overall"] = {
+					2317737, -- [1]
+					[218508] = 1383074,
+				},
+			},
+			["Beewin-Sargeras"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Beewin-Sargeras",
+				["overall"] = {
+					[223414] = 1348430,
+				},
+			},
+			["Crustymòot-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Crustymòot-Frostmourne",
+				["overall"] = {
+					1339332, -- [1]
+					[218508] = 3515547,
+				},
+			},
+			["Myleftsock-Khaz'goroth"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Myleftsock-Khaz'goroth",
+				["overall"] = {
+					3702887, -- [1]
+					[219950] = 1274841,
+				},
+			},
+			["Chaák-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Chaák-Quel'Thalas",
+				["overall"] = {
+					[218155] = 3742642,
+					[219950] = 544334,
+				},
+			},
+			["Mylittlepwne-EmeraldDream"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Mylittlepwne-EmeraldDream",
+				["overall"] = {
+					[218780] = 1442885,
+					[223414] = 814780,
+				},
+			},
+			["Talamelth"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Talamelth",
+				["overall"] = {
+					[223414] = 228616,
+					[218780] = 619467,
+					[218155] = 3087806,
+				},
+			},
+			["Touchbuttpls"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Touchbuttpls",
+				["overall"] = {
+					[218838] = 465123,
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["name"] = "Genjieggs-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[219235] = 265522,
+					[218838] = 114443,
+					[218780] = 809404,
+				},
+				["deaths"] = {
+				},
+			},
+			["Cleptodog-Mok'Nathal"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Cleptodog-Mok'Nathal",
+				["overall"] = {
+					[218155] = 4083423,
+					[219950] = 437608,
+				},
+			},
+		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -4123,6 +1154,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Skorpyron",
 		["id"] = 1706,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Skorpyron",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Skorpyron",
+			["diff"] = 15,
+			["id"] = 1849,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -4399,19 +1443,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Skorpyron",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Skorpyron",
-			["diff"] = 15,
-			["id"] = 1849,
-			["ej_instance_id"] = 786,
-			["killed"] = true,
-		},
 	},
 	["175115"] = {
 		["hash"] = "175115",
@@ -4419,6 +1450,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Spellblade Aluriel",
 		["id"] = 1751,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Spellblade Aluriel",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Spellblade Aluriel",
+			["diff"] = 15,
+			["id"] = 1871,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -4700,19 +1744,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Spellblade Aluriel",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Spellblade Aluriel",
-			["diff"] = 15,
-			["id"] = 1871,
-			["ej_instance_id"] = 786,
-			["killed"] = true,
-		},
 	},
 	["176215"] = {
 		["hash"] = "176215",
@@ -4720,6 +1751,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Tichondrius",
 		["id"] = 1762,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Nighthold",
+			["id"] = 1862,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Tichondrius",
+			["encounter"] = "Tichondrius",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -5011,37 +2054,12 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "The Nighthold",
-			["id"] = 1862,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Tichondrius",
-			["encounter"] = "Tichondrius",
-			["ej_instance_id"] = 786,
-			["diff"] = 15,
-		},
 	},
 	["174315"] = {
 		["hash"] = "174315",
 		["type"] = "endurance",
 		["name"] = "Grand Magistrix Elisande",
 		["id"] = 1743,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 9,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Grand Magistrix Elisande",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Grand Magistrix Elisande",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1872,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Ileiaris-Tichondrius"] = {
 				["encounters"] = 2,
@@ -5216,6 +2234,19 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 9,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Grand Magistrix Elisande",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Grand Magistrix Elisande",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1872,
+			["killed"] = true,
+		},
 		["diff"] = 15,
 	},
 	["171315"] = {
@@ -5224,6 +2255,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Krosus",
 		["id"] = 1713,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Krosus",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Krosus",
+			["diff"] = 15,
+			["id"] = 1842,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -5515,19 +2559,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Krosus",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Krosus",
-			["diff"] = 15,
-			["id"] = 1842,
-			["ej_instance_id"] = 786,
-			["killed"] = true,
-		},
 	},
 	["173215"] = {
 		["hash"] = "173215",
@@ -5535,6 +2566,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Star Augur Etraeus",
 		["id"] = 1732,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 8,
+			["zone"] = "The Nighthold",
+			["id"] = 1863,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Star Augur Etraeus",
+			["encounter"] = "Star Augur Etraeus",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -5809,18 +2852,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "The Nighthold",
-			["id"] = 1863,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Star Augur Etraeus",
-			["encounter"] = "Star Augur Etraeus",
-			["ej_instance_id"] = 786,
-			["diff"] = 15,
-		},
 	},
 	["172515"] = {
 		["hash"] = "172515",
@@ -5828,6 +2859,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Chronomatic Anomaly",
 		["id"] = 1725,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "The Nighthold",
+			["id"] = 1865,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Chronomatic Anomaly",
+			["encounter"] = "Chronomatic Anomaly",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -6094,18 +3137,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "The Nighthold",
-			["id"] = 1865,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Chronomatic Anomaly",
-			["encounter"] = "Chronomatic Anomaly",
-			["ej_instance_id"] = 786,
-			["diff"] = 15,
-		},
 	},
 	["173115"] = {
 		["hash"] = "173115",
@@ -6113,6 +3144,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Trilliax",
 		["id"] = 1731,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Trilliax",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Trilliax",
+			["diff"] = 15,
+			["id"] = 1867,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -6404,25 +3448,24 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Trilliax",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Trilliax",
-			["diff"] = 15,
-			["id"] = 1867,
-			["ej_instance_id"] = 786,
-			["killed"] = true,
-		},
 	},
 	["173715"] = {
 		["hash"] = "173715",
 		["type"] = "endurance",
 		["name"] = "Gul'dan",
 		["id"] = 1737,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "The Nighthold",
+			["id"] = 1866,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Gul'dan",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Gul'dan",
+		},
 		["player_db"] = {
 			["Arkator-Tichondrius"] = {
 				["encounters"] = 2,
@@ -6546,18 +3589,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "The Nighthold",
-			["id"] = 1866,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Gul'dan",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["encounter"] = "Gul'dan",
-		},
 		["diff"] = 15,
 	},
 	["176115"] = {
@@ -6566,6 +3597,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "High Botanist Tel'arn",
 		["id"] = 1761,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "The Nighthold",
+			["encounter"] = "High Botanist Tel'arn",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "High Botanist Tel'arn",
+			["diff"] = 15,
+			["id"] = 1886,
+			["ej_instance_id"] = 786,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Meowtapes"] = {
 				["encounters"] = 1,
@@ -6674,19 +3718,19 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Kaligon-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
 			["Insentience-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
-			},
-			["Unshocked"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
 			},
 			["Crowlight"] = {
 				["encounters"] = 1,
@@ -6723,24 +3767,29 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Jedem-Ursin"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Makussui-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
 			["Galerap-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Touchbuttpls"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						277.965, -- [2]
+						"Arcane Eclipse |cFFFF3333116,281|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Jedem-Ursin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -6793,17 +3842,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Edla"] = {
+			["Reportmepls-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Blessf-Mannoroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Beewin-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -6814,12 +3863,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Reportmepls-Tichondrius"] = {
+			["Edla"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
 			},
 			["Felmyheart-Icecrown"] = {
 				["encounters"] = 1,
@@ -6882,10 +3931,10 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Saizon"] = {
+			["Darthoridan-Nemesis"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -6910,10 +3959,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Darthoridan-Nemesis"] = {
+			["Saizon"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -6924,23 +3973,18 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Blessf-Mannoroth"] = {
+			["Beewin-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Makussui-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
 				["deaths"] = {
-				},
-			},
-			["Touchbuttpls"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						277.965, -- [2]
-						"Arcane Eclipse |cFFFF3333116,281|r", -- [3]
-					}, -- [1]
 				},
 			},
 			["Criphra-Hyjal"] = {
@@ -6964,12 +4008,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MONK",
 			},
-			["Kaligon-Tichondrius"] = {
+			["Unshocked"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Zaelsynth-Tichondrius"] = {
 				["encounters"] = 1,
@@ -6985,19 +4029,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "The Nighthold",
-			["encounter"] = "High Botanist Tel'arn",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "High Botanist Tel'arn",
-			["diff"] = 15,
-			["id"] = 1886,
-			["ej_instance_id"] = 786,
-			["killed"] = true,
 		},
 	},
 }
@@ -13470,8 +10501,8 @@ DeathGraphsDBGraph = {
 	},
 	["174315"] = {
 		["deaths"] = {
-			[116] = {
-				1497145752, -- [1]
+			[102] = {
+				1496024081, -- [1]
 			},
 			[32] = {
 				1497145752, -- [1]
@@ -13480,14 +10511,14 @@ DeathGraphsDBGraph = {
 				1496024081, -- [1]
 				1496024081, -- [2]
 			},
-			[102] = {
+			[41] = {
 				1496024081, -- [1]
 			},
 			[42] = {
 				1496024081, -- [1]
 			},
-			[41] = {
-				1496024081, -- [1]
+			[116] = {
+				1497145752, -- [1]
 			},
 		},
 		["spells"] = {
@@ -14513,134 +11544,6 @@ DeathGraphsDBGraph = {
 					1496895902, -- [2]
 				}, -- [5]
 			},
-			["Orb of Destruction"] = {
-				{
-					24, -- [1]
-					1496028292, -- [2]
-				}, -- [1]
-				{
-					83, -- [1]
-					1496028292, -- [2]
-				}, -- [2]
-				{
-					106, -- [1]
-					1496028292, -- [2]
-				}, -- [3]
-				{
-					23, -- [1]
-					1496895902, -- [2]
-				}, -- [4]
-				{
-					83, -- [1]
-					1496895902, -- [2]
-				}, -- [5]
-				{
-					106, -- [1]
-					1496895902, -- [2]
-				}, -- [6]
-				{
-					168, -- [1]
-					1496895902, -- [2]
-				}, -- [7]
-				{
-					195, -- [1]
-					1496895902, -- [2]
-				}, -- [8]
-				{
-					220, -- [1]
-					1496895902, -- [2]
-				}, -- [9]
-				{
-					235, -- [1]
-					1496895902, -- [2]
-				}, -- [10]
-			},
-			["Slam"] = {
-				{
-					33, -- [1]
-					1496028292, -- [2]
-				}, -- [1]
-				{
-					33, -- [1]
-					1496028292, -- [2]
-				}, -- [2]
-				{
-					63, -- [1]
-					1496028292, -- [2]
-				}, -- [3]
-				{
-					63, -- [1]
-					1496028292, -- [2]
-				}, -- [4]
-				{
-					93, -- [1]
-					1496028292, -- [2]
-				}, -- [5]
-				{
-					122, -- [1]
-					1496028292, -- [2]
-				}, -- [6]
-				{
-					123, -- [1]
-					1496028292, -- [2]
-				}, -- [7]
-				{
-					153, -- [1]
-					1496028292, -- [2]
-				}, -- [8]
-				{
-					153, -- [1]
-					1496028292, -- [2]
-				}, -- [9]
-				{
-					32, -- [1]
-					1496895902, -- [2]
-				}, -- [10]
-				{
-					32, -- [1]
-					1496895902, -- [2]
-				}, -- [11]
-				{
-					62, -- [1]
-					1496895902, -- [2]
-				}, -- [12]
-				{
-					62, -- [1]
-					1496895902, -- [2]
-				}, -- [13]
-				{
-					92, -- [1]
-					1496895902, -- [2]
-				}, -- [14]
-				{
-					122, -- [1]
-					1496895902, -- [2]
-				}, -- [15]
-				{
-					122, -- [1]
-					1496895902, -- [2]
-				}, -- [16]
-				{
-					152, -- [1]
-					1496895902, -- [2]
-				}, -- [17]
-				{
-					152, -- [1]
-					1496895902, -- [2]
-				}, -- [18]
-				{
-					182, -- [1]
-					1496895902, -- [2]
-				}, -- [19]
-				{
-					212, -- [1]
-					1496895902, -- [2]
-				}, -- [20]
-				{
-					212, -- [1]
-					1496895902, -- [2]
-				}, -- [21]
-			},
 			["Fel Beam"] = {
 				{
 					11, -- [1]
@@ -14706,6 +11609,234 @@ DeathGraphsDBGraph = {
 					203, -- [1]
 					1496895902, -- [2]
 				}, -- [16]
+			},
+			["Felburst"] = {
+				{
+					56, -- [1]
+					1496028292, -- [2]
+				}, -- [1]
+				{
+					57, -- [1]
+					1496028292, -- [2]
+				}, -- [2]
+				{
+					58, -- [1]
+					1496028292, -- [2]
+				}, -- [3]
+				{
+					60, -- [1]
+					1496028292, -- [2]
+				}, -- [4]
+				{
+					61, -- [1]
+					1496028292, -- [2]
+				}, -- [5]
+				{
+					140, -- [1]
+					1496028292, -- [2]
+				}, -- [6]
+				{
+					141, -- [1]
+					1496028292, -- [2]
+				}, -- [7]
+				{
+					142, -- [1]
+					1496028292, -- [2]
+				}, -- [8]
+				{
+					143, -- [1]
+					1496028292, -- [2]
+				}, -- [9]
+				{
+					144, -- [1]
+					1496028292, -- [2]
+				}, -- [10]
+				{
+					145, -- [1]
+					1496028292, -- [2]
+				}, -- [11]
+				{
+					146, -- [1]
+					1496028292, -- [2]
+				}, -- [12]
+				{
+					147, -- [1]
+					1496028292, -- [2]
+				}, -- [13]
+				{
+					148, -- [1]
+					1496028292, -- [2]
+				}, -- [14]
+				{
+					149, -- [1]
+					1496028292, -- [2]
+				}, -- [15]
+				{
+					150, -- [1]
+					1496028292, -- [2]
+				}, -- [16]
+				{
+					151, -- [1]
+					1496028292, -- [2]
+				}, -- [17]
+				{
+					152, -- [1]
+					1496028292, -- [2]
+				}, -- [18]
+				{
+					153, -- [1]
+					1496028292, -- [2]
+				}, -- [19]
+				{
+					155, -- [1]
+					1496028292, -- [2]
+				}, -- [20]
+				{
+					55, -- [1]
+					1496895902, -- [2]
+				}, -- [21]
+				{
+					56, -- [1]
+					1496895902, -- [2]
+				}, -- [22]
+				{
+					58, -- [1]
+					1496895902, -- [2]
+				}, -- [23]
+				{
+					59, -- [1]
+					1496895902, -- [2]
+				}, -- [24]
+				{
+					139, -- [1]
+					1496895902, -- [2]
+				}, -- [25]
+				{
+					140, -- [1]
+					1496895902, -- [2]
+				}, -- [26]
+				{
+					141, -- [1]
+					1496895902, -- [2]
+				}, -- [27]
+				{
+					142, -- [1]
+					1496895902, -- [2]
+				}, -- [28]
+				{
+					143, -- [1]
+					1496895902, -- [2]
+				}, -- [29]
+				{
+					144, -- [1]
+					1496895902, -- [2]
+				}, -- [30]
+				{
+					145, -- [1]
+					1496895902, -- [2]
+				}, -- [31]
+				{
+					146, -- [1]
+					1496895902, -- [2]
+				}, -- [32]
+				{
+					147, -- [1]
+					1496895902, -- [2]
+				}, -- [33]
+				{
+					148, -- [1]
+					1496895902, -- [2]
+				}, -- [34]
+				{
+					149, -- [1]
+					1496895902, -- [2]
+				}, -- [35]
+				{
+					150, -- [1]
+					1496895902, -- [2]
+				}, -- [36]
+				{
+					229, -- [1]
+					1496895902, -- [2]
+				}, -- [37]
+				{
+					230, -- [1]
+					1496895902, -- [2]
+				}, -- [38]
+				{
+					231, -- [1]
+					1496895902, -- [2]
+				}, -- [39]
+				{
+					232, -- [1]
+					1496895902, -- [2]
+				}, -- [40]
+				{
+					233, -- [1]
+					1496895902, -- [2]
+				}, -- [41]
+				{
+					234, -- [1]
+					1496895902, -- [2]
+				}, -- [42]
+				{
+					235, -- [1]
+					1496895902, -- [2]
+				}, -- [43]
+				{
+					236, -- [1]
+					1496895902, -- [2]
+				}, -- [44]
+				{
+					237, -- [1]
+					1496895902, -- [2]
+				}, -- [45]
+				{
+					238, -- [1]
+					1496895902, -- [2]
+				}, -- [46]
+			},
+			["Orb of Destruction"] = {
+				{
+					24, -- [1]
+					1496028292, -- [2]
+				}, -- [1]
+				{
+					83, -- [1]
+					1496028292, -- [2]
+				}, -- [2]
+				{
+					106, -- [1]
+					1496028292, -- [2]
+				}, -- [3]
+				{
+					23, -- [1]
+					1496895902, -- [2]
+				}, -- [4]
+				{
+					83, -- [1]
+					1496895902, -- [2]
+				}, -- [5]
+				{
+					106, -- [1]
+					1496895902, -- [2]
+				}, -- [6]
+				{
+					168, -- [1]
+					1496895902, -- [2]
+				}, -- [7]
+				{
+					195, -- [1]
+					1496895902, -- [2]
+				}, -- [8]
+				{
+					220, -- [1]
+					1496895902, -- [2]
+				}, -- [9]
+				{
+					235, -- [1]
+					1496895902, -- [2]
+				}, -- [10]
 			},
 			["Searing Brand"] = {
 				{
@@ -15081,200 +12212,100 @@ DeathGraphsDBGraph = {
 					1496895902, -- [2]
 				}, -- [93]
 			},
-			["Felburst"] = {
+			["Slam"] = {
 				{
-					56, -- [1]
+					33, -- [1]
 					1496028292, -- [2]
 				}, -- [1]
 				{
-					57, -- [1]
+					33, -- [1]
 					1496028292, -- [2]
 				}, -- [2]
 				{
-					58, -- [1]
+					63, -- [1]
 					1496028292, -- [2]
 				}, -- [3]
 				{
-					60, -- [1]
+					63, -- [1]
 					1496028292, -- [2]
 				}, -- [4]
 				{
-					61, -- [1]
+					93, -- [1]
 					1496028292, -- [2]
 				}, -- [5]
 				{
-					140, -- [1]
+					122, -- [1]
 					1496028292, -- [2]
 				}, -- [6]
 				{
-					141, -- [1]
+					123, -- [1]
 					1496028292, -- [2]
 				}, -- [7]
 				{
-					142, -- [1]
+					153, -- [1]
 					1496028292, -- [2]
 				}, -- [8]
 				{
-					143, -- [1]
+					153, -- [1]
 					1496028292, -- [2]
 				}, -- [9]
 				{
-					144, -- [1]
-					1496028292, -- [2]
+					32, -- [1]
+					1496895902, -- [2]
 				}, -- [10]
 				{
-					145, -- [1]
-					1496028292, -- [2]
+					32, -- [1]
+					1496895902, -- [2]
 				}, -- [11]
 				{
-					146, -- [1]
-					1496028292, -- [2]
+					62, -- [1]
+					1496895902, -- [2]
 				}, -- [12]
 				{
-					147, -- [1]
-					1496028292, -- [2]
+					62, -- [1]
+					1496895902, -- [2]
 				}, -- [13]
 				{
-					148, -- [1]
-					1496028292, -- [2]
+					92, -- [1]
+					1496895902, -- [2]
 				}, -- [14]
 				{
-					149, -- [1]
-					1496028292, -- [2]
+					122, -- [1]
+					1496895902, -- [2]
 				}, -- [15]
 				{
-					150, -- [1]
-					1496028292, -- [2]
+					122, -- [1]
+					1496895902, -- [2]
 				}, -- [16]
 				{
-					151, -- [1]
-					1496028292, -- [2]
+					152, -- [1]
+					1496895902, -- [2]
 				}, -- [17]
 				{
 					152, -- [1]
-					1496028292, -- [2]
+					1496895902, -- [2]
 				}, -- [18]
 				{
-					153, -- [1]
-					1496028292, -- [2]
+					182, -- [1]
+					1496895902, -- [2]
 				}, -- [19]
 				{
-					155, -- [1]
-					1496028292, -- [2]
+					212, -- [1]
+					1496895902, -- [2]
 				}, -- [20]
 				{
-					55, -- [1]
+					212, -- [1]
 					1496895902, -- [2]
 				}, -- [21]
-				{
-					56, -- [1]
-					1496895902, -- [2]
-				}, -- [22]
-				{
-					58, -- [1]
-					1496895902, -- [2]
-				}, -- [23]
-				{
-					59, -- [1]
-					1496895902, -- [2]
-				}, -- [24]
-				{
-					139, -- [1]
-					1496895902, -- [2]
-				}, -- [25]
-				{
-					140, -- [1]
-					1496895902, -- [2]
-				}, -- [26]
-				{
-					141, -- [1]
-					1496895902, -- [2]
-				}, -- [27]
-				{
-					142, -- [1]
-					1496895902, -- [2]
-				}, -- [28]
-				{
-					143, -- [1]
-					1496895902, -- [2]
-				}, -- [29]
-				{
-					144, -- [1]
-					1496895902, -- [2]
-				}, -- [30]
-				{
-					145, -- [1]
-					1496895902, -- [2]
-				}, -- [31]
-				{
-					146, -- [1]
-					1496895902, -- [2]
-				}, -- [32]
-				{
-					147, -- [1]
-					1496895902, -- [2]
-				}, -- [33]
-				{
-					148, -- [1]
-					1496895902, -- [2]
-				}, -- [34]
-				{
-					149, -- [1]
-					1496895902, -- [2]
-				}, -- [35]
-				{
-					150, -- [1]
-					1496895902, -- [2]
-				}, -- [36]
-				{
-					229, -- [1]
-					1496895902, -- [2]
-				}, -- [37]
-				{
-					230, -- [1]
-					1496895902, -- [2]
-				}, -- [38]
-				{
-					231, -- [1]
-					1496895902, -- [2]
-				}, -- [39]
-				{
-					232, -- [1]
-					1496895902, -- [2]
-				}, -- [40]
-				{
-					233, -- [1]
-					1496895902, -- [2]
-				}, -- [41]
-				{
-					234, -- [1]
-					1496895902, -- [2]
-				}, -- [42]
-				{
-					235, -- [1]
-					1496895902, -- [2]
-				}, -- [43]
-				{
-					236, -- [1]
-					1496895902, -- [2]
-				}, -- [44]
-				{
-					237, -- [1]
-					1496895902, -- [2]
-				}, -- [45]
-				{
-					238, -- [1]
-					1496895902, -- [2]
-				}, -- [46]
 			},
 		},
 		["ids"] = {
 			["Burning Pitch"] = 205420,
-			["Orb of Destruction"] = 205361,
-			["Slam"] = 205863,
 			["Fel Beam"] = 205370,
-			["Searing Brand"] = 206677,
 			["Felburst"] = 206351,
+			["Orb of Destruction"] = 205361,
+			["Searing Brand"] = 206677,
+			["Slam"] = 205863,
 		},
 	},
 	["173215"] = {
@@ -16451,13 +13482,13 @@ DeathGraphsDBGraph = {
 			[84] = {
 				1496894404, -- [1]
 			},
-			[83] = {
-				1496026556, -- [1]
-			},
 			[69] = {
 				1496026556, -- [1]
 				1496026556, -- [2]
 				1496894404, -- [3]
+			},
+			[83] = {
+				1496026556, -- [1]
 			},
 		},
 		["spells"] = {
@@ -17113,8 +14144,9 @@ DeathGraphsDBGraph = {
 	},
 	["173715"] = {
 		["deaths"] = {
-			[227] = {
-				1497146301, -- [1]
+			[303] = {
+				1497146782, -- [1]
+				1497146782, -- [2]
 			},
 			[141] = {
 				1497146301, -- [1]
@@ -17125,15 +14157,14 @@ DeathGraphsDBGraph = {
 			[170] = {
 				1497146301, -- [1]
 			},
-			[302] = {
-				1497146782, -- [1]
-			},
-			[303] = {
-				1497146782, -- [1]
-				1497146782, -- [2]
-			},
 			[123] = {
 				1497146301, -- [1]
+			},
+			[227] = {
+				1497146301, -- [1]
+			},
+			[302] = {
+				1497146782, -- [1]
 			},
 		},
 		["spells"] = {
@@ -17275,6 +14306,40 @@ DeathGraphsDBGraph = {
 					1497146782, -- [2]
 				}, -- [10]
 			},
+			["Liquid Hellfire"] = {
+				{
+					4, -- [1]
+					1497146301, -- [2]
+				}, -- [1]
+				{
+					19, -- [1]
+					1497146301, -- [2]
+				}, -- [2]
+				{
+					43, -- [1]
+					1497146301, -- [2]
+				}, -- [3]
+				{
+					115, -- [1]
+					1497146301, -- [2]
+				}, -- [4]
+				{
+					4, -- [1]
+					1497146782, -- [2]
+				}, -- [5]
+				{
+					19, -- [1]
+					1497146782, -- [2]
+				}, -- [6]
+				{
+					43, -- [1]
+					1497146782, -- [2]
+				}, -- [7]
+				{
+					116, -- [1]
+					1497146782, -- [2]
+				}, -- [8]
+			},
 			["Black Harvest"] = {
 				{
 					292, -- [1]
@@ -17288,24 +14353,6 @@ DeathGraphsDBGraph = {
 					274, -- [1]
 					1497146782, -- [2]
 				}, -- [3]
-			},
-			["The Eye of Aman'Thul"] = {
-				{
-					34, -- [1]
-					1497146301, -- [2]
-				}, -- [1]
-				{
-					227, -- [1]
-					1497146301, -- [2]
-				}, -- [2]
-				{
-					34, -- [1]
-					1497146782, -- [2]
-				}, -- [3]
-				{
-					208, -- [1]
-					1497146782, -- [2]
-				}, -- [4]
 			},
 			["Eye of Gul'dan"] = {
 				{
@@ -17475,39 +14522,23 @@ DeathGraphsDBGraph = {
 					1497146782, -- [2]
 				}, -- [10]
 			},
-			["Liquid Hellfire"] = {
+			["The Eye of Aman'Thul"] = {
 				{
-					4, -- [1]
+					34, -- [1]
 					1497146301, -- [2]
 				}, -- [1]
 				{
-					19, -- [1]
+					227, -- [1]
 					1497146301, -- [2]
 				}, -- [2]
 				{
-					43, -- [1]
-					1497146301, -- [2]
+					34, -- [1]
+					1497146782, -- [2]
 				}, -- [3]
 				{
-					115, -- [1]
-					1497146301, -- [2]
+					208, -- [1]
+					1497146782, -- [2]
 				}, -- [4]
-				{
-					4, -- [1]
-					1497146782, -- [2]
-				}, -- [5]
-				{
-					19, -- [1]
-					1497146782, -- [2]
-				}, -- [6]
-				{
-					43, -- [1]
-					1497146782, -- [2]
-				}, -- [7]
-				{
-					116, -- [1]
-					1497146782, -- [2]
-				}, -- [8]
 			},
 			["Shatter Essence"] = {
 				{
@@ -17552,15 +14583,15 @@ DeathGraphsDBGraph = {
 			["Well of Souls"] = 206939,
 			["Dark Blast"] = 207006,
 			["Hand of Gul'dan"] = 212258,
+			["Liquid Hellfire"] = 206219,
 			["Black Harvest"] = 206744,
-			["The Eye of Aman'Thul"] = 227427,
 			["Eye of Gul'dan"] = 209454,
 			["Drain"] = 212568,
 			["Empowered Bonds of Fel"] = 206221,
 			["Empowered Liquid Hellfire"] = 206220,
 			["Flames of Sargeras"] = 221783,
 			["Empowered Eye of Gul'dan"] = 209489,
-			["Liquid Hellfire"] = 206219,
+			["The Eye of Aman'Thul"] = 227427,
 			["Shatter Essence"] = 206675,
 			["Fel Efflux"] = 206514,
 		},
