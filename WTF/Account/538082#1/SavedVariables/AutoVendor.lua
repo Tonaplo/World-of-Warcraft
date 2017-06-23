@@ -8,11 +8,11 @@ AutoVendorDB = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
@@ -36,7 +36,7 @@ AutoVendorDB = {
 				[138967] = "Big Fountain Goldfish",
 			},
 		},
-		["Miriyal - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -44,7 +44,7 @@ AutoVendorDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 	},
 }

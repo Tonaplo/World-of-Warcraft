@@ -3,9 +3,9 @@ if not L then return end
 L = L or {}
 L["WQGF_ADDON_DESCRIPTION"] = "Torna fácil achar grupos para Missões Mundiais usando a ferramenta de Busca de Grupo."
 L["WQGF_ALREADY_IS_GROUP_FOR_WQ"] = "Você ja esta em um grupo para esta Missão."
-L["WQGF_ALREADY_QUEUED_BG"] = "Você esta em fila para Campos de batalha. Por favor saia e tente novamente"
-L["WQGF_ALREADY_QUEUED_DF"] = "Você esta em fila para Masmorras. Por favor saia e tente novamente"
-L["WQGF_ALREADY_QUEUED_RF"] = "Você esta em fila para Raides. Por favor saia e tente novamente"
+L["WQGF_ALREADY_QUEUED_BG"] = "Você esta em fila para Campos de Batalha. Por favor saia da fila e tente novamente."
+L["WQGF_ALREADY_QUEUED_DF"] = "Você esta em fila para Masmorras. Por favor saia da fila e tente novamente."
+L["WQGF_ALREADY_QUEUED_RF"] = "Você esta em fila para Raides. Por favor saiada fila e tente novamente."
 L["WQGF_APPLIED_TO_GROUPS"] = "Você se alistou para o grupo |c00bfffff%d|c00ffffff para a Missão Mundial |c00bfffff%s|c00ffffff."
 L["WQGF_APPLIED_TO_GROUPS_QUEST"] = "Você se alistou para o grupo |c00bfffff%d|c00ffffff para a missão |c00bfffff%s|c00ffffff ."
 L["WQGF_AUTO_LEAVING_DIALOG"] = [=[Você completou a Missão Mundial e ira sair do grupo em %d segundos.
@@ -22,7 +22,7 @@ L["WQGF_CONFIG_AUTO_ACCEPT_INVITES_HOVER"] = "Ira aceitar automaticamente convit
 L["WQGF_CONFIG_AUTO_ACCEPT_INVITES_TITLE"] = "Aceitar automaticamente convites de grupo"
 L["WQGF_CONFIG_AUTOINVITE"] = "Convite automatico"
 L["WQGF_CONFIG_AUTOINVITE_EVERYONE"] = "Convide automaticamente todo mundo"
-L["WQGF_CONFIG_AUTOINVITE_EVERYONE_HOVER"] = "Toda candidato sera convidado para o grupo até o limite de 5 jogadores "
+L["WQGF_CONFIG_AUTOINVITE_EVERYONE_HOVER"] = "Todo candidato sera convidado automaticamente para o grupo, até o limite de 5 jogadores "
 L["WQGF_CONFIG_AUTOINVITE_WQGF_USERS"] = "Convite automatico de usuarios do WQGF"
 L["WQGF_CONFIG_AUTOINVITE_WQGF_USERS_HOVER"] = "Usuarios WQGF irão ser convidados automaticamente para o grupo"
 L["WQGF_CONFIG_BINDING_ADVICE"] = "Lembre-se você pode associar o botão do WQGF a uma tecla através do menu de Teclas de Atalho do WOW!"
@@ -32,10 +32,10 @@ L["WQGF_CONFIG_LANGUAGE_FILTER_TITLE"] = "Filtro de linguagem da Busca de Grupo"
 L["WQGF_CONFIG_LOGIN_MESSAGE_TITLE"] = "Mensagem de login do WQGF"
 L["WQGF_CONFIG_LOGIN_MESSAGE_TITLE_ENABLE"] = "Esconda a mensagem inicial do WQGF ao logar"
 L["WQGF_CONFIG_LOGIN_MESSAGE_TITLE_HOVER"] = "Não mostre mais a mensagem de login do WQGF"
-L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_AUTO_ENABLE"] = "Automaticamente começar a buscar se não estiver em grupo"
-L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_AUTO_HOVER"] = "Um grupo ira automaticamente ser buscado quando entrar em uma nova zona de Missão Mundial"
+L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_AUTO_ENABLE"] = "Comece automaticamente a procurar se não estiver em um grupo"
+L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_AUTO_HOVER"] = "Ira buscar automaticamente um grupo ao entrar em uma nova zona de Missão Mundial"
 L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_ENABLE"] = "Ativar detecção de nova zona de Missão Mundial"
-L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_HOVER"] = "Sera perguntado se quer porcurar um grupo quando entrar emuma nova zona de Missão Mundial"
+L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_HOVER"] = "Sera perguntado se quer procurar um grupo quando entrar em uma nova zona de Missão Mundial"
 L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_SWITCH_ENABLE"] = "Não proponha se ja estiver em grupo para outra Missão Mundial"
 L["WQGF_CONFIG_NEW_WQ_AREA_DETECTION_TITLE"] = "Proponha procurar por um grupo quando entrar em uma area de Missão Mundial pela primeira vez"
 L["WQGF_CONFIG_PAGE_CREDITS"] = "Trazido para você por Robou, EU-Hyjal"
@@ -54,13 +54,13 @@ L["WQGF_CONFIG_SILENT_MODE_TITLE"] = "Modo silencioso"
 L["WQGF_CONFIG_WQ_END_DIALOG_AUTO_LEAVE_ENABLE"] = "Sair automaticamente do grupo após 10 segundos"
 L["WQGF_CONFIG_WQ_END_DIALOG_AUTO_LEAVE_HOVER"] = "Ira sair do grupo 10 segundos após a Missão Mundial ser completada"
 L["WQGF_CONFIG_WQ_END_DIALOG_ENABLE"] = "Ativar dialogo final para Missão Mundial"
-L["WQGF_CONFIG_WQ_END_DIALOG_HOVER"] = "Ira ser proposto a você para sair do grupo ou retira-lo da lista quando a Missão Mundial for completada "
+L["WQGF_CONFIG_WQ_END_DIALOG_HOVER"] = "Ira ser proposto a você para sair do grupo ou retira-lo da fila quando a Missão Mundial for completada "
 L["WQGF_CONFIG_WQ_END_DIALOG_TITLE"] = "Mostra um dialogo para sair do grupo quando a Missão Mundial for completada"
 L["WQGF_DEBUG_CONFIGURATION_DUMP"] = "Configuração de personagem:"
 L["WQGF_DEBUG_CURRENT_WQ_ID"] = "ID da Missão Mundial atual é |c00bfffff%s"
-L["WQGF_DEBUG_MODE_DISABLED"] = "Modo Debug esta desligado."
-L["WQGF_DEBUG_MODE_ENABLED"] = "Modo Debug esta ligado."
-L["WQGF_DEBUG_NO_CURRENT_WQ_ID"] = "Sem Missão Mundial autal."
+L["WQGF_DEBUG_MODE_DISABLED"] = "Modo Debug esta agora desligado."
+L["WQGF_DEBUG_MODE_ENABLED"] = "Modo Debug esta agora ligado."
+L["WQGF_DEBUG_NO_CURRENT_WQ_ID"] = "Nenhuma missão atual"
 L["WQGF_DEBUG_WQ_ZONES_ENTERED"] = "Zonas de Missão Mundial entradas nessa seção:"
 L["WQGF_DELIST"] = "Retirar"
 L["WQGF_DROPPED_WB_SUPPORT"] = "O suporte a missões mundiais de Chefes Mundiais foi retirado no WQGF 0.21.3. Por favor use o botão padrão da UI para procurar um grupo."
@@ -74,9 +74,10 @@ L["WQGF_FRAME_FOUND_GROUPS"] = "Encontrado %d grupo(s). Clique no botão para al
 L["WQGF_FRAME_GROUPS_LEFT"] = "Restam %d grupo(s), continue clicando!"
 L["WQGF_FRAME_INIT_SEARCH"] = "Clique no botão para iniciar uma busca"
 L["WQGF_FRAME_NO_GROUPS"] = "Nenhum grupo encontrado, clique no botão para criar um novo grupo."
+L["WQGF_FRAME_RELIST_GROUP"] = "Clique no botão para realistar o grupo"
 L["WQGF_FRAME_SEARCH_GROUPS"] = "Clique no botão para procurar grupos..."
 L["WQGF_GLOBAL_CONFIGURATION"] = "Configuração global:"
-L["WQGF_GROUP_CREATION_ERROR"] = "Um erro ocorreu enquanto tentava criar uma nova entrada de Grupo. Por favor tente de novo"
+L["WQGF_GROUP_CREATION_ERROR"] = "Um erro ocorreu enquanto tentava criar uma Busca de Grupo nova. Por favor tente de novo"
 L["WQGF_GROUP_NO_LONGER_DOING_QUEST"] = "O seu grupo não esta mais fazendo a missão |c00bfffff%s|c00ffffff."
 L["WQGF_GROUP_NO_LONGER_DOING_WQ"] = "O seu grupo não esta mais fazendo a Missão Mundial |c00bfffff%s|c00ffffff."
 L["WQGF_GROUP_NOW_DOING_QUEST"] = "O seu grupo esta fazendo agora a missão |c00bfffff%s|c00ffffff."
@@ -110,7 +111,7 @@ L["WQGF_SEARCHING_FOR_GROUP_QUEST"] = "Procurando um grupo para a missão |c00bf
 L["WQGF_SLASH_COMMANDS_1"] = "|c00bfffffComandos de barra (/wqgf):"
 L["WQGF_SLASH_COMMANDS_2"] = "|c00bfffff /wqgf config : Abre a configuração do ADDON"
 L["WQGF_SLASH_COMMANDS_3"] = "|c00bfffff /wqgf unbl : Limpa a lista negra de lideres"
-L["WQGF_SLASH_COMMANDS_4"] = "|c00bfffff /wqgf unbl : Alterna nova detecção de zona de Missão Mundial"
+L["WQGF_SLASH_COMMANDS_4"] = "|c00bfffff /wqgf toggle : Alterna nova detecção de zona de Missão Mundial"
 L["WQGF_START_ANOTHER_QUEST_DIALOG"] = [=[Você esta no momento em grupo para outra missão.
 
 Você tem certeza que gostaria de começar outra?]=]
@@ -119,12 +120,12 @@ L["WQGF_START_ANOTHER_WQ_DIALOG"] = [=[Você esta no momento em grupo para outra
 Você tem certeza que gostaria de começar outra?]=]
 L["WQGF_STAY"] = "Ficar"
 L["WQGF_STOP_TOOLTIP"] = "Pare de fazer a Missão Mundial"
-L["WQGF_TRANSLATION_INFO"] = "Versão em portugues por Lobeom"
-L["WQGF_USER_JOINED"] = "Um usuário do World Guest Group Finder enrou no grupo!"
-L["WQGF_USERS_JOINED"] = "Usuarios do World Quest Group Finder entraram no grupo!"
+L["WQGF_TRANSLATION_INFO"] = "Traduzido para português por Lobeom-Nemesis"
+L["WQGF_USER_JOINED"] = "Um usuário do WQGF entrou no grupo!"
+L["WQGF_USERS_JOINED"] = "Usuários do WQGF entraram no grupo!"
 L["WQGF_WQ_AREA_ENTERED_ALREADY_GROUPED_DIALOG"] = [=[Você entrou na area de uma nova Missão Mundial, mas ja esta em grupo para outra Missão.
 
-Gostaria de sai do grupo atual e procurar um novo para "%s" ?]=]
+Gostaria de sair do grupo atual e procurar um novo para "%s" ?]=]
 L["WQGF_WQ_AREA_ENTERED_DIALOG"] = [=[Você entrou na area de uma nova Missão Mundial.
 
 Gostaria de procurar um novo grupo para "%s" ?]=]
@@ -134,9 +135,9 @@ Você gostaria de sair do grupo ?]=]
 L["WQGF_WQ_COMPLETE_LEAVE_OR_DELIST_DIALOG"] = [=[Você completou essa Missão Mundial.
 
 Gostaria de sair do grupo ou retira-lo da Busca ?]=]
-L["WQGF_WQ_GROUP_APPLY_CANCELLED"] = "Você cancelou seu alistamento para o grupo |c00bfffff%s|c00ffffff' para |c00bfffff%s|c00ffffff. WQGF não ira tentar se juntar a este grupo novamente a´te você relogar ou limpar a Lista Negra."
+L["WQGF_WQ_GROUP_APPLY_CANCELLED"] = "Você cancelou seu alistamento para o grupo |c00bfffff%s|c00ffffff' para |c00bfffff%s|c00ffffff. WQGF não ira tentar se juntar a este grupo novamente até você relogar ou limpar a Lista Negra."
 L["WQGF_WQ_GROUP_DESCRIPTION"] = "Criado automaticamente por World Quest Group Finder %s."
-L["WQGF_WRONG_LOCATION_FOR_WQ"] = "Você não esta no loca certo para esta Missão Mundial."
+L["WQGF_WRONG_LOCATION_FOR_WQ"] = "Você não esta no local certo para esta Missão Mundial."
 L["WQGF_YES"] = "Sim"
-L["WQGF_ZONE_DETECTION_DISABLED"] = "Nova detecção de zona de Missão Mundial agora está desativada."
-L["WQGF_ZONE_DETECTION_ENABLED"] = "Nova detecção de zona de Missão Mundial agora está habilitada."
+L["WQGF_ZONE_DETECTION_DISABLED"] = "Detecção de nova zona de Missão Mundial está agora desativada."
+L["WQGF_ZONE_DETECTION_ENABLED"] = "Detecção de nova zona de Missão Mundial está agora habilitada."
