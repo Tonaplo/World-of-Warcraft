@@ -27,6 +27,13 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 60
+W: 370
+H: 110
 Frame: PlayerFrame
 FrameLevel: 8
 Anchor: CENTER

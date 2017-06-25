@@ -2,10 +2,10 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -20,51 +20,49 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Guilds"] = {
+			["Default.Tichondrius.Wisdom"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.Proudmoore.Risen"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Proudmoore.Imperial Alliance"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Bleeding Hollow.Imperium"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Proudmoore.Imperial Alliance"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.Tichondrius.Wisdom"] = {
-				["faction"] = "Alliance",
-			},
 		},
 		["Version"] = 1,
 		["Characters"] = {
+			["Default.Proudmoore.Amranar"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Risen",
+			},
 			["Default.Proudmoore.Fimwack"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Amranar"] = {
-				["guildName"] = "Risen",
-				["faction"] = "Alliance",
-			},
 			["Default.Tichondrius.Mallusof"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Wisdom",
-			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Imperium",
-			},
-			["Default.Proudmoore.Morifa"] = {
 				["faction"] = "Alliance",
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Proudmoore.Rahran"] = {
 				["guildName"] = "Risen",
+				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Risen",
+				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
-			["Default.Proudmoore.Praerend"] = {
+			["Default.Proudmoore.Faerand"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Risen",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["faction"] = "Horde",
@@ -73,31 +71,32 @@ DataStoreDB = {
 				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
-			["Default.Proudmoore.Faerand"] = {
+			["Default.Proudmoore.Praerend"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["guildName"] = "Risen",
-				["faction"] = "Alliance",
-			},
-			["Default.Proudmoore.Rahran"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
 			},
-			["Default.Proudmoore.Miriyal"] = {
-				["guildName"] = "Imperial Alliance",
+			["Default.Proudmoore.Morifa"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+			},
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["guildName"] = "Imperium",
+				["faction"] = "Horde",
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {
-			["Proudmoore"] = "Proudmoore",
 			["Aggramar"] = "Aggramar",
+			["Proudmoore"] = "Proudmoore",
 			["BleedingHollow"] = "Bleeding Hollow",
 			["Tichondrius"] = "Tichondrius",
 		},

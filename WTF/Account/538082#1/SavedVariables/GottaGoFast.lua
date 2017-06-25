@@ -2,10 +2,10 @@
 GottaGoFastDB = {
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
@@ -21,7 +21,7 @@ GottaGoFastDB = {
 	["profiles"] = {
 		["Default"] = {
 			["TimerY"] = 1,
-			["MobPoints"] = true,
+			["TimerX"] = -50,
 			["FrameX"] = 25.5830059051514,
 			["ObjectiveX"] = -50,
 			["TimerFont"] = "Prototype",
@@ -36,7 +36,7 @@ GottaGoFastDB = {
 			["SpyHelper"] = true,
 			["DeathColor"] = "fff50009",
 			["Version"] = 26500,
-			["TimerX"] = -50,
+			["MobPoints"] = true,
 		},
 	},
 }

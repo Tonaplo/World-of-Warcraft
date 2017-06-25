@@ -13,465 +13,18 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Base",
-	["last_day"] = "22",
+	["last_day"] = "25",
 	["tabela_historico"] = {
 		["tabelas"] = {
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 1550,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 132369,
-							["totalabsorbed"] = 0.004586,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Grimtotem Champion"] = 1751232,
-							},
-							["delay"] = 0,
-							["pets"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 1,
-							["classe"] = "SHAMAN",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1751232.004586,
-							["spells"] = {
-								["_ActorTable"] = {
-									[188389] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 51528,
-										["targets"] = {
-											["Grimtotem Champion"] = 103056,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 103056,
-										["n_min"] = 25764,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 103056,
-										["c_max"] = 0,
-										["id"] = 188389,
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[51505] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 895748,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Grimtotem Champion"] = 895748,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 895748,
-										["c_max"] = 447874,
-										["id"] = 51505,
-										["r_dmg"] = 0,
-										["c_min"] = 447874,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-									[77451] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 752428,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Grimtotem Champion"] = 752428,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 752428,
-										["c_max"] = 376214,
-										["id"] = 77451,
-										["r_dmg"] = 0,
-										["c_min"] = 376214,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 4,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["dps_started"] = false,
-							["end_time"] = 1498116006,
-							["damage_taken"] = 0.004586,
-							["total"] = 1751232.004586,
-							["nome"] = "Farahn",
-							["spec"] = 262,
-							["grupo"] = true,
-							["last_dps"] = 295566.583052526,
-							["friendlyfire_total"] = 591888,
-							["colocacao"] = 1,
-							["last_event"] = 1498116005,
-							["on_hold"] = false,
-							["start_time"] = 1498116000,
-							["serial"] = "Player-5-0A1AA184",
-							["friendlyfire"] = {
-								["Grimtotem Champion"] = {
-									["total"] = 591888,
-									["spells"] = {
-										[188389] = 71316,
-										[170379] = 27910,
-										[51505] = 492662,
-									},
-								},
-							},
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 1550,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 1550,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 132369,
-							["resource"] = 0.001194,
-							["targets"] = {
-								["Farahn"] = 54,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "SHAMAN",
-							["alternatepower"] = 0.001194,
-							["nome"] = "Farahn",
-							["spells"] = {
-								["_ActorTable"] = {
-									[51505] = {
-										["id"] = 51505,
-										["total"] = 36,
-										["targets"] = {
-											["Farahn"] = 36,
-										},
-										["counter"] = 3,
-									},
-									[77451] = {
-										["id"] = 77451,
-										["total"] = 18,
-										["targets"] = {
-											["Farahn"] = 18,
-										},
-										["counter"] = 2,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["received"] = 54.001194,
-							["last_event"] = 1498116004,
-							["total"] = 54.001194,
-							["tipo"] = 3,
-							["serial"] = "Player-5-0A1AA184",
-							["spec"] = 262,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 1550,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[188389] = {
-										["uptime"] = 6,
-										["activedamt"] = 0,
-										["id"] = 188389,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 29,
-							["classe"] = "SHAMAN",
-							["interrupt_spells"] = {
-								["_ActorTable"] = {
-									[57994] = {
-										["id"] = 57994,
-										["counter"] = 1,
-										["targets"] = {
-											["Grimtotem Champion"] = 1,
-										},
-										["interrompeu_oque"] = {
-											[79913] = 1,
-										},
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[208981] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 208981,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[77762] = {
-										["uptime"] = 3,
-										["activedamt"] = 3,
-										["id"] = 77762,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[227723] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 227723,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[186403] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 186403,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225506] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 225506,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[16246] = {
-										["uptime"] = 2,
-										["activedamt"] = 1,
-										["id"] = 16246,
-										["targets"] = {
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["interrompeu_oque"] = {
-								[79913] = 1,
-							},
-							["debuff_uptime"] = 6,
-							["tipo"] = 4,
-							["buff_uptime_targets"] = {
-							},
-							["interrupt_targets"] = {
-								["Grimtotem Champion"] = 1,
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[57994] = 1,
-								[51505] = 3,
-							},
-							["interrupt"] = 1.001358,
-							["pets"] = {
-							},
-							["last_event"] = 1498116006,
-							["nome"] = "Farahn",
-							["debuff_uptime_targets"] = {
-							},
-							["serial"] = "Player-5-0A1AA184",
-							["spec"] = 262,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 1550,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Farahn"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Grimtotem Champion",
-				["combat_counter"] = 1975,
-				["playing_solo"] = true,
-				["totals"] = {
-					1751231.969072, -- [1]
-					-0.00576899999578018, -- [2]
-					{
-						0, -- [1]
-						[0] = 53.991479,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 1,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = false,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Farahn"] = 1751232.004586,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 20407.984,
-				["combat_id"] = 1550,
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						51528.004586, -- [1]
-						25764, -- [2]
-						0, -- [3]
-						921512, -- [4]
-						752428, -- [5]
-						["max_value"] = 921512,
-					},
-					["Raid Damage Done"] = {
-						51528, -- [1]
-						25764, -- [2]
-						0, -- [3]
-						921512, -- [4]
-						1273000, -- [5]
-						["max_value"] = 1273000,
-					},
-					["PRESET_RAID_HEAL~Raid Healing Done"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-				},
-				["hasSaved"] = true,
-				["frags"] = {
-				},
-				["data_fim"] = "00:20:07",
-				["data_inicio"] = "00:20:01",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					2343120, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 54,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 1,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 20402.059,
-				["contra"] = "Grimtotem Champion",
-				["instance_type"] = "none",
-			}, -- [1]
 		},
 	},
 	["ignore_nicktag"] = false,
 	["cached_talents"] = {
 		["Player-5-0A1AA184"] = {
-			19264, -- [1]
-			22492, -- [2]
-			21968, -- [3]
-			21675, -- [4]
-			19275, -- [5]
-			22322, -- [6]
-			21966, -- [7]
 		},
 	},
-	["combat_counter"] = 1976,
-	["savedbuffs"] = {
-	},
+	["combat_counter"] = 2170,
+	["last_encounter"] = "Sisters of the Moon",
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -482,8 +35,8 @@ _detalhes_database = {
 			["dpshistory"] = {
 				"2: 3,664,324", -- [1]
 			},
-			["dps"] = 3664324.008294,
 			["author"] = "Details! Team",
+			["dps"] = 3664324.008294,
 			["level"] = 2,
 			["enabled"] = true,
 		},
@@ -509,7 +62,7 @@ _detalhes_database = {
 			["showing_type"] = 4,
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
-			["last_combat_id"] = 1548,
+			["last_combat_id"] = 1657,
 			["timeline_cutoff_delete_time"] = 3,
 			["enabled"] = true,
 			["author"] = "Details! Team",
@@ -557,20 +110,6 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["author"] = "Details! Team",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 1.525878906250e-005,
-			["font_size"] = 10,
-			["x"] = 3.05175781250e-005,
-			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -582,6 +121,20 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = 1.525878906250e-005,
+			["x"] = 3.05175781250e-005,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["main_frame_strata"] = "LOW",
 			["row_color"] = {
 				0.1, -- [1]
@@ -594,8 +147,8 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -728,18 +281,19 @@ _detalhes_database = {
 			["SpellBarsShowType"] = 1,
 		},
 	},
-	["last_instance_time"] = 1497719287,
+	["savedbuffs"] = {
+	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 105,
+		["logons"] = 111,
 	},
-	["last_version"] = "v7.2.5.3968",
+	["last_version"] = "v7.2.5.4132",
 	["tabela_instancias"] = {
 	},
-	["combat_id"] = 1550,
+	["combat_id"] = 1687,
 	["savedStyles"] = {
 	},
-	["last_realversion"] = 120,
+	["last_realversion"] = 121,
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -754,136 +308,6 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
-				{
-					["flag_original"] = 132369,
-					["totalabsorbed"] = 0.007316,
-					["on_hold"] = false,
-					["damage_from"] = {
-					},
-					["targets"] = {
-						["Grimtotem Champion"] = 0,
-					},
-					["pets"] = {
-					},
-					["last_event"] = 0,
-					["classe"] = "SHAMAN",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 0.007316,
-					["friendlyfire"] = {
-						["Grimtotem Champion"] = {
-							["spells"] = {
-								[188389] = 0,
-								[170379] = 0,
-								[51505] = 0,
-							},
-							["total"] = 0,
-						},
-					},
-					["dps_started"] = false,
-					["end_time"] = 1498116065,
-					["friendlyfire_total"] = 0,
-					["spec"] = 262,
-					["nome"] = "Farahn",
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							[188389] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Grimtotem Champion"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 188389,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[51505] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Grimtotem Champion"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 51505,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[77451] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Grimtotem Champion"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 77451,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["grupo"] = true,
-					["total"] = 0.007316,
-					["serial"] = "Player-5-0A1AA184",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.007316,
-					["start_time"] = 1498116062,
-					["delay"] = 0,
-					["last_dps"] = 0,
-				}, -- [1]
 			},
 		}, -- [1]
 		{
@@ -894,146 +318,11 @@ _detalhes_database = {
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
-				{
-					["received"] = 0.005479,
-					["resource"] = 0.006673,
-					["targets"] = {
-						["Farahn"] = 0,
-					},
-					["pets"] = {
-					},
-					["powertype"] = 0,
-					["classe"] = "SHAMAN",
-					["total"] = 0.005479,
-					["nome"] = "Farahn",
-					["spec"] = 262,
-					["grupo"] = true,
-					["spells"] = {
-						["tipo"] = 7,
-						["_ActorTable"] = {
-							[51505] = {
-								["id"] = 51505,
-								["total"] = 0,
-								["targets"] = {
-									["Farahn"] = 0,
-								},
-								["counter"] = 0,
-							},
-							[77451] = {
-								["id"] = 77451,
-								["total"] = 0,
-								["targets"] = {
-									["Farahn"] = 0,
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["tipo"] = 3,
-					["flag_original"] = 132369,
-					["last_event"] = 0,
-					["alternatepower"] = 0.005479,
-					["serial"] = "Player-5-0A1AA184",
-				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
-				{
-					["flag_original"] = 1047,
-					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[188389] = {
-								["id"] = 188389,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["pets"] = {
-					},
-					["classe"] = "SHAMAN",
-					["interrupt_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[57994] = {
-								["id"] = 57994,
-								["interrompeu_oque"] = {
-								},
-								["targets"] = {
-									["Grimtotem Champion"] = 0,
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["buff_uptime_spells"] = {
-						["tipo"] = 9,
-						["_ActorTable"] = {
-							[208981] = {
-								["id"] = 208981,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[16246] = {
-								["id"] = 16246,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[227723] = {
-								["id"] = 227723,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186403] = {
-								["id"] = 186403,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[77762] = {
-								["id"] = 77762,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[225506] = {
-								["id"] = 225506,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-						},
-					},
-					["interrompeu_oque"] = {
-					},
-					["debuff_uptime"] = 0,
-					["debuff_uptime_targets"] = {
-					},
-					["interrupt"] = 0,
-					["interrupt_targets"] = {
-						["Grimtotem Champion"] = 0,
-					},
-					["grupo"] = true,
-					["spell_cast"] = {
-						[57994] = 0,
-						[51505] = 0,
-					},
-					["buff_uptime_targets"] = {
-					},
-					["buff_uptime"] = 0,
-					["tipo"] = 4,
-					["last_event"] = 0,
-					["nome"] = "Farahn",
-					["serial"] = "Player-5-0A1AA184",
-					["spec"] = 262,
-				}, -- [1]
 			},
 		}, -- [4]
 		{
@@ -1047,7 +336,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1974,
+		["combat_counter"] = 2168,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -1055,21 +344,33 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
-			["voidzone_damage"] = 0,
 			["frags_total"] = 0,
+			["voidzone_damage"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["data_inicio"] = 0,
+		["end_time"] = 60073.066,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["CombatSkillCache"] = {
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -1078,58 +379,65 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[6] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["dead"] = 0,
-				["cc_break"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["dispell"] = 0,
 				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
 			}, -- [4]
 		},
-		["frags_need_refresh"] = false,
-		["__call"] = {
+		["start_time"] = 60073.066,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage"] = {
-			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
-		},
-		["hasSaved"] = true,
-		["frags"] = {
-		},
-		["data_fim"] = 0,
-		["overall_refreshed"] = true,
-		["CombatSkillCache"] = {
-		},
-		["player_last_events"] = {
-		},
-		["start_time"] = 0,
-		["TimeData"] = {
-			["Player Damage Done"] = {
-			},
-			["Raid Damage Done"] = {
-			},
-			["PRESET_RAID_HEAL~Raid Healing Done"] = {
+			["damage"] = {
 			},
 		},
-		["data_inicio"] = 0,
 	},
 	["nick_tag_cache"] = {
+		["nextreset"] = 1499570379,
+		[132274836] = {
+			"Erain", -- [1]
+			"Interface\\EncounterJournal\\UI-EJ-BOSS-Default", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\PetBattles\\Weather-ArcaneStorm", -- [4]
+			{
+				0.129609375, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
 		["last_version"] = 8,
 		[178403530] = {
 			"Konzphiel", -- [1]
@@ -1144,30 +452,6 @@ _detalhes_database = {
 			{
 				0.087890625, -- [1]
 				0.916015625, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			2, -- [7]
-		},
-		["nextreset"] = 1498116291,
-		[54354113] = {
-			"Xenor", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Default", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-ArcaneStorm", -- [4]
-			{
-				0.129609375, -- [1]
-				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			}, -- [5]
@@ -1200,16 +484,16 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -419.469665527344,
-					["x"] = 555.940490722656,
+					["y"] = -417.423324584961,
+					["x"] = 541.614440917969,
 					["w"] = 276.749603271484,
 					["h"] = 161.113494873047,
 				},
 				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
+					["y"] = -347.977981567383,
+					["x"] = 528.014831542969,
+					["w"] = 300.000122070313,
+					["h"] = 300,
 				},
 			},
 		}, -- [1]
@@ -1233,8 +517,8 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -419.469665527344,
-					["x"] = 830.779113769531,
+					["y"] = -417.423324584961,
+					["x"] = 816.452453613281,
 					["w"] = 272.926727294922,
 					["h"] = 161.113494873047,
 				},
@@ -1247,7 +531,7 @@ _detalhes_database = {
 			},
 		}, -- [2]
 	},
-	["last_encounter"] = "Gul'dan",
+	["last_instance_time"] = 1498336506,
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {
@@ -1259,9 +543,8 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_instance_id"] = 1516,
+	["last_instance_id"] = 1651,
 	["cached_specs"] = {
 		["Player-5-0A1AA184"] = 264,
-		["Player-5-0A7AA98B"] = 263,
 	},
 }

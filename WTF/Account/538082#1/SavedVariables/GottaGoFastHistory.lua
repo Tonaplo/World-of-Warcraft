@@ -2,10 +2,10 @@
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
@@ -22,6 +22,15 @@ GottaGoFastHistoryDB = {
 		["Default"] = {
 			["History"] = {
 				[1677] = {
+					["objectives"] = {
+						"Agronox", -- [1]
+						"Thrashbite", -- [2]
+						"Domatrax", -- [3]
+						"Mephistroth", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1677,
+					["name"] = "Cathedral of Eternal Night",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -46,8 +55,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 17,
 								["month"] = 5,
 								["hours"] = 23,
-								["mins"] = 54,
 								["year"] = 2017,
+								["mins"] = 54,
+							},
+							["startTime"] = 13492.732,
+							["level"] = 13,
+							["objectiveTimes"] = {
+								"11:14.997", -- [1]
+								"24:02.184", -- [2]
+								"35:09.486", -- [3]
+								"37:50.491", -- [4]
+								"35:38.921", -- [5]
 							},
 							["players"] = {
 								{
@@ -76,15 +94,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"11:14.997", -- [1]
-								"24:02.184", -- [2]
-								"35:09.486", -- [3]
-								"37:50.491", -- [4]
-								"35:38.921", -- [5]
-							},
-							["startTime"] = 13492.732,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -97,8 +106,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 9,
 								["month"] = 6,
 								["hours"] = 23,
-								["mins"] = 14,
 								["year"] = 2017,
+								["mins"] = 14,
+							},
+							["startTime"] = 2533.15,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"06:24.926", -- [1]
+								"11:37.375", -- [2]
+								"16:37.199", -- [3]
+								"18:57.389", -- [4]
+								"16:56.938", -- [5]
 							},
 							["players"] = {
 								{
@@ -127,28 +145,19 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"06:24.926", -- [1]
-								"11:37.375", -- [2]
-								"16:37.199", -- [3]
-								"18:57.389", -- [4]
-								"16:56.938", -- [5]
-							},
-							["startTime"] = 2533.15,
 						}, -- [2]
-					},
-					["name"] = "Cathedral of Eternal Night",
-					["zoneID"] = 1677,
-					["objectives"] = {
-						"Agronox", -- [1]
-						"Thrashbite", -- [2]
-						"Domatrax", -- [3]
-						"Mephistroth", -- [4]
-						"Enemy Forces", -- [5]
 					},
 				},
 				[1501] = {
+					["objectives"] = {
+						"Amalgam of Souls", -- [1]
+						"Illysanna Ravencrest", -- [2]
+						"Smashspite the Hateful", -- [3]
+						"Lord Kur'talos Ravencrest", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1501,
+					["name"] = "Black Rook Hold",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -173,8 +182,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 30,
 								["month"] = 4,
 								["hours"] = 14,
-								["mins"] = 23,
 								["year"] = 2017,
+								["mins"] = 23,
+							},
+							["startTime"] = 10963.762,
+							["level"] = 12,
+							["objectiveTimes"] = {
+								"02:13.571", -- [1]
+								"10:50.927", -- [2]
+								"18:22.987", -- [3]
+								"22:43.152", -- [4]
+								"20:15.676", -- [5]
 							},
 							["players"] = {
 								{
@@ -203,15 +221,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 12,
-							["objectiveTimes"] = {
-								"02:13.571", -- [1]
-								"10:50.927", -- [2]
-								"18:22.987", -- [3]
-								"22:43.152", -- [4]
-								"20:15.676", -- [5]
-							},
-							["startTime"] = 10963.762,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -236,8 +245,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 30,
 								["month"] = 4,
 								["hours"] = 15,
-								["mins"] = 3,
 								["year"] = 2017,
+								["mins"] = 3,
+							},
+							["startTime"] = 12694.76,
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"05:35.038", -- [1]
+								"15:39.886", -- [2]
+								"29:04.169", -- [3]
+								"35:40.450", -- [4]
+								"32:04.754", -- [5]
 							},
 							["players"] = {
 								{
@@ -266,15 +284,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"05:35.038", -- [1]
-								"15:39.886", -- [2]
-								"29:04.169", -- [3]
-								"35:40.450", -- [4]
-								"32:04.754", -- [5]
-							},
-							["startTime"] = 12694.76,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -299,8 +308,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 2,
 								["month"] = 5,
 								["hours"] = 21,
-								["mins"] = 18,
 								["year"] = 2017,
+								["mins"] = 18,
+							},
+							["startTime"] = 5579.52,
+							["level"] = 11,
+							["objectiveTimes"] = {
+								"01:52.826", -- [1]
+								"10:01.117", -- [2]
+								"18:50.151", -- [3]
+								"24:10.434", -- [4]
+								"22:39.823", -- [5]
 							},
 							["players"] = {
 								{
@@ -329,15 +347,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"01:52.826", -- [1]
-								"10:01.117", -- [2]
-								"18:50.151", -- [3]
-								"24:10.434", -- [4]
-								"22:39.823", -- [5]
-							},
-							["startTime"] = 5579.52,
 						}, -- [3]
 						{
 							["corrupt"] = false,
@@ -362,8 +371,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 11,
 								["month"] = 5,
 								["hours"] = 22,
-								["mins"] = 47,
 								["year"] = 2017,
+								["mins"] = 47,
+							},
+							["startTime"] = 11277.41,
+							["level"] = 17,
+							["objectiveTimes"] = {
+								"03:56.795", -- [1]
+								"25:06.999", -- [2]
+								"35:16.379", -- [3]
+								"42:10.810", -- [4]
+								"38:34.819", -- [5]
 							},
 							["players"] = {
 								{
@@ -392,15 +410,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 17,
-							["objectiveTimes"] = {
-								"03:56.795", -- [1]
-								"25:06.999", -- [2]
-								"35:16.379", -- [3]
-								"42:10.810", -- [4]
-								"38:34.819", -- [5]
-							},
-							["startTime"] = 11277.41,
 						}, -- [4]
 						{
 							["corrupt"] = false,
@@ -425,8 +434,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 13,
 								["month"] = 5,
 								["hours"] = 21,
-								["mins"] = 26,
 								["year"] = 2017,
+								["mins"] = 26,
+							},
+							["level"] = 11,
+							["startTime"] = 39529.861,
+							["objectiveTimes"] = {
+								"02:59.072", -- [1]
+								"10:33.728", -- [2]
+								"19:18.422", -- [3]
+								"23:43.247", -- [4]
+								"21:17.453", -- [5]
 							},
 							["players"] = {
 								{
@@ -455,15 +473,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 39529.861,
-							["objectiveTimes"] = {
-								"02:59.072", -- [1]
-								"10:33.728", -- [2]
-								"19:18.422", -- [3]
-								"23:43.247", -- [4]
-								"21:17.453", -- [5]
-							},
-							["level"] = 11,
 						}, -- [5]
 						{
 							["corrupt"] = false,
@@ -476,8 +485,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 20,
 								["month"] = 5,
 								["hours"] = 17,
-								["mins"] = 4,
 								["year"] = 2017,
+								["mins"] = 4,
+							},
+							["startTime"] = 1282.314,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"02:39.748", -- [1]
+								"07:40.971", -- [2]
+								"11:27.304", -- [3]
+								"14:13.817", -- [4]
+								"12:31.451", -- [5]
 							},
 							["players"] = {
 								{
@@ -506,15 +524,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"02:39.748", -- [1]
-								"07:40.971", -- [2]
-								"11:27.304", -- [3]
-								"14:13.817", -- [4]
-								"12:31.451", -- [5]
-							},
-							["startTime"] = 1282.314,
 						}, -- [6]
 						{
 							["corrupt"] = false,
@@ -535,8 +544,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 28,
 								["month"] = 5,
 								["hours"] = 11,
-								["mins"] = 59,
 								["year"] = 2017,
+								["mins"] = 59,
+							},
+							["startTime"] = 2089.354,
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"04:16.102", -- [1]
+								"10:33.934", -- [2]
+								"20:30.196", -- [3]
+								"24:30.231", -- [4]
+								"22:32.523", -- [5]
 							},
 							["players"] = {
 								{
@@ -565,15 +583,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 7,
-							["objectiveTimes"] = {
-								"04:16.102", -- [1]
-								"10:33.934", -- [2]
-								"20:30.196", -- [3]
-								"24:30.231", -- [4]
-								"22:32.523", -- [5]
-							},
-							["startTime"] = 2089.354,
 						}, -- [7]
 						{
 							["corrupt"] = false,
@@ -598,8 +607,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 29,
 								["month"] = 5,
 								["hours"] = 1,
-								["mins"] = 34,
 								["year"] = 2017,
+								["mins"] = 34,
+							},
+							["startTime"] = 29940.675,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"02:04.374", -- [1]
+								"10:37.361", -- [2]
+								"19:11.315", -- [3]
+								"23:15.891", -- [4]
+								"21:01.229", -- [5]
 							},
 							["players"] = {
 								{
@@ -628,15 +646,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"02:04.374", -- [1]
-								"10:37.361", -- [2]
-								"19:11.315", -- [3]
-								"23:15.891", -- [4]
-								"21:01.229", -- [5]
-							},
-							["startTime"] = 29940.675,
 						}, -- [8]
 						{
 							["corrupt"] = false,
@@ -661,17 +670,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 29,
 								["month"] = 5,
 								["hours"] = 23,
-								["year"] = 2017,
 								["mins"] = 13,
-							},
-							["startTime"] = 42373.241,
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"05:41.294", -- [1]
-								"19:23.417", -- [2]
-								"28:34.475", -- [3]
-								"37:01.102", -- [4]
-								"31:54.934", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -700,6 +700,15 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["startTime"] = 42373.241,
+							["objectiveTimes"] = {
+								"05:41.294", -- [1]
+								"19:23.417", -- [2]
+								"28:34.475", -- [3]
+								"37:01.102", -- [4]
+								"31:54.934", -- [5]
+							},
+							["level"] = 13,
 						}, -- [9]
 						{
 							["corrupt"] = false,
@@ -716,8 +725,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 8,
 								["month"] = 6,
 								["hours"] = 23,
-								["mins"] = 56,
 								["year"] = 2017,
+								["mins"] = 56,
+							},
+							["level"] = 5,
+							["startTime"] = 19546.038,
+							["objectiveTimes"] = {
+								"04:48.894", -- [1]
+								"14:34.351", -- [2]
+								"23:34.561", -- [3]
+								"28:21.748", -- [4]
+								"26:00.488", -- [5]
 							},
 							["players"] = {
 								{
@@ -746,1894 +764,20 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 19546.038,
-							["objectiveTimes"] = {
-								"04:48.894", -- [1]
-								"14:34.351", -- [2]
-								"23:34.561", -- [3]
-								"28:21.748", -- [4]
-								"26:00.488", -- [5]
-							},
-							["level"] = 5,
 						}, -- [10]
-					},
-					["name"] = "Black Rook Hold",
-					["zoneID"] = 1501,
-					["objectives"] = {
-						"Amalgam of Souls", -- [1]
-						"Illysanna Ravencrest", -- [2]
-						"Smashspite the Hateful", -- [3]
-						"Lord Kur'talos Ravencrest", -- [4]
-						"Enemy Forces", -- [5]
-					},
-				},
-				[1477] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 7,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 17555.643,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 5,
-								["hours"] = 0,
-								["mins"] = 27,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Monk",
-									["name"] = "Coaxed",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Monk",
-									["name"] = "Ileiaris",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Blakeyboy",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Eärendìl",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 14,
-							["objectiveTimes"] = {
-								"02:48.602", -- [1]
-								"10:13.223", -- [2]
-								"17:54.243", -- [3]
-								"24:57.725", -- [4]
-								"26:55.498", -- [5]
-								"24:57.725", -- [6]
-							},
-							["startTime"] = 15974.685,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 35,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Volcanic",
-									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
-								},
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 21412.529,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 6,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 23,
-							},
-							["startTime"] = 18536.457,
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"07:36.238", -- [1]
-								"20:32.388", -- [2]
-								"30:26.856", -- [3]
-								"47:17.359", -- [4]
-								"50:50.622", -- [5]
-								"47:17.359", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Acekicker",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Galavantt",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hunter",
-									["name"] = "Daoxu",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [2]
-					},
-					["name"] = "Halls of Valor",
-					["zoneID"] = 1477,
-					["objectives"] = {
-						"Hymdall", -- [1]
-						"Hyrja", -- [2]
-						"Fenryr", -- [3]
-						"God-King Skovald", -- [4]
-						"Odyn", -- [5]
-						"Enemy Forces", -- [6]
-					},
-				},
-				[1466] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 5925.754,
-							["timeStamp"] = {
-								["day"] = 9,
-								["month"] = 5,
-								["hours"] = 20,
-								["mins"] = 32,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Quèenofdmg (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Hôtâru (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Altena (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Monk",
-									["name"] = "Yasot (*)",
-									["role"] = "HEALER",
-								}, -- [4]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Greybone",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["startTime"] = 5127.132,
-							["objectiveTimes"] = {
-								"03:31.497", -- [1]
-								"07:30.772", -- [2]
-								"10:23.923", -- [3]
-								"13:18.225", -- [4]
-								"12:22.916", -- [5]
-							},
-							["level"] = 2,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 6,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[4] = {
-									["name"] = "Necrotic",
-									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 8478.982,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 5,
-								["hours"] = 21,
-								["mins"] = 21,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Mage",
-									["name"] = "Kaligon",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warlock",
-									["name"] = "Arkator",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mage",
-									["name"] = "Slimane",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"04:21.410", -- [1]
-								"09:26.032", -- [2]
-								"13:19.546", -- [3]
-								"16:54.041", -- [4]
-								"15:00.636", -- [5]
-							},
-							["startTime"] = 7494.462,
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 10,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 13033.34,
-							["timeStamp"] = {
-								["day"] = 17,
-								["month"] = 5,
-								["hours"] = 23,
-								["mins"] = 11,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Monk",
-									["name"] = "Coaxed",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Monk",
-									["name"] = "Ileiaris",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Blakeyboy",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Eärendìl",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"04:33.077", -- [1]
-								"08:36.910", -- [2]
-								"13:55.178", -- [3]
-								"17:26.098", -- [4]
-								"16:31.213", -- [5]
-							},
-							["startTime"] = 12036.767,
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 11065.788,
-							["timeStamp"] = {
-								["day"] = 1,
-								["month"] = 6,
-								["hours"] = 21,
-								["mins"] = 41,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Asterdust (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Etude (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hunter",
-									["name"] = "Arylynn (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Rogue",
-									["name"] = "Steamedclamz (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Amranar",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"03:36.858", -- [1]
-								"07:35.789", -- [2]
-								"10:25.871", -- [3]
-								"13:24.255", -- [4]
-								"12:13.440", -- [5]
-							},
-							["startTime"] = 10261.01,
-						}, -- [4]
-					},
-					["name"] = "Darkheart Thicket",
-					["zoneID"] = 1466,
-					["objectives"] = {
-						"Archdruid Glaidalis", -- [1]
-						"Oakheart", -- [2]
-						"Dresaron", -- [3]
-						"Shade of Xavius", -- [4]
-						"Enemy Forces", -- [5]
-					},
-				},
-				[1458] = {
-					["objectives"] = {
-						"Rokmora", -- [1]
-						"Ularogg Cragshaper", -- [2]
-						"Naraxas", -- [3]
-						"Dargrul", -- [4]
-						"Enemy Forces", -- [5]
-					},
-					["zoneID"] = 1458,
-					["name"] = "Neltharion's Lair",
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 2,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Sanguine",
-									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 28949.571,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 6,
-								["hours"] = 1,
-								["year"] = 2017,
-								["mins"] = 37,
-							},
-							["level"] = 5,
-							["startTime"] = 27794.283,
-							["objectiveTimes"] = {
-								"03:53.616", -- [1]
-								"10:35.990", -- [2]
-								"14:45.843", -- [3]
-								"19:24.864", -- [4]
-								"17:39.808", -- [5]
-							},
-							["players"] = {
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Pharmercy (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druid",
-									["name"] = "Solarfire (*)",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Sansbrain (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mage",
-									["name"] = "Tenmah (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Greybone",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 6,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Volcanic",
-									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
-								},
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 13403.044,
-							["timeStamp"] = {
-								["day"] = 21,
-								["month"] = 6,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 23,
-							},
-							["startTime"] = 12153.894,
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"03:25.032", -- [1]
-								"09:39.385", -- [2]
-								"13:37.211", -- [3]
-								"21:18.741", -- [4]
-								"15:09.302", -- [5]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Slicedlol",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Zaelsynth",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Acekicker",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Volcanic",
-									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
-								},
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 18665.53,
-							["timeStamp"] = {
-								["day"] = 21,
-								["month"] = 6,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 50,
-							},
-							["startTime"] = 17545.801,
-							["level"] = 11,
-							["objectiveTimes"] = {
-								"03:08.199", -- [1]
-								"10:23.066", -- [2]
-								"14:19.751", -- [3]
-								"19:04.222", -- [4]
-								"16:05.285", -- [5]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Slicedlol",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Zaelsynth",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Galavantt",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [3]
-					},
-				},
-				[1492] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 28,
-							["affixes"] = {
-								[14] = {
-									["name"] = "Quaking",
-									["desc"] = "Periodically, all players emit a shockwave, inflicting damage and interrupting nearby allies.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 8907.722,
-							["timeStamp"] = {
-								["day"] = 2,
-								["month"] = 5,
-								["hours"] = 21,
-								["mins"] = 51,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kaedwyn",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Mage",
-									["name"] = "Kaligon",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Eärendìl",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"03:02.506", -- [1]
-								"08:35.812", -- [2]
-								"23:15.617", -- [3]
-								"17:29.652", -- [4]
-							},
-							["startTime"] = 7651.484,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 14544.233,
-							["timeStamp"] = {
-								["day"] = 26,
-								["month"] = 5,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 32,
-							},
-							["level"] = 6,
-							["startTime"] = 13840.505,
-							["objectiveTimes"] = {
-								"01:43.910", -- [1]
-								"05:36.566", -- [2]
-								"11:43.290", -- [3]
-								"08:57.310", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Rogue",
-									["name"] = "Jogebai (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Miffle (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Shaman",
-									["name"] = "Shamalomin (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Hastiliarius (*)",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 11,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
-								[4] = {
-									["name"] = "Necrotic",
-									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 5249.73,
-							["timeStamp"] = {
-								["day"] = 28,
-								["month"] = 5,
-								["hours"] = 12,
-								["mins"] = 29,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Death Knight",
-									["name"] = "Mylilgnomey (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Wolfsneakers (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Shaman",
-									["name"] = "Shockpow (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Monk",
-									["name"] = "Oppaii (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"03:50.682", -- [1]
-								"08:34.773", -- [2]
-								"17:31.136", -- [3]
-								"13:48.750", -- [4]
-							},
-							["startTime"] = 4253.321,
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 5,
-							["affixes"] = {
-								[8] = {
-									["name"] = "Sanguine",
-									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-								[12] = {
-									["name"] = "Grievous",
-									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 5388.539,
-							["timeStamp"] = {
-								["day"] = 3,
-								["month"] = 6,
-								["hours"] = 11,
-								["mins"] = 34,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Death Knight",
-									["name"] = "Zukiyakeyo (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Warlock",
-									["name"] = "Sulhyun (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hunter",
-									["name"] = "Sankun (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Rogue",
-									["name"] = "Halforeo (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"03:15.302", -- [1]
-								"09:31.612", -- [2]
-								"17:07.297", -- [3]
-								"13:32.557", -- [4]
-							},
-							["startTime"] = 4385.789,
-						}, -- [4]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 27432.288,
-							["timeStamp"] = {
-								["day"] = 4,
-								["month"] = 6,
-								["hours"] = 1,
-								["year"] = 2017,
-								["mins"] = 11,
-							},
-							["level"] = 2,
-							["startTime"] = 26837.297,
-							["objectiveTimes"] = {
-								"02:00.197", -- [1]
-								"05:10.206", -- [2]
-								"09:54.475", -- [3]
-								"07:33.282", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Pharmercy (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Druid",
-									["name"] = "Solarfire (*)",
-									["role"] = "HEALER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Sansbrain (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mage",
-									["name"] = "Tenmah (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Greybone",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [5]
-						{
-							["corrupt"] = false,
-							["deaths"] = 2,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 52587.388,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 6,
-								["hours"] = 23,
-								["mins"] = 43,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Hunter",
-									["name"] = "Lethalstormz (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Autrumn (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warlock",
-									["name"] = "Cutiewitch (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hunter",
-									["name"] = "Takefive (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Warrior",
-									["name"] = "Praerend",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["startTime"] = 52155.305,
-							["objectiveTimes"] = {
-								"01:02.989", -- [1]
-								"03:40.418", -- [2]
-								"07:21.680", -- [3]
-								"05:27.843", -- [4]
-							},
-							["level"] = 2,
-						}, -- [6]
-					},
-					["name"] = "Maw of Souls",
-					["zoneID"] = 1492,
-					["objectives"] = {
-						"Ymiron, the Fallen King", -- [1]
-						"Harbaron", -- [2]
-						"Helya", -- [3]
-						"Enemy Forces", -- [4]
-					},
-				},
-				[1571] = {
-					["objectives"] = {
-						"Patrol Captain Gerdo", -- [1]
-						"Talixae Flamewreath", -- [2]
-						"Advisor Melandrus", -- [3]
-						"Enemy Forces", -- [4]
-					},
-					["zoneID"] = 1571,
-					["name"] = "Court of Stars",
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 18565.992,
-							["timeStamp"] = {
-								["day"] = 6,
-								["month"] = 5,
-								["hours"] = 17,
-								["year"] = 2017,
-								["mins"] = 58,
-							},
-							["startTime"] = 17315.105,
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"06:51.013", -- [1]
-								"16:28.623", -- [2]
-								"21:10.514", -- [3]
-								"16:28.623", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Hunter",
-									["name"] = "Falquion (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Noterus (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druid",
-									["name"] = "Fleya (*)",
-									["role"] = "HEALER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Ramzi (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Greybone",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 8,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[4] = {
-									["name"] = "Necrotic",
-									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 15392.472,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 5,
-								["hours"] = 23,
-								["mins"] = 16,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Mage",
-									["name"] = "Kaligon",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warlock",
-									["name"] = "Arkator",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kaedwyn",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"07:19.652", -- [1]
-								"14:41.661", -- [2]
-								"18:48.674", -- [3]
-								"14:41.661", -- [4]
-							},
-							["startTime"] = 14303.36,
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 18,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 19570.117,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 5,
-								["hours"] = 1,
-								["mins"] = 0,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Monk",
-									["name"] = "Coaxed",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kaedwyn",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Blakeyboy",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Eärendìl",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 17,
-							["objectiveTimes"] = {
-								"07:47.969", -- [1]
-								"22:37.766", -- [2]
-								"28:37.920", -- [3]
-								"22:37.766", -- [4]
-							},
-							["startTime"] = 17941.654,
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-								[5] = {
-									["name"] = "Teeming",
-									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
-								},
-								[4] = {
-									["name"] = "Necrotic",
-									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 21327.287,
-							["timeStamp"] = {
-								["day"] = 28,
-								["month"] = 5,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 48,
-							},
-							["startTime"] = 20177.772,
-							["level"] = 12,
-							["objectiveTimes"] = {
-								"05:30.883", -- [1]
-								"14:13.884", -- [2]
-								"19:13.957", -- [3]
-								"14:13.884", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Druid",
-									["name"] = "Shiftháppeñs (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Shaman",
-									["name"] = "Cousinavi (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Ryses (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Ssquirtle (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [4]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-								[13] = {
-									["name"] = "Explosive",
-									["desc"] = "While in combat, enemies periodically summon Explosive Orbs that will detonate if not destroyed.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 19332.143,
-							["timeStamp"] = {
-								["day"] = 12,
-								["month"] = 6,
-								["hours"] = 23,
-								["year"] = 2017,
-								["mins"] = 26,
-							},
-							["level"] = 8,
-							["startTime"] = 18285.268,
-							["objectiveTimes"] = {
-								"06:06.754", -- [1]
-								"14:02.929", -- [2]
-								"17:26.206", -- [3]
-								"14:02.929", -- [4]
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Bosk (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warlock",
-									["name"] = "Fjorlock (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warrior",
-									["name"] = "Cuisinarts (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Uthren",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Shaman",
-									["name"] = "Farahn",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [5]
-					},
-				},
-				[1456] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 25,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[4] = {
-									["name"] = "Necrotic",
-									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 10687.545,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 5,
-								["hours"] = 21,
-								["mins"] = 58,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Mage",
-									["name"] = "Kaligon",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warlock",
-									["name"] = "Arkator",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mage",
-									["name"] = "Slimane",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 16,
-							["objectiveTimes"] = {
-								"04:29.105", -- [1]
-								"10:18.058", -- [2]
-								"24:11.977", -- [3]
-								"16:11.778", -- [4]
-								"31:59.522", -- [5]
-								"26:53.704", -- [6]
-							},
-							["startTime"] = 8892.435,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 6888.015,
-							["timeStamp"] = {
-								["day"] = 10,
-								["month"] = 6,
-								["hours"] = 0,
-								["mins"] = 7,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Death Knight",
-									["name"] = "Swordofdeath (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Tsunamibomb (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warrior",
-									["name"] = "Sekklow (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Warrior",
-									["name"] = "Theregorn (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Shaman",
-									["name"] = "Farahn",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"02:01.141", -- [1]
-								"04:34.400", -- [2]
-								"11:00.982", -- [3]
-								"07:12.862", -- [4]
-								"13:13.294", -- [5]
-								"12:28.542", -- [6]
-							},
-							["startTime"] = 6099.11,
-						}, -- [2]
-					},
-					["name"] = "Eye of Azshara",
-					["zoneID"] = 1456,
-					["objectives"] = {
-						"Warlord Parjesh", -- [1]
-						"Lady Hatecoil", -- [2]
-						"King Deepbeard", -- [3]
-						"Serpentrix", -- [4]
-						"Wrath of Azshara", -- [5]
-						"Enemy Forces", -- [6]
-					},
-				},
-				[1651] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 14,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 7809.088,
-							["timeStamp"] = {
-								["day"] = 9,
-								["month"] = 5,
-								["hours"] = 21,
-								["mins"] = 4,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Monk",
-									["name"] = "Kotlin (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Drogues (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Syleria (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Monk",
-									["name"] = "Yasot (*)",
-									["role"] = "HEALER",
-								}, -- [4]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Greybone",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["startTime"] = 6573.118,
-							["objectiveTimes"] = {
-								"05:34.641", -- [1]
-								"11:29.219", -- [2]
-								"08:37.056", -- [3]
-								"21:45.529", -- [4]
-								"15:05.625", -- [5]
-							},
-							["level"] = 5,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 21,
-							["affixes"] = {
-								[13] = {
-									["name"] = "Explosive",
-									["desc"] = "While in combat, enemies periodically summon Explosive Orbs that will detonate if not destroyed.",
-								},
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 9048.706,
-							["timeStamp"] = {
-								["day"] = 11,
-								["month"] = 6,
-								["hours"] = 11,
-								["mins"] = 38,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Death Knight",
-									["name"] = "Djínní (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Demon Hunter",
-									["name"] = "Rahsputin (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Hunter",
-									["name"] = "Quiky (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Rogue",
-									["name"] = "Wolverininja (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["startTime"] = 6025.154,
-							["objectiveTimes"] = {
-								"11:33.220", -- [1]
-								"31:43.243", -- [2]
-								"52:08.115", -- [3]
-								"40:22.822", -- [4]
-								"48:51.947", -- [5]
-							},
-							["level"] = 11,
-						}, -- [2]
-					},
-					["name"] = "Return to Karazhan: Upper",
-					["zoneID"] = 1651,
-					["objectives"] = {
-						"The Curator", -- [1]
-						"Mana Devourer defeated", -- [2]
-						"Shade of Medivh defeated", -- [3]
-						"Viz'aduum the Watcher defeated", -- [4]
-						"Enemy Forces", -- [5]
-					},
-				},
-				[1493] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-								[11] = {
-									["name"] = "Bursting",
-									["desc"] = "When slain, non-boss enemies explode, causing all players to suffer 10% of their max health in damage over 4 sec. This effect stacks.",
-								},
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 9787.892,
-							["timeStamp"] = {
-								["day"] = 30,
-								["month"] = 4,
-								["hours"] = 13,
-								["mins"] = 41,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Priest",
-									["name"] = "Cazioh (*)",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Hunter",
-									["name"] = "Glockcoma (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warrior",
-									["name"] = "Omaigodx (*)",
-									["role"] = "TANK",
-								}, -- [3]
-								{
-									["class"] = "Mage",
-									["name"] = "Xsirgodobalx (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"05:48.099", -- [1]
-								"09:53.779", -- [2]
-								"15:01.624", -- [3]
-								"12:44.634", -- [4]
-								"22:00.609", -- [5]
-								"19:07.143", -- [6]
-							},
-							["startTime"] = 8471.782,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 4,
-							["affixes"] = {
-								[2] = {
-									["name"] = "Skittish",
-									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
-								},
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-								[10] = {
-									["name"] = "Fortified",
-									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 15809.95,
-							["timeStamp"] = {
-								["day"] = 20,
-								["month"] = 5,
-								["hours"] = 20,
-								["year"] = 2017,
-								["mins"] = 52,
-							},
-							["level"] = 14,
-							["startTime"] = 14607.043,
-							["objectiveTimes"] = {
-								"05:48.997", -- [1]
-								"09:25.325", -- [2]
-								"11:47.648", -- [3]
-								"13:39.445", -- [4]
-								"20:22.348", -- [5]
-								"17:56.184", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Monk",
-									["name"] = "Ileiaris",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Warlock",
-									["name"] = "Arkator",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Paladin",
-									["name"] = "Acekicker",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Zaelsynth",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [2]
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 8095.934,
-							["timeStamp"] = {
-								["day"] = 21,
-								["month"] = 5,
-								["hours"] = 23,
-								["mins"] = 33,
-								["year"] = 2017,
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Shayelyn",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warlock",
-									["name"] = "Suïte (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Priest",
-									["name"] = "Defrokked (*)",
-									["role"] = "HEALER",
-								}, -- [3]
-								{
-									["class"] = "Warlock",
-									["name"] = "Ahazu",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Greybone",
-									["role"] = "TANK",
-								}, -- [5]
-							},
-							["level"] = 3,
-							["objectiveTimes"] = {
-								"03:25.607", -- [1]
-								"06:34.176", -- [2]
-								"08:18.196", -- [3]
-								"10:09.357", -- [4]
-								"16:53.742", -- [5]
-								"14:32.844", -- [6]
-							},
-							["startTime"] = 7081.749,
-						}, -- [3]
-						{
-							["corrupt"] = false,
-							["deaths"] = 1,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 3268.84,
-							["timeStamp"] = {
-								["day"] = 8,
-								["month"] = 6,
-								["hours"] = 18,
-								["year"] = 2017,
-								["mins"] = 56,
-							},
-							["level"] = 4,
-							["startTime"] = 2107.307,
-							["objectiveTimes"] = {
-								"05:49.421", -- [1]
-								"08:57.928", -- [2]
-								"13:07.722", -- [3]
-								"11:25.369", -- [4]
-								"19:26.044", -- [5]
-								"17:01.766", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Monk",
-									["name"] = "Linyi (*)",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Mage",
-									["name"] = "Xaraastriel (*)",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warrior",
-									["name"] = "Fuboo (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Mage",
-									["name"] = "Sófocus (*)",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Shaman",
-									["name"] = "Farahn",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [4]
-						{
-							["corrupt"] = false,
-							["deaths"] = 8,
-							["affixes"] = {
-								[3] = {
-									["name"] = "Volcanic",
-									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
-								},
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[9] = {
-									["name"] = "Tyrannical",
-									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 15117.138,
-							["timeStamp"] = {
-								["day"] = 21,
-								["month"] = 6,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 51,
-							},
-							["startTime"] = 13694.871,
-							["level"] = 13,
-							["objectiveTimes"] = {
-								"04:40.026", -- [1]
-								"12:01.587", -- [2]
-								"15:11.215", -- [3]
-								"18:06.499", -- [4]
-								"24:21.863", -- [5]
-								"21:14.308", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Rogue",
-									["name"] = "Slicedlol",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Zaelsynth",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Paladin",
-									["name"] = "Acekicker",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [5]
-						{
-							["corrupt"] = false,
-							["deaths"] = 15,
-							["affixes"] = {
-								[6] = {
-									["name"] = "Raging",
-									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
-								},
-								[3] = {
-									["name"] = "Volcanic",
-									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 17880.501,
-							["timeStamp"] = {
-								["day"] = 22,
-								["month"] = 6,
-								["hours"] = 22,
-								["year"] = 2017,
-								["mins"] = 24,
-							},
-							["startTime"] = 16823.507,
-							["level"] = 8,
-							["objectiveTimes"] = {
-								"02:38.254", -- [1]
-								"05:21.134", -- [2]
-								"06:47.630", -- [3]
-								"08:44.036", -- [4]
-								"18:51.417", -- [5]
-								"11:40.474", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Paladin",
-									["name"] = "Kalithumos",
-									["role"] = "TANK",
-								}, -- [1]
-								{
-									["class"] = "Paladin",
-									["name"] = "Acekicker",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Warrior",
-									["name"] = "Búî",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Hunter",
-									["name"] = "Daoxu",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Priest",
-									["name"] = "Mallusof",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [6]
-					},
-					["name"] = "Vault of the Wardens",
-					["zoneID"] = 1493,
-					["objectives"] = {
-						"Tirathon Saltheril", -- [1]
-						"Inquisitor Tormentorum", -- [2]
-						"Ash'golm", -- [3]
-						"Glazer", -- [4]
-						"Cordana Felsong", -- [5]
-						"Enemy Forces", -- [6]
 					},
 				},
 				[1516] = {
+					["objectives"] = {
+						"Ivanyr", -- [1]
+						"Corstilax", -- [2]
+						"General Xakal", -- [3]
+						"Nal'tira", -- [4]
+						"Advisor Vandros", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1516,
+					["name"] = "The Arcway",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -2658,8 +802,18 @@ GottaGoFastHistoryDB = {
 								["day"] = 11,
 								["month"] = 5,
 								["hours"] = 23,
-								["mins"] = 48,
 								["year"] = 2017,
+								["mins"] = 48,
+							},
+							["startTime"] = 15691.333,
+							["level"] = 15,
+							["objectiveTimes"] = {
+								"23:11.871", -- [1]
+								"17:53.280", -- [2]
+								"06:18.313", -- [3]
+								"12:34.405", -- [4]
+								"28:10.484", -- [5]
+								"25:25.913", -- [6]
 							},
 							["players"] = {
 								{
@@ -2688,16 +842,6 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 15,
-							["objectiveTimes"] = {
-								"23:11.871", -- [1]
-								"17:53.280", -- [2]
-								"06:18.313", -- [3]
-								"12:34.405", -- [4]
-								"28:10.484", -- [5]
-								"25:25.913", -- [6]
-							},
-							["startTime"] = 15691.333,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -2722,18 +866,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 20,
 								["month"] = 5,
 								["hours"] = 21,
-								["year"] = 2017,
 								["mins"] = 33,
-							},
-							["level"] = 16,
-							["startTime"] = 16294.016,
-							["objectiveTimes"] = {
-								"09:46.455", -- [1]
-								"14:07.509", -- [2]
-								"30:55.575", -- [3]
-								"20:07.993", -- [4]
-								"34:46.409", -- [5]
-								"30:55.575", -- [6]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -2762,6 +896,16 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"09:46.455", -- [1]
+								"14:07.509", -- [2]
+								"30:55.575", -- [3]
+								"20:07.993", -- [4]
+								"34:46.409", -- [5]
+								"30:55.575", -- [6]
+							},
+							["startTime"] = 16294.016,
 						}, -- [2]
 						{
 							["corrupt"] = true,
@@ -2786,18 +930,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 20,
 								["month"] = 5,
 								["hours"] = 22,
-								["year"] = 2017,
 								["mins"] = 17,
-							},
-							["level"] = 18,
-							["startTime"] = 18209.327,
-							["objectiveTimes"] = {
-								"39:40", -- [1]
-								"33:16", -- [2]
-								"19:45", -- [3]
-								"26:22", -- [4]
-								"44:50", -- [5]
-								"41:49", -- [6]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -2826,6 +960,16 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 18,
+							["objectiveTimes"] = {
+								"39:40", -- [1]
+								"33:16", -- [2]
+								"19:45", -- [3]
+								"26:22", -- [4]
+								"44:50", -- [5]
+								"41:49", -- [6]
+							},
+							["startTime"] = 18209.327,
 						}, -- [3]
 						{
 							["corrupt"] = false,
@@ -2838,18 +982,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 26,
 								["month"] = 5,
 								["hours"] = 22,
-								["year"] = 2017,
 								["mins"] = 14,
-							},
-							["level"] = 3,
-							["startTime"] = 12300.514,
-							["objectiveTimes"] = {
-								"14:16.316", -- [1]
-								"10:46.192", -- [2]
-								"04:50.276", -- [3]
-								"07:43.420", -- [4]
-								"17:24.157", -- [5]
-								"15:47.252", -- [6]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -2878,6 +1012,16 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
+							["level"] = 3,
+							["objectiveTimes"] = {
+								"14:16.316", -- [1]
+								"10:46.192", -- [2]
+								"04:50.276", -- [3]
+								"07:43.420", -- [4]
+								"17:24.157", -- [5]
+								"15:47.252", -- [6]
+							},
+							["startTime"] = 12300.514,
 						}, -- [4]
 						{
 							["corrupt"] = true,
@@ -2894,8 +1038,18 @@ GottaGoFastHistoryDB = {
 								["day"] = 17,
 								["month"] = 6,
 								["hours"] = 10,
-								["mins"] = 37,
 								["year"] = 2017,
+								["mins"] = 37,
+							},
+							["level"] = 5,
+							["startTime"] = 3335.698,
+							["objectiveTimes"] = {
+								"11:41", -- [1]
+								"15:07", -- [2]
+								"27:59", -- [3]
+								"20:59", -- [4]
+								"31:33", -- [5]
+								"29:07", -- [6]
 							},
 							["players"] = {
 								{
@@ -2924,27 +1078,1932 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 3335.698,
-							["objectiveTimes"] = {
-								"11:41", -- [1]
-								"15:07", -- [2]
-								"27:59", -- [3]
-								"20:59", -- [4]
-								"31:33", -- [5]
-								"29:07", -- [6]
-							},
-							["level"] = 5,
 						}, -- [5]
 					},
-					["name"] = "The Arcway",
-					["zoneID"] = 1516,
+				},
+				[1571] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 18565.992,
+							["timeStamp"] = {
+								["day"] = 6,
+								["month"] = 5,
+								["hours"] = 17,
+								["mins"] = 58,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Hunter",
+									["name"] = "Falquion (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Noterus (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Fleya (*)",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Ramzi (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["startTime"] = 17315.105,
+							["objectiveTimes"] = {
+								"06:51.013", -- [1]
+								"16:28.623", -- [2]
+								"21:10.514", -- [3]
+								"16:28.623", -- [4]
+							},
+							["level"] = 2,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 8,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[4] = {
+									["name"] = "Necrotic",
+									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 15392.472,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 5,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 16,
+							},
+							["startTime"] = 14303.36,
+							["level"] = 13,
+							["objectiveTimes"] = {
+								"07:19.652", -- [1]
+								"14:41.661", -- [2]
+								"18:48.674", -- [3]
+								"14:41.661", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Mage",
+									["name"] = "Kaligon",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warlock",
+									["name"] = "Arkator",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kaedwyn",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 18,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
+								},
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 19570.117,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 5,
+								["hours"] = 1,
+								["year"] = 2017,
+								["mins"] = 0,
+							},
+							["startTime"] = 17941.654,
+							["level"] = 17,
+							["objectiveTimes"] = {
+								"07:47.969", -- [1]
+								"22:37.766", -- [2]
+								"28:37.920", -- [3]
+								"22:37.766", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Coaxed",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kaedwyn",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Blakeyboy",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Eärendìl",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+								[4] = {
+									["name"] = "Necrotic",
+									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 21327.287,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 5,
+								["hours"] = 22,
+								["mins"] = 48,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Druid",
+									["name"] = "Shiftháppeñs (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Shaman",
+									["name"] = "Cousinavi (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Ryses (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Ssquirtle (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 20177.772,
+							["objectiveTimes"] = {
+								"05:30.883", -- [1]
+								"14:13.884", -- [2]
+								"19:13.957", -- [3]
+								"14:13.884", -- [4]
+							},
+							["level"] = 12,
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[13] = {
+									["name"] = "Explosive",
+									["desc"] = "While in combat, enemies periodically summon Explosive Orbs that will detonate if not destroyed.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 19332.143,
+							["timeStamp"] = {
+								["day"] = 12,
+								["month"] = 6,
+								["hours"] = 23,
+								["mins"] = 26,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Bosk (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Fjorlock (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Cuisinarts (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Uthren",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Shaman",
+									["name"] = "Farahn",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 8,
+							["objectiveTimes"] = {
+								"06:06.754", -- [1]
+								"14:02.929", -- [2]
+								"17:26.206", -- [3]
+								"14:02.929", -- [4]
+							},
+							["startTime"] = 18285.268,
+						}, -- [5]
+					},
+					["name"] = "Court of Stars",
+					["zoneID"] = 1571,
 					["objectives"] = {
-						"Ivanyr", -- [1]
-						"Corstilax", -- [2]
-						"General Xakal", -- [3]
-						"Nal'tira", -- [4]
-						"Advisor Vandros", -- [5]
+						"Patrol Captain Gerdo", -- [1]
+						"Talixae Flamewreath", -- [2]
+						"Advisor Melandrus", -- [3]
+						"Enemy Forces", -- [4]
+					},
+				},
+				[1458] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 28949.571,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 6,
+								["hours"] = 1,
+								["mins"] = 37,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Pharmercy (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druid",
+									["name"] = "Solarfire (*)",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Sansbrain (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Tenmah (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"03:53.616", -- [1]
+								"10:35.990", -- [2]
+								"14:45.843", -- [3]
+								"19:24.864", -- [4]
+								"17:39.808", -- [5]
+							},
+							["startTime"] = 27794.283,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 6,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 13403.044,
+							["timeStamp"] = {
+								["day"] = 21,
+								["month"] = 6,
+								["hours"] = 22,
+								["mins"] = 23,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Slicedlol",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zaelsynth",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 12153.894,
+							["objectiveTimes"] = {
+								"03:25.032", -- [1]
+								"09:39.385", -- [2]
+								"13:37.211", -- [3]
+								"21:18.741", -- [4]
+								"15:09.302", -- [5]
+							},
+							["level"] = 11,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 18665.53,
+							["timeStamp"] = {
+								["day"] = 21,
+								["month"] = 6,
+								["hours"] = 23,
+								["mins"] = 50,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Slicedlol",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zaelsynth",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Galavantt",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 17545.801,
+							["objectiveTimes"] = {
+								"03:08.199", -- [1]
+								"10:23.066", -- [2]
+								"14:19.751", -- [3]
+								"19:04.222", -- [4]
+								"16:05.285", -- [5]
+							},
+							["level"] = 11,
+						}, -- [3]
+					},
+					["name"] = "Neltharion's Lair",
+					["zoneID"] = 1458,
+					["objectives"] = {
+						"Rokmora", -- [1]
+						"Ularogg Cragshaper", -- [2]
+						"Naraxas", -- [3]
+						"Dargrul", -- [4]
+						"Enemy Forces", -- [5]
+					},
+				},
+				[1477] = {
+					["objectives"] = {
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
 						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1477,
+					["name"] = "Halls of Valor",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 7,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
+								},
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 17555.643,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 5,
+								["hours"] = 0,
+								["year"] = 2017,
+								["mins"] = 27,
+							},
+							["startTime"] = 15974.685,
+							["level"] = 14,
+							["objectiveTimes"] = {
+								"02:48.602", -- [1]
+								"10:13.223", -- [2]
+								"17:54.243", -- [3]
+								"24:57.725", -- [4]
+								"26:55.498", -- [5]
+								"24:57.725", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Coaxed",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Monk",
+									["name"] = "Ileiaris",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Blakeyboy",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Eärendìl",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 35,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 21412.529,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 6,
+								["hours"] = 23,
+								["mins"] = 23,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Galavantt",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Daoxu",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 18536.457,
+							["objectiveTimes"] = {
+								"07:36.238", -- [1]
+								"20:32.388", -- [2]
+								"30:26.856", -- [3]
+								"47:17.359", -- [4]
+								"50:50.622", -- [5]
+								"47:17.359", -- [6]
+							},
+							["level"] = 15,
+						}, -- [2]
+					},
+				},
+				[1466] = {
+					["objectives"] = {
+						"Archdruid Glaidalis", -- [1]
+						"Oakheart", -- [2]
+						"Dresaron", -- [3]
+						"Shade of Xavius", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1466,
+					["name"] = "Darkheart Thicket",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 5925.754,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 5,
+								["hours"] = 20,
+								["year"] = 2017,
+								["mins"] = 32,
+							},
+							["level"] = 2,
+							["startTime"] = 5127.132,
+							["objectiveTimes"] = {
+								"03:31.497", -- [1]
+								"07:30.772", -- [2]
+								"10:23.923", -- [3]
+								"13:18.225", -- [4]
+								"12:22.916", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Quèenofdmg (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Hôtâru (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Altena (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Monk",
+									["name"] = "Yasot (*)",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 6,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[4] = {
+									["name"] = "Necrotic",
+									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 8478.982,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 5,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 21,
+							},
+							["startTime"] = 7494.462,
+							["level"] = 13,
+							["objectiveTimes"] = {
+								"04:21.410", -- [1]
+								"09:26.032", -- [2]
+								"13:19.546", -- [3]
+								"16:54.041", -- [4]
+								"15:00.636", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Mage",
+									["name"] = "Kaligon",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warlock",
+									["name"] = "Arkator",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Slimane",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 10,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
+								},
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 13033.34,
+							["timeStamp"] = {
+								["day"] = 17,
+								["month"] = 5,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 11,
+							},
+							["startTime"] = 12036.767,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"04:33.077", -- [1]
+								"08:36.910", -- [2]
+								"13:55.178", -- [3]
+								"17:26.098", -- [4]
+								"16:31.213", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Coaxed",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Monk",
+									["name"] = "Ileiaris",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Blakeyboy",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Eärendìl",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 11065.788,
+							["timeStamp"] = {
+								["day"] = 1,
+								["month"] = 6,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 41,
+							},
+							["startTime"] = 10261.01,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"03:36.858", -- [1]
+								"07:35.789", -- [2]
+								"10:25.871", -- [3]
+								"13:24.255", -- [4]
+								"12:13.440", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Asterdust (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Etude (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Arylynn (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Rogue",
+									["name"] = "Steamedclamz (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druid",
+									["name"] = "Amranar",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [4]
+					},
+				},
+				[1651] = {
+					["objectives"] = {
+						"The Curator", -- [1]
+						"Mana Devourer defeated", -- [2]
+						"Shade of Medivh defeated", -- [3]
+						"Viz'aduum the Watcher defeated", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1651,
+					["name"] = "Return to Karazhan: Upper",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 14,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 7809.088,
+							["timeStamp"] = {
+								["day"] = 9,
+								["month"] = 5,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 4,
+							},
+							["level"] = 5,
+							["startTime"] = 6573.118,
+							["objectiveTimes"] = {
+								"05:34.641", -- [1]
+								"11:29.219", -- [2]
+								"08:37.056", -- [3]
+								"21:45.529", -- [4]
+								"15:05.625", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Kotlin (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Drogues (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Syleria (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Monk",
+									["name"] = "Yasot (*)",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 21,
+							["affixes"] = {
+								[13] = {
+									["name"] = "Explosive",
+									["desc"] = "While in combat, enemies periodically summon Explosive Orbs that will detonate if not destroyed.",
+								},
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 9048.706,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 6,
+								["hours"] = 11,
+								["year"] = 2017,
+								["mins"] = 38,
+							},
+							["level"] = 11,
+							["startTime"] = 6025.154,
+							["objectiveTimes"] = {
+								"11:33.220", -- [1]
+								"31:43.243", -- [2]
+								"52:08.115", -- [3]
+								"40:22.822", -- [4]
+								"48:51.947", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Djínní (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Rahsputin (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Quiky (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Rogue",
+									["name"] = "Wolverininja (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 23032.241,
+							["timeStamp"] = {
+								["day"] = 24,
+								["month"] = 6,
+								["hours"] = 14,
+								["mins"] = 1,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Unyinrings (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Drneferious (*)",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Mage",
+									["name"] = "Natsfire (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Camwarudie (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Shaman",
+									["name"] = "Farahn",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"04:56.393", -- [1]
+								"09:49.948", -- [2]
+								"13:10.728", -- [3]
+								"23:02.377", -- [4]
+								"18:57.338", -- [5]
+							},
+							["startTime"] = 21674.448,
+						}, -- [3]
+					},
+				},
+				[1456] = {
+					["objectives"] = {
+						"Warlord Parjesh", -- [1]
+						"Lady Hatecoil", -- [2]
+						"King Deepbeard", -- [3]
+						"Serpentrix", -- [4]
+						"Wrath of Azshara", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1456,
+					["name"] = "Eye of Azshara",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 25,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[4] = {
+									["name"] = "Necrotic",
+									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 10687.545,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 5,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 58,
+							},
+							["startTime"] = 8892.435,
+							["level"] = 16,
+							["objectiveTimes"] = {
+								"04:29.105", -- [1]
+								"10:18.058", -- [2]
+								"24:11.977", -- [3]
+								"16:11.778", -- [4]
+								"31:59.522", -- [5]
+								"26:53.704", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Mage",
+									["name"] = "Kaligon",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warlock",
+									["name"] = "Arkator",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Slimane",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 6888.015,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 6,
+								["hours"] = 0,
+								["year"] = 2017,
+								["mins"] = 7,
+							},
+							["startTime"] = 6099.11,
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"02:01.141", -- [1]
+								"04:34.400", -- [2]
+								"11:00.982", -- [3]
+								"07:12.862", -- [4]
+								"13:13.294", -- [5]
+								"12:28.542", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Swordofdeath (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Tsunamibomb (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Sekklow (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Warrior",
+									["name"] = "Theregorn (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Shaman",
+									["name"] = "Farahn",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [2]
+					},
+				},
+				[1493] = {
+					["objectives"] = {
+						"Tirathon Saltheril", -- [1]
+						"Inquisitor Tormentorum", -- [2]
+						"Ash'golm", -- [3]
+						"Glazer", -- [4]
+						"Cordana Felsong", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1493,
+					["name"] = "Vault of the Wardens",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[11] = {
+									["name"] = "Bursting",
+									["desc"] = "When slain, non-boss enemies explode, causing all players to suffer 10% of their max health in damage over 4 sec. This effect stacks.",
+								},
+								[2] = {
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 9787.892,
+							["timeStamp"] = {
+								["day"] = 30,
+								["month"] = 4,
+								["hours"] = 13,
+								["year"] = 2017,
+								["mins"] = 41,
+							},
+							["startTime"] = 8471.782,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"05:48.099", -- [1]
+								"09:53.779", -- [2]
+								"15:01.624", -- [3]
+								"12:44.634", -- [4]
+								"22:00.609", -- [5]
+								"19:07.143", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Priest",
+									["name"] = "Cazioh (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Hunter",
+									["name"] = "Glockcoma (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Omaigodx (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Xsirgodobalx (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								[2] = {
+									["name"] = "Skittish",
+									["desc"] = "Enemies pay far less attention to threat generated by tanks.",
+								},
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 15809.95,
+							["timeStamp"] = {
+								["day"] = 20,
+								["month"] = 5,
+								["hours"] = 20,
+								["mins"] = 52,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Ileiaris",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Arkator",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zaelsynth",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 14,
+							["objectiveTimes"] = {
+								"05:48.997", -- [1]
+								"09:25.325", -- [2]
+								"11:47.648", -- [3]
+								"13:39.445", -- [4]
+								"20:22.348", -- [5]
+								"17:56.184", -- [6]
+							},
+							["startTime"] = 14607.043,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 8095.934,
+							["timeStamp"] = {
+								["day"] = 21,
+								["month"] = 5,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 33,
+							},
+							["startTime"] = 7081.749,
+							["level"] = 3,
+							["objectiveTimes"] = {
+								"03:25.607", -- [1]
+								"06:34.176", -- [2]
+								"08:18.196", -- [3]
+								"10:09.357", -- [4]
+								"16:53.742", -- [5]
+								"14:32.844", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Shayelyn",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Suïte (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priest",
+									["name"] = "Defrokked (*)",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Warlock",
+									["name"] = "Ahazu",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 1,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 3268.84,
+							["timeStamp"] = {
+								["day"] = 8,
+								["month"] = 6,
+								["hours"] = 18,
+								["mins"] = 56,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Monk",
+									["name"] = "Linyi (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Mage",
+									["name"] = "Xaraastriel (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Fuboo (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Sófocus (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Shaman",
+									["name"] = "Farahn",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 4,
+							["objectiveTimes"] = {
+								"05:49.421", -- [1]
+								"08:57.928", -- [2]
+								"13:07.722", -- [3]
+								"11:25.369", -- [4]
+								"19:26.044", -- [5]
+								"17:01.766", -- [6]
+							},
+							["startTime"] = 2107.307,
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 8,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[9] = {
+									["name"] = "Tyrannical",
+									["desc"] = "Boss enemies have 40% more health and inflict up to 15% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 15117.138,
+							["timeStamp"] = {
+								["day"] = 21,
+								["month"] = 6,
+								["hours"] = 22,
+								["mins"] = 51,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Slicedlol",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zaelsynth",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 13694.871,
+							["objectiveTimes"] = {
+								"04:40.026", -- [1]
+								"12:01.587", -- [2]
+								"15:11.215", -- [3]
+								"18:06.499", -- [4]
+								"24:21.863", -- [5]
+								"21:14.308", -- [6]
+							},
+							["level"] = 13,
+						}, -- [5]
+						{
+							["corrupt"] = false,
+							["deaths"] = 15,
+							["affixes"] = {
+								[6] = {
+									["name"] = "Raging",
+									["desc"] = "Non-boss enemies enrage at 30% health remaining, dealing 100% increased damage until defeated.",
+								},
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 17880.501,
+							["timeStamp"] = {
+								["day"] = 22,
+								["month"] = 6,
+								["hours"] = 22,
+								["mins"] = 24,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warrior",
+									["name"] = "Búî",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Daoxu",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 16823.507,
+							["objectiveTimes"] = {
+								"02:38.254", -- [1]
+								"05:21.134", -- [2]
+								"06:47.630", -- [3]
+								"08:44.036", -- [4]
+								"18:51.417", -- [5]
+								"11:40.474", -- [6]
+							},
+							["level"] = 8,
+						}, -- [6]
+					},
+				},
+				[1492] = {
+					["objectives"] = {
+						"Ymiron, the Fallen King", -- [1]
+						"Harbaron", -- [2]
+						"Helya", -- [3]
+						"Enemy Forces", -- [4]
+					},
+					["zoneID"] = 1492,
+					["name"] = "Maw of Souls",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 28,
+							["affixes"] = {
+								[14] = {
+									["name"] = "Quaking",
+									["desc"] = "Periodically, all players emit a shockwave, inflicting damage and interrupting nearby allies.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 8907.722,
+							["timeStamp"] = {
+								["day"] = 2,
+								["month"] = 5,
+								["hours"] = 21,
+								["year"] = 2017,
+								["mins"] = 51,
+							},
+							["startTime"] = 7651.484,
+							["level"] = 13,
+							["objectiveTimes"] = {
+								"03:02.506", -- [1]
+								"08:35.812", -- [2]
+								"23:15.617", -- [3]
+								"17:29.652", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kaedwyn",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Mage",
+									["name"] = "Kaligon",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Eärendìl",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 14544.233,
+							["timeStamp"] = {
+								["day"] = 26,
+								["month"] = 5,
+								["hours"] = 22,
+								["mins"] = 32,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Rogue",
+									["name"] = "Jogebai (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Miffle (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Shamalomin (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Hastiliarius (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["level"] = 6,
+							["objectiveTimes"] = {
+								"01:43.910", -- [1]
+								"05:36.566", -- [2]
+								"11:43.290", -- [3]
+								"08:57.310", -- [4]
+							},
+							["startTime"] = 13840.505,
+						}, -- [2]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+								[4] = {
+									["name"] = "Necrotic",
+									["desc"] = "All enemies' melee attacks apply a stacking blight that inflicts damage over time and reduces healing received.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 5249.73,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 5,
+								["hours"] = 12,
+								["year"] = 2017,
+								["mins"] = 29,
+							},
+							["startTime"] = 4253.321,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"03:50.682", -- [1]
+								"08:34.773", -- [2]
+								"17:31.136", -- [3]
+								"13:48.750", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Mylilgnomey (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Wolfsneakers (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Shaman",
+									["name"] = "Shockpow (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Monk",
+									["name"] = "Oppaii (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [3]
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+								[12] = {
+									["name"] = "Grievous",
+									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 5388.539,
+							["timeStamp"] = {
+								["day"] = 3,
+								["month"] = 6,
+								["hours"] = 11,
+								["year"] = 2017,
+								["mins"] = 34,
+							},
+							["startTime"] = 4385.789,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"03:15.302", -- [1]
+								"09:31.612", -- [2]
+								"17:07.297", -- [3]
+								"13:32.557", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zukiyakeyo (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Warlock",
+									["name"] = "Sulhyun (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Hunter",
+									["name"] = "Sankun (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Rogue",
+									["name"] = "Halforeo (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [4]
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 27432.288,
+							["timeStamp"] = {
+								["day"] = 4,
+								["month"] = 6,
+								["hours"] = 1,
+								["mins"] = 11,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Pharmercy (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Druid",
+									["name"] = "Solarfire (*)",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Sansbrain (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Mage",
+									["name"] = "Tenmah (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Greybone",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+							["level"] = 2,
+							["objectiveTimes"] = {
+								"02:00.197", -- [1]
+								"05:10.206", -- [2]
+								"09:54.475", -- [3]
+								"07:33.282", -- [4]
+							},
+							["startTime"] = 26837.297,
+						}, -- [5]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 52587.388,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 6,
+								["hours"] = 23,
+								["year"] = 2017,
+								["mins"] = 43,
+							},
+							["level"] = 2,
+							["startTime"] = 52155.305,
+							["objectiveTimes"] = {
+								"01:02.989", -- [1]
+								"03:40.418", -- [2]
+								"07:21.680", -- [3]
+								"05:27.843", -- [4]
+							},
+							["players"] = {
+								{
+									["class"] = "Hunter",
+									["name"] = "Lethalstormz (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Autrumn (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Warlock",
+									["name"] = "Cutiewitch (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Hunter",
+									["name"] = "Takefive (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Warrior",
+									["name"] = "Praerend",
+									["role"] = "TANK",
+								}, -- [5]
+							},
+						}, -- [6]
 					},
 				},
 			},

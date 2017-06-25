@@ -2,10 +2,10 @@
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -20,17 +20,17 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Tichondrius.Mallusof"] = {
+				["lastUpdate"] = 1497410525,
+				["lastVisitDate"] = "2017/06/13 20:22",
+			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1497721946,
-				["lastVisitDate"] = "2017/06/17 10:52",
+				["lastUpdate"] = 1498336322,
+				["lastVisitDate"] = "2017/06/24 13:32",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,
 				["lastVisitDate"] = "2017/05/22 00:00",
-			},
-			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1497410525,
-				["lastVisitDate"] = "2017/06/13 20:22",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1495161140,

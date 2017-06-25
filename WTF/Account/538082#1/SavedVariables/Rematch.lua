@@ -1,5 +1,30 @@
 
 RematchSaved = {
+	[117951] = {
+		{
+			"BattlePet-0-000008A6D4E6", -- [1]
+			115, -- [2]
+			779, -- [3]
+			334, -- [4]
+			844, -- [5]
+		}, -- [1]
+		{
+			"BattlePet-0-000008A6D4A6", -- [1]
+			118, -- [2]
+			572, -- [3]
+			297, -- [4]
+			1934, -- [5]
+		}, -- [2]
+		{
+			"BattlePet-0-000008A6D48C", -- [1]
+			390, -- [2]
+			436, -- [3]
+			490, -- [4]
+			1155, -- [5]
+		}, -- [3]
+		["tab"] = 2,
+		["teamName"] = "Nameless Mystic",
+	},
 	[117934] = {
 		{
 			"BattlePet-0-000008A6D4A6", -- [1]
@@ -126,30 +151,30 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
 		["Sources"] = {
 		},
 		["Breed"] = {
 		},
-		["Script"] = {
-		},
 		["Similar"] = {
 		},
-		["Level"] = {
-			[4] = true,
+		["Script"] = {
 		},
-		["Tough"] = {
+		["Collected"] = {
+		},
+		["Favorite"] = {
 		},
 		["Types"] = {
 		},
 	},
-	["CollapsedOptHeaders"] = {
-	},
 	["SpecialSlots"] = {
 	},
+	["CollapsedOptHeaders"] = {
+	},
+	["loadedTeam"] = 117934,
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
@@ -163,6 +188,16 @@ RematchSettings = {
 			227, -- [7]
 			4, -- [8]
 		},
+		["BattlePet-0-000008A6D3F0"] = {
+			1, -- [1]
+			true, -- [2]
+			458, -- [3]
+			25, -- [4]
+			1338, -- [5]
+			248, -- [6]
+			206, -- [7]
+			2, -- [8]
+		},
 		["BattlePet-0-000008A6D3E7"] = {
 			2, -- [1]
 			true, -- [2]
@@ -173,15 +208,15 @@ RematchSettings = {
 			257, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000008A6D3F0"] = {
+		["BattlePet-0-000008A6D48C"] = {
 			1, -- [1]
 			true, -- [2]
-			458, -- [3]
+			1155, -- [3]
 			25, -- [4]
-			1338, -- [5]
-			248, -- [6]
-			206, -- [7]
-			2, -- [8]
+			1725, -- [5]
+			276, -- [6]
+			244, -- [7]
+			4, -- [8]
 		},
 		["BattlePet-0-000008A6D415"] = {
 			1, -- [1]
@@ -194,7 +229,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 		["BattlePet-0-000008A6D4E6"] = {
-			3, -- [1]
+			4, -- [1]
 			true, -- [2]
 			844, -- [3]
 			25, -- [4]
@@ -204,7 +239,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 		["BattlePet-0-000008A6D4A6"] = {
-			1, -- [1]
+			2, -- [1]
 			true, -- [2]
 			1934, -- [3]
 			25, -- [4]
@@ -214,7 +249,7 @@ RematchSettings = {
 			4, -- [8]
 		},
 	},
-	["loadedTeam"] = 117934,
+	["UseTypeBar"] = false,
 	["CornerPos"] = "BOTTOMLEFT",
 	["JournalUsed"] = true,
 	["LevelingQueue"] = {

@@ -25,12 +25,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [2]
 		{
 			209577, -- [1]
@@ -48,12 +48,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [3]
 		{
 			163201, -- [1]
@@ -71,12 +71,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [4]
 		{
 			1719, -- [1]
@@ -94,12 +94,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [5]
 		{
 			12294, -- [1]
@@ -117,12 +117,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = false,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 		}, -- [6]
 		{
 			1464, -- [1]
@@ -140,12 +140,12 @@ xl_savedvariables = {
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
 			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 32,
-			["use_condition"] = true,
-			["min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 5,
-			["highlight_only"] = false,
 			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["min_resource_to_cast"] = 0,
+			["use_condition"] = true,
+			["alt_resource_condition"] = 5,
+			["alt_min_resource_to_cast"] = 32,
 		}, -- [7]
 	}, -- [1]
 	[3] = {
@@ -166,15 +166,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 4,
-			["highlight_only"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 70,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 70,
+			["alt_resource_condition"] = 4,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [2]
 		{
 			2565, -- [1]
@@ -192,15 +192,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 15,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 15,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [3]
 		{
 			190456, -- [1]
@@ -218,15 +218,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 2,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 5,
-			["highlight_only"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 20,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 5,
+			["alt_min_resource_to_cast"] = 20,
+			["highlight_only"] = false,
 		}, -- [4]
 		{
 			23922, -- [1]
@@ -244,15 +244,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [5]
 		{
 			6572, -- [1]
@@ -270,15 +270,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = true,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = true,
 		}, -- [6]
 		{
 			6343, -- [1]
@@ -296,15 +296,15 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [7]
 		{
 			203524, -- [1]
@@ -322,21 +322,21 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["alt_resource_condition"] = 1,
-			["highlight_only"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [8]
 	},
 }
 xl_conditioner_options = {
-	["always_show"] = false,
 	["opacity"] = 1,
+	["always_show"] = false,
 	["hide_hotbar_incombat"] = false,
 	["tapersize"] = 0.75,
 }

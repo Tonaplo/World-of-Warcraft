@@ -1,7 +1,7 @@
-changeset:   644:cd5368e88a67
-tag:         tip
+changeset:   647:a5f92680c464
+tag:         v7.2.5.4132.121-release
 user:        Tercio
-date:        Wed Jun 21 00:18:05 2017 -0300
-summary:     - attempt to fix the spellname nil problem on some encounters.
+date:        Fri Jun 23 19:37:18 2017 -0300
+summary:     - framework update to v53.
 
 

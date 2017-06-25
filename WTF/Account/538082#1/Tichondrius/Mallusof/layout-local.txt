@@ -27,6 +27,13 @@ X: 80
 Y: 93
 W: 832
 H: 447
+Frame: DetailsPlayerDetailsWindow
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 790
+H: 454
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
