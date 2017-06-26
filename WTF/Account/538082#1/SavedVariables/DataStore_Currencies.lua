@@ -1,22 +1,22 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -85,13 +85,13 @@ DataStore_CurrenciesDB = {
 				["Wrath of the Lich King"] = 34,
 				["Mark of the World Tree"] = 33,
 				["Timeworn Artifact"] = 27,
-				["Warlords of Draenor"] = 10,
 				["Miscellaneous"] = 20,
+				["Warlords of Draenor"] = 10,
 				["Seal of Inevitable Fate"] = 30,
-				["Legion"] = 1,
+				["Apexis Crystal"] = 17,
 				["Darkmoon Prize Ticket"] = 21,
 				["Curious Coin"] = 3,
-				["Apexis Crystal"] = 17,
+				["Legion"] = 1,
 				["Garrison Resources"] = 11,
 				["Champion's Seal"] = 35,
 				["Legionfall War Supplies"] = 4,
@@ -203,18 +203,18 @@ DataStore_CurrenciesDB = {
 			["Default.Tichondrius.Mallusof"] = {
 				["Currencies"] = {
 					3, -- [1]
-					240900, -- [2]
+					247812, -- [2]
 					421040, -- [3]
-					14598, -- [4]
+					14726, -- [4]
 					50, -- [5]
 					392, -- [6]
 					5172, -- [7]
 					426378, -- [8]
-					43621516, -- [9]
+					43853196, -- [9]
 					270, -- [10]
 					576550, -- [11]
 					1206, -- [12]
-					3400, -- [13]
+					5320, -- [13]
 					17, -- [14]
 					309778, -- [15]
 					3232, -- [16]
@@ -259,10 +259,10 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1498455456,
+				["lastUpdate"] = 1498509340,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "340793-0-0-0",
+					[1220] = "342603-0-0-0",
 					[824] = "10000-0-0-10000",
 					[1273] = "2-0-0-6",
 					[1191] = "25-0-0-5000",
@@ -318,108 +318,6 @@ DataStore_CurrenciesDB = {
 					[1342] = "50-0-0-1000",
 				},
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["Currencies"] = {
-					3, -- [1]
-					34308, -- [2]
-					134, -- [3]
-					10504, -- [4]
-					374666, -- [5]
-					943756, -- [6]
-					21, -- [7]
-					717590, -- [8]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["lastUpdate"] = 1498417256,
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[1220] = "7373-0-0-0",
-					[824] = "5606-0-0-10000",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "2927-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "82-0-0-1000",
-				},
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["Currencies"] = {
-					3, -- [1]
-					5636, -- [2]
-					134, -- [3]
-					9864, -- [4]
-					203914, -- [5]
-					11788, -- [6]
-					17, -- [7]
-					25618, -- [8]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["lastUpdate"] = 1498418722,
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[1220] = "92-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "1593-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "77-0-0-1000",
-				},
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618545,
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
-				},
-			},
 			["Default.Proudmoore.Rahran"] = {
 				["Currencies"] = {
 					3, -- [1]
@@ -472,6 +370,122 @@ DataStore_CurrenciesDB = {
 					[1342] = "32-0-0-1000",
 				},
 			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["Currencies"] = {
+					3, -- [1]
+					5636, -- [2]
+					134, -- [3]
+					9864, -- [4]
+					203914, -- [5]
+					11788, -- [6]
+					17, -- [7]
+					25618, -- [8]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["lastUpdate"] = 1498418722,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "92-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "1593-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "77-0-0-1000",
+				},
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1493618471,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+				},
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["Currencies"] = {
+					3, -- [1]
+					34308, -- [2]
+					134, -- [3]
+					10504, -- [4]
+					374666, -- [5]
+					943756, -- [6]
+					21, -- [7]
+					717590, -- [8]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["lastUpdate"] = 1498417256,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "7373-0-0-0",
+					[824] = "5606-0-0-10000",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "2927-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "82-0-0-1000",
+				},
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618545,
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+				},
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["Currencies"] = {
 					3, -- [1]
@@ -521,20 +535,6 @@ DataStore_CurrenciesDB = {
 					[1226] = "4073-0-0-0",
 					[994] = "0-0-0-0",
 					[1342] = "58-0-0-1000",
-				},
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1493618471,
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {

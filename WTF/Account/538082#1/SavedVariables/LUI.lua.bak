@@ -64,10 +64,7 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Clock"] = {
-						["Time24"] = true,
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
@@ -78,24 +75,27 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
-					["CombatLock"] = true,
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
+					["Gold"] = {
+						["Font"] = "Prototype",
+					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Bags"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -104,7 +104,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5465992512,
+							["Mallusof"] = 5462095481,
 						},
 					},
 				},
@@ -147,11 +147,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -162,6 +157,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -189,21 +188,14 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -713,6 +705,14 @@ LUIDB = {
 						},
 					},
 				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -825,37 +825,37 @@ LUIDB = {
 							"/cw Hangooky-Tichondrius food before main raid", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [1]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [2]
-							"/xloot", -- [3]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [4]
-							"/xloot", -- [5]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [1]
+							"/ignore Acekicker ", -- [2]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [3]
+							"/ignore Acekicker ", -- [4]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [5]
 							"/ignore Acekicker ", -- [6]
-							"/rt", -- [7]
-							"/macro", -- [8]
-							"/raid Insentience", -- [9]
+							"/xloot", -- [7]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [8]
+							"/ignore Acekicker ", -- [9]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [10]
-							"/ignore Acekicker ", -- [11]
-							"/raid Insentience", -- [12]
-							"/ignore Acekicker ", -- [13]
-							"/xloot", -- [14]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Desolate Host - Soulbind]", -- [15]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [16]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [17]
-							"/xloot", -- [18]
+							"/xloot", -- [11]
+							"/ignore Acekicker ", -- [12]
+							"/xloot", -- [13]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [14]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [15]
+							"/ignore Acekicker ", -- [16]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [17]
+							"/ignore Acekicker ", -- [18]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [19]
 							"/xloot", -- [20]
 							"/ignore Acekicker ", -- [21]
-							"/macro", -- [22]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [23]
-							"/raid Insentience", -- [24]
-							"/xloot", -- [25]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [26]
-							"/xloot", -- [27]
+							"/xloot", -- [22]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [23]
+							"/ignore Acekicker ", -- [24]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [25]
+							"/ignore Acekicker ", -- [26]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [27]
 							"/ignore Acekicker ", -- [28]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [29]
-							"/xloot", -- [30]
-							"/ignore Acekicker ", -- [31]
+							"/s \\rt", -- [29]
+							"/rt", -- [30]
+							"/pvp", -- [31]
 							"/xloot", -- [32]
 						},
 					},
@@ -941,21 +941,21 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 400,
 						["Anchor"] = "GridLayoutFrame",
 						["Height"] = 200,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1087,7 +1087,13 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1099,23 +1105,17 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1249,13 +1249,7 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1267,13 +1261,19 @@ LUIDB = {
 						0.16, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1412,13 +1412,7 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1430,13 +1424,19 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1575,7 +1575,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1587,19 +1593,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1739,7 +1739,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1751,23 +1757,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1902,13 +1902,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1920,17 +1914,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -2300,22 +2300,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Base",
-		["Praerend - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
-		["Greybone - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Rahran - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -2363,11 +2363,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -2448,9 +2448,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2467,9 +2467,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2568,9 +2568,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2587,9 +2587,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2607,11 +2607,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},

@@ -25,6 +25,7 @@ AdiBagsDB = {
 					["splitBySubclass"] = {
 						["Recipe"] = true,
 						["Tradeskill"] = false,
+						["Gem"] = false,
 						["Consumable"] = true,
 						["Glyph"] = false,
 						["Miscellaneous"] = true,
@@ -36,19 +37,12 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
+		["Legion"] = {
+		},
 		["Equipment"] = {
 			["profiles"] = {
 				["Default"] = {
 					["dispatchRule"] = "slot",
-				},
-			},
-		},
-		["DataSource"] = {
-		},
-		["ItemSets"] = {
-			["profiles"] = {
-				["Default"] = {
-					["oneSectionPerSet"] = false,
 				},
 			},
 		},
@@ -82,6 +76,19 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
+		},
 		["Junk"] = {
 		},
 		["MoneyFrame"] = {
@@ -104,6 +111,9 @@ AdiBagsDB = {
 					["xOffset"] = -32.000093269482,
 					["yOffset"] = 268.000052821637,
 				},
+			},
+			["filters"] = {
+				["ItemSets"] = false,
 			},
 			["sectionFont"] = {
 				["name"] = "Prototype",

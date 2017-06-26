@@ -44,6 +44,8 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
+		["DataSource"] = {
+		},
 		["ItemSets"] = {
 			["char"] = {
 				["Mallusof - Tichondrius"] = {
@@ -84,8 +86,6 @@ AdiBagsDB = {
 					},
 				},
 			},
-		},
-		["DataSource"] = {
 		},
 		["Junk"] = {
 		},

@@ -4,3 +4,4 @@ VuhDo: enabled
 VuhDoOptions: enabled
 autoturnin: disabled
 MythicPlusTimer: disabled
+XLoot_Options: enabled

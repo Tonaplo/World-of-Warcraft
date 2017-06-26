@@ -1,22 +1,22 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -52,27 +52,27 @@ DataStoreDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Faerand"] = {
+			["Default.Proudmoore.Rahran"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
-				["guildName"] = "Mechanics",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
-			["Default.Aggramar.Gottagetlia"] = {
+			["Default.Bleeding Hollow.Gorog"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["guildName"] = "Risen",
+			["Default.Proudmoore.Faerand"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Mechanics",
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["faction"] = "Alliance",

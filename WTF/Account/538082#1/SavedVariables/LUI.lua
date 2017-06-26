@@ -87,7 +87,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5465992512,
+							["Mallusof"] = 5472469647,
 						},
 					},
 				},
@@ -107,10 +107,7 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
@@ -123,22 +120,25 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
+						["Font"] = "Prototype",
+					},
 					["Memory"] = {
 						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Clock"] = {
 						["Time24"] = true,
 						["Font"] = "Prototype",
 					},
-					["CombatLock"] = true,
-					["Gold"] = {
+					["DPS"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -147,14 +147,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -182,28 +189,13 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -713,6 +705,14 @@ LUIDB = {
 						["X"] = 350,
 					},
 				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -830,23 +830,23 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
+					["Tps"] = {
+						["Width"] = 600,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 400,
 						["Anchor"] = "GridLayoutFrame",
 						["Height"] = 200,
 					},
-					["MicroMenu"] = {
+					["Minimap"] = {
 						["IsShown"] = true,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
-					["Minimap"] = {
 						["IsShown"] = true,
 					},
 				},
@@ -972,7 +972,13 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -984,19 +990,13 @@ LUIDB = {
 						0.98, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1136,7 +1136,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1148,23 +1154,17 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.95, -- [1]
@@ -1299,7 +1299,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1311,23 +1317,17 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						1, -- [1]
@@ -1461,13 +1461,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1479,13 +1473,19 @@ LUIDB = {
 						0.73, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1624,7 +1624,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1636,19 +1642,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1788,13 +1788,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1806,17 +1800,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1910,37 +1910,37 @@ LUIDB = {
 						},
 						["Alliance - Tichondrius"] = {
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [1]
-							"/xloot", -- [2]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [2]
 							"/ignore Acekicker ", -- [3]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [4]
-							"/xloot", -- [5]
-							"/ignore Acekicker ", -- [6]
-							"/xloot", -- [7]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [4]
+							"/ignore Acekicker ", -- [5]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [6]
+							"/ignore Acekicker ", -- [7]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [8]
-							"/xloot", -- [9]
-							"/ignore Acekicker ", -- [10]
-							"/macro", -- [11]
+							"/ignore Acekicker ", -- [9]
+							"/s \\rt", -- [10]
+							"/pvp", -- [11]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [12]
-							"/raid Insentience", -- [13]
-							"/xloot", -- [14]
+							"/ignore Acekicker ", -- [13]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [14]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [15]
-							"/xloot", -- [16]
-							"/ignore Acekicker ", -- [17]
+							"/ignore Acekicker ", -- [16]
+							"/s \\rt", -- [17]
 							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [18]
-							"/xloot", -- [19]
-							"/ignore Acekicker ", -- [20]
-							"/xloot", -- [21]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [22]
-							"/ignore Acekicker ", -- [23]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [24]
-							"/xloot", -- [25]
-							"/ignore Acekicker ", -- [26]
-							"/xloot", -- [27]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [28]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion] <-- Light", -- [29]
-							"/ignore Acekicker ", -- [30]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [31]
-							"/ignore Acekicker ", -- [32]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [19]
+							"/s \\rt", -- [20]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [21]
+							"/s \\xloot", -- [22]
+							"/xloot", -- [23]
+							"/g Wait", -- [24]
+							"/g Reportme", -- [25]
+							"/g I apparently just stood next to you", -- [26]
+							"/g when you made vantus runes", -- [27]
+							"/g My logs says you made one for \"Tomb of Sargeras\"", -- [28]
+							"/g but they're boss specific arent they?", -- [29]
+							"/g Oh shit really", -- [30]
+							"/g oh daymn", -- [31]
+							"/g ty", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2343,9 +2343,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2432,11 +2432,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Mallusof - Tichondrius"] = {
@@ -2451,11 +2451,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Gottagetlia - Aggramar"] = {
@@ -2534,9 +2534,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2555,11 +2555,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Mallusof - Proudmoore"] = {
@@ -2574,11 +2574,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Evisca - Bleeding Hollow"] = {
@@ -2599,22 +2599,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Base",
-		["Amranar - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
+		["Amranar - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
-		["Greybone - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {
