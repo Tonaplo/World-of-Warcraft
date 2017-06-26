@@ -1,0 +1,12 @@
+tag e55e363a4e7769b4ddff499cca194e32464f33f3 7.2-7
+Author:	Xuerian <xuerian@gmail.com>
+Date:	Thu Jun 22 01:22:03 2017 -0400
+
+Add option to show itemlevel on rolls (Take 4)
+
+commit a9a14b700b99b5a44a20bdb70eeb77720d6af9e3
+Author: Xuerian <xuerian@gmail.com>
+Date:   Wed Jun 21 20:11:04 2017 -0400
+
+    Fix dumb nil mistake
+

@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "21:41:23",
+			["date_start"] = "21:40:18",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 65.0059999999994,
+		}, -- [1]
+		{
+			["date_end"] = "21:38:23",
+			["date_start"] = "21:37:11",
+			["name"] = "Dresaron",
+			["total_time"] = 72.0020000000004,
+		}, -- [2]
+		{
+			["date_end"] = "21:37:03",
+			["date_start"] = "21:36:28",
+			["name"] = "Dresaron",
+			["total_time"] = 35.0069999999996,
+		}, -- [3]
+		{
+			["date_end"] = "21:35:33",
+			["date_start"] = "21:34:40",
+			["name"] = "Oakheart",
+			["total_time"] = 53.0049999999992,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -172,7 +192,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -214,30 +233,11 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "21:41:23",
-			["date_start"] = "21:40:18",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 65.0059999999994,
-		}, -- [1]
-		{
-			["date_end"] = "21:38:23",
-			["date_start"] = "21:37:11",
-			["name"] = "Dresaron",
-			["total_time"] = 72.0020000000004,
-		}, -- [2]
-		{
-			["date_end"] = "21:37:03",
-			["date_start"] = "21:36:28",
-			["name"] = "Dresaron",
-			["total_time"] = 35.0069999999996,
-		}, -- [3]
-		{
-			["date_end"] = "21:35:33",
-			["date_start"] = "21:34:40",
-			["name"] = "Oakheart",
-			["total_time"] = 53.0049999999992,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

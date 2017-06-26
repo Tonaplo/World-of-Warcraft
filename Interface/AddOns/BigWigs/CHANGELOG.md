@@ -1,11 +1,11 @@
 # BigWigs
 
-## [v59.1](https://github.com/BigWigsMods/BigWigs/tree/v59.1) (2017-06-25)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v59...v59.1)
+## [v59.2](https://github.com/BigWigsMods/BigWigs/tree/v59.2) (2017-06-25)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v59.1...v59.2)
 
-- bump version  
-- Update koKR.lua (#275)  
-- TombOfSargeras/Kiljaeden: Timer and Warning Updates  
-- Kil'jaeden: Minor tweak to obelisk timers  
-- TombOfSargeras/Kiljaeden: Fix Bursting Dreadflame in p2  
-- TombOfSargeras/Kiljaeden: Timer updates and add intermission warnings  
+- TombOfSargeras/MaidenofVigilance: Add Normal ID for Aegwynn's Ward  
+- Kil'jaeden: Fix Lua error  
+- TombOfSargeras/FallenAvatar: No Touch of Sargeras in Easy Mode  
+- MaidenofVigilance: Add target bar for Unstable Soul (you can now enable the countdown for it!)  
+- Update zhCN.lua (#277)  
+- Core/BossPrototype: Implement draft :SayCountdown.  

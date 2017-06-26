@@ -20,6 +20,13 @@ X: 21
 Y: 182
 W: 365
 H: 240
+Frame: AdiBagsAnchor1
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -13
+Y: 14
+W: 80
+H: 80
 Frame: AltoholicFrame
 FrameLevel: 1
 Anchor: CENTER

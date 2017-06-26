@@ -1,0 +1,62 @@
+
+XLootADB = {
+	["namespaces"] = {
+		["Group"] = {
+			["profiles"] = {
+				["Default"] = {
+					["show_time_remaining"] = true,
+					["text_ilvl"] = true,
+					["alert_anchor"] = {
+						["visible"] = false,
+					},
+					["win_icon"] = true,
+					["roll_anchor"] = {
+						["y"] = 266.065490722656,
+						["x"] = 1442.89392089844,
+					},
+					["show_undecided"] = true,
+				},
+			},
+		},
+		["Frame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["autoloots"] = {
+						["tradegoods"] = "always",
+						["currency"] = "always",
+						["all"] = "always",
+						["quest"] = "always",
+					},
+					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+				},
+			},
+		},
+		["Monitor"] = {
+			["profiles"] = {
+				["Default"] = {
+					["show_coin"] = true,
+					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+					["anchor"] = {
+						["y"] = 270.158996582031,
+						["x"] = 1681.32934570313,
+					},
+					["show_crafted"] = true,
+				},
+			},
+		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Mallusof - Tichondrius"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -59,6 +53,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "01:36:05",
+			["date_end"] = "01:37:45",
+			["name"] = "Dargrul the Underking",
+			["total_time"] = 100.014999999999,
+		}, -- [1]
+		{
+			["date_start"] = "01:31:53",
+			["date_end"] = "01:33:08",
+			["name"] = "Naraxas",
+			["total_time"] = 75.0010000000002,
+		}, -- [2]
+		{
+			["date_start"] = "01:26:45",
+			["date_end"] = "01:29:06",
+			["name"] = "Ularogg Cragshaper",
+			["total_time"] = 141.009999999998,
+		}, -- [3]
+		{
+			["date_start"] = "01:21:08",
+			["date_end"] = "01:22:24",
+			["name"] = "Rokmora",
+			["total_time"] = 76.0030000000006,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -213,7 +233,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Solarfire-Dalaran"] = {
@@ -333,30 +352,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "01:36:05",
-			["date_end"] = "01:37:45",
-			["name"] = "Dargrul the Underking",
-			["total_time"] = 100.014999999999,
-		}, -- [1]
-		{
-			["date_start"] = "01:31:53",
-			["date_end"] = "01:33:08",
-			["name"] = "Naraxas",
-			["total_time"] = 75.0010000000002,
-		}, -- [2]
-		{
-			["date_start"] = "01:26:45",
-			["date_end"] = "01:29:06",
-			["name"] = "Ularogg Cragshaper",
-			["total_time"] = 141.009999999998,
-		}, -- [3]
-		{
-			["date_start"] = "01:21:08",
-			["date_end"] = "01:22:24",
-			["name"] = "Rokmora",
-			["total_time"] = 76.0030000000006,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

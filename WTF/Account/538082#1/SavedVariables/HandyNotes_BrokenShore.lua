@@ -8,11 +8,11 @@ HandyNotes_BrokenShoreDB = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
@@ -23,8 +23,8 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["show_shrine"] = false,
-			["show_infernalCores"] = false,
 			["show_netherPortals"] = false,
+			["show_infernalCores"] = false,
 		},
 		["Kaldorath - Proudmoore"] = {
 		},
@@ -32,7 +32,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -40,7 +40,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 	},
 }

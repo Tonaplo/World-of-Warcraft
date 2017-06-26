@@ -1,6 +1,6 @@
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1MR1RM1IR1WM1OT[x]2HR2NM2PM2EM3MR3PM3NM3DM3OH4LR4MR4LR4NM4WM5OT5SR5LR5NM5DH6SR6PM6NM6NT6IH7MR7PM7SR7WT7DH8SR8RM8__8DT8LR2PH0__[x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x]0__0__[x][x][x][x]0__[x][x][x][x][x][x][x]0__[x][x][x][x][x][x]0__[x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gra[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NArtHorPayRacPac[x]AudElyStrVolSquHalBigIndJumVamShiSeyKotPerCàrAkiDarKwaWazRazRotRoaGriTinFroSevBozWicChaTreMicUnkMilAgaGraWat[x][x][x][x][x]Xan[x][x][x][x][x][x][x][x][x]WatFir[x][x][x][x]Zhe[x][x][x][x][x][x][x]Wat[x][x][x][x][x][x]Azz[x][x][x]
 END
