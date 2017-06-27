@@ -71,6 +71,7 @@ function mod:GetOptions()
 		-15543, -- Demonic Obelisk
 		243982, -- Tear Rift
 		244856, -- Flaming Orb
+		240262, -- Burning
 		{237590, "SAY", "FLASH"}, -- Shadow Reflection: Hopeless
 	},{
 		["stages"] = "general",
@@ -88,12 +89,17 @@ function mod:OnBossEnable()
 	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1", "boss2", "boss3", "boss4", "boss5")
 	self:RegisterEvent("CHAT_MSG_RAID_BOSS_EMOTE")
 
+	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 240262) -- Burning (Flaming Orb)
+	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 240262)
+	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 240262)
+
 	-- Stage One: The Betrayer
 	self:Log("SPELL_CAST_START", "Felclaws", 239932)
 	self:Log("SPELL_AURA_APPLIED", "FelclawsApplied", 239932)
 	self:Log("SPELL_CAST_START", "Armageddon", 240910)
 
 	self:Log("SPELL_AURA_APPLIED", "ShadowReflectionErupting", 236710) -- Shadow Reflection: Erupting
+	self:Log("SPELL_AURA_REMOVED", "ShadowReflectionEruptingRemoved", 236710) -- Shadow Reflection: Erupting
 
 	-- Intermission: Eternal Flame
 	self:Log("SPELL_AURA_APPLIED", "NetherGale", 244834) -- Intermission Start
@@ -104,6 +110,7 @@ function mod:OnBossEnable()
 
 	-- Stage Two: Reflected Souls
 	self:Log("SPELL_AURA_APPLIED", "ShadowReflectionWailing", 236378) -- Shadow Reflection: Wailing
+	self:Log("SPELL_AURA_REMOVED", "ShadowReflectionWailingRemoved", 236378) -- Shadow Reflection: Wailing
 
 	-- Intermission: Deceiver's Veil
 	self:Log("SPELL_CAST_START", "DeceiversVeilCast", 241983) -- Deceiver's Veil Cast
@@ -116,6 +123,7 @@ function mod:OnBossEnable()
 
 	-- Mythic
 	self:Log("SPELL_AURA_APPLIED", "ShadowReflectionHopeless", 237590) -- Shadow Reflection: Hopeless
+	self:Log("SPELL_AURA_REMOVED", "ShadowReflectionHopelessRemoved", 237590) -- Shadow Reflection: Hopeless
 end
 
 function mod:OnEngage()
@@ -150,9 +158,7 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg, sender, _, _, target)
 		local guid = UnitGUID(target)
 		if self:Me(guid) then
 			self:Say(238505)
-			self:ScheduleTimer("Say", 2, 238505, 3, true)
-			self:ScheduleTimer("Say", 3, 238505, 2, true)
-			self:ScheduleTimer("Say", 4, 238505, 1, true)
+			self:SayCountdown(238505, 5)
 		end
 	elseif msg:find("235059") then -- Rupturing Singularity
 		self:Message(235059, "Urgent", "Warning", CL.count:format(self:SpellName(235059), singularityCount))
@@ -167,6 +173,17 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg, sender, _, _, target)
 			timer = phaseTwoTimers[235059][singularityCount]
 		end
 		self:Bar(235059, timer, CL.count:format(self:SpellName(235059), singularityCount))
+	end
+end
+
+do
+	local prev = 0
+	function mod:GroundEffectDamage(args)
+		local t = GetTime()
+		if self:Me(args.destGUID) and t-prev > 1.5 then
+			prev = t
+			self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+		end
 	end
 end
 
@@ -213,20 +230,22 @@ do
 	local playerList = mod:NewTargetList()
 	function mod:ShadowReflectionErupting(args)
 		if self:Me(args.destGUID) then
-			local _, _, _, _, _, _, expires = UnitDebuff(args.destName, args.spellName)
-			local remaining = expires-GetTime()
 			self:Flash(args.spellId)
 			self:Say(args.spellId, L.reflectionErupting)
-			self:ScheduleTimer("Say", remaining-3, args.spellId, 3, true)
-			self:ScheduleTimer("Say", remaining-2, args.spellId, 2, true)
-			self:ScheduleTimer("Say", remaining-1, args.spellId, 1, true)
+			self:SayCountdown(args.spellId, 8)
 		end
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
+			self:Bar(args.spellId, 8, CL.adds)
 			if phase == 2 then
 				self:Bar(args.spellId, 112, L.reflectionErupting)
 			end
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, playerList, "Urgent", "Alert", L.reflectionErupting)
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Urgent", "Alert", L.reflectionErupting)
+		end
+	end
+	function mod:ShadowReflectionEruptingRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(args.spellId)
 		end
 	end
 end
@@ -277,7 +296,7 @@ do
 		end
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, playerList, "Important", "Warning")
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Important", "Warning")
 			burstingDreadflameCount = burstingDreadflameCount + 1
 			if phase == 1 and burstingDreadflameCount == 2 then -- Inside Intermission
 				self:Bar(args.spellId, 46)
@@ -314,18 +333,20 @@ do
 	local playerList = mod:NewTargetList()
 	function mod:ShadowReflectionWailing(args)
 		if self:Me(args.destGUID) then
-			local _, _, _, _, _, _, expires = UnitDebuff(args.destName, args.spellName)
-			local remaining = expires-GetTime()
 			self:Flash(args.spellId)
 			self:Say(args.spellId, L.reflectionWailing)
-			self:ScheduleTimer("Say", remaining-3, args.spellId, 3, true)
-			self:ScheduleTimer("Say", remaining-2, args.spellId, 2, true)
-			self:ScheduleTimer("Say", remaining-1, args.spellId, 1, true)
+			self:SayCountdown(args.spellId, 7)
 		end
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
+			self:Bar(args.spellId, 7, CL.add)
 			self:Bar(args.spellId, 114, L.reflectionWailing)
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, playerList, "Urgent", "Alert", L.reflectionWailing)
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Urgent", "Alert", L.reflectionWailing)
+		end
+	end
+	function mod:ShadowReflectionWailingRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(args.spellId)
 		end
 	end
 end
@@ -391,17 +412,18 @@ do
 	local playerList = mod:NewTargetList()
 	function mod:ShadowReflectionHopeless(args)
 		if self:Me(args.destGUID) then
-			local _, _, _, _, _, _, expires = UnitDebuff(args.destName, args.spellName)
-			local remaining = expires-GetTime()
 			self:Flash(args.spellId)
 			self:Say(args.spellId, L.reflectionHopeless)
-			self:ScheduleTimer("Say", remaining-3, args.spellId, 3, true)
-			self:ScheduleTimer("Say", remaining-2, args.spellId, 2, true)
-			self:ScheduleTimer("Say", remaining-1, args.spellId, 1, true)
+			self:SayCountdown(args.spellId, 8)
 		end
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, playerList, "Urgent", "Alert", L.reflectionHopeless)
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Urgent", "Alert", L.reflectionHopeless)
+		end
+	end
+	function mod:ShadowReflectionHopelessRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(args.spellId)
 		end
 	end
 end

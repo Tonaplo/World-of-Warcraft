@@ -46,8 +46,7 @@ L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "Erzeugte Wut"
 L["STRING_ATTRIBUTE_ENERGY_RESOURCES"] = "Andere Ressourcen"
 L["STRING_ATTRIBUTE_ENERGY_RUNEPOWER"] = "Erzeugte Runenmacht"
 L["STRING_ATTRIBUTE_HEAL"] = "Heilung"
---Translation missing 
--- L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = ""
+L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = "Absorbierte Heilung"
 L["STRING_ATTRIBUTE_HEAL_DONE"] = "Gewirkte Heilung"
 L["STRING_ATTRIBUTE_HEAL_ENEMY"] = "Gegnerische Gewirkte Heilung"
 L["STRING_ATTRIBUTE_HEAL_HPS"] = "HPS"
@@ -109,8 +108,7 @@ L["STRING_CUSTOM_CREATE"] = "Erstellen"
 L["STRING_CUSTOM_CREATED"] = "Die neue Anzeige wurde erstellt."
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET"] = "Schaden auf anderweitig markierte Ziele"
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET_DESC"] = "Zeigt den Schaden, der anderweitig markierten Zielen zugefügt wurde."
---Translation missing 
--- L["STRING_CUSTOM_DAMAGEONSHIELDS"] = ""
+L["STRING_CUSTOM_DAMAGEONSHIELDS"] = "Schaden auf Schilde"
 L["STRING_CUSTOM_DAMAGEONSKULL"] = "Schaden auf mit dem Totenschädel markierte Ziele"
 L["STRING_CUSTOM_DAMAGEONSKULL_DESC"] = "Zeigt den Schaden, der mit Totenkopf markierten Zielen zugefügt wurde"
 L["STRING_CUSTOM_DESCRIPTION"] = "Beschreibung:"
@@ -212,61 +210,78 @@ L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = "Listet Timer von BigWigs auf"
 L["STRING_FORGE_BUTTON_DBMTIMERS"] = "DBM-Timer"
 L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = "Listet Timer von Deadly Boss Mods auf"
 L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = "Bosszauber"
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = ""
+L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = "Listet nur Zauber von Schlachtzugs- und Dungeon-Kämpfen auf."
 L["STRING_FORGE_BUTTON_ENEMIES"] = "Gegner"
---Translation missing 
--- L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = ""
+L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = "Listet Gegner des aktuellen Kampfes auf."
 L["STRING_FORGE_BUTTON_PETS"] = "Begleiter"
---Translation missing 
--- L["STRING_FORGE_BUTTON_PETS_DESC"] = ""
+L["STRING_FORGE_BUTTON_PETS_DESC"] = "Listet Begleiter des aktuellen Kampfes auf."
 L["STRING_FORGE_BUTTON_PLAYERS"] = "Spieler"
---Translation missing 
--- L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_ENABLEPLUGINS"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_BARTEXT"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_CASTERNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = ""
+L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = "Listet Spieler des aktuellen Kampfes auf."
+L["STRING_FORGE_ENABLEPLUGINS"] = "\"Bitte aktiviere die Details!-Module mit Schlachtzugsnamen im Escape-Menü > AddOns, z.B. Details: Tomb of Sargeras.\""
+L["STRING_FORGE_FILTER_BARTEXT"] = "Leistenname"
+L["STRING_FORGE_FILTER_CASTERNAME"] = "Zauberwirker-Name"
+L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = "Begegnungsname"
 L["STRING_FORGE_FILTER_ENEMYNAME"] = "Gegnername"
---Translation missing 
--- L["STRING_FORGE_FILTER_OWNERNAME"] = ""
+L["STRING_FORGE_FILTER_OWNERNAME"] = "Besitzername"
 L["STRING_FORGE_FILTER_PETNAME"] = "Begleitername"
 L["STRING_FORGE_FILTER_PLAYERNAME"] = "Spielername"
---Translation missing 
--- L["STRING_FORGE_FILTER_SPELLNAME"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_BARTEXT"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_CASTER"] = ""
+L["STRING_FORGE_FILTER_SPELLNAME"] = "Zaubername"
+L["STRING_FORGE_HEADER_BARTEXT"] = "Leistentext"
+L["STRING_FORGE_HEADER_CASTER"] = "Zauberwirker"
 L["STRING_FORGE_HEADER_CLASS"] = "Klasse"
 L["STRING_FORGE_HEADER_CREATEAURA"] = "Aura erstellen"
---Translation missing 
--- L["STRING_FORGE_HEADER_ENCOUNTERID"] = ""
---Translation missing 
--- L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = ""
+L["STRING_FORGE_HEADER_ENCOUNTERID"] = "Begegnungs-ID"
+L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = "Begegnungsname"
 L["STRING_FORGE_HEADER_EVENT"] = "Ereignis"
---Translation missing 
--- L["STRING_FORGE_HEADER_FLAG"] = ""
+L["STRING_FORGE_HEADER_FLAG"] = "Flag"
 L["STRING_FORGE_HEADER_GUID"] = "GUID"
---Translation missing 
--- L["STRING_FORGE_HEADER_ICON"] = ""
+L["STRING_FORGE_HEADER_ICON"] = "Symbol"
 L["STRING_FORGE_HEADER_ID"] = "ID"
 L["STRING_FORGE_HEADER_INDEX"] = "Index"
 L["STRING_FORGE_HEADER_NAME"] = "Name"
 L["STRING_FORGE_HEADER_NPCID"] = "NSC-ID"
 L["STRING_FORGE_HEADER_OWNER"] = "Besitzer"
---Translation missing 
--- L["STRING_FORGE_HEADER_SCHOOL"] = ""
+L["STRING_FORGE_HEADER_SCHOOL"] = "Kategorie"
 L["STRING_FORGE_HEADER_SPELLID"] = "Zauber-ID"
 L["STRING_FORGE_HEADER_TIMER"] = "Timer"
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "Dieses Segment ist im Moment nicht verfügbar "
 L["STRING_FROM"] = "Von"
 L["STRING_GERAL"] = "Allgemein"
 L["STRING_GLANCING"] = "nur gestreift"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
 L["STRING_HEAL"] = "Heilung"
 L["STRING_HEAL_ABSORBED"] = "Absorbierte Heilung"
 L["STRING_HEAL_CRIT"] = "Kritische Heilung"
@@ -359,6 +374,10 @@ L["STRING_MIRROR_IMAGE"] = "Bilder spiegeln"
 L["STRING_MISS"] = "Verfehlen"
 L["STRING_MODE_ALL"] = "Alles"
 L["STRING_MODE_GROUP"] = "Standard"
+--Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
+--Translation missing 
+-- L["STRING_MODE_OPENGUILDDAMAGERANK"] = ""
 L["STRING_MODE_PLUGINS"] = "Zusatzmodule"
 L["STRING_MODE_RAID"] = "Zusatzmodule: Schlachtzug"
 L["STRING_MODE_SELF"] = "Zusatzmodule: Solospiel"

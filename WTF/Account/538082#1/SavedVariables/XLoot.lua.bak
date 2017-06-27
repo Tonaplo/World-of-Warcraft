@@ -13,8 +13,8 @@ XLootADB = {
 					["win_icon"] = true,
 					["roll_anchor"] = {
 						["visible"] = false,
-						["y"] = 20.0000038146973,
 						["x"] = 613.230224609375,
+						["y"] = 20.0000038146973,
 					},
 					["show_undecided"] = true,
 				},
@@ -61,6 +61,8 @@ XLootADB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["skin_anchors"] = true,
+			["skin"] = "svelte",
 		},
 	},
 }

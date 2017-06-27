@@ -2,23 +2,25 @@
 
 if GetLocale()=="ruRU" then
 
+-- Localization Rematch 4.7.1 last update  23.06.2017 16.35 GMT
+
 -- Main.lua
 	L["Rematch"] = nil
 	L["Toggle Window"] = "Переключить окно"
 	L["Auto Load"] = "Автозагрузка"
-	L["Team Notes"] = "Заметки команды "
+	L["Team Notes"] = "Заметки команды"
 	L["Pets Tab"] = "Вкладка питомцев"
 	L["Teams Tab"] = "Вкладка команд"
 	L["Queue Tab"] = "Вкладка Очереди"
 	L["Toggle Rematch"] = "Переключить Rematch"
 	L["Load this team?"] = "Загрузить эту команду?"
 	L["They do not appear to be online."] = "Они похоже не в сети."
-	L["has also been added to your leveling queue!"] = "Также добавлен в вашу очередь прокачивания!"
+	L["has also been added to your leveling queue!"] = "также добавлен в вашу очередь прокачивания!"
 	L["The team named '%s' can't be found."] = "Команда с именем '%s' не найдена"
 	L["Rematch Debug Info"] = "Информация об отладке Rematch"
 
 -- Utils.lua
-	L["Leveling Pet"] = "Питомец для прокачки"
+	L["Leveling Pet"] = "Питомец для прокачивания"
 
 -- Widgets\PetListButtons.lua
 	L["A New Pet!"] = "Новый питомец!"
@@ -32,25 +34,30 @@ if GetLocale()=="ruRU" then
 	L["Save As..."] = "Сохранить как..."
 	L["Save the currently loaded pets to a new team."] = "Сохранить загруженных в настоящее время питомцев в новой команде."
 	L["Save the currently loaded pets to the loaded team."] = "Сохранить загруженных в настоящее время питомцев в загруженной команде."
-	L["Dismiss Pet"] = "Отпутисть питомца"
+	L["Dismiss Pet"] = "Отпустить питомца"
 	L["Summon Pet"] = "Призвать питомца"
 	L["Summons a random pet from your favorites."] = "Призвать случайного питомца из ваших избранных."
 	L["Random Favorite"] = "Случайный избранный питомец"
-	L["Random From All"] = "Случайны питомец"
+	L["Random From All"] = "Случайный питомец"
 	L["All pets are at full health."] = "Любой питомец с полным здоровьем."
 	L["This treat's buff is already active."] = "Этот бафф уже активен."
-	L["%s\n\nPets At Max Level: %s%d\124r\nPets Not Collected: %s%d\124r\n\n%s Click to display more about your collection."] = "%s\n\nМакстимального уровня: %s%d\124r\nПитомцев Не собрано: %s%d\124r\n\n%s Нажмите, чтобы узнать больше о вашей коллекции."
+	L["%s\n\nPets At Max Level: %s%d\124r\nPets Not Collected: %s%d\124r\n\n%s Click to display more about your collection."] = "%s\n\nМакстимального уровня: %s%d\124r\nПитомцев не собрано: %s%d\124r\n\n%s Нажмите, чтобы узнать больше о вашей коллекции."
 
 -- Widgets\MinimapButton.lua
 	L["Load Favorite Team"] = "Загрузить избранную группу"
 	L["Favorite Teams"] = "Избранные группы"
+	
+-- Process\PetInfo.lua
+    L["Random %s"] = "Случайный %s"
+	L["Ignored Pet"] = "Игнорируемый питомец"
+	L["Unknown"] = "Неизвестный"
 
 -- Process\PetLoading.lua
 	L["You can't load a team during combat."] = "Вы не можете загрузить команду во время боя."
 	L["You can't load a team during a pet battle."] = "Вы не можете загрузить команду во время битвы питомцев."
-	L["You can't load a team in a matched pet battle."] = "Вы не можете загрузить команду во время ожидания битвы питомцев."
+	L["You can't load a team in a matched pet battle."] = "Вы не можете загрузить команду во время ожидания очереди битвы питомцев."
 	L["Loading..."] = "Загрузка..."
-	L["Pets are missing from this team!"] = "В этой команде нет боевых питомцев!"
+	L["Pets are missing from this team!"] = "В этой команде не хватает питомцев!"
 	L["Substitutes were found. Please review the loaded team and click Save if you'd like to keep the chosen pets."] = "Были найдены заменители. Проверьте загруженную команду и нажмите «Сохранить», если вы хотите сохранить выбранных питомцев."
 	L["Don't Warn About Missing Pets"] = "Не предупреждать о не хватающих питомцах"
 
@@ -58,9 +65,9 @@ if GetLocale()=="ruRU" then
 	L["Favorites"] = "Избранное"
 	L["Types"] = "Типы"
 	L["Strong Vs"] = "Сильные против"
-	L["Tough Vs"] = "Сопротивление против"
+	L["Tough Vs"] = "Устойчивые против"
 	L["Breed"] = "Порода"
-	L["Similar"] = "Аналогичный"
+	L["Similar"] = "Похожие"
 	L["Script"] = "Скрипт"
 	L["Level"] = "Уровень"
 	L["Leveling"] = "Прокачка"
@@ -76,7 +83,7 @@ if GetLocale()=="ruRU" then
 	L["Stats Search"] = "Поиск характеристик"
 
 -- Process\QueueProcess.lua
-	L["Now leveling:"] = "Начать прокачивание сейчас:"
+	L["Now leveling:"] = "Сейчас прокачивается:"
 	L["Rematch's leveling queue is empty"] = "Очередь прокачивания Rematch's пуста"
 	L["All done leveling pets!"] = "Все питомцы прокачаны!"
 
@@ -95,6 +102,13 @@ if GetLocale()=="ruRU" then
 	L["at most %d health"] = "Не более %d здоровья"
 	L["at least level %s"] = "Уровень не ниже %s"
 	L["at most level %s"] = "Уровень не выше %s"
+	
+-- Process\SpecialSlots.lua
+    L["Ignored Slot"] = "Игнорируемый слот"
+	L["Teams saved with ignored slots will not load anything into these slots."] = "Если команда будет сохранена с игнорируемым слотом то в этот слот ничего не будет загружаться, а останется тот питомец который был перед этим в слоте."
+	L["Teams saved with random slots will load a random high level pet into these slots."] = "Когда сохраненная команда с случайным слотом будет загружена, случайный питомец максимального уровня займёт этот слот.\n\nПредпочтение отдаётся питомцам не состоящим в какой либо команде и с полным здоровьем."
+	L["Random %s Pet"] = "Случайный %s питомец"
+	L["Random Pet"] = "Случайный питомец"
 
 -- Menus\Menu.lua
 	L["Help"] = "Помощь"
@@ -104,7 +118,7 @@ if GetLocale()=="ruRU" then
 	L["Change Name Or Target"] = "Изменить имя или цель"
 	L["Edit Team"] = "Редактировать команду"
 	L["Set Notes"] = "Написать или изменить заметку"
-	L["Leveling Preferences"] = "Настройки прокачивания"
+	L["Leveling Preferences"] = "Предпочтения прокачивания"
 	L["Move To"] = "Переместить в"
 	L["Move To Top"] = "Перейти в начало"
 	L["Move Up"] = "Переместить вверх"
@@ -159,13 +173,13 @@ if GetLocale()=="ruRU" then
 	L["Hybrid Counters"] = "Гибридные способности"
 	L["-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n"] = "-- Питомцы имеющие несколько видов атак, наносящих урон разным семействам питомцев.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n"
 	L["Stop Leveling This Slot"] = "Остановить прокачку этого слота"
-	L["Find Similar"] = "Найти похожие"
+	L["Find Similar"] = "Найти похожих"
 	L["Enter a new name"] = "Введите новое имя"
 	L["List %d Teams"] = "Добавлен в %d команд"
 	L["Hide Pet"] = "Скрыть питомца"
 	L["Unhide Pet"] = "Не скрывать питомца"
-	L["Slotted pets cannot be released."] = "Питомцы загруженные в слот для битвы не могут быть отпущены."
-	L["Release this pet?"] = "Отпустить этого питомца?"
+	L["Slotted pets cannot be released."] = "Питомцы загруженные в слот для битвы не могут быть выпущены на волю."
+	L["Release this pet?"] = "Отпустить на волю этого питомца?"
 	L["Once released, this pet is gone forever!"] = "После выпуска, этот питомец уйдёт навсегда!"
 	L["Slotted pets cannot be caged."] = "Питомцы загруженные в слот для битв нельзя посадить в клетку."
 	L["Injured pets cannot be caged."] = "Питомцев с неполным здоровьем нельзя посадить в клетку."
@@ -254,7 +268,7 @@ if GetLocale()=="ruRU" then
 	L["Wailing Caverns"] = "Пещеры Стенаний"
 	L["No Target"] = "Нет цели"
 	L["Noteworthy Targets"] = "Заслуживающие внимания цели"
-	L["These are noteworthy targets such as tamers and legendary pets.\n\nChoose one to view the pets you would battle.\n\nTargets with a \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t already have a team saved."] = "Это заслуживающие внимания цели, такие как укротители и легендарные питомцы. \n\nВыберите одну цель, чтобы просмотреть питомцев, с которыми вы сражались. \n\nЦели отмеченные \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t уже имеют команду."
+	L["These are noteworthy targets such as tamers and legendary pets.\n\nChoose one to view the pets you would battle.\n\nTargets with a \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t already have a team saved."] = "Это заслуживающие внимания цели, такие как укротители и легендарные питомцы. \n\nВыберите цель что бы просмотреть питомцев которые входят в её команду или собрать команду для битвы с ней, после того как команда будет собрана нажмите «Сохранить» в верхней части окна. \n\nЦели отмеченные \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t уже имеют команду."
 
 -- Dialogs\Dialog.lua
 	L["Tab:"] = "Вкладка:"
@@ -278,7 +292,7 @@ if GetLocale()=="ruRU" then
 	L["Species ID"] = nil
 	L["All versions of this pet share this unique \"species\" number."] = nil
 	L["%d Teams"] = "%d Команд"
-	L["Teams"] = "Команд"
+	L["Teams"] = "Команды"
 	L["%s Click to search for all teams that include this pet."] = "%s Нажмите, чтобы найти все команды, в которых состоит этот питомец."
 	L["%s Click to search for all versions of this pet."] = "%s Нажмите, чтобы найти все версии этого питомца."
 	L["When this team loads, your current leveling pet will go in this spot."] = "Когда эта команда будет загружена, ваш питомец для прокачивания займёт это место."
@@ -287,7 +301,7 @@ if GetLocale()=="ruRU" then
 	L["Stats At Level 25 \124cff0070ddRare"] = "Характеристики на уровне 25 \124cff0070ddRare"
 	L["No known breeds :("] = "Нет известных пород :("
 	L["When this team loads, this spot will be ignored."] = "Когда команда будет загружена, этот слот будет проигнорирован и в этом слоте останется тот питомец который загружен в текущий момент в этот слот."
-	L["When this team loads, a random high level pet will go in this spot."] = "Когда команда будет загружена, этот слот займёт случайный питомец максимального уровня"
+	L["When this team loads, a random high level pet will go in this spot."] = "Когда команда будет загружена, этот слот займёт случайный питомец максимального уровня."
 
 -- Cards\AbilityCard.lua
 	L["Vs"] = nil
@@ -321,7 +335,7 @@ if GetLocale()=="ruRU" then
 
 -- Panels\PetPanel.lua
 	L["Strong vs"] = "Сильный против"
-	L["Tough vs"] = "Сопротивление к"
+	L["Tough vs"] = "Устойчивые к"
 	L["Pets: %s%d"] = "Питомец: %s%d"
 	L["Filters: %s%s"] = "Фильтры:  %s%s"
 
@@ -333,6 +347,7 @@ if GetLocale()=="ruRU" then
 	L["Save the currently loaded pets to this target."] = "Сохранить загруженных в данный момент питомцев для этой цели."
 
 -- Panels\TeamPanel.lua
+    L["Loaded Team"] = "Загруженная команда"
 
 -- Panels\QueuePanel.lua
 	L["Ascending Level"] = "Низкий уровень"
@@ -349,8 +364,8 @@ if GetLocale()=="ruRU" then
 	L["Group favorites to the top of the queue."] = "Избранные группы в начале очереди"
 	L["Rares First"] = "Сначала редкие"
 	L["Group rares to the top of the leveling queue."] = "Группы редких питомцев в начало очереди прокачивания"
-	L["Active Sort"] = "Включить сортировку"
-	L["The queue will stay sorted in the order chosen. The order of pets may automatically change as they gain xp or get added/removed from the queue.\n\nYou cannot manually change the order of pets while the queue is actively sorted."] = "Очередь останется отсортированной в выбранном порядке. Порядок питомцев может автоматически изменяться по мере того, как они получают опыт или добавляются / удаляются из очереди. \n\nВы не можете вручную изменить порядок питомцев, пока очередь активно сортируется."
+	L["Active Sort"] = "Активная сортировка"
+	L["The queue will stay sorted in the order chosen. The order of pets may automatically change as they gain xp or get added/removed from the queue.\n\nYou cannot manually change the order of pets while the queue is actively sorted."] = "Очередь будет отсортирована в выбранном порядке. Порядок питомцев будет автоматически изменяться по мере того, как он будут получать опыт или добавляются/удаляются из очереди. \n\nВы не можете вручную изменить порядок питомцев, пока очередь активно сортируется."
 	L["Pause Preferences"] = "Приостановить предпочтения"
 	L["Suspend all preferred loading of pets from the queue, except for pets that can't load."] = "Приостановить всю предпочтительную загрузку питомцев из очереди, за исключением питомцев, которые не могут загрузится."
 	L["Fill Queue"] = "Заполнить очередь"
@@ -364,11 +379,13 @@ if GetLocale()=="ruRU" then
 	L["No Active Sort"] = "Нет активной сортировки"
 	L["Turn off Active Sort. Queued pets can then be rearranged and will not automatically reorder themselves.\n\nTo turn Active Sort back on, check %sActive Sort\124r in the Queue menu."] = "Отключить Активную Сортировку. Очередь питомцев может быть перегруппирована и не будет автоматически пере упорядочиваться. \n\nЧтобы включить Активную сортировку, проверьте %sАктивную Сортировку\124r в меню «Очередь."
 	L["Turn Off Active Sort?"] = "Отключить активную сортировку?"
-	L["Leveling Pets: %s%s"] = "Итого в очереди: %s%s"
+	L["Leveling Pets: %s%s"] = "Всего в очереди: %s%s"
 	L["Active Sort:"] = "Активная сортировка:"
 	L["Add these pets to the queue?"] = "Добавить этого питомца в очередь?"
 	L["This will add %s%d\124r pets to the leveling queue.\n\nYou can be more selective by filtering pets.\n\nFor instance, if you filter pets to High Level (15-24) and Rare, Fill Queue will only add rare pets between level 15 and 24."] = "Это добавит %s%d\124r питомцев в очередь прокачивания. \n\nВы можете быть более избирательными, фильтруя питомцев. \n\nВ случае, если вы фильтруете питомцев на высокий уровень (15-24) и Редкое, в очередь будут добавляться только редкие питомцы между 15 и 24 уровнями."
 	L["This will add %s%d\124r pets to the leveling queue."] = "Это добавит %s%d\124r питомцев в очередь прокачивания."
+	L["This pet is already in the queue and Active Sort is enabled.\n\nWhile enabled, the queue has complete control over the order of pets in the queue.\n\nDo you want to turn off Active Sort to move this pet in the queue?"] = "Этот питомец находится в очереди прокачивания и Активная сортировка включена.\n\nКогда включена Активная сортировка, очередь прокачивания полностью управляется питомцами из очереди прокачивания.\n\nВы хотите отключить Активную сортировку чтобы переместить этого питомца в очередь?"
+	L["Current Leveling Pet"] = "Текущий прокачиваемый питомец" 
 
 -- Panels\MiniQueue.lua
 
@@ -380,14 +397,14 @@ if GetLocale()=="ruRU" then
 	L["Targeting Options"] = "Параметры цели"
 	L["Auto load upon targeting only, not mouseover.\n\n\124cffff4040WARNING!\124r This is not recommended! It can be too late to load pets if you target with right click!"] = "Автоматическая загрузка только с таргетингом, а не с помощью наведения мышкой. \n\n\124cffff4040ПРЕДУПРЕЖДЕНИЕ!\124r Это не рекомендуется! Слишком поздно загрузит питомцев, если вы выбираете цель правым кликом!"
 	L["Always Show When Targeting"] = "Всегда показывать при взятии в цель"
-	L["Regardless whether a target's team is already loaded, show the Rematch window when you target something with a saved team."] = "Независимо от того, загружена ли команда цели, показывает окно Rematch, когда вы берёте в цель моба с сохраненной командой."
+	L["Regardless whether a target's team is already loaded, show the Rematch window when you target something with a saved team."] = "Независимо от того, загружена ли команда цели, показывает окно Rematch, когда вы берёте в цель NPC с сохраненной командой."
 	L["Preferred Window Mode"] = "Предпочтительный режим окна"
-	L["Minimized Standalone"] = "Минимизированный всегда"
-	L["When automatically showing the Rematch window, show the minimized standalone window."] = "При автоматическом отображении окна Rematch отобразить минимальное отдельное окно."
-	L["Maximized Standalone"] = "Максимизированный Автономный"
-	L["When automatically showing the Rematch window, show the maximized standalone window."] = "Когда автоматически показывается окно Rematch, показать максимальное Автономное окно."
-	L["Pet Journal"] = "Журнал питомцев"
-	L["When automatically showing the Rematch window, show the pet journal."] = "Когда автоматически показывается окно Rematch, показать журнал питомцев"
+	L["Minimized Standalone"] = "Минимизированный автономный"
+	L["When automatically showing the Rematch window, show the minimized standalone window."] = "Когда автоматически показывается окно Rematch, показать минимальное отдельное окно."
+	L["Maximized Standalone"] = "Максимизированный автономный"
+	L["When automatically showing the Rematch window, show the maximized standalone window."] = "Когда автоматически показывается окно Rematch, показать максимальное отдельное окно."
+	L["Pet Journal"] = "Атлас питомцев"
+	L["When automatically showing the Rematch window, show the pet journal."] = "Когда автоматически показывается окно Rematch, показать Атлас питомцев"
 	L["Standalone Window Options"] = "Параметры Автономного окна"
 	L["Use Custom Scale"] = "Пользователький масштаб"
 	L["Change the relative size of the standalone window to anywhere between 50% and 200% of its standard size."] = "Изменить относительный размер отдельного окна в любом диапазоне от 50% до 200% от его стандартного размера."
@@ -488,8 +505,8 @@ if GetLocale()=="ruRU" then
 	L["Also prefer uninjured pets when loading pets from the queue."] = "Также предпочитать питомцев  с полным здоровьем при загрузке питомцев из очереди."
 	L["Double Click To Send To Top"] = "Двойной щелчок, чтобы отправить в начало."
 	L["When a pet in the queue panel is double clicked, send it to the top of the queue instead of summoning it."] = "При двойном клике на питомца в очереди прокачивания, отправить его в верхнюю часть очереди, а не вызвать его."
-	L["Hide Leveling Pet Toast"] = "Скрыть Прокачивание Pet Toast"
-	L["Don't display the popup 'toast' when a new pet is automatically loaded from the leveling queue."] = "Не отображать всплывающее «toast», когда новый питомец  автоматически загружается из очереди прокачивания."
+	L["Hide Leveling Pet Toast"] = "Скрыть прокачивание Pet Toast"
+	L["Don't display the popup 'toast' when a new pet is automatically loaded from the leveling queue."] = "Не отображать всплывающее «Pet Toast», когда новый питомец  автоматически загружается из очереди прокачивания."
 	L["Automatically Level New Pets"] = "Автоматическое прокачивание нового питомца"
 	L["When you capture or learn a pet, automatically add it to the leveling queue."] = "Когда вы ловите или изучаете нового питомца, автоматически добавлять его в очередь прокачивания."
 	L["Only Pets Without A 25"] = "Только для питомце до 25 уровня"
@@ -527,12 +544,12 @@ if GetLocale()=="ruRU" then
 	L["Hide the more common tooltips in Rematch."] = "Скрыть более распространенные всплывающие подсказки в Rematch."
 	L["Hide Extra Help"] = "Скрыть дополнительную помощь"
 	L["Hide the informational \"Help\" items found in many menus and on the pet card."] = "Скрыть информационные элементы \"Помощь\", находящиеся во многих меню и на карточке питомца."
-	L["Use Default Pet Journal"] = "Использовать стандартный журнал питомцев"
-	L["Turn off Rematch integration with the default pet journal.\n\nYou can still use Rematch in its standalone window, accessed via key binding, /rematch command or from the Minimap button if enabled in options."] = "Отключить интеграцию Rematch со стандартным журналом питомцев. \n\nВы можете использовать Rematch в Автономном окне, доступ к которому можно выполнить с помощью команды /rematch  или с помощью кнопки Мини-карты, если она включена в параметрах."
+	L["Use Default Pet Journal"] = "Использовать стандартный Атлас питомцев"
+	L["Turn off Rematch integration with the default pet journal.\n\nYou can still use Rematch in its standalone window, accessed via key binding, /rematch command or from the Minimap button if enabled in options."] = "Отключить интеграцию Rematch со стандартным Атласом питомцев. \n\nВы можете использовать Rematch в Автономном окне, доступ к которому можно выполнить с помощью команды /rematch  или с помощью кнопки Мини-карты, если она включена в параметрах."
 	L["Rematch version %s"] = "Rematch версия %s"
 	L["The%s icon indicates new options."] = "Значок %s показывает новые параметры."
 	L["Anchor"] = "Привязка"
-	L["%s\n\n%sWARNING!\124r There may be an issue with pet toasts in ElvUI not positioning properly. While using ElvUI it's recommended pet toasts remain hidden unless you've moved alerts in ElvUI."] = "%s\n\n%sWARNING!\124r В ElvUI может возникнуть проблема с неправильным позиционированием питомцев. При использовании ElvUI рекомендуется, чтобы питомцы toasts оставались скрытыми, если вы не переместили оповещения в ElvUI."
+	L["%s\n\n%sWARNING!\124r There may be an issue with pet toasts in ElvUI not positioning properly. While using ElvUI it's recommended pet toasts remain hidden unless you've moved alerts in ElvUI."] = "%s\n\n%sWARNING!\124r В ElvUI может возникнуть проблема с неправильным позиционированием питомцев. При использовании ElvUI рекомендуется, чтобы Pet Toast оставались скрытыми, если вы переместили оповещения в ElvUI."
 	L["Bottom Right"] = "Внизу справа"
 	L["Top Right"] = "В правом верхнем углу"
 	L["Bottom Left"] = "Нижняя левая"
@@ -541,17 +558,19 @@ if GetLocale()=="ruRU" then
 	L["When the standlone window is minimized, send it to the %s corner."] = "Когда отдельное окно сведено к минимуму, отправьте его в %s угол."
 	L["Current Scale: %d%%"] = "Текущий масштаб: %d%%"
 	L["Click here to choose a different scale for the standalone window."] = "Нажмите здесь, чтобы выбрать другой масштаб для Автономного окна."
-	L["\n\n%sThis will close the journal and open the standalone window."] = "\n\n%sЭто закроет журнал и откроет Автономное окно."
+	L["\n\n%sThis will close the journal and open the standalone window."] = "\n\n%sЭто закроет Атлас питомцев и откроет Автономное окно."
 	L["Reload the UI now?"] = "Перезагрузить пользовательский интерфейс?"
 	L["You've chosen to change the setting for Compact List Format.\n\nThis change doesn't take effect until a reload or logout."] = "Вы решили изменить настройку формата Компактного списка. \n\nЭто изменение не вступает в силу до перезагрузки или выхода из системы."
 	L["Custom Scale"] = "Пользователький масштаб"
 	L["Keep this scale?"] = "Сохранить этот масштаб?"
 	L["This scale determines the relative size of the standalone window, where 100% is the standard size."] = "Эта шкала определяет относительный размер отдельного окна, где 100% является стандартным размером."
+	L["Randomize Abilities Too"] = "Случайные способности так же"
+	L["For random pets, randomize the pets' abilities also."] = "Для случайных питомцев, распределить способности случайным образом, а не так как они у Вас выбраны в атласе питомцев."
 
 -- Widgets\BottomPanel.lua
 	L["You can also double-click a pet to summon or dismiss it."] = "Вы также можете дважды щелкнуть на питомца, чтобы вызвать или отпустить его."
 	L["Disable Rematch"] = "Отключить Rematch"
-	L["Uncheck this to restore the default pet journal.\n\nYou can still use Rematch in its standlone window, accessed via key binding, /rematch command or from the Minimap button if enabled in options."] = "Снимите этот флажок, чтобы восстановить журнал боевых питомцев по умолчанию. \n\nВы можете использовать Rematch в своем отдельном окне, доступ к которому осуществляется с помощью команды /rematch или с помощью кнопки Мини-карты, если она включена в параметрах."
+	L["Uncheck this to restore the default pet journal.\n\nYou can still use Rematch in its standlone window, accessed via key binding, /rematch command or from the Minimap button if enabled in options."] = "Снимите этот флажок, чтобы восстановить Атлас боевых питомцев по умолчанию. \n\nВы можете использовать Rematch в своем отдельном окне, доступ к которому осуществляется с помощью команды /rematch или с помощью кнопки Мини-карты, если она включена в параметрах."
 
 -- Widgets\TeamTabs.lua
 	L["Edit Tab"] = "Редактировать вкладку"
@@ -563,7 +582,7 @@ if GetLocale()=="ruRU" then
 	L["Sort By Wins"] = "Сортировать по победам"
 	L["This option is disabled while Custom Sort is active."] = "Этот параметр отключен, пока Пользовательская сортировка активна."
 	L["Sort teams in this tab by their wins.\n\nFavorited teams will still list at the top."] = "Сортировать команды на этой вкладке по своим победам. \n\nИзбранные команды по-прежнему будут отображаться наверху."
-	L["Set leveling preferences for all teams within this tab.\n\nIf a team within this tab also has preferences, the tab's preferences will take priority over the team's preferences."] = "Установить параметры прокачивания для всех команд на этой вкладке. \n\nЕсли команда на этой вкладке также имеет предпочтения, предпочтения вкладки будут иметь приоритет над предпочтениями команды."
+	L["Set leveling preferences for all teams within this tab.\n\nIf a team within this tab also has preferences, the tab's preferences will take priority over the team's preferences."] = "Установить предпочтения прокачивания для всех команд на этой вкладке. \n\nЕсли команда на этой вкладке также имеет предпочтения, предпочтения вкладки будут иметь приоритет над предпочтениями команды."
 	L["Export Tab"] = "Экспортировать вкладку"
 	L["Export all teams in this tab to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] = "Экспортировать все команды на этой вкладке в строку, которую вы можете скопировать в другое место, например, форумы или электронные письма. \n\nДругие пользователи Rematch могут затем вставить эти команды в свой Rematch через команды импорта. \n\nВы можете экспортировать одну команду по правому клику мышкой выбрав в меню «Поделиться»."
 	L["Delete Tab"] = "Удалить вкладку"
@@ -589,7 +608,7 @@ if GetLocale()=="ruRU" then
 	L["Target:"] = "Цель:"
 	L["Save As.."] = "Сохранить как.."
 	L["Save this team?"] = "Сохранить эту группу?"
-	L["Save Notes & Preferences Too"] = "Сохранить примечания и настройки тоже"
+	L["Save Notes & Preferences Too"] = "Сохранить примечания и предпочтения тоже"
 	L["All teams must have a name."] = "Все команды должны иметь имя."
 	L["This target already has a team."] = "У этой цели уже есть команда."
 	L["A team already has this name."] = "У команды уже есть это имя."
@@ -611,15 +630,15 @@ if GetLocale()=="ruRU" then
 	L["Allow low-health Magic and Mechanical pets to ignore the Minimum Health, since their racials allow them to often survive a hit that would ordinarily kill them."] = "Позволяет магическим и механическим питомцам с низким уровнем здоровья игнорировать минимальное здоровье, поскольку их расы позволяют им часто выживать в результате удара, который обычно убивал бы их."
 	L["Expected damage taken"] = "Ожидаемый урон"
 	L["Tab"] = "Вкладка"
-	L["Team Preferences"] = "Настройки команды"
-	L["Tab Preferences"] = "Настройки вкладки"
+	L["Team Preferences"] = "Предпочтения команды"
+	L["Tab Preferences"] = "Предпочтения вкладки"
 	L["  For %s pets: %s%d%s"] = "  Для %s питомцев: %s%d%s"
-	L["%s %sTab Preferences"] = "%s %sНастройки вкладки"
+	L["%s %sTab Preferences"] = "%s %sПредпочтения вкладки"
 	L["%s%s Preferences Paused"] = "%s%s Предпочтения приостановлены"
 	L["%s Resume Preferences"] = "%s Возобновить предпочтение"
 	L["%s Pause Preferences"] = "%s Приостановить предпочтение"
-	L["Leveling Preferences For %s:"] = "Настройки прокачивания для %s:"
-	L["Expected Damage Taken"] = "Ожидаемый тип урона от"
+	L["Leveling Preferences For %s:"] = "Предпочтения прокачивания для %s:"
+	L["Expected Damage Taken"] = "Ожидается тип урона от"
 	L["The minimum health of pets can be adjusted by the type of damage they are expected to receive."] = "Минимальное здоровье питомцев может быть скорректировано по типу урона, который они должны получить."
 	L["Damage expected"] = "Ожидаемый урон"
 	L["  For %s pets: \124cffffd200%d"] = "  Для %s питомцев: \124cffffd200%d"
@@ -630,7 +649,7 @@ if GetLocale()=="ruRU" then
 -- Dialogs\Share.lua
 	L["Press Ctrl+C to copy these teams to the clipboard."] = "Нажмите Ctrl + C, чтобы скопировать эти команды в буфер обмена."
 	L["Press Ctrl+C to copy this team to the clipboard."] = "Нажмите Ctrl + C, чтобы скопировать эту команду в буфер обмена."
-	L["Include Preferences"] = "Включить настройки"
+	L["Include Preferences"] = "Включить предпочтения"
 	L["Include Notes"] = "Включить заметки"
 	L["Press Ctrl+V to paste a team from the clipboard."] = "Нажмите Ctrl + V, чтобы вставить команду из буфера обмена."
 	L["Only Load This Team"] = "Только загрузить команду"
@@ -693,7 +712,7 @@ if GetLocale()=="ruRU" then
 	L["Unique Pets In The Game"] = "Уникальных питомцев в игре"
 	L["Collection Statistics"] = "Статистика коллекции"
 	L["There are %s%d\124r unique pets in the game."] = "В игре есть всего %s%d\124r уникальных питомцев."
-	L["Pets Collected"] = "Питомцев Собрано"
+	L["Pets Collected"] = "Питомцев собрано"
 	L["Pets At Max Level"] = "Максимального уровня"
 	L["Total"] = "Всего"
 	L["Unique"] = "уникальных"
@@ -721,7 +740,7 @@ if GetLocale()=="ruRU" then
 
 -- Frames\Journal.lua
 	L["Enable Rematch"] = "Включить Rematch"
-	L["Check this to use Rematch in the pet journal."] = "Нажмите здесь чтобы использовать Rematch в журнале питомцев."
+	L["Check this to use Rematch in the pet journal."] = "Нажмите здесь чтобы использовать Rematch в Атласе питомцев."
 
 -- Process\Battle.lua
 	L["Show Pet Card"] = "Показать карточку питомца"
@@ -729,12 +748,5 @@ if GetLocale()=="ruRU" then
 -- Process\Breeds.lua
     L["This slot is controlled by the leveling queue.\n\nTeams saved with leveling slots will load leveling pets from the queue into these slots."] = "Этот слот предназначен для очереди прокачивания.\n\nКогда загружается команда с сохранённым слотом для прокачивания, питомец из очереди прокачивания занимает этот слот."
 	L["Leveling Slot"] = "Слот для прокачивания"
-	
--- Process\SpecialSlots.lua
-    L["Ignored Slot"] = "Игнорируемый слот"
-	L["Teams saved with ignored slots will not load anything into these slots."] = "Если команда будет сохранена с игнорируемым слотом то в этот слот ничего не будет загружаться, а останется тот питомец который был перед этим в слоте."
-	L["Teams saved with random slots will load a random high level pet into these slots."] = "Когда сохраненная команда с случайным слотом будет загружена, случайный питомец максимального уровня займёт этот слот."
-	L["Random %s Pet"] = "Случайное %s питомец"
-	L["Random Pet"] = "Случайный питомец"
-	
+
 end

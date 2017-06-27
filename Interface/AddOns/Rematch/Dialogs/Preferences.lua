@@ -198,7 +198,7 @@ function rematch:UpdatePreferencesDialog()
 	end
 
 	-- update name of team/tab
-	pref.Top.Label:SetText(format(L["Leveling Preferences For %s:"],prefSet=="team" and "Team" or "Tab"))
+	pref.Top.Label:SetText(format(L["Leveling Preferences For %s:"],prefSet=="team" and L["Team"] or L["Tab"]))
 	if prefSet=="team" then
 		pref.Top.PrefKey:SetText(rematch:GetTeamTitle(prefKey,true))
 		pref.Top.RadioTeam:SetChecked(true)

@@ -5,9 +5,6 @@ dbOHC = {
 			["firstun"] = false,
 		},
 	},
-	["profileKeys"] = {
-		["Mallusof - Tichondrius"] = "Default",
-	},
 	["global"] = {
 		["warn01_seen"] = 0,
 		["firstrun"] = false,
@@ -15,10 +12,12 @@ dbOHC = {
 		},
 		["warn02_seen"] = 0,
 	},
+	["profileKeys"] = {
+		["Mallusof - Tichondrius"] = "Default",
+	},
 	["profiles"] = {
 		["Default"] = {
 			["toggles"] = {
-				["IGNORELOW"] = false,
 				["SAVETROOPS"] = false,
 				["IGNOREINACTIVE"] = true,
 				["TROOPALERT"] = true,
@@ -27,6 +26,7 @@ dbOHC = {
 				["SPARE"] = false,
 				["NOTROOPS"] = false,
 				["MAKEITVERYQUICK"] = false,
+				["IGNORELOW"] = false,
 				["MAXCHAMP"] = 3,
 				["MAKEITQUICK"] = true,
 				["MOVEPANEL"] = true,

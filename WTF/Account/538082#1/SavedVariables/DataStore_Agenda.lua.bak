@@ -1,22 +1,22 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -33,11 +33,10 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2017-06-26|18:30|Raid Night!|1|2", -- [1]
-					"2017-07-01|18:30|Core ToS|1|9", -- [2]
-					"2017-07-02|16:00|Alt-Run ToS|1|9", -- [3]
-					"2017-07-02|18:30|Core ToS|1|9", -- [4]
-					"2017-07-03|18:30|Raid Night!|1|9", -- [5]
+					"2017-07-01|18:30|Core ToS|1|9", -- [1]
+					"2017-07-02|16:00|Alt-Run ToS|1|9", -- [2]
+					"2017-07-02|18:30|Core ToS|1|9", -- [3]
+					"2017-07-03|18:30|Raid Night!|1|9", -- [4]
 				},
 				["Contacts"] = {
 					["Meowfurryon"] = {
@@ -45,11 +44,11 @@ DataStore_AgendaDB = {
 					},
 				},
 				["DungeonIDs"] = {
-					["Tomb of Sargeras Normal|334617859"] = "79767|1498495840|0|1",
-					["Tomb of Sargeras Heroic|334627338"] = "79767|1498495840|0|1",
-					["The Arcway Mythic|334462929"] = "79767|1498495840|0|0",
+					["Tomb of Sargeras Normal|334617859"] = "48487|1498527108|0|1",
+					["Tomb of Sargeras Heroic|334627338"] = "48487|1498527108|0|1",
+					["The Arcway Mythic|334462929"] = "48487|1498527108|0|0",
 				},
-				["lastUpdate"] = 1498495888,
+				["lastUpdate"] = 1498529819,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,
@@ -60,23 +59,23 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1498418722,
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1498419220,
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1498419952,
 			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1498419220,
+			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1493618480,
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1498418423,
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1498417264,
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1498418134,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["DungeonIDs"] = {
@@ -86,8 +85,8 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1498438847,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1498418134,
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1498417264,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1498417605,

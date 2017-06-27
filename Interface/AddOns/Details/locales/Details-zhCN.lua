@@ -293,10 +293,44 @@ L["STRING_FIGHTNUMBER"] = "战斗 #"
 -- L["STRING_FORGE_HEADER_SPELLID"] = ""
 --Translation missing 
 -- L["STRING_FORGE_HEADER_TIMER"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "这个片段在此阶段不可用"
 L["STRING_FROM"] = "从"
 L["STRING_GERAL"] = "一般"
 L["STRING_GLANCING"] = "擦过"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
 L["STRING_HEAL"] = "治疗"
 L["STRING_HEAL_ABSORBED"] = "吸收治疗"
 L["STRING_HEAL_CRIT"] = "治疗暴击"
@@ -390,6 +424,10 @@ L["STRING_MIRROR_IMAGE"] = "镜像"
 L["STRING_MISS"] = "错过"
 L["STRING_MODE_ALL"] = "所有的"
 L["STRING_MODE_GROUP"] = "队伍 & 团队"
+--Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
+--Translation missing 
+-- L["STRING_MODE_OPENGUILDDAMAGERANK"] = ""
 L["STRING_MODE_PLUGINS"] = "插件"
 L["STRING_MODE_RAID"] = "插件: 团队"
 L["STRING_MODE_SELF"] = "插件: 单刷"

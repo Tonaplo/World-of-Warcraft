@@ -9,9 +9,6 @@ AdiBagsDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Mallusof - Tichondrius"] = "Default",
-	},
 	["namespaces"] = {
 		["ItemLevel"] = {
 		},
@@ -44,19 +41,6 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["DataSource"] = {
-		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -87,6 +71,19 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
+		},
 		["Junk"] = {
 		},
 		["Equipment"] = {
@@ -96,6 +93,9 @@ AdiBagsDB = {
 				},
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -115,6 +115,7 @@ AdiBagsDB = {
 			["filters"] = {
 				["ItemSets"] = false,
 			},
+			["autoDeposit"] = true,
 			["sectionFont"] = {
 				["name"] = "Prototype",
 			},

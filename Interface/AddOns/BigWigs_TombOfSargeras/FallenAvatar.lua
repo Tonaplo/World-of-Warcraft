@@ -45,6 +45,9 @@ local timers = timersHeroic
 local L = mod:GetLocale()
 if L then
 	L.touch_impact = "Touch Impact" -- Touch of Sargeras Impact (short)
+
+	L.custom_on_stop_timers = "Always show ability bars"
+	L.custom_on_stop_timers_desc = "Fallen Avatar randomizes which off-cooldown ability he uses next. When this option is enabled, the bars for those abilities will stay on your screen."
 end
 --------------------------------------------------------------------------------
 -- Initialization
@@ -54,10 +57,12 @@ local darkMarkIcons = mod:AddMarkerOption(false, "player", 6, 239739, 6, 4, 3)
 function mod:GetOptions()
 	return {
 		"stages",
+		"custom_on_stop_timers",
 		239207, -- Touch of Sargeras
 		239132, -- Rupture Realities
 		234059, -- Unbound Chaos
 		{236604, "SAY", "FLASH"}, -- Shadowy Blades
+		239212, -- Lingering Darkness
 		{236494, "TANK"}, -- Desolate
 		236528, -- Ripple of Darkness
 		233856, -- Cleansing Protocol
@@ -84,6 +89,10 @@ function mod:OnBossEnable()
 	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1", "boss2")
 	self:RegisterEvent("RAID_BOSS_WHISPER")
 	self:RegisterEvent("CHAT_MSG_RAID_BOSS_EMOTE")
+
+	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 239212) -- Lingering Darkness
+	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 239212)
+	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 239212)
 
 	-- Stage One: A Slumber Disturbed
 	self:Log("SPELL_CAST_START", "TouchofSargeras", 239207) -- Touch of Sargeras
@@ -113,6 +122,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "TaintedMatrix", 240623) -- Tainted Matrix
 	self:Log("SPELL_AURA_APPLIED", "TaintedEssence", 240728) -- Desolate
 	self:Log("SPELL_AURA_APPLIED_DOSE", "TaintedEssence", 240728) -- Desolate
+
+	self:RegisterMessage("BigWigs_BarCreated", "BarCreated")
 end
 
 function mod:OnEngage()
@@ -139,9 +150,37 @@ end
 -- Event Handlers
 --
 
+do
+	local abilitysToPause = {
+		[234059] = true, -- Unbound Chaos
+		[239207] = true, -- Touch of Sargeras
+		[236604] = true, -- Shadowy Blades
+		[239132] = true, -- Rupture Realities (P1)
+	}
+
+	local castPattern = CL.cast:gsub("%%s", ".+")
+
+	local function stopAtZeroSec(bar)
+		if bar.remaining < 0.15 then -- Pause at 0.0
+			bar:SetDuration(0.01) -- Make the bar look full
+			bar:Start()
+			bar:Pause()
+			bar:SetTimeVisibility(false)
+		end
+	end
+
+	function mod:BarCreated(_, _, bar, module, key, text, time, icon, isApprox)
+		if self:GetOption("custom_on_stop_timers") and abilitysToPause[key] and not text:match(castPattern) and text ~= L.touch_impact then
+			bar:AddUpdateFunction(stopAtZeroSec)
+		end
+	end
+end
+
 function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 	if spellId == 234057 then -- Unbound Chaos
-		self:Message(234059, "Attention", "Alert", spellName)
+		if self:Tank() then
+			self:Message(234059, "Attention", "Alert")
+		end
 		unboundChaosCounter = unboundChaosCounter + 1
 		self:Bar(234059, timers[spellId][unboundChaosCounter])
 	elseif spellId == 236573 then -- Shadowy Blades
@@ -188,7 +227,19 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
 	end
 end
 
+do
+	local prev = 0
+	function mod:GroundEffectDamage(args)
+		local t = GetTime()
+		if self:Me(args.destGUID) and t-prev > 1.5 then
+			prev = t
+			self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+		end
+	end
+end
+
 function mod:TouchofSargeras(args)
+	self:StopBar(CL.count:format(args.spellName, touchofSargerasCounter))
 	self:Message(args.spellId, "Attention", "Alert", CL.incoming:format(CL.count:format(args.spellName, touchofSargerasCounter)))
 	self:Bar(args.spellId, 10.5, L.touch_impact)
 	touchofSargerasCounter = touchofSargerasCounter + 1
@@ -252,15 +303,10 @@ do
 		if self:Me(args.destGUID) then
 			self:Flash(args.spellId)
 			self:Say(args.spellId, CL.count:format(args.spellName, #list)) -- Announce which mark you have
-
-			local _, _, _, _, _, _, expires = UnitDebuff(args.destName, args.spellName)
-			local remaining = expires-GetTime()
-			self:ScheduleTimer("Say", remaining-3, args.spellId, 3, true)
-			self:ScheduleTimer("Say", remaining-2, args.spellId, 2, true)
-			self:ScheduleTimer("Say", remaining-1, args.spellId, 1, true)
+			self:SayCountdown(args.spellId, 6)
 		end
 		if #list == 1 then
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, list, "Attention", "Alarm")
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, list, "Attention", "Alarm")
 			darkMarkCounter = darkMarkCounter + 1
 			self:Bar(args.spellId, 34, CL.count:format(args.spellName, darkMarkCounter))
 		end
@@ -274,6 +320,9 @@ do
 	end
 
 	function mod:DarkMarkRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(args.spellId)
+		end
 		if self:GetOption(darkMarkIcons) then
 			SetRaidTarget(args.destName, 0)
 		end

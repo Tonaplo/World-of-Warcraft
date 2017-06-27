@@ -242,10 +242,44 @@ L["STRING_FORGE_HEADER_OWNER"] = "소유자"
 L["STRING_FORGE_HEADER_SCHOOL"] = "속성"
 L["STRING_FORGE_HEADER_SPELLID"] = "주문ID"
 L["STRING_FORGE_HEADER_TIMER"] = "타이머"
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "이 세분화는 지금 사용할 수 없음"
 L["STRING_FROM"] = "출처:"
 L["STRING_GERAL"] = "일반"
 L["STRING_GLANCING"] = "빗맞음"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
 L["STRING_HEAL"] = "치유"
 L["STRING_HEAL_ABSORBED"] = "흡수된 치유"
 L["STRING_HEAL_CRIT"] = "극대화 치유"
@@ -338,6 +372,10 @@ L["STRING_MIRROR_IMAGE"] = "미러 이미지"
 L["STRING_MISS"] = "빗나감"
 L["STRING_MODE_ALL"] = "전체"
 L["STRING_MODE_GROUP"] = "표준"
+--Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
+--Translation missing 
+-- L["STRING_MODE_OPENGUILDDAMAGERANK"] = ""
 L["STRING_MODE_PLUGINS"] = "플러그인"
 L["STRING_MODE_RAID"] = "플러그인: 공격대"
 L["STRING_MODE_SELF"] = "플러그인: 솔로 플레이"

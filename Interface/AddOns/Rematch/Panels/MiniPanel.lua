@@ -35,7 +35,7 @@ function panel:Update()
 		rematch:FillPetSlot(button,petID)
 		-- fill in abilities (even if petID is nil)
 		for j=1,3 do
-			rematch.LoadoutPanel:FillAbilityButton(button.Abilities[j],petID,info[j])
+			rematch.LoadoutPanel:FillAbilityButton(button.Abilities[j],petID,info[j],true)
 		end
 		if petID then
 			-- xp bars

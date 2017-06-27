@@ -42,6 +42,7 @@ function mod:GetOptions()
 		230139, -- Hydra Shot
 		hydraShotMarker,
 		{230201, "TANK", "FLASH"}, -- Burden of Pain
+		230959, -- Concealing Murk
 		232722, -- Slicing Tornado
 		230358, -- Thundering Shock
 		230384, -- Consuming Hunger
@@ -66,10 +67,15 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "BurdenofPainCast", 230201)
 	self:Log("SPELL_CAST_SUCCESS", "BurdenofPain", 230201)
 
+	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 230959) -- Concealing Murk
+	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 230959)
+	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 230959)
+
 	-- Stage One: Ten Thousand Fangs
 	self:Log("SPELL_CAST_START", "SlicingTornado", 232722)
 	self:Log("SPELL_CAST_START", "ThunderingShock", 230358)
 	self:Log("SPELL_CAST_START", "ConsumingHunger", 230384, 234661) -- Stage 1 id + Stage 3 id
+	self:Log("SPELL_AURA_APPLIED", "ConsumingHungerApplied", 230384, 234661)
 
 	-- Stage Two: Terrors of the Deep
 	self:Log("SPELL_CAST_SUCCESS", "DevouringMaw", 232745)
@@ -95,7 +101,7 @@ function mod:OnEngage()
 		self:Bar(230139, 25) -- Hydra Shot
 	end
 	self:Bar(232722, 30.3) -- Slicing Tornado
-	self:Berserk(self:LFR() and 540 or 480) -- Confirmed LFR + Normal
+	self:Berserk(self:LFR() and 540 or 480)
 end
 
 --------------------------------------------------------------------------------
@@ -155,27 +161,18 @@ do
 	function mod:HydraShot(args)
 		list[#list+1] = args.destName
 		if #list == 1 then
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, list, "Important", "Warning", nil, nil, true)
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, list, "Important", "Warning", nil, nil, true)
 			self:CastBar(args.spellId, 6)
 			self:Bar(args.spellId, phase == 2 and 30 or 40)
 		end
 		if self:GetOption(hydraShotMarker) then
-			sort(iconsUnused)
-			local icon = iconsUnused[1]
-			if icon then
-				SetRaidTarget(args.destName, icon)
-				tDeleteItem(iconsUnused, icon)
-			end
+			SetRaidTarget(args.destName, #list)
 		end
 	end
 
 	function mod:HydraShotRemoved(args)
 		if self:GetOption(hydraShotMarker) then
-			local icon = GetRaidTargetIndex(args.destName)
-			if icon > 0 and icon < 5 and not tContains(iconsUnused, icon) then
-				table.insert(iconsUnused, icon)
-				SetRaidTarget(args.destName, 0)
-			end
+			SetRaidTarget(args.destName, 0)
 		end
 	end
 end
@@ -192,6 +189,17 @@ function mod:BurdenofPain(args)
 	end
 end
 
+do
+	local prev = 0
+	function mod:GroundEffectDamage(args)
+		local t = GetTime()
+		if self:Me(args.destGUID) and t-prev > 1.5 then
+			prev = t
+			self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+		end
+	end
+end
+
 function mod:SlicingTornado(args)
 	slicingTornadoCounter = slicingTornadoCounter + 1
 	self:Message(args.spellId, "Important", "Warning")
@@ -205,8 +213,17 @@ end
 
 function mod:ConsumingHunger(args)
 	consumingHungerCounter = consumingHungerCounter + 1
-	self:Message(230384, "Attention", "Alert")
 	self:Bar(230384, phase == 3 and (consumingHungerCounter == 2 and 47 or 42) or 34) -- XXX Need more p3 data.
+end
+
+do
+	local list = mod:NewTargetList()
+	function mod:ConsumingHungerApplied(args)
+		list[#list+1] = args.destName
+		if #list == 1 then
+			self:ScheduleTimer("TargetMessage", 0.3, 230384, list, "Attention", "Alert", nil, nil, true)
+		end
+	end
 end
 
 function mod:DevouringMaw(args)

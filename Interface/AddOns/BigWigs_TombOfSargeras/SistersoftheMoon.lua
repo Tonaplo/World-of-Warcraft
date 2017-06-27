@@ -56,6 +56,7 @@ function mod:GetOptions()
 		{233263, "PROXIMITY"}, -- Embrace of the Eclipse
 		236519, -- Moon Burn
 		236712, -- Lunar Beacon
+		237351, -- Lunar Barrage
 		{239264, "TANK"}, -- Lunar Fire
 	},{
 		["stages"] = "general",
@@ -98,8 +99,12 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_SUCCESS", "MoonBurn", 236518) -- Moon Burn
 	self:Log("SPELL_AURA_APPLIED", "MoonBurnApplied", 236519) -- Moon Burn
 	-- Stage Three: Wrath of Elune
-	self:Log("SPELL_CAST_START", "LunarBeacon", 236712) -- Lunar Beacon
 	self:Log("SPELL_AURA_APPLIED", "LunarBeaconApplied", 236712) -- Lunar Beacon (Debuff)
+	self:Log("SPELL_AURA_REMOVED", "LunarBeaconRemoved", 236712) -- Lunar Beacon (Debuff)
+	self:Log("SPELL_CAST_START", "LunarBeacon", 236712) -- Lunar Beacon
+	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 237351) -- Lunar Barrage
+	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 237351)
+	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 237351)
 	self:Log("SPELL_CAST_SUCCESS", "LunarFire", 239264) -- Lunar Fire
 	self:Log("SPELL_AURA_APPLIED", "LunarFireApplied", 239264) -- Lunar Fire
 	self:Log("SPELL_AURA_APPLIED_DOSE", "LunarFireApplied", 239264) -- Lunar Fire
@@ -145,7 +150,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 			self:Bar(236694, 7.3) -- Call Moontalon
 			self:Bar(236442, 11) -- Twilight Volley
 			self:Bar(236603, 15.8) -- Rapid Shot
-			
+
 			if self:Easy() and nextUltimateTimer > 0 then
 				self:Bar(233263, nextUltimateTimer) -- Embrace of the Eclipse
 			elseif nextUltimateTimer > 0 then
@@ -163,7 +168,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 			self:Bar(239264, 11) -- Lunar Fire
 			self:Bar(236442, 15.8) -- Twilight Volley
 			self:Bar(236712, 18.2) -- Lunar Beacon
-			
+
 			if self:Easy() and nextUltimateTimer > 0 then
 				self:Bar(236480, nextUltimateTimer) -- Glaive Storm
 			elseif nextUltimateTimer > 0 then
@@ -293,12 +298,23 @@ do
 	function mod:MoonBurnApplied(args)
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
-			self:ScheduleTimer("TargetMessage", 0.1, args.spellId, playerList, "Attention", "Alert")
+			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Attention", "Alert")
 		end
 	end
 end
 
 do
+	function mod:LunarBeaconApplied(args)
+		if self:Me(args.destGUID) then
+			self:SayCountdown(args.spellId, 6)
+		end
+	end
+	function mod:LunarBeaconRemoved(args)
+		if self:Me(args.destGUID) then
+			self:CancelSayCountdown(args.spellId)
+		end
+	end
+
 	local function printTarget(self, name, guid)
 		self:TargetMessage(236712, name, "Attention", "Alert")
 		if self:Me(guid) then
@@ -312,11 +328,14 @@ do
 	end
 end
 
-function mod:LunarBeaconApplied(args)
-	if self:Me(args.destGUID) then -- XXX Get debuff Duration
-		self:ScheduleTimer("Say", 3, args.spellId, 3, true)
-		self:ScheduleTimer("Say", 4, args.spellId, 2, true)
-		self:ScheduleTimer("Say", 5, args.spellId, 1, true)
+do
+	local prev = 0
+	function mod:GroundEffectDamage(args)
+		local t = GetTime()
+		if self:Me(args.destGUID) and t-prev > 1.5 then
+			prev = t
+			self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+		end
 	end
 end
 

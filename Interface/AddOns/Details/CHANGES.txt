@@ -1,7 +1,7 @@
-changeset:   647:a5f92680c464
-tag:         v7.2.5.4132.121-release
+changeset:   653:ce86162ceb5c
+tag:         v7.2.5.4201.121-release
 user:        Tercio
-date:        Fri Jun 23 19:37:18 2017 -0300
-summary:     - framework update to v53.
+date:        Mon Jun 26 14:30:17 2017 -0300
+summary:     - added localization to the Forge and History panels.
 
 

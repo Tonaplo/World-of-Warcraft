@@ -1,6 +1,6 @@
 ﻿-- Rematch zhTW.lua
--- v4.4.8
--- 2016-07-20
+-- v4.7.0
+-- 2017-06-19
 -- Translator: 彩虹ui https://www.facebook.com/rainbowui/
 
 
@@ -8,9 +8,96 @@ local _,L = ...
 
 if GetLocale()=="zhTW" then
 
+-- New strings in 4.7.1
+	L["For random pets, randomize the pets' abilities also."] = "使用隨機寵物時，也要隨機選擇寵物的技能。"
+	L["Random %s"] = "隨機%s"
+	L["This pet is already in the queue and Active Sort is enabled.\n\nWhile enabled, the queue has complete control over the order of pets in the queue.\n\nDo you want to turn off Active Sort to move this pet in the queue?"] = "這個寵物已經在等候區內，並且已經啟用主動排序。\n\n啟用時，等候區內寵物的順序是完全由等候區來控制。\n\n是否要停用主動排序以便在等候區內移動這個寵物?"
+	L["Ignored Pet"] = "已忽略的寵物"
+	L["Unknown"] = "未知"
+	L["Loaded Team"] = "已載入的隊伍"
+	L["Randomize Abilities Too"] = "也要隨機選擇技能"
+	L["Current Leveling Pet"] = "目前正在升級的寵物"
+
+-- New strings in 4.7.0
+	L["Any Type"] = "任何類型"
+	L["When this team loads, this spot will be ignored."] = "載入這個隊伍時，將會忽略此欄位。"
+	L["Leveling Slot"] = "升級欄位"
+	L["This slot is controlled by the leveling queue.\n\nTeams saved with leveling slots will load leveling pets from the queue into these slots."] = "這個欄位會保留給升級等候區使用。\n\n使用升級欄位的隊伍會從等候區中載入要升級的寵物到此欄位中。"
+	L["Random Pet"] = "隨機寵物"
+	L["When this team loads, a random high level pet will go in this spot."] = "載入這個隊伍時，此欄位會是隨機的高等級寵物。"
+	L["Deadmines"] = "死亡礦坑"
+	L["Ignored Slot"] = "忽略欄位"
+	L["Ignore This Slot"] = "忽略這個欄位"
+	L["These variables are defined as the script runs for each pet:\n\n\124cffffd200owned\124r \124cffaaaaaa(boolean)\124r\nWhether the pet is owned by the player.\n\n\124cffffd200petID\124r \124cffaaaaaa(string)\124r\nUnique ID of the owned pet, such as \"BattlePet-0-000004A98F18\".\n\n\124cffffd200speciesID\124r \124cffaaaaaa(number)\124r\nShared ID of the pet's family. Black Tabby Cats are species 42.\n\n\124cffffd200customName\124r \124cffaaaaaa(string)\124r\nName given to the pet by the player.\n\n\124cffffd200level\124r \124cffaaaaaa(number)\124r\nLevel of the pet, or nil for uncollected pets.\n\n\124cffffd200xp\124r \124cffaaaaaa(number)\124r\nAmount of xp the pet has in its current level.\n\n\124cffffd200maxXp\124r \124cffaaaaaa(number)\124r\nTotal amount of xp required to reach the pet's next level.\n\n\124cffffd200displayID\124r \124cffaaaaaa(number)\124r\nA numeric representation of a pet's model skin.\n\n\124cffffd200isFavorite\124r \124cffaaaaaa(boolean)\124r\nWhether the pet is favorited by the player.\n\n\124cffffd200name\124r \124cffaaaaaa(string)\124r\nTrue name of the pet species.\n\n\124cffffd200icon\124r \124cffaaaaaa(string)\124r\nTexture path of the pet's icon.\n\n\124cffffd200petType\124r \124cffaaaaaa(number)\124r\nValue between 1 and 10 for its type. 1=Humanoid, 2=Dragonkin, etc.\n\n\124cffffd200creatureID\124r \124cffaaaaaa(number)\124r\nThe npcID of the pet when it's summoned.\n\n\124cffffd200sourceText\124r \124cffaaaaaa(string)\124r\nFormatted text describing where the pet is from.\n\n\124cffffd200description\124r \124cffaaaaaa(string)\124r\nLore text of the species.\n\n\124cffffd200isWild\124r \124cffaaaaaa(boolean)\124r\nWhether the pet was a captured wild pet.\n\n\124cffffd200canBattle\124r \124cffaaaaaa(boolean)\124r\nWhether the pet can battle.\n\n\124cffffd200tradable\124r \124cffaaaaaa(boolean)\124r\nWhether the pet can be caged.\n\n\124cffffd200unique\124r \124cffaaaaaa(boolean)\124r\nWhether no more than one of the pet can be known at a time.\n\n\124cffffd200abilityList\124r \124cffaaaaaa(table)\124r\nArray of abilityIDs used by the species.\n\n\124cffffd200levelList\124r \124cffaaaaaa(table)\124r\nArray of levels the abilityIDs are learned.\n\nFurther information about pets can be retrieved with the \124cffffd200petInfo\124r system. See Process\\PetInfo.lua for more information."] = nil
+	L["Put Random Pet Here"] = "隨機放置寵物在這裡"
+	L["Teams saved with random slots will load a random high level pet into these slots."] = "使用隨機欄位的隊伍會載入隨機的高等級寵物到此欄位中。"
+	L["Stop Ignoring This Slot"] = "不再忽略這個欄位"
+	L["Stop Randomizing This Slot"] = "不再隨機這個欄位"
+	L["Teams saved with ignored slots will not load anything into these slots."] = "使用忽略欄位的隊伍不會載入任何寵物到此欄位中。"
+	L["Random %s Pet"] = "隨機%s寵物"
+
+-- New strings in 4.6.8
+	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = "將這個隊伍匯出成字串，以便複製到其他地方，例如討論區或電子郵件。\n\n其他使用戰寵送作隊的玩家可以透過匯入隊伍的功能，將這個隊伍貼入。"
+	L["Format this team into plain text to copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch."] = "將這個隊伍格式化成純文字，以便複製到其他地方，例如討論區或電子郵件。\n\n純文字格式是與其他未使用戰寵送作隊的玩家分享隊伍的最佳方式。"
+	L["Wailing Caverns"] = "哀嚎洞穴"
+	L["Share In Legacy Format"] = "使用傳統格式分享"
+	L["Prioritize Breed On Import"] = "匯入時以品級優先"
+	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = "特別注意：這裡只會備份你的隊伍、隊伍註記和隊伍偏好設定。不包含標籤頁資訊、排列順序、勝利記錄和其他設定。\n\n要最完整的備份所有插件資料，請備份 Word of Warcraft\\WTF 資料夾。"
+	L["When exporting teams or sending to another Rematch user, use the old format.\n\nUse this option when sharing teams with someone on an older Rematch that's unable to import or receive newer teams."] = "使用舊的格式匯出隊伍或傳送給其他戰寵送作隊使用者。\n\n使用這個選項來與舊版本、無法匯入或接收新隊伍的戰寵送作隊分享隊伍。"
+	L["%sWARNING!\124r This will %sPERMANENTLY DELETE\124r all teams in this tab!"] = "%s警告!\124r 將會 %s永遠刪除\124r 這個標籤頁面中的所有隊伍!"
+	L["Delete teams within the tab too"] = "一併刪除標籤頁面中的隊伍"
+	L["When importing or receiving teams, fill the team with the best matched breed as the first priority instead of the highest level."] = "匯入和接收隊伍時，優先使用最符合品級的寵物放入隊伍，而不是最高等級。"
+	L["Broken Isle"] = "破碎群島"
+	L["Import a single team or many teams that were exported from Rematch."] = "匯入由戰寵送作隊匯出的一個或多個隊伍。"
+	L["Copy As Plain Text"] = "複製純文字"
+
+-- New strings in 4.6.2
+	L["A New Pet!"] = "新寵物!"
+	L["%s\n\n%sWARNING!\124r There may be an issue with pet toasts in ElvUI not positioning properly. While using ElvUI it's recommended pet toasts remain hidden unless you've moved alerts in ElvUI."] = "%s\n\n%s特別注意!\124r 寵物彈出式通知在 ElvUI 中不會顯示正確的位置。使用 ElvUI 時，建議隱藏寵物彈出式通知，除非你已經在 ElvUI 中移動過通知面板的位置。"
+
+-- New strings in 4.6.1
+	L["Only Load This Team"] = "只載入隊伍"
+	L["Imported Team"] = "已匯入的隊伍"
+	L["This will only load the team and not save it.\n\nThis is for loading teams you do not intend to use more than once, like Family Familiar teams."] = "只載入但不儲存隊伍。\n\n這是用來載入不會再次使用的隊伍，例如成員十分相似的隊伍。"
+
+-- New strings in 4.6.0
+	L["This allows you to create custom pet filters with a little bit of Lua code. See the reference buttons at the top of the New Script dialog for details.\n\nTo view or edit an existing script, click the Gear icon beside the script in the menu above."] = "讓你可以建立自訂的寵物過濾方式，只需要使用一點點 LUA 程式碼。詳情請看新增腳本程式對話框上方的參考資料按鈕。\n\n要檢視或編輯已有的腳本程式，點一下上方選單中腳本程式旁的齒輪圖示。"
+	L["Or With Panel Tabs"] = "或面板標籤頁"
+	L["Group favorites to the top of the queue."] = "將最愛的寵物顯示在等候區的最上方。"
+	L["When a team loads, if any pet is injured or dead and there's another version with more health \124cffffffffand identical stats\124r, load the healthier version.\n\nPets in the leveling queue are exempt from this option.\n\n\124cffffffffNote:\124r This is only when a team loads. It will not automatically swap in healthier pets when you leave battle."] = "隊伍載入時，其中任何受傷或死亡的寵物，若有另一隻相同的寵物擁有更高的生命力和\124cffffffff完全相同的屬性\124r，便會載入這隻生命力較高的寵物。\n\n升級等候區中的寵物不適用於這個選項。\n\n\124cffffffff注意:\124r 只有載入隊伍時才會執行這個動作，戰鬥結束時並不會自動調換成生命力較高的寵物。"
+	L["Do nothing when pets within Rematch are double-clicked. The normal behavior of double click throughout Rematch is to summon or dismiss the pet."] = "滑鼠點兩下戰寵送作隊中的寵物時不要執行任何動作。一般來說，在戰寵送作隊中點兩下會召喚或解散寵物。"
+	L["Load Healthiest Pets"] = "載入生命力最高的寵物"
+	L["The script environment is restricted with access to only common Lua and the following:\n\n\124cffffd200C_PetJournal \124cffaaaaaa(table)\124r\nThe default API for journal functions.\n\n\124cffffd200C_PetBattles \124cffaaaaaa(table)\124r\nThe default API for the battle UI.\n\n\124cffffd200GetBreed \124cffaaaaaa(function)\nArgument:\124r petID\n\124cffaaaaaaReturns:\124r The numeric breed (3-12) of a petID if one of the supported breed addons is enabled.\n\n\124cffffd200GetSource \124cffaaaaaa(function)\nArgument:\124r speciesID\n\124cffaaaaaaReturns:\124r The numeric source (1-10) of a speciesID. 1=Drop, 2=Quest, etc.\n\n\124cffffd200IsPetLeveling \124cffaaaaaa(function)\nArgument:\124r petID\n\124cffaaaaaaReturns:\124r Whether the given petID is in the leveling queue.\n\nA few iterator functions are also provided if you need to compare a pet against others. These are used in a for loop such as:\n\n\124cffcccccc    for speciesID in \124cffffd200AllSpeciesIDs()\124cffcccccc do\n      -- do something with speciesID\n    end\124r\n\n\124cffffd200AllSpeciesIDs \124cffaaaaaa(iterator function)\nReturns:\124r The next speciesID of all existing unique pets.\n\n\124cffffd200AllPetIDs \124cffaaaaaa(iterator function)\nReturns:\124r The next petID of all owned pets.\n\n\124cffffd200AllPets \124cffaaaaaa(iterator function)\nReturns:\124r The next petID or speciesID of all pets in the master list. Owned pets return a petID string, uncollected pets return a speciesID number.\n\n\124cffffd200AllAbilities \124cffaaaaaa(iterator function)\nArgument:\124r speciesID\n\124cffaaaaaaReturns:\124r The next abilityID and level of the ability for a speciesID.\n\124cffffd200Note:\124r abilityList and levelList are already defined for each pet as your script runs. Use this iterator if you need to gather abilities of other pets for comparison. See the Unique Abilities script for an example.\n\n\124cffffd200If you would like anything else exposed please post a comment on wowinterface, curse or warcraftpet's Rematch 4.0 thread."] = nil
+	L["\124cffffd200-\124r Scripts are a way to create custom pet filters.\n\n\124cffffd200-\124r Scripts are Lua code and require some knowledge of the language and API to create your own filters.\n\n\124cffffd200-\124r Scripts run for each pet and should return true if the pet is to be listed.\n\n\124cffffd200-\124r Some variables are filled in as the script runs for each pet. See Pet Variables.\n\n\124cffffd200-\124r Scripts run in a restricted environment with no access outside its environment. See Exposed API.\n\n\124cffffd200-\124r All variables/tables created exist only in this environment and disappear when the filter finishes.\n\n\124cffffd200-\124r If the first line of the script is a --comment, it will be used as a tooltip in the Script menu."] = nil
+	L["Don't let the Pets, Teams, Queue or Options tabs minimize the standalone window."] = "點選寵物、隊伍、等候區或選項標籤頁時不要最小化獨立視窗。"
+	L["On Loaded Abilities Too"] = "載入的技能也是"
+	L["Group rares to the top of the leveling queue."] = "將稀有的寵物顯示在等候區的最上方。"
+	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities in all but minimized views."] = "包括彈出式按鈕，在所有已載入的技能上顯示數字 1 和 2，只有最小化的檢視不用。"
+	L["No Summon On Double Click"] = "滑鼠點兩下時不要召喚"
+	L["Rares First"] = "稀有優先"
+	L["Script Filters"] = "腳本程式過濾方式"
+
+-- New strings in 4.5.0
+	L["This is the leveling queue. Drag pets you want to level here.\n\nRight click any of the three battle pet slots and choose 'Put Leveling Pet Here' to mark it as a leveling slot you want controlled by the queue.\n\nWhile a leveling slot is active, the queue will fill the slot with the top-most pet in the queue. When this pet reaches level 25 (gratz!) it will leave the queue and the next pet in the queue will take its place.\n\nTeams saved with a leveling slot will reserve that slot for future leveling pets."] = "這是升級等候區，將想要升級的寵物拖曳到這裡。\n\n右鍵點擊3個戰寵欄位的其中任何一個並且選擇 '將要升級的寵物放在這裡'，會將這個欄位標記為升級欄位，並且交由升級等候區來控制。\n\n升級欄位啟用時，會自動將升級等候區最前面的寵物放在這個欄位中。當寵物達到 25 級後 (恭喜!) 就會離開等候區，然後由等候區中的下一個寵物接替它的位置。\n\n儲存的隊伍包含升級欄位時，會將這個欄位保留給未來要升級的寵物。"
+	L["Don't show a popup offering to backup teams every once in a while. Generally, the popup appears sometime after the number of teams increases by 50."] = "不要每隔一段時間就跳出備份隊伍的詢問選項。一般來說，當隊伍增加數量超過 50 的時候會跳出來。"
+	L["Backup All Rematch Teams?"] = "是否要備份戰寵送作隊的所有隊伍?"
+	L["Don't Remind About Backups"] = "不要提醒備份"
+	L["Choosing Yes will export all teams to copy and paste in an email to yourself or someplace safe.\n\nYou can also do this at any time from the Teams button at the top of the Teams panel of Rematch."] = "選擇 '是' 會匯出所有隊伍，以便複製貼上到電子郵件或其他安全的地方。\n\n任何時候都可以從戰寵送作隊的隊伍面板上方的隊伍按鈕來執行這個動作。"
+	L["Leveling Queue"] = "升級等候區"
+	L["You have %s%d\124r Rematch teams.\n\nWould you like to back them up?"] = "你有 %s%d\124r 個戰寵送作隊的隊伍。\n\n是否要備份隊伍資料?"
+	L["Confirmation Options"] = "確認選項"
+	L["Stop Leveling This Slot"] = "停止升級這個欄位"
+
 -- Additional strings to Template.lua
 	L["Cage this pet?"] = "是否要把這個寵物放入籠子?" -- Menus\PetMenus.lua
 	L["You are in combat. Try again when out of combat."] = "目前正在戰鬥中，請於戰鬥結束後再操作一次。" -- Frames\Frame.lua, Frames\Journal.lua
+	L["Undo"] = "還原" -- Cards\Notes.xml
+	-- rematch.breedNames = {"平/平","攻/攻","速/速","血/血","血/攻","攻/速","血/速","攻/平","速/平","血/平"} -- Process\Breeds.lua
+	
+-- New strings in 4.4.9
+	L["In addition to the filters in this menu, you can further refine the pet list with the search box. Some search examples:\n\nPets: %sBlack Tabby\124r\nZones: %sSilithus\124r\nAbilities: %sSandstorm\124r\nText in abilities: %sBleed\124r\nLevels: %slevel=21-23\124r\nStats: %sspeed>300\124r\n\nSearches in \"quotes\" will limit results to only complete matches.\n\nSearch results will be sorted by relevance unless the option %sDon't Sort By Relevance\124r is checked in the Options tab."] = "除了選單中的過濾方式之外，還可以使用搜尋框來進一步細分寵物清單。這裡列出一些搜尋範例: \n\n寵物: %s亮爪\124r\n地區: %s遊戲商城\124r\n技能: %s撕咬\124r\n技能中的文字: %s流血\124r\n等級: %slevel=21-23\124r\n屬性: %sspeed>300\124r\n\n使用 \"雙引號\" 時只會顯示完全符合的搜尋結果。\n\n搜尋結果會依據相關性排序，除非啟用選項標籤頁中的 %s不要依據相關性排序\124r。"
+	L["Change Name Or Target"] = "更改名稱或對象"
+	L["Stats Search"] = "屬性搜尋"
 
 -- New strings in 4.4.7
 	L["Don't Sort By Relevance"] = "不要依據相關性排序"
@@ -26,6 +113,8 @@ if GetLocale()=="zhTW" then
 	L["About Teams"] = "關於隊伍"
 	L["Teams named in %sWhite\124r have a target stored within them.\nTeams named in Gold do not.\n\n%sTo change pets or abilities in a team:\124r\n1) Load the team.\n2) Make any changes.\n3) Click Save at the bottom of the window."] = "有記錄對手的隊伍名稱為%s白色\124r。\n沒有對手的隊伍名稱是金色。\n\n%s要更改隊伍中的寵物或技能:\124r\n1) 載入隊伍。\n2) 做任何調整。\n3) 按視窗下面的儲存按鈕。"
 
+-- New strings in 4.0.0
+	L["Auto load upon targeting only, not mouseover.\n\n\124cffff4040WARNING!\124r This is not recommended! It can be too late to load pets if you target with right-click!"] = "選取為目標時才自動載入，而不是滑鼠指向。\n\n\124cffff4040警告!\124r 不建議使用! 如果你使用右鍵點選目標，會來不及載入寵物。"
 
 -- Main.lua
 	L["Rematch"] = "戰寵送作隊"
@@ -116,7 +205,6 @@ if GetLocale()=="zhTW" then
 	L["Edit Win Record"] = "編輯勝利記錄"
 	L["Edit Team"] = "編輯隊伍"
 	L["Set Notes"] = "設定註記"
-	L["Set Preferences"] = "設定偏好"
 	L["Move To"] = "移動至"
 	L["Move To Top"] = "移動至最上方"
 	L["Move Up"] = "往上移"
@@ -127,10 +215,6 @@ if GetLocale()=="zhTW" then
 	L["Unload Team"] = "取消載入隊伍"
 	L["Put Leveling Pet Here"] = "將要升級的寵物放在這裡"
 	L["Add a leveling pet to this team?"] = "是否要在這個隊伍中加入等候升級的寵物?"
-	L["Export As Plain Text"] = "匯出成純文字"
-	L["Export this team in plain text that you can copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = "將隊伍匯出成純文字，以便複製到其他地方，例如討論區或電子郵件。\n\n純文字是和其他尚未使用戰寵送作隊的玩家，分享隊伍最佳的方式。\n\n已經使用戰寵送作隊的玩家可以透過匯入隊伍的功能，將這個隊伍貼入。"
-	L["Export As String"] = "匯出成字串"
-	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nThe string format is best for copying multiple teams to be imported together, or for sharing teams with someone in another language.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = "將隊伍匯出成字串，以便複製到其他地方，例如討論區或電子郵件。\n\n字串格式是一次複製和匯入多個隊伍，或和其他語言的玩家分享隊伍的最佳方式。\n\n已經使用戰寵送作隊的玩家可以透過匯入隊伍的功能，將這個隊伍貼入。"
 	L["Import Team"] = "匯入隊伍"
 	L["Import a single team or many teams that was exported from Rematch."] = "匯入從戰寵送作隊匯出的一個或多個隊伍。"
 	L["Send Team"] = "傳送隊伍"
@@ -159,12 +243,15 @@ if GetLocale()=="zhTW" then
 
 -- Menus\PetMenus.lua
 	L["Unnamed Pets"] = "未命名的寵物"
+	L["-- Collected pets that still have their original name.\n\nreturn owned and not customName"] = "-- 已收集的寵物中，仍然保留原始名字的寵物。\n\nreturn owned and not customName"
 	L["Partially Leveled"] = "升級到一半的"
+	L["-- Pets that have earned some xp in battle.\n\nreturn xp and xp>0"] = "-- 在對戰中獲得經驗值的寵物。\n\nreturn xp and xp>0"
 	L["Unique Abilities"] = "擁有不重複技能"
+	L["-- Pets with abilities not shared by other pets.\n\nif not count then\n  -- create count of each ability per species\n  count = {}\n  for speciesID in AllSpeciesIDs() do\n    for abilityID in AllAbilities(speciesID) do\n      if not count[abilityID] then\n        count[abilityID] = 0\n      end\n      count[abilityID] = count[abilityID] + 1\n    end\n  end\nend\n\nfor _,abilityID in ipairs(abilityList) do\n  if count[abilityID]==1 then\n    return true\n  end\nend"] = "-- 寵物擁有獨一無二、其他寵物都沒有的技能。\n\nif not count then\n  -- create count of each ability per species\n  count = {}\n  for speciesID in AllSpeciesIDs() do\n    for abilityID in AllAbilities(speciesID) do\n      if not count[abilityID] then\n        count[abilityID] = 0\n      end\n      count[abilityID] = count[abilityID] + 1\n    end\n  end\nend\n\nfor _,abilityID in ipairs(abilityList) do\n  if count[abilityID]==1 then\n    return true\n  end\nend"
 	L["Pets Without Rares"] = "缺少稀有品質"
+	L["-- Collected battle pets that have no rare version.\n\nif not rares then\n  rares = {}\n  for petID in AllPetIDs() do\n    if select(5,C_PetJournal.GetPetStats(petID))==4 then\n      rares[C_PetJournal.GetPetInfoByPetID(petID)]=true\n    end\n  end\nend\n\nif canBattle and owned and not rares[speciesID] then\n  return true\nend"] = "-- 已收集的戰寵沒有稀有品質的版本。\n\nif not rares then\n  rares = {}\n  for petID in AllPetIDs() do\n    if select(5,C_PetJournal.GetPetStats(petID))==4 then\n      rares[C_PetJournal.GetPetInfoByPetID(petID)]=true\n    end\n  end\nend\n\nif canBattle and owned and not rares[speciesID] then\n  return true\nend"
 	L["Hybrid Counters"] = "擁有混合技能"
-	L["The Leveling Queue is empty."] = "升級等候區是空的。"
-	L["This is already the top-most leveling pet."] = "寵物已經達到最高等級。"
+	L["-- Pets with three or more attack types different than their pet type.\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n"] = "-- 擁有三個或以上非自身寵物類型的攻擊技能的寵物。\n\nlocal count = 0\nfor _,abilityID in ipairs(abilityList) do\n  local abilityType,noHints = select(7, C_PetBattles.GetAbilityInfoByID(abilityID) )\n  if not noHints and abilityType~=petType then\n    count = count + 1\n  end\nend\n\nreturn count>=3\n"
 	L["Find Similar"] = "尋找類似"
 	L["Enter a new name"] = "輸入新的名稱"
 	L["List %d Teams"] = "列出 %d 組隊伍"
@@ -240,7 +327,7 @@ if GetLocale()=="zhTW" then
 	L["Tanaan Jungle"] = "塔南森林"
 	L["No Target"] = "沒有對手"
 	L["Noteworthy Targets"] = "值得一戰的對手"
-	L["These are noteworthy targets such as tamers and legendary pets.\n\nChoose one to view the pets you would battle.\n\nTargets with a \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t already have a team saved."] = "馴獸師和傳說寵物都是值得一戰的對手。\n\n選擇其中一個來瀏覽你想要對戰的寵物。\n\n\對戰對手  124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t 已有儲存的隊伍。"
+	L["These are noteworthy targets such as tamers and legendary pets.\n\nChoose one to view the pets you would battle.\n\nTargets with a \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t already have a team saved."] = "馴獸師和傳說寵物都是值得一戰的對手。\n\n選擇一個你想要對戰的寵物來瀏覽。\n\n\標示 \124TInterface\\RaidFrame\\ReadyCheck-Ready:14\124t 的對戰對手已有儲存的隊伍。"
 
 -- Dialogs\Dialog.lua
 	L["Tab:"] = "標籤頁:"
@@ -271,7 +358,7 @@ if GetLocale()=="zhTW" then
 	L["%s Click to search for all versions of this pet."] = "%s點擊搜尋這個寵物的所有版本。"
 	L["When this team loads, your current leveling pet will go in this spot."] = "載入這個隊伍時，首要升級的寵物會出場比賽。"
 	L["This is an opponent pet."] = "這是敵對的寵物。"
-	L["All breed data pulled from %s%s\124r."] = "所有品級資料皆取自於插件 %s%s\124r。"
+	L["All breed data pulled from %s%s\124r."] = "品級資料取自於插件 %s%s\124r。"
 	L["Stats At Level 25 \124cff0070ddRare"] = "25級時的屬性\124cff0070dd稀有"
 	L["No known breeds :("] = "未知的品級 :("
 	L["Species ID"] = "寵物種類ID"
@@ -329,12 +416,7 @@ if GetLocale()=="zhTW" then
 	L["Descending Level"] = "等級由高至低"
 	L["Median Level"] = "等級中間值"
 	L["Type"] = "類型"
-	L["Queue paused."] = "已暫停等候區。"
-	L["Queue paused while in combat."] = "戰鬥中暫停等候區。"
-	L["Queue paused while in a pet battle."] = "寵物對戰中暫停等候區。"
-	L["Queue paused while queued for pet pvp."] = "等候區寵物對戰中暫停等候區。"
 	L["Queue"] = "等候區"
-	L["Drag pets you want to level here.\n\nWhen a team is saved with one of these pets, the current leveling pet will take its place when the team is loaded.\n\nWhen a pet reaches level 25 (gratz!) it will leave the queue and the next pet in the queue will become the current leveling pet.\n\nSlots with a \124cffffd200gold\124r border are controlled by the leveling queue."] = "將想要升級的寵物拖曳到這裡。\n\n當已儲存的隊伍中有這些寵物，載入隊伍時會優先使用等候區中首要升級的寵物。\n\n當寵物達到等級25 (啊嘶!) 會離開等候區，等候區中的下一個寵物會成為首要升級的寵物。\n\n\124cffffd200金色\124r邊框的欄位由升級等候區來控制。"
 	L["Sort by:"] = "排序方式:"
 	L["Sort all pets in the queue from level 1 to level 24."] = "依據等級1至24來排序等候區中的所有寵物。"
 	L["Sort all pets in the queue for levels closest to 10.5."] = "依據等級接近10.5來排序等候區中的所有寵物。"
@@ -417,7 +499,7 @@ if GetLocale()=="zhTW" then
 	L["Move the toolbar buttons (Revive Battle Pets, Battle Pet Bandages, Safari Hat, etc) to the bottom of the standalone window.\n\nAlso convert the red panel buttons (Save, Save As, Find Battle) to toolbar buttons."] = "將工具列按鈕 (復活戰寵、戰寵繃帶、狩旅團之帽...等等) 移動到獨立視窗的下方。\n\n同時將紅色面板按鈕 (儲存、另存為、尋找對戰) 顯示為工具列按鈕。"
 	L["Reverse Toolbar Buttons"] = "反向排列工具列按鈕"
 	L["Reverse the order of the toolbar buttons (Revive Battle Pets, Battle Pet Bandages, Safari Hat, etc)."] = "反向排列工具列按鈕的順序 (復活戰寵、戰寵繃帶、狩旅團之帽...等等)。"
-	L["Hide On Toolbar Right Click"] = "在工具列上點滑鼠右鍵時隱藏"
+	L["Hide On Toolbar Right Click"] = "滑鼠右鍵點擊工具列時隱藏"
 	L["When a toolbar button is used with a right click, dismiss the Rematch window after performing its action."] = "使用滑鼠右鍵點工具列按鈕時，執行按鈕動作後關閉戰寵送作隊視窗。"
 	L["Safari Hat Reminder"] = "提醒使用狩旅團之帽"
 	L["Draw attention to the safari hat button while a pet below max level is loaded.\n\nAlso show the Rematch window when a low level pet loads and the safari hat is not equipped."] = "載入不是最高等級的寵物時，明顯顯示狩旅團之帽按鈕。\n\n同時在沒有裝備狩旅團之帽並且載入低等寵物時，顯示戰寵送作隊視窗。"
@@ -558,7 +640,7 @@ if GetLocale()=="zhTW" then
 	L["Save As.."] = "另存為..."
 	L["Save this team?"] = "是否要儲存這個隊伍?"
 	L["Save Notes & Preferences Too"] = "同時同時儲存註記和偏好設定"
-	L["Save Without Leveling Slots"] = "儲存時不保留升級欄位"
+	-- L["Save Without Leveling Slots"] = "儲存時不保留升級欄位"
 	L["All teams must have a name."] = "所有隊伍都必須要有名稱。"
 	L["This target already has a team."] = "這個對手已經有隊伍。"
 	L["A team already has this name."] = "已經有隊伍使用這個名稱。"
@@ -598,18 +680,6 @@ if GetLocale()=="zhTW" then
 	L["New Team"] = "新隊伍"
 
 -- Dialogs\Share.lua
-	L["^(.-)%(.-NPC#(%d+)%)"] = nil
-	L[":([^\n]-)[%(%[]*([12]).([12]).([12])[%)%]]*.-[\n]*"] = nil
-	L[":([^\n]+)"] = nil
-	L["\n%s*Preferred leveling pets: ([^\n]+)%."] = nil
-	L["at least (%d+) health"] = nil
-	L["or any Magic/Mechanical"] = nil
-	L[".+[,%(](.-)damage expected%)"] = nil
-	L["at most (%d+) health"] = nil
-	L["at least level ([%d%.]+)"] = nil
-	L["at most level ([%d%.]+)"] = nil
-	L["^[Ll][Ee][Vv][Ee][Ll][Ii][Nn][Gg] [Pp][Ee][Tt]$"] = nil
-	L["^[Cc][Aa][Rr][Rr][Yy] [Pp][Ee][Tt]$"] = nil
 	L["%s (NPC#%d)"] = nil
 	L["%s (%s NPC#%d)"] = nil
 	L["%d: %s"] = nil
@@ -655,7 +725,6 @@ if GetLocale()=="zhTW" then
 	L["Import"] = "匯入"
 	L["%s%d\124r Rematch teams have the same name."] = "%s%d\124r 的戰寵送作隊已經有相同的隊伍名稱。"
 	L["Please Wait..."] = "請稍後..."
-	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records, specific breeds and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = "注意: 這些只有你的隊伍、相關註記和偏好設定。不包含標籤頁資訊、排序方式、勝利記錄、品級細節和其他設定。\n\n備份 Word of Warcraft\\WTF 資料夾才能備份最完整的插件資料。 "
 	L["Press Ctrl+C to copy these teams to the clipboard. Then paste them into an email to yourself or a text file someplace safe.\n\nIf you ever need to restore your teams, paste them back in with Import Teams."] = "按下 Ctrl+C 將這些隊伍複製到剪貼簿。然後便可以貼入到電子郵件中寄送給自己，或是貼入到文字檔案中，放到在某個安全的地方。\n\n當日後需要恢復隊伍時，再貼回到匯入隊伍的功能中。"
 
 -- Dialogs\Tooltip.lua
@@ -669,9 +738,6 @@ if GetLocale()=="zhTW" then
 	L["Error in %s"] = "發生錯誤於 %s"
 	L["\124TInterface\\RaidFrame\\ReadyCheck-NotReady:16\124t Error %s"] = nil
 	L["\124TInterface\\RaidFrame\\ReadyCheck-Ready:16\124t Script ran without errors!"] = nil
-	L["\124cffffd200-\124r Scripts are a way to create custom pet filters.\n\n\124cffffd200-\124r Scripts are Lua code and require some knowledge of the language and API to create your own filters.\n\n\124cffffd200-\124r Scripts run for each pet and should return true if the pet is to be listed.\n\n\124cffffd200-\124r Some variables are filled in as the script runs for each pet. See \124cffffd200Pet Variables\124r.\n\n\124cffffd200-\124r Scripts run in a restricted environment with no access outside its environment. See \124cffffd200Exposed API\124r.\n\n\124cffffd200-\124r All variables/tables created exist only in this environment and disappear when the filter finishes.\n\n\124cffffd200-\124r If the first line of the script is a --comment, it will be used as a tooltip in the Script menu."] = nil
-	L["These variables are defined as the script runs for each pet:\n\n\124cffffd200owned\124r \124cffaaaaaa(boolean)\124r\nWhether the pet is owned by the player.\n\n\124cffffd200petID\124r \124cffaaaaaa(string)\124r\nUnique ID of the owned pet, such as \"BattlePet-0-000004A98F18\".\n\n\124cffffd200speciesID\124r \124cffaaaaaa(number)\124r\nShared ID of the pet's family. Black Tabby Cats are species 42.\n\n\124cffffd200customName\124r \124cffaaaaaa(string)\124r\nName given to the pet by the player.\n\n\124cffffd200level\124r \124cffaaaaaa(number)\124r\nLevel of the pet, or nil for uncollected pets.\n\n\124cffffd200xp\124r \124cffaaaaaa(number)\124r\nAmount of xp the pet has in its current level.\n\n\124cffffd200maxXp\124r \124cffaaaaaa(number)\124r\nTotal amount of xp required to reach the pet's next level.\n\n\124cffffd200displayID\124r \124cffaaaaaa(number)\124r\nA numeric representation of a pet's model skin.\n\n\124cffffd200isFavorite\124r \124cffaaaaaa(boolean)\124r\nWhether the pet is favorited by the player.\n\n\124cffffd200name\124r \124cffaaaaaa(string)\124r\nTrue name of the pet species.\n\n\124cffffd200icon\124r \124cffaaaaaa(string)\124r\nTexture path of the pet's icon.\n\n\124cffffd200petType\124r \124cffaaaaaa(number)\124r\nValue between 1 and 10 for its type. 1=Humanoid, 2=Dragonkin, etc.\n\n\124cffffd200creatureID\124r \124cffaaaaaa(number)\124r\nThe npcID of the pet when it's summoned.\n\n\124cffffd200sourceText\124r \124cffaaaaaa(string)\124r\nFormatted text describing where the pet is from.\n\n\124cffffd200description\124r \124cffaaaaaa(string)\124r\nLore text of the species.\n\n\124cffffd200isWild\124r \124cffaaaaaa(boolean)\124r\nWhether the pet was a captured wild pet.\n\n\124cffffd200canBattle\124r \124cffaaaaaa(boolean)\124r\nWhether the pet can battle.\n\n\124cffffd200tradable\124r \124cffaaaaaa(boolean)\124r\nWhether the pet can be caged.\n\n\124cffffd200unique\124r \124cffaaaaaa(boolean)\124r\nWhether no more than one of the pet can be known at a time.\n\n\124cffffd200abilityList\124r \124cffaaaaaa(table)\124r\nArray of abilityIDs used by the species.\n\n\124cffffd200levelList\124r \124cffaaaaaa(table)\124r\nArray of levels the abilityIDs are learned."] = nil
-	L["The script environment is restricted with access to only common Lua and the following:\n\n\124cffffd200C_PetJournal \124cffaaaaaa(table)\124r\nThe default API for journal functions.\n\n\124cffffd200C_PetBattles \124cffaaaaaa(table)\124r\nThe default API for the battle UI.\n\n\124cffffd200GetBreed \124cffaaaaaa(function)\nArgument:\124r petID\n\124cffaaaaaaReturns:\124r The numeric breed (3-12) of a petID if one of the supported breed addons is enabled.\n\n\124cffffd200GetSource \124cffaaaaaa(function)\nArgument:\124r speciesID\n\124cffaaaaaaReturns:\124r The numeric source (1-10) of a speciesID. 1=Drop, 2=Quest, etc.\n\nA few iterator functions are also provided if you need to compare a pet against others. These are used in a for loop such as:\n\n\124cffcccccc    for speciesID in \124cffffd200AllSpeciesIDs()\124cffcccccc do\n      -- do something with speciesID\n    end\124r\n\n\124cffffd200AllSpeciesIDs \124cffaaaaaa(iterator function)\nReturns:\124r The next speciesID of all existing unique pets.\n\n\124cffffd200AllPetIDs \124cffaaaaaa(iterator function)\nReturns:\124r The next petID of all owned pets.\n\n\124cffffd200AllPets \124cffaaaaaa(iterator function)\nReturns:\124r The next petID or speciesID of all pets in the master list. Owned pets return a petID string, uncollected pets return a speciesID number.\n\n\124cffffd200AllAbilities \124cffaaaaaa(iterator function)\nArgument:\124r speciesID\n\124cffaaaaaaReturns:\124r The next abilityID and level of the ability for a speciesID.\n\124cffffd200Note:\124r abilityList and levelList are already defined for each pet as your script runs. Use this iterator if you need to gather abilities of other pets for comparison. See the Unique Abilities script for an example.\n\n\124cffffd200If you would like anything else exposed please post a comment on wowinterface, curse or warcraftpet's Rematch 4.0 thread."] = nil
 
 -- Dialogs\Collection.lua
 	L["Total Collected Pets"] = "全部收集的寵物"
