@@ -1,41 +1,53 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["combat_data"] = {
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "21:41:23",
-			["date_start"] = "21:40:18",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 65.0059999999994,
 		}, -- [1]
 		{
-			["date_end"] = "21:38:23",
-			["date_start"] = "21:37:11",
-			["name"] = "Dresaron",
-			["total_time"] = 72.0020000000004,
+			["Amranar"] = {
+				{
+					44.4269999999997, -- [1]
+					"Amranar", -- [2]
+					102342, -- [3]
+				}, -- [1]
+			},
+			["Steamedclamz-EmeraldDream"] = {
+				{
+					27.8829999999998, -- [1]
+					"Steamedclamz-EmeraldDream", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					61.3060000000005, -- [1]
+					"Steamedclamz-EmeraldDream", -- [2]
+					1966, -- [3]
+				}, -- [2]
+			},
+			["Etude-Anvilmar"] = {
+				{
+					40.3140000000003, -- [1]
+					"Etude-Anvilmar", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					40.5889999999999, -- [1]
+					"Etude-Anvilmar", -- [2]
+					31224, -- [3]
+				}, -- [2]
+			},
 		}, -- [2]
 		{
-			["date_end"] = "21:37:03",
-			["date_start"] = "21:36:28",
-			["name"] = "Dresaron",
-			["total_time"] = 35.0069999999996,
 		}, -- [3]
 		{
-			["date_end"] = "21:35:33",
-			["date_start"] = "21:34:40",
-			["name"] = "Oakheart",
-			["total_time"] = 53.0049999999992,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -192,52 +204,40 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["combat_data"] = {
+		{
+			["date_start"] = "21:40:18",
+			["date_end"] = "21:41:23",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 65.0059999999994,
+		}, -- [1]
+		{
+			["date_start"] = "21:37:11",
+			["date_end"] = "21:38:23",
+			["name"] = "Dresaron",
+			["total_time"] = 72.0020000000004,
+		}, -- [2]
+		{
+			["date_start"] = "21:36:28",
+			["date_end"] = "21:37:03",
+			["name"] = "Dresaron",
+			["total_time"] = 35.0069999999996,
+		}, -- [3]
+		{
+			["date_start"] = "21:34:40",
+			["date_end"] = "21:35:33",
+			["name"] = "Oakheart",
+			["total_time"] = 53.0049999999992,
+		}, -- [4]
+	},
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
-			["Amranar"] = {
-				{
-					44.4269999999997, -- [1]
-					"Amranar", -- [2]
-					102342, -- [3]
-				}, -- [1]
-			},
-			["Steamedclamz-EmeraldDream"] = {
-				{
-					27.8829999999998, -- [1]
-					"Steamedclamz-EmeraldDream", -- [2]
-					1966, -- [3]
-				}, -- [1]
-				{
-					61.3060000000005, -- [1]
-					"Steamedclamz-EmeraldDream", -- [2]
-					1966, -- [3]
-				}, -- [2]
-			},
-			["Etude-Anvilmar"] = {
-				{
-					40.3140000000003, -- [1]
-					"Etude-Anvilmar", -- [2]
-					1966, -- [3]
-				}, -- [1]
-				{
-					40.5889999999999, -- [1]
-					"Etude-Anvilmar", -- [2]
-					31224, -- [3]
-				}, -- [2]
-			},
 		}, -- [2]
 		{
 		}, -- [3]
 		{
 		}, -- [4]
-	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
 	},
 }

@@ -45,7 +45,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1498420253,
+				["lastUpdate"] = 1498621344,
 				["guildName"] = "Risen",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -84,7 +84,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1498529759,
+				["lastUpdate"] = 1498722481,
 				["Factions"] = {
 					42000, -- [1]
 					42000, -- [2]
@@ -442,7 +442,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1498438808,
+				["lastUpdate"] = 1498707791,
 				["guildName"] = "Risen",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -461,7 +461,7 @@ DataStore_ReputationsDB = {
 					[136] = 13100,
 					[140] = 14947,
 					[20] = 1000,
-					[137] = 8687,
+					[137] = 8762,
 					[19] = 1000,
 					[112] = 8999,
 					[123] = 5804,

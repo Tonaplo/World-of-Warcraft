@@ -22,11 +22,11 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-06-27",
+			["NextWeeklyReset"] = "2017-07-04",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1498420276,
+				["lastUpdate"] = 1498621628,
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1498419009,
@@ -43,12 +43,7 @@ DataStore_AgendaDB = {
 						["note"] = "",
 					},
 				},
-				["DungeonIDs"] = {
-					["Tomb of Sargeras Heroic|334627338"] = "26298|1498549297|0|1",
-					["Tomb of Sargeras Normal|334617859"] = "26298|1498549297|0|1",
-					["The Arcway Mythic|334462929"] = "26298|1498549297|0|0",
-				},
-				["lastUpdate"] = 1498549313,
+				["lastUpdate"] = 1498723736,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1498417605,
@@ -78,12 +73,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1498419952,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["DungeonIDs"] = {
-					["Tomb of Sargeras Normal|289348811"] = "136790|1498438808|0|1",
-					["The Emerald Nightmare Heroic|196885287"] = "136790|1498438808|0|1",
-					["Tomb of Sargeras Heroic|334672532"] = "136790|1498438808|0|1",
-				},
-				["lastUpdate"] = 1498438847,
+				["lastUpdate"] = 1498707833,
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1498431324,

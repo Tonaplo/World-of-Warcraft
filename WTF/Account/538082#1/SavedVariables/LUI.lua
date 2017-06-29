@@ -70,9 +70,9 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 109144546,
-							["Farahn"] = 84639936,
+							["Farahn"] = 85725851,
 							["Greybone"] = 21130876,
-							["Amranar"] = 483129493,
+							["Amranar"] = 483323493,
 							["Granjior"] = 355196593,
 							["Kaldorath"] = 149785905,
 							["Faerand"] = 114260799,
@@ -87,7 +87,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5460956726,
+							["Mallusof"] = 5508587091,
 						},
 					},
 				},
@@ -107,27 +107,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["Instance"] = {
-						["Enable"] = true,
-						["Font"] = "Prototype",
-					},
-					["Bags"] = {
-						["Font"] = "Prototype",
-					},
-					["Friends"] = {
-						["Font"] = "Prototype",
-					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
+					["Instance"] = {
+						["Enable"] = true,
+						["Font"] = "Prototype",
+					},
 					["FPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Friends"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -569,11 +569,6 @@ LUIDB = {
 						},
 						["Y"] = -200.000091552734,
 						["X"] = -350.000030517578,
-						["Aura"] = {
-							["Debuffs"] = {
-								["Enable"] = true,
-							},
-						},
 						["Bars"] = {
 							["AltPower"] = {
 								["Enable"] = true,
@@ -844,6 +839,7 @@ LUIDB = {
 					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 					["Minimap"] = {
 						["IsShown"] = true,
@@ -1874,72 +1870,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							" Is the alt raid going to be on Heroic?", -- [1]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [2]
-							" Is the alt raid going to be on Heroic?", -- [3]
-							" Inv whenever", -- [4]
-							"/s Table please", -- [5]
-							"/raid Well, you start anyway", -- [6]
-							"/raid You're gonna fuck yourself if you do", -- [7]
-							"/reload", -- [8]
-							"/cw Ëris-Windrunner They are your BiS", -- [9]
-							"/cw Ëris-Windrunner good luck! :)", -- [10]
-							"/cw Ëris-Windrunner They are your BiS", -- [11]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [1]
+							"/cw Ëris-Windrunner good luck! :)", -- [2]
+							"/cw Hangooky-Tichondrius Ye :(", -- [3]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [4]
+							"/cw Hangooky-Tichondrius Ye :(", -- [5]
+							"/SALUTE", -- [6]
+							"/cw Hangooky-Tichondrius IU should be doing better too", -- [7]
+							"/cw Ëris-Windrunner good luck! :)", -- [8]
+							"/cw Hangooky-Tichondrius Ye :(", -- [9]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [10]
+							"/cw Hangooky-Tichondrius Ye :(", -- [11]
 							"/cw Ëris-Windrunner good luck! :)", -- [12]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [13]
-							" Inv whenever", -- [14]
-							"/raid Well, you start anyway", -- [15]
-							"/reload", -- [16]
+							"/cw Hangooky-Tichondrius IU should be doing better too", -- [13]
+							"/cw Hangooky-Tichondrius Ye :(", -- [14]
+							"/cw Hangooky-Tichondrius IU should be doing better too", -- [15]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [16]
 							"/cw Ëris-Windrunner good luck! :)", -- [17]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [18]
-							"/raid Well, you start anyway", -- [19]
-							"/cw Ëris-Windrunner good luck! :)", -- [20]
-							"/raid Well, you start anyway", -- [21]
-							"/raid [WeakAuras: Farahn-Proudmoore - Mistress - Consuming Hunger]", -- [22]
-							"/raid [WeakAuras: Farahn-Proudmoore - Mistress - Hydra Shot]", -- [23]
-							"/raid ^^", -- [24]
-							"/raid Crispy", -- [25]
-							"/bw", -- [26]
-							"/cw Hangooky-Tichondrius Why do Heroic. ", -- [27]
-							"/cw Hangooky-Tichondrius That makes no sense to me, lol", -- [28]
-							"/cw Hangooky-Tichondrius Ye :(", -- [29]
-							"/cw Hangooky-Tichondrius IU should be doing better too", -- [30]
-							"/cw Hangooky-Tichondrius gtg", -- [31]
-							"/cw Hangooky-Tichondrius food before main raid", -- [32]
+							"/cw Hangooky-Tichondrius Ye :(", -- [18]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [19]
+							"/cw Hangooky-Tichondrius Ye :(", -- [20]
+							"/SALUTE", -- [21]
+							"/cw Ëris-Windrunner good luck! :)", -- [22]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [23]
+							"/cw Ëris-Windrunner good luck! :)", -- [24]
+							"/cw Hangooky-Tichondrius Ye :(", -- [25]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [26]
+							"/cw Hangooky-Tichondrius Ye :(", -- [27]
+							"/SALUTE", -- [28]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [29]
+							"/cw Hangooky-Tichondrius Ye :(", -- [30]
+							"/SALUTE", -- [31]
+							"/cw Hangooky-Tichondrius Ye :(", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Hangookie-Tichondrius should be", -- [1]
-							"/cw Hangookie-Tichondrius ye", -- [2]
-							"/cw Hangookie-Tichondrius with everyone alive", -- [3]
-							"/WA", -- [4]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Kiljaeden -  Gaze]", -- [5]
-							"/rt", -- [6]
-							" I know", -- [7]
-							" And IBs are awesome for the accidental ones", -- [8]
-							" dude", -- [9]
-							" there is", -- [10]
-							" like", -- [11]
-							" NO reason", -- [12]
-							" why we shouldnt dop it", -- [13]
-							" ahh", -- [14]
-							" ok", -- [15]
-							"/cw Blakeyboy new wisdom please", -- [16]
-							"/cw Reportmepls Dude", -- [17]
-							"/cw Reportmepls I know you're tired", -- [18]
-							"/cw Reportmepls but we need your carry", -- [19]
-							"/cw Reportmepls-Tichondrius You do mechanics :P", -- [20]
-							"/cw Ellestria-Tichondrius Even with IB though", -- [21]
-							"/cw Hangookie-Tichondrius I think it's really awesome", -- [22]
-							"/cw Hangookie-Tichondrius I really want it dead though :P", -- [23]
-							"/cw Hangookie-Tichondrius :)", -- [24]
-							"/cw Hangookie DSLKJBNFGLBKSDFHJKASDFHJKASDF", -- [25]
-							"/cw Hangookie He would have lived with in IB", -- [26]
-							"/rt", -- [27]
-							"/RT", -- [28]
-							"/cw Hangookie Do our tanks suck", -- [29]
-							"/cw Hangookie-Tichondrius Or did you guys have this problem too?", -- [30]
-							"/cw Hangookie-Tichondrius Imma say that means our tanks suck", -- [31]
-							"/g same", -- [32]
+							"/g 18 COE?", -- [1]
+							"/g lol", -- [2]
+							"/xloot", -- [3]
+							"/g 18 COE?", -- [4]
+							"/xloot", -- [5]
+							"/g lol", -- [6]
+							"/g 18 COE?", -- [7]
+							"/g lol", -- [8]
+							"/g 18 COE?", -- [9]
+							"/g lol", -- [10]
+							"/g 18 COE?", -- [11]
+							"/xloot", -- [12]
+							"/g lol", -- [13]
+							"/g 18 COE?", -- [14]
+							"/g lol", -- [15]
+							"/xloot", -- [16]
+							"/g 18 COE?", -- [17]
+							"/xloot", -- [18]
+							"/g lol", -- [19]
+							"/g 18 COE?", -- [20]
+							"/g lol", -- [21]
+							"/g 18 COE?", -- [22]
+							"/g lol", -- [23]
+							"/g 18 COE?", -- [24]
+							"/xloot", -- [25]
+							"/g 18 COE?", -- [26]
+							"/xloot", -- [27]
+							"/g lol", -- [28]
+							"/g 18 COE?", -- [29]
+							"/xloot", -- [30]
+							"/g lol", -- [31]
+							"/xloot", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2638,8 +2634,9 @@ LUIDB = {
 		},
 		["Base"] = {
 			["modules"] = {
-				["Cooldown"] = false,
 				["Merchant"] = false,
+				["Cooldown"] = false,
+				["Auras"] = true,
 			},
 			["General"] = {
 				["HideTalentSpam"] = true,

@@ -1142,7 +1142,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Energizing Smash"] = {
+			["Poison Bomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1163,7 +1163,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Arterial Cut"] = {
+			["Discharged Energy"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1191,7 +1191,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Scorched"] = {
+			["Overwhelming Corruption"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1226,7 +1226,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Poison Bomb"] = {
+			["Amber Prison"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1240,7 +1240,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Discharged Energy"] = {
+			["Reaching Attack"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1254,7 +1254,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Overwhelming Corruption"] = {
+			["Fel Bomb"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1338,7 +1338,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Slagged"] = {
+			["Frozen Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1373,7 +1373,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["On the Hunt"] = {
+			["Slagged"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1422,7 +1422,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Frozen Bolt"] = {
+			["On the Hunt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1506,12 +1506,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["228250"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
+			["Poison Cloud"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Impale"] = {
 				["isStacks"] = false,
@@ -1576,12 +1576,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Dark Parasite"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["228250"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Reshape Life"] = {
 				["isStacks"] = false,
@@ -1716,12 +1716,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Rend and Tear"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["Nightmare Javelin"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Rend Flesh"] = {
 				["isStacks"] = false,
@@ -1765,12 +1765,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Nightmare Javelin"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
+			["Fel Chakram"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Fel Touch"] = {
 				["isStacks"] = false,
@@ -1821,7 +1821,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Fel Chakram"] = {
+			["Rend and Tear"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1870,7 +1870,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Wind Storm"] = {
+			["Savage Vines"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1884,7 +1884,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Phantasmal Wounds"] = {
+			["Wind Storm"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -1898,12 +1898,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Font of Corruption"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["Bellowing Roar"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Cobalt Mine Blast"] = {
 				["isStacks"] = false,
@@ -1926,12 +1926,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Bellowing Roar"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
+			["Hex of Confusion"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Vengeful Strikes"] = {
 				["isStacks"] = false,
@@ -1947,7 +1947,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Hex of Confusion"] = {
+			["Font of Corruption"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2143,6 +2143,13 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
+			["206883"] = {
+				["isStacks"] = true,
+				["animate"] = false,
+				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
+			},
 			["Touch of Corruption"] = {
 				["isStacks"] = true,
 				["animate"] = false,
@@ -2156,13 +2163,6 @@ VUHDO_CONFIG = {
 				["isIcon"] = true,
 				["isColor"] = false,
 				["timer"] = true,
-			},
-			["206883"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
-				["isIcon"] = true,
 			},
 			["Unleashed Wrath"] = {
 				["isStacks"] = false,
@@ -2213,7 +2213,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Devastating Arc"] = {
+			["Keen Eyesight"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2367,7 +2367,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Arcane Shock"] = {
+			["Penetrating Bolt"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -2388,12 +2388,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["228519"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["timer"] = true,
-				["isColor"] = false,
+			["Arcane Shock"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Shared Fate"] = {
 				["isStacks"] = false,
@@ -2402,12 +2402,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Penetrating Bolt"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["228519"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Desecrate"] = {
 				["isStacks"] = false,
@@ -3452,19 +3452,19 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
+			["Devastating Arc"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
 			["Mark of Lethon"] = {
 				["isStacks"] = true,
 				["animate"] = false,
 				["timer"] = true,
 				["isColor"] = false,
 				["isIcon"] = true,
-			},
-			["Keen Eyesight"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
-				["timer"] = true,
 			},
 			["Prototype Pulse Grenade"] = {
 				["isStacks"] = false,
@@ -3585,7 +3585,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Savage Vines"] = {
+			["Phantasmal Wounds"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -3690,7 +3690,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Poison Cloud"] = {
+			["Dark Parasite"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -3809,21 +3809,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Fel Bomb"] = {
+			["Scorched"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Reaching Attack"] = {
+			["Arterial Cut"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Amber Prison"] = {
+			["Energizing Smash"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -4018,9 +4018,9 @@ VUHDO_PANEL_SETUP = {
 			["scale"] = 1,
 			["relativePoint"] = "BOTTOMLEFT",
 			["orientation"] = "TOP",
-			["height"] = 209,
+			["height"] = 41,
 			["growth"] = "TOP",
-			["width"] = 454.000030517578,
+			["width"] = 89.9999847412109,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -4031,6 +4031,7 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "HIGH",
 		["MODEL"] = {
+			["sort"] = 6,
 			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -4042,7 +4043,6 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
-			["sort"] = 6,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -6884,9 +6884,9 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL6"] = "",
 	["SPELL13"] = "",
 	["HOSTILE_WHEEL"] = {
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
+		["alt1"] = {
+			"ALT-", -- [1]
+			"-w3", -- [2]
 			"", -- [3]
 		},
 		["altctrl2"] = {
@@ -6894,9 +6894,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -6904,9 +6904,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -6919,9 +6919,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["ctrl1"] = {
-			"CTRL-", -- [1]
-			"-w5", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
 		["altctrl1"] = {
@@ -6929,9 +6929,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["altctrlshift2"] = {
-			"ALT-CTRL-SHIFT-", -- [1]
-			"-w16", -- [2]
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
 			"", -- [3]
 		},
 		["altshift2"] = {
@@ -6939,9 +6939,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w12", -- [2]
 			"", -- [3]
 		},
-		["alt2"] = {
-			"ALT-", -- [1]
-			"-w4", -- [2]
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"-w16", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift1"] = {
@@ -6954,9 +6954,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["alt1"] = {
-			"ALT-", -- [1]
-			"-w3", -- [2]
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
 			"", -- [3]
 		},
 		["ctrl2"] = {
@@ -6971,37 +6971,29 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL16"] = "",
 	["INTERNAL"] = {
 		{
-			"Flash Heal", -- [1]
+			"Shadow Mend", -- [1]
 			"3", -- [2]
 		}, -- [1]
 		{
-			"Prayer of Mending", -- [1]
-			"SHIFT-2", -- [2]
+			"Power Word: Shield", -- [1]
+			"4", -- [2]
 		}, -- [2]
 		{
-			"Holy Word: Serenity", -- [1]
+			"Plea", -- [1]
 			"F", -- [2]
 		}, -- [3]
 		{
-			"Prayer of Healing", -- [1]
+			"Power Word: Radiance", -- [1]
 			"Q", -- [2]
 		}, -- [4]
 		{
-			"Guardian Spirit", -- [1]
+			"Pain Suppression", -- [1]
 			"SHIFT-T", -- [2]
 		}, -- [5]
 		{
 			"Leap of Faith", -- [1]
 			"T", -- [2]
 		}, -- [6]
-		{
-			"Heal", -- [1]
-			"SHIFT-3", -- [2]
-		}, -- [7]
-		{
-			"Renew", -- [1]
-			"SHIFT-1", -- [2]
-		}, -- [8]
 	},
 	["SPELL7"] = "",
 	["SPELL12"] = "",
@@ -7009,13 +7001,10 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL9"] = "",
 	["SPELL10"] = "",
 	["SPELL14"] = "",
-	["SPELL11"] = "",
-	["SPELL8"] = "",
-	["SPELL1"] = "",
 	["WHEEL"] = {
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
+		["alt1"] = {
+			"ALT-", -- [1]
+			"-w3", -- [2]
 			"", -- [3]
 		},
 		["altctrl2"] = {
@@ -7023,9 +7012,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7033,9 +7022,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7048,9 +7037,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["ctrl1"] = {
-			"CTRL-", -- [1]
-			"-w5", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
 		["altctrl1"] = {
@@ -7058,9 +7047,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["altctrlshift2"] = {
-			"ALT-CTRL-SHIFT-", -- [1]
-			"-w16", -- [2]
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
 			"", -- [3]
 		},
 		["altshift2"] = {
@@ -7068,9 +7057,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w12", -- [2]
 			"", -- [3]
 		},
-		["alt2"] = {
-			"ALT-", -- [1]
-			"-w4", -- [2]
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"-w16", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift1"] = {
@@ -7083,9 +7072,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["alt1"] = {
-			"ALT-", -- [1]
-			"-w3", -- [2]
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
 			"", -- [3]
 		},
 		["ctrl2"] = {
@@ -7094,6 +7083,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"", -- [3]
 		},
 	},
+	["SPELL8"] = "",
+	["SPELL1"] = "",
+	["SPELL11"] = "",
 }
 VUHDO_SPELL_CONFIG = {
 	["IS_FIRE_HOT"] = false,
@@ -7124,166 +7116,31 @@ VUHDO_BUFF_ORDER = {
 }
 VUHDO_SPEC_LAYOUTS = {
 	["1"] = "Disc",
-	["selected"] = "Holy",
+	["selected"] = "Disc",
 	["2"] = "Holy",
 }
-VUHDO_GROUP_SIZE = 21
+VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
-	["raid14"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "DRUID",
-		["role"] = 63,
-		["sortMaxHp"] = 3993240,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 1100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Ellestria",
-		["number"] = 14,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 27,
-		["range"] = true,
-		["unit"] = "raid14",
-		["powertype"] = 0,
-		["healthmax"] = 3993240,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Ellestria",
-		["power"] = 1100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid14target",
-		["health"] = 3993240,
-		["className"] = "Druid",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet14",
-	},
-	["raidpet21"] = {
-		["number"] = 21,
-		["targetUnit"] = "raidpet21target",
-		["visible"] = true,
-		["isVehicle"] = false,
-		["group"] = 0,
-		["classId"] = 40,
-		["range"] = true,
-		["unit"] = "raidpet21",
-		["zone"] = "Tomb of Sargeras",
-		["debuff"] = 0,
-		["healthmax"] = 1786800,
-		["baseRange"] = true,
-		["afk"] = false,
-		["sortMaxHp"] = 1786800,
-		["class"] = "DEATHKNIGHT",
-		["dead"] = false,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["fullName"] = "Eyeboil",
-		["power"] = 100,
-		["aggro"] = false,
-		["powertype"] = 3,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["charmed"] = false,
-		["name"] = "Eyeboil",
-		["className"] = "Eyeboil",
-		["powermax"] = 100,
-		["ownerUnit"] = "raid21",
-		["connected"] = true,
-		["health"] = 1786800,
-	},
-	["raid18"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "HUNTER",
-		["role"] = 62,
-		["sortMaxHp"] = 4104060,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 130,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Daoxu",
-		["number"] = 18,
-		["isVehicle"] = false,
-		["group"] = 4,
-		["classId"] = 22,
-		["range"] = true,
-		["unit"] = "raid18",
-		["powertype"] = 2,
-		["healthmax"] = 4104060,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Daoxu",
-		["power"] = 130,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid18target",
-		["health"] = 4104060,
-		["className"] = "Hunter",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet18",
-	},
-	["raid10"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "ROGUE",
-		["role"] = 61,
-		["sortMaxHp"] = 4208820,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 170,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Slicedlol",
-		["number"] = 10,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 21,
-		["range"] = true,
-		["unit"] = "raid10",
-		["powertype"] = 3,
-		["healthmax"] = 4208820,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Slicedlol",
-		["power"] = 170,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid10target",
-		["health"] = 4208820,
-		["className"] = "Rogue",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet10",
-	},
 	["player"] = {
-		["zone"] = "Tomb of Sargeras",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
 		["role"] = 63,
-		["sortMaxHp"] = 4084380,
-		["map"] = "TombRaid",
+		["sortMaxHp"] = 4081200,
+		["map"] = "Dalaran70",
 		["threat"] = 0,
 		["powermax"] = 1155000,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Mallusof",
-		["number"] = 16,
+		["number"] = 1,
 		["isVehicle"] = false,
-		["group"] = 4,
+		["group"] = 1,
 		["classId"] = 28,
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 4084380,
+		["healthmax"] = 4081200,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Mallusof",
@@ -7291,689 +7148,12 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 4084380,
+		["health"] = 4081200,
 		["className"] = "Priest",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["raid13"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "HUNTER",
-		["role"] = 62,
-		["sortMaxHp"] = 4003740,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 130,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Insentience",
-		["number"] = 13,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 22,
-		["range"] = true,
-		["unit"] = "raid13",
-		["powertype"] = 2,
-		["healthmax"] = 4003740,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Insentience",
-		["power"] = 130,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid13target",
-		["health"] = 4003740,
-		["className"] = "Hunter",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet13",
-	},
-	["raid4"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "PALADIN",
-		["role"] = 61,
-		["sortMaxHp"] = 4342920,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 220000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Galavantt",
-		["number"] = 4,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 23,
-		["range"] = true,
-		["unit"] = "raid4",
-		["powertype"] = 0,
-		["healthmax"] = 4342920,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Galavantt",
-		["power"] = 220000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid4target",
-		["health"] = 4342920,
-		["className"] = "Paladin",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet4",
-	},
-	["raid9"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "ROGUE",
-		["role"] = 61,
-		["sortMaxHp"] = 4152180,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 170,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Tetsunochi",
-		["number"] = 9,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 21,
-		["range"] = true,
-		["unit"] = "raid9",
-		["powertype"] = 3,
-		["healthmax"] = 4152180,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Tetsunochi",
-		["power"] = 170,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid9target",
-		["health"] = 4152180,
-		["className"] = "Rogue",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet9",
-	},
-	["raid3"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "PALADIN",
-		["role"] = 61,
-		["sortMaxHp"] = 4111500,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 220000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Blakeyboy",
-		["number"] = 3,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 23,
-		["range"] = true,
-		["unit"] = "raid3",
-		["powertype"] = 0,
-		["healthmax"] = 4111500,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Blakeyboy",
-		["power"] = 220000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid3target",
-		["health"] = 4111500,
-		["className"] = "Paladin",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet3",
-	},
-	["focus"] = {
-		["number"] = 0,
-		["isVehicle"] = false,
-		["visible"] = true,
-		["targetUnit"] = "focustarget",
-		["group"] = 0,
-		["class"] = "ROGUE",
-		["range"] = false,
-		["unit"] = "focus",
-		["zone"] = "Tomb of Sargeras",
-		["debuff"] = 0,
-		["healthmax"] = 4574703104,
-		["baseRange"] = false,
-		["afk"] = false,
-		["sortMaxHp"] = 4574703104,
-		["classId"] = 21,
-		["dead"] = false,
-		["map"] = "TombRaid",
-		["connected"] = false,
-		["fullName"] = "Fallen Avatar",
-		["power"] = 0,
-		["aggro"] = false,
-		["powertype"] = 3,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["charmed"] = false,
-		["name"] = "Fallen Avatar",
-		["className"] = "Fallen Avatar",
-		["powermax"] = 100,
-		["role"] = 61,
-		["health"] = 4574703104,
-		["threat"] = 0,
-	},
-	["raid12"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "WARLOCK",
-		["role"] = 62,
-		["sortMaxHp"] = 4276380,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 1100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Arkator",
-		["number"] = 12,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 25,
-		["range"] = true,
-		["unit"] = "raid12",
-		["powertype"] = 0,
-		["healthmax"] = 4276380,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Arkator",
-		["power"] = 1100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid12target",
-		["health"] = 4276380,
-		["className"] = "Warlock",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet12",
-	},
-	["raid20"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "DRUID",
-		["role"] = 63,
-		["sortMaxHp"] = 4085220,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 1100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Sombrador",
-		["number"] = 20,
-		["isVehicle"] = false,
-		["group"] = 4,
-		["classId"] = 27,
-		["range"] = true,
-		["unit"] = "raid20",
-		["powertype"] = 0,
-		["healthmax"] = 4085220,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Sombrador",
-		["power"] = 1100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid20target",
-		["health"] = 4085220,
-		["className"] = "Druid",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet20",
-	},
-	["raidpet12"] = {
-		["number"] = 12,
-		["isVehicle"] = false,
-		["visible"] = true,
-		["zone"] = "Tomb of Sargeras",
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raidpet12",
-		["targetUnit"] = "raidpet12target",
-		["debuff"] = 0,
-		["healthmax"] = 1710552,
-		["baseRange"] = true,
-		["class"] = "WARRIOR",
-		["sortMaxHp"] = 1710552,
-		["classId"] = 40,
-		["dead"] = false,
-		["map"] = "TombRaid",
-		["connected"] = true,
-		["fullName"] = "Akkrath",
-		["power"] = 100,
-		["aggro"] = false,
-		["powertype"] = 3,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["threat"] = 0,
-		["name"] = "Akkrath",
-		["className"] = "Akkrath",
-		["powermax"] = 100,
-		["ownerUnit"] = "raid12",
-		["charmed"] = false,
-		["health"] = 1710552,
-	},
-	["raid17"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "PRIEST",
-		["role"] = 62,
-		["sortMaxHp"] = 4375440,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Tafè",
-		["number"] = 17,
-		["isVehicle"] = false,
-		["group"] = 4,
-		["classId"] = 28,
-		["range"] = true,
-		["unit"] = "raid17",
-		["powertype"] = 13,
-		["healthmax"] = 4375440,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Tafè",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid17target",
-		["health"] = 4375440,
-		["className"] = "Priest",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet17",
-	},
-	["raid5"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "WARRIOR",
-		["role"] = 61,
-		["sortMaxHp"] = 5361645,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 105,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Búî",
-		["number"] = 5,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 20,
-		["range"] = true,
-		["unit"] = "raid5",
-		["powertype"] = 1,
-		["healthmax"] = 5361645,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Búî",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid5target",
-		["health"] = 5361645,
-		["className"] = "Warrior",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet5",
-	},
-	["raid7"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "DEMONHUNTER",
-		["role"] = 61,
-		["sortMaxHp"] = 4069320,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 140,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Nîne",
-		["number"] = 7,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 31,
-		["range"] = true,
-		["unit"] = "raid7",
-		["powertype"] = 17,
-		["healthmax"] = 4069320,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Nîne",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid7target",
-		["health"] = 4069320,
-		["className"] = "Demon Hunter",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet7",
-	},
-	["raid6"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "MONK",
-		["role"] = 60,
-		["sortMaxHp"] = 6790618,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 100,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Ileiaris",
-		["number"] = 6,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 30,
-		["range"] = true,
-		["unit"] = "raid6",
-		["powertype"] = 3,
-		["healthmax"] = 6790618,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Ileiaris",
-		["power"] = 100,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid6target",
-		["health"] = 6790618,
-		["className"] = "Monk",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet6",
-	},
-	["raid2"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "PALADIN",
-		["role"] = 61,
-		["sortMaxHp"] = 4185600,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 220000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Acekicker",
-		["number"] = 2,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 23,
-		["range"] = true,
-		["unit"] = "raid2",
-		["powertype"] = 0,
-		["healthmax"] = 4185600,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Acekicker",
-		["power"] = 220000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid2target",
-		["health"] = 4185600,
-		["className"] = "Paladin",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet2",
-	},
-	["raid8"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "MONK",
-		["role"] = 61,
-		["sortMaxHp"] = 4186200,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 140,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Coaxed",
-		["number"] = 8,
-		["isVehicle"] = false,
-		["group"] = 2,
-		["classId"] = 30,
-		["range"] = true,
-		["unit"] = "raid8",
-		["powertype"] = 3,
-		["healthmax"] = 4186200,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Coaxed",
-		["power"] = 140,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid8target",
-		["health"] = 4186200,
-		["className"] = "Monk",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet8",
-	},
-	["raidpet11"] = {
-		["number"] = 11,
-		["isVehicle"] = false,
-		["visible"] = true,
-		["zone"] = "Tomb of Sargeras",
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "raidpet11",
-		["targetUnit"] = "raidpet11target",
-		["debuff"] = 0,
-		["healthmax"] = 1291284,
-		["baseRange"] = true,
-		["class"] = "WARLOCK",
-		["sortMaxHp"] = 1291284,
-		["classId"] = 40,
-		["dead"] = false,
-		["map"] = "TombRaid",
-		["connected"] = true,
-		["fullName"] = "Pagnam",
-		["power"] = 200,
-		["aggro"] = false,
-		["powertype"] = 3,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["threat"] = 0,
-		["name"] = "Pagnam",
-		["className"] = "Pagnam",
-		["powermax"] = 200,
-		["ownerUnit"] = "raid11",
-		["charmed"] = false,
-		["health"] = 1291284,
-	},
-	["raid1"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "PALADIN",
-		["role"] = 60,
-		["sortMaxHp"] = 7251878,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 220000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Kalithumos",
-		["number"] = 1,
-		["isVehicle"] = false,
-		["group"] = 1,
-		["classId"] = 23,
-		["range"] = true,
-		["unit"] = "raid1",
-		["powertype"] = 0,
-		["healthmax"] = 7251878,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Kalithumos",
-		["power"] = 220000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid1target",
-		["health"] = 7251878,
-		["className"] = "Paladin",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet1",
-	},
-	["raid21"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "DEATHKNIGHT",
-		["role"] = 61,
-		["sortMaxHp"] = 4467000,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 120,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Zaelsynth",
-		["number"] = 21,
-		["isVehicle"] = false,
-		["group"] = 5,
-		["classId"] = 29,
-		["range"] = true,
-		["unit"] = "raid21",
-		["powertype"] = 6,
-		["healthmax"] = 4467000,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Zaelsynth",
-		["power"] = 0,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid21target",
-		["health"] = 4467000,
-		["className"] = "Death Knight",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet21",
-	},
-	["raid19"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "MAGE",
-		["role"] = 62,
-		["sortMaxHp"] = 4201260,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 1100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Kaligon",
-		["number"] = 19,
-		["isVehicle"] = false,
-		["group"] = 4,
-		["classId"] = 24,
-		["range"] = true,
-		["unit"] = "raid19",
-		["powertype"] = 0,
-		["healthmax"] = 4201260,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Kaligon",
-		["power"] = 1100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid19target",
-		["health"] = 4201260,
-		["className"] = "Mage",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet19",
-	},
-	["raid11"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "WARLOCK",
-		["role"] = 62,
-		["sortMaxHp"] = 4304280,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 1100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Reportmepls",
-		["number"] = 11,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 25,
-		["range"] = true,
-		["unit"] = "raid11",
-		["powertype"] = 0,
-		["healthmax"] = 4304280,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Reportmepls",
-		["power"] = 1100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid11target",
-		["health"] = 4304280,
-		["className"] = "Warlock",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet11",
-	},
-	["raid15"] = {
-		["zone"] = "Tomb of Sargeras",
-		["baseRange"] = true,
-		["class"] = "PALADIN",
-		["role"] = 63,
-		["sortMaxHp"] = 4440633,
-		["map"] = "TombRaid",
-		["threat"] = 0,
-		["powermax"] = 1100000,
-		["threatPerc"] = 0,
-		["isPet"] = false,
-		["name"] = "Hangookie",
-		["number"] = 15,
-		["isVehicle"] = false,
-		["group"] = 3,
-		["classId"] = 23,
-		["range"] = true,
-		["unit"] = "raid15",
-		["powertype"] = 0,
-		["healthmax"] = 4440633,
-		["dead"] = false,
-		["charmed"] = false,
-		["fullName"] = "Hangookie",
-		["power"] = 1100000,
-		["aggro"] = false,
-		["visible"] = true,
-		["targetUnit"] = "raid15target",
-		["health"] = 4440633,
-		["className"] = "Paladin",
-		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
-		["petUnit"] = "raidpet15",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7998,9 +7178,9 @@ VUHDO_INDICATOR_CONFIG = {
 		},
 		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: All Powers",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
 		["DAMAGE_FLASH_BAR"] = "",
 		["SIDE_LEFT"] = "",

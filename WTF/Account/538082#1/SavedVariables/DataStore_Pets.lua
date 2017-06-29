@@ -184,7 +184,7 @@ DataStore_PetsDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1498420253,
+				["lastUpdate"] = 1498621345,
 				["CRITTER"] = {
 					225200, -- [1]
 					173542, -- [2]
@@ -200,7 +200,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1498419004,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1498549296,
+				["lastUpdate"] = 1498723426,
 				["CRITTER"] = {
 					179831, -- [1]
 					170287, -- [2]
@@ -415,7 +415,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1498438808,
+				["lastUpdate"] = 1498707791,
 				["CRITTER"] = {
 					225200, -- [1]
 					195370, -- [2]

@@ -1,9 +1,16 @@
 
 dbOHC = {
 	["char"] = {
+		["Farahn - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Mallusof - Tichondrius"] = {
 			["firstun"] = false,
 		},
+	},
+	["profileKeys"] = {
+		["Farahn - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
 	},
 	["global"] = {
 		["warn01_seen"] = 0,
@@ -11,9 +18,6 @@ dbOHC = {
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
-	},
-	["profileKeys"] = {
-		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -25,8 +29,8 @@ dbOHC = {
 				["SORTMISSION"] = "Garrison_SortMissions_Class",
 				["SPARE"] = false,
 				["NOTROOPS"] = false,
-				["MAKEITVERYQUICK"] = false,
 				["IGNORELOW"] = false,
+				["MAKEITVERYQUICK"] = false,
 				["MAXCHAMP"] = 3,
 				["MAKEITQUICK"] = true,
 				["MOVEPANEL"] = true,

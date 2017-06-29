@@ -1,17 +1,15 @@
 # BigWigs
 
-## [v60.1](https://github.com/BigWigsMods/BigWigs/tree/v60.1) (2017-06-27)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v60...v60.1)
+## [v61.1](https://github.com/BigWigsMods/BigWigs/tree/v61.1) (2017-06-29)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v61...v61.1)
 
-- TombOfSargeras/Goroth: Cleanup crashing comet.  
-- TombOfSargeras/SistersoftheMoon: Tweak do block  
-- TombOfSargeras: Use :SayCountdown and cleanup UnitDebuff usage.  
-- Core/BossPrototype: Change the 2nd arg to expect seconds, not time.  
-- FallenAvatar: Fix multiple Touch of Sargeras bars  
-- TombOfSargeras: Increase some scheduled message timer values that are too low.  
-- TombOfSargeras/Sasszine: Cleanup marker code.  
-- TheDesolateHost: Fix Lua error  
-- TombOfSargeras: update berserk timers  
-- TombOfSargeras/Harjatan: fix berserk  
-- Sasszine: Fix option error  
-- Kiljaeden: Add bars for add spawns  
+- TombOfSargeras: CDBar tweaks  
+- Update zhTW.lua (#285)  
+- TombOfSargeras/Goroth: LFR timer fixes  
+- Plugins/Statistics: Stop logging old difficulties.  
+- Core/BossPrototype: Safety check  
+- TombOfSargeras/MaidenofVigilance: Fix mythic unstable soul  
+- TombOfSargeras/SistersoftheMoon: Fix double say for beacon  
+- Core/BossPrototype: Move the say table creation to OnEnable.  
+- DemonicInquisition: minor optimization  
+- DemonicInquisition: Fix option error  

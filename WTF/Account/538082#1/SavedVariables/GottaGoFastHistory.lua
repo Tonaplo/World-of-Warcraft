@@ -1377,6 +1377,130 @@ GottaGoFastHistoryDB = {
 							},
 							["level"] = 8,
 						}, -- [5]
+						{
+							["corrupt"] = false,
+							["deaths"] = 11,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+								[13] = {
+									["name"] = "Explosive",
+									["desc"] = "While in combat, enemies periodically summon Explosive Orbs that will detonate if not destroyed.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 15779.756,
+							["timeStamp"] = {
+								["day"] = 28,
+								["month"] = 6,
+								["hours"] = 23,
+								["mins"] = 33,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zaelsynth",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Galavantt",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 14633.55,
+							["objectiveTimes"] = {
+								"05:41.402", -- [1]
+								"14:21.248", -- [2]
+								"20:00.616", -- [3]
+								"15:28.404", -- [4]
+							},
+							["level"] = 12,
+						}, -- [6]
+						{
+							["corrupt"] = false,
+							["deaths"] = 14,
+							["affixes"] = {
+								[5] = {
+									["name"] = "Teeming",
+									["desc"] = "Additional non-boss enemies are present throughout the dungeon.",
+								},
+								[13] = {
+									["name"] = "Explosive",
+									["desc"] = "While in combat, enemies periodically summon Explosive Orbs that will detonate if not destroyed.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 17459.58,
+							["timeStamp"] = {
+								["day"] = 29,
+								["month"] = 6,
+								["hours"] = 0,
+								["mins"] = 1,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Paladin",
+									["name"] = "Kalithumos",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Zaelsynth",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Galavantt",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Acekicker",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Priest",
+									["name"] = "Mallusof",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 16413.534,
+							["objectiveTimes"] = {
+								"04:49.708", -- [1]
+								"15:21.356", -- [2]
+								"18:35.515", -- [3]
+								"15:21.356", -- [4]
+							},
+							["level"] = 11,
+						}, -- [7]
 					},
 					["name"] = "Court of Stars",
 					["zoneID"] = 1571,

@@ -72,16 +72,14 @@ LUIDB = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -91,11 +89,13 @@ LUIDB = {
 						["Font"] = "Prototype",
 					},
 					["CombatLock"] = true,
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -104,7 +104,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5460785243,
+							["Mallusof"] = 5508587091,
 						},
 					},
 				},
@@ -119,9 +119,9 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 109144546,
-							["Farahn"] = 84639936,
+							["Farahn"] = 85725851,
 							["Greybone"] = 21130876,
-							["Amranar"] = 483129493,
+							["Amranar"] = 483323493,
 							["Granjior"] = 355196593,
 							["Kaldorath"] = 149785905,
 							["Faerand"] = 114260799,
@@ -539,11 +539,6 @@ LUIDB = {
 						},
 						["Y"] = -200.000091552734,
 						["X"] = -350.000030517578,
-						["Aura"] = {
-							["Debuffs"] = {
-								["Enable"] = true,
-							},
-						},
 						["Bars"] = {
 							["AltPower"] = {
 								["Enable"] = true,
@@ -791,72 +786,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							" Is the alt raid going to be on Heroic?", -- [1]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [2]
-							" Is the alt raid going to be on Heroic?", -- [3]
-							" Inv whenever", -- [4]
-							"/s Table please", -- [5]
-							"/raid Well, you start anyway", -- [6]
-							"/raid You're gonna fuck yourself if you do", -- [7]
-							"/reload", -- [8]
-							"/cw Ëris-Windrunner They are your BiS", -- [9]
-							"/cw Ëris-Windrunner good luck! :)", -- [10]
-							"/cw Ëris-Windrunner They are your BiS", -- [11]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [1]
+							"/cw Ëris-Windrunner good luck! :)", -- [2]
+							"/cw Hangooky-Tichondrius Ye :(", -- [3]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [4]
+							"/cw Hangooky-Tichondrius Ye :(", -- [5]
+							"/SALUTE", -- [6]
+							"/cw Hangooky-Tichondrius IU should be doing better too", -- [7]
+							"/cw Ëris-Windrunner good luck! :)", -- [8]
+							"/cw Hangooky-Tichondrius Ye :(", -- [9]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [10]
+							"/cw Hangooky-Tichondrius Ye :(", -- [11]
 							"/cw Ëris-Windrunner good luck! :)", -- [12]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [13]
-							" Inv whenever", -- [14]
-							"/raid Well, you start anyway", -- [15]
-							"/reload", -- [16]
+							"/cw Hangooky-Tichondrius IU should be doing better too", -- [13]
+							"/cw Hangooky-Tichondrius Ye :(", -- [14]
+							"/cw Hangooky-Tichondrius IU should be doing better too", -- [15]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [16]
 							"/cw Ëris-Windrunner good luck! :)", -- [17]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [18]
-							"/raid Well, you start anyway", -- [19]
-							"/cw Ëris-Windrunner good luck! :)", -- [20]
-							"/raid Well, you start anyway", -- [21]
-							"/raid [WeakAuras: Farahn-Proudmoore - Mistress - Consuming Hunger]", -- [22]
-							"/raid [WeakAuras: Farahn-Proudmoore - Mistress - Hydra Shot]", -- [23]
-							"/raid ^^", -- [24]
-							"/raid Crispy", -- [25]
-							"/bw", -- [26]
-							"/cw Hangooky-Tichondrius Why do Heroic. ", -- [27]
-							"/cw Hangooky-Tichondrius That makes no sense to me, lol", -- [28]
-							"/cw Hangooky-Tichondrius Ye :(", -- [29]
-							"/cw Hangooky-Tichondrius IU should be doing better too", -- [30]
-							"/cw Hangooky-Tichondrius gtg", -- [31]
-							"/cw Hangooky-Tichondrius food before main raid", -- [32]
+							"/cw Hangooky-Tichondrius Ye :(", -- [18]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [19]
+							"/cw Hangooky-Tichondrius Ye :(", -- [20]
+							"/SALUTE", -- [21]
+							"/cw Ëris-Windrunner good luck! :)", -- [22]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [23]
+							"/cw Ëris-Windrunner good luck! :)", -- [24]
+							"/cw Hangooky-Tichondrius Ye :(", -- [25]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [26]
+							"/cw Hangooky-Tichondrius Ye :(", -- [27]
+							"/SALUTE", -- [28]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [29]
+							"/cw Hangooky-Tichondrius Ye :(", -- [30]
+							"/SALUTE", -- [31]
+							"/cw Hangooky-Tichondrius Ye :(", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/pvp", -- [1]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [2]
-							"/s \\xloot", -- [3]
-							"/g I apparently just stood next to you", -- [4]
-							"/g Oh shit really", -- [5]
-							"/ignore Acekicker ", -- [6]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Maiden - Light Infusion]", -- [7]
-							"/g I apparently just stood next to you", -- [8]
-							"/ignore Acekicker ", -- [9]
-							"/g I apparently just stood next to you", -- [10]
-							" Hey bud", -- [11]
-							" You're awesome", -- [12]
-							" That's all", -- [13]
-							"/raid 1 sec", -- [14]
-							"/g inv", -- [15]
-							"/raid The number 1 more important part", -- [16]
-							"/raid is that you fucking dodge the yellow circles!", -- [17]
-							"/raid hahahahaha", -- [18]
-							"/raid Yeah right", -- [19]
-							"/RT", -- [20]
-							"/rt", -- [21]
-							"/raid hmm... Suggestions for what else I could use?", -- [22]
-							"/RT", -- [23]
-							"/cw Hangookie-Tichondrius ?", -- [24]
-							"/cw Hangookie-Tichondrius ....", -- [25]
-							"/RT", -- [26]
-							"/cw Ellestria-Tichondrius yes you are", -- [27]
-							"/cw Ellestria-Tichondrius just stay closer to the middle :)", -- [28]
-							"/cw Ellestria-Tichondrius that's all I meant", -- [29]
-							"/cw Ellestria-Tichondrius Be in range of more people", -- [30]
-							"/cw Ellestria-Tichondrius basically", -- [31]
-							"/RT", -- [32]
+							"/xloot", -- [1]
+							"/g 18 COE?", -- [2]
+							"/xloot", -- [3]
+							"/g lol", -- [4]
+							"/g WTF", -- [5]
+							"/g 18 COE?", -- [6]
+							"/g lol", -- [7]
+							"/g 18 COE?", -- [8]
+							"/g lol", -- [9]
+							"/g 18 COE?", -- [10]
+							"/xloot", -- [11]
+							"/g lol", -- [12]
+							"/g 18 COE?", -- [13]
+							"/g WTF", -- [14]
+							"/xloot", -- [15]
+							"/g 18 COE?", -- [16]
+							"/xloot", -- [17]
+							"/g lol", -- [18]
+							"/g WTF", -- [19]
+							"/g 18 COE?", -- [20]
+							"/g lol", -- [21]
+							"/g 18 COE?", -- [22]
+							"/g lol", -- [23]
+							"/xloot", -- [24]
+							"/g 18 COE?", -- [25]
+							"/xloot", -- [26]
+							"/g lol", -- [27]
+							"/g 18 COE?", -- [28]
+							"/g lol", -- [29]
+							"/g 18 COE?", -- [30]
+							"/g lol", -- [31]
+							"/g 18 COE?", -- [32]
 						},
 					},
 				},
@@ -2639,8 +2634,9 @@ LUIDB = {
 		},
 		["Base"] = {
 			["modules"] = {
-				["Cooldown"] = false,
 				["Merchant"] = false,
+				["Cooldown"] = false,
+				["Auras"] = true,
 			},
 			["General"] = {
 				["HideTalentSpam"] = true,

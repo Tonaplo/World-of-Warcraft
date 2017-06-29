@@ -1,7 +1,7 @@
-changeset:   653:ce86162ceb5c
-tag:         v7.2.5.4201.121-release
+changeset:   655:61f3bdbef2d6
+tag:         v7.2.5.4201.122-release
 user:        Tercio
-date:        Mon Jun 26 14:30:17 2017 -0300
-summary:     - added localization to the Forge and History panels.
+date:        Tue Jun 27 15:36:27 2017 -0300
+summary:     - using GetServerTime() instead of time() to compare when a boss has died across guild members.
 
 

@@ -246,40 +246,28 @@ L["STRING_FORGE_HEADER_SPELLID"] = "Zauber-ID"
 L["STRING_FORGE_HEADER_TIMER"] = "Timer"
 --Translation missing 
 -- L["STRING_FORGE_TUTORIAL_DESC"] = ""
---Translation missing 
--- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+L["STRING_FORGE_TUTORIAL_TITLE"] = "Willkommen bei Details! Forge"
 --Translation missing 
 -- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "Dieses Segment ist im Moment nicht verfügbar "
 L["STRING_FROM"] = "Von"
 L["STRING_GERAL"] = "Allgemein"
 L["STRING_GLANCING"] = "nur gestreift"
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+L["STRING_GUILDDAMAGERANK_BOSS"] = "Boss"
+L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = "'|cFFFFFF00Details! Storage|r' konnte nicht geöffnet werden, ist das Addon deaktiviert?"
+L["STRING_GUILDDAMAGERANK_DIFF"] = "Schwierigkeit"
+L["STRING_GUILDDAMAGERANK_GUILD"] = "Gilde"
 --Translation missing 
 -- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
 --Translation missing 
 -- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_RAID"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
---Translation missing 
--- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = "Spieler"
+L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = "Alle Spieler"
+L["STRING_GUILDDAMAGERANK_RAID"] = "Schlachtzug"
+L["STRING_GUILDDAMAGERANK_ROLE"] = "Rolle"
+L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = "Verlauf zeigen"
+L["STRING_GUILDDAMAGERANK_SHOWRANK"] = "Gildenbank zeigen"
+L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = "Mit Gilde synchronisieren"
 --Translation missing 
 -- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
 L["STRING_HEAL"] = "Heilung"

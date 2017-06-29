@@ -46,15 +46,16 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["EquippedArtifact"] = "Light's Wrath",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 627562046,
+						["pointsRemaining"] = 1327779196,
 						["rank"] = 55,
 						["tier"] = 2,
 					},
 					["Underlight Angler"] = {
 						["tier"] = 1,
+						["pointsRemaining"] = 250,
 					},
 					["Light's Wrath"] = {
 						["tier"] = 2,
@@ -68,10 +69,10 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1498529804,
+				["lastUpdate"] = 1498722483,
 				["Specializations"] = {
-					10710, -- [1]
-					10103, -- [2]
+					13718, -- [1]
+					10149, -- [2]
 					6489, -- [3]
 				},
 				["ArtifactKnowledge"] = 40,
@@ -249,11 +250,11 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 40001,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
+				["EquippedArtifact"] = "The Fist of Ra-den",
 				["Artifacts"] = {
 					["Doomhammer"] = {
-						["pointsRemaining"] = 1590695,
-						["rank"] = 45,
+						["pointsRemaining"] = 730695,
+						["rank"] = 38,
 						["tier"] = 2,
 					},
 					["The Fist of Ra-den"] = {
@@ -264,11 +265,11 @@ DataStore_TalentsDB = {
 					["Sharas'dal, Scepter of Tides"] = {
 						["tier"] = 2,
 						["rank"] = 51,
-						["pointsRemaining"] = 236297320,
+						["pointsRemaining"] = 322299470,
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1498438814,
+				["lastUpdate"] = 1498707833,
 				["Specializations"] = {
 					11614, -- [1]
 					9631, -- [2]
@@ -349,7 +350,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1498420259,
+				["lastUpdate"] = 1498621344,
 				["Specializations"] = {
 					[3] = 7039,
 					[4] = 8171,
@@ -946,7 +947,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 24415,
+			["Version"] = 24430,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -1004,7 +1005,7 @@ DataStore_TalentsRefDB = {
 					},
 				},
 			},
-			["Version"] = 24415,
+			["Version"] = 24430,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",

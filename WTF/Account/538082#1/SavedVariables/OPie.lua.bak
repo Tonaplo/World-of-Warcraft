@@ -163,9 +163,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
-					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
+					["caption"] = "Fishing",
 				}, -- [16]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
@@ -229,8 +229,8 @@ OneRing_Config = {
 			},
 			["Mounts"] = {
 				{
-					["sliceToken"] = "ABuepjqUmtwy",
 					["id"] = 150544,
+					["sliceToken"] = "ABuepjqUmtwy",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuepjqUmtwt",
@@ -241,9 +241,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
-					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
+					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				["save"] = true,
 				["name"] = "Mounts",
@@ -426,59 +426,50 @@ OneRing_Config = {
 			["Macros"] = {
 				{
 					"macro", -- [1]
-					"Swapblast", -- [2]
-					["sliceToken"] = "ABuep4Bpwxej",
-				}, -- [1]
-				{
-					"macro", -- [1]
 					"WeakAuras", -- [2]
 					["sliceToken"] = "ABuep4Bpwxe4",
-				}, -- [2]
+				}, -- [1]
 				{
 					"macro", -- [1]
 					"Tich", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeh",
-				}, -- [3]
+				}, -- [2]
 				{
 					"macro", -- [1]
 					"reload ui", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeg",
-				}, -- [4]
+				}, -- [3]
 				{
 					"macro", -- [1]
 					"Opie", -- [2]
 					["sliceToken"] = "ABuep4Bpwxef",
-				}, -- [5]
-				{
-					"macro", -- [1]
-					"Newplayers", -- [2]
-					["sliceToken"] = "ABuep4Bpwxed",
-				}, -- [6]
+				}, -- [4]
 				{
 					"macro", -- [1]
 					"Rchars", -- [2]
 					["sliceToken"] = "ABuep4Bpwxe3",
-				}, -- [7]
-				{
-					"macro", -- [1]
-					"Ready target?", -- [2]
-					["sliceToken"] = "ABuep4Bpwxes",
-				}, -- [8]
+				}, -- [5]
 				{
 					"macro", -- [1]
 					"focus", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeo",
-				}, -- [9]
+				}, -- [6]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
 					["icon"] = 1339449,
 					["id"] = "/click ORLOpen Base",
-				}, -- [10]
+				}, -- [7]
 				{
 					"macro", -- [1]
 					"CooldownRotation", -- [2]
 					["sliceToken"] = "ABuepkz9WXe",
-				}, -- [11]
+				}, -- [8]
+				{
+					["sliceToken"] = "ABuepR6IT1u",
+					["caption"] = "Exorsus Raid Tools",
+					["icon"] = 136106,
+					["id"] = "/rt",
+				}, -- [9]
 				["save"] = true,
 				["name"] = "Macros",
 			},

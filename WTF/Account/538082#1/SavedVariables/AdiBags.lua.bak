@@ -95,6 +95,8 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {

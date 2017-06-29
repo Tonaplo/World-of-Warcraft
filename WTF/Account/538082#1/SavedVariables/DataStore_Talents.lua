@@ -46,23 +46,24 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 40001,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["EquippedArtifact"] = "Light's Wrath",
 				["ArtifactKnowledgeMultiplier"] = 40001,
 				["Specializations"] = {
-					10710, -- [1]
-					10103, -- [2]
+					5526, -- [1]
+					10149, -- [2]
 					6489, -- [3]
 				},
-				["lastUpdate"] = 1498549297,
+				["lastUpdate"] = 1498723538,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 40,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
 						["rank"] = 55,
-						["pointsRemaining"] = 627562046,
+						["pointsRemaining"] = 1327779196,
 					},
 					["Underlight Angler"] = {
+						["pointsRemaining"] = 250,
 						["tier"] = 1,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
@@ -84,7 +85,7 @@ DataStore_TalentsDB = {
 					[3] = 7039,
 					[4] = 8171,
 				},
-				["lastUpdate"] = 1498420259,
+				["lastUpdate"] = 1498621344,
 				["Class"] = "DRUID",
 				["ArtifactKnowledge"] = 40,
 				["Artifacts"] = {
@@ -286,21 +287,21 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
+				["EquippedArtifact"] = "The Fist of Ra-den",
 				["ArtifactKnowledgeMultiplier"] = 40001,
 				["Specializations"] = {
 					11614, -- [1]
 					9631, -- [2]
 					14235, -- [3]
 				},
-				["lastUpdate"] = 1498438814,
+				["lastUpdate"] = 1498707833,
 				["Class"] = "SHAMAN",
 				["ArtifactKnowledge"] = 40,
 				["Artifacts"] = {
 					["Doomhammer"] = {
 						["tier"] = 2,
-						["rank"] = 45,
-						["pointsRemaining"] = 1590695,
+						["rank"] = 38,
+						["pointsRemaining"] = 730695,
 					},
 					["The Fist of Ra-den"] = {
 						["pointsRemaining"] = 19036995,
@@ -308,7 +309,7 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Sharas'dal, Scepter of Tides"] = {
-						["pointsRemaining"] = 236297320,
+						["pointsRemaining"] = 322299470,
 						["rank"] = 51,
 						["tier"] = 2,
 					},
@@ -920,7 +921,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 24415,
+			["Version"] = 24430,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",
@@ -978,7 +979,7 @@ DataStore_TalentsRefDB = {
 					},
 				},
 			},
-			["Version"] = 24415,
+			["Version"] = 24430,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",

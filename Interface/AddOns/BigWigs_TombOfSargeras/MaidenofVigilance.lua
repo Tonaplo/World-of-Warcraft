@@ -37,8 +37,8 @@ if L then
 	L.sameInfusion = "Same Infusion: %s"
 	L.fel = "Fel"
 	L.light = "Light"
-	L.felHammer = "Fel Hammer"
-	L.lightHammer = "Light Hammer"
+	L.felHammer = "Fel Hammer" -- Better name for "Hammer of Obliteration"
+	L.lightHammer = "Light Hammer" -- Better name for "Hammer of Creation"
 end
 --------------------------------------------------------------------------------
 -- Initialization
@@ -69,8 +69,8 @@ end
 
 function mod:OnBossEnable()
 	-- General
-	self:Log("SPELL_AURA_APPLIED", "UnstableSoul", 235117) -- Unstable Soul
-	self:Log("SPELL_AURA_REMOVED", "UnstableSoulRemoved", 235117) -- Unstable Soul
+	self:Log("SPELL_AURA_APPLIED", "UnstableSoul", 243276, 235117) -- Mythic, Others
+	self:Log("SPELL_AURA_REMOVED", "UnstableSoulRemoved", 243276, 235117) -- Mythic, Others
 	self:Log("SPELL_AURA_APPLIED", "AegwynnsWardApplied", 241593, 236420) -- Aegwynn's Ward, Heroic, Normal
 	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 238028, 238408) -- Light Remanence, Fel Remanence
 	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 238028, 238408)
@@ -124,14 +124,14 @@ end
 
 function mod:UnstableSoul(args)
 	if self:Me(args.destGUID) then
-		self:TargetMessage(args.spellId, args.destName, "Personal", "Alarm")
-		self:TargetBar(args.spellId, 8, args.destName)
+		self:TargetMessage(235117, args.destName, "Personal", "Alarm")
+		self:TargetBar(235117, 8, args.destName)
 	end
 end
 
 function mod:UnstableSoulRemoved(args)
 	if self:Me(args.destGUID) then
-		self:StopBar(args.spellId, args.destName)
+		self:StopBar(args.spellName, args.destName)
 	end
 end
 
@@ -167,7 +167,7 @@ do
 			self:Message(235271, "Important", "Warning", L.infusionChanged:format(sideString), newSide)
 			self:Flash(235271)
 		else
-			self:Message(235271, "Important", "Info", L.sameInfusion:format(sideString), newSide)
+			self:Message(235271, "Positive", "Info", L.sameInfusion:format(sideString), newSide)
 		end
 		mySide = newSide
 	end

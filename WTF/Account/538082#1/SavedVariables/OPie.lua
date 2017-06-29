@@ -386,33 +386,33 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
+					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
 					["icon"] = 134414,
-					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
+					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
 					["icon"] = 134707,
-					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
+					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
 					["icon"] = 1505928,
-					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
+					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
 					["icon"] = 134055,
-					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
+					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
 					["icon"] = 132147,
-					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep5oDlq5",
@@ -426,59 +426,50 @@ OneRing_Config = {
 			["Macros"] = {
 				{
 					"macro", -- [1]
-					"Swapblast", -- [2]
-					["sliceToken"] = "ABuep4Bpwxej",
-				}, -- [1]
-				{
-					"macro", -- [1]
 					"WeakAuras", -- [2]
 					["sliceToken"] = "ABuep4Bpwxe4",
-				}, -- [2]
+				}, -- [1]
 				{
 					"macro", -- [1]
 					"Tich", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeh",
-				}, -- [3]
+				}, -- [2]
 				{
 					"macro", -- [1]
 					"reload ui", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeg",
-				}, -- [4]
+				}, -- [3]
 				{
 					"macro", -- [1]
 					"Opie", -- [2]
 					["sliceToken"] = "ABuep4Bpwxef",
-				}, -- [5]
-				{
-					"macro", -- [1]
-					"Newplayers", -- [2]
-					["sliceToken"] = "ABuep4Bpwxed",
-				}, -- [6]
+				}, -- [4]
 				{
 					"macro", -- [1]
 					"Rchars", -- [2]
 					["sliceToken"] = "ABuep4Bpwxe3",
-				}, -- [7]
-				{
-					"macro", -- [1]
-					"Ready target?", -- [2]
-					["sliceToken"] = "ABuep4Bpwxes",
-				}, -- [8]
+				}, -- [5]
 				{
 					"macro", -- [1]
 					"focus", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeo",
-				}, -- [9]
+				}, -- [6]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
 					["icon"] = 1339449,
 					["id"] = "/click ORLOpen Base",
-				}, -- [10]
+				}, -- [7]
 				{
 					"macro", -- [1]
 					"CooldownRotation", -- [2]
 					["sliceToken"] = "ABuepkz9WXe",
-				}, -- [11]
+				}, -- [8]
+				{
+					["sliceToken"] = "ABuepR6IT1u",
+					["id"] = "/rt",
+					["caption"] = "Exorsus Raid Tools",
+					["icon"] = 136106,
+				}, -- [9]
 				["save"] = true,
 				["name"] = "Macros",
 			},

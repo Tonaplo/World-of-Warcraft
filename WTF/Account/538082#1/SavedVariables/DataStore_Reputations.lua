@@ -21,7 +21,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1498420253,
+				["lastUpdate"] = 1498621344,
 				["Factions"] = {
 					4125, -- [1]
 					3125, -- [2]
@@ -84,7 +84,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1498549296,
+				["lastUpdate"] = 1498722481,
 				["guildName"] = "Wisdom",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -459,7 +459,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1498438808,
+				["lastUpdate"] = 1498707791,
 				["Factions"] = {
 					8999, -- [1]
 					8999, -- [2]
@@ -476,7 +476,7 @@ DataStore_ReputationsDB = {
 					[136] = 13100,
 					[140] = 14947,
 					[20] = 1000,
-					[137] = 8687,
+					[137] = 8762,
 					[122] = 2220,
 					[57] = 682,
 					[123] = 5804,
