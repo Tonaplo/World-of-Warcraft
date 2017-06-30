@@ -1,10 +1,13 @@
 
 dbOHC = {
 	["char"] = {
-		["Mallusof - Tichondrius"] = {
+		["Farahn - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Farahn - Proudmoore"] = {
+		["Faerand - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Mallusof - Tichondrius"] = {
 			["firstun"] = false,
 		},
 	},
@@ -16,8 +19,9 @@ dbOHC = {
 		["warn02_seen"] = 0,
 	},
 	["profileKeys"] = {
-		["Mallusof - Tichondrius"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

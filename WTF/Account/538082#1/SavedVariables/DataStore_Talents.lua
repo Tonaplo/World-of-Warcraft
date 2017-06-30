@@ -1,22 +1,22 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -50,17 +50,17 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 40001,
 				["Specializations"] = {
 					5526, -- [1]
-					10149, -- [2]
+					10103, -- [2]
 					6489, -- [3]
 				},
-				["lastUpdate"] = 1498723538,
+				["lastUpdate"] = 1498792279,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 40,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
-						["rank"] = 55,
-						["pointsRemaining"] = 1327779196,
+						["rank"] = 56,
+						["pointsRemaining"] = 9783446,
 					},
 					["Underlight Angler"] = {
 						["pointsRemaining"] = 250,
@@ -72,7 +72,7 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Light's Wrath"] = {
-						["pointsRemaining"] = 5381355,
+						["pointsRemaining"] = 333389555,
 						["rank"] = 54,
 						["tier"] = 2,
 					},
@@ -337,7 +337,7 @@ DataStore_TalentsDB = {
 					15317, -- [2]
 					16279, -- [3]
 				},
-				["lastUpdate"] = 1498417256,
+				["lastUpdate"] = 1498751784,
 				["Class"] = "HUNTER",
 				["ArtifactKnowledge"] = 40,
 				["Artifacts"] = {
@@ -349,7 +349,7 @@ DataStore_TalentsDB = {
 					["Titanstrike"] = {
 						["tier"] = 2,
 						["rank"] = 43,
-						["pointsRemaining"] = 28153465,
+						["pointsRemaining"] = 54954065,
 					},
 					["Thas'dorah, Legacy of the Windrunners"] = {
 						["pointsRemaining"] = 2710760,
@@ -363,22 +363,22 @@ DataStore_TalentsDB = {
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["HUNTER"] = {
@@ -463,7 +463,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 24415,
+			["Version"] = 24430,
 		},
 		["WARRIOR"] = {
 			["Locale"] = "enUS",
@@ -689,7 +689,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 24430,
+			["Version"] = 24461,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",

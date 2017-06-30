@@ -1,39 +1,23 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "00:29:39",
-			["date_end"] = "00:31:11",
-			["name"] = "Advisor Vandros",
-			["total_time"] = 91.9880000000012,
-		}, -- [1]
-		{
-			["date_start"] = "00:27:44",
-			["date_end"] = "00:28:08",
-			["name"] = "Ivanyr",
-			["total_time"] = 24.0059999999976,
-		}, -- [2]
-		{
-			["date_start"] = "00:26:02",
-			["date_end"] = "00:26:24",
-			["name"] = "Corstilax",
-			["total_time"] = 22.0049999999974,
-		}, -- [3]
-		{
-			["date_start"] = "00:24:07",
-			["date_end"] = "00:24:19",
-			["name"] = "Nal'tira",
-			["total_time"] = 11.9989999999998,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Theifqueef"] = {
@@ -208,6 +192,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -218,15 +203,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
+	["combat_data"] = {
 		{
+			["date_start"] = "00:29:39",
+			["date_end"] = "00:31:11",
+			["name"] = "Advisor Vandros",
+			["total_time"] = 91.9880000000012,
 		}, -- [1]
 		{
+			["date_start"] = "00:27:44",
+			["date_end"] = "00:28:08",
+			["name"] = "Ivanyr",
+			["total_time"] = 24.0059999999976,
 		}, -- [2]
 		{
+			["date_start"] = "00:26:02",
+			["date_end"] = "00:26:24",
+			["name"] = "Corstilax",
+			["total_time"] = 22.0049999999974,
 		}, -- [3]
 		{
+			["date_start"] = "00:24:07",
+			["date_end"] = "00:24:19",
+			["name"] = "Nal'tira",
+			["total_time"] = 11.9989999999998,
 		}, -- [4]
 	},
 }

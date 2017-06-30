@@ -69,6 +69,7 @@ XLootADB = {
 	["profileKeys"] = {
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {

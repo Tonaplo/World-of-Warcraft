@@ -1,14 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 			["Maxgrowlith-Dalaran"] = {
@@ -97,6 +90,48 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Iceqùeen-Drak'thul"] = {
+				{
+					["time"] = 60.8439999999991,
+					["events"] = {
+						{
+							true, -- [1]
+							240951, -- [2]
+							4285618, -- [3]
+							1498404614.009, -- [4]
+							693166, -- [5]
+							"[*] Destructive Rampage", -- [6]
+							1025981, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							240951, -- [2]
+							4285618, -- [3]
+							1498404614.32, -- [4]
+							1, -- [5]
+							"[*] Destructive Rampage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							2695703, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Gamidalore-Skywall"] = {
@@ -277,6 +312,12 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["combat_data"] = {
 		{
 			["date_start"] = "08:40:32",
@@ -301,47 +342,6 @@ DetailsTimeLineDB = {
 			["date_end"] = "08:23:54",
 			["name"] = "Agronox",
 			["total_time"] = 49,
-		}, -- [4]
-	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Iceqùeen-Drak'thul"] = {
-				{
-					["time"] = 60.8439999999991,
-					["events"] = {
-						{
-							true, -- [1]
-							240951, -- [2]
-							4285618, -- [3]
-							1498404614.009, -- [4]
-							693166, -- [5]
-							"[*] Destructive Rampage", -- [6]
-							1025981, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							240951, -- [2]
-							4285618, -- [3]
-							1498404614.32, -- [4]
-							1, -- [5]
-							"[*] Destructive Rampage", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							2695703, -- [10]
-						}, -- [2]
-					},
-				}, -- [1]
-			},
-		}, -- [3]
-		{
 		}, -- [4]
 	},
 }

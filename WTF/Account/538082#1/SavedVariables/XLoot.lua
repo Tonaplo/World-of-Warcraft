@@ -17,8 +17,9 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["y"] = 20.0000038146973,
-						["x"] = 613.230224609375,
+						["y"] = 1050.74841308594,
+						["x"] = 444.3818359375,
+						["direction"] = "down",
 						["visible"] = false,
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
@@ -69,6 +70,7 @@ XLootADB = {
 	["profileKeys"] = {
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {

@@ -41,6 +41,19 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
+		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -71,19 +84,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
-		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["Junk"] = {
 		},
 		["Equipment"] = {
@@ -97,6 +97,7 @@ AdiBagsDB = {
 	["profileKeys"] = {
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {

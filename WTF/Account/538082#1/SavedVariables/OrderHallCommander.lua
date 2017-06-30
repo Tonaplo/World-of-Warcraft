@@ -4,12 +4,16 @@ dbOHC = {
 		["Farahn - Proudmoore"] = {
 			["firstun"] = false,
 		},
+		["Faerand - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Mallusof - Tichondrius"] = {
 			["firstun"] = false,
 		},
 	},
 	["profileKeys"] = {
 		["Farahn - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 	},
 	["global"] = {

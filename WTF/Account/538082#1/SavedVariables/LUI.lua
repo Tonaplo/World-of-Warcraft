@@ -75,7 +75,7 @@ LUIDB = {
 							["Amranar"] = 483323493,
 							["Granjior"] = 355196593,
 							["Kaldorath"] = 149785905,
-							["Faerand"] = 114260799,
+							["Faerand"] = 114697738,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 183117658,
 							["Morifa"] = 446268912,
@@ -87,7 +87,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5508587091,
+							["Mallusof"] = 5515841201,
 						},
 					},
 				},
@@ -107,27 +107,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Currency"] = {
-						["Enable"] = true,
-						["X"] = 250,
-						["Display"] = 1342,
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
+					["Currency"] = {
+						["Enable"] = true,
+						["X"] = 250,
+						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -147,6 +147,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -157,10 +162,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -188,14 +189,21 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -693,14 +701,6 @@ LUIDB = {
 					},
 				},
 				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
 							["ClassIcons"] = {
@@ -1870,72 +1870,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [1]
-							"/cw Ëris-Windrunner good luck! :)", -- [2]
-							"/cw Hangooky-Tichondrius Ye :(", -- [3]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [4]
-							"/cw Hangooky-Tichondrius Ye :(", -- [5]
-							"/SALUTE", -- [6]
-							"/cw Hangooky-Tichondrius IU should be doing better too", -- [7]
-							"/cw Ëris-Windrunner good luck! :)", -- [8]
-							"/cw Hangooky-Tichondrius Ye :(", -- [9]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [10]
-							"/cw Hangooky-Tichondrius Ye :(", -- [11]
+							"/SALUTE", -- [1]
+							"/cw Hangooky-Tichondrius Ye :(", -- [2]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [3]
+							"/SALUTE", -- [4]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [5]
+							"/cw Hangooky-Tichondrius Ye :(", -- [6]
+							"/SALUTE", -- [7]
+							"/cw Hangooky-Tichondrius Ye :(", -- [8]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [9]
+							"/cw Hangooky-Tichondrius Ye :(", -- [10]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [11]
 							"/cw Ëris-Windrunner good luck! :)", -- [12]
-							"/cw Hangooky-Tichondrius IU should be doing better too", -- [13]
-							"/cw Hangooky-Tichondrius Ye :(", -- [14]
-							"/cw Hangooky-Tichondrius IU should be doing better too", -- [15]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [13]
+							"/SALUTE", -- [14]
+							"/cw Hangooky-Tichondrius Ye :(", -- [15]
 							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [16]
-							"/cw Ëris-Windrunner good luck! :)", -- [17]
-							"/cw Hangooky-Tichondrius Ye :(", -- [18]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [19]
-							"/cw Hangooky-Tichondrius Ye :(", -- [20]
-							"/SALUTE", -- [21]
-							"/cw Ëris-Windrunner good luck! :)", -- [22]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [23]
-							"/cw Ëris-Windrunner good luck! :)", -- [24]
-							"/cw Hangooky-Tichondrius Ye :(", -- [25]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [26]
-							"/cw Hangooky-Tichondrius Ye :(", -- [27]
-							"/SALUTE", -- [28]
+							"/SALUTE", -- [17]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [18]
+							"/cw Hangooky-Tichondrius Ye :(", -- [19]
+							"/SALUTE", -- [20]
+							"/cw Hangooky-Tichondrius Ye :(", -- [21]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [22]
+							"/cw Hangooky-Tichondrius Ye :(", -- [23]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [24]
+							"/cw Ëris-Windrunner good luck! :)", -- [25]
+							"/SALUTE", -- [26]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [27]
+							"/cw Hangooky-Tichondrius Ye :(", -- [28]
 							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [29]
-							"/cw Hangooky-Tichondrius Ye :(", -- [30]
-							"/SALUTE", -- [31]
-							"/cw Hangooky-Tichondrius Ye :(", -- [32]
+							"/cw Ëris-Windrunner good luck! :)", -- [30]
+							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [31]
+							"/cw Ëris-Windrunner good luck! :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g 18 COE?", -- [1]
-							"/g lol", -- [2]
-							"/xloot", -- [3]
-							"/g 18 COE?", -- [4]
-							"/xloot", -- [5]
-							"/g lol", -- [6]
-							"/g 18 COE?", -- [7]
-							"/g lol", -- [8]
-							"/g 18 COE?", -- [9]
-							"/g lol", -- [10]
-							"/g 18 COE?", -- [11]
-							"/xloot", -- [12]
-							"/g lol", -- [13]
-							"/g 18 COE?", -- [14]
-							"/g lol", -- [15]
-							"/xloot", -- [16]
-							"/g 18 COE?", -- [17]
-							"/xloot", -- [18]
-							"/g lol", -- [19]
-							"/g 18 COE?", -- [20]
-							"/g lol", -- [21]
-							"/g 18 COE?", -- [22]
-							"/g lol", -- [23]
-							"/g 18 COE?", -- [24]
-							"/xloot", -- [25]
-							"/g 18 COE?", -- [26]
-							"/xloot", -- [27]
-							"/g lol", -- [28]
-							"/g 18 COE?", -- [29]
-							"/xloot", -- [30]
-							"/g lol", -- [31]
-							"/xloot", -- [32]
+							"/raid so I can get credit", -- [1]
+							"/raid only 4", -- [2]
+							"/raid ye", -- [3]
+							"/raid wait", -- [4]
+							"/raid you're right", -- [5]
+							"/raid 6", -- [6]
+							"/raid yea", -- [7]
+							"/raid 5", -- [8]
+							"/raid trolololol", -- [9]
+							"/raid 4 piece boys", -- [10]
+							"/raid bonus rolled tier", -- [11]
+							"/raid :P", -- [12]
+							"/raid wtb sumon", -- [13]
+							"/raid summon please", -- [14]
+							"/raid got another point in concordance", -- [15]
+							"/raid SUMMONS", -- [16]
+							"/raid lets go", -- [17]
+							"/raid -1", -- [18]
+							"/raid i'LL GO DOWN eLLE", -- [19]
+							"/raid ye", -- [20]
+							"/raid technically 4", -- [21]
+							"/raid But I dont want", -- [22]
+							"/raid the legs", -- [23]
+							"/raid it would be 4 piece", -- [24]
+							"/roll", -- [25]
+							"/raid you guys", -- [26]
+							"/raid seriously", -- [27]
+							"/raid 1 sec", -- [28]
+							"/raid brb", -- [29]
+							"/raid bio", -- [30]
+							"/raid GG", -- [31]
+							"/raid cya", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2594,22 +2594,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Amranar - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {

@@ -129,14 +129,14 @@ RCDatabase = {
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 849.125,
+				["itemLevelEquipped"] = 851.3125,
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["itemLevelOverall"] = 849.125,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 851.3125,
 			}, -- [11]
 			["characterStored"] = 11,
 		},
