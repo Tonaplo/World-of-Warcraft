@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 7.2.07 (26th June 2017, www.leatrix.com)
+-- 	Leatrix Plus 7.2.08 (29th June 2017, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "7.2.07"
+	LeaPlusLC["AddonVer"] = "7.2.08"
 
 ----------------------------------------------------------------------
 -- 	Locale
@@ -2283,17 +2283,17 @@
 			x)
 
 			Ln("Hide order hall and garrison alerts",
-			--[[zhCN]] "",
-			--[[zhTW]] "",
+			--[[zhCN]] "隐藏大厅和要塞通知",
+			--[[zhTW]] "隱藏職業大廳與要塞通知",
 			--[[ruRU]] "",
-			--[[koKR]] "",
+			--[[koKR]] "직업전당,주둔지의 알림 숨김",
 			x)
 
 			Ln("If checked, order hall and garrison alerts will not be shown.\n\nThis includes buildings, followers, missions and talents.",
-			--[[zhCN]] "",
-			--[[zhTW]] "",
+			--[[zhCN]] "勾选后，职业大厅和要塞的通知不再显示。\n\n这包括了建筑、追随者、任务以及天赋的相关通知。",
+			--[[zhTW]] "勾選後，職業大廳與要塞通知將不顯示。\n\n這包含了建築物、追隨者、任務與天賦。",
 			--[[ruRU]] "",
-			--[[koKR]] "",
+			--[[koKR]] "선택하면 직업전당,주둔지 알림이 표시되지 않습니다 \n\n 건물, 추종자, 임무와 특성이 포함됨.",
 			x)
 
 			Ln("Hide loot alerts",
@@ -2516,22 +2516,75 @@
 		x)
 
 		----------------------------------------------------------------------
-		-- Disable screen effects
+		-- Manage effects
 		----------------------------------------------------------------------
 
-		Ln("Disable screen effects",
+		Ln("Manage effects",
 		--[[zhCN]] "",
 		--[[zhTW]] "",
 		--[[ruRU]] "",
 		--[[koKR]] "",
 		x)
 
-		Ln("If checked, the screen glow effect, death effect and special effects (such as invisibility) will be disabled.",
+		Ln("If checked, you will be able to disable the screen glow, the grey screen of death and the netherworld effect.",
 		--[[zhCN]] "",
 		--[[zhTW]] "",
 		--[[ruRU]] "",
 		--[[koKR]] "",
 		x)
+
+			----------------------------------------------------------------------
+			-- Configuration panel
+			----------------------------------------------------------------------
+
+			Ln("Effects",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
+
+			Ln("Disable the screen glow",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
+
+			Ln("If checked, the screen glow will be disabled.",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
+
+			Ln("Disable the grey screen of death",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
+
+			Ln("If checked, the grey screen of death will be disabled.",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
+
+			Ln("Disable the netherworld effect",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
+
+			Ln("If checked, the netherworld effect will be disabled.",
+			--[[zhCN]] "",
+			--[[zhTW]] "",
+			--[[ruRU]] "",
+			--[[koKR]] "",
+			x)
 
 		----------------------------------------------------------------------
 		-- Max camera zoom
@@ -3732,7 +3785,7 @@
 
 --	Set lock state for configuration buttons
 	function LeaPlusLC:SetDim()
-
+		LeaPlusLC:LockOption("NoShaders", "NoShadersBtn", true)					-- Manage effects
 		LeaPlusLC:LockOption("AutomateGossip", "AutoGossipBtn", true)			-- Automate gossip
 		LeaPlusLC:LockOption("AutoAcceptRes", "AutoResBtn", false)				-- Accept resurrection
 		LeaPlusLC:LockOption("AutoReleasePvP", "AutoReleaseBtn", false)			-- Release in PvP
@@ -3824,7 +3877,7 @@
 		or	(LeaPlusLC["NoCommandBar"]			~= LeaPlusDB["NoCommandBar"])			-- Hide order hall bar
 
 		-- System
-		or	(LeaPlusLC["NoShaders"]				~= LeaPlusDB["NoShaders"])				-- Disable screen effects
+		or	(LeaPlusLC["NoShaders"]				~= LeaPlusDB["NoShaders"])				-- Manage effects
 		or	(LeaPlusLC["MaxCameraZoom"]			~= LeaPlusDB["MaxCameraZoom"])			-- Max camera zoom
 		or	(LeaPlusLC["ViewPortEnable"]		~= LeaPlusDB["ViewPortEnable"])			-- Enable viewport
 		or	(LeaPlusLC["NoRestedEmotes"]		~= LeaPlusDB["NoRestedEmotes"])			-- Silence rested emotes
@@ -6347,6 +6400,84 @@
 	function LeaPlusLC:Variable()
 
 		----------------------------------------------------------------------
+		-- Manage effects
+		----------------------------------------------------------------------
+
+		if LeaPlusLC["NoShaders"] == "On" then
+
+			-- Function to set effects
+			local function SetEffects()
+				if LeaPlusLC["NoEffectsGlow"] == "On" then
+					SetCVar("ffxGlow", "0")
+				else
+					SetCVar("ffxGlow", "1")
+				end
+				if LeaPlusLC["NoEffectsDeath"] == "On" then
+					SetCVar("ffxDeath", "0")
+				else
+					SetCVar("ffxDeath", "1")
+				end
+				if LeaPlusLC["NoEffectsNether"] == "On" then
+					SetCVar("ffxNether", "0")
+				else
+					SetCVar("ffxNether", "1")
+				end
+			end
+
+			-- Create configuration panel
+			local EffectsPanel = LeaPlusLC:CreatePanel("Effects", "EffectsPanel")
+
+			LeaPlusLC:MakeTx(EffectsPanel, "Settings", 16, -72)
+			LeaPlusLC:MakeCB(EffectsPanel, "NoEffectsGlow", "Disable the screen glow", 16, -92, false, "If checked, the screen glow will be disabled.")
+			LeaPlusLC:MakeCB(EffectsPanel, "NoEffectsDeath", "Disable the grey screen of death", 16, -112, false, "If checked, the grey screen of death will be disabled.")
+			LeaPlusLC:MakeCB(EffectsPanel, "NoEffectsNether", "Disable the netherworld effect", 16, -132, false, "If checked, the netherworld effect will be disabled.")
+
+			-- Help button tooltip
+			EffectsPanel.h.tiptext = LeaPlusLC:Translate("Select the settings that you want to use.")
+
+			-- Back button handler
+			EffectsPanel.b:SetScript("OnClick", function() 
+				EffectsPanel:Hide(); LeaPlusLC["PageF"]:Show(); LeaPlusLC["Page7"]:Show()
+				return
+			end)
+
+			-- Reset button handler
+			EffectsPanel.r:SetScript("OnClick", function()
+
+				-- Reset checkboxes
+				LeaPlusLC["NoEffectsGlow"] = "On"
+				LeaPlusLC["NoEffectsDeath"] = "On"
+				LeaPlusLC["NoEffectsNether"] = "On"
+
+				-- Refresh the settings and configuration panel
+				SetEffects()
+				EffectsPanel:Hide(); EffectsPanel:Show()
+
+			end)
+
+			-- Show configuration panal when options panel button is clicked
+			LeaPlusCB["NoShadersBtn"]:SetScript("OnClick", function()
+				if IsShiftKeyDown() and IsControlKeyDown() then
+					-- Preset profile
+					LeaPlusLC["NoEffectsGlow"] = "On"
+					LeaPlusLC["NoEffectsDeath"] = "On"
+					LeaPlusLC["NoEffectsNether"] = "On"
+					SetEffects()
+				else
+					EffectsPanel:Show()
+					LeaPlusLC:HideFrames()
+				end
+			end)
+
+			-- Run function when options are clicked and on startup
+			LeaPlusCB["NoEffectsGlow"]:HookScript("OnClick", SetEffects)
+			LeaPlusCB["NoEffectsDeath"]:HookScript("OnClick", SetEffects)
+			LeaPlusCB["NoEffectsNether"]:HookScript("OnClick", SetEffects)
+			SetEffects()
+
+		end
+
+		----------------------------------------------------------------------
 		--	Max camera zoom
 		----------------------------------------------------------------------
 
@@ -6956,16 +7087,6 @@
 				SetWorldMapOptions()
 			end)
 
-		end
-
-		----------------------------------------------------------------------
-		-- Disable screen effects
-		----------------------------------------------------------------------
-
-		if LeaPlusLC["NoShaders"] == "On" then
-			SetCVar("ffxGlow", "0")
-			SetCVar("ffxDeath", "0")
-			SetCVar("ffxNether", "0")
 		end
 
 		----------------------------------------------------------------------
@@ -10533,7 +10654,10 @@
 				LeaPlusLC:LoadVarChk("NoCommandBar", "Off")					-- Hide order hall bar
 
 				-- System
-				LeaPlusLC:LoadVarChk("NoShaders", "Off")					-- Disable screen effects
+				LeaPlusLC:LoadVarChk("NoShaders", "Off")					-- Manage effects
+				LeaPlusLC:LoadVarChk("NoEffectsGlow", "On")					-- Disable screen glow
+				LeaPlusLC:LoadVarChk("NoEffectsDeath", "On")				-- Disable grey screen of death
+				LeaPlusLC:LoadVarChk("NoEffectsNether", "On")				-- Disable netherworld effect
 				LeaPlusLC:LoadVarChk("MaxCameraZoom", "Off")				-- Max camera zoom
 				LeaPlusLC:LoadVarChk("ViewPortEnable", "Off")				-- Enable viewport
 				LeaPlusLC:LoadVarNum("ViewPortTop", 0, 0, 300)				-- Top border
@@ -10754,6 +10878,9 @@
 
 			-- System
 			LeaPlusDB["NoShaders"] 				= LeaPlusLC["NoShaders"]
+			LeaPlusDB["NoEffectsGlow"] 			= LeaPlusLC["NoEffectsGlow"]
+			LeaPlusDB["NoEffectsDeath"] 		= LeaPlusLC["NoEffectsDeath"]
+			LeaPlusDB["NoEffectsNether"] 		= LeaPlusLC["NoEffectsNether"]
 			LeaPlusDB["MaxCameraZoom"] 			= LeaPlusLC["MaxCameraZoom"]
 			LeaPlusDB["ViewPortEnable"]			= LeaPlusLC["ViewPortEnable"]
 			LeaPlusDB["ViewPortTop"]			= LeaPlusLC["ViewPortTop"]
@@ -10855,7 +10982,7 @@
 			end
 		end
 
-		-- Manage screen effects
+		-- Manage effects
 		if LeaPlusDB["NoShaders"] == "On" then
 			if wipe or (not wipe and LeaPlusLC["NoShaders"] == "Off") then
 				SetCVar("ffxGlow", "1")
@@ -11917,7 +12044,7 @@
 				LeaPlusDB["NoCommandBar"] = "On"				-- Hide order hall bar
 
 				-- System
-				LeaPlusDB["NoShaders"] = "On"					-- Disable screen effects
+				LeaPlusDB["NoShaders"] = "On"					-- Manage effects
 				LeaPlusDB["MaxCameraZoom"] = "On"				-- Max camera zoom
 				LeaPlusDB["ViewPortEnable"] = "On"				-- Enable viewport
 				LeaPlusDB["ViewPortResize"] = "On"				-- Resize game world
@@ -12314,7 +12441,7 @@
 	pg = "Page7";
 
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Graphics and Sound"		, 	146, -72);
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoShaders"					, 	"Disable screen effects"		, 	146, -92, 	true,	"If checked, the screen glow effect, death effect and special effects (such as invisibility) will be disabled.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoShaders"					, 	"Manage effects"				, 	146, -92, 	true,	"If checked, you will be able to disable the screen glow, the grey screen of death and the netherworld effect.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "MaxCameraZoom"				, 	"Max camera zoom"				, 	146, -112, 	true,	"If checked, you will be able to zoom out to a greater distance.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ViewPortEnable"			,	"Enable viewport"				,	146, -132, 	true,	"If checked, you will be able to create a viewport.  A viewport adds adjustable black borders around the game world.\n\nThe borders are placed on top of the game world but under the UI so you can place UI elements over them.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoRestedEmotes"			, 	"Silence rested emotes"			,	146, -152, 	true,	"If checked, emote sounds will be silenced while your character is:\n\n- resting\n- in a pet battle\n- at the Hathill Market\n- at the Grim Guzzler\n\nEmote sounds will be enabled when none of the above apply.")
@@ -12330,6 +12457,7 @@
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "FasterLooting"				, 	"Faster auto loot"				,	340, -232, 	true,	"If checked, the amount of time it takes to auto loot creatures will be significantly reduced.")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "LockoutSharing"			, 	"Lockout sharing"				, 	340, -252, 	true, 	"If checked, the 'Display only character achievements to others' setting in the game options panel ('Social' menu) will be permanently checked and locked.")
 
+	LeaPlusLC:CfgBtn("NoShadersBtn", LeaPlusCB["NoShaders"], "Click to configure the settings for this option.")
 	LeaPlusLC:CfgBtn("ModViewportBtn", LeaPlusCB["ViewPortEnable"], "Click to configure the settings for this option.")
 
 ----------------------------------------------------------------------
