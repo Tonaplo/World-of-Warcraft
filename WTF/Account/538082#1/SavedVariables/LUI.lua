@@ -64,12 +64,15 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["CombatLock"] = true,
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
 					},
-					["Bags"] = {
+					["FPS"] = {
 						["Font"] = "Prototype",
 					},
 					["Friends"] = {
@@ -79,23 +82,20 @@ LUIDB = {
 						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
 					["DPS"] = {
 						["Font"] = "Prototype",
 					},
-					["Clock"] = {
-						["Time24"] = true,
+					["Gold"] = {
 						["Font"] = "Prototype",
 					},
-					["FPS"] = {
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
+						["Font"] = "Prototype",
+					},
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 				},
@@ -104,7 +104,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5517985048,
+							["Mallusof"] = 5538487905,
 						},
 					},
 				},
@@ -119,16 +119,16 @@ LUIDB = {
 					["Gold"] = {
 						["Alliance"] = {
 							["Miriyal"] = 109144546,
-							["Farahn"] = 85725851,
+							["Farahn"] = 54547650,
 							["Greybone"] = 21130876,
 							["Amranar"] = 483323493,
-							["Granjior"] = 355196593,
-							["Kaldorath"] = 149785905,
-							["Faerand"] = 114697738,
+							["Granjior"] = 366281672,
+							["Kaldorath"] = 195219649,
+							["Faerand"] = 120017062,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 399678946,
-							["Morifa"] = 446268912,
-							["Fimwack"] = 183117658,
+							["Rahran"] = 412824410,
+							["Morifa"] = 460941929,
+							["Fimwack"] = 192205915,
 							["Praerend"] = 679150103,
 						},
 					},
@@ -147,14 +147,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -182,28 +189,13 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -708,6 +700,14 @@ LUIDB = {
 						},
 					},
 				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -786,72 +786,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/SALUTE", -- [1]
-							"/cw Hangooky-Tichondrius Ye :(", -- [2]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [3]
-							"/SALUTE", -- [4]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [5]
-							"/cw Hangooky-Tichondrius Ye :(", -- [6]
-							"/SALUTE", -- [7]
-							"/cw Hangooky-Tichondrius Ye :(", -- [8]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [9]
-							"/cw Hangooky-Tichondrius Ye :(", -- [10]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [11]
-							"/cw Ëris-Windrunner good luck! :)", -- [12]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [13]
-							"/SALUTE", -- [14]
-							"/cw Hangooky-Tichondrius Ye :(", -- [15]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [16]
-							"/SALUTE", -- [17]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [18]
-							"/cw Hangooky-Tichondrius Ye :(", -- [19]
-							"/SALUTE", -- [20]
-							"/cw Hangooky-Tichondrius Ye :(", -- [21]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [22]
-							"/cw Hangooky-Tichondrius Ye :(", -- [23]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [24]
-							"/cw Ëris-Windrunner good luck! :)", -- [25]
-							"/SALUTE", -- [26]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [27]
-							"/cw Hangooky-Tichondrius Ye :(", -- [28]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [29]
-							"/cw Ëris-Windrunner good luck! :)", -- [30]
-							"/cw Ëris-Windrunner Sometimes I replace Velens with Cloak on Progress", -- [31]
-							"/cw Ëris-Windrunner good luck! :)", -- [32]
+							"/raid want me as heals?", -- [1]
+							"/i didnt see that", -- [2]
+							" fuck no", -- [3]
+							"/i didnt see that", -- [4]
+							"/raid want me as heals?", -- [5]
+							" fuck no", -- [6]
+							"/raid want me as heals?", -- [7]
+							"/i didnt see that", -- [8]
+							"/raid want me as heals?", -- [9]
+							"/i didnt see that", -- [10]
+							"/macro", -- [11]
+							" fuck no", -- [12]
+							"/i didnt see that", -- [13]
+							"/raid want me as heals?", -- [14]
+							"/i didnt see that", -- [15]
+							"/macro", -- [16]
+							"/i didnt see that", -- [17]
+							"/macro", -- [18]
+							"/wa", -- [19]
+							"/i I'm super undergeared", -- [20]
+							"/i but I'll do my best", -- [21]
+							"/i hey guys\\a", -- [22]
+							"/i Des[ite being super undergeared all three", -- [23]
+							"/i this is pretty awesome :P", -- [24]
+							"/i thumbs up for teamwork", -- [25]
+							"/i lol", -- [26]
+							"/i we kinda need your healing :P", -- [27]
+							"/i gotcha", -- [28]
+							"/i wow", -- [29]
+							"/i that was a load of fun", -- [30]
+							"/i cya!", -- [31]
+							"/i later", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/raid trolololol", -- [1]
-							"/raid wtb sumon", -- [2]
-							"/raid lets go", -- [3]
-							"/raid technically 4", -- [4]
-							"/roll", -- [5]
-							"/raid brb", -- [6]
-							"/raid so I can get credit", -- [7]
-							"/raid trolololol", -- [8]
-							"/raid lets go", -- [9]
-							"/roll", -- [10]
-							"/raid so I can get credit", -- [11]
-							"/raid lets go", -- [12]
-							"/raid so I can get credit", -- [13]
-							"/p which dungeon again?", -- [14]
-							"/p ty, could you summon", -- [15]
-							"/p thanks", -- [16]
-							"/p +3 right?", -- [17]
-							"/p I'm fine with doing bease :P", -- [18]
-							"/p hmm", -- [19]
-							"/p BRH quick?", -- [20]
-							"/p ahh ok", -- [21]
-							"/p coming", -- [22]
-							"/p brh is closer", -- [23]
-							"/p oh yeah'", -- [24]
-							"/p EoA then>", -- [25]
-							"/p ?", -- [26]
-							"/p is closer when you hearth", -- [27]
-							"/p and EoA is actually faster", -- [28]
-							"/p alright!", -- [29]
-							"/p That's what I need :)", -- [30]
-							"/p Have a good one!", -- [31]
-							"/g |cffa335ee|Hitem:147106::::::::110:258::5:3:3562:1497:3528:::|h[Glowing Prayer Candle]|h|r", -- [32]
+							"/cw Ellestria-Tichondrius and 4th star", -- [1]
+							"/cw Ellestria-Tichondrius yeah", -- [2]
+							"/cw Ellestria-Tichondrius shatter = burning right", -- [3]
+							"/RT", -- [4]
+							"/cw Hangookie-Tichondrius Ok", -- [5]
+							"/cw Hangookie-Tichondrius yopu have", -- [6]
+							"/cw Hangookie-Tichondrius 4th and 8th Star", -- [7]
+							"/cw Ellestria-Tichondrius You have 2nd and 7th star", -- [8]
+							"/cw Sombrador You have 3rd and 6th Star", -- [9]
+							"/cw Ellestria-Tichondrius yes", -- [10]
+							"/cw Ellestria-Tichondrius Burning deals more damage", -- [11]
+							"/cw Ellestria-Tichondrius the more pillars are up", -- [12]
+							"/cw Ellestria I feel like", -- [13]
+							"/cw Ellestria they are expecting people to just play intellegently", -- [14]
+							"/cw Ellestria which is kinda not a thing in this guild", -- [15]
+							"/cw Ellestria yeah", -- [16]
+							"/cw Hangookie-Tichondrius suckl", -- [17]
+							"/cw Hangookie-Tichondrius like", -- [18]
+							"/cw Hangookie-Tichondrius alot", -- [19]
+							"/cw Kaligon-Tichondrius Yes", -- [20]
+							"/cw Kaligon-Tichondrius People are ALL OVER THE PLACE", -- [21]
+							"/cw Kaligon-Tichondrius Double debuffs from a bunch of people", -- [22]
+							"/cw Kaligon-Tichondrius not killing pillars", -- [23]
+							"/cw Hangookie-Tichondrius I dont understand either", -- [24]
+							"/cw Ellestria-Tichondrius I'm gonna write him", -- [25]
+							"/cw Ellestria-Tichondrius you do too", -- [26]
+							"/cw Kaligon more stacking", -- [27]
+							"/cw Kalethia Remember to call out when you can use an immunity", -- [28]
+							"/cw Kalethia-Tichondrius Oh, you dont have a mic", -- [29]
+							"/cw Kalethia-Tichondrius YOu should get a mic :P", -- [30]
+							"/cw Kalethia-Tichondrius :)", -- [31]
+							"/cw Ellestria-Tichondrius Because they are hiding too I think", -- [32]
 						},
 					},
 				},
@@ -936,21 +936,21 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Minimap"] = {
-						["IsShown"] = true,
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 400,
 						["Anchor"] = "GridLayoutFrame",
 						["Height"] = 200,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1082,13 +1082,7 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1100,17 +1094,23 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1244,7 +1244,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1256,19 +1262,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1407,7 +1407,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1419,19 +1425,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1570,13 +1570,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1588,13 +1582,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1734,13 +1734,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1752,17 +1746,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1897,7 +1897,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1909,23 +1915,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -2295,22 +2295,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Base",
-		["Praerend - Proudmoore"] = "Base",
 		["Rahran - Proudmoore"] = "Base",
+		["Praerend - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
-		["Greybone - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -2358,11 +2358,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -2443,9 +2443,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2462,9 +2462,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2563,9 +2563,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2582,9 +2582,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2602,11 +2602,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 		},
@@ -2643,7 +2643,6 @@ LUIDB = {
 				["DamageFont"] = "Prototype",
 			},
 			["Tooltip"] = {
-				["Hidebuttons"] = true,
 				["Y"] = -240,
 				["X"] = 0,
 			},

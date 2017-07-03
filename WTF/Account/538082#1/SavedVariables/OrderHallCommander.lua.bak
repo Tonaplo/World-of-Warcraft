@@ -1,6 +1,21 @@
 
 dbOHC = {
 	["char"] = {
+		["Fimwack - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Granjior - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Kaldorath - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Morifa - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Rahran - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Farahn - Proudmoore"] = {
 			["firstun"] = false,
 		},
@@ -11,17 +26,22 @@ dbOHC = {
 			["firstun"] = false,
 		},
 	},
+	["profileKeys"] = {
+		["Fimwack - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+	},
 	["global"] = {
 		["warn01_seen"] = 0,
 		["firstrun"] = false,
 		["news"] = {
 		},
 		["warn02_seen"] = 0,
-	},
-	["profileKeys"] = {
-		["Farahn - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -33,14 +53,17 @@ dbOHC = {
 				["SORTMISSION"] = "Garrison_SortMissions_Class",
 				["SPARE"] = false,
 				["NOTROOPS"] = false,
-				["MAKEITVERYQUICK"] = false,
 				["IGNORELOW"] = false,
+				["MAKEITVERYQUICK"] = false,
 				["MAXCHAMP"] = 3,
 				["MAKEITQUICK"] = true,
 				["MOVEPANEL"] = true,
 				["MAXIMIZEXP"] = false,
 				["IGNOREBUSY"] = false,
 				["USEALLY"] = false,
+			},
+			["blacklist"] = {
+				[1632] = false,
 			},
 			["showmenu"] = false,
 		},

@@ -1,11 +1,4 @@
 Version: 1
-Frame: TargetFrame
-FrameLevel: 11
-Anchor: CENTER
-X: 300
-Y: 0
-W: 232
-H: 100
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,13 +13,6 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: PlayerFrame
-FrameLevel: 8
-Anchor: CENTER
-X: -300
-Y: 0
-W: 232
-H: 100
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: CENTER

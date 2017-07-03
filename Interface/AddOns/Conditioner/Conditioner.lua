@@ -1,6 +1,6 @@
 --[[-----------------------------------------VER 1.5.2-------------------------------------------
 --by Tony Allain
-7.2.0 ready
+7.3.0 ready
 -----------------------------------------------------------------------------------------------]]
 local conditioner_frame = CreateFrame("Frame")
 conditioner_frame.events = {}
@@ -546,7 +546,7 @@ local directionDropDown = CreateFrame("Frame", "TargetPivot", menu_options, "Con
 local button_options = CreateFrame("Button", nil, priority_list, "UIPanelInfoButton")
 button_options:SetPoint("BOTTOMLEFT", SpellBookSkillLineTab1, "TOPRIGHT", 50, -6)
 button_options:SetScript("OnClick", function(self, c_button, down)
-	PlaySound("UChatScrollButton")
+	PlaySound(1115)
 	StoreConditions()
 	if (menu_options:IsShown()) then
 		menu_options:Hide()
@@ -1262,7 +1262,7 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.UseCondition:SetWidth(newbutton.more.conditions:GetWidth()*(9.5/10))
 		newbutton.more.conditions.UseCondition:SetText("Currently: Disabled")
 		newbutton.more.conditions.UseCondition:SetScript("OnClick", function(self, ...)
-			PlaySound("UChatScrollButton")
+			PlaySound(1115)
 			newbutton.more.conditions.options.use_condition = not newbutton.more.conditions.options.use_condition
 			StoreConditions()
 			if (newbutton.more.conditions.options.use_condition) then
@@ -1314,7 +1314,7 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.MaintainAura:ClearAllPoints()
 		newbutton.more.conditions.MaintainAura:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", -newbutton.more.conditions:GetWidth()/3.3, -65)
 		newbutton.more.conditions.MaintainAura:SetScript("OnClick", function(self, ...)
-			PlaySound("UChatScrollButton") 
+			PlaySound(1115) 
 			newbutton.more.conditions.options.maintain_aura = self:GetChecked() 
 			StoreConditions() 
 		end)
@@ -1360,7 +1360,7 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.Interrupt = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Is\nInterrupt")
 		newbutton.more.conditions.Interrupt:ClearAllPoints()
 		newbutton.more.conditions.Interrupt:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", 0, -65)
-		newbutton.more.conditions.Interrupt:SetScript("OnClick", function(self, ...) PlaySound("UChatScrollButton") newbutton.more.conditions.options.is_interrupt = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.Interrupt:SetScript("OnClick", function(self, ...) PlaySound(1115) newbutton.more.conditions.options.is_interrupt = self:GetChecked() StoreConditions() end)
 		newbutton.more.conditions.Interrupt.tooltip = "Is Interrupt"
 		newbutton.more.conditions.Interrupt.tooltipdesc = "If your spell will be off cooldown before your Target finishes casting an interruptable spell, your spell will be displayed."
 		
@@ -1552,7 +1552,7 @@ function MakePriorityButton(fortable, listline)
 		--percent?
 		newbutton.more.conditions.ResourcePercent = MakeCheckBox("LEFT", newbutton.more.conditions.ResourceAmount, "RIGHT", "%")
 		newbutton.more.conditions.ResourcePercent:SetScript("OnClick", function(self, ...)
-			PlaySound("UChatScrollButton")
+			PlaySound(1115)
 			newbutton.more.conditions.options.resource_by_percentage = self:GetChecked()
 			if (newbutton.more.conditions.options.resource_by_percentage) then
 				if (newbutton.more.conditions.ResourceAmount:GetNumber() > 100) then
@@ -1604,7 +1604,7 @@ function MakePriorityButton(fortable, listline)
 		--percent?
 		newbutton.more.conditions.AltResourcePercent = MakeCheckBox("LEFT", newbutton.more.conditions.AltResourceAmount, "RIGHT", "%")
 		newbutton.more.conditions.AltResourcePercent:SetScript("OnClick", function(self, ...)
-			PlaySound("UChatScrollButton")
+			PlaySound(1115)
 			newbutton.more.conditions.options.alt_resource_by_percentage = self:GetChecked()
 			if (newbutton.more.conditions.options.alt_resource_by_percentage) then
 				if (newbutton.more.conditions.AltResourceAmount:GetNumber() > 100) then
@@ -1625,7 +1625,7 @@ function MakePriorityButton(fortable, listline)
 		newbutton.more.conditions.HighlightOnly = MakeCheckBox("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", "Highlight\nOnly")
 		newbutton.more.conditions.HighlightOnly:ClearAllPoints()
 		newbutton.more.conditions.HighlightOnly:SetPoint("TOP", newbutton.more.conditions.AuraEdit, "BOTTOM", newbutton.more.conditions:GetWidth()/3.3, -65)
-		newbutton.more.conditions.HighlightOnly:SetScript("OnClick", function(self, ...) PlaySound("UChatScrollButton") newbutton.more.conditions.options.highlight_only = self:GetChecked() StoreConditions() end)
+		newbutton.more.conditions.HighlightOnly:SetScript("OnClick", function(self, ...) PlaySound(1115) newbutton.more.conditions.options.highlight_only = self:GetChecked() StoreConditions() end)
 		newbutton.more.conditions.HighlightOnly.tooltip = "Highlight Only"
 		newbutton.more.conditions.HighlightOnly.tooltipdesc = "Your spell will be displayed if it has that glowing golden outline surrounding it, like when Pyroblast has a highlight from Hot Streak!"
 
@@ -1685,7 +1685,7 @@ function MakePriorityButton(fortable, listline)
 			ConditionerTutorial_Alert(6, self.conditions.UseCondition, self.conditions.UseCondition)
 			ConditionerTutorial_Alert(7, newbutton.more.conditions.closebutton, newbutton.more.conditions.UseCondition)
 			--tutorial
-			PlaySound("UChatScrollButton")
+			PlaySound(1115)
 			DistributeSavedVars()
 			menu_options:Hide()
 			--toggle visibility of conditions
@@ -1736,7 +1736,7 @@ function MakePriorityButton(fortable, listline)
 		end)
 
 		newbutton.more.conditions.closebutton:SetScript("OnClick", function(self, ...)
-			PlaySound("UChatScrollButton")
+			PlaySound(1115)
 			--tutorial
 			ConditionerTutorial_Dismiss(7)
 			ConditionerTutorial_Alert(8, ConditionerWatchFrame0)
@@ -2459,7 +2459,7 @@ function MakePriorityButton(fortable, listline)
 	end
 	newbutton:RegisterForClicks("LeftButtonDown","RightButtonDown")
 	newbutton:SetScript("OnClick", function(self, c_button, down)
-		--PlaySound("UChatScrollButton")
+		--PlaySound(1115)
 		if (c_button == "LeftButton") then
 			AddToPrioList(fortable, self, listline)
 			--tutorial
@@ -2472,7 +2472,7 @@ function MakePriorityButton(fortable, listline)
 			else
 				RemoveFromPrioList(fortable, self)
 			end
-			PlaySound("UChatScrollButton")
+			PlaySound(1115)
 			ConditionerTutorial_Dismiss(3)
 			ConditionerTutorial_Alert(4, _G['ConditionerPriorityButton' .. #priority_buttons-2])
 		end
@@ -2627,12 +2627,12 @@ function NewWatchFrame(size, parent, ...)
 						end
 					end
 					if (xl_current_target_dock == 1) then
-						PlaySound("igCharacterInfoOpen")
+						PlaySound(839)
 					else
-						PlaySound("igCharacterInfoClose")
+						PlaySound(840)
 					end
 				else
-					PlaySound("UChatScrollButton")
+					PlaySound(1115)
 					--they want to rotate
 					local x,y,w,h = self:GetBoundsRect()
 					xl_LocX = x + w/2
@@ -2656,7 +2656,7 @@ function NewWatchFrame(size, parent, ...)
 			xl_LocX = x + w/2
 			xl_LocY = y + h/2
 		end
-		PlaySound("UChatScrollButton")
+		PlaySound(1115)
 	end)
 	newframe:SetScript("OnDragStop", function(self, ...)
 		if (self.canDrag) and ((xl_OnTargetFrame == 1) or (self.tempDrag))  then
@@ -2914,7 +2914,7 @@ local HideHotbar = MakeCheckBox("TOP", directionDropDown, "BOTTOM", "Hide Hotbar
 HideHotbar.text:SetTextColor(1,1,1,1)
 HideHotbar:SetScript("OnClick", function(self, c_button, down)
 	xl_conditioner_options.hide_hotbar_incombat = self:GetChecked()
-	PlaySound("UChatScrollButton")
+	PlaySound(1115)
 	StoreConditions()
 end)
 HideHotbar:SetScript("OnShow", function(self)
@@ -2925,7 +2925,7 @@ local AlwaysShow = MakeCheckBox("TOP", HideHotbar, "BOTTOM", "Always Show Condit
 AlwaysShow.text:SetTextColor(1,1,1,1)
 AlwaysShow:SetScript("OnClick", function(self, c_button, down)
 	xl_conditioner_options.always_show = self:GetChecked()
-	PlaySound("UChatScrollButton")
+	PlaySound(1115)
 	StoreConditions()
 end)
 AlwaysShow:SetScript("OnShow", function(self)
@@ -2978,7 +2978,7 @@ conditioner_help:SetText("Reset Tutorial")
 conditioner_help:SetSize(menu_options:GetWidth()/2, 24)
 conditioner_help:SetScript("OnClick", function(self, c_button, down)
 	ConditionerResetTutorial()
-	PlaySound("UChatScrollButton")
+	PlaySound(1115)
 end)
 
 function GetWatchedCooldowns()

@@ -3,8 +3,8 @@ VER 3 000000000000002A "CooldownRotation" "1386546"
 END
 VER 3 000000000000002D "everything" "INV_MISC_QUESTIONMARK"
 /use Power infusion
-/use Draenic Versatility Potion
-/use Drums of the Mountain
+/use Potion of Prolonged Power
+/use Drums of Fury
 /use Shadowfiend
 END
 VER 3 0000000000000006 "focus" "132222"

@@ -9,6 +9,17 @@ AdiBagsDB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+	},
 	["namespaces"] = {
 		["ItemLevel"] = {
 		},
@@ -45,6 +56,8 @@ AdiBagsDB = {
 					["dispatchRule"] = "slot",
 				},
 			},
+		},
+		["DataSource"] = {
 		},
 		["ItemSets"] = {
 			["char"] = {
@@ -87,18 +100,10 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
-		},
 		["Junk"] = {
 		},
 		["MoneyFrame"] = {
 		},
-	},
-	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -112,7 +117,7 @@ AdiBagsDB = {
 				},
 				["Backpack"] = {
 					["xOffset"] = -32.000093269482,
-					["yOffset"] = 268.000052821637,
+					["yOffset"] = 268.000101649763,
 				},
 			},
 			["filters"] = {

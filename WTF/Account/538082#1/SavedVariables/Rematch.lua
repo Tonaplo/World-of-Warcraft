@@ -168,13 +168,14 @@ RematchSettings = {
 		["Tough"] = {
 		},
 		["Types"] = {
+			[2] = true,
 		},
 	},
 	["SpecialSlots"] = {
 	},
 	["CollapsedOptHeaders"] = {
 	},
-	["loadedTeam"] = 117950,
+	["loadedTeam"] = 117934,
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {

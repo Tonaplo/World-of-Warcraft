@@ -1,22 +1,22 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -25,8 +25,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/06/07 01:06",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1498718058,
-				["lastVisitDate"] = "2017/06/28 23:34",
+				["lastUpdate"] = 1498980766,
+				["lastVisitDate"] = "2017/07/02 00:32",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1496821680,
@@ -48,9 +48,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496821502,
 				["lastVisitDate"] = "2017/06/07 00:45",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1497722172,
-				["lastVisitDate"] = "2017/06/17 10:56",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1499035811,
+				["lastVisitDate"] = "2017/07/02 15:50",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1498344422,
@@ -86,9 +86,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496822021,
 				["lastVisitDate"] = "2017/06/07 00:53",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1496820777,
-				["lastVisitDate"] = "2017/06/07 00:32",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1497722172,
+				["lastVisitDate"] = "2017/06/17 10:56",
 			},
 		},
 	},

@@ -7,12 +7,15 @@ local Cache = {}
 local tooltipName = "APUscanner"
 local tooltipScanner = CreateFrame("GameTooltip", tooltipName, nil, "GameTooltipTemplate")
 local ARTIFACT_POWER = ARTIFACT_POWER
+local ignoredItems = {
+	[147717] = true,
+}
 
 local function ScanBags()
 	for bag = 0, NUM_BAG_SLOTS do
 		for slot = 1, GetContainerNumSlots(bag) do
 			local itemLink = GetContainerItemLink(bag, slot)
-			if itemLink and itemLink:match("item:%d") then
+			if itemLink and itemLink:match("item:%d+") and not db.ignoredItems[tonumber(itemLink:match("item:(%d+)"))] then
 				if Cache[itemLink] then
 					return itemLink, bag, slot
 				else
@@ -41,11 +44,15 @@ local function Update()
 		if itemLink then
 			self:SetAttribute("type", "item")
 			self:SetAttribute("item", bag.." "..slot)
+			self:SetAttribute("shift-type1", "macro")	--ChatEdit_InsertLink(itemLink)
+			self:SetAttribute("shift-macrotext1", "/run ChatEdit_InsertLink(\"" .. itemLink .. "\")" )
 			local itemTexture = GetItemIcon(itemLink)
 			self.icon:SetTexture(itemTexture)
 			local start, duration, enable = GetContainerItemCooldown(bag, slot)
 			if duration > 0 then
 				self.cooldown:SetCooldown(start, duration)
+			elseif self.cooldown:GetCooldownDuration() > 0 then
+				self.cooldown:SetCooldown(0,0)
 			end
 			self:Show()
 			if self:IsMouseOver() then	--update tooltip
@@ -82,6 +89,7 @@ local function LoadSettings()
 		end
 	end
 	if dbChar.disable == nil then dbChar.disable = {} end	--by specs
+	if db.ignoredItems == nil then db.ignoredItems = ignoredItems end
 end
 
 local function CreateButton()
@@ -221,10 +229,43 @@ local function SlashFunction(msg)
 		print("ArtifactPowerUser enabled for "..select(2,GetSpecializationInfo(spec)))
 	elseif command == "specs" or command == "spec" then
 		ArtifactPowerUserOptions:Show()
+	elseif command == "ignore" then
+		if param == "" then
+			if self:IsShown() then --ignore current item
+				db.ignoredItems[tonumber(itemLink:match("item:(%d+)"))] = true
+			end
+		else
+			local itemID = tonumber(param)
+			if itemID then
+				db.ignoredItems[itemID] = true
+			elseif param:match("item:%d+") then
+				db.ignoredItems[tonumber(param:match("item:(%d+)"))] = true
+			end
+		end
+		Update()
+	elseif command == "unignore" then
+		local itemID = tonumber(param)
+		if itemID then
+			db.ignoredItems[itemID] = nil
+		elseif param:match("item:%d+") then
+			db.ignoredItems[tonumber(param:match("item:(%d+)"))] = nil
+		end
+		Update()
+	elseif command == "list" then --show ignored items
+		local f = true
+		for i in pairs (db.ignoredItems) do
+			local link = select(2,GetItemInfo(i))
+			print(link," (ID ",i,")")
+			f = false
+		end
+		if f then
+			print("Nothing ignored")		
+		end
 	else
-		print("Possible commands: show, hide, toggle, size, lock, unlock, reset")
+		print("Possible commands: show, hide, toggle, size N, lock, unlock, reset")
 		print("/apu disable - always hide for current spec. /apu enable - revert this")
 		print("/apu specs - enable/disable specs by GUI")
+		print("/apu ignore - ignore current item. Also usable with itemID or linked(shift-clicked) item. Reverse command /apu unignore item. \n/apu list - print all ignored items")
 	end
 end
 

@@ -68,10 +68,15 @@ XLootADB = {
 		},
 	},
 	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

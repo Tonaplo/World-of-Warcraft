@@ -1,6 +1,21 @@
 
 dbOHC = {
 	["char"] = {
+		["Morifa - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Granjior - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Kaldorath - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Fimwack - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Rahran - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Farahn - Proudmoore"] = {
 			["firstun"] = false,
 		},
@@ -19,6 +34,11 @@ dbOHC = {
 		["warn02_seen"] = 0,
 	},
 	["profileKeys"] = {
+		["Morifa - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
@@ -43,6 +63,9 @@ dbOHC = {
 				["USEALLY"] = false,
 			},
 			["showmenu"] = false,
+			["blacklist"] = {
+				[1632] = false,
+			},
 		},
 	},
 }

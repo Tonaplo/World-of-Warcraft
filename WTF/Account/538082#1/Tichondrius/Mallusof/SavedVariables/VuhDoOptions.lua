@@ -298,6 +298,7 @@ VUHDO_GLOBAL_ICONS = {
 	["Matter Swap"] = 135736,
 	["Survival Instincts"] = 132214,
 	["Resonating Amber"] = 136243,
+	["Guiding Hand"] = "",
 	["Flaming Spear"] = 135126,
 	["Rapid Fire"] = 132208,
 	["Mosaic"] = "Interface\\AddOns\\VuhDo\\Images\\cluster",
@@ -558,4 +559,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Blessing of Protection"] = 135964,
 	["Glossy"] = "Interface\\AddOns\\VuhDo\\Images\\icon_white_square",
 }
-VUHDO_GI_SCAN_IDX = 155001
+VUHDO_GI_SCAN_IDX = 52351

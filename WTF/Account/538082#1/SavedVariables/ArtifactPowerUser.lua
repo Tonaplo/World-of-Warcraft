@@ -1,5 +1,8 @@
 
 ArtifactPowerUserDB = {
+	["ignoredItems"] = {
+		[147717] = true,
+	},
 	["lock"] = true,
 	["position"] = {
 		["y"] = -24.2830772399902,

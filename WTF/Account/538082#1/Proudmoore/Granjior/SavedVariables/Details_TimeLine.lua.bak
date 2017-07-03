@@ -54,37 +54,91 @@ DetailsTimeLineDB = {
 		}, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
 	["combat_data"] = {
 		{
-			["date_start"] = "22:10:34",
 			["date_end"] = "22:11:44",
+			["date_start"] = "22:10:34",
 			["name"] = "Fel Lord Betrug",
 			["total_time"] = 70.0069999999996,
 		}, -- [1]
 		{
-			["date_start"] = "22:04:59",
 			["date_end"] = "22:06:14",
+			["date_start"] = "22:04:59",
 			["name"] = "Mindflayer Kaahrj",
 			["total_time"] = 75.0079999999998,
 		}, -- [2]
 		{
-			["date_start"] = "21:58:54",
 			["date_end"] = "22:00:20",
+			["date_start"] = "21:58:54",
 			["name"] = "Millificent Manastorm",
 			["total_time"] = 86.005000000001,
 		}, -- [3]
 		{
-			["date_end"] = "22:43:47",
 			["date_start"] = "22:42:19",
+			["date_end"] = "22:43:47",
 			["name"] = "Wrath of Azshara",
 			["total_time"] = 88.0299999999988,
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			["Flazlevinks-Dalaran"] = {
+				{
+					11.2139999999999, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					20.6319999999978, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [2]
+				{
+					33.6849999999977, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [3]
+				{
+					38.25, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [4]
+				{
+					44.9399999999951, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [5]
+				{
+					58.6129999999976, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [6]
+				{
+					72.3949999999968, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [7]
+				{
+					81.9189999999944, -- [1]
+					"Flazlevinks-Dalaran", -- [2]
+					2565, -- [3]
+				}, -- [8]
+			},
+			["Granjior"] = {
+				{
+					71.5349999999962, -- [1]
+					"Granjior", -- [2]
+					1022, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -269,65 +323,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Flazlevinks-Dalaran"] = {
-				{
-					11.2139999999999, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [1]
-				{
-					20.6319999999978, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [2]
-				{
-					33.6849999999977, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [3]
-				{
-					38.25, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [4]
-				{
-					44.9399999999951, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [5]
-				{
-					58.6129999999976, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [6]
-				{
-					72.3949999999968, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [7]
-				{
-					81.9189999999944, -- [1]
-					"Flazlevinks-Dalaran", -- [2]
-					2565, -- [3]
-				}, -- [8]
-			},
-			["Granjior"] = {
-				{
-					71.5349999999962, -- [1]
-					"Granjior", -- [2]
-					1022, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
-	},
 	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 }
