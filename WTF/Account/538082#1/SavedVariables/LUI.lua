@@ -64,10 +64,7 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Clock"] = {
-						["Time24"] = true,
-						["Font"] = "Prototype",
-					},
+					["CombatLock"] = true,
 					["Instance"] = {
 						["Enable"] = true,
 						["Font"] = "Prototype",
@@ -78,24 +75,27 @@ LUIDB = {
 					["Friends"] = {
 						["Font"] = "Prototype",
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["DPS"] = {
-						["Font"] = "Prototype",
-					},
-					["Gold"] = {
-						["Font"] = "Prototype",
-					},
-					["CombatLock"] = true,
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
+					["Gold"] = {
+						["Font"] = "Prototype",
+					},
+					["DPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Clock"] = {
+						["Time24"] = true,
+						["Font"] = "Prototype",
+					},
 					["Bags"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
 						["Font"] = "Prototype",
 					},
 				},
@@ -104,7 +104,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5538487905,
+							["Mallusof"] = 5551580982,
 						},
 					},
 				},
@@ -121,7 +121,7 @@ LUIDB = {
 							["Miriyal"] = 109144546,
 							["Farahn"] = 54547650,
 							["Greybone"] = 21130876,
-							["Amranar"] = 483323493,
+							["Amranar"] = 485443875,
 							["Granjior"] = 366281672,
 							["Kaldorath"] = 195219649,
 							["Faerand"] = 120017062,
@@ -147,11 +147,6 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
-					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -162,6 +157,10 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
+					},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -189,21 +188,14 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -708,6 +700,14 @@ LUIDB = {
 						},
 					},
 				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -786,72 +786,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/raid want me as heals?", -- [1]
-							"/i didnt see that", -- [2]
-							" fuck no", -- [3]
-							"/i didnt see that", -- [4]
-							"/raid want me as heals?", -- [5]
-							" fuck no", -- [6]
+							"/i we kinda need your healing :P", -- [1]
+							"/i gotcha", -- [2]
+							"/i wow", -- [3]
+							"/i that was a load of fun", -- [4]
+							"/i cya!", -- [5]
+							"/i later", -- [6]
 							"/raid want me as heals?", -- [7]
-							"/i didnt see that", -- [8]
+							" fuck no", -- [8]
 							"/raid want me as heals?", -- [9]
 							"/i didnt see that", -- [10]
 							"/macro", -- [11]
-							" fuck no", -- [12]
-							"/i didnt see that", -- [13]
-							"/raid want me as heals?", -- [14]
-							"/i didnt see that", -- [15]
-							"/macro", -- [16]
-							"/i didnt see that", -- [17]
-							"/macro", -- [18]
-							"/wa", -- [19]
-							"/i I'm super undergeared", -- [20]
-							"/i but I'll do my best", -- [21]
-							"/i hey guys\\a", -- [22]
-							"/i Des[ite being super undergeared all three", -- [23]
-							"/i this is pretty awesome :P", -- [24]
+							"/i didnt see that", -- [12]
+							"/macro", -- [13]
+							"/wa", -- [14]
+							"/i but I'll do my best", -- [15]
+							"/i Des[ite being super undergeared all three", -- [16]
+							"/i thumbs up for teamwork", -- [17]
+							"/i we kinda need your healing :P", -- [18]
+							"/i wow", -- [19]
+							"/i cya!", -- [20]
+							"/raid want me as heals?", -- [21]
+							"/i didnt see that", -- [22]
+							"/macro", -- [23]
+							"/i but I'll do my best", -- [24]
 							"/i thumbs up for teamwork", -- [25]
-							"/i lol", -- [26]
-							"/i we kinda need your healing :P", -- [27]
-							"/i gotcha", -- [28]
-							"/i wow", -- [29]
-							"/i that was a load of fun", -- [30]
-							"/i cya!", -- [31]
-							"/i later", -- [32]
+							"/i wow", -- [26]
+							"/raid want me as heals?", -- [27]
+							"/macro", -- [28]
+							"/i thumbs up for teamwork", -- [29]
+							"/raid want me as heals?", -- [30]
+							"/i thumbs up for teamwork", -- [31]
+							"/wa", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/cw Ellestria-Tichondrius and 4th star", -- [1]
-							"/cw Ellestria-Tichondrius yeah", -- [2]
-							"/cw Ellestria-Tichondrius shatter = burning right", -- [3]
-							"/RT", -- [4]
-							"/cw Hangookie-Tichondrius Ok", -- [5]
-							"/cw Hangookie-Tichondrius yopu have", -- [6]
-							"/cw Hangookie-Tichondrius 4th and 8th Star", -- [7]
-							"/cw Ellestria-Tichondrius You have 2nd and 7th star", -- [8]
-							"/cw Sombrador You have 3rd and 6th Star", -- [9]
-							"/cw Ellestria-Tichondrius yes", -- [10]
-							"/cw Ellestria-Tichondrius Burning deals more damage", -- [11]
-							"/cw Ellestria-Tichondrius the more pillars are up", -- [12]
-							"/cw Ellestria I feel like", -- [13]
-							"/cw Ellestria they are expecting people to just play intellegently", -- [14]
-							"/cw Ellestria which is kinda not a thing in this guild", -- [15]
-							"/cw Ellestria yeah", -- [16]
-							"/cw Hangookie-Tichondrius suckl", -- [17]
-							"/cw Hangookie-Tichondrius like", -- [18]
-							"/cw Hangookie-Tichondrius alot", -- [19]
-							"/cw Kaligon-Tichondrius Yes", -- [20]
-							"/cw Kaligon-Tichondrius People are ALL OVER THE PLACE", -- [21]
-							"/cw Kaligon-Tichondrius Double debuffs from a bunch of people", -- [22]
-							"/cw Kaligon-Tichondrius not killing pillars", -- [23]
-							"/cw Hangookie-Tichondrius I dont understand either", -- [24]
-							"/cw Ellestria-Tichondrius I'm gonna write him", -- [25]
-							"/cw Ellestria-Tichondrius you do too", -- [26]
-							"/cw Kaligon more stacking", -- [27]
-							"/cw Kalethia Remember to call out when you can use an immunity", -- [28]
-							"/cw Kalethia-Tichondrius Oh, you dont have a mic", -- [29]
-							"/cw Kalethia-Tichondrius YOu should get a mic :P", -- [30]
-							"/cw Kalethia-Tichondrius :)", -- [31]
-							"/cw Ellestria-Tichondrius Because they are hiding too I think", -- [32]
+							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [1]
+							"/cw Hangookie-Tichondrius and it's just hurting everyone", -- [2]
+							"/cw Sombrador-Tichondrius rd", -- [3]
+							"/cw Sombrador-Tichondrius 3rd", -- [4]
+							"/wa", -- [5]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan -Driven Assault]", -- [6]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan - Sickly Fixate]", -- [7]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan - Aqueos Burst]", -- [8]
+							"/cw Hangookie How far are you guys?", -- [9]
+							"/cw Hangookie-Tichondrius nice", -- [10]
+							"/WA", -- [11]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan -Driven Assault]", -- [12]
+							"/raid Pick this up", -- [13]
+							"/raid if you get it", -- [14]
+							"/raid get out of the stack", -- [15]
+							"/raid it doesnt matter when", -- [16]
+							"/raid just get out", -- [17]
+							"/raid break", -- [18]
+							" here", -- [19]
+							"/g wrong phase", -- [20]
+							"/g talk to Zin", -- [21]
+							"/cw Hangookie-Tichondrius I feel like calling a wipe there was not needed", -- [22]
+							"/cw Ellestria-Tichondrius We're getting way too many stacks of the debugff", -- [23]
+							"/raid go to curse", -- [24]
+							"/raid download WA", -- [25]
+							"/raid and take my WAs", -- [26]
+							"/raid and put them in the center of your fucking screen", -- [27]
+							"/raid so you freaking move", -- [28]
+							"/cw Hangookie-Tichondrius But like", -- [29]
+							"/cw Hangookie-Tichondrius Bigwigs", -- [30]
+							"/cw Hangookie-Tichondrius and DBM", -- [31]
+							"/g what Dao said", -- [32]
 						},
 					},
 				},
@@ -936,21 +936,20 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
-						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 400,
 						["Anchor"] = "GridLayoutFrame",
 						["Height"] = 200,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1082,7 +1081,13 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1094,23 +1099,17 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1244,13 +1243,7 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1262,13 +1255,19 @@ LUIDB = {
 						0.16, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1407,13 +1406,7 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1425,13 +1418,19 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1570,7 +1569,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1582,19 +1587,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1734,7 +1733,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1746,23 +1751,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1897,13 +1896,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1915,17 +1908,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -2295,22 +2294,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Base",
-		["Praerend - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
-		["Greybone - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Rahran - Proudmoore"] = "Base",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -2358,11 +2357,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -2443,9 +2442,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2462,9 +2461,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2563,9 +2562,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2582,9 +2581,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2602,11 +2601,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},

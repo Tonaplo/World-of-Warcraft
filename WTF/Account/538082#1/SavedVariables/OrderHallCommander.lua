@@ -1,28 +1,31 @@
 
 dbOHC = {
 	["char"] = {
-		["Morifa - Proudmoore"] = {
-			["firstun"] = false,
-		},
-		["Granjior - Proudmoore"] = {
-			["firstun"] = false,
-		},
-		["Kaldorath - Proudmoore"] = {
-			["firstun"] = false,
-		},
-		["Fimwack - Proudmoore"] = {
-			["firstun"] = false,
-		},
 		["Rahran - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Amranar - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Farahn - Proudmoore"] = {
 			["firstun"] = false,
 		},
+		["Mallusof - Tichondrius"] = {
+			["firstun"] = false,
+		},
+		["Granjior - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Morifa - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Kaldorath - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Faerand - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Mallusof - Tichondrius"] = {
+		["Fimwack - Proudmoore"] = {
 			["firstun"] = false,
 		},
 	},
@@ -34,14 +37,15 @@ dbOHC = {
 		["warn02_seen"] = 0,
 	},
 	["profileKeys"] = {
-		["Morifa - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

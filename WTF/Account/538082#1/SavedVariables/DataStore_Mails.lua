@@ -1,22 +1,22 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -48,9 +48,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496821502,
 				["lastVisitDate"] = "2017/06/07 00:45",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1499035811,
-				["lastVisitDate"] = "2017/07/02 15:50",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1497722172,
+				["lastVisitDate"] = "2017/06/17 10:56",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1498344422,
@@ -86,9 +86,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1496822021,
 				["lastVisitDate"] = "2017/06/07 00:53",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1497722172,
-				["lastVisitDate"] = "2017/06/17 10:56",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1499035811,
+				["lastVisitDate"] = "2017/07/02 15:50",
 			},
 		},
 	},

@@ -1,22 +1,22 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -53,7 +53,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 524396046,
+						["pointsRemaining"] = 787602496,
 						["rank"] = 56,
 						["tier"] = 2,
 					},
@@ -73,7 +73,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1499060107,
+				["lastUpdate"] = 1499146210,
 				["Specializations"] = {
 					10646, -- [1]
 					10103, -- [2]
@@ -82,27 +82,31 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledge"] = 40,
 				["ArtifactKnowledgeMultiplier"] = 40001,
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Scale of the Earth-Warder",
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
 				["Artifacts"] = {
-					["Strom'kar, the Warbreaker"] = {
-						["rank"] = 1,
+					["Talonclaw, Spear of the Wild Gods"] = {
 						["tier"] = 2,
-					},
-					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 926535,
 						["rank"] = 41,
+						["pointsRemaining"] = 134220,
+					},
+					["Titanstrike"] = {
+						["pointsRemaining"] = 15556465,
+						["rank"] = 45,
 						["tier"] = 2,
 					},
-					["Warswords of the Valarjar"] = {
-						["rank"] = 1,
+					["Thas'dorah, Legacy of the Windrunners"] = {
 						["tier"] = 2,
+						["rank"] = 47,
+						["pointsRemaining"] = 2710760,
 					},
 				},
-				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1498419947,
+				["Class"] = "HUNTER",
+				["lastUpdate"] = 1499060298,
 				["Specializations"] = {
-					[3] = 10713,
+					13719, -- [1]
+					15317, -- [2]
+					16279, -- [3]
 				},
 				["ArtifactKnowledge"] = 40,
 				["ArtifactKnowledgeMultiplier"] = 40001,
@@ -137,6 +141,38 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["EquippedArtifact"] = "Scale of the Earth-Warder",
+				["Artifacts"] = {
+					["Strom'kar, the Warbreaker"] = {
+						["rank"] = 1,
+						["tier"] = 2,
+					},
+					["Scale of the Earth-Warder"] = {
+						["pointsRemaining"] = 926535,
+						["rank"] = 41,
+						["tier"] = 2,
+					},
+					["Warswords of the Valarjar"] = {
+						["rank"] = 1,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "WARRIOR",
+				["lastUpdate"] = 1498419947,
+				["Specializations"] = {
+					[3] = 10713,
+				},
+				["ArtifactKnowledge"] = 40,
+				["ArtifactKnowledgeMultiplier"] = 40001,
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Apocalypse",
 				["ArtifactKnowledgeMultiplier"] = 40001,
@@ -164,42 +200,6 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 15886580,
 					},
 				},
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["Artifacts"] = {
-					["Talonclaw, Spear of the Wild Gods"] = {
-						["tier"] = 2,
-						["rank"] = 41,
-						["pointsRemaining"] = 134220,
-					},
-					["Titanstrike"] = {
-						["pointsRemaining"] = 15556465,
-						["rank"] = 45,
-						["tier"] = 2,
-					},
-					["Thas'dorah, Legacy of the Windrunners"] = {
-						["tier"] = 2,
-						["rank"] = 47,
-						["pointsRemaining"] = 2710760,
-					},
-				},
-				["Class"] = "HUNTER",
-				["lastUpdate"] = 1499060298,
-				["Specializations"] = {
-					13719, -- [1]
-					15317, -- [2]
-					16279, -- [3]
-				},
-				["ArtifactKnowledge"] = 40,
-				["ArtifactKnowledgeMultiplier"] = 40001,
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["EquippedArtifact"] = "Truthguard",
@@ -347,7 +347,7 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 40001,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
+				["EquippedArtifact"] = "Scythe of Elune",
 				["Artifacts"] = {
 					["Claws of Ursoc"] = {
 						["pointsRemaining"] = 9725,
@@ -359,12 +359,19 @@ DataStore_TalentsDB = {
 						["rank"] = 35,
 						["pointsRemaining"] = 22805317,
 					},
+					["Scythe of Elune"] = {
+						["pointsRemaining"] = 1041780,
+						["rank"] = 38,
+						["tier"] = 2,
+					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1498621344,
+				["lastUpdate"] = 1499130593,
 				["Specializations"] = {
-					[3] = 7039,
-					[4] = 8171,
+					16091, -- [1]
+					nil, -- [2]
+					7039, -- [3]
+					8171, -- [4]
 				},
 				["ArtifactKnowledge"] = 40,
 				["ArtifactKnowledgeMultiplier"] = 40001,
@@ -374,22 +381,22 @@ DataStore_TalentsDB = {
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["HUNTER"] = {
@@ -1073,7 +1080,34 @@ DataStore_TalentsRefDB = {
 		["DRUID"] = {
 			["Locale"] = "enUS",
 			["Specializations"] = {
-				[3] = {
+				{
+					["id"] = 102,
+					["talents"] = {
+						22385, -- [1]
+						22386, -- [2]
+						22387, -- [3]
+						19283, -- [4]
+						18570, -- [5]
+						18571, -- [6]
+						22155, -- [7]
+						22157, -- [8]
+						22159, -- [9]
+						21778, -- [10]
+						18576, -- [11]
+						18577, -- [12]
+						18580, -- [13]
+						18579, -- [14]
+						22388, -- [15]
+						22389, -- [16]
+						18585, -- [17]
+						22390, -- [18]
+						21648, -- [19]
+						21193, -- [20]
+						21655, -- [21]
+					},
+				}, -- [1]
+				nil, -- [2]
+				{
 					["id"] = 104,
 					["talents"] = {
 						22419, -- [1]
@@ -1098,8 +1132,8 @@ DataStore_TalentsRefDB = {
 						22427, -- [20]
 						22425, -- [21]
 					},
-				},
-				[4] = {
+				}, -- [3]
+				{
 					["id"] = 105,
 					["talents"] = {
 						18569, -- [1]
@@ -1124,9 +1158,9 @@ DataStore_TalentsRefDB = {
 						21651, -- [20]
 						22404, -- [21]
 					},
-				},
+				}, -- [4]
 			},
-			["Version"] = 24430,
+			["Version"] = 24461,
 		},
 		["MONK"] = {
 			["Locale"] = "enUS",
