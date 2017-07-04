@@ -15,7 +15,7 @@ statPriorityStats["HUNTERBeast Mastery"] = "Mastery > Haste = Critical Strike > 
 statPriorityStats["HUNTERMarksmanship"] = "Mastery > Critical Strike > Haste > Versatility"
 statPriorityStats["HUNTERSurvival"] = "Haste > Mastery > Critical Strike > Versatility"
 
-statPriorityStats["ROGUEAssassination"] = "Agility > Versatility > Critical Strike > Haste"
+statPriorityStats["ROGUEAssassination"] = "Agility > MAstery > Versatility > Critical Strike > Haste"
 statPriorityStats["ROGUEExsanguinate"] = "Agility > Versatility > Critical Strike > Mastery > Haste"
 statPriorityStats["ROGUEOutlaw"] = "Agility > Haste > Versatility > Critical Strike > Mastery"
 statPriorityStats["ROGUESubtlety"] = "Agility > Mastery > Versatility > Critical Strike > Haste"
