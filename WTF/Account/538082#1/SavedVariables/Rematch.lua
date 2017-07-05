@@ -151,21 +151,21 @@ RematchSettings = {
 		},
 		["Rarity"] = {
 		},
-		["Favorite"] = {
+		["Tough"] = {
 		},
-		["Collected"] = {
+		["Level"] = {
 		},
 		["Sources"] = {
 		},
 		["Breed"] = {
 		},
-		["Script"] = {
-		},
 		["Similar"] = {
 		},
-		["Level"] = {
+		["Script"] = {
 		},
-		["Tough"] = {
+		["Collected"] = {
+		},
+		["Favorite"] = {
 		},
 		["Types"] = {
 			[2] = true,
@@ -179,16 +179,6 @@ RematchSettings = {
 	["PreferredMode"] = 1,
 	["ActivePanel"] = 1,
 	["Sanctuary"] = {
-		["BattlePet-0-000008A6D3F0"] = {
-			1, -- [1]
-			true, -- [2]
-			458, -- [3]
-			25, -- [4]
-			1338, -- [5]
-			248, -- [6]
-			206, -- [7]
-			2, -- [8]
-		},
 		["BattlePet-0-000008A6D4E2"] = {
 			1, -- [1]
 			true, -- [2]
@@ -198,6 +188,16 @@ RematchSettings = {
 			276, -- [6]
 			227, -- [7]
 			4, -- [8]
+		},
+		["BattlePet-0-000008A6D3F0"] = {
+			1, -- [1]
+			true, -- [2]
+			458, -- [3]
+			25, -- [4]
+			1338, -- [5]
+			248, -- [6]
+			206, -- [7]
+			2, -- [8]
 		},
 		["BattlePet-0-000008A6D3E7"] = {
 			2, -- [1]
@@ -209,14 +209,14 @@ RematchSettings = {
 			257, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000008A6D4E6"] = {
-			4, -- [1]
+		["BattlePet-0-000008A6D48C"] = {
+			1, -- [1]
 			true, -- [2]
-			844, -- [3]
+			1155, -- [3]
 			25, -- [4]
-			1400, -- [5]
+			1725, -- [5]
 			276, -- [6]
-			309, -- [7]
+			244, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-000008A6D415"] = {
@@ -229,14 +229,14 @@ RematchSettings = {
 			325, -- [7]
 			4, -- [8]
 		},
-		["BattlePet-0-000008A6D48C"] = {
-			1, -- [1]
+		["BattlePet-0-000008A6D4E6"] = {
+			4, -- [1]
 			true, -- [2]
-			1155, -- [3]
+			844, -- [3]
 			25, -- [4]
-			1725, -- [5]
+			1400, -- [5]
 			276, -- [6]
-			244, -- [7]
+			309, -- [7]
 			4, -- [8]
 		},
 		["BattlePet-0-000008A6D4A6"] = {
@@ -250,12 +250,12 @@ RematchSettings = {
 			4, -- [8]
 		},
 	},
-	["YPos"] = 250.59748840332,
+	["UseTypeBar"] = false,
 	["CornerPos"] = "BOTTOMLEFT",
+	["JournalUsed"] = true,
 	["LevelingQueue"] = {
 	},
-	["JournalUsed"] = true,
-	["UseTypeBar"] = false,
+	["YPos"] = 250.59748840332,
 	["SelectedTab"] = 2,
 	["PetNotes"] = {
 	},

@@ -11,21 +11,28 @@ local ignoredItems = {
 	[147717] = true,
 }
 
-local function ScanBags()
+local function ScanBags(type)
 	for bag = 0, NUM_BAG_SLOTS do
 		for slot = 1, GetContainerNumSlots(bag) do
 			local itemLink = GetContainerItemLink(bag, slot)
-			if itemLink and itemLink:match("item:%d+") and not db.ignoredItems[tonumber(itemLink:match("item:(%d+)"))] then
-				if Cache[itemLink] then
+			if itemLink and itemLink:match("item:%d+") then
+				if Cache[itemLink] == type then
 					return itemLink, bag, slot
-				else
-					tooltipScanner:SetOwner(UIParent, "ANCHOR_NONE")
-					tooltipScanner:SetHyperlink(itemLink)
-					for i = 2,4 do
-						local tooltipText = _G[tooltipName.."TextLeft"..i]:GetText()
-						if tooltipText and tooltipText:match("\124cFFE6CC80"..ARTIFACT_POWER.."\124r") then
-							Cache[itemLink] = true
+				elseif not db.ignoredItems[tonumber(itemLink:match("item:(%d+)"))] then
+					if type == "fish" then				
+						if select(3,GetItemSpell(itemLink)) == 221474 then -- 221474 Throw Back
+							Cache[itemLink] = type
 							return itemLink, bag, slot
+						end
+					else
+						tooltipScanner:SetOwner(UIParent, "ANCHOR_NONE")
+						tooltipScanner:SetHyperlink(itemLink)
+						for i = 2,4 do
+							local tooltipText = _G[tooltipName.."TextLeft"..i]:GetText()
+							if tooltipText and tooltipText:match("\124cFFE6CC80"..ARTIFACT_POWER.."\124r") then
+								Cache[itemLink] = type
+								return itemLink, bag, slot
+							end
 						end
 					end
 				end
@@ -40,7 +47,8 @@ local function Update()
 		return
 	end
 	if not dbChar.hide and not dbChar.disable[GetSpecialization()] then
-		itemLink, bag, slot = ScanBags()
+		local type = IsEquippedItem(133755) and "fish" or "normal" -- 133755 fishing artifact Underlight Angler
+		itemLink, bag, slot = ScanBags(type)
 		if itemLink then
 			self:SetAttribute("type", "item")
 			self:SetAttribute("item", bag.." "..slot)

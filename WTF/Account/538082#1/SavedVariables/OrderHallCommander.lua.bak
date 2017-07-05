@@ -19,6 +19,9 @@ dbOHC = {
 		["Morifa - Proudmoore"] = {
 			["firstun"] = false,
 		},
+		["Miriyal - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Fimwack - Proudmoore"] = {
 			["firstun"] = false,
 		},
@@ -36,6 +39,7 @@ dbOHC = {
 		["Mallusof - Tichondrius"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",

@@ -22,10 +22,13 @@ dbOHC = {
 		["Kaldorath - Proudmoore"] = {
 			["firstun"] = false,
 		},
+		["Fimwack - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Faerand - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Fimwack - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 			["firstun"] = false,
 		},
 	},
@@ -44,8 +47,9 @@ dbOHC = {
 		["Granjior - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
