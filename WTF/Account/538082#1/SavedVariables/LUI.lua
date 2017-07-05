@@ -72,14 +72,14 @@ LUIDB = {
 							["Miriyal"] = 120318136,
 							["Farahn"] = 54547650,
 							["Greybone"] = 21130876,
-							["Amranar"] = 519526289,
+							["Amranar"] = 528982557,
 							["Granjior"] = 359688549,
 							["Kaldorath"] = 195219649,
 							["Faerand"] = 120017062,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 192205915,
 							["Morifa"] = 460941929,
-							["Rahran"] = 441239814,
+							["Rahran"] = 459991146,
 							["Praerend"] = 679150103,
 						},
 					},
@@ -87,7 +87,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 5551580982,
+							["Mallusof"] = 5551985357,
 						},
 					},
 				},
@@ -107,27 +107,27 @@ LUIDB = {
 							"class", -- [2]
 						},
 					},
-					["Memory"] = {
-						["Enable"] = false,
-						["Font"] = "Prototype",
-					},
-					["Instance"] = {
-						["Enable"] = true,
-						["Font"] = "Prototype",
-					},
-					["Bags"] = {
-						["Font"] = "Prototype",
-					},
-					["Friends"] = {
-						["Font"] = "Prototype",
-					},
 					["Currency"] = {
 						["Enable"] = true,
 						["X"] = 250,
 						["Display"] = 1342,
 						["Font"] = "Prototype",
 					},
+					["Instance"] = {
+						["Enable"] = true,
+						["Font"] = "Prototype",
+					},
 					["FPS"] = {
+						["Font"] = "Prototype",
+					},
+					["Friends"] = {
+						["Font"] = "Prototype",
+					},
+					["Memory"] = {
+						["Enable"] = false,
+						["Font"] = "Prototype",
+					},
+					["Bags"] = {
 						["Font"] = "Prototype",
 					},
 					["DPS"] = {
@@ -147,14 +147,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -182,36 +188,14 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -706,6 +690,22 @@ LUIDB = {
 					["ToT"] = {
 						["Y"] = -150,
 						["X"] = 350,
+					},
+				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
 					},
 				},
 			},
@@ -1870,72 +1870,72 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i I betcha", -- [1]
-							"/macro", -- [2]
+							" <3", -- [1]
+							"/cw Mazucena-Quel'Thalas need the cloak?", -- [2]
 							"/i greetings", -- [3]
-							"/cw Rïversong-Draenor oh then gz! :)", -- [4]
-							"/i 7.3", -- [5]
-							"/i greetings", -- [6]
-							"/i 7.3", -- [7]
+							"/cw Syrrana lawl", -- [4]
+							"/i greetings", -- [5]
+							"/i too much M+ :LP", -- [6]
+							"/cw Syrrana As Heals at least", -- [7]
 							"/i I betcha", -- [8]
-							"/i greetings", -- [9]
-							"/i 7.3", -- [10]
+							"/cw Syrrana lawl", -- [9]
+							"/i too much M+ :LP", -- [10]
 							"/i I betcha", -- [11]
-							"/i 7.3", -- [12]
-							"/i greetings", -- [13]
-							"/i I betcha", -- [14]
-							"/i greetings", -- [15]
-							"/i 7.3", -- [16]
-							"/i I betcha", -- [17]
-							"/i 7.3", -- [18]
-							"/i greetings", -- [19]
-							"/i 7.3", -- [20]
-							"/i greetings", -- [21]
-							"/2 Cancer, Ebola and the Plague", -- [22]
-							"/cw Syrrana Quaking", -- [23]
-							"/cw Syrrana worst of them all", -- [24]
-							"/cw Syrrana As Heals at least", -- [25]
+							"/i too much M+ :LP", -- [12]
+							"/p this world quest  -.-", -- [13]
+							"/cw Gemíní-Proudmoore Reward is good though", -- [14]
+							"/i I didnt have poisons on", -- [15]
+							"/i uhh", -- [16]
+							"/cw Rabbiskov-Frostmourne Need that trinket?", -- [17]
+							"/cw Mazucena-Quel'Thalas need the cloak?", -- [18]
+							"/cw Syrrana lawl", -- [19]
+							"/i too much M+ :LP", -- [20]
+							"/i I betcha", -- [21]
+							"/i too much M+ :LP", -- [22]
+							"/p this world quest  -.-", -- [23]
+							"/i I didnt have poisons on", -- [24]
+							"/cw Rabbiskov-Frostmourne Need that trinket?", -- [25]
 							"/cw Syrrana lawl", -- [26]
-							"/pvp", -- [27]
-							"/i hahaha", -- [28]
-							"/i no loot", -- [29]
-							"/i too much M+ :LP", -- [30]
-							"/i nps", -- [31]
-							"/i mail ye", -- [32]
+							"/i I betcha", -- [27]
+							"/p this world quest  -.-", -- [28]
+							"/cw Rabbiskov-Frostmourne Need that trinket?", -- [29]
+							"/i I betcha", -- [30]
+							"/cw Rabbiskov-Frostmourne Need that trinket?", -- [31]
+							"/2 It is", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g what Dao said", -- [1]
-							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [2]
+							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [1]
+							"/g what Dao said", -- [2]
 							"/cw Sombrador-Tichondrius rd", -- [3]
-							"/wa", -- [4]
-							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan - Sickly Fixate]", -- [5]
-							"/cw Hangookie How far are you guys?", -- [6]
-							"/WA", -- [7]
-							"/raid Pick this up", -- [8]
-							"/raid get out of the stack", -- [9]
-							"/raid just get out", -- [10]
-							" here", -- [11]
-							"/g talk to Zin", -- [12]
-							"/cw Ellestria-Tichondrius We're getting way too many stacks of the debugff", -- [13]
-							"/raid download WA", -- [14]
-							"/raid and put them in the center of your fucking screen", -- [15]
-							"/cw Hangookie-Tichondrius But like", -- [16]
-							"/cw Hangookie-Tichondrius and DBM", -- [17]
-							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [18]
-							"/wa", -- [19]
-							"/cw Hangookie How far are you guys?", -- [20]
-							"/raid Pick this up", -- [21]
-							"/raid just get out", -- [22]
-							"/g talk to Zin", -- [23]
-							"/raid download WA", -- [24]
-							"/cw Hangookie-Tichondrius But like", -- [25]
-							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [26]
-							"/cw Hangookie How far are you guys?", -- [27]
-							"/raid just get out", -- [28]
-							"/raid download WA", -- [29]
-							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [30]
-							"/raid just get out", -- [31]
-							"/cw Hangookie-Tichondrius I feel like they are qay too prouid", -- [32]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan - Sickly Fixate]", -- [4]
+							"/WA", -- [5]
+							"/raid get out of the stack", -- [6]
+							" here", -- [7]
+							"/cw Ellestria-Tichondrius We're getting way too many stacks of the debugff", -- [8]
+							"/raid and put them in the center of your fucking screen", -- [9]
+							"/cw Hangookie-Tichondrius and DBM", -- [10]
+							"/wa", -- [11]
+							"/raid Pick this up", -- [12]
+							"/g talk to Zin", -- [13]
+							"/cw Hangookie-Tichondrius But like", -- [14]
+							"/cw Hangookie How far are you guys?", -- [15]
+							"/raid download WA", -- [16]
+							"/raid just get out", -- [17]
+							"/g what Dao said", -- [18]
+							"/raid [WeakAuras: Mallusof-Tichondrius - Harjatan - Sickly Fixate]", -- [19]
+							"/raid get out of the stack", -- [20]
+							"/cw Ellestria-Tichondrius We're getting way too many stacks of the debugff", -- [21]
+							"/cw Hangookie-Tichondrius and DBM", -- [22]
+							"/raid Pick this up", -- [23]
+							"/cw Hangookie-Tichondrius But like", -- [24]
+							"/raid download WA", -- [25]
+							"/g what Dao said", -- [26]
+							"/raid get out of the stack", -- [27]
+							"/cw Hangookie-Tichondrius and DBM", -- [28]
+							"/cw Hangookie-Tichondrius But like", -- [29]
+							"/g what Dao said", -- [30]
+							"/cw Hangookie-Tichondrius and DBM", -- [31]
+							"/g what Dao said", -- [32]
 						},
 					},
 					["profiles"] = {
@@ -2594,22 +2594,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 	},
 	["profiles"] = {
 		["Gottagetlia - Aggramar"] = {

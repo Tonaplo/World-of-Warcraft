@@ -19,25 +19,25 @@ RCDatabase = {
 		["Proudmoore"] = {
 			{
 				["secondProfLevel"] = 815,
-				["itemLevelEquipped"] = 844.5625,
+				["itemLevelEquipped"] = 846.75,
 				["class"] = "ROGUE",
 				["secondProf"] = "Skinning",
 				["name"] = "Rahran",
-				["itemLevelOverall"] = 844.5625,
-				["level"] = 110,
-				["firstProfLevel"] = 700,
 				["firstProf"] = "Leatherworking",
+				["level"] = 110,
+				["firstProfLevel"] = 723,
+				["itemLevelOverall"] = 846.75,
 			}, -- [1]
 			{
-				["secondProfLevel"] = 791,
-				["itemLevelEquipped"] = 875.1875,
+				["secondProfLevel"] = 792,
+				["itemLevelEquipped"] = 875.5,
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 879.0625,
 				["level"] = 110,
 				["firstProfLevel"] = 713,
-				["itemLevelOverall"] = 878.75,
+				["firstProf"] = "Alchemy",
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,

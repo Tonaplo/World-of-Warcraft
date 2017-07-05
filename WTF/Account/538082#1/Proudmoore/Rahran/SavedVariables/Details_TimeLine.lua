@@ -1,5 +1,289 @@
 
 DetailsTimeLineDB = {
+	["combat_data"] = {
+		{
+			["date_end"] = "08:46:54",
+			["date_start"] = "08:45:20",
+			["name"] = "Lord Kur'talos Ravencrest",
+			["total_time"] = 94.0039999999999,
+		}, -- [1]
+		{
+			["date_end"] = "08:43:45",
+			["date_start"] = "08:43:04",
+			["name"] = "Smashspite the Hateful",
+			["total_time"] = 41.0079999999998,
+		}, -- [2]
+		{
+			["date_end"] = "08:39:08",
+			["date_start"] = "08:38:29",
+			["name"] = "Ilysanna Ravencrest",
+			["total_time"] = 39.0010000000002,
+		}, -- [3]
+		{
+			["date_end"] = "08:34:18",
+			["date_start"] = "08:33:30",
+			["name"] = "Amalgam of Souls",
+			["total_time"] = 48.0010000000002,
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Rahran"] = {
+				{
+					62.9519999999993, -- [1]
+					"Rahran", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Rabbiskov-Frostmourne"] = {
+				{
+					8.16899999999987, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					31.8319999999994, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [2]
+				{
+					33.7889999999998, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [3]
+				{
+					46.808, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [4]
+				{
+					57.1239999999998, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [5]
+			},
+		}, -- [1]
+		{
+			["Stobb-Sentinels"] = {
+				{
+					32.8739999999998, -- [1]
+					"Stobb-Sentinels", -- [2]
+					116849, -- [3]
+				}, -- [1]
+			},
+			["Rahran"] = {
+				{
+					35.1169999999993, -- [1]
+					"Rahran", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Rabbiskov-Frostmourne"] = {
+				{
+					0.347999999999956, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					3.375, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [2]
+				{
+					15.6659999999993, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [3]
+				{
+					25.1289999999999, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [4]
+				{
+					38.223, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [5]
+			},
+		}, -- [2]
+		{
+			["Rabbiskov-Frostmourne"] = {
+				{
+					2.7510000000002, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					13.3980000000001, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [2]
+				{
+					22.3630000000003, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [3]
+				{
+					37.1970000000001, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [4]
+			},
+		}, -- [3]
+		{
+			["Rahran"] = {
+				{
+					45.9890000000005, -- [1]
+					"Rahran", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Fôxglove-Sentinels"] = {
+				{
+					45.9200000000001, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					152279, -- [3]
+				}, -- [1]
+			},
+			["Rabbiskov-Frostmourne"] = {
+				{
+					1.94100000000071, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					12.6150000000007, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [2]
+				{
+					22.8020000000006, -- [1]
+					"Rabbiskov-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [3]
+			},
+		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["debuff_timeline"] = {
+		{
+			["Rabbiskov-Frostmourne"] = {
+				[198635] = {
+					4.95100000000002, -- [1]
+					93.1369999999997, -- [2]
+					["source"] = "Kur'talos Ravencrest",
+					["active"] = false,
+				},
+				[201733] = {
+					51.0149999999994, -- [1]
+					54.7789999999996, -- [2]
+					["source"] = "Dantalionax",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+			["Stobb-Sentinels"] = {
+				[198079] = {
+					4.23699999999917, -- [1]
+					9.23799999999937, -- [2]
+					29.7249999999995, -- [3]
+					34.7259999999997, -- [4]
+					["source"] = "Smashspite the Hateful",
+					["active"] = false,
+				},
+				[224188] = {
+					10.0619999999999, -- [1]
+					40.232, -- [2]
+					["source"] = "Smashspite the Hateful",
+					["active"] = false,
+				},
+			},
+			["Fôxglove-Sentinels"] = {
+				[198446] = {
+					29.3119999999999, -- [1]
+					35.3099999999995, -- [2]
+					["source"] = "Fel Bat",
+					["active"] = false,
+				},
+			},
+			["Rahran"] = {
+				[224188] = {
+					34.8859999999995, -- [1]
+					40.232, -- [2]
+					["source"] = "Smashspite the Hateful",
+					["active"] = false,
+				},
+			},
+		}, -- [2]
+		{
+			["Carayleyna-AeriePeak"] = {
+				[197521] = {
+					18.335, -- [1]
+					18.7530000000006, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197478] = {
+					10.1419999999998, -- [1]
+					17.4660000000004, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197546] = {
+					6.88500000000022, -- [1]
+					38.9080000000004, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+			["Rabbiskov-Frostmourne"] = {
+				[197521] = {
+					17.5709999999999, -- [1]
+					17.8850000000002, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197478] = {
+					10.1419999999998, -- [1]
+					16.1220000000003, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197429] = {
+					36.6580000000004, -- [1]
+					39.0010000000002, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+			["Rahran"] = {
+				[197478] = {
+					10.1419999999998, -- [1]
+					16.1720000000005, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Stobb-Sentinels"] = {
+				[194966] = {
+					16.2450000000008, -- [1]
+					28.2540000000008, -- [2]
+					["source"] = "Amalgam of Souls",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -10,447 +294,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
-		{
-			["date_end"] = "02:14:43",
-			["date_start"] = "02:12:56",
-			["name"] = "Helya",
-			["total_time"] = 107.007999999994,
-		}, -- [1]
-		{
-			["date_end"] = "02:10:32",
-			["date_start"] = "02:10:02",
-			["name"] = "Harbaron",
-			["total_time"] = 30,
-		}, -- [2]
-		{
-			["date_end"] = "02:06:38",
-			["date_start"] = "02:06:07",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 30.9990000000034,
-		}, -- [3]
-		{
-			["date_end"] = "02:06:05",
-			["date_start"] = "02:05:06",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 59.0040000000008,
-		}, -- [4]
-	},
-	["cooldowns_timeline"] = {
-		{
-			["Spartal-Frostmourne"] = {
-				{
-					65.2989999999991, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-			},
-			["Thburnngroad-Frostmourne"] = {
-				{
-					3.61799999999494, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [1]
-				{
-					12.0069999999978, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [2]
-				{
-					17.8309999999983, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [3]
-				{
-					27.4689999999973, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [4]
-				{
-					39.0109999999986, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [5]
-				{
-					39.0109999999986, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [6]
-				{
-					39.2109999999957, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [7]
-				{
-					59.0579999999973, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [8]
-				{
-					64.9699999999939, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [9]
-				{
-					72.3949999999968, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [10]
-				{
-					72.3949999999968, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [11]
-				{
-					73.5879999999961, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [12]
-				{
-					84.9729999999982, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [13]
-				{
-					96.6529999999984, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [14]
-			},
-			["Rahran"] = {
-				{
-					84.9609999999957, -- [1]
-					"Rahran", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Thburnngroad-Frostmourne"] = {
-				{
-					2.4539999999979, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [1]
-				{
-					4.50499999999738, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [2]
-				{
-					4.50499999999738, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [3]
-				{
-					9.02999999999884, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [4]
-				{
-					14.7860000000001, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [5]
-				{
-					17.3810000000012, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					871, -- [3]
-				}, -- [6]
-				{
-					17.3810000000012, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					871, -- [3]
-				}, -- [7]
-				{
-					26.4420000000027, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [8]
-			},
-		}, -- [2]
-		{
-			["Thburnngroad-Frostmourne"] = {
-				{
-					0.38300000000163, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [1]
-				{
-					3.23700000000099, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [2]
-				{
-					3.23700000000099, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [3]
-				{
-					8.38100000000122, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [4]
-				{
-					16.9919999999984, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [5]
-			},
-		}, -- [3]
-		{
-			["Thburnngroad-Frostmourne"] = {
-				{
-					11.0120000000024, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [1]
-				{
-					11.3090000000011, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					871, -- [3]
-				}, -- [2]
-				{
-					11.3090000000011, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					871, -- [3]
-				}, -- [3]
-				{
-					23.6620000000039, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [4]
-				{
-					34.4470000000001, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [5]
-				{
-					36.1039999999994, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [6]
-				{
-					36.1039999999994, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					23920, -- [3]
-				}, -- [7]
-				{
-					40.3210000000036, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [8]
-				{
-					47.2739999999976, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					12975, -- [3]
-				}, -- [9]
-				{
-					47.2739999999976, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					12975, -- [3]
-				}, -- [10]
-				{
-					48.1869999999981, -- [1]
-					"Thburnngroad-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [11]
-			},
-		}, -- [4]
-	},
-	["debuff_timeline"] = {
-		{
-			["Spartal-Frostmourne"] = {
-				[197262] = {
-					36.1909999999989, -- [1]
-					57.1949999999997, -- [2]
-					60.5899999999965, -- [3]
-					89.5899999999965, -- [4]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-			},
-			["Thburnngroad-Frostmourne"] = {
-				[185539] = {
-					2.72799999999552, -- [1]
-					8.72899999999936, -- [2]
-					["source"] = "Destructor Tentacle",
-					["active"] = false,
-				},
-				[197262] = {
-					38.8679999999949, -- [1]
-					59.8629999999976, -- [2]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-			},
-			["Josheb-Kilrogg"] = {
-				[197262] = {
-					11.5689999999959, -- [1]
-					45.5969999999943, -- [2]
-					88.5369999999966, -- [3]
-					103.493999999999, -- [4]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-			},
-			["Mattzelite-Frostmourne"] = {
-				[185539] = {
-					30.6029999999955, -- [1]
-					36.6169999999984, -- [2]
-					["source"] = "Destructor Tentacle",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-			["Josheb-Kilrogg"] = {
-				[198551] = {
-					21.4290000000037, -- [1]
-					24.4330000000045, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-				[194327] = {
-					21.4290000000037, -- [1]
-					24.7180000000008, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-			["Thburnngroad-Frostmourne"] = {
-				[193364] = {
-					8.45399999999791, -- [1]
-					9.67799999999988, -- [2]
-					["source"] = "Ymiron, the Fallen King",
-					["active"] = false,
-				},
-			},
-			["Rahran"] = {
-				[193364] = {
-					8.45399999999791, -- [1]
-					13.4579999999987, -- [2]
-					["source"] = "Ymiron, the Fallen King",
-					["active"] = false,
-				},
-			},
-		}, -- [3]
-		{
-			["Spartal-Frostmourne"] = {
-				[199185] = {
-					24.5080000000016, -- [1]
-					30.5149999999994, -- [2]
-					["source"] = "Cursed Falke",
-					["active"] = false,
-				},
-				[194674] = {
-					38.2870000000039, -- [1]
-					42.2830000000031, -- [2]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-			},
-			["Thburnngroad-Frostmourne"] = {
-				[199061] = {
-					44.9950000000026, -- [1]
-					46.7949999999983, -- [2]
-					["source"] = "Enslaved Shieldmaiden",
-					["active"] = false,
-				},
-				[194674] = {
-					38.2870000000039, -- [1]
-					42.2830000000031, -- [2]
-					45.8610000000044, -- [3]
-					47.2739999999976, -- [4]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-				[198944] = {
-					45.7180000000008, -- [1]
-					50.7209999999977, -- [2]
-					["source"] = "Enslaved Shieldmaiden",
-					["active"] = false,
-				},
-				[199185] = {
-					26.9690000000046, -- [1]
-					32.9729999999981, -- [2]
-					["source"] = "Cursed Falke",
-					["active"] = false,
-				},
-				[200208] = {
-					25.9780000000028, -- [1]
-					29.989999999998, -- [2]
-					38.1200000000026, -- [3]
-					42.1310000000012, -- [4]
-					["source"] = "Seacursed Soulkeeper",
-					["active"] = false,
-				},
-				[201566] = {
-					44.5560000000041, -- [1]
-					45.2530000000043, -- [2]
-					46.4990000000034, -- [3]
-					47.0089999999982, -- [4]
-					47.7920000000013, -- [5]
-					48.1560000000027, -- [6]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-			},
-			["Josheb-Kilrogg"] = {
-				[194674] = {
-					43.0650000000023, -- [1]
-					47.0690000000031, -- [2]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-				[201566] = {
-					48.9470000000001, -- [1]
-					51.0020000000004, -- [2]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-			},
-			["Mattzelite-Frostmourne"] = {
-				[198944] = {
-					6.41599999999744, -- [1]
-					15.0659999999989, -- [2]
-					["source"] = "Enslaved Shieldmaiden",
-					["active"] = false,
-				},
-				[194674] = {
-					41.8410000000004, -- [1]
-					45.8499999999985, -- [2]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-			},
-			["Rahran"] = {
-				[194674] = {
-					38.2870000000039, -- [1]
-					42.2830000000031, -- [2]
-					45.8610000000044, -- [3]
-					49.8550000000032, -- [4]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-				[201566] = {
-					47.2309999999998, -- [1]
-					47.7720000000045, -- [2]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-			},
-		}, -- [4]
-	},
 	["window_scale"] = 1,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
 }

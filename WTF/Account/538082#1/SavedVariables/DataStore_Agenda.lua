@@ -1,22 +1,22 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["Options"] = {
@@ -26,10 +26,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["DungeonIDs"] = {
-					["Cathedral of Eternal Night Heroic|4042871182"] = "36582|1499230213|0|0",
-				},
-				["lastUpdate"] = 1499230241,
+				["lastUpdate"] = 1499275536,
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1499207103,
@@ -40,12 +37,9 @@ DataStore_AgendaDB = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1499195221,
+				["lastUpdate"] = 1499266812,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["DungeonIDs"] = {
-					["Cathedral of Eternal Night Heroic|4042605707"] = "58113|1499208681|0|0",
-				},
 				["lastUpdate"] = 1499208893,
 			},
 			["Default.Proudmoore.Faerand"] = {
@@ -54,20 +48,17 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1499024495,
 			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1499247168,
-				["DungeonIDs"] = {
-					["Maw of Souls Heroic|4043031862"] = "19695|1499247101|0|0",
-				},
-			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1498419220,
 			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1499273419,
+			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1493618480,
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1499209210,

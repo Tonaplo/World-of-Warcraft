@@ -1,22 +1,22 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -29,9 +29,6 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1499207103,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["DungeonIDs"] = {
-					["Cathedral of Eternal Night Heroic|4042871182"] = "36582|1499230213|0|0",
-				},
 				["lastUpdate"] = 1499230241,
 			},
 			["Default.Tichondrius.Mallusof"] = {
@@ -40,7 +37,7 @@ DataStore_AgendaDB = {
 						["note"] = "",
 					},
 				},
-				["lastUpdate"] = 1499195221,
+				["lastUpdate"] = 1499266812,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,
@@ -51,23 +48,23 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1499024495,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1493618480,
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1498419952,
 			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1498419220,
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1493618480,
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1499209210,
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1499073426,
+				["lastUpdate"] = 1499273419,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1499195319,
@@ -76,9 +73,6 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1499060333,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["DungeonIDs"] = {
-					["Cathedral of Eternal Night Heroic|4042605707"] = "58113|1499208681|0|0",
-				},
 				["lastUpdate"] = 1499208893,
 			},
 			["Default.Bleeding Hollow.Evisca"] = {

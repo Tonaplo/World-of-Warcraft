@@ -270,6 +270,8 @@ L["STRING_GUILDDAMAGERANK_SHOWRANK"] = "Gildenbank zeigen"
 L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = "Mit Gilde synchronisieren"
 --Translation missing 
 -- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = ""
 L["STRING_HEAL"] = "Heilung"
 L["STRING_HEAL_ABSORBED"] = "Absorbierte Heilung"
 L["STRING_HEAL_CRIT"] = "Kritische Heilung"

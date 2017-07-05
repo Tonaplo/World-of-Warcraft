@@ -19,13 +19,13 @@ RCDatabase = {
 		["Proudmoore"] = {
 			{
 				["secondProfLevel"] = 815,
-				["itemLevelEquipped"] = 834.5625,
+				["itemLevelEquipped"] = 846.75,
 				["class"] = "ROGUE",
 				["secondProf"] = "Skinning",
 				["name"] = "Rahran",
-				["itemLevelOverall"] = 834.8125,
+				["itemLevelOverall"] = 846.75,
 				["level"] = 110,
-				["firstProfLevel"] = 700,
+				["firstProfLevel"] = 723,
 				["firstProf"] = "Leatherworking",
 			}, -- [1]
 			{

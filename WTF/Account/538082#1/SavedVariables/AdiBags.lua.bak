@@ -46,8 +46,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
-		},
 		["ItemSets"] = {
 			["char"] = {
 				["Mallusof - Tichondrius"] = {
@@ -88,6 +86,8 @@ AdiBagsDB = {
 					},
 				},
 			},
+		},
+		["DataSource"] = {
 		},
 		["Junk"] = {
 		},
