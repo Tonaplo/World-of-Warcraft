@@ -1,7 +1,7 @@
-changeset:   38:af500463dc50
-tag:         a38-alpha
+changeset:   44:7a10ce3aa666
+tag:         v7.3.0.044
 user:        Tercio
-date:        Mon May 08 17:01:42 2017 -0300
-summary:     - localization is now handled on curseforge.
+date:        Sat Sep 02 12:38:32 2017 -0300
+summary:     - ToC Update.
 
 

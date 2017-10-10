@@ -13,13 +13,19 @@ dbOHC = {
 		["Mallusof - Tichondrius"] = {
 			["firstun"] = false,
 		},
+		["Kaldorath - Proudmoore"] = {
+			["firstun"] = false,
+		},
 		["Granjior - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Morifa - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
+			["firstun"] = false,
+		},
+		["Greybone - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Fimwack - Proudmoore"] = {
@@ -28,52 +34,64 @@ dbOHC = {
 		["Faerand - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Miriyal - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 			["firstun"] = false,
 		},
-	},
-	["global"] = {
-		["warn01_seen"] = 0,
-		["firstrun"] = false,
-		["news"] = {
-		},
-		["warn02_seen"] = 0,
 	},
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+	},
+	["global"] = {
+		["warn01_seen"] = 0,
+		["firstrun"] = false,
+		["news"] = {
+			[10300] = true,
+		},
+		["warn02_seen"] = 0,
 	},
 	["profiles"] = {
 		["Default"] = {
 			["toggles"] = {
+				["NOTROOPS"] = false,
+				["SORTMISSION"] = "Garrison_SortMissions_Class",
+				["NEVERKILLTROOPS"] = false,
+				["MAXCHAMP"] = 3,
+				["MOVEPANEL"] = false,
+				["MAXIMIZEXP"] = false,
+				["USEALLY"] = false,
 				["SAVETROOPS"] = false,
 				["IGNOREINACTIVE"] = true,
-				["TROOPALERT"] = true,
 				["BONUS"] = true,
-				["SORTMISSION"] = "Garrison_SortMissions_Class",
-				["SPARE"] = false,
-				["NOTROOPS"] = false,
-				["MAKEITVERYQUICK"] = false,
+				["TROOPALERT"] = true,
+				["BONUSCHANCE"] = 100,
+				["MINCHANCE"] = 5,
+				["NOWARN"] = false,
+				["PREFERHIGH"] = false,
 				["IGNORELOW"] = false,
-				["MAXCHAMP"] = 3,
 				["MAKEITQUICK"] = true,
-				["MOVEPANEL"] = true,
-				["MAXIMIZEXP"] = false,
+				["SPARE"] = false,
+				["MAKEITVERYQUICK"] = false,
 				["IGNOREBUSY"] = false,
-				["USEALLY"] = false,
+				["BASECHANCE"] = 5,
 			},
-			["showmenu"] = false,
 			["blacklist"] = {
 				[1632] = false,
+				[1384] = false,
+				[1656] = true,
+				[1602] = false,
 			},
+			["showmenu"] = false,
 		},
 	},
 }

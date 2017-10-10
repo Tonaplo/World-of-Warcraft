@@ -82,6 +82,9 @@
       isSlotted: whether pet is slotted (bool)
       inTeams: whether pet is in any teams (pet and species idTypes only) (bool)
       numTeams: number of teams the pet belongs to (pet and species only) (integer)
+      sourceID: the source index (1=Drop, 2=Quest, 3=Vendor, etc) of the pet (integer)
+      moveset: the exact moveset of the pet ("123,456,etc") (string)
+      speciesAt25: whether the pet has a version at level 25 (bool)
       
    How it works:
 
@@ -134,7 +137,7 @@ local apiByStat = {
    breedID="Breed", breedName="Breed", possibleBreedIDs="PossibleBreeds",
    possibleBreedNames="PossibleBreeds", numPossibleBreeds="PossibleBreeds", hasBreed="Breed",
    owned="Valid", battleOwner="Battle", battleIndex="Battle", isSlotted="Slotted",
-   inTeams="Teams", numTeams="Teams",
+   inTeams="Teams", numTeams="Teams", sourceID="Source", moveset="Moveset", speciesAt25="SpeciesAt25",
 }
 
 -- indexed by petInfo table reference, this will contain reused tables like fetchedAPI
@@ -145,11 +148,6 @@ local hiddenTables = {}
 local breedSource -- addon that's providing breed data: "BattlePetBreedID", "PetTracker_Breeds" or "LibPetBreedInfo-1.0"
 local breedLib -- for LibPetBreedInfo-1.0 only
 local breedNames = {nil,nil,"B/B","P/P","S/S","H/H","H/P","P/S","H/S","P/B","S/B","H/B"}
-
--- for Teams stat group
-local petsInTeamsGathered -- becomes true when pets have been gathered in petsInTeams
-local petsInTeams = {} -- indexed by petID or speciesID, number of teams the pet belongs to
-local clearPetsInTeams -- function to clear the above two so old data isn't kept
 
 -- getIDType takes a petID and returns what type of id it is
 -- possible: "pet" "species" "leveling" "ignored" "link" "battle" "random" or "unknown"
@@ -427,38 +425,26 @@ local queryAPIs = {
    end,
    -- pulls the number of teams the pet of interest belongs to
    Teams = function(self)
-      -- in many cases, a request for the number of teams a pet belongs to will be run for
-      -- many pets. to reduce the work this causes, the table petsinTeams is filled for
-      -- all pets when first accessed and then emptied a frame later
-      if not petsInTeamsGathered then
-         petsInTeamsGathered = true
-         for _,team in pairs(RematchSaved) do
-            for i=1,3 do
-               local petID = team[i][1]
-               if petID then
-                  petsInTeams[petID] = (petsInTeams[petID] or 0) + 1
-               end
-            end
-         end
-         rematch:StartTimer("PetsInTeams",0,clearPetsInTeams) -- come back in a frame to reset
-      end
       -- defining the actual stats inTeams and numTeams
       local idType = self.idType
       if idType=="pet" or idType=="species" then
-         local numTeams = petsInTeams[self.petID] or 0
+         local numTeams = rematch.petsInTeams[self.petID] or 0
          self.inTeams = numTeams>0
          self.numTeams = numTeams
       end
    end,
-
+   -- sourceID is source pet filter category (1=Drop, 2=Vendor, 3=Quest, etc)
+   Source = function(self)
+      self.sourceID = rematch.sourceIDs[self.speciesID]
+   end,
+   -- moveset is the list of abilityIDs separated by commas like "429,492,538,535,357,536" for a black tabby cat
+   Moveset = function(self)
+      self.moveset = rematch.movesetsBySpecies[self.speciesID]
+   end,
+   SpeciesAt25 = function(self)
+      self.speciesAt25 = rematch.speciesAt25[self.speciesID] and true
+   end,
 }
-
--- local function called the frame after a Teams stat is accessed
--- wipes the petsInTeams table and clears the flag that data was gathered
-function clearPetsInTeams()
-   wipe(petsInTeams)
-   petsInTeamsGathered = nil
-end
 
 -- rematch:GetBreedSource() is used by the Breed and PossibleBreeds API
 -- the first time this runs it looks for a breed addon enabled and returns it

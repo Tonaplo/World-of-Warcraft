@@ -71,6 +71,9 @@ local locales = {
 			autolooting_list = "To automatically loot specific items, list them below.\n  Example: Linen Cloth,Ashbringer,Copper Ore",
 
 			autolooting_details = "XLoot will choose the highest setting when deciding to loot a slot. This allows, for example, auto looting everything while solo yet only quest items and money while in a group.",
+
+			show_slot_errors = "Looting errors in chat",
+			show_slot_errors_details = "Print a chat message when a loot item cannot be shown for some reason. Most of these should be able to be safely ignored.",
 		},
 		Group = {
 			panel_title = "Group Loot",
@@ -440,6 +443,12 @@ locales.ptBR["Frame"] = {
 }
 
 locales.frFR["Frame"] = {
+	["bind_on_equip_short"] = "LqE",
+	["bind_on_pickup_short"] = "LqR",
+	["bind_on_use_short"] = "LqU",
+	["button_close"] = "Fermer",
+	["button_link"] = "Lien",
+	["linkall_threshold_missed"] = "Aucun butin ne correspond à votre seuil de qualité",
 }
 
 locales.deDE["Frame"] = {

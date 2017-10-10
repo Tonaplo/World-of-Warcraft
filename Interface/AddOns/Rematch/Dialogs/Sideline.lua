@@ -197,6 +197,8 @@ function rematch:PushSideline()
 	if type(key)=="string" then
 		saved[key].teamName = nil -- don't keep redundant teamName when a team is keyed by its name
 	end
+
+   rematch.petsInTeams:Invalidate() -- next time petsInTeams used, get new data
 	rematch:UpdateUI()
 end
 

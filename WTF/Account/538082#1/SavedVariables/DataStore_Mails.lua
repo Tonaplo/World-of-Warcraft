@@ -1,94 +1,72 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1496822812,
-				["lastVisitDate"] = "2017/06/07 01:06",
+				["lastUpdate"] = 1507146572,
+				["lastVisitDate"] = "2017/10/04 12:49",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1498980766,
-				["lastVisitDate"] = "2017/07/02 00:32",
+				["lastUpdate"] = 1507054969,
+				["lastVisitDate"] = "2017/10/03 11:22",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1496821680,
-				["lastVisitDate"] = "2017/06/07 00:48",
+				["lastUpdate"] = 1507644554,
+				["lastVisitDate"] = "2017/10/10 07:09",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1499238879,
-				["lastVisitDate"] = "2017/07/05 00:14",
+			["Default.Proudmoore.Fimwack"] = {
+				["lastUpdate"] = 1507301657,
+				["lastVisitDate"] = "2017/10/06 07:54",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1496822021,
-				["lastVisitDate"] = "2017/06/07 00:53",
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1506419960,
+				["lastVisitDate"] = "2017/09/26 02:59",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1496821857,
 				["lastVisitDate"] = "2017/06/07 00:50",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1496821502,
-				["lastVisitDate"] = "2017/06/07 00:45",
+				["lastUpdate"] = 1507644649,
+				["lastVisitDate"] = "2017/10/10 07:10",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1499035811,
-				["lastVisitDate"] = "2017/07/02 15:50",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1507153910,
+				["lastVisitDate"] = "2017/10/04 14:51",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1498344422,
-				["Mails"] = {
-					{
-						["lastCheck"] = 1498344422,
-						["sender"] = "Thaumaturge Vashreen",
-						["subject"] = "Lost Currency",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "We discovered some lost currency from Broken Isles in our ledgers, and it apparently belongs to you. 48 Order Resources have been added. If this caused you to go over your currency limit, we adjusted the amount to bring you to the limit and not go over!",
-						["icon"] = 134327,
-						["daysLeft"] = 29.9907054901123,
-					}, -- [1]
-					{
-						["lastCheck"] = 1498344422,
-						["sender"] = "Thaumaturge Vashreen",
-						["subject"] = "Lost Currency",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "We discovered some lost currency from Broken Isles in our ledgers, and it apparently belongs to you. 45 Order Resources have been added. If this caused you to go over your currency limit, we adjusted the amount to bring you to the limit and not go over!",
-						["icon"] = 134327,
-						["daysLeft"] = 29.9907054901123,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2017/06/24 15:47",
+				["lastUpdate"] = 1500558927,
+				["lastVisitDate"] = "2017/07/20 06:55",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1496822728,
-				["lastVisitDate"] = "2017/06/07 01:05",
+				["lastUpdate"] = 1507620948,
+				["lastVisitDate"] = "2017/10/10 00:35",
 			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1496820978,
-				["lastVisitDate"] = "2017/06/07 00:36",
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1506464071,
+				["lastVisitDate"] = "2017/09/26 15:14",
 			},
-			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1496821757,
-				["lastVisitDate"] = "2017/06/07 00:49",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1507148751,
+				["lastVisitDate"] = "2017/10/04 13:25",
 			},
 		},
 	},

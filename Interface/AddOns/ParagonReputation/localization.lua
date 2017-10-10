@@ -1,10 +1,10 @@
-		-----------------------------------------------
-		-- Paragon Reputation 1.15 by Sev (Drakkari) --
-		-----------------------------------------------
+		------------------------------------------------
+		-- Paragon Reputation 1.16 by Sev US-Drakkari --
+		------------------------------------------------
 
-		--[[	Special thanks to Ammako for
-				helping me with the vars and
-				the options.					]]--		
+		  --[[	  Special thanks to Ammako for
+				  helping me with the vars and
+				  the options.						]]--		
 
 local L = ParagonReputation -- SetStrings
 local LOCALE = GetLocale() -- GetClientLocale
@@ -43,22 +43,22 @@ elseif LOCALE == "itIT" then
 	L["SOUND"] = "Sound Warning"
 	L["ANCHOR"] = "Toggle Anchor"
 
--- Portuguese (MISSING TRANSLATIONS)
+-- Portuguese (Thanks tiagopl)
 elseif LOCALE == "ptBR" then
 	L["PARAGON"] = "Paragão"
-	L["OPTIONDESC"] = "This options allow you to customize some settings of Paragon Reputation."
-	L["TOASTDESC"] = "Toggle a toast window that will warn you when you have a Paragon Reward."
-	L["LABEL001"] = "Bars Color"
-	L["LABEL002"] = "Text Format"
-	L["LABEL003"] = "Reward Toast"
-	L["BLUE"] = "Paragon Blue"
-	L["GREEN"] = "Default Green"
-	L["YELLOW"] = "Neutral Yellow"
-	L["ORANGE"] = "Unfriendly Orange"
-	L["RED"] = "Lightish Red"
-	L["DEFICIT"] = "Reputation Deficit"
-	L["SOUND"] = "Sound Warning"
-	L["ANCHOR"] = "Toggle Anchor"
+	L["OPTIONDESC"] = "Essas opções permitem que você customize algumas configurações do Paragon Reputation."
+	L["TOASTDESC"] = "Ativa uma janela que vai te avisar quando você tiver uma Recompensa de Paragão."
+	L["LABEL001"] = "Cor das Barras"
+	L["LABEL002"] = "Formato do Texto"
+	L["LABEL003"] = "Janela de Recompensa"
+	L["BLUE"] = "Azul Paragão"
+	L["GREEN"] = "Verde Padrão"
+	L["YELLOW"] = "Amarelo Neutro"
+	L["ORANGE"] = "Laranja Hostil"
+	L["RED"] = "Vermelho Lavado"
+	L["DEFICIT"] = "Déficit de Reputação"
+	L["SOUND"] = "Aviso Sonoro"
+	L["ANCHOR"] = "Alternar Âncora"
 
 -- German (Thanks flow0284 & z3r0t3n)
 elseif LOCALE == "deDE" then
@@ -94,11 +94,11 @@ elseif LOCALE == "frFR" then
 	L["SOUND"] = "Alerte sonore"
 	L["ANCHOR"] = "Activer/Désactiver Ancre"
 
--- Russian (MISSING TRANSLATIONS)
+-- Russian (Thanks Wolfeg)
 elseif LOCALE == "ruRU" then
 	L["PARAGON"] = "Парагон"
 	L["OPTIONDESC"] = "Эти опции позволяют вам кастомизировать настройки аддона Paragon Reputation."
-	L["TOASTDESC"] = "Включите окно награды чтобы получать предупреждение о достижении достаточной репутации для получения награды."
+	L["TOASTDESC"] = "Включить информационное окно о достижении достаточной репутации для получения награды."
 	L["LABEL001"] = "Цвет полос"
 	L["LABEL002"] = "Формат текста"
 	L["LABEL003"] = "Окно награды"
@@ -109,8 +109,7 @@ elseif LOCALE == "ruRU" then
 	L["RED"] = "Высветленный красный"
 	L["DEFICIT"] = "Необходимая репутация"
 	L["SOUND"] = "Звуковое предупреждение"
-	L["ANCHOR"] = "Показатель фиксатор"
-	
+	L["ANCHOR"] = "Показать фиксатор"
 
 -- Korean (Thanks yuk6196)
 elseif LOCALE == "koKR" then

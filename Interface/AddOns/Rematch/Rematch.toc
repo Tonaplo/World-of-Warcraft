@@ -1,14 +1,13 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: Rematch
 ## Notes: A pet journal alternative for managing pets and teams.
 ## Author: Gello
-## Version: 4.7.2
+## Version: 4.7.7
 ## SavedVariables: RematchSaved, RematchSettings
 
 Localization\Rematch deDE.lua
 Localization\Rematch zhTW.lua
 Localization\Rematch koKR.lua
-
 Localization\Rematch zhCN.lua
 Localization\Rematch frFR.lua
 Localization\Rematch ruRU.lua
@@ -27,6 +26,7 @@ Widgets\MinimapButton.lua
 Widgets\PanelTabs.xml
 Widgets\PanelTabs.lua
 
+Process\ODTables.lua
 Process\PetInfo.lua
 Process\PetTag.lua
 Process\PetLoading.lua

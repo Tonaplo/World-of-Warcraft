@@ -47,7 +47,7 @@ function rematch:ShowPreferencesTooltip(prefSet,prefKey,prefLoaded,info)
 		wipe(info)
 	end
 	local prefType = prefLoaded and L["Leveling Preferences"] or prefSet=="team" and L["Team Preferences"] or prefSet=="tab" and L["Tab Preferences"]
-	tinsert(info,format("%s %s%s","\124TInterface\\AddOns\\Rematch\\textures\\footnotes:16:16:0:0:128:64:65:95:1:31\124t",rematch.hexWhite,prefType))
+	tinsert(info,format("%s %s%s","\124TInterface\\AddOns\\Rematch\\textures\\footnotes:16:16:0:0:256:128:65:95:1:31\124t",rematch.hexWhite,prefType))
 	local minHP, expectedDD, allowMM, maxHP, minXP, maxXP, fromTab, override
 	minHP,fromTab = rematch:GetPrefStatValue("minHP",prefSet,prefKey,prefLoaded)
 	override = override or fromTab

@@ -96,9 +96,9 @@ function rematch:GetAbilitiesFromTag(tag)
 end
 
 -- FindPetFromPetTag takes a tag and returns the best petID for that tag
--- if notPetID1 or notPetID2 are defined, it will not choose either of those
+-- if notPetID1 to notPetID3 are defined, it will not choose any of those
 -- if no petID is found, the speciesID will be returned as a petID
-function rematch:FindPetFromPetTag(tag,notPetID1,notPetID2)
+function rematch:FindPetFromPetTag(tag,notPetID1,notPetID2,notPetID3)
    if type(tag)~="string" then
       return -- all tags are strings
    elseif tag=="ZL" then
@@ -119,7 +119,11 @@ function rematch:FindPetFromPetTag(tag,notPetID1,notPetID2)
             -- get the name of the speciesID, find the petID by name and return it
             local petInfo = rematch.petInfo:Fetch(speciesID)
             local _,petID = C_PetJournal.FindPetIDByName(petInfo.name)
-            return petID or speciesID -- return found petID (or speciesID if petID not found)
+            if petID~=notPetID1 and petID~=notPetID2 and petID~=notPetID3 then
+               return petID or speciesID -- return found petID (or speciesID if petID not found)
+            else
+               return speciesID
+            end
          end
 
          -- player owns more than one copy of this speciesID, find the best one
@@ -129,7 +133,7 @@ function rematch:FindPetFromPetTag(tag,notPetID1,notPetID2)
          -- go through all owned petIDs to get the best weighted petID
          for petID in rematch.Roster:AllOwnedPets() do
             local petInfo = rematch.petInfo:Fetch(petID)
-            if petInfo.speciesID==speciesID and petID~=notPetID1 and petID~=notPetID2 then
+            if petInfo.speciesID==speciesID and petID~=notPetID1 and petID~=notPetID2 and petID~=notPetID3 then
                local weight = petInfo.rarity -- rarity is lowest weight
                -- if breedID of the tag is 0, ignore breed (use 0 for all candidate breeds)
                -- if breedID is not 0, then matching breeds get a weight of 1

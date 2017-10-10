@@ -10,6 +10,32 @@ xl_savedvariables = {
 	{
 		nil, -- [1]
 		{
+			214326, -- [1]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = false,
+			["dispel_mask"] = 0,
+			["resource_condition"] = 1,
+			["active_aura"] = "",
+			["key_binding"] = "",
+			["resource_type"] = 1,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 1,
+			["stack_conditional"] = 1,
+			["is_interrupt"] = false,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [2]
+		{
 			119582, -- [1]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
@@ -25,16 +51,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [2]
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [3]
 		{
 			115072, -- [1]
 			["aura_target"] = 1,
@@ -51,16 +77,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 1,
-			["duration_remaining"] = 0,
-		}, -- [3]
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [4]
 		{
 			115308, -- [1]
 			["aura_target"] = 1,
@@ -77,16 +103,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 1,
-			["duration_remaining"] = 0,
-		}, -- [4]
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [5]
 		{
 			121253, -- [1]
 			["aura_target"] = 1,
@@ -103,16 +129,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [5]
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [6]
 		{
 			100784, -- [1]
 			["aura_target"] = 1,
@@ -129,16 +155,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [6]
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [7]
 		{
 			100780, -- [1]
 			["aura_target"] = 1,
@@ -155,16 +181,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 65,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [7]
+			["min_resource_to_cast"] = 65,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [8]
 		{
 			115181, -- [1]
 			["aura_target"] = 1,
@@ -181,16 +207,16 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["duration_remaining"] = 0,
+			["num_charges"] = 0,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [8]
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
+		}, -- [9]
 	}, -- [1]
 	[3] = {
 		nil, -- [1]
@@ -209,14 +235,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 13,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 3,
-			["alt_resource_condition"] = 5,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 5,
+			["alt_min_resource_to_cast"] = 3,
+			["highlight_only"] = false,
 		}, -- [2]
 		{
 			152175, -- [1]
@@ -233,14 +259,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [3]
 		{
 			100780, -- [1]
@@ -257,14 +283,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 4,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 80,
-			["alt_resource_condition"] = 5,
-			["min_resource_to_cast"] = 4,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 4,
+			["alt_resource_condition"] = 5,
+			["alt_min_resource_to_cast"] = 80,
+			["highlight_only"] = false,
 		}, -- [4]
 		{
 			107428, -- [1]
@@ -281,14 +307,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 13,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 2,
-			["alt_resource_condition"] = 5,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = true,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 5,
+			["alt_min_resource_to_cast"] = 2,
+			["highlight_only"] = false,
 		}, -- [5]
 		{
 			100784, -- [1]
@@ -305,14 +331,14 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [6]
 		{
 			100780, -- [1]
@@ -329,20 +355,20 @@ xl_savedvariables = {
 			["alt_resource_type"] = 1,
 			["stack_conditional"] = 1,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
 			["duration_remaining"] = 0,
+			["num_stacks"] = 0,
+			["num_charges"] = 0,
+			["use_condition"] = false,
+			["min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
+			["highlight_only"] = false,
 		}, -- [7]
 	},
 }
 xl_conditioner_options = {
-	["opacity"] = 1,
 	["always_show"] = false,
+	["opacity"] = 1,
 	["hide_hotbar_incombat"] = false,
 	["tapersize"] = 0.75,
 }

@@ -263,11 +263,8 @@ function rematch:ShowPetCard(parent,petID,force)
 		card:AddStat(petInfo.speciesID,"Interface\\WorldMap\\Gear_64Grey",0.1,0.9,0.1,0.9,L["Species ID"],L["All versions of this pet share this unique \"species\" number."])
 	end
 
-	if not isSpecial then
-		local count = roster:IsPetInTeam(petID,true)
-		if count then
-			card:AddStat(format(L["%d Teams"],count),"Interface\\FriendsFrame\\UI-Toast-ChatInviteIcon",0.125,0.875,0.09375,0.84375,L["Teams"],format(L["%s Click to search for all teams that include this pet."],rematch.LMB),card.TeamsStatOnClick)
-		end
+   if petInfo.inTeams then
+   	card:AddStat(format(L["%d Teams"],petInfo.numTeams),"Interface\\FriendsFrame\\UI-Toast-ChatInviteIcon",0.125,0.875,0.09375,0.84375,L["Teams"],format(L["%s Click to search for all teams that include this pet."],rematch.LMB),card.TeamsStatOnClick)
 	end
 
 	if petInfo.isObtainable then

@@ -97,9 +97,9 @@ local UpdateExpMode = function()
 			if C_Reputation.IsFactionParagon(factionID) and barMin == barMax then
 				local currentValue, rewardThreshold, _, rewardPending = C_Reputation.GetFactionParagonInfo(factionID)
 				barMin = 0
-				barValue = currentValue
+				barValue =  ( currentValue - rewardThreshold ) % rewardThreshold
 				barMax = rewardThreshold
-				percentBar = barValue * 100 / rewardThreshold
+				percentBar = barValue / 100
 				repText = (rewardPending) and "Pa+1" or "Pa"
 			elseif barMin == barMax then
 				barMin, barMax, barValue = 0, 1, 1
@@ -127,7 +127,7 @@ local UpdateExpMode = function()
 		local _, _, _, _, totalXP, pointsSpent, _, _, _, _, _, _, tier = C_ArtifactUI.GetEquippedArtifactInfo()
 		local numPoints, xp, xpNextPoint = MainMenuBar_GetNumArtifactTraitsPurchasableFromXP(pointsSpent, totalXP, tier)
 		
-		local percentBar2 = xp * 100 / xpNextPoint
+		percentBar2 = xp * 100 / xpNextPoint
 		bar2:SetMinMaxValues(0, xpNextPoint)
 		bar2:SetValue(xp)
 		if numPoints > 0 then

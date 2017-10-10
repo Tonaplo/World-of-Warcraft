@@ -6,95 +6,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Gul'dan",
 		["id"] = 1737,
 		["diff"] = 15,
-		["player_db"] = {
-			["Kaedwyn-Tichondrius"] = {
-				["overall"] = {
-					2227529, -- [1]
-					[227550] = 6940558,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Kaedwyn-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Gummyeggs-Tichondrius"] = {
-				["overall"] = {
-					[206340] = 6062912,
-					[206339] = 158913,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Gummyeggs-Tichondrius",
-				["class"] = "WARLOCK",
-			},
-			["Meowfurious-Tichondrius"] = {
-				["overall"] = {
-					[221807] = 1069735,
-					[209087] = 1081662,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowfurious-Tichondrius",
-				["class"] = "WARRIOR",
-			},
-			["Deorsai"] = {
-				["overall"] = {
-					[211132] = 655664,
-					[221781] = 397499,
-					[221891] = 198750,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Deorsai",
-				["class"] = "PRIEST",
-			},
-			["Tafè-Tichondrius"] = {
-				["overall"] = {
-					[206581] = 1953180,
-					[227550] = 2473410,
-					[206370] = 1577389,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Tafè-Tichondrius",
-				["class"] = "PRIEST",
-			},
-			["Amranar"] = {
-				["overall"] = {
-					[206370] = 1472049,
-					[206581] = 1974453,
-					[232692] = 1201226,
-					[221807] = 913576,
-					[206367] = 339200,
-					[209087] = 616139,
-					[228267] = 225975,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Amranar",
-				["class"] = "DRUID",
-			},
-			["Zaelsynth-Tichondrius"] = {
-				["overall"] = {
-					[211132] = 1140795,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Zaelsynth-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Chopperdave-Tichondrius"] = {
-				["overall"] = {
-					[206503] = 416555,
-					[221781] = 264479,
-					[221605] = 397380,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Chopperdave-Tichondrius",
-				["class"] = "PALADIN",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -107,6 +18,95 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["diff"] = 15,
 		},
+		["player_db"] = {
+			["Deorsai"] = {
+				["name"] = "Deorsai",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[211132] = 655664,
+					[221781] = 397499,
+					[221891] = 198750,
+				},
+				["deaths"] = {
+				},
+			},
+			["Gummyeggs-Tichondrius"] = {
+				["name"] = "Gummyeggs-Tichondrius",
+				["class"] = "WARLOCK",
+				["overall"] = {
+					[206340] = 6062912,
+					[206339] = 158913,
+				},
+				["deaths"] = {
+				},
+			},
+			["Tafè-Tichondrius"] = {
+				["name"] = "Tafè-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+					[206581] = 1953180,
+					[227550] = 2473410,
+					[206370] = 1577389,
+				},
+				["deaths"] = {
+				},
+			},
+			["Kaedwyn-Tichondrius"] = {
+				["name"] = "Kaedwyn-Tichondrius",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+					2227529, -- [1]
+					[227550] = 6940558,
+				},
+				["deaths"] = {
+				},
+			},
+			["Meowfurious-Tichondrius"] = {
+				["name"] = "Meowfurious-Tichondrius",
+				["class"] = "WARRIOR",
+				["overall"] = {
+					[221807] = 1069735,
+					[209087] = 1081662,
+				},
+				["deaths"] = {
+				},
+			},
+			["Amranar"] = {
+				["name"] = "Amranar",
+				["class"] = "DRUID",
+				["overall"] = {
+					[206370] = 1472049,
+					[206581] = 1974453,
+					[232692] = 1201226,
+					[221807] = 913576,
+					[206367] = 339200,
+					[209087] = 616139,
+					[228267] = 225975,
+				},
+				["deaths"] = {
+				},
+			},
+			["Zaelsynth-Tichondrius"] = {
+				["name"] = "Zaelsynth-Tichondrius",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+					[211132] = 1140795,
+				},
+				["deaths"] = {
+				},
+			},
+			["Chopperdave-Tichondrius"] = {
+				["name"] = "Chopperdave-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+					[206503] = 416555,
+					[221781] = 264479,
+					[221605] = 397380,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -116,6 +116,18 @@ DeathGraphsDBEndurance = {
 		["name"] = "Gul'dan",
 		["id"] = 1737,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "The Nighthold",
+			["id"] = 1866,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Gul'dan",
+			["encounter"] = "Gul'dan",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
+		},
 		["player_db"] = {
 			["Eltul-Ragnaros"] = {
 				["encounters"] = 1,
@@ -258,18 +270,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "The Nighthold",
-			["id"] = 1866,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Gul'dan",
-			["encounter"] = "Gul'dan",
-			["ej_instance_id"] = 786,
-			["diff"] = 15,
 		},
 	},
 }

@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "21:30:08",
-			["date_start"] = "21:28:20",
-			["name"] = "Xavius",
-			["total_time"] = 108.017,
-		}, -- [1]
-		{
-			["date_end"] = "21:15:47",
-			["date_start"] = "21:15:16",
-			["name"] = "Mephistroth",
-			["total_time"] = 31.0020000000004,
-		}, -- [2]
-		{
-			["date_end"] = "21:14:15",
-			["date_start"] = "21:13:24",
-			["name"] = "Domatrax",
-			["total_time"] = 50.9990000000034,
-		}, -- [3]
-		{
-			["date_end"] = "21:08:58",
-			["date_start"] = "21:08:19",
-			["name"] = "Thrashbite the Scornful",
-			["total_time"] = 39.0020000000004,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Lodnum-Tanaris"] = {
@@ -104,13 +86,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Arekwar-Quel'Thalas"] = {
@@ -279,6 +254,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "21:30:08",
+			["date_start"] = "21:28:20",
+			["name"] = "Xavius",
+			["total_time"] = 108.017,
+		}, -- [1]
+		{
+			["date_end"] = "21:15:47",
+			["date_start"] = "21:15:16",
+			["name"] = "Mephistroth",
+			["total_time"] = 31.0020000000004,
+		}, -- [2]
+		{
+			["date_end"] = "21:14:15",
+			["date_start"] = "21:13:24",
+			["name"] = "Domatrax",
+			["total_time"] = 50.9990000000034,
+		}, -- [3]
+		{
+			["date_end"] = "21:08:58",
+			["date_start"] = "21:08:19",
+			["name"] = "Thrashbite the Scornful",
+			["total_time"] = 39.0020000000004,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -289,5 +290,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

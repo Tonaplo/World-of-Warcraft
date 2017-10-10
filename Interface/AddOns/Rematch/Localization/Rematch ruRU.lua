@@ -2,7 +2,7 @@
 
 if GetLocale()=="ruRU" then
 
--- Localization Rematch 4.7.1 last update  23.06.2017 16.35 GMT
+-- Localization Rematch 4.7.2 last update  04.07.2017 09.15 GMT
 
 -- Main.lua
 	L["Rematch"] = nil
@@ -32,20 +32,20 @@ if GetLocale()=="ruRU" then
 	L["Total Pets"] = "Всего Питомцев"
 	L["Unique Pets"] = "Уникальных"
 	L["Save As..."] = "Сохранить как..."
-	L["Save the currently loaded pets to a new team."] = "Сохранить загруженных в настоящее время питомцев в новой команде."
-	L["Save the currently loaded pets to the loaded team."] = "Сохранить загруженных в настоящее время питомцев в загруженной команде."
+	L["Save the currently loaded pets to a new team."] = "Сохранить загруженных на этот момент питомцев в новой команде."
+	L["Save the currently loaded pets to the loaded team."] = "Сохранить загруженных на этот момент питомцев в загруженную команду."
 	L["Dismiss Pet"] = "Отпустить питомца"
 	L["Summon Pet"] = "Призвать питомца"
-	L["Summons a random pet from your favorites."] = "Призвать случайного питомца из ваших избранных."
+	L["Summons a random pet from your favorites."] = "Призывает случайного питомца из ваших избранных."
 	L["Random Favorite"] = "Случайный избранный питомец"
 	L["Random From All"] = "Случайный питомец"
-	L["All pets are at full health."] = "Любой питомец с полным здоровьем."
-	L["This treat's buff is already active."] = "Этот бафф уже активен."
+	L["All pets are at full health."] = "Все питомцы с полным здоровьем."
+	L["This treat's buff is already active."] = "Бафф от этого лакомства уже активен."
 	L["%s\n\nPets At Max Level: %s%d\124r\nPets Not Collected: %s%d\124r\n\n%s Click to display more about your collection."] = "%s\n\nМакстимального уровня: %s%d\124r\nПитомцев не собрано: %s%d\124r\n\n%s Нажмите, чтобы узнать больше о вашей коллекции."
 
 -- Widgets\MinimapButton.lua
-	L["Load Favorite Team"] = "Загрузить избранную группу"
-	L["Favorite Teams"] = "Избранные группы"
+	L["Load Favorite Team"] = "Загрузить избранную команду"
+	L["Favorite Teams"] = "Избранные команды"
 	
 -- Process\PetInfo.lua
     L["Random %s"] = "Случайный %s"
@@ -62,7 +62,7 @@ if GetLocale()=="ruRU" then
 	L["Don't Warn About Missing Pets"] = "Не предупреждать о не хватающих питомцах"
 
 -- Process\Filters.lua
-	L["Favorites"] = "Избранное"
+	L["Favorites"] = "Избранные"
 	L["Types"] = "Типы"
 	L["Strong Vs"] = "Сильные против"
 	L["Tough Vs"] = "Устойчивые против"
@@ -75,7 +75,7 @@ if GetLocale()=="ruRU" then
 	L["Battle"] = "Боевой"
 	L["Quantity"] = "Количество"
 	L["Team"] = "Команда"
-	L["Hidden"] = "Скрытый"
+	L["Hidden"] = "Скрытые"
 	L["Zone"] = "Зона"
 	L["Notes"] = "Заметки"
 	L["Search"] = "Поиск"
@@ -84,7 +84,7 @@ if GetLocale()=="ruRU" then
 
 -- Process\QueueProcess.lua
 	L["Now leveling:"] = "Сейчас прокачивается:"
-	L["Rematch's leveling queue is empty"] = "Очередь прокачивания Rematch's пуста"
+	L["Rematch's leveling queue is empty"] = "Очередь прокачивания Rematch пуста"
 	L["All done leveling pets!"] = "Все питомцы прокачаны!"
 
 -- Process\Sanctuary.lua
@@ -114,13 +114,13 @@ if GetLocale()=="ruRU" then
 	L["Help"] = "Помощь"
 
 -- Menus\TeamMenus.lua
-	L["Edit Win Record"] = "Отредактировать отчёт побед"
+	L["Edit Win Record"] = "Редактировать отчёт побед"
 	L["Change Name Or Target"] = "Изменить имя или цель"
 	L["Edit Team"] = "Редактировать команду"
 	L["Set Notes"] = "Написать или изменить заметку"
 	L["Leveling Preferences"] = "Предпочтения прокачивания"
 	L["Move To"] = "Переместить в"
-	L["Move To Top"] = "Перейти в начало"
+	L["Move To Top"] = "Переместить в начало"
 	L["Move Up"] = "Переместить вверх"
 	L["Move Down"] = "Переместить вниз"
 	L["Move To End"] = "Переместить в конец"
@@ -129,37 +129,37 @@ if GetLocale()=="ruRU" then
 	L["Unload Team"] = "Выгрузить Команду"
 	L["Add a leveling pet to this team?"] = "Добавить питомца для прокачивания в эту команду?"
 	L["About Teams"] = "О командах"
-	L["Teams named in %sWhite\124r have a target stored within them.\nTeams named in Gold do not.\n\n%sTo change pets or abilities in a team:\124r\n1) Load the team.\n2) Make any changes.\n3) Click Save at the bottom of the window."] = "Команды, выделенные %sЗолотым цветом\124r, имеют цель, хранящуюся в них. \nНе выделеные золотым, не имеют. \n\n%sЧтобы сменить питомцев или способности в команде:\124r\n1) Загрузите команду.\n2) Сделайте любое Изменение.\n3) Нажмите «Сохранить» в нижней части окна."
-	L["Copy As Plain Text"] = "Копировать как обычный текст"
-	L["Format this team into plain text to copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch."] = "Отформатировать эту команду в обычный текст, чтобы скопировать в другое место, например, форумы или электронные письма. \n\nПростой текстовый формат лучше всего подходит для обмена командой с другими людьми, которые не могут использовать Rematch."
+	L["Teams named in %sWhite\124r have a target stored within them.\nTeams named in Gold do not.\n\n%sTo change pets or abilities in a team:\124r\n1) Load the team.\n2) Make any changes.\n3) Click Save at the bottom of the window."] = "Команды с %sБелым\124r именем имеют цель, хранящуюся в них. \nКоманды с Золотым именем не имеют. \n\n%sЧтобы сменить питомцев или способности в команде:\124r\n1) Загрузите команду.\n2) Сделайте любое изменение.\n3) Нажмите «Сохранить» в нижней части окна."
+	L["Copy As Plain Text"] = "Копировать как простой текст"
+	L["Format this team into plain text to copy elsewhere, such as forums or emails.\n\nThe plain text format is best for sharing a team with others that may not use Rematch."] = "Форматировать эту команду в обычный текст, чтобы скопировать в другое место, например, форумы или электронные письма. \n\nПростой текстовый формат лучше всего подходит для того, чтобы поделиться командой с теми, которые могут не использовать Rematch."
 	L["Export Team"] = "Экспортировать команду"
-	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = "Экспортировать эту команду в виде строки, которую вы можете скопировать в другое место, например, форумы или электронные письма. \n\nДругие пользователи Rematch могут вставить эту команду в своём Rematch через Команды - Импортировать команды "
+	L["Export this team as a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can paste this team into their Rematch via Import Team."] = "Экспортировать эту команду в виде строки, которую вы можете скопировать в другое место, например, форумы или электронные письма. \n\nДругие пользователи Rematch могут вставить эту команду в своём Rematch через Команды - Импортировать команду"
 	L["Import Team"] = "Импортировать Команду"
 	L["Import a single team or many teams that were exported from Rematch."] = "Импортировать одну команду или много команд, которые были экспортированы из Rematch."
 	L["Send Team"] = "Отправить команду"
-	L["Sharing is disabled in options."] = "Совместное использование отключено в параметрах."
+	L["Sharing is disabled in options."] = "Обмен отключен в настройках." 
 	L["Send this team to another online user of Rematch."] = "Отправить эту команду другому онлайн-пользователю Rematch."
 	L["Prompt To Load"] = "Запрос на загрузку"
-	L["When your new target has a saved team not already loaded, and the target panel isn't on screen, display a popup asking if you want to load the team.\n\nThis is only for the first interaction with a target. You can always load a target's team from the target panel."] = "Когда ваша новая цель имеет сохраненную команду, которая еще не загружена, а целевая панель не отображается на экране, показать всплывающее окно с вопросом, хотите ли вы загрузить команду. \n\nЭто только для первого взаимодействия с целью. Вы всегда можете загрузить команду цели с целевой панели."
-	L["With Rematch Window"] = "С помощью окна Rematch"
-	L["Prompt to load with the Rematch window instead of a separate popup dialog."] = "Запросить загрузку с помощью окна Rematch вместо отдельного всплывающего диалогового окна."
+	L["When your new target has a saved team not already loaded, and the target panel isn't on screen, display a popup asking if you want to load the team.\n\nThis is only for the first interaction with a target. You can always load a target's team from the target panel."] = "Когда ваша новая цель имеет сохраненную команду, которая еще не загружена, а целевая панель не отображается на экране, показать всплывающее окно с вопросом, хотите ли вы загрузить команду. \n\nВсплывающее окно будет показано только при первом взаимодействии с целью. Вы всегда можете загрузить команду цели с целевой панели."
+	L["With Rematch Window"] = "С окном Rematch"
+	L["Prompt to load with the Rematch window instead of a separate popup dialog."] = "Запросить загрузку используя окно Rematch вместо отдельного всплывающего диалогового окна."
 	L["Always Prompt"] = "Всегда запрашивать"
-	L["Prompt every time you interact with a target with a saved team not already loaded, instead of only the first time."] = "Запросить каждый раз, когда вы взаимодействуете с целью с сохраненной командой, которая уже загружена, а не только в первый раз."
-	L["When you mouseover a new target that has a saved team not already loaded, immediately load it.\n\nThis is only for the first interaction with a target. You can always load a target's team from the target panel."] = "Когда вы наводите указатель мыши на новую цель с сохраненной командой, которая ещё не загружена, немедленно загрузите ее. \n\nЭто только для первого взаимодействия с целью. Вы всегда можете загрузить команду цели с целевой панели."
+	L["Prompt every time you interact with a target with a saved team not already loaded, instead of only the first time."] = "При взаимодействии с целью, у которой есть сохраненная команда, но она не загружена , запросить каждый раз, а не только в первый раз."
+	L["When you mouseover a new target that has a saved team not already loaded, immediately load it.\n\nThis is only for the first interaction with a target. You can always load a target's team from the target panel."] = "При наведении указателя мыши на новую цель с сохраненной командой, которая ещё не загружена, немедленно загрузить ее. \n\nЗагрузка только для первого взаимодействия с целью. Вы всегда можете загрузить команду цели с целевой панели."
 	L["Show After Loading"] = "Показать после загрузки"
-	L["After a team auto loads, show the Rematch window."] = "После того, как команда загрузится, показать окно Rematch."
-	L["Show On Injured"] = "Показать с неполным здоровьем"
-	L["When a team auto loads, show the Rematch window if any pets are injured."] = "Когда команда загружается автоматически, показать окно Rematch, если у любого из питомцев не полное здоровье."
+	L["After a team auto loads, show the Rematch window."] = "После автоматической загрузки команды показать окно Rematch."
+	L["Show On Injured"] = "Показать при раненых"
+	L["When a team auto loads, show the Rematch window if any pets are injured."] = "При автоматической загрузке команды показать окно Rematch, если какой-либо из загруженных питомцев ранен."
 	L["On Target Only"] = "Только для цели"
-	L["Auto load upon targeting only, not mouseover.\n\n\124cffff4040WARNING!\124r This is not recommended! It can be too late to load pets if you target with right-click!"] = "Автоматическая загрузка только с таргетингом, а не с помощью наведения мышкой. \n\n\124cffff4040ПРЕДУПРЕЖДЕНИЕ!\124r Это не рекомендуется! Слишком поздно загрузит питомцев, если вы выбираете цель правым кликом!"
-	L["Export Listed Teams"] = "Экспорт списка команд"
-	L["Export all teams listed below to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] = "Экспортировать все команды, перечисленные ниже, в строку, которую вы можете скопировать в другое место, например, на форумы или электронные письма. \n\Другие пользователи Rematch могут затем вставить эти команды в свой Rematch через команду импорта. \n\nВы можете экспортировать одну команду по правому клику мышки и выбрав меню «Поделиться»."
+	L["Auto load upon targeting only, not mouseover.\n\n\124cffff4040WARNING!\124r This is not recommended! It can be too late to load pets if you target with right-click!"] = "Автоматическая загрузка только при нацеливании, а не с помощью наведения мышкой. \n\n\124cffff4040ПРЕДУПРЕЖДЕНИЕ!\124r Это не рекомендуется! Может слишком поздно загрузить питомцев, если вы выбираете цель правым щелчком мышки!"
+	L["Export Listed Teams"] = "Экспорт перечисленных команд"
+	L["Export all teams listed below to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] = "Экспортировать все команды, перечисленные ниже, в строку, которую вы можете скопировать в другое место, например, на форумы или электронные письма. \n\Другие пользователи Rematch могут затем вставить эти команды в свой Rematch через Команды - Импортировать команды. \n\nВы можете экспортировать одну команду сделав правый щелчок мышки и выбрав меню «Поделиться»."
 	L["Backup All Teams"] = "Резервное копирование всех команд"
-	L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = "Это будет экспортировать все команды по всем вкладкам в текст, который вы можете вставить в другое место, например, электронное письмо для себя или текстовый файл в любом месте. Вы можете позже восстановить эти команды с помощью команды Импорт команд."
+	L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = "Это будет экспортировать все команды по всем вкладкам в текст, который вы можете вставить в другое место, например, в электронное письмо для себя или в текстовый файл в надежном месте. Вы можете позже восстановить эти команды с помощью Команды - Импорт команд."
 	L["Import Teams"] = "Импортировать команды"
 	L["Import a single team or many teams that was exported from Rematch."] = "Импортировать одну команду или много команд, которые были экспортированы из Rematch."
-	L["Import From Pet Battle Teams"] = "Импорт из команд боевых питомцев"
-	L["Copy your existing teams from Pet Battle Teams to Rematch."] = "Скопировать существующие команды состоящие из Команд Боевых Питомцев в Rematch."
+	L["Import From Pet Battle Teams"] = "Импорт из Pet Battle Teams"
+	L["Copy your existing teams from Pet Battle Teams to Rematch."] = "Скопировать существующие команды состоящие в аддоне Pet Battle Teams в Rematch." 
 
 -- Menus\PetMenus.lua
 	L["Unnamed Pets"] = "Не переименованные"
@@ -532,8 +532,8 @@ if GetLocale()=="ruRU" then
 	L["Miscellaneous Options"] = "Разное"
 	L["Show After Pet Battle"] = "Показать после битвы питомцев"
 	L["Show the Rematch window after leaving a pet battle."] = "Показать окно Rematch после выхода из боя с амирсцами."
-	L["Disable Sharing"] = "Отключить общий доступ"
-	L["Disable the Send button and also block any incoming pets sent by others. Import and Export still work."] = "Отключить кнопку отправки, а также заблокировать всех входящих питомцев, отправленных другими пользователями. Импорт и экспорт по-прежнему работают."
+	L["Disable Sharing"] = "Отключить обмен"
+	L["Disable the Send button and also block any incoming pets sent by others. Import and Export still work."] = "Отключить кнопку отправки, а также заблокировать всех входящих команд питомцев, отправленных другими пользователями. Импорт и экспорт по-прежнему работают."
 	L["Use Minimap Button"] = "Использование кнопки Мини-карты"
 	L["Place a button on the minimap to toggle Rematch and load favorite teams."] = "Поместить кнопку на мини-карту для переключения Rematch и загрузки избранных команд."
 	L["Keep Companion"] = "Оставлять спутника"

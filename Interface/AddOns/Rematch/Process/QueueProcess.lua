@@ -382,37 +382,35 @@ function rematch:StableSortQueue(sortType)
 end
 
 function rematch:FillQueue(countOnly,fillMore)
-	local species = rematch.info -- lookup table to see if we added this species already
+	local speciesInQueue = rematch.info -- lookup table to see if we added this species already
 	local roster = rematch.Roster
 	local petTable = {} -- petIDs for InsertManyPetsToTable
 	local count = 0
-	wipe(species)
-	local speciesAt25 = rematch:GetTempTable("SpeciesAt25")
+	wipe(speciesInQueue)
 
-	-- if fillMore is false, we don't want species that have a 25 version or are already in the queue.
-	-- flag those species as already encountered
-	if not fillMore then
-		for _,petID in ipairs(roster.petList) do
-			if type(petID)=="string" then
-				local speciesID = C_PetJournal.GetPetInfoByPetID(petID)
-				if rematch:IsPetLeveling(petID) or speciesAt25[speciesID] then
-					species[speciesID] = true
-				end
-			end
-		end
-	end
+   -- if fillMore not enabled, then note species already in the queue
+   if not fillMore then
+      for _,petID in ipairs(queue) do
+         local speciesID = C_PetJournal.GetPetInfoByPetID(petID)
+         if speciesID then
+            speciesInQueue[speciesID] = true
+         end
+      end
+   end
 
 	-- now add each un-encountered species from roster.petList (filtered list)
 	for _,petID in ipairs(roster.petList) do
 		if type(petID)=="string" then
 			local speciesID = C_PetJournal.GetPetInfoByPetID(petID)
-			-- if pet not already in queue, and not an encountered species, and it can level
-			if not rematch:IsPetLeveling(petID) and not species[speciesID] and rematch:PetCanLevel(petID) then
+			-- if pet's species is not in the queue (for fillMore this is whether this fill added the species
+         -- already), and the pet is not already leveling, and the pet can level, and either fillMore is
+         -- enabled or there is no version of this pet at level 25, add it to the table to add to queue
+			if (not speciesInQueue[speciesID] and not rematch:IsPetLeveling(petID) and rematch:PetCanLevel(petID)) and (fillMore or not rematch.speciesAt25[speciesID]) then
 				if not countOnly then
 					tinsert(petTable,petID)
 				end
 				count = count + 1
-				species[speciesID] = true
+				speciesInQueue[speciesID] = true
 			end
 		end
 	end

@@ -126,10 +126,32 @@ end
 
 --[[ Events ]]
 
+
+-- PLAYER_LOGIN will watch an independent PET_JOURNAL_LIST_UPDATE to watch for the journal
+-- unlocking
 function rematch:PLAYER_LOGIN()
+   rematch:Start() -- set up the addon (the old PLAYER_LOGIN)
+   rematch:RegisterEvent("PET_JOURNAL_LIST_UPDATE")
+end
+
+-- when the journal is unlocked, this fires a PET_JOURNAL_LIST_UPDATE for the roster
+-- (this is made irrelevant in 5.0)
+function rematch:PET_JOURNAL_LIST_UPDATE()
+   if not rematch.isLoaded and C_PetJournal.IsJournalUnlocked() then
+      rematch.isLoaded = true
+      self:UnregisterEvent("PET_JOURNAL_LIST_UPDATE")
+      rematch.Roster.ownedNeedsUpdated = true -- force an update of owned pets as journal unlocks
+      --rematch.Roster.ownedPets = nil -- this probably isn't necessary, but if any problems, uncomment
+      rematch.Roster:PET_JOURNAL_LIST_UPDATE() -- let roster know an event fired
+   end
+end
+
+-- this initializes the addon; it was formerly PLAYER_LOGIN
+function rematch:Start()
+
 	-- check for the existence of an object that's in a new file and shut down rematch if it's not accessible.
 	-- this is caused by new files added and user updates the addon while logged in to the game
-	if rematch:AddonDidntCompletelyLoad(rematch.PickRandomPet) or rematch:AddonUpdatedTooEarly() then
+	if rematch:AddonDidntCompletelyLoad(rematch.CreateODTable) or rematch:AddonUpdatedTooEarly() then
 		return
 	end
 
@@ -452,7 +474,7 @@ function rematch:CHAT_MSG_SYSTEM(message)
 					addID = petID
 				else
 					-- QueueAutoLearnOnly requires pet not have its species at 25 already or a version in queue
-					local at25orQueued = rematch.Roster:IsSpeciesAt25(speciesID,level)
+					local at25orQueued = rematch.speciesAt25[speciesID]
 					-- look through queue if QueueAutoLearnOnly checked to see if species is in queue already
 					if settings.QueueAutoLearnOnly and not at25orQueued then
 						for _,qPetID in ipairs(settings.LevelingQueue) do

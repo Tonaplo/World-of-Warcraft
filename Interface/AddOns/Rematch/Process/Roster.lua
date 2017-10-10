@@ -29,17 +29,11 @@ roster.updatingSelf = nil -- becomes true when roster is updating itself (to pre
 
 roster.ownedNeedsUpdated = true -- becomes true when we need to expand filters to grab all pets
 
-roster.tempTables = {} -- place to store reusable temporary tables (used by NewTempTable, GetTempTable, WipeTempTables)
-
 rematch:InitModule(function()
 	settings = RematchSettings
 	roster:RegisterEvent("PET_JOURNAL_LIST_UPDATE")
 	roster:SetScript("OnEvent",function(self,event,...) roster[event](self,...) end)
-	-- register TempTables that may (or may not!) be used for filters
-	rematch:RegisterTempTable("SpeciesAt25",roster.PopulateSpeciesAt25)
-	rematch:RegisterTempTable("MovesetsAt25",roster.PopulateMovesetsAt25)
-	rematch:RegisterTempTable("PetsInTeams",roster.PopulatePetsInTeams)
-	rematch:RegisterTempTable("IsStrong") -- no populate func, starts as an empty table
+   roster.isStrongCache = rematch:CreateODTable() -- used by IsStrong() function
 end)
 
 function roster:GetNumUniquePets()
@@ -77,14 +71,14 @@ end
 	Notes:
 	- numPets,numOwned are the returns of C_PetJournal.GetNumPets()
 	- numPets can be 0 and still be valid! When the default journal has all pets filtered off.
-	- numPets can be 0 and still be valid too! When the user has no pets.
+	- numOwned can be 0 and still be valid too! When the user has no pets.
 	- On the first event of a /reload when it fires twice, petIDs are not yet valid.
 	- In the past on a cold login it could take a good while for this event to fire (and it would fire once)
+   - As of 4.7.3, PET_JOURNAL_LIST_UPDATE does not fire for the roster until the journal is unlocked
 ]]
 
 function roster:PET_JOURNAL_LIST_UPDATE()
 	local numPets,owned = C_PetJournal.GetNumPets()
-	local pet1 = C_PetJournal.GetPetLoadOutInfo(1)
 
 	-- if number of owned pets changed, pets were added/removed; flag for an update to happen
 	if owned ~= roster.ownedPets then
@@ -100,6 +94,7 @@ function roster:PET_JOURNAL_LIST_UPDATE()
 		settings.ShowOnLogin = nil
 		rematch.Frame:Show()
 	end
+   rematch.speciesAt25:Invalidate()
 	roster.petListNeedsUpdated = true
 	rematch:UpdateUI()
 end
@@ -245,7 +240,7 @@ end
 
 -- this is all unique speciesIDs
 function roster:AllSpecies()
-	roster:UpdateOwned()
+   roster:UpdateOwned()
   local i=0
 	return function()
 		i=i+1
@@ -256,40 +251,6 @@ function roster:AllSpecies()
 end
 
 --[[ On-demand stuff ]]
-
--- returns true if the species is at 25
--- if level is passed, this is a one-off test (with a known level)
--- if level is not passed, then a temporary table will be made for testing lots of pets
-function roster:IsSpeciesAt25(speciesID,level)
-	-- if this is a one-off test (such as due to learning a new pet and testing if it should auto learn)
-	if level then
-		-- if players owns only one of this species, test is easy
-		if C_PetJournal.GetNumCollectedInfo(speciesID)==1 then
-			return level==25 -- if level was given, only need to check that the passed level is 25
-		end
-		-- if we're here it means multiple of the speciesID is owned
-		for petID in roster:AllOwnedPets() do
-			local _,_,level = C_PetJournal.GetPetInfoByPetID(petID)
-			if level==25 then
-				return true
-			end
-		end
-		return false -- no 25 pets were found
-	else -- this is a test among many, create a temporary table if one doesn't exist
-		local data = rematch:GetTempTable("SpeciesAt25")
-		return data[speciesID] -- and return whether species exists in that table
-	end
-end
-
--- populate function for "SpeciesAt25" TempTable
-function roster:PopulateSpeciesAt25(data)
-	for petID in roster:AllOwnedPets() do
-		local speciesID,_,level = C_PetJournal.GetPetInfoByPetID(petID)
-		if level==25 then
-			data[speciesID] = true
-		end
-	end
-end
 
 -- returns the source (as a number 1-10; Drop, Quest, Vendor, etc) of a speciesID.
 -- unfortunately the only way to get this number is by setting the journal filters and
@@ -319,40 +280,15 @@ function roster:GetSpeciesSource(speciesID)
 	end
 end
 
--- populate function for "MovesetsAt25" TempTable
-function roster:PopulateMovesetsAt25(data)
-	local speciesAt25 = rematch:GetTempTable("SpeciesAt25")
-	for speciesID in pairs(speciesAt25) do
-		local abilities = rematch:GetAbilities(speciesID)
-		local moveset = table.concat(abilities,",")
-		data[moveset] = true
-	end
-end
-
 -- returns true if the moveset of a species is at 25 for any species
 function roster:IsMovesetAt25(speciesID)
-	local abilities = rematch:GetAbilities(speciesID)
-	return rematch:GetTempTable("MovesetsAt25")[table.concat(abilities,",")]
+   return rematch.movesetsAt25[rematch.movesetsBySpecies[speciesID]]
 end
 
 -- counts the number of teams that a petID belongs to
--- if single is true it does a quick count and returns its value
--- if single is false it will use the PetsInTeams tempTable
-function roster:IsPetInTeam(petID,single)
-	if single then
-		local count = 0
-		for _,team in pairs(RematchSaved) do
-			for i=1,3 do
-				if team[i][1]==petID then
-					count = count + 1
-				end
-			end
-		end
-		return count>0 and count
-	else
-		local data = rematch:GetTempTable("PetsInTeams")
-		return data[petID]
-	end
+-- (remove this once PetList converted to real petInfo)
+function roster:IsPetInTeam(petID)
+   return rematch.altInfo:Fetch(petID).inTeams
 end
 
 function roster:PopulatePetsInTeams(data)
@@ -371,8 +307,8 @@ end
 
 -- returns true if the given speciesID is strong to the filtered pet types
 function roster:IsStrong(speciesID)
-	-- to save work, use a tempTable with cached results of this species
-	local cache = rematch:GetTempTable("IsStrong")
+	-- to save work, use an ondemand table with cached results of this species
+   local cache = roster.isStrongCache:Activate()
 	if cache[speciesID]~=nil then
 		return cache[speciesID]
 	end

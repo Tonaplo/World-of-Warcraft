@@ -41,7 +41,7 @@ rematch:InitModule(function()
 		{ spacer=true, hidden=rmf.NotSortable },
 		{ text=L["Share"], subMenu="ShareMenu" },
 		{ text=DELETE, func=function(self,key)
-				local dialog = rematch:ShowDialog("DeleteTeam",300,176,rematch:GetTeamTitle(key,true),L["Delete this team?"],YES,function(self) saved[key]=nil rematch:UpdateUI() end,NO)
+				local dialog = rematch:ShowDialog("DeleteTeam",300,176,rematch:GetTeamTitle(key,true),L["Delete this team?"],YES,function(self) saved[key]=nil rematch.petsInTeams:Invalidate() rematch:UpdateUI() end,NO)
 				dialog.Team:SetPoint("TOP",0,-36)
 				dialog.Team:Show()
 				dialog:FillTeam(dialog.Team,saved[key])
@@ -92,7 +92,7 @@ rematch:InitModule(function()
 		{ text=L["On Target Only"], indent=8, check=true, value=rmf.GetValue, var="AutoLoadTargetOnly", disabled=rmf.NotAutoLoad, func=rmf.ToggleValue, tooltipBody=L["Auto load upon targeting only, not mouseover.\n\n\124cffff4040WARNING!\124r This is not recommended! It can be too late to load pets if you target with right-click!"] },
 		{ spacer=true },
 		{ text=L["Export Listed Teams"], func=function() rematch.Dialog.Share:ExportTeamTab() end, tooltipBody=L["Export all teams listed below to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] },
-		{ text=L["Backup All Teams"], func=rematch.ShowBackupDialog, tooltipBody=L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] },
+		{ text=L["Backup All Teams"], func=rematch.ShowBackupDialog, tooltipBody=L["This will export all teams across all tabs into text that you can paste elsewhere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] },
 		{ text=L["Import Teams"], func=rematch.ShowImportDialog, tooltipBody=L["Import a single team or many teams that was exported from Rematch."] },
 		{ text=L["Import From Pet Battle Teams"], hidden=function() return not IsAddOnLoaded("PetBattleTeams") end, tooltipBody=L["Copy your existing teams from Pet Battle Teams to Rematch."], func=rematch.ShowImportPBTDialog },
 	},rematch.UpdateAutoLoadState)

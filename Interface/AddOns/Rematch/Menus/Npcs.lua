@@ -46,6 +46,9 @@ rematch.notableGroups = {
 	[19] = L["Broken Isle"],
 	[20] = L["Wailing Caverns"],
    [21] = L["Deadmines"],
+   [22] = L["Mac'Aree"],
+   [23] = L["Krokuun"],
+   [24] = L["Antoran Wastes"],
 }
 
 rematch.notableNPCs = {
@@ -56,6 +59,7 @@ rematch.notableNPCs = {
 	{ 73626, 0, 1339 }, -- Little Tommy Newcomer
 
 	-- Eastern Kingdom
+   { 124617, 1, 2068,2067,2066 }, -- Environeer Bert
 	{ 66522, 1, 948,949,947 }, -- Lydia Accoste
 	{ 65656, 1, 887,886,888 }, -- Bill Buckler
 	{ 66478, 1, 932,931,933 }, -- David Kosse
@@ -284,6 +288,30 @@ rematch.notableNPCs = {
    {119344, 21, 2025}, -- Klutz's Battle Bird
    {119407, 21, 2032}, -- Cookie's Leftovers
 
+   -- Mac'Aree (22)
+   {128013, 22, 2101}, -- Bucky
+   {128017, 22, 2105}, -- Corrupted Blood of Argus
+   {128015, 22, 2103}, -- Gloamwing
+   {128018, 22, 2106}, -- Mar'cuus
+   {128016, 22, 2104}, -- Shadeflicker
+   {128014, 22, 2102}, -- Snozz
+
+   -- Krokuun (23)
+   {128009, 23, 2092}, -- Baneglow
+   {128011, 23, 2099}, -- Deathscreech
+   {128008, 23, 2096}, -- Foulclaw
+   {128012, 23, 2100}, -- Gnasher
+   {128010, 23, 2098}, -- Retch
+   {128007, 23, 2095}, -- Ruinhoof
+
+   -- Antorian Wastes (24)
+   {128020, 24, 2108}, -- Bloat
+   {128021, 24, 2109}, -- Earseeker
+   {128023, 24, 2111}, -- Minixis
+   {128024, 24, 2110}, -- One-of-Many
+   {128022, 24, 2112}, -- Pilfer
+   {128019, 24, 2107}, -- Watcher
+
 }
 
 -- table of npcID's and the npcID they should actually refer to
@@ -336,6 +364,18 @@ rematch.notableRedirects = {
 	[85676] = 85627, -- Archimedes
 }
 
+-- remove 7.3 npcs if we're not on a 7.3 client
+if select(4,GetBuildInfo())<70300 then
+   for i=#rematch.notableNPCs,1,-1 do
+      local info = rematch.notableNPCs[i]
+      if info[1]==124617 or info[2]>21 then -- if Environeer Bert or from one of the Argus menus
+         tremove(rematch.notableNPCs,i) -- remove it
+      end
+   end
+   for i=22,24 do
+      rematch.notableGroups[i] = nil
+   end
+end
 
 -- returns name of an npcID from a lookup table, or a tooltip scan if it's not in the table yet
 function rematch:GetNameFromNpcID(npcID)

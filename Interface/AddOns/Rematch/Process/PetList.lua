@@ -16,7 +16,7 @@ roster.petList = {} -- filtered list of petIDs/speciesIDs to list in the pet pan
 local activeFilters = {} -- list of filter groups that are active
 -- this is the order that filter groups are processed (simplest to most complex)
 local priority = { "Favorite", "Collected", "Types", "Rarity", "Sources", "Tough",
-									 "Level", "Other", "Breed", "Strong", "Similar", "Script" }
+						 "Level", "Other", "Breed", "Strong", "Similar", "Moveset", "Script" }
 
 local petInfo = {} -- where the various stats of a pet are stored (petID, speciesID, etc)
 local filterFuncs = {} -- each filter group has a filterFuncs entry to process the petInfo
@@ -134,6 +134,9 @@ function roster:FilterPetByPetID(petID)
 		petInfo.owned = true
 		petInfo.speciesID, petInfo.customName, petInfo.level, petInfo.xp, petInfo.maxXp, petInfo.displayID, petInfo.isFavorite, petInfo.name, petInfo.icon, petInfo.petType, petInfo.creatureID, petInfo.sourceText, petInfo.description, petInfo.isWild, petInfo.canBattle, petInfo.tradable, petInfo.unique, petInfo.obtainable = C_PetJournal.GetPetInfoByPetID(petID)
 		petInfo.petID = petID
+      if not petInfo.canBattle then
+         petInfo.level = 0
+      end
 	elseif type(petID)=="number" then -- if this a pet user doesn't own
 		petInfo.owned = false
 		petInfo.name, petInfo.icon, petInfo.petType, petInfo.creatureID, petInfo.sourceText, petInfo.description, petInfo.isWild, petInfo.canBattle, petInfo.tradable, petInfo.unique, petInfo.obtainable, petInfo.displayID = C_PetJournal.GetPetInfoBySpeciesID(petID)
@@ -144,6 +147,10 @@ function roster:FilterPetByPetID(petID)
 	if not petInfo.name then
 		return -- if the pet no longer exists (was released)
 	end
+
+   if settings.HideNonBattlePets and not petInfo.canBattle then
+      return false
+   end
 
 	-- hidden pets get special treatment outside of active filters
 	local hidden = settings.HiddenPets
@@ -228,7 +235,7 @@ end
 function filterFuncs.Level()
 	if petInfo.canBattle then
 		if GetFilter(self,"Level","Without25s") then
-			return not roster:IsSpeciesAt25(petInfo.speciesID)
+			return not rematch.speciesAt25[petInfo.speciesID]
 		elseif GetFilter(self,"Level","MovesetNot25") then
 			return not roster:IsMovesetAt25(petInfo.speciesID)
 		elseif petInfo.owned then
@@ -274,6 +281,12 @@ function filterFuncs.Other()
 	elseif GetFilter(self,"Other","NotInTeam") and roster:IsPetInTeam(candidate) then
 		return false
 	end
+   -- Other -> Unique Moveset (excludes non-battle pets)
+   if GetFilter(self,"Other","UniqueMoveset") and (not rematch.uniqueMovesets[rematch.movesetsBySpecies[petInfo.speciesID]] or not petInfo.canBattle) then
+      return false
+   elseif GetFilter(self,"Other","SharedMoveset") and (rematch.uniqueMovesets[rematch.movesetsBySpecies[petInfo.speciesID]] or not petInfo.canBattle) then
+      return false
+   end
 	-- Other -> Has Notes
 	if GetFilter(self,"Other","HasNotes") and not settings.PetNotes[petInfo.speciesID] then
 		return false
@@ -327,6 +340,12 @@ function filterFuncs.Similar()
 	end
 	-- if we reached here, pet didn't have 3 abilities in the Similar filter, return false (don't list)
 	return false
+end
+
+function filterFuncs.Moveset()
+   -- the 1 is the index into the settings.Filters.Moveset table (all filter groups are tables,
+   -- and this filter only has one value to store which is stored in [1] index)
+   return rematch.movesetsBySpecies[petInfo.speciesID]==GetFilter(self,"Moveset",1)
 end
 
 function filterFuncs.Script()

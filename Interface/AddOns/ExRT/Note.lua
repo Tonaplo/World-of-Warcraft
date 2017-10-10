@@ -982,7 +982,7 @@ function module.frame:Clear()
 end 
 
 local function GetPlayerRankInRaid(unit)
-	local rank = tonumber( ExRT.F.IsPlayerRLorOfficer(unit) )
+	local rank = tonumber( ExRT.F.IsPlayerRLorOfficer(unit) or "0" )
 	return rank or 0
 end
 local function SendNoteByEncounter(blackNoteID)
@@ -1029,6 +1029,9 @@ function module:addonMessage(sender, prefix, ...)
 			module:Enable()
 		end
 		module.frame.red_back:Show()
+		if type(WeakAuras)=="table" and WeakAuras.ScanEvents and type(WeakAuras.ScanEvents)=="function" then
+			WeakAuras.ScanEvents("EXRT_NOTE_UPDATE")
+		end
 	elseif prefix == "multiline_add" then
 		if VExRT.Note.OnlyPromoted and IsInRaid() and not ExRT.F.IsPlayerRLorOfficer(sender) then
 			return
@@ -1108,6 +1111,8 @@ function module.main:ADDON_LOADED()
 		module:Enable()
 	end
 
+	module.frame:UpdateFont()
+
 	if VExRT.Note.Text1 then 
 		module.frame:UpdateText()
 	end
@@ -1120,9 +1125,7 @@ function module.main:ADDON_LOADED()
 	if VExRT.Note.ScaleBack then
 		module.frame.background:SetColorTexture(0, 0, 0, VExRT.Note.ScaleBack/100)
 	end
-	if VExRT.Note.Outline then
-		module.frame.text:SetFont(ExRT.F.defFont, 12,"OUTLINE")
-	end
+	--if VExRT.Note.Outline then module.frame.text:SetFont(ExRT.F.defFont, 12,"OUTLINE") end
 	if VExRT.Note.Fix then
 		module.frame:SetMovable(false)
 		module.frame:EnableMouse(false)
@@ -1155,7 +1158,6 @@ function module.main:ADDON_LOADED()
 	module:RegisterAddonMessage()
 	module:RegisterSlash()
 	
-	module.frame:UpdateFont()
 	module.frame:SetFrameStrata(VExRT.Note.Strata)
 end
 

@@ -1000,6 +1000,7 @@ local default_profile = {
 		force_activity_time_pvp = true,
 		death_tooltip_width = 300,
 		override_spellids = true,
+		all_players_are_group = false,
 	
 	--> skins
 		standard_skin = false,
@@ -1073,6 +1074,18 @@ local default_player_data = {
 		combat_counter = 0,
 		last_instance_id = 0,
 		last_instance_time = 0,
+		mythic_dungeon_id = 0,
+		mythic_dungeon_currentsaved = {
+			started = false,
+			run_id = 0,
+			dungeon_name = "",
+			dungeon_zone_id = 0,
+			started_at = 0,
+			segment_id = 0,
+			level = 0,
+			ej_id = 0,
+			previous_boss_killed_at = 0,
+		},
 	--> nicktag cache
 		nick_tag_cache = {},
 		ignore_nicktag = false,
@@ -1121,7 +1134,20 @@ local default_player_data = {
 			enabled = true,
 			channel = "SELF",
 		},
-		
+		announce_damagerecord = {
+			enabled = true,
+			channel = "SELF",
+		},
+	--> benchmark
+		benchmark_db = {
+			frame = {},
+			
+		},
+	--> rank
+		rank_window = {
+			last_difficulty = 15,
+			last_raid = "",
+		},
 }
 
 _detalhes.default_player_data = default_player_data
@@ -1139,6 +1165,7 @@ local default_global_data = {
 		savedCustomSpells = {},
 		savedTimeCaptures = {},
 		lastUpdateWarning = 0,
+		update_warning_timeout = 10,
 		report_where = "SAY",
 		realm_sync = true,
 		spell_school_cache = {},
@@ -1190,6 +1217,87 @@ local default_global_data = {
 		},
 		spell_pool = {},
 		encounter_spell_pool = {},
+	--> aura creation frame libwindow
+		createauraframe = {},
+	--> min health done on the death report
+		deathlog_healingdone_min = 1,
+		
+	--> mythic plus config
+		mythic_plus = {
+			always_in_combat = false, --
+			merge_boss_trash = true, --
+			delete_trash_after_merge = true, --
+			--merge_boss_with_trash = false, --this won't be used
+			boss_dedicated_segment = true, --
+			make_overall_when_done = true, --
+			make_overall_boss_only = false, --
+		},
+		
+	-- important auras
+	--[=[
+		important_auras = {
+			[577] = {}, -- Havoc Demon Hunter
+			[581] = {}, -- Vengeance Demon Hunter
+
+			[252] = {}, -- Unholy Death Knight
+			[251] = {}, -- Frost Death Knight
+			[250] = {}, -- Blood Death Knight
+			
+			[102] = {}, -- Balance Druid
+			[103] = {}, -- Feral Druid
+			[104] = {}, -- Guardian Druid
+			[105] = {}, -- Restoration Druid
+			
+			[253] = {}, -- Beast Mastery Hunter
+			[254] = {}, -- Marksmanship Hunter
+			[255] = {}, -- Survival Hunter
+			
+			[62] = { -- Arcane Mage
+				
+			}, 
+			[63] = { -- Fire Mage
+				157644, --Enhanced Pyrotechnics
+				48107, --Heating Up
+				48108, --Hot Streak!
+				194329, --Pyretic Incantation
+				
+			}, 
+			[64] = { -- Frost Mage
+				44544, --fingers of frost
+				195418, --chain reaction
+				190446, --brain freeze
+				12472, --icyveins
+			}, 
+			
+			[268] = {}, -- Brewmaster Monk
+			[269] = {}, -- Windwalker Monk
+			[270] = {}, -- Mistweaver Monk
+			
+			[65] = {}, -- Holy Paladin
+			[66] = {}, -- Protection Paladin
+			[70] = {}, -- Retribution Paladin
+			
+			[256] = {}, -- Discipline Priest
+			[257] = {}, -- Holy Priest
+			[258] = {}, -- Shadow Priest
+			
+			[259] = {}, -- Assassination Rogue
+			[260] = {}, -- Outlaw Rogue
+			[261] = {}, -- Subtlety Rogue
+			
+			[262] = {}, -- Elemental Shaman
+			[263] = {}, -- Enhancement Shaman
+			[264] = {}, -- Restoration Shaman
+			
+			[265] = {}, -- Affliction Warlock
+			[266] = {}, -- Demonology Warlock
+			[267] = {}, -- Destruction Warlock
+			
+			[71] = {}, -- Arms Warrior
+			[72] = {}, -- Fury Warrior
+			[73] = {}, -- Protection Warrior
+		},
+	--]=]
 }
 
 _detalhes.default_global_data = default_global_data
@@ -1238,4 +1346,66 @@ function _detalhes:SaveProfileSpecial()
 
 	--> end
 		return profile
+end
+
+--> save things for the mythic dungeon run
+function _detalhes:SaveState_CurrentMythicDungeonRun (runID, zoneName, zoneID, startAt, segmentID, level, ejID, latestBossAt)
+	local savedTable = _detalhes.mythic_dungeon_currentsaved
+	savedTable.started = true
+	savedTable.run_id = runID
+	savedTable.dungeon_name = zoneName
+	savedTable.dungeon_zone_id = zoneID
+	savedTable.started_at = startAt
+	savedTable.segment_id = segmentID
+	savedTable.level = level
+	savedTable.ej_id = ejID
+	savedTable.previous_boss_killed_at = latestBossAt
+end
+
+function _detalhes:UpdateState_CurrentMythicDungeonRun (stillOngoing, segmentID, latestBossAt)
+	local savedTable = _detalhes.mythic_dungeon_currentsaved
+	
+	if (not stillOngoing) then
+		savedTable.started = false
+	end
+	
+	if (segmentID) then
+		savedTable.segment_id = segmentID
+	end
+	
+	if (latestBossAt) then
+		savedTable.previous_boss_killed_at = latestBossAt
+	end
+end
+
+function _detalhes:RestoreState_CurrentMythicDungeonRun()
+	local savedTable = _detalhes.mythic_dungeon_currentsaved
+	local mythicLevel = C_ChallengeMode.GetActiveKeystoneInfo()
+	local zoneName, _, _, _, _, _, _, currentZoneID = GetInstanceInfo()
+	local ejID = EJ_GetCurrentInstance()
+
+	--> is there a saved state for the dungeon?
+	if (savedTable.started) then
+		--> player are within the same zone?
+		if (zoneName == savedTable.dungeon_name and currentZoneID == savedTable.dungeon_zone_id) then
+			--> is there a mythic run ongoing and the level is the same as the saved state?
+			if (mythicLevel and mythicLevel == savedTable.level) then
+				--> restore the state
+				_detalhes.MythicPlus.Started = true
+				_detalhes.MythicPlus.DungeonName = zoneName
+				_detalhes.MythicPlus.DungeonID = currentZoneID
+				_detalhes.MythicPlus.StartedAt = savedTable.started_at
+				_detalhes.MythicPlus.SegmentID = savedTable.segment_id
+				_detalhes.MythicPlus.Level = mythicLevel
+				_detalhes.MythicPlus.ejID = ejID
+				_detalhes.MythicPlus.PreviousBossKilledAt = savedTable.previous_boss_killed_at
+				_detalhes.MythicPlus.IsRestoredState = true
+				DetailsMythicPlusFrame.IsDoingMythicDungeon = true
+				return
+			end
+		end
+		
+		--> mythic run is over
+		savedTable.started = false
+	end
 end

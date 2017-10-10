@@ -1,3 +1,42 @@
+09/30/2017 version 4.7.7
+- Secondary accounts can once again run Rematch concurrently with the main account.
+- When sorting pets by level, non-battle pets are now treated as if level 0. (Secondary sorts by level do not do this yet but will in a future update.)
+- Added "Delete Teams" to menu of the primary team tab.
+- Searches should now reliably be case-insensitive for deDE clients.
+
+09/02/2017 version 4.7.6
+- Changed the icon on the summon random pet button to match the new summon random favorite button in the default journal.
+- Fix for left/right click being swapped to summon random favorite vs summon random from all.
+
+08/29/2017 version 4.7.5
+- Added Environeer Bert to the Eastern Kingdom target menu.
+- Added Argus pets to new Antoran Wastes, Krokuun, and Mac'Aree target menus.
+- toc updated for 7.3 patch.
+
+08/17/2017 version 4.7.4
+- Pet Card & Notes option 'Show Species ID On Card' changed to 'Show Species ID & Ability ID' and will now also show abilityIDs on ability tooltips in addition to speciesIDs on pet cards.
+- Fix for 'Find Similar' not always showing on loadout pet menus.
+- deDE localization updated by Salty from curse.com.
+- zhCN localization updated by Yonshuo from curse.com.
+
+07/11/2017 version 4.7.3
+- Rematch will now wait until the journal unlocks to initialize. A side effect of this means Rematch will not be enabled if the journal remains locked. This only affects accounts logged in more than once under the same battle.net login, where the journal is locked.
+- Added new option to pet list right-click menu: 'Find Moveset' to find all pets that share the same moveset as the chosen pet.
+- Added new pet filter: Other -> 'Unique Moveset' to filter the pet list to battle pets with movesets unique to their species.
+- Added new pet filter: Other -> 'Shared Moveset' to filter the pet list to battle pets with movesets that other species also share.
+- Added new option to Pet Filter Options in the Options tab: 'Hide Non-Battle Pets' to remove from the pet list companion pets that cannot battle.
+- Elekk Plushie will no longer be chosen for a random pet.
+- Added "On-Demand Table" system (ODTables) and moved pets in teams, pet sourceIDs, species at 25, and movesets to the new system.
+- Added sourceID, speciesAt25, and moveset to petInfo (usable in script filters).
+- Reworked 'Fill Queue' and 'Fill Queue More' to take advantage of above changes.
+- Support added for 7.3 PlaySound changes.
+- Fix for pet list remaining empty when Rematch is opened immediately upon logging in.
+- Fix for preferences icon on team tabs and their tooltips.
+- zhCN localization updated by Yonshuo from curse.com.
+- ruRU localization updated by Gizmi on curse.com.
+
+Special note: Don't forget to occasionally backup your teams! Either the WTF folder or in-game from the Teams button menu -> Backup All Teams. An upcoming update will be changing the format teams are stored. It will be heavily tested and my hope is nobody notices any difference; but just in case!
+
 06/26/2017 version 4.7.2
 - When loaded ability numbers are enabled (Appearance Options->Show Ability Numbers->On Loaded Abilities Too) they will appear in the minimized view also.
 - Fix for leveling icon glitch in compact list format.

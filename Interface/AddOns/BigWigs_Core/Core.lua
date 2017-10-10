@@ -121,7 +121,8 @@ local function targetSeen(unit, targetModule, mobId, noSync)
 	if type(targetModule) == "string" then
 		shouldReallyEnable(unit, targetModule, mobId, noSync)
 	else
-		for i, module in next, targetModule do
+		for i = 1, #targetModule do
+			local module = targetModule[i]
 			shouldReallyEnable(unit, module, mobId, noSync)
 		end
 	end
@@ -144,15 +145,12 @@ end
 local function zoneChanged()
 	local id
 	if not IsInInstance() then
-		-- We may be hearthing whilst a module is enabled and engaged, only wipe if we're a ghost (released spirit from an old zone).
-		if UnitIsDeadOrGhost("player") then
-			for _, module in next, bossCore.modules do
-				if module.isEngaged then
-					module:Wipe()
-				end
-			end
+		local mapId = GetPlayerMapAreaID("player")
+		if mapId then
+			id = -mapId
 		else
-			id = -(GetPlayerMapAreaID("player") or 0)
+			local _, _, _, _, _, _, _, instanceId = GetInstanceInfo()
+			id = instanceId
 		end
 	else
 		local _, _, _, _, _, _, _, instanceId = GetInstanceInfo()
@@ -463,7 +461,7 @@ do
 				proximity = C.PROXIMITY,
 				altpower = C.ALTPOWER,
 				infobox = C.INFOBOX,
-			}, {__index = function(self, key)
+			}, {__index = function()
 				return C.BAR + C.MESSAGE + C.VOICE
 			end})
 		end

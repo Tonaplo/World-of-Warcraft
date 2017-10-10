@@ -181,3 +181,137 @@ L["Width"] = "宽度"
 L["WorldDefense"] = "世界防务"
 L["Wrath Instances"] = "火焰的愤怒副本"
 L["Wrath Raids"] = "火焰的愤怒团队副本"
+
+-- Auras
+L["Buffs"] = "增益"
+L["Choose the amount of space between each of your %s"] = "选择%s之间的间距"
+L["Choose the amount of space between each row of your %s"] = "选择%s每行之间的间距"
+L["Choose the corner to anchor your %s to"] = "选择用于定位%s的锚点"
+L["Choose the maximum number of %s for each row"] = "选择每行%s的最大数量"
+L["Choose the maximum number of rows for your %s"] = "选择%s的最大行数"
+L["Choose the sorting order for your %s"] = "选择%s的排列顺序"
+L["Choose whether you want to consolidate your %s or not"] = "是否想要合并你的%s"
+L["Choose whether you want to reverse the sorting order or not"] = "是否想要反向排序"
+L["Consolidate %s"] = "合并%s"
+L["Count"] = "计数"
+L["Debuffs"] = "减益"
+L["Duration"] = "持续时间"
+L["Number of rows"] = "行数"
+L["Number per row"] = "每行数量"
+L["Reverse Sorting"] = "反向排序"
+L["Sorting Order"] = "排序"
+
+-- Chat
+L["(|HBNplayer.-|h) whispers:"] = "(|HBNplayer.-|h) 密语:"
+L["(|Hplayer.-|h) whispers:"] = "(|Hplayer.-|h) 密语:"
+L["[BG]"] = "[战]"
+L["[BL]"] = "[战场指挥]"
+L["[BN:From]"] = "[战网:来自]"
+L["[BN:To]"] = "[战网:发送给]"
+L["[DG]"] = "[地]"
+L["[G]"] = "[会]"
+L["[General]"] = "[综]"
+L["[LFG]"] = "[组]"
+L["[LocalDefense]"] = "[防]"
+L["[O]"] = "[官]"
+L["[P]"] = "[队]"
+L["[PL]"] = "[队长]"
+L["[R]"] = "[团]"
+L["[RL]"] = "[团长]"
+L["[RW]"] = "[团队警报]"
+L["[Trade]"] = "[交]"
+L["[W:From]"] = "[密语:来自]"
+L["[W:To]"] = "[密语:发送给]"
+L["[WorldDefense]"] = "[世界防务]"
+L["Adjust the height of the EditBox"] = "调整输入框的高度"
+L["Battleground"] = "战场"
+L["Battleground Leader"] = "战场领袖"
+L["Buttons"] = "按钮"
+L["Chat Background"] = "聊天框背景"
+L["Color by channel"] = "按频道着色"
+L["Copy chat button"] = "复制聊天按钮"
+L["Disable fading"] = "禁用渐隐"
+L["Dungeon Guide"] = "地下城手册"
+L["EditBox"] = "输入框"
+L["Free-floating"] = "自定义位置"
+L["Free-floating (Locked)"] = "自定义位置（锁定）"
+L["General"] = "常规"
+L["Guild"] = "公会"
+L["Hide Buttons"] = "隐藏按钮"
+L["Holding shift while mouse scrolling will jump to top or bottom"] = "Shitf+上滚/下滚可以将聊天内容滚动到顶部/底部。"
+L["Link hover tooltip"] = "链接可交互"
+L["LocalDefense"] = "本地防务"
+L["LookingForGroup"] = "组队"
+L["Minimalist tabs"] = "简约标签"
+L["Officer"] = "官员"
+L["Party"] = "小队"
+L["Raid"] = "团队"
+L["Raid Leader"] = "团队领袖"
+L["Raid Warning"] = "团队警报"
+L["Remember history"] = "记录会话"
+L["Remembers the history of the EditBox across sessions"] = "记录输入框在不同频道时的会话"
+L["Requires the Alt key to be held down to move the cursor"] = "按住Alt键后用方向键翻阅之前记录的聊天内容"
+L["Reset position"] = "还原位置"
+L["Reset the main chat dock's position"] = "将聊天框还原到默认的位置"
+L["Scale of the copy chat button"] = "缩放复制按钮的大小"
+L["Scale of the scroll to bottom button"] = "缩放滚动到底部按钮的大小"
+L["Scroll to bottom button"] = "滚动到底部按钮"
+L["Select where the EditBox anchors to the ChatFrame"] = "选择输入框的位置"
+L["Sets the EditBox color to the color of your currently active channel"] = "用当前频道类型颜色来着色输入框的颜色"
+L["Shift mouse scrolling"] = "Shift+滚轮滚动"
+L["Short channel names"] = "短频道名"
+L["Show copy chat button"] = "显示复制聊天内容的按钮"
+L["Show scroll to bottom button when scrolled up"] = "当向上翻看聊天内容时显示滚动到底部的按钮"
+L["Show tooltip when mousing over links in chat"] = [=[鼠标指向链接时显示鼠标提示
+鼠标指向链接时显示鼠标提示
+
+链接：比如物品，法术，任务，成就，天赋，副本进度等等的内容]=]
+L["Stop the chat from fading out over time"] = "防止聊天内容在一段时间后消失"
+L["To (|HBNplayer.-|h):"] = "发送给 (|HBNplayer.-|h):"
+L["To (|Hplayer.-|h):"] = "发送给 (|Hplayer.-|h):"
+L["Trade"] = "交易"
+L["Use abreviated channel names"] = "在聊天框里使用短频道名"
+L["Use Alt key"] = "使用Alt键"
+L["Use minimalist style tabs"] = "开启简约风格的聊天标签"
+L["WorldDefense"] = "世界防务"
+
+-- dbFix
+L["Backup of current profile complete."] = [=[当前配置文件备份完成。
+当前配置文件备份完成。\n用'/lui restore'命令可以恢复整个配置文件， '/lui repair'命令可以修复配置文件的数据。\n注意：创建的备份只适用于当前角色。
+]=]
+L["Database fix complete."] = [=[数据库修复完成
+现在已经纠正与%d的不匹配​​。]=]
+L["Database fix failed"] = [=[数据库修复失败
+数据库修复失败：没有找到备份。你可以用'/lui backup'命令创建备份。]=]
+L["No issues found with database."] = "在数据库中没有发现问题。"
+L["Restore failed"] = [=[还原失败
+还原失败：没有找到备份。你可以用'/lui backup'命令创建备份。]=]
+L["Restore of database complete."] = "数据库恢复完成。"
+
+-- Unitframes
+L["Blizzard does not support right-click focus"] = [=[暴雪不允许右键点击头像框体设置焦点
+暴雪目前并没有提供合适的方式来支持右键点击自定义头像框体直接设置焦点。]=]
+L["Initiate a ready check"] = [=[开始就位确认
+开始就位确认，询问你的团队成员，如果他们全部准备就绪就继续。]=]
+L["Initiate a role check"] = [=[开始职责确认
+开始职责确认，要求团队成员确认自己的职责。]=]
+L["Type %s to Clear Focus"] = "输入%s清除焦点"
+L["Type %s to Set Focus"] = "输入%s设置焦点"
+
+-- WorldMap
+L["Battlegrounds"] = "战场"
+L["BC Instances"] = "燃烧的远征副本"
+L["BC Raids"] = "燃烧的远征团队副本"
+L["Cataclysm Instances"] = "大地的裂变副本"
+L["Cataclysm Raids"] = "大地的裂变团队副本"
+L["Classic Instances"] = "经典副本"
+L["Classic Raids"] = "经典团队副本"
+L["Cursor"] = "光标"
+L["Hide Completely"] = "完全隐藏"
+L["Only Show Markers"] = "只显示标记"
+L["Player"] = "玩家"
+L["Quest Objectives"] = "任务目标"
+L["Show Markers & Panels"] = "显示标记和面板"
+L["Wrath Instances"] = "火焰的愤怒副本"
+L["Wrath Raids"] = "火焰的愤怒团队副本"
+

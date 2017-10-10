@@ -1,10 +1,10 @@
-		-----------------------------------------------
-		-- Paragon Reputation 1.14 by Sev (Drakkari) --
-		-----------------------------------------------
+		------------------------------------------------
+		-- Paragon Reputation 1.16 by Sev US-Drakkari --
+		------------------------------------------------
 
-		--[[	Special thanks to Ammako for
-				helping me with the vars and
-				the options.					]]--		
+		  --[[	  Special thanks to Ammako for
+				  helping me with the vars and
+				  the options.						]]--		
 
 local L = ParagonReputation -- GetStrings
 local vars = CreateFrame("FRAME") -- Variables

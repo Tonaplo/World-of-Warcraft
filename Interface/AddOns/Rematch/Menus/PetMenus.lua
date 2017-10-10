@@ -57,7 +57,6 @@ rematch:InitModule(function()
 				rematch.Notes.Content.ScrollFrame.EditBox:SetFocus(true)
 			end },
 		{ text=L["Find Similar"], -- Find Similar
-			hidden = rmf.PetCantBattle,
 			func=function(entry,slot)
             local speciesID = rematch.petInfo:Fetch((C_PetJournal.GetPetLoadOutInfo(slot))).speciesID
 				roster:SetSimilarFilter(speciesID)
@@ -112,26 +111,6 @@ rematch:InitModule(function()
 			func=function(entry,petID)
 				C_PetJournal.SummonPetByGUID(petID)
 			end },
-		{ text=L["Put Leveling Pet Here"], -- for loadout slots only
-			hidden=function(entry,petID)
-				local parent = rematch:GetMenuParent():GetParent()
-				local ggparent = parent:GetParent():GetParent()
-				return (parent~=RematchLoadoutPanel and ggparent~=RematchLoadoutPanel and parent~=RematchMiniPanel) or rematch:GetSpecialSlot(rematch:GetMenuParent():GetID())=="leveling"
-			end,
-			func=function(entry,petID)
-				rematch:SetSpecialSlot(rematch:GetMenuParent():GetID(),"leveling")
-				rematch:UpdateQueue()
-			end },
-		{ text=L["Stop Leveling This Slot"], -- for loadout slots only
-			hidden=function(entry,petID)
-				local parent = rematch:GetMenuParent():GetParent()
-				local ggparent = parent:GetParent():GetParent()
-				return (parent~=RematchLoadoutPanel and ggparent~=RematchLoadoutPanel and parent~=RematchMiniPanel) or not rematch:GetSpecialSlot(rematch:GetMenuParent():GetID())=="leveling"
-			end,
-			func=function(entry,petID)
-				rematch:SetSpecialSlot(rematch:GetMenuParent():GetID(),nil)
-				rematch:UpdateQueue()
-			end },
 		{ text=L["Set Notes"], func=function(self,petID)
 				rematch.Notes.locked = true
 				rematch:ShowNotes("pet",petID,true)
@@ -147,6 +126,15 @@ rematch:InitModule(function()
 					roster:SetSimilarFilter(speciesID)
 				end
 			end },
+      { text=L["Find Moveset"],
+         hidden = rmf.PetCantBattle,
+         func=function(entry,petID)
+            local petInfo = rematch.petInfo:Fetch(petID)
+            if petInfo.speciesID then
+               roster:SetMovesetFilter(petInfo.speciesID)
+            end
+         end,
+      },
 		{ text=BATTLE_PET_RENAME, -- Rename
 			hidden=function(entry,petID)
 				return rematch:GetIDType(petID)~="pet"
@@ -171,11 +159,10 @@ rematch:InitModule(function()
 				C_PetJournal.SetFavorite(petID,C_PetJournal.PetIsFavorite(petID) and 0 or 1)
 			end },
 		{ text=function(self,petID)
-				return format(L["List %d Teams"],roster:IsPetInTeam(petID,true))
+				return format(L["List %d Teams"],rematch.petInfo:Fetch(petID).numTeams)
 			end,
 			hidden=function(self,petID)
-				local count = roster:IsPetInTeam(petID,true)
-				return not count or count==0
+            return not rematch.petInfo:Fetch(petID).inTeams
 			end,
 			func=function(self,petID)
 				if rematch:GetIDType(petID)=="pet" then
@@ -412,15 +399,18 @@ rematch:InitModule(function()
 		{ text=L["Tradable"], radio=true, group="Other", radioGroup="Tradable", var="Tradable", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ text=L["Not Tradable"], radio=true, group="Other", radioGroup="Tradable", var="NotTradable", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ spacer=true },
-		{ text=L["Can Battle"], radio=true, group="Other", radioGroup="Battle", var="Battle", value=rmf.GetValue, func=rmf.ToggleRadio },
-		{ text=L["Can't Battle"], radio=true, group="Other", radioGroup="Battle", var="NotBattle", value=rmf.GetValue, func=rmf.ToggleRadio },
-		{ spacer=true },
+		{ text=L["Can Battle"], hidden=rmf.NonBattlePetsHidden, radio=true, group="Other", radioGroup="Battle", var="Battle", value=rmf.GetValue, func=rmf.ToggleRadio },
+		{ text=L["Can't Battle"], hidden=rmf.NonBattlePetsHidden, radio=true, group="Other", radioGroup="Battle", var="NotBattle", value=rmf.GetValue, func=rmf.ToggleRadio },
+		{ spacer=true, hidden=rmf.NonBattlePetsHidden },
 		{ text=L["One Copy"], radio=true, group="Other", radioGroup="Quantity", var="Qty1", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ text=L["Two+ Copies"], radio=true, group="Other", radioGroup="Quantity", var="Qty2", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ text=L["Three+ Copies"], radio=true, group="Other", radioGroup="Quantity", var="Qty3", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ spacer=true },
 		{ text=L["In A Team"], radio=true, group="Other", radioGroup="Team", var="InTeam", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ text=L["Not In A Team"], radio=true, group="Other", radioGroup="Team", var="NotInTeam", value=rmf.GetValue, func=rmf.ToggleRadio },
+		{ spacer=true },
+      { text=L["Unique Moveset"], radio=true, group="Other", radioGroup="Moveset", var="UniqueMoveset", value=rmf.GetValue, func=rmf.ToggleRadio },
+      { text=L["Shared Moveset"], radio=true, group="Other", radioGroup="Moveset", var="SharedMoveset", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ spacer=true },
 		{ text=L["Current Zone"], check=true, group="Other", radioGroup="Zone", var="CurrentZone", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ text=L["Hidden Pets"], check=true, group="Other", radioGroup="Hidden", var="Hidden", value=rmf.GetValue, func=rmf.ToggleRadio },
@@ -633,6 +623,10 @@ function rmf:PetCantBattle(petID)
 	return true -- hide if we reached here
 end
 
+
+function rmf:NonBattlePetsHidden(petID)
+   return settings.HideNonBattlePets
+end
 
 --[[ Favorite Filters menu ]]
 

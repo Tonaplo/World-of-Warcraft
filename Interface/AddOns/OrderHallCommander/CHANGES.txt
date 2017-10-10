@@ -1,17 +1,24 @@
-tag a1446d722361fe387a985f7d479f4db85b6b0691 1.3.0
+tag 125ee3f64e791aa43b10d769c4c4ea62adb8c896 1.5.3
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Thu Jun 15 09:10:37 2017 +0200
+Date:	Mon Oct 9 01:53:07 2017 +0200
 
-Feature: updates time duration with the actual time duration with the
-selected party and colors it (green if better, red if worse)
-Fix: if mission is maxed, no longer fills it (mission can be sent with
-less than 3 followers)
-Feature: tries to use cheaper troops when available
-Fix: Elite mission chance is now computed the right way
+Feature: you can now disable a troop type clicking its icon nin the OHC
+troop bar
+Fix: Maximize xp was ignoring cap
+Fix: #119 Bad display when more than 5 types of troops
+Fix: #109 Future mission were missing in tooltip
+Fix: #118 Troops with random abilities should now be considered
+Fix: #99 Caused by same issue of 118, should be fixed
 
-commit 2c14c226f00b806e0325054d69c9f786d950e134
+commit 2d344dfe440ad559a350ea6894cc797c12343f5f
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Thu Jun 15 09:09:35 2017 +0200
+Date:   Mon Oct 9 01:51:15 2017 +0200
 
-    Fixed typo in release notes
+    Rel notes
+
+commit 86fe28b28f559ad8f64275b563a42073123ec5c3
+Author: Alar of Runetotem <alar@aspide.it>
+Date:   Thu Oct 5 20:59:36 2017 +0200
+
+    Improved tropps shipments display
 

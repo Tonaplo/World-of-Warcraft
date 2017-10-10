@@ -20,7 +20,7 @@ local widgetLists = AceGUIWidgetLSMlists
 
 local db, dbd
 
-local CLASS_BUTTONS = (LUI.Legion) and CLASS_ICON_TCOORDS or CLASS_BUTTONS
+local CLASS_BUTTONS = CLASS_ICON_TCOORDS
 
 ------------------------------------------------------
 -- / LOCAL VARIABLES / --
@@ -2826,6 +2826,96 @@ function module:SetWeaponInfo()
 end
 
 
+------------------------------------------------------
+-- / Equipment Sets / --
+------------------------------------------------------
+
+function module:SetEquipmentSets()
+
+	local stat = NewStat("EquipmentSets")
+
+	if db.EquipmentSets.Enable and not stat.Created then
+	
+		stat.Events = {"UNIT_INVENTORY_CHANGED", "PLAYER_EQUIPMENT_CHANGED"}
+		
+		stat.UNIT_INVENTORY_CHANGED = function(self, unit)
+			local text = "No set equipped."
+			for set = 1,GetNumEquipmentSets() do
+				local name, _, setID, isEquipped, _, _, _, numMissing, _ = GetEquipmentSetInfo(set)
+				if isEquipped then
+					text = string.format("%s%s", db.EquipmentSets.Text, name)
+				end
+			end
+			self.text:SetFormattedText(text)
+			UpdateTooltip(self)
+		end
+		
+		stat.PLAYER_EQUIPMENT_CHANGED = stat.UNIT_INVENTORY_CHANGED
+		
+		stat.OnEnable = function(self)
+			self:UNIT_INVENTORY_CHANGED(self, "player")
+		end
+
+		--[[stat.OnEnter = function(self)
+			if CombatTips() then
+				GameTooltip:SetOwner(self, getOwnerAnchor(self))
+				GameTooltip:ClearLines()
+				GameTooltip:AddLine(text, 0.4, 0.78, 1)
+				for set = 1,GetNumEquipmentSets() do
+					local name, _, setID, isEquipped, _, _, _, numMissing, _ = GetEquipmentSetInfo(set)
+					GameTooltip:AddLine(string.format("Equipment Set: %s, Equipped: %s", name, tostring(isEquipped)))
+					if numMissing > 0 then
+						GameTooltip:AddLine(string.format("   Missing Items: %s", tostring(missing)))
+					end
+				end
+				GameTooltip:AddLine(" ")
+				GameTooltip:Show()
+			end
+		end
+
+		stat.OnLeave = function()
+			GameTooltip:Hide()
+		end]]--
+
+		stat.Created = true
+	end
+
+end
+
+------------------------------------------------------
+-- / Loot Specialization / --
+------------------------------------------------------
+
+function module:SetLootSpec()
+
+	local stat = NewStat("LootSpec")
+
+	if db.LootSpec.Enable and not stat.Created then
+	
+		stat.Events = {"PLAYER_LOOT_SPEC_UPDATED"}
+		
+		stat.PLAYER_LOOT_SPEC_UPDATED = function(self, unit)
+			local name = ""
+			local lootspec = GetLootSpecialization()
+			if lootspec == 0 then
+			   local curspec = GetSpecialization()
+			   _, name, _, _, _, _ = GetSpecializationInfo(curspec)
+			else
+			   _, name, _, _, _, _ = GetSpecializationInfoByID(lootspec)
+			end
+			text = string.format("%s%s", db.LootSpec.Text, name)
+			self.text:SetFormattedText(text)
+			UpdateTooltip(self)
+		end
+		
+		stat.OnEnable = function(self)
+			self:PLAYER_LOOT_SPEC_UPDATED(self, "player")
+		end
+
+		stat.Created = true
+	end
+
+end
 
 ------------------------------------------------------
 -- / STAT FUNCTIONS / --
@@ -3123,6 +3213,44 @@ module.defaults = {
 		},
 		WeaponInfo = {
 			Enable = false,
+			X = 610,
+			Y = 0,
+			InfoPanel = {
+				Horizontal = "Left",
+				Vertical = "Top",
+			},
+			Font = "vibroceb",
+			FontSize = 12,
+			Outline = "NONE",
+			Color = {
+				r = 1,
+				g = 1,
+				b = 1,
+				a = 1,
+			},
+		},
+		EquipmentSets = {
+			Enable = false,
+			Text = "Equipped Set: ",
+			X = 610,
+			Y = 0,
+			InfoPanel = {
+				Horizontal = "Left",
+				Vertical = "Top",
+			},
+			Font = "vibroceb",
+			FontSize = 12,
+			Outline = "NONE",
+			Color = {
+				r = 1,
+				g = 1,
+				b = 1,
+				a = 1,
+			},
+		},
+		LootSpec = {
+			Enable = false,
+			Text = "Loot Spec: ",
 			X = 610,
 			Y = 0,
 			InfoPanel = {
@@ -3981,6 +4109,86 @@ function module:LoadOptions()
 				Reset = ResetOption(5),
 			},
 		},
+		EquipmentSets = {
+			name = function(info) return NameLabel(info, "Equipment Sets") end,
+			type = "group",
+			order = 15,
+			args = {
+				Header = {
+					name = "Weapon Information",
+					type = "header",
+					order = 1,
+				},
+				Enable = {
+					name = "Enable",
+					desc = "Whether you want to show your Equipment Set Information or not.",
+					type = "toggle",
+					width = "full",
+					get = function() return db.EquipmentSets.Enable end,
+					set = function(info, value)
+						db.EquipmentSets.Enable = value
+						ToggleStat("EquipmentSets")
+					end,
+					order = 2,
+				},
+				Text = {
+					name = "Text Prefix",
+					desc = "Prefix for equipment set display.",
+					type = "input",
+					disabled = StatDisabled,
+					width = "full",
+					get = function() return db.EquipmentSets.Text end,
+					set = function(info, value)
+						db.EquipmentSets.Text = value
+						ToggleStat("EquipmentSets")
+					end,
+					order = 3,
+				},
+				Position = PositionOptions(4, "Equipment Information"),
+				Font = FontOptions(5, "Equipment Information"),
+				Reset = ResetOption(6),
+			},
+		},
+		LootSpec = {
+			name = function(info) return NameLabel(info, "Loot Spec") end,
+			type = "group",
+			order = 16,
+			args = {
+				Header = {
+					name = "Loot Spec",
+					type = "header",
+					order = 1,
+				},
+				Enable = {
+					name = "Enable",
+					desc = "Whether you want to show your current loot spec or not.",
+					type = "toggle",
+					width = "full",
+					get = function() return db.LootSpec.Enable end,
+					set = function(info, value)
+						db.LootSpec.Enable = value
+						ToggleStat("LootSpec")
+					end,
+					order = 2,
+				},
+				Text = {
+					name = "Text Prefix",
+					desc = "Prefix for loot spec display.",
+					type = "input",
+					disabled = StatDisabled,
+					width = "full",
+					get = function() return db.LootSpec.Text end,
+					set = function(info, value)
+						db.LootSpec.Text = value
+						ToggleStat("LootSpec")
+					end,
+					order = 3,
+				},
+				Position = PositionOptions(4, "Loot Spec"),
+				Font = FontOptions(5, "Loot Spec"),
+				Reset = ResetOption(6),
+			},
+		},
 	}
 
 	return options
@@ -4015,6 +4223,8 @@ function module:OnEnable()
 	EnableStat("Instance")
 	EnableStat("Memory")
 	EnableStat("WeaponInfo")
+	EnableStat("EquipmentSets")
+	EnableStat("LootSpec")
 end
 
 function module:OnDisable()
@@ -4029,6 +4239,8 @@ function module:OnDisable()
 	DisableStat("GF")
 	DisableStat("DPS")
 	DisableStat("WeaponInfo")
+	DisableStat("EquipmentSet")
+	DisableStat("LootSpec")
 	LUI_Infos_TopLeft:Hide()
 	LUI_Infos_TopRight:Hide()
 	LUI_Infos_BottomLeft:Hide()

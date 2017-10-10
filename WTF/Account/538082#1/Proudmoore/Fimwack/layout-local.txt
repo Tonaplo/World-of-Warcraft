@@ -8,8 +8,8 @@ W: 365
 H: 240
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
-Anchor: CENTER
-X: 0
-Y: 60
+Anchor: LEFT
+X: 46
+Y: -243
 W: 370
 H: 110

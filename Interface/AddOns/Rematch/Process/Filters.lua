@@ -35,14 +35,16 @@ roster.searchStatRanges = {} -- Level={1,24} Speed={300,305} Health={1400,nil} P
 -- settings.Filter table keys and their localized name
 roster.filterGroups = { Collected=COLLECTED, Favorite=L["Favorites"], Types=L["Types"],
 												Strong=L["Strong Vs"], Tough=L["Tough Vs"],	Sources=SOURCES, Rarity=RARITY,
-												Breed=L["Breed"], Level=LEVEL, Other=OTHER, Similar=L["Similar"], Script=L["Script"] }
+												Breed=L["Breed"], Level=LEVEL, Other=OTHER, Similar=L["Similar"], Script=L["Script"],
+                                    Moveset=L["Moveset"] }
 
 -- radio group definitions: variables that are mutually exclusive with each other
 roster.radioGroups = {
 	Without25s=L["Level"], MovesetNot25=L["Level"], Leveling=L["Leveling"], NotLeveling=L["Leveling"],
 	Tradable=L["Tradable"], NotTradable=L["Tradable"], Battle=L["Battle"], NotBattle=L["Battle"],
 	Qty1=L["Quantity"], Qty2=L["Quantity"], Qty3=L["Quantity"], InTeam=L["Team"], NotInTeam=L["Team"],
-	Hidden=L["Hidden"], CurrentZone=L["Zone"], HasNotes=L["Notes"] }
+	Hidden=L["Hidden"], CurrentZone=L["Zone"], HasNotes=L["Notes"], UniqueMoveset=L["Moveset"],
+   SharedMoveset=L["Moveset"] }
 
 roster.searchStatMasks = { [PET_BATTLE_STAT_HEALTH:lower()]="Health", [PET_BATTLE_STAT_POWER:lower()]="Power",
 	[PET_BATTLE_STAT_SPEED:lower()]="Speed", [LEVEL:lower()]="Level", ["health"]="Health", ["power"]="Power",
@@ -382,6 +384,13 @@ function roster:SetSimilarFilter(speciesID)
 	end
 	rematch:ShowPets()
 	rematch:UpdateRoster()
+end
+
+function roster:SetMovesetFilter(speciesID)
+   roster:ClearAllFilters()
+   -- the 1 is the index into the settings.Filters.Moveset table (all filter groups are tables,
+   -- and this filter only has one value to store which is stored in [1] index)
+   roster:SetFilter("Moveset",1,rematch.movesetsBySpecies[speciesID])
 end
 
 --[[ Hidden Pets ]]

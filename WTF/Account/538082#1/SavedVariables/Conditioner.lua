@@ -14,6 +14,6 @@ xl_conditionertutorial = {
 	1, -- [12]
 	0, -- [13]
 	0, -- [14]
-	["spell_drags"] = 322,
+	["spell_drags"] = 333,
 	["current_step"] = 13,
 }

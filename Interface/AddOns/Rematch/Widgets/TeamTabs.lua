@@ -66,7 +66,8 @@ rematch:InitModule(function()
 		{ text=L["Leveling Preferences"], func=function(entry,index) rematch:ShowPreferencesDialog("tab",index) end, tooltipBody=L["Set leveling preferences for all teams within this tab.\n\nIf a team within this tab also has preferences, the tab's preferences will take priority over the team's preferences."] },
 		{ text=L["Export Tab"], func=function() Rematch.Dialog.Share:ExportTeamTab() end, tooltipBody=L["Export all teams in this tab to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] },
 		{ text=L["Import Teams"], func=rematch.ShowImportDialog, tooltipBody=L["Import a single team or many teams that was exported from Rematch."] },
-		{ text=L["Delete Tab"], hidden=isFirstTab, func=panel.ShowTabDeleteDialog, tooltipBody=L["Delete this tab and move all of its teams to the default tab."] },
+		{ text=L["Delete Tab"], hidden=isFirstTab, func=panel.ShowTabDeleteDialog, tooltipBody=L["Delete this tab and either move all of its teams to the default tab or delete the teams too."] },
+      { text=L["Delete Teams"], hidden=function(self,index) return index~=1 end, func=panel.ShowDeleteFirstTabDialog, tooltipBody=L["Permanently delete all teams in this tab."] },
 		{ text=L["Move Up"], hidden=isFirstTab, icon="Interface\\Buttons\\UI-MicroStream-Yellow", iconCoords={0.075,0.925,0.925,0.075}, stay=true,
 			disabled=function(entry,index) return index==2 end,
 			func=function(entry,index) panel:SwapTabs(index,index-1) end },
@@ -278,6 +279,21 @@ end
 
 --[[ Delete ]]
 
+-- (for now) the first team tab can't be deleted, so it has its own dialog to delete teams within the team
+function panel:ShowDeleteFirstTabDialog()
+   rematch:ShowDialog("TabDeleteFirst",300,150,L["Delete Teams?"],L["Delete ALL teams in the first tab?"],YES,
+      function()
+         for key,team in pairs(saved) do
+            if not team.tab or team.tab==1 then
+               saved[key] = nil
+            end
+         end
+         rematch:UpdateUI()
+      end,NO)
+   dialog:ShowText(format(L["%sWARNING!\124r This will %sPERMANENTLY DELETE\124r all teams in this tab!"],rematch.hexRed,rematch.hexWhite),180,40,"TOP",0,-40)
+end
+
+-- non-default tabs get a "Delete Tab" option instead with an option to delete teams too
 function panel:ShowTabDeleteDialog(index)
 	local groups = settings.TeamGroups
 	rematch:ShowDialog("TabDelete",300,192,groups[index][1],L["Delete this tab?"],YES,panel.ConfirmDeleteTab,NO)

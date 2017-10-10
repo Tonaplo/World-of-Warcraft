@@ -39,7 +39,12 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
+				},
+			},
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -58,12 +63,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Timewarped Badge"] = false,
-						["Lingering Soul Fragment"] = false,
-						["Oil"] = false,
-						["Artifact Fragment"] = false,
-						["Champion's Seal"] = false,
 						["Ironpaw Token"] = false,
+						["Champion's Seal"] = false,
+						["Artifact Fragment"] = false,
+						["Oil"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -86,12 +91,7 @@ AdiBagsDB = {
 		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
-			["profiles"] = {
-				["Default"] = {
-					["dispatchRule"] = "slot",
-				},
-			},
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -99,9 +99,11 @@ AdiBagsDB = {
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",

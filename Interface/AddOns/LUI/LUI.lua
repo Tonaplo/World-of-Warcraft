@@ -26,11 +26,13 @@ LUI.Versions = {lui = 3403}
 
 LUI.dummy = function() return end
 
-local LIVE_TOC = 60200
--- Check the TOC number and then compare builds. Live version can end up with a build higher than Beta. 
+local LIVE_TOC = 70300
+local LIVE_BUILD = 25021
+-- Check the build to compare with PTR
 local _, CURRENT_BUILD, _, CURRENT_TOC = GetBuildInfo()
-if CURRENT_TOC > LIVE_TOC then
-	LUI.Legion = true
+if tonumber(CURRENT_BUILD) > LIVE_BUILD then
+	LUI.PTR = true
+	LUI:Print("Using Code Designed for New Patch")
 end
 local ProfileName = UnitName("player").." - "..GetRealmName()
 

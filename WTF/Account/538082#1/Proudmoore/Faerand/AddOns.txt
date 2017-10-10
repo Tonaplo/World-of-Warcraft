@@ -18,3 +18,4 @@ SellOMatic2_Item: enabled
 SellOMatic2_List: enabled
 autoturnin: disabled
 SorhaQuestLog: disabled
+AdiBags: enabled

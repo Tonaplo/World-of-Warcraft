@@ -1,17 +1,19 @@
-		-----------------------------------------------
-		-- Paragon Reputation 1.15 by Sev (Drakkari) --
-		-----------------------------------------------
+		------------------------------------------------
+		-- Paragon Reputation 1.16 by Sev US-Drakkari --
+		------------------------------------------------
 
-		--[[	Special thanks to Ammako for
-				helping me with the vars and
-				the options.					]]--
+		  --[[	  Special thanks to Ammako for
+				  helping me with the vars and
+				  the options.						]]--
 
 ParagonReputation = {} -- Localization
 local L = ParagonReputation -- GetStrings
 local reward = CreateFrame("FRAME")	-- RewardToast
 local toast = false -- ActiveToastCheck
 local rewardid = {
+	[48976] = 2170, -- Argussian Reach
 	[46777] = 2045, -- Armies of Legionfall
+	[48977] = 2165, -- Army of the Light
 	[46745] = 1900, -- Court of Farondis
 	[46747] = 1883, -- Dreamweavers
 	[46743] = 1828, -- Highmountain Tribes
@@ -42,7 +44,7 @@ end)
 
 -- Reputation Watchbar (Thanks Hoalz)
 hooksecurefunc("MainMenuBar_UpdateExperienceBars",function()
-	local name, standingID, _, _, _, factionID = GetWatchedFactionInfo()
+	local _, _, _, _, _, factionID = GetWatchedFactionInfo()
 	if factionID and ReputationWatchBar:IsShown() and C_Reputation.IsFactionParagon(factionID) then
 		ReputationWatchBar.StatusBar:SetStatusBarColor(ParagonReputationDB.r, ParagonReputationDB.g, ParagonReputationDB.b)
 	end
@@ -63,7 +65,7 @@ reward:SetScript("OnEvent",function(self,event,...)
 		local _, _, _, _, _, _, _, questID = GetQuestLogTitle(...)
 		if rewardid[questID] and toast == false then
 			toast = true
-			if ParagonReputationDB.sound == true then PlaySoundKitID(44295, "master", true) end
+			if ParagonReputationDB.sound == true then PlaySound(44295, "master", true) end
 			local name = GetFactionInfoByID(rewardid[questID])
 			local questIndex = GetQuestLogIndexByID(questID)
 			local text = GetQuestLogCompletionText(questIndex)

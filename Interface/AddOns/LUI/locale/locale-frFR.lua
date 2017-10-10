@@ -174,3 +174,128 @@ L["Width"] = "Largeur"
 L["WorldDefense"] = "DéfenseGénérale"
 L["Wrath Instances"] = "Instances \"Wrath\""
 L["Wrath Raids"] = "Raids \"Wrath\""
+
+-- Auras
+L["Buffs"] = true
+L["Choose the amount of space between each of your %s"] = "Choisir la quantité d'espace entre chacun de vos %s"
+L["Choose the amount of space between each row of your %s"] = "Choisir la quantité d'espace entre chaque ligne de votre %s"
+L["Choose the corner to anchor your %s to"] = "Choisir le coin pour ancrer votre %s"
+L["Choose the maximum number of %s for each row"] = "Choisir le nombre maximum de %s pour chaque ligne"
+L["Choose the maximum number of rows for your %s"] = "Choisir le nombre maximum de lignes pour votre %s"
+L["Choose the sorting order for your %s"] = "Choisir l'ordre de tri pour votre %s"
+L["Choose whether you want to consolidate your %s or not"] = "Choisir de fusionner votre %s ou non"
+L["Choose whether you want to reverse the sorting order or not"] = "Choisir d'inverser l'ordre de tri ou non"
+L["Consolidate %s"] = "Fusionner %s"
+L["Count"] = "Nombre"
+L["Debuffs"] = true
+L["Duration"] = "Durée"
+L["Number of rows"] = "Nombre de lignes"
+L["Number per row"] = "Nombre par ligne"
+L["Reverse Sorting"] = "Inverser tri"
+L["Sorting Order"] = "Ordre de tri"
+
+-- Chat
+L["(|HBNplayer.-|h) whispers:"] = "(|HBNplayer.-|h) chuchotements:"
+L["(|Hplayer.-|h) whispers:"] = "(|Hplayer.-|h) chuchotements:"
+L["[BG]"] = true
+L["[BL]"] = true
+L["[BN:From]"] = "[BN:De]"
+L["[BN:To]"] = "[BN:À]"
+L["[DG]"] = true
+L["[G]"] = true
+L["[General]"] = "[Général]"
+L["[LFG]"] = true
+L["[LocalDefense]"] = "[DéfenseLocale]"
+L["[O]"] = true
+L["[P]"] = true
+L["[PL]"] = true
+L["[R]"] = true
+L["[RL]"] = true
+L["[RW]"] = true
+L["[Trade]"] = "[Commerce]"
+L["[W:From]"] = "[W:De]"
+L["[W:To]"] = "[W:À]"
+L["[WorldDefense]"] = "[DéfenseMonde]"
+L["Adjust the height of the EditBox"] = "Réglez la hauteur de la Boite d'édition"
+L["Battleground"] = "Champ de bataille"
+L["Battleground Leader"] = "Chef du champ de bataille"
+L["Buttons"] = "Bouton"
+L["Chat Background"] = "Arrière plan de discussion"
+L["Color by channel"] = "Couleur du canal"
+L["Copy chat button"] = "Bouton de copie du chat"
+L["Disable fading"] = "Désactiver le \"fading\""
+L["Dungeon Guide"] = "Guide de donjon"
+L["EditBox"] = "Boite d'édition"
+L["Free-floating"] = "Emplacement libre"
+L["Free-floating (Locked)"] = "Emplacement libre (Verrouiller)"
+L["General"] = "Général"
+L["Guild"] = "Guilde"
+L["Hide Buttons"] = "Cacher les boutons"
+L["Holding shift while mouse scrolling will jump to top or bottom"] = "Tenir Shift enfoncer avec la mollette de la souris pour défiler tout en haut ou tout en bas"
+L["Link hover tooltip"] = "Infobulle des liens survolés"
+L["LocalDefense"] = "Défense locale"
+L["LookingForGroup"] = "Recherche de groupe"
+L["Minimalist tabs"] = "Onglets minimalistes"
+L["Officer"] = "Officier"
+L["Party"] = "Groupe"
+L["Raid"] = true
+L["Raid Leader"] = "Chef de raid"
+L["Raid Warning"] = "Alerte de raid"
+L["Remember history"] = "Garder l'historique"
+L["Remembers the history of the EditBox across sessions"] = "Garder l'historique de la boite d'édition entre chaque sessions"
+L["Requires the Alt key to be held down to move the cursor"] = "Nécessite la touche Alt enfoncée pour déplacer le curseur"
+L["Reset position"] = "Réinitialiser position"
+L["Reset the main chat dock's position"] = "Réinitialiser la position de la fenêtre principale de discussion"
+L["Scale of the copy chat button"] = "Taille du bouton de copie du chat"
+L["Scale of the scroll to bottom button"] = "Échelle du bouton de défilement vers le bas"
+L["Scroll to bottom button"] = "Bouton de défilement vers le bas"
+L["Select where the EditBox anchors to the ChatFrame"] = "Sélectionner où ancrer la boite d'édition à la fenêtre de discussion"
+L["Sets the EditBox color to the color of your currently active channel"] = "Définit la couleur de la boîte d'édition selon votre canal actif"
+L["Shift mouse scrolling"] = "Maj mollette de la souris"
+L["Short channel names"] = "Nom de canal court"
+L["Show copy chat button"] = "Afficher le bouton de copie de chat"
+L["Show scroll to bottom button when scrolled up"] = "Afficher le bouton de défilement vers le bas"
+L["Show tooltip when mousing over links in chat"] = [=[Afficher info-bulle au survol des liens dans le chat.
+
+Liens : objets, sorts, enchantements, talents, glyphes, quêtes, hauts-faits, et verrouillage d'instance]=]
+L["Stop the chat from fading out over time"] = "Arrêter la disparition du chat sur la durée"
+L["To (|HBNplayer.-|h):"] = "À (|HBNplayer.-|h):"
+L["To (|Hplayer.-|h):"] = "À (|Hplayer.-|h):"
+L["Trade"] = "Commerce"
+L["Use abreviated channel names"] = "Utiliser les noms de canaux abrégés"
+L["Use Alt key"] = "Utiliser la touche ALT"
+L["Use minimalist style tabs"] = "Utiliser le style d'onglets minimalistes"
+L["WorldDefense"] = "DéfenseMonde"
+
+-- dbFix
+L["Backup of current profile complete."] = "Sauvegarde du profile actuel terminé."
+L["Database fix complete."] = "Réparation de la base de données terminé. Encountered %d mismatches which have now been corrected."
+L["Database fix failed"] = "Réparation de la base de données ratée: Il n'y a pas de sauvegarde disponible. Vous pouvez en créer une avec '/lui backup'."
+L["No issues found with database."] = "Aucun problème détecté avec la base de données."
+L["Restore failed"] = "Restauration ratée"
+L["Restore of database complete."] = "Restauration de la base de données terminée."
+
+-- Unitframes
+L["Blizzard does not support right-click focus"] = "Blizzard n'a actuellement pas prévue de manière appropriée pour définir le focus avec clique droit."
+L["Initiate a ready check"] = "Lancer un contrôle de présence"
+L["Initiate a role check"] = "Lancer un contrôle de rôle"
+L["Type %s to Clear Focus"] = "Tapez %s pour effacer le Focus"
+L["Type %s to Set Focus"] = "Tapez %s pour définir le Focus"
+
+-- WorldMap
+L["Battlegrounds"] = "Champs de Bataille"
+L["BC Instances"] = "Instances BC"
+L["BC Raids"] = "Raids BC"
+L["Cataclysm Instances"] = "Instances Cataclysm"
+L["Cataclysm Raids"] = "Raids Cataclysm"
+L["Classic Instances"] = "Instances Classique"
+L["Classic Raids"] = "Raids Classiques"
+L["Cursor"] = "Curseur"
+L["Hide Completely"] = "Cacher complètement"
+L["Only Show Markers"] = "Voir seulement les marques"
+L["Player"] = "Joueur"
+L["Quest Objectives"] = "Objectifs de quête"
+L["Show Markers & Panels"] = "Voir Marqueurs & Panneaux"
+L["Wrath Instances"] = "Instances WoTLK"
+L["Wrath Raids"] = "Raids WoTLK"
+

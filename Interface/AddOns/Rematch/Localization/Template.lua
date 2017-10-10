@@ -47,6 +47,8 @@ if GetLocale()=="????" then
 
 -- Widgets\PanelTabs.lua
 
+-- Process\ODTables.lua
+
 -- Process\PetInfo.lua
 	L["Ignored Pet"] = nil
 	L["Random %s"] = nil
@@ -74,6 +76,7 @@ if GetLocale()=="????" then
 	L["Breed"] = nil
 	L["Similar"] = nil
 	L["Script"] = nil
+	L["Moveset"] = nil
 	L["Level"] = nil
 	L["Leveling"] = nil
 	L["Tradable"] = nil
@@ -164,7 +167,7 @@ if GetLocale()=="????" then
 	L["Export Listed Teams"] = nil
 	L["Export all teams listed below to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] = nil
 	L["Backup All Teams"] = nil
-	L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = nil
+	L["This will export all teams across all tabs into text that you can paste elsewhere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = nil
 	L["Import Teams"] = nil
 	L["Import a single team or many teams that was exported from Rematch."] = nil
 	L["Import From Pet Battle Teams"] = nil
@@ -184,7 +187,7 @@ if GetLocale()=="????" then
 	L["Find Similar"] = nil
 	L["Enter a new name"] = nil
 	L["Any Type"] = nil
-	L["Stop Leveling This Slot"] = nil
+	L["Find Moveset"] = nil
 	L["List %d Teams"] = nil
 	L["Hide Pet"] = nil
 	L["Unhide Pet"] = nil
@@ -221,6 +224,8 @@ if GetLocale()=="????" then
 	L["Three+ Copies"] = nil
 	L["In A Team"] = nil
 	L["Not In A Team"] = nil
+	L["Unique Moveset"] = nil
+	L["Shared Moveset"] = nil
 	L["Current Zone"] = nil
 	L["Hidden Pets"] = nil
 	L["Has Notes"] = nil
@@ -231,6 +236,7 @@ if GetLocale()=="????" then
 	L["Find Pets With This Ability"] = nil
 	L["Put Random Pet Here"] = nil
 	L["Ignore This Slot"] = nil
+	L["Stop Leveling This Slot"] = nil
 	L["Stop Randomizing This Slot"] = nil
 	L["Stop Ignoring This Slot"] = nil
 	L["Hide this pet?"] = nil
@@ -402,6 +408,7 @@ if GetLocale()=="????" then
 -- Panels\OptionPanel.lua
 	L["All Options"] = nil
 	L["Targeting Options"] = nil
+	L["When a team auto loads, show the Rematch window if any pets in the team are injured."] = nil
 	L["Auto load upon targeting only, not mouseover.\n\n\124cffff4040WARNING!\124r This is not recommended! It can be too late to load pets if you target with right click!"] = nil
 	L["Always Show When Targeting"] = nil
 	L["Regardless whether a target's team is already loaded, show the Rematch window when you target something with a saved team."] = nil
@@ -449,7 +456,7 @@ if GetLocale()=="????" then
 	L["Show Ability Numbers"] = nil
 	L["In the ability flyout, show the numbers 1 and 2 to help with the common notation such as \"Pet Name 122\" to know which abilities to use."] = nil
 	L["On Loaded Abilities Too"] = nil
-	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities in all but minimized views."] = nil
+	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities."] = nil
 	L["Toolbar Options"] = nil
 	L["Move Toolbar To Bottom"] = nil
 	L["Move the toolbar buttons (Revive Battle Pets, Battle Pet Bandages, Safari Hat, etc) to the bottom of the standalone window.\n\nAlso convert the red panel buttons (Save, Save As, Find Battle) to toolbar buttons."] = nil
@@ -533,6 +540,8 @@ if GetLocale()=="????" then
 	L["When pets are sorted by name, sort them by the name given with the Rename option instead of their original name."] = nil
 	L["Don't Sort By Relevance"] = nil
 	L["When searching for something by name in the search box, do not sort the results by relevance.\n\nWhen sorted by relevance, pets with the search term in their name are listed first, followed by terms in notes, then abilities and then source text last."] = nil
+	L["Hide Non-Battle Pets"] = nil
+	L["Only list pets that can battle. Do not list pets like balloons, squires and other companion pets that cannot battle."] = nil
 	L["Confirmation Options"] = nil
 	L["Don't display a popup when a team loads and a pet within the team can't be found."] = nil
 	L["Don't ask for confirmation when hiding a pet.\n\nYou can view hidden pets in the 'Other' pet filter."] = nil

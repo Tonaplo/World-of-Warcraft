@@ -166,7 +166,8 @@ function toolbar:Update()
 		toolbar.SummonRandom.Icon:SetTexture(icon)
 		toolbar.SummonRandom.Cancel:Show()
 	else
-		toolbar.SummonRandom.Icon:SetTexture("Interface\\Icons\\Achievement_GuildPerk_MountUp")
+      local _,_,icon = GetSpellInfo(243819) -- get icon for "Summon Random Favorite Battle Pet" spell
+		toolbar.SummonRandom.Icon:SetTexture(icon) -- "Interface\\Icons\\Achievement_GuildPerk_MountUp")
 		toolbar.SummonRandom.Cancel:Hide()
 	end
 
@@ -316,8 +317,8 @@ function toolbar:ButtonOnClick(button)
 		local petID = C_PetJournal.GetSummonedPetGUID()
 		if petID then -- pet was out, dismiss it
 			C_PetJournal.SummonPetByGUID(petID)
-		else -- pet not out, false=random favorites, true=random all
-			C_PetJournal.SummonRandomPet(button=="RightButton")
+		else -- pet not out, as of 7.3, true=random favorites, false=random all
+			C_PetJournal.SummonRandomPet(button~="RightButton")
 		end
 	end
 end

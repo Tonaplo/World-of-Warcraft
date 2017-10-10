@@ -355,7 +355,7 @@ end)
 conditioner_tutorialframe:SetScript("OnMouseDown", function(self, button, down)
 	if (button == "RightButton") then
 		ConditionerTutorial_Dismiss()
-		PlaySound("UChatScrollButton")
+		PlaySound(1115)
 	elseif (button == "LeftButton") then
 		if (xl_conditionertutorial.current_step == 1) then
 			ShowUIPanel(SpellBookFrame)

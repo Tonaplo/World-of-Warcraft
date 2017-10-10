@@ -82,7 +82,11 @@ function rematch:ShowAbilityCard(parent,petID,abilityID)
 		end
 		card.Cooldown:SetShown(hasCooldown)
 
-		card.Description:SetText(tooltip.Description:GetText())
+      local description = tooltip.Description:GetText()
+      if RematchSettings.ShowSpeciesID and abilityID then
+         description = format(L["%s\n\n\124TInterface\\WorldMap\\Gear_64Grey:16:16:0:0:64:64:8:56:6:57\124t %sAbility ID: %d"],description,rematch.hexGrey,abilityID)
+      end
+		card.Description:SetText(description)
 		if not bottom then
 			card.Description:SetPoint("TOPLEFT",card.Duration,"TOPLEFT")
 		else

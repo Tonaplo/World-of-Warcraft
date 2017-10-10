@@ -1,10 +1,9 @@
 # LittleWigs
 
-## [v7.2.5](https://github.com/BigWigsMods/LittleWigs/tree/v7.2.5) (2017-06-22)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.2.4...v7.2.5)
+## [v7.3.1](https://github.com/BigWigsMods/LittleWigs/tree/v7.3.1) (2017-09-11)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.3.0...v7.3.1)
 
-- Legion/ArtifactScenarios/Raest: Add Rune of Summoning and Thing of Nightmares warnings  
-- Update koKR.lua (#56)  
-- Legion/CourtOfStars/Trash: Reduce dispel warnings, cleanup options  
-- Legion/CourtOfStars/Trash: Dispellable debuffs don't all need a say message.  
-- Cataclysm/HallsOfOrigination/Isiset: Fix packaging error  
+- Remove load blockers  
+- TheArcway/Trash: add Eredar Chaosbringer spells (#109)  
+- Fix mage tower name in UI.  
+- Halls Of Valor and Vaults Of Wardens translation. (ruRU) (#108)  

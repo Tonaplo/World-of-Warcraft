@@ -201,7 +201,7 @@ local function wrapWithPlaySound(func, kit)
   return function(info, v)
     func(info, v);
     if (tonumber(v)) then
-      PlaySoundKitID(tonumber(v), "Master");
+      PlaySound(tonumber(v), "Master");
     else
       PlaySoundFile(v, "Master");
     end
@@ -667,8 +667,6 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
       order = order,
       name = L["Expand Text Editor"],
       func = function()
-        -- TODO use multipath for this...
-        -- TODO how does this update the display?
         if (data.controlledChildren) then
           -- Collect multi paths
           local multipath = {};
@@ -757,10 +755,10 @@ local function addControlsForChange(args, order, data, conditionVariable, condit
             childData.conditions[conditionIndex].changes[changeIndex].value = childData.conditions[conditionIndex].changes[changeIndex].value or {};
             multipath[id] = {"conditions", conditionIndex, "changes", changeIndex, "value", "custom"};
           end
-          WeakAuras.OpenTextEditor(data, multipath, nil, true);
+          WeakAuras.OpenTextEditor(data, multipath, true, true);
         else
           data.conditions[i].changes[j].value = data.conditions[i].changes[j].value or {};
-          WeakAuras.OpenTextEditor(data, {"conditions", i, "changes", j, "value", "custom"});
+          WeakAuras.OpenTextEditor(data, {"conditions", i, "changes", j, "value", "custom"}, true);
         end
       end,
     }

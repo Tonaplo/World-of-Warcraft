@@ -95,29 +95,30 @@ function rematch:GetPetSpeciesID(petID)
 	end
 end
 
--- DesensitizedText doesn't work for Russian clients; use the less efficient string:lower() compare
-local ruLocale = GetLocale()=="ruRU"
+-- DesensitizedText doesn't work for Russian or German clients; use the less efficient string:lower() compare
+local locale = GetLocale()
+local useAltSensitivity = locale=="ruRU" or locale=="deDE"
 
 -- DesensitizeText returns text in a literal (magic characters escaped) and case-insensitive format
 local function literal(c) return "%"..c end
 local function caseinsensitive(c) return format("[%s%s]",c:lower(),c:upper()) end
 function rematch:DesensitizeText(text)
 	if type(text)=="string" then
-		if ruLocale then -- for ruRU clients use the lower case text
-			return text:lower()
+		if useAltSensitivity then -- for ruRU/deDE clients use the lower case text
+			return text:gsub("[%(%)%.%%%+%-%*%?%[%]%^%$]",literal):lower()
 		else
 			return text:gsub("[%(%)%.%%%+%-%*%?%[%]%^%$]",literal):gsub("%a",caseinsensitive)
 		end
 	end
 end
 
--- when doing a case-insensitive match, use this instead of a direct match; so it can handle ruRU matches
+-- when doing a case-insensitive match, use this instead of a direct match; so it can handle ruRU/deDE matches
 function rematch:match(candidate,pattern)
 	if candidate and pattern then
 		if type(candidate)~="string" then
 			candidate=tostring(candidate)
 		end
-		if ruLocale then -- match the lower case candidate to the pattern (which is also lower case)
+		if useAltSensitivity then -- match the lower case candidate to the pattern (which is also lower case)
 			return candidate:lower():match(pattern)
 		else
 			return candidate:match(pattern)
@@ -318,12 +319,12 @@ end
 
 function rematch:ListScrollToTop(scrollFrame)
 	scrollFrame.scrollBar:SetValue(0)
-	PlaySound("UChatScrollButton")
+	PlaySound(PlaySoundKitID and "UChatScrollButton" or 1115)
 end
 
 function rematch:ListScrollToBottom(scrollFrame)
 	scrollFrame.scrollBar:SetValue(scrollFrame.range)
-	PlaySound("UChatScrollButton")
+	PlaySound(PlaySoundKitID and "UChatScrollButton" or 1115)
 end
 
 function rematch:ListScrollToIndex(scrollFrame,index)

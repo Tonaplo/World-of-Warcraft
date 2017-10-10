@@ -105,15 +105,15 @@ end
 -- pets not in a team are preferred, and full-health pets are preferred over injured pets,
 -- which are preferred over dead pets. if evenInTeams is true, then whether the pet is
 -- in a team is not a deciding factor.
-function rematch:PickRandomPet(petID,notPetID1,notPetID2,evenInTeams)
+function rematch:PickRandomPet(petID,notPetID1,notPetID2,notPetID3,evenInTeams)
    if rematch:GetSpecialPetIDType(petID)=="random" then
       local petType = tonumber(petID:match("random:(%d+)"))
       local randomPetIDs = {}
       local bestWeight = 0
       for petID in rematch.Roster:AllOwnedPets() do
-         if petID~=noPetID1 and petID~=noPetID2 then
+         if petID~=notPetID1 and petID~=notPetID2 and petID~=notPetID3 then
             local petInfo = rematch.altInfo:Fetch(petID,true)
-            if (petType==0 or petInfo.petType==petType) and petInfo.canBattle and not petInfo.isDead then -- petType==0 is "any type"
+            if (petType==0 or petInfo.petType==petType) and petInfo.canBattle and not petInfo.isDead and petInfo.speciesID~=1426 then -- petType==0 is "any type", speciesID 1426 is Elekk Plushie
                -- calculating weights from lowest to highest
                -- health is lowest: max health=2, injured=1, dead=0
                local weight = petInfo.health==petInfo.maxHealth and 2 or petInfo.health>0 and 1 or 0

@@ -5,6 +5,21 @@
 -- Template.lua is the "master file" with all current localization strings
 -- grouped by the file they're first encountered.
 
+-- New strings in 4.7.3
+	L["Shared Moveset"] = nil
+	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities."] = nil
+	L["When a team auto loads, show the Rematch window if any pets in the team are injured."] = nil
+	L["Only list pets that can battle. Do not list pets like balloons, squires and other companion pets that cannot battle."] = nil
+	L["Moveset"] = nil
+	L["Unique Moveset"] = nil
+	L["This will export all teams across all tabs into text that you can paste elsewhere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = nil
+	L["Hide Non-Battle Pets"] = nil
+	L["Find Moveset"] = nil
+
+-- Strings removed in 4.7.3
+	L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = nil
+	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities in all but minimized views."] = nil
+
 -- New strings in 4.7.1
 	L["For random pets, randomize the pets' abilities also."] = nil
 	L["Random %s"] = nil

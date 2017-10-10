@@ -94,7 +94,7 @@ function rematch:LoadTeam(key)
          local noPetID2 = loadin[next2][1]
          -- then pick a random pet from the random petID (that's not already loaded)
          -- if 3 slots are random, pass true for evenInTeams flag to pick pets in teams too
-         local petID = rematch:PickRandomPet(loadin[slot][1],noPetID1,noPetID2,numRandomSlots==3)
+         local petID = rematch:PickRandomPet(loadin[slot][1],team[1][1],team[2][1],team[3][1],numRandomSlots==3)
          loadin[slot][1] = petID
          if petID and settings.RandomAbilitiesToo then
             local petInfo = rematch.petInfo:Fetch(petID)
