@@ -1546,12 +1546,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Brittle Golem",
 		},
-		[57052] = {
-			["school"] = 64,
+		[198058] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Crystalline Keeper",
+			["source"] = "Odyn",
 		},
 		[221093] = {
 			["school"] = 4,
@@ -1592,14 +1592,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Krick",
 		},
-		[55104] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Moorabi",
-		},
 		[204574] = {
 			["school"] = 1,
 			["token"] = {
@@ -1607,6 +1599,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Oakheart",
+		},
+		[55104] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Moorabi",
 		},
 		[198077] = {
 			["school"] = 2,
@@ -2127,12 +2127,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "God-King Skovald",
 		},
-		[198058] = {
-			["school"] = 2,
+		[57052] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Odyn",
+			["source"] = "Crystalline Keeper",
 		},
 		[69172] = {
 			["school"] = 1,

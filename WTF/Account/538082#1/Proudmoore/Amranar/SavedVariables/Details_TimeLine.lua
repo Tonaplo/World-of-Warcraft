@@ -1,5 +1,84 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Lodnum-Tanaris"] = {
+				{
+					21.4689999999973, -- [1]
+					"Lodnum-Tanaris", -- [2]
+					48707, -- [3]
+				}, -- [1]
+				{
+					93.1809999999969, -- [1]
+					"Lodnum-Tanaris", -- [2]
+					48707, -- [3]
+				}, -- [2]
+			},
+			["Jaequallen-Frostmourne"] = {
+				{
+					5.3640000000014, -- [1]
+					"Jaequallen-Frostmourne", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					101.913999999997, -- [1]
+					"Jaequallen-Frostmourne", -- [2]
+					31850, -- [3]
+				}, -- [2]
+			},
+			["Caesarmagnum-EmeraldDream"] = {
+				{
+					39.5400000000009, -- [1]
+					"Caesarmagnum-EmeraldDream", -- [2]
+					498, -- [3]
+				}, -- [1]
+			},
+			["Helisa-Area52"] = {
+				{
+					74.0290000000023, -- [1]
+					"Helisa-Area52", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Hagrul-Dalaran"] = {
+				{
+					103.875999999997, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+			["Yrreg-Kel'Thuzad"] = {
+				{
+					55.0610000000015, -- [1]
+					"Yrreg-Kel'Thuzad", -- [2]
+					55233, -- [3]
+				}, -- [1]
+				{
+					97.9660000000004, -- [1]
+					"Yrreg-Kel'Thuzad", -- [2]
+					55233, -- [3]
+				}, -- [2]
+				{
+					98.9689999999973, -- [1]
+					"Yrreg-Kel'Thuzad", -- [2]
+					48707, -- [3]
+				}, -- [3]
+				{
+					99.637999999999, -- [1]
+					"Yrreg-Kel'Thuzad", -- [2]
+					48792, -- [3]
+				}, -- [4]
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -10,39 +89,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_start"] = "21:28:20",
-			["date_end"] = "21:30:08",
-			["name"] = "Xavius",
-			["total_time"] = 108.017,
-		}, -- [1]
-		{
-			["date_start"] = "21:15:16",
-			["date_end"] = "21:15:47",
-			["name"] = "Mephistroth",
-			["total_time"] = 31.0020000000004,
-		}, -- [2]
-		{
-			["date_start"] = "21:13:24",
-			["date_end"] = "21:14:15",
-			["name"] = "Domatrax",
-			["total_time"] = 50.9990000000034,
-		}, -- [3]
-		{
-			["date_start"] = "21:08:19",
-			["date_end"] = "21:08:58",
-			["name"] = "Thrashbite the Scornful",
-			["total_time"] = 39.0020000000004,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Arekwar-Quel'Thalas"] = {
@@ -101,11 +148,11 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Ereitus-Tichondrius"] = {
-				[211802] = {
-					16.6959999999963, -- [1]
-					20.6970000000001, -- [2]
-					["source"] = "Xavius",
+			["Jaimelann-Kel'Thuzad"] = {
+				[205771] = {
+					19.1059999999998, -- [1]
+					19.8830000000016, -- [2]
+					["source"] = "Lurking Terror",
 					["active"] = false,
 				},
 			},
@@ -125,11 +172,11 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Jaimelann-Kel'Thuzad"] = {
-				[205771] = {
-					19.1059999999998, -- [1]
-					19.8830000000016, -- [2]
-					["source"] = "Lurking Terror",
+			["Ereitus-Tichondrius"] = {
+				[211802] = {
+					16.6959999999963, -- [1]
+					20.6970000000001, -- [2]
+					["source"] = "Xavius",
 					["active"] = false,
 				},
 			},
@@ -161,6 +208,14 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Lunashell"] = {
+				[233048] = {
+					31.0020000000004, -- [1]
+					31.0020000000004, -- [2]
+					["source"] = "Felblade Devastator",
+					["active"] = false,
+				},
+			},
 			["Amranar"] = {
 				[234830] = {
 					9.96099999999569, -- [1]
@@ -168,14 +223,6 @@ DetailsTimeLineDB = {
 					21.7520000000004, -- [3]
 					29.5339999999997, -- [4]
 					["source"] = "Mephistroth",
-					["active"] = false,
-				},
-			},
-			["Lunashell"] = {
-				[233048] = {
-					31.0020000000004, -- [1]
-					31.0020000000004, -- [2]
-					["source"] = "Felblade Devastator",
 					["active"] = false,
 				},
 			},
@@ -211,83 +258,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Lodnum-Tanaris"] = {
-				{
-					21.4689999999973, -- [1]
-					"Lodnum-Tanaris", -- [2]
-					48707, -- [3]
-				}, -- [1]
-				{
-					93.1809999999969, -- [1]
-					"Lodnum-Tanaris", -- [2]
-					48707, -- [3]
-				}, -- [2]
-			},
-			["Jaequallen-Frostmourne"] = {
-				{
-					5.3640000000014, -- [1]
-					"Jaequallen-Frostmourne", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					101.913999999997, -- [1]
-					"Jaequallen-Frostmourne", -- [2]
-					31850, -- [3]
-				}, -- [2]
-			},
-			["Caesarmagnum-EmeraldDream"] = {
-				{
-					39.5400000000009, -- [1]
-					"Caesarmagnum-EmeraldDream", -- [2]
-					498, -- [3]
-				}, -- [1]
-			},
-			["Yrreg-Kel'Thuzad"] = {
-				{
-					55.0610000000015, -- [1]
-					"Yrreg-Kel'Thuzad", -- [2]
-					55233, -- [3]
-				}, -- [1]
-				{
-					97.9660000000004, -- [1]
-					"Yrreg-Kel'Thuzad", -- [2]
-					55233, -- [3]
-				}, -- [2]
-				{
-					98.9689999999973, -- [1]
-					"Yrreg-Kel'Thuzad", -- [2]
-					48707, -- [3]
-				}, -- [3]
-				{
-					99.637999999999, -- [1]
-					"Yrreg-Kel'Thuzad", -- [2]
-					48792, -- [3]
-				}, -- [4]
-			},
-			["Hagrul-Dalaran"] = {
-				{
-					103.875999999997, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-			},
-			["Helisa-Area52"] = {
-				{
-					74.0290000000023, -- [1]
-					"Helisa-Area52", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
+			["date_end"] = "21:30:08",
+			["date_start"] = "21:28:20",
+			["name"] = "Xavius",
+			["total_time"] = 108.017,
 		}, -- [1]
 		{
+			["date_end"] = "21:15:47",
+			["date_start"] = "21:15:16",
+			["name"] = "Mephistroth",
+			["total_time"] = 31.0020000000004,
 		}, -- [2]
 		{
+			["date_end"] = "21:14:15",
+			["date_start"] = "21:13:24",
+			["name"] = "Domatrax",
+			["total_time"] = 50.9990000000034,
 		}, -- [3]
 		{
+			["date_end"] = "21:08:58",
+			["date_start"] = "21:08:19",
+			["name"] = "Thrashbite the Scornful",
+			["total_time"] = 39.0020000000004,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

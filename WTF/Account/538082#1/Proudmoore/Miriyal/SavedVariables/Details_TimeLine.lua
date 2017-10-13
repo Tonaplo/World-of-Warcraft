@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "11:52:59",
-			["date_end"] = "11:54:19",
-			["name"] = "Odyn",
-			["total_time"] = 80.0210000000007,
-		}, -- [1]
-		{
-			["date_start"] = "11:51:13",
-			["date_end"] = "11:52:08",
-			["name"] = "God-King Skovald",
-			["total_time"] = 55.025999999998,
-		}, -- [2]
-		{
-			["date_start"] = "11:45:30",
-			["date_end"] = "11:46:08",
-			["name"] = "Fenryr",
-			["total_time"] = 38.0139999999956,
-		}, -- [3]
-		{
-			["date_start"] = "11:44:00",
-			["date_end"] = "11:45:24",
-			["name"] = "Fenryr",
-			["total_time"] = 84.0240000000049,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Crissia-Turalyon"] = {
@@ -281,13 +263,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Miriyal"] = {
@@ -446,6 +421,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "11:52:59",
+			["date_end"] = "11:54:19",
+			["name"] = "Odyn",
+			["total_time"] = 80.0210000000007,
+		}, -- [1]
+		{
+			["date_start"] = "11:51:13",
+			["date_end"] = "11:52:08",
+			["name"] = "God-King Skovald",
+			["total_time"] = 55.025999999998,
+		}, -- [2]
+		{
+			["date_start"] = "11:45:30",
+			["date_end"] = "11:46:08",
+			["name"] = "Fenryr",
+			["total_time"] = 38.0139999999956,
+		}, -- [3]
+		{
+			["date_start"] = "11:44:00",
+			["date_end"] = "11:45:24",
+			["name"] = "Fenryr",
+			["total_time"] = 84.0240000000049,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -456,5 +457,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

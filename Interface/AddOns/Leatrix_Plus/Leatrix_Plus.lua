@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 7.3.20 (9th October 2017, www.leatrix.com)
+-- 	Leatrix Plus 7.3.21 (13th October 2017, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "7.3.20"
+	LeaPlusLC["AddonVer"] = "7.3.21"
 
 ----------------------------------------------------------------------
 --	L00: Leatrix Plus
@@ -653,8 +653,10 @@
 				aEB:SetHeight(16)
 				aEB:SetFontObject("GameFontNormalSmall")
 				aEB:SetBlinkSpeed(0)
+				aEB:SetJustifyH("RIGHT")
 				aEB:SetAutoFocus(false)
 				aEB:EnableKeyboard(false)
+				aEB:SetHitRectInsets(90, 0, 0, 0)
 				aEB:SetScript("OnKeyDown", function() end)
 				aEB:SetScript("OnMouseUp", function()
 					if aEB:IsMouseOver() then 
@@ -680,7 +682,7 @@
 						lastAchievementLink = aEB:GetText()
 						-- Set hidden fontstring then resize editbox to match
 						aEB.z:SetText(aEB:GetText())
-						aEB:SetWidth(aEB.z:GetStringWidth() + 1)
+						aEB:SetWidth(aEB.z:GetStringWidth() + 90)
 						-- Get achievement title for tooltip
 						local achievementLink = GetAchievementLink(self.id)
 						if achievementLink then
@@ -740,12 +742,13 @@
 				-- Create editbox
 				local eEB = CreateFrame("EditBox", nil, EncounterJournal)
 				eEB:ClearAllPoints()
-				eEB:SetPoint("TOPLEFT", 100, -4)
+				eEB:SetPoint("TOPLEFT", 70, -4)
 				eEB:SetHeight(16)
 				eEB:SetFontObject("GameFontNormal")
 				eEB:SetBlinkSpeed(0)
 				eEB:SetAutoFocus(false)
 				eEB:EnableKeyboard(false)
+				eEB:SetHitRectInsets(0, 90, 0, 0)
 				eEB:SetScript("OnKeyDown", function() end)
 				eEB:SetScript("OnMouseUp", function()
 					if eEB:IsMouseOver() then 
@@ -772,7 +775,7 @@
 						lastEJLink = eEB:GetText()
 						-- Set hidden fontstring then resize editbox to match
 						eEB.z:SetText(eEB:GetText())
-						eEB:SetWidth(eEB.z:GetStringWidth() + 1)
+						eEB:SetWidth(eEB.z:GetStringWidth() + 90)
 						-- Get achievement title for tooltip
 						if link then
 							eEB.tiptext = link:match("%[(.-)%]") .. "|n" .. L["Press CTRL/C to copy."]
@@ -836,6 +839,7 @@
 			mEB:SetBlinkSpeed(0)
 			mEB:SetAutoFocus(false)
 			mEB:EnableKeyboard(false)
+			mEB:SetHitRectInsets(0, 90, 0, 0)
 			mEB:SetScript("OnKeyDown", function() end)
 			mEB:SetScript("OnMouseUp", function()
 				if mEB:IsMouseOver() then 
@@ -866,7 +870,7 @@
 					mEB:SetText("https://" .. wowheadLoc .. "/quest=" .. questID)
 					-- Set hidden fontstring then resize editbox to match
 					mEB.z:SetText(mEB:GetText())
-					mEB:SetWidth(mEB.z:GetStringWidth() + 1)
+					mEB:SetWidth(mEB.z:GetStringWidth() + 90)
 					-- Get quest title for tooltip
 					local questLink = GetQuestLink(questID) or nil
 					if questLink then
@@ -6909,7 +6913,7 @@
 			local uframe = CreateFrame("FRAME")
 
 			-- Create a table for each heading
-			ZoneList = {L["Eastern"], L["Kalimdor"], L["Outland"], L["Northrend"], L["Maelstrom"], L["Pandaria"], L["Draenor"], L["Broken Isles"], L["Various"], L["Movies"]}
+			ZoneList = {L["Eastern"], L["Kalimdor"], L["Outland"], L["Northrend"], L["Maelstrom"], L["Pandaria"], L["Draenor"], L["Broken Isles"], L["Dungeons"], L["Various"], L["Movies"]}
 
 			for k, v in ipairs(ZoneList) do
 				ZoneList[v] = {}
@@ -7044,6 +7048,120 @@
 			Zn(L["Broken Isles"], L["Val'sharah"]				, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Val'sharah"], "Legion\\MUS_70_EnrapturedWoodlands_A#124", "Legion\\MUS_70_EnrapturedWoodlands_B#102", "Legion\\MUS_70_EnrapturedWoodlands_C#93", "Legion\\MUS_70_EnrapturedWoodlands_H#124", "Legion\\MUS_70_EnchantedNightElves_A#100", "Legion\\MUS_70_EnchantedNightElves_B#101", "Legion\\MUS_70_EnchantedNightElves_C#101", "Legion\\MUS_70_EnchantedNightElves_H#101", "Legion\\MUS_70_NosSharah_A#76", "Legion\\MUS_70_NosSharah_B#63", "Legion\\MUS_70_NosSharah_C#46", "Legion\\MUS_70_NosSharah_D#127", "Legion\\MUS_70_NosSharah_E#76", "Legion\\MUS_70_NosSharah_H#127", "Legion\\MUS_70_EmeraldNightmareOrch_A#70", "Legion\\MUS_70_EmeraldNightmareOrch_B#63", "Legion\\MUS_70_EmeraldNightmareOrch_H#138", "Legion\\MUS_70_EmeraldNightmareSyn_A#112", "Legion\\MUS_70_EmeraldNightmareSyn_H#129", "Legion\\MUS_70_EmeraldNightmare_C#131", "Legion\\MUS_70_EmeraldNightmare_D#119", "Legion\\MUS_70_EmeraldNightmare_E#34", "Legion\\MUS_70_EmeraldNightmare_F#34", "Legion\\MUS_70_EmeraldNightmare_G#114", "Legion\\MUS_70_EmeraldNightmare_J#101", "Legion\\MUS_70_EmeraldNightmare_K#114", "Legion\\MUS_70_EmeraldNightmare_L#97", "Legion\\MUS_70_EmeraldNightmare_M#92",})
 			Zn(L["Broken Isles"], L["Stormheim"]				, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Stormheim"], "Legion\\MUS_70_Stormheim_H#198", "Legion\\MUS_70_HighMountain6_A#79", "Legion\\MUS_70_HighMountain6_B#81", "Legion\\MUS_70_HighMountain6_H#81", "Legion\\MUS_70_Stormheim_A#88", "Legion\\MUS_70_Stormheim_B1#77", "Legion\\MUS_70_Stormheim_B2#124", "Legion\\MUS_70_Stormheim_C#157", "ZoneMusic\\Utgarde Keep\\UK_QuietWalkUni02#109", "ZoneMusic\\BoreanTundra\\BO_Riplash_Night02#79", "ZoneMusic\\BoreanTundra\\BO_Riplash_Day03#76", "Legion\\MUS_70_HolyWarriorsOath_E#132", "Legion\\MUS_70_HolyWarriorsGather_A#61", "Legion\\MUS_70_HolyWarriorsOath_H#132", "Legion\\MUS_70_HolyWarriorsGather_B#137", "Legion\\MUS_70_Preserver_H1#91", "Legion\\MUS_70_HighMountain5_A#62", "Legion\\MUS_70_HighMountain5_B#62", "Legion\\MUS_70_Stormheim_D#42", "Legion\\MUS_70_Stormheim_E#55", "Legion\\MUS_70_Stormheim_F#65", "Legion\\MUS_70_Stormheim_G#66",})
 			Zn(L["Broken Isles"], L["Suramar"]					, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Suramar"], "Legion\\MUS_70_EnchantedNightElves_A#100", "Legion\\MUS_70_EnchantedNightElves_B#101", "Legion\\MUS_70_EnchantedNightElves_C#101", "Legion\\MUS_70_EnchantedNightElves_H#101", "Legion\\MUS_70_RequiemfortheLostCities_G#82", "Legion\\MUS_70_RequiemfortheLostCities_H1#92", "Legion\\MUS_70_NosSharah_C#46", "Legion\\MUS_70_NosSharah_D#127", "Legion\\MUS_70_FelGlade_B#82", "Legion\\MUS_70_SacredStone_A#120", "Legion\\MUS_70_SacredStone_B#113", "Legion\\MUS_70_SacredStone_H#124", "Legion\\MUS_70_HighElfTomb_A#69", "Legion\\MUS_70_HighElfTomb_H1#101", "Legion\\MUS_70_HighElfTomb_H2#112", "Cataclysm\\MUS_BarrowDens_GU02#50", "Cataclysm\\MUS_BarrowDens_GU03#66", "Legion\\MUS_70_Suramar_Pt1_A#69", "Legion\\MUS_70_Suramar_Pt1_B#59", "Legion\\MUS_70_Suramar_Pt1_H#70", "Legion\\MUS_70_Suramar_pt2_A#64", "Legion\\MUS_70_Suramar_pt2_B#95", "Legion\\MUS_70_Suramar_Pt2_H#101", "Legion\\MUS_70_Passage_B#75", "Legion\\MUS_70_FelGlade_B#82", "Legion\\MUS_70_FelGlade_C#100", "ZoneMusic\\BlackTemple\\BT_SanctuaryWalkUni04#65", "Legion\\MUS_70_DemonHunterPt2_B1#83", "ZoneMusic\\BlackTemple\\BT_ReliquaryWalkUni04#64", "Legion\\MUS_70_MenaceoftheDarkTitans_H2#66",})
+
+			-- Dungeons: World of Warcraft
+			Zn(L["Dungeons"], "|cffffd800" .. L["World of Warcraft"], {""})
+			Zn(L["Dungeons"], L["Blackfathom Deeps"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackfathom Deeps"], "4754#00" --[[Zone-Desert Day]], "4755#00" --[[Zone-Desert Night]],})
+			Zn(L["Dungeons"], L["Blackwing Lair"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackwing Lair"], "6066#00" --[[Zone - Plaguelands]],})
+			Zn(L["Dungeons"], L["Deadmines"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Deadmines"], "2901#00" --[[Zone-Orgrimmar]], "6065#00" --[[Zone-Mystery]], "23609#00" --[[MUS_Deadmines]], "22151#00" --[[MUS_ChoGall_E]],})
+			Zn(L["Dungeons"], L["Dire Maul"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Dire Maul"], "ZoneMusic\\EnchantedForest\\EnchantedForest01#50", "ZoneMusic\\EnchantedForest\\EnchantedForest02#67", "ZoneMusic\\EnchantedForest\\EnchantedForest03#235", "ZoneMusic\\EnchantedForest\\EnchantedForest04#61", "ZoneMusic\\EnchantedForest\\EnchantedForest05#71",})
+			Zn(L["Dungeons"], L["Gnomeregan"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Gnomeregan"], "7341#00" --[[Zone-Gnomeragon]],})
+			Zn(L["Dungeons"], L["Maraudon"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Maraudon"], "2536#00" --[[Zone-BarrenDry Night]], "6262#00" --[[Moment - Battle02]], "6836#00" --[[Zone-Soggy Night]], "7082#00" --[[Zone-Soggy Day]],})
+			Zn(L["Dungeons"], L["Razorfen Downs"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Razorfen Downs"], "5074#00" --[[Zone-Undercity]], "7083#00" --[[Zone-Undead Dance]],})
+			Zn(L["Dungeons"], L["Ruins of Ahn'Qiraj"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ruins of Ahn'Qiraj"], "8531#00" --[[Zone - AhnQirajExterior]],})
+			Zn(L["Dungeons"], L["Scarlet Halls"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Scarlet Halls"], "33725#00" --[[MUS_50_SM_Dungeon_TrainingWalk]], "30478#00" --[[MUS_50_ScarletMonastery_A_Hero]],})
+			Zn(L["Dungeons"], L["Scarlet Monastery"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Scarlet Monastery"], "33738#00" --[[MUS_50_SM_Dungeon_ChapelGardensWalk]], "33740#00" --[[MUS_50_SM_Dungeon_CrusaderWalk]], "33723#00" --[[MUS_50_SM_Dungeon_TunnelsWalk]], "22182#00" --[[MUS_Haunted_UU]], "33721#00" --[[MUS_50_SM_Dungeon_VestibuleWalk]], "30478#00" --[[MUS_50_ScarletMonastery_A_Hero]],})
+			Zn(L["Dungeons"], L["Shadowfang Keep"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Shadowfang Keep"], "2524#00" --[[Zone-EvilForest Day]], "23610#00" --[[MUS_ShadowfangKeep]], "22198#00" --[[MUS_Scarred_UU]], "22200#00" --[[MUS_Shadows_UU]],})
+			Zn(L["Dungeons"], L["Stratholme"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stratholme"], "5074#00" --[[Zone-Undercity]],})
+			Zn(L["Dungeons"], L["Sunken Temple"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Sunken Temple"], "6253#00" --[[Moment - Battle05]], "6262#00" --[[Moment - Battle02]], "6350#00" --[[Moment - Battle06]], "6836#00" --[[Zone-Soggy Night]], "7082#00" --[[Zone-Soggy Day]], "22542#00" --[[MUS_SwampOfSorrowsTroll]],})
+			Zn(L["Dungeons"], L["Temple of Ahn'Qiraj"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Temple of Ahn'Qiraj"], "8531#00" --[[Zone - AhnQirajExterior]], "8563#00" --[[ "Zone Music - AhnQirajInteriorWa]], "8577#00" --[[ "AhnQirajTriangleRoomWalking]], "8578#00" --[[ "AhnQirajKingRoom]], "8579#00" --[[ "AhnQirajInteriorCenterRoom]],})
+			Zn(L["Dungeons"], L["Wailing Caverns"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Wailing Caverns"], "2525#00" --[[Zone-Jungle Day]], "2535#00" --[[Zone-Jungle Night]], "6066#00" --[[Zone - Plaguelands]], "22829#00" --[[MUS_TheWailingCaverns]],})
+			Zn(L["Dungeons"], L["Zul'Farrak"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Zul'Farrak"], "22867#00" --[[MUS_TanarisTrollA]],})
+
+			-- Dungeons: The Burning Crusade
+			Zn(L["Dungeons"], "|cffffd800", {""})
+			Zn(L["Dungeons"], "|cffffd800" .. L["The Burning Crusade"], {""})
+			Zn(L["Dungeons"], L["Arcatraz"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Arcatraz"], "12128#00" --[[Zone-TempestKeepWalkingUni]], "12129#00" --[[Zone-TempestKeepBosses]],})
+			Zn(L["Dungeons"], L["Black Morass"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Black Morass"], "10731#00" --[[Zone-CavernsofTimeBlackMorassWa]],})
+			Zn(L["Dungeons"], L["Black Temple"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Black Temple"], "11696#00" --[[Zone-BlackTempleWalk]], "11697#00" --[[Zone-BlackTempleKaraborWalk]], "11699#00" --[[Zone-BlackTempleSanctuaryWalk]], "11700#00" --[[Zone-BlackTempleAnguishWalk]], "11701#00" --[[Zone-BlackTempleVigilWalk]], "11702#00" --[[Zone-BlackTempleReliquaryWalk]], "11703#00" --[[Zone-BlackTempleDenWalk]],})
+			Zn(L["Dungeons"], L["Hellfire Ramparts"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Hellfire Ramparts"], "10727#00" --[[Zone-HellfireCitadelRampartsWal]],})
+			Zn(L["Dungeons"], L["Hyjal Summit"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Hyjal Summit"], "11652#00" --[[Zone-HyjalPastNordrassilWalk]], "11653#00" --[[Zone-HyjalPastSummitWalk]],})
+			Zn(L["Dungeons"], L["Karazhan"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Karazhan"], "12154#00" --[[Zone-KarazhanGeneralDefault]], "12156#00" --[[Zone-KarazhanFoyerWalk]], "12159#00" --[[Zone-KarazhanStableWalk]], "12163#00" --[[Zone-KarazhanOperaWalk]], "12162#00" --[[Zone-KarazhanBackstageWalk]], "12164#00" --[[Zone-KarazhanLibraryWalk]], "12170#00" --[[Zone-KarazhanTowerNetherspiteWa]], "12168#00" --[[Zone-KarazhanMalchezaarWalk]],})
+			Zn(L["Dungeons"], L["Old Hillsbrad Foothills"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Old Hillsbrad Foothills"], "10770#00" --[[Zone-CavernsoftimeHillsbradExtW]], "22788#00" --[[MUS_DurnholdeKeep]], "22790#00" --[[MUS_TarrenMill]],})
+			Zn(L["Dungeons"], L["Sunwell Plateau"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Sunwell Plateau"], "12536#00" --[[Zone-SunwellPlateauWalking]],})
+
+			-- Dungeons: Wrath of the Lich King
+			Zn(L["Dungeons"], "|cffffd800", {""})
+			Zn(L["Dungeons"], "|cffffd800" .. L["Wrath of the Lich King"], {""})
+			Zn(L["Dungeons"], L["Ahn'kahet (Old Kingdom)"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ahn'kahet (Old Kingdom)"], "15098#00" --[[Zone-AzjolNerubC]], "15100#00" --[[Zone-AzjolNerubE]], "15099#00" --[[Zone-AzjolNerubD]],})
+			Zn(L["Dungeons"], L["Azjol-Nerub"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Azjol-Nerub"], "15096#00" --[[Zone-AzjolNerubA]], "15100#00" --[[Zone-AzjolNerubE]], "15097#00" --[[Zone-AzjolNerubB]], "15099#00" --[[Zone-AzjolNerubD]],})
+			Zn(L["Dungeons"], L["Culling of Stratholme"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Culling of Stratholme"], "14920#00" --[[Zone-StratholmePastOutdoorsDay]], "14921#00" --[[Zone-StratholmePastOutdoorsNigh]],})
+			Zn(L["Dungeons"], L["Drak'Tharon Keep"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Drak'Tharon Keep"], "15087#00" --[[Zone-DraktharonRaptorPens]],})
+			Zn(L["Dungeons"], L["Forge of Souls"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Forge of Souls"], "17277#00" --[[Zone-ForgeOfSoulsWalk]], "77050#00" --[[MUS_70_Artif_DK_IcecrownWalk]],})
+			Zn(L["Dungeons"], L["Halls of Reflection"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Halls of Reflection"], "17278#00" --[[Zone-IcecrownDungeonWalk]],})
+			Zn(L["Dungeons"], L["Icecrown Citadel"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Icecrown Citadel"], "17277#00" --[[Zone-ForgeOfSoulsWalk]], "17278#00" --[[Zone-IcecrownDungeonWalk]], "17286#00" --[[Zone-FrostmourneWalk]], "17287#00" --[[Zone-CrimsonHallWalk]], "17288#00" --[[Zone-SindragosaWalk]], "17291#00" --[[Zone-IcecrownRaidFloor2Intro]], "17294#00" --[[Zone-IcecrownRaidFloor2Plague]], "17296#00" --[[Zone-IcecrownRaidFloor2Spire]], "17300#00" --[[Zone-IcecrownRaidFloor2Valithria]], "17298#00" --[[Zone-IcecrownRaidFloor2Frost]], "17310#00" --[[Zone-PitofSaron]],})
+			Zn(L["Dungeons"], L["Naxxramas"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Naxxramas"], "8687#00" --[[Zone - NaxxramsDeathKnight]], "8888#00" --[[Zone-NaxxramasAbominationBoss]], "8675#00" --[[NaxxramasAbominationWing]], "8679#00" --[[NaxxramasSpiderWing]], "8886#00" --[[Zone-NaxxramasPlagueBoss]], "8678#00" --[[NaxxramasPlagueWing]], "8887#00" --[[Zone-NaxxramasSpiderBoss]], "8889#00" --[[Zone-NaxxramasKelthuzad]], "8890#00" --[[Zone-NaxxramasFrostWyrm]],})
+			Zn(L["Dungeons"], L["Nexus"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Nexus"], "12763#00" --[[ColdarraNightDay]],})
+			Zn(L["Dungeons"], L["Obsidian Sanctum"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Obsidian Sanctum"], "15077#00" --[[Zone-ChamberAspects01Day]], "15078#00" --[[Zone-ChamberAspects01Night]],})
+			Zn(L["Dungeons"], L["Onyxia's Lair"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Onyxia's Lair"], "7474#00" --[[Moment-Orc Barren]],})
+			Zn(L["Dungeons"], L["Pit of Saron"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Pit of Saron"], "17308#00" --[[Zone-PitofSaronEntry]], "17310#00" --[[Zone-PitofSaron]], "17314#00" --[[Zone-PitofSaronTyrannus]],})
+			Zn(L["Dungeons"], L["Ruby Sanctum"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ruby Sanctum"], "17672#00" --[[RubySanctumWalk]],})
+			Zn(L["Dungeons"], L["Ulduar"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ulduar"], "15840#00" --[[UR_PrisonOfYoggSaronWalk]], "15835#00" --[[UR_KingLlaneWalk]], "15837#00" --[[UR_WyrmrestTempleWalk]], "15841#00" --[[UR_CorridorsOfIngenuityWalk]], "15838#00" --[[UR_UlduarRaidGeneralWalk]], "15839#00" --[[UR_DescentWalk]], "15847#00" --[[UR_SparkOfImaginationWalk]], "15842#00" --[[UR_CelestialHallWalk]], "15843#00" --[[UR_ConservatoryWalk]], "15868#00" --[[UR_RazorscalesAerieWalk]], "15871#00" --[[UR_TheScrapyardWalk]], "15865#00" --[[UR_TheColossalForgeWalk]], "15854#00" --[[UR_BaseCampWalk]], "15901#00" --[[UR_TramHallWalk]],})
+			Zn(L["Dungeons"], L["Utgarde Keep"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Utgarde Keep"], "15062#00" --[[Zone-UtgardeA]], "15066#00" --[[Zone-UtgardeE]], "14871#00" --[[Music_Temp_95]],})
+			Zn(L["Dungeons"], L["Utgarde Pinnacle"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Utgarde Pinnacle"], "15062#00" --[[Zone-UtgardeA]], "14871#00" --[[Music_Temp_95]], "15065#00" --[[Zone-UtgardeD]], "14874#00" --[[Music_Temp_98]],})
+			Zn(L["Dungeons"], L["Vault of Archavon"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Vault of Archavon"], "14942#00" --[[Zone-UldarLightningGeneralWalk]],})
+
+			-- Dungeons: Cataclysm
+			Zn(L["Dungeons"], "|cffffd800", {""})
+			Zn(L["Dungeons"], "|cffffd800" .. L["Cataclysm"], {""})
+			Zn(L["Dungeons"], L["Bastion of Twilight"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Bastion of Twilight"], "23167#00" --[[MUS_BastionOfTwilight]],})
+			Zn(L["Dungeons"], L["Blackrock Caverns"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackrock Caverns"], "23170#00" --[[MUS_BlackrockCaverns]],})
+			Zn(L["Dungeons"], L["Blackwing Descent"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackwing Descent"], "23171#00" --[[MUS_BlackwingDescent]],})
+			Zn(L["Dungeons"], L["End Time"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["End Time"], "15044#00" --[[Zone-NorthrenRiplashDay]], "15045#00" --[[Zone-NorthrenRiplashNight]], "26573#00" --[[MUS_43_EndTime_GeneralWalk]], "26574#00" --[[MUS_43_EndTime_EmeraldWalk]], "26571#00" --[[MUS_43_EndTime_MurozondIntro]],})
+			Zn(L["Dungeons"], L["Halls of Origination"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Halls of Origination"], "23174#00" --[[MUS_HallsOfOriginationInt]],})
+			Zn(L["Dungeons"], L["Hour of Twilight"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Hour of Twilight"], "26604#00" --[[MUS_43_HourOfTwilight_GeneralWalk]], "26610#00" --[[MUS_43_HourOfTwilight_WyrmrestWalk]],})
+			Zn(L["Dungeons"], L["Lost City of the Tol'vir"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Lost City of the Tol'vir"], "23173#00" --[[MUS_LostCityOfTheTolvir]],})
+			Zn(L["Dungeons"], L["Stonecore"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stonecore"], "23166#00" --[[MUS_Stonecore]],})
+			Zn(L["Dungeons"], L["Throne of the Four Winds"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Throne of the Four Winds"], "23175#00" --[[MUS_Skywall]],})
+			Zn(L["Dungeons"], L["Throne of the Tides"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Throne of the Tides"], "23172#00" --[[MUS_ThroneOfTheTides]],})
+			Zn(L["Dungeons"], L["Well of Eternity"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Well of Eternity"], "26581#00" --[[MUS_43_WellOfEternity_AzsharaWalk]], "26582#00" --[[MUS_43_WellOfEternity_IllidanWalk]], "26583#00" --[[MUS_43_WellOfEternity_MannorothWalk]],})
+			Zn(L["Dungeons"], L["Zul'Aman"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Zul'Aman"], "12133#00" --[[Zone-ZulamanWalkingUni]],})
+			Zn(L["Dungeons"], L["Zul'Gurub"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Zul'Gurub"], "2525#00" --[[Zone-Jungle Day]], "2535#00" --[[Zone-Jungle Night]], "24656#00" --[[MUS_ZA_altarofthebloodgod]], "24654#00" --[[MUS_ZA_templeofbethekk]], "24681#00" --[[MUS_ZandalariTroll]], "24652#00" --[[MUS_ZA_mandokirsdomain]], "24653#00" --[[MUS_ZA_thecacheofmadness]], "24655#00" --[[MUS_ZA_thedevilsterrace]],})
+
+			-- Dungeons: Mists of Pandaria
+			Zn(L["Dungeons"], "|cffffd800", {""})
+			Zn(L["Dungeons"], "|cffffd800" .. L["Mists of Pandaria"], {""})
+			Zn(L["Dungeons"], L["Gate of the Setting Sun"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Gate of the Setting Sun"], "33602#00" --[[MUS_50_GSS_Dungeon_GeneralWalk]],})
+			Zn(L["Dungeons"], L["Mogu'shan Palace"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Mogu'shan Palace"], "33195#00" --[[MUS_50_MSP_Dungeon_BossWalk]], "33196#00" --[[MUS_50_MSP_Dungeon_ShaWalk]], "33215#00" --[[MUS_50_MSP_Dungeon_ShrineWalk]],})
+			Zn(L["Dungeons"], L["Mogu'shan Vaults"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Mogu'shan Vaults"], "29209#00" --[[MUS_50_MSV_Raid_MoguShanVaults_GeneralWalk]],})
+			Zn(L["Dungeons"], L["Shado-Pan Monastery"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Shado-Pan Monastery"], "33651#00" --[[MUS_50_SPM_Dungeon_ShadoPan_GeneralWalk]],})
+  			Zn(L["Dungeons"], L["Siege of Niuzao Temple"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Siege of Niuzao Temple"], "33612#00" --[[MUS_50_SoN_Dungeon_HallowedOutTreeWalk]], "33614#00" --[[MUS_50_SoN_Dungeon_NiuzaoExteriorWalk]],})
+			Zn(L["Dungeons"], L["Stormstout Brewery"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stormstout Brewery"], "33756#00" --[[MUS_50_SSB_Dungeon_StormstoutBrewhall_INTRO]], "33757#00" --[[MUS_50_SSB_Dungeon_StormstoutBrewhall_Walk]],})
+			Zn(L["Dungeons"], L["Temple of the Jade Serpent"]	, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Temple of the Jade Serpent"], "31987#00" --[[MUS_50_TJS_Dungeon_FountainoftheEverseeing_Walk]], "31990#00" --[[MUS_50_TJS_Dungeon_ShaofDoubt_Battle]], "31991#00" --[[MUS_50_TJS_Dungeon_ScrollkeepersSanctum_Battle]], "31992#00" --[[MUS_50_TJS_Dungeon_TempleoftheJadeSerpent_GeneralWalk]],})
+			Zn(L["Dungeons"], L["Terrace of Endless Spring"]	, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Terrace of Endless Spring"], "33625#00" --[[MUS_50_TES_Raid_TerraceofEndlessSpring_GeneralWalk]],})
+			Zn(L["Dungeons"], L["Throne of Thunder"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Throne of Thunder"], "36702#00" --[[MUS_52_TKRaid_ThroneOfThunder_Main]], "36920#00" --[[MUS_52_TKRaid_Wing3_FleshShaping_Walk]], "36921#00" --[[MUS_52_TKRaid_Wing1_Troll_Walk]], "36922#00" --[[MUS_52_TKRaid_Wing2_Creatures_Walk]], "36923#00" --[[MUS_52_TKRaid_Wing4_Palace_Walk]], "37010#00" --[[MUS_52_TKRaid_Wing1_Troll_Battle]],})
+
+			-- Dungeons: Warlords of Draenor
+			Zn(L["Dungeons"], "|cffffd800", {""})
+			Zn(L["Dungeons"], "|cffffd800" .. L["Warlords of Draenor"], {""})
+			Zn(L["Dungeons"], L["Blackrock Foundry"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackrock Foundry"], "49225#00" --[[MUS_60_Dungeon_BlackRock_Foundry_General]],})
+			Zn(L["Dungeons"], L["Bloodmaul Slag Mines"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Bloodmaul Slag Mines"], "49192#00" --[[MUS_60_FFR_Ogre_Walk]], "49195#00" --[[MUS_60_FFR_Ogre_Battle]],})
+			Zn(L["Dungeons"], L["Everbloom"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Everbloom"], "49219#00" --[[MUS_60_Dungeon_Everbloom_Stormwind]], "49220#00" --[[MUS_60_Dungeon_Everbloom_PoolsofLife]], "49221#00" --[[MUS_60_Dungeon_Everbloom_Verdant_Grove]], "49222#00" --[[MUS_60_Dungeon_Everbloom_Xeritacs_Burrow]], "49223#00" --[[MUS_60_Dungeon_Everbloom_VioletBluff]],})
+			Zn(L["Dungeons"], L["Hellfire Citadel"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Hellfire Citadel"], "51515#00" --[[MUS_62_Tanaan_HFC_IronHorde_Cathedral_Walk]], "51519#00" --[[MUS_62_Tanaan_HFC_IronHorde_Fel_Walk]], "51573#00" --[[MUS_62_Tanaan_HFC_Boss_Battle]], "51574#00" --[[MUS_62_Tanaan_HFC_Kilrogg_Batlle]], "51520#00" --[[MUS_62_Tanaan_HFC_Fel_Walk]], "51525#00" --[[MUS_62_Tanaan_HFC_Archimonde_Battle]], "51521#00" --[[MUS_62_Tanaan_HFC_Eredar_Walk]], "51522#00" --[[MUS_62_Tanaan_HFC_Iskar_Battle]], "51523#00" --[[MUS_62_Tanaan_HFC_Grommash_Battle]], "51526#00" --[[MUS_62_Tanaan_HFC_Archimonde_TwistingNether_Walk]],})
+			Zn(L["Dungeons"], L["Iron Docks"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Iron Docks"], "49187#00" --[[MUS_60_Dungeon_IronDocks_Walk]], "49188#00" --[[MUS_60_Dungeon_IronDocks_BlackhandsMight]],})
+			Zn(L["Dungeons"], L["Shadowmoon Burial Grounds"]	, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Shadowmoon Burial Grounds"], "49206#00" --[[MUS_60_Dungeon_SMBurialGrounds_Walk]], "49208#00" --[[MUS_60_Dungeon_SMBurialGrounds_CryptsoftheAncients]], "49209#00" --[[MUS_60_Dungeon_SMBurialGrounds_PoolsofReflection]], "49210#00" --[[MUS_60_Dungeon_SMBurialGrounds_AltarofShadow]],})
+			Zn(L["Dungeons"], L["Skyreach"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Skyreach"], "49129#00" --[[MUS_60_Dungeon_Skyreach_General_A]],})
+			Zn(L["Dungeons"], L["Highmaul"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Highmaul"], "49276#00" --[[MUS_60_Dungeon_Highmaul_General]], "49351#00" --[[MUS_60_Dungeon_Highmaul_ImperatorsRise]], "49345#00" --[[MUS_60_Dungeon_Highmaul_PathOfVictors]], "49282#00" --[[MUS_60_Dungeon_Highmaul_TheUnderbelly]],})
+
+			-- Dungeons: Legion
+			Zn(L["Dungeons"], "|cffffd800", {""})
+			Zn(L["Dungeons"], "|cffffd800" .. L["Legion"], {""})
+			Zn(L["Dungeons"], L["Antorus, the Burning Throne"]	, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Antorus, the Burning Throne"], "90609#00" --[[MUS_73_RAID_AntorusGeneralWalk]], "90610#00" --[[MUS_73_RAID_AntorusBattleWalk]], "90611#00" --[[MUS_73_RAID_AntorusElunariaWalk]], "90612#00" --[[MUS_73_RAID_BurningThroneWalk]],})
+			Zn(L["Dungeons"], L["Arcway"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Arcway"], "49192#00" --[[MUS_60_FFR_Ogre_Walk]],})
+			Zn(L["Dungeons"], L["Black Rook Hold"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Black Rook Hold"], "76004#00" --[[MUS_70_BlackRookHold_WalkA]], "76007#00" --[[MUS_70_BlackRookHold_WalkB]], "76009#00" --[[MUS_70_BlackRookHold_WalkC]],})
+			Zn(L["Dungeons"], L["Cathedral of Eternal Night"]	, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Cathedral of Eternal Night"], "85030#00" --[[MUS_72_ToS_Dungeon_GeneralWalk]], "85032#00" --[[MUS_72_ToS_Dungeon_GardenWalk]], "85031#00" --[[MUS_72_ToS_Dungeon_ChapelWalk]], "85033#00" --[[MUS_72_ToS_Dungeon_LegionWalk]], "85169#00" --[[MUS_72_ToS_Dungeon_LibraryWalk]],})
+			Zn(L["Dungeons"], L["Court of Stars"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Court of Stars"], "76837#00" --[[MUS_70_DGN_SuramarCityDungeon_Walk01]], "76838#00" --[[MUS_70_DGN_SuramarCityDungeon_Walk02]],})
+			Zn(L["Dungeons"], L["Darkheart Thicket"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Darkheart Thicket"], "73385#00" --[[MUS_70_Nightmare_Orchestral]], "73392#00" --[[MUS_70_Nightmare_Solo]], "73386#00" --[[MUS_70_Nightmare_Synth]],})
+			Zn(L["Dungeons"], L["Emerald Nightmare"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Emerald Nightmare"], "73385#00" --[[MUS_70_Nightmare_Orchestral]], "73392#00" --[[MUS_70_Nightmare_Solo]], "73386#00" --[[MUS_70_Nightmare_Synth]], "76859#00" --[[MUS_70_Nightmare_TheEmeraldDream_Walk]],})
+			Zn(L["Dungeons"], L["Halls of Valor"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Halls of Valor"], "75676#00" --[[MUS_70_HallsofValor_WalkA]], "75678#00" --[[MUS_70_HallsofValor_WalkB]], "75679#00" --[[MUS_70_HallsofValor_WalkC]],})
+			Zn(L["Dungeons"], L["Maw of Souls"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Maw of Souls"], "75548#00" --[[MUS_70_MawofSouls_WalkA]], "75549#00" --[[MUS_70_MawofSouls_WalkB]], "75551#00" --[[MUS_70_MawofSouls_WalkC]],})
+			Zn(L["Dungeons"], L["Neltharion's Lair"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Neltharion's Lair"], "75947#00" --[[MUS_70_NetharionsLair_WalkA]], "75949#00" --[[MUS_70_NetharionsLair_WalkB]], "75953#00" --[[MUS_70_NetharionsLair_WalkC]], "75954#00" --[[MUS_70_NetharionsLair_WalkD]],})
+			Zn(L["Dungeons"], L["Nighthold"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Nighthold"], "51525#00" --[[MUS_62_Tanaan_HFC_Archimonde_Battle]], "79673#00" --[[MUS_71_TheNightholdIndoorWalk]], "79674#00" --[[MUS_71_TheNightholdOutdoorWalk]], "79675#00" --[[MUS_71_TheNightholdBattleHeavy]], "79676#00" --[[MUS_71_TheNightholdLegionFel]],})
+			Zn(L["Dungeons"], L["Return to Karazhan"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Return to Karazhan"], "79499#00" --[[MUS_71_KarazhanGeneralDefault]],})
+			Zn(L["Dungeons"], L["Seat of the Triumvirate"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Seat of the Triumvirate"], "90572#00" --[[MUS_73_TheSeatoftheTriumvirate_VoidFullWalk]], "90573#00" --[[MUS_73_TheSeatoftheTriumvirate_VoidMediumWalk]],})
+			Zn(L["Dungeons"], L["Tomb of Sargeras"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Tomb of Sargeras"], "85171#00" --[[MUS_72_ToS_Raid_GeneralWalk]], "85887#00" --[[MUS_72_ToS_Raid_LegionWalk]], "85888#00" --[[MUS_72_ToS_Raid_TitanWalk]], "85889#00" --[[MUS_72_ToS_Raid_NightElfWalk]], "86406#00" --[[MUS_72_ToS_Raid_Naga_GeneralWalk]], "86407#00" --[[MUS_72_ToS_Raid_Naga_BossWalk]],})
+			Zn(L["Dungeons"], L["Trial of Valor"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Trial of Valor"], "75676#00" --[[MUS_70_HallsofValor_WalkA]], "75678#00" --[[MUS_70_HallsofValor_WalkB]], "75679#00" --[[MUS_70_HallsofValor_WalkC]], "76491#00" --[[MUS_70_Zone_Stormheim_Mystic_Walk]], "79719#00" --[[MUS_71_TrialOfValor-DarkCoast-Walk]],})
+			Zn(L["Dungeons"], L["Vault of the Wardens"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Vault of the Wardens"], "74778#00" --[[, "MUS_70_VOTW_Walk_A]],})
 
 			-- Various
 			Zn(L["Various"], "|cffffd800" .. L["Various"], {""})
@@ -7191,7 +7309,7 @@
 				conbtn[title]:ClearAllPoints()
 				if title == L["Eastern"] then
 					-- Set first button position
-					conbtn[title]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 145, -90)
+					conbtn[title]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 145, -86)
 				else
 					-- Set subsequent button positions
 					conbtn[title]:SetPoint("TOPLEFT", conbtn[anchor], "BOTTOMLEFT", 0, -00)
@@ -7207,14 +7325,15 @@
 			MakeButtonNow(L["Pandaria"], L["Maelstrom"])
 			MakeButtonNow(L["Draenor"], L["Pandaria"])
 			MakeButtonNow(L["Broken Isles"], L["Draenor"])
-			MakeButtonNow(L["Various"], L["Broken Isles"])
+			MakeButtonNow(L["Dungeons"], L["Broken Isles"])
+			MakeButtonNow(L["Various"], L["Dungeons"])
 			MakeButtonNow(L["Movies"], L["Various"])
 
 			-- Add Music and Video headings and move Movies button
 			LeaPlusLC:MakeWD(LeaPlusLC["Page9"], "|cffE9DA67" .. L["Music"], 146, -70);
-			LeaPlusLC:MakeWD(LeaPlusLC["Page9"], "|cffE9DA67" .. L["Video"], 146, -250);
+			LeaPlusLC:MakeWD(LeaPlusLC["Page9"], "|cffE9DA67" .. L["Video"], 146, -256);
 			conbtn[L["Movies"]]:ClearAllPoints()
-			conbtn[L["Movies"]]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 146, -270)
+			conbtn[L["Movies"]]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 146, -272)
 
 			-- Show button highlight for clicked button
 			for q, w in pairs(ZoneList) do
@@ -7229,6 +7348,7 @@
 						-- Show clicked button highlight
 						conbtn[w].s:Show()
 						LeaPlusDB["MusicContinent"] = w
+						scrollFrame:SetVerticalScroll(0)
 					end)
 				end
 			end
@@ -7244,7 +7364,7 @@
 			-- Add stop button
 			local stopBtn = LeaPlusLC:CreateButton("StopMusicBtn", LeaPlusLC["Page9"], "Stop", "TOPRIGHT", -32, -31, 0, 25, true, "")
 			stopBtn:ClearAllPoints()
-			stopBtn:SetPoint("TOPLEFT", conbtn[L["Various"]], "BOTTOMLEFT", 0, -60)
+			stopBtn:SetPoint("TOPLEFT", conbtn[L["Various"]], "BOTTOMLEFT", 0, -50)
 			stopBtn:Hide(); stopBtn:Show()
 			LeaPlusLC:LockItem(stopBtn, true)
 			stopBtn:SetScript("OnClick", function()

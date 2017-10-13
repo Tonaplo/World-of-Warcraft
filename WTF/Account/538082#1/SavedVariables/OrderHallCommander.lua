@@ -13,16 +13,16 @@ dbOHC = {
 		["Mallusof - Tichondrius"] = {
 			["firstun"] = false,
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Granjior - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Morifa - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Miriyal - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Greybone - Proudmoore"] = {
@@ -34,23 +34,9 @@ dbOHC = {
 		["Faerand - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Praerend - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 			["firstun"] = false,
 		},
-	},
-	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
 	},
 	["global"] = {
 		["warn01_seen"] = 0,
@@ -59,6 +45,20 @@ dbOHC = {
 			[10300] = true,
 		},
 		["warn02_seen"] = 0,
+	},
+	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -78,20 +78,20 @@ dbOHC = {
 				["MINCHANCE"] = 5,
 				["NOWARN"] = false,
 				["PREFERHIGH"] = false,
-				["IGNORELOW"] = false,
+				["MAKEITVERYQUICK"] = false,
 				["MAKEITQUICK"] = true,
 				["SPARE"] = false,
-				["MAKEITVERYQUICK"] = false,
+				["IGNORELOW"] = false,
 				["IGNOREBUSY"] = false,
 				["BASECHANCE"] = 5,
 			},
+			["showmenu"] = true,
 			["blacklist"] = {
 				[1632] = false,
 				[1384] = false,
-				[1656] = true,
 				[1602] = false,
+				[1656] = true,
 			},
-			["showmenu"] = false,
 		},
 	},
 }

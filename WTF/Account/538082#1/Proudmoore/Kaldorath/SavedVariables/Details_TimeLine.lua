@@ -1,13 +1,31 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Lasagna-Sentinels"] = {
+				{
+					30.6410000000033, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					31821, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Miiaggii-Stormrage"] = {
+				{
+					24.9060000000172, -- [1]
+					"Miiaggii-Stormrage", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -18,6 +36,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Lasagna-Sentinels"] = {
@@ -32,6 +51,14 @@ DetailsTimeLineDB = {
 				[200182] = {
 					31.0239999999758, -- [1]
 					38.9959999999846, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+			},
+			["Farsquan-Frostmourne"] = {
+				[200238] = {
+					40.6529999999912, -- [1]
+					44.1579999999958, -- [2]
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
@@ -52,14 +79,6 @@ DetailsTimeLineDB = {
 				[200329] = {
 					31.4500000000116, -- [1]
 					36.2440000000061, -- [2]
-					["source"] = "Shade of Xavius",
-					["active"] = false,
-				},
-			},
-			["Farsquan-Frostmourne"] = {
-				[200238] = {
-					40.6529999999912, -- [1]
-					44.1579999999958, -- [2]
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
@@ -132,53 +151,34 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
-		{
-			["Lasagna-Sentinels"] = {
-				{
-					30.6410000000033, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					31821, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Miiaggii-Stormrage"] = {
-				{
-					24.9060000000172, -- [1]
-					"Miiaggii-Stormrage", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["combat_data"] = {
 		{
-			["date_start"] = "23:44:06",
 			["date_end"] = "23:44:52",
+			["date_start"] = "23:44:06",
 			["name"] = "Shade of Xavius",
 			["total_time"] = 46.0169999999926,
 		}, -- [1]
 		{
-			["date_start"] = "23:41:44",
 			["date_end"] = "23:42:23",
+			["date_start"] = "23:41:44",
 			["name"] = "Dresaron",
 			["total_time"] = 39.0030000000261,
 		}, -- [2]
 		{
-			["date_start"] = "23:41:29",
 			["date_end"] = "23:41:37",
+			["date_start"] = "23:41:29",
 			["name"] = "Dresaron",
 			["total_time"] = 8.03700000001118,
 		}, -- [3]
 		{
-			["date_start"] = "23:41:08",
 			["date_end"] = "23:41:28",
+			["date_start"] = "23:41:08",
 			["name"] = "Dresaron",
 			["total_time"] = 20.0210000000079,
 		}, -- [4]

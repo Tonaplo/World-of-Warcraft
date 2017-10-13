@@ -39,10 +39,18 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["Equipment"] = {
-			["profiles"] = {
-				["Default"] = {
-					["dispatchRule"] = "slot",
+		["MoneyFrame"] = {
+		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
 				},
 			},
 		},
@@ -63,12 +71,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Ironpaw Token"] = false,
-						["Champion's Seal"] = false,
-						["Artifact Fragment"] = false,
-						["Oil"] = false,
-						["Lingering Soul Fragment"] = false,
 						["Timewarped Badge"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Oil"] = false,
+						["Artifact Fragment"] = false,
+						["Champion's Seal"] = false,
+						["Ironpaw Token"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -76,22 +84,14 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["DataSource"] = {
-		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
@@ -99,14 +99,14 @@ AdiBagsDB = {
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
