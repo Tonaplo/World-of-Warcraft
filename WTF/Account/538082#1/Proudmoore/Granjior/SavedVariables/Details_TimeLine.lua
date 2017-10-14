@@ -1,7 +1,43 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "07:26:54",
+			["date_start"] = "07:26:10",
+			["name"] = "Mephistroth",
+			["total_time"] = 44.1659999999974,
+		}, -- [1]
+		{
+			["date_end"] = "07:25:31",
+			["date_start"] = "07:24:59",
+			["name"] = "Domatrax",
+			["total_time"] = 32.0249999999942,
+		}, -- [2]
+		{
+			["date_end"] = "07:22:37",
+			["date_start"] = "07:22:11",
+			["name"] = "Thrashbite the Scornful",
+			["total_time"] = 26.002999999997,
+		}, -- [3]
+		{
+			["date_end"] = "07:21:17",
+			["date_start"] = "07:19:22",
+			["name"] = "Agronox",
+			["total_time"] = 115.138999999996,
+		}, -- [4]
+	},
 	["cooldowns_timeline"] = {
 		{
 			["Granjior"] = {
@@ -38,17 +74,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Chicanerous-Garrosh"] = {
@@ -150,6 +175,12 @@ DetailsTimeLineDB = {
 					["source"] = "Fulminating Lasher",
 					["active"] = false,
 				},
+				[238598] = {
+					25.6820000000007, -- [1]
+					34.4139999999898, -- [2]
+					["source"] = "[*] Choking Vines",
+					["active"] = false,
+				},
 				[238688] = {
 					24.2539999999863, -- [1]
 					25.2309999999998, -- [2]
@@ -158,12 +189,6 @@ DetailsTimeLineDB = {
 					46.7669999999926, -- [5]
 					54.8159999999916, -- [6]
 					["source"] = "Stranglevine Lasher",
-					["active"] = false,
-				},
-				[238598] = {
-					25.6820000000007, -- [1]
-					34.4139999999898, -- [2]
-					["source"] = "[*] Choking Vines",
 					["active"] = false,
 				},
 				[236524] = {
@@ -263,36 +288,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "07:26:54",
-			["date_start"] = "07:26:10",
-			["name"] = "Mephistroth",
-			["total_time"] = 44.1659999999974,
-		}, -- [1]
-		{
-			["date_end"] = "07:25:31",
-			["date_start"] = "07:24:59",
-			["name"] = "Domatrax",
-			["total_time"] = 32.0249999999942,
-		}, -- [2]
-		{
-			["date_end"] = "07:22:37",
-			["date_start"] = "07:22:11",
-			["name"] = "Thrashbite the Scornful",
-			["total_time"] = 26.002999999997,
-		}, -- [3]
-		{
-			["date_end"] = "07:21:17",
-			["date_start"] = "07:19:22",
-			["name"] = "Agronox",
-			["total_time"] = 115.138999999996,
-		}, -- [4]
 	},
 }

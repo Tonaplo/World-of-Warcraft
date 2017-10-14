@@ -1,22 +1,22 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -25,11 +25,11 @@ DataStore_AgendaDB = {
 			["NextWeeklyReset"] = "2017-10-17",
 		},
 		["Characters"] = {
-			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1507887715,
-			},
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1507886146,
+				["lastUpdate"] = 1507969963,
+			},
+			["Default.Proudmoore.Amranar"] = {
+				["lastUpdate"] = 1507978604,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -37,41 +37,41 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1507722118,
 			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1507899585,
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1493618456,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1507888308,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1507969806,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1507900064,
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1507886993,
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1507885906,
+				["lastUpdate"] = 1507970077,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1493618480,
 			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1507932961,
-			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1507936833,
+				["lastUpdate"] = 1507969879,
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1507969844,
+			},
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1507990260,
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1507970713,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1507886377,
+				["lastUpdate"] = 1507992563,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1507929943,
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1507995000,
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1493618456,
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1507970329,
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["lastUpdate"] = 1493618514,
