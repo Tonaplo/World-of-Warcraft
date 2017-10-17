@@ -88,8 +88,10 @@ dbOHC = {
 			["blacklist"] = {
 				[1632] = false,
 				[1384] = false,
-				[1656] = true,
 				[1602] = false,
+				[1305] = true,
+				[1505] = true,
+				[1656] = true,
 			},
 			["showmenu"] = true,
 		},

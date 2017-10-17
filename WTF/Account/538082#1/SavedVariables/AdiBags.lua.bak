@@ -41,17 +41,6 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -83,6 +72,17 @@ AdiBagsDB = {
 			},
 		},
 		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
 		},
 		["Junk"] = {
 		},

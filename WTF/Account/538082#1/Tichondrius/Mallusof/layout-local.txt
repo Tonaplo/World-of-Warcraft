@@ -41,13 +41,6 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: AltoholicFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 241
-Y: 157
-W: 832
-H: 447
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT
@@ -55,3 +48,10 @@ X: 84
 Y: -135
 W: 370
 H: 110
+Frame: AltoholicFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 241
+Y: 157
+W: 832
+H: 447

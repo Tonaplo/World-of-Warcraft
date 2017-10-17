@@ -115,7 +115,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 6186143710,
+							["Mallusof"] = 6231373952,
 						},
 					},
 				},
@@ -129,18 +129,18 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 168027042,
-							["Farahn"] = 70586295,
-							["Greybone"] = 70909683,
-							["Amranar"] = 525635686,
-							["Granjior"] = 498488385,
-							["Kaldorath"] = 300068024,
-							["Faerand"] = 131554301,
+							["Miriyal"] = 171975988,
+							["Farahn"] = 75326509,
+							["Greybone"] = 73293575,
+							["Amranar"] = 536342754,
+							["Granjior"] = 510084130,
+							["Kaldorath"] = 313164095,
+							["Faerand"] = 138195981,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 577295579,
-							["Morifa"] = 512031234,
-							["Fimwack"] = 316783338,
-							["Praerend"] = 784674274,
+							["Rahran"] = 581500233,
+							["Morifa"] = 535721151,
+							["Fimwack"] = 318506966,
+							["Praerend"] = 786297380,
 						},
 					},
 				},
@@ -158,21 +158,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -200,13 +193,28 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
 			["profiles"] = {
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -711,14 +719,6 @@ LUIDB = {
 						},
 					},
 				},
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 			},
 		},
 		["Threat"] = {
@@ -797,72 +797,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g GZ!", -- [1]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [2]
-							"/g Oh shit! That thing must be rare then", -- [3]
-							"/2 they worked with the guys that made the original in order to make this though", -- [4]
-							"/g GZ!", -- [5]
-							"/g Oh shit! That thing must be rare then", -- [6]
-							"/g GZ!", -- [7]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [8]
-							"/g GZ!", -- [9]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [10]
-							"/g Oh shit! That thing must be rare then", -- [11]
-							"/g GZ!", -- [12]
-							"/2 they worked with the guys that made the original in order to make this though", -- [13]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [14]
-							"/g GZ!", -- [15]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [16]
-							"/g Oh shit! That thing must be rare then", -- [17]
-							"/2 they worked with the guys that made the original in order to make this though", -- [18]
-							"/g GZ!", -- [19]
-							"/g Oh shit! That thing must be rare then", -- [20]
-							"/g GZ!", -- [21]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [22]
-							"/g Oh shit! That thing must be rare then", -- [23]
-							"/2 they worked with the guys that made the original in order to make this though", -- [24]
-							"/g GZ!", -- [25]
-							"/g Oh shit! That thing must be rare then", -- [26]
-							"/g GZ!", -- [27]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [28]
-							"/2 they worked with the guys that made the original in order to make this though", -- [29]
-							"/g Oh shit! That thing must be rare then", -- [30]
-							"/2 I've logged onto 5 different characters while noil has been speaking. I've had to mute him on every char. Does anyone know if there's an account wide mute?", -- [31]
-							"/g Oh shit! That thing must be rare then", -- [32]
+							"/g Visa changed status to Issued today!", -- [1]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [2]
+							"/g Thanks bud :)", -- [3]
+							"/g Visa changed status to Issued today!", -- [4]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [5]
+							"/g Visa changed status to Issued today!", -- [6]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [7]
+							"/g Visa changed status to Issued today!", -- [8]
+							"/g Thanks bud :)", -- [9]
+							"/g Visa changed status to Issued today!", -- [10]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [11]
+							"/g Visa changed status to Issued today!", -- [12]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [13]
+							"/g Thanks bud :)", -- [14]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [15]
+							"/g Visa changed status to Issued today!", -- [16]
+							"/cw Kaeldalar-Dalaran Need that belt?", -- [17]
+							"/g Thanks bud :)", -- [18]
+							"/g Visa changed status to Issued today!", -- [19]
+							"/g Thanks bud :)", -- [20]
+							"/i this way", -- [21]
+							"/i Yup, she has it", -- [22]
+							"/i First time?", -- [23]
+							"/i tuth", -- [24]
+							"/cw Omegå-Nagrand iT'S AN ILEVEL UPGRADE, SO CANT BE TRADED", -- [25]
+							"/cw Omegå-Nagrand caps", -- [26]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [27]
+							"/i |cffa335ee|Hitem:147032::::::::110:102::4:3:3564:1467:3528:::|h[Gloves of Wayward Compulsions]|h|r anyone?", -- [28]
+							"/cw Shiftid-Alexstrasza Not you though", -- [29]
+							"/cw Shiftid-Alexstrasza you /laughed at me", -- [30]
+							"/cw Ópio-Nemesis Going to you", -- [31]
+							"/cw Ópio-Nemesis ´(y) :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [1]
-							"/g only 1.4 k MS", -- [2]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [3]
-							"/g only 1.4 k MS", -- [4]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [5]
-							"/g only 1.4 k MS", -- [6]
-							"/g always have been", -- [7]
-							"/g that thing is sweet", -- [8]
-							"/g gz", -- [9]
-							" it was a great trip", -- [10]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [11]
+							"/g Holy shit", -- [1]
+							"/g where is that from?", -- [2]
+							"/g Cache?", -- [3]
+							"/g It's no fun playing here", -- [4]
+							"/g gz", -- [5]
+							"/p :)", -- [6]
+							" Hey budy", -- [7]
+							"/g only 1.4 k MS", -- [8]
+							"/p :)", -- [9]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [10]
+							" Alright then", -- [11]
 							"/g only 1.4 k MS", -- [12]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [13]
-							" it was a great trip", -- [14]
-							"/g only 1.4 k MS", -- [15]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [16]
-							"/g only 1.4 k MS", -- [17]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [18]
-							"/g only 1.4 k MS", -- [19]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [20]
+							"/p :)", -- [13]
+							" Alright then", -- [14]
+							"/p :)", -- [15]
+							"/raid Am heals now", -- [16]
+							"/cw Amoreyn-Shadowmoon I didnt notice the whisper, sorry", -- [17]
+							"/g where is that from?", -- [18]
+							"/g It's no fun playing here", -- [19]
+							"/p :)", -- [20]
 							"/g only 1.4 k MS", -- [21]
-							"/g always have been", -- [22]
-							"/g gz", -- [23]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [24]
-							" it was a great trip", -- [25]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [26]
-							"/g only 1.4 k MS", -- [27]
-							"/g always have been", -- [28]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [29]
-							"/g only 1.4 k MS", -- [30]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [22]
+							"/g only 1.4 k MS", -- [23]
+							" Alright then", -- [24]
+							"/raid Am heals now", -- [25]
+							"/g where is that from?", -- [26]
+							"/p :)", -- [27]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [28]
+							" Alright then", -- [29]
+							"/g where is that from?", -- [30]
 							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [31]
-							"/p :)", -- [32]
+							"/g where is that from?", -- [32]
 						},
 					},
 				},
@@ -947,21 +947,21 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Minimap"] = {
-						["IsShown"] = true,
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 400,
 						["Anchor"] = "GridLayoutFrame",
 						["Height"] = 200,
-					},
-					["Tps"] = {
-						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1093,7 +1093,13 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1105,23 +1111,17 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1255,13 +1255,7 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1273,13 +1267,19 @@ LUIDB = {
 						0.16, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1418,13 +1418,7 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1436,13 +1430,19 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1581,7 +1581,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1593,19 +1599,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1745,7 +1745,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1757,23 +1763,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1908,13 +1908,7 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1926,17 +1920,23 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -2306,22 +2306,22 @@ LUIDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Base",
+		["Kaldorath - Proudmoore"] = "Base",
 		["Praerend - Proudmoore"] = "Base",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Rahran - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Base",
 		["Farahn - Proudmoore"] = "Base",
-		["Morifa - Proudmoore"] = "Base",
+		["Fimwack - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
-		["Miriyal - Proudmoore"] = "Base",
+		["Morifa - Proudmoore"] = "Base",
 		["Greybone - Proudmoore"] = "Base",
-		["Fimwack - Proudmoore"] = "Base",
+		["Miriyal - Proudmoore"] = "Base",
 		["Faerand - Proudmoore"] = "Base",
-		["Kaldorath - Proudmoore"] = "Base",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -2369,11 +2369,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -2454,9 +2454,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2473,9 +2473,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2574,9 +2574,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2593,9 +2593,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2613,11 +2613,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 		},

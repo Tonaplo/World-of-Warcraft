@@ -90,6 +90,8 @@ dbOHC = {
 				[1632] = false,
 				[1384] = false,
 				[1602] = false,
+				[1305] = true,
+				[1505] = true,
 				[1656] = true,
 			},
 		},

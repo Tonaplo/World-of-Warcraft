@@ -1,4 +1,11 @@
 Version: 1
+Frame: StreamerOverlayDpsHpsFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 418
+Y: -70
+W: 70
+H: 20
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMLEFT
@@ -20,13 +27,6 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: StreamerOverlayDpsHpsFrame
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 419
-Y: -32
-W: 70
-H: 20
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER

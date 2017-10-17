@@ -739,9 +739,9 @@ Bartender4DB = {
 								["ID"] = "Darion",
 								["Gloss"] = 0.3,
 							},
+							["version"] = 3,
 							["hidehotkey"] = true,
 							["fadeoutalpha"] = 0,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 100.299996328354,
 								["x"] = -35.6999977588653,
@@ -784,25 +784,25 @@ Bartender4DB = {
 										0.0117647058823529, -- [3]
 										0, -- [4]
 									},
-									["Border"] = {
-										0.407843137254902, -- [1]
-										0.403921568627451, -- [2]
-										0.411764705882353, -- [3]
-										1, -- [4]
-									},
 									["Backdrop"] = {
 										0.109803921568628, -- [1]
 										0.109803921568628, -- [2]
 										0.109803921568628, -- [3]
 										1, -- [4]
 									},
+									["Border"] = {
+										0.407843137254902, -- [1]
+										0.403921568627451, -- [2]
+										0.411764705882353, -- [3]
+										1, -- [4]
+									},
 								},
 								["ID"] = "Darion",
 								["Gloss"] = 0.3,
 							},
+							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["hidehotkey"] = true,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 0,
 								["x"] = 0,
@@ -898,7 +898,7 @@ Bartender4DB = {
 							["hidehotkey"] = true,
 						}, -- [1]
 						{
-							["hidehotkey"] = true,
+							["fadeoutdelay"] = 0,
 							["skin"] = {
 								["Gloss"] = 0.3,
 								["Colors"] = {
@@ -959,7 +959,7 @@ Bartender4DB = {
 								},
 								["ID"] = "Darion",
 							},
-							["fadeoutalpha"] = 0,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 94,
 								["x"] = -197,
@@ -972,12 +972,12 @@ Bartender4DB = {
 								["possess"] = false,
 								["always"] = false,
 							},
-							["fadeoutdelay"] = 0,
+							["fadeoutalpha"] = 0,
 						}, -- [2]
 						{
 							["enabled"] = false,
 							["show"] = "alwayshide",
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["skin"] = {
 								["Gloss"] = 0.3,
 								["Colors"] = {
@@ -1044,7 +1044,7 @@ Bartender4DB = {
 								["possess"] = false,
 								["vehicleui"] = false,
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 						}, -- [3]
 						{
 							["show"] = "alwayshide",
@@ -1417,9 +1417,9 @@ Bartender4DB = {
 						{
 							["enabled"] = true,
 							["rows"] = 6,
-							["hidehotkey"] = true,
 							["fadeoutdelay"] = 0,
-							["version"] = 3,
+							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0,
 							["skin"] = {
 								["Gloss"] = 0.3,
 								["Colors"] = {
@@ -1492,13 +1492,13 @@ Bartender4DB = {
 								["possess"] = false,
 								["vehicleui"] = false,
 							},
-							["fadeoutalpha"] = 0,
+							["version"] = 3,
 						}, -- [9]
 						{
 							["enabled"] = true,
 							["rows"] = 6,
 							["alpha"] = 0,
-							["fadeoutalpha"] = 0,
+							["fadeoutdelay"] = 0,
 							["skin"] = {
 								["ID"] = "Darion",
 								["Colors"] = {
@@ -1526,22 +1526,22 @@ Bartender4DB = {
 										0.403921568627451, -- [3]
 										1, -- [4]
 									},
-									["Border"] = {
-										0.407843137254902, -- [1]
-										0.403921568627451, -- [2]
-										0.411764705882353, -- [3]
-										1, -- [4]
-									},
 									["Backdrop"] = {
 										0.109803921568628, -- [1]
 										0.109803921568628, -- [2]
 										0.109803921568628, -- [3]
 										1, -- [4]
 									},
+									["Border"] = {
+										0.407843137254902, -- [1]
+										0.403921568627451, -- [2]
+										0.411764705882353, -- [3]
+										1, -- [4]
+									},
 								},
 								["Gloss"] = 0.3,
 							},
-							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 65.2000631850609,
 								["x"] = -103.025039458551,
@@ -1557,7 +1557,7 @@ Bartender4DB = {
 								["possess"] = false,
 								["vehicleui"] = false,
 							},
-							["fadeoutdelay"] = 0,
+							["hidehotkey"] = true,
 						}, -- [10]
 					},
 				},
@@ -1807,14 +1807,14 @@ Bartender4DB = {
 						["Gloss"] = 0.3,
 						["ID"] = "Darion",
 					},
-					["fadeoutalpha"] = 1,
+					["fadeoutdelay"] = 1,
 					["position"] = {
 						["y"] = -16.5000041118852,
 						["x"] = -82.4999058483729,
 						["point"] = "CENTER",
 						["scale"] = 1,
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 1,
 					["padding"] = 1,
 					["visibility"] = {
 						["always"] = true,
@@ -1823,16 +1823,9 @@ Bartender4DB = {
 							false, -- [1]
 						},
 					},
-					["fadeoutdelay"] = 1,
+					["version"] = 3,
 				},
 				["Gottagetlia"] = {
-					["position"] = {
-						["y"] = -16.5000041118852,
-						["x"] = -82.4999058483729,
-						["point"] = "CENTER",
-						["scale"] = 1,
-					},
-					["fadeoutalpha"] = 1,
 					["skin"] = {
 						["ID"] = "Darion",
 						["Colors"] = {
@@ -1893,6 +1886,13 @@ Bartender4DB = {
 						},
 						["Gloss"] = 0.3,
 					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = -16.5000041118852,
+						["x"] = -82.4999058483729,
+						["point"] = "CENTER",
+						["scale"] = 1,
+					},
 					["fadeoutdelay"] = 1,
 					["padding"] = 1,
 					["visibility"] = {
@@ -1902,7 +1902,7 @@ Bartender4DB = {
 							false, -- [1]
 						},
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 1,
 				},
 			},
 		},
@@ -1943,16 +1943,16 @@ Bartender4DB = {
 								0.980392156862745, -- [3]
 								1, -- [4]
 							},
-							["Border"] = {
-								0.0823529411764706, -- [1]
-								1, -- [2]
-								0.0431372549019608, -- [3]
-								1, -- [4]
-							},
 							["Backdrop"] = {
 								0.980392156862745, -- [1]
 								1, -- [2]
 								0.968627450980392, -- [3]
+								1, -- [4]
+							},
+							["Border"] = {
+								0.0823529411764706, -- [1]
+								1, -- [2]
+								0.0431372549019608, -- [3]
 								1, -- [4]
 							},
 							["Checked"] = {
@@ -2004,16 +2004,16 @@ Bartender4DB = {
 								0.980392156862745, -- [3]
 								1, -- [4]
 							},
-							["Border"] = {
-								0.0823529411764706, -- [1]
-								1, -- [2]
-								0.0431372549019608, -- [3]
-								1, -- [4]
-							},
 							["Backdrop"] = {
 								0.980392156862745, -- [1]
 								1, -- [2]
 								0.968627450980392, -- [3]
+								1, -- [4]
+							},
+							["Border"] = {
+								0.0823529411764706, -- [1]
+								1, -- [2]
+								0.0431372549019608, -- [3]
 								1, -- [4]
 							},
 							["Checked"] = {
@@ -2099,38 +2099,25 @@ Bartender4DB = {
 						["Gloss"] = 0.3,
 						["ID"] = "Darion",
 					},
-					["fadeoutdelay"] = 1,
+					["fadeoutalpha"] = 1,
 					["position"] = {
 						["y"] = -184.129233809593,
 						["x"] = 432.482298123483,
 						["point"] = "LEFT",
 						["scale"] = 0.9,
 					},
-					["version"] = 3,
+					["fadeoutdelay"] = 1,
 					["padding"] = 0,
 					["visibility"] = {
 						["nopet"] = false,
 						["always"] = false,
 						["possess"] = false,
 					},
-					["fadeoutalpha"] = 1,
+					["version"] = 3,
 				},
 				["Gottagetlia"] = {
-					["fadeoutalpha"] = 1,
 					["version"] = 3,
-					["position"] = {
-						["y"] = -184.129233809593,
-						["x"] = 432.482298123483,
-						["point"] = "LEFT",
-						["scale"] = 0.9,
-					},
-					["fadeoutdelay"] = 1,
-					["padding"] = 0,
-					["visibility"] = {
-						["nopet"] = false,
-						["possess"] = false,
-						["always"] = false,
-					},
+					["fadeoutalpha"] = 1,
 					["skin"] = {
 						["ID"] = "Darion",
 						["Colors"] = {
@@ -2185,6 +2172,19 @@ Bartender4DB = {
 						},
 						["Gloss"] = 0.3,
 					},
+					["fadeoutdelay"] = 1,
+					["padding"] = 0,
+					["visibility"] = {
+						["nopet"] = false,
+						["possess"] = false,
+						["always"] = false,
+					},
+					["position"] = {
+						["y"] = -184.129233809593,
+						["x"] = 432.482298123483,
+						["point"] = "LEFT",
+						["scale"] = 0.9,
+					},
 				},
 			},
 		},
@@ -2200,18 +2200,7 @@ Bartender4DB = {
 				},
 				["BaseLUI"] = {
 					["rows"] = 2,
-					["fadeoutalpha"] = 0,
-					["position"] = {
-						["y"] = 295,
-						["x"] = -195,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 0.899999976158142,
-					},
 					["version"] = 3,
-					["hidemacrotext"] = true,
-					["visibility"] = {
-						["always"] = false,
-					},
 					["skin"] = {
 						["Colors"] = {
 							["Normal"] = {
@@ -2272,80 +2261,91 @@ Bartender4DB = {
 						["Gloss"] = 0.3,
 						["ID"] = "Darion",
 					},
-				},
-				["Gottagetlia"] = {
-					["version"] = 3,
 					["fadeoutalpha"] = 0,
+					["hidemacrotext"] = true,
+					["visibility"] = {
+						["always"] = false,
+					},
 					["position"] = {
 						["y"] = 295,
 						["x"] = -195,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 0.899999976158142,
+					},
+				},
+				["Gottagetlia"] = {
+					["fadeoutalpha"] = 0,
+					["version"] = 3,
+					["skin"] = {
+						["Gloss"] = 0.3,
+						["Colors"] = {
+							["Normal"] = {
+								0.133333333333333, -- [1]
+								0.133333333333333, -- [2]
+								0.133333333333333, -- [3]
+								0.950000002980232, -- [4]
+							},
+							["Pushed"] = {
+								0.32156862745098, -- [1]
+								0.32156862745098, -- [2]
+								0.32156862745098, -- [3]
+								1, -- [4]
+							},
+							["Highlight"] = {
+								0.450980392156863, -- [1]
+								0.450980392156863, -- [2]
+								0.450980392156863, -- [3]
+								1, -- [4]
+							},
+							["Gloss"] = {
+								1, -- [1]
+								1, -- [2]
+								1, -- [3]
+								1, -- [4]
+							},
+							["Backdrop"] = {
+								0.109803921568628, -- [1]
+								0.109803921568628, -- [2]
+								0.109803921568628, -- [3]
+								1, -- [4]
+							},
+							["Flash"] = {
+								1, -- [1]
+								0, -- [2]
+								0, -- [3]
+								1, -- [4]
+							},
+							["Border"] = {
+								0.407843137254902, -- [1]
+								0.403921568627451, -- [2]
+								0.411764705882353, -- [3]
+								1, -- [4]
+							},
+							["Checked"] = {
+								0.6, -- [1]
+								0.6, -- [2]
+								0.6, -- [3]
+								1, -- [4]
+							},
+							["Disabled"] = {
+								0.988235294117647, -- [1]
+								1, -- [2]
+								0.949019607843137, -- [3]
+								1, -- [4]
+							},
+						},
+						["ID"] = "Darion",
 					},
 					["rows"] = 2,
 					["hidemacrotext"] = true,
 					["visibility"] = {
 						["always"] = false,
 					},
-					["skin"] = {
-						["Gloss"] = 0.3,
-						["Colors"] = {
-							["Normal"] = {
-								0.133333333333333, -- [1]
-								0.133333333333333, -- [2]
-								0.133333333333333, -- [3]
-								0.950000002980232, -- [4]
-							},
-							["Pushed"] = {
-								0.32156862745098, -- [1]
-								0.32156862745098, -- [2]
-								0.32156862745098, -- [3]
-								1, -- [4]
-							},
-							["Highlight"] = {
-								0.450980392156863, -- [1]
-								0.450980392156863, -- [2]
-								0.450980392156863, -- [3]
-								1, -- [4]
-							},
-							["Gloss"] = {
-								1, -- [1]
-								1, -- [2]
-								1, -- [3]
-								1, -- [4]
-							},
-							["Backdrop"] = {
-								0.109803921568628, -- [1]
-								0.109803921568628, -- [2]
-								0.109803921568628, -- [3]
-								1, -- [4]
-							},
-							["Flash"] = {
-								1, -- [1]
-								0, -- [2]
-								0, -- [3]
-								1, -- [4]
-							},
-							["Border"] = {
-								0.407843137254902, -- [1]
-								0.403921568627451, -- [2]
-								0.411764705882353, -- [3]
-								1, -- [4]
-							},
-							["Checked"] = {
-								0.6, -- [1]
-								0.6, -- [2]
-								0.6, -- [3]
-								1, -- [4]
-							},
-							["Disabled"] = {
-								0.988235294117647, -- [1]
-								1, -- [2]
-								0.949019607843137, -- [3]
-								1, -- [4]
-							},
-						},
-						["ID"] = "Darion",
+					["position"] = {
+						["y"] = 295,
+						["x"] = -195,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 0.899999976158142,
 					},
 				},
 			},

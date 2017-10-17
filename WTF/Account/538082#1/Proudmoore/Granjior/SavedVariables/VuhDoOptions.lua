@@ -590,4 +590,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Sundering Bite"] = 132363,
 	["Frozen Blood"] = 636332,
 }
-VUHDO_GI_SCAN_IDX = 164401
+VUHDO_GI_SCAN_IDX = 156801

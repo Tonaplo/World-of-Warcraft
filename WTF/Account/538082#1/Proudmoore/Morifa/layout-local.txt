@@ -1,4 +1,11 @@
 Version: 1
+Frame: StreamerOverlayDpsHpsFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 418
+Y: -70
+W: 70
+H: 20
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

@@ -1,5 +1,13 @@
 
 DetailsTimeLineDB = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["max_segments"] = 4,
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 			["Illthidor-Frostmourne"] = {
@@ -1116,39 +1124,6 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_end"] = "07:18:34",
-			["date_start"] = "07:16:47",
-			["name"] = "Maiden of Vigilance",
-			["total_time"] = 106.552999999985,
-		}, -- [1]
-		{
-			["date_end"] = "07:06:19",
-			["date_start"] = "07:03:52",
-			["name"] = "Maiden of Vigilance",
-			["total_time"] = 146.565000000002,
-		}, -- [2]
-		{
-			["date_end"] = "16:28:17",
-			["date_start"] = "16:26:19",
-			["name"] = "Protectors of the Endless",
-			["total_time"] = 118.286,
-		}, -- [3]
-		{
-			["date_end"] = "15:34:44",
-			["date_start"] = "15:33:18",
-			["name"] = "L'ura",
-			["total_time"] = 86.2399999999907,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
 	["debuff_timeline"] = {
 		{
 			["Daltoreo-Blackrock"] = {
@@ -2167,5 +2142,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_end"] = "07:18:34",
+			["date_start"] = "07:16:47",
+			["name"] = "Maiden of Vigilance",
+			["total_time"] = 106.552999999985,
+		}, -- [1]
+		{
+			["date_end"] = "07:06:19",
+			["date_start"] = "07:03:52",
+			["name"] = "Maiden of Vigilance",
+			["total_time"] = 146.565000000002,
+		}, -- [2]
+		{
+			["date_end"] = "16:28:17",
+			["date_start"] = "16:26:19",
+			["name"] = "Protectors of the Endless",
+			["total_time"] = 118.286,
+		}, -- [3]
+		{
+			["date_end"] = "15:34:44",
+			["date_start"] = "15:33:18",
+			["name"] = "L'ura",
+			["total_time"] = 86.2399999999907,
+		}, -- [4]
+	},
 }

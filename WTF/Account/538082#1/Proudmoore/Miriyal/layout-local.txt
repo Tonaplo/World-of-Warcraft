@@ -13,13 +13,6 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -210
-Y: 71
-W: 75
-H: 75
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,6 +20,13 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -210
+Y: 71
+W: 75
+H: 75
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT
