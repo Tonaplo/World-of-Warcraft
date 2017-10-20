@@ -79,17 +79,17 @@ DataStoreDB = {
 				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["guildName"] = "Mechanics",
+			["Default.Proudmoore.Rahran"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Rahran"] = {
+			["Default.Proudmoore.Faerand"] = {
+				["guildName"] = "Mechanics",
 				["faction"] = "Alliance",
-				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["faction"] = "Alliance",

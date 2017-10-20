@@ -383,14 +383,13 @@ DeathGraphsDBDeaths = {
 		["id"] = 1751,
 		["diff"] = 15,
 		["player_db"] = {
-			["Zoephos-Tichondrius"] = {
+			["Meowfurryoff-Tichondrius"] = {
 				["overall"] = {
-					[212648] = 183599,
-					[213624] = 1453672,
+					[213520] = 612383,
 				},
 				["deaths"] = {
 				},
-				["name"] = "Zoephos-Tichondrius",
+				["name"] = "Meowfurryoff-Tichondrius",
 				["class"] = "PRIEST",
 			},
 			["Dessirius-Tichondrius"] = {
@@ -423,14 +422,15 @@ DeathGraphsDBDeaths = {
 				["name"] = "Daemonhater-Tichondrius",
 				["class"] = "DEMONHUNTER",
 			},
-			["Meowfurryoff-Tichondrius"] = {
+			["Kalethia-Tichondrius"] = {
 				["overall"] = {
-					[213520] = 612383,
+					[212494] = 1484502,
+					[212648] = 169432,
 				},
 				["deaths"] = {
 				},
-				["name"] = "Meowfurryoff-Tichondrius",
-				["class"] = "PRIEST",
+				["name"] = "Kalethia-Tichondrius",
+				["class"] = "MAGE",
 			},
 			["Genjieggs-Tichondrius"] = {
 				["overall"] = {
@@ -442,15 +442,15 @@ DeathGraphsDBDeaths = {
 				["name"] = "Genjieggs-Tichondrius",
 				["class"] = "HUNTER",
 			},
-			["Kalethia-Tichondrius"] = {
+			["Zoephos-Tichondrius"] = {
 				["overall"] = {
-					[212494] = 1484502,
-					[212648] = 169432,
+					[212648] = 183599,
+					[213624] = 1453672,
 				},
 				["deaths"] = {
 				},
-				["name"] = "Kalethia-Tichondrius",
-				["class"] = "MAGE",
+				["name"] = "Zoephos-Tichondrius",
+				["class"] = "PRIEST",
 			},
 		},
 		["boss_table"] = {
@@ -2129,10 +2129,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Earlthebow-Eldre'Thalas"] = {
+			["Critius-Drakkari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 			},
@@ -2164,10 +2164,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Critius-Drakkari"] = {
+			["Runslower-Whisperwind"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -2192,10 +2192,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Runslower-Whisperwind"] = {
+			["Earlthebow-Eldre'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -9018,9 +9018,8 @@ DeathGraphsDBGraph = {
 	},
 	["171315"] = {
 		["deaths"] = {
-			[39] = {
+			[70] = {
 				1496623376, -- [1]
-				1496623816, -- [2]
 			},
 			[69] = {
 				1496623376, -- [1]
@@ -9028,7 +9027,7 @@ DeathGraphsDBGraph = {
 			[93] = {
 				1496623816, -- [1]
 			},
-			[70] = {
+			[10] = {
 				1496623376, -- [1]
 			},
 			[107] = {
@@ -9041,8 +9040,9 @@ DeathGraphsDBGraph = {
 			[63] = {
 				1496623816, -- [1]
 			},
-			[10] = {
+			[39] = {
 				1496623376, -- [1]
+				1496623816, -- [2]
 			},
 		},
 		["spells"] = {

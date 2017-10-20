@@ -107,7 +107,7 @@ DataStore_PetsDB = {
 				[10713] = 7561,
 				[179840] = 90214,
 				[236285] = 119040,
-				[142880] = 71488,
+				[53316] = 29147,
 				[190036] = 85009,
 				[193434] = 98116,
 				[159296] = 78895,
@@ -123,17 +123,17 @@ DataStore_PetsDB = {
 				[210677] = 98128,
 				[240064] = 120397,
 				[179835] = 90206,
-				[46599] = 26119,
+				[226682] = 113827,
 				[135264] = 68662,
 				[28739] = 16548,
 				[141448] = 71021,
 				[162135] = 80329,
-				[226682] = 113827,
+				[46599] = 26119,
 				[190020] = 95841,
 				[93739] = 50586,
 				[96571] = 52226,
 				[184480] = 91823,
-				[189357] = 95572,
+				[173547] = 86719,
 				[141449] = 71022,
 				[15999] = 10259,
 				[221908] = 111421,
@@ -152,8 +152,8 @@ DataStore_PetsDB = {
 				[65382] = 33529,
 				[141451] = 71033,
 				[10684] = 7389,
-				[10680] = 7390,
 				[62609] = 33238,
+				[10680] = 7390,
 				[135265] = 68663,
 				[89039] = 47944,
 				[135268] = 68658,
@@ -163,7 +163,7 @@ DataStore_PetsDB = {
 				[110029] = 58163,
 				[168668] = 84330,
 				[179830] = 90201,
-				[173547] = 86719,
+				[189357] = 95572,
 				[234555] = 118060,
 				[10704] = 7549,
 				[10714] = 7565,
@@ -177,7 +177,7 @@ DataStore_PetsDB = {
 				[122748] = 62829,
 				[75134] = 40295,
 				[187532] = 94623,
-				[53316] = 29147,
+				[142880] = 71488,
 				[221907] = 111423,
 				[15067] = 9662,
 				[229098] = 115143,
@@ -188,7 +188,7 @@ DataStore_PetsDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1508098583,
+				["lastUpdate"] = 1508492096,
 				["CRITTER"] = {
 					225200, -- [1]
 					173542, -- [2]
@@ -201,10 +201,10 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1508235107,
+				["lastUpdate"] = 1508447485,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1508238112,
+				["lastUpdate"] = 1508492474,
 				["CRITTER"] = {
 					179831, -- [1]
 					170287, -- [2]
@@ -359,26 +359,13 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1508103795,
+				["lastUpdate"] = 1508448884,
 				["CRITTER"] = {
 					15999, -- [1]
 				},
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1508162335,
-				["CRITTER"] = {
-					193368, -- [1]
-					147124, -- [2]
-				},
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1508235141,
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1493618479,
-			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1508239209,
+				["lastUpdate"] = 1508450290,
 				["CRITTER"] = {
 					204148, -- [1]
 					232867, -- [2]
@@ -388,6 +375,19 @@ DataStore_PetsDB = {
 					65046, -- [6]
 				},
 			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1508367533,
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1493618479,
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1508452819,
+				["CRITTER"] = {
+					193368, -- [1]
+					147124, -- [2]
+				},
+			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 				["CRITTER"] = {
@@ -395,7 +395,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1508234984,
+				["lastUpdate"] = 1508447364,
 				["CRITTER"] = {
 					135254, -- [1]
 					135257, -- [2]
@@ -403,7 +403,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1508237921,
+				["lastUpdate"] = 1508447446,
 				["CRITTER"] = {
 					135265, -- [1]
 					135258, -- [2]
@@ -412,7 +412,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1508237892,
+				["lastUpdate"] = 1508447415,
 				["CRITTER"] = {
 					10714, -- [1]
 					173547, -- [2]
@@ -424,14 +424,14 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1508238008,
+				["lastUpdate"] = 1508370591,
 				["CRITTER"] = {
 					225200, -- [1]
 					195370, -- [2]
 				},
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1508237839,
+				["lastUpdate"] = 1508491204,
 				["CRITTER"] = {
 					195368, -- [1]
 					190036, -- [2]

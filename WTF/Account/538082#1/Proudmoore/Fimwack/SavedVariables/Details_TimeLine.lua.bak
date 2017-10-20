@@ -1,5 +1,16 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_start"] = "15:15:36",
@@ -26,14 +37,12 @@ DetailsTimeLineDB = {
 			["total_time"] = 106.041999999958,
 		}, -- [4]
 	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Crissari"] = {
@@ -306,6 +315,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Áriseá-Garona"] = {
@@ -358,15 +368,5 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 }

@@ -1,24 +1,26 @@
-tag 125ee3f64e791aa43b10d769c4c4ea62adb8c896 1.5.3
+tag 9b92fde0d870bf1821eb1b43cde7c701835462dc 1.5.4
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Mon Oct 9 01:53:07 2017 +0200
+Date:	Sat Oct 14 01:26:33 2017 +0200
 
 Feature: you can now disable a troop type clicking its icon nin the OHC
 troop bar
+Feature: Added Icons for Krokul followers item
+Fix: some localizations (italian) were broken
 Fix: Maximize xp was ignoring cap
 Fix: #119 Bad display when more than 5 types of troops
 Fix: #109 Future mission were missing in tooltip
 Fix: #118 Troops with random abilities should now be considered
 Fix: #99 Caused by same issue of 118, should be fixed
 
-commit 2d344dfe440ad559a350ea6894cc797c12343f5f
+commit 74eab6b412dcdff2fdab891859714aaf07df79d9
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Mon Oct 9 01:51:15 2017 +0200
+Date:   Sat Oct 14 01:24:53 2017 +0200
 
-    Rel notes
+    Added icons for Krokuls troops Item
 
-commit 86fe28b28f559ad8f64275b563a42073123ec5c3
+commit fb8390a57e5b84ce218895b28a33448677bfbb73
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Thu Oct 5 20:59:36 2017 +0200
+Date:   Thu Oct 12 22:41:34 2017 +0200
 
-    Improved tropps shipments display
+    Tutorialstep now defaults to 1
 

@@ -1,0 +1,6 @@
+## Interface: 70200
+## Title: ArtifactButton
+## Notes: A simple addon that puts a button on your Character screen to open the Artifact menu
+## Version: 5.0
+## Author: Nerino1
+ArtifactButton.lua

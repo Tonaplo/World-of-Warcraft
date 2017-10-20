@@ -382,13 +382,14 @@ DeathGraphsDBDeaths = {
 		["name"] = "Spellblade Aluriel",
 		["id"] = 1751,
 		["player_db"] = {
-			["Meowfurryoff-Tichondrius"] = {
+			["Kalethia-Tichondrius"] = {
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
+				["class"] = "MAGE",
+				["name"] = "Kalethia-Tichondrius",
 				["overall"] = {
-					[213520] = 612383,
+					[212494] = 1484502,
+					[212648] = 169432,
 				},
 			},
 			["Dessirius-Tichondrius"] = {
@@ -422,14 +423,14 @@ DeathGraphsDBDeaths = {
 					[212648] = 373589,
 				},
 			},
-			["Kalethia-Tichondrius"] = {
+			["Zoephos-Tichondrius"] = {
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Kalethia-Tichondrius",
+				["class"] = "PRIEST",
+				["name"] = "Zoephos-Tichondrius",
 				["overall"] = {
-					[212494] = 1484502,
-					[212648] = 169432,
+					[212648] = 183599,
+					[213624] = 1453672,
 				},
 			},
 			["Daemonhater-Tichondrius"] = {
@@ -441,14 +442,13 @@ DeathGraphsDBDeaths = {
 					[213328] = 1849209,
 				},
 			},
-			["Zoephos-Tichondrius"] = {
+			["Meowfurryoff-Tichondrius"] = {
 				["deaths"] = {
 				},
 				["class"] = "PRIEST",
-				["name"] = "Zoephos-Tichondrius",
+				["name"] = "Meowfurryoff-Tichondrius",
 				["overall"] = {
-					[212648] = 183599,
-					[213624] = 1453672,
+					[213520] = 612383,
 				},
 			},
 		},
@@ -2143,12 +2143,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Critius-Drakkari"] = {
+			["Runslower-Whisperwind"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "MAGE",
 			},
 			["Demontoni-Whisperwind"] = {
 				["encounters"] = 1,
@@ -2178,12 +2178,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Runslower-Whisperwind"] = {
+			["Earlthebow-Eldre'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "HUNTER",
 			},
 			["Opalauana-Whisperwind"] = {
 				["encounters"] = 1,
@@ -2206,12 +2206,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Earlthebow-Eldre'Thalas"] = {
+			["Critius-Drakkari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 			},
 			["Xethoria"] = {
 				["encounters"] = 1,
@@ -9018,7 +9018,7 @@ DeathGraphsDBGraph = {
 	},
 	["171315"] = {
 		["deaths"] = {
-			[70] = {
+			[10] = {
 				1496623376, -- [1]
 			},
 			[63] = {
@@ -9028,8 +9028,9 @@ DeathGraphsDBGraph = {
 				1496623816, -- [1]
 				1496623816, -- [2]
 			},
-			[10] = {
+			[39] = {
 				1496623376, -- [1]
+				1496623816, -- [2]
 			},
 			[93] = {
 				1496623816, -- [1]
@@ -9040,9 +9041,8 @@ DeathGraphsDBGraph = {
 			[69] = {
 				1496623376, -- [1]
 			},
-			[39] = {
+			[70] = {
 				1496623376, -- [1]
-				1496623816, -- [2]
 			},
 		},
 		["spells"] = {

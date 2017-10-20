@@ -32,9 +32,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1507754664,
 				["lastVisitDate"] = "2017/10/11 13:44",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1508239252,
-				["lastVisitDate"] = "2017/10/17 04:20",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1508279070,
+				["lastVisitDate"] = "2017/10/17 15:24",
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1508237841,
@@ -48,9 +48,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1508237933,
 				["lastVisitDate"] = "2017/10/17 03:58",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1508163253,
-				["lastVisitDate"] = "2017/10/16 07:14",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1508239252,
+				["lastVisitDate"] = "2017/10/17 04:20",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1508238028,

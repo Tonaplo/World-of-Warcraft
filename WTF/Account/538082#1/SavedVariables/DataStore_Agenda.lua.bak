@@ -22,56 +22,50 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-10-17",
+			["NextWeeklyReset"] = "2017-10-24",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1508100731,
+				["lastUpdate"] = 1508492267,
 			},
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1508235109,
+				["lastUpdate"] = 1508447720,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["Calendar"] = {
-					"2017-10-18|19:00|Heroic ToS 8 / 9|1|9", -- [1]
-				},
-				["lastUpdate"] = 1508239161,
+				["lastUpdate"] = 1508492493,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1508103801,
+				["lastUpdate"] = 1508448949,
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1508163258,
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1508450412,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1508235145,
+				["lastUpdate"] = 1508367695,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1493618480,
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1508239297,
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1508452941,
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1508234994,
+				["lastUpdate"] = 1508447373,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1508237977,
+				["lastUpdate"] = 1508447447,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1508237895,
+				["lastUpdate"] = 1508447415,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1508238064,
+				["lastUpdate"] = 1508370610,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["DungeonIDs"] = {
-					["Tomb of Sargeras Normal|201033156"] = "14574|1508237826|0|1",
-				},
-				["lastUpdate"] = 1508237867,
+				["lastUpdate"] = 1508491292,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1493618456,

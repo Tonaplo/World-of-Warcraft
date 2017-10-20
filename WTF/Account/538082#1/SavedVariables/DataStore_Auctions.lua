@@ -28,6 +28,14 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1498980751,
 				["lastVisitDate"] = "2017/07/02 00:32",
 			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1499035800,
+				["lastVisitDate"] = "2017/07/02 15:50",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1498336322,
+				["lastVisitDate"] = "2017/06/24 13:32",
+			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1507644539,
 				["lastVisitDate"] = "2017/10/10 07:08",
@@ -39,14 +47,6 @@ DataStore_AuctionsDB = {
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1507644155,
 				["lastVisitDate"] = "2017/10/10 07:02",
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1499035800,
-				["lastVisitDate"] = "2017/07/02 15:50",
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1498336322,
-				["lastVisitDate"] = "2017/06/24 13:32",
 			},
 		},
 	},

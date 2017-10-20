@@ -1,43 +1,7 @@
 
 DetailsTimeLineDB = {
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["combat_data"] = {
-		{
-			["date_end"] = "15:17:22",
-			["date_start"] = "15:15:36",
-			["name"] = "Cordana Felsong",
-			["total_time"] = 106.007999999973,
-		}, -- [1]
-		{
-			["date_end"] = "15:10:28",
-			["date_start"] = "15:09:55",
-			["name"] = "Ash'Golm",
-			["total_time"] = 33.0039999999572,
-		}, -- [2]
-		{
-			["date_end"] = "15:08:40",
-			["date_start"] = "15:08:14",
-			["name"] = "Glazer",
-			["total_time"] = 26.0050000000047,
-		}, -- [3]
-		{
-			["date_end"] = "15:06:21",
-			["date_start"] = "15:04:35",
-			["name"] = "Inquisitor Tormentorum",
-			["total_time"] = 106.041999999958,
-		}, -- [4]
-	},
 	["cooldowns_timeline"] = {
 		{
 			["Áriseá-Garona"] = {
@@ -90,6 +54,17 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Crissari"] = {
@@ -362,11 +337,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "15:17:22",
+			["date_start"] = "15:15:36",
+			["name"] = "Cordana Felsong",
+			["total_time"] = 106.007999999973,
+		}, -- [1]
+		{
+			["date_end"] = "15:10:28",
+			["date_start"] = "15:09:55",
+			["name"] = "Ash'Golm",
+			["total_time"] = 33.0039999999572,
+		}, -- [2]
+		{
+			["date_end"] = "15:08:40",
+			["date_start"] = "15:08:14",
+			["name"] = "Glazer",
+			["total_time"] = 26.0050000000047,
+		}, -- [3]
+		{
+			["date_end"] = "15:06:21",
+			["date_start"] = "15:04:35",
+			["name"] = "Inquisitor Tormentorum",
+			["total_time"] = 106.041999999958,
+		}, -- [4]
 	},
 }

@@ -115,7 +115,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 6231373952,
+							["Mallusof"] = 6254609662,
 						},
 					},
 				},
@@ -129,18 +129,18 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 171975988,
-							["Farahn"] = 75326509,
-							["Greybone"] = 73293575,
-							["Amranar"] = 536342754,
-							["Granjior"] = 510084130,
-							["Kaldorath"] = 313164095,
-							["Faerand"] = 138195981,
+							["Miriyal"] = 172915253,
+							["Farahn"] = 75333179,
+							["Greybone"] = 73313183,
+							["Amranar"] = 537236140,
+							["Granjior"] = 518415069,
+							["Kaldorath"] = 313159605,
+							["Faerand"] = 148088955,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 581500233,
-							["Morifa"] = 535721151,
-							["Fimwack"] = 318506966,
-							["Praerend"] = 786297380,
+							["Rahran"] = 582566226,
+							["Morifa"] = 536172331,
+							["Fimwack"] = 318521879,
+							["Praerend"] = 786316232,
 						},
 					},
 				},
@@ -797,72 +797,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/g Visa changed status to Issued today!", -- [1]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [2]
-							"/g Thanks bud :)", -- [3]
-							"/g Visa changed status to Issued today!", -- [4]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [5]
-							"/g Visa changed status to Issued today!", -- [6]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [7]
-							"/g Visa changed status to Issued today!", -- [8]
-							"/g Thanks bud :)", -- [9]
-							"/g Visa changed status to Issued today!", -- [10]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [11]
-							"/g Visa changed status to Issued today!", -- [12]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [13]
-							"/g Thanks bud :)", -- [14]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [15]
-							"/g Visa changed status to Issued today!", -- [16]
-							"/cw Kaeldalar-Dalaran Need that belt?", -- [17]
-							"/g Thanks bud :)", -- [18]
-							"/g Visa changed status to Issued today!", -- [19]
-							"/g Thanks bud :)", -- [20]
-							"/i this way", -- [21]
-							"/i Yup, she has it", -- [22]
-							"/i First time?", -- [23]
-							"/i tuth", -- [24]
-							"/cw Omegå-Nagrand iT'S AN ILEVEL UPGRADE, SO CANT BE TRADED", -- [25]
-							"/cw Omegå-Nagrand caps", -- [26]
-							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [27]
-							"/i |cffa335ee|Hitem:147032::::::::110:102::4:3:3564:1467:3528:::|h[Gloves of Wayward Compulsions]|h|r anyone?", -- [28]
-							"/cw Shiftid-Alexstrasza Not you though", -- [29]
-							"/cw Shiftid-Alexstrasza you /laughed at me", -- [30]
-							"/cw Ópio-Nemesis Going to you", -- [31]
-							"/cw Ópio-Nemesis ´(y) :)", -- [32]
+							"/p hey", -- [1]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [2]
+							"/p hey", -- [3]
+							"/reload", -- [4]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [5]
+							"/g !", -- [6]
+							"/p hey", -- [7]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [8]
+							"/p hey", -- [9]
+							"/reload", -- [10]
+							"/g !", -- [11]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [12]
+							"/reload", -- [13]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [14]
+							"/p hey", -- [15]
+							"/reload", -- [16]
+							"/g !", -- [17]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [18]
+							"/reload", -- [19]
+							"/cw Omegå-Nagrand It's one of the best trinkets for Frost Mage, right?", -- [20]
+							"/p hey", -- [21]
+							"/g !", -- [22]
+							"/reload", -- [23]
+							"/p hey", -- [24]
+							"/reload", -- [25]
+							"/g Where does it say that?", -- [26]
+							"/g not for me? there it says 900?", -- [27]
+							"/g Black Temple Timewalking or regular?", -- [28]
+							"/g Ahhhh", -- [29]
+							"/g probably", -- [30]
+							"/g I dont see regular, I only see BT", -- [31]
+							"/g I did :=)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g Holy shit", -- [1]
-							"/g where is that from?", -- [2]
-							"/g Cache?", -- [3]
-							"/g It's no fun playing here", -- [4]
-							"/g gz", -- [5]
+							"/g I fly tomrrow", -- [1]
+							"/p :)", -- [2]
+							"/g Holy shit", -- [3]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [4]
+							"/g Holy shit", -- [5]
 							"/p :)", -- [6]
-							" Hey budy", -- [7]
-							"/g only 1.4 k MS", -- [8]
-							"/p :)", -- [9]
+							" Alright then", -- [7]
+							"/g Holy shit", -- [8]
+							" Alright then", -- [9]
 							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [10]
-							" Alright then", -- [11]
-							"/g only 1.4 k MS", -- [12]
-							"/p :)", -- [13]
-							" Alright then", -- [14]
-							"/p :)", -- [15]
-							"/raid Am heals now", -- [16]
-							"/cw Amoreyn-Shadowmoon I didnt notice the whisper, sorry", -- [17]
-							"/g where is that from?", -- [18]
-							"/g It's no fun playing here", -- [19]
-							"/p :)", -- [20]
-							"/g only 1.4 k MS", -- [21]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [22]
-							"/g only 1.4 k MS", -- [23]
-							" Alright then", -- [24]
-							"/raid Am heals now", -- [25]
-							"/g where is that from?", -- [26]
-							"/p :)", -- [27]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [28]
-							" Alright then", -- [29]
-							"/g where is that from?", -- [30]
-							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [31]
-							"/g where is that from?", -- [32]
+							"/p :)", -- [11]
+							"/g Holy shit", -- [12]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [13]
+							"/g Holy shit", -- [14]
+							"/g I fly tomorrow", -- [15]
+							"/g I fly tomrrow", -- [16]
+							"/g Holy shit", -- [17]
+							"/p :)", -- [18]
+							"/g Holy shit", -- [19]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [20]
+							"/g Holy shit", -- [21]
+							"/g I fly tomorrow", -- [22]
+							"/g Holy shit", -- [23]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [24]
+							"/g I fly tomorrow", -- [25]
+							" Anyways :) Just wanted to know how things where going, and inform oyu about where I am, if you didnt already know.", -- [26]
+							"/g nice, gz :)", -- [27]
+							"/g That moment when you 940 Titanforge a relic for your third OS artifact", -- [28]
+							"/g |cffa335ee|Hitem:151007::::::::110:258::30:3:3397:3219:3337:::|h[Ur'zul Ichor]|h|r", -- [29]
+							"/g QQ", -- [30]
+							"/g Yeah, would be", -- [31]
+							"/g If I was Shadow Mainspec :P", -- [32]
 						},
 					},
 				},
@@ -947,21 +947,21 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
 						["Width"] = 400,
 						["Anchor"] = "GridLayoutFrame",
 						["Height"] = 200,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1093,13 +1093,7 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1111,17 +1105,23 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1255,7 +1255,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1267,19 +1273,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1418,7 +1418,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1430,19 +1436,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1581,13 +1581,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1599,13 +1593,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1745,13 +1745,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1763,17 +1757,23 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1908,7 +1908,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1920,23 +1926,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -2369,11 +2369,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -2454,9 +2454,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2473,9 +2473,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2574,9 +2574,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2593,9 +2593,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2613,11 +2613,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 		},

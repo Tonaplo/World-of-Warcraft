@@ -52,9 +52,9 @@ DataStoreDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Faerand"] = {
+			["Default.Proudmoore.Rahran"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
-				["guildName"] = "Mechanics",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["guildName"] = "Risen",
@@ -63,9 +63,9 @@ DataStoreDB = {
 			["Default.Bleeding Hollow.Gorog"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["guildName"] = "Risen",
+			["Default.Proudmoore.Faerand"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Mechanics",
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["faction"] = "Horde",

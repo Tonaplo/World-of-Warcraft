@@ -1,19 +1,14 @@
 # BigWigs
 
-## [v74](https://github.com/BigWigsMods/BigWigs/tree/v74) (2017-10-06)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v73...v74)
+## [v75](https://github.com/BigWigsMods/BigWigs/tree/v75) (2017-10-14)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v74...v75)
 
 - bump version  
-- Antorus/Argus: Setup stage 1 and 2 warnings  
-- Antorus/Aggramar: Fix stage icons  
-- Antorus/CovenofShivarra: Fix icons, add Orb of Frost timer  
-- Antorus/Hasabel: ptr updates and fixes  
-- Antorus/Imonar: ptr updates and fixes  
-- ArgusInvasionPoints/Vilemus: Fix warnings and add cooldowns  
-- ArgusInvasionPoints/Vilemus: Prepare boss module for this weeks boss  
-- Fix some wrong translations for koKR locale (#390)  
-- TombOfSargeras/MaidenofVigilance: Keep updating Infobox after shield is broken  
-- ArgusInvasionPoints/Meto: Add new boss module  
-- ArgusInvasionPoints/Sotanathor: Cleanup code  
-- TombOfSargeras/SistersoftheMoon: Update Moontalon timer  
-- Update ptBR.lua (#389)  
+- Antorus/Argus: Full boss module  
+- TombOfSargeras/MaidenofVigilance: Slightly adjust Blowback timer  
+- Antorus/Kingaroth: Timer and warning updates  
+- Antorus/CovenofShivarra: Prepare mythic warnings  
+- Antorus/Eonar: Update boss module (Need Heroic and below timer/wave data!)  
+- ArgusInvasionPoints/Occularus: Finalize boss module  
+- ArgusInvasionPoints/Meto: Fix throttle  
+- ArgusInvasionPoints/Occularus: Prepare final Invasion boss  

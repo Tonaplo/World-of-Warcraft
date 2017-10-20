@@ -1,0 +1,11 @@
+<Bindings>
+	<Binding name="ALLTHETHINGS_OPENMINILIST" header="ALLTHETHINGS" category="ADDONS">
+		AllTheThings.OpenMiniListForCurrentZone();
+	</Binding>
+	<Binding name="ALLTHETHINGS_TOGGLEMINILIST" header="ALLTHETHINGS" category="ADDONS">
+		AllTheThings.ToggleMiniListForCurrentZone();
+	</Binding>
+	<Binding name="ALLTHETHINGS_TOGGLECOMPLETIONISTMODE" header="ALLTHETHINGS" category="ADDONS">
+		AllTheThings.ToggleCompletionistMode();
+	</Binding>
+</Bindings>

@@ -57,8 +57,10 @@ dbOHC = {
 		["firstrun"] = false,
 		["news"] = {
 			[10300] = true,
+			[10504] = true,
 		},
 		["warn02_seen"] = 0,
+		["changedkeywarned"] = true,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -68,7 +70,7 @@ dbOHC = {
 				["NEVERKILLTROOPS"] = false,
 				["MAXCHAMP"] = 3,
 				["MOVEPANEL"] = false,
-				["MAXIMIZEXP"] = false,
+				["MAXIMIZEXP"] = true,
 				["USEALLY"] = false,
 				["SAVETROOPS"] = false,
 				["IGNOREINACTIVE"] = true,

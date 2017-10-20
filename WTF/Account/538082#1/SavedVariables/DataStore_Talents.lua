@@ -22,20 +22,20 @@ DataStore_TalentsDB = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
 				["EquippedArtifact"] = "Scepter of Sargeras",
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 				["Specializations"] = {
 					9563, -- [1]
 					11963, -- [2]
 					14745, -- [3]
 				},
-				["lastUpdate"] = 1508235107,
+				["lastUpdate"] = 1508447482,
 				["Class"] = "WARLOCK",
-				["ArtifactKnowledge"] = 47,
+				["ArtifactKnowledge"] = 48,
 				["Artifacts"] = {
 					["Scepter of Sargeras"] = {
 						["tier"] = 2,
 						["rank"] = 57,
-						["pointsRemaining"] = 4201466770,
+						["pointsRemaining"] = 7338969870,
 					},
 					["Ulthalesh, the Deadwind Harvester"] = {
 						["tier"] = 2,
@@ -50,10 +50,10 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 17454576146,
+						["pointsRemaining"] = 25250643646,
 						["rank"] = 63,
 						["tier"] = 2,
 					},
@@ -73,80 +73,14 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1508238860,
+				["lastUpdate"] = 1508503411,
 				["Specializations"] = {
 					10646, -- [1]
 					10103, -- [2]
 					6490, -- [3]
 				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["Artifacts"] = {
-					["Talonclaw, Spear of the Wild Gods"] = {
-						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 101004970,
-					},
-					["Titanstrike"] = {
-						["pointsRemaining"] = 1120055915,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-					["Thas'dorah, Legacy of the Windrunners"] = {
-						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 529344710,
-					},
-				},
-				["Class"] = "HUNTER",
-				["lastUpdate"] = 1508162662,
-				["Specializations"] = {
-					13719, -- [1]
-					15317, -- [2]
-					16279, -- [3]
-				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["EquippedArtifact"] = "The Aldrachi Warblades",
-				["Artifacts"] = {
-					["Twinblades of the Deceiver"] = {
-						["pointsRemaining"] = 39381190,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-					["The Aldrachi Warblades"] = {
-						["pointsRemaining"] = 1173923820,
-						["rank"] = 55,
-						["tier"] = 2,
-					},
-				},
-				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1508235132,
-				["Specializations"] = {
-					15770, -- [1]
-					6997, -- [2]
-				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
-			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1493618455,
-				["Specializations"] = {
-					[3] = 487,
-				},
-				["Class"] = "ROGUE",
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["EquippedArtifact"] = "Scale of the Earth-Warder",
@@ -157,7 +91,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 446414620,
 					},
 					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 209861385,
+						["pointsRemaining"] = 3347364485,
 						["rank"] = 56,
 						["tier"] = 2,
 					},
@@ -168,26 +102,56 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1508237894,
+				["lastUpdate"] = 1508447414,
 				["Specializations"] = {
 					5533, -- [1]
 					12254, -- [2]
 					10713, -- [3]
 				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["EquippedArtifact"] = "Twinblades of the Deceiver",
+				["Artifacts"] = {
+					["Twinblades of the Deceiver"] = {
+						["pointsRemaining"] = 39381190,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+					["The Aldrachi Warblades"] = {
+						["pointsRemaining"] = 1710811970,
+						["rank"] = 55,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "DEMONHUNTER",
+				["lastUpdate"] = 1508367533,
+				["Specializations"] = {
+					15770, -- [1]
+					6997, -- [2]
+				},
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
+			},
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1493618455,
+				["Specializations"] = {
+					[3] = 487,
+				},
+				["Class"] = "ROGUE",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Maw of the Damned",
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 				["Specializations"] = {
 					14229, -- [1]
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1508234984,
+				["lastUpdate"] = 1508447364,
 				["Class"] = "DEATHKNIGHT",
-				["ArtifactKnowledge"] = 47,
+				["ArtifactKnowledge"] = 48,
 				["Artifacts"] = {
 					["Blades of the Fallen Prince"] = {
 						["tier"] = 2,
@@ -201,10 +165,46 @@ DataStore_TalentsDB = {
 					},
 					["Maw of the Damned"] = {
 						["tier"] = 2,
-						["rank"] = 55,
-						["pointsRemaining"] = 2439498480,
+						["rank"] = 56,
+						["pointsRemaining"] = 971578480,
 					},
 				},
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
+				["Artifacts"] = {
+					["Talonclaw, Spear of the Wild Gods"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 101004970,
+					},
+					["Titanstrike"] = {
+						["pointsRemaining"] = 442761315,
+						["rank"] = 57,
+						["tier"] = 2,
+					},
+					["Thas'dorah, Legacy of the Windrunners"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 529344710,
+					},
+				},
+				["Class"] = "HUNTER",
+				["lastUpdate"] = 1508452908,
+				["Specializations"] = {
+					13719, -- [1]
+					15317, -- [2]
+					16279, -- [3]
+				},
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["EquippedArtifact"] = "Truthguard",
@@ -226,14 +226,14 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1508237919,
+				["lastUpdate"] = 1508447446,
 				["Specializations"] = {
 					9558, -- [1]
 					6814, -- [2]
 					8087, -- [3]
 				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["EquippedArtifact"] = "The Kingslayers",
@@ -249,20 +249,20 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["The Kingslayers"] = {
-						["pointsRemaining"] = 337531220,
+						["pointsRemaining"] = 412831270,
 						["rank"] = 53,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "ROGUE",
-				["lastUpdate"] = 1508239211,
+				["lastUpdate"] = 1508450352,
 				["Specializations"] = {
 					6614, -- [1]
 					11223, -- [2]
 					5626, -- [3]
 				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
@@ -280,30 +280,30 @@ DataStore_TalentsDB = {
 					["Sharas'dal, Scepter of Tides"] = {
 						["tier"] = 2,
 						["rank"] = 52,
-						["pointsRemaining"] = 343435720,
+						["pointsRemaining"] = 536560970,
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1508238006,
+				["lastUpdate"] = 1508370586,
 				["Specializations"] = {
 					11614, -- [1]
 					9631, -- [2]
 					14235, -- [3]
 				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 				["Specializations"] = {
 					7646, -- [1]
 					10709, -- [2]
 					11758, -- [3]
 				},
-				["lastUpdate"] = 1508103795,
+				["lastUpdate"] = 1508448884,
 				["Class"] = "MONK",
-				["ArtifactKnowledge"] = 47,
+				["ArtifactKnowledge"] = 48,
 				["Artifacts"] = {
 					["Sheilun, Staff of the Mists"] = {
 						["tier"] = 2,
@@ -336,20 +336,20 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 5279095,
 					},
 					["Ebonchill, Greatstaff of Alodi"] = {
-						["pointsRemaining"] = 9395601000,
-						["rank"] = 57,
+						["pointsRemaining"] = 2031263600,
+						["rank"] = 60,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1508237825,
+				["lastUpdate"] = 1508491206,
 				["Specializations"] = {
 					7670, -- [1]
 					6582, -- [2]
 					6646, -- [3]
 				},
-				["ArtifactKnowledge"] = 47,
-				["ArtifactKnowledgeMultiplier"] = 772501,
+				["ArtifactKnowledge"] = 48,
+				["ArtifactKnowledgeMultiplier"] = 1004001,
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["EquippedArtifact"] = "Scythe of Elune",
@@ -370,13 +370,13 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Scythe of Elune"] = {
-						["pointsRemaining"] = 622180880,
-						["rank"] = 52,
+						["pointsRemaining"] = 21480930,
+						["rank"] = 53,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1508262136,
+				["lastUpdate"] = 1508492208,
 				["Specializations"] = {
 					16091, -- [1]
 					5466, -- [2]
