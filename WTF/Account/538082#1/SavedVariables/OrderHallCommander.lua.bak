@@ -65,6 +65,7 @@ dbOHC = {
 	["profiles"] = {
 		["Default"] = {
 			["toggles"] = {
+				["ELITEOVERCAP"] = true,
 				["NOTROOPS"] = false,
 				["SORTMISSION"] = "Garrison_SortMissions_Class",
 				["NEVERKILLTROOPS"] = false,

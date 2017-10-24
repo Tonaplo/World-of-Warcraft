@@ -1,70 +1,39 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_start"] = "15:15:36",
+			["date_end"] = "15:17:22",
+			["name"] = "Cordana Felsong",
+			["total_time"] = 106.007999999973,
+		}, -- [1]
+		{
+			["date_start"] = "15:09:55",
+			["date_end"] = "15:10:28",
+			["name"] = "Ash'Golm",
+			["total_time"] = 33.0039999999572,
+		}, -- [2]
+		{
+			["date_start"] = "15:08:14",
+			["date_end"] = "15:08:40",
+			["name"] = "Glazer",
+			["total_time"] = 26.0050000000047,
+		}, -- [3]
+		{
+			["date_start"] = "15:04:35",
+			["date_end"] = "15:06:21",
+			["name"] = "Inquisitor Tormentorum",
+			["total_time"] = 106.041999999958,
+		}, -- [4]
+	},
 	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Áriseá-Garona"] = {
-				{
-					40.0320000000065, -- [1]
-					"Áriseá-Garona", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
-			["Ktjr-Malfurion"] = {
-				{
-					3.47099999996135, -- [1]
-					"Ktjr-Malfurion", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-			["Áriseá-Garona"] = {
-				{
-					31.1889999999548, -- [1]
-					"Áriseá-Garona", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
-			["Ktjr-Malfurion"] = {
-				{
-					12.8530000000028, -- [1]
-					"Ktjr-Malfurion", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Ktjr-Malfurion"] = {
-				{
-					3.55800000001909, -- [1]
-					"Ktjr-Malfurion", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Ktjr-Malfurion"] = {
-				{
-					13.164999999979, -- [1]
-					"Ktjr-Malfurion", -- [2]
-					31850, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Crissari"] = {
@@ -198,18 +167,18 @@ DetailsTimeLineDB = {
 					["source"] = "Mogu'shan Secret-Keeper",
 					["active"] = false,
 				},
+				[200904] = {
+					65.3209999999963, -- [1]
+					68.505999999994, -- [2]
+					["source"] = "Inquisitor Tormentorum",
+					["active"] = false,
+				},
 				[212565] = {
 					78.5969999999507, -- [1]
 					80.6419999999926, -- [2]
 					93.725999999966, -- [3]
 					95.7799999999697, -- [4]
 					["source"] = "Tormenting Orb",
-					["active"] = false,
-				},
-				[200904] = {
-					65.3209999999963, -- [1]
-					68.505999999994, -- [2]
-					["source"] = "Inquisitor Tormentorum",
 					["active"] = false,
 				},
 			},
@@ -337,36 +306,67 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["combat_data"] = {
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "15:17:22",
-			["date_start"] = "15:15:36",
-			["name"] = "Cordana Felsong",
-			["total_time"] = 106.007999999973,
+			["Áriseá-Garona"] = {
+				{
+					40.0320000000065, -- [1]
+					"Áriseá-Garona", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+			["Ktjr-Malfurion"] = {
+				{
+					3.47099999996135, -- [1]
+					"Ktjr-Malfurion", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
 		}, -- [1]
 		{
-			["date_end"] = "15:10:28",
-			["date_start"] = "15:09:55",
-			["name"] = "Ash'Golm",
-			["total_time"] = 33.0039999999572,
+			["Áriseá-Garona"] = {
+				{
+					31.1889999999548, -- [1]
+					"Áriseá-Garona", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+			["Ktjr-Malfurion"] = {
+				{
+					12.8530000000028, -- [1]
+					"Ktjr-Malfurion", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
-			["date_end"] = "15:08:40",
-			["date_start"] = "15:08:14",
-			["name"] = "Glazer",
-			["total_time"] = 26.0050000000047,
+			["Ktjr-Malfurion"] = {
+				{
+					3.55800000001909, -- [1]
+					"Ktjr-Malfurion", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
-			["date_end"] = "15:06:21",
-			["date_start"] = "15:04:35",
-			["name"] = "Inquisitor Tormentorum",
-			["total_time"] = 106.041999999958,
+			["Ktjr-Malfurion"] = {
+				{
+					13.164999999979, -- [1]
+					"Ktjr-Malfurion", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
 		}, -- [4]
 	},
 }
