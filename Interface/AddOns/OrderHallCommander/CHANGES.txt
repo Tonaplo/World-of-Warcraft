@@ -1,26 +1,28 @@
-tag 9b92fde0d870bf1821eb1b43cde7c701835462dc 1.5.4
+tag f04c51f8b242f008e8184c7fb3baf6ea886b0345 1.5.6
 Author:	Alar of Runetotem <alar@aspide.it>
-Date:	Sat Oct 14 01:26:33 2017 +0200
+Date:	Mon Oct 23 12:40:04 2017 +0200
 
-Feature: you can now disable a troop type clicking its icon nin the OHC
-troop bar
-Feature: Added Icons for Krokul followers item
-Fix: some localizations (italian) were broken
-Fix: Maximize xp was ignoring cap
-Fix: #119 Bad display when more than 5 types of troops
-Fix: #109 Future mission were missing in tooltip
-Fix: #118 Troops with random abilities should now be considered
-Fix: #99 Caused by same issue of 118, should be fixed
+Fix: #135 Using champion equipment causes the game to hang
+Fix: #117 Sometimes "in progress" mission were shown without followers
+Fix: Reset button was not working
+Fix: You can again change switches while viewing the mission page
+Fix: Removed chat spam
+Feature: Base chance can be now set up to 120% to allow for a bit of
+overcapping
+Feature: New Elite Overcap switch to force elites mission to always stay
+over 100%, if possibile
+Feature: You can restore shift-click to send a single mission from
+mission list
 
-commit 74eab6b412dcdff2fdab891859714aaf07df79d9
+commit 27471a850ddb003d16006d42c959a21e93c0d801
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Sat Oct 14 01:24:53 2017 +0200
+Date:   Mon Oct 23 12:39:08 2017 +0200
 
-    Added icons for Krokuls troops Item
+    Doc
 
-commit fb8390a57e5b84ce218895b28a33448677bfbb73
+commit 42da7698323a8b02db7b5d58a379f96275303992
 Author: Alar of Runetotem <alar@aspide.it>
-Date:   Thu Oct 12 22:41:34 2017 +0200
+Date:   Mon Oct 23 02:41:01 2017 +0200
 
-    Tutorialstep now defaults to 1
+    Shortened name in side menu title
 

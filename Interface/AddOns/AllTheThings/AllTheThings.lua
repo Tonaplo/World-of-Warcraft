@@ -1438,12 +1438,20 @@ end
 local function ToggleCompletionistMode()
 	SetCompletionistMode(not GetDataMember("CompletionistMode"));
 end
+local function SetDebugMode(debugMode)
+	SetDataMember("IgnoreAllFilters", debugMode);
+	app:RefreshData();
+end
+local function ToggleDebugMode()
+	SetDebugMode(not GetDataMember("IgnoreAllFilters"));
+end
 AllTheThings.RefreshCollections = RefreshCollections; -- To expose this to external users.
 AllTheThings.RefreshLocation = RefreshLocation;
 AllTheThings.OpenMiniListForCurrentZone = OpenMiniListForCurrentZone;
 AllTheThings.OpenMiniList = OpenMiniList;
 AllTheThings.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
 AllTheThings.ToggleCompletionistMode = ToggleCompletionistMode;
+AllTheThings.ToggleDebugMode = ToggleDebugMode;
 
 -- Tooltip Hooks
 local GameTooltip_SetLFGDungeonReward = GameTooltip.SetLFGDungeonReward;
@@ -2947,8 +2955,7 @@ local function CreateSettingsMenu()
 		self.IgnoreAllFilters = CreateFrame("CheckButton", name .. "-IgnoreAllFilters", self, "InterfaceOptionsCheckButtonTemplate");
 		CreateCheckBox(self.IgnoreAllFilters, self, "Ignore All Filters (Debug Mode)", 15, -500, GetDataMember("IgnoreAllFilters"));
 		self.IgnoreAllFilters:SetScript("OnClick", function(self)
-			SetDataMember("IgnoreAllFilters", self:GetChecked());
-			app:RefreshData();
+			SetDebugMode(self:GetChecked());
 		end);
 		lastFilter = self.IgnoreAllFilters;
 		
@@ -4542,6 +4549,7 @@ app.events.VARIABLES_LOADED = function()
 	BINDING_NAME_ALLTHETHINGS_OPENMINILIST = L("OPEN_MINILIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEMINILIST = L("TOGGLE_MINILIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLECOMPLETIONISTMODE = L("TOGGLE_COMPLETIONIST_MODE");
+	BINDING_NAME_ALLTHETHINGS_TOGGLEDEBUGMODE = L("TOGGLE_DEBUG_MODE");
 	
 	-- Cache information about the player.
 	local _, class, classIndex = UnitClass("player");

@@ -1,22 +1,22 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -25,8 +25,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/10/04 12:49",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1508502236,
-				["lastVisitDate"] = "2017/10/20 05:23",
+				["lastUpdate"] = 1508740875,
+				["lastVisitDate"] = "2017/10/22 23:41",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1507754664,
@@ -68,6 +68,22 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1508237933,
 				["lastVisitDate"] = "2017/10/17 03:58",
 			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1508239252,
+				["lastVisitDate"] = "2017/10/17 04:20",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1508238028,
+				["lastVisitDate"] = "2017/10/17 04:00",
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1508163328,
+				["lastVisitDate"] = "2017/10/16 07:15",
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1508237841,
+				["lastVisitDate"] = "2017/10/17 03:57",
+			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1508279070,
 				["Mails"] = {
@@ -82,22 +98,6 @@ DataStore_MailsDB = {
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2017/10/17 15:24",
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1508238028,
-				["lastVisitDate"] = "2017/10/17 04:00",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1508163328,
-				["lastVisitDate"] = "2017/10/16 07:15",
-			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1508237841,
-				["lastVisitDate"] = "2017/10/17 03:57",
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1508239252,
-				["lastVisitDate"] = "2017/10/17 04:20",
 			},
 		},
 	},

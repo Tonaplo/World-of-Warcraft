@@ -1,11 +1,12 @@
 
 HiddenArtifactTrackerChars = {
 	["hideArtBar"] = false,
+	["trackBosses"] = true,
 	["Secrets of the Void"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -19,12 +20,11 @@ HiddenArtifactTrackerChars = {
 		["quest"] = 46127,
 		["Eye of Azshara"] = false,
 	},
-	["trackBosses"] = true,
 	["T'uure, Beacon of the Naaru"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -40,9 +40,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Xal'atath, Blade of the Black Empire"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -58,9 +58,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Light's Wrath"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,

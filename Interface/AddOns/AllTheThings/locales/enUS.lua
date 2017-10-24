@@ -23,6 +23,7 @@ AllTheThings.Locales.enUS = {
 	["OPEN_MINILIST"] = "Open Mini List";
 	["TOGGLE_MINILIST"] = "Toggle Mini List";
 	["TOGGLE_COMPLETIONIST_MODE"] = "Toggle Completionist Mode";
+	["TOGGLE_DEBUG_MODE"] = "Toggle Debug Mode";
 	
 	-- Frame Text
 	["LIST_FRAME_TITLE"] = "ITEM COLLECTION";
@@ -657,6 +658,9 @@ AllTheThings.Locales.enUS = {
 		[-495] = TOY_BOX, 										-- Toy Box
 		[-494] = MAC_OPTIONS_MISC, 								-- Miscellaneous
 		[-493] = TIME_UNKNOWN.." "..SPELL_TARGET_TYPE6_DESC, 	-- Unknown location
+		string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 20),
+		[-492] = "Illusions",		-- Illusion
+		[-491] = "Tarot Cards", 	-- Tarot Darkmoon Cards
 		[-1000] = WARDROBE_SETS, 								-- Sets	
 		[-1001] = "The Black Vault",							-- BRD	
 -- Factions

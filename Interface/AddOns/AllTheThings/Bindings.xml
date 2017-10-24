@@ -8,4 +8,7 @@
 	<Binding name="ALLTHETHINGS_TOGGLECOMPLETIONISTMODE" header="ALLTHETHINGS" category="ADDONS">
 		AllTheThings.ToggleCompletionistMode();
 	</Binding>
+	<Binding name="ALLTHETHINGS_TOGGLEDEBUGMODE" header="ALLTHETHINGS" category="ADDONS">
+		AllTheThings.ToggleDebugMode();
+	</Binding>
 </Bindings>

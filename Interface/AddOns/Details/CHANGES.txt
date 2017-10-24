@@ -1,5 +1,17 @@
-changeset:   682:6ade12d881ad
+changeset:   684:8a7fba7e847c
 tag:         tip
+user:        Tercio
+date:        Sat Oct 21 13:30:06 2017 -0200
+summary:     - Fixed an error when clicking on the spec icon.
+
+
+changeset:   683:e708d8a64e08
+user:        Tercio
+date:        Sat Oct 21 12:40:54 2017 -0200
+summary:     - Fix for ticket #262: unable to open the player detail window when streamer option 'no alerts' are enabled.
+
+
+changeset:   682:6ade12d881ad
 user:        Tercio
 date:        Mon Oct 16 21:21:44 2017 -0200
 summary:     - Fixed green icons on the new feature 'event tracker'.
