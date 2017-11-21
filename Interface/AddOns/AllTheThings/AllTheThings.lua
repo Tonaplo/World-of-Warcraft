@@ -1066,7 +1066,7 @@ local function SearchForItemLink(link)
 										else
 											text = "   ";
 										end
-										text = text .. link .. " (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")" .. "/" .. L(otherATTSource.collected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
+										text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. L(otherATTSource.collected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
 										tinsert(listing, text);
 									else
 										local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
@@ -1077,7 +1077,7 @@ local function SearchForItemLink(link)
 												link = RETRIEVING_DATA;
 												working = true;
 											end
-											text = "   " .. link .. " (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")" .. "/" .. L(otherSource.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
+											text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. L(otherSource.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
 											if otherSource.isCollected then
 												SetDataSubMember("CollectedSources", otherSourceID, 1);
 											end
@@ -1095,7 +1095,7 @@ local function SearchForItemLink(link)
 											link = RETRIEVING_DATA;
 											working = true;
 										end
-										text = "   " .. link .. " (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")" .. "/" .. L(otherSource.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
+										text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. L(otherSource.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
 										if otherSource.isCollected then
 											SetDataSubMember("CollectedSources", otherSourceID, 1);
 										end
@@ -1580,7 +1580,7 @@ local function AttachTooltip(self)
 					end
 					
 					local encounterID = owner.encounterID;
-					if encounterID then
+					if encounterID and not owner.itemID then
 						AttachTooltipForEncounter(self, encounterID);
 						return;
 					--[[
@@ -1754,19 +1754,19 @@ end
 
 -- Difficulty Lib
 local DifficultyIcons = {
-	[1] = "Interface/Worldmap/Skull_64Green",
-	[2] = "Interface/Worldmap/Skull_64Blue",
-	[3] = "Interface/Worldmap/Skull_64Green",
-	[4] = "Interface/Worldmap/Skull_64Green",
-	[5] = "Interface/Worldmap/Skull_64Blue",
-	[6] = "Interface/Worldmap/Skull_64Blue",
-	[7] = "Interface/Worldmap/Skull_64Grey",
-	[14] = "Interface/Worldmap/Skull_64Green",
-	[15] = "Interface/Worldmap/Skull_64Blue",
-	[16] = "Interface/Worldmap/Skull_64Purple",
-	[17] = "Interface/Worldmap/Skull_64Grey",
-	[23] = "Interface/Worldmap/Skull_64Purple",
-	[24] = "Interface/Worldmap/Skull_64Red",
+	[1] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
+	[2] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",	--"Interface/Worldmap/Skull_64Blue",
+	[3] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
+	[4] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
+	[5] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",	--"Interface/Worldmap/Skull_64Blue",
+	[6] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",	--"Interface/Worldmap/Skull_64Blue",
+	[7] = "Interface\\Addons\\AllTheThings\\assets\\LFR",		--"Interface/Worldmap/Skull_64Grey",
+	[14] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
+	[15] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",	--"Interface/Worldmap/Skull_64Blue",
+	[16] = "Interface\\Addons\\AllTheThings\\assets\\Mythic",	--"Interface/Worldmap/Skull_64Purple",
+	[17] = "Interface\\Addons\\AllTheThings\\assets\\LFR",		--"Interface/Worldmap/Skull_64Grey",
+	[23] = "Interface\\Addons\\AllTheThings\\assets\\Mythic",	--"Interface/Worldmap/Skull_64Purple",
+	[24] = "Interface\\Addons\\AllTheThings\\assets\\Timewalking",	--"Interface/Worldmap/Skull_64Red",
 };
 app.BaseDifficulty = {
 	__index = function(t, key)
@@ -2171,27 +2171,20 @@ app.BaseMusicRoll = {
 		elseif key == "Lvl" then
 			return 100;
 		elseif key == "text" then
-			local questName = QuestTitleFromID[t.musicRollID];
-			if questName then
-				if t.retries then
-					t.retries = nil;
-					t.title = nil;
-				end
-				return "|Hquest:" .. t.musicRollID .. "|h[" .. questName .. "]|h";
+			return t.link;
+		elseif key == "link" then
+			local _, link, _, _, _, _, _, _, _, icon = GetItemInfo(t.itemID);
+			if link then
+				t.link = link;
+				t.icon = icon;
+				return link;
 			end
-			if t.retries and t.retries > 120 then
-				t.title = "Failed to acquire information. Scroll to try again.";
-				return "|Hquest:" .. t.musicRollID .. "|h[Quest #" .. t.musicRollID .. "*]|h";
-			else
-				t.retries = (t.retries or 0) + 1;
-				return "|Hquest:" .. t.musicRollID .. "|h[]|h";
-			end
+		elseif key == "trackable" then
+			return true;
+		elseif key == "saved" then
+			return IsQuestFlaggedCompleted(t.musicRollID);
 		elseif key == "description" then
 			return "These are unlocked per-character and are not currently shared across your account.";
-		elseif key == "link" then
-			return "quest:" .. t.musicRollID;
-		elseif key == "icon" then
-			return "Interface\\Icons\\INV_Misc_PunchCards_Yellow";
 		elseif key == "collected" then
 			return IsQuestFlaggedCompleted(t.musicRollID);
 		else
@@ -3982,7 +3975,7 @@ UpdateGroup = function(parent, group)
 				-- Increment the parent group's totals.
 				parent.total = (parent.total or 0) + group.total;
 				parent.collected = (parent.collected or 0) + group.collected;
-				group.visible = group.total > 0 and app.GroupVisibilityFilter(group);
+				group.visible = app.GroupVisibilityFilter(group); -- group.total > 0 and 
 				
 				-- If this group is trackable, then we should show it.
 				if app.RequireTrackableFilter(group) then
@@ -4684,7 +4677,7 @@ app.events.VARIABLES_LOADED = function()
 	GetDataMember("ShowSpeciesID", true);
 	GetDataMember("ShowQuestID", true);
 	GetDataMember("ShowFilterID", false);
-	SetDataMember("ShowItemID", true);
+	GetDataMember("ShowItemID", true);
 	GetDataMember("ShowItemString", false);
 	GetDataMember("ShowSourceID", false);
 	GetDataMember("ShowVisualID", false);

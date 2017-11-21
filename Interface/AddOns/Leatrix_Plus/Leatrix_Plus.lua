@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 7.3.22 (18th October 2017, www.leatrix.com)
+-- 	Leatrix Plus 7.3.26 (15th November 2017, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "7.3.22"
+	LeaPlusLC["AddonVer"] = "7.3.26"
 
 ----------------------------------------------------------------------
 --	L00: Leatrix Plus
@@ -2289,18 +2289,18 @@
 			PlayFN.t:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-LevelBackground")
 
 			local c = LeaPlusLC["RaidColors"][select(2, UnitClass("player"))]
-			PlayFN.t:SetVertexColor(c.r, c.g, c.b)
+			if c then PlayFN.t:SetVertexColor(c.r, c.g, c.b) end
 
 			-- Create color function for target and focus frames
 			local function TargetFrameCol()
 				if UnitIsPlayer("target") then
 					local c = LeaPlusLC["RaidColors"][select(2, UnitClass("target"))]
-					TargetFrameNameBackground:SetVertexColor(c.r, c.g, c.b)
+					if c then TargetFrameNameBackground:SetVertexColor(c.r, c.g, c.b) end
 				end
 		
 				if UnitIsPlayer("focus") then
 					local c = LeaPlusLC["RaidColors"][select(2, UnitClass("focus"))]
-					FocusFrameNameBackground:SetVertexColor(c.r, c.g, c.b)
+					if c then FocusFrameNameBackground:SetVertexColor(c.r, c.g, c.b) end
 				end
 			end
 
@@ -6914,7 +6914,7 @@
 			local uframe = CreateFrame("FRAME")
 
 			-- Create a table for each heading
-			ZoneList = {L["Eastern"], L["Kalimdor"], L["Outland"], L["Northrend"], L["Maelstrom"], L["Pandaria"], L["Draenor"], L["Broken Isles"], L["Dungeons"], L["Various"], L["Movies"]}
+			ZoneList = {L["Eastern"], L["Kalimdor"], L["Outland"], L["Northrend"], L["Maelstrom"], L["Pandaria"], L["Draenor"], L["Broken Isles"], L["Dungeons"], L["Various"], L["Random"], L["Search"], L["Movies"]}
 			for k, v in ipairs(ZoneList) do
 				ZoneList[v] = {}
 			end
@@ -6933,7 +6933,7 @@
 			Zn(L["Eastern"], L["Arathi Highlands"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Arathi Highlands"], "MUS_ArathiHighlands_GD#22292", "MUS_ArathiHighlands_GN#22293", "Zone-Desert Cave#5394", "Zone-Jungle Day#2525", "Zone-Mountain Night#2537", "Zone-Haunted#2990", "Zone-Orgrimmar#2901", "Zone-Volcanic Day#2529" , "Zone - Plaguelands#6066", "Moment - Battle05#6253", "Moment - Gloomy01#6074", "Moment-Stormwind08#5294",}) -- "Zone-Mystery#6065"
 			Zn(L["Eastern"], L["Badlands"]						, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Badlands"], "MUS_Badlands_GD#22294", "MUS_BadlandsGoblin#22695", "MUS_BadlandsOgre#22691", "MUS_NewKargath#22692", "MUS_ScarOfTheWorldBreaker#22693", "MUS_TombOfTheWatchers#22694",})
 			Zn(L["Eastern"], L["Blasted Lands"]					, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Blasted Lands"], "MUS_BlastedLands_GD#22296", "MUS_BlastedLandsGilnean#22688", "MUS_BlastedLandsHuman#22684", "MUS_BlastedLandsOgre#22682", "MUS_BlastedLandsShadowsworn#22679", "MUS_BlastedLandsTainted#22683", "MUS_BloodwashCavern#22680", "MUS_NethergardeMines#22686", "MUS_SunveilExcursion#22689", "MUS_TheDarkPortalIntro#22690",})
-			Zn(L["Eastern"], L["Burning Steppes"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Burning Steppes"], "MUS_BurningSteppes#22298", "MUS_BurningSteppesBlackrock#22674", "MUS_BlackwingDescent#23171", "MUS_DreadmaulRock#22675", "MUS_FireplumeRidge#22737", "MUS_MorgansVigil#22677", "Zone-Cursed Land Felwood#5455", "Zone-CursedLandFelwoodFurbolg#5456", "Zone-Orgrimmar#2901", "Zone-Volcanic Day#2529", "Zone - Plaguelands#6066",}) -- "Zone-Mystery#6065", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", 
+			Zn(L["Eastern"], L["Burning Steppes"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Burning Steppes"], "MUS_BurningSteppes#22298", "MUS_BurningSteppesBlackrock#22674", "MUS_BlackwingDescent#23171", "MUS_DreadmaulRock#22675", "MUS_FireplumeRidge#22737", "MUS_MorgansVigil#22677", "Zone-Cursed Land Felwood#5455", "Zone-CursedLandFelwoodFurbolg#5456", "Zone-Orgrimmar#2901", "Zone-Volcanic Day#2529", "Zone - Plaguelands#6066",}) -- "Zone-Mystery#6065", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082"
 			Zn(L["Eastern"], L["Cape of Stranglethorn"]			, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Cape of Stranglethorn"], "MUS_CapeStranglethornA#22656", "MUS_StranglethornGoblin#23781", "MUS_StranglethornTrollB#22653", "MUS_StranglethornTrollA#22654", "Zone-Jungle Day#2525", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082",}) -- "Zone-Mystery#6065"
 			Zn(L["Eastern"], L["Dun Morogh"]					, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Dun Morogh"], "MUS_DunMorogh_GD#22303", "MUS_DunMoroghTroll#22745", "MUS_ColdMountain_GU#22154", "MUS_DarkIronforge_GU#22160", "MUS_Gnomeregan#22756", "MUS_NewTinkertown#22753", "Zone-Evil Forest Night#2534", "Zone-Mountain Night#2537", "Zone-TavernAlliance#4516", "Zone-TavernDwarf01#11806",}) -- "Zone-Mystery#6065"
 			Zn(L["Eastern"], L["Duskwood"]						, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Duskwood"], "MUS_DuskwoodHaunted#22757", "MUS_DuskwoodHuman#22759", "MUS_DuskwoodWorgen#22758", "MUS_DuskwoodUndead#22760", "MUS_DustwallowOgre#22765", "MUS_HushedBank#22762", "MUS_TwilightGrove#22764", "Zone-EnchantedForest Night#2540", "Zone-EvilForest Day#2524", "Zone-Cursed Land Felwood#5455", "Zone-Volcanic Day#2529", "Zone - Plaguelands#6066",})
@@ -6945,17 +6945,17 @@
 			Zn(L["Eastern"], L["Hinterlands"]					, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Hinterlands"], "MUS_TheHinterlands_GD#22335", "MUS_HinterlandsMystical#22588", "MUS_HinterlandsNightElf#22565", "MUS_HinterlandsTrollA#22562", "MUS_HinterlandsTrollB#22564", "MUS_HinterlandsUndead#22563",})
 			Zn(L["Eastern"], L["Isle of Quel'Danas"]			, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Isle of Quel'Danas"], "Zone-GhostlandsDay#9803", "Zone-GhostlandsNight#9804", "Zone-QuelDanasDay#12528", "Zone-QuelDanasNight#12529",})
 			Zn(L["Eastern"], L["Loch Modan"]					, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Loch Modan"], "MUS_LochModan_GD#22319", "MUS_LochModanAlt_GD#22793", "MUS_LochModanOgre#22797", "MUS_LochModanTwilight#22799", "MUS_FarstriderLodgeIntro#22798", "MUS_IronbandsExcavationSite#22795", "MUS_IronwingCavernIntro#22796",})
-			Zn(L["Eastern"], L["Northern Stranglethorn"]		, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Northern Stranglethorn"], "MUS_NorthStranglethornA#22655", "MUS_StranglethornOgre#23780", "MUS_StranglethornTrollA#22654", "MUS_StranglethornVale_GU#22208", "MUS_ZandalariTroll#24681", "Zone-Jungle Day#2525", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone - Plaguelands#6066", "Moment - Zul Gurub#8452",}) --[["Zone-Mystery#6065"]] 
+			Zn(L["Eastern"], L["Northern Stranglethorn"]		, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Northern Stranglethorn"], "MUS_NorthStranglethornA#22655", "MUS_StranglethornOgre#23780", "MUS_StranglethornTrollA#22654", "MUS_StranglethornVale_GU#22208", "MUS_ZandalariTroll#24681", "Zone-Jungle Day#2525", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone - Plaguelands#6066", "Moment - Zul Gurub#8452",}) -- "Zone-Mystery#6065"
 			Zn(L["Eastern"], L["Redridge Mountains"]			, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Redridge Mountains"], "MUS_RedridgeMountains_GD#22701", "MUS_RedridgeBlackrock#22703", "MUS_Redridge_GD#22321",})
 			Zn(L["Eastern"], L["Ruins of Gilneas"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Ruins of Gilneas"], "MUS_GilneasForsaken#23086", "MUS_GilneasTown#23085", "MUS_Scarred_UU#22198", "MUS_Shadows_UU#22200",})
-			Zn(L["Eastern"], L["Searing Gorge"]					, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Searing Gorge"], "MUS_SearingGorgeA#22668", "MUS_SearingGorgeTwilight#22669", "MUS_TheCauldron#22671", "MUS_TheSlagPit#22673", "Zone-Volcanic Day#2529",}) -- "Zone-Desert Day#4754", "Zone-Desert Night#4755", "Zone-Jungle Day#2525", "Zone-Mystery#6065"]
+			Zn(L["Eastern"], L["Searing Gorge"]					, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Searing Gorge"], "MUS_SearingGorgeA#22668", "MUS_SearingGorgeTwilight#22669", "MUS_TheCauldron#22671", "MUS_TheSlagPit#22673", "Zone-Volcanic Day#2529",}) -- "Zone-Desert Day#4754", "Zone-Desert Night#4755", "Zone-Jungle Day#2525", "Zone-Mystery#6065"
 			Zn(L["Eastern"], L["Silverpine Forest"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Silverpine Forest"], "MUS_SilverpineForsaken#22665", "MUS_SilverpineHaunted#22667", "MUS_SilverpineHuman#22664", "MUS_SilverpineWorgen#22666", "MUS_ShadowfangKeep#23610", "Zone-Cursed Land Felwood#5455", "Zone-DarkForest#5376", "Zone-EvilForest Day#2524", "Zone-Haunted#2990", "Zone-TavernUndead#12137",}) -- "Moment - Battle04#6079"
 			Zn(L["Eastern"], L["Swamp of Sorrows"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Swamp of Sorrows"], "MUS_SwampOfSorrowsDraenei#22541", "MUS_SwampOfSorrowsGoblin#22539", "MUS_SwampOfSorrowsTroll#22542", "Zone-Evil Forest Night#2534", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone - Plaguelands#6066",}) -- "Zone-Mystery#6065", "Moment - Battle05#6253", "Moment - Battle02#6262", "Moment - Battle06#6350"
-			Zn(L["Eastern"], L["Tirisfal Glades"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Tirisfal Glades"], "MUS_TirisfalHaunted#22651", "MUS_UndercityAlt#22650", "MUS_70_Artif_TombofTyr_Walk#77240", "MUS_50_SM_Dungeon_ScarletEntranceWalk#33719", "MUS_50_SM_Dungeon_VestibuleWalk#33721", "Zone-EvilForest Day#2524", "Zone-Haunted#2990", "Zone-Undercity#5074", "Zone - Plaguelands#6066", "Zone-TavernHorde01#5355", "Zone-TavernUndead#12137", "Moment-Haunted02#5174",})
+			Zn(L["Eastern"], L["Tirisfal Glades"]				, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Tirisfal Glades"], "MUS_TirisfalHaunted#22651", "MUS_UndercityAlt#22650", "MUS_70_Artif_TombofTyr_Walk#77240", "MUS_50_SM_Dungeon_ScarletEntranceWalk#33719", "MUS_50_SM_Dungeon_VestibuleWalk#33721", "Zone-EvilForest Day#2524", "Zone-Haunted#2990", "Zone-Undercity#5074", "Zone - Plaguelands#6066", "Zone-TavernHorde01#5355", "Zone-TavernUndead#12137", "Moment-Haunted02#5174", "MUS_61_GarrisonMusicBox_15#49540",})
 			Zn(L["Eastern"], L["Tol Barad"]						, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Tol Barad"], "MUS_TolBarad_BG#23627",})
 			Zn(L["Eastern"], L["Twilight Highlands"]			, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Twilight Highlands"], "MUS_TwilightHighlands_GD (1)#23144", "MUS_TwilightHighlands_GN (1)#23145", "MUS_TwilightHighlandsCrystal#23159", "MUS_TwilightHighlandsHuman#23158", "MUS_TwilightHighlandsTwilightDay#23146", "MUS_TwilightOgre#23150", "MUS_BastionOfTwilight#23167", "MUS_Crushblow#23153", "MUS_DarkshoreCoast#23002", "MUS_GrimBatol#22637", "MUS_GrimBatolDungeonAlt#23169", "MUS_Krazzworks#23160", "MUS_TwilightHive#23796", "Zone-Forest Day#2523", "Zone-Volcanic Day#2529",})
 			Zn(L["Eastern"], L["Vashj'ir"]						, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Vashj'ir"], "MUS_AbyssalDepths_GN#22347", "MUS_KelpForest_GN#22349", "MUS_ShimmeringExpanse_GN#22351", "Zone-TavernPirate#11805",})
-			Zn(L["Eastern"], L["Western Plaguelands"]			, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Western Plaguelands"], "MUS_WPlaguelands_GD#22352", "MUS_WPlaguelands_GN#22353", "MUS_WestPlaguelands_Cursed#22560", "MUS_WestPlaguelands_Haunted#22561","Zone-Cursed Land Felwood#5455", "Zone-Haunted#2990", "Zone-Volcanic Day#2529", "Moment - Gloomy01#6074",}) -- "Zone-Soggy Night#6836", "Zone-Soggy Day#7082"
+			Zn(L["Eastern"], L["Western Plaguelands"]			, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Western Plaguelands"], "MUS_WPlaguelands_GD#22352", "MUS_WPlaguelands_GN#22353", "MUS_WestPlaguelands_Cursed#22560", "MUS_WestPlaguelands_Haunted#22561", "Zone-Cursed Land Felwood#5455", "Zone-Haunted#2990", "Zone-Volcanic Day#2529", "Moment - Gloomy01#6074",}) -- "Zone-Soggy Night#6836", "Zone-Soggy Day#7082"
 			Zn(L["Eastern"], L["Westfall"]						, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Westfall"], "MUS_WestfallA#22645", "MUS_WestfallB#22646", "MUS_Deadmines#23609", "Zone-BarrenDry Night#2536", "Zone-EvilForest Day#2524", "Zone-Forest Day#2523", "Zone-Plains Day#2528",}) -- "Zone-Mystery#6065", "Zone-Orgrimmar#2901"
 			Zn(L["Eastern"], L["Wetlands"]						, {	"|cffffd800" .. L["Eastern"] .. ": " .. L["Wetlands"], "MUS_Wetlands_GD#22356", "MUS_Wetlands_GN#22357", "MUS_WetlandsHuman#22639", "MUS_WetlandsOrcs#22632", "MUS_WetlandsNightElf#22635", "Zone-Forest Day#2523", "Zone-Haunted#2990", "Zone-Jungle Day#2525", "Zone-Night Forest#2533", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone - Plaguelands#6066", "Zone-TavernAlliance#4516", "Zone-TavernPirate#11805",}) -- "Zone-Mystery#6065"
 
@@ -6970,7 +6970,7 @@
 			Zn(L["Kalimdor"], L["Durotar"]						, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Durotar"], "MUS_Durotar_GD (1)#23032", "MUS_Durotar_GN (1)#23033", "MUS_DurotarCoast#23036", "MUS_DurotarTroll#23034", "MUS_BurningBladeCoven#23039", "MUS_SpitescaleCavern#23044", "Zone-Desert Cave#5394", "Zone-Jungle Day#2525", "Zone-Orgrimmar_Day#36308", "Zone-Orgrimmar_Night#36309", "Zone-Orgrimmar#2901", "Zone-Plains Day#2528", "Zone-TavernOrc#12328",}) -- "Zone-Mystery#6065"
 			Zn(L["Kalimdor"], L["Dustwallow Marsh"]				, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Dustwallow Marsh"], "MUS_Dustwallow_GD#22247", "MUS_Dustwallow_GN#22248", "MUS_DustwallowGoblin#22595", "MUS_DustwallowGrimtotem#22589", "MUS_DustwallowHaunted#22591", "MUS_DustwallowHuman#22590", "MUS_DustwallowJungle#22592", "MUS_DustwallowTauren#22594", "MUS_StonemaulRuins#22596", "MUS_50_Scenario_AllianceTheramore#34012", "MUS_50_Scenario_HordeTheramore#34013", "Zone-Evil Forest Night#2534", "Zone-Jungle Day#2525", "Zone-Stormwind#2532", "Zone-Volcanic Day#2529", "Zone - Orgrimmar02#6146", "Moment-Orc Barren#7474", "Moment-StormwindSouthSeas#6837",})
 			Zn(L["Kalimdor"], L["Felwood"]						, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Felwood"], "MUS_Felwood#22250", "MUS_FelwoodNightElf#22629", "MUS_FelwoodDruid#22631", "MUS_FelwoodHorde#22630", "Zone-Cursed Land Felwood#5455", "Zone-CursedLandFelwoodFurbolg#5456", "Zone-EvilForest Day#2524", "Zone-Soggy Day#7082", "Zone-Soggy Night#6836",})
-			Zn(L["Kalimdor"], L["Feralas"]						, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Feralas"], "MUS_Feralas_GD#22252", "MUS_Feralas_GN#22253", "MUS_FeralasBugs#22627", "MUS_FeralasGrimtotem#22604", "MUS_FeralasHaunted#22600", "MUS_FeralasHorde#22626", "MUS_FeralasNightElf#22603", "MUS_FeralasTauren#22599", "MUS_DreamBough#22601", "Zone-EnchantedForest Day#2530", "Zone-EnchantedForest Night#2540", "Zone-Desert Day#4754", "Zone-Desert Cave#5394", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone-TavernTauren#12329", "Zone-Volcanic Day#2529", "Zone - Plaguelands#6066", "Moment-Spooky01#5037", "Moment - Gloomy01#6074",}) -- "Zone-Mystery#6065"
+			Zn(L["Kalimdor"], L["Feralas"]						, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Feralas"], "MUS_Feralas_GD#22252", "MUS_Feralas_GN#22253", "MUS_FeralasBugs#22627", "MUS_FeralasGrimtotem#22604", "MUS_FeralasHaunted#22600", "MUS_FeralasHorde#22626", "MUS_FeralasNightElf#22603", "MUS_FeralasTauren#22599", "MUS_DreamBough#22601", "Zone-EnchantedForest Day#2530", "Zone-EnchantedForest Night#2540", "Zone-Desert Day#4754", "Zone-Desert Cave#5394", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone-TavernTauren#12329", "Zone-Volcanic Day#2529", "Zone - Plaguelands#6066", "Moment - Gloomy01#6074",}) -- "Zone-Mystery#6065", "Moment-Spooky01#5037"
 			Zn(L["Kalimdor"], L["Moonglade"]					, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Moonglade"], "MUS_Moonglade#22860", "MUS_StormrageBarrowDens#22864", "Zone-CursedLandFelwoodFurbolg#5456", "Zone-EvilForest Day#2524", "Zone-TavernTempleofTheMoon#12136",})
 			Zn(L["Kalimdor"], L["Mount Hyjal"]					, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Mount Hyjal"], "MUS_MountHyjal_GD#22906", "MUS_MountHyjal_GN#22907", "MUS_HyjalDruid#22914", "MUS_HyjalFire#22912", "MUS_HyjalLight#22923", "MUS_HyjalLycan#22920", "MUS_HyjalOgre#22913", "MUS_HyjalTwilightDay#22911", "MUS_HyjalTwilightFire#22908", "MUS_LakeEdunel#22915", "MUS_LeyarasSorrow#22918", "MUS_Nordrassil#22922",})
 			Zn(L["Kalimdor"], L["Mulgore"]						, {	"|cffffd800" .. L["Kalimdor"] .. ": " .. L["Mulgore"], "MUS_Mulgore_GD#22260", "MUS_Mulgore_GN#22262", "MUS_MulgoreGrimtotem#22812", "MUS_MulgoreTauren#22810", "MUS_Bael'dunDigsite#22809", "MUS_VentureCoMine#22808", "Zone-Desert Cave#5394", "Zone-Plains Day#2528", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone-Volcanic Day#2529", "Zone - Plaguelands#6066",})
@@ -6987,24 +6987,24 @@
 
 			-- Outland
 			Zn(L["Outland"], "|cffffd800" .. L["Outland"], {""})
-			Zn(L["Outland"], L["Blade's Edge Mountains"]		, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Blade's Edge Mountains"], "Zone-BladesEdge#9002", "Zone-BladesedgeDryForest#10609", "Zone-BladesEdgeGruulsLairWalk#10730", "Zone-OutlandsHordeBase#9785","Zone-Shaman#10163", "Zone-ZangarmarshCoilfangWalk#10726",})
-			Zn(L["Outland"], L["Hellfire Peninsula"]			, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Hellfire Peninsula"], --[["Zone - Plaguelands#6066"]] "Zone-HellfirePeninsula#9773", "Zone-ThrallmarWalk#10864", "Zone-OutlandBloodElfBase#10606", "Zone-OutlandDraeneiBase#10607", "Zone-OutlandsAllianceBase#9786",})
-			Zn(L["Outland"], L["Nagrand"]						, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Nagrand"], --[["Zone-Volcanic Day#2529"]] "Zone-NagrandDay#9012", "Zone-NagrandNight#9013", "Zone-OutlandsHordeBase#9785", "Zone-OutlandDraeneiBase#10607",})
+			Zn(L["Outland"], L["Blade's Edge Mountains"]		, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Blade's Edge Mountains"], "Zone-BladesEdge#9002", "Zone-BladesedgeDryForest#10609", "Zone-BladesEdgeGruulsLairWalk#10730", "Zone-OutlandsHordeBase#9785", "Zone-Shaman#10163", "Zone-ZangarmarshCoilfangWalk#10726",})
+			Zn(L["Outland"], L["Hellfire Peninsula"]			, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Hellfire Peninsula"], "Zone-HellfirePeninsula#9773", "Zone-ThrallmarWalk#10864", "Zone-OutlandBloodElfBase#10606", "Zone-OutlandDraeneiBase#10607", "Zone-OutlandsAllianceBase#9786",}) -- "Zone - Plaguelands#6066"
+			Zn(L["Outland"], L["Nagrand"]						, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Nagrand"], "Zone-NagrandDay#9012", "Zone-NagrandNight#9013", "Zone-OutlandsHordeBase#9785", "Zone-OutlandDraeneiBase#10607",}) -- "Zone-Volcanic Day#2529"
 			Zn(L["Outland"], L["Netherstorm"]					, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Netherstorm"], "Zone-Netherstorm#9284", "Zone-NetherplantWalking#10847", "Zone-NetherstormEco-Domes#10849", "Zone-OutlandBloodElfHostile#10856", "Zone-OutlandDraeneiBase#10607",})
-			Zn(L["Outland"], L["Shadowmoon Valley"]				, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Shadowmoon Valley"], "Zone-ShadowmoonValley#9285", "Zone-ZangarmarshCoilfangWalk#10726", "Zone-OutlandCorruptWalk#10848", "Zone-OutlandsHordeBase#9785", "Zone-OutlandsAllianceBase#9786", "Zone-OutlandDraeneiBase#10607", "Zone-BlackTempleWalk#11696", "Zone-BlackTempleKaraborWalk#11697", "Zone-BlackTempleSanctuaryWalk#11699", "Zone-BlackTempleAnguishWalk#11700", "Zone-BlackTempleVigilWalk#11701", "Zone-BlackTempleReliquaryWalk#11702", "Zone-BlackTempleDenWalk#11703",})
+			Zn(L["Outland"], L["Shadowmoon Valley"]				, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Shadowmoon Valley"], "Zone-ZangarmarshCoilfangWalk#10726", "Zone-OutlandCorruptWalk#10848", "Zone-OutlandsHordeBase#9785", "Zone-OutlandsAllianceBase#9786", "Zone-OutlandDraeneiBase#10607", "Zone-BlackTempleWalk#11696", "Zone-BlackTempleKaraborWalk#11697", "Zone-BlackTempleSanctuaryWalk#11699", "Zone-BlackTempleAnguishWalk#11700", "Zone-BlackTempleVigilWalk#11701", "Zone-BlackTempleReliquaryWalk#11702", "Zone-BlackTempleDenWalk#11703",})
 			Zn(L["Outland"], L["Terokkar Forest"]				, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Terokkar Forest"], "Zone-Terokkar#9150", "Zone-TerokkarAchinounWalk#10729", "Zone-BoneWastesUni#9991", "Zone-OutlandBloodElfHostile#10856", "Zone-OutlandDraeneiBase#10607", "Zone-OutlandsHordeBase#9785", "Zone-OutlandsAllianceBase#9786",})
-			Zn(L["Outland"], L["Zangarmarsh"]					, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Zangarmarsh"], --[["Moment - Gloomy01#6074"]] "Zone-ZangarMarsh#9149", "Zone-ZangarmarshCoilfangWalk#10726", "Zone-ExodarWalking#9972", "Zone-OutlandsHordeBase#9785", "Zone-OutlandDraeneiBase#10607", "Zone-TavernNightElf02#80449",})
+			Zn(L["Outland"], L["Zangarmarsh"]					, {	"|cffffd800" .. L["Outland"] .. ": " .. L["Zangarmarsh"], "Zone-ZangarMarsh#9149", "Zone-ZangarmarshCoilfangWalk#10726", "Zone-ExodarWalking#9972", "Zone-OutlandsHordeBase#9785", "Zone-OutlandDraeneiBase#10607", "Zone-TavernNightElf02#80449",}) -- "Moment - Gloomy01#6074"
 
 			-- Northrend
 			Zn(L["Northrend"], "|cffffd800" .. L["Northrend"], {""})
-			Zn(L["Northrend"], L["Borean Tundra"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Borean Tundra"], "Zone-BoreanTundraDay#12746", "Zone-BoreanTundraNight#12747", "Zone-BoreanTundraTuskarrDay#12562", "Zone-BoreanTundraTuskarrNight#12561", "Zone-BoreanTundraGeyserFields#15101", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-ColdarraGeneralWalk#14958", "Zone-ColdarraNexusEXT#14959", "Zone-NorthrenScourge#15049", "Zone-NorthrenOrcGeneralDay#15041", "Zone-NorthrenOrcGeneralNight#15042", "Zone-NorthrenRiplashDay#15044", "Zone-NorthrenRiplashNight#15045", "Zone-NorthrenDarker#15050", "Zone-NexusC#15059", "Zone-NexusD#15060", "Zone - NaxxramsDeathKnight#8687", "Zone-TavernAlliance#4516"})
-			Zn(L["Northrend"], L["Crystalsong Forest"]			, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Crystalsong Forest"], "Zone-CrystalSongForest#14905", "Zone-DalaranCity#14906", "Zone-DalaranCityCitadelInterior#14995", "Zone-DalaranSewersWalkUni#14908", "Zone-TavernAlliance#4516", "Zone-TavernHorde#5234", "MUS_60_Proudmoore_03#49358"})
-			Zn(L["Northrend"], L["Dragonblight"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Dragonblight"], "Zone-DragonblightDay#12744", "Zone-DragonblightNight#12745", "Zone-DragonblightTuskarrDay#12563", "Zone-DragonblightTuskarrNight#12564", "Zone-DragonBlightWyrmrestDay#15121", "Zone-DragonBlightWyrmrestNight#15122", --[["Zone-Haunted#2990"]] --[["Moment - Gloomy02#6075"]] --[["Zone-Soggy Night#6836"]] --[["Zone-Soggy Day#7082]] --[["Zone-EbonHDeathsBreachWalk#14961"]] "Zone-NaxxramasAbominationBoss#8888", "Zone-NaxxramasAbomination#8883", "Zone-NaxxramasSpider#8884", "Zone-NaxxramasPlagueBoss#8886", "Zone-NaxxramasPlague#8885", "Zone-NaxxramasSpiderBoss#8887", "Zone-NaxxramasKelthuzad#8889", "Zone-NaxxramasFrostWyrm#8890", "Zone - NaxxramsDeathKnight#8687", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-SholazarWalkDay#14893", "Zone-SholazarWalkNight#14894", --[["Zone-EbonHNewAvalonWalk#14964"]] "Zone-NorthrenOrcGeneralDay#15041", "Zone-NorthrenOrcGeneralNight#15042", "Zone-NorthrenRiplashDay#15044", "Zone-NorthrenRiplashNight#15045", "Zone-NorthrenTroll#15048", "Zone-NorthrenScourge#15049", "Zone-NorthrenDarker#15050", "Zone-AzjolNerubA#15096",})
-			Zn(L["Northrend"], L["Grizzly Hills"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Grizzly Hills"], --[["Zone-Mystery#6065"]] "Zone-GrizzlyHillsDay#12816", "Zone-GrizzlyHillsNight#12817", "Zone-GrizzlyHillsDayB#15036", "Zone-GrizzlyHillsNightB#15037", "Zone-GrizzlyHillsDayC#15038", "Zone-GrizzlyHillsNightC#15039", "Zone-GrizzlyHillsNightC-withTotems#77323", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-IronDwarfDay#12824", "Zone-IronDwarfNight#12825", --[["Zone-EbonHNewAvalonWalk#14964"]] "Zone-VrykulWalk#14997", "Zone-NorthrenOrcGeneralDay#15041", "Zone-NorthrenOrcGeneralNight#15042", "Zone-NorthrenRiplashDay#15044", "Zone-NorthrenRiplashNight#15045", "Zone-NorthrenTroll#15048",})
-			Zn(L["Northrend"], L["Howling Fjord"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Howling Fjord"], --[["Zone-Cursed Land Felwood#5455"]] --[["Zone-Mystery#6065"]] "Zone-HowlingFjordDay#12800", "Zone-HowlingFjordNight#12801", "Zone-HowlingFjordTuskarrDay#12565", "Zone-HowlingFjordTuskarrNight#12566", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-IronDwarfDay#12824", "Zone-IronDwarfNight#12825", "Zone-VrykulWalk#14997", --[["Zone-EbonHNewAvalonWalk#14964"]] "Zone-TavernUndead#12137", "Zone-TavernAlliance#4516"})
-			Zn(L["Northrend"], L["Icecrown"]					, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Icecrown"], --[["Zone - Plaguelands#6066"]] "Zone-IcecrownGeneralWalkDay#13801", "Zone-IcecrownGeneralWalkNight#13802", "Zone-ColdarraGeneralWalk#14958", --[["Zone-EbonHNewAvalonWalk#14964"]] "Zone-UtgardeA#15062", "Zone-VrykulWalk#14997", "Zone-NorthrenScourge#15049", "Zone-NorthrenDarker#15050", "Zone-IcecrownDungeonWalk#17278", "AT_TournamentNightWalk#15850", "AT_TournamentDayWalk#15851"})
+			Zn(L["Northrend"], L["Borean Tundra"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Borean Tundra"], "Zone-BoreanTundraDay#12746", "Zone-BoreanTundraNight#12747", "Zone-BoreanTundraTuskarrDay#12562", "Zone-BoreanTundraTuskarrNight#12561", "Zone-BoreanTundraGeyserFields#15101", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-ColdarraGeneralWalk#14958", "Zone-ColdarraNexusEXT#14959", "Zone-NorthrenScourge#15049", "Zone-NorthrenOrcGeneralDay#15041", "Zone-NorthrenOrcGeneralNight#15042", "Zone-NorthrenRiplashDay#15044", "Zone-NorthrenRiplashNight#15045", "Zone-NorthrenDarker#15050", "Zone-NexusC#15059", "Zone-NexusD#15060", "Zone - NaxxramsDeathKnight#8687", "Zone-TavernAlliance#4516",})
+			Zn(L["Northrend"], L["Crystalsong Forest"]			, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Crystalsong Forest"], "Zone-CrystalSongForest#14905", "Zone-DalaranCity#14906", "Zone-DalaranCityCitadelInterior#14995", "Zone-DalaranSewersWalkUni#14908", "Zone-TavernAlliance#4516", "Zone-TavernHorde#5234", "MUS_60_Proudmoore_03#49358",})
+			Zn(L["Northrend"], L["Dragonblight"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Dragonblight"], "Zone-DragonblightDay#12744", "Zone-DragonblightNight#12745", "Zone-DragonblightTuskarrDay#12563", "Zone-DragonblightTuskarrNight#12564", "Zone-DragonBlightWyrmrestDay#15121", "Zone-DragonBlightWyrmrestNight#15122", "Zone-NaxxramasAbominationBoss#8888", "Zone-NaxxramasAbomination#8883", "Zone-NaxxramasSpider#8884", "Zone-NaxxramasPlagueBoss#8886", "Zone-NaxxramasPlague#8885", "Zone-NaxxramasSpiderBoss#8887", "Zone-NaxxramasKelthuzad#8889", "Zone-NaxxramasFrostWyrm#8890", "Zone - NaxxramsDeathKnight#8687", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-SholazarWalkDay#14893", "Zone-SholazarWalkNight#14894", "Zone-NorthrenOrcGeneralDay#15041", "Zone-NorthrenOrcGeneralNight#15042", "Zone-NorthrenRiplashDay#15044", "Zone-NorthrenRiplashNight#15045", "Zone-NorthrenTroll#15048", "Zone-NorthrenScourge#15049", "Zone-NorthrenDarker#15050", "Zone-AzjolNerubA#15096",}) -- "Zone-Haunted#2990", "Moment - Gloomy02#6075", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Zone-EbonHDeathsBreachWalk#14961", "Zone-EbonHNewAvalonWalk#14964"
+			Zn(L["Northrend"], L["Grizzly Hills"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Grizzly Hills"], "Zone-GrizzlyHillsDay#12816", "Zone-GrizzlyHillsNight#12817", "Zone-GrizzlyHillsDayB#15036", "Zone-GrizzlyHillsNightB#15037", "Zone-GrizzlyHillsDayC#15038", "Zone-GrizzlyHillsNightC#15039", "Zone-GrizzlyHillsNightC-withTotems#77323", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-IronDwarfDay#12824", "Zone-IronDwarfNight#12825", "Zone-VrykulWalk#14997", "Zone-NorthrenOrcGeneralDay#15041", "Zone-NorthrenOrcGeneralNight#15042", "Zone-NorthrenRiplashDay#15044", "Zone-NorthrenRiplashNight#15045", "Zone-NorthrenTroll#15048",}) -- "Zone-Mystery#6065", "Zone-EbonHNewAvalonWalk#14964"
+			Zn(L["Northrend"], L["Howling Fjord"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Howling Fjord"], "Zone-HowlingFjordDay#12800", "Zone-HowlingFjordNight#12801", "Zone-HowlingFjordTuskarrDay#12565", "Zone-HowlingFjordTuskarrNight#12566", "Zone-TaunkaDay#12802", "Zone-TaunkaNight#12803", "Zone-IronDwarfDay#12824", "Zone-IronDwarfNight#12825", "Zone-VrykulWalk#14997", "Zone-TavernUndead#12137", "Zone-TavernAlliance#4516",}) -- "Zone-Cursed Land Felwood#5455", "Zone-Mystery#6065", "Zone-EbonHNewAvalonWalk#14964"
+			Zn(L["Northrend"], L["Icecrown"]					, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Icecrown"], "Zone-IcecrownGeneralWalkDay#13801", "Zone-IcecrownGeneralWalkNight#13802", "Zone-ColdarraGeneralWalk#14958", "Zone-UtgardeA#15062", "Zone-VrykulWalk#14997", "Zone-NorthrenScourge#15049", "Zone-NorthrenDarker#15050", "Zone-IcecrownDungeonWalk#17278", "AT_TournamentNightWalk#15850", "AT_TournamentDayWalk#15851",}) -- "Zone - Plaguelands#6066", "Zone-EbonHNewAvalonWalk#14964"
 			Zn(L["Northrend"], L["Sholazar Basin"]				, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Sholazar Basin"], "Zone-SholazarWalkDay#14893", "Zone-SholazarWalkNight#14894", "Zone-MakersTerrace#14896", "Zone-FireWalk#14897", "Zone-Pillartops#14898", "Zone-PathofLife#14902", "Zone-UlduarStoneGeneralWalk#14937",})
-			Zn(L["Northrend"], L["Storm Peaks"]					, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Storm Peaks"], --[["Zone-Mystery#6065"]] --[["Zone-Soggy Night#6836"]] --[["Zone-Soggy Day#7082"]] --[["Moment-Monestery#7519"]] "Zone-StormpeaksDay#13799", "Zone-StormpeaksNight#13800", "Zone-IronDwarfDay#12824", "Zone-IronDwarfNight#12825", "Zone-UlduarStoneBattleWalk#14939", --[["Zone-EbonHNewAvalonWalk#14964"]] "Zone-VrykulWalk#14997", "Zone-NorthrenDarker#15050", "UR_FormationGroundsWalk#15862",})
+			Zn(L["Northrend"], L["Storm Peaks"]					, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Storm Peaks"], "Zone-StormpeaksDay#13799", "Zone-StormpeaksNight#13800", "Zone-IronDwarfDay#12824", "Zone-IronDwarfNight#12825", "Zone-UlduarStoneBattleWalk#14939", "Zone-VrykulWalk#14997", "Zone-NorthrenDarker#15050", "UR_FormationGroundsWalk#15862",}) -- "Zone-Mystery#6065", "Zone-Soggy Night#6836", "Zone-Soggy Day#7082", "Moment-Monestery#7519", "Zone-EbonHNewAvalonWalk#14964"
 			Zn(L["Northrend"], L["Wintergrasp"]					, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Wintergrasp"], "Zone-WintergraspContested#14912", "Zone-UldarLightningGeneralWalk#14942",})
 			Zn(L["Northrend"], L["Zul'Drak"]					, {	"|cffffd800" .. L["Northrend"] .. ": " .. L["Zul'Drak"], "Zone-ZulDrakGeneralWalkDay#13804", "Zone-ZulDrakGeneralWalkNight#13805", "Zone-ZuldrakMamtoth#15114", "Zone-ZuldrakQuetzlun#15115", "Zone-ZuldrakRhunok#15116", "Zone-ZuldrakSsertus#15117", "Zone-EbonHDeathsBreachWalk#14961", "Zone-DraktharonRaptorPens#15087", "Zone-NorthrenScourge#15049", "Zone - NaxxramsDeathKnight#8687",})
 
@@ -7020,17 +7020,18 @@
 			Zn(L["Pandaria"], L["Isle of Thunder"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Isle of Thunder"], "MUS_52_IOTK_IsleOfThunder_General_Walk#36641", "MUS_52_IOTK_Zandalari1_General_Walk#36642", "MUS_52_IOTK_Zandalari2_General_Walk#36644", "MUS_52_IOTK_Zandalari3_General_Walk#36678", "MUS_52_IOTK_Saurok_Walk#36681", "MUS_52_IOTK_MoguGraveyard_Walk#36769", "MUS_52_IOTK_MoguCaves_Walk#36781", "MUS_52_IOTK_Raid_Wing3_AncientMogu_Walk#36782", "MUS_52_IOTK_LootRoom_Intensity1#36909", "MUS_52_IOTK_LootRoom_Intensity2#36910", "MUS_52_IOTK_LootRoom_Intensity3#36911", "MUS_52_IOTK_LootRoom_Intensity0#36916", "MUS_52_IOTK_ShadoPan_Walk#36967", "MUS_52_IOTK_HordeHub_Walk#36770", "MUS_52_IOTK_AllianceHub_Walk#36771", "MUS_52_TKRaid_ThroneOfThunder_Main#36702",})
 			Zn(L["Pandaria"], L["Jade Forest"]					, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Jade Forest"], "MUS_50_JF_JadeForest_GeneralWalk_Day#29196", "MUS_50_JF_JadeForest_GeneralWalk_Night#31837", "MUS_50_JF_SerpentsHeart_Day#31838", "MUS_50_JF_SerpentsHeart_Night#31839", "MUS_50_JF_TempleoftheJadeSerpent_CourtyardWalk#29202", "MUS_50_JF_Windspire_Walk#30621", "MUS_50_JF_JadeForest_VillageWalk#33641", "MUS_50_JF_LairoftheJadeWitch_Walk#34014", "MUS_50_JF_EmperorsOmen_Walk#34022", "MUS_50_SpiritCave_Walk#29218", "MUS_50_Spirits_B#33112", "MUS_50_Hozen_Walk_Day#30437", "MUS_50_Hozen_Walk_Night#33640", "MUS_50_Mogu_Walk#30527", "MUS_50_Jinyu_Day#31124", "MUS_50_Jinyu_Night#33639", "MUS_50_PandarenTavern_A#33540", "MUS_50_TJS_FountainoftheEverseeing_Walk#30456", "MUS_50_TJS_Dungeon_FountainoftheEverseeing_Walk#31987", "MUS_50_TJS_Dungeon_ShaofDoubt_Battle#31990", "MUS_50_TJS_Dungeon_ScrollkeepersSanctum_Battle#31991", "MUS_50_TJS_Dungeon_TempleoftheJadeSerpent_GeneralWalk#31992",}) -- "Zone-IcecrownGeneralWalkDay#13801", "Zone-IcecrownGeneralWalkNight#13802"
 			Zn(L["Pandaria"], L["Krasarang Wilds"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Krasarang Wilds"], "MUS_50_KW_TurtleBeach_Day#33376", "MUS_50_KW_TurtleBeach_Night#33379", "MUS_50_KW_KrasarangWilds_Jungle#33894", "MUS_50_KW_KrasarangWilds_Coast#33895", "MUS_50_KW_TempleoftheRedCrane_Walk#33897", "MUS_50_KW_Hozen_Walk#33898", "MUS_51_KW_KrasarangWilds_Goblin_Walk#34884", "MUS_51_KW_KrasarangWilds_MoguCave#34885", "MUS_51_KW_LionsLanding_Day_Walk#34880", "MUS_51_KW_LionsLanding_Night_Walk#34881", "MUS_51_KW_DominationPoint_Walk#34883", "MUS_50_Mogu_Walk#30527", "MUS_50_Jinyu_Day#31124", "MUS_50_Jinyu_Night#33639", "MUS_50_GSS_SerpentSpine_VEB_DW_Walk#34001", "MUS_50_CaveGeneric_A#34021", "MUS_51_Scenario_ALittlePatience#34979",}) -- "MUS_Kezan#22254", "MUS_MulgoreTauren#22810", "MUS_FrazzlecrazMotherlode#22841", "MUS_DesolaceNightElf#23021", "MUS_43_DarkmoonFaire_IslandWalk#26536"
-			Zn(L["Pandaria"], L["Kun-Lai Summit"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Kun-Lai Summit"],"MUS_50_KLS_ValleyofEmperors_GeneralWalk#33885", "MUS_50_KLS_Mountains_GeneralWalk_Day#33865", "MUS_50_KLS_Mountains_GeneralWalk_Night#33866", "MUS_50_KLS_MountainHozen_Walk#33869", "MUS_50_KLS_YaungolAdvance_Walk#33867", "MUS_50_KLS_GrummleCamp_Walk#33870", "MUS_50_KLS_TempleoftheWhiteTiger_Walk#33872", "MUS_50_KLS_PeakofSerenity_Walk#33874", "MUS_50_KLS_PeakofSerenity_MistweaverWalk#33875", "MUS_50_KLS_PeakofSerenity_BrewmasterWalk#33876", "MUS_50_KLS_PeakofSerenity_WindwalkerWalk#33877", "MUS_50_KLS_PeakofSerenity_CraneWalk#33878", "MUS_50_KLS_ZouchinVillage_Walk#33880", "MUS_50_KLS_IsleofReckoning_Walk#33881", "MUS_50_KLS_ShadopanDefenseForce#33882", "MUS_50_KLS_TheBurlapTrail_Walk#33883", "MUS_50_KLS_ValleyofEmperors_GeneralWalk#33885", "MUS_50_KLS_YakWash_Walk#33886", "MUS_50_Jinyu_Day#31124", "MUS_50_Jinyu_Night#33639", "MUS_50_Spirits_B#33112", "MUS_50_MischiefMakers_GeneralWalk#33537", "MUS_50_PandarenTavern_A#33540", "MUS_50_SPM_Dungeon_ShadoPan_GeneralWalk#33651", "MUS_50_SPM_ShadoPan_GeneralWalk#33694"}) -- "Zone-Desert Cave#5394", "Zone - Plaguelands#6066" 
+			Zn(L["Pandaria"], L["Kun-Lai Summit"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Kun-Lai Summit"], "MUS_50_KLS_ValleyofEmperors_GeneralWalk#33885", "MUS_50_KLS_Mountains_GeneralWalk_Day#33865", "MUS_50_KLS_Mountains_GeneralWalk_Night#33866", "MUS_50_KLS_MountainHozen_Walk#33869", "MUS_50_KLS_YaungolAdvance_Walk#33867", "MUS_50_KLS_GrummleCamp_Walk#33870", "MUS_50_KLS_TempleoftheWhiteTiger_Walk#33872", "MUS_50_KLS_PeakofSerenity_Walk#33874", "MUS_50_KLS_PeakofSerenity_MistweaverWalk#33875", "MUS_50_KLS_PeakofSerenity_BrewmasterWalk#33876", "MUS_50_KLS_PeakofSerenity_WindwalkerWalk#33877", "MUS_50_KLS_PeakofSerenity_CraneWalk#33878", "MUS_50_KLS_ZouchinVillage_Walk#33880", "MUS_50_KLS_IsleofReckoning_Walk#33881", "MUS_50_KLS_ShadopanDefenseForce#33882", "MUS_50_KLS_TheBurlapTrail_Walk#33883", "MUS_50_KLS_YakWash_Walk#33886", "MUS_50_Jinyu_Day#31124", "MUS_50_Jinyu_Night#33639", "MUS_50_Spirits_B#33112", "MUS_50_MischiefMakers_GeneralWalk#33537", "MUS_50_PandarenTavern_A#33540", "MUS_50_SPM_Dungeon_ShadoPan_GeneralWalk#33651", "MUS_50_SPM_ShadoPan_GeneralWalk#33694",}) -- "Zone-Desert Cave#5394", "Zone - Plaguelands#6066" 
 			Zn(L["Pandaria"], L["Timeless Isle"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Timeless Isle"], "MUS_54_TI_TimelessIsle_Intro#39124", "MUS_54_TI_TimelessIsle_GeneralWalk_Day#39129", "MUS_54_TI_TimelessIsle_GeneralWalk_Night#39128", "MUS_54_TI_Timeless_VillageWalk#39126", "MUS_54_TI_Timeless_CelestialCourt#39687", "MUS_54_TI_Timeless_OrdonSantuary#39688", "MUS_54_TI_Timeless_FirewalkersPath#39689",})
 			Zn(L["Pandaria"], L["Townlong Steppes"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Townlong Steppes"], "MUS_50_TownlongSteppes_GeneralWalk_Day#30435", "MUS_50_TownlongSteppes_GeneralWalk_Night#31836", "MUS_50_TS_SikvessLair_Walk#33855", "MUS_50_TS_FarwatchOverlook_Walk#33856", "MUS_50_TS_GaoRan_Walk#33859", "MUS_50_TS_Sravess_Walk#33961", "MUS_50_TS_Sumprush_Walk#33858", "MUS_50_TS_HatredsVice_Walk#33861", "MUS_50_TS_FireCampGaiCho_Walk#33934", "MUS_50_TS_GaiChoBattlefield_Walk#33935", "MUS_50_SiegeofNiuzaoTemple_Hero#30624", "MUS_50_Spirits_B#33112",}) -- "Zone-Mystery#6065"
+			Zn(L["Pandaria"], L["Vale of Eternal Blossoms"]		, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Vale of Eternal Blossoms"], "MUS_50_VEB_ValeofEternalBlossom_GeneralDay_Walk#29205", "MUS_50_VEB_ValeofEternalBlossom_GeneralNight_Walk#30638", "MUS_50_VEB_TheGoldenPagoda_Walk#33780", "MUS_50_VEB_AncestralRise_Walk#33781", "MUS_50_VEB_MSP_Exterior_Walk#33785", "MUS_50_VEB_Shrine_TheStarsBazaar_A_Walk#33786", "MUS_50_VEB_Shrine_TheEmperorsStep_A_Walk#33787", "MUS_50_VEB_Shrine_TheGoldenLantern_Walk#33789", "MUS_50_VEB_Shrine_ChamberofReflection_A_Walk#33791", "MUS_50_VEB_Shrine_PathofSerentiy_A_Walk#33796", "MUS_50_VEB_Shrine_EtherealCorridor_A_Walk#33797", "MUS_50_VEB_Shrine_ChamberofEnlightenment_A_Walk#33798", "MUS_50_VEB_Shrine_TheCelestialVault_A_Walk#33799", "MUS_50_VEB_Shrine_TheKeggary_Walk#33808", "MUS_50_VEB_RuinsRise_Walk#33810", "MUS_50_VEB_RuinsofGuoLai_Walk#33811", "MUS_50_VEB_TheFiveSisters_Walk#33812", "MUS_50_VEB_SettingSunGarrison_Walk#33813", "MUS_50_VEB_SettingSunGarrison_Brewery_Walk#33814", "MUS_50_VEB_TheSilentSanctuary_Walk#33815", "MUS_50_VEB_TheGoldenRose#33816", "MUS_50_VEB_WhitepetalLake_Walk#33817", "MUS_50_VEB_TheSummerFields_Walk#33991", "MUS_54_VEB_Corrupted_Worst_Day#39683", "MUS_54_VEB_Corrupted_Worst_Night#39684", "MUS_54_VEB_Corrupted_Moderate_Day#39685", "MUS_54_VEB_Corrupted_Moderate_Night#39686", "MUS_50_VEB_Shrine_ChamberofEnlightenment_H_Walk#39697", "MUS_50_VEB_Shrine_TheEmperorsStep_H_Walk#39698", "MUS_50_VEB_Shrine_PathofSerentiy_H_Walk#39699", "MUS_50_VEB_Shrine_EtherealCorridor_H_Walk#39700", "MUS_50_VEB_Shrine_TheCelestialVault_H_Walk#39701", "MUS_50_VEB_Shrine_TheStarsBazaar_H_Walk#39702",})
 			Zn(L["Pandaria"], L["Valley of the Four Winds"]		, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Valley of the Four Winds"], "MUS_50_VFW_TheHeartlandWalk_Day#31830", "MUS_50_VFW_TheHeartlandWalk_Night#30533", "MUS_50_VFW_GeneralWalk_Day#33686", "MUS_50_VFW_GeneralWalk_Night#33687", "MUS_50_VFW_PeacefulWalk#33689", "MUS_50_VFW_WindsEdgeWalk#33690", "MUS_50_VFW_BreweryWalk#33691", "MUS_50_VFW_TheHiddenMaster_Walk#33688", "MUS_50_Hozen_Walk_Day#30437", "MUS_50_Spirits_B#33112", "MUS_50_Jinyu_Day#31124", "MUS_50_MischiefMakers_GeneralWalk#33537", "MUS_50_PandarenTavern_A#33540", "MUS_50_GSS_SerpentSpine_VFW_DW_Walk#34002",})
 			Zn(L["Pandaria"], L["Wandering Isle"]				, {	"|cffffd800" .. L["Pandaria"] .. ": " .. L["Wandering Isle"], "MUS_50_WanderingIsle_GeneralWalk#25837", "MUS_50_WanderingIsle_GeneralIndoors#25838", "MUS_50_WanderingIsle_PeiWuWalk#25833", "MUS_50_WanderingIsle_HozenWalk#25834", "MUS_50_WanderingIsle_SpiritsWalk#25835", "MUS_50_WanderingIsle_WoodofStavesWalk#25836", "MUS_50_WanderingIsle_TrainingWalk#25851", "MUS_50_WanderingIsle_TempleWalk#25854", "MUS_50_WanderingIsle_Temple_PreFire#33596", "MUS_50_WanderingIsle_Temple_Water/Earth#33597", "MUS_50_WanderingIsle_Temple_Air#33598",})
 
 			-- Draenor
 			Zn(L["Draenor"], "|cffffd800" .. L["Draenor"], {""})
 			Zn(L["Draenor"], L["Ashran"]						, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Ashran"], "MUS_60_PVP_Ashran_GeneralWalk#48481", "MUS_60_PVP_Ashran_AmphitheaterofAnnihilation_Walk#48500", "MUS_60_PVP_Ashran_AshmaulBurialGrounds#48482", "MUS_60_PVP_Ashran_MoltenQuarry_Walk#48485", "MUS_60_PVP_Ashran_OgreMine_Walk#48486", "MUS_60_PVP_Ashran_RingOfConquest_Walk#48641", "MUS_60_PVP_Ashran_RoadofGlory_Walk#48480", "MUS_60_PVP_Ashran_Stormshield_Battle#48537", "MUS_60_PVP_Ashran_Stormshield_Messhall_Harp#47068", "MUS_60_PVP_Ashran_Stormshield_Walk#48487", "MUS_60_PVP_Ashran_Warspear_Battle#48538", "MUS_60_PVP_Ashran_Warspear_Walk#48488",})
-			Zn(L["Draenor"], L["Frostfire Ridge"]				, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Frostfire Ridge"], "MUS_60_FFR_General_Walk#49001", "MUS_60_FFR_General_Night_Walk#49355", "MUS_60_FFR_DarkRock#49005", "MUS_60_FFR_Fel_Walk#49194", "MUS_60_FFR_Frostwolf_Walk#49189", "MUS_60_FFR_IronHorde_Walk#49191", "MUS_60_FFR_Mushroom_Sea_Walk#49193", "MUS_60_FFR_Ogre_Battle#49195", "MUS_60_FFR_Ogre_Walk#49192", "MUS_60_FFR_Thunderlord_Walk#49190"})
-			Zn(L["Draenor"], L["Gorgrond"]						, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Gorgrond"], "MUS_60_Gorgrond_Blackrock_Walk#48914", "MUS_60_Gorgrond_CrimsonFen_Walk#48915","MUS_60_Gorgrond_Jungle_Walk#48912", "MUS_60_Gorgrond_LaughingSkull_Walk#48909", "MUS_60_Gorgrond_Mushroom_Sea_Walk#48911", "MUS_60_Gorgrond_Wasteland_Walk#48913",})
+			Zn(L["Draenor"], L["Frostfire Ridge"]				, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Frostfire Ridge"], "MUS_60_FFR_General_Walk#49001", "MUS_60_FFR_General_Night_Walk#49355", "MUS_60_FFR_DarkRock#49005", "MUS_60_FFR_Fel_Walk#49194", "MUS_60_FFR_Frostwolf_Walk#49189", "MUS_60_FFR_IronHorde_Walk#49191", "MUS_60_FFR_Mushroom_Sea_Walk#49193", "MUS_60_FFR_Ogre_Battle#49195", "MUS_60_FFR_Ogre_Walk#49192", "MUS_60_FFR_Thunderlord_Walk#49190",})
+			Zn(L["Draenor"], L["Gorgrond"]						, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Gorgrond"], "MUS_60_Gorgrond_Blackrock_Walk#48914", "MUS_60_Gorgrond_CrimsonFen_Walk#48915", "MUS_60_Gorgrond_Jungle_Walk#48912", "MUS_60_Gorgrond_LaughingSkull_Walk#48909", "MUS_60_Gorgrond_Mushroom_Sea_Walk#48911", "MUS_60_Gorgrond_Wasteland_Walk#48913",})
 			Zn(L["Draenor"], L["Nagrand (Draenor)"]				, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Nagrand"], "MUS_60_NGD_General_Walk#49065", "MUS_60_NGD_General_Night_Walk#49066", "MUS_60_NGD_BurningBlade_Walk#49076", "MUS_60_NGD_IronHorde_Walk#49072", "MUS_60_NGD_Mushroom_Walk#49070", "MUS_60_NGD_Ogre_Walk#49068", "MUS_60_NGD_OrcAncestors_Walk#49078", "MUS_60_NGD_Oshu'gun_Walk#49069", "MUS_60_NGD_RingofTrials_ArenaFloor_Battle#49077", "MUS_60_NGD_Underpale_Walk#49075", "MUS_60_NGD_Warsong_Walk#49067",})
 			Zn(L["Draenor"], L["Shadowmoon Valley (Draenor)"]	, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Shadowmoon Valley"], "MUS_60_SMV_General_Walk#48553", "MUS_60_SMV_General_Night_Walk#48554", "MUS_60_SMV_Cultist_Walk#48555", "MUS_60_SMV_DarkDraenei_Walk#49030", "MUS_60_SMV_Draenei_Karabor_Walk#48562", "MUS_60_SMV_Draenei_Walk#48559", "MUS_60_SMV_Fel_Walk#48556", "MUS_60_SMV_IronHorde_Walk#49031", "MUS_60_SMV_MoonMagic_Walk#48560", "MUS_60_SMV_Mushroom_Walk#48561", "MUS_60_SMV_NerzhulFinale_CultistBattle_Phase#49254", "MUS_60_SMV_Podling_Walk#48558", "MUS_60_SMV_Primals_Walk#48557", "MUS_60_SMV_YrelsCoronation_Phase_Playlist#49250", "MUS_60_SMV_Vignette_VindicatorTorvath#43487",})
 			Zn(L["Draenor"], L["Spires of Arak"]				, {	"|cffffd800" .. L["Draenor"] .. ": " .. L["Spires of Arak"], "MUS_60_SOA_General_Walk#48883", "MUS_60_SOA_AdmiralTaylorsGarrison_Inn#49032", "MUS_60_SOA_AdmiralTaylorsGarrison_Walk#48896", "MUS_60_SOA_Arakkoa_BombingRun#49174", "MUS_60_SOA_Arakkoa_Exiles_Walk#48894", "MUS_60_SOA_Arakkoa_Exiles_Night_Walk#49034", "MUS_60_SOA_Arakkoa_High_Walk#48885", "MUS_60_SOA_AvatarofTerokk_Phase#49176", "MUS_60_SOA_Axefall_Garrison_Walk#49037", "MUS_60_SOA_Bladefist_Walk#49035", "MUS_60_SOA_Goblin_Walk#48887", "MUS_60_SOA_Mushroom_Walk#48897", "MUS_60_SOA_SethekkHollow_Walk#48895", "MUS_60_SOA_Southport_Garrison_Walk#49036",})
@@ -7042,9 +7043,9 @@
 			Zn(L["Broken Isles"], L["Antoran Wastes (Argus)"]	, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Antoran Wastes (Argus)"], "MUS_73_AntoranWastes_GeneralWalk#90584", "MUS_73_AntoranWastes_FullLegionWalk#90587", "MUS_73_AntoranWastes_HoldoutWalk#90586", "MUS_70_Invasion_Legion_GeneralWalk#75371", "MUS_70_Mardum_TheDoomFortress#56362", "MUS_73_Vindicaar_Walk_OverAntoranWastes_Gold#90700", "MUS_73_RAID_AntorusGeneralWalk#90609",})
 			Zn(L["Broken Isles"], L["Azsuna"]					, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Azsuna"], "MUS_70_Zone_Azsuna_GeneralWalk_Day#73363", "MUS_70_Zone_Azsuna_GeneralWalk_Night#73362", "MUS_70_Zone_Azsuna_Artif_Walk#77082", "MUS_70_Zone_Azsuna_Legion_WalkE#75106", "MUS_70_Zone_Azsuna_Sombre_Walk#77083", "MUS_70_Zone_Azsuna_WalkB#75104", "MUS_70_Zone_Azsuna_WalkC#75105", "MUS_70_Zone_Azsuna_WalkD#75216",})
 			Zn(L["Broken Isles"], L["Broken Shore"]				, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Broken Shore"], "MUS_70_BrokenShore_GeneralWalk_A#75355", "MUS_70_BrokenShore_Alliance_Walk#75363", "MUS_70_BrokenShore_Ashbringer_Moment#53990", "MUS_70_BrokenShore_Horde_Walk#75366", "MUS_70_BrokenShore_Legion_Walk_TensionA#75367", "MUS_70_BrokenShore_Legion_Walk_TensionB#75368", "MUS_70_Artif_BrokenShore_BattleWalk#53988", "MUS_70_Artif_BrokenShore_CaveWalk#53989",})
-			Zn(L["Broken Isles"], L["Dalaran"]					, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Dalaran"], "MUS_70_Zone_Dalaran_Ext_GeneralWalk_DAY#70715", "MUS_70_Zone_Dalaran_Ext_GeneralWalk_NIGHT#70716", "MUS_70_Zone_Dalaran_Ext_KrasusLanding#75072", "MUS_70_Zone_Dalaran_Brewfest_Beergarden#75107", "MUS_70_Zone_Dalaran_Mage_OH_Bold#75109", "MUS_70_Zone_Dalaran_Mage_OH_Light#75108", "MUS_70_Zone_Dalaran_Mage_Walk_A#75050", "MUS_70_Zone_Dalaran_Mage_Walk_B#75052", "MUS_70_Zone_Dalaran_Rogue_Walk_A#75292", "MUS_70_Zone_Dalaran_Rogue_Walk_B#75293", "MUS_70_Zone_Dalaran_Sewers_Walk_A#75048", "MUS_70_Zone_Dalaran_Sewers_Walk_B#75049", "MUS_70_Zone_Dalaran_Sewer_DwarfBardEmitter#75094",})
+			Zn(L["Broken Isles"], L["Dalaran"]					, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Dalaran"], "MUS_70_Zone_Dalaran_Ext_GeneralWalk_DAY#70715", "MUS_70_Zone_Dalaran_Ext_GeneralWalk_NIGHT#70716", "MUS_70_Zone_Dalaran_Ext_KrasusLanding#75072", "MUS_70_Zone_Dalaran_Mage_OH_Bold#75109", "MUS_70_Zone_Dalaran_Mage_OH_Light#75108", "MUS_70_Zone_Dalaran_Mage_Walk_A#75050", "MUS_70_Zone_Dalaran_Mage_Walk_B#75052", "MUS_70_Zone_Dalaran_Rogue_Walk_A#75292", "MUS_70_Zone_Dalaran_Rogue_Walk_B#75293", "MUS_70_Zone_Dalaran_Sewers_Walk_A#75048", "MUS_70_Zone_Dalaran_Sewers_Walk_B#75049",}) -- "MUS_70_Zone_Dalaran_Brewfest_Beergarden#75107", "MUS_70_Zone_Dalaran_Sewer_DwarfBardEmitter#75094"
 			Zn(L["Broken Isles"], L["Eye of Azshara"]			, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Eye of Azshara"], "MUS_70_EyeofAzshara_Walk_A#75040", "MUS_70_EyeofAzshara_Walk_C#74973",})
-			Zn(L["Broken Isles"], L["Highmountain"]				, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Highmountain"], "MUS_70_Zone_Highmountain_Mountain_General_Walk#73367", "MUS_70_Zone_Highmountain_Azshara_HulnFlashback_Walk#22964", "MUS_70_Zone_Highmountain_Bloodtotem#73366", "MUS_70_Zone_Highmountain_Coast_Walk#76578","MUS_70_Zone_Highmountain_DrogbarEarth_Walk#76613", "MUS_70_Zone_Highmountain_HunterLodge_Walk#76579", "MUS_70_Zone_Highmountain_River#76575", "MUS_70_Zone_Highmountain_ThunderTotem_Inn#76616", "MUS_70_Zone_Highmountain_ThunderTotem_Walk#76577",})
+			Zn(L["Broken Isles"], L["Highmountain"]				, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Highmountain"], "MUS_70_Zone_Highmountain_Mountain_General_Walk#73367", "MUS_70_Zone_Highmountain_Azshara_HulnFlashback_Walk#22964", "MUS_70_Zone_Highmountain_Bloodtotem#73366", "MUS_70_Zone_Highmountain_Coast_Walk#76578", "MUS_70_Zone_Highmountain_DrogbarEarth_Walk#76613", "MUS_70_Zone_Highmountain_HunterLodge_Walk#76579", "MUS_70_Zone_Highmountain_River#76575", "MUS_70_Zone_Highmountain_ThunderTotem_Inn#76616", "MUS_70_Zone_Highmountain_ThunderTotem_Walk#76577",})
 			Zn(L["Broken Isles"], L["Krokuun (Argus)"]			, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Krokuun (Argus)"], "mus_73_krokuun_generalwalk#90541", "mus_73_krokuun_battlefieldwalk#90542", "mus_73_krokuun_courtoftheavenger#90545", "mus_73_krokuun_xenedarlandingwalk#90543", "mus_73_vindicaar_walk_overkrokuun_gold#90698",})
 			Zn(L["Broken Isles"], L["Mac'Aree (Argus)"]			, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Mac'Aree (Argus)"], "MUS_73_MacAree_GeneralWalk#90485", "MUS_73_MacAree_VoidFullWalk#90509", "MUS_73_MacAree_KiljaedenWalk#90510", "MUS_73_TheSeatoftheTriumvirate_VoidMediumWalk#90573", "MUS_73_Vindicaar_Walk_OverMacAree_Gold#90699",})
 			Zn(L["Broken Isles"], L["Mardum"]					, {	"|cffffd800" .. L["Broken Isles"] .. ": " .. L["Mardum"], "MUS_70_Mardum_WalkA#56358", "MUS_70_Mardum_WalkB#56361", "MUS_70_Mardum_WalkC#56360", "MUS_70_Mardum_IllidariFoothold#56363", "MUS_70_Mardum_TheDoomFortress#56362",})
@@ -7056,8 +7057,8 @@
 			Zn(L["Dungeons"], "|cffffd800" .. L["World of Warcraft"], {""})
 			Zn(L["Dungeons"], L["Blackfathom Deeps"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackfathom Deeps"], "Zone-Desert Day#4754", "Zone-Desert Night#4755",})
 			Zn(L["Dungeons"], L["Blackwing Lair"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackwing Lair"], "Zone - Plaguelands#6066",})
-			Zn(L["Dungeons"], L["Deadmines"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Deadmines"], "MUS_Deadmines#23609", "MUS_ChoGall_E#22151", "Zone-Orgrimmar#2901"}) -- "Zone-Mystery#6065"
-			Zn(L["Dungeons"], L["Dire Maul"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Dire Maul"], "Zone-EnchantedForest Day#2530", "Zone-EnchantedForest Night#2540", "Zone-Evil Forest Night#2534", "Moment-Spooky01#5037",})
+			Zn(L["Dungeons"], L["Deadmines"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Deadmines"], "MUS_Deadmines#23609", "MUS_ChoGall_E#22151", "Zone-Orgrimmar#2901", "Moment-Spooky01#5037",}) -- "Zone-Mystery#6065"
+			Zn(L["Dungeons"], L["Dire Maul"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Dire Maul"], "Zone-EnchantedForest Day#2530", "Zone-EnchantedForest Night#2540", "Zone-Evil Forest Night#2534",})
 			Zn(L["Dungeons"], L["Gnomeregan"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Gnomeregan"], "Zone-Gnomeragon#7341",})
 			Zn(L["Dungeons"], L["Maraudon"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Maraudon"], "Zone-BarrenDry Night#2536", "Zone-Soggy Day#7082", "Zone-Soggy Night#6836",}) -- "Moment - Battle02#6262"
 			Zn(L["Dungeons"], L["Molten Core"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Molten Core"], "Moment - Battle01#6077", "Moment - Battle02#6262", "Moment - Battle03#6078", "Moment - Battle04#6079", "Moment - Battle05#6253", "Moment - Battle06#6350",})
@@ -7065,10 +7066,11 @@
 			Zn(L["Dungeons"], L["Ruins of Ahn'Qiraj"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ruins of Ahn'Qiraj"], "Zone - AhnQirajExterior#8531",})
 			Zn(L["Dungeons"], L["Scarlet Halls"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Scarlet Halls"], "MUS_50_SM_Dungeon_TrainingWalk#33725", "MUS_50_ScarletMonastery_A_Hero#30478",})
 			Zn(L["Dungeons"], L["Scarlet Monastery"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Scarlet Monastery"], "MUS_50_SM_Dungeon_ChapelGardensWalk#33738", "MUS_50_SM_Dungeon_CrusaderWalk#33740", "MUS_50_SM_Dungeon_TunnelsWalk#33723", "MUS_50_SM_Dungeon_VestibuleWalk#33721", "MUS_50_ScarletMonastery_A_Hero#30478", "MUS_Haunted_UU#22182",})
-			Zn(L["Dungeons"], L["Shadowfang Keep"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Shadowfang Keep"], "MUS_ShadowfangKeep#23610", "MUS_Scarred_UU#22198", "MUS_Shadows_UU#22200", "Zone-EvilForest Day#2524"})
+			Zn(L["Dungeons"], L["Shadowfang Keep"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Shadowfang Keep"], "MUS_ShadowfangKeep#23610", "MUS_Scarred_UU#22198", "MUS_Shadows_UU#22200", "Zone-EvilForest Day#2524",})
+			Zn(L["Dungeons"], L["Stockade"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stockade"], "StomWindJail#4223",})
 			Zn(L["Dungeons"], L["Stratholme"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stratholme"], "Zone-Undercity#5074",})
 			Zn(L["Dungeons"], L["Sunken Temple"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Sunken Temple"], "MUS_SwampOfSorrowsTroll#22542", "Zone-Soggy Day#7082", "Zone-Soggy Night#6836", "Moment - Battle02#6262", "Moment - Battle05#6253", "Moment - Battle06#6350",})
-			Zn(L["Dungeons"], L["Temple of Ahn'Qiraj"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Temple of Ahn'Qiraj"], "AhnQirajInteriorCenterRoom#8579","AhnQirajKingRoom#8578", "AhnQirajTriangleRoomWalking#8577", "Zone - AhnQirajExterior#8531", "Zone Music - AhnQirajInteriorWa#8563",})
+			Zn(L["Dungeons"], L["Temple of Ahn'Qiraj"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Temple of Ahn'Qiraj"], "AhnQirajInteriorCenterRoom#8579", "AhnQirajKingRoom#8578", "AhnQirajTriangleRoomWalking#8577", "Zone - AhnQirajExterior#8531", "Zone Music - AhnQirajInteriorWa#8563",})
 			Zn(L["Dungeons"], L["Wailing Caverns"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Wailing Caverns"], "MUS_TheWailingCaverns#22829", "Zone-Jungle Day#2525", "Zone-Jungle Night#2535", "Zone - Plaguelands#6066",})
 			Zn(L["Dungeons"], L["Zul'Farrak"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Zul'Farrak"], "MUS_TanarisTrollA#22867",})
 
@@ -7082,7 +7084,7 @@
 			Zn(L["Dungeons"], L["Hyjal Summit"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Hyjal Summit"], "Zone-HyjalPastNordrassilWalk#11652", "Zone-HyjalPastSummitWalk#11653",})
 			Zn(L["Dungeons"], L["Karazhan"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Karazhan"], "Zone-KarazhanGeneralDefault#12154", "Zone-KarazhanFoyerWalk#12156", "Zone-KarazhanStableWalk#12159", "Zone-KarazhanOperaWalk#12163", "Zone-KarazhanBackstageWalk#12162", "Zone-KarazhanLibraryWalk#12164", "Zone-KarazhanTowerNetherspiteW#12170", "Zone-KarazhanMalchezaarWalk#12168",})
 			Zn(L["Dungeons"], L["Old Hillsbrad Foothills"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Old Hillsbrad Foothills"], "MUS_DurnholdeKeep#22788", "MUS_TarrenMill#22790", "Zone-CavernsoftimeHillsbradExtW#10770",})
-			Zn(L["Dungeons"], L["Sunwell Plateau"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Sunwell Plateau"], "Zone-SunwellPlateauWalking#12536" ,})
+			Zn(L["Dungeons"], L["Sunwell Plateau"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Sunwell Plateau"], "Zone-SunwellPlateauWalking#12536",})
 
 			-- Dungeons: Wrath of the Lich King
 			Zn(L["Dungeons"], "|cffffd800", {""})
@@ -7100,7 +7102,7 @@
 			Zn(L["Dungeons"], L["Onyxia's Lair"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Onyxia's Lair"], "Moment-Orc Barren#7474",})
 			Zn(L["Dungeons"], L["Pit of Saron"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Pit of Saron"], "Zone-PitofSaronEntry#17308", "Zone-PitofSaron#17310", "Zone-PitofSaronTyrannus#17314",})
 			Zn(L["Dungeons"], L["Ruby Sanctum"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ruby Sanctum"], "RubySanctumWalk#17672",})
-			Zn(L["Dungeons"], L["Ulduar"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ulduar"], "UR_UlduarRaidGeneralWalk#15838", "UR_BaseCampWalk#15854", "UR_CelestialHallWalk#15842", "UR_ConservatoryWalk#15843", "UR_CorridorsOfIngenuityWalk#15841", "UR_DescentWalk#15839", "UR_KingLlaneWalk#15835", "UR_PrisonOfYoggSaronWalk#15840", "UR_RazorscalesAerieWalk#15868", "UR_SparkOfImaginationWalk#15847", "UR_TheColossalForgeWalk#15865", "UR_TheScrapyardWalk#15871", "UR_TramHallWalk#15901","UR_WyrmrestTempleWalk#15837",})
+			Zn(L["Dungeons"], L["Ulduar"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ulduar"], "UR_UlduarRaidGeneralWalk#15838", "UR_BaseCampWalk#15854", "UR_CelestialHallWalk#15842", "UR_ConservatoryWalk#15843", "UR_CorridorsOfIngenuityWalk#15841", "UR_DescentWalk#15839", "UR_KingLlaneWalk#15835", "UR_PrisonOfYoggSaronWalk#15840", "UR_RazorscalesAerieWalk#15868", "UR_SparkOfImaginationWalk#15847", "UR_TheColossalForgeWalk#15865", "UR_TheScrapyardWalk#15871", "UR_TramHallWalk#15901", "UR_WyrmrestTempleWalk#15837",})
 			Zn(L["Dungeons"], L["Utgarde Keep"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Utgarde Keep"], "Zone-UtgardeA#15062", "Zone-UtgardeE#15066", "Music_Temp_95#14871",})
 			Zn(L["Dungeons"], L["Utgarde Pinnacle"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Utgarde Pinnacle"], "Zone-UtgardeA#15062", "Zone-UtgardeD#15065", "Music_Temp_95#14871", "Music_Temp_98#14874",})
 			Zn(L["Dungeons"], L["Vault of Archavon"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Vault of Archavon"], "Zone-UldarLightningGeneralWalk#14942",})
@@ -7169,21 +7171,26 @@
 
 			-- Various
 			Zn(L["Various"], "|cffffd800" .. L["Various"], {""})
-			Zn(L["Various"], L["Cinematics"]					, {	"|cffffd800" .. L["Various"] .. ": " .. L["Cinematics"], "GS_Retail#10924", "GS_BurningCrusade#10925", "GS_LichKing#12765", "GS_Cataclysm#23640", "MUS_50_HeartofPandaria_MainTitle#28509", "MUS_60_MainTitle#40169", "MUS_70_MainTitle#56353", --[["MUS_1.0_MainTitle_Original#47598"]]})
-			Zn(L["Various"], L["Credits"]						, {	"|cffffd800" .. L["Various"] .. ": " .. L["Credits"], "Menu-Credits01#10763", "Menu-Credits02#10804", "Menu-Credits03#13822", "Menu-Credits04#23812", "Menu-Credits05#32015", "Menu-Credits06#34020", "Menu-Credits07#56354",})
+			Zn(L["Various"], L["Anduin's Theme"]				, {	"|cffffd800" .. L["Various"] .. ": " .. L["Anduin's Theme"], "MUS_70_Zone_Stormwind_PostBrokenShore_Funeral_01#75552", "MUS_70_Zone_Stormwind_LionsRest_Day#73345", "MUS_70_Zone_Stormwind_LionsRest_Night#73344", "MUS_70_BrokenShore_ShipIntro#73387", "MUS_72_BrokenShore_Wyrnnfall_Intro#85166",})
+			Zn(L["Various"], L["Cinematics"]					, {	"|cffffd800" .. L["Various"] .. ": " .. L["Cinematics"], "GS_Retail#10924", "GS_BurningCrusade#10925", "GS_LichKing#12765", "GS_Cataclysm#23640", "MUS_50_HeartofPandaria_MainTitle#28509", "MUS_60_MainTitle#40169", "MUS_70_MainTitle#56353",}) -- "MUS_1.0_MainTitle_Original#47598"
 			Zn(L["Various"], L["Class Trials"]					, {	"|cffffd800" .. L["Various"] .. ": " .. L["Class Trials"], "MUS_70_ClassTrial_Horde_BattleWalk#71954", "MUS_70_ClassTrial_Alliance_BattleWalk#71959",})
+			Zn(L["Various"], L["Credits"]						, {	"|cffffd800" .. L["Various"] .. ": " .. L["Credits"], "Menu-Credits01#10763", "Menu-Credits02#10804", "Menu-Credits03#13822", "Menu-Credits04#23812", "Menu-Credits05#32015", "Menu-Credits06#34020", "Menu-Credits07#56354",})
+			Zn(L["Various"], L["Diablo Anniversary"]			, {	"|cffffd800" .. L["Various"] .. ": " .. L["Diablo Anniversary"], "MUS_71_Event_DiabloAnniversary_TristramGuitar (Everything)#78803",})
 			Zn(L["Various"], L["Jaina's Theme"]					, {	"|cffffd800" .. L["Various"] .. ": " .. L["Jaina's Theme"], "MUS_60_Proudmoore_01#49356", "MUS_60_Proudmoore_02#49357", "MUS_60_Proudmoore_03#49358",})
-			Zn(L["Various"], L["Other"]							, {	"|cffffd800" .. L["Various"] .. ": " .. L["Other"], "Event_DMF_Level70ETC_LOUD#12868", "MUS_71_Event_DiabloAnniversary_TristramGuitar (Everything)#78803",})
+			Zn(L["Various"], L["Music Rolls"]					, {	"|cffffd800" .. L["Various"] .. ": " .. L["Music Rolls"], "MUS_61_GarrisonMusicBox_01#49511", "MUS_61_GarrisonMusicBox_02#49512", "MUS_61_GarrisonMusicBox_03#49513", "MUS_61_GarrisonMusicBox_04#49514", "MUS_61_GarrisonMusicBox_05#49515", "MUS_61_GarrisonMusicBox_06#49516", "MUS_61_GarrisonMusicBox_07#49529", "MUS_61_GarrisonMusicBox_08#49530", "MUS_61_GarrisonMusicBox_09#49531", "MUS_61_GarrisonMusicBox_10#49533", "MUS_61_GarrisonMusicBox_11#49535", "MUS_61_GarrisonMusicBox_12#49536", "MUS_61_GarrisonMusicBox_13#49538", "MUS_61_GarrisonMusicBox_14#49539", "MUS_61_GarrisonMusicBox_15#49540", "MUS_61_GarrisonMusicBox_16#49541", "MUS_61_GarrisonMusicBox_17#49543", "MUS_61_GarrisonMusicBox_18#49544", "MUS_61_GarrisonMusicBox_19#49545", "MUS_61_GarrisonMusicBox_20#49546", "MUS_61_GarrisonMusicBox_21#49526", "MUS_61_GarrisonMusicBox_22#49528", "MUS_61_GarrisonMusicBox_23_Alliance#49517", "MUS_61_GarrisonMusicBox_24_Alliance#49518", "MUS_61_GarrisonMusicBox_25_Alliance#49519", "MUS_61_GarrisonMusicBox_26_Alliance#49520", "MUS_61_GarrisonMusicBox_27_Alliance#49521", "MUS_61_GarrisonMusicBox_28_Alliance#49522", "MUS_61_GarrisonMusicBox_29_Alliance#49523", "MUS_61_GarrisonMusicBox_30_Alliance#49524", "MUS_61_GarrisonMusicBox_31_Alliance#49525", "MUS_61_GarrisonMusicBox_23_Horde#49555", "MUS_61_GarrisonMusicBox_24_Horde#49554", "MUS_61_GarrisonMusicBox_25_Horde#49553", "MUS_61_GarrisonMusicBox_26_Horde#49552", "MUS_61_GarrisonMusicBox_27_Horde#49551", "MUS_61_GarrisonMusicBox_28_Horde#49550", "MUS_61_GarrisonMusicBox_29_Horde#49549", "MUS_61_GarrisonMusicBox_30_Horde#49548", "MUS_61_GarrisonMusicBox_31_Horde#49547",})
 
 			-- Movies
 			Zn(L["Movies"], "|cffffd800" .. L["Movies"], {""})
-			Zn(L["Movies"], L["World of Warcraft"]				, {	"|cffffd800" .. L["Movies"] .. ": " .. L["World of Warcraft"], L["Blizzard"] .. " |r(1)", L["World of Warcraft"] .. " |r(2)"})
+			Zn(L["Movies"], L["World of Warcraft"]				, {	"|cffffd800" .. L["Movies"] .. ": " .. L["World of Warcraft"], L["Ten Years of Warcraft"] .. " |r(1)", L["World of Warcraft"] .. " |r(2)"})
 			Zn(L["Movies"], L["The Burning Crusade"]			, {	"|cffffd800" .. L["Movies"] .. ": " .. L["The Burning Crusade"], L["The Burning Crusade"] .. " |r(27)"})
-			Zn(L["Movies"], L["Wrath of the Lich King"]			, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Wrath of the Lich King"], L["Wrath of the Lich King"] .. " |r(18)", L["Wrathgate"] .. " |r(14)", L["Icecrown Citadel"] .. " |r(16)"})
-			Zn(L["Movies"], L["Cataclysm"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Cataclysm"], L["Cataclysm"] .. " |r(23)", L["Last Stand"] .. " |r(21)", L["Leaving Kezan"] .. " |r(22)", L["Fall of Deathwing"] .. " |r(73)", L["Fall of Deathwing"] .. " |r(74)", L["Fall of Deathwing"] .. " |r(75)", L["Fall of Deathwing"] .. " |r(76)"})
-			Zn(L["Movies"], L["Mists of Pandaria"]				, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Mists of Pandaria"], L["Mists of Pandaria"] .. " |r(115)", L["Leaving the Wandering Isle"] .. " |r(116)", L["Risking It All"] .. " |r(117)", L["Battle of Serpent's Heart"] .. " |r(118)", L["The King's Command"] .. " |r(119)", L["The Art of War"] .. " |r(120)", L["Krasarang Wilds (Horde)"] .. " |r(128)", L["Krasarang Wilds (Alliance)"] .. " |r(127)", L["Siege of Orgrimmar (Horde)"] .. " |r(151)", L["Siege of Orgrimmar (Alliance)"] .. " |r(152)"})
-			Zn(L["Movies"], L["Warlords of Draenor"]			, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Warlords of Draenor"], L["Warlords of Draenor"] .. " |r(195)", L["Yrel and the Dark Star"] .. " |r(167)", L["The Battle of Thunder Pass"] .. " |r(168)", L["And Justice for Thrall"] .. " |r(177)", L["The Dark Portal"] .. " |r(185)", L["A Taste of Iron"] .. " |r(187)", L["The Battle for Shattrath"] .. " |r(188)", L["Establish Your Garrison (Horde)"] .. " |r(189)", L["Establish Your Garrison (Alliance)"] .. " |r(192)", L["Bigger is Better (Horde)"] .. " |r(190)", L["Bigger is Better (Alliance)"] .. " |r(193)", L["My Very Own Castle (Horde)"] .. " |r(191)", L["My Very Own Castle (Alliance)"] .. " |r(194)", L["An Inside Job"] .. " |r(270)", L["Garrison Shipyard (Horde)"] .. " |r(292)", L["Garrison Shipyard (Alliance)"] .. " |r(293)", L["Hellfire Citadel (1)"] .. "  |r(294)", L["Hellfire Citadel (2)"] .. "  |r(295)"})
-			Zn(L["Movies"], L["Legion"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Legion"], L["Legion"] .. " |r(470)", L["The Invasion Begins"] .. " |r(469)", L["Return to the Black Temple"] .. " |r(471)", L["Death of Ysera"] .. " |r(472)", L["Ysera's Corruption"] .. " |r(473)", L["Fate of the Horde"] .. " |r(474)", L["A New Life for Undeath"] .. " |r(475)", L["Harbingers Gul'dan"] .. " |r(476)", L["Harbingers Khadgar"] .. " |r(477)", L["Harbingers Illidan"] .. " |r(478)", L["Suramar"] .. " |r(485)", L["Broken Shore (Horde)"] .. " |r(487)", L["Broken Shore (Alliance)"] .. " |r(531)", L["A Falling Star"] .. " |r(489)", L["An Unclear Path"] .. " |r(490)", L["Victory at The Nighthold"] .. " |r(635)", L["A Found Memento"] .. " |r(636)", L["Tomb of Sargeras"] .. " |r(656)", L["Arrival on Argus"] .. " |r(677)", L["Rejection of the Gift"] .. " |r(679)", L["Reincarnation of Alleria Windrunner"] .. " |r(682)"})
+			Zn(L["Movies"], L["Wrath of the Lich King"]			, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Wrath of the Lich King"], L["Wrath of the Lich King"] .. " |r(18)", L["Battle of Angrathar the Wrathgate"] .. " |r(14)", L["Fall of the Lich King"] .. " |r(16)"})
+			Zn(L["Movies"], L["Cataclysm"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Cataclysm"], L["Cataclysm"] .. " |r(23)", L["Last Stand"] .. " |r(21)", L["Leaving Kezan"] .. " |r(22)", L["The Dragon Soul"] .. " |r(73)", L["Spine of Deathwing"] .. " |r(74)", L["Madness of Deathwing"] .. " |r(75)", L["Fall of Deathwing"] .. " |r(76)"})
+			Zn(L["Movies"], L["Mists of Pandaria"]				, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Mists of Pandaria"], L["Mists of Pandaria"] .. " |r(115)", L["Risking It All"] .. " |r(117)", L["Leaving the Wandering Isle"] .. " |r(116)", L["The King's Command"] .. " |r(119)", L["The Art of War"] .. " |r(120)", L["Battle of Serpent's Heart"] .. " |r(118)", L["The Fleet in Krasarang (Horde)"] .. " |r(128)", L["The Fleet in Krasarang (Alliance)"] .. " |r(127)", L["Hellscream's Downfall (Horde)"] .. " |r(151)", L["Hellscream's Downfall (Alliance)"] .. " |r(152)"})
+			Zn(L["Movies"], L["Warlords of Draenor"]			, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Warlords of Draenor"], L["Warlords of Draenor"] .. " |r(195)", L["Darkness Falls"] .. " |r(167)", L["The Battle of Thunder Pass"] .. " |r(168)", L["And Justice for Thrall"] .. " |r(177)", L["Into the Portal"] .. " |r(185)", L["A Taste of Iron"] .. " |r(187)", L["The Battle for Shattrath"] .. " |r(188)", L["Establish Your Garrison (Horde)"] .. " |r(189)", L["Establish Your Garrison (Alliance)"] .. " |r(192)", L["Bigger is Better (Horde)"] .. " |r(190)", L["Bigger is Better (Alliance)"] .. " |r(193)", L["My Very Own Castle (Horde)"] .. " |r(191)", L["My Very Own Castle (Alliance)"] .. " |r(194)", L["Gul'dan Ascendant"] .. " |r(270)", L["Shipyard Construction (Horde)"] .. " |r(292)", L["Shipyard Construction (Alliance)"] .. " |r(293)", L["Gul'dan's Plan"] .. "  |r(294)", L["Victory in Draenor!"] .. "  |r(295)"})
+			Zn(L["Movies"], L["Legion"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Legion"], L["Legion"] .. " |r(470)", L["The Invasion Begins"] .. " |r(469)", L["Return to the Black Temple"] .. " |r(471)", L["The Demon's Trail"] .. " |r(473)", L["The Fate of Val'sharah"] .. " |r(472)", L["Fate of the Horde"] .. " |r(474)", L["A New Life for Undeath"] .. " |r(475)", L["Harbingers Gul'dan"] .. " |r(476)", L["Harbingers Khadgar"] .. " |r(477)", L["Harbingers Illidan"] .. " |r(478)", L["The Nightborne Pact"] .. " |r(485)", L["The Battle for Broken Shore (Horde)"] .. " |r(487)", L["The Battle for Broken Shore (Alliance)"] .. " |r(531)", L["A Falling Star"] .. " |r(489)", L["An Unclear Path"] .. " |r(490)", L["Victory at The Nighthold"] .. " |r(635)", L["A Found Memento"] .. " |r(636)", L["Kil'jaeden's Downfall"] .. " |r(656)", L["Arrival on Argus"] .. " |r(677)", L["Rejection of the Gift"] .. " |r(679)", L["Reincarnation of Alleria Windrunner"] .. " |r(682)"})
+
+			-- Give zone table a file level scope so slash command function can access it
+			LeaPlusLC["ZoneList"] = ZoneList
 
 			-- Show relevant list items
 			local function UpdateList()
@@ -7225,7 +7232,9 @@
 							button.s:SetSize(button:GetTextWidth(), 16)
 						end
 						-- Limit click to label width
-						button:SetHitRectInsets(0, 454 - button:GetFontString():GetStringWidth() or 0, 0, 0)
+						local bWidth = button:GetFontString():GetStringWidth() or 0
+						if bWidth > 290 then bWidth = 290 end
+						button:SetHitRectInsets(0, 454 - bWidth, 0, 0)
 						-- Disable label click movement
 						button:SetPushedTextOffset(0, 0)
 						-- Disable word wrap and set width
@@ -7248,6 +7257,8 @@
 					local nocol = string.gsub(ListData[1], "|cffffd800", "")
 					-- Strip the zone
 					local backzone = strsplit(":", nocol, 2)
+					-- Don't go back if random or search category is being shown
+					if backzone == L["Random"] or backzone == L["Search"] then return end
 					-- Show the tracklist continent 
 					if ZoneList[backzone] then ListData = ZoneList[backzone] end
 					UpdateList()
@@ -7316,7 +7327,7 @@
 				conbtn[title]:ClearAllPoints()
 				if title == L["Eastern"] then
 					-- Set first button position
-					conbtn[title]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 145, -86)
+					conbtn[title]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 145, -70)
 				else
 					-- Set subsequent button positions
 					conbtn[title]:SetPoint("TOPLEFT", conbtn[anchor], "BOTTOMLEFT", 0, -00)
@@ -7334,13 +7345,9 @@
 			MakeButtonNow(L["Broken Isles"], L["Draenor"])
 			MakeButtonNow(L["Dungeons"], L["Broken Isles"])
 			MakeButtonNow(L["Various"], L["Dungeons"])
-			MakeButtonNow(L["Movies"], L["Various"])
-
-			-- Add Music and Video headings and move Movies button
-			LeaPlusLC:MakeWD(LeaPlusLC["Page9"], "|cffE9DA67" .. L["Music"], 146, -70);
-			LeaPlusLC:MakeWD(LeaPlusLC["Page9"], "|cffE9DA67" .. L["Video"], 146, -256);
-			conbtn[L["Movies"]]:ClearAllPoints()
-			conbtn[L["Movies"]]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 146, -272)
+			MakeButtonNow(L["Random"], L["Various"])
+			MakeButtonNow(L["Search"], L["Random"])
+			MakeButtonNow(L["Movies"], L["Search"])
 
 			-- Show button highlight for clicked button
 			for q, w in pairs(ZoneList) do
@@ -7364,6 +7371,7 @@
 			scrollFrame = CreateFrame("ScrollFrame", "LeaPlusScrollFrame", LeaPlusLC["Page9"], "FauxScrollFrameTemplate")
 			scrollFrame:SetPoint("TOPLEFT", 0, -32)
 			scrollFrame:SetPoint("BOTTOMRIGHT", -30, 50)
+			scrollFrame:SetFrameLevel(10)
 			scrollFrame:SetScript("OnVerticalScroll", function(self, offset)
 				FauxScrollFrame_OnVerticalScroll(self, offset, 16, UpdateList)
 			end)
@@ -7371,7 +7379,7 @@
 			-- Add stop button
 			local stopBtn = LeaPlusLC:CreateButton("StopMusicBtn", LeaPlusLC["Page9"], "Stop", "TOPRIGHT", -32, -31, 0, 25, true, "")
 			stopBtn:ClearAllPoints()
-			stopBtn:SetPoint("TOPLEFT", conbtn[L["Various"]], "BOTTOMLEFT", 0, -50)
+			stopBtn:SetPoint("TOPLEFT", conbtn[L["Movies"]], "BOTTOMLEFT", 0, -10)
 			stopBtn:Hide(); stopBtn:Show()
 			LeaPlusLC:LockItem(stopBtn, true)
 			stopBtn:SetScript("OnClick", function()
@@ -7396,8 +7404,7 @@
 			local function PlayTrack()
 				-- Play tracks
 				if musicHandle then StopSound(musicHandle) end
-				local fullFile = playlist[tracknumber]
-				local file, soundID = fullFile:match("([^,]+)%#([^,]+)")
+				local file, soundID = playlist[tracknumber]:match("([^,]+)%#([^,]+)")
 				willPlay, musicHandle = PlaySound(soundID, "Master", false, true)
 				-- Store its handle for later use
 				LastMusicHandle = musicHandle
@@ -7419,6 +7426,120 @@
 					end
 				end
 			end
+
+			-- Create editbox for search
+			local sBox = LeaPlusLC:CreateEditBox("MusicSearchBox", LeaPlusLC["Page9"], 288, 10, "TOPLEFT", 250, -40, "MusicSearchBox", "MusicSearchBox")
+			sBox:SetMaxLetters(50)
+			sBox.label = sBox:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+			sBox.label:SetPoint("BOTTOMLEFT", sBox, "TOPLEFT", -4, 0)
+			sBox.label:SetText(L["Search for music name or ID"])
+			sBox:Hide()
+
+			-- Show editbox only when search category is selected
+			for q, w in pairs(ZoneList) do
+				if conbtn[w] then
+					conbtn[w]:HookScript("OnClick", function()
+						if w == L["Search"] then
+							ListData[1] = "|cffffd800" .. L["Search"]
+							UpdateList()
+							sBox:Show()
+						else
+							sBox:Hide()
+						end
+					end)
+				end
+			end
+
+			-- Function to show search results
+			local function ShowSearchResults()
+				-- Get unescaped editbox text
+				local searchText = gsub(strlower(sBox:GetText()), '(['..("%^$().[]*+-?"):gsub("(.)", "%%%1")..'])', "%%%1")
+				-- Wipe the track listing
+				wipe(ListData)
+				-- Set the track list heading
+				ListData[1] = "|cffffd800" .. L["Search"]
+				-- Traverse music listing and populate ListData
+				if searchText ~= "" then
+					for i, e in pairs(LeaPlusLC.ZoneList) do
+						if LeaPlusLC.ZoneList[e] then
+							for a, b in pairs(LeaPlusLC.ZoneList[e]) do
+								if b.tracks then
+									for k, v in pairs(b.tracks) do
+										if strfind(v, "#") and strfind(strlower(v), searchText) and not tContains(ListData, v) then
+											tinsert(ListData, v)
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+				-- Refresh the track listing
+				UpdateList()
+				-- Set track listing to top
+				scrollFrame:SetVerticalScroll(0)
+			end
+
+			-- Populate ListData when editbox is changed by user
+			sBox:HookScript("OnTextChanged", function(self, userInput)
+				if userInput then
+					-- Show search page
+					conbtn[L["Search"]]:Click()
+					-- If search results are currently playing, stop playback since search results will be changed
+					if LastFolder == L["Search"] then stopBtn:Click() end
+					-- Show search results
+					ShowSearchResults()
+				end
+			end)
+
+			-- Create button to generate a random selection of tracks
+			local randomBtn = LeaPlusLC:CreateButton("MusicRandomButton", LeaPlusLC["Page9"], L["Generate new random selection"], "TOPLEFT", 244, -30, 0, 25, true, "")
+
+			-- Show button only when random category is selected
+			for q, w in pairs(ZoneList) do
+				if conbtn[w] then
+					conbtn[w]:HookScript("OnClick", function()
+						if w == L["Random"] then
+							randomBtn:Show()
+							-- Generate initial playlist for first run
+							if #ListData == 0 then
+								randomBtn:Click()
+							end
+						else
+							randomBtn:Hide()
+						end
+					end)
+				end
+			end
+
+			-- Button click handler
+			randomBtn:SetScript("OnClick", function()
+				-- If random track is currently playing, stop playback since random track list will be changed
+				if LastFolder == L["Random"] then 
+					stopBtn:Click()
+				end
+				-- Wipe the track listing for random
+				wipe(ListData)
+				-- Set the track list heading
+				ListData[1] = "|cffffd800" .. L["Random"]
+				-- Populate list data until it contains desired number of tracks
+				while #ListData < 200 do
+					-- Get random category
+					local rCategory = GetRandomArgument(L["Eastern"], L["Kalimdor"], L["Outland"], L["Northrend"], L["Maelstrom"], L["Pandaria"], L["Draenor"], L["Broken Isles"], L["Dungeons"], L["Various"])
+					-- Get random zone within category
+					local rZone = random(1, #ZoneList[rCategory])
+					-- Get random track within zone
+					local rTrack = ZoneList[rCategory][rZone].tracks[random(1, #ZoneList[rCategory][rZone].tracks)]
+					-- Insert track into ListData if it's not a duplicate
+					if rTrack and rTrack ~= "" and strfind(rTrack, "#") and not tContains(ListData, rTrack) then
+						tinsert(ListData, rTrack)
+					end
+				end
+				-- Refresh the track listing
+				UpdateList()
+				-- Set track listing to top
+				scrollFrame:SetVerticalScroll(0)
+			end)
 
 			-- Create list items
 			scrollFrame.buttons = {}
@@ -7465,15 +7586,14 @@
 					if event == "SOUNDKIT_FINISHED" then
 						-- Do nothing if stopped sound kit handle doesnt match last played track handle
 						if LastMusicHandle and LastMusicHandle ~= stoppedHandle then return end
-						-- Play subsequent tracks
-						if tracknumber == #playlist then
-							-- End of playlist so reset counters
-							tracknumber = 1
-							PlayTrack()
-						else
-							-- Play track
-							PlayTrack()
-						end
+						-- Reset track number if playlist has reached the end
+						if tracknumber == #playlist then tracknumber = 1 end
+						-- Set TempFolder to Random if random playlist is being played
+						if LastFolder == L["Random"] then TempFolder = L["Random"] end
+						-- Set TempFolder to Search if search results are being played
+						if LastFolder == L["Search"] then TempFolder = L["Search"] end
+						-- Play next track
+						PlayTrack()
 					elseif event == "LOADING_SCREEN_DISABLED" then
 						-- Restart player if it stopped between tracks during loading screen
 						if playlist and tracknumber and playlist[tracknumber] and not willPlay and not musicHandle then
@@ -7486,6 +7606,8 @@
 				-- Click handler for track, zone and back button
 				button:SetScript("OnClick", function(self, btn)
 					if btn == "LeftButton" then
+						-- Remove focus from search box
+						sBox:ClearFocus()
 						-- Get clicked track text
 						local item = self:GetText()
 						-- Do nothing if its a blank line or heading
@@ -7523,7 +7645,11 @@
 							end
 							-- Enable the stop button
 							LeaPlusLC:LockItem(stopBtn, false)
-							-- Play the tracks
+							-- Set Temp Folder to Random if track is in Random
+							if ListData[1] == "|cffffd800" .. L["Random"] then TempFolder = L["Random"] end
+							-- Set Temp Folder to Search if track is in Search
+							if ListData[1] == "|cffffd800" .. L["Search"] then TempFolder = L["Search"] end
+							-- Store information about the track we are about to play
 							tracknumber = 1
 							LastPlayed = item
 							LastFolder = TempFolder
@@ -7531,13 +7657,8 @@
 							-- Play first track
 							PlayTrack()
 							-- Play subsequent tracks
-							if strfind(item, "#") then
-								uframe:RegisterEvent("SOUNDKIT_FINISHED")
-								uframe:RegisterEvent("LOADING_SCREEN_DISABLED")
-							else
-								uframe:UnregisterEvent("SOUNDKIT_FINISHED")
-								uframe:UnregisterEvent("LOADING_SCREEN_DISABLED")
-							end
+							uframe:RegisterEvent("SOUNDKIT_FINISHED")
+							uframe:RegisterEvent("LOADING_SCREEN_DISABLED")
 						elseif strfind(item, "|r") then
 							-- A movie was clicked
 							local movieName, movieID = item:match("([^,]+)%|r([^,]+)")
@@ -7575,17 +7696,8 @@
 							end
 						end
 					elseif btn == "RightButton" then
-						-- Return to the current zone list (back button)
-						if type(ListData[1]) == "string" then
-							-- Strip the color code from the list data
-							local nocol = string.gsub(ListData[1], "|cffffd800", "")
-							-- Strip the zone
-							local backzone = strsplit(":", nocol, 2)
-							-- Show the tracklist continent 
-							if ZoneList[backzone] then ListData = ZoneList[backzone] end
-							UpdateList()
-							scrollFrame:SetVerticalScroll(ZonePage or 0)
-						end
+						-- Back button was clicked
+						BackClick()
 					end
 				end)
 
@@ -7619,11 +7731,18 @@
 			end
 			UpdateList()
 
-			-- Stop track at reload or logout
+			-- Manage events
 			LeaPlusLC["Page9"]:RegisterEvent("PLAYER_LOGOUT")
-			LeaPlusLC["Page9"]:SetScript("OnEvent", function()
-				if musicHandle then
-					StopSound(musicHandle)
+			LeaPlusLC["Page9"]:RegisterEvent("UI_SCALE_CHANGED")
+			LeaPlusLC["Page9"]:SetScript("OnEvent", function(self, event)
+				if event == "PLAYER_LOGOUT" then
+					-- Stop playing at reload or logout
+					if musicHandle then
+						StopSound(musicHandle)
+					end
+				elseif event == "UI_SCALE_CHANGED" then
+					-- Refresh list
+					UpdateList()
 				end
 			end)
 
@@ -7747,6 +7866,7 @@
 		LeaPlusLC:MakeTx(ResPanel, "Settings", 16, -72)
 		LeaPlusLC:MakeCB(ResPanel, "ResThankYouEmote", "Thank the player who resurrected you", 16, -92, false, "If checked, your character will emote a thank you when a resurrection is automatically accepted.")
 		LeaPlusLC:MakeCB(ResPanel, "NoAutoResInCombat", "Exclude combat resurrection requests", 16, -112, false, "If checked, resurrection requests will not be automatically accepted if the player resurrecting you is in combat.")
+		LeaPlusLC:MakeCB(ResPanel, "NoAutoResPylon", "Exclude Failure Detection Pylon", 16, -132, false, "If checked, resurrection requests from a Failure Detection Pylon will not be automatically accepted.")
 
 		-- Help button hidden
 		ResPanel.h:Hide()
@@ -7762,6 +7882,7 @@
 			-- Reset checkboxes
 			LeaPlusLC["ResThankYouEmote"] = "On"
 			LeaPlusLC["NoAutoResInCombat"] = "Off"
+			LeaPlusLC["NoAutoResPylon"] = "On"
 			-- Refresh configuration panel
 			ResPanel:Hide(); ResPanel:Show();
 		end)
@@ -7772,6 +7893,7 @@
 				-- Preset profile
 				LeaPlusLC["ResThankYouEmote"] = "On"
 				LeaPlusLC["NoAutoResInCombat"] = "Off"
+				LeaPlusLC["NoAutoResPylon"] = "On"
 			else
 				-- Show configuration panel
 				ResPanel:Show();
@@ -7966,6 +8088,26 @@
 		----------------------------------------------------------------------
 
 		if event == "RESURRECT_REQUEST" then
+
+			-- Manage Failure Detection Pylon
+			if LeaPlusLC["NoAutoResPylon"] == "On" then
+				local pylonLoc = "Failure Detection Pylon"
+				if 	   GameLocale == "zhCN" then pylonLoc = "故障检测晶塔"
+				elseif GameLocale == "zhTW" then pylonLoc = "滅團偵測水晶塔"
+				elseif GameLocale == "ruRU" then pylonLoc = "Пилон для обнаружения проблем"
+				elseif GameLocale == "koKR" then pylonLoc = "고장 감지 변환기"
+				elseif GameLocale == "esMX" then pylonLoc = "Pilón detector de errores"
+				elseif GameLocale == "ptBR" then pylonLoc = "Pilar Detector de Falhas"
+				elseif GameLocale == "deDE" then pylonLoc = "Fehlschlagdetektorpylon"
+				elseif GameLocale == "esES" then pylonLoc = "Pilón detector de errores"
+				elseif GameLocale == "frFR" then pylonLoc = "Pylône de détection des échecs"
+				elseif GameLocale == "itIT" then pylonLoc = "Pilone d'Individuazione Fallimenti"
+				end
+				-- Do nothing if a Failure Detection Pylon resurrected you
+				if arg1 == pylonLoc then return	end
+			end
+
+			-- Manage other resurrection requests
 			if ((UnitAffectingCombat(arg1)) and LeaPlusLC["NoAutoResInCombat"] == "Off") or not (UnitAffectingCombat(arg1)) then
 				AcceptResurrect()
 				StaticPopup_Hide("RESURRECT_NO_TIMER")
@@ -7978,6 +8120,7 @@
 				end
 			end
 			return
+
 		end
 
 		----------------------------------------------------------------------
@@ -8130,6 +8273,7 @@
 				LeaPlusLC:LoadVarChk("AutoAcceptSummon", "Off")				-- Accept summon
 				LeaPlusLC:LoadVarChk("AutoAcceptRes", "Off")				-- Accept resurrection
 				LeaPlusLC:LoadVarChk("NoAutoResInCombat", "Off")			-- Exclude combat
+				LeaPlusLC:LoadVarChk("NoAutoResPylon", "On")				-- Exclude pylons
 				LeaPlusLC:LoadVarChk("ResThankYouEmote", "On")				-- Thanks for resurrect
 
 				LeaPlusLC:LoadVarChk("AutoReleasePvP", "Off")				-- Release in PvP
@@ -8358,6 +8502,7 @@
 			LeaPlusDB["AutoAcceptSummon"] 		= LeaPlusLC["AutoAcceptSummon"]
 			LeaPlusDB["AutoAcceptRes"] 			= LeaPlusLC["AutoAcceptRes"]
 			LeaPlusDB["NoAutoResInCombat"]		= LeaPlusLC["NoAutoResInCombat"]
+			LeaPlusDB["NoAutoResPylon"]			= LeaPlusLC["NoAutoResPylon"]
 			LeaPlusDB["ResThankYouEmote"]		= LeaPlusLC["ResThankYouEmote"]
 
 			LeaPlusDB["AutoReleasePvP"] 		= LeaPlusLC["AutoReleasePvP"]
@@ -9512,9 +9657,9 @@
 					LeaPlusLC:Print("Missing console variable.")
 				end
 				return
-			elseif string.sub(str, 1, 5) == "sound" then
+			elseif string.sub(str, 1, 4) == "play" then
 				-- Play sound ID
-				local param = string.sub(str, 7)
+				local param = string.sub(str, 6)
 				if param and param ~= "" then
 					if tonumber(param) then
 						-- Stop last played sound ID
@@ -9630,6 +9775,175 @@
 			elseif str == "skit" then
 				-- Play a test sound kit
 				PlaySound("1020", "Master", false, true)
+			elseif str == "dup" then
+				-- Print music track duplicates 
+				local mask, found, badidfound = false, false, false
+				for i, e in pairs(LeaPlusLC.ZoneList) do
+					if LeaPlusLC.ZoneList[e] then
+						for a, b in pairs(LeaPlusLC.ZoneList[e]) do
+							local same = {}
+							if b.tracks then
+								for k, v in pairs(b.tracks) do
+									-- Check for bad sound IDs
+									local temFile, temSoundID = v:match("([^,]+)%#([^,]+)")
+									if temSoundID then
+										local temPlay, temHandle = PlaySound(temSoundID, "Master", false, true)
+										if temHandle then StopSound(temHandle) end
+										temPlay, temHandle = PlaySound(temSoundID, "Master", false, true)
+										if not temPlay and not temHandle then
+											print("|cffff5400" .. L["Bad ID"] .. ": |r" .. e, v)
+											badidfound = true
+										else
+											if temHandle then StopSound(temHandle) end
+										end
+									end
+									-- Check for duplicate IDs
+									if tContains(same, v) and mask == false then 
+										mask = true
+										found = true
+										print("|cffec51ff" .. L["Dup ID"] .. ": |r" .. e, v)
+									end
+									tinsert(same, v)
+									mask = false
+								end
+							end
+						end
+					end
+				end
+				if badidfound == false then 
+					LeaPlusLC:Print("No bad sound IDs found.") 
+				end
+				if found == false then 
+					LeaPlusLC:Print("No media duplicates found.") 
+				end
+				collectgarbage()
+				return
+			elseif str == "enigma" then
+				-- Enigma
+				if not LeaPlusLC.enimgaFrame then
+					local selectedBtn
+					local bt = {}
+					local eData = {
+						{[9]=1, [10]=1, [11]=1, [12]=1, [13]=1, [20]=1, [23]=1, [24]=1, [25]=1, [26]=1, [27]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R4, U2, L4",},
+						{[9]=1, [11]=1, [12]=1, [13]=1, [16]=1, [18]=1, [20]=1, [23]=1, [24]=1, [25]=1, [27]=1, [34]=1, [41]=2, "U4, L2, D2, L2, U2",},
+						{[9]=1, [10]=1, [11]=1, [12]=1, [19]=1, [25]=1, [26]=1, [32]=1, [39]=1, [40]=1, [41]=2, "L2, U2, R1, U2, L3",},
+						{[9]=1, [10]=1, [11]=1, [18]=1, [23]=1, [24]=1, [25]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R2, U2, L3",},
+						{[9]=1, [10]=1, [11]=1, [12]=1, [13]=1, [16]=1, [23]=1, [25]=1, [26]=1, [27]=1, [30]=1, [32]=1, [34]=1, [37]=1, [38]=1, [39]=1, [41]=2, "U2, L2, D2, L2, U4, R4",},
+						{[12]=1,[13]=1, [18]=1, [19]=1, [25]=1, [32]=1, [33]=1, [40]=1, [41]=2, "L1, U1, L1, U2, R1, U1, R1",},
+						{[9]=1, [11]=1, [12]=1, [13]=1, [16]=1, [18]=1, [20]=1, [23]=1, [25]=1, [27]=1, [30]=1, [31]=1, [32]=1, [34]=1, [41]=2, "U4, L2, D3, L2, U3",},
+						{[9]=1, [10]=1, [17]=1, [24]=1, [25]=1, [32]=1, [33]=1, [40]=1, [41]=2, "L1, U1, L1, U1, L1, U2, L1",},
+						{[9]=1, [16]=1, [17]=1, [18]=1, [19]=1, [20]=1, [27]=1, [34]=1, [41]=2, "U3, L4, U1",},
+						{[9]=1, [10]=1, [11]=1, [12]=1, [13]=1, [16]=1, [23]=1, [24]=1, [25]=1, [26]=1, [33]=1, [40]=1, [41]=2, "L1, U2, L3, U2, R4",},
+						{[9]=1, [10]=1, [11]=1, [12]=1, [13]=1, [16]=1, [23]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U4, R4",},
+						{[11]=1,[12]=1, [13]=1, [18]=1, [23]=1, [24]=1, [25]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R2, U2, R2",},
+						{[13]=1,[20]=1, [23]=1, [24]=1, [25]=1, [26]=1, [27]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R4, U2",},
+					}
+					-- Create frame
+					local eFrame = CreateFrame("Frame", nil, UIParent)
+					eFrame:SetPoint("TOP", 0, 0)
+					eFrame:SetSize(1222, 134)
+					eFrame.b = eFrame:CreateTexture(nil, "BACKGROUND")
+					eFrame.b:SetAllPoints()
+					eFrame.b:SetColorTexture(0, 0, 0, 1)
+					eFrame:SetFrameStrata("FULLSCREEN_DIALOG")
+					eFrame:SetScale(0.9)
+					eFrame:SetToplevel(true)
+					eFrame:EnableMouse(true)
+					LeaPlusLC.enimgaFrame = eFrame
+
+					-- Right-click to exit
+					eFrame:SetScript("OnMouseDown", function(self, btn)
+						if btn == "RightButton" then
+							eFrame:Hide()
+						end
+					end)
+
+					-- Create title fontstring
+					eFrame.f = eFrame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge") 
+					eFrame.f:SetPoint("BOTTOMLEFT", 10, 10)
+					eFrame.f:SetText(L["Choose an Enigma pattern"])
+					eFrame.f:SetFont(eFrame.f:GetFont(), 24, nil)
+
+					-- Create close fontstring
+					eFrame.x = eFrame:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge") 
+					eFrame.x:SetPoint("BOTTOMRIGHT", -10, 10)
+					eFrame.x:SetText(L["Right-click to close"])
+					eFrame.x:SetFont(eFrame.f:GetFont(), 24, nil)
+
+					-- Create buttons
+					for eBtn = 1, #eData do
+						local b = CreateFrame("Button", nil, eFrame)
+						tinsert(bt, b)
+						b:SetSize(94, 94)
+						b:SetPoint("TOPLEFT", ((eBtn - 1) % 13) * 94, -2)
+
+						-- Button highlight bar
+						b.line = b:CreateTexture(nil, "ARTWORK")
+						b.line:SetTexture("Interface\\PLAYERFRAME\\DruidLunarBarHorizontal")
+						b.line:SetSize(84, 6)
+						b.line:SetPoint("BOTTOM", 0, -4)
+						b.line:Hide()
+
+						-- Button textures
+						for row = 0, 7 - 1 do
+							for col = 0, 7 - 1 do
+								local t = b:CreateTexture(nil, "ARTWORK")
+								t:SetSize(12, 12)
+								t:SetPoint("TOPLEFT", 5 + col * 12, - 5 - row * 12)
+								local c = eData[eBtn][row * 7 + col + 1]
+								-- Do nothing if element is the solution
+								if c and strfind(c, ",") then c = nil end
+								-- Color textures
+								if c == 2 then
+									-- Starting block
+									t:SetColorTexture(0, 1, 0)
+								elseif c then
+									-- Path
+									t:SetColorTexture(1, 1, 1)
+								else
+									-- Background
+									t:SetColorTexture(.4, .4, .9)
+								end
+							end
+						end
+
+						-- Button scripts
+						b:SetScript("OnEnter", function()
+							bt[eBtn].line:Show()
+						end)
+
+						b:SetScript("OnLeave", function()
+							if b ~= selectedBtn then bt[eBtn].line:Hide() end
+						end)
+
+						b:SetScript("OnMouseDown", function(self, btn)
+							if btn == "RightButton" then
+								-- Right-click to exit
+								eFrame:Hide()
+								return
+							else
+								-- Deselect all buttons
+								for test = 1, #bt do
+									bt[test].line:Hide()
+								end
+								-- Select current button
+								bt[eBtn].line:Show()
+								selectedBtn = b
+								PlaySoundFile("Sound\\Interface\\PlaceHolder.ogg")
+								-- Print button data
+								eFrame.f:SetText(L["Enigma"] .. " " .. eBtn .. ": |cffffffff" .. eData[eBtn][#eData[eBtn]])
+							end
+						end)
+
+					end
+				else
+					-- Toggle frame
+					if LeaPlusLC.enimgaFrame:IsShown() then
+						LeaPlusLC.enimgaFrame:Hide()
+					else
+						LeaPlusLC.enimgaFrame:Show()
+					end
+				end
 			elseif str == "admin" then
 				-- Preset profile (used for testing)
 				LpEvt:UnregisterAllEvents()						-- Prevent changes
@@ -9822,7 +10136,7 @@
 				end
 
 				-- Assign cooldowns
-				setIcon("WARRIOR", 		1, --[[Arms]] 		 	--[[1]] 32216, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Victory Rush
+				setIcon("WARRIOR", 		1, --[[Arms]] 		 	--[[1]] 32216, 0, 0, 	--[[2]] 209574, 0, 0, 	--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Victory Rush, Shattered Defences
 				setIcon("WARRIOR", 		2, --[[Fury]]  			--[[1]] 32216, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Victory Rush
 				setIcon("WARRIOR", 		3, --[[Protection]]  	--[[1]] 32216, 0, 0, 	--[[2]] 190456, 0, 0, 	--[[3]] 132404, 0, 0, 	--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Victory Rush, Ignore Pain, Shield Block
 
@@ -9831,7 +10145,7 @@
 				setIcon("PALADIN", 		3, --[[Retribution]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 203539, 0, 0, 	--[[4]] 203528, 0, 0, 	--[[5]] 203538, 0, 0) -- nil, nil, Wisdom, Might, Kings
 
 				setIcon("SHAMAN", 		1, --[[Elemental]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 215864, 0, 0, 	--[[5]] 546, 0, 0) -- nil, nil, nil, Rainfall, Water Walking
-				setIcon("SHAMAN", 		2, --[[Enhancement]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 215864, 0, 0, 	--[[5]] 546, 0, 0) -- nil, nil, nil, Rainfall, Water Walking
+				setIcon("SHAMAN", 		2, --[[Enhancement]]  	--[[1]] 194084, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 215864, 0, 0, 	--[[5]] 546, 0, 0) -- Flametongue, nil, nil, Rainfall, Water Walking
 				setIcon("SHAMAN", 		3, --[[Resto]]  		--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 215864, 0, 0, 	--[[5]] 546, 0, 0) -- nil, nil, nil, Rainfall, Water Walking
 
 				setIcon("ROGUE", 		1, --[[Assassination]]  --[[1]] 1784, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 2823, 0, 0, 	--[[5]] 3408, 0, 0) -- Stealth, nil, nil, Deadly Poison, Crippling Poison

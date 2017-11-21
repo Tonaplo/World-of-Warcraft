@@ -38,16 +38,16 @@ AllTheThingsPCD = {
 		true, -- [35]
 		true, -- [36]
 		[103] = true,
+		[107] = true,
 		[100] = true,
 		[200] = true,
 		[108] = true,
-		[0] = true,
 		[101] = true,
 		[105] = true,
+		[109] = true,
 		[102] = true,
 		[106] = true,
-		[107] = true,
-		[109] = true,
 		[104] = true,
+		[0] = true,
 	},
 }

@@ -1,3 +1,8 @@
+11/12/2017 version 4.7.8
+- To selectively hide pets in the pet list, the new option "Allow Hidden Pets" under the Pet Filter Options in the Options tab is now required. If you already have hidden pets, this option will be on by default. If you do not, it will be off by default. While this option is off, the various menu options related to hiding pets will be hidden.
+- Added temporary option "Debug: Journal FrameLevel" under Miscellaneous Options, for an experimental fix for a few having problems opening Rematch in the Collections window.
+- Fix for areas beneath notes being unclickable when there's more notes extending beyond the bottom.
+
 09/30/2017 version 4.7.7
 - Secondary accounts can once again run Rematch concurrently with the main account.
 - When sorting pets by level, non-battle pets are now treated as if level 0. (Secondary sorts by level do not do this yet but will in a future update.)

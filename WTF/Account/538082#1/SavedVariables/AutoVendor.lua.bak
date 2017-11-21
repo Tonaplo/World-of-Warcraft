@@ -4,28 +4,31 @@ AutoVendorDB = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
+		},
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Zaliga - Bleeding Hollow"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
@@ -36,15 +39,15 @@ AutoVendorDB = {
 				[138967] = "Big Fountain Goldfish",
 			},
 		},
-		["Morifa - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
 	},
 }

@@ -35,7 +35,7 @@ statPriorityStats["MAGEFire"] = "Mastery > Haste = Versatility > Intellect > Cri
 statPriorityStats["MAGEFrost"] = "Critical Strike to 33.34% > Intellect > Haste > Versatility > Mastery"
 
 statPriorityStats["WARLOCKAffliction"] = "Mastery > Haste > Critical Strike > Versatility > Intellect"
-statPriorityStats["WARLOCKDemonology"] = "Haste > Intellect > Critical Strike = Mastery > Versatility"
+statPriorityStats["WARLOCKDemonology"] = "Haste > Critical Strike = Mastery > Intellect > Versatility"
 statPriorityStats["WARLOCKDestruction"] = "Haste > Critical Strike > Intellect > Versatility > Mastery"
 
 statPriorityStats["DRUIDBalance"] = "Mastery > Haste > Intellect > Critical Strike > Versatility"
@@ -50,11 +50,11 @@ statPriorityStats["MONKFistweaver"] = "Intellect > Versatility > Haste > Critica
 statPriorityStats["MONKWindwalker"] = "Agility > Mastery > Haste > Critical Strike > Versatility"
 
 statPriorityStats["DEATHKNIGHTBlood"] = "Haste > Versatility > Critical Strike > Mastery"
-statPriorityStats["DEATHKNIGHTFrost"] = "Strength > Mastery > Critical Strike > Haste > Versatility"
+statPriorityStats["DEATHKNIGHTFrost"] = "Strength > Haste > Mastery = Critical Strike > Versatility"
 statPriorityStats["DEATHKNIGHTUnholy"] = "Strength > Mastery > Haste to 20% > Critical Strike = Versatility"
 
 statPriorityStats["DEMONHUNTERHavoc"] = "Critical Strike > Haste > Versatility > Agility > Mastery"
-statPriorityStats["DEMONHUNTERVengeance"] = "Agility > Haste to 30% > Mastery > Versatility > Haste > Critical Strike"
+statPriorityStats["DEMONHUNTERVengeance"] = "Agility > Haste to 20% > Mastery > Versatility > Haste > Critical Strike"
 
 function SlashCmdList.STATPRIORITY(msg, editbox)
 	local name = UnitName("player")

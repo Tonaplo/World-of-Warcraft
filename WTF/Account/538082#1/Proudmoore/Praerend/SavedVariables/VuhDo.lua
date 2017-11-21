@@ -3511,12 +3511,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Locked On"] = {
+			["219049"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Web of Pain"] = {
 				["isStacks"] = false,
@@ -3525,12 +3525,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["219049"] = {
+			["Parasitic Growth"] = {
 				["isStacks"] = false,
 				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Frozen Bolt"] = {
 				["isStacks"] = false,
@@ -3980,7 +3980,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Parasitic Growth"] = {
+			["Locked On"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -4376,14 +4376,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 177.11735534668,
-			["x"] = 936.175170898438,
+			["y"] = 253.867156982422,
+			["x"] = 819.515625,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 55,
+			["height"] = 145,
 			["growth"] = "TOPLEFT",
-			["width"] = 85,
+			["width"] = 325.000091552734,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -4394,8 +4394,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
-			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -4403,6 +4401,8 @@ VUHDO_PANEL_SETUP = {
 				4, -- [4]
 				5, -- [5]
 			},
+			["ordering"] = 0,
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4530,7 +4530,7 @@ VUHDO_PANEL_SETUP = {
 			["showTags"] = true,
 			["position"] = "BOTTOMRIGHT+BOTTOMRIGHT",
 			["yAdjust"] = 0,
-			["_spacing"] = 17.9999923706055,
+			["_spacing"] = 18.0000076293945,
 			["xAdjust"] = 0,
 			["showPetOwners"] = true,
 		},
@@ -7108,9 +7108,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7118,9 +7118,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7173,9 +7173,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7205,9 +7205,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7215,9 +7215,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7270,9 +7270,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7307,38 +7307,38 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Skyhold",
+		["zone"] = "Krokuun",
 		["baseRange"] = true,
 		["class"] = "WARRIOR",
 		["role"] = 61,
-		["sortMaxHp"] = 5018700,
-		["map"] = "ValhallasWarriorOrderHome",
+		["sortMaxHp"] = 5626620,
+		["map"] = "ArgusSurface",
 		["threat"] = 0,
 		["powermax"] = 140,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Praerend",
 		["number"] = 1,
-		["isVehicle"] = false,
+		["targetUnit"] = "target",
 		["group"] = 1,
 		["classId"] = 20,
 		["range"] = true,
 		["unit"] = "player",
-		["powertype"] = 1,
-		["healthmax"] = 5018700,
+		["debuff"] = 0,
+		["healthmax"] = 5626620,
 		["dead"] = false,
-		["charmed"] = false,
+		["connected"] = true,
 		["fullName"] = "Praerend",
 		["power"] = 0,
 		["aggro"] = false,
 		["visible"] = true,
-		["targetUnit"] = "target",
-		["health"] = 5018700,
+		["isVehicle"] = false,
+		["health"] = 4687267,
 		["className"] = "Warrior",
 		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
+		["powertype"] = 1,
 		["petUnit"] = "pet",
+		["charmed"] = false,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7363,9 +7363,9 @@ VUHDO_INDICATOR_CONFIG = {
 		},
 		["SWIFTMEND_INDICATOR"] = "Role Icon",
 		["THREAT_MARK"] = "",
+		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
-		["MANA_BAR"] = "Manabars: Mana only",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
 		["SIDE_LEFT"] = "",
 		["DAMAGE_FLASH_BAR"] = "",

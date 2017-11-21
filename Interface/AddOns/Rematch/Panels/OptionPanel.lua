@@ -121,18 +121,19 @@ panel.opts = {
 	{ "check", "QueueAutoLearn", L["Automatically Level New Pets"], L["When you capture or learn a pet, automatically add it to the leveling queue."] },
 	{ "check", "QueueAutoLearnOnly", L["Only Pets Without A 25"], L["Only automatically level pets which don't have a version already at 25 or in the queue."], "QueueAutoLearn" },
 	{ "check", "QueueAutoLearnRare", L["Only Rare Pets"], L["Only automatically level rare quality pets."], "QueueAutoLearn" },
-	{ "header", L["Pet Filter Options"], 8 },
+	{ "header", L["Pet Filter Options"]..newIcon, 8 },
 	{ "check", "ResetFilters", L["Reset Filters On Login"], L["When logging in, start with all pets listed and no filters active."] },
 	{ "check", "ResetSortWithFilters", L["Reset Sort With Filters"], L["When clearing filters, also reset the sort back to the default: Sort by Name, Favorites First."], nil, true },
 	{ "check", "ResetExceptSearch", L["Don't Reset Search With Filters"], L["When manually clearing filters, don't clear the search box too.\n\nSome actions, such as logging in or Find Similar, will always clear search regardless of this setting."] },
 	{ "check", "SortByNickname", L["Sort By Chosen Name"], L["When pets are sorted by name, sort them by the name given with the Rename option instead of their original name."], nil, true },
 	{ "check", "DontSortByRelevance", L["Don't Sort By Relevance"], L["When searching for something by name in the search box, do not sort the results by relevance.\n\nWhen sorted by relevance, pets with the search term in their name are listed first, followed by terms in notes, then abilities and then source text last."], nil, true },
    { "check", "HideNonBattlePets", L["Hide Non-Battle Pets"], L["Only list pets that can battle. Do not list pets like balloons, squires and other companion pets that cannot battle."], nil, true },
+   { "check", "AllowHiddenPets", L["Allow Hidden Pets"]..newIcon, L["Allow the ability to hide specific pet species in the pet list with a 'Hide Pet' in the list's right-click menu.\n\nYou can view pets you've hidden from the Other -> Hidden Pets filter."], nil, true },
 	{ "header", L["Confirmation Options"], 11 },
 	{ "check", "DontWarnMissing", L["Don't Warn About Missing Pets"], L["Don't display a popup when a team loads and a pet within the team can't be found."] },
 	{ "check", "DontConfirmHidePets", L["Don't Ask When Hiding Pets"], L["Don't ask for confirmation when hiding a pet.\n\nYou can view hidden pets in the 'Other' pet filter."] },
 	{ "check", "NoBackupReminder", L["Don't Remind About Backups"], L["Don't show a popup offering to backup teams every once in a while. Generally, the popup appears sometime after the number of teams increases by 50."] },
-	{ "header", L["Miscellaneous Options"], 6 },
+	{ "header", L["Miscellaneous Options"]..newIcon, 6 },
 	{ "check", "ShowAfterBattle", L["Show After Pet Battle"], L["Show the Rematch window after leaving a pet battle."] },
 	{ "check", "DisableShare", L["Disable Sharing"], L["Disable the Send button and also block any incoming pets sent by others. Import and Export still work."] },
 	{ "check", "UseMinimapButton", L["Use Minimap Button"], L["Place a button on the minimap to toggle Rematch and load favorite teams."], nil, true, true },
@@ -140,7 +141,8 @@ panel.opts = {
 	{ "check", "NoSummonOnDblClick", L["No Summon On Double Click"], L["Do nothing when pets within Rematch are double-clicked. The normal behavior of double click throughout Rematch is to summon or dismiss the pet."] },
 	{ "check", "HideTooltips", L["Hide Tooltips"], L["Hide the more common tooltips in Rematch."] },
 	{ "check", "HideMenuHelp", L["Hide Extra Help"], L["Hide the informational \"Help\" items found in many menus and on the pet card."] },
-	{ "check", "UseDefaultJournal", L["Use Default Pet Journal"], L["Turn off Rematch integration with the default pet journal.\n\nYou can still use Rematch in its standalone window, accessed via key binding, /rematch command or from the Minimap button if enabled in options."], nil, true },
+   { "check", "UseDefaultJournal", L["Use Default Pet Journal"], L["Turn off Rematch integration with the default pet journal.\n\nYou can still use Rematch in its standalone window, accessed via key binding, /rematch command or from the Minimap button if enabled in options."], nil, true },
+   { "check", "DebugJournalFrameLevel", L["Debug: Journal FrameLevel"]..newIcon, L["If you experience problems opening Rematch in the Collections window, and the standalone window works fine, then check this to see if it helps. Let me know if it does or doesn't, thanks!"] },
 	{ "text", format(L["Rematch version %s"],GetAddOnMetadata("Rematch","Version")) },
 	{ "text", format(L["The%s icon indicates new options."],newIcon) },
 }
@@ -177,6 +179,14 @@ rematch:InitModule(function()
 
 	panel.CustomScale.ScaleButton:SetNormalFontObject(GameFontNormal)
 	panel.CustomScale.ScaleButton:SetHighlightFontObject(GameFontHighlight)
+
+   -- if first time with AllowHiddenPets option, check if any pets are hidden and default option to on
+   if not settings.AllowHiddenPetsDefaulted then
+      settings.AllowHiddenPetsDefaulted = true
+      if settings.HiddenPets then
+         settings.AllowHiddenPets = next(settings.HiddenPets) and true
+      end
+   end
 
 	-- remove leveling toast option if ElvUI is enabled
 	if IsAddOnLoaded("ElvUI") then
@@ -504,6 +514,12 @@ panel.funcs.HideNonBattlePets = function()
    rematch:HideMenu() -- in case pet filter menu open
    rematch.Roster:ClearAllFilters() -- to clear any existing Can Battle/Can't Battle filter
    rematch:UpdateRoster() -- to update list
+end
+panel.funcs.AllowHiddenPets = function()
+   if not settings.AllowHiddenPets and settings.HiddenPets then
+      wipe(settings.HiddenPets) -- if option being disabled, remove hidden pets
+   end
+   rematch:UpdateRoster()
 end
 
 -- collapses or expands an option header

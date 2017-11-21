@@ -190,8 +190,8 @@ function journal:ConfigureJournal(hide)
 	journal:SetPoint("TOPLEFT")
 	-- SetFrameLevel does not make huge jumps; make at most 10 attempts to set a higher frame level
 	local highestLevel = rematch:FindHighestFrameLevel(PetJournal)+1
-	local raiseTimeout = 10
-	while journal:GetFrameLevel()<highestLevel and raiseTimeout>0 do
+   local raiseTimeout = settings.DebugJournalFrameLevel and 1 or 10
+   while journal:GetFrameLevel()<highestLevel and raiseTimeout>0 do
 		journal:SetFrameLevel(highestLevel)
 		raiseTimeout = raiseTimeout - 1
 	end

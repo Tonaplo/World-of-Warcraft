@@ -172,8 +172,8 @@ rematch:InitModule(function()
 				end
 				rematch:ShowTeam()
 			end	},
-		{ text=L["Hide Pet"], hidden=function(self,petID) return not rmf:ForPetPanel() or rmf:PetIsHidden(petID) end, func=rmf.ShowHidePetDialog },
-		{ text=L["Unhide Pet"], hidden=function(self,petID) return not rmf:ForPetPanel() or not rmf:PetIsHidden(petID) end, func=function(self,petID) roster:SetHidePet(petID,false) end },
+		{ text=L["Hide Pet"], hidden=function(self,petID) return not settings.AllowHiddenPets or (not rmf:ForPetPanel() or rmf:PetIsHidden(petID)) end, func=rmf.ShowHidePetDialog },
+		{ text=L["Unhide Pet"], hidden=function(self,petID) return not settings.AllowHiddenPets or (not rmf:ForPetPanel() or not rmf:PetIsHidden(petID)) end, func=function(self,petID) roster:SetHidePet(petID,false) end },
 		{ text=BATTLE_PET_RELEASE, -- Release
 			hidden=function(entry,petID)
 				return rematch:GetIDType(petID)~="pet" or not C_PetJournal.PetCanBeReleased(petID)
@@ -413,7 +413,7 @@ rematch:InitModule(function()
       { text=L["Shared Moveset"], radio=true, group="Other", radioGroup="Moveset", var="SharedMoveset", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ spacer=true },
 		{ text=L["Current Zone"], check=true, group="Other", radioGroup="Zone", var="CurrentZone", value=rmf.GetValue, func=rmf.ToggleRadio },
-		{ text=L["Hidden Pets"], check=true, group="Other", radioGroup="Hidden", var="Hidden", value=rmf.GetValue, func=rmf.ToggleRadio },
+		{ text=L["Hidden Pets"], hidden=function() return not settings.AllowHiddenPets end, check=true, group="Other", radioGroup="Hidden", var="Hidden", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ text=L["Has Notes"], check=true, group="Other", radioGroup="Notes", var="HasNotes", value=rmf.GetValue, func=rmf.ToggleRadio },
 		{ spacer=true },
 		{ text=RESET, group="Other", stay=true, func=rmf.ResetGroup },

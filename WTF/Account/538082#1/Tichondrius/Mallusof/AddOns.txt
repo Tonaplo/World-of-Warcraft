@@ -6,3 +6,4 @@ autoturnin: disabled
 MythicPlusTimer: disabled
 XLoot_Options: enabled
 AdiBags: enabled
+Bartender4: disabled

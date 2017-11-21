@@ -314,7 +314,8 @@ AllTheThings.Locales.enUS = {
 		[-160] = "Interface\\Icons\\ability_mount_fireravengodmountgreen",
 		[-161] = "Interface\\Icons\\garrison_bronzechest",
 		[-162] = "Interface\\Icons\\inv_box_petcarrier_01", -- Pets
-		[-163] = "Interface\\Icons\\inv_shirt_guildtabard_01", -- Tabards
+		[-163] = "Interface\\Icons\\garrison_purplearmor", -- Armor
+		[-164] = "Interface\\Icons\\inv_misc_tournaments_tabard_gnome",
 		[-299] = "Interface\\Icons\\achievement_garrisonquests_1000", 			-- Missions
 		[-318] = "Interface\\Icons\\garrison_purplearmor",
 		[-319] = "Interface\\Icons\\garrison_purpleweapon",
@@ -482,6 +483,7 @@ AllTheThings.Locales.enUS = {
 		[-92] = "Zul'Gurub",
 		[-93] = "NEVER AVAILABLE",
 		[-94] = "Black Market Auction House",
+		[-95] = ENABLE_MUSIC.." "..ROLL,	-- Music Roll
 -- Garrison 
 		[-99] = STABLES, 											-- Stables
 		[-102] = "Alchemy Lab",
@@ -1138,6 +1140,7 @@ AllTheThings.Locales.enUS = {
 		[277205] = "Ancient Legion War Cache",
 		[244965] = "Sheddle's Chest",
 		[266851] = "Wand of Simulated Life",
+		[232590] = "Void-Infused Crystal",
 	};
 	
 	-- Saved Instance Name => Dungeon Journal Instance Name Converter
@@ -1162,6 +1165,7 @@ AllTheThings.Locales.enUS = {
 		["Sunken Temple"] = "The Temple of Atal'hakkar";
 		["The Sunwell"] = "Sunwell Plateau";
 		["Tempest Keep"] = "The Eye";
+		["Violet Hold"] = "The Violet Hold";
 	};
 	
 	-- This is necessary to have because Blizzard does not always have the correct map ID at the time of zone change.
@@ -1211,21 +1215,21 @@ AllTheThings.Locales.enUS = {
 		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator"}, -- 14
 		{1, "|CFFFF0000This item has a Source ID, but apparently cannot be used for transmog and will likely be unlearnable.|r", "Untransmoggable"}, -- 15	
 		{2, "|CFFFF0000These items require either attending Blizzcon or purchasing a virtual ticket.  You may also find codes on various sites for high prices.|r", "Blizzcon"},--16
-		{6, "|CFFFF0000In order to obtain this item it requires Lunar Festival to be active.|r", "Lunar Festival"};--17
-		{7, "|CFFFF0000In order to obtain this item it requires Love is In the Air to be active.|r", "Love is In the Air"};--18
-		{8, "|CFFFF0000In order to obtain this item it requires Noblegarden to be active.|r", "Noblegarden"};--19
-		{9, "|CFFFF0000In order to obtain this item it requires Children's Week to be active.|r", "Children's Week"};--20
-		{10, "|CFFFF0000In order to obtain this item it requires Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival"};--21
-		{11, "|CFFFF0000In order to obtain this item it requires Trial of Style to be active.|r", "Trial of Style"};--22
-		{12, "|CFFFF0000In order to obtain this item it requires Pirate's Day to be active.|r", "Pirate's Day"};--23
-		{13, "|CFFFF0000In order to obtain this item it requires Brewfest to be active.|r", "Brewfest"};--24
-		{14, "|CFFFF0000In order to obtain this item it requires Harvest Festival to be active.|r", "Harvest Festival"};--25
-		{15, "|CFFFF0000In order to obtain this item it requires Hallow's End to be active.|r", "Hallow's End"};--26
-		{16, "|CFFFF0000In order to obtain this item it requires Day of the Dead to be active.|r", "Day of the Dead"};--27
-		{17, "|CFFFF0000In order to obtain this item it requires Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty"};--28
-		{18, "|CFFFF0000In order to obtain this item it requires Feast of Winter Veil to be active.|r", "Feast of Winter Veil"};--29
-		{19, "|CFFFF0000In order to obtain this item it requires Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza"};--30
-		{20, "|CFFFF0000This is obtainable only during the WoW Anniversary it was active. It's a possiblity future anniversaries may include this item.|r", "WoW Anniversary"};--31
+		{6, "|CFF00FFDE\nIn order to obtain this item it requires Lunar Festival to be active.|r\n", "Lunar Festival"};--17
+		{7, "|CFF00FFDE\nIn order to obtain this item it requires Love is In the Air to be active.|r\n", "Love is In the Air"};--18
+		{8, "|CFF00FFDE\nIn order to obtain this item it requires Noblegarden to be active.|r\n", "Noblegarden"};--19
+		{9, "|CFF00FFDE\nIn order to obtain this item it requires Children's Week to be active.|r\n", "Children's Week"};--20
+		{10, "|CFF00FFDE\nIn order to obtain this item it requires Midsummer Fire Festival to be active.|r\n", "Midsummer Fire Festival"};--21
+		{11, "|CFF00FFDE\nIn order to obtain this item it requires Trial of Style to be active.|r\n", "Trial of Style"};--22
+		{12, "|CFF00FFDE\nIn order to obtain this item it requires Pirate's Day to be active.|r\n", "Pirate's Day"};--23
+		{13, "|CFF00FFDE\nIn order to obtain this item it requires Brewfest to be active.|r\n", "Brewfest"};--24
+		{14, "|CFF00FFDE\nIn order to obtain this item it requires Harvest Festival to be active.|r\n", "Harvest Festival"};--25
+		{15, "|CFF00FFDE\nIn order to obtain this item it requires Hallow's End to be active.|r\n", "Hallow's End"};--26
+		{16, "|CFF00FFDE\nIn order to obtain this item it requires Day of the Dead to be active.|r\n", "Day of the Dead"};--27
+		{17, "|CFF00FFDE\nIn order to obtain this item it requires Pilgrim's Bounty to be active.|r\n", "Pilgrim's Bounty"};--28
+		{18, "|CFF00FFDE\nIn order to obtain this item it requires Feast of Winter Veil to be active.|r\n", "Feast of Winter Veil"};--29
+		{19, "|CFF00FFDE\nIn order to obtain this item it requires Stranglethorn Fishing Extravaganza to be active.|r\n", "Stranglethorn Fishing Extravaganza"};--30
+		{20, "|CFF00FFDE\nThis is obtainable only during the WoW Anniversary it was active. It's a possiblity future anniversaries may include this item.|r\n", "WoW Anniversary"};--31
 		{4, "|CFFFF0000These are the original vanilla rewards for this quest. The quests were later reworked with new rewards. If you did complete this quest it is likely these items will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards"};--32
 		{4, "|CFFFF0000This vendor is no longer available in this spot or in game.|r", "Legacy Vendors"}; -- 33
 		{4, "|CFFFF0000This item was a quest award from a Legacy Quest no longer offered.|r", "Legacy Quest Reward"}; --34

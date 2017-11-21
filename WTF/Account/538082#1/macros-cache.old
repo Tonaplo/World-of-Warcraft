@@ -1,3 +1,48 @@
+VER 3 0000000000000030 "Balance of Powe" "876916"
+/run local p="BoP" for i=1,9 do RunScript(GetMacroBody(p..i)) end
+END
+VER 3 0000000000000031 "BoP1" "INV_MISC_QUESTIONMARK"
+print("[1] The Power Within - ", IsQuestFlaggedCompleted(43496))
+print("[2] Eye of Azshara: The Heart of Zin-Azshari - ", IsQuestFlaggedCompleted(40668))  print("[3] Darkheart Thicket: Fallen Power - ", IsQuestFlaggedCompleted(43517))
+END
+VER 3 0000000000000032 "BoP2" "INV_MISC_QUESTIONMARK"
+print("[4] Lucid Strength - ", IsQuestFlaggedCompleted(43519))
+print("[5] The Emerald Nightmare: In Nightmares - ", IsQuestFlaggedCompleted(43520))
+print("[5.5] Essence of Power - ", IsQuestFlaggedCompleted(43521))
+END
+VER 3 0000000000000033 "BoP3" "INV_MISC_QUESTIONMARK"
+print("[6] Essential Consumption - ", IsQuestFlaggedCompleted(43522))  
+print("[6.5] Saving the Guard - ", IsQuestFlaggedCompleted(43527))  print("[7] Repaid Debt - ", IsQuestFlaggedCompleted(43523))
+END
+VER 3 0000000000000034 "BoP4" "INV_MISC_QUESTIONMARK"
+print("[8] Lost Knowledge - ", IsQuestFlaggedCompleted(40673)) 
+print("[9] Vault of the Wardens: Borrowing Without Asking - ", IsQuestFlaggedCompleted(43525)) print("[9.3] The Arcway: Rite of the Captain - ", IsQuestFlaggedCompleted(40675)) 
+END
+VER 3 0000000000000035 "BoP5" "INV_MISC_QUESTIONMARK"
+print("[9.6] Court of Stars: Literary Perfection - ", IsQuestFlaggedCompleted(43524))  
+print("[10] Twisted Power - ", IsQuestFlaggedCompleted(40678))  
+print("[11] A True Test - ", IsQuestFlaggedCompleted(43526))
+END
+VER 3 0000000000000036 "BoP6" "INV_MISC_QUESTIONMARK"
+print("[12] Seeking the Valkyra - ", IsQuestFlaggedCompleted(40603))  
+print("[13] The Mark - ", IsQuestFlaggedCompleted(40608))  
+print("[14] Maw of Souls: Retrieving the Svalnguard - ", IsQuestFlaggedCompleted(40613)) 
+END
+VER 3 0000000000000037 "BoP7" "INV_MISC_QUESTIONMARK"
+print("[15] Neltharion's Lair: Presentation is Key - ", IsQuestFlaggedCompleted(40672))  
+print("[15.5] A Feast Fit for Odyn - ", IsQuestFlaggedCompleted(40614))
+print("[16] Odyn's Blessing - ", IsQuestFlaggedCompleted(40615))  
+END
+VER 3 0000000000000038 "BoP8" "INV_MISC_QUESTIONMARK"
+print("[17] Planning the Assault - ", IsQuestFlaggedCompleted(43528))  
+print("[17.5] Preparing to Move - ", IsQuestFlaggedCompleted(43898))  
+print("[18] Into the Nighthold - ", IsQuestFlaggedCompleted(43531)) 
+END
+VER 3 0000000000000039 "BoP9" "INV_MISC_QUESTIONMARK"
+print("[18.5] The Nighthold: Delusions of Grandeur - ", IsQuestFlaggedCompleted(43530))  
+print("[19] The Nighthold: Darkness Calls - ", IsQuestFlaggedCompleted(43532))  
+print("[20] Balance of Power - ", IsQuestFlaggedCompleted(43533))
+END
 VER 3 000000000000002A "CooldownRotation" "1386546"
 /cdr
 END
@@ -10,19 +55,12 @@ END
 VER 3 0000000000000006 "focus" "132222"
 /focus
 END
-VER 3 000000000000002F "guild charter" "INV_MISC_QUESTIONMARK"
-/script if UnitName("target") then SendChatMessage("Hey bud, Could you sign my guild charter? I'll pay 500 gold for it." ,"WHISPER" ,nil ,UnitName("target")) end 
-END
 VER 3 0000000000000027 "Newplayers" "1516058"
 /i Hey guys. If any of you are new, feel free to ask about fights and I'll do my best to explain them :)
 END
 VER 3 0000000000000028 "Opie" "915741"
 /opie
 /click ORLCloseActiveRing Macros
-END
-VER 3 0000000000000029 "Penance Focus" "INV_MISC_QUESTIONMARK"
-#showtooltip Penance
-/cast [exists][@focus] Penance
 END
 VER 3 000000000000002E "raest" "INV_MISC_QUESTIONMARK"
 /tar Raest
