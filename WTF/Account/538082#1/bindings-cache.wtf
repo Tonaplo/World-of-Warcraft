@@ -22,15 +22,22 @@ bind 9 NONE
 bind 0 TOGGLECHARACTER0
 bind - NONE
 bind = NONE
+bind CTRL-1 CLICK OverrideActionBarButton1:LeftButton
+bind CTRL-2 CLICK OverrideActionBarButton2:LeftButton
+bind CTRL-3 CLICK OverrideActionBarButton3:LeftButton
 bind SHIFT-1 CLICK LUIBarBottom1Button1:LeftButton
 bind SHIFT-2 CLICK LUIBarBottom1Button2:LeftButton
 bind SHIFT-3 CLICK LUIBarBottom1Button3:LeftButton
 bind SHIFT-4 CLICK LUIBarBottom1Button4:LeftButton
+bind SHIFT-UP NONE
+bind SHIFT-MOUSEWHEELUP NONE
+bind SHIFT-DOWN NONE
+bind SHIFT-MOUSEWHEELDOWN NONE
 bind G EXTRAACTIONBUTTON1
 bind F CLICK LUIBarBottom2Button6:LeftButton
 bind SHIFT-T CLICK LUIBarBottom1Button9:LeftButton
 bind C CLICK LUIBarBottom2Button12:LeftButton
-bind H MULTIACTIONBAR4BUTTON7
+bind H NONE
 bind SHIFT-C CLICK LUIBarBottom1Button12:LeftButton
 bind T CLICK LUIBarBottom2Button9:LeftButton
 bind SHIFT-F CLICK LUIBarBottom1Button6:LeftButton
@@ -41,4 +48,4 @@ bind SHIFT-X CLICK LUIBarBottom1Button11:LeftButton
 bind ´ STARTAUTORUN
 bind å TOGGLECHARACTER0
 bind NUMPADMULTIPLY TOGGLEAUTORUN
-bind SHIFT-H MULTIACTIONBAR3BUTTON7
+bind SHIFT-H NONE

@@ -4,9 +4,9 @@ AutoVendorDB = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Mallusof - Tichondrius"] = "Default",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Mallusof - Tichondrius"] = "Default",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
@@ -18,9 +18,9 @@ AutoVendorDB = {
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
 		},
-		["Praerend - Proudmoore"] = {
-		},
 		["Amranar - Proudmoore"] = {
+		},
+		["Praerend - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
