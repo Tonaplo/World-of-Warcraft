@@ -1126,6 +1126,9 @@ local function SearchForItemLink(link)
 		-- return { "Unsupported link: " .. link };
 	end
 end
+local function SearchForCachedItemLink(itemLink)
+	return GetCachedSearchResults(itemLink, SearchForItemLink, itemLink);
+end
 local function SearchForMissingItemsRecursively(group, listing)
 	if app.FilterItemClass(group) then
 		if (not group.collected or (group.total and (group.collected < group.total))) and (not group.b or group.b == 2) then
@@ -1151,6 +1154,7 @@ end
 AllTheThings.SearchForItemID = SearchForItemID;
 AllTheThings.SearchForSourceID = SearchForSourceIDQuickly;
 AllTheThings.SearchForItemLink = SearchForItemLink;
+AllTheThings.SearchForCachedItemLink = SearchForCachedItemLink;
 AllTheThings.SearchForField = SearchForField;
 
 -- Map Information Lib
@@ -1292,7 +1296,7 @@ local function ToggleMiniListForCurrentZone()
 end
 local function RefreshLocation(force)
 	if not app.refreshingLocation then
-		local automaticMiniList = GetDataMember("AutoMiniList", true);
+		local automaticMiniList = GetDataMember("AutoMiniList", true) or app:GetWindow("CurrentInstance"):IsVisible();
 		if automaticMiniList then
 			app.refreshingLocation = true;
 			StartCoroutine(app, function()
@@ -3496,11 +3500,6 @@ local function SetRowData(self, data)
 			self.Background:SetAlpha(data.back or 0.2);
 			self.Background:Show();
 		end
-		if data.saved then
-			self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
-			self.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
-			self.Indicator:Show();
-		end
 		if data.u then
 			local reason = L("UNOBTAINABLE_ITEM_REASONS")[data.u or 1];
 			if reason then
@@ -3511,6 +3510,11 @@ local function SetRowData(self, data)
 					self.Indicator:Show();
 				end
 			end
+		end
+		if data.saved then
+			self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
+			self.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
+			self.Indicator:Show();
 		end
 		if SetPortraitIcon(self.Texture, data) then
 			self.Texture.Background:SetPoint("LEFT", leftmost, relative, x, 0);

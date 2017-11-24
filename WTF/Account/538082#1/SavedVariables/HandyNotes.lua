@@ -2,37 +2,40 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
+		},
+		["Gorog - Bleeding Hollow"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -40,44 +43,47 @@ HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
+		},
+		["Gorog - Bleeding Hollow"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
@@ -85,7 +91,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
 	},
 }

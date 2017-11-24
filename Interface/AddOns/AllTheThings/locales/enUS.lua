@@ -629,6 +629,7 @@ AllTheThings.Locales.enUS = {
 		[-562] = "2008 World Wide Invitational",
 		[-561] = "2007 World Wide Invitational",
 		[-560] = "World of Warcraft",
+		[-546] = "Recruit A Friend",
 		[-545] = "Blizzcon",
 		[-544] = "WoW Collector Editions",
 		[-543] = "Legion Invasions",
@@ -962,6 +963,7 @@ AllTheThings.Locales.enUS = {
 		[161495] = "Secret Safe",
 		[160845] = "Dark Coffer",
 		[164820] = "Dark Keeper Nameplate",
+		[169243] = "Chest of The Seven",
 		[173232] = "Blacksmithing Plans",
 		[179564] = "Gordok Tribute Chest",
 		[179697] = "Arena Treasure Chest",
@@ -1229,11 +1231,11 @@ AllTheThings.Locales.enUS = {
 		{17, "|CFF00FFDE\nIn order to obtain this item it requires Pilgrim's Bounty to be active.|r\n", "Pilgrim's Bounty"};--28
 		{18, "|CFF00FFDE\nIn order to obtain this item it requires Feast of Winter Veil to be active.|r\n", "Feast of Winter Veil"};--29
 		{19, "|CFF00FFDE\nIn order to obtain this item it requires Stranglethorn Fishing Extravaganza to be active.|r\n", "Stranglethorn Fishing Extravaganza"};--30
-		{20, "|CFF00FFDE\nThis is obtainable only during the WoW Anniversary it was active. It's a possiblity future anniversaries may include this item.|r\n", "WoW Anniversary"};--31
+		{20, "|CFF00FFDE\nThis is obtainable only during the WoW Anniversary it was active. It's a possibility future anniversaries may include this item.|r\n", "WoW Anniversary"};--31
 		{4, "|CFFFF0000These are the original vanilla rewards for this quest. The quests were later reworked with new rewards. If you did complete this quest it is likely these items will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards"};--32
 		{4, "|CFFFF0000This vendor is no longer available in this spot or in game.|r", "Legacy Vendors"}; -- 33
 		{4, "|CFFFF0000This item was a quest award from a Legacy Quest no longer offered.|r", "Legacy Quest Reward"}; --34
-		{4, "|CFFFF0000This is a legacy instance and the original version has been removed.|r", "Legacy Instances"}; -- 35
+		{4, "|CFFFF0000This is legacy content and the original version has been removed.|r", "Legacy Content"}; -- 35
 	};
 };
 

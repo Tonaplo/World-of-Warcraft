@@ -1,0 +1,12 @@
+tag 1ef73d372a120507a157c6c4d8fe6b7075a7380c 7.3.0.0
+Author:	Hendrik Leppkes <h.leppkes@gmail.com>
+Date:	Wed Aug 30 08:40:45 2017 +0200
+
+Tag as 7.3.0.0
+
+commit 81763b6ee7205edaeb9862e7a58431c260b89fcf
+Author: Hendrik Leppkes <h.leppkes@gmail.com>
+Date:   Wed Aug 30 08:40:28 2017 +0200
+
+    Update TOC for 7.3
+

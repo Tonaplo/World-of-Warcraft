@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 7.3.26 (15th November 2017, www.leatrix.com)
+-- 	Leatrix Plus 7.3.27 (22nd November 2017, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "7.3.26"
+	LeaPlusLC["AddonVer"] = "7.3.27"
 
 ----------------------------------------------------------------------
 --	L00: Leatrix Plus
@@ -4091,6 +4091,262 @@
 			end)
 
 			----------------------------------------------------------------------
+			-- Points of interest
+			----------------------------------------------------------------------
+
+			local dnTex = "Interface\\Minimap\\Dungeon"
+			local rdTex = "Interface\\Minimap\\Raid"
+			local ptTex = "Interface\\Minimap\\Vehicle-AllianceMagePortal"
+
+			local pTable = {
+
+				-- Portals: Suramar
+				{category = "ShowSuramarPortals"	, name = L["Astravar Harbor"]				, continent = 1220	, zoneID = 1033		, x = 875		, y = 3634	, texture = ptTex		, desc = L["Portal"], reqQuest = 44740, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Evermoon Terrace"]				, continent = 1220	, zoneID = 1033		, x = 530		, y = 3771	, texture = ptTex		, desc = L["Portal"], reqQuest = 42889, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Falanaar"]						, continent = 1220	, zoneID = 1033		, x = 2369		, y = 5442	, texture = ptTex		, desc = L["Portal"], reqQuest = 42230, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Felsoul Hold"]					, continent = 1220	, zoneID = 1033		, x = 623		, y = 4477	, texture = ptTex		, desc = L["Portal"], reqQuest = 41575, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Lunastre Estate"]				, continent = 1220	, zoneID = 1033		, x = 511		, y = 4233	, texture = ptTex		, desc = L["Portal"], reqQuest = 43811, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Moon Guard Stronghold"]			, continent = 1220	, zoneID = 1033		, x = 3037		, y = 4947	, texture = ptTex		, desc = L["Portal"], reqQuest = 43808, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Ruins of Elune'eth"]			, continent = 1220	, zoneID = 1033		, x = 1697		, y = 4653	, texture = ptTex		, desc = L["Portal"], reqQuest = 40956, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Sanctum of Order"]				, continent = 1220	, zoneID = 1033		, x = 1203		, y = 4248	, texture = ptTex		, desc = L["Portal"], reqQuest = 43813, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["Tel'anor"]						, continent = 1220	, zoneID = 1033		, x = 2141		, y = 4324	, texture = ptTex		, desc = L["Portal"], reqQuest = 43809, remQuest = nil},
+				{category = "ShowSuramarPortals"	, name = L["The Waning Crescent"]			, continent = 1220	, zoneID = 1033		, x = 433		, y = 4007	, texture = ptTex		, desc = L["Portal"], reqQuest = 42487, remQuest = 38649},
+				{category = "ShowSuramarPortals"	, name = L["Twilight Vineyards"]			, continent = 1220	, zoneID = 1033		, x = 1209		, y = 3105	, texture = ptTex		, desc = L["Portal"], reqQuest = 44084, remQuest = nil},
+
+				-- Dungeons: Eastern Kingdoms
+				{category = "ShowDungeonLocs"		, name = L["Baradin Hold"]					, linkID = 752		, continent = 732	, zoneID = 708		, x = -1204		, y = 1079	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Caverns"]				, linkID = 753		, continent = 0		, zoneID = 28		, x = -7615		, y = -1242	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Caverns"]				, linkID = 753		, continent = 0		, zoneID = 29		, x = -7615		, y = -1242	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Caverns"]				, linkID = 753		, continent = 0		, zoneID = 28		, x = -7570		, y = -1328	, texture = dnTex		, desc = L["Dungeon"], level = 15},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Caverns"]				, linkID = 753		, continent = 0		, zoneID = 29		, x = -7570		, y = -1328	, texture = dnTex		, desc = L["Dungeon"], level = 15},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Depths"]				, linkID = 704		, continent = 0		, zoneID = 28		, x = -7179		, y = -922	, texture = dnTex		, desc = L["Dungeon"], level = 16},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Depths"]				, linkID = 704		, continent = 0		, zoneID = 29		, x = -7179		, y = -922	, texture = dnTex		, desc = L["Dungeon"], level = 16},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Mountain"]			, linkID = nil		, continent = 0		, zoneID = 29		, x = -7781		, y = -1128	, texture = rdTex		, desc = L["Blackrock Caverns"] .. ", " .. L["Blackrock Spire"] .. ",|n" .. L["Blackrock Depths"] .. ", " .. L["Blackwing Lair"] .. ",|n" .. L["Molten Core"]},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Mountain"]			, linkID = nil		, continent = 0		, zoneID = 28		, x = -7365		, y = -1101	, texture = rdTex		, desc = L["Blackrock Caverns"] .. ", " .. L["Blackrock Spire"] .. ",|n" .. L["Blackrock Depths"] .. ", " .. L["Blackwing Lair"] .. ",|n" .. L["Molten Core"]},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Spire"]				, linkID = nil		, continent = 0		, zoneID = 28		, x = -7524		, y = -1230	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Spire"]				, linkID = nil		, continent = 0		, zoneID = 29		, x = -7524		, y = -1230	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Blackwing Descent"]				, linkID = 754		, continent = 0		, zoneID = 29		, x = -7538		, y = -1196	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Blackwing Lair"]				, linkID = 755		, continent = 0		, zoneID = 28		, x = -7662		, y = -1218	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Blackwing Lair"]				, linkID = 755		, continent = 0		, zoneID = 29		, x = -7662		, y = -1218	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Gnomeregan"]					, linkID = 691		, continent = 0		, zoneID = 27		, x = -5184		, y = 603	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Gnomeregan"]					, linkID = 691		, continent = 0		, zoneID = 895		, x = -5183		, y = 598	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Gnomeregan"]					, linkID = 691		, continent = 0		, zoneID = 27		, x = -5145		, y = 898	, texture = dnTex		, desc = L["Dungeon"], level = 10},
+				{category = "ShowDungeonLocs"		, name = L["Grim Batol"]					, linkID = 757		, continent = 0		, zoneID = 700		, x = -4058		, y = -3450	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Karazhan"]						, linkID = 799		, continent = 0		, zoneID = 32		, x = -11111	, y = -2006	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Lower Blackrock Spire"]			, linkID = 721		, continent = 0		, zoneID = 28		, x = -7518		, y = -1334	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Lower Blackrock Spire"]			, linkID = 721		, continent = 0		, zoneID = 29		, x = -7518		, y = -1334	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Magisters' Terrace"]			, linkID = 798		, continent = 530	, zoneID = 499		, x = 12884		, y = -7333	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Molten Core"]					, linkID = 696		, continent = 0		, zoneID = 28		, x = -7509		, y = -1040	, texture = rdTex		, desc = L["Raid"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Molten Core"]					, linkID = 696		, continent = 0		, zoneID = 29		, x = -7509		, y = -1040	, texture = rdTex		, desc = L["Raid"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Molten Core"]					, linkID = 696		, continent = 0		, zoneID = 28		, x = -7509		, y = -1040	, texture = rdTex		, desc = L["Raid"], level = 16},
+				{category = "ShowDungeonLocs"		, name = L["Molten Core"]					, linkID = 696		, continent = 0		, zoneID = 29		, x = -7509		, y = -1040	, texture = rdTex		, desc = L["Raid"], level = 16},
+				{category = "ShowDungeonLocs"		, name = L["Return to Karazhan"]			, linkID = 1115		, continent = 0		, zoneID = 32		, x = -11037	, y = -2001	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Scarlet Halls"]					, linkID = 871		, continent = 0		, zoneID = 20		, x = 2867		, y = -822	, texture = dnTex		, desc = L["Dungeon"], level = 13},
+				{category = "ShowDungeonLocs"		, name = L["Scarlet Monastery"]				, linkID = nil		, continent = 0		, zoneID = 20		, x = 2828		, y = -698	, texture = dnTex		, desc = L["Scarlet Monastery"] .. ", " .. L["Scarlet Halls"]},
+				{category = "ShowDungeonLocs"		, name = L["Scarlet Monastery"]				, linkID = 874		, continent = 0		, zoneID = 20		, x = 2916		, y = -802	, texture = dnTex		, desc = L["Dungeon"], level = 13},
+				{category = "ShowDungeonLocs"		, name = L["Scholomance"]					, linkID = 898		, continent = 0		, zoneID = 22		, x = 1262		, y = -2581	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Shadowfang Keep"]				, linkID = 764		, continent = 0		, zoneID = 21		, x = -233		, y = 1564	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Stratholme: Crusader's Square"]	, linkID = 765		, continent = 0		, zoneID = 23		, x = 3391		, y = -3407	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Stratholme: The Gauntlet"]		, linkID = 765.2	, continent = 0		, zoneID = 23		, x = 3183		, y = -4038	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Sunwell Plateau"]				, linkID = 789		, continent = 530	, zoneID = 499		, x = 12559		, y = -6774	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Temple of Atal'Hakkar"]			, linkID = 687		, continent = 0		, zoneID = 38		, x = -10429	, y = -3829	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Bastion of Twilight"]		, linkID = 758		, continent = 0		, zoneID = 700		, x = -4895		, y = -4230	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["The Deadmines"]					, linkID = 756		, continent = 0		, zoneID = 39		, x = -11075	, y = 1527	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Deadmines"]					, linkID = 756		, continent = 0		, zoneID = 39		, x = -11207	, y = 1674	, texture = dnTex		, desc = L["Dungeon"], level = 17},
+				{category = "ShowDungeonLocs"		, name = L["The Stockade"]					, linkID = 690		, continent = 0		, zoneID = 301		, x = -8806		, y = 813	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Stockade"]					, linkID = 690		, continent = 0		, zoneID = 30		, x = -8806		, y = 813	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Throne of the Tides"]			, linkID = 767		, continent = 0		, zoneID = 613		, x = -5720		, y = 5345	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Throne of the Tides"]			, linkID = 767		, continent = 0		, zoneID = 614		, x = -5720		, y = 5345	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Uldaman"]						, linkID = 692		, continent = 0		, zoneID = 17		, x = -6093		, y = -3183	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Uldaman"]						, linkID = 692		, continent = 0		, zoneID = 17		, x = -6065		, y = -2955	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["Upper Blackrock Spire"]			, linkID = 995		, continent = 0		, zoneID = 28		, x = -7487		, y = -1324	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Upper Blackrock Spire"]			, linkID = 995		, continent = 0		, zoneID = 29		, x = -7487		, y = -1324	, texture = dnTex		, desc = L["Dungeon"], level = 14},
+				{category = "ShowDungeonLocs"		, name = L["Zul'Aman"]						, linkID = 781		, continent = 530	, zoneID = 463		, x = 6851		, y = -7991	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Zul'Gurub"]						, linkID = 793		, continent = 0		, zoneID = 37		, x = -11915	, y = -1207	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Zul'Gurub"]						, linkID = 793		, continent = 0		, zoneID = 689		, x = -11915	, y = -1207	, texture = dnTex		, desc = L["Dungeon"]},
+
+				-- Dungeons: Kalimdor
+				{category = "ShowDungeonLocs"		, name = L["Blackfathom Deeps"]				, linkID = 688		, continent = 1		, zoneID = 43		, x = 4137		, y = 887	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Caverns of Time"]				, linkID = nil		, continent = 1		, zoneID = 161		, x = -8172		, y = -4746	, texture = rdTex		, desc = L["Black Morass"] .. ", " .. L["Culling of Stratholme"] .. ",|n" .. L["Dragon Soul"] .. ", " .. L["End Time"] .. ", " .. L["Hour of Twilight"] .. ",|n" .. L["Hyjal Summit"] .. ", " .. L["Old Hillsbrad Foothills"] .. ",|n" .. L["Well of Eternity"]},
+				{category = "ShowDungeonLocs"		, name = L["Dire Maul: Capital Gardens"]	, linkID = 699.2	, continent = 1		, zoneID = 121		, x = -3767		, y = 1249	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Dire Maul: Gordok Commons"]		, linkID = 699		, continent = 1		, zoneID = 121		, x = -3520		, y = 1101	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Dire Maul: Warpwood Quarter"]	, linkID = 699.5	, continent = 1		, zoneID = 121		, x = -3769		, y = 934	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Firelands"]						, linkID = 800		, continent = 1		, zoneID = 606		, x = 3988		, y = -2944	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Halls of Origination"]			, linkID = 759		, continent = 1		, zoneID = 720		, x = -10182	, y = -1996	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Lost City of the Tol'vir"]		, linkID = 747		, continent = 1		, zoneID = 720		, x = -10681	, y = -1307	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Maraudon"]						, linkID = 750		, continent = 1		, zoneID = 101		, x = -1422		, y = 2922	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Maraudon: Earth Song Falls"]	, linkID = 750.2	, continent = 1		, zoneID = 101		, x = -1379		, y = 2915	, texture = dnTex		, desc = L["Dungeon"], level = 22},
+				{category = "ShowDungeonLocs"		, name = L["Maraudon: Foulspore Cavern"]	, linkID = 750		, continent = 1		, zoneID = 101		, x = -1473		, y = 2617	, texture = dnTex		, desc = L["Dungeon"], level = 21},
+				{category = "ShowDungeonLocs"		, name = L["Maraudon: The Wicked Grotto"]	, linkID = 750		, continent = 1		, zoneID = 101		, x = -1182		, y = 2876	, texture = dnTex		, desc = L["Dungeon"], level = 22},
+				{category = "ShowDungeonLocs"		, name = L["Onyxia's Lair"]					, linkID = 718		, continent = 1		, zoneID = 141		, x = -4718		, y = -3734	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Ragefire Chasm"]				, linkID = 680		, continent = 1		, zoneID = 4		, x = 1816		, y = -4418	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Ragefire Chasm"]				, linkID = 680		, continent = 1		, zoneID = 321		, x = 1815		, y = -4418	, texture = dnTex		, desc = L["Dungeon"], level = 2},
+				{category = "ShowDungeonLocs"		, name = L["Razorfen Downs"]				, linkID = 760		, continent = 1		, zoneID = 61		, x = -4722		, y = -2342	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Razorfen Kraul"]				, linkID = 761		, continent = 1		, zoneID = 607		, x = -4465		, y = -1666	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Ruins of Ahn'Qiraj"]			, linkID = 717		, continent = 1		, zoneID = 261		, x = -8414		, y = 1504	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Ruins of Ahn'Qiraj"]			, linkID = 717		, continent = 1		, zoneID = 772		, x = -8414		, y = 1504	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Temple of Ahn'Qiraj"]			, linkID = 766		, continent = 1		, zoneID = 261		, x = -8236		, y = 1993	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Temple of Ahn'Qiraj"]			, linkID = 766		, continent = 1		, zoneID = 772		, x = -8236		, y = 1993	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["The Vortex Pinnacle"]			, linkID = 769		, continent = 1		, zoneID = 720		, x = -11514	, y = -2311	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Throne of the Four Winds"]		, linkID = 773		, continent = 1		, zoneID = 720		, x = -11354	, y = 59	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Wailing Caverns"]				, linkID = 749		, continent = 1		, zoneID = 11		, x = -837		, y = -2033	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Wailing Caverns"]				, linkID = 749		, continent = 1		, zoneID = 11		, x = -742		, y = -2216	, texture = dnTex		, desc = L["Dungeon"], level = 20},
+				{category = "ShowDungeonLocs"		, name = L["Zul'Farrak"]					, linkID = 686		, continent = 1		, zoneID = 161		, x = -6798		, y = -2891	, texture = dnTex		, desc = L["Dungeon"]},
+
+				-- Dungeons: Caverns of Time
+				{category = "ShowDungeonLocs"		, name = L["Dragon Soul"]					, linkID = 824		, continent = 1		, zoneID = 161		, x = -8267		, y = -4514	, texture = rdTex		, desc = L["Raid"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["End Time"]						, linkID = 820		, continent = 1		, zoneID = 161		, x = -8293		, y = -4458	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["Hyjal Summit"]					, linkID = 775		, continent = 1		, zoneID = 161		, x = -8171		, y = -4168	, texture = rdTex		, desc = L["Raid"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["Hour of Twilight"]				, linkID = 819		, continent = 1		, zoneID = 161		, x = -8292		, y = -4584	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["Old Hillsbrad Foothills"]		, linkID = 734		, continent = 1		, zoneID = 161		, x = -8348		, y = -4060	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["The Black Morass"]				, linkID = 733		, continent = 1		, zoneID = 161		, x = -8752		, y = -4194	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["The Culling of Stratholme"]		, linkID = 521		, continent = 1		, zoneID = 161		, x = -8755		, y = -4454	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["Well of Eternity"]				, linkID = 816		, continent = 1		, zoneID = 161		, x = -8595		, y = -4004	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+
+				-- Dungeons: Outland
+				{category = "ShowDungeonLocs"		, name = L["Auchenai Crypts"]				, linkID = 722		, continent = 530	, zoneID = 478		, x = -3361		, y = 5136	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Black Temple"]					, linkID = 796		, continent = 530	, zoneID = 473		, x = -3648		, y = 318	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Coilfang Reservoir"]			, linkID = nil		, continent = 530	, zoneID = 467		, x = 562		, y = 6942	, texture = rdTex		, desc = L["Serpentshrine Cavern"] .. ", " .. L["Slave Pens"] .. ",|n" .. L["Steamvault"] .. ", " .. L["Underbog"]},
+				{category = "ShowDungeonLocs"		, name = L["Gruul's Lair"]					, linkID = 776		, continent = 530	, zoneID = 475		, x = 3530		, y = 5121	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Hellfire Ramparts"]				, linkID = 797		, continent = 530	, zoneID = 465		, x = -363		, y = 3078	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Mana-Tombs"]					, linkID = 732		, continent = 530	, zoneID = 478		, x = -3168		, y = 4943	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Magtheridon's Lair"]			, linkID = 779		, continent = 530	, zoneID = 465		, x = -339		, y = 3132	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Sethekk Halls"]					, linkID = 723		, continent = 530	, zoneID = 478		, x = -3362		, y = 4750	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Shadow Labyrinth"]				, linkID = 724		, continent = 530	, zoneID = 478		, x = -3554		, y = 4943	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Eye"]						, linkID = 782		, continent = 530	, zoneID = 479		, x = 3087		, y = 1379	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["The Arcatraz"]					, linkID = 731		, continent = 530	, zoneID = 479		, x = 3309		, y = 1337	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Blood Furnace"]				, linkID = 725		, continent = 530	, zoneID = 465		, x = -301		, y = 3160	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Botanica"]					, linkID = 729		, continent = 530	, zoneID = 479		, x = 3409		, y = 1486	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Mechanar"]					, linkID = 730		, continent = 530	, zoneID = 479		, x = 2865		, y = 1549	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Shattered Halls"]			, linkID = 710		, continent = 530	, zoneID = 465		, x = -309		, y = 3076	, texture = dnTex		, desc = L["Dungeon"]},
+
+				-- Dungeons: Northrend
+				{category = "ShowDungeonLocs"		, name = L["Azjol-Nerub"]					, linkID = nil		, continent = 571	, zoneID = 488		, x = 3727		, y = 2152	, texture = dnTex		, desc = L["Azjol-Nerub"] .. ", " .. L["The Old Kingdom"]},
+				{category = "ShowDungeonLocs"		, name = L["Drak'Tharon Keep"]				, linkID = 534		, continent = 571	, zoneID = 490		, x = 4574		, y = -2029	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Drak'Tharon Keep"]				, linkID = 534		, continent = 571	, zoneID = 496		, x = 4882		, y = -2046	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Gundrak"]						, linkID = 530		, continent = 571	, zoneID = 496		, x = 6965		, y = -4407	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Gundrak (rear entrance)"]		, linkID = 530		, continent = 571	, zoneID = 496		, x = 6709		, y = -4654	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Halls of Lightning"]			, linkID = 525		, continent = 571	, zoneID = 495		, x = 9176		, y = -1377	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Halls of Stone"]				, linkID = 526		, continent = 571	, zoneID = 495		, x = 8922		, y = -979	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Icecrown Citadel"]				, linkID = 604		, continent = 571	, zoneID = 492		, x = 5855		, y = 2103	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Naxxramas"]						, linkID = 535		, continent = 571	, zoneID = 488		, x = 3668		, y = -1260	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["The Frozen Halls"]				, linkID = nil		, continent = 571	, zoneID = 492		, x = 5691		, y = 2143	, texture = dnTex		, desc = L["The Forge of Souls"] .. ", " .. L["The Pit of Saron"] .. ",|n" .. L["The Halls of Reflection"]},
+				{category = "ShowDungeonLocs"		, name = L["The Nexus"]						, linkID = nil		, continent = 571	, zoneID = 486		, x = 3864		, y = 6986	, texture = rdTex		, desc = L["The Nexus"] .. ", " .. L["The Oculus"] .. ",|n" .. L["The Eye of Eternity"]},
+				{category = "ShowDungeonLocs"		, name = L["The Violet Hold"]				, linkID = 536		, continent = 571	, zoneID = 504		, x = 5690		, y = 500	, texture = dnTex		, desc = L["Dungeon"], level = 1},
+				{category = "ShowDungeonLocs"		, name = L["Trial of the Champion"]			, linkID = 542		, continent = 571	, zoneID = 492		, x = 8571		, y = 792	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Trial of the Crusader"]			, linkID = 543		, continent = 571	, zoneID = 492		, x = 8515		, y = 733	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Ulduar"]						, linkID = 529		, continent = 571	, zoneID = 495		, x = 9348		, y = -1114	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Utgarde Keep"]					, linkID = 523		, continent = 571	, zoneID = 491		, x = 1101		, y = -4903	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Utgarde Pinnacle"]				, linkID = 524		, continent = 571	, zoneID = 491		, x = 1240		, y = -4857	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Vault of Archavon"]				, linkID = 532		, continent = 571	, zoneID = 501		, x = 5377		, y = 2840	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Wyrmrest Temple"]				, linkID = nil		, continent = 571	, zoneID = 488		, x = 3672		, y = 289	, texture = rdTex		, desc = L["The Ruby Sanctum"] .. ", " .. L["The Obsidian Sanctum"]},
+
+				-- Dungeons: Deepholm
+				{category = "ShowDungeonLocs"		, name = L["The Stonecore"]					, linkID = 768		, continent = 646	, zoneID = 640		, x = 1024		, y = 637	, texture = dnTex		, desc = L["Dungeon"]},
+
+				-- Dungeons: Pandaria
+				{category = "ShowDungeonLocs"		, name = L["Gate of the Setting Sun"]		, linkID = 875		, continent = 870	, zoneID = 811		, x = 694		, y = 2080	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Heart of Fear"]					, linkID = 897		, continent = 870	, zoneID = 858		, x = 166		, y = 4060	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Mogu'shan Palace"]				, linkID = 885		, continent = 870	, zoneID = 811		, x = 1392		, y = 436	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Mogu'shan Vaults"]				, linkID = 896		, continent = 870	, zoneID = 809		, x = 3982		, y = 1109	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Shado-Pan Monastery"]			, linkID = 877		, continent = 870	, zoneID = 809		, x = 3636		, y = 2536	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Siege of Niuzao Temple"]		, linkID = 887		, continent = 870	, zoneID = 810		, x = 1435		, y = 5086	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Siege of Orgrimmar"]			, linkID = 953		, continent = 870	, zoneID = 811		, x = 1203		, y = 644	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Stormstout Brewery"]			, linkID = 876		, continent = 870	, zoneID = 807		, x = -712		, y = 1263	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Temple of the Jade Serpent"]	, linkID = 867		, continent = 870	, zoneID = 806		, x = 960		, y = -2468	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Terrace of Endless Spring"]		, linkID = 886		, continent = 870	, zoneID = 873		, x = 955		, y = -56	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Throne of Thunder"]				, linkID = 930		, continent = 1064	, zoneID = 928		, x = 7253		, y = 5026	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Throne of Thunder"]				, linkID = 930		, continent = 870	, zoneID = 810		, x = 1926		, y = 4222	, texture = rdTex		, desc = L["Portal"], reqQuest = 32681}, -- Alliance
+				{category = "ShowDungeonLocs"		, name = L["Throne of Thunder"]				, linkID = 930		, continent = 870	, zoneID = 810		, x = 1926		, y = 4222	, texture = rdTex		, desc = L["Portal"], reqQuest = 32680}, -- Horde
+
+				-- Dungeons: Draenor
+				{category = "ShowDungeonLocs"		, name = L["Auchindoun"]					, linkID = 984		, continent = 1116	, zoneID = 946		, x = 1489		, y = 3079	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Bloodmaul Slag Mines"]			, linkID = 964		, continent = 1116	, zoneID = 941		, x = 7266		, y = 4458	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Grimrail Depot"]				, linkID = 993		, continent = 1116	, zoneID = 949		, x = 7840		, y = 551	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Highmaul"]						, linkID = 994		, continent = 1116	, zoneID = 950		, x = 3471		, y = 7434	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Iron Docks"]					, linkID = 987		, continent = 1116	, zoneID = 949		, x = 8854		, y = 1359	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Shadowmoon Burial Grounds"]		, linkID = 969		, continent = 1116	, zoneID = 947		, x = 766		, y = 128	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Skyreach"]						, linkID = 989		, continent = 1116	, zoneID = 948		, x = 27		, y = 2525	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Everbloom"]					, linkID = 1008		, continent = 1116	, zoneID = 949		, x = 7110		, y = 197	, texture = dnTex		, desc = L["Dungeon"]},
+
+				-- Dungeons: Legion
+				{category = "ShowDungeonLocs"		, name = L["Violet Hold"]					, linkID = 1066		, continent = 1220	, zoneID = 1014		, x = -959		, y = 4328	, texture = dnTex		, desc = L["Dungeon"], level = 10},
+
+			}
+
+			local btnTable = {}
+
+			-- POI is shown if the following conditions are met:
+			-- 1. If reqQuest is present, player must have completed quest with that ID
+			-- 2. If remQuest is present, player must not have completed quest with that ID
+			-- 3. If level is present, map must be showing that level
+			-- 4. If level is not present, map must be showing level 0
+
+			-- Map IDs
+			-- https://wow.gamepedia.com/MapID#Eastern_Kingdoms
+
+			local function mapPOIfunc()
+				if WorldMapFrame:IsShown() then
+					local worldMapID = GetCurrentMapAreaID()
+					local mapID = GetAreaMapInfo(worldMapID)
+					for k, v in pairs(pTable) do
+						if worldMapID == v.zoneID and mapID == v.continent then
+							-- Create POI button if required
+							if not btnTable[k] then
+								local button = CreateFrame("Button", nil, WorldMapPOIFrame)
+								btnTable[k] = button
+								button:SetSize(20, 20)
+								button.Texture = button:CreateTexture(btnTable[k.."Texture"], "BACKGROUND")
+								button.Texture:ClearAllPoints()
+								button.Texture:SetPoint("CENTER", button)
+								button.Texture:SetTexture(v.texture)
+								button.Texture:SetTexCoord(0, 1, 0, 1)
+								button.Texture:SetSize(30, 30)
+								if v.linkID then button:SetHighlightTexture(v.texture) end
+								button.HighlightTexture = button:CreateTexture(btnTable[k .. "HighlightTexture"], "HIGHLIGHT")
+								button:SetScript("OnEnter", WorldMapPOI_OnEnter)
+								button:SetScript("OnLeave", WorldMapPOI_OnLeave)
+								button:SetScript("OnClick", function()
+									if v.linkID then
+										local id, level = strsplit(".", v.linkID)
+										SetMapByID(v.linkID)
+										if level then SetDungeonMapLevel(level) end
+									end
+								end)
+								button.name = v.name
+								button.poiID = 0
+								button.description = v.desc
+							end
+							-- Calculate screen coordinates from world coordinates
+							local void, locLeft, locTop, locRight, locBottom = GetCurrentMapZone()
+							if locLeft and locTop and locRight and locBottom then
+								-- Show or hide POI button
+								local void, void, void, isMicroDungeon = GetMapInfo()
+								local currLevel, minY, minX, maxY, maxX = GetCurrentMapDungeonLevel()
+								if LeaPlusLC[v.category] == "On" and (not v.reqQuest or IsQuestFlaggedCompleted(v.reqQuest)) and (not v.remQuest or not IsQuestFlaggedCompleted(v.remQuest)) and (not v.level and currLevel == 0 or v.level and v.level == currLevel) then
+									if minY and minX and maxY and maxX then
+										WorldMapPOIFrame_AnchorPOI(btnTable[k], (maxY - v.y) / abs(maxY - minY), (maxX - v.x) / abs(maxX - minX), 201)
+									else
+										WorldMapPOIFrame_AnchorPOI(btnTable[k], (locLeft - v.y) / abs(locRight - locLeft), (locTop - v.x) / abs(locBottom - locTop), 201)
+									end
+									btnTable[k]:Show()
+								else
+									btnTable[k]:Hide()
+								end
+							end
+						else
+							-- Wrong zone, hide POI button
+							if btnTable[k] and btnTable[k]:IsShown() then
+								btnTable[k]:Hide()
+							end
+						end
+					end
+				end
+			end
+
+			hooksecurefunc("WorldMapFrame_Update", mapPOIfunc)
+
+			----------------------------------------------------------------------
 			-- Configuration panel
 			----------------------------------------------------------------------
 
@@ -4102,6 +4358,8 @@
 			LeaPlusLC:MakeCB(MapPanel, "ShowRevealBox", "Show reveal checkbox at the top of the map", 16, -112, false, "If checked, a checkbox will be shown at the top of the map which will allow you to toggle unexplored areas directly from the map frame.")
 			LeaPlusLC:MakeCB(MapPanel, "WorldMapCoords", "Show cursor coordinates at the top of the map", 16, -132, false, "If checked, cursor coordinates will be shown at the top of the map.")
 			LeaPlusLC:MakeCB(MapPanel, "FadeMap", "Fade windowed map while moving", 16, -152, false, "If checked, the windowed map will fade while your character is moving and the cursor is not over the map.")
+			LeaPlusLC:MakeCB(MapPanel, "ShowSuramarPortals", "Show portal destinations for Suramar", 16, -172, false, "If checked, portal destinations for Suramar (Broken Isles) will be shown.")
+			LeaPlusLC:MakeCB(MapPanel, "ShowDungeonLocs", "Show older dungeon and raid locations", 16, -192, false, "If checked, dungeon and raid locations will be shown for all game expansions up to and including Warlords of Draenor.|n|nLegion dungeon and raid locations are managed by the default user interface.")
 
 			-- Help button hidden
 			MapPanel.h:Hide()
@@ -4147,6 +4405,8 @@
 				end
 				-- Show or hide reveal checkbox
 				if LeaPlusLC["ShowRevealBox"] == "On" then RevBox:Show() else RevBox:Hide()	end
+				-- Show or hide Suramar portals
+				mapPOIfunc()
 			end
 
 			-- Run function when options are clicked and on startup
@@ -4154,6 +4414,8 @@
 			LeaPlusCB["ShowRevealBox"]:HookScript("OnClick", SetWorldMapOptions)
 			LeaPlusCB["WorldMapCoords"]:HookScript("OnClick", SetWorldMapOptions)
 			LeaPlusCB["FadeMap"]:HookScript("OnClick", SetWorldMapOptions)
+			LeaPlusCB["ShowSuramarPortals"]:HookScript("OnClick", SetWorldMapOptions)
+			LeaPlusCB["ShowDungeonLocs"]:HookScript("OnClick", SetWorldMapOptions)
 			SetWorldMapOptions()
 
 			-- Reset button handler
@@ -4164,6 +4426,8 @@
 				LeaPlusLC["ShowRevealBox"] = "On"
 				LeaPlusLC["WorldMapCoords"] = "On"
 				LeaPlusLC["FadeMap"] = "Off"
+				LeaPlusLC["ShowSuramarPortals"] = "On"
+				LeaPlusLC["ShowDungeonLocs"] = "On"
 				SetWorldMapOptions()
 
 				-- Refresh configuration panel
@@ -4179,6 +4443,8 @@
 					LeaPlusLC["ShowRevealBox"] = "On"
 					LeaPlusLC["WorldMapCoords"] = "On"
 					LeaPlusLC["FadeMap"] = "Off"
+					LeaPlusLC["ShowSuramarPortals"] = "On"
+					LeaPlusLC["ShowDungeonLocs"] = "On"
 					SetWorldMapOptions()
 				else
 					MapPanel:Show();
@@ -7866,7 +8132,7 @@
 		LeaPlusLC:MakeTx(ResPanel, "Settings", 16, -72)
 		LeaPlusLC:MakeCB(ResPanel, "ResThankYouEmote", "Thank the player who resurrected you", 16, -92, false, "If checked, your character will emote a thank you when a resurrection is automatically accepted.")
 		LeaPlusLC:MakeCB(ResPanel, "NoAutoResInCombat", "Exclude combat resurrection requests", 16, -112, false, "If checked, resurrection requests will not be automatically accepted if the player resurrecting you is in combat.")
-		LeaPlusLC:MakeCB(ResPanel, "NoAutoResPylon", "Exclude Failure Detection Pylon", 16, -132, false, "If checked, resurrection requests from a Failure Detection Pylon will not be automatically accepted.")
+		LeaPlusLC:MakeCB(ResPanel, "NoAutoResPylon", "Exclude pylon and brazier requests", 16, -132, false, "If checked, resurrection requests from a Failure Detection Pylon or a Brazier of Awakening will not be automatically accepted.")
 
 		-- Help button hidden
 		ResPanel.h:Hide()
@@ -8089,9 +8355,13 @@
 
 		if event == "RESURRECT_REQUEST" then
 
-			-- Manage Failure Detection Pylon
+			-- Exclude pylon and brazier requests
 			if LeaPlusLC["NoAutoResPylon"] == "On" then
-				local pylonLoc = "Failure Detection Pylon"
+
+				local pylonLoc
+
+				-- Exclude Failure Detection Pylon
+				pylonLoc = "Failure Detection Pylon"
 				if 	   GameLocale == "zhCN" then pylonLoc = "故障检测晶塔"
 				elseif GameLocale == "zhTW" then pylonLoc = "滅團偵測水晶塔"
 				elseif GameLocale == "ruRU" then pylonLoc = "Пилон для обнаружения проблем"
@@ -8103,8 +8373,23 @@
 				elseif GameLocale == "frFR" then pylonLoc = "Pylône de détection des échecs"
 				elseif GameLocale == "itIT" then pylonLoc = "Pilone d'Individuazione Fallimenti"
 				end
-				-- Do nothing if a Failure Detection Pylon resurrected you
 				if arg1 == pylonLoc then return	end
+
+				-- Exclude Brazier of Awakening
+				pylonLoc = "Brazier of Awakening"
+				if 	   GameLocale == "zhCN" then pylonLoc = "觉醒火盆"
+				elseif GameLocale == "zhTW" then pylonLoc = "覺醒火盆"
+				elseif GameLocale == "ruRU" then pylonLoc = "Жаровня пробуждения"
+				elseif GameLocale == "koKR" then pylonLoc = "각성의 화로"
+				elseif GameLocale == "esMX" then pylonLoc = "Blandón del Despertar"
+				elseif GameLocale == "ptBR" then pylonLoc = "Braseiro do Despertar"
+				elseif GameLocale == "deDE" then pylonLoc = "Kohlenbecken des Erwachens"
+				elseif GameLocale == "esES" then pylonLoc = "Blandón de Despertar"
+				elseif GameLocale == "frFR" then pylonLoc = "Brasero de l'Éveil"
+				elseif GameLocale == "itIT" then pylonLoc = "Braciere del Risveglio"
+				end
+				if arg1 == pylonLoc then return	end
+
 			end
 
 			-- Manage other resurrection requests
@@ -8273,7 +8558,7 @@
 				LeaPlusLC:LoadVarChk("AutoAcceptSummon", "Off")				-- Accept summon
 				LeaPlusLC:LoadVarChk("AutoAcceptRes", "Off")				-- Accept resurrection
 				LeaPlusLC:LoadVarChk("NoAutoResInCombat", "Off")			-- Exclude combat
-				LeaPlusLC:LoadVarChk("NoAutoResPylon", "On")				-- Exclude pylons
+				LeaPlusLC:LoadVarChk("NoAutoResPylon", "On")				-- Exclude pylon and brazier requests
 				LeaPlusLC:LoadVarChk("ResThankYouEmote", "On")				-- Thanks for resurrect
 
 				LeaPlusLC:LoadVarChk("AutoReleasePvP", "Off")				-- Release in PvP
@@ -8344,6 +8629,8 @@
 				LeaPlusLC:LoadVarChk("ShowRevealBox", "On")					-- Show reveal map checkbox
 				LeaPlusLC:LoadVarChk("WorldMapCoords", "On")				-- Show map coordinates
 				LeaPlusLC:LoadVarChk("FadeMap", "Off")						-- Fade map while moving
+				LeaPlusLC:LoadVarChk("ShowSuramarPortals", "On")			-- Show Suramar portal destinations
+				LeaPlusLC:LoadVarChk("ShowDungeonLocs", "On")				-- Show dungeon and raid locations
 
 				LeaPlusLC:LoadVarChk("MinimapMod", "Off")					-- Customise minimap
 				LeaPlusLC:LoadVarChk("MergeTrackBtn", "Off")				-- Merge buttons
@@ -8573,6 +8860,8 @@
 			LeaPlusDB["ShowRevealBox"] 			= LeaPlusLC["ShowRevealBox"]
 			LeaPlusDB["WorldMapCoords"] 		= LeaPlusLC["WorldMapCoords"]
 			LeaPlusDB["FadeMap"] 				= LeaPlusLC["FadeMap"]
+			LeaPlusDB["ShowSuramarPortals"] 	= LeaPlusLC["ShowSuramarPortals"]
+			LeaPlusDB["ShowDungeonLocs"] 		= LeaPlusLC["ShowDungeonLocs"]
 
 			LeaPlusDB["MinimapMod"]				= LeaPlusLC["MinimapMod"]
 			LeaPlusDB["MergeTrackBtn"]			= LeaPlusLC["MergeTrackBtn"]
@@ -9337,14 +9626,16 @@
 	-- Slash command function
 	function LeaPlusLC:SlashFunc(str)
 		if str and str ~= "" then
-			str = string.lower(str)
+			-- Get parameters in lower case with duplicate spaces removed
+			local str, arg1, arg2, arg3 = strsplit(" ", string.lower(str:gsub("%s+", " ")))
+			-- Traverse parameters
 			if str == "wipe" then
 				-- Wipe settings
 				LeaPlusLC:PlayerLogout(true) -- Run logout function with wipe parameter
 				wipe(LeaPlusDB)
 				LpEvt:UnregisterAllEvents(); -- Don't save any settings
 				ReloadUI();
-			elseif string.sub(str, 1, 6) == "nosave" then
+			elseif str == "nosave" then
 				-- Prevent Leatrix Plus from overwriting LeaPlusDB at next logout
 				LpEvt:UnregisterEvent("PLAYER_LOGOUT")
 				LeaPlusLC:Print("Leatrix Plus will not overwrite LeaPlusDB at next logout.")
@@ -9374,34 +9665,30 @@
 					LeaPlusLC["Page8"]:Show()
 				end
 			elseif str == "hk" then
+				-- Print lifetime honorable kills
 				local chagmsg = L["Lifetime honorable kills"]
 				local ltphk = GetStatistic(588)
 				if ltphk == "--" then ltphk = "0" end
 				chagmsg = chagmsg .. ": |cffffffff" .. ltphk
 				LeaPlusLC:Print(chagmsg)
 				return
-			elseif string.sub(str, 1, 5) == "taint" then
+			elseif str == "taint" then
 				-- Set taint log level
-				local taintLevel = string.sub(str, 7)
-				if taintLevel and taintLevel ~= "" then
-					local taintLevel = tonumber(taintLevel)
-					if taintLevel then
-						if taintLevel < 0 or taintLevel > 2 then
-							LeaPlusLC:Print("Invalid taint level.")
-						else
-							if taintLevel == 0 then
-								-- Disable taint log
-								ConsoleExec("taintLog 0")
-								LeaPlusLC:Print("Taint level: Disabled (0).")
-							elseif taintLevel == 1 then
-								-- Basic taint log
-								ConsoleExec("taintLog 1")
-								LeaPlusLC:Print("Taint level: Basic (1).")
-							elseif taintLevel == 2 then
-								-- Full taint log
-								ConsoleExec("taintLog 2")
-								LeaPlusLC:Print("Taint level: Full (2).")
-							end
+				if arg1 and arg1 ~= "" then
+					arg1 = tonumber(arg1)
+					if arg1 and arg1 >= 0 and arg1 <= 2 then
+						if arg1 == 0 then
+							-- Disable taint log
+							ConsoleExec("taintLog 0")
+							LeaPlusLC:Print("Taint level: Disabled (0).")
+						elseif arg1 == 1 then
+							-- Basic taint log
+							ConsoleExec("taintLog 1")
+							LeaPlusLC:Print("Taint level: Basic (1).")
+						elseif arg1 == 2 then
+							-- Full taint log
+							ConsoleExec("taintLog 2")
+							LeaPlusLC:Print("Taint level: Full (2).")
 						end
 					else
  						LeaPlusLC:Print("Invalid taint level.")
@@ -9418,16 +9705,15 @@
 					end
 				end
 				return
-			elseif string.sub(str, 1, 5) == "quest" then
+			elseif str == "quest" then
 				-- Show quest completed status
-				local questID = string.sub(str, 7)
-				if questID and questID ~= "" then
-					if tonumber(questID) then
-						local questCompleted = IsQuestFlaggedCompleted(questID)
+				if arg1 and arg1 ~= "" then
+					if tonumber(arg1) then
+						local questCompleted = IsQuestFlaggedCompleted(arg1)
 						if questCompleted then
-							LeaPlusLC:Print(questID .. ": " .. L["Quest completed."])
+							LeaPlusLC:Print(arg1 .. ": " .. L["Quest completed."])
 						else
-							LeaPlusLC:Print(questID .. ": " .. L["Quest not completed."])
+							LeaPlusLC:Print(arg1 .. ": " .. L["Quest not completed."])
 						end
 					else
 						LeaPlusLC:Print("Invalid quest ID.")
@@ -9459,6 +9745,7 @@
 				LeaPlusLC:Print(L["Rested bubbles"] .. ": |cffffffff" .. (math.floor(20 * (GetXPExhaustion() or 0) / UnitXPMax("player") + 0.5)))
 				return
 			elseif str == "zygor" then
+				-- Toggle Zygor addon
 				LeaPlusLC:ZygorToggle()
 				return
 			elseif str == "id" then
@@ -9471,29 +9758,29 @@
 						LeaPlusLC:Print(npcName .. ": |cffffffff" .. npcID)
 					end
 				end
-			elseif string.sub(str, 1, 7) == "mountid" then
+				return
+			elseif str == "mountid" then
 				-- Get mount ID by mount name
-				local param = string.sub(str, 9)
-				if not param or param == "" then LeaPlusLC:Print("Missing mount name.") return end
+				if not arg1 or arg1 == "" then LeaPlusLC:Print("Missing mount name.") return end
 				local mounts = C_MountJournal.GetMountIDs()
 				local mountSuccess = false
 				for i = 1, #mounts do
 					local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mounts[i])
-					if strfind(strlower(creatureName), strlower(param)) then
+					if strfind(strlower(creatureName), strlower(arg1)) then
 						LeaPlusLC:Print(creatureName .. ": |cffffffff" .. mounts[i] .. "|r")
 						mountSuccess = true
 					end
 				end
 				if not mountSuccess then LeaPlusLC:Print("Mount not found.") end
-			elseif string.sub(str, 1, 5) == "petid" then
+				return
+			elseif str == "petid" then
 				-- Get pet ID by pet name
-				local param = string.sub(str, 7)
-				if not param or param == "" then LeaPlusLC:Print("Missing pet name.") return end
+				if not arg1 or arg1 == "" then LeaPlusLC:Print("Missing pet name.") return end
 				local numPets = C_PetJournal.GetNumPets()
 				local petSuccess = false
 				for i = 1, numPets do
 					local petID, speciesID, isOwned, customName, level, favorite, isRevoked, name, icon, petType, creatureID, sourceText, description, isWildPet, canBattle, tradable, unique = C_PetJournal.GetPetInfoByIndex(i, false)
-					if strfind(strlower(name), strlower(param)) then
+					if strfind(strlower(name), strlower(arg1)) then
 						if isOwned then
 							LeaPlusLC:Print(name .. ": |cffffffff" .. petID .. " |cff00ff00(" .. level .. ")|r")
 							petSuccess = true
@@ -9506,6 +9793,7 @@
 				if not petSuccess then
 					LeaPlusLC:Print("Pet not found.  Only owned pets that are currently showing in the journal can be searched.")
 				end
+				return
 			elseif str == "tooltip" then
 				-- Print tooltip frame name
 				local enumf = EnumerateFrames()
@@ -9516,6 +9804,7 @@
 					enumf = EnumerateFrames(enumf)
 				end
 				collectgarbage()
+				return
 			elseif str == "soil" then
 				-- Enable dark soil scanning
 				if not LeaPlusLC["DarkScriptlEnabled"] then
@@ -9554,6 +9843,7 @@
 					LeaPlusLC["DbF"]:SetScript("OnEvent", nil)
 					LeaPlusLC:Print("Tracing stopped.")
 				end
+				return
 			elseif str == "config" then
 				-- Show maximum camera distance
 				LeaPlusLC:Print(L["Camera distance"] .. ": |cffffffff" .. GetCVar("cameraDistanceMaxZoomFactor"))
@@ -9571,6 +9861,7 @@
 				else
 					LeaPlusLC:Print("Account achievements are being shared.")
 				end
+				return
 			elseif str == "move" then
 				-- Move minimap
 				MinimapZoneTextButton:Hide()
@@ -9579,6 +9870,7 @@
 				MinimapBackdrop:ClearAllPoints()
 				MinimapBackdrop:SetPoint("CENTER", UIParent, "CENTER", -330, -75)
 				Minimap:SetPoint("CENTER", UIParent, "CENTER", -320, -50)
+				return
 			elseif str == "tipcol" then
 				-- Show default tooltip title color
 				if GameTooltipTextLeft1:IsShown() then
@@ -9590,6 +9882,7 @@
 				else
 					LeaPlusLC:Print("No tooltip showing.")
 				end
+				return
 			elseif str == "list" then
 				-- Enumerate frames
 				local frame = EnumerateFrames()
@@ -9599,6 +9892,7 @@
 					end 
 					frame = EnumerateFrames(frame) 
 				end
+				return
 			elseif str == "nohelp" then
 				-- Set most help plates to seen
 				for i = 1, 100 do
@@ -9606,6 +9900,7 @@
 				end
 				TalentMicroButtonAlert:Hide()
 				TalentMicroButtonAlert:HookScript("OnShow", TalentMicroButtonAlert.Hide)
+				return
 			elseif str == "grid" then
 				-- Create grid for first use
 				if not LeaPlusLC.grid then
@@ -9628,13 +9923,13 @@
 						t:SetPoint('BOTTOMRIGHT', LeaPlusLC.grid, 'TOPRIGHT', 0, -i * h - 1)
 					end	
 				end
-
 				-- Show or hide grid
 				if LeaPlusLC.grid:IsShown() then
 					LeaPlusLC.grid:Hide()
 				else
 					LeaPlusLC.grid:Show()
 				end
+				return
 			elseif str == "chk" then
 				-- List truncated checkbox labels
 				if LeaPlusLC["TruncatedLabelsList"] then
@@ -9644,12 +9939,12 @@
 				else
 					LeaPlusLC:Print("Checkbox labels are Ok.")
 				end
-			elseif string.sub(str, 1, 2) == "cv" then
+				return
+			elseif str == "cv" then
 				-- Print console variable setting
-				local param = string.sub(str, 4)
-				if param and param ~= "" then
-					if GetCVar(param) then
-						LeaPlusLC:Print(param .. ": |cffffffff" .. GetCVar(param))
+				if arg1 and arg1 ~= "" then
+					if GetCVar(arg1) then
+						LeaPlusLC:Print(arg1 .. ": |cffffffff" .. GetCVar(arg1))
 					else
 						LeaPlusLC:Print("Invalid console variable.")
 					end
@@ -9657,17 +9952,16 @@
 					LeaPlusLC:Print("Missing console variable.")
 				end
 				return
-			elseif string.sub(str, 1, 4) == "play" then
+			elseif str == "play" then
 				-- Play sound ID
-				local param = string.sub(str, 6)
-				if param and param ~= "" then
-					if tonumber(param) then
+				if arg1 and arg1 ~= "" then
+					if tonumber(arg1) then
 						-- Stop last played sound ID
 						if LeaPlusLC.SNDcanitHandle then
 							StopSound(LeaPlusLC.SNDcanitHandle)
 						end
 						-- Play sound ID
-						LeaPlusLC.SNDcanitPlay, LeaPlusLC.SNDcanitHandle = PlaySound(param, "Master", false, false)
+						LeaPlusLC.SNDcanitPlay, LeaPlusLC.SNDcanitHandle = PlaySound(arg1, "Master", false, false)
 					else
 						LeaPlusLC:Print("Invalid sound ID.")
 					end
@@ -9680,10 +9974,10 @@
 				if LeaPlusLC.SNDcanitHandle then
 					StopSound(LeaPlusLC.SNDcanitHandle)
 				end
-			elseif string.sub(str, 1, 4) == "team" then
+				return
+			elseif str == "team" then
 				-- Assign battle pet team
-				local param = string.sub(str, 6)
-				local p1, s1p1, s1p2, s1p3, p2, s2p1, s2p2, s2p3, p3, s3p1, s3p2, s3p3 = strsplit(",", param, 12)
+				local p1, s1p1, s1p2, s1p3, p2, s2p1, s2p2, s2p3, p3, s3p1, s3p2, s3p3 = strsplit(",", arg1 or "", 12)
 				if p1 and s1p1 and s1p2 and s1p3 and p2 and s2p1 and s2p2 and s2p3 and p3 and s3p1 and s3p2 and s3p3 then
 					if LeaPlusLC:PlayerInCombat() then
 						return
@@ -9716,10 +10010,12 @@
 				else
 					LeaPlusLC:Print("Invalid battle pet team parameter.")
 				end
+				return
 			elseif str == "wipecds" then
 				-- Wipe cooldowns
 				LeaPlusDB["Cooldowns"] = nil
 				ReloadUI()
+				return
 			elseif str == "tipchat" then
 				-- Print tooltip contents in chat
 				local numLines = GameTooltip:NumLines()
@@ -9728,6 +10024,7 @@
 						print(_G["GameTooltipTextLeft" .. i]:GetText() or "")
 					end
 				end
+				return
 			elseif str == "tiplang" then
 				-- Tooltip tag locale code constructor
 				local msg = ""
@@ -9741,10 +10038,12 @@
 				msg = msg .. 'ttTarget = "' .. TARGET .. '"; '
 				msg = msg .. "end"
 				print(msg)
+				return
 			elseif str == "con" then
 				-- Show the developer console
 				C_Console.SetFontHeight(20)
 				DeveloperConsole:Toggle(true)
+				return
 			elseif str == "movlist" then
 				-- List playable movie IDs
 				local count = 0
@@ -9755,13 +10054,14 @@
 					end
 				end
 				LeaPlusLC:Print("Total movies: |cffffffff" .. count)
-			elseif string.sub(str, 1, 5) == "movie" then
+				return
+			elseif str == "movie" then
 				-- Playback movie by ID
-				local param = tonumber(string.sub(str, 7))
-				if param and param ~= "" then
-					if IsMoviePlayable(param) then
+				arg1 = tonumber(arg1)
+				if arg1 and arg1 ~= "" then
+					if IsMoviePlayable(arg1) then
 						LeaPlusLC["ForceMoviePlaybackFlag"] = "On"
-						MovieFrame_PlayMovie(MovieFrame, param)
+						MovieFrame_PlayMovie(MovieFrame, arg1)
 						LeaPlusLC["ForceMoviePlaybackFlag"] = "Off"
 					else
 						LeaPlusLC:Print("Movie not playable.")
@@ -9769,12 +10069,15 @@
 				else
 					LeaPlusLC:Print("Missing movie ID.")
 				end
+				return
 			elseif str == "cin" then
 				-- Play opening cinematic (only works if character has never gained XP) (used for testing)
 				OpeningCinematic()
+				return
 			elseif str == "skit" then
 				-- Play a test sound kit
 				PlaySound("1020", "Master", false, true)
+				return
 			elseif str == "dup" then
 				-- Print music track duplicates 
 				local mask, found, badidfound = false, false, false
@@ -9944,6 +10247,111 @@
 						LeaPlusLC.enimgaFrame:Show()
 					end
 				end
+				return
+			elseif str == "mapinfo" then
+				-- Show map information
+				local upx, upy = UnitPosition("player")
+				upx = upx or 0
+				upy = upy or 0
+				local void, void, void, isMicroDungeon = GetMapInfo()
+				if isMicroDungeon then isMicroDungeon = "Yes" else isMicroDungeon = "No" end
+				LeaPlusLC:Print("AreaMapInfo: |cffffffff" .. GetAreaMapInfo(GetCurrentMapAreaID()))
+				LeaPlusLC:Print("CurrentMapAreaID: |cffffffff" .. GetCurrentMapAreaID())
+				LeaPlusLC:Print("UnitPosition: |cffffffff" .. format("%.00f", upx) .. " " .. format("%.00f", upy))
+				LeaPlusLC:Print("Level: |cffffffff" .. GetCurrentMapDungeonLevel())
+				LeaPlusLC:Print("Dungeon: |cffffffff" .. isMicroDungeon)
+				return
+			elseif str == "mplay" then
+				-- Show the world coordinates for a movable POI button
+				if LeaPlusLC.PlayWithTheMap then
+					LeaPlusLC:Print("It's already loaded.  Reload UI to unload it.")
+					return
+				end
+				if GetCVar("miniWorldMap") == "0" then
+					LeaPlusLC:Print("You need a small map window for this!")
+					return
+				end
+				-- Declare locals
+				local x, y, inc = 0, 0, 1
+				-- Create text frame to show world coordinates
+				local textFrame = CreateFrame("FRAME", nil, WorldMapFrame)
+				textFrame:ClearAllPoints()
+				textFrame:SetPoint("TOP", WorldMapFrame, "TOP", 0, 34)
+				textFrame:SetSize(252, 34)
+				textFrame:SetFrameLevel(5000)
+				textFrame.s = textFrame:CreateTexture(nil, "BACKGROUND")
+				textFrame.s:SetAllPoints()
+				textFrame.s:SetColorTexture(0.1, 0.1, 0.1, 1.0)
+				textFrame.f = textFrame:CreateFontString(nil, 'ARTWORK', 'GameFontNormal')
+				textFrame.f:SetAllPoints()
+				textFrame.f:SetFontObject("GameFontNormalLarge")
+				textFrame.f:SetFont(textFrame.f:GetFont(), 24, nil)
+				textFrame.f:SetText((("%%.%df"):format(0)):format(x) .. "   " .. (("%%.%df"):format(0)):format(y))
+				-- Function to update coordinates
+				local function SetLocation()
+					textFrame.f:SetText((("%%.%df"):format(0)):format(x) .. "   " .. (("%%.%df"):format(0)):format(y))
+				end
+				-- Create a POI
+				local button = CreateFrame("Button", nil, WorldMapPOIFrame)
+				LeaPlusLC.PlayWithTheMap = button
+				button:SetSize(30, 30)
+				button:SetNormalTexture("Interface\\Minimap\\Vehicle-AllianceMagePortal")
+				button.HighlightTexture = button:CreateTexture("BoogleHighlightTexture", "HIGHLIGHT")
+				button:SetScript("OnEnter", WorldMapPOI_OnEnter)
+				button:SetScript("OnLeave", WorldMapPOI_OnLeave)
+				button.name = "Test Button"
+				button.description = "An interesting description"
+				button.poiID = 0
+				-- Function to position the POI
+				local function moveIt()
+					local void, locLeft, locTop, locRight, locBottom = GetCurrentMapZone()
+					if locLeft and locTop and locRight and locBottom then
+						local currLevel, minY, minX, maxY, maxX = GetCurrentMapDungeonLevel()
+						if minY and minX and maxY and maxX then
+							WorldMapPOIFrame_AnchorPOI(button, (maxY - y) / abs(maxY - minY), (maxX - x) / abs(maxX - minX), 200)
+						else
+							WorldMapPOIFrame_AnchorPOI(button, (locLeft - y) / abs(locRight - locLeft), (locTop - x) / abs(locBottom - locTop), 200)
+						end
+					end
+				end
+				-- Create movement control buttons
+				local upBtn = LeaPlusLC:CreateButton("PlayMapUpBtn", WorldMapFrame, "UP", "BOTTOMRIGHT", 72, 151, 60, 25, true, ""); upBtn:SetScale(2); upBtn:Hide(); upBtn:Show()
+				local downBtn = LeaPlusLC:CreateButton("PlayMapDownBtn", WorldMapFrame, "DOWN", "BOTTOMRIGHT", 72, 121, 60, 25, true, ""); downBtn:SetScale(2); downBtn:Hide(); downBtn:Show()
+				local leftBtn = LeaPlusLC:CreateButton("PlayMapLeftBtn", WorldMapFrame, "LEFT", "BOTTOMRIGHT", 72, 91, 60, 25, true, ""); leftBtn:SetScale(2); leftBtn:Hide(); leftBtn:Show()
+				local rightBtn = LeaPlusLC:CreateButton("PlayMapRightBtn", WorldMapFrame, "RIGHT", "BOTTOMRIGHT", 72, 61, 60, 25, true, ""); rightBtn:SetScale(2); rightBtn:Hide(); rightBtn:Show()
+				-- Create reset button
+				local resetBtn = LeaPlusLC:CreateButton("PlayMapResetBtn", WorldMapFrame, "RESET", "BOTTOMRIGHT", 72, 31, 60, 25, true, ""); resetBtn:SetScale(2); resetBtn:Hide(); resetBtn:Show()
+				resetBtn:SetScript("OnClick", function()
+					local void, locLeft, locTop, locRight, locBottom = GetCurrentMapZone()
+					x = locTop - ((locTop - locBottom) / 2)
+					y = locLeft - ((locLeft - locRight) / 2)
+					moveIt()
+					SetLocation()
+				end)
+				-- Reset position on startup
+				resetBtn:Click()
+				-- Create help button
+				local helpBtn = LeaPlusLC:CreateButton("PlayMapHelpBtn", WorldMapFrame, "HELP", "BOTTOMRIGHT", 72, 0, 60, 25, true, ""); helpBtn:SetScale(2); helpBtn:Hide(); helpBtn:Show()
+				helpBtn.tiptext = "Hold LSHIFT to go a bit faster.|nHold LCTRL to go lightning fast.|nHold LALT to go slow!|nHold RCTRL to go REALLY slow!|nReload your UI to unload."
+				helpBtn:SetPushedTextOffset(0, 0)
+				-- Update script for movement of POI
+				textFrame:SetScript("OnUpdate", function()
+					if IsLeftShiftKeyDown() then inc = 100
+					elseif IsLeftControlKeyDown() then inc = 1000
+					elseif IsLeftAltKeyDown() then inc = 1
+					elseif IsRightControlKeyDown() then inc = 0.1 end
+					if IsMouseButtonDown("LeftButton") and upBtn:IsMouseOver() then
+						x = x + inc; SetLocation(); moveIt()
+					elseif IsMouseButtonDown("LeftButton") and downBtn:IsMouseOver() then
+						x = x - inc; SetLocation(); moveIt()
+					elseif IsMouseButtonDown("LeftButton") and leftBtn:IsMouseOver() then
+						y = y + inc; SetLocation(); moveIt()
+					elseif IsMouseButtonDown("LeftButton") and rightBtn:IsMouseOver() then
+						y = y - inc; SetLocation(); moveIt()
+					end
+					inc = 10
+				end)
+				return
 			elseif str == "admin" then
 				-- Preset profile (used for testing)
 				LpEvt:UnregisterAllEvents()						-- Prevent changes
@@ -10161,8 +10569,8 @@
 				setIcon("MONK", 		2, --[[Mistweaver]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0)
 				setIcon("MONK", 		3, --[[Windwalker]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0)
 
-				setIcon("MAGE", 		1, --[[Arcane]]  		--[[1]] 11426, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Ice Barrier
-				setIcon("MAGE", 		2, --[[Fire]]  			--[[1]] 11426, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Ice Barrier
+				setIcon("MAGE", 		1, --[[Arcane]]  		--[[1]] 235450, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Prismatic Barrier
+				setIcon("MAGE", 		2, --[[Fire]]  			--[[1]] 235313, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Blazing Barrier
 				setIcon("MAGE", 		3, --[[Frost]]  		--[[1]] 11426, 0, 0, 	--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0) -- Ice Barrier
 
 				setIcon("WARLOCK", 		1, --[[Affliction]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0)
@@ -10185,13 +10593,14 @@
 				setIcon("DEMONHUNTER", 	2, --[[Vengeance]]  	--[[1]] 0, 0, 0, 		--[[2]] 0, 0, 0, 		--[[3]] 0, 0, 0, 		--[[4]] 0, 0, 0, 		--[[5]] 0, 0, 0)
 
 				-- Other code
-				SetCVar("weatherDensity", "0")
+				-- SetCVar("weatherDensity", "0")
 
 				-- Reload
 				ReloadUI()
 			else
 				LeaPlusLC:Print("Invalid parameter.")
 			end
+			return
 		else
 			-- Toggle the options panel if game options panel is not showing
 			if InterfaceOptionsFrame:IsShown() or VideoOptionsFrame:IsShown() or ChatConfigFrame:IsShown() then return end

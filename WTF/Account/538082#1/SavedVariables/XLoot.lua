@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["y"] = 1050.74841308594,
-						["x"] = 444.3818359375,
 						["visible"] = false,
 						["direction"] = "down",
+						["y"] = 1050.74841308594,
+						["x"] = 444.3818359375,
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,6 +43,23 @@ XLootADB = {
 				},
 			},
 		},
+		["Monitor"] = {
+			["profiles"] = {
+				["Default"] = {
+					["threshold_own"] = 0,
+					["show_coin"] = true,
+					["fade_other"] = 30,
+					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+					["anchor"] = {
+						["visible"] = false,
+						["y"] = 39.9096488952637,
+						["x"] = 443.357086181641,
+					},
+					["show_crafted"] = true,
+					["threshold_other"] = 4,
+				},
+			},
+		},
 		["Master"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -50,38 +67,22 @@ XLootADB = {
 				},
 			},
 		},
-		["Monitor"] = {
-			["profiles"] = {
-				["Default"] = {
-					["show_crafted"] = true,
-					["show_coin"] = true,
-					["fade_other"] = 30,
-					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
-					["anchor"] = {
-						["y"] = 39.9096488952637,
-						["visible"] = false,
-						["x"] = 443.357086181641,
-					},
-					["threshold_own"] = 0,
-					["threshold_other"] = 4,
-				},
-			},
-		},
 	},
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

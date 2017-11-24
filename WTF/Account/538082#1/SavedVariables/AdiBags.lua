@@ -9,21 +9,6 @@ AdiBagsDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-	},
 	["namespaces"] = {
 		["ItemLevel"] = {
 		},
@@ -54,7 +39,12 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
+				},
+			},
 		},
 		["DataSource"] = {
 		},
@@ -86,12 +76,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Timewarped Badge"] = false,
-						["Lingering Soul Fragment"] = false,
-						["Oil"] = false,
-						["Artifact Fragment"] = false,
-						["Champion's Seal"] = false,
 						["Ironpaw Token"] = false,
+						["Champion's Seal"] = false,
+						["Artifact Fragment"] = false,
+						["Oil"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -101,13 +91,24 @@ AdiBagsDB = {
 		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
-			["profiles"] = {
-				["Default"] = {
-					["dispatchRule"] = "slot",
-				},
-			},
+		["MoneyFrame"] = {
 		},
+	},
+	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

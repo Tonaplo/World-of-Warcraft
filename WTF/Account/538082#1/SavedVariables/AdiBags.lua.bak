@@ -39,12 +39,7 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["Equipment"] = {
-			["profiles"] = {
-				["Default"] = {
-					["dispatchRule"] = "slot",
-				},
-			},
+		["MoneyFrame"] = {
 		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
@@ -63,12 +58,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Ironpaw Token"] = false,
-						["Champion's Seal"] = false,
-						["Artifact Fragment"] = false,
-						["Oil"] = false,
-						["Lingering Soul Fragment"] = false,
 						["Timewarped Badge"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Oil"] = false,
+						["Artifact Fragment"] = false,
+						["Champion's Seal"] = false,
+						["Ironpaw Token"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -91,23 +86,29 @@ AdiBagsDB = {
 		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
+				},
+			},
 		},
 	},
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

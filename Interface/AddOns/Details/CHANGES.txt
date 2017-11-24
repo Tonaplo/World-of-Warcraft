@@ -1,5 +1,11 @@
-changeset:   684:8a7fba7e847c
+changeset:   685:39dd82ba0a0e
 tag:         tip
+user:        Tercio
+date:        Tue Nov 21 10:00:22 2017 -0200
+summary:     - removed some already fixed debug lines.
+
+
+changeset:   684:8a7fba7e847c
 user:        Tercio
 date:        Sat Oct 21 13:30:06 2017 -0200
 summary:     - Fixed an error when clicking on the spec icon.

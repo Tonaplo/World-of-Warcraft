@@ -2,34 +2,32 @@
 AutoVendorDB = {
 	["profileKeys"] = {
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Mallusof - Tichondrius"] = "Default",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 	},
 	["profiles"] = {
 		["Rahran - Proudmoore"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
+		},
+		["Gorog - Bleeding Hollow"] = {
 		},
 		["Praerend - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Default"] = {
-			["guildbankrepair"] = true,
-			["junk"] = {
-				[143681] = "Slightly Burnt Food",
-				[138967] = "Big Fountain Goldfish",
-			},
+		["Zaliga - Bleeding Hollow"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
@@ -37,7 +35,12 @@ AutoVendorDB = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
-		["Zaliga - Bleeding Hollow"] = {
+		["Default"] = {
+			["guildbankrepair"] = true,
+			["junk"] = {
+				[143681] = "Slightly Burnt Food",
+				[138967] = "Big Fountain Goldfish",
+			},
 		},
 		["Fimwack - Proudmoore"] = {
 		},
@@ -47,7 +50,7 @@ AutoVendorDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Amranar - Proudmoore"] = {
 		},
 	},
 }
