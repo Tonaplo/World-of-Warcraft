@@ -28,13 +28,20 @@ BigWigs3DB = {
 		},
 	},
 	["namespaces"] = {
+		["BigWigs_Plugins_Victory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["soundName"] = "BigWigs: Victory Classic",
+				},
+			},
+		},
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
 				["Default"] = {
 					["posx"] = 344.977757614313,
 					["fontSize"] = 12,
-					["posy"] = 75.5114390974395,
 					["fontOutline"] = "",
+					["posy"] = 75.5114390974395,
 					["font"] = "Prototype",
 				},
 			},
@@ -48,78 +55,12 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Millificent Manastorm"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Bosses_Krosus"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 			["profiles"] = {
 				["Default"] = {
-					[205420] = 98819,
-					[205344] = 98979,
-					[205862] = 98819,
-					["smashingBridge"] = 98819,
+					["blockSpellErrors"] = false,
 				},
 			},
-		},
-		["BigWigs_Bosses_Star Augur Etraeus"] = {
-			["profiles"] = {
-				["Default"] = {
-					[216909] = 98819,
-				},
-			},
-		},
-		["BigWigs_Bosses_Kaahrj"] = {
-		},
-		["BigWigs_Bosses_Demonic Inquisition"] = {
-			["profiles"] = {
-				["Default"] = {
-					[233895] = 98819,
-				},
-			},
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Bosses_Mistress Sassz'ine"] = {
-			["profiles"] = {
-				["Default"] = {
-					[230139] = 98819,
-					["custom_off_230139"] = true,
-				},
-			},
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 20,
-					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
-					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
-					["BWMessageAnchor_y"] = 438.129133361759,
-					["BWMessageAnchor_x"] = 849.45227959023,
-					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
-					["font"] = "Prototype",
-					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
-					["growUpwards"] = true,
-				},
-			},
-		},
-		["BigWigs_Bosses_Harjatan the Bludger"] = {
-			["profiles"] = {
-				["Default"] = {
-					[232192] = 0,
-					[231729] = 0,
-					[233429] = 0,
-				},
-			},
-		},
-		["BigWigs_Plugins_Victory"] = {
-			["profiles"] = {
-				["Default"] = {
-					["soundName"] = "BigWigs: Victory Classic",
-				},
-			},
-		},
-		["BigWigs_Bosses_Thalena"] = {
 		},
 		["BigWigs_Bosses_Fallen Avatar"] = {
 			["profiles"] = {
@@ -131,15 +72,6 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Shivermaw"] = {
-		},
-		["BigWigs_Bosses_Skorpyron"] = {
-			["profiles"] = {
-				["Default"] = {
-					[204372] = 0,
-				},
-			},
 		},
 		["BigWigs_Bosses_Gul'dan"] = {
 			["profiles"] = {
@@ -162,6 +94,43 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Skorpyron"] = {
+			["profiles"] = {
+				["Default"] = {
+					[204372] = 0,
+				},
+			},
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Bosses_Shadow-Lord Iskar"] = {
+			["profiles"] = {
+				["Default"] = {
+					[181753] = 0,
+					[181827] = 0,
+					[185345] = 0,
+				},
+			},
+		},
+		["BigWigs_Bosses_Goroth"] = {
+			["profiles"] = {
+				["Default"] = {
+					[232249] = 0,
+					[233062] = 98819,
+					[231363] = 0,
+					[234346] = 0,
+					[233279] = 98979,
+					[238588] = 98819,
+				},
+			},
+		},
+		["BigWigs_Bosses_Star Augur Etraeus"] = {
+			["profiles"] = {
+				["Default"] = {
+					[216909] = 98819,
+				},
+			},
+		},
 		["BigWigs_Bosses_Helya-TrialOfValor"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -176,9 +145,14 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Festerface"] = {
+		["BigWigs_Bosses_Demonic Inquisition"] = {
+			["profiles"] = {
+				["Default"] = {
+					[233895] = 98819,
+				},
+			},
 		},
-		["BigWigs_Bosses_Assault on Violet Hold Trash"] = {
+		["BigWigs_Plugins_Respawn"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 			["profiles"] = {
@@ -206,14 +180,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Shadow-Lord Iskar"] = {
-			["profiles"] = {
-				["Default"] = {
-					[181753] = 0,
-					[181827] = 0,
-					[185345] = 0,
-				},
-			},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -226,25 +193,25 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
+					["barStyle"] = "BeautyCase",
 					["fontSize"] = 18,
+					["BigWigsAnchor_width"] = 412.852294921875,
 					["BigWigsAnchor_y"] = 320,
+					["BigWigsEmphasizeAnchor_x"] = 2.15555487345323,
+					["font"] = "Prototype",
 					["BigWigsAnchor_x"] = 1035,
 					["emphasizeTime"] = 10,
 					["BigWigsEmphasizeAnchor_width"] = 606.022399902344,
-					["fill"] = false,
-					["barStyle"] = "BeautyCase",
-					["monochrome"] = false,
-					["BigWigsEmphasizeAnchor_x"] = 2.15555487345323,
-					["font"] = "Prototype",
 					["BigWigsEmphasizeAnchor_y"] = 553.000035393361,
-					["BigWigsAnchor_width"] = 412.852294921875,
+					["monochrome"] = false,
+					["fill"] = false,
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Bosses_Nythendra"] = {
 			["profiles"] = {
 				["Default"] = {
-					["blockSpellErrors"] = false,
+					[203045] = 0,
 				},
 			},
 		},
@@ -256,16 +223,35 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Nythendra"] = {
+		["BigWigs_Bosses_Krosus"] = {
 			["profiles"] = {
 				["Default"] = {
-					[203045] = 0,
+					[205420] = 98819,
+					[205344] = 98979,
+					[205862] = 98819,
+					["smashingBridge"] = 98819,
 				},
 			},
 		},
-		["BigWigs_Bosses_Fel Lord Betrug"] = {
+		["BigWigs_Bosses_Mistress Sassz'ine"] = {
+			["profiles"] = {
+				["Default"] = {
+					[230139] = 98819,
+					["custom_off_230139"] = true,
+				},
+			},
 		},
-		["BigWigs_Plugins_Respawn"] = {
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 180,
+					["fontSize"] = 20,
+					["posy"] = 280,
+					["font"] = "Prototype",
+					["sound"] = true,
+					["width"] = 139.999557495117,
+				},
+			},
 		},
 		["BigWigs_Bosses_Kil'jaeden"] = {
 			["profiles"] = {
@@ -274,27 +260,27 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
+		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
 					["fontSize"] = 20,
-					["width"] = 139.999557495117,
+					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
+					["BWMessageAnchor_x"] = 849.45227959023,
+					["growUpwards"] = true,
+					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
 					["font"] = "Prototype",
-					["posx"] = 180,
-					["sound"] = true,
-					["posy"] = 280,
+					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
+					["BWMessageAnchor_y"] = 438.129133361759,
+					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
 				},
 			},
 		},
-		["BigWigs_Bosses_Goroth"] = {
+		["BigWigs_Bosses_Harjatan the Bludger"] = {
 			["profiles"] = {
 				["Default"] = {
-					[232249] = 0,
-					[233062] = 98819,
-					[231363] = 0,
-					[234346] = 0,
-					[233279] = 98979,
-					[238588] = 98819,
+					[232192] = 0,
+					[231729] = 0,
+					[233429] = 0,
 				},
 			},
 		},

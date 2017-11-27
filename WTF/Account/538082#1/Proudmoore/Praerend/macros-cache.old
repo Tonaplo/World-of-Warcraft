@@ -2,8 +2,8 @@ VER 3 0100000000000003 "buy" "INV_MISC_QUESTIONMARK"
 /run BuyMerchantItem(27) 
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1SR1SR1RM1OT1NM2IR2SR2SH2IR2OM3HR3LR3_T3SM3ET4DH4EM4DR4LR4PM5NM5IH5DM5RM5PM6LR6MR6PH6HR6NM7MR7DR7DT7WM7NM8HR8NM8MR8EM8PM1WT[x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x]0__0__[x][x][x][x][x]0__0__0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NWykWykZetFluClaTamPolZmeAevLukFerPheUnkComEneNarDarWynShaAnuGalMeyHawSneZdaTøkBlaMelMelIllXodFedAelRegTuoShøRedRurDiaRumPra[x][x][x][x][x][x][x][x][x][x]Ind[x][x][x][x][x][x]GelGel[x][x][x][x][x]InfInfWat[x]Tur[x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pra[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

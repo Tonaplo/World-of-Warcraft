@@ -97,10 +97,12 @@ LUIDB = {
 				},
 			},
 			["realm"] = {
-				["Tichondrius"] = {
+				["Bleeding Hollow"] = {
 					["Gold"] = {
-						["Alliance"] = {
-							["Mallusof"] = 1077951161,
+						["Horde"] = {
+							["Zaliga"] = 7678001,
+							["Evisca"] = 1646,
+							["Gorog"] = 22438,
 						},
 					},
 				},
@@ -114,27 +116,25 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Miriyal"] = 172915253,
+							["Miriyal"] = 175698976,
 							["Farahn"] = 75333179,
 							["Greybone"] = 73632888,
-							["Amranar"] = 537532989,
+							["Amranar"] = 537829888,
 							["Granjior"] = 523873677,
 							["Kaldorath"] = 322480427,
-							["Faerand"] = 149088218,
+							["Faerand"] = 149944150,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 582999888,
-							["Morifa"] = 541038520,
-							["Fimwack"] = 320380989,
-							["Praerend"] = 789732704,
+							["Rahran"] = 589727917,
+							["Morifa"] = 539824085,
+							["Fimwack"] = 320665333,
+							["Praerend"] = 786631223,
 						},
 					},
 				},
-				["Bleeding Hollow"] = {
+				["Tichondrius"] = {
 					["Gold"] = {
-						["Horde"] = {
-							["Zaliga"] = 7678001,
-							["Evisca"] = 1646,
-							["Gorog"] = 22438,
+						["Alliance"] = {
+							["Mallusof"] = 1157060103,
 						},
 					},
 				},
@@ -530,13 +530,8 @@ LUIDB = {
 							["Power"] = {
 								["Color"] = "By Type",
 							},
-							["SoulShards"] = {
-								["Y"] = -4,
-								["X"] = 25,
-								["Lock"] = false,
-								["Padding"] = 1,
-								["Width"] = 200,
-								["Texture"] = "Otravi",
+							["HealPrediction"] = {
+								["Enable"] = true,
 							},
 							["DruidMana"] = {
 								["OverPower"] = false,
@@ -548,8 +543,13 @@ LUIDB = {
 							["Health"] = {
 								["Color"] = "Gradient",
 							},
-							["HealPrediction"] = {
-								["Enable"] = true,
+							["SoulShards"] = {
+								["Y"] = -4,
+								["X"] = 25,
+								["Lock"] = false,
+								["Padding"] = 1,
+								["Width"] = 200,
+								["Texture"] = "Otravi",
 							},
 							["ClassIcons"] = {
 							},
@@ -591,7 +591,7 @@ LUIDB = {
 						["Width"] = 80,
 						["Y"] = 150,
 						["X"] = 0,
-						["Height"] = 40,
+						["GroupPadding"] = 1,
 						["Icons"] = {
 							["Raid"] = {
 								["Y"] = 0,
@@ -599,8 +599,7 @@ LUIDB = {
 								["Size"] = 60,
 							},
 						},
-						["GroupPadding"] = 1,
-						["Padding"] = 1,
+						["Height"] = 40,
 						["Bars"] = {
 							["TotalAbsorb"] = {
 								["Enable"] = true,
@@ -619,6 +618,7 @@ LUIDB = {
 								["Enable"] = true,
 							},
 						},
+						["Padding"] = 1,
 						["Texts"] = {
 							["HealthPercent"] = {
 								["ShowAlways"] = true,
@@ -807,72 +807,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Tichondrius"] = {
-							"/p Your title says DHT, but your dungeon says Maw :P", -- [1]
-							"/rt", -- [2]
-							"/cw Dontheal-Ghostlands I have to ask. Why?", -- [3]
-							"/rt", -- [4]
-							"/p need a relog, sec", -- [5]
-							"/rl", -- [6]
-							"/g Fuck", -- [7]
-							"/cw Dontheal-Ghostlands 936 not good enough? da fuq?", -- [8]
-							"/p what key did you get?", -- [9]
-							"/raid So does he just appear?", -- [10]
-							"/p Your title says DHT, but your dungeon says Maw :P", -- [11]
-							"/cw Dontheal-Ghostlands I have to ask. Why?", -- [12]
-							"/p need a relog, sec", -- [13]
-							"/g Fuck", -- [14]
-							"/p what key did you get?", -- [15]
-							"/p Your title says DHT, but your dungeon says Maw :P", -- [16]
-							"/p need a relog, sec", -- [17]
-							"/p what key did you get?", -- [18]
-							"/p need a relog, sec", -- [19]
-							"/p I'll get him", -- [20]
-							"/p here", -- [21]
-							"/p look at your map", -- [22]
-							"/p dude", -- [23]
+							"/p no", -- [1]
+							"/s inv", -- [2]
+							"/g WoW anniversaty event", -- [3]
+							"/s inv", -- [4]
+							"/1 Mage", -- [5]
+							"/raid go?", -- [6]
+							"/rl", -- [7]
+							"/cw Kalithumos-Tichondrius inv", -- [8]
+							"/rl", -- [9]
+							"/p what key did you get?", -- [10]
+							"/p I'll get him", -- [11]
+							"/p no", -- [12]
+							"/rl", -- [13]
+							"/s inv", -- [14]
+							"/cw Elorela-Tichondrius |cff71d5ff|Htalent:19764|h[Surge of Light]|h|r", -- [15]
+							"/g WoW anniversaty event", -- [16]
+							"/p no", -- [17]
+							"/s inv", -- [18]
+							"/g WoW anniversaty event", -- [19]
+							"/s inv", -- [20]
+							"/1 Mage", -- [21]
+							"/rl", -- [22]
+							"/p what key did you get?", -- [23]
 							"/p no", -- [24]
-							"/p Wyrmrest is the wrong place", -- [25]
-							"/p da fuq", -- [26]
-							"/p well, need 1 mroe", -- [27]
-							"/p ...", -- [28]
-							"/p Im sorry, I assumed noone needed anything", -- [29]
-							"/p I DE'd, sorry :(", -- [30]
-							"/p |cffa335ee|Hitem:137458::::::::110:256::23:3:1727:1537:3528:::|h[Chaos-Forged Necklace]|h|r anyone?", -- [31]
-							"/p cheers", -- [32]
+							"/s inv", -- [25]
+							"/g WoW anniversaty event", -- [26]
+							"/s inv", -- [27]
+							"/1 Mage", -- [28]
+							"/p what key did you get?", -- [29]
+							"/s inv", -- [30]
+							"/1 Mage", -- [31]
+							"/s inv", -- [32]
 						},
 						["Alliance - Proudmoore"] = {
-							"/raid have fun!", -- [1]
-							"/raid nps", -- [2]
-							"/cw Xaxruner-Alexstrasza you start on Avatar?", -- [3]
-							"/cw Xaxruner-Alexstrasza friendly charge too :)", -- [4]
-							"/cw Xaxruner-Alexstrasza |cff71d5ff|Hspell:198304:0|h[Intercept]|h|r", -- [5]
-							"/cw Xaxruner-Alexstrasza devastate", -- [6]
-							"/cw Xaxruner-Alexstrasza 1 stack ye?", -- [7]
-							"/raid yup", -- [8]
-							"/raid Xav has x", -- [9]
-							"/cw Xaxruner-Alexstrasza Or is it all of them?", -- [10]
-							"/cw Xaxruner-Alexstrasza gotcha", -- [11]
-							"/cw Xaxruner-Alexstrasza in my raid group", -- [12]
-							"/cw Xaxruner-Alexstrasza you start", -- [13]
-							"/cw Xaxruner-Alexstrasza You start soaking", -- [14]
-							"/cw Xaxruner-Alexstrasza gg", -- [15]
-							"/cw Stamkiller-Quel'Thalas need that?", -- [16]
-							"/raid ty!", -- [17]
-							"/raid nps", -- [18]
-							"/cw Xaxruner-Alexstrasza friendly charge too :)", -- [19]
-							"/cw Xaxruner-Alexstrasza devastate", -- [20]
-							"/raid yup", -- [21]
-							"/cw Xaxruner-Alexstrasza Or is it all of them?", -- [22]
-							"/cw Xaxruner-Alexstrasza in my raid group", -- [23]
-							"/cw Xaxruner-Alexstrasza You start soaking", -- [24]
-							"/cw Stamkiller-Quel'Thalas need that?", -- [25]
-							"/raid nps", -- [26]
-							"/cw Xaxruner-Alexstrasza devastate", -- [27]
-							"/cw Xaxruner-Alexstrasza Or is it all of them?", -- [28]
-							"/cw Xaxruner-Alexstrasza You start soaking", -- [29]
-							"/raid nps", -- [30]
-							"/cw Xaxruner-Alexstrasza Or is it all of them?", -- [31]
-							"/raid nps", -- [32]
+							"/p well", -- [1]
+							" lol sure", -- [2]
+							"/p well", -- [3]
+							" lol sure", -- [4]
+							"/p well", -- [5]
+							" welcome home :\"P{", -- [6]
+							" lol sure", -- [7]
+							"/p well", -- [8]
+							" lol sure", -- [9]
+							" welcome home :\"P{", -- [10]
+							"/p well", -- [11]
+							" welcome home :\"P{", -- [12]
+							"/p well", -- [13]
+							" welcome home :\"P{", -- [14]
+							"/p well", -- [15]
+							" lol sure", -- [16]
+							"/p well", -- [17]
+							" welcome home :\"P{", -- [18]
+							" lol sure", -- [19]
+							"/p well", -- [20]
+							" lol sure", -- [21]
+							" welcome home :\"P{", -- [22]
+							"/p well", -- [23]
+							" welcome home :\"P{", -- [24]
+							"/p well", -- [25]
+							" lol sure", -- [26]
+							" welcome home :\"P{", -- [27]
+							"/p well", -- [28]
+							" welcome home :\"P{", -- [29]
+							"/p well", -- [30]
+							" welcome home :\"P{", -- [31]
+							"/p well", -- [32]
 						},
 					},
 				},
@@ -887,6 +887,10 @@ LUIDB = {
 					},
 				},
 				["Gorog - Bleeding Hollow"] = {
+					["modules"] = {
+					},
+				},
+				["Brity - Steamwheedle Cartel"] = {
 					["modules"] = {
 					},
 				},
@@ -943,6 +947,19 @@ LUIDB = {
 						["IsShown"] = true,
 					},
 				},
+				["Brity - Steamwheedle Cartel"] = {
+					["Dps"] = {
+						["Anchor"] = "DetailsBaseFrame1",
+						["OffsetY"] = 0,
+						["Additional"] = "DetailsRowFrame1",
+					},
+					["Minimap"] = {
+						["IsShown"] = true,
+					},
+					["MicroMenu"] = {
+						["IsShown"] = true,
+					},
+				},
 				["Evisca - Bleeding Hollow"] = {
 					["Dps"] = {
 						["Anchor"] = "DetailsBaseFrame1",
@@ -957,11 +974,11 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
+						["IsShown"] = true,
+					},
+					["Minimap"] = {
 						["IsShown"] = true,
 					},
 					["Tps"] = {
@@ -1487,6 +1504,169 @@ LUIDB = {
 						0.78, -- [2]
 						0.55, -- [3]
 						0.7, -- [4]
+					},
+				},
+				["Brity - Steamwheedle Cartel"] = {
+					["micromenu_btn"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["color_bottom"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.5, -- [4]
+					},
+					["tpsborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["tps"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["chat"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["bar"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.7, -- [4]
+					},
+					["micromenu_bg"] = {
+						0.6, -- [1]
+						0.6, -- [2]
+						0.6, -- [3]
+						0.8, -- [4]
+					},
+					["orb_cycle"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["color_top"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.5, -- [4]
+					},
+					["raid"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["theme"] = "Priest",
+					["micromenu_bg2"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.7, -- [4]
+					},
+					["chatborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["minimap"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						1, -- [4]
+					},
+					["editbox"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["bar2"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.6, -- [4]
+					},
+					["dpsborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["dps"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["chat2"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["orb_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["sidebar"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["micromenu"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+					},
+					["navi"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.6, -- [4]
+					},
+					["chat2border"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
+					["orb"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+					},
+					["navi_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
 					},
 				},
 				["Evisca - Bleeding Hollow"] = {
@@ -2196,7 +2376,7 @@ LUIDB = {
 					},
 					["Bottombar3"] = {
 						["State"] = {
-							"5", -- [1]
+							"1", -- [1]
 							["Alt"] = "5",
 							["Ctrl"] = "5",
 						},
@@ -2206,8 +2386,22 @@ LUIDB = {
 						["State"] = {
 							"1", -- [1]
 							"7", -- [2]
+							[5] = "1",
 							["Alt"] = "1",
 							["Ctrl"] = "1",
+						},
+					},
+					["TopTexture"] = {
+						["Y"] = 430,
+						["X"] = 590,
+						["Enable"] = false,
+						["Alpha"] = 1,
+					},
+					["Bottombar6"] = {
+						["State"] = {
+							"9", -- [1]
+							["Alt"] = "9",
+							["Ctrl"] = "9",
 						},
 					},
 					["Bottombar2"] = {
@@ -2217,19 +2411,6 @@ LUIDB = {
 							["Alt"] = "2",
 							["Ctrl"] = "2",
 						},
-					},
-					["Bottombar6"] = {
-						["State"] = {
-							"9", -- [1]
-							["Alt"] = "9",
-							["Ctrl"] = "9",
-						},
-					},
-					["TopTexture"] = {
-						["Y"] = 430,
-						["X"] = 590,
-						["Enable"] = false,
-						["Alpha"] = 1,
 					},
 					["SidebarLeft2"] = {
 						["State"] = {
@@ -2345,21 +2526,22 @@ LUIDB = {
 	},
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Base",
-		["Praerend - Proudmoore"] = "Base",
-		["Rahran - Proudmoore"] = "Base",
 		["Gorog - Bleeding Hollow"] = "Base",
-		["Amranar - Proudmoore"] = "Base",
-		["Farahn - Proudmoore"] = "Base",
+		["Praerend - Proudmoore"] = "Base",
 		["Fimwack - Proudmoore"] = "Base",
+		["Greybone - Proudmoore"] = "Base",
+		["Faerand - Proudmoore"] = "Base",
+		["Rahran - Proudmoore"] = "Base",
+		["Farahn - Proudmoore"] = "Base",
 		["Mallusof - Tichondrius"] = "Base",
 		["Gottagetlia - Aggramar"] = "Base",
 		["Granjior - Proudmoore"] = "Base",
 		["Zaliga - Bleeding Hollow"] = "Base",
 		["Morifa - Proudmoore"] = "Base",
-		["Greybone - Proudmoore"] = "Base",
 		["Miriyal - Proudmoore"] = "Base",
-		["Faerand - Proudmoore"] = "Base",
+		["Amranar - Proudmoore"] = "Base",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["luiconfig"] = {
@@ -2501,6 +2683,21 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
+			["Evisca - Bleeding Hollow"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["threatbar"] = 2,
+					["Auras"] = 2,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["bars"] = 2.4,
+					["mirrorbar"] = 1,
+				},
+			},
 			["Mallusof - Tichondrius"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -2587,21 +2784,6 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Evisca - Bleeding Hollow"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["interrupt"] = 2,
-					["threatbar"] = 2,
-					["Auras"] = 2,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["bars"] = 2.4,
-					["mirrorbar"] = 1,
-				},
-			},
 			["Mallusof - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -2658,6 +2840,22 @@ LUIDB = {
 					["Micromenu"] = 1.5,
 				},
 			},
+			["Brity - Steamwheedle Cartel"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["threatbar"] = 2,
+					["bartender"] = 3300,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["bars"] = 2.4,
+					["mirrorbar"] = 1,
+					["Auras"] = 2,
+				},
+			},
 		},
 	},
 	["profiles"] = {
@@ -2672,6 +2870,11 @@ LUIDB = {
 			},
 		},
 		["Gorog - Bleeding Hollow"] = {
+			["modules"] = {
+				["Merchant"] = false,
+			},
+		},
+		["Brity - Steamwheedle Cartel"] = {
 			["modules"] = {
 				["Merchant"] = false,
 			},

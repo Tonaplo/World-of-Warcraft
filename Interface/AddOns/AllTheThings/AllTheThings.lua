@@ -652,6 +652,11 @@ local function SortGearSetInformation(a,b)
 	if first == 0 then return a.setID < b.setID; end
 	return first < 0;
 end
+local function SortGearSetSources(a,b)
+	local first = a.invType - b.invType;
+	if first == 0 then return a.invType < b.invType; end
+	return first < 0;
+end
 local function GetArtifactCache()
 	local cache = GetTempDataMember("ARTIFACT_CACHE");
 	if not cache then
@@ -717,9 +722,19 @@ local function GetTitleCache()
 	return cache;
 end
 local function GetGearSetCache()
-	if true then return nil; end
-	local cache = GetTempDataMember("GEAR_SET_CACHE", {});
-	-- SetDataMember("GEAR_SET_CACHE", cache);
+	--if true then return nil; end
+	local db = GetTempDataMember("GEAR_SET_CACHE", nil);
+	if not db then
+		db = {};
+		db.expanded = false;
+		db.text = L("GEAR_SETS");
+		SetTempDataMember("GEAR_SET_CACHE", db);
+	end
+	
+	-- Rebuild the cache every time.
+	cache = {};
+	db.groups = cache;
+	--SetDataMember("GEAR_SET_CACHE", cache);
 	local sets = C_TransmogSets.GetAllSets();
 	if sets then
 		local gearSets = {};
@@ -729,8 +744,16 @@ local function GetGearSetCache()
 				local sources = {};
 				tinsert(gearSets, setmetatable({ ["setID"] = s.setID, ["uiOrder"] = s.uiOrder, ["groups"] = sources }, app.BaseGearSet));
 				for sourceID, value in pairs(C_TransmogSets.GetSetSources(s.setID)) do
-					tinsert(sources, setmetatable({ s = sourceID }, app.BaseGearSource));
+					local _, appearanceID = C_TransmogCollection_GetAppearanceSourceInfo(sourceID);
+					if appearanceID then
+						for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(appearanceID)) do
+							tinsert(sources, setmetatable({ s = otherSourceID }, app.BaseGearSource));
+						end
+					else
+						tinsert(sources, setmetatable({ s = sourceID }, app.BaseGearSource));
+					end
 				end
+				table.sort(sources, SortGearSetSources);
 			end
 		end
 		table.sort(gearSets, SortGearSetInformation);
@@ -784,7 +807,7 @@ local function GetGearSetCache()
 			tinsert(lastSubHeader and lastSubHeader.groups or lastSubHeader, gearSet);
 		end
 	end
-	return cache;
+	return db;
 end
 local function GetMountInfoCache()
 	local cache = GetTempDataMember("MOUNT_CACHE", {});
@@ -1037,6 +1060,7 @@ local function SearchForItemLink(link)
 					else
 						group = SearchForSourceIDQuickly(sourceID) or SearchForItemIDQuickly(itemID);
 					end
+					
 					local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 					if sourceInfo then
 						--[[
@@ -1044,6 +1068,7 @@ local function SearchForItemLink(link)
 							tinsert(listing, tostring(key) .. ": " .. tostring(value));
 						end
 						]]--
+						
 						if GetDataMember("ShowSharedAppearances") then
 							if GetDataMember("ShowUnobtainableAppearanceInformation") then 
 								for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
@@ -1104,6 +1129,7 @@ local function SearchForItemLink(link)
 								end
 							end
 						end
+						
 						if GetDataMember("ShowVisualID") then tinsert(listing, L("VISUAL_ID") .. "/" .. tostring(sourceInfo.visualID)); end
 						if GetDataMember("ShowSourceID") then tinsert(listing, L("SOURCE_ID") .. "/" .. sourceID .. " " .. L(sourceInfo.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON")); end
 					end
@@ -1117,6 +1143,29 @@ local function SearchForItemLink(link)
 				
 				if GetDataMember("ShowItemID") and itemID > 0 then tinsert(listing, L("ITEM_ID") .. "/" .. itemID); end
 				if GetDataMember("ShowItemString") then tinsert(listing, itemString); end
+				if group and #group > 0 and GetDataMember("ShowLootSpecializations", true) then
+					local specs = group[1].specs;
+					if specs then
+						if #specs > 0 then
+							local spec_label = "";
+							local atleastone = false;
+							for key, specID in ipairs(specs) do
+								local id, name, description, icon, role, class = GetSpecializationInfoByID(specID);
+								if class == app.Class then
+									spec_label = spec_label .. "  |T" .. icon .. ":0|t " .. name;
+									atleastone = true;
+								end
+							end
+							if atleastone then
+								tinsert(listing, " /" .. spec_label);
+							else
+								tinsert(listing, " /Not available in Personal Loot.");
+							end
+						else
+							tinsert(listing, " /Not available in Personal Loot.");
+						end
+					end
+				end
 				
 				-- Cache the result for a while depending on the importance of the item
 				return listing, group, working, important;
@@ -1327,6 +1376,7 @@ local function RefreshLocation(force)
 				if GetPersonalDataMember("MapID") ~= mapID or force then
 					SetPersonalDataMember("MapID", mapID);
 					if automaticMiniList then OpenMiniList(mapID); end
+					wipe(searchCache);
 				end
 				app.refreshingLocation = false;
 			end);
@@ -1488,16 +1538,18 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 						if group.total and group.total > 0 then
 							local percent = group.collected / group.total;
 							rightSide:SetText("|c" .. GetProgressColor(percent) .. tostring(group.collected) .. " / " .. tostring(group.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
-							self:AddLine("Contains:");
+							local first = true;
 							for i,j in ipairs(group.groups) do
 								if app.GroupRequirementsFilter(j) and app.FilterItemClass(j) then
 									if j.groups then
 										if not j.total or j.total < 1 then 
 											if j.collected then
 												if GetDataMember("ShowCollectedItems") then
+													if first then first = nil; self:AddLine("Contains:"); end
 													self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
 												end
 											else
+												if first then first = nil; self:AddLine("Contains:"); end
 												if j.dr then
 													self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
 												else
@@ -1507,15 +1559,18 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 										else
 											local percent = j.collected / j.total;
 											if percent < 1 or GetDataMember("ShowCompletedGroups")  then 
+												if first then first = nil; self:AddLine("Contains:"); end
 												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(percent) .. tostring(j.collected) .. " / " .. tostring(j.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
 											end
 										end
 									else
 										if j.collected then
 											if GetDataMember("ShowCollectedItems") then
+												if first then first = nil; self:AddLine("Contains:"); end
 												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
 											end
 										else
+											if first then first = nil; self:AddLine("Contains:"); end
 											if j.dr then
 												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
 											else
@@ -1942,9 +1997,10 @@ app.BaseGearSet = {
 					return info.description;
 				end
 				return info.label;
-			else
-				return info.description;
 			end
+		elseif key == "title" then
+			local info = t.info;
+			if info then return info.requiredFaction; end
 		elseif key == "icon" then
 			local sources = C_TransmogSets.GetSetSources(t.setID);
 			for sourceID, value in pairs(sources) do
@@ -1973,17 +2029,28 @@ app.CreateGearSet = function(id, t)
 end
 app.BaseGearSource = {
 	__index = function(t, key)
-		if key == "info" then
+		if key == "collectable" then
+			return true;
+		elseif key == "info" then
 			return C_TransmogCollection_GetSourceInfo(t.s);
 		elseif key == "itemID" then
 			local info = t.info;
-			if info then return info.itemID; end
+			if info then
+				rawset(t, "itemID", info.itemID);
+				return info.itemID;
+			end
 		elseif key == "text" then
 			return select(2, GetItemInfo(t.itemID));
 		elseif key == "link" then
 			return select(2, GetItemInfo(t.itemID));
+		elseif key == "invType" then
+			local info = t.info;
+			if info then return info.invType; end
+			return 99;
 		elseif key == "icon" then
 			return select(5, GetItemInfoInstant(t.itemID));
+		elseif key == "specs" then
+			return GetItemSpecInfo(t.itemID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2096,6 +2163,8 @@ app.BaseItem = {
 			return t.link and GetItemInfo(t.link);
 		elseif key == "item" then
 			return nil;
+		elseif key == "specs" then
+			return GetItemSpecInfo(t.itemID);
 		else
 			-- Something that isn't dynamic.
 			return t.item and t.item[key] or table[key];
@@ -2950,14 +3019,14 @@ local function CreateSettingsMenu()
 		end);
 		
 		self.IgnoreAllFilters = CreateFrame("CheckButton", name .. "-IgnoreAllFilters", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.IgnoreAllFilters, self, "Ignore All Filters (Debug Mode)", 15, -500, GetDataMember("IgnoreAllFilters"));
+		CreateCheckBox(self.IgnoreAllFilters, self, "Ignore All Filters (Debug Mode)", 15, -520, GetDataMember("IgnoreAllFilters"));
 		self.IgnoreAllFilters:SetScript("OnClick", function(self)
 			SetDebugMode(self:GetChecked());
 		end);
 		lastFilter = self.IgnoreAllFilters;
 		
 		self.IgnoreFiltersOnNonBindingItems = CreateFrame("CheckButton", name .. "-IgnoreFiltersOnNonBindingItems", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.IgnoreFiltersOnNonBindingItems, self, "Ignore All Filters for BoE / BoA Items", 300, -500, GetDataMember("IgnoreFiltersOnNonBindingItems"));
+		CreateCheckBox(self.IgnoreFiltersOnNonBindingItems, self, "Ignore All Filters for BoE / BoA Items", 300, -520, GetDataMember("IgnoreFiltersOnNonBindingItems"));
 		self.IgnoreFiltersOnNonBindingItems:SetChecked(GetDataMember("IgnoreFiltersOnNonBindingItems"));
 		self.IgnoreFiltersOnNonBindingItems:SetScript("OnClick", function(self)
 			SetDataMember("IgnoreFiltersOnNonBindingItems", self:GetChecked());
@@ -2996,6 +3065,7 @@ local function CreateSettingsMenu()
 		CreateIDCheckBox("ShowModels", "Show Models", 15, -430);
 		CreateIDCheckBox("ShowMapID", "Show Map ID", 15, -450);
 		CreateIDCheckBox("ShowUnobtainableAppearanceInformation", "Show Unobtainable Icons", 15, -470);
+		CreateIDCheckBox("ShowLootSpecializations", "Show Loot Specializations", 15, -490);
 		
 		CreateIDCheckBox("ShowAchievementID", "Show Achievement ID", 300, -190);
 		CreateIDCheckBox("ShowArtifactID", "Show Artifact ID", 300, -210);
@@ -4329,16 +4399,9 @@ function app:GetDataCache()
 		db.expanded = false;
 		db.text = "Factions (Dynamic)";
 		table.insert(groups, db);
-		]]--
 		
 		-- Gear Sets
-		--[[
-		db = {};
-		GetGearSetCache();
-		db.expanded = false;
-		db.text = L("GEAR_SETS");
-		db.groups = GetTempDataMember("GEAR_SET_CACHE", {});
-		table.insert(groups, db);
+		table.insert(groups, GetGearSetCache());
 		]]--
 		
 		local missingData = {};

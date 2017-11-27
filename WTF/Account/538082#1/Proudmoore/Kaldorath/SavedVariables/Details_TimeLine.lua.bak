@@ -1,128 +1,39 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["combat_data"] = {
+		{
+			["date_start"] = "23:29:30",
+			["date_end"] = "23:31:19",
+			["name"] = "Mephistroth",
+			["total_time"] = 109.157000000001,
+		}, -- [1]
+		{
+			["date_start"] = "23:26:27",
+			["date_end"] = "23:28:29",
+			["name"] = "Domatrax",
+			["total_time"] = 121.535,
+		}, -- [2]
+		{
+			["date_start"] = "23:21:17",
+			["date_end"] = "23:22:02",
+			["name"] = "Thrashbite the Scornful",
+			["total_time"] = 45.3000000000011,
+		}, -- [3]
+		{
+			["date_start"] = "23:15:53",
+			["date_end"] = "23:17:15",
+			["name"] = "Agronox",
+			["total_time"] = 82.0030000000006,
+		}, -- [4]
+	},
 	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Liluzivêrt-EmeraldDream"] = {
-				{
-					37.2830000000013, -- [1]
-					"Liluzivêrt-EmeraldDream", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					53.130000000001, -- [1]
-					"Liluzivêrt-EmeraldDream", -- [2]
-					61336, -- [3]
-				}, -- [2]
-			},
-		}, -- [1]
-		{
-			["Rögue-Khaz'goroth"] = {
-				{
-					72.9549999999999, -- [1]
-					"Rögue-Khaz'goroth", -- [2]
-					5277, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Liluzivêrt-EmeraldDream"] = {
-				{
-					2.68100000000049, -- [1]
-					"Liluzivêrt-EmeraldDream", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					68.1800000000003, -- [1]
-					"Liluzivêrt-EmeraldDream", -- [2]
-					61336, -- [3]
-				}, -- [2]
-			},
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-			["Liluzivêrt-EmeraldDream"] = {
-				{
-					["time"] = 36.8259999999991,
-					["events"] = {
-						{
-							true, -- [1]
-							236551, -- [2]
-							5599905, -- [3]
-							1509604024.258, -- [4]
-							1, -- [5]
-							"Domatrax", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							1956367, -- [10]
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Liluzivêrt-EmeraldDream"] = {
-				{
-					["time"] = 32.9100000000017,
-					["events"] = {
-						{
-							true, -- [1]
-							238469, -- [2]
-							6789282, -- [3]
-							1509603710.347, -- [4]
-							1, -- [5]
-							"Thrashbite the Scornful", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							2918502, -- [10]
-						}, -- [1]
-					},
-				}, -- [1]
-			},
-			["Jezdec-Galakrond"] = {
-				{
-					["time"] = 42.6090000000004,
-					["events"] = {
-						{
-							true, -- [1]
-							237276, -- [2]
-							5169132, -- [3]
-							1509603720.029, -- [4]
-							198282, -- [5]
-							"Thrashbite the Scornful", -- [6]
-							135294, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							237276, -- [2]
-							477622, -- [3]
-							1509603720.046, -- [4]
-							1, -- [5]
-							"Thrashbite the Scornful", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							279340, -- [10]
-						}, -- [2]
-					},
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Liluzivêrt-EmeraldDream"] = {
@@ -420,6 +331,14 @@ DetailsTimeLineDB = {
 					["source"] = "Agronox",
 					["active"] = false,
 				},
+				[243613] = {
+					10.7600000000002, -- [1]
+					19.5730000000003, -- [2]
+					50.8809999999994, -- [3]
+					59.9320000000007, -- [4]
+					["source"] = "Fulminating Lasher",
+					["active"] = false,
+				},
 				[238598] = {
 					65.5470000000005, -- [1]
 					67.8349999999991, -- [2]
@@ -438,14 +357,6 @@ DetailsTimeLineDB = {
 					76.8690000000006, -- [9]
 					77.0519999999997, -- [10]
 					["source"] = "Succulent Lasher",
-					["active"] = false,
-				},
-				[243613] = {
-					10.7600000000002, -- [1]
-					19.5730000000003, -- [2]
-					50.8809999999994, -- [3]
-					59.9320000000007, -- [4]
-					["source"] = "Fulminating Lasher",
 					["active"] = false,
 				},
 			},
@@ -545,36 +456,125 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["combat_data"] = {
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "23:31:19",
-			["date_start"] = "23:29:30",
-			["name"] = "Mephistroth",
-			["total_time"] = 109.157000000001,
+			["Liluzivêrt-EmeraldDream"] = {
+				{
+					37.2830000000013, -- [1]
+					"Liluzivêrt-EmeraldDream", -- [2]
+					61336, -- [3]
+				}, -- [1]
+				{
+					53.130000000001, -- [1]
+					"Liluzivêrt-EmeraldDream", -- [2]
+					61336, -- [3]
+				}, -- [2]
+			},
 		}, -- [1]
 		{
-			["date_end"] = "23:28:29",
-			["date_start"] = "23:26:27",
-			["name"] = "Domatrax",
-			["total_time"] = 121.535,
+			["Rögue-Khaz'goroth"] = {
+				{
+					72.9549999999999, -- [1]
+					"Rögue-Khaz'goroth", -- [2]
+					5277, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
-			["date_end"] = "23:22:02",
-			["date_start"] = "23:21:17",
-			["name"] = "Thrashbite the Scornful",
-			["total_time"] = 45.3000000000011,
 		}, -- [3]
 		{
-			["date_end"] = "23:17:15",
-			["date_start"] = "23:15:53",
-			["name"] = "Agronox",
-			["total_time"] = 82.0030000000006,
+			["Liluzivêrt-EmeraldDream"] = {
+				{
+					2.68100000000049, -- [1]
+					"Liluzivêrt-EmeraldDream", -- [2]
+					61336, -- [3]
+				}, -- [1]
+				{
+					68.1800000000003, -- [1]
+					"Liluzivêrt-EmeraldDream", -- [2]
+					61336, -- [3]
+				}, -- [2]
+			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+			["Liluzivêrt-EmeraldDream"] = {
+				{
+					["time"] = 36.8259999999991,
+					["events"] = {
+						{
+							true, -- [1]
+							236551, -- [2]
+							5599905, -- [3]
+							1509604024.258, -- [4]
+							1, -- [5]
+							"Domatrax", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							1956367, -- [10]
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Liluzivêrt-EmeraldDream"] = {
+				{
+					["time"] = 32.9100000000017,
+					["events"] = {
+						{
+							true, -- [1]
+							238469, -- [2]
+							6789282, -- [3]
+							1509603710.347, -- [4]
+							1, -- [5]
+							"Thrashbite the Scornful", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							2918502, -- [10]
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["Jezdec-Galakrond"] = {
+				{
+					["time"] = 42.6090000000004,
+					["events"] = {
+						{
+							true, -- [1]
+							237276, -- [2]
+							5169132, -- [3]
+							1509603720.029, -- [4]
+							198282, -- [5]
+							"Thrashbite the Scornful", -- [6]
+							135294, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							237276, -- [2]
+							477622, -- [3]
+							1509603720.046, -- [4]
+							1, -- [5]
+							"Thrashbite the Scornful", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							279340, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+		}, -- [3]
+		{
 		}, -- [4]
 	},
 }

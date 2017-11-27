@@ -610,6 +610,12 @@ AllTheThings.Locales.enUS = {
 		[-364] = LOOT_JOURNAL_LEGENDARIES, 							-- Legendaries
 		[-365] = HEIRLOOMS, 										-- Heirlooms
 		[-366] = WEAPON.." "..WARDROBE_SETS,						-- Weapons Sets
+-- Dungeon/Raid Wing Info
+		[-367] = DUNGEON_FLOOR_NAXXRAMAS1, -- The Construct Quarter
+		[-368] = DUNGEON_FLOOR_NAXXRAMAS2, -- The Arachnid Quarter
+		[-369] = DUNGEON_FLOOR_NAXXRAMAS3, -- The Military Quarter
+		[-370] = DUNGEON_FLOOR_NAXXRAMAS4, -- The Plague Quarter
+		[-371] = DUNGEON_FLOOR_NAXXRAMAS6, -- The Upper Necropolis
 -- Blizzard Events and Anniversaries
 		[-577] = "World of Warcraft Movie",
 		[-576] = "StarCraft II: Legacy of the Void",
@@ -1203,7 +1209,7 @@ AllTheThings.Locales.enUS = {
 	     -- {header, description, name}, header: header id, 1-3 as above, 4 is legacy.
 		{1, "|CFFFF0000The source of this item has been removed or was never available to players.|r", "Never Available"}, -- No Hope -- 1
 		{1, "|CFFFF0000The source of this item has been removed and the item is Bind on Pickup or Bind on Account.|r", "BoP / BoA Item"}, -- No Hope -- 2
-		{1, "|CFFFF0000This promotion is over so item is no longer attainable.|r", "Blizzard Promotion"}, -- No Hope -- 3
+		{1, "|CFFFF0000This is obtainable only during a special promotion by Blizzard.|r", "Blizzard Promotion"}, -- No Hope -- 3
 		{1, "|CFFFF0000This item is purchaseable from a vendor provided you meet certain qualifications.|r", "Legacy Achievement"},	-- Little Hope -- 4
 		{2, "|CFFFF0000The recipe to learn to craft this item has been removed, the item is bind on pickup and only available to a crafter with the recipe.|r", "Recipe: BoP Craftable Removed"}, -- Little Hope -- 5
 		{2, "|CFFFF0000Item is included in Collector's Edition's, you can still find these for sale online in very low quantities.|r", "Collector's Edition"}, -- Little Hope -- 6

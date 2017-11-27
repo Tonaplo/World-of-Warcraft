@@ -8,3 +8,5 @@ XLoot_Options: enabled
 AdiBags: enabled
 Bartender4: disabled
 AutoVendor: disabled
+MythicHelper: enabled
+MythicPlusLoot: disabled

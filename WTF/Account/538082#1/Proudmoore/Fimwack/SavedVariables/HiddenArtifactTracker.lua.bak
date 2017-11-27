@@ -2,9 +2,9 @@
 HiddenArtifactTrackerChars = {
 	["Ulthalesh, the Deadwind Harvester"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -20,9 +20,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Skull of the Man'ari"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -38,9 +38,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Spine of Thal'kiel"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -56,9 +56,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Scepter of Sargeras"] = {
 		["Black Rook Hold"] = false,
-		["Cathedral of Eternal Night"] = false,
-		["Lower Karazhan"] = false,
 		["Court of Stars"] = false,
+		["Lower Karazhan"] = false,
+		["Cathedral of Eternal Night"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
