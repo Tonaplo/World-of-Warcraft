@@ -14,10 +14,10 @@ DataStore_AuctionsDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -41,13 +41,13 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1507644539,
 				["lastVisitDate"] = "2017/10/10 07:08",
 			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1507644155,
-				["lastVisitDate"] = "2017/10/10 07:02",
-			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,
 				["lastVisitDate"] = "2017/05/22 00:00",
+			},
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1507644155,
+				["lastVisitDate"] = "2017/10/10 07:02",
 			},
 		},
 	},

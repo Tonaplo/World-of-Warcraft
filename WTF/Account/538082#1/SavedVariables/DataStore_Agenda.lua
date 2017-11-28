@@ -14,10 +14,10 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -30,16 +30,14 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1511749347,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["Calendar"] = {
-					"2017-11-27|19:00|Raid Night!|1|2", -- [1]
-				},
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|327261092"] = "109610|1511771589|0|0",
-					["Assault on Violet Hold Mythic|675521179"] = "109610|1511771589|0|0",
-					["Ulduar 25 Player|341278512"] = "109610|1511771589|0|1",
-					["The Bastion of Twilight 25 Player (Heroic)|341498814"] = "109610|1511771589|0|1",
+					["The Bastion of Twilight 25 Player (Heroic)|341498814"] = "32920|1511848277|0|1",
+					["Ulduar 25 Player|341278512"] = "32920|1511848277|0|1",
+					["Maw of Souls Mythic|327261092"] = "32920|1511848277|0|0",
+					["Assault on Violet Hold Mythic|675521179"] = "32920|1511848277|0|0",
+					["Tomb of Sargeras Mythic|341513410"] = "32920|1511848277|0|1",
 				},
-				["lastUpdate"] = 1511771758,
+				["lastUpdate"] = 1511848375,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -65,8 +63,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1511749423,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1511749120,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427638,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1511749673,
@@ -83,8 +81,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1511749714,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1511749120,
 			},
 		},
 	},
