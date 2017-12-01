@@ -127,14 +127,14 @@ LUIDB = {
 							["Rahran"] = 589727917,
 							["Morifa"] = 539824085,
 							["Fimwack"] = 320665333,
-							["Praerend"] = 786631223,
+							["Praerend"] = 660011264,
 						},
 					},
 				},
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1157060103,
+							["Mallusof"] = 1200180664,
 						},
 					},
 				},
@@ -807,72 +807,72 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Tichondrius"] = {
-							"/p no", -- [1]
-							"/s inv", -- [2]
-							"/g WoW anniversaty event", -- [3]
-							"/s inv", -- [4]
-							"/1 Mage", -- [5]
-							"/raid go?", -- [6]
-							"/rl", -- [7]
-							"/cw Kalithumos-Tichondrius inv", -- [8]
-							"/rl", -- [9]
-							"/p what key did you get?", -- [10]
-							"/p I'll get him", -- [11]
-							"/p no", -- [12]
-							"/rl", -- [13]
-							"/s inv", -- [14]
-							"/cw Elorela-Tichondrius |cff71d5ff|Htalent:19764|h[Surge of Light]|h|r", -- [15]
-							"/g WoW anniversaty event", -- [16]
-							"/p no", -- [17]
-							"/s inv", -- [18]
-							"/g WoW anniversaty event", -- [19]
-							"/s inv", -- [20]
-							"/1 Mage", -- [21]
-							"/rl", -- [22]
-							"/p what key did you get?", -- [23]
-							"/p no", -- [24]
-							"/s inv", -- [25]
-							"/g WoW anniversaty event", -- [26]
-							"/s inv", -- [27]
-							"/1 Mage", -- [28]
-							"/p what key did you get?", -- [29]
-							"/s inv", -- [30]
-							"/1 Mage", -- [31]
-							"/s inv", -- [32]
+							"/cw Ellestria-Tichondrius Then yes :P", -- [1]
+							"/cw Meowtwo-Tichondrius Then yes :P", -- [2]
+							"/cw Meowtwo-Tichondrius we agree :P", -- [3]
+							"/raid Anybody have a Crit Gem?", -- [4]
+							"/raid hey", -- [5]
+							"/raid yo", -- [6]
+							"/s does anyone have a crit gem", -- [7]
+							"/s anyone", -- [8]
+							"/y Crit Gem", -- [9]
+							"/y anyone", -- [10]
+							"/s I'll take the Mastery one", -- [11]
+							"/s ty", -- [12]
+							"/raid guild bank please", -- [13]
+							"/raid ty", -- [14]
+							"/raid sec", -- [15]
+							"/cw Ellestria-Tichondrius NVM", -- [16]
+							" It is :P", -- [17]
+							"/g |cffa335ee|Hkeystone:200:11:11:14:10|h[Keystone: Halls of Valor]|h|r or something bigger", -- [18]
+							"/g I need a 15", -- [19]
+							"/g anyone else?", -- [20]
+							"/rt", -- [21]
+							"/g no", -- [22]
+							"/g google it and you'll find a website for it :)", -- [23]
+							"/g likely", -- [24]
+							" Hey", -- [25]
+							" I just wanted to do the quest with the Crystal", -- [26]
+							" Could you please leave me a sec so I can get out of here now :)", -- [27]
+							" I got to activate it just before the last gank", -- [28]
+							" so I've done it now", -- [29]
+							" Yeah, I thought so. ", -- [30]
+							" cheers bud :)", -- [31]
+							" you too :)", -- [32]
 						},
 						["Alliance - Proudmoore"] = {
 							"/p well", -- [1]
-							" lol sure", -- [2]
+							" welcome home :\"P{", -- [2]
 							"/p well", -- [3]
 							" lol sure", -- [4]
-							"/p well", -- [5]
-							" welcome home :\"P{", -- [6]
-							" lol sure", -- [7]
+							" welcome home :\"P{", -- [5]
+							"/p well", -- [6]
+							" welcome home :\"P{", -- [7]
 							"/p well", -- [8]
 							" lol sure", -- [9]
-							" welcome home :\"P{", -- [10]
-							"/p well", -- [11]
+							"/p well", -- [10]
+							" lol sure", -- [11]
 							" welcome home :\"P{", -- [12]
 							"/p well", -- [13]
 							" welcome home :\"P{", -- [14]
 							"/p well", -- [15]
 							" lol sure", -- [16]
-							"/p well", -- [17]
-							" welcome home :\"P{", -- [18]
-							" lol sure", -- [19]
+							" welcome home :\"P{", -- [17]
+							"/p well", -- [18]
+							" welcome home :\"P{", -- [19]
 							"/p well", -- [20]
 							" lol sure", -- [21]
-							" welcome home :\"P{", -- [22]
-							"/p well", -- [23]
-							" welcome home :\"P{", -- [24]
-							"/p well", -- [25]
-							" lol sure", -- [26]
-							" welcome home :\"P{", -- [27]
-							"/p well", -- [28]
-							" welcome home :\"P{", -- [29]
-							"/p well", -- [30]
-							" welcome home :\"P{", -- [31]
-							"/p well", -- [32]
+							"/p well", -- [22]
+							" lol sure", -- [23]
+							"/p well", -- [24]
+							" lol sure", -- [25]
+							"/p well", -- [26]
+							"/g holy shit", -- [27]
+							"/g |cffa335ee|Hitem:137338::::::::110:73::35:4:3418:1808:1592:3337:::|h[Shard of Rokmora]|h|r from Cache", -- [28]
+							"/g yup, pretty sick", -- [29]
+							" Up for doing a -11 MoS?", -- [30]
+							" nps", -- [31]
+							" :)", -- [32]
 						},
 					},
 				},
@@ -974,15 +974,12 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Chat"] = {
-						["AlwaysShow"] = true,
-						["IsShown"] = true,
-					},
 					["Minimap"] = {
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Chat"] = {
+						["AlwaysShow"] = true,
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -990,6 +987,9 @@ LUIDB = {
 						["Height"] = 205,
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Animation"] = "None",
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1121,13 +1121,7 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.8, -- [4]
-					},
-					["orb_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1139,17 +1133,23 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
+					["orb_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.4, -- [4]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1283,7 +1283,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						0.95, -- [1]
+						0.86, -- [2]
+						0.16, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1295,19 +1301,13 @@ LUIDB = {
 						0.16, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						0.95, -- [1]
-						0.86, -- [2]
-						0.16, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.95, -- [1]
 						0.86, -- [2]
 						0.16, -- [3]
@@ -1446,7 +1446,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
+						1, -- [1]
+						0.78, -- [2]
+						0.55, -- [3]
+						0.4, -- [4]
+					},
+					["raidborder"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1458,19 +1464,13 @@ LUIDB = {
 						0.55, -- [3]
 						0.8, -- [4]
 					},
-					["raidborder"] = {
-						1, -- [1]
-						0.78, -- [2]
-						0.55, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
 						0.5, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						1, -- [1]
 						0.78, -- [2]
 						0.55, -- [3]
@@ -1610,7 +1610,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1622,23 +1628,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -1772,13 +1772,7 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
-					["raidborder"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1790,13 +1784,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.8, -- [4]
 					},
+					["raidborder"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.4, -- [4]
+					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1936,19 +1936,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1960,11 +1960,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -2099,7 +2099,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -2111,23 +2117,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -2589,11 +2589,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Fimwack - Proudmoore"] = {
@@ -2674,9 +2674,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2708,9 +2708,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2794,9 +2794,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2813,9 +2813,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2833,11 +2833,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Brity - Steamwheedle Cartel"] = {

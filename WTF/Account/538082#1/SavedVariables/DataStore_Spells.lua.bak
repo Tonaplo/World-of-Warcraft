@@ -173,7 +173,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1511771455,
+				["lastUpdate"] = 1512107159,
 				["Spells"] = {
 					["Holy"] = {
 						31113216, -- [1]
@@ -1421,7 +1421,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1511749062,
+				["lastUpdate"] = 1512030371,
 				["Spells"] = {
 					["Frost"] = {
 						499968, -- [1]
@@ -1773,7 +1773,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1511749000,
+				["lastUpdate"] = 1512031940,
 				["Spells"] = {
 					["Protection"] = {
 						440064, -- [1]
@@ -1844,10 +1844,11 @@ DataStore_SpellsDB = {
 						20412928, -- [14]
 						23107840, -- [15]
 						20130048, -- [16]
-						5273088, -- [17]
-						21491200, -- [18]
-						19530240, -- [19]
-						29673728, -- [20]
+						45766912, -- [17]
+						5273088, -- [18]
+						21491200, -- [19]
+						19530240, -- [20]
+						29673728, -- [21]
 					},
 					["Fury"] = {
 						440064, -- [1]
@@ -2026,7 +2027,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1511749167,
+				["lastUpdate"] = 1512030427,
 				["Spells"] = {
 					["Unholy"] = {
 						12468992, -- [1]

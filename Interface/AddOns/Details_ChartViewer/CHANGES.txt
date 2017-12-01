@@ -1,7 +1,7 @@
-changeset:   44:7a10ce3aa666
-tag:         v7.3.0.044
+changeset:   46:7d6cfb9328c6
+tag:         v7.3.2.046
 user:        Tercio
-date:        Sat Sep 02 12:38:32 2017 -0300
-summary:     - ToC Update.
+date:        Wed Nov 29 23:04:46 2017 -0200
+summary:     - Added support to be embed on the new plugin window on Details!
 
 

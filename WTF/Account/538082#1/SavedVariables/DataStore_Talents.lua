@@ -51,21 +51,21 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 3727501,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
-				["ArtifactKnowledgeMultiplier"] = 3727501,
+				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["ArtifactKnowledgeMultiplier"] = 4846001,
 				["Specializations"] = {
 					13718, -- [1]
-					10231, -- [2]
-					6490, -- [3]
+					10103, -- [2]
+					6554, -- [3]
 				},
-				["lastUpdate"] = 1511848347,
+				["lastUpdate"] = 1512112707,
 				["Class"] = "PRIEST",
-				["ArtifactKnowledge"] = 53,
+				["ArtifactKnowledge"] = 54,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
-						["rank"] = 73,
-						["pointsRemaining"] = 22881494746,
+						["rank"] = 74,
+						["pointsRemaining"] = 39218312246,
 					},
 					["Underlight Angler"] = {
 						["pointsRemaining"] = 250,
@@ -141,63 +141,12 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
-				["ArtifactKnowledgeMultiplier"] = 3727501,
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607740,
 				["Specializations"] = {
-					7670, -- [1]
-					6582, -- [2]
-					6646, -- [3]
+					[3] = 487,
 				},
-				["lastUpdate"] = 1511749062,
-				["Class"] = "MAGE",
-				["ArtifactKnowledge"] = 53,
-				["Artifacts"] = {
-					["Ebonchill, Greatstaff of Alodi"] = {
-						["tier"] = 2,
-						["rank"] = 63,
-						["pointsRemaining"] = 6576913200,
-					},
-					["Felo'melorn"] = {
-						["pointsRemaining"] = 18542495,
-						["rank"] = 54,
-						["tier"] = 2,
-					},
-					["Aluneth, Greatstaff of the Magna"] = {
-						["pointsRemaining"] = 148281120,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-				},
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
-				["Artifacts"] = {
-					["Sheilun, Staff of the Mists"] = {
-						["pointsRemaining"] = 93748020,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-					["Fu Zan, the Wanderer's Companion"] = {
-						["pointsRemaining"] = 2978165310,
-						["rank"] = 55,
-						["tier"] = 2,
-					},
-					["Fists of the Heavens"] = {
-						["pointsRemaining"] = 115143570,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-				},
-				["Class"] = "MONK",
-				["lastUpdate"] = 1511749702,
-				["Specializations"] = {
-					7646, -- [1]
-					10709, -- [2]
-					11758, -- [3]
-				},
-				["ArtifactKnowledge"] = 53,
-				["ArtifactKnowledgeMultiplier"] = 3727501,
+				["Class"] = "ROGUE",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["EquippedArtifact"] = "The Kingslayers",
@@ -225,6 +174,35 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 						["rank"] = 52,
 						["pointsRemaining"] = 92263505,
+					},
+				},
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
+				["ArtifactKnowledgeMultiplier"] = 3727501,
+				["Specializations"] = {
+					13719, -- [1]
+					15317, -- [2]
+					16279, -- [3]
+				},
+				["lastUpdate"] = 1511749483,
+				["Class"] = "HUNTER",
+				["ArtifactKnowledge"] = 53,
+				["Artifacts"] = {
+					["Talonclaw, Spear of the Wild Gods"] = {
+						["pointsRemaining"] = 101004970,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+					["Titanstrike"] = {
+						["tier"] = 2,
+						["rank"] = 57,
+						["pointsRemaining"] = 8126651965,
+					},
+					["Thas'dorah, Legacy of the Windrunners"] = {
+						["pointsRemaining"] = 529344710,
+						["rank"] = 52,
+						["tier"] = 2,
 					},
 				},
 			},
@@ -264,32 +242,32 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["ArtifactKnowledgeMultiplier"] = 3727501,
+			["Default.Proudmoore.Praerend"] = {
+				["EquippedArtifact"] = "Scale of the Earth-Warder",
+				["ArtifactKnowledgeMultiplier"] = 4846001,
 				["Specializations"] = {
-					13719, -- [1]
-					15317, -- [2]
-					16279, -- [3]
+					5533, -- [1]
+					12254, -- [2]
+					10713, -- [3]
 				},
-				["lastUpdate"] = 1511749483,
-				["Class"] = "HUNTER",
-				["ArtifactKnowledge"] = 53,
+				["lastUpdate"] = 1512031940,
+				["Class"] = "WARRIOR",
+				["ArtifactKnowledge"] = 54,
 				["Artifacts"] = {
-					["Talonclaw, Spear of the Wild Gods"] = {
-						["pointsRemaining"] = 101004970,
-						["rank"] = 52,
+					["Scale of the Earth-Warder"] = {
 						["tier"] = 2,
+						["rank"] = 65,
+						["pointsRemaining"] = 3752122235,
 					},
-					["Titanstrike"] = {
+					["Strom'kar, the Warbreaker"] = {
+						["pointsRemaining"] = 446414620,
 						["tier"] = 2,
-						["rank"] = 57,
-						["pointsRemaining"] = 8126651965,
-					},
-					["Thas'dorah, Legacy of the Windrunners"] = {
-						["pointsRemaining"] = 529344710,
 						["rank"] = 52,
+					},
+					["Warswords of the Valarjar"] = {
+						["pointsRemaining"] = 755035520,
 						["tier"] = 2,
+						["rank"] = 52,
 					},
 				},
 			},
@@ -342,50 +320,72 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1511749168,
+				["lastUpdate"] = 1512030429,
 				["Specializations"] = {
 					14229, -- [1]
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["ArtifactKnowledge"] = 53,
-				["ArtifactKnowledgeMultiplier"] = 3727501,
+				["ArtifactKnowledge"] = 54,
+				["ArtifactKnowledgeMultiplier"] = 4846001,
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607740,
+			["Default.Proudmoore.Morifa"] = {
+				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
+				["ArtifactKnowledgeMultiplier"] = 4846001,
 				["Specializations"] = {
-					[3] = 487,
+					7670, -- [1]
+					6582, -- [2]
+					6646, -- [3]
 				},
-				["Class"] = "ROGUE",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Scale of the Earth-Warder",
-				["ArtifactKnowledgeMultiplier"] = 3727501,
-				["Specializations"] = {
-					5533, -- [1]
-					12254, -- [2]
-					10713, -- [3]
-				},
-				["lastUpdate"] = 1511749000,
-				["Class"] = "WARRIOR",
-				["ArtifactKnowledge"] = 53,
+				["lastUpdate"] = 1512030371,
+				["Class"] = "MAGE",
+				["ArtifactKnowledge"] = 54,
 				["Artifacts"] = {
-					["Scale of the Earth-Warder"] = {
+					["Ebonchill, Greatstaff of Alodi"] = {
 						["tier"] = 2,
-						["rank"] = 64,
-						["pointsRemaining"] = 523568335,
+						["rank"] = 63,
+						["pointsRemaining"] = 6576913200,
 					},
-					["Strom'kar, the Warbreaker"] = {
-						["pointsRemaining"] = 446414620,
+					["Felo'melorn"] = {
+						["pointsRemaining"] = 18542495,
+						["rank"] = 54,
 						["tier"] = 2,
-						["rank"] = 52,
 					},
-					["Warswords of the Valarjar"] = {
-						["pointsRemaining"] = 755035520,
-						["tier"] = 2,
+					["Aluneth, Greatstaff of the Magna"] = {
+						["pointsRemaining"] = 148281120,
 						["rank"] = 52,
+						["tier"] = 2,
 					},
 				},
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
+				["Artifacts"] = {
+					["Sheilun, Staff of the Mists"] = {
+						["pointsRemaining"] = 93748020,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+					["Fu Zan, the Wanderer's Companion"] = {
+						["pointsRemaining"] = 2978165310,
+						["rank"] = 55,
+						["tier"] = 2,
+					},
+					["Fists of the Heavens"] = {
+						["pointsRemaining"] = 115143570,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "MONK",
+				["lastUpdate"] = 1511749702,
+				["Specializations"] = {
+					7646, -- [1]
+					10709, -- [2]
+					11758, -- [3]
+				},
+				["ArtifactKnowledge"] = 53,
+				["ArtifactKnowledgeMultiplier"] = 3727501,
 			},
 		},
 	},

@@ -53,7 +53,6 @@ local function CreatePluginFrames()
 	local options_slider_template = framework:GetTemplate ("slider", "OPTIONS_SLIDER_TEMPLATE")
 	local options_button_template = framework:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 	
-	
 	framework.button_templates ["ADL_BUTTON_TEMPLATE"] = {
 		backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
 		backdropcolor = {.3, .3, .3, .9},
@@ -319,9 +318,19 @@ local function CreatePluginFrames()
 		end
 	end
 	
+	function TimeLine.RefreshWindow()
+		--> refresh it
+		TimeLine:Refresh()
+		
+		--> refresh segments dropdown
+		TimeLine:ScheduleTimer ("DelaySegmentRefresh", 2)
+	
+		return true
+	end
+	
 	--> user clicked on button, need open or close window
 	function TimeLine:OpenWindow()
-		if (TimeLine.open) then
+		if (TimeLine.Frame:IsShown()) then
 			return TimeLine:CloseWindow()
 		else
 			TimeLine.open = true
@@ -333,12 +342,14 @@ local function CreatePluginFrames()
 		TimeLine:ScheduleTimer ("DelaySegmentRefresh", 2)
 		
 		--> show
-		TimeLineFrame:Show()
+		--TimeLineFrame:Show()
+		DetailsPluginContainerWindow.OpenPlugin (TimeLine)
 		return true
 	end
 	
 	function TimeLine:CloseWindow()
-		TimeLineFrame:Hide()
+		--TimeLineFrame:Hide()
+		DetailsPluginContainerWindow.ClosePlugin()
 		TimeLine.open = false
 		return true
 	end
@@ -368,6 +379,7 @@ local function CreatePluginFrames()
 	
 	TimeLineFrame:SetSize (TimeLineFrame.Width, TimeLineFrame.Height)
 	
+	--[=
 	TimeLineFrame:EnableMouse (true)
 	TimeLineFrame:SetResizable (false)
 	TimeLineFrame:SetMovable (true)
@@ -396,13 +408,23 @@ local function CreatePluginFrames()
 					end)
 	
 	--
+	--]=]
+	
 	TimeLineFrame:SetBackdrop (_detalhes.PluginDefaults and _detalhes.PluginDefaults.Backdrop or {bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16,
 	edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1,
 	insets = {left = 1, right = 1, top = 1, bottom = 1}})
 	
 	TimeLineFrame:SetBackdropColor (unpack (_detalhes.PluginDefaults and _detalhes.PluginDefaults.BackdropColor or {0, 0, 0, .6}))
-	
 	TimeLineFrame:SetBackdropBorderColor (unpack (_detalhes.PluginDefaults and _detalhes.PluginDefaults.BackdropBorderColor or {0, 0, 0, 1}))
+	
+	TimeLineFrame.bg1 = TimeLineFrame:CreateTexture (nil, "background")
+	TimeLineFrame.bg1:SetTexture ([[Interface\AddOns\Details\images\background]], true)
+	TimeLineFrame.bg1:SetAlpha (0.7)
+	TimeLineFrame.bg1:SetVertexColor (0.27, 0.27, 0.27)
+	TimeLineFrame.bg1:SetVertTile (true)
+	TimeLineFrame.bg1:SetHorizTile (true)
+	TimeLineFrame.bg1:SetAllPoints()	
+	
 	--
 	
 	local bottom_texture = DetailsFrameWork:NewImage (TimeLineFrame, nil, TimeLineFrame.Width-4, 25, "background", nil, nil, "$parentBottomTexture")
@@ -1406,7 +1428,7 @@ function TimeLine:OnEvent (_, event, ...)
 				--> create widgets
 				CreatePluginFrames()
 
-				local MINIMAL_DETAILS_VERSION_REQUIRED = 76
+				local MINIMAL_DETAILS_VERSION_REQUIRED = 128
 				
 				local db = DetailsTimeLineDB
 				
@@ -1471,6 +1493,10 @@ function TimeLine:OnEvent (_, event, ...)
 				TimeLine:RefreshBackgroundColor()
 				TimeLine:UpdateShowSpellIconState()
 				
+				--> embed the plugin into the plugin window
+				if (DetailsPluginContainerWindow) then
+					DetailsPluginContainerWindow.EmbedPlugin (TimeLine, TimeLine.Frame)
+				end
 			end
 		end
 	end

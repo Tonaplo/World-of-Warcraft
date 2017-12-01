@@ -88,9 +88,15 @@ do
 		insets = {left = 1, right = 1, top = 1, bottom = 1}})
 		
 		f:SetBackdropColor (unpack (_detalhes.PluginDefaults and _detalhes.PluginDefaults.BackdropColor or {0, 0, 0, .6}))
-		
 		f:SetBackdropBorderColor (unpack (_detalhes.PluginDefaults and _detalhes.PluginDefaults.BackdropBorderColor or {0, 0, 0, 1}))		
 		
+		f.bg1 = f:CreateTexture (nil, "background")
+		f.bg1:SetTexture ([[Interface\AddOns\Details\images\background]], true)
+		f.bg1:SetAlpha (0.7)
+		f.bg1:SetVertexColor (0.27, 0.27, 0.27)
+		f.bg1:SetVertTile (true)
+		f.bg1:SetHorizTile (true)
+		f.bg1:SetAllPoints()
 
 		--local title = framework:NewLabel (f, nil, "$parentTitle", nil, "Advanced Death Logs", nil, 20, "yellow")
 		--title:SetPoint (12, -13)
@@ -704,33 +710,37 @@ do
 		endurance_frame:SetPoint ("topleft", enduranceFrameMenuAnchor, "topleft", 170, -45)
 		
 		endurance_frame:SetSize (718, 370)
-		endurance_frame:EnableMouse (true)
 		endurance_frame:SetResizable (false)
 		endurance_frame:SetMovable (true)
-		endurance_frame:SetScript ("OnMouseDown", 
-						function (self, botao)
-							if (botao == "LeftButton") then
-								if (f.isMoving) then
-									return
-								end
-								f:StartMoving()
-								f.isMoving = true
-							elseif (botao == "RightButton") then
-								if (f.isMoving) then
-									return
-								end
-								DeathGraphs:CloseWindow()
-							end
-						end)
-						
-		endurance_frame:SetScript ("OnMouseUp", 
-						function (self)
-							if (f.isMoving) then
-								f:StopMovingOrSizing()
-								f.isMoving = false
-							end
-						end)
 		
+		if (not DetailsPluginContainerWindow) then
+			endurance_frame:EnableMouse (true)
+			endurance_frame:SetScript ("OnMouseDown", 
+							function (self, botao)
+								if (botao == "LeftButton") then
+									if (f.isMoving) then
+										return
+									end
+									f:StartMoving()
+									f.isMoving = true
+								elseif (botao == "RightButton") then
+									if (f.isMoving) then
+										return
+									end
+									DeathGraphs:CloseWindow()
+								end
+							end)
+							
+			endurance_frame:SetScript ("OnMouseUp", 
+							function (self)
+								if (f.isMoving) then
+									f:StopMovingOrSizing()
+									f.isMoving = false
+								end
+							end)
+		else
+			endurance_frame:EnableMouse (false)
+		end
 		--endurance_frame:SetBackdrop ({bgFile = "Interface\\AddOns\\Details\\images\\background", tile = true, tileSize = 16,
 		--edgeFile=[[Interface\AddOns\Details\images\border_2]], edgeSize=16,
 		--insets = {left = 0, right = 0, top = 0, bottom = 0}})

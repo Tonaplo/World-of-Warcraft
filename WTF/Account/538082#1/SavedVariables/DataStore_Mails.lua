@@ -26,12 +26,12 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/11/26 18:26",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1511838207,
-				["lastVisitDate"] = "2017/11/27 19:03",
+				["lastUpdate"] = 1512112810,
+				["lastVisitDate"] = "2017/11/30 23:20",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1511749506,
-				["lastVisitDate"] = "2017/11/26 18:25",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1511749654,
+				["lastVisitDate"] = "2017/11/26 18:27",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1511749408,
@@ -40,6 +40,25 @@ DataStore_MailsDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1511749093,
 				["lastVisitDate"] = "2017/11/26 18:18",
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1511749158,
+				["Mails"] = {
+					{
+						["sender"] = "Mallusof",
+						["itemID"] = 153155,
+						["link"] = "|cff0070dd|Hitem:153155::::::::110:257::11::::|h[Unsullied Plate Helmet]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1512112808,
+						["icon"] = 359500,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2017/11/26 18:19",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1511749506,
+				["lastVisitDate"] = "2017/11/26 18:25",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427640,
@@ -57,21 +76,13 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2017/11/23 01:00",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1511749654,
-				["lastVisitDate"] = "2017/11/26 18:27",
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1511749158,
-				["lastVisitDate"] = "2017/11/26 18:19",
-			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1511749299,
 				["lastVisitDate"] = "2017/11/26 18:21",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1511748906,
-				["lastVisitDate"] = "2017/11/26 18:15",
+				["lastUpdate"] = 1512031875,
+				["lastVisitDate"] = "2017/11/30 00:51",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1511749464,
@@ -87,6 +98,17 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1511749348,
+				["Mails"] = {
+					{
+						["sender"] = "Mallusof",
+						["itemID"] = 153135,
+						["link"] = "|cff0070dd|Hitem:153135::::::::110:257::::::|h[Unsullied Cloth Robes]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1512112738,
+						["icon"] = 422801,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
 				["lastVisitDate"] = "2017/11/26 18:22",
 			},
 		},

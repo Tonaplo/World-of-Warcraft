@@ -1,10 +1,10 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -15,16 +15,16 @@ HandyNotesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["profiles"] = {
-		["Brity - Steamwheedle Cartel"] = {
+		["Amranar - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
@@ -46,16 +46,16 @@ HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Rahran - Proudmoore"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -66,16 +66,16 @@ HandyNotes_HandyNotesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["profiles"] = {
-		["Brity - Steamwheedle Cartel"] = {
+		["Amranar - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
@@ -97,7 +97,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Rahran - Proudmoore"] = {
 		},
 	},
 }

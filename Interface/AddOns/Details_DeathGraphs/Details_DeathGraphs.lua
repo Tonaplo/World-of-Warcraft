@@ -29,6 +29,24 @@ local function CreatePluginFunctions()
 		end
 	end
 
+	function DeathGraphs.RefreshWindow()
+		if (not DeathGraphs.frames_built) then
+			_detalhes.DeathGraphsWindowBuilder (DeathGraphs)
+			_detalhes.DeathGraphsWindowBuilder = nil
+			DeathGraphs.frames_built = true
+			
+			local current_segment = DeathGraphs:GetCurrentCombat()
+			if (current_segment and current_segment.is_boss and current_segment.is_boss.diff and current_segment.is_boss.id) then
+				DeathGraphs.db.last_boss = DeathGraphs.last_encounter_hash or ("" .. current_segment.is_boss.id .. current_segment.is_boss.diff)
+			end
+			
+			DeathGraphs.db.showing_type = 3
+		end
+
+		DeathGraphs:Refresh()
+		
+	end
+	
 	function DeathGraphs:OpenWindow()
 		if (not DeathGraphs.frames_built) then
 			_detalhes.DeathGraphsWindowBuilder (DeathGraphs)
@@ -44,7 +62,9 @@ local function CreatePluginFunctions()
 		end
 
 		DeathGraphs:Refresh()
-		DeathGraphsFrame:Show()
+		
+		--DeathGraphsFrame:Show()
+		DetailsPluginContainerWindow.OpenPlugin (DeathGraphs)
 	end
 	
 	function DeathGraphs:CloseWindow()
@@ -728,7 +748,7 @@ function DeathGraphs:OnEvent (_, event, ...)
 				CreatePluginFunctions()
 
 				--> core version required
-				local MINIMAL_DETAILS_VERSION_REQUIRED = 75
+				local MINIMAL_DETAILS_VERSION_REQUIRED = 128
 				
 				local defaults = {
 					show_icon = 1,
@@ -766,6 +786,11 @@ function DeathGraphs:OnEvent (_, event, ...)
 				if (not DeathGraphs.db.v1) then
 					DeathGraphs.db.v1 = true
 					wipe (DeathGraphsDBGraph)
+				end
+				
+				--> embed the plugin into the plugin window
+				if (DetailsPluginContainerWindow) then
+					DetailsPluginContainerWindow.EmbedPlugin (DeathGraphs, DeathGraphs.Frame)
 				end
 
 			end

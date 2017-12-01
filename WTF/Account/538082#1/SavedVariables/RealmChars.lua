@@ -56,14 +56,14 @@ RCDatabase = {
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 902.375,
+				["itemLevelEquipped"] = 909.125,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 909.125,
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["itemLevelOverall"] = 902.375,
+				["firstProf"] = "Blacksmithing",
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -172,11 +172,11 @@ RCDatabase = {
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 935.125,
+				["itemLevelEquipped"] = 942.6875,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 943.0625,
+				["itemLevelOverall"] = 946.4375,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
 				["firstProf"] = "Tailoring",

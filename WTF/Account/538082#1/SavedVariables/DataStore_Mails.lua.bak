@@ -26,8 +26,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/11/26 18:26",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1511729718,
-				["lastVisitDate"] = "2017/11/26 12:55",
+				["lastUpdate"] = 1512107042,
+				["lastVisitDate"] = "2017/11/30 21:44",
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1511749348,
@@ -46,24 +46,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/11/26 18:28",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1511748906,
-				["lastVisitDate"] = "2017/11/26 18:15",
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1511749158,
-				["lastVisitDate"] = "2017/11/26 18:19",
-			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1511749299,
-				["lastVisitDate"] = "2017/11/26 18:21",
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1511749654,
-				["lastVisitDate"] = "2017/11/26 18:27",
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1511749464,
-				["lastVisitDate"] = "2017/11/26 18:24",
+				["lastUpdate"] = 1512031875,
+				["lastVisitDate"] = "2017/11/30 00:51",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427640,
@@ -81,13 +65,29 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2017/11/23 01:00",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1511749093,
-				["lastVisitDate"] = "2017/11/26 18:18",
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1511749299,
+				["lastVisitDate"] = "2017/11/26 18:21",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1511749506,
 				["lastVisitDate"] = "2017/11/26 18:25",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1511749464,
+				["lastVisitDate"] = "2017/11/26 18:24",
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1511749158,
+				["lastVisitDate"] = "2017/11/26 18:19",
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1511749093,
+				["lastVisitDate"] = "2017/11/26 18:18",
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1511749654,
+				["lastVisitDate"] = "2017/11/26 18:27",
 			},
 		},
 	},

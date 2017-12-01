@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 7.3.27 (22nd November 2017, www.leatrix.com)
+-- 	Leatrix Plus 7.3.28 (29th November 2017, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "7.3.27"
+	LeaPlusLC["AddonVer"] = "7.3.28"
 
 ----------------------------------------------------------------------
 --	L00: Leatrix Plus
@@ -4113,6 +4113,18 @@
 				{category = "ShowSuramarPortals"	, name = L["The Waning Crescent"]			, continent = 1220	, zoneID = 1033		, x = 433		, y = 4007	, texture = ptTex		, desc = L["Portal"], reqQuest = 42487, remQuest = 38649},
 				{category = "ShowSuramarPortals"	, name = L["Twilight Vineyards"]			, continent = 1220	, zoneID = 1033		, x = 1209		, y = 3105	, texture = ptTex		, desc = L["Portal"], reqQuest = 44084, remQuest = nil},
 
+				-- Portals: Stormshield (Ashran)
+				{category = "ShowSuramarPortals"	, name = L["Ironforge"]						, continent = 1116	, zoneID = 1009		, x = 3675		, y = -3979	, texture = ptTex		, desc = L["Portal"]},
+				{category = "ShowSuramarPortals"	, name = L["Darnassus"]						, continent = 1116	, zoneID = 1009		, x = 3614		, y = -4062	, texture = ptTex		, desc = L["Portal"]},
+				{category = "ShowSuramarPortals"	, name = L["Stormwind"]						, continent = 1116	, zoneID = 1009		, x = 3735		, y = -4043	, texture = ptTex		, desc = L["Portal"]},
+				{category = "ShowSuramarPortals"	, name = L["Lion's Watch"]					, continent = 1116	, zoneID = 1009		, x = 3720		, y = -3875	, texture = ptTex		, desc = L["Portal"], reqQuest = 38445},
+
+				-- Portals: Warspear (Ashran)
+				{category = "ShowSuramarPortals"	, name = L["Orgrimmar"]						, continent = 1116	, zoneID = 1011		, x = 5272		, y = -4053	, texture = ptTex		, desc = L["Portal"]},
+				{category = "ShowSuramarPortals"	, name = L["Undercity"]						, continent = 1116	, zoneID = 1011		, x = 5413		, y = -4096	, texture = ptTex		, desc = L["Portal"]},
+				{category = "ShowSuramarPortals"	, name = L["Thunder Bluff"]					, continent = 1116	, zoneID = 1011		, x = 5412		, y = -3989	, texture = ptTex		, desc = L["Portal"]},
+				{category = "ShowSuramarPortals"	, name = L["Vol'mar"]						, continent = 1116	, zoneID = 1011		, x = 5308		, y = -4015	, texture = ptTex		, desc = L["Portal"], reqQuest = 37935},
+
 				-- Dungeons: Eastern Kingdoms
 				{category = "ShowDungeonLocs"		, name = L["Baradin Hold"]					, linkID = 752		, continent = 732	, zoneID = 708		, x = -1204		, y = 1079	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["Blackrock Caverns"]				, linkID = 753		, continent = 0		, zoneID = 28		, x = -7615		, y = -1242	, texture = dnTex		, desc = L["Dungeon"], level = 14},
@@ -4196,8 +4208,8 @@
 				-- Dungeons: Caverns of Time
 				{category = "ShowDungeonLocs"		, name = L["Dragon Soul"]					, linkID = 824		, continent = 1		, zoneID = 161		, x = -8267		, y = -4514	, texture = rdTex		, desc = L["Raid"], level = 18},
 				{category = "ShowDungeonLocs"		, name = L["End Time"]						, linkID = 820		, continent = 1		, zoneID = 161		, x = -8293		, y = -4458	, texture = dnTex		, desc = L["Dungeon"], level = 18},
-				{category = "ShowDungeonLocs"		, name = L["Hyjal Summit"]					, linkID = 775		, continent = 1		, zoneID = 161		, x = -8171		, y = -4168	, texture = rdTex		, desc = L["Raid"], level = 18},
 				{category = "ShowDungeonLocs"		, name = L["Hour of Twilight"]				, linkID = 819		, continent = 1		, zoneID = 161		, x = -8292		, y = -4584	, texture = dnTex		, desc = L["Dungeon"], level = 18},
+				{category = "ShowDungeonLocs"		, name = L["Hyjal Summit"]					, linkID = 775		, continent = 1		, zoneID = 161		, x = -8171		, y = -4168	, texture = rdTex		, desc = L["Raid"], level = 18},
 				{category = "ShowDungeonLocs"		, name = L["Old Hillsbrad Foothills"]		, linkID = 734		, continent = 1		, zoneID = 161		, x = -8348		, y = -4060	, texture = dnTex		, desc = L["Dungeon"], level = 18},
 				{category = "ShowDungeonLocs"		, name = L["The Black Morass"]				, linkID = 733		, continent = 1		, zoneID = 161		, x = -8752		, y = -4194	, texture = dnTex		, desc = L["Dungeon"], level = 18},
 				{category = "ShowDungeonLocs"		, name = L["The Culling of Stratholme"]		, linkID = 521		, continent = 1		, zoneID = 161		, x = -8755		, y = -4454	, texture = dnTex		, desc = L["Dungeon"], level = 18},
@@ -4209,14 +4221,14 @@
 				{category = "ShowDungeonLocs"		, name = L["Coilfang Reservoir"]			, linkID = nil		, continent = 530	, zoneID = 467		, x = 562		, y = 6942	, texture = rdTex		, desc = L["Serpentshrine Cavern"] .. ", " .. L["Slave Pens"] .. ",|n" .. L["Steamvault"] .. ", " .. L["Underbog"]},
 				{category = "ShowDungeonLocs"		, name = L["Gruul's Lair"]					, linkID = 776		, continent = 530	, zoneID = 475		, x = 3530		, y = 5121	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["Hellfire Ramparts"]				, linkID = 797		, continent = 530	, zoneID = 465		, x = -363		, y = 3078	, texture = dnTex		, desc = L["Dungeon"]},
-				{category = "ShowDungeonLocs"		, name = L["Mana-Tombs"]					, linkID = 732		, continent = 530	, zoneID = 478		, x = -3168		, y = 4943	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["Magtheridon's Lair"]			, linkID = 779		, continent = 530	, zoneID = 465		, x = -339		, y = 3132	, texture = rdTex		, desc = L["Raid"]},
+				{category = "ShowDungeonLocs"		, name = L["Mana-Tombs"]					, linkID = 732		, continent = 530	, zoneID = 478		, x = -3168		, y = 4943	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["Sethekk Halls"]					, linkID = 723		, continent = 530	, zoneID = 478		, x = -3362		, y = 4750	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["Shadow Labyrinth"]				, linkID = 724		, continent = 530	, zoneID = 478		, x = -3554		, y = 4943	, texture = dnTex		, desc = L["Dungeon"]},
-				{category = "ShowDungeonLocs"		, name = L["The Eye"]						, linkID = 782		, continent = 530	, zoneID = 479		, x = 3087		, y = 1379	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["The Arcatraz"]					, linkID = 731		, continent = 530	, zoneID = 479		, x = 3309		, y = 1337	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["The Blood Furnace"]				, linkID = 725		, continent = 530	, zoneID = 465		, x = -301		, y = 3160	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["The Botanica"]					, linkID = 729		, continent = 530	, zoneID = 479		, x = 3409		, y = 1486	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["The Eye"]						, linkID = 782		, continent = 530	, zoneID = 479		, x = 3087		, y = 1379	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["The Mechanar"]					, linkID = 730		, continent = 530	, zoneID = 479		, x = 2865		, y = 1549	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["The Shattered Halls"]			, linkID = 710		, continent = 530	, zoneID = 465		, x = -309		, y = 3076	, texture = dnTex		, desc = L["Dungeon"]},
 
@@ -4259,10 +4271,17 @@
 				{category = "ShowDungeonLocs"		, name = L["Throne of Thunder"]				, linkID = 930		, continent = 870	, zoneID = 810		, x = 1926		, y = 4222	, texture = rdTex		, desc = L["Portal"], reqQuest = 32681}, -- Alliance
 				{category = "ShowDungeonLocs"		, name = L["Throne of Thunder"]				, linkID = 930		, continent = 870	, zoneID = 810		, x = 1926		, y = 4222	, texture = rdTex		, desc = L["Portal"], reqQuest = 32680}, -- Horde
 
+				-- Throne of Thunder
+				{category = "ShowDungeonLocs"		, name = L["Eternal Guardian"]				, linkID = nil		, continent = 1098	, zoneID = 930		, x = 6288		, y = 4922	, texture = "Interface\\MINIMAP\\TempleofKotmogu_ball_orange", level = 3},
+				{category = "ShowDungeonLocs"		, name = L["Eternal Guardian"]				, linkID = nil		, continent = 1098	, zoneID = 930		, x = 6110		, y = 4670	, texture = "Interface\\MINIMAP\\TempleofKotmogu_ball_orange", level = 3},
+				{category = "ShowDungeonLocs"		, name = L["Eternal Guardian"]				, linkID = nil		, continent = 1098	, zoneID = 930		, x = 6495		, y = 4741	, texture = "Interface\\MINIMAP\\TempleofKotmogu_ball_orange", level = 3},
+
 				-- Dungeons: Draenor
 				{category = "ShowDungeonLocs"		, name = L["Auchindoun"]					, linkID = 984		, continent = 1116	, zoneID = 946		, x = 1489		, y = 3079	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Blackrock Foundry"]				, linkID = 988		, continent = 1116	, zoneID = 949		, x = 8029		, y = 870	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["Bloodmaul Slag Mines"]			, linkID = 964		, continent = 1116	, zoneID = 941		, x = 7266		, y = 4458	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["Grimrail Depot"]				, linkID = 993		, continent = 1116	, zoneID = 949		, x = 7840		, y = 551	, texture = dnTex		, desc = L["Dungeon"]},
+				{category = "ShowDungeonLocs"		, name = L["Hellfire Citadel"]				, linkID = 1026		, continent = 1116	, zoneID = 945		, x = 4058		, y = -683	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["Highmaul"]						, linkID = 994		, continent = 1116	, zoneID = 950		, x = 3471		, y = 7434	, texture = rdTex		, desc = L["Raid"]},
 				{category = "ShowDungeonLocs"		, name = L["Iron Docks"]					, linkID = 987		, continent = 1116	, zoneID = 949		, x = 8854		, y = 1359	, texture = dnTex		, desc = L["Dungeon"]},
 				{category = "ShowDungeonLocs"		, name = L["Shadowmoon Burial Grounds"]		, linkID = 969		, continent = 1116	, zoneID = 947		, x = 766		, y = 128	, texture = dnTex		, desc = L["Dungeon"]},
@@ -4309,7 +4328,7 @@
 								button:SetScript("OnClick", function()
 									if v.linkID then
 										local id, level = strsplit(".", v.linkID)
-										SetMapByID(v.linkID)
+										SetMapByID(id)
 										if level then SetDungeonMapLevel(level) end
 									end
 								end)
@@ -4321,7 +4340,6 @@
 							local void, locLeft, locTop, locRight, locBottom = GetCurrentMapZone()
 							if locLeft and locTop and locRight and locBottom then
 								-- Show or hide POI button
-								local void, void, void, isMicroDungeon = GetMapInfo()
 								local currLevel, minY, minX, maxY, maxX = GetCurrentMapDungeonLevel()
 								if LeaPlusLC[v.category] == "On" and (not v.reqQuest or IsQuestFlaggedCompleted(v.reqQuest)) and (not v.remQuest or not IsQuestFlaggedCompleted(v.remQuest)) and (not v.level and currLevel == 0 or v.level and v.level == currLevel) then
 									if minY and minX and maxY and maxX then
@@ -4358,7 +4376,7 @@
 			LeaPlusLC:MakeCB(MapPanel, "ShowRevealBox", "Show reveal checkbox at the top of the map", 16, -112, false, "If checked, a checkbox will be shown at the top of the map which will allow you to toggle unexplored areas directly from the map frame.")
 			LeaPlusLC:MakeCB(MapPanel, "WorldMapCoords", "Show cursor coordinates at the top of the map", 16, -132, false, "If checked, cursor coordinates will be shown at the top of the map.")
 			LeaPlusLC:MakeCB(MapPanel, "FadeMap", "Fade windowed map while moving", 16, -152, false, "If checked, the windowed map will fade while your character is moving and the cursor is not over the map.")
-			LeaPlusLC:MakeCB(MapPanel, "ShowSuramarPortals", "Show portal destinations for Suramar", 16, -172, false, "If checked, portal destinations for Suramar (Broken Isles) will be shown.")
+			LeaPlusLC:MakeCB(MapPanel, "ShowSuramarPortals", "Show portals for Suramar and Ashran", 16, -172, false, "If checked, portals for Suramar (Broken Isles) and Ashran (Draenor) will be shown.")
 			LeaPlusLC:MakeCB(MapPanel, "ShowDungeonLocs", "Show older dungeon and raid locations", 16, -192, false, "If checked, dungeon and raid locations will be shown for all game expansions up to and including Warlords of Draenor.|n|nLegion dungeon and raid locations are managed by the default user interface.")
 
 			-- Help button hidden
@@ -7150,20 +7168,6 @@
 				if MovieFrame:IsShown() and MovieFrame.CloseDialog and MovieFrame.CloseDialog.ConfirmButton then
 					MovieFrame.CloseDialog.ConfirmButton:Click()
 				end
-			end
-		end)
-
-		-- Allow mouse clicks to cancel cinematic without confirmation
-		CinematicFrame:EnableMouse(true)
-		CinematicFrame:HookScript("OnMouseUp", function()
-			if CinematicFrame:IsShown() and CinematicFrame.closeDialog and CinematicFrameCloseDialogConfirmButton then
-				CinematicFrameCloseDialogConfirmButton:Click()
-			end
-		end)
-		MovieFrame:EnableMouse(true)
-		MovieFrame:HookScript("OnMouseUp", function()
-			if MovieFrame:IsShown() and MovieFrame.CloseDialog and MovieFrame.CloseDialog.ConfirmButton then
-				MovieFrame.CloseDialog.ConfirmButton:Click()
 			end
 		end)
 
@@ -10261,14 +10265,14 @@
 				LeaPlusLC:Print("Level: |cffffffff" .. GetCurrentMapDungeonLevel())
 				LeaPlusLC:Print("Dungeon: |cffffffff" .. isMicroDungeon)
 				return
-			elseif str == "mplay" then
+			elseif str == "maploc" then
 				-- Show the world coordinates for a movable POI button
 				if LeaPlusLC.PlayWithTheMap then
-					LeaPlusLC:Print("It's already loaded.  Reload UI to unload it.")
+					LeaPlusLC:Print("Maploc is already loaded.  Reload UI to unload it.")
 					return
 				end
 				if GetCVar("miniWorldMap") == "0" then
-					LeaPlusLC:Print("You need a small map window for this!")
+					LeaPlusLC:Print("You need a windowed map for Maploc.")
 					return
 				end
 				-- Declare locals
@@ -10299,8 +10303,8 @@
 				button.HighlightTexture = button:CreateTexture("BoogleHighlightTexture", "HIGHLIGHT")
 				button:SetScript("OnEnter", WorldMapPOI_OnEnter)
 				button:SetScript("OnLeave", WorldMapPOI_OnLeave)
-				button.name = "Test Button"
-				button.description = "An interesting description"
+				button.name = "Maploc"
+				button.description = "Show world coordinates for a movable map object"
 				button.poiID = 0
 				-- Function to position the POI
 				local function moveIt()
@@ -10323,34 +10327,117 @@
 				local resetBtn = LeaPlusLC:CreateButton("PlayMapResetBtn", WorldMapFrame, "RESET", "BOTTOMRIGHT", 72, 31, 60, 25, true, ""); resetBtn:SetScale(2); resetBtn:Hide(); resetBtn:Show()
 				resetBtn:SetScript("OnClick", function()
 					local void, locLeft, locTop, locRight, locBottom = GetCurrentMapZone()
-					x = locTop - ((locTop - locBottom) / 2)
-					y = locLeft - ((locLeft - locRight) / 2)
-					moveIt()
-					SetLocation()
+					if locLeft and locTop and locRight and locBottom then
+						local currLevel, minY, minX, maxY, maxX = GetCurrentMapDungeonLevel()
+						if minY and minX and maxY and maxX then
+							x = maxX - ((maxX - minX) / 2)
+							y = maxY - ((maxY - minY) / 2)
+							moveIt()
+							SetLocation()
+						else
+							x = locTop - ((locTop - locBottom) / 2)
+							y = locLeft - ((locLeft - locRight) / 2)
+							moveIt()
+							SetLocation()
+						end
+					end
+				end)
+				-- Reset position when map changes zone or dungeon
+				local mapFileName1, textureHeight1, textureWidth1, isMicroDungeon1, microDungeonMapName1 = GetMapInfo()
+				local floorLevel1 = GetCurrentMapDungeonLevel()
+				hooksecurefunc("WorldMapFrame_Update", function()
+					local mapFileName2, textureHeight2, textureWidth2, isMicroDungeon2, microDungeonMapName2 = GetMapInfo()
+					local floorLevel2 = GetCurrentMapDungeonLevel()
+					if mapFileName1 ~= mapFileName2 or microDungeonMapName1 ~= microDungeonMapName2 or floorLevel1 ~= floorLevel2 then
+						resetBtn:Click()
+						mapFileName1 = mapFileName2
+						microDungeonMapName1 = microDungeonMapName2
+						floorLevel1 = floorLevel2
+					end
 				end)
 				-- Reset position on startup
 				resetBtn:Click()
+				-- Set position when zooming
+				hooksecurefunc("WorldMapFrame_ResetPOIHitTranslations", moveIt)
 				-- Create help button
 				local helpBtn = LeaPlusLC:CreateButton("PlayMapHelpBtn", WorldMapFrame, "HELP", "BOTTOMRIGHT", 72, 0, 60, 25, true, ""); helpBtn:SetScale(2); helpBtn:Hide(); helpBtn:Show()
-				helpBtn.tiptext = "Hold LSHIFT to go a bit faster.|nHold LCTRL to go lightning fast.|nHold LALT to go slow!|nHold RCTRL to go REALLY slow!|nReload your UI to unload."
+				helpBtn.tiptext = "Maploc shows world coordinates for a movable map object.|n|nUse the controls to move the map object.  The object's world coordinates are shown above the map.|n|nHold LSHIFT to go fast.|nHold LALT to go slow.|nHold LCTRL to go REALLY slow.|nReload your UI to exit."
 				helpBtn:SetPushedTextOffset(0, 0)
 				-- Update script for movement of POI
 				textFrame:SetScript("OnUpdate", function()
 					if IsLeftShiftKeyDown() then inc = 100
-					elseif IsLeftControlKeyDown() then inc = 1000
-					elseif IsLeftAltKeyDown() then inc = 1
-					elseif IsRightControlKeyDown() then inc = 0.1 end
+					elseif IsLeftControlKeyDown() then inc = 0.1
+					elseif IsLeftAltKeyDown() then inc = 1 end
 					if IsMouseButtonDown("LeftButton") and upBtn:IsMouseOver() then
-						x = x + inc; SetLocation(); moveIt()
+						-- Up button
+						local void, tLeft, tTop, tRight, tBottom = GetCurrentMapZone()
+						if tLeft and tTop and tRight and tBottom then
+							local tLevel, tminY, tminX, tmaxY, tmaxX = GetCurrentMapDungeonLevel()
+							if tminY and tminX and tmaxY and tmaxX then
+								if x < tmaxX then x = x + inc else x = tmaxX end
+								SetLocation(); moveIt()
+							else
+								if x < tTop then x = x + inc else x = tTop end
+								SetLocation(); moveIt()
+							end
+						end
 					elseif IsMouseButtonDown("LeftButton") and downBtn:IsMouseOver() then
-						x = x - inc; SetLocation(); moveIt()
+						-- Down button
+						local void, tLeft, tTop, tRight, tBottom = GetCurrentMapZone()
+						if tLeft and tTop and tRight and tBottom then
+							local tLevel, tminY, tminX, tmaxY, tmaxX = GetCurrentMapDungeonLevel()
+							if tminY and tminX and tmaxY and tmaxX then
+								if x > tminX then x = x - inc else x = tminX end
+								SetLocation(); moveIt()
+							else
+								if x > tBottom then x = x - inc else x = tBottom end
+								SetLocation(); moveIt()
+							end
+						end
 					elseif IsMouseButtonDown("LeftButton") and leftBtn:IsMouseOver() then
-						y = y + inc; SetLocation(); moveIt()
+						-- Left button
+						local void, tLeft, tTop, tRight, tBottom = GetCurrentMapZone()
+						if tLeft and tTop and tRight and tBottom then
+							local tLevel, tminY, tminX, tmaxY, tmaxX = GetCurrentMapDungeonLevel()
+							if tminY and tminX and tmaxY and tmaxX then
+								if y < tmaxY then y = y + inc else y = tmaxY end
+								SetLocation(); moveIt()
+							else
+								if y < tLeft then y = y + inc else y = tLeft end
+								SetLocation(); moveIt()
+							end
+						end
 					elseif IsMouseButtonDown("LeftButton") and rightBtn:IsMouseOver() then
-						y = y - inc; SetLocation(); moveIt()
+						-- Right button
+						local void, tLeft, tTop, tRight, tBottom = GetCurrentMapZone()
+						if tLeft and tTop and tRight and tBottom then
+							local tLevel, tminY, tminX, tmaxY, tmaxX = GetCurrentMapDungeonLevel()
+							if tminY and tminX and tmaxY and tmaxX then
+								if y > tminY then y = y - inc else y = tminY end
+								SetLocation(); moveIt()
+							else
+								if y > tRight then y = y - inc else y = tRight end
+								SetLocation(); moveIt()
+							end
+						end
 					end
 					inc = 10
 				end)
+				LeaPlusLC:Print("Maploc has been loaded.  Reload your UI to unload it.")
+				if not WorldMapFrame:IsShown() then
+					LeaPlusLC:Print("Open your map to use Maploc.")
+				end
+				return
+			elseif str == "showinst" then
+				-- List instance IDs for currently selected Encounter Journal expansion filter dropdown
+				for i = 1, 5000 do
+					local instanceID, name, description, bgImage, buttonImage, loreImage, dungeonAreaMapID, link = EJ_GetInstanceByIndex(i, false)
+					if instanceID then print(instanceID, name) end
+				end
+				for i = 1, 5000 do
+					local instanceID, name, description, bgImage, buttonImage, loreImage, dungeonAreaMapID, link = EJ_GetInstanceByIndex(i, true)
+					if instanceID then print(instanceID, name) end
+				end
 				return
 			elseif str == "admin" then
 				-- Preset profile (used for testing)

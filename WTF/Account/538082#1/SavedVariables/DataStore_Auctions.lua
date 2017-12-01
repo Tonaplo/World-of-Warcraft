@@ -26,8 +26,20 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2017/10/06 07:53",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1511838195,
-				["lastVisitDate"] = "2017/11/27 19:03",
+				["lastUpdate"] = 1512107033,
+				["lastVisitDate"] = "2017/11/30 21:43",
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1507644539,
+				["lastVisitDate"] = "2017/10/10 07:08",
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1495436421,
+				["lastVisitDate"] = "2017/05/22 00:00",
+			},
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1507644155,
+				["lastVisitDate"] = "2017/10/10 07:02",
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1499035800,
@@ -37,17 +49,9 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1498336322,
 				["lastVisitDate"] = "2017/06/24 13:32",
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1507644539,
-				["lastVisitDate"] = "2017/10/10 07:08",
-			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1507644155,
-				["lastVisitDate"] = "2017/10/10 07:02",
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1495436421,
-				["lastVisitDate"] = "2017/05/22 00:00",
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1512031862,
+				["lastVisitDate"] = "2017/11/30 00:51",
 			},
 		},
 	},

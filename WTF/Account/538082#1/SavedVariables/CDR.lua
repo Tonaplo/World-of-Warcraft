@@ -1,10 +1,10 @@
 
 CDRDatabase = {
 	["profileKeys"] = {
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -15,6 +15,6 @@ CDRDatabase = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 }

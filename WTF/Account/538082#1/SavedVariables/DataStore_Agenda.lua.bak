@@ -23,23 +23,17 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-11-28",
+			["NextWeeklyReset"] = "2017-12-05",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1511749347,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["Calendar"] = {
-					"2017-11-27|19:00|Raid Night!|1|2", -- [1]
-				},
+				["lastUpdate"] = 1512107190,
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|327261092"] = "109610|1511771589|0|0",
-					["Assault on Violet Hold Mythic|675521179"] = "109610|1511771589|0|0",
-					["Ulduar 25 Player|341278512"] = "109610|1511771589|0|1",
-					["The Bastion of Twilight 25 Player (Heroic)|341498814"] = "109610|1511771589|0|1",
+					["Antorus, the Burning Throne Normal|341717547"] = "378832|1512107159|0|1",
 				},
-				["lastUpdate"] = 1511771758,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -66,19 +60,19 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1511749423,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1511749120,
+				["lastUpdate"] = 1512030407,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1511749673,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1511749031,
+				["lastUpdate"] = 1512031954,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1511749458,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1511749199,
+				["lastUpdate"] = 1512030470,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1511749714,
