@@ -130,13 +130,13 @@ do
 			isOnMe = true
 			self:Message(args.spellId, "Personal", "Warning", CL.you:format(args.spellName))
 			self:Say(args.spellId)
-			self:SayCountdown(args.spellId, 3, nil, 2)
+			self:SayCountdown(args.spellId, 5)
 		end
 	end
 end
 
 function mod:FelBombardment(args)
-	self:TargetMessage(args.spellId, args.destName, "Neutral", "Info", nil, nil, true)
+	self:TargetMessage(args.spellId, args.destName, "Urgent", self:Me(args.destGUID) and "Warning" or "Alarm", nil, nil, true) -- Different sound for when tanking/offtanking
 	self:Bar(args.spellId, self:Mythic() and 15.8 or 20.7)
 	if self:Me(args.destGUID) then
 		self:Say(args.spellId)
@@ -171,7 +171,7 @@ function mod:WeaponDeath(args)
 	self:Message(240277, "Positive", "Info", CL.interrupted:format(self:SpellName(240277)))
 	self:StopBar(CL.cast:format(self:SpellName(240277)))
 
-	self:Bar(244969, 10.5) -- Eradication
+	self:Bar(244969, 11) -- Eradication
 	self:Bar(246220, 23.1) -- Fel Bombardment
 
 	if args.mobId == 122778 then -- Annihilator death

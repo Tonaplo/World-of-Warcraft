@@ -10,3 +10,4 @@ Bartender4: disabled
 AutoVendor: disabled
 MythicHelper: enabled
 MythicPlusLoot: disabled
+XLoot: enabled

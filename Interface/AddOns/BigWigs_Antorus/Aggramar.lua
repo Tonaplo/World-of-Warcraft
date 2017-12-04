@@ -18,6 +18,7 @@ local techniqueStarted = 0
 local comboTime = nil
 local foeBreakerCount = 1
 local flameRendCount = 1
+local nextIntermissionSoonWarning = 0
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -91,11 +92,25 @@ function mod:OnEngage()
 	end
 	self:Bar(244693, 5.5) -- Wake of Flame
 	self:Bar(244688, 35) -- Taeshalach Technique
+
+	nextIntermissionSoonWarning = 82 -- happens at 80%
+	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss1")
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
+
+function mod:UNIT_HEALTH_FREQUENT(unit)
+	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
+	if hp < nextIntermissionSoonWarning then
+		self:Message("stages", "Positive", nil, CL.soon:format(CL.intermission), false)
+		nextIntermissionSoonWarning = nextIntermissionSoonWarning - 40
+		if nextIntermissionSoonWarning < 40 then
+			self:UnregisterUnitEvent("UNIT_HEALTH_FREQUENT", unit)
+		end
+	end
+end
 
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, _, spellId)
 	if spellId == 244688 then -- Taeshalach Technique
@@ -143,15 +158,25 @@ function mod:TaeshalachsReach(args)
 end
 
 do
-	local playerList = mod:NewTargetList()
+	local isOnMe, scheduled = nil, nil
+
+	local function warn(self, spellId)
+		if not isOnMe then
+			self:Message(spellId, "Important")
+		end
+		isOnMe = nil
+		scheduled = nil
+	end
+
 	function mod:ScorchingBlaze(args)
 		if self:Me(args.destGUID) then
+			isOnMe = true
+			self:TargetMessage(args.spellId, args.destName, "Important", "Warning")
 			self:Flash(args.spellId)
 			self:Say(args.spellId)
 		end
-		playerList[#playerList+1] = args.destName
-		if #playerList == 1 then
-			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Important", "Warning")
+		if not scheduled then
+			scheduled = self:ScheduleTimer(warn, 0.3, self, args.spellId)
 			if comboTime > GetTime() + 7.3 then
 				self:CDBar(args.spellId, 7.3)
 			end

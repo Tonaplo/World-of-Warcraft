@@ -20,6 +20,7 @@ local realityTearCount = 1
 local collapsingWorldCount = 1
 local felstormBarrageCount = 1
 local playerPlatform = 1 -- 1: Nexus, 2: Xoroth, 3: Rancora, 4: Nathreza
+local nextPortalSoonWarning = 0
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -125,12 +126,29 @@ function mod:OnEngage()
 	self:Bar(243983, 12.7) -- Collapsing World
 	self:Bar(244689, 21.9) -- Transport Portal
 	self:Bar(244000, 29.0) -- Felstorm Barrage
-	self:Berserk(750) -- Heroic PTR
+	self:Berserk(720)
+
+	nextPortalSoonWarning = 92 -- happens at 90%
+	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss1")
 end
 
 --------------------------------------------------------------------------------
 -- Event Handlers
 --
+
+function mod:UNIT_HEALTH_FREQUENT(unit)
+	local hp = UnitHealth(unit) / UnitHealthMax(unit) * 100
+	if hp < nextPortalSoonWarning then
+		local platformName = (hp < 40 and self:SpellName(257942)) or (hp < 70 and self:SpellName(257941)) or self:SpellName(257939)
+		local icon = (hp < 40 and "spell_mage_flameorb_purple") or (hp < 70 and "spell_mage_flameorb_green") or "spell_mage_flameorb"
+		self:Message("stages", "Positive", nil, CL.soon:format(platformName), icon) -- Apocalypse Drive
+		nextPortalSoonWarning = nextPortalSoonWarning - 30
+		if nextPortalSoonWarning < 30 then
+			self:UnregisterUnitEvent("UNIT_HEALTH_FREQUENT", unit)
+		end
+	end
+end
+
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, _, spellId)
 	if spellId == 257939 then -- Gateway: Xoroth
 		self:Message("stages", "Positive", "Long", L.platform_active:format(self:SpellName(257939)), "spell_mage_flameorb") -- Platform: Xoroth
@@ -161,24 +179,24 @@ end
 
 function mod:RealityTear(args)
 	local amount = args.amount or 1
-	self:StackMessage(args.spellId, args.destName, amount, "Urgent", amount > 4 and "Alarm", nil, nil, true) -- Start sound warning at 5+
+	self:StackMessage(args.spellId, args.destName, amount, "Urgent", amount > 1 and "Alarm", nil, nil, true)
 end
 
 function mod:RealityTearSuccess(args)
 	realityTearCount = realityTearCount + 1
-	self:Bar(args.spellId, realityTearCount % 4 == 0 and 14.6 or 12.2)
+	self:Bar(args.spellId, 12.2) -- skips some casts for unknown reason
 end
 
 function mod:CollapsingWorld(args)
 	self:Message(args.spellId, "Important", "Warning")
 	collapsingWorldCount = collapsingWorldCount + 1
-	self:Bar(args.spellId, 32.8) -- XXX See if there is a pattern for delayed casts
+	self:Bar(args.spellId, self:Easy() and 37 or 32.8) -- XXX See if there is a pattern for delayed casts; normal: switches from 37 to 41.5 at some unknown point
 end
 
 function mod:FelstormBarrage(args)
 	self:Message(args.spellId, "Urgent", "Alert")
 	felstormBarrageCount = felstormBarrageCount + 1
-	self:Bar(args.spellId, 32.8) -- XXX See if there is a pattern for delayed casts
+	self:Bar(args.spellId, self:Easy() and 41.5 or 32.8) -- XXX See if there is a pattern for delayed casts; normal: sometimes 37 for the first few
 end
 
 function mod:TransportPortal(args)
@@ -201,7 +219,7 @@ function mod:FlamesofXoroth(args)
 	if self:Interrupter(args.sourceGUID) then
 		self:Message(args.spellId, "Urgent", "Alarm")
 	end
-	self:CDBar(args.spellId, 7.3)
+	self:CDBar(args.spellId, 7.3) -- sometimes 8.5
 end
 
 function mod:Supernova(args)
@@ -241,7 +259,7 @@ end
 function mod:PoisonEssence(args)
 	if self:GetOption("custom_on_filter_platforms") and playerPlatform ~= 3 then return end
 	self:Message(args.spellId, "Important", "Alarm")
-	self:CDBar(args.spellId, 9.5)
+	self:CDBar(args.spellId, 9.7)
 end
 
 function mod:CausticSlime(args)
