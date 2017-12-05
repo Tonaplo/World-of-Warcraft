@@ -58,14 +58,14 @@ DataStore_TalentsDB = {
 					10103, -- [2]
 					6554, -- [3]
 				},
-				["lastUpdate"] = 1512356461,
+				["lastUpdate"] = 1512422767,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 54,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
 						["rank"] = 74,
-						["pointsRemaining"] = 86660661796,
+						["pointsRemaining"] = 130953110646,
 					},
 					["Underlight Angler"] = {
 						["pointsRemaining"] = 250,
@@ -148,35 +148,6 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["EquippedArtifact"] = "The Kingslayers",
-				["ArtifactKnowledgeMultiplier"] = 3727501,
-				["Specializations"] = {
-					6614, -- [1]
-					11223, -- [2]
-					5626, -- [3]
-				},
-				["lastUpdate"] = 1511749641,
-				["Class"] = "ROGUE",
-				["ArtifactKnowledge"] = 53,
-				["Artifacts"] = {
-					["The Kingslayers"] = {
-						["tier"] = 2,
-						["rank"] = 57,
-						["pointsRemaining"] = 2304834570,
-					},
-					["Fangs of the Devourer"] = {
-						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 345543620,
-					},
-					["The Dreadblades"] = {
-						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 92263505,
-					},
-				},
-			},
 			["Default.Proudmoore.Faerand"] = {
 				["EquippedArtifact"] = "Titanstrike",
 				["ArtifactKnowledgeMultiplier"] = 3727501,
@@ -206,12 +177,63 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
+			["Default.Proudmoore.Rahran"] = {
+				["EquippedArtifact"] = "The Kingslayers",
+				["ArtifactKnowledgeMultiplier"] = 3727501,
 				["Specializations"] = {
-					[3] = 0,
+					6614, -- [1]
+					11223, -- [2]
+					5626, -- [3]
 				},
-				["Class"] = "SHAMAN",
+				["lastUpdate"] = 1511749641,
+				["Class"] = "ROGUE",
+				["ArtifactKnowledge"] = 53,
+				["Artifacts"] = {
+					["The Kingslayers"] = {
+						["tier"] = 2,
+						["rank"] = 57,
+						["pointsRemaining"] = 2304834570,
+					},
+					["Fangs of the Devourer"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 345543620,
+					},
+					["The Dreadblades"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 92263505,
+					},
+				},
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["EquippedArtifact"] = "Maw of the Damned",
+				["Artifacts"] = {
+					["Blades of the Fallen Prince"] = {
+						["pointsRemaining"] = 146224605,
+						["rank"] = 53,
+						["tier"] = 2,
+					},
+					["Maw of the Damned"] = {
+						["pointsRemaining"] = 2698096330,
+						["rank"] = 59,
+						["tier"] = 2,
+					},
+					["Apocalypse"] = {
+						["rank"] = 52,
+						["tier"] = 2,
+						["pointsRemaining"] = 218294250,
+					},
+				},
+				["Class"] = "DEATHKNIGHT",
+				["lastUpdate"] = 1512030429,
+				["Specializations"] = {
+					14229, -- [1]
+					5882, -- [2]
+					12123, -- [3]
+				},
+				["ArtifactKnowledge"] = 54,
+				["ArtifactKnowledgeMultiplier"] = 4846001,
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["EquippedArtifact"] = "Truthguard",
@@ -300,63 +322,12 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["EquippedArtifact"] = "Maw of the Damned",
-				["Artifacts"] = {
-					["Blades of the Fallen Prince"] = {
-						["pointsRemaining"] = 146224605,
-						["rank"] = 53,
-						["tier"] = 2,
-					},
-					["Maw of the Damned"] = {
-						["pointsRemaining"] = 2698096330,
-						["rank"] = 59,
-						["tier"] = 2,
-					},
-					["Apocalypse"] = {
-						["rank"] = 52,
-						["tier"] = 2,
-						["pointsRemaining"] = 218294250,
-					},
-				},
-				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1512030429,
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
 				["Specializations"] = {
-					14229, -- [1]
-					5882, -- [2]
-					12123, -- [3]
+					[3] = 0,
 				},
-				["ArtifactKnowledge"] = 54,
-				["ArtifactKnowledgeMultiplier"] = 4846001,
-			},
-			["Default.Proudmoore.Morifa"] = {
-				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
-				["ArtifactKnowledgeMultiplier"] = 4846001,
-				["Specializations"] = {
-					7670, -- [1]
-					6582, -- [2]
-					6646, -- [3]
-				},
-				["lastUpdate"] = 1512030371,
-				["Class"] = "MAGE",
-				["ArtifactKnowledge"] = 54,
-				["Artifacts"] = {
-					["Ebonchill, Greatstaff of Alodi"] = {
-						["tier"] = 2,
-						["rank"] = 63,
-						["pointsRemaining"] = 6576913200,
-					},
-					["Felo'melorn"] = {
-						["pointsRemaining"] = 18542495,
-						["rank"] = 54,
-						["tier"] = 2,
-					},
-					["Aluneth, Greatstaff of the Magna"] = {
-						["pointsRemaining"] = 148281120,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-				},
+				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
@@ -386,6 +357,35 @@ DataStore_TalentsDB = {
 				},
 				["ArtifactKnowledge"] = 53,
 				["ArtifactKnowledgeMultiplier"] = 3727501,
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
+				["ArtifactKnowledgeMultiplier"] = 4846001,
+				["Specializations"] = {
+					7670, -- [1]
+					6582, -- [2]
+					6646, -- [3]
+				},
+				["lastUpdate"] = 1512030371,
+				["Class"] = "MAGE",
+				["ArtifactKnowledge"] = 54,
+				["Artifacts"] = {
+					["Ebonchill, Greatstaff of Alodi"] = {
+						["tier"] = 2,
+						["rank"] = 63,
+						["pointsRemaining"] = 6576913200,
+					},
+					["Felo'melorn"] = {
+						["pointsRemaining"] = 18542495,
+						["rank"] = 54,
+						["tier"] = 2,
+					},
+					["Aluneth, Greatstaff of the Magna"] = {
+						["pointsRemaining"] = 148281120,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+				},
 			},
 		},
 	},

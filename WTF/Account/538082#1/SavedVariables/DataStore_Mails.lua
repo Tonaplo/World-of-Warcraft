@@ -14,10 +14,10 @@ DataStore_MailsDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -29,37 +29,64 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1512422743,
 				["lastVisitDate"] = "2017/12/04 13:25",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1511749506,
-				["lastVisitDate"] = "2017/11/26 18:25",
+			["Default.Proudmoore.Fimwack"] = {
+				["lastUpdate"] = 1511749348,
+				["Mails"] = {
+					{
+						["sender"] = "Mallusof",
+						["itemID"] = 153135,
+						["link"] = "|cff0070dd|Hitem:153135::::::::110:257::::::|h[Unsullied Cloth Robes]|h|r",
+						["count"] = 1,
+						["icon"] = 422801,
+						["lastCheck"] = 1512112738,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2017/11/26 18:22",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1511749408,
 				["lastVisitDate"] = "2017/11/26 18:23",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1511749093,
-				["lastVisitDate"] = "2017/11/26 18:18",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1511749712,
+				["lastVisitDate"] = "2017/11/26 18:28",
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1512031875,
+				["lastVisitDate"] = "2017/11/30 00:51",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427640,
 				["Mails"] = {
 					{
-						["lastCheck"] = 1511427640,
+						["icon"] = 134327,
 						["sender"] = "The WoW Dev Team",
 						["subject"] = "WoW's 13th Anniversary!",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Wow, yet another year has gone by for WoW!\r\n\r\nWe wanted to thank you for continuing to play World of Warcraft with us, so here's an Anniversary Gift to go with your adventures!\r\n\r\nThe WoW Dev Team",
-						["icon"] = 134327,
+						["lastCheck"] = 1511427640,
 						["daysLeft"] = 29.9958572387695,
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2017/11/23 01:00",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1511749654,
-				["lastVisitDate"] = "2017/11/26 18:27",
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1511749299,
+				["lastVisitDate"] = "2017/11/26 18:21",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1511749506,
+				["lastVisitDate"] = "2017/11/26 18:25",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1511749464,
+				["lastVisitDate"] = "2017/11/26 18:24",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1511749158,
@@ -69,47 +96,20 @@ DataStore_MailsDB = {
 						["itemID"] = 153155,
 						["link"] = "|cff0070dd|Hitem:153155::::::::110:257::11::::|h[Unsullied Plate Helmet]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1512112808,
 						["icon"] = 359500,
+						["lastCheck"] = 1512112808,
 						["daysLeft"] = 30,
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2017/11/26 18:19",
 			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1511749299,
-				["lastVisitDate"] = "2017/11/26 18:21",
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1511749093,
+				["lastVisitDate"] = "2017/11/26 18:18",
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1512031875,
-				["lastVisitDate"] = "2017/11/30 00:51",
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1511749464,
-				["lastVisitDate"] = "2017/11/26 18:24",
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1511749712,
-				["lastVisitDate"] = "2017/11/26 18:28",
-			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
-			},
-			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1511749348,
-				["Mails"] = {
-					{
-						["sender"] = "Mallusof",
-						["itemID"] = 153135,
-						["link"] = "|cff0070dd|Hitem:153135::::::::110:257::::::|h[Unsullied Cloth Robes]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1512112738,
-						["icon"] = 422801,
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2017/11/26 18:22",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1511749654,
+				["lastVisitDate"] = "2017/11/26 18:27",
 			},
 		},
 	},

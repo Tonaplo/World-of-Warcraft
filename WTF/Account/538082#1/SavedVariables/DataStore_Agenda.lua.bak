@@ -34,10 +34,10 @@ DataStore_AgendaDB = {
 					"2017-12-07|19:00|Normal Antorus|1|2", -- [1]
 				},
 				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Normal|341717547"] = "128998|1512357001|0|1",
-					["Antorus, the Burning Throne Heroic|341862213"] = "128998|1512357001|0|1",
+					["Antorus, the Burning Throne Normal|341717547"] = "63232|1512422767|0|1",
+					["Antorus, the Burning Throne Heroic|341862213"] = "63232|1512422767|0|1",
 				},
-				["lastUpdate"] = 1512357222,
+				["lastUpdate"] = 1512422790,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,

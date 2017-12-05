@@ -14,10 +14,10 @@ DataStore_CurrenciesDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -88,18 +88,18 @@ DataStore_CurrenciesDB = {
 				["Timewarped Badge"] = 9,
 				["Argus Waystone"] = 38,
 				["Veiled Argunite"] = 37,
-				["Wrath of the Lich King"] = 34,
-				["Seal of Inevitable Fate"] = 30,
-				["Miscellaneous"] = 20,
-				["Timeworn Artifact"] = 27,
-				["Warlords of Draenor"] = 10,
-				["Wakening Essence"] = 39,
-				["Legion"] = 1,
-				["Apexis Crystal"] = 17,
-				["Darkmoon Prize Ticket"] = 21,
-				["Curious Coin"] = 3,
-				["Garrison Resources"] = 11,
 				["Mark of the World Tree"] = 33,
+				["Garrison Resources"] = 11,
+				["Curious Coin"] = 3,
+				["Timeworn Artifact"] = 27,
+				["Wakening Essence"] = 39,
+				["Miscellaneous"] = 20,
+				["Apexis Crystal"] = 17,
+				["Legion"] = 1,
+				["Darkmoon Prize Ticket"] = 21,
+				["Warlords of Draenor"] = 10,
+				["Seal of Inevitable Fate"] = 30,
+				["Wrath of the Lich King"] = 34,
 				["Champion's Seal"] = 35,
 				["Legionfall War Supplies"] = 4,
 			},
@@ -169,7 +169,7 @@ DataStore_CurrenciesDB = {
 					270, -- [10]
 					624422, -- [11]
 					11702, -- [12]
-					26698, -- [13]
+					28106, -- [13]
 					206, -- [14]
 					17, -- [15]
 					351378, -- [16]
@@ -215,7 +215,7 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1512422767,
+				["lastUpdate"] = 1512463276,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "416472-0-0-0",
@@ -484,18 +484,60 @@ DataStore_CurrenciesDB = {
 					[1342] = "290-0-0-1000",
 				},
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427281,
+			["Default.Proudmoore.Morifa"] = {
+				["Currencies"] = {
+					3, -- [1]
+					38404, -- [2]
+					1158, -- [3]
+					51848, -- [4]
+					2146570, -- [5]
+					2088460, -- [6]
+					14, -- [7]
+					35238, -- [8]
+					63178, -- [9]
+					17, -- [10]
+					177938, -- [11]
+					108832, -- [12]
+					21, -- [13]
+					1542178, -- [14]
+					339862, -- [15]
+					52504, -- [16]
+					420, -- [17]
+					27, -- [18]
+					156, -- [19]
+					926, -- [20]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["lastUpdate"] = 1512030371,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
+					[1220] = "16316-0-0-0",
+					[824] = "2655-0-0-10000",
+					[1273] = "0-0-0-6",
+					[1191] = "850-0-0-5000",
+					[823] = "12048-0-0-0",
+					[1226] = "16770-0-0-0",
+					[994] = "3-0-0-20",
+					[1342] = "405-0-0-1000",
 				},
 			},
 			["Default.Proudmoore.Rahran"] = {
@@ -763,60 +805,18 @@ DataStore_CurrenciesDB = {
 					[1342] = "89-0-0-1000",
 				},
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["Currencies"] = {
-					3, -- [1]
-					38404, -- [2]
-					1158, -- [3]
-					51848, -- [4]
-					2146570, -- [5]
-					2088460, -- [6]
-					14, -- [7]
-					35238, -- [8]
-					63178, -- [9]
-					17, -- [10]
-					177938, -- [11]
-					108832, -- [12]
-					21, -- [13]
-					1542178, -- [14]
-					339862, -- [15]
-					52504, -- [16]
-					420, -- [17]
-					27, -- [18]
-					156, -- [19]
-					926, -- [20]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["lastUpdate"] = 1512030371,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427281,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "16316-0-0-0",
-					[824] = "2655-0-0-10000",
-					[1273] = "0-0-0-6",
-					[1191] = "850-0-0-5000",
-					[823] = "12048-0-0-0",
-					[1226] = "16770-0-0-0",
-					[994] = "3-0-0-20",
-					[1342] = "405-0-0-1000",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 				},
 			},
 		},

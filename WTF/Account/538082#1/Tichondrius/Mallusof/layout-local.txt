@@ -48,13 +48,6 @@ X: 0
 Y: 1
 W: 790
 H: 454
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 648
-H: 455
 Frame: LUI_Frame_Identifier
 FrameLevel: 1
 Anchor: RIGHT
@@ -62,6 +55,13 @@ X: -381
 Y: -75
 W: 320
 H: 20
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: TOP
+X: 93
+Y: -88
+W: 648
+H: 455
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT

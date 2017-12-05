@@ -8,9 +8,14 @@ VER 3 0100000000000007 "Lifegrip" "INV_MISC_QUESTIONMARK"
 #showtooltip Leap of Faith
 /cast [@mouseover,exists,nodead[]] Leap of Faith
 END
+VER 3 0100000000000008 "Shining" "INV_MISC_QUESTIONMARK"
+#showtooltip Shining Force
+/target Mallusof
+/cast Shining Force
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1PT1ET1MR1DR1HR2EM2MR2MR2NM2RM3RM3PM3RM3MR3SR4LR4SH4DH4PH[x]5HR5DR5WM5PH5OH6DR6OH6MR6PM[x][x][x][x][x][x][x][x][x][x][x]4IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NKalWrâAlySasLikZaeLouMedJacTheSmmBlaTopKalZokRepMacEllLig[x]ForDreDieMeoSomSelAkaKalAce[x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Pag[x][x][x][x]Qui[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

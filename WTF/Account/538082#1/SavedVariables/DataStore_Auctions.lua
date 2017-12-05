@@ -14,20 +14,20 @@ DataStore_AuctionsDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1499035800,
+				["lastVisitDate"] = "2017/07/02 15:50",
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,
 				["lastVisitDate"] = "2017/05/22 00:00",
-			},
-			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1507301637,
-				["lastVisitDate"] = "2017/10/06 07:53",
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1512107033,
@@ -49,9 +49,9 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1507644155,
 				["lastVisitDate"] = "2017/10/10 07:02",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1499035800,
-				["lastVisitDate"] = "2017/07/02 15:50",
+			["Default.Proudmoore.Fimwack"] = {
+				["lastUpdate"] = 1507301637,
+				["lastVisitDate"] = "2017/10/06 07:53",
 			},
 		},
 	},

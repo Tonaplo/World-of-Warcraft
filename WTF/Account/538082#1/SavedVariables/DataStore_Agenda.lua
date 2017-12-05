@@ -14,10 +14,10 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Options"] = {
@@ -32,12 +32,14 @@ DataStore_AgendaDB = {
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
 					"2017-12-07|19:00|Normal Antorus|1|2", -- [1]
+					"2017-12-10|19:00|Heroic Antorus|1|2", -- [2]
+					"2017-12-14|19:00|Normal Antorus|1|9", -- [3]
 				},
 				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Normal|341717547"] = "63232|1512422767|0|1",
-					["Antorus, the Burning Throne Heroic|341862213"] = "63232|1512422767|0|1",
+					["Antorus, the Burning Throne Heroic|341862213"] = "22720|1512463276|0|1",
+					["Antorus, the Burning Throne Normal|341717547"] = "22720|1512463276|0|1",
 				},
-				["lastUpdate"] = 1512422790,
+				["lastUpdate"] = 1512463281,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -63,8 +65,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1511749423,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1512030407,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1511749673,
@@ -81,8 +83,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1511749714,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1512030407,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427638,
 			},
 		},
 	},
