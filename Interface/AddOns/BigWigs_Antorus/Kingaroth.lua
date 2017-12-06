@@ -12,7 +12,6 @@ mod.respawnTime = 30
 -- Locals
 --
 
-local reverberatingStrikeCount = 1
 local nextApocalypseProtocol = 0
 local mobTable = {
 	[123906] = {}, -- Garothi Annihilator
@@ -47,7 +46,7 @@ function mod:GetOptions()
 	return {
 		--[[ Stage: Deployment ]]--
 		{254919, "TANK"}, -- Forging Strike
-		254926, -- Reverberating Strike
+		{254926, "SAY", "FLASH"}, -- Reverberating Strike
 		248214, -- Diabolic Bomb
 		246833, -- Ruiner
 		248375, -- Shattering Strike
@@ -78,6 +77,7 @@ function mod:OnBossEnable()
 	--[[ Stage: Deployment ]]--
 	self:Log("SPELL_CAST_START", "ForgingStrike", 254919)
 	self:Log("SPELL_AURA_APPLIED", "ForgingStrikeApplied", 254919)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "ForgingStrikeApplied", 254919)
 	self:Log("SPELL_CAST_START", "ReverberatingStrike", 254926)
 	self:Log("SPELL_CAST_SUCCESS", "DiabolicBomb", 248214)
 	self:Log("SPELL_CAST_START", "Ruiner", 246833)
@@ -102,7 +102,6 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
-	reverberatingStrikeCount = 1
 	mobTable = {
 		[123906] = {}, -- Garothi Annihilator
 		[123929] = {}, -- Garothi Demolisher
@@ -168,17 +167,24 @@ function mod:ForgingStrike(args)
 end
 
 function mod:ForgingStrikeApplied(args)
-	self:TargetMessage(args.spellId, args.destName, "Urgent", "Warning", nil, nil, self:Tank())
+	local amount = args.amount or 1
+	self:StackMessage(args.spellId, args.destName, amount, "Urgent", "Warning")
 end
 
-function mod:ReverberatingStrike(args)
-	self:Message(args.spellId, "Attention", "Alert")
-	local cooldown = 30
-	if nextApocalypseProtocol > GetTime() + cooldown then
-		if empStrike then -- Empowered
-			self:CDBar(args.spellId, reverberatingStrikeCount == 2 and 25 or 28, L.empowered:format(args.spellName))
-		else
-			self:CDBar(args.spellId, reverberatingStrikeCount == 2 and 25 or 28)
+do
+	local function printTarget(self, name, guid)
+		self:TargetMessage(254926, name, "Attention", "Alert", nil, nil, true)
+		if self:Me(guid) then
+			self:Say(254926)
+			self:Flash(254926)
+		end
+	end
+
+	function mod:ReverberatingStrike(args)
+		self:GetBossTarget(printTarget, 0.5, args.sourceGUID)
+		local cooldown = 30
+		if nextApocalypseProtocol > GetTime() + cooldown then
+			self:CDBar(args.spellId, cooldown, empStrike and L.empowered:format(args.spellName))
 		end
 	end
 end
@@ -224,7 +230,6 @@ end
 
 function mod:ApocalypseProtocolOver(args)
 	self:Message(args.spellId, "Neutral", "Info", CL.over:format(args.spellName))
-	reverberatingStrikeCount = 1
 	self:Bar(248214, 3, empBomb and L.empowered:format(self:SpellName(248214))) -- Diabolic Bomb
 	self:Bar(254919, 7.5) -- Forging Strike
 	self:Bar(246833, 12.5, empRuiner and L.empowered:format(self:SpellName(246833))) -- Ruiner

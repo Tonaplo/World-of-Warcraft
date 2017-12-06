@@ -1,8 +1,19 @@
 local L = BigWigs:NewBossLocale("Argus the Unmaker", "zhTW")
 if not L then return end
 if L then
+	--L.combinedBurstAndBomb = "Combine Soulburst and Soulbomb"
+	--L.combinedBurstAndBomb_desc = "|cff71d5ffSoulbombs|r are always applied in combination with |cff71d5ffSoulbursts|r. Enable this option to combine those two messages into one."
+
+	--L.custom_off_always_show_combined = "Always show the combined Soulburst and Soulbomb message"
+	--L.custom_off_always_show_combined_desc = "The combined message won't be displayed if you get the |cff71d5ffSoulbomb|r or the |cff71d5ffSoulburst|r. Enable this option to always show the combined message, even when you're affected. |cff33ff99Useful for raid leaders.|r"
+
 	--L.stage2_early = "Let the fury of the sea wash away this corruption!"
 	--L.stage3_early = "No hope. Just pain. Only pain!"
+
+	--L.explosion = "%s Explosion"
+	--L.gifts = "Gifts: %s (Sky), %s (Sea)"
+	--L.burst = "|T1778229:15:15:0:0:64:64:4:60:4:60|tBurst:%s" -- short for Soulburst
+	--L.bomb = "|T1778228:15:15:0:0:64:64:4:60:4:60|tBomb:%s" -- short for Soulbomb
 end
 
 L = BigWigs:NewBossLocale("The Coven of Shivarra", "zhTW")
@@ -35,8 +46,11 @@ end
 
 L = BigWigs:NewBossLocale("Portal Keeper Hasabel", "zhTW")
 if L then
+	--L.custom_on_stop_timers = "Always show ability bars"
+	--L.custom_on_stop_timers_desc = "Hasabel randomizes which off-cooldown ability she uses next. When this option is enabled, the bars for those abilities will stay on your screen."
 	L.custom_on_filter_platforms = "過濾外側平台的警告與計時器"
 	L.custom_on_filter_platforms_desc = "如果你不是上台組，關閉不需要的外側平台提示，只顯示中央場地的警告與計時器。"
+	--L.worldExplosion_desc = "Show a timer for the Collapsing World explosion."
 	L.platform_active = "%s啟動！" -- Platform: Xoroth Active!
 	--L.add_killed = "%s killed!"
 end
@@ -56,5 +70,10 @@ end
 L = BigWigs:NewBossLocale("Gorothi Worldbreaker", "zhTW")
 if L then
 	L.cannon_ability_desc = "顯示被兩門火砲強化後的技能訊息與計時器。"
+
+	--L.missileImpact = "Annihilation Impact"
 	--L.missileImpact_desc = "Show a timer for the Annihilation missiles landing."
+
+	--L.decimationImpact = "Decimation Impact"
+	--L.decimationImpact_desc = "Show a timer for the Decimation missiles landing."
 end

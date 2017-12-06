@@ -1,22 +1,33 @@
 local L = BigWigs:NewBossLocale("Argus the Unmaker", "zhCN")
 if not L then return end
 if L then
+	L.combinedBurstAndBomb = "合并灵魂爆发和灵魂炸弹"
+	L.combinedBurstAndBomb_desc = "|cff71d5ff灵魂炸弹|r总是与|cff71d5ff灵魂爆发|r一起使用。启用此选项将此两条消息合并为一条。"
+
+	L.custom_off_always_show_combined = "总是显示合并灵魂爆发和灵魂炸弹信息"
+	L.custom_off_always_show_combined_desc = "当你受到|cff71d5ff灵魂炸弹|r或|cff71d5ff灵魂爆发|r时合并信息不会被显示。启用此选项将总是显示合并信息，即使你受到影响。|cff33ff99对团队领袖有用处。|r"
+
 	--L.stage2_early = "Let the fury of the sea wash away this corruption!"
 	--L.stage3_early = "No hope. Just pain. Only pain!"
+
+	L.explosion = "%s爆炸"
+	L.gifts = "恩赐：%s（天空），%s（海洋）"
+	L.burst = "|T1778229:15:15:0:0:64:64:4:60:4:60|t爆发：%s" -- short for Soulburst
+	L.bomb = "|T1778228:15:15:0:0:64:64:4:60:4:60|t炸弹：%s" -- short for Soulbomb
 end
 
 L = BigWigs:NewBossLocale("The Coven of Shivarra", "zhCN")
 if L then
 	L.torment_of_the_titans_desc = "破坏魔会迫使泰坦之魂使用他们的技能对抗玩家。"
 
-	--L.timeLeft = "%.1fs" -- s = seconds
-	--L.torment = "Torment: %s"
-	--L.nextTorment = "Next Torment: |cffffffff%s|r"
-	--L.nextTorments = "Next Torments:"
-	--L.tormentHeal = "Heal/DoT" -- something like Heal/DoT (max 10 characters)
-	--L.tormentLightning = "Lightning" -- short for "Chain Lightning" (or similar, max 10 characters)
-	--L.tormentArmy = "Army" -- short for "Spectral Army of Norgannon" (or similar, max 10 characters)
-	--L.tormentFlames = "Flames" -- short for "Flames of Khaz'goroth" (or similar, max 10 characters)
+	L.timeLeft = "%.1f秒" -- s = seconds
+	L.torment = "痛苦：%s"
+	L.nextTorment = "下次痛苦：|cffffffff%s|r"
+	L.nextTorments = "下次痛苦："
+	L.tormentHeal = "治疗/伤害" -- something like Heal/DoT (max 10 characters)
+	L.tormentLightning = "闪电" -- short for "Chain Lightning" (or similar, max 10 characters)
+	L.tormentArmy = "军团" -- short for "Spectral Army of Norgannon" (or similar, max 10 characters)
+	L.tormentFlames = "火焰" -- short for "Flames of Khaz'goroth" (or similar, max 10 characters)
 end
 
 L = BigWigs:NewBossLocale("Eonar the Life-Binder", "zhCN")
@@ -35,8 +46,11 @@ end
 
 L = BigWigs:NewBossLocale("Portal Keeper Hasabel", "zhCN")
 if L then
+	--L.custom_on_stop_timers = "Always show ability bars"
+	--L.custom_on_stop_timers_desc = "Hasabel randomizes which off-cooldown ability she uses next. When this option is enabled, the bars for those abilities will stay on your screen."
 	L.custom_on_filter_platforms = "过滤外侧平台警报和计时条"
 	L.custom_on_filter_platforms_desc = "当你不是上台分组时移除不必要的信息和计时条。这将只显示中央平台：枢纽的警报和计时条。"
+	--L.worldExplosion_desc = "Show a timer for the Collapsing World explosion."
 	L.platform_active = "%s激活！" -- Platform: Xoroth Active!
 	L.add_killed = "%s已击杀！"
 end
@@ -56,5 +70,10 @@ end
 L = BigWigs:NewBossLocale("Gorothi Worldbreaker", "zhCN")
 if L then
 	L.cannon_ability_desc = "显示加洛西灭世者背后两门火炮的信息和计时条。"
+
+	--L.missileImpact = "Annihilation Impact"
 	L.missileImpact_desc = "显示歼灭飞弹着陆计时条。"
+
+	--L.decimationImpact = "Decimation Impact"
+	--L.decimationImpact_desc = "Show a timer for the Decimation missiles landing."
 end

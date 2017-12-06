@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 7.3.28 (29th November 2017, www.leatrix.com)
+-- 	Leatrix Plus 7.3.29 (6th December 2017, www.leatrix.com)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:Player		72:Profile		
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "7.3.28"
+	LeaPlusLC["AddonVer"] = "7.3.29"
 
 ----------------------------------------------------------------------
 --	L00: Leatrix Plus
@@ -3914,7 +3914,6 @@
 				["Moonglade"] = {"LakeEluneara:431:319:219:273", "Nighthaven:346:244:370:135", "ShrineofRemulos:271:296:209:91", "StormrageBarrowDens:275:346:542:210",},
 				["Mulgore"] = {"BaeldunDigsite:218:192:226:220", "BloodhoofVillage:302:223:319:273", "PalemaneRock:172:205:248:321", "RavagedCaravan:187:165:435:224", "RedCloudMesa:446:264:286:401", "RedRocks:186:185:514:43", "StonetalonPass:237:184:201:0", "TheGoldenPlains:186:216:448:101", "TheRollingPlains:260:243:527:291", "TheVentureCoMine:208:300:530:138", "ThunderBluff:373:259:208:62", "ThunderhornWaterWell:201:167:333:202", "WildmaneWaterWell:190:172:331:0", "WindfuryRidge:222:202:400:0", "WinterhoofWaterWell:174:185:449:340",},
 				["Silithus"] = {"CenarionHold:292:260:427:143", "HiveAshi:405:267:345:4", "HiveRegal:489:358:380:310", "HiveZora:542:367:0:206", "SouthwindVillage:309:243:550:181", "TheCrystalVale:329:246:126:0", "TheScarabWall:580:213:0:455", "TwilightBaseCamp:434:231:100:151", "ValorsRest:315:285:614:0",},
-				["Silithus_terrain1"] = {"CenarionHold:292:260:427:143", "HiveAshi:405:267:345:4", "HiveRegal:489:358:380:310", "HiveZora:542:367:0:206", "SouthwindVillage:309:243:550:181", "TheCrystalVale:329:246:126:0", "TheScarabWall:580:213:0:455", "TwilightBaseCamp:434:231:100:151", "ValorsRest:315:285:614:0",},
 				["SouthernBarrens"] = {"BaelModan:269:211:398:457", "Battlescar:384:248:274:307", "ForwardCommand:216:172:423:251", "FrazzlecrazMotherload:242:195:269:436", "HonorsStand:315:170:201:0", "HuntersHill:218:178:300:64", "NorthwatchHold:280:279:548:147", "RazorfenKraul:214:140:273:528", "RuinsofTaurajo:285:171:244:286", "TheOvergrowth:355:226:289:117", "VendettaPoint:254:214:267:196",},
 				["StonetalonMountains"] = {"BattlescarValley:290:297:220:189", "BoulderslideRavine:194:156:532:512", "CliffwalkerPost:241:192:366:95", "GreatwoodVale:322:220:602:448", "KromgarFortress:183:196:588:341", "Malakajin:211:131:618:537", "MirkfallonLake:244:247:417:143", "RuinsofEldrethar:221:235:367:411", "StonetalonPeak:305:244:265:0", "SunRockRetreat:222:222:353:285", "ThaldarahOverlook:210:189:252:121", "TheCharredVale:277:274:199:368", "UnearthedGrounds:265:206:654:369", "WebwinderHollow:164:258:479:401", "WebwinderPath:267:352:468:263", "WindshearCrag:374:287:533:179", "WindshearHold:176:189:516:289",},
 				["Tanaris"] = {"AbyssalSands:255:194:297:148", "BrokenPillar:195:163:413:211", "CavernsofTime:213:173:507:238", "DunemaulCompound:231:177:305:257", "EastmoonRuins:173:163:380:341", "Gadgetzan:189:180:412:92", "GadgetzanBay:254:341:479:9", "LandsEndBeach:224:216:431:452", "LostRiggerCover:178:243:615:201", "SandsorrowWatch:214:149:293:99", "SouthbreakShore:274:186:437:289", "SouthmoonRuins:232:211:301:349", "TheGapingChasm:225:187:448:364", "TheNoxiousLair:179:190:258:211", "ThistleshrubValley:221:293:185:280", "ValleryoftheWatchers:269:190:255:431", "ZulFarrak:315:190:184:0",},
@@ -7457,7 +7456,7 @@
 			Zn(L["Movies"], L["Cataclysm"]						, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Cataclysm"], L["Cataclysm"] .. " |r(23)", L["Last Stand"] .. " |r(21)", L["Leaving Kezan"] .. " |r(22)", L["The Dragon Soul"] .. " |r(73)", L["Spine of Deathwing"] .. " |r(74)", L["Madness of Deathwing"] .. " |r(75)", L["Fall of Deathwing"] .. " |r(76)"})
 			Zn(L["Movies"], L["Mists of Pandaria"]				, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Mists of Pandaria"], L["Mists of Pandaria"] .. " |r(115)", L["Risking It All"] .. " |r(117)", L["Leaving the Wandering Isle"] .. " |r(116)", L["The King's Command"] .. " |r(119)", L["The Art of War"] .. " |r(120)", L["Battle of Serpent's Heart"] .. " |r(118)", L["The Fleet in Krasarang (Horde)"] .. " |r(128)", L["The Fleet in Krasarang (Alliance)"] .. " |r(127)", L["Hellscream's Downfall (Horde)"] .. " |r(151)", L["Hellscream's Downfall (Alliance)"] .. " |r(152)"})
 			Zn(L["Movies"], L["Warlords of Draenor"]			, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Warlords of Draenor"], L["Warlords of Draenor"] .. " |r(195)", L["Darkness Falls"] .. " |r(167)", L["The Battle of Thunder Pass"] .. " |r(168)", L["And Justice for Thrall"] .. " |r(177)", L["Into the Portal"] .. " |r(185)", L["A Taste of Iron"] .. " |r(187)", L["The Battle for Shattrath"] .. " |r(188)", L["Establish Your Garrison (Horde)"] .. " |r(189)", L["Establish Your Garrison (Alliance)"] .. " |r(192)", L["Bigger is Better (Horde)"] .. " |r(190)", L["Bigger is Better (Alliance)"] .. " |r(193)", L["My Very Own Castle (Horde)"] .. " |r(191)", L["My Very Own Castle (Alliance)"] .. " |r(194)", L["Gul'dan Ascendant"] .. " |r(270)", L["Shipyard Construction (Horde)"] .. " |r(292)", L["Shipyard Construction (Alliance)"] .. " |r(293)", L["Gul'dan's Plan"] .. "  |r(294)", L["Victory in Draenor!"] .. "  |r(295)"})
-			Zn(L["Movies"], L["Legion"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Legion"], L["Legion"] .. " |r(470)", L["The Invasion Begins"] .. " |r(469)", L["Return to the Black Temple"] .. " |r(471)", L["The Demon's Trail"] .. " |r(473)", L["The Fate of Val'sharah"] .. " |r(472)", L["Fate of the Horde"] .. " |r(474)", L["A New Life for Undeath"] .. " |r(475)", L["Harbingers Gul'dan"] .. " |r(476)", L["Harbingers Khadgar"] .. " |r(477)", L["Harbingers Illidan"] .. " |r(478)", L["The Nightborne Pact"] .. " |r(485)", L["The Battle for Broken Shore (Horde)"] .. " |r(487)", L["The Battle for Broken Shore (Alliance)"] .. " |r(531)", L["A Falling Star"] .. " |r(489)", L["An Unclear Path"] .. " |r(490)", L["Victory at The Nighthold"] .. " |r(635)", L["A Found Memento"] .. " |r(636)", L["Kil'jaeden's Downfall"] .. " |r(656)", L["Arrival on Argus"] .. " |r(677)", L["Rejection of the Gift"] .. " |r(679)", L["Reincarnation of Alleria Windrunner"] .. " |r(682)"})
+			Zn(L["Movies"], L["Legion"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["Legion"], L["Legion"] .. " |r(470)", L["The Invasion Begins"] .. " |r(469)", L["Return to the Black Temple"] .. " |r(471)", L["The Demon's Trail"] .. " |r(473)", L["The Fate of Val'sharah"] .. " |r(472)", L["Fate of the Horde"] .. " |r(474)", L["A New Life for Undeath"] .. " |r(475)", L["Harbingers Gul'dan"] .. " |r(476)", L["Harbingers Khadgar"] .. " |r(477)", L["Harbingers Illidan"] .. " |r(478)", L["The Nightborne Pact"] .. " |r(485)", L["The Battle for Broken Shore (Horde)"] .. " |r(487)", L["The Battle for Broken Shore (Alliance)"] .. " |r(531)", L["A Falling Star"] .. " |r(489)", L["An Unclear Path"] .. " |r(490)", L["Victory at The Nighthold"] .. " |r(635)", L["A Found Memento"] .. " |r(636)", L["Kil'jaeden's Downfall"] .. " |r(656)", L["Arrival on Argus"] .. " |r(677)", L["Rejection of the Gift"] .. " |r(679)", L["Reincarnation of Alleria Windrunner"] .. " |r(682)", L["Rise of Argus"] .. " |r(687)", L["Antorus Ending"] .. " |r(689)"})
 
 			-- Give zone table a file level scope so slash command function can access it
 			LeaPlusLC["ZoneList"] = ZoneList
@@ -10134,7 +10133,7 @@
 						{[9]=1, [10]=1, [11]=1, [12]=1, [13]=1, [20]=1, [23]=1, [24]=1, [25]=1, [26]=1, [27]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R4, U2, L4",},
 						{[9]=1, [11]=1, [12]=1, [13]=1, [16]=1, [18]=1, [20]=1, [23]=1, [24]=1, [25]=1, [27]=1, [34]=1, [41]=2, "U4, L2, D2, L2, U2",},
 						{[9]=1, [10]=1, [11]=1, [12]=1, [19]=1, [25]=1, [26]=1, [32]=1, [39]=1, [40]=1, [41]=2, "L2, U2, R1, U2, L3",},
-						{[9]=1, [10]=1, [11]=1, [18]=1, [23]=1, [24]=1, [25]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R2, U2, L3",},
+						{[9]=1, [10]=1, [11]=1, [18]=1, [23]=1, [24]=1, [25]=1, [30]=1, [37]=1, [38]=1, [39]=1, [40]=1, [41]=2, "L4, U2, R2, U2, L2",},
 						{[9]=1, [10]=1, [11]=1, [12]=1, [13]=1, [16]=1, [23]=1, [25]=1, [26]=1, [27]=1, [30]=1, [32]=1, [34]=1, [37]=1, [38]=1, [39]=1, [41]=2, "U2, L2, D2, L2, U4, R4",},
 						{[12]=1,[13]=1, [18]=1, [19]=1, [25]=1, [32]=1, [33]=1, [40]=1, [41]=2, "L1, U1, L1, U2, R1, U1, R1",},
 						{[9]=1, [11]=1, [12]=1, [13]=1, [16]=1, [18]=1, [20]=1, [23]=1, [25]=1, [27]=1, [30]=1, [31]=1, [32]=1, [34]=1, [41]=2, "U4, L2, D3, L2, U3",},
@@ -10319,12 +10318,12 @@
 					end
 				end
 				-- Create movement control buttons
-				local upBtn = LeaPlusLC:CreateButton("PlayMapUpBtn", WorldMapFrame, "UP", "BOTTOMRIGHT", 72, 151, 60, 25, true, ""); upBtn:SetScale(2); upBtn:Hide(); upBtn:Show()
-				local downBtn = LeaPlusLC:CreateButton("PlayMapDownBtn", WorldMapFrame, "DOWN", "BOTTOMRIGHT", 72, 121, 60, 25, true, ""); downBtn:SetScale(2); downBtn:Hide(); downBtn:Show()
-				local leftBtn = LeaPlusLC:CreateButton("PlayMapLeftBtn", WorldMapFrame, "LEFT", "BOTTOMRIGHT", 72, 91, 60, 25, true, ""); leftBtn:SetScale(2); leftBtn:Hide(); leftBtn:Show()
-				local rightBtn = LeaPlusLC:CreateButton("PlayMapRightBtn", WorldMapFrame, "RIGHT", "BOTTOMRIGHT", 72, 61, 60, 25, true, ""); rightBtn:SetScale(2); rightBtn:Hide(); rightBtn:Show()
+				local upBtn = LeaPlusLC:CreateButton("PlayMapUpBtn", WorldMapFrame, "UP", "BOTTOMRIGHT", 72, 151, 60, 25, true, ""); upBtn:SetScale(2); upBtn:SetFrameLevel(5); upBtn:Hide(); upBtn:Show()
+				local downBtn = LeaPlusLC:CreateButton("PlayMapDownBtn", WorldMapFrame, "DOWN", "BOTTOMRIGHT", 72, 121, 60, 25, true, ""); downBtn:SetScale(2); downBtn:SetFrameLevel(5); downBtn:Hide(); downBtn:Show()
+				local leftBtn = LeaPlusLC:CreateButton("PlayMapLeftBtn", WorldMapFrame, "LEFT", "BOTTOMRIGHT", 72, 91, 60, 25, true, ""); leftBtn:SetScale(2); leftBtn:SetFrameLevel(5); leftBtn:Hide(); leftBtn:Show()
+				local rightBtn = LeaPlusLC:CreateButton("PlayMapRightBtn", WorldMapFrame, "RIGHT", "BOTTOMRIGHT", 72, 61, 60, 25, true, ""); rightBtn:SetScale(2); rightBtn:SetFrameLevel(5); rightBtn:Hide(); rightBtn:Show()
 				-- Create reset button
-				local resetBtn = LeaPlusLC:CreateButton("PlayMapResetBtn", WorldMapFrame, "RESET", "BOTTOMRIGHT", 72, 31, 60, 25, true, ""); resetBtn:SetScale(2); resetBtn:Hide(); resetBtn:Show()
+				local resetBtn = LeaPlusLC:CreateButton("PlayMapResetBtn", WorldMapFrame, "RESET", "BOTTOMRIGHT", 72, 31, 60, 25, true, ""); resetBtn:SetScale(2); resetBtn:SetFrameLevel(5); resetBtn:Hide(); resetBtn:Show()
 				resetBtn:SetScript("OnClick", function()
 					local void, locLeft, locTop, locRight, locBottom = GetCurrentMapZone()
 					if locLeft and locTop and locRight and locBottom then
@@ -10360,7 +10359,7 @@
 				-- Set position when zooming
 				hooksecurefunc("WorldMapFrame_ResetPOIHitTranslations", moveIt)
 				-- Create help button
-				local helpBtn = LeaPlusLC:CreateButton("PlayMapHelpBtn", WorldMapFrame, "HELP", "BOTTOMRIGHT", 72, 0, 60, 25, true, ""); helpBtn:SetScale(2); helpBtn:Hide(); helpBtn:Show()
+				local helpBtn = LeaPlusLC:CreateButton("PlayMapHelpBtn", WorldMapFrame, "HELP", "BOTTOMRIGHT", 72, 0, 60, 25, true, ""); helpBtn:SetScale(2); helpBtn:SetFrameLevel(5); helpBtn:Hide(); helpBtn:Show()
 				helpBtn.tiptext = "Maploc shows world coordinates for a movable map object.|n|nUse the controls to move the map object.  The object's world coordinates are shown above the map.|n|nHold LSHIFT to go fast.|nHold LALT to go slow.|nHold LCTRL to go REALLY slow.|nReload your UI to exit."
 				helpBtn:SetPushedTextOffset(0, 0)
 				-- Update script for movement of POI
