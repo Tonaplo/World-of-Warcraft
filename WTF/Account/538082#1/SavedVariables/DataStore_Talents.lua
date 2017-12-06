@@ -51,11 +51,11 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["EquippedArtifact"] = "Light's Wrath",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 146944913946,
-						["rank"] = 74,
+						["pointsRemaining"] = 1745925296,
+						["rank"] = 75,
 						["tier"] = 2,
 					},
 					["Underlight Angler"] = {
@@ -64,8 +64,8 @@ DataStore_TalentsDB = {
 					},
 					["Light's Wrath"] = {
 						["tier"] = 2,
-						["rank"] = 54,
-						["pointsRemaining"] = 770000205,
+						["rank"] = 56,
+						["pointsRemaining"] = 374500505,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
@@ -74,14 +74,14 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1512463276,
+				["lastUpdate"] = 1512526472,
 				["Specializations"] = {
 					13718, -- [1]
 					9829, -- [2]
 					6554, -- [3]
 				},
-				["ArtifactKnowledge"] = 54,
-				["ArtifactKnowledgeMultiplier"] = 4846001,
+				["ArtifactKnowledge"] = 55,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",

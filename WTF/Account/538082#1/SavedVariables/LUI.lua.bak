@@ -38,7 +38,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1232648582,
+							["Mallusof"] = 1234990195,
 						},
 					},
 				},
@@ -143,6 +143,11 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
+					},
 					["Player"] = {
 						["Y"] = -200.000091552734,
 						["X"] = -310.519439697266,
@@ -153,10 +158,6 @@ LUIDB = {
 								["Point"] = "CENTER",
 							},
 						},
-					},
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -184,14 +185,21 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
@@ -707,14 +715,6 @@ LUIDB = {
 					["ToT"] = {
 						["Y"] = -150,
 						["X"] = 350,
-					},
-				},
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
 					},
 				},
 			},
@@ -2068,38 +2068,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Tichondrius"] = {
-							"/g you guys, ty", -- [1]
-							"/RT", -- [2]
-							"/raid IT'S BLIZZARD", -- [3]
-							"/cw Hangookie-Tichondrius Yeah, I saw", -- [4]
-							"/raid <3", -- [5]
-							"/cw Meowtwo-Tichondrius rofl", -- [6]
-							" yeah, I'll do it here", -- [7]
-							"/g jesus", -- [8]
-							"/g A ton of fun", -- [9]
-							"/g Also", -- [10]
-							"/g <3", -- [11]
-							"/s UNIVERSES", -- [12]
-							"/g |cffa335ee|Hitem:151005::::::::110:257::30:3:3397:3194:3337:::|h[Dram of Light]|h|r getting replaced", -- [13]
-							"/g omg", -- [14]
-							"/raid guys, thanks", -- [15]
-							"/raid I'll buy you lunch", -- [16]
-							"/raid thanks guys", -- [17]
-							"/RT", -- [18]
-							"/cw Hangookie-Tichondrius Yeah, I saw", -- [19]
-							"/cw Meowtwo-Tichondrius rofl", -- [20]
-							"/g jesus", -- [21]
-							"/g Also", -- [22]
-							"/s UNIVERSES", -- [23]
-							"/g omg", -- [24]
-							"/raid I'll buy you lunch", -- [25]
-							"/RT", -- [26]
-							"/cw Meowtwo-Tichondrius rofl", -- [27]
-							"/g Also", -- [28]
-							"/g omg", -- [29]
-							"/RT", -- [30]
-							"/g Also", -- [31]
-							"/RT", -- [32]
+							"/cw Bast-Ragnaros wanna join and go?", -- [1]
+							"/p Did you repair?", -- [2]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [3]
+							"/p Did you repair?", -- [4]
+							"/p THANKS", -- [5]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [6]
+							"/p Did you repair?", -- [7]
+							"/p THANKS", -- [8]
+							"/p Did you repair?", -- [9]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [10]
+							"/p Did you repair?", -- [11]
+							"/p THANKS", -- [12]
+							"/raid thanks guys", -- [13]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [14]
+							"/cw Bast-Ragnaros wanna join and go?", -- [15]
+							"/p Did you repair?", -- [16]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [17]
+							"/p Did you repair?", -- [18]
+							"/p THANKS", -- [19]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [20]
+							"/p Did you repair?", -- [21]
+							"/p THANKS", -- [22]
+							"/p Did you repair?", -- [23]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [24]
+							"/p THANKS", -- [25]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [26]
+							"/p Did you repair?", -- [27]
+							"/p THANKS", -- [28]
+							"/p Did you repair?", -- [29]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [30]
+							"/p Did you repair?", -- [31]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [32]
 						},
 						["Alliance - Proudmoore"] = {
 							"/p well", -- [1]

@@ -199,7 +199,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1512422767,
+				["lastUpdate"] = 1512520830,
 				["CRITTER"] = {
 					179831, -- [1]
 					170287, -- [2]

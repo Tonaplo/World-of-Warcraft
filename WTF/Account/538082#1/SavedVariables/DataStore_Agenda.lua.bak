@@ -23,7 +23,7 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-12-05",
+			["NextWeeklyReset"] = "2017-12-12",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
@@ -32,12 +32,10 @@ DataStore_AgendaDB = {
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
 					"2017-12-07|19:00|Normal Antorus|1|2", -- [1]
+					"2017-12-10|19:00|Heroic Antorus|1|2", -- [2]
+					"2017-12-14|19:00|Normal Antorus|1|9", -- [3]
 				},
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Normal|341717547"] = "63232|1512422767|0|1",
-					["Antorus, the Burning Throne Heroic|341862213"] = "63232|1512422767|0|1",
-				},
-				["lastUpdate"] = 1512422790,
+				["lastUpdate"] = 1512520875,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,

@@ -41,17 +41,6 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -84,6 +73,17 @@ AdiBagsDB = {
 		},
 		["DataSource"] = {
 		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
+		},
 		["Junk"] = {
 		},
 		["Equipment"] = {
@@ -95,21 +95,21 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

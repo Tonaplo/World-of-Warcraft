@@ -52,20 +52,20 @@ DataStore_TalentsDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
-				["ArtifactKnowledgeMultiplier"] = 4846001,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					13718, -- [1]
-					10103, -- [2]
+					9829, -- [2]
 					6554, -- [3]
 				},
-				["lastUpdate"] = 1512422767,
+				["lastUpdate"] = 1512520851,
 				["Class"] = "PRIEST",
-				["ArtifactKnowledge"] = 54,
+				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
 						["rank"] = 74,
-						["pointsRemaining"] = 130953110646,
+						["pointsRemaining"] = 192399421046,
 					},
 					["Underlight Angler"] = {
 						["pointsRemaining"] = 250,

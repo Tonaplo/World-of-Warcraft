@@ -26,8 +26,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/11/26 18:26",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1512422743,
-				["lastVisitDate"] = "2017/12/04 13:25",
+				["lastUpdate"] = 1512525955,
+				["lastVisitDate"] = "2017/12/05 18:05",
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1511749348,

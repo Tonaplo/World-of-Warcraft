@@ -134,7 +134,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 1232648582,
+							["Mallusof"] = 1245246275,
 						},
 					},
 				},
@@ -143,21 +143,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
+					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
-					},
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -185,29 +178,20 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
 			["profiles"] = {
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -717,6 +701,22 @@ LUIDB = {
 						},
 					},
 				},
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 			},
 		},
 		["Threat"] = {
@@ -807,38 +807,38 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Tichondrius"] = {
-							"/raid I'll buy you lunch", -- [1]
-							"/g omg", -- [2]
-							"/g you guys, ty", -- [3]
-							"/g A ton of fun", -- [4]
-							"/raid thanks guys", -- [5]
-							"/raid I'll buy you lunch", -- [6]
-							"/g you guys, ty", -- [7]
-							"/raid thanks guys", -- [8]
-							"/g you guys, ty", -- [9]
-							"/g I take it noone has a 15 I could tag along on", -- [10]
-							"/cw Blakeyboy-Tichondrius I do :/ ", -- [11]
-							"/g I'll try and find a pug", -- [12]
-							"/g dont worry about it :P", -- [13]
-							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [14]
-							"/cw Kalithumos-Tichondrius |cffa335ee|Hkeystone:200:11:11:14:10|h[Keystone: Halls of Valor]|h|r", -- [15]
-							"/cw Kalithumos-Tichondrius aka crap", -- [16]
-							"/p whut?", -- [17]
-							"/p you guys ahve a 15?", -- [18]
-							"/p there is a guy in +m thing that has a 16", -- [19]
-							"/p a dps alone", -- [20]
-							"/cw Bast-Ragnaros I have a full group - 1 dps looking for a higher than 15 key", -- [21]
-							"/cw Bast-Ragnaros wanna join and go?", -- [22]
-							"/cw Bast-Ragnaros oh, and we know what we're doing", -- [23]
-							"/cw Bast-Ragnaros |cffffff00|Hachievement:12110:Player-11-0A92183E:1:12:4:17:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Argus the Unmaker]|h|r ", -- [24]
-							"/p Discord, friends?", -- [25]
-							"/p yo", -- [26]
-							"/p what's the key again", -- [27]
-							"/p awesome :)", -- [28]
-							"/p hammer?", -- [29]
-							"/p Did you repair?", -- [30]
-							"/p THANKS", -- [31]
-							"/p cya", -- [32]
+							"/p Did you repair?", -- [1]
+							"/p THANKS", -- [2]
+							"/p Did you repair?", -- [3]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [4]
+							"/p Did you repair?", -- [5]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [6]
+							"/cw Bast-Ragnaros wanna join and go?", -- [7]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [8]
+							"/p THANKS", -- [9]
+							"/p Did you repair?", -- [10]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [11]
+							"/p THANKS", -- [12]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [13]
+							"/p Did you repair?", -- [14]
+							"/p THANKS", -- [15]
+							"/p Did you repair?", -- [16]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [17]
+							"/p Did you repair?", -- [18]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [19]
+							"/cw Bast-Ragnaros wanna join and go?", -- [20]
+							"/p THANKS", -- [21]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [22]
+							"/p Did you repair?", -- [23]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [24]
+							"/cw Bast-Ragnaros wanna join and go?", -- [25]
+							"/cw Boxingninja-Frostmourne I'm a happy person :)", -- [26]
+							"/cw Bast-Ragnaros wanna join and go?", -- [27]
+							"/i gz", -- [28]
+							"/g gz", -- [29]
+							"/i so", -- [30]
+							"/i Limit is 7/11", -- [31]
+							"/i Lets see if they take more before EU wakes up", -- [32]
 						},
 						["Alliance - Proudmoore"] = {
 							"/p well", -- [1]

@@ -23,7 +23,7 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-12-05",
+			["NextWeeklyReset"] = "2017-12-12",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
@@ -35,11 +35,7 @@ DataStore_AgendaDB = {
 					"2017-12-10|19:00|Heroic Antorus|1|2", -- [2]
 					"2017-12-14|19:00|Normal Antorus|1|9", -- [3]
 				},
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Heroic|341862213"] = "22720|1512463276|0|1",
-					["Antorus, the Burning Throne Normal|341717547"] = "22720|1512463276|0|1",
-				},
-				["lastUpdate"] = 1512463281,
+				["lastUpdate"] = 1512526500,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
