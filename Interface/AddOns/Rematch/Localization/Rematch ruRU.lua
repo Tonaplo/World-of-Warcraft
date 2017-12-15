@@ -2,7 +2,7 @@
 
 if GetLocale()=="ruRU" then
 
--- Localization Rematch 4.7.2 last update  04.07.2017 09.15 GMT
+-- Localization Rematch 4.7.3 last update  13.07.2017 10:32 GMT
 
 -- Main.lua
 	L["Rematch"] = nil
@@ -81,6 +81,7 @@ if GetLocale()=="ruRU" then
 	L["Search"] = "Поиск"
 	L["Sort"] = "Упорядочить"
 	L["Stats Search"] = "Поиск характеристик"
+	L["Moveset"] = "Набор атак"
 
 -- Process\QueueProcess.lua
 	L["Now leveling:"] = "Сейчас прокачивается:"
@@ -155,7 +156,7 @@ if GetLocale()=="ruRU" then
 	L["Export Listed Teams"] = "Экспорт перечисленных команд"
 	L["Export all teams listed below to a string you can copy elsewhere, such as forums or emails.\n\nOther Rematch users can then paste these teams into their Rematch via Import Teams.\n\nYou can export a single team by right-clicking one and choosing its Share menu."] = "Экспортировать все команды, перечисленные ниже, в строку, которую вы можете скопировать в другое место, например, на форумы или электронные письма. \n\Другие пользователи Rematch могут затем вставить эти команды в свой Rematch через Команды - Импортировать команды. \n\nВы можете экспортировать одну команду сделав правый щелчок мышки и выбрав меню «Поделиться»."
 	L["Backup All Teams"] = "Резервное копирование всех команд"
-	L["This will export all teams across all tabs into text that you can paste elsehwere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = "Это будет экспортировать все команды по всем вкладкам в текст, который вы можете вставить в другое место, например, в электронное письмо для себя или в текстовый файл в надежном месте. Вы можете позже восстановить эти команды с помощью Команды - Импорт команд."
+	L["This will export all teams across all tabs into text that you can paste elsewhere, such as an email to yourself or a text file someplace safe. You can later restore these teams with the Import Teams option."] = "Это будет экспортировать все команды по всем вкладкам в текст, который вы можете вставить в другое место, например, в электронное письмо для себя или в текстовый файл в надежном месте. Вы можете позже восстановить эти команды с помощью Команды - Импорт команд."
 	L["Import Teams"] = "Импортировать команды"
 	L["Import a single team or many teams that was exported from Rematch."] = "Импортировать одну команду или много команд, которые были экспортированы из Rematch."
 	L["Import From Pet Battle Teams"] = "Импорт из Pet Battle Teams"
@@ -190,7 +191,7 @@ if GetLocale()=="ruRU" then
 	L["Only Favorites"] = "Только Избранные"
 	L["Favorite Filters"] = "Избранные фильтры"
 	L["Pet Filter"] = "Фильтр питомцев"
-	L["In addition to the filters in this menu, you can further refine the pet list with the search box. Some search examples:\n\nPets: %sBlack Tabby\124r\nZones: %sSilithus\124r\nAbilities: %sSandstorm\124r\nText in abilities: %sBleed\124r\nLevels: %slevel=21-23\124r\nStats: %sspeed>300\124r\n\nSearches in \"quotes\" will limit results to only complete matches.\n\nSearch results will be sorted by relevance unless the option %sDon't Sort By Relevance\124r is checked in the Options tab."] = "В дополнение к фильтрам можно так же указать определённые характеристики питомца в окне поиска. Некоторые примеры поиска:\n\nПитомец: %sСерая полосатая кошка\124r\nЗона: %sСилитус\124r\nСпособности: %sПесчаная буря\124r\nТекст в способностях: %sКровотечение\124r\nУровень: %slevel=21-23\124r\nХарактеристика: %sspeed>300\124r\n\nSearches in \"quotes\" will limit results to only complete matches.\n\nSearch results will be sorted by relevance unless the option %sDon't Sort By Relevance\124r is checked in the Options tab."
+	L["In addition to the filters in this menu, you can further refine the pet list with the search box. Some search examples:\n\nPets: %sBlack Tabby\124r\nZones: %sSilithus\124r\nAbilities: %sSandstorm\124r\nText in abilities: %sBleed\124r\nLevels: %slevel=21-23\124r\nStats: %sspeed>300\124r\n\nSearches in \"quotes\" will limit results to only complete matches.\n\nSearch results will be sorted by relevance unless the option %sDon't Sort By Relevance\124r is checked in the Options tab."] = "В дополнение к фильтрам можно так же указать определённые характеристики питомца в окне поиска. Некоторые примеры поиска:\n\nПитомец: %sСерая полосатая кошка\124r\nЗона: %sСилитус\124r\nСпособности: %sПесчаная буря\124r\nТекст в способностях: %sКровотечение\124r\nУровень: %slevel=21-23\124r\nХарактеристика: %sspeed>300\124r\n\nSearches in \"quotes\" will limit results to only complete matches.\n\nSearch results will be sorted by relevance unless the option %sНе сортировать по актуальности\124r is checked in the Options tab."
 	L["Reset All"] = "Сбросить все"
 	L["Checkbox Groups"] = "Группы флажков"
 	L["In filter menus, checkbox groups assume if nothing is checked you want to view all choices.\n\nYou can also:\n\n%s[Shift]+Click\124r to check all except the box clicked.\n\n%s[Alt]+Click\124r to uncheck all except the box clicked."] = "В меню фильтров группы флажков предполагают, что если ничего не было отмечено, вы хотите просмотреть все варианты. \n\nВы можете также: \n\n%s[Shift]+Click\124r, чтобы отметить все, кроме того куда наведён курсор. \n\n%s[Alt]+Click\124r, чтобы снять флажок, кроме того куда наведён курсор."
@@ -199,8 +200,8 @@ if GetLocale()=="ruRU" then
 	L["High Level (15-24)"] = "Высокий уровень (15-24)"
 	L["Max Level (25)"] = "Максимальный уровень (25)"
 	L["Without Any 25s"] = "Без любых 25"
-	L["Moveset Not At 25"] = "Moveset Not At 25"
-	L["You can filter to a specific level or range of levels in the search box. For example, search for:\n\n\%slevel=1\124r\nили\n\%slevel=21-23\124r"] = "Вы можете отфильтровать до определенного уровня или диапазона уровней в окне поиска. Например, выполните поиск: \n\n\%slevel=1\124r\nor\n\%slevel=21-23\124r"
+	L["Moveset Not At 25"] = "Набор атак не на 25"
+	L["You can filter to a specific level or range of levels in the search box. For example, search for:\n\n\%slevel=1\124r\nor\n\%slevel=21-23\124r"] = "Вы можете отфильтровать до определенного уровня или диапазона уровней в окне поиска. Например, выполните поиск: \n\n\%slevel=1\124r\nили\n\%slevel=21-23\124r"
 	L["All breed data is pulled from your installed %s%s\124r addon.\n\nThe breed \"New\" categorizes pets with no breed data. Keep your breed addon up to date to see if they have new data."] = "Все данные о породе берутся из вашего установленного %s%s\124r аддона.\n\nПитомец отмеченный \"New\" классифицируется без данных о породе. Держите аддон для определения породы включенным, чтобы узнать, есть ли у них новые данные."
 	L["Not Leveling"] = "Не прокачивать"
 	L["Not Tradable"] = "Нельзя продать"
@@ -242,6 +243,9 @@ if GetLocale()=="ruRU" then
 	L["Stop Randomizing This Slot"] = "Остановить выбор случайного питомца для этого слота"
 	L["Stop Ignoring This Slot"] = "Прекратить игнорировать этот слот"
 	L["Any Type"] = "Любой тип"
+	L["Unique Moveset"] = "Уникальный набор атак"
+	L["Find Moveset"] = "Найти набор атак"
+	L["Shared Moveset"] = "Совместный набор атак"
 
 -- Menus\Npcs.lua
 	L["Imported Team"] = "Импортировать команду"
@@ -440,9 +444,8 @@ if GetLocale()=="ruRU" then
 	L["Hide Level At Max Level"] = "Скрыть уровень на максимальном уровне"
 	L["If a pet is level 25, don't show its level on the pet icon."] = "Если питомец 25 уровня, не показывать его уровень на значке питомца."
 	L["Show Ability Numbers"] = "Показать номера способностей"
-	L["In the ability flyout, show the numbers 1 and 2 to help with the common notation such as \"Pet Name 122\" to know which abilities to use."] = "В раскрывающемся списке возможностей указать номера 1 и 2, чтобы помочь с общей записью, такой как \"Pet Name 122\" чтобы узнать, какие способности использовать."
+	L["In the ability flyout, show the numbers 1 and 2 to help with the common notation such as \"Pet Name 122\" to know which abilities to use."] = "В раскрывающемся списке возможностей указать номера 1 и 2, чтобы помочь с общим обозначеним, таким как \"Имя Питомца 122\" чтобы узнать, какие способности использовать."
 	L["On Loaded Abilities Too"] = "О загруженных способностях тоже."
-	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities in all but minimized views."] = "В дополнение к всплывающим подсказкам, показать номера 1 и 2 на загруженных способностях во всех, кроме сведенных к минимуму."
 	L["Toolbar Options"] = "Параметры панели инструментов"
 	L["Move Toolbar To Bottom"] = "Переместить панель инструментов в нижнюю часть"
 	L["Move the toolbar buttons (Revive Battle Pets, Battle Pet Bandages, Safari Hat, etc) to the bottom of the standalone window.\n\nAlso convert the red panel buttons (Save, Save As, Find Battle) to toolbar buttons."] = "Переместить кнопки панели инструментов (Воскрешение, Бинты для боевых питомцев, Шляпа для сафари и т.д.) в нижнюю часть отдельного окна. \n\nТакже преобразовать кнопки панели красного цвета (Сохранить, Сохранить как, Вступить в битву) на кнопки панели инструментов."
@@ -475,7 +478,7 @@ if GetLocale()=="ruRU" then
 	L["Only display notes automatically the first time entering battle, until another team is loaded."] = "Автоматически отображать заметки при первом входе в битву, пока не будет загружена другая команда."
 	L["Alternate Lore Font"] = "Альтернативный шрифт Lore"
 	L["Use a more normal-looking font for lore text on the back of the pet card."] = "Использовать стандартный шрифт для текста справки на обратной стороне карточки питомцев."
-	L["Show Species ID On Pet Cards"] = nil
+	L["Show Species ID On Pet Cards"] = "Показать Species ID на карточке питомца"
 	L["Display the numerical species ID of a pet as a stat on their pet card."] = nil
 	L["Team Options"] = "Параметры команды"
 	L["Load Healthiest Pets"] = "Загрузка более полезных питомцев"
@@ -522,8 +525,8 @@ if GetLocale()=="ruRU" then
 	L["When manually clearing filters, don't clear the search box too.\n\nSome actions, such as logging in or Find Similar, will always clear search regardless of this setting."] = "При ручной очистке фильтров также не очищать окно поиска. \n\nНекоторые действия, такие как вход в систему или поиск похожих, всегда будут очищать поиск независимо от этого параметра."
 	L["Sort By Chosen Name"] = "Сортировать по изменённому имени"
 	L["When pets are sorted by name, sort them by the name given with the Rename option instead of their original name."] = "Когда питомцы сортируются по имени, сортировать их по имени, указанному в опции «Переименовать», вместо оригинального имени."
-	L["Don't Sort By Relevance"] = nil 
-	L["When searching for something by name in the search box, do not sort the results by relevance.\n\nWhen sorted by relevance, pets with the search term in their name are listed first, followed by terms in notes, then abilities and then source text last."] = nil
+	L["Don't Sort By Relevance"] = "Не сортировать по актуальности" 
+	L["When searching for something by name in the search box, do not sort the results by relevance.\n\nWhen sorted by relevance, pets with the search term in their name are listed first, followed by terms in notes, then abilities and then source text last."] = "Когда вы вводите имя в строке поиска, не сортировать результатыты по акктуальности.\n\nКогда сортируется по актуальности,сначало идут питомцы с критериеем на поиск их имени , заметка для команды, потом способности и в конце исходный текст."
 	L["Confirmation Options"] = "Параметры подтверждения"
 	L["Don't display a popup when a team loads and a pet within the team can't be found."] = "Не показывать всплывающее окно, когда команда загружается, а питомец внутри команды не может быть найден."
 	L["Don't ask for confirmation when hiding a pet.\n\nYou can view hidden pets in the 'Other' pet filter."] = "Не спрашивать подтверждения при скрытии питомца. \n\n Вы можете просматривать скрытых питомцев в фильтре «Другой»."
@@ -566,6 +569,10 @@ if GetLocale()=="ruRU" then
 	L["This scale determines the relative size of the standalone window, where 100% is the standard size."] = "Эта шкала определяет относительный размер отдельного окна, где 100% является стандартным размером."
 	L["Randomize Abilities Too"] = "Случайные способности так же"
 	L["For random pets, randomize the pets' abilities also."] = "Для случайных питомцев, распределить способности случайным образом, а не так как они у Вас выбраны в атласе питомцев."
+	L["In addition to the flyouts, show the numbers 1 and 2 on loaded abilities."] = "В дополнение к всплывающим подсказкам, показать номера 1 и 2 на загруженных способностях."
+	L["When a team auto loads, show the Rematch window if any pets in the team are injured."] = "При автоматической загрузке команды показать окно Rematch, если какой-либо из загруженных питомцев в команде ранен."
+	L["Hide Non-Battle Pets"] = "Скрыть питомцев не для битв"
+	L["Only list pets that can battle. Do not list pets like balloons, squires and other companion pets that cannot battle."] = "Показать только тех питомцев которые могу участвовать в битвах. Не показывать питомцев таких как воздушные шары, сквайры и другие питомцы, которые не могут участвовать в битвах питомцев."
 
 -- Widgets\BottomPanel.lua
 	L["You can also double-click a pet to summon or dismiss it."] = "Вы также можете дважды щелкнуть на питомца, чтобы вызвать или отпустить его."
@@ -681,7 +688,7 @@ if GetLocale()=="ruRU" then
 	L["Import"] = "Импортировать"
 	L["%s%d\124r Rematch teams have the same name."] = "%s%d\124r Rematch Команды имеют одно и то же имя."
 	L["Please Wait..."] = "Пожалуйста подождите..."
-	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records, specific breeds and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = "Примечание. Это только ваши команды, их заметки и предпочтения. Информация о вкладе, порядок сортировки, записи побед, конкретные породы и другие параметры не включены. \n\nДля самой полной резервной копии всех ваших данных аддона сделайте резервнау копию вашей папки Word of Warcraft \\ WTF."
+	L["Note: These are just your teams and their notes and preferences. Tab information, sort orders, win records and other settings are not included.\n\nFor the most complete backup of all your addon data, please backup your Word of Warcraft\\WTF folder."] = "Примечание. Это только ваши команды, их заметки и предпочтения. Информация о вкладе, порядок сортировки, записи побед и другие параметры не включены. \n\nДля самой полной резервной копии всех ваших данных аддона сделайте резервнау копию вашей папки Word of Warcraft \\ WTF."
 	L["Press Ctrl+C to copy these teams to the clipboard. Then paste them into an email to yourself or a text file someplace safe.\n\nIf you ever need to restore your teams, paste them back in with Import Teams."] = "Нажмите Ctrl + C, чтобы скопировать эти команды в буфер обмена, а затем вставьте их в электронную почту для себя или текстового файла. \n\nЕсли вам когда-либо понадобится восстановить свои команды, вставьте их обратно с помощью Импорт команд."
 	L["Backup All Rematch Teams?"] = "Сделать резервное копирование всех команд Rematch?"
 	L["You have %s%d\124r Rematch teams.\n\nWould you like to back them up?"] = "У вас есть  %s%d\124r команда Rematch. \n\nВы хотите создать резервную копию?"

@@ -14,28 +14,23 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2017-12-12",
+			["NextWeeklyReset"] = "2017-12-19",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1511749347,
+				["lastUpdate"] = 1513123470,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["Calendar"] = {
-					"2017-12-07|19:00|Normal Antorus|1|2", -- [1]
-					"2017-12-10|19:00|Heroic Antorus|1|2", -- [2]
-					"2017-12-14|19:00|Normal Antorus|1|9", -- [3]
-				},
-				["lastUpdate"] = 1512520875,
+				["lastUpdate"] = 1513122751,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -44,10 +39,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1511749307,
+				["lastUpdate"] = 1513147767,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1511749541,
+				["lastUpdate"] = 1513123706,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -56,31 +51,38 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618514,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1511749589,
+				["lastUpdate"] = 1513325586,
+				["DungeonIDs"] = {
+					["Eye of Azshara Mythic|282237396"] = "370168|1513325420|0|0",
+				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1511749423,
+				["ChallengeMode"] = {
+					["weeklyBestLevel"] = 3,
+					["weeklyBestTime"] = 1757175,
+				},
+				["lastUpdate"] = 1513123574,
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1513123119,
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1513144613,
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1513144870,
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1513123612,
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1513149236,
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1513324391,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427638,
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1511749673,
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1512031954,
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1511749458,
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1512030470,
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1511749714,
-			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1512030407,
 			},
 		},
 	},

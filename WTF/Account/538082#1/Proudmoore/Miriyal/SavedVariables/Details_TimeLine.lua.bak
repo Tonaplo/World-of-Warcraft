@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "01:45:14",
-			["date_start"] = "01:44:31",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 43.643,
-		}, -- [1]
-		{
-			["date_end"] = "01:42:34",
-			["date_start"] = "01:41:50",
-			["name"] = "Dresaron",
-			["total_time"] = 44.3259999999973,
-		}, -- [2]
-		{
-			["date_end"] = "01:39:42",
-			["date_start"] = "01:39:03",
-			["name"] = "Oakheart",
-			["total_time"] = 39.5519999999997,
-		}, -- [3]
-		{
-			["date_end"] = "01:36:18",
-			["date_start"] = "01:35:58",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 20.1660000000011,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Shortypie-Moonrunner"] = {
@@ -190,13 +172,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Miriyal"] = {
@@ -355,6 +330,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "01:45:14",
+			["date_start"] = "01:44:31",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 43.643,
+		}, -- [1]
+		{
+			["date_end"] = "01:42:34",
+			["date_start"] = "01:41:50",
+			["name"] = "Dresaron",
+			["total_time"] = 44.3259999999973,
+		}, -- [2]
+		{
+			["date_end"] = "01:39:42",
+			["date_start"] = "01:39:03",
+			["name"] = "Oakheart",
+			["total_time"] = 39.5519999999997,
+		}, -- [3]
+		{
+			["date_end"] = "01:36:18",
+			["date_start"] = "01:35:58",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 20.1660000000011,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -365,5 +366,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

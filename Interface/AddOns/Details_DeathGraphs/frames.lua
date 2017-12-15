@@ -20,7 +20,8 @@ do
 		local BUTTON_BACKGROUND_COLORHIGHLIGHT = {.5, .5, .5, .8}
 		
 		local CONST_MIN_HEALINGDONE_DEATHLOG = 50000
-		local CONST_MAX_DEATH_EVENTS = 23
+		local CONST_MAX_DEATH_EVENTS = 29
+		local CONST_MAX_DEATH_PLAYERS = 25
 		
 		local Loc = LibStub ("AceLocale-3.0"):GetLocale ("Details_DeathGraphs")
 		
@@ -1302,7 +1303,7 @@ do
 		
 		local change_mode = function (self, button, selected_mode)
 			DeathGraphs:HideAll()
-		
+			
 			if (selected_mode == BUTTON_INDEX_CURRENT) then
 				--> current
 				DeathGraphs:ShowCurrent() --internal index: 3
@@ -2026,9 +2027,9 @@ do
 	currentFrame:SetSize (800, 400)
 	
 	f.CurrentDeathFrame = currentFrame
-
+	
 	local segment_label = framework:NewLabel (currentFrame, nil, "$parentSegmentLabel", nil, "Segment:", "GameFontNormal")
-
+	
 	local OnSelectEncounter = function (_, _, index)
 		--> selected the segment
 		currentFrame.Refresh (index)
@@ -2042,7 +2043,7 @@ do
 		end
 		return list
 	end
-
+	
 	local segment_dropdown = framework:NewDropDown (currentFrame, nil, "$parentSegmentDropdown", "SegmentDropdown", 150, 20, build_segments_menu, 1, options_dropdown_template)
 	segment_label:SetPoint ("topleft", currentFrame, "topleft", 0, 1)
 	segment_dropdown:SetPoint ("topleft", segment_label, "bottomleft", 0, -5)
@@ -2087,7 +2088,7 @@ do
 		local r, g, b = self:GetBackdropColor()
 		self:SetBackdropColor (r, g, b, self.backdropAlpha)
 	end
-
+	
 	--> create the lines for the death log
 	for i = 1, CONST_MAX_DEATH_EVENTS do
 		local column_frame = CreateFrame ("frame", nil, deathPanel)
@@ -2122,10 +2123,10 @@ do
 		column_frame.hitTime:SetPoint ("left", column_frame, "left", 2, 0)
 		column_frame.hitStrength:SetPoint ("left", column_frame, "left", 100, 0)
 		
-		column_frame.hitSpellIcon:SetPoint ("left", column_frame, "left", 190, 0)
-		column_frame.hitSpell:SetPoint ("left", column_frame, "left", 204, 0)
+		column_frame.hitSpellIcon:SetPoint ("left", column_frame, "left", 176, 0)
+		column_frame.hitSpell:SetPoint ("left", column_frame, "left", 190, 0)
 		
-		column_frame.hitSource:SetPoint ("left", column_frame, "left", 345, 0)
+		column_frame.hitSource:SetPoint ("left", column_frame, "left", 355, 0)
 		
 		column_frame.healthBar:SetPoint ("left", column_frame, "left", 520, 0)
 		column_frame.healthBarBackground:SetPoint ("left", column_frame, "left", 520, 0)
@@ -2294,8 +2295,8 @@ do
 						column.hitStrength.text = "+" .. number_format_func (_, amount)
 						column.hitStrength.textcolor = {0.8, 1, 0.8, 0.9}
 						column.hitStrength.textsize = 10
-						column:SetBackdropColor (.2, 1, .2, 1)
-						column.backdropAlpha = 0.05
+						column.backdropAlpha = 0.25
+						column:SetBackdropColor (.2, 1, .2, column.backdropAlpha)
 						column:SetAlpha (.75)
 						
 					elseif (evtype_string == "debuff") then
@@ -2433,7 +2434,7 @@ do
 	end
 	
 	--> create player selection buttons
-	for i = 1, 20 do 
+	for i = 1, CONST_MAX_DEATH_PLAYERS do 
 		local button = framework:CreateButton (playerListFrame, playerSelected, 140, 16, "", i, nil, nil, nil, nil, 1)
 		button:SetPoint (5, (i-1)*17*-1)
 		button.textcolor = BUTTON_TEXT_COLOR
@@ -2451,7 +2452,7 @@ do
 	end
 	--> hide all player buttons
 	function deathPanel.HideAllPlayerButtons()
-		for i = 1, 20 do
+		for i = 1, CONST_MAX_DEATH_PLAYERS do
 			local button = playerButtons [i]
 			button:Hide()
 		end
@@ -2468,7 +2469,7 @@ do
 		local deaths = encounter.deaths
 		
 		--> get the list of players of this segment and add them to the buttons
-		for i = 1, min (20, #deaths) do
+		for i = 1, min (CONST_MAX_DEATH_PLAYERS, #deaths) do
 			local player = deaths [i]
 			local button = playerButtons [i]
 			
@@ -2534,9 +2535,12 @@ do
 --> search keys: ~timeline
 --> graphic of enemy abilities and players deaths
 	
+	local CONST_TIMELINE_WIGHT = 905
+	local CONST_TIMELINE_HEIGHT = 505
+	
 	local deathAbilityGraph = CreateFrame ("frame", "DeathGraphsPlayerGraphicDeaths", f)
 	deathAbilityGraph:SetPoint ("topleft", 10, -50)
-	deathAbilityGraph:SetSize (905, 405)
+	deathAbilityGraph:SetSize (CONST_TIMELINE_WIGHT, CONST_TIMELINE_HEIGHT)
 	
 	f.deathAbilityGraph = deathAbilityGraph
 	
@@ -2544,13 +2548,9 @@ do
 	
 		local boss_label = framework:NewLabel (deathAbilityGraph, nil, "$parentBossLabel", nil, "Boss Encounter:", "GameFontNormal")
 		local OnSelectBossEncounter = function (_, _, type)
-			-- selecionou o segmento
+			--> selected the segment
 			deathAbilityGraph.Refresh (type)
 		end
-		
-		--{value = 1, label = "Deaths", onclick = OnSelectType, icon = [[Interface\GROUPFRAME\UI-GROUP-MAINASSISTICON]], desc = death_desc},
-		
-		--DeathGraphs.graph_database
 		
 		local build_boss_menu = function()
 			local list = {}
@@ -2581,6 +2581,7 @@ do
 					if (not bossName) then
 						bossName = "Unknown Boss"
 					end
+
 					tinsert (list, {value = hash, label = bossName .. " (" .. diffName .. ")", onclick = OnSelectBossEncounter, icon = icon, texcoord = {L, R, T, B}})
 				end
 				
@@ -2595,31 +2596,57 @@ do
 				end
 				
 			end
-
+		
 			return list
 		end
-
+		
 		local boss_dropdown = framework:NewDropDown (deathAbilityGraph, nil, "$parentBossDropdown", "BossDropdown", 150, 20, build_boss_menu, 1, options_dropdown_template)
 		boss_label:SetPoint ("topleft", deathAbilityGraph, "topleft", 0, 1)
 		boss_dropdown:SetPoint ("topleft", boss_label, "bottomleft", 0, -5)
-
+		
+		function boss_dropdown:SelectLastEncounter()
+			local currentCombat = Details:GetCurrentCombat()
+			if (currentCombat) then
+				if (currentCombat.is_boss) then
+				
+					--> get the map index
+					local mapID = currentCombat.is_boss.mapid
+					--> get the boss index within the raid
+					local bossIndex = Details:GetBossIndex (mapID, currentCombat.is_boss.id, nil, currentCombat.is_boss.name)
+					if (bossIndex) then
+						--> get the EJID
+						local EJID = Details.EncounterInformation [mapID] and _detalhes.EncounterInformation [mapID].encounter_ids [bossIndex]
+						if (EJID) then
+							--> if the EJID exists build the hash
+							local bossDificulty = currentCombat.is_boss.diff
+							local hash = tostring (EJID) .. tostring (bossDificulty)
+							if (hash) then
+								boss_dropdown:Select (hash)
+							end
+						end
+					end
+				end
+			end
+		end
+		
+		
 		--> graph frame:
 		local graphFrame = CreateFrame ("frame", "DeathGraphsPlayerGraphicDeaths_graphFrame", deathAbilityGraph)
 		
 		graphFrame.Width = 738
-		graphFrame.Height = 408
-		graphFrame.LineHeight = 340 --> how hight the death bars goes
+		graphFrame.Height = 516
+		graphFrame.LineHeight = 440 --> how hight the death bars goes
 		graphFrame.LineWidth = 900 --> width of spellbars
 		graphFrame.MaxSpellLines = 25 --> max os spell lines, they auto resize the height according to the amount shown
 		graphFrame.SpellBlockAlpha = 0.3 --> the alpha of the little red spell blocks
 		graphFrame.SpellLineBackground = {.5, .5, .5, .3} --> spell line default color
 		graphFrame.SpellLineBackgroundHighlight = {.5, .5, .5, .8} --> color when hover over a spell line
-
+		
 		graphFrame:SetPoint ("topleft", deathAbilityGraph, "topleft", 170, 0)
 		graphFrame:SetSize (graphFrame.Width, graphFrame.Height)
 		graphFrame:SetBackdrop ({bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16})
 		graphFrame:SetBackdropColor (0, 0, 0, 0)
-
+		
 		--> death lines
 		local deathLinesFrame = CreateFrame ("frame", "DeathGraphsPlayerGraphicDeaths_deathLinesFrame", graphFrame)
 		deathLinesFrame:SetFrameLevel (graphFrame:GetFrameLevel()+4)
@@ -3116,8 +3143,12 @@ do
 	--> OnShow Timeline - refresh the dropdown and show the first boss // should be show the last boss
 	deathAbilityGraph:SetScript ("OnShow", function (self)
 		boss_dropdown:Refresh()
+		
 		boss_dropdown:Select (1, true)
+		boss_dropdown:SelectLastEncounter()
+		
 		local currentValue = boss_dropdown:GetValue()
+		
 		if (type (currentValue) == "string") then
 			OnSelectBossEncounter (_, _, currentValue)
 		end

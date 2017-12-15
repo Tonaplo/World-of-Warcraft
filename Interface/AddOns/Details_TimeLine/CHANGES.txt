@@ -1,7 +1,7 @@
-changeset:   75:bff7d339955d
-tag:         v7.3.2.075
+changeset:   77:e769b2448c6c
+tag:         v7.3.2.077
 user:        Tercio
-date:        Thu Nov 30 10:29:00 2017 -0200
-summary:     - Added support to the new plugin embed window on Details!.
+date:        Fri Dec 08 19:23:30 2017 -0200
+summary:     - Fixed several frame sizes to fit correctly inside the new plugin frame on Details!.
 
 

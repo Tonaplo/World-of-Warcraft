@@ -368,14 +368,20 @@ local function CreatePluginFrames()
 	
 	TimeLineFrame:SetPoint ("center", UIParent, "center")
 	
-	TimeLineFrame.Width = 925 --718 old value
-	TimeLineFrame.Height = 498
+	TimeLineFrame.Width = 925 --925 --718 old value
+	TimeLineFrame.Height = 575 --498
+	
+	local CONST_TOTAL_TIMELINES = 21 --timers shown in the top of the window
+	local CONST_ROW_HEIGHT = 16
+	local CONST_VALID_WIDHT = 784
+	local CONST_PLAYERFIELD_SIZE = 96
+	local CONST_VALID_HEIGHT = 528
 	
 	local mode_buttons_y_pos = 10
 	local mode_buttons_width = 100
 	local mode_buttons_height = 20
+
 	
-	local CONST_TOTAL_TIMELINES = 20
 	
 	TimeLineFrame:SetSize (TimeLineFrame.Width, TimeLineFrame.Height)
 	
@@ -434,15 +440,16 @@ local function CreatePluginFrames()
 	TimeLine.Times = {}
 	for i = 1, CONST_TOTAL_TIMELINES do 
 		local time = DetailsFrameWork:NewLabel (TimeLineFrame, nil, "$parentTime"..i, nil, "00:00")
-		time:SetPoint ("topleft", TimeLineFrame, "topleft", 78 + (i*39), -28)
+		time:SetPoint ("topleft", TimeLineFrame, "topleft", (CONST_PLAYERFIELD_SIZE-29) + (i*39), -28)
 		TimeLine.Times [i] = time
-		local line = DetailsFrameWork:NewImage (TimeLineFrame, nil, 1, 361, "border", nil, nil, "$parentTime"..i.."Bar")
-		line:SetColorTexture (1, 1, 1, .1)
+		
+		local line = DetailsFrameWork:NewImage (TimeLineFrame, nil, 1, CONST_VALID_HEIGHT, "border", nil, nil, "$parentTime"..i.."Bar")
+		line:SetColorTexture (1, 1, 1, .05)
 		line:SetPoint ("topleft", time, "topleft", 0, -10)
 	end
 	
 	function TimeLine:UpdateTimeLine (total_time)
-
+	
 		local linha = TimeLine.Times [CONST_TOTAL_TIMELINES]
 		local minutos, segundos = math.floor (total_time / 60), math.floor (total_time % 60)
 		if (segundos < 10) then
@@ -839,7 +846,7 @@ local function CreatePluginFrames()
 		
 		block.spell = {0, 0, "", "", 0} -- [1] spellid [2] used at [3] target name [4] playername [5] effect time
 		
-		block:SetHeight (14)
+		block:SetHeight (CONST_ROW_HEIGHT-2)
 		block:SetScript ("OnEnter", block_on_enter)
 		block:SetScript ("OnLeave", block_on_leave)
 		
@@ -869,7 +876,7 @@ local function CreatePluginFrames()
 		local where = pixel_per_sec * time_used
 		
 		block:ClearAllPoints()
-		block:SetPoint ("left", row, "left", where + 106, 0)
+		block:SetPoint ("left", row, "left", where + CONST_PLAYERFIELD_SIZE, 0)
 		
 		if (effect_time < 5) then
 			effect_time = 5
@@ -952,7 +959,7 @@ local function CreatePluginFrames()
 		
 		local where = pixel_per_sec * death.time
 		pin:ClearAllPoints()
-		pin:SetPoint ("left", row, "left", where + 106, 0)
+		pin:SetPoint ("left", row, "left", where + CONST_PLAYERFIELD_SIZE, 0)
 		pin.time = death.time
 		
 		for event = 1, #death.events do
@@ -1085,16 +1092,16 @@ local function CreatePluginFrames()
 		
 		-- cria as labels e mouse overs e da o set point
 		local f = CreateFrame ("frame", "DetailsTimeTimeRow"..index, TimeLineFrame)
-		f:SetSize (TimeLineFrame.Width - 15, 14)
+		f:SetSize (TimeLineFrame.Width - 15, CONST_ROW_HEIGHT)
 		
 		f:SetScript ("OnEnter", row_on_enter)
 		f:SetScript ("OnLeave", row_on_leave)
-		f:SetScript ("OnMouseDown", on_row_mousedown)
-		f:SetScript ("OnMouseUp", on_row_mouseup)
+		--f:SetScript ("OnMouseDown", on_row_mousedown)
+		--f:SetScript ("OnMouseUp", on_row_mouseup)
 		
 		f.block_frame_level = 3
 		
-		f.icon = DetailsFrameWork:NewImage (f, nil, 14, 14, "overlay", nil, nil, "$parentIcon")
+		f.icon = DetailsFrameWork:NewImage (f, nil, CONST_ROW_HEIGHT, CONST_ROW_HEIGHT, "overlay", nil, nil, "$parentIcon")
 		f.icon:SetPoint ("left", f, "left", 2, 0)
 		f.name = DetailsFrameWork:NewLabel (f, nil, "$parentName", nil)
 		f.name:SetPoint ("left", f.icon, "right", 2, 0)
@@ -1108,13 +1115,13 @@ local function CreatePluginFrames()
 			f:SetBackdropColor (unpack (BUTTON_BACKGROUND_COLOR2))
 		end
 		
-		local height = (index * 14) + 32
+		local height = (index * CONST_ROW_HEIGHT) + 32
 		f:SetPoint ("topleft", TimeLineFrame, "topleft", 8, -height)
 		
 		--> resize the window
-		if (index > 30) then
-			TimeLineFrame:SetHeight (TimeLineFrame.Height + ((index - 21) * 14))
-		end
+		--if (index > 30) then
+		--	TimeLineFrame:SetHeight (TimeLineFrame.Height + ((index - 21) * 14))
+		--end
 		
 		f.blocks = {}
 		f.pins = {}
@@ -1139,8 +1146,7 @@ local function CreatePluginFrames()
 		
 		local _table_to_use = TimeLine [current_type] [current_segment]
 		local total_time = TimeLine.combat_data [current_segment].total_time
-		--local pixel_per_sec = 540 / total_time
-		local pixel_per_sec = 747 / total_time
+		local pixel_per_sec = CONST_VALID_WIDHT / total_time
 		
 		local i = 0
 		
@@ -1161,14 +1167,14 @@ local function CreatePluginFrames()
 		
 		for index, t in ipairs (sorted) do
 			local player_table, player_name = t [1], t [2]
-
+		
 			i = i + 1
 			
 			local row = TimeLine.rows [i]
 			if (not row) then
 				row = TimeLine:CreateRow()
 			end
-
+		
 			local deaths = segment_deaths [player_name]
 		
 			SetPlayer (row, player_name, player_table, total_time, pixel_per_sec, deaths)

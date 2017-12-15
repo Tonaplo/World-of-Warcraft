@@ -470,7 +470,7 @@ end
 		frame:SetToplevel (true)
 	
 		--> using details framework
-		local chart_panel = ChartViewer:GetFramework():CreateChartPanel (frame, frame:GetWidth()-20, 318)
+		local chart_panel = ChartViewer:GetFramework():CreateChartPanel (frame, frame:GetWidth()-20, frame:GetHeight()-20, "ChartViewerWindowFrameChartFrame") --318
 		chart_panel:SetPoint ("topleft", frame, "topleft", 8, -65)
 		chart_panel:SetTitle ("")
 		chart_panel:SetFrameStrata ("HIGH")
@@ -505,11 +505,7 @@ end
 		chart_panel:SetBackdrop({
 				edgeFile = "Interface\\DialogFrame\\UI-DialogBox-gold-Border", tile = true, tileSize = 16, edgeSize = 5,
 				insets = {left = 1, right = 1, top = 0, bottom = 1},})
-		
-		--
 
-		--
-		
 		local g = chart_panel
 		
 		g:Reset()
@@ -1203,6 +1199,10 @@ function ChartViewer:OnEvent (_, event, ...)
 				end
 				
 				C_Timer.After (5, function()
+					--> adjust the size of the chart frame
+					local height = ChartViewerWindowFrame:GetHeight()
+					ChartViewerWindowFrameChartFrame:SetSize (ChartViewerWindowFrame:GetWidth()-20, height-100)
+				
 					ChartViewerWindowFrame:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\AddOns\Details\images\background]], tileSize = 64, tile = true})
 					ChartViewerWindowFrame:SetBackdropColor (0.2, 0.2, 0.2, .6)
 					ChartViewerWindowFrame:SetBackdropBorderColor (0, 0, 0, 1)

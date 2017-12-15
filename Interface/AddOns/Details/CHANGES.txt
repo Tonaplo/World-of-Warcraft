@@ -1,5 +1,23 @@
-changeset:   688:17b265227703
+changeset:   691:bfc5ab9d4df1
 tag:         tip
+user:        Tercio
+date:        Sat Dec 09 10:08:54 2017 -0200
+summary:     - Fixed an issue with the statistics sharing among guild members.
+
+
+changeset:   690:18cba0f76e41
+user:        Tercio
+date:        Fri Dec 08 18:09:20 2017 -0200
+summary:     - Fixed an issue with the statistics sharing among guild members.
+
+
+changeset:   689:deb826e20b4f
+user:        Tercio
+date:        Wed Dec 06 20:37:04 2017 -0200
+summary:     - attempt to fix the argus encounter double segments.
+
+
+changeset:   688:17b265227703
 user:        Tercio
 date:        Wed Nov 29 11:32:17 2017 -0200
 summary:     - Hotfix the issue of getting errors when login in the game.

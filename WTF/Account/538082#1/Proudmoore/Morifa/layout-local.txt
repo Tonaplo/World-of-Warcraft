@@ -27,6 +27,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: AltoholicFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -61
+Y: 148
+W: 832
+H: 447
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
@@ -48,10 +55,3 @@ X: 41
 Y: 107
 W: 370
 H: 110
-Frame: AltoholicFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -61
-Y: 148
-W: 832
-H: 447

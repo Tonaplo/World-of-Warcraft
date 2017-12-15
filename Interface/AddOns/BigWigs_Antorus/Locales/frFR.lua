@@ -23,7 +23,6 @@ if L then
 	L.timeLeft = "%.1fs" -- s = seconds
 	L.torment = "Tourment : %s"
 	L.nextTorment = "Prochain Tourment : |cffffffff%s|r"
-	L.nextTorments = "Prochain Tourments :"
 	L.tormentHeal = "Soin/DoT" -- something like Heal/DoT (max 10 characters)
 	L.tormentLightning = "Éclairs" -- short for "Chain Lightning" (or similar, max 10 characters)
 	L.tormentArmy = "Armée" -- short for "Spectral Army of Norgannon" (or similar, max 10 characters)
@@ -46,11 +45,11 @@ end
 
 L = BigWigs:NewBossLocale("Portal Keeper Hasabel", "frFR")
 if L then
-	--L.custom_on_stop_timers = "Always show ability bars"
-	--L.custom_on_stop_timers_desc = "Hasabel randomizes which off-cooldown ability she uses next. When this option is enabled, the bars for those abilities will stay on your screen."
+	L.custom_on_stop_timers = "Toujours afficher les barres des techniques"
+	L.custom_on_stop_timers_desc = "Hasabel choisit au hasard quelle technique hors cooldown elle utilise ensuite. Quand cette option est activée, les barres pour ces techniques resteront affichées sur votre écran."
 	L.custom_on_filter_platforms = "Filtrer les barres & messages des plateformes latérales"
 	L.custom_on_filter_platforms_desc = "Enlève les messages et les barres qui ne sont pas pertinents si vous n'êtes pas sur une plateforme latérale. Les barres et les alertes concernant la platforme principale, Nexus, seront toujours affichées."
-	--L.worldExplosion_desc = "Show a timer for the Collapsing World explosion."
+	L.worldExplosion_desc = "Affiche un délai pour l'explosion d'Effondrement du monde."
 	L.platform_active = "%s active !" -- Platform: Xoroth Active!
 	L.add_killed = "%s tué !"
 end
@@ -71,9 +70,9 @@ L = BigWigs:NewBossLocale("Gorothi Worldbreaker", "frFR")
 if L then
 	L.cannon_ability_desc = "Affiche des messages et des barres relatifs aux 2 canons sur le dos du Brise-monde garothi."
 
-	--L.missileImpact = "Annihilation Impact"
+	L.missileImpact = "Impact Annihilation"
 	L.missileImpact_desc = "Affiche un délai pour l'atterrissage des missiles d'Annihilation."
 
-	--L.decimationImpact = "Decimation Impact"
-	--L.decimationImpact_desc = "Show a timer for the Decimation missiles landing."
+	L.decimationImpact = "Impact Décimation"
+	L.decimationImpact_desc = "Affiche un délai pour l'atterrissage des missiles de Décimation."
 end

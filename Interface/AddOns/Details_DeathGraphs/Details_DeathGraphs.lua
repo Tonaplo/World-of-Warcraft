@@ -362,7 +362,7 @@ local function CreatePluginFunctions()
 						local max_endurance = DeathGraphs.db.endurance_threshold
 						local max_deaths = DeathGraphs.db.deaths_threshold
 						local max_deaths_for_current = DeathGraphs.db.max_deaths_for_current
-					
+						
 						local deaths_stored = 0
 						
 						--> get boss icon (for last try deaths)
@@ -411,7 +411,7 @@ local function CreatePluginFunctions()
 						for i, t in ipairs (death_list) do
 						
 							-------------------------------------
-							--> for last try deaths stuff
+							--> for 'last try' deaths stuff
 								local _, class = UnitClass (t[3])
 								local playername, playerclass, deathtime, deathcombattime, deathtimestring, playermaxhealth, deathevents, lastcooldown = DeathGraphs:UnpackDeathTable (t)
 								if (#current_table.deaths < max_deaths_for_current) then
@@ -763,7 +763,7 @@ function DeathGraphs:OnEvent (_, event, ...)
 					deaths_threshold = 10,
 					endurance_threshold = 3,
 					max_segments_for_current = 2,
-					max_deaths_for_current = 15,
+					max_deaths_for_current = 20,
 					max_deaths_for_timeline = 5,
 					timeline_cutoff_time = 3,
 					timeline_cutoff_delete_time = 3,

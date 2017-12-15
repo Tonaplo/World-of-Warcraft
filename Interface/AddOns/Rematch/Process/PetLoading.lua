@@ -136,9 +136,9 @@ function rematch:FindHealthiestLoadIn()
 					local healthiestPetID = petID
 					for cPetID in rematch.Roster:AllOwnedPets() do
 						local cSpeciesID,_,cLevel = C_PetJournal.GetPetInfoByPetID(cPetID)
-						if cSpeciesID==speciesID and cLevel==level then
-							local cHealth,cMaxHealth,cPower,cSpeed = rematch:GetPetStats(cPetID)
-							if cHealth>health and cMaxHealth==maxHealth and cPower==power and cSpeed==speed then
+						if cSpeciesID==speciesID and (settings.LoadHealthiestAny or cLevel==level) then
+                     local cHealth,cMaxHealth,cPower,cSpeed = rematch:GetPetStats(cPetID)
+							if cHealth>health and (settings.LoadHealthiestAny or (cMaxHealth==maxHealth and cPower==power and cSpeed==speed)) then
 								local isTeammate -- prevent substituting a version that's going to another slot
 								for j=1,3 do
 									if i~=j and loadin[j][1]==cPetID then
