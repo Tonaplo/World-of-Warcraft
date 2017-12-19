@@ -57,7 +57,7 @@ function rematch:LoadTeam(key)
          loadin[i][1] = petID -- will come back to this pet later
          numRandomSlots = numRandomSlots + 1
 		elseif petID and petID~=0 then
-			local idType = rematch:GetIDType(petID)
+         local idType = rematch:GetIDType(petID)
 			if idType=="species" then
 				-- if pet is a speciesID, look for a temporary petID (sanctuary failed to find one)
 				petID = rematch:FindTemporaryPetID(petID,team[1][1],team[2][1],team[3][1])

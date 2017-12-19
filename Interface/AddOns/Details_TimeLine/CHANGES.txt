@@ -1,7 +1,7 @@
-changeset:   77:e769b2448c6c
-tag:         v7.3.2.077
+changeset:   79:ea043737be2f
+tag:         v7.3.2.079
 user:        Tercio
-date:        Fri Dec 08 19:23:30 2017 -0200
-summary:     - Fixed several frame sizes to fit correctly inside the new plugin frame on Details!.
+date:        Fri Dec 15 10:21:58 2017 -0200
+summary:     - Fixed the menu bar height being to high causing overlap with lines in the timeline.
 
 

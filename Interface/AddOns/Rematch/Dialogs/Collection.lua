@@ -3,7 +3,7 @@ local rematch = Rematch
 local collection = RematchDialog.CollectionReport
 local report, settings
 
-collection.chartNames = { L["Total Collected Pets"], L["Unique Collected Pets"], L["Pets Not Collected"], L["Percent Collected"], L["Max Level Pets"], L["Rare Quality Pets"], L["Unique Pets In The Game"] }
+collection.chartNames = { L["Total Collected Pets"], L["Unique Collected Pets"], L["Pets Not Collected"], L["Percent Collected"], L["Max Level Pets"], L["Rare Quality Pets"], L["Unique Pets In the Journal"] }
 collection.chartColors = { -- first is pet types colors, second is sources colors
 	{ {0.03125,0.56640625,0.88671875}, {0.07421875,0.4375,0.07421875}, {0.78125,0.765625,0.30078125}, {0.40625,0.28125,0.3125}, {0.46875,0.328125,0.25}, {0.65625,0.4375,0.96875}, {0.96875,0.640625,0}, {0.73828125,0.140625,0.11328125}, {0.03125,0.66796875,0.69921875}, {0.625,0.625,0.5625} },
 	{ {0.29296875,0.4921875,0.33984375}, {0.81640625,0.796875,0.55859375}, {0.89453125,0.61328125,0.03125}, {0.73046875,0.72265625,0.6875}, {0.90625,0.421875,0.09375}, {0.40234375,0.49609375,0.62109375}, {0.3828125,0.1484375,0.6796875}, {0.48046875,0.66015625,0.67578125}, {0.56640625,0.05859375,0.171875}, {0.19140625,0.65625,0.66796875} }
@@ -30,7 +30,7 @@ function rematch:ShowCollectionReport()
 
 	local frame = dialog.CollectionReport -- the frame that contains the report 
 
-	frame.InGame:SetText(format(L["There are %s%d\124r unique pets in the game."],rematch.hexWhite,report.ingame))
+	frame.InGame:SetText(format(L["There are %s%d\124r unique pets in the journal"],rematch.hexWhite,report.ingame))
 	frame.OwnedLabel:SetText(L["Pets Collected"])
 	frame.MaxLevelLabel:SetText(L["Pets At Max Level"])
 	frame.RaresLabel:SetText(L["Rare Quality Pets"])
@@ -50,7 +50,7 @@ function rematch:ShowCollectionReport()
 	frame.AvgLevel:SetText(format("%.1f",report.avglevel))
 	frame.Missing:SetText(report.missing)
 
-	frame.Complete:SetText(format(L["You have %s%.1f%%\124r of all unique pets."],rematch.hexWhite,report.complete))
+	frame.Complete:SetText(format(L["You have %s%.1f%%\124r of those unique pets"],rematch.hexWhite,report.complete))
 	for i=4,1,-1 do
 		frame.RarityBar[i]:SetVertexColor(ITEM_QUALITY_COLORS[i-1].r,ITEM_QUALITY_COLORS[i-1].g,ITEM_QUALITY_COLORS[i-1].b)
 		frame.RarityBar[i]:ClearAllPoints()
@@ -65,7 +65,7 @@ function rematch:ShowCollectionReport()
 	-- one-time initialization of stuff first time a report/chart is shown
 	if not rematch:GetMenu("CollectionReportMenu") then
 		rematch:RegisterMenu("CollectionReportMenu", {
-			{ text=collection.CollectionChartMenuText, index=7, func=collection.CollectionChartMenuFunc, tooltipBody=L["All unique pets in the game."] },
+			{ text=collection.CollectionChartMenuText, index=7, func=collection.CollectionChartMenuFunc, tooltipBody=L["All unique pets in the journal. This is all obtainable unique pets."] },
 			{ text=collection.CollectionChartMenuText, index=1, func=collection.CollectionChartMenuFunc, tooltipBody=L["All pets you've collected, including duplicates."] },
 			{ text=collection.CollectionChartMenuText, index=2, func=collection.CollectionChartMenuFunc, tooltipBody=L["The unique pets you've collected, not including duplicates."] },
 			{ text=collection.CollectionChartMenuText, index=3, func=collection.CollectionChartMenuFunc, tooltipBody=L["The unique pets you're missing."] },

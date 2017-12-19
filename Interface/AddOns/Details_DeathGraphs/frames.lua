@@ -710,9 +710,11 @@ do
 		endurance_frame:SetFrameLevel (f:GetFrameLevel()+5)
 		endurance_frame:SetPoint ("topleft", enduranceFrameMenuAnchor, "topleft", 170, -45)
 		
-		endurance_frame:SetSize (718, 370)
+		endurance_frame:SetSize (718, 470)
 		endurance_frame:SetResizable (false)
 		endurance_frame:SetMovable (true)
+		
+		local CONST_ENDURANCE_BREAKLINE = 450
 		
 		if (not DetailsPluginContainerWindow) then
 			endurance_frame:EnableMouse (true)
@@ -742,11 +744,6 @@ do
 		else
 			endurance_frame:EnableMouse (false)
 		end
-		--endurance_frame:SetBackdrop ({bgFile = "Interface\\AddOns\\Details\\images\\background", tile = true, tileSize = 16,
-		--edgeFile=[[Interface\AddOns\Details\images\border_2]], edgeSize=16,
-		--insets = {left = 0, right = 0, top = 0, bottom = 0}})
-		--endurance_frame:SetBackdropColor (.1, .1, .1, .2)
-		--endurance_frame:SetBackdropBorderColor (.8, .8, .8, 1)
 		
 		endurance_frame.labels = {}
 		endurance_frame:Hide()
@@ -777,7 +774,7 @@ do
 				break
 			end
 		end
-		local clear_endurance = framework:NewButton (endurance_frame, _, "$parentClearEnduranceButton", "ClearEnduranceButton", 70, mode_buttons_height, clear_endurance_func, nil, nil, nil, "Clear", 1, options_dropdown_template)
+		local clear_endurance = framework:NewButton (endurance_frame, _, "$parentClearEnduranceButton", "ClearEnduranceButton", 120, mode_buttons_height, clear_endurance_func, nil, nil, nil, "Clear", 1, options_dropdown_template)
 		clear_endurance:SetPoint ("bottomleft", endurance_frame, "topleft", 0, 9)
 
 		--> report
@@ -805,11 +802,9 @@ do
 			local use_slider = true
 			DeathGraphs:SendReportWindow (reportFunc, nil, nil, use_slider)
 		end
-		local report_endurance = framework:NewButton (endurance_frame, _, "$parentReportEnduranceButton", "ReportEnduranceButton", 70, mode_buttons_height, report_endurance_func, nil, nil, nil, "Report", 1, options_dropdown_template)
+		local report_endurance = framework:NewButton (endurance_frame, _, "$parentReportEnduranceButton", "ReportEnduranceButton", 120, mode_buttons_height, report_endurance_func, nil, nil, nil, "Report", 1, options_dropdown_template)
 		report_endurance:SetPoint ("left", clear_endurance, "right", 2, 0)
-		
-		
-		
+
 		function endurance_frame:Clear()
 			for _, label in ipairs (self.labels) do 
 				label.points:Hide()
@@ -896,7 +891,7 @@ do
 		end
 		
 		local backdrop = {bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16}
-
+		
 		function endurance_frame:SetPlayer (index, player_name, player_class, points, percent, encounters, deaths, min, max)
 			local label = self.labels [index]
 			
@@ -926,7 +921,7 @@ do
 				str2:SetPoint ("left", icon1, "right", 4, 0)
 				
 				endurance_frame.y = endurance_frame.y - 17
-				if (endurance_frame.y < -350) then
+				if (endurance_frame.y < -CONST_ENDURANCE_BREAKLINE) then
 					endurance_frame.y = endurance_frame.y_original
 					endurance_frame.x = endurance_frame.x + 220
 				end
@@ -1047,6 +1042,7 @@ do
 			if (debugmode) then
 				print (":ShowEndurance", boss)
 			end
+			
 			if (not boss) then
 				for hash, _ in pairs (DeathGraphs.endurance_database) do
 					boss = hash
@@ -1055,6 +1051,31 @@ do
 					end
 				end
 			end
+			
+			--> get the boss from the latest segment
+				local currentCombat = Details:GetCurrentCombat()
+				if (currentCombat) then
+					if (currentCombat.is_boss) then
+						--> get the map index
+						local mapID = currentCombat.is_boss.mapid
+						--> get the boss index within the raid
+						local bossIndex = Details:GetBossIndex (mapID, currentCombat.is_boss.id, nil, currentCombat.is_boss.name)
+						if (bossIndex) then
+							--> get the EJID
+							local EJID = Details.EncounterInformation [mapID] and _detalhes.EncounterInformation [mapID].encounter_ids [bossIndex]
+							if (EJID) then
+								--> if the EJID exists build the hash
+								local bossDificulty = currentCombat.is_boss.diff
+								local hash = tostring (EJID) .. tostring (bossDificulty)
+								if (hash) then
+									boss = hash
+								end
+							end
+						end
+					end
+				end
+			--
+			
 			
 			if (not boss) then
 				return
@@ -1349,7 +1370,7 @@ do
 		--overall_button:SetTextColor ("orange")
 
 		--> highlight buttons when the mouse hoverover // change the color of button for the current selected module
-		local all_buttons = {current_encounter_button, timeline_button, overall_button, endurance_button}
+		local all_buttons = {current_encounter_button, timeline_button, endurance_button} --overall_button,
 	
 		local set_button_as_pressed = function (button)
 			local onenter = button.onenter_backdrop
@@ -1374,6 +1395,7 @@ do
 		function DeathGraphs:RefreshButtons()
 			--> reset endurance button
 			for _, button in ipairs (all_buttons) do
+			
 				local onenter = button.onenter_backdrop
 				onenter[1], onenter[2], onenter[3], onenter[4] = .6, .6, .6, .9
 				local onleave = button.onleave_backdrop

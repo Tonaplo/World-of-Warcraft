@@ -1,3 +1,9 @@
+12/14/2017 version 4.7.10
+- Removed code specific to older game patches (PlaySoundKitID, old build info, etc)
+- Added Algalon the Observer to the Northrend targets
+- Both versions of Carrotus Maximus, Gorefu and Gnawface in Garrison targets now direct to a single version
+- Changed some text in collections dialog from "all pets in the game" to "all pets in the journal"
+
 12/12/2017 version 4.7.9
 - Added new suboption to 'Load Healthiest Pet': 'Allow Any Version'. When a team loads, it will choose the healthiest version of an injured pet regardless of stats.
 - ruRU localization updated by Gizmi on curse.com.

@@ -1,9 +1,10 @@
 # BigWigs
 
-## [v83.1](https://github.com/BigWigsMods/BigWigs/tree/v83.1) (2017-12-11)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v83...v83.1)
+## [v85.1](https://github.com/BigWigsMods/BigWigs/tree/v85.1) (2017-12-16)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v85...v85.1)
 
-- Antorus/Argus: Fix sweeping scythe code mistake  
-- Antorus/Argus: Add Sargeras Gaze debuff warnings  
-- Antorus/Argus: Add Sargeras Gaze warnings and timers for stage 1 and 2 and update timers slightly for Mythic  
-- Antorus/HighCommand: Fix first Fussilade timer after pod change  
+- Update zhCN.lua (#417)  
+- Update zhTW.lua (#416)  
+- Temp workaround for Blizz PTR silliness.  
+- Antorus/Argus: remove Stellar Armory bar for normal mode (they don't swap)  
+- Argus: Fix stage warnings for non english / non localized languages  

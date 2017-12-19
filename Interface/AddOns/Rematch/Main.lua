@@ -151,7 +151,7 @@ function rematch:Start()
 
 	-- check for the existence of an object that's in a new file and shut down rematch if it's not accessible.
 	-- this is caused by new files added and user updates the addon while logged in to the game
-	if rematch:AddonDidntCompletelyLoad(rematch.CreateODTable) or rematch:AddonUpdatedTooEarly() then
+	if rematch:AddonDidntCompletelyLoad(rematch.CreateODTable) then
 		return
 	end
 
@@ -666,16 +666,6 @@ function rematch:AddonDidntCompletelyLoad(test)
 	if not test then
 		StaticPopupDialogs["REMATCHUPDATE"] = { button1=OKAY, timeout=0, showAlert=1, text="You updated Rematch while you were logged in to the game.\n\nWhich is usually fine!\n\nHowever, this update has some new files that won't be recognized while the game is running.\n\n\124cffff4040Rematch is disabled until the next time you start the World of Warcraft client." }
 		StaticPopup_Show("REMATCHUPDATE")
-		rematch:ShutdownAddon()
-		return true
-	end
-end
-
--- in case anyone downloads update before patch goes live
-function rematch:AddonUpdatedTooEarly()
-	if select(4,GetBuildInfo())<70100 then
-		StaticPopupDialogs["REMATCHTOOEARLY"] = { button1=OKAY, timeout=0, showAlert=1, text="Oops! You've updated Rematch to a version compatable with only WoW patch 7.1 but you are not on patch 7.1 yet.\n\nThis version of Rematch will not work until your client is patched to 7.1." }
-		StaticPopup_Show("REMATCHTOOEARLY")
 		rematch:ShutdownAddon()
 		return true
 	end

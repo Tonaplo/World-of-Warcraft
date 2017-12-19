@@ -95,7 +95,8 @@ rematch.notableNPCs = {
 	{ 66553, 3, 961,959,960 }, -- Morulu The Elder
 	{ 66551, 3, 953,955,954 }, -- Ras'an
 
-	-- Northrend
+   -- Northrend
+   { 115307, 4, 1971, 1972, 1973 }, -- Algalon the Observer
 	{ 66675, 4, 978,977,979 }, -- Major Payne
 	{ 66635, 4, 967,966,965 }, -- Beegle Blastfuse
 	{ 66639, 4, 976,974,975 }, -- Gutretch
@@ -318,6 +319,10 @@ rematch.notableNPCs = {
 -- GetUnitNameandID swaps these npcIDs for their redirected npcIDs, unless a team is already saved
 rematch.notableRedirects = {
 
+   [89129] = 85420, -- Carrotus Maximus at Frostwall -> Carrotus Maximus at Lunarfall
+   [85463] = 89130, -- Gorefu Frostwall -> Gorefu at Lunarfall
+   [85419] = 89131, -- Gnawface at Frostwall -> Gnawface at Lunarfall
+
 	[99880] = 99878, -- Mini Magmatron golem -> Mini Magmatron console
 
 	[105353] = 105352, -- Font of Mana -> Surging Mana Crystal
@@ -363,19 +368,6 @@ rematch.notableRedirects = {
 	[85675] = 85627, -- Samm
 	[85676] = 85627, -- Archimedes
 }
-
--- remove 7.3 npcs if we're not on a 7.3 client
-if select(4,GetBuildInfo())<70300 then
-   for i=#rematch.notableNPCs,1,-1 do
-      local info = rematch.notableNPCs[i]
-      if info[1]==124617 or info[2]>21 then -- if Environeer Bert or from one of the Argus menus
-         tremove(rematch.notableNPCs,i) -- remove it
-      end
-   end
-   for i=22,24 do
-      rematch.notableGroups[i] = nil
-   end
-end
 
 -- returns name of an npcID from a lookup table, or a tooltip scan if it's not in the table yet
 function rematch:GetNameFromNpcID(npcID)

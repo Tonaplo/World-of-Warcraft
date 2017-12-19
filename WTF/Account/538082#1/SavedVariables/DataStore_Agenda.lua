@@ -14,10 +14,10 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Options"] = {
@@ -30,7 +30,14 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1513123470,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1513327304,
+				["Calendar"] = {
+					"2017-12-21|19:00|Heroic Antorus|1|9", -- [1]
+				},
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Mythic|342507653"] = "27864|1513667731|0|1",
+					["Antorus, the Burning Throne Heroic|342507663"] = "27864|1513667731|0|1",
+				},
+				["lastUpdate"] = 1513667762,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -52,9 +59,9 @@ DataStore_AgendaDB = {
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["DungeonIDs"] = {
-					["Eye of Azshara Mythic|282237396"] = "370168|1513325420|0|0",
+					["Eye of Azshara Mythic|282237396"] = "281551|1513414036|0|0",
 				},
-				["lastUpdate"] = 1513325586,
+				["lastUpdate"] = 1513414105,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["ChallengeMode"] = {
@@ -63,8 +70,8 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1513123574,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1513123119,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1513144613,
@@ -79,10 +86,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1513149236,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1513324391,
+				["lastUpdate"] = 1513409151,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1513123119,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427638,
 			},
 		},
 	},

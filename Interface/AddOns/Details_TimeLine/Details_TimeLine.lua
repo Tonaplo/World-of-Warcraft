@@ -377,12 +377,11 @@ local function CreatePluginFrames()
 	local CONST_PLAYERFIELD_SIZE = 96
 	local CONST_VALID_HEIGHT = 528
 	
-	local mode_buttons_y_pos = 10
-	local mode_buttons_width = 100
+	local CONST_MENU_Y_POS = 6
+	
+	local mode_buttons_width = 120
 	local mode_buttons_height = 20
 
-	
-	
 	TimeLineFrame:SetSize (TimeLineFrame.Width, TimeLineFrame.Height)
 	
 	--[=
@@ -435,7 +434,7 @@ local function CreatePluginFrames()
 	
 	local bottom_texture = DetailsFrameWork:NewImage (TimeLineFrame, nil, TimeLineFrame.Width-4, 25, "background", nil, nil, "$parentBottomTexture")
 	bottom_texture:SetColorTexture (0, 0, 0, .6)
-	bottom_texture:SetPoint ("bottomleft", TimeLineFrame, "bottomleft", 2, 7)
+	bottom_texture:SetPoint ("bottomleft", TimeLineFrame, "bottomleft", 2, 4)
 	
 	TimeLine.Times = {}
 	for i = 1, CONST_TOTAL_TIMELINES do 
@@ -540,7 +539,7 @@ local function CreatePluginFrames()
 	
 	--> select Cooldowns button
 		local show_cooldowns_button = framework:NewButton (TimeLineFrame, _, "$parentModeCooldownsButton", "ModeCooldownsButton", mode_buttons_width, mode_buttons_height, change_mode, type_cooldown, nil, nil, "Cooldowns", 1, options_button_template)
-		show_cooldowns_button:SetPoint ("bottomleft", TimeLineFrame, "bottomleft", 10, mode_buttons_y_pos)
+		show_cooldowns_button:SetPoint ("bottomleft", TimeLineFrame, "bottomleft", 10, CONST_MENU_Y_POS)
 		show_cooldowns_button:SetIcon ([[Interface\ICONS\Spell_Holy_GuardianSpirit]], nil, nil, nil, {5/64, 59/64, 5/64, 59/64}, nil, nil, 2)
 		show_cooldowns_button:SetTextColor ("orange")
 		show_cooldowns_button.textsize = 9
@@ -613,7 +612,7 @@ local function CreatePluginFrames()
 		end
 		
 		local delete_button = framework:NewButton (TimeLineFrame, _, "$parentDeleteButton", "DeleteButton", 100, 20, delete_button_func, nil, nil, nil, Loc ["STRING_RESET"], 1, options_button_template)
-		delete_button:SetPoint ("bottomright", TimeLineFrame, "bottomright", -10, 10)
+		delete_button:SetPoint ("bottomright", TimeLineFrame, "bottomright", -10, CONST_MENU_Y_POS)
 		delete_button:SetIcon ([[Interface\Buttons\UI-StopButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
 		delete_button:SetTextColor ("orange")
 		delete_button.textsize = 9
@@ -630,7 +629,7 @@ local function CreatePluginFrames()
 				TimeLine:Refresh()
 			end
 			
-			local useIconsText = framework:CreateLabel (TimeLineFrame, Loc ["STRING_SPELLICONS"], 10, "orange", nil, "UseIconsLabel", nil, "overlay")
+			local useIconsText = framework:CreateLabel (TimeLineFrame, Loc ["STRING_SPELLICONS"], 9, "orange", "GameFontNormal", "UseIconsLabel", nil, "overlay")
 			useIconsText:SetPoint ("right", options_button, "left", -2, 0)
 
 			local useIconsCheckbox = framework:CreateSwitch (TimeLineFrame, useIconsFunc, false)
@@ -699,16 +698,18 @@ local function CreatePluginFrames()
 		end
 	end	
 	
-	local top_bar = DetailsFrameWork:NewImage (TimeLineFrame, nil, 703, 1, "overlay", nil, nil, "$parentRowTopLine")
+	local top_bar = DetailsFrameWork:NewImage (TimeLineFrame, nil, CONST_VALID_WIDHT + CONST_PLAYERFIELD_SIZE, 1, "overlay", nil, nil, "$parentRowTopLine")
 	top_bar:SetColorTexture (1, 1, 1, .4)
-	local bottom_bar = DetailsFrameWork:NewImage (TimeLineFrame, nil, 703, 1, "overlay", nil, nil, "$parentRowBottomLine")
+	local bottom_bar = DetailsFrameWork:NewImage (TimeLineFrame, nil, CONST_VALID_WIDHT + CONST_PLAYERFIELD_SIZE, 1, "overlay", nil, nil, "$parentRowBottomLine")
 	bottom_bar:SetColorTexture (1, 1, 1, .4)
 
 	local row_on_enter = function (self)
 		top_bar:Show()
 		bottom_bar:Show()
-		top_bar:SetPoint ("bottom", self, "top")
-		bottom_bar:SetPoint ("top", self, "bottom")
+		top_bar:SetPoint ("bottomleft", self, "topleft")
+		top_bar:SetPoint ("bottomright", self, "topright")
+		bottom_bar:SetPoint ("topleft", self, "bottomleft")
+		bottom_bar:SetPoint ("topright", self, "bottomright")
 		self:SetBackdropColor (0.8, 0.8, 0.8, 0.4)
 	end
 	local row_on_leave = function (self)
@@ -727,9 +728,15 @@ local function CreatePluginFrames()
 		self:SetBackdrop (block_backdrop_onenter)
 		self:SetBackdropBorderColor (0, 0, 0, .9)
 		self.texture:SetBlendMode ("ADD")
+
+		local parent = self:GetParent()
+		top_bar:SetPoint ("bottomleft", parent, "topleft")
+		top_bar:SetPoint ("bottomright", parent, "topright")
+		bottom_bar:SetPoint ("topleft", parent, "bottomleft")
+		bottom_bar:SetPoint ("topright", parent, "bottomright")
 		
-		top_bar:SetPoint ("bottom", self:GetParent(), "top")
-		bottom_bar:SetPoint ("top", self:GetParent(), "bottom")
+		--top_bar:SetPoint ("bottom", self:GetParent(), "top")
+		--bottom_bar:SetPoint ("top", self:GetParent(), "bottom")
 		self:GetParent():SetBackdropColor (0.8, 0.8, 0.8, 0.4)
 		top_bar:Show()
 		bottom_bar:Show()

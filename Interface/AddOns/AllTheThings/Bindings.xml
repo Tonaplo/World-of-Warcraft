@@ -1,6 +1,12 @@
 <Bindings>
+	<Binding name="ALLTHETHINGS_OPENMAINLIST" header="ALLTHETHINGS" category="ADDONS">
+		AllTheThings.OpenMainList();
+	</Binding>
 	<Binding name="ALLTHETHINGS_OPENMINILIST" header="ALLTHETHINGS" category="ADDONS">
 		AllTheThings.OpenMiniListForCurrentZone();
+	</Binding>
+	<Binding name="ALLTHETHINGS_TOGGLEMAINLIST" header="ALLTHETHINGS" category="ADDONS">
+		AllTheThings.ToggleMainList();
 	</Binding>
 	<Binding name="ALLTHETHINGS_TOGGLEMINILIST" header="ALLTHETHINGS" category="ADDONS">
 		AllTheThings.ToggleMiniListForCurrentZone();

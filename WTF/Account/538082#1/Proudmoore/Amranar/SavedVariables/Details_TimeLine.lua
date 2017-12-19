@@ -1,294 +1,5 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "00:07:20",
-			["date_start"] = "00:06:37",
-			["name"] = "Wrath of Azshara",
-			["total_time"] = 43,
-		}, -- [1]
-		{
-			["date_end"] = "00:05:17",
-			["date_start"] = "00:04:48",
-			["name"] = "King Deepbeard",
-			["total_time"] = 29.011,
-		}, -- [2]
-		{
-			["date_end"] = "00:03:10",
-			["date_start"] = "00:02:36",
-			["name"] = "Serpentrix",
-			["total_time"] = 34,
-		}, -- [3]
-		{
-			["date_end"] = "00:01:24",
-			["date_start"] = "00:00:52",
-			["name"] = "Lady Hatecoil",
-			["total_time"] = 32.0060000000001,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["window_scale"] = 1,
-	["debuff_timeline"] = {
-		{
-			["Dannydeevito-Dalaran"] = {
-				[191797] = {
-					30.6239999999998, -- [1]
-					38.6300000000001, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-			},
-			["Tardorath"] = {
-				[191797] = {
-					30.6239999999998, -- [1]
-					38.567, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-			},
-			["Amranar"] = {
-				[191797] = {
-					30.547, -- [1]
-					38.547, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[196665] = {
-					13.2190000000001, -- [1]
-					35.1369999999997, -- [2]
-					["source"] = "Mystic Tornado",
-					["active"] = false,
-				},
-				[192706] = {
-					31.9099999999999, -- [1]
-					35.654, -- [2]
-					["source"] = "Wrath of Azshara",
-					["active"] = false,
-				},
-			},
-			["Kilering-Korgath"] = {
-				[196665] = {
-					16.9670000000001, -- [1]
-					33.9139999999998, -- [2]
-					["source"] = "Mystic Tornado",
-					["active"] = false,
-				},
-				[191797] = {
-					30.6239999999998, -- [1]
-					38.567, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-			},
-			["Roamín-Sargeras"] = {
-				[191797] = {
-					30.6239999999998, -- [1]
-					38.567, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[196666] = {
-					31.1469999999999, -- [1]
-					33.1109999999999, -- [2]
-					["source"] = "Tidal Wave",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-			["Amranar"] = {
-				[193055] = {
-					24.0039999999999, -- [1]
-					24.7910000000002, -- [2]
-					["source"] = "Call the Seas",
-					["active"] = false,
-				},
-			},
-			["Dannydeevito-Dalaran"] = {
-				[193018] = {
-					13.2269999999999, -- [1]
-					26.4639999999999, -- [2]
-					["source"] = "King Deepbeard",
-					["active"] = false,
-				},
-				[193055] = {
-					23.1849999999999, -- [1]
-					23.5840000000003, -- [2]
-					["source"] = "Call the Seas",
-					["active"] = false,
-				},
-			},
-			["Roamín-Sargeras"] = {
-				[193018] = {
-					12.5509999999999, -- [1]
-					20.5819999999999, -- [2]
-					["source"] = "King Deepbeard",
-					["active"] = false,
-				},
-				[193055] = {
-					24.4200000000001, -- [1]
-					24.4200000000001, -- [2]
-					25.0059999999999, -- [3]
-					26.8220000000001, -- [4]
-					27.2440000000001, -- [5]
-					27.7750000000001, -- [6]
-					["source"] = "Call the Seas",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-			["Dannydeevito-Dalaran"] = {
-				[191797] = {
-					33.0149999999999, -- [1]
-					34, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[191855] = {
-					31.172, -- [1]
-					33.5799999999999, -- [2]
-					["source"] = "Serpentrix",
-					["active"] = false,
-				},
-				[197134] = {
-					34, -- [1]
-					34, -- [2]
-					34, -- [3]
-					["source"] = "[*] Shelter",
-					["active"] = true,
-				},
-			},
-			["Tardorath"] = {
-				[191797] = {
-					32.902, -- [1]
-					34, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[197134] = {
-					34, -- [1]
-					["source"] = "[*] Shelter",
-					["active"] = true,
-				},
-			},
-			["Amranar"] = {
-				[191797] = {
-					32.902, -- [1]
-					34, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[197134] = {
-					34, -- [1]
-					["source"] = "[*] Shelter",
-					["active"] = true,
-				},
-			},
-			["Kilering-Korgath"] = {
-				[191797] = {
-					32.9670000000001, -- [1]
-					34, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[197134] = {
-					34, -- [1]
-					["source"] = "[*] Shelter",
-					["active"] = true,
-				},
-			},
-			["Roamín-Sargeras"] = {
-				[191797] = {
-					32.9200000000001, -- [1]
-					34, -- [2]
-					["source"] = "[*] Violent Winds",
-					["active"] = false,
-				},
-				[191855] = {
-					5.68000000000029, -- [1]
-					10.3879999999999, -- [2]
-					["source"] = "Serpentrix",
-					["active"] = false,
-				},
-				[197134] = {
-					34, -- [1]
-					["source"] = "[*] Shelter",
-					["active"] = true,
-				},
-			},
-		}, -- [3]
-		{
-			["Dannydeevito-Dalaran"] = {
-				[193698] = {
-					18.4590000000001, -- [1]
-					26.4759999999999, -- [2]
-					["source"] = "Lady Hatecoil",
-					["active"] = false,
-				},
-			},
-			["Kilering-Korgath"] = {
-				[193698] = {
-					18.4590000000001, -- [1]
-					27.4669999999999, -- [2]
-					["source"] = "Lady Hatecoil",
-					["active"] = false,
-				},
-			},
-			["Amranar"] = {
-				[193698] = {
-					18.4590000000001, -- [1]
-					25.479, -- [2]
-					["source"] = "Lady Hatecoil",
-					["active"] = false,
-				},
-			},
-			["Tardorath"] = {
-				[193636] = {
-					0.414999999999964, -- [1]
-					6.66000000000008, -- [2]
-					7.58699999999999, -- [3]
-					14.952, -- [4]
-					25.479, -- [5]
-					27.1410000000001, -- [6]
-					["source"] = "Saltsea Droplet",
-					["active"] = false,
-				},
-			},
-			["Roamín-Sargeras"] = {
-				[193636] = {
-					25.479, -- [1]
-					31.4970000000001, -- [2]
-					["source"] = "Saltsea Globule",
-					["active"] = false,
-				},
-			},
-		}, -- [4]
-	},
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Roamín-Sargeras"] = {
-				{
-					10.3879999999999, -- [1]
-					"Roamín-Sargeras", -- [2]
-					642, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -298,5 +9,263 @@ DetailsTimeLineDB = {
 		}, -- [3]
 		{
 		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "00:11:05",
+			["date_start"] = "00:09:35",
+			["name"] = "Lord Kur'talos Ravencrest",
+			["total_time"] = 90.4410000000007,
+		}, -- [1]
+		{
+			["date_end"] = "00:07:55",
+			["date_start"] = "00:07:24",
+			["name"] = "Smashspite the Hateful",
+			["total_time"] = 31.3180000000002,
+		}, -- [2]
+		{
+			["date_end"] = "00:03:56",
+			["date_start"] = "00:03:24",
+			["name"] = "Ilysanna Ravencrest",
+			["total_time"] = 32.027,
+		}, -- [3]
+		{
+			["date_end"] = "23:58:59",
+			["date_start"] = "23:58:21",
+			["name"] = "Amalgam of Souls",
+			["total_time"] = 37.7460000000001,
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+			["Däphne-Sargeras"] = {
+				{
+					47.1730000000007, -- [1]
+					"Däphne-Sargeras", -- [2]
+					108271, -- [3]
+				}, -- [1]
+			},
+			["Amranar"] = {
+				{
+					42.5710000000008, -- [1]
+					"Amranar", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
+			["Thepwent-Staghelm"] = {
+				{
+					47.7600000000002, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+			["Lorithian-Sargeras"] = {
+				{
+					2.29899999999998, -- [1]
+					"Lorithian-Sargeras", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Lorithian-Sargeras"] = {
+				{
+					29.7199999999994, -- [1]
+					"Lorithian-Sargeras", -- [2]
+					22842, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Amranar"] = {
+				{
+					24.3949999999995, -- [1]
+					"Amranar", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Joltyon-Sargeras"] = {
+				{
+					26.0319999999992, -- [1]
+					"Joltyon-Sargeras", -- [2]
+					108271, -- [3]
+				}, -- [1]
+			},
+			["Thepwent-Staghelm"] = {
+				{
+					37.4099999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+			["Lorithian-Sargeras"] = {
+				{
+					34.3489999999993, -- [1]
+					"Lorithian-Sargeras", -- [2]
+					61336, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["debuff_timeline"] = {
+		{
+			["Amranar"] = {
+				[199168] = {
+					51.0510000000004, -- [1]
+					51.5590000000002, -- [2]
+					52.067, -- [3]
+					52.5730000000003, -- [4]
+					53.0740000000005, -- [5]
+					53.5710000000008, -- [6]
+					54.0840000000008, -- [7]
+					54.5730000000003, -- [8]
+					55.0820000000003, -- [9]
+					55.5930000000008, -- [10]
+					["source"] = "[*] Itchy!",
+					["active"] = false,
+				},
+				[199097] = {
+					54.0650000000005, -- [1]
+					54.4610000000002, -- [2]
+					["source"] = "[*] Cloud of Hypnosis",
+					["active"] = false,
+				},
+				[201733] = {
+					49.0520000000006, -- [1]
+					55.4180000000006, -- [2]
+					["source"] = "Dantalionax",
+					["active"] = false,
+				},
+			},
+			["Joltyon-Sargeras"] = {
+				[199097] = {
+					79.9360000000006, -- [1]
+					79.9540000000006, -- [2]
+					79.9540000000006, -- [3]
+					81.5710000000008, -- [4]
+					["source"] = "[*] Cloud of Hypnosis",
+					["active"] = false,
+				},
+			},
+			["Lorithian-Sargeras"] = {
+				[198635] = {
+					5.92700000000059, -- [1]
+					90.4410000000007, -- [2]
+					["source"] = "Kur'talos Ravencrest",
+					["active"] = false,
+				},
+				[199097] = {
+					54.0650000000005, -- [1]
+					54.4610000000002, -- [2]
+					61.7530000000006, -- [3]
+					61.7660000000005, -- [4]
+					61.7660000000005, -- [5]
+					62.1460000000007, -- [6]
+					["source"] = "[*] Cloud of Hypnosis",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+			["Lorithian-Sargeras"] = {
+				[224188] = {
+					10.9179999999997, -- [1]
+					31.2910000000002, -- [2]
+					["source"] = "Smashspite the Hateful",
+					["active"] = false,
+				},
+			},
+			["Amranar"] = {
+				[198079] = {
+					5.76199999999972, -- [1]
+					10.7709999999997, -- [2]
+					["source"] = "Smashspite the Hateful",
+					["active"] = false,
+				},
+			},
+		}, -- [2]
+		{
+			["Joltyon-Sargeras"] = {
+				[197478] = {
+					11.866, -- [1]
+					17.9799999999996, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197521] = {
+					19.2149999999992, -- [1]
+					19.4690000000001, -- [2]
+					24.0649999999996, -- [3]
+					24.3049999999994, -- [4]
+					24.5639999999994, -- [5]
+					25.6239999999998, -- [6]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+			["Thepwent-Staghelm"] = {
+				[197521] = {
+					19.2019999999993, -- [1]
+					20.1869999999999, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197478] = {
+					11.866, -- [1]
+					19.1569999999992, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197546] = {
+					8.11099999999988, -- [1]
+					32.027, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+			["Amranar"] = {
+				[197546] = {
+					8.20799999999963, -- [1]
+					32.027, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+			["Lorithian-Sargeras"] = {
+				[197478] = {
+					11.866, -- [1]
+					17.8649999999998, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197521] = {
+					18.4179999999997, -- [1]
+					19.5649999999996, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Amranar"] = {
+				[194966] = {
+					16.21, -- [1]
+					28.2139999999999, -- [2]
+					["source"] = "Amalgam of Souls",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
+	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

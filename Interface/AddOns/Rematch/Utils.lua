@@ -319,12 +319,12 @@ end
 
 function rematch:ListScrollToTop(scrollFrame)
 	scrollFrame.scrollBar:SetValue(0)
-	PlaySound(PlaySoundKitID and "UChatScrollButton" or 1115)
+	PlaySound(1115)
 end
 
 function rematch:ListScrollToBottom(scrollFrame)
 	scrollFrame.scrollBar:SetValue(scrollFrame.range)
-	PlaySound(PlaySoundKitID and "UChatScrollButton" or 1115)
+	PlaySound(1115)
 end
 
 function rematch:ListScrollToIndex(scrollFrame,index)

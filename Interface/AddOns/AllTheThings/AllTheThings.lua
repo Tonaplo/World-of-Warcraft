@@ -318,6 +318,10 @@ local progress_colors = setmetatable({}, {
 local function GetProgressColor(p)
 	return progress_colors[p];
 end
+local function GetProgressColorText(progress, total)
+	local percent = progress / total;
+	return "|c" .. GetProgressColor(percent) .. tostring(progress) .. " / " .. tostring(total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r";
+end
 CS:Hide();
 
 -- Coroutine Helper Functions
@@ -422,8 +426,8 @@ AllTheThings.GetSourceID = GetSourceID;
 local function SetPortraitIcon(self, data, x)
 	self.lastData = data;
 	if data.icon then
-		self:SetTexture(data.icon);
 		self:SetWidth(self:GetHeight());
+		self:SetTexture(data.icon);
 		return true;
 	elseif GetDataMember("ShowModels") then
 		if data.displayID then
@@ -670,6 +674,12 @@ local function GetArtifactCache()
 	end
 	return cache;
 end
+local function GetCollectionIcon(state)
+	return L((state and (state == 2 and "COLLECTED_APPEARANCE_ICON" or "COLLECTED_ICON")) or "NOT_COLLECTED_ICON");
+end
+local function GetCollectionText(state)
+	return L((state and (state == 2 and "COLLECTED_APPEARANCE" or "COLLECTED")) or "NOT_COLLECTED");
+end
 local function GetFactionCache()
 	local cache = GetTempDataMember("FACTION_CACHE");
 	if not cache then
@@ -824,7 +834,7 @@ local function GetMountInfoCache()
 		-- Let's build the spellID_MountID and mount cache.
 		local listedMounts = GetTempDataMember("MOUNT_CACHE_LISTED", {});
 		local temp = GetTempDataMember("COMPANION_PET_SOURCE_TYPES", {});
-		local collected = GetDataMember("CollectedMounts", {});
+		local got = GetDataMember("CollectedMounts", {});
 		if #temp < 1 then
 			for i=1,C_PetJournal.GetNumPetSources() do
 				local t = { ["text"] = _G["BATTLE_PET_SOURCE_"..i], ["groups"] = {} };
@@ -838,7 +848,7 @@ local function GetMountInfoCache()
 			local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal_GetMountInfoByID(mountID);
 			if spellID then
 				spellID_MountID[spellID] = mountID;
-				if isCollected then collected[spellID] = 1; end
+				if isCollected then got[spellID] = 1; end
 				if not (hideOnChar or listedMounts[spellID]) then
 					listedMounts[spellID] = true;
 					if temp[sourceType or 1] then tinsert(temp[sourceType or 1].groups, setmetatable({ ["mountID"] = spellID }, app.BaseMount));
@@ -859,6 +869,23 @@ local function GetMountExtraInfo(spellID)	-- NOTE: MountID is ACTUALLY the Spell
 	local mountID = GetMountInfoCache()[spellID];
 	if mountID then return C_MountJournal_GetMountInfoExtraByID(mountID); end
 end
+local function GetRawSourceDataCache()
+	local cache = GetTempDataMember("RAW_DATA_CACHE");
+	if not cache then
+		cache = {};
+		SetTempDataMember("RAW_DATA_CACHE", cache);
+		local sCache = fieldCache["s"];
+		for s=1,100000 do
+			if not sCache[s] then
+				local t = app.CreateGearSource(s);
+				if t.info then
+					tinsert(cache, t);
+				end
+			end
+		end
+	end
+	return cache;
+end
 local function GetRelativeDifficulty(group, difficultyID)
 	if group then
 		if group.difficultyID then
@@ -874,6 +901,12 @@ local function GetRelativeDifficulty(group, difficultyID)
 			end
 		end
 		if group.parent then return GetRelativeDifficulty(group.parent, difficultyID); end
+	end
+end
+local function GetRelativeInstanceID(group)
+	if group then
+		if group.instanceID then return group.instanceID, group; end
+		if group.parent then return GetRelativeInstanceID(group.parent); end
 	end
 end
 local function SearchForFieldRecursively(group, field, value)
@@ -1091,7 +1124,7 @@ local function SearchForItemLink(link)
 										else
 											text = "   ";
 										end
-										text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. L(otherATTSource.collected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
+										text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
 										tinsert(listing, text);
 									else
 										local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
@@ -1102,7 +1135,7 @@ local function SearchForItemLink(link)
 												link = RETRIEVING_DATA;
 												working = true;
 											end
-											text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. L(otherSource.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
+											text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherSource.isCollected);
 											if otherSource.isCollected then
 												SetDataSubMember("CollectedSources", otherSourceID, 1);
 											end
@@ -1120,7 +1153,7 @@ local function SearchForItemLink(link)
 											link = RETRIEVING_DATA;
 											working = true;
 										end
-										text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. L(otherSource.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON");
+										text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherSource.isCollected);
 										if otherSource.isCollected then
 											SetDataSubMember("CollectedSources", otherSourceID, 1);
 										end
@@ -1131,7 +1164,7 @@ local function SearchForItemLink(link)
 						end
 						
 						if GetDataMember("ShowVisualID") then tinsert(listing, L("VISUAL_ID") .. "/" .. tostring(sourceInfo.visualID)); end
-						if GetDataMember("ShowSourceID") then tinsert(listing, L("SOURCE_ID") .. "/" .. sourceID .. " " .. L(sourceInfo.isCollected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON")); end
+						if GetDataMember("ShowSourceID") then tinsert(listing, L("SOURCE_ID") .. "/" .. sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected)); end
 					end
 				elseif GetDataMember("ShowSources") then
 					if GetDataMember("ShowAllSources") then
@@ -1180,7 +1213,7 @@ local function SearchForCachedItemLink(itemLink)
 end
 local function SearchForMissingItemsRecursively(group, listing)
 	if app.FilterItemClass(group) then
-		if (not group.collected or (group.total and (group.collected < group.total))) and (not group.b or group.b == 2) then
+		if (not group.collected or (group.total and (group.progress < group.total))) and (not group.b or group.b == 2) then
 			local name = group.name;
 			if name then listing[name] = 1; end
 		end
@@ -1265,6 +1298,9 @@ local function FindMapData(mapID)
 		if #listing > 0 then return listing; end
 	end
 end
+local function OpenMainList()
+	app:OpenWindow("Prime");
+end
 local function OpenMiniList(mapID)
 	-- If there is at not at least one window visible after this, hide the app window.
 	local popout = app:GetWindow("CurrentInstance");
@@ -1276,7 +1312,7 @@ local function OpenMiniList(mapID)
 			mapData = setmetatable({}, { __index = mapData[1] });
 		else
 			-- A couple of objects matched, let's make a header.
-			local header = setmetatable(constructor(mapID, { groups = {}, total = 0, collected = 0, indent = 0, visible = true }, "mapID"), app.BaseMap);
+			local header = setmetatable(constructor(mapID, { groups = {}, total = 0, progress = 0, indent = 0, visible = true }, "mapID"), app.BaseMap);
 			for i, group in ipairs(mapData) do
 				if group.text == header.text then
 					-- Merge the subgroups with the header groups
@@ -1284,7 +1320,7 @@ local function OpenMiniList(mapID)
 						tinsert(header.groups, subgroup);
 					end
 					for key,value in pairs(group) do
-						if key ~= "groups" and key ~= "collected" and key ~= "total" then
+						if key ~= "groups" and key ~= "progress" and key ~= "total" then
 							header[key] = value;
 						end
 					end
@@ -1294,7 +1330,7 @@ local function OpenMiniList(mapID)
 						header.indent = group.indent;
 					end
 				end
-				header.collected = header.collected + (group.collected or 0);
+				header.progress = header.progress + (group.progress or 0);
 				header.total = header.total + (group.total or 0);
 			end
 			
@@ -1308,7 +1344,11 @@ local function OpenMiniList(mapID)
 		-- Check to see completion...
 		popout.data = mapData;
 		ExpandGroupsRecursively(popout.data, true);
-		if mapData.collected == mapData.total then
+		
+		-- Reset to the first object.
+		popout.ScrollBar:SetValue(1);
+		
+		if mapData.progress == mapData.total then
 			if mapData.groups and #mapData.groups > 0 then
 				--app.print("You've collected " .. app.DisplayName .. " from " .. (GetRealZoneText() or "this zone") .. ".");
 				popout:SetVisible(true);
@@ -1334,6 +1374,9 @@ local function OpenMiniListForCurrentZone()
 	local mapID = GetCurrentMapAreaID();
 	SetMapByID(originalMapID);
 	OpenMiniList(mapID);
+end
+local function ToggleMainList()
+	app:ToggleWindow("Prime");
 end
 local function ToggleMiniListForCurrentZone()
 	local popout = app:GetWindow("CurrentInstance");
@@ -1375,7 +1418,7 @@ local function RefreshLocation(force)
 				-- Cache that we're in the current map ID.
 				if GetPersonalDataMember("MapID") ~= mapID or force then
 					SetPersonalDataMember("MapID", mapID);
-					if automaticMiniList then OpenMiniList(mapID); end
+					OpenMiniList(mapID);
 					wipe(searchCache);
 				end
 				app.refreshingLocation = false;
@@ -1395,34 +1438,101 @@ local function RefreshSaves()
 			-- While the player is in combat, wait for combat to end.
 			while InCombatLockdown() do coroutine.yield(); end
 			
-			-- Update Saved Instances (I have to clear it because the saves do eventually reset)
-			local saves, newSave, oldSaves = {}, false, GetPersonalDataMember("Saves", {});
-			local converter = L("SAVED_TO_DJ_INSTANCES");
-			for instanceIter=1,GetNumSavedInstances() do
-				local name, id, reset, difficulty, locked, extended, instanceIDMostSig = GetSavedInstanceInfo(instanceIter);
-				if locked then
-					--app.print(tostring(instanceIter) .. ": " .. tostring(name) .. ", " .. tostring(id) .. ", " .. tostring(difficulty) .. ", " .. tostring(instanceIDMostSig));
-					name = converter[name] or name;
-					saves[name] = instanceIter;
-					
-					-- If this instance was not previously saved, mark it.
-					if not oldSaves[name] then newSave = true; end
+			-- While the player is still logging in, wait.
+			while not app.Me do coroutine.yield(); end
+			
+			-- While the player is still waiting for information, wait.
+			-- NOTE: Usually, this is only 1 wait.
+			local counter = 0;
+			while GetNumSavedInstances() < 1 do
+				coroutine.yield();
+				counter = counter + 1;
+				if counter > 600 then
+					app.refreshingSaves = false;
+					coroutine.yield(false);
 				end
 			end
 			
-			-- Check the old saves vs. the new saves
-			if not newSave then
-				for key, value in pairs(oldSaves) do
-					if not saves[key] then newSave = true; end
+			-- Cache the lockouts across your account.
+			local serverTime = GetServerTime();
+			local lockouts = GetDataMember("lockouts", {});
+			
+			-- Cache your character's lockouts.
+			local myLockouts = GetTempDataMember("lockouts", lockouts[app.Me]);
+			if not myLockouts then
+				myLockouts = {};
+				lockouts[app.Me] = myLockouts;
+				SetTempDataMember("lockouts", myLockouts);
+			end
+			
+			-- Check to make sure that the old instance data has expired
+			for character,locks in pairs(lockouts) do
+				for name,instance in pairs(locks) do
+					local count = 0;
+					for difficulty,lock in pairs(instance) do
+						if serverTime >= lock.reset then
+							-- Clean this up.
+							instance[difficulty] = nil;
+						else
+							count = count + 1;
+						end
+					end
+					if count == 0 then
+						-- Clean this up.
+						locks[name] = nil;
+					end
+				end
+			end
+			
+			-- Update Saved Instances
+			local converter = L("SAVED_TO_DJ_INSTANCES");
+			for instanceIter=1,GetNumSavedInstances() do
+				local name, id, reset, difficulty, locked, _, _, isRaid, _, _, numEncounters = GetSavedInstanceInfo(instanceIter);
+				if locked then
+					-- Update the name of the instance and cache the locks for this instance
+					name = converter[name] or name;
+					reset = serverTime + reset;
+					local locks = myLockouts[name];
+					if not locks then
+						locks = {};
+						myLockouts[name] = locks;
+					end
+					
+					-- Create the lock for this difficulty
+					local lock = { ["id"] = id, ["reset"] = reset, ["encounters"] = {}};
+					locks[difficulty] = lock;
+					
+					-- Create the pseudo "shared" lock
+					local shared = locks["shared"];
+					if not shared then
+						shared = {};
+						shared.id = id;
+						shared.reset = reset;
+						shared.encounters = {};
+						locks["shared"] = shared;
+						
+						-- Check Encounter locks
+						for encounterIter=1,numEncounters do
+							local name, _, isKilled = GetSavedInstanceEncounterInfo(instanceIter, encounterIter);
+							table.insert(lock.encounters, { ["name"] = name, ["isKilled"] = isKilled });
+							
+							-- Shared Encounter is always assigned if this is the first lock seen for this instance
+							table.insert(shared.encounters, { ["name"] = name, ["isKilled"] = isKilled });
+						end
+					else
+						-- Check Encounter locks
+						for encounterIter=1,numEncounters do
+							local name, _, isKilled = GetSavedInstanceEncounterInfo(instanceIter, encounterIter);
+							table.insert(lock.encounters, { ["name"] = name, ["isKilled"] = isKilled });
+							if isKilled then shared.encounters[encounterIter].isKilled = true; end
+						end
+					end
 				end
 			end
 			
 			-- If there's a new save, then also refresh the location. (this is used to apply the saved icon and tooltip)
 			app.refreshingSaves = false;
-			if newSave then
-				SetPersonalDataMember("Saves", saves);
-				RefreshLocation();
-			end
+			RefreshLocation();
 		end);
 	end
 end
@@ -1433,7 +1543,7 @@ local function RefreshSources(groups)
 			if group.itemID then
 				if group.s and group.s > 0 and not GetDataSubMember("CollectedSources", group.s) then
 					local sourceInfo = C_TransmogCollection_GetSourceInfo(group.s);
-					if sourceInfo and app.ItemSourceFilter(sourceInfo) then SetDataSubMember("CollectedSources", group.s, 1); end
+					if sourceInfo and app.ItemSourceFilter(sourceInfo) then SetDataSubMember("CollectedSources", group.s, sourceInfo.isCollected and 1 or 2); end
 				end
 			end
 			if group.toyID and not GetDataSubMember("CollectedToys", group.toyID) and PlayerHasToy(group.toyID) then
@@ -1480,7 +1590,7 @@ local function SetCompletionistMode(completionistMode, fromSettings)
 	end
 	app.print(completionistMode and "Entering Completionist Mode..." or "Entering Unique Appearances Mode...");
 	SetDataMember("CompletionistMode", completionistMode);
-	SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the collected data cache.
+	SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the Source ID data cache.
 	if completionistMode then
 		app.ItemSourceFilter = app.FilterItemSource;
 	else
@@ -1501,11 +1611,14 @@ local function ToggleDebugMode()
 end
 AllTheThings.RefreshCollections = RefreshCollections; -- To expose this to external users.
 AllTheThings.RefreshLocation = RefreshLocation;
-AllTheThings.OpenMiniListForCurrentZone = OpenMiniListForCurrentZone;
+AllTheThings.RefreshSaves = RefreshSaves;
+AllTheThings.OpenMainList = OpenMainList;
 AllTheThings.OpenMiniList = OpenMiniList;
+AllTheThings.OpenMiniListForCurrentZone = OpenMiniListForCurrentZone;
 AllTheThings.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
 AllTheThings.ToggleCompletionistMode = ToggleCompletionistMode;
 AllTheThings.ToggleDebugMode = ToggleDebugMode;
+AllTheThings.ToggleMainList = ToggleMainList;
 
 -- Tooltip Hooks
 local GameTooltip_SetLFGDungeonReward = GameTooltip.SetLFGDungeonReward;
@@ -1526,18 +1639,16 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 			local style = self:NumLines() < 1;
 			if style then
 				if not group.total or group.total < 1 then
-					self:AddDoubleLine(" ", L(group.collected and "COLLECTED" or "NOT_COLLECTED"));
+					self:AddDoubleLine(" ", GetCollectionText(group.collected));
 				else
-					local percent = group.collected / group.total;
-					self:AddDoubleLine(" ", "|c" .. GetProgressColor(percent) .. tostring(group.collected) .. " / " .. tostring(group.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
+					self:AddDoubleLine(" ", GetProgressColorText(group.progress, group.total));
 				end
 			else
 				local rightSide = _G[self:GetName() .. "TextRight1"];
 				if rightSide then
 					if group.groups then
 						if group.total and group.total > 0 then
-							local percent = group.collected / group.total;
-							rightSide:SetText("|c" .. GetProgressColor(percent) .. tostring(group.collected) .. " / " .. tostring(group.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
+							rightSide:SetText(GetProgressColorText(group.progress, group.total));
 							local first = true;
 							for i,j in ipairs(group.groups) do
 								if app.GroupRequirementsFilter(j) and app.FilterItemClass(j) then
@@ -1557,10 +1668,10 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 												end
 											end
 										else
-											local percent = j.collected / j.total;
+											local percent = j.progress / j.total;
 											if percent < 1 or GetDataMember("ShowCompletedGroups")  then 
 												if first then first = nil; self:AddLine("Contains:"); end
-												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(percent) .. tostring(j.collected) .. " / " .. tostring(j.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
+												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), GetProgressColorText(j.progress, j.total));
 											end
 										end
 									else
@@ -1584,7 +1695,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 							rightSide:SetText("---");
 						end
 					else
-						rightSide:SetText(L(group.collected and "COLLECTED" or "NOT_COLLECTED"));
+						rightSide:SetText(GetCollectionText(group.collected));
 					end
 					rightSide:Show();
 				end
@@ -1757,14 +1868,14 @@ app.BaseArtifact = {
 	__index = function(t, key)
 		if key == "collectable" then
 			return true;
+		elseif key == "collected" then
+			return select(5, C_ArtifactUI_GetAppearanceInfoByID(t.artifactID));
 		elseif key == "text" then
 			return "|cffe6cc80" .. (t.info[3] or "???") .. "|r";
 		elseif key == "title" then
 			return Colorize("Variant " .. t.info[4], RGBToHex(t.info[9] * 255, t.info[10] * 255, t.info[11] * 255));
 		elseif key == "description" then
 			return t.info[6];
-		elseif key == "collected" then
-			return select(5, C_ArtifactUI_GetAppearanceInfoByID(t.artifactID));
 		elseif key == "atlas" then
 			return "Forge-ColorSwatchBorder";
 		elseif key == "atlast-background" then
@@ -1812,6 +1923,21 @@ app.CreateCharacterClass = function(id, t)
 end
 
 -- Difficulty Lib
+local DifficultyColors = {
+	[1] = "ff1eff00",	--"Interface/Worldmap/Skull_64Green",
+	[2] = "ff0070dd",	--"Interface/Worldmap/Skull_64Blue",
+	[3] = "ff1eff00",	--"Interface/Worldmap/Skull_64Green",
+	[4] = "ff1eff00",	--"Interface/Worldmap/Skull_64Green",
+	[5] = "ff0070dd",	--"Interface/Worldmap/Skull_64Blue",
+	[6] = "ff0070dd",	--"Interface/Worldmap/Skull_64Blue",
+	[7] = "ff9d9d9d",		--"Interface/Worldmap/Skull_64Grey",
+	[14] = "ff1eff00",	--"Interface/Worldmap/Skull_64Green",
+	[15] = "ff0070dd",	--"Interface/Worldmap/Skull_64Blue",
+	[16] = "ffa335ee",	--"Interface/Worldmap/Skull_64Purple",
+	[17] = "ff9d9d9d",		--"Interface/Worldmap/Skull_64Grey",
+	[23] = "ffa335ee",	--"Interface/Worldmap/Skull_64Purple",
+	[24] = "ffe6cc80",	--"Interface/Worldmap/Skull_64Red",
+};
 local DifficultyIcons = {
 	[1] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
 	[2] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",	--"Interface/Worldmap/Skull_64Blue",
@@ -1831,8 +1957,34 @@ app.BaseDifficulty = {
 	__index = function(t, key)
 		if key == "text" then
 			return GetDifficultyInfo(t.difficultyID);
+		elseif key == "name" then
+			return GetDifficultyInfo(t.difficultyID);
 		elseif key == "icon" then
 			return DifficultyIcons[t.difficultyID];
+		elseif key == "saved" then
+			return t.locks;
+		elseif key == "locks" and t.parent then
+			if t.difficultyID == 7 or t.difficultyID == 17 then
+				-- LFR difficulties are giving me... difficulty.
+				return nil;
+			end
+			local locks = t.parent.locks;
+			if locks then
+				if t.parent.sharedLockout then
+					rawset(t, key, locks.shared);
+					return locks.shared;
+				else
+					-- Look for this difficulty's lockout.
+					for difficultyKey, lock in pairs(locks) do
+						if difficultyKey == "shared" then
+							-- ignore this one
+						elseif difficultyKey == t.difficultyID then
+							rawset(t, key, lock);
+							return lock;
+						end
+					end
+				end
+			end
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -1847,9 +1999,9 @@ end
 app.BaseEncounter = {
 	__index = function(t, key)
 		if key == "text" then
-			if t["isRaid"] then
-				return "|cffff8000" .. (select(1, EJ_GetEncounterInfo(t.encounterID)) or "") .. "|r";
-			end
+			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
+			return t.name;
+		elseif key == "name" then
 			return select(1, EJ_GetEncounterInfo(t.encounterID)) or "";
 		elseif key == "description" then
 			return select(2, EJ_GetEncounterInfo(t.encounterID)) or "";
@@ -1861,7 +2013,24 @@ app.BaseEncounter = {
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			return t.questID and IsQuestFlaggedCompleted(t.questID);
+			if t.questID and IsQuestFlaggedCompleted(t.questID) then
+				return true;
+			end
+			--[[
+			if t.parent then
+				local locks = t.parent.locks;
+				if locks then
+					-- Look for this encounter's lockout.
+					if #locks > 0 then
+						-- We have an explicit difficulty already
+					else
+						
+						rawset(t, key, locks);
+						return locks;
+					end
+				end
+			end
+			]]--
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -1875,7 +2044,11 @@ end
 -- Faction Lib
 app.BaseFaction = {
 	__index = function(t, key)
-		if key == "text" then
+		if key == "collectable" then
+			return true;
+		elseif key == "collected" then
+			return t.standing == 8;
+		elseif key == "text" then
 			local rgb = FACTION_BAR_COLORS[t.standing];
 			return Colorize(select(1, GetFactionInfoByID(t.factionID)), RGBToHex(rgb.r * 255, rgb.g * 255, rgb.b * 255));
 		elseif key == "title" then
@@ -1888,10 +2061,6 @@ app.BaseFaction = {
 			return t.achievementID and select(10, GetAchievementInfo(t.achievementID));
 		elseif key == "standing" then
 			return select(3, GetFactionInfoByID(t.factionID)) or 4;
-		elseif key == "collectable" then
-			return true;
-		elseif key == "collected" then
-			return t.standing == 8;
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -1907,6 +2076,8 @@ app.BaseFollower = {
 	__index = function(t, key)
 		if key == "collectable" then
 			return true;
+		elseif key == "collected" then
+			return C_Garrison.IsFollowerCollected(t.followerID);
 		elseif key == "text" then
 			local info = t.info;
 			return info and info.name;
@@ -1919,8 +2090,6 @@ app.BaseFollower = {
 		elseif key == "displayID" then
 			local info = t.info;
 			return info and info.displayID;
-		elseif key == "collected" then
-			return C_Garrison.IsFollowerCollected(t.followerID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -1936,6 +2105,8 @@ app.BaseHeirloom = {
 	__index = function(t, key)
 		if key == "collectable" then
 			return true;
+		elseif key == "collected" then
+			return C_Heirloom.PlayerHasHeirloom(t.heirloomID);
 		elseif key == "f" then
 			return 109;
 		elseif key == "text" then
@@ -1944,8 +2115,6 @@ app.BaseHeirloom = {
 			return select(2, GetItemInfo(t.heirloomID));
 		elseif key == "icon" then
 			return select(4, C_Heirloom.GetHeirloomInfo(t.heirloomID));
-		elseif key == "collected" then
-			return C_Heirloom.PlayerHasHeirloom(t.heirloomID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2101,9 +2270,9 @@ end
 app.BaseInstance = {
 	__index = function(t, key)
 		if key == "text" then
-			if t["isRaid"] then
-				return "|cffff8000" .. (select(1, EJ_GetInstanceInfo(t.instanceID)) or "") .. "|r";
-			end
+			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
+			return t.name;
+		elseif key == "name" then
 			return select(1, EJ_GetInstanceInfo(t.instanceID)) or "";
 		elseif key == "description" then
 			return select(2, EJ_GetInstanceInfo(t.instanceID)) or "";
@@ -2112,9 +2281,15 @@ app.BaseInstance = {
 		elseif key == "link" then
 			return select(8, EJ_GetInstanceInfo(t.instanceID)) or "";
 		elseif key == "saved" then
-			local saved = GetPersonalDataSubMember("Saves", (select(1, EJ_GetInstanceInfo(t.instanceID)) or "")); -- TODO: Convert this to an int-based system.... maybe?
-			if saved then rawset(t, key, saved); end
-			return saved;
+			return t.locks;
+		elseif key == "locks" then
+			local locks = GetTempDataSubMember("lockouts", t.name);
+			if locks then
+				rawset(t, key, locks);
+				return locks;
+			end
+		elseif key == "sharedLockout" then
+			return false;
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2239,6 +2414,8 @@ app.BaseMusicRoll = {
 	__index = function(t, key)
 		if key == "collectable" then
 			return true;
+		elseif key == "collected" then
+			return IsQuestFlaggedCompleted(t.musicRollID);
 		elseif key == "f" then
 			return 108;
 		elseif key == "Lvl" then
@@ -2258,8 +2435,6 @@ app.BaseMusicRoll = {
 			return IsQuestFlaggedCompleted(t.musicRollID);
 		elseif key == "description" then
 			return "These are unlocked per-character and are not currently shared across your account.";
-		elseif key == "collected" then
-			return IsQuestFlaggedCompleted(t.musicRollID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2277,12 +2452,11 @@ end
 app.BaseNPC = {
 	__index = function(t, key)
 		if key == "text" then
+			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
+			return t.name;
+		elseif key == "name" then
 			if t.npcID > 0 then
-				local name = t.npcID > 0 and NPCNameFromID[t.npcID];
-				if name then
-					if t["isRaid"] then name = "|cffff8000" .. name .. "|r"; end
-					return name;
-				end
+				return t.npcID > 0 and NPCNameFromID[t.npcID];
 			else
 				return L("NPC_ID_NAMES")[t.npcID];
 			end
@@ -2297,7 +2471,14 @@ app.BaseNPC = {
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			return t.questID and IsQuestFlaggedCompleted(t.questID);
+			if t.questID and IsQuestFlaggedCompleted(t.questID) then
+				return true;
+			end
+			--[[
+			return t.locks and t.creatureID;
+		elseif key == "locks" and t.parent then
+			return t.parent.locks;
+			]]--
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2638,7 +2819,7 @@ function app.FilterGroupsByLevel(group)
 	return app.Level >= (group.Lvl or 0);
 end
 function app.FilterGroupsByCompletion(group)
-	return group.collected < group.total;
+	return group.progress < group.total;
 end
 function app.FilterItemBind(item)
 	return item.b == 2; -- BoE
@@ -2712,23 +2893,12 @@ function app.FilterItemSourceUnique(sourceInfo)
 		return true;
 	else
 		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
-		-- NOTE: Some of the messaging provided by Blizzard "You haven't collected this appearance." is actually wrong.
-		-- In some cases, one or more of the sources for that visual ID was collected already, just not currently
-		-- available to your faction / class / character level. (This is kinda silly, but that's how it works)
-		-- Please do not file bugs regarding this, I've already identified that this was the reason for the message discrepency.
-		local invType = sourceInfo.invType;
-		if invType then
+		local categoryID = sourceInfo.categoryID;
+		if categoryID then
+			local invType = sourceInfo.invType;
 			for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 				local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-				if otherSource.isCollected and otherSource.invType == invType then return true; end
-			end
-		else
-			local categoryID = sourceInfo.categoryID;
-			if categoryID then
-				for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-					local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-					if otherSource.isCollected and otherSource.categoryID == categoryID then return true; end
-				end
+				if otherSource.isCollected and otherSource.categoryID == categoryID and otherSource.invType == invType then return true; end
 			end
 		end
 		return false;
@@ -2753,6 +2923,42 @@ app.SeasonalFilter = app.NoFilter;
 app.RequiredSkillFilter = app.NoFilter;
 app.RequireTrackableFilter = app.Filter;
 
+local function MinimapButtonOnClick(self, button)
+	if button == "RightButton" then
+		-- Right Button opens the Options menu.
+		ShowInterfaceOptions();
+	else
+		-- Left Button
+		if IsShiftKeyDown() then
+			RefreshCollections(app:GetDataCache());
+		elseif IsAltKeyDown() or IsControlKeyDown() then
+			ToggleMiniListForCurrentZone();
+		else
+			ToggleMainList();
+		end
+	end
+end
+local function MinimapButtonOnEnter(self)
+	local reference = app:GetDataCache();
+	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+	GameTooltip:ClearLines();
+	GameTooltip:AddDoubleLine(app.DisplayName, GetProgressColorText(reference.progress, reference.total));
+	GameTooltip:AddLine(GetDataMember("CompletionistMode") and "Completionist Mode" or "Unique Appearance Mode", 1, 1, 1);
+	GameTooltip:AddLine(L("DESCRIPTION"), 0.4, 0.8, 1, 1);
+	GameTooltip:AddLine(L("MINIMAP_MOUSEOVER_TEXT"), 1, 1, 1);
+	GameTooltip:Show();
+	
+	GameTooltipIcon:SetSize(96,96);
+	GameTooltipIcon.icon:SetTexture(L("LOGO_LARGE"));
+	GameTooltipIcon:Show();
+end
+local function MinimapButtonOnLeave()
+	GameTooltip:Hide();
+	GameTooltipIcon.icon.Background:Hide();
+	GameTooltipIcon.icon.Border:Hide();
+	GameTooltipIcon:Hide();
+	GameTooltipModel:Hide();
+end
 local function CreateMinimapButton()
 	-- Create the Button for the Minimap frame. Create a local and non-local copy.
 	local button = CreateFrame("BUTTON", app:GetName() .. "-Minimap", Minimap);
@@ -2800,24 +3006,9 @@ local function CreateMinimapButton()
 	button:SetScript("OnDragStop", function(self)
 		self:SetScript("OnUpdate", nil);
 	end);
-	button:SetScript("OnEnter", function(self)
-		GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-		GameTooltip:SetText(app.DisplayName);
-		GameTooltip:AddLine(L("MINIMAP_MOUSEOVER_TEXT"), 1, 1, 1);
-		GameTooltip:Show();
-	end);
-	button:SetScript("OnLeave", function(self)
-		GameTooltip:Hide();
-	end);
-	button:SetScript("OnClick", function(self, button)
-		if button == "RightButton" then
-			-- Right Button opens the Options menu.  (Calling this twice actually makes it work correctly)
-			ShowInterfaceOptions();
-		else
-			-- Left Button Toggles the App
-			app:ToggleWindow("Prime");
-		end
-	end);
+	button:SetScript("OnEnter", MinimapButtonOnEnter);
+	button:SetScript("OnLeave", MinimapButtonOnLeave);
+	button:SetScript("OnClick", MinimapButtonOnClick);
 	button:update();
 	button:Show();
 	return button;
@@ -3529,9 +3720,15 @@ local function SetRowData(self, data)
 	ClearRowData(self);
 	if data then
 		local text = data.text;
-		if not text or string.find(text, "%[%]") then
+		if not text then
 			self:GetParent().processingLinks = true;
 			text = RETRIEVING_DATA;
+		elseif string.find(text, "%[%]") then
+			-- This means the link is still rendering
+			if not data.itemID then
+				self:GetParent().processingLinks = true;
+				text = RETRIEVING_DATA;
+			end
 		elseif data.s and data.s < 1 then
 			-- If it doesn't, the source ID will need to be harvested.
 			local s, dressable = GetSourceID(text);
@@ -3582,7 +3779,11 @@ local function SetRowData(self, data)
 			end
 		end
 		if data.saved then
-			self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
+			if data.parent and data.parent.locks then
+				self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known");
+			else
+				self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
+			end
 			self.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
 			self.Indicator:Show();
 		end
@@ -3596,14 +3797,13 @@ local function SetRowData(self, data)
 			x = 4;
 		end
 		if data.total and data.total > 0 then
-			local percent = data.collected / data.total;
-			self.Summary:SetText("|c" .. GetProgressColor(percent) .. tostring(data.collected) .. " / " .. tostring(data.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
+			self.Summary:SetText(GetProgressColorText(data.progress, data.total));
 			self.Summary:Show();
 		elseif data.trackable then
 			self.Summary:SetText(L(data.saved and "COMPLETE_ICON" or "NOT_COLLECTED_ICON"));
 			self.Summary:Show();
 		else
-			self.Summary:SetText(L(data.collected and "COLLECTED_ICON" or "NOT_COLLECTED_ICON"));
+			self.Summary:SetText(GetCollectionIcon(data.collected));
 			self.Summary:Show();
 		end
 		self.Label:SetPoint("LEFT", leftmost, relative, x, 0);
@@ -3655,7 +3855,8 @@ local function UpdateVisibleRowData(self)
 		-- If the rows need to be processed again, do so next update.
 		if container.processingLinks then
 			container.processingLinks = nil;
-			Push(app, function()
+			StartCoroutine(app, function()
+				coroutine.yield();
 				self:Update();
 			end);
 		end
@@ -3782,13 +3983,6 @@ local function RowOnEnter(self)
 			-- This is an item reference. :)
 			local link = reference.link;
 			if link then GameTooltip:SetHyperlink(link); end
-		elseif reference.instanceID then
-			-- Contains information about an Instance (Raid or Dungeon)
-			-- Is the player's character saved to this instance?
-			if self.ref.saved and self.ref.saved then
-				GameTooltip:SetInstanceLockEncountersComplete(self.ref.saved);
-				GameTooltip:AddLine(" ");
-			end
 		else
 			-- Standalone Fields
 			if reference.toyID then GameTooltip:SetToyByItemID(reference.toyID);
@@ -3811,12 +4005,11 @@ local function RowOnEnter(self)
 							GameTooltip:AddDoubleLine("Quest Progress", L(reference.saved and "COMPLETE" or "INCOMPLETE"));
 						end
 					elseif reference.collectable then
-						GameTooltip:AddDoubleLine(self.Label:GetText(), L(reference.collected and "COLLECTED" or "NOT_COLLECTED"));
+						GameTooltip:AddDoubleLine(self.Label:GetText(), GetCollectionText(reference.collected));
 					end
 					if reference.title then GameTooltip:AddLine(reference.title, 1, 1, 1); end
 				else
-					local percent = reference.collected / reference.total;
-					GameTooltip:AddDoubleLine(self.Label:GetText(), "|c" .. GetProgressColor(percent) .. tostring(reference.collected) .. " / " .. tostring(reference.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
+					GameTooltip:AddDoubleLine(self.Label:GetText(), GetProgressColorText(reference.progress, reference.total));
 					if reference.trackable then
 						if reference.title then
 							GameTooltip:AddDoubleLine(reference.title, L(reference.saved and "COMPLETE" or "INCOMPLETE"), 1, 1, 1);
@@ -3832,11 +4025,10 @@ local function RowOnEnter(self)
 					if reference.trackable then
 						GameTooltipTextRight1:SetText(L(reference.saved and "COMPLETE" or "INCOMPLETE"));
 					elseif reference.collectable then
-						GameTooltipTextRight1:SetText(L(reference.collected and "COLLECTED" or "NOT_COLLECTED"));
+						GameTooltipTextRight1:SetText(GetCollectionText(reference.collected));
 					end
 				else
-					local percent = reference.collected / reference.total;
-					GameTooltipTextRight1:SetText("|c" .. GetProgressColor(percent) .. tostring(reference.collected) .. " / " .. tostring(reference.total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r");
+					GameTooltipTextRight1:SetText(GetProgressColorText(reference.progress, reference.total));
 				end
 				GameTooltipTextRight1:Show();
 			end
@@ -3853,15 +4045,26 @@ local function RowOnEnter(self)
 		if reference.f and reference.f > 0 and GetDataMember("ShowFilterID") then GameTooltip:AddDoubleLine(L("FILTER_ID"), tostring(L("FILTER_ID_TYPES")[reference.f])); end
 		if reference.achievementID and GetDataMember("ShowAchievementID") then GameTooltip:AddDoubleLine(L("ACHIEVEMENT_ID"), tostring(reference.achievementID)); end
 		if reference.artifactID and GetDataMember("ShowArtifactID") then GameTooltip:AddDoubleLine(L("ARTIFACT_ID"), tostring(reference.artifactID)); end
-		if GetDataMember("ShowCreatureID") then
-			if reference.creatureID then GameTooltip:AddDoubleLine(L("CREATURE_ID"), tostring(reference.creatureID));
-			elseif reference.npcID and reference.npcID > 0 then GameTooltip:AddDoubleLine(L("NPC_ID"), tostring(reference.npcID)); end
-		end
 		if reference.difficultyID and GetDataMember("ShowDifficultyID") then GameTooltip:AddDoubleLine(L("DIFFICULTY_ID"), tostring(reference.difficultyID)); end
-		if reference.encounterID and GetDataMember("ShowEncounterID") then GameTooltip:AddDoubleLine(L("ENCOUNTER_ID"), tostring(reference.encounterID)); end
+		if GetDataMember("ShowCreatureID") then 
+			if reference.creatureID then
+				GameTooltip:AddDoubleLine(L("CREATURE_ID"), tostring(reference.creatureID));
+			elseif reference.npcID and reference.npcID > 0 then
+				GameTooltip:AddDoubleLine(L("NPC_ID"), tostring(reference.npcID));
+			end
+		end
+		if reference.encounterID then
+			if GetDataMember("ShowEncounterID") then GameTooltip:AddDoubleLine(L("ENCOUNTER_ID"), tostring(reference.encounterID)); end
+		--	if reference.parent and reference.parent.locks then GameTooltip:AddDoubleLine("Instance Progress", L(reference.saved and "COMPLETE" or "INCOMPLETE")); end
+		--elseif reference.creatureID or (reference.npcID and reference.npcID > 0) then
+		--	if reference.parent and reference.parent.locks then GameTooltip:AddDoubleLine("Instance Progress", L(reference.saved and "COMPLETE" or "INCOMPLETE")); end
+		end
 		if reference.factionID and GetDataMember("ShowFactionID") then GameTooltip:AddDoubleLine(L("FACTION_ID"), tostring(reference.factionID)); end
 		if reference.illusionID and GetDataMember("ShowIllusionID") then GameTooltip:AddDoubleLine(L("ILLUSION_ID"), tostring(reference.illusionID)); end
-		if reference.instanceID and GetDataMember("ShowInstanceID") then GameTooltip:AddDoubleLine(L("INSTANCE_ID"), tostring(reference.instanceID)); end
+		if reference.instanceID then
+			if GetDataMember("ShowInstanceID") then GameTooltip:AddDoubleLine(L("INSTANCE_ID"), tostring(reference.instanceID)); end
+			GameTooltip:AddDoubleLine(L("LOCKOUT"), L(reference.sharedLockout and "SHARED" or "SPLIT"));
+		end
 		if reference.musicRollID and GetDataMember("ShowMusicRollID") then GameTooltip:AddDoubleLine(L("MUSIC_ROLL_ID"), tostring(reference.musicRollID)); end
 		if reference.objectID and GetDataMember("ShowObjectID") then GameTooltip:AddDoubleLine(L("OBJECT_ID"), tostring(reference.objectID)); end
 		if reference.speciesID and GetDataMember("ShowSpeciesID") then GameTooltip:AddDoubleLine(L("SPECIES_ID"), tostring(reference.speciesID)); end
@@ -3876,8 +4079,8 @@ local function RowOnEnter(self)
 		if not reference.itemID and not reference.speciesID and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, 1, true); end
 		if reference.speciesID then
 			AttachTooltipSearchResults(GameTooltip, "speciesID:" .. reference.speciesID, SearchForFieldAndSummarize, "speciesID", reference.speciesID);
-			local collected, total = C_PetJournal.GetNumCollectedInfo(reference.speciesID);
-			if total then GameTooltip:AddLine(tostring(collected) .. " / " .. tostring(total) .. " Collected"); end
+			local progress, total = C_PetJournal.GetNumCollectedInfo(reference.speciesID);
+			if total then GameTooltip:AddLine(tostring(progress) .. " / " .. tostring(total) .. " Collected"); end
 		end
 		if reference.toyID then AttachTooltipSearchResults(GameTooltip, "toyID:" .. reference.toyID, SearchForFieldAndSummarize, "toyID", reference.toyID); end
 		if reference.titleID then
@@ -3894,6 +4097,41 @@ local function RowOnEnter(self)
 			GameTooltipIcon.icon:SetTexture(reference.preview or reference.icon);
 			GameTooltipIcon:Show();
 		end
+		
+		-- Show lockout information
+		if reference.instanceID then
+			-- Contains information about an Instance (Raid or Dungeon)
+			local locks = reference.locks;
+			if locks then
+				if reference.sharedLockout and locks.shared then
+					GameTooltip:AddDoubleLine("Shared", date("%c", locks.shared.reset));
+					for encounterIter,encounter in pairs(locks.shared.encounters) do
+						GameTooltip:AddDoubleLine(" " .. encounter.name, L(encounter.isKilled and "COMPLETE_ICON" or "NOT_COLLECTED_ICON"));
+					end
+				else
+					for key,value in pairs(locks) do
+						if key == "shared" then
+							-- Skip
+						else
+							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key), DifficultyColors[key]), date("%c", value.reset));
+							for encounterIter,encounter in pairs(value.encounters) do
+								GameTooltip:AddDoubleLine(" " .. encounter.name, L(encounter.isKilled and "COMPLETE_ICON" or "NOT_COLLECTED_ICON"));
+							end
+						end
+					end
+				end
+			end
+		elseif reference.difficultyID then
+			-- Contains information about a Difficulty
+			local locks = reference.locks;
+			if locks then
+				GameTooltip:AddDoubleLine("Resets", date("%c", locks.reset));
+				for encounterIter,encounter in pairs(locks.encounters) do
+					GameTooltip:AddDoubleLine(" " .. encounter.name, L(encounter.isKilled and "COMPLETE_ICON" or "NOT_COLLECTED_ICON"));
+				end
+			end
+		end
+		
 		if reference.groups then
 			GameTooltip:AddLine(L((self.index > 0 and "LEFT_CLICK_TO_EXPAND") or "LEFT_CLICK_TO_MOVE"), 1, 1, 1);
 			GameTooltip:AddLine(L("SHIFT_LEFT_CLICK"), 1, 1, 1);
@@ -4017,28 +4255,21 @@ UpdateGroup = function(parent, group)
 		-- Check if this is a group
 		if group.groups then
 			-- If this item is collectable, then mark it as such.
-			if group.collectable or group.s then
+			if group.collectable then
 				-- An item is a special case where it may have both an appearance and a set of items
-				if group.s then
-					if group.s < 1 then
-						-- This item is missing its source ID. :(
-						group.collected = 0;
-						group.total = 1;
-						
-						-- The source ID will need to be harvested.
-						table.insert(GetTempDataMember("Missing"), group);
-					else
-						group.collected = GetDataSubMember("CollectedSources", group.s) and 1 or 0;
-						group.total = 1;
-					end
-				else
-					group.collected = getmetatable(group).collected and 1 or 0;
-					group.total = 1;
-				end
+				group.progress = group.collected and 1 or 0;
+				group.total = 1;
+			elseif group.s and group.s < 1 then
+				-- This item is missing its source ID. :(
+				group.progress = 0;
+				group.total = 1;
+				
+				-- The source ID will need to be harvested.
+				table.insert(GetTempDataMember("Missing"), group);
 			else
 				-- Default to 0 for both
+				group.progress = 0;
 				group.total = 0;
-				group.collected = 0;
 			end
 			
 			-- Update the subgroups recursively...
@@ -4048,7 +4279,7 @@ UpdateGroup = function(parent, group)
 			if app.FilterItemClass(group) then
 				-- Increment the parent group's totals.
 				parent.total = (parent.total or 0) + group.total;
-				parent.collected = (parent.collected or 0) + group.collected;
+				parent.progress = (parent.progress or 0) + group.progress;
 				group.visible = app.GroupVisibilityFilter(group); -- group.total > 0 and 
 				
 				-- If this group is trackable, then we should show it.
@@ -4060,34 +4291,32 @@ UpdateGroup = function(parent, group)
 				group.visible = false;
 			end
 		else
-			-- This is a standalone item.
-			if group.itemID and group.s then
-				-- If an item has a source ID, that means we can check its collected status.
-				if group.s > 0 then
-					group.collected = GetDataSubMember("CollectedSources", group.s);
-				else
-					-- This item is missing its source ID. :(
-					group.collected = false;
-					
-					-- The source ID will need to be harvested.
-					table.insert(GetTempDataMember("Missing"), group);
-				end
-			end
-			
 			-- If the 'can equip' filter says true
 			if app.FilterItemClass(group) then
-				-- If we've collected the item, use the "Show Collected Items" filter.
-				if group.collected then
-					group.visible = app.CollectedItemVisibilityFilter(group);
-				else
-					-- Otherwise, use the "Show Missing Items" filter.
-					group.visible = app.MissingItemVisibilityFilter(group);
-				end
-				
-				if group.collectable or group.s then
+				if group.collectable then
 					-- Increment the parent group's totals.
 					parent.total = (parent.total or 0) + 1;
-					if group.collected then parent.collected = (parent.collected or 0) + 1; end
+					
+					-- If we've collected the item, use the "Show Collected Items" filter.
+					if group.collected then
+						group.visible = app.CollectedItemVisibilityFilter(group);
+						parent.progress = (parent.progress or 0) + 1;
+					else
+						-- Otherwise, use the "Show Missing Items" filter.
+						group.visible = app.MissingItemVisibilityFilter(group);
+					end
+				else
+					-- Show this group.
+					group.visible = true;
+					
+					-- This might be a standalone item that needs to be harvested.
+					if group.s then
+						-- Increment the parent group's totals.
+						parent.total = (parent.total or 0) + 1;
+						
+						-- The source ID will need to be harvested.
+						table.insert(GetTempDataMember("Missing"), group);
+					end
 				end
 			else
 				-- Hide this group. We aren't filtering for it.
@@ -4154,6 +4383,10 @@ end
 local function ToggleWindow(self)
 	return SetWindowVisibility(self, not self:IsVisible());
 end
+function app:OpenWindow(suffix)
+	local window = app.Windows[suffix];
+	if window then SetWindowVisibility(window, true); end
+end
 function app:ToggleWindow(suffix)
 	local window = app.Windows[suffix];
 	if window then ToggleWindow(window); end
@@ -4171,7 +4404,7 @@ local function UpdateWindow(self)
 		ProcessGroup(self.rowData, self.data, 0, 0);
 		
 		-- Does this user have everything?
-		if self.data.total == self.data.collected then
+		if self.data.total == self.data.progress then
 			if #self.rowData < 1 then
 				self.data.back = 1;
 				tinsert(self.rowData, self.data);
@@ -4230,7 +4463,7 @@ function app:GetDataCache()
 		allData.text = app.DisplayName;
 		allData.description = L("DESCRIPTION");
 		allData.visible = true;
-		allData.collected = 0;
+		allData.progress = 0;
 		allData.total = 0;
 		local groups, db = {};
 		allData.groups = groups;
@@ -4404,6 +4637,25 @@ function app:GetDataCache()
 		table.insert(groups, GetGearSetCache());
 		]]--
 		
+		-- Raw Source Data (Oh god)
+		--[[
+		db = {};
+		db.expanded = false;
+		db.groups = GetRawSourceDataCache();
+		db.text = "Raw Source Data (Dynamic)";
+		table.insert(groups, db);
+		]]--
+		
+		-- Unsorted
+		if app.Unsorted then
+			db = {};
+			db.groups = app.Unsorted;
+			db.expanded = false;
+			db.text = "Unsorted";
+			table.insert(groups, db);
+			app.Unsorted = nil;
+		end
+		
 		local missingData = {};
 		app.missingData = missingData;
 		missingData.visible = true;
@@ -4416,7 +4668,7 @@ function app:GetDataCache()
 	end
 	if app.refreshDataForce then
 		app.refreshDataForce = nil;
-		allData.collected = 0;
+		allData.progress = 0;
 		allData.total = 0;
 		wipe(GetTempDataMember("Missing"));
 		app.missingData.groups = nil;
@@ -4424,7 +4676,7 @@ function app:GetDataCache()
 		UpdateGroups(allData, allData.groups, 1);
 		app.missingData.groups = app.missingData.rows;
 		app.missingData.total = #app.missingData.rows;
-		app.missingData.collected = 0;
+		app.missingData.progress = 0;
 		app.missingData.visible = app.missingData.total > 0;
 		app:GetWindow("Prime").data = allData;
 		
@@ -4435,7 +4687,7 @@ function app:GetDataCache()
 			local lastTime = GetDataMember("RefreshedCollectionsAlready");
 			if not lastTime or (lastTime ~= version and GetDataMember("AutoRefreshCollections")) then
 				SetDataMember("RefreshedCollectionsAlready", version);
-				SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the collected data cache.
+				SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the Source ID data cache.
 				RefreshCollections();
 			end
 		end
@@ -4569,8 +4821,9 @@ SlashCmdList["RELOADUI"] = ReloadUI;
 SLASH_AllTheThings1 = "/allthethings";
 SLASH_AllTheThings2 = "/things";
 SLASH_AllTheThings3 = "/att";
-SlashCmdList["AllTheThings"] = function()
-	app:ToggleWindow("Prime");
+SlashCmdList["AllTheThings"] = function(msg)
+	print("'" .. tostring(msg or "") .. "'");
+	ToggleMainList();
 end
 
 -- Register Events required at the start
@@ -4606,7 +4859,9 @@ app.events.VARIABLES_LOADED = function()
 	
 	-- Bindings
 	BINDING_HEADER_ALLTHETHINGS = app.DisplayName;
+	BINDING_NAME_ALLTHETHINGS_OPENMAINLIST = L("OPEN_MAINLIST");
 	BINDING_NAME_ALLTHETHINGS_OPENMINILIST = L("OPEN_MINILIST");
+	BINDING_NAME_ALLTHETHINGS_TOGGLEMAINLIST = L("TOGGLE_MAINLIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEMINILIST = L("TOGGLE_MINILIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLECOMPLETIONISTMODE = L("TOGGLE_COMPLETIONIST_MODE");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEDEBUGMODE = L("TOGGLE_DEBUG_MODE");
@@ -4624,6 +4879,9 @@ app.events.VARIABLES_LOADED = function()
 	end
 	app.Race = race;
 	app.RaceIndex = raceIndex;
+	local name, realm = UnitName("player");
+	local _, id = GetClassInfo(classIndex);
+	app.Me = "|c" .. RAID_CLASS_COLORS[id].colorStr .. name .. "-" .. (realm or GetRealmName()) .. "|r";
 	
 	-- Load in the Presets if they exist for this character.
 	-- Default values should fallback to their presets.
@@ -4764,20 +5022,9 @@ app.events.PLAYER_LOGIN = function()
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject(app.DisplayName, {
 		type = "launcher",
 		icon = L("LOGO_SMALL"),
-		OnTooltipShow = function(self)
-			GameTooltip:SetText(app.DisplayName);
-			GameTooltip:AddLine(L("MINIMAP_MOUSEOVER_TEXT"), 1, 1, 1);
-			GameTooltip:Show();
-		end,
-		OnClick = function(self, button)
-			if button == "RightButton" then
-				-- Right Button opens the Options menu.
-				ShowInterfaceOptions();
-			else
-				-- Left Button Toggles the App
-				app:ToggleWindow("Prime");
-			end
-		end,
+		OnClick = MinimapButtonOnClick,
+		OnEnter = MinimapButtonOnEnter,
+		OnLeave = MinimapButtonOnLeave,
 	})
 end
 app.events.SCENARIO_UPDATE = RefreshLocationForScenarioUpdate;
@@ -4834,48 +5081,59 @@ app.events.TOYS_UPDATED = function(itemID, new)
 	end
 end
 app.events.TRANSMOG_COLLECTION_SOURCE_ADDED = function(sourceID)
-	if sourceID and (GetDataSubMember("CollectedSources", sourceID) or 0) ~= 1 then
-		local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+	if sourceID then
+		-- Cache the previous state. This will help keep lag under control.
+		local oldState = GetDataSubMember("CollectedSources", sourceID);
 		SetDataSubMember("CollectedSources", sourceID, 1);
 		
-		-- If the user isn't a Completionist... We need to flag the shared appearances as collected as well. :/
-		if GetDataMember("CompletionistMode") then
-			if GetDataMember("ShowNotifications", true) then
-				-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
-				-- So this may show green items where an epic was obtained. (particularly with Legion drops)
-				-- This is okay since items of this type share their appearance regardless of the power of the item.
-				local name, link = GetItemInfo(sourceInfo.itemID);
-				print(format(L("ITEM_ID_ADDED"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
-			end
-		else
-			local shared = 0;
-			local categoryID, appearanceID, canEnchant, texture, isCollected, itemLink = C_TransmogCollection_GetAppearanceSourceInfo(sourceID);
-			if categoryID then
-				for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(appearanceID)) do
-					if not GetDataSubMember("CollectedSources", otherSourceID) then
-						if C_TransmogCollection_GetSourceInfo(otherSourceID).categoryID == categoryID then
-							SetDataSubMember("CollectedSources", otherSourceID, 2);
-							shared = shared + 1;
+		-- If this was the first time this source ID was "learned", do some work.
+		if not oldState or oldState == 0 then
+			-- Search ATT for the related sources.
+			--local attSourceInfo = SearchForSourceID(sourceID);
+			--if attSourceInfo and #attSourceInfo > 0 then
+				-- This allows for a quick refresh (New Algorithm)
+				
+			--end
+		
+			local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+			
+			-- If the user is a Completionist
+			if GetDataMember("CompletionistMode") then
+				if GetDataMember("ShowNotifications", true) then
+					-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
+					-- So this may show green items where an epic was obtained. (particularly with Legion drops)
+					-- This is okay since items of this type share their appearance regardless of the power of the item.
+					local name, link = GetItemInfo(sourceInfo.itemID);
+					print(format(L("ITEM_ID_ADDED"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
+				end
+			else
+				local shared = 0;
+				local categoryID, appearanceID, canEnchant, texture, isCollected, itemLink = C_TransmogCollection_GetAppearanceSourceInfo(sourceID);
+				if categoryID then
+					for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(appearanceID)) do
+						if not GetDataSubMember("CollectedSources", otherSourceID) then
+							if C_TransmogCollection_GetSourceInfo(otherSourceID).categoryID == categoryID then
+								SetDataSubMember("CollectedSources", otherSourceID, 2);
+								shared = shared + 1;
+							end
 						end
 					end
 				end
+				
+				if GetDataMember("ShowNotifications", true) then
+					-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
+					-- So this may show green items where an epic was obtained. (particularly with Legion drops)
+					-- This is okay since items of this type share their appearance regardless of the power of the item.
+					local name, link = GetItemInfo(sourceInfo.itemID);
+					print(format(L(shared > 0 and "ITEM_ID_ADDED_SHARED" or "ITEM_ID_ADDED"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, shared));
+				end
 			end
 			
-			if GetDataMember("ShowNotifications", true) then
-				-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
-				-- So this may show green items where an epic was obtained. (particularly with Legion drops)
-				-- This is okay since items of this type share their appearance regardless of the power of the item.
-				local name, link = GetItemInfo(sourceInfo.itemID);
-				print(format(L(shared > 0 and "ITEM_ID_ADDED_SHARED" or "ITEM_ID_ADDED"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, shared));
-			end
+			-- Refresh the Data and Celebrate!
+			app:RefreshData(false, true);
+			PlayFanfare();
+			wipe(searchCache);
 		end
-		
-		-- New way of updating the status for transmog collection
-		
-		-- Refresh the Data and Celebrate!
-		app:RefreshData(false, true);
-		PlayFanfare();
-		wipe(searchCache);
 	end
 end
 app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
@@ -4883,7 +5141,7 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 		local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 		SetDataSubMember("CollectedSources", sourceID, nil);
 		
-		-- If the user isn't a Completionist... We need to flag the shared appearances as collected as well. :/
+		-- If the user is a Completionist
 		if GetDataMember("CompletionistMode") then
 			if GetDataMember("ShowNotifications", true) then
 				-- Oh shucks, that was nice of you to give this item to your friend.

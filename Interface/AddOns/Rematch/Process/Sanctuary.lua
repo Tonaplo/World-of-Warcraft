@@ -229,7 +229,7 @@ end
 -- the optional teammates are other petIDs on a team; if passed the temporary petID
 -- will not be one of these
 function rematch:FindTemporaryPetID(speciesID,teammate1,teammate2,teammate3)
-	if speciesID then
+   if speciesID then
 		local count = C_PetJournal.GetNumCollectedInfo(speciesID)
 		if not count then
 			return -- this speciesID probably isn't valid

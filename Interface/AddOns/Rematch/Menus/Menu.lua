@@ -280,7 +280,7 @@ end
 
 -- shows or hides a menu as a toggle
 function rematch:ToggleMenu(name,...)
-	PlaySound(PlaySoundKitID and "igMainMenuOptionCheckBoxOn" or 856)
+	PlaySound(856)
 	if rematch:IsMenuOpen(name) then
 		rematch:HideMenu()
 	else
@@ -379,7 +379,7 @@ function rematch:MenuButtonOnMouseUp()
 end
 
 function rematch:MenuButtonOnClick()
-	PlaySound(PlaySoundKitID and "igMainMenuOptionCheckBoxOn" or 856)
+	PlaySound(856)
 	rematch.timeUIChanged = GetTime() -- to prevent hiding menu from HideWidgets in various panels
 	local entry = self.entry
 	if type(entry.func)=="function" then
