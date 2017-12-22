@@ -1,26 +1,452 @@
-tag b21382c1c26786ef0008e8ba74958be18c76e3dc 2.4.25
+tag 98c2e425d6f288c3f64639dc7b13d113017f7615 2.5.0
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Sat Oct 28 13:08:24 2017 +0200
+Date:	Fri Dec 22 01:05:13 2017 +0100
 
-commit 5053c3e68ae96923b6fea743f4903b89e9661e14
-Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Sat Oct 28 13:08:00 2017 +0200
+commit 790783bb38658fb06454adcfde9306a1664d8a51
+Author: Infus <infus@squorn.de>
+Date:   Mon Dec 18 20:43:25 2017 +0100
 
-    Revert "Observe squelch_actions for Sounds played from Conditions"
+    Options: Ctrl+Click on a selected aura deselects it
     
-    This reverts commit d79f1d912332a6b939e97c8d792945be20bb22df.
+    Github-Issue: 318
 
-commit ca1a1b5822b8acdb02bd1103f5fd4ab008f96a59
-Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Sat Oct 28 13:08:00 2017 +0200
+commit 790783bb38658fb06454adcfde9306a1664d8a51
+Author: Infus <infus@squorn.de>
+Date:   Mon Dec 18 20:43:25 2017 +0100
 
-    Revert "Observe squelch_actions for Sounds played from Conditions"
+    Options: Ctrl+Click on a selected aura deselects it
     
-    This reverts commit d79f1d912332a6b939e97c8d792945be20bb22df.
+    Github-Issue: 318
 
-commit 542c2af3832e975fd9aedfd2340e2dfbb234a929
+commit e81c7f731eb022b74841e30a9b443567019f8704
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 10 18:55:21 2017 +0100
+
+    AuraBar: Add condition properties for stack text size/color
+    
+    Github-Issue: 315
+
+commit c8a1d48b740a47e1f506d7ab02f71930ff2e2ec1
+Author: Infus <infus@squorn.de>
+Date:   Mon Dec 18 20:22:40 2017 +0100
+
+    Limit the tooltip of groups to a good size
+    
+    Github-Issue: 317
+
+commit e81c7f731eb022b74841e30a9b443567019f8704
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 10 18:55:21 2017 +0100
+
+    AuraBar: Add condition properties for stack text size/color
+    
+    Github-Issue: 315
+
+commit 289f816869c2a424b7cef996f134b2a673470dfb
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 10 18:29:49 2017 +0100
+
+    Fix Recenter Option for Progress Textures
+    
+    Github-Issue: 309
+
+commit add6124e3c734fccf3ceba74d6ecd94d218ca014
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 10 17:01:26 2017 +0100
+
+    Revert "Conditions: Add a "Active For" condition"
+    
+    This needs a bit more work and thought. People seem to expect
+    different things.
+    
+    This reverts commit 224c2e711a729babb1b2cccc740e97372c76553e.
+
+commit 1f753523ffbf28f610db2ad0dd23ba4b42bd2c09
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 10 15:56:34 2017 +0100
+
+    Remove message box on using a spell id for the aura trigger
+    
+    The UnitAura api takes a buff name and not a spell id, thus when
+    used with a spell id, we match on any buff that uses the same name.
+    
+    Due to that we guided people towards using the full scan option.
+    
+    Usually when people use spell ids, they want it because they want
+    their aura to work with all locales and not because there are
+    multiple buffs with shared names.
+    
+    For those, the message box is confussing and probably leads people
+    astray.
+    
+    Github-Issue: 312
+
+commit 767b897ef30832ea0ca50f906a26e54afceb3af0
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 10 15:43:48 2017 +0100
+
+    Fix Equipment Set Trigger
+    
+    The way the equipment set api works is rather strange. As the ticket
+    shows, 9 item sets might use the indexes 0 to 7 and 9, with 8 being
+    empty.
+    
+    Ticket-Nr: 1069
+
+commit 3d8d6fa5650b065966361031b86806e69ebb48ee
+Author: Infus <infus@squorn.de>
+Date:   Sat Dec 9 19:46:18 2017 +0100
+
+    Fix regions SetInverse
+    
+    Ticket-Nr: 1068
+
+commit bb57ccc587033ca51cf6aab8d93db901d3a24503
+Author: Infus <infus@squorn.de>
+Date:   Sun Dec 3 15:23:43 2017 +0100
+
+    Fix "Required for Activation" for single triggers
+    
+    I apparently forgot to properly test it.
+    
+    Github-Issue: 311
+
+commit 53a8e4c78378a0f365de4c84bec211e2c224f82f
+Author: lqnrd <30536144+lqnrd@users.noreply.github.com>
+Date:   Wed Nov 29 20:32:16 2017 +0100
+
+    field 'spellCache' can be nil
+
+commit 53a8e4c78378a0f365de4c84bec211e2c224f82f
+Author: lqnrd <30536144+lqnrd@users.noreply.github.com>
+Date:   Wed Nov 29 20:32:16 2017 +0100
+
+    field 'spellCache' can be nil
+
+commit df6edf8a87ba91ca13c246b4d615489a640cc3f9
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Fri Oct 27 17:23:19 2017 +0200
+Date:   Sun Nov 26 02:02:42 2017 +0100
 
-    Actually load the esMX language files
+    stuff I do when bored
+
+commit df6edf8a87ba91ca13c246b4d615489a640cc3f9
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sun Nov 26 02:02:42 2017 +0100
+
+    stuff I do when bored
+
+commit e166be82cb444c29c391a7838a54e193f7089634
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sun Nov 26 02:02:32 2017 +0100
+
+    rename .DuplicateOneAura to .DuplicateAura and bump widget minor
+
+commit 351f5310e16a1768a29888c170444aa826f1ead2
+Author: Infus <infus@squorn.de>
+Date:   Sun Nov 26 01:03:46 2017 +0100
+
+    Text: Fix options code to not use a unitialized variable
+
+commit ea5efaacfaaec99c58fb3215f597c4b63e8a6976
+Author: Infus <infus@squorn.de>
+Date:   Sat Nov 25 00:01:47 2017 +0100
+
+    Add a "Duplicate All" option to the context menu
+    
+    Ticket-Nr: 873
+
+commit eede84f329a9468ac428d94a3a83d9c298eaf41a
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Thu Nov 23 22:49:28 2017 +0100
+
+    use WeakAurasSortedDropdown for combat log message pre- and suffix controls
+
+commit eede84f329a9468ac428d94a3a83d9c298eaf41a
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Thu Nov 23 22:49:28 2017 +0100
+
+    use WeakAurasSortedDropdown for combat log message pre- and suffix controls
+
+commit a7599380d264807fbdd6e4ec5efa9cc8678387d4
+Author: Infus <infus@squorn.de>
+Date:   Thu Nov 23 21:38:16 2017 +0100
+
+    BuffTrigger: Add a "Show Always" option to the BuffTrigger
+    
+    Also add a option to show the aura even if the unit does not exists.
+    
+    Ticket-Nr: 951
+
+commit 7006e9bae212b4883c963cce3bff22bd14095cd9
+Author: Infus <infus@squorn.de>
+Date:   Thu Nov 23 19:03:44 2017 +0100
+
+    Conditions: Add a "Active For" condition
+    
+    Which checks how long a trigger has been active.
+    
+    Ticket-Nr: 952
+
+commit e10d40e15059d8b04d5133381d7a25001f522460
+Author: Infus <infus@squorn.de>
+Date:   Thu Nov 23 01:14:36 2017 +0100
+
+    Text: Slightly modify wording for wrap mode
+
+commit e10d40e15059d8b04d5133381d7a25001f522460
+Author: Infus <infus@squorn.de>
+Date:   Thu Nov 23 01:14:36 2017 +0100
+
+    Text: Slightly modify wording for wrap mode
+
+commit 0ed86bfc671ed959128477e3baede520af0c5626
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Thu Nov 23 00:50:37 2017 +0100
+
+    make a few more strings translatable and dynamically size the import disabled button by it's text width
+
+commit 8174c9745e8f3c087641a30fa8f1aa2b1a5ffadd
+Author: Infus <infus@squorn.de>
+Date:   Thu Nov 23 00:05:32 2017 +0100
+
+    Tweak Reload Options to fix a few bugs
+    
+    Toggling options with multiple auras selected related in a bug.
+    And toggling options would not always toggle the option in all auras.
+
+commit 80b654029b17abdf8e662c856714353b660d738f
+Author: Lanvilla <33900813+Lanvilla@users.noreply.github.com>
+Date:   Wed Nov 22 16:39:20 2017 +0300
+
+    RegionPrototype.lua: attempt to compare number with string
+    
+    ```
+    Message: ...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: attempt to compare number with string
+    Time: 11/22/17 16:11:34
+    Count: 846
+    Stack: ...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: attempt to compare number with string
+    Interface\SharedXML\SharedBasicControls.lua:208: in function `origErrorHandler'
+    ...rface\AddOns\TradeSkillMaster\Debug\ErrorHandler.lua:317: in function <...rface\AddOns\TradeSkillMaster\Debug\ErrorHandler.lua:300>
+    [C]: ?
+    ...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: in function `SetDurationInfo'
+    Interface\AddOns\WeakAuras\WeakAuras.lua:3611: in function <Interface\AddOns\WeakAuras\WeakAuras.lua:3593>
+    Interface\AddOns\WeakAuras\WeakAuras.lua:3695: in function <Interface\AddOns\WeakAuras\WeakAuras.lua:3687>
+    Interface\AddOns\WeakAuras\WeakAuras.lua:3790: in function `UpdatedTriggerState'
+    Interface\AddOns\WeakAuras\GenericTrigger.lua:550: in function `ScanEvents'
+    Interface\AddOns\WeakAuras\GenericTrigger.lua:890: in function <Interface\AddOns\WeakAuras\GenericTrigger.lua:888>
+    
+    Locals: errorMessage = "...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: attempt to compare number with string"
+    DisplayMessageInternal = <function> defined @Interface\SharedXML\SharedBasicControls.lua:191
+    MESSAGE_TYPE_ERROR = 0
+    ```
+
+commit 80b654029b17abdf8e662c856714353b660d738f
+Author: Lanvilla <33900813+Lanvilla@users.noreply.github.com>
+Date:   Wed Nov 22 16:39:20 2017 +0300
+
+    RegionPrototype.lua: attempt to compare number with string
+    
+    ```
+    Message: ...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: attempt to compare number with string
+    Time: 11/22/17 16:11:34
+    Count: 846
+    Stack: ...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: attempt to compare number with string
+    Interface\SharedXML\SharedBasicControls.lua:208: in function `origErrorHandler'
+    ...rface\AddOns\TradeSkillMaster\Debug\ErrorHandler.lua:317: in function <...rface\AddOns\TradeSkillMaster\Debug\ErrorHandler.lua:300>
+    [C]: ?
+    ...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: in function `SetDurationInfo'
+    Interface\AddOns\WeakAuras\WeakAuras.lua:3611: in function <Interface\AddOns\WeakAuras\WeakAuras.lua:3593>
+    Interface\AddOns\WeakAuras\WeakAuras.lua:3695: in function <Interface\AddOns\WeakAuras\WeakAuras.lua:3687>
+    Interface\AddOns\WeakAuras\WeakAuras.lua:3790: in function `UpdatedTriggerState'
+    Interface\AddOns\WeakAuras\GenericTrigger.lua:550: in function `ScanEvents'
+    Interface\AddOns\WeakAuras\GenericTrigger.lua:890: in function <Interface\AddOns\WeakAuras\GenericTrigger.lua:888>
+    
+    Locals: errorMessage = "...ace\AddOns\WeakAuras\RegionTypes\RegionPrototype.lua:324: attempt to compare number with string"
+    DisplayMessageInternal = <function> defined @Interface\SharedXML\SharedBasicControls.lua:191
+    MESSAGE_TYPE_ERROR = 0
+    ```
+
+commit f0246da4387e9a438775609cd06cd3b232a51b4f
+Author: Infus <infus@squorn.de>
+Date:   Tue Nov 21 19:58:18 2017 +0100
+
+    BuffTrigger: Key aura_cache for group triggers on both id and triggernum
+    
+    Instead of just the id. As otherwise in a aura with two group triggers,
+    the triggers would override each others data.
+    
+    Ticket-Nr: 1066
+
+commit ecb2503fe5550037735eaf291fc269c70433fdd2
+Author: Infus <infus@squorn.de>
+Date:   Sun Nov 19 18:31:58 2017 +0100
+
+    Rework ScanAll after options close/checking load condtions
+    
+    Only send fake events to status auras and to auras whose load
+    condition actually changed.
+    
+    This might break a few auras that relied on fake events being sent to
+    them, but it should be quite a bit faster and hopefully not break to
+    many custom auras.
+    
+    Github-Issue: 304
+
+commit d8aaf22feb486cc7972339eac94781008b86a68d
+Author: Infus <infus@squorn.de>
+Date:   Sun Nov 19 15:41:09 2017 +0100
+
+    Text: Add a options for a fixed width and word wrap
+    
+    Github-Issue: 294
+    Ticket-Nr: 1052
+
+commit 1b9988b0d1cef254ecee5f831c2e9962cb7e5b16
+Author: Infus <infus@squorn.de>
+Date:   Fri Nov 17 17:49:26 2017 +0100
+
+    Tweak order of options so that "Check On" and "Events" stay together
+    
+    Github-Issue: 303
+
+commit 8dedb6a4485af25802be4c1b59623b9a20a305ba
+Author: Infus <infus@squorn.de>
+Date:   Fri Nov 17 17:33:26 2017 +0100
+
+    CodeEditors: Only enable for the scroll wheel while having focus
+    
+    Github-Issue: 302
+
+commit a54ade191bac5240c9a5ccde21c1822291a231cc
+Author: Infus <infus@squorn.de>
+Date:   Fri Nov 17 17:24:27 2017 +0100
+
+    Fix missing constant factor setting for counter clockwise dynamic groups
+    
+    I tested that the setting actually works.
+    
+    Ticket-Nr: 1065
+
+commit 0b8e403f6aef2f4ee898fa87aecce6ad1572e5fa
+Author: Infus <infus@squorn.de>
+Date:   Fri Nov 17 17:23:39 2017 +0100
+
+    Add Heal Prediction to state
+    
+    So that state.changed naturally gets the right value when the heal
+    prediction changes.
+
+commit 575b60151b9b5f0579ad84751eee8c3cdf8367a4
+Author: Infus <infus@squorn.de>
+Date:   Fri Nov 17 17:23:13 2017 +0100
+
+    Activate Aura Environment for running overlay functions
+
+commit 6772f32f79d1e60fd03ee667e39fceb1ac5b70ba
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Nov 17 15:08:02 2017 +0100
+
+    no longer needed as of VS Code 1.18
+
+commit 5689acf1bd018316c79582dccad3294c5a32f82b
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Nov 11 17:40:13 2017 +0100
+
+    I hate curseforge
+
+commit 5689acf1bd018316c79582dccad3294c5a32f82b
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Nov 11 17:40:13 2017 +0100
+
+    I hate curseforge
+
+commit a135d07bb0cf10e6b99ffe589e2b2b2d8f317859
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Nov 11 17:30:38 2017 +0100
+
+    quick fix for the locale issue
+
+commit a135d07bb0cf10e6b99ffe589e2b2b2d8f317859
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Nov 11 17:30:38 2017 +0100
+
+    quick fix for the locale issue
+
+commit 2ab6a602c093173a73d5d8aaaa3c3bde46f1becb
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Nov 11 17:19:16 2017 +0100
+
+    trigger translation update
+
+commit 2ab6a602c093173a73d5d8aaaa3c3bde46f1becb
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Nov 11 17:19:16 2017 +0100
+
+    trigger translation update
+
+commit ed8d063d4a413f6baa17cb607389ffd8794ce3bf
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Mon Nov 6 23:55:23 2017 +0100
+
+    make a few more strings translatable
+
+commit ed8d063d4a413f6baa17cb607389ffd8794ce3bf
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Mon Nov 6 23:55:23 2017 +0100
+
+    make a few more strings translatable
+
+commit 530744babd14cfb708dbe90ea0a0cebfd04a640d
+Author: Infus <infus@squorn.de>
+Date:   Sat Sep 16 15:12:26 2017 +0200
+
+    Cast Trigger: Reload options on toggling Inverse
+    
+    For Conditions
+
+commit 33ff52e29b31af072e76a5977aca3f132db1103f
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Nov 3 14:00:37 2017 +0100
+
+    missed a file
+
+commit 33ff52e29b31af072e76a5977aca3f132db1103f
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Nov 3 14:00:37 2017 +0100
+
+    missed a file
+
+commit 80b9b3bcadcb0bcfffa51d31125812a010c6c459
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Nov 3 11:48:36 2017 +0100
+
+    update translations
+
+commit 80b9b3bcadcb0bcfffa51d31125812a010c6c459
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Nov 3 11:48:36 2017 +0100
+
+    update translations
+
+commit c041846d09954978a97cb0a948194be15b9ab894
+Author: Infus <infus@squorn.de>
+Date:   Tue Oct 31 17:26:08 2017 +0100
+
+    Pet Behavior: Don't require a check for behavior
+    
+    And return a icon
+
+commit 899847cff858f22142cff6fa330742410c489c31
+Author: Infus <infus@squorn.de>
+Date:   Tue Oct 31 17:25:12 2017 +0100
+
+    Templates: Correct load condition for Ice Fury
+
+commit 42001db0b7cc5a3442fdc9ccc224c3b43c2599ac
+Author: Infus <infus@squorn.de>
+Date:   Sat Oct 28 23:44:44 2017 +0200
+
+    Squelch sounds while in the loading screen
+    
+    Try again with a more narrow patch.
 
