@@ -2578,13 +2578,11 @@ do
 			local list = {}
 			local db = DeathGraphs.graph_database
 			
-			--> hierarchy for the new graph
-			-- Database -> [Combat Hash (EncounterId + Boss Diff Id)] = {}  Hash
-			-- Combat Hash (EncounterId + Boss Diff Id) -> [SpellId] = {}  Hash
-			-- SpellId -> [Index] = {}  Numeric
-			-- Indexed -> TimeAt, time()
+			--> hierarchy for the graph
+			-- Database -> [combat hash (EncounterId + Boss Diff Id)] = DataTable hash{ }
+			-- DataTable = { .deaths = hash{},  .spells = hash{},  .ids = hash{} }
 			
-			for hash, t1 in pairs (db) do
+			for hash, infoTable in pairs (db) do
 				
 				local EI, diff = hash:match ("(%d%d%d%d.-)(%d%d)")
 				EI, diff = tonumber (EI), tonumber (diff)
@@ -2603,22 +2601,25 @@ do
 					if (not bossName) then
 						bossName = "Unknown Boss"
 					end
-
-					tinsert (list, {value = hash, label = bossName .. " (" .. diffName .. ")", onclick = OnSelectBossEncounter, icon = icon, texcoord = {L, R, T, B}})
-				end
-				
-				for spellid, t2  in pairs (t1) do
 					
-					for index, t3 in ipairs (t2) do
-						
-						local combatTime, time = unpack (t3)
-						
+					local latestTime = 0
+					local spellTable = infoTable.spells
+					
+					for spellName, spellTimers  in pairs (spellTable) do
+						for index, spell in ipairs (spellTimers) do
+							local combatTime, timeAt = unpack (spell)
+							if (timeAt > latestTime) then
+								latestTime = timeAt
+							end
+						end
 					end
 					
+					tinsert (list, {value = hash, label = bossName .. " (" .. diffName .. ")", onclick = OnSelectBossEncounter, icon = icon, texcoord = {L, R, T, B}, when = latestTime})
 				end
-				
 			end
-		
+			
+			table.sort (list, function (t1, t2) return t1.when > t2.when end)
+			
 			return list
 		end
 		
@@ -2630,7 +2631,6 @@ do
 			local currentCombat = Details:GetCurrentCombat()
 			if (currentCombat) then
 				if (currentCombat.is_boss) then
-				
 					--> get the map index
 					local mapID = currentCombat.is_boss.mapid
 					--> get the boss index within the raid
@@ -2650,7 +2650,6 @@ do
 				end
 			end
 		end
-		
 		
 		--> graph frame:
 		local graphFrame = CreateFrame ("frame", "DeathGraphsPlayerGraphicDeaths_graphFrame", deathAbilityGraph)
@@ -2679,6 +2678,25 @@ do
 		spellLinesFrame:SetPoint ("bottomright", graphFrame, "bottomleft")
 		spellLinesFrame:SetWidth (160)
 		spellLinesFrame:SetFrameLevel (graphFrame:GetFrameLevel()+1)
+		
+		--> tutorial text
+		local whiteLine = graphFrame:CreateTexture (nil, "overlay")
+		whiteLine:SetColorTexture (1, 1, 1, .7)
+		whiteLine:SetSize (6, 20)		
+		whiteLine:SetPoint ("topleft", deathAbilityGraph, "topleft", 0, -55)		
+		
+		local tutorialLabel1 = framework:CreateLabel (graphFrame)
+		tutorialLabel1:SetPoint ("left", whiteLine, "right", 4, 1)
+		tutorialLabel1.text = "White vertical lines are\noccurences of deaths during tries"
+		
+		local redBlock = graphFrame:CreateTexture (nil, "overlay")
+		redBlock:SetColorTexture (1, .2, .2, .7)
+		redBlock:SetSize (6, 20)
+		redBlock:SetPoint ("topleft", deathAbilityGraph, "topleft", 0, -85)		
+		
+		local tutorialLabel2 = framework:CreateLabel (graphFrame)
+		tutorialLabel2:SetPoint ("left", redBlock, "right", 4, 1)
+		tutorialLabel2.text = "Red squares are occurences\nof enemy spells"
 		
 		local y = -100
 		graphFrame.SpellsLines = {}

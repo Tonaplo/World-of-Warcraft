@@ -1,7 +1,7 @@
-changeset:   50:8305271ccd58
-tag:         v7.3.2.050
+changeset:   52:f21f3a495602
+tag:         v7.3.2.052
 user:        Tercio
-date:        Fri Dec 15 10:21:40 2017 -0200
-summary:     - Removed the SMA smoothness method from the chart.
+date:        Fri Dec 22 09:09:55 2017 -0200
+summary:     - Tabs are now more visible.
 
 

@@ -14,10 +14,10 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Options"] = {
@@ -39,10 +39,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1513929481,
+				["lastUpdate"] = 1514016770,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1513123706,
+				["lastUpdate"] = 1514017332,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -51,35 +51,35 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618514,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1513414105,
+				["lastUpdate"] = 1514017374,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1513837901,
+				["lastUpdate"] = 1514016917,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1514019465,
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1513144613,
+				["lastUpdate"] = 1514016615,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1513842425,
+				["lastUpdate"] = 1514017013,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1513123612,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1513836564,
+				["lastUpdate"] = 1514016893,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["ChallengeMode"] = {
 					["weeklyBestLevel"] = 3,
 					["weeklyBestTime"] = 1332970,
 				},
-				["lastUpdate"] = 1513931383,
+				["lastUpdate"] = 1514016942,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1513931504,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427638,
 			},
 		},
 	},

@@ -173,6 +173,33 @@ function ChartViewer:CheckFor_CreateNewTabForCombat()
 end
 		
 ----------> Tabs
+	local titlecase = function (first, rest)
+		return first:upper()..rest:lower()
+	end
+	
+	--tab on enter
+	function ChartViewer:TabOnEnter (tab)
+			GameTooltip:SetOwner (tab, "ANCHOR_TOPLEFT")
+			local tabObject = DETAILS_PLUGIN_CHART_VIEWER:GetTab (tab.index)
+			GameTooltip:AddLine (tabObject.name)
+			GameTooltip:AddLine (tabObject.segment_type == 1 and "Current Segment" or "Last 5 Segments")
+			GameTooltip:AddLine (" ")
+			
+			local chartData = tabObject.data
+			if (chartData:find ("MULTICHARTS~")) then --multichart
+				chartData = chartData:gsub ("MULTICHARTS~", "")
+				chartData = chartData:gsub ("~", ", ")
+				
+			elseif (chartData:find ("_")) then --preset
+				chartData = chartData:gsub ("_", " ")
+				chartData = chartData:gsub ("(%a)([%w_']*)", titlecase)
+				chartData = chartData:gsub ("Preset", "Preset:")
+			end
+			
+			GameTooltip:AddDoubleLine ("Chart:", chartData)
+			GameTooltip:Show()
+			tab.CloseButton:SetNormalTexture ("Interface\\Buttons\\UI-Panel-MinimizeButton-Up")
+	end	
 		
 	--new tab
 		ChartViewer.tab_prototype = {name = Loc ["STRING_NEWTAB"], segment_type = 1, data = "", texture = "line", version = "v2.0"}
@@ -332,6 +359,7 @@ end
 			--cleanup default scripts
 			frame:SetScript ("OnDoubleClick", nil)
 			frame:SetScript ("OnDragStart", nil)
+			frame:SetAlpha (0.8)
 			return frame
 		end
 		function ChartViewer:TabHideNotUsedFrames()
@@ -883,9 +911,13 @@ local create_add_tab_panel = function()
 	
 	local fw = ChartViewer:GetFramework()
 	
-	local panel = fw:CreatePanel (ChartViewerWindowFrame, 225, 180, {bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 16,
+	local panel = fw:CreatePanel (ChartViewerWindowFrame, 260, 180, {bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 16,
 	insets = {left = 0, right = 0, top = 0, bottom = 0}, edgeFile = [[Interface\DialogFrame\UI-DialogBox-Border]], edgeSize = 10})
 	ChartViewer.NewTabPanel = panel
+	
+	panel:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\AddOns\Details\images\background]], tileSize = 64, tile = true})
+	panel:SetBackdropColor (0.2, 0.2, 0.2, .6)
+	panel:SetBackdropBorderColor (0, 0, 0, 1)	
 	
 	panel:SetPoint ("center", ChartViewerWindowFrame, "center")
 	

@@ -1,7 +1,7 @@
-changeset:   75:e8c01cc77175
-tag:         v7.3.2.075
+changeset:   77:7e8620766105
+tag:         v7.3.2.077
 user:        Tercio
-date:        Fri Dec 15 10:20:41 2017 -0200
-summary:     - Endurance frame now correctly select the boss from the last segment.
+date:        Fri Dec 22 09:10:20 2017 -0200
+summary:     - The last boss played will be automatically selected when the window open.
 
 

@@ -5,106 +5,66 @@ if ns:IsSameLocale("ruRU") then
 
 	L.LOCALE_NAME = "ruRU"
 
-L["ALLOW_IN_LFD"] = "Разрешить в Поиске подземелья"
---Translation missing 
--- L["ALLOW_IN_LFD_DESC"] = ""
---Translation missing 
--- L["ALLOW_ON_PLAYER_UNITS"] = ""
---Translation missing 
--- L["ALLOW_ON_PLAYER_UNITS_DESC"] = ""
---Translation missing 
--- L["ALWAYS_SHOW_EXTENDED_INFO"] = ""
---Translation missing 
--- L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = ""
+L["ALLOW_IN_LFD"] = "Разрешить в поиске подземелья"
+L["ALLOW_IN_LFD_DESC"] = "Правый щелчок на группу или кандидатов в поиске подземелья для копирования URL профиля Raider.IO."
+L["ALLOW_ON_PLAYER_UNITS"] = "Разрешить на игроке перс."
+L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Правый щелчок, на игрока для копирования URL профиля Raider.IO."
+L["ALWAYS_SHOW_EXTENDED_INFO"] = "Всегда отображать баллы ролей"
+L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Удерживайте клавиши, такие как (shift/ctrl/alt), чтобы отображались баллы для всех ролей в подсказке. Если этот параметр включен, то подсказки всегда, будут отображаться на все роли."
 L["BEST_FOR_DUNGEON"] = "Лучшее для подземелья"
-L["BEST_RUN"] = "Лучший"
+L["BEST_RUN"] = "Лучший пробег"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Изменения были сохранены, но необходимо перезагрузить интерфейс, чтобы они вступили в силу.
 
-Ты хочешь сделать это сейчас?]=]
+Сделать это сейчас?]=]
 L["COPY_RAIDERIO_PROFILE_URL"] = "Копировать URL профиль Raider.IO"
 L["COPY_RAIDERIO_URL"] = "Копировать Raider.IO URL"
-L["DPS"] = "DPS"
-L["DPS_SCORE"] = "DPS Score"
-L["ENABLE_NO_SCORE_COLORS"] = "Отключить цвета оценки"
---Translation missing 
--- L["ENABLE_NO_SCORE_COLORS_DESC"] = ""
---Translation missing 
--- L["ENABLE_SIMPLE_SCORE_COLORS"] = ""
---Translation missing 
--- L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = ""
-L["HEALER"] = "Целитель"
-L["HEALER_SCORE"] = "Результат Целителя"
-L["KEYSTONE_COMPLETED_10"] = "+10 (KSC)"
-L["KEYSTONE_COMPLETED_15"] = "+15 (KSM)"
-L["KEYSTONE_COMPLETED_5"] = "+5 (KSI)"
---Translation missing 
--- L["MAINS_SCORE"] = ""
---Translation missing 
--- L["MAINS_SCORE_COLON"] = ""
---Translation missing 
--- L["MYTHIC_PLUS_DB_MODULES"] = ""
---Translation missing 
--- L["MYTHIC_PLUS_SCORES"] = ""
+L["DPS"] = "Боец"
+L["DPS_SCORE"] = "Балл в бойце"
+L["ENABLE_NO_SCORE_COLORS"] = "Отключить окрашивание балла"
+L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску баллов. Все баллы будут показаны в белом."
+L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать простые цвета для балла"
+L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает баллы только со стандартными цветами. Это может сделать его более легким, чтобы облегчить видимость для уровней баллов."
+L["HEALER"] = "Лекарь"
+L["HEALER_SCORE"] = "Балл в лекаре"
+L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
+L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
+L["KEYSTONE_COMPLETED_5"] = "+5 (К-п)"
+L["MAINS_SCORE"] = "Главный балл"
+L["MAINS_SCORE_COLON"] = "Главный балл: "
+L["MYTHIC_PLUS_DB_MODULES"] = "Эпохальный плюс модули базы данных"
+L["MYTHIC_PLUS_SCORES"] = "Эпохальный плюс баллы"
 L["OPEN_CONFIG"] = "Открыть конфигурацию"
---Translation missing 
--- L["OUTDATED_DATABASE"] = ""
---Translation missing 
--- L["OUTDATED_DATABASE_S"] = ""
---Translation missing 
--- L["PREV_SEASON_COLON"] = ""
---Translation missing 
--- L["PREV_SEASON_SCORE"] = ""
---Translation missing 
--- L["RAIDERIO_MP_SCORE"] = ""
---Translation missing 
--- L["RAIDERIO_MP_SCORE_COLON"] = ""
---Translation missing 
--- L["RAIDERIO_MYTHIC_OPTIONS"] = ""
---Translation missing 
--- L["RELOAD_LATER"] = ""
-L["RELOAD_NOW"] = "Перезагрузить страницу"
---Translation missing 
--- L["SHOW_IN_FRIENDS"] = ""
---Translation missing 
--- L["SHOW_IN_FRIENDS_DESC"] = ""
---Translation missing 
--- L["SHOW_IN_LFD"] = ""
---Translation missing 
--- L["SHOW_IN_LFD_DESC"] = ""
---Translation missing 
--- L["SHOW_IN_SLASH_WHO_RESULTS"] = ""
---Translation missing 
--- L["SHOW_IN_SLASH_WHO_RESULTS_DESC"] = ""
---Translation missing 
--- L["SHOW_IN_WHO_UI"] = ""
---Translation missing 
--- L["SHOW_IN_WHO_UI_DESC"] = ""
---Translation missing 
--- L["SHOW_KEYSTONE_INFO"] = ""
---Translation missing 
--- L["SHOW_KEYSTONE_INFO_DESC"] = ""
---Translation missing 
--- L["SHOW_MAINS_SCORE"] = ""
---Translation missing 
--- L["SHOW_MAINS_SCORE_DESC"] = ""
---Translation missing 
--- L["SHOW_ON_GUILD_ROSTER"] = ""
---Translation missing 
--- L["SHOW_ON_GUILD_ROSTER_DESC"] = ""
---Translation missing 
--- L["SHOW_ON_PLAYER_UNITS"] = ""
---Translation missing 
--- L["SHOW_ON_PLAYER_UNITS_DESC"] = ""
---Translation missing 
--- L["SHOW_PREV_SEASON_SCORE"] = ""
---Translation missing 
--- L["SHOW_PREV_SEASON_SCORE_DESC"] = ""
+L["OUTDATED_DATABASE"] = "Старые баллы прошло уже %d д."
+L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r используете старые данные |cffFF6666%d|r д. прошло. Пожалуйста, обновите аддон для более точного эпохального плюс балла."
+L["PREV_SEASON_COLON"] = "Пред. сезон:"
+L["PREV_SEASON_SCORE"] = "Балл предыдущего сезона"
+L["RAIDERIO_MP_SCORE"] = "Raider.IO Э+ Балл"
+L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO Э+ Балл: "
+L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO Эпохальный плюс параметры"
+L["RELOAD_LATER"] = "Перезагрузить позже"
+L["RELOAD_NOW"] = "Перезагрузить сейчас"
+L["SHOW_IN_FRIENDS"] = "Отображать в списке друзей"
+L["SHOW_IN_FRIENDS_DESC"] = "Показывает Эпохальный+ балл при наведении курсора мыши на друзей."
+L["SHOW_IN_LFD"] = "Отображать в поиске подземелья"
+L["SHOW_IN_LFD_DESC"] = "Показывает Эпохальный+ балл при наведении курсора на группу или кандидатов."
+L["SHOW_IN_SLASH_WHO_RESULTS"] = "Отображать в /кто результаты"
+L["SHOW_IN_SLASH_WHO_RESULTS_DESC"] = "Показывает Эпохальный+ балл, когда вам нужен в \"/кто\", кто-то конкретный."
+L["SHOW_IN_WHO_UI"] = "Отображать ПИ в \"кто\""
+L["SHOW_IN_WHO_UI_DESC"] = "Показывает Эпохальный+ балл при наведении курсора мыши в диалоговом окне результатов \"Кто\"."
+L["SHOW_KEYSTONE_INFO"] = "Отображать инфо. о ключе"
+L["SHOW_KEYSTONE_INFO_DESC"] = "Добавляет информацию о ключе в подсказке ключа. Предлагает Эпохальный+ балл для группы."
+L["SHOW_MAINS_SCORE"] = "Отображать балл из главного перc."
+L["SHOW_MAINS_SCORE_DESC"] = "Показывает основной балл игрока за текущий сезон. Игроки должны, зарегистрироваться на Raider.IO, и сделать, персонажа своим главным."
+L["SHOW_ON_GUILD_ROSTER"] = "Отображать в списке гильдии"
+L["SHOW_ON_GUILD_ROSTER_DESC"] = "Показывает Эпохальный+ балл при наведении курсора мыши на участников гильдии, в списке гильдии."
+L["SHOW_ON_PLAYER_UNITS"] = "Отображать на игроках"
+L["SHOW_ON_PLAYER_UNITS_DESC"] = "Показывает Эпохальный+ балл при наведении курсора мыши на игроков."
+L["SHOW_PREV_SEASON_SCORE"] = "Отображать предыдущий балл сезона"
+L["SHOW_PREV_SEASON_SCORE_DESC"] = "Показывает балл предыдущего сезона, если текущий балл игроков ниже, чем раньше."
 L["TANK"] = "Танк"
-L["TANK_SCORE"] = "Результат Танка"
---Translation missing 
--- L["TOOLTIP_CUSTOMIZATION"] = ""
---Translation missing 
--- L["UNKNOWN_SERVER_FOUND"] = ""
+L["TANK_SCORE"] = "Балл в танке"
+L["TOOLTIP_CUSTOMIZATION"] = "Кастомизация подсказок"
+L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r столкнулся с новым сервером. Пожалуйста, запишите эту информацию |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r и сообщите об этом разработчикам. Спасибо!"
 
 
 	ns.L = L

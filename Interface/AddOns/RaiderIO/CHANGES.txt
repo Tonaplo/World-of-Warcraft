@@ -1,16 +1,10 @@
-lightweight tag fa5ed148fad647224d2364fa758e6729ca21ab14 v201712210800
+lightweight tag d34cde61a06d48e88e0eac0954062b574225aaa4 v201712231525
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Thu Dec 21 08:40:39 2017 +0000
+Date:	Sat Dec 23 16:05:47 2017 +0000
 
-commit fa5ed148fad647224d2364fa758e6729ca21ab14
+commit d34cde61a06d48e88e0eac0954062b574225aaa4
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Thu Dec 21 08:40:39 2017 +0000
+Date:   Sat Dec 23 16:05:47 2017 +0000
 
     [Raider.IO] Database Refresh
-
-commit 59f552790bd4b581c0737faaf02b201e97a511d8
-Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Wed Dec 20 18:27:00 2017 -0600
-
-    added a missing realm from TW
 
