@@ -1,30 +1,30 @@
 
 HandyNotes_BrokenShoreDB = {
 	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 	},
 	["profiles"] = {
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
@@ -35,21 +35,21 @@ HandyNotes_BrokenShoreDB = {
 			["show_infernalCores"] = false,
 			["show_shrine"] = false,
 		},
-		["Miriyal - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Fimwack - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Greybone - Proudmoore"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Fimwack - Proudmoore"] = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Kaldorath - Proudmoore"] = {
 		},
 	},
 }

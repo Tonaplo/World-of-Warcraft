@@ -6,22 +6,38 @@ DeathGraphsDBDeaths = {
 		["name"] = "Gul'dan",
 		["id"] = 1737,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "The Nighthold",
-			["id"] = 1866,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Gul'dan",
-			["encounter"] = "Gul'dan",
-			["ej_instance_id"] = 786,
-			["diff"] = 15,
-		},
 		["player_db"] = {
+			["Kaedwyn-Tichondrius"] = {
+				["overall"] = {
+					2227529, -- [1]
+					[227550] = 6940558,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kaedwyn-Tichondrius",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Gummyeggs-Tichondrius"] = {
+				["overall"] = {
+					[206340] = 6062912,
+					[206339] = 158913,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Gummyeggs-Tichondrius",
+				["class"] = "WARLOCK",
+			},
+			["Meowfurious-Tichondrius"] = {
+				["overall"] = {
+					[221807] = 1069735,
+					[209087] = 1081662,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Meowfurious-Tichondrius",
+				["class"] = "WARRIOR",
+			},
 			["Deorsai"] = {
-				["name"] = "Deorsai",
-				["class"] = "PRIEST",
 				["overall"] = {
 					[211132] = 655664,
 					[221781] = 397499,
@@ -29,20 +45,10 @@ DeathGraphsDBDeaths = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Gummyeggs-Tichondrius"] = {
-				["name"] = "Gummyeggs-Tichondrius",
-				["class"] = "WARLOCK",
-				["overall"] = {
-					[206340] = 6062912,
-					[206339] = 158913,
-				},
-				["deaths"] = {
-				},
+				["name"] = "Deorsai",
+				["class"] = "PRIEST",
 			},
 			["Tafè-Tichondrius"] = {
-				["name"] = "Tafè-Tichondrius",
-				["class"] = "PRIEST",
 				["overall"] = {
 					[206581] = 1953180,
 					[227550] = 2473410,
@@ -50,30 +56,10 @@ DeathGraphsDBDeaths = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Kaedwyn-Tichondrius"] = {
-				["name"] = "Kaedwyn-Tichondrius",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-					2227529, -- [1]
-					[227550] = 6940558,
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowfurious-Tichondrius"] = {
-				["name"] = "Meowfurious-Tichondrius",
-				["class"] = "WARRIOR",
-				["overall"] = {
-					[221807] = 1069735,
-					[209087] = 1081662,
-				},
-				["deaths"] = {
-				},
+				["name"] = "Tafè-Tichondrius",
+				["class"] = "PRIEST",
 			},
 			["Amranar"] = {
-				["name"] = "Amranar",
-				["class"] = "DRUID",
 				["overall"] = {
 					[206370] = 1472049,
 					[206581] = 1974453,
@@ -85,19 +71,19 @@ DeathGraphsDBDeaths = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Amranar",
+				["class"] = "DRUID",
 			},
 			["Zaelsynth-Tichondrius"] = {
-				["name"] = "Zaelsynth-Tichondrius",
-				["class"] = "DEATHKNIGHT",
 				["overall"] = {
 					[211132] = 1140795,
 				},
 				["deaths"] = {
 				},
+				["name"] = "Zaelsynth-Tichondrius",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Chopperdave-Tichondrius"] = {
-				["name"] = "Chopperdave-Tichondrius",
-				["class"] = "PALADIN",
 				["overall"] = {
 					[206503] = 416555,
 					[221781] = 264479,
@@ -105,17 +91,10 @@ DeathGraphsDBDeaths = {
 				},
 				["deaths"] = {
 				},
+				["name"] = "Chopperdave-Tichondrius",
+				["class"] = "PALADIN",
 			},
 		},
-	},
-}
-DeathGraphsDBEndurance = {
-	["173715"] = {
-		["hash"] = "173715",
-		["type"] = "endurance",
-		["name"] = "Gul'dan",
-		["id"] = 1737,
-		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -128,6 +107,15 @@ DeathGraphsDBEndurance = {
 			["ej_instance_id"] = 786,
 			["diff"] = 15,
 		},
+	},
+}
+DeathGraphsDBEndurance = {
+	["173715"] = {
+		["hash"] = "173715",
+		["type"] = "endurance",
+		["name"] = "Gul'dan",
+		["id"] = 1737,
+		["diff"] = 15,
 		["player_db"] = {
 			["Eltul-Ragnaros"] = {
 				["encounters"] = 1,
@@ -270,6 +258,18 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "The Nighthold",
+			["id"] = 1866,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Gul'dan",
+			["encounter"] = "Gul'dan",
+			["ej_instance_id"] = 786,
+			["diff"] = 15,
 		},
 	},
 }

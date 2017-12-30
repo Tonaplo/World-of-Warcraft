@@ -20,3 +20,4 @@ autoturnin: disabled
 SorhaQuestLog: disabled
 AdiBags: enabled
 Bartender4: disabled
+OrderHallCommander: disabled

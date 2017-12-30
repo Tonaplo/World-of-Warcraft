@@ -7,7 +7,7 @@ Y: -67
 W: 384
 H: 260
 Frame: ColorPickerFrame
-FrameLevel: 21
+FrameLevel: 25
 Anchor: CENTER
 X: 0
 Y: 0
@@ -27,13 +27,6 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -210
-Y: 71
-W: 75
-H: 75
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,3 +41,10 @@ X: 26
 Y: -230
 W: 370
 H: 110
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -210
+Y: 71
+W: 75
+H: 75
