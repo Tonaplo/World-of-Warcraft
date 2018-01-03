@@ -1,8 +1,8 @@
 
 HandyNotes_BrokenShoreDB = {
 	["profileKeys"] = {
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
@@ -15,12 +15,12 @@ HandyNotes_BrokenShoreDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["profiles"] = {
-		["Praerend - Proudmoore"] = {
-		},
 		["Rahran - Proudmoore"] = {
+		},
+		["Kaldorath - Proudmoore"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
@@ -49,7 +49,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
 	},
 }

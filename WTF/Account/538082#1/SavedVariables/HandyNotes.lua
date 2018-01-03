@@ -1,8 +1,8 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
@@ -15,12 +15,12 @@ HandyNotesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 	},
 	["profiles"] = {
-		["Amranar - Proudmoore"] = {
-		},
 		["Kaldorath - Proudmoore"] = {
+		},
+		["Rahran - Proudmoore"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
@@ -46,14 +46,14 @@ HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Amranar - Proudmoore"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
@@ -66,12 +66,12 @@ HandyNotes_HandyNotesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 	},
 	["profiles"] = {
-		["Amranar - Proudmoore"] = {
-		},
 		["Kaldorath - Proudmoore"] = {
+		},
+		["Rahran - Proudmoore"] = {
 		},
 		["Gorog - Bleeding Hollow"] = {
 		},
@@ -97,7 +97,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Faerand - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Amranar - Proudmoore"] = {
 		},
 	},
 }

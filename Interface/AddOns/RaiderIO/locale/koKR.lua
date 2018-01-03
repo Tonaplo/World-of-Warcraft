@@ -18,6 +18,32 @@ L["COPY_RAIDERIO_PROFILE_URL"] = "Raider.IO 프로필 URL 복사"
 L["COPY_RAIDERIO_URL"] = "Raider.IO URL 복사"
 L["DPS"] = "DPS"
 L["DPS_SCORE"] = "DPS 점수"
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_ARC"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_BRH"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_COEN"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_COS"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_DHT"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_EOA"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_HOV"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_LOWR"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_MOS"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_NL"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_SEAT"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_UPPR"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_VOTW"] = ""
 L["ENABLE_NO_SCORE_COLORS"] = "점수 색상 끄기"
 L["ENABLE_NO_SCORE_COLORS_DESC"] = "점수의 색상 표시를 사용하지 않습니다. 모든 점수는 흰색으로 표시됩니다."
 L["ENABLE_SIMPLE_SCORE_COLORS"] = "단순한 점수 색상 사용"
@@ -26,7 +52,6 @@ L["HEALER"] = "힐러"
 L["HEALER_SCORE"] = "힐러 점수"
 L["KEYSTONE_COMPLETED_10"] = "+10 (쐐기클)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (쐐기클)"
-L["KEYSTONE_COMPLETED_5"] = "+5 (쐐기클)"
 L["MAINS_SCORE"] = "메인 점수"
 L["MAINS_SCORE_COLON"] = "메인 점수"
 L["MYTHIC_PLUS_DB_MODULES"] = "Mythic Plus 데이터베이스 모듈"
@@ -34,8 +59,8 @@ L["MYTHIC_PLUS_SCORES"] = "Mythic Plus 점수"
 L["OPEN_CONFIG"] = "설정 열기"
 L["OUTDATED_DATABASE"] = "점수는 % d 일 전 입니다."
 L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r 은(는)  |cffFF6666%d| r 일 전 데이터를 사용합니다. 더 정확한 Mythic Plus 점수를 위해 애드온을 업데이트하십시오."
-L["PREV_SEASON_COLON"] = "이전 시즌:"
-L["PREV_SEASON_SCORE"] = "이전 시즌 점수"
+--Translation missing 
+-- L["PREV_SEASON_SUFFIX"] = ""
 L["RAIDERIO_MP_SCORE"] = "Raider.IO M+ 점수"
 L["RAIDERIO_MP_SCORE_COLON"] = "Raider.IO M+ 점수:"
 L["RAIDERIO_MYTHIC_OPTIONS"] = "Raider.IO Mythic Plus 옵션"
@@ -57,11 +82,15 @@ L["SHOW_ON_GUILD_ROSTER"] = "길드 명단에 표시"
 L["SHOW_ON_GUILD_ROSTER_DESC"] = "길드원 명단의 길드원에 마우스를 올리면 Mythic+ 점수를 표시합니다."
 L["SHOW_ON_PLAYER_UNITS"] = "플레이어 유닛에 표시"
 L["SHOW_ON_PLAYER_UNITS_DESC"] = "플레이어 유닛에 마우스를 올리면 Mythic+ 점수를 표시합니다."
-L["SHOW_PREV_SEASON_SCORE"] = "이전 시즌 점수 표시"
-L["SHOW_PREV_SEASON_SCORE_DESC"] = "플레이어의 현재 점수가 이전보다 낮으면 이전 시즌 점수를 표시합니다."
 L["TANK"] = "탱커"
 L["TANK_SCORE"] = "탱커 점수"
+--Translation missing 
+-- L["TIMED_10_RUNS"] = ""
+--Translation missing 
+-- L["TIMED_15_RUNS"] = ""
 L["TOOLTIP_CUSTOMIZATION"] = "툴팁 사용자 정의"
+--Translation missing 
+-- L["UNKNOWN_SCORE"] = ""
 L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r 에 새 서버가 있습니다. 이 정보를 |cffFF9999 {|r |cffFFFFFF%s|r  |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r 에 적어두고 개발자에게 보고 해주십시오. 고맙습니다!"
 
 

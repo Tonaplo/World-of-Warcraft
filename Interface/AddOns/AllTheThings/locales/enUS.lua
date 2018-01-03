@@ -564,6 +564,9 @@ AllTheThings.Locales.enUS = {
 		[-162] = PETS,				-- Pets
 		[-163] = RESISTANCE0_NAME,  -- Armor
 		[-164] = TABARDSLOT,		-- Tabard
+		[-165] = "Junkboxes", 		-- Junkboxes
+		[-166] = "Pickpocketing",	-- Pickpocketing
+		[-167] = "Fishing Poles",	-- Fishing Poles
 -- Other
 		[-297] = MINIMAP_TRACKING_MAILBOX,							-- Mailbox
 		[-298] = BOSSES,											-- Bosses:
@@ -760,6 +763,13 @@ AllTheThings.Locales.enUS = {
 		[-6002] = "Vestments of the Black Harvest", -- Warlock
 		[-6001] = "Vesture of Tirisgarde", -- Mage
 		[-6000] = "Regalia of the High Priest", -- Priest
+	-- Artifact Strings
+		[-5200] = "Base Appearance",		-- Set 1
+		[-5201] = "Class Hall Campaign", 	-- Set 2
+		[-5202] = "Balance of Power",		-- Set 3
+		[-5203] = "Prestige Rewards",		-- Set 4
+		[-5204] = "Challenge Appearance",	-- Set 5
+		[-5205] = "Hidden Appearance",		-- Set 6
 --[[		-- Tier Set Numbers Localization
 		[-5992] = GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, -- Tier 9 Sets
 --]]
@@ -969,7 +979,6 @@ AllTheThings.Locales.enUS = {
 		[181074] = "Interface\\Icons\\Garrison_SilverChest",
 		[161495] = "Interface\\Icons\\Battleground_Strongbox_Silver_Alliance",
 		[184465] = "Interface\\Icons\\INV_6_2Raid_Trinket_3b",
-
 		
 	};
 	["OBJECT_ID_NAMES"] = {
@@ -985,7 +994,9 @@ AllTheThings.Locales.enUS = {
 		[179564] = "Gordok Tribute Chest",
 		[179697] = "Arena Treasure Chest",
 		[181074] = "Arena Spoils",
+		[181083] = "Sothos and Jarien's Heirlooms",
 		[184465] = "Cache of the Legion",
+		[185168] = "Reinforced Fel Iron Chest",
 		[186648] = "Hazlek's Trunk",
 		[186667] = "Norkani's Package",
 		[186672] = "Kasha's Bag",

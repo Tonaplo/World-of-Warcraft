@@ -428,22 +428,30 @@ local function SetPortraitIcon(self, data, x)
 	if data.icon then
 		self:SetWidth(self:GetHeight());
 		self:SetTexture(data.icon);
+		if data.texCoords then
+			self:SetTexCoord(unpack(data.texCoords));
+		else
+			self:SetTexCoord(0, 1, 0, 1);
+		end
 		return true;
 	elseif GetDataMember("ShowModels") then
 		if data.displayID then
 			SetPortraitTexture(self, data.displayID);
 			self:SetWidth(self:GetHeight());
+			self:SetTexCoord(0, 1, 0, 1);
 			return true;
 		elseif data.creatureID then
 			if data.creatureID < 0 then
 				-- A negative creature ID is actually a displayInfo ID.
 				SetPortraitTexture(self, math.abs(data.creatureID));
 				self:SetWidth(self:GetHeight());
+				self:SetTexCoord(0, 1, 0, 1);
 				return true;
 			end
 		elseif data.atlas then
 			self:SetAtlas(data.atlas);
 			self:SetWidth(self:GetHeight());
+			self:SetTexCoord(0, 1, 0, 1);
 			if data["atlas-background"] then
 				self.Background:SetAtlas(data["atlas-background"]);
 				self.Background:SetWidth(self:GetHeight());
@@ -609,6 +617,7 @@ fieldCache["creatureID"] = {};
 fieldCache["objectID"] = {};
 fieldCache["itemID"] = {};
 fieldCache["mapID"] = {};
+fieldCache["mountID"] = {};
 fieldCache["s"] = {};
 fieldCache["speciesID"] = {};
 fieldCache["spellID"] = {};
@@ -629,6 +638,7 @@ local function CacheFields(group)
 	CacheFieldID(group, "objectID");
 	CacheFieldID(group, "itemID");
 	CacheFieldID(group, "mapID");
+	CacheFieldID(group, "mountID");
 	CacheFieldID(group, "s");
 	CacheFieldID(group, "speciesID");
 	CacheFieldID(group, "spellID");
@@ -1178,7 +1188,7 @@ local function SearchForItemLink(link)
 				if GetDataMember("ShowItemString") then tinsert(listing, itemString); end
 				if group and #group > 0 and GetDataMember("ShowLootSpecializations", true) then
 					local specs = group[1].specs;
-					if specs then
+					if specs and group[1].s then
 						if #specs > 0 then
 							local spec_label = "";
 							local atleastone = false;
@@ -1312,8 +1322,14 @@ local function OpenMiniList(mapID)
 			mapData = setmetatable({}, { __index = mapData[1] });
 		else
 			-- A couple of objects matched, let's make a header.
-			local header = setmetatable(constructor(mapID, { groups = {}, total = 0, progress = 0, indent = 0, visible = true }, "mapID"), app.BaseMap);
+			local header = { groups = {}, baseIndent = -1, expanded = true, visible = true, text = app.DisplayName, description = "Auto Mini List for Map ID #" .. mapID, back = 1, total = 0, progress = 0 };
+			--setmetatable(constructor(mapID, { groups = {}, indent = -1, visible = true }, "mapID"), app.BaseMap);
 			for i, group in ipairs(mapData) do
+				header.progress = header.progress + (group.progress or 0);
+				header.total = header.total + (group.total or 0);
+				header.parent = group.parent;
+				tinsert(header.groups, group);
+				--[[
 				if group.text == header.text then
 					-- Merge the subgroups with the header groups
 					for j, subgroup in ipairs(group.groups) do
@@ -1330,8 +1346,10 @@ local function OpenMiniList(mapID)
 						header.indent = group.indent;
 					end
 				end
-				header.progress = header.progress + (group.progress or 0);
-				header.total = header.total + (group.total or 0);
+				
+				header.icon = group.icon;
+				header.parent = group.parent;
+				]]--
 			end
 			
 			-- Swap out the map data for the header.
@@ -1657,35 +1675,35 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 											if j.collected then
 												if GetDataMember("ShowCollectedItems") then
 													if first then first = nil; self:AddLine("Contains:"); end
-													self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
+													self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
 												end
 											else
 												if first then first = nil; self:AddLine("Contains:"); end
 												if j.dr then
-													self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
+													self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
 												else
-													self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
+													self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
 												end
 											end
 										else
 											local percent = j.progress / j.total;
 											if percent < 1 or GetDataMember("ShowCompletedGroups")  then 
 												if first then first = nil; self:AddLine("Contains:"); end
-												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), GetProgressColorText(j.progress, j.total));
+												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), GetProgressColorText(j.progress, j.total));
 											end
 										end
 									else
 										if j.collected then
 											if GetDataMember("ShowCollectedItems") then
 												if first then first = nil; self:AddLine("Contains:"); end
-												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
+												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
 											end
 										else
 											if first then first = nil; self:AddLine("Contains:"); end
 											if j.dr then
-												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
+												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
 											else
-												self:AddDoubleLine("  " .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
+												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
 											end
 										end
 									end
@@ -1845,6 +1863,12 @@ app.BaseAchievement = {
 		if key == "text" then
 			--local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(t.achievementID);
 			return GetAchievementLink(t.achievementID) or select(2, GetAchievementInfo(t.achievementID)) or ("Achievement #" .. t.achievementID);
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "link" then
 			return GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -1871,19 +1895,21 @@ app.BaseArtifact = {
 		elseif key == "collected" then
 			return select(5, C_ArtifactUI_GetAppearanceInfoByID(t.artifactID));
 		elseif key == "text" then
-			return "|cffe6cc80" .. (t.info[3] or "???") .. "|r";
-		elseif key == "title" then
 			return Colorize("Variant " .. t.info[4], RGBToHex(t.info[9] * 255, t.info[10] * 255, t.info[11] * 255));
+		elseif key == "title" then
+			return "|cffe6cc80" .. (t.info[3] or "???") .. "|r";
 		elseif key == "description" then
-			return t.info[6];
+			return t.info[6] or "Awarded for completing the introductory quest for this Artifact.";
 		elseif key == "atlas" then
 			return "Forge-ColorSwatchBorder";
-		elseif key == "atlast-background" then
+		elseif key == "atlas-background" then
 			return "Forge-ColorSwatchBackground";
 		elseif key == "atlas-border" then
 			return "Forge-ColorSwatch";
 		elseif key == "atlas-color" then
 			return { t.info[9], t.info[10], t.info[11], 1.0 };
+		elseif key == "model" or key == "modelScale" or key == "modelRotation" then
+			return t.parent[key] or t.parent.parent[key];
 		elseif key == "info" then
 			--[[
 			local setID, appearanceID, appearanceName, displayIndex, appearanceUnlocked, unlockConditionText, 
@@ -1895,7 +1921,7 @@ app.BaseArtifact = {
 			return info;
 		elseif key == "silentLink" then
 			-- If the engineer has supplied the itemID associated with this item, let's build it!
-			return t.itemID and select(2, GetItemInfo(string.format("item:%d::::::::::256:::%d", t.itemID, t.artifactID)));
+			return select(2, GetItemInfo(string.format("item:%d::::::::::256:::%d", t.itemID or t.parent.itemID or t.parent.parent.itemID, t.artifactID)));
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -1910,8 +1936,33 @@ end
 app.BaseCharacterClass = {
 	__index = function(t, key)
 		if key == "text" then
-			local name, id = GetClassInfo(t.classID);
-			return "|c" .. RAID_CLASS_COLORS[id].colorStr .. name .. "|r";
+			return "|c" .. t.classColors.colorStr .. t.name .. "|r";
+		elseif key == "icon" then
+			return "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes";
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
+		elseif key == "name" then
+			local name, classFileName = GetClassInfo(t.classID);
+			rawset(t, "name", name);
+			rawset(t, "classFileName", classFileName);
+			return name;
+		elseif key == "classFileName" then
+			local name, classFileName = GetClassInfo(t.classID);
+			rawset(t, "name", name);
+			rawset(t, "classFileName", classFileName);
+			return classFileName;
+		elseif key == "classes" then
+			local classes = { t.classID };
+			rawset(t, "classes", classes);
+			return classes;
+		elseif key == "texCoords" then
+			return CLASS_ICON_TCOORDS[t.classFileName];
+		elseif key == "classColors" then
+			return RAID_CLASS_COLORS[t.classFileName];
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -1957,6 +2008,12 @@ app.BaseDifficulty = {
 	__index = function(t, key)
 		if key == "text" then
 			return GetDifficultyInfo(t.difficultyID);
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "name" then
 			return GetDifficultyInfo(t.difficultyID);
 		elseif key == "icon" then
@@ -2001,6 +2058,12 @@ app.BaseEncounter = {
 		if key == "text" then
 			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
 			return t.name;
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "name" then
 			return select(1, EJ_GetEncounterInfo(t.encounterID)) or "";
 		elseif key == "description" then
@@ -2168,6 +2231,12 @@ app.BaseGearSet = {
 				return info.label;
 			end
 		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
+		elseif key == "title" then
 			local info = t.info;
 			if info then return info.requiredFaction; end
 		elseif key == "icon" then
@@ -2234,6 +2303,12 @@ app.BaseGearSetHeader = {
 		if key == "text" then
 			local info = C_TransmogSets_GetSetInfo(t.setHeaderID);
 			if info then return info.label; end
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "link" then
 			return t.achievementID and GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2252,6 +2327,12 @@ app.BaseGearSetSubHeader = {
 		if key == "text" then
 			local info = C_TransmogSets_GetSetInfo(t.setSubHeaderID);
 			if info then return info.description; end
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "link" then
 			return t.achievementID and GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2272,6 +2353,12 @@ app.BaseInstance = {
 		if key == "text" then
 			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
 			return t.name;
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "name" then
 			return select(1, EJ_GetInstanceInfo(t.instanceID)) or "";
 		elseif key == "description" then
@@ -2358,6 +2445,12 @@ app.BaseMap = {
 		if key == "text" then
 			local mapID = t.mapID;
 			return (mapID and mapID > 0 and GetMapNameByID(mapID)) or ("Map ID #" .. (mapID or "???"));
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "link" then
 			return t.achievementID and GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2461,6 +2554,13 @@ app.BaseNPC = {
 				return L("NPC_ID_NAMES")[t.npcID];
 			end
 		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
+			if t.npcID > 0 then return NPCTitlesFromID[t.npcID]; end
+		elseif key == "description" then
 			if t.npcID > 0 then return NPCTitlesFromID[t.npcID]; end
 		elseif key == "link" then
 			return (t.achievementID and GetAchievementLink(t.achievementID));
@@ -2497,6 +2597,12 @@ app.BaseObject = {
 			if t["isRaid"] then name = "|cffff8000" .. name .. "|r"; end
 			rawset(t, "text", name);
 			return name;
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "icon" then
 			return L("OBJECT_ID_ICONS")[t.objectID];
 		elseif key == "trackable" then
@@ -2784,6 +2890,12 @@ app.BaseVignette = {
 			local questName = QuestTitleFromID[t.vignetteID];
 			if questName then return "|Hquest:" .. t.vignetteID .. "|h" .. questName .. "|h"; end
 			return "|Hquest:" .. t.vignetteID .. "|h[]|h";
+		elseif key == "title" then
+			if t.parent.parent then
+				return t.parent.parent.text .. "/" .. t.parent.text;
+			else
+				return t.parent.text;
+			end
 		elseif key == "link" then
 			return "quest:" .. t.vignetteID;
 		elseif key == "icon" then
@@ -3940,7 +4052,7 @@ local function RowOnClick(self, button)
 				end
 				if self.index > 0 then
 					-- Pop Out Functionality! :O
-					local popout = app:GetWindow(self.Label:GetText());
+					local popout = app:GetWindow(self.ref.parent.text .. self.ref.text);
 					popout.data = setmetatable({}, { __index = self.ref });
 					ExpandGroupsRecursively(popout.data, true);
 					popout:Toggle(true);
@@ -3982,7 +4094,15 @@ local function RowOnEnter(self)
 		if reference.itemID then
 			-- This is an item reference. :)
 			local link = reference.link;
-			if link then GameTooltip:SetHyperlink(link); end
+			if link then
+				GameTooltip:SetHyperlink(link);
+			elseif not reference.artifactID then
+				GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
+				if reference and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, true); end
+				for key, value in pairs(reference) do
+					GameTooltip:AddDoubleLine(key, tostring(value));
+				end	
+			end
 		else
 			-- Standalone Fields
 			if reference.toyID then GameTooltip:SetToyByItemID(reference.toyID);
@@ -3997,28 +4117,18 @@ local function RowOnEnter(self)
 			local style = GameTooltip:NumLines() < 1;
 			if style then
 				if not reference.total or reference.total < 1 then
-					if reference.trackable then
-						GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
-						if reference.title then
-							GameTooltip:AddDoubleLine(reference.title, L(reference.saved and "COMPLETE" or "INCOMPLETE"), 1, 1, 1);
-						else
-							GameTooltip:AddDoubleLine("Quest Progress", L(reference.saved and "COMPLETE" or "INCOMPLETE"));
-						end
-					elseif reference.collectable then
+					if reference.collectable then
 						GameTooltip:AddDoubleLine(self.Label:GetText(), GetCollectionText(reference.collected));
+					elseif reference.trackable then
+						GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
+					else
+						GameTooltip:AddLine(self.Label:GetText());
 					end
-					if reference.title then GameTooltip:AddLine(reference.title, 1, 1, 1); end
 				else
 					GameTooltip:AddDoubleLine(self.Label:GetText(), GetProgressColorText(reference.progress, reference.total));
-					if reference.trackable then
-						if reference.title then
-							GameTooltip:AddDoubleLine(reference.title, L(reference.saved and "COMPLETE" or "INCOMPLETE"), 1, 1, 1);
-						else
-							GameTooltip:AddDoubleLine("Quest Progress", L(reference.saved and "COMPLETE" or "INCOMPLETE"));
-						end
-					else
-						if reference.title then GameTooltip:AddLine(reference.title, 1, 1, 1); end
-					end
+				end
+				if reference.trackable then
+					GameTooltip:AddDoubleLine("Quest Progress", L(reference.saved and "COMPLETE" or "INCOMPLETE"));
 				end
 			else
 				if not reference.total or reference.total < 1 then
@@ -4036,7 +4146,15 @@ local function RowOnEnter(self)
 			if GameTooltip:NumLines() < 1 then GameTooltip:AddLine(self.Label:GetText()); end
 		end
 		
-		--if reference.title then GameTooltip:AddLine(reference.title, 1, 1, 1, 1); end
+		local title = reference.title;
+		if title then
+			local left, right = strsplit("/", title);
+			if right then
+				GameTooltip:AddDoubleLine(left, right);
+			else
+				GameTooltip:AddLine(title, 1, 1, 1);
+			end
+		end
 		if reference.Lvl then GameTooltip:AddDoubleLine(L("REQUIRES_LEVEL"), tostring(reference.Lvl)); end
 		if reference.requiredSkill then
 			GameTooltip:AddDoubleLine(L("REQUIRES"), tostring(GetSpellInfo(SkillIDToSpellID[reference.requiredSkill] or 0)));
@@ -4095,6 +4213,11 @@ local function RowOnEnter(self)
 				GameTooltipIcon:SetSize(64,64);
 			end
 			GameTooltipIcon.icon:SetTexture(reference.preview or reference.icon);
+			if reference.texCoords then
+				GameTooltipIcon.icon:SetTexCoord(unpack(reference.texCoords));
+			else
+				GameTooltipIcon.icon:SetTexCoord(0, 1, 0, 1);
+			end
 			GameTooltipIcon:Show();
 		end
 		
@@ -4250,6 +4373,14 @@ local function ProcessGroup(data, parent, indent, back)
 	end
 end
 UpdateGroup = function(parent, group)
+	--[[
+	-- Uncomment this section for Harvesting
+	if group.s and group.s < 1 then
+		-- The source ID will need to be harvested.
+		table.insert(GetTempDataMember("Missing"), group);
+	end
+	]]--
+	
 	-- Determine if this user can enter the instance or acquire the item.
 	if app.GroupRequirementsFilter(group) then
 		-- Check if this is a group
@@ -4263,9 +4394,6 @@ UpdateGroup = function(parent, group)
 				-- This item is missing its source ID. :(
 				group.progress = 0;
 				group.total = 1;
-				
-				-- The source ID will need to be harvested.
-				table.insert(GetTempDataMember("Missing"), group);
 			else
 				-- Default to 0 for both
 				group.progress = 0;
@@ -4308,15 +4436,6 @@ UpdateGroup = function(parent, group)
 				else
 					-- Show this group.
 					group.visible = true;
-					
-					-- This might be a standalone item that needs to be harvested.
-					if group.s then
-						-- Increment the parent group's totals.
-						parent.total = (parent.total or 0) + 1;
-						
-						-- The source ID will need to be harvested.
-						table.insert(GetTempDataMember("Missing"), group);
-					end
 				end
 			else
 				-- Hide this group. We aren't filtering for it.
@@ -4401,10 +4520,33 @@ local function UpdateWindow(self)
 	end
 	if self.data and self:IsVisible() then
 		self.data.expanded = true;
-		ProcessGroup(self.rowData, self.data, 0, 0);
+		if self.data.baseIndent and self.data.groups then
+			-- This is Mini Listed Data
+			local count = 0;
+			for i, data in ipairs(self.data.groups) do
+				if data.visible then
+					count = count + 1;
+				end
+			end
+			if count > 1 then
+				tinsert(self.rowData, 1, self.data);
+				for i, data in ipairs(self.data.groups) do
+					ProcessGroup(self.rowData, data, 0, 0);
+				end
+			else
+				for i, data in ipairs(self.data.groups) do
+					if data.visible then
+						data.expanded = true;
+						ProcessGroup(self.rowData, data, 0, 0);
+					end
+				end
+			end
+		else
+			ProcessGroup(self.rowData, self.data, 0, 0);
+		end
 		
 		-- Does this user have everything?
-		if self.data.total == self.data.progress then
+		if self.data.total and self.data.total == self.data.progress then
 			if #self.rowData < 1 then
 				self.data.back = 1;
 				tinsert(self.rowData, self.data);
@@ -4822,7 +4964,6 @@ SLASH_AllTheThings1 = "/allthethings";
 SLASH_AllTheThings2 = "/things";
 SLASH_AllTheThings3 = "/att";
 SlashCmdList["AllTheThings"] = function(msg)
-	print("'" .. tostring(msg or "") .. "'");
 	ToggleMainList();
 end
 
