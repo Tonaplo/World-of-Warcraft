@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: BOTTOM
+X: 4
+Y: 70
+W: 78
+H: 61
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

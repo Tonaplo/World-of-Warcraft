@@ -4,7 +4,7 @@ QuesterDB = {
 		["Kaldorath - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
@@ -13,7 +13,7 @@ QuesterDB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

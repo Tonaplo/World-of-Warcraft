@@ -45,7 +45,7 @@ AllTheThingsPCD = {
 		[101] = true,
 		[109] = true,
 		[102] = true,
-		[104] = true,
 		[0] = true,
+		[104] = true,
 	},
 }

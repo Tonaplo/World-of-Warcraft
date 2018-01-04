@@ -14,10 +14,10 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -27,7 +27,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1514953992,
+				["lastUpdate"] = 1515046976,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -60,10 +60,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1514953163,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1514954496,
+				["lastUpdate"] = 1515044516,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1514954767,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427638,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514963648,
@@ -82,10 +82,10 @@ DataStore_AgendaDB = {
 					["weeklyBestLevel"] = 3,
 					["weeklyBestTime"] = 1332970,
 				},
-				["lastUpdate"] = 1514954667,
+				["lastUpdate"] = 1515048505,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1514954767,
 			},
 		},
 	},
