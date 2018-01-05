@@ -12,14 +12,13 @@ mod.engageId = 1791
 -- Localization
 --
 
-local L = mod:NewLocale("enUS", true)
+local L = mod:GetLocale()
 if L then
 	L.totems = "Totems"
 	L.bellow = "{193375} (Totems)" -- Bellow of the Deeps (Totems)
 	L.bellow_desc = 193375
 	L.bellow_icon = 193375
 end
-L = mod:GetLocale()
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -79,6 +78,6 @@ function mod:BellowOfTheDeeps(args)
 end
 
 function mod:Sunder(args)
-	self:Message(args.spellId, "Info", "Alert", CL.casting:format(args.spellName))
+	self:Message(args.spellId, "Attention", "Alert", CL.casting:format(args.spellName))
 	self:CDBar(args.spellId, 9.3)
 end

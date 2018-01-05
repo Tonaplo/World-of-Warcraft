@@ -18,7 +18,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "b4661aa" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "2adc318" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -1452,11 +1452,3 @@ SlashCmdList.BigWigsVersion = function()
 end
 
 BigWigsLoader = public -- Set global
-
--- XXX temp
-if not EJ_GetSectionInfo then
-	function EJ_GetSectionInfo(id)
-		local tbl = C_EncounterJournal.GetSectionInfo(id)
-		return tbl.title, tbl.description, tbl.headerType, tbl.abilityIcon, tbl.creatureDisplayID, tbl.siblingSectionID, tbl.filteredByDifficulty, tbl.link, tbl.startsOpen, tbl.uiModelSceneID
-	end
-end
