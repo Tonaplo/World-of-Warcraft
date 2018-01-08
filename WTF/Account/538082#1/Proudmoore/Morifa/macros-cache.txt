@@ -1,16 +1,3 @@
-VER 3 0100000000000005 "Frost Cooldown" "135838"
-/cast Icy Veins
-/use 13
-/use 14
-END
-VER 3 0100000000000003 "Pet Freeze" "INV_MISC_QUESTIONMARK"
-#showtooltip Freeze
-/cast [pet: Water Elemental] Freeze
-END
-VER 3 0100000000000004 "Pet Water Jet" "INV_MISC_QUESTIONMARK"
-#showtooltip Water Jet
-/cast [pet: Water Elemental] Water Jet
-END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

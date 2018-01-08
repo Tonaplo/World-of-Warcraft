@@ -76,8 +76,7 @@ DataStoreDB = {
 				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Risen",
+				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["faction"] = "Alliance",

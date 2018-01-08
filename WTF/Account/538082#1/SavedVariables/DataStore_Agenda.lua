@@ -31,15 +31,17 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-01-07|19:00|Mythic Antorus|1|9", -- [1]
-					"2018-01-08|19:00|Raid Night!|1|9", -- [2]
+					"2018-01-08|19:00|Raid Night!|1|9", -- [1]
+					"2018-01-14|19:00|Mythic Antorus|1|9", -- [2]
+					"2018-01-15|19:00|Raid Night!|1|9", -- [3]
+					"2018-01-18|19:00|Heroic Antorus|1|9", -- [4]
 				},
 				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Mythic|343357258"] = "378423|1515131571|0|1",
-					["Antorus, the Burning Throne Normal|343259017"] = "378423|1515131571|0|1",
-					["Antorus, the Burning Throne Heroic|343350968"] = "378423|1515131571|0|1",
+					["Antorus, the Burning Throne Mythic|343357258"] = "118730|1515391268|0|1",
+					["Antorus, the Burning Throne Normal|343259017"] = "118730|1515391268|0|1",
+					["Antorus, the Burning Throne Heroic|343350968"] = "118730|1515391268|0|1",
 				},
-				["lastUpdate"] = 1515131571,
+				["lastUpdate"] = 1515391314,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -60,13 +62,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618514,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1514953163,
+				["lastUpdate"] = 1515368946,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1515044516,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1514954767,
+				["lastUpdate"] = 1515289515,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514963648,
@@ -75,17 +77,17 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1514961381,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1514953613,
+				["lastUpdate"] = 1515316998,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1514954293,
+				["lastUpdate"] = 1515292975,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["ChallengeMode"] = {
 					["weeklyBestLevel"] = 3,
 					["weeklyBestTime"] = 1332970,
 				},
-				["lastUpdate"] = 1515048505,
+				["lastUpdate"] = 1515289373,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427638,

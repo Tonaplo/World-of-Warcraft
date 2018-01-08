@@ -54,7 +54,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 163309450746,
+						["pointsRemaining"] = 173609952346,
 						["rank"] = 75,
 						["tier"] = 2,
 					},
@@ -74,7 +74,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1515131571,
+				["lastUpdate"] = 1515391268,
 				["Specializations"] = {
 					13718, -- [1]
 					10103, -- [2]
@@ -103,7 +103,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1514954717,
+				["lastUpdate"] = 1515289445,
 				["Specializations"] = {
 					7670, -- [1]
 					6582, -- [2]
@@ -136,14 +136,14 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
+				["EquippedArtifact"] = "Fists of the Heavens",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					7646, -- [1]
 					10709, -- [2]
-					11758, -- [3]
+					7662, -- [3]
 				},
-				["lastUpdate"] = 1515048228,
+				["lastUpdate"] = 1515289284,
 				["Class"] = "MONK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -159,8 +159,8 @@ DataStore_TalentsDB = {
 					},
 					["Fists of the Heavens"] = {
 						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 115143570,
+						["rank"] = 57,
+						["pointsRemaining"] = 2496144920,
 					},
 				},
 			},
@@ -208,7 +208,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1514954236,
+				["lastUpdate"] = 1515292556,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -218,14 +218,14 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 146224605,
 					},
 					["Apocalypse"] = {
-						["pointsRemaining"] = 3741797350,
+						["pointsRemaining"] = 9096798200,
 						["tier"] = 2,
 						["rank"] = 60,
 					},
 					["Maw of the Damned"] = {
 						["tier"] = 2,
 						["rank"] = 66,
-						["pointsRemaining"] = 49384115430,
+						["pointsRemaining"] = 61039117230,
 					},
 				},
 			},
@@ -288,26 +288,26 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "Sharas'dal, Scepter of Tides",
+				["EquippedArtifact"] = "The Fist of Ra-den",
 				["Artifacts"] = {
 					["Doomhammer"] = {
-						["pointsRemaining"] = 186564545,
-						["rank"] = 52,
+						["pointsRemaining"] = 1819566695,
+						["rank"] = 59,
 						["tier"] = 2,
 					},
 					["The Fist of Ra-den"] = {
 						["tier"] = 2,
-						["rank"] = 51,
-						["pointsRemaining"] = 12125658345,
+						["rank"] = 60,
+						["pointsRemaining"] = 1867659345,
 					},
 					["Sharas'dal, Scepter of Tides"] = {
 						["tier"] = 2,
-						["rank"] = 56,
-						["pointsRemaining"] = 19980315370,
+						["rank"] = 62,
+						["pointsRemaining"] = 644316220,
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1514953494,
+				["lastUpdate"] = 1515316867,
 				["Specializations"] = {
 					11614, -- [1]
 					9631, -- [2]
@@ -362,22 +362,22 @@ DataStore_TalentsDB = {
 					},
 					["G'Hanir, the Mother Tree"] = {
 						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 43468567,
+						["rank"] = 57,
+						["pointsRemaining"] = 219469567,
 					},
 					["Fangs of Ashamane"] = {
-						["pointsRemaining"] = 4791048770,
+						["pointsRemaining"] = 16918550670,
 						["rank"] = 62,
 						["tier"] = 2,
 					},
 					["Scythe of Elune"] = {
-						["pointsRemaining"] = 10807228280,
+						["pointsRemaining"] = 16162229130,
 						["rank"] = 64,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1514953140,
+				["lastUpdate"] = 1515368941,
 				["Specializations"] = {
 					14043, -- [1]
 					5466, -- [2]

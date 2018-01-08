@@ -115,11 +115,14 @@ LUIDB = {
 				},
 				["Proudmoore"] = {
 					["Gold"] = {
+						["Horde"] = {
+							["Morifa"] = 560553324,
+						},
 						["Alliance"] = {
-							["Miriyal"] = 195954275,
-							["Farahn"] = 84758095,
-							["Greybone"] = 99304756,
-							["Amranar"] = 582166880,
+							["Miriyal"] = 196309088,
+							["Farahn"] = 96744686,
+							["Greybone"] = 109442560,
+							["Amranar"] = 596248673,
 							["Granjior"] = 526490822,
 							["Kaldorath"] = 336544783,
 							["Faerand"] = 184122656,
@@ -134,7 +137,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 908482028,
+							["Mallusof"] = 908804978,
 						},
 					},
 				},
@@ -143,14 +146,21 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Party"] = {
-						["Y"] = -55.5457916259766,
-						["X"] = 159.210083007813,
-					},
 					["Boss"] = {
 						["Y"] = 205.941268920898,
 						["X"] = 453.880889892578,
 						["Point"] = "BOTTOMLEFT",
+					},
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -178,20 +188,29 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Party"] = {
+						["Y"] = -55.5457916259766,
+						["X"] = 159.210083007813,
 					},
 				},
 			},
 			["profiles"] = {
+				["Zaliga - Bleeding Hollow"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -711,22 +730,6 @@ LUIDB = {
 						},
 					},
 				},
-				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
 			},
 		},
 		["Threat"] = {
@@ -816,73 +819,73 @@ LUIDB = {
 						},
 					},
 					["factionrealm"] = {
-						["Alliance - Tichondrius"] = {
-							"/g It's only 2 on Normal, right?", -- [1]
-							"/raid r", -- [2]
-							"/g got this", -- [3]
-							"/g I did not", -- [4]
-							"/g Oh I wasnt sarcastic., lol", -- [5]
-							"/g |cffa335ee|Hitem:152044::::::::110:257::5:3:3611:1507:3337:::|h[Spark of Everburning Light]|h|r", -- [6]
-							"/g Freaking -12", -- [7]
-							"/g 75% of the US had below freezing temperatures", -- [8]
-							"/g It's only 2 on Normal, right?", -- [9]
-							"/g got this", -- [10]
-							"/g Oh I wasnt sarcastic., lol", -- [11]
-							"/g Freaking -12", -- [12]
-							"/g It's only 2 on Normal, right?", -- [13]
-							"/g Oh I wasnt sarcastic., lol", -- [14]
-							"/g It's only 2 on Normal, right?", -- [15]
-							"/raid GZ", -- [16]
-							"/raid |cff71d5ff|Hspell:244093:0|h[Necrotic Embrace]|h|r", -- [17]
-							"/raid |cff71d5ff|Hspell:244042:0|h[Marked Prey]|h|r", -- [18]
-							"/raid psa", -- [19]
-							"/raid The safe zones never appear in the middle", -- [20]
-							"/raid I love you too", -- [21]
-							"/raid ^^", -- [22]
-							"/raid No immediately", -- [23]
-							"/raid I pop hymn", -- [24]
-							"/raid and then I have hymm again for second intermission", -- [25]
-							"/raid It's perfect", -- [26]
-							"/cw Blakeyboy-Tichondrius I want the sandals, but they are not BIS", -- [27]
-							"/cw Kalithumos ... what", -- [28]
-							"/raid Crit gem, anyone?", -- [29]
-							"/join wisdomhealers", -- [30]
-							"/4 Druids in running phase", -- [31]
-							"/4 beginning", -- [32]
-						},
 						["Alliance - Proudmoore"] = {
-							"/cw Kaligon-Tichondrius No way", -- [1]
-							"/cw Kaligon-Tichondrius This is Mallusof on an Alt", -- [2]
-							"/cw Kaligon-Tichondrius wtf", -- [3]
-							"/cw Kaligon-Tichondrius I had all my chars on Proudmoore before going to Tich", -- [4]
-							"/i ress please", -- [5]
-							"/cw Kaligon-Tichondrius I didnt know", -- [6]
-							"/cw Word-Alexstrasza You're a dick", -- [7]
-							"/i STAY BACK", -- [8]
-							"/reload", -- [9]
-							"/i STAY BACK", -- [10]
-							"/i gz bud!", -- [11]
-							"/reload", -- [12]
-							"/i STAY BACK", -- [13]
-							"/reload", -- [14]
-							"/i STAY BACK", -- [15]
-							"/reload", -- [16]
-							"/i STAY BACK", -- [17]
-							"/cw Kaligon-Tichondrius No way", -- [18]
-							"/cw Kaligon-Tichondrius wtf", -- [19]
-							"/i ress please", -- [20]
-							"/cw Word-Alexstrasza You're a dick", -- [21]
-							"/reload", -- [22]
-							"/i gz bud!", -- [23]
-							"/i STAY BACK", -- [24]
-							"/reload", -- [25]
-							"/cw Kaligon-Tichondrius No way", -- [26]
-							"/i ress please", -- [27]
-							"/reload", -- [28]
-							"/i STAY BACK", -- [29]
-							"/cw Kaligon-Tichondrius No way", -- [30]
-							"/reload", -- [31]
-							"/cw Kaligon-Tichondrius No way", -- [32]
+							"/cw Andionor-Whisperwind We can stack the bosses for most of the fight", -- [1]
+							"/cw Andionor-Whisperwind except when they are linked by purple thing", -- [2]
+							"/cw Andionor-Whisperwind that's near the end", -- [3]
+							"/cw Andionor-Whisperwind when we have to split them 20 yeards", -- [4]
+							"/cw Andionor-Whisperwind We need to make sure the are not both facing us as well", -- [5]
+							"/cw Andionor-Whisperwind Nastiest thing", -- [6]
+							"/cw Andionor-Whisperwind is lightning", -- [7]
+							"/cw Andionor-Whisperwind stay spread for that", -- [8]
+							"/cw Andionor-Whisperwind and purple dudes", -- [9]
+							"/cw Andionor-Whisperwind on pruple dudes, stay calm until you see an opening and then go for it", -- [10]
+							"/cw Andionor-Whisperwind got it>", -- [11]
+							"/cw Andionor-Whisperwind ?", -- [12]
+							"/cw Andionor-Whisperwind Aight", -- [13]
+							"/cw Andionor-Whisperwind I start with Noura", -- [14]
+							"/i yay", -- [15]
+							"/i A tank that wants to communicate!", -- [16]
+							"/i :)", -- [17]
+							"/i Hero at lightning dudes", -- [18]
+							"/i SOPREAD", -- [19]
+							"/i ?y SPREAD!", -- [20]
+							"/cw Andionor-Whisperwind still 3 stacks", -- [21]
+							"/cw Andionor-Whisperwind dude", -- [22]
+							"/cw Andionor-Whisperwind nice job!", -- [23]
+							"/cw Andionor-Whisperwind :)", -- [24]
+							"/cw Andionor-Whisperwind Have a good one bud!", -- [25]
+							"/i MAgetable please :)", -- [26]
+							"/i Also, talk to the tree :)", -- [27]
+							"/cw Trîpød-Stormrage I do", -- [28]
+							"/i I'll go up and heal", -- [29]
+							"/i anybody not need something?", -- [30]
+							"/i same bro", -- [31]
+							"/cw Trîpød-Stormrage thansk!", -- [32]
+						},
+						["Alliance - Tichondrius"] = {
+							"/raid GZ", -- [1]
+							"/4 beginning", -- [2]
+							"/4 Druids in running phase", -- [3]
+							"/4 beginning", -- [4]
+							"/raid If someone needs to sit", -- [5]
+							"/raid I dont need anything from this boss", -- [6]
+							"/raid sorry", -- [7]
+							"/raid back", -- [8]
+							"/4 I am", -- [9]
+							"/4 I fucked up", -- [10]
+							"/4 When and where, lol", -- [11]
+							"/4 lol", -- [12]
+							"/4 yeah", -- [13]
+							"/4 Just need to not be there myself", -- [14]
+							"/cw Blakeyboy New Wisdom please", -- [15]
+							"/cw Blakeyboy ty\\", -- [16]
+							" Did I?", -- [17]
+							" :P", -- [18]
+							"/cw Ellestria-Tichondrius The second one I think it is", -- [19]
+							"/cw Ellestria-Tichondrius The one where people just went up for Fire", -- [20]
+							"/cw Ellestria-Tichondrius I pop Velen's on like", -- [21]
+							"/cw Ellestria-Tichondrius every left", -- [22]
+							"/cw Ellestria-Tichondrius lol", -- [23]
+							"/4 So", -- [24]
+							"/4 Elle pops tranq when we run", -- [25]
+							"/4 and Pallys pops auras", -- [26]
+							"/4 and that's kinda it, ye?", -- [27]
+							"/4 Prolly second platform", -- [28]
+							"/4 I fucking hate this fight", -- [29]
+							"/4 sec", -- [30]
+							"/4 bio", -- [31]
+							"/raid LIVING ON A PRAYER", -- [32]
 						},
 					},
 				},
@@ -993,10 +996,11 @@ LUIDB = {
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
-						["Width"] = 370,
-						["Height"] = 205,
-						["Anchor"] = "CompactRaidFrameContainer",
 						["Animation"] = "None",
+						["IsShown"] = true,
+						["Width"] = 370,
+						["Anchor"] = "CompactRaidFrameContainer",
+						["Height"] = 205,
 					},
 					["Tps"] = {
 						["Width"] = 600,

@@ -1,6 +1,6 @@
 --[[-----------------------------------------VER 1.5.3-------------------------------------------
 --by Tony Allain
-7.3.0 ready
+7.3.5 ready
 -----------------------------------------------------------------------------------------------]]
 local conditioner_frame = CreateFrame("Frame")
 conditioner_frame.events = {}
@@ -2839,7 +2839,7 @@ end
 function ResortList(list)
 	local sortedlist = {}
 	local num_sorts = #list
-
+	local duplicates = {}
 	for i=1, num_sorts do
 		local lowest_index = 100
 		local lowest_cooldown = 1000000
@@ -2884,12 +2884,22 @@ function ResortList(list)
 			UpdatePrioritySize()
 		end
 
+		--don't let duplicate spells pass if they are already active
 		--add lowest index to list if it is allowed to
 		if (priority_buttons[lowest_index+1]:Condition()) then
-			table.insert(sortedlist, lowest_index)
-			priority_buttons[lowest_index+1]:SetSlot(#sortedlist)
-			--print("priority c_button is ready to push " .. lowest_index .. " is in watched frame slot " .. #sortedlist)
-			--bug was I was setting the watched slot to i instead of the size of the sorted list, it always was 1 less than before
+			--is it duplicate?
+			local sid = priority_buttons[lowest_index+1].spellID
+			if (duplicates[sid]) then
+				--don't add it
+				priority_buttons[lowest_index+1]:SetSlot()
+			else
+				--add it
+				duplicates[sid] = true
+				table.insert(sortedlist, lowest_index)
+				priority_buttons[lowest_index+1]:SetSlot(#sortedlist)
+				--print("priority c_button is ready to push " .. lowest_index .. " is in watched frame slot " .. #sortedlist)
+				--bug was I was setting the watched slot to i instead of the size of the sorted list, it always was 1 less than before
+			end
 		else
 			--table.insert(deprioritized_list, lowest_index)
 			--this isn't possible, stuff that doesn't even use conditions technically passes this, but it is possible for things that use conditions to FAIL meeting them, hence we won't show them, there isn't anything to do here
@@ -2902,12 +2912,6 @@ function ResortList(list)
 	end
 	
 	return sortedlist
-end
-
-function Debug()
-	for k,v in ipairs(tracked_spells) do
-		print(v)
-	end
 end
 
 local HideHotbar = MakeCheckBox("TOP", directionDropDown, "BOTTOM", "Hide Hotbar In Combat")

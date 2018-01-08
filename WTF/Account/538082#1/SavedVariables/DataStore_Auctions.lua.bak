@@ -26,12 +26,16 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2017/10/06 07:53",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1513028581,
-				["lastVisitDate"] = "2017/12/11 13:43",
+				["lastUpdate"] = 1515129428,
+				["lastVisitDate"] = "2018/01/04 21:17",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1507644539,
 				["lastVisitDate"] = "2017/10/10 07:08",
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1513838690,
+				["lastVisitDate"] = "2017/12/20 22:44",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,
@@ -48,10 +52,6 @@ DataStore_AuctionsDB = {
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1498336322,
 				["lastVisitDate"] = "2017/06/24 13:32",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1513838690,
-				["lastVisitDate"] = "2017/12/20 22:44",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514014572,

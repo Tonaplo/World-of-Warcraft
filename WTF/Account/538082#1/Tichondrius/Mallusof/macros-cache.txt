@@ -14,8 +14,8 @@ VER 3 0100000000000008 "Shining" "INV_MISC_QUESTIONMARK"
 /cast Shining Force
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1PT1DH1MR1PH1PM2EM2DH2MR[x]2EM3EM3WM3MR3ET3DR4DM4PH4PM4MR4HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH[x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1PT1MR1SM[x]1RM2LR2DR2HR2ET2EM3WM3DH3PH3PM3MR4DH4PM4MR4DM4PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NKalSasAlyMeoBlaBigEllKal[x]ZaeCruDieKalLitDreSelPanAceLouLik[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x]Fes[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NKalAlyMac[x]SmmRepDreLikLitZaeDieSasPanBlaKalEllAceKalSelMeo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

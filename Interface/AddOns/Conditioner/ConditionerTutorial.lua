@@ -71,8 +71,10 @@ conditioner_tutorialframe:SetSize(200, 100)
 conditioner_tutorialframe.text:SetWidth(conditioner_tutorialframe:GetWidth()/1.5)
 
 local conditioner_background = CreateFrame("Frame", nil, conditioner_tutorialframe)
-conditioner_background:SetPoint("CENTER")
-conditioner_background:SetSize(conditioner_tutorialframe:GetWidth()*conditioner_tutorialframe:GetParent():GetScale() + 10, conditioner_tutorialframe:GetHeight()*conditioner_tutorialframe:GetParent():GetScale() + 10)
+conditioner_background:SetPoint("TOPLEFT", conditioner_tutorialframe, "TOPLEFT", 20, -8)
+conditioner_background:SetPoint("BOTTOMRIGHT", conditioner_tutorialframe, "BOTTOMRIGHT", -20, 8)
+--conditioner_background:SetPoint("CENTER")
+--conditioner_background:SetSize(conditioner_tutorialframe:GetWidth()*conditioner_tutorialframe:GetParent():GetScale() + 10, conditioner_tutorialframe:GetHeight()*conditioner_tutorialframe:GetParent():GetScale() + 10)
 conditioner_background.texture = conditioner_background:CreateTexture()
 conditioner_background.texture:SetAllPoints(conditioner_background)
 conditioner_background.texture:SetTexture("Interface\\FrameGeneral\\UI-Background-Marble")
@@ -93,9 +95,16 @@ conditioner_tutorialframe:SetScript("OnEnter", function(self,...) conditioner_ba
 conditioner_tutorialframe:SetScript("OnLeave", function(self,...) conditioner_background.highlight:Hide() end)
 
 local conditioner_border = CreateFrame("Frame", nil, conditioner_tutorialframe, "ConditionerTutorialLarge")
-conditioner_border:SetAllPoints(conditioner_tutorialframe)
---conditioner_border.PendingFrame.Glow:SetPoint("CENTER")
-conditioner_border.PendingFrame.Glow:SetSize(conditioner_tutorialframe:GetWidth()/conditioner_tutorialframe:GetParent():GetScale() + 16 , conditioner_tutorialframe:GetHeight()/conditioner_tutorialframe:GetParent():GetScale() + 8)
+--conditioner_border:SetPoint("TOPLEFT", conditioner_background,"TOPLEFT", -190, 8)
+--conditioner_border:SetPoint("BOTTOMRIGHT", conditioner_background,"BOTTOMRIGHT", 0, 0)
+conditioner_border.PendingFrame:SetPoint("TOPLEFT", conditioner_background,"TOPLEFT", -70, 38)
+conditioner_border.PendingFrame:SetPoint("BOTTOMRIGHT", conditioner_background,"BOTTOMRIGHT", 70, -38)
+conditioner_border.PendingFrame.Glow:SetPoint("TOPLEFT", conditioner_background,"TOPLEFT", -70, 38)
+conditioner_border.PendingFrame.Glow:SetPoint("BOTTOMRIGHT", conditioner_background,"BOTTOMRIGHT", 70, -38)
+--conditioner_border:SetAllPoints(conditioner_tutorialframe)
+--conditioner_border.PendingFrame.Glow:SetPoint("TOPLEFT", conditioner_tutorialframe,"TOPLEFT")
+--conditioner_border.PendingFrame.Glow:SetPoint("BOTTOMRIGHT", conditioner_tutorialframe,"BOTTOMRIGHT")
+--conditioner_border.PendingFrame.Glow:SetSize(conditioner_tutorialframe:GetWidth()/conditioner_tutorialframe:GetParent():GetScale() + 16 , conditioner_tutorialframe:GetHeight()/conditioner_tutorialframe:GetParent():GetScale() + 8)
 conditioner_border.PendingFrame.Ants:SetAllPoints(conditioner_tutorialframe)
 conditioner_border.PendingFrame.Ants:Hide()
 
@@ -201,6 +210,30 @@ function ConditionerResetTutorial()
 	ConditionerTutorial_Alert(1)
 	conditioner_anchors[2].target = SpellButton1
 	HideUIPanel(SpellBookFrame)
+end
+
+function ConditionerFlagTutorial()
+	xl_conditionertutorial = {
+		[1] = 1,	--open spellbook
+		[2] = 1,	--add spells
+		[3] = 1,	--remove spells
+		[4] = 1,	--re-arrange spells
+		[5] = 1,	--open conditions
+		[6] = 1,	--enable conditions
+		[7] = 1,	--disable conditions and inform cooldown behavior
+		[8] = 1,	--re-size icons
+		[9] = 1,	--drag icons
+		[10] = 1,	--rotate display
+		[11] = 1,	--menu options
+		[12] = 1,	--nameplate docking
+		[13] = 1,	--ctrl right click to change sides
+		[14] = 1,
+		current_step = 15,
+		spell_drags = 0,
+	}
+	conditioner_tutorialframe:Hide()
+	conditioner_border.AnimFrame:Hide()
+	conditioner_border.PendingFrame.Ants:Hide()
 end
 
 function ConditionerTutorial_Dismiss(step)
@@ -352,9 +385,20 @@ conditioner_tutorialframe:SetScript("OnShow", function(...)
 	ConditionerTutorial_Anim()
 end)
 
+conditioner_tutorialframe:SetScript("OnEnter", function(self)
+	GameTooltip:SetOwner(self, "ANCHOR_TOP", 0, 0)
+	GameTooltip:SetText("Conditioner Tutorial", 1, 1, 1, true)
+	GameTooltip:AddLine("Right Click to skip tutorial.", nil, nil, nil, true)
+	GameTooltip:SetMinimumWidth(150)
+	GameTooltip:Show()
+end)
+conditioner_tutorialframe:SetScript("OnLeave", function(self)
+	GameTooltip:Hide()
+end)
+
 conditioner_tutorialframe:SetScript("OnMouseDown", function(self, button, down)
 	if (button == "RightButton") then
-		ConditionerTutorial_Dismiss()
+		ConditionerFlagTutorial() --just make this a complete closure they don't want to do tutorial at all
 		PlaySound(1115)
 	elseif (button == "LeftButton") then
 		if (xl_conditionertutorial.current_step == 1) then

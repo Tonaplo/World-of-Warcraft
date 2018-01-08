@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "22:07:48",
-			["date_start"] = "22:05:50",
-			["name"] = "Advisor Vandros",
-			["total_time"] = 118.144,
-		}, -- [1]
-		{
-			["date_end"] = "22:04:33",
-			["date_start"] = "22:03:35",
-			["name"] = "General Xakal",
-			["total_time"] = 58.5650000000005,
-		}, -- [2]
-		{
-			["date_end"] = "21:58:12",
-			["date_start"] = "21:57:22",
-			["name"] = "Nal'tira",
-			["total_time"] = 50.3359999999993,
-		}, -- [3]
-		{
-			["date_end"] = "21:51:52",
-			["date_start"] = "21:50:06",
-			["name"] = "Corstilax",
-			["total_time"] = 106.659,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Greybone"] = {
@@ -94,13 +76,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Hylti-Doomhammer"] = {
@@ -137,14 +112,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
-			["Hâzmat-Doomhammer"] = {
-				[220443] = {
-					19.134, -- [1]
-					20.1040000000012, -- [2]
-					["source"] = "[*] Wake of Shadows",
-					["active"] = false,
-				},
-			},
 			["Otterrock-Sargeras"] = {
 				[220443] = {
 					24.1759999999995, -- [1]
@@ -157,12 +124,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Hylti-Doomhammer"] = {
+			["Hâzmat-Doomhammer"] = {
 				[220443] = {
-					14.6869999999999, -- [1]
-					16.0720000000001, -- [2]
-					28.0959999999996, -- [3]
-					28.6740000000009, -- [4]
+					19.134, -- [1]
+					20.1040000000012, -- [2]
 					["source"] = "[*] Wake of Shadows",
 					["active"] = false,
 				},
@@ -175,6 +140,16 @@ DetailsTimeLineDB = {
 					47.1830000000009, -- [4]
 					47.4449999999997, -- [5]
 					47.728000000001, -- [6]
+					["source"] = "[*] Wake of Shadows",
+					["active"] = false,
+				},
+			},
+			["Hylti-Doomhammer"] = {
+				[220443] = {
+					14.6869999999999, -- [1]
+					16.0720000000001, -- [2]
+					28.0959999999996, -- [3]
+					28.6740000000009, -- [4]
 					["source"] = "[*] Wake of Shadows",
 					["active"] = false,
 				},
@@ -258,22 +233,20 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Hâzmat-Doomhammer"] = {
-				[196068] = {
-					5.67699999999968, -- [1]
-					17.6859999999997, -- [2]
-					51.8439999999992, -- [3]
-					63.8419999999987, -- [4]
-					97.991, -- [5]
-					106.659, -- [6]
-					["source"] = "[*] Suppression Protocol",
-					["active"] = false,
-				},
 				[195804] = {
 					21.5839999999989, -- [1]
 					33.735999999999, -- [2]
 					69.6700000000001, -- [3]
 					72.3220000000001, -- [4]
 					["source"] = "Corstilax",
+					["active"] = false,
+				},
+				[220500] = {
+					41.759, -- [1]
+					43.4939999999988, -- [2]
+					62.0999999999986, -- [3]
+					63.2079999999987, -- [4]
+					["source"] = "[*] Destabilized Orb",
 					["active"] = false,
 				},
 				[195362] = {
@@ -284,12 +257,14 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Nightwell Energy",
 					["active"] = false,
 				},
-				[220500] = {
-					41.759, -- [1]
-					43.4939999999988, -- [2]
-					62.0999999999986, -- [3]
-					63.2079999999987, -- [4]
-					["source"] = "[*] Destabilized Orb",
+				[196068] = {
+					5.67699999999968, -- [1]
+					17.6859999999997, -- [2]
+					51.8439999999992, -- [3]
+					63.8419999999987, -- [4]
+					97.991, -- [5]
+					106.659, -- [6]
+					["source"] = "[*] Suppression Protocol",
 					["active"] = false,
 				},
 			},
@@ -325,6 +300,32 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "22:07:48",
+			["date_start"] = "22:05:50",
+			["name"] = "Advisor Vandros",
+			["total_time"] = 118.144,
+		}, -- [1]
+		{
+			["date_end"] = "22:04:33",
+			["date_start"] = "22:03:35",
+			["name"] = "General Xakal",
+			["total_time"] = 58.5650000000005,
+		}, -- [2]
+		{
+			["date_end"] = "21:58:12",
+			["date_start"] = "21:57:22",
+			["name"] = "Nal'tira",
+			["total_time"] = 50.3359999999993,
+		}, -- [3]
+		{
+			["date_end"] = "21:51:52",
+			["date_start"] = "21:50:06",
+			["name"] = "Corstilax",
+			["total_time"] = 106.659,
 		}, -- [4]
 	},
 	["deaths_data"] = {
@@ -418,5 +419,4 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }
