@@ -75,36 +75,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/01/03 22:39",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1513838705,
-				["lastVisitDate"] = "2017/12/20 22:45",
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427640,
-				["Mails"] = {
-					{
-						["icon"] = 134327,
-						["sender"] = "The WoW Dev Team",
-						["subject"] = "WoW's 13th Anniversary!",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "Wow, yet another year has gone by for WoW!\r\n\r\nWe wanted to thank you for continuing to play World of Warcraft with us, so here's an Anniversary Gift to go with your adventures!\r\n\r\nThe WoW Dev Team",
-						["lastCheck"] = 1511427640,
-						["daysLeft"] = 29.9958572387695,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2017/11/23 01:00",
-			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1512794565,
-				["lastVisitDate"] = "2017/12/08 20:42",
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1514017192,
-				["lastVisitDate"] = "2017/12/23 00:19",
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1512804601,
-				["lastVisitDate"] = "2017/12/08 23:30",
+				["lastUpdate"] = 1515743562,
+				["lastVisitDate"] = "2018/01/11 23:52",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1512629978,
@@ -148,13 +120,41 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2017/12/06 22:59",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1512573621,
-				["lastVisitDate"] = "2017/12/06 07:20",
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1512794565,
+				["lastVisitDate"] = "2017/12/08 20:42",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514014582,
 				["lastVisitDate"] = "2017/12/22 23:36",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1515740317,
+				["lastVisitDate"] = "2018/01/11 22:58",
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427640,
+				["Mails"] = {
+					{
+						["icon"] = 134327,
+						["sender"] = "The WoW Dev Team",
+						["subject"] = "WoW's 13th Anniversary!",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "Wow, yet another year has gone by for WoW!\r\n\r\nWe wanted to thank you for continuing to play World of Warcraft with us, so here's an Anniversary Gift to go with your adventures!\r\n\r\nThe WoW Dev Team",
+						["lastCheck"] = 1511427640,
+						["daysLeft"] = 29.9958572387695,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2017/11/23 01:00",
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1512573621,
+				["lastVisitDate"] = "2017/12/06 07:20",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1514017192,
+				["lastVisitDate"] = "2017/12/23 00:19",
 			},
 		},
 	},

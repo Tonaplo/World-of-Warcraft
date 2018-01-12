@@ -23,23 +23,19 @@ DataStore_AgendaDB = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2018-01-09",
+			["NextWeeklyReset"] = "2018-01-16",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1515046976,
+				["lastUpdate"] = 1515743290,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-01-07|19:00|Mythic Antorus|1|2", -- [1]
-					"2018-01-08|19:00|Raid Night!|1|9", -- [2]
+					"2018-01-14|19:00|Mythic Antorus|1|9", -- [1]
+					"2018-01-15|19:00|Raid Night!|1|9", -- [2]
+					"2018-01-18|19:00|Heroic Antorus|1|9", -- [3]
 				},
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Mythic|343357258"] = "148841|1515361159|0|1",
-					["Antorus, the Burning Throne Normal|343259017"] = "148841|1515361159|0|1",
-					["Antorus, the Burning Throne Heroic|343350968"] = "148841|1515361159|0|1",
-				},
-				["lastUpdate"] = 1515361286,
+				["lastUpdate"] = 1515737305,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -60,7 +56,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618514,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1515368946,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|343673079"] = "455945|1515658847|0|0",
+				},
+				["lastUpdate"] = 1515658865,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1515044516,
@@ -72,10 +71,16 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1514963648,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1514961381,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|343674901"] = "370574|1515744215|0|0",
+				},
+				["lastUpdate"] = 1515744236,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1515316998,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|343711935"] = "372785|1515742004|0|0",
+				},
+				["lastUpdate"] = 1515742004,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1515292975,

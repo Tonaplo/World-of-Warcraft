@@ -16,8 +16,8 @@ L["BEST_RUN"] = "Лучшее прохождение"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Изменения были сохранены, но необходимо перезагрузить интерфейс, чтобы они вступили в силу.
 
 Сделать это сейчас?]=]
-L["COPY_RAIDERIO_PROFILE_URL"] = "Копировать ссылку на профиль Raider.IO"
-L["COPY_RAIDERIO_URL"] = "Копирование ссылки на Raider.IO"
+L["COPY_RAIDERIO_PROFILE_URL"] = "Копирование ссылки на профиль Raider.IO"
+L["COPY_RAIDERIO_URL"] = "Копировать ссылку на Raider.IO-профиль"
 L["DPS"] = "Боец"
 L["DPS_SCORE"] = "Очки бойца"
 L["DUNGEON_SHORT_NAME_ARC"] = "Катакомбы"

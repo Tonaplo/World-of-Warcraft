@@ -25,7 +25,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Scepter of Sargeras",
 				["Artifacts"] = {
 					["Scepter of Sargeras"] = {
-						["pointsRemaining"] = 62156701620,
+						["pointsRemaining"] = 77623203970,
 						["rank"] = 64,
 						["tier"] = 2,
 					},
@@ -41,7 +41,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARLOCK",
-				["lastUpdate"] = 1515046142,
+				["lastUpdate"] = 1515743250,
 				["Specializations"] = {
 					9563, -- [1]
 					11963, -- [2]
@@ -55,21 +55,22 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					13718, -- [1]
-					10103, -- [2]
+					9893, -- [2]
 					6554, -- [3]
 				},
-				["lastUpdate"] = 1515361157,
+				["lastUpdate"] = 1515737179,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
 						["rank"] = 75,
-						["pointsRemaining"] = 166679951246,
+						["pointsRemaining"] = 229364961146,
 					},
 					["Underlight Angler"] = {
-						["pointsRemaining"] = 250,
+						["pointsRemaining"] = 150,
 						["tier"] = 1,
+						["rank"] = 1,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["pointsRemaining"] = 608361570,
@@ -84,7 +85,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["EquippedArtifact"] = "Scythe of Elune",
+				["EquippedArtifact"] = "Claws of Ursoc",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					14043, -- [1]
@@ -92,14 +93,14 @@ DataStore_TalentsDB = {
 					7039, -- [3]
 					8171, -- [4]
 				},
-				["lastUpdate"] = 1515368941,
+				["lastUpdate"] = 1515658813,
 				["Class"] = "DRUID",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Claws of Ursoc"] = {
 						["tier"] = 2,
 						["rank"] = 52,
-						["pointsRemaining"] = 393208815,
+						["pointsRemaining"] = 5905709665,
 					},
 					["G'Hanir, the Mother Tree"] = {
 						["pointsRemaining"] = 219469567,
@@ -148,6 +149,35 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
+			["Default.Proudmoore.Rahran"] = {
+				["EquippedArtifact"] = "The Dreadblades",
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+				["Specializations"] = {
+					6614, -- [1]
+					7161, -- [2]
+					5626, -- [3]
+				},
+				["lastUpdate"] = 1514963640,
+				["Class"] = "ROGUE",
+				["ArtifactKnowledge"] = 55,
+				["Artifacts"] = {
+					["The Kingslayers"] = {
+						["tier"] = 2,
+						["rank"] = 57,
+						["pointsRemaining"] = 2304834570,
+					},
+					["Fangs of the Devourer"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 345543620,
+					},
+					["The Dreadblades"] = {
+						["tier"] = 2,
+						["rank"] = 69,
+						["pointsRemaining"] = 33431797705,
+					},
+				},
+			},
 			["Default.Proudmoore.Faerand"] = {
 				["EquippedArtifact"] = "Titanstrike",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -177,32 +207,97 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["EquippedArtifact"] = "The Dreadblades",
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Proudmoore.Granjior"] = {
+				["EquippedArtifact"] = "Truthguard",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
-					6614, -- [1]
-					7161, -- [2]
-					5626, -- [3]
+					9558, -- [1]
+					6814, -- [2]
+					8087, -- [3]
 				},
-				["lastUpdate"] = 1514963640,
-				["Class"] = "ROGUE",
+				["lastUpdate"] = 1514954081,
+				["Class"] = "PALADIN",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
-					["The Kingslayers"] = {
-						["tier"] = 2,
-						["rank"] = 57,
-						["pointsRemaining"] = 2304834570,
-					},
-					["Fangs of the Devourer"] = {
+					["Ashbringer"] = {
 						["tier"] = 2,
 						["rank"] = 52,
-						["pointsRemaining"] = 345543620,
+						["pointsRemaining"] = 20344900,
 					},
-					["The Dreadblades"] = {
+					["The Silver Hand"] = {
+						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 6626100,
+					},
+					["Truthguard"] = {
+						["pointsRemaining"] = 16390931270,
+						["rank"] = 64,
+						["tier"] = 2,
+					},
+				},
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["EquippedArtifact"] = "Warswords of the Valarjar",
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+				["Specializations"] = {
+					5533, -- [1]
+					11869, -- [2]
+					10713, -- [3]
+				},
+				["lastUpdate"] = 1515744215,
+				["Class"] = "WARRIOR",
+				["ArtifactKnowledge"] = 55,
+				["Artifacts"] = {
+					["Scale of the Earth-Warder"] = {
 						["tier"] = 2,
 						["rank"] = 69,
-						["pointsRemaining"] = 33431797705,
+						["pointsRemaining"] = 24787145435,
+					},
+					["Strom'kar, the Warbreaker"] = {
+						["pointsRemaining"] = 446414620,
+						["tier"] = 2,
+						["rank"] = 52,
+					},
+					["Warswords of the Valarjar"] = {
+						["pointsRemaining"] = 5795036320,
+						["tier"] = 2,
+						["rank"] = 52,
+					},
+				},
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["EquippedArtifact"] = "The Fist of Ra-den",
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+				["Specializations"] = {
+					9561, -- [1]
+					9631, -- [2]
+					14235, -- [3]
+				},
+				["lastUpdate"] = 1515742004,
+				["Class"] = "SHAMAN",
+				["ArtifactKnowledge"] = 55,
+				["Artifacts"] = {
+					["Doomhammer"] = {
+						["tier"] = 2,
+						["rank"] = 59,
+						["pointsRemaining"] = 1819566695,
+					},
+					["The Fist of Ra-den"] = {
+						["pointsRemaining"] = 3012661545,
+						["rank"] = 62,
+						["tier"] = 2,
+					},
+					["Sharas'dal, Scepter of Tides"] = {
+						["pointsRemaining"] = 644316220,
+						["rank"] = 62,
+						["tier"] = 2,
 					},
 				},
 			},
@@ -235,99 +330,34 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
-			["Default.Proudmoore.Granjior"] = {
-				["EquippedArtifact"] = "Truthguard",
+			["Default.Proudmoore.Morifa"] = {
+				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
-					9558, -- [1]
-					6814, -- [2]
-					8087, -- [3]
+					7670, -- [1]
+					6582, -- [2]
+					6646, -- [3]
 				},
-				["lastUpdate"] = 1514954081,
-				["Class"] = "PALADIN",
+				["lastUpdate"] = 1515289445,
+				["Class"] = "MAGE",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
-					["Ashbringer"] = {
+					["Ebonchill, Greatstaff of Alodi"] = {
 						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 20344900,
-					},
-					["The Silver Hand"] = {
-						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 6626100,
-					},
-					["Truthguard"] = {
-						["pointsRemaining"] = 16390931270,
 						["rank"] = 64,
+						["pointsRemaining"] = 20574917300,
+					},
+					["Felo'melorn"] = {
+						["pointsRemaining"] = 2426543295,
+						["rank"] = 56,
 						["tier"] = 2,
 					},
-				},
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Scale of the Earth-Warder",
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-				["Specializations"] = {
-					5533, -- [1]
-					12254, -- [2]
-					7605, -- [3]
-				},
-				["lastUpdate"] = 1514961381,
-				["Class"] = "WARRIOR",
-				["ArtifactKnowledge"] = 55,
-				["Artifacts"] = {
-					["Scale of the Earth-Warder"] = {
-						["tier"] = 2,
-						["rank"] = 69,
-						["pointsRemaining"] = 13132143585,
-					},
-					["Strom'kar, the Warbreaker"] = {
-						["pointsRemaining"] = 446414620,
-						["tier"] = 2,
+					["Aluneth, Greatstaff of the Magna"] = {
+						["pointsRemaining"] = 148281120,
 						["rank"] = 52,
-					},
-					["Warswords of the Valarjar"] = {
-						["pointsRemaining"] = 755035520,
-						["tier"] = 2,
-						["rank"] = 52,
-					},
-				},
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "The Fist of Ra-den",
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-				["Specializations"] = {
-					11614, -- [1]
-					9631, -- [2]
-					14235, -- [3]
-				},
-				["lastUpdate"] = 1515316867,
-				["Class"] = "SHAMAN",
-				["ArtifactKnowledge"] = 55,
-				["Artifacts"] = {
-					["Doomhammer"] = {
-						["tier"] = 2,
-						["rank"] = 59,
-						["pointsRemaining"] = 1819566695,
-					},
-					["The Fist of Ra-den"] = {
-						["pointsRemaining"] = 1867659345,
-						["rank"] = 60,
-						["tier"] = 2,
-					},
-					["Sharas'dal, Scepter of Tides"] = {
-						["pointsRemaining"] = 644316220,
-						["rank"] = 62,
 						["tier"] = 2,
 					},
 				},
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["EquippedArtifact"] = "Fists of the Heavens",
@@ -357,35 +387,6 @@ DataStore_TalentsDB = {
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
-			},
-			["Default.Proudmoore.Morifa"] = {
-				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-				["Specializations"] = {
-					7670, -- [1]
-					6582, -- [2]
-					6646, -- [3]
-				},
-				["lastUpdate"] = 1515289445,
-				["Class"] = "MAGE",
-				["ArtifactKnowledge"] = 55,
-				["Artifacts"] = {
-					["Ebonchill, Greatstaff of Alodi"] = {
-						["tier"] = 2,
-						["rank"] = 64,
-						["pointsRemaining"] = 20574917300,
-					},
-					["Felo'melorn"] = {
-						["pointsRemaining"] = 2426543295,
-						["rank"] = 56,
-						["tier"] = 2,
-					},
-					["Aluneth, Greatstaff of the Magna"] = {
-						["pointsRemaining"] = 148281120,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-				},
 			},
 		},
 	},
