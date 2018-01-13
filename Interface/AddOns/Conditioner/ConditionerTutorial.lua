@@ -73,8 +73,6 @@ conditioner_tutorialframe.text:SetWidth(conditioner_tutorialframe:GetWidth()/1.5
 local conditioner_background = CreateFrame("Frame", nil, conditioner_tutorialframe)
 conditioner_background:SetPoint("TOPLEFT", conditioner_tutorialframe, "TOPLEFT", 20, -8)
 conditioner_background:SetPoint("BOTTOMRIGHT", conditioner_tutorialframe, "BOTTOMRIGHT", -20, 8)
---conditioner_background:SetPoint("CENTER")
---conditioner_background:SetSize(conditioner_tutorialframe:GetWidth()*conditioner_tutorialframe:GetParent():GetScale() + 10, conditioner_tutorialframe:GetHeight()*conditioner_tutorialframe:GetParent():GetScale() + 10)
 conditioner_background.texture = conditioner_background:CreateTexture()
 conditioner_background.texture:SetAllPoints(conditioner_background)
 conditioner_background.texture:SetTexture("Interface\\FrameGeneral\\UI-Background-Marble")
@@ -86,7 +84,6 @@ conditioner_background.highlight:SetAllPoints(conditioner_background)
 conditioner_background.highlight.texture = conditioner_background.highlight:CreateTexture()
 conditioner_background.highlight.texture:SetPoint("CENTER", conditioner_background.highlight, "CENTER", 0, 0)
 conditioner_background.highlight.texture:SetTexture("Interface\\Buttons\\UI-Common-MouseHilight")
---conditioner_background.highlight.texture:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
 conditioner_background.highlight.texture:SetSize(conditioner_tutorialframe:GetWidth()*1.5, conditioner_tutorialframe:GetHeight()*1.5)
 conditioner_background.highlight.texture:SetBlendMode("ADD")
 conditioner_background.highlight:Hide()
@@ -95,26 +92,16 @@ conditioner_tutorialframe:SetScript("OnEnter", function(self,...) conditioner_ba
 conditioner_tutorialframe:SetScript("OnLeave", function(self,...) conditioner_background.highlight:Hide() end)
 
 local conditioner_border = CreateFrame("Frame", nil, conditioner_tutorialframe, "ConditionerTutorialLarge")
---conditioner_border:SetPoint("TOPLEFT", conditioner_background,"TOPLEFT", -190, 8)
---conditioner_border:SetPoint("BOTTOMRIGHT", conditioner_background,"BOTTOMRIGHT", 0, 0)
 conditioner_border.PendingFrame:SetPoint("TOPLEFT", conditioner_background,"TOPLEFT", -70, 38)
 conditioner_border.PendingFrame:SetPoint("BOTTOMRIGHT", conditioner_background,"BOTTOMRIGHT", 70, -38)
 conditioner_border.PendingFrame.Glow:SetPoint("TOPLEFT", conditioner_background,"TOPLEFT", -70, 38)
 conditioner_border.PendingFrame.Glow:SetPoint("BOTTOMRIGHT", conditioner_background,"BOTTOMRIGHT", 70, -38)
---conditioner_border:SetAllPoints(conditioner_tutorialframe)
---conditioner_border.PendingFrame.Glow:SetPoint("TOPLEFT", conditioner_tutorialframe,"TOPLEFT")
---conditioner_border.PendingFrame.Glow:SetPoint("BOTTOMRIGHT", conditioner_tutorialframe,"BOTTOMRIGHT")
---conditioner_border.PendingFrame.Glow:SetSize(conditioner_tutorialframe:GetWidth()/conditioner_tutorialframe:GetParent():GetScale() + 16 , conditioner_tutorialframe:GetHeight()/conditioner_tutorialframe:GetParent():GetScale() + 8)
 conditioner_border.PendingFrame.Ants:SetAllPoints(conditioner_tutorialframe)
 conditioner_border.PendingFrame.Ants:Hide()
-
---conditioner_border.AnimFrame.Glow:SetAllPoints(conditioner_tutorialframe)
---conditioner_border.AnimFrame.OuterGlow:SetAllPoints(conditioner_tutorialframe)
 
 local conditioner_smoke = CreateFrame("Frame", nil, conditioner_tutorialframe, "ConditionerSmoke")
 conditioner_smoke:SetAllPoints(conditioner_tutorialframe)
 conditioner_smoke.Glowframe:SetAllPoints(conditioner_smoke)
---conditioner_smoke.Glowframe:SetSize(conditioner_border:GetWidth(), conditioner_border:GetHeight())
 
 function ConditionerTutorial_Anim()
 	conditioner_smoke.Smoke1:ClearAllPoints()
@@ -238,14 +225,10 @@ end
 
 function ConditionerTutorial_Dismiss(step)
 	if (step) then
-		--step 2 lasts for 3 steps
 		if (step == 2) then
 			xl_conditionertutorial.spell_drags = xl_conditionertutorial.spell_drags + 1
 			if (xl_conditionertutorial.spell_drags >= 3) then
-				--now we can procede
-				--this means I wrote a specific check to close this event
 				if (step == xl_conditionertutorial.current_step) then
-					--it is appropriate to try and dismiss here
 					conditioner_tutorialframe:Hide()
 					conditioner_border.AnimFrame:Hide()
 					conditioner_border.PendingFrame.Ants:Hide()
@@ -255,7 +238,6 @@ function ConditionerTutorial_Dismiss(step)
 					--nothing
 				end
 			else
-				--update text on how many drags
 				if (xl_conditionertutorial.spell_drags == 1) then
 					conditioner_tutorialframe.text:SetText("|cff00ffffCONDITIONER|r\n" .. "Spells are displayed on your screen based on their current cooldown. 2 more...")
 					conditioner_anchors[step].target = SpellButton2
@@ -263,7 +245,6 @@ function ConditionerTutorial_Dismiss(step)
 					conditioner_tutorialframe.text:SetText("|cff00ffffCONDITIONER|r\n" .. "Almost done! Just drag 1 more spell into the priority list!")
 					conditioner_anchors[step].target = SpellButton3
 				end
-				--ants
 				conditioner_border.PendingFrame.Ants:SetParent(conditioner_anchors[step].target)
 				conditioner_border.PendingFrame.Ants:ClearAllPoints()
 				conditioner_border.PendingFrame.Ants:SetPoint("BOTTOMLEFT", conditioner_anchors[step].target, "BOTTOMLEFT")
@@ -286,10 +267,7 @@ function ConditionerTutorial_Dismiss(step)
 				conditioner_border.AnimFrame.Anim:Play()
 			end
 		else
-			--now we can procede
-			--this means I wrote a specific check to close this event
 			if (step == xl_conditionertutorial.current_step) then
-				--it is appropriate to try and dismiss here
 				conditioner_tutorialframe:Hide()
 				conditioner_border.AnimFrame:Hide()
 				conditioner_border.PendingFrame.Ants:Hide()
@@ -300,14 +278,11 @@ function ConditionerTutorial_Dismiss(step)
 			end
 		end
 	else
-		--the user just right clicked
 		conditioner_tutorialframe:Hide()
 		conditioner_border.AnimFrame:Hide()
 		conditioner_border.PendingFrame.Ants:Hide()
-		--user right clicked on me or I fulfilled this particular step, mark the current step as complete
 		if (xl_conditionertutorial[xl_conditionertutorial.current_step]) then
 			xl_conditionertutorial[xl_conditionertutorial.current_step] = 1
-			--increment to next step
 			xl_conditionertutorial.current_step = xl_conditionertutorial.current_step + 1
 		else
 			--doesn't exist, we're done
@@ -316,22 +291,17 @@ function ConditionerTutorial_Dismiss(step)
 end
 
 function ConditionerTutorial_Alert(step, optional, optional2)
-	--if it isn't complete, show it
 	if (xl_conditionertutorial[step]) and (xl_conditionertutorial[step] == 0) then
-		--also we need to guarantee this is the step we want to show
 		if (xl_conditionertutorial.current_step == step) then
-			--more optional things
 			if (optional2) then
 				conditioner_anchors[step].y = optional2
 			end
-			--it is a step we have and the user hasn't seen yet, we'll need to set point, update text, and show it
 			conditioner_tutorialframe:SetParent(conditioner_anchors[step].y)
 			conditioner_tutorialframe:ClearAllPoints()
 			conditioner_tutorialframe:SetPoint(conditioner_anchors[step].x, conditioner_anchors[step].y, conditioner_anchors[step].z, conditioner_anchors[step].w, conditioner_anchors[step].h)
 			conditioner_tutorialframe.text:SetText("|cff00ffffCONDITIONER|r\n" .. conditioner_tutorial_strings[step])
 
 			if (step == 2) then
-				--update text on how many drags
 				if (xl_conditionertutorial.spell_drags == 1) then
 					conditioner_tutorialframe.text:SetText("|cff00ffffCONDITIONER|r\n" .. "Spells are displayed on your screen based on their current cooldown. 2 more...")
 					conditioner_anchors[step].target = SpellButton2
@@ -348,11 +318,9 @@ function ConditionerTutorial_Alert(step, optional, optional2)
 				conditioner_border.PendingFrame.Ants:Show()
 
 				if (optional) then
-					--maybe?
 					conditioner_anchors[step].target = optional
 				end
 
-				--ants
 				conditioner_border.PendingFrame.Ants:SetParent(conditioner_anchors[step].target)
 				conditioner_border.PendingFrame.Ants:ClearAllPoints()
 				conditioner_border.PendingFrame.Ants:SetPoint("BOTTOMLEFT", conditioner_anchors[step].target, "BOTTOMLEFT")
@@ -381,7 +349,45 @@ function ConditionerTutorial_Alert(step, optional, optional2)
 	end
 end
 
+function ConditionerTutorial_Model()
+	if (not conditioner_tutorialframe.Model) then
+		conditioner_tutorialframe.Model = CreateFrame("PlayerModel", nil, conditioner_tutorialframe)
+		conditioner_tutorialframe.Model:SetSize(100, 100)
+		conditioner_tutorialframe.Model:SetPoint("CENTER", conditioner_tutorialframe, "TOPRIGHT")
+		
+		if (UnitFactionGroup("player") == "Alliance") then
+			conditioner_tutorialframe.Model:SetDisplayInfo(37526)
+		else
+			conditioner_tutorialframe.Model:SetDisplayInfo(37527)
+		end
+		conditioner_tutorialframe.Model:SetAnimation(69)
+		conditioner_tutorialframe.Model.timer = 0
+		conditioner_tutorialframe.Model:SetRotation(0.5)
+		conditioner_tutorialframe.Model:SetFrameStrata("FULLSCREEN_DIALOG")
+		conditioner_tutorialframe.Model.displayIDs = {
+		15369, 6294, 78712,	78810, 21195, 21135, 74504,
+		74514, 68501, 68500, 54329, 35248, 35231, 37526,
+		37527, 13610, 51505, 49084, 49289, 58170, 54848}
+
+		conditioner_tutorialframe.Model:SetScript("OnUpdate", function(self, elapsed)
+			conditioner_tutorialframe.Model.timer = conditioner_tutorialframe.Model.timer + elapsed
+			if (conditioner_tutorialframe.Model.timer > math.pi*2) then
+				conditioner_tutorialframe.Model.timer = 0
+			end
+			conditioner_tutorialframe.Model:SetRotation(conditioner_tutorialframe.Model.timer)
+		end)
+
+		conditioner_tutorialframe.Model:SetScript("OnShow", function(self)
+			local randomID = math.random(1, #self.displayIDs)
+			local randomDisplayID = self.displayIDs[randomID]
+			conditioner_tutorialframe.Model:SetDisplayInfo(randomDisplayID)
+			conditioner_tutorialframe.Model:SetAnimation(69)
+		end)
+	end	
+end
+
 conditioner_tutorialframe:SetScript("OnShow", function(...)
+	ConditionerTutorial_Model()
 	ConditionerTutorial_Anim()
 end)
 
@@ -398,7 +404,7 @@ end)
 
 conditioner_tutorialframe:SetScript("OnMouseDown", function(self, button, down)
 	if (button == "RightButton") then
-		ConditionerFlagTutorial() --just make this a complete closure they don't want to do tutorial at all
+		ConditionerFlagTutorial()
 		PlaySound(1115)
 	elseif (button == "LeftButton") then
 		if (xl_conditionertutorial.current_step == 1) then
@@ -411,7 +417,6 @@ end)
 
 conditioner_tutorialframe:Hide()
 
---hooks
 SpellBookFrame:HookScript("OnShow", function(...)
 	ConditionerTutorial_Dismiss(1)
 	ConditionerTutorial_Alert(2)

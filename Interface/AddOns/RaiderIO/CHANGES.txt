@@ -1,10 +1,28 @@
-lightweight tag f97a73772382371de2ce81e9ae3f3a1d9f543180 v201801090800
+lightweight tag 39b3f18b544e8b0a0a5226c116eec16c643fb0e8 v201801120800
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Tue Jan 9 09:38:10 2018 +0000
+Date:	Fri Jan 12 09:30:00 2018 +0000
 
-commit f97a73772382371de2ce81e9ae3f3a1d9f543180
+commit 39b3f18b544e8b0a0a5226c116eec16c643fb0e8
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Jan 9 09:38:10 2018 +0000
+Date:   Fri Jan 12 09:30:00 2018 +0000
 
     [Raider.IO] Database Refresh
+
+commit a319229a6ce8c6e92b9875433f46ed6e4ba903bb
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Fri Jan 12 01:37:25 2018 -0600
+
+    a couple of enUS text fixes
+
+commit 3f06eb0b51f17a76546862ec43674c482ff5bfae
+Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
+Date:   Fri Jan 12 06:38:08 2018 +0100
+
+    Increase width of config frame for translation (#13)
+
+commit 3c79630364fd30df14d6d322c3abcf1b023a04db
+Author: François "Isak" Wroblewski <wroblewski.francois@gmail.com>
+Date:   Fri Jan 12 06:37:30 2018 +0100
+
+    Add locale for module region name (#14)
 

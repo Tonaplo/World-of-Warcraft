@@ -1,5 +1,11 @@
-changeset:   695:a9105667be91
+changeset:   696:d4a8c7e49b83
 tag:         tip
+user:        Tercio
+date:        Fri Jan 12 10:36:46 2018 -0200
+summary:     - Default width for death window is now 350 (up from 300).
+
+
+changeset:   695:a9105667be91
 user:        Tercio
 date:        Wed Jan 03 11:53:23 2018 -0200
 summary:     - Custom window should now clear the previous code when start editing a new custom display.

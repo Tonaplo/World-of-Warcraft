@@ -14,10 +14,10 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -35,7 +35,7 @@ DataStore_AgendaDB = {
 					"2018-01-15|19:00|Raid Night!|1|9", -- [2]
 					"2018-01-18|19:00|Heroic Antorus|1|9", -- [3]
 				},
-				["lastUpdate"] = 1515737305,
+				["lastUpdate"] = 1515838895,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -64,8 +64,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1515044516,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1515289515,
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1511427638,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514963648,
@@ -92,8 +92,8 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1515289373,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1515289515,
 			},
 		},
 	},

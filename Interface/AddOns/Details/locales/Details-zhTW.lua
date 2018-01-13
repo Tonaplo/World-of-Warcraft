@@ -189,7 +189,7 @@ L["STRING_ENVIRONMENTAL_SLIME"] = "環境(史萊姆)"
 L["STRING_EQUILIZING"] = "分享首領戰數據"
 L["STRING_ERASE"] = "刪除"
 L["STRING_ERASE_DATA"] = "重置所有獨立片段(記錄)"
-L["STRING_ERASE_DATA_OVERALL"] = "重置整體數據"
+L["STRING_ERASE_DATA_OVERALL"] = "僅重置整體數據"
 L["STRING_ERASE_IN_COMBAT"] = "當前戰鬥結束後重置數據"
 L["STRING_EXAMPLE"] = "舉例"
 L["STRING_EXPLOSION"] = "爆炸"
@@ -661,20 +661,15 @@ L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW_DESC"] = [=[如果啟用，右鍵單
 選單面板->標題列:一般->關閉全部顯示選單且打開書籤]=]
 L["STRING_OPTIONS_DISABLE_BARHIGHLIGHT"] = "禁用計量條明亮互動"
 L["STRING_OPTIONS_DISABLE_BARHIGHLIGHT_DESC"] = "鼠標懸停在計量條不會使其更明亮。"
---Translation missing 
--- L["STRING_OPTIONS_DISABLE_GROUPS"] = ""
---Translation missing 
--- L["STRING_OPTIONS_DISABLE_GROUPS_DESC"] = ""
+L["STRING_OPTIONS_DISABLE_GROUPS"] = "禁用群組"
+L["STRING_OPTIONS_DISABLE_GROUPS_DESC"] = "當放置在彼此附近時, 視窗不會再進行合組。"
 L["STRING_OPTIONS_DISABLE_LOCK_RESIZE"] = "停用調整大小按鈕"
 L["STRING_OPTIONS_DISABLE_LOCK_RESIZE_DESC"] = "將鼠標懸停在窗口上時，不會顯示調整大小，鎖定/解鎖和取消組合按鈕。"
---Translation missing 
--- L["STRING_OPTIONS_DISABLE_RESET"] = ""
---Translation missing 
--- L["STRING_OPTIONS_DISABLE_RESET_DESC"] = ""
+L["STRING_OPTIONS_DISABLE_RESET"] = "禁用重置按鈕點擊"
+L["STRING_OPTIONS_DISABLE_RESET_DESC"] = "啟用後，點擊重置按鈕將不起作用，必須選擇重置其工具提示菜單中的數據。"
 L["STRING_OPTIONS_DISABLE_STRETCH_BUTTON"] = "禁用拉伸按鈕"
 L["STRING_OPTIONS_DISABLE_STRETCH_BUTTON_DESC"] = "啟用此選項時不會顯示 \"拉伸\" 按鈕。"
---Translation missing 
--- L["STRING_OPTIONS_DISABLED_RESET"] = ""
+L["STRING_OPTIONS_DISABLED_RESET"] = "通過此按鈕重置現時已禁用, 請在 \"工具提示\" 功能表中選擇它。"
 --Translation missing 
 -- L["STRING_OPTIONS_DTAKEN_EVERYTHING"] = ""
 L["STRING_OPTIONS_DTAKEN_EVERYTHING_DESC"] = "受到傷害將一直顯示與 |cFFFFFF00全部|r  模式。"
@@ -713,7 +708,7 @@ L["STRING_OPTIONS_HOTCORNER_QUICK_CLICK"] = "啟用快速點擊"
 L["STRING_OPTIONS_HOTCORNER_QUICK_CLICK_DESC"] = [=[啟用或禁用Hotcorners快速點擊功能
 
 Quick button is localized at the further top left pixel，並從任一處移動你的滑鼠到這, 點擊後設定左上角的動作將可被執行]=]
-L["STRING_OPTIONS_HOTCORNER_QUICK_CLICK_FUNC"] = "Quick Click On Click"
+L["STRING_OPTIONS_HOTCORNER_QUICK_CLICK_FUNC"] = "快速點擊"
 L["STRING_OPTIONS_HOTCORNER_QUICK_CLICK_FUNC_DESC"] = "當Hotcorner的快速按钮被點擊時選擇做甚麼"
 L["STRING_OPTIONS_IGNORENICKNAME"] = "忽略全部暱稱及自定頭像"
 L["STRING_OPTIONS_IGNORENICKNAME_DESC"] = "如果開啟，您公會的成員所設定的暱稱及頭像將會被忽略。"
@@ -846,10 +841,8 @@ L["STRING_OPTIONS_MINIMAP_ACTION1"] = "打開選項面板"
 L["STRING_OPTIONS_MINIMAP_ACTION3"] = "顯示/隱藏插件窗口"
 L["STRING_OPTIONS_MINIMAP_ANCHOR"] = "小地圖:"
 L["STRING_OPTIONS_MINIMAP_DESC"] = "顯示或隱藏小地圖圖標。"
---Translation missing 
--- L["STRING_OPTIONS_MISCTITLE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_MISCTITLE2"] = ""
+L["STRING_OPTIONS_MISCTITLE"] = "雜項設置"
+L["STRING_OPTIONS_MISCTITLE2"] = "這些控制幾個選項。"
 L["STRING_OPTIONS_NICKNAME"] = "暱稱"
 L["STRING_OPTIONS_NICKNAME_DESC"] = [=[給你自己設定一個暱稱。
 
@@ -916,20 +909,14 @@ L["STRING_OPTIONS_PERFORMANCEPROFILES_ANCHOR"] = "性能配置:"
 L["STRING_OPTIONS_PICONS_DIRECTION"] = "(擴充)插件緊接在右邊"
 L["STRING_OPTIONS_PICONS_DIRECTION_DESC"] = [=[選中後, (擴充)插件按鈕顯示在功能表(主)按鈕的右側。
 ※:擴充插件不是指在Details! Damage Meter包的插件,而是額外添加的功能性插件(獨立發佈的),例:Details!: Advanced Death Logs (plugin)]=]
---Translation missing 
--- L["STRING_OPTIONS_PLUGINS"] = ""
---Translation missing 
--- L["STRING_OPTIONS_PLUGINS_AUTHOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_PLUGINS_NAME"] = ""
---Translation missing 
--- L["STRING_OPTIONS_PLUGINS_OPTIONS"] = ""
+L["STRING_OPTIONS_PLUGINS"] = "插件"
+L["STRING_OPTIONS_PLUGINS_AUTHOR"] = "作者"
+L["STRING_OPTIONS_PLUGINS_NAME"] = "名稱"
+L["STRING_OPTIONS_PLUGINS_OPTIONS"] = "選項"
 L["STRING_OPTIONS_PLUGINS_RAID_ANCHOR"] = "團隊插件"
---Translation missing 
--- L["STRING_OPTIONS_PLUGINS_SOLO_ANCHOR"] = ""
+L["STRING_OPTIONS_PLUGINS_SOLO_ANCHOR"] = "獨立插件"
 L["STRING_OPTIONS_PLUGINS_TOOLBAR_ANCHOR"] = "工具列插件"
---Translation missing 
--- L["STRING_OPTIONS_PLUGINS_VERSION"] = ""
+L["STRING_OPTIONS_PLUGINS_VERSION"] = "版本"
 --Translation missing 
 -- L["STRING_OPTIONS_PRESETNONAME"] = ""
 --Translation missing 
@@ -1017,26 +1004,22 @@ L["STRING_OPTIONS_REPORT_SCHEMA3"] = "百分比/合計/每秒"
 L["STRING_OPTIONS_ROW_SETTING_ANCHOR"] = "佈局："
 L["STRING_OPTIONS_ROWADV_TITLE"] = "計量列表高階設定"
 L["STRING_OPTIONS_ROWADV_TITLE_DESC"] = "這些選項允許您更進一步修改行。"
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWN1"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWN2"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWNS_ANCHOR"] = ""
+L["STRING_OPTIONS_RT_COOLDOWN1"] = "在％s上使用％s!"
+L["STRING_OPTIONS_RT_COOLDOWN2"] = "使用％s!"
+L["STRING_OPTIONS_RT_COOLDOWNS_ANCHOR"] = "冷卻通知:"
 L["STRING_OPTIONS_RT_COOLDOWNS_CHANNEL"] = "頻道"
 L["STRING_OPTIONS_RT_COOLDOWNS_CHANNEL_DESC"] = [=[用於發送警報消息的聊天頻道。
 
 如果選擇 |cFFFFFF00觀察者|r, 所有冷卻都將發佈到您的聊天頻道, 除了個人冷卻。]=]
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWNS_CUSTOM"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWNS_CUSTOM_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWNS_ONOFF_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWNS_SELECT"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_COOLDOWNS_SELECT_DESC"] = ""
+L["STRING_OPTIONS_RT_COOLDOWNS_CUSTOM"] = "自訂文本"
+L["STRING_OPTIONS_RT_COOLDOWNS_CUSTOM_DESC"] = [=[鍵入要發送的自己的短語。
+
+使用 |cFFFFFF00{spell}|r 添加冷卻法術名稱。
+
+使用 |cFFFFFF00{target}|r 添加玩家目標名稱。]=]
+L["STRING_OPTIONS_RT_COOLDOWNS_ONOFF_DESC"] = "當您使用冷卻時, 將通過選定頻道的發送一條消息。"
+L["STRING_OPTIONS_RT_COOLDOWNS_SELECT"] = "忽略冷卻時間清單"
+L["STRING_OPTIONS_RT_COOLDOWNS_SELECT_DESC"] = "選擇應忽略的冷卻。"
 L["STRING_OPTIONS_RT_DEATH_MSG"] = "Details! %s的死亡"
 L["STRING_OPTIONS_RT_DEATHS_ANCHOR"] = "死亡宣告:"
 L["STRING_OPTIONS_RT_DEATHS_FIRST"] = "只有最先"
@@ -1053,46 +1036,33 @@ L["STRING_OPTIONS_RT_DEATHS_WHERE_DESC"] = [=[選擇可以發佈死亡的場景�
 L["STRING_OPTIONS_RT_DEATHS_WHERE1"] = "團隊&地城"
 L["STRING_OPTIONS_RT_DEATHS_WHERE2"] = "僅限團隊"
 L["STRING_OPTIONS_RT_DEATHS_WHERE3"] = "僅限地城"
---Translation missing 
--- L["STRING_OPTIONS_RT_FIRST_HIT"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_FIRST_HIT_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_IGNORE_TITLE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INFOS"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INFOS_PREPOTION"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INFOS_PREPOTION_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPT"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPT_ANCHOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPT_NEXT"] = ""
+L["STRING_OPTIONS_RT_FIRST_HIT"] = "第一個打(First Hit)"
+L["STRING_OPTIONS_RT_FIRST_HIT_DESC"] = "在聊天介面(通常在\"綜合\")上顯示 (|cFFFFFF00只有你\"知\"|r) 交代了誰第一個打, 通常是誰開始了戰鬥。"
+L["STRING_OPTIONS_RT_IGNORE_TITLE"] = "忽略冷卻"
+L["STRING_OPTIONS_RT_INFOS"] = "額外信息:"
+L["STRING_OPTIONS_RT_INFOS_PREPOTION"] = "戰前使用藥水(預讀藥水)"
+L["STRING_OPTIONS_RT_INFOS_PREPOTION_DESC"] = "當啟用並及後發生團隊首領戰, 顯示在您的聊天介面(通常在\"綜合\") (|cFFFFFF00只有你\"知\"|r) 誰拉王前使用藥水(預讀藥水)。"
+L["STRING_OPTIONS_RT_INTERRUPT"] = "%s 打斷!"
+L["STRING_OPTIONS_RT_INTERRUPT_ANCHOR"] = "打斷通知:"
+L["STRING_OPTIONS_RT_INTERRUPT_NEXT"] = "下一個準備:%s"
 L["STRING_OPTIONS_RT_INTERRUPTS_CHANNEL"] = "頻道"
-L["STRING_OPTIONS_RT_INTERRUPTS_CHANNEL_DESC"] = [=[用於發送警報消息的聊天頻道。
+L["STRING_OPTIONS_RT_INTERRUPTS_CHANNEL_DESC"] = [=[用於發送警報訊息的聊天頻道。
 
 如果選擇|cFFFFFF00觀察者|r, 只在聊天頻道中發佈所有的中斷。]=]
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPTS_CUSTOM"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPTS_CUSTOM_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPTS_NEXT"] = ""
+L["STRING_OPTIONS_RT_INTERRUPTS_CUSTOM"] = "自訂文本"
+L["STRING_OPTIONS_RT_INTERRUPTS_CUSTOM_DESC"] = [=[鍵入要發送的自己的訊息。
+
+使用 |cFFFFFF00{spell}|r 添加中斷的法術名稱。
+
+使用 |cFFFFFF00{next}|r 添加下一個玩家名稱。]=]
+L["STRING_OPTIONS_RT_INTERRUPTS_NEXT"] = "下一個玩家"
 --Translation missing 
 -- L["STRING_OPTIONS_RT_INTERRUPTS_NEXT_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPTS_ONOFF_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_INTERRUPTS_WHISPER"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_OTHER_ANCHOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_TITLE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_RT_TITLE_DESC"] = ""
+L["STRING_OPTIONS_RT_INTERRUPTS_ONOFF_DESC"] = "當您成功地打斷施法時, 將發送一個訊息。"
+L["STRING_OPTIONS_RT_INTERRUPTS_WHISPER"] = "密語對象"
+L["STRING_OPTIONS_RT_OTHER_ANCHOR"] = "一般:"
+L["STRING_OPTIONS_RT_TITLE"] = "團隊工具"
+L["STRING_OPTIONS_RT_TITLE_DESC"] = "在這個面板中,你可以啟動幾個機制來輔助告訴你的團隊。"
 L["STRING_OPTIONS_SAVELOAD"] = "保存並加載"
 L["STRING_OPTIONS_SAVELOAD_APPLYALL"] = "當前的外觀已套用到所有窗口。"
 L["STRING_OPTIONS_SAVELOAD_APPLYALL_DESC"] = "所有已創建窗口上套用當前外觀。"
@@ -1144,10 +1114,8 @@ L["STRING_OPTIONS_SHOW_SIDEBARS_DESC"] = "顯示或隱藏視窗邊框。"
 -- L["STRING_OPTIONS_SHOW_TOTALBAR_ICON"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_SHOW_TOTALBAR_ICON_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_SHOW_TOTALBAR_INGROUP"] = ""
---Translation missing 
--- L["STRING_OPTIONS_SHOW_TOTALBAR_INGROUP_DESC"] = ""
+L["STRING_OPTIONS_SHOW_TOTALBAR_INGROUP"] = "僅在群組"
+L["STRING_OPTIONS_SHOW_TOTALBAR_INGROUP_DESC"] = "如果不在群組中, 則不顯示總評量列表。"
 L["STRING_OPTIONS_SIZE"] = "大小"
 L["STRING_OPTIONS_SKIN_A"] = "外觀設定"
 L["STRING_OPTIONS_SKIN_A_DESC"] = "這些選項允許您更改外觀。"
@@ -1219,7 +1187,7 @@ L["STRING_OPTIONS_TABEMB_SINGLE_DESC"] = "當勾選，僅會附著一個視窗"
 L["STRING_OPTIONS_TABEMB_TABNAME"] = "標籤名稱"
 L["STRING_OPTIONS_TABEMB_TABNAME_DESC"] = "視窗將會附著於這個標籤名稱"
 L["STRING_OPTIONS_TESTBARS"] = "建立測試性記錄"
-L["STRING_OPTIONS_TEXT"] = "列表:文字設定"
+L["STRING_OPTIONS_TEXT"] = "計量列表文字設定"
 L["STRING_OPTIONS_TEXT_DESC"] = "這些選項控制視窗文本列的外觀。"
 L["STRING_OPTIONS_TEXT_FIXEDCOLOR"] = "文本顏色"
 L["STRING_OPTIONS_TEXT_FIXEDCOLOR_DESC"] = [=[更改左右文本的文字顏色。
@@ -1253,7 +1221,7 @@ L["STRING_OPTIONS_TEXT_SIZE_DESC"] = "更改左右文本的大小。"
 L["STRING_OPTIONS_TEXT_TEXTUREL_ANCHOR"] = "背景:"
 L["STRING_OPTIONS_TEXT_TEXTUREU_ANCHOR"] = "外觀:"
 L["STRING_OPTIONS_TEXTEDITOR_CANCEL"] = "取消"
-L["STRING_OPTIONS_TEXTEDITOR_CANCEL_TOOLTIP"] = "完成編輯並忽略代碼中的任何更改。"
+L["STRING_OPTIONS_TEXTEDITOR_CANCEL_TOOLTIP"] = "結束編輯並忽略代碼中的任何修改。"
 L["STRING_OPTIONS_TEXTEDITOR_COLOR_TOOLTIP"] = "選擇文本, 然後按一下 \"顏色\" 按鈕以更改選定的文本顏色。"
 L["STRING_OPTIONS_TEXTEDITOR_COMMA"] = "逗號"
 L["STRING_OPTIONS_TEXTEDITOR_COMMA_TOOLTIP"] = [=[添加一個用於格式化數位的函數, 用逗號分隔。
@@ -1269,8 +1237,8 @@ L["STRING_OPTIONS_TEXTEDITOR_DATA_TOOLTIP"] = [=[添加資料來源:
 L["STRING_OPTIONS_TEXTEDITOR_DONE"] = "完成"
 L["STRING_OPTIONS_TEXTEDITOR_DONE_TOOLTIP"] = "完成編輯並保存代碼。"
 L["STRING_OPTIONS_TEXTEDITOR_FUNC"] = "功能"
---Translation missing 
--- L["STRING_OPTIONS_TEXTEDITOR_FUNC_TOOLTIP"] = ""
+L["STRING_OPTIONS_TEXTEDITOR_FUNC_TOOLTIP"] = [=[添加一個空函數。
+函數必須始終返回一個數位。]=]
 L["STRING_OPTIONS_TEXTEDITOR_RESET"] = "重置"
 L["STRING_OPTIONS_TEXTEDITOR_RESET_TOOLTIP"] = "清除所有代碼並添加預設代碼。"
 --Translation missing 
@@ -1288,12 +1256,10 @@ L["STRING_OPTIONS_TOOLBARSIDE_DESC"] = [=[將標題列放在視窗的頂部。
 
 |cFFFFFF00重要|r:當交換位置, 標題文本不會改變, 查看|cFFFFFF00標題列: 文本|r 部分更多的選擇。]=]
 L["STRING_OPTIONS_TOOLS_ANCHOR"] = "工具:"
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIP_ANCHOR"] = ""
+L["STRING_OPTIONS_TOOLTIP_ANCHOR"] = "設置:"
 L["STRING_OPTIONS_TOOLTIP_ANCHORTEXTS"] = "文本:"
 L["STRING_OPTIONS_TOOLTIPS_ABBREVIATION"] = "縮寫類型"
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_ABBREVIATION_DESC"] = ""
+L["STRING_OPTIONS_TOOLTIPS_ABBREVIATION_DESC"] = "選擇在工具提示上顯示的數字如何格式化。"
 L["STRING_OPTIONS_TOOLTIPS_ANCHOR_ATTACH"] = "工具提示定位"
 L["STRING_OPTIONS_TOOLTIPS_ANCHOR_ATTACH_DESC"] = [=[工具提示的哪一側用於與錨點接合。
 ]=]
@@ -1313,49 +1279,30 @@ L["STRING_OPTIONS_TOOLTIPS_ANCHOR_TO_DESC"] = "工具提示附加在遊戲畫面
 L["STRING_OPTIONS_TOOLTIPS_ANCHOR_TO2"] = "錨點在螢幕之內"
 --Translation missing 
 -- L["STRING_OPTIONS_TOOLTIPS_ANCHORCOLOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_BACKGROUNDCOLOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_BACKGROUNDCOLOR_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_BORDER_COLOR_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_BORDER_SIZE_DESC"] = ""
+L["STRING_OPTIONS_TOOLTIPS_BACKGROUNDCOLOR"] = "背景顏色"
+L["STRING_OPTIONS_TOOLTIPS_BACKGROUNDCOLOR_DESC"] = "選擇背景上使用的顏色。"
+L["STRING_OPTIONS_TOOLTIPS_BORDER_COLOR_DESC"] = "更變邊框顏色。"
+L["STRING_OPTIONS_TOOLTIPS_BORDER_SIZE_DESC"] = "更變邊框大小。"
 L["STRING_OPTIONS_TOOLTIPS_BORDER_TEXTURE_DESC"] = "修改邊框材質文件。"
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTFACE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTFACE_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTSHADOW_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTSIZE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_FONTSIZE_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_IGNORESUBWALLPAPER"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_IGNORESUBWALLPAPER_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE"] = ""
+L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR"] = "文本顏色"
+L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR_DESC"] = "更變工具提示文本上使用的顏色。"
+L["STRING_OPTIONS_TOOLTIPS_FONTFACE"] = "文本字體"
+L["STRING_OPTIONS_TOOLTIPS_FONTFACE_DESC"] = "選擇用於工具提示文本的字體。"
+L["STRING_OPTIONS_TOOLTIPS_FONTSHADOW_DESC"] = "啟用或禁用文本中的陰影。"
+L["STRING_OPTIONS_TOOLTIPS_FONTSIZE"] = "文本大小"
+L["STRING_OPTIONS_TOOLTIPS_FONTSIZE_DESC"] = "增加或減小工具提示文本的大小"
+L["STRING_OPTIONS_TOOLTIPS_IGNORESUBWALLPAPER"] = "子功能表牆紙"
+L["STRING_OPTIONS_TOOLTIPS_IGNORESUBWALLPAPER_DESC"] = "啟用後, 某些功能表可能會在子功能表上使用自己的牆紙。"
+L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE"] = "最大化方案"
 --Translation missing 
 -- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE1"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE2"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE3"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE4"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE5"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_MENU_WALLP"] = ""
+L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE2"] = "始終最大化"
+L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE3"] = "只限制Shift"
+L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE4"] = "只限制Ctrl"
+L["STRING_OPTIONS_TOOLTIPS_MAXIMIZE5"] = "只限制Alt"
+L["STRING_OPTIONS_TOOLTIPS_MENU_WALLP"] = "編輯功能表牆紙"
 --Translation missing 
 -- L["STRING_OPTIONS_TOOLTIPS_MENU_WALLP_DESC"] = ""
 --Translation missing 
@@ -1366,14 +1313,10 @@ L["STRING_OPTIONS_TOOLTIPS_BORDER_TEXTURE_DESC"] = "修改邊框材質文件。"
 -- L["STRING_OPTIONS_TOOLTIPS_OFFSETY"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_TOOLTIPS_OFFSETY_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_SHOWAMT"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_SHOWAMT_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_TITLE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_TOOLTIPS_TITLE_DESC"] = ""
+L["STRING_OPTIONS_TOOLTIPS_SHOWAMT"] = "顯示金額"
+L["STRING_OPTIONS_TOOLTIPS_SHOWAMT_DESC"] = "顯示一個數位, 指示工具提示中有多少法術、目標和寵物。"
+L["STRING_OPTIONS_TOOLTIPS_TITLE"] = "提示"
+L["STRING_OPTIONS_TOOLTIPS_TITLE_DESC"] = "這些選項控制工具提示的外觀。"
 --Translation missing 
 -- L["STRING_OPTIONS_TOTALBAR_ANCHOR"] = ""
 L["STRING_OPTIONS_TRASH_SUPPRESSION"] = "垃圾限制"
@@ -1394,8 +1337,7 @@ L["STRING_OPTIONS_TRASH_SUPPRESSION_DESC"] = "對於 |cFFFFFF00X|r 秒, 禁止�
 -- L["STRING_OPTIONS_WALLPAPER_CTOP"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_WALLPAPER_FILE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_WALLPAPER_GREEN"] = ""
+L["STRING_OPTIONS_WALLPAPER_GREEN"] = "綠色:"
 --Translation missing 
 -- L["STRING_OPTIONS_WALLPAPER_LOAD"] = ""
 --Translation missing 
@@ -1418,22 +1360,21 @@ L["STRING_OPTIONS_TRASH_SUPPRESSION_DESC"] = "對於 |cFFFFFF00X|r 秒, 禁止�
 -- L["STRING_OPTIONS_WALLPAPER_RED"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_WC_ANCHOR"] = ""
---Translation missing 
--- L["STRING_OPTIONS_WC_BOOKMARK"] = ""
---Translation missing 
--- L["STRING_OPTIONS_WC_BOOKMARK_DESC"] = ""
---Translation missing 
--- L["STRING_OPTIONS_WC_CLOSE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_WC_CLOSE_DESC"] = ""
+L["STRING_OPTIONS_WC_BOOKMARK"] = "管理書簽"
+L["STRING_OPTIONS_WC_BOOKMARK_DESC"] = "打開用於書簽的配置介面"
+L["STRING_OPTIONS_WC_CLOSE"] = "關閉"
+L["STRING_OPTIONS_WC_CLOSE_DESC"] = [=[關閉當前的編輯視窗。
+
+關閉時, 視窗被視為非活動的, 可以隨時使用 "視窗控制" 功能表重新打開。
+
+|cFFFFFF00重要:|r 若要完全刪除視窗, 請轉到 "視窗:一般" 分頁。]=]
 L["STRING_OPTIONS_WC_CREATE"] = "建立窗口"
 L["STRING_OPTIONS_WC_CREATE_DESC"] = "建立一個新窗口。"
 L["STRING_OPTIONS_WC_LOCK"] = "鎖定"
 L["STRING_OPTIONS_WC_LOCK_DESC"] = [=[鎖定或解鎖窗口。
 
 鎖定時，窗口不能移動。]=]
---Translation missing 
--- L["STRING_OPTIONS_WC_REOPEN"] = ""
+L["STRING_OPTIONS_WC_REOPEN"] = "重開"
 L["STRING_OPTIONS_WC_UNLOCK"] = "解鎖"
 --Translation missing 
 -- L["STRING_OPTIONS_WC_UNSNAP"] = ""
@@ -1487,21 +1428,15 @@ L["STRING_OPTIONSMENU_AUTOMATIC_TITLE"] = "視窗自動化設置"
 L["STRING_OPTIONSMENU_AUTOMATIC_TITLE_DESC"] = "這些設置控制視窗的自動行為, 如自動隱藏和自動切換。"
 --Translation missing 
 -- L["STRING_OPTIONSMENU_COMBAT"] = ""
---Translation missing 
--- L["STRING_OPTIONSMENU_DATACHART"] = ""
---Translation missing 
--- L["STRING_OPTIONSMENU_DATACOLLECT"] = ""
---Translation missing 
--- L["STRING_OPTIONSMENU_DATAFEED"] = ""
+L["STRING_OPTIONSMENU_DATACHART"] = "圖表化數據"
+L["STRING_OPTIONSMENU_DATACOLLECT"] = "資料收集器"
+L["STRING_OPTIONSMENU_DATAFEED"] = "資料摘要"
 L["STRING_OPTIONSMENU_DISPLAY"] = "顯示/視窗設定"
---Translation missing 
--- L["STRING_OPTIONSMENU_DISPLAY_DESC"] = ""
+L["STRING_OPTIONSMENU_DISPLAY_DESC"] = "全面的基本調整和快速視窗控制。"
 L["STRING_OPTIONSMENU_LEFTMENU"] = "標題列:一般"
---Translation missing 
--- L["STRING_OPTIONSMENU_MISC"] = ""
+L["STRING_OPTIONSMENU_MISC"] = "雜項"
 L["STRING_OPTIONSMENU_PERFORMANCE"] = "性能調整"
---Translation missing 
--- L["STRING_OPTIONSMENU_PLUGINS"] = ""
+L["STRING_OPTIONSMENU_PLUGINS"] = "擴充插件管理"
 L["STRING_OPTIONSMENU_PROFILES"] = "配置檔"
 L["STRING_OPTIONSMENU_RAIDTOOLS"] = "團隊工具"
 --Translation missing 
@@ -1513,15 +1448,12 @@ L["STRING_OPTIONSMENU_SKIN"] = "外觀選項"
 L["STRING_OPTIONSMENU_SPELLS"] = "法術客製化"
 L["STRING_OPTIONSMENU_SPELLS_CONSOLIDATE"] = "合併同名的常用法術"
 L["STRING_OPTIONSMENU_TITLETEXT"] = "標題列: 文本"
---Translation missing 
--- L["STRING_OPTIONSMENU_TOOLTIP"] = ""
+L["STRING_OPTIONSMENU_TOOLTIP"] = "提示工具"
 L["STRING_OPTIONSMENU_WALLPAPER"] = "視窗:壁紙"
 L["STRING_OPTIONSMENU_WINDOW"] = "視窗:一般"
 L["STRING_OVERALL"] = "整體"
---Translation missing 
--- L["STRING_OVERHEAL"] = ""
---Translation missing 
--- L["STRING_OVERHEALED"] = ""
+L["STRING_OVERHEAL"] = "過量治療"
+L["STRING_OVERHEALED"] = "已造成過量治療"
 --Translation missing 
 -- L["STRING_PARRY"] = ""
 L["STRING_PERCENTAGE"] = "百分比"
@@ -1562,8 +1494,7 @@ L["STRING_PLUGINOPTIONS_TEXTALIGN_Y"] = "文本對齊 Y"
 L["STRING_PLUGINOPTIONS_TEXTCOLOR"] = "文本顏色"
 L["STRING_PLUGINOPTIONS_TEXTSIZE"] = "字型大小"
 L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "文本樣式"
---Translation missing 
--- L["STRING_QUERY_INSPECT"] = ""
+L["STRING_QUERY_INSPECT"] = "檢查專精(天賦)和裝備等級。"
 L["STRING_QUERY_INSPECT_FAIL1"] = "在戰鬥中不能查詢。"
 L["STRING_QUERY_INSPECT_REFRESH"] = "需要刷新"
 L["STRING_RAID_WIDE"] = "[*] 團隊冷卻時間"
@@ -1610,8 +1541,7 @@ L["STRING_RESIZE_VERTICAL"] = [=[調整高度於群
 組中所有視窗]=]
 L["STRING_RIGHT"] = "右"
 L["STRING_RIGHT_TO_LEFT"] = "右到左"
---Translation missing 
--- L["STRING_RIGHTCLICK_CLOSE_LARGE"] = ""
+L["STRING_RIGHTCLICK_CLOSE_LARGE"] = "按一下滑鼠右鍵可關閉此視窗。"
 L["STRING_RIGHTCLICK_CLOSE_MEDIUM"] = "使用右鍵單擊關閉此窗口。"
 L["STRING_RIGHTCLICK_CLOSE_SHORT"] = "右鍵點擊關閉。"
 L["STRING_RIGHTCLICK_TYPEVALUE"] = "按右鍵可鍵入數值"
@@ -1644,7 +1574,7 @@ L["STRING_SLASH_CAPTUREOFF"] = "已關閉所有捕捉。"
 L["STRING_SLASH_CAPTUREON"] = "所有捕捉(器)都已打開。(即是所有記錄插件都運行)"
 L["STRING_SLASH_CHANGES"] = "更新"
 L["STRING_SLASH_CHANGES_ALIAS1"] = "新聞"
-L["STRING_SLASH_CHANGES_ALIAS2"] = "變化"
+L["STRING_SLASH_CHANGES_ALIAS2"] = "更變"
 L["STRING_SLASH_CHANGES_DESC"] = "顯示什麼是新的, Details!改變了什麼"
 L["STRING_SLASH_DISABLE"] = "禁用"
 L["STRING_SLASH_ENABLE"] = "啟用"
@@ -1708,36 +1638,35 @@ L["STRING_VOIDZONE_TOOLTIP"] = "傷害&時間"
 L["STRING_WAITPLUGIN"] = [=[等待
 插件]=]
 L["STRING_WAVE"] = "波"
---Translation missing 
--- L["STRING_WELCOME_1"] = ""
---Translation missing 
--- L["STRING_WELCOME_11"] = ""
---Translation missing 
--- L["STRING_WELCOME_12"] = ""
+L["STRING_WELCOME_1"] = [=[|cFFFFFFFF歡迎來到 Details! 快速設定精靈|r
+本指南將向説明您進行一些重要的配置。
+您可以隨時按一下 "跳過" 按鈕來跳過此項。
+※:繁化翻譯可能有誤筆,歡迎到curseforge的Details!>localization>Traditional Chinese一起協力完善翻譯^_^"!!]=]
+L["STRING_WELCOME_11"] = "如果你改變主意, 你總是可以通過選項面板再次修改"
+L["STRING_WELCOME_12"] = "選擇視窗更新的速度, 您還可以為 HPS 和 DPS 數字啟用動畫和即時更新。"
 --Translation missing 
 -- L["STRING_WELCOME_13"] = ""
---Translation missing 
--- L["STRING_WELCOME_14"] = ""
---Translation missing 
--- L["STRING_WELCOME_15"] = ""
---Translation missing 
--- L["STRING_WELCOME_16"] = ""
---Translation missing 
--- L["STRING_WELCOME_17"] = ""
---Translation missing 
--- L["STRING_WELCOME_2"] = ""
---Translation missing 
--- L["STRING_WELCOME_26"] = ""
---Translation missing 
--- L["STRING_WELCOME_27"] = ""
---Translation missing 
--- L["STRING_WELCOME_28"] = ""
---Translation missing 
--- L["STRING_WELCOME_29"] = ""
---Translation missing 
--- L["STRING_WELCOME_3"] = ""
---Translation missing 
--- L["STRING_WELCOME_30"] = ""
+L["STRING_WELCOME_14"] = "更新速度"
+L["STRING_WELCOME_15"] = [=[視窗中每個更新之間的間隔 (以秒為單位)。
+
+| cffffff00重要 | r: Youtubers  & Streamers 可能需要使用
+|cFFFF55000.05|r 為觀眾提供更多的娛樂。]=]
+L["STRING_WELCOME_16"] = "啟用動畫"
+L["STRING_WELCOME_17"] = [=[啟用後, 所有橫條圖將以左和右動畫顯示。
+
+|cffffff00重要|r:Youtubers & Streamers可能希望增加觀眾的娛樂。]=]
+L["STRING_WELCOME_2"] = "如果你改變主意, 你總是可以通過選項面板再次修改"
+L["STRING_WELCOME_26"] = "使用介面: 拉伸"
+L["STRING_WELCOME_27"] = [=[突顯按鈕的框架。|cFFFFFF00點擊|r and |cFFFFFF00拖動!|r.
+
+如果視窗已鎖定, 則整個標題列將變為拉伸按鈕。]=]
+L["STRING_WELCOME_28"] = "使用介面: 視窗控制項"
+L["STRING_WELCOME_29"] = [=[視窗控制基本上做兩件事:
+
+-打開 |cFFFFFF00新視窗|r.
+-顯示一個可以隨時重新打開的 |cFFFFFF00關閉視窗|r 的功能表。]=]
+L["STRING_WELCOME_3"] = "選擇您的 DPS & HPS 首選方法:"
+L["STRING_WELCOME_30"] = "使用介面: 書簽"
 --Translation missing 
 -- L["STRING_WELCOME_31"] = ""
 --Translation missing 
@@ -1746,18 +1675,13 @@ L["STRING_WAVE"] = "波"
 -- L["STRING_WELCOME_34"] = ""
 --Translation missing 
 -- L["STRING_WELCOME_36"] = ""
---Translation missing 
--- L["STRING_WELCOME_38"] = ""
+L["STRING_WELCOME_38"] = "準備團隊!"
 --Translation missing 
 -- L["STRING_WELCOME_39"] = ""
---Translation missing 
--- L["STRING_WELCOME_4"] = ""
---Translation missing 
--- L["STRING_WELCOME_41"] = ""
---Translation missing 
--- L["STRING_WELCOME_42"] = ""
---Translation missing 
--- L["STRING_WELCOME_43"] = ""
+L["STRING_WELCOME_4"] = "啟用時間:"
+L["STRING_WELCOME_41"] = "介面娛樂微調:"
+L["STRING_WELCOME_42"] = "快速外觀設置"
+L["STRING_WELCOME_43"] = "選擇您首選的外觀:"
 --Translation missing 
 -- L["STRING_WELCOME_44"] = ""
 --Translation missing 
@@ -1780,12 +1704,10 @@ L["STRING_WAVE"] = "波"
 -- L["STRING_WELCOME_61"] = ""
 --Translation missing 
 -- L["STRING_WELCOME_62"] = ""
---Translation missing 
--- L["STRING_WELCOME_63"] = ""
+L["STRING_WELCOME_63"] = "即時更新 DPS/HPS"
 --Translation missing 
 -- L["STRING_WELCOME_64"] = ""
---Translation missing 
--- L["STRING_WELCOME_65"] = ""
+L["STRING_WELCOME_65"] = "按右鍵!"
 --Translation missing 
 -- L["STRING_WELCOME_66"] = ""
 --Translation missing 
@@ -1803,8 +1725,7 @@ L["STRING_WELCOME_72"] = "窗口設定"
 L["STRING_WINDOW_NOTFOUND"] = "沒有找到窗口。"
 L["STRING_WINDOW_NUMBER"] = "視窗數"
 L["STRING_WINDOW1ATACH_DESC"] = "要創建窗口組，請拖拽窗口 #2 到窗口 #1 旁"
---Translation missing 
--- L["STRING_WIPE_ALERT"] = ""
+L["STRING_WIPE_ALERT"] = "團隊隊長呼叫(RL Call): 清除!"
 --Translation missing 
 -- L["STRING_WIPE_ERROR1"] = ""
 L["STRING_WIPE_ERROR2"] = "我們正處於一場團隊副本首領戰鬥之中"
