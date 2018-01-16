@@ -27,15 +27,19 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1515743290,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|260756784"] = "127018|1515987781|0|0",
+				},
+				["lastUpdate"] = 1515988086,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-01-14|19:00|Mythic Antorus|1|9", -- [1]
-					"2018-01-15|19:00|Raid Night!|1|9", -- [2]
-					"2018-01-18|19:00|Heroic Antorus|1|9", -- [3]
+					"2018-01-18|19:00|Heroic Antorus|1|9", -- [1]
 				},
-				["lastUpdate"] = 1515838895,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Mythic|343708560"] = "26406|1516088391|0|1",
+				},
+				["lastUpdate"] = 1516088604,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -44,10 +48,16 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1514954193,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|343728689"] = "243385|1515871401|0|0",
+				},
+				["lastUpdate"] = 1515871427,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1514953440,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|678810669"] = "26703|1516088094|0|0",
+				},
+				["lastUpdate"] = 1516088278,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -57,12 +67,15 @@ DataStore_AgendaDB = {
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343673079"] = "455945|1515658847|0|0",
+					["Maw of Souls Mythic|343673079"] = "128238|1515986564|0|0",
 				},
-				["lastUpdate"] = 1515658865,
+				["lastUpdate"] = 1515986560,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1515044516,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|343645362"] = "243306|1515871481|0|0",
+				},
+				["lastUpdate"] = 1515871492,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427638,
@@ -72,28 +85,30 @@ DataStore_AgendaDB = {
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343674901"] = "370147|1515744642|0|0",
+					["Maw of Souls Mythic|343674901"] = "127194|1515987605|0|0",
 				},
-				["lastUpdate"] = 1515744642,
+				["lastUpdate"] = 1515987712,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343711935"] = "372785|1515742004|0|0",
+					["Maw of Souls Mythic|343711935"] = "128201|1515986599|0|0",
 				},
-				["lastUpdate"] = 1515742004,
+				["lastUpdate"] = 1515986671,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1515292975,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|260759087"] = "243337|1515871450|0|0",
+				},
+				["lastUpdate"] = 1515871450,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["ChallengeMode"] = {
-					["weeklyBestLevel"] = 3,
-					["weeklyBestTime"] = 1332970,
+				["DungeonIDs"] = {
+					["Maw of Souls Mythic|284461297"] = "133807|1515980992|0|0",
 				},
-				["lastUpdate"] = 1515289373,
+				["lastUpdate"] = 1515981648,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1515289515,
+				["lastUpdate"] = 1515871543,
 			},
 		},
 	},

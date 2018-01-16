@@ -84,8 +84,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/12/06 22:59",
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1514017192,
-				["lastVisitDate"] = "2017/12/23 00:19",
+				["lastUpdate"] = 1516088276,
+				["lastVisitDate"] = "2018/01/15 23:37",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427640,
@@ -105,6 +105,26 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1512794565,
+				["Mails"] = {
+					{
+						["sender"] = "Faerand",
+						["itemID"] = 153157,
+						["link"] = "|cff0070dd|Hitem:153157::::::::110:253::::::|h[Unsullied Plate Gauntlets]|h|r",
+						["count"] = 1,
+						["icon"] = 359499,
+						["lastCheck"] = 1516088275,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Faerand",
+						["itemID"] = 153155,
+						["link"] = "|cff0070dd|Hitem:153155::::::::110:253::11::::|h[Unsullied Plate Helmet]|h|r",
+						["count"] = 1,
+						["icon"] = 359500,
+						["lastCheck"] = 1516088275,
+						["daysLeft"] = 30,
+					}, -- [2]
+				},
 				["lastVisitDate"] = "2017/12/08 20:42",
 			},
 			["Default.Proudmoore.Praerend"] = {

@@ -41,8 +41,6 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["DataSource"] = {
-		},
 		["ItemSets"] = {
 			["char"] = {
 				["Mallusof - Tichondrius"] = {
@@ -84,6 +82,8 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
 		["Equipment"] = {
@@ -95,21 +95,21 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Kaldorath - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Greybone - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

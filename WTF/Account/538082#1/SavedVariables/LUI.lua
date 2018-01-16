@@ -38,7 +38,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 910471080,
+							["Mallusof"] = 907982083,
 						},
 					},
 				},
@@ -55,18 +55,18 @@ LUIDB = {
 							["Morifa"] = 560553324,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 196309088,
-							["Farahn"] = 40132991,
-							["Greybone"] = 109442560,
-							["Amranar"] = 596326171,
-							["Granjior"] = 526490822,
-							["Kaldorath"] = 336544783,
-							["Faerand"] = 184122656,
+							["Miriyal"] = 198912561,
+							["Farahn"] = 40916481,
+							["Greybone"] = 114053379,
+							["Amranar"] = 598981607,
+							["Granjior"] = 531223249,
+							["Kaldorath"] = 356681774,
+							["Faerand"] = 195297850,
 							["Mallusof"] = 1162234125,
-							["Fimwack"] = 337781836,
+							["Fimwack"] = 340808712,
 							["Morifa"] = 560270717,
 							["Rahran"] = 287916910,
-							["Praerend"] = 543871604,
+							["Praerend"] = 544314345,
 						},
 					},
 				},
@@ -146,14 +146,20 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
+					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
-					},
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -181,20 +187,22 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 				},
 			},
 			["profiles"] = {
+				["Default"] = {
+					["Player"] = {
+						["Bars"] = {
+							["ClassIcons"] = {
+							},
+						},
+					},
+				},
 				["Base"] = {
 					["Party"] = {
 						["Enable"] = false,
@@ -730,14 +738,6 @@ LUIDB = {
 					},
 				},
 				["Zaliga - Bleeding Hollow"] = {
-					["Player"] = {
-						["Bars"] = {
-							["ClassIcons"] = {
-							},
-						},
-					},
-				},
-				["Default"] = {
 					["Player"] = {
 						["Bars"] = {
 							["ClassIcons"] = {
@@ -2095,73 +2095,73 @@ LUIDB = {
 				},
 				["EditBox"] = {
 					["factionrealm"] = {
-						["Alliance - Proudmoore"] = {
-							"/reloadui", -- [1]
-							"/p done", -- [2]
-							"/p 4 quick maws", -- [3]
-							"/pet", -- [4]
-							"/p summon", -- [5]
-							"/p Any of you druid able to go bear?", -- [6]
-							"/p there we go :)", -- [7]
-							"/p my bad", -- [8]
-							"/p but awesome :P", -- [9]
-							"/p welcome", -- [10]
-							"/p I'm at stone need 1 more for summon", -- [11]
-							"/p might as well get 1 more", -- [12]
-							"/p fun fact", -- [13]
-							"/p Thanks alot guys!", -- [14]
-							"/p Hello", -- [15]
-							"/p help summon", -- [16]
-							"/2 No, that's the generals job", -- [17]
-							"/p done", -- [18]
-							"/pet", -- [19]
-							"/p Any of you druid able to go bear?", -- [20]
-							"/p my bad", -- [21]
-							"/p welcome", -- [22]
-							"/p might as well get 1 more", -- [23]
-							"/p Thanks alot guys!", -- [24]
-							"/p help summon", -- [25]
-							"/p done", -- [26]
-							"/p Any of you druid able to go bear?", -- [27]
-							"/p welcome", -- [28]
-							"/p Thanks alot guys!", -- [29]
-							"/p done", -- [30]
-							"/p welcome", -- [31]
-							"/p done", -- [32]
-						},
 						["Alliance - Tichondrius"] = {
-							"/hmw", -- [1]
-							"/g cya buds", -- [2]
-							"/p lawl", -- [3]
-							"/p ty guys", -- [4]
-							"/p are BIS stats", -- [5]
-							"/g Goodnight", -- [6]
-							"/p because monk", -- [7]
-							"/cw Kaligon-Tichondrius If you need heals, text", -- [8]
-							"/cw Kaligon-Tichondrius do you have my number?", -- [9]
-							"/g cya buds", -- [10]
-							"/p ty guys", -- [11]
-							"/g Goodnight", -- [12]
-							"/cw Kaligon-Tichondrius If you need heals, text", -- [13]
-							"/g cya buds", -- [14]
-							"/g Goodnight", -- [15]
-							"/g cya buds", -- [16]
-							"/hmw", -- [17]
-							"/p lawl", -- [18]
-							"/p are BIS stats", -- [19]
-							"/p because monk", -- [20]
-							"/cw Kaligon-Tichondrius do you have my number?", -- [21]
-							"/p ty guys", -- [22]
-							"/cw Kaligon-Tichondrius If you need heals, text", -- [23]
-							"/g Goodnight", -- [24]
-							"/hmw", -- [25]
-							"/p are BIS stats", -- [26]
-							"/cw Kaligon-Tichondrius do you have my number?", -- [27]
-							"/cw Kaligon-Tichondrius If you need heals, text", -- [28]
-							"/hmw", -- [29]
-							"/cw Kaligon-Tichondrius do you have my number?", -- [30]
-							"/hmw", -- [31]
-							"/g thanks", -- [32]
+							"/g that guy", -- [1]
+							"/raid there was only me", -- [2]
+							"/4 I hate this fight", -- [3]
+							"/raid I didnt this time", -- [4]
+							"/raid never again", -- [5]
+							"/raid share the imonar quest", -- [6]
+							"/cw Celaniia-Tichondrius This fight is so yuck", -- [7]
+							"/raid someone", -- [8]
+							"/raid the imonar mythic quest", -- [9]
+							"/raid where do I pick it up", -- [10]
+							"/raid qq", -- [11]
+							"/raid Thanks for my mythic kill of this boss", -- [12]
+							"/raid fuck this boss lol", -- [13]
+							"/raid Overall", -- [14]
+							"/g yea", -- [15]
+							"/g This guy", -- [16]
+							"/g Kali", -- [17]
+							"/raid there was only me", -- [18]
+							"/raid I didnt this time", -- [19]
+							"/raid share the imonar quest", -- [20]
+							"/raid someone", -- [21]
+							"/raid where do I pick it up", -- [22]
+							"/raid Thanks for my mythic kill of this boss", -- [23]
+							"/raid Overall", -- [24]
+							"/g This guy", -- [25]
+							"/raid there was only me", -- [26]
+							"/raid share the imonar quest", -- [27]
+							"/raid where do I pick it up", -- [28]
+							"/raid Overall", -- [29]
+							"/raid there was only me", -- [30]
+							"/raid where do I pick it up", -- [31]
+							"/raid there was only me", -- [32]
+						},
+						["Alliance - Proudmoore"] = {
+							" when you need me", -- [1]
+							"/p We're in", -- [2]
+							"/p it's heroic", -- [3]
+							"/p We're in", -- [4]
+							" ofc", -- [5]
+							"/macro", -- [6]
+							" ofc", -- [7]
+							"/p We're in", -- [8]
+							"/macro", -- [9]
+							"/p We're in", -- [10]
+							" poking again", -- [11]
+							" you did it", -- [12]
+							" How is it going?", -- [13]
+							" when you need me", -- [14]
+							"/p it's heroic", -- [15]
+							" ofc", -- [16]
+							"/p We're in", -- [17]
+							" poking again", -- [18]
+							" How is it going?", -- [19]
+							"/p it's heroic", -- [20]
+							"/p We're in", -- [21]
+							" How is it going?", -- [22]
+							"/p We're in", -- [23]
+							"/p hello!", -- [24]
+							"/p I need 2 more", -- [25]
+							"/p is it reset?", -- [26]
+							"/p just get a DPS, we should be fine )_", -- [27]
+							"/p the druid healer then", -- [28]
+							"/p is it resset?", -- [29]
+							"/p awesome", -- [30]
+							"/p ty!", -- [31]
+							"/p have a good one! :()\\", -- [32]
 						},
 					},
 					["profiles"] = {

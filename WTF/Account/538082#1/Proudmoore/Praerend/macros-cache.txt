@@ -1,6 +1,13 @@
 VER 3 0100000000000003 "buy" "INV_MISC_QUESTIONMARK"
 /run BuyMerchantItem(27) 
 END
+VER 3 0100000000000004 "Fury Cooldowns" "132344"
+/use 13
+/use 14
+/cast battle Cry
+/cast Avatar
+/cast Odyn's Fury
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

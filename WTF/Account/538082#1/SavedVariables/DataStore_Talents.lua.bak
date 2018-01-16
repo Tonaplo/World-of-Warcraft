@@ -29,14 +29,14 @@ DataStore_TalentsDB = {
 					11963, -- [2]
 					14745, -- [3]
 				},
-				["lastUpdate"] = 1515743250,
+				["lastUpdate"] = 1515987781,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Scepter of Sargeras"] = {
 						["tier"] = 2,
-						["rank"] = 64,
-						["pointsRemaining"] = 77623203970,
+						["rank"] = 67,
+						["pointsRemaining"] = 24065205470,
 					},
 					["Ulthalesh, the Deadwind Harvester"] = {
 						["tier"] = 2,
@@ -54,7 +54,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 235790962146,
+						["pointsRemaining"] = 245240963646,
 						["rank"] = 75,
 						["tier"] = 2,
 					},
@@ -75,10 +75,10 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1515838262,
+				["lastUpdate"] = 1515996190,
 				["Specializations"] = {
 					13718, -- [1]
-					9893, -- [2]
+					10103, -- [2]
 					6554, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
@@ -104,7 +104,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1515289445,
+				["lastUpdate"] = 1515871516,
 				["Specializations"] = {
 					7670, -- [1]
 					6582, -- [2]
@@ -122,13 +122,13 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["The Aldrachi Warblades"] = {
-						["pointsRemaining"] = 5585977820,
+						["pointsRemaining"] = 17870979720,
 						["rank"] = 64,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1515044522,
+				["lastUpdate"] = 1515871479,
 				["Specializations"] = {
 					15770, -- [1]
 					6997, -- [2]
@@ -137,14 +137,14 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fists of the Heavens",
+				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					7646, -- [1]
 					10709, -- [2]
 					7662, -- [3]
 				},
-				["lastUpdate"] = 1515289284,
+				["lastUpdate"] = 1515980992,
 				["Class"] = "MONK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -155,8 +155,8 @@ DataStore_TalentsDB = {
 					},
 					["Fu Zan, the Wanderer's Companion"] = {
 						["tier"] = 2,
-						["rank"] = 65,
-						["pointsRemaining"] = 25511178560,
+						["rank"] = 66,
+						["pointsRemaining"] = 13645679910,
 					},
 					["Fists of the Heavens"] = {
 						["tier"] = 2,
@@ -188,14 +188,14 @@ DataStore_TalentsDB = {
 					["Warswords of the Valarjar"] = {
 						["rank"] = 56,
 						["tier"] = 2,
-						["pointsRemaining"] = 1607036320,
+						["pointsRemaining"] = 11687037920,
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1515744642,
+				["lastUpdate"] = 1515987705,
 				["Specializations"] = {
 					5533, -- [1]
-					11869, -- [2]
+					11893, -- [2]
 					10713, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
@@ -209,7 +209,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1515292556,
+				["lastUpdate"] = 1515871450,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -226,7 +226,7 @@ DataStore_TalentsDB = {
 					["Maw of the Damned"] = {
 						["tier"] = 2,
 						["rank"] = 66,
-						["pointsRemaining"] = 61039117230,
+						["pointsRemaining"] = 73639119230,
 					},
 				},
 			},
@@ -245,12 +245,12 @@ DataStore_TalentsDB = {
 					},
 					["Truthguard"] = {
 						["tier"] = 2,
-						["rank"] = 64,
-						["pointsRemaining"] = 16390931270,
+						["rank"] = 66,
+						["pointsRemaining"] = 545934520,
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1514954081,
+				["lastUpdate"] = 1515871401,
 				["Specializations"] = {
 					9558, -- [1]
 					6814, -- [2]
@@ -268,7 +268,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 3242006770,
 					},
 					["Titanstrike"] = {
-						["pointsRemaining"] = 10468664815,
+						["pointsRemaining"] = 26250167315,
 						["rank"] = 66,
 						["tier"] = 2,
 					},
@@ -279,7 +279,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "HUNTER",
-				["lastUpdate"] = 1514953433,
+				["lastUpdate"] = 1516088077,
 				["Specializations"] = {
 					13719, -- [1]
 					15317, -- [2]
@@ -308,7 +308,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1515742004,
+				["lastUpdate"] = 1515986598,
 				["Specializations"] = {
 					9561, -- [1]
 					9631, -- [2]
@@ -354,7 +354,7 @@ DataStore_TalentsDB = {
 				["Class"] = "ROGUE",
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["EquippedArtifact"] = "Claws of Ursoc",
+				["EquippedArtifact"] = "Fangs of Ashamane",
 				["Artifacts"] = {
 					["Claws of Ursoc"] = {
 						["pointsRemaining"] = 5905709665,
@@ -378,7 +378,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1515658813,
+				["lastUpdate"] = 1515986560,
 				["Specializations"] = {
 					14043, -- [1]
 					5466, -- [2]
