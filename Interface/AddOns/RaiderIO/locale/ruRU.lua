@@ -43,6 +43,14 @@ L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
 L["MAINS_SCORE"] = "Очки мейна"
 L["MAINS_SCORE_COLON"] = "Очки мейна"
+--Translation missing 
+-- L["MODULE_AMERICAS"] = ""
+--Translation missing 
+-- L["MODULE_EUROPE"] = ""
+--Translation missing 
+-- L["MODULE_KOREA"] = ""
+--Translation missing 
+-- L["MODULE_TAIWAN"] = ""
 L["MYTHIC_PLUS_DB_MODULES"] = "Региональные модули базы данных очков"
 L["MYTHIC_PLUS_SCORES"] = "Очки эпохальных+ подземелий"
 L["OPEN_CONFIG"] = "Открыть настройки"

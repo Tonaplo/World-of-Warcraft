@@ -5,13 +5,3547 @@ _detalhes_database = {
 	["mythic_dungeon_id"] = 0,
 	["tabela_historico"] = {
 		["tabelas"] = {
+			{
+				{
+					["combatId"] = 39,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002483,
+							["spec"] = 72,
+							["damage_from"] = {
+								["Talrendis Biologist"] = true,
+							},
+							["targets"] = {
+								["Talrendis Biologist"] = 2302,
+							},
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1516178153,
+							["classe"] = "WARRIOR",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2302.002483,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 2302.002483,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 122,
+										["targets"] = {
+											["Talrendis Biologist"] = 543,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 543,
+										["n_min"] = 58,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 543,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[96103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 205,
+										["targets"] = {
+											["Talrendis Biologist"] = 315,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 315,
+										["n_min"] = 110,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 315,
+										["c_max"] = 0,
+										["id"] = 96103,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 73,
+										["targets"] = {
+											["Talrendis Biologist"] = 73,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73,
+										["n_min"] = 73,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 73,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[23881] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 642,
+										["g_amt"] = 0,
+										["n_max"] = 331,
+										["targets"] = {
+											["Talrendis Biologist"] = 973,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 331,
+										["n_min"] = 331,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 973,
+										["c_max"] = 642,
+										["id"] = 23881,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 642,
+									},
+									[100130] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 205,
+										["targets"] = {
+											["Talrendis Biologist"] = 398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 398,
+										["n_min"] = 193,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 398,
+										["c_max"] = 0,
+										["id"] = 100130,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-73-0A665491",
+							["last_dps"] = 172.5768410675,
+							["custom"] = 0,
+							["last_event"] = 1516178153,
+							["damage_taken"] = 720.002483,
+							["start_time"] = 1516178145,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 39,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Gorog"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.002369,
+							["total_without_pet"] = 330.002369,
+							["total"] = 330.002369,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0A665491",
+							["totalabsorb"] = 0.002369,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Gorog"] = 330,
+							},
+							["totalover_without_pet"] = 0.002369,
+							["healing_taken"] = 330.002369,
+							["fight_component"] = true,
+							["end_time"] = 1516178153,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[117313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 132,
+										["targets"] = {
+											["Gorog"] = 264,
+										},
+										["n_min"] = 132,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 264,
+										["c_max"] = 0,
+										["id"] = 117313,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 264,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 66,
+										["targets"] = {
+											["Gorog"] = 66,
+										},
+										["n_min"] = 66,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 66,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1516178145,
+							["custom"] = 0,
+							["last_event"] = 1516178153,
+							["spec"] = 72,
+							["totaldenied"] = 0.002369,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 39,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 45.00226,
+							["resource"] = 0.00226,
+							["targets"] = {
+								["Gorog"] = 45,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARRIOR",
+							["fight_component"] = true,
+							["total"] = 45.00226,
+							["nome"] = "Gorog",
+							["spec"] = 72,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1516178151,
+							["alternatepower"] = 0.00226,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100] = {
+										["id"] = 100,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[85288] = {
+										["id"] = 85288,
+										["total"] = 5,
+										["targets"] = {
+											["Gorog"] = 5,
+										},
+										["counter"] = 1,
+									},
+									[23881] = {
+										["id"] = 23881,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 39,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = 0,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[236027] = {
+										["activedamt"] = 0,
+										["id"] = 236027,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 26,
+							["cc_done_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["id"] = 105771,
+										["targets"] = {
+											["Talrendis Biologist"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[229388] = {
+										["activedamt"] = 1,
+										["id"] = 229388,
+										["targets"] = {
+										},
+										["actived_at"] = 1516178139,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									[109128] = {
+										["activedamt"] = 1,
+										["id"] = 109128,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[206333] = {
+										["activedamt"] = 1,
+										["id"] = 206333,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[184362] = {
+										["activedamt"] = 1,
+										["id"] = 184362,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["cc_done"] = 1.007024,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 72,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[96103] = 1,
+								[85288] = 1,
+								[23881] = 2,
+								[100130] = 2,
+								[126664] = 1,
+								[100] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["cc_done_targets"] = {
+								["Talrendis Biologist"] = 1,
+							},
+							["last_event"] = 1516178153,
+							["nome"] = "Gorog",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 39,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Gorog"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Talrendis Biologist",
+				["combat_counter"] = 86,
+				["playing_solo"] = true,
+				["totals"] = {
+					2301.99789, -- [1]
+					330, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Gorog"] = 330.002369,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Gorog"] = 2302.002483,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16533.582,
+				["combat_id"] = 39,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Talrendis Biologist"] = 1,
+				},
+				["data_fim"] = "00:35:53",
+				["data_inicio"] = "00:35:40",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2302, -- [1]
+					330, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 16520.243,
+				["contra"] = "Talrendis Biologist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.002483, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						526, -- [6]
+						0, -- [7]
+						251, -- [8]
+						205, -- [9]
+						0, -- [10]
+						764, -- [11]
+						379, -- [12]
+						116, -- [13]
+						["max_value"] = 764,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						526, -- [6]
+						0, -- [7]
+						251, -- [8]
+						205, -- [9]
+						0, -- [10]
+						764, -- [11]
+						379, -- [12]
+						116, -- [13]
+						["max_value"] = 764,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 38,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003251,
+							["damage_from"] = {
+								["Talrendis Biologist"] = true,
+							},
+							["targets"] = {
+								["Talrendis Biologist"] = 5100,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5100.003251,
+							["end_time"] = 1516178120,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 5100.003251,
+							["classe"] = "WARRIOR",
+							["on_hold"] = false,
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 143,
+										["g_amt"] = 0,
+										["n_max"] = 146,
+										["targets"] = {
+											["Talrendis Biologist"] = 801,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 658,
+										["n_min"] = 66,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 801,
+										["c_max"] = 143,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 143,
+									}, -- [1]
+									[5308] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 282,
+										["targets"] = {
+											["Talrendis Biologist"] = 282,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 282,
+										["n_min"] = 282,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 282,
+										["c_max"] = 0,
+										["id"] = 5308,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[96103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 231,
+										["targets"] = {
+											["Talrendis Biologist"] = 351,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 351,
+										["n_min"] = 120,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 351,
+										["c_max"] = 0,
+										["id"] = 96103,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[23881] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 804,
+										["g_amt"] = 0,
+										["n_max"] = 400,
+										["targets"] = {
+											["Talrendis Biologist"] = 1918,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1114,
+										["n_min"] = 317,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1918,
+										["c_max"] = 804,
+										["id"] = 23881,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 804,
+									},
+									[100130] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 219,
+										["targets"] = {
+											["Talrendis Biologist"] = 802,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 802,
+										["n_min"] = 184,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 802,
+										["c_max"] = 0,
+										["id"] = 100130,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 73,
+										["targets"] = {
+											["Talrendis Biologist"] = 73,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 73,
+										["n_min"] = 73,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 73,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[218617] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 266,
+										["targets"] = {
+											["Talrendis Biologist"] = 873,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 873,
+										["n_min"] = 85,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 873,
+										["c_max"] = 0,
+										["id"] = 218617,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 72,
+							["serial"] = "Player-73-0A665491",
+							["last_dps"] = 318.770126320399,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 1394.003251,
+							["start_time"] = 1516178104,
+							["delay"] = 0,
+							["last_event"] = 1516178120,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 38,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.006103,
+							["total_without_pet"] = 657.006103,
+							["total"] = 657.006103,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0A665491",
+							["totalabsorb"] = 0.006103,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Gorog"] = 657,
+							},
+							["totalover_without_pet"] = 0.006103,
+							["healing_taken"] = 657.006103,
+							["fight_component"] = true,
+							["end_time"] = 1516178120,
+							["start_time"] = 1516178105,
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[117313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 132,
+										["targets"] = {
+											["Gorog"] = 525,
+										},
+										["n_min"] = 131,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 525,
+										["c_max"] = 0,
+										["id"] = 117313,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 525,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 66,
+										["targets"] = {
+											["Gorog"] = 132,
+										},
+										["n_min"] = 66,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 132,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 132,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Gorog"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 72,
+							["totaldenied"] = 0.006103,
+							["delay"] = 0,
+							["last_event"] = 1516178120,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 38,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 45.00643,
+							["resource"] = 0.00643,
+							["targets"] = {
+								["Gorog"] = 45,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARRIOR",
+							["fight_component"] = true,
+							["total"] = 45.00643,
+							["nome"] = "Gorog",
+							["spec"] = 72,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1516178120,
+							["alternatepower"] = 0.00643,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[23881] = {
+										["id"] = 23881,
+										["total"] = 40,
+										["targets"] = {
+											["Gorog"] = 40,
+										},
+										["counter"] = 4,
+									},
+									[85288] = {
+										["id"] = 85288,
+										["total"] = 5,
+										["targets"] = {
+											["Gorog"] = 5,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 38,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = 0,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[236027] = {
+										["activedamt"] = 0,
+										["id"] = 236027,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 45,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[109128] = {
+										["activedamt"] = 0,
+										["id"] = 109128,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[184362] = {
+										["activedamt"] = 2,
+										["id"] = 184362,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[20572] = {
+										["activedamt"] = 1,
+										["id"] = 20572,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[206333] = {
+										["activedamt"] = 2,
+										["id"] = 206333,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 2,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 7,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 72,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[5308] = 1,
+								[96103] = 1,
+								[85288] = 1,
+								[184367] = 1,
+								[23881] = 4,
+								[100130] = 4,
+								[126664] = 1,
+								[20572] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1516178120,
+							["nome"] = "Gorog",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 38,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Gorog"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Talrendis Biologist",
+				["combat_counter"] = 85,
+				["playing_solo"] = true,
+				["totals"] = {
+					5099.993726, -- [1]
+					657, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Gorog"] = {
+						{
+							true, -- [1]
+							80917, -- [2]
+							17, -- [3]
+							1516178121.797, -- [4]
+							2033, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							80917, -- [2]
+							18, -- [3]
+							1516178121.797, -- [4]
+							2015, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							80917, -- [2]
+							18, -- [3]
+							1516178122.797, -- [4]
+							1997, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							80917, -- [2]
+							18, -- [3]
+							1516178122.797, -- [4]
+							1979, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							80917, -- [2]
+							17, -- [3]
+							1516178123.707, -- [4]
+							1995, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							80917, -- [2]
+							17, -- [3]
+							1516178123.837, -- [4]
+							1978, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							80917, -- [2]
+							17, -- [3]
+							1516178124.787, -- [4]
+							1961, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							80917, -- [2]
+							14, -- [3]
+							1516178124.787, -- [4]
+							1947, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+							true, -- [1]
+							80917, -- [2]
+							14, -- [3]
+							1516178125.727, -- [4]
+							1966, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [9]
+						{
+							true, -- [1]
+							80917, -- [2]
+							14, -- [3]
+							1516178125.847, -- [4]
+							1952, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [10]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178137.177, -- [4]
+							2007, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [11]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178138.177, -- [4]
+							1995, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [12]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178139.087, -- [4]
+							1983, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 14,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Gorog"] = 657.006103,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Gorog"] = 5100.003251,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16501.245,
+				["combat_id"] = 38,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Talrendis Biologist"] = 2,
+				},
+				["data_fim"] = "00:35:21",
+				["data_inicio"] = "00:35:05",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					5100, -- [1]
+					657, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 16485.246,
+				["contra"] = "Talrendis Biologist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						507.003251, -- [1]
+						259, -- [2]
+						0, -- [3]
+						184, -- [4]
+						546, -- [5]
+						66, -- [6]
+						376, -- [7]
+						848, -- [8]
+						127, -- [9]
+						282, -- [10]
+						0, -- [11]
+						397, -- [12]
+						219, -- [13]
+						0, -- [14]
+						485, -- [15]
+						["max_value"] = 848,
+					},
+					["Raid Damage Done"] = {
+						507, -- [1]
+						259, -- [2]
+						0, -- [3]
+						184, -- [4]
+						546, -- [5]
+						66, -- [6]
+						376, -- [7]
+						848, -- [8]
+						127, -- [9]
+						282, -- [10]
+						0, -- [11]
+						397, -- [12]
+						219, -- [13]
+						0, -- [14]
+						485, -- [15]
+						["max_value"] = 848,
+					},
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 37,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006266,
+							["total"] = 2349.006266,
+							["damage_from"] = {
+								["Talrendis Biologist"] = true,
+							},
+							["targets"] = {
+								["Talrendis Biologist"] = 2349,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "WARRIOR",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2349.006266,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1516178103,
+							["on_hold"] = false,
+							["spec"] = 72,
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 252,
+										["g_amt"] = 0,
+										["n_max"] = 131,
+										["targets"] = {
+											["Talrendis Biologist"] = 505,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 253,
+										["n_min"] = 57,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 505,
+										["c_max"] = 252,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 252,
+									}, -- [1]
+									[57755] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 115,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Talrendis Biologist"] = 115,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 115,
+										["c_max"] = 115,
+										["id"] = 57755,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 115,
+									},
+									[96103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 205,
+										["targets"] = {
+											["Talrendis Biologist"] = 305,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 305,
+										["n_min"] = 100,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 305,
+										["c_max"] = 0,
+										["id"] = 96103,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[23881] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 689,
+										["g_amt"] = 0,
+										["n_max"] = 328,
+										["targets"] = {
+											["Talrendis Biologist"] = 1017,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 328,
+										["n_min"] = 328,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1017,
+										["c_max"] = 689,
+										["id"] = 23881,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 689,
+									},
+									[100130] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 207,
+										["targets"] = {
+											["Talrendis Biologist"] = 407,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 407,
+										["n_min"] = 200,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 407,
+										["c_max"] = 0,
+										["id"] = 100130,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-73-0A665491",
+							["last_dps"] = 194.760489677507,
+							["custom"] = 0,
+							["last_event"] = 1516178101,
+							["damage_taken"] = 317.006266,
+							["start_time"] = 1516178090,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 37,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Gorog"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.005861,
+							["total_without_pet"] = 329.005861,
+							["total"] = 329.005861,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0A665491",
+							["totalabsorb"] = 0.005861,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Gorog"] = 329,
+							},
+							["totalover_without_pet"] = 0.005861,
+							["healing_taken"] = 329.005861,
+							["fight_component"] = true,
+							["end_time"] = 1516178103,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[117313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 132,
+										["targets"] = {
+											["Gorog"] = 263,
+										},
+										["n_min"] = 131,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 263,
+										["c_max"] = 0,
+										["id"] = 117313,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 263,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 66,
+										["targets"] = {
+											["Gorog"] = 66,
+										},
+										["n_min"] = 66,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 66,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1516178094,
+							["custom"] = 0,
+							["last_event"] = 1516178101,
+							["spec"] = 72,
+							["totaldenied"] = 0.005861,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 37,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 45.002183,
+							["resource"] = 0.002183,
+							["targets"] = {
+								["Gorog"] = 45,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARRIOR",
+							["fight_component"] = true,
+							["total"] = 45.002183,
+							["nome"] = "Gorog",
+							["spec"] = 72,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1516178104,
+							["alternatepower"] = 0.002183,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100] = {
+										["id"] = 100,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[85288] = {
+										["id"] = 85288,
+										["total"] = 5,
+										["targets"] = {
+											["Gorog"] = 5,
+										},
+										["counter"] = 1,
+									},
+									[23881] = {
+										["id"] = 23881,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 37,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[355] = {
+										["activedamt"] = 0,
+										["id"] = 355,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 21,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[184362] = {
+										["activedamt"] = 1,
+										["id"] = 184362,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[206333] = {
+										["activedamt"] = 1,
+										["id"] = 206333,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 3,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 72,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[85288] = 1,
+								[96103] = 1,
+								[100130] = 2,
+								[23881] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1516178103,
+							["nome"] = "Gorog",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 37,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Gorog"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Talrendis Biologist",
+				["combat_counter"] = 84,
+				["playing_solo"] = true,
+				["totals"] = {
+					2348.994692, -- [1]
+					329, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Gorog"] = {
+						{
+							true, -- [1]
+							80917, -- [2]
+							13, -- [3]
+							1516178103.259, -- [4]
+							2533, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							80917, -- [2]
+							13, -- [3]
+							1516178104.261, -- [4]
+							2554, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Gorog"] = 329.005861,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Gorog"] = 2349.006266,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16483.427,
+				["combat_id"] = 37,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Talrendis Biologist"] = 1,
+				},
+				["data_fim"] = "00:35:03",
+				["data_inicio"] = "00:34:51",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2349, -- [1]
+					329, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 16471.366,
+				["contra"] = "Talrendis Biologist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						115.006266, -- [1]
+						0, -- [2]
+						0, -- [3]
+						645, -- [4]
+						0, -- [5]
+						200, -- [6]
+						207, -- [7]
+						0, -- [8]
+						689, -- [9]
+						305, -- [10]
+						131, -- [11]
+						57, -- [12]
+						["max_value"] = 689,
+					},
+					["Raid Damage Done"] = {
+						115, -- [1]
+						0, -- [2]
+						0, -- [3]
+						645, -- [4]
+						0, -- [5]
+						200, -- [6]
+						207, -- [7]
+						0, -- [8]
+						689, -- [9]
+						305, -- [10]
+						131, -- [11]
+						57, -- [12]
+						["max_value"] = 689,
+					},
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 36,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008866,
+							["total"] = 2306.008866,
+							["damage_from"] = {
+								["Talrendis Biologist"] = true,
+							},
+							["targets"] = {
+								["Talrendis Biologist"] = 2306,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "WARRIOR",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2306.008866,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1516178076,
+							["on_hold"] = false,
+							["spec"] = 72,
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 127,
+										["g_amt"] = 0,
+										["n_max"] = 132,
+										["targets"] = {
+											["Talrendis Biologist"] = 376,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 249,
+										["n_min"] = 117,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 376,
+										["c_max"] = 127,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 127,
+									}, -- [1]
+									[57755] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 119,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Talrendis Biologist"] = 119,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 119,
+										["c_max"] = 119,
+										["id"] = 57755,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 119,
+									},
+									[96103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 208,
+										["targets"] = {
+											["Talrendis Biologist"] = 208,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 208,
+										["n_min"] = 208,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 208,
+										["c_max"] = 0,
+										["id"] = 96103,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[23881] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 648,
+										["g_amt"] = 0,
+										["n_max"] = 343,
+										["targets"] = {
+											["Talrendis Biologist"] = 991,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 343,
+										["n_min"] = 343,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 991,
+										["c_max"] = 648,
+										["id"] = 23881,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 648,
+									},
+									[100130] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 419,
+										["g_amt"] = 0,
+										["n_max"] = 193,
+										["targets"] = {
+											["Talrendis Biologist"] = 612,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 193,
+										["n_min"] = 193,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 612,
+										["c_max"] = 419,
+										["id"] = 100130,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 419,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-73-0A665491",
+							["last_dps"] = 317.982469111951,
+							["custom"] = 0,
+							["last_event"] = 1516178076,
+							["damage_taken"] = 306.008866,
+							["start_time"] = 1516178069,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 36,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Gorog"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.007579,
+							["total_without_pet"] = 329.007579,
+							["total"] = 329.007579,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0A665491",
+							["totalabsorb"] = 0.007579,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Gorog"] = 329,
+							},
+							["totalover_without_pet"] = 0.007579,
+							["healing_taken"] = 329.007579,
+							["fight_component"] = true,
+							["end_time"] = 1516178076,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[117313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 132,
+										["targets"] = {
+											["Gorog"] = 263,
+										},
+										["n_min"] = 131,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 263,
+										["c_max"] = 0,
+										["id"] = 117313,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 263,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 66,
+										["targets"] = {
+											["Gorog"] = 66,
+										},
+										["n_min"] = 66,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 66,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1516178070,
+							["custom"] = 0,
+							["last_event"] = 1516178076,
+							["spec"] = 72,
+							["totaldenied"] = 0.007579,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 36,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 45.004577,
+							["resource"] = 0.004577,
+							["targets"] = {
+								["Gorog"] = 45,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARRIOR",
+							["fight_component"] = true,
+							["total"] = 45.004577,
+							["nome"] = "Gorog",
+							["spec"] = 72,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1516178082,
+							["alternatepower"] = 0.004577,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100] = {
+										["id"] = 100,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[85288] = {
+										["id"] = 85288,
+										["total"] = 5,
+										["targets"] = {
+											["Gorog"] = 5,
+										},
+										["counter"] = 1,
+									},
+									[23881] = {
+										["id"] = 23881,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 36,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["fight_component"] = true,
+							["flag_original"] = 1047,
+							["nome"] = "Gorog",
+							["spec"] = 72,
+							["grupo"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 11,
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[85288] = 1,
+								[96103] = 1,
+								[100130] = 2,
+								[23881] = 2,
+							},
+							["classe"] = "WARRIOR",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[184362] = {
+										["activedamt"] = 1,
+										["id"] = 184362,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[206333] = {
+										["activedamt"] = 1,
+										["id"] = 206333,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-73-0A665491",
+							["last_event"] = 1516178076,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 36,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Gorog"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Talrendis Biologist",
+				["combat_counter"] = 82,
+				["playing_solo"] = true,
+				["totals"] = {
+					2305.995569, -- [1]
+					329, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Gorog"] = {
+						{
+							true, -- [1]
+							80917, -- [2]
+							15, -- [3]
+							1516178077.648, -- [4]
+							2432, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							80917, -- [2]
+							15, -- [3]
+							1516178078.598, -- [4]
+							2417, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178079.598, -- [4]
+							2438, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							80917, -- [2]
+							13, -- [3]
+							1516178080.598, -- [4]
+							2425, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							80917, -- [2]
+							13, -- [3]
+							1516178081.518, -- [4]
+							2446, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178082.601, -- [4]
+							2434, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 7,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Gorog"] = 527.010181,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Gorog"] = 4660.013317,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16457.07,
+				["combat_id"] = 36,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Talrendis Biologist"] = 1,
+				},
+				["data_fim"] = "00:34:36",
+				["data_inicio"] = "00:34:29",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2306, -- [1]
+					329, -- [2]
+					{
+						0, -- [1]
+						[0] = 45,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 16449.818,
+				["contra"] = "Talrendis Biologist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						119.008866, -- [1]
+						475, -- [2]
+						419, -- [3]
+						0, -- [4]
+						193, -- [5]
+						648, -- [6]
+						244, -- [7]
+						["max_value"] = 648,
+					},
+					["Raid Damage Done"] = {
+						119, -- [1]
+						475, -- [2]
+						419, -- [3]
+						0, -- [4]
+						193, -- [5]
+						648, -- [6]
+						244, -- [7]
+						["max_value"] = 648,
+					},
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 35,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00854,
+							["total"] = 2751.00854,
+							["damage_from"] = {
+								["Talrendis Biologist"] = true,
+							},
+							["targets"] = {
+								["Talrendis Biologist"] = 2751,
+							},
+							["pets"] = {
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "WARRIOR",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2751.00854,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1516178045,
+							["on_hold"] = false,
+							["spec"] = 72,
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 132,
+										["targets"] = {
+											["Talrendis Biologist"] = 514,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 514,
+										["n_min"] = 61,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 514,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									}, -- [1]
+									[100130] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 386,
+										["g_amt"] = 0,
+										["n_max"] = 200,
+										["targets"] = {
+											["Talrendis Biologist"] = 586,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 200,
+										["n_min"] = 200,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 586,
+										["c_max"] = 386,
+										["id"] = 100130,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 386,
+									},
+									[126664] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 71,
+										["targets"] = {
+											["Talrendis Biologist"] = 71,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 71,
+										["n_min"] = 71,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 71,
+										["c_max"] = 0,
+										["id"] = 126664,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[23881] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1258,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Talrendis Biologist"] = 1258,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1258,
+										["c_max"] = 633,
+										["id"] = 23881,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 625,
+									},
+									[96103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 223,
+										["targets"] = {
+											["Talrendis Biologist"] = 322,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 322,
+										["n_min"] = 99,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 322,
+										["c_max"] = 0,
+										["id"] = 96103,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-73-0A665491",
+							["last_dps"] = 312.934653622985,
+							["custom"] = 0,
+							["last_event"] = 1516178045,
+							["damage_taken"] = 444.00854,
+							["start_time"] = 1516178037,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 35,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Gorog"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARRIOR",
+							["totalover"] = 0.005285,
+							["total_without_pet"] = 329.005285,
+							["total"] = 329.005285,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0A665491",
+							["totalabsorb"] = 0.005285,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Gorog"] = 329,
+							},
+							["totalover_without_pet"] = 0.005285,
+							["healing_taken"] = 329.005285,
+							["fight_component"] = true,
+							["end_time"] = 1516178045,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Gorog",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[117313] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 132,
+										["targets"] = {
+											["Gorog"] = 263,
+										},
+										["n_min"] = 131,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 263,
+										["c_max"] = 0,
+										["id"] = 117313,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 263,
+										["n_amt"] = 2,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[59913] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 66,
+										["targets"] = {
+											["Gorog"] = 66,
+										},
+										["n_min"] = 66,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = 59913,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 66,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1516178037,
+							["custom"] = 0,
+							["last_event"] = 1516178045,
+							["spec"] = 72,
+							["totaldenied"] = 0.005285,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 35,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 41.004824,
+							["resource"] = 0.004824,
+							["targets"] = {
+								["Gorog"] = 41,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARRIOR",
+							["fight_component"] = true,
+							["total"] = 41.004824,
+							["nome"] = "Gorog",
+							["spec"] = 72,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1516178061,
+							["alternatepower"] = 0.004824,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[100] = {
+										["id"] = 100,
+										["total"] = 20,
+										["targets"] = {
+											["Gorog"] = 20,
+										},
+										["counter"] = 1,
+									},
+									[85288] = {
+										["id"] = 85288,
+										["total"] = 5,
+										["targets"] = {
+											["Gorog"] = 5,
+										},
+										["counter"] = 1,
+									},
+									[23881] = {
+										["id"] = 23881,
+										["total"] = 16,
+										["targets"] = {
+											["Gorog"] = 16,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 35,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[105771] = {
+										["activedamt"] = 0,
+										["id"] = 105771,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[236027] = {
+										["activedamt"] = 0,
+										["id"] = 236027,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 17,
+							["classe"] = "WARRIOR",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[184362] = {
+										["activedamt"] = 2,
+										["id"] = 184362,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[206333] = {
+										["activedamt"] = 2,
+										["id"] = 206333,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[109128] = {
+										["activedamt"] = 0,
+										["id"] = 109128,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 6,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 72,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[100130] = 2,
+								[96103] = 1,
+								[23881] = 2,
+								[85288] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1516178045,
+							["nome"] = "Gorog",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0A665491",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 35,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Gorog"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Talrendis Biologist",
+				["combat_counter"] = 80,
+				["playing_solo"] = true,
+				["totals"] = {
+					2750.998966, -- [1]
+					329, -- [2]
+					{
+						0, -- [1]
+						[0] = 35,
+						["alternatepower"] = 0,
+						[3] = 6,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Gorog"] = {
+						{
+							true, -- [1]
+							80917, -- [2]
+							15, -- [3]
+							1516178046.441, -- [4]
+							1995, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							80917, -- [2]
+							15, -- [3]
+							1516178047.451, -- [4]
+							2013, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							80917, -- [2]
+							15, -- [3]
+							1516178048.451, -- [4]
+							1998, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178049.442, -- [4]
+							2020, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							80917, -- [2]
+							13, -- [3]
+							1516178050.392, -- [4]
+							2007, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178051.413, -- [4]
+							2028, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							80917, -- [2]
+							12, -- [3]
+							1516178052.413, -- [4]
+							2016, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							80917, -- [2]
+							13, -- [3]
+							1516178053.435, -- [4]
+							2036, -- [5]
+							"Talrendis Biologist", -- [6]
+							nil, -- [7]
+							8, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 9,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Gorog"] = 526.013276,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Gorog"] = 5021.010493,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 16426.313,
+				["combat_id"] = 35,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Talrendis Biologist"] = 1,
+				},
+				["data_fim"] = "00:34:06",
+				["data_inicio"] = "00:33:57",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2751, -- [1]
+					329, -- [2]
+					{
+						0, -- [1]
+						[0] = 35,
+						["alternatepower"] = 0,
+						[3] = 6,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 16417.522,
+				["contra"] = "Talrendis Biologist",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						894.00854, -- [1]
+						322, -- [2]
+						329, -- [3]
+						63, -- [4]
+						0, -- [5]
+						132, -- [6]
+						386, -- [7]
+						625, -- [8]
+						["max_value"] = 894.00854,
+					},
+					["Raid Damage Done"] = {
+						894, -- [1]
+						322, -- [2]
+						329, -- [3]
+						63, -- [4]
+						0, -- [5]
+						132, -- [6]
+						386, -- [7]
+						625, -- [8]
+						["max_value"] = 894,
+					},
+				},
+			}, -- [5]
 		},
 	},
-	["last_version"] = "v7.3.0.4830",
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
-	},
+	["last_version"] = "v7.3.0.5183",
+	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
 	["local_instances_config"] = {
@@ -19,6 +3553,9 @@ _detalhes_database = {
 			["segment"] = 0,
 			["sub_attribute"] = 1,
 			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -26,8 +3563,6 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
-			["is_open"] = true,
-			["isLocked"] = false,
 			["snap"] = {
 				[3] = 2,
 			},
@@ -35,16 +3570,16 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -418.642547607422,
-					["x"] = 541.206237792969,
-					["w"] = 276.749603271484,
-					["h"] = 168.276809692383,
+					["y"] = -415.572357177734,
+					["x"] = 519.432189941406,
+					["w"] = 291.347473144531,
+					["h"] = 166.230163574219,
 				},
 				["solo"] = {
-					["y"] = -347.977981567383,
-					["x"] = 528.014831542969,
-					["w"] = 300.000122070313,
-					["h"] = 300,
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
 				},
 			},
 		}, -- [1]
@@ -52,6 +3587,9 @@ _detalhes_database = {
 			["segment"] = 0,
 			["sub_attribute"] = 1,
 			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
 			["sub_atributo_last"] = {
 				1, -- [1]
 				1, -- [2]
@@ -59,8 +3597,6 @@ _detalhes_database = {
 				1, -- [4]
 				1, -- [5]
 			},
-			["is_open"] = true,
-			["isLocked"] = false,
 			["snap"] = {
 				1, -- [1]
 			},
@@ -68,10 +3604,10 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -418.642547607422,
-					["x"] = 817.579162597656,
-					["w"] = 275.996734619141,
-					["h"] = 168.276809692383,
+					["y"] = -415.572357177734,
+					["x"] = 810.779724121094,
+					["w"] = 291.347351074219,
+					["h"] = 166.230163574219,
 				},
 				["solo"] = {
 					["y"] = 2,
@@ -96,7 +3632,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 0,
 	["active_profile"] = "Base",
-	["last_day"] = "23",
+	["last_day"] = "17",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -108,8 +3644,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -122,7 +3658,7 @@ _detalhes_database = {
 				true, -- [3]
 				true, -- [4]
 			},
-			["first_run"] = false,
+			["first_run"] = true,
 			["endurance_threshold"] = 3,
 			["max_deaths_for_timeline"] = 5,
 			["deaths_threshold"] = 10,
@@ -189,8 +3725,8 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -200,11 +3736,6 @@ _detalhes_database = {
 				1, -- [3]
 			},
 			["enabled"] = true,
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -216,6 +3747,10 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -278,10 +3813,10 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["scale"] = 1,
 			["row_height"] = 21,
-			["main_frame_strata"] = "LOW",
+			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["point"] = "TOPLEFT",
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -289,8 +3824,17 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 14,
+			["use_spark"] = false,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -302,23 +3846,15 @@ _detalhes_database = {
 				["update_speed"] = 0.0480000004172325,
 				["attribute_type"] = 2,
 			},
-			["font_size"] = 14,
-			["x"] = 0,
-			["font_face"] = "Prototype",
 			["y"] = -22.6146240234375,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["arrow_anchor_y"] = 0,
+			["main_frame_strata"] = "LOW",
 			["main_frame_locked"] = true,
-			["use_spark"] = false,
+			["arrow_anchor_y"] = 0,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 	},
 	["mythic_dungeon_currentsaved"] = {
@@ -332,23 +3868,22 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
+	["ignore_nicktag"] = false,
+	["cached_talents"] = {
+		["Player-73-0A665491"] = {
+			22633, -- [1]
+		},
+	},
+	["combat_counter"] = 86,
+	["combat_id"] = 39,
+	["savedStyles"] = {
+	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_realversion"] = 127,
-	["ignore_nicktag"] = false,
-	["combat_id"] = 0,
-	["savedStyles"] = {
-	},
-	["character_data"] = {
-		["logons"] = 3,
-	},
-	["cached_talents"] = {
-		["Player-73-0A665491"] = {
-		},
-	},
+	["last_realversion"] = 128,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -359,21 +3894,862 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.076547,
+					["damage_from"] = {
+						["Balboa"] = true,
+						["Environment (Falling)"] = true,
+						["Talrendis Biologist"] = true,
+						["Talrendis Ambassador"] = true,
+						["Thunderhead Hippogryph"] = true,
+						["Blackmaw Pathfinder"] = true,
+						["Lorekeeper Amberwind"] = true,
+						["Weeping Soul <Gorog>"] = true,
+						["Legashi Satyr"] = true,
+						["Apprentice Investigator"] = true,
+						["Apprentice Illuminator"] = true,
+						["Makrinni Scrabbler"] = true,
+						["Amberwind's Construct"] = true,
+						["Legashi Hellcaller"] = true,
+					},
+					["targets"] = {
+						["Balboa"] = 9814,
+						["Talrendis Ambassador"] = 1815,
+						["Talrendis Biologist"] = 14582,
+						["Blackmaw Pathfinder"] = 2434,
+						["Thunderhead Hippogryph"] = 1992,
+						["Weeping Soul <Gorog>"] = 6393,
+						["Lorekeeper Amberwind"] = 4245,
+						["Gorog"] = 270,
+						["Legashi Satyr"] = 2755,
+						["Apprentice Investigator"] = 6436,
+						["Apprentice Illuminator"] = 6328,
+						["Makrinni Scrabbler"] = 1539,
+						["Amberwind's Construct"] = 2056,
+						["Legashi Hellcaller"] = 4404,
+					},
+					["pets"] = {
+						"Weeping Soul <Gorog> <Gorog>", -- [1]
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 64793.076547,
+					["classe"] = "WARRIOR",
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1516175169,
+					["friendlyfire"] = {
+					},
+					["total"] = 65063.076547,
+					["nome"] = "Gorog",
+					["spec"] = 72,
+					["grupo"] = true,
+					["on_hold"] = false,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 19,
+								["b_amt"] = 2,
+								["c_dmg"] = 3997,
+								["g_amt"] = 0,
+								["n_max"] = 148,
+								["targets"] = {
+									["Balboa"] = 2293,
+									["Talrendis Ambassador"] = 347,
+									["Talrendis Biologist"] = 3050,
+									["Blackmaw Pathfinder"] = 488,
+									["Thunderhead Hippogryph"] = 469,
+									["Weeping Soul"] = 0,
+									["Lorekeeper Amberwind"] = 862,
+									["Weeping Soul <Gorog>"] = 1600,
+									["Legashi Satyr"] = 668,
+									["Apprentice Investigator"] = 1568,
+									["Apprentice Illuminator"] = 1413,
+									["Makrinni Scrabbler"] = 394,
+									["Amberwind's Construct"] = 334,
+									["Legashi Hellcaller"] = 1009,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10498,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 144,
+								["total"] = 14495,
+								["c_max"] = 280,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 13,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 160,
+								["n_amt"] = 112,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[5308] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 520,
+								["targets"] = {
+									["Lorekeeper Amberwind"] = 764,
+									["Balboa"] = 1371,
+									["Talrendis Biologist"] = 282,
+									["Apprentice Illuminator"] = 288,
+									["Blackmaw Pathfinder"] = 264,
+									["Weeping Soul <Gorog>"] = 303,
+									["Makrinni Scrabbler"] = 257,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3529,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 3529,
+								["c_max"] = 0,
+								["id"] = 5308,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[96103] = {
+								["c_amt"] = 5,
+								["b_amt"] = 2,
+								["c_dmg"] = 1190,
+								["g_amt"] = 0,
+								["n_max"] = 235,
+								["targets"] = {
+									["Lorekeeper Amberwind"] = 1016,
+									["Balboa"] = 1818,
+									["Talrendis Biologist"] = 1938,
+									["Apprentice Investigator"] = 1318,
+									["Weeping Soul <Gorog>"] = 692,
+									["Blackmaw Pathfinder"] = 544,
+									["Amberwind's Construct"] = 351,
+									["Legashi Satyr"] = 681,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7168,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 50,
+								["total"] = 8358,
+								["c_max"] = 369,
+								["id"] = 96103,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 207,
+								["n_amt"] = 45,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[57755] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 244,
+								["g_amt"] = 0,
+								["n_max"] = 64,
+								["targets"] = {
+									["Apprentice Illuminator"] = 64,
+									["Makrinni Scrabbler"] = 129,
+									["Talrendis Biologist"] = 115,
+									["Legashi Hellcaller"] = 62,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 126,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 4,
+								["total"] = 370,
+								["c_max"] = 129,
+								["id"] = 57755,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[23881] = {
+								["c_amt"] = 14,
+								["b_amt"] = 1,
+								["c_dmg"] = 9614,
+								["g_amt"] = 0,
+								["n_max"] = 416,
+								["targets"] = {
+									["Balboa"] = 2013,
+									["Talrendis Biologist"] = 4976,
+									["Talrendis Ambassador"] = 1070,
+									["Thunderhead Hippogryph"] = 645,
+									["Blackmaw Pathfinder"] = 353,
+									["Lorekeeper Amberwind"] = 661,
+									["Weeping Soul <Gorog>"] = 1378,
+									["Legashi Satyr"] = 316,
+									["Apprentice Investigator"] = 959,
+									["Apprentice Illuminator"] = 2297,
+									["Makrinni Scrabbler"] = 372,
+									["Amberwind's Construct"] = 667,
+									["Legashi Hellcaller"] = 2257,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8350,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 39,
+								["total"] = 17964,
+								["c_max"] = 815,
+								["id"] = 23881,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 242,
+								["n_amt"] = 25,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[100130] = {
+								["c_amt"] = 6,
+								["b_amt"] = 1,
+								["c_dmg"] = 2282,
+								["g_amt"] = 0,
+								["n_max"] = 219,
+								["targets"] = {
+									["Balboa"] = 536,
+									["Talrendis Biologist"] = 2407,
+									["Thunderhead Hippogryph"] = 811,
+									["Talrendis Ambassador"] = 398,
+									["Lorekeeper Amberwind"] = 942,
+									["Blackmaw Pathfinder"] = 785,
+									["Weeping Soul <Gorog>"] = 1520,
+									["Apprentice Investigator"] = 771,
+									["Apprentice Illuminator"] = 1366,
+									["Makrinni Scrabbler"] = 387,
+									["Legashi Satyr"] = 192,
+									["Legashi Hellcaller"] = 992,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 8825,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 51,
+								["total"] = 11107,
+								["c_max"] = 387,
+								["id"] = 100130,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 141,
+								["n_amt"] = 45,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[126664] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 84,
+								["targets"] = {
+									["Balboa"] = 124,
+									["Apprentice Investigator"] = 68,
+									["Talrendis Biologist"] = 146,
+									["Thunderhead Hippogryph"] = 67,
+									["Legashi Hellcaller"] = 84,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 489,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 489,
+								["c_max"] = 0,
+								["id"] = 126664,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 7,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[218617] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 1081,
+								["g_amt"] = 0,
+								["n_max"] = 296,
+								["targets"] = {
+									["Balboa"] = 1659,
+									["Talrendis Biologist"] = 1668,
+									["Apprentice Investigator"] = 1752,
+									["Apprentice Illuminator"] = 900,
+									["Weeping Soul <Gorog>"] = 900,
+									["Amberwind's Construct"] = 704,
+									["Legashi Satyr"] = 898,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7400,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 49,
+								["total"] = 8481,
+								["c_max"] = 440,
+								["id"] = 218617,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 45,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["serial"] = "Player-73-0A665491",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 13407.076547,
+					["start_time"] = 1516174899,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 68168,
+					["totalabsorbed"] = 0.015286,
+					["last_event"] = 0,
+					["damage_from"] = {
+						["Gorog"] = true,
+					},
+					["targets"] = {
+						["Gorog"] = 270,
+					},
+					["pets"] = {
+					},
+					["end_time"] = 1516177883,
+					["monster"] = true,
+					["classe"] = "UNKNOW",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 270.015286,
+					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["dps_started"] = false,
+					["total"] = 270.015286,
+					["on_hold"] = false,
+					["ownerName"] = "Gorog",
+					["nome"] = "Weeping Soul <Gorog> <Gorog>",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 29,
+								["g_amt"] = 0,
+								["n_max"] = 11,
+								["targets"] = {
+									["Gorog"] = 270,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 241,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 38,
+								["total"] = 270,
+								["c_max"] = 15,
+								["a_amt"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["DODGE"] = 2,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["PARRY"] = 3,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 31,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+						},
+					},
+					["fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 6393.015286,
+					["start_time"] = 1516177834,
+					["serial"] = "Creature-0-3023-1-19787-35913-00005F08C6",
+					["delay"] = 0,
+				}, -- [2]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Gorog"] = 909,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 909.083617,
+					["total_without_pet"] = 5519.083617,
+					["total"] = 5519.083617,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-73-0A665491",
+					["totalabsorb"] = 0.083617,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Gorog"] = 5977,
+					},
+					["totalover_without_pet"] = 0.083617,
+					["healing_taken"] = 5519.083617,
+					["fight_component"] = true,
+					["end_time"] = 1516175169,
+					["healing_from"] = {
+						["Gorog"] = true,
+					},
+					["nome"] = "Gorog",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[117313] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Gorog"] = 845,
+								},
+								["n_max"] = 133,
+								["targets"] = {
+									["Gorog"] = 4132,
+								},
+								["n_min"] = 0,
+								["counter"] = 38,
+								["overheal"] = 845,
+								["total"] = 4132,
+								["c_max"] = 0,
+								["id"] = 117313,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 4132,
+								["n_amt"] = 38,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[59913] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Gorog"] = 64,
+								},
+								["n_max"] = 67,
+								["targets"] = {
+									["Gorog"] = 1387,
+								},
+								["n_min"] = 0,
+								["counter"] = 22,
+								["overheal"] = 64,
+								["total"] = 1387,
+								["c_max"] = 0,
+								["id"] = 59913,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 1387,
+								["n_amt"] = 22,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1516174967,
+					["classe"] = "WARRIOR",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 72,
+					["totaldenied"] = 0.083617,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["resource"] = 0.072809,
+					["targets"] = {
+						["Gorog"] = 615,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "WARRIOR",
+					["fight_component"] = true,
+					["alternatepower"] = 0.072809,
+					["nome"] = "Gorog",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[100] = {
+								["id"] = 100,
+								["total"] = 80,
+								["targets"] = {
+									["Gorog"] = 80,
+								},
+								["counter"] = 4,
+							},
+							[85288] = {
+								["id"] = 85288,
+								["total"] = 125,
+								["targets"] = {
+									["Gorog"] = 125,
+								},
+								["counter"] = 25,
+							},
+							[23881] = {
+								["id"] = 23881,
+								["total"] = 410,
+								["targets"] = {
+									["Gorog"] = 410,
+								},
+								["counter"] = 41,
+							},
+						},
+					},
+					["grupo"] = true,
+					["received"] = 615.072809,
+					["last_event"] = 0,
+					["total"] = 615.072809,
+					["spec"] = 72,
+					["serial"] = "Player-73-0A665491",
+					["tipo"] = 3,
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[105771] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 7,
+								["id"] = 105771,
+								["uptime"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[355] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 355,
+								["uptime"] = 3,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[236027] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 7,
+								["id"] = 236027,
+								["uptime"] = 41,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[69863] = {
+								["refreshamt"] = 4,
+								["activedamt"] = -1,
+								["appliedamt"] = 0,
+								["id"] = 69863,
+								["uptime"] = 119,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["cc_done_targets"] = {
+						["Talrendis Biologist"] = 1,
+						["Balboa"] = 1,
+						["Legashi Hellcaller"] = 1,
+					},
+					["pets"] = {
+						"Personal Arcane Assistant <Gorog> <Gorog>", -- [1]
+						"Dazed <Gorog> <Gorog>", -- [2]
+					},
+					["cc_done_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[105771] = {
+								["id"] = 105771,
+								["targets"] = {
+									["Talrendis Biologist"] = 1,
+									["Balboa"] = 1,
+									["Legashi Hellcaller"] = 1,
+								},
+								["counter"] = 3,
+							},
+						},
+					},
+					["classe"] = "WARRIOR",
+					["interrupt_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[6552] = {
+								["id"] = 6552,
+								["interrompeu_oque"] = {
+									[9672] = 1,
+									[9053] = 2,
+									[9613] = 1,
+									[77428] = 1,
+								},
+								["targets"] = {
+									["Lorekeeper Amberwind"] = 1,
+									["Talrendis Ambassador"] = 1,
+									["Legashi Hellcaller"] = 2,
+									["Apprentice Investigator"] = 1,
+								},
+								["counter"] = 5,
+							},
+						},
+					},
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[229388] = {
+								["refreshamt"] = 0,
+								["appliedamt"] = 4,
+								["activedamt"] = 4,
+								["uptime"] = 14,
+								["id"] = 229388,
+								["actived_at"] = 4548532846,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[184362] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 24,
+								["appliedamt"] = 24,
+								["id"] = 184362,
+								["uptime"] = 81,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[20572] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 20572,
+								["uptime"] = 84,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[68531] = {
+								["actived_at"] = 1516177761,
+								["refreshamt"] = 0,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 68531,
+								["uptime"] = 92,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[109128] = {
+								["actived_at"] = 1516176544,
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 109128,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[68413] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 68413,
+								["uptime"] = 7,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[206333] = {
+								["refreshamt"] = 30,
+								["activedamt"] = 22,
+								["appliedamt"] = 22,
+								["id"] = 206333,
+								["uptime"] = 119,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 16,
+								["appliedamt"] = 16,
+								["id"] = 186406,
+								["uptime"] = 368,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["interrompeu_oque"] = {
+						[9672] = 1,
+						[9053] = 2,
+						[9613] = 1,
+						[77428] = 1,
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 167,
+					["buff_uptime"] = 771,
+					["cc_done"] = 3.017299,
+					["nome"] = "Gorog",
+					["spec"] = 72,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[85288] = 25,
+						[100] = 3,
+						[184367] = 10,
+						[126664] = 7,
+						[100130] = 51,
+						[52174] = 1,
+						[6552] = 5,
+						[5308] = 8,
+						[96103] = 25,
+						[20572] = 6,
+						[23881] = 40,
+					},
+					["interrupt_targets"] = {
+						["Lorekeeper Amberwind"] = 1,
+						["Talrendis Ambassador"] = 1,
+						["Legashi Hellcaller"] = 2,
+						["Apprentice Investigator"] = 1,
+					},
+					["buff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["interrupt"] = 5.025133,
+					["debuff_uptime_targets"] = {
+					},
+					["serial"] = "Player-73-0A665491",
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 4369,
+					["classe"] = "PET",
+					["ownerName"] = "Gorog",
+					["nome"] = "Personal Arcane Assistant <Gorog> <Gorog>",
+					["pets"] = {
+					},
+					["spell_cast"] = {
+						[67794] = 1,
+					},
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3023-1-19787-35178-00005F0454",
+					["last_event"] = 0,
+				}, -- [2]
+				{
+					["flag_original"] = 68168,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+						},
+					},
+					["pets"] = {
+					},
+					["classe"] = "UNKNOW",
+					["boss_debuff"] = true,
+					["monster"] = true,
+					["debuff_uptime"] = 4,
+					["spellschool"] = 1,
+					["ownerName"] = "Gorog",
+					["nome"] = "Dazed <Gorog> <Gorog>",
+					["damage_spellid"] = 1604,
+					["last_event"] = 0,
+					["damage_twin"] = "Weeping Soul",
+					["debuff_uptime_targets"] = {
+						["Gorog"] = {
+							["uptime"] = 4,
+							["appliedamt"] = 0,
+							["activedamt"] = 0,
+							["actived"] = false,
+							["refreshamt"] = 0,
+						},
+					},
+					["serial"] = "Creature-0-3023-1-19787-35913-00005F097B",
+					["tipo"] = 4,
+				}, -- [3]
 			},
 		}, -- [4]
 		{
@@ -387,13 +4763,13 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 6,
+		["combat_counter"] = 15,
 		["totals"] = {
-			0, -- [1]
-			0, -- [2]
+			78470.183113, -- [1]
+			5519.081136, -- [2]
 			{
 				0, -- [1]
-				[0] = 0,
+				[0] = 615.071015,
 				["alternatepower"] = 0,
 				[3] = 0,
 				[6] = 0,
@@ -403,7 +4779,7 @@ _detalhes_database = {
 				["ress"] = 0,
 				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
+				["interrupt"] = 5.025133,
 				["dispell"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
@@ -415,39 +4791,6 @@ _detalhes_database = {
 		},
 		["frags_need_refresh"] = false,
 		["__call"] = {
-		},
-		["data_inicio"] = 0,
-		["end_time"] = 5981.649,
-		["frags"] = {
-		},
-		["data_fim"] = 0,
-		["CombatSkillCache"] = {
-		},
-		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-		["start_time"] = 5981.649,
-		["TimeData"] = {
-			["Player Damage Done"] = {
-			},
 		},
 		["PhaseData"] = {
 			{
@@ -463,13 +4806,152 @@ _detalhes_database = {
 			["damage"] = {
 			},
 		},
+		["end_time"] = 16533.582,
+		["data_inicio"] = "23:45:17",
+		["frags"] = {
+		},
+		["data_fim"] = "00:35:53",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 13.3390000000036,
+				["type"] = 0,
+				["name"] = "Talrendis Biologist",
+				["clock"] = "00:35:40",
+			}, -- [1]
+			{
+				["elapsed"] = 15.9989999999998,
+				["type"] = 0,
+				["name"] = "Talrendis Biologist",
+				["clock"] = "00:35:05",
+			}, -- [2]
+			{
+				["elapsed"] = 12.0609999999979,
+				["type"] = 0,
+				["name"] = "Talrendis Biologist",
+				["clock"] = "00:34:51",
+			}, -- [3]
+			{
+				["elapsed"] = 15.6820000000007,
+				["type"] = 0,
+				["name"] = "Talrendis Biologist",
+				["clock"] = "00:33:39",
+			}, -- [4]
+			{
+				["elapsed"] = 14.8109999999997,
+				["type"] = 0,
+				["name"] = "Talrendis Ambassador",
+				["clock"] = "00:32:58",
+			}, -- [5]
+			{
+				["elapsed"] = 18.6170000000002,
+				["type"] = 0,
+				["name"] = "Talrendis Ambassador",
+				["clock"] = "00:32:26",
+			}, -- [6]
+			{
+				["elapsed"] = 122.34,
+				["type"] = 0,
+				["name"] = "Weeping Soul <Gorog>",
+				["clock"] = "00:29:21",
+			}, -- [7]
+			{
+				["elapsed"] = 10.6110000000008,
+				["type"] = 0,
+				["name"] = "Gorog",
+				["clock"] = "00:26:47",
+			}, -- [8]
+			{
+				["elapsed"] = 42.5579999999991,
+				["type"] = 0,
+				["name"] = "Legashi Satyr",
+				["clock"] = "00:12:41",
+			}, -- [9]
+			{
+				["elapsed"] = 24.1610000000001,
+				["type"] = 0,
+				["name"] = "Legashi Hellcaller",
+				["clock"] = "00:08:45",
+			}, -- [10]
+			{
+				["elapsed"] = 31.616,
+				["type"] = 0,
+				["name"] = "Balboa",
+				["clock"] = "00:05:55",
+			}, -- [11]
+			{
+				["elapsed"] = 14.1670000000013,
+				["type"] = 0,
+				["name"] = "Thunderhead Hippogryph",
+				["clock"] = "23:58:51",
+			}, -- [12]
+			{
+				["elapsed"] = 15.735999999999,
+				["type"] = 0,
+				["name"] = "Apprentice Illuminator",
+				["clock"] = "23:55:54",
+			}, -- [13]
+			{
+				["elapsed"] = 26.8540000000012,
+				["type"] = 0,
+				["name"] = "Apprentice Illuminator",
+				["clock"] = "23:55:02",
+			}, -- [14]
+			{
+				["elapsed"] = 11.9709999999996,
+				["type"] = 0,
+				["name"] = "Apprentice Investigator",
+				["clock"] = "23:54:43",
+			}, -- [15]
+			{
+				["elapsed"] = 51.6770000000015,
+				["type"] = 0,
+				["name"] = "Makrinni Scrabbler",
+				["clock"] = "23:45:17",
+			}, -- [16]
+		},
+		["start_time"] = 16091.382,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
+		["totals_grupo"] = {
+			65063.071466, -- [1]
+			5519.081136, -- [2]
+			{
+				0, -- [1]
+				[0] = 615.071015,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 5.025133,
+				["dispell"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
 	},
-	["combat_counter"] = 8,
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["character_data"] = {
+		["logons"] = 5,
+	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1512723282,
+		["nextreset"] = 1517471074,
 		["last_version"] = 9,
 	},
-	["force_font_outline"] = "",
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {

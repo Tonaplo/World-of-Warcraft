@@ -1,16 +1,5 @@
 
 DetailsTimeLineDB = {
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_end"] = "00:57:45",
@@ -37,12 +26,14 @@ DetailsTimeLineDB = {
 			["total_time"] = 84.0040000000008,
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["window_scale"] = 1,
 	["debuff_timeline"] = {
 		{
 			["Posillico"] = {
@@ -317,7 +308,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Praerend"] = {
@@ -448,5 +438,15 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["hide_on_combat"] = false,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 }

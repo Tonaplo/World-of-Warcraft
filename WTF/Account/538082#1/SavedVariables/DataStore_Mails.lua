@@ -14,10 +14,10 @@ DataStore_MailsDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -29,17 +29,17 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1515129437,
 				["lastVisitDate"] = "2018/01/04 21:17",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1514014582,
-				["lastVisitDate"] = "2017/12/22 23:36",
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1515047960,
+				["lastVisitDate"] = "2018/01/03 22:39",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1511749408,
 				["lastVisitDate"] = "2017/11/26 18:23",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1512573621,
-				["lastVisitDate"] = "2017/12/06 07:20",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1512629978,
@@ -49,8 +49,8 @@ DataStore_MailsDB = {
 						["itemID"] = 152743,
 						["link"] = "|cff0070dd|Hitem:152743::::::::110:256::11::::|h[Unsullied Plate Sabatons]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1513028132,
 						["icon"] = 359495,
+						["lastCheck"] = 1513028132,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
@@ -58,8 +58,8 @@ DataStore_MailsDB = {
 						["itemID"] = 153153,
 						["link"] = "|cff0070dd|Hitem:153153::::::::110:268::::::|h[Unsullied Plate Pauldrons]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1515047959,
 						["icon"] = 359502,
+						["lastCheck"] = 1515047959,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
@@ -67,8 +67,8 @@ DataStore_MailsDB = {
 						["itemID"] = 153188,
 						["link"] = "|cff1eff00|Hitem:153188::::::::110:256::::::|h[Greater Blessed Bandage]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1513028132,
 						["icon"] = 538234,
+						["lastCheck"] = 1513028132,
 						["daysLeft"] = 30,
 					}, -- [3]
 					{
@@ -76,72 +76,52 @@ DataStore_MailsDB = {
 						["itemID"] = 121061,
 						["link"] = "|cff1eff00|Hitem:121061::::::::110:268:512::2:1812:1702:110:::|h[Ettinbone Pauldrons of the Feverflare]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1515047959,
 						["icon"] = 1117704,
+						["lastCheck"] = 1515047959,
 						["daysLeft"] = 30,
 					}, -- [4]
 				},
 				["lastVisitDate"] = "2017/12/06 22:59",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1516088276,
-				["lastVisitDate"] = "2018/01/15 23:37",
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1516262098,
+				["lastVisitDate"] = "2018/01/17 23:54",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427640,
 				["Mails"] = {
 					{
-						["lastCheck"] = 1511427640,
+						["icon"] = 134327,
 						["sender"] = "The WoW Dev Team",
 						["subject"] = "WoW's 13th Anniversary!",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "Wow, yet another year has gone by for WoW!\r\n\r\nWe wanted to thank you for continuing to play World of Warcraft with us, so here's an Anniversary Gift to go with your adventures!\r\n\r\nThe WoW Dev Team",
-						["icon"] = 134327,
+						["lastCheck"] = 1511427640,
 						["daysLeft"] = 29.9958572387695,
 					}, -- [1]
 				},
 				["lastVisitDate"] = "2017/11/23 01:00",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1512794565,
-				["Mails"] = {
-					{
-						["sender"] = "Faerand",
-						["itemID"] = 153157,
-						["link"] = "|cff0070dd|Hitem:153157::::::::110:253::::::|h[Unsullied Plate Gauntlets]|h|r",
-						["count"] = 1,
-						["icon"] = 359499,
-						["lastCheck"] = 1516088275,
-						["daysLeft"] = 30,
-					}, -- [1]
-					{
-						["sender"] = "Faerand",
-						["itemID"] = 153155,
-						["link"] = "|cff0070dd|Hitem:153155::::::::110:253::11::::|h[Unsullied Plate Helmet]|h|r",
-						["count"] = 1,
-						["icon"] = 359500,
-						["lastCheck"] = 1516088275,
-						["daysLeft"] = 30,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2017/12/08 20:42",
+				["lastUpdate"] = 1516263257,
+				["lastVisitDate"] = "2018/01/18 00:14",
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1515743562,
-				["lastVisitDate"] = "2018/01/11 23:52",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1516088276,
+				["lastVisitDate"] = "2018/01/15 23:37",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1515740317,
 				["lastVisitDate"] = "2018/01/11 22:58",
 			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1515047960,
-				["lastVisitDate"] = "2018/01/03 22:39",
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1515743562,
+				["lastVisitDate"] = "2018/01/11 23:52",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1512573621,
+				["lastVisitDate"] = "2017/12/06 07:20",
 			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1512798914,
@@ -151,8 +131,8 @@ DataStore_MailsDB = {
 						["itemID"] = 152738,
 						["link"] = "|cff0070dd|Hitem:152738::::::::110:260::::::|h[Unsullied Cloth Cap]|h|r",
 						["count"] = 1,
-						["icon"] = 422805,
 						["lastCheck"] = 1512880142,
+						["icon"] = 422805,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
@@ -160,8 +140,8 @@ DataStore_MailsDB = {
 						["itemID"] = 153154,
 						["link"] = "|cff0070dd|Hitem:153154::::::::110:260::11::::|h[Unsullied Cloth Leggings]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1512937859,
 						["icon"] = 422807,
+						["lastCheck"] = 1512937859,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
@@ -169,8 +149,8 @@ DataStore_MailsDB = {
 						["itemID"] = 153156,
 						["link"] = "|cff0070dd|Hitem:153156::::::::110:260::::::|h[Unsullied Cloth Sash]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1512943141,
 						["icon"] = 422795,
+						["lastCheck"] = 1512943141,
 						["daysLeft"] = 30,
 					}, -- [3]
 				},

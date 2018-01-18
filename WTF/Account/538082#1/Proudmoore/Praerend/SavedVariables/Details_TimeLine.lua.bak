@@ -1,14 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 			["Praerend"] = {
@@ -139,6 +132,17 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Posillico"] = {
@@ -413,6 +417,12 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["combat_data"] = {
 		{
 			["date_start"] = "00:56:09",
@@ -437,16 +447,6 @@ DetailsTimeLineDB = {
 			["date_end"] = "00:45:29",
 			["name"] = "Helya",
 			["total_time"] = 84.0040000000008,
-		}, -- [4]
-	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
 		}, -- [4]
 	},
 }

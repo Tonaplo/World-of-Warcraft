@@ -1,96 +1,40 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_start"] = "22:49:10",
 			["date_end"] = "22:50:39",
+			["date_start"] = "22:49:10",
 			["name"] = "Helya",
 			["total_time"] = 89.0039999999999,
 		}, -- [1]
 		{
-			["date_start"] = "22:47:03",
 			["date_end"] = "22:47:31",
+			["date_start"] = "22:47:03",
 			["name"] = "Harbaron",
 			["total_time"] = 28.0039999999999,
 		}, -- [2]
 		{
-			["date_start"] = "22:44:14",
 			["date_end"] = "22:45:26",
+			["date_start"] = "22:44:14",
 			["name"] = "Ymiron, the Fallen King",
 			["total_time"] = 72.009,
 		}, -- [3]
 		{
-			["date_start"] = "22:40:39",
 			["date_end"] = "22:42:14",
+			["date_start"] = "22:40:39",
 			["name"] = "Helya",
 			["total_time"] = 94.9500000000007,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Nekkoe-Arthas"] = {
-				{
-					18.6100000000006, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					102342, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Nekkoe-Arthas"] = {
-				{
-					19.8230000000003, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					740, -- [3]
-				}, -- [1]
-				{
-					28.7830000000004, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					102342, -- [3]
-				}, -- [2]
-			},
-			["Lupusdabear-Arathor"] = {
-				{
-					4.53800000000047, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					6.47500000000036, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					22842, -- [3]
-				}, -- [2]
-				{
-					14.1379999999999, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					22842, -- [3]
-				}, -- [3]
-				{
-					17.1010000000006, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					22842, -- [3]
-				}, -- [4]
-				{
-					28.9560000000001, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					22842, -- [3]
-				}, -- [5]
-				{
-					38.0370000000003, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					22812, -- [3]
-				}, -- [6]
-				{
-					50.6900000000005, -- [1]
-					"Lupusdabear-Arathor", -- [2]
-					22842, -- [3]
-				}, -- [7]
-			},
-		}, -- [3]
-		{
 		}, -- [4]
 	},
 	["backdrop_color"] = {
@@ -99,7 +43,6 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Warkeeper-Arthas"] = {
@@ -171,6 +114,37 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Larau-Shadowsong"] = {
+				[80354] = {
+					89.0039999999999, -- [1]
+					["source"] = "Larau-Shadowsong",
+					["active"] = true,
+				},
+			},
+			["Bartz-Lightbringer"] = {
+				[246807] = {
+					89.0039999999999, -- [1]
+					89.0039999999999, -- [2]
+					["source"] = "Sindorei-Stormreaver",
+					["active"] = false,
+				},
+			},
+			["Shootboys-Arthas"] = {
+				[57723] = {
+					89.0039999999999, -- [1]
+					["source"] = "Shootboys-Arthas",
+					["active"] = true,
+				},
+			},
+			["Ancanar"] = {
+				[215997] = {
+					89.0039999999999, -- [1]
+					89.0039999999999, -- [2]
+					89.0039999999999, -- [3]
+					["source"] = "[*] Odyn's Gaze",
+					["active"] = true,
+				},
+			},
 			["Nekkoe-Arthas"] = {
 				[197262] = {
 					12.2399999999998, -- [1]
@@ -187,37 +161,6 @@ DetailsTimeLineDB = {
 					54.4809999999998, -- [2]
 					["source"] = "[*] Knockdown",
 					["active"] = false,
-				},
-			},
-			["Ancanar"] = {
-				[215997] = {
-					89.0039999999999, -- [1]
-					89.0039999999999, -- [2]
-					89.0039999999999, -- [3]
-					["source"] = "[*] Odyn's Gaze",
-					["active"] = true,
-				},
-			},
-			["Shootboys-Arthas"] = {
-				[57723] = {
-					89.0039999999999, -- [1]
-					["source"] = "Shootboys-Arthas",
-					["active"] = true,
-				},
-			},
-			["Bartz-Lightbringer"] = {
-				[246807] = {
-					89.0039999999999, -- [1]
-					89.0039999999999, -- [2]
-					["source"] = "Sindorei-Stormreaver",
-					["active"] = false,
-				},
-			},
-			["Larau-Shadowsong"] = {
-				[80354] = {
-					89.0039999999999, -- [1]
-					["source"] = "Larau-Shadowsong",
-					["active"] = true,
 				},
 			},
 			["Elysandria-KulTiras"] = {
@@ -297,6 +240,27 @@ DetailsTimeLineDB = {
 					["source"] = "Enslaved Shieldmaiden",
 					["active"] = false,
 				},
+				[204059] = {
+					72.009, -- [1]
+					["source"] = "[*] Kvaldir Cage",
+					["active"] = true,
+				},
+				[201566] = {
+					5.57300000000032, -- [1]
+					8.34699999999975, -- [2]
+					22.223, -- [3]
+					26.9980000000005, -- [4]
+					29.1270000000004, -- [5]
+					34.8500000000004, -- [6]
+					["source"] = "Seacursed Slaver",
+					["active"] = false,
+				},
+				[199185] = {
+					1.76299999999992, -- [1]
+					7.76299999999992, -- [2]
+					["source"] = "Cursed Falke",
+					["active"] = false,
+				},
 				[200208] = {
 					6.68900000000031, -- [1]
 					8.73000000000047, -- [2]
@@ -312,27 +276,6 @@ DetailsTimeLineDB = {
 					36.4530000000004, -- [6]
 					["source"] = "Seacursed Slaver",
 					["active"] = false,
-				},
-				[199185] = {
-					1.76299999999992, -- [1]
-					7.76299999999992, -- [2]
-					["source"] = "Cursed Falke",
-					["active"] = false,
-				},
-				[201566] = {
-					5.57300000000032, -- [1]
-					8.34699999999975, -- [2]
-					22.223, -- [3]
-					26.9980000000005, -- [4]
-					29.1270000000004, -- [5]
-					34.8500000000004, -- [6]
-					["source"] = "Seacursed Slaver",
-					["active"] = false,
-				},
-				[204059] = {
-					72.009, -- [1]
-					["source"] = "[*] Kvaldir Cage",
-					["active"] = true,
 				},
 			},
 			["Thorenne-Stormrage"] = {
@@ -447,12 +390,69 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
+			["Nekkoe-Arthas"] = {
+				{
+					18.6100000000006, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					102342, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
+			["Nekkoe-Arthas"] = {
+				{
+					19.8230000000003, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
+				}, -- [1]
+				{
+					28.7830000000004, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					102342, -- [3]
+				}, -- [2]
+			},
+			["Lupusdabear-Arathor"] = {
+				{
+					4.53800000000047, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					61336, -- [3]
+				}, -- [1]
+				{
+					6.47500000000036, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					22842, -- [3]
+				}, -- [2]
+				{
+					14.1379999999999, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					22842, -- [3]
+				}, -- [3]
+				{
+					17.1010000000006, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					22842, -- [3]
+				}, -- [4]
+				{
+					28.9560000000001, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					22842, -- [3]
+				}, -- [5]
+				{
+					38.0370000000003, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					22812, -- [3]
+				}, -- [6]
+				{
+					50.6900000000005, -- [1]
+					"Lupusdabear-Arathor", -- [2]
+					22842, -- [3]
+				}, -- [7]
+			},
 		}, -- [3]
 		{
 		}, -- [4]

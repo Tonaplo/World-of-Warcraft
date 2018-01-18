@@ -41,6 +41,14 @@ L["KEYSTONE_COMPLETED_10"] = "+10 (쐐기클)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (쐐기클)"
 L["MAINS_SCORE"] = "메인 점수"
 L["MAINS_SCORE_COLON"] = "메인 점수"
+--Translation missing 
+-- L["MODULE_AMERICAS"] = ""
+--Translation missing 
+-- L["MODULE_EUROPE"] = ""
+--Translation missing 
+-- L["MODULE_KOREA"] = ""
+--Translation missing 
+-- L["MODULE_TAIWAN"] = ""
 L["MYTHIC_PLUS_DB_MODULES"] = "Mythic Plus 데이터베이스 모듈"
 L["MYTHIC_PLUS_SCORES"] = "Mythic Plus 점수"
 L["OPEN_CONFIG"] = "설정 열기"

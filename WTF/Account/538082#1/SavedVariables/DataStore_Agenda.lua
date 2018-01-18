@@ -14,32 +14,26 @@ DataStore_AgendaDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2018-01-16",
+			["NextWeeklyReset"] = "2018-01-23",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|260756784"] = "127018|1515987781|0|0",
-				},
-				["lastUpdate"] = 1515988086,
+				["lastUpdate"] = 1516259793,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
 					"2018-01-18|19:00|Heroic Antorus|1|9", -- [1]
 				},
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Mythic|343708560"] = "26406|1516088391|0|1",
-				},
-				["lastUpdate"] = 1516088604,
+				["lastUpdate"] = 1516262981,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -48,16 +42,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343728689"] = "243385|1515871401|0|0",
-				},
-				["lastUpdate"] = 1515871427,
+				["lastUpdate"] = 1516263289,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|678810669"] = "26703|1516088094|0|0",
-				},
-				["lastUpdate"] = 1516088278,
+				["lastUpdate"] = 1516258228,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -67,48 +55,33 @@ DataStore_AgendaDB = {
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343673079"] = "128238|1515986564|0|0",
+					["Antorus, the Burning Throne Looking For Raid|4240000567"] = "456577|1516263016|0|1",
 				},
-				["lastUpdate"] = 1515986560,
+				["lastUpdate"] = 1516263088,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343645362"] = "243306|1515871481|0|0",
-				},
-				["lastUpdate"] = 1515871492,
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427638,
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1514963648,
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343674901"] = "127194|1515987605|0|0",
-				},
-				["lastUpdate"] = 1515987712,
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|343711935"] = "128201|1515986599|0|0",
-				},
-				["lastUpdate"] = 1515986671,
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|260759087"] = "243337|1515871450|0|0",
-				},
-				["lastUpdate"] = 1515871450,
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["DungeonIDs"] = {
-					["Maw of Souls Mythic|284461297"] = "133807|1515980992|0|0",
-				},
-				["lastUpdate"] = 1515981648,
+				["lastUpdate"] = 1516260560,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1515871543,
+				["lastUpdate"] = 1516261206,
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1516262495,
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1516262729,
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1516263216,
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1516260278,
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1516263357,
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1516257522,
 			},
 		},
 	},

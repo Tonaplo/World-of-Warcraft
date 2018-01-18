@@ -11,8 +11,8 @@ L["ALLOW_ON_PLAYER_UNITS"] = "Autoriser pour les cadres d'unité"
 L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Ajoute une option pour copier l'url du profil Raider.IO dans le menu bouton droit d'un cadre d'unité."
 L["ALWAYS_SHOW_EXTENDED_INFO"] = "Toujours afficher les scores des rôles"
 L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Garder une des touches (shift/ctrl/alt) permet d'afficher les scores des différents rôles du joueur. Si on active cette option, alors l'info-bulle possédera toujours les scores des rôles."
-L["BEST_FOR_DUNGEON"] = "Meilleur clé pour le donjon"
-L["BEST_RUN"] = "Meilleur clé"
+L["BEST_FOR_DUNGEON"] = "Meilleure clé pour le donjon"
+L["BEST_RUN"] = "Meilleure clé"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Vos changements ont été sauvegardé, mais il faut recharger l'interface pour qu'elles prennent effets.
 
 Voulez-vous faire cela maintenant ?]=]
@@ -43,6 +43,14 @@ L["KEYSTONE_COMPLETED_10"] = "+10-14 (CM)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (MM)"
 L["MAINS_SCORE"] = "Score du personnage principal"
 L["MAINS_SCORE_COLON"] = "Score du personnage principal :"
+--Translation missing 
+-- L["MODULE_AMERICAS"] = ""
+--Translation missing 
+-- L["MODULE_EUROPE"] = ""
+--Translation missing 
+-- L["MODULE_KOREA"] = ""
+--Translation missing 
+-- L["MODULE_TAIWAN"] = ""
 L["MYTHIC_PLUS_DB_MODULES"] = "Module Données Mythique+"
 L["MYTHIC_PLUS_SCORES"] = "Scores Mythique+ "
 L["OPEN_CONFIG"] = "Ouvrir la configuration"
