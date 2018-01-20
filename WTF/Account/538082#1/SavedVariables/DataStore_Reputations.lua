@@ -22,7 +22,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1516259790,
+				["lastUpdate"] = 1516383733,
 				["Factions"] = {
 					8525, -- [1]
 					8425, -- [2]
@@ -35,7 +35,7 @@ DataStore_ReputationsDB = {
 					[112] = 8525,
 					[140] = 28670,
 					[142] = 2550,
-					[141] = 10460,
+					[141] = 10535,
 					[134] = 15985,
 					[75] = 8725,
 					[135] = 19417,
@@ -48,7 +48,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1516262939,
+				["lastUpdate"] = 1516378239,
 				["Factions"] = {
 					42000, -- [1]
 					42000, -- [2]
@@ -167,7 +167,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1516263245,
+				["lastUpdate"] = 1516383805,
 				["guildName"] = "Risen",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -191,7 +191,7 @@ DataStore_ReputationsDB = {
 					[57] = 195,
 					[126] = 400,
 					[137] = 11372,
-					[141] = 8312,
+					[141] = 8387,
 					[55] = 2300,
 					[130] = 4500,
 					[142] = 1125,
@@ -257,16 +257,16 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Imperium",
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
-				["lastUpdate"] = 1493618498,
+				["lastUpdate"] = 1516407543,
 				["Factions"] = {
-					[113] = 3471,
-					[7] = 871,
-					[8] = 871,
-					[10] = 3471,
-					[6] = 871,
-					[9] = 8545,
-					[76] = 3871,
-					[78] = 3471,
+					[113] = 3626,
+					[7] = 1026,
+					[8] = 1026,
+					[10] = 3626,
+					[6] = 1026,
+					[9] = 12465,
+					[76] = 4026,
+					[78] = 3626,
 				},
 			},
 			["Default.Proudmoore.Amranar"] = {
@@ -311,7 +311,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1516260552,
+				["lastUpdate"] = 1516383963,
 				["Factions"] = {
 					4000, -- [1]
 					3000, -- [2]
@@ -322,7 +322,7 @@ DataStore_ReputationsDB = {
 					[139] = 5975,
 					[140] = 27410,
 					[142] = 2400,
-					[141] = 10560,
+					[141] = 10635,
 					[134] = 11700,
 					[62] = 21167,
 					[135] = 15340,
@@ -337,7 +337,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1516261206,
+				["lastUpdate"] = 1516384134,
 				["Factions"] = {
 					[131] = 5200,
 					[135] = 20267,
@@ -353,7 +353,7 @@ DataStore_ReputationsDB = {
 					[76] = 3500,
 					[78] = 125,
 					[113] = 3225,
-					[137] = 15810,
+					[137] = 15885,
 					[141] = 8657,
 					[6] = 3225,
 					[134] = 13535,
@@ -407,7 +407,7 @@ DataStore_ReputationsDB = {
 				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1516262685,
+				["lastUpdate"] = 1516384179,
 				["Factions"] = {
 					8999, -- [1]
 					8999, -- [2]
@@ -441,7 +441,7 @@ DataStore_ReputationsDB = {
 					[100] = 42000,
 					[136] = 7558,
 					[101] = 1435,
-					[137] = 21778,
+					[137] = 21861,
 					[59] = 1950,
 					[18] = 1500,
 					[40] = 13581,
@@ -506,7 +506,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1516260267,
+				["lastUpdate"] = 1516383873,
 				["guildName"] = "Risen",
 				["guildRep"] = 42000,
 				["Factions"] = {
@@ -525,7 +525,7 @@ DataStore_ReputationsDB = {
 					[140] = 29335,
 					[20] = 500,
 					[40] = 1232,
-					[137] = 8275,
+					[137] = 8350,
 					[141] = 6672,
 					[122] = 7500,
 					[112] = 4500,
@@ -543,7 +543,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1516263313,
+				["lastUpdate"] = 1516384015,
 				["guildName"] = "Imperial Alliance",
 				["guildRep"] = 19625,
 				["Factions"] = {
@@ -587,15 +587,15 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1516257239,
+				["lastUpdate"] = 1516390434,
 				["Factions"] = {
-					[7] = 20352,
+					[7] = 24062,
 					[78] = 18061,
 					[8] = 8999,
-					[9] = 6404,
-					[10] = 7106,
+					[9] = 9247,
+					[10] = 8836,
 					[20] = 1000,
-					[76] = 9404,
+					[76] = 11134,
 					[6] = 9442,
 					[113] = 8999,
 				},

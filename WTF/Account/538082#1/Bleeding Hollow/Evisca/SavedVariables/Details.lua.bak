@@ -1,5 +1,2300 @@
 
 _detalhes_database = {
+	["savedbuffs"] = {
+	},
+	["mythic_dungeon_id"] = 0,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["combatId"] = 22,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008544,
+							["damage_from"] = {
+								["Rotting Ancestor"] = true,
+							},
+							["targets"] = {
+								["Rotting Ancestor"] = 589,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 589.008544,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1516402661,
+							["friendlyfire_total"] = 0,
+							["spec"] = 256,
+							["nome"] = "Evisca",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[589] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 34,
+										["targets"] = {
+											["Rotting Ancestor"] = 68,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 68,
+										["n_min"] = 34,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 68,
+										["c_max"] = 0,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[47666] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 261,
+										["g_amt"] = 0,
+										["n_max"] = 130,
+										["targets"] = {
+											["Rotting Ancestor"] = 521,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 260,
+										["n_min"] = 130,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 521,
+										["c_max"] = 261,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["spellschool"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 261,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 589.008544,
+							["serial"] = "Player-73-0AA5C8C6",
+							["last_dps"] = 28.4256813860466,
+							["custom"] = 0,
+							["last_event"] = 1516402661,
+							["damage_taken"] = 210.008544,
+							["start_time"] = 1516402657,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 22,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 22,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 26.007975,
+							["resource"] = 0.007975,
+							["targets"] = {
+								["Evisca"] = 26,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["total"] = 26.007975,
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1516402661,
+							["alternatepower"] = 0.007975,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[589] = {
+										["id"] = 589,
+										["total"] = 4,
+										["targets"] = {
+											["Evisca"] = 4,
+										},
+										["counter"] = 1,
+									},
+									[59914] = {
+										["id"] = 59914,
+										["total"] = 22,
+										["targets"] = {
+											["Evisca"] = 22,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 22,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[589] = {
+										["activedamt"] = 0,
+										["id"] = 589,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 21,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[186406] = {
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[17] = {
+										["activedamt"] = 1,
+										["id"] = 17,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47666] = 2,
+								[589] = 1,
+								[17] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1516402661,
+							["nome"] = "Evisca",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 22,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Evisca"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Rotting Ancestor",
+				["combat_counter"] = 50,
+				["playing_solo"] = true,
+				["totals"] = {
+					588.970813, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 33.99136,
+						["alternatepower"] = 0,
+						[3] = -8.00464,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Evisca"] = 589.008544,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 163109.79,
+				["combat_id"] = 22,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Rotting Ancestor"] = 1,
+				},
+				["data_fim"] = "14:57:41",
+				["data_inicio"] = "14:57:21",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					589, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 26,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 163089.069,
+				["contra"] = "Rotting Ancestor",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.008544, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						34, -- [17]
+						0, -- [18]
+						164, -- [19]
+						130, -- [20]
+						["max_value"] = 164,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						34, -- [17]
+						0, -- [18]
+						164, -- [19]
+						130, -- [20]
+						["max_value"] = 164,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 21,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001108,
+							["damage_from"] = {
+								["Rot Hide Mongrel"] = true,
+							},
+							["targets"] = {
+								["Rot Hide Mongrel"] = 558,
+							},
+							["pets"] = {
+							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 558.001108,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["total"] = 558.001108,
+							["classe"] = "PRIEST",
+							["spells"] = {
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 259,
+										["g_amt"] = 0,
+										["n_max"] = 128,
+										["targets"] = {
+											["Rot Hide Mongrel"] = 387,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 128,
+										["n_min"] = 128,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 387,
+										["c_max"] = 259,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["c_min"] = 259,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 2,
+									},
+									[589] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 68,
+										["g_amt"] = 0,
+										["n_max"] = 33,
+										["targets"] = {
+											["Rot Hide Mongrel"] = 101,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 33,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 101,
+										["c_max"] = 68,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["c_min"] = 68,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 70,
+										["targets"] = {
+											["Rot Hide Mongrel"] = 70,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 70,
+										["n_min"] = 70,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 70,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["end_time"] = 1516398397,
+							["damage_taken"] = 36.001108,
+							["last_dps"] = 38.1669704514486,
+							["colocacao"] = 1,
+							["last_event"] = 1516398397,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1516398394,
+							["serial"] = "Player-73-0AA5C8C6",
+							["on_hold"] = false,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 21,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Evisca"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PRIEST",
+							["totalover"] = 0.002398,
+							["total_without_pet"] = 2.002398,
+							["total"] = 2.002398,
+							["spec"] = 256,
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0AA5C8C6",
+							["totalabsorb"] = 0.002398,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Evisca"] = 2,
+							},
+							["totalover_without_pet"] = 0.002398,
+							["healing_taken"] = 2.002398,
+							["fight_component"] = true,
+							["end_time"] = 1516398397,
+							["targets_overheal"] = {
+							},
+							["nome"] = "Evisca",
+							["spells"] = {
+								["_ActorTable"] = {
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2,
+										["targets"] = {
+											["Evisca"] = 2,
+										},
+										["n_min"] = 2,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 2,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1516398397,
+							["heal_enemy_amt"] = 0,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.002398,
+							["start_time"] = 1516398397,
+							["delay"] = 0,
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 21,
+					["_ActorTable"] = {
+						{
+							["received"] = 25.007591,
+							["resource"] = 0.007591,
+							["targets"] = {
+								["Evisca"] = 25,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["fight_component"] = true,
+							["total"] = 25.007591,
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1516398397,
+							["alternatepower"] = 0.007591,
+							["spells"] = {
+								["_ActorTable"] = {
+									[589] = {
+										["id"] = 589,
+										["total"] = 4,
+										["targets"] = {
+											["Evisca"] = 4,
+										},
+										["counter"] = 1,
+									},
+									[59914] = {
+										["id"] = 59914,
+										["total"] = 21,
+										["targets"] = {
+											["Evisca"] = 21,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 21,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[589] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 589,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 14,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[179244] = {
+										["activedamt"] = 1,
+										["id"] = 179244,
+										["targets"] = {
+										},
+										["actived_at"] = 1516398383,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 3,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[589] = 1,
+								[47666] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1516398397,
+							["nome"] = "Evisca",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 21,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Evisca"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Rot Hide Mongrel",
+				["combat_counter"] = 48,
+				["playing_solo"] = true,
+				["totals"] = {
+					557.993729, -- [1]
+					2, -- [2]
+					{
+						0, -- [1]
+						[0] = 25,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Evisca"] = 558.001108,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Evisca"] = 2.002398,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 158846.108,
+				["combat_id"] = 21,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.001108, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						33, -- [12]
+						0, -- [13]
+						525, -- [14]
+						["max_value"] = 525,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						33, -- [12]
+						0, -- [13]
+						525, -- [14]
+						["max_value"] = 525,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Rot Hide Mongrel"] = 1,
+				},
+				["data_fim"] = "13:46:38",
+				["data_inicio"] = "13:46:23",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					558, -- [1]
+					2, -- [2]
+					{
+						0, -- [1]
+						[0] = 25,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158831.488,
+				["contra"] = "Rot Hide Mongrel",
+				["instance_type"] = "none",
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 20,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001712,
+							["damage_from"] = {
+								["Vampiric Duskbat"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["spec"] = 256,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.001712,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1516398317,
+							["friendlyfire_total"] = 0,
+							["damage_taken"] = 19.001712,
+							["nome"] = "Evisca",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["start_time"] = 1516398317,
+							["serial"] = "Player-73-0AA5C8C6",
+							["total"] = 0.001712,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 20,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 20,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 20,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 15,
+							["classe"] = "PRIEST",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[179244] = {
+										["activedamt"] = 1,
+										["id"] = 179244,
+										["targets"] = {
+										},
+										["actived_at"] = 1516398302,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["last_event"] = 1516398317,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 20,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Evisca"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Vampiric Duskbat",
+				["combat_counter"] = 47,
+				["playing_solo"] = true,
+				["totals"] = {
+					-0.00146900000000016, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Evisca"] = 0.001712,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 158765.762,
+				["combat_id"] = 20,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.001712, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						["max_value"] = 0.001712,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "13:45:17",
+				["data_inicio"] = "13:45:02",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158750.435,
+				["contra"] = "Vampiric Duskbat",
+				["instance_type"] = "none",
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 19,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007942,
+							["damage_from"] = {
+								["Vile Fin Murloc"] = true,
+								["Vile Fin Muckdweller"] = true,
+							},
+							["targets"] = {
+								["Vile Fin Murloc"] = 1412,
+								["Vile Fin Muckdweller"] = 757,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2169.007942,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 2169.007942,
+							["damage_taken"] = 298.007942,
+							["spells"] = {
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 130,
+										["targets"] = {
+											["Vile Fin Murloc"] = 260,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 260,
+										["n_min"] = 130,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 260,
+										["c_max"] = 0,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 2,
+									},
+									[589] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 408,
+										["g_amt"] = 0,
+										["n_max"] = 35,
+										["targets"] = {
+											["Vile Fin Murloc"] = 1152,
+											["Vile Fin Muckdweller"] = 569,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1313,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 45,
+										["total"] = 1721,
+										["c_max"] = 68,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["c_min"] = 68,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 39,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 69,
+										["targets"] = {
+											["Vile Fin Muckdweller"] = 69,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 69,
+										["n_min"] = 69,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 69,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 119,
+										["targets"] = {
+											["Vile Fin Muckdweller"] = 119,
+											["Vile Fin Murloc"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 119,
+										["n_min"] = 119,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 119,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["EVADE"] = 2,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 1,
+										["spellschool"] = 2,
+										["id"] = 585,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["last_dps"] = 101.716748358689,
+							["end_time"] = 1516398211,
+							["colocacao"] = 1,
+							["last_event"] = 1516398210,
+							["on_hold"] = false,
+							["start_time"] = 1516398189,
+							["serial"] = "Player-73-0AA5C8C6",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 19,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Evisca"] = 392,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PRIEST",
+							["totalover"] = 392.001307,
+							["total_without_pet"] = 298.001307,
+							["total"] = 298.001307,
+							["targets_absorbs"] = {
+								["Evisca"] = 210,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0AA5C8C6",
+							["totalabsorb"] = 210.001307,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Evisca"] = 690,
+							},
+							["totalover_without_pet"] = 0.001307,
+							["healing_taken"] = 298.001307,
+							["fight_component"] = true,
+							["end_time"] = 1516398211,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Evisca",
+							["spells"] = {
+								["_ActorTable"] = {
+									[47750] = {
+										["c_amt"] = 1,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Evisca"] = 349,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Evisca"] = 62,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 349,
+										["total"] = 62,
+										["c_max"] = 62,
+										["id"] = 47750,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 62,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 62,
+										["totaldenied"] = 0,
+										["n_amt"] = 0,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 210,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 35,
+										["targets"] = {
+											["Evisca"] = 210,
+										},
+										["n_min"] = 12,
+										["counter"] = 13,
+										["overheal"] = 0,
+										["total"] = 210,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Evisca"] = 210,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 13,
+										["n_curado"] = 210,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Evisca"] = 43,
+										},
+										["n_max"] = 26,
+										["targets"] = {
+											["Evisca"] = 26,
+										},
+										["n_min"] = 26,
+										["counter"] = 1,
+										["overheal"] = 43,
+										["total"] = 26,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 26,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Evisca"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1516398209,
+							["totaldenied"] = 0.001307,
+							["start_time"] = 1516398194,
+							["delay"] = 0,
+							["spec"] = 256,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 19,
+					["_ActorTable"] = {
+						{
+							["received"] = 112.005137,
+							["resource"] = 0.005137,
+							["targets"] = {
+								["Evisca"] = 112,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["fight_component"] = true,
+							["total"] = 112.005137,
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1516398254,
+							["alternatepower"] = 0.005137,
+							["spells"] = {
+								["_ActorTable"] = {
+									[589] = {
+										["id"] = 589,
+										["total"] = 28,
+										["targets"] = {
+											["Evisca"] = 28,
+										},
+										["counter"] = 7,
+									},
+									[59914] = {
+										["id"] = 59914,
+										["total"] = 84,
+										["targets"] = {
+											["Evisca"] = 84,
+										},
+										["counter"] = 4,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 19,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[589] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 1,
+										["id"] = 589,
+										["uptime"] = 22,
+										["targets"] = {
+										},
+										["appliedamt"] = 6,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 35,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 22,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[17] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 17,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 22,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47666] = 1,
+								[589] = 6,
+								[17] = 1,
+								[585] = 3,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1516398211,
+							["nome"] = "Evisca",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 19,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Evisca"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Vile Fin Murloc",
+				["combat_counter"] = 45,
+				["playing_solo"] = true,
+				["totals"] = {
+					2168.989738, -- [1]
+					298, -- [2]
+					{
+						0, -- [1]
+						[0] = 112,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Evisca"] = 2624.010263,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Evisca"] = 313.00236,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 158659.669,
+				["combat_id"] = 19,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						33.007942, -- [1]
+						103, -- [2]
+						0, -- [3]
+						99, -- [4]
+						103, -- [5]
+						101, -- [6]
+						67, -- [7]
+						201, -- [8]
+						68, -- [9]
+						135, -- [10]
+						300, -- [11]
+						232, -- [12]
+						102, -- [13]
+						220, -- [14]
+						134, -- [15]
+						34, -- [16]
+						102, -- [17]
+						34.0000000000002, -- [18]
+						67, -- [19]
+						0, -- [20]
+						34, -- [21]
+						["max_value"] = 300,
+					},
+					["Raid Damage Done"] = {
+						33, -- [1]
+						103, -- [2]
+						0, -- [3]
+						99, -- [4]
+						103, -- [5]
+						101, -- [6]
+						67, -- [7]
+						201, -- [8]
+						68, -- [9]
+						135, -- [10]
+						300, -- [11]
+						232, -- [12]
+						102, -- [13]
+						220, -- [14]
+						134, -- [15]
+						34, -- [16]
+						102, -- [17]
+						34, -- [18]
+						67, -- [19]
+						0, -- [20]
+						34, -- [21]
+						["max_value"] = 300,
+					},
+				},
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Vile Fin Murloc"] = 3,
+					["Vile Fin Muckdweller"] = 2,
+				},
+				["data_fim"] = "13:43:31",
+				["data_inicio"] = "13:43:10",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2169, -- [1]
+					298, -- [2]
+					{
+						0, -- [1]
+						[0] = 112,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158638.345,
+				["contra"] = "Vile Fin Murloc",
+				["instance_type"] = "none",
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 18,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005818,
+							["damage_from"] = {
+								["Rot Hide Mongrel"] = true,
+								["Maggot Eye"] = true,
+							},
+							["targets"] = {
+								["Rot Hide Mongrel"] = 904,
+								["Maggot Eye"] = 822,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "PRIEST",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1726.005818,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 1726.005818,
+							["damage_taken"] = 262.005818,
+							["spells"] = {
+								["_ActorTable"] = {
+									[47666] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 208,
+										["g_amt"] = 0,
+										["n_max"] = 104,
+										["targets"] = {
+											["Maggot Eye"] = 416,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 208,
+										["n_min"] = 104,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 416,
+										["c_max"] = 208,
+										["id"] = 47666,
+										["r_dmg"] = 0,
+										["c_min"] = 208,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 2,
+									},
+									[589] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 216,
+										["g_amt"] = 0,
+										["n_max"] = 28,
+										["targets"] = {
+											["Rot Hide Mongrel"] = 516,
+											["Maggot Eye"] = 218,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 518,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 23,
+										["total"] = 734,
+										["c_max"] = 55,
+										["id"] = 589,
+										["r_dmg"] = 0,
+										["c_min"] = 53,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 19,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[127802] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 104,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Rot Hide Mongrel"] = 104,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 104,
+										["c_max"] = 104,
+										["id"] = 127802,
+										["r_dmg"] = 0,
+										["c_min"] = 104,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[585] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 95,
+										["targets"] = {
+											["Maggot Eye"] = 188,
+											["Rot Hide Mongrel"] = 284,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 472,
+										["n_min"] = 94,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 472,
+										["c_max"] = 0,
+										["id"] = 585,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 2,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["last_dps"] = 109.622471768848,
+							["end_time"] = 1516398139,
+							["colocacao"] = 1,
+							["last_event"] = 1516398138,
+							["on_hold"] = false,
+							["start_time"] = 1516398122,
+							["serial"] = "Player-73-0AA5C8C6",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 18,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Evisca"] = 30,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PRIEST",
+							["totalover"] = 30.005161,
+							["total_without_pet"] = 224.005161,
+							["total"] = 224.005161,
+							["targets_absorbs"] = {
+								["Evisca"] = 150,
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-73-0AA5C8C6",
+							["totalabsorb"] = 150.005161,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Evisca"] = 254,
+							},
+							["totalover_without_pet"] = 0.005161,
+							["healing_taken"] = 224.005161,
+							["fight_component"] = true,
+							["end_time"] = 1516398139,
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Evisca",
+							["spells"] = {
+								["_ActorTable"] = {
+									[127802] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Evisca"] = 30,
+										},
+										["n_max"] = 74,
+										["targets"] = {
+											["Evisca"] = 74,
+										},
+										["n_min"] = 74,
+										["counter"] = 1,
+										["overheal"] = 30,
+										["total"] = 74,
+										["c_max"] = 0,
+										["id"] = 127802,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 74,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+									[17] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 150,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 25,
+										["targets"] = {
+											["Evisca"] = 150,
+										},
+										["n_min"] = 11,
+										["counter"] = 9,
+										["overheal"] = 0,
+										["total"] = 150,
+										["c_max"] = 0,
+										["id"] = 17,
+										["targets_absorbs"] = {
+											["Evisca"] = 150,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 150,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["healing_from"] = {
+								["Evisca"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1516398137,
+							["totaldenied"] = 0.005161,
+							["start_time"] = 1516398128,
+							["delay"] = 0,
+							["spec"] = 256,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 18,
+					["_ActorTable"] = {
+						{
+							["received"] = 29.006362,
+							["resource"] = 0.006362,
+							["targets"] = {
+								["Evisca"] = 29,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PRIEST",
+							["fight_component"] = true,
+							["total"] = 29.006362,
+							["nome"] = "Evisca",
+							["spec"] = 256,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1516398189,
+							["alternatepower"] = 0.006362,
+							["spells"] = {
+								["_ActorTable"] = {
+									[589] = {
+										["id"] = 589,
+										["total"] = 12,
+										["targets"] = {
+											["Evisca"] = 12,
+										},
+										["counter"] = 3,
+									},
+									[59914] = {
+										["id"] = 59914,
+										["total"] = 17,
+										["targets"] = {
+											["Evisca"] = 17,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 18,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[589] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 589,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 27,
+							["classe"] = "PRIEST",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 17,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[17] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 17,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 16,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 256,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[47666] = 2,
+								[589] = 2,
+								[17] = 1,
+								[585] = 5,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1516398139,
+							["nome"] = "Evisca",
+							["pets"] = {
+							},
+							["serial"] = "Player-73-0AA5C8C6",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 18,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Evisca"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Rot Hide Mongrel",
+				["combat_counter"] = 44,
+				["playing_solo"] = true,
+				["totals"] = {
+					1725.986047, -- [1]
+					223.992471, -- [2]
+					{
+						0, -- [1]
+						[0] = 29,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Evisca"] = 1726.005818,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Evisca"] = 224.005161,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 158588.152,
+				["combat_id"] = 18,
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						26.005818, -- [1]
+						56, -- [2]
+						54, -- [3]
+						82, -- [4]
+						132, -- [5]
+						262, -- [6]
+						235, -- [7]
+						54, -- [8]
+						27, -- [9]
+						148, -- [10]
+						28, -- [11]
+						174, -- [12]
+						121, -- [13]
+						83, -- [14]
+						121, -- [15]
+						123, -- [16]
+						["max_value"] = 262,
+					},
+					["Raid Damage Done"] = {
+						26, -- [1]
+						56, -- [2]
+						54, -- [3]
+						82, -- [4]
+						132, -- [5]
+						262, -- [6]
+						235, -- [7]
+						54, -- [8]
+						27, -- [9]
+						148, -- [10]
+						28, -- [11]
+						174, -- [12]
+						121, -- [13]
+						83, -- [14]
+						121, -- [15]
+						123, -- [16]
+						["max_value"] = 262,
+					},
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Rot Hide Mongrel"] = 2,
+					["Maggot Eye"] = 1,
+				},
+				["data_fim"] = "13:42:20",
+				["data_inicio"] = "13:42:03",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1726, -- [1]
+					224, -- [2]
+					{
+						0, -- [1]
+						[0] = 29,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 158571.19,
+				["contra"] = "Rot Hide Mongrel",
+				["instance_type"] = "none",
+			}, -- [5]
+		},
+	},
+	["last_version"] = "v7.3.0.5183",
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["tabela_instancias"] = {
+	},
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -415.572357177734,
+					["x"] = 519.432189941406,
+					["w"] = 291.347473144531,
+					["h"] = 166.230163574219,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -415.572357177734,
+					["x"] = 810.779724121094,
+					["w"] = 291.347351074219,
+					["h"] = 166.230163574219,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 0,
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -7,15 +2302,13 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["announce_prepots"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
+	["last_instance_time"] = 0,
 	["active_profile"] = "Base",
-	["last_realversion"] = 116,
-	["ignore_nicktag"] = false,
-	["combat_counter"] = 2,
+	["last_day"] = "19",
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -37,7 +2330,7 @@ _detalhes_database = {
 				true, -- [3]
 				true, -- [4]
 			},
-			["first_run"] = false,
+			["first_run"] = true,
 			["endurance_threshold"] = 3,
 			["max_deaths_for_timeline"] = 5,
 			["deaths_threshold"] = 10,
@@ -104,10 +2397,10 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["useclasscolors"] = false,
 			["animate"] = false,
-			["useplayercolor"] = false,
 			["showamount"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
 			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
@@ -116,14 +2409,21 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -174,8 +2474,8 @@ _detalhes_database = {
 				0.5, -- [4]
 			},
 			["main_frame_size"] = {
-				300.000091552734, -- [1]
-				500.000030517578, -- [2]
+				400, -- [1]
+				225.000045776367, -- [2]
 			},
 			["minimap"] = {
 				["minimapPos"] = 257.197959678567,
@@ -185,82 +2485,76 @@ _detalhes_database = {
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
 			["scale"] = 1,
-			["point"] = "CENTER",
-			["y"] = 1.525878906250e-005,
-			["enabled"] = false,
+			["row_height"] = 21,
+			["point"] = "TOPLEFT",
+			["enabled"] = true,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
-				0.2, -- [4]
+				0, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["row_height"] = 20,
+			["y"] = -22.6146240234375,
 			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
+				["enabled"] = true,
+				["point"] = "TOPLEFT",
 				["scale"] = 1,
 				["font_shadow"] = true,
-				["y"] = 0,
-				["x"] = 0,
-				["update_speed"] = 0.05,
+				["y"] = -269.982299804688,
+				["x"] = 14.120078086853,
 				["size"] = 32,
-				["attribute_type"] = 1,
+				["update_speed"] = 0.0480000004172325,
+				["attribute_type"] = 2,
 			},
-			["x"] = 3.05175781250e-005,
-			["font_face"] = "Friz Quadrata TT",
+			["x"] = 0,
+			["font_face"] = "Prototype",
+			["use_spark"] = false,
+			["font_size"] = 14,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
+			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
-			["use_spark"] = true,
-			["main_frame_locked"] = false,
-			["font_size"] = 10,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
 		},
 	},
-	["savedbuffs"] = {
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
 	},
-	["character_data"] = {
-		["logons"] = 1,
-	},
-	["force_font_outline"] = "",
-	["tabela_historico"] = {
-		["tabelas"] = {
-		},
-	},
-	["last_day"] = "30",
-	["nick_tag_cache"] = {
-		["nextreset"] = 1494914490,
-		["last_version"] = 8,
-	},
-	["tabela_instancias"] = {
-	},
-	["combat_id"] = 0,
+	["ignore_nicktag"] = false,
+	["last_realversion"] = 128,
+	["combat_counter"] = 50,
+	["combat_id"] = 22,
 	["savedStyles"] = {
 	},
-	["cached_talents"] = {
-		["Player-73-0AA5C8C6"] = {
-		},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
 	},
-	["last_instance_time"] = 0,
+	["nick_tag_cache"] = {
+		["nextreset"] = 1517688799,
+		["last_version"] = 9,
+	},
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -271,21 +2565,539 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.095964,
+					["damage_from"] = {
+						["Cursed Darkhound"] = true,
+						["Scarlet Zealot"] = true,
+						["Scarlet Missionary"] = true,
+						["Rot Hide Gnoll"] = true,
+						["Rotting Ancestor"] = true,
+						["Rot Hide Graverobber"] = true,
+						["Ravaged Corpse"] = true,
+						["Maggot Eye"] = true,
+						["Rot Hide Mongrel"] = true,
+						["Vile Fin Murloc"] = true,
+						["Vampiric Duskbat"] = true,
+						["Rotting Dead"] = true,
+						["Vile Fin Muckdweller"] = true,
+					},
+					["targets"] = {
+						["Cursed Darkhound"] = 2180,
+						["Scarlet Zealot"] = 1759,
+						["Scarlet Missionary"] = 666,
+						["Rot Hide Gnoll"] = 2100,
+						["Rotting Ancestor"] = 589,
+						["Rot Hide Graverobber"] = 2784,
+						["Ravaged Corpse"] = 771,
+						["Maggot Eye"] = 822,
+						["Rot Hide Mongrel"] = 3494,
+						["Vile Fin Murloc"] = 1412,
+						["Vampiric Duskbat"] = 321,
+						["Rotting Dead"] = 952,
+						["Vile Fin Muckdweller"] = 757,
+					},
+					["pets"] = {
+					},
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 18607.095964,
+					["friendlyfire"] = {
+					},
+					["last_event"] = 0,
+					["dps_started"] = false,
+					["total"] = 18607.095964,
+					["classe"] = "PRIEST",
+					["serial"] = "Player-73-0AA5C8C6",
+					["nome"] = "Evisca",
+					["spells"] = {
+						["_ActorTable"] = {
+							[47666] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 728,
+								["g_amt"] = 0,
+								["n_max"] = 130,
+								["targets"] = {
+									["Rot Hide Graverobber"] = 297,
+									["Rot Hide Mongrel"] = 591,
+									["Vile Fin Murloc"] = 260,
+									["Rotting Ancestor"] = 521,
+									["Rot Hide Gnoll"] = 816,
+									["Maggot Eye"] = 416,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2173,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 23,
+								["total"] = 2901,
+								["c_max"] = 261,
+								["id"] = 47666,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 20,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[589] = {
+								["c_amt"] = 39,
+								["b_amt"] = 0,
+								["c_dmg"] = 2123,
+								["g_amt"] = 0,
+								["n_max"] = 35,
+								["targets"] = {
+									["Cursed Darkhound"] = 1221,
+									["Scarlet Zealot"] = 719,
+									["Scarlet Missionary"] = 540,
+									["Rot Hide Gnoll"] = 803,
+									["Rotting Ancestor"] = 68,
+									["Rot Hide Graverobber"] = 1654,
+									["Ravaged Corpse"] = 531,
+									["Maggot Eye"] = 218,
+									["Rot Hide Mongrel"] = 1779,
+									["Vile Fin Murloc"] = 1152,
+									["Vampiric Duskbat"] = 239,
+									["Rotting Dead"] = 509,
+									["Vile Fin Muckdweller"] = 569,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7879,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 341,
+								["total"] = 10002,
+								["c_max"] = 68,
+								["id"] = 589,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 302,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+							[585] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 854,
+								["g_amt"] = 0,
+								["n_max"] = 119,
+								["targets"] = {
+									["Cursed Darkhound"] = 817,
+									["Scarlet Zealot"] = 898,
+									["Scarlet Missionary"] = 82,
+									["Rot Hide Gnoll"] = 371,
+									["Rot Hide Graverobber"] = 728,
+									["Ravaged Corpse"] = 240,
+									["Maggot Eye"] = 188,
+									["Rot Hide Mongrel"] = 843,
+									["Vile Fin Murloc"] = 0,
+									["Vampiric Duskbat"] = 82,
+									["Rotting Dead"] = 398,
+									["Vile Fin Muckdweller"] = 119,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3912,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 52,
+								["total"] = 4766,
+								["c_max"] = 188,
+								["id"] = 585,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 45,
+								["r_amt"] = 0,
+								["EVADE"] = 2,
+							},
+							[127802] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 198,
+								["g_amt"] = 0,
+								["n_max"] = 70,
+								["targets"] = {
+									["Cursed Darkhound"] = 142,
+									["Rotting Dead"] = 45,
+									["Rot Hide Graverobber"] = 105,
+									["Rot Hide Mongrel"] = 281,
+									["Scarlet Zealot"] = 142,
+									["Scarlet Missionary"] = 44,
+									["Rot Hide Gnoll"] = 110,
+									["Vile Fin Muckdweller"] = 69,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 740,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 16,
+								["total"] = 938,
+								["c_max"] = 104,
+								["id"] = 127802,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 14,
+								["m_amt"] = 0,
+								["r_amt"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["end_time"] = 1516393139,
+					["on_hold"] = false,
+					["spec"] = 256,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 2826.095964,
+					["start_time"] = 1516392892,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Evisca"] = 0,
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 2168.070372,
+					["total_without_pet"] = 1694.070372,
+					["total"] = 1694.070372,
+					["targets_absorbs"] = {
+						["Evisca"] = 0,
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-73-0AA5C8C6",
+					["totalabsorb"] = 1041.070372,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Evisca"] = 0,
+					},
+					["totalover_without_pet"] = 0.070372,
+					["healing_taken"] = 1694.070372,
+					["fight_component"] = true,
+					["end_time"] = 1516393174,
+					["healing_from"] = {
+						["Evisca"] = true,
+					},
+					["nome"] = "Evisca",
+					["spells"] = {
+						["_ActorTable"] = {
+							[47750] = {
+								["c_amt"] = 1,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Evisca"] = 764,
+								},
+								["n_max"] = 25,
+								["targets"] = {
+									["Evisca"] = 121,
+								},
+								["n_min"] = 0,
+								["counter"] = 4,
+								["overheal"] = 764,
+								["total"] = 121,
+								["c_max"] = 62,
+								["id"] = 47750,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 62,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 3,
+								["n_curado"] = 59,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[2061] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Evisca"] = 196,
+								},
+								["n_max"] = 148,
+								["targets"] = {
+									["Evisca"] = 253,
+								},
+								["n_min"] = 0,
+								["counter"] = 2,
+								["overheal"] = 196,
+								["total"] = 253,
+								["c_max"] = 0,
+								["id"] = 2061,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 253,
+								["n_amt"] = 2,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[127802] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Evisca"] = 548,
+								},
+								["n_max"] = 74,
+								["targets"] = {
+									["Evisca"] = 279,
+								},
+								["n_min"] = 0,
+								["counter"] = 16,
+								["overheal"] = 548,
+								["total"] = 279,
+								["c_max"] = 0,
+								["id"] = 127802,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["n_curado"] = 279,
+								["n_amt"] = 16,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+							[17] = {
+								["c_amt"] = 3,
+								["totalabsorb"] = 1041,
+								["targets_overheal"] = {
+									["Evisca"] = 660,
+								},
+								["n_max"] = 35,
+								["targets"] = {
+									["Evisca"] = 381,
+								},
+								["n_min"] = 0,
+								["counter"] = 74,
+								["overheal"] = 660,
+								["total"] = 381,
+								["c_max"] = 0,
+								["id"] = 17,
+								["targets_absorbs"] = {
+									["Evisca"] = 1041,
+								},
+								["c_curado"] = -660,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = -273,
+								["n_curado"] = 1041,
+								["n_amt"] = 71,
+								["m_healed"] = 0,
+								["totaldenied"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+						["tipo"] = 3,
+					},
+					["grupo"] = true,
+					["spec"] = 256,
+					["classe"] = "PRIEST",
+					["custom"] = 0,
+					["last_event"] = 0,
+					["start_time"] = 1516393047,
+					["totaldenied"] = 0.070372,
+					["delay"] = 0,
+					["tipo"] = 2,
+				}, -- [1]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 482.090749,
+					["resource"] = 52.144311,
+					["targets"] = {
+						["Evisca"] = 26,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "PRIEST",
+					["alternatepower"] = 0.090749,
+					["nome"] = "Evisca",
+					["spec"] = 256,
+					["grupo"] = true,
+					["total"] = 482.090749,
+					["tipo"] = 3,
+					["last_event"] = 0,
+					["flag_original"] = 1297,
+					["serial"] = "Player-73-0AA5C8C6",
+					["spells"] = {
+						["_ActorTable"] = {
+							[589] = {
+								["id"] = 589,
+								["total"] = 164,
+								["targets"] = {
+									["Evisca"] = 4,
+								},
+								["counter"] = 41,
+							},
+							[59914] = {
+								["id"] = 59914,
+								["total"] = 318,
+								["targets"] = {
+									["Evisca"] = 22,
+								},
+								["counter"] = 18,
+							},
+						},
+						["tipo"] = 7,
+					},
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[589] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 0,
+								["appliedamt"] = 53,
+								["id"] = 589,
+								["uptime"] = 237,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["buff_uptime"] = 423,
+					["classe"] = "PRIEST",
+					["buff_uptime_spells"] = {
+						["_ActorTable"] = {
+							[186406] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 18,
+								["appliedamt"] = 18,
+								["id"] = 186406,
+								["uptime"] = 312,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[179244] = {
+								["counter"] = 0,
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["uptime"] = 24,
+								["id"] = 179244,
+								["appliedamt"] = 3,
+								["targets"] = {
+								},
+								["actived_at"] = 3032796685,
+							},
+							[17] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 13,
+								["appliedamt"] = 13,
+								["id"] = 17,
+								["uptime"] = 87,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+					["grupo"] = true,
+					["debuff_uptime"] = 237,
+					["debuff_uptime_targets"] = {
+					},
+					["pets"] = {
+					},
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 256,
+					["cc_break"] = 0,
+					["spell_cast"] = {
+						[17] = 10,
+						[47666] = 14,
+						[585] = 52,
+						[589] = 41,
+						[2061] = 2,
+						[47750] = 2,
+					},
+					["cc_break_oque"] = {
+					},
+					["nome"] = "Evisca",
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["cc_break_targets"] = {
+						["Worgen Infiltrator"] = 0,
+					},
+					["serial"] = "Player-73-0AA5C8C6",
+					["cc_break_spells"] = {
+						["_ActorTable"] = {
+							[47666] = {
+								["id"] = 47666,
+								["cc_break_oque"] = {
+								},
+								["targets"] = {
+									["Worgen Infiltrator"] = 0,
+								},
+								["counter"] = 0,
+							},
+							["BUFF"] = {
+								["id"] = "BUFF",
+								["cc_break_oque"] = {
+								},
+								["targets"] = {
+									["Worgen Infiltrator"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
+				}, -- [1]
 			},
 		}, -- [4]
 		{
@@ -293,156 +3105,211 @@ _detalhes_database = {
 			["_ActorTable"] = {
 			},
 		}, -- [5]
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-			["damage"] = {
-			},
-		},
-		["start_time"] = 0,
-		["data_inicio"] = 0,
-		["combat_counter"] = 1,
-		["last_events_tables"] = {
-		},
 		["raid_roster"] = {
 		},
-		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
-			{
-				0, -- [1]
-				[0] = 0,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
+		["last_events_tables"] = {
 		},
-		["frags"] = {
+		["alternate_power"] = {
 		},
-		["data_fim"] = 0,
+		["combat_counter"] = 17,
 		["totals"] = {
-			0, -- [1]
-			0, -- [2]
+			21433.196161, -- [1]
+			1694.055702, -- [2]
 			{
 				0, -- [1]
-				[0] = 0,
-				[6] = 0,
+				[0] = 482.086537,
+				["alternatepower"] = 0,
 				[3] = 0,
+				[6] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
 				["cooldowns_defensive"] = 0,
-				["interrupt"] = 0,
 				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
 		},
-		["CombatSkillCache"] = {
-		},
 		["player_last_events"] = {
 		},
 		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage_section"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["end_time"] = 163109.79,
+		["overall_refreshed"] = true,
+		["data_inicio"] = "12:18:48",
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "14:57:41",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 20.7209999999905,
+				["type"] = 0,
+				["name"] = "Rotting Ancestor",
+				["clock"] = "14:57:21",
+			}, -- [1]
+			{
+				["elapsed"] = 14.6199999999953,
+				["type"] = 0,
+				["name"] = "Rot Hide Mongrel",
+				["clock"] = "13:46:23",
+			}, -- [2]
+			{
+				["elapsed"] = 15.3270000000193,
+				["type"] = 0,
+				["name"] = "Vampiric Duskbat",
+				["clock"] = "13:45:02",
+			}, -- [3]
+			{
+				["elapsed"] = 21.3239999999933,
+				["type"] = 0,
+				["name"] = "Vile Fin Murloc",
+				["clock"] = "13:43:10",
+			}, -- [4]
+			{
+				["elapsed"] = 16.9619999999995,
+				["type"] = 0,
+				["name"] = "Rot Hide Mongrel",
+				["clock"] = "13:42:03",
+			}, -- [5]
+			{
+				["elapsed"] = 24.3530000000028,
+				["type"] = 0,
+				["name"] = "Rot Hide Graverobber",
+				["clock"] = "13:40:10",
+			}, -- [6]
+			{
+				["elapsed"] = 15.4549999999872,
+				["type"] = 0,
+				["name"] = "Rot Hide Graverobber",
+				["clock"] = "13:38:54",
+			}, -- [7]
+			{
+				["elapsed"] = 17.8699999999953,
+				["type"] = 0,
+				["name"] = "Rot Hide Graverobber",
+				["clock"] = "13:38:18",
+			}, -- [8]
+			{
+				["elapsed"] = 17.6229999999923,
+				["type"] = 0,
+				["name"] = "Rot Hide Gnoll",
+				["clock"] = "13:37:19",
+			}, -- [9]
+			{
+				["elapsed"] = 12.179999999993,
+				["type"] = 0,
+				["name"] = "Rot Hide Gnoll",
+				["clock"] = "13:36:51",
+			}, -- [10]
+			{
+				["elapsed"] = 19.0099999999802,
+				["type"] = 0,
+				["name"] = "Rot Hide Mongrel",
+				["clock"] = "13:36:16",
+			}, -- [11]
+			{
+				["elapsed"] = 23.9049999999988,
+				["type"] = 0,
+				["name"] = "Scarlet Missionary",
+				["clock"] = "12:29:32",
+			}, -- [12]
+			{
+				["elapsed"] = 14.7870000000112,
+				["type"] = 0,
+				["name"] = "Scarlet Zealot",
+				["clock"] = "12:29:15",
+			}, -- [13]
+			{
+				["elapsed"] = 15.7519999999786,
+				["type"] = 0,
+				["name"] = "Cursed Darkhound",
+				["clock"] = "12:28:53",
+			}, -- [14]
+			{
+				["elapsed"] = 10.8960000000079,
+				["type"] = 0,
+				["name"] = "Cursed Darkhound",
+				["clock"] = "12:28:36",
+			}, -- [15]
+			{
+				["elapsed"] = 17.698000000004,
+				["type"] = 0,
+				["name"] = "Vampiric Duskbat",
+				["clock"] = "12:28:06",
+			}, -- [16]
+			{
+				["elapsed"] = 22.2240000000165,
+				["type"] = 0,
+				["name"] = "Ravaged Corpse",
+				["clock"] = "12:19:12",
+			}, -- [17]
+			{
+				["elapsed"] = 10.5969999999797,
+				["type"] = 0,
+				["name"] = "Rotting Dead",
+				["clock"] = "12:18:48",
+			}, -- [18]
+		},
+		["start_time"] = 162798.486,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
+			["Raid Damage Done"] = {
+			},
 		},
-		["__call"] = {
+		["totals_grupo"] = {
+			18607.089765, -- [1]
+			1694.062749, -- [2]
+			{
+				0, -- [1]
+				[0] = 482.086537,
+				["alternatepower"] = 0,
+				[3] = 0,
+				[6] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["cooldowns_defensive"] = 0,
+				["dispell"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
 		},
 	},
-	["last_version"] = "v7.2.0.3512",
-	["local_instances_config"] = {
-		{
-			["segment"] = 0,
-			["sub_attribute"] = 1,
-			["horizontalSnap"] = true,
-			["sub_atributo_last"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			},
-			["is_open"] = true,
-			["isLocked"] = false,
-			["snap"] = {
-				[3] = 2,
-			},
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -431.597465515137,
-					["x"] = 433.395690917969,
-					["w"] = 200,
-					["h"] = 200,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
-		{
-			["segment"] = 0,
-			["sub_attribute"] = 1,
-			["horizontalSnap"] = true,
-			["sub_atributo_last"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			},
-			["is_open"] = true,
-			["isLocked"] = false,
-			["snap"] = {
-				1, -- [1]
-			},
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -408.307678222656,
-					["x"] = 819.385681152344,
-					["w"] = 272.926879882813,
-					["h"] = 181.166442871094,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [2]
+	["character_data"] = {
+		["logons"] = 9,
 	},
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
+	["force_font_outline"] = "",
+	["cached_talents"] = {
+		["Player-73-0AA5C8C6"] = {
+		},
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,
@@ -451,12 +3318,16 @@ _detalhes_database = {
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["announce_firsthit"] = {
+	["rank_window"] = {
+		["last_difficulty"] = 15,
+		["last_raid"] = "",
+	},
+	["announce_damagerecord"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["last_instance_id"] = 0,
 	["cached_specs"] = {
+		["Player-73-0B429377"] = 71,
 		["Player-73-0AA5C8C6"] = 256,
 	},
 }

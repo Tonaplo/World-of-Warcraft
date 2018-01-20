@@ -33,6 +33,10 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1507644539,
 				["lastVisitDate"] = "2017/10/10 07:08",
 			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1514014572,
+				["lastVisitDate"] = "2017/12/22 23:36",
+			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1495436421,
 				["lastVisitDate"] = "2017/05/22 00:00",
@@ -41,9 +45,9 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1507644155,
 				["lastVisitDate"] = "2017/10/10 07:02",
 			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1514014572,
-				["lastVisitDate"] = "2017/12/22 23:36",
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1515743535,
+				["lastVisitDate"] = "2018/01/11 23:52",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1515740238,
@@ -52,10 +56,6 @@ DataStore_AuctionsDB = {
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1499035800,
 				["lastVisitDate"] = "2017/07/02 15:50",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1515743535,
-				["lastVisitDate"] = "2018/01/11 23:52",
 			},
 		},
 	},

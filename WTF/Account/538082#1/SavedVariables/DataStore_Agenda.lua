@@ -27,13 +27,15 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1516259793,
+				["lastUpdate"] = 1516383738,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-01-18|19:00|Heroic Antorus|1|9", -- [1]
+					"2018-01-21|19:00|Mythic Antorus|1|9", -- [1]
+					"2018-01-22|19:00|Raid Night!|1|9", -- [2]
+					"2018-01-25|19:00|Heroic Antorus|1|9", -- [3]
 				},
-				["lastUpdate"] = 1516262981,
+				["lastUpdate"] = 1516378322,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -42,7 +44,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1516263289,
+				["lastUpdate"] = 1516383803,
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1516258228,
@@ -51,7 +53,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1509607904,
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
-				["lastUpdate"] = 1493618514,
+				["lastUpdate"] = 1516407540,
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["DungeonIDs"] = {
@@ -60,28 +62,28 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1516263088,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1516260560,
+				["lastUpdate"] = 1516383975,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1516261206,
+				["lastUpdate"] = 1516384135,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1516262495,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1516262729,
+				["lastUpdate"] = 1516384173,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1516263216,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1516260278,
+				["lastUpdate"] = 1516383871,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1516263357,
+				["lastUpdate"] = 1516384057,
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1516257522,
+				["lastUpdate"] = 1516390500,
 			},
 		},
 	},

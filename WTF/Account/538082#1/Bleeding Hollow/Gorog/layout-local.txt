@@ -27,3 +27,17 @@ X: 0
 Y: 60
 W: 370
 H: 110
+Frame: InterfaceOptionsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 147
+Y: 96
+W: 858
+H: 660
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -186
+Y: -72
+W: 65
+H: 65

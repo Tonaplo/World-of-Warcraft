@@ -41,7 +41,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARLOCK",
-				["lastUpdate"] = 1516259790,
+				["lastUpdate"] = 1516383651,
 				["Specializations"] = {
 					9563, -- [1]
 					11963, -- [2]
@@ -49,40 +49,6 @@ DataStore_TalentsDB = {
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
-			},
-			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-				["Specializations"] = {
-					13718, -- [1]
-					10103, -- [2]
-					6554, -- [3]
-				},
-				["lastUpdate"] = 1516262941,
-				["Class"] = "PRIEST",
-				["ArtifactKnowledge"] = 55,
-				["Artifacts"] = {
-					["T'uure, Beacon of the Naaru"] = {
-						["tier"] = 2,
-						["rank"] = 75,
-						["pointsRemaining"] = 245240963646,
-					},
-					["Underlight Angler"] = {
-						["pointsRemaining"] = 150,
-						["tier"] = 1,
-						["rank"] = 1,
-					},
-					["Xal'atath, Blade of the Black Empire"] = {
-						["pointsRemaining"] = 519362820,
-						["rank"] = 58,
-						["tier"] = 2,
-					},
-					["Light's Wrath"] = {
-						["pointsRemaining"] = 77829551255,
-						["rank"] = 70,
-						["tier"] = 2,
-					},
-				},
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
@@ -119,6 +85,69 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
+			["Default.Tichondrius.Mallusof"] = {
+				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+				["Specializations"] = {
+					13718, -- [1]
+					10103, -- [2]
+					6554, -- [3]
+				},
+				["lastUpdate"] = 1516378239,
+				["Class"] = "PRIEST",
+				["ArtifactKnowledge"] = 55,
+				["Artifacts"] = {
+					["T'uure, Beacon of the Naaru"] = {
+						["tier"] = 2,
+						["rank"] = 75,
+						["pointsRemaining"] = 279544469046,
+					},
+					["Underlight Angler"] = {
+						["pointsRemaining"] = 150,
+						["tier"] = 1,
+						["rank"] = 1,
+					},
+					["Xal'atath, Blade of the Black Empire"] = {
+						["pointsRemaining"] = 519362820,
+						["rank"] = 58,
+						["tier"] = 2,
+					},
+					["Light's Wrath"] = {
+						["pointsRemaining"] = 77829551255,
+						["rank"] = 70,
+						["tier"] = 2,
+					},
+				},
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
+				["Artifacts"] = {
+					["Sheilun, Staff of the Mists"] = {
+						["pointsRemaining"] = 19371750920,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+					["Fu Zan, the Wanderer's Companion"] = {
+						["pointsRemaining"] = 13645679910,
+						["rank"] = 66,
+						["tier"] = 2,
+					},
+					["Fists of the Heavens"] = {
+						["pointsRemaining"] = 2496144920,
+						["rank"] = 57,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "MONK",
+				["lastUpdate"] = 1516384017,
+				["Specializations"] = {
+					7646, -- [1]
+					10709, -- [2]
+					7662, -- [3]
+				},
+				["ArtifactKnowledge"] = 55,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607740,
 				["Specializations"] = {
@@ -133,7 +162,7 @@ DataStore_TalentsDB = {
 					15770, -- [1]
 					6997, -- [2]
 				},
-				["lastUpdate"] = 1516260552,
+				["lastUpdate"] = 1516383903,
 				["Class"] = "DEMONHUNTER",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -146,35 +175,6 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 						["rank"] = 64,
 						["pointsRemaining"] = 17870979720,
-					},
-				},
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-				["Specializations"] = {
-					13719, -- [1]
-					15317, -- [2]
-					16279, -- [3]
-				},
-				["lastUpdate"] = 1516258225,
-				["Class"] = "HUNTER",
-				["ArtifactKnowledge"] = 55,
-				["Artifacts"] = {
-					["Talonclaw, Spear of the Wild Gods"] = {
-						["pointsRemaining"] = 3242006770,
-						["rank"] = 58,
-						["tier"] = 2,
-					},
-					["Titanstrike"] = {
-						["tier"] = 2,
-						["rank"] = 66,
-						["pointsRemaining"] = 26250167315,
-					},
-					["Thas'dorah, Legacy of the Windrunners"] = {
-						["pointsRemaining"] = 184345260,
-						["rank"] = 56,
-						["tier"] = 2,
 					},
 				},
 			},
@@ -198,7 +198,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1516260267,
+				["lastUpdate"] = 1516383847,
 				["Specializations"] = {
 					14229, -- [1]
 					5882, -- [2]
@@ -243,6 +243,13 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "SHAMAN",
 			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1516389766,
+				["Specializations"] = {
+					[2] = 6,
+				},
+				["Class"] = "WARRIOR",
+			},
 			["Default.Proudmoore.Granjior"] = {
 				["EquippedArtifact"] = "Truthguard",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -251,7 +258,7 @@ DataStore_TalentsDB = {
 					6814, -- [2]
 					8087, -- [3]
 				},
-				["lastUpdate"] = 1516263245,
+				["lastUpdate"] = 1516383763,
 				["Class"] = "PALADIN",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -272,32 +279,32 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Warswords of the Valarjar",
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
-					5533, -- [1]
-					9853, -- [2]
-					10713, -- [3]
+					13719, -- [1]
+					15317, -- [2]
+					16279, -- [3]
 				},
-				["lastUpdate"] = 1516262685,
-				["Class"] = "WARRIOR",
+				["lastUpdate"] = 1516258225,
+				["Class"] = "HUNTER",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
-					["Scale of the Earth-Warder"] = {
+					["Talonclaw, Spear of the Wild Gods"] = {
+						["pointsRemaining"] = 3242006770,
+						["rank"] = 58,
 						["tier"] = 2,
-						["rank"] = 69,
-						["pointsRemaining"] = 24787145435,
 					},
-					["Strom'kar, the Warbreaker"] = {
-						["pointsRemaining"] = 446414620,
+					["Titanstrike"] = {
 						["tier"] = 2,
-						["rank"] = 52,
+						["rank"] = 66,
+						["pointsRemaining"] = 26250167315,
 					},
-					["Warswords of the Valarjar"] = {
-						["pointsRemaining"] = 2688039270,
+					["Thas'dorah, Legacy of the Windrunners"] = {
+						["pointsRemaining"] = 184345260,
+						["rank"] = 56,
 						["tier"] = 2,
-						["rank"] = 61,
 					},
 				},
 			},
@@ -330,41 +337,34 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1516257063,
-				["Specializations"] = {
-					[2] = 6,
-				},
-				["Class"] = "WARRIOR",
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
-				["Artifacts"] = {
-					["Sheilun, Staff of the Mists"] = {
-						["pointsRemaining"] = 19371750920,
-						["rank"] = 52,
-						["tier"] = 2,
-					},
-					["Fu Zan, the Wanderer's Companion"] = {
-						["pointsRemaining"] = 13645679910,
-						["rank"] = 66,
-						["tier"] = 2,
-					},
-					["Fists of the Heavens"] = {
-						["pointsRemaining"] = 2496144920,
-						["rank"] = 57,
-						["tier"] = 2,
-					},
-				},
-				["Class"] = "MONK",
-				["lastUpdate"] = 1516260814,
-				["Specializations"] = {
-					7646, -- [1]
-					10709, -- [2]
-					7662, -- [3]
-				},
-				["ArtifactKnowledge"] = 55,
+			["Default.Proudmoore.Praerend"] = {
+				["EquippedArtifact"] = "Warswords of the Valarjar",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
+				["Specializations"] = {
+					5533, -- [1]
+					9853, -- [2]
+					10713, -- [3]
+				},
+				["lastUpdate"] = 1516384161,
+				["Class"] = "WARRIOR",
+				["ArtifactKnowledge"] = 55,
+				["Artifacts"] = {
+					["Scale of the Earth-Warder"] = {
+						["tier"] = 2,
+						["rank"] = 69,
+						["pointsRemaining"] = 24787145435,
+					},
+					["Strom'kar, the Warbreaker"] = {
+						["pointsRemaining"] = 446414620,
+						["tier"] = 2,
+						["rank"] = 52,
+					},
+					["Warswords of the Valarjar"] = {
+						["pointsRemaining"] = 2688039270,
+						["tier"] = 2,
+						["rank"] = 61,
+					},
+				},
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
@@ -374,7 +374,7 @@ DataStore_TalentsDB = {
 					6582, -- [2]
 					6646, -- [3]
 				},
-				["lastUpdate"] = 1516261207,
+				["lastUpdate"] = 1516384093,
 				["Class"] = "MAGE",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -541,21 +541,6 @@ DataStore_TalentsRefDB = {
 						22374, -- [4]
 						22372, -- [5]
 						22409, -- [6]
-						22379, -- [7]
-						22381, -- [8]
-						19138, -- [9]
-						22635, -- [10]
-						22627, -- [11]
-						22382, -- [12]
-						22384, -- [13]
-						22391, -- [14]
-						19140, -- [15]
-						22395, -- [16]
-						22544, -- [17]
-						22400, -- [18]
-						22405, -- [19]
-						22402, -- [20]
-						16037, -- [21]
 					},
 				}, -- [2]
 				{
@@ -585,7 +570,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25881,
 		},
 		["ROGUE"] = {
 			["Locale"] = "enUS",
@@ -753,7 +738,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -837,7 +822,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",
@@ -921,7 +906,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -1005,7 +990,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["DEMONHUNTER"] = {
 			["Locale"] = "enUS",
@@ -1063,7 +1048,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [2]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["SHAMAN"] = {
 			["Locale"] = "enUS",
@@ -1341,7 +1326,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["DEATHKNIGHT"] = {
 			["Locale"] = "enUS",
@@ -1425,7 +1410,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 	},
 }

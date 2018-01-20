@@ -1,6 +1,6 @@
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1NM1NM1ET1WM1OH2MR2OM2OM2DH2HR3LR3ET3ET[x]3HR4SH4HR4RM4EM4__5RM5MR5DR5NM5WM6EM6__6LR6HR6HR7NT7DM7PM7EM7MR8WT8IR8__8_T8PM3MR[x][x][x][x]0__[x]0__[x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__0__0__[x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NMaiSynFelFluTurLarJiaDooKroGluEmyLooPwn[x]TunKreArkViaSugUnkAstNetHarWooRagHalUnkLleOnaRaeEluNogLitSheEylRamCpzUnkUnkAltMor[x][x][x][x]Chi[x]Xue[x][x]AliAve[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]KhoHowFlu[x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mor[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

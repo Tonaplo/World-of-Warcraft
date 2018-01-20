@@ -21,6 +21,41 @@ DataStore_TalentsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Proudmoore.Amranar"] = {
+				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
+				["Artifacts"] = {
+					["Claws of Ursoc"] = {
+						["pointsRemaining"] = 6756209765,
+						["rank"] = 52,
+						["tier"] = 2,
+					},
+					["G'Hanir, the Mother Tree"] = {
+						["tier"] = 2,
+						["rank"] = 57,
+						["pointsRemaining"] = 219469567,
+					},
+					["Fangs of Ashamane"] = {
+						["pointsRemaining"] = 18977552370,
+						["rank"] = 63,
+						["tier"] = 2,
+					},
+					["Scythe of Elune"] = {
+						["pointsRemaining"] = 16162229130,
+						["rank"] = 64,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "DRUID",
+				["lastUpdate"] = 1516263014,
+				["Specializations"] = {
+					14043, -- [1]
+					5466, -- [2]
+					7039, -- [3]
+					8171, -- [4]
+				},
+				["ArtifactKnowledge"] = 55,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+			},
 			["Default.Proudmoore.Fimwack"] = {
 				["EquippedArtifact"] = "Scepter of Sargeras",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -29,7 +64,7 @@ DataStore_TalentsDB = {
 					11963, -- [2]
 					14745, -- [3]
 				},
-				["lastUpdate"] = 1516259790,
+				["lastUpdate"] = 1516383651,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -51,10 +86,10 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
+				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 245240963646,
+						["pointsRemaining"] = 279544469046,
 						["rank"] = 75,
 						["tier"] = 2,
 					},
@@ -75,7 +110,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1516262941,
+				["lastUpdate"] = 1516378239,
 				["Specializations"] = {
 					13718, -- [1]
 					10103, -- [2]
@@ -104,7 +139,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1516261207,
+				["lastUpdate"] = 1516384093,
 				["Specializations"] = {
 					7670, -- [1]
 					6582, -- [2]
@@ -112,72 +147,6 @@ DataStore_TalentsDB = {
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-				["Specializations"] = {
-					7646, -- [1]
-					10709, -- [2]
-					7662, -- [3]
-				},
-				["lastUpdate"] = 1516263313,
-				["Class"] = "MONK",
-				["ArtifactKnowledge"] = 55,
-				["Artifacts"] = {
-					["Sheilun, Staff of the Mists"] = {
-						["tier"] = 2,
-						["rank"] = 52,
-						["pointsRemaining"] = 19371750920,
-					},
-					["Fu Zan, the Wanderer's Companion"] = {
-						["tier"] = 2,
-						["rank"] = 66,
-						["pointsRemaining"] = 13645679910,
-					},
-					["Fists of the Heavens"] = {
-						["tier"] = 2,
-						["rank"] = 57,
-						["pointsRemaining"] = 2496144920,
-					},
-				},
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["EquippedArtifact"] = "Twinblades of the Deceiver",
-				["Artifacts"] = {
-					["Twinblades of the Deceiver"] = {
-						["pointsRemaining"] = 4956390340,
-						["rank"] = 64,
-						["tier"] = 2,
-					},
-					["The Aldrachi Warblades"] = {
-						["pointsRemaining"] = 17870979720,
-						["rank"] = 64,
-						["tier"] = 2,
-					},
-				},
-				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1516260552,
-				["Specializations"] = {
-					15770, -- [1]
-					6997, -- [2]
-				},
-				["ArtifactKnowledge"] = 55,
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1516257063,
-				["Specializations"] = {
-					[2] = 6,
-				},
-				["Class"] = "WARRIOR",
-			},
-			["Default.Aggramar.Gottagetlia"] = {
-				["lastUpdate"] = 1493618546,
-				["Specializations"] = {
-					[3] = 0,
-				},
-				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["EquippedArtifact"] = "Warswords of the Valarjar",
@@ -199,7 +168,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1516262685,
+				["lastUpdate"] = 1516384161,
 				["Specializations"] = {
 					5533, -- [1]
 					9853, -- [2]
@@ -207,6 +176,72 @@ DataStore_TalentsDB = {
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["EquippedArtifact"] = "Twinblades of the Deceiver",
+				["Artifacts"] = {
+					["Twinblades of the Deceiver"] = {
+						["pointsRemaining"] = 4956390340,
+						["rank"] = 64,
+						["tier"] = 2,
+					},
+					["The Aldrachi Warblades"] = {
+						["pointsRemaining"] = 17870979720,
+						["rank"] = 64,
+						["tier"] = 2,
+					},
+				},
+				["Class"] = "DEMONHUNTER",
+				["lastUpdate"] = 1516383903,
+				["Specializations"] = {
+					15770, -- [1]
+					6997, -- [2]
+				},
+				["ArtifactKnowledge"] = 55,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+			},
+			["Default.Aggramar.Gottagetlia"] = {
+				["lastUpdate"] = 1493618546,
+				["Specializations"] = {
+					[3] = 0,
+				},
+				["Class"] = "SHAMAN",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["EquippedArtifact"] = "Titanstrike",
+				["Artifacts"] = {
+					["Talonclaw, Spear of the Wild Gods"] = {
+						["tier"] = 2,
+						["rank"] = 58,
+						["pointsRemaining"] = 3242006770,
+					},
+					["Titanstrike"] = {
+						["pointsRemaining"] = 26250167315,
+						["rank"] = 66,
+						["tier"] = 2,
+					},
+					["Thas'dorah, Legacy of the Windrunners"] = {
+						["tier"] = 2,
+						["rank"] = 56,
+						["pointsRemaining"] = 184345260,
+					},
+				},
+				["Class"] = "HUNTER",
+				["lastUpdate"] = 1516258225,
+				["Specializations"] = {
+					13719, -- [1]
+					15317, -- [2]
+					16279, -- [3]
+				},
+				["ArtifactKnowledge"] = 55,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1516389766,
+				["Specializations"] = {
+					[2] = 6,
+				},
+				["Class"] = "WARRIOR",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["EquippedArtifact"] = "Maw of the Damned",
@@ -216,7 +251,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1516260267,
+				["lastUpdate"] = 1516383847,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -257,69 +292,11 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1516263245,
+				["lastUpdate"] = 1516383763,
 				["Specializations"] = {
 					9558, -- [1]
 					6814, -- [2]
 					8087, -- [3]
-				},
-				["ArtifactKnowledge"] = 55,
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["EquippedArtifact"] = "Titanstrike",
-				["Artifacts"] = {
-					["Talonclaw, Spear of the Wild Gods"] = {
-						["tier"] = 2,
-						["rank"] = 58,
-						["pointsRemaining"] = 3242006770,
-					},
-					["Titanstrike"] = {
-						["pointsRemaining"] = 26250167315,
-						["rank"] = 66,
-						["tier"] = 2,
-					},
-					["Thas'dorah, Legacy of the Windrunners"] = {
-						["tier"] = 2,
-						["rank"] = 56,
-						["pointsRemaining"] = 184345260,
-					},
-				},
-				["Class"] = "HUNTER",
-				["lastUpdate"] = 1516258225,
-				["Specializations"] = {
-					13719, -- [1]
-					15317, -- [2]
-					16279, -- [3]
-				},
-				["ArtifactKnowledge"] = 55,
-				["ArtifactKnowledgeMultiplier"] = 6300001,
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "The Fist of Ra-den",
-				["Artifacts"] = {
-					["Doomhammer"] = {
-						["pointsRemaining"] = 1819566695,
-						["rank"] = 59,
-						["tier"] = 2,
-					},
-					["The Fist of Ra-den"] = {
-						["tier"] = 2,
-						["rank"] = 62,
-						["pointsRemaining"] = 3012661545,
-					},
-					["Sharas'dal, Scepter of Tides"] = {
-						["tier"] = 2,
-						["rank"] = 62,
-						["pointsRemaining"] = 644316220,
-					},
-				},
-				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1516263106,
-				["Specializations"] = {
-					9561, -- [1]
-					9631, -- [2]
-					14235, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -353,6 +330,35 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
+			["Default.Proudmoore.Farahn"] = {
+				["EquippedArtifact"] = "The Fist of Ra-den",
+				["Artifacts"] = {
+					["Doomhammer"] = {
+						["pointsRemaining"] = 1819566695,
+						["rank"] = 59,
+						["tier"] = 2,
+					},
+					["The Fist of Ra-den"] = {
+						["tier"] = 2,
+						["rank"] = 62,
+						["pointsRemaining"] = 3012661545,
+					},
+					["Sharas'dal, Scepter of Tides"] = {
+						["tier"] = 2,
+						["rank"] = 62,
+						["pointsRemaining"] = 644316220,
+					},
+				},
+				["Class"] = "SHAMAN",
+				["lastUpdate"] = 1516263106,
+				["Specializations"] = {
+					9561, -- [1]
+					9631, -- [2]
+					14235, -- [3]
+				},
+				["ArtifactKnowledge"] = 55,
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607740,
 				["Specializations"] = {
@@ -360,40 +366,34 @@ DataStore_TalentsDB = {
 				},
 				["Class"] = "ROGUE",
 			},
-			["Default.Proudmoore.Amranar"] = {
-				["EquippedArtifact"] = "G'Hanir, the Mother Tree",
+			["Default.Proudmoore.Miriyal"] = {
+				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
+				["ArtifactKnowledgeMultiplier"] = 6300001,
+				["Specializations"] = {
+					7646, -- [1]
+					10709, -- [2]
+					7662, -- [3]
+				},
+				["lastUpdate"] = 1516384017,
+				["Class"] = "MONK",
+				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
-					["Claws of Ursoc"] = {
-						["pointsRemaining"] = 6756209765,
-						["rank"] = 52,
+					["Sheilun, Staff of the Mists"] = {
 						["tier"] = 2,
+						["rank"] = 52,
+						["pointsRemaining"] = 19371750920,
 					},
-					["G'Hanir, the Mother Tree"] = {
+					["Fu Zan, the Wanderer's Companion"] = {
+						["tier"] = 2,
+						["rank"] = 66,
+						["pointsRemaining"] = 13645679910,
+					},
+					["Fists of the Heavens"] = {
 						["tier"] = 2,
 						["rank"] = 57,
-						["pointsRemaining"] = 219469567,
-					},
-					["Fangs of Ashamane"] = {
-						["pointsRemaining"] = 18977552370,
-						["rank"] = 63,
-						["tier"] = 2,
-					},
-					["Scythe of Elune"] = {
-						["pointsRemaining"] = 16162229130,
-						["rank"] = 64,
-						["tier"] = 2,
+						["pointsRemaining"] = 2496144920,
 					},
 				},
-				["Class"] = "DRUID",
-				["lastUpdate"] = 1516263014,
-				["Specializations"] = {
-					14043, -- [1]
-					5466, -- [2]
-					7039, -- [3]
-					8171, -- [4]
-				},
-				["ArtifactKnowledge"] = 55,
-				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 		},
 	},
@@ -541,21 +541,6 @@ DataStore_TalentsRefDB = {
 						22374, -- [4]
 						22372, -- [5]
 						22409, -- [6]
-						22379, -- [7]
-						22381, -- [8]
-						19138, -- [9]
-						22635, -- [10]
-						22627, -- [11]
-						22382, -- [12]
-						22384, -- [13]
-						22391, -- [14]
-						19140, -- [15]
-						22395, -- [16]
-						22544, -- [17]
-						22400, -- [18]
-						22405, -- [19]
-						22402, -- [20]
-						16037, -- [21]
 					},
 				}, -- [2]
 				{
@@ -585,7 +570,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25881,
 		},
 		["ROGUE"] = {
 			["Locale"] = "enUS",
@@ -753,7 +738,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -837,7 +822,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["DEATHKNIGHT"] = {
 			["Locale"] = "enUS",
@@ -921,7 +906,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -1005,7 +990,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["DEMONHUNTER"] = {
 			["Locale"] = "enUS",
@@ -1063,7 +1048,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [2]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["SHAMAN"] = {
 			["Locale"] = "enUS",
@@ -1341,7 +1326,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 		["PALADIN"] = {
 			["Locale"] = "enUS",
@@ -1425,7 +1410,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25864,
+			["Version"] = 25875,
 		},
 	},
 }

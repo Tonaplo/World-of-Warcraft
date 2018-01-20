@@ -23,11 +23,11 @@ Overachiever_Trade: disabled
 Quartz: disabled
 RealmChars: disabled
 Skada: disabled
-VuhDo: disabled
-VuhDoOptions: disabled
-WeakAuras: disabled
-WeakAurasModelPaths: disabled
-WeakAurasOptions: disabled
+VuhDo: enabled
+VuhDoOptions: enabled
+WeakAuras: enabled
+WeakAurasModelPaths: enabled
+WeakAurasOptions: enabled
 WeakAurasTutorials: disabled
 RaiderIO_DB_TW_H: disabled
 RaiderIO_DB_TW_A: disabled

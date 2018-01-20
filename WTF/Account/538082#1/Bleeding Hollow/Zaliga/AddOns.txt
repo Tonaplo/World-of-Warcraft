@@ -1,0 +1,5 @@
+VuhDo: enabled
+VuhDoOptions: enabled
+WeakAuras: enabled
+WeakAurasModelPaths: enabled
+WeakAurasOptions: enabled
