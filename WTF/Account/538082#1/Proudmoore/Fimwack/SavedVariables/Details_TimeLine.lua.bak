@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -403,6 +397,32 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "23:46:39",
+			["date_start"] = "23:44:48",
+			["name"] = "Helya",
+			["total_time"] = 110.212,
+		}, -- [1]
+		{
+			["date_end"] = "23:41:29",
+			["date_start"] = "23:40:45",
+			["name"] = "Harbaron",
+			["total_time"] = 43.8960000000006,
+		}, -- [2]
+		{
+			["date_end"] = "23:37:31",
+			["date_start"] = "23:36:38",
+			["name"] = "Ymiron, the Fallen King",
+			["total_time"] = 53.6530000000003,
+		}, -- [3]
+		{
+			["date_start"] = "21:54:56",
+			["date_end"] = "22:00:41",
+			["name"] = "The Coven of Shivarra",
+			["total_time"] = 345.661,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -1721,7 +1741,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Nairh-Nagrand"] = {
@@ -1939,6 +1958,40 @@ DetailsTimeLineDB = {
 					31224, -- [3]
 				}, -- [2]
 			},
+			["Boopins-Sargeras"] = {
+				{
+					129.680999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+				{
+					327.985999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [2]
+			},
+			["Vaette-Kel'Thuzad"] = {
+				{
+					128.313999999998, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					115310, -- [3]
+				}, -- [1]
+				{
+					129.732, -- [1]
+					"Thediddlez-Stormrage", -- [2]
+					116849, -- [3]
+				}, -- [2]
+				{
+					283.671999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					115310, -- [3]
+				}, -- [3]
+				{
+					332.941999999999, -- [1]
+					"Vaette-Kel'Thuzad", -- [2]
+					116849, -- [3]
+				}, -- [4]
+			},
 			["Thediddlez-Stormrage"] = {
 				{
 					114.144999999999, -- [1]
@@ -1950,6 +2003,13 @@ DetailsTimeLineDB = {
 					"[*] raid wide cooldown", -- [2]
 					97462, -- [3]
 				}, -- [2]
+			},
+			["Terraest-Sargeras"] = {
+				{
+					174.281999999999, -- [1]
+					"Terraest-Sargeras", -- [2]
+					108271, -- [3]
+				}, -- [1]
 			},
 			["Zedocter-Stormrage"] = {
 				{
@@ -1993,47 +2053,6 @@ DetailsTimeLineDB = {
 					6940, -- [3]
 				}, -- [8]
 			},
-			["Boopins-Sargeras"] = {
-				{
-					129.680999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [1]
-				{
-					327.985999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					108280, -- [3]
-				}, -- [2]
-			},
-			["Terraest-Sargeras"] = {
-				{
-					174.281999999999, -- [1]
-					"Terraest-Sargeras", -- [2]
-					108271, -- [3]
-				}, -- [1]
-			},
-			["Vaette-Kel'Thuzad"] = {
-				{
-					128.313999999998, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					115310, -- [3]
-				}, -- [1]
-				{
-					129.732, -- [1]
-					"Thediddlez-Stormrage", -- [2]
-					116849, -- [3]
-				}, -- [2]
-				{
-					283.671999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					115310, -- [3]
-				}, -- [3]
-				{
-					332.941999999999, -- [1]
-					"Vaette-Kel'Thuzad", -- [2]
-					116849, -- [3]
-				}, -- [4]
-			},
 			["Gulikuta-Stormrage"] = {
 				{
 					156.368999999999, -- [1]
@@ -2043,30 +2062,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:46:39",
-			["date_start"] = "23:44:48",
-			["name"] = "Helya",
-			["total_time"] = 110.212,
-		}, -- [1]
-		{
-			["date_end"] = "23:41:29",
-			["date_start"] = "23:40:45",
-			["name"] = "Harbaron",
-			["total_time"] = 43.8960000000006,
-		}, -- [2]
-		{
-			["date_end"] = "23:37:31",
-			["date_start"] = "23:36:38",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 53.6530000000003,
-		}, -- [3]
-		{
-			["date_start"] = "21:54:56",
-			["date_end"] = "22:00:41",
-			["name"] = "The Coven of Shivarra",
-			["total_time"] = 345.661,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

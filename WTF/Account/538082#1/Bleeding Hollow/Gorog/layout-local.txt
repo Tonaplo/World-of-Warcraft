@@ -20,6 +20,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: DetailsPluginContainerWindow
+FrameLevel: 1
+Anchor: BOTTOM
+X: -153
+Y: -228
+W: 925
+H: 600
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: CENTER
@@ -27,13 +34,6 @@ X: 0
 Y: 60
 W: 370
 H: 110
-Frame: InterfaceOptionsFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 147
-Y: 96
-W: 858
-H: 660
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER

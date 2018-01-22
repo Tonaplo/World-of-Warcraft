@@ -9,14 +9,15 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["global"] = {
@@ -27,15 +28,19 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1516383738,
+				["lastUpdate"] = 1516477656,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-01-21|19:00|Mythic Antorus|1|9", -- [1]
-					"2018-01-22|19:00|Raid Night!|1|9", -- [2]
-					"2018-01-25|19:00|Heroic Antorus|1|9", -- [3]
+					"2018-01-22|19:00|Raid Night!|1|9", -- [1]
+					"2018-01-25|19:00|Heroic Antorus|1|9", -- [2]
 				},
-				["lastUpdate"] = 1516378322,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Mythic|344051315"] = "113749|1516605850|0|1",
+					["Antorus, the Burning Throne Normal|329074432"] = "113749|1516605850|0|1",
+					["Antorus, the Burning Throne Heroic|204817406"] = "113749|1516605850|0|1",
+				},
+				["lastUpdate"] = 1516606954,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -44,46 +49,49 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1516383803,
+				["lastUpdate"] = 1516497321,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1516258228,
+				["lastUpdate"] = 1516500280,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
-				["lastUpdate"] = 1516404475,
+				["lastUpdate"] = 1516607162,
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Looking For Raid|4240000567"] = "456577|1516263016|0|1",
+					["Antorus, the Burning Throne Looking For Raid|4240000567"] = "116128|1516603472|0|1",
 				},
-				["lastUpdate"] = 1516263088,
+				["lastUpdate"] = 1516604741,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1516383975,
+				["lastUpdate"] = 1516480779,
 			},
-			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1516390500,
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1516262495,
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1516384173,
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1516263216,
-			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1516383871,
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1516384057,
+			["Default.Bleeding Hollow.Rentror"] = {
+				["lastUpdate"] = 1516509931,
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1516384135,
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1516498078,
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1516499752,
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1516480636,
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1516480711,
+			},
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1516480915,
+			},
+			["Default.Bleeding Hollow.Gorog"] = {
+				["lastUpdate"] = 1516586204,
 			},
 		},
 	},

@@ -37,6 +37,9 @@ do
 			onenterbordercolor = {0, 0, 0, 1},
 		}
 		
+		framework:InstallTemplate ("button", "ADL_MENUBUTTON_TEMPLATE", {width = 160}, "DETAILS_PLUGIN_BUTTON_TEMPLATE")
+		framework:InstallTemplate ("button", "ADL_MENUBUTTON_SELECTED_TEMPLATE", {width = 160}, "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE")
+		
 		local options_text_template = framework:GetTemplate ("font", "OPTIONS_FONT_TEMPLATE")
 		local options_dropdown_template = framework:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
 		local options_switch_template = framework:GetTemplate ("switch", "OPTIONS_CHECKBOX_TEMPLATE")
@@ -716,6 +719,30 @@ do
 		
 		local CONST_ENDURANCE_BREAKLINE = 450
 		
+		--
+			local greenPercent = endurance_frame:CreateTexture (nil, "overlay")
+			greenPercent:SetColorTexture (.2, 1, .2, .7)
+			greenPercent:SetSize (6, 20)
+			greenPercent:SetPoint ("topleft", dropdown_label_rf.widget, "bottomleft", 0, -40)
+			
+			local tutorialLabel3 = framework:CreateLabel (endurance_frame)
+			tutorialLabel3:SetPoint ("topleft", greenPercent, "topright", 4, 1)
+			tutorialLabel3.text = "Good, player never was one of the first three players dead"
+			tutorialLabel3.width = 140
+			tutorialLabel3:SetJustifyV ("top")
+			
+			local redPercent = endurance_frame:CreateTexture (nil, "overlay")
+			redPercent:SetColorTexture (1, .2, .2, .7)
+			redPercent:SetSize (6, 20)
+			redPercent:SetPoint ("topleft", greenPercent, "bottomleft", 0, -20)
+			
+			local tutorialLabel4 = framework:CreateLabel (endurance_frame)
+			tutorialLabel4:SetPoint ("topleft", redPercent, "topright", 4, 1)
+			tutorialLabel4.text = "Bad, player often was one of the first three players dead"
+			tutorialLabel4.width = 140
+			tutorialLabel4:SetJustifyV ("top")
+		--		
+		
 		if (not DetailsPluginContainerWindow) then
 			endurance_frame:EnableMouse (true)
 			endurance_frame:SetScript ("OnMouseDown", 
@@ -1346,22 +1373,25 @@ do
 		end
 
 		--> current encounter
-		local current_encounter_button = framework:NewButton (f, _, "$parentModeCurrentEncounterButton", "ModeCurrentEncounterButton", mode_buttons_width, mode_buttons_height, change_mode, BUTTON_INDEX_CURRENT, nil, nil, "Current Encounter", 1, options_button_template)
+		local current_encounter_button = framework:NewButton (f, _, "$parentModeCurrentEncounterButton", "ModeCurrentEncounterButton", mode_buttons_width, mode_buttons_height, change_mode, BUTTON_INDEX_CURRENT, nil, nil, "Current Encounter", 1)
 		current_encounter_button:SetPoint ("bottomleft", f, "bottomleft", 10, mode_buttons_y_pos)
+		current_encounter_button:SetTemplate (framework:GetTemplate ("button", "ADL_MENUBUTTON_TEMPLATE"))
 		current_encounter_button:SetIcon ([[Interface\Buttons\UI-MicroButton-Raid-Up]], nil, nil, nil, {0, 1, 0.4, 1}, nil, nil, 2)
-		current_encounter_button:SetTextColor ("orange")
+		--current_encounter_button:SetTextColor ("orange")
 		
 		--> timeline
 		local timeline_button = framework:NewButton (f, _, "$parentModeTimelineButton", "ModeTimelineButton", mode_buttons_width, mode_buttons_height, change_mode, BUTTON_INDEX_TIMELINE, nil, nil, "Timeline", 1, options_button_template)
 		timeline_button:SetPoint ("bottomleft", current_encounter_button, "bottomright", 5, 0)
+		timeline_button:SetTemplate (framework:GetTemplate ("button", "ADL_MENUBUTTON_TEMPLATE"))
 		timeline_button:SetIcon ([[Interface\Buttons\UI-MicroButton-Talents-Up]], nil, nil, nil, {0, 1, 0.4, 1}, nil, nil, 2)
-		timeline_button:SetTextColor ("orange")
+		--timeline_button:SetTextColor ("orange")
 		
 		--> endurance
 		local endurance_button = framework:NewButton (f, _, "$parentModeEnduranceButton", "ModeEnduranceButton", mode_buttons_width, mode_buttons_height, change_mode, BUTTON_INDEX_ENDURANCE, nil, nil, "Endurance", 1, options_button_template)
 		endurance_button:SetPoint ("bottomleft", timeline_button, "bottomright", 5, 0)
+		endurance_button:SetTemplate (framework:GetTemplate ("button", "ADL_MENUBUTTON_TEMPLATE"))
 		endurance_button:SetIcon ([[Interface\Buttons\UI-MicroButton-Mounts-Up]], nil, nil, nil, {0, 1, 0.4, 1}, nil, nil, 2)
-		endurance_button:SetTextColor ("orange")
+		--endurance_button:SetTextColor ("orange")
 		
 		--> overall ~overall
 		--local overall_button = framework:NewButton (f, _, "$parentModeOverallButton", "ModeOverallButton", mode_buttons_width, mode_buttons_height, change_mode, BUTTON_INDEX_OVERALL, nil, nil, "Overall", 1, options_button_template)
@@ -1373,6 +1403,8 @@ do
 		local all_buttons = {current_encounter_button, timeline_button, endurance_button} --overall_button,
 	
 		local set_button_as_pressed = function (button)
+		
+			--[=[
 			local onenter = button.onenter_backdrop
 			local onleave = button.onleave_backdrop
 			onenter[1], onenter[2], onenter[3], onenter[4] = .8, .8, .8, 1
@@ -1390,12 +1422,15 @@ do
 				button:SetBackdropColor (onleave[1], onleave[2], onleave[3], onleave[4])
 				button:SetBackdropBorderColor (border_onleave[1], border_onleave[2], border_onleave[3], border_onleave[4])
 			end
+			--]=]
+			
+			button:SetTemplate (framework:GetTemplate ("button", "ADL_MENUBUTTON_SELECTED_TEMPLATE"))
 		end
 		
 		function DeathGraphs:RefreshButtons()
 			--> reset endurance button
 			for _, button in ipairs (all_buttons) do
-			
+				--[=[
 				local onenter = button.onenter_backdrop
 				onenter[1], onenter[2], onenter[3], onenter[4] = .6, .6, .6, .9
 				local onleave = button.onleave_backdrop
@@ -1407,6 +1442,9 @@ do
 				
 				button:SetBackdropColor (onleave[1], onleave[2], onleave[3], onleave[4])
 				button:SetBackdropBorderColor (border_onleave[1], border_onleave[2], border_onleave[3], border_onleave[4])
+				--]=]
+				
+				button:SetTemplate (framework:GetTemplate ("button", "ADL_MENUBUTTON_TEMPLATE"))
 			end
 		
 			if (DeathGraphs.db.showing_type == 1) then --overall
@@ -1453,16 +1491,16 @@ do
 			
 		end
 		
-		local delete = framework:NewButton (f, _, "$parentDeleteButton", "DeleteButton", w, mode_buttons_height, wipe_data, nil, nil, nil, Loc ["STRING_RESET"], 1, options_button_template)
+		local delete = framework:NewButton (f, _, "$parentDeleteButton", "DeleteButton", w, mode_buttons_height, wipe_data, nil, nil, nil, Loc ["STRING_RESET"], 1, framework:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		delete:SetPoint ("bottomright", f, "bottomright", -10, 10)
 		delete:SetIcon ([[Interface\Buttons\UI-StopButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
-		delete:SetTextColor ("orange")
+		--delete:SetTextColor ("orange")
 
 	--> configure threshold
-		local threshold_config = framework:NewButton (f, _, "$parentOptionsPanelButton", "OptionsPanelButton", w, mode_buttons_height, DeathGraphs.OpenOptionsPanel, nil, nil, nil, Loc ["STRING_OPTIONS"], 1, options_button_template)
+		local threshold_config = framework:NewButton (f, _, "$parentOptionsPanelButton", "OptionsPanelButton", w, mode_buttons_height, DeathGraphs.OpenOptionsPanel, nil, nil, nil, Loc ["STRING_OPTIONS"], 1, framework:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		threshold_config:SetPoint ("right", delete, "left", 2, 0)
 		threshold_config:SetIcon ([[Interface\Buttons\UI-OptionsButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
-		threshold_config:SetTextColor ("orange")
+		--threshold_config:SetTextColor ("orange")
 		
 	--> refresh on open
 		function DeathGraphs:Refresh()

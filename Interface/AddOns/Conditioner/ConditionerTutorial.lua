@@ -216,7 +216,7 @@ function ConditionerFlagTutorial()
 		[13] = 1,	--ctrl right click to change sides
 		[14] = 1,
 		current_step = 15,
-		spell_drags = 0,
+		spell_drags = 3,
 	}
 	conditioner_tutorialframe:Hide()
 	conditioner_border.AnimFrame:Hide()

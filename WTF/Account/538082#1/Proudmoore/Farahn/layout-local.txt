@@ -41,6 +41,13 @@ X: -197
 Y: 20
 W: 60
 H: 60
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 455
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT
@@ -48,10 +55,3 @@ X: 180
 Y: 88
 W: 370
 H: 110
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: TOP
-X: 198
-Y: -119
-W: 648
-H: 455

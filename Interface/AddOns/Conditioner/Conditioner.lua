@@ -1725,11 +1725,6 @@ function MakePriorityButton(fortable, listline)
 				end
 			end
 			local known = FindSpellBookSlotBySpellID(my_id)
-			local isReady, ReadyDuration, garbage_var = GetSpellCooldown(my_id)
-			if (my_itemid ~= 0) then
-				isReady, ReadyDuration, garbage_var = GetItemCooldown(my_itemid)
-			end
-			local cd_remaining = (isReady == 0) and 0 or (isReady + ReadyDuration - GetTime())
 			local itemCount = GetItemCount(my_itemid)
 			if (not known) and ((my_itemid == 0) or (itemCount < 1))then
 				return false
@@ -1739,9 +1734,6 @@ function MakePriorityButton(fortable, listline)
 				if (ispassive) then
 					return false
 				end
-			end
-			if (self.more.conditions.options.only_when_ready) and (cd_remaining > 1.5) then
-				return false
 			end
 			local interrupt_spellName = ""
 			if (self.more.conditions.options.use_condition) then
@@ -2445,7 +2437,7 @@ function conditioner_frame.events:PLAYER_REGEN_DISABLED(...)
 		MainMenuExpBar:Hide()
 	end
 end
- 
+
 function conditioner_frame.events:PLAYER_REGEN_ENABLED(...)
 	if (conditioner_frame.MainMenuBarWasVisible) then
 		MainMenuBarArtFrame:Show()
@@ -2545,13 +2537,35 @@ function ResortList(list)
 		end
 
 		if (priority_buttons[lowest_index+1]:Condition()) then
-			local sid = priority_buttons[lowest_index+1].spellID
-			if (duplicates[sid]) then
-				priority_buttons[lowest_index+1]:SetSlot()
+			--are we checking against ready only? we need to avoid more GetSpellCooldown calls for no reason
+			local WantsOnlyWhenReady = priority_buttons[lowest_index+1].more.conditions.options.only_when_ready
+			local ShouldUseCondition = priority_buttons[lowest_index+1].more.conditions.options.use_condition
+			if (WantsOnlyWhenReady) and (ShouldUseCondition) then
+				--we might fail here
+				if (lowest_cooldown > 1.5) then
+					--we fail
+					priority_buttons[lowest_index+1]:SetSlot()
+				else
+					--continue as normal
+					local sid = priority_buttons[lowest_index+1].spellID
+					if (duplicates[sid]) then
+						priority_buttons[lowest_index+1]:SetSlot()
+					else
+						duplicates[sid] = true
+						table.insert(sortedlist, lowest_index)
+						priority_buttons[lowest_index+1]:SetSlot(#sortedlist)
+					end
+				end
 			else
-				duplicates[sid] = true
-				table.insert(sortedlist, lowest_index)
-				priority_buttons[lowest_index+1]:SetSlot(#sortedlist)
+				--continue as normal
+				local sid = priority_buttons[lowest_index+1].spellID
+				if (duplicates[sid]) then
+					priority_buttons[lowest_index+1]:SetSlot()
+				else
+					duplicates[sid] = true
+					table.insert(sortedlist, lowest_index)
+					priority_buttons[lowest_index+1]:SetSlot(#sortedlist)
+				end
 			end
 		else
 			priority_buttons[lowest_index+1]:SetSlot()

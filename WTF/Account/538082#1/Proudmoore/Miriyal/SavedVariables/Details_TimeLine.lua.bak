@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -59,6 +53,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "17:46:36",
+			["date_end"] = "17:48:13",
+			["name"] = "Helya",
+			["total_time"] = 97.0010000000002,
+		}, -- [1]
+		{
+			["date_start"] = "17:43:07",
+			["date_end"] = "17:43:36",
+			["name"] = "Harbaron",
+			["total_time"] = 29.0010000000002,
+		}, -- [2]
+		{
+			["date_start"] = "17:40:22",
+			["date_end"] = "17:40:54",
+			["name"] = "Ymiron, the Fallen King",
+			["total_time"] = 32.0040000000008,
+		}, -- [3]
+		{
+			["date_start"] = "17:32:36",
+			["date_end"] = "17:34:29",
+			["name"] = "Helya",
+			["total_time"] = 113.027,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -281,7 +301,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Miriyal"] = {
@@ -452,30 +471,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "17:46:36",
-			["date_end"] = "17:48:13",
-			["name"] = "Helya",
-			["total_time"] = 97.0010000000002,
-		}, -- [1]
-		{
-			["date_start"] = "17:43:07",
-			["date_end"] = "17:43:36",
-			["name"] = "Harbaron",
-			["total_time"] = 29.0010000000002,
-		}, -- [2]
-		{
-			["date_start"] = "17:40:22",
-			["date_end"] = "17:40:54",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 32.0040000000008,
-		}, -- [3]
-		{
-			["date_start"] = "17:32:36",
-			["date_end"] = "17:34:29",
-			["name"] = "Helya",
-			["total_time"] = 113.027,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

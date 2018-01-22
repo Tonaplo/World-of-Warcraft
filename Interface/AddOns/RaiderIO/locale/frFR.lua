@@ -43,14 +43,10 @@ L["KEYSTONE_COMPLETED_10"] = "+10-14 (CM)"
 L["KEYSTONE_COMPLETED_15"] = "+15 (MM)"
 L["MAINS_SCORE"] = "Score du personnage principal"
 L["MAINS_SCORE_COLON"] = "Score du personnage principal :"
---Translation missing 
--- L["MODULE_AMERICAS"] = ""
---Translation missing 
--- L["MODULE_EUROPE"] = ""
---Translation missing 
--- L["MODULE_KOREA"] = ""
---Translation missing 
--- L["MODULE_TAIWAN"] = ""
+L["MODULE_AMERICAS"] = "Amérique"
+L["MODULE_EUROPE"] = "Europe"
+L["MODULE_KOREA"] = "Corée"
+L["MODULE_TAIWAN"] = "Taïwan"
 L["MYTHIC_PLUS_DB_MODULES"] = "Module Données Mythique+"
 L["MYTHIC_PLUS_SCORES"] = "Scores Mythique+ "
 L["OPEN_CONFIG"] = "Ouvrir la configuration"

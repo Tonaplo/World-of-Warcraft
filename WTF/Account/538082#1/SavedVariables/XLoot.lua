@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["y"] = 1050.74841308594,
-						["x"] = 444.3818359375,
 						["visible"] = false,
 						["direction"] = "down",
+						["y"] = 1050.74841308594,
+						["x"] = 444.3818359375,
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,6 +43,23 @@ XLootADB = {
 				},
 			},
 		},
+		["Monitor"] = {
+			["profiles"] = {
+				["Default"] = {
+					["threshold_own"] = 0,
+					["show_coin"] = true,
+					["fade_other"] = 30,
+					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+					["anchor"] = {
+						["visible"] = false,
+						["y"] = 39.9096488952637,
+						["x"] = 443.357086181641,
+					},
+					["show_crafted"] = true,
+					["threshold_other"] = 4,
+				},
+			},
+		},
 		["Master"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -50,41 +67,25 @@ XLootADB = {
 				},
 			},
 		},
-		["Monitor"] = {
-			["profiles"] = {
-				["Default"] = {
-					["show_crafted"] = true,
-					["show_coin"] = true,
-					["fade_other"] = 30,
-					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
-					["anchor"] = {
-						["y"] = 39.9096488952637,
-						["visible"] = false,
-						["x"] = 443.357086181641,
-					},
-					["threshold_own"] = 0,
-					["threshold_other"] = 4,
-				},
-			},
-		},
 	},
 	["profileKeys"] = {
-		["Amranar - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

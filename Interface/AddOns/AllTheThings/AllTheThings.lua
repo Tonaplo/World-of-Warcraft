@@ -1997,12 +1997,6 @@ app.BaseAchievement = {
 		if key == "text" then
 			--local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(t.achievementID);
 			return GetAchievementLink(t.achievementID) or select(2, GetAchievementInfo(t.achievementID)) or ("Achievement #" .. t.achievementID);
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "link" then
 			return GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2028,12 +2022,6 @@ app.BaseAchievementCriteria = {
 			return t.parent.achievementID;
 		elseif key == "text" then
 			return GetAchievementCriteriaInfo(t.achievementID,t.criteriaID) or ("Achievement #" .. t.achievementID .. ", Criteria #" .. t.criteriaID);
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		--elseif key == "link" then
 		--	return GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2130,12 +2118,6 @@ app.BaseCharacterClass = {
 			return "|c" .. t.classColors.colorStr .. t.name .. "|r";
 		elseif key == "icon" then
 			return "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes";
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "name" then
 			local name, classFileName = GetClassInfo(t.classID);
 			rawset(t, "name", name);
@@ -2201,12 +2183,6 @@ app.BaseDifficulty = {
 			return "difficultyID";
 		elseif key == "text" then
 			return GetDifficultyInfo(t.difficultyID);
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "name" then
 			return GetDifficultyInfo(t.difficultyID);
 		elseif key == "icon" then
@@ -2253,12 +2229,6 @@ app.BaseEncounter = {
 		elseif key == "text" then
 			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
 			return t.name;
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "name" then
 			return select(1, EJ_GetEncounterInfo(t.encounterID)) or "";
 		elseif key == "description" then
@@ -2438,12 +2408,6 @@ app.BaseGearSet = {
 				return info.label;
 			end
 		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
-		elseif key == "title" then
 			local info = t.info;
 			if info then return info.requiredFaction; end
 		elseif key == "icon" then
@@ -2512,12 +2476,6 @@ app.BaseGearSetHeader = {
 		elseif key == "text" then
 			local info = C_TransmogSets_GetSetInfo(t.setHeaderID);
 			if info then return info.label; end
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "link" then
 			return t.achievementID and GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2538,12 +2496,6 @@ app.BaseGearSetSubHeader = {
 		elseif key == "text" then
 			local info = C_TransmogSets_GetSetInfo(t.setSubHeaderID);
 			if info then return info.description; end
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "link" then
 			return t.achievementID and GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2566,12 +2518,6 @@ app.BaseInstance = {
 		elseif key == "text" then
 			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
 			return t.name;
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "name" then
 			return select(1, EJ_GetInstanceInfo(t.instanceID)) or "";
 		elseif key == "description" then
@@ -2662,12 +2608,6 @@ app.BaseMap = {
 		elseif key == "text" then
 			local mapID = t.mapID;
 			return (mapID and mapID > 0 and GetMapNameByID(mapID)) or ("Map ID #" .. (mapID or "???"));
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "link" then
 			return t.achievementID and GetAchievementLink(t.achievementID);
 		elseif key == "icon" then
@@ -2776,13 +2716,6 @@ app.BaseNPC = {
 			else
 				return L("NPC_ID_NAMES")[t.npcID];
 			end
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
-			if t.npcID > 0 then return NPCTitlesFromID[t.npcID]; end
 		elseif key == "description" then
 			if t.npcID > 0 then return NPCTitlesFromID[t.npcID]; end
 		elseif key == "link" then
@@ -2822,12 +2755,6 @@ app.BaseObject = {
 			if t["isRaid"] then name = "|cffff8000" .. name .. "|r"; end
 			rawset(t, "text", name);
 			return name;
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "icon" then
 			return L("OBJECT_ID_ICONS")[t.objectID];
 		elseif key == "trackable" then
@@ -3139,12 +3066,6 @@ app.BaseVignette = {
 			local questName = QuestTitleFromID[t.vignetteID];
 			if questName then return "|Hquest:" .. t.vignetteID .. "|h" .. questName .. "|h"; end
 			return "|Hquest:" .. t.vignetteID .. "|h[]|h";
-		elseif key == "title" then
-			if t.parent.parent then
-				return t.parent.parent.text .. "/" .. t.parent.text;
-			else
-				return t.parent.text;
-			end
 		elseif key == "link" then
 			return "quest:" .. t.vignetteID;
 		elseif key == "icon" then
@@ -4082,7 +4003,7 @@ local function SetRowData(self, data)
 	ClearRowData(self);
 	if data then
 		local text = data.text;
-		if not text then
+		if not text or text == RETRIEVING_DATA then
 			self:GetParent().processingLinks = true;
 			text = RETRIEVING_DATA;
 		elseif string.find(text, "%[%]") then
@@ -4218,8 +4139,9 @@ local function UpdateVisibleRowData(self)
 		if container.processingLinks then
             container.processingLinks = nil;
             StartCoroutine(self:GetName(), function()
-                coroutine.yield();
+				coroutine.yield();
 				StartCoroutine(self:GetName()..":Update", function()
+					coroutine.yield();
 					self:Update();
 				end);
             end);
@@ -4396,6 +4318,15 @@ local function RowOnEnter(self)
 			end
 		else
 			if GameTooltip:NumLines() < 1 then GameTooltip:AddLine(self.Label:GetText()); end
+		end
+		
+		-- Relative ATT location
+		if reference.parent and not reference.itemID then
+			if reference.parent.parent then
+				GameTooltip:AddDoubleLine(reference.parent.parent.text or RETRIEVING_DATA, reference.parent.text or RETRIEVING_DATA);
+			else
+				GameTooltip:AddLine(reference.parent.text or RETRIEVING_DATA, 1, 1, 1);
+			end
 		end
 		
 		local title = reference.title;
@@ -5006,6 +4937,19 @@ function app:GetDataCache()
 			table.insert(groups, db);
 			app.Toys = nil;
 		end
+		
+		--[[
+		-- Never Implemented
+		-- Uncomment when harvesting
+		if app.NeverImplemented then
+			db = {};
+			db.expanded = false;
+			db.groups = app.NeverImplemented;
+			db.text = "Never Implemented";
+			table.insert(groups, db);
+			app.NeverImplemented = nil;
+		end
+		]]--
 		
 		-- Illusions (Dynamic)
 		--[[

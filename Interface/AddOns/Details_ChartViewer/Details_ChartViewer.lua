@@ -55,7 +55,7 @@ local function CreatePluginFrames (data)
 				options:SetTextColor (1, 0.93, 0.74)
 				options:SetIcon ([[Interface\Buttons\UI-OptionsButton]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
 				options:SetPoint ("left", ChartViewer.NewTabButton, "right", 4, 0)
-				options:SetTemplate (ChartViewer:GetFramework():GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
+				options:SetTemplate (ChartViewer:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 				options:SetFrameLevel (10)
 			end
 			
@@ -901,7 +901,7 @@ local create_add_tab_button = function()
 	local button = fw:CreateButton (ChartViewerWindowFrame, ChartViewer.OpenAddTabPanel, 120, 20, "Add Chart")
 	button:SetTextColor (1, 0.93, 0.74)
 	button:SetIcon ([[Interface\PaperDollInfoFrame\Character-Plus]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
-	button:SetTemplate (ChartViewer:GetFramework():GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
+	button:SetTemplate (ChartViewer:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 	button:SetFrameLevel (10)
 
 	button:SetPoint ("left", ChartViewer.segments_dropdown, "right", 4, 0)

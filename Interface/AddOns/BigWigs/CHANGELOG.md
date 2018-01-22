@@ -1,16 +1,15 @@
 # BigWigs
 
-## [v86.2](https://github.com/BigWigsMods/BigWigs/tree/v86.2) (2018-01-04)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v86.1...v86.2)
+## [v87](https://github.com/BigWigsMods/BigWigs/tree/v87) (2018-01-19)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v86.2...v87)
 
-- CovenofShivarra: Fix locale lookup in InfoBox  
-- Antorus/Eonar: mod -> self  
-- Antorus/Eonar: Fixes for LFR (#421)  
-- Proximity: Show 2 more player names in the normal proximity  
-- Antorus/Eonar: Add Rain of Fel and Spear timers at the end of the fight (Mythic)  
-- Revert "Temp workaround for Blizz PTR silliness." as Blizz have now implemented this in the deprecated file.  
-- Core/BossPrototype: Print invalid spell names.  
-- Argus: Fix Sargeras Rage say message  
-- Antorus/Argus: Improve first Scythe, Edge and Sargeras Rage timers for the Mythic stage  
-- Update deDE (#420)  
-- Eonar: Color the bars in the InfoBox  
+- bump version  
+- Core/BossPrototype: add :MythicPlus API call (#422)  
+- Plugins/Pull: Allow tanks in non-LFG 5 mans to starts pull timers, previously only allowed in LFG 5 mans.  
+- Antorus/Aggramar: Fix combo timers for normal mode.  
+- Core/Constants: Fix journal entries in config, regression from 7e9d5f0d4a74b028cef659148759e19cd6284788  
+- Core/BossPrototype: Tweak comment  
+- Replace EJ_GetSectionInfo usage with C_EncounterJournal.GetSectionInfo for WoW patch 7.3.5  
+- Core/BossPrototype: Tweak icon debug message.  
+- Antorus/Argus: Don't start Avatar of Aggramar bars outside of stage 2  
+- Eonar: Fix Purge duration, whitespace cleanup  

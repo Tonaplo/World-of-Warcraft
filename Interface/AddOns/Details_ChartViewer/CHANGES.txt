@@ -1,7 +1,7 @@
-changeset:   52:f21f3a495602
-tag:         v7.3.2.052
+changeset:   54:7ef9ce8c3a75
+tag:         v7.3.5.054
 user:        Tercio
-date:        Fri Dec 22 09:09:55 2017 -0200
-summary:     - Tabs are now more visible.
+date:        Thu Jan 18 14:52:38 2018 -0200
+summary:     - Using the new default button templates from Details!
 
 

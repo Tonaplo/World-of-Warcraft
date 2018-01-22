@@ -1,6 +1,6 @@
 local Loc = LibStub ("AceLocale-3.0"):GetLocale ("Details_TimeLine")
 local SharedMedia = LibStub:GetLibrary("LibSharedMedia-3.0")
- 
+
 --> create the plugin object
 local TimeLine = _detalhes:NewPluginObject ("Details_TimeLine", DETAILSPLUGIN_ALWAYSENABLED)
 tinsert (UISpecialFrames, "Details_TimeLine")
@@ -506,7 +506,8 @@ local function CreatePluginFrames()
 			return type_menu
 		end
 		
-		local select_type_dropdown = DetailsFrameWork:NewDropDown (TimeLineFrame, nil, "$parentTypeDropdown", nil, 150, 20, buildTypeMenu, 1, options_dropdown_template)
+		local select_type_dropdown = DetailsFrameWork:NewDropDown (TimeLineFrame, nil, "$parentTypeDropdown", nil, 120, 20, buildTypeMenu, 1, options_dropdown_template)
+		
 		
 	--> dropdown select combat (label)
 		local select_segment_label = DetailsFrameWork:NewLabel (TimeLineFrame, nil, "$parentSegmentLabel", nil, Loc ["STRING_SELECT_SEGMENT"], "GameFontNormal", nil, "orange")
@@ -528,7 +529,7 @@ local function CreatePluginFrames()
 			end
 			return t
 		end
-		local select_segment_dropdown = DetailsFrameWork:NewDropDown (TimeLineFrame, nil, "$parentSegmentDropdown", nil, 150, 20, buildCombatMenu, nil, options_dropdown_template)
+		local select_segment_dropdown = DetailsFrameWork:NewDropDown (TimeLineFrame, nil, "$parentSegmentDropdown", nil, 120, 20, buildCombatMenu, nil, options_dropdown_template)
 
 	--> change mode endd
 		local change_mode = function (_, _, mode)
@@ -538,21 +539,25 @@ local function CreatePluginFrames()
 		end
 	
 	--> select Cooldowns button
-		local show_cooldowns_button = framework:NewButton (TimeLineFrame, _, "$parentModeCooldownsButton", "ModeCooldownsButton", mode_buttons_width, mode_buttons_height, change_mode, type_cooldown, nil, nil, "Cooldowns", 1, options_button_template)
+		local show_cooldowns_button = framework:NewButton (TimeLineFrame, _, "$parentModeCooldownsButton", "ModeCooldownsButton", mode_buttons_width, mode_buttons_height, change_mode, type_cooldown, nil, nil, "Cooldowns", 1)
 		show_cooldowns_button:SetPoint ("bottomleft", TimeLineFrame, "bottomleft", 10, CONST_MENU_Y_POS)
+		show_cooldowns_button:SetTemplate (TimeLine:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		show_cooldowns_button:SetIcon ([[Interface\ICONS\Spell_Holy_GuardianSpirit]], nil, nil, nil, {5/64, 59/64, 5/64, 59/64}, nil, nil, 2)
-		show_cooldowns_button:SetTextColor ("orange")
-		show_cooldowns_button.textsize = 9
+		--show_cooldowns_button:SetTextColor ("orange")
+		--show_cooldowns_button.textsize = 9
 
 		local show_debuffs_button = framework:NewButton (TimeLineFrame, _, "$parentModeDebuffsButton", "ModeDebuffsButton", mode_buttons_width, mode_buttons_height, change_mode, type_debuff, nil, nil, "Debuffs", 1, options_button_template)
 		show_debuffs_button:SetPoint ("bottomleft", show_cooldowns_button, "bottomright", 5, 0)
+		show_debuffs_button:SetTemplate (TimeLine:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		show_debuffs_button:SetIcon ([[Interface\ICONS\Spell_Shadow_ShadowWordPain]], nil, nil, nil, {5/64, 59/64, 5/64, 59/64}, nil, nil, 2)
-		show_debuffs_button:SetTextColor ("orange")
-		show_debuffs_button.textsize = 9
+		--show_debuffs_button:SetTextColor ("orange")
+		--show_debuffs_button.textsize = 9
 
 		local all_buttons = {show_cooldowns_button, show_debuffs_button}
 	
 		local set_button_as_pressed = function (button)
+		
+			--[=[
 			local onenter = button.onenter_backdrop
 			local onleave = button.onleave_backdrop
 			onenter[1], onenter[2], onenter[3], onenter[4] = .8, .8, .8, 1
@@ -570,10 +575,14 @@ local function CreatePluginFrames()
 				button:SetBackdropColor (onleave[1], onleave[2], onleave[3], onleave[4])
 				button:SetBackdropBorderColor (border_onleave[1], border_onleave[2], border_onleave[3], border_onleave[4])
 			end
+			--]=]
+			
+			button:SetTemplate (TimeLine:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE"))
 		end
 		
 		function TimeLine:RefreshButtons()
 			for _, button in ipairs (all_buttons) do
+				--[=[
 				local onenter = button.onenter_backdrop
 				onenter[1], onenter[2], onenter[3], onenter[4] = .6, .6, .6, .9
 				local onleave = button.onleave_backdrop
@@ -585,12 +594,17 @@ local function CreatePluginFrames()
 				
 				button:SetBackdropColor (onleave[1], onleave[2], onleave[3], onleave[4])
 				button:SetBackdropBorderColor (border_onleave[1], border_onleave[2], border_onleave[3], border_onleave[4])
+				--]=]
+				
+				button:SetTemplate (TimeLine:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 			end
 		
 			if (current_type == type_cooldown) then --overall
 				set_button_as_pressed (show_cooldowns_button)
+				
 			elseif (current_type == type_debuff) then --endurance
 				set_button_as_pressed (show_debuffs_button)
+				
 			end
 		end
 		
@@ -611,17 +625,17 @@ local function CreatePluginFrames()
 			end
 		end
 		
-		local delete_button = framework:NewButton (TimeLineFrame, _, "$parentDeleteButton", "DeleteButton", 100, 20, delete_button_func, nil, nil, nil, Loc ["STRING_RESET"], 1, options_button_template)
+		local delete_button = framework:NewButton (TimeLineFrame, _, "$parentDeleteButton", "DeleteButton", 100, 20, delete_button_func, nil, nil, nil, Loc ["STRING_RESET"], 1, TimeLine:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		delete_button:SetPoint ("bottomright", TimeLineFrame, "bottomright", -10, CONST_MENU_Y_POS)
 		delete_button:SetIcon ([[Interface\Buttons\UI-StopButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
-		delete_button:SetTextColor ("orange")
-		delete_button.textsize = 9
+		--delete_button:SetTextColor ("orange")
+		--delete_button.textsize = 9
 		
-		local options_button = framework:NewButton (TimeLineFrame, _, "$parentOptionsPanelButton", "OptionsPanelButton", 100, 20, TimeLine.OpenOptionsPanel, nil, nil, nil, Loc ["STRING_OPTIONS"], 1, options_button_template)
+		local options_button = framework:NewButton (TimeLineFrame, _, "$parentOptionsPanelButton", "OptionsPanelButton", 100, 20, TimeLine.OpenOptionsPanel, nil, nil, nil, Loc ["STRING_OPTIONS"], 1, TimeLine:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
 		options_button:SetPoint ("right", delete_button, "left", 2, 0)
 		options_button:SetIcon ([[Interface\Buttons\UI-OptionsButton]], nil, nil, nil, {0, 1, 0, 1}, nil, nil, 2)
-		options_button:SetTextColor ("orange")
-		options_button.textsize = 9
+		--options_button:SetTextColor ("orange")
+		--options_button.textsize = 9
 		
 		--
 			local useIconsFunc = function()
@@ -630,7 +644,7 @@ local function CreatePluginFrames()
 			end
 			
 			local useIconsText = framework:CreateLabel (TimeLineFrame, Loc ["STRING_SPELLICONS"], 9, "orange", "GameFontNormal", "UseIconsLabel", nil, "overlay")
-			useIconsText:SetPoint ("right", options_button, "left", -2, 0)
+			useIconsText:SetPoint ("right", options_button, "left", -4, 0)
 
 			local useIconsCheckbox = framework:CreateSwitch (TimeLineFrame, useIconsFunc, false)
 			useIconsCheckbox:SetTemplate (framework:GetTemplate ("switch", "OPTIONS_CHECKBOX_TEMPLATE"))

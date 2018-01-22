@@ -1,5 +1,11 @@
-changeset:   696:d4a8c7e49b83
+changeset:   697:8e9fc4be13d7
 tag:         tip
+user:        Tercio
+date:        Thu Jan 18 14:58:35 2018 -0200
+summary:     - Framework upated to v63 (template parenting support).
+
+
+changeset:   696:d4a8c7e49b83
 user:        Tercio
 date:        Fri Jan 12 10:36:46 2018 -0200
 summary:     - Default width for death window is now 350 (up from 300).

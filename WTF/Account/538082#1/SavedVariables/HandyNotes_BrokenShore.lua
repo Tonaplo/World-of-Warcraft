@@ -2,57 +2,60 @@
 HandyNotes_BrokenShoreDB = {
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
-		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
+		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["profiles"] = {
 		["Kaldorath - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
-		},
-		["Evisca - Bleeding Hollow"] = {
-		},
 		["Gorog - Bleeding Hollow"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Amranar - Proudmoore"] = {
+		},
+		["Fimwack - Proudmoore"] = {
+		},
+		["Greybone - Proudmoore"] = {
+		},
+		["Faerand - Proudmoore"] = {
+		},
+		["Rahran - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
-		},
-		["Miriyal - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["show_netherPortals"] = false,
 			["show_infernalCores"] = false,
 			["show_shrine"] = false,
 		},
-		["Fimwack - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
-		["Greybone - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Evisca - Bleeding Hollow"] = {
 		},
-		["Faerand - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 	},
 }

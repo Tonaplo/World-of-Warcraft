@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 			["Dayco-Sargeras"] = {
@@ -102,6 +96,32 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_start"] = "22:29:29",
+			["date_end"] = "22:30:29",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 59.9930000000004,
+		}, -- [1]
+		{
+			["date_start"] = "22:26:12",
+			["date_end"] = "22:26:51",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 39.857,
+		}, -- [2]
+		{
+			["date_start"] = "22:16:50",
+			["date_end"] = "22:17:33",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 42.3449999999994,
+		}, -- [3]
+		{
+			["date_end"] = "23:23:24",
+			["date_start"] = "23:21:01",
+			["name"] = "L'ura",
+			["total_time"] = 143.669000000002,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -316,7 +336,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Halfcircle-Darkspear"] = {
@@ -381,30 +400,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "22:29:29",
-			["date_end"] = "22:30:29",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 59.9930000000004,
-		}, -- [1]
-		{
-			["date_start"] = "22:26:12",
-			["date_end"] = "22:26:51",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 39.857,
-		}, -- [2]
-		{
-			["date_start"] = "22:16:50",
-			["date_end"] = "22:17:33",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 42.3449999999994,
-		}, -- [3]
-		{
-			["date_end"] = "23:23:24",
-			["date_start"] = "23:21:01",
-			["name"] = "L'ura",
-			["total_time"] = 143.669000000002,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

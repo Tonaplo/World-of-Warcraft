@@ -1,7 +1,7 @@
-changeset:   77:7e8620766105
-tag:         v7.3.2.077
+changeset:   79:880aeb7bfa95
+tag:         v7.3.5.079
 user:        Tercio
-date:        Fri Dec 22 09:10:20 2017 -0200
-summary:     - The last boss played will be automatically selected when the window open.
+date:        Thu Jan 18 14:54:25 2018 -0200
+summary:     - Using the new button template from Details!
 
 

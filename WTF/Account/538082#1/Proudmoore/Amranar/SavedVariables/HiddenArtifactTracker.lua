@@ -2,9 +2,9 @@
 HiddenArtifactTrackerChars = {
 	["G'Hanir, the Mother Tree"] = {
 		["Black Rook Hold"] = false,
-		["Court of Stars"] = false,
-		["Lower Karazhan"] = false,
 		["Cathedral of Eternal Night"] = false,
+		["Lower Karazhan"] = false,
+		["Court of Stars"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -20,9 +20,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Fangs of Ashamane"] = {
 		["Black Rook Hold"] = false,
-		["Court of Stars"] = false,
-		["Lower Karazhan"] = false,
 		["Cathedral of Eternal Night"] = false,
+		["Lower Karazhan"] = false,
+		["Court of Stars"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -38,9 +38,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Claws of Ursoc"] = {
 		["Black Rook Hold"] = false,
-		["Court of Stars"] = false,
-		["Lower Karazhan"] = false,
 		["Cathedral of Eternal Night"] = false,
+		["Lower Karazhan"] = false,
+		["Court of Stars"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,
@@ -56,9 +56,9 @@ HiddenArtifactTrackerChars = {
 	},
 	["Scythe of Elune"] = {
 		["Black Rook Hold"] = false,
-		["Court of Stars"] = false,
-		["Lower Karazhan"] = false,
 		["Cathedral of Eternal Night"] = false,
+		["Lower Karazhan"] = false,
+		["Court of Stars"] = false,
 		["Assault on Violet Hold"] = false,
 		["completion"] = 0,
 		["Darkheart Thicket"] = false,

@@ -1,11 +1,10 @@
 # LittleWigs
 
-## [v7.3.5](https://github.com/BigWigsMods/LittleWigs/tree/v7.3.5) (2018-01-09)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.3.4...v7.3.5)
+## [v7.3.6](https://github.com/BigWigsMods/LittleWigs/tree/v7.3.6) (2018-01-19)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.3.5...v7.3.6)
 
-- CourtOfStars/Trash: do not show messages for buffs that were already used (#147)  
-- DarkheartThicket/ShadeOfXavius: use GetBossTarget() for Growing Paranoia to give a warning sooner (#146)  
-- DarkheartThicket/ShadeOfXavius: warn when "Feed on the Weak" is applied (#145)  
-- Karazhan/Moroes: warn a healer about Coat Check too (#148)  
-- DarkheartThicket/ShadeOfXavius: warn about incoming party-wide damage at 50% (#144)  
-- update zhCN. (#143)  
+- Revert "SeatOfTheTriumvirate/Zuraal: print Null Palm's target (#149)"  
+- VaultOfTheWardens/Ashgolm: Adjust 1st Countermeasures' cooldown and add a CD bar for 2nd and further Countermeasures (#150)  
+- Legion/VaultOfTheWardens/CordanaFelsong: Add extra warmup trigger in case you miss the first.  
+- Update journal ID usage.  
+- SeatOfTheTriumvirate/Zuraal: print Null Palm's target (#149)  

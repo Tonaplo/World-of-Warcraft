@@ -2,38 +2,83 @@
 DetailsTimeLineDB = {
 	["combat_data"] = {
 		{
-			["date_start"] = "23:33:05",
 			["date_end"] = "23:34:21",
+			["date_start"] = "23:33:05",
 			["name"] = "Helya",
 			["total_time"] = 76,
 		}, -- [1]
 		{
-			["date_start"] = "23:30:48",
 			["date_end"] = "23:31:15",
+			["date_start"] = "23:30:48",
 			["name"] = "Harbaron",
 			["total_time"] = 27.002,
 		}, -- [2]
 		{
-			["date_start"] = "23:27:52",
 			["date_end"] = "23:28:25",
+			["date_start"] = "23:27:52",
 			["name"] = "Ymiron, the Fallen King",
 			["total_time"] = 33,
 		}, -- [3]
 		{
-			["date_start"] = "23:23:09",
 			["date_end"] = "23:24:45",
+			["date_start"] = "23:23:09",
 			["name"] = "Helya",
 			["total_time"] = 95.5170000000001,
 		}, -- [4]
 	},
 	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Liulao-Quel'Thalas"] = {
+				{
+					58.1460000000002, -- [1]
+					"Liulao-Quel'Thalas", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Yudead"] = {
+				{
+					60.232, -- [1]
+					"Yudead", -- [2]
+					86659, -- [3]
+				}, -- [1]
+			},
+			["Illaedan-Quel'Thalas"] = {
+				{
+					65.9230000000002, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Illaedan-Quel'Thalas"] = {
+				{
+					16.5739999999998, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+			["Yudead"] = {
+				{
+					3.78499999999985, -- [1]
+					"Yudead", -- [2]
+					1022, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["window_scale"] = 1,
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Liulao-Quel'Thalas"] = {
@@ -215,16 +260,12 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Yudead"] = {
-				[185539] = {
-					29.6869999999999, -- [1]
-					35.7000000000001, -- [2]
-					["source"] = "Destructor Tentacle",
-					["active"] = false,
-				},
+			["Faerand"] = {
 				[197262] = {
-					13.5319999999999, -- [1]
-					15.8209999999999, -- [2]
+					35.819, -- [1]
+					37.258, -- [2]
+					58.4570000000001, -- [3]
+					64.056, -- [4]
 					["source"] = "Helya",
 					["active"] = false,
 				},
@@ -235,12 +276,16 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Faerand"] = {
+			["Yudead"] = {
+				[185539] = {
+					29.6869999999999, -- [1]
+					35.7000000000001, -- [2]
+					["source"] = "Destructor Tentacle",
+					["active"] = false,
+				},
 				[197262] = {
-					35.819, -- [1]
-					37.258, -- [2]
-					58.4570000000001, -- [3]
-					64.056, -- [4]
+					13.5319999999999, -- [1]
+					15.8209999999999, -- [2]
 					["source"] = "Helya",
 					["active"] = false,
 				},
@@ -289,52 +334,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["cooldowns_timeline"] = {
-		{
-			["Liulao-Quel'Thalas"] = {
-				{
-					58.1460000000002, -- [1]
-					"Liulao-Quel'Thalas", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Yudead"] = {
-				{
-					60.232, -- [1]
-					"Yudead", -- [2]
-					86659, -- [3]
-				}, -- [1]
-			},
-			["Illaedan-Quel'Thalas"] = {
-				{
-					65.9230000000002, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Yudead"] = {
-				{
-					3.78499999999985, -- [1]
-					"Yudead", -- [2]
-					1022, -- [3]
-				}, -- [1]
-			},
-			["Illaedan-Quel'Thalas"] = {
-				{
-					16.5739999999998, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -345,4 +344,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 }
