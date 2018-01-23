@@ -27,13 +27,6 @@ X: 0
 Y: 0
 W: 300
 H: 300
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -209
-Y: 21
-W: 70
-H: 70
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT
@@ -41,3 +34,10 @@ X: 97
 Y: 72
 W: 370
 H: 110
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -209
+Y: 21
+W: 70
+H: 70

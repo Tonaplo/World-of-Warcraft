@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -59,6 +53,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "00:56:14",
+			["date_start"] = "00:55:01",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 73.3379999999961,
+		}, -- [1]
+		{
+			["date_end"] = "00:51:43",
+			["date_start"] = "00:50:31",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 71.6999999999971,
+		}, -- [2]
+		{
+			["date_end"] = "00:39:03",
+			["date_start"] = "00:38:00",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 63.3179999999993,
+		}, -- [3]
+		{
+			["date_start"] = "20:33:33",
+			["date_end"] = "20:35:10",
+			["name"] = "Cordana Felsong",
+			["total_time"] = 97.6800000000003,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -209,7 +229,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Donaldhump-Frostmourne"] = {
@@ -312,30 +331,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "00:56:14",
-			["date_start"] = "00:55:01",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 73.3379999999961,
-		}, -- [1]
-		{
-			["date_end"] = "00:51:43",
-			["date_start"] = "00:50:31",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 71.6999999999971,
-		}, -- [2]
-		{
-			["date_end"] = "00:39:03",
-			["date_start"] = "00:38:00",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 63.3179999999993,
-		}, -- [3]
-		{
-			["date_start"] = "20:33:33",
-			["date_end"] = "20:35:10",
-			["name"] = "Cordana Felsong",
-			["total_time"] = 97.6800000000003,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

@@ -1,9 +1,9 @@
 
 QuesterDB = {
 	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
 		["Gorog - Bleeding Hollow"] = "Default",
 		["Brity - Steamwheedle Cartel"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
@@ -16,7 +16,7 @@ QuesterDB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,7 +1,43 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "12:33:25",
+			["date_start"] = "12:32:04",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 80.6850000000004,
+		}, -- [1]
+		{
+			["date_end"] = "12:29:28",
+			["date_start"] = "12:28:19",
+			["name"] = "Dresaron",
+			["total_time"] = 68.6639999999998,
+		}, -- [2]
+		{
+			["date_end"] = "12:26:06",
+			["date_start"] = "12:24:49",
+			["name"] = "Oakheart",
+			["total_time"] = 76.9629999999997,
+		}, -- [3]
+		{
+			["date_end"] = "12:19:44",
+			["date_start"] = "12:18:53",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 50.5609999999997,
+		}, -- [4]
+	},
 	["cooldowns_timeline"] = {
 		{
 			["Zeo-Darkspear"] = {
@@ -118,17 +154,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Zeo-Darkspear"] = {
@@ -154,14 +179,6 @@ DetailsTimeLineDB = {
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
-				[200273] = {
-					42.9610000000002, -- [1]
-					43.3829999999998, -- [2]
-					43.8320000000003, -- [3]
-					44.5380000000005, -- [4]
-					["source"] = "[*] Cowardice",
-					["active"] = false,
-				},
 				[209858] = {
 					1.18900000000031, -- [1]
 					45.2060000000001, -- [2]
@@ -174,6 +191,14 @@ DetailsTimeLineDB = {
 					31.9660000000004, -- [1]
 					51.9710000000005, -- [2]
 					["source"] = "[*] Waking Nightmare",
+					["active"] = false,
+				},
+				[200273] = {
+					42.9610000000002, -- [1]
+					43.3829999999998, -- [2]
+					43.8320000000003, -- [3]
+					44.5380000000005, -- [4]
+					["source"] = "[*] Cowardice",
 					["active"] = false,
 				},
 			},
@@ -216,28 +241,28 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Mohawkj-Eredar"] = {
-				[200289] = {
-					58.3429999999999, -- [1]
-					78.3440000000001, -- [2]
-					["source"] = "Shade of Xavius",
-					["active"] = false,
-				},
 				[200238] = {
 					13.3360000000002, -- [1]
 					18.3470000000007, -- [2]
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
-				[200243] = {
-					10.1720000000005, -- [1]
-					30.1700000000001, -- [2]
-					["source"] = "[*] Waking Nightmare",
+				[200289] = {
+					58.3429999999999, -- [1]
+					78.3440000000001, -- [2]
+					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
 				[200273] = {
 					13.6570000000002, -- [1]
 					15.3600000000006, -- [2]
 					["source"] = "[*] Cowardice",
+					["active"] = false,
+				},
+				[200243] = {
+					10.1720000000005, -- [1]
+					30.1700000000001, -- [2]
+					["source"] = "[*] Waking Nightmare",
 					["active"] = false,
 				},
 			},
@@ -463,36 +488,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "12:33:25",
-			["date_start"] = "12:32:04",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 80.6850000000004,
-		}, -- [1]
-		{
-			["date_end"] = "12:29:28",
-			["date_start"] = "12:28:19",
-			["name"] = "Dresaron",
-			["total_time"] = 68.6639999999998,
-		}, -- [2]
-		{
-			["date_end"] = "12:26:06",
-			["date_start"] = "12:24:49",
-			["name"] = "Oakheart",
-			["total_time"] = 76.9629999999997,
-		}, -- [3]
-		{
-			["date_end"] = "12:19:44",
-			["date_start"] = "12:18:53",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 50.5609999999997,
-		}, -- [4]
 	},
 }

@@ -1,3 +1,8 @@
+VER 3 000000000000003A "Agatha Consumabl" "252184"
+/use Lightblood Elixir
+/use Sylvan Elixir
+/use Spiced Falcosaur Omelet
+END
 VER 3 0000000000000030 "Balance of Powe" "876916"
 /run local p="BoP" for i=1,9 do RunScript(GetMacroBody(p..i)) end
 END

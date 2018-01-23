@@ -38,7 +38,7 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Alliance"] = {
-							["Mallusof"] = 961939431,
+							["Mallusof"] = 962879401,
 						},
 					},
 				},
@@ -56,26 +56,26 @@ LUIDB = {
 						},
 						["Alliance"] = {
 							["Miriyal"] = 199510514,
-							["Farahn"] = 40077923,
+							["Farahn"] = 41650759,
 							["Greybone"] = 114433958,
-							["Amranar"] = 608175115,
+							["Amranar"] = 558397966,
 							["Granjior"] = 532680269,
 							["Kaldorath"] = 356949697,
 							["Faerand"] = 195670366,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 343072947,
 							["Morifa"] = 560270717,
-							["Rahran"] = 278951813,
-							["Praerend"] = 531468129,
+							["Rahran"] = 272082188,
+							["Praerend"] = 531499506,
 						},
 					},
 				},
 				["Bleeding Hollow"] = {
 					["Gold"] = {
 						["Horde"] = {
+							["Rentror"] = 470,
 							["Zaliga"] = 7678001,
 							["Evisca"] = 303004,
-							["Rentror"] = 470,
 							["Gorog"] = 945645,
 						},
 					},
@@ -147,20 +147,14 @@ LUIDB = {
 		["Unitframes"] = {
 			["global"] = {
 				["Mallusof"] = {
-					["Player"] = {
-						["Y"] = -200.000091552734,
-						["X"] = -310.519439697266,
-						["Castbar"] = {
-							["General"] = {
-								["Y"] = -148.80192565918,
-								["X"] = -365.631866455078,
-								["Point"] = "CENTER",
-							},
-						},
-					},
 					["Party"] = {
 						["Y"] = -55.5457916259766,
 						["X"] = 159.210083007813,
+					},
+					["Boss"] = {
+						["Y"] = 205.941268920898,
+						["X"] = 453.880889892578,
+						["Point"] = "BOTTOMLEFT",
 					},
 					["Settings"] = {
 						["ShowV2PartyTextures"] = false,
@@ -188,10 +182,16 @@ LUIDB = {
 						["Point"] = "RIGHT",
 					},
 					["Version"] = 3600,
-					["Boss"] = {
-						["Y"] = 205.941268920898,
-						["X"] = 453.880889892578,
-						["Point"] = "BOTTOMLEFT",
+					["Player"] = {
+						["Y"] = -200.000091552734,
+						["X"] = -310.519439697266,
+						["Castbar"] = {
+							["General"] = {
+								["Y"] = -148.80192565918,
+								["X"] = -365.631866455078,
+								["Point"] = "CENTER",
+							},
+						},
 					},
 				},
 			},
@@ -638,11 +638,6 @@ LUIDB = {
 								["Width"] = 200,
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Texture"] = "oUF LUI",
-								["Width"] = 200,
 							},
 						},
 						["Border"] = {
@@ -1225,38 +1220,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Tichondrius"] = {
-							"/cw Celaniia-Tichondrius kinda low", -- [1]
-							"/cw Celaniia-Tichondrius lol", -- [2]
-							"/cw Celaniia-Tichondrius excpt it's PoM", -- [3]
-							"/cw Celaniia-Tichondrius True but", -- [4]
-							"/cw Celaniia-Tichondrius it's gonna bounce because bombs", -- [5]
-							"/cw Celaniia-Tichondrius + always put them on tanks", -- [6]
-							"/cw Celaniia except PoM costs nothing", -- [7]
-							"/cw Celaniia-Tichondrius yeah yeah", -- [8]
-							"/cw Celaniia-Tichondrius :)(", -- [9]
-							"/cw Kaligon-Tichondrius She is a great player", -- [10]
-							"/cw Celaniia-Tichondrius well yeah, but", -- [11]
-							"/cw Celaniia-Tichondrius that was my 2nd pull ever :P", -- [12]
-							"/cw Celaniia-Tichondrius I always just heal a shitton in the beginning", -- [13]
-							"/cw Celaniia-Tichondrius :P", -- [14]
-							"/cw Celaniia-Tichondrius I mean", -- [15]
-							"/cw Celaniia-Tichondrius kinda low", -- [16]
-							"/cw Celaniia-Tichondrius excpt it's PoM", -- [17]
-							"/cw Celaniia-Tichondrius it's gonna bounce because bombs", -- [18]
-							"/cw Celaniia except PoM costs nothing", -- [19]
-							"/cw Celaniia-Tichondrius :)(", -- [20]
-							"/cw Celaniia-Tichondrius well yeah, but", -- [21]
-							"/cw Celaniia-Tichondrius I always just heal a shitton in the beginning", -- [22]
-							"/cw Celaniia-Tichondrius I mean", -- [23]
-							"/cw Celaniia-Tichondrius excpt it's PoM", -- [24]
-							"/cw Celaniia except PoM costs nothing", -- [25]
-							"/cw Celaniia-Tichondrius well yeah, but", -- [26]
-							"/cw Celaniia-Tichondrius I mean", -- [27]
-							"/cw Celaniia except PoM costs nothing", -- [28]
-							"/cw Celaniia-Tichondrius I mean", -- [29]
-							"/g what?", -- [30]
-							"/g That was pretty hard actually", -- [31]
-							"/g Good fuin though", -- [32]
+							"/g it’s easy to deter the ladies from eating tide pods but it’s more difficult to deter...gents", -- [1]
+							"/s You're Reportmepls", -- [2]
+							"/s you have to", -- [3]
+							"/cw Kalithumos Sorry, I muted him", -- [4]
+							"/cw Kalithumos I cant handle that shit", -- [5]
+							"/cw Kalithumos-Tichondrius y", -- [6]
+							"/raid I agree that there are improvements to be made. I disagree that the current change hasnt made it more involved.", -- [7]
+							"/raid But I'm done talking about this", -- [8]
+							"/cw Celaniia-Tichondrius ofc :)", -- [9]
+							"/g Mythic raid, ty though", -- [10]
+							"/raid I'm on my spot", -- [11]
+							"/raid at Green", -- [12]
+							"/raid I dont want to be on the same side as Ellestria.", -- [13]
+							"/raid He steals all the heals :(", -- [14]
+							"/raid She*", -- [15]
+							"/raid I feel like the purple group needs more healing? Am I wrong?", -- [16]
+							"/s Blaey", -- [17]
+							"/s Blakeyt", -- [18]
+							"/s Wisdom", -- [19]
+							"/s plox", -- [20]
+							"/cw Kalithumos Why did you switch out Celania?", -- [21]
+							"/cw Kalithumos-Tichondrius Switch me for me", -- [22]
+							"/cw Kalithumos-Tichondrius he does better", -- [23]
+							"/cw Kalithumos-Tichondrius He objectively does better", -- [24]
+							"/cw Kalithumos-Tichondrius First pulls were better", -- [25]
+							"/cw Kalithumos-Tichondrius then Elle came over here, that was bad lo", -- [26]
+							"/cw Celaniia-Tichondrius ? I said to swap me for yoiu", -- [27]
+							"/cw Celaniia-Tichondrius + Druids and Disc better here", -- [28]
+							"/cw Kalithumos-Tichondrius Send a text", -- [29]
+							"/cw Kalithumos-Tichondrius gonna hang with cecilie :)", -- [30]
+							"/g Gz guys :)", -- [31]
+							"/cw Kalithumos-Tichondrius here if you want me", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Did Ragefire with a bunch of level 19-20s", -- [1]
@@ -1293,38 +1288,38 @@ LUIDB = {
 							" Did Ragefire with a bunch of level 19-20s", -- [32]
 						},
 						["Alliance - Proudmoore"] = {
-							"/p Sorry", -- [1]
-							"/p :( SOrry", -- [2]
-							"/p need more stuns :)", -- [3]
-							"/p come come", -- [4]
-							"/p SS", -- [5]
-							"/p alright", -- [6]
-							"/p you have space", -- [7]
-							"/p heroic", -- [8]
-							"/p I feel like I'm using all my defensives", -- [9]
-							"/p hey guys", -- [10]
-							"/p Alright", -- [11]
-							"/p damn", -- [12]
-							"/p Start with Guardian Spirit please", -- [13]
-							"/p that was my bad", -- [14]
+							"/g Are you ready for it?", -- [1]
+							"/p DUUUUUUUUUUUUUDE", -- [2]
+							"/g Are you ready for it?", -- [3]
+							"/macro", -- [4]
+							"/g Are you ready for it?", -- [5]
+							"/macro", -- [6]
+							"/g ELEMENTAL SHAMAN TOO, HAHA", -- [7]
+							"/macro", -- [8]
+							"/p DUUUUUUUUUUUUUDE", -- [9]
+							"/macro", -- [10]
+							"/g Are you ready for it?", -- [11]
+							"/macro", -- [12]
+							"/p DUUUUUUUUUUUUUDE", -- [13]
+							"/g Are you ready for it?", -- [14]
 							"/p DUUUUUUUUUUUUUDE", -- [15]
-							"/p with full shield", -- [16]
-							"/p Sorry", -- [17]
-							"/p need more stuns :)", -- [18]
-							"/p SS", -- [19]
-							"/p you have space", -- [20]
-							"/p I feel like I'm using all my defensives", -- [21]
-							"/p Alright", -- [22]
-							"/p Start with Guardian Spirit please", -- [23]
-							"/p DUUUUUUUUUUUUUDE", -- [24]
-							"/p Sorry", -- [25]
-							"/p SS", -- [26]
-							"/p I feel like I'm using all my defensives", -- [27]
-							"/p Start with Guardian Spirit please", -- [28]
-							"/p Sorry", -- [29]
-							"/p I feel like I'm using all my defensives", -- [30]
-							"/p Sorry", -- [31]
-							"/macro", -- [32]
+							"/g Are you ready for it?", -- [16]
+							"/macro", -- [17]
+							"/p DUUUUUUUUUUUUUDE", -- [18]
+							"/g Are you ready for it?", -- [19]
+							"/p DUUUUUUUUUUUUUDE", -- [20]
+							"/g Are you ready for it?", -- [21]
+							"/p DUUUUUUUUUUUUUDE", -- [22]
+							"/g Are you ready for it?", -- [23]
+							"/cw Acekicker-Tichondrius come", -- [24]
+							"/cw Acekicker-Tichondrius on", -- [25]
+							"/cw Acekicker-Tichondrius lol", -- [26]
+							"/cw Acekicker-Tichondrius Yeah, I'm trying to get a 15 on all characters though", -- [27]
+							"/cw Acekicker-Tichondrius For that sweet artifact skin", -- [28]
+							"/cw Acekicker-Tichondrius But I should be able to pull good damage", -- [29]
+							"/cw Acekicker-Tichondrius yeah lol", -- [30]
+							"/p nah", -- [31]
+							"/p I have all 12 classes at max", -- [32]
 						},
 					},
 					["profiles"] = {

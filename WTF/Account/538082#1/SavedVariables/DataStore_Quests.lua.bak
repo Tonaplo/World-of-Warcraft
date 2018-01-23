@@ -9,16 +9,16 @@ DataStore_QuestsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -428,7 +428,6 @@ DataStore_QuestsDB = {
 					[1257] = 1056964608,
 					[1546] = 33,
 				},
-				["HistoryBuild"] = "25881",
 				["Rewards"] = {
 					"r|152984|1|1,r|152626|1|1", -- [1]
 					"r|157825|1|1,r|142004|1|1", -- [2]
@@ -471,6 +470,7 @@ DataStore_QuestsDB = {
 					"Order Hall", -- [17]
 					"Battle Pets", -- [18]
 				},
+				["HistoryBuild"] = "25881",
 				["Quests"] = {
 					7211072, -- [1]
 					7213160, -- [2]
@@ -507,56 +507,58 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["HistoryLastUpdate"] = 1516604797,
+				["HistoryLastUpdate"] = 1516676348,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:49075:110:110:255|h[Antorus, the Burning Throne: Dark Passage]|h|r", -- [1]
-					"|cffffff00|Hquest:49032:110:110:255|h[Antorus, the Burning Throne: Dark Passage]|h|r", -- [2]
-					"|cffffff00|Hquest:49135:110:110:255|h[Antorus, the Burning Throne: The Heart of Argus]|h|r", -- [3]
-					"|cffffff00|Hquest:42420:110:110:255|h[Court of Farondis]|h|r", -- [4]
-					"|cffffff00|Hquest:46777:110:110:255|h[The Bounties of Legionfall]|h|r", -- [5]
-					"|cffffff00|Hquest:48642:110:110:255|h[Argussian Reach]|h|r", -- [6]
-					"|cffffff00|Hquest:45787:-1:40:110|h[Call of the Scarab]|h|r", -- [7]
-					"|cffffff00|Hquest:45238:-1:110:255|h[Return to Karazhan: Cubic Cynosure]|h|r", -- [8]
-					"|cffffff00|Hquest:42170:110:110:255|h[The Dreamweavers]|h|r", -- [9]
-					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [10]
-					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [11]
-					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [12]
-					"|cffffff00|Hquest:41184:110:110:255|h[Tried and True]|h|r", -- [13]
-					"|cff808080|Hquest:29464:60:60:255|h[Tools of Divination]|h|r", -- [14]
-					"|cffffff00|Hquest:29456:-1:15:255|h[A Captured Banner]|h|r", -- [15]
-					"|cffffff00|Hquest:29443:-1:15:255|h[A Curious Crystal]|h|r", -- [16]
-					"|cffffff00|Hquest:29446:-1:15:255|h[A Wondrous Weapon]|h|r", -- [17]
-					"|cffffff00|Hquest:29507:-1:1:255|h[Fun for the Little Ones]|h|r", -- [18]
-					"|cffffff00|Hquest:29451:-1:15:255|h[The Master Strategist]|h|r", -- [19]
-					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [20]
-					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [21]
-					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [22]
+					"|cffffff00|Hquest:46777:110:110:255|h[The Bounties of Legionfall]|h|r", -- [1]
+					"|cffffff00|Hquest:45787:-1:40:110|h[Call of the Scarab]|h|r", -- [2]
+					"|cffffff00|Hquest:45238:-1:110:255|h[Return to Karazhan: Cubic Cynosure]|h|r", -- [3]
+					"|cffffff00|Hquest:49076:110:110:255|h[Antorus, the Burning Throne: Dark Passage]|h|r", -- [4]
+					"|cffffff00|Hquest:49075:110:110:255|h[Antorus, the Burning Throne: Dark Passage]|h|r", -- [5]
+					"|cffffff00|Hquest:49032:110:110:255|h[Antorus, the Burning Throne: Dark Passage]|h|r", -- [6]
+					"|cffffff00|Hquest:49135:110:110:255|h[Antorus, the Burning Throne: The Heart of Argus]|h|r", -- [7]
+					"|cffffff00|Hquest:42420:110:110:255|h[Court of Farondis]|h|r", -- [8]
+					"|cffffff00|Hquest:42422:110:110:255|h[The Wardens]|h|r", -- [9]
+					"|cffffff00|Hquest:48642:110:110:255|h[Argussian Reach]|h|r", -- [10]
+					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [11]
+					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [12]
+					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [13]
+					"|cffffff00|Hquest:41184:110:110:255|h[Tried and True]|h|r", -- [14]
+					"|cff808080|Hquest:29464:60:60:255|h[Tools of Divination]|h|r", -- [15]
+					"|cffffff00|Hquest:29456:-1:15:255|h[A Captured Banner]|h|r", -- [16]
+					"|cffffff00|Hquest:29443:-1:15:255|h[A Curious Crystal]|h|r", -- [17]
+					"|cffffff00|Hquest:29446:-1:15:255|h[A Wondrous Weapon]|h|r", -- [18]
+					"|cffffff00|Hquest:29507:-1:1:255|h[Fun for the Little Ones]|h|r", -- [19]
+					"|cffffff00|Hquest:29451:-1:15:255|h[The Master Strategist]|h|r", -- [20]
+					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [21]
+					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [22]
+					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [23]
 				},
 				["HistoryBuild"] = "25881",
-				["HistorySize"] = 7115,
+				["HistorySize"] = 7125,
 				["QuestTags"] = {
-					62, -- [1]
-					62, -- [2]
-					62, -- [3]
-					128, -- [4]
-					128, -- [5]
-					128, -- [6]
-					nil, -- [7]
-					nil, -- [8]
+					128, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					62, -- [4]
+					62, -- [5]
+					62, -- [6]
+					62, -- [7]
+					128, -- [8]
 					128, -- [9]
-					140, -- [10]
+					128, -- [10]
 					140, -- [11]
 					140, -- [12]
-					nil, -- [13]
-					"COMPLETED", -- [14]
+					140, -- [13]
+					nil, -- [14]
 					"COMPLETED", -- [15]
 					"COMPLETED", -- [16]
 					"COMPLETED", -- [17]
-					nil, -- [18]
-					"COMPLETED", -- [19]
-					102, -- [20]
-					"ALLIANCE", -- [21]
-					102, -- [22]
+					"COMPLETED", -- [18]
+					nil, -- [19]
+					"COMPLETED", -- [20]
+					102, -- [21]
+					"ALLIANCE", -- [22]
+					102, -- [23]
 				},
 				["History"] = {
 					[2] = 1342210312,
@@ -621,7 +623,7 @@ DataStore_QuestsDB = {
 					[1084] = 224206814,
 					[1085] = 4168876049,
 					[1086] = 202375256,
-					[1087] = 4289093905,
+					[1087] = 4293288209,
 					[1088] = 775422974,
 					[1089] = 46168522,
 					[1090] = 555764480,
@@ -985,7 +987,7 @@ DataStore_QuestsDB = {
 					[1471] = 3959422983,
 					[1472] = 1915748607,
 					[1473] = 1073742124,
-					[1474] = 10,
+					[369] = 2613248,
 					[1475] = 503435264,
 					[1476] = 33423372,
 					[1477] = 1048640,
@@ -1019,6 +1021,7 @@ DataStore_QuestsDB = {
 					[1509] = 52625408,
 					[378] = 20971520,
 					[1511] = 50331648,
+					[1512] = 4194304,
 					[1514] = 4009780225,
 					[1515] = 12962,
 					[1516] = 202375176,
@@ -1242,6 +1245,7 @@ DataStore_QuestsDB = {
 					[933] = 219270214,
 					[934] = 368,
 					[941] = 46121088,
+					[1474] = 10,
 					[162] = 2048,
 					[391] = 512,
 					[1573] = 1073741824,
@@ -1315,16 +1319,16 @@ DataStore_QuestsDB = {
 					[1254] = 1828925512,
 					[1374] = 36962391,
 					[978] = 425986,
-					[40] = 8389632,
-					[979] = 2417012800,
 					[991] = 512,
+					[979] = 2417012800,
+					[40] = 8389632,
 					[980] = 3154165761,
 					[327] = 608293374,
 					[981] = 3271559288,
 					[14] = 4,
 					[982] = 76,
 					[341] = 66186,
-					[983] = 1090781184,
+					[246] = 256,
 					[1198] = 1746753798,
 					[984] = 1644029953,
 					[342] = 421678,
@@ -1336,7 +1340,7 @@ DataStore_QuestsDB = {
 					[328] = 197154,
 					[988] = 1022,
 					[321] = 4267916267,
-					[246] = 256,
+					[983] = 1090781184,
 					[31] = 131072,
 					[990] = 268448016,
 					[259] = 3219128320,
@@ -1344,7 +1348,7 @@ DataStore_QuestsDB = {
 					[1286] = 882868232,
 					[992] = 3665920,
 					[1102] = 1046685472,
-					[369] = 2613248,
+					[993] = 256,
 					[305] = 2465476609,
 					[994] = 2147484160,
 					[1074] = 268468224,
@@ -1398,67 +1402,58 @@ DataStore_QuestsDB = {
 					[1294] = 2883584,
 					[1571] = 128,
 				},
-				["lastUpdate"] = 1516605977,
+				["lastUpdate"] = 1516680375,
 				["QuestHeaders"] = {
-					"Antorus, the Burning Throne", -- [1]
-					"Azsuna", -- [2]
-					"Broken Shore", -- [3]
-					"Mac'Aree", -- [4]
-					"Silithus", -- [5]
-					"Suramar", -- [6]
-					"Val'sharah", -- [7]
+					"Broken Shore", -- [1]
+					"Silithus", -- [2]
+					"Suramar", -- [3]
+					"Antorus, the Burning Throne", -- [4]
+					"Azsuna", -- [5]
+					"Dalaran", -- [6]
+					"Mac'Aree", -- [7]
 					"Missing header! (quest designers)", -- [8]
 					"Archaeology", -- [9]
 					"Darkmoon Faire", -- [10]
 					"Battle Pets", -- [11]
 				},
 				["Rewards"] = {
-					[4] = "r|157825|1|1,r|142004|1|1",
-					[11] = "r|148546|1|1",
-					[9] = "r|157822|1|1,r|142001|1|1",
-					[18] = "r|71083|1|1",
-					[10] = "r|154068|1|1",
-					[6] = "r|157831|1|1,r|152651|1|1",
-					[21] = "r|89125|1|1",
-					[22] = "r|98095|1|1",
-					[12] = "r|148550|1|1",
-					[5] = "r|152108|1|1,r|147842|1|1",
-				},
-				["Dailies"] = {
-					{
-						["id"] = 40753,
-						["timestamp"] = 1516605828,
-						["title"] = "Blingtron 6000",
-					}, -- [1]
+					"r|152108|1|1,r|147842|1|1", -- [1]
+					[8] = "r|157825|1|1,r|142004|1|1",
+					[10] = "r|157831|1|1,r|152651|1|1",
+					[22] = "r|89125|1|1",
+					[19] = "r|71083|1|1",
+					[23] = "r|98095|1|1",
+					[9] = "r|157827|1|1,r|142006|1|1",
 				},
 				["Quests"] = {
-					2691565632, -- [1]
-					2691565632, -- [2]
-					2691565632, -- [3]
-					7213160, -- [4]
-					7215208, -- [5]
-					7217256, -- [6]
-					1080961088, -- [7]
-					7221312, -- [8]
-					7223400, -- [9]
-					7225440, -- [10]
+					7211112, -- [1]
+					1080954944, -- [2]
+					7215168, -- [3]
+					2691571776, -- [4]
+					2691571776, -- [5]
+					2691571776, -- [6]
+					2691571776, -- [7]
+					7219304, -- [8]
+					7221352, -- [9]
+					7223400, -- [10]
 					7225440, -- [11]
 					7225440, -- [12]
-					3496888384, -- [13]
-					3527168065, -- [14]
-					1114525761, -- [15]
+					7225440, -- [13]
+					3496888384, -- [14]
+					3527168065, -- [15]
 					1114525761, -- [16]
 					1114525761, -- [17]
-					1114525760, -- [18]
-					1114525761, -- [19]
-					3362674752, -- [20]
-					3496892480, -- [21]
+					1114525761, -- [18]
+					1114525760, -- [19]
+					1114525761, -- [20]
+					3362674752, -- [21]
 					3496892480, -- [22]
+					3496892480, -- [23]
 				},
 				["Emissaries"] = {
-					[42170] = "3|4|455|3/4 Complete 4 world quests in Val'sharah",
+					[42422] = "0|4|3535|0/4 Complete 4 Wardens World Quests",
 					[46777] = "0|0|0|",
-					[42420] = "0|4|1895|0/4 Complete 4 world quests in Azsuna",
+					[42420] = "0|4|655|0/4 Complete 4 world quests in Azsuna",
 				},
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
@@ -1860,7 +1855,7 @@ DataStore_QuestsDB = {
 					[1201] = 2165339552,
 					[985] = 36,
 					[1202] = 8403994,
-					[863] = 3145728,
+					[1213] = 2369789955,
 					[1203] = 33300,
 					[986] = 4026531841,
 					[302] = 2147486212,
@@ -1881,7 +1876,7 @@ DataStore_QuestsDB = {
 					[1467] = 343932928,
 					[1212] = 370180099,
 					[866] = 397312,
-					[1213] = 2369789955,
+					[432] = 32768,
 					[1469] = 2030043136,
 					[1214] = 2147745926,
 					[1470] = 245760,
@@ -1962,7 +1957,7 @@ DataStore_QuestsDB = {
 					[994] = 512,
 					[992] = 225280,
 					[1253] = 136429824,
-					[432] = 32768,
+					[863] = 3145728,
 					[1254] = 1275068416,
 					[924] = 28,
 					[1192] = 3221225473,
@@ -1972,7 +1967,6 @@ DataStore_QuestsDB = {
 					[1333] = 16,
 					[1033] = 16384,
 				},
-				["HistoryBuild"] = "25881",
 				["Rewards"] = {
 					nil, -- [1]
 					"r|152984|1|1,r|152626|1|1", -- [2]
@@ -2010,6 +2004,7 @@ DataStore_QuestsDB = {
 					"The Deaths of Chromie", -- [18]
 					"Battle Pets", -- [19]
 				},
+				["HistoryBuild"] = "25881",
 				["Quests"] = {
 					3496872000, -- [1]
 					7213120, -- [2]
@@ -2388,6 +2383,10 @@ DataStore_QuestsDB = {
 					[1257] = 50331648,
 					[893] = 8388608,
 				},
+				["HistoryBuild"] = "25881",
+				["Rewards"] = {
+					[10] = "s|230408",
+				},
 				["QuestHeaders"] = {
 					"Antoran Wastes", -- [1]
 					"Antorus, the Burning Throne", -- [2]
@@ -2403,10 +2402,6 @@ DataStore_QuestsDB = {
 					"Order Hall", -- [12]
 					"The Deaths of Chromie", -- [13]
 					"Battle Pets", -- [14]
-				},
-				["HistoryBuild"] = "25881",
-				["Rewards"] = {
-					[10] = "s|230408",
 				},
 				["Quests"] = {
 					3496872000, -- [1]
@@ -2706,51 +2701,49 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["HistoryLastUpdate"] = 1516602411,
+				["HistoryLastUpdate"] = 1516684570,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:48799:110:110:255|h[Fuel of a Doomed World]|h|r", -- [1]
+					"|cffffff00|Hquest:48442:-1:110:255|h[Nath'raxas Hold: Preparations]|h|r", -- [1]
 					"|cffffff00|Hquest:42420:110:110:255|h[Court of Farondis]|h|r", -- [2]
-					"|cffffff00|Hquest:46206:110:110:255|h[Whispers of a Frightened World]|h|r", -- [3]
-					"|cffffff00|Hquest:48513:110:110:255|h[Invasion Point Offensive]|h|r", -- [4]
-					"|cffffff00|Hquest:48442:-1:110:255|h[Nath'raxas Hold: Preparations]|h|r", -- [5]
+					"|cffffff00|Hquest:42422:110:110:255|h[The Wardens]|h|r", -- [3]
+					"|cffffff00|Hquest:46206:110:110:255|h[Whispers of a Frightened World]|h|r", -- [4]
+					"|cffffff00|Hquest:48513:110:110:255|h[Invasion Point Offensive]|h|r", -- [5]
 					"|cffffff00|Hquest:48642:110:110:255|h[Argussian Reach]|h|r", -- [6]
 					"|cffffff00|Hquest:50371:110:110:255|h[Summons to Stormwind]|h|r", -- [7]
 					"|cffffff00|Hquest:41034:110:110:255|h[Testing the Waters]|h|r", -- [8]
-					"|cffffff00|Hquest:42170:110:110:255|h[The Dreamweavers]|h|r", -- [9]
-					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [10]
-					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [11]
-					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [12]
-					"|cffffff00|Hquest:39335:106:106:255|h[Neltharion's Lair: Potent Powder]|h|r", -- [13]
-					"|cffffff00|Hquest:48016:-1:110:255|h[Ascending Alchemy]|h|r", -- [14]
-					"|cffffff00|Hquest:43517:-1:110:255|h[Darkheart Thicket: Fallen Power]|h|r", -- [15]
-					"|cffffff00|Hquest:40990:110:98:255|h[A Good Recipe List]|h|r", -- [16]
-					"|cffffff00|Hquest:40041:-1:98:255|h[Felwort Analysis]|h|r", -- [17]
-					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [18]
-					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [19]
-					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [20]
+					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [9]
+					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [10]
+					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [11]
+					"|cffffff00|Hquest:39335:106:106:255|h[Neltharion's Lair: Potent Powder]|h|r", -- [12]
+					"|cffffff00|Hquest:48016:-1:110:255|h[Ascending Alchemy]|h|r", -- [13]
+					"|cffffff00|Hquest:43517:-1:110:255|h[Darkheart Thicket: Fallen Power]|h|r", -- [14]
+					"|cffffff00|Hquest:40990:110:98:255|h[A Good Recipe List]|h|r", -- [15]
+					"|cffffff00|Hquest:40041:-1:98:255|h[Felwort Analysis]|h|r", -- [16]
+					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [17]
+					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [18]
+					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [19]
 				},
 				["HistoryBuild"] = "25881",
-				["HistorySize"] = 1328,
+				["HistorySize"] = 1337,
 				["QuestTags"] = {
-					"WEEKLY", -- [1]
+					"COMPLETED", -- [1]
 					128, -- [2]
-					[13] = 81,
-					[15] = 81,
-					[18] = 102,
-					[9] = 128,
-					[5] = "COMPLETED",
-					[19] = "ALLIANCE",
-					[20] = 102,
+					128, -- [3]
+					[14] = 81,
+					[9] = 140,
+					[18] = "ALLIANCE",
+					[10] = 140,
+					[19] = 102,
 					[11] = 140,
 					[6] = 128,
-					[12] = 140,
-					[10] = 140,
+					[12] = 81,
+					[17] = 102,
 				},
 				["History"] = {
 					[1258] = 16384,
 					[1514] = 50331648,
 					[886] = 8,
-					[1515] = 4776,
+					[1515] = 135848,
 					[1260] = 1,
 					[1516] = 202375176,
 					[1261] = 22592,
@@ -2763,11 +2756,12 @@ DataStore_QuestsDB = {
 					[1267] = 168,
 					[1268] = 562036736,
 					[1269] = 33685760,
-					[764] = 4096,
+					[1525] = 2147483648,
+					[1526] = 2098176,
 					[1271] = 270565112,
 					[1272] = 1073742336,
 					[1273] = 24576,
-					[1274] = 595968,
+					[1274] = 727040,
 					[1530] = 2,
 					[1275] = 268664864,
 					[1276] = 1073774592,
@@ -2778,7 +2772,7 @@ DataStore_QuestsDB = {
 					[1280] = 268435456,
 					[1536] = 8388608,
 					[1281] = 805306368,
-					[1537] = 268566529,
+					[1537] = 2416050177,
 					[1283] = 1073741825,
 					[258] = 8192,
 					[1285] = 262144,
@@ -2857,7 +2851,7 @@ DataStore_QuestsDB = {
 					[1341] = 67416064,
 					[1086] = 3801424,
 					[1342] = 536870912,
-					[1087] = 4236255233,
+					[1087] = 4240449537,
 					[1343] = 603979776,
 					[1088] = 510,
 					[1089] = 466,
@@ -2898,7 +2892,7 @@ DataStore_QuestsDB = {
 					[1115] = 536883202,
 					[1371] = 4,
 					[1116] = 536887296,
-					[1372] = 805436384,
+					[1372] = 813824992,
 					[1117] = 1048576,
 					[1118] = 2097160,
 					[1374] = 262144,
@@ -2977,7 +2971,7 @@ DataStore_QuestsDB = {
 					[1178] = 67125288,
 					[1434] = 1440,
 					[1179] = 2147483649,
-					[1435] = 939524096,
+					[1435] = 939540480,
 					[1180] = 294,
 					[1181] = 524288,
 					[1437] = 16777216,
@@ -2985,7 +2979,7 @@ DataStore_QuestsDB = {
 					[1183] = 2684354561,
 					[1439] = 268438528,
 					[1184] = 122,
-					[1440] = 3221225473,
+					[1440] = 3221356545,
 					[1185] = 6,
 					[1441] = 201326596,
 					[1186] = 49154,
@@ -3027,6 +3021,7 @@ DataStore_QuestsDB = {
 					[1211] = 276824064,
 					[1467] = 343937024,
 					[1212] = 336592898,
+					[764] = 4096,
 					[432] = 32768,
 					[1469] = 2030043136,
 					[1214] = 2218000550,
@@ -3037,6 +3032,7 @@ DataStore_QuestsDB = {
 					[1472] = 33554686,
 					[1217] = 1026,
 					[1473] = 256,
+					[885] = 3800582,
 					[1474] = 10,
 					[1219] = 786432,
 					[1475] = 67108864,
@@ -3047,12 +3043,13 @@ DataStore_QuestsDB = {
 					[1222] = 36766720,
 					[1478] = 8650752,
 					[1223] = 1678082048,
-					[1224] = 8192,
 					[986] = 4026531841,
+					[1224] = 8192,
+					[993] = 256,
 					[1225] = 64,
 					[997] = 1107442688,
-					[885] = 3800582,
 					[1403] = 21241888,
+					[1487] = 512,
 					[1227] = 11792,
 					[998] = 108544,
 					[1228] = 13568,
@@ -3070,7 +3067,7 @@ DataStore_QuestsDB = {
 					[1234] = 2147581953,
 					[1490] = 48,
 					[1235] = 34062,
-					[1576] = 1048576,
+					[1576] = 1048577,
 					[1236] = 2048,
 					[1492] = 2147483648,
 					[1237] = 1048576,
@@ -3116,60 +3113,73 @@ DataStore_QuestsDB = {
 					[1257] = 805306368,
 					[1551] = 524288,
 				},
-				["lastUpdate"] = 1516603471,
+				["Rewards"] = {
+					nil, -- [1]
+					"r|157825|1|1,r|142004|1|1", -- [2]
+					"r|157827|1|1,r|142006|1|1", -- [3]
+					"r|151789|1|1", -- [4]
+					nil, -- [5]
+					"r|157831|1|1,r|152651|1|1", -- [6]
+					nil, -- [7]
+					"r|142054|1|1", -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					"s|248403", -- [13]
+					nil, -- [14]
+					nil, -- [15]
+					"s|193431", -- [16]
+					[18] = "r|89125|1|1",
+					[19] = "r|98095|1|1",
+				},
+				["lastUpdate"] = 1516687441,
 				["QuestHeaders"] = {
-					"Antoran Wastes", -- [1]
+					"Krokuun", -- [1]
 					"Azsuna", -- [2]
 					"Dalaran", -- [3]
 					"Invasion Point", -- [4]
-					"Krokuun", -- [5]
-					"Mac'Aree", -- [6]
-					"Stormwind City", -- [7]
-					"Suramar", -- [8]
-					"Val'sharah", -- [9]
-					"Missing header! (quest designers)", -- [10]
-					"Alchemy", -- [11]
-					"Artifact", -- [12]
-					"Cooking", -- [13]
-					"Herbalism", -- [14]
-					"Battle Pets", -- [15]
+					"Mac'Aree", -- [5]
+					"Stormwind City", -- [6]
+					"Suramar", -- [7]
+					"Missing header! (quest designers)", -- [8]
+					"Alchemy", -- [9]
+					"Artifact", -- [10]
+					"Cooking", -- [11]
+					"Herbalism", -- [12]
+					"Battle Pets", -- [13]
 				},
-				["Rewards"] = {
-					[14] = "s|248403",
-					[2] = "r|157825|1|1,r|142004|1|1",
-					[8] = "r|142054|1|1",
-					[17] = "s|193431",
-					[19] = "r|89125|1|1",
-					[20] = "r|98095|1|1",
-					[3] = "r|151789|1|1",
-					[6] = "r|157831|1|1,r|152651|1|1",
-					[9] = "r|157822|1|1,r|142001|1|1",
+				["Dailies"] = {
+					{
+						["id"] = 43895,
+						["timestamp"] = 1516687146,
+						["title"] = "Sealing Fate: Gold",
+					}, -- [1]
 				},
 				["Quests"] = {
-					3496872000, -- [1]
+					7211073, -- [1]
 					7213160, -- [2]
-					3496876096, -- [3]
-					7217216, -- [4]
-					7219265, -- [5]
-					7221352, -- [6]
-					3362666560, -- [7]
-					3496886336, -- [8]
-					7227496, -- [9]
-					7229536, -- [10]
-					7229536, -- [11]
-					7229536, -- [12]
-					1852463168, -- [13]
-					7231552, -- [14]
-					3496895744, -- [15]
-					3496896576, -- [16]
-					3496898624, -- [17]
-					3362682944, -- [18]
-					3496900672, -- [19]
-					3496900672, -- [20]
+					7215208, -- [3]
+					3496876096, -- [4]
+					7217216, -- [5]
+					7219304, -- [6]
+					3362664512, -- [7]
+					3496884288, -- [8]
+					7225440, -- [9]
+					7225440, -- [10]
+					7225440, -- [11]
+					1852459072, -- [12]
+					7227456, -- [13]
+					3496891648, -- [14]
+					3496892480, -- [15]
+					3496894528, -- [16]
+					3362678848, -- [17]
+					3496896576, -- [18]
+					3496896576, -- [19]
 				},
 				["Emissaries"] = {
-					[42420] = "0|4|1937|0/4 Complete 4 world quests in Azsuna",
-					[42170] = "0|4|497|0/4 Complete 4 world quests in Val'sharah",
+					[42420] = "0|4|537|0/4 Complete 4 world quests in Azsuna",
+					[42422] = "0|4|3417|0/4 Complete 4 Wardens World Quests",
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
@@ -3248,11 +3258,11 @@ DataStore_QuestsDB = {
 					[1489] = 33556480,
 					[1490] = 48,
 					[1234] = 2147549185,
-					[1544] = 384,
+					[1034] = 32768,
 					[1362] = 16777216,
 					[1171] = 2080376448,
 					[1235] = 939525518,
-					[1289] = 1072,
+					[1544] = 384,
 					[1363] = 2048,
 					[1172] = 59785216,
 					[997] = 1107442688,
@@ -3288,7 +3298,7 @@ DataStore_QuestsDB = {
 					[1183] = 2684354561,
 					[1180] = 294,
 					[1499] = 2147483648,
-					[995] = 31449136,
+					[1476] = 31457284,
 					[1372] = 806484960,
 					[1181] = 524288,
 					[1500] = 133955584,
@@ -3300,14 +3310,14 @@ DataStore_QuestsDB = {
 					[1187] = 133536,
 					[1438] = 1536,
 					[1507] = 2944,
-					[1189] = 1572864,
+					[979] = 1060864,
 					[1375] = 33554432,
 					[1184] = 122,
 					[1503] = 131072,
 					[1190] = 7728,
 					[1376] = 528,
 					[1185] = 6,
-					[1221] = 1089998472,
+					[995] = 31449136,
 					[1447] = 33570828,
 					[1576] = 1048576,
 					[1441] = 268435456,
@@ -3322,7 +3332,7 @@ DataStore_QuestsDB = {
 					[1252] = 544768,
 					[1316] = 16777216,
 					[1380] = 33561088,
-					[979] = 1060864,
+					[1444] = 8388610,
 					[1253] = 44134656,
 					[1317] = 1572984,
 					[1381] = 20971522,
@@ -3369,7 +3379,7 @@ DataStore_QuestsDB = {
 					[1200] = 1401426,
 					[1264] = 64,
 					[1461] = 16806944,
-					[1207] = 133693465,
+					[1462] = 275914752,
 					[1201] = 2182116512,
 					[1265] = 872415232,
 					[1329] = 67125248,
@@ -3394,7 +3404,7 @@ DataStore_QuestsDB = {
 					[1464] = 797507584,
 					[1334] = 245556992,
 					[1398] = 65536,
-					[1462] = 275914752,
+					[988] = 1022,
 					[1271] = 2097152,
 					[1335] = 8944,
 					[1399] = 16777216,
@@ -3412,7 +3422,7 @@ DataStore_QuestsDB = {
 					[1217] = 2147484674,
 					[1211] = 276825018,
 					[1530] = 2,
-					[992] = 225280,
+					[1470] = 245760,
 					[258] = 8192,
 					[1467] = 343932928,
 					[1276] = 770048,
@@ -3426,19 +3436,19 @@ DataStore_QuestsDB = {
 					[1278] = 67108864,
 					[1342] = 536871680,
 					[1151] = 2048,
-					[1470] = 245760,
+					[1215] = 512,
 					[1279] = 437273088,
 					[1343] = 603979776,
 					[1471] = 3892314569,
 					[1216] = 2818588801,
 					[1214] = 2149843086,
-					[1215] = 512,
+					[992] = 225280,
 					[1468] = 1024,
 					[1472] = 254,
 					[1536] = 8388608,
 					[432] = 32768,
 					[1154] = 16777216,
-					[988] = 1022,
+					[1207] = 133693465,
 					[1537] = 8519680,
 					[986] = 4026531841,
 					[1410] = 536870912,
@@ -3450,9 +3460,9 @@ DataStore_QuestsDB = {
 					[1284] = 27984,
 					[1193] = 26,
 					[1509] = 33554432,
-					[1476] = 31457284,
+					[1221] = 1089998472,
 					[1285] = 2147485969,
-					[1444] = 8388610,
+					[1189] = 1572864,
 					[1188] = 3221225632,
 					[1222] = 1053472,
 					[1286] = 2,
@@ -3467,7 +3477,7 @@ DataStore_QuestsDB = {
 					[1352] = 512,
 					[1416] = 2097152,
 					[1225] = 1024,
-					[1034] = 32768,
+					[1289] = 1072,
 					[1353] = 65536,
 					[1417] = 134610944,
 					[1486] = 2097216,
@@ -3475,17 +3485,6 @@ DataStore_QuestsDB = {
 					[1231] = 92274689,
 					[1163] = 512,
 					[1484] = 131072,
-				},
-				["Rewards"] = {
-					[7] = "r|151789|1|1",
-					[14] = "r|133976|1|1",
-					[2] = "r|152984|1|1,r|152626|1|1",
-					[17] = "r|152504|1|1",
-					[19] = "c|139942|1|1,c|139954|1|1",
-					[22] = "r|89125|1|1",
-					[6] = "r|157827|1|1,r|142006|1|1",
-					[12] = "r|157822|1|1,r|142001|1|1",
-					[23] = "r|98095|1|1",
 				},
 				["HistoryBuild"] = "25881",
 				["QuestHeaders"] = {
@@ -3505,6 +3504,17 @@ DataStore_QuestsDB = {
 					"Order Hall", -- [14]
 					"The King's Path", -- [15]
 					"Battle Pets", -- [16]
+				},
+				["Rewards"] = {
+					[7] = "r|151789|1|1",
+					[14] = "r|133976|1|1",
+					[2] = "r|152984|1|1,r|152626|1|1",
+					[17] = "r|152504|1|1",
+					[19] = "c|139942|1|1,c|139954|1|1",
+					[22] = "r|89125|1|1",
+					[6] = "r|157827|1|1,r|142006|1|1",
+					[12] = "r|157822|1|1,r|142001|1|1",
+					[23] = "r|98095|1|1",
 				},
 				["Quests"] = {
 					3496872000, -- [1]
@@ -3916,12 +3926,6 @@ DataStore_QuestsDB = {
 					[1000] = 8576,
 					[1033] = 16384,
 				},
-				["Rewards"] = {
-					[11] = "r|89125|1|1",
-					[5] = "r|157824|1|1,r|142003|1|1",
-					[12] = "r|98095|1|1",
-					[4] = "s|252203",
-				},
 				["lastUpdate"] = 1516384096,
 				["QuestHeaders"] = {
 					"Antoran Wastes", -- [1]
@@ -3932,6 +3936,12 @@ DataStore_QuestsDB = {
 					"Val'sharah", -- [6]
 					"Missing header! (quest designers)", -- [7]
 					"Battle Pets", -- [8]
+				},
+				["Rewards"] = {
+					[11] = "r|89125|1|1",
+					[5] = "r|157824|1|1,r|142003|1|1",
+					[12] = "r|98095|1|1",
+					[4] = "s|252203",
 				},
 				["Quests"] = {
 					3496872000, -- [1]
@@ -3954,7 +3964,7 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["HistoryLastUpdate"] = 1516498053,
+				["HistoryLastUpdate"] = 1516689473,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:48799:110:110:255|h[Fuel of a Doomed World]|h|r", -- [1]
 					"|cffffff00|Hquest:49015:110:110:255|h[Antorus, the Burning Throne: The Death of a Titan]|h|r", -- [2]
@@ -3965,31 +3975,29 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:44557:110:110:255|h[Finite Numbers]|h|r", -- [7]
 					"|cffffff00|Hquest:44683:110:110:255|h[Holding the Lines]|h|r", -- [8]
 					"|cffffff00|Hquest:49293:110:110:255|h[Invasion Onslaught]|h|r", -- [9]
-					"|cffffff00|Hquest:48442:-1:110:255|h[Nath'raxas Hold: Preparations]|h|r", -- [10]
-					"|cffffff00|Hquest:40072:-1:98:255|h[Halls of Valor: Securing the Aegis]|h|r", -- [11]
-					"|cffffff00|Hquest:44729:110:110:255|h[Trial of Valor: Odyn's Favor]|h|r", -- [12]
-					"|cffffff00|Hquest:42170:110:110:255|h[The Dreamweavers]|h|r", -- [13]
+					"|cffffff00|Hquest:48443:-1:110:255|h[Nath'raxas Hold: Rescue Mission]|h|r", -- [10]
+					"|cffffff00|Hquest:48642:110:110:255|h[Argussian Reach]|h|r", -- [11]
+					"|cffffff00|Hquest:40072:-1:98:255|h[Halls of Valor: Securing the Aegis]|h|r", -- [12]
+					"|cffffff00|Hquest:44729:110:110:255|h[Trial of Valor: Odyn's Favor]|h|r", -- [13]
 					"|cffffff00|Hquest:40567:-1:98:255|h[Darkheart Thicket: Enter the Nightmare]|h|r", -- [14]
 					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [15]
 					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [16]
 					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [17]
-					"|cffffff00|Hquest:44159:-1:100:255|h[A Ticket for Marin]|h|r", -- [18]
-					"|cffffff00|Hquest:43501:-1:110:255|h[The Power Within]|h|r", -- [19]
-					"|cffffff00|Hquest:40990:110:98:255|h[A Good Recipe List]|h|r", -- [20]
-					"|cff40c040|Hquest:40185:102:102:255|h[Shoulder the Burden]|h|r", -- [21]
-					"|cff40c040|Hquest:40195:104:104:255|h[A Daring Rescue]|h|r", -- [22]
-					"|cff40c040|Hquest:40194:104:104:255|h[Reclaimed Cargo]|h|r", -- [23]
-					"|cffffff00|Hquest:46253:110:110:255|h[Pillars of Creation]|h|r", -- [24]
-					"|cffffff00|Hquest:44479:110:110:255|h[Ravencrest's Legacy]|h|r", -- [25]
-					"|cff40c040|Hquest:47594:100:100:255|h[I'll Take Those, Thanks!]|h|r", -- [26]
-					"|cffffff00|Hquest:47606:-1:100:255|h[Loyalty Is Its Own Reward]|h|r", -- [27]
-					"|cffffff00|Hquest:40158:110:110:255|h[Darkheart Thicket: Demons Be Different]|h|r", -- [28]
-					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [29]
-					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [30]
-					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [31]
+					"|cffffff00|Hquest:43501:-1:110:255|h[The Power Within]|h|r", -- [18]
+					"|cffffff00|Hquest:40990:110:98:255|h[A Good Recipe List]|h|r", -- [19]
+					"|cff40c040|Hquest:40185:102:102:255|h[Shoulder the Burden]|h|r", -- [20]
+					"|cff40c040|Hquest:40195:104:104:255|h[A Daring Rescue]|h|r", -- [21]
+					"|cff40c040|Hquest:40194:104:104:255|h[Reclaimed Cargo]|h|r", -- [22]
+					"|cffffff00|Hquest:44479:110:110:255|h[Ravencrest's Legacy]|h|r", -- [23]
+					"|cff40c040|Hquest:47594:100:100:255|h[I'll Take Those, Thanks!]|h|r", -- [24]
+					"|cffffff00|Hquest:47606:-1:100:255|h[Loyalty Is Its Own Reward]|h|r", -- [25]
+					"|cffffff00|Hquest:40158:110:110:255|h[Darkheart Thicket: Demons Be Different]|h|r", -- [26]
+					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [27]
+					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [28]
+					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [29]
 				},
-				["lastUpdate"] = 1516498053,
-				["HistorySize"] = 1350,
+				["lastUpdate"] = 1516692296,
+				["HistorySize"] = 1358,
 				["QuestTags"] = {
 					"WEEKLY", -- [1]
 					62, -- [2]
@@ -4000,27 +4008,25 @@ DataStore_QuestsDB = {
 					1, -- [7]
 					1, -- [8]
 					"WEEKLY", -- [9]
-					"COMPLETED", -- [10]
-					81, -- [11]
-					62, -- [12]
-					128, -- [13]
-					81, -- [14]
-					140, -- [15]
-					140, -- [16]
-					140, -- [17]
-					107, -- [18]
-					107, -- [19]
-					[27] = 148,
-					[31] = 102,
-					[28] = 81,
-					[25] = 98,
+					[11] = 128,
+					[12] = 81,
+					[13] = 62,
+					[14] = 81,
+					[15] = 140,
+					[16] = 140,
+					[17] = 140,
+					[18] = 107,
+					[27] = 102,
+					[24] = 148,
+					[28] = "ALLIANCE",
+					[25] = 148,
 					[29] = 102,
-					[26] = 148,
-					[30] = "ALLIANCE",
+					[26] = 81,
+					[23] = 98,
 				},
 				["History"] = {
 					[1258] = 1458224,
-					[1514] = 50331648,
+					[1514] = 117440512,
 					[886] = 8,
 					[1515] = 12968,
 					[1260] = 268435968,
@@ -4043,7 +4049,8 @@ DataStore_QuestsDB = {
 					[1272] = 512,
 					[765] = 18284544,
 					[893] = 1048576,
-					[1274] = 34078720,
+					[1529] = 16384,
+					[1274] = 34209792,
 					[766] = 2129982,
 					[894] = 15728640,
 					[1022] = 12,
@@ -4064,6 +4071,7 @@ DataStore_QuestsDB = {
 					[771] = 65,
 					[450] = 4161028227,
 					[772] = 1022,
+					[1544] = 128,
 					[901] = 129,
 					[1034] = 8912896,
 					[1546] = 32,
@@ -4113,7 +4121,7 @@ DataStore_QuestsDB = {
 					[1085] = 16,
 					[1341] = 67416064,
 					[1342] = 536870912,
-					[1087] = 75505664,
+					[1087] = 79699968,
 					[1343] = 603979776,
 					[1344] = 2147483648,
 					[1089] = 448,
@@ -4132,6 +4140,7 @@ DataStore_QuestsDB = {
 					[1360] = 1048576,
 					[1362] = 16777216,
 					[1363] = 8192,
+					[1364] = 262144,
 					[1366] = 4194304,
 					[1367] = 6528,
 					[1368] = 36,
@@ -4146,7 +4155,7 @@ DataStore_QuestsDB = {
 					[1377] = 532,
 					[1378] = 268435456,
 					[1379] = 19924032,
-					[1380] = 167774208,
+					[1380] = 2315257856,
 					[819] = 33554432,
 					[1381] = 32899072,
 					[1382] = 8388616,
@@ -4184,6 +4193,7 @@ DataStore_QuestsDB = {
 					[1411] = 232,
 					[835] = 262144,
 					[1159] = 2147483649,
+					[993] = 256,
 					[1160] = 2147483648,
 					[1333] = 65880,
 					[1257] = 989856560,
@@ -4231,7 +4241,7 @@ DataStore_QuestsDB = {
 					[1182] = 536870912,
 					[1187] = 131072,
 					[848] = 2098150,
-					[426] = 34,
+					[1189] = 1572864,
 					[440] = 1073741824,
 					[1440] = 134144,
 					[425] = 3504540326,
@@ -4242,7 +4252,7 @@ DataStore_QuestsDB = {
 					[1443] = 9,
 					[1188] = 131072,
 					[1444] = 1082130502,
-					[1189] = 1572864,
+					[851] = 1518338304,
 					[1445] = 32,
 					[1190] = 7728,
 					[1446] = 269492209,
@@ -4269,10 +4279,10 @@ DataStore_QuestsDB = {
 					[1201] = 2148562208,
 					[985] = 36,
 					[1202] = 545289242,
-					[433] = 1048704,
+					[1217] = 1050,
 					[1203] = 2147586560,
 					[986] = 4026531841,
-					[432] = 32768,
+					[1213] = 2365587457,
 					[1460] = 536870912,
 					[1205] = 1073741826,
 					[987] = 4294901787,
@@ -4289,8 +4299,8 @@ DataStore_QuestsDB = {
 					[1211] = 276826130,
 					[1467] = 880803840,
 					[1212] = 340819970,
-					[865] = 855638016,
-					[1213] = 2365587457,
+					[433] = 1048704,
+					[863] = 3145728,
 					[1469] = 16778240,
 					[1214] = 2217738374,
 					[995] = 31449136,
@@ -4298,7 +4308,7 @@ DataStore_QuestsDB = {
 					[992] = 225280,
 					[1216] = 3892330561,
 					[1472] = 838861054,
-					[1217] = 1050,
+					[865] = 855638016,
 					[1473] = 256,
 					[1483] = 128,
 					[1474] = 10,
@@ -4346,7 +4356,7 @@ DataStore_QuestsDB = {
 					[1495] = 134217728,
 					[1240] = 470163600,
 					[1496] = 671211520,
-					[863] = 3145728,
+					[432] = 32768,
 					[1497] = 2034688,
 					[1242] = 11024386,
 					[1463] = 2183135297,
@@ -4355,7 +4365,7 @@ DataStore_QuestsDB = {
 					[1244] = 1561366528,
 					[1500] = 268173312,
 					[1245] = 536870928,
-					[851] = 1518338304,
+					[426] = 34,
 					[1246] = 155168512,
 					[1502] = 256,
 					[1247] = 2,
@@ -4381,29 +4391,28 @@ DataStore_QuestsDB = {
 					[443] = 41984,
 					[941] = 1006645248,
 				},
-				["HistoryBuild"] = "25881",
 				["Rewards"] = {
 					nil, -- [1]
 					"r|152984|1|1,r|152626|1|1", -- [2]
-					nil, -- [3]
+					"r|157825|1|1,r|142004|1|1", -- [3]
 					nil, -- [4]
-					nil, -- [5]
-					nil, -- [6]
+					"r|157827|1|1,r|142006|1|1", -- [5]
+					"r|142449|1|1", -- [6]
 					nil, -- [7]
-					nil, -- [8]
+					"r|142450|1|1", -- [8]
 					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					"r|142533|1|1", -- [12]
-					nil, -- [13]
+					"s|253368", -- [10]
+					"r|157831|1|1,r|152651|1|1", -- [11]
+					"r|141402|1|1", -- [12]
+					"r|142533|1|1", -- [13]
 					"c|141549|1|1", -- [14]
-					[24] = "r|152504|1|1",
-					[21] = "s|194948",
-					[25] = "c|139942|1|1,c|139954|1|1",
-					[31] = "r|98095|1|1",
-					[30] = "r|89125|1|1",
-					[23] = "s|195003",
-					[28] = "s|194824",
+					[20] = "s|194948",
+					[22] = "s|195003",
+					[23] = "c|139942|1|1,c|139954|1|1",
+					[25] = "r|151143|1|1",
+					[26] = "s|194824",
+					[28] = "r|89125|1|1",
+					[29] = "r|98095|1|1",
 				},
 				["QuestHeaders"] = {
 					"Antoran Wastes", -- [1]
@@ -4413,19 +4422,20 @@ DataStore_QuestsDB = {
 					"Deadwind Pass", -- [5]
 					"Invasion Point", -- [6]
 					"Krokuun", -- [7]
-					"Stormheim", -- [8]
-					"Trial of Valor", -- [9]
-					"Val'sharah", -- [10]
-					"Missing header! (quest designers)", -- [11]
-					"Artifact", -- [12]
-					"Cooking", -- [13]
-					"Leatherworking", -- [14]
-					"Legionfall Campaign", -- [15]
+					"Mac'Aree", -- [8]
+					"Stormheim", -- [9]
+					"Trial of Valor", -- [10]
+					"Val'sharah", -- [11]
+					"Missing header! (quest designers)", -- [12]
+					"Artifact", -- [13]
+					"Cooking", -- [14]
+					"Leatherworking", -- [15]
 					"Order Hall", -- [16]
 					"Rogue", -- [17]
 					"Skinning", -- [18]
 					"Battle Pets", -- [19]
 				},
+				["HistoryBuild"] = "25881",
 				["Quests"] = {
 					3496872000, -- [1]
 					7213120, -- [2]
@@ -4436,52 +4446,49 @@ DataStore_QuestsDB = {
 					3496880192, -- [7]
 					3496880192, -- [8]
 					7221312, -- [9]
-					7223361, -- [10]
-					275660864, -- [11]
-					3496888384, -- [12]
-					7229544, -- [13]
-					275666176, -- [14]
-					7231584, -- [15]
-					7231584, -- [16]
-					7231584, -- [17]
-					3496894530, -- [18]
-					3362676800, -- [19]
-					3496896576, -- [20]
-					3496374336, -- [21]
-					275279936, -- [22]
-					275279936, -- [23]
-					7239744, -- [24]
-					1349419072, -- [25]
-					1818527808, -- [26]
-					7243840, -- [27]
-					3496906816, -- [28]
-					3362691136, -- [29]
-					3496908864, -- [30]
-					3496908864, -- [31]
+					7223360, -- [10]
+					7225448, -- [11]
+					275662913, -- [12]
+					3496890432, -- [13]
+					275668224, -- [14]
+					7233632, -- [15]
+					7233632, -- [16]
+					7233632, -- [17]
+					3362678848, -- [18]
+					3496898624, -- [19]
+					3496376384, -- [20]
+					275281984, -- [21]
+					275281984, -- [22]
+					1349419072, -- [23]
+					1818527808, -- [24]
+					7243840, -- [25]
+					3496906816, -- [26]
+					3362691136, -- [27]
+					3496908864, -- [28]
+					3496908864, -- [29]
 				},
 				["Emissaries"] = {
-					[42422] = "0|4|813|0/4 Complete 4 Wardens World Quests",
-					[42420] = "0|4|3693|0/4 Complete 4 world quests in Azsuna",
-					[42170] = "0|4|2253|0/4 Complete 4 world quests in Val'sharah",
+					[42422] = "0|4|3336|0/4 Complete 4 Wardens World Quests",
+					[42420] = "0|4|456|0/4 Complete 4 world quests in Azsuna",
 				},
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["HistoryLastUpdate"] = 1516498099,
+				["HistoryLastUpdate"] = 1516688617,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:48799:110:110:255|h[Fuel of a Doomed World]|h|r", -- [1]
-					"|cffffff00|Hquest:49015:110:110:255|h[Antorus, the Burning Throne: The Death of a Titan]|h|r", -- [2]
-					"|cffffff00|Hquest:42420:110:110:255|h[Court of Farondis]|h|r", -- [3]
-					"|cffffff00|Hquest:37496:-1:98:255|h[Infiltrating Shipwreck Arena]|h|r", -- [4]
-					"|cffffff00|Hquest:46244:110:110:255|h[Cathedral of Eternal Night: Altar of the Aegis]|h|r", -- [5]
-					"|cffffff00|Hquest:42422:110:110:255|h[The Wardens]|h|r", -- [6]
-					"|cffffff00|Hquest:49473:-1:110:255|h[A Titanic Effort]|h|r", -- [7]
-					"|cffffff00|Hquest:46206:110:110:255|h[Whispers of a Frightened World]|h|r", -- [8]
-					"|cffffff00|Hquest:48513:110:110:255|h[Invasion Point Offensive]|h|r", -- [9]
-					"|cffffff00|Hquest:47892:110:110:255|h[Storming the Citadel]|h|r", -- [10]
-					"|cffffff00|Hquest:48460:110:110:255|h[The Wranglers]|h|r", -- [11]
-					"|cffffff00|Hquest:40012:110:110:255|h[An Old Ally]|h|r", -- [12]
-					"|cffffff00|Hquest:40011:110:110:255|h[Oculeth's Workshop]|h|r", -- [13]
-					"|cffffff00|Hquest:42170:110:110:255|h[The Dreamweavers]|h|r", -- [14]
+					"|cffffff00|Hquest:42420:110:110:255|h[Court of Farondis]|h|r", -- [1]
+					"|cffffff00|Hquest:37496:-1:98:255|h[Infiltrating Shipwreck Arena]|h|r", -- [2]
+					"|cffffff00|Hquest:42422:110:110:255|h[The Wardens]|h|r", -- [3]
+					"|cffffff00|Hquest:49473:-1:110:255|h[A Titanic Effort]|h|r", -- [4]
+					"|cffffff00|Hquest:46206:110:110:255|h[Whispers of a Frightened World]|h|r", -- [5]
+					"|cffffff00|Hquest:40012:110:110:255|h[An Old Ally]|h|r", -- [6]
+					"|cffffff00|Hquest:40011:110:110:255|h[Oculeth's Workshop]|h|r", -- [7]
+					"|cffffff00|Hquest:48799:110:110:255|h[Fuel of a Doomed World]|h|r", -- [8]
+					"|cffffff00|Hquest:49015:110:110:255|h[Antorus, the Burning Throne: The Death of a Titan]|h|r", -- [9]
+					"|cffffff00|Hquest:46244:110:110:255|h[Cathedral of Eternal Night: Altar of the Aegis]|h|r", -- [10]
+					"|cffffff00|Hquest:48513:110:110:255|h[Invasion Point Offensive]|h|r", -- [11]
+					"|cffffff00|Hquest:47892:110:110:255|h[Storming the Citadel]|h|r", -- [12]
+					"|cffffff00|Hquest:48460:110:110:255|h[The Wranglers]|h|r", -- [13]
+					"|cffffff00|Hquest:48642:110:110:255|h[Argussian Reach]|h|r", -- [14]
 					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [15]
 					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [16]
 					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [17]
@@ -4500,21 +4507,21 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [30]
 					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [31]
 				},
-				["lastUpdate"] = 1516499740,
-				["HistorySize"] = 2012,
+				["lastUpdate"] = 1516689320,
+				["HistorySize"] = 2016,
 				["QuestTags"] = {
-					"WEEKLY", -- [1]
-					62, -- [2]
+					128, -- [1]
+					nil, -- [2]
 					128, -- [3]
 					nil, -- [4]
-					81, -- [5]
-					128, -- [6]
+					nil, -- [5]
+					nil, -- [6]
 					nil, -- [7]
-					nil, -- [8]
-					nil, -- [9]
-					"COMPLETED", -- [10]
+					"WEEKLY", -- [8]
+					62, -- [9]
+					81, -- [10]
 					nil, -- [11]
-					nil, -- [12]
+					"COMPLETED", -- [12]
 					nil, -- [13]
 					128, -- [14]
 					140, -- [15]
@@ -4549,7 +4556,7 @@ DataStore_QuestsDB = {
 					[383] = 16384,
 					[1273] = 24576,
 					[1021] = 4225761281,
-					[1274] = 524288,
+					[1274] = 655360,
 					[1530] = 2,
 					[1275] = 67108864,
 					[1022] = 14,
@@ -4622,7 +4629,7 @@ DataStore_QuestsDB = {
 					[394] = 1,
 					[1317] = 4194424,
 					[1062] = 6291456,
-					[400] = 536870912,
+					[1085] = 4051697681,
 					[800] = 2684422081,
 					[1319] = 335937568,
 					[1064] = 2281704712,
@@ -4667,11 +4674,11 @@ DataStore_QuestsDB = {
 					[926] = 992,
 					[1084] = 224266190,
 					[1340] = 2927628288,
-					[1085] = 4051697681,
+					[799] = 16777472,
 					[1341] = 67416064,
 					[1086] = 205127680,
 					[1342] = 536870976,
-					[1087] = 4289093649,
+					[1087] = 4293287953,
 					[1343] = 1677721600,
 					[1088] = 3463971838,
 					[813] = 2,
@@ -4932,7 +4939,7 @@ DataStore_QuestsDB = {
 					[1216] = 2835365889,
 					[1472] = 254,
 					[1217] = 1026,
-					[993] = 2,
+					[993] = 258,
 					[862] = 1744830464,
 					[1474] = 10,
 					[866] = 117856256,
@@ -4992,7 +4999,7 @@ DataStore_QuestsDB = {
 					[1246] = 19312384,
 					[1502] = 6291456,
 					[880] = 139456,
-					[799] = 16777472,
+					[400] = 536870912,
 					[1335] = 112,
 					[795] = 5308440,
 					[1075] = 1124074624,
@@ -5014,17 +5021,16 @@ DataStore_QuestsDB = {
 					[1035] = 528482305,
 					[1033] = 573440,
 				},
-				["HistoryBuild"] = "25881",
 				["QuestHeaders"] = {
-					"Antoran Wastes", -- [1]
-					"Antorus, the Burning Throne", -- [2]
-					"Azsuna", -- [3]
-					"Cathedral of Eternal Night", -- [4]
-					"Dalaran", -- [5]
-					"Invasion Point", -- [6]
-					"Krokuun", -- [7]
-					"Suramar", -- [8]
-					"Val'sharah", -- [9]
+					"Azsuna", -- [1]
+					"Dalaran", -- [2]
+					"Suramar", -- [3]
+					"Antoran Wastes", -- [4]
+					"Antorus, the Burning Throne", -- [5]
+					"Cathedral of Eternal Night", -- [6]
+					"Invasion Point", -- [7]
+					"Krokuun", -- [8]
+					"Mac'Aree", -- [9]
 					"Missing header! (quest designers)", -- [10]
 					"Artifact", -- [11]
 					"Battlegrounds", -- [12]
@@ -5037,38 +5043,38 @@ DataStore_QuestsDB = {
 					"Battle Pets", -- [19]
 				},
 				["Rewards"] = {
-					nil, -- [1]
-					"r|152984|1|1,r|152626|1|1", -- [2]
-					"r|157825|1|1,r|142004|1|1", -- [3]
-					nil, -- [4]
-					"c|146933|1|1,c|146927|1|1,c|146929|1|1,c|146931|1|1,c|146932|1|1", -- [5]
-					"r|157827|1|1,r|142006|1|1", -- [6]
-					"r|154879|1|1", -- [7]
-					"r|151789|1|1", -- [8]
+					"r|157825|1|1,r|142004|1|1", -- [1]
+					nil, -- [2]
+					"r|157827|1|1,r|142006|1|1", -- [3]
+					"r|154879|1|1", -- [4]
+					"r|151789|1|1", -- [5]
 					[24] = "s|197931",
 					[26] = "c|139995|1|1,c|139994|1|1",
-					[14] = "r|157822|1|1,r|142001|1|1",
+					[14] = "r|157831|1|1,r|152651|1|1",
 					[30] = "r|89125|1|1",
 					[31] = "r|98095|1|1",
-					[10] = "s|252203",
+					[9] = "r|152984|1|1,r|152626|1|1",
+					[10] = "c|146933|1|1,c|146927|1|1,c|146929|1|1,c|146931|1|1,c|146932|1|1",
 					[21] = "s|201699",
 					[22] = "s|248589",
+					[12] = "s|252203",
 					[27] = "r|151700|1|1",
 				},
+				["HistoryBuild"] = "25881",
 				["Quests"] = {
-					3496872000, -- [1]
-					7213120, -- [2]
-					7215208, -- [3]
-					3496876096, -- [4]
-					7217216, -- [5]
-					7219304, -- [6]
-					7219264, -- [7]
-					3496880192, -- [8]
-					7221312, -- [9]
-					3362666561, -- [10]
-					1953380416, -- [11]
-					3496886336, -- [12]
-					3496886336, -- [13]
+					7211112, -- [1]
+					3496872000, -- [2]
+					7213160, -- [3]
+					7213120, -- [4]
+					3496874048, -- [5]
+					3496876096, -- [6]
+					3496876096, -- [7]
+					3496878144, -- [8]
+					7219264, -- [9]
+					7221312, -- [10]
+					7223360, -- [11]
+					3362668609, -- [12]
+					1953382464, -- [13]
 					7227496, -- [14]
 					7229536, -- [15]
 					7229536, -- [16]
@@ -5089,13 +5095,12 @@ DataStore_QuestsDB = {
 					3496908864, -- [31]
 				},
 				["Emissaries"] = {
-					[42422] = "0|4|785|0/4 Complete 4 Wardens World Quests",
-					[42420] = "0|4|3665|0/4 Complete 4 world quests in Azsuna",
-					[42170] = "0|4|2225|0/4 Complete 4 world quests in Val'sharah",
+					[42422] = "0|4|3386|0/4 Complete 4 Wardens World Quests",
+					[42420] = "0|4|506|0/4 Complete 4 world quests in Azsuna",
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["HistoryLastUpdate"] = 1516478485,
+				["HistoryLastUpdate"] = 1516689348,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:49015:110:110:255|h[Antorus, the Burning Throne: The Death of a Titan]|h|r", -- [1]
 					"|cffffff00|Hquest:42420:110:110:255|h[Court of Farondis]|h|r", -- [2]
@@ -5103,50 +5108,39 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:49472:-1:110:255|h[A Titanic Effort]|h|r", -- [4]
 					"|cffffff00|Hquest:46206:110:110:255|h[Whispers of a Frightened World]|h|r", -- [5]
 					"|cffffff00|Hquest:39386:-1:98:255|h[Procuring a Prototype]|h|r", -- [6]
-					"|cffffff00|Hquest:47542:110:110:255|h[Siegemaster Voraan]|h|r", -- [7]
-					"|cffffff00|Hquest:47892:110:110:255|h[Storming the Citadel]|h|r", -- [8]
+					"|cffffff00|Hquest:47892:110:110:255|h[Storming the Citadel]|h|r", -- [7]
+					"|cffffff00|Hquest:48642:110:110:255|h[Argussian Reach]|h|r", -- [8]
 					"|cffffff00|Hquest:40401:110:110:255|h[A Way Back In]|h|r", -- [9]
 					"|cffffff00|Hquest:42224:110:110:255|h[Cloaked in Moonshade]|h|r", -- [10]
 					"|cffffff00|Hquest:45238:-1:110:255|h[Return to Karazhan: Cubic Cynosure]|h|r", -- [11]
 					"|cffffff00|Hquest:44729:110:110:255|h[Trial of Valor: Odyn's Favor]|h|r", -- [12]
-					"|cffffff00|Hquest:42170:110:110:255|h[The Dreamweavers]|h|r", -- [13]
-					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [14]
-					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [15]
-					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [16]
-					"|cffffff00|Hquest:46065:110:110:255|h[An Impossible Foe]|h|r", -- [17]
-					"|cffffff00|Hquest:40668:-1:110:255|h[Eye of Azshara: The Heart of Zin-Azshari]|h|r", -- [18]
-					"|cffffff00|Hquest:44479:110:110:255|h[Ravencrest's Legacy]|h|r", -- [19]
-					"|cffffff00|Hquest:48021:110:110:255|h[Chromie]|h|r", -- [20]
-					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [21]
-					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [22]
-					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [23]
+					"|cffffff00|Hquest:44891:110:110:255|h[2v2 Weekly Quest]|h|r", -- [13]
+					"|cffffff00|Hquest:44908:110:110:255|h[3v3 Weekly Quest]|h|r", -- [14]
+					"|cffffff00|Hquest:44909:110:110:255|h[RBG Weekly]|h|r", -- [15]
+					"|cffffff00|Hquest:40668:-1:110:255|h[Eye of Azshara: The Heart of Zin-Azshari]|h|r", -- [16]
+					"|cffffff00|Hquest:44479:110:110:255|h[Ravencrest's Legacy]|h|r", -- [17]
+					"|cffffff00|Hquest:48021:110:110:255|h[Chromie]|h|r", -- [18]
+					"|cffffff00|Hquest:45540:110:110:255|h[A Call from the Caverns]|h|r", -- [19]
+					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [20]
+					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [21]
 				},
-				["lastUpdate"] = 1516480551,
-				["HistorySize"] = 1210,
+				["lastUpdate"] = 1516689346,
+				["HistorySize"] = 1223,
 				["QuestTags"] = {
 					62, -- [1]
 					128, -- [2]
 					128, -- [3]
-					nil, -- [4]
-					nil, -- [5]
-					nil, -- [6]
-					136, -- [7]
-					"COMPLETED", -- [8]
-					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					62, -- [12]
-					128, -- [13]
-					140, -- [14]
-					140, -- [15]
-					140, -- [16]
-					107, -- [17]
-					81, -- [18]
-					98, -- [19]
-					nil, -- [20]
-					102, -- [21]
-					"ALLIANCE", -- [22]
-					102, -- [23]
+					[13] = 140,
+					[7] = "COMPLETED",
+					[14] = 140,
+					[15] = 140,
+					[8] = 128,
+					[16] = 81,
+					[17] = 98,
+					[19] = 102,
+					[20] = "ALLIANCE",
+					[21] = 102,
+					[12] = 62,
 				},
 				["History"] = {
 					[1258] = 1327162,
@@ -5177,7 +5171,7 @@ DataStore_QuestsDB = {
 					[765] = 786432000,
 					[893] = 8388608,
 					[1021] = 4225761281,
-					[1274] = 563456,
+					[1274] = 694528,
 					[766] = 32448,
 					[1275] = 1409286144,
 					[1022] = 2,
@@ -5197,7 +5191,7 @@ DataStore_QuestsDB = {
 					[1285] = 4096,
 					[1286] = 537198592,
 					[1288] = 2415919104,
-					[1544] = 384,
+					[1544] = 896,
 					[1289] = 16400,
 					[1034] = 8912896,
 					[1546] = 32,
@@ -5256,7 +5250,7 @@ DataStore_QuestsDB = {
 					[1085] = 16,
 					[1341] = 67416064,
 					[1342] = 599261184,
-					[1087] = 75505664,
+					[1087] = 79699968,
 					[1343] = 603979776,
 					[1344] = 267941250,
 					[1089] = 448,
@@ -5271,7 +5265,7 @@ DataStore_QuestsDB = {
 					[934] = 112,
 					[1100] = 320,
 					[1357] = 2214592512,
-					[1358] = 33554944,
+					[1358] = 37749248,
 					[808] = 245760,
 					[1359] = 134217728,
 					[1360] = 8429952,
@@ -5313,7 +5307,7 @@ DataStore_QuestsDB = {
 					[1391] = 1048600,
 					[1392] = 1,
 					[825] = 4096,
-					[1393] = 2058,
+					[1393] = 3082,
 					[1138] = 1048576,
 					[1394] = 32,
 					[13] = 268435456,
@@ -5357,14 +5351,14 @@ DataStore_QuestsDB = {
 					[1178] = 67125248,
 					[1434] = 134218080,
 					[1179] = 3221356545,
-					[1435] = 939524096,
+					[1435] = 939540480,
 					[1180] = 294,
 					[847] = 2147483665,
 					[1437] = 524288,
 					[1182] = 536870913,
 					[1183] = 2684354993,
 					[1184] = 122,
-					[1440] = 3221225985,
+					[1440] = 3221357057,
 					[1185] = 2097152,
 					[1441] = 1543503876,
 					[1442] = 4030595073,
@@ -5382,50 +5376,52 @@ DataStore_QuestsDB = {
 					[1449] = 16,
 					[1194] = 1073741824,
 					[1195] = 134349328,
-					[1196] = 10304,
-					[1197] = 16392,
 					[1529] = 16384,
+					[1196] = 10304,
+					[1532] = 4194304,
+					[1197] = 16392,
+					[1083] = 4194304,
 					[1198] = 786434,
 					[1454] = 8232,
 					[1199] = 2693267458,
-					[1532] = 4194304,
+					[1423] = 3932168,
 					[1200] = 3760660,
-					[1083] = 4194304,
+					[106] = 2,
 					[1201] = 34079104,
 					[985] = 36,
 					[1202] = 8390656,
-					[1423] = 3932168,
+					[1144] = 65536,
 					[1203] = 2154035204,
 					[986] = 4026531841,
-					[106] = 2,
+					[1171] = 2080376320,
 					[1460] = 536870912,
-					[1144] = 65536,
+					[1445] = 32,
 					[987] = 4294901787,
 					[1206] = 4194432,
 					[1462] = 544350208,
 					[1207] = 16777240,
-					[1463] = 35651969,
+					[1463] = 35652481,
 					[1208] = 2163875845,
 					[1464] = 797507584,
 					[1209] = 2953348288,
-					[1171] = 2080376320,
+					[1181] = 524288,
 					[1210] = 4227858440,
-					[1445] = 32,
+					[1273] = 24576,
 					[1211] = 293601298,
 					[1467] = 343932928,
 					[1212] = 303071235,
-					[1181] = 524288,
-					[1213] = 4651022,
+					[1217] = 1026,
+					[432] = 32768,
 					[1469] = 2030043202,
 					[1214] = 2147745792,
-					[1273] = 24576,
+					[994] = 512,
 					[1215] = 512,
 					[992] = 225280,
 					[1216] = 3895476481,
 					[1472] = 33554686,
 					[865] = 855638016,
 					[1473] = 264,
-					[994] = 512,
+					[866] = 397312,
 					[1474] = 10,
 					[1219] = 786432,
 					[1475] = 134217728,
@@ -5436,15 +5432,15 @@ DataStore_QuestsDB = {
 					[1222] = 35820192,
 					[1478] = 8388608,
 					[868] = 20480,
-					[1217] = 1026,
+					[1223] = 1612324864,
 					[1224] = 8192,
-					[1225] = 1024,
+					[427] = 8,
 					[869] = 16928,
 					[997] = 1107442688,
 					[1189] = 2621440,
-					[427] = 8,
-					[998] = 108544,
+					[10] = 234881024,
 					[1483] = 128,
+					[998] = 108544,
 					[1228] = 9472,
 					[1484] = 131072,
 					[1229] = 242221056,
@@ -5458,23 +5454,23 @@ DataStore_QuestsDB = {
 					[1233] = 2147606567,
 					[1001] = 512,
 					[1234] = 2147484161,
-					[1490] = 48,
+					[1490] = 8240,
 					[1235] = 1294,
-					[10] = 234881024,
-					[1489] = 33556480,
+					[1491] = 524288,
+					[848] = 26,
 					[1492] = 2147483648,
 					[1237] = 1048576,
 					[1493] = 134218880,
 					[1238] = 1082136592,
 					[1494] = 147456,
-					[848] = 26,
+					[1193] = 30,
 					[1495] = 134217728,
 					[1240] = 8192,
 					[1496] = 671088640,
-					[1193] = 30,
+					[988] = 1022,
 					[1497] = 983040,
 					[1242] = 11024450,
-					[988] = 1022,
+					[1355] = 1057856,
 					[1243] = 2602565700,
 					[1499] = 2147483648,
 					[1244] = 16777216,
@@ -5484,42 +5480,27 @@ DataStore_QuestsDB = {
 					[1246] = 154927104,
 					[1502] = 5,
 					[1247] = 2,
-					[1355] = 1057856,
 					[862] = 40960,
 					[1471] = 3893337601,
+					[1489] = 33556480,
 					[1249] = 134217728,
-					[432] = 32768,
-					[1250] = 68026368,
 					[863] = 524288,
+					[1250] = 68026368,
+					[1225] = 1024,
 					[1251] = 7936,
 					[1507] = 3456,
-					[1223] = 1612324864,
-					[866] = 397312,
+					[993] = 256,
+					[1213] = 4651022,
 					[1253] = 3765141505,
 					[845] = 65538,
 					[1254] = 1275068424,
-					[14] = 65536,
 					[1461] = 29696,
+					[14] = 65536,
 					[846] = 2415919104,
 					[1256] = 33920,
 					[7] = 67108864,
 					[1257] = 50331649,
 					[1530] = 2,
-				},
-				["QuestHeaders"] = {
-					"Antorus, the Burning Throne", -- [1]
-					"Azsuna", -- [2]
-					"Dalaran", -- [3]
-					"Highmountain", -- [4]
-					"Krokuun", -- [5]
-					"Suramar", -- [6]
-					"Trial of Valor", -- [7]
-					"Val'sharah", -- [8]
-					"Missing header! (quest designers)", -- [9]
-					"Artifact", -- [10]
-					"Order Hall", -- [11]
-					"The Deaths of Chromie", -- [12]
-					"Battle Pets", -- [13]
 				},
 				["Rewards"] = {
 					"r|152984|1|1,r|152626|1|1", -- [1]
@@ -5528,19 +5509,29 @@ DataStore_QuestsDB = {
 					"r|154879|1|1", -- [4]
 					"r|151789|1|1", -- [5]
 					nil, -- [6]
-					nil, -- [7]
-					"s|252203", -- [8]
-					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					"r|142533|1|1", -- [12]
-					"r|157822|1|1,r|142001|1|1", -- [13]
-					[19] = "c|139963|1|1,c|139984|1|1",
-					[22] = "r|89125|1|1",
-					[23] = "r|98095|1|1",
-					[20] = "r|151700|1|1",
+					"s|252203", -- [7]
+					"r|157831|1|1,r|152651|1|1", -- [8]
+					[18] = "r|151700|1|1",
+					[17] = "c|139963|1|1,c|139984|1|1",
+					[20] = "r|89125|1|1",
+					[21] = "r|98095|1|1",
 				},
 				["HistoryBuild"] = "25881",
+				["QuestHeaders"] = {
+					"Antorus, the Burning Throne", -- [1]
+					"Azsuna", -- [2]
+					"Dalaran", -- [3]
+					"Highmountain", -- [4]
+					"Krokuun", -- [5]
+					"Mac'Aree", -- [6]
+					"Suramar", -- [7]
+					"Trial of Valor", -- [8]
+					"Missing header! (quest designers)", -- [9]
+					"Artifact", -- [10]
+					"Order Hall", -- [11]
+					"The Deaths of Chromie", -- [12]
+					"Battle Pets", -- [13]
+				},
 				["Quests"] = {
 					7211072, -- [1]
 					7213160, -- [2]
@@ -5548,28 +5539,25 @@ DataStore_QuestsDB = {
 					7215168, -- [4]
 					3496876096, -- [5]
 					3362660416, -- [6]
-					7219268, -- [7]
-					3362662465, -- [8]
-					3496882240, -- [9]
-					3899535424, -- [10]
-					7221312, -- [11]
-					3496884288, -- [12]
-					7225448, -- [13]
+					3362662465, -- [7]
+					7221352, -- [8]
+					3496884288, -- [9]
+					3899537472, -- [10]
+					7223360, -- [11]
+					3496886336, -- [12]
+					7227488, -- [13]
 					7227488, -- [14]
 					7227488, -- [15]
-					7227488, -- [16]
-					2691584064, -- [17]
-					3496891648, -- [18]
-					1349408832, -- [19]
-					3496894528, -- [20]
-					3362678848, -- [21]
-					3496896576, -- [22]
-					3496896576, -- [23]
+					3496891648, -- [16]
+					1349408832, -- [17]
+					3496894528, -- [18]
+					3362678848, -- [19]
+					3496896576, -- [20]
+					3496896576, -- [21]
 				},
 				["Emissaries"] = {
-					[42422] = "2|4|1105|2/4 Complete 4 Wardens World Quests",
-					[42420] = "0|4|3985|0/4 Complete 4 world quests in Azsuna",
-					[42170] = "2|4|2545|2/4 Complete 4 world quests in Val'sharah",
+					[42422] = "0|4|3385|0/4 Complete 4 Wardens World Quests",
+					[42420] = "0|4|505|0/4 Complete 4 world quests in Azsuna",
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
@@ -5901,7 +5889,6 @@ DataStore_QuestsDB = {
 					[1483] = 128,
 					[1445] = 32,
 				},
-				["HistoryBuild"] = "25881",
 				["Rewards"] = {
 					nil, -- [1]
 					"r|152984|1|1,r|152626|1|1", -- [2]
@@ -5940,6 +5927,7 @@ DataStore_QuestsDB = {
 					"Order Hall", -- [17]
 					"Battle Pets", -- [18]
 				},
+				["HistoryBuild"] = "25881",
 				["Quests"] = {
 					3496872000, -- [1]
 					7213120, -- [2]
@@ -6320,9 +6308,6 @@ DataStore_QuestsDB = {
 					[1257] = 989856560,
 					[1518] = 32768,
 				},
-				["Rewards"] = {
-					[4] = "c|121423|1|1",
-				},
 				["HistoryBuild"] = "25881",
 				["QuestHeaders"] = {
 					"Antoran Wastes", -- [1]
@@ -6342,6 +6327,9 @@ DataStore_QuestsDB = {
 					"Order Hall", -- [15]
 					"Skinning", -- [16]
 					"Battle Pets", -- [17]
+				},
+				["Rewards"] = {
+					[4] = "c|121423|1|1",
 				},
 				["Quests"] = {
 					3496872000, -- [1]
@@ -6377,7 +6365,7 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
-				["HistoryLastUpdate"] = 1516583132,
+				["HistoryLastUpdate"] = 1516607182,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:13841:-1:15:60|h[All Apologies]|h|r", -- [1]
 					"|cffffff00|Hquest:13848:-1:15:60|h[Bad News Bear-er]|h|r", -- [2]
@@ -6389,8 +6377,8 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:31927:-1:1:255|h[Battle Pet Tamers: Northrend]|h|r", -- [8]
 					"|cffffff00|Hquest:32863:-1:1:255|h[What We've Been Training For]|h|r", -- [9]
 				},
-				["lastUpdate"] = 1516586196,
-				["HistorySize"] = 322,
+				["lastUpdate"] = 1516607181,
+				["HistorySize"] = 336,
 				["QuestTags"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -6417,7 +6405,7 @@ DataStore_QuestsDB = {
 					[974] = 2097152,
 					[998] = 108544,
 					[1242] = 14338,
-					[1022] = 2,
+					[1274] = 131072,
 					[903] = 62918656,
 					[200] = 458752,
 					[204] = 128,
@@ -6442,23 +6430,26 @@ DataStore_QuestsDB = {
 					[447] = 461373440,
 					[451] = 4055900545,
 					[787] = 255827968,
-					[827] = 98304,
-					[970] = 905969664,
 					[866] = 131072,
+					[969] = 5767552,
+					[827] = 98304,
+					[1021] = 4225761281,
+					[970] = 905969664,
+					[1341] = 67416064,
 					[986] = 4026531841,
 					[994] = 512,
 					[875] = 1343225920,
 					[764] = 12468225,
 					[891] = 73728,
-					[969] = 5767552,
-					[1171] = 64,
 					[199] = 536870912,
-					[1021] = 4225761281,
+					[1171] = 64,
+					[788] = 6299480,
+					[1342] = 536870912,
 					[1219] = 524288,
-					[1341] = 67416064,
+					[437] = 11471360,
+					[765] = 3221783730,
 					[432] = 10848,
 					[995] = 31449136,
-					[765] = 3221783730,
 					[27] = 4364,
 					[979] = 1060864,
 					[987] = 4294901787,
@@ -6469,11 +6460,11 @@ DataStore_QuestsDB = {
 					[452] = 1073741835,
 					[29] = 8,
 					[789] = 1116160,
-					[437] = 11471360,
-					[1342] = 536870912,
-					[788] = 6299480,
 					[258] = 8192,
 					[1020] = 1024,
+					[1022] = 2,
+					[1087] = 4194304,
+					[993] = 256,
 				},
 				["HistoryBuild"] = "25881",
 				["QuestHeaders"] = {
@@ -6483,8 +6474,6 @@ DataStore_QuestsDB = {
 				},
 				["Rewards"] = {
 					[8] = "r|89125|1|1",
-					[6] = "c|65494|1|1,c|65495|1|1",
-					[4] = "c|24119|1|1",
 					[9] = "r|98095|1|1",
 				},
 				["Quests"] = {
