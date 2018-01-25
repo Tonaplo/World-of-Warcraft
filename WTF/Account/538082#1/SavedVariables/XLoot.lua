@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["visible"] = false,
-						["direction"] = "down",
 						["y"] = 1050.74841308594,
 						["x"] = 444.3818359375,
+						["visible"] = false,
+						["direction"] = "down",
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,27 +43,28 @@ XLootADB = {
 				},
 			},
 		},
-		["Monitor"] = {
-			["profiles"] = {
-				["Default"] = {
-					["threshold_own"] = 0,
-					["show_coin"] = true,
-					["fade_other"] = 30,
-					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
-					["anchor"] = {
-						["visible"] = false,
-						["y"] = 39.9096488952637,
-						["x"] = 443.357086181641,
-					},
-					["show_crafted"] = true,
-					["threshold_other"] = 4,
-				},
-			},
-		},
 		["Master"] = {
 			["profiles"] = {
 				["Default"] = {
 					["award_qualitythreshold"] = 4,
+				},
+			},
+		},
+		["Monitor"] = {
+			["profiles"] = {
+				["Default"] = {
+					["show_crafted"] = true,
+					["show_ilvl"] = true,
+					["show_coin"] = true,
+					["fade_other"] = 30,
+					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
+					["anchor"] = {
+						["y"] = 39.9096488952637,
+						["visible"] = false,
+						["x"] = 443.357086181641,
+					},
+					["threshold_own"] = 0,
+					["threshold_other"] = 4,
 				},
 			},
 		},
@@ -78,14 +79,14 @@ XLootADB = {
 		["Rahran - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -5,8 +5,8 @@ VER 3 0100000000000003 "BM Cooldowns" "1280945"
 /cast Titan's Thunder
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1LR1HR1EM1NM1NM2OM2LR2HR2IR2LR[x]3IH3HR3HR3SR4PT4LR4OM4LR4IR5RM5LR5NM5RM5DH6DH6IR6IH6MR6LR7IR7IR7SR8NT8WM8DH8NT8LR8LR[x]3HR0__0__[x][x][x][x]0__0__[x]0__[x][x]0__0__[x][x]0__[x]0__[x][x]0__[x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x]0__0__[x]0__
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Fae[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NTitRavHadYanIllRedArlKamArcRho[x]ZacFraHótAzeOrdKenMsmGnoHalCluPopKalSomMorLifTiaAedMisGygRamKeeUluDevEsyMaeHawFalFal[x]FaeVirVul[x][x][x][x]SmoDal[x]Zar[x][x]NetWry[x][x]Zer[x]Kaz[x][x]Cho[x][x][x][x][x][x][x]Rik[x][x][x][x][x][x][x]ZheZhe[x]Bea
 END

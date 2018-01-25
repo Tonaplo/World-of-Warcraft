@@ -39,18 +39,10 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
-		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
 				},
 			},
 		},
@@ -71,12 +63,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Timewarped Badge"] = false,
-						["Lingering Soul Fragment"] = false,
-						["Oil"] = false,
-						["Artifact Fragment"] = false,
-						["Champion's Seal"] = false,
 						["Ironpaw Token"] = false,
+						["Champion's Seal"] = false,
+						["Artifact Fragment"] = false,
+						["Oil"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -84,14 +76,22 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["Junk"] = {
+		["DataSource"] = {
 		},
-		["Equipment"] = {
-			["profiles"] = {
-				["Default"] = {
-					["dispatchRule"] = "slot",
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
 				},
 			},
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -104,14 +104,14 @@ AdiBagsDB = {
 		["Rahran - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

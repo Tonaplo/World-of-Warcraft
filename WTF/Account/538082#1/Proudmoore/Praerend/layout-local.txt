@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: BOTTOM
+X: 43
+Y: 199
+W: 85
+H: 55
 Frame: ColorPickerFrame
 FrameLevel: 22
 Anchor: CENTER
@@ -27,13 +34,6 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 113
-Y: -70
-W: 370
-H: 110
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER
@@ -41,3 +41,10 @@ X: -210
 Y: 25
 W: 70
 H: 70
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 113
+Y: -70
+W: 370
+H: 110
