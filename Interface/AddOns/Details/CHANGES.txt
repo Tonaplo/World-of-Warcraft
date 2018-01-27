@@ -1,5 +1,11 @@
-changeset:   697:8e9fc4be13d7
+changeset:   698:77c2eeecd28d
 tag:         tip
+user:        Tercio
+date:        Fri Jan 26 14:07:43 2018 -0200
+summary:     - Warlock mana from Life Tap won't show up any more under mana regen, this makes easy to see Soul Shard gain.
+
+
+changeset:   697:8e9fc4be13d7
 user:        Tercio
 date:        Thu Jan 18 14:58:35 2018 -0200
 summary:     - Framework upated to v63 (template parenting support).

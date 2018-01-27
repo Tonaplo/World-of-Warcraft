@@ -9,16 +9,16 @@ DataStore_AuctionsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -34,13 +34,13 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1507644539,
 				["lastVisitDate"] = "2017/10/10 07:08",
 			},
-			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1516687315,
-				["lastVisitDate"] = "2018/01/22 22:01",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1499035800,
+				["lastVisitDate"] = "2017/07/02 15:50",
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1495436421,
-				["lastVisitDate"] = "2017/05/22 00:00",
+				["lastUpdate"] = 1517045130,
+				["lastVisitDate"] = "2018/01/27 01:25",
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1507644155,
@@ -54,9 +54,9 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1515740238,
 				["lastVisitDate"] = "2018/01/11 22:57",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1499035800,
-				["lastVisitDate"] = "2017/07/02 15:50",
+			["Default.Proudmoore.Amranar"] = {
+				["lastUpdate"] = 1516687315,
+				["lastVisitDate"] = "2018/01/22 22:01",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514014572,

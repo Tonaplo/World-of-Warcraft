@@ -10,14 +10,14 @@ HandyNotes_LegionTreasuresDB = {
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["profiles"] = {
 		["Kaldorath - Proudmoore"] = {
@@ -39,21 +39,21 @@ HandyNotes_LegionTreasuresDB = {
 		["Mallusof - Tichondrius"] = {
 			["icon_item"] = true,
 		},
-		["Miriyal - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
-		},
-		["Rahran - Proudmoore"] = {
-		},
-		["Amranar - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Brity - Steamwheedle Cartel"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Amranar - Proudmoore"] = {
+		},
+		["Rahran - Proudmoore"] = {
+		},
+		["Miriyal - Proudmoore"] = {
 		},
 	},
 }
