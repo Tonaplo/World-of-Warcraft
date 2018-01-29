@@ -43,14 +43,10 @@ L["KEYSTONE_COMPLETED_10"] = "+10（完成鑰石）"
 L["KEYSTONE_COMPLETED_15"] = "+15（完成鑰石）"
 L["MAINS_SCORE"] = "當季分數"
 L["MAINS_SCORE_COLON"] = "當季分數："
---Translation missing 
--- L["MODULE_AMERICAS"] = ""
---Translation missing 
--- L["MODULE_EUROPE"] = ""
---Translation missing 
--- L["MODULE_KOREA"] = ""
---Translation missing 
--- L["MODULE_TAIWAN"] = ""
+L["MODULE_AMERICAS"] = "美洲"
+L["MODULE_EUROPE"] = "歐洲"
+L["MODULE_KOREA"] = "韓國"
+L["MODULE_TAIWAN"] = "台灣"
 L["MYTHIC_PLUS_DB_MODULES"] = "傳奇+數據庫模組"
 L["MYTHIC_PLUS_SCORES"] = "傳奇+分數"
 L["OPEN_CONFIG"] = "開啟選項"

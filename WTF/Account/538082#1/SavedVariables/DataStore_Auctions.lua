@@ -9,16 +9,16 @@ DataStore_AuctionsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -33,10 +33,6 @@ DataStore_AuctionsDB = {
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1507644539,
 				["lastVisitDate"] = "2017/10/10 07:08",
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1499035800,
-				["lastVisitDate"] = "2017/07/02 15:50",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1517045130,
@@ -54,13 +50,17 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1515740238,
 				["lastVisitDate"] = "2018/01/11 22:57",
 			},
-			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1516687315,
-				["lastVisitDate"] = "2018/01/22 22:01",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1499035800,
+				["lastVisitDate"] = "2017/07/02 15:50",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1514014572,
 				["lastVisitDate"] = "2017/12/22 23:36",
+			},
+			["Default.Proudmoore.Amranar"] = {
+				["lastUpdate"] = 1516687315,
+				["lastVisitDate"] = "2018/01/22 22:01",
 			},
 		},
 	},
