@@ -14,9 +14,9 @@ HandyNotesDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 	},
 	["profiles"] = {
@@ -46,11 +46,11 @@ HandyNotesDB = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Rahran - Proudmoore"] = {
 		},
 		["Rentror - Bleeding Hollow"] = {
 		},
@@ -71,9 +71,9 @@ HandyNotes_HandyNotesDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 	},
 	["profiles"] = {
@@ -103,11 +103,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Rahran - Proudmoore"] = {
 		},
 		["Rentror - Bleeding Hollow"] = {
 		},

@@ -1,3 +1,6 @@
+01/31/2018 version 4.7.11
+- Added option 'Use Level In Strong Vs Filter' under Pet Filter Options. This will limit the filter results to pets who are high enough level to use the abilities that are strong vs the chosen type.
+
 12/14/2017 version 4.7.10
 - Removed code specific to older game patches (PlaySoundKitID, old build info, etc)
 - Added Algalon the Observer to the Northrend targets

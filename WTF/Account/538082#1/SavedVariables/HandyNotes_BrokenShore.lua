@@ -14,9 +14,9 @@ HandyNotes_BrokenShoreDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 	},
 	["profiles"] = {
@@ -38,8 +38,8 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["show_netherPortals"] = false,
-			["show_shrine"] = false,
 			["show_infernalCores"] = false,
+			["show_shrine"] = false,
 		},
 		["Rentror - Bleeding Hollow"] = {
 		},
@@ -49,11 +49,11 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Praerend - Proudmoore"] = {
 		},
 		["Evisca - Bleeding Hollow"] = {
 		},
-		["Praerend - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Morifa - Proudmoore"] = {
 		},

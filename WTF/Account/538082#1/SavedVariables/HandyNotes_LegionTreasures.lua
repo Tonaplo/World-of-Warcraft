@@ -14,9 +14,9 @@ HandyNotes_LegionTreasuresDB = {
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["profiles"] = {
@@ -47,11 +47,11 @@ HandyNotes_LegionTreasuresDB = {
 		},
 		["Morifa - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Rahran - Proudmoore"] = {
 		},
 		["Amranar - Proudmoore"] = {
 		},
-		["Rahran - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Miriyal - Proudmoore"] = {
 		},

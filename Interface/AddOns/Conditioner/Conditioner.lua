@@ -1,4 +1,4 @@
---[[-----------------------------------------VER 1.8.1-------------------------------------------
+--[[-----------------------------------------VER 1.8.6-------------------------------------------
 --by Tony Allain
 7.3.5 ready
 -----------------------------------------------------------------------------------------------]]
@@ -17,7 +17,7 @@ local POSITION_TOP = {"BOTTOM", "TOP", 0, 1}
 local POSITION_BOTTOM = {"TOP", "BOTTOM", 0, -1}
 local garbage_var = 0
 local conditions_height = 585
-local menu_options_height = 340
+local menu_options_height = 425
 local max_num_tracked = 10
 local HUNTER_AUTO_SHOT_SPELLID = 75
 local positions = {
@@ -41,9 +41,10 @@ if (not xl_conditioner_options) then
         tapersize = 0.75,
         opacity = 1.0,
         show_swing_timers = false,
+        show_unit_frame = false,
     }
 end
-local GCDBYSPELLID = {}
+local CONDITIONER_GCDBYSPELLID = {}
 local button_choices = {
 "Left",
 "Up",
@@ -112,6 +113,341 @@ local AltResourceTypes = {
     "My Health",                    --1
     "Target's Health"
 }
+
+local MainPosition = 1
+if (not xl_OnTargetFrame) then
+    xl_OnTargetFrame = 1
+end
+local Target_Frame_Choices = {
+    "Free",
+    "Target",
+    "Player"
+}
+local MaxScale = 250
+local MinScale = 20
+local isEditMode = false
+
+if (not xl_num_desired_tracked) then
+    xl_num_desired_tracked = 5
+end
+if (not xl_ChildPosition) then
+    xl_ChildPosition = 1
+end
+if (not xl_LocX) then
+    xl_LocX = 0.5*GetScreenWidth()*UIParent:GetScale()
+end
+if (not xl_LocY) then
+    xl_LocY = 0.5*GetScreenHeight()*UIParent:GetScale()
+end
+if (not xl_DesiredScale) then
+    xl_DesiredScale = MaxScale/2
+end
+
+local backdrop = {
+  bgFile = "Interface\\FrameGeneral\\UI-Background-Marble",  
+  edgeFile = "Interface\\GLUES\\COMMON\\Glue-Tooltip-Border",
+  tile = true,
+  tileSize = 512,
+  edgeSize = 16,
+  insets = {
+    left = 8,
+    right = 4,
+    top = 4,
+    bottom = 8
+  }
+} 
+
+local filler = {
+  bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",  
+  tile = false,
+  tileSize = 512,
+  edgeSize = 0,
+  insets = {
+    left = 0,
+    right = 0,
+    top = 0,
+    bottom = 0
+  }
+}
+
+local MenuBackdrop = {
+  bgFile = "Interface\\FrameGeneral\\UI-Background-Rock",  
+  edgeFile = "Interface\\GLUES\\COMMON\\Glue-Tooltip-Border",
+  tile = false,
+  tileSize = 512,
+  edgeSize = 16,
+  insets = {
+    left = 8,
+    right = 4,
+    top = 4,
+    bottom = 8
+  }
+} 
+
+function ConditionerSendFeedbackMessage(msg, r, g, b, textureFile)
+    msg = msg or "TEST MESSAGE"
+    conditioner_frame.Messages = conditioner_frame.Messages or {}
+    if (not conditioner_frame.MessageAnchor) then
+        conditioner_frame.MessageAnchor = CreateFrame("Frame", "ConditionerMessageAnchorFrame")
+        conditioner_frame.MessageAnchor:SetSize(50, 50)
+        conditioner_frame.MessageAnchor.Texture = conditioner_frame.MessageAnchor:CreateTexture()
+        conditioner_frame.MessageAnchor.Texture:SetAllPoints(conditioner_frame.MessageAnchor)
+        SetPortraitToTexture(conditioner_frame.MessageAnchor.Texture, "Interface\\DialogFrame\\UI-DialogBox-Background")
+        conditioner_frame.MessageAnchor.Text = conditioner_frame.MessageAnchor:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
+        conditioner_frame.MessageAnchor.Text:SetPoint("CENTER", conditioner_frame.MessageAnchor, "CENTER")
+        conditioner_frame.MessageAnchor.Text:SetText("|cff00ffffCONDITIONER|r\nAccuracy\nMessage\nLocation")
+        --drag stuff
+        conditioner_frame.MessageAnchor:SetScript("OnEnter", function(self)
+            GameTooltip:SetOwner(self, "ANCHOR_TOP", 0, 0)
+            GameTooltip:SetText("Conditioner", 1, 1, 1, true)
+            GameTooltip:AddLine("This is where your rotation accuracy messages will show up.\n\nRight click to preview a message being displayed.", nil, nil, nil, true)
+            GameTooltip:Show()
+        end)
+        conditioner_frame.MessageAnchor:SetScript("OnLeave", function(self)
+            GameTooltip:Hide()
+        end)
+        conditioner_frame.MessageAnchor:SetScript("OnMouseDown", function(self, button)
+            if (button == "RightButton") then
+                ConditionerSendFeedbackMessage()
+            end
+        end)
+        conditioner_frame.MessageAnchor:SetMovable(true)
+        conditioner_frame.MessageAnchor:EnableMouse(true)
+        conditioner_frame.MessageAnchor:SetClampedToScreen(true)
+        if (not conditioner_frame.MessageAnchor:IsUserPlaced()) then
+            conditioner_frame.MessageAnchor:SetPoint("CENTER", UIParent, "CENTER")
+            conditioner_frame.MessageAnchor:SetUserPlaced(true)
+        end
+        conditioner_frame.MessageAnchor:RegisterForDrag("LeftButton")
+        conditioner_frame.MessageAnchor:SetScript("OnDragStart", function(self, button)
+            self:StartMoving()
+        end)
+        conditioner_frame.MessageAnchor:SetScript("OnDragStop", function(self)
+            self:StopMovingOrSizing()
+        end)
+        --drag stuff
+        --[[conditioner_frame.MessageAnchor:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
+        conditioner_frame.MessageAnchor:SetScript("OnEvent", function(self, event, ...)
+            if (xl_conditioner_options.show_accuracy) then
+                local attacker = select(4,...)
+                local subEvent = select(2,...)
+                if (attacker == UnitGUID("player")) then
+                    --DAMAGE DEALT
+                    if (subEvent == "SWING_DAMAGE" or subEvent == "RANGE_DAMAGE") then
+                        local amount = select(12,...)
+                        if (select(21,...)) then
+                            --offhand attack
+                            local garbage_var, garbage_var, garbage_var, garbage_var, garbage_var, garbage_var, garbage_var, textureId = C_Transmog.GetSlotInfo(INVSLOT_MAINHAND or 17, LE_TRANSMOG_TYPE_APPEARANCE)
+                            textureId = textureId or GetInventoryItemTexture("player", INVSLOT_OFFHAND or 17)
+                            ConditionerSendFeedbackMessage(amount, 1, 1, 0, textureId)
+                        else
+                            local garbage_var, garbage_var, garbage_var, garbage_var, garbage_var, garbage_var, garbage_var, textureId = C_Transmog.GetSlotInfo(INVSLOT_MAINHAND or 16, LE_TRANSMOG_TYPE_APPEARANCE)
+                            textureId = textureId or GetInventoryItemTexture("player", INVSLOT_MAINHAND or 16)
+                            ConditionerSendFeedbackMessage(amount, 1, 1, 0, textureId)
+                        end
+                    elseif (subEvent == "SPELL_DAMAGE" or subEvent == "SPELL_PERIODIC_DAMAGE") then
+                        local spellid = select(12,...)
+                        local spellname = select(13,...)
+                        local amount = select(15,...)
+                        local textureId = GetSpellTexture(spellid)
+                        ConditionerSendFeedbackMessage(amount, 1, 1, 0, textureId)
+                    --DAMAGE DEALT
+                    --HEALING DEALT
+                    --HEALING DEALT
+                    end
+                end
+            end
+        end)]]
+    else
+        local freeMessage
+        for k,v in pairs(conditioner_frame.Messages) do
+            if (not v:IsShown()) then
+                freeMessage = v
+                break
+            end
+        end
+
+        if (freeMessage) then
+            --use this message
+            if (conditioner_frame.MessageAnchor) then
+                local left, bottom, width, height = conditioner_frame.MessageAnchor:GetRect()
+                local coordX, coordY = left + width/2, bottom + height/2
+                freeMessage:SetSize(coordX/UIParent:GetScale(), coordY/UIParent:GetScale())
+            end
+            freeMessage.Text:SetText(msg)
+            freeMessage.Text:SetTextColor(r or 1, g or 1, b or 1)
+            --[[if (textureFile) then
+                SetPortraitToTexture(freeMessage.Icon.Texture, textureFile)
+            end]]
+            freeMessage:Show()
+        else
+            freeMessage = CreateFrame("Frame", nil, UIParent)
+            freeMessage:SetFrameStrata("HIGH")
+            freeMessage:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT")
+            if (conditioner_frame.MessageAnchor) then
+                local left, bottom, width, height = conditioner_frame.MessageAnchor:GetRect()
+                local coordX, coordY = left + width/2, bottom + height/2
+                freeMessage:SetSize(coordX/UIParent:GetScale(), coordY/UIParent:GetScale())
+            end
+            --[[freeMessage.Icon = CreateFrame("Frame", nil, freeMessage)
+            freeMessage.Icon:SetPoint("CENTER", freeMessage, "TOPRIGHT")
+            freeMessage.Icon:SetSize(50, 50)
+            freeMessage.Icon.Texture = freeMessage.Icon:CreateTexture()
+            freeMessage.Icon.Texture:SetAllPoints(freeMessage.Icon)
+            if (textureFile) then
+                SetPortraitToTexture(freeMessage.Icon.Texture, textureFile)
+            end]]
+
+            freeMessage.Text = freeMessage:CreateFontString(nil, "OVERLAY", "NumberFont_Outline_Large")
+            freeMessage.Text:SetPoint("CENTER", freeMessage, "TOPRIGHT")
+            --freeMessage.Text:SetPoint("LEFT", freeMessage.Icon, "RIGHT")
+            freeMessage.Text:SetText(msg)
+            freeMessage.Text:SetTextHeight(32)
+            freeMessage.Text:SetTextColor(r or 1, g or 1, b or 1)
+            freeMessage.Timer = 0
+            freeMessage.Lifetime = 3
+            freeMessage.y = math.random(150, 300)
+            freeMessage.x = math.random(-100, 100)
+            freeMessage.gravity = -20
+
+            freeMessage:SetScript("OnUpdate", function(self, elapsed)
+                freeMessage.Timer = freeMessage.Timer + elapsed
+                local opacity = (freeMessage.Lifetime - freeMessage.Timer)/freeMessage.Lifetime
+                freeMessage:SetAlpha(opacity)
+                --gravity
+                freeMessage.y = freeMessage.y - (freeMessage.gravity*freeMessage.gravity*elapsed)
+                --movement
+                freeMessage:SetSize(freeMessage:GetWidth() + elapsed*freeMessage.x, freeMessage:GetHeight() + (elapsed*freeMessage.y))
+
+                if (freeMessage.Timer > freeMessage.Lifetime) then
+                    freeMessage.Timer = 0
+                    freeMessage.y = math.random(150, 300)
+                    freeMessage.x = math.random(-100, 100)
+                    freeMessage:Hide()
+                    freeMessage:SetAlpha(1)
+                end
+            end)
+
+            table.insert(conditioner_frame.Messages, freeMessage)
+        end
+    end
+end
+
+function ConditionerUnitFrame(shouldShow)
+    if (not conditioner_frame.UnitFrame) then
+        conditioner_frame.UnitFrame = CreateFrame("PlayerModel", "ConditionerPlayerModelFrame")
+        --drag stuff
+        conditioner_frame.UnitFrame:SetMovable(true)
+        conditioner_frame.UnitFrame:EnableMouse(true)
+        conditioner_frame.UnitFrame:SetClampedToScreen(true)
+        if (not conditioner_frame.UnitFrame:IsUserPlaced()) then
+            conditioner_frame.UnitFrame:SetPoint("CENTER", UIParent, "CENTER")
+            conditioner_frame.UnitFrame:SetUserPlaced(true)
+        end
+        conditioner_frame.UnitFrame:RegisterForDrag("LeftButton")
+        conditioner_frame.UnitFrame:SetScript("OnDragStart", function(self, button)
+            self:StartMoving()
+        end)
+        conditioner_frame.UnitFrame:SetScript("OnDragStop", function(self)
+            self:StopMovingOrSizing()
+        end)
+        --drag stuff
+        conditioner_frame.UnitFrame.Background = CreateFrame("Frame", nil, conditioner_frame.UnitFrame)
+        conditioner_frame.UnitFrame.Background:SetAllPoints(conditioner_frame.UnitFrame)
+        conditioner_frame.UnitFrame.Background:SetFrameStrata("BACKGROUND")
+        conditioner_frame.UnitFrame.Background.Texture = conditioner_frame.UnitFrame.Background:CreateTexture()
+        conditioner_frame.UnitFrame.Background.Texture:SetAllPoints(conditioner_frame.UnitFrame.Background)
+        conditioner_frame.UnitFrame.Background.Texture:SetTexture("Interface\\DialogFrame\\UI-DialogBox-Background")
+        conditioner_frame.UnitFrame.Background.Texture:SetDrawLayer("ARTWORK")
+
+        conditioner_frame.UnitFrame.healthBar = CreateFrame("Frame", "ConditionerUnitModelFrame", conditioner_frame.UnitFrame)
+        conditioner_frame.UnitFrame.healthBar:SetPoint("TOPLEFT", conditioner_frame.UnitFrame, "TOPLEFT")
+        conditioner_frame.UnitFrame.healthBar:SetPoint("TOPRIGHT", conditioner_frame.UnitFrame, "TOPRIGHT")
+        conditioner_frame.UnitFrame.healthBar.Texture = conditioner_frame.UnitFrame.healthBar:CreateTexture()
+        conditioner_frame.UnitFrame.healthBar.Texture:SetAllPoints(conditioner_frame.UnitFrame.healthBar)
+        conditioner_frame.UnitFrame.healthBar.Texture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-BarFill")
+        conditioner_frame.UnitFrame.healthBar.Texture:SetGradientAlpha("HORIZONTAL", 1, 1, 1, 0.25, 1, 1, 1, 0.25)
+        conditioner_frame.UnitFrame.healthBar:SetFrameStrata("BACKGROUND")
+
+        conditioner_frame.UnitFrame.healthBar.Current = CreateFrame("Frame", nil, conditioner_frame.UnitFrame.healthBar)
+        conditioner_frame.UnitFrame.healthBar.Current:SetPoint("TOPLEFT", conditioner_frame.UnitFrame.healthBar, "TOPLEFT")
+        conditioner_frame.UnitFrame.healthBar.Current:SetPoint("BOTTOMLEFT", conditioner_frame.UnitFrame.healthBar, "BOTTOMLEFT")
+        conditioner_frame.UnitFrame.healthBar.Current.Texture = conditioner_frame.UnitFrame.healthBar.Current:CreateTexture()
+        conditioner_frame.UnitFrame.healthBar.Current.Texture:SetAllPoints(conditioner_frame.UnitFrame.healthBar.Current)
+        conditioner_frame.UnitFrame.healthBar.Current.Texture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-BarFill")
+
+        conditioner_frame.UnitFrame.healthBar.TextBox = CreateFrame("Frame", nil, conditioner_frame.UnitFrame.healthBar)
+        conditioner_frame.UnitFrame.healthBar.TextBox:SetAllPoints(conditioner_frame.UnitFrame.healthBar)
+        conditioner_frame.UnitFrame.healthBar.Text = conditioner_frame.UnitFrame.healthBar.TextBox:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
+        conditioner_frame.UnitFrame.healthBar.Text:SetPoint("LEFT", conditioner_frame.UnitFrame.healthBar.TextBox, "LEFT")
+        conditioner_frame.UnitFrame.healthBar.TextTitle = conditioner_frame.UnitFrame.healthBar.TextBox:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
+        conditioner_frame.UnitFrame.healthBar.TextTitle:SetPoint("BOTTOMLEFT", conditioner_frame.UnitFrame.healthBar.TextBox, "TOPLEFT")
+
+        conditioner_frame.UnitFrame:RegisterEvent("PLAYER_TARGET_CHANGED")
+        conditioner_frame.UnitFrame:SetScript("OnEvent", function(self, event, ...)
+            if (UnitName("target")) then
+                conditioner_frame.UnitFrame:SetUnit("target")
+                local isEnemy = UnitCanAttack("player", "target")
+                if (isEnemy) then
+                    conditioner_frame.UnitFrame.healthBar.Current.Texture:SetGradient("HORIZONTAL", 1, 0, 0, 1, 0, 0)
+                    conditioner_frame.UnitFrame:SetAnimation(25)
+                else
+                    conditioner_frame.UnitFrame.healthBar.Current.Texture:SetGradient("HORIZONTAL", 0, 1, 0, 0, 1, 0)
+                    conditioner_frame.UnitFrame:SetAnimation(47)
+                end
+            else
+                conditioner_frame.UnitFrame:ClearModel()
+            end
+        end)
+
+        conditioner_frame.UnitFrame:SetScript("OnUpdate", function(self, elapsed)
+            conditioner_frame.UnitFrame:EnableMouse(isEditMode)
+            local unitName = UnitName("target")
+            if (unitName) then
+                conditioner_frame.UnitFrame.Timer = (conditioner_frame.UnitFrame.Timer or 0) + elapsed
+                if (conditioner_frame.UnitFrame.Timer > math.pi*2) then
+                    conditioner_frame.UnitFrame.Timer = 0
+                end
+                conditioner_frame.UnitFrame:SetRotation(conditioner_frame.UnitFrame.Timer)
+                if (watched_frames[1]) then
+                    --size
+                    local size = watched_frames[1]:GetWidth()
+                    conditioner_frame.UnitFrame:SetSize(size, size)
+                    conditioner_frame.UnitFrame.healthBar:SetSize(size, size/8)
+
+                    --hp display and name
+                    local hp, hpmax = UnitHealth("target"), UnitHealthMax("target")
+                    local percentage = hp/hpmax
+                    conditioner_frame.UnitFrame.healthBar.Current:SetWidth(conditioner_frame.UnitFrame.healthBar:GetWidth()*percentage)
+                    conditioner_frame.UnitFrame.healthBar.TextTitle:SetText(unitName)
+                    if (hp > 0) then
+                        conditioner_frame.UnitFrame.healthBar.Text:SetText(string.format("%.0f%%", percentage*100))
+                        conditioner_frame.UnitFrame.healthBar.Current:Show()
+                    else
+                        conditioner_frame.UnitFrame.healthBar.Text:SetText("DEAD")
+                        conditioner_frame.UnitFrame.healthBar.Current:Hide()
+                    end
+                    conditioner_frame.UnitFrame.Background:Show()
+                    conditioner_frame.UnitFrame.healthBar:Show()
+                end
+            else
+                conditioner_frame.UnitFrame.Background:Hide()
+                conditioner_frame.UnitFrame:ClearModel()
+                conditioner_frame.UnitFrame.healthBar:Hide()
+            end
+        end)
+    end
+
+    if (shouldShow) then
+        if (watched_frames[1]) and (watched_frames[1]:IsShown()) then
+            conditioner_frame.UnitFrame:Show()
+        else
+            conditioner_frame.UnitFrame:Hide()
+        end
+    else
+        conditioner_frame.UnitFrame:Hide()
+    end
+end
 
 function ConditionerGetUsableResources()
     local usableResources = {}
@@ -312,77 +648,6 @@ function ShouldRerollRTB(threshold)
     local shouldreroll = (num_active < threshold)
     return shouldreroll, num_active, spell_name, spell_duration, expire_time, timemod
 end
-
-local MainPosition = 1
-if (not xl_OnTargetFrame) then
-    xl_OnTargetFrame = 1
-end
-local Target_Frame_Choices = {
-    "Free",
-    "Target",
-    "Player"
-}
-local MaxScale = 250
-local MinScale = 20
-local isEditMode = false
-
-
-if (not xl_num_desired_tracked) then
-    xl_num_desired_tracked = 5
-end
-if (not xl_ChildPosition) then
-    xl_ChildPosition = 1
-end
-if (not xl_LocX) then
-    xl_LocX = 0.5*GetScreenWidth()*UIParent:GetScale()
-end
-if (not xl_LocY) then
-    xl_LocY = 0.5*GetScreenHeight()*UIParent:GetScale()
-end
-if (not xl_DesiredScale) then
-    xl_DesiredScale = MaxScale/2
-end
-
-local backdrop = {
-  bgFile = "Interface\\FrameGeneral\\UI-Background-Marble",  
-  edgeFile = "Interface\\GLUES\\COMMON\\Glue-Tooltip-Border",
-  tile = true,
-  tileSize = 512,
-  edgeSize = 16,
-  insets = {
-    left = 8,
-    right = 4,
-    top = 4,
-    bottom = 8
-  }
-} 
-
-local filler = {
-  bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",  
-  tile = false,
-  tileSize = 512,
-  edgeSize = 0,
-  insets = {
-    left = 0,
-    right = 0,
-    top = 0,
-    bottom = 0
-  }
-}
-
-local MenuBackdrop = {
-  bgFile = "Interface\\FrameGeneral\\UI-Background-Rock",  
-  edgeFile = "Interface\\GLUES\\COMMON\\Glue-Tooltip-Border",
-  tile = false,
-  tileSize = 512,
-  edgeSize = 16,
-  insets = {
-    left = 8,
-    right = 4,
-    top = 4,
-    bottom = 8
-  }
-} 
 
 local priority_visibility_updater = CreateFrame("Frame", nil, SpellBookSkillLineTab1)
 
@@ -609,7 +874,7 @@ function UpdateWatchFramePositions(resize, main_position, child_position, target
         local namePlateTarget = C_NamePlate.GetNamePlateForUnit("target")
         if (namePlateTarget) then
             watched_frames[1].cycleNameplatePositions = true
-            watched_frames[1]:SetPoint(positions[target_dock_side[xl_current_target_dock]][1], namePlateTarget.UnitFrame, positions[target_dock_side[xl_current_target_dock]][2], 0, 0)
+            watched_frames[1]:SetPoint((xl_current_target_dock == 1) and "RIGHT" or "LEFT", namePlateTarget.UnitFrame, (xl_current_target_dock == 1) and "LEFT" or "RIGHT")
             watched_frames[1].tempDrag = false
             local x,y,w,h = watched_frames[1]:GetBoundsRect()
             xl_LocX = x + w/2
@@ -624,7 +889,7 @@ function UpdateWatchFramePositions(resize, main_position, child_position, target
         local namePlateTarget = C_NamePlate.GetNamePlateForUnit("player")
         if (namePlateTarget) then
             watched_frames[1].cycleNameplatePositions = true
-            watched_frames[1]:SetPoint(positions[target_dock_side[xl_current_target_dock]][1], namePlateTarget.UnitFrame, positions[target_dock_side[xl_current_target_dock]][2], 0, 0)
+            watched_frames[1]:SetPoint((xl_current_target_dock == 1) and "RIGHT" or "LEFT", namePlateTarget.UnitFrame, (xl_current_target_dock == 1) and "LEFT" or "RIGHT")
             watched_frames[1].tempDrag = false
             local x,y,w,h = watched_frames[1]:GetBoundsRect()
             xl_LocX = x + w/2
@@ -894,7 +1159,7 @@ function MakeEditBox(buttonname, anchor1, point, anchor2, contents, parent, w, h
     newEditButton:SetBackdrop(MenuBackdrop)
     newEditButton:SetBackdropColor(0,0,0,1)
     newEditButton:SetSize(w, h)
-    newEditButton:SetFont("Fonts\\ARIALN.TTF", h/2.5, OUTLINE)
+    newEditButton:SetFont("Fonts\\ARIALN.TTF", h/2.5, "OUTLINE")
     newEditButton:SetAutoFocus(false)
     newEditButton:SetTextInsets(12, 0, 0, 4)
     newEditButton:SetScript("OnEnterPressed", function(self) self:ClearFocus() end)
@@ -1851,9 +2116,9 @@ function MakePriorityButton(fortable, listline)
                     if (cast_spell) or (channel_spell) then
                         if (not uninterruptable) and (not notInterruptible) then
                             local interrupt_name = GetSpellInfo(self.spellID)
-                            local interrupt_start, interrupt_duration, garbage_var = GetSpellCooldown(interrupt_name)
+                            local interrupt_start, interrupt_duration, garbage_var = GetSpellCooldown(self.spellID)
                             if (not interrupt_start) then
-                                interrupt_start, interrupt_duration, garbage_var = GetSpellCooldown(self.spellID)
+                                interrupt_start, interrupt_duration, garbage_var = GetSpellCooldown(interrupt_name)
                             end
                             local interrupt_endtime = (interrupt_start + interrupt_duration)*1000
                             if (interrupt_endtime < endtime) then
@@ -1891,11 +2156,11 @@ function MakePriorityButton(fortable, listline)
                                 watched_frames[mySlotID].interruptFrameTexture = watched_frames[mySlotID].interruptFrame:CreateTexture()
                                 watched_frames[mySlotID].interruptFrame.FillBar = CreateFrame("Frame", nil, watched_frames[mySlotID].interruptFrame)
                                 watched_frames[mySlotID].interruptFrame.FillBarTexture = watched_frames[mySlotID].interruptFrame.FillBar:CreateTexture()
-                                watched_frames[mySlotID].interruptFrame.Text = watched_frames[mySlotID].interruptFrame.FillBar:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar") --SystemFont_NamePlateCastBar 
+                                watched_frames[mySlotID].interruptFrame.Text = watched_frames[mySlotID].interruptFrame.FillBar:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar") --SystemFont_NamePlateCastBar
                             end
 
                             if (watched_frames[mySlotID].interruptFrame) then
-                                watched_frames[mySlotID].interruptFrame:SetSize(watched_frames[mySlotID]:GetWidth()*0.25, watched_frames[mySlotID]:GetHeight()*0.25)
+                                watched_frames[mySlotID].interruptFrame:SetSize(watched_frames[mySlotID]:GetWidth()/6, watched_frames[mySlotID]:GetHeight()/6)
                                 if (xl_ChildPosition == 2) then
                                     watched_frames[mySlotID].interruptFrame:ClearAllPoints()
                                     watched_frames[mySlotID].interruptFrame:SetPoint("TOPLEFT", watched_frames[mySlotID], "BOTTOMLEFT")
@@ -1915,7 +2180,7 @@ function MakePriorityButton(fortable, listline)
                                 watched_frames[mySlotID].interruptFrame.FillBarTexture:SetPoint("BOTTOMLEFT", watched_frames[mySlotID].interruptFrame.FillBar, "BOTTOMLEFT")
                                 watched_frames[mySlotID].interruptFrame.FillBarTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-BarFill")
                                 
-                                watched_frames[mySlotID].interruptFrame.FillBarTexture:SetGradient("HORIZONTAL", 0, 1, 1, 0, 1, 1)
+                                watched_frames[mySlotID].interruptFrame.FillBarTexture:SetGradient("HORIZONTAL", 1, 1, 0, 1, 1, 0)
                             
                                 watched_frames[mySlotID].interruptFrame.Text:SetPoint("LEFT", watched_frames[mySlotID].interruptFrame, "RIGHT")
                                 watched_frames[mySlotID].interruptFrame.Text:SetText(interrupt_spellName)
@@ -2406,7 +2671,7 @@ function NewWatchFrame(size, parent, ...)
         end)
 
         --swing frames
-        newframe.MainHand = newframe.MainHand or ConditionerCreateSwingFrame("Main Hand", UIParent, 0, 1, 1)
+        newframe.MainHand = newframe.MainHand or ConditionerCreateSwingFrame("Main Hand", UIParent, 0, 0.75, 1)
         newframe.OffHand = newframe.OffHand or ConditionerCreateSwingFrame("Off Hand", newframe.MainHand, 1, 0, 1)
         newframe.MainHand:Hide()
 
@@ -2572,6 +2837,8 @@ function conditioner_frame.events:ADDON_LOADED(...)
     local arg1 = select(1,...)
     if (arg1 == "Conditioner") then
         InitWatchedFrames()
+        ConditionerUnitFrame()
+        ConditionerSendFeedbackMessage()
     end
 end
 
@@ -2608,6 +2875,67 @@ function conditioner_frame.events:PLAYER_REGEN_ENABLED(...)
     end
     if (conditioner_frame.ExpBarWasVisible) then
         MainMenuExpBar:Show()
+    end
+end
+
+function conditioner_frame.events:UNIT_SPELLCAST_SENT(...)
+    local playerToken = select(1,...)
+    if (playerToken == "player") then
+        local spellName = select(2,...)
+        local spellGUID = select(5,...)
+        local spellGUIDSplit = {strsplit("-", spellGUID)}
+        local spellIdFromGuid = spellGUIDSplit[5] or 0
+        spellIdFromGuid = tonumber(spellIdFromGuid)
+        if (not CONDITIONER_GCDBYSPELLID[spellIdFromGuid]) then
+            local mycooldownNumbers = {GetSpellCooldown(spellIdFromGuid)}
+            local realGCD = {GetSpellCooldown(GCD_SpellID)}
+            if (realGCD[2]) and (mycooldownNumbers[2]) and (realGCD[2] > 0) and (realGCD[2] == mycooldownNumbers[2]) then
+                CONDITIONER_GCDBYSPELLID[spellIdFromGuid] = tonumber(string.format("%.1f",realGCD[2]*(1+(GetHaste()/100))))
+            end
+        end
+        if (xl_conditioner_options.show_accuracy) then
+            if (not conditioner_frame.AccuracyTracker) then
+                conditioner_frame.AccuracyTracker = CreateFrame("Frame")
+                conditioner_frame.AccuracyTracker.Timer = 0
+                conditioner_frame.AccuracyTracker:SetScript("OnUpdate", function(self,elapsed)
+                    if (conditioner_frame.AccuracyTracker.Timer < 3) then
+                        conditioner_frame.AccuracyTracker.Timer = conditioner_frame.AccuracyTracker.Timer + elapsed
+                    end
+                end)
+            end
+            if (watched_frames[1]) and (watched_frames[1]:IsShown()) then
+                local priorityButtonIndex = slots_to_display[1]
+                if (priorityButtonIndex) then
+                    local correctSpellID = priority_buttons[priorityButtonIndex+1].spellID
+                    local correctSpellName = GetSpellInfo(correctSpellID)
+                    local onGCD = CONDITIONER_GCDBYSPELLID[spellIdFromGuid]
+                    local accuracy = "SLOW"
+                    local colors = {r = 1, g = 0.5, b = 0}
+                    
+                    if (conditioner_frame.AccuracyTracker.Timer < 1) then
+                        accuracy = "AVERAGE"
+                        colors.r = 1
+                        colors.g = 1
+                        colors.b = 0
+                    end
+                    if (conditioner_frame.AccuracyTracker.Timer < 0.1) then
+                        accuracy = "PERFECT!!!"
+                        colors.r = 0
+                        colors.g = 1
+                        colors.b = 0
+                    end
+                    if (correctSpellName == spellName) then
+                        ConditionerSendFeedbackMessage(string.format("%s\n%s", accuracy, spellName), colors.r, colors.g, colors.b)
+                    else
+                        if (onGCD) and (onGCD > 0) then
+                            ConditionerSendFeedbackMessage(string.format("%s\n%s", "X", spellName), 1, 0, 0)
+                        end
+                    end
+                end
+                local hasteMod = 1/(1 + (GetHaste()/100))
+                conditioner_frame.AccuracyTracker.Timer = 0 - (CONDITIONER_GCDBYSPELLID[spellIdFromGuid] or 1.5)*hasteMod
+            end
+        end
     end
 end
 
@@ -2668,16 +2996,17 @@ function ResortList(list, gcdList, myHaste)
         for k,v in ipairs(list) do
             if (type(v) == "number") then
                 local current_challenge
-                local myGCD = (gcdList[lowest_index] or gcdList[k])
-                local priority_challenge = lowest_cooldown + (myGCD*my_haste)
+                local myGCD = gcdList[k] or 2
+                local priority_challenge = lowest_cooldown
                 local normal_challenge = lowest_cooldown - (myGCD*my_haste)
                 if (v < 0) then
-                    list[k] = 0
+                    v = 0
+                    list[k] = v
                 end
                 if (k < lowest_index) then
-                    current_challenge = (v <= priority_challenge)
+                    current_challenge = (v < priority_challenge)
                 else
-                    current_challenge = (v < normal_challenge)
+                    current_challenge = (v <= normal_challenge)
                 end
                 if (current_challenge) then
                     lowest_index = k
@@ -2693,17 +3022,18 @@ function ResortList(list, gcdList, myHaste)
             UpdatePrioritySize()
         end
 
-        if (priority_buttons[lowest_index+1]:Condition()) then
+        if (priority_buttons[lowest_index+1]) and (priority_buttons[lowest_index+1]:Condition()) then
+            if (not priority_buttons[lowest_index+1].more.conditions.options.is_interrupt) and (priority_buttons[lowest_index+1].interruptFrame) then
+                priority_buttons[lowest_index+1].interruptFrame:Hide()
+            end
             --are we checking against ready only? we need to avoid more GetSpellCooldown calls for no reason
             local WantsOnlyWhenReady = priority_buttons[lowest_index+1].more.conditions.options.only_when_ready
             local ShouldUseCondition = priority_buttons[lowest_index+1].more.conditions.options.use_condition
             if (WantsOnlyWhenReady) and (ShouldUseCondition) then
                 --we might fail here
                 local thisSpellId = priority_buttons[lowest_index+1].spellID
-                local thisItemId = priority_buttons[lowest_index+1].itemID
-                local byName = GetSpellInfo(thisSpellId)
-                local readyTime = (thisItemId ~= 0) and GCDBYSPELLID[thisItemId] or GCDBYSPELLID[byName]
-                if (lowest_cooldown > my_haste*(readyTime or 1.5)) then
+                local readyTime = CONDITIONER_GCDBYSPELLID[thisSpellId]
+                if (lowest_cooldown > my_haste*(readyTime or 2)) then
                     --we fail
                     priority_buttons[lowest_index+1]:SetSlot()
                 else
@@ -2778,7 +3108,30 @@ ShowSwingTimers:SetScript("OnShow", function(self)
     self:SetChecked(xl_conditioner_options.show_swing_timers)
 end)
 
-local ConditionerSlider = NewSlider(ShowSwingTimers, "ConditionerTrackingSlider", 20, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
+local ShowConditionerUnitFrame = MakeCheckBox("TOP", ShowSwingTimers, "BOTTOM", "Show Target Frame")
+ShowConditionerUnitFrame.text:SetTextColor(1,1,1,1)
+ShowConditionerUnitFrame:SetScript("OnClick", function(self, c_button, down)
+    xl_conditioner_options.show_unit_frame = self:GetChecked()
+    ConditionerUnitFrame(xl_conditioner_options.show_unit_frame)
+    PlaySound(1115)
+    StoreConditions()
+end)
+ShowConditionerUnitFrame:SetScript("OnShow", function(self)
+    self:SetChecked(xl_conditioner_options.show_unit_frame)
+end)
+
+local ShowButtonPushAccuracy = MakeCheckBox("TOP", ShowConditionerUnitFrame, "BOTTOM", "Show Rotation Accuracy")
+ShowButtonPushAccuracy.text:SetTextColor(1,1,1,1)
+ShowButtonPushAccuracy:SetScript("OnClick", function(self, c_button, down)
+    xl_conditioner_options.show_accuracy = self:GetChecked()
+    PlaySound(1115)
+    StoreConditions()
+end)
+ShowButtonPushAccuracy:SetScript("OnShow", function(self)
+    self:SetChecked(xl_conditioner_options.show_accuracy)
+end)
+
+local ConditionerSlider = NewSlider(ShowButtonPushAccuracy, "ConditionerTrackingSlider", 20, 1, 1, max_num_tracked, max_num_tracked, "Spells Displayed: " .. tostring(xl_num_desired_tracked), xl_num_desired_tracked)
 ConditionerSlider:SetScript("OnValueChanged", function(self, event, ...)
     ConditionerSlider:SetValue(ConditionerSlider:GetValue())
     xl_num_desired_tracked = ConditionerSlider:GetValue()
@@ -2825,7 +3178,7 @@ end)
 
 function GetWatchedCooldowns()
     conditioner_frame.always_show = xl_conditioner_options.always_show
-    if (xl_conditioner_options.always_show) then
+    if (conditioner_frame.always_show) then
         if (xl_OnTargetFrame) and (xl_OnTargetFrame == 2) then
             if (UnitExists("target") and not UnitIsDead("target")) then
                 local namePlateTarget = C_NamePlate.GetNamePlateForUnit("target")
@@ -2846,16 +3199,15 @@ function GetWatchedCooldowns()
             local time_now = GetTime()
             local my_haste = GetHaste()/100
             local isGCDReady,standard_GCD,garbage_var = GetSpellCooldown(GCD_SpellID)
-
             for k,v in ipairs(tracked_spells) do
                 local s_name = GetSpellInfo(v)
                 local myItemId = tracked_items[k]
-                local start_time, total_duration,garbage_var = GetSpellCooldown(s_name)
+                local start_time, total_duration,garbage_var = GetSpellCooldown(v)
                 if (myItemId ~= 0) then
                     start_time, total_duration,garbage_var = GetItemCooldown(myItemId)
                 end
                 if (not start_time) then
-                    start_time, total_duration,garbage_var = GetSpellCooldown(v)
+                    start_time, total_duration,garbage_var = GetSpellCooldown(s_name)
                     if (myItemId ~= 0) then
                         start_time, total_duration,garbage_var = GetItemCooldown(myItemId)
                     end
@@ -2864,27 +3216,8 @@ function GetWatchedCooldowns()
                 if (time_remaining <= 0) then
                     time_remaining = 0
                 end
-                local GCD_FOR_THIS_SPELL = GCDBYSPELLID[myItemId] or GCDBYSPELLID[s_name]
-                if (not GCD_FOR_THIS_SPELL) then
-                    if (standard_GCD > 0) then
-                        if (standard_GCD == total_duration) then
-                            if (standard_GCD == 1 or standard_GCD == 1.5) then
-                                GCD_FOR_THIS_SPELL = standard_GCD
-                            else
-                                GCD_FOR_THIS_SPELL = tonumber(string.format("%.1f", standard_GCD*(1+my_haste)))
-                            end
-                        elseif (total_duration == 0) then
-                            GCD_FOR_THIS_SPELL = 0
-                        end
-                    
-                        if (myItemId > 0) then
-                            GCDBYSPELLID[myItemId] = GCD_FOR_THIS_SPELL
-                        else
-                            GCDBYSPELLID[s_name] = GCD_FOR_THIS_SPELL
-                        end
-                    end
-                end
-                GCD_FOR_THIS_SPELL = GCD_FOR_THIS_SPELL or 0
+                
+                local GCD_FOR_THIS_SPELL = CONDITIONER_GCDBYSPELLID[v] or 2
                 table.insert(cooldownGCDs, GCD_FOR_THIS_SPELL)
                 table.insert(cooldowns, time_remaining)
             end
@@ -2907,12 +3240,12 @@ function GetWatchedCooldowns()
                                     watched_frames[i]:Show()
                                     watched_frames[i].edge:Show()
                                     local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
-                                    local s,d,garbage_var = GetSpellCooldown(spellname)
+                                    local s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
                                     if (tracked_items[slots_to_display[i]] ~= 0) then
                                         s,d,garbage_var = GetItemCooldown(tracked_items[slots_to_display[i]])
                                     end
                                     if (not s) then
-                                        s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
+                                        s,d,garbage_var = GetSpellCooldown(spellname)
                                         if (tracked_items[slots_to_display[i]] ~= 0) then
                                             s,d,garbage_var = GetItemCooldown(tracked_items[slots_to_display[i]])
                                         end
@@ -2939,12 +3272,12 @@ function GetWatchedCooldowns()
                                 watched_frames[i]:Show()
                                 watched_frames[i].edge:Show()
                                 local spellname = GetSpellInfo(tracked_spells[slots_to_display[i]])
-                                local s,d,garbage_var = GetSpellCooldown(spellname)
+                                local s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
                                 if (tracked_items[slots_to_display[i]] ~= 0) then
                                     s,d,garbage_var = GetItemCooldown(tracked_items[slots_to_display[i]])
                                 end
                                 if (not s) then
-                                    s,d,garbage_var = GetSpellCooldown(tracked_spells[slots_to_display[i]])
+                                    s,d,garbage_var = GetSpellCooldown(spellname)
                                     if (tracked_items[slots_to_display[i]] ~= 0) then
                                         s,d,garbage_var = GetItemCooldown(tracked_items[slots_to_display[i]])
                                     end
@@ -3028,5 +3361,18 @@ end)
 
 conditioner_frame:SetScript("OnUpdate", function(self,elapsed) self:Update(self,elapsed) end)
 function conditioner_frame:Update(self, elapsed)
+    if (conditioner_frame.MessageAnchor) then
+        conditioner_frame.MessageAnchor:EnableMouse(isEditMode)
+        if (xl_conditioner_options.show_accuracy) then
+            if (isEditMode) then
+                conditioner_frame.MessageAnchor:Show()
+            else
+                conditioner_frame.MessageAnchor:Hide()
+            end
+        else
+            conditioner_frame.MessageAnchor:Hide()
+        end
+    end
+    ConditionerUnitFrame(xl_conditioner_options.show_unit_frame)
     GetWatchedCooldowns()
 end
