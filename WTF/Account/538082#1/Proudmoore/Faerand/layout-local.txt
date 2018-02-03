@@ -1,4 +1,11 @@
 Version: 1
+Frame: Vd1
+FrameLevel: 2
+Anchor: BOTTOM
+X: -5
+Y: 144
+W: 297
+H: 133
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMLEFT
@@ -27,6 +34,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ConditionerMessageAnchorFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 0
+W: 50
+H: 50
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT

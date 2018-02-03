@@ -1,14 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["cooldowns_timeline"] = {
 		{
 			["Jjaxemup-Dentarg"] = {
@@ -95,190 +88,6 @@ DetailsTimeLineDB = {
 					47585, -- [3]
 				}, -- [1]
 			},
-		}, -- [4]
-	},
-	["debuff_timeline"] = {
-		{
-			["Jjaxemup-Dentarg"] = {
-				[197262] = {
-					24.9069999999999, -- [1]
-					45.9089999999999, -- [2]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-				[197653] = {
-					82.8019999999999, -- [1]
-					84.8129999999999, -- [2]
-					["source"] = "[*] Knockdown",
-					["active"] = false,
-				},
-			},
-			["Cipresshill-Ragnaros"] = {
-				[197262] = {
-					0.1, -- [1]
-					21.027, -- [2]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-			},
-			["Gprepstyle-EmeraldDream"] = {
-				[197653] = {
-					82.8019999999999, -- [1]
-					84.8129999999999, -- [2]
-					["source"] = "[*] Knockdown",
-					["active"] = false,
-				},
-				[197262] = {
-					130.935, -- [1]
-					133.396, -- [2]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-			},
-			["Fimwack"] = {
-				[197262] = {
-					12.779, -- [1]
-					33.7700000000002, -- [2]
-					36.896, -- [3]
-					57.9069999999999, -- [4]
-					95.7560000000001, -- [5]
-					133.396, -- [6]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-				[197653] = {
-					82.8019999999999, -- [1]
-					84.8129999999999, -- [2]
-					["source"] = "[*] Knockdown",
-					["active"] = false,
-				},
-			},
-			["Empyrien-Saurfang"] = {
-				[185539] = {
-					3.4559999999999, -- [1]
-					9.452, -- [2]
-					28.941, -- [3]
-					34.95, -- [4]
-					59.2969999999998, -- [5]
-					65.3059999999998, -- [6]
-					["source"] = "Destructor Tentacle",
-					["active"] = false,
-				},
-				[197262] = {
-					49.2470000000001, -- [1]
-					87.2410000000002, -- [2]
-					88.452, -- [3]
-					109.457, -- [4]
-					["source"] = "Helya",
-					["active"] = false,
-				},
-				[197653] = {
-					82.8019999999999, -- [1]
-					84.8, -- [2]
-					["source"] = "[*] Knockdown",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-			["Jjaxemup-Dentarg"] = {
-				[198551] = {
-					21.0530000000001, -- [1]
-					24.066, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-				[194327] = {
-					21.0530000000001, -- [1]
-					43.461, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-			["Fimwack"] = {
-				[194235] = {
-					28.394, -- [1]
-					28.865, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-			["Cipresshill-Ragnaros"] = {
-				[194235] = {
-					21.3880000000002, -- [1]
-					21.6900000000001, -- [2]
-					37.2050000000002, -- [3]
-					43.461, -- [4]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-			["Jjaxemup-Dentarg"] = {
-				[198551] = {
-					22.1610000000001, -- [1]
-					24.8099999999999, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-				[194327] = {
-					22.1610000000001, -- [1]
-					24.8099999999999, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-			["Empyrien-Saurfang"] = {
-				[198551] = {
-					58.963, -- [1]
-					61.9659999999999, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-				[194327] = {
-					58.963, -- [1]
-					94.4369999999999, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-			["Cipresshill-Ragnaros"] = {
-				[194235] = {
-					22.7, -- [1]
-					23.002, -- [2]
-					["source"] = "Harbaron",
-					["active"] = false,
-				},
-			},
-		}, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "11:46:02",
-			["date_start"] = "11:43:49",
-			["name"] = "Helya",
-			["total_time"] = 133.396,
-		}, -- [1]
-		{
-			["date_end"] = "11:39:56",
-			["date_start"] = "11:39:12",
-			["name"] = "Harbaron",
-			["total_time"] = 43.461,
-		}, -- [2]
-		{
-			["date_end"] = "11:37:53",
-			["date_start"] = "11:37:22",
-			["name"] = "Harbaron",
-			["total_time"] = 31.001,
-		}, -- [3]
-		{
-			["date_end"] = "11:37:19",
-			["date_start"] = "11:35:44",
-			["name"] = "Harbaron",
-			["total_time"] = 94.837,
 		}, -- [4]
 	},
 	["deaths_data"] = {
@@ -604,6 +413,197 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+		}, -- [4]
+	},
+	["hide_on_combat"] = false,
+	["debuff_timeline"] = {
+		{
+			["Jjaxemup-Dentarg"] = {
+				[197262] = {
+					24.9069999999999, -- [1]
+					45.9089999999999, -- [2]
+					["source"] = "Helya",
+					["active"] = false,
+				},
+				[197653] = {
+					82.8019999999999, -- [1]
+					84.8129999999999, -- [2]
+					["source"] = "[*] Knockdown",
+					["active"] = false,
+				},
+			},
+			["Cipresshill-Ragnaros"] = {
+				[197262] = {
+					0.1, -- [1]
+					21.027, -- [2]
+					["source"] = "Helya",
+					["active"] = false,
+				},
+			},
+			["Gprepstyle-EmeraldDream"] = {
+				[197653] = {
+					82.8019999999999, -- [1]
+					84.8129999999999, -- [2]
+					["source"] = "[*] Knockdown",
+					["active"] = false,
+				},
+				[197262] = {
+					130.935, -- [1]
+					133.396, -- [2]
+					["source"] = "Helya",
+					["active"] = false,
+				},
+			},
+			["Fimwack"] = {
+				[197262] = {
+					12.779, -- [1]
+					33.7700000000002, -- [2]
+					36.896, -- [3]
+					57.9069999999999, -- [4]
+					95.7560000000001, -- [5]
+					133.396, -- [6]
+					["source"] = "Helya",
+					["active"] = false,
+				},
+				[197653] = {
+					82.8019999999999, -- [1]
+					84.8129999999999, -- [2]
+					["source"] = "[*] Knockdown",
+					["active"] = false,
+				},
+			},
+			["Empyrien-Saurfang"] = {
+				[185539] = {
+					3.4559999999999, -- [1]
+					9.452, -- [2]
+					28.941, -- [3]
+					34.95, -- [4]
+					59.2969999999998, -- [5]
+					65.3059999999998, -- [6]
+					["source"] = "Destructor Tentacle",
+					["active"] = false,
+				},
+				[197262] = {
+					49.2470000000001, -- [1]
+					87.2410000000002, -- [2]
+					88.452, -- [3]
+					109.457, -- [4]
+					["source"] = "Helya",
+					["active"] = false,
+				},
+				[197653] = {
+					82.8019999999999, -- [1]
+					84.8, -- [2]
+					["source"] = "[*] Knockdown",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+			["Jjaxemup-Dentarg"] = {
+				[198551] = {
+					21.0530000000001, -- [1]
+					24.066, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+				[194327] = {
+					21.0530000000001, -- [1]
+					43.461, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+			},
+			["Fimwack"] = {
+				[194235] = {
+					28.394, -- [1]
+					28.865, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+			},
+			["Cipresshill-Ragnaros"] = {
+				[194235] = {
+					21.3880000000002, -- [1]
+					21.6900000000001, -- [2]
+					37.2050000000002, -- [3]
+					43.461, -- [4]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			["Jjaxemup-Dentarg"] = {
+				[198551] = {
+					22.1610000000001, -- [1]
+					24.8099999999999, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+				[194327] = {
+					22.1610000000001, -- [1]
+					24.8099999999999, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+			},
+			["Empyrien-Saurfang"] = {
+				[198551] = {
+					58.963, -- [1]
+					61.9659999999999, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+				[194327] = {
+					58.963, -- [1]
+					94.4369999999999, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+			},
+			["Cipresshill-Ragnaros"] = {
+				[194235] = {
+					22.7, -- [1]
+					23.002, -- [2]
+					["source"] = "Harbaron",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "11:46:02",
+			["date_start"] = "11:43:49",
+			["name"] = "Helya",
+			["total_time"] = 133.396,
+		}, -- [1]
+		{
+			["date_end"] = "11:39:56",
+			["date_start"] = "11:39:12",
+			["name"] = "Harbaron",
+			["total_time"] = 43.461,
+		}, -- [2]
+		{
+			["date_end"] = "11:37:53",
+			["date_start"] = "11:37:22",
+			["name"] = "Harbaron",
+			["total_time"] = 31.001,
+		}, -- [3]
+		{
+			["date_end"] = "11:37:19",
+			["date_start"] = "11:35:44",
+			["name"] = "Harbaron",
+			["total_time"] = 94.837,
 		}, -- [4]
 	},
 }

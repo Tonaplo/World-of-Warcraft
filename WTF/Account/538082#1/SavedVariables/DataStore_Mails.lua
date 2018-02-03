@@ -1,31 +1,31 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
+		["Korugen - Tichondrius"] = "Korugen - Tichondrius",
 		["Kaldorath - Proudmoore"] = "Kaldorath - Proudmoore",
 		["Gorog - Bleeding Hollow"] = "Gorog - Bleeding Hollow",
 		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Lorvol - Tichondrius"] = "Lorvol - Tichondrius",
 		["Fimwack - Proudmoore"] = "Fimwack - Proudmoore",
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
+		["Alura - Tichondrius"] = "Alura - Tichondrius",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1516687643,
-				["lastVisitDate"] = "2018/01/22 22:07",
-			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1512798914,
 				["Mails"] = {
@@ -63,48 +63,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1517208451,
 				["lastVisitDate"] = "2018/01/28 22:47",
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1517295710,
-				["Mails"] = {
-					{
-						["sender"] = "Greybone",
-						["itemID"] = 153144,
-						["link"] = "|cff0070dd|Hitem:153144::::::::110:252::::::|h[Unsullied Cloth Slippers]|h|r",
-						["count"] = 1,
-						["icon"] = 422797,
-						["lastCheck"] = 1517470058,
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2018/01/29 23:01",
-			},
-			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1515047960,
-				["Mails"] = {
-					{
-						["sender"] = "Greybone",
-						["itemID"] = 153145,
-						["link"] = "|cff0070dd|Hitem:153145::::::::110:252::::::|h[Unsullied Leather Spaulders]|h|r",
-						["count"] = 1,
-						["icon"] = 436842,
-						["lastCheck"] = 1517470049,
-						["daysLeft"] = 30,
-					}, -- [1]
-					{
-						["sender"] = "Greybone",
-						["itemID"] = 153136,
-						["link"] = "|cff0070dd|Hitem:153136::::::::110:252::::::|h[Unsullied Leather Treads]|h|r",
-						["count"] = 1,
-						["icon"] = 436836,
-						["lastCheck"] = 1517470049,
-						["daysLeft"] = 30,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2018/01/03 22:39",
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1511749408,
-				["lastVisitDate"] = "2017/11/26 18:23",
+			["Default.Tichondrius.Alura"] = {
+				["lastUpdate"] = 1517603407,
+				["lastVisitDate"] = "2018/02/02 12:30",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
 				["lastUpdate"] = 1511427640,
@@ -131,9 +92,40 @@ DataStore_MailsDB = {
 				},
 				["lastVisitDate"] = "2017/11/23 01:00",
 			},
+			["Default.Proudmoore.Granjior"] = {
+				["lastUpdate"] = 1516263257,
+				["lastVisitDate"] = "2018/01/18 00:14",
+			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1516262098,
 				["lastVisitDate"] = "2018/01/17 23:54",
+			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1517295710,
+				["Mails"] = {
+					{
+						["sender"] = "Greybone",
+						["itemID"] = 153144,
+						["link"] = "|cff0070dd|Hitem:153144::::::::110:252::::::|h[Unsullied Cloth Slippers]|h|r",
+						["count"] = 1,
+						["icon"] = 422797,
+						["lastCheck"] = 1517470058,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2018/01/29 23:01",
+			},
+			["Default.Bleeding Hollow.Evisca"] = {
+				["lastUpdate"] = 1516394108,
+				["lastVisitDate"] = "2018/01/19 12:35",
+			},
+			["Default.Proudmoore.Amranar"] = {
+				["lastUpdate"] = 1516687643,
+				["lastVisitDate"] = "2018/01/22 22:07",
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1511749408,
+				["lastVisitDate"] = "2017/11/26 18:23",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
@@ -143,29 +135,25 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1517470637,
 				["lastVisitDate"] = "2018/01/31 23:37",
 			},
-			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1516263257,
-				["lastVisitDate"] = "2018/01/18 00:14",
-			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1516088276,
-				["lastVisitDate"] = "2018/01/15 23:37",
-			},
-			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1516688509,
-				["lastVisitDate"] = "2018/01/22 22:21",
-			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1516688626,
 				["lastVisitDate"] = "2018/01/22 22:23",
+			},
+			["Default.Proudmoore.Farahn"] = {
+				["lastUpdate"] = 1517641750,
+				["lastVisitDate"] = "2018/02/02 23:09",
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607753,
 				["lastVisitDate"] = "2017/11/02 00:29",
 			},
-			["Default.Bleeding Hollow.Evisca"] = {
-				["lastUpdate"] = 1516394108,
-				["lastVisitDate"] = "2018/01/19 12:35",
+			["Default.Proudmoore.Miriyal"] = {
+				["lastUpdate"] = 1517625984,
+				["lastVisitDate"] = "2018/02/02 18:46",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1516088276,
+				["lastVisitDate"] = "2018/01/15 23:37",
 			},
 		},
 	},

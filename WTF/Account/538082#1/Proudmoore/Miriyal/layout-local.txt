@@ -48,3 +48,10 @@ X: 26
 Y: -230
 W: 370
 H: 110
+Frame: ConditionerMessageAnchorFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 0
+W: 50
+H: 50

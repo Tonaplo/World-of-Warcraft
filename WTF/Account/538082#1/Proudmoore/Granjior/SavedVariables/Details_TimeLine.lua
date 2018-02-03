@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "17:14:15",
-			["date_start"] = "17:12:57",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 78.4670000000006,
-		}, -- [1]
-		{
-			["date_end"] = "17:10:28",
-			["date_start"] = "17:08:38",
-			["name"] = "Dresaron",
-			["total_time"] = 110.159,
-		}, -- [2]
-		{
-			["date_end"] = "17:06:40",
-			["date_start"] = "17:05:27",
-			["name"] = "Oakheart",
-			["total_time"] = 72.344000000001,
-		}, -- [3]
-		{
-			["date_end"] = "17:00:57",
-			["date_start"] = "16:59:27",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 90.7640000000029,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Xazzan-AeriePeak"] = {
@@ -171,13 +153,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Ianjiang-Frostmourne"] = {
@@ -304,34 +279,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Senseisaint-AeriePeak"] = {
-				[220855] = {
-					21.8709999999992, -- [1]
-					29.8410000000004, -- [2]
-					52.0279999999984, -- [3]
-					59.8590000000004, -- [4]
-					81.0659999999989, -- [5]
-					89.0679999999993, -- [6]
-					["source"] = "[*] Down Draft",
-					["active"] = false,
-				},
-				[199460] = {
-					35.0910000000004, -- [1]
-					35.3009999999995, -- [2]
-					35.882999999998, -- [3]
-					35.9779999999992, -- [4]
-					65.0799999999981, -- [5]
-					65.4979999999996, -- [6]
-					["source"] = "Dresaron",
-					["active"] = false,
-				},
-				[191326] = {
-					97.7880000000005, -- [1]
-					103.798999999999, -- [2]
-					["source"] = "Dresaron",
-					["active"] = false,
-				},
-			},
 			["Granjior"] = {
 				[220855] = {
 					21.8709999999992, -- [1]
@@ -358,6 +305,34 @@ DetailsTimeLineDB = {
 					76.6129999999976, -- [4]
 					97.7880000000005, -- [5]
 					104.792999999998, -- [6]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+			},
+			["Senseisaint-AeriePeak"] = {
+				[220855] = {
+					21.8709999999992, -- [1]
+					29.8410000000004, -- [2]
+					52.0279999999984, -- [3]
+					59.8590000000004, -- [4]
+					81.0659999999989, -- [5]
+					89.0679999999993, -- [6]
+					["source"] = "[*] Down Draft",
+					["active"] = false,
+				},
+				[199460] = {
+					35.0910000000004, -- [1]
+					35.3009999999995, -- [2]
+					35.882999999998, -- [3]
+					35.9779999999992, -- [4]
+					65.0799999999981, -- [5]
+					65.4979999999996, -- [6]
+					["source"] = "Dresaron",
+					["active"] = false,
+				},
+				[191326] = {
+					97.7880000000005, -- [1]
+					103.798999999999, -- [2]
 					["source"] = "Dresaron",
 					["active"] = false,
 				},
@@ -476,6 +451,22 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Granjior"] = {
+				[198477] = {
+					25.5190000000002, -- [1]
+					29.3379999999997, -- [2]
+					74.612000000001, -- [3]
+					90.7640000000029, -- [4]
+					["source"] = "Nightmare Abomination",
+					["active"] = false,
+				},
+				[198408] = {
+					72.1840000000011, -- [1]
+					74.711000000003, -- [2]
+					["source"] = "Archdruid Glaidalis",
+					["active"] = false,
+				},
+			},
 			["Senseisaint-AeriePeak"] = {
 				[198408] = {
 					26.4380000000019, -- [1]
@@ -490,22 +481,6 @@ DetailsTimeLineDB = {
 					46.3760000000002, -- [10]
 					71.2760000000017, -- [11]
 					73.3300000000018, -- [12]
-					["source"] = "Archdruid Glaidalis",
-					["active"] = false,
-				},
-			},
-			["Granjior"] = {
-				[198477] = {
-					25.5190000000002, -- [1]
-					29.3379999999997, -- [2]
-					74.612000000001, -- [3]
-					90.7640000000029, -- [4]
-					["source"] = "Nightmare Abomination",
-					["active"] = false,
-				},
-				[198408] = {
-					72.1840000000011, -- [1]
-					74.711000000003, -- [2]
 					["source"] = "Archdruid Glaidalis",
 					["active"] = false,
 				},
@@ -530,6 +505,32 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "17:14:15",
+			["date_start"] = "17:12:57",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 78.4670000000006,
+		}, -- [1]
+		{
+			["date_end"] = "17:10:28",
+			["date_start"] = "17:08:38",
+			["name"] = "Dresaron",
+			["total_time"] = 110.159,
+		}, -- [2]
+		{
+			["date_end"] = "17:06:40",
+			["date_start"] = "17:05:27",
+			["name"] = "Oakheart",
+			["total_time"] = 72.344000000001,
+		}, -- [3]
+		{
+			["date_end"] = "17:00:57",
+			["date_start"] = "16:59:27",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 90.7640000000029,
 		}, -- [4]
 	},
 	["deaths_data"] = {
@@ -585,5 +586,4 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

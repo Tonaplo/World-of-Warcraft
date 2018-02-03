@@ -9,6 +9,29 @@ AdiBagsDB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Korugen - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Gorog - Bleeding Hollow"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Lorvol - Tichondrius"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Rahran - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Zaliga - Bleeding Hollow"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Evisca - Bleeding Hollow"] = "Default",
+		["Zethan - Tichondrius"] = "Default",
+		["Alura - Tichondrius"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
+	},
 	["namespaces"] = {
 		["ItemLevel"] = {
 		},
@@ -46,17 +69,6 @@ AdiBagsDB = {
 				},
 			},
 		},
-		["ItemSets"] = {
-			["char"] = {
-				["Mallusof - Tichondrius"] = {
-					["mergedSets"] = {
-						["Disc"] = true,
-						["Holy"] = true,
-						["Shadow"] = true,
-					},
-				},
-			},
-		},
 		["CurrencyFrame"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -89,29 +101,21 @@ AdiBagsDB = {
 		},
 		["DataSource"] = {
 		},
+		["ItemSets"] = {
+			["char"] = {
+				["Mallusof - Tichondrius"] = {
+					["mergedSets"] = {
+						["Disc"] = true,
+						["Holy"] = true,
+						["Shadow"] = true,
+					},
+				},
+			},
+		},
 		["Junk"] = {
 		},
 		["MoneyFrame"] = {
 		},
-	},
-	["profileKeys"] = {
-		["Kaldorath - Proudmoore"] = "Default",
-		["Gorog - Bleeding Hollow"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Rahran - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Zaliga - Bleeding Hollow"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Evisca - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

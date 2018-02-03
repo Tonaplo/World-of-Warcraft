@@ -1,80 +1,10 @@
 
 DeathGraphsDBDeaths = {
-	["175014"] = {
-		["hash"] = "175014",
-		["type"] = "deaths",
-		["name"] = "Cenarius",
-		["id"] = 1750,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Cenarius",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Cenarius",
-			["diff"] = 14,
-			["id"] = 1877,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-	["173814"] = {
-		["hash"] = "173814",
-		["type"] = "deaths",
-		["name"] = "Il'gynoth, The Heart of Corruption",
-		["id"] = 1738,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Il'gynoth, The Heart of Corruption",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Il'gynoth, The Heart of Corruption",
-			["diff"] = 14,
-			["id"] = 1873,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
 	["189814"] = {
 		["hash"] = "189814",
 		["type"] = "deaths",
 		["name"] = "Kil'jaeden",
 		["id"] = 1898,
-		["player_db"] = {
-			["Deathstro-Dawnbringer"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Deathstro-Dawnbringer",
-				["overall"] = {
-				},
-			},
-			["Thàythuòc-KhazModan"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Thàythuòc-KhazModan",
-				["overall"] = {
-				},
-			},
-			["Praerend"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Praerend",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 9,
@@ -88,534 +18,42 @@ DeathGraphsDBDeaths = {
 			["id"] = 2051,
 			["killed"] = true,
 		},
-		["diff"] = 14,
-	},
-	["186114"] = {
-		["hash"] = "186114",
-		["type"] = "deaths",
-		["name"] = "Mistress Sassz'ine",
-		["id"] = 1861,
 		["player_db"] = {
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Mistress Sassz'ine",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Mistress Sassz'ine",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2037,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["170314"] = {
-		["hash"] = "170314",
-		["type"] = "deaths",
-		["name"] = "Nythendra",
-		["id"] = 1703,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Nythendra",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Nythendra",
-			["diff"] = 14,
-			["id"] = 1853,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-	["187314"] = {
-		["hash"] = "187314",
-		["type"] = "deaths",
-		["name"] = "Fallen Avatar",
-		["id"] = 1873,
-		["player_db"] = {
-			["Allagguna-Quel'Thalas"] = {
+			["Deathstro-Dawnbringer"] = {
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-				["name"] = "Allagguna-Quel'Thalas",
 				["overall"] = {
 				},
+				["name"] = "Deathstro-Dawnbringer",
 			},
-			["Hammydar-Sargeras"] = {
-				["deaths"] = {
-				},
+			["Thàythuòc-KhazModan"] = {
 				["class"] = "PRIEST",
-				["name"] = "Hammydar-Sargeras",
-				["overall"] = {
-				},
-			},
-			["Redlyn-Wildhammer"] = {
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
-				["name"] = "Redlyn-Wildhammer",
 				["overall"] = {
 				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Fallen Avatar",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Fallen Avatar",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2038,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["185614"] = {
-		["hash"] = "185614",
-		["type"] = "deaths",
-		["name"] = "Harjatan",
-		["id"] = 1856,
-		["player_db"] = {
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Harjatan",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Harjatan",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2036,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["189714"] = {
-		["hash"] = "189714",
-		["type"] = "deaths",
-		["name"] = "Maiden of Vigilance",
-		["id"] = 1897,
-		["player_db"] = {
-			["Allagguna-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Allagguna-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Redlyn-Wildhammer"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Redlyn-Wildhammer",
-				["overall"] = {
-				},
+				["name"] = "Thàythuòc-KhazModan",
 			},
 			["Praerend"] = {
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
+				["overall"] = {
+				},
 				["name"] = "Praerend",
-				["overall"] = {
-				},
 			},
-			["Stamkiller-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Stamkiller-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-			["Paladinae-Shadowsong"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Paladinae-Shadowsong",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Maiden of Vigilance",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Maiden of Vigilance",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2052,
-			["killed"] = true,
 		},
 		["diff"] = 14,
-	},
-	["166714"] = {
-		["hash"] = "166714",
-		["type"] = "deaths",
-		["name"] = "Ursoc",
-		["id"] = 1667,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Ursoc",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Ursoc",
-			["diff"] = 14,
-			["id"] = 1841,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-	["189614"] = {
-		["hash"] = "189614",
-		["type"] = "deaths",
-		["name"] = "The Desolate Host",
-		["id"] = 1896,
-		["player_db"] = {
-			["Paladinae-Shadowsong"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Paladinae-Shadowsong",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "The Desolate Host",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "The Desolate Host",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2054,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["186714"] = {
-		["hash"] = "186714",
-		["type"] = "deaths",
-		["name"] = "Demonic Inquisition",
-		["id"] = 1867,
-		["player_db"] = {
-			["Stamkiller-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Stamkiller-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Demonic Inquisition",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Demonic Inquisition",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2048,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["190314"] = {
-		["hash"] = "190314",
-		["type"] = "deaths",
-		["name"] = "Sisters of the Moon",
-		["id"] = 1903,
-		["player_db"] = {
-			["Allagguna-Quel'Thalas"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Allagguna-Quel'Thalas",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Sisters of the Moon",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Sisters of the Moon",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2050,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["186214"] = {
-		["hash"] = "186214",
-		["type"] = "deaths",
-		["name"] = "Goroth",
-		["id"] = 1862,
-		["player_db"] = {
-			["Gustmon-Darkspear"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Gustmon-Darkspear",
-				["overall"] = {
-				},
-			},
-			["Algreth-Kel'Thuzad"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Algreth-Kel'Thuzad",
-				["overall"] = {
-				},
-			},
-			["Paladinae-Shadowsong"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Paladinae-Shadowsong",
-				["overall"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Goroth",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Goroth",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2032,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["174414"] = {
-		["hash"] = "174414",
-		["type"] = "deaths",
-		["name"] = "Elerethe Renferal",
-		["id"] = 1744,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Elerethe Renferal",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Elerethe Renferal",
-			["diff"] = 14,
-			["id"] = 1876,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-	["172614"] = {
-		["hash"] = "172614",
-		["type"] = "deaths",
-		["name"] = "Xavius",
-		["id"] = 1726,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Xavius",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Xavius",
-			["diff"] = 14,
-			["id"] = 1864,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-	["170414"] = {
-		["hash"] = "170414",
-		["type"] = "deaths",
-		["name"] = "Dragons of Nightmare",
-		["id"] = 1704,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Dragons of Nightmare",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Dragons of Nightmare",
-			["diff"] = 14,
-			["id"] = 1854,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-		},
-	},
-}
-DeathGraphsDBEndurance = {
-	["175014"] = {
-		["hash"] = "175014",
-		["type"] = "endurance",
-		["name"] = "Cenarius",
-		["id"] = 1750,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Cenarius",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Cenarius",
-			["diff"] = 14,
-			["id"] = 1877,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Roméo-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Judobrew-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Clucked-Mannoroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Delapidin-Khaz'goroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Wittful-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Alba-Nazjatar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Rebellión-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Praerend"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Nuneat-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Schrödînger-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Popsicless-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Yenlous-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Tieretre-Baelgun"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Arthonis-DarkIron"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-		},
 	},
 	["173814"] = {
 		["hash"] = "173814",
-		["type"] = "endurance",
+		["type"] = "deaths",
 		["name"] = "Il'gynoth, The Heart of Corruption",
 		["id"] = 1738,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -629,112 +67,447 @@ DeathGraphsDBEndurance = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+	},
+	["175014"] = {
+		["hash"] = "175014",
+		["type"] = "deaths",
+		["name"] = "Cenarius",
+		["id"] = 1750,
+		["diff"] = 14,
 		["player_db"] = {
-			["Roméo-Lightbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Judobrew-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Clucked-Mannoroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Delapidin-Khaz'goroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Wittful-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Alba-Nazjatar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Rebellión-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Praerend"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Nuneat-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Schrödînger-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Popsicless-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Yenlous-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Tieretre-Baelgun"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Arthonis-DarkIron"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Cenarius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Cenarius",
+			["diff"] = 14,
+			["id"] = 1877,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
 		},
 	},
+	["170414"] = {
+		["hash"] = "170414",
+		["type"] = "deaths",
+		["name"] = "Dragons of Nightmare",
+		["id"] = 1704,
+		["diff"] = 14,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Dragons of Nightmare",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Dragons of Nightmare",
+			["diff"] = 14,
+			["id"] = 1854,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["170314"] = {
+		["hash"] = "170314",
+		["type"] = "deaths",
+		["name"] = "Nythendra",
+		["id"] = 1703,
+		["diff"] = 14,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Nythendra",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Nythendra",
+			["diff"] = 14,
+			["id"] = 1853,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["187314"] = {
+		["hash"] = "187314",
+		["type"] = "deaths",
+		["name"] = "Fallen Avatar",
+		["id"] = 1873,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Fallen Avatar",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Fallen Avatar",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2038,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Allagguna-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Allagguna-Quel'Thalas",
+			},
+			["Hammydar-Sargeras"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Hammydar-Sargeras",
+			},
+			["Redlyn-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Redlyn-Wildhammer",
+			},
+		},
+		["diff"] = 14,
+	},
+	["185614"] = {
+		["hash"] = "185614",
+		["type"] = "deaths",
+		["name"] = "Harjatan",
+		["id"] = 1856,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Harjatan",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Harjatan",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2036,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["189714"] = {
+		["hash"] = "189714",
+		["type"] = "deaths",
+		["name"] = "Maiden of Vigilance",
+		["id"] = 1897,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Maiden of Vigilance",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Maiden of Vigilance",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2052,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Allagguna-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Allagguna-Quel'Thalas",
+			},
+			["Redlyn-Wildhammer"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Redlyn-Wildhammer",
+			},
+			["Praerend"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Praerend",
+			},
+			["Stamkiller-Quel'Thalas"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Stamkiller-Quel'Thalas",
+			},
+			["Paladinae-Shadowsong"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Paladinae-Shadowsong",
+			},
+		},
+		["diff"] = 14,
+	},
+	["166714"] = {
+		["hash"] = "166714",
+		["type"] = "deaths",
+		["name"] = "Ursoc",
+		["id"] = 1667,
+		["diff"] = 14,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Ursoc",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Ursoc",
+			["diff"] = 14,
+			["id"] = 1841,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["189614"] = {
+		["hash"] = "189614",
+		["type"] = "deaths",
+		["name"] = "The Desolate Host",
+		["id"] = 1896,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "The Desolate Host",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "The Desolate Host",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2054,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Paladinae-Shadowsong"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Paladinae-Shadowsong",
+			},
+		},
+		["diff"] = 14,
+	},
+	["186714"] = {
+		["hash"] = "186714",
+		["type"] = "deaths",
+		["name"] = "Demonic Inquisition",
+		["id"] = 1867,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Demonic Inquisition",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Demonic Inquisition",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2048,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Stamkiller-Quel'Thalas"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Stamkiller-Quel'Thalas",
+			},
+		},
+		["diff"] = 14,
+	},
+	["174414"] = {
+		["hash"] = "174414",
+		["type"] = "deaths",
+		["name"] = "Elerethe Renferal",
+		["id"] = 1744,
+		["diff"] = 14,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Elerethe Renferal",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Elerethe Renferal",
+			["diff"] = 14,
+			["id"] = 1876,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["186214"] = {
+		["hash"] = "186214",
+		["type"] = "deaths",
+		["name"] = "Goroth",
+		["id"] = 1862,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Goroth",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Goroth",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2032,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Gustmon-Darkspear"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Gustmon-Darkspear",
+			},
+			["Algreth-Kel'Thuzad"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Algreth-Kel'Thuzad",
+			},
+			["Paladinae-Shadowsong"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Paladinae-Shadowsong",
+			},
+		},
+		["diff"] = 14,
+	},
+	["190314"] = {
+		["hash"] = "190314",
+		["type"] = "deaths",
+		["name"] = "Sisters of the Moon",
+		["id"] = 1903,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Sisters of the Moon",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Sisters of the Moon",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2050,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Allagguna-Quel'Thalas"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Allagguna-Quel'Thalas",
+			},
+		},
+		["diff"] = 14,
+	},
+	["172614"] = {
+		["hash"] = "172614",
+		["type"] = "deaths",
+		["name"] = "Xavius",
+		["id"] = 1726,
+		["diff"] = 14,
+		["player_db"] = {
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Xavius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Xavius",
+			["diff"] = 14,
+			["id"] = 1864,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["186114"] = {
+		["hash"] = "186114",
+		["type"] = "deaths",
+		["name"] = "Mistress Sassz'ine",
+		["id"] = 1861,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Mistress Sassz'ine",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Mistress Sassz'ine",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2037,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+}
+DeathGraphsDBEndurance = {
 	["189814"] = {
 		["hash"] = "189814",
 		["type"] = "endurance",
 		["name"] = "Kil'jaeden",
 		["id"] = 1898,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 9,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Kil'jaeden",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Kil'jaeden",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2051,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
@@ -850,161 +623,367 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 9,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Kil'jaeden",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Kil'jaeden",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2051,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
-	["186114"] = {
-		["hash"] = "186114",
+	["173814"] = {
+		["hash"] = "173814",
 		["type"] = "endurance",
-		["name"] = "Mistress Sassz'ine",
-		["id"] = 1861,
+		["name"] = "Il'gynoth, The Heart of Corruption",
+		["id"] = 1738,
+		["diff"] = 14,
 		["player_db"] = {
-			["Rashmi-Drenden"] = {
+			["Roméo-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
-			["Gustmon-Darkspear"] = {
+			["Judobrew-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
 			},
-			["Kleno-Lothar"] = {
+			["Clucked-Mannoroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Delapidin-Khaz'goroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 			},
-			["Ruuxe-Frostmourne"] = {
+			["Wittful-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
-			["Stamkiller-Quel'Thalas"] = {
+			["Alba-Nazjatar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
+			},
+			["Rebellión-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
 			},
 			["Praerend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
 			},
-			["Allagguna-Quel'Thalas"] = {
+			["Nuneat-Kilrogg"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-			},
-			["Deathstro-Dawnbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Algreth-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Xaxruner-Alexstrasza"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Advill-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Hunterdemons-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Jaylash-Aggramar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Hammydar-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Kreznik-Medivh"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Redlyn-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Paladinae-Shadowsong"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "PALADIN",
+			},
+			["Schrödînger-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
+			},
+			["Popsicless-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Yenlous-EmeraldDream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Tieretre-Baelgun"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Arthonis-DarkIron"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Il'gynoth, The Heart of Corruption",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, The Heart of Corruption",
+			["diff"] = 14,
+			["id"] = 1873,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["175014"] = {
+		["hash"] = "175014",
+		["type"] = "endurance",
+		["name"] = "Cenarius",
+		["id"] = 1750,
+		["diff"] = 14,
+		["player_db"] = {
+			["Roméo-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Judobrew-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Clucked-Mannoroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Delapidin-Khaz'goroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Wittful-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Alba-Nazjatar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rebellión-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Praerend"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Nuneat-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Schrödînger-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Popsicless-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Yenlous-EmeraldDream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Tieretre-Baelgun"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Arthonis-DarkIron"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Cenarius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Cenarius",
+			["diff"] = 14,
+			["id"] = 1877,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
+	},
+	["170414"] = {
+		["hash"] = "170414",
+		["type"] = "endurance",
+		["name"] = "Dragons of Nightmare",
+		["id"] = 1704,
+		["diff"] = 14,
+		["player_db"] = {
+			["Roméo-Lightbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Judobrew-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Clucked-Mannoroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Delapidin-Khaz'goroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Wittful-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Alba-Nazjatar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rebellión-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Praerend"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Nuneat-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Schrödînger-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Popsicless-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Yenlous-EmeraldDream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Tieretre-Baelgun"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Arthonis-DarkIron"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Mistress Sassz'ine",
-			["mapid"] = 1676,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Dragons of Nightmare",
+			["mapid"] = 1520,
 			["try_number"] = 1,
-			["name"] = "Mistress Sassz'ine",
+			["name"] = "Dragons of Nightmare",
 			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2037,
+			["id"] = 1854,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
-		["diff"] = 14,
 	},
 	["170314"] = {
 		["hash"] = "170314",
@@ -1012,19 +991,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Nythendra",
 		["id"] = 1703,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Nythendra",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Nythendra",
-			["diff"] = 14,
-			["id"] = 1853,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Roméo-Lightbringer"] = {
 				["encounters"] = 1,
@@ -1125,12 +1091,38 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEATHKNIGHT",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Nythendra",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Nythendra",
+			["diff"] = 14,
+			["id"] = 1853,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 	},
 	["187314"] = {
 		["hash"] = "187314",
 		["type"] = "endurance",
 		["name"] = "Fallen Avatar",
 		["id"] = 1873,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Fallen Avatar",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Fallen Avatar",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2038,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
@@ -1246,19 +1238,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Fallen Avatar",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Fallen Avatar",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2038,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
 	["185614"] = {
@@ -1266,6 +1245,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Harjatan",
 		["id"] = 1856,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Harjatan",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Harjatan",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2036,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
@@ -1295,7 +1287,21 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Algreth-Kel'Thuzad"] = {
+			["Hammydar-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Redlyn-Wildhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Kreznik-Medivh"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "MAGE",
@@ -1309,17 +1315,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Kreznik-Medivh"] = {
+			["Advill-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Redlyn-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -1327,13 +1326,6 @@ DeathGraphsDBEndurance = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Advill-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -1358,10 +1350,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Hammydar-Sargeras"] = {
+			["Algreth-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -1380,19 +1372,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Harjatan",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Harjatan",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2036,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
 	["189714"] = {
@@ -1400,6 +1379,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Maiden of Vigilance",
 		["id"] = 1897,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Maiden of Vigilance",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Maiden of Vigilance",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2052,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
@@ -1522,19 +1514,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Maiden of Vigilance",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Maiden of Vigilance",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2052,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
 	["166714"] = {
@@ -1543,19 +1522,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Ursoc",
 		["id"] = 1667,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Ursoc",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Ursoc",
-			["diff"] = 14,
-			["id"] = 1841,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Roméo-Lightbringer"] = {
 				["encounters"] = 1,
@@ -1649,12 +1615,38 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEATHKNIGHT",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Ursoc",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Ursoc",
+			["diff"] = 14,
+			["id"] = 1841,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 	},
 	["189614"] = {
 		["hash"] = "189614",
 		["type"] = "endurance",
 		["name"] = "The Desolate Host",
 		["id"] = 1896,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "The Desolate Host",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "The Desolate Host",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2054,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Hunterdemons-Sargeras"] = {
 				["encounters"] = 1,
@@ -1774,19 +1766,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "The Desolate Host",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "The Desolate Host",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2054,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
 	["186714"] = {
@@ -1794,6 +1773,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Demonic Inquisition",
 		["id"] = 1867,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Demonic Inquisition",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Demonic Inquisition",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2048,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
@@ -1927,165 +1919,146 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Demonic Inquisition",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Demonic Inquisition",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2048,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
-	["190314"] = {
-		["hash"] = "190314",
+	["174414"] = {
+		["hash"] = "174414",
 		["type"] = "endurance",
-		["name"] = "Sisters of the Moon",
-		["id"] = 1903,
+		["name"] = "Elerethe Renferal",
+		["id"] = 1744,
+		["diff"] = 14,
 		["player_db"] = {
-			["Hunterdemons-Sargeras"] = {
+			["Roméo-Lightbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-			},
-			["Jaylash-Aggramar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Thàythuòc-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Deathstro-Dawnbringer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Hammydar-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Kreznik-Medivh"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Gustmon-Darkspear"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Redlyn-Wildhammer"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Rashmi-Drenden"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Kleno-Lothar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Paladinae-Shadowsong"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Ruuxe-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Xaxruner-Alexstrasza"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 			},
-			["Allagguna-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						221.54, -- [2]
-						"Glaive Storm |cFFFF33331,148,745|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Stamkiller-Quel'Thalas"] = {
+			["Judobrew-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "MONK",
+			},
+			["Clucked-Mannoroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Delapidin-Khaz'goroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Wittful-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Alba-Nazjatar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rebellión-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
 			},
 			["Praerend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
+			},
+			["Nuneat-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Schrödînger-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Popsicless-Kilrogg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Yenlous-EmeraldDream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Tieretre-Baelgun"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Arthonis-DarkIron"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Sisters of the Moon",
-			["mapid"] = 1676,
+			["index"] = 2,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Elerethe Renferal",
+			["mapid"] = 1520,
 			["try_number"] = 1,
-			["name"] = "Sisters of the Moon",
+			["name"] = "Elerethe Renferal",
 			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2050,
+			["id"] = 1876,
+			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
-		["diff"] = 14,
 	},
 	["186214"] = {
 		["hash"] = "186214",
 		["type"] = "endurance",
 		["name"] = "Goroth",
 		["id"] = 1862,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Goroth",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Goroth",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2032,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
@@ -2229,140 +2202,146 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Goroth",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Goroth",
-			["diff"] = 14,
-			["ej_instance_id"] = 875,
-			["id"] = 2032,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
-	["174414"] = {
-		["hash"] = "174414",
+	["190314"] = {
+		["hash"] = "190314",
 		["type"] = "endurance",
-		["name"] = "Elerethe Renferal",
-		["id"] = 1744,
-		["diff"] = 14,
+		["name"] = "Sisters of the Moon",
+		["id"] = 1903,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Elerethe Renferal",
-			["mapid"] = 1520,
+			["index"] = 4,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Sisters of the Moon",
+			["mapid"] = 1676,
 			["try_number"] = 1,
-			["name"] = "Elerethe Renferal",
+			["name"] = "Sisters of the Moon",
 			["diff"] = 14,
-			["id"] = 1876,
-			["ej_instance_id"] = 768,
+			["ej_instance_id"] = 875,
+			["id"] = 2050,
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Roméo-Lightbringer"] = {
+			["Hunterdemons-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Judobrew-Sargeras"] = {
+			["Jaylash-Aggramar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Clucked-Mannoroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Delapidin-Khaz'goroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Wittful-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
-			},
-			["Alba-Nazjatar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
-			["Rebellión-Sargeras"] = {
+			["Thàythuòc-KhazModan"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+			},
+			["Deathstro-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Gustmon-Darkspear"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Hammydar-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Kreznik-Medivh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Redlyn-Wildhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Rashmi-Drenden"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Kleno-Lothar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Paladinae-Shadowsong"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Ruuxe-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Xaxruner-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Allagguna-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						221.54, -- [2]
+						"Glaive Storm |cFFFF33331,148,745|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Stamkiller-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
 			},
 			["Praerend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARRIOR",
-			},
-			["Nuneat-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
-			},
-			["Schrödînger-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Popsicless-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Yenlous-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Tieretre-Baelgun"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Arthonis-DarkIron"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
 			},
 		},
+		["diff"] = 14,
 	},
 	["172614"] = {
 		["hash"] = "172614",
@@ -2370,19 +2349,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Xavius",
 		["id"] = 1726,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Xavius",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Xavius",
-			["diff"] = 14,
-			["id"] = 1864,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Roméo-Lightbringer"] = {
 				["encounters"] = 1,
@@ -2483,126 +2449,160 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEATHKNIGHT",
 			},
 		},
-	},
-	["170414"] = {
-		["hash"] = "170414",
-		["type"] = "endurance",
-		["name"] = "Dragons of Nightmare",
-		["id"] = 1704,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 5,
+			["index"] = 7,
 			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Dragons of Nightmare",
+			["encounter"] = "Xavius",
 			["mapid"] = 1520,
 			["try_number"] = 1,
-			["name"] = "Dragons of Nightmare",
+			["name"] = "Xavius",
 			["diff"] = 14,
-			["id"] = 1854,
+			["id"] = 1864,
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+	},
+	["186114"] = {
+		["hash"] = "186114",
+		["type"] = "endurance",
+		["name"] = "Mistress Sassz'ine",
+		["id"] = 1861,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Mistress Sassz'ine",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Mistress Sassz'ine",
+			["diff"] = 14,
+			["ej_instance_id"] = 875,
+			["id"] = 2037,
+			["killed"] = true,
+		},
 		["player_db"] = {
-			["Roméo-Lightbringer"] = {
+			["Rashmi-Drenden"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Judobrew-Sargeras"] = {
+			["Gustmon-Darkspear"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Clucked-Mannoroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Delapidin-Khaz'goroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Wittful-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
-			},
-			["Alba-Nazjatar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
-			["Rebellión-Sargeras"] = {
+			["Kleno-Lothar"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+			},
+			["Ruuxe-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Stamkiller-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
 			},
 			["Praerend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARRIOR",
-			},
-			["Nuneat-Kilrogg"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
-			["Schrödînger-Sargeras"] = {
+			["Allagguna-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
 			},
-			["Popsicless-Kilrogg"] = {
+			["Deathstro-Dawnbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Yenlous-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Tieretre-Baelgun"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "WARLOCK",
-			},
-			["Arthonis-DarkIron"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
+			},
+			["Algreth-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Xaxruner-Alexstrasza"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Advill-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Hunterdemons-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Jaylash-Aggramar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Hammydar-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Kreznik-Medivh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Redlyn-Wildhammer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Paladinae-Shadowsong"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
 			},
 		},
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -5032,17 +5032,17 @@ DeathGraphsDBCurrent = {
 DeathGraphsDBGraph = {
 	["189714"] = {
 		["deaths"] = {
-			[364] = {
+			[102] = {
 				1510995056, -- [1]
 			},
 			[233] = {
 				1510995056, -- [1]
 				1510995056, -- [2]
 			},
-			[102] = {
+			[84] = {
 				1510995056, -- [1]
 			},
-			[84] = {
+			[364] = {
 				1510995056, -- [1]
 			},
 		},
@@ -5865,6 +5865,126 @@ DeathGraphsDBGraph = {
 					1510993413, -- [2]
 				}, -- [32]
 			},
+			["Deathly Screech"] = {
+				{
+					95, -- [1]
+					1510993413, -- [2]
+				}, -- [1]
+			},
+			["Twilight Volley"] = {
+				{
+					19, -- [1]
+					1510993413, -- [2]
+				}, -- [1]
+				{
+					40, -- [1]
+					1510993413, -- [2]
+				}, -- [2]
+				{
+					72, -- [1]
+					1510993413, -- [2]
+				}, -- [3]
+				{
+					87, -- [1]
+					1510993413, -- [2]
+				}, -- [4]
+				{
+					103, -- [1]
+					1510993413, -- [2]
+				}, -- [5]
+				{
+					124, -- [1]
+					1510993413, -- [2]
+				}, -- [6]
+				{
+					179, -- [1]
+					1510993413, -- [2]
+				}, -- [7]
+				{
+					199, -- [1]
+					1510993413, -- [2]
+				}, -- [8]
+				{
+					233, -- [1]
+					1510993413, -- [2]
+				}, -- [9]
+			},
+			["Embrace of the Eclipse"] = {
+				{
+					103, -- [1]
+					1510993413, -- [2]
+				}, -- [1]
+			},
+			["Moon Burn"] = {
+				{
+					9, -- [1]
+					1510993413, -- [2]
+				}, -- [1]
+				{
+					33, -- [1]
+					1510993413, -- [2]
+				}, -- [2]
+				{
+					59, -- [1]
+					1510993413, -- [2]
+				}, -- [3]
+				{
+					85, -- [1]
+					1510993413, -- [2]
+				}, -- [4]
+				{
+					114, -- [1]
+					1510993413, -- [2]
+				}, -- [5]
+				{
+					138, -- [1]
+					1510993413, -- [2]
+				}, -- [6]
+				{
+					155, -- [1]
+					1510993413, -- [2]
+				}, -- [7]
+				{
+					178, -- [1]
+					1510993413, -- [2]
+				}, -- [8]
+				{
+					195, -- [1]
+					1510993413, -- [2]
+				}, -- [9]
+				{
+					212, -- [1]
+					1510993413, -- [2]
+				}, -- [10]
+				{
+					233, -- [1]
+					1510993413, -- [2]
+				}, -- [11]
+			},
+			["Rapid Shot"] = {
+				{
+					74, -- [1]
+					1510993413, -- [2]
+				}, -- [1]
+				{
+					92, -- [1]
+					1510993413, -- [2]
+				}, -- [2]
+				{
+					112, -- [1]
+					1510993413, -- [2]
+				}, -- [3]
+				{
+					132, -- [1]
+					1510993413, -- [2]
+				}, -- [4]
+			},
+			["Call Moontalon"] = {
+				{
+					66, -- [1]
+					1510993413, -- [2]
+				}, -- [1]
+			},
 			["Shadow Shot"] = {
 				{
 					0, -- [1]
@@ -5991,183 +6111,39 @@ DeathGraphsDBGraph = {
 					1510993413, -- [2]
 				}, -- [31]
 			},
-			["Twilight Volley"] = {
+			["Lunar Fire"] = {
 				{
-					19, -- [1]
+					151, -- [1]
 					1510993413, -- [2]
 				}, -- [1]
 				{
-					40, -- [1]
+					173, -- [1]
 					1510993413, -- [2]
 				}, -- [2]
 				{
-					72, -- [1]
+					186, -- [1]
 					1510993413, -- [2]
 				}, -- [3]
 				{
-					87, -- [1]
+					196, -- [1]
 					1510993413, -- [2]
 				}, -- [4]
 				{
-					103, -- [1]
+					208, -- [1]
 					1510993413, -- [2]
 				}, -- [5]
 				{
-					124, -- [1]
+					221, -- [1]
 					1510993413, -- [2]
 				}, -- [6]
 				{
-					179, -- [1]
+					229, -- [1]
 					1510993413, -- [2]
 				}, -- [7]
 				{
-					199, -- [1]
+					241, -- [1]
 					1510993413, -- [2]
 				}, -- [8]
-				{
-					233, -- [1]
-					1510993413, -- [2]
-				}, -- [9]
-			},
-			["Embrace of the Eclipse"] = {
-				{
-					103, -- [1]
-					1510993413, -- [2]
-				}, -- [1]
-			},
-			["Moon Burn"] = {
-				{
-					9, -- [1]
-					1510993413, -- [2]
-				}, -- [1]
-				{
-					33, -- [1]
-					1510993413, -- [2]
-				}, -- [2]
-				{
-					59, -- [1]
-					1510993413, -- [2]
-				}, -- [3]
-				{
-					85, -- [1]
-					1510993413, -- [2]
-				}, -- [4]
-				{
-					114, -- [1]
-					1510993413, -- [2]
-				}, -- [5]
-				{
-					138, -- [1]
-					1510993413, -- [2]
-				}, -- [6]
-				{
-					155, -- [1]
-					1510993413, -- [2]
-				}, -- [7]
-				{
-					178, -- [1]
-					1510993413, -- [2]
-				}, -- [8]
-				{
-					195, -- [1]
-					1510993413, -- [2]
-				}, -- [9]
-				{
-					212, -- [1]
-					1510993413, -- [2]
-				}, -- [10]
-				{
-					233, -- [1]
-					1510993413, -- [2]
-				}, -- [11]
-			},
-			["Rapid Shot"] = {
-				{
-					74, -- [1]
-					1510993413, -- [2]
-				}, -- [1]
-				{
-					92, -- [1]
-					1510993413, -- [2]
-				}, -- [2]
-				{
-					112, -- [1]
-					1510993413, -- [2]
-				}, -- [3]
-				{
-					132, -- [1]
-					1510993413, -- [2]
-				}, -- [4]
-			},
-			["Call Moontalon"] = {
-				{
-					66, -- [1]
-					1510993413, -- [2]
-				}, -- [1]
-			},
-			["Deathly Screech"] = {
-				{
-					95, -- [1]
-					1510993413, -- [2]
-				}, -- [1]
-			},
-			["Incorporeal Teleport"] = {
-				{
-					4, -- [1]
-					1510993413, -- [2]
-				}, -- [1]
-				{
-					13, -- [1]
-					1510993413, -- [2]
-				}, -- [2]
-				{
-					25, -- [1]
-					1510993413, -- [2]
-				}, -- [3]
-				{
-					34, -- [1]
-					1510993413, -- [2]
-				}, -- [4]
-				{
-					58, -- [1]
-					1510993413, -- [2]
-				}, -- [5]
-				{
-					72, -- [1]
-					1510993413, -- [2]
-				}, -- [6]
-				{
-					92, -- [1]
-					1510993413, -- [2]
-				}, -- [7]
-				{
-					128, -- [1]
-					1510993413, -- [2]
-				}, -- [8]
-				{
-					143, -- [1]
-					1510993413, -- [2]
-				}, -- [9]
-				{
-					149, -- [1]
-					1510993413, -- [2]
-				}, -- [10]
-				{
-					169, -- [1]
-					1510993413, -- [2]
-				}, -- [11]
-				{
-					190, -- [1]
-					1510993413, -- [2]
-				}, -- [12]
-				{
-					212, -- [1]
-					1510993413, -- [2]
-				}, -- [13]
-				{
-					235, -- [1]
-					1510993413, -- [2]
-				}, -- [14]
 			},
 			["Incorporeal Shot"] = {
 				{
@@ -6233,57 +6209,81 @@ DeathGraphsDBGraph = {
 					1510993413, -- [2]
 				}, -- [7]
 			},
-			["Lunar Fire"] = {
+			["Incorporeal Teleport"] = {
 				{
-					151, -- [1]
+					4, -- [1]
 					1510993413, -- [2]
 				}, -- [1]
 				{
-					173, -- [1]
+					13, -- [1]
 					1510993413, -- [2]
 				}, -- [2]
 				{
-					186, -- [1]
+					25, -- [1]
 					1510993413, -- [2]
 				}, -- [3]
 				{
-					196, -- [1]
+					34, -- [1]
 					1510993413, -- [2]
 				}, -- [4]
 				{
-					208, -- [1]
+					58, -- [1]
 					1510993413, -- [2]
 				}, -- [5]
 				{
-					221, -- [1]
+					72, -- [1]
 					1510993413, -- [2]
 				}, -- [6]
 				{
-					229, -- [1]
+					92, -- [1]
 					1510993413, -- [2]
 				}, -- [7]
 				{
-					241, -- [1]
+					128, -- [1]
 					1510993413, -- [2]
 				}, -- [8]
+				{
+					143, -- [1]
+					1510993413, -- [2]
+				}, -- [9]
+				{
+					149, -- [1]
+					1510993413, -- [2]
+				}, -- [10]
+				{
+					169, -- [1]
+					1510993413, -- [2]
+				}, -- [11]
+				{
+					190, -- [1]
+					1510993413, -- [2]
+				}, -- [12]
+				{
+					212, -- [1]
+					1510993413, -- [2]
+				}, -- [13]
+				{
+					235, -- [1]
+					1510993413, -- [2]
+				}, -- [14]
 			},
 		},
 		["ids"] = {
 			["Twilight Glaive"] = 236529,
 			["Lunar Strike"] = 237632,
-			["Shadow Shot"] = 237630,
+			["Deathly Screech"] = 236697,
 			["Twilight Volley"] = 236442,
 			["Embrace of the Eclipse"] = 233263,
 			["Moon Burn"] = 236518,
 			["Rapid Shot"] = 236596,
 			["Call Moontalon"] = 236694,
-			["Deathly Screech"] = 236697,
-			["Incorporeal Teleport"] = 236115,
+			["Shadow Shot"] = 237630,
+			["Lunar Fire"] = 239264,
 			["Incorporeal Shot"] = 236305,
 			["Moon Glaive"] = 236547,
 			["Lunar Beacon"] = 236712,
 			["Glaive Storm"] = 239386,
-			["Lunar Fire"] = 239264,
+			["Incorporeal Teleport"] = 236115,
 		},
 	},
 	["189614"] = {
