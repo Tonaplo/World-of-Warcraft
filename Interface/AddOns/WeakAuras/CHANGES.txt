@@ -1,66 +1,130 @@
-tag 84b07e83428e4c6b69bd340c447253844cac755f 2.5.4
+tag 198793609fa2dcb10f6547da4f255221aca26ca8 2.5.5
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Wed Jan 17 14:40:42 2018 +0100
+Date:	Mon Feb 5 14:32:59 2018 +0100
 
-commit cc30a624fa93f65a7a7c54d38f0356abe32d893f
+commit c11260f359964785aafb777bc8f61c3b2fb53ece
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Thu Jan 11 19:23:15 2018 +0100
+Date:   Sun Feb 4 20:38:58 2018 +0100
 
-    fix for last
+    branch out to LBR for allied race translations and add zandalri and dark iron dwarves
 
-commit 073b048ddef9246eb19b1ad72f01d1586ff194df
+commit b62f70cd15e62c8bdeb05da4547be1ce768f9e69
+Author: Infus <infus@squorn.de>
+Date:   Sun Feb 4 17:44:53 2018 +0100
+
+    Fix Mover Frame not being around dynamic groups
+    
+    By:
+    - Revert "Tentative fix for jumping auras while moving"
+      This reverts commit 93d123f707a991642716b0021bf5f5fe7645bdee.
+    
+    - Making ReAnchor only resize the mover frame, as it is only called
+      from DynamicGroups DoResize method. Hopefully that's enough.
+    
+    Github-Issue: 326
+
+commit 78b6794c9cfd59b481f3135b82614969de703ed8
+Author: Infus <infus@squorn.de>
+Date:   Sun Feb 4 15:10:08 2018 +0100
+
+    Fix Big Wigs Pull Timer not vanishing for /pull 0
+    
+    Ticket-Nr: 1086
+
+commit 99302d81eb3e8848675300a5371fd847ccf5ba64
+Author: Infus <infus@squorn.de>
+Date:   Sun Feb 4 14:50:07 2018 +0100
+
+    Add Allied Races to Race load condition
+    
+    For now without translations. We are waiting for LibBabble-Race to be
+    updated.
+    
+    Ticket-Nr: 1085
+
+commit d303b7536a4a1a4cc31dc3ca5b75a8672180ccd3
+Author: Infus <infus@squorn.de>
+Date:   Sat Jan 27 20:25:27 2018 +0100
+
+    Remove autoHiding from triggers without a explicit duration
+    
+    That doesn't make any sense, the case where we want to autoHide
+    is when we have only a duration, which is handled above.
+
+commit e64231817558b7ffbdb58500a467448ef1ff7d40
+Author: Infus <infus@squorn.de>
+Date:   Sat Jan 27 19:55:58 2018 +0100
+
+    Try harder to find a icon for inversed buff triggers
+    
+    By using falling back to a icon for the buff name, even if
+    IsSpellKnown returns false
+    
+    Ticket-Nr: 1077
+
+commit fec192ab67f13ce8b8fbebcb6f6b83938bc0c35c
+Author: Infus <infus@squorn.de>
+Date:   Sat Jan 27 19:34:03 2018 +0100
+
+    Fix Overlay Infos not leading to aura updates
+    
+    Ticket-Nr: 1080
+
+commit 2eac2268778829b7fa535c8cb1e1db6279aab829
+Author: Infus <infus@squorn.de>
+Date:   Sat Jan 27 19:27:06 2018 +0100
+
+    Use GetItemInfoInstant to get the icon
+    
+    As pointed out on discord.
+
+commit 920a5d3b9800bbf2af27dc3fcdf9a35810f9af23
+Author: Infus <infus@squorn.de>
+Date:   Sat Jan 27 19:21:38 2018 +0100
+
+    Fix template for Ancestral Guidance
+    
+    Ticket-Nr: 1084
+
+commit ac0c6b5c5369e66368dbcebdc89256c335751aa7
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Mon Jan 8 21:32:52 2018 +0100
+Date:   Thu Jan 25 14:26:10 2018 +0100
 
-    add the version string to the options window title
+    doc updates
 
-commit 0abbecf9b42e94cd96c0c115f72de8f1939b6af3
+commit 73371743cecfff0f9adc03009c74e3416ec51afc
+Author: asakawa-k <alfiegorrell@gmail.com>
+Date:   Thu Jan 25 12:48:52 2018 +0000
+
+    adding region table into aura_env
+
+commit 7af407bbdb59cf78ebbe1199eb266812dd9a3e62
 Author: Infus <infus@squorn.de>
-Date:   Sun Jan 7 19:06:42 2018 +0100
+Date:   Tue Jan 23 21:10:37 2018 +0100
 
-    Icon: Add a "Keep aspect ration" option
-    
-    Which crops the icon if the icon is not square
-    
-    Ticket-Nr: 861
+    Watch for GET_ITEM_INFO_RECEIVED if GetItemInfo returns nil for a icon
 
-commit beddccb47f362e1945878fc2fe3778e3053297e3
+commit 26301b28c8292273217efe27dd14d320de8aed85
 Author: Infus <infus@squorn.de>
-Date:   Sun Jan 7 18:57:12 2018 +0100
+Date:   Tue Jan 23 09:07:20 2018 +0100
 
-    Fix changing only trigger combination mode does not work
+    Update Templates for a some missing ones
     
-    Ticket-Nr: 1073
+    Data provided by Nightwarden_24
+    
+    Ticket-Nr: 1082
 
-commit 671472bbe0797f2cad20e1a1a07832e8f0fae85f
+commit a5a7f924463d812c820eea60b7b88d0b3f337a13
 Author: Infus <infus@squorn.de>
-Date:   Sun Jan 7 16:54:02 2018 +0100
+Date:   Sat Jan 20 23:08:57 2018 +0100
 
-    Fix regression in group tracking auras if a person leaves the group
+    Antorus Update for Templates
     
-    In f0246da4387e9a438775609cd06cd3b232a51b4f the group tracking was
-    change to be use id/triggernum as a key to various internal data
-    structures instead of just the id.
-    
-    Add the additional triggernum parameter to one function call where
-    it was missing.
-    
-    Ticket-Nr: 1075
+    Ticket-Nr: 1082
 
-commit 4d649d98ab811b6a8529ef3a39acca84b756cfd1
-Author: Infus <infus@squorn.de>
-Date:   Sun Jan 7 14:25:47 2018 +0100
+commit bd4242caa8d6e2de735403e79656dffbb86ad215
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Thu Jan 18 13:34:46 2018 +0100
 
-    Fix check in checkConditions for aura visibility
-    
-    In this issue, a condition is on the remaining time of a cooldown.
-    If the aura is shown before the remaining time is up, we schedule
-    a conditionCheck for the future.
-    
-    That code needs to then check if the aura is still visible before
-    running the conditions. Previously the code checked
-    region.state.show, but that's the state of one of the triggers and
-    not the overall visibility of the aura.
-    
-    Github-Issue: 332
+    localize `Keep Aspect Ratio`
 

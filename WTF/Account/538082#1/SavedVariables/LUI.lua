@@ -103,7 +103,7 @@ LUIDB = {
 							["Evisca"] = 303004,
 							["Rentror"] = 470,
 							["Zaliga"] = 7678001,
-							["Gorog"] = 945645,
+							["Gorog"] = 993959,
 						},
 					},
 				},
@@ -117,20 +117,20 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Morifa"] = 587658537,
+							["Morifa"] = 513584056,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 207830958,
+							["Miriyal"] = 254652133,
 							["Farahn"] = 16658306,
-							["Greybone"] = 5169389,
-							["Amranar"] = 578570423,
-							["Granjior"] = 527407216,
-							["Kaldorath"] = 370082461,
+							["Greybone"] = 8979682,
+							["Amranar"] = 590011065,
+							["Granjior"] = 550791164,
+							["Kaldorath"] = 316865179,
 							["Faerand"] = 196406994,
 							["Mallusof"] = 1162234125,
 							["Rahran"] = 273582302,
 							["Morifa"] = 560270717,
-							["Fimwack"] = 346135649,
+							["Fimwack"] = 376030026,
 							["Praerend"] = 535680460,
 						},
 					},
@@ -138,13 +138,13 @@ LUIDB = {
 				["Tichondrius"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Alura"] = 8339,
+							["Alura"] = 274555,
 							["Lorvol"] = 10000,
 						},
 						["Alliance"] = {
 							["Zethan"] = 10000,
 							["Korugen"] = 10000,
-							["Mallusof"] = 1000792401,
+							["Mallusof"] = 1029551961,
 						},
 					},
 				},
@@ -604,11 +604,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Width"] = 200,
-								["Texture"] = "oUF LUI",
 							},
 						},
 						["Border"] = {
@@ -857,143 +852,174 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/4 VELENS", -- [1]
-							"/4 VELENS IS THE BEST", -- [2]
-							"/4 NOM NOM", -- [3]
-							"/4 yeah", -- [4]
-							"/4 Every alt I heal on", -- [5]
-							"/4 that dont have velen", -- [6]
-							"/4 I'm sad", -- [7]
-							"/g what key?", -- [8]
-							"/g I can go", -- [9]
-							"/g heals", -- [10]
-							"/p going for flasks", -- [11]
-							"/p LOL", -- [12]
-							"/p I have my shield in me", -- [13]
-							"/p Tangled Web", -- [14]
-							"/p God I hate it", -- [15]
-							"/p k", -- [16]
-							"/p go", -- [17]
-							"/p thanks!", -- [18]
-							"/p Holy shit that was hard :P", -- [19]
-							"/p Havent done a +15 on this guy ever", -- [20]
-							"/p well", -- [21]
-							"/p Achievement spam", -- [22]
-							"/p NOM", -- [23]
-							"/p Need that neck?", -- [24]
-							"/p DDeath?", -- [25]
-							"/p gz then!", -- [26]
-							"/p :)", -- [27]
-							"/p cheers", -- [28]
-							"/p cya!", -- [29]
-							"/g I was 923 when I joined the raid", -- [30]
-							"/g now I'm 938 :P", -- [31]
-							"/g Next magetower will be a breeeeeeze, lol", -- [32]
+							"/i He left?", -- [1]
+							"/i nah, nvm", -- [2]
+							"/i you did", -- [3]
+							"/i gz", -- [4]
+							"/g Damn!", -- [5]
+							"/cw Caedo-Fenris ?", -- [6]
+							"/i use it", -- [7]
+							"/i Ok, so why was position bad?", -- [8]
+							"/i we could just stay where we were", -- [9]
+							"/i yes", -- [10]
+							"/i Text is hard to differentiate with that though", -- [11]
+							"/i nah, nvm", -- [12]
+							"/i gz", -- [13]
+							"/cw Caedo-Fenris ?", -- [14]
+							"/i Ok, so why was position bad?", -- [15]
+							"/i yes", -- [16]
+							"/i nah, nvm", -- [17]
+							"/cw Caedo-Fenris ?", -- [18]
+							"/i yes", -- [19]
+							"/cw Caedo-Fenris ?", -- [20]
+							"/i I love all the warlocks in this raid", -- [21]
+							"/i Anyone not need loot, I'd love some", -- [22]
+							"/cw Truckyeah-Drak'thul Need those?", -- [23]
+							"/cw Lolaa-Dalaran Lolaa, need that?", -- [24]
+							"/cw Galk-Sargeras nee taht?", -- [25]
+							"/cw Galk-Sargeras ?", -- [26]
+							"/cw Galk-Sargeras gz then! :)", -- [27]
+							"/i Yeah, that's the way it's done :)", -- [28]
+							"/i taunt", -- [29]
+							"/i to take care of bomb", -- [30]
+							"/i Anything someone doesnt need?", -- [31]
+							"/g hahahah", -- [32]
 						},
 						["Horde - Proudmoore"] = {
-							"/cw Helgate-Archimonde Need that cloack?", -- [1]
-							"/cw Ayo-Thrall Need?", -- [2]
-							"/g oh yeah", -- [3]
-							"/cw Helgate-Archimonde Need that cloack?", -- [4]
-							"/g oh yeah", -- [5]
-							"/cw Hangooky-Daggerspine Mallusof here", -- [6]
-							"/cw Hangooky-Daggerspine Did you leave Wisdom?", -- [7]
-							"/cw Adrys-Garrosh Need that neck?", -- [8]
-							"/i I'll CC the Greens", -- [9]
-							"/cw Ayo-Thrall Need?", -- [10]
-							"/cw Hangooky-Daggerspine Mallusof here", -- [11]
-							"/i I'll CC the Greens", -- [12]
-							"/cw Hangooky-Daggerspine Mallusof here", -- [13]
-							"/g oh yeah", -- [14]
-							"/cw Voel-WyrmrestAccord Need that ring?", -- [15]
-							"/cw Helgate-Archimonde Need that cloack?", -- [16]
-							"/cw Ayo-Thrall Need?", -- [17]
-							"/g oh yeah", -- [18]
-							"/cw Helgate-Archimonde Need that cloack?", -- [19]
-							"/g oh yeah", -- [20]
-							"/cw Hangooky-Daggerspine Mallusof here", -- [21]
-							"/cw Adrys-Garrosh Need that neck?", -- [22]
-							"/cw Ayo-Thrall Need?", -- [23]
-							"/i I'll CC the Greens", -- [24]
-							"/g oh yeah", -- [25]
-							"/cw Helgate-Archimonde Need that cloack?", -- [26]
-							"/g oh yeah", -- [27]
-							"/cw Hangooky-Daggerspine Mallusof here", -- [28]
-							"/cw Ayo-Thrall Need?", -- [29]
-							"/g oh yeah", -- [30]
-							"/cw Hangooky-Daggerspine Mallusof here", -- [31]
-							"/g oh yeah", -- [32]
+							"/i Could we have a countdown on Vari, instead of instantpull? :)", -- [1]
+							"/i I'll nova the adds to the left", -- [2]
+							"/i So we can run behind them", -- [3]
+							"/i Hex?", -- [4]
+							"/i spread", -- [5]
+							"/i lightning", -- [6]
+							"/i out of middle", -- [7]
+							"/i next", -- [8]
+							"/i west side will be ccd", -- [9]
+							"/i or there", -- [10]
+							"/i better there", -- [11]
+							"/i spread", -- [12]
+							"/cw Eretriä-BurningBlade Instead of saying people are shit and all kinds of offensive and frankly stupid things... Try with positivity first. It makes people dislike you less.", -- [13]
+							"/cw Eretriä-BurningBlade See", -- [14]
+							"/cw Eretriä-BurningBlade Stuff like that is why I muted you", -- [15]
+							"/cw Eretriä-BurningBlade have a better day", -- [16]
+							"/i I like this group", -- [17]
+							"/i Leear, need that?", -- [18]
+							" gz!", -- [19]
+							" Finally! :)", -- [20]
+							" How does it feel? :P", -- [21]
+							" oh", -- [22]
+							" and do WQs now", -- [23]
+							" they are A BREEZE :P", -- [24]
+							" hahaha", -- [25]
+							"/i hero on pull, or?", -- [26]
+							"/i He did tho", -- [27]
+							"/i same", -- [28]
+							"/cw Amiity-Zul'jin It's an upgrade for me, sorruy", -- [29]
+							"/cw Amiity-Zul'jin cheers !:)", -- [30]
+							"/cw Buzhidaone-Illidan Need that relic?", -- [31]
+							"/cw Buzhidaone-Illidan gz then! :)", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/g I hate this tier leggo shit", -- [1]
+							"/ROLL", -- [1]
 							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [2]
-							"/ROLL", -- [3]
-							"/g In like", -- [4]
-							"/ROLL", -- [5]
-							"/g I hate this tier leggo shit", -- [6]
-							"/ROLL", -- [7]
-							"/g I hate this tier leggo shit", -- [8]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [9]
-							"/g In like", -- [10]
-							"/g I hate this tier leggo shit", -- [11]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [12]
-							"/ROLL", -- [13]
-							"/g I hate this tier leggo shit", -- [14]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [15]
-							"/ROLL", -- [16]
-							"/g In like", -- [17]
-							"/ROLL", -- [18]
+							"/g In like", -- [3]
+							"/g I hate this tier leggo shit", -- [4]
+							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [5]
+							"/ROLL", -- [6]
+							"/g In like", -- [7]
+							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [8]
+							"/g In like", -- [9]
+							"/g I hate this tier leggo shit", -- [10]
+							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [11]
+							"/ROLL", -- [12]
+							"/g In like", -- [13]
+							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [14]
+							"/g In like", -- [15]
+							"/g I hate this tier leggo shit", -- [16]
+							"/ROLL", -- [17]
+							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [18]
 							"/g I hate this tier leggo shit", -- [19]
-							"/ROLL", -- [20]
-							"/g I hate this tier leggo shit", -- [21]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [22]
-							"/g I hate this tier leggo shit", -- [23]
-							"/ROLL", -- [24]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [25]
-							"/g In like", -- [26]
-							"/g I hate this tier leggo shit", -- [27]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [28]
-							"/ROLL", -- [29]
-							"/g In like", -- [30]
-							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [31]
-							"/g In like", -- [32]
+							"/g |cffa335ee|Hitem:152062::::::::110:257::6:3:3612:1502:3528:::|h[Greatcloak of the Dark Pantheon]|h|r", -- [20]
+							"/s thanks Rpm", -- [21]
+							"/raid 1", -- [22]
+							"/ROLL 50000", -- [23]
+							"/raid 1", -- [24]
+							"/roll 50000", -- [25]
+							"/raid BoA?", -- [26]
+							"/raid need a quick bio", -- [27]
+							"/4 Who are you talking to?", -- [28]
+							"/4 lawl", -- [29]
+							"/4 well", -- [30]
+							"/4 we tried", -- [31]
+							"/4 and then we all died too", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Did Ragefire with a bunch of level 19-20s", -- [1]
 							"/i ok", -- [2]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [3]
-							" Did Ragefire with a bunch of level 19-20s", -- [4]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [5]
-							"/i have a good one! :)", -- [6]
-							"/i got one from autopop up", -- [7]
-							"/i I cant give you my bruiseweed", -- [8]
-							" Did Ragefire with a bunch of level 19-20s", -- [9]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [10]
-							"/i ok", -- [11]
-							"/i have a good one! :)", -- [12]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [13]
-							"/i got one from autopop up", -- [14]
+							" Did Ragefire with a bunch of level 19-20s", -- [3]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [4]
+							" Did Ragefire with a bunch of level 19-20s", -- [5]
+							"/i ok", -- [6]
+							"/i have a good one! :)", -- [7]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [8]
+							"/i got one from autopop up", -- [9]
+							" Did Ragefire with a bunch of level 19-20s", -- [10]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [11]
+							" Did Ragefire with a bunch of level 19-20s", -- [12]
+							"/i ok", -- [13]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [14]
 							" Did Ragefire with a bunch of level 19-20s", -- [15]
 							"/i ok", -- [16]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [17]
-							" Did Ragefire with a bunch of level 19-20s", -- [18]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [19]
-							"/i have a good one! :)", -- [20]
-							"/i I cant give you my bruiseweed", -- [21]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [22]
-							"/i have a good one! :)", -- [23]
-							"/i got one from autopop up", -- [24]
-							"/i ok", -- [25]
-							" Did Ragefire with a bunch of level 19-20s", -- [26]
-							"/i have a good one! :)", -- [27]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [28]
-							"/i got one from autopop up", -- [29]
-							" Did Ragefire with a bunch of level 19-20s", -- [30]
-							" Also Prot Warrior deals a good amount of damage on AoE", -- [31]
-							" Did Ragefire with a bunch of level 19-20s", -- [32]
+							" Did Ragefire with a bunch of level 19-20s", -- [17]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [18]
+							"/i ok", -- [19]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [20]
+							" Did Ragefire with a bunch of level 19-20s", -- [21]
+							"/i ok", -- [22]
+							" Did Ragefire with a bunch of level 19-20s", -- [23]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [24]
+							" Did Ragefire with a bunch of level 19-20s", -- [25]
+							" Also Prot Warrior deals a good amount of damage on AoE", -- [26]
+							"/target Draaka", -- [27]
+							"/1 Yeah, that's gone now", -- [28]
+							"/1 Dungeons are still good", -- [29]
+							"/1 But you can stay in teh same zone to quest afterwards", -- [30]
+							"/1 Heirlooms, got nerfed, not the other way around. :)", -- [31]
+							"/1 Depends on level though. 30-60 slowed down alot", -- [32]
 						},
 						["Horde - Tichondrius"] = {
-							"/cw Duisternis Instant invite = Instant decline", -- [1]
+							" aight logging over", -- [1]
+							"/cw Duisternis Instant invite = Instant decline", -- [2]
+							" what?", -- [3]
+							" why", -- [4]
+							" but suiper bowl", -- [5]
+							" aight logging over", -- [6]
+							"/cw Duisternis Instant invite = Instant decline", -- [7]
+							" what?", -- [8]
+							" why", -- [9]
+							" but suiper bowl", -- [10]
+							" aight logging over", -- [11]
+							"/cw Duisternis Instant invite = Instant decline", -- [12]
+							" what?", -- [13]
+							" why", -- [14]
+							" but suiper bowl", -- [15]
+							" aight logging over", -- [16]
+							"/cw Duisternis Instant invite = Instant decline", -- [17]
+							" what?", -- [18]
+							" why", -- [19]
+							" but suiper bowl", -- [20]
+							" aight logging over", -- [21]
+							"/cw Duisternis Instant invite = Instant decline", -- [22]
+							" what?", -- [23]
+							" why", -- [24]
+							" but suiper bowl", -- [25]
+							" aight logging over", -- [26]
+							"/cw Duisternis Instant invite = Instant decline", -- [27]
+							" what?", -- [28]
+							" why", -- [29]
+							" aight logging over", -- [30]
+							" what?", -- [31]
+							" aight logging over", -- [32]
 						},
 					},
 				},
@@ -1098,15 +1124,12 @@ LUIDB = {
 					},
 				},
 				["Base"] = {
-					["Minimap"] = {
-						["IsShown"] = true,
-					},
 					["Chat"] = {
 						["AlwaysShow"] = true,
 						["IsShown"] = true,
 					},
-					["Tps"] = {
-						["Width"] = 600,
+					["Minimap"] = {
+						["IsShown"] = true,
 					},
 					["Raid"] = {
 						["Direction"] = "SOLID",
@@ -1115,6 +1138,9 @@ LUIDB = {
 						["Width"] = 370,
 						["Anchor"] = "CompactRaidFrameContainer",
 						["Height"] = 205,
+					},
+					["Tps"] = {
+						["Width"] = 600,
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1238,7 +1264,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1250,23 +1282,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1401,7 +1427,13 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.96, -- [1]
+						0.21, -- [2]
+						0.73, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
@@ -1413,23 +1445,17 @@ LUIDB = {
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.96, -- [1]
-						0.21, -- [2]
-						0.73, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.96, -- [1]
 						0.21, -- [2]
 						0.73, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.96, -- [1]
@@ -1564,7 +1590,13 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.04, -- [1]
+						0.39, -- [2]
+						0.98, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
@@ -1576,23 +1608,17 @@ LUIDB = {
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.04, -- [1]
-						0.39, -- [2]
-						0.98, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.04, -- [1]
 						0.39, -- [2]
 						0.98, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.04, -- [1]
@@ -1727,7 +1753,13 @@ LUIDB = {
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.57, -- [1]
+						0.22, -- [2]
+						1, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
@@ -1739,23 +1771,17 @@ LUIDB = {
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.57, -- [1]
-						0.22, -- [2]
-						1, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.57, -- [1]
 						0.22, -- [2]
 						1, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.57, -- [1]
@@ -1890,7 +1916,13 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
+					},
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -1902,23 +1934,17 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["orb_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.4, -- [4]
-					},
 					["sidebar"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
+					["raidborder"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
-						0.8, -- [4]
+						0.4, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -2053,19 +2079,19 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["micromenu_btn_hover"] = {
-						0.9, -- [1]
-						0.9, -- [2]
-						0.9, -- [3]
-						0.8, -- [4]
+					["raidborder"] = {
+						0.901960784313726, -- [1]
+						0.901960784313726, -- [2]
+						0.901960784313726, -- [3]
+						0.300000011920929, -- [4]
 					},
-					["orb_hover"] = {
+					["chat2"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["chat2"] = {
+					["orb_hover"] = {
 						0.9, -- [1]
 						0.9, -- [2]
 						0.9, -- [3]
@@ -2077,11 +2103,11 @@ LUIDB = {
 						0.9, -- [3]
 						0.4, -- [4]
 					},
-					["raidborder"] = {
-						0.901960784313726, -- [1]
-						0.901960784313726, -- [2]
-						0.901960784313726, -- [3]
-						0.300000011920929, -- [4]
+					["micromenu_btn_hover"] = {
+						0.9, -- [1]
+						0.9, -- [2]
+						0.9, -- [3]
+						0.8, -- [4]
 					},
 					["micromenu"] = {
 						0.9, -- [1]
@@ -2693,11 +2719,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 				},
 			},
 			["Lorvol - Tichondrius"] = {
@@ -2766,6 +2792,21 @@ LUIDB = {
 					["mirrorbar"] = 1,
 				},
 			},
+			["Evisca - Bleeding Hollow"] = {
+				["IsConfigured"] = true,
+				["Versions"] = {
+					["raidmenu"] = 2.4,
+					["swing"] = 2,
+					["RaidMenu"] = true,
+					["interrupt"] = 2,
+					["threatbar"] = 2,
+					["Auras"] = 2,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
+					["bars"] = 2.4,
+					["mirrorbar"] = 1,
+				},
+			},
 			["Rahran - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -2783,21 +2824,6 @@ LUIDB = {
 					["Auras"] = 2,
 				},
 			},
-			["Evisca - Bleeding Hollow"] = {
-				["IsConfigured"] = true,
-				["Versions"] = {
-					["raidmenu"] = 2.4,
-					["swing"] = 2,
-					["RaidMenu"] = true,
-					["interrupt"] = 2,
-					["threatbar"] = 2,
-					["Auras"] = 2,
-					["lui"] = 3403,
-					["Micromenu"] = 1.5,
-					["bars"] = 2.4,
-					["mirrorbar"] = 1,
-				},
-			},
 			["Mallusof - Proudmoore"] = {
 				["IsConfigured"] = true,
 				["Versions"] = {
@@ -2808,9 +2834,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2843,9 +2869,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["mirrorbar"] = 1,
-					["lui"] = 3403,
 					["Micromenu"] = 1.5,
+					["lui"] = 3403,
+					["mirrorbar"] = 1,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2879,9 +2905,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
@@ -2964,11 +2990,11 @@ LUIDB = {
 					["bartender"] = 3300,
 					["Auras"] = 2,
 					["lui"] = 3403,
-					["mirrorbar"] = 1,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,
-					["Micromenu"] = 1.5,
+					["mirrorbar"] = 1,
 				},
 			},
 			["Zethan - Tichondrius"] = {
@@ -3011,9 +3037,9 @@ LUIDB = {
 					["interrupt"] = 2,
 					["panels"] = 1.2,
 					["bartender"] = 3300,
-					["Micromenu"] = 1.5,
-					["lui"] = 3403,
 					["mirrorbar"] = 1,
+					["lui"] = 3403,
+					["Micromenu"] = 1.5,
 					["threatbar"] = 2,
 					["bars"] = 2.4,
 					["omen"] = 3300,

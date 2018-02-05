@@ -186,7 +186,13 @@ WeakAuras.race_types = {
   Orc = LBR["Orc"],
   Tauren = LBR["Tauren"],
   Troll = LBR["Troll"],
-  Scourge = LBR["Undead"]
+  Scourge = LBR["Undead"],
+  LightforgedDraenei = LBR["Lightforged Draenei"],
+  VoidElf = LBR["Void Elf"],
+  HighmountainTauren = LBR["Highmountain Tauren"],
+  Nightborne = LBR["Nightborne"],
+  DarkIronDwarf = LBR["Dark Iron Dwarf"],
+  ZandalariTroll = LBR["Zandalari Troll"]
 }
 
 WeakAuras.faction_group = {

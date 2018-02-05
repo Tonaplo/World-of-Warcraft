@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 			["Massock-Area52"] = {
@@ -2012,34 +2006,46 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Morifa"] = {
+			["Lettuce-Magtheridon"] = {
 				{
-					["time"] = 141.852,
+					["time"] = 165.832,
 					["events"] = {
 						{
 							true, -- [1]
-							1, -- [2]
-							3003691, -- [3]
-							1517130076.871, -- [4]
-							4620798, -- [5]
-							"Noura, Mother of Flames", -- [6]
+							258018, -- [2]
+							60791, -- [3]
+							1517130099.99, -- [4]
+							4456983, -- [5]
+							"Diima, Mother of Gloom", -- [6]
 							nil, -- [7]
-							1, -- [8]
+							32, -- [8]
 							false, -- [9]
 							-1, -- [10]
 						}, -- [1]
 						{
 							true, -- [1]
 							1, -- [2]
-							5348790, -- [3]
-							1517130078.882, -- [4]
-							1617107, -- [5]
+							2351198, -- [3]
+							1517130101.99, -- [4]
+							6004221, -- [5]
 							"Noura, Mother of Flames", -- [6]
 							nil, -- [7]
 							1, -- [8]
 							false, -- [9]
-							3731683, -- [10]
+							-1, -- [10]
 						}, -- [2]
+						{
+							true, -- [1]
+							244899, -- [2]
+							4772027, -- [3]
+							1517130102.89, -- [4]
+							1, -- [5]
+							"Noura, Mother of Flames", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							false, -- [9]
+							904143, -- [10]
+						}, -- [3]
 					},
 				}, -- [1]
 			},
@@ -2172,46 +2178,34 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Lettuce-Magtheridon"] = {
+			["Morifa"] = {
 				{
-					["time"] = 165.832,
+					["time"] = 141.852,
 					["events"] = {
 						{
 							true, -- [1]
-							258018, -- [2]
-							60791, -- [3]
-							1517130099.99, -- [4]
-							4456983, -- [5]
-							"Diima, Mother of Gloom", -- [6]
+							1, -- [2]
+							3003691, -- [3]
+							1517130076.871, -- [4]
+							4620798, -- [5]
+							"Noura, Mother of Flames", -- [6]
 							nil, -- [7]
-							32, -- [8]
+							1, -- [8]
 							false, -- [9]
 							-1, -- [10]
 						}, -- [1]
 						{
 							true, -- [1]
 							1, -- [2]
-							2351198, -- [3]
-							1517130101.99, -- [4]
-							6004221, -- [5]
+							5348790, -- [3]
+							1517130078.882, -- [4]
+							1617107, -- [5]
 							"Noura, Mother of Flames", -- [6]
 							nil, -- [7]
 							1, -- [8]
 							false, -- [9]
-							-1, -- [10]
+							3731683, -- [10]
 						}, -- [2]
-						{
-							true, -- [1]
-							244899, -- [2]
-							4772027, -- [3]
-							1517130102.89, -- [4]
-							1, -- [5]
-							"Noura, Mother of Flames", -- [6]
-							nil, -- [7]
-							4, -- [8]
-							false, -- [9]
-							904143, -- [10]
-						}, -- [3]
 					},
 				}, -- [1]
 			},
@@ -2387,6 +2381,32 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "01:30:31",
+			["date_start"] = "01:24:58",
+			["name"] = "Aggramar",
+			["total_time"] = 332.817,
+		}, -- [1]
+		{
+			["date_end"] = "01:21:21",
+			["date_start"] = "01:14:19",
+			["name"] = "The Coven of Shivarra",
+			["total_time"] = 422.127,
+		}, -- [2]
+		{
+			["date_end"] = "01:10:39",
+			["date_start"] = "01:05:08",
+			["name"] = "The Coven of Shivarra",
+			["total_time"] = 330.864000000001,
+		}, -- [3]
+		{
+			["date_end"] = "01:02:33",
+			["date_start"] = "00:58:57",
+			["name"] = "The Coven of Shivarra",
+			["total_time"] = 202.138,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -3024,18 +3044,12 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Kallandor-Saurfang"] = {
-				[244899] = {
-					10.2089999999998, -- [1]
-					73.0689999999995, -- [2]
-					86.9110000000001, -- [3]
-					102.061, -- [4]
-					108.848, -- [5]
-					138.847, -- [6]
-					153.878, -- [7]
-					205.754, -- [8]
-					389.782999999999, -- [9]
-					422.127, -- [10]
-					["source"] = "Noura, Mother of Flames",
+				[245921] = {
+					378.535, -- [1]
+					378.798, -- [2]
+					378.798, -- [3]
+					379.52, -- [4]
+					["source"] = "[*] Spectral Army of Norgannon",
 					["active"] = false,
 				},
 				[253753] = {
@@ -3052,12 +3066,18 @@ DetailsTimeLineDB = {
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[245921] = {
-					378.535, -- [1]
-					378.798, -- [2]
-					378.798, -- [3]
-					379.52, -- [4]
-					["source"] = "[*] Spectral Army of Norgannon",
+				[244899] = {
+					10.2089999999998, -- [1]
+					73.0689999999995, -- [2]
+					86.9110000000001, -- [3]
+					102.061, -- [4]
+					108.848, -- [5]
+					138.847, -- [6]
+					153.878, -- [7]
+					205.754, -- [8]
+					389.782999999999, -- [9]
+					422.127, -- [10]
+					["source"] = "Noura, Mother of Flames",
 					["active"] = false,
 				},
 				[258018] = {
@@ -3074,6 +3094,18 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
+				[260806] = {
+					92.5659999999998, -- [1]
+					102.061, -- [2]
+					["source"] = "[*] Fury of Golganneth",
+					["active"] = false,
+				},
+				[250097] = {
+					185.022999999999, -- [1]
+					238.044, -- [2]
+					["source"] = "Torment of Aman'Thul",
+					["active"] = false,
+				},
 				[245518] = {
 					198.324, -- [1]
 					218.351, -- [2]
@@ -3086,18 +3118,6 @@ DetailsTimeLineDB = {
 					406.353999999999, -- [9]
 					422.127, -- [10]
 					["source"] = "Diima, Mother of Gloom",
-					["active"] = false,
-				},
-				[250097] = {
-					185.022999999999, -- [1]
-					238.044, -- [2]
-					["source"] = "Torment of Aman'Thul",
-					["active"] = false,
-				},
-				[260806] = {
-					92.5659999999998, -- [1]
-					102.061, -- [2]
-					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
 			},
@@ -3216,14 +3236,12 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Deepslam-Magtheridon"] = {
-				[244899] = {
-					54.031, -- [1]
-					102.384999999999, -- [2]
-					119.802, -- [3]
-					171.69, -- [4]
-					186.714999999999, -- [5]
-					216.704, -- [6]
-					["source"] = "Noura, Mother of Flames",
+				[245921] = {
+					378.695, -- [1]
+					378.798, -- [2]
+					378.798, -- [3]
+					379.557, -- [4]
+					["source"] = "[*] Spectral Army of Norgannon",
 					["active"] = false,
 				},
 				[253753] = {
@@ -3238,12 +3256,14 @@ DetailsTimeLineDB = {
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[245921] = {
-					378.695, -- [1]
-					378.798, -- [2]
-					378.798, -- [3]
-					379.557, -- [4]
-					["source"] = "[*] Spectral Army of Norgannon",
+				[244899] = {
+					54.031, -- [1]
+					102.384999999999, -- [2]
+					119.802, -- [3]
+					171.69, -- [4]
+					186.714999999999, -- [5]
+					216.704, -- [6]
+					["source"] = "Noura, Mother of Flames",
 					["active"] = false,
 				},
 				[258018] = {
@@ -3260,14 +3280,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
-				[245518] = {
-					209.315, -- [1]
-					251.236, -- [2]
-					253.049, -- [3]
-					294.95, -- [4]
-					307.781, -- [5]
-					349.664, -- [6]
-					["source"] = "Diima, Mother of Gloom",
+				[260806] = {
+					92.5659999999998, -- [1]
+					102.384999999999, -- [2]
+					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
 				[250097] = {
@@ -3276,10 +3292,14 @@ DetailsTimeLineDB = {
 					["source"] = "Torment of Aman'Thul",
 					["active"] = false,
 				},
-				[260806] = {
-					92.5659999999998, -- [1]
-					102.384999999999, -- [2]
-					["source"] = "[*] Fury of Golganneth",
+				[245518] = {
+					209.315, -- [1]
+					251.236, -- [2]
+					253.049, -- [3]
+					294.95, -- [4]
+					307.781, -- [5]
+					349.664, -- [6]
+					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
 			},
@@ -4584,15 +4604,15 @@ DetailsTimeLineDB = {
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[260806] = {
-					284.747, -- [1]
+				[245518] = {
+					288.368, -- [1]
 					288.368, -- [2]
-					["source"] = "[*] Fury of Golganneth",
+					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[258018] = {
-					2.57200000000012, -- [1]
-					288.368, -- [2]
+				[245586] = {
+					250.517000000001, -- [1]
+					260.525000000001, -- [2]
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
@@ -4602,10 +4622,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
-				[245518] = {
-					288.368, -- [1]
+				[260806] = {
+					284.747, -- [1]
 					288.368, -- [2]
-					["source"] = "Diima, Mother of Gloom",
+					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
 				[250097] = {
@@ -4614,9 +4634,9 @@ DetailsTimeLineDB = {
 					["source"] = "Unknown",
 					["active"] = false,
 				},
-				[245586] = {
-					250.517000000001, -- [1]
-					260.525000000001, -- [2]
+				[258018] = {
+					2.57200000000012, -- [1]
+					288.368, -- [2]
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
@@ -4690,17 +4710,15 @@ DetailsTimeLineDB = {
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[260806] = {
-					284.747, -- [1]
+				[245518] = {
+					299.294000000001, -- [1]
 					299.294000000001, -- [2]
-					["source"] = "[*] Fury of Golganneth",
+					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[258018] = {
-					2.57200000000012, -- [1]
-					246.503000000001, -- [2]
-					287.981000000001, -- [3]
-					299.294000000001, -- [4]
+				[245586] = {
+					275.994000000001, -- [1]
+					283.907, -- [2]
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
@@ -4710,10 +4728,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
-				[245518] = {
-					299.294000000001, -- [1]
+				[260806] = {
+					284.747, -- [1]
 					299.294000000001, -- [2]
-					["source"] = "Diima, Mother of Gloom",
+					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
 				[250097] = {
@@ -4722,9 +4740,11 @@ DetailsTimeLineDB = {
 					["source"] = "Unknown",
 					["active"] = false,
 				},
-				[245586] = {
-					275.994000000001, -- [1]
-					283.907, -- [2]
+				[258018] = {
+					2.57200000000012, -- [1]
+					246.503000000001, -- [2]
+					287.981000000001, -- [3]
+					299.294000000001, -- [4]
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
@@ -4870,15 +4890,15 @@ DetailsTimeLineDB = {
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[260806] = {
-					284.747, -- [1]
+				[245518] = {
+					321.135, -- [1]
 					321.146000000001, -- [2]
-					["source"] = "[*] Fury of Golganneth",
+					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
-				[245586] = {
-					301.492, -- [1]
-					311.493, -- [2]
+				[258018] = {
+					2.57200000000012, -- [1]
+					321.146000000001, -- [2]
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
@@ -4888,10 +4908,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
-				[245518] = {
-					321.135, -- [1]
+				[260806] = {
+					284.747, -- [1]
 					321.146000000001, -- [2]
-					["source"] = "Diima, Mother of Gloom",
+					["source"] = "[*] Fury of Golganneth",
 					["active"] = false,
 				},
 				[250097] = {
@@ -4900,9 +4920,9 @@ DetailsTimeLineDB = {
 					["source"] = "Unknown",
 					["active"] = false,
 				},
-				[258018] = {
-					2.57200000000012, -- [1]
-					321.146000000001, -- [2]
+				[245586] = {
+					301.492, -- [1]
+					311.493, -- [2]
 					["source"] = "Diima, Mother of Gloom",
 					["active"] = false,
 				},
@@ -5740,7 +5760,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Melisândre-Terenas"] = {
@@ -5922,11 +5941,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [1]
 		{
-			["Velrana-Area52"] = {
+			["Worxo-Barthilas"] = {
 				{
-					227.996, -- [1]
-					"Velrana-Area52", -- [2]
-					45438, -- [3]
+					285.472, -- [1]
+					"Worxo-Barthilas", -- [2]
+					104773, -- [3]
 				}, -- [1]
 			},
 			["Puffaj-Korgath"] = {
@@ -5960,11 +5979,11 @@ DetailsTimeLineDB = {
 					48707, -- [3]
 				}, -- [1]
 			},
-			["Worxo-Barthilas"] = {
+			["Velrana-Area52"] = {
 				{
-					285.472, -- [1]
-					"Worxo-Barthilas", -- [2]
-					104773, -- [3]
+					227.996, -- [1]
+					"Velrana-Area52", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
 			["Mythot-AeriePeak"] = {
@@ -6007,11 +6026,11 @@ DetailsTimeLineDB = {
 					15286, -- [3]
 				}, -- [1]
 			},
-			["Lettuce-Magtheridon"] = {
+			["Orlee"] = {
 				{
-					222.109, -- [1]
+					94.732, -- [1]
 					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
+					740, -- [3]
 				}, -- [1]
 			},
 			["Darkshiel-Barthilas"] = {
@@ -6215,11 +6234,11 @@ DetailsTimeLineDB = {
 					116844, -- [3]
 				}, -- [3]
 			},
-			["Orlee"] = {
+			["Lettuce-Magtheridon"] = {
 				{
-					94.732, -- [1]
+					222.109, -- [1]
 					"[*] raid wide cooldown", -- [2]
-					740, -- [3]
+					97462, -- [3]
 				}, -- [1]
 			},
 		}, -- [2]
@@ -6231,11 +6250,11 @@ DetailsTimeLineDB = {
 					86659, -- [3]
 				}, -- [1]
 			},
-			["Velrana-Area52"] = {
+			["Worxo-Barthilas"] = {
 				{
-					252.415, -- [1]
-					"Velrana-Area52", -- [2]
-					45438, -- [3]
+					306.513, -- [1]
+					"Worxo-Barthilas", -- [2]
+					104773, -- [3]
 				}, -- [1]
 			},
 			["Skysnow-Dalaran"] = {
@@ -6245,11 +6264,11 @@ DetailsTimeLineDB = {
 					64843, -- [3]
 				}, -- [1]
 			},
-			["Worxo-Barthilas"] = {
+			["Velrana-Area52"] = {
 				{
-					306.513, -- [1]
-					"Worxo-Barthilas", -- [2]
-					104773, -- [3]
+					252.415, -- [1]
+					"Velrana-Area52", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
 			["Killerwatt-Ysera"] = {
@@ -6264,11 +6283,11 @@ DetailsTimeLineDB = {
 					108271, -- [3]
 				}, -- [2]
 			},
-			["Orlee"] = {
+			["Morifa"] = {
 				{
-					121.659000000001, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					740, -- [3]
+					246.503000000001, -- [1]
+					"Morifa", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
 			["Deepslam-Magtheridon"] = {
@@ -6442,11 +6461,11 @@ DetailsTimeLineDB = {
 					115310, -- [3]
 				}, -- [3]
 			},
-			["Morifa"] = {
+			["Orlee"] = {
 				{
-					246.503000000001, -- [1]
-					"Morifa", -- [2]
-					45438, -- [3]
+					121.659000000001, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
 				}, -- [1]
 			},
 		}, -- [3]
@@ -6458,11 +6477,11 @@ DetailsTimeLineDB = {
 					22842, -- [3]
 				}, -- [1]
 			},
-			["Morifa"] = {
+			["Orlee"] = {
 				{
-					134.8, -- [1]
-					"Morifa", -- [2]
-					45438, -- [3]
+					159.966, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
 				}, -- [1]
 			},
 			["Skysnow-Dalaran"] = {
@@ -6472,11 +6491,11 @@ DetailsTimeLineDB = {
 					64843, -- [3]
 				}, -- [1]
 			},
-			["Lettuce-Magtheridon"] = {
+			["Morifa"] = {
 				{
-					94.6840000000002, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
+					134.8, -- [1]
+					"Morifa", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
 			["Killerwatt-Ysera"] = {
@@ -6486,11 +6505,11 @@ DetailsTimeLineDB = {
 					108271, -- [3]
 				}, -- [1]
 			},
-			["Orlee"] = {
+			["Lettuce-Magtheridon"] = {
 				{
-					159.966, -- [1]
+					94.6840000000002, -- [1]
 					"[*] raid wide cooldown", -- [2]
-					740, -- [3]
+					97462, -- [3]
 				}, -- [1]
 			},
 			["Darkshiel-Barthilas"] = {
@@ -6533,30 +6552,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "01:30:31",
-			["date_start"] = "01:24:58",
-			["name"] = "Aggramar",
-			["total_time"] = 332.817,
-		}, -- [1]
-		{
-			["date_end"] = "01:21:21",
-			["date_start"] = "01:14:19",
-			["name"] = "The Coven of Shivarra",
-			["total_time"] = 422.127,
-		}, -- [2]
-		{
-			["date_end"] = "01:10:39",
-			["date_start"] = "01:05:08",
-			["name"] = "The Coven of Shivarra",
-			["total_time"] = 330.864000000001,
-		}, -- [3]
-		{
-			["date_end"] = "01:02:33",
-			["date_start"] = "00:58:57",
-			["name"] = "The Coven of Shivarra",
-			["total_time"] = 202.138,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

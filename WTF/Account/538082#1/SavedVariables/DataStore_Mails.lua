@@ -68,52 +68,20 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/02/02 12:30",
 			},
 			["Default.Bleeding Hollow.Gorog"] = {
-				["lastUpdate"] = 1511427640,
-				["Mails"] = {
-					{
-						["icon"] = 134327,
-						["sender"] = "The WoW Dev Team",
-						["subject"] = "WoW's 13th Anniversary!",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "Wow, yet another year has gone by for WoW!\r\n\r\nWe wanted to thank you for continuing to play World of Warcraft with us, so here's an Anniversary Gift to go with your adventures!\r\n\r\nThe WoW Dev Team",
-						["lastCheck"] = 1511427640,
-						["daysLeft"] = 29.9958572387695,
-					}, -- [1]
-					{
-						["sender"] = "Evisca",
-						["itemID"] = 818,
-						["link"] = "|cff1eff00|Hitem:818::::::::10:256::::::|h[Tigerseye]|h|r",
-						["count"] = 1,
-						["icon"] = 134118,
-						["lastCheck"] = 1516394106,
-						["daysLeft"] = 30,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2017/11/23 01:00",
+				["lastUpdate"] = 1517737147,
+				["lastVisitDate"] = "2018/02/04 01:39",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1516263257,
-				["lastVisitDate"] = "2018/01/18 00:14",
+				["lastUpdate"] = 1517657124,
+				["lastVisitDate"] = "2018/02/03 03:25",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1516262098,
 				["lastVisitDate"] = "2018/01/17 23:54",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1517295710,
-				["Mails"] = {
-					{
-						["sender"] = "Greybone",
-						["itemID"] = 153144,
-						["link"] = "|cff0070dd|Hitem:153144::::::::110:252::::::|h[Unsullied Cloth Slippers]|h|r",
-						["count"] = 1,
-						["icon"] = 422797,
-						["lastCheck"] = 1517470058,
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2018/01/29 23:01",
+				["lastUpdate"] = 1517705611,
+				["lastVisitDate"] = "2018/02/03 16:53",
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["lastUpdate"] = 1516394108,
@@ -124,8 +92,12 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/01/22 22:07",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1511749408,
-				["lastVisitDate"] = "2017/11/26 18:23",
+				["lastUpdate"] = 1517724439,
+				["lastVisitDate"] = "2018/02/03 22:07",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1516088276,
+				["lastVisitDate"] = "2018/01/15 23:37",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
@@ -143,17 +115,13 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1517641750,
 				["lastVisitDate"] = "2018/02/02 23:09",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
-			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1517625984,
 				["lastVisitDate"] = "2018/02/02 18:46",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1516088276,
-				["lastVisitDate"] = "2018/01/15 23:37",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 		},
 	},
