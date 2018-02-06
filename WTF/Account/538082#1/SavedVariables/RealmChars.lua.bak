@@ -180,7 +180,7 @@ RCDatabase = {
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 966.0625,
+				["itemLevelOverall"] = 967.625,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
 				["firstProf"] = "Tailoring",
@@ -198,14 +198,14 @@ RCDatabase = {
 			}, -- [2]
 			{
 				["secondProfLevel"] = 16,
-				["itemLevelEquipped"] = 25.6875,
+				["itemLevelEquipped"] = 31.4375,
 				["class"] = "PRIEST",
 				["secondProf"] = "Inscription",
 				["name"] = "Alura",
 				["firstProf"] = "Herbalism",
-				["level"] = 23,
-				["firstProfLevel"] = 20,
-				["itemLevelOverall"] = 25.6875,
+				["level"] = 28,
+				["firstProfLevel"] = 50,
+				["itemLevelOverall"] = 31.4375,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 0,

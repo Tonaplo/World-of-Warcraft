@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -39,20 +39,22 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-02-05|19:00|Raid Night!|1|2", -- [1]
-					"2018-02-08|19:00|Heroic Antorus|1|2", -- [2]
+					"2018-02-08|19:00|Heroic Antorus|1|2", -- [1]
+					"2018-02-11|19:00|Mythic Antorus|1|2", -- [2]
+					"2018-02-12|19:00|Raid Night!|1|2", -- [3]
+					"2018-02-15|19:00|Heroic Antorus|1|2", -- [4]
 				},
 				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Mythic|344636415"] = "118329|1517810870|0|1",
-					["Antorus, the Burning Throne Heroic|344636664"] = "118329|1517810870|0|1",
+					["Antorus, the Burning Throne Mythic|344636415"] = "36069|1517893127|0|1",
+					["Antorus, the Burning Throne Heroic|344636664"] = "36069|1517893127|0|1",
 				},
-				["lastUpdate"] = 1517810908,
+				["lastUpdate"] = 1517893229,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
 			},
 			["Default.Tichondrius.Alura"] = {
-				["lastUpdate"] = 1517813900,
+				["lastUpdate"] = 1517901788,
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,

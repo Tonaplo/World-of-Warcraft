@@ -11,14 +11,14 @@ DataStore_CurrenciesDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -168,11 +168,11 @@ DataStore_CurrenciesDB = {
 					421040, -- [3]
 					24838, -- [4]
 					50, -- [5]
-					69128, -- [6]
+					5128, -- [6]
 					5172, -- [7]
-					4337418, -- [8]
-					46167308, -- [9]
-					526, -- [10]
+					4385418, -- [8]
+					46154508, -- [9]
+					398, -- [10]
 					626982, -- [11]
 					11702, -- [12]
 					11978, -- [13]
@@ -221,17 +221,17 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1517810870,
+				["lastUpdate"] = 1517893127,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "360682-0-0-0",
+					[1220] = "360582-0-0-0",
 					[824] = "10000-0-0-10000",
-					[1273] = "4-0-0-6",
+					[1273] = "3-0-0-6",
 					[1191] = "25-0-0-5000",
 					[823] = "56794-0-0-0",
-					[1226] = "33886-0-0-0",
+					[1226] = "34261-0-0-0",
 					[994] = "0-0-0-20",
-					[1342] = "540-0-0-1000",
+					[1342] = "40-0-0-1000",
 				},
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
@@ -249,7 +249,7 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.Tichondrius.Alura"] = {
-				["lastUpdate"] = 1517799006,
+				["lastUpdate"] = 1517886172,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]

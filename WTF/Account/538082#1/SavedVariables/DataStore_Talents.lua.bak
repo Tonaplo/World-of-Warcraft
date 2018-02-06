@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -60,17 +60,17 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					13718, -- [1]
-					10103, -- [2]
+					9591, -- [2]
 					6554, -- [3]
 				},
-				["lastUpdate"] = 1517810870,
+				["lastUpdate"] = 1517893127,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["tier"] = 2,
 						["rank"] = 76,
-						["pointsRemaining"] = 318924019896,
+						["pointsRemaining"] = 332784022096,
 					},
 					["Underlight Angler"] = {
 						["pointsRemaining"] = 150,
@@ -90,7 +90,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Alura"] = {
-				["lastUpdate"] = 1517799221,
+				["lastUpdate"] = 1517886172,
 				["Specializations"] = {
 					2, -- [1]
 					[3] = 2,
@@ -451,14 +451,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",

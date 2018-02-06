@@ -168,9 +168,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
-					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
+					["caption"] = "Fishing",
 				}, -- [16]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
@@ -195,9 +195,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
-					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
+					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				{
 					["id"] = 229376,
@@ -495,8 +495,8 @@ OneRing_Config = {
 			},
 			["tAbilities"] = {
 				{
-					["id"] = 1706,
 					["sliceToken"] = "ABuep4BpwxR",
+					["id"] = 1706,
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4Bpwx7",

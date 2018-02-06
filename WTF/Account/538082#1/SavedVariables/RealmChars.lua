@@ -183,7 +183,7 @@ RCDatabase = {
 				["firstProf"] = "Tailoring",
 				["level"] = 110,
 				["firstProfLevel"] = 800,
-				["itemLevelOverall"] = 966.0625,
+				["itemLevelOverall"] = 967.625,
 			}, -- [1]
 			{
 				["secondProfLevel"] = 0,
@@ -197,14 +197,14 @@ RCDatabase = {
 				["itemLevelOverall"] = 12.5,
 			}, -- [2]
 			{
-				["secondProfLevel"] = 16,
-				["itemLevelEquipped"] = 30.75,
+				["secondProfLevel"] = 168,
+				["itemLevelEquipped"] = 36.1875,
 				["class"] = "PRIEST",
 				["secondProf"] = "Inscription",
 				["name"] = "Alura",
-				["itemLevelOverall"] = 30.75,
-				["level"] = 27,
-				["firstProfLevel"] = 33,
+				["itemLevelOverall"] = 36.1875,
+				["level"] = 33,
+				["firstProfLevel"] = 97,
 				["firstProf"] = "Herbalism",
 			}, -- [3]
 			{
