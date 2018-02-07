@@ -13,8 +13,8 @@ RCDatabase = {
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -53,14 +53,14 @@ RCDatabase = {
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 927.5,
 				["level"] = 110,
 				["firstProfLevel"] = 754,
-				["itemLevelOverall"] = 930,
+				["firstProf"] = "Alchemy",
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 928,
+				["itemLevelEquipped"] = 928.5,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
@@ -71,14 +71,14 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
-				["itemLevelEquipped"] = 933.1875,
+				["itemLevelEquipped"] = 933.6875,
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
 				["firstProf"] = "Mining",
 				["level"] = 110,
 				["firstProfLevel"] = 198,
-				["itemLevelOverall"] = 938.0625,
+				["itemLevelOverall"] = 943.6875,
 			}, -- [4]
 			{
 				["secondProfLevel"] = 704,
@@ -137,25 +137,25 @@ RCDatabase = {
 			}, -- [9]
 			{
 				["secondProfLevel"] = 733,
-				["itemLevelEquipped"] = 920.75,
+				["itemLevelEquipped"] = 922.625,
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["itemLevelOverall"] = 920.75,
+				["itemLevelOverall"] = 922.625,
 				["level"] = 110,
 				["firstProfLevel"] = 715,
 				["firstProf"] = "Blacksmithing",
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 922.0625,
+				["itemLevelEquipped"] = 924.25,
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
 				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 922.0625,
+				["itemLevelOverall"] = 924.25,
 			}, -- [11]
 			["characterStored"] = 11,
 		},

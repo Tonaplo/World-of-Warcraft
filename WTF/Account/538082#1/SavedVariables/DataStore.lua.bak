@@ -79,11 +79,11 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 				["guildName"] = "Risen",
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["faction"] = "Alliance",
-			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["guildName"] = "Risen",
+				["faction"] = "Alliance",
+			},
+			["Default.Tichondrius.Zethan"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Greybone"] = {

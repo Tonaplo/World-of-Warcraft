@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: -5
-Y: 144
-W: 297
-H: 133
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMLEFT

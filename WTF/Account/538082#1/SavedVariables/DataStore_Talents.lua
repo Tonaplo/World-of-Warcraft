@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12155, -- [3]
 				},
-				["lastUpdate"] = 1517649571,
+				["lastUpdate"] = 1517988491,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -164,7 +164,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 3242006770,
 					},
 					["Titanstrike"] = {
-						["pointsRemaining"] = 16054675315,
+						["pointsRemaining"] = 45097679715,
 						["rank"] = 68,
 						["tier"] = 2,
 					},
@@ -175,7 +175,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "HUNTER",
-				["lastUpdate"] = 1517641002,
+				["lastUpdate"] = 1517985459,
 				["Specializations"] = {
 					13719, -- [1]
 					15317, -- [2]
@@ -245,7 +245,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1517708139,
+				["lastUpdate"] = 1517987683,
 				["Specializations"] = {
 					14043, -- [1]
 					5718, -- [2]
@@ -336,12 +336,12 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Warswords of the Valarjar",
+				["EquippedArtifact"] = "Strom'kar, the Warbreaker",
 				["Artifacts"] = {
 					["Strom'kar, the Warbreaker"] = {
-						["rank"] = 52,
+						["rank"] = 64,
 						["tier"] = 2,
-						["pointsRemaining"] = 446414620,
+						["pointsRemaining"] = 15281424620,
 					},
 					["Scale of the Earth-Warder"] = {
 						["pointsRemaining"] = 27307145835,
@@ -355,9 +355,9 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1517623965,
+				["lastUpdate"] = 1517984475,
 				["Specializations"] = {
-					5533, -- [1]
+					10653, -- [1]
 					9813, -- [2]
 					10713, -- [3]
 				},
@@ -365,11 +365,11 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "The Fist of Ra-den",
+				["EquippedArtifact"] = "Doomhammer",
 				["Artifacts"] = {
 					["Doomhammer"] = {
-						["pointsRemaining"] = 4216578945,
-						["rank"] = 66,
+						["pointsRemaining"] = 18006085345,
+						["rank"] = 67,
 						["tier"] = 2,
 					},
 					["The Fist of Ra-den"] = {
@@ -384,7 +384,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1517648086,
+				["lastUpdate"] = 1517987881,
 				["Specializations"] = {
 					9561, -- [1]
 					9631, -- [2]

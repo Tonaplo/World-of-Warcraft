@@ -66,8 +66,8 @@ OneRing_Config = {
 			},
 			["SpecMenu"] = {
 				{
-					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -114,8 +114,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["id"] = "/cast {{spell:2018/51300}}",
 					["sliceToken"] = "OPCCTb",
+					["id"] = "/cast {{spell:2018/51300}}",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
@@ -130,16 +130,16 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
-					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
 					["sliceToken"] = "OPCCTc",
+					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
 				}, -- [7]
 				{
-					["sliceToken"] = "OPCCTi",
 					["id"] = "/cast [mod] {{spell:51005}}; {{spell:45357/45363}}",
+					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["id"] = "/cast {{spell:3273/45542}}",
 					["sliceToken"] = "OPCCTf",
+					["id"] = "/cast {{spell:3273/45542}}",
 				}, -- [9]
 				{
 					["id"] = "/cast {{spell:4036/51306}}",
@@ -150,12 +150,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
-					["id"] = 53428,
 					["sliceToken"] = "OPCCTu",
+					["id"] = 53428,
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -195,9 +195,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
+					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
-					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				{
 					["id"] = 229376,
@@ -208,8 +208,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4/4zZe",
 				}, -- [6]
 				{
-					["id"] = 229387,
 					["sliceToken"] = "ABueajwKJge",
+					["id"] = 229387,
 				}, -- [7]
 				{
 					["id"] = 231442,
@@ -495,12 +495,12 @@ OneRing_Config = {
 			},
 			["tAbilities"] = {
 				{
-					["sliceToken"] = "ABuep4BpwxR",
 					["id"] = 1706,
+					["sliceToken"] = "ABuep4BpwxR",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuep4Bpwx7",
 					["id"] = 2006,
+					["sliceToken"] = "ABuep4Bpwx7",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4BpwxE",

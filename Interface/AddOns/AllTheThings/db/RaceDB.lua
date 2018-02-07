@@ -21,6 +21,13 @@ a.RaceDB = {
 	["Pandaren"] = { -- NOTE: Faction Group dictates this.
 		["Neutral"] = 24,
 		["Alliance"] = 25, 
-		["Horde"] = 26, 
+		["Horde"] = 26,
+	["Nightborne"] = 27,
+	["Highmountain Tauren"] = 28,
+	["HighmountainTauren"] = 28,
+	["Void Elf"] = 29,
+	["VoidElf"] = 29,
+	["Lightforged Draenei"] = 30,
+	["LightforgedDraenei"] = 30,
 	}
 };

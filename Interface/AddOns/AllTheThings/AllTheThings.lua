@@ -42,6 +42,7 @@ local GetDifficultyInfo = _G["GetDifficultyInfo"];
 local GetFactionInfoByID = _G["GetFactionInfoByID"];
 local GetItemInfo = _G["GetItemInfo"];
 local GetItemInfoInstant = _G["GetItemInfoInstant"];
+local GetItemSpecInfo = _G["GetItemSpecInfo"];
 local GetTitleName = _G["GetTitleName"];
 local IsDressableItem = _G["IsDressableItem"];
 local IsQuestFlaggedCompleted = _G["IsQuestFlaggedCompleted"];
@@ -410,14 +411,13 @@ local function BuildSourceText(group, l, flag)
 			end
 		else
 			if flag and group.parent.mapID and group.parent.mapID == GetTempDataMember("MapID") then
-				return (group.text or "*");
+				return group.text or "*";
 			else
 				return BuildSourceText(group.parent, l + 1, flag) .. " -> " .. (group.text or "*");
 			end
 		end
-	else 
-		return group.text or "*";
 	end
+	return group.text or "*";
 end
 local function GetSourceID(itemLink)
     if IsDressableItem(itemLink) then
@@ -633,6 +633,7 @@ end
 -- Lua Constructor Lib
 local fieldCache, fieldCache_f, firldCache_g = {};
 fieldCache["creatureID"] = {};
+fieldCache["encounterID"] = {};
 fieldCache["objectID"] = {};
 fieldCache["itemID"] = {};
 fieldCache["mapID"] = {};
@@ -667,6 +668,7 @@ end
 local function CacheFields(group)
 	CacheFieldID(group, "creatureID");
 	CacheSubFieldID(group, "creatureID", "qg");
+	CacheFieldID(group, "encounterID");
 	CacheFieldID(group, "objectID");
 	CacheFieldID(group, "itemID");
 	CacheFieldID(group, "mapID");
@@ -690,6 +692,13 @@ local constructor = function(id, t, typeID)
 end
 local createInstance = function(template, prototype)
 	return CacheFields(setmetatable(template, prototype));
+end
+local containsAny = function(arr, otherArr)
+	for i, v in ipairs(arr) do
+		for j, w in ipairs(otherArr) do
+			if v == w then return true; end
+		end
+	end
 end
 
 -- Item Information Lib
@@ -1088,10 +1097,9 @@ local function SearchForSourceIDRecursively(group, sourceID)
 	end
 end
 local function SearchForSourceID(sourceID)
-	local group = app:GetDataCache();
-	if group and sourceID and sourceID > 0 then
-		if fieldCache["s"] then return fieldCache["s"][sourceID]; end
-		return SearchForSourceIDRecursively(group, sourceID);
+	if sourceID and sourceID > 0 then
+		local group = app:GetDataCache();
+		return group and fieldCache["s"][sourceID];
 	end
 end
 local function SearchForSourceIDRecursivelyQuickly(group, sourceID)
@@ -1108,10 +1116,18 @@ local function SearchForSourceIDRecursivelyQuickly(group, sourceID)
 	end
 end
 local function SearchForSourceIDQuickly(sourceID)
-	local group = app:GetDataCache();
-	if group and sourceID and sourceID > 0 then
-		if fieldCache["s"] then return fieldCache["s"][sourceID]; end
-		return SearchForSourceIDRecursivelyQuickly(group, sourceID);
+	if sourceID and sourceID > 0 then
+		local group = app:GetDataCache();
+		return group and fieldCache["s"][sourceID];
+	end
+end
+local function SearchForSourceIDVeryQuickly(sourceID)
+	if sourceID and sourceID > 0 then
+		local group = app:GetDataCache();
+		if group then
+			group = fieldCache["s"][sourceID];
+			if group and #group > 0 then return group[1]; end
+		end
 	end
 end
 local function SearchForItemLink(link)
@@ -1609,7 +1625,11 @@ local function RefreshSavesCoroutine()
 				for encounterIter=1,numEncounters do
 					local name, _, isKilled = GetSavedInstanceEncounterInfo(instanceIter, encounterIter);
 					table.insert(lock.encounters, { ["name"] = name, ["isKilled"] = isKilled });
-					if isKilled then shared.encounters[encounterIter].isKilled = true; end
+					if not shared.encounters[encounterIter] then
+						table.insert(shared.encounters, { ["name"] = name, ["isKilled"] = isKilled });
+					elseif isKilled then
+						shared.encounters[encounterIter].isKilled = true;
+					end
 				end
 			end
 		end
@@ -1778,7 +1798,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 						if s.total then
 							merged.total = merged.total + s.total;
 							merged.progress = merged.progress + s.progress;
-						elseif s.collectable then
+						elseif s.collectable and app.GroupFilter(s) then
 							merged.total = merged.total + 1;
 							if s.collected then
 								merged.progress = merged.progress + 1;
@@ -1808,7 +1828,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 												if first then first = nil; self:AddLine("Contains:"); end
 												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
 											end
-										else
+										elseif j.collectable or (j.trackable and app.RequireTrackableFilter(j)) then
 											if first then first = nil; self:AddLine("Contains:"); end
 											if j.dr then
 												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
@@ -2303,6 +2323,27 @@ app.CreateFaction = function(id, t)
 	return createInstance(constructor(id, t, "factionID"), app.BaseFaction);
 end
 
+-- Filter Lib
+app.BaseFilter = {
+	__index = function(t, key)
+		if key == "key" then
+			return "filterID";
+		elseif key == "text" then
+			return L("FILTER_ID_TYPES")[t.filterID];
+		elseif key == "icon" then
+			return L("FILTER_ID_ICONS")[t.filterID];
+		elseif key == "f" then
+			return t.filterID;
+		else
+			-- Something that isn't dynamic.
+			return table[key];
+		end
+	end
+};
+app.CreateFilter = function(id, t)
+	return createInstance(constructor(id, t, "filterID"), app.BaseFilter);
+end
+
 -- Follower Lib
 app.BaseFollower = {
 	__index = function(t, key)
@@ -2708,7 +2749,7 @@ app.BaseNPC = {
 		if key == "key" then
 			return "npcID";
 		elseif key == "text" then
-			if t["isRaid"] then return "|cffff8000" .. t.name .. "|r"; end
+			if t["isRaid"] and t.name then return "|cffff8000" .. t.name .. "|r"; end
 			return t.name;
 		elseif key == "name" then
 			if t.npcID > 0 then
@@ -3114,6 +3155,7 @@ function app.FilterItemClass(item)
 			and app.RaceRequirementFilter(item.races)
 			and app.UnobtainableItemFilter(item.u)
 		        and app.SeasonalFilter(item.u)
+			and app.PersonalLootFilter(item)
 			and app.RequiredSkillFilter(item.requiredSkill));
 end
 function app.FilterItemClass_RequireClasses(classes)
@@ -3127,6 +3169,16 @@ function app.FilterItemClass_RequireClasses(classes)
 end
 function app.FilterItemClass_RequireItemFilter(f)
 	if f and not GetPersonalDataSubMember("ItemFilters", f, true) then return false; end
+	return true;
+end
+function app.FilterItemClass_RequirePersonalLoot(item)
+	local specs = item.specs;
+	if specs then
+		for i, v in ipairs(specs) do
+			if v == app.Spec then return true; end
+		end
+		return false;
+	end
 	return true;
 end
 function app.FilterItemClass_RequireRaces(races)
@@ -3175,12 +3227,133 @@ function app.FilterItemSourceUnique(sourceInfo)
 		return true;
 	else
 		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
-		local categoryID = sourceInfo.categoryID;
-		if categoryID then
-			local invType = sourceInfo.invType;
-			for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-				local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-				if otherSource.isCollected and otherSource.categoryID == categoryID and otherSource.invType == invType then return true; end
+		local item = SearchForSourceIDVeryQuickly(sourceInfo.sourceID);
+		if item then
+			-- If the first item is class locked...
+			if item.classes then
+				if item.races then
+					-- If the first item is ALSO race locked...
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										if containsAny(otherItem.classes, item.classes) then
+											if otherItem.races then
+												-- If this item is ALSO race locked.
+												if containsAny(otherItem.races, item.races) then
+													-- Since the source item is locked to the same race and class, you unlock the source ID. Congrats, mate!
+													return true;
+												end
+											else
+												-- This item is not race locked.
+												-- Since the source item is race locked, but this item matches the class requirements and is not race locked, you unlock the source ID. Congrats, mate!
+												return true;
+											end
+										end
+									else
+										-- This item is not class locked.
+										-- Since this item is also not class or race locked, you unlock the source ID. Congrats, mate!
+										return true;
+									end
+								end
+							end
+						end
+					end
+				else
+					-- Not additionally race locked.
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										if containsAny(otherItem.classes, item.classes) then
+											if otherItem.races then
+												-- Since the item is race locked, you don't unlock this source ID despite matching the class. Sorry mate.
+											else
+												-- This item is not race locked.
+												-- Since this item is also not race locked, you unlock the source ID. Congrats, mate!
+												return true;
+											end
+										end
+									else
+										-- This item is not class locked.
+										if otherItem.races then
+											-- Since the item is race locked, you don't unlock this source ID despite matching the class. Sorry mate.
+										else
+											-- This item is not race locked.
+											-- Since this item is also not race locked, you unlock the source ID. Congrats, mate!
+											return true;
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			else
+				if item.races then
+					-- If the first item is race locked...
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										-- Since the item is class locked, you don't unlock this source ID despite matching the class. Sorry mate.
+									else
+										-- This item is not class locked.
+										if otherItem.races then
+											-- If this item is race locked.
+											if containsAny(otherItem.races, item.races) then
+												-- Since the source item is locked to the same race and class, you unlock the source ID. Congrats, mate!
+												return true;
+											end
+										else
+											-- This item is not race locked.
+											-- Since the source item is locked to the a race, but this item is not, you unlock the source ID. Congrats, mate!
+											return true;
+										end
+									end
+								end
+							end
+						end
+					end
+				else
+					-- Not race nor class locked.
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										-- Since the item is class locked, you don't unlock this source ID despite matching the class. Sorry mate.
+									else
+										-- This item is not class locked.
+										if otherItem.races then
+											-- If this item is race locked.
+											-- Since the item is race locked, you don't unlock this source ID despite matching the race. Sorry mate.
+										else
+											-- This item is not race locked.
+											-- The source item is not class nor race locked, you unlock this source ID! Congrats, mate!
+											return true;
+										end
+									end
+								end
+							end
+						end
+					end
+				end
 			end
 		end
 		return false;
@@ -3198,6 +3371,7 @@ app.ItemBindFilter = app.FilterItemBind;
 app.ItemSourceFilter = app.FilterItemSource;
 app.CollectedItemVisibilityFilter = app.NoFilter;
 app.MissingItemVisibilityFilter = app.NoFilter;
+app.PersonalLootFilter = app.NoFilter;
 app.ClassRequirementFilter = app.NoFilter;
 app.RaceRequirementFilter = app.NoFilter;
 app.RequireBindingFilter = app.NoFilter;
@@ -3394,7 +3568,7 @@ local function CreateSettingsMenu()
 		
 		-- This creates the completiionst Mode checkBox --
 		self.CompletionistMode = CreateFrame("CheckButton", name .. "-CompletionistMode", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.CompletionistMode, self, "|CFFADD8E6CompletionistMode|r", 25, -150, GetDataMember("CompletionistMode")); 
+		CreateCheckBox(self.CompletionistMode, self, "|CFFADD8E6Completionist Mode|r", 25, -150, GetDataMember("CompletionistMode")); 
 		self.CompletionistMode:SetScript("OnClick", function(self)
 			SetCompletionistMode(self:GetChecked(), true);
 		end);
@@ -3441,7 +3615,18 @@ local function CreateSettingsMenu()
 		self.AutoRefreshCollections:SetScript("OnClick", function(self)
 			SetDataMember("AutoRefreshCollections", self:GetChecked());
 		end);		
-			
+		
+		self.RequirePersonalLootFilter = CreateFrame("CheckButton", name .. "-RequirePersonalLootFilter", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.RequirePersonalLootFilter, self, "Only Show Personal Loot (VERY SLOW)", 300, -150, GetDataMember("RequirePersonalLootFilter"));
+		self.RequirePersonalLootFilter:SetScript("OnClick", function(self)
+			SetDataMember("RequirePersonalLootFilter", self:GetChecked());
+			if self:GetChecked() then
+				app.PersonalLootFilter = app.FilterItemClass_RequirePersonalLoot;
+			else
+				app.PersonalLootFilter = app.NoFilter;
+			end
+			app:RefreshData(false, true);
+		end);
 		
 		self.EnableTooltipInformation = CreateFrame("CheckButton", name .. "-EnableTooltipInformation", self, "InterfaceOptionsCheckButtonTemplate");
 		CreateCheckBox(self.EnableTooltipInformation, self, "Enable Tooltip Information", 15, -190, GetDataMember("EnableTooltipInformation"));
@@ -4037,7 +4222,7 @@ local function SetRowData(self, data)
 					end
 					m[data.itemModID or 1] = s;
 				end
-				SetDataMember("Items", SourceIDs); -- Uncomment for harvesting Source IDs
+				SetDataMember("Items", SourceIDs);
 			else
 				data.s = nil;
 			end
@@ -4302,7 +4487,7 @@ local function RowOnEnter(self)
 					GameTooltip:AddDoubleLine(self.Label:GetText(), GetProgressColorText(reference.progress, reference.total));
 				end
 				if reference.trackable then
-					GameTooltip:AddDoubleLine("Quest Progress", GetCollectionText(reference.saved));
+					GameTooltip:AddDoubleLine("Quest Progress", GetCompletionText(reference.saved));
 				end
 			else
 				if not reference.total or reference.total < 1 then
@@ -4852,7 +5037,7 @@ function app:GetDataCache()
 			db = app.CreateAchievement(2144, app.WorldEvents);
 			db.f = 0;
 			db.expanded = false;
-			db.text = WORLD .. " " .. EVENTS_LABEL; -- L("EVENTS");
+			db.text = EVENTS_LABEL; -- L("EVENTS");
 			table.insert(groups, db);
 			app.WorldEvents = nil;
 		end
@@ -4949,7 +5134,7 @@ function app:GetDataCache()
 			table.insert(groups, db);
 			app.NeverImplemented = nil;
 		end
-		]]--
+		--]]
 		
 		-- Illusions (Dynamic)
 		--[[
@@ -5004,6 +5189,7 @@ function app:GetDataCache()
 		]]--
 		
 		-- Unsorted
+		--[[
 		if app.Unsorted then
 			db = {};
 			db.groups = app.Unsorted;
@@ -5012,6 +5198,7 @@ function app:GetDataCache()
 			table.insert(groups, db);
 			app.Unsorted = nil;
 		end
+		]]--
 		
 		local missingData = {};
 		app.missingData = missingData;
@@ -5187,6 +5374,7 @@ app:RegisterEvent("SCENARIO_UPDATE");
 app:RegisterEvent("COMPANION_LEARNED");
 app:RegisterEvent("COMPANION_UNLEARNED");
 app:RegisterEvent("PET_JOURNAL_LIST_UPDATE");
+app:RegisterEvent("PLAYER_LOOT_SPEC_UPDATED");
 app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_ADDED");
 app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_REMOVED");
 
@@ -5320,6 +5508,11 @@ app.events.VARIABLES_LOADED = function()
 	else
 		app.RequireBindingFilter = app.NoFilter;
 	end
+	if GetDataMember("RequirePersonalLootFilter", false) then
+		app.PersonalLootFilter = app.FilterItemClass_RequirePersonalLoot;
+	else
+		app.PersonalLootFilter = app.NoFilter;
+	end
 	if GetDataMember("RequiredSkillFilter", false) then
 		app.RequiredSkillFilter = app.FilterItemClass_RequiredSkill;
 	else
@@ -5367,12 +5560,13 @@ app.events.VARIABLES_LOADED = function()
 	-- Create the Settings Menu and show version information
 	app.print(format(L("LOADING"), GetAddOnMetadata("AllTheThings", "Version")));
 	CreateSettingsMenu();
-	if GetDataMember("AutoRefreshSaves") then
-		app:RefreshData(false, true);
-	end
 end
 app.events.PLAYER_LOGIN = function()
 	app:UnregisterEvent("PLAYER_LOGIN");
+	app.Spec = GetLootSpecialization();
+	if GetDataMember("AutoRefreshSaves") then
+		app:RefreshData(false, true);
+	end
 	RefreshSaves();
 	RefreshLocation();
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject(app.DisplayName, {
@@ -5385,6 +5579,12 @@ app.events.PLAYER_LOGIN = function()
 end
 app.events.SCENARIO_UPDATE = RefreshLocation;
 app.events.ZONE_CHANGED_NEW_AREA = RefreshLocation;
+app.events.PLAYER_LOOT_SPEC_UPDATED = function()
+	app.Spec = GetLootSpecialization();
+	if GetDataMember("RequirePersonalLootFilter") then
+		app:RefreshData(false, true);
+	end
+end
 app.events.PLAYER_LEVEL_UP = function(newLevel)
 	app.Level = newLevel;
 	app:UpdateWindows();

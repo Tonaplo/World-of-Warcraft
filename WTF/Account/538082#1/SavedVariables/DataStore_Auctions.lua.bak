@@ -34,13 +34,13 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1517885503,
 				["lastVisitDate"] = "2018/02/05 18:51",
 			},
+			["Default.Tichondrius.Alura"] = {
+				["lastUpdate"] = 1517900144,
+				["lastVisitDate"] = "2018/02/05 22:55",
+			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1517724421,
 				["lastVisitDate"] = "2018/02/03 22:07",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1516498222,
-				["lastVisitDate"] = "2018/01/20 17:30",
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1516687315,
@@ -61,6 +61,10 @@ DataStore_AuctionsDB = {
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1517641742,
 				["lastVisitDate"] = "2018/02/02 23:09",
+			},
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1516498222,
+				["lastVisitDate"] = "2018/01/20 17:30",
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1517701506,

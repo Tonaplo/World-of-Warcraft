@@ -174,8 +174,7 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Desaturate"] = "흑백"
 	--Translation missing 
 	-- L["Differences"] = ""
-	--Translation missing 
-	-- L["Disable Import"] = ""
+	L["Disable Import"] = "가져오기 비활성화"
 	L["Disabled"] = "비활성화됨"
 	L["Discrete Rotation"] = "90도 단위 회전"
 	L["Display"] = "디스플레이"
@@ -275,8 +274,7 @@ UNIT_POWER, UNIT_AURA PLAYER_TARGET_CHANGED]=]
 	L["Icon Inset"] = "아이템 축소"
 	--Translation missing 
 	-- L["If"] = ""
-	--Translation missing 
-	-- L["If this option is enabled, you are no longer able to import auras."] = ""
+	L["If this option is enabled, you are no longer able to import auras."] = "이 옵션이 활성화된 상태에서는 외부 문자열에서 디스플레이를 가져올 수 없습니다."
 	--Translation missing 
 	-- L["If Trigger %s"] = ""
 	L["Ignored"] = "무시됨"

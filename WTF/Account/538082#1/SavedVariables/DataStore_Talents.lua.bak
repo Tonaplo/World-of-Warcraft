@@ -90,9 +90,9 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Alura"] = {
-				["lastUpdate"] = 1517886172,
+				["lastUpdate"] = 1517897554,
 				["Specializations"] = {
-					2, -- [1]
+					6, -- [1]
 					[3] = 2,
 				},
 				["Class"] = "PRIEST",
@@ -163,7 +163,7 @@ DataStore_TalentsDB = {
 					15317, -- [2]
 					16279, -- [3]
 				},
-				["lastUpdate"] = 1517641002,
+				["lastUpdate"] = 1517985459,
 				["Class"] = "HUNTER",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -175,7 +175,7 @@ DataStore_TalentsDB = {
 					["Titanstrike"] = {
 						["tier"] = 2,
 						["rank"] = 68,
-						["pointsRemaining"] = 16054675315,
+						["pointsRemaining"] = 45097679715,
 					},
 					["Thas'dorah, Legacy of the Windrunners"] = {
 						["pointsRemaining"] = 184345260,
@@ -229,7 +229,7 @@ DataStore_TalentsDB = {
 					7039, -- [3]
 					8171, -- [4]
 				},
-				["lastUpdate"] = 1517708139,
+				["lastUpdate"] = 1517987683,
 				["Class"] = "DRUID",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -336,14 +336,14 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["EquippedArtifact"] = "Warswords of the Valarjar",
+				["EquippedArtifact"] = "Strom'kar, the Warbreaker",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
-					5533, -- [1]
+					10653, -- [1]
 					9813, -- [2]
 					10713, -- [3]
 				},
-				["lastUpdate"] = 1517623965,
+				["lastUpdate"] = 1517984475,
 				["Class"] = "WARRIOR",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -353,9 +353,9 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 27307145835,
 					},
 					["Strom'kar, the Warbreaker"] = {
-						["pointsRemaining"] = 446414620,
+						["pointsRemaining"] = 15281424620,
 						["tier"] = 2,
-						["rank"] = 52,
+						["rank"] = 64,
 					},
 					["Warswords of the Valarjar"] = {
 						["pointsRemaining"] = 5762044220,
@@ -365,21 +365,21 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "The Fist of Ra-den",
+				["EquippedArtifact"] = "Doomhammer",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					9561, -- [1]
 					9631, -- [2]
 					14299, -- [3]
 				},
-				["lastUpdate"] = 1517648086,
+				["lastUpdate"] = 1517987881,
 				["Class"] = "SHAMAN",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Doomhammer"] = {
 						["tier"] = 2,
-						["rank"] = 66,
-						["pointsRemaining"] = 4216578945,
+						["rank"] = 67,
+						["pointsRemaining"] = 18006085345,
 					},
 					["The Fist of Ra-den"] = {
 						["pointsRemaining"] = 1543662795,
@@ -795,6 +795,9 @@ DataStore_TalentsRefDB = {
 						22328, -- [1]
 						19753, -- [2]
 						22329, -- [3]
+						22315, -- [4]
+						22316, -- [5]
+						19758, -- [6]
 					},
 				}, -- [1]
 				{

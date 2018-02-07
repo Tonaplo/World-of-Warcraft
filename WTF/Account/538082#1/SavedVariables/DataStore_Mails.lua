@@ -40,22 +40,31 @@ DataStore_MailsDB = {
 					}, -- [1]
 					{
 						["sender"] = "Rahran",
-						["itemID"] = 153154,
-						["link"] = "|cff0070dd|Hitem:153154::::::::110:260::11::::|h[Unsullied Cloth Leggings]|h|r",
-						["count"] = 1,
-						["icon"] = 422807,
-						["lastCheck"] = 1512937859,
-						["daysLeft"] = 30,
-					}, -- [2]
-					{
-						["sender"] = "Rahran",
 						["itemID"] = 153156,
 						["link"] = "|cff0070dd|Hitem:153156::::::::110:260::::::|h[Unsullied Cloth Sash]|h|r",
 						["count"] = 1,
 						["icon"] = 422795,
 						["lastCheck"] = 1512943141,
 						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "Rahran",
+						["itemID"] = 153154,
+						["link"] = "|cff0070dd|Hitem:153154::::::::110:260::11::::|h[Unsullied Cloth Leggings]|h|r",
+						["count"] = 1,
+						["icon"] = 422807,
+						["lastCheck"] = 1512937859,
+						["daysLeft"] = 30,
 					}, -- [3]
+					{
+						["sender"] = "Praerend",
+						["itemID"] = 153135,
+						["link"] = "|cff0070dd|Hitem:153135::::::::110:71::11::::|h[Unsullied Cloth Robes]|h|r",
+						["count"] = 1,
+						["icon"] = 422801,
+						["lastCheck"] = 1517984283,
+						["daysLeft"] = 30,
+					}, -- [4]
 				},
 				["lastVisitDate"] = "2017/12/08 21:55",
 			},
@@ -77,6 +86,17 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1516262098,
+				["Mails"] = {
+					{
+						["sender"] = "Praerend",
+						["itemID"] = 153151,
+						["link"] = "|cff0070dd|Hitem:153151::::::::110:71::11::::|h[Unsullied Leather Tunic]|h|r",
+						["count"] = 1,
+						["icon"] = 436838,
+						["lastCheck"] = 1517984303,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
 				["lastVisitDate"] = "2018/01/17 23:54",
 			},
 			["Default.Proudmoore.Morifa"] = {
@@ -95,25 +115,36 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1517724439,
 				["lastVisitDate"] = "2018/02/03 22:07",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1517470637,
-				["lastVisitDate"] = "2018/01/31 23:37",
-			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
 				["lastVisitDate"] = "2018/01/20 20:38",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1517470637,
+				["lastVisitDate"] = "2018/01/31 23:37",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1516688626,
-				["lastVisitDate"] = "2018/01/22 22:23",
+				["lastUpdate"] = 1517984412,
+				["lastVisitDate"] = "2018/02/06 22:20",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1517641750,
+				["Mails"] = {
+					{
+						["sender"] = "Praerend",
+						["itemID"] = 153138,
+						["link"] = "|cff0070dd|Hitem:153138::::::::110:71::::::|h[Unsullied Mail Legguards]|h|r",
+						["count"] = 1,
+						["icon"] = 430976,
+						["lastCheck"] = 1517984407,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
 				["lastVisitDate"] = "2018/02/02 23:09",
+			},
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1517625984,

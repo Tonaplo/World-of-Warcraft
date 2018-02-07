@@ -82,8 +82,9 @@ DataStoreDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Tichondrius.Zethan"] = {
+			["Default.Proudmoore.Kaldorath"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["guildName"] = "Risen",
@@ -116,9 +117,8 @@ DataStoreDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Kaldorath"] = {
+			["Default.Tichondrius.Zethan"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Risen",
 			},
 		},
 		["ShortToLongRealmNames"] = {

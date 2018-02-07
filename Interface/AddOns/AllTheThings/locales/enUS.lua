@@ -1,13 +1,13 @@
 --------------------------------------------------------------------------------
---                 		L O C A L I Z A T I O N  F I L E      		          --
+--						L O C A L I Z A T I O N  F I L E					  --
 --------------------------------------------------------------------------------
 --						English / United States (default)					  --
 --------------------------------------------------------------------------------
--- 				Maintained By Dylan Fortune (http://dylanfortune.com)		  --
+--				Maintained By Dylan Fortune (http://dylanfortune.com)		  --
 --------------------------------------------------------------------------------
---   A localization file contains a single dictionary that populates a table  --
+--	 A localization file contains a single dictionary that populates a table  --
 --------------------------------------------------------------------------------
--- 		        This script is called directly after the Core.lua file. 	  --
+--				This script is called directly after the Core.lua file. 	  --
 --------------------------------------------------------------------------------
 AllTheThings.Locales.enUS = {
 	-- General Text
@@ -17,7 +17,7 @@ AllTheThings.Locales.enUS = {
 	["TITLE_OPTIONS"] = "All the Things";
 	["FILTERS"] = "Filters";
 	["PREFERENCES"] = "Preferences";
-	
+
 	-- Minimap Icon Text
 	["MINIMAP_MOUSEOVER_TEXT"] = "Right click to change settings.\nLeft click + drag to move.\nLeft click to open the Main List.\nCtrl + Left click to open the Mini List.\nShift + Left click to Refresh Collections.";
 	["OPEN_MAINLIST"] = "Open Main List";
@@ -26,25 +26,25 @@ AllTheThings.Locales.enUS = {
 	["TOGGLE_MINILIST"] = "Toggle Mini List";
 	["TOGGLE_COMPLETIONIST_MODE"] = "Toggle Completionist Mode";
 	["TOGGLE_DEBUG_MODE"] = "Toggle Debug Mode";
-	
+
 	-- Frame Text
 	["LIST_FRAME_TITLE"] = "ITEM COLLECTION";
 	["REFRESH_BUTTON_TITLE"] = "REFRESH THE THINGS";
 	["CONGRATULATIONS"] = "CONGRATULATIONS! You did it!";
 	["INSTRUCTIONS"] = "Looks like something terrible has happened. Reinstall the addon!";
-	
+
 	-- Group Text
 	["DUNGEONS&RAIDS"] = "Dungeons & Raids";
 	["MISCELLANEOUS"] = "Miscellaneous";
-	
+
 	-- Error Text
 	["ERROR_UNKNOWN"] = "An unknown error occured.";
-	
+
 	["ITEM_ID_ADDED"] = "%s (%d) was added to your collection.";
 	["ITEM_ID_ADDED_SHARED"] = "%s (%d) [+%d] were added to your collection.";
 	["ITEM_ID_REMOVED"] = "%s (%d) was removed from your collection.";
 	["ITEM_ID_REMOVED_SHARED"] = "%s (%d) [+%d] were removed from your collection.";
-	
+
 	-- Tooltip Text
 	["LEFT_CLICK_TO_EXPAND"] = "|cff3399ffLeft Click to Expand/Collapse|r";
 	["LEFT_CLICK_TO_MOVE"] = "|cff3399ffLeft Click and Drag to Move|r";
@@ -101,15 +101,15 @@ AllTheThings.Locales.enUS = {
 	["LOGO_TINY"] = "Interface\\Addons\\AllTheThings\\assets\\logo_tiny";		-- Winner of the Logo Contest (Used to be "Interface\\Icons\\INV_Axe_106.blp")
 	["LOGO_SMALL"] = "Interface\\Addons\\AllTheThings\\assets\\logo_tiny";		-- Winner of the Logo Contest (Used to be "Interface\\Icons\\INV_Axe_106.blp")
 	["LOGO_LARGE"] = "Interface\\Addons\\AllTheThings\\assets\\Discord_2_128";		-- Winner of the Logo Contest (Used to be "Interface\\Icons\\INV_Axe_106.blp")
-	["COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t";			-- Acquired the colors and icon from CanIMogIt.
-	["COLLECTED_APPEARANCE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t";			-- Acquired the colors and icon from CanIMogIt.
-	["COMPLETE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t";			-- Acquired the colors and icon from CanIMogIt.
-	["NOT_COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t";	-- Acquired the colors and icon from CanIMogIt.
-	["COLLECTED"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t |cff15abffCollected|r";			-- Acquired the colors and icon from CanIMogIt.
-	["COLLECTED_APPEARANCE"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t |cff15abffCollected*|r";			-- Acquired the colors and icon from CanIMogIt.
-	["NOT_COLLECTED"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Not Collected|r";	-- Acquired the colors and icon from CanIMogIt.
-	["COMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t |cff6dce47Complete|r";	-- Acquired the colors and icon from CanIMogIt.
-	["INCOMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Incomplete|r";	-- Acquired the colors and icon from CanIMogIt.
+	["COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t";	-- Acquired the colors and icon from CanIMogIt.
+	["COLLECTED_APPEARANCE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t";		-- Acquired the colors and icon from CanIMogIt.
+	["COMPLETE_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t";		-- Acquired the colors and icon from CanIMogIt.
+	["NOT_COLLECTED_ICON"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t";		-- Acquired the colors and icon from CanIMogIt.
+	["COLLECTED"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t |cff15abffCollected|r";		-- Acquired the colors and icon from CanIMogIt.
+	["COLLECTED_APPEARANCE"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_circle:0|t |cff15abffCollected*|r";	-- Acquired the colors and icon from CanIMogIt.
+	["NOT_COLLECTED"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Not Collected|r";		-- Acquired the colors and icon from CanIMogIt.
+	["COMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\known_green:0|t |cff6dce47Complete|r";		-- Acquired the colors and icon from CanIMogIt.
+	["INCOMPLETE"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Incomplete|r";		-- Acquired the colors and icon from CanIMogIt.
 	["KNOWN_ON_CHARACTER"] = "|TInterface\\Addons\\AllTheThings\\assets\\known:0|t |cff15abffKnown on current character|r";
 	["UNKNOWN_ON_CHARACTER"] = "|TInterface\\Addons\\AllTheThings\\assets\\unknown:0|t |cffff9333Unknown on current character|r";
 	["LOCKOUT"] = "Lockout";
@@ -143,7 +143,7 @@ AllTheThings.Locales.enUS = {
 	["SOURCE_ID"] = "Source ID";
 	["SOURCE_ID_MISSING"] = "Source ID Missing. Collection detection may not work. Please report this item to Crieve-Sargeras. If you also know the sourceID, provide that information as well.";
 	["SPECIES_ID_MISSING"] = "Species ID Missing. Collection detection will not work. If you know the Species ID associated with this item, please report this information to Crieve-Sargeras.";
-	
+
 	["ABBREVIATIONS"] = {
 		["ALL THE THINGS"] = "ATT",
 		["Dungeons & Raids"] = "D&R",
@@ -166,8 +166,11 @@ AllTheThings.Locales.enUS = {
 		["Pet Journal"] = PETS,
 		["Pet Battles"] = PETS,
 		["Toy Box"] = TOY,
+		["Monthly World Events"] = CALENDAR_REPEAT_MONTHLY,
+		["Weekly World Events"] = CALENDAR_REPEAT_WEEKLY,
+		["Mini World Events"] = GetSpellInfo(57055),
 	};
-	
+
 	-- Music / Sound Management (You can add your own sounds for this if you want.)
 	["AUDIO_FANFARE_TABLE"] = {
 		"Interface\\AddOns\\AllTheThings\\assets\\fanfare1.ogg",
@@ -180,7 +183,7 @@ AllTheThings.Locales.enUS = {
 	["AUDIO_REMOVE_TABLE"] = {
 		"Interface\\AddOns\\AllTheThings\\assets\\remove1.ogg"
 	};
-	
+
 	["FILTER_ID_TYPES"] = {
 		-- "Armor Types"
 		[1] = INVTYPE_HOLDABLE, 								-- Held in Off-Hand
@@ -189,13 +192,13 @@ AllTheThings.Locales.enUS = {
 		[4] = GetSpellInfo(9078), 								-- Cloth
 		[5] = GetSpellInfo(9077), 								-- Leather
 		[6] = GetSpellInfo(8737), 								-- Mail
-		[7] = GetSpellInfo(750), 								-- Plate
+		[7] = GetItemSubClassInfo(4,4), 						-- Plate
 		[8] = SHIELDSLOT, 										-- Shields
 		[9] = INVTYPE_TABARD,									-- Tabards
 		[10] = INVTYPE_BODY,									-- Shirts
-		
+
 		-- PADDING for extra types, if necessary
-		
+
 		-- "Weapon Types"
 		[20] = GetSpellInfo(1180),								-- Daggers
 		[21] = GetSpellInfo(196),								-- 1H Axes
@@ -214,9 +217,9 @@ AllTheThings.Locales.enUS = {
 		[34] = GetSpellInfo(15590),								-- Fist Weapons
 		[35] = GetSpellInfo(195304),				 			-- Warglaives
 		[36] = MISCELLANEOUS,									-- Miscellaneous
-		
+
 		-- PADDING for extra types, if necessary
-		
+
 		-- "Non-Equipment Types"
 		[100] = TUTORIAL_TITLE53, 								-- Mounts
 		[101] = TOOLTIP_BATTLE_PET,								-- Companion Pets
@@ -228,15 +231,18 @@ AllTheThings.Locales.enUS = {
 		[107] = "Vignettes",
 		[108] = ENABLE_MUSIC.." "..ROLL,						-- Music Rolls
 		[109] = HEIRLOOMS, 										-- Heirlooms
-		
+
 		-- "Recipes"
 		[200] = AUCTION_CATEGORY_RECIPES,						-- Recipes
 	};
-	
+	["FILTER_ID_ICONS"] = {
+
+	},
+
 	-- These need to be localized manually.
 	["NPC_ID_ICONS"] = {
 
---		[-] = "Interface\\Icons\\", -- 		
+--		[-] = "Interface\\Icons\\", --
 		[0] = "Interface\\Icons\\INV_TreasureChest_FelfireCitadel", 			-- Zone Drop
 		[-1] = "Interface\\Icons\\Achievement_Garrison_Horde_PVE", 				-- Common Boss Drop
 		[-2] = "Interface\\Icons\\INV_Misc_Coin_02", 							-- Vendors
@@ -254,7 +260,7 @@ AllTheThings.Locales.enUS = {
 		[-18] = "Interface\\Icons\\icon_scenarios",								-- Scenarios
 		[-19] = "Interface\\Icons\\achievement_scenario_arenaofannihilation", 	-- Arena of Annihilation
 		[-20] = "Interface\\Icons\\achievement_level_110",						-- Class Hall
-		[-25] = "Interface\\Icons\\Tracking_WildPet", 							-- Pet Battles	
+		[-25] = "Interface\\Icons\\Tracking_WildPet", 							-- Pet Battles
 		[-26] = "Interface\\Icons\\INV_Misc_Bag_07_Green", 						-- Drop
 		[-29] = "Interface\\Icons\\Inv_misc_bag_17", 							-- Raid Finder Bag
 		[-31] = "Interface\\Icons\\INV_Pet_BabyMurlocs_Blue",					-- Promotion
@@ -263,13 +269,28 @@ AllTheThings.Locales.enUS = {
 		[-34] = "Interface\\Icons\\Achievement_Reputation_06", 					-- World Quests
 		[-36] = "Interface\\Icons\\WoW_Token01", 								-- In-Game Shop
 		[-38] = "Interface\\Icons\\achievement_general_workingasateam",			-- Professions
-		[-39] = "Interface\\Icons\\Achievement_Quests_Completed_06", 			-- Quest
+		[-39] = "Interface\\Icons\\Inv_misc_book_17", 							-- Legacy Quest
 		[-40] = "Interface\\Icons\\Inv_misc_book_17", 							-- Legacy
-		[-41] = "Interface\\Icons\\TRADE_ARCHAEOLOGY", 							-- Cache of Madness 
+		[-41] = "Interface\\Icons\\TRADE_ARCHAEOLOGY", 							-- Cache of Madness
 		[-43] = "Interface\\Icons\\inv_chest_cloth_21",							-- Cloth Armor
 		[-44] = "Interface\\Icons\\inv_chest_leather_09",						-- Leather Armor
 		[-45] = "Interface\\Icons\\inv_chest_chain_05",							-- Mail Armor
 		[-46] = "Interface\\Icons\\inv_chest_plate01",							-- Plate Armor
+		[-47] = "Interface\\Icons\\achievement_worldevent_lunar",				-- Lunar Festival
+		[-50] = "Interface\\Icons\\achievement_worldevent_valentine",			-- Love is in the Air
+		[-51] = "Interface\\Icons\\inv_egg_09",									-- Noblegarden
+		[-52] = "Interface\\Icons\\inv_misc_toy_04",							-- Children's Week
+		[-53] = "Interface\\Icons\\inv_summerfest_symbol_high",					-- Midsummer Fire Festival [Alliance]
+		[-54] = "Interface\\Icons\\inv_summerfest_symbol_low",					-- Midsummer Fire Festival [Horde]
+		[-55] = "Interface\\Icons\\inv_helmet_66",								-- Pirate's Day",
+		[-56] = "Interface\\Icons\\achievement_worldevent_brewmaster",			-- Brewfest
+		[-57] = "Interface\\Icons\\INV_Holiday_Thanksgiving_Cornucopia", 		-- Harvest Festival
+		[-58] = "Interface\\Icons\\achievement_halloween_witch_01",				-- Hallow's End
+		[-59] = "Interface\\Icons\\inv_misc_bone_humanskull_02",				-- Day of the Dead
+		[-60] = "Interface\\Icons\\inv_thanksgiving_turkey",					-- Pilgrim's Bounty
+		[-61] = "Interface\\Icons\\achievement_worldevent_merrymaker",			-- The Feast of Winter Veil
+		[-62] = "Interface\\Icons\\inv_misc_fish_06",							-- Stranglethorn Fishing Extravaganza
+		[-63] = "Interface\\Calendar\\Holidays\\calendar_transmogpopularityconteststart",	-- Trial of Style
 		[-64] = "Interface\\Icons\\inv_misc_book_07",							-- Main Questline
 		[-66] = "Interface\\Icons\\PetJournalPortrait ", 						-- Pet Battle
 		[-68] = "Interface\\Icons\\spell_arcane_portalshattrath",				-- The Emerald Dream
@@ -286,6 +307,7 @@ AllTheThings.Locales.enUS = {
 		[-97] = "Interface\\Icons\\ability_rogue_dirtydeeds",					-- Never Implemented
 		[-98] = "Interface\\Icons\\inv_garrison_resource",						-- Garrisons
 		[-99] = "Interface\\Icons\\garrison_building_stables", 					-- Stables
+		[-100] = "Interface\\Icons\\Inv_misc_book_17", 							-- Legacy
 		[-102] = "Interface\\Icons\\trade_alchemy", 							-- Alchemy Lab
 		[-103] = "Interface\\Icons\\garrison_building_barn", 					-- Barn
 		[-104] = "Interface\\Icons\\garrison_building_barracks", 				-- Barracks
@@ -313,7 +335,13 @@ AllTheThings.Locales.enUS = {
 		[-126] = "Interface\\Icons\\garrison_building_workshop", 				-- Gnomish Gearworks
 		[-127] = "Interface\\Icons\\inv_pick_02", 								-- Lunarfall Excavation
 		[-128] = "Interface\\Icons\\inv_misc_rune_01", 							-- Lunarfall Inn
-		[-129] = "Interface\\Icons\\garrison_building_magetower", 				-- Mage Tower			
+		[-129] = "Interface\\Icons\\garrison_building_magetower", 				-- Mage Tower
+		[-130] = "Interface\\Icons\\inv_mail_thunderlordclan_b_01helm", 		-- Thunderlord Set
+		[-131] = "Interface\\Icons\\inv_helm_cloth_shadowmoonclan_b_01", 		-- Shadowmoon Set
+		[-132] = "Interface\\Icons\\inv_plate_blackrockclan_b_01helm", 			-- Blackrock Set
+		[-133] = "Interface\\Icons\\inv_helm_mail_warsongclan_b_01", 			-- Warsong Set
+		[-134] = "Interface\\Icons\\inv_bannerpvp_01", 							-- Orgrimmar Set
+		[-135] = "Interface\\Icons\\inv_bannerpvp_02", 							-- Stormwind Set
 		[-136] = "Interface\\Icons\\achievement_bg_defendxtowers_av", 			-- Garrison Invasion
 		[-139] = "Interface\\Icons\\inv_misc_bone_humanskull_02",				-- Raid Bosses
 		[-140] = "Interface\\Icons\\ClassIcon_Priest", 							-- Priest
@@ -342,7 +370,11 @@ AllTheThings.Locales.enUS = {
 		[-168] = "Interface\\Icons\\Achievement_Quests_Completed_04",			-- Other Quests
 		[-169] = "Interface\\Icons\\achievement_reputation_08",					-- Emissary Quests
 		[-170] = "Interface\\Icons\\spell_shaman_maelstromweapon",				-- Balance of Power
-		[-171] = "Interface\\Icons\\Achievement_Quests_Completed_07", -- Quest Chains
+		[-171] = "Interface\\Icons\\Achievement_Quests_Completed_07", 			-- Quest Chains
+		[-173] = "Interface\\Icons\\spell_holy_borrowedtime",					-- Timewalking
+		[-174] = "Interface\\Icons\\INV_DARKMOON_EYE",							-- Darkmoon Faire
+		[-178] = "Interface\\Icons\\Creatureportrait_Goblin_Rocket",			-- Goblin Engineering
+		[-179] = "Interface\\Icons\\INV_Gnomish_XRAY_Specs",					-- Gnomish Engineering
 		[-180] = "Interface\\Icons\\trade_alchemy",								-- Alchemy
 		[-181] = "Interface\\Icons\\trade_blacksmithing",						-- Blacksmithing
 		[-182] = "Interface\\Icons\\trade_engraving",							-- Enchanting
@@ -358,6 +390,21 @@ AllTheThings.Locales.enUS = {
 		[-192] = "Interface\\Icons\\inv_misc_food_15",							-- Cooking
 		[-193] = "Interface\\Icons\\spell_holy_sealofsacrifice",				-- First Aid
 		[-194] = "Interface\\Icons\\trade_fishing",								-- Fishing
+		[-195] = "Interface\\Icons\\ClassIcon_Priest", 							-- Priest
+		[-196] = "Interface\\Icons\\ClassIcon_Mage",						 	-- Mage
+		[-197] = "Interface\\Icons\\ClassIcon_Warlock",					 		-- Warlock
+		[-198] = "Interface\\Icons\\ClassIcon_Druid",						 	-- Druid
+		[-199] = "Interface\\Icons\\ClassIcon_Rogue",						 	-- Rogue
+		[-200] = "Interface\\Icons\\ClassIcon_Hunter", 							-- Hunter
+		[-201] = "Interface\\Icons\\ClassIcon_Shaman", 							-- Shaman
+		[-202] = "Interface\\Icons\\ClassIcon_Paladin", 						-- Paladin
+		[-203] = "Interface\\Icons\\ClassIcon_Warrior", 						-- Warrior
+		[-204] = "Interface\\Icons\\ClassIcon_DeathKnight", 					-- Death Knight
+		[-206] = "Interface\\Icons\\Ability_Priest_SavingGrace",				-- Allied Races
+		[-207] = "Interface\\Icons\\Achievement_alliedrace_lightforgeddraenei",	-- Lightforged Draenei
+		[-208] = "Interface\\Icons\\achievement_alliedrace_voidelf",			-- Void Elf
+		[-209] = "Interface\\Icons\\achievement_alliedrace_highmountaintauren",	-- Highmountain Tauren
+		[-210] = "Interface\\Icons\\achievement_alliedrace_nightborne",			-- Nightborne
 		[-297] = "Interface\\Icons\\inv_letter_17", 							-- Mailbox
 		[-299] = "Interface\\Icons\\achievement_garrisonquests_1000", 			-- Missions
 		[-318] = "Interface\\Icons\\garrison_purplearmor",						-- Armor
@@ -390,13 +437,67 @@ AllTheThings.Locales.enUS = {
 		[-346] = "Interface\\Icons\\inv_weapon_bow_05",							-- Bows
 		[-347] = "Interface\\Icons\\inv_weapon_crossbow_01",					-- Crossbows
 		[-348] = "Interface\\Icons\\inv_misc_monsterclaw_02",					-- Fist Weapons
+		[-349] = "Interface\\Icons\\Ability_Mage_IceForm",						-- Cosmetic
 		[-363] = "Interface\\Icons\\achievement_reputation_argentchampion", 	-- The Argent Tournament
 		[-367] = "Interface\\Icons\\ability_rogue_deviouspoisons",				-- The Construct Quarter
 		[-368] = "Interface\\Icons\\inv_trinket_naxxramas04",					-- The Arachnid Quarter
 		[-369] = "Interface\\Icons\\spell_deathknight_classicon",				-- The Military Quarter
 		[-370] = "Interface\\Icons\\inv_misc_cauldron_nature",					-- The Plague Quarter
 		[-371] = "Interface\\Icons\\inv_misc_head_dragon_blue",					-- The Upper Necropolis
+		[-372] = "Interface\\Addons\\AllTheThings\\assets\\Normal",				-- 10 Player
+		[-373] = "Interface\\Addons\\AllTheThings\\assets\\Normal",				-- 25 Player
+		[-374] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",				-- 10 Player Heroic
+		[-375] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",				-- 25 Player Heroic
+		[-376] = "Interface\\Addons\\AllTheThings\\assets\\Normal",				-- Normal
+		[-377] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",				-- Heroic
+		[-378] = "Interface\\Addons\\AllTheThings\\assets\\LFR",				-- Raid Finder
+		[-381] = "Interface\\Addons\\AllTheThings\\assets\\Mythic",				-- Mythic
 		[-494] = "Interface\\Icons\\Ability_Shaman_Ascendance",					-- Miscellaneous
+		[-500] = "Interface\\Icons\\inv_misc_celebrationcake_01",				-- WoW Anniversary
+		[-531] = "Interface\\Icons\\achievement_general",						-- 2008 Spirit of Competition Event
+		[-532] = "Interface\\Icons\\Inv_gravegolempet",							-- Heroes of the Storm Promotion
+		[-533] = "Interface\\Icons\\Inv_misc_rune_01",							-- Hearthstone Promotion
+		[-534] = "Interface\\Icons\\Achievement_ChallengeMode_Gold",			-- Collector's Edition
+		[-535] = "Interface\\Icons\\inv_misc_blizzcon09_poster",				-- Blizzcon Event
+		[-536] = "Interface\\Icons\\inv_pet_babywinston",						-- Overwatch Promotion
+		[-537] = "Interface\\Icons\\Ability_pet_baneling",						-- Starcraft Promotion
+		[-538] = "Interface\\Icons\\diabloanniversary_achievement",				-- Diablo 20th Anniversary Promotion
+		[-539] = "Interface\\Icons\\Achievement_zone_silithus_01",				-- Gates of Ahn'Qiraj
+		[-540] = "Interface\\Icons\\inv_stone_02",								-- The Scourge Invasion
+--		[-541] = -- Battle for Sun's Reach
+--		[-542] = -- Battlefield: Barrens
+		[-543] = "Interface\\Icons\\Achievements_Zone_BrokenShore",				-- Legion Invasions
+		[-544] = "Interface\\Icons\\WoW_Token01",								-- WoW Collector's Edition
+		[-545] = "Interface\\Icons\\inv_misc_blizzcon09_poster",				-- Blizzcon
+		[-546] = "Interface\\Icons\\achievement_reputation_08",					-- Recruit A Friend
+		[-547] = "Interface\\Icons\\INV_Elemental_Primal_Mana",					-- EU Only
+		[-548] = "Interface\\Icons\\Achievement_cooking_masterofthewok",		-- China Only
+		[-549] = "Interface\\Icons\\INV_Elemental_Primal_Air",					-- Korea Only
+		[-550] = "Interface\\Icons\\Ability_pet_baneling",						-- Starcraft Collector's Edition
+		[-551] = "Interface\\Icons\\DiabloAnniversary_HoradricCube",			-- Diablo Collector's Edition
+		[-553] = "Interface\\Icons\\INV_Drink_33_BloodRedAle",					-- 2006 ICoke Promotion
+		[-554] = "Interface\\Icons\\INV_Misc_PaperPackage01c",					-- EU Fansite Promotion
+		[-555] = "Interface\\Icons\\INV_Elemental_Primal_Air",					-- Korean Promotional Event
+		[-556] = "Interface\\Icons\\achievement_arena_2v2_7",					-- Arena Tournament
+		[-557] = "Interface\\Icons\\INV_Elemental_Primal_Air",					-- Korea World Event
+		[-558] = "Interface\\Icons\\achievement_arena_2v2_7",					-- Battle.net World Championship Shanghai 2012
+		[-560] = "Interface\\Icons\\WoW_Token01",								-- World of Warcraft
+		[-561] = "Interface\\Icons\\Achievement_WorldEvent_ChildrensWeek",		-- 2007 Worldwide Invitational
+		[-562] = "Interface\\Icons\\Achievement_WorldEvent_ChildrensWeek",		-- 2008 Worldwide Invitational
+		[-563] = "Interface\\Icons\\inv_chopper_horde",							-- Azeroth's Choppers
+		[-564] = "Interface\\Icons\\Inv_sigil_thorim",							-- Starcraft II: Wings of Liberty
+		[-565] = "Interface\\Icons\\Ability_pet_baneling",						-- Starcraft II: Heart of the Swarm
+		[-566] = "Interface\\Icons\\DiabloAnniversary_HoradricCube",			-- Diablo III
+		[-567] = "Interface\\Icons\\Inv_misc_rune_01",							-- Hearthstone
+		[-568] = "Interface\\Icons\\inv_pet_babywinston",						-- Overwatch: Origins
+		[-569] = "Interface\\Icons\\Ability_hunter_pet_turtle",					-- Azeroth Academy Mentor Recruitment Promotion (China Only)
+		[-571] = "Interface\\Icons\\WoW_Token01",								-- In-Game Shop
+		[-572] = "Interface\\Icons\\Inv_gravegolempet",							-- Heroes of the Storm
+		[-573] = "Interface\\Icons\\spell_holy_guardianspirit", 				-- Scroll of Resurrection
+		[-574] = "Interface\\Icons\\DiabloAnniversary_HoradricCube",			-- Diablo III Annual Pass
+		[-575] = "Interface\\Icons\\DiabloAnniversary_HoradricCube",			-- Diablo III: Reaper of Souls
+		[-576] = "Interface\\Icons\\inv_archonpet",								-- StarCraft II: Legacy of the Void
+		[-577] = "Interface\\Icons\\INV_MISC_FILM_01",							-- World of Warcraft Movie
 		[-1000] = "Interface\\Icons\\achievement_transmog_collections",			-- Sets
 		[-1001] = "Interface\\Icons\\Racial_Dwarf_FindTreasure",				-- The Black Vault
 		[-3178] = "Interface\\Icons\\achievement_boss_warlord_kalithresh",		-- Tier 3.5
@@ -450,46 +551,46 @@ AllTheThings.Locales.enUS = {
 		[-9912] = "Interface\\Icons\\ClassIcon_DeathKnight", 					-- Death Knight
 		[-9914] = "Interface\\FriendsFrame\\PlusManz-Alliance", 				-- Alliance
 		[-9913] = "Interface\\FriendsFrame\\PlusManz-Horde", 					-- Horde
-		[-9915] = "Interface\\Icons\\spell_holy_wordfortitude",	-- Discipline Priest Spec
-		[-9916] = "Interface\\Icons\\spell_holy_guardianspirit",	-- Holy Priest Spec
-		[-9917] = "Interface\\Icons\\spell_shadow_shadowwordpain",	-- Shadow Priest Spec
-		[-9918] = "Interface\\Icons\\spell_holy_magicalsentry",	-- Arcane Mage Spec
-		[-9919] = "Interface\\Icons\\spell_frost_frostbolt02",	-- Frost Mage Spec
-		[-9920] = "Interface\\Icons\\spell_fire_flamebolt",	-- Fire Mage Spec
-		[-9921] = "Interface\\Icons\\spell_shadow_deathcoil",	-- Affliction Warlock Spec
-		[-9922] = "Interface\\Icons\\spell_shadow_metamorphosis",	-- Demonology Warlock Spec
-		[-9923] = "Interface\\Icons\\spell_shadow_rainoffire",	-- Destruction Warlock Spec
-		[-9924] = "Interface\\Icons\\TalentSpec_Druid_Feral_Bear",	-- Guardian Druid Spec
-		[-9925] = "Interface\\Icons\\TalentSpec_Druid_Feral_Cat",	-- Feral Druid Spec
-		[-9926] = "Interface\\Icons\\TalentSpec_Druid_Balance",	-- Balance Druid Spec
-		[-9927] = "Interface\\Icons\\TalentSpec_Druid_Restoration",	-- Restoration Druid Spec
-		[-9928] = "Interface\\Icons\\ability_backstab",	-- Assassination Rogue Spec
-		[-9929] = "Interface\\Icons\\inv_sword_30",	-- Outlaw Rogue Spec
-		[-9930] = "Interface\\Icons\\ability_stealth",	-- Subtletly Rogue Spec
-		[-9931] = "Interface\\Icons\\Spell_Monk_Brewmaster_Spec",	-- Brewmaster Monk Spec
-		[-9932] = "Interface\\Icons\\Spell_Monk_WindWalker_Spec",	-- Windwalker Monk Spec
-		[-9933] = "Interface\\Icons\\Spell_Monk_MistWeaver_Spec",	-- Mistweaver Monk Spec
-		[-9934] = "Interface\\Icons\\ability_demonhunter_spectank",	-- Vengeance Demon HunterSpec
-		[-9935] = "Interface\\Icons\\ability_demonhunter_specdps",	-- Havoc Demon HunterSpec
-		[-9936] = "Interface\\Icons\\ability_hunter_beasttaming",	-- Beast Master Hunter Spec
-		[-9937] = "Interface\\Icons\\ability_marksmanship",	-- Marksman Hunter Spec
-		[-9938] = "Interface\\Icons\\ability_hunter_camouflage",	-- Survival Hunter Spec
-		[-9939] = "Interface\\Icons\\spell_nature_lightning",	-- Elemental Shaman Spec
-		[-9940] = "Interface\\Icons\\spell_nature_lightningshield",	-- Enhancement Shaman Spec
-		[-9941] = "Interface\\Icons\\spell_nature_magicimmunity",	-- Restoration Shaman Spec
-		[-9942] = "Interface\\Icons\\Spell_Holy_HolyBolt",	-- Holy Paladin Spec
-		[-9943] = "Interface\\Icons\\Ability_Paladin_ShieldoftheTemplar",	-- Protection Paladin Spec
-		[-9944] = "Interface\\Icons\\spell_holy_auraoflight",	-- Retribution Paladin Spec
-		[-9945] = "Interface\\Icons\\ability_rogue_eviscerate",	-- Arms Warrior Spec
-		[-9946] = "Interface\\Icons\\ability_warrior_innerrage",	-- Fury Warrior Spec
-		[-9947] = "Interface\\Icons\\INV_Shield_06",	-- Protection Warrior Spec
-		[-9948] = "Interface\\Icons\\Spell_Deathknight_BloodPresence",	-- Blood Death Knight Spec
-		[-9949] = "Interface\\Icons\\Spell_Deathknight_FrostPresence",	-- Frost Death Knight Spec
-		[-9950] = "Interface\\Icons\\Spell_Deathknight_UnholyPresence",	-- Unholy Death Knight Spec
-		[-9951] = "Interface\\Icons\\ClassIcon_Priest", -- Discipline / Holy Spec
-		[-9952] = "Interface\\Icons\\ClassIcon_Druid", -- Guardian / Feral Spec
-		[-9953] = "Interface\\Icons\\ClassIcon_Warrior", -- Arms / Fury Spec
-		[-9954] = "Interface\\Icons\\ClassIcon_DeathKnight", -- Frost / Unholoy Spec
+		[-9915] = "Interface\\Icons\\spell_holy_wordfortitude",					-- Discipline Priest Spec
+		[-9916] = "Interface\\Icons\\spell_holy_guardianspirit",				-- Holy Priest Spec
+		[-9917] = "Interface\\Icons\\spell_shadow_shadowwordpain",				-- Shadow Priest Spec
+		[-9918] = "Interface\\Icons\\spell_holy_magicalsentry",					-- Arcane Mage Spec
+		[-9919] = "Interface\\Icons\\spell_frost_frostbolt02",					-- Frost Mage Spec
+		[-9920] = "Interface\\Icons\\spell_fire_flamebolt",						-- Fire Mage Spec
+		[-9921] = "Interface\\Icons\\spell_shadow_deathcoil",					-- Affliction Warlock Spec
+		[-9922] = "Interface\\Icons\\spell_shadow_metamorphosis",				-- Demonology Warlock Spec
+		[-9923] = "Interface\\Icons\\spell_shadow_rainoffire",					-- Destruction Warlock Spec
+		[-9924] = "Interface\\Icons\\TalentSpec_Druid_Feral_Bear",				-- Guardian Druid Spec
+		[-9925] = "Interface\\Icons\\TalentSpec_Druid_Feral_Cat",				-- Feral Druid Spec
+		[-9926] = "Interface\\Icons\\TalentSpec_Druid_Balance",					-- Balance Druid Spec
+		[-9927] = "Interface\\Icons\\TalentSpec_Druid_Restoration",				-- Restoration Druid Spec
+		[-9928] = "Interface\\Icons\\ability_backstab",							-- Assassination Rogue Spec
+		[-9929] = "Interface\\Icons\\inv_sword_30",								-- Outlaw Rogue Spec
+		[-9930] = "Interface\\Icons\\ability_stealth",							-- Subtletly Rogue Spec
+		[-9931] = "Interface\\Icons\\Spell_Monk_Brewmaster_Spec",				-- Brewmaster Monk Spec
+		[-9932] = "Interface\\Icons\\Spell_Monk_WindWalker_Spec",				-- Windwalker Monk Spec
+		[-9933] = "Interface\\Icons\\Spell_Monk_MistWeaver_Spec",				-- Mistweaver Monk Spec
+		[-9934] = "Interface\\Icons\\ability_demonhunter_spectank",				-- Vengeance Demon HunterSpec
+		[-9935] = "Interface\\Icons\\ability_demonhunter_specdps",				-- Havoc Demon HunterSpec
+		[-9936] = "Interface\\Icons\\ability_hunter_beasttaming",				-- Beast Master Hunter Spec
+		[-9937] = "Interface\\Icons\\ability_marksmanship",						-- Marksman Hunter Spec
+		[-9938] = "Interface\\Icons\\ability_hunter_camouflage",				-- Survival Hunter Spec
+		[-9939] = "Interface\\Icons\\spell_nature_lightning",					-- Elemental Shaman Spec
+		[-9940] = "Interface\\Icons\\spell_nature_lightningshield",				-- Enhancement Shaman Spec
+		[-9941] = "Interface\\Icons\\spell_nature_magicimmunity",				-- Restoration Shaman Spec
+		[-9942] = "Interface\\Icons\\Spell_Holy_HolyBolt",						-- Holy Paladin Spec
+		[-9943] = "Interface\\Icons\\Ability_Paladin_ShieldoftheTemplar",		-- Protection Paladin Spec
+		[-9944] = "Interface\\Icons\\spell_holy_auraoflight",					-- Retribution Paladin Spec
+		[-9945] = "Interface\\Icons\\ability_rogue_eviscerate",					-- Arms Warrior Spec
+		[-9946] = "Interface\\Icons\\ability_warrior_innerrage",				-- Fury Warrior Spec
+		[-9947] = "Interface\\Icons\\INV_Shield_06",							-- Protection Warrior Spec
+		[-9948] = "Interface\\Icons\\Spell_Deathknight_BloodPresence",			-- Blood Death Knight Spec
+		[-9949] = "Interface\\Icons\\Spell_Deathknight_FrostPresence",			-- Frost Death Knight Spec
+		[-9950] = "Interface\\Icons\\Spell_Deathknight_UnholyPresence",			-- Unholy Death Knight Spec
+		[-9951] = "Interface\\Icons\\ClassIcon_Priest", 						-- Discipline / Holy Spec
+		[-9952] = "Interface\\Icons\\ClassIcon_Druid", 							-- Guardian / Feral Spec
+		[-9953] = "Interface\\Icons\\ClassIcon_Warrior", 						-- Arms / Fury Spec
+		[-9954] = "Interface\\Icons\\ClassIcon_DeathKnight", 					-- Frost / Unholoy Spec
 		[-101501] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101502] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
 		[-101503] = "Interface\\FriendsFrame\\achievements_zone_azsuna",
@@ -497,7 +598,7 @@ AllTheThings.Locales.enUS = {
 	};
 	["NPC_ID_NAMES"] = {
 
--- Commonly used 
+-- Commonly used
 		[0] = ZONE.." "..BATTLE_PET_SOURCE_1, 									-- Zone Drop
 		[-1] = BATTLE_PET_BREED_QUALITY2.." "..TRANSMOG_SOURCE_1,				-- Common Boss Drop
 		[-2] = BATTLE_PET_SOURCE_3, 											-- Vendor
@@ -523,7 +624,7 @@ AllTheThings.Locales.enUS = {
 		[-22] = ORDER_HALL_ROGUE, 												-- The Hall of Shadows
 		[-23] = ORDER_HALL_DEATHKNIGHT, 										-- Acherus
 		[-24] = ORDER_HALL_WARLOCK, 											-- Dreadscar Rift
-		[-25] = SHOW_PET_BATTLES_ON_MAP_TEXT, 									-- Pet Battles	
+		[-25] = SHOW_PET_BATTLES_ON_MAP_TEXT, 									-- Pet Battles
 		[-26] = BATTLE_PET_SOURCE_1,											-- Drop
 		[-27] = PLAYER_DIFFICULTY6, 											-- Mythic
 		[-28] = PLAYER_DIFFICULTY3, 											-- Raid Finder
@@ -537,7 +638,7 @@ AllTheThings.Locales.enUS = {
 		[-36] = BATTLE_PET_SOURCE_10, 											-- In-Game Shop
 		[-37] = BATTLE_PET_SOURCE_11,											-- Discovery
 		[-38] = TRADE_SKILLS,													-- Professions
-		[-39] = BATTLE_PET_SOURCE_2,											-- Quest
+		[-39] = LFG_LIST_LEGACY.." "..TRACKER_HEADER_QUESTS,					-- Quest
 		[-40] = LFG_LIST_LEGACY, 												-- Legacy
 		[-41] = "Cache of Madness (Requires 225 Archaeology)",
 		[-42] = ORDER_HALL_MISSIONS,  											-- Class Hall Missions
@@ -545,7 +646,7 @@ AllTheThings.Locales.enUS = {
 		[-43] = GetSpellInfo(9078).." "..RESISTANCE0_NAME,						-- Cloth
 		[-44] = GetSpellInfo(9077).." "..RESISTANCE0_NAME,						-- Leather
 		[-45] = GetSpellInfo(8737).." "..RESISTANCE0_NAME,						-- Mail
-		[-46] = GetSpellInfo(750).." "..RESISTANCE0_NAME,						-- Plate
+		[-46] = GetItemSubClassInfo(4,4).." "..RESISTANCE0_NAME,				-- Plate
 -- World Events
 		[-47] = select(1,GetCategoryInfo(160)),									-- Lunar Festival
 		[-48] = MINIMAP_TRACKING_STABLEMASTER,									-- Stable Master
@@ -579,7 +680,7 @@ AllTheThings.Locales.enUS = {
 		[-76] = DUNGEON_FLOOR_BLACKROCKDEPTHS2,  								-- Shadowforge City
 		[-77] = SPECIAL, 														-- Special
 		[-78] = GetSpellInfo(247402), 											-- Lucid Nightmare
-		[-79] = "Step 10: Puzzler's Desire",		
+		[-79] = "Step 10: Puzzler's Desire",
 		[-80] = GetSpellInfo(243025),											-- Riddler's Mind-Worm
 		[-81] = "Step 7: Inconspicuous Note",
 		[-82] = "Step 8: Inconspicuous Note",
@@ -593,7 +694,7 @@ AllTheThings.Locales.enUS = {
 		[-90] = "Shadowguard Incursion",
 		[-91] = "Deprecated",
 		[-92] = "How to obtain Meatball",										-- Meatball Instructions
-		[-93] = "Silithus (The Wound)",				
+		[-93] = "Silithus (The Wound)",
 		[-94] = "Black Market Auction House",
 		[-95] = ENABLE_MUSIC.." "..ROLL,										-- Music Roll
 		[-96] = NPC_NAMES_DROPDOWN_TRACKED,										-- Quest NPCs
@@ -601,36 +702,37 @@ AllTheThings.Locales.enUS = {
 		[-98] = GARRISON_LOCATION_TOOLTIP,										-- Garrison
 -- Garrison Note: These will be changed into a new class soon(TM)
 		[-99] = select(2,C_Garrison.GetBuildingInfo(65) ), 						-- Stables
-		[-102] = select(2,C_Garrison.GetBuildingInfo(76) ),						-- Alchemy Lab
-		[-103] = select(2,C_Garrison.GetBuildingInfo(24) ),						-- Barn
-		[-104] = select(2,C_Garrison.GetBuildingInfo(26) ),						-- Barracks
-		[-105] = select(2,C_Garrison.GetBuildingInfo(93) ), 					-- Enchanter's Study
-		[-106] = select(2,C_Garrison.GetBuildingInfo(91) ), 					-- Engineering Works
-		[-107] = select(2,C_Garrison.GetBuildingInfo(64) ), 					-- Fishing Shack
-		[-108] = select(2,C_Garrison.GetBuildingInfo(96) ), 					-- Gem Boutique
-		[-109] = select(2,C_Garrison.GetBuildingInfo(159) ), 					-- Gladiator's Sanctum
-		[-110] = select(2,C_Garrison.GetBuildingInfo(29) ), 					-- Herb Garden
-		[-111] = select(2,C_Garrison.GetBuildingInfo(40) ), 					-- Lumber Mill
-		[-112] = select(2,C_Garrison.GetBuildingInfo(42) ), 					-- Menagerie
-		[-113] = select(2,C_Garrison.GetBuildingInfo(52) ), 					-- Salvage Yard
-		[-114] = select(2,C_Garrison.GetBuildingInfo(95) ), 					-- Scribe's Quaters
-		[-115] = select(2,C_Garrison.GetBuildingInfo(51) ), 					-- Storehouse
-		[-116] = select(2,C_Garrison.GetBuildingInfo(94) ), 					-- Tailoring Emporium
-		[-117] = select(2,C_Garrison.GetBuildingInfo(60) ), 					-- The Forge
-		[-118] = select(2,C_Garrison.GetBuildingInfo(90) ), 					-- The Tannery
-		[-119] = select(2,C_Garrison.GetBuildingInfo(111) ), 					-- Trading Post
---Horde Unfortunately we are unable to localize the opposing faction's building names, but the majority of users will never notice this.
-		[-120] = select(2,C_Garrison.GetBuildingInfo(61) ), 					-- Lunarfall Excavation / Frostwall Mine
-		[-121] = select(2,C_Garrison.GetBuildingInfo(24) ), 					-- Lunarfall Inn / Frostwall Tavern
-		[-122] = select(2,C_Garrison.GetBuildingInfo(162) ), 					-- Gnomish Gearworks / Goblin Workshop
-		[-123] = select(2,C_Garrison.GetBuildingInfo(37) ), 					-- Mage Tower / Spirit Lodge
-		[-124] = select(2,C_Garrison.GetBuildingInfo(8) ), 						-- Dwarven Bunker / War Mill
--- Alliance
-		[-125] = select(2,C_Garrison.GetBuildingInfo(8) ), 						-- Dwarven Bunker / War Mill
-		[-126] = select(2,C_Garrison.GetBuildingInfo(162) ), 					-- Gnomish Gearworks / Goblin Workshop
-		[-127] = select(2,C_Garrison.GetBuildingInfo(61) ), 					-- Lunarfall Excavation / Frostwall Mine
-		[-128] = select(2,C_Garrison.GetBuildingInfo(24) ), 					-- Lunarfall Inn / Frostwall Tavern
-		[-129] = select(2,C_Garrison.GetBuildingInfo(37) ), 					-- Mage Tower / Spirit Lodge
+		[-100] = LFG_LIST_LEGACY, 												-- Legacy (Unassociated with shortcut)
+		[-102] = select(2,C_Garrison.GetBuildingInfo(76)),						-- Alchemy Lab
+		[-103] = select(2,C_Garrison.GetBuildingInfo(24)),						-- Barn
+		[-104] = select(2,C_Garrison.GetBuildingInfo(26)),						-- Barracks
+		[-105] = select(2,C_Garrison.GetBuildingInfo(93)), 						-- Enchanter's Study
+		[-106] = select(2,C_Garrison.GetBuildingInfo(91)), 						-- Engineering Works
+		[-107] = select(2,C_Garrison.GetBuildingInfo(64)), 						-- Fishing Shack
+		[-108] = select(2,C_Garrison.GetBuildingInfo(96)), 						-- Gem Boutique
+		[-109] = select(2,C_Garrison.GetBuildingInfo(159)), 					-- Gladiator's Sanctum
+		[-110] = select(2,C_Garrison.GetBuildingInfo(29)), 						-- Herb Garden
+		[-111] = select(2,C_Garrison.GetBuildingInfo(40)), 						-- Lumber Mill
+		[-112] = select(2,C_Garrison.GetBuildingInfo(42)), 						-- Menagerie
+		[-113] = select(2,C_Garrison.GetBuildingInfo(52)), 						-- Salvage Yard
+		[-114] = select(2,C_Garrison.GetBuildingInfo(95)), 						-- Scribe's Quaters
+		[-115] = select(2,C_Garrison.GetBuildingInfo(51)), 						-- Storehouse
+		[-116] = select(2,C_Garrison.GetBuildingInfo(94)), 						-- Tailoring Emporium
+		[-117] = select(2,C_Garrison.GetBuildingInfo(60)), 						-- The Forge
+		[-118] = select(2,C_Garrison.GetBuildingInfo(90)), 						-- The Tannery
+		[-119] = select(2,C_Garrison.GetBuildingInfo(111)), 					-- Trading Post
+--Horde [Swaps based on faction ONLY after a reloadui]
+		[-120] = select(2,C_Garrison.GetBuildingInfo(61)), 						-- Lunarfall Excavation / Frostwall Mine
+		[-121] = select(2,C_Garrison.GetBuildingInfo(34)), 						-- Lunarfall Inn / Frostwall Tavern
+		[-122] = select(2,C_Garrison.GetBuildingInfo(162)), 					-- Gnomish Gearworks / Goblin Workshop
+		[-123] = select(2,C_Garrison.GetBuildingInfo(37)), 						-- Mage Tower / Spirit Lodge
+		[-124] = select(2,C_Garrison.GetBuildingInfo(8)), 						-- Dwarven Bunker / War Mill
+-- Alliance [Swaps based on faction ONLY after a reloadui]
+		[-125] = select(2,C_Garrison.GetBuildingInfo(8)), 						-- Dwarven Bunker / War Mill
+		[-126] = select(2,C_Garrison.GetBuildingInfo(162)), 					-- Gnomish Gearworks / Goblin Workshop
+		[-127] = select(2,C_Garrison.GetBuildingInfo(61)),	 					-- Lunarfall Excavation / Frostwall Mine
+		[-128] = select(2,C_Garrison.GetBuildingInfo(34)), 						-- Lunarfall Inn / Frostwall Tavern
+		[-129] = select(2,C_Garrison.GetBuildingInfo(37)),	 					-- Mage Tower / Spirit Lodge
 --Transmog Sets
 		[-130] = "Thunderlord Set",
 		[-131] = "Shadowmoon Set",
@@ -640,6 +742,8 @@ AllTheThings.Locales.enUS = {
 		[-135] = "Stormwind Set",
 --Invasions
 		[-136] = GARRISON_LANDING_INVASION, 									-- Garrison Invasion
+		[-137] = string.format(SPELLBOOK_AVAILABLE_AT, 90),						-- Level 90
+		[-138] = string.format(SPELLBOOK_AVAILABLE_AT, 100),					-- Level 100
 		[-139] = RAID_BOSSES, 													-- Bosses
 -- Class Trial Sets
 		[-140] = "Communal",
@@ -658,26 +762,33 @@ AllTheThings.Locales.enUS = {
 -- Expansions
 		[-153] = EXPANSION_NAME0,												-- Classic
 		[-154] = EXPANSION_NAME1,												-- The Burning Crusade
-		[-155] = EXPANSION_NAME2 ,												-- Wrath of the Lich King
+		[-155] = EXPANSION_NAME2,												-- Wrath of the Lich King
 		[-156] = EXPANSION_NAME3,												-- Cataclysm
-		[-157] = EXPANSION_NAME4 ,												-- Mists of Pandaria
-		[-158] = EXPANSION_NAME5 ,												-- Warlords of Draenor
+		[-157] = EXPANSION_NAME4,												-- Mists of Pandaria
+		[-158] = EXPANSION_NAME5,												-- Warlords of Draenor
 		[-159] = EXPANSION_NAME6,												-- Legion
-		[-160] = TUTORIAL_TITLE53, 												-- Mounts
+		[-160] = TUTORIAL_TITLE53,												-- Mounts
 -- Other
 		[-161] = TOY,															-- Toy
 		[-162] = PETS,															-- Pets
 		[-163] = RESISTANCE0_NAME,  											-- Armor
-		
-		[-165] = "Junkboxes", 		
+		[-164] = string.format(SPELLBOOK_AVAILABLE_AT, 110),					-- Level 110
+		[-165] = "Junkboxes",
 		[-166] = GetSpellInfo(168819),											-- Pickpocketing
 		[-167] = GetSpellInfo(7738),											-- Fishing Poles
 		[-168] = FACTION_OTHER .. " " ..QUESTS_LABEL, 							-- Other Quests
 		[-169] = BOUNTY_BOARD_LOCKED_TITLE, 									-- Emissary Quests
 		[-170] = GetSpellInfo(41341), 											-- Balance of Power
 		[-171] = "Quest Chains",
-
+		[-172] = string.format(SPELLBOOK_AVAILABLE_AT, 120),					-- Level 120
+		[-173] = PLAYER_DIFFICULTY_TIMEWALKER,									-- Timewalking
+		[-174] = CALENDAR_FILTER_DARKMOON,										-- Darkmoon Faire
+		[-175] = CALENDAR_REPEAT_MONTHLY.." "..WORLD.." "..EVENTS_LABEL,		-- Monthly World Events
+		[-176] = CALENDAR_REPEAT_WEEKLY.." "..WORLD.." "..EVENTS_LABEL,			-- Weekly World Events
+		[-177] = GetSpellInfo(57055).." "..WORLD.." "..EVENTS_LABEL,			-- Mini Holidays
 -- Professions
+		[-178] = GetSpellInfo(20221), 											-- Goblin Engineering"Goblin Engineering",
+		[-179] = GetSpellInfo(20220), 											-- Gnomish Engineering
 		[-180] = select(4,GetGuildTradeSkillInfo(1)), 							-- Alchemy
 		[-181] = select(4,GetGuildTradeSkillInfo(2)), 							-- Blacksmithing
 		[-182] = select(4,GetGuildTradeSkillInfo(3)), 							-- Enchanting
@@ -693,18 +804,35 @@ AllTheThings.Locales.enUS = {
 		[-192] = PROFESSIONS_COOKING, 											-- Cooking
 		[-193] = PROFESSIONS_FIRST_AID, 										-- First Aid
 		[-194] = PROFESSIONS_FISHING, 											-- Fishing
+		-- Scroll of Resurrection Sets
+		[-195] = "Seraphic Set", -- Priest
+		[-196] = "Magesoul Set", -- Mage
+		[-197] = "Dreadsoul Set", -- Warlock
+		[-198] = "Wildsoul Set", -- Druid
+		[-199] = "Shadowstalking", -- Rogue
+		[-200] = "Beastsoul", -- Hunter
+		[-201] = "Stormbinder", -- Shaman
+		[-202] = "Zealous", -- Paladin
+		[-203] = "Valiant", -- Warrior
+		[-204] = "Ebonsoul", -- Death Knight
+		[-205] = "Battle for Azeroth",
+		[-206] = "Allied Races",
+		[-207] = "Lightforged Draenei",
+		[-208] = "Void Elves",
+		[-209] = "Highmountain Tauren",
+		[-210] = "Nightborne",
 -- Other
 		[-294] = "Killed First",
-		[-295] = "Killed Second",	
+		[-295] = "Killed Second",
 		[-296] = "Killed Fourth",
 		[-297] = MINIMAP_TRACKING_MAILBOX,										-- Mailbox
-		[-298] = BOSSES,														-- Bosses:
+		[-298] = BOSSES,														-- Bosses
 		[-299] = GARRISON_MISSIONS, 											-- Missions
 		[-300] = "Satchels of Helpful Goods",
 		[-301] = "Crates of Battlefield Goods",
-		[-302] = BATTLEFIELD_LEVEL.." 80-84", 									-- "Level Range 80-84",
-		[-303] = BATTLEFIELD_LEVEL.." 85-89",									-- "Level Range 85-89",
-		
+		[-302] = BATTLEFIELD_LEVEL.." 80-84", 									-- Level Range 80-84
+		[-303] = BATTLEFIELD_LEVEL.." 85-89",									-- Level Range 85-89
+
 		[-318] = ARMOR, 														-- Armor
 		[-319] = AUCTION_CATEGORY_WEAPONS, 										-- Weapons
 		[-320] = INVTYPE_HEAD, 													-- Head
@@ -736,7 +864,8 @@ AllTheThings.Locales.enUS = {
 		[-346] = GetSpellInfo(264),												-- Bows
 		[-347] = GetSpellInfo(5011),											-- Crossbows
 		[-348] = GetSpellInfo(15590),											-- Fist Weapons
-		
+		[-349] = GetSpellInfo(156365),											-- Cosmetic
+
 		[-356] = "Assault on the Dark Portal",
 		[-357] = GetSpellInfo(171866),											-- Sparring Arena Outpost
 		[-358] = GetSpellInfo(164028),											-- Lumber Mill Outpost
@@ -754,16 +883,27 @@ AllTheThings.Locales.enUS = {
 		[-369] = DUNGEON_FLOOR_NAXXRAMAS3,					 					-- The Military Quarter
 		[-370] = DUNGEON_FLOOR_NAXXRAMAS4, 										-- The Plague Quarter
 		[-371] = DUNGEON_FLOOR_NAXXRAMAS6, 										-- The Upper Necropolis
+		[-372] = RAID_DIFFICULTY1,												-- 10 Player
+		[-373] = RAID_DIFFICULTY2,												-- 25 Player
+		[-374] = RAID_DIFFICULTY3,												-- 10 Player (Heroic)
+		[-375] = RAID_DIFFICULTY4,												-- 25 Player (Heroic)
+		[-376] = PLAYER_DIFFICULTY1,											-- Normal
+		[-377] = PLAYER_DIFFICULTY2,											-- Heroic
+		[-378] = PLAYER_DIFFICULTY3,											-- Raid Finder
+		[-379] = PLAYER_DIFFICULTY4,											-- Flexible
+		[-380] = PLAYER_DIFFICULTY5,											-- Challenge
+		[-381] = PLAYER_DIFFICULTY6,											-- Mythic
 -- Blizzard Events and Anniversaries
 -- Lucetia Note: Leave these for now, some may be swapped to achieves instead.
-		[-491] = "Tarot Cards", 	
-		[-492] = "Illusions",		
+		[-491] = "Tarot Cards",
+		[-492] = "Illusions",
 		[-493] = TIME_UNKNOWN.." "..SPELL_TARGET_TYPE6_DESC, 					-- Unknown location
 		[-494] = MAC_OPTIONS_MISC, 												-- Miscellaneous
 		[-495] = TOY_BOX, 														-- Toy Box
+		[-496] = DUNGEON_FLOOR_DEEPRUNTRAM2,									-- Bizmo's Brawlpub
 		[-497] = GetSpellInfo(213410).." "..GetSpellInfo(76724),				-- Demonic Offering
 		[-498] = GetSpellInfo(23700),											-- Twisting Nether
-		[-499] = STRING_SCHOOL_ELEMENTAL.." "..RAID_BOSSES.." ("..CINEMATIC_NAME_4..")", 	-- [Cataclysm Pre-Launch
+		[-499] = STRING_SCHOOL_ELEMENTAL.." "..RAID_BOSSES.." ("..CINEMATIC_NAME_4..")", 	-- Cataclysm Pre-Launch
 		[-500] = "WoW Anniversary",
 
 		[-520] = "Expansion Pre-Launch Events",
@@ -774,46 +914,59 @@ AllTheThings.Locales.enUS = {
 		[-525] = "Warlords of Draenor: Iron Horde Incursion",
 		[-526] = "Legion: Legion Invasion",
 
-		[-531] = "Olympic Events",
+		[-531] = "2008 Spirit of Competition Event",
 		[-532] = "Heroes of the Storm Promotion",
 		[-533] = "Hearthstone Promotion",
 		[-534] = "Collector's Edition",
 		[-535] = "Blizzcon Event",
 		[-536] = "Overwatch Promotion",
 		[-537] = "Starcraft Promotion",
-		[-538] = "Diablo Promotion",
+		[-538] = "Diablo 20th Anniversary Promotion",
 		[-539] = "Gates of Ahn'Qiraj",
 		[-540] = "The Scourge Invasion",
-		[-541] = "Battle for Sun's Reach", 
+		[-541] = "Battle for Sun's Reach",
 		[-542] = "Battlefield: Barrens",
 		[-543] = "Legion Invasions",
-		[-544] = "WoW Collector Editions",
+		[-544] = "WoW Collector's Edition",
 		[-545] = "Blizzcon",
 		[-546] = REFER_A_FRIEND,												-- Recruit A Friend
-		
+		[-547] = "EU Only",
+		[-548] = "China Only",
+		[-549] = "Korea Only",
+		[-550] = "Starcraft Collector's Edition",
+		[-551] = "Diablo Collector's Edition",
+
+		[-553] = "2006 ICoke Promotion",
+		[-554] = "EU Fansite Promotion",
+		[-555] = "Korean Promotional Event",
+		[-556] = "Arena Tournament",
+		[-557] = "Korea World Event",
+		[-558] = "Battle.net World Championship Shanghai 2012",
+
 		[-560] = CINEMATIC_NAME_1,												-- World of Warcraft
-		[-561] = "2007 World Wide Invitational",
-		[-562] = "2008 World Wide Invitational",
+		[-561] = "2007 Worldwide Invitational",
+		[-562] = "2008 Worldwide Invitational",
 		[-563] = "Azeroth's Choppers",
 		[-564] = "Starcraft II: Wings of Liberty",
 		[-565] = "Starcraft II: Heart of the Swarm",
 		[-566] = "Diablo III",
 		[-567] = "Hearthstone",
-		[-568] = "Overwatch Origins & Collector's",
+		[-568] = "Overwatch: Origins",
+		[-569] = "Azeroth Academy Mentor Recruitment Promotion",
 
-		[-570] = BATTLE_PET_SOURCE_9, 											-- Trading Card Game
 		[-571] = BATTLE_PET_SOURCE_10, 											-- In-Game Shop
 		[-572] = "Heroes of the Storm",
-		[-573] = GetSpellInfo(2006).." "..GetSpellInfo(174779),					-- Resurrection Scroll (Scroll of Resurrection)
+		[-573] = SCROLL_OF_RESURRECTION,										-- Scroll of Resurrection
 		[-574] = "Diablo III Annual Pass",
 		[-575] = "Diablo III: Reaper of Souls",
 		[-576] = "StarCraft II: Legacy of the Void",
-		[-577] = "World of Warcraft Movie", 
+		[-577] = "World of Warcraft Movie",
 
-		[-1000] = WARDROBE_SETS, 												-- Sets	
-		[-1001] = "The Black Vault",					
+		[-1000] = WARDROBE_SETS, 												-- Sets
+		[-1001] = "The Black Vault",
 
-	-- Other Sets
+-- Other Sets
+		[-3159] = GARRISON_TIER.." 6.5 "..WARDROBE_SETS,
 		[-3160] = string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 21),
 		[-3161] = string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 20),
 		[-3162] = string.format(GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, 19),
@@ -845,10 +998,10 @@ AllTheThings.Locales.enUS = {
 		[-3188] = "Dungeon, Tier and Class Sets",
 		[-3189] = "Fel-Touched Weapons",
 
-	-- Holiday Sets
+-- Holiday Sets
 		[-3198] = GetSpellInfo(55005),												-- Brewfest Garb
 		[-3199] = "Midsummer Reveler Set",
-	-- Dungeon 1 Sets [Tier 0]
+-- Dungeon 1 Sets [Tier 0]
 		[-3200] = "Vestments of the Devout", -- Priest
 		[-3201] = "Magister's Regalia", -- Mage
 		[-3202] = "Dreadmist Rainment", -- Warlock
@@ -858,7 +1011,7 @@ AllTheThings.Locales.enUS = {
 		[-3206] = "The Elements", -- Shaman
 		[-3207] = "Lightforge Armor", -- Paladin
 		[-3208] = "Battlegear of Valor",  -- Warrior
-	-- Dungeon 2 Sets [Tier 0.5]
+-- Dungeon 2 Sets [Tier 0.5]
 		[-3209] = "Vestments of the Virtuous", -- Priest
 		[-3210] = "Sorcerer's Regalia", -- Mage
 		[-3211] = "Deathmist Rainment", -- Warlock
@@ -868,24 +1021,24 @@ AllTheThings.Locales.enUS = {
 		[-3215] = "The Five Thunders", -- Shaman
 		[-3216] = "Soulforge Armor", -- Paladin
 		[-3217] = "Battlegear of Heroism", -- Warrior
-	-- Anti-Undead Armor Sets [Scourge Event]
+-- Anti-Undead Armor Sets [Scourge Event]
 		[-3218] = "Blessed Regalia of Undead Cleansing",
 		[-3219] = "Undead Slayer's Blessed Armor",
 		[-3220] = "Blessed Garb of the Undead Slayer",
 		[-3221] = "Blessed Battlegear of the Undead Slaying",
-	-- Anti-Undead Armor Sets [Vanilla Scourge Event]
+-- Anti-Undead Armor Sets [Vanilla Scourge Event]
 		[-3222] = "Regalia of Undead Cleansing",
 		[-3223] = "Undead Slayer's Armor",
 		[-3224] = "Garb of the Undead Slayer",
 		[-3225] = "Battlegear of Undead Slaying",
-	-- Instance Sets
+-- Instance Sets
 		[-3226] = "Ironweave Battlesuit", -- Cloth
 		[-3227] = "The Postmaster", -- Cloth
 		[-3228] = "Necropile Raiment", -- Cloth
 		[-3229] = "Cadaverous Garb", -- Leather
 		[-3230] = "Bloodmail Regalia", -- Mail
 		[-3231] = "Deathbone Guardian", -- Plate
-	-- Cenarion Circle Set (Ruins of Ahn'Qiraj")
+-- Cenarion Circle Set (Ruins of Ahn'Qiraj")
 		[-3232] = "Finery of Infinite Wisdom", -- Priest
 		[-3233] = "Trappings of Vaulted Secrets", -- Mage
 		[-3234] = "Implements of Unspoken Names", -- Warlock
@@ -895,7 +1048,7 @@ AllTheThings.Locales.enUS = {
 		[-3238] = "Gift of the Gathering Storm", -- Shaman
 		[-3239] = "Battlegear of Eternal Justice", -- Paladin
 		[-3240] = "Battlegear of Unyielding Strength", -- Warrior
-	-- Cloth WQ Gear
+-- Cloth WQ Gear
 		[-3241] = "Arcane Singed Set",
 		[-3242] = "Bonespeaker Set",
 		[-3243] = "Manawracker Set",
@@ -905,7 +1058,7 @@ AllTheThings.Locales.enUS = {
 		[-3247] = "Roggthread Set",
 		[-3248] = "Seawitch Set",
 		[-3249] = "Sunfrost Set",
-	-- Zandalar Tribe Set (Zul'Gurub) [Tier 1.5]
+-- Zandalar Tribe Set (Zul'Gurub) [Tier 1.5]
 		[-3250] = "Confessor's Raiment", -- Priest
 		[-3251] = "Illusionist's Attire", -- Mage
 		[-3252] = "Demoniac's Threads", -- Warlock
@@ -915,11 +1068,11 @@ AllTheThings.Locales.enUS = {
 		[-3256] = "Augur's Regalia", -- Shaman
 		[-3257] = "Freethinker's Armor", -- Paladin
 		[-3258] = "Vindicator's Battlegear", -- Warrior
-	-- Cloth WQ Gear Continued
+-- Cloth WQ Gear Continued
 		[-3259] = "Terrorweave Set",
 		[-3260] = "Vault-Minder's Set",
 		[-3261] = "If you see this contact Lucetia please",
-	-- Leather WQ Gear
+-- Leather WQ Gear
 		[-3262] = "Swordsinger's Set",
 		[-3263] = "Rivermane Set",
 		[-3264] = "Mana-Saber Set",
@@ -932,7 +1085,7 @@ AllTheThings.Locales.enUS = {
 		[-3271] = "Brinewashed Set",
 		[-3272] = "Lunarblight Set",
 		[-3273] = "If you see this contact Lucetia please",
-	-- Mail WQ Gear
+-- Mail WQ Gear
 		[-3274] = "Ley Dragoon Set",
 		[-3275] = "Skyhorn Set",
 		[-3276] = "Sea Stalker's Set",
@@ -945,7 +1098,7 @@ AllTheThings.Locales.enUS = {
 		[-3283] = "Shrinebreaker Set",
 		[-3284] = "If you see this contact Lucetia please",
 		[-3285] = "If you see this contact Lucetia please",
-	-- Dungeon 3 Sets [Tier 3.5]
+-- Dungeon 3 Sets [Tier 3.5]
 		[-3286] = "Hallowed Raiment", -- Priest
 		[-3287] = "Incanter's Regalia", -- Mage
 		[-3288] = "Oblivion Raiment", -- Warlock
@@ -959,7 +1112,7 @@ AllTheThings.Locales.enUS = {
 		[-3296] = "Wastewalker Armor", -- Leather
 		[-3297] = "Desolation Battlegear", -- Mail
 		[-3298] = "Doomplate Battlegear", -- Plate
-	-- Plate WQ Gear	
+-- Plate WQ Gear
 		[-3299] = "Arcane Defender Set",
 		[-3300] = "Greystone Set",
 		[-3301] = "Portalguard Set",
@@ -971,13 +1124,13 @@ AllTheThings.Locales.enUS = {
 		[-3307] = "Nightsfall Set",
 		[-3308] = "Rockbound Set",
 		[-3309] = "If you see this contact Lucetia please",
-	-- Garrison Mission Table Sets
+-- Garrison Mission Table Sets
 		[-3310] = "Tormented Set",
 		[-3311] = "Munificent Set",
 		[-3312] = "Turbulent Set",
 		[-3313] = "Grandiose Set",
-	-- PvP Sets
-		-- Note: Some of these may go away once I check as I think I am localizing with gear sets, but leave for now
+-- PvP Sets
+	-- Note: Some of these may go away once I check as I think I am localizing with gear sets, but leave for now
 		[-4168] = "The Scale's Embrace",
 		[-4169] = "Embrace of the Viper",
 		[-4170] = "Warlords Season 3",
@@ -1000,25 +1153,26 @@ AllTheThings.Locales.enUS = {
 		[-4187] = "Season 1",
 		[-4188] = "Legacy Sets",
 		[-4189] = CALENDAR_TYPE_PVP.." "..LOOT_JOURNAL_ITEM_SETS, 					-- Instance Item Sets, PvP
--- Tier/Dungeon/Event/Holiday Sets 
+-- Tier/Dungeon/Event/Holiday Sets
 	-- Artifact Strings
-		[-5200] = "Base Appearance",		
-		[-5201] = "Class Hall Campaign", 	
-		[-5202] = "Balance of Power",		
-		[-5203] = "Prestige Rewards",		
-		[-5204] = "Challenge Appearance",	
-		[-5205] = "Hidden Appearance",		
+		[-5200] = "Base Appearance",
+		[-5201] = "Class Hall Campaign",
+		[-5202] = "Balance of Power",
+		[-5203] = "Prestige Rewards",
+		[-5204] = "Challenge Appearance",
+		[-5205] = "Hidden Appearance",
 	-- Class Sets
-		[-5349] = MAC_OPTIONS_MISC.." "..LOOT_JOURNAL_ITEM_SETS, 				-- Miscellaneous Item Sets
+		[-5349] = MAC_OPTIONS_MISC.." "..LOOT_JOURNAL_ITEM_SETS, 					-- Miscellaneous Item Sets
 		[-5350] = "Class Trial Item Sets",
-		[-5352] = GARRISON_TIER.." "..WARDROBE_SETS,							-- Tier Sets
---[[		-- Tier Set Numbers Localization
+		[-5352] = GARRISON_TIER.." "..WARDROBE_SETS,								-- Tier Sets
+--[[
+		-- Tier Set Numbers Localization
 		[-5992] = GARRISON_CURRENT_LEVEL.." "..WARDROBE_SETS, -- Tier 9 Sets
 --]]
-		[-6012] = BATTLE_PET_SOURCE_7.." "..WARDROBE_SETS, 						-- World Event Item Sets		
+		[-6012] = BATTLE_PET_SOURCE_7.." "..WARDROBE_SETS, 							-- World Event Item Sets
 -- Factions
-		[-9913] = FACTION_HORDE, 												-- Horde		
-		[-9914] = FACTION_ALLIANCE, 											-- Alliance
+		[-9913] = FACTION_HORDE, 													-- Horde
+		[-9914] = FACTION_ALLIANCE, 												-- Alliance
 -- Classes
 		[-9915] = GetSpellInfo(137032),	-- Discipline Priest Spec
 		[-9916] = GetSpellInfo(137031),	-- Holy Priest Spec
@@ -1056,18 +1210,18 @@ AllTheThings.Locales.enUS = {
 		[-9948] = GetSpellInfo(137008),	-- Blood Death Knight Spec
 		[-9949] = GetSpellInfo(137006),	-- Frost Death Knight Spec
 		[-9950] = GetSpellInfo(137007),	-- Unholy Death Knight Spec
-		[-9951] = GetSpellInfo(148462).." / "..GetSpellInfo(137031), -- Discipline / Holy Priest Spec
-		[-9952] = GetSpellInfo(234890).." / "..GetSpellInfo(137011), -- Guardian / Feral Druid Spec
-		[-9953] = GetSpellInfo(226693).." / "..GetSpellInfo(137050), -- Arms / Fury Warrior Spec
-		[-9954] = GetSpellInfo(200078).." / "..GetSpellInfo(137007), -- Frost / Unholy Death Knight Spec
+		[-9951] = GetSpellInfo(148462).." & "..GetSpellInfo(137031), 				-- Discipline / Holy Priest Spec
+		[-9952] = GetSpellInfo(234890).." & "..GetSpellInfo(137011), 				-- Guardian / Feral Druid Spec
+		[-9953] = GetSpellInfo(226693).." & "..GetSpellInfo(137050), 				-- Arms / Fury Warrior Spec
+		[-9954] = GetSpellInfo(200078).." & "..GetSpellInfo(137007), 				-- Frost / Unholy Death Knight Spec
 
-		[-100001] = ITEM_QUALITY6_DESC, 											-- Artifact		
+		[-100001] = ITEM_QUALITY6_DESC, 											-- Artifact
 
 -- Custom Subzone Names that we can't pull from the API because Blizz hates us
   -- Val'sharah
 		[-101801] = "Lunarwing Shallows",
 		[-101802] = "Lostlight Grotto",
-    
+
 -- Staff Picks
 		[-999995] = "Mage Set",
 		[-999996] = "Lucetia",
@@ -1075,8 +1229,9 @@ AllTheThings.Locales.enUS = {
 		[-999998] = "Crieve",
 		[-999999] = "Staff Picks",
 	},
-	
+
 	["OBJECT_ID_ICONS"] = {
+		[31] = "Interface\\Icons\\INV_Mount_AllianceLionG",
 		[34] = "Interface\\Icons\\INV_Drink_11",
 		[55] = "Interface\\Icons\\INV_Misc_Bone_HumanSkull_01",
 		[56] = "Interface\\Icons\\INV_Misc_Bone_HumanSkull_01",
@@ -1099,20 +1254,30 @@ AllTheThings.Locales.enUS = {
 		[35251] = "Interface\\Icons\\Garrison_BronzeChest",
 		[62483] = "Interface\\Icons\\INV_WorseRobot",
 		[112948] = "Interface\\Icons\\INV_Misc_Food_Lunchbox_Silver",
+		[131474] = "Interface\\Icons\\Creatureportrait_Nexus_Floating_Disc",
 		[138492] = "Interface\\Icons\\INV_Misc_Apexis_Shard",
 		[142195] = "Interface\\Icons\\INV_Misc_Map07",
+		[142487] = "Interface\\Icons\\INV_Engineering_Failure Detection Pylon",
 		[156561] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[161495] = "Interface\\Icons\\Battleground_Strongbox_Silver_Alliance",
 		[161521] = "Interface\\Icons\\Icon_PetFamily_Mechanical",
 		[161526] = "Interface\\Icons\\INV_Crate_08",
 		[164820] = "Interface\\Icons\\Achievement_Character_Dwarf_Male",
+		[164869] = "Interface\\Icons\\INV_Misc_Bowl_01",
 		[164955] = "Interface\\Icons\\INV_Misc_Gem_Crystal_01",
 		[164956] = "Interface\\Icons\\INV_Misc_Gem_Crystal_01",
 		[164957] = "Interface\\Icons\\INV_Misc_Gem_Crystal_01",
 		[176091] = "Interface\\Icons\\INV_Misc_Cauldron_Arcane",
+		[179485] = "Interface\\Icons\\Ability_Hunter_TrapLauncher",
+		[179501] = "Interface\\Icons\\INV_Crate_01",
 		[180448] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[180918] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[181011] = "Interface\\Icons\\INV_Misc_Book_11",
 		[181074] = "Interface\\Icons\\Garrison_SilverChest",
+		[181147] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[181150] = "Interface\\Icons\\INV_Misc_Book_11",
 		[181153] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[181333] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
 		[181334] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
 		[181335] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
 		[181336] = "Interface\\Icons\\INV_SummerFest_FireSpirit",
@@ -1217,8 +1382,10 @@ AllTheThings.Locales.enUS = {
 		[206944] = "Interface\\Icons\\INV_Misc_Shovel_01",
 		[207104] = "Interface\\Icons\\INV_Misc_Weathermachine_01",
 		[207179] = "Interface\\Icons\\INV_Misc_Cauldron_Arcane",
+		[207279] = "Interface\\Icons\\Achievement_General_HordeSlayer",
 		[207303] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
 		[207304] = "Interface\\Icons\\INV_Inscription_ScrollOfWisdom_01",
+		[207320] = "Interface\\Icons\\Achievement_General_AllianceSlayer",
 		[207321] = "Interface\\Icons\\Achievement_General_AllianceSlayer",
 		[207322] = "Interface\\Icons\\Achievement_General_AllianceSlayer",
 		[207323] = "Interface\\Icons\\Achievement_General_HordeSlayer",
@@ -1233,7 +1400,23 @@ AllTheThings.Locales.enUS = {
 		[208158] = "Interface\\Icons\\Achievement_Halloween_Candy_01",
 		[208159] = "Interface\\Icons\\Achievement_Halloween_Candy_01",
 		[208535] = "Interface\\Icons\\INV_Misc_Scales_FishOrange03",
+		[209076] = "Interface\\Icons\\INV_Crate_01",
 		[209095] = "Interface\\Icons\\INV_Crate_01",
+		[213363] = "Interface\\Icons\\inv_weapon_shortblade_46",
+		[213364] = "Interface\\Icons\\inv_pick_05",
+		[213741] = "Interface\\Icons\\inv_staff_07",
+		[213742] = "Interface\\Icons\\inv_mace_46",
+		[213743] = "Interface\\Icons\\inv_sword_38",
+		[213653] = "Interface\\Icons\\inv_spear_05",
+		[213749] = "Interface\\Icons\\inv_stave_2h_panprog_b_01",
+		[213768] = "Interface\\Icons\\inv_spear_05",
+		[213960] = "Interface\\Icons\\inv_torch_lit",
+		[213962] = "Interface\\Icons\\inv_knife_1h_mantid_01",
+		[213964] = "Interface\\Icons\\inv_polearm_2h_mantid_01",
+		[213967] = "Interface\\Icons\\inv_sword_1h_mantid_01",
+		[213968] = "Interface\\Icons\\inv_sword_2h_mantid_01",
+		[213969] = "Interface\\Icons\\inv_staff_2h_mantid_01",
+		[213972] = "Interface\\Icons\\inv_knife_1h_mantid_01",
 		[240616] = "Interface\\Icons\\INV_Misc_Bag_14",
 		[240617] = "Interface\\ICONS\\INV_Misc_Bag_10_Green.blp",
 		[240625] = "Interface\\Icons\\INV_QirajIdol_Rebirth_Holy",
@@ -1241,9 +1424,40 @@ AllTheThings.Locales.enUS = {
 		[246438] = "Interface\\Icons\\INV_Engineering_BlingtronsCircuitDesignTutorial",
 		[254007] = "Interface\\Icons\\Ability_Warrior_BloodBath",
 		[258978] = "Interface\\Icons\\INV_7XP_Inscription_TalentTome02",
+		[271849] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[271850] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[272455] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[272456] = "Interface\\Icons\\inv_misc_treasurechest04d",
 		[272487] = "Interface\\Icons\\INV_misc_twinyolkedegg",
+		[272770] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[272771] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273222] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273301] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273407] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273412] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273414] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273415] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273439] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273519] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273521] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273523] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273524] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273527] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273528] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273533] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273535] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[273538] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[276225] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[276227] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[277327] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[277340] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[277342] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[277343] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[277344] = "Interface\\Icons\\inv_misc_treasurechest04d",
+		[277349] = "Interface\\Icons\\inv_misc_treasurechest04d",
 	};
 	["OBJECT_ID_NAMES"] = {
+		[31] = "Old Lion Statue",
 		[34] = "Old Jug",
 		[55] = "A half-eaten body",
 		[56] = "Rolf's corpse",
@@ -1267,10 +1481,12 @@ AllTheThings.Locales.enUS = {
 		[35251] = "Karnitol's Chest",
 		[62483] = "A.I.D.A. Communicator",
 		[112948] = "Intrepid's Locked Strongbox",
+		[131474] = "The Discs of Norgannon",
 		[131979] = "Large Darkwood Chest",
 		[138492] = "Shards of Myzrael",
 		[141979] = "Ancient Treasure",
 		[142195] = "Woodpaw Battle Map",
+		[142487] = "The Sparklematic 5200",
 		[148502] = "Step 1: Page 9",
 		[156561] = "Wanted Poster",
 		[160845] = "Dark Coffer",
@@ -1278,17 +1494,25 @@ AllTheThings.Locales.enUS = {
 		[161521] = "Research Equipment",
 		[161526] = "Crate of Foodstuffs",
 		[164820] = "Dark Keeper Nameplate",
+		[164869] = "Spectral Chalice",
 		[164955] = "Northern Crystal Pylon",
 		[164957] = "Eastern Crystal Pylon",
 		[169243] = "Chest of The Seven",
 		[173232] = "Blacksmithing Plans",
 		[176091] = "Deadwood Cauldron",
+		[179485] = "A Broken Trap",
+		[179501] = "Knot Thimblejack's Cache",
 		[179564] = "Gordok Tribute Chest",
 		[179697] = "Arena Treasure Chest",
 		[180448] = "Wanted Poster: Deathclasp",
+		[180918] = "Wanted: Thaelis the Hungerer",
+		[181011] = "Magister Duskwither's Journal",
 		[181074] = "Arena Spoils",
 		[181083] = "Sothos and Jarien's Heirlooms",
+		[181147] = "Wanted Poster",
+		[181150] = "Dusty Journal",
 		[181153] = "Wanted Poster: Kel'gash the Wicked",
+		[181333] = "Flame of Ironforge",
 		[181334] = "Flame of Darnassus",
 		[181335] = "Flame of the Undercity",
 		[181336] = "Flame of Orgrimmar",
@@ -1354,7 +1578,7 @@ AllTheThings.Locales.enUS = {
 		[202080] = "Dart's Nest",
 		[202081] = "Takk's Nest",
 		[202082] = "Ravasaur Matriarch's Nest",
-		[202083] = "Razormaw Matriarch's Nest",		
+		[202083] = "Razormaw Matriarch's Nest",
 		[202135] = "Dadanga's Grave",
 		[202598] = "Big Nasty Plunger",
 		[202697] = "Eye of Twilight",
@@ -1394,8 +1618,10 @@ AllTheThings.Locales.enUS = {
 		[206944] = "Shovel",
 		[207104] = "Master Control Pump",
 		[207179] = "Winterfall Cauldron",
+		[207279] = "Warchief's Command Board",
 		[207303] = "Adventure Board",
 		[207304] = "Adventure Board",
+		[207320] = "Hero's Call Board",
 		[207321] = "Hero's Call Board",
 		[207322] = "Hero's Call Board",
 		[207323] = "Warchief's Command Board",
@@ -1416,12 +1642,28 @@ AllTheThings.Locales.enUS = {
 		[208158] = "Candy Bucket",
 		[208159] = "Candy Bucket",
 		[208535] = "Dried Acorn",
+		[209076] = "Anson's Crate",
 		[209095] = "Edgar's Crate",
 		[209270] = "Step 2: Page 78",
 		[209620] = "Darkmoon Treasure Chest",
+		[213363] = "Wodin's Mantid Shanker",
+		[213364] = "Ancient Pandaren Mining Pick",
 		[213651] = "Equipment Locker",
+		[213653] = "Pandaren Fishing Spear",
+		[213741] = "Ancient Jinyu Staff",
+		[213742] = "Hammer of Ten Thunders",
+		[213743] = "Jade Infused Blade",
+		[213749] = "Staff of the Hidden Master",
 		[213751] = "Sprite's Cloth Chest",
+		[213768] = "Hozen Warrior Spear",
 		[213842] = "Stash of Yaungol Weapons",
+		[213960] = "Yaungol Fire Carrier",
+		[213962] = "Wind-Reaver's Dagger of Quick Strikes",
+		[213964] = "Malik's Stalwart Spear",
+		[213967] = "Blade of the Prime",
+		[213968] = "Swarming Cleaver of Ka'roz",
+		[213969] = "Dissector's Staff of Mutation",
+		[213972] = "Blade of the Poisoned Mind",
 		[220641] = "Thunderlord's Cache",
 		[220820] = "Step 6: Page 1127",
 		[220821] = "Step 5: Page 845",
@@ -1456,6 +1698,7 @@ AllTheThings.Locales.enUS = {
 		[232406] = "Adventurer's Pack",
 		[232586] = "Rovo's Dagger",
 		[232587] = "Uzko's Knickknacks",
+		[232590] = "Void-Infused Crystal",
 		[232591] = "Beloved's Offering",
 		[232596] = "Ancestral Greataxe",
 		[232621] = "Strange Spore",
@@ -1533,6 +1776,7 @@ AllTheThings.Locales.enUS = {
 		[244473] = "Thunder Totem Stolen Goods",
 		[244628] = "Taurson's Prize",
 		[244678] = "Step 8: Page 5555",
+		[244965] = "Sheddle's Chest",
 		[245216] = "Step 3: Page 161",
 		[245793] = "Battered Journal",
 		[246438] = "Blingtron Circuit Design",
@@ -1541,7 +1785,7 @@ AllTheThings.Locales.enUS = {
 		[252267] = "Large Plundered Sack",
 		[252318] = "The Eye of Aman'thul",
 		[252412] = "Step 2: Mound of Dirt",
-		[252434] = "Step 12: Hungering Orb",	
+		[252434] = "Step 12: Hungering Orb",
 		[252557] = "Step 3: Hungering Orb",
 		[252558] = "Step 4: Hungering Orb",
 		[252559] = "Step 5: Hungering Orb",
@@ -1562,28 +1806,56 @@ AllTheThings.Locales.enUS = {
 		[254087] = "The Dreadblades",
 		[257392] = "Burning Plate of the Worldbreaker",
 		[258978] = "Waterlogged Tome",
-		[266289] = "Time Lost Chest",	
+		[266289] = "Time Lost Chest",
+		[266851] = "Wand of Simulated Life",
 		[268551] = "Curious Wyrmtongue Cache",
 		[269830] = "Step 9: Gift of the Mind-Seekers",
 		[270885] = "Step 1: Inconspicuous Note",
-		[272487] = "Oddly-Colored Egg",
+		[271849] = "Eredar War Supplies",
+		[271850] = "Eredar War Supplies",
 		[272039] = "Step 2: Inconspicuous Note",
 		[272046] = "Step 3: Mind Larva",
 		[272061] = "Step 4: Inconspicuous Note",
 		[272163] = "Step 5: Strange Skull",
 		[272165] = "Step 6: Inconspicuous Note",
+		[272455] = "Eredar War Supplies",
+		[272456] = "Eredar War Supplies",
+		[272487] = "Oddly-Colored Egg",
+		[272770] = "Eredar War Supplies",
+		[272771] = "Eredar War Supplies",
+		[273222] = "Eredar War Supplies",
+		[273301] = "Ancient Eredar Cache",
+		[273407] = "Ancient Eredar Cache",
+		[273412] = "Ancient Eredar Cache",
+		[273414] = "Ancient Eredar Cache",
+		[273415] = "Ancient Eredar Cache",
+		[273439] = "Ancient Eredar Cache",
+		[273519] = "Legion War Supplies",
+		[273521] = "Legion War Supplies",
+		[273523] = "Legion War Supplies",
+		[273524] = "Legion War Supplies",
+		[273527] = "Legion War Supplies",
+		[273528] = "Legion War Supplies",
+		[273533] = "Legion War Supplies",
+		[273535] = "Legion War Supplies",
+		[273538] = "Legion War Supplies",
 		[276224] = "Chest of Ill-Gotten Gains",
+		[276225] = "Student's Surprising Surplus",
+		[276226] = "Void-Tinged Chest",
+		[276227] = "Augari Secret Stash",
 		[276228] = "Desperate Eredar's Cache",
 		[276230] = "Doomseeker's Treasure",
 		[276490] = "Krokul Emergency Cache",
 		[277207] = "Legion Treasure Hoard",
-		[276226] = "Void-Tinged Chest",
 		[277205] = "Ancient Legion War Cache",
-		[244965] = "Sheddle's Chest",
-		[266851] = "Wand of Simulated Life",
-		[232590] = "Void-Infused Crystal",
+		[277327] = "Augari-Runed Chest",
+		[277340] = "Secret Augari Chest",
+		[277342] = "Augari Goods",
+		[277343] = "Long-Lost Augari Treasure",
+		[277344] = "Precious Augari Keepsakes",
+		[277349] = "Missing Augari Chest",
 	};
-	
+
 	-- Saved Instance Name => Dungeon Journal Instance Name Converter
 	-- If your saves aren't lining up, it's probably because Blizzard
 	-- didn't use the same localization for the instance. Sorry.
@@ -1608,41 +1880,41 @@ AllTheThings.Locales.enUS = {
 		["Tempest Keep"] = "The Eye";
 		["Violet Hold"] = "The Violet Hold";
 	};
-	
+
 	-- This is necessary to have because Blizzard does not always have the correct map ID at the time of zone change.
 	["ZONE_TEXT_TO_MAP_ID"] = {
 		["Onyxia's Lair"] = 718,
 		["The Trial of Style"] = -777,
 	};
-	
+
 	-- Unobtainable Listing (for fellow 100%s out there)
 	["UNOBTAINABLE_ITEM_TEXTURES"] = {
-		"Interface\\FriendsFrame\\StatusIcon-DnD", 	-- No Hope
-		"Interface\\FriendsFrame\\StatusIcon-Away", -- Little Hope
+		"Interface\\FriendsFrame\\StatusIcon-DnD", 		-- No Hope
+		"Interface\\FriendsFrame\\StatusIcon-Away", 	-- Little Hope
 		"Interface\\FriendsFrame\\StatusIcon-Online",	-- There is Hope
-		"Interface\\FriendsFrame\\StatusIcon-DnD", -- Legacy
-		"Interface\\FriendsFrame\\battlenet-status-offline", -- Nothing
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Lunar Festival
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Love is in the Air
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Noblegarden
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Children's Week
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Midsummer Fire Festival
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Trial of Style
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Pirate's Day
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Brewfest
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Harvest Festival
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Hallow's End
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Day of the Dead
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Pilgrim's Bounty
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Feast of the Winter Veil
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- Stranglethorn Fishing Extravaganza
-		"Interface\\FriendsFrame\\StatusIcon-Offline", -- WoW Anniversary 
+		"Interface\\FriendsFrame\\StatusIcon-DnD", 		-- Legacy
+		"Interface\\FriendsFrame\\battlenet-status-offline",	-- Nothing
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Lunar Festival
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Love is in the Air
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Noblegarden
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Children's Week
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Midsummer Fire Festival
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Trial of Style
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Pirate's Day
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Brewfest
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Harvest Festival
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Hallow's End
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Day of the Dead
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Pilgrim's Bounty
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Feast of the Winter Veil
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- Stranglethorn Fishing Extravaganza
+		"Interface\\FriendsFrame\\StatusIcon-Offline",	-- WoW Anniversary
 	};
 	["UNOBTAINABLE_ITEM_REASONS"] = {
-	     -- {header, description, name}, header: header id, 1-3 as above, 4 is legacy.
+		-- {header, description, name}, header: header id, 1-3 as above, 4 is legacy.
 		{1, "|CFFFF0000The source of this item has been removed or was never available to players.|r", "Never Available"}, -- No Hope -- 1
 		{1, "|CFFFF0000The source of this item has been removed and the item is Bind on Pickup or Bind on Account.|r", "BoP / BoA Item"}, -- No Hope -- 2
-		{1, "|CFFFF0000This is obtainable only during a special promotion by Blizzard.|r", "Blizzard Promotion"}, -- No Hope -- 3
+		{1, "|CFFFF0000This was obtainable only during a special promotion or one time event by Blizzard.|r", "Blizzard Promotion"}, -- No Hope -- 3
 		{1, "|CFFFF0000This item is purchaseable from a vendor provided you meet certain qualifications.|r", "Legacy Achievement"},	-- Little Hope -- 4
 		{2, "|CFFFF0000The recipe to learn to craft this item has been removed, the item is bind on pickup and only available to a crafter with the recipe.|r", "Recipe: BoP Craftable Removed"}, -- Little Hope -- 5
 		{2, "|CFFFF0000Item is included in Collector's Edition's, you can still find these for sale online in very low quantities.|r", "Collector's Edition"}, -- Little Hope -- 6
@@ -1651,31 +1923,31 @@ AllTheThings.Locales.enUS = {
 		{3, "|CFFFF0000The source of this item has been removed and is only available with the Black Market Auction House.|r", "Black Market AH (BMAH)"}, -- There is Hope -- 9
 		{3, "|CFFFF0000Item from TCG card is no longer in print, but still purchaseable online, sometimes BMAH, and possibly AH.|r", "Trading Card  Game (TCG)"}, -- There is Hope -- 10
 		{3, "|CFFFF0000This item is Bind on Pickup but can be obtained if you have access to the items to summon the boss.|r", "Requires Summoning Items"}, -- There is Hope -- 11
-		{4, "|CFFFF0000Quests in Legacy are no longer available in game. This section is solely for you to be able to see what was obtained on your account.|r", "Quests"}, -- 12 -- Used for Legacy Quest Headers ONLY
-		{4, "|CFFFF0000Due to the Cataclysm or other changes in mob level this mob no longer drops this item. Please inform us if you recieve an item listed here as a drop.|r", "Drop"}, -- 13 -- Used for Legacy Drop Headers ONLY
+		{4, "|CFFFF0000This is legacy content and the original version has been removed.|r", "Legacy Content"}; -- 12
+		{1, "|CFFFF0000Your follower's are too high and the mission for the cache will no longer spawn.|r", "Legacy Cache"}; -- 13
 		{2, "|CFFFF0000These items can't be purchased unless you have the required PvP Rating or were in the Top % of that season.|r", "PvP Elite/Gladiator"}, -- 14
-		{1, "|CFFFF0000This item has a Source ID, but apparently cannot be used for transmog and will likely be unlearnable.|r", "Untransmoggable"}, -- 15	
+		{1, "|CFFFF0000This item has a Source ID, but apparently cannot be used for transmog and will likely be unlearnable.|r", "Untransmoggable"}, -- 15
 		{2, "|CFFFF0000These items require either attending Blizzcon or purchasing a virtual ticket.  You may also find codes on various sites for high prices.|r", "Blizzcon"},--16
-		{6, "|CFF00FFDEIn order to obtain this item it requires Lunar Festival to be active.|r", "Lunar Festival"};--17
-		{7, "|CFF00FFDEIn order to obtain this item it requires Love is In the Air to be active.|r", "Love is In the Air"};--18
-		{8, "|CFF00FFDEIn order to obtain this item it requires Noblegarden to be active.|r", "Noblegarden"};--19
-		{9, "|CFF00FFDEIn order to obtain this item it requires Children's Week to be active.|r", "Children's Week"};--20
-		{10, "|CFF00FFDEIn order to obtain this item it requires Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival"};--21
-		{11, "|CFF00FFDEIn order to obtain this item it requires Trial of Style to be active.|r", "Trial of Style"};--22
-		{12, "|CFF00FFDEIn order to obtain this item it requires Pirate's Day to be active.|r", "Pirate's Day"};--23
-		{13, "|CFF00FFDEIn order to obtain this item it requires Brewfest to be active.|r", "Brewfest"};--24
-		{14, "|CFF00FFDEIn order to obtain this item it requires Harvest Festival to be active.|r", "Harvest Festival"};--25
-		{15, "|CFF00FFDEIn order to obtain this item it requires Hallow's End to be active.|r", "Hallow's End"};--26
-		{16, "|CFF00FFDEIn order to obtain this item it requires Day of the Dead to be active.|r", "Day of the Dead"};--27
-		{17, "|CFF00FFDEIn order to obtain this item it requires Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty"};--28
-		{18, "|CFF00FFDEIn order to obtain this item it requires Feast of Winter Veil to be active.|r", "Feast of Winter Veil"};--29
-		{19, "|CFF00FFDEIn order to obtain this item it requires Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza"};--30
+		{6, "|CFF00FFDEIn order to obtain this item it may require Lunar Festival to be active.|r", "Lunar Festival"};--17
+		{7, "|CFF00FFDEIn order to obtain this item it may require Love is In the Air to be active.|r", "Love is In the Air"};--18
+		{8, "|CFF00FFDEIn order to obtain this item it may require Noblegarden to be active.|r", "Noblegarden"};--19
+		{9, "|CFF00FFDEIn order to obtain this item it may require Children's Week to be active.|r", "Children's Week"};--20
+		{10, "|CFF00FFDEIn order to obtain this item it may require Midsummer Fire Festival to be active.|r", "Midsummer Fire Festival"};--21
+		{11, "|CFF00FFDEIn order to obtain this item it may require Trial of Style to be active.|r", "Trial of Style"};--22
+		{12, "|CFF00FFDEIn order to obtain this item it may require Pirate's Day to be active.|r", "Pirate's Day"};--23
+		{13, "|CFF00FFDEIn order to obtain this item it may require Brewfest to be active.|r", "Brewfest"};--24
+		{14, "|CFF00FFDEIn order to obtain this item it may require Harvest Festival to be active.|r", "Harvest Festival"};--25
+		{15, "|CFF00FFDEIn order to obtain this item it may require Hallow's End to be active.|r", "Hallow's End"};--26
+		{16, "|CFF00FFDEIn order to obtain this item it may require Day of the Dead to be active.|r", "Day of the Dead"};--27
+		{17, "|CFF00FFDEIn order to obtain this item it may require Pilgrim's Bounty to be active.|r", "Pilgrim's Bounty"};--28
+		{18, "|CFF00FFDEIn order to obtain this item it may require Feast of Winter Veil to be active.|r", "Feast of Winter Veil"};--29
+		{19, "|CFF00FFDEIn order to obtain this item it may require Stranglethorn Fishing Extravaganza to be active.|r", "Stranglethorn Fishing Extravaganza"};--30
 		{20, "|CFF00FFDEThis is obtainable only during the WoW Anniversary it was active. It's a possibility future anniversaries may include this item.|r\n", "WoW Anniversary"};--31
-		{4, "|CFFFF0000These are the original vanilla rewards for this quest. The quests were later reworked with new rewards. If you did complete this quest it is likely these items will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards"};--32
+		{4, "|CFFFF0000This is an original vanilla reward for this quest. The quest was later reworked with new rewards. If you did complete this quest it is likely this item will not be added to your transmog as Blizzard will add the rewards from the revamped quest.|r", "Classic Rewards"};--32
 		{4, "|CFFFF0000This vendor is no longer available in this spot or in game.|r", "Legacy Vendors"}; -- 33
-		{4, "|CFFFF0000This item was a quest award from a Legacy Quest no longer offered.|r", "Legacy Quest Reward"}; --34
-		{4, "|CFFFF0000This is legacy content and the original version has been removed.|r", "Legacy Content"}; -- 35
-		{1, "|CFFFF0000Your follower's are too high and the mission for the cache will no longer spawn.|r", "Legacy Cache"}; -- 36
+		{4, "|CFFFF0000This item was a quest award from a Legacy Quest that is no longer obtainable.|r", "Legacy Quest Reward"}; --34
+		{3, "|CFFFF0000This item is purchased from the In-Game Store.|r", "In-Game Store"}; --35
+		{21, "|CFFFF0000This was obtainable only during the WoW Anniversary when it was active and is no longer available.|r\n", "WoW Anniversary [Removed]"} -- 36
 	};
 };
 

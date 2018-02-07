@@ -14,11 +14,11 @@ RCDatabase = {
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["realm"] = {
 		["Proudmoore"] = {
@@ -39,14 +39,14 @@ RCDatabase = {
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["itemLevelOverall"] = 930,
+				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 754,
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 927.5,
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 928,
+				["itemLevelEquipped"] = 928.5,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
@@ -57,11 +57,11 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
-				["itemLevelEquipped"] = 933.1875,
+				["itemLevelEquipped"] = 933.6875,
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
-				["itemLevelOverall"] = 938.0625,
+				["itemLevelOverall"] = 943.6875,
 				["level"] = 110,
 				["firstProfLevel"] = 198,
 				["firstProf"] = "Mining",
@@ -134,11 +134,11 @@ RCDatabase = {
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 922.0625,
+				["itemLevelEquipped"] = 924.25,
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["itemLevelOverall"] = 922.0625,
+				["itemLevelOverall"] = 924.25,
 				["level"] = 110,
 				["firstProfLevel"] = 0,
 				["firstProf"] = "No 1st Prof",
@@ -197,15 +197,15 @@ RCDatabase = {
 				["firstProf"] = "No 1st Prof",
 			}, -- [2]
 			{
-				["secondProfLevel"] = 16,
-				["itemLevelEquipped"] = 31.4375,
+				["secondProfLevel"] = 168,
+				["itemLevelEquipped"] = 36.1875,
 				["class"] = "PRIEST",
 				["secondProf"] = "Inscription",
 				["name"] = "Alura",
 				["firstProf"] = "Herbalism",
-				["level"] = 28,
-				["firstProfLevel"] = 50,
-				["itemLevelOverall"] = 31.4375,
+				["level"] = 33,
+				["firstProfLevel"] = 97,
+				["itemLevelOverall"] = 36.1875,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 0,
