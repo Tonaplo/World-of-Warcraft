@@ -1,3 +1,9 @@
+VER 3 0100000000000004 "Ass CDs" "132299"
+/use 13
+/use 14
+/cast Vendetta
+/cast Kingsbane
+END
 VER 3 0100000000000003 "Cooldowns" "1390945"
 /cast Adrenaline Rush
 /cast Curse of the Dreadblades

@@ -1,4 +1,8 @@
 VER 3 0100000000000003 "Frost Cooldowns" "135840"
+/use 13
+/cast Empower Rune Weapon
+/cast Pillar of Frost
+/cast Obliteration
 END
 VER 3 0100000000000004 "Unholy CDs" "298674"
 /use 13

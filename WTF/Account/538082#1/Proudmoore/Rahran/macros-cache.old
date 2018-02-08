@@ -1,3 +1,9 @@
+VER 3 0100000000000004 "Ass CDs" "132299"
+/use 13
+/use 14
+/cast Vendetta
+/cast Kingsbane
+END
 VER 3 0100000000000003 "Cooldowns" "1390945"
 /cast Adrenaline Rush
 /cast Curse of the Dreadblades
@@ -5,8 +11,8 @@ VER 3 0100000000000003 "Cooldowns" "1390945"
 /use 14
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R2NM2RM3WT[x]5DT6HR7HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4RM[x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1LR1IH1MR1NM1HR2IH2LR2MR2IH2DM3HR3RM3OM3PM3MR[x]4NM4LR4EM4NM5IR5MR5LR5HR5NM6HR6EM6SH6NM6HR7SR7SH7NM7PT7PH8PT8SH8DT8EM8EM4RM0__[x][x][x]0__[x]0__[x][x][x]0__[x][x][x][x][x][x]0__[x][x][x][x]0__[x][x]0__[x][x][x]0__[x][x][x][x][x][x][x][x][x]0__[x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NPkdWomRag[x]MauRunOne[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rah[x][x][x][x][x][x]Bud[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NFouMylPraRylChaOweSunBakRedTyrSkaAriYinFluMik[x]ShaTerLimCelStrPyrAzrHunArvAmaAniCanWìnThuEltDesNicAraCooMygShaCicVerBalRahKhu[x][x][x]Chi[x]Rok[x][x][x]Wol[x][x][x][x][x][x]Inf[x][x][x][x]Zhe[x][x]gho[x][x][x]Hul[x][x][x][x][x][x][x][x][x]Too[x]
 END

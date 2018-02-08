@@ -1,3 +1,28 @@
+VER 3 0100000000000003 "fear" "INV_MISC_QUESTIONMARK"
+#showtooltip Fear
+/target Tugar
+/cast Fear
+END
+VER 3 0100000000000006 "Havoc" "INV_MISC_QUESTIONMARK"
+#showtooltip Havoc
+/target Jormog
+/cast Havoc
+/target Tugar
+END
+VER 3 0100000000000004 "Mortal coil" "INV_MISC_QUESTIONMARK"
+#showtooltip Mortal Coil
+/target Tugar
+/cast Mortal Coil
+END
+VER 3 0100000000000007 "Power" "134331"
+/use Potion of Prolonged Power
+/use Drums of Fury
+END
+VER 3 0100000000000005 "Spell Lock" "INV_MISC_QUESTIONMARK"
+#showtooltip Spell Lock
+/target Tugar
+/caster Spell Lock
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

@@ -10,66 +10,102 @@ DataStore_MailsDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1512798914,
+				["lastUpdate"] = 1518060955,
+				["lastVisitDate"] = "2018/02/07 19:35",
+			},
+			["Default.Tichondrius.Mallusof"] = {
+				["lastUpdate"] = 1517885513,
 				["Mails"] = {
 					{
-						["sender"] = "Rahran",
+						["sender"] = "Amranar",
 						["itemID"] = 152738,
-						["link"] = "|cff0070dd|Hitem:152738::::::::110:260::::::|h[Unsullied Cloth Cap]|h|r",
+						["link"] = "|cff0070dd|Hitem:152738::::::::110:102::::::|h[Unsullied Cloth Cap]|h|r",
 						["count"] = 1,
-						["lastCheck"] = 1512880142,
+						["lastCheck"] = 1518056776,
 						["icon"] = 422805,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
-						["sender"] = "Rahran",
-						["itemID"] = 153156,
-						["link"] = "|cff0070dd|Hitem:153156::::::::110:260::::::|h[Unsullied Cloth Sash]|h|r",
+						["sender"] = "Amranar",
+						["itemID"] = 152738,
+						["link"] = "|cff0070dd|Hitem:152738::::::::110:102::::::|h[Unsullied Cloth Cap]|h|r",
 						["count"] = 1,
-						["icon"] = 422795,
-						["lastCheck"] = 1512943141,
+						["lastCheck"] = 1518056776,
+						["icon"] = 422805,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
-						["sender"] = "Rahran",
-						["itemID"] = 153154,
-						["link"] = "|cff0070dd|Hitem:153154::::::::110:260::11::::|h[Unsullied Cloth Leggings]|h|r",
+						["sender"] = "Amranar",
+						["itemID"] = 153141,
+						["link"] = "|cff0070dd|Hitem:153141::::::::110:102::11::::|h[Unsullied Cloth Mitts]|h|r",
 						["count"] = 1,
-						["icon"] = 422807,
-						["lastCheck"] = 1512937859,
+						["lastCheck"] = 1518056776,
+						["icon"] = 422803,
 						["daysLeft"] = 30,
 					}, -- [3]
 					{
-						["sender"] = "Praerend",
-						["itemID"] = 153135,
-						["link"] = "|cff0070dd|Hitem:153135::::::::110:71::11::::|h[Unsullied Cloth Robes]|h|r",
+						["sender"] = "Amranar",
+						["itemID"] = 152733,
+						["link"] = "|cff0070dd|Hitem:152733::::::::110:102::::::|h[Unsullied Trinket]|h|r",
 						["count"] = 1,
-						["icon"] = 422801,
-						["lastCheck"] = 1517984283,
+						["lastCheck"] = 1518056776,
+						["icon"] = 897034,
 						["daysLeft"] = 30,
 					}, -- [4]
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153141,
+						["link"] = "|cff0070dd|Hitem:153141::::::::110:102::::::|h[Unsullied Cloth Mitts]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056776,
+						["icon"] = 422803,
+						["daysLeft"] = 30,
+					}, -- [5]
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153135,
+						["link"] = "|cff0070dd|Hitem:153135::::::::110:102::11::::|h[Unsullied Cloth Robes]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056776,
+						["icon"] = 422801,
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153156,
+						["link"] = "|cff0070dd|Hitem:153156::::::::110:102::11::::|h[Unsullied Cloth Sash]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056776,
+						["icon"] = 422795,
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "Faerand",
+						["itemID"] = 153135,
+						["link"] = "|cff0070dd|Hitem:153135::::::::110:253::11::::|h[Unsullied Cloth Robes]|h|r",
+						["count"] = 1,
+						["icon"] = 422801,
+						["lastCheck"] = 1518059363,
+						["daysLeft"] = 30,
+					}, -- [8]
 				},
-				["lastVisitDate"] = "2017/12/08 21:55",
-			},
-			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1517885513,
 				["lastVisitDate"] = "2018/02/05 18:51",
 			},
 			["Default.Tichondrius.Alura"] = {
@@ -82,22 +118,40 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1517657124,
+				["Mails"] = {
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153157,
+						["link"] = "|cff0070dd|Hitem:153157::::::::110:102::::::|h[Unsullied Plate Gauntlets]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056785,
+						["icon"] = 359499,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153157,
+						["link"] = "|cff0070dd|Hitem:153157::::::::110:102::11::::|h[Unsullied Plate Gauntlets]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056785,
+						["icon"] = 359499,
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153157,
+						["link"] = "|cff0070dd|Hitem:153157::::::::110:102::::::|h[Unsullied Plate Gauntlets]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056785,
+						["icon"] = 359499,
+						["daysLeft"] = 30,
+					}, -- [3]
+				},
 				["lastVisitDate"] = "2018/02/03 03:25",
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1516262098,
-				["Mails"] = {
-					{
-						["sender"] = "Praerend",
-						["itemID"] = 153151,
-						["link"] = "|cff0070dd|Hitem:153151::::::::110:71::11::::|h[Unsullied Leather Tunic]|h|r",
-						["count"] = 1,
-						["icon"] = 436838,
-						["lastCheck"] = 1517984303,
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2018/01/17 23:54",
+				["lastUpdate"] = 1518068124,
+				["lastVisitDate"] = "2018/02/07 21:35",
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1517705611,
@@ -108,24 +162,24 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/01/19 12:35",
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1516687643,
-				["lastVisitDate"] = "2018/01/22 22:07",
+				["lastUpdate"] = 1518057061,
+				["lastVisitDate"] = "2018/02/07 18:31",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1517724439,
-				["lastVisitDate"] = "2018/02/03 22:07",
+				["lastUpdate"] = 1518071885,
+				["lastVisitDate"] = "2018/02/07 22:38",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
 				["lastVisitDate"] = "2018/01/20 20:38",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1517470637,
-				["lastVisitDate"] = "2018/01/31 23:37",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518059365,
+				["lastVisitDate"] = "2018/02/07 19:09",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1517984412,
-				["lastVisitDate"] = "2018/02/06 22:20",
+				["lastUpdate"] = 1518071922,
+				["lastVisitDate"] = "2018/02/07 22:38",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1517641750,
@@ -135,10 +189,19 @@ DataStore_MailsDB = {
 						["itemID"] = 153138,
 						["link"] = "|cff0070dd|Hitem:153138::::::::110:71::::::|h[Unsullied Mail Legguards]|h|r",
 						["count"] = 1,
-						["icon"] = 430976,
 						["lastCheck"] = 1517984407,
+						["icon"] = 430976,
 						["daysLeft"] = 30,
 					}, -- [1]
+					{
+						["sender"] = "Amranar",
+						["itemID"] = 153149,
+						["link"] = "|cff0070dd|Hitem:153149::::::::110:102::::::|h[Unsullied Mail Gloves]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518056793,
+						["icon"] = 430973,
+						["daysLeft"] = 30,
+					}, -- [2]
 				},
 				["lastVisitDate"] = "2018/02/02 23:09",
 			},
@@ -147,12 +210,12 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1517625984,
-				["lastVisitDate"] = "2018/02/02 18:46",
+				["lastUpdate"] = 1518069078,
+				["lastVisitDate"] = "2018/02/07 21:51",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1516088276,
-				["lastVisitDate"] = "2018/01/15 23:37",
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1518071973,
+				["lastVisitDate"] = "2018/02/07 22:39",
 			},
 		},
 	},

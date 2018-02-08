@@ -1,3 +1,8 @@
+VER 3 0100000000000003 "Chaos Fury" "INV_MISC_QUESTIONMARK"
+#showtooltip Chaos Nova
+/cast Chaos Nova
+/cast Fury of the Illidari
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1NM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
