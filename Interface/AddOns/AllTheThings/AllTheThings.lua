@@ -594,17 +594,29 @@ local function GetCachedSearchResults(search, method, ...)
 				cache[2] = group;
 				if GetDataMember("ShowSources") then
 					local temp = {};
+					local count = 0;
 					local abbrevs = L("ABBREVIATIONS");
 					for i,j in ipairs(group) do
-						local text = BuildSourceText(j, 0, j.qg);
-						for source,replacement in pairs(abbrevs) do
-							text = string.gsub(text, source,replacement);
+						if j.parent and j.parent.parent then
+							local text = BuildSourceText(j, 0, j.qg);
+							for source,replacement in pairs(abbrevs) do
+								text = string.gsub(text, source,replacement);
+							end
+							tinsert(temp, text);
+							if not GetDataMember("ShowAllSources") then break; end
+							
+							count = count + 1;
+							if count > 25 then
+								count = #group - count;
+								if count > 1 then
+									tinsert(temp, "And " .. count .. " other sources...");
+									break;
+								end
+							end
 						end
-						tinsert(temp, 1, text);
-						if not GetDataMember("ShowAllSources") then break; end
 					end
 					for i,j in ipairs(temp) do
-						tinsert(listing, 1, j);
+						tinsert(listing, i, j);
 					end
 				end
 				if #group > 0 and group[1].u then
@@ -1158,6 +1170,13 @@ local function SearchForItemLink(link)
 						group = SearchForSourceIDQuickly(sourceID) or SearchForItemIDQuickly(itemID);
 					end
 					
+					if group and #group > 0 then
+						if group[1].u and group[1].u == 7 and numBonusIds and numBonusIds ~= "" and tonumber(numBonusIds) > 0 then
+							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE"));
+							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE_PT2"));
+						end
+					end
+					
 					local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
 					if sourceInfo then
 						--[[
@@ -1235,6 +1254,13 @@ local function SearchForItemLink(link)
 						group = SearchForItemID(itemID);
 					else
 						group = SearchForItemIDQuickly(itemID);
+					end
+					
+					if group and #group > 0 then
+						if group[1].u and group[1].u == 7 and numBonusIds and numBonusIds ~= "" and tonumber(numBonusIds) > 0 then
+							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE"));
+							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE_PT2"));
+						end
 					end
 				end
 				
@@ -1694,13 +1720,17 @@ local function SetCompletionistMode(completionistMode, fromSettings)
 		local setting = _G[app:GetName() .. "-CompletionistMode"];
 		if setting then setting:SetChecked(completionistMode); end
 	end
-	app.print(completionistMode and "Entering Completionist Mode..." or "Entering Unique Appearances Mode...");
+	app.print(completionistMode and "Entering Completionist Mode..." or GetDataMember("MainOnly") and "Entering Unique Appearances Mode (Main Only)..." or "Entering Unique Appearances Mode...");
 	SetDataMember("CompletionistMode", completionistMode);
 	SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the Source ID data cache.
 	if completionistMode then
 		app.ItemSourceFilter = app.FilterItemSource;
 	else
-		app.ItemSourceFilter = app.FilterItemSourceUnique;
+		if GetDataMember("MainOnly") then
+			app.ItemSourceFilter = app.FilterItemSourceUniqueOnlyMain;
+		else
+			app.ItemSourceFilter = app.FilterItemSourceUnique;
+		end
 	end
 	RefreshCollections();
 end
@@ -3015,6 +3045,8 @@ app.BaseTitle = {
 			return "titleID";
 		elseif key == "collectable" then
 			return true;
+		elseif key == "f" then
+			return 110;
 		elseif key == "collected" then
 			if GetDataSubMember("CollectedTitles", t.titleID) == 1 then return 1; end
 			if IsTitleKnown(t.titleID) then
@@ -3038,7 +3070,7 @@ app.BaseTitle = {
 						-- Suffix
 						local first = string.sub(name, 2, 2);
 						if first == string.upper(first) then
-							return UnitName("player") .. "," .. name;
+							return UnitName("player") .. ", " .. name;
 						else
 							return UnitName("player") .. name;
 						end
@@ -3054,7 +3086,7 @@ app.BaseTitle = {
 					return UnitName("player") .. name;
 				elseif t.style == 2 then
 					-- Comma Separated
-					return UnitName("player") .. "," .. name;
+					return UnitName("player") .. ", " .. name;
 				end
 			end
 		else
@@ -3359,6 +3391,134 @@ function app.FilterItemSourceUnique(sourceInfo)
 		return false;
 	end
 end
+function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
+	if sourceInfo.isCollected then
+		-- NOTE: This makes it so that the loop isn't necessary.
+		return true;
+	else
+		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
+		local item = SearchForSourceIDVeryQuickly(sourceInfo.sourceID);
+		if item then
+			-- If the first item is class locked...
+			if item.classes then
+				if item.races then
+					-- If the first item is ALSO race locked...
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										if containsAny(otherItem.classes, item.classes) then
+											if otherItem.races then
+												-- If this item is ALSO race locked.
+												if containsAny(otherItem.races, item.races) then
+													-- Since the source item is locked to the same race and class, you unlock the source ID. Congrats, mate!
+													return true;
+												end
+											else
+												-- This item is not race locked.
+												-- Since the source item is race locked, but this item matches the class requirements and is not race locked, you unlock the source ID. Congrats, mate!
+												return true;
+											end
+										end
+									else
+										-- This item is not class locked.
+										-- Since this item is also not class or race locked, you unlock the source ID. Congrats, mate!
+										return true;
+									end
+								end
+							end
+						end
+					end
+				else
+					-- Not additionally race locked.
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										if containsAny(otherItem.classes, item.classes) then
+											if otherItem.races then
+												-- Since the item is race locked, you don't unlock this source ID despite matching the class. Sorry mate.
+											else
+												-- This item is not race locked.
+												-- Since this item is also not race locked, you unlock the source ID. Congrats, mate!
+												return true;
+											end
+										end
+									else
+										-- This item is not class locked.
+										if otherItem.races then
+											-- Since the item is race locked, you don't unlock this source ID despite matching the class. Sorry mate.
+										else
+											-- This item is not race locked.
+											-- Since this item is also not race locked, you unlock the source ID. Congrats, mate!
+											return true;
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			else
+				if item.races then
+					-- If the first item is race locked...
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									if otherItem.classes then
+										-- If this item is class locked...
+										-- Since the item is class locked, you don't unlock this source ID despite matching the class. Sorry mate.
+									else
+										-- This item is not class locked.
+										if otherItem.races then
+											-- If this item is race locked.
+											if containsAny(otherItem.races, item.races) then
+												-- Since the source item is locked to the same race and class, you unlock the source ID. Congrats, mate!
+												return true;
+											end
+										else
+											-- This item is not race locked.
+											-- Since the source item is locked to the a race, but this item is not, you unlock the source ID. Congrats, mate!
+											return true;
+										end
+									end
+								end
+							end
+						end
+					end
+				else
+					-- Not race nor class locked.
+					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+						if sourceID ~= sourceInfo.sourceID then
+							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
+							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
+								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								if otherItem and item.f == otherItem.f then
+									-- Check for class and race locks...
+									if app.FilterItemClass_RequireClasses(otherItem.classes) and app.FilterItemClass_RequireRaces(otherItem.races) then
+										return true; -- Okay, fine. You are this class. Enjoy your +1, cheater. D:
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+		return false;
+	end
+end
 function app.FilterItemTrackable(group)
 	return group.trackable;
 end
@@ -3566,18 +3726,47 @@ local function CreateSettingsMenu()
 		end);
 		
 		
-		-- This creates the completiionst Mode checkBox --
+		-- This creates the completionst Mode checkBox --
 		self.CompletionistMode = CreateFrame("CheckButton", name .. "-CompletionistMode", self, "InterfaceOptionsCheckButtonTemplate");
 		CreateCheckBox(self.CompletionistMode, self, "|CFFADD8E6Completionist Mode|r", 25, -150, GetDataMember("CompletionistMode")); 
 		self.CompletionistMode:SetScript("OnClick", function(self)
 			SetCompletionistMode(self:GetChecked(), true);
+			if self:GetChecked() then
+				mainFrame.MainOnly:Hide();
+			else
+				mainFrame.MainOnly:Show();
+			end
 		end);
 		self.CompletionistMode:SetScript("onEnter", function(self)
 			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
-			GameTooltip:SetText ("When turned on shows you ALL items you are missing the appearances from. Turn off if you only want to collect the appearance id.", nil, nil, nil, nil, true);
+			GameTooltip:SetText ("Turn this setting off if you want ATT to *pretend* that you've earned shared appearances for items that qualify for the same unlock requirements.\n\nItems 'Collected' through this mode will be marked with an asterisk (*). This means that you haven't collected that specific source of the appearance yet.", nil, nil, nil, nil, true);
 			GameTooltip:Show();
+			if self:GetChecked() then
+				mainFrame.MainOnly:Hide();
+			else
+				mainFrame.MainOnly:Show();
+			end
 		end);
 
+		-- This creates the "I only care about my main" checkBox --
+		self.MainOnly = CreateFrame("CheckButton", name .. "-MainOnly", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.MainOnly, self, L("I_ONLY_CARE_ABOUT_MY_MAIN"), 35, -170, GetDataMember("MainOnly")); 
+		self.MainOnly:SetScript("OnClick", function(self)
+			SetDataMember("MainOnly", self:GetChecked());
+			SetCompletionistMode(GetDataMember("CompletionistMode"));
+		end);
+		self.MainOnly:SetScript("onEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Turn this setting on if you additionally want ATT to *pretend* that you've earned all shared appearances not locked by a different race or class.\n\nAs an example, if you have collected a " .. GetClassInfo(app.ClassIndex) .. "-Only Tier Piece from ICC and there is a shared appearance from the raid without class/race restrictions, ATT will *pretend* that you've earned that appearance for your current class. (Shift + Click will refresh this data for your alts if you decide to earn appearances on them.)", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		if GetDataMember("CompletionistMode") then
+			self.MainOnly:Hide();
+		else
+			self.MainOnly:Show();
+		end
+
+		
 		self.PlayFanfare = CreateFrame("CheckButton", name .. "-PlayFanfare", self, "InterfaceOptionsCheckButtonTemplate");
 		CreateCheckBox(self.PlayFanfare, self, "Play Collection Fanfare", 300, -50, GetDataMember("PlayFanfare", true));
 		self.PlayFanfare:SetScript("OnClick", function(self)
@@ -3933,40 +4122,40 @@ local function CreateSettingsMenu()
 		-- "Armor Types" and "Non-Equipment Types"
 		local itemFilterNames = L("FILTER_ID_TYPES");
 		for itemClassID,filters in pairs({ [4] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 } }) do
-		local itemClassFilter = CreateFrame("CheckButton", name .. "-" .. itemClassID, self, "InterfaceOptionsCheckButtonTemplate");
-		itemClassFilter:SetPoint("TOPLEFT", self, "TOPLEFT", 10, -325);
-		itemClassFilter.itemClassID = itemClassID;
-		itemClassFilter.Label = _G[itemClassFilter:GetName() .. "Text"];
-		itemClassFilter.Label:SetText(GetItemClassInfo(itemClassID) .. " (" .. itemClassID .. ")");
-		itemClassFilter.Label:SetWidth(200);
-		itemClassFilter.groups = {};
-		itemClassFilter:SetScript("OnClick", function(self)
-			for j, f in ipairs(self.groups) do
-				local checked = not itemFilters[f.filter];
-				itemFilters[f.filter] = checked;
-				f:SetChecked(checked);
-			end
-			self:SetChecked(false);
-			app:RefreshData();
-		end);
-		local lastFilter = itemClassFilter;
-		for j, filter in ipairs(filters) do
-			local itemFilter = CreateFrame("CheckButton", itemClassFilter:GetName() .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
-			itemFilter:SetPoint("LEFT", self, "LEFT", 20, 0);
-			itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
-			itemFilter.filter = filter;
-			itemFilter.Label = _G[itemFilter:GetName() .. "Text"];
-			itemFilter.Label:SetText(itemFilterNames[filter] .. " (" .. filter .. ")");
-			itemFilter.Label:SetWidth(200);
-			lastFilter = itemFilter;
-			tinsert(itemClassFilter.groups, itemFilter);
-			itemFilter:SetChecked(itemFilters[filter]);
-			itemFilter:SetScript("OnClick", function(self)
-				itemFilters[self.filter] = self:GetChecked();
+			local itemClassFilter = CreateFrame("CheckButton", name .. "-" .. itemClassID, self, "InterfaceOptionsCheckButtonTemplate");
+			itemClassFilter:SetPoint("TOPLEFT", self, "TOPLEFT", 10, -325);
+			itemClassFilter.itemClassID = itemClassID;
+			itemClassFilter.Label = _G[itemClassFilter:GetName() .. "Text"];
+			itemClassFilter.Label:SetText(GetItemClassInfo(itemClassID) .. " (" .. itemClassID .. ")");
+			itemClassFilter.Label:SetWidth(200);
+			itemClassFilter.groups = {};
+			itemClassFilter:SetScript("OnClick", function(self)
+				for j, f in ipairs(self.groups) do
+					local checked = not itemFilters[f.filter];
+					itemFilters[f.filter] = checked;
+					f:SetChecked(checked);
+				end
+				self:SetChecked(false);
 				app:RefreshData();
 			end);
+			local lastFilter = itemClassFilter;
+			for j, filter in ipairs(filters) do
+				local itemFilter = CreateFrame("CheckButton", itemClassFilter:GetName() .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+				itemFilter:SetPoint("LEFT", self, "LEFT", 20, 0);
+				itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
+				itemFilter.filter = filter;
+				itemFilter.Label = _G[itemFilter:GetName() .. "Text"];
+				itemFilter.Label:SetText(itemFilterNames[filter] .. " (" .. filter .. ")");
+				itemFilter.Label:SetWidth(200);
+				lastFilter = itemFilter;
+				tinsert(itemClassFilter.groups, itemFilter);
+				itemFilter:SetChecked(itemFilters[filter]);
+				itemFilter:SetScript("OnClick", function(self)
+					itemFilters[self.filter] = self:GetChecked();
+					app:RefreshData();
+				end);
+			end
 		end
-	end
 		
 		
 			
@@ -4059,7 +4248,7 @@ local function CreateSettingsMenu()
 				
 		-- "Non-Equipment Types" (Part 2)
 		lastFilter = self.dummy;
-		for i,filter in ipairs({ 104, 108, 109, 200 }) do
+		for i,filter in ipairs({ 104, 108, 109, 110, 200 }) do
 			local itemFilter = CreateFrame("CheckButton", name .. "-15-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
 			itemFilter:SetPoint("LEFT", self.FilterGroupsByLevel, "LEFT", 285, 0);
 			itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
@@ -4510,7 +4699,7 @@ local function RowOnEnter(self)
 			if reference.parent.parent then
 				GameTooltip:AddDoubleLine(reference.parent.parent.text or RETRIEVING_DATA, reference.parent.text or RETRIEVING_DATA);
 			else
-				GameTooltip:AddLine(reference.parent.text or RETRIEVING_DATA, 1, 1, 1);
+				--GameTooltip:AddLine(reference.parent.text or RETRIEVING_DATA, 1, 1, 1);
 			end
 		end
 		
@@ -4978,7 +5167,7 @@ function app:GetDataCache()
 		allData = setmetatable({}, {
 			__index = function(t, key)
 				if key == "title" then
-					return GetDataMember("CompletionistMode") and "Completionist Mode" or "Unique Appearance Mode";
+					return GetDataMember("CompletionistMode") and "Completionist Mode" or GetDataMember("MainOnly") and "Unique Appearance Mode (Main Only)" or "Unique Appearance Mode";
 				else
 					-- Something that isn't dynamic.
 					return table[key];

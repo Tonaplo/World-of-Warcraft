@@ -34,7 +34,7 @@ DataStore_TalentsDB = {
 					11963, -- [2]
 					6565, -- [3]
 				},
-				["lastUpdate"] = 1518063577,
+				["lastUpdate"] = 1518160819,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -59,8 +59,8 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 332784022096,
-						["rank"] = 76,
+						["pointsRemaining"] = 16039530196,
+						["rank"] = 77,
 						["tier"] = 2,
 					},
 					["Underlight Angler"] = {
@@ -75,12 +75,12 @@ DataStore_TalentsDB = {
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
-						["rank"] = 58,
-						["pointsRemaining"] = 5244363570,
+						["rank"] = 60,
+						["pointsRemaining"] = 5280364770,
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1517893127,
+				["lastUpdate"] = 1518150113,
 				["Specializations"] = {
 					13718, -- [1]
 					9591, -- [2]
@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12155, -- [3]
 				},
-				["lastUpdate"] = 1518074152,
+				["lastUpdate"] = 1518160865,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -127,11 +127,11 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["EquippedArtifact"] = "The Silver Hand",
+				["EquippedArtifact"] = "Ashbringer",
 				["Artifacts"] = {
 					["Ashbringer"] = {
-						["pointsRemaining"] = 14537349500,
-						["rank"] = 60,
+						["pointsRemaining"] = 7177350350,
+						["rank"] = 62,
 						["tier"] = 2,
 					},
 					["The Silver Hand"] = {
@@ -146,11 +146,11 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1517678073,
+				["lastUpdate"] = 1518164712,
 				["Specializations"] = {
 					9558, -- [1]
 					6814, -- [2]
-					8087, -- [3]
+					6821, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -175,22 +175,22 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "HUNTER",
-				["lastUpdate"] = 1518147291,
+				["lastUpdate"] = 1518153798,
 				["Specializations"] = {
 					10135, -- [1]
 					15317, -- [2]
-					14181, -- [3]
+					10093, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["EquippedArtifact"] = "Felo'melorn",
+				["EquippedArtifact"] = "Aluneth, Greatstaff of the Magna",
 				["Artifacts"] = {
 					["Aluneth, Greatstaff of the Magna"] = {
 						["tier"] = 2,
-						["rank"] = 54,
-						["pointsRemaining"] = 198781320,
+						["rank"] = 58,
+						["pointsRemaining"] = 2092282720,
 					},
 					["Felo'melorn"] = {
 						["tier"] = 2,
@@ -204,9 +204,9 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1518126836,
+				["lastUpdate"] = 1518160751,
 				["Specializations"] = {
-					7670, -- [1]
+					7678, -- [1]
 					14262, -- [2]
 					6646, -- [3]
 				},
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1518071866,
+				["lastUpdate"] = 1518150232,
 				["Specializations"] = {
 					15087, -- [1]
 					6997, -- [2]
@@ -286,7 +286,7 @@ DataStore_TalentsDB = {
 				["Class"] = "SHAMAN",
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["EquippedArtifact"] = "Fangs of the Devourer",
+				["EquippedArtifact"] = "The Kingslayers",
 				["Artifacts"] = {
 					["The Dreadblades"] = {
 						["pointsRemaining"] = 49181800205,
@@ -299,17 +299,17 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["The Kingslayers"] = {
-						["pointsRemaining"] = 31630844320,
-						["rank"] = 63,
+						["pointsRemaining"] = 13519845820,
+						["rank"] = 65,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "ROGUE",
-				["lastUpdate"] = 1518131654,
+				["lastUpdate"] = 1518156741,
 				["Specializations"] = {
 					6614, -- [1]
 					7161, -- [2]
-					6522, -- [3]
+					7034, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -384,10 +384,10 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1517987881,
+				["lastUpdate"] = 1518158636,
 				["Specializations"] = {
 					9561, -- [1]
-					9631, -- [2]
+					5527, -- [2]
 					14299, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
@@ -832,6 +832,24 @@ DataStore_TalentsRefDB = {
 						22312, -- [1]
 						22313, -- [2]
 						22314, -- [3]
+						22325, -- [4]
+						22316, -- [5]
+						19758, -- [6]
+						22487, -- [7]
+						22094, -- [8]
+						19755, -- [9]
+						21751, -- [10]
+						22317, -- [11]
+						21753, -- [12]
+						22310, -- [13]
+						22311, -- [14]
+						21755, -- [15]
+						21718, -- [16]
+						21719, -- [17]
+						21720, -- [18]
+						21637, -- [19]
+						21978, -- [20]
+						21979, -- [21]
 					},
 				}, -- [3]
 			},

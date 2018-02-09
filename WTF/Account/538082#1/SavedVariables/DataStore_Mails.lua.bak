@@ -27,86 +27,12 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1518060955,
-				["lastVisitDate"] = "2018/02/07 19:35",
+				["lastUpdate"] = 1518160843,
+				["lastVisitDate"] = "2018/02/08 23:20",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1517885513,
-				["Mails"] = {
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 152738,
-						["link"] = "|cff0070dd|Hitem:152738::::::::110:102::::::|h[Unsullied Cloth Cap]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 422805,
-						["daysLeft"] = 30,
-					}, -- [1]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 152738,
-						["link"] = "|cff0070dd|Hitem:152738::::::::110:102::::::|h[Unsullied Cloth Cap]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 422805,
-						["daysLeft"] = 30,
-					}, -- [2]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 153141,
-						["link"] = "|cff0070dd|Hitem:153141::::::::110:102::11::::|h[Unsullied Cloth Mitts]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 422803,
-						["daysLeft"] = 30,
-					}, -- [3]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 152733,
-						["link"] = "|cff0070dd|Hitem:152733::::::::110:102::::::|h[Unsullied Trinket]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 897034,
-						["daysLeft"] = 30,
-					}, -- [4]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 153141,
-						["link"] = "|cff0070dd|Hitem:153141::::::::110:102::::::|h[Unsullied Cloth Mitts]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 422803,
-						["daysLeft"] = 30,
-					}, -- [5]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 153135,
-						["link"] = "|cff0070dd|Hitem:153135::::::::110:102::11::::|h[Unsullied Cloth Robes]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 422801,
-						["daysLeft"] = 30,
-					}, -- [6]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 153156,
-						["link"] = "|cff0070dd|Hitem:153156::::::::110:102::11::::|h[Unsullied Cloth Sash]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056776,
-						["icon"] = 422795,
-						["daysLeft"] = 30,
-					}, -- [7]
-					{
-						["sender"] = "Faerand",
-						["itemID"] = 153135,
-						["link"] = "|cff0070dd|Hitem:153135::::::::110:253::11::::|h[Unsullied Cloth Robes]|h|r",
-						["count"] = 1,
-						["icon"] = 422801,
-						["lastCheck"] = 1518059363,
-						["daysLeft"] = 30,
-					}, -- [8]
-				},
-				["lastVisitDate"] = "2018/02/05 18:51",
+				["lastUpdate"] = 1518149889,
+				["lastVisitDate"] = "2018/02/08 20:18",
 			},
 			["Default.Tichondrius.Alura"] = {
 				["lastUpdate"] = 1517900141,
@@ -117,45 +43,117 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/02/04 01:39",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1517657124,
+				["lastUpdate"] = 1518160796,
 				["Mails"] = {
 					{
-						["sender"] = "Amranar",
-						["itemID"] = 153157,
-						["link"] = "|cff0070dd|Hitem:153157::::::::110:102::::::|h[Unsullied Plate Gauntlets]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056785,
-						["icon"] = 359499,
+						["sender"] = "Fimwack",
+						["itemID"] = 142117,
+						["link"] = "|cffffffff|Hitem:142117::::::::110:267::::::|h[Potion of Prolonged Power]|h|r",
+						["count"] = 33,
+						["icon"] = 967532,
+						["lastCheck"] = 1518160842,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
-						["sender"] = "Amranar",
-						["itemID"] = 153157,
-						["link"] = "|cff0070dd|Hitem:153157::::::::110:102::11::::|h[Unsullied Plate Gauntlets]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056785,
-						["icon"] = 359499,
+						["sender"] = "Fimwack",
+						["itemID"] = 140587,
+						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
+						["count"] = 20,
+						["icon"] = 1118739,
+						["lastCheck"] = 1518160842,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
-						["sender"] = "Amranar",
-						["itemID"] = 153157,
-						["link"] = "|cff0070dd|Hitem:153157::::::::110:102::::::|h[Unsullied Plate Gauntlets]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056785,
-						["icon"] = 359499,
+						["sender"] = "Fimwack",
+						["itemID"] = 140587,
+						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
+						["count"] = 20,
+						["icon"] = 1118739,
+						["lastCheck"] = 1518160842,
 						["daysLeft"] = 30,
 					}, -- [3]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 140587,
+						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
+						["count"] = 6,
+						["icon"] = 1118739,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [4]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 120257,
+						["link"] = "|cff1eff00|Hitem:120257::::::::110:267::::::|h[Drums of Fury]|h|r",
+						["count"] = 20,
+						["icon"] = 133841,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [5]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 140587,
+						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
+						["count"] = 20,
+						["icon"] = 1118739,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 126934,
+						["link"] = "|cffffffff|Hitem:126934::::::::110:267::::::|h[Lemon Herb Filet]|h|r",
+						["count"] = 7,
+						["icon"] = 134034,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 120257,
+						["link"] = "|cff1eff00|Hitem:120257::::::::110:267::::::|h[Drums of Fury]|h|r",
+						["count"] = 11,
+						["icon"] = 133841,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [8]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 140587,
+						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
+						["count"] = 20,
+						["icon"] = 1118739,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [9]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 140587,
+						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
+						["count"] = 20,
+						["icon"] = 1118739,
+						["lastCheck"] = 1518160842,
+						["daysLeft"] = 30,
+					}, -- [10]
+					{
+						["sender"] = "Greybone",
+						["itemID"] = 127849,
+						["link"] = "|cffffffff|Hitem:127849::::::::110:251::::::|h[Flask of the Countless Armies]|h|r",
+						["count"] = 14,
+						["lastCheck"] = 1518160882,
+						["icon"] = 1385243,
+						["daysLeft"] = 30,
+					}, -- [11]
 				},
-				["lastVisitDate"] = "2018/02/03 03:25",
+				["lastVisitDate"] = "2018/02/08 23:19",
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1518068124,
-				["lastVisitDate"] = "2018/02/07 21:35",
+				["lastUpdate"] = 1518156771,
+				["lastVisitDate"] = "2018/02/08 22:12",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1517705611,
-				["lastVisitDate"] = "2018/02/03 16:53",
+				["lastUpdate"] = 1518159509,
+				["lastVisitDate"] = "2018/02/08 22:58",
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["lastUpdate"] = 1516394108,
@@ -166,68 +164,36 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/02/07 18:31",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1518071885,
-				["lastVisitDate"] = "2018/02/07 22:38",
+				["lastUpdate"] = 1518150247,
+				["lastVisitDate"] = "2018/02/08 20:24",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
 				["lastVisitDate"] = "2018/01/20 20:38",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1518139110,
-				["Mails"] = {
-					{
-						["lastCheck"] = 1518139110,
-						["sender"] = "Thaumaturge Vashreen",
-						["subject"] = "Lost Currency",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "We discovered some lost currency from Argus in our ledgers, and it apparently belongs to you. 19 Veiled Argunite have been added. If this caused you to go over your currency limit, we adjusted the amount to bring you to the limit and not go over!",
-						["icon"] = 134327,
-						["daysLeft"] = 29.9909496307373,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2018/02/08 17:18",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1518071922,
 				["lastVisitDate"] = "2018/02/07 22:38",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1517641750,
-				["Mails"] = {
-					{
-						["sender"] = "Praerend",
-						["itemID"] = 153138,
-						["link"] = "|cff0070dd|Hitem:153138::::::::110:71::::::|h[Unsullied Mail Legguards]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1517984407,
-						["icon"] = 430976,
-						["daysLeft"] = 30,
-					}, -- [1]
-					{
-						["sender"] = "Amranar",
-						["itemID"] = 153149,
-						["link"] = "|cff0070dd|Hitem:153149::::::::110:102::::::|h[Unsullied Mail Gloves]|h|r",
-						["count"] = 1,
-						["lastCheck"] = 1518056793,
-						["icon"] = 430973,
-						["daysLeft"] = 30,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2018/02/02 23:09",
+				["lastUpdate"] = 1518158739,
+				["lastVisitDate"] = "2018/02/08 22:45",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518153973,
+				["lastVisitDate"] = "2018/02/08 21:26",
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1518069078,
 				["lastVisitDate"] = "2018/02/07 21:51",
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518071973,
-				["lastVisitDate"] = "2018/02/07 22:39",
+				["lastUpdate"] = 1518160883,
+				["lastVisitDate"] = "2018/02/08 23:21",
 			},
 		},
 	},

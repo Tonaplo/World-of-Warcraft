@@ -34,6 +34,13 @@ X: 0
 Y: 0
 W: 648
 H: 455
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 2
+Y: 121
+W: 370
+H: 110
 Frame: ChartViewerWindowFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -48,13 +55,6 @@ X: 0
 Y: 0
 W: 50
 H: 50
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 2
-Y: 121
-W: 370
-H: 110
 Frame: ConditionerWatchFrame0
 FrameLevel: 0
 Anchor: CENTER

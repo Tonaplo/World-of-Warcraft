@@ -23,15 +23,15 @@ RCDatabase = {
 	["realm"] = {
 		["Proudmoore"] = {
 			{
-				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 932.875,
+				["secondProfLevel"] = 815,
+				["itemLevelEquipped"] = 932.75,
 				["class"] = "ROGUE",
 				["secondProf"] = "Skinning",
 				["name"] = "Rahran",
-				["itemLevelOverall"] = 935,
+				["firstProf"] = "Leatherworking",
 				["level"] = 110,
 				["firstProfLevel"] = 723,
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 935,
 			}, -- [1]
 			{
 				["secondProfLevel"] = 800,
@@ -57,11 +57,11 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
-				["itemLevelEquipped"] = 933.6875,
+				["itemLevelEquipped"] = 938.8125,
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
-				["itemLevelOverall"] = 943.6875,
+				["itemLevelOverall"] = 945.5625,
 				["level"] = 110,
 				["firstProfLevel"] = 198,
 				["firstProf"] = "Mining",
@@ -83,10 +83,10 @@ RCDatabase = {
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 				["name"] = "Fimwack",
-				["itemLevelOverall"] = 928.4375,
+				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 94,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 928.4375,
 			}, -- [6]
 			{
 				["secondProfLevel"] = 0,
@@ -101,11 +101,11 @@ RCDatabase = {
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 922.5625,
+				["itemLevelEquipped"] = 928.25,
 				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 				["name"] = "Granjior",
-				["itemLevelOverall"] = 929.5625,
+				["itemLevelOverall"] = 930.5,
 				["level"] = 110,
 				["firstProfLevel"] = 706,
 				["firstProf"] = "Mining",
@@ -134,7 +134,7 @@ RCDatabase = {
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 919.625,
+				["itemLevelEquipped"] = 923.5,
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",

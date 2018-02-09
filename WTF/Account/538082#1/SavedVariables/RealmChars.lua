@@ -37,15 +37,15 @@ RCDatabase = {
 		},
 		["Proudmoore"] = {
 			{
-				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 932.875,
+				["secondProfLevel"] = 815,
+				["itemLevelEquipped"] = 932.75,
 				["class"] = "ROGUE",
 				["secondProf"] = "Skinning",
 				["name"] = "Rahran",
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 935,
 				["level"] = 110,
 				["firstProfLevel"] = 723,
-				["itemLevelOverall"] = 935,
+				["firstProf"] = "Leatherworking",
 			}, -- [1]
 			{
 				["secondProfLevel"] = 800,
@@ -71,14 +71,14 @@ RCDatabase = {
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
-				["itemLevelEquipped"] = 933.6875,
+				["itemLevelEquipped"] = 938.8125,
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
 				["firstProf"] = "Mining",
 				["level"] = 110,
 				["firstProfLevel"] = 198,
-				["itemLevelOverall"] = 943.6875,
+				["itemLevelOverall"] = 945.5625,
 			}, -- [4]
 			{
 				["secondProfLevel"] = 704,
@@ -97,10 +97,10 @@ RCDatabase = {
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 				["name"] = "Fimwack",
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 928.4375,
 				["level"] = 110,
 				["firstProfLevel"] = 94,
-				["itemLevelOverall"] = 928.4375,
+				["firstProf"] = "Herbalism",
 			}, -- [6]
 			{
 				["secondProfLevel"] = 0,
@@ -115,14 +115,14 @@ RCDatabase = {
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 922.5625,
+				["itemLevelEquipped"] = 928.25,
 				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 				["name"] = "Granjior",
-				["firstProf"] = "Mining",
+				["itemLevelOverall"] = 930.5,
 				["level"] = 110,
 				["firstProfLevel"] = 706,
-				["itemLevelOverall"] = 929.5625,
+				["firstProf"] = "Mining",
 			}, -- [8]
 			{
 				["secondProfLevel"] = 800,
@@ -152,10 +152,10 @@ RCDatabase = {
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["itemLevelOverall"] = 924.25,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 924.25,
 			}, -- [11]
 			["characterStored"] = 11,
 		},

@@ -117,20 +117,20 @@ LUIDB = {
 				["Proudmoore"] = {
 					["Gold"] = {
 						["Horde"] = {
-							["Morifa"] = 513896668,
+							["Morifa"] = 486456874,
 						},
 						["Alliance"] = {
 							["Miriyal"] = 253142898,
-							["Farahn"] = 17368778,
-							["Greybone"] = 23446028,
+							["Farahn"] = 16426356,
+							["Greybone"] = 23445668,
 							["Amranar"] = 397410539,
-							["Granjior"] = 550791164,
-							["Kaldorath"] = 314681337,
-							["Faerand"] = 208824989,
+							["Granjior"] = 547782717,
+							["Kaldorath"] = 314681307,
+							["Faerand"] = 204865455,
 							["Mallusof"] = 1162234125,
-							["Rahran"] = 290212282,
+							["Rahran"] = 285040042,
 							["Morifa"] = 560270717,
-							["Fimwack"] = 386451456,
+							["Fimwack"] = 386451156,
 							["Praerend"] = 550401604,
 						},
 					},
@@ -604,11 +604,6 @@ LUIDB = {
 								["Enable"] = true,
 							},
 							["ClassIcons"] = {
-								["Y"] = 90,
-								["X"] = 375,
-								["Lock"] = false,
-								["Width"] = 200,
-								["Texture"] = "oUF LUI",
 							},
 						},
 						["Border"] = {
@@ -857,106 +852,106 @@ LUIDB = {
 					},
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/macro", -- [1]
-							"/i at all times", -- [2]
-							"/cw Legira-Proudmoore thanks!", -- [3]
+							" Want me in>", -- [1]
+							"/rt", -- [2]
+							" Want me in>", -- [3]
 							"/macro", -- [4]
-							"/i at all times", -- [5]
+							" Want me in>", -- [5]
 							"/macro", -- [6]
-							"/cw Legira-Proudmoore thanks!", -- [7]
-							"/macro", -- [8]
+							"/rt", -- [7]
+							" Want me in>", -- [8]
 							"/i at all times", -- [9]
-							"/i on rear", -- [10]
-							"/cw Legira-Proudmoore thanks!", -- [11]
-							"/i die", -- [12]
-							"/macro", -- [13]
-							"/cw Legira-Proudmoore thanks!", -- [14]
-							"/macro", -- [15]
-							"/i at all times", -- [16]
-							"/cw Legira-Proudmoore thanks!", -- [17]
+							"/macro", -- [10]
+							" Want me in>", -- [11]
+							"/macro", -- [12]
+							"/rt", -- [13]
+							"/i at all times", -- [14]
+							" Want me in>", -- [15]
+							"/rt", -- [16]
+							" Want me in>", -- [17]
 							"/macro", -- [18]
-							"/i at all times", -- [19]
-							"/macro", -- [20]
-							"/cw Legira-Proudmoore thanks!", -- [21]
-							"/i at all times", -- [22]
-							"/cw Legira-Proudmoore thanks!", -- [23]
+							"/rt", -- [19]
+							"/i at all times", -- [20]
+							" Want me in>", -- [21]
+							"/rt", -- [22]
+							" Want me in>", -- [23]
 							"/macro", -- [24]
 							"/i at all times", -- [25]
-							"/macro", -- [26]
-							"/cw Legira-Proudmoore thanks!", -- [27]
-							"/macro", -- [28]
-							"/cw Legira-Proudmoore thanks!", -- [29]
-							"/macro", -- [30]
-							"/bw", -- [31]
-							"/exrt", -- [32]
+							"/rt", -- [26]
+							"/macro", -- [27]
+							"/rt", -- [28]
+							"/macro", -- [29]
+							"/focus", -- [30]
+							"/macro", -- [31]
+							"/rt", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/cw Buzhidaone-Illidan gz then! :)", -- [1]
-							"/i Could we have a countdown on Vari, instead of instantpull? :)", -- [2]
-							"/i So we can run behind them", -- [3]
-							"/i spread", -- [4]
-							"/i out of middle", -- [5]
-							"/i west side will be ccd", -- [6]
-							"/i better there", -- [7]
-							"/cw Eretriä-BurningBlade Instead of saying people are shit and all kinds of offensive and frankly stupid things... Try with positivity first. It makes people dislike you less.", -- [8]
-							"/cw Eretriä-BurningBlade Stuff like that is why I muted you", -- [9]
-							"/i I like this group", -- [10]
-							" gz!", -- [11]
+							"/i So we can run behind them", -- [2]
+							"/i out of middle", -- [3]
+							"/i better there", -- [4]
+							"/cw Eretriä-BurningBlade Stuff like that is why I muted you", -- [5]
+							" gz!", -- [6]
+							" and do WQs now", -- [7]
+							"/i He did tho", -- [8]
+							"/cw Buzhidaone-Illidan Need that relic?", -- [9]
+							"/i spread", -- [10]
+							"/cw Eretriä-BurningBlade Instead of saying people are shit and all kinds of offensive and frankly stupid things... Try with positivity first. It makes people dislike you less.", -- [11]
 							" How does it feel? :P", -- [12]
-							" and do WQs now", -- [13]
-							" hahaha", -- [14]
-							"/i He did tho", -- [15]
-							"/cw Amiity-Zul'jin It's an upgrade for me, sorruy", -- [16]
-							"/cw Buzhidaone-Illidan Need that relic?", -- [17]
-							"/i Could we have a countdown on Vari, instead of instantpull? :)", -- [18]
-							"/i spread", -- [19]
-							"/i west side will be ccd", -- [20]
-							"/cw Eretriä-BurningBlade Instead of saying people are shit and all kinds of offensive and frankly stupid things... Try with positivity first. It makes people dislike you less.", -- [21]
-							"/i I like this group", -- [22]
-							" How does it feel? :P", -- [23]
+							"/cw Amiity-Zul'jin It's an upgrade for me, sorruy", -- [13]
+							"/i west side will be ccd", -- [14]
+							" hahaha", -- [15]
+							"/i I like this group", -- [16]
+							"/cw Buzhidaone-Illidan gz then! :)", -- [17]
+							"/i out of middle", -- [18]
+							"/cw Eretriä-BurningBlade Stuff like that is why I muted you", -- [19]
+							" and do WQs now", -- [20]
+							"/cw Buzhidaone-Illidan Need that relic?", -- [21]
+							"/cw Eretriä-BurningBlade Instead of saying people are shit and all kinds of offensive and frankly stupid things... Try with positivity first. It makes people dislike you less.", -- [22]
+							"/cw Amiity-Zul'jin It's an upgrade for me, sorruy", -- [23]
 							" hahaha", -- [24]
-							"/cw Amiity-Zul'jin It's an upgrade for me, sorruy", -- [25]
-							"/i Could we have a countdown on Vari, instead of instantpull? :)", -- [26]
-							"/i west side will be ccd", -- [27]
-							"/i I like this group", -- [28]
-							" hahaha", -- [29]
-							"/i Could we have a countdown on Vari, instead of instantpull? :)", -- [30]
-							"/i I like this group", -- [31]
-							"/i Could we have a countdown on Vari, instead of instantpull? :)", -- [32]
+							"/cw Buzhidaone-Illidan gz then! :)", -- [25]
+							"/cw Eretriä-BurningBlade Stuff like that is why I muted you", -- [26]
+							"/cw Buzhidaone-Illidan Need that relic?", -- [27]
+							"/cw Amiity-Zul'jin It's an upgrade for me, sorruy", -- [28]
+							"/cw Buzhidaone-Illidan gz then! :)", -- [29]
+							"/cw Buzhidaone-Illidan Need that relic?", -- [30]
+							"/cw Buzhidaone-Illidan gz then! :)", -- [31]
+							"/macro", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/4 lawl", -- [1]
+							" I havent killed either?", -- [1]
 							"/ROLL", -- [2]
-							"/g I hate this tier leggo shit", -- [3]
-							"/s thanks Rpm", -- [4]
-							"/4 lawl", -- [5]
-							"/g I hate this tier leggo shit", -- [6]
-							"/4 lawl", -- [7]
-							"/g 0", -- [8]
-							"/g that's were you're wrong", -- [9]
-							" I havent killed either?", -- [10]
-							" no but ok", -- [11]
-							"/ROLL", -- [12]
-							"/s thanks Rpm", -- [13]
-							"/4 lawl", -- [14]
-							"/g I hate this tier leggo shit", -- [15]
-							"/4 lawl", -- [16]
-							"/g 0", -- [17]
-							" I havent killed either?", -- [18]
-							"/ROLL", -- [19]
-							"/4 lawl", -- [20]
-							"/g 0", -- [21]
-							"/ROLL", -- [22]
-							"/g 0", -- [23]
-							"/raid I havent popped Hymn at all", -- [24]
-							"/raid when do you want it", -- [25]
-							"/4 yeah, but if we have 2 that do that, we have a tendency to overlap", -- [26]
-							"/raid I'm sorry", -- [27]
-							"/raid 121", -- [28]
-							"/roll 50000", -- [29]
-							"/raid 1", -- [30]
-							"/ROLL 50000", -- [31]
-							"/cw Kaligon-Tichondrius lol", -- [32]
+							"/4 lawl", -- [3]
+							"/g 0", -- [4]
+							"/ROLL", -- [5]
+							"/g 0", -- [6]
+							"/raid I havent popped Hymn at all", -- [7]
+							"/4 yeah, but if we have 2 that do that, we have a tendency to overlap", -- [8]
+							"/raid 121", -- [9]
+							"/raid 1", -- [10]
+							"/cw Kaligon-Tichondrius lol", -- [11]
+							"/g I hate this tier leggo shit", -- [12]
+							"/g 0", -- [13]
+							"/ROLL", -- [14]
+							"/g 0", -- [15]
+							"/raid I havent popped Hymn at all", -- [16]
+							"/raid 121", -- [17]
+							"/cw Kaligon-Tichondrius lol", -- [18]
+							"/g 0", -- [19]
+							"/raid I havent popped Hymn at all", -- [20]
+							"/cw Kaligon-Tichondrius lol", -- [21]
+							"/raid I havent popped Hymn at all", -- [22]
+							"/cw Kalithumos Hey, if you need me, I'm here", -- [23]
+							"/rt", -- [24]
+							"/cw Kalithumos-Tichondrius kewl", -- [25]
+							"/cw Kalithumos-Tichondrius so ", -- [26]
+							"/cw Kalithumos-Tichondrius Imonar?", -- [27]
+							"/cw Kalithumos-Tichondrius I'd like that", -- [28]
+							"/cw Kalithumos-Tichondrius if you got room", -- [29]
+							"/cw Kalithumos-Tichondrius So you dont want me?", -- [30]
+							"/cw Kalithumos-Tichondrius So.... yes?", -- [31]
+							"/cw Kalithumos-Tichondrius :P", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Did Ragefire with a bunch of level 19-20s", -- [1]

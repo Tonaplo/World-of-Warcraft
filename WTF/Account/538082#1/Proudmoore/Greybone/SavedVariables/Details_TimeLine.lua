@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "23:09:06",
-			["date_start"] = "23:04:00",
-			["name"] = "Imonar the Soulhunter",
-			["total_time"] = 306.118999999999,
-		}, -- [1]
-		{
-			["date_end"] = "23:01:41",
-			["date_start"] = "22:54:32",
-			["name"] = "Portal Keeper Hasabel",
-			["total_time"] = 429.468999999997,
-		}, -- [2]
-		{
-			["date_end"] = "22:52:11",
-			["date_start"] = "22:47:39",
-			["name"] = "The Defense of Eonar",
-			["total_time"] = 271.951000000001,
-		}, -- [3]
-		{
-			["date_end"] = "22:40:35",
-			["date_start"] = "22:36:01",
-			["name"] = "Garothi Worldbreaker",
-			["total_time"] = 273.351000000002,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Eidnam"] = {
@@ -573,13 +555,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Eidnam"] = {
@@ -707,18 +682,6 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Faythful-Fenris"] = {
-				[248255] = {
-					113.865999999995, -- [1]
-					143.864999999998, -- [2]
-					["source"] = "Imonar the Soulhunter",
-					["active"] = false,
-				},
-				[247716] = {
-					124.125, -- [1]
-					142.121999999996, -- [2]
-					["source"] = "[*] Charged Blasts",
-					["active"] = false,
-				},
 				[248252] = {
 					217.313999999999, -- [1]
 					249.786, -- [2]
@@ -729,6 +692,18 @@ DetailsTimeLineDB = {
 					22.8639999999941, -- [1]
 					26.2809999999954, -- [2]
 					["source"] = "Imonar the Soulhunter",
+					["active"] = false,
+				},
+				[248255] = {
+					113.865999999995, -- [1]
+					143.864999999998, -- [2]
+					["source"] = "Imonar the Soulhunter",
+					["active"] = false,
+				},
+				[247716] = {
+					124.125, -- [1]
+					142.121999999996, -- [2]
+					["source"] = "[*] Charged Blasts",
 					["active"] = false,
 				},
 			},
@@ -814,31 +789,33 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Espenoza-Windrunner"] = {
-				[247641] = {
-					200.514999999999, -- [1]
-					202.574999999997, -- [2]
-					["source"] = "Traps!",
-					["active"] = false,
-				},
+			["Deathproc-Stormrage"] = {
 				[247716] = {
-					143.352999999996, -- [1]
-					161.371999999996, -- [2]
+					124.239999999998, -- [1]
+					125.527999999998, -- [2]
+					142.381999999998, -- [3]
+					160.402999999998, -- [4]
+					178.922999999995, -- [5]
+					196.923999999999, -- [6]
 					["source"] = "[*] Charged Blasts",
 					["active"] = false,
 				},
-				[248255] = {
-					113.865999999995, -- [1]
-					143.881999999998, -- [2]
+				[257196] = {
+					89.7369999999937, -- [1]
+					92.5609999999943, -- [2]
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
 				[247932] = {
-					144.777999999998, -- [1]
-					174.786, -- [2]
-					178.564999999995, -- [3]
-					202.574999999997, -- [4]
+					131.356, -- [1]
+					161.371999999996, -- [2]
 					["source"] = "Shrapnel Blast",
+					["active"] = false,
+				},
+				[248094] = {
+					306.118999999999, -- [1]
+					306.118999999999, -- [2]
+					["source"] = "Artillery Strike",
 					["active"] = false,
 				},
 			},
@@ -881,20 +858,16 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Hellhawk-Fizzcrank"] = {
-				[248094] = {
-					233.280999999995, -- [1]
-					253.286, -- [2]
-					256.818999999996, -- [3]
-					306.118999999999, -- [4]
-					306.118999999999, -- [5]
-					306.118999999999, -- [6]
-					["source"] = "Artillery Strike",
-					["active"] = false,
-				},
 				[247641] = {
 					198.720999999998, -- [1]
 					206.715999999993, -- [2]
 					["source"] = "Traps!",
+					["active"] = false,
+				},
+				[247716] = {
+					143.352999999996, -- [1]
+					161.371999999996, -- [2]
+					["source"] = "[*] Charged Blasts",
 					["active"] = false,
 				},
 				[248252] = {
@@ -903,10 +876,14 @@ DetailsTimeLineDB = {
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
-				[247716] = {
-					143.352999999996, -- [1]
-					161.371999999996, -- [2]
-					["source"] = "[*] Charged Blasts",
+				[248094] = {
+					233.280999999995, -- [1]
+					253.286, -- [2]
+					256.818999999996, -- [3]
+					306.118999999999, -- [4]
+					306.118999999999, -- [5]
+					306.118999999999, -- [6]
+					["source"] = "Artillery Strike",
 					["active"] = false,
 				},
 			},
@@ -937,12 +914,6 @@ DetailsTimeLineDB = {
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
-				[247949] = {
-					198.284, -- [1]
-					212.286999999997, -- [2]
-					["source"] = "Traps!",
-					["active"] = false,
-				},
 				[247367] = {
 					4.07599999999366, -- [1]
 					39.0729999999967, -- [2]
@@ -953,24 +924,10 @@ DetailsTimeLineDB = {
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
-			},
-			["Kinslea-Stormrage"] = {
-				[247716] = {
-					124.239999999998, -- [1]
-					142.241999999998, -- [2]
-					143.352999999996, -- [3]
-					161.371999999996, -- [4]
-					199.295999999995, -- [5]
-					217.301999999996, -- [6]
-					["source"] = "[*] Charged Blasts",
-					["active"] = false,
-				},
-			},
-			["Salbrie-Whisperwind"] = {
-				[247716] = {
-					143.352999999996, -- [1]
-					161.371999999996, -- [2]
-					["source"] = "[*] Charged Blasts",
+				[247949] = {
+					198.284, -- [1]
+					212.286999999997, -- [2]
+					["source"] = "Traps!",
 					["active"] = false,
 				},
 			},
@@ -1002,6 +959,26 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Salbrie-Whisperwind"] = {
+				[247716] = {
+					143.352999999996, -- [1]
+					161.371999999996, -- [2]
+					["source"] = "[*] Charged Blasts",
+					["active"] = false,
+				},
+			},
+			["Kinslea-Stormrage"] = {
+				[247716] = {
+					124.239999999998, -- [1]
+					142.241999999998, -- [2]
+					143.352999999996, -- [3]
+					161.371999999996, -- [4]
+					199.295999999995, -- [5]
+					217.301999999996, -- [6]
+					["source"] = "[*] Charged Blasts",
+					["active"] = false,
+				},
+			},
 			["Dysis-Nathrezim"] = {
 				[257196] = {
 					37.416999999994, -- [1]
@@ -1015,12 +992,6 @@ DetailsTimeLineDB = {
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
-				[248094] = {
-					306.118999999999, -- [1]
-					306.118999999999, -- [2]
-					["source"] = "Artillery Strike",
-					["active"] = false,
-				},
 				[247716] = {
 					124.239999999998, -- [1]
 					142.241999999998, -- [2]
@@ -1031,16 +1002,22 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Charged Blasts",
 					["active"] = false,
 				},
+				[248255] = {
+					113.865999999995, -- [1]
+					147.556999999993, -- [2]
+					["source"] = "Imonar the Soulhunter",
+					["active"] = false,
+				},
 				[250006] = {
 					244.885999999999, -- [1]
 					274.885999999999, -- [2]
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
-				[248255] = {
-					113.865999999995, -- [1]
-					147.556999999993, -- [2]
-					["source"] = "Imonar the Soulhunter",
+				[248094] = {
+					306.118999999999, -- [1]
+					306.118999999999, -- [2]
+					["source"] = "Artillery Strike",
 					["active"] = false,
 				},
 			},
@@ -1069,16 +1046,16 @@ DetailsTimeLineDB = {
 					["source"] = "Imonar the Soulhunter",
 					["active"] = false,
 				},
-				[247716] = {
-					124.239999999998, -- [1]
-					142.241999999998, -- [2]
-					["source"] = "[*] Charged Blasts",
-					["active"] = false,
-				},
 				[248094] = {
 					256.352999999996, -- [1]
 					276.352999999996, -- [2]
 					["source"] = "Artillery Strike",
+					["active"] = false,
+				},
+				[247716] = {
+					124.239999999998, -- [1]
+					142.241999999998, -- [2]
+					["source"] = "[*] Charged Blasts",
 					["active"] = false,
 				},
 				[247641] = {
@@ -1094,33 +1071,31 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Deathproc-Stormrage"] = {
-				[248094] = {
-					306.118999999999, -- [1]
-					306.118999999999, -- [2]
-					["source"] = "Artillery Strike",
-					["active"] = false,
-				},
+			["Espenoza-Windrunner"] = {
 				[247716] = {
-					124.239999999998, -- [1]
-					125.527999999998, -- [2]
-					142.381999999998, -- [3]
-					160.402999999998, -- [4]
-					178.922999999995, -- [5]
-					196.923999999999, -- [6]
+					143.352999999996, -- [1]
+					161.371999999996, -- [2]
 					["source"] = "[*] Charged Blasts",
 					["active"] = false,
 				},
 				[247932] = {
-					131.356, -- [1]
-					161.371999999996, -- [2]
+					144.777999999998, -- [1]
+					174.786, -- [2]
+					178.564999999995, -- [3]
+					202.574999999997, -- [4]
 					["source"] = "Shrapnel Blast",
 					["active"] = false,
 				},
-				[257196] = {
-					89.7369999999937, -- [1]
-					92.5609999999943, -- [2]
+				[248255] = {
+					113.865999999995, -- [1]
+					143.881999999998, -- [2]
 					["source"] = "Imonar the Soulhunter",
+					["active"] = false,
+				},
+				[247641] = {
+					200.514999999999, -- [1]
+					202.574999999997, -- [2]
+					["source"] = "Traps!",
 					["active"] = false,
 				},
 			},
@@ -1525,10 +1500,10 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Felshoes-Sargeras"] = {
-				[245099] = {
-					302.886999999995, -- [1]
-					364.522999999994, -- [2]
-					["source"] = "[*] Mind Fog",
+				[244607] = {
+					60.476999999999, -- [1]
+					65.4749999999986, -- [2]
+					["source"] = "Vulcanar",
 					["active"] = false,
 				},
 				[245040] = {
@@ -1551,12 +1526,6 @@ DetailsTimeLineDB = {
 					["source"] = "Lord Eilgar",
 					["active"] = false,
 				},
-				[244607] = {
-					60.476999999999, -- [1]
-					65.4749999999986, -- [2]
-					["source"] = "Vulcanar",
-					["active"] = false,
-				},
 				[244016] = {
 					7.01799999999639, -- [1]
 					51.025999999998, -- [2]
@@ -1569,6 +1538,12 @@ DetailsTimeLineDB = {
 					408.370999999999, -- [9]
 					429.468999999997, -- [10]
 					["source"] = "Portal Keeper Hasabel",
+					["active"] = false,
+				},
+				[245099] = {
+					302.886999999995, -- [1]
+					364.522999999994, -- [2]
+					["source"] = "[*] Mind Fog",
 					["active"] = false,
 				},
 			},
@@ -2330,6 +2305,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "23:09:06",
+			["date_start"] = "23:04:00",
+			["name"] = "Imonar the Soulhunter",
+			["total_time"] = 306.118999999999,
+		}, -- [1]
+		{
+			["date_end"] = "23:01:41",
+			["date_start"] = "22:54:32",
+			["name"] = "Portal Keeper Hasabel",
+			["total_time"] = 429.468999999997,
+		}, -- [2]
+		{
+			["date_end"] = "22:52:11",
+			["date_start"] = "22:47:39",
+			["name"] = "The Defense of Eonar",
+			["total_time"] = 271.951000000001,
+		}, -- [3]
+		{
+			["date_end"] = "22:40:35",
+			["date_start"] = "22:36:01",
+			["name"] = "Garothi Worldbreaker",
+			["total_time"] = 273.351000000002,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 			["Blargyn-Lightbringer"] = {
@@ -2672,5 +2673,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

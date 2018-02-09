@@ -4,6 +4,11 @@ VER 3 0100000000000004 "Ass CDs" "132299"
 /cast Vendetta
 /cast Kingsbane
 END
+VER 3 0100000000000007 "Blind Sigryn" "INV_MISC_QUESTIONMARK"
+#showtooltip Blind
+/target Sigryn
+/cast Blind
+END
 VER 3 0100000000000003 "Cooldowns" "1390945"
 /cast Adrenaline Rush
 /cast Curse of the Dreadblades

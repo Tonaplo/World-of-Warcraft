@@ -138,12 +138,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["id"] = "/cast {{spell:3273/45542}}",
 					["sliceToken"] = "OPCCTf",
+					["id"] = "/cast {{spell:3273/45542}}",
 				}, -- [9]
 				{
-					["id"] = "/cast {{spell:4036/51306}}",
 					["sliceToken"] = "OPCCTg",
+					["id"] = "/cast {{spell:4036/51306}}",
 				}, -- [10]
 				{
 					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
@@ -154,8 +154,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -220,8 +220,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea5g/T6e",
 				}, -- [9]
 				{
-					["sliceToken"] = "ABuea5k9m/e",
 					["id"] = 229386,
+					["sliceToken"] = "ABuea5k9m/e",
 				}, -- [10]
 				{
 					["id"] = 229385,
@@ -236,8 +236,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueaxptLhe",
 				}, -- [13]
 				{
-					["id"] = 231435,
 					["sliceToken"] = "ABueacciiTe",
+					["id"] = 231435,
 				}, -- [14]
 				{
 					["id"] = 783,
@@ -392,9 +392,9 @@ OneRing_Config = {
 				}, -- [8]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
-					["id"] = "/rt",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
+					["id"] = "/rt",
 				}, -- [9]
 				{
 					"macro", -- [1]
@@ -526,16 +526,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuepcdn0Le",
 				}, -- [7]
 				{
-					["sliceToken"] = "ABuep7oyKRe",
 					["id"] = 883,
+					["sliceToken"] = "ABuep7oyKRe",
 				}, -- [8]
 				{
-					["id"] = 203539,
 					["sliceToken"] = "ABuepYX/fJ1",
+					["id"] = 203539,
 				}, -- [9]
 				{
-					["id"] = 203538,
 					["sliceToken"] = "ABuepYX/fJr",
+					["id"] = 203538,
 				}, -- [10]
 				{
 					["id"] = 2823,

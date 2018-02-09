@@ -10,6 +10,18 @@ VER 3 0100000000000003 "Cooldowns" "1390945"
 /use 13
 /use 14
 END
+VER 3 0100000000000005 "Sub CDs" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Blades
+/use 13
+/use 14
+/cast Shadow Blades
+/cast Goremaw's Bite
+END
+VER 3 0100000000000006 "Symbol Macro" "INV_MISC_QUESTIONMARK"
+#showtooltip Symbols of Death
+/cast Symbols of Death
+/cast Shadow Dance
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
