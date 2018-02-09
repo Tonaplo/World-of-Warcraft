@@ -16,7 +16,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 			["NoClose"] = true,
 			["CenterAction"] = true,
 			["RingOptions"] = {
@@ -25,7 +25,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -66,8 +66,8 @@ OneRing_Config = {
 			},
 			["SpecMenu"] = {
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -114,8 +114,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["sliceToken"] = "OPCCTb",
 					["id"] = "/cast {{spell:2018/51300}}",
+					["sliceToken"] = "OPCCTb",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
@@ -138,8 +138,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["sliceToken"] = "OPCCTf",
 					["id"] = "/cast {{spell:3273/45542}}",
+					["sliceToken"] = "OPCCTf",
 				}, -- [9]
 				{
 					["id"] = "/cast {{spell:4036/51306}}",
@@ -150,12 +150,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
-					["sliceToken"] = "OPCCTu",
 					["id"] = 53428,
+					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["sliceToken"] = "OPCCTm",
 					["id"] = 2656,
+					["sliceToken"] = "OPCCTm",
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -180,6 +180,71 @@ OneRing_Config = {
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
+			},
+			["Mounts"] = {
+				{
+					["sliceToken"] = "ABuepjqUmtwy",
+					["id"] = 150544,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuepjqUmtwt",
+					["id"] = 61425,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuepjqUmtw1",
+					["id"] = 72286,
+				}, -- [3]
+				{
+					["show"] = "[spec:255/254/253] hide;",
+					["sliceToken"] = "ABuepElZQEe",
+					["id"] = 229377,
+				}, -- [4]
+				{
+					["id"] = 229376,
+					["sliceToken"] = "ABuea4sWRNe",
+				}, -- [5]
+				{
+					["id"] = 229388,
+					["sliceToken"] = "ABuea4/4zZe",
+				}, -- [6]
+				{
+					["id"] = 229387,
+					["sliceToken"] = "ABueajwKJge",
+				}, -- [7]
+				{
+					["id"] = 231442,
+					["sliceToken"] = "ABueaz9T4ae",
+				}, -- [8]
+				{
+					["id"] = 229417,
+					["sliceToken"] = "ABuea5g/T6e",
+				}, -- [9]
+				{
+					["sliceToken"] = "ABuea5k9m/e",
+					["id"] = 229386,
+				}, -- [10]
+				{
+					["id"] = 229385,
+					["sliceToken"] = "ABuea5PhMXe",
+				}, -- [11]
+				{
+					["id"] = 232412,
+					["sliceToken"] = "ABueax2PbEe",
+				}, -- [12]
+				{
+					["id"] = 231434,
+					["sliceToken"] = "ABueaxptLhe",
+				}, -- [13]
+				{
+					["id"] = 231435,
+					["sliceToken"] = "ABueacciiTe",
+				}, -- [14]
+				{
+					["id"] = 783,
+					["sliceToken"] = "ABueaX/fZYr",
+				}, -- [15]
+				["save"] = true,
+				["name"] = "Mounts",
 			},
 			["RaidSymbols"] = {
 				{
@@ -228,123 +293,61 @@ OneRing_Config = {
 					["sliceToken"] = "OPCRSc",
 				}, -- [9]
 				["name"] = "Target Markers",
-				["save"] = true,
-				["hotkey"] = "ALT-R",
 				["internal"] = true,
+				["hotkey"] = "ALT-R",
+				["save"] = true,
 			},
-			["Mounts"] = {
+			["WorldMarkers"] = {
 				{
-					["sliceToken"] = "ABuepjqUmtwy",
-					["id"] = 150544,
+					"worldmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCWMb",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuepjqUmtwt",
-					["id"] = 61425,
+					"worldmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCWMg",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuepjqUmtw1",
-					["id"] = 72286,
+					"worldmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCWMp",
 				}, -- [3]
 				{
-					["show"] = "[spec:255/254/253] hide;",
-					["sliceToken"] = "ABuepElZQEe",
-					["id"] = 229377,
+					"worldmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCWMr",
 				}, -- [4]
 				{
-					["id"] = 229376,
-					["sliceToken"] = "ABuea4sWRNe",
+					"worldmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCWMy",
 				}, -- [5]
 				{
-					["id"] = 229388,
-					["sliceToken"] = "ABuea4/4zZe",
+					"worldmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCWMo",
 				}, -- [6]
 				{
-					["sliceToken"] = "ABueajwKJge",
-					["id"] = 229387,
+					"worldmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCWMs",
 				}, -- [7]
 				{
-					["id"] = 231442,
-					["sliceToken"] = "ABueaz9T4ae",
+					"worldmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCWMw",
 				}, -- [8]
 				{
-					["id"] = 229417,
-					["sliceToken"] = "ABuea5g/T6e",
+					"worldmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCWMc",
+					["c"] = "ccd8e5",
 				}, -- [9]
-				{
-					["id"] = 229386,
-					["sliceToken"] = "ABuea5k9m/e",
-				}, -- [10]
-				{
-					["id"] = 229385,
-					["sliceToken"] = "ABuea5PhMXe",
-				}, -- [11]
-				{
-					["id"] = 232412,
-					["sliceToken"] = "ABueax2PbEe",
-				}, -- [12]
-				{
-					["id"] = 231434,
-					["sliceToken"] = "ABueaxptLhe",
-				}, -- [13]
-				{
-					["id"] = 231435,
-					["sliceToken"] = "ABueacciiTe",
-				}, -- [14]
-				{
-					["id"] = 783,
-					["sliceToken"] = "ABueaX/fZYr",
-				}, -- [15]
+				["name"] = "World Markers",
+				["internal"] = true,
+				["hotkey"] = "[group] ALT-Y",
 				["save"] = true,
-				["name"] = "Mounts",
-			},
-			["onsumables"] = {
-				{
-					"item", -- [1]
-					140587, -- [2]
-					["sliceToken"] = "ABuepjqUmtZ",
-				}, -- [1]
-				{
-					"item", -- [1]
-					138292, -- [2]
-					["sliceToken"] = "ABuepjqUmtL",
-				}, -- [2]
-				{
-					"item", -- [1]
-					133572, -- [2]
-					["sliceToken"] = "ABuepjqUmtK",
-				}, -- [3]
-				{
-					"item", -- [1]
-					133570, -- [2]
-					["sliceToken"] = "ABuepjqUmtJ",
-				}, -- [4]
-				{
-					"item", -- [1]
-					127847, -- [2]
-					["sliceToken"] = "ABuepjqUmtH",
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuepjqUmt0",
-					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
-				}, -- [6]
-				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuepjv9NWu",
-				}, -- [7]
-				{
-					"item", -- [1]
-					127770, -- [2]
-					["sliceToken"] = "ABuepjv9NWy",
-				}, -- [8]
-				{
-					"item", -- [1]
-					153023, -- [2]
-					["sliceToken"] = "ABueaAYKAle",
-				}, -- [9]
-				["save"] = true,
-				["name"] = "Consumables",
 			},
 			["Macros"] = {
 				{
@@ -401,57 +404,54 @@ OneRing_Config = {
 				["save"] = true,
 				["name"] = "Macros",
 			},
-			["WorldMarkers"] = {
+			["onsumables"] = {
 				{
-					"worldmark", -- [1]
-					1, -- [2]
-					["sliceToken"] = "OPCWMb",
+					"item", -- [1]
+					140587, -- [2]
+					["sliceToken"] = "ABuepjqUmtZ",
 				}, -- [1]
 				{
-					"worldmark", -- [1]
-					2, -- [2]
-					["sliceToken"] = "OPCWMg",
+					"item", -- [1]
+					138292, -- [2]
+					["sliceToken"] = "ABuepjqUmtL",
 				}, -- [2]
 				{
-					"worldmark", -- [1]
-					3, -- [2]
-					["sliceToken"] = "OPCWMp",
+					"item", -- [1]
+					133572, -- [2]
+					["sliceToken"] = "ABuepjqUmtK",
 				}, -- [3]
 				{
-					"worldmark", -- [1]
-					4, -- [2]
-					["sliceToken"] = "OPCWMr",
+					"item", -- [1]
+					133570, -- [2]
+					["sliceToken"] = "ABuepjqUmtJ",
 				}, -- [4]
 				{
-					"worldmark", -- [1]
-					5, -- [2]
-					["sliceToken"] = "OPCWMy",
+					"item", -- [1]
+					127847, -- [2]
+					["sliceToken"] = "ABuepjqUmtH",
 				}, -- [5]
 				{
-					"worldmark", -- [1]
-					6, -- [2]
-					["sliceToken"] = "OPCWMo",
+					["sliceToken"] = "ABuepjqUmt0",
+					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
 				}, -- [6]
 				{
-					"worldmark", -- [1]
-					7, -- [2]
-					["sliceToken"] = "OPCWMs",
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
 				}, -- [7]
 				{
-					"worldmark", -- [1]
-					8, -- [2]
-					["sliceToken"] = "OPCWMw",
+					"item", -- [1]
+					127770, -- [2]
+					["sliceToken"] = "ABuepjv9NWy",
 				}, -- [8]
 				{
-					"worldmark", -- [1]
-					0, -- [2]
-					["sliceToken"] = "OPCWMc",
-					["c"] = "ccd8e5",
+					"item", -- [1]
+					153023, -- [2]
+					["sliceToken"] = "ABueaAYKAle",
 				}, -- [9]
-				["name"] = "World Markers",
 				["save"] = true,
-				["hotkey"] = "[group] ALT-Y",
-				["internal"] = true,
+				["name"] = "Consumables",
 			},
 			["Base"] = {
 				{
@@ -526,8 +526,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuepcdn0Le",
 				}, -- [7]
 				{
-					["id"] = 883,
 					["sliceToken"] = "ABuep7oyKRe",
+					["id"] = 883,
 				}, -- [8]
 				{
 					["id"] = 203539,

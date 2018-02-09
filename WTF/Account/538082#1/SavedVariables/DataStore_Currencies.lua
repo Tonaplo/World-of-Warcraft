@@ -10,19 +10,19 @@ DataStore_CurrenciesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -93,18 +93,18 @@ DataStore_CurrenciesDB = {
 				["Timewarped Badge"] = 9,
 				["Argus Waystone"] = 38,
 				["Veiled Argunite"] = 37,
-				["Wrath of the Lich King"] = 34,
-				["Seal of Inevitable Fate"] = 30,
-				["Miscellaneous"] = 20,
-				["Timeworn Artifact"] = 27,
-				["Warlords of Draenor"] = 10,
-				["Wakening Essence"] = 39,
-				["Legion"] = 1,
-				["Apexis Crystal"] = 17,
-				["Darkmoon Prize Ticket"] = 21,
-				["Curious Coin"] = 3,
-				["Garrison Resources"] = 11,
 				["Mark of the World Tree"] = 33,
+				["Garrison Resources"] = 11,
+				["Curious Coin"] = 3,
+				["Timeworn Artifact"] = 27,
+				["Wakening Essence"] = 39,
+				["Warlords of Draenor"] = 10,
+				["Apexis Crystal"] = 17,
+				["Legion"] = 1,
+				["Darkmoon Prize Ticket"] = 21,
+				["Miscellaneous"] = 20,
+				["Seal of Inevitable Fate"] = 30,
+				["Wrath of the Lich King"] = 34,
 				["Champion's Seal"] = 35,
 				["Legionfall War Supplies"] = 4,
 			},
@@ -354,9 +354,9 @@ DataStore_CurrenciesDB = {
 					902, -- [3]
 					10760, -- [4]
 					2777738, -- [5]
-					1435916, -- [6]
+					1787916, -- [6]
 					14, -- [7]
-					22602, -- [8]
+					5450, -- [8]
 					27854, -- [9]
 					17, -- [10]
 					25618, -- [11]
@@ -383,10 +383,10 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1518059179,
+				["lastUpdate"] = 1518147291,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "11218-0-0-0",
+					[1220] = "13968-0-0-0",
 					[824] = "5606-0-0-10000",
 					[1273] = "0-0-0-6",
 					[1191] = "0-0-0-0",
@@ -504,18 +504,61 @@ DataStore_CurrenciesDB = {
 					[1342] = "59-0-0-1000",
 				},
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1517595510,
+			["Default.Proudmoore.Morifa"] = {
+				["Currencies"] = {
+					3, -- [1]
+					38404, -- [2]
+					2182, -- [3]
+					128008, -- [4]
+					3080970, -- [5]
+					1093132, -- [6]
+					14, -- [7]
+					35238, -- [8]
+					153034, -- [9]
+					55886, -- [10]
+					17, -- [11]
+					177938, -- [12]
+					108832, -- [13]
+					21, -- [14]
+					1542178, -- [15]
+					339862, -- [16]
+					52504, -- [17]
+					420, -- [18]
+					27, -- [19]
+					156, -- [20]
+					926, -- [21]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["lastUpdate"] = 1518126836,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
+					[1220] = "8540-0-0-0",
+					[824] = "2655-0-0-10000",
+					[1273] = "0-0-0-6",
+					[1191] = "850-0-0-5000",
+					[823] = "12048-0-0-0",
+					[1226] = "24070-0-0-0",
+					[994] = "3-0-0-20",
+					[1342] = "1000-0-0-1000",
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
@@ -625,11 +668,11 @@ DataStore_CurrenciesDB = {
 					1414, -- [3]
 					77576, -- [4]
 					2071690, -- [5]
-					278028, -- [6]
+					374028, -- [6]
 					14, -- [7]
 					5942, -- [8]
-					29258, -- [9]
-					16078, -- [10]
+					15434, -- [9]
+					26446, -- [10]
 					17, -- [11]
 					25618, -- [12]
 					19232, -- [13]
@@ -662,10 +705,10 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1518068083,
+				["lastUpdate"] = 1518131654,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "2172-0-0-0",
+					[1220] = "2922-0-0-0",
 					[824] = "4160-0-0-10000",
 					[1273] = "0-0-0-6",
 					[1191] = "150-0-0-5000",
@@ -914,61 +957,18 @@ DataStore_CurrenciesDB = {
 					[1342] = "669-0-0-1000",
 				},
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["Currencies"] = {
-					3, -- [1]
-					38404, -- [2]
-					2182, -- [3]
-					128008, -- [4]
-					3080970, -- [5]
-					1259532, -- [6]
-					14, -- [7]
-					35238, -- [8]
-					122442, -- [9]
-					55886, -- [10]
-					17, -- [11]
-					177938, -- [12]
-					108832, -- [13]
-					21, -- [14]
-					1542178, -- [15]
-					339862, -- [16]
-					52504, -- [17]
-					420, -- [18]
-					27, -- [19]
-					156, -- [20]
-					926, -- [21]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["lastUpdate"] = 1517706538,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1517595510,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "9840-0-0-0",
-					[824] = "2655-0-0-10000",
-					[1273] = "0-0-0-6",
-					[1191] = "850-0-0-5000",
-					[823] = "12048-0-0-0",
-					[1226] = "24070-0-0-0",
-					[994] = "3-0-0-20",
-					[1342] = "1000-0-0-1000",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 				},
 			},
 		},

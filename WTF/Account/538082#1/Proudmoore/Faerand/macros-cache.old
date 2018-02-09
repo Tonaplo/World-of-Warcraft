@@ -1,12 +1,30 @@
 VER 3 0100000000000003 "BM Cooldowns" "1280945"
 /use 13
 /use 14
+/use Drums of Fury
+/use Potion of Prolonged Power
 /cast Aspect of the Wild
 /cast Titan's Thunder
 /cast Bestial Wrath
 END
+VER 3 0100000000000006 "counterShot" "INV_MISC_QUESTIONMARK"
+#showtooltip Counter Shot
+/target Tugar
+/cast Counter Shot
+END
+VER 3 0100000000000005 "intimidate" "INV_MISC_QUESTIONMARK"
+#showtooltip Intimidation
+/target Tugar
+/cast Intimidation
+END
+VER 3 0100000000000004 "MD" "INV_MISC_QUESTIONMARK"
+#showtooltip Misdirection
+/target Bear
+/cast Misdirection
+/target Tugar
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
 N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Fae[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bea

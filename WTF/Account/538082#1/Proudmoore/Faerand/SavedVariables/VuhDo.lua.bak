@@ -4421,12 +4421,12 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 268.266296386719,
-			["x"] = 794.771606445313,
-			["orientation"] = "TOPLEFT",
-			["relativePoint"] = "BOTTOMLEFT",
+			["y"] = 74.1840057373047,
+			["x"] = 1.38847780227661,
+			["orientation"] = "BOTTOM",
+			["relativePoint"] = "BOTTOM",
 			["scale"] = 1,
-			["height"] = 169,
+			["height"] = 204.999984741211,
 			["growth"] = "TOPLEFT",
 			["width"] = 77.9999694824219,
 		},
@@ -4439,7 +4439,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["sort"] = 0,
 			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -4448,6 +4447,7 @@ VUHDO_PANEL_SETUP = {
 				4, -- [4]
 				5, -- [5]
 			},
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4568,7 +4568,7 @@ VUHDO_PANEL_SETUP = {
 			["position"] = "BOTTOMRIGHT+BOTTOMRIGHT",
 			["yAdjust"] = 0,
 			["xAdjust"] = 0,
-			["_spacing"] = 17.9999980926514,
+			["_spacing"] = 18,
 			["showPetOwners"] = true,
 		},
 		["LIFE_TEXT"] = {
@@ -7182,9 +7182,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7192,9 +7192,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7247,9 +7247,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7276,9 +7276,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7286,9 +7286,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7341,9 +7341,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w9", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7381,48 +7381,15 @@ VUHDO_SPEC_LAYOUTS = {
 }
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
-	["pet"] = {
-		["number"] = 1,
-		["class"] = "WARRIOR",
-		["visible"] = true,
-		["targetUnit"] = "pettarget",
-		["group"] = 0,
-		["classId"] = 40,
-		["range"] = true,
-		["unit"] = "pet",
-		["isVehicle"] = false,
-		["debuff"] = 0,
-		["healthmax"] = 3375372,
-		["baseRange"] = true,
-		["afk"] = false,
-		["sortMaxHp"] = 3375372,
-		["zone"] = "Antoran Wastes",
-		["dead"] = false,
-		["map"] = "ArgusCore",
-		["connected"] = true,
-		["fullName"] = "Bear",
-		["power"] = 120,
-		["aggro"] = false,
-		["powertype"] = 2,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["threat"] = 0,
-		["name"] = "Bear",
-		["className"] = "Bear",
-		["powermax"] = 120,
-		["ownerUnit"] = "player",
-		["charmed"] = false,
-		["health"] = 3019961,
-	},
 	["player"] = {
 		["zone"] = "Antoran Wastes",
 		["baseRange"] = true,
 		["class"] = "HUNTER",
-		["role"] = 62,
-		["sortMaxHp"] = 4897140,
+		["role"] = 61,
+		["sortMaxHp"] = 4710420,
 		["map"] = "ArgusCore",
 		["threat"] = 0,
-		["powermax"] = 120,
+		["powermax"] = 100,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Faerand",
@@ -7433,20 +7400,53 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 2,
-		["healthmax"] = 4897140,
+		["healthmax"] = 4710420,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Faerand",
-		["power"] = 120,
+		["power"] = 100,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 4897140,
+		["health"] = 4710420,
 		["className"] = "Hunter",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
+	},
+	["pet"] = {
+		["number"] = 1,
+		["isVehicle"] = false,
+		["visible"] = true,
+		["zone"] = "Antoran Wastes",
+		["group"] = 0,
+		["afk"] = false,
+		["range"] = true,
+		["unit"] = "pet",
+		["targetUnit"] = "pettarget",
+		["debuff"] = 0,
+		["healthmax"] = 3297294,
+		["baseRange"] = true,
+		["class"] = "WARRIOR",
+		["sortMaxHp"] = 3297294,
+		["classId"] = 40,
+		["dead"] = false,
+		["map"] = "ArgusCore",
+		["connected"] = true,
+		["fullName"] = "Bear",
+		["power"] = 100,
+		["aggro"] = false,
+		["powertype"] = 2,
+		["threatPerc"] = 0,
+		["isPet"] = true,
+		["threat"] = 0,
+		["name"] = "Bear",
+		["className"] = "Bear",
+		["powermax"] = 100,
+		["ownerUnit"] = "player",
+		["charmed"] = false,
+		["health"] = 3297294,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7455,16 +7455,16 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
-		["CLUSTER_BORDER"] = "",
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
-		["INCOMING_BAR"] = "",
 		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
+		["INCOMING_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]

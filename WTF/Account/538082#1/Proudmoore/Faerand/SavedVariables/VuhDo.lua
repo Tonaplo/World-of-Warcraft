@@ -4421,12 +4421,12 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 124.266288757324,
-			["x"] = 940.771667480469,
+			["y"] = 70.6361618041992,
+			["x"] = 2.15571141242981,
 			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
-			["orientation"] = "TOPLEFT",
-			["height"] = 61.0000076293945,
+			["relativePoint"] = "BOTTOM",
+			["orientation"] = "BOTTOM",
+			["height"] = 205.000015258789,
 			["growth"] = "TOPLEFT",
 			["width"] = 77.9999694824219,
 		},
@@ -4439,7 +4439,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -4448,6 +4447,7 @@ VUHDO_PANEL_SETUP = {
 				5, -- [5]
 			},
 			["sort"] = 0,
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4575,7 +4575,7 @@ VUHDO_PANEL_SETUP = {
 			["showTags"] = true,
 			["position"] = "BOTTOMRIGHT+BOTTOMRIGHT",
 			["yAdjust"] = 0,
-			["_spacing"] = 17.9999980926514,
+			["_spacing"] = 18,
 			["xAdjust"] = 0,
 			["showPetOwners"] = true,
 		},
@@ -7182,9 +7182,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7192,9 +7192,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7247,9 +7247,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7279,9 +7279,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7289,9 +7289,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7344,9 +7344,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7382,14 +7382,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Dalaran",
+		["zone"] = "Broken Shore",
 		["baseRange"] = true,
 		["class"] = "HUNTER",
-		["role"] = 62,
-		["sortMaxHp"] = 4902120,
-		["map"] = "Dalaran70",
+		["role"] = 61,
+		["sortMaxHp"] = 4846500,
+		["map"] = "BrokenShore",
 		["threat"] = 0,
-		["powermax"] = 120,
+		["powermax"] = 100,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Faerand",
@@ -7400,53 +7400,20 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 2,
-		["healthmax"] = 4902120,
+		["healthmax"] = 4846500,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Faerand",
-		["power"] = 120,
+		["power"] = 100,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 4902120,
+		["health"] = 4846500,
 		["className"] = "Hunter",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["pet"] = {
-		["number"] = 1,
-		["classId"] = 40,
-		["visible"] = true,
-		["isVehicle"] = false,
-		["group"] = 0,
-		["afk"] = false,
-		["range"] = true,
-		["unit"] = "pet",
-		["zone"] = "Dalaran",
-		["debuff"] = 0,
-		["healthmax"] = 3431484,
-		["baseRange"] = true,
-		["class"] = "WARRIOR",
-		["sortMaxHp"] = 3431484,
-		["targetUnit"] = "pettarget",
-		["dead"] = false,
-		["map"] = "Dalaran70",
-		["charmed"] = false,
-		["fullName"] = "Bear",
-		["power"] = 120,
-		["aggro"] = false,
-		["powertype"] = 2,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["connected"] = true,
-		["name"] = "Bear",
-		["className"] = "Bear",
-		["powermax"] = 120,
-		["ownerUnit"] = "player",
-		["threat"] = 0,
-		["health"] = 3431484,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7467,16 +7434,16 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 		["INCOMING_BAR"] = "",
-		["CLUSTER_BORDER"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["THREAT_MARK"] = "",
-		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Manabars: Mana only",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["DAMAGE_FLASH_BAR"] = "",
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
+		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {
