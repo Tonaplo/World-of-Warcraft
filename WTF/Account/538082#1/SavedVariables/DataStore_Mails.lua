@@ -11,14 +11,14 @@ DataStore_MailsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -27,8 +27,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1518160843,
-				["lastVisitDate"] = "2018/02/08 23:20",
+				["lastUpdate"] = 1518194967,
+				["lastVisitDate"] = "2018/02/09 08:49",
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1518149889,
@@ -44,10 +44,59 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Granjior"] = {
 				["lastUpdate"] = 1518160932,
+				["Mails"] = {
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 153157,
+						["link"] = "|cff0070dd|Hitem:153157::::::::110:266::11::::|h[Unsullied Plate Gauntlets]|h|r",
+						["count"] = 1,
+						["icon"] = 359499,
+						["lastCheck"] = 1518194966,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
 				["lastVisitDate"] = "2018/02/08 23:22",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1518156771,
+				["Mails"] = {
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 153142,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:266::::::|h[Unsullied Leather Armbands]|h|r",
+						["count"] = 1,
+						["icon"] = 436837,
+						["lastCheck"] = 1518194958,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 153139,
+						["link"] = "|cff0070dd|Hitem:153139::::::::110:266::11::::|h[Unsullied Leather Headgear]|h|r",
+						["count"] = 1,
+						["icon"] = 436840,
+						["lastCheck"] = 1518194958,
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 153142,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:266::11::::|h[Unsullied Leather Armbands]|h|r",
+						["count"] = 1,
+						["icon"] = 436837,
+						["lastCheck"] = 1518194958,
+						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 152737,
+						["link"] = "|cff0070dd|Hitem:152737::::::::110:266::::::|h[Unsullied Leather Trousers]|h|r",
+						["count"] = 1,
+						["icon"] = 436841,
+						["lastCheck"] = 1518194958,
+						["daysLeft"] = 30,
+					}, -- [4]
+				},
 				["lastVisitDate"] = "2018/02/08 22:12",
 			},
 			["Default.Proudmoore.Morifa"] = {

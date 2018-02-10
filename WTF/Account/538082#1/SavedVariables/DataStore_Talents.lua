@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -27,14 +27,14 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["EquippedArtifact"] = "Scepter of Sargeras",
+				["EquippedArtifact"] = "Skull of the Man'ari",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					9563, -- [1]
-					11963, -- [2]
+					11947, -- [2]
 					6565, -- [3]
 				},
-				["lastUpdate"] = 1518160819,
+				["lastUpdate"] = 1518219300,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -51,7 +51,7 @@ DataStore_TalentsDB = {
 					["Skull of the Man'ari"] = {
 						["tier"] = 2,
 						["rank"] = 63,
-						["pointsRemaining"] = 35870985470,
+						["pointsRemaining"] = 36343485520,
 					},
 				},
 			},
@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12155, -- [3]
 				},
-				["lastUpdate"] = 1518160865,
+				["lastUpdate"] = 1518195148,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -146,7 +146,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1518164712,
+				["lastUpdate"] = 1518195052,
 				["Specializations"] = {
 					9558, -- [1]
 					6814, -- [2]
@@ -189,8 +189,8 @@ DataStore_TalentsDB = {
 				["Artifacts"] = {
 					["Aluneth, Greatstaff of the Magna"] = {
 						["tier"] = 2,
-						["rank"] = 58,
-						["pointsRemaining"] = 2092282720,
+						["rank"] = 63,
+						["pointsRemaining"] = 1174287120,
 					},
 					["Felo'melorn"] = {
 						["tier"] = 2,
@@ -204,9 +204,9 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1518160751,
+				["lastUpdate"] = 1518210662,
 				["Specializations"] = {
-					7678, -- [1]
+					8170, -- [1]
 					14262, -- [2]
 					6646, -- [3]
 				},
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1518150232,
+				["lastUpdate"] = 1518195193,
 				["Specializations"] = {
 					15087, -- [1]
 					6997, -- [2]
@@ -355,7 +355,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1518071906,
+				["lastUpdate"] = 1518195417,
 				["Specializations"] = {
 					6551, -- [1]
 					9813, -- [2]
@@ -451,14 +451,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -784,7 +784,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25961,
+			["Version"] = 25996,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -1021,7 +1021,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25961,
+			["Version"] = 25996,
 		},
 		["DEMONHUNTER"] = {
 			["Locale"] = "enUS",

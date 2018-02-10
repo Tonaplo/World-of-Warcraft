@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,7 +32,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1518160831,
+				["lastUpdate"] = 1518219424,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -52,7 +52,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1518164714,
+				["lastUpdate"] = 1518195107,
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1518154040,
@@ -67,13 +67,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1518057058,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1518160763,
+				["lastUpdate"] = 1518210755,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1518150249,
+				["lastUpdate"] = 1518195310,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518160876,
+				["lastUpdate"] = 1518195157,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["DungeonIDs"] = {
@@ -91,7 +91,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1517798979,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1518071919,
+				["lastUpdate"] = 1518195444,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1518158733,

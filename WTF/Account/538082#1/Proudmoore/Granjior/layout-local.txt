@@ -27,6 +27,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -209
+Y: 25
+W: 70
+H: 70
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -55,10 +62,3 @@ X: 0
 Y: 0
 W: 50
 H: 50
-Frame: ConditionerWatchFrame0
-FrameLevel: 0
-Anchor: CENTER
-X: -209
-Y: 25
-W: 70
-H: 70

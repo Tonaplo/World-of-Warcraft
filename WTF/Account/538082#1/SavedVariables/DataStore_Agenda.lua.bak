@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,7 +32,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1518160831,
+				["lastUpdate"] = 1518194969,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -52,7 +52,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1518160797,
+				["lastUpdate"] = 1518195107,
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1518154040,
@@ -67,13 +67,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1518057058,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1518150249,
+				["lastUpdate"] = 1518195310,
 			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1517595772,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518160876,
+				["lastUpdate"] = 1518195157,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["DungeonIDs"] = {
@@ -91,7 +91,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1517798979,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1518071919,
+				["lastUpdate"] = 1518195444,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1518158733,
@@ -103,7 +103,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1518069073,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1518160763,
+				["lastUpdate"] = 1518210755,
 			},
 		},
 	},

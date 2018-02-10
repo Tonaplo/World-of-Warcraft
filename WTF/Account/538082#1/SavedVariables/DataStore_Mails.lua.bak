@@ -11,14 +11,14 @@ DataStore_MailsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -27,8 +27,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1518160843,
-				["lastVisitDate"] = "2018/02/08 23:20",
+				["lastUpdate"] = 1518194967,
+				["lastVisitDate"] = "2018/02/09 08:49",
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1518149889,
@@ -43,112 +43,60 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/02/04 01:39",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1518160796,
+				["lastUpdate"] = 1518160932,
 				["Mails"] = {
 					{
 						["sender"] = "Fimwack",
-						["itemID"] = 142117,
-						["link"] = "|cffffffff|Hitem:142117::::::::110:267::::::|h[Potion of Prolonged Power]|h|r",
-						["count"] = 33,
-						["icon"] = 967532,
-						["lastCheck"] = 1518160842,
+						["itemID"] = 153157,
+						["link"] = "|cff0070dd|Hitem:153157::::::::110:266::11::::|h[Unsullied Plate Gauntlets]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518194966,
+						["icon"] = 359499,
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2018/02/08 23:22",
+			},
+			["Default.Proudmoore.Rahran"] = {
+				["lastUpdate"] = 1518156771,
+				["Mails"] = {
+					{
+						["sender"] = "Fimwack",
+						["itemID"] = 153142,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:266::::::|h[Unsullied Leather Armbands]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518194958,
+						["icon"] = 436837,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
 						["sender"] = "Fimwack",
-						["itemID"] = 140587,
-						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
-						["count"] = 20,
-						["icon"] = 1118739,
-						["lastCheck"] = 1518160842,
+						["itemID"] = 153139,
+						["link"] = "|cff0070dd|Hitem:153139::::::::110:266::11::::|h[Unsullied Leather Headgear]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518194958,
+						["icon"] = 436840,
 						["daysLeft"] = 30,
 					}, -- [2]
 					{
 						["sender"] = "Fimwack",
-						["itemID"] = 140587,
-						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
-						["count"] = 20,
-						["icon"] = 1118739,
-						["lastCheck"] = 1518160842,
+						["itemID"] = 153142,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:266::11::::|h[Unsullied Leather Armbands]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518194958,
+						["icon"] = 436837,
 						["daysLeft"] = 30,
 					}, -- [3]
 					{
 						["sender"] = "Fimwack",
-						["itemID"] = 140587,
-						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
-						["count"] = 6,
-						["icon"] = 1118739,
-						["lastCheck"] = 1518160842,
+						["itemID"] = 152737,
+						["link"] = "|cff0070dd|Hitem:152737::::::::110:266::::::|h[Unsullied Leather Trousers]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1518194958,
+						["icon"] = 436841,
 						["daysLeft"] = 30,
 					}, -- [4]
-					{
-						["sender"] = "Fimwack",
-						["itemID"] = 120257,
-						["link"] = "|cff1eff00|Hitem:120257::::::::110:267::::::|h[Drums of Fury]|h|r",
-						["count"] = 20,
-						["icon"] = 133841,
-						["lastCheck"] = 1518160842,
-						["daysLeft"] = 30,
-					}, -- [5]
-					{
-						["sender"] = "Fimwack",
-						["itemID"] = 140587,
-						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
-						["count"] = 20,
-						["icon"] = 1118739,
-						["lastCheck"] = 1518160842,
-						["daysLeft"] = 30,
-					}, -- [6]
-					{
-						["sender"] = "Fimwack",
-						["itemID"] = 126934,
-						["link"] = "|cffffffff|Hitem:126934::::::::110:267::::::|h[Lemon Herb Filet]|h|r",
-						["count"] = 7,
-						["icon"] = 134034,
-						["lastCheck"] = 1518160842,
-						["daysLeft"] = 30,
-					}, -- [7]
-					{
-						["sender"] = "Fimwack",
-						["itemID"] = 120257,
-						["link"] = "|cff1eff00|Hitem:120257::::::::110:267::::::|h[Drums of Fury]|h|r",
-						["count"] = 11,
-						["icon"] = 133841,
-						["lastCheck"] = 1518160842,
-						["daysLeft"] = 30,
-					}, -- [8]
-					{
-						["sender"] = "Fimwack",
-						["itemID"] = 140587,
-						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
-						["count"] = 20,
-						["icon"] = 1118739,
-						["lastCheck"] = 1518160842,
-						["daysLeft"] = 30,
-					}, -- [9]
-					{
-						["sender"] = "Fimwack",
-						["itemID"] = 140587,
-						["link"] = "|cff0070dd|Hitem:140587::::::::110:267::::::|h[Defiled Augment Rune]|h|r",
-						["count"] = 20,
-						["icon"] = 1118739,
-						["lastCheck"] = 1518160842,
-						["daysLeft"] = 30,
-					}, -- [10]
-					{
-						["sender"] = "Greybone",
-						["itemID"] = 127849,
-						["link"] = "|cffffffff|Hitem:127849::::::::110:251::::::|h[Flask of the Countless Armies]|h|r",
-						["count"] = 14,
-						["lastCheck"] = 1518160882,
-						["icon"] = 1385243,
-						["daysLeft"] = 30,
-					}, -- [11]
 				},
-				["lastVisitDate"] = "2018/02/08 23:19",
-			},
-			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1518156771,
 				["lastVisitDate"] = "2018/02/08 22:12",
 			},
 			["Default.Proudmoore.Morifa"] = {

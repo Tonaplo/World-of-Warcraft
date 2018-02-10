@@ -82,18 +82,18 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 704,
-				["itemLevelEquipped"] = 926.3125,
+				["itemLevelEquipped"] = 927.5625,
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["itemLevelOverall"] = 926.4375,
-				["level"] = 110,
-				["firstProfLevel"] = 188,
 				["firstProf"] = "Herbalism",
+				["level"] = 110,
+				["firstProfLevel"] = 189,
+				["itemLevelOverall"] = 927.6875,
 			}, -- [5]
 			{
 				["secondProfLevel"] = 68,
-				["itemLevelEquipped"] = 928.4375,
+				["itemLevelEquipped"] = 928.1875,
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 				["name"] = "Fimwack",
@@ -108,10 +108,10 @@ RCDatabase = {
 				["class"] = "DEMONHUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Kaldorath",
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 927.25,
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 927.25,
+				["firstProf"] = "No 1st Prof",
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
