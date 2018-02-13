@@ -3734,7 +3734,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Locked On"] = {
+			["Parasitic Growth"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3748,12 +3748,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["219049"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["Locked On"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["Lightning Charge"] = {
 				["isStacks"] = false,
@@ -4077,12 +4077,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Parasitic Growth"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
+			["219049"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Acid Breath"] = {
 				["isStacks"] = false,
@@ -4677,14 +4677,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = -24,
 		},
 		["POSITION"] = {
-			["y"] = 279.411651611328,
-			["x"] = 979.803771972656,
+			["y"] = 65.41162109375,
+			["x"] = -2.59186553955078,
 			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
-			["orientation"] = "TOP",
-			["height"] = 49.9999961853027,
+			["relativePoint"] = "BOTTOM",
+			["orientation"] = "BOTTOM",
+			["height"] = 214.000015258789,
 			["growth"] = "TOP",
-			["width"] = 103.99991607666,
+			["width"] = 389.000030517578,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -4695,7 +4695,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "HIGH",
 		["MODEL"] = {
-			["ordering"] = 1,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -4707,6 +4706,7 @@ VUHDO_PANEL_SETUP = {
 				8, -- [8]
 			},
 			["sort"] = 6,
+			["ordering"] = 1,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -7069,9 +7069,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"1", -- [2]
 		"target", -- [3]
 	},
-	["altshift2"] = {
-		[2] = "2",
-		[3] = "Mass Dispel",
+	["ctrl3"] = {
+		"ctrl-", -- [1]
+		"3", -- [2]
+		"menu", -- [3]
 	},
 	["ctrl4"] = {
 		"ctrl-", -- [1]
@@ -7083,10 +7084,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"2", -- [2]
 		"Circle of Healing", -- [3]
 	},
-	["ctrl3"] = {
-		"ctrl-", -- [1]
-		"3", -- [2]
-		"menu", -- [3]
+	["shift2"] = {
+		"shift-", -- [1]
+		"2", -- [2]
+		"Mass Dispel", -- [3]
 	},
 	["shift3"] = {
 		"shift-", -- [1]
@@ -7133,10 +7134,9 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"4", -- [2]
 		"Power Word: Shield", -- [3]
 	},
-	["shift2"] = {
-		"shift-", -- [1]
-		"2", -- [2]
-		"Mass Dispel", -- [3]
+	["altshift2"] = {
+		[2] = "2",
+		[3] = "Mass Dispel",
 	},
 }
 VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
@@ -7583,19 +7583,19 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
-			"", -- [3]
-		},
 		["ctrl1"] = {
 			"CTRL-", -- [1]
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["alt2"] = {
-			"ALT-", -- [1]
-			"-w4", -- [2]
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"-w16", -- [2]
 			"", -- [3]
 		},
 		["altshift2"] = {
@@ -7603,9 +7603,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w12", -- [2]
 			"", -- [3]
 		},
-		["altctrlshift2"] = {
-			"ALT-CTRL-SHIFT-", -- [1]
-			"-w16", -- [2]
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift1"] = {
@@ -7618,9 +7618,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["altctrl1"] = {
-			"ALT-CTRL-", -- [1]
-			"-w9", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
 		["ctrlshift2"] = {
@@ -7681,6 +7681,9 @@ VUHDO_SPELLS_KEYBOARD = {
 	["SPELL9"] = "",
 	["SPELL10"] = "",
 	["SPELL14"] = "",
+	["SPELL11"] = "",
+	["SPELL8"] = "",
+	["SPELL1"] = "",
 	["WHEEL"] = {
 		["alt1"] = {
 			"ALT-", -- [1]
@@ -7717,19 +7720,19 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w11", -- [2]
 			"", -- [3]
 		},
-		["1"] = {
-			"", -- [1]
-			"-w1", -- [2]
-			"", -- [3]
-		},
 		["ctrl1"] = {
 			"CTRL-", -- [1]
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["alt2"] = {
-			"ALT-", -- [1]
-			"-w4", -- [2]
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
+			"", -- [3]
+		},
+		["altctrlshift2"] = {
+			"ALT-CTRL-SHIFT-", -- [1]
+			"-w16", -- [2]
 			"", -- [3]
 		},
 		["altshift2"] = {
@@ -7737,9 +7740,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w12", -- [2]
 			"", -- [3]
 		},
-		["altctrlshift2"] = {
-			"ALT-CTRL-SHIFT-", -- [1]
-			"-w16", -- [2]
+		["alt2"] = {
+			"ALT-", -- [1]
+			"-w4", -- [2]
 			"", -- [3]
 		},
 		["altctrlshift1"] = {
@@ -7752,9 +7755,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["altctrl1"] = {
-			"ALT-CTRL-", -- [1]
-			"-w9", -- [2]
+		["1"] = {
+			"", -- [1]
+			"-w1", -- [2]
 			"", -- [3]
 		},
 		["ctrlshift2"] = {
@@ -7763,9 +7766,6 @@ VUHDO_SPELLS_KEYBOARD = {
 			"", -- [3]
 		},
 	},
-	["SPELL8"] = "",
-	["SPELL1"] = "",
-	["SPELL11"] = "",
 }
 VUHDO_SPELL_CONFIG = {
 	["IS_FIRE_OUT_FIGHT"] = false,
@@ -7799,8 +7799,470 @@ VUHDO_SPEC_LAYOUTS = {
 	["selected"] = "Holy",
 	["2"] = "Holy",
 }
-VUHDO_GROUP_SIZE = 1
+VUHDO_GROUP_SIZE = 16
 VUHDO_RAID = {
+	["raid14"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "SHAMAN",
+		["role"] = 62,
+		["sortMaxHp"] = 6189120,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 125,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Shogunshaman",
+		["number"] = 14,
+		["isVehicle"] = false,
+		["group"] = 4,
+		["classId"] = 26,
+		["unit"] = "raid14",
+		["powertype"] = 11,
+		["healthmax"] = 6189120,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Shogunshaman",
+		["power"] = 0,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid14target",
+		["health"] = 4786851,
+		["className"] = "Shaman",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet14",
+	},
+	["raid10"] = {
+		["zone"] = "Emerald Dreamway",
+		["baseRange"] = false,
+		["class"] = "DRUID",
+		["role"] = 63,
+		["sortMaxHp"] = 6405060,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Ellestria",
+		["number"] = 10,
+		["isVehicle"] = false,
+		["group"] = 3,
+		["classId"] = 27,
+		["unit"] = "raid10",
+		["powertype"] = 0,
+		["healthmax"] = 6405060,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Ellestria",
+		["power"] = 27061,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid10target",
+		["health"] = 6405060,
+		["className"] = "Druid",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet10",
+	},
+	["raid4"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "DRUID",
+		["role"] = 62,
+		["sortMaxHp"] = 6326400,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 100,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Selendis",
+		["number"] = 4,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 27,
+		["unit"] = "raid4",
+		["powertype"] = 8,
+		["healthmax"] = 6326400,
+		["dead"] = true,
+		["charmed"] = false,
+		["fullName"] = "Selendis",
+		["power"] = 0,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid4target",
+		["health"] = 0,
+		["className"] = "Druid",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet4",
+	},
+	["raid9"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "DEMONHUNTER",
+		["role"] = 60,
+		["sortMaxHp"] = 11870494,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 100,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Tetsuen",
+		["number"] = 9,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["classId"] = 31,
+		["unit"] = "raid9",
+		["powertype"] = 18,
+		["healthmax"] = 11870494,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Tetsuen",
+		["power"] = 0,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid9target",
+		["health"] = 9541755,
+		["className"] = "Demon Hunter",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet9",
+	},
+	["raid3"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "PALADIN",
+		["role"] = 61,
+		["sortMaxHp"] = 6726780,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 23392,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Acekicker",
+		["number"] = 3,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 23,
+		["unit"] = "raid3",
+		["powertype"] = 0,
+		["healthmax"] = 6726780,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Acekicker",
+		["power"] = 46392,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid3target",
+		["health"] = 4085022,
+		["className"] = "Paladin",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet3",
+	},
+	["raid5"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "MAGE",
+		["role"] = 62,
+		["sortMaxHp"] = 6501660,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Kaligon",
+		["number"] = 5,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 24,
+		["unit"] = "raid5",
+		["powertype"] = 0,
+		["healthmax"] = 6501660,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Kaligon",
+		["power"] = 51424,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid5target",
+		["health"] = 4501522,
+		["className"] = "Mage",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet5",
+	},
+	["raid13"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "PALADIN",
+		["role"] = 63,
+		["sortMaxHp"] = 7189386,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Panly",
+		["number"] = 13,
+		["isVehicle"] = false,
+		["group"] = 4,
+		["classId"] = 23,
+		["unit"] = "raid13",
+		["powertype"] = 0,
+		["healthmax"] = 7189386,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Panly",
+		["power"] = 51424,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid13target",
+		["health"] = 5414830,
+		["className"] = "Paladin",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet13",
+	},
+	["raid7"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "DEATHKNIGHT",
+		["role"] = 61,
+		["sortMaxHp"] = 6484380,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 100,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Bigsister",
+		["number"] = 7,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["classId"] = 29,
+		["unit"] = "raid7",
+		["powertype"] = 6,
+		["healthmax"] = 6484380,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Bigsister",
+		["power"] = 9,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid7target",
+		["health"] = 3768004,
+		["className"] = "Death Knight",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet7",
+	},
+	["raid2"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "PRIEST",
+		["role"] = 63,
+		["sortMaxHp"] = 6424680,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Celaniia",
+		["number"] = 2,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["classId"] = 28,
+		["unit"] = "raid2",
+		["powertype"] = 0,
+		["healthmax"] = 6424680,
+		["dead"] = true,
+		["charmed"] = false,
+		["fullName"] = "Celaniia",
+		["power"] = 12362,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid2target",
+		["health"] = 0,
+		["className"] = "Priest",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet2",
+	},
+	["raid1"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "PALADIN",
+		["role"] = 60,
+		["sortMaxHp"] = 9576465,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 23392,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Kalithumos",
+		["number"] = 1,
+		["isVehicle"] = false,
+		["group"] = 3,
+		["classId"] = 23,
+		["unit"] = "raid1",
+		["powertype"] = 0,
+		["healthmax"] = 9576465,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Kalithumos",
+		["power"] = 10248,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid1target",
+		["health"] = 5982628,
+		["className"] = "Paladin",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet1",
+	},
+	["raid12"] = {
+		["zone"] = "The Eventide",
+		["baseRange"] = false,
+		["class"] = "PALADIN",
+		["role"] = 61,
+		["sortMaxHp"] = 6703260,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 23392,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Blakeyboy",
+		["number"] = 12,
+		["isVehicle"] = false,
+		["group"] = 3,
+		["classId"] = 23,
+		["unit"] = "raid12",
+		["powertype"] = 0,
+		["healthmax"] = 6703260,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Blakeyboy",
+		["power"] = 23392,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid12target",
+		["health"] = 4535194,
+		["className"] = "Paladin",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet12",
+	},
+	["raid16"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "MAGE",
+		["role"] = 62,
+		["sortMaxHp"] = 6093480,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Mediocreman",
+		["number"] = 16,
+		["isVehicle"] = false,
+		["group"] = 4,
+		["classId"] = 24,
+		["unit"] = "raid16",
+		["powertype"] = 0,
+		["healthmax"] = 6093480,
+		["dead"] = true,
+		["charmed"] = false,
+		["fullName"] = "Mediocreman",
+		["power"] = 51424,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid16target",
+		["health"] = 0,
+		["className"] = "Mage",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet16",
+	},
+	["raid11"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "MAGE",
+		["role"] = 62,
+		["sortMaxHp"] = 6586020,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 9125,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Kalethia",
+		["number"] = 11,
+		["isVehicle"] = false,
+		["group"] = 3,
+		["classId"] = 24,
+		["unit"] = "raid11",
+		["powertype"] = 0,
+		["healthmax"] = 6586020,
+		["dead"] = false,
+		["charmed"] = false,
+		["fullName"] = "Kalethia",
+		["power"] = 9125,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid11target",
+		["health"] = 6427890,
+		["className"] = "Mage",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet11",
+	},
+	["raid8"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "MAGE",
+		["role"] = 62,
+		["sortMaxHp"] = 6346740,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Kahoots",
+		["number"] = 8,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["classId"] = 24,
+		["unit"] = "raid8",
+		["powertype"] = 0,
+		["healthmax"] = 6346740,
+		["dead"] = true,
+		["charmed"] = false,
+		["fullName"] = "Kahoots",
+		["power"] = 51424,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid8target",
+		["health"] = 0,
+		["className"] = "Mage",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet8",
+	},
 	["player"] = {
 		["zone"] = "Dalaran",
 		["baseRange"] = true,
@@ -7813,9 +8275,9 @@ VUHDO_RAID = {
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Mallusof",
-		["number"] = 1,
+		["number"] = 6,
 		["isVehicle"] = false,
-		["group"] = 1,
+		["group"] = 2,
 		["classId"] = 28,
 		["range"] = true,
 		["unit"] = "player",
@@ -7828,12 +8290,45 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 6167820,
+		["health"] = 4676373,
 		["className"] = "Priest",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
+	},
+	["raid15"] = {
+		["zone"] = "Antorus, the Burning Throne",
+		["baseRange"] = false,
+		["class"] = "WARLOCK",
+		["role"] = 62,
+		["sortMaxHp"] = 6786900,
+		["map"] = "Dalaran70",
+		["threat"] = 0,
+		["powermax"] = 51424,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["name"] = "Reportmepls",
+		["number"] = 15,
+		["isVehicle"] = false,
+		["group"] = 4,
+		["classId"] = 25,
+		["unit"] = "raid15",
+		["powertype"] = 0,
+		["healthmax"] = 6786900,
+		["dead"] = true,
+		["charmed"] = false,
+		["fullName"] = "Reportmepls",
+		["power"] = 43404,
+		["aggro"] = false,
+		["visible"] = false,
+		["targetUnit"] = "raid15target",
+		["health"] = 0,
+		["className"] = "Warlock",
+		["afk"] = false,
+		["debuff"] = 0,
+		["connected"] = true,
+		["petUnit"] = "raidpet15",
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7843,7 +8338,7 @@ VUHDO_INDICATOR_CONFIG = {
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
 		["INCOMING_BAR"] = "",
-		["SIDE_LEFT"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -7856,14 +8351,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "AOE Advice",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: All Powers",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["HEALTH_BAR"] = "Health (generic, solid)",
-		["SWIFTMEND_INDICATOR"] = "AOE Advice",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

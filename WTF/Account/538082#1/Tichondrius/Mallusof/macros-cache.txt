@@ -13,9 +13,14 @@ VER 3 0100000000000008 "Shining" "INV_MISC_QUESTIONMARK"
 /target Mallusof
 /cast Shining Force
 END
+VER 3 0100000000000009 "Vari" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Word: Chastise
+/target Shadow
+/cast Holy Word: Chastise
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R3PT1IH1HR1PM1DR1MR[x]2EM2MR2DH2NT3DH3MR3PM3WM4PH4SR4LR4MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NKalCelLikAceSelKal[x]BigKahSasTetEllKalBlaDiePanShoRepMed[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

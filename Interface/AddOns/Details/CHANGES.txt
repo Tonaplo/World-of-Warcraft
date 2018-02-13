@@ -1,5 +1,11 @@
-changeset:   699:ad8526b89561
+changeset:   700:379ec089b56c
 tag:         tip
+user:        Tercio
+date:        Fri Feb 09 11:33:02 2018 -0200
+summary:     - Added real time compile error while writing a custom script.
+
+
+changeset:   699:ad8526b89561
 user:        Tercio
 date:        Fri Feb 02 13:29:07 2018 -0200
 summary:     - Fixed wasted shield subtracting the total healing of the spell. This wasn't affecting the healing done of the actor it self.

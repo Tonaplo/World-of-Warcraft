@@ -1,5 +1,5 @@
 		------------------------------------------------
-		-- Paragon Reputation 1.16 by Sev US-Drakkari --
+		-- Paragon Reputation 1.17 by Sev US-Drakkari --
 		------------------------------------------------
 
 		  --[[	  Special thanks to Ammako for
@@ -128,22 +128,22 @@ elseif LOCALE == "koKR" then
 	L["SOUND"] = "소리 경보"
 	L["ANCHOR"] = "고정기 위치"
 
--- Chinese (Simplified) (MISSING TRANSLATIONS)
+-- Chinese (Simplified) (Thanks dxlmike)
 elseif LOCALE == "zhCN" then 
-	L["PARAGON"] = "模范"
-	L["OPTIONDESC"] = "This options allow you to customize some settings of Paragon Reputation."
-	L["TOASTDESC"] = "Toggle a toast window that will warn you when you have a Paragon Reward."
-	L["LABEL001"] = "Bars Color"
-	L["LABEL002"] = "Text Format"
-	L["LABEL003"] = "Reward Toast"
-	L["BLUE"] = "Paragon Blue"
-	L["GREEN"] = "Default Green"
-	L["YELLOW"] = "Neutral Yellow"
-	L["ORANGE"] = "Unfriendly Orange"
-	L["RED"] = "Lightish Red"
-	L["DEFICIT"] = "Reputation Deficit"
-	L["SOUND"] = "Sound Warning"
-	L["ANCHOR"] = "Toggle Anchor"
+	L["PARAGON"] = "巅峰"
+	L["OPTIONDESC"] = "可以自定巅峰声望条的一些设定."
+	L["TOASTDESC"] = "切换获得巅峰奖励时是否弹出通知."
+	L["LABEL001"] = "声望条颜色"
+	L["LABEL002"] = "文字格式"
+	L["LABEL003"] = "弹出奖励通知"
+	L["BLUE"] = "巅峰蓝"
+	L["GREEN"] = "预设绿"
+	L["YELLOW"] = "中立黄"
+	L["ORANGE"] = "敌对橙"
+	L["RED"] = "淡红"
+	L["DEFICIT"] = "还需要多少声望"
+	L["SOUND"] = "音效通知"
+	L["ANCHOR"] = "锚点"
 
 -- Chinese (Traditional) (Thanks gaspy10 & BNSSNB)
 elseif LOCALE == "zhTW" then

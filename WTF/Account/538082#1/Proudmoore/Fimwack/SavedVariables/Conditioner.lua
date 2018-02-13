@@ -11,7 +11,8 @@ xl_savedvariables = {
 		nil, -- [1]
 		{
 			980, -- [1]
-			["aura_target"] = 4,
+			0, -- [2]
+			["aura_target"] = 9,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
@@ -19,25 +20,27 @@ xl_savedvariables = {
 			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "Agony",
-			["key_binding"] = "C",
+			["key_binding"] = "F",
 			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = true,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 3,
+			["stack_conditional"] = 1,
+			["duration_remaining"] = 5,
 		}, -- [2]
 		{
 			172, -- [1]
-			["aura_target"] = 4,
+			0, -- [2]
+			["aura_target"] = 9,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
@@ -47,23 +50,25 @@ xl_savedvariables = {
 			["active_aura"] = "Corruption",
 			["key_binding"] = "Shift + C",
 			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = true,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
+			["stack_conditional"] = 1,
+			["duration_remaining"] = 2,
 		}, -- [3]
 		{
 			63106, -- [1]
-			["aura_target"] = 4,
+			0, -- [2]
+			["aura_target"] = 9,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
 			["alt_resource_by_percentage"] = false,
@@ -71,24 +76,26 @@ xl_savedvariables = {
 			["dispel_mask"] = 0,
 			["resource_condition"] = 1,
 			["active_aura"] = "Siphon Life",
-			["key_binding"] = "F",
+			["key_binding"] = "Shift + 3",
 			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = true,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 3,
+			["stack_conditional"] = 1,
+			["duration_remaining"] = 5,
 		}, -- [4]
 		{
 			205179, -- [1]
+			0, -- [2]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
@@ -99,22 +106,24 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "3",
 			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
+			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
 		}, -- [5]
 		{
 			30108, -- [1]
+			0, -- [2]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
@@ -125,22 +134,24 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "Shift + F",
 			["resource_type"] = 8,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 4,
+			["alt_min_resource_to_cast"] = 0,
+			["min_resource_to_cast"] = 3,
 			["use_condition"] = true,
-			["num_charges"] = 0,
+			["stack_conditional"] = 1,
 			["duration_remaining"] = 3,
 		}, -- [6]
 		{
 			216698, -- [1]
+			0, -- [2]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
@@ -150,23 +161,25 @@ xl_savedvariables = {
 			["resource_condition"] = 5,
 			["active_aura"] = "Tormented Souls",
 			["key_binding"] = "2",
-			["resource_type"] = 8,
+			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 5,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 2,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 3,
 			["use_condition"] = true,
-			["num_charges"] = 0,
+			["stack_conditional"] = 5,
 			["duration_remaining"] = 0,
 		}, -- [7]
 		{
 			1454, -- [1]
+			0, -- [2]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
@@ -177,22 +190,24 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "X",
 			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 30,
 			["use_condition"] = true,
-			["num_charges"] = 0,
+			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
 		}, -- [8]
 		{
 			198590, -- [1]
+			0, -- [2]
 			["aura_target"] = 1,
 			["charge_conditional"] = 1,
 			["clip_gcd"] = true,
@@ -203,51 +218,24 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "E",
 			["resource_type"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
+			["only_when_ready"] = false,
 			["is_interrupt"] = false,
 			["highlight_only"] = false,
-			["alt_min_resource_to_cast"] = 0,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
-			["alt_resource_condition"] = 1,
+			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = false,
-			["num_charges"] = 0,
+			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
 		}, -- [9]
 	}, -- [1]
 	{
 		nil, -- [1]
-		{
-			603, -- [1]
-			0, -- [2]
-			["aura_target"] = 2,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["dispel_mask"] = 0,
-			["resource_condition"] = 1,
-			["active_aura"] = "Doom",
-			["key_binding"] = "Shift + C",
-			["resource_type"] = 1,
-			["alt_resource_condition"] = 1,
-			["maintain_aura"] = true,
-			["alt_resource_type"] = 1,
-			["only_when_ready"] = false,
-			["is_interrupt"] = false,
-			["num_charges"] = 0,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
-		}, -- [2]
 		{
 			104316, -- [1]
 			0, -- [2]
@@ -261,13 +249,13 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "Shift + F",
 			["resource_type"] = 8,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
@@ -275,7 +263,7 @@ xl_savedvariables = {
 			["use_condition"] = true,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [3]
+		}, -- [2]
 		{
 			105174, -- [1]
 			0, -- [2]
@@ -289,13 +277,13 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "F",
 			["resource_type"] = 1,
-			["alt_resource_condition"] = 5,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 8,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_resource_condition"] = 5,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 4,
@@ -303,35 +291,7 @@ xl_savedvariables = {
 			["use_condition"] = true,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [4]
-		{
-			193396, -- [1]
-			0, -- [2]
-			["aura_target"] = 8,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["dispel_mask"] = 0,
-			["resource_condition"] = 1,
-			["active_aura"] = "Demonic Empowerment",
-			["key_binding"] = "3",
-			["resource_type"] = 1,
-			["alt_resource_condition"] = 1,
-			["maintain_aura"] = true,
-			["alt_resource_type"] = 1,
-			["only_when_ready"] = false,
-			["is_interrupt"] = false,
-			["num_charges"] = 0,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 2,
-		}, -- [5]
+		}, -- [3]
 		{
 			686, -- [1]
 			0, -- [2]
@@ -345,13 +305,13 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "E",
 			["resource_type"] = 1,
-			["alt_resource_condition"] = 1,
+			["num_charges"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["num_charges"] = 0,
 			["highlight_only"] = false,
+			["alt_resource_condition"] = 1,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
@@ -359,7 +319,7 @@ xl_savedvariables = {
 			["use_condition"] = false,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [6]
+		}, -- [4]
 	}, -- [2]
 	{
 		nil, -- [1]

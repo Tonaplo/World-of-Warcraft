@@ -1,5 +1,5 @@
 		------------------------------------------------
-		-- Paragon Reputation 1.16 by Sev US-Drakkari --
+		-- Paragon Reputation 1.17 by Sev US-Drakkari --
 		------------------------------------------------
 
 		  --[[	  Special thanks to Ammako for

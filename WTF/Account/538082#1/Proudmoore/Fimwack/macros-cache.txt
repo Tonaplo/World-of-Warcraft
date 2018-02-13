@@ -1,7 +1,7 @@
-VER 3 0100000000000003 "fear" "INV_MISC_QUESTIONMARK"
-#showtooltip Fear
-/target Tugar
-/cast Fear
+VER 3 0100000000000008 "Banish Thing" "INV_MISC_QUESTIONMARK"
+#showtooltip Banish
+/target Thing
+/cast Banish
 END
 VER 3 0100000000000006 "Havoc" "INV_MISC_QUESTIONMARK"
 #showtooltip Havoc
@@ -9,9 +9,14 @@ VER 3 0100000000000006 "Havoc" "INV_MISC_QUESTIONMARK"
 /cast Havoc
 /target Tugar
 END
+VER 3 0100000000000003 "Karam" "INV_MISC_QUESTIONMARK"
+#showtooltip Cripple
+/target Karam
+/cast Cripple
+END
 VER 3 0100000000000004 "Mortal coil" "INV_MISC_QUESTIONMARK"
 #showtooltip Mortal Coil
-/target Tugar
+/target Sigryn
 /cast Mortal Coil
 END
 VER 3 0100000000000007 "Power" "134331"

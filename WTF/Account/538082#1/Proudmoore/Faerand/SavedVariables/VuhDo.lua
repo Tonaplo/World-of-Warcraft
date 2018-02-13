@@ -4421,8 +4421,8 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 131.636154174805,
-			["x"] = 945.551330566406,
+			["y"] = 130.71858215332,
+			["x"] = 963.379150390625,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
@@ -4439,7 +4439,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["sort"] = 0,
 			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -4448,6 +4447,7 @@ VUHDO_PANEL_SETUP = {
 				4, -- [4]
 				5, -- [5]
 			},
+			["sort"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -7182,9 +7182,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7192,9 +7192,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7247,9 +7247,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7276,9 +7276,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7286,9 +7286,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7341,9 +7341,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7385,11 +7385,11 @@ VUHDO_RAID = {
 		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "HUNTER",
-		["role"] = 61,
-		["sortMaxHp"] = 4846500,
+		["role"] = 62,
+		["sortMaxHp"] = 5115240,
 		["map"] = "Dalaran70",
 		["threat"] = 0,
-		["powermax"] = 100,
+		["powermax"] = 130,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Faerand",
@@ -7400,53 +7400,20 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 2,
-		["healthmax"] = 4846500,
+		["healthmax"] = 5115240,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Faerand",
-		["power"] = 100,
+		["power"] = 130,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 4846500,
+		["health"] = 5115240,
 		["className"] = "Hunter",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
-	},
-	["pet"] = {
-		["number"] = 1,
-		["afk"] = false,
-		["visible"] = true,
-		["zone"] = "Dalaran",
-		["group"] = 0,
-		["class"] = "WARRIOR",
-		["range"] = true,
-		["unit"] = "pet",
-		["targetUnit"] = "pettarget",
-		["debuff"] = 0,
-		["healthmax"] = 3392550,
-		["baseRange"] = true,
-		["classId"] = 40,
-		["sortMaxHp"] = 3392550,
-		["isVehicle"] = false,
-		["dead"] = false,
-		["map"] = "Dalaran70",
-		["threat"] = 0,
-		["fullName"] = "Bear",
-		["power"] = 100,
-		["aggro"] = false,
-		["powertype"] = 2,
-		["threatPerc"] = 0,
-		["isPet"] = true,
-		["charmed"] = false,
-		["name"] = "Bear",
-		["className"] = "Bear",
-		["powermax"] = 100,
-		["ownerUnit"] = "player",
-		["connected"] = true,
-		["health"] = 3392550,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7455,8 +7422,8 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
-		["SIDE_LEFT"] = "",
-		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
+		["DAMAGE_FLASH_BAR"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -7469,13 +7436,13 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
+		["SIDE_LEFT"] = "",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
 		["INCOMING_BAR"] = "",
 	},
 	["CUSTOM"] = {

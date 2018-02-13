@@ -4877,7 +4877,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "HIGH",
 		["MODEL"] = {
-			["ordering"] = 1,
 			["sort"] = 6,
 			["groups"] = {
 				1, -- [1]
@@ -4889,6 +4888,7 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
+			["ordering"] = 1,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -6502,7 +6502,7 @@ VUHDO_PANEL_SETUP = {
 		["iconRadioValue"] = 1,
 		["SLOTS"] = {
 			"Beacon of Light", -- [1]
-			"", -- [2]
+			"Beacon of Faith", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -7425,7 +7425,7 @@ VUHDO_BUFF_SETTINGS = {
 			["O"] = 1,
 			["R"] = 1,
 		},
-		["name"] = "Granjior",
+		["name"] = "Callie Carrington",
 		["filter"] = {
 			[999] = true,
 		},
@@ -7466,7 +7466,7 @@ VUHDO_BUFF_SETTINGS = {
 			["O"] = 1,
 			["R"] = 1,
 		},
-		["name"] = "Edmueldemon",
+		["name"] = "Commander Jarod Shadowsong",
 		["filter"] = {
 			[999] = true,
 		},
@@ -7654,9 +7654,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7664,9 +7664,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7719,9 +7719,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7752,7 +7752,7 @@ VUHDO_SPELLS_KEYBOARD = {
 		}, -- [5]
 		{
 			"Blessing of Protection", -- [1]
-			"1", -- [2]
+			"C", -- [2]
 		}, -- [6]
 		{
 			"Blessing of Sacrifice", -- [1]
@@ -7766,6 +7766,10 @@ VUHDO_SPELLS_KEYBOARD = {
 			"Tyr's Deliverance", -- [1]
 			"SHIFT-F", -- [2]
 		}, -- [9]
+		{
+			"Beacon of Faith", -- [1]
+			"1", -- [2]
+		}, -- [10]
 	},
 	["SPELL7"] = "",
 	["SPELL12"] = "",
@@ -7787,9 +7791,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7797,9 +7801,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7852,9 +7856,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7892,12 +7896,12 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Stormshield",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "PALADIN",
 		["role"] = 61,
-		["sortMaxHp"] = 4726860,
-		["map"] = "AshranAllianceFactionHub",
+		["sortMaxHp"] = 7379174,
+		["map"] = "Dalaran70",
 		["threat"] = 0,
 		["powermax"] = 220000,
 		["threatPerc"] = 0,
@@ -7910,7 +7914,7 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 4726860,
+		["healthmax"] = 7379174,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Granjior",
@@ -7918,7 +7922,7 @@ VUHDO_RAID = {
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 4726860,
+		["health"] = 7379174,
 		["className"] = "Paladin",
 		["afk"] = false,
 		["debuff"] = 0,
@@ -7933,7 +7937,7 @@ VUHDO_INDICATOR_CONFIG = {
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
 		["INCOMING_BAR"] = "",
-		["SWIFTMEND_INDICATOR"] = "AOE Advice",
+		["DAMAGE_FLASH_BAR"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -7946,14 +7950,14 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["CLUSTER_BORDER"] = "",
+		["SIDE_LEFT"] = "",
 		["THREAT_MARK"] = "",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: All Powers",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["HEALTH_BAR"] = "Health (generic, solid)",
-		["SIDE_LEFT"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "",
+		["SWIFTMEND_INDICATOR"] = "AOE Advice",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

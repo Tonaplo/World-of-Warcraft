@@ -34,3 +34,10 @@ X: 0
 Y: 0
 W: 50
 H: 50
+Frame: ConditionerWatchFrame0
+FrameLevel: 0
+Anchor: CENTER
+X: -186
+Y: 1
+W: 65
+H: 65

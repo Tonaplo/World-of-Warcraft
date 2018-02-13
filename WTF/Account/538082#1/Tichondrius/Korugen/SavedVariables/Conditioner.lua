@@ -9,6 +9,7 @@ xl_current_target_dock = 1
 xl_savedvariables = {
 }
 xl_conditioner_options = {
+	["always_show"] = false,
 	["tapersize"] = 0.75,
 	["hide_hotbar_incombat"] = false,
 	["opacity"] = 1,

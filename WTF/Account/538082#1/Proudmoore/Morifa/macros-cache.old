@@ -1,8 +1,21 @@
+VER 3 0100000000000005 "Arcane CDs!" "135754"
+#showtooltip Arcane Power
+/cast Time Warp
+/cast Presence of Mind
+/cast Arcane Power
+/use 13
+/use 14
+END
 VER 3 0100000000000003 "Frost Cooldowns" "135754"
 /use 13
 /use 14
 /cast Icy Veins
 /cast Frozen Orb
+END
+VER 3 0100000000000004 "Sigryn Sheep" "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/target Sigryn
+/cast Polymorph
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
