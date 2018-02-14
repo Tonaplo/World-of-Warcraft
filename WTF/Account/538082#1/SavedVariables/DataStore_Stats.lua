@@ -11,14 +11,14 @@ DataStore_StatsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -40,7 +40,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1518595842,
+				["lastUpdate"] = 1518597132,
 				["Stats"] = {
 					["Ranged"] = "2-3|0|0|0|35.147499084473",
 					["HealthMax"] = 6208440,
@@ -156,19 +156,6 @@ DataStore_StatsDB = {
 					["Defense"] = "3330|1|27.259769439697|0|0|0",
 				},
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1518593946,
-				["Stats"] = {
-					["Ranged"] = "1-2|0|0|0|35.535003662109",
-					["HealthMax"] = 8887132,
-					["Melee"] = "73519-83481|2.2760000228882|43729|0|35.535003662109|3",
-					["MaxPower"] = "18|100",
-					["Defense"] = "5897|1|16.093015670776|19.745449066162|0|0",
-					["PVP"] = "1|0",
-					["Base"] = "8479|32792|142422|5000|5897",
-					["Spell"] = "5000|5000|0|35.535003662109|4923|0",
-				},
-			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1518421271,
 				["Stats"] = {
@@ -180,6 +167,19 @@ DataStore_StatsDB = {
 					["PVP"] = "0|0",
 					["Base"] = "30|61|152|166|58",
 					["Spell"] = "166|166|0|14.285713195801|35|195",
+				},
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1518597164,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|35.535003662109",
+					["HealthMax"] = 8887132,
+					["Melee"] = "73519-83481|2.2760000228882|43729|0|35.535003662109|3",
+					["MaxPower"] = "18|100",
+					["Defense"] = "5897|1|16.093015670776|19.745449066162|0|0",
+					["PVP"] = "1|0",
+					["Base"] = "8479|32792|142422|5000|5897",
+					["Spell"] = "5000|5000|0|35.535003662109|4923|0",
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {

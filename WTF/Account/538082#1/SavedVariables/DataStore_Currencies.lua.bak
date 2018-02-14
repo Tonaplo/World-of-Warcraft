@@ -11,14 +11,14 @@ DataStore_CurrenciesDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -98,11 +98,11 @@ DataStore_CurrenciesDB = {
 				["Curious Coin"] = 3,
 				["Timeworn Artifact"] = 27,
 				["Wakening Essence"] = 39,
-				["Miscellaneous"] = 20,
+				["Warlords of Draenor"] = 10,
 				["Apexis Crystal"] = 17,
 				["Legion"] = 1,
 				["Darkmoon Prize Ticket"] = 21,
-				["Warlords of Draenor"] = 10,
+				["Miscellaneous"] = 20,
 				["Seal of Inevitable Fate"] = 30,
 				["Wrath of the Lich King"] = 34,
 				["Champion's Seal"] = 35,
@@ -221,7 +221,7 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1518553020,
+				["lastUpdate"] = 1518597130,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "350782-0-0-0",
@@ -561,8 +561,20 @@ DataStore_CurrenciesDB = {
 					[1342] = "25-0-0-1000",
 				},
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518421054,
+			["Default.Proudmoore.Kaldorath"] = {
+				["Currencies"] = {
+					3, -- [1]
+					23940, -- [2]
+					902, -- [3]
+					5128, -- [4]
+					1878538, -- [5]
+					452108, -- [6]
+					14, -- [7]
+					11594, -- [8]
+					78670, -- [9]
+					17, -- [10]
+					51218, -- [11]
+				},
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -583,16 +595,17 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
+				["lastUpdate"] = 1518593925,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
+					[1220] = "3532-0-0-0",
 					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
+					[1273] = "0-0-0-6",
 					[1191] = "0-0-0-0",
 					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
+					[1226] = "14676-0-0-0",
 					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
+					[1342] = "40-0-0-1000",
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
@@ -964,20 +977,8 @@ DataStore_CurrenciesDB = {
 					[1342] = "69-0-0-1000",
 				},
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["Currencies"] = {
-					3, -- [1]
-					23940, -- [2]
-					902, -- [3]
-					5128, -- [4]
-					1878538, -- [5]
-					452108, -- [6]
-					14, -- [7]
-					11594, -- [8]
-					78670, -- [9]
-					17, -- [10]
-					51218, -- [11]
-				},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1518421054,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -998,17 +999,16 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1518593925,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "3532-0-0-0",
+					[1220] = "0-0-0-0",
 					[824] = "0-0-0-0",
-					[1273] = "0-0-0-6",
+					[1273] = "0-0-0-0",
 					[1191] = "0-0-0-0",
 					[823] = "0-0-0-0",
-					[1226] = "14676-0-0-0",
+					[1226] = "0-0-0-0",
 					[994] = "0-0-0-0",
-					[1342] = "40-0-0-1000",
+					[1342] = "0-0-0-0",
 				},
 			},
 		},

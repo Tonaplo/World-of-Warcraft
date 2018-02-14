@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: 2
-Y: 231
-W: 104
-H: 50
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: RIGHT
@@ -62,6 +55,13 @@ X: 0
 Y: 1
 W: 790
 H: 454
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 455
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT
@@ -83,10 +83,3 @@ X: 0
 Y: 0
 W: 50
 H: 50
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: CENTER
-X: -20
-Y: -2
-W: 648
-H: 455

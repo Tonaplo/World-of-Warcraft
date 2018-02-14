@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -40,7 +40,7 @@ DataStore_AgendaDB = {
 					"2018-02-18|19:00|Mythic Antorus|1|2", -- [2]
 					"2018-02-19|19:00|Raid Night!|1|2", -- [3]
 				},
-				["lastUpdate"] = 1518596109,
+				["lastUpdate"] = 1518597132,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -66,14 +66,14 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1518594072,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Normal|345318994"] = "544926|1518593853|0|1",
-				},
-				["lastUpdate"] = 1518593935,
-			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1518421348,
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Normal|345318994"] = "541616|1518597164|0|1",
+				},
+				["lastUpdate"] = 1518597296,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1518594352,
