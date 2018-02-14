@@ -12,8 +12,8 @@ VER 3 0100000000000004 "Feral Cooldowns" "132185"
 /cast Ashamane's Frenzy
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1DH1MR1SM1WM[x]2HR2SH2OM2MR2EM3WM3HR3DT3__3OT4WM4NM4__4OM4RM5HM5__5MR5RM5PT6IR6LR6NT6SH6WM7PH7MR7HR7RM7NM8HR8PM8SH8IR8NM1DT[x]0__[x][x][x]0__[x][x][x][x][x]0__[x]0__[x][x][x][x][x][x]0__[x][x][x][x][x]0__[x][x][x][x][x]0__[x][x]0__[x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Amr[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NTriSolDeaNas[x]GasVerBruSayExpZttAlaUnbUnkMelSarCurUnkQieShiBaiUnkEddRotHamMueMatDegRagMaiSavRaeNahRodEviScoGloYeaMemDemAmr[x]Wat[x][x][x]Cor[x][x][x][x][x]Gru[x]Rit[x][x][x][x][x][x]Arp[x][x][x][x][x]Zhe[x][x][x][x][x]Pro[x][x]Sil[x][x][x][x][x]
 END

@@ -10,7 +10,7 @@ DataStore_MailsDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_MailsDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -31,8 +31,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/02/10 12:47",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1518415430,
-				["lastVisitDate"] = "2018/02/11 22:03",
+				["lastUpdate"] = 1518553002,
+				["lastVisitDate"] = "2018/02/13 12:16",
 			},
 			["Default.Tichondrius.Alura"] = {
 				["lastUpdate"] = 1517900141,
@@ -50,23 +50,23 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518248025,
 				["Mails"] = {
 					{
-						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::::::|h[Unsullied Leather Armbands]|h|r",
+						["returned"] = false,
 						["sender"] = "Fimwack",
 						["itemID"] = 153142,
-						["returned"] = false,
-						["icon"] = 436837,
-						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::::::|h[Unsullied Leather Armbands]|h|r",
 						["lastCheck"] = 1518248025,
+						["count"] = 1,
+						["icon"] = 436837,
 						["daysLeft"] = 30.3859252929688,
 					}, -- [1]
 					{
-						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::11::::|h[Unsullied Leather Armbands]|h|r",
+						["returned"] = false,
 						["sender"] = "Fimwack",
 						["itemID"] = 153142,
-						["returned"] = false,
-						["icon"] = 436837,
-						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::11::::|h[Unsullied Leather Armbands]|h|r",
 						["lastCheck"] = 1518248025,
+						["count"] = 1,
+						["icon"] = 436837,
 						["daysLeft"] = 30.3859252929688,
 					}, -- [2]
 				},
@@ -88,32 +88,21 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518150247,
 				["lastVisitDate"] = "2018/02/08 20:24",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518160883,
-				["Mails"] = {
-					{
-						["sender"] = "Granjior",
-						["itemID"] = 127849,
-						["link"] = "|cffffffff|Hitem:127849::::::::110:65::::::|h[Flask of the Countless Armies]|h|r",
-						["count"] = 13,
-						["icon"] = 1385243,
-						["lastCheck"] = 1518298353,
-						["daysLeft"] = 30,
-					}, -- [1]
-				},
-				["lastVisitDate"] = "2018/02/08 23:21",
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518335458,
-				["lastVisitDate"] = "2018/02/10 23:50",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
 				["lastVisitDate"] = "2018/01/20 20:38",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518284927,
+				["lastVisitDate"] = "2018/02/10 09:48",
+			},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1518335458,
+				["lastVisitDate"] = "2018/02/10 23:50",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1518071922,
@@ -131,9 +120,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518069078,
 				["lastVisitDate"] = "2018/02/07 21:51",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1518284927,
-				["lastVisitDate"] = "2018/02/10 09:48",
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1518553671,
+				["lastVisitDate"] = "2018/02/13 12:27",
 			},
 		},
 	},
