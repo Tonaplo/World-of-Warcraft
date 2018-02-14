@@ -1,6 +1,6 @@
 SET minimapZoom "1"
 SET autoQuestPopUps "v##$"
-SET trackedQuests "v(-#"
+SET trackedQuests "v"
 SET hardTrackedQuests "v"
 SET trackedWorldQuests "v"
 SET hardTrackedWorldQuests "v"

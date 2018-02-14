@@ -6,10 +6,10 @@ VER 3 0100000000000004 "CDS!" "988197"
 /cast Strike of the Windlord
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1ET1DM1IR1PT1WM2PT2IR2RM2EM2IR3OM3HR3EM3SH3RM4NT4HR4DR4NM4SR5NM5ET5DM5MR5DT6WM[x]6EM6DM6MR7RM7LR7SH7WM7IH8__8NM8WM8NM8RM6OT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x]0__[x][x][x]0__[x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mir[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NAurKorBroKimGetKalCelMarAzrDarMonAdiRonDahZylFerMòrOniRhuBarDraSylSinBatBénDur[x]HepUrfCyrDebCutYuyRawXanUnkTiaRonLysAmaMir[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar[x][x][x][x][x][x][x][x][x][x]Cru[x][x][x]Agg[x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000003 "WW Cds" "572035"
 /use 13

@@ -10,7 +10,7 @@ DataStore_MailsDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_MailsDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -50,31 +50,31 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518248025,
 				["Mails"] = {
 					{
-						["returned"] = false,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::::::|h[Unsullied Leather Armbands]|h|r",
 						["sender"] = "Fimwack",
 						["itemID"] = 153142,
-						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::::::|h[Unsullied Leather Armbands]|h|r",
-						["lastCheck"] = 1518248025,
-						["count"] = 1,
+						["returned"] = false,
 						["icon"] = 436837,
+						["count"] = 1,
+						["lastCheck"] = 1518248025,
 						["daysLeft"] = 30.3859252929688,
 					}, -- [1]
 					{
-						["returned"] = false,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::11::::|h[Unsullied Leather Armbands]|h|r",
 						["sender"] = "Fimwack",
 						["itemID"] = 153142,
-						["link"] = "|cff0070dd|Hitem:153142::::::::110:259::11::::|h[Unsullied Leather Armbands]|h|r",
-						["lastCheck"] = 1518248025,
-						["count"] = 1,
+						["returned"] = false,
 						["icon"] = 436837,
+						["count"] = 1,
+						["lastCheck"] = 1518248025,
 						["daysLeft"] = 30.3859252929688,
 					}, -- [2]
 				},
 				["lastVisitDate"] = "2018/02/09 23:33",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1518239667,
-				["lastVisitDate"] = "2018/02/09 21:14",
+				["lastUpdate"] = 1518595517,
+				["lastVisitDate"] = "2018/02/14 00:05",
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["lastUpdate"] = 1516394108,
@@ -82,15 +82,35 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1518300235,
+				["Mails"] = {
+					{
+						["sender"] = "Morifa",
+						["itemID"] = 153142,
+						["link"] = "|cff0070dd|Hitem:153142::::::::110:64::::::|h[Unsullied Leather Armbands]|h|r",
+						["count"] = 1,
+						["icon"] = 436837,
+						["lastCheck"] = 1518595508,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Morifa",
+						["itemID"] = 153139,
+						["link"] = "|cff0070dd|Hitem:153139::::::::110:64::::::|h[Unsullied Leather Headgear]|h|r",
+						["count"] = 1,
+						["icon"] = 436840,
+						["lastCheck"] = 1518595508,
+						["daysLeft"] = 30,
+					}, -- [2]
+				},
 				["lastVisitDate"] = "2018/02/10 14:03",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1518150247,
 				["lastVisitDate"] = "2018/02/08 20:24",
 			},
-			["Default.Bleeding Hollow.Zaliga"] = {
-				["lastUpdate"] = 1509607753,
-				["lastVisitDate"] = "2017/11/02 00:29",
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1518553671,
+				["lastVisitDate"] = "2018/02/13 12:27",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
@@ -110,6 +130,26 @@ DataStore_MailsDB = {
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1518295592,
+				["Mails"] = {
+					{
+						["sender"] = "Morifa",
+						["itemID"] = 153158,
+						["link"] = "|cff0070dd|Hitem:153158::::::::110:64::11::::|h[Unsullied Mail Bracers]|h|r",
+						["count"] = 1,
+						["icon"] = 430971,
+						["lastCheck"] = 1518595516,
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Morifa",
+						["itemID"] = 152744,
+						["link"] = "|cff0070dd|Hitem:152744::::::::110:64::::::|h[Unsullied Mail Girdle]|h|r",
+						["count"] = 1,
+						["icon"] = 430969,
+						["lastCheck"] = 1518595516,
+						["daysLeft"] = 30,
+					}, -- [2]
+				},
 				["lastVisitDate"] = "2018/02/10 12:46",
 			},
 			["Default.Tichondrius.Korugen"] = {
@@ -120,9 +160,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518069078,
 				["lastVisitDate"] = "2018/02/07 21:51",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518553671,
-				["lastVisitDate"] = "2018/02/13 12:27",
+			["Default.Bleeding Hollow.Zaliga"] = {
+				["lastUpdate"] = 1509607753,
+				["lastVisitDate"] = "2017/11/02 00:29",
 			},
 		},
 	},
