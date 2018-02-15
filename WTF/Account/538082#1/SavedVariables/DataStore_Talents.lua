@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -63,7 +63,7 @@ DataStore_TalentsDB = {
 					9847, -- [2]
 					6554, -- [3]
 				},
-				["lastUpdate"] = 1518597130,
+				["lastUpdate"] = 1518671806,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -106,7 +106,7 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Maw of the Damned"] = {
-						["pointsRemaining"] = 16071626680,
+						["pointsRemaining"] = 26025628080,
 						["rank"] = 69,
 						["tier"] = 2,
 					},
@@ -117,7 +117,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1518594255,
+				["lastUpdate"] = 1518679847,
 				["Specializations"] = {
 					5783, -- [1]
 					5882, -- [2]
@@ -279,7 +279,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518421196,
+				["lastUpdate"] = 1518673041,
 				["Specializations"] = {
 					10, -- [1]
 				},
@@ -343,14 +343,14 @@ DataStore_TalentsDB = {
 					9813, -- [2]
 					7605, -- [3]
 				},
-				["lastUpdate"] = 1518595548,
+				["lastUpdate"] = 1518679772,
 				["Class"] = "WARRIOR",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Scale of the Earth-Warder"] = {
 						["tier"] = 2,
-						["rank"] = 69,
-						["pointsRemaining"] = 27307145835,
+						["rank"] = 70,
+						["pointsRemaining"] = 1525650785,
 					},
 					["Strom'kar, the Warbreaker"] = {
 						["pointsRemaining"] = 22841425820,
@@ -452,14 +452,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -934,21 +934,6 @@ DataStore_TalentsRefDB = {
 						22044, -- [4]
 						21180, -- [5]
 						22088, -- [6]
-						19280, -- [7]
-						19285, -- [8]
-						22476, -- [9]
-						19279, -- [10]
-						19292, -- [11]
-						22046, -- [12]
-						22047, -- [13]
-						19291, -- [14]
-						19288, -- [15]
-						21182, -- [16]
-						19294, -- [17]
-						19295, -- [18]
-						19284, -- [19]
-						19281, -- [20]
-						19293, -- [21]
 					},
 				}, -- [1]
 				{

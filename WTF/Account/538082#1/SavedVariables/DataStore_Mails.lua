@@ -11,14 +11,14 @@ DataStore_MailsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -108,21 +108,21 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518150247,
 				["lastVisitDate"] = "2018/02/08 20:24",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518553671,
-				["lastVisitDate"] = "2018/02/13 12:27",
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1518335458,
+				["lastVisitDate"] = "2018/02/10 23:50",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
 				["lastVisitDate"] = "2018/01/20 20:38",
 			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1518553671,
+				["lastVisitDate"] = "2018/02/13 12:27",
+			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1518284927,
 				["lastVisitDate"] = "2018/02/10 09:48",
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518335458,
-				["lastVisitDate"] = "2018/02/10 23:50",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1518071922,

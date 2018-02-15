@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "23:36:48",
 			["date_start"] = "23:35:33",
+			["date_end"] = "23:36:48",
 			["name"] = "Lord Godfrey",
 			["total_time"] = 75,
 		}, -- [1]
 		{
-			["date_end"] = "23:33:35",
 			["date_start"] = "23:32:52",
+			["date_end"] = "23:33:35",
 			["name"] = "Lord Walden",
 			["total_time"] = 43,
 		}, -- [2]
 		{
-			["date_end"] = "23:28:45",
 			["date_start"] = "23:28:10",
+			["date_end"] = "23:28:45",
 			["name"] = "Commander Springvale",
 			["total_time"] = 35.0020000000004,
 		}, -- [3]
 		{
-			["date_end"] = "23:26:20",
 			["date_start"] = "23:25:38",
+			["date_end"] = "23:26:20",
 			["name"] = "Baron Silverlaine",
 			["total_time"] = 42.0030000000043,
 		}, -- [4]
@@ -30,7 +30,7 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
@@ -120,14 +120,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Silentgee-Frostwolf"] = {
-				[201763] = {
-					75, -- [1]
-					75, -- [2]
-					["source"] = "Dark Rider",
-					["active"] = false,
-				},
-			},
 			["Repentia-Malygos"] = {
 				[91677] = {
 					11.0910000000004, -- [1]
@@ -137,6 +129,14 @@ DetailsTimeLineDB = {
 					47.0950000000012, -- [5]
 					58.8799999999974, -- [6]
 					["source"] = "Pustulant Monstrosity",
+					["active"] = false,
+				},
+			},
+			["Silentgee-Frostwolf"] = {
+				[201763] = {
+					75, -- [1]
+					75, -- [2]
+					["source"] = "Dark Rider",
 					["active"] = false,
 				},
 			},
@@ -202,7 +202,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

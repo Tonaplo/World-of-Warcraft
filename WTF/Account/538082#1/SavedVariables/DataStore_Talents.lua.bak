@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1518597130,
+				["lastUpdate"] = 1518671806,
 				["Specializations"] = {
 					7894, -- [1]
 					9847, -- [2]
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1518593852,
+				["lastUpdate"] = 1518597164,
 				["Specializations"] = {
 					15087, -- [1]
 					8105, -- [2]
@@ -344,8 +344,8 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 22841425820,
 					},
 					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 27307145835,
-						["rank"] = 69,
+						["pointsRemaining"] = 1525650785,
+						["rank"] = 70,
 						["tier"] = 2,
 					},
 					["Warswords of the Valarjar"] = {
@@ -355,7 +355,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1518595548,
+				["lastUpdate"] = 1518679772,
 				["Specializations"] = {
 					6551, -- [1]
 					9813, -- [2]
@@ -431,7 +431,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518421196,
+				["lastUpdate"] = 1518673041,
 				["Specializations"] = {
 					10, -- [1]
 				},
@@ -452,14 +452,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -952,21 +952,6 @@ DataStore_TalentsRefDB = {
 						22044, -- [4]
 						21180, -- [5]
 						22088, -- [6]
-						19280, -- [7]
-						19285, -- [8]
-						22476, -- [9]
-						19279, -- [10]
-						19292, -- [11]
-						22046, -- [12]
-						22047, -- [13]
-						19291, -- [14]
-						19288, -- [15]
-						21182, -- [16]
-						19294, -- [17]
-						19295, -- [18]
-						19284, -- [19]
-						19281, -- [20]
-						19293, -- [21]
 					},
 				}, -- [1]
 				{

@@ -11,14 +11,14 @@ DataStore_PetsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -160,14 +160,14 @@ DataStore_PetsDB = {
 				[62609] = 33238,
 				[135265] = 68663,
 				[147124] = 73011,
-				[135267] = 68659,
+				[184482] = 93143,
 				[65358] = 34364,
 				[215560] = 108568,
-				[171222] = 85773,
+				[135267] = 68659,
 				[188084] = 94867,
 				[141451] = 71033,
 				[65382] = 33529,
-				[184482] = 93143,
+				[171222] = 85773,
 				[10680] = 7390,
 				[260887] = 132366,
 				[89039] = 47944,
@@ -210,7 +210,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1518597132,
+				["lastUpdate"] = 1518671809,
 				["CRITTER"] = {
 					179831, -- [1]
 					170287, -- [2]
@@ -422,13 +422,13 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518421054,
+				["lastUpdate"] = 1518673041,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1518597164,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518594255,
+				["lastUpdate"] = 1518679847,
 				["CRITTER"] = {
 					135254, -- [1]
 					135257, -- [2]
@@ -457,7 +457,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1517798951,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1518595548,
+				["lastUpdate"] = 1518679772,
 				["CRITTER"] = {
 					10714, -- [1]
 					173547, -- [2]

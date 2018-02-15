@@ -1,10 +1,32 @@
-lightweight tag 7621d343edf76b954321991c675e74ade3cb486c v201802130800
+lightweight tag bd0a641f7ee82898da03a0af314fbbab3502c431 v201802140800
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Tue Feb 13 09:29:49 2018 +0000
+Date:	Wed Feb 14 09:30:55 2018 +0000
 
-commit 7621d343edf76b954321991c675e74ade3cb486c
+commit bd0a641f7ee82898da03a0af314fbbab3502c431
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Tue Feb 13 09:29:49 2018 +0000
+Date:   Wed Feb 14 09:30:55 2018 +0000
 
     [Raider.IO] Database Refresh
+
+commit 150aaf7d493ab7d9ab6ec987d8df705b4df6ab43
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Wed Feb 14 00:37:48 2018 -0600
+
+    expanded score tiers up to 6k by adding Artifact color
+
+commit 8815a2ae7930caba8752c7b830addec90e868289
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Wed Feb 14 00:12:05 2018 -0600
+
+    Develop (#18)
+    
+    - Reorganizing the core, trying to make it a bit easier to read, and finally transformed our dungeon references instead of index (1..14) to use a enum table.
+    - Converted key level to base score to use numbers instead of strings.
+    - Removed the UI reload question when toggling dropdown options, after the changes this isn't needed anymore.
+    - BNet returns the level of the character. We Attempt to filter away low levels from even trying to show score or the Copy URL options. Some areas might not be that easy to filter on this, but most used areas do follow the max level rule.
+    - Added a bunch of dropdowns to monitor, we need to comment away some if they aren't usefull.
+    - Added basic skin support for Aurora, but can add more. Hopefully frameworks like elvUI have API to skin a dropdown template, since thats what we inherit anyway.
+    - Fixed a issue with LFG tooltips and dropdowns, so we properly monitor the dropdown option when showing our dropdown Copy URL button.
+    - Adjusted dropdown menu to not fade away when we move the mouse over our own dropdown menu below. Will have to keep an eye on this in case it introduces taint.
+    - Tweaked base copy URL frame offset, added Copy URL behavior to SELF frame, shortened "Copy Raider.IO Profile URL" text
 

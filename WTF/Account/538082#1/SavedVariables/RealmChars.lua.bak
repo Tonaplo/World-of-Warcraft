@@ -46,14 +46,14 @@ RCDatabase = {
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 930.25,
+				["itemLevelEquipped"] = 931.5,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 931.5,
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["itemLevelOverall"] = 930.25,
+				["firstProf"] = "Blacksmithing",
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -220,14 +220,14 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 30.8125,
+				["itemLevelEquipped"] = 36.5,
 				["class"] = "WARLOCK",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Zethan",
 				["firstProf"] = "No 1st Prof",
-				["level"] = 30,
+				["level"] = 36,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 30.8125,
+				["itemLevelOverall"] = 36.5,
 			}, -- [5]
 			["characterStored"] = 5,
 		},

@@ -48,13 +48,6 @@ X: 249
 Y: 15
 W: 790
 H: 454
-Frame: ConditionerMessageAnchorFrame
-FrameLevel: 0
-Anchor: CENTER
-X: 0
-Y: 0
-W: 50
-H: 50
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: LEFT
@@ -62,3 +55,10 @@ X: 9
 Y: -208
 W: 370
 H: 110
+Frame: ConditionerMessageAnchorFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 0
+W: 50
+H: 50

@@ -66,8 +66,8 @@ OneRing_Config = {
 			},
 			["SpecMenu"] = {
 				{
-					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
 					["sliceToken"] = "OPCTAc",
+					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -114,8 +114,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["id"] = "/cast {{spell:2018/51300}}",
 					["sliceToken"] = "OPCCTb",
+					["id"] = "/cast {{spell:2018/51300}}",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
@@ -150,12 +150,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
-					["id"] = 53428,
 					["sliceToken"] = "OPCCTu",
+					["id"] = 53428,
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -259,16 +259,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuea4/4zZe",
 				}, -- [6]
 				{
-					["id"] = 229387,
 					["sliceToken"] = "ABueajwKJge",
+					["id"] = 229387,
 				}, -- [7]
 				{
 					["id"] = 231442,
 					["sliceToken"] = "ABueaz9T4ae",
 				}, -- [8]
 				{
-					["sliceToken"] = "ABuea5g/T6e",
 					["id"] = 229417,
+					["sliceToken"] = "ABuea5g/T6e",
 				}, -- [9]
 				{
 					["id"] = 229386,

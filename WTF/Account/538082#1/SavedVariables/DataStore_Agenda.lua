@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -40,7 +40,7 @@ DataStore_AgendaDB = {
 					"2018-02-18|19:00|Mythic Antorus|1|2", -- [2]
 					"2018-02-19|19:00|Raid Night!|1|2", -- [3]
 				},
-				["lastUpdate"] = 1518597132,
+				["lastUpdate"] = 1518671984,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -67,7 +67,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1518594072,
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518421348,
+				["lastUpdate"] = 1518673172,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["DungeonIDs"] = {
@@ -76,7 +76,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1518597296,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518594352,
+				["lastUpdate"] = 1518679950,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1518595724,
@@ -91,7 +91,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1517798979,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1518595554,
+				["DungeonIDs"] = {
+					["Ulduar Timewalking|4273036131"] = "459004|1518679772|0|1",
+				},
+				["lastUpdate"] = 1518679818,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1518594122,
