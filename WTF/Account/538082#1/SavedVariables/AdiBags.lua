@@ -41,8 +41,6 @@ AdiBagsDB = {
 		},
 		["MoneyFrame"] = {
 		},
-		["DataSource"] = {
-		},
 		["ItemSets"] = {
 			["char"] = {
 				["Mallusof - Tichondrius"] = {
@@ -84,6 +82,8 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
 		["Equipment"] = {
@@ -106,12 +106,12 @@ AdiBagsDB = {
 		["Rahran - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",

@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -36,11 +36,15 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-02-15|19:00|Heroic Antorus|1|2", -- [1]
-					"2018-02-18|19:00|Mythic Antorus|1|2", -- [2]
-					"2018-02-19|19:00|Raid Night!|1|2", -- [3]
+					"2018-02-18|19:00|Mythic Antorus|1|2", -- [1]
+					"2018-02-19|19:00|Raid Night!|1|2", -- [2]
+					"2018-02-22|19:00|Heroic Antorus|1|2", -- [3]
 				},
-				["lastUpdate"] = 1518671984,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Mythic|345398448"] = "379096|1518759678|0|1",
+					["Antorus, the Burning Throne Heroic|345407249"] = "379096|1518759678|0|1",
+				},
+				["lastUpdate"] = 1518759685,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -76,7 +80,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1518597296,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518679950,
+				["lastUpdate"] = 1518764891,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Heroic|345409005"] = "373887|1518764887|0|1",
+				},
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1518595724,

@@ -13,13 +13,6 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: LootHistoryFrame
-FrameLevel: 1
-Anchor: TOP
-X: 72
-Y: -109
-W: 210
-H: 175
 Frame: AllTheThings-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
@@ -83,3 +76,10 @@ X: 0
 Y: 0
 W: 50
 H: 50
+Frame: LootHistoryFrame
+FrameLevel: 1
+Anchor: TOP
+X: 72
+Y: -109
+W: 210
+H: 175
