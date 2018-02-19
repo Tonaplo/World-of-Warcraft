@@ -22,20 +22,20 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "Shift + F",
 			["resource_type"] = 1,
-			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 18,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_resource_condition"] = 5,
+			["stack_conditional"] = 1,
+			["use_condition"] = true,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 10,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
+			["alt_resource_condition"] = 5,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
 		}, -- [2]
 		{
 			201467, -- [1]
@@ -50,20 +50,20 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "Shift 2",
 			["resource_type"] = 1,
-			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_resource_condition"] = 1,
+			["stack_conditional"] = 1,
+			["use_condition"] = false,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
+			["alt_resource_condition"] = 1,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
 		}, -- [3]
 		{
 			198013, -- [1]
@@ -78,20 +78,20 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "Shift Q",
 			["resource_type"] = 18,
-			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_resource_condition"] = 1,
+			["stack_conditional"] = 1,
+			["use_condition"] = true,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 50,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
+			["alt_resource_condition"] = 1,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
 		}, -- [4]
 		{
 			188499, -- [1]
@@ -106,20 +106,20 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "Q",
 			["resource_type"] = 18,
-			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_resource_condition"] = 1,
+			["stack_conditional"] = 1,
+			["use_condition"] = true,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 15,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
+			["alt_resource_condition"] = 1,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
 		}, -- [5]
 		{
 			162794, -- [1]
@@ -134,20 +134,20 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "F",
 			["resource_type"] = 18,
-			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_resource_condition"] = 1,
+			["stack_conditional"] = 1,
+			["use_condition"] = true,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 40,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
+			["alt_resource_condition"] = 1,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
 		}, -- [6]
 		{
 			162243, -- [1]
@@ -161,52 +161,24 @@ xl_savedvariables = {
 			["active_aura"] = "",
 			["key_binding"] = "E",
 			["resource_type"] = 1,
-			["num_charges"] = 0,
+			["duration_remaining"] = 0,
 			["maintain_aura"] = false,
 			["alt_resource_type"] = 1,
 			["only_when_ready"] = false,
 			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["alt_resource_condition"] = 1,
+			["stack_conditional"] = 1,
+			["use_condition"] = false,
 			["num_stacks"] = 0,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
+			["alt_resource_condition"] = 1,
+			["highlight_only"] = false,
+			["num_charges"] = 0,
 		}, -- [7]
 	}, -- [1]
 	{
 		nil, -- [1]
-		{
-			183752, -- [1]
-			0, -- [2]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["dispel_mask"] = 0,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "Shift E",
-			["resource_type"] = 1,
-			["alt_resource_condition"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["only_when_ready"] = false,
-			["is_interrupt"] = true,
-			["num_charges"] = 0,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
-		}, -- [2]
 		{
 			247454, -- [1]
 			0, -- [2]
@@ -234,7 +206,7 @@ xl_savedvariables = {
 			["use_condition"] = true,
 			["stack_conditional"] = 3,
 			["duration_remaining"] = 0,
-		}, -- [3]
+		}, -- [2]
 		{
 			207407, -- [1]
 			0, -- [2]
@@ -262,7 +234,7 @@ xl_savedvariables = {
 			["use_condition"] = false,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [4]
+		}, -- [3]
 		{
 			162794, -- [1]
 			0, -- [2]
@@ -290,7 +262,7 @@ xl_savedvariables = {
 			["use_condition"] = true,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [5]
+		}, -- [4]
 		{
 			178740, -- [1]
 			0, -- [2]
@@ -318,35 +290,7 @@ xl_savedvariables = {
 			["use_condition"] = false,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [6]
-		{
-			232893, -- [1]
-			0, -- [2]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["dispel_mask"] = 0,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "Shift F",
-			["resource_type"] = 1,
-			["alt_resource_condition"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["only_when_ready"] = false,
-			["is_interrupt"] = false,
-			["num_charges"] = 0,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["bufftype_mask"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["stack_conditional"] = 1,
-			["duration_remaining"] = 0,
-		}, -- [7]
+		}, -- [5]
 		{
 			204596, -- [1]
 			0, -- [2]
@@ -374,7 +318,35 @@ xl_savedvariables = {
 			["use_condition"] = false,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [8]
+		}, -- [6]
+		{
+			209795, -- [1]
+			0, -- [2]
+			["aura_target"] = 1,
+			["charge_conditional"] = 1,
+			["clip_gcd"] = true,
+			["alt_resource_by_percentage"] = false,
+			["resource_by_percentage"] = true,
+			["dispel_mask"] = 0,
+			["resource_condition"] = 5,
+			["active_aura"] = "",
+			["key_binding"] = "Shift + 1",
+			["resource_type"] = 23,
+			["alt_resource_condition"] = 5,
+			["maintain_aura"] = false,
+			["alt_resource_type"] = 19,
+			["only_when_ready"] = false,
+			["is_interrupt"] = false,
+			["num_charges"] = 0,
+			["highlight_only"] = false,
+			["num_stacks"] = 0,
+			["bufftype_mask"] = 0,
+			["alt_min_resource_to_cast"] = 80,
+			["min_resource_to_cast"] = 75,
+			["use_condition"] = true,
+			["stack_conditional"] = 1,
+			["duration_remaining"] = 0,
+		}, -- [7]
 		{
 			198793, -- [1]
 			0, -- [2]
@@ -395,14 +367,14 @@ xl_savedvariables = {
 			["is_interrupt"] = false,
 			["num_charges"] = 0,
 			["highlight_only"] = false,
-			["num_stacks"] = 0,
+			["num_stacks"] = 1,
 			["bufftype_mask"] = 0,
 			["alt_min_resource_to_cast"] = 0,
 			["min_resource_to_cast"] = 0,
 			["use_condition"] = true,
-			["stack_conditional"] = 1,
+			["stack_conditional"] = 5,
 			["duration_remaining"] = 0,
-		}, -- [9]
+		}, -- [8]
 		{
 			203782, -- [1]
 			0, -- [2]
@@ -430,12 +402,12 @@ xl_savedvariables = {
 			["use_condition"] = false,
 			["stack_conditional"] = 1,
 			["duration_remaining"] = 0,
-		}, -- [10]
+		}, -- [9]
 	}, -- [2]
 }
 xl_conditioner_options = {
-	["opacity"] = 1,
 	["always_show"] = false,
+	["opacity"] = 1,
 	["hide_hotbar_incombat"] = false,
 	["tapersize"] = 0.75,
 }

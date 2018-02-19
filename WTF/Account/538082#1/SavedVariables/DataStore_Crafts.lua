@@ -1157,7 +1157,7 @@ DataStore_CraftsDB = {
 					},
 				},
 				["Prof2"] = "Enchanting",
-				["lastUpdate"] = 1518759678,
+				["lastUpdate"] = 1519014967,
 				["Prof1"] = "Tailoring",
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
@@ -1167,6 +1167,10 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1518570973,
 				["Prof2"] = "Inscription",
 				["Professions"] = {
+					["Herbalism"] = {
+						["MaxRank"] = 150,
+						["Rank"] = 103,
+					},
 					["Inscription"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-11-0AFB74A0:45359:773|h[Inscription]|h|r",
 						["MaxRank"] = 240,
@@ -1209,10 +1213,6 @@ DataStore_CraftsDB = {
 						},
 						["Rank"] = 168,
 					},
-					["Herbalism"] = {
-						["MaxRank"] = 150,
-						["Rank"] = 103,
-					},
 				},
 				["Prof1"] = "Herbalism",
 			},
@@ -1220,7 +1220,7 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1518594171,
+				["lastUpdate"] = 1519028811,
 				["Prof2"] = "Engineering",
 				["Professions"] = {
 					["Cooking"] = {
@@ -1298,7 +1298,7 @@ DataStore_CraftsDB = {
 				["Prof1"] = "Alchemy",
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1518594049,
+				["lastUpdate"] = 1519020168,
 				["Prof2"] = "Herbalism",
 				["Professions"] = {
 					["Cooking"] = {
@@ -1309,6 +1309,15 @@ DataStore_CraftsDB = {
 					["Archaeology"] = {
 						["MaxRank"] = 75,
 						["Rank"] = 6,
+					},
+					["Herbalism"] = {
+						["MaxRank"] = 800,
+						["Rank"] = 800,
+					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-5-0A0B7505:158741:129|h[First Aid]|h|r",
+						["MaxRank"] = 700,
+						["Rank"] = 1,
 					},
 					["Alchemy"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A0B7505:195095:171|h[Alchemy]|h|r",
@@ -1510,20 +1519,11 @@ DataStore_CraftsDB = {
 						["MaxRank"] = 800,
 						["Rank"] = 754,
 					},
-					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:Player-5-0A0B7505:158741:129|h[First Aid]|h|r",
-						["MaxRank"] = 700,
-						["Rank"] = 1,
-					},
-					["Herbalism"] = {
-						["MaxRank"] = 800,
-						["Rank"] = 800,
-					},
 				},
 				["Prof1"] = "Alchemy",
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518673041,
+				["lastUpdate"] = 1519015333,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["Professions"] = {
@@ -1538,10 +1538,10 @@ DataStore_CraftsDB = {
 						["Rank"] = 1,
 					},
 				},
-				["lastUpdate"] = 1518597164,
+				["lastUpdate"] = 1518997814,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1518764887,
+				["lastUpdate"] = 1519003306,
 				["Prof2"] = "Mining",
 				["Professions"] = {
 					["Cooking"] = {
@@ -1879,7 +1879,7 @@ DataStore_CraftsDB = {
 							13216, -- [36]
 							10628, -- [37]
 						},
-						["Rank"] = 733,
+						["Rank"] = 734,
 					},
 					["Runeforging"] = {
 						["Crafts"] = {
@@ -1903,6 +1903,10 @@ DataStore_CraftsDB = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A129695:158765:185|h[Cooking]|h|r",
 						["MaxRank"] = 700,
 						["Rank"] = 201,
+					},
+					["Skinning"] = {
+						["MaxRank"] = 815,
+						["Rank"] = 815,
 					},
 					["Leatherworking"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A129695:195119:165|h[Leatherworking]|h|r",
@@ -2268,10 +2272,6 @@ DataStore_CraftsDB = {
 						["MaxRank"] = 800,
 						["Rank"] = 723,
 					},
-					["Skinning"] = {
-						["MaxRank"] = 815,
-						["Rank"] = 815,
-					},
 					["First Aid"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A129695:158741:129|h[First Aid]|h|r",
 						["MaxRank"] = 700,
@@ -2399,19 +2399,19 @@ DataStore_CraftsDB = {
 						["MaxRank"] = 700,
 						["Rank"] = 700,
 					},
-					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:Player-5-0A0B74F2:195113:129|h[First Aid]|h|r",
-						["MaxRank"] = 800,
-						["Rank"] = 1,
-					},
 					["Jewelcrafting"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A0B74F2:195116:755|h[Jewelcrafting]|h|r",
 						["MaxRank"] = 800,
 						["Rank"] = 700,
 					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-5-0A0B74F2:195113:129|h[First Aid]|h|r",
+						["MaxRank"] = 800,
+						["Rank"] = 1,
+					},
 				},
 				["Prof2"] = "Jewelcrafting",
-				["lastUpdate"] = 1518679772,
+				["lastUpdate"] = 1519021493,
 				["Prof1"] = "Blacksmithing",
 			},
 			["Default.Proudmoore.Farahn"] = {
@@ -2444,26 +2444,30 @@ DataStore_CraftsDB = {
 				["lastUpdate"] = 1518373033,
 				["Prof2"] = "Mining",
 				["Professions"] = {
+					["Mining"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 1,
+					},
 					["Blacksmithing"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-11-0AFB74BC:2018:164|h[Blacksmithing]|h|r",
 						["MaxRank"] = 85,
 						["Rank"] = 11,
 					},
-					["Mining"] = {
-						["MaxRank"] = 75,
-						["Rank"] = 1,
-					},
 				},
 				["Prof1"] = "Blacksmithing",
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1518595243,
+				["lastUpdate"] = 1518993257,
 				["Prof2"] = "Skinning",
 				["Professions"] = {
 					["Cooking"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A2F3596:2550:185|h[Cooking]|h|r",
 						["MaxRank"] = 90,
 						["Rank"] = 16,
+					},
+					["Skinning"] = {
+						["MaxRank"] = 800,
+						["Rank"] = 800,
 					},
 					["Leatherworking"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A2F3596:195119:165|h[Leatherworking]|h|r",
@@ -2790,10 +2794,6 @@ DataStore_CraftsDB = {
 						["MaxRank"] = 800,
 						["Rank"] = 700,
 					},
-					["Skinning"] = {
-						["MaxRank"] = 800,
-						["Rank"] = 800,
-					},
 					["First Aid"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0A2F3596:195113:129|h[First Aid]|h|r",
 						["MaxRank"] = 800,
@@ -2804,6 +2804,20 @@ DataStore_CraftsDB = {
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["Professions"] = {
+					["Cooking"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-5-0AF1E924:158765:185|h[Cooking]|h|r",
+						["MaxRank"] = 700,
+						["Rank"] = 1,
+					},
+					["Herbalism"] = {
+						["MaxRank"] = 800,
+						["Rank"] = 189,
+					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:Player-5-0AF1E924:158741:129|h[First Aid]|h|r",
+						["MaxRank"] = 700,
+						["Rank"] = 1,
+					},
 					["Inscription"] = {
 						["FullLink"] = "|cffffd000|Htrade:Player-5-0AF1E924:195115:773|h[Inscription]|h|r",
 						["Crafts"] = {
@@ -3103,20 +3117,6 @@ DataStore_CraftsDB = {
 						},
 						["MaxRank"] = 800,
 						["Rank"] = 704,
-					},
-					["Cooking"] = {
-						["FullLink"] = "|cffffd000|Htrade:Player-5-0AF1E924:158765:185|h[Cooking]|h|r",
-						["MaxRank"] = 700,
-						["Rank"] = 1,
-					},
-					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:Player-5-0AF1E924:158741:129|h[First Aid]|h|r",
-						["MaxRank"] = 700,
-						["Rank"] = 1,
-					},
-					["Herbalism"] = {
-						["MaxRank"] = 800,
-						["Rank"] = 189,
 					},
 				},
 				["Prof2"] = "Inscription",
@@ -6572,13 +6572,13 @@ DataStore_CraftsRefDB = {
 			[31449] = 24259,
 			[35587] = 29524,
 			[145061] = 101661,
+			[70568] = 49907,
+			[28209] = 22655,
+			[182945] = 123916,
+			[32473] = 25671,
+			[12078] = 10029,
 			[145062] = 101662,
 			[65454] = 46691,
-			[182945] = 123916,
-			[70568] = 49907,
-			[12078] = 10029,
-			[32473] = 25671,
-			[28209] = 22655,
 			[57263] = 42459,
 			[32485] = 25680,
 			[32285] = 25521,
@@ -6736,28 +6736,28 @@ DataStore_CraftsRefDB = {
 			[137920] = 93439,
 			[182965] = 123895,
 			[25129] = 20749,
-			[7256] = 6048,
 			[3230] = 2457,
+			[7256] = 6048,
 			[137915] = 93434,
 			[171703] = 114237,
 			[8368] = 6733,
 			[7224] = 6041,
 			[182966] = 123894,
-			[15855] = 12210,
 			[187060] = 127367,
 			[33292] = 27663,
+			[99456] = 69950,
 			[137916] = 93435,
 			[171704] = 114232,
 			[137919] = 93438,
-			[99456] = 69950,
-			[182967] = 123893,
 			[137913] = 93432,
+			[182967] = 123893,
 			[125546] = 82436,
 			[2545] = 2682,
+			[125548] = 82438,
 			[137917] = 93436,
 			[171705] = 114236,
-			[125548] = 82438,
 			[229041] = 142075,
+			[15855] = 12210,
 			[182968] = 123892,
 			[171706] = 114235,
 			[137918] = 93437,

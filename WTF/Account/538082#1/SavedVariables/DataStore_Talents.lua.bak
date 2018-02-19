@@ -59,7 +59,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 107484044646,
+						["pointsRemaining"] = 135046548996,
 						["rank"] = 77,
 						["tier"] = 2,
 					},
@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1518759678,
+				["lastUpdate"] = 1519014967,
 				["Specializations"] = {
 					7894, -- [1]
 					9847, -- [2]
@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12155, -- [3]
 				},
-				["lastUpdate"] = 1518679847,
+				["lastUpdate"] = 1519003307,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -121,8 +121,8 @@ DataStore_TalentsDB = {
 					},
 					["Maw of the Damned"] = {
 						["tier"] = 2,
-						["rank"] = 69,
-						["pointsRemaining"] = 26025628080,
+						["rank"] = 70,
+						["pointsRemaining"] = 32783637830,
 					},
 				},
 			},
@@ -142,14 +142,14 @@ DataStore_TalentsDB = {
 					["Truthguard"] = {
 						["tier"] = 2,
 						["rank"] = 68,
-						["pointsRemaining"] = 31835949020,
+						["pointsRemaining"] = 62170453520,
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1518594171,
+				["lastUpdate"] = 1519028163,
 				["Specializations"] = {
 					6762, -- [1]
-					6582, -- [2]
+					10966, -- [2]
 					6821, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
@@ -224,8 +224,8 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Claws of Ursoc",
 				["Artifacts"] = {
 					["Claws of Ursoc"] = {
-						["pointsRemaining"] = 27134726315,
-						["rank"] = 66,
+						["pointsRemaining"] = 26011235415,
+						["rank"] = 68,
 						["tier"] = 2,
 					},
 					["G'Hanir, the Mother Tree"] = {
@@ -245,12 +245,12 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1518594049,
+				["lastUpdate"] = 1519020168,
 				["Specializations"] = {
-					9722, -- [1]
+					13979, -- [1]
 					5718, -- [2]
-					7037, -- [3]
-					8171, -- [4]
+					7039, -- [3]
+					7659, -- [4]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1518597164,
+				["lastUpdate"] = 1518997814,
 				["Specializations"] = {
 					15087, -- [1]
 					8105, -- [2]
@@ -344,8 +344,8 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 22841425820,
 					},
 					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 1525650785,
-						["rank"] = 70,
+						["pointsRemaining"] = 46572670035,
+						["rank"] = 71,
 						["tier"] = 2,
 					},
 					["Warswords of the Valarjar"] = {
@@ -355,11 +355,11 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1518679772,
+				["lastUpdate"] = 1519021493,
 				["Specializations"] = {
 					6551, -- [1]
 					9813, -- [2]
-					7605, -- [3]
+					7593, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -402,14 +402,14 @@ DataStore_TalentsDB = {
 				["Class"] = "PALADIN",
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["EquippedArtifact"] = "Fu Zan, the Wanderer's Companion",
+				["EquippedArtifact"] = "Sheilun, Staff of the Mists",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					15781, -- [1]
 					11253, -- [2]
 					15854, -- [3]
 				},
-				["lastUpdate"] = 1518595243,
+				["lastUpdate"] = 1518993257,
 				["Class"] = "MONK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -421,7 +421,7 @@ DataStore_TalentsDB = {
 					["Fu Zan, the Wanderer's Companion"] = {
 						["tier"] = 2,
 						["rank"] = 68,
-						["pointsRemaining"] = 33375192360,
+						["pointsRemaining"] = 40935193560,
 					},
 					["Fists of the Heavens"] = {
 						["tier"] = 2,
@@ -431,9 +431,9 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518673041,
+				["lastUpdate"] = 1519017335,
 				["Specializations"] = {
-					10, -- [1]
+					26, -- [1]
 				},
 				["Class"] = "WARLOCK",
 			},
@@ -952,6 +952,9 @@ DataStore_TalentsRefDB = {
 						22044, -- [4]
 						21180, -- [5]
 						22088, -- [6]
+						19280, -- [7]
+						19285, -- [8]
+						22476, -- [9]
 					},
 				}, -- [1]
 				{

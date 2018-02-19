@@ -42,9 +42,9 @@ LUIDB = {
 							["Lorvol"] = 10000,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 968616949,
+							["Mallusof"] = 964898470,
 							["Korugen"] = 10055,
-							["Zethan"] = 2519419,
+							["Zethan"] = 3732319,
 						},
 					},
 				},
@@ -61,18 +61,18 @@ LUIDB = {
 							["Morifa"] = 469027982,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 262252503,
+							["Miriyal"] = 236589724,
 							["Farahn"] = 17007666,
-							["Greybone"] = 11677185,
-							["Amranar"] = 253487718,
-							["Granjior"] = 563821141,
-							["Kaldorath"] = 307926025,
+							["Greybone"] = 26798272,
+							["Amranar"] = 143355072,
+							["Granjior"] = 417821825,
+							["Kaldorath"] = 305253992,
 							["Faerand"] = 61341402,
 							["Mallusof"] = 1162234125,
 							["Fimwack"] = 240103585,
 							["Morifa"] = 560270717,
 							["Rahran"] = 285669344,
-							["Praerend"] = 548939839,
+							["Praerend"] = 438921978,
 						},
 					},
 				},
@@ -660,10 +660,6 @@ LUIDB = {
 								["Width"] = 200,
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Padding"] = 1,
-								["Lock"] = false,
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -923,11 +919,10 @@ LUIDB = {
 				["Base"] = {
 					["Raid"] = {
 						["Direction"] = "SOLID",
-						["Animation"] = "None",
-						["IsShown"] = true,
 						["Width"] = 370,
 						["Height"] = 205,
 						["Anchor"] = "CompactRaidFrameContainer",
+						["Animation"] = "None",
 					},
 					["MicroMenu"] = {
 						["IsShown"] = true,
@@ -1968,38 +1963,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/i Well, I'll not try and tank them", -- [1]
-							"/y TAUNT", -- [2]
-							"/i It is", -- [3]
-							"/i So we can cleave?", -- [4]
-							"/i |cff66bbff|Hjournal:2:17345:14|h[Stone Nova]|h|r", -- [5]
-							"/i taunt", -- [6]
-							"/i berserk?", -- [7]
-							"/i I tried to tank them", -- [8]
-							"/i what the fuck", -- [9]
-							"/i I was the only tank :P", -- [10]
-							"/i Avra, you get nice stuff from interrupts right", -- [11]
-							"/i ress", -- [12]
-							"/i that's what's killing uys", -- [13]
-							"/y TAUNT", -- [14]
-							"/i So we can cleave?", -- [15]
-							"/i taunt", -- [16]
-							"/i I tried to tank them", -- [17]
-							"/i I was the only tank :P", -- [18]
-							"/i ress", -- [19]
-							"/y TAUNT", -- [20]
-							"/i taunt", -- [21]
-							"/i I was the only tank :P", -- [22]
-							"/y TAUNT", -- [23]
-							"/i I was the only tank :P", -- [24]
-							"/MACRO", -- [25]
-							"/s You start tanking", -- [26]
-							"/raid o.O", -- [27]
-							"/raid W|cffa335ee|Hitem:152090::::::::110:250::5:3:3611:1487:3528:::|h[Impenetrable Garothi Breastplate]|h|r", -- [28]
-							"/raid Shadow", -- [29]
-							"/cw Allîar-Tichondrius 35 itemlevels :P", -- [30]
-							"/cw Blakeypriest-Tichondrius :( I already put it in", -- [31]
-							"/raid Hellop", -- [32]
+							" I've had 5 3% wipes", -- [1]
+							" I oew money to the gb", -- [2]
+							"/macro", -- [3]
+							" I oew money to the gb", -- [4]
+							"/macro", -- [5]
+							" I've had 5 3% wipes", -- [6]
+							"/macro", -- [7]
+							" I've had 5 3% wipes", -- [8]
+							"/macro", -- [9]
+							"/rt", -- [10]
+							" I oew money to the gb", -- [11]
+							"/macro", -- [12]
+							" yes", -- [13]
+							"/macro", -- [14]
+							" I've had 5 3% wipes", -- [15]
+							" I oew money to the gb", -- [16]
+							"/macro", -- [17]
+							" I oew money to the gb", -- [18]
+							"/macro", -- [19]
+							" I've had 5 3% wipes", -- [20]
+							"/macro", -- [21]
+							" I've had 5 3% wipes", -- [22]
+							"/macro", -- [23]
+							" I oew money to the gb", -- [24]
+							" yes", -- [25]
+							" I've had 5 3% wipes", -- [26]
+							"/macro", -- [27]
+							" I've had 5 3% wipes", -- [28]
+							"/macro", -- [29]
+							" yes", -- [30]
+							"/macro", -- [31]
+							" yes", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							" hahaha", -- [1]
@@ -2036,38 +2031,38 @@ LUIDB = {
 							" hahaha", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							"/raid fuck that ", -- [1]
-							"/spit", -- [2]
-							"/4 Was thinking", -- [3]
-							"/raid \"But it's SO FUN to be on a pvp server\"", -- [4]
-							" so yeah :P", -- [5]
-							"/cw Hangookie What is the mastery/crit/haste ratings sitting at?", -- [6]
-							"/cw Hangookie yeah", -- [7]
-							"/cw Hangookie-Tichondrius yeah", -- [8]
-							"/raid by shock bullshit debuff", -- [9]
-							"/g I asy again", -- [10]
-							" so yeah :P", -- [11]
-							"/cw Hangookie yeah", -- [12]
-							"/raid by shock bullshit debuff", -- [13]
-							" so yeah :P", -- [14]
-							"/raid by shock bullshit debuff", -- [15]
-							"/s 3K MS", -- [16]
-							"/spit", -- [17]
-							"/raid \"But it's SO FUN to be on a pvp server\"", -- [18]
-							"/cw Hangookie What is the mastery/crit/haste ratings sitting at?", -- [19]
-							"/cw Hangookie-Tichondrius yeah", -- [20]
-							"/g I asy again", -- [21]
-							"/cw Hangookie yeah", -- [22]
-							" so yeah :P", -- [23]
-							"/s 3K MS", -- [24]
-							"/raid \"But it's SO FUN to be on a pvp server\"", -- [25]
-							"/cw Hangookie-Tichondrius yeah", -- [26]
-							"/cw Hangookie yeah", -- [27]
-							"/s 3K MS", -- [28]
-							"/cw Hangookie-Tichondrius yeah", -- [29]
-							"/s 3K MS", -- [30]
-							"/cw Kalithumos what the fuck", -- [31]
-							"/cw Kalithumos was that", -- [32]
+							" Write me if you need me", -- [1]
+							" ofc", -- [2]
+							" jumped in a different channel", -- [3]
+							"/e is confused", -- [4]
+							"/g I hate you all for playing here", -- [5]
+							" so yeah :P", -- [6]
+							"/g I hate you all for playing here", -- [7]
+							"/g Please come to booty bay and fuck up the idiots here", -- [8]
+							"/1 nesingwary camp", -- [9]
+							"/g I hate you all for playing here", -- [10]
+							"/g Please come to booty bay and fuck up the idiots here", -- [11]
+							"/g I hate you all for playing here", -- [12]
+							"/rt", -- [13]
+							"/raid I was stubborn", -- [14]
+							"/RT", -- [15]
+							"/raid O.o", -- [16]
+							" Write me if you need me", -- [17]
+							" jumped in a different channel", -- [18]
+							"/g I hate you all for playing here", -- [19]
+							"/g Please come to booty bay and fuck up the idiots here", -- [20]
+							"/g I hate you all for playing here", -- [21]
+							"/rt", -- [22]
+							"/RT", -- [23]
+							" Write me if you need me", -- [24]
+							"/g I hate you all for playing here", -- [25]
+							"/rt", -- [26]
+							" Write me if you need me", -- [27]
+							"/rt", -- [28]
+							"/thank", -- [29]
+							"/wave", -- [30]
+							"/hi", -- [31]
+							"/g gz", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Also Prot Warrior deals a good amount of damage on AoE", -- [1]

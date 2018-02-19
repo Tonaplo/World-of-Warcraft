@@ -15,6 +15,10 @@ VER 3 0100000000000004 "Fury Cooldowns" "132344"
 /cast Odyn's Fury
 /cast Bloodbath
 END
+VER 3 0100000000000006 "Pummel" "INV_MISC_QUESTIONMARK"
+#showtooltip Pummel
+/cast [target=focus] Pummel
+END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

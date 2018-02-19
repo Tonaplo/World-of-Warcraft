@@ -5,6 +5,7 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Felhounds of Sargeras",
 		["id"] = 1987,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -13,107 +14,107 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Felhounds of Sargeras",
-			["diff"] = 15,
-			["ej_instance_id"] = 946,
 			["encounter"] = "Felhounds of Sargeras",
+			["ej_instance_id"] = 946,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["Greybone"] = {
+				["name"] = "Greybone",
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Greybone",
+				["deaths"] = {
+				},
 			},
 			["Slimane-Tichondrius"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Slimane-Tichondrius",
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
+				["class"] = "MAGE",
 				["overall"] = {
 				},
-				["name"] = "Blakeypriest-Tichondrius",
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["overall"] = {
-				},
-				["name"] = "Rikumaruu-Tichondrius",
-			},
-			["Shogunmaster-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Shogunmaster-Tichondrius",
-			},
-			["Panly-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Panly-Tichondrius",
-			},
-			["Sassybogs-Tichondrius"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sassybogs-Tichondrius",
-			},
-			["Joustness-Tichondrius"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Joustness-Tichondrius",
 			},
 			["Dotido-Tichondrius"] = {
+				["name"] = "Dotido-Tichondrius",
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Dotido-Tichondrius",
+				["deaths"] = {
+				},
+			},
+			["Blakeypriest-Tichondrius"] = {
+				["name"] = "Blakeypriest-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Shogunmaster-Tichondrius"] = {
+				["name"] = "Shogunmaster-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Panly-Tichondrius"] = {
+				["name"] = "Panly-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Allîar-Tichondrius"] = {
+				["name"] = "Allîar-Tichondrius",
 				["class"] = "ROGUE",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Allîar-Tichondrius",
+				["deaths"] = {
+				},
+			},
+			["Joustness-Tichondrius"] = {
+				["name"] = "Joustness-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sassybogs-Tichondrius"] = {
+				["name"] = "Sassybogs-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["name"] = "Rikumaruu-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Hangookie-Tichondrius"] = {
+				["name"] = "Hangookie-Tichondrius",
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Hangookie-Tichondrius",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 	["199715"] = {
 		["hash"] = "199715",
 		["type"] = "deaths",
 		["name"] = "Antoran High Command",
 		["id"] = 1997,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -122,139 +123,139 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Antoran High Command",
-			["diff"] = 15,
-			["ej_instance_id"] = 946,
 			["encounter"] = "Antoran High Command",
+			["ej_instance_id"] = 946,
+			["diff"] = 15,
 		},
 		["player_db"] = {
-			["Lyfeguard-Kil'jaeden"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lyfeguard-Kil'jaeden",
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Blakeypriest-Tichondrius",
-			},
-			["Dotido-Tichondrius"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Dotido-Tichondrius",
-			},
-			["Mathrim-Uther"] = {
+			["Slimane-Tichondrius"] = {
+				["name"] = "Slimane-Tichondrius",
 				["class"] = "MAGE",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Mathrim-Uther",
+				["deaths"] = {
+				},
 			},
 			["Shogunmaster-Tichondrius"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Shogunmaster-Tichondrius",
-			},
-			["Koraei-Zangarmarsh"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Koraei-Zangarmarsh",
-			},
-			["Greybone"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Greybone",
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Rikumaruu-Tichondrius",
-			},
-			["Sassybogs-Tichondrius"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sassybogs-Tichondrius",
-			},
-			["Panly-Tichondrius"] = {
 				["class"] = "PALADIN",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Panly-Tichondrius",
+				["deaths"] = {
+				},
 			},
-			["Pencilvestor-Tichondrius"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
+			["Dotido-Tichondrius"] = {
+				["name"] = "Dotido-Tichondrius",
+				["class"] = "WARLOCK",
 				["overall"] = {
 				},
-				["name"] = "Pencilvestor-Tichondrius",
-			},
-			["Allîar-Tichondrius"] = {
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["overall"] = {
-				},
-				["name"] = "Allîar-Tichondrius",
 			},
 			["Irogasm-Tichondrius"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
 				["name"] = "Irogasm-Tichondrius",
-			},
-			["Slimane-Tichondrius"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
+				["class"] = "WARLOCK",
 				["overall"] = {
 				},
-				["name"] = "Slimane-Tichondrius",
+				["deaths"] = {
+				},
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["name"] = "Rikumaruu-Tichondrius",
+				["class"] = "HUNTER",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Pencilvestor-Tichondrius"] = {
+				["name"] = "Pencilvestor-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sassybogs-Tichondrius"] = {
+				["name"] = "Sassybogs-Tichondrius",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Blakeypriest-Tichondrius"] = {
+				["name"] = "Blakeypriest-Tichondrius",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Mathrim-Uther"] = {
+				["name"] = "Mathrim-Uther",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Panly-Tichondrius"] = {
+				["name"] = "Panly-Tichondrius",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Koraei-Zangarmarsh"] = {
+				["name"] = "Koraei-Zangarmarsh",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Allîar-Tichondrius"] = {
+				["name"] = "Allîar-Tichondrius",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Lyfeguard-Kil'jaeden"] = {
+				["name"] = "Lyfeguard-Kil'jaeden",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["name"] = "Greybone",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Hangookie-Tichondrius"] = {
+				["name"] = "Hangookie-Tichondrius",
 				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Hangookie-Tichondrius",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 	["199215"] = {
 		["hash"] = "199215",
 		["type"] = "deaths",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -264,21 +265,20 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Garothi Worldbreaker",
 			["diff"] = 15,
-			["ej_instance_id"] = 946,
 			["id"] = 2076,
+			["ej_instance_id"] = 946,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Dotido-Tichondrius"] = {
+				["name"] = "Dotido-Tichondrius",
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 				["overall"] = {
 				},
-				["name"] = "Dotido-Tichondrius",
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -287,6 +287,7 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Felhounds of Sargeras",
 		["id"] = 1987,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -295,15 +296,14 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Felhounds of Sargeras",
-			["diff"] = 15,
-			["ej_instance_id"] = 946,
 			["encounter"] = "Felhounds of Sargeras",
+			["ej_instance_id"] = 946,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["Greybone"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -311,11 +311,11 @@ DeathGraphsDBEndurance = {
 						"Corrupting Maw |cFFFF33336,110,381|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Dotido-Tichondrius"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -323,79 +323,11 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF33336,024,096|r", -- [3]
 					}, -- [1]
 				},
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Sassybogs-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Joustness-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Shogunmaster-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						119.83, -- [2]
-						"Burning Maw |cFFFF33333,378,453|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Panly-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Pencilvestor-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Allîar-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Irogasm-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
 			["Slimane-Tichondrius"] = {
 				["encounters"] = 2,
 				["points"] = 190,
-				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -403,22 +335,91 @@ DeathGraphsDBEndurance = {
 						"Molten Flare |cFFFF3333672,580|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "MAGE",
+			},
+			["Shogunmaster-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						119.83, -- [2]
+						"Burning Maw |cFFFF33333,378,453|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Allîar-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Sassybogs-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Panly-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Pencilvestor-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Joustness-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Irogasm-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Blakeypriest-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Hangookie-Tichondrius"] = {
 				["encounters"] = 2,
 				["points"] = 200,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 		},
-		["diff"] = 15,
 	},
 	["199715"] = {
 		["hash"] = "199715",
 		["type"] = "endurance",
 		["name"] = "Antoran High Command",
 		["id"] = 1997,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -427,22 +428,21 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Antoran High Command",
-			["diff"] = 15,
-			["ej_instance_id"] = 946,
 			["encounter"] = "Antoran High Command",
+			["ej_instance_id"] = 946,
+			["diff"] = 15,
 		},
 		["player_db"] = {
 			["Rhaaz-Dawnbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
+				["class"] = "WARRIOR",
 			},
 			["Slimane-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -450,11 +450,11 @@ DeathGraphsDBEndurance = {
 						"Pyroblast |cFFFF33331,730,197|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "MAGE",
 			},
 			["Blakeypriest-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -462,11 +462,11 @@ DeathGraphsDBEndurance = {
 						"Bladestorm |cFFFF3333676,152|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PRIEST",
 			},
 			["Shogunmaster-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 280,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -479,11 +479,11 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF33337,699,885|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "PALADIN",
 			},
 			["Pencilvestor-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 290,
-				["class"] = "MONK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -491,60 +491,72 @@ DeathGraphsDBEndurance = {
 						"Fusillade |cFFFF33334,499,210|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "MONK",
 			},
 			["Allîar-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["Greybone"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["deaths"] = {
+				},
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Lyfeguard-Kil'jaeden"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
 			},
 			["Azenoth-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["deaths"] = {
+					{
+						3, -- [1]
+						264.918000000002, -- [2]
+						"Fusillade |cFFFF33334,669,096|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "HUNTER",
+			},
+			["Irogasm-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 			["Mathrim-Uther"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Sassybogs-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
 			},
 			["Panly-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
+			},
+			["Koraei-Zangarmarsh"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Dotido-Tichondrius"] = {
 				["encounters"] = 4,
 				["points"] = 360,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -562,48 +574,37 @@ DeathGraphsDBEndurance = {
 						"Entropic Blast (DoT) |cFFFF3333406,187|r", -- [3]
 					}, -- [3]
 				},
+				["class"] = "WARLOCK",
 			},
-			["Koraei-Zangarmarsh"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEATHKNIGHT",
+			["Lyfeguard-Kil'jaeden"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
-			["Irogasm-Tichondrius"] = {
+			["Sassybogs-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						3, -- [1]
-						264.918000000002, -- [2]
-						"Fusillade |cFFFF33334,669,096|r", -- [3]
-					}, -- [1]
-				},
+				["class"] = "MONK",
 			},
 			["Hangookie-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 		},
-		["diff"] = 15,
 	},
 	["199215"] = {
 		["hash"] = "199215",
 		["type"] = "endurance",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
+		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -613,78 +614,28 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Garothi Worldbreaker",
 			["diff"] = 15,
-			["ej_instance_id"] = 946,
 			["id"] = 2076,
+			["ej_instance_id"] = 946,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Greybone"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 			},
-			["Rikumaruu-Tichondrius"] = {
+			["Slimane-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-			},
-			["Sassybogs-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Joustness-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Shogunmaster-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Panly-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Pencilvestor-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Allîar-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
+				["class"] = "MAGE",
 			},
 			["Dotido-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -692,23 +643,72 @@ DeathGraphsDBEndurance = {
 						"Eradication |cFFFF33336,277,819|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "WARLOCK",
 			},
-			["Slimane-Tichondrius"] = {
+			["Blakeypriest-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Sassybogs-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Panly-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Pencilvestor-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Joustness-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Allîar-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Shogunmaster-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
 			},
 			["Hangookie-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 		},
-		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -718,6 +718,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 5749380,
 				["timeofdeath"] = 107.438,
 				["name"] = "Dotido-Tichondrius",
+				["time"] = 1518764406.603,
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 47s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1112,14 +1115,14 @@ DeathGraphsDBCurrent = {
 						"Dotido-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 47s",
-				["time"] = 1518764406.603,
 			}, -- [1]
 			{
 				["maxhealth"] = 9308956,
 				["timeofdeath"] = 234.945000000002,
 				["name"] = "Shogunmaster-Tichondrius",
+				["time"] = 1518764534.11,
+				["class"] = "PALADIN",
+				["timestring"] = "3m 54s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -1522,14 +1525,14 @@ DeathGraphsDBCurrent = {
 						"Shogunmaster-Tichondrius", -- [6]
 					}, -- [34]
 				},
-				["class"] = "PALADIN",
-				["timestring"] = "3m 54s",
-				["time"] = 1518764534.11,
 			}, -- [2]
 			{
 				["maxhealth"] = 5461920,
 				["timeofdeath"] = 264.918000000002,
 				["name"] = "Rikumaruu-Tichondrius",
+				["time"] = 1518764564.083,
+				["class"] = "HUNTER",
+				["timestring"] = "4m 24s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1924,14 +1927,14 @@ DeathGraphsDBCurrent = {
 						"Rikumaruu-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "HUNTER",
-				["timestring"] = "4m 24s",
-				["time"] = 1518764564.083,
 			}, -- [3]
 			{
 				["maxhealth"] = 5946300,
 				["timeofdeath"] = 293.962,
 				["name"] = "Pencilvestor-Tichondrius",
+				["time"] = 1518764593.127,
+				["class"] = "MONK",
+				["timestring"] = "4m 53s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2326,14 +2329,14 @@ DeathGraphsDBCurrent = {
 						"Pencilvestor-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MONK",
-				["timestring"] = "4m 53s",
-				["time"] = 1518764593.127,
 			}, -- [4]
 			{
 				["maxhealth"] = 5990040,
 				["timeofdeath"] = 325.427,
 				["name"] = "Sassybogs-Tichondrius",
+				["time"] = 1518764624.592,
+				["class"] = "MONK",
+				["timestring"] = "5m 25s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2728,14 +2731,14 @@ DeathGraphsDBCurrent = {
 						"Sassybogs-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MONK",
-				["timestring"] = "5m 25s",
-				["time"] = 1518764624.592,
 			}, -- [5]
 			{
 				["maxhealth"] = 4326480,
 				["timeofdeath"] = 380.227999999999,
 				["name"] = "Slimane-Tichondrius",
+				["time"] = 1518764679.393,
+				["class"] = "MAGE",
+				["timestring"] = "6m 20s",
 				["events"] = {
 					{
 						4, -- [1]
@@ -3130,14 +3133,14 @@ DeathGraphsDBCurrent = {
 						"Slimane-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MAGE",
-				["timestring"] = "6m 20s",
-				["time"] = 1518764679.393,
 			}, -- [6]
 			{
 				["maxhealth"] = 5973360,
 				["timeofdeath"] = 390.992000000002,
 				["name"] = "Mathrim-Uther",
+				["time"] = 1518764690.157,
+				["class"] = "MAGE",
+				["timestring"] = "6m 30s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -3532,14 +3535,14 @@ DeathGraphsDBCurrent = {
 						"Mathrim-Uther", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MAGE",
-				["timestring"] = "6m 30s",
-				["time"] = 1518764690.157,
 			}, -- [7]
 			{
 				["maxhealth"] = 5236380,
 				["timeofdeath"] = 390.992000000002,
 				["name"] = "Allîar-Tichondrius",
+				["time"] = 1518764690.157,
+				["class"] = "ROGUE",
+				["timestring"] = "6m 30s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3934,14 +3937,14 @@ DeathGraphsDBCurrent = {
 						"Allîar-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "ROGUE",
-				["timestring"] = "6m 30s",
-				["time"] = 1518764690.157,
 			}, -- [8]
 			{
 				["maxhealth"] = 4395660,
 				["timeofdeath"] = 390.992000000002,
 				["name"] = "Blakeypriest-Tichondrius",
+				["time"] = 1518764690.157,
+				["class"] = "PRIEST",
+				["timestring"] = "6m 30s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -4336,14 +4339,14 @@ DeathGraphsDBCurrent = {
 						"Blakeypriest-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "6m 30s",
-				["time"] = 1518764690.157,
 			}, -- [9]
 			{
 				["maxhealth"] = 6188640,
 				["timeofdeath"] = 451.048000000003,
 				["name"] = "Lyfeguard-Kil'jaeden",
+				["time"] = 1518764750.213,
+				["class"] = "PRIEST",
+				["timestring"] = "7m 31s",
 				["events"] = {
 					{
 						4, -- [1]
@@ -4738,9 +4741,6 @@ DeathGraphsDBCurrent = {
 						"Lyfeguard-Kil'jaeden", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "7m 31s",
-				["time"] = 1518764750.213,
 			}, -- [10]
 		},
 		["bossname"] = "Antoran High Command",
@@ -4760,6 +4760,9 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 4395660,
 				["timeofdeath"] = 50.4000000000015,
 				["name"] = "Blakeypriest-Tichondrius",
+				["time"] = 1518763586.833,
+				["class"] = "PRIEST",
+				["timestring"] = "0m 50s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5138,14 +5141,14 @@ DeathGraphsDBCurrent = {
 						"Blakeypriest-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PRIEST",
-				["timestring"] = "0m 50s",
-				["time"] = 1518763586.833,
 			}, -- [1]
 			{
 				["maxhealth"] = 5749380,
 				["timeofdeath"] = 248.746000000001,
 				["name"] = "Dotido-Tichondrius",
+				["time"] = 1518763785.179,
+				["class"] = "WARLOCK",
+				["timestring"] = "4m 8s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -5556,14 +5559,14 @@ DeathGraphsDBCurrent = {
 						"Dotido-Tichondrius", -- [6]
 					}, -- [35]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 8s",
-				["time"] = 1518763785.179,
 			}, -- [2]
 			{
 				["maxhealth"] = 5749380,
 				["timeofdeath"] = 413.313,
 				["name"] = "Dotido-Tichondrius",
+				["time"] = 1518763949.746,
+				["class"] = "WARLOCK",
+				["timestring"] = "6m 53s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5958,14 +5961,14 @@ DeathGraphsDBCurrent = {
 						"Dotido-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "6m 53s",
-				["time"] = 1518763949.746,
 			}, -- [3]
 			{
 				["maxhealth"] = 4326480,
 				["timeofdeath"] = 430.654,
 				["name"] = "Slimane-Tichondrius",
+				["time"] = 1518763967.087,
+				["class"] = "MAGE",
+				["timestring"] = "7m 10s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -6360,14 +6363,14 @@ DeathGraphsDBCurrent = {
 						"Slimane-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MAGE",
-				["timestring"] = "7m 10s",
-				["time"] = 1518763967.087,
 			}, -- [4]
 			{
 				["maxhealth"] = 5461920,
 				["timeofdeath"] = 451.595000000001,
 				["name"] = "Rikumaruu-Tichondrius",
+				["time"] = 1518763988.028,
+				["class"] = "HUNTER",
+				["timestring"] = "7m 31s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -6762,14 +6765,14 @@ DeathGraphsDBCurrent = {
 						"Rikumaruu-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "HUNTER",
-				["timestring"] = "7m 31s",
-				["time"] = 1518763988.028,
 			}, -- [5]
 			{
 				["maxhealth"] = 5827500,
 				["timeofdeath"] = 451.595000000001,
 				["name"] = "Koraei-Zangarmarsh",
+				["time"] = 1518763988.028,
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "7m 31s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -7164,14 +7167,14 @@ DeathGraphsDBCurrent = {
 						"Koraei-Zangarmarsh", -- [6]
 					}, -- [33]
 				},
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "7m 31s",
-				["time"] = 1518763988.028,
 			}, -- [6]
 			{
 				["maxhealth"] = 7205532,
 				["timeofdeath"] = 470.434000000001,
 				["name"] = "Panly-Tichondrius",
+				["time"] = 1518764006.867,
+				["class"] = "PALADIN",
+				["timestring"] = "7m 50s",
 				["events"] = {
 					{
 						4, -- [1]
@@ -7566,14 +7569,14 @@ DeathGraphsDBCurrent = {
 						"Panly-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "PALADIN",
-				["timestring"] = "7m 50s",
-				["time"] = 1518764006.867,
 			}, -- [7]
 			{
 				["maxhealth"] = 5946300,
 				["timeofdeath"] = 474.443000000001,
 				["name"] = "Pencilvestor-Tichondrius",
+				["time"] = 1518764010.876,
+				["class"] = "MONK",
+				["timestring"] = "7m 54s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -7968,14 +7971,14 @@ DeathGraphsDBCurrent = {
 						"Pencilvestor-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MONK",
-				["timestring"] = "7m 54s",
-				["time"] = 1518764010.876,
 			}, -- [8]
 			{
 				["maxhealth"] = 4539660,
 				["timeofdeath"] = 475.053,
 				["name"] = "Irogasm-Tichondrius",
+				["time"] = 1518764011.486,
+				["class"] = "WARLOCK",
+				["timestring"] = "7m 55s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -8370,14 +8373,14 @@ DeathGraphsDBCurrent = {
 						"Irogasm-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "WARLOCK",
-				["timestring"] = "7m 55s",
-				["time"] = 1518764011.486,
 			}, -- [9]
 			{
 				["maxhealth"] = 5990040,
 				["timeofdeath"] = 475.426000000001,
 				["name"] = "Sassybogs-Tichondrius",
+				["time"] = 1518764011.859,
+				["class"] = "MONK",
+				["timestring"] = "7m 55s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -8772,9 +8775,6 @@ DeathGraphsDBCurrent = {
 						"Sassybogs-Tichondrius", -- [6]
 					}, -- [33]
 				},
-				["class"] = "MONK",
-				["timestring"] = "7m 55s",
-				["time"] = 1518764011.859,
 			}, -- [10]
 		},
 		["bossname"] = "Antoran High Command",
@@ -8810,104 +8810,6 @@ DeathGraphsDBGraph = {
 			},
 		},
 		["spells"] = {
-			["Desolate Path"] = {
-				{
-					88, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					90, -- [1]
-					1518762196, -- [2]
-				}, -- [2]
-				{
-					186, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					282, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-			},
-			["Siphon Corruption"] = {
-				{
-					26, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					105, -- [1]
-					1518761687, -- [2]
-				}, -- [2]
-				{
-					28, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					105, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-				{
-					184, -- [1]
-					1518762196, -- [2]
-				}, -- [5]
-				{
-					263, -- [1]
-					1518762196, -- [2]
-				}, -- [6]
-			},
-			["Enflame Corruption"] = {
-				{
-					51, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					52, -- [1]
-					1518762196, -- [2]
-				}, -- [2]
-				{
-					149, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					245, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-			},
-			["Molten Touch"] = {
-				{
-					17, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					113, -- [1]
-					1518761687, -- [2]
-				}, -- [2]
-				{
-					18, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					114, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-				{
-					209, -- [1]
-					1518762196, -- [2]
-				}, -- [5]
-				{
-					307, -- [1]
-					1518762196, -- [2]
-				}, -- [6]
-			},
-			["Pounce"] = {
-				{
-					28, -- [1]
-					1518762196, -- [2]
-				}, -- [1]
-				{
-					29, -- [1]
-					1518762196, -- [2]
-				}, -- [2]
-			},
 			["Decay"] = {
 				{
 					9, -- [1]
@@ -9057,6 +8959,104 @@ DeathGraphsDBGraph = {
 					330, -- [1]
 					1518762196, -- [2]
 				}, -- [37]
+			},
+			["Desolate Path"] = {
+				{
+					88, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					90, -- [1]
+					1518762196, -- [2]
+				}, -- [2]
+				{
+					186, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					282, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
+			},
+			["Enflame Corruption"] = {
+				{
+					51, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					52, -- [1]
+					1518762196, -- [2]
+				}, -- [2]
+				{
+					149, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					245, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
+			},
+			["Molten Touch"] = {
+				{
+					17, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					113, -- [1]
+					1518761687, -- [2]
+				}, -- [2]
+				{
+					18, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					114, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
+				{
+					209, -- [1]
+					1518762196, -- [2]
+				}, -- [5]
+				{
+					307, -- [1]
+					1518762196, -- [2]
+				}, -- [6]
+			},
+			["Pounce"] = {
+				{
+					28, -- [1]
+					1518762196, -- [2]
+				}, -- [1]
+				{
+					29, -- [1]
+					1518762196, -- [2]
+				}, -- [2]
+			},
+			["Siphon Corruption"] = {
+				{
+					26, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					105, -- [1]
+					1518761687, -- [2]
+				}, -- [2]
+				{
+					28, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					105, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
+				{
+					184, -- [1]
+					1518762196, -- [2]
+				}, -- [5]
+				{
+					263, -- [1]
+					1518762196, -- [2]
+				}, -- [6]
 			},
 			["Smouldering"] = {
 				{
@@ -9228,12 +9228,12 @@ DeathGraphsDBGraph = {
 			},
 		},
 		["ids"] = {
+			["Decay"] = 245098,
 			["Desolate Path"] = 244825,
-			["Siphon Corruption"] = 244056,
 			["Enflame Corruption"] = 244057,
 			["Molten Touch"] = 244072,
 			["Pounce"] = 252641,
-			["Decay"] = 245098,
+			["Siphon Corruption"] = 244056,
 			["Smouldering"] = 251445,
 			["Hateful Smash"] = 251626,
 		},
@@ -9255,26 +9255,8 @@ DeathGraphsDBGraph = {
 			[208] = {
 				1518763271, -- [1]
 			},
-			[325] = {
-				1518764848, -- [1]
-			},
-			[293] = {
-				1518764848, -- [1]
-			},
-			[451] = {
-				1518764074, -- [1]
-			},
-			[107] = {
-				1518764848, -- [1]
-			},
-			[248] = {
-				1518764074, -- [1]
-			},
-			[391] = {
+			[475] = {
 				1518763271, -- [1]
-			},
-			[234] = {
-				1518764848, -- [1]
 			},
 			[430] = {
 				1518764074, -- [1]
@@ -9282,12 +9264,30 @@ DeathGraphsDBGraph = {
 			[158] = {
 				1518763271, -- [1]
 			},
-			[475] = {
+			[391] = {
 				1518763271, -- [1]
+			},
+			[248] = {
+				1518764074, -- [1]
+			},
+			[451] = {
+				1518764074, -- [1]
+			},
+			[234] = {
+				1518764848, -- [1]
+			},
+			[107] = {
+				1518764848, -- [1]
+			},
+			[293] = {
+				1518764848, -- [1]
+			},
+			[325] = {
+				1518764848, -- [1]
 			},
 		},
 		["spells"] = {
-			["Demonic Charge"] = {
+			["Bladestorm"] = {
 				{
 					12, -- [1]
 					1518763271, -- [2]
@@ -10505,149 +10505,69 @@ DeathGraphsDBGraph = {
 					1518764848, -- [2]
 				}, -- [179]
 			},
-			["Fusillade"] = {
+			["Assume Command"] = {
 				{
-					110, -- [1]
+					92, -- [1]
 					1518763271, -- [2]
 				}, -- [1]
 				{
-					140, -- [1]
+					185, -- [1]
 					1518763271, -- [2]
 				}, -- [2]
 				{
-					170, -- [1]
+					278, -- [1]
 					1518763271, -- [2]
 				}, -- [3]
 				{
-					203, -- [1]
+					371, -- [1]
 					1518763271, -- [2]
 				}, -- [4]
 				{
-					233, -- [1]
+					464, -- [1]
 					1518763271, -- [2]
 				}, -- [5]
 				{
-					263, -- [1]
-					1518763271, -- [2]
+					93, -- [1]
+					1518764074, -- [2]
 				}, -- [6]
 				{
-					389, -- [1]
-					1518763271, -- [2]
+					186, -- [1]
+					1518764074, -- [2]
 				}, -- [7]
 				{
-					419, -- [1]
-					1518763271, -- [2]
+					279, -- [1]
+					1518764074, -- [2]
 				}, -- [8]
 				{
-					449, -- [1]
-					1518763271, -- [2]
+					372, -- [1]
+					1518764074, -- [2]
 				}, -- [9]
 				{
-					482, -- [1]
-					1518763271, -- [2]
+					465, -- [1]
+					1518764074, -- [2]
 				}, -- [10]
 				{
-					513, -- [1]
-					1518763271, -- [2]
+					92, -- [1]
+					1518764848, -- [2]
 				}, -- [11]
 				{
-					542, -- [1]
-					1518763271, -- [2]
+					185, -- [1]
+					1518764848, -- [2]
 				}, -- [12]
 				{
-					110, -- [1]
-					1518764074, -- [2]
+					278, -- [1]
+					1518764848, -- [2]
 				}, -- [13]
 				{
-					141, -- [1]
-					1518764074, -- [2]
+					371, -- [1]
+					1518764848, -- [2]
 				}, -- [14]
 				{
-					170, -- [1]
-					1518764074, -- [2]
+					464, -- [1]
+					1518764848, -- [2]
 				}, -- [15]
-				{
-					203, -- [1]
-					1518764074, -- [2]
-				}, -- [16]
-				{
-					233, -- [1]
-					1518764074, -- [2]
-				}, -- [17]
-				{
-					263, -- [1]
-					1518764074, -- [2]
-				}, -- [18]
-				{
-					389, -- [1]
-					1518764074, -- [2]
-				}, -- [19]
-				{
-					419, -- [1]
-					1518764074, -- [2]
-				}, -- [20]
-				{
-					449, -- [1]
-					1518764074, -- [2]
-				}, -- [21]
-				{
-					482, -- [1]
-					1518764074, -- [2]
-				}, -- [22]
-				{
-					512, -- [1]
-					1518764074, -- [2]
-				}, -- [23]
-				{
-					110, -- [1]
-					1518764848, -- [2]
-				}, -- [24]
-				{
-					140, -- [1]
-					1518764848, -- [2]
-				}, -- [25]
-				{
-					169, -- [1]
-					1518764848, -- [2]
-				}, -- [26]
-				{
-					202, -- [1]
-					1518764848, -- [2]
-				}, -- [27]
-				{
-					232, -- [1]
-					1518764848, -- [2]
-				}, -- [28]
-				{
-					262, -- [1]
-					1518764848, -- [2]
-				}, -- [29]
-				{
-					388, -- [1]
-					1518764848, -- [2]
-				}, -- [30]
-				{
-					418, -- [1]
-					1518764848, -- [2]
-				}, -- [31]
-				{
-					448, -- [1]
-					1518764848, -- [2]
-				}, -- [32]
-				{
-					482, -- [1]
-					1518764848, -- [2]
-				}, -- [33]
-				{
-					512, -- [1]
-					1518764848, -- [2]
-				}, -- [34]
-				{
-					542, -- [1]
-					1518764848, -- [2]
-				}, -- [35]
 			},
-			["Bladestorm"] = {
+			["Demonic Charge"] = {
 				{
 					12, -- [1]
 					1518763271, -- [2]
@@ -12071,67 +11991,147 @@ DeathGraphsDBGraph = {
 					1518764848, -- [2]
 				}, -- [245]
 			},
-			["Assume Command"] = {
+			["Fusillade"] = {
 				{
-					92, -- [1]
+					110, -- [1]
 					1518763271, -- [2]
 				}, -- [1]
 				{
-					185, -- [1]
+					140, -- [1]
 					1518763271, -- [2]
 				}, -- [2]
 				{
-					278, -- [1]
+					170, -- [1]
 					1518763271, -- [2]
 				}, -- [3]
 				{
-					371, -- [1]
+					203, -- [1]
 					1518763271, -- [2]
 				}, -- [4]
 				{
-					464, -- [1]
+					233, -- [1]
 					1518763271, -- [2]
 				}, -- [5]
 				{
-					93, -- [1]
-					1518764074, -- [2]
+					263, -- [1]
+					1518763271, -- [2]
 				}, -- [6]
 				{
-					186, -- [1]
-					1518764074, -- [2]
+					389, -- [1]
+					1518763271, -- [2]
 				}, -- [7]
 				{
-					279, -- [1]
-					1518764074, -- [2]
+					419, -- [1]
+					1518763271, -- [2]
 				}, -- [8]
 				{
-					372, -- [1]
-					1518764074, -- [2]
+					449, -- [1]
+					1518763271, -- [2]
 				}, -- [9]
 				{
-					465, -- [1]
-					1518764074, -- [2]
+					482, -- [1]
+					1518763271, -- [2]
 				}, -- [10]
 				{
-					92, -- [1]
-					1518764848, -- [2]
+					513, -- [1]
+					1518763271, -- [2]
 				}, -- [11]
 				{
-					185, -- [1]
-					1518764848, -- [2]
+					542, -- [1]
+					1518763271, -- [2]
 				}, -- [12]
 				{
-					278, -- [1]
-					1518764848, -- [2]
+					110, -- [1]
+					1518764074, -- [2]
 				}, -- [13]
 				{
-					371, -- [1]
-					1518764848, -- [2]
+					141, -- [1]
+					1518764074, -- [2]
 				}, -- [14]
 				{
-					464, -- [1]
-					1518764848, -- [2]
+					170, -- [1]
+					1518764074, -- [2]
 				}, -- [15]
+				{
+					203, -- [1]
+					1518764074, -- [2]
+				}, -- [16]
+				{
+					233, -- [1]
+					1518764074, -- [2]
+				}, -- [17]
+				{
+					263, -- [1]
+					1518764074, -- [2]
+				}, -- [18]
+				{
+					389, -- [1]
+					1518764074, -- [2]
+				}, -- [19]
+				{
+					419, -- [1]
+					1518764074, -- [2]
+				}, -- [20]
+				{
+					449, -- [1]
+					1518764074, -- [2]
+				}, -- [21]
+				{
+					482, -- [1]
+					1518764074, -- [2]
+				}, -- [22]
+				{
+					512, -- [1]
+					1518764074, -- [2]
+				}, -- [23]
+				{
+					110, -- [1]
+					1518764848, -- [2]
+				}, -- [24]
+				{
+					140, -- [1]
+					1518764848, -- [2]
+				}, -- [25]
+				{
+					169, -- [1]
+					1518764848, -- [2]
+				}, -- [26]
+				{
+					202, -- [1]
+					1518764848, -- [2]
+				}, -- [27]
+				{
+					232, -- [1]
+					1518764848, -- [2]
+				}, -- [28]
+				{
+					262, -- [1]
+					1518764848, -- [2]
+				}, -- [29]
+				{
+					388, -- [1]
+					1518764848, -- [2]
+				}, -- [30]
+				{
+					418, -- [1]
+					1518764848, -- [2]
+				}, -- [31]
+				{
+					448, -- [1]
+					1518764848, -- [2]
+				}, -- [32]
+				{
+					482, -- [1]
+					1518764848, -- [2]
+				}, -- [33]
+				{
+					512, -- [1]
+					1518764848, -- [2]
+				}, -- [34]
+				{
+					542, -- [1]
+					1518764848, -- [2]
+				}, -- [35]
 			},
 			["Disruption Field"] = {
 				{
@@ -12545,13 +12545,13 @@ DeathGraphsDBGraph = {
 			},
 		},
 		["ids"] = {
-			["Demonic Charge"] = 253037,
+			["Bladestorm"] = 253038,
 			["Pyroblast"] = 246505,
 			["Exploit Weakness"] = 244892,
-			["Fusillade"] = 244625,
-			["Bladestorm"] = 253038,
-			["Entropic Mine"] = 257262,
 			["Assume Command"] = 245227,
+			["Demonic Charge"] = 253037,
+			["Entropic Mine"] = 257262,
+			["Fusillade"] = 244625,
 			["Disruption Field"] = 254771,
 		},
 	},
@@ -12582,27 +12582,19 @@ DeathGraphsDBGraph = {
 					1518761176, -- [2]
 				}, -- [2]
 			},
-			["Empowered Decimation"] = {
+			["Annihilation"] = {
 				{
-					147, -- [1]
+					24, -- [1]
 					1518761176, -- [2]
 				}, -- [1]
 				{
-					163, -- [1]
+					55, -- [1]
 					1518761176, -- [2]
 				}, -- [2]
 				{
-					179, -- [1]
+					86, -- [1]
 					1518761176, -- [2]
 				}, -- [3]
-				{
-					194, -- [1]
-					1518761176, -- [2]
-				}, -- [4]
-				{
-					210, -- [1]
-					1518761176, -- [2]
-				}, -- [5]
 			},
 			["Eradication"] = {
 				{
@@ -12632,28 +12624,36 @@ DeathGraphsDBGraph = {
 					1518761176, -- [2]
 				}, -- [4]
 			},
-			["Annihilation"] = {
+			["Empowered Decimation"] = {
 				{
-					24, -- [1]
+					147, -- [1]
 					1518761176, -- [2]
 				}, -- [1]
 				{
-					55, -- [1]
+					163, -- [1]
 					1518761176, -- [2]
 				}, -- [2]
 				{
-					86, -- [1]
+					179, -- [1]
 					1518761176, -- [2]
 				}, -- [3]
+				{
+					194, -- [1]
+					1518761176, -- [2]
+				}, -- [4]
+				{
+					210, -- [1]
+					1518761176, -- [2]
+				}, -- [5]
 			},
 		},
 		["ids"] = {
 			["Empowered"] = 245237,
 			["Searing Barrage"] = 246368,
-			["Empowered Decimation"] = 245294,
+			["Annihilation"] = 244294,
 			["Eradication"] = 244969,
 			["Decimation"] = 244399,
-			["Annihilation"] = 244294,
+			["Empowered Decimation"] = 245294,
 		},
 	},
 }

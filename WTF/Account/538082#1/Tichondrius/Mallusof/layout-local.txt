@@ -55,13 +55,6 @@ X: 0
 Y: 0
 W: 648
 H: 455
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 75
-Y: -184
-W: 370
-H: 110
 Frame: LUI_Frame_Identifier
 FrameLevel: 1
 Anchor: RIGHT
@@ -76,6 +69,13 @@ X: 0
 Y: 0
 W: 50
 H: 50
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 75
+Y: -184
+W: 370
+H: 110
 Frame: LootHistoryFrame
 FrameLevel: 1
 Anchor: TOP
