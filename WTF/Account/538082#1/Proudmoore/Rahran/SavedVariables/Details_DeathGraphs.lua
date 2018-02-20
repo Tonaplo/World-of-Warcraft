@@ -5,8 +5,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -20,6 +18,8 @@ DeathGraphsDBDeaths = {
 			["id"] = 2076,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 		["diff"] = 14,
 	},
 	["202514"] = {
@@ -28,6 +28,87 @@ DeathGraphsDBDeaths = {
 		["name"] = "Portal Keeper Hasabel",
 		["id"] = 2025,
 		["diff"] = 14,
+		["player_db"] = {
+			["Kotex-Executus"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Kotex-Executus",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Joranse-Ysera"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Joranse-Ysera",
+				["class"] = "HUNTER",
+			},
+			["Melladon-AeriePeak"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Melladon-AeriePeak",
+				["class"] = "PRIEST",
+			},
+			["Rahran"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rahran",
+				["class"] = "ROGUE",
+			},
+			["Migtra-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Migtra-Quel'Thalas",
+				["class"] = "MAGE",
+			},
+			["Wyccya-Shandris"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Wyccya-Shandris",
+				["class"] = "WARLOCK",
+			},
+			["Lyomonk-Ysera"] = {
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Lyomonk-Ysera",
+			},
+			["Cured-Turalyon"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Cured-Turalyon",
+				["class"] = "PRIEST",
+			},
+			["Behamat-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Behamat-Sargeras",
+				["class"] = "PALADIN",
+			},
+			["Chronoherb-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Chronoherb-Sargeras",
+				["class"] = "DRUID",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -40,95 +121,12 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 946,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Kotex-Executus"] = {
-				["name"] = "Kotex-Executus",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Joranse-Ysera"] = {
-				["name"] = "Joranse-Ysera",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Melladon-AeriePeak"] = {
-				["name"] = "Melladon-AeriePeak",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rahran"] = {
-				["name"] = "Rahran",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lyomonk-Ysera"] = {
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lyomonk-Ysera",
-			},
-			["Wyccya-Shandris"] = {
-				["name"] = "Wyccya-Shandris",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Behamat-Sargeras"] = {
-				["name"] = "Behamat-Sargeras",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Cured-Turalyon"] = {
-				["name"] = "Cured-Turalyon",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Migtra-Quel'Thalas"] = {
-				["name"] = "Migtra-Quel'Thalas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Chronoherb-Sargeras"] = {
-				["name"] = "Chronoherb-Sargeras",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["198714"] = {
 		["hash"] = "198714",
 		["type"] = "deaths",
 		["name"] = "Felhounds of Sargeras",
 		["id"] = 1987,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -142,6 +140,8 @@ DeathGraphsDBDeaths = {
 			["id"] = 2074,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 		["diff"] = 14,
 	},
 }
@@ -151,6 +151,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Antorus, the Burning Throne",
+			["encounter"] = "Garothi Worldbreaker",
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Garothi Worldbreaker",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["id"] = 2076,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Joranse-Ysera"] = {
 				["encounters"] = 1,
@@ -279,19 +292,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Antorus, the Burning Throne",
-			["encounter"] = "Garothi Worldbreaker",
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Garothi Worldbreaker",
-			["diff"] = 14,
-			["ej_instance_id"] = 946,
-			["id"] = 2076,
-			["killed"] = true,
-		},
 		["diff"] = 14,
 	},
 	["202514"] = {
@@ -300,18 +300,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Portal Keeper Hasabel",
 		["id"] = 2025,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2064,
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Portal Keeper Hasabel",
-			["encounter"] = "Portal Keeper Hasabel",
-			["ej_instance_id"] = 946,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Kotex-Executus"] = {
 				["encounters"] = 1,
@@ -447,12 +435,37 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2064,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Portal Keeper Hasabel",
+			["encounter"] = "Portal Keeper Hasabel",
+			["ej_instance_id"] = 946,
+			["diff"] = 14,
+		},
 	},
 	["198714"] = {
 		["hash"] = "198714",
 		["type"] = "endurance",
 		["name"] = "Felhounds of Sargeras",
 		["id"] = 1987,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Antorus, the Burning Throne",
+			["encounter"] = "Felhounds of Sargeras",
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Felhounds of Sargeras",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["id"] = 2074,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Joranse-Ysera"] = {
 				["encounters"] = 1,
@@ -580,19 +593,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Antorus, the Burning Throne",
-			["encounter"] = "Felhounds of Sargeras",
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Felhounds of Sargeras",
-			["diff"] = 14,
-			["ej_instance_id"] = 946,
-			["id"] = 2074,
-			["killed"] = true,
 		},
 		["diff"] = 14,
 	},
@@ -4576,17 +4576,17 @@ DeathGraphsDBCurrent = {
 DeathGraphsDBGraph = {
 	["202514"] = {
 		["deaths"] = {
-			[145] = {
-				1512932309, -- [1]
-			},
-			[224] = {
-				1512932309, -- [1]
-			},
 			[87] = {
 				1512932309, -- [1]
 				1512932309, -- [2]
 			},
+			[224] = {
+				1512932309, -- [1]
+			},
 			[226] = {
+				1512932309, -- [1]
+			},
+			[145] = {
 				1512932309, -- [1]
 			},
 		},

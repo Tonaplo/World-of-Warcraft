@@ -1,5 +1,86 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\FrameXML\UI.xsd">
+	<Texture name="ConditionerButtonHighlightTexture" file="Interface\Glues\Common\Glue-Panel-Button-Highlight-Blue" alphaMode="ADD" virtual="true">
+		<TexCoords left="0" right="0.625" top="0" bottom="0.6875"/>
+	</Texture>
+
+	<Button name="ConditionerButtonTemplate" virtual="true">
+		<Size x="36" y="22"/>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture parentKey="Left" file="Interface\Glues\Common\Glue-Panel-Button-Up-Blue">
+					<Size x="12" y="22"/>
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+						<Anchor point="BOTTOMLEFT"/>
+					</Anchors>
+					<TexCoords left="0" right="0.09375" top="0" bottom="0.6875"/>
+				</Texture>
+				<Texture parentKey="Right" file="Interface\Glues\Common\Glue-Panel-Button-Up-Blue">
+					<Size x="12" y="22"/>
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+					<TexCoords left="0.50125" right="0.6" top="0" bottom="0.6875"/>
+				</Texture>
+				<Texture parentKey="Middle" file="Interface\Glues\Common\Glue-Panel-Button-Up-Blue">
+					<Size x="12" y="22"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeKey="$parent.Left" relativePoint="TOPRIGHT"/>
+						<Anchor point="BOTTOMRIGHT" relativeKey="$parent.Right" relativePoint="BOTTOMLEFT"/>
+					</Anchors>
+					<TexCoords left="0.09375" right="0.50125" top="0" bottom="0.6875"/>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>
+				if ( not self:IsEnabled() ) then
+					self.Left:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Disabled");
+					self.Middle:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Disabled");
+					self.Right:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Disabled");
+				end
+			</OnLoad>
+			<OnMouseDown>
+				if ( self:IsEnabled() ) then
+					self.Left:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Down-Blue");
+					self.Middle:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Down-Blue");
+					self.Right:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Down-Blue");
+				end
+			</OnMouseDown>
+			<OnMouseUp>
+				if ( self:IsEnabled() ) then
+					self.Left:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+					self.Middle:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+					self.Right:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+				end
+			</OnMouseUp>
+			<OnShow>
+				if ( self:IsEnabled() ) then
+					self.Left:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+					self.Middle:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+					self.Right:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+				end
+			</OnShow>
+			<OnDisable>
+				self.Left:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Disabled");
+				self.Middle:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Disabled");
+				self.Right:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Disabled");
+			</OnDisable>
+			<OnEnable>
+				self.Left:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+				self.Middle:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+				self.Right:SetTexture("Interface\\Glues\\Common\\Glue-Panel-Button-Up-Blue");
+			</OnEnable>
+		</Scripts>
+		<ButtonText name="$parentText" parentKey="Text"/>
+		<NormalFont style="SystemFont_NamePlateCastBar"/>
+		<HighlightFont style="SystemFont_NamePlateCastBar"/>
+		<DisabledFont style="SystemFont_NamePlateCastBar"/>
+		<HighlightTexture inherits="ConditionerButtonHighlightTexture"/>
+	</Button>
+
 	<Button name="ConditionerUIDropDownMenuButtonTemplate" virtual="true">
 		<Size x="100" y="16"/>
 		<Layers>

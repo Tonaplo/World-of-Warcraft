@@ -1,5 +1,53 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Fimwack"] = {
+				{
+					41.8009999999999, -- [1]
+					"Fimwack", -- [2]
+					104773, -- [3]
+				}, -- [1]
+				{
+					181.802, -- [1]
+					"Fimwack", -- [2]
+					104773, -- [3]
+				}, -- [2]
+				{
+					350.06, -- [1]
+					"Fimwack", -- [2]
+					104773, -- [3]
+				}, -- [3]
+				{
+					499.06, -- [1]
+					"Fimwack", -- [2]
+					104773, -- [3]
+				}, -- [4]
+			},
+		}, -- [1]
+		{
+			["Fimwack"] = {
+				{
+					48.539, -- [1]
+					"Fimwack", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+			["Fimwack"] = {
+				{
+					21.2230000000002, -- [1]
+					"Fimwack", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -139,41 +187,23 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_start"] = "19:47:46",
-			["date_end"] = "19:58:05",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 619.006,
-		}, -- [1]
-		{
-			["date_start"] = "19:44:32",
-			["date_end"] = "19:45:51",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 79,
-		}, -- [2]
-		{
-			["date_start"] = "19:38:09",
-			["date_end"] = "19:39:03",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 54.002,
-		}, -- [3]
-		{
-			["date_start"] = "19:36:06",
-			["date_end"] = "19:36:54",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 48.0050000000001,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
+			["Silenttreble"] = {
+				[57723] = {
+					619.006, -- [1]
+					["source"] = "Silenttreble",
+					["active"] = true,
+				},
+			},
+			["Stunablze"] = {
+				[57723] = {
+					619.006, -- [1]
+					["source"] = "Stunablze",
+					["active"] = true,
+				},
+			},
 			["Fimwack"] = {
 				[233869] = {
 					619.006, -- [1]
@@ -226,20 +256,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Stunablze"] = {
-				[57723] = {
-					619.006, -- [1]
-					["source"] = "Stunablze",
-					["active"] = true,
-				},
-			},
-			["Silenttreble"] = {
-				[57723] = {
-					619.006, -- [1]
-					["source"] = "Silenttreble",
-					["active"] = true,
-				},
-			},
 		}, -- [1]
 		{
 			["Fimwack"] = {
@@ -268,52 +284,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Fimwack"] = {
-				{
-					41.8009999999999, -- [1]
-					"Fimwack", -- [2]
-					104773, -- [3]
-				}, -- [1]
-				{
-					181.802, -- [1]
-					"Fimwack", -- [2]
-					104773, -- [3]
-				}, -- [2]
-				{
-					350.06, -- [1]
-					"Fimwack", -- [2]
-					104773, -- [3]
-				}, -- [3]
-				{
-					499.06, -- [1]
-					"Fimwack", -- [2]
-					104773, -- [3]
-				}, -- [4]
-			},
+			["date_end"] = "19:58:05",
+			["date_start"] = "19:47:46",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 619.006,
 		}, -- [1]
 		{
-			["Fimwack"] = {
-				{
-					48.539, -- [1]
-					"Fimwack", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
+			["date_end"] = "19:45:51",
+			["date_start"] = "19:44:32",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 79,
 		}, -- [2]
 		{
+			["date_end"] = "19:39:03",
+			["date_start"] = "19:38:09",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 54.002,
 		}, -- [3]
 		{
-			["Fimwack"] = {
-				{
-					21.2230000000002, -- [1]
-					"Fimwack", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
+			["date_end"] = "19:36:54",
+			["date_start"] = "19:36:06",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 48.0050000000001,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

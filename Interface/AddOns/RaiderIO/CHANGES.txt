@@ -1,22 +1,10 @@
-lightweight tag 9224a21ea500f10451a5c8156a675bcfe9373b42 v201802180800
+lightweight tag f31143300e8ca4797b98026a8c3efd15e6941abb v201802190800
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sun Feb 18 09:31:47 2018 +0000
+Date:	Mon Feb 19 09:30:33 2018 +0000
 
-commit 9224a21ea500f10451a5c8156a675bcfe9373b42
+commit f31143300e8ca4797b98026a8c3efd15e6941abb
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Feb 18 09:31:47 2018 +0000
+Date:   Mon Feb 19 09:30:33 2018 +0000
 
     [Raider.IO] Database Refresh
-
-commit 425ea160d33add8f82701a5341c14d7f3276af01
-Author: Vlad <vladix@gmail.com>
-Date:   Sat Feb 17 16:52:00 2018 +0100
-
-    - The debug module is experimental and had to add a warning about use, until I figure a neat and clean way to implement autocompletion myself without much hassle. For now this will serve alright for early alpha testing purposes.
-
-commit 465243b9ce307da4fdef1d2fae5011ada2f9ad81
-Author: Vlad <vladix@gmail.com>
-Date:   Sat Feb 17 16:42:22 2018 +0100
-
-    - Added a debug dialog to help quickly lookup a player realm and name. This tool is still restricted on what data is loaded, so running this with the US database, won't let you query EU characters. It's still a great and simple way to check if your realm is visible and loaded, and if your character is in the addon or not. You can access the dialog using the command: /raiderio debug
 

@@ -5,6 +5,5055 @@ _detalhes_database = {
 	["mythic_dungeon_id"] = 9,
 	["tabela_historico"] = {
 		["tabelas"] = {
+			{
+				{
+					["combatId"] = 1594,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005912,
+							["damage_from"] = {
+								["Orbyth"] = true,
+								["Ael'Yith"] = true,
+								["Rahran"] = true,
+							},
+							["targets"] = {
+								["Ael'Yith"] = 4877903,
+								["Orbyth"] = 6514109,
+							},
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["total"] = 11392012.005912,
+							["friendlyfire"] = {
+								["Rahran"] = {
+									["spells"] = {
+										[202669] = 695263,
+									},
+									["total"] = 695263,
+								},
+							},
+							["friendlyfire_total"] = 695263,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 10154420.005912,
+							["fight_component"] = true,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1519086051,
+							["classe"] = "ROGUE",
+							["on_hold"] = false,
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 1114429,
+										["g_amt"] = 0,
+										["n_max"] = 81184,
+										["targets"] = {
+											["Ael'Yith"] = 490739,
+											["Orbyth"] = 821461,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 197771,
+										["n_min"] = 40094,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 1312200,
+										["c_max"] = 159627,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 72224,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 4149384,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ael'Yith"] = 2074692,
+											["Orbyth"] = 2074692,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4149384,
+										["c_max"] = 2074692,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 2074692,
+									},
+									[252907] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 455835,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Orbyth"] = 455835,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 455835,
+										["c_max"] = 455835,
+										["id"] = 252907,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 455835,
+									},
+									[202823] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 741760,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ael'Yith"] = 741760,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 741760,
+										["c_max"] = 493699,
+										["id"] = 202823,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 248061,
+									},
+									[196937] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 702984,
+										["g_amt"] = 0,
+										["n_max"] = 178851,
+										["targets"] = {
+											["Ael'Yith"] = 178851,
+											["Orbyth"] = 702984,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 178851,
+										["n_min"] = 178851,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 881835,
+										["c_max"] = 398916,
+										["id"] = 196937,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 304068,
+									},
+									[197834] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 854111,
+										["g_amt"] = 0,
+										["n_max"] = 373781,
+										["targets"] = {
+											["Ael'Yith"] = 373781,
+											["Orbyth"] = 854111,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 373781,
+										["n_min"] = 373781,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1227892,
+										["c_max"] = 854111,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 854111,
+									},
+									[86392] = {
+										["c_amt"] = 5,
+										["b_amt"] = 1,
+										["c_dmg"] = 1180946,
+										["g_amt"] = 0,
+										["n_max"] = 118865,
+										["targets"] = {
+											["Ael'Yith"] = 584989,
+											["Orbyth"] = 800525,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 204568,
+										["n_min"] = 85703,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 1385514,
+										["c_max"] = 244967,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 85703,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 221157,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 260,
+							["serial"] = "Player-5-0A129695",
+							["last_dps"] = 1585968.53764671,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 839970.005912,
+							["start_time"] = 1519086044,
+							["delay"] = 0,
+							["last_event"] = 1519086051,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.005851,
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B69E0",
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Ael'Yith"] = 433091,
+								["Orbyth"] = 804501,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1237592.005851,
+							["dps_started"] = false,
+							["total"] = 1237592.005851,
+							["classe"] = "PET",
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 848933,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ael'Yith"] = 238762,
+											["Orbyth"] = 610171,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 848933,
+										["c_max"] = 159176,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 79587,
+									}, -- [1]
+									[221797] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 64777,
+										["targets"] = {
+											["Ael'Yith"] = 194329,
+											["Orbyth"] = 194330,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 388659,
+										["n_min"] = 64776,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 388659,
+										["c_max"] = 0,
+										["id"] = 221797,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1519086051,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005851,
+							["start_time"] = 1519086045,
+							["delay"] = 0,
+							["last_event"] = 1519086051,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1594,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 8800.001347,
+							["total_without_pet"] = 396804.001347,
+							["total"] = 396804.001347,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A129695",
+							["totalabsorb"] = 0.001347,
+							["last_hps"] = 55242.0995889115,
+							["targets"] = {
+								["Rahran"] = 396804,
+							},
+							["totalover_without_pet"] = 0.001347,
+							["healing_taken"] = 396804.001347,
+							["fight_component"] = true,
+							["end_time"] = 1519086051,
+							["healing_from"] = {
+								["Rahran"] = true,
+							},
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 39838,
+										["targets"] = {
+											["Rahran"] = 137061,
+										},
+										["n_min"] = 6912,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 137061,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 137061,
+										["n_amt"] = 6,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[202824] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 259743,
+										["targets"] = {
+											["Rahran"] = 259743,
+										},
+										["n_min"] = 259743,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 259743,
+										["c_max"] = 0,
+										["id"] = 202824,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 259743,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1519086045,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 260,
+							["totaldenied"] = 0.001347,
+							["delay"] = 0,
+							["last_event"] = 1519086051,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.00777,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Garona Halforcen <Rahran>"] = 8800,
+							},
+							["targets"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Garona Halforcen <Rahran>"] = 8800,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Garona Halforcen <Rahran>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 8800,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.00777,
+							["totalover"] = 8800.00777,
+							["total_without_pet"] = 0.00777,
+							["start_time"] = 1519086049,
+							["totalover_without_pet"] = 0.00777,
+							["classe"] = "PET",
+							["total"] = 0.00777,
+							["end_time"] = 1519086051,
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["heal_enemy_amt"] = 0,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B69E0",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.00777,
+							["delay"] = 0,
+							["last_event"] = 1519086049,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1594,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 70.008811,
+							["resource"] = 9.008811,
+							["targets"] = {
+								["Rahran"] = 70,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 6,
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["total"] = 70.008811,
+							["nome"] = "Rahran",
+							["spec"] = 260,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["flag_original"] = 1297,
+							["last_event"] = 1519086051,
+							["alternatepower"] = 0.008811,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 2,
+										["targets"] = {
+											["Rahran"] = 2,
+										},
+										["counter"] = 2,
+									},
+									[202668] = {
+										["id"] = 202668,
+										["total"] = 4,
+										["targets"] = {
+											["Rahran"] = 4,
+										},
+										["counter"] = 1,
+									},
+									[35546] = {
+										["id"] = 35546,
+										["total"] = 60,
+										["targets"] = {
+											["Rahran"] = 60,
+										},
+										["counter"] = 6,
+									},
+									[139546] = {
+										["id"] = 139546,
+										["total"] = 3,
+										["targets"] = {
+											["Rahran"] = 3,
+										},
+										["counter"] = 3,
+									},
+									[196937] = {
+										["id"] = 196937,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1594,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[252907] = {
+										["activedamt"] = 0,
+										["id"] = 252907,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cooldowns_defensive"] = 1.004109,
+							["buff_uptime"] = 73,
+							["last_cooldown"] = {
+								1519086122.678, -- [1]
+								1966, -- [2]
+							},
+							["classe"] = "ROGUE",
+							["cooldowns_defensive_targets"] = {
+								["Rahran"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[235027] = {
+										["activedamt"] = 1,
+										["id"] = 235027,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195627] = {
+										["activedamt"] = 1,
+										["id"] = 195627,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[13750] = {
+										["activedamt"] = 1,
+										["id"] = 13750,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224001] = {
+										["activedamt"] = 1,
+										["id"] = 224001,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188033] = {
+										["activedamt"] = 1,
+										["id"] = 188033,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[193538] = {
+										["activedamt"] = 1,
+										["id"] = 193538,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[222177] = {
+										["activedamt"] = 1,
+										["id"] = 222177,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["id"] = 5171,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240837] = {
+										["activedamt"] = 1,
+										["id"] = 240837,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240980] = {
+										["activedamt"] = 1,
+										["id"] = 240980,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202776] = {
+										["activedamt"] = 1,
+										["id"] = 202776,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[2098] = 2,
+								[193315] = 2,
+								[196937] = 3,
+								[5171] = 1,
+								[139546] = 3,
+							},
+							["cooldowns_defensive_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[1966] = {
+										["id"] = 1966,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1519086122,
+							["nome"] = "Rahran",
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[221797] = 1,
+							},
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B69E0",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1594,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rahran"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Orbyth",
+				["combat_counter"] = 2299,
+				["playing_solo"] = true,
+				["totals"] = {
+					11392011.991767, -- [1]
+					396804, -- [2]
+					{
+						0, -- [1]
+						[0] = 66,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 4,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Rahran"] = {
+						{
+							1, -- [1]
+							1966, -- [2]
+							1, -- [3]
+							1519086122.678, -- [4]
+							5194860, -- [5]
+							"Rahran", -- [6]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rahran"] = 396804.001347,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rahran"] = 11392012.005912,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 17894.763,
+				["combat_id"] = 1594,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Ael'Yith"] = 1,
+					["Orbyth"] = 1,
+				},
+				["data_fim"] = "16:20:52",
+				["data_inicio"] = "16:20:45",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					10849683, -- [1]
+					396804, -- [2]
+					{
+						0, -- [1]
+						[0] = 66,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 4,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 17887.58,
+				["contra"] = "Orbyth",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1343420.005912, -- [1]
+						684358, -- [2]
+						2110858, -- [3]
+						2375473, -- [4]
+						1418368, -- [5]
+						2505713, -- [6]
+						953822, -- [7]
+						["max_value"] = 2505713,
+					},
+					["Raid Damage Done"] = {
+						1145997, -- [1]
+						699220, -- [2]
+						1872097, -- [3]
+						2457780, -- [4]
+						1353592, -- [5]
+						2670714, -- [6]
+						650283, -- [7]
+						["max_value"] = 2670714,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 1593,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006507,
+							["damage_from"] = {
+								["Withered Skulker"] = true,
+								["Withered Outcast"] = true,
+							},
+							["targets"] = {
+								["Withered Skulker"] = 4907300,
+								["Withered Outcast"] = 9637976,
+							},
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 13915208.006507,
+							["end_time"] = 1519085984,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["total"] = 14545276.006507,
+							["classe"] = "ROGUE",
+							["on_hold"] = false,
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 799412,
+										["g_amt"] = 0,
+										["n_max"] = 67712,
+										["targets"] = {
+											["Withered Skulker"] = 592163,
+											["Withered Outcast"] = 963170,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 755921,
+										["n_min"] = 27582,
+										["g_dmg"] = 0,
+										["counter"] = 27,
+										["total"] = 1555333,
+										["c_max"] = 132818,
+										["MISS"] = 3,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 55672,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1714621,
+										["g_amt"] = 0,
+										["n_max"] = 741751,
+										["targets"] = {
+											["Withered Outcast"] = 2456372,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 741751,
+										["n_min"] = 741751,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 2456372,
+										["c_max"] = 1714621,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 1714621,
+									},
+									[196937] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 148592,
+										["targets"] = {
+											["Withered Skulker"] = 148592,
+											["Withered Outcast"] = 278113,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 426705,
+										["n_min"] = 135944,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 426705,
+										["c_max"] = 0,
+										["id"] = 196937,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[252907] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 94182,
+										["targets"] = {
+											["Withered Outcast"] = 94182,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 94182,
+										["n_min"] = 94182,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 94182,
+										["c_max"] = 0,
+										["id"] = 252907,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[202823] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 668013,
+										["g_amt"] = 0,
+										["n_max"] = 236158,
+										["targets"] = {
+											["Withered Outcast"] = 582813,
+											["Withered Skulker"] = 668013,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 582813,
+										["n_min"] = 114538,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1250826,
+										["c_max"] = 442591,
+										["id"] = 202823,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 225422,
+									},
+									[86392] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 1099618,
+										["g_amt"] = 0,
+										["n_max"] = 102459,
+										["targets"] = {
+											["Withered Skulker"] = 848999,
+											["Withered Outcast"] = 1422199,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1171580,
+										["n_min"] = 78556,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 2271198,
+										["c_max"] = 197878,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 158010,
+									},
+									[22482] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 105183,
+										["targets"] = {
+											["Withered Skulker"] = 637258,
+											["Withered Outcast"] = 410766,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1048024,
+										["n_min"] = 5551,
+										["g_dmg"] = 0,
+										["counter"] = 41,
+										["total"] = 1048024,
+										["c_max"] = 0,
+										["id"] = 22482,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 41,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[197834] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1017017,
+										["g_amt"] = 0,
+										["n_max"] = 310558,
+										["targets"] = {
+											["Withered Skulker"] = 872009,
+											["Withered Outcast"] = 2303181,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2158173,
+										["n_min"] = 185011,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 3175190,
+										["c_max"] = 534606,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 482411,
+									},
+									[202895] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 1259523,
+										["g_amt"] = 0,
+										["n_max"] = 125953,
+										["targets"] = {
+											["Withered Skulker"] = 1007620,
+											["Withered Outcast"] = 629758,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 377855,
+										["n_min"] = 125951,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 1637378,
+										["c_max"] = 251905,
+										["id"] = 202895,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 251903,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 260,
+							["serial"] = "Player-5-0A129695",
+							["last_dps"] = 265599.225887576,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 512627.006507,
+							["start_time"] = 1519085968,
+							["delay"] = 1519085960,
+							["last_event"] = 1519085983,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.003446,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Withered Skulker"] = 132646,
+								["Withered Outcast"] = 497422,
+							},
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 630068.003446,
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B6967",
+							["end_time"] = 1519085984,
+							["dps_started"] = false,
+							["total"] = 630068.003446,
+							["on_hold"] = false,
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 331615,
+										["g_amt"] = 0,
+										["n_max"] = 66323,
+										["targets"] = {
+											["Withered Skulker"] = 132646,
+											["Withered Outcast"] = 497422,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 298453,
+										["n_min"] = 33160,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 630068,
+										["c_max"] = 132646,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 66323,
+									}, -- [1]
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1519085933,
+							["damage_taken"] = 0.003446,
+							["start_time"] = 1519085980,
+							["delay"] = 1519085933,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1593,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Rahran"] = 827144,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 827144.00895,
+							["total_without_pet"] = 1202169.00895,
+							["total"] = 1202169.00895,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A129695",
+							["totalabsorb"] = 0.00895,
+							["last_hps"] = 21951.8115723836,
+							["targets"] = {
+								["Emmigosa"] = 85,
+								["Kharmeera"] = 1028680,
+								["Rahran"] = 929331,
+							},
+							["totalover_without_pet"] = 0.00895,
+							["healing_taken"] = 173404.00895,
+							["fight_component"] = true,
+							["end_time"] = 1519085984,
+							["healing_from"] = {
+								["Rahran"] = true,
+							},
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[202824] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rahran"] = 755927,
+										},
+										["n_max"] = 23302,
+										["targets"] = {
+											["Rahran"] = 23302,
+										},
+										["n_min"] = 23302,
+										["counter"] = 1,
+										["overheal"] = 755927,
+										["total"] = 23302,
+										["c_max"] = 0,
+										["id"] = 202824,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 23302,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Rahran"] = 71217,
+										},
+										["n_max"] = 24076,
+										["targets"] = {
+											["Rahran"] = 150102,
+										},
+										["n_min"] = 1,
+										["counter"] = 25,
+										["overheal"] = 71217,
+										["total"] = 150102,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 150102,
+										["n_amt"] = 25,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[214482] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 146955,
+										["targets"] = {
+											["Emmigosa"] = 85,
+											["Kharmeera"] = 1028680,
+										},
+										["n_min"] = 10,
+										["counter"] = 15,
+										["overheal"] = 0,
+										["total"] = 1028765,
+										["c_max"] = 0,
+										["id"] = 214482,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1028765,
+										["n_amt"] = 15,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1519085930,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 260,
+							["totaldenied"] = 0.00895,
+							["delay"] = 0,
+							["last_event"] = 1519085984,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1593,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 136.007893,
+							["resource"] = 0.007893,
+							["targets"] = {
+								["Rahran"] = 136,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["total"] = 136.007893,
+							["nome"] = "Rahran",
+							["spec"] = 260,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1519086044,
+							["alternatepower"] = 0.007893,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 7,
+										["targets"] = {
+											["Rahran"] = 7,
+										},
+										["counter"] = 8,
+									},
+									[202895] = {
+										["id"] = 202895,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[35546] = {
+										["id"] = 35546,
+										["total"] = 120,
+										["targets"] = {
+											["Rahran"] = 120,
+										},
+										["counter"] = 12,
+									},
+									[197834] = {
+										["id"] = 197834,
+										["total"] = 2,
+										["targets"] = {
+											["Rahran"] = 2,
+										},
+										["counter"] = 3,
+									},
+									[139546] = {
+										["id"] = 139546,
+										["total"] = 3,
+										["targets"] = {
+											["Rahran"] = 3,
+										},
+										["counter"] = 3,
+									},
+									[196937] = {
+										["id"] = 196937,
+										["total"] = 3,
+										["targets"] = {
+											["Rahran"] = 3,
+										},
+										["counter"] = 4,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1593,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[202895] = {
+										["activedamt"] = 0,
+										["id"] = 202895,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[252907] = {
+										["activedamt"] = 0,
+										["id"] = 252907,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["cooldowns_defensive"] = 1.008017,
+							["buff_uptime"] = 442,
+							["last_cooldown"] = {
+								1519086016.563, -- [1]
+								1966, -- [2]
+							},
+							["classe"] = "ROGUE",
+							["cooldowns_defensive_targets"] = {
+								["Rahran"] = 1,
+							},
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[13877] = {
+										["activedamt"] = 1,
+										["id"] = 13877,
+										["targets"] = {
+										},
+										["uptime"] = 55,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[68992] = {
+										["activedamt"] = 1,
+										["id"] = 68992,
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195627] = {
+										["activedamt"] = 3,
+										["id"] = 195627,
+										["targets"] = {
+										},
+										["uptime"] = 22,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 2,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224001] = {
+										["activedamt"] = 1,
+										["id"] = 224001,
+										["targets"] = {
+										},
+										["uptime"] = 55,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188033] = {
+										["activedamt"] = 1,
+										["id"] = 188033,
+										["targets"] = {
+										},
+										["uptime"] = 55,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2983] = {
+										["activedamt"] = 1,
+										["id"] = 2983,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 3,
+										["id"] = 5171,
+										["targets"] = {
+										},
+										["uptime"] = 31,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[193538] = {
+										["activedamt"] = 2,
+										["id"] = 193538,
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[1966] = {
+										["activedamt"] = 1,
+										["id"] = 1966,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 55,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240980] = {
+										["activedamt"] = 1,
+										["id"] = 240980,
+										["targets"] = {
+										},
+										["uptime"] = 55,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[222177] = {
+										["activedamt"] = 1,
+										["id"] = 222177,
+										["targets"] = {
+										},
+										["uptime"] = 55,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 8,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[196937] = 3,
+								[68992] = 1,
+								[193315] = 7,
+								[214482] = 2,
+								[1766] = 1,
+								[139546] = 3,
+								[2098] = 2,
+								[202895] = 1,
+								[5171] = 2,
+							},
+							["cooldowns_defensive_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[1966] = {
+										["id"] = 1966,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1519086016,
+							["nome"] = "Rahran",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1593,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rahran"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Withered Outcast",
+				["combat_counter"] = 2297,
+				["playing_solo"] = true,
+				["totals"] = {
+					14545275.983703, -- [1]
+					1202168.990295, -- [2]
+					{
+						0, -- [1]
+						[0] = 136,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Rahran"] = {
+						{
+							1, -- [1]
+							1966, -- [2]
+							1, -- [3]
+							1519086016.563, -- [4]
+							5194860, -- [5]
+							"Rahran", -- [6]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rahran"] = 1241778.016083,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rahran"] = 17291794.01194,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 17827.288,
+				["combat_id"] = 1593,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Withered Outcast"] = 9,
+					["Withered Skulker"] = 13,
+				},
+				["data_fim"] = "16:19:45",
+				["data_inicio"] = "16:18:50",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					13915208, -- [1]
+					1202169, -- [2]
+					{
+						0, -- [1]
+						[0] = 136,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 1,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 17772.524,
+				["contra"] = "Withered Outcast",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1191021.006507, -- [1]
+						2054278, -- [2]
+						2091292, -- [3]
+						532752, -- [4]
+						546039, -- [5]
+						728146, -- [6]
+						310607, -- [7]
+						741751, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						33559, -- [27]
+						620934, -- [28]
+						355583, -- [29]
+						1492015, -- [30]
+						243180, -- [31]
+						59642, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						1072229, -- [50]
+						0, -- [51]
+						1237855, -- [52]
+						886440, -- [53]
+						347953, -- [54]
+						["max_value"] = 2091292,
+					},
+					["Raid Damage Done"] = {
+						1058375, -- [1]
+						1921631, -- [2]
+						1958646, -- [3]
+						300623, -- [4]
+						546039, -- [5]
+						728146, -- [6]
+						310607, -- [7]
+						741751, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						33559, -- [27]
+						620934, -- [28]
+						355583, -- [29]
+						1492015, -- [30]
+						243180, -- [31]
+						59642, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						1072229, -- [50]
+						0, -- [51]
+						1237855, -- [52]
+						886440, -- [53]
+						347953, -- [54]
+						["max_value"] = 1958646,
+					},
+				},
+			}, -- [2]
+			{
+				{
+					["combatId"] = 1592,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00453,
+							["spec"] = 260,
+							["damage_from"] = {
+								["Withered Outcast"] = true,
+							},
+							["targets"] = {
+								["Withered Skulker"] = 1379955,
+								["Withered Outcast"] = 3630982,
+							},
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1519085910,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5010937.00453,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 5010937.00453,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 367279,
+										["g_amt"] = 0,
+										["n_max"] = 69831,
+										["targets"] = {
+											["Withered Skulker"] = 128182,
+											["Withered Outcast"] = 344430,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 105333,
+										["n_min"] = 35502,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 472612,
+										["c_max"] = 129240,
+										["MISS"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 109857,
+									}, -- [1]
+									[8676] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 937041,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Withered Outcast"] = 937041,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 937041,
+										["c_max"] = 937041,
+										["id"] = 8676,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 937041,
+									},
+									[196937] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 323434,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Withered Outcast"] = 323434,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 323434,
+										["c_max"] = 323434,
+										["id"] = 196937,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 323434,
+									},
+									[86392] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 593811,
+										["g_amt"] = 0,
+										["n_max"] = 112540,
+										["targets"] = {
+											["Withered Skulker"] = 205041,
+											["Withered Outcast"] = 608483,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 219713,
+										["n_min"] = 107173,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 813524,
+										["c_max"] = 205041,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 191637,
+									},
+									[22482] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 144569,
+										["targets"] = {
+											["Withered Outcast"] = 350010,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 350010,
+										["n_min"] = 25408,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 350010,
+										["c_max"] = 0,
+										["id"] = 22482,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[185763] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 343506,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Withered Skulker"] = 343506,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 343506,
+										["c_max"] = 343506,
+										["id"] = 185763,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 343506,
+									},
+									[197834] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1432577,
+										["g_amt"] = 0,
+										["n_max"] = 338233,
+										["targets"] = {
+											["Withered Skulker"] = 703226,
+											["Withered Outcast"] = 1067584,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 338233,
+										["n_min"] = 338233,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1770810,
+										["c_max"] = 729351,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 703226,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-5-0A129695",
+							["last_dps"] = 708860.801319897,
+							["custom"] = 0,
+							["last_event"] = 1519085909,
+							["damage_taken"] = 103980.00453,
+							["start_time"] = 1519085903,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1592,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.00279,
+							["total_without_pet"] = 72261.00279,
+							["total"] = 72261.00279,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A129695",
+							["totalabsorb"] = 0.00279,
+							["last_hps"] = 10222.2383349844,
+							["targets"] = {
+								["Rahran"] = 72261,
+							},
+							["totalover_without_pet"] = 0.00279,
+							["healing_taken"] = 72261.00279,
+							["fight_component"] = true,
+							["end_time"] = 1519085910,
+							["healing_from"] = {
+								["Rahran"] = true,
+							},
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 17939,
+										["targets"] = {
+											["Rahran"] = 72261,
+										},
+										["n_min"] = 4627,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 72261,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 72261,
+										["n_amt"] = 6,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1519085903,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 260,
+							["totaldenied"] = 0.00279,
+							["delay"] = 0,
+							["last_event"] = 1519085910,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1592,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 38.005736,
+							["resource"] = 0.005736,
+							["targets"] = {
+								["Rahran"] = 38,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 1,
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["total"] = 38.005736,
+							["nome"] = "Rahran",
+							["spec"] = 260,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1519085929,
+							["alternatepower"] = 0.005736,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 3,
+										["targets"] = {
+											["Rahran"] = 3,
+										},
+										["counter"] = 3,
+									},
+									[8676] = {
+										["id"] = 8676,
+										["total"] = 2,
+										["targets"] = {
+											["Rahran"] = 2,
+										},
+										["counter"] = 1,
+									},
+									[196937] = {
+										["id"] = 196937,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[35546] = {
+										["id"] = 35546,
+										["total"] = 30,
+										["targets"] = {
+											["Rahran"] = 30,
+										},
+										["counter"] = 3,
+									},
+									[202895] = {
+										["id"] = 202895,
+										["total"] = 0,
+										["targets"] = {
+											["Rahran"] = 0,
+										},
+										["counter"] = 1,
+									},
+									[139546] = {
+										["id"] = 139546,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[185763] = {
+										["id"] = 185763,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1592,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[252907] = {
+										["activedamt"] = 0,
+										["id"] = 252907,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185763] = {
+										["activedamt"] = 0,
+										["id"] = 185763,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 64,
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[235027] = {
+										["activedamt"] = 1,
+										["id"] = 235027,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[13877] = {
+										["activedamt"] = 1,
+										["id"] = 13877,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[193538] = {
+										["activedamt"] = 1,
+										["id"] = 193538,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224001] = {
+										["activedamt"] = 1,
+										["id"] = 224001,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["id"] = 5171,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[222177] = {
+										["activedamt"] = 1,
+										["id"] = 222177,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202754] = {
+										["activedamt"] = 1,
+										["id"] = 202754,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195627] = {
+										["activedamt"] = 2,
+										["id"] = 195627,
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[185763] = {
+										["activedamt"] = 1,
+										["id"] = 185763,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240980] = {
+										["activedamt"] = 1,
+										["id"] = 240980,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188033] = {
+										["activedamt"] = 1,
+										["id"] = 188033,
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 2,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193315] = 3,
+								[8676] = 1,
+								[196937] = 1,
+								[5171] = 1,
+								[139546] = 1,
+								[185763] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1519085910,
+							["nome"] = "Rahran",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1592,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rahran"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Withered Outcast",
+				["combat_counter"] = 2295,
+				["playing_solo"] = true,
+				["totals"] = {
+					5010936.981739, -- [1]
+					72261, -- [2]
+					{
+						0, -- [1]
+						[0] = 38,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rahran"] = 72261.009247,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rahran"] = 6266574.008457,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 17753.595,
+				["combat_id"] = 1592,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Withered Skulker"] = 1,
+					["Withered Outcast"] = 3,
+				},
+				["data_fim"] = "16:18:31",
+				["data_inicio"] = "16:18:24",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					5010937, -- [1]
+					72261, -- [2]
+					{
+						0, -- [1]
+						[0] = 38,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 17746.526,
+				["contra"] = "Withered Outcast",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						2117951.00453, -- [1]
+						343506, -- [2]
+						399273, -- [3]
+						842617, -- [4]
+						320877, -- [5]
+						541307, -- [6]
+						445406, -- [7]
+						["max_value"] = 2117951.00453,
+					},
+					["Raid Damage Done"] = {
+						2117951, -- [1]
+						343506, -- [2]
+						399273, -- [3]
+						842617, -- [4]
+						320877, -- [5]
+						541307, -- [6]
+						445406, -- [7]
+						["max_value"] = 2117951,
+					},
+				},
+			}, -- [3]
+			{
+				{
+					["combatId"] = 1591,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00731,
+							["damage_from"] = {
+								["Ael'Yith"] = true,
+								["Rahran"] = true,
+							},
+							["targets"] = {
+								["Ael'Yith"] = 24389809,
+							},
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["spec"] = 260,
+							["colocacao"] = 1,
+							["classe"] = "ROGUE",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 22198177.00731,
+							["fight_component"] = true,
+							["end_time"] = 1519085805,
+							["dps_started"] = false,
+							["total"] = 24389809.00731,
+							["friendlyfire_total"] = 1343972,
+							["friendlyfire"] = {
+								["Rahran"] = {
+									["spells"] = {
+										[202669] = 1343972,
+									},
+									["total"] = 1343972,
+								},
+							},
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 14,
+										["b_amt"] = 1,
+										["c_dmg"] = 1743069,
+										["g_amt"] = 0,
+										["n_max"] = 78420,
+										["targets"] = {
+											["Ael'Yith"] = 2111287,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 368218,
+										["n_min"] = 33872,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 2111287,
+										["c_max"] = 163226,
+										["MISS"] = 2,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 112412,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 76132,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 3774537,
+										["g_amt"] = 0,
+										["n_max"] = 1037346,
+										["targets"] = {
+											["Ael'Yith"] = 6886573,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3112036,
+										["n_min"] = 1037345,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 6886573,
+										["c_max"] = 2074692,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 1699845,
+									},
+									[202895] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 914415,
+										["g_amt"] = 0,
+										["n_max"] = 152403,
+										["targets"] = {
+											["Ael'Yith"] = 1066818,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 152403,
+										["n_min"] = 152403,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1066818,
+										["c_max"] = 304805,
+										["id"] = 202895,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 304805,
+									},
+									[252907] = {
+										["c_amt"] = 5,
+										["b_amt"] = 0,
+										["c_dmg"] = 2486374,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ael'Yith"] = 2486374,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2486374,
+										["c_max"] = 683753,
+										["id"] = 252907,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 207198,
+									},
+									[202823] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 1472395,
+										["g_amt"] = 0,
+										["n_max"] = 292786,
+										["targets"] = {
+											["Ael'Yith"] = 1900955,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 428560,
+										["n_min"] = 135774,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1900955,
+										["c_max"] = 568293,
+										["id"] = 202823,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 213609,
+									},
+									[196937] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 369109,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ael'Yith"] = 369109,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 369109,
+										["c_max"] = 369109,
+										["id"] = 196937,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 369109,
+									},
+									[197834] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 3129074,
+										["g_amt"] = 0,
+										["n_max"] = 360981,
+										["targets"] = {
+											["Ael'Yith"] = 3795924,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 666850,
+										["n_min"] = 305869,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 3795924,
+										["c_max"] = 894909,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 677590,
+									},
+									[8676] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 878666,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ael'Yith"] = 878666,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 878666,
+										["c_max"] = 878666,
+										["id"] = 8676,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 878666,
+									},
+									[86392] = {
+										["c_amt"] = 7,
+										["b_amt"] = 0,
+										["c_dmg"] = 1662218,
+										["g_amt"] = 0,
+										["n_max"] = 124234,
+										["targets"] = {
+											["Ael'Yith"] = 2702471,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1040253,
+										["n_min"] = 96344,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 2702471,
+										["c_max"] = 245775,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 229292,
+									},
+								},
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A129695",
+							["last_dps"] = 1843801.70904986,
+							["custom"] = 0,
+							["last_event"] = 1519085805,
+							["damage_taken"] = 1490001.00731,
+							["start_time"] = 1519085792,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.004851,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Ael'Yith"] = 2191632,
+							},
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2191632.004851,
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B68E3",
+							["end_time"] = 1519085805,
+							["dps_started"] = false,
+							["total"] = 2191632.004851,
+							["on_hold"] = false,
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 10,
+										["b_amt"] = 0,
+										["c_dmg"] = 1102575,
+										["g_amt"] = 0,
+										["n_max"] = 79587,
+										["targets"] = {
+											["Ael'Yith"] = 1619891,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 517316,
+										["n_min"] = 39792,
+										["g_dmg"] = 0,
+										["counter"] = 19,
+										["total"] = 1619891,
+										["c_max"] = 159174,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 66059,
+									}, -- [1]
+									[221797] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 64777,
+										["targets"] = {
+											["Ael'Yith"] = 571741,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 571741,
+										["n_min"] = 62527,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 571741,
+										["c_max"] = 0,
+										["id"] = 221797,
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire_total"] = 0,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1519085803,
+							["damage_taken"] = 0.004851,
+							["start_time"] = 1519085792,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1591,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 10161.008715,
+							["total_without_pet"] = 1079034.008715,
+							["total"] = 1079034.008715,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A129695",
+							["totalabsorb"] = 0.008715,
+							["last_hps"] = 81571.9692103923,
+							["targets"] = {
+								["Rahran"] = 1079034,
+							},
+							["totalover_without_pet"] = 0.008715,
+							["healing_taken"] = 1079034.008715,
+							["fight_component"] = true,
+							["end_time"] = 1519085805,
+							["healing_from"] = {
+								["Rahran"] = true,
+							},
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 48776,
+										["targets"] = {
+											["Rahran"] = 299805,
+										},
+										["n_min"] = 5323,
+										["counter"] = 11,
+										["overheal"] = 0,
+										["total"] = 299805,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 299805,
+										["n_amt"] = 11,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									[202824] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 259743,
+										["targets"] = {
+											["Rahran"] = 779229,
+										},
+										["n_min"] = 259743,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 779229,
+										["c_max"] = 0,
+										["id"] = 202824,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 779229,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1519085792,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 260,
+							["totaldenied"] = 0.008715,
+							["delay"] = 0,
+							["last_event"] = 1519085805,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.002423,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Garona Halforcen <Rahran>"] = 10161,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Garona Halforcen <Rahran>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 10161,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.002423,
+							["targets_overheal"] = {
+								["Garona Halforcen <Rahran>"] = 10161,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 10161.002423,
+							["total_without_pet"] = 0.002423,
+							["iniciar_hps"] = false,
+							["healing_taken"] = 0.002423,
+							["end_time"] = 1519085805,
+							["total"] = 0.002423,
+							["classe"] = "PET",
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["targets_absorbs"] = {
+							},
+							["start_time"] = 1519085798,
+							["heal_enemy"] = {
+							},
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B68E3",
+							["custom"] = 0,
+							["last_event"] = 1519085798,
+							["on_hold"] = false,
+							["totaldenied"] = 0.002423,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1591,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 162.001935,
+							["resource"] = 16.001935,
+							["targets"] = {
+								["Rahran"] = 162,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["total"] = 162.001935,
+							["nome"] = "Rahran",
+							["spec"] = 260,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["flag_original"] = 1297,
+							["last_event"] = 1519085804,
+							["alternatepower"] = 0.001935,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 4,
+										["targets"] = {
+											["Rahran"] = 4,
+										},
+										["counter"] = 4,
+									},
+									[202895] = {
+										["id"] = 202895,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[35546] = {
+										["id"] = 35546,
+										["total"] = 150,
+										["targets"] = {
+											["Rahran"] = 150,
+										},
+										["counter"] = 15,
+									},
+									[197834] = {
+										["id"] = 197834,
+										["total"] = 0,
+										["targets"] = {
+											["Rahran"] = 0,
+										},
+										["counter"] = 2,
+									},
+									[139546] = {
+										["id"] = 139546,
+										["total"] = 6,
+										["targets"] = {
+											["Rahran"] = 6,
+										},
+										["counter"] = 6,
+									},
+									[196937] = {
+										["id"] = 196937,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1591,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[252907] = {
+										["activedamt"] = 1,
+										["id"] = 252907,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202665] = {
+										["activedamt"] = 0,
+										["id"] = 202665,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202895] = {
+										["activedamt"] = 0,
+										["id"] = 202895,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 113,
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[235027] = {
+										["activedamt"] = 1,
+										["id"] = 235027,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224001] = {
+										["activedamt"] = 1,
+										["id"] = 224001,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195627] = {
+										["activedamt"] = 2,
+										["id"] = 195627,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[222177] = {
+										["activedamt"] = 1,
+										["id"] = 222177,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202754] = {
+										["activedamt"] = 1,
+										["id"] = 202754,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[193538] = {
+										["activedamt"] = 1,
+										["id"] = 193538,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 5,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["id"] = 5171,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240980] = {
+										["activedamt"] = 1,
+										["id"] = 240980,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188033] = {
+										["activedamt"] = 1,
+										["id"] = 188033,
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 31,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[2098] = 5,
+								[193315] = 4,
+								[8676] = 1,
+								[202895] = 1,
+								[196937] = 1,
+								[5171] = 1,
+								[202665] = 1,
+								[139546] = 6,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1519085805,
+							["nome"] = "Rahran",
+							["pets"] = {
+								"Garona Halforcen <Rahran>", -- [1]
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Rahran",
+							["nome"] = "Garona Halforcen <Rahran>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[221797] = 1,
+								[221799] = 1,
+							},
+							["serial"] = "Creature-0-3884-1220-5891-111351-00000B68E3",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1591,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rahran"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Ael'Yith",
+				["combat_counter"] = 2294,
+				["playing_solo"] = true,
+				["totals"] = {
+					24389808.963431, -- [1]
+					1079034, -- [2]
+					{
+						0, -- [1]
+						[0] = 162,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rahran"] = 1079034.008715,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rahran"] = 24389809.00731,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 17648.497,
+				["combat_id"] = 1591,
+				["instance_type"] = "none",
+				["frags"] = {
+				},
+				["data_fim"] = "16:16:46",
+				["data_inicio"] = "16:16:33",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					23542149, -- [1]
+					1079034, -- [2]
+					{
+						0, -- [1]
+						[0] = 162,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 17635.269,
+				["contra"] = "Ael'Yith",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1054826.00731, -- [1]
+						563755, -- [2]
+						808033, -- [3]
+						2685399, -- [4]
+						2668238, -- [5]
+						2920170, -- [6]
+						1494524, -- [7]
+						2484453, -- [8]
+						1662759, -- [9]
+						2350918, -- [10]
+						1917175, -- [11]
+						670885, -- [12]
+						2478968, -- [13]
+						["max_value"] = 2920170,
+					},
+					["Raid Damage Done"] = {
+						878666, -- [1]
+						369109, -- [2]
+						913741, -- [3]
+						2490752, -- [4]
+						2762856, -- [5]
+						2685730, -- [6]
+						1537516, -- [7]
+						2180916, -- [8]
+						1579098, -- [9]
+						2126967, -- [10]
+						2022032, -- [11]
+						670885, -- [12]
+						2694175, -- [13]
+						["max_value"] = 2762856,
+					},
+				},
+			}, -- [4]
+			{
+				{
+					["combatId"] = 1590,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003999,
+							["damage_from"] = {
+								["Withered Fanatic"] = true,
+								["Nightfallen Hungerer"] = true,
+								["[*] Focused Mana Ray"] = true,
+								["Ael'Yith"] = true,
+								["Rahran"] = true,
+							},
+							["targets"] = {
+								["Nightfallen Hungerer"] = 3309290,
+								["Withered Fanatic"] = 1669706,
+							},
+							["pets"] = {
+							},
+							["total"] = 4978996.003999,
+							["friendlyfire"] = {
+								["Rahran"] = {
+									["spells"] = {
+										[202669] = 443341,
+									},
+									["total"] = 443341,
+								},
+							},
+							["friendlyfire_total"] = 443341,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4978996.003999,
+							["fight_component"] = true,
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1519085679,
+							["classe"] = "ROGUE",
+							["on_hold"] = false,
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 3,
+										["b_amt"] = 1,
+										["c_dmg"] = 215980,
+										["g_amt"] = 0,
+										["n_max"] = 76929,
+										["targets"] = {
+											["Ishkaneth"] = 0,
+											["Withered Fanatic"] = 135849,
+											["Nightfallen Hungerer"] = 569198,
+											["Ael'Yith"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 489067,
+										["n_min"] = 34528,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 705047,
+										["c_max"] = 81515,
+										["MISS"] = 4,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 49713,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 63563,
+									}, -- [1]
+									[2098] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 943042,
+										["targets"] = {
+											["Nightfallen Hungerer"] = 754432,
+											["Withered Fanatic"] = 943042,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1697474,
+										["n_min"] = 754432,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1697474,
+										["c_max"] = 0,
+										["id"] = 2098,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[196937] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 165221,
+										["targets"] = {
+											["Nightfallen Hungerer"] = 165221,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 165221,
+										["n_min"] = 165221,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 165221,
+										["c_max"] = 0,
+										["id"] = 196937,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[197834] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 365865,
+										["targets"] = {
+											["Nightfallen Hungerer"] = 689010,
+											["Withered Fanatic"] = 256960,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 945970,
+										["n_min"] = 256960,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 945970,
+										["c_max"] = 0,
+										["id"] = 197834,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[22482] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 186926,
+										["targets"] = {
+											["Nightfallen Hungerer"] = 561131,
+											["Withered Fanatic"] = 235066,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 796197,
+										["n_min"] = 7694,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 796197,
+										["c_max"] = 0,
+										["id"] = 22482,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 20,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[86392] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 123530,
+										["targets"] = {
+											["Nightfallen Hungerer"] = 570298,
+											["Withered Fanatic"] = 98789,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 669087,
+										["n_min"] = 98789,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 669087,
+										["c_max"] = 0,
+										["id"] = 86392,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["spec"] = 260,
+							["serial"] = "Player-5-0A129695",
+							["last_dps"] = 510352.193931773,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 965725.003999,
+							["start_time"] = 1519085669,
+							["delay"] = 0,
+							["last_event"] = 1519085792,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 1590,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "ROGUE",
+							["totalover"] = 0.005588,
+							["total_without_pet"] = 65600.005588,
+							["total"] = 65600.005588,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-5-0A129695",
+							["totalabsorb"] = 0.005588,
+							["last_hps"] = 6724.06781344729,
+							["targets"] = {
+								["Rahran"] = 65600,
+							},
+							["totalover_without_pet"] = 0.005588,
+							["healing_taken"] = 65600.005588,
+							["fight_component"] = true,
+							["end_time"] = 1519085679,
+							["healing_from"] = {
+								["Rahran"] = true,
+							},
+							["nome"] = "Rahran",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 17042,
+										["targets"] = {
+											["Rahran"] = 65600,
+										},
+										["n_min"] = 917,
+										["counter"] = 7,
+										["overheal"] = 0,
+										["total"] = 65600,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 65600,
+										["n_amt"] = 7,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1519085670,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 260,
+							["totaldenied"] = 0.005588,
+							["delay"] = 0,
+							["last_event"] = 1519085678,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 1590,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 67.007614,
+							["resource"] = 6.007614,
+							["targets"] = {
+								["Rahran"] = 67,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "ROGUE",
+							["fight_component"] = true,
+							["total"] = 67.007614,
+							["nome"] = "Rahran",
+							["spec"] = 260,
+							["grupo"] = true,
+							["resource_type"] = 7,
+							["flag_original"] = 1297,
+							["last_event"] = 1519085792,
+							["alternatepower"] = 0.007614,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[193315] = {
+										["id"] = 193315,
+										["total"] = 2,
+										["targets"] = {
+											["Rahran"] = 2,
+										},
+										["counter"] = 2,
+									},
+									[8676] = {
+										["id"] = 8676,
+										["total"] = 2,
+										["targets"] = {
+											["Rahran"] = 2,
+										},
+										["counter"] = 1,
+									},
+									[196937] = {
+										["id"] = 196937,
+										["total"] = 1,
+										["targets"] = {
+											["Rahran"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[202895] = {
+										["id"] = 202895,
+										["total"] = 0,
+										["targets"] = {
+											["Rahran"] = 0,
+										},
+										["counter"] = 1,
+									},
+									[139546] = {
+										["id"] = 139546,
+										["total"] = 2,
+										["targets"] = {
+											["Rahran"] = 2,
+										},
+										["counter"] = 2,
+									},
+									[35546] = {
+										["id"] = 35546,
+										["total"] = 60,
+										["targets"] = {
+											["Rahran"] = 60,
+										},
+										["counter"] = 6,
+									},
+								},
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 1590,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[202665] = {
+										["activedamt"] = 1,
+										["id"] = 202665,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 105,
+							["classe"] = "ROGUE",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[13877] = {
+										["activedamt"] = 1,
+										["id"] = 13877,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195627] = {
+										["activedamt"] = 1,
+										["id"] = 195627,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[13750] = {
+										["activedamt"] = 1,
+										["id"] = 13750,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[242584] = {
+										["activedamt"] = 1,
+										["id"] = 242584,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224001] = {
+										["activedamt"] = 1,
+										["id"] = 224001,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202776] = {
+										["activedamt"] = 1,
+										["id"] = 202776,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5171] = {
+										["activedamt"] = 1,
+										["id"] = 5171,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240837] = {
+										["activedamt"] = 1,
+										["id"] = 240837,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[193538] = {
+										["activedamt"] = 1,
+										["id"] = 193538,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[222177] = {
+										["activedamt"] = 1,
+										["id"] = 222177,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[240980] = {
+										["activedamt"] = 1,
+										["id"] = 240980,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[188033] = {
+										["activedamt"] = 1,
+										["id"] = 188033,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 5,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 260,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[13750] = 1,
+								[193315] = 2,
+								[196937] = 1,
+								[139546] = 2,
+								[202665] = 1,
+								[2098] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1519085679,
+							["nome"] = "Rahran",
+							["pets"] = {
+							},
+							["serial"] = "Player-5-0A129695",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 1590,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Rahran"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Withered Fanatic",
+				["combat_counter"] = 2285,
+				["playing_solo"] = true,
+				["totals"] = {
+					4978995.96762, -- [1]
+					65600, -- [2]
+					{
+						0, -- [1]
+						[0] = 67,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Rahran"] = {
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085774.224, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085775.24, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4668, -- [3]
+							1519085776.249, -- [4]
+							5190192, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085777.239, -- [4]
+							5185523, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [4]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085778.247, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [5]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085779.247, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [6]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085780.248, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [7]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085781.245, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [8]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085782.24, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [9]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085783.248, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [10]
+						{
+							true, -- [1]
+							1, -- [2]
+							49034, -- [3]
+							1519085792.301, -- [4]
+							5194860, -- [5]
+							"Ael'Yith", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [11]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085743.147, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [12]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085744.117, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [13]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4668, -- [3]
+							1519085745.129, -- [4]
+							5190192, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [14]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4668, -- [3]
+							1519085746.132, -- [4]
+							5185524, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [15]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085747.122, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [16]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4668, -- [3]
+							1519085750.239, -- [4]
+							5190192, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [17]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085751.283, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [18]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085753.269, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [19]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085754.276, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [20]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085755.275, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [21]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085756.289, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [22]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085757.266, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [23]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085759.32, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [24]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4668, -- [3]
+							1519085764.275, -- [4]
+							5108093, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [25]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085765.338, -- [4]
+							5156230, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [26]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4668, -- [3]
+							1519085767.31, -- [4]
+							5190192, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [27]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085769.325, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [28]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085770.327, -- [4]
+							5185522, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [29]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085771.26, -- [4]
+							5180853, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [30]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085772.324, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [31]
+						{
+							true, -- [1]
+							179818, -- [2]
+							4669, -- [3]
+							1519085773.219, -- [4]
+							5190191, -- [5]
+							"[*] Focused Mana Ray", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [32]
+						["n"] = 12,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Rahran"] = 441103.025213,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Rahran"] = 16575324.043282,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 17522.198,
+				["combat_id"] = 1590,
+				["instance_type"] = "none",
+				["resincked"] = true,
+				["frags"] = {
+					["Nightfallen Hungerer"] = 2,
+					["Withered Fanatic"] = 1,
+				},
+				["data_fim"] = "16:14:40",
+				["data_inicio"] = "16:14:30",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					5422337, -- [1]
+					65600, -- [2]
+					{
+						0, -- [1]
+						[0] = 67,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 17512.442,
+				["contra"] = "Withered Fanatic",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						419312.003999, -- [1]
+						0, -- [2]
+						0, -- [3]
+						197970, -- [4]
+						489880, -- [5]
+						219948, -- [6]
+						1022463, -- [7]
+						1069496, -- [8]
+						1202254, -- [9]
+						["max_value"] = 1202254,
+					},
+					["Raid Damage Done"] = {
+						419312, -- [1]
+						0, -- [2]
+						0, -- [3]
+						197970, -- [4]
+						489880, -- [5]
+						219948, -- [6]
+						1250742, -- [7]
+						1069496, -- [8]
+						1417316, -- [9]
+						["max_value"] = 1417316,
+					},
+				},
+			}, -- [5]
 		},
 	},
 	["last_version"] = "v7.3.0.5282",
@@ -32,7 +5081,7 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -412.630554199219,
+					["y"] = -411.607284545898,
 					["x"] = 529.279235839844,
 					["w"] = 285.462463378906,
 					["h"] = 173.649276733398,
@@ -65,7 +5114,7 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -412.630554199219,
+					["y"] = -411.607284545898,
 					["x"] = 814.741882324219,
 					["w"] = 285.462615966797,
 					["h"] = 173.649276733398,
@@ -106,9 +5155,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -177,15 +5226,10 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -193,12 +5237,18 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
 			["y"] = -20.15869140625,
+			["font_size"] = 14,
 			["x"] = 0,
 			["font_face"] = "Prototype",
+			["use_spark"] = false,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "TOPLEFT",
@@ -210,7 +5260,6 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
-			["font_size"] = 14,
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -218,7 +5267,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -227,16 +5276,22 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -303,19 +5358,12 @@ _detalhes_database = {
 				["window_scale"] = 1,
 			},
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+			["SpellBarsShowType"] = 1,
 		},
 	},
-	["ignore_nicktag"] = false,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Halls of Valor",
 		["started"] = false,
@@ -329,44 +5377,22 @@ _detalhes_database = {
 	},
 	["cached_talents"] = {
 		["Player-5-0A129695"] = {
-			22338, -- [1]
-			21186, -- [2]
-			19239, -- [3]
-			22341, -- [4]
-			22331, -- [5]
+			19237, -- [1]
+			22125, -- [2]
+			22123, -- [3]
+			22124, -- [4]
+			22118, -- [5]
 			19249, -- [6]
-			22123, -- [7]
+			19241, -- [7]
 		},
 	},
+	["ignore_nicktag"] = false,
 	["nick_tag_cache"] = {
-		[184035851] = {
-			"Pandamonium", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Brother Korloff", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-StaticField", -- [4]
-			{
-				0.1171875, -- [1]
-				0.953125, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				0, -- [1]
-				1, -- [2]
-				0.419607843137255, -- [3]
-			}, -- [6]
-			3, -- [7]
-		},
+		["nextreset"] = 1520376770,
 		["last_version"] = 9,
-		["nextreset"] = 1518920066,
 	},
 	["last_encounter"] = "Argus the Unmaker",
-	["combat_id"] = 1575,
+	["combat_id"] = 1594,
 	["savedStyles"] = {
 	},
 	["SoloTablesSaved"] = {
@@ -374,7 +5400,7 @@ _detalhes_database = {
 		["Mode"] = 1,
 	},
 	["character_data"] = {
-		["logons"] = 136,
+		["logons"] = 138,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -386,21 +5412,1134 @@ _detalhes_database = {
 		{
 			["tipo"] = 2,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["totalabsorbed"] = 0.033237,
+					["damage_from"] = {
+						["Runas the Shamed"] = true,
+						["Infernal Brutalizer"] = true,
+						["Ael'Yith"] = true,
+						["Withered Skulker"] = true,
+						["Withered Outcast"] = true,
+						["Vile Stalker"] = true,
+						["Withered Mana-Rager"] = true,
+						["Rahran"] = true,
+					},
+					["targets"] = {
+						["Runas the Shamed"] = 16141025,
+						["Infernal Brutalizer"] = 2557312,
+						["Ael'Yith"] = 24389809,
+						["Withered Skulker"] = 4907300,
+						["Vile Stalker"] = 1706500,
+						["Withered Mana-Rager"] = 1853455,
+						["Withered Outcast"] = 9637976,
+					},
+					["on_hold"] = false,
+					["pets"] = {
+						"Garona Halforcen <Rahran> <Rahran>", -- [1]
+					},
+					["last_event"] = 0,
+					["friendlyfire_total"] = 2444049,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 53906691.033237,
+					["classe"] = "ROGUE",
+					["dps_started"] = false,
+					["total"] = 61193377.033237,
+					["friendlyfire"] = {
+						["Rahran"] = {
+							["spells"] = {
+								[202669] = 2444049,
+							},
+							["total"] = 2444049,
+						},
+					},
+					["end_time"] = 1519084284,
+					["nome"] = "Rahran",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 37,
+								["b_amt"] = 1,
+								["c_dmg"] = 4081233,
+								["g_amt"] = 0,
+								["n_max"] = 78582,
+								["targets"] = {
+									["Runas the Shamed"] = 1019782,
+									["Infernal Brutalizer"] = 115095,
+									["Ael'Yith"] = 2111287,
+									["Withered Skulker"] = 592163,
+									["Vile Stalker"] = 277294,
+									["Withered Mana-Rager"] = 341793,
+									["Withered Outcast"] = 963170,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1339351,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 76,
+								["total"] = 5420584,
+								["c_max"] = 163226,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 11,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 112412,
+								["n_amt"] = 28,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[252907] = {
+								["c_amt"] = 10,
+								["b_amt"] = 0,
+								["c_dmg"] = 4249436,
+								["g_amt"] = 0,
+								["n_max"] = 341876,
+								["targets"] = {
+									["Runas the Shamed"] = 1916576,
+									["Infernal Brutalizer"] = 188362,
+									["Ael'Yith"] = 2486374,
+									["Withered Outcast"] = 94182,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 436058,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 4685494,
+								["c_max"] = 683753,
+								["id"] = 252907,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 2,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[8676] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 1733386,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Runas the Shamed"] = 854720,
+									["Ael'Yith"] = 878666,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 1733386,
+								["c_max"] = 878666,
+								["id"] = 8676,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[22482] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 105183,
+								["targets"] = {
+									["Withered Outcast"] = 410766,
+									["Withered Skulker"] = 637258,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1048024,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 41,
+								["total"] = 1048024,
+								["c_max"] = 0,
+								["id"] = 22482,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 41,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[196937] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 1050338,
+								["g_amt"] = 0,
+								["n_max"] = 153927,
+								["targets"] = {
+									["Runas the Shamed"] = 346894,
+									["Ael'Yith"] = 369109,
+									["Withered Skulker"] = 148592,
+									["Vile Stalker"] = 334335,
+									["Withered Mana-Rager"] = 153927,
+									["Withered Outcast"] = 278113,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 580632,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 7,
+								["total"] = 1630970,
+								["c_max"] = 369109,
+								["id"] = 196937,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[202823] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 2140408,
+								["g_amt"] = 0,
+								["n_max"] = 292786,
+								["targets"] = {
+									["Withered Skulker"] = 668013,
+									["Ael'Yith"] = 1900955,
+									["Withered Outcast"] = 582813,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1011373,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 3151781,
+								["c_max"] = 568293,
+								["id"] = 202823,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[2098] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 9638542,
+								["g_amt"] = 0,
+								["n_max"] = 1037346,
+								["targets"] = {
+									["Runas the Shamed"] = 4149384,
+									["Ael'Yith"] = 6886573,
+									["Withered Mana-Rager"] = 849922,
+									["Withered Outcast"] = 2456372,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 4703709,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 11,
+								["total"] = 14342251,
+								["c_max"] = 2074692,
+								["id"] = 2098,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 5,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[86392] = {
+								["c_amt"] = 22,
+								["b_amt"] = 0,
+								["c_dmg"] = 4710713,
+								["g_amt"] = 0,
+								["n_max"] = 124234,
+								["targets"] = {
+									["Runas the Shamed"] = 1470439,
+									["Infernal Brutalizer"] = 376018,
+									["Ael'Yith"] = 2702471,
+									["Withered Skulker"] = 848999,
+									["Vile Stalker"] = 219145,
+									["Withered Mana-Rager"] = 210075,
+									["Withered Outcast"] = 1422199,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2538633,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 47,
+								["total"] = 7249346,
+								["c_max"] = 245775,
+								["id"] = 86392,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 25,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[197834] = {
+								["c_amt"] = 11,
+								["b_amt"] = 0,
+								["c_dmg"] = 8024397,
+								["g_amt"] = 0,
+								["n_max"] = 360981,
+								["targets"] = {
+									["Runas the Shamed"] = 2448372,
+									["Infernal Brutalizer"] = 1429934,
+									["Ael'Yith"] = 3795924,
+									["Withered Skulker"] = 872009,
+									["Withered Mana-Rager"] = 297738,
+									["Withered Outcast"] = 2303181,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3122761,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 22,
+								["total"] = 11147158,
+								["c_max"] = 909440,
+								["id"] = 197834,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[185763] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 793501,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Vile Stalker"] = 377857,
+									["Runas the Shamed"] = 415644,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 2,
+								["total"] = 793501,
+								["c_max"] = 415644,
+								["id"] = 185763,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[202895] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 2173938,
+								["g_amt"] = 0,
+								["n_max"] = 152403,
+								["targets"] = {
+									["Withered Outcast"] = 629758,
+									["Ael'Yith"] = 1066818,
+									["Withered Skulker"] = 1007620,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 530258,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 12,
+								["total"] = 2704196,
+								["c_max"] = 304805,
+								["id"] = 202895,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 4,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["spec"] = 260,
+					["serial"] = "Player-5-0A129695",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
+					["start_time"] = 1519084234,
+					["delay"] = 0,
+					["damage_taken"] = 3328049.033237,
+				}, -- [1]
+				{
+					["flag_original"] = 8465,
+					["totalabsorbed"] = 0.028876,
+					["serial"] = "Creature-0-3884-1220-5891-111351-00000B61F3",
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Runas the Shamed"] = 3519214,
+						["Infernal Brutalizer"] = 447903,
+						["Ael'Yith"] = 2191632,
+						["Withered Skulker"] = 132646,
+						["Vile Stalker"] = 497869,
+						["Withered Outcast"] = 497422,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 7286686.028876,
+					["last_dps"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1519085985,
+					["damage_taken"] = 0.028876,
+					["ownerName"] = "Rahran",
+					["nome"] = "Garona Halforcen <Rahran> <Rahran>",
+					["classe"] = "PET",
+					["total"] = 7286686.028876,
+					["last_event"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1519085978,
+					["delay"] = 0,
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 40,
+								["b_amt"] = 0,
+								["c_dmg"] = 4750331,
+								["g_amt"] = 0,
+								["n_max"] = 79587,
+								["targets"] = {
+									["Runas the Shamed"] = 2838616,
+									["Infernal Brutalizer"] = 318350,
+									["Ael'Yith"] = 1619891,
+									["Withered Skulker"] = 132646,
+									["Vile Stalker"] = 238763,
+									["Withered Outcast"] = 497422,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 895357,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 63,
+								["total"] = 5645688,
+								["c_max"] = 159176,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["MISS"] = 6,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 17,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[221797] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 64777,
+								["targets"] = {
+									["Runas the Shamed"] = 680598,
+									["Infernal Brutalizer"] = 129553,
+									["Vile Stalker"] = 259106,
+									["Ael'Yith"] = 571741,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1640998,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 26,
+								["total"] = 1640998,
+								["c_max"] = 0,
+								["id"] = 221797,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 26,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+				}, -- [2]
 			},
 		}, -- [1]
 		{
 			["tipo"] = 3,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["targets_overheal"] = {
+						["Rahran"] = 853876,
+					},
+					["pets"] = {
+						"Garona Halforcen <Rahran> <Rahran>", -- [1]
+					},
+					["iniciar_hps"] = false,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 892351.033177,
+					["total_without_pet"] = 2506136.033177,
+					["total"] = 2506136.033177,
+					["targets_absorbs"] = {
+					},
+					["heal_enemy"] = {
+					},
+					["on_hold"] = false,
+					["serial"] = "Player-5-0A129695",
+					["totalabsorb"] = 0.033177,
+					["last_hps"] = 0,
+					["targets"] = {
+						["Emmigosa"] = 85,
+						["Kharmeera"] = 1028680,
+						["Rahran"] = 2233298,
+					},
+					["totalover_without_pet"] = 0.033177,
+					["healing_taken"] = 1477371.033177,
+					["fight_component"] = true,
+					["end_time"] = 1519084284,
+					["healing_from"] = {
+						["Rahran"] = true,
+					},
+					["nome"] = "Rahran",
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[202824] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Rahran"] = 755927,
+								},
+								["n_max"] = 259743,
+								["targets"] = {
+									["Rahran"] = 802531,
+								},
+								["n_min"] = 0,
+								["counter"] = 4,
+								["overheal"] = 755927,
+								["total"] = 802531,
+								["c_max"] = 0,
+								["id"] = 202824,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 802531,
+								["n_amt"] = 4,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[143924] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Rahran"] = 97949,
+								},
+								["n_max"] = 49124,
+								["targets"] = {
+									["Rahran"] = 674840,
+								},
+								["n_min"] = 0,
+								["counter"] = 52,
+								["overheal"] = 97949,
+								["total"] = 674840,
+								["c_max"] = 0,
+								["id"] = 143924,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 674840,
+								["n_amt"] = 52,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+							[214482] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 146955,
+								["targets"] = {
+									["Emmigosa"] = 85,
+									["Kharmeera"] = 1028680,
+								},
+								["n_min"] = 0,
+								["counter"] = 15,
+								["overheal"] = 0,
+								["total"] = 1028765,
+								["c_max"] = 0,
+								["id"] = 214482,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 1028765,
+								["n_amt"] = 15,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["start_time"] = 1519084196,
+					["classe"] = "ROGUE",
+					["custom"] = 0,
+					["tipo"] = 2,
+					["spec"] = 260,
+					["totaldenied"] = 0.033177,
+					["delay"] = 0,
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 8465,
+					["totalabsorb"] = 0.023674,
+					["last_hps"] = 0,
+					["targets_overheal"] = {
+						["Garona Halforcen <Rahran>"] = 38475,
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["iniciar_hps"] = false,
+					["healing_from"] = {
+					},
+					["healing_taken"] = 0.023674,
+					["totalover"] = 38475.023674,
+					["total_without_pet"] = 0.023674,
+					["heal_enemy_amt"] = 0,
+					["totalover_without_pet"] = 0.023674,
+					["classe"] = "PET",
+					["total"] = 0.023674,
+					["spells"] = {
+						["tipo"] = 3,
+						["_ActorTable"] = {
+							[143924] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+									["Garona Halforcen <Rahran>"] = 38475,
+								},
+								["n_max"] = 0,
+								["targets"] = {
+									["Garona Halforcen <Rahran>"] = 0,
+								},
+								["n_min"] = 0,
+								["counter"] = 3,
+								["overheal"] = 38475,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 143924,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 3,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
+								["absorbed"] = 0,
+							},
+						},
+					},
+					["ownerName"] = "Rahran",
+					["nome"] = "Garona Halforcen <Rahran> <Rahran>",
+					["targets_absorbs"] = {
+					},
+					["end_time"] = 1519085806,
+					["delay"] = 0,
+					["heal_enemy"] = {
+					},
+					["totaldenied"] = 0.023674,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1519085796,
+					["serial"] = "Creature-0-3884-1220-5891-111351-00000B61F3",
+					["tipo"] = 2,
+				}, -- [2]
 			},
 		}, -- [2]
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 405.024187,
+					["resource"] = 28.024187,
+					["targets"] = {
+						["Rahran"] = 405,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "ROGUE",
+					["fight_component"] = true,
+					["total"] = 405.024187,
+					["nome"] = "Rahran",
+					["spec"] = 260,
+					["grupo"] = true,
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[197834] = {
+								["id"] = 197834,
+								["total"] = 2,
+								["targets"] = {
+									["Rahran"] = 2,
+								},
+								["counter"] = 6,
+							},
+							[193315] = {
+								["id"] = 193315,
+								["total"] = 14,
+								["targets"] = {
+									["Rahran"] = 14,
+								},
+								["counter"] = 16,
+							},
+							[185763] = {
+								["id"] = 185763,
+								["total"] = 2,
+								["targets"] = {
+									["Rahran"] = 2,
+								},
+								["counter"] = 3,
+							},
+							[8676] = {
+								["id"] = 8676,
+								["total"] = 2,
+								["targets"] = {
+									["Rahran"] = 2,
+								},
+								["counter"] = 1,
+							},
+							[196937] = {
+								["id"] = 196937,
+								["total"] = 6,
+								["targets"] = {
+									["Rahran"] = 6,
+								},
+								["counter"] = 7,
+							},
+							[202895] = {
+								["id"] = 202895,
+								["total"] = 3,
+								["targets"] = {
+									["Rahran"] = 3,
+								},
+								["counter"] = 3,
+							},
+							[139546] = {
+								["id"] = 139546,
+								["total"] = 16,
+								["targets"] = {
+									["Rahran"] = 16,
+								},
+								["counter"] = 16,
+							},
+							[35546] = {
+								["id"] = 35546,
+								["total"] = 360,
+								["targets"] = {
+									["Rahran"] = 360,
+								},
+								["counter"] = 36,
+							},
+						},
+					},
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["last_event"] = 0,
+					["alternatepower"] = 0.024187,
+					["serial"] = "Player-5-0A129695",
+				}, -- [1]
 			},
 		}, -- [3]
 		{
 			["tipo"] = 9,
 			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[252907] = {
+								["refreshamt"] = 4,
+								["activedamt"] = 2,
+								["appliedamt"] = 5,
+								["id"] = 252907,
+								["uptime"] = 33,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[185763] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 2,
+								["id"] = 185763,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202895] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 202895,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202665] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 2,
+								["id"] = 202665,
+								["uptime"] = 23,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 731,
+					["classe"] = "ROGUE",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[240837] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 240837,
+								["uptime"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202754] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 202754,
+								["uptime"] = 7,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[188033] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 188033,
+								["uptime"] = 86,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[224001] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 224001,
+								["uptime"] = 86,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[68992] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 68992,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[185763] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 2,
+								["appliedamt"] = 2,
+								["id"] = 185763,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[231434] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 0,
+								["id"] = 231434,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[222177] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 222177,
+								["uptime"] = 86,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[13750] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 13750,
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[235027] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 3,
+								["appliedamt"] = 3,
+								["id"] = 235027,
+								["uptime"] = 15,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1784] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 1784,
+								["uptime"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[1966] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 1966,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[227723] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 227723,
+								["uptime"] = 86,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[193538] = {
+								["refreshamt"] = 9,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 193538,
+								["uptime"] = 53,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5171] = {
+								["refreshamt"] = 1,
+								["activedamt"] = 6,
+								["appliedamt"] = 6,
+								["id"] = 5171,
+								["uptime"] = 55,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[242584] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
+								["id"] = 242584,
+								["uptime"] = 38,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202776] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 202776,
+								["uptime"] = 11,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[240980] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 240980,
+								["uptime"] = 86,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[2983] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 2983,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[13877] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 13877,
+								["uptime"] = 55,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[195627] = {
+								["refreshamt"] = 0,
+								["activedamt"] = 7,
+								["appliedamt"] = 7,
+								["id"] = 195627,
+								["uptime"] = 34,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 71,
+					["nome"] = "Rahran",
+					["spec"] = 260,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[8676] = 2,
+						[202665] = 2,
+						[196937] = 7,
+						[13750] = 1,
+						[214482] = 2,
+						[68992] = 1,
+						[193315] = 16,
+						[5171] = 5,
+						[1766] = 1,
+						[139546] = 15,
+						[185763] = 2,
+						[202895] = 2,
+						[2098] = 11,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
+					},
+					["pets"] = {
+						"Garona Halforcen <Rahran> <Rahran>", -- [1]
+					},
+					["serial"] = "Player-5-0A129695",
+					["last_event"] = 0,
+				}, -- [1]
+				{
+					["flag_original"] = 8465,
+					["ownerName"] = "Rahran",
+					["nome"] = "Garona Halforcen <Rahran> <Rahran>",
+					["spell_cast"] = {
+						[221797] = 3,
+						[221799] = 2,
+					},
+					["pets"] = {
+					},
+					["tipo"] = 4,
+					["classe"] = "PET",
+					["serial"] = "Creature-0-3884-1220-5891-111351-00000B61F3",
+					["last_event"] = 0,
+				}, -- [2]
 			},
 		}, -- [4]
 		{
@@ -414,13 +6553,13 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 2239,
+		["combat_counter"] = 2246,
 		["totals"] = {
-			0, -- [1]
-			0, -- [2]
+			73961744.975464, -- [1]
+			2506136.05196, -- [2]
 			{
 				0, -- [1]
-				[0] = 0,
+				[0] = 411.005031,
 				["alternatepower"] = 0,
 				[3] = 0,
 				[6] = 0,
@@ -443,19 +6582,67 @@ _detalhes_database = {
 		["frags_need_refresh"] = false,
 		["__call"] = {
 		},
-		["data_inicio"] = 0,
-		["end_time"] = 19427.872,
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+			["damage"] = {
+			},
+		},
+		["end_time"] = 17827.288,
+		["data_inicio"] = "15:46:56",
 		["frags"] = {
 		},
-		["data_fim"] = 0,
+		["data_fim"] = "16:19:45",
+		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 54.7639999999992,
+				["type"] = 0,
+				["name"] = "Withered Outcast",
+				["clock"] = "16:18:50",
+			}, -- [1]
+			{
+				["elapsed"] = 13.2279999999992,
+				["type"] = 0,
+				["name"] = "Ael'Yith",
+				["clock"] = "16:16:33",
+			}, -- [2]
+			{
+				["elapsed"] = 13.1779999999999,
+				["type"] = 0,
+				["name"] = "Runas the Shamed",
+				["clock"] = "16:12:00",
+			}, -- [3]
+			{
+				["elapsed"] = 267.713000000002,
+				["type"] = 0,
+				["name"] = "Infernal Brutalizer",
+				["clock"] = "15:46:56",
+			}, -- [4]
+		},
+		["start_time"] = 17478.405,
+		["TimeData"] = {
+			["Player Damage Done"] = {
+			},
+			["Raid Damage Done"] = {
+			},
+		},
 		["totals_grupo"] = {
-			0, -- [1]
-			0, -- [2]
+			61193377.027513, -- [1]
+			2506136.026418, -- [2]
 			{
 				0, -- [1]
-				[0] = 0,
+				[0] = 405.015473,
 				["alternatepower"] = 0,
 				[3] = 0,
 				[6] = 0,
@@ -471,33 +6658,14 @@ _detalhes_database = {
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["start_time"] = 19427.872,
-		["TimeData"] = {
-			["Player Damage Done"] = {
-			},
-		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage_section"] = {
-			},
-			["damage"] = {
-			},
-		},
 	},
-	["last_day"] = "14",
+	["last_day"] = "19",
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["combat_counter"] = 2241,
+	["combat_counter"] = 2299,
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
@@ -514,6 +6682,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-5-0A129695"] = 259,
+		["Player-5-0A129695"] = 260,
 	},
 }
