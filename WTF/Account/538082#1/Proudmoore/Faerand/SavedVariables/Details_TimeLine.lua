@@ -1,5 +1,24 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Lightzies-Sargeras"] = {
+				{
+					68.5500000000002, -- [1]
+					"Lightzies-Sargeras", -- [2]
+					642, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -53,39 +72,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_end"] = "20:12:38",
-			["date_start"] = "20:12:13",
-			["name"] = "Wrath of Azshara",
-			["total_time"] = 25.0059999999994,
-		}, -- [1]
-		{
-			["date_end"] = "20:10:59",
-			["date_start"] = "20:10:35",
-			["name"] = "King Deepbeard",
-			["total_time"] = 24.0259999999998,
-		}, -- [2]
-		{
-			["date_end"] = "20:08:38",
-			["date_start"] = "20:07:25",
-			["name"] = "Serpentrix",
-			["total_time"] = 73.0020000000004,
-		}, -- [3]
-		{
-			["date_end"] = "20:06:24",
-			["date_start"] = "20:06:03",
-			["name"] = "Lady Hatecoil",
-			["total_time"] = 21.0039999999999,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Akhenny-Nemesis"] = {
@@ -317,23 +304,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
+			["date_start"] = "20:12:13",
+			["date_end"] = "20:12:38",
+			["name"] = "Wrath of Azshara",
+			["total_time"] = 25.0059999999994,
 		}, -- [1]
 		{
+			["date_start"] = "20:10:35",
+			["date_end"] = "20:10:59",
+			["name"] = "King Deepbeard",
+			["total_time"] = 24.0259999999998,
 		}, -- [2]
 		{
-			["Lightzies-Sargeras"] = {
-				{
-					68.5500000000002, -- [1]
-					"Lightzies-Sargeras", -- [2]
-					642, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "20:07:25",
+			["date_end"] = "20:08:38",
+			["name"] = "Serpentrix",
+			["total_time"] = 73.0020000000004,
 		}, -- [3]
 		{
+			["date_start"] = "20:06:03",
+			["date_end"] = "20:06:24",
+			["name"] = "Lady Hatecoil",
+			["total_time"] = 21.0039999999999,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

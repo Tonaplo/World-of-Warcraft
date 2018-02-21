@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -34,7 +34,7 @@ DataStore_TalentsDB = {
 					14939, -- [2]
 					6565, -- [3]
 				},
-				["lastUpdate"] = 1519191377,
+				["lastUpdate"] = 1519230207,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1519181616,
+				["lastUpdate"] = 1519240506,
 				["Specializations"] = {
 					7894, -- [1]
 					9847, -- [2]
@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1519192111,
+				["lastUpdate"] = 1519230303,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -146,7 +146,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1519191623,
+				["lastUpdate"] = 1519229824,
 				["Specializations"] = {
 					6762, -- [1]
 					14742, -- [2]
@@ -175,7 +175,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "HUNTER",
-				["lastUpdate"] = 1519187774,
+				["lastUpdate"] = 1519229968,
 				["Specializations"] = {
 					10135, -- [1]
 					13781, -- [2]
@@ -185,7 +185,7 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["EquippedArtifact"] = "Aluneth, Greatstaff of the Magna",
+				["EquippedArtifact"] = "Ebonchill, Greatstaff of Alodi",
 				["Artifacts"] = {
 					["Aluneth, Greatstaff of the Magna"] = {
 						["tier"] = 2,
@@ -204,7 +204,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1519194723,
+				["lastUpdate"] = 1519230442,
 				["Specializations"] = {
 					8166, -- [1]
 					8086, -- [2]
@@ -245,7 +245,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1519189093,
+				["lastUpdate"] = 1519229908,
 				["Specializations"] = {
 					9883, -- [1]
 					6750, -- [2]
@@ -259,7 +259,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Twinblades of the Deceiver",
 				["Artifacts"] = {
 					["Twinblades of the Deceiver"] = {
-						["pointsRemaining"] = 13240397290,
+						["pointsRemaining"] = 13712897340,
 						["rank"] = 66,
 						["tier"] = 2,
 					},
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1519192676,
+				["lastUpdate"] = 1519230355,
 				["Specializations"] = {
 					15342, -- [1]
 					8121, -- [2]
@@ -289,7 +289,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "The Dreadblades",
 				["Artifacts"] = {
 					["The Dreadblades"] = {
-						["pointsRemaining"] = 49181800205,
+						["pointsRemaining"] = 51229300505,
 						["rank"] = 69,
 						["tier"] = 2,
 					},
@@ -305,7 +305,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "ROGUE",
-				["lastUpdate"] = 1519083966,
+				["lastUpdate"] = 1519230536,
 				["Specializations"] = {
 					6614, -- [1]
 					7161, -- [2]
@@ -355,7 +355,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1519195073,
+				["lastUpdate"] = 1519230483,
 				["Specializations"] = {
 					6551, -- [1]
 					9813, -- [2]
@@ -365,7 +365,7 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["EquippedArtifact"] = "The Fist of Ra-den",
+				["EquippedArtifact"] = "Doomhammer",
 				["Artifacts"] = {
 					["Doomhammer"] = {
 						["pointsRemaining"] = 18006085345,
@@ -384,7 +384,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1519189657,
+				["lastUpdate"] = 1519230142,
 				["Specializations"] = {
 					8029, -- [1]
 					5531, -- [2]
@@ -409,7 +409,7 @@ DataStore_TalentsDB = {
 					11253, -- [2]
 					15854, -- [3]
 				},
-				["lastUpdate"] = 1519193603,
+				["lastUpdate"] = 1519230399,
 				["Class"] = "MONK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -452,14 +452,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",

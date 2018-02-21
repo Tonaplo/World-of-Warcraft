@@ -1,5 +1,7 @@
 
 AllTheThingsPCD = {
+	["Saves"] = {
+	},
 	["ItemFilters"] = {
 		true, -- [1]
 		true, -- [2]
@@ -48,9 +50,7 @@ AllTheThingsPCD = {
 		[102] = true,
 		[106] = true,
 		[110] = true,
-		[0] = true,
 		[200] = true,
-	},
-	["Saves"] = {
+		[0] = true,
 	},
 }

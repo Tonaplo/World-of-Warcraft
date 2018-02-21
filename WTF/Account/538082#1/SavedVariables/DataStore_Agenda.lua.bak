@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,7 +32,7 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1519191379,
+				["lastUpdate"] = 1519230243,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
@@ -40,7 +40,10 @@ DataStore_AgendaDB = {
 					"2018-02-25|19:00|Mythic Antorus|1|2", -- [2]
 					"2018-02-26|19:00|Raid Night!|1|2", -- [3]
 				},
-				["lastUpdate"] = 1519181846,
+				["lastUpdate"] = 1519240597,
+				["DungeonIDs"] = {
+					["Ulduar Normal|345709444"] = "503093|1519240507|0|1",
+				},
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -52,13 +55,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1519191733,
+				["lastUpdate"] = 1519229882,
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["DungeonIDs"] = {
-					["Eye of Azshara Mythic|345685921"] = "557160|1519186434|0|0",
+					["Eye of Azshara Mythic|345685921"] = "513631|1519229972|0|0",
 				},
-				["lastUpdate"] = 1519188335,
+				["lastUpdate"] = 1519229993,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -68,21 +71,21 @@ DataStore_AgendaDB = {
 			},
 			["Default.Proudmoore.Amranar"] = {
 				["DungeonIDs"] = {
-					["The Emerald Nightmare Heroic|345682433"] = "555184|1519188414|0|1",
+					["The Emerald Nightmare Heroic|345682433"] = "513691|1519229915|0|1",
 				},
-				["lastUpdate"] = 1519189163,
+				["lastUpdate"] = 1519229919,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1519194711,
+				["lastUpdate"] = 1519230452,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1519099961,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1519230367,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1519192200,
+				["lastUpdate"] = 1519230323,
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1519086143,
+				["lastUpdate"] = 1519230546,
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509931,
@@ -94,19 +97,19 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1517798979,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1519195068,
+				["lastUpdate"] = 1519230485,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1519189848,
+				["lastUpdate"] = 1519230161,
 			},
 			["Default.Tichondrius.Korugen"] = {
 				["lastUpdate"] = 1518374057,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1519193677,
+				["lastUpdate"] = 1519230409,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1519192702,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1519099961,
 			},
 		},
 	},

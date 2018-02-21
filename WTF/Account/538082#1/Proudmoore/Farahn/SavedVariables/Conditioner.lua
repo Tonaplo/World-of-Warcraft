@@ -11,7 +11,7 @@ ConditionerAddOn_SavedVariables = {
 			["name"] = "Enhancement",
 		}, -- [1]
 		{
-			["value"] = "[5+602+g0___370_0_0]\n[a+603+g0___51886_0_0]\n[a+601+g0___51886_0_0]\n[01w+402+g0_Flame Shock__188389_0_0]\n[000c2+a01R+70___8042_0_0]\n[0ww+l0___51505_0_0]\n[00w+602+a02000___51505_0_0]\n[010c2002+6090k+70_Flame Shock__188389_0_0]\n[+o0___198067_0_0]\n[+o0___117014_0_0]\n[+o0___188196_0_0]",
+			["value"] = "[02+m0__Shift E_57994_0_0]\n[01w+402+g0_Flame Shock_Shift F_188389_0_0]\n[000c2+a01R+70__F_8042_0_0]\n[0ww+l0__3_51505_0_0]\n[00w+602+a02000__3_51505_0_0]\n[010c2002+6090k+70_Flame Shock_Shift F_188389_0_0]\n[+o0__T_198067_0_0]\n[+o0__2_117014_0_0]\n[+o0__E_188196_0_0]",
 			["spec"] = 262,
 			["name"] = "Elemental",
 		}, -- [2]
@@ -28,15 +28,15 @@ ConditionerAddOn_SavedVariables = {
 	},
 	["Options"] = {
 		["TaperSize"] = 80,
-		["OnlyDisplayInCombat"] = true,
+		["NumTrackedFrames"] = 5,
 		["AnchorDirection"] = 0,
-		["TrackedFrameAnchorCoords"] = {
-			["y"] = 558.737312316895,
-			["x"] = 715.306655883789,
-		},
+		["OnlyDisplayInCombat"] = true,
 		["TrackedFrameSize"] = 100,
 		["Opacity"] = 100,
 		["ShowSwingTimers"] = false,
-		["NumTrackedFrames"] = 5,
+		["TrackedFrameAnchorCoords"] = {
+			["y"] = 519.594886779785,
+			["x"] = 717.60871887207,
+		},
 	},
 }
