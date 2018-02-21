@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["visible"] = false,
-						["direction"] = "down",
 						["y"] = 1050.74841308594,
 						["x"] = 444.3818359375,
+						["visible"] = false,
+						["direction"] = "down",
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,28 +43,28 @@ XLootADB = {
 				},
 			},
 		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
+				},
+			},
+		},
 		["Monitor"] = {
 			["profiles"] = {
 				["Default"] = {
-					["threshold_own"] = 0,
 					["show_crafted"] = true,
+					["threshold_own"] = 0,
 					["show_coin"] = true,
 					["fade_other"] = 30,
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 					["show_ilvl"] = true,
 					["anchor"] = {
-						["visible"] = false,
 						["y"] = 39.9096488952637,
+						["visible"] = false,
 						["x"] = 443.357086181641,
 					},
 					["threshold_other"] = 4,
-				},
-			},
-		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
@@ -79,18 +79,18 @@ XLootADB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,5 +1,48 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Granjior"] = {
+				{
+					359.255999999999, -- [1]
+					"Granjior", -- [2]
+					633, -- [3]
+				}, -- [1]
+				{
+					434.280999999999, -- [1]
+					"Granjior", -- [2]
+					1022, -- [3]
+				}, -- [2]
+			},
+		}, -- [1]
+		{
+			["Granjior"] = {
+				{
+					19.8029999999999, -- [1]
+					"Granjior", -- [2]
+					642, -- [3]
+				}, -- [1]
+				{
+					135.916000000001, -- [1]
+					"Granjior", -- [2]
+					633, -- [3]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["Granjior"] = {
+				{
+					118.197, -- [1]
+					"Granjior", -- [2]
+					633, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -139,39 +182,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_end"] = "00:11:55",
-			["date_start"] = "00:03:50",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 485.000999999998,
-		}, -- [1]
-		{
-			["date_end"] = "00:00:41",
-			["date_start"] = "23:56:25",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 256.007,
-		}, -- [2]
-		{
-			["date_end"] = "23:54:39",
-			["date_start"] = "23:50:40",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 239.007,
-		}, -- [3]
-		{
-			["date_end"] = "23:48:14",
-			["date_start"] = "23:46:57",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 77,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Granjior"] = {
@@ -280,47 +291,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Granjior"] = {
-				{
-					359.255999999999, -- [1]
-					"Granjior", -- [2]
-					633, -- [3]
-				}, -- [1]
-				{
-					434.280999999999, -- [1]
-					"Granjior", -- [2]
-					1022, -- [3]
-				}, -- [2]
-			},
+			["date_start"] = "00:03:50",
+			["date_end"] = "00:11:55",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 485.000999999998,
 		}, -- [1]
 		{
-			["Granjior"] = {
-				{
-					19.8029999999999, -- [1]
-					"Granjior", -- [2]
-					642, -- [3]
-				}, -- [1]
-				{
-					135.916000000001, -- [1]
-					"Granjior", -- [2]
-					633, -- [3]
-				}, -- [2]
-			},
+			["date_start"] = "23:56:25",
+			["date_end"] = "00:00:41",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 256.007,
 		}, -- [2]
 		{
-			["Granjior"] = {
-				{
-					118.197, -- [1]
-					"Granjior", -- [2]
-					633, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "23:50:40",
+			["date_end"] = "23:54:39",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 239.007,
 		}, -- [3]
 		{
+			["date_start"] = "23:46:57",
+			["date_end"] = "23:48:14",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 77,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

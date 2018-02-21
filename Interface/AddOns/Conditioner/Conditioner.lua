@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.0.5
+--version 2.1.0b
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -889,7 +889,8 @@ end
 
 function ConditionerAddOn:SubEncode(loadString, shouldDecode)
     if (shouldDecode) then
-        local decodedString = loadString:gsub("%+(.)(.)", function(a, b)
+        local firstHalf, secondHalf = loadString:match("(%[.-)(_.-%])")
+        local decodedString = firstHalf:gsub("%+(.)(.)", function(a, b)
             local decoded_A = ConditionerAddOn:ConvertFromMask(a)
             local returnString = ""
             for i=1,decoded_A do
@@ -897,6 +898,7 @@ function ConditionerAddOn:SubEncode(loadString, shouldDecode)
             end
             return returnString
         end)
+        decodedString = string.format("%s%s", decodedString, secondHalf)
         local decodeTest, decodeTestSuffix = decodedString:match(ConditionerAddOn.DecodePattern)
         if (decodeTest) and (decodeTestSuffix) and (#decodeTest == ConditionerAddOn.Size) then
             return decodedString
@@ -979,7 +981,6 @@ function ConditionerAddOn:GetConditions(frame)
     local stripped_activeAuraString = frame.Conditions.activeAuraString:gsub("_","")
     local encoded_activeAuraString = string.format("_%s", stripped_activeAuraString) or "_"
     local stripped_keyBindingString = frame.Conditions.keyBindingString:gsub("_","")
-    stripped_keyBindingString = stripped_keyBindingString:gsub("[%[%]]","")
     local encoded_keyBindingString = string.format("_%s", stripped_keyBindingString) or "_"
     local encoded_cooldownRemainingAmount = ConditionerAddOn:EncodeToMask(frame.Conditions.cooldownRemainingAmount)
     local encoded_cooldownRemainingConditionalEnum = ConditionerAddOn:EncodeToMask(frame.Conditions.cooldownRemainingEnum, true)
@@ -1233,6 +1234,7 @@ function ConditionerAddOn:NewInputBox(parent, key, numbersOnly)
         if (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton) and (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor) then
             ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor:Hide()
         end
+        ConditionerCloseDropDownMenus()
     end)
     o:SetScript("OnChar", function(self, text)
         if (numbersOnly) then
@@ -1399,7 +1401,8 @@ function ConditionerAddOn:GetCooldownList()
         end
     end
 
-    ConditionerAddOn:MergeSort(validSpells)
+    local myHasteMult = 1/(1+(GetHaste()/100))
+    ConditionerAddOn:MergeSort(validSpells, myHasteMult)
 
     local unique = {}
     local found = {}
@@ -1413,7 +1416,7 @@ function ConditionerAddOn:GetCooldownList()
     return unique
 end
 
-function ConditionerAddOn:MergeSort(list)
+function ConditionerAddOn:MergeSort(list, hasteMult)
     if (#list > 1) then
         local middle = math.ceil(#list/2)
         local leftHalf, rightHalf = {}, {}
@@ -1423,18 +1426,18 @@ function ConditionerAddOn:MergeSort(list)
         for i=middle+1,#list do
             table.insert(rightHalf, list[i])
         end
-        ConditionerAddOn:MergeSort(leftHalf)
-        ConditionerAddOn:MergeSort(rightHalf)
-        ConditionerAddOn:Merge(list, leftHalf, rightHalf)
+        ConditionerAddOn:MergeSort(leftHalf, hasteMult)
+        ConditionerAddOn:MergeSort(rightHalf, hasteMult)
+        ConditionerAddOn:Merge(list, leftHalf, rightHalf, hasteMult)
     end
 end
 
-function ConditionerAddOn:Merge(list, left, right)
+function ConditionerAddOn:Merge(list, left, right, hasteMult)
     local i, j, k = 1, 1, 1
     while ((i <= #left) and (j <= #right)) do
         local a, b = left[i], right[j]
         if (a.priority < b.priority) then
-            if (a.time < (b.time + b.gcd)) then
+            if (a.time < (b.time + b.gcd*hasteMult)) then
                 list[k] = a
                 i = i + 1
             else
@@ -1442,7 +1445,7 @@ function ConditionerAddOn:Merge(list, left, right)
                 j = j + 1
             end
         else
-            if (b.time < (a.time + a.gcd)) then
+            if (b.time < (a.time + a.gcd*hasteMult)) then
                 list[k] = b
                 j = j + 1
             else
@@ -1568,8 +1571,8 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     
     local inRange = false
     if (itemID > 0) then
-        local spellName = GetItemSpell(itemID)
-        inRange = IsSpellInRange(spellName)
+        inRange = IsItemInRange(itemID, targetUnitToken)
+        inRange = (inRange) and 1 or 0
     else
         local spellBookSlot = FindSpellBookSlotBySpellID(spellID)
         inRange = IsSpellInRange(spellBookSlot, "spell", targetUnitToken)
@@ -1850,10 +1853,9 @@ function ConditionerAddOn:NewCheckBox(parent, label, key)
     if (label) then
         o.text = o:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
         o.text:SetText(label)
-        o.text:SetJustifyH("CENTER")
+        o.text:SetJustifyH("LEFT")
         o.text:SetJustifyV("CENTER")
         o.text:SetTextColor(0,1,1,1)
-        o.text:SetSize(o.text:GetStringWidth(), o:GetHeight())
     end
     o:SetScript("OnEnter", function(self, ...)
         if (o.tooltip) then
@@ -1895,6 +1897,7 @@ function ConditionerAddOn:NewCheckBox(parent, label, key)
             ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor:Hide()
         end
         PlaySound(1115)
+        ConditionerCloseDropDownMenus()
     end)
     function o:Update()
         self:SetChecked(ConditionerAddOn.CurrentPriorityButton.Conditions[key])
@@ -1946,6 +1949,15 @@ function ConditionerAddOn:NewDropDown(title, name, parent, width, choices, key)
         end
         CONDITIONERDROPDOWNMENU_SetText(o, text)
         CONDITIONERDROPDOWNMENU_Initialize(o, function(self, level, menuList)
+        	if (ConditionerAddOn.SharedConditionerFrame) and (ConditionerAddOn.SharedConditionerFrame.EditBoxes) then
+        		for k,v in pairs(ConditionerAddOn.SharedConditionerFrame.EditBoxes) do
+		            v:ClearFocus()
+		        end
+		        if (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton) and (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor) then
+		            ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor:Hide()
+		        end
+        	end
+        	
             local info = CONDITIONERDROPDOWNMENU_CreateInfo()
 
             for i=0,#choices do
@@ -2279,9 +2291,14 @@ function ConditionerAddOn:StoreCurrentLoadout()
         ConditionerAddOn_SavedVariables.CurrentLoadouts[currentSpec] = ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice or 0
         if (ConditionerAddOn:LoadoutIsDirty()) then
             ConditionerAddOn.LoadoutFrame.OverWrite:Enable()
+            if (ConditionerAddOn.LoadoutFrame) then
+                ConditionerAddOn.LoadoutFrame:Show()
+            end
+            ActionButton_ShowOverlayGlow(ConditionerAddOn.LoadoutFrame.OverWrite)
             ConditionerAddOn.LoadoutFrame.OverWrite:SetText("Save")
         else
             ConditionerAddOn.LoadoutFrame.OverWrite:Disable()
+            ActionButton_HideOverlayGlow(ConditionerAddOn.LoadoutFrame.OverWrite)
             ConditionerAddOn.LoadoutFrame.OverWrite:SetText("Saved")
         end
     end
@@ -2478,14 +2495,6 @@ function ConditionerAddOn:Init()
     ConditionerAddOn.SharedConditionerFrame.DropDowns = {}
     ConditionerAddOn.SharedConditionerFrame.EditBoxes = {}
     ConditionerAddOn.SharedConditionerFrame.CheckBoxes = {}
-    hooksecurefunc("CONDITIONERDROPDOWNMENU_Initialize", function(...)
-        for k,v in pairs(ConditionerAddOn.SharedConditionerFrame.EditBoxes) do
-            v:ClearFocus()
-        end
-        if (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton) and (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor) then
-            ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor:Hide()
-        end
-    end)
 
     --aura target
     ConditionerAddOn.SharedConditionerFrame.DropDowns[5] = ConditionerAddOn:NewDropDown("Target Unit", "ConditionerAuraTargetDropDown", ConditionerAddOn.SharedConditionerFrame, 150, ConditionerAddOn.Enums.auraTargetChoicesEnum, "auraTargetEnum")
@@ -2522,20 +2531,20 @@ function ConditionerAddOn:Init()
     --resource Conditional 1
     ConditionerAddOn.SharedConditionerFrame.DropDowns[2] = ConditionerAddOn:NewDropDown(nil, "ConditionerResourceDropDownOperator", ConditionerAddOn.SharedConditionerFrame, 75, ConditionerAddOn.Enums.conditionalOperatorEnum, "resourceConditionalEnum")
     ConditionerAddOn.SharedConditionerFrame.DropDowns[2]:SetPoint("TOPLEFT", ConditionerAddOn.SharedConditionerFrame.DropDowns[1], "BOTTOMLEFT")
-    --resource 1 checkbox
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1] = ConditionerAddOn:NewCheckBox(ConditionerAddOn.SharedConditionerFrame, "%", "resourceUsePercentageBool")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].text:SetPoint("TOPRIGHT", ConditionerAddOn.SharedConditionerFrame.DropDowns[1], "BOTTOMRIGHT")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1]:SetPoint("RIGHT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].text, "LEFT")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].title = "Use Percentage"
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].tooltip = "Check this button if you would like this resource condition to be percentage based instead of a flat value."
     --resource Conditional 1 input box
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[1] = ConditionerAddOn:NewInputBox(ConditionerAddOn.SharedConditionerFrame, "resourceAmount", true)
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[1]:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.DropDowns[2], "RIGHT")
-    ConditionerAddOn.SharedConditionerFrame.EditBoxes[1]:SetPoint("RIGHT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1], "LEFT")
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[1].title = "Resource Amount"
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[1].tooltip = "Enter an amount of resources you want Conditioner to track for you.\n\n|cffFFff00Right click to empty input box.|r"
+    --resource 1 checkbox
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1] = ConditionerAddOn:NewCheckBox(ConditionerAddOn.SharedConditionerFrame, "%", "resourceUsePercentageBool")
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].text:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1], "RIGHT")
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1]:SetPoint("TOPRIGHT", ConditionerAddOn.SharedConditionerFrame.DropDowns[1], "BOTTOMRIGHT", -12, 0)
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].title = "Use Percentage"
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].tooltip = "Check this button if you would like this resource condition to be percentage based instead of a flat value."
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[1].linkedPercentBox = ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1]
     ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1].linkedEditBox = ConditionerAddOn.SharedConditionerFrame.EditBoxes[1]
+    ConditionerAddOn.SharedConditionerFrame.EditBoxes[1]:SetPoint("RIGHT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[1], "LEFT")
 
     --resource type 2
     ConditionerAddOn.SharedConditionerFrame.DropDowns[3] = ConditionerAddOn:NewDropDown("Resource Type", "ConditionerAltResourceDropDown", ConditionerAddOn.SharedConditionerFrame, 150, ConditionerAddOn.Enums.resourceEnum, "alternateResourceTypeEnum")
@@ -2543,21 +2552,20 @@ function ConditionerAddOn:Init()
     --resource Conditional 2
     ConditionerAddOn.SharedConditionerFrame.DropDowns[4] = ConditionerAddOn:NewDropDown(nil, "ConditionerAltResourceDropDownOperator", ConditionerAddOn.SharedConditionerFrame, 75, ConditionerAddOn.Enums.conditionalOperatorEnum, "alternateResourceConditionalEnum")
     ConditionerAddOn.SharedConditionerFrame.DropDowns[4]:SetPoint("TOPLEFT", ConditionerAddOn.SharedConditionerFrame.DropDowns[3], "BOTTOMLEFT")
-    --resource 2 checkbox
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2] = ConditionerAddOn:NewCheckBox(ConditionerAddOn.SharedConditionerFrame, "%", "alternateResourceUsePercentageBool")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].text:SetPoint("TOPRIGHT", ConditionerAddOn.SharedConditionerFrame.DropDowns[3], "BOTTOMRIGHT")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2]:SetPoint("RIGHT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].text, "LEFT")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].title = "Use Percentage"
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].tooltip = "Check this button if you would like this resource condition to be percentage based instead of a flat value."
     --resource Conditional 2 input box
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[2] = ConditionerAddOn:NewInputBox(ConditionerAddOn.SharedConditionerFrame, "alternateResourceAmount", true)
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[2]:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.DropDowns[4], "RIGHT")
-    ConditionerAddOn.SharedConditionerFrame.EditBoxes[2]:SetPoint("RIGHT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2], "LEFT")
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[2].title = "Resource Amount"
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[2].tooltip = "Enter an amount of resources you want Conditioner to track for you.\n\n|cffFFff00Right click to empty input box.|r"
-    ConditionerAddOn.SharedConditionerFrame.EditBoxes[2].linkedPercentBox = ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2]
+    --resource 2 checkbox
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2] = ConditionerAddOn:NewCheckBox(ConditionerAddOn.SharedConditionerFrame, "%", "alternateResourceUsePercentageBool")
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].text:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2], "RIGHT")
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2]:SetPoint("TOPRIGHT", ConditionerAddOn.SharedConditionerFrame.DropDowns[3], "BOTTOMRIGHT", -12, 0)
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].title = "Use Percentage"
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].tooltip = "Check this button if you would like this resource condition to be percentage based instead of a flat value."
+	ConditionerAddOn.SharedConditionerFrame.EditBoxes[2].linkedPercentBox = ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2]
     ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2].linkedEditBox = ConditionerAddOn.SharedConditionerFrame.EditBoxes[2]
-
+    ConditionerAddOn.SharedConditionerFrame.EditBoxes[2]:SetPoint("RIGHT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[2], "LEFT")
     --aura name
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[3] = ConditionerAddOn:NewInputBox(ConditionerAddOn.SharedConditionerFrame, "activeAuraString")
     ConditionerAddOn.SharedConditionerFrame.EditBoxes[3]:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.DropDowns[5], "RIGHT")
@@ -2804,7 +2812,7 @@ function ConditionerAddOn:Init()
     --buff
     ConditionerAddOn.SharedConditionerFrame.CheckBoxes[8] = ConditionerAddOn:NewCheckBox(ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor, "Buff", "buffBool")
     ConditionerAddOn.SharedConditionerFrame.CheckBoxes[8].text:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[8], "RIGHT")
-    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[8]:SetPoint("TOPLEFT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[7].text, "TOPRIGHT")
+    ConditionerAddOn.SharedConditionerFrame.CheckBoxes[8]:SetPoint("LEFT", ConditionerAddOn.SharedConditionerFrame.CheckBoxes[7].text, "RIGHT")
     ConditionerAddOn.SharedConditionerFrame.CheckBoxes[8].filter = true
 
     --magic
@@ -3247,8 +3255,24 @@ function ConditionerAddOn:Init()
         ConditionerAddOn.LoadoutFrame.SpecializationInfo.SpecName:SetTextColor(color.r, color.g, color.b)
         ConditionerAddOn.LoadoutFrame.SpecializationInfo.SpecName:SetText(specName)
         ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice = ConditionerAddOn_SavedVariables.CurrentLoadouts[currentSpecID] or 0
-        CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice].name)
+        local textValue = ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice].name
+        if (ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice == -1) then
+        	ActionButton_ShowOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
+        	textValue = string.format("|cffFFff00%s|r", textValue)
+        elseif (ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice == 0) then
+        	ActionButton_ShowOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
+        	textValue = string.format("|cffd742f4%s|r", textValue)
+        else
+        	ActionButton_HideOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
+        end
+        CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, textValue)
         CONDITIONERDROPDOWNMENU_Initialize(ConditionerAddOn.LoadoutFrame.DropDown, function(self, level, menuList)
+        	for k,v in pairs(ConditionerAddOn.SharedConditionerFrame.EditBoxes) do
+	            v:ClearFocus()
+	        end
+	        if (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton) and (ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor) then
+	            ConditionerAddOn.SharedConditionerFrame.DispelFilterButton.Anchor:Hide()
+	        end
             local info = CONDITIONERDROPDOWNMENU_CreateInfo()
             info.text = ConditionerAddOn.LoadoutFrame.DropDown.Choices[0].name
             info.func = self.SetValue
@@ -3282,7 +3306,17 @@ function ConditionerAddOn:Init()
             ActionButton_HideOverlayGlow(ConditionerAddOn.CurrentPriorityButton)
         end
         ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice = newValue
-        CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice].name)
+        local textValue = ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice].name
+        if (newValue == -1) then
+        	ActionButton_ShowOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
+        	textValue = string.format("|cffFFff00%s|r", textValue)
+        elseif (newValue == 0) then
+        	ActionButton_ShowOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
+        	textValue = string.format("|cffd742f4%s|r", textValue)
+        else
+        	ActionButton_HideOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
+        end
+        CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, textValue)
         ConditionerCloseDropDownMenus()
         ConditionerAddOn:ClearCurrentLoadout()
         local savedPackage = ConditionerAddOn:GetLoadoutPackageByID(ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
@@ -3302,8 +3336,9 @@ function ConditionerAddOn:Init()
     function ConditionerAddOn.LoadoutFrame.DropDown:DeleteLoadout()
         if (ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice > 0) then
             table.remove(ConditionerAddOn.LoadoutFrame.DropDown.Choices, ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
-            CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, ConditionerAddOn.LoadoutFrame.DropDown.Choices[0].name)
+            CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, string.format("|cffd742f4%s|r", ConditionerAddOn.LoadoutFrame.DropDown.Choices[0].name))
             ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice = 0
+            ActionButton_ShowOverlayGlow(ConditionerAddOn.LoadoutFrame.SaveLoadout)
             ConditionerAddOn:StoreCurrentLoadout()
             if (ConditionerAddOn.CurrentPriorityButton) then
                 ActionButton_HideOverlayGlow(ConditionerAddOn.CurrentPriorityButton)
@@ -3316,7 +3351,7 @@ function ConditionerAddOn:Init()
     ConditionerAddOn.LoadoutFrame.SaveLoadout = CreateFrame("Button", nil, ConditionerAddOn.LoadoutFrame, "ConditionerButtonTemplate")
     ConditionerAddOn.LoadoutFrame.SaveLoadout:SetText("Create New Loadout")
     ConditionerAddOn.LoadoutFrame.SaveLoadout:SetPoint("TOPLEFT", ConditionerAddOn.LoadoutFrame.SpecializationInfo, "BOTTOMLEFT", 0, -6)
-    ConditionerAddOn.LoadoutFrame.SaveLoadout:SetSize(ConditionerAddOn.LoadoutFrame.SaveLoadout:GetTextWidth()*1.25, ConditionerAddOn.LoadoutFrame.SaveLoadout:GetTextHeight()*3.5)
+    ConditionerAddOn.LoadoutFrame.SaveLoadout:SetSize(150, 32)
     ConditionerAddOn.LoadoutFrame.SaveLoadout:SetScript("OnClick", function(self, button, down)
         PlaySound(1115)
         ConditionerAddOn.LoadoutFrame.InputName:Show()
@@ -3326,7 +3361,16 @@ function ConditionerAddOn:Init()
             ActionButton_HideOverlayGlow(ConditionerAddOn.CurrentPriorityButton)
         end
     end)
-
+    ConditionerAddOn.LoadoutFrame.SaveLoadout:SetScript("OnEnter", function(self)
+    	GameTooltip:SetOwner(self, "ANCHOR_LEFT", 0, 0)
+        GameTooltip:SetText("Create New Loadout", 0, 0.75, 1)
+        GameTooltip:AddLine("|cffd742f4None|r/|cffFFff00Basic Rotation|r can NOT be overwritten.\n\nYou MUST create a new loadout if you wish to save your modifications!", 1, 1, 1, true)
+        GameTooltip:SetMinimumWidth(150)
+        GameTooltip:Show()
+    end)
+    ConditionerAddOn.LoadoutFrame.SaveLoadout:SetScript("OnLeave", function(self)
+    	GameTooltip:Hide()
+    end)
     --OVERWRITE CURRENT LOADOUT
     ConditionerAddOn.LoadoutFrame.OverWrite = CreateFrame("Button", nil, ConditionerAddOn.LoadoutFrame, "ConditionerButtonTemplate")
     ConditionerAddOn.LoadoutFrame.OverWrite:SetText("Save")
@@ -3338,6 +3382,7 @@ function ConditionerAddOn:Init()
             local overwriteString = ConditionerAddOn:CreateLoadoutString()
             ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice].value = overwriteString
             ConditionerAddOn.LoadoutFrame.OverWrite:Disable()
+            ActionButton_HideOverlayGlow(ConditionerAddOn.LoadoutFrame.OverWrite)
             ConditionerAddOn.LoadoutFrame.OverWrite:SetText("Saved")
         end
     end)
@@ -3436,10 +3481,11 @@ function ConditionerAddOn:Init()
     ConditionerAddOn.LoadoutFrame.AlwaysShow = CreateFrame("CheckButton", nil, ConditionerAddOn.LoadoutFrame, "UICheckButtonTemplate")
     ConditionerAddOn.LoadoutFrame.AlwaysShow.text = ConditionerAddOn.LoadoutFrame.AlwaysShow:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
     ConditionerAddOn.LoadoutFrame.AlwaysShow.text:SetText("Only Display In Combat")
+    ConditionerAddOn.LoadoutFrame.AlwaysShow.text:SetJustifyH("LEFT")
     ConditionerAddOn.LoadoutFrame.AlwaysShow.text:SetTextColor(0.1,0.9,1,1)
-    ConditionerAddOn.LoadoutFrame.AlwaysShow.text:SetSize(ConditionerAddOn.LoadoutFrame.AlwaysShow.text:GetStringWidth(), ConditionerAddOn.LoadoutFrame.AlwaysShow:GetHeight())
     ConditionerAddOn.LoadoutFrame.AlwaysShow.text:SetPoint("LEFT", ConditionerAddOn.LoadoutFrame.AlwaysShow, "RIGHT")
-    ConditionerAddOn.LoadoutFrame.AlwaysShow:SetPoint("LEFT", ConditionerAddOn.LoadoutFrame.SaveLoadout, "RIGHT", 16, 0)
+    ConditionerAddOn.LoadoutFrame.AlwaysShow:SetPoint("LEFT", ConditionerAddOn.LoadoutFrame.NumTrackedFrames, "RIGHT", 16, 0)
+    ConditionerAddOn.LoadoutFrame.AlwaysShow:SetPoint("TOP", ConditionerAddOn.LoadoutFrame.SaveLoadout, "TOP")
     ConditionerAddOn.LoadoutFrame.AlwaysShow:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0)
         GameTooltip:SetText("Only Display In Combat", 0, 0.75, 1)
@@ -3462,8 +3508,8 @@ function ConditionerAddOn:Init()
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers = CreateFrame("CheckButton", nil, ConditionerAddOn.LoadoutFrame, "UICheckButtonTemplate")
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text = ConditionerAddOn.LoadoutFrame.ShowSwingTimers:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text:SetText("Show My Swing Timers")
+    ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text:SetJustifyH("LEFT")
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text:SetTextColor(0.1,0.9,1,1)
-    ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text:SetSize(ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text:GetStringWidth(), ConditionerAddOn.LoadoutFrame.ShowSwingTimers:GetHeight())
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers.text:SetPoint("LEFT", ConditionerAddOn.LoadoutFrame.ShowSwingTimers, "RIGHT")
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers:SetPoint("TOPLEFT", ConditionerAddOn.LoadoutFrame.AlwaysShow, "BOTTOMLEFT", 0, 0)
     ConditionerAddOn.LoadoutFrame.ShowSwingTimers:SetScript("OnEnter", function(self)
@@ -3488,8 +3534,8 @@ function ConditionerAddOn:Init()
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar = CreateFrame("CheckButton", nil, ConditionerAddOn.LoadoutFrame, "UICheckButtonTemplate")
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text = ConditionerAddOn.LoadoutFrame.ShowTargetCastBar:CreateFontString(nil, "OVERLAY", "SystemFont_NamePlateCastBar")
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text:SetText("Show Target Cast Bar")
+    ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text:SetJustifyH("LEFT")
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text:SetTextColor(0.1,0.9,1,1)
-    ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text:SetSize(ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text:GetStringWidth(), ConditionerAddOn.LoadoutFrame.ShowTargetCastBar:GetHeight())
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar.text:SetPoint("LEFT", ConditionerAddOn.LoadoutFrame.ShowTargetCastBar, "RIGHT")
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar:SetPoint("TOPLEFT", ConditionerAddOn.LoadoutFrame.ShowSwingTimers, "BOTTOMLEFT", 0, 0)
     ConditionerAddOn.LoadoutFrame.ShowTargetCastBar:SetScript("OnEnter", function(self)
@@ -3581,15 +3627,17 @@ function ConditionerAddOn:Init()
         end
     end)
     ConditionerAddOn.LoadoutFrame.DancingMan:SetScript("OnAnimFinished", function(self)
-        if (ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue) and (#ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue > 0) then
-            local nextAnim = ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue[#ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue]
-            ConditionerAddOn.LoadoutFrame.DancingMan:SetAnimation(nextAnim)
-            ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue[#ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue] = nil
-            if (not ConditionerAddOn.LoadoutFrame.DancingMan.isDead) then
-                ConditionerAddOn.LoadoutFrame.DancingMan.Wounds = 0
-                ConditionerAddOn.LoadoutFrame.DancingMan:SetAnimation(ConditionerAddOn.LoadoutFrame.DancingMan.CurrentAnim)
-            end
-        end
+    	if (ConditionerAddOn.LoadoutFrame.DancingMan:IsShown()) then
+    		if (ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue) and (#ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue > 0) then
+	            local nextAnim = ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue[#ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue]
+	            ConditionerAddOn.LoadoutFrame.DancingMan:SetAnimation(nextAnim)
+	            ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue[#ConditionerAddOn.LoadoutFrame.DancingMan.AnimQueue] = nil
+	            if (not ConditionerAddOn.LoadoutFrame.DancingMan.isDead) then
+	                ConditionerAddOn.LoadoutFrame.DancingMan.Wounds = 0
+	                ConditionerAddOn.LoadoutFrame.DancingMan:SetAnimation(ConditionerAddOn.LoadoutFrame.DancingMan.CurrentAnim)
+	            end
+	        end
+    	end
     end)
     ConditionerAddOn.LoadoutFrame.DancingMan.Hitbox = CreateFrame("Frame", nil, ConditionerAddOn.LoadoutFrame.DancingMan)
     ConditionerAddOn.LoadoutFrame.DancingMan.Hitbox:SetPoint("CENTER", ConditionerAddOn.LoadoutFrame.DancingMan, "CENTER")

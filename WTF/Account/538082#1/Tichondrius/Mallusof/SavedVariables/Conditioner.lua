@@ -1,191 +1,30 @@
 
-xl_num_desired_tracked = 5
-xl_ChildPosition = 1
-xl_LocX = 484.140563964844
-xl_LocY = 394.718475341797
-xl_DesiredScale = 50
-xl_OnTargetFrame = 1
-xl_current_target_dock = 2
-xl_savedvariables = {
-	{
-	}, -- [1]
-	{
-	}, -- [2]
-	{
-		nil, -- [1]
-		{
-			228260, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["highlight_only"] = true,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [2]
-		{
-			32379, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["highlight_only"] = true,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 2,
-			["duration_remaining"] = 0,
-		}, -- [3]
-		{
-			228260, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "Voidform",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [4]
-		{
-			8092, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = false,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [5]
-		{
-			589, -- [1]
-			["aura_target"] = 2,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "Shadow Word: Pain",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = true,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 6,
-			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 5,
-		}, -- [6]
-		{
-			34914, -- [1]
-			["aura_target"] = 2,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = false,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "Vampiric Touch",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = true,
-			["alt_resource_type"] = 1,
-			["stack_conditional"] = 1,
-			["is_interrupt"] = false,
-			["highlight_only"] = false,
-			["num_stacks"] = 0,
-			["alt_min_resource_to_cast"] = 0,
-			["alt_resource_condition"] = 1,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 7,
-		}, -- [7]
-		{
-			32379, -- [1]
-			["aura_target"] = 1,
-			["charge_conditional"] = 1,
-			["clip_gcd"] = true,
-			["alt_resource_by_percentage"] = true,
-			["resource_by_percentage"] = false,
-			["resource_condition"] = 1,
-			["active_aura"] = "",
-			["key_binding"] = "",
-			["resource_type"] = 1,
-			["maintain_aura"] = false,
-			["alt_resource_type"] = 14,
-			["stack_conditional"] = 3,
-			["is_interrupt"] = false,
-			["highlight_only"] = true,
-			["num_stacks"] = 1,
-			["alt_min_resource_to_cast"] = 50,
-			["alt_resource_condition"] = 4,
-			["min_resource_to_cast"] = 0,
-			["use_condition"] = true,
-			["num_charges"] = 0,
-			["duration_remaining"] = 0,
-		}, -- [8]
-	}, -- [3]
-}
-xl_conditioner_options = {
-	["always_show"] = false,
-	["opacity"] = 1,
-	["hide_hotbar_incombat"] = true,
-	["tapersize"] = 0.75,
+ConditionerAddOn_SavedVariables = {
+	["CurrentLoadouts"] = {
+	},
+	["Loadouts"] = {
+		[-1] = {
+			["value"] = "",
+			["spec"] = 0,
+			["name"] = "Basic Rotation",
+		},
+		[0] = {
+			["value"] = "",
+			["spec"] = 0,
+			["name"] = "None",
+		},
+	},
+	["Options"] = {
+		["TaperSize"] = 80,
+		["OnlyDisplayInCombat"] = false,
+		["AnchorDirection"] = 0,
+		["TrackedFrameAnchorCoords"] = {
+			["y"] = false,
+			["x"] = false,
+		},
+		["TrackedFrameSize"] = 100,
+		["Opacity"] = 100,
+		["ShowSwingTimers"] = false,
+		["NumTrackedFrames"] = 5,
+	},
 }
