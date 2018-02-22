@@ -10,7 +10,7 @@ DataStore_CurrenciesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_CurrenciesDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -93,18 +93,18 @@ DataStore_CurrenciesDB = {
 				["Timewarped Badge"] = 9,
 				["Argus Waystone"] = 38,
 				["Veiled Argunite"] = 37,
-				["Wrath of the Lich King"] = 34,
-				["Seal of Inevitable Fate"] = 30,
-				["Miscellaneous"] = 20,
-				["Timeworn Artifact"] = 27,
-				["Warlords of Draenor"] = 10,
-				["Wakening Essence"] = 39,
-				["Legion"] = 1,
-				["Apexis Crystal"] = 17,
-				["Darkmoon Prize Ticket"] = 21,
-				["Curious Coin"] = 3,
-				["Garrison Resources"] = 11,
 				["Mark of the World Tree"] = 33,
+				["Garrison Resources"] = 11,
+				["Curious Coin"] = 3,
+				["Timeworn Artifact"] = 27,
+				["Wakening Essence"] = 39,
+				["Warlords of Draenor"] = 10,
+				["Apexis Crystal"] = 17,
+				["Legion"] = 1,
+				["Darkmoon Prize Ticket"] = 21,
+				["Miscellaneous"] = 20,
+				["Seal of Inevitable Fate"] = 30,
+				["Wrath of the Lich King"] = 34,
 				["Champion's Seal"] = 35,
 				["Legionfall War Supplies"] = 4,
 			},
@@ -171,7 +171,7 @@ DataStore_CurrenciesDB = {
 					69512, -- [6]
 					5172, -- [7]
 					4400394, -- [8]
-					44012812, -- [9]
+					43794572, -- [9]
 					398, -- [10]
 					626982, -- [11]
 					11702, -- [12]
@@ -221,10 +221,10 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1519247100,
+				["lastUpdate"] = 1519291640,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "343850-0-0-0",
+					[1220] = "342145-0-0-0",
 					[824] = "10000-0-0-10000",
 					[1273] = "3-0-0-6",
 					[1191] = "25-0-0-5000",
@@ -351,7 +351,7 @@ DataStore_CurrenciesDB = {
 				["Currencies"] = {
 					3, -- [1]
 					38404, -- [2]
-					902, -- [3]
+					1030, -- [3]
 					10760, -- [4]
 					2700938, -- [5]
 					3244300, -- [6]
@@ -383,7 +383,7 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1519229971,
+				["lastUpdate"] = 1519279447,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
 					[1220] = "25346-0-0-0",
@@ -504,8 +504,30 @@ DataStore_CurrenciesDB = {
 					[1342] = "59-0-0-1000",
 				},
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1519099085,
+			["Default.Proudmoore.Morifa"] = {
+				["Currencies"] = {
+					3, -- [1]
+					38404, -- [2]
+					2438, -- [3]
+					6408, -- [4]
+					2930570, -- [5]
+					1481612, -- [6]
+					270, -- [7]
+					35238, -- [8]
+					65098, -- [9]
+					63822, -- [10]
+					17, -- [11]
+					177938, -- [12]
+					108832, -- [13]
+					21, -- [14]
+					1542178, -- [15]
+					339862, -- [16]
+					52504, -- [17]
+					420, -- [18]
+					27, -- [19]
+					156, -- [20]
+					926, -- [21]
+				},
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -526,16 +548,17 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
+				["lastUpdate"] = 1519230442,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
+					[1220] = "11575-0-0-0",
+					[824] = "2655-0-0-10000",
+					[1273] = "2-0-0-6",
+					[1191] = "850-0-0-5000",
+					[823] = "12048-0-0-0",
+					[1226] = "22895-0-0-0",
+					[994] = "3-0-0-20",
+					[1342] = "50-0-0-1000",
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
@@ -589,10 +612,10 @@ DataStore_CurrenciesDB = {
 				["Currencies"] = {
 					3, -- [1]
 					14852, -- [2]
-					2054, -- [3]
+					2182, -- [3]
 					1416, -- [4]
 					1735818, -- [5]
-					1138956, -- [6]
+					1048716, -- [6]
 					398, -- [7]
 					81226, -- [8]
 					66638, -- [9]
@@ -625,10 +648,10 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1519230303,
+				["lastUpdate"] = 1519278286,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "8898-0-0-0",
+					[1220] = "8193-0-0-0",
 					[824] = "4172-0-0-10000",
 					[1273] = "3-0-0-6",
 					[1191] = "0-0-0-0",
@@ -954,30 +977,8 @@ DataStore_CurrenciesDB = {
 					[1342] = "119-0-0-1000",
 				},
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["Currencies"] = {
-					3, -- [1]
-					38404, -- [2]
-					2438, -- [3]
-					6408, -- [4]
-					2930570, -- [5]
-					1481612, -- [6]
-					270, -- [7]
-					35238, -- [8]
-					65098, -- [9]
-					63822, -- [10]
-					17, -- [11]
-					177938, -- [12]
-					108832, -- [13]
-					21, -- [14]
-					1542178, -- [15]
-					339862, -- [16]
-					52504, -- [17]
-					420, -- [18]
-					27, -- [19]
-					156, -- [20]
-					926, -- [21]
-				},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1519099085,
 				["Archeology"] = {
 					0, -- [1]
 					0, -- [2]
@@ -998,17 +999,16 @@ DataStore_CurrenciesDB = {
 					0, -- [17]
 					0, -- [18]
 				},
-				["lastUpdate"] = 1519230442,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "11575-0-0-0",
-					[824] = "2655-0-0-10000",
-					[1273] = "2-0-0-6",
-					[1191] = "850-0-0-5000",
-					[823] = "12048-0-0-0",
-					[1226] = "22895-0-0-0",
-					[994] = "3-0-0-20",
-					[1342] = "50-0-0-1000",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
 				},
 			},
 		},

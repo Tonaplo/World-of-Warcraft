@@ -24,9 +24,7 @@ VER 3 0100000000000009 "Karam" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000004 "MD" "INV_MISC_QUESTIONMARK"
 #showtooltip Misdirection
-/target Bear
-/cast Misdirection
-/target Tugar
+/cast [target=focus] Misdirection
 END
 VER 3 0100000000000008 "MM CDs" "INV_MISC_QUESTIONMARK"
 #showtooltip Trueshot

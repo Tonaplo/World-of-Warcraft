@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -147,8 +141,42 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "23:41:39",
+			["date_start"] = "23:40:36",
+			["name"] = "Shade of Xavius",
+			["total_time"] = 63,
+		}, -- [1]
+		{
+			["date_end"] = "23:38:30",
+			["date_start"] = "23:37:22",
+			["name"] = "Dresaron",
+			["total_time"] = 68.002999999997,
+		}, -- [2]
+		{
+			["date_end"] = "23:35:49",
+			["date_start"] = "23:35:03",
+			["name"] = "Oakheart",
+			["total_time"] = 46.0599999999977,
+		}, -- [3]
+		{
+			["date_end"] = "23:32:11",
+			["date_start"] = "23:31:31",
+			["name"] = "Archdruid Glaidalis",
+			["total_time"] = 40.0049999999974,
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
+			["Sapphiré-Sargeras"] = {
+				[200289] = {
+					25.1589999999997, -- [1]
+					45.1500000000015, -- [2]
+					["source"] = "Shade of Xavius",
+					["active"] = false,
+				},
+			},
 			["Yering"] = {
 				[213758] = {
 					63, -- [1]
@@ -182,21 +210,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Sapphiré-Sargeras"] = {
-				[200289] = {
-					25.1589999999997, -- [1]
-					45.1500000000015, -- [2]
-					["source"] = "Shade of Xavius",
-					["active"] = false,
-				},
-			},
 			["Taszy-Frostmourne"] = {
-				[200289] = {
-					52.2359999999972, -- [1]
-					58.1610000000001, -- [2]
-					["source"] = "Shade of Xavius",
-					["active"] = false,
-				},
 				[200238] = {
 					14.1199999999953, -- [1]
 					19.1290000000008, -- [2]
@@ -205,16 +219,22 @@ DetailsTimeLineDB = {
 					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
-				[200273] = {
-					9.29799999999523, -- [1]
-					20.2900000000009, -- [2]
-					["source"] = "[*] Cowardice",
+				[200289] = {
+					52.2359999999972, -- [1]
+					58.1610000000001, -- [2]
+					["source"] = "Shade of Xavius",
 					["active"] = false,
 				},
 				[200243] = {
 					9.29799999999523, -- [1]
 					29.2979999999952, -- [2]
 					["source"] = "[*] Waking Nightmare",
+					["active"] = false,
+				},
+				[200273] = {
+					9.29799999999523, -- [1]
+					20.2900000000009, -- [2]
+					["source"] = "[*] Cowardice",
 					["active"] = false,
 				},
 			},
@@ -376,7 +396,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Sapphiré-Sargeras"] = {
@@ -432,30 +451,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:41:39",
-			["date_start"] = "23:40:36",
-			["name"] = "Shade of Xavius",
-			["total_time"] = 63,
-		}, -- [1]
-		{
-			["date_end"] = "23:38:30",
-			["date_start"] = "23:37:22",
-			["name"] = "Dresaron",
-			["total_time"] = 68.002999999997,
-		}, -- [2]
-		{
-			["date_end"] = "23:35:49",
-			["date_start"] = "23:35:03",
-			["name"] = "Oakheart",
-			["total_time"] = 46.0599999999977,
-		}, -- [3]
-		{
-			["date_end"] = "23:32:11",
-			["date_start"] = "23:31:31",
-			["name"] = "Archdruid Glaidalis",
-			["total_time"] = 40.0049999999974,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
