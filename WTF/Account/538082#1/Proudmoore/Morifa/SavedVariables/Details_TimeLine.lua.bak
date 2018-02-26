@@ -1,7 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -141,6 +139,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_end"] = "21:42:48",
@@ -166,6 +165,12 @@ DetailsTimeLineDB = {
 			["name"] = "Fury of the God Queen",
 			["total_time"] = 189.004,
 		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -242,12 +247,6 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Eyir's Guidance",
 					["active"] = false,
 				},
-				[237866] = {
-					233.349999999999, -- [1]
-					234.277000000001, -- [2]
-					["source"] = "[*] Bladestorm",
-					["active"] = false,
-				},
 				[238691] = {
 					59.6009999999997, -- [1]
 					60.8890000000001, -- [2]
@@ -268,6 +267,12 @@ DetailsTimeLineDB = {
 					580.002, -- [3]
 					580.002, -- [4]
 					["source"] = "[*] Arcane Biology",
+					["active"] = false,
+				},
+				[237866] = {
+					233.349999999999, -- [1]
+					234.277000000001, -- [2]
+					["source"] = "[*] Bladestorm",
 					["active"] = false,
 				},
 			},
@@ -317,13 +322,6 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Arthaina"] = {
-				[57723] = {
-					580.002, -- [1]
-					["source"] = "Arthaina",
-					["active"] = true,
-				},
-			},
 			["Truthfinder"] = {
 				[80354] = {
 					580.002, -- [1]
@@ -338,6 +336,13 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
+			["Lovemuffìn-Garona"] = {
+				[57723] = {
+					580.002, -- [1]
+					["source"] = "Lovemuffìn-Garona",
+					["active"] = true,
+				},
+			},
 			["Ellescorcho"] = {
 				[80354] = {
 					580.002, -- [1]
@@ -346,17 +351,17 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Katarae"] = {
-				[57723] = {
-					580.002, -- [1]
-					["source"] = "Katarae",
-					["active"] = true,
-				},
-			},
 			["Xiaocheng"] = {
 				[57723] = {
 					580.002, -- [1]
 					["source"] = "Xiaocheng",
+					["active"] = true,
+				},
+			},
+			["Katarae"] = {
+				[57723] = {
+					580.002, -- [1]
+					["source"] = "Katarae",
 					["active"] = true,
 				},
 			},
@@ -383,10 +388,10 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Lovemuffìn-Garona"] = {
+			["Arthaina"] = {
 				[57723] = {
 					580.002, -- [1]
-					["source"] = "Lovemuffìn-Garona",
+					["source"] = "Arthaina",
 					["active"] = true,
 				},
 			},
@@ -405,20 +410,6 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Gneehye"] = {
-				[211319] = {
-					580.002, -- [1]
-					["source"] = "Gneehye",
-					["active"] = true,
-				},
-			},
-			["Toastybeard"] = {
-				[57723] = {
-					580.002, -- [1]
-					["source"] = "Toastybeard",
-					["active"] = true,
-				},
-			},
 			["Maloçk"] = {
 				[223203] = {
 					580.002, -- [1]
@@ -431,6 +422,20 @@ DetailsTimeLineDB = {
 				[223202] = {
 					580.002, -- [1]
 					["source"] = "Maloçk",
+					["active"] = true,
+				},
+			},
+			["Toastybeard"] = {
+				[57723] = {
+					580.002, -- [1]
+					["source"] = "Toastybeard",
+					["active"] = true,
+				},
+			},
+			["Gneehye"] = {
+				[211319] = {
+					580.002, -- [1]
+					["source"] = "Gneehye",
 					["active"] = true,
 				},
 			},
@@ -531,17 +536,23 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Blackjustice-Garrosh"] = {
+			["Maru-Draenor"] = {
 				[69438] = {
 					189.004, -- [1]
 					["source"] = "Kyrsiana",
 					["active"] = true,
 				},
 			},
-			["Maru-Draenor"] = {
-				[69438] = {
+			["Morifa"] = {
+				[239000] = {
 					189.004, -- [1]
-					["source"] = "Kyrsiana",
+					189.004, -- [2]
+					189.004, -- [3]
+					189.004, -- [4]
+					189.004, -- [5]
+					189.004, -- [6]
+					189.004, -- [7]
+					["source"] = "[*] Arcane Biology",
 					["active"] = true,
 				},
 			},
@@ -559,16 +570,10 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Morifa"] = {
-				[239000] = {
+			["Blackjustice-Garrosh"] = {
+				[69438] = {
 					189.004, -- [1]
-					189.004, -- [2]
-					189.004, -- [3]
-					189.004, -- [4]
-					189.004, -- [5]
-					189.004, -- [6]
-					189.004, -- [7]
-					["source"] = "[*] Arcane Biology",
+					["source"] = "Kyrsiana",
 					["active"] = true,
 				},
 			},
@@ -582,6 +587,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Morifa"] = {
@@ -613,11 +619,5 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 }

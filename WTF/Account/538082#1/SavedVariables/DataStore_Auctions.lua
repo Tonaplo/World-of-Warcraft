@@ -11,14 +11,14 @@ DataStore_AuctionsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -33,10 +33,6 @@ DataStore_AuctionsDB = {
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1519280219,
 				["lastVisitDate"] = "2018/02/21 22:16",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1519020601,
-				["lastVisitDate"] = "2018/02/18 22:10",
 			},
 			["Default.Tichondrius.Alura"] = {
 				["lastUpdate"] = 1517900144,
@@ -62,13 +58,17 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1519028772,
 				["lastVisitDate"] = "2018/02/19 00:26",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1518250661,
-				["lastVisitDate"] = "2018/02/10 00:17",
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1519020601,
+				["lastVisitDate"] = "2018/02/18 22:10",
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1517641742,
 				["lastVisitDate"] = "2018/02/02 23:09",
+			},
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518250661,
+				["lastVisitDate"] = "2018/02/10 00:17",
 			},
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1518239629,

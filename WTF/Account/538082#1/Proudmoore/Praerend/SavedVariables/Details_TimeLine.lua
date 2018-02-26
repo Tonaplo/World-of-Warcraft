@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "22:54:43",
-			["date_start"] = "22:54:16",
-			["name"] = "Wrath of Azshara",
-			["total_time"] = 27,
-		}, -- [1]
-		{
-			["date_end"] = "22:52:51",
-			["date_start"] = "22:51:52",
-			["name"] = "King Deepbeard",
-			["total_time"] = 59.015999999996,
-		}, -- [2]
-		{
-			["date_end"] = "22:49:44",
-			["date_start"] = "22:48:35",
-			["name"] = "Serpentrix",
-			["total_time"] = 69.0070000000051,
-		}, -- [3]
-		{
-			["date_end"] = "22:48:03",
-			["date_start"] = "22:47:23",
-			["name"] = "Lady Hatecoil",
-			["total_time"] = 40.0040000000008,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -159,13 +141,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 		}, -- [1]
@@ -219,18 +194,18 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Violent Winds",
 					["active"] = false,
 				},
-				[195944] = {
-					26.1599999999962, -- [1]
-					27.114999999998, -- [2]
-					["source"] = "Skrog Wavecrasher",
-					["active"] = false,
-				},
 				[193018] = {
 					12.9189999999944, -- [1]
 					19.9649999999965, -- [2]
 					47.9119999999966, -- [3]
 					58.1929999999993, -- [4]
 					["source"] = "King Deepbeard",
+					["active"] = false,
+				},
+				[195944] = {
+					26.1599999999962, -- [1]
+					27.114999999998, -- [2]
+					["source"] = "Skrog Wavecrasher",
 					["active"] = false,
 				},
 				[196064] = {
@@ -461,6 +436,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_end"] = "22:54:43",
+			["date_start"] = "22:54:16",
+			["name"] = "Wrath of Azshara",
+			["total_time"] = 27,
+		}, -- [1]
+		{
+			["date_end"] = "22:52:51",
+			["date_start"] = "22:51:52",
+			["name"] = "King Deepbeard",
+			["total_time"] = 59.015999999996,
+		}, -- [2]
+		{
+			["date_end"] = "22:49:44",
+			["date_start"] = "22:48:35",
+			["name"] = "Serpentrix",
+			["total_time"] = 69.0070000000051,
+		}, -- [3]
+		{
+			["date_end"] = "22:48:03",
+			["date_start"] = "22:47:23",
+			["name"] = "Lady Hatecoil",
+			["total_time"] = 40.0040000000008,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -643,5 +644,4 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

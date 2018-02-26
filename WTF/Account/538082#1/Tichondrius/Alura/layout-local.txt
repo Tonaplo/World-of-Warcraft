@@ -20,6 +20,13 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: ImmersionToast
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -327
+Y: -76
+W: 235
+H: 25
 Frame: WQGFManualActionsFrame
 FrameLevel: 0
 Anchor: CENTER
@@ -27,10 +34,3 @@ X: 0
 Y: 60
 W: 370
 H: 110
-Frame: ConditionerMessageAnchorFrame
-FrameLevel: 0
-Anchor: CENTER
-X: 0
-Y: 0
-W: 50
-H: 50

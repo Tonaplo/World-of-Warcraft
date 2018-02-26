@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: -132
-Y: 213
-W: 78
-H: 61
 Frame: Details_StreamOverlay
 FrameLevel: 6
 Anchor: TOPLEFT

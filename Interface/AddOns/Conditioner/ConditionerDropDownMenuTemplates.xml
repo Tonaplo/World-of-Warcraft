@@ -75,9 +75,9 @@
 			</OnEnable>
 		</Scripts>
 		<ButtonText name="$parentText" parentKey="Text"/>
-		<NormalFont style="SystemFont_NamePlateCastBar"/>
-		<HighlightFont style="SystemFont_NamePlateCastBar"/>
-		<DisabledFont style="SystemFont_NamePlateCastBar"/>
+		<NormalFont style="SystemFont_Outline_Small"/>
+		<HighlightFont style="SystemFont_Outline_Small"/>
+		<DisabledFont style="SystemFont_Outline_Small"/>
 		<HighlightTexture inherits="ConditionerButtonHighlightTexture"/>
 	</Button>
 

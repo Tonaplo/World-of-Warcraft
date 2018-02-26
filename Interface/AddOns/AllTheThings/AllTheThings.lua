@@ -6,6 +6,7 @@
 AllTheThings = CreateFrame("FRAME", "AllTheThings", UIParent);
 local function HandleEvents(self, e, ...) (self.events[e] or tostringall)(...); end
 local app = AllTheThings;	-- Create a local (non global) reference
+app.refreshDataForce = true;
 app.events = {};
 local backdrop = {
 	bgFile = "Interface/Tooltips/UI-Tooltip-Background", 
@@ -17,7 +18,12 @@ app.DisplayName = "AllTheThings";
 app:SetScript("OnEvent", HandleEvents);
 app:SetPoint("BOTTOMLEFT", UIParent, "TOPLEFT", 0, 0);
 app:SetSize(1, 1);
-app:Hide();
+app:Show();
+
+-- ReloadUI slash command (for ease of use)
+SLASH_RELOADUI1 = "/reloadui";
+SLASH_RELOADUI2 = "/rl";
+SlashCmdList["RELOADUI"] = ReloadUI;
 
 -- Performance Cache 
 -- While this may seem silly, caching references to commonly used APIs is actually a performance gain...
@@ -45,39 +51,61 @@ local GetItemInfoInstant = _G["GetItemInfoInstant"];
 local GetItemSpecInfo = _G["GetItemSpecInfo"];
 local GetTitleName = _G["GetTitleName"];
 local IsDressableItem = _G["IsDressableItem"];
-local IsQuestFlaggedCompleted = _G["IsQuestFlaggedCompleted"];
+--local IsQuestFlaggedCompleted = _G["IsQuestFlaggedCompleted"];
 local PlayerHasToy = _G["PlayerHasToy"];
 local SetPortraitTexture = _G["SetPortraitTexture"];
 local IsTitleKnown = _G["IsTitleKnown"];
 local InCombatLockdown = _G["InCombatLockdown"];
+local MAX_CREATURES_PER_ENCOUNTER = 9;
 
--- Game Tooltip Icon
-local GameTooltipIcon = CreateFrame("FRAME", nil, GameTooltip);
-GameTooltipIcon:SetPoint("TOPRIGHT", GameTooltip, "TOPLEFT", 0, 0);
-GameTooltipIcon:SetSize(96, 96);
-GameTooltipIcon.icon = GameTooltipIcon:CreateTexture(nil, "ARTWORK");
-GameTooltipIcon.icon:SetAllPoints(GameTooltipIcon);
-GameTooltipIcon.icon:Show();
-GameTooltipIcon.icon.Background = GameTooltipIcon:CreateTexture(nil, "BACKGROUND");
-GameTooltipIcon.icon.Background:SetAllPoints(GameTooltipIcon);
-GameTooltipIcon.icon.Background:Show();
-GameTooltipIcon.icon.Border = GameTooltipIcon:CreateTexture(nil, "BORDER");
-GameTooltipIcon.icon.Border:SetAllPoints(GameTooltipIcon);
-GameTooltipIcon.icon.Border:Show();
-GameTooltipIcon:Hide();
-
--- Model is used to display the model of an NPC/Encounter.
-local GameTooltipModel = CreateFrame("FRAME", "ATTGameTooltipModel", GameTooltip);
-GameTooltipModel:SetPoint("TOPRIGHT", GameTooltip, "TOPLEFT", 0, 0);
-GameTooltipModel:SetSize(128, 128);
-GameTooltipModel:SetBackdrop(backdrop);
-GameTooltipModel:SetBackdropBorderColor(1, 1, 1, 1);
-GameTooltipModel:SetBackdropColor(0, 0, 0, 1);
-GameTooltipModel.Model = CreateFrame("DressUpModel", nil, GameTooltipModel);
-GameTooltipModel.Model:SetPoint("TOPLEFT", GameTooltipModel ,"TOPLEFT", 4, -4)
-GameTooltipModel.Model:SetPoint("BOTTOMRIGHT", GameTooltipModel ,"BOTTOMRIGHT", -4, 4)
-GameTooltipModel.Model:SetRotation(MODELFRAME_DEFAULT_ROTATION);
-GameTooltipModel:Hide();
+-- Coroutine Helper Functions
+app.refreshing = {};
+local function OnUpdate(self)
+	for i=#self.__stack,1,-1 do
+		if not self.__stack[i][1]() then
+			table.remove(self.__stack, i);
+			if #self.__stack < 1 then
+				self:SetScript("OnUpdate", nil);
+			end
+		end
+	end
+end
+local function Push(self, name, method)
+	if not self.__stack then
+		self.__stack = {};
+		self:SetScript("OnUpdate", OnUpdate);
+	elseif #self.__stack < 1 then 
+		self:SetScript("OnUpdate", OnUpdate);
+	end
+	--print("Push->" .. name);
+	table.insert(self.__stack, { method, name });
+end
+local function StartCoroutine(name, method)
+	if method and not app.refreshing[name] then
+		local instance = coroutine.create(method);
+		app.refreshing[name] = true;
+		Push(app, name, function()
+			-- Lock out during PVP
+			local inInstance, instanceType = IsInInstance();
+			if inInstance and (instanceType == "pvp" or instanceType == "arena") then
+				--print("PVPing, skipping " .. name);
+				app:GetWindow("CurrentInstance"):Hide();
+				return true;
+			end
+		
+			-- Check the status of the coroutine
+			if instance and coroutine.status(instance) ~= "dead" then
+				local ok, err = coroutine.resume(instance);
+				if ok then return true;	-- This means more work is required.
+				else
+					-- Show the error. Returning nothing is the same as canceling the work.
+					print(err);
+				end
+			end
+			app.refreshing[name] = nil;
+		end);
+	end
+end
 
 -- Data Lib
 local AllTheThingsTempData = {}; 	-- For temporary data.
@@ -222,13 +250,166 @@ local function GetTempDataSubSubMember(member, submember, subsubmember, default)
 	return AllTheThingsTempData[member][submember][subsubmember];
 end
 
+-- Game Tooltip Icon
+local GameTooltipIcon = CreateFrame("FRAME", nil, GameTooltip);
+GameTooltipIcon:SetPoint("TOPRIGHT", GameTooltip, "TOPLEFT", 0, 0);
+GameTooltipIcon:SetSize(96, 96);
+GameTooltipIcon.icon = GameTooltipIcon:CreateTexture(nil, "ARTWORK");
+GameTooltipIcon.icon:SetAllPoints(GameTooltipIcon);
+GameTooltipIcon.icon:Show();
+GameTooltipIcon.icon.Background = GameTooltipIcon:CreateTexture(nil, "BACKGROUND");
+GameTooltipIcon.icon.Background:SetAllPoints(GameTooltipIcon);
+GameTooltipIcon.icon.Background:Show();
+GameTooltipIcon.icon.Border = GameTooltipIcon:CreateTexture(nil, "BORDER");
+GameTooltipIcon.icon.Border:SetAllPoints(GameTooltipIcon);
+GameTooltipIcon.icon.Border:Show();
+GameTooltipIcon:Hide();
+
+-- Model is used to display the model of an NPC/Encounter.
+local GameTooltipModel, model, fi = CreateFrame("FRAME", "ATTGameTooltipModel", GameTooltip);
+GameTooltipModel:SetPoint("TOPRIGHT", GameTooltip, "TOPLEFT", 0, 0);
+GameTooltipModel:SetSize(128, 128);
+GameTooltipModel:SetBackdrop(backdrop);
+GameTooltipModel:SetBackdropBorderColor(1, 1, 1, 1);
+GameTooltipModel:SetBackdropColor(0, 0, 0, 1);
+GameTooltipModel.Models = {};
+GameTooltipModel.Model = CreateFrame("DressUpModel", nil, GameTooltipModel);
+GameTooltipModel.Model:SetPoint("TOPLEFT", GameTooltipModel ,"TOPLEFT", 4, -4)
+GameTooltipModel.Model:SetPoint("BOTTOMRIGHT", GameTooltipModel ,"BOTTOMRIGHT", -4, 4)
+GameTooltipModel.Model:SetRotation(MODELFRAME_DEFAULT_ROTATION);
+GameTooltipModel.Model:Hide();
+for i=1,MAX_CREATURES_PER_ENCOUNTER do
+	model = CreateFrame("DressUpModel", "ATTGameTooltipModel" .. i, GameTooltipModel);
+	model:SetPoint("TOPLEFT", GameTooltipModel ,"TOPLEFT", 4, -4);
+	model:SetPoint("BOTTOMRIGHT", GameTooltipModel ,"BOTTOMRIGHT", -4, 4);
+	model:SetCamDistanceScale(1.7);
+	model:SetDisplayInfo(987);
+	model:SetRotation(MODELFRAME_DEFAULT_ROTATION);
+	fi = math.floor(i / 2);
+	model:SetPosition(fi * -0.1, (fi * (i % 2 == 0 and -1 or 1)) * ((MAX_CREATURES_PER_ENCOUNTER - i) * 0.1), fi * 0.2 - 0.3);
+	model:SetDepth(i);
+	model:Hide();
+	tinsert(GameTooltipModel.Models, model);
+end
+GameTooltipModel.HideAllModels = function(self)
+	for i=1,MAX_CREATURES_PER_ENCOUNTER do
+		GameTooltipModel.Models[i]:Hide();
+	end
+	GameTooltipModel.Model:Hide();
+end
+GameTooltipModel.SetCreatureID = function(self, creatureID)
+	GameTooltipModel.HideAllModels(self);
+	if creatureID < 0 then
+		self.Model:SetDisplayInfo(math.abs(creatureID));
+		self.Model:Show();
+	else
+		self.Model:SetUnit("none");
+		self.Model:SetCreature(creatureID);
+		if not self.Model:GetModelFileID() then
+			Push(app, "SetCreatureID", function()
+				if self.lastModel == creatureID then
+					self:SetCreatureID(creatureID);
+				end
+			end);
+		end
+	end
+	self:Show();
+end
+GameTooltipModel.TrySetModel = function(self, reference)
+	GameTooltipModel.HideAllModels(self);
+	if GetDataMember("ShowModels") then
+		self.lastModel = reference;
+		local displayInfos = reference.displayInfo;
+		if displayInfos then
+			local rotation = reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION;
+			local scale = reference.modelScale or 1;
+			local count = #displayInfos;
+			if count > 1 then
+				count = math.floor(count, MAX_CREATURES_PER_ENCOUNTER);
+				local ratio = count / MAX_CREATURES_PER_ENCOUNTER;
+				if count < 3 then
+					for i=1,count do
+						model = self.Models[i];
+						model:SetDisplayInfo(displayInfos[i]);
+						model:SetCamDistanceScale(scale);
+						model:SetRotation(rotation);
+						model:SetPosition(0, (i % 2 == 0 and 0.5 or -0.5), 0);
+						model:Show();
+					end
+				else
+					scale = (1 + (ratio * 0.5)) * scale;
+					for i=1,count do
+						model = self.Models[i];
+						model:SetDisplayInfo(displayInfos[i]);
+						model:SetCamDistanceScale(scale);
+						model:SetRotation(rotation);
+						fi = math.floor(i / 2);
+						model:SetPosition(fi * -0.1, (fi * (i % 2 == 0 and -1 or 1)) * ((MAX_CREATURES_PER_ENCOUNTER - i) * 0.1), fi * 0.2 - (ratio * 0.15));
+						model:Show();
+					end
+				end
+			else
+				self.Model:SetRotation(rotation);
+				self.Model:SetCamDistanceScale(scale);
+				self.Model:SetDisplayInfo(displayInfos[1]);
+				self.Model:Show();
+			end
+			self:Show();
+			return true;
+		end
+		
+		if reference.displayID then
+			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetCamDistanceScale(reference.modelScale or 1);
+			self.Model:SetDisplayInfo(reference.displayID);
+			self.Model:Show();
+			self:Show();
+			return true;
+		elseif reference.creatureID then
+			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetCamDistanceScale(reference.modelScale or 1);
+			self:SetCreatureID(reference.creatureID);
+			self.Model:Show();
+			return true;
+		elseif reference.model then
+			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
+			self.Model:SetCamDistanceScale(reference.modelScale or 1);
+			self.Model:SetUnit("none");
+			self.Model:SetModel(reference.model);
+			self.Model:Show();
+			self:Show();
+			return true;
+		elseif reference.atlas then
+			GameTooltipIcon:SetSize(64,64);
+			GameTooltipIcon.icon:SetAtlas(reference.atlas);
+			GameTooltipIcon:Show();
+			if reference["atlas-background"] then
+				GameTooltipIcon.icon.Background:SetAtlas(reference["atlas-background"]);
+				GameTooltipIcon.icon.Background:Show();
+			end
+			if reference["atlas-border"] then
+				GameTooltipIcon.icon.Border:SetAtlas(reference["atlas-border"]);
+				GameTooltipIcon.icon.Border:Show();
+				if reference["atlas-color"] then
+					local swatches = reference["atlas-color"];
+					GameTooltipIcon.icon.Border:SetVertexColor(swatches[1], swatches[2], swatches[3], swatches[4] or 1.0);
+				else
+					GameTooltipIcon.icon.Border:SetVertexColor(1, 1, 1, 1.0);
+				end
+			end
+			return true;
+		end
+	end
+end
+GameTooltipModel:Hide();
+
 -- Localization Lib
 app.Locales = {};
 app.print = function(msg, ...)
 	DEFAULT_CHAT_FRAME:AddMessage(app.DisplayName .. ": " .. (msg or "nil"), ...);
 end
 local function L(name, ...)
-	return name and app.LL[name];
+	return name and app.LL and app.LL[name];
 end
 local function SetLocale(loc)
 	loc = loc or app.Locale or "enUS";
@@ -294,15 +475,15 @@ local function ConvertColorRgbToHsv(r, g, b)
   return {h=h,s=s,v=v}
 end
 local red, green = ConvertColorRgbToHsv(1,0,0), ConvertColorRgbToHsv(0,1,0);
-local progress_colors = setmetatable({}, {
+local progress_colors = setmetatable({[1] = "ff15abff"}, {
 	__index = function(t, p)
 		local h;
 		p = tonumber(p);
 		if abs(red.h - green.h) > 180 then
-		local angle = (360 - abs(red.h - green.h)) * p;
-		if red.h < green.h then
-			h = floor(red.h - angle);
-			if h < 0 then h = 360 + h end
+			local angle = (360 - abs(red.h - green.h)) * p;
+			if red.h < green.h then
+				h = floor(red.h - angle);
+				if h < 0 then h = 360 + h end
 			else
 				h = floor(red.h + angle);
 				if h > 360 then h = h - 360 end
@@ -325,55 +506,6 @@ local function GetProgressColorText(progress, total)
 	return "|c" .. GetProgressColor(percent) .. tostring(progress) .. " / " .. tostring(total) .. " (" .. tostring(floor(percent * 100)) .. "%)|r";
 end
 CS:Hide();
-
--- Coroutine Helper Functions
-app.refreshing = {};
-local function OnUpdate(self)
-	for i=#self.__stack,1,-1 do
-		if not self.__stack[i][1]() then
-			table.remove(self.__stack, i);
-			if #self.__stack < 1 then
-				self:SetScript("OnUpdate", nil);
-			end
-		end
-	end
-end
-local function Push(self, name, method)
-	if not self.__stack then
-		self.__stack = {};
-		self:SetScript("OnUpdate", OnUpdate);
-	elseif #self.__stack < 1 then 
-		self:SetScript("OnUpdate", OnUpdate);
-	end
-	--print("Push->" .. name);
-	table.insert(self.__stack, { method, name });
-end
-local function StartCoroutine(name, method)
-	if method and not app.refreshing[name] then
-		-- Lock out during PVP
-		local inInstance, instanceType = IsInInstance();
-		if inInstance and (instanceType == "pvp" or instanceType == "arena") then
-			--print("PVPing, skipping " .. name);
-			app:GetWindow("CurrentInstance"):Hide();
-			return nil;
-		end
-		
-		local instance = coroutine.create(method);
-		app.refreshing[name] = true;
-		Push(app, name, function()
-			-- Check the status of the coroutine
-			if instance and coroutine.status(instance) ~= "dead" then
-				local ok, err = coroutine.resume(instance);
-				if ok then return true;	-- This means more work is required.
-				else
-					-- Show the error. Returning nothing is the same as canceling the work.
-					print(err);
-				end
-			end
-			app.refreshing[name] = nil;
-		end);
-	end
-end
 
 -- Source ID Harvesting Lib
 local SourceIDs = {};
@@ -419,6 +551,21 @@ local function BuildSourceText(group, l, flag)
 	end
 	return group.text or "*";
 end
+local function BuildSourceTextForChat(group, l)
+	if group.parent then
+		if l < 1 then
+			if group.dr then
+				return BuildSourceTextForChat(group.parent, l + 1) .. "/ |c" .. GetProgressColor(group.dr * 0.01) .. tostring(group.dr) .. "%|r";
+			else
+				return BuildSourceTextForChat(group.parent, l + 1);
+			end
+		else
+			return BuildSourceTextForChat(group.parent, l + 1) .. " -> " .. (group.text or "*");
+		end
+		return group.text or "*";
+	end
+	return "ATT";
+end
 local function GetSourceID(itemLink)
     if IsDressableItem(itemLink) then
 		local itemID, _, _, slotName = GetItemInfoInstant(itemLink);
@@ -441,14 +588,10 @@ end
 AllTheThings.GetSourceID = GetSourceID;
 local function SetPortraitIcon(self, data, x)
 	self.lastData = data;
-	if data.icon then
+	if data.texCoords then
 		self:SetWidth(self:GetHeight());
 		self:SetTexture(data.icon);
-		if data.texCoords then
-			self:SetTexCoord(unpack(data.texCoords));
-		else
-			self:SetTexCoord(0, 1, 0, 1);
-		end
+		self:SetTexCoord(unpack(data.texCoords));
 		return true;
 	elseif GetDataMember("ShowModels") then
 		if data.displayID then
@@ -487,65 +630,25 @@ local function SetPortraitIcon(self, data, x)
 			return true;
 		end
 	end
-end
-GameTooltipModel.SetCreatureID = function(self, creatureID)
-	if creatureID < 0 then
-		self.Model:SetDisplayInfo(math.abs(creatureID));
-	else
-		self.Model:SetUnit("none");
-		self.Model:SetCreature(creatureID);
-		if not self.Model:GetModelFileID() then
-			Push(app, "SetCreatureID", function()
-				if self.lastModel == creatureID then
-					self:SetCreatureID(creatureID);
-				end
-			end);
-		end
+	
+	-- Fallback to a traditional icon.
+	if data.icon then
+		self:SetWidth(self:GetHeight());
+		self:SetTexture(data.icon);
+		self:SetTexCoord(0, 1, 0, 1);
+		return true;
 	end
-	self:Show();
 end
-GameTooltipModel.TrySetModel = function(self, reference)
-	if GetDataMember("ShowModels") then
-		self.lastModel = reference;
-		if reference.displayID then
-			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
-			self.Model:SetCamDistanceScale(reference.modelScale or 1);
-			self.Model:SetDisplayInfo(reference.displayID);
-			self:Show();
-			return true;
-		elseif reference.creatureID then
-			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
-			self.Model:SetCamDistanceScale(reference.modelScale or 1);
-			self:SetCreatureID(reference.creatureID);
-			return true;
-		elseif reference.model then
-			self.Model:SetRotation(reference.modelRotation and ((reference.modelRotation * math.pi) / 180) or MODELFRAME_DEFAULT_ROTATION);
-			self.Model:SetCamDistanceScale(reference.modelScale or 1);
-			self.Model:SetUnit("none");
-			self.Model:SetModel(reference.model);
-			self:Show();
-			return true;
-		elseif reference.atlas then
-			GameTooltipIcon:SetSize(64,64);
-			GameTooltipIcon.icon:SetAtlas(reference.atlas);
-			GameTooltipIcon:Show();
-			if reference["atlas-background"] then
-				GameTooltipIcon.icon.Background:SetAtlas(reference["atlas-background"]);
-				GameTooltipIcon.icon.Background:Show();
-			end
-			if reference["atlas-border"] then
-				GameTooltipIcon.icon.Border:SetAtlas(reference["atlas-border"]);
-				GameTooltipIcon.icon.Border:Show();
-				if reference["atlas-color"] then
-					local swatches = reference["atlas-color"];
-					GameTooltipIcon.icon.Border:SetVertexColor(swatches[1], swatches[2], swatches[3], swatches[4] or 1.0);
-				else
-					GameTooltipIcon.icon.Border:SetVertexColor(1, 1, 1, 1.0);
-				end
-			end
-			return true;
-		end
-	end
+
+-- Quest Completion Lib
+local DirtyQuests = {};
+local CompletedQuests = setmetatable({}, {__newindex = function (t, key, value)
+  --print("Completed Quest ID #" .. key);
+  DirtyQuests[key] = true;
+  rawset(t, key, value);
+end});
+local IsQuestFlaggedCompleted = function(questID)
+	return questID and CompletedQuests[questID];
 end
 
 -- Quest Name Harvesting Lib (http://www.wowinterface.com/forums/showthread.php?t=46934)
@@ -580,6 +683,38 @@ end })
 
 -- Search Caching
 local searchCache = {};
+
+local constructor = function(id, t, typeID)
+	if not t then
+		return { [typeID] = id };
+	end
+	if not t.groups and t[1] then
+		t = { ["groups"] = t, [typeID] = id };
+	else
+		t[typeID] = id;
+	end
+	return t;
+end
+local createInstance = function(template, prototype)
+	return setmetatable(template, prototype);
+end
+local contains = function(arr, value)
+	for i,value2 in ipairs(arr) do
+		if value2 == value then return true; end
+	end
+end
+local containsAny = function(arr, otherArr)
+	for i, v in ipairs(arr) do
+		for j, w in ipairs(otherArr) do
+			if v == w then return true; end
+		end
+	end
+end
+local containsValue = function(dict, value)
+	for key,value2 in pairs(dict) do
+		if value2 == value then return true; end
+	end
+end
 local function GetCachedSearchResults(search, method, ...)
 	if search then
 		local now = time();
@@ -597,8 +732,9 @@ local function GetCachedSearchResults(search, method, ...)
 					local count = 0;
 					local abbrevs = L("ABBREVIATIONS");
 					for i,j in ipairs(group) do
-						if j.parent and j.parent.parent then
+						if not j.hideText and j.parent and j.parent.parent and (GetDataMember("ShowCompleteSourceLocations") or (not j.collected and not j.parent.saved)) then
 							local text = BuildSourceText(j, 0, j.qg);
+							--print(text .. tostring(j.parent.questID or 0) .. ", " .. tostring(j.parent.saved or 0));
 							for source,replacement in pairs(abbrevs) do
 								text = string.gsub(text, source,replacement);
 							end
@@ -606,7 +742,7 @@ local function GetCachedSearchResults(search, method, ...)
 							if not GetDataMember("ShowAllSources") then break; end
 							
 							count = count + 1;
-							if count > 25 then
+							if count > 9 then -- Shows 15 sources (Take # you want minus 1 and input)
 								count = #group - count;
 								if count > 1 then
 									tinsert(temp, "And " .. count .. " other sources...");
@@ -650,6 +786,7 @@ fieldCache["objectID"] = {};
 fieldCache["itemID"] = {};
 fieldCache["mapID"] = {};
 fieldCache["mountID"] = {};
+fieldCache["questID"] = {};
 fieldCache["s"] = {};
 fieldCache["speciesID"] = {};
 fieldCache["spellID"] = {};
@@ -685,33 +822,52 @@ local function CacheFields(group)
 	CacheFieldID(group, "itemID");
 	CacheFieldID(group, "mapID");
 	CacheFieldID(group, "mountID");
+	CacheFieldID(group, "questID");
 	CacheFieldID(group, "s");
 	CacheFieldID(group, "speciesID");
 	CacheFieldID(group, "spellID");
+	CacheSubFieldID(group, "itemID", "toyID");
 	CacheFieldID(group, "toyID");
-	return group;
-end
-local constructor = function(id, t, typeID)
-	if not t then
-		return { [typeID] = id };
+	if group.classes and not containsValue(group.classes, app.ClassIndex) then
+		group.nmc = true;	-- "Not My Class"
 	end
-	if not t.groups and t[1] then
-		t = { ["groups"] = t, [typeID] = id };
-	else
-		t[typeID] = id;
+	if group.races and not containsValue(group.races, app.RaceIndex) then
+		group.nmr = true;	-- "Not My Race"
 	end
-	return t;
-end
-local createInstance = function(template, prototype)
-	return CacheFields(setmetatable(template, prototype));
-end
-local containsAny = function(arr, otherArr)
-	for i, v in ipairs(arr) do
-		for j, w in ipairs(otherArr) do
-			if v == w then return true; end
+	if group.groups then
+		for i,subgroup in ipairs(group.groups) do
+			CacheFields(subgroup);
 		end
 	end
 end
+
+-- Note Lib
+local function SetNote(key, id, note)
+	wipe(searchCache);
+	SetDataSubSubMember("Notes", key, id, note);
+end
+local function GetNoteForGroup(group)
+	if group then
+		local key = group.key;
+		if key then
+			return GetDataSubSubMember("Notes", key, group[key]);
+		else
+			return GetDataSubMember("Notes", BuildSourceTextForChat(group, 0));
+		end
+	end
+end
+local function SetNoteForGroup(group, note)
+	if group then
+		wipe(searchCache);
+		local key = group.key;
+		if key then
+			SetDataSubSubMember("Notes", key, group[key], note);
+		else
+			SetDataSubMember("Notes", BuildSourceTextForChat(group, 0), note);
+		end
+	end
+end
+AllTheThings.SetNote = SetNote;
 
 -- Item Information Lib
 local function SortGearSetInformation(a,b)
@@ -888,55 +1044,17 @@ local function GetGearSetCache()
 	end
 	return db;
 end
-local function GetMountInfoCache()
-	local cache = GetTempDataMember("MOUNT_CACHE", {});
-	--SetDataMember("MOUNT_CACHE", cache);
-	local spellID_MountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID");
-	if not spellID_MountID then
-		local numMounts = C_MountJournal.GetNumMounts();
-		if numMounts < 1 then return {}; end
-		
-		-- Detect how many mounts there are. If 0, Blizzard isn't ready yet.
-		local mountIDs = C_MountJournal.GetMountIDs();
-		if #mountIDs < 1 then return {}; end
-		
-		-- Let's build the spellID_MountID and mount cache.
-		local listedMounts = GetTempDataMember("MOUNT_CACHE_LISTED", {});
-		local temp = GetTempDataMember("COMPANION_PET_SOURCE_TYPES", {});
-		local got = GetDataMember("CollectedMounts", {});
-		if #temp < 1 then
-			for i=1,C_PetJournal.GetNumPetSources() do
-				local t = { ["text"] = _G["BATTLE_PET_SOURCE_"..i], ["groups"] = {} };
-				temp[i] = t;
-				tinsert(cache, t);
-			end
-		end
-		spellID_MountID = {};
-		for i,mountID in ipairs(mountIDs) do
-			-- The 2nd value in the list is the spellID for the mount.
-			local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal_GetMountInfoByID(mountID);
-			if spellID then
-				spellID_MountID[spellID] = mountID;
-				if isCollected then got[spellID] = 1; end
-				if not (hideOnChar or listedMounts[spellID]) then
-					listedMounts[spellID] = true;
-					if temp[sourceType or 1] then tinsert(temp[sourceType or 1].groups, setmetatable({ ["mountID"] = spellID }, app.BaseMount));
-					else tinsert(cache, setmetatable({ ["mountID"] = spellID }, app.BaseMount)); end
-				end
-			end
-		end
-		
-		-- Assign to the temporary data container.
-		SetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", spellID_MountID);
+local function GetProgressText(data)
+	if data.total and data.total > 0 then
+		return GetProgressColorText(data.progress, data.total);
+	elseif data.trackable then
+		return GetCompletionIcon(data.saved);
+	elseif data.collectible then
+		return GetCollectionIcon(data.collected);
+	elseif data.groups and not data.expanded then
+		return "+++";
 	end
-	return spellID_MountID;
-end
-local function GetMountInfo(spellID)	-- NOTE: MountID is ACTUALLY the SpellID. Addon developers: Do not confuse this as I did, mountID can be different per spec/faction.
-	return C_MountJournal_GetMountInfoByID(GetMountInfoCache()[spellID]);
-end
-local function GetMountExtraInfo(spellID)	-- NOTE: MountID is ACTUALLY the SpellID. Addon developers: Do not confuse this as I did, mountID can be different per spec/faction.
-	local mountID = GetMountInfoCache()[spellID];
-	if mountID then return C_MountJournal_GetMountInfoExtraByID(mountID); end
+	return "---";
 end
 local function GetRawSourceDataCache()
 	local cache = GetTempDataMember("RAW_DATA_CACHE");
@@ -1040,7 +1158,7 @@ local function SearchForItemIDRecursively(group, itemID)
 					-- Merge!
 					tinsert(first, g[1]);
 				else
-					-- Cool! (This should be the most common occurance)
+					-- Cool! (This should be the most common occurrence)
 					first = g;
 				end
 			end
@@ -1049,97 +1167,29 @@ local function SearchForItemIDRecursively(group, itemID)
 	end
 end
 local function SearchForItemID(itemID)
-	local group = app:GetDataCache();
-	if group and itemID and itemID > 0 then
-		if fieldCache["itemID"] then return fieldCache["itemID"][itemID]; end
-		return SearchForItemIDRecursively(group, itemID);
+	if itemID and itemID > 0 and app:GetDataCache() then
+		return fieldCache["itemID"][itemID];
 	end
 end
-local function SearchForItemIDRecursivelyQuickly(group, itemID)
-	if group.itemID == itemID then
-		-- OH BOY, WE FOUND IT!
-		return { group };
-	end
-	if group.groups then
-		-- Go through the sub groups and determine if any of them have a response.
-		local first = nil;
-		for i, subgroup in ipairs(group.groups) do
-			local g = SearchForItemIDRecursively(subgroup, itemID);
-			if g then
-				if first then
-					-- Merge!
-					tinsert(first, g[1]);
-				else
-					-- Cool! (This should be the most common occurance)
-					first = g;
-				end
-			end
-		end
-		return first;
+local function SearchForMapID(mapID)
+	if mapID and app:GetDataCache() then
+		return fieldCache["mapID"][mapID];
 	end
 end
-local function SearchForItemIDQuickly(itemID)
-	local group = app:GetDataCache();
-	if group and itemID and itemID > 0 then
-		if fieldCache["itemID"] then return fieldCache["itemID"][itemID]; end
-		return SearchForItemIDRecursivelyQuickly(group, itemID);
-	end
-end
-local function SearchForSourceIDRecursively(group, sourceID)
-	if group.s == sourceID then
-		-- OH BOY, WE FOUND IT!
-		return { group };
-	end
-	if group.groups then
-		-- Go through the sub groups and determine if any of them have a response.
-		local first = nil;
-		for i, subgroup in ipairs(group.groups) do
-			local g = SearchForSourceIDRecursively(subgroup, sourceID);
-			if g then
-				if first then
-					-- Merge!
-					tinsert(first, g[1]);
-				else
-					-- Cool! (This should be the most common occurance)
-					first = g;
-				end
-			end
-		end
-		return first;
+local function SearchForQuestID(questID)
+	if questID and app:GetDataCache() then
+		return fieldCache["questID"][questID];
 	end
 end
 local function SearchForSourceID(sourceID)
-	if sourceID and sourceID > 0 then
-		local group = app:GetDataCache();
-		return group and fieldCache["s"][sourceID];
-	end
-end
-local function SearchForSourceIDRecursivelyQuickly(group, sourceID)
-	if group.s == sourceID then
-		-- OH BOY, WE FOUND IT!
-		return { group };
-	end
-	if group.groups then
-		-- Go through the sub groups and determine if any of them have a response.
-		for i, subgroup in ipairs(group.groups) do
-			local g = SearchForSourceIDRecursivelyQuickly(subgroup, sourceID);
-			if g then return g; end
-		end
+	if sourceID and sourceID > 0 and app:GetDataCache() then
+		return fieldCache["s"][sourceID];
 	end
 end
 local function SearchForSourceIDQuickly(sourceID)
-	if sourceID and sourceID > 0 then
-		local group = app:GetDataCache();
-		return group and fieldCache["s"][sourceID];
-	end
-end
-local function SearchForSourceIDVeryQuickly(sourceID)
-	if sourceID and sourceID > 0 then
-		local group = app:GetDataCache();
-		if group then
-			group = fieldCache["s"][sourceID];
-			if group and #group > 0 then return group[1]; end
-		end
+	if sourceID and sourceID > 0 and app:GetDataCache() then
+		local group = fieldCache["s"][sourceID];
+		if group and #group > 0 then return group[1]; end
 	end
 end
 local function SearchForItemLink(link)
@@ -1164,12 +1214,7 @@ local function SearchForItemLink(link)
 				local sourceID = GetSourceID(link);
 				if sourceID then
 					important = true;
-					if GetDataMember("ShowAllSources") then
-						group = SearchForSourceID(sourceID) or SearchForItemID(itemID);
-					else
-						group = SearchForSourceIDQuickly(sourceID) or SearchForItemIDQuickly(itemID);
-					end
-					
+					group = SearchForSourceID(sourceID) or SearchForItemID(itemID);
 					if group and #group > 0 then
 						if group[1].u and group[1].u == 7 and numBonusIds and numBonusIds ~= "" and tonumber(numBonusIds) > 0 then
 							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE"));
@@ -1186,48 +1231,29 @@ local function SearchForItemLink(link)
 						]]--
 						
 						if GetDataMember("ShowSharedAppearances") then
-							if GetDataMember("ShowUnobtainableAppearanceInformation") then 
-								for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-									local otherATTSource = SearchForSourceIDQuickly(otherSourceID);
-									if otherATTSource then
-										local text;
-										otherATTSource = otherATTSource[1];
-										local link = otherATTSource.link;
-										if not link then 
-											link = RETRIEVING_DATA;
-											working = true;
-										end
-										if otherATTSource.u then
-											local texture = L("UNOBTAINABLE_ITEM_TEXTURES")[L("UNOBTAINABLE_ITEM_REASONS")[otherATTSource.u or 1][1]];
-											if texture then
-												text = "|T" .. texture .. ":0|t";
-											else
-												text = "   ";
-											end
+							for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+								local otherATTSource = SearchForSourceID(otherSourceID);
+								if otherATTSource then
+									local text;
+									otherATTSource = otherATTSource[1];
+									local link = otherATTSource.link;
+									if not link then 
+										link = RETRIEVING_DATA;
+										working = true;
+									end
+									if otherATTSource.u then
+										local texture = L("UNOBTAINABLE_ITEM_TEXTURES")[L("UNOBTAINABLE_ITEM_REASONS")[otherATTSource.u or 1][1]];
+										if texture then
+											text = "|T" .. texture .. ":0|t";
 										else
 											text = "   ";
 										end
-										text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
-										tinsert(listing, text);
 									else
-										local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
-										if otherSource then
-											local text;
-											local link = select(2, GetItemInfo(otherSource.itemID));
-											if not link then 
-												link = RETRIEVING_DATA;
-												working = true;
-											end
-											text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherSource.isCollected);
-											if otherSource.isCollected then
-												SetDataSubMember("CollectedSources", otherSourceID, 1);
-											end
-											tinsert(listing, text);
-										end
+										text = "   ";
 									end
-								end
-							else
-								for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+									text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
+									tinsert(listing, text);
+								else
 									local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
 									if otherSource then
 										local text;
@@ -1249,13 +1275,8 @@ local function SearchForItemLink(link)
 						if GetDataMember("ShowVisualID") then tinsert(listing, L("VISUAL_ID") .. "/" .. tostring(sourceInfo.visualID)); end
 						if GetDataMember("ShowSourceID") then tinsert(listing, L("SOURCE_ID") .. "/" .. sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected)); end
 					end
-				elseif GetDataMember("ShowSources") then
-					if GetDataMember("ShowAllSources") then
-						group = SearchForItemID(itemID);
-					else
-						group = SearchForItemIDQuickly(itemID);
-					end
-					
+				else
+					group = SearchForItemID(itemID);
 					if group and #group > 0 then
 						if group[1].u and group[1].u == 7 and numBonusIds and numBonusIds ~= "" and tonumber(numBonusIds) > 0 then
 							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE"));
@@ -1266,27 +1287,36 @@ local function SearchForItemLink(link)
 				
 				if GetDataMember("ShowItemID") and itemID > 0 then tinsert(listing, L("ITEM_ID") .. "/" .. itemID); end
 				if GetDataMember("ShowItemString") then tinsert(listing, itemString); end
-				if group and #group > 0 and GetDataMember("ShowLootSpecializations", true) then
-					local specs = group[1].specs;
-					if specs and group[1].s then
-						if #specs > 0 then
-							local spec_label = "";
-							local atleastone = false;
-							for key, specID in ipairs(specs) do
-								local id, name, description, icon, role, class = GetSpecializationInfoByID(specID);
-								if class == app.Class then
-									spec_label = spec_label .. "  |T" .. icon .. ":0|t " .. name;
-									atleastone = true;
+				if group and #group > 0 then
+					if GetDataMember("ShowLootSpecializations", true) then
+						local specs = group[1].specs;
+						if specs and group[1].s then
+							if #specs > 0 then
+								local spec_label = "";
+								local atleastone = false;
+								for key, specID in ipairs(specs) do
+									local id, name, description, icon, role, class = GetSpecializationInfoByID(specID);
+									if class == app.Class then
+										spec_label = spec_label .. "  |T" .. icon .. ":0|t " .. name;
+										atleastone = true;
+									end
 								end
-							end
-							if atleastone then
-								tinsert(listing, " /" .. spec_label);
+								if atleastone then
+									tinsert(listing, " /" .. spec_label);
+								else
+									tinsert(listing, " /Not available in Personal Loot.");
+								end
 							else
 								tinsert(listing, " /Not available in Personal Loot.");
 							end
-						else
-							tinsert(listing, " /Not available in Personal Loot.");
 						end
+					end
+					
+					-- If there is a note for this item, show it.
+					local note = GetNoteForGroup(group[1]);
+					if note then
+						tinsert(listing, "Custom Note:");
+						tinsert(listing, "|cffffffff" .. note .. "|r");
 					end
 				end
 				
@@ -1302,12 +1332,12 @@ local function SearchForCachedItemLink(itemLink)
 	return GetCachedSearchResults(itemLink, SearchForItemLink, itemLink);
 end
 local function SearchForMissingItemsRecursively(group, listing)
-	if app.FilterItemClass(group) then
-		if (not group.collected or (group.total and (group.progress < group.total))) and (not group.b or group.b == 2) then
+	if group.visible then
+		if not group.collected and group.collectible and (not group.b or group.b == 2) then
 			local name = group.name;
 			if name then listing[name] = 1; end
 		end
-		if group.groups then
+		if group.groups and group.expanded then
 			-- Go through the sub groups and determine if any of them have a response.
 			for i, subgroup in ipairs(group.groups) do
 				SearchForMissingItemsRecursively(subgroup, listing);
@@ -1324,7 +1354,7 @@ local function SearchForMissingItems(group)
 	return arr; 
 end
 AllTheThings.SearchForItemID = SearchForItemID;
-AllTheThings.SearchForSourceID = SearchForSourceIDQuickly;
+AllTheThings.SearchForSourceID = SearchForSourceID;
 AllTheThings.SearchForItemLink = SearchForItemLink;
 AllTheThings.SearchForCachedItemLink = SearchForCachedItemLink;
 AllTheThings.SearchForField = SearchForField;
@@ -1336,6 +1366,51 @@ local function ExpandGroupsRecursively(group, expanded)
 		for i, subgroup in ipairs(group.groups) do
 			ExpandGroupsRecursively(subgroup, expanded);
 		end
+	end
+end
+local function ExportDataRecursively(group, indent)
+	if group.itemID then return ""; end
+	if group.groups then
+		if group.instanceID then
+			EJ_SelectInstance(group.instanceID);
+			EJ_SetLootFilter(0, 0);
+			EJ_SetSlotFilter(0);
+			local str = indent .. "c(" .. group.instanceID .. "--[[" .. select(1, EJ_GetInstanceInfo()) .. "]], {\n";
+			for i,subgroup in ipairs(group.groups) do
+				str = str .. ExportDataRecursively(subgroup, indent .. "\t");
+			end
+			return str .. indent .. "}),\n"
+		end
+		if group.difficultyID then
+			EJ_SetDifficulty(group.difficultyID);
+			EJ_SetLootFilter(0, 0);
+			EJ_SetSlotFilter(0);
+			local str = indent .. "d(" .. group.difficultyID .. "--[[" .. select(1, GetDifficultyInfo(group.difficultyID)) .. "]], {\n";
+			for i,subgroup in ipairs(group.groups) do
+				str = str .. ExportDataRecursively(subgroup, indent .. "\t");
+			end
+			return str .. indent .. "}),\n"
+		end
+		if group.encounterID then
+			EJ_SelectEncounter(group.encounterID);
+			EJ_SetLootFilter(0, 0);
+			EJ_SetSlotFilter(0);
+			local str = indent .. "e(" .. group.encounterID .. "--[[" .. select(1, EJ_GetEncounterInfo(group.encounterID)) .. "]], {\n";
+			local numLoot = EJ_GetNumLoot();
+			for i = 1,numLoot do
+				local itemID = EJ_GetLootInfoByIndex(i);
+				str = str .. indent .. "\ti(" .. itemID .. "--[[" .. select(1, GetItemInfo(itemID)) .. "]]),\n";
+			end
+			return str .. indent .. "}),\n"
+		end
+	end
+	return "";
+end
+local function ExportData(group)
+	if group.instanceID then
+		EJ_SetLootFilter(0, 0);
+		EJ_SetSlotFilter(0);
+		SetDataMember("EXPORT_DATA", ExportDataRecursively(group, ""));
 	end
 end
 local function FindMapDataRecursively(listing, data, mapID)
@@ -1538,9 +1613,8 @@ local function RefreshLocationCoroutine()
 	end
 end
 local function RefreshLocation()
-	if GetDataMember("AutoMiniList", true) or app:GetWindow("CurrentInstance"):IsVisible() then
+	if GetDataMember("AutoMiniList") or app:GetWindow("CurrentInstance"):IsVisible() then
 		StartCoroutine("RefreshLocation", RefreshLocationCoroutine);
-		app:Show();
 	end
 end
 local function RefreshSavesCoroutine()
@@ -1679,7 +1753,7 @@ local function RefreshSources(groups)
 			if group.toyID and not GetDataSubMember("CollectedToys", group.toyID) and PlayerHasToy(group.toyID) then
 				SetDataSubMember("CollectedToys", group.toyID, 1);
 			end
-			if group.groups then RefreshSources(group.groups); end
+			RefreshSources(group.groups);
 		end
 	end
 end
@@ -1699,8 +1773,11 @@ local function RefreshCollections(groups)
 		end
 		
 		-- Refresh Mounts / Pets
-		SetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", nil);
-		GetMountInfoCache();
+		local collectedMounts = GetDataMember("CollectedMounts", {});
+		for i,mountID in ipairs(C_MountJournal.GetMountIDs()) do
+			local _, spellID, _, _, _, _, _, _, _, _, isCollected = C_MountJournal_GetMountInfoByID(mountID);
+			if spellID and isCollected then collectedMounts[spellID] = 1; end
+		end
 		
 		-- Wait a frame before harvesting item collection status.
 		coroutine.yield();
@@ -1725,11 +1802,17 @@ local function SetCompletionistMode(completionistMode, fromSettings)
 	SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the Source ID data cache.
 	if completionistMode then
 		app.ItemSourceFilter = app.FilterItemSource;
+		app.ActiveItemCollectionHelper = app.CompletionistItemCollectionHelper;
+		app.ActiveItemRemovalHelper = app.CompletionistItemRemovalHelper;
 	else
 		if GetDataMember("MainOnly") then
 			app.ItemSourceFilter = app.FilterItemSourceUniqueOnlyMain;
+			app.ActiveItemCollectionHelper = app.UniqueModeItemCollectionHelperOnlyMain;
+			app.ActiveItemRemovalHelper = app.UniqueModeItemRemovalHelperOnlyMain;
 		else
 			app.ItemSourceFilter = app.FilterItemSourceUnique;
+			app.ActiveItemCollectionHelper = app.UniqueModeItemCollectionHelper;
+			app.ActiveItemRemovalHelper = app.UniqueModeItemRemovalHelper;
 		end
 	end
 	RefreshCollections();
@@ -1749,7 +1832,7 @@ end
 local function ToggleDebugMode()
 	SetDebugMode(not GetDataMember("IgnoreAllFilters"));
 end
-AllTheThings.RefreshCollections = RefreshCollections; -- To expose this to external users.
+AllTheThings.RefreshCollections = RefreshCollections;
 AllTheThings.RefreshLocation = RefreshLocation;
 AllTheThings.RefreshSaves = RefreshSaves;
 AllTheThings.OpenMainList = OpenMainList;
@@ -1759,6 +1842,7 @@ AllTheThings.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
 AllTheThings.ToggleCompletionistMode = ToggleCompletionistMode;
 AllTheThings.ToggleDebugMode = ToggleDebugMode;
 AllTheThings.ToggleMainList = ToggleMainList;
+
 
 -- Tooltip Hooks
 local GameTooltip_SetLFGDungeonReward = GameTooltip.SetLFGDungeonReward;
@@ -1778,14 +1862,14 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 		
 		-- If the user has Show Collection Progress turned on.
 		local count = group and #group or 0;
-		if count > 0 and self:NumLines() > 0 and GetDataMember("ShowCollected", true) then
+		if count > 0 and self:NumLines() > 0 and GetDataMember("ShowProgress") then
 			-- Determine if this group is composed of multiple sections
 			if count > 1 then
 				-- Build the group data (merge into one group)
 				local merged = { groups = {}, total = 0, progress = 0 };
 				for i,g in ipairs(group) do
-					if g.collectable then
-						merged.collectable = g.collectable;
+					if g.collectible then
+						merged.collectible = g.collectible;
 						merged.collected = g.collected;
 					end
 					if g.trackable then
@@ -1807,7 +1891,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 						o = merged.groups[i];
 						key = o.key;
 						value = o[key];
-						if o.collectable or o.total then
+						if o.collectible or o.total then
 							found = false;
 							for j=i-1,1,-1 do
 								if merged.groups[j][key] == value then
@@ -1828,7 +1912,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 						if s.total then
 							merged.total = merged.total + s.total;
 							merged.progress = merged.progress + s.progress;
-						elseif s.collectable and app.GroupFilter(s) then
+						elseif s.collectible and app.GroupFilter(s) then
 							merged.total = merged.total + 1;
 							if s.collected then
 								merged.progress = merged.progress + 1;
@@ -1848,43 +1932,45 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 				if group.groups then
 					if group.total and group.total > 0 then
 						rightSide:SetText(GetProgressColorText(group.progress, group.total));
-						local first = true;
-						for i,j in ipairs(group.groups) do
-							if app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
-								if j.groups then
-									if not j.total or j.total < 1 then 
+						if GetDataMember("ShowContents") then
+							local first = true;
+							for i,j in ipairs(group.groups) do
+								if app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
+									if j.groups then
+										if not j.total or j.total < 1 then 
+											if j.collected then
+												if GetDataMember("ShowCollectedItems") then
+													if first then first = nil; self:AddLine("Contains:"); end
+													self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
+												end
+											elseif j.collectible or (j.trackable and app.ShowIncompleteQuests(j)) then
+												if first then first = nil; self:AddLine("Contains:"); end
+												if j.dr then
+													self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
+												else
+													self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
+												end
+											end
+										else
+											local percent = j.progress / j.total;
+											if percent < 1 or GetDataMember("ShowCompletedGroups")  then 
+												if first then first = nil; self:AddLine("Contains:"); end
+												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), GetProgressColorText(j.progress, j.total));
+											end
+										end
+									else
 										if j.collected then
 											if GetDataMember("ShowCollectedItems") then
 												if first then first = nil; self:AddLine("Contains:"); end
 												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
 											end
-										elseif j.collectable or (j.trackable and app.RequireTrackableFilter(j)) then
+										else
 											if first then first = nil; self:AddLine("Contains:"); end
 											if j.dr then
 												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
 											else
 												self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
 											end
-										end
-									else
-										local percent = j.progress / j.total;
-										if percent < 1 or GetDataMember("ShowCompletedGroups")  then 
-											if first then first = nil; self:AddLine("Contains:"); end
-											self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), GetProgressColorText(j.progress, j.total));
-										end
-									end
-								else
-									if j.collected then
-										if GetDataMember("ShowCollectedItems") then
-											if first then first = nil; self:AddLine("Contains:"); end
-											self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON"));
-										end
-									else
-										if first then first = nil; self:AddLine("Contains:"); end
-										if j.dr then
-											self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON"));
-										else
-											self:AddDoubleLine("  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON"));
 										end
 									end
 								end
@@ -1894,10 +1980,12 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 						rightSide:SetText("---");
 					end
 				else
-					if group.collectable then
+					if group.collectible then
 						rightSide:SetText(GetCollectionText(group.collected));
 					elseif group.trackable then
 						rightSide:SetText(GetCompletionText(group.saved));
+					else
+						rightSide:SetText("---");
 					end
 				end
 				rightSide:Show();
@@ -1916,7 +2004,7 @@ end
 local function AttachTooltip(self)
 	if not self.AllTheThingsProcessing then
 		self.AllTheThingsProcessing = true;
-		if (not InCombatLockdown() or GetDataMember("DisplayTooltipInformationInCombat")) and GetDataMember("EnableTooltipInformation") then
+		if (not InCombatLockdown() or GetDataMember("DisplayTooltipsInCombat")) and GetDataMember("EnableTooltipInformation") then
 			--for i,j in pairs(self) do
 			--	self:AddDoubleLine(tostring(i), tostring(j));
 			--end
@@ -2117,7 +2205,7 @@ app.BaseArtifact = {
 	__index = function(t, key)
 		if key == "key" then
 			return "artifactID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return select(5, C_ArtifactUI_GetAppearanceInfoByID(t.artifactID));
@@ -2211,6 +2299,7 @@ local DifficultyColors = {
 	[17] = "ff9d9d9d",		--"Interface/Worldmap/Skull_64Grey",
 	[23] = "ffa335ee",	--"Interface/Worldmap/Skull_64Purple",
 	[24] = "ffe6cc80",	--"Interface/Worldmap/Skull_64Red",
+	[33] = "ffe6cc80",	--"Interface/Worldmap/Skull_64Red",
 };
 local DifficultyIcons = {
 	[1] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
@@ -2226,6 +2315,7 @@ local DifficultyIcons = {
 	[17] = "Interface\\Addons\\AllTheThings\\assets\\LFR",		--"Interface/Worldmap/Skull_64Grey",
 	[23] = "Interface\\Addons\\AllTheThings\\assets\\Mythic",	--"Interface/Worldmap/Skull_64Purple",
 	[24] = "Interface\\Addons\\AllTheThings\\assets\\Timewalking",	--"Interface/Worldmap/Skull_64Red",
+	[33] = "Interface\\Addons\\AllTheThings\\assets\\Timewalking",	--"Interface/Worldmap/Skull_64Red",
 };
 app.BaseDifficulty = {
 	__index = function(t, key)
@@ -2288,10 +2378,23 @@ app.BaseEncounter = {
 		elseif key == "displayID" then
 			-- local id, name, description, displayInfo, iconImage = EJ_GetCreatureInfo(1, t.encounterID);
 			return select(4, EJ_GetCreatureInfo(t.index, t.encounterID));
+		elseif key == "displayInfo" then
+			local displayInfos, displayInfo = {};
+			for i=1,MAX_CREATURES_PER_ENCOUNTER do
+				displayInfo = select(4, EJ_GetCreatureInfo(i, t.encounterID));
+				if displayInfo then
+					tinsert(displayInfos, displayInfo);
+				else
+					break;
+				end
+			end
+			return displayInfos;
+		elseif key == "icon" then
+			return "Interface\\Icons\\INV_Misc_Head_Human_01";
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			if t.questID and IsQuestFlaggedCompleted(t.questID) then
+			if IsQuestFlaggedCompleted(t.questID) then
 				return true;
 			end
 			--[[
@@ -2326,7 +2429,7 @@ app.BaseFaction = {
 	__index = function(t, key)
 		if key == "key" then
 			return "factionID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return t.standing == 8;
@@ -2379,7 +2482,7 @@ app.BaseFollower = {
 	__index = function(t, key)
 		if key == "key" then
 			return "followerID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return C_Garrison.IsFollowerCollected(t.followerID);
@@ -2410,7 +2513,7 @@ app.BaseHeirloom = {
 	__index = function(t, key)
 		if key == "key" then
 			return "heirloomID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return C_Heirloom.PlayerHasHeirloom(t.heirloomID);
@@ -2437,7 +2540,7 @@ app.BaseIllusion = {
 	__index = function(t, key)
 		if key == "key" then
 			return "illusionID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return GetDataSubMember("CollectedIllusions", t.illusionID);
@@ -2509,7 +2612,7 @@ app.CreateGearSet = function(id, t)
 end
 app.BaseGearSource = {
 	__index = function(t, key)
-		if key == "collectable" then
+		if key == "collectible" then
 			return true;
 		elseif key == "info" then
 			return C_TransmogCollection_GetSourceInfo(t.s);
@@ -2622,8 +2725,8 @@ app.BaseItem = {
 	__index = function(t, key)
 		if key == "key" then
 			return "itemID";
-		elseif key == "collectable" then
-			return t.s;-- or (t.questID and GetDataMember("RequireTrackableFilter"));
+		elseif key == "collectible" then
+			return t.s;-- or (t.questID and GetDataMember("ShowIncompleteQuests"));
 		elseif key == "collected" then
 			return t.s and t.s ~= 0 and GetDataSubMember("CollectedSources", t.s);-- or t.saved;
 		elseif key == "text" then
@@ -2650,7 +2753,7 @@ app.BaseItem = {
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			return t.questID and IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID);
 		elseif key == "itemModID" then
 			return 1;
 		elseif key == "name" then
@@ -2698,7 +2801,7 @@ app.BaseMount = {
 	__index = function(t, key)
 		if key == "key" then
 			return "mountID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			if GetDataSubMember("CollectedMounts", t.mountID) then return true; end
@@ -2711,17 +2814,19 @@ app.BaseMount = {
 		elseif key == "text" then
 			return select(1, GetSpellLink(t.mountID)) or select(1, GetSpellInfo(t.mountID)) or ("Spell #" .. t.mountID);
 		elseif key == "description" then
-			return select(2, GetMountExtraInfo(t.mountID));
+			local mountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.mountID];
+			if mountID then return select(2, C_MountJournal_GetMountInfoExtraByID(mountID)); end
 		elseif key == "link" then
 			return select(1, GetSpellLink(t.mountID));
 		elseif key == "icon" then
 			return select(3, GetSpellInfo(t.mountID));
 		elseif key == "displayID" then
-			return select(1, GetMountExtraInfo(t.mountID));
+			local mountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.mountID];
+			if mountID then return select(1, C_MountJournal_GetMountInfoExtraByID(mountID)); end
 		elseif key == "spellID" then
 			return t.mountID;
 		elseif key == "name" then
-			return GetMountInfo(t.mountID);
+			return C_MountJournal_GetMountInfoByID(GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.mountID]);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2737,7 +2842,7 @@ app.BaseMusicRoll = {
 	__index = function(t, key)
 		if key == "key" then
 			return "musicRollID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return IsQuestFlaggedCompleted(t.musicRollID);
@@ -2792,13 +2897,16 @@ app.BaseNPC = {
 		elseif key == "link" then
 			return (t.achievementID and GetAchievementLink(t.achievementID));
 		elseif key == "icon" then
-			return L("NPC_ID_ICONS")[t.npcID] or (t.achievementID and select(10, GetAchievementInfo(t.achievementID)));
+			return L("NPC_ID_ICONS")[t.npcID] 
+				or (t.achievementID and select(10, GetAchievementInfo(t.achievementID))) 
+				or (t.parent and t.parent.npcID == -2 and "Interface\\Icons\\Achievement_Character_Human_Male")
+				or "Interface\\Icons\\INV_Misc_Head_Human_01";
 		elseif key == "creatureID" then
 			return t.npcID > 0 and t.npcID;
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			if t.questID and IsQuestFlaggedCompleted(t.questID) then
+			if IsQuestFlaggedCompleted(t.questID) then
 				return true;
 			end
 			--[[
@@ -2827,11 +2935,11 @@ app.BaseObject = {
 			rawset(t, "text", name);
 			return name;
 		elseif key == "icon" then
-			return L("OBJECT_ID_ICONS")[t.objectID];
+			return L("OBJECT_ID_ICONS")[t.objectID] or "Interface\\Icons\\INV_Misc_Bag_10";
 		elseif key == "trackable" then
 			return t.questID;
 		elseif key == "saved" then
-			return t.questID and IsQuestFlaggedCompleted(t.questID);
+			return IsQuestFlaggedCompleted(t.questID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2887,7 +2995,7 @@ app.CreatePetType = function(id, t)
 end
 
 -- Profession Lib
-local SkillIDToSpellID = {
+local SkillIDToSpellID = setmetatable({
 	[171] = 2259,	-- Alchemy
 	[794] = 158762,	-- Arch
 	[164] = 2018,	-- Blacksmithing
@@ -2902,8 +3010,7 @@ local SkillIDToSpellID = {
 	[186] = 2575,	-- Mining
 	[393] = 8613,	-- Skinning
 	[197] = 3908,	-- Tailoring
-};
-setmetatable(SkillIDToSpellID, {__index = function(t,k) return(106727) end})
+}, {__index = function(t,k) return(106727) end})
 app.BaseProfession = {
 	__index = function(t, key)
 		if key == "key" then
@@ -2951,10 +3058,10 @@ app.BaseQuest = {
 			return "Interface\\Icons\\Achievement_Quests_Completed_08";
 		elseif key == "trackable" then
 			return true;
-		--elseif key == "collectable" then
-		--	return GetDataMember("RequireTrackableFilter");
-		--elseif key == "collected" then
-		--	return t.saved;
+		elseif key == "collectible" then
+			return not t.daily and GetDataMember("TreatIncompleteQuestsAsCollectible");
+		elseif key == "collected" then
+			return t.collectible and t.saved;
 		elseif key == "saved" then
 			return IsQuestFlaggedCompleted(t.questID);
 		else
@@ -2993,7 +3100,7 @@ app.BaseSpecies = {
 	__index = function(t, key)
 		if key == "key" then
 			return "speciesID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			if select(1, C_PetJournal.GetNumCollectedInfo(t.speciesID)) > 0 then
@@ -3043,7 +3150,7 @@ app.BaseTitle = {
 	__index = function(t, key)
 		if key == "key" then
 			return "titleID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "f" then
 			return 110;
@@ -3104,20 +3211,20 @@ app.BaseToy = {
 	__index = function(t, key)
 		if key == "key" then
 			return "toyID";
-		elseif key == "collectable" then
+		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
 			return GetDataSubMember("CollectedToys", t.toyID);
 		elseif key == "f" then
 			return 102;
 		elseif key == "text" then
-			return select(2, C_ToyBox_GetToyInfo(t.toyID));
+			return C_ToyBox_GetToyLink(t.toyID);
 		elseif key == "link" then
 			return C_ToyBox_GetToyLink(t.toyID);
 		elseif key == "icon" then
 			return select(3, C_ToyBox_GetToyInfo(t.toyID));
 		elseif key == "name" then
-			return t.text;
+			return select(2, C_ToyBox_GetToyInfo(t.itemID));
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3183,18 +3290,16 @@ function app.FilterItemClass(item)
 	return app.ItemBindFilter(item)
 		or (app.FilterItemClass_RequireItemFilter(item.f)
 			and app.RequireBindingFilter(item.b)
-			and app.ClassRequirementFilter(item.classes)
-			and app.RaceRequirementFilter(item.races)
+			and app.ClassRequirementFilter(item)
+			and app.RaceRequirementFilter(item)
 			and app.UnobtainableItemFilter(item.u)
 		        and app.SeasonalFilter(item.u)
 			and app.PersonalLootFilter(item)
 			and app.RequiredSkillFilter(item.requiredSkill));
 end
-function app.FilterItemClass_RequireClasses(classes)
-	if classes then
-		for key,value in pairs(classes) do
-			if value == app.ClassIndex then return true; end
-		end
+function app.FilterItemClass_RequireClasses(item)
+	if item.classes then
+		return not item.nmc;--contains(item.classes, app.ClassIndex);
 	else
 		return true;
 	end
@@ -3205,33 +3310,36 @@ function app.FilterItemClass_RequireItemFilter(f)
 end
 function app.FilterItemClass_RequirePersonalLoot(item)
 	local specs = item.specs;
-	if specs then
-		for i, v in ipairs(specs) do
-			if v == app.Spec then return true; end
-		end
-		return false;
-	end
+	if specs then return #specs > 0; end
 	return true;
 end
-function app.FilterItemClass_RequireRaces(races)
-	if races then
-		for key,value in pairs(races) do
-			if value == app.RaceIndex then return true; end
-		end
+function app.FilterItemClass_RequirePersonalLootCurrentSpec(item)
+    local specs = item.specs;
+    if specs then
+        for i, v in ipairs(specs) do
+            if v == app.Spec then return true; end
+        end
+        return false;
+    end
+    return true;
+end
+function app.FilterItemClass_RequireRaces(item)
+	if item.races then
+		return not item.nmr;--contains(item.races, app.RaceIndex);
 	else
 		return true;
 	end
 end
 function app.FilterItemClass_UnobtainableItem(u)
 	if u and L("UNOBTAINABLE_ITEM_REASONS")[u][1] < 5 then
-	   return GetDataMember("UnobtainableItemFilters") and GetDataMember("UnobtainableItemFilters")[u]
+	   return GetDataSubMember("UnobtainableItemFilters", u);
 	else
 		return true;
 	end
 end
 function app.FilterItemClass_SeasonalItem(u)
    if u and L("UNOBTAINABLE_ITEM_REASONS")[u][1] > 4 then
-      return GetDataMember("SeasonalFilters") and GetDataMember("SeasonalFilters")[u]
+      return GetDataSubMember("SeasonalFilters", u);
    else
       return true
    end
@@ -3253,23 +3361,23 @@ end
 function app.FilterItemSource(sourceInfo)
 	return sourceInfo.isCollected;
 end
-function app.FilterItemSourceUnique(sourceInfo)
+function app.FilterItemSourceUnique(sourceInfo, allSources)
 	if sourceInfo.isCollected then
 		-- NOTE: This makes it so that the loop isn't necessary.
 		return true;
 	else
 		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
-		local item = SearchForSourceIDVeryQuickly(sourceInfo.sourceID);
+		local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
 		if item then
 			-- If the first item is class locked...
 			if item.classes then
 				if item.races then
 					-- If the first item is ALSO race locked...
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3297,11 +3405,11 @@ function app.FilterItemSourceUnique(sourceInfo)
 					end
 				else
 					-- Not additionally race locked.
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3332,11 +3440,11 @@ function app.FilterItemSourceUnique(sourceInfo)
 			else
 				if item.races then
 					-- If the first item is race locked...
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3361,11 +3469,11 @@ function app.FilterItemSourceUnique(sourceInfo)
 					end
 				else
 					-- Not race nor class locked.
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3397,17 +3505,17 @@ function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
 		return true;
 	else
 		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
-		local item = SearchForSourceIDVeryQuickly(sourceInfo.sourceID);
+		local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
 		if item then
 			-- If the first item is class locked...
 			if item.classes then
 				if item.races then
 					-- If the first item is ALSO race locked...
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3435,11 +3543,11 @@ function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
 					end
 				else
 					-- Not additionally race locked.
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3470,11 +3578,11 @@ function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
 			else
 				if item.races then
 					-- If the first item is race locked...
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									if otherItem.classes then
 										-- If this item is class locked...
@@ -3499,11 +3607,11 @@ function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
 					end
 				else
 					-- Not race nor class locked.
-					for i, sourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
 						if sourceID ~= sourceInfo.sourceID then
 							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
 							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDVeryQuickly(sourceID);
+								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									-- Check for class and race locks...
 									if app.FilterItemClass_RequireClasses(otherItem.classes) and app.FilterItemClass_RequireRaces(otherItem.races) then
@@ -3538,7 +3646,516 @@ app.RequireBindingFilter = app.NoFilter;
 app.UnobtainableItemFilter = app.NoFilter;
 app.SeasonalFilter = app.NoFilter;
 app.RequiredSkillFilter = app.NoFilter;
-app.RequireTrackableFilter = app.Filter;
+app.ShowIncompleteQuests = app.Filter;
+
+-- Processing Functions (Coroutines)
+local UpdateGroup, UpdateGroups;
+local function BuildGroups(parent, groups)
+	if groups then
+		-- Iterate through the groups
+		for key, group in ipairs(groups) do
+			-- Set the group's parent
+			group.parent = parent;
+			
+			-- Build the groups
+			BuildGroups(group, group.groups);
+		end
+	end
+end
+local function ProcessGroup(data, parent, indent, back)
+	if parent.visible then
+		if parent.mapID and parent.mapID == GetTempDataMember("MapID") then
+			parent.back = 1;
+		else 
+			parent.back = back or parent.back;
+		end
+		parent.indent = indent;
+		tinsert(data, parent);
+		if parent.groups and parent.expanded then
+			indent = indent + 1;
+			back = parent.back * 0.5;
+			for j, group in ipairs(parent.groups) do
+				ProcessGroup(data, group, indent, back);
+			end
+		end
+	end
+end
+UpdateGroup = function(parent, group)
+	--[[
+	-- Uncomment this section for Harvesting
+	if group.s and group.s < 1 then
+		-- The source ID will need to be harvested.
+		table.insert(GetTempDataMember("Missing"), group);
+	end
+	]]--
+	
+	-- Determine if this user can enter the instance or acquire the item.
+	if app.GroupRequirementsFilter(group) then
+		-- Check if this is a group
+		if group.groups then
+			-- If this item is collectible, then mark it as such.
+			if group.collectible then
+				-- An item is a special case where it may have both an appearance and a set of items
+				group.progress = group.collected and 1 or 0;
+				group.total = 1;
+			elseif group.s and group.s < 1 then
+				-- This item is missing its source ID. :(
+				group.progress = 0;
+				group.total = 1;
+			else
+				-- Default to 0 for both
+				group.progress = 0;
+				group.total = 0;
+			end
+			
+			-- Update the subgroups recursively...
+			UpdateGroups(group, group.groups);
+			
+			-- If the 'can equip' filter says true
+			if app.GroupFilter(group) then
+				-- Increment the parent group's totals.
+				parent.total = (parent.total or 0) + group.total;
+				parent.progress = (parent.progress or 0) + group.progress;
+				
+				-- If this group is trackable, then we should show it.
+				if app.ShowIncompleteQuests(group) then
+					group.visible = not group.saved or app.GroupVisibilityFilter(group) or GetDataMember("ShowCompletedGroups");
+				else
+					group.visible = app.GroupVisibilityFilter(group); -- group.total > 0 and 
+				end
+			else
+				-- Hide this group. We aren't filtering for it.
+				group.visible = false;
+			end
+		else
+			-- If the 'can equip' filter says true
+			if app.GroupFilter(group) then
+				if group.collectible then
+					-- Increment the parent group's totals.
+					parent.total = (parent.total or 0) + 1;
+					
+					-- If we've collected the item, use the "Show Collected Items" filter.
+					if group.collected then
+						group.visible = app.CollectedItemVisibilityFilter(group);
+						parent.progress = (parent.progress or 0) + 1;
+					else
+						-- Otherwise, use the "Show Missing Items" filter.
+						group.visible = app.MissingItemVisibilityFilter(group);
+					end
+				elseif group.trackable then
+					-- If this group is trackable, then we should show it.
+					if app.ShowIncompleteQuests(group) then
+						group.visible = not group.saved or GetDataMember("ShowCompletedGroups");
+					else
+						-- Hide this group. We aren't filtering for it.
+						group.visible = false;
+					end
+				else
+					-- Show this group.
+					group.visible = true;
+				end
+			else
+				-- Hide this group. We aren't filtering for it.
+				group.visible = false;
+			end
+		end
+	else
+		-- This group doesn't meet requirements.
+		group.visible = false;
+	end
+end
+UpdateGroups = function(parent, groups)
+	if groups then
+		for key, group in ipairs(groups) do
+			UpdateGroup(parent, group);
+		end
+	end
+end
+local function UpdateParentProgress(group)
+	group.progress = group.progress + 1;
+	
+	-- Continue on to this object's parent.
+	if group.parent then
+		if group.visible then
+			-- If we were initially visible, then update the parent.
+			UpdateParentProgress(group.parent);
+			
+			-- If this group is trackable, then we should show it.
+			if app.ShowIncompleteQuests(group) then
+				group.visible = not group.saved or app.GroupVisibilityFilter(group) or GetDataMember("ShowCompletedGroups");
+			else
+				group.visible = app.GroupVisibilityFilter(group);
+			end
+		end
+	end
+end
+
+-- Helper Methods
+-- The following Helper Methods are used when you obtain a new appearance.
+function app.CompletionistItemCollectionHelper(sourceID, oldState)
+	-- Search ATT for the related sources.
+	local searchResults = SearchForSourceID(sourceID);
+	if searchResults and #searchResults > 0 then
+		-- Show the collection message.
+		if GetDataMember("ShowNotifications", true) then
+			local firstMatch = searchResults[1];
+			print(format(L("ITEM_ID_ADDED"), firstMatch.text or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), firstMatch.itemID));
+		end
+		
+		-- Attempt to cleanly refresh the data.
+		local fresh = false;
+		
+		-- Mark all results as marked. This prevents a double +1 on parents.
+		for i,result in ipairs(searchResults) do
+			if result.visible and result.parent and result.parent.total then
+				result.marked = true;
+			end
+		end
+		
+		-- Only unmark and +1 marked search results.
+		for i,result in ipairs(searchResults) do
+			if result.marked then
+				result.marked = nil;
+				if result.total then
+					-- This is an item that has a relative set of groups
+					UpdateParentProgress(result);
+					
+					-- If this is NOT a group...
+					if not result.groups then
+						-- If we've collected the item, use the "Show Collected Items" filter.
+						result.visible = app.CollectedItemVisibilityFilter(result);
+					end
+				else	
+					UpdateParentProgress(result.parent);
+					
+					-- If we've collected the item, use the "Show Collected Items" filter.
+					result.visible = app.CollectedItemVisibilityFilter(result);
+				end
+				fresh = true;
+			end
+		end
+		
+		-- If the data is fresh, don't force a refresh.
+		app:RefreshData(fresh, true);
+	else
+		-- Show the collection message.
+		if GetDataMember("ShowNotifications", true) then
+			-- Use the Blizzard API... We don't have this item in the addon.
+			-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
+			-- So this may show green items where an epic was obtained. (particularly with Legion drops)
+			-- This is okay since items of this type share their appearance regardless of the power of the item.
+			local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+			if sourceInfo then
+				local name, link = GetItemInfo(sourceInfo.itemID);
+				print(format(L("ITEM_ID_ADDED_MISSING"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
+			else
+				print(format(L("ITEM_ID_ADDED_MISSING"), "|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r", "???"));
+			end
+		end
+	end
+end
+function app.UniqueModeItemCollectionHelperBase(sourceID, oldState, filter)
+	-- Get the source info for this source ID.
+	local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+	if sourceInfo then
+		-- Go through all of the shared appearances and see if we're "unlocked" any of them.
+		local unlockedSourceIDs, allSources = {}, C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID);
+		for i, otherSourceID in ipairs(allSources) do
+			-- If this isn't the source we already did work on and we haven't already completed it
+			if otherSourceID ~= sourceID and not GetDataSubMember("CollectedSources", otherSourceID) then
+				local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
+				if otherSourceInfo and filter(otherSourceInfo, allSources) then
+					SetDataSubMember("CollectedSources", otherSourceID, otherSourceInfo.isCollected and 1 or 2);
+					tinsert(unlockedSourceIDs, otherSourceID);
+				end
+			end
+		end
+		
+		-- Attempt to cleanly refresh the data.
+		local fresh, searchResults = false, nil;
+		if #unlockedSourceIDs > 0 then
+			for i, otherSourceID in ipairs(unlockedSourceIDs) do
+				-- Search ATT for this source ID.
+				searchResults = SearchForSourceID(otherSourceID);
+				if searchResults and #searchResults > 0 then
+					for j,result in ipairs(searchResults) do
+						if result.visible and result.parent and result.parent.total then
+							if result.total then
+								-- This is an item that has a relative set of groups
+								UpdateParentProgress(result);
+								
+								-- If this is NOT a group...
+								if not result.groups then
+									-- If we've collected the item, use the "Show Collected Items" filter.
+									result.visible = app.CollectedItemVisibilityFilter(result);
+								end
+							else	
+								UpdateParentProgress(result.parent);
+								
+								-- If we've collected the item, use the "Show Collected Items" filter.
+								result.visible = app.CollectedItemVisibilityFilter(result);
+							end
+							fresh = true;
+						end
+					end
+				end
+			end
+		end
+		
+		-- Search for the item that actually was unlocked.
+		searchResults = SearchForSourceID(sourceID);
+		if searchResults and #searchResults > 0 then
+			if oldState == 0 then
+				for i,result in ipairs(searchResults) do
+					if result.visible and result.parent and result.parent.total then
+						if result.total then
+							-- This is an item that has a relative set of groups
+							UpdateParentProgress(result);
+							
+							-- If this is NOT a group...
+							if not result.groups then
+								-- If we've collected the item, use the "Show Collected Items" filter.
+								result.visible = app.CollectedItemVisibilityFilter(result);
+							end
+						else	
+							UpdateParentProgress(result.parent);
+							
+							-- If we've collected the item, use the "Show Collected Items" filter.
+							result.visible = app.CollectedItemVisibilityFilter(result);
+						end
+						fresh = true;
+					end
+				end
+			end
+			
+			-- Show the collection message.
+			if GetDataMember("ShowNotifications", true) then
+				local firstMatch = searchResults[1];
+				print(format(L(#unlockedSourceIDs > 0 and "ITEM_ID_ADDED_SHARED" or "ITEM_ID_ADDED"), 
+					firstMatch.text or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), firstMatch.itemID, #unlockedSourceIDs));
+			end
+		else
+			-- Show the collection message.
+			if GetDataMember("ShowNotifications", true) then
+				-- Use the Blizzard API... We don't have this item in the addon.
+				-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
+				-- So this may show green items where an epic was obtained. (particularly with Legion drops)
+				-- This is okay since items of this type share their appearance regardless of the power of the item.
+				local name, link = GetItemInfo(sourceInfo.itemID);
+				print(format(L(#unlockedSourceIDs > 0 and "ITEM_ID_ADDED_SHARED_MISSING" or "ITEM_ID_ADDED_MISSING"), 
+					link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, #unlockedSourceIDs));
+			end
+		end
+		
+		-- If the data is fresh, don't force a refresh.
+		app:RefreshData(fresh, true);
+	end
+end
+function app.UniqueModeItemCollectionHelper(sourceID, oldState)
+	return app.UniqueModeItemCollectionHelperBase(sourceID, oldState, app.FilterItemSourceUnique);
+end
+function app.UniqueModeItemCollectionHelperOnlyMain(sourceID, oldState)
+	return app.UniqueModeItemCollectionHelperBase(sourceID, oldState, app.FilterItemSourceUniqueOnlyMain);
+end
+app.ActiveItemCollectionHelper = app.CompletionistItemCollectionHelper;
+
+function app.CompletionistItemRemovalHelper(sourceID, oldState)
+	-- Search ATT for the related sources.
+	local searchResults = SearchForSourceID(sourceID);
+	if searchResults and #searchResults > 0 then
+		-- Show the collection message.
+		if GetDataMember("ShowNotifications", true) then
+			local firstMatch = searchResults[1];
+			print(format(L("ITEM_ID_ADDED"), firstMatch.text or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), firstMatch.itemID));
+		end
+		
+		-- Attempt to cleanly refresh the data.
+		local fresh = false;
+		for i,result in ipairs(searchResults) do
+			if result.visible and result.parent and result.parent.total then
+				if result.total then
+					-- This is an item that has a relative set of groups
+					UpdateParentProgress(result);
+					
+					-- If this is NOT a group...
+					if not result.groups then
+						-- If we've collected the item, use the "Show Collected Items" filter.
+						result.visible = app.CollectedItemVisibilityFilter(result);
+					end
+				else	
+					UpdateParentProgress(result.parent);
+					
+					-- If we've collected the item, use the "Show Collected Items" filter.
+					result.visible = app.CollectedItemVisibilityFilter(result);
+				end
+				fresh = true;
+			end
+		end
+		
+		-- If the data is fresh, don't force a refresh.
+		app:RefreshData(fresh, true);
+	else
+		-- Show the collection message.
+		if GetDataMember("ShowNotifications", true) then
+			-- Use the Blizzard API... We don't have this item in the addon.
+			-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
+			-- So this may show green items where an epic was obtained. (particularly with Legion drops)
+			-- This is okay since items of this type share their appearance regardless of the power of the item.
+			local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+			if sourceInfo then
+				local name, link = GetItemInfo(sourceInfo.itemID);
+				print(format(L("ITEM_ID_ADDED_MISSING"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
+			else
+				print(format(L("ITEM_ID_ADDED_MISSING"), "|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r", "???"));
+			end
+		end
+		
+		-- If the item isn't in the list, then don't bother refreshing the data.
+		-- app:RefreshData(true, true);
+	end
+end
+function app.UniqueModeItemRemovalHelperBase(sourceID, oldState, filter)
+	-- Get the source info for this source ID.
+	local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+	if sourceInfo then
+		-- Go through all of the shared appearances and see if we're "unlocked" any of them.
+		local unlockedSourceIDs, allSources = {}, C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID);
+		for i, otherSourceID in ipairs(allSources) do
+			-- If this isn't the source we already did work on and we haven't already completed it
+			if otherSourceID ~= sourceID and not GetDataSubMember("CollectedSources", otherSourceID) then
+				local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
+				if otherSourceInfo and filter(otherSourceInfo, allSources) then
+					SetDataSubMember("CollectedSources", otherSourceID, otherSourceInfo.isCollected and 1 or 2);
+					tinsert(unlockedSourceIDs, otherSourceID);
+				end
+			end
+		end
+		
+		-- Attempt to cleanly refresh the data.
+		local fresh, searchResults = false, nil;
+		if #unlockedSourceIDs > 0 then
+			for i, otherSourceID in ipairs(unlockedSourceIDs) do
+				-- Search ATT for this source ID.
+				searchResults = SearchForSourceID(otherSourceID);
+				if searchResults and #searchResults > 0 then
+					for j,result in ipairs(searchResults) do
+						if result.visible and result.parent and result.parent.total then
+							if result.total then
+								-- This is an item that has a relative set of groups
+								UpdateParentProgress(result);
+								
+								-- If this is NOT a group...
+								if not result.groups then
+									-- If we've collected the item, use the "Show Collected Items" filter.
+									result.visible = app.CollectedItemVisibilityFilter(result);
+								end
+							else	
+								UpdateParentProgress(result.parent);
+								
+								-- If we've collected the item, use the "Show Collected Items" filter.
+								result.visible = app.CollectedItemVisibilityFilter(result);
+							end
+							fresh = true;
+						end
+					end
+				end
+			end
+		end
+		
+		-- Search for the item that actually was unlocked.
+		searchResults = SearchForSourceID(sourceID);
+		if searchResults and #searchResults > 0 then
+			if oldState == 0 then
+				for i,result in ipairs(searchResults) do
+					if result.visible and result.parent and result.parent.total then
+						if result.total then
+							-- This is an item that has a relative set of groups
+							UpdateParentProgress(result);
+							
+							-- If this is NOT a group...
+							if not result.groups then
+								-- If we've collected the item, use the "Show Collected Items" filter.
+								result.visible = app.CollectedItemVisibilityFilter(result);
+							end
+						else	
+							UpdateParentProgress(result.parent);
+							
+							-- If we've collected the item, use the "Show Collected Items" filter.
+							result.visible = app.CollectedItemVisibilityFilter(result);
+						end
+						fresh = true;
+					end
+				end
+			end
+			
+			-- Show the collection message.
+			if GetDataMember("ShowNotifications", true) then
+				local firstMatch = searchResults[1];
+				print(format(L(#unlockedSourceIDs > 0 and "ITEM_ID_ADDED_SHARED" or "ITEM_ID_ADDED"), 
+					firstMatch.text or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), firstMatch.itemID, #unlockedSourceIDs));
+			end
+		else
+			-- Show the collection message.
+			if GetDataMember("ShowNotifications", true) then
+				-- Use the Blizzard API... We don't have this item in the addon.
+				-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
+				-- So this may show green items where an epic was obtained. (particularly with Legion drops)
+				-- This is okay since items of this type share their appearance regardless of the power of the item.
+				local name, link = GetItemInfo(sourceInfo.itemID);
+				print(format(L(#unlockedSourceIDs > 0 and "ITEM_ID_ADDED_SHARED_MISSING" or "ITEM_ID_ADDED_MISSING"), 
+					link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, #unlockedSourceIDs));
+			end
+		end
+		
+		-- If the data is fresh, don't force a refresh.
+		app:RefreshData(fresh, true);
+	end
+end
+function app.UniqueModeItemRemovalHelper(sourceID, oldState)
+	return app.UniqueModeItemRemovalHelperBase(sourceID, oldState, app.FilterItemSourceUnique);
+end
+function app.UniqueModeItemRemovalHelperOnlyMain(sourceID, oldState)
+	return app.UniqueModeItemRemovalHelperBase(sourceID, oldState, app.FilterItemSourceUniqueOnlyMain);
+end
+app.ActiveItemRemovalHelper = app.CompletionistItemRemovalHelper;
+
+function app.QuestCompletionHelper(questID)
+	-- Search ATT for the related quests.
+	local searchResults = SearchForQuestID(questID);
+	if searchResults and #searchResults > 0 then
+		-- Attempt to cleanly refresh the data.
+		for i,result in ipairs(searchResults) do
+			if result.visible and result.parent and result.parent.total then
+				result.marked = true;
+			end
+		end
+		for i,result in ipairs(searchResults) do
+			if result.marked then
+				result.marked = nil;
+				if result.total then
+					-- This is an item that has a relative set of groups
+					UpdateParentProgress(result);
+					
+					-- If this is NOT a group...
+					if not result.groups and result.collectible then
+						-- If we've collected the item, use the "Show Collected Items" filter.
+						result.visible = app.CollectedItemVisibilityFilter(result);
+					end
+				else	
+					UpdateParentProgress(result.parent);
+					
+					if result.collectible then
+						-- If we've collected the item, use the "Show Collected Items" filter.
+						result.visible = app.CollectedItemVisibilityFilter(result);
+					end
+				end
+			end
+		end
+		
+		-- Don't force a full refresh.
+		app:RefreshData(true, true);
+	end
+end
 
 local function MinimapButtonOnClick(self, button)
 	if button == "RightButton" then
@@ -3547,7 +4164,7 @@ local function MinimapButtonOnClick(self, button)
 	else
 		-- Left Button
 		if IsShiftKeyDown() then
-			RefreshCollections(app:GetDataCache());
+			RefreshCollections();
 		elseif IsAltKeyDown() or IsControlKeyDown() then
 			ToggleMiniListForCurrentZone();
 		else
@@ -3630,6 +4247,151 @@ local function CreateMinimapButton()
 	button:Show();
 	return button;
 end
+local function CreateMiniListForGroup(group)
+	-- Pop Out Functionality! :O
+	local popout = app:GetWindow((group.parent and group.parent.text or "") .. group.text);
+	if group.s then
+		-- This is an item that has an appearance
+		local mainItem = setmetatable({ ["groups"] = {}, ['hideText'] = true }, { __index = group });
+		local sourceInfo = C_TransmogCollection_GetSourceInfo(group.s);
+		if sourceInfo then
+			-- Go through all of the shared appearances and see if we're "unlocked" any of them.
+			for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+				-- If this isn't the source we already did work on and we haven't already completed it
+				if otherSourceID ~= group.s then
+					local attSearch = SearchForSourceIDQuickly(otherSourceID);
+					if attSearch then
+						local newItem = setmetatable({ ['hideText'] = true }, { __index = attSearch });
+						CacheFields(newItem);
+						tinsert(mainItem.groups, newItem); 
+					else
+						local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
+						if otherSourceInfo then
+							local newItem = app.CreateItem(otherSourceInfo.itemID);
+							if otherSourceInfo.isCollected then
+								SetDataSubMember("CollectedSources", otherSourceID, 1);
+								newItem.collected = true;
+							end
+							newItem.s = otherSource;
+							newItem.description = "|CFFFF0000This sourceID was not found in the ATT database. It might be invalid.|r";
+							tinsert(mainItem.groups, newItem);
+						end
+					end
+				end
+			end
+		end
+		CacheFields(mainItem);
+		popout.data = {
+			["text"] = "Shared Appearances",
+			["description"] = "The items in this list are shared appearances for the following item. In Unique Appearance Mode, this list can help you understand why or why not a specific item would be marked Collected.",
+			["icon"] = "Interface\\Icons\\Achievement_GarrisonFollower_ItemLevel650.blp",
+			["visible"] = true,
+			["expanded"] = true,
+			["groups"] = { mainItem }
+		};
+		BuildGroups(popout.data, popout.data.groups);
+		UpdateGroups(popout.data, popout.data.groups, 1);
+	elseif group.questID then
+		-- This is a quest object. Let's show prereqs and breadcrumbs.
+		local mainQuest = setmetatable({ ["collectible"] = true, ['hideText'] = true }, { __index = group });
+		local groups = { mainQuest };
+		CacheFields(mainQuest);
+		
+		-- Show Quest Prereqs
+		if mainQuest.sourceQuestID then
+			local sourceQuests, sourceQuest, subSourceQuests, prereqs = mainQuest.sourceQuestID;
+			while sourceQuests and #sourceQuests > 0 do
+				subSourceQuests = {}; prereqs = {};
+				for i,sourceQuestID in ipairs(sourceQuests) do
+					sourceQuest = SearchForField("questID", sourceQuestID);
+					if sourceQuest and #sourceQuest > 0 then
+						-- Only care about the first search result.
+						if app.GroupFilter(sourceQuest[1]) then
+							sourceQuest = setmetatable({ ["collectible"] = true, ['hideText'] = true }, { __index = sourceQuest[1] });
+							if sourceQuest.sourceQuestID and #sourceQuest.sourceQuestID > 0 then
+								-- Mark the sub source quest IDs as marked (as the same sub quest might point to 1 source quest ID)
+								for j, subSourceQuestID in ipairs(sourceQuest.sourceQuestID) do
+									subSourceQuests[subSourceQuestID] = true;
+								end
+							end
+							CacheFields(sourceQuest);
+						else
+							sourceQuest = nil;
+						end
+					else
+						-- Create a Quest Object.
+						sourceQuest = app.CreateQuest(sourceQuestID, { ["visible"] = true, ["collectible"] = true, ['hideText'] = true });
+					end
+					
+					-- If the quest was valid, attach it.
+					if sourceQuest then tinsert(prereqs, sourceQuest); end
+				end
+				
+				-- Convert the subSourceQuests table into an array
+				sourceQuests = {};
+				if #prereqs > 0 then
+					for sourceQuestID,i in pairs(subSourceQuests) do
+						tinsert(sourceQuests, tonumber(sourceQuestID));
+					end
+					
+					-- Insert the header for the source quest
+					if #prereqs > 1 then
+						tinsert(prereqs, {
+							["text"] = "Upon Completion",
+							["description"] = "The above quests need to be completed before being able to complete the quest(s) listed below.",
+							["icon"] = "Interface\\Icons\\Spell_Holy_MagicalSentry.blp",
+							["visible"] = true,
+							["expanded"] = true,
+							["groups"] = groups
+						});
+					else
+						local prereq = prereqs[1];
+						if prereq.groups then
+							for i,group in ipairs(prereq.groups) do
+								tinsert(groups, 1, group);
+							end
+						end
+						prereq["groups"] = groups;
+					end
+					groups = prereqs;
+				end
+			end
+		end
+		popout.data = {
+			["text"] = "Quest Chain Requirements",
+			["description"] = "The following quests need to be completed before being able to complete the final quest.",
+			["icon"] = "Interface\\Icons\\Spell_Holy_MagicalSentry.blp",
+			["progress"] = 0,
+			["total"] = 0,
+			["visible"] = true,
+			["expanded"] = true,
+			["groups"] = groups
+		};
+		BuildGroups(popout.data, popout.data.groups);
+		UpdateGroups(popout.data, popout.data.groups, 1);
+	elseif group.groups then
+		-- This is already a container with accurate numbers.
+		popout.data = setmetatable({}, { __index = group });
+	else
+		-- This is a standalone item
+		local newItem = setmetatable({ ['hideText'] = true }, { __index = group });
+		CacheFields(newItem);
+		popout.data = {
+			["text"] = "Standalone Item",
+			["icon"] = "Interface\\Icons\\Achievement_Garrison_blueprint_medium.blp",
+			["groups"] = { newItem },
+			["visible"] = true,
+			["expanded"] = true,
+			["progress"] = 0,
+			["total"] = 0,
+		};
+		BuildGroups(popout.data, popout.data.groups);
+		UpdateGroups(popout.data, popout.data.groups, 1);
+	end
+	ExpandGroupsRecursively(popout.data, true);
+	--ExportData(popout.data);
+	popout:Toggle(true);
+end
 local function CreateSettingsMenu()
 
 	-- function that creates a new settingFrame --
@@ -3657,16 +4419,145 @@ local function CreateSettingsMenu()
 		self.Label:SetText(text);
 		self.Label:SetWidth(250);
 	end
+	local function CreateIDCheckBox(self, filter, name, x, y)
+		self[filter] = CreateFrame("CheckButton", name .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self[filter], self, name, x, y, GetDataMember(filter));
+		self[filter]:SetScript("OnClick", function(self)
+			SetDataMember(filter, self:GetChecked());
+			wipe(searchCache);
+		end);
+	end
 	
 	local name = app:GetName();  -- should probably be outside this function cant be the only place app:getName() gets used
+	local lastFilter;
 	
 	-- This creates the main window in the options --
 	local mainFrame = CreateFrame("FRAME", name .. "-Settings", UIParent);
 	CreateSettingFrame(mainFrame, L("TITLE_OPTIONS"));
 	local function createMainFrame(self)
-		-- This creates the Show MiniMap checkBox --
+		-- This creates the Debug Mode Checkbox --
+		self.IgnoreAllFilters = CreateFrame("CheckButton", name .. "-IgnoreAllFilters", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.IgnoreAllFilters, self, "|Cff15abffDebug Mode|r (Ignore All Filters)", 15, -50, GetDataMember("IgnoreAllFilters"));
+		self.IgnoreAllFilters:SetScript("OnClick", function(self)
+			SetDebugMode(self:GetChecked());
+		end);
+		self.IgnoreAllFilters:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this setting if you want to see every item in the ATT database. This will disable all of the item filters for armor and weapons in addition to toys, mounts, pets, music rolls, and titles.\n\nThis is provided mostly for debugging purposes, but many users utilize this filter to measure overall account completion.\n\nDebug Mode is for users that want all of the appearances in the game.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the Completionist Mode Checkbox --
+		self.CompletionistMode = CreateFrame("CheckButton", name .. "-CompletionistMode", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.CompletionistMode, self, "|CFFADD8E6Completionist Mode|r", 15, -70, GetDataMember("CompletionistMode")); 
+		self.CompletionistMode:SetScript("OnClick", function(self)
+			SetCompletionistMode(self:GetChecked(), true);
+			if self:GetChecked() then
+				mainFrame.MainOnly:Hide();
+			else
+				mainFrame.MainOnly:Show();
+			end
+		end);
+		self.CompletionistMode:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Turn this setting off if you want ATT to *pretend* that you've earned shared appearances for items that qualify for the same unlock requirements.\n\nItems 'Collected' through this mode will be marked with an asterisk (*). This means that you haven't collected that specific source of the appearance yet.\n\nCompletionist Mode is Hardcore.\nDebug Completionist Mode is for the Truly Insane.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+			if self:GetChecked() then
+				mainFrame.MainOnly:Hide();
+			else
+				mainFrame.MainOnly:Show();
+			end
+		end);
+
+		-- This creates the "I only care about my main" Checkbox --
+		self.MainOnly = CreateFrame("CheckButton", name .. "-MainOnly", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.MainOnly, self, L("I_ONLY_CARE_ABOUT_MY_MAIN"), 25, -90, GetDataMember("MainOnly")); 
+		self.MainOnly:SetScript("OnClick", function(self)
+			SetDataMember("MainOnly", self:GetChecked());
+			SetCompletionistMode(GetDataMember("CompletionistMode"));
+		end);
+		self.MainOnly:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Turn this setting on if you additionally want ATT to *pretend* that you've earned all shared appearances not locked by a different race or class.\n\nAs an example, if you have collected a " .. GetClassInfo(app.ClassIndex) .. "-Only Tier Piece from ICC and there is a shared appearance from the raid without class/race restrictions, ATT will *pretend* that you've earned that appearance for your current class. (Shift + Click will refresh this data for your alts if you decide to earn appearances on them.)", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		if GetDataMember("CompletionistMode") then
+			self.MainOnly:Hide();
+		else
+			self.MainOnly:Show();
+		end
+		
+		-- This creates the "Show Completed Groups" Checkbox --
+		self.ShowCompletedGroups = CreateFrame("CheckButton", name .. "-ShowCompletedGroups", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowCompletedGroups, self, "Show Completed Groups", 15, -110, GetDataMember("ShowCompletedGroups"));
+		self.ShowCompletedGroups:SetScript("OnClick", function(self)
+			SetDataMember("ShowCompletedGroups", self:GetChecked());
+			if self:GetChecked() then
+				app.GroupVisibilityFilter = app.NoFilter;
+			else
+				app.GroupVisibilityFilter = app.FilterGroupsByCompletion;
+			end
+			app:RefreshData();
+		end);
+		self.ShowCompletedGroups:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see completed groups as a header with a completion percentage. If a group has nothing relevant for your class, this setting will also make those groups appear in the listing.\n\nWe recommend you turn this setting off as it will conserve the space in the mini list and allow you to quickly see what you are missing from the zone.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+
+		-- This creates the "Show Collected Things" Checkbox -- 
+		self.ShowCollectedItems = CreateFrame("CheckButton", name .. "-ShowCollectedItems", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowCollectedItems, self, "Show Collected Things", 15, -130, GetDataMember("ShowCollectedItems"));
+		self.ShowCollectedItems:SetScript("OnClick", function(self)
+			SetDataMember("ShowCollectedItems", self:GetChecked());
+			if self:GetChecked() then
+				app.CollectedItemVisibilityFilter = app.NoFilter;
+			else
+				app.CollectedItemVisibilityFilter = app.Filter;
+			end
+			app:RefreshData();
+		end);
+		self.ShowCollectedItems:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see collected Items, Mounts, Toys, Pets, Illusions, etc. in the list.\n\nIf an item is relative to a completed group, it will not appear in the list unless you have 'Show Completed Groups' enabled.\n\nWe recommend you turn this setting off as it will conserve the space in the mini list and allow you to quickly see what you are missing from the zone.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Show Incomplete Quests" Checkbox --
+		self.ShowIncompleteQuests = CreateFrame("CheckButton", name .. "-ShowIncompleteQuests", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowIncompleteQuests, self, "Show Incomplete Quests", 15, -150, GetDataMember("ShowIncompleteQuests"));
+		self.ShowIncompleteQuests:SetScript("OnClick", function(self)
+			SetDataMember("ShowIncompleteQuests", self:GetChecked());
+			if self:GetChecked() then
+				app.ShowIncompleteQuests = app.FilterItemTrackable;
+			else
+				app.ShowIncompleteQuests = app.Filter;
+			end
+			app:RefreshData();
+		end);
+		self.ShowIncompleteQuests:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see items, objects, NPCs, and headers associated with incomplete quests that don't necessarily have anything you can collect as a result of completing them.\n\nYou can use this to help you earn the Loremaster Achievement if you don't already have it.\n\nNOTE: Rare Spawns and Vignettes also appear in the listing with this setting turned on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Treat Incomplete Quests as Collectible" Checkbox --
+		self.TreatIncompleteQuestsAsCollectible = CreateFrame("CheckButton", name .. "-TreatIncompleteQuestsAsCollectible", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.TreatIncompleteQuestsAsCollectible, self, "Treat as Collectible", 25, -170, GetDataMember("TreatIncompleteQuestsAsCollectible"));
+		self.TreatIncompleteQuestsAsCollectible:SetScript("OnClick", function(self)
+			SetDataMember("TreatIncompleteQuestsAsCollectible", self:GetChecked());
+			app:RefreshData();
+		end);
+		self.TreatIncompleteQuestsAsCollectible:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to track non-Daily Quests as Collectible Things.\n\nThis means that quests will naturally appear in the listing and will add to the total once you complete them on your character.\n\nNOTE: Quests are not usually Account-Wide, so if you are trying to collect ALL THE THINGS on ALL OF YOUR CHARACTERS, you might want to disable this option.\n\nIt can be very useful when questing through a zone, though.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		
+		-- This creates the "Show Minimap Button" Checkbox --
 		self.ShowMinimapButton = CreateFrame("CheckButton", name .. "-ShowMinimapButton", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowMinimapButton, self, "Show Minimap Button", 15, -50, GetDataMember("ShowMinimapButton"));
+		CreateCheckBox(self.ShowMinimapButton, self, "Show the Minimap Button", 300, -50, GetDataMember("ShowMinimapButton"));
 		self.ShowMinimapButton:SetScript("OnClick", function(self)
 				local checked = self:GetChecked();
 				SetDataMember("ShowMinimapButton", checked);
@@ -3677,136 +4568,84 @@ local function CreateSettingsMenu()
 					app.Minimap:Hide();
 				end
 			end);
-		
-		-- This creates the ShowNotifications checkBox --
-		self.ShowNotifications = CreateFrame("CheckButton", name .. "-ShowNotifications", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowNotifications, self, "Show Collection Notifications", 15, -70, GetDataMember("ShowNotifications", true));
-		self.ShowNotifications:SetScript("OnClick", function(self)
-			SetDataMember("ShowNotifications", self:GetChecked());
-		end);
-		
-		-- This creates the showCompletedGroups checkBox --
-		self.ShowCompletedGroups = CreateFrame("CheckButton", name .. "-ShowCompletedGroups", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowCompletedGroups, self, "Show Completed Groups", 15, -90, GetDataMember("ShowCompletedGroups"));
-		self.ShowCompletedGroups:SetScript("OnClick", function(self)
-			SetDataMember("ShowCompletedGroups", self:GetChecked());
-			if self:GetChecked() then
-				app.GroupVisibilityFilter = app.NoFilter;
-			else
-				app.GroupVisibilityFilter = app.FilterGroupsByCompletion;
-			end
-			app:RefreshData();
-		end);
-	
-
-		-- This creates the showCollectedItems checkBox -- 
-		self.ShowCollectedItems = CreateFrame("CheckButton", name .. "-ShowCollectedItems", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowCollectedItems, self, "Show Collected Items", 15, -110, GetDataMember("ShowCollectedItems"));
-		self.ShowCollectedItems:SetScript("OnClick", function(self)
-			SetDataMember("ShowCollectedItems", self:GetChecked());
-			if self:GetChecked() then
-				app.CollectedItemVisibilityFilter = app.NoFilter;
-			else
-				app.CollectedItemVisibilityFilter = app.Filter;
-			end
-			app:RefreshData();
-		end);
-		
-		-- This creates the "show missing items" checkBox --
-		self.ShowMissingItems = CreateFrame("CheckButton", name .. "-ShowMissingItems", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowMissingItems, self, "Show Missing Items", 15, -130, GetDataMember("ShowMissingItems"));
-		self.ShowMissingItems:SetScript("OnClick", function(self)
-			SetDataMember("ShowMissingItems", self:GetChecked());
-			if self:GetChecked() then
-				app.MissingItemVisibilityFilter = app.NoFilter;
-			else
-				app.MissingItemVisibilityFilter = app.Filter;
-			end
-			app:RefreshData();
-		end);
-		
-		
-		-- This creates the completionst Mode checkBox --
-		self.CompletionistMode = CreateFrame("CheckButton", name .. "-CompletionistMode", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.CompletionistMode, self, "|CFFADD8E6Completionist Mode|r", 25, -150, GetDataMember("CompletionistMode")); 
-		self.CompletionistMode:SetScript("OnClick", function(self)
-			SetCompletionistMode(self:GetChecked(), true);
-			if self:GetChecked() then
-				mainFrame.MainOnly:Hide();
-			else
-				mainFrame.MainOnly:Show();
-			end
-		end);
-		self.CompletionistMode:SetScript("onEnter", function(self)
+		self.ShowMinimapButton:SetScript("OnEnter", function(self)
 			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
-			GameTooltip:SetText ("Turn this setting off if you want ATT to *pretend* that you've earned shared appearances for items that qualify for the same unlock requirements.\n\nItems 'Collected' through this mode will be marked with an asterisk (*). This means that you haven't collected that specific source of the appearance yet.", nil, nil, nil, nil, true);
-			GameTooltip:Show();
-			if self:GetChecked() then
-				mainFrame.MainOnly:Hide();
-			else
-				mainFrame.MainOnly:Show();
-			end
-		end);
-
-		-- This creates the "I only care about my main" checkBox --
-		self.MainOnly = CreateFrame("CheckButton", name .. "-MainOnly", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.MainOnly, self, L("I_ONLY_CARE_ABOUT_MY_MAIN"), 35, -170, GetDataMember("MainOnly")); 
-		self.MainOnly:SetScript("OnClick", function(self)
-			SetDataMember("MainOnly", self:GetChecked());
-			SetCompletionistMode(GetDataMember("CompletionistMode"));
-		end);
-		self.MainOnly:SetScript("onEnter", function(self)
-			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
-			GameTooltip:SetText ("Turn this setting on if you additionally want ATT to *pretend* that you've earned all shared appearances not locked by a different race or class.\n\nAs an example, if you have collected a " .. GetClassInfo(app.ClassIndex) .. "-Only Tier Piece from ICC and there is a shared appearance from the raid without class/race restrictions, ATT will *pretend* that you've earned that appearance for your current class. (Shift + Click will refresh this data for your alts if you decide to earn appearances on them.)", nil, nil, nil, nil, true);
+			GameTooltip:SetText ("Enable this option if you want to see the minimap button. This button allows you to quickly access the Main List, show your Overall Collection Progress, and access the Settings Menu by right clicking it.\n\nSome people don't like clutter. Alternatively, you can access the Main List by typing '/att' in your chatbox. From there, you can right click the header to get to the Settings Menu.", nil, nil, nil, nil, true);
 			GameTooltip:Show();
 		end);
-		if GetDataMember("CompletionistMode") then
-			self.MainOnly:Hide();
-		else
-			self.MainOnly:Show();
-		end
-
 		
-		self.PlayFanfare = CreateFrame("CheckButton", name .. "-PlayFanfare", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.PlayFanfare, self, "Play Collection Fanfare", 300, -50, GetDataMember("PlayFanfare", true));
-		self.PlayFanfare:SetScript("OnClick", function(self)
-			SetDataMember("PlayFanfare", self:GetChecked());
-		end);
-	
-		self.PlayRemoveSound = CreateFrame("CheckButton", name .. "-PlayRemoveSound", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.PlayRemoveSound, self, "Play Remove Sound", 300, -70, GetDataMember("PlayRemoveSound", true));
-		self.PlayRemoveSound:SetScript("OnClick", function(self)
-			SetDataMember("PlayRemoveSound", self:GetChecked());
-		end);
-		
+		-- This creates the "Show the Mini List Automatically" Checkbox --
 		self.AutoMiniList = CreateFrame("CheckButton", name .. "-AutoMiniList", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.AutoMiniList, self, "Auto Mini List", 300, -90, GetDataMember("AutoMiniList", true));
+		CreateCheckBox(self.AutoMiniList, self, "Show the Mini List Automatically", 300, -70, GetDataMember("AutoMiniList", true));
 		self.AutoMiniList:SetScript("OnClick", function(self)
 			SetDataMember("AutoMiniList", self:GetChecked());
 			if self:GetChecked() then
 				OpenMiniListForCurrentZone();
 			end
 		end);
+		self.AutoMiniList:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see everything you can collect in your current zone. The list will automatically switch when you change zones.\n\nDrag the window and rescale it where you want it to appear.\n\nSome people don't like this feature, but when you are solo farming, this feature is extremely useful.\n\nYou can also bind this setting to a Key.\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Mini List", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
 		
-		self.AutoRefreshSaves = CreateFrame("CheckButton", name .. "-AutoRefreshSaves", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.AutoRefreshSaves, self, "Auto Refresh Saves", 300, -110, GetDataMember("AutoRefreshSaves"));
-		self.AutoRefreshSaves:SetScript("OnClick", function(self)
-		SetDataMember("AutoRefreshSaves", self:GetChecked());
-			if self:GetChecked() then
-				app:RegisterEvent("BOSS_KILL");
-			else
-				app:UnregisterEvent("BOSS_KILL");
-			end
-		end);		
 		
-		self.AutoRefreshCollections = CreateFrame("CheckButton", name .. "-AutoRefreshCollections", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.AutoRefreshCollections, self, "Auto Refresh Collections", 300, -130, GetDataMember("AutoRefreshCollections"));
-		self.AutoRefreshCollections:SetScript("OnClick", function(self)
-			SetDataMember("AutoRefreshCollections", self:GetChecked());
-		end);		
+		-- This creates the "Notify me when I Collect Things" Checkbox --
+		self.ShowNotifications = CreateFrame("CheckButton", name .. "-ShowNotifications", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowNotifications, self, "Notify me when I Collect Things", 300, -110, GetDataMember("ShowNotifications", true));
+		self.ShowNotifications:SetScript("OnClick", function(self)
+			SetDataMember("ShowNotifications", self:GetChecked());
+		end);
+		self.ShowNotifications:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see a message in chat detailing which items you have collected or removed from your collection.\n\nNOTE: This is present because Blizzard silently adds appearances and other collectible items and neglects to notify you of the additional items available to you.\n\nWe recommend you keep this setting on. You will still hear the fanfare with it off assuming you have that option turned on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Play Fanfare when I Collect Things" Checkbox --
+		self.PlayFanfare = CreateFrame("CheckButton", name .. "-PlayFanfare", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.PlayFanfare, self, "Play Fanfare when I Collect Things", 300, -130, GetDataMember("PlayFanfare", true));
+		self.PlayFanfare:SetScript("OnClick", function(self)
+			SetDataMember("PlayFanfare", self:GetChecked());
+		end);
+		self.PlayFanfare:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to hear a celebratory 'fanfare' sound effect when you obtain a new collectible item.\n\nThis feature can very addicting.\n\nThe default sound effects are from Final Fantasy Tactics. (One of the best games ever.)", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Play a Warning when I Remove Things" Checkbox --
+		self.PlayRemoveSound = CreateFrame("CheckButton", name .. "-PlayRemoveSound", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.PlayRemoveSound, self, "Play a Warning when I Remove Things", 300, -150, GetDataMember("PlayRemoveSound", true));
+		self.PlayRemoveSound:SetScript("OnClick", function(self)
+			SetDataMember("PlayRemoveSound", self:GetChecked());
+		end);
+		self.PlayRemoveSound:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to hear a warning sound effect when you accidentally sell back or trade an item that granted you an appearance that would cause you to lose that appearance from your collection.\n\nThis can be extremely helpful if you vendor an item with a purchase timer. The addon will tell you that you've made a mistake.\n\nThe default sound effects are from Final Fantasy Tactics. (One of the best games ever.)", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		
+		
+		
+		CreateIDCheckBox(self, "ShowLootSpecializations", "Show Loot Specializations", 300, -190);
+		
+		self.ShowLootSpecializationRequirements = CreateFrame("CheckButton", name .. "-ShowLootSpecializationRequirements", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowLootSpecializationRequirements, self, "Show Loot Specialization Icons", 300, -210, GetDataMember("ShowLootSpecializationRequirements"));
+		self.ShowLootSpecializationRequirements:SetScript("OnClick", function(self)
+			SetDataMember("ShowLootSpecializationRequirements", self:GetChecked());
+			app:UpdateWindows();
+		end);
+		self.ShowLootSpecializationRequirements:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see loot specialization icons in the listing indicating which specializations for your class must be used in order to obtain an item when running a dungeon in Personal Loot mode.\n\nNOTE: Rare spawns are generally not Personal Loot required.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+			
 		
 		self.RequirePersonalLootFilter = CreateFrame("CheckButton", name .. "-RequirePersonalLootFilter", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.RequirePersonalLootFilter, self, "Only Show Personal Loot (VERY SLOW)", 300, -150, GetDataMember("RequirePersonalLootFilter"));
+		CreateCheckBox(self.RequirePersonalLootFilter, self, "Only Show Personal Loot (VERY SLOW)", 300, -230, GetDataMember("RequirePersonalLootFilter"));
 		self.RequirePersonalLootFilter:SetScript("OnClick", function(self)
 			SetDataMember("RequirePersonalLootFilter", self:GetChecked());
 			if self:GetChecked() then
@@ -3816,122 +4655,183 @@ local function CreateSettingsMenu()
 			end
 			app:RefreshData(false, true);
 		end);
+		self.RequirePersonalLootFilter:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you only want to see items that Blizzard has listed as usable for your current specialization.\n\nWARNING: This will mean that a lot of items you can transmog and/or collect on your current character will be hidden in the listings.\n\nWARNING #2: This feature is EXTREMELY SLOW as it currently uses the Blizzard API. User discretion is advised. We do NOT recommend turning this feature on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
 		
+		
+		
+		-- Middle Left
+		-- This creates the "Enable Tooltip Information" Checkbox --
 		self.EnableTooltipInformation = CreateFrame("CheckButton", name .. "-EnableTooltipInformation", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.EnableTooltipInformation, self, "Enable Tooltip Information", 15, -190, GetDataMember("EnableTooltipInformation"));
+		CreateCheckBox(self.EnableTooltipInformation, self, "|CFFADD8E6Enable Tooltip Information|r", 15, -210, GetDataMember("EnableTooltipInformation"));
 		self.EnableTooltipInformation:SetScript("OnClick", function(self)
 			SetDataMember("EnableTooltipInformation", self:GetChecked());
 			wipe(searchCache);
 		end);
+		self.EnableTooltipInformation:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see the information provided by ATT in external tooltips. This includes item links sent by other players, in the auction house, in the dungeon journal, in your bags, in the world, on NPCs, etc.\n\nIf you turn this feature off, you are seriously reducing your ability to quickly determine if you need to kill a mob or learn an appearance.\n\nWe recommend you keep this setting on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
 
-		self.DisplayTooltipInformationInCombat = CreateFrame("CheckButton", name .. "-DisplayTooltipInformationInCombat", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.DisplayTooltipInformationInCombat, self, "Display In Combat", 25, -210, GetDataMember("DisplayTooltipInformationInCombat"));
-		self.DisplayTooltipInformationInCombat:SetScript("OnClick", function(self)
-			SetDataMember("DisplayTooltipInformationInCombat", self:GetChecked());
+		-- This creates the "Display In Combat" Checkbox --
+		self.DisplayTooltipsInCombat = CreateFrame("CheckButton", name .. "-DisplayTooltipsInCombat", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.DisplayTooltipsInCombat, self, "Display In Combat", 25, -230, GetDataMember("DisplayTooltipsInCombat"));
+		self.DisplayTooltipsInCombat:SetScript("OnClick", function(self)
+			SetDataMember("DisplayTooltipsInCombat", self:GetChecked());
 			wipe(searchCache);
 		end);
-		
-		self.ShowCollected = CreateFrame("CheckButton", name .. "-ShowCollected", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowCollected, self, "Show Collection Progress", 15, -230, GetDataMember("ShowCollected", true));
-		self.ShowCollected:SetScript("OnClick", function(self)
-			SetDataMember("ShowCollected", self:GetChecked());
-			wipe(searchCache);
+		self.DisplayTooltipsInCombat:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to render tooltip information while you are in combat.\n\nIf you are raiding with your Mythic/Mythic+ Guild, you should probably turn this setting off to save as much performance as you can.\n\nIt can be useful while you are soloing old content to immediately know what you need from a boss.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
 		end);
 		
+		-- This creates the "Show Collection Progress" Checkbox --
+		self.ShowProgress = CreateFrame("CheckButton", name .. "-ShowProgress", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowProgress, self, "Show Collection Progress", 25, -250, GetDataMember("ShowProgress"));
+		self.ShowProgress:SetScript("OnClick", function(self)
+			SetDataMember("ShowProgress", self:GetChecked());
+			wipe(searchCache);
+		end);
+		self.ShowProgress:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see your progress towards completing or collecting an Item, Mount, Pet, Title, Music Roll, or Completing a Quest, Tier Token, etc at the Top Right of the tooltip.\n\nWe recommend that you keep this setting turned on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Summarize Contents" Checkbox --
 		self.ShowContents = CreateFrame("CheckButton", name .. "-ShowContents", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowContents, self, "Show Container Details", 25, -250, GetDataMember("ShowContents", true));
+		CreateCheckBox(self.ShowContents, self, "Summarize Contents", 35, -270, GetDataMember("ShowContents"));
 		self.ShowContents:SetScript("OnClick", function(self)
 			SetDataMember("ShowContents", self:GetChecked());
 			wipe(searchCache);
 		end);
+		self.ShowContents:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to quickly determine if an item can be used to collect something else.\n\nFor example, you can use Tier Tokens to collect Tier Sets Pieces for your character. With this setting turned on, it will list all of those items in the tooltip of the Tier Token.\n\nWe recommend that you keep this setting turned on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
 		
+		-- This creates the "Show Shared Appearances" Checkbox --
 		self.ShowSharedAppearances = CreateFrame("CheckButton", name .. "-ShowSharedAppearances", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowSharedAppearances, self, "Show Shared Appearances", 15, -270, GetDataMember("ShowSharedAppearances"));
+		CreateCheckBox(self.ShowSharedAppearances, self, "Show Shared Appearances", 25, -290, GetDataMember("ShowSharedAppearances"));
 		self.ShowSharedAppearances:SetScript("OnClick", function(self)
 			SetDataMember("ShowSharedAppearances", self:GetChecked());
 			wipe(searchCache);
 		end);
+		self.ShowSharedAppearances:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option to see items that share a similar appearance in the tooltip.\n\nNOTE: Items that do not match the armor type are displayed in the list. This is to help you diagnose the Collection progress.\n\nIf you are ever confused by this, as of ATT v1.5.0, you can Right Click the item to open the item and its Shared Appearances into their own standalone Mini List.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
 		
+		-- This creates the "Show Database Locations" Checkbox --
 		self.ShowSources = CreateFrame("CheckButton", name .. "-ShowSources", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowSources, self, "Show " .. app.DisplayName .. " Sources", 15, -290, GetDataMember("ShowSources"));
+		CreateCheckBox(self.ShowSources, self, "Show Database Locations", 25, -310, GetDataMember("ShowSources"));
 		self.ShowSources:SetScript("OnClick", function(self)
 			SetDataMember("ShowSources", self:GetChecked());
 			wipe(searchCache);
-		end);	
-
+		end);
+		self.ShowSources:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option to see where you can obtain any item in the game through ATT.\n\nIf you encounter a collectible item other than a ring, trinket, or necklace that does not have at least 1 entry in ATT, you should immediately report it to our Discord.\n\nWe recommend that you keep this setting turned on.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Show Completed Locations" Checkbox --
+		self.ShowCompleteSourceLocations = CreateFrame("CheckButton", name .. "-ShowCompleteSourceLocations", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowCompleteSourceLocations, self, "Show Completed Locations", 35, -330, GetDataMember("ShowCompleteSourceLocations"));
+		self.ShowCompleteSourceLocations:SetScript("OnClick", function(self)
+			SetDataMember("ShowCompleteSourceLocations", self:GetChecked());
+			wipe(searchCache);
+		end);
+		self.ShowCompleteSourceLocations:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see completed source locations in the tooltip.\n\nAs an example, if you complete the quest \"Bathran's Hair\" in Ashenvale, the tooltip for Evenar Stillwhisper will no longer show that quest when hovering over him.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+		-- This creates the "Show More Locations" Checkbox --
 		self.ShowAllSources = CreateFrame("CheckButton", name .. "-ShowAllSources", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowAllSources, self, "Show All Sources", 25, -310, GetDataMember("ShowAllSources"));
+		CreateCheckBox(self.ShowAllSources, self, "Show More Locations", 35, -350, GetDataMember("ShowAllSources"));
 		self.ShowAllSources:SetScript("OnClick", function(self)
 			SetDataMember("ShowAllSources", self:GetChecked());
 			wipe(searchCache);
 		end);
-		
-		self.IgnoreAllFilters = CreateFrame("CheckButton", name .. "-IgnoreAllFilters", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.IgnoreAllFilters, self, "Ignore All Filters (Debug Mode)", 15, -520, GetDataMember("IgnoreAllFilters"));
-		self.IgnoreAllFilters:SetScript("OnClick", function(self)
-			SetDebugMode(self:GetChecked());
-		end);
-		lastFilter = self.IgnoreAllFilters;
-		
-		self.IgnoreFiltersOnNonBindingItems = CreateFrame("CheckButton", name .. "-IgnoreFiltersOnNonBindingItems", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.IgnoreFiltersOnNonBindingItems, self, "Ignore All Filters for BoE / BoA Items", 300, -520, GetDataMember("IgnoreFiltersOnNonBindingItems"));
-		self.IgnoreFiltersOnNonBindingItems:SetChecked(GetDataMember("IgnoreFiltersOnNonBindingItems"));
-		self.IgnoreFiltersOnNonBindingItems:SetScript("OnClick", function(self)
-			SetDataMember("IgnoreFiltersOnNonBindingItems", self:GetChecked());
-			if self:GetChecked() then
-				app.ItemBindFilter = app.FilterItemBind;
-			else
-				app.ItemBindFilter = app.Filter;
-			end
-			app:RefreshData(false, true);
-		end);
-		self.IgnoreFiltersOnNonBindingItems:SetScript("onEnter", function(self)
+		self.ShowAllSources:SetScript("OnEnter", function(self)
 			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
-			GameTooltip:SetText ("This ignores all filters for any items that are Bind on Equip or Bind on Account. Turn off if you only want to see BOE or BOA items for your filter settings.", nil, nil, nil, nil, true);
+			GameTooltip:SetText ("Enable this option if you want to see more than one database location summary in the tooltip.", nil, nil, nil, nil, true);
 			GameTooltip:Show();
 		end);
-
+		
 
 
 
 		-- Tooltip Information Details
-		local function CreateIDCheckBox(filter, name, x, y)
-			self[filter] = CreateFrame("CheckButton", name .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
-			CreateCheckBox(self[filter], self, name, x, y, GetDataMember(filter));
-			self[filter]:SetScript("OnClick", function(self)
-				SetDataMember(filter, self:GetChecked());
-				wipe(searchCache);
-			end);
-		end
 		
-		CreateIDCheckBox("ShowItemID", "Show Item ID", 15, -330);
-		CreateIDCheckBox("ShowItemString", "Show Item String", 15, -350);
-		CreateIDCheckBox("ShowSourceID", "Show Source ID", 15, -370);
-		CreateIDCheckBox("ShowVisualID", "Show Visual ID", 15, -390);
 		
-		CreateIDCheckBox("ShowDescriptions", "Show Descriptions", 15, -410);
-		CreateIDCheckBox("ShowModels", "Show Models", 15, -430);
-		CreateIDCheckBox("ShowMapID", "Show Map ID", 15, -450);
-		CreateIDCheckBox("ShowUnobtainableAppearanceInformation", "Show Unobtainable Icons", 15, -470);
-		CreateIDCheckBox("ShowLootSpecializations", "Show Loot Specializations", 15, -490);
 		
-		CreateIDCheckBox("ShowAchievementID", "Show Achievement ID", 300, -190);
-		CreateIDCheckBox("ShowArtifactID", "Show Artifact ID", 300, -210);
-		CreateIDCheckBox("ShowCreatureID", "Show Creature ID", 300, -230);
-		CreateIDCheckBox("ShowDifficultyID", "Show Difficulty ID", 300, -250);
-		CreateIDCheckBox("ShowEncounterID", "Show Encounter ID", 300, -270);
-		CreateIDCheckBox("ShowFactionID", "Show Faction ID", 300, -290);
-		CreateIDCheckBox("ShowFilterID", "Show Filter ID", 300, -310);
-		CreateIDCheckBox("ShowIllusionID", "Show Illusion ID", 300, -330);
-		CreateIDCheckBox("ShowInstanceID", "Show Instance ID", 300, -350);
-		CreateIDCheckBox("ShowMusicRollID", "Show Music Roll ID", 300, -370);
-		CreateIDCheckBox("ShowObjectID", "Show Object ID", 300, -390);
-		CreateIDCheckBox("ShowQuestID", "Show Quest ID", 300, -410);
-		CreateIDCheckBox("ShowSpeciesID", "Show Species ID", 300, -430);
-		CreateIDCheckBox("ShowSpellID", "Show Spell ID", 300, -450);
-		CreateIDCheckBox("ShowTierID", "Show Tier ID", 300, -470);
+		CreateIDCheckBox(self, "ShowDescriptions", "Show Descriptions", 15, -410);
+		CreateIDCheckBox(self, "ShowModels", "Show Models", 15, -430);
+		
+		
 	end
 	createMainFrame(mainFrame);
+	
+	
+	
+	-- This creates the filter window in the options --
+	local debugFrame = CreateFrame("FRAME", name .."-Debugging", mainFrame);
+	debugFrame.parent = mainFrame.name;
+	CreateSettingFrame(debugFrame, "Debugging");
+	local function CreateDebugFrame(self)
+		-- This creates the list of Object ID descriptors.
+		CreateIDCheckBox(self, "ShowAchievementID", "Show Achievement ID", 15, -50);
+		CreateIDCheckBox(self, "ShowArtifactID", "Show Artifact ID", 15, -70);
+		CreateIDCheckBox(self, "ShowCreatureID", "Show Creature ID", 15, -90);
+		CreateIDCheckBox(self, "ShowDifficultyID", "Show Difficulty ID", 15, -110);
+		CreateIDCheckBox(self, "ShowEncounterID", "Show Encounter ID", 15, -130);
+		CreateIDCheckBox(self, "ShowFactionID", "Show Faction ID", 15, -150);
+		CreateIDCheckBox(self, "ShowFilterID", "Show Filter ID", 15, -170);
+		CreateIDCheckBox(self, "ShowIllusionID", "Show Illusion ID", 15, -190);
+		CreateIDCheckBox(self, "ShowInstanceID", "Show Instance ID", 15, -210);
+		CreateIDCheckBox(self, "ShowItemID", "Show Item ID", 15, -230);
+		CreateIDCheckBox(self, "ShowItemString", "Show Item String", 15, -250);
+		CreateIDCheckBox(self, "ShowMapID", "Show Map ID", 15, -270);
+		CreateIDCheckBox(self, "ShowMusicRollID", "Show Music Roll ID", 15, -290);
+		CreateIDCheckBox(self, "ShowObjectID", "Show Object ID", 15, -310);
+		CreateIDCheckBox(self, "ShowQuestID", "Show Quest ID", 15, -330);
+		CreateIDCheckBox(self, "ShowSourceID", "Show Source ID", 15, -350);
+		CreateIDCheckBox(self, "ShowSpeciesID", "Show Species ID", 15, -370);
+		CreateIDCheckBox(self, "ShowSpellID", "Show Spell ID", 15, -390);
+		CreateIDCheckBox(self, "ShowTierID", "Show Tier ID", 15, -410);
+		CreateIDCheckBox(self, "ShowVisualID", "Show Visual ID", 15, -430);
+		
+		-- This creates the "Show Uncollected Things" checkBox --
+		self.ShowUncollectedThings = CreateFrame("CheckButton", name .. "-ShowUncollectedThings", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.ShowUncollectedThings, self, "Show Uncollected Things", 300, -50, GetDataMember("ShowUncollectedThings"));
+		self.ShowUncollectedThings:SetScript("OnClick", function(self)
+			SetDataMember("ShowUncollectedThings", self:GetChecked());
+			if self:GetChecked() then
+				app.MissingItemVisibilityFilter = app.NoFilter;
+			else
+				app.MissingItemVisibilityFilter = app.Filter;
+			end
+			app:RefreshData();
+		end);
+		self.ShowUncollectedThings:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to see missing Items, Mounts, Toys, Pets, Illusions, etc. in the list. (based on Filters)\n\nThis is provided for debugging purposes.\n\nWe do NOT recommend turning this off.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
+	end
+	CreateDebugFrame(debugFrame);
+	
 	
 	
 	-- This creates the filter window in the options --
@@ -4117,7 +5017,27 @@ local function CreateSettingsMenu()
 			end
 			app:RefreshData();
 		end);
-	
+		
+		self.IgnoreFiltersOnNonBindingItems = CreateFrame("CheckButton", name .. "-IgnoreFiltersOnNonBindingItems", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.IgnoreFiltersOnNonBindingItems, self, "Ignore All Filters for BoE / BoA Items", 300, -110, GetDataMember("IgnoreFiltersOnNonBindingItems"));
+		self.IgnoreFiltersOnNonBindingItems:SetChecked(GetDataMember("IgnoreFiltersOnNonBindingItems"));
+		self.IgnoreFiltersOnNonBindingItems:SetScript("OnClick", function(self)
+			SetDataMember("IgnoreFiltersOnNonBindingItems", self:GetChecked());
+			if self:GetChecked() then
+				app.ItemBindFilter = app.FilterItemBind;
+			else
+				app.ItemBindFilter = app.Filter;
+			end
+			app:RefreshData(false, true);
+		end);
+		self.IgnoreFiltersOnNonBindingItems:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("This ignores all filters for any items that are Bind on Equip or Bind on Account. Turn off if you only want to see BOE or BOA items for your filter settings.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+
+		
+		
 		local itemFilters = GetPersonalDataMember("ItemFilters");
 		-- "Armor Types" and "Non-Equipment Types"
 		local itemFilterNames = L("FILTER_ID_TYPES");
@@ -4138,7 +5058,7 @@ local function CreateSettingsMenu()
 				self:SetChecked(false);
 				app:RefreshData();
 			end);
-			local lastFilter = itemClassFilter;
+			lastFilter = itemClassFilter;
 			for j, filter in ipairs(filters) do
 				local itemFilter = CreateFrame("CheckButton", itemClassFilter:GetName() .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
 				itemFilter:SetPoint("LEFT", self, "LEFT", 20, 0);
@@ -4233,18 +5153,6 @@ local function CreateSettingsMenu()
 				app:RefreshData();
 			end);
 		end
-			
-		self.RequireTrackableFilter = CreateFrame("CheckButton", name .. "-RequireTrackableFilter", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.RequireTrackableFilter, self, "Track Quest Completion", 15, -240, GetDataMember("RequireTrackableFilter"));
-		self.RequireTrackableFilter:SetScript("OnClick", function(self)
-			SetDataMember("RequireTrackableFilter", self:GetChecked());
-			if self:GetChecked() then
-				app.RequireTrackableFilter = app.FilterItemTrackable;
-			else
-				app.RequireTrackableFilter = app.Filter;
-			end
-			app:RefreshData();
-		end);
 				
 		-- "Non-Equipment Types" (Part 2)
 		lastFilter = self.dummy;
@@ -4265,9 +5173,9 @@ local function CreateSettingsMenu()
 		end
 	end
 	CreateFilterFrame(filtersFrame);
-
-
-
+	
+	
+	
 	-- This Creates the FAQ window in the options --
 	local faqFrame = CreateFrame("FRAME", name .."-Frame", mainFrame);
 	faqFrame.parent = mainFrame.name;
@@ -4297,51 +5205,8 @@ local function CreateSettingsMenu()
 		self.text:SetWidth(550);
 	end
 	CreateFaqFrame(faqFrame);
-
-
-
-
-
-
-	-- This creates the filter window in the options --
---[[ Moving these to the main settings page for now.
-	local tooltipFrame = CreateFrame("FRAME", name .. "-Tooltip", mainFrame);
-	tooltipFrame.parent = mainFrame.name;
-	CreateSettingFrame(tooltipFrame, "Tooltip Settings");
-	local function CreateTooltipFrame(self)
-		self.ShowSharedAppearances = CreateFrame("CheckButton", name .. "-ShowSharedAppearances", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowSharedAppearances, self, "Show Shared Appearances", 15, -40, GetDataMember("ShowSharedAppearances"));
-		self.ShowSharedAppearances:SetScript("OnClick", function(self)
-			SetDataMember("ShowSharedAppearances", self:GetChecked());
-			wipe(searchCache);
-		end);
-		
-		self.ShowSources = CreateFrame("CheckButton", name .. "-ShowSources", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowSources, self, "Show " .. app.DisplayName .. " Sources", 15, -60, GetDataMember("ShowSources"));
-		self.ShowSources:SetScript("OnClick", function(self)
-			SetDataMember("ShowSources", self:GetChecked());
-			wipe(searchCache);
-		end);	
-
-		self.ShowAllSources = CreateFrame("CheckButton", name .. "-ShowAllSources", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowAllSources, self, "Show All Sources", 25, -80, GetDataMember("ShowAllSources"));
-		self.ShowAllSources:SetScript("OnClick", function(self)
-			SetDataMember("ShowAllSources", self:GetChecked());
-			wipe(searchCache);
-		end);
-		
-		self.ShowCollected = CreateFrame("CheckButton", name .. "-ShowCollected", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowCollected, self, "Show Collected", 25, -100, GetDataMember("ShowCollected", true));
-		self.ShowCollected:SetScript("OnClick", function(self)
-			SetDataMember("ShowCollected", self:GetChecked());
-			wipe(searchCache);
-		end);
-		
-	end
-	CreateTooltipFrame(tooltipFrame);
---]]	
 	
-		
+	
 	-- about frame --
 	local aboutFrame = CreateFrame("FRAME", name .. "-About", mainFrame);
 	aboutFrame.parent = mainFrame.name;	
@@ -4357,8 +5222,6 @@ local function CreateSettingsMenu()
 		self.test:SetWidth(550);
 	end
 	createAboutFrame(aboutFrame);
-
-	
 end
 
 -- Row Helper Functions
@@ -4386,6 +5249,7 @@ local function SetRowData(self, data)
 				self:GetParent().processingLinks = true;
 				text = RETRIEVING_DATA;
 			end
+		--[[
 		elseif data.s and data.s < 1 then
 			-- If it doesn't, the source ID will need to be harvested.
 			local s, dressable = GetSourceID(text);
@@ -4415,6 +5279,7 @@ local function SetRowData(self, data)
 			else
 				data.s = nil;
 			end
+			]]--
 		end
 		local leftmost = self;
 		local relative = "LEFT";
@@ -4436,7 +5301,7 @@ local function SetRowData(self, data)
 			end
 		end
 		if data.saved then
-			if data.parent and data.parent.locks then
+			if data.parent and data.parent.locks or data.daily then
 				self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known");
 			else
 				self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
@@ -4453,16 +5318,16 @@ local function SetRowData(self, data)
 			relative = "RIGHT";
 			x = 4;
 		end
-		if data.total and data.total > 0 then
-			self.Summary:SetText(GetProgressColorText(data.progress, data.total));
-			self.Summary:Show();
-		elseif data.trackable then
-			self.Summary:SetText(GetCompletionIcon(data.saved));
-			self.Summary:Show();
-		else
-			self.Summary:SetText(GetCollectionIcon(data.collected));
-			self.Summary:Show();
+		local summary = GetProgressText(data);
+		local specs = GetDataMember("ShowLootSpecializationRequirements") and data.specs;
+		if specs and #specs > 0 then
+			for i,spec in ipairs(specs) do
+				local id, name, description, icon, role, class = GetSpecializationInfoByID(spec);
+				if class == app.Class then summary = "|T" .. icon .. ":0|t " .. summary; end
+			end
 		end
+		self.Summary:SetText(summary);
+		self.Summary:Show();
 		self.Label:SetPoint("LEFT", leftmost, relative, x, 0);
 		if self.Summary and self.Summary:IsShown() then
 			self.Label:SetPoint("RIGHT", self.Summary, "LEFT", 0, 0);
@@ -4474,6 +5339,24 @@ local function SetRowData(self, data)
 		self:Show();
 	else
 		self:Hide();
+	end
+end
+local function UpdateRowProgress(group)
+	if group.collectible then
+		group.progress = group.collected and 1 or 0;
+		group.total = 1;
+	else
+		group.progress = 0;
+		group.total = 0;
+	end
+	if group.groups then
+		for i,subgroup in ipairs(group.groups) do
+			UpdateRowProgress(subgroup);
+			if subgroup.total then
+				group.progress = group.progress + subgroup.progress;
+				group.total = group.total + subgroup.total;
+			end
+		end
 	end
 end
 local function UpdateVisibleRowData(self)
@@ -4566,55 +5449,93 @@ end
 local function RowOnClick(self, button)
 	local reference = self.ref;
 	if reference then
-		if reference.groups then
-			if button == "LeftButton" then
-				if IsShiftKeyDown() then
-					RefreshCollections(reference);
-					return true;
-				end
-				if IsModifiedClick("DRESSUP") then
-					local link = reference.link or reference.silentLink;
-					if link and IsDressableItem(link) and DressUpVisual(link) then return true; end
-				end
-				if self.index > 0 then
-					-- Expand Functionality
-					if IsAltKeyDown() then
-						ExpandGroupsRecursively(reference, not reference.expanded);
+		if IsShiftKeyDown() then
+			-- If we're at the Auction House
+			if AuctionFrame and AuctionFrame:IsShown() then
+				-- Auctionator Support
+				if Atr_SearchAH then
+					if reference.groups and #reference.groups > 0 then
+						local missingItems = SearchForMissingItems(reference);					
+						if #missingItems > 0 then
+							Atr_SelectPane(3);
+							Atr_SearchAH(app.DisplayName, missingItems);
+							return true;
+						end
+						app.print("No cached items found in search. Expand the group and view the items to cache the names and try again. Only Bind on Equip items will be found using this search.");
 					else
-						reference.expanded = not reference.expanded;
+						local name = reference.name;
+						if name then
+							Atr_SelectPane(3);
+							--Atr_SearchAH(name, { name });
+							Atr_SetSearchText (name);
+							Atr_Search_Onclick ();
+							return true;
+						end
+						app.print("Only Bind on Equip items can be found using this search.");
 					end
-					app:UpdateWindows();
+					return true;
 				else
-					-- Allow the First Frame to move the parent.
-					local owner = self:GetParent():GetParent();
-					self:SetScript("OnMouseUp", function(self)
-						self:SetScript("OnMouseUp", nil);
-						StopMovingOrSizing(owner);
-					end);
-					StartMovingOrSizing(owner, true);
+					if reference.groups and #reference.groups > 0 and not reference.link then
+						app.print("Group-based searches are only supported using Auctionator.");
+						return true;
+					else
+						-- Attempt to search manually with the link.
+						local link = reference.link or reference.silentLink;
+						if link and HandleModifiedItemClick(link) then
+							AuctionFrameBrowse_Search();
+							return true;
+						end
+					end
 				end
 			else
-				if IsShiftKeyDown() and Atr_SearchAH then
-					Atr_SearchAH (app.DisplayName, SearchForMissingItems(reference));
-					return true;
-				end
-				if self.index > 0 then
-					-- Pop Out Functionality! :O
-					local popout = app:GetWindow(self.ref.parent.text .. self.ref.text);
-					popout.data = setmetatable({}, { __index = self.ref });
-					ExpandGroupsRecursively(popout.data, true);
-					popout:Toggle(true);
-				else
-					-- Configuration Functionality!
-					ShowInterfaceOptions();
-				end
+				-- Not at the Auction House
+				-- If this reference has a link, then attempt to preview the appearance or write to the chat window.
+				local link = reference.link or reference.silentLink;
+				if (link and HandleModifiedItemClick(link)) or ChatEdit_InsertLink(link or BuildSourceTextForChat(reference, 0)) then return true; end
+				
+				-- Default behaviour is to Refresh Collections.
+				RefreshCollections(reference);
+				return true;
 			end
-		else
+		end
+		
+		-- Control Click Expands the Groups
+		if IsControlKeyDown() then
+			-- If this reference has a link, then attempt to preview the appearance.
 			local link = reference.link or reference.silentLink;
-			if link then
-				if HandleModifiedItemClick(link) then return true; end
-				if IsModifiedClick("DRESSUP") then return DressUpVisual(link) or app.print(link or self.Label:GetText()); end
+			if link and HandleModifiedItemClick(link) then return true; end
+			
+			-- If this reference is anything else, expand the groups.
+			if reference.groups then
+				if self.index < 1 and #reference.groups > 0 then
+					ExpandGroupsRecursively(reference, not reference.groups[1].expanded);
+				else
+					ExpandGroupsRecursively(reference, not reference.expanded);
+				end
+				app:UpdateWindows();
+				return true;
 			end
+		end
+		
+		-- All non-Shift Right Clicks open a mini list or the settings.
+		if button == "RightButton" then
+			if self.index > 0 then
+				CreateMiniListForGroup(self.ref);
+			else
+				-- Open the Settings Menu
+				ShowInterfaceOptions();
+			end
+		elseif self.index > 0 then
+			reference.expanded = not reference.expanded;
+			app:UpdateWindows();
+		else
+			-- Allow the First Frame to move the parent.
+			local owner = self:GetParent():GetParent();
+			self:SetScript("OnMouseUp", function(self)
+				self:SetScript("OnMouseUp", nil);
+				StopMovingOrSizing(owner);
+			end);
+			StartMovingOrSizing(owner, true);
 		end
 	end
 end
@@ -4661,11 +5582,11 @@ local function RowOnEnter(self)
 		end
 		
 		-- Miscellaneous fields
-		if GetDataMember("ShowCollected", true) then
+		if GetDataMember("ShowProgress") then
 			local style = GameTooltip:NumLines() < 1;
 			if style then
 				if not reference.total or reference.total < 1 then
-					if reference.collectable then
+					if reference.collectible then
 						GameTooltip:AddDoubleLine(self.Label:GetText(), GetCollectionText(reference.collected));
 					elseif reference.trackable then
 						GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
@@ -4680,7 +5601,7 @@ local function RowOnEnter(self)
 				end
 			else
 				if not reference.total or reference.total < 1 then
-					if reference.collectable then
+					if reference.collectible then
 						GameTooltipTextRight1:SetText(GetCollectionText(reference.collected));
 					elseif reference.trackable then
 						GameTooltipTextRight1:SetText(GetCompletionText(reference.saved));
@@ -4785,6 +5706,16 @@ local function RowOnEnter(self)
 			GameTooltipIcon:Show();
 		end
 		
+		-- Show Quest Prereqs
+		if reference.sourceQuestID then
+			for i,sourceQuestID in ipairs(reference.sourceQuestID) do
+				if not IsQuestFlaggedCompleted(sourceQuestID) then
+					GameTooltip:AddLine("This quest has an incomplete prerequisite quest that you need to complete first.");
+					break;
+				end
+			end
+		end
+		
 		-- Show lockout information
 		if reference.instanceID then
 			-- Contains information about an Instance (Raid or Dungeon)
@@ -4820,9 +5751,20 @@ local function RowOnEnter(self)
 		end
 		
 		if reference.groups then
-			GameTooltip:AddLine(L((self.index > 0 and "LEFT_CLICK_TO_EXPAND") or "LEFT_CLICK_TO_MOVE"), 1, 1, 1);
-			GameTooltip:AddLine(L("SHIFT_LEFT_CLICK"), 1, 1, 1);
-			GameTooltip:AddLine(L((self.index > 0 and "RIGHT_CLICK_TO_POPOUT") or "RIGHT_CLICK_TO_CONFIGURE"), 1, 1, 1);
+			-- If we're at the Auction House
+			if AuctionFrame and AuctionFrame:IsShown() then
+				GameTooltip:AddLine(L((self.index > 0 and "OTHER_ROW_INSTRUCTIONS_AH") or "TOP_ROW_INSTRUCTIONS_AH"), 1, 1, 1);
+			else
+				GameTooltip:AddLine(L((self.index > 0 and "OTHER_ROW_INSTRUCTIONS") or "TOP_ROW_INSTRUCTIONS"), 1, 1, 1);
+			end
+		end
+		if not reference.itemID then
+			-- If there is a note for this item, show it.
+			local note = GetNoteForGroup(reference);
+			if note then
+				GameTooltip:AddLine("Custom Note:");
+				GameTooltip:AddLine(note, 1, 1, 1);
+			end
 		end
 		GameTooltip:Show();
 	end
@@ -4841,6 +5783,7 @@ CreateRow = function(self)
 	local row = CreateFrame("Button", nil, self);
 	row:SetHeight(self.rowHeight);
 	row.index = #self.rows;
+	row.todo = self.todo;
 	if row.index == 0 then
 		-- This means relative to the parent.
 		row:SetPoint("TOPLEFT");
@@ -4905,144 +5848,6 @@ CreateRow = function(self)
 	ClearRowData(row);
 end
 
--- Processing Functions (Coroutines)
-local UpdateGroup, UpdateGroups;
-local function BuildGroups(parent, groups)
-	if groups then
-		-- Iterate through the groups
-		for key, group in ipairs(groups) do
-			-- Set the group's parent
-			group.parent = parent;
-			
-			-- Build the groups
-			BuildGroups(group, group.groups);
-		end
-	end
-end
-local function ProcessGroup(data, parent, indent, back)
-	if parent.visible then
-		if parent.mapID and parent.mapID == GetTempDataMember("MapID") then
-			parent.back = 1;
-		else 
-			parent.back = back or parent.back;
-		end
-		parent.indent = indent;
-		tinsert(data, parent);
-		if parent.groups and parent.expanded then
-			indent = indent + 1;
-			back = parent.back * 0.5;
-			for j, group in ipairs(parent.groups) do
-				ProcessGroup(data, group, indent, back);
-			end
-		end
-	end
-end
-UpdateGroup = function(parent, group)
-	--[[
-	-- Uncomment this section for Harvesting
-	if group.s and group.s < 1 then
-		-- The source ID will need to be harvested.
-		table.insert(GetTempDataMember("Missing"), group);
-	end
-	]]--
-	
-	-- Determine if this user can enter the instance or acquire the item.
-	if app.GroupRequirementsFilter(group) then
-		-- Check if this is a group
-		if group.groups then
-			-- If this item is collectable, then mark it as such.
-			if group.collectable then
-				-- An item is a special case where it may have both an appearance and a set of items
-				group.progress = group.collected and 1 or 0;
-				group.total = 1;
-			elseif group.s and group.s < 1 then
-				-- This item is missing its source ID. :(
-				group.progress = 0;
-				group.total = 1;
-			else
-				-- Default to 0 for both
-				group.progress = 0;
-				group.total = 0;
-			end
-			
-			-- Update the subgroups recursively...
-			UpdateGroups(group, group.groups);
-			
-			-- If the 'can equip' filter says true
-			if app.GroupFilter(group) then
-				-- Increment the parent group's totals.
-				parent.total = (parent.total or 0) + group.total;
-				parent.progress = (parent.progress or 0) + group.progress;
-				
-				-- If this group is trackable, then we should show it.
-				if app.RequireTrackableFilter(group) then
-					group.visible = not group.saved or app.GroupVisibilityFilter(group) or GetDataMember("ShowCompletedGroups");
-				else
-					group.visible = app.GroupVisibilityFilter(group); -- group.total > 0 and 
-				end
-			else
-				-- Hide this group. We aren't filtering for it.
-				group.visible = false;
-			end
-		else
-			-- If the 'can equip' filter says true
-			if app.GroupFilter(group) then
-				if group.collectable then
-					-- Increment the parent group's totals.
-					parent.total = (parent.total or 0) + 1;
-					
-					-- If we've collected the item, use the "Show Collected Items" filter.
-					if group.collected then
-						group.visible = app.CollectedItemVisibilityFilter(group);
-						parent.progress = (parent.progress or 0) + 1;
-					else
-						-- Otherwise, use the "Show Missing Items" filter.
-						group.visible = app.MissingItemVisibilityFilter(group);
-					end
-				elseif group.trackable then
-					-- If this group is trackable, then we should show it.
-					if app.RequireTrackableFilter(group) then
-						group.visible = not group.saved or GetDataMember("ShowCompletedGroups");
-					else
-						-- Hide this group. We aren't filtering for it.
-						group.visible = false;
-					end
-				else
-					-- Show this group.
-					group.visible = true;
-				end
-			else
-				-- Hide this group. We aren't filtering for it.
-				group.visible = false;
-			end
-		end
-	else
-		-- This group doesn't meet requirements.
-		group.visible = false;
-	end
-end
-UpdateGroups = function(parent, groups)
-	if groups then
-		-- Iterate through the groups
-		for key, group in ipairs(groups) do
-			-- Update the group
-			UpdateGroup(parent, group);
-		end
-	end
-end
-function UpdateParent(group)
-
-end
-function UpdateParents(groups)
-	if groups then
-		-- Iterate through the groups
-		for key, group in ipairs(groups) do
-			-- Update the group's parent
-			UpdateParent(group);
-		end
-	end
-end
-
 -- Collection Window Creation
 app.Windows = {};
 local function OnScrollBarMouseWheel(self, delta)
@@ -5058,16 +5863,13 @@ local function SetWindowVisibility(self, show)
 	if show then
 		self:Show();
 		self:Update();
-		app:Show();
 	else
 		self:Hide();
 		for i, self in pairs(app.Windows) do
 			if self:IsVisible() then
-				app:Show();
 				return;
 			end
 		end
-		app:Hide();
 	end
 	
 	-- Return that at least one window is visible...
@@ -5084,7 +5886,7 @@ function app:ToggleWindow(suffix)
 	local window = app.Windows[suffix];
 	if window then ToggleWindow(window); end
 end
-local function UpdateWindow(self)
+local function UpdateWindow(self, force)
 	-- If this window doesn't have data, do nothing.
 	if not self.data then return; end
 	if not self.rowData then
@@ -5092,7 +5894,7 @@ local function UpdateWindow(self)
 	else
 		wipe(self.rowData);
 	end
-	if self.data and self:IsVisible() then
+	if self.data and (force or self:IsVisible()) then
 		self.data.expanded = true;
 		if self.data.baseIndent and self.data.groups then
 			-- This is Mini Listed Data
@@ -5128,13 +5930,14 @@ local function UpdateWindow(self)
 				tinsert(self.rowData, self.data);
 			end
 			tinsert(self.rowData, {
-				["text"] = "No items matching your filters found.",
-				["description"] = GetDataMember("CompletionistMode") and 
-					"Congratulations! You have collected ALL OF THE THINGS that have been implemented for this section. If you find something on WoWHead that you're missing, please report it to the ALL THE THINGS Discord!" or
-					"You have collected all of the things that share appearances from this section. There may be additional items if you disable Completionist Mode and are up to the challenge...",
+				["text"] = "No entries matching your filters were found.",
+				["description"] = GetDataMember("ShowCompletedGroups") and 
+					"If you believe this was in error, try activating 'Debug Mode'. One of your filters may be restricting the visibility of the group."
+					or "Toggle 'Show Completed Groups' in the options menu to review your accomplishments.\n\nIf you believe this was in error, try activating 'Debug Mode'. One of your filters may be restricting the visibility of the group.",
 				["indent"] = 1,
+				["collectible"] = 1,
 				["collected"] = 1,
-				["back"] = 1
+				["back"] = 0.7
 			});
 		end
 		
@@ -5148,10 +5951,13 @@ local function UpdateWindowColor(self, suffix)
 	self:SetBackdropBorderColor(1, 1, 1, 1);
 	self:SetBackdropColor(0, 0, 0, 1);
 end
-function app:UpdateWindows()
+function app:UpdateWindows(force)
 	local anyUpdated = false;
-	for i, window in pairs(app.Windows) do
-		if window:Update() then anyUpdated = true; end
+	for name, window in pairs(app.Windows) do
+		if window:Update(force) then
+			--print(name .. ": Updated");
+			anyUpdated = true;
+		end
 	end
 	return anyUpdated;
 end
@@ -5174,7 +5980,6 @@ function app:GetDataCache()
 				end
 			end
 		});
-		allData.groups = {};
 		allData.expanded = true;
 		allData.icon = L("LOGO_TINY");
 		allData.preview = L("LOGO_LARGE");
@@ -5185,10 +5990,6 @@ function app:GetDataCache()
 		allData.total = 0;
 		local groups, db = {};
 		allData.groups = groups;
-		
-		-- Cache the player's faction.
-		local englishFaction, localizedFaction = UnitFactionGroup("player");
-		local isHorde = englishFaction == "Horde";
 		
 		-- Dungeons & Raids
 		db = {};
@@ -5274,7 +6075,7 @@ function app:GetDataCache()
 		
 		-- Mounts
 		if app.Mounts then
-			db = app.CreateAchievement(isHorde and 10355 or 10356, app.Mounts);
+			db = app.CreateAchievement(app.Faction == "Horde" and 10355 or 10356, app.Mounts);
 			db.f = 100;
 			db.expanded = false;
 			db.text = MOUNTS; -- L("MOUNTS");
@@ -5335,9 +6136,8 @@ function app:GetDataCache()
 		]]--
 		
 		-- Mounts (Dynamic)
-		GetMountInfoCache();
 		--[[
-		db = app.CreateAchievement(isHorde and 10355 or 10356, GetTempDataMember("MOUNT_CACHE"));
+		db = app.CreateAchievement(app.Faction == "Horde" and 10355 or 10356, GetTempDataMember("MOUNT_CACHE"));
 		db.f = 100;
 		db.expanded = false;
 		db.text = "Mounts (Dynamic)";
@@ -5395,39 +6195,17 @@ function app:GetDataCache()
 		missingData.expanded = false;
 		missingData.text = "Missing Sources (Total # Ignores Filters)";
 		missingData.description = L("SOURCE_ID_MISSING");
-		missingData.rows = GetTempDataMember("Missing", {});
+		missingData.rows = GetTempDataMember("Missing");
 		table.insert(groups, missingData);
 		app.refreshDataForce = true;
-	end
-	if app.refreshDataForce then
-		app.refreshDataForce = nil;
-		allData.progress = 0;
-		allData.total = 0;
-		wipe(GetTempDataMember("Missing"));
-		app.missingData.groups = nil;
 		BuildGroups(allData, allData.groups);
-		UpdateGroups(allData, allData.groups, 1);
-		app.missingData.groups = app.missingData.rows;
-		app.missingData.total = #app.missingData.rows;
-		app.missingData.progress = 0;
-		app.missingData.visible = app.missingData.total > 0;
 		app:GetWindow("Prime").data = allData;
-		
-		-- NOTE: The auto refresh only happens once.
-		if not app.autoRefreshedCollections then
-			app.autoRefreshedCollections = true;
-			local version = GetAddOnMetadata("AllTheThings", "Version");
-			local lastTime = GetDataMember("RefreshedCollectionsAlready");
-			if not lastTime or (lastTime ~= version and GetDataMember("AutoRefreshCollections")) then
-				SetDataMember("RefreshedCollectionsAlready", version);
-				SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the Source ID data cache.
-				RefreshCollections();
-			end
-		end
+		CacheFields(allData);
 	end
 	return allData;
 end
 function app:RefreshData(lazy, safely)
+	--print("RefreshData(" .. tostring(lazy or false) .. ", " .. tostring(safely or false) .. ")");
 	app.refreshDataForce = app.refreshDataForce or not lazy;
 	StartCoroutine("RefreshData", function()
 		-- This method can be triggered by an event, if so, we want to safely wait for combat to end.
@@ -5437,11 +6215,26 @@ function app:RefreshData(lazy, safely)
 		end
 		
 		-- Send an Update to the Windows to Rebuild their Row Data
-		app:GetDataCache();
-		app:UpdateWindows();
+		if app.refreshDataForce then
+			app.refreshDataForce = nil;
+			local allData = app:GetDataCache();
+			allData.progress = 0;
+			allData.total = 0;
+			wipe(GetTempDataMember("Missing"));
+			app.missingData.groups = nil;
+			UpdateGroups(allData, allData.groups, 1);
+			app.missingData.groups = app.missingData.rows;
+			app.missingData.total = #app.missingData.rows;
+			app.missingData.progress = 0;
+			app.missingData.visible = app.missingData.total > 0;
+			--print(tostring(allData.progress or 0) .. " / " .. tostring(allData.total or 0));
+			
+			-- Forcibly update the windows.
+			app:UpdateWindows(true);
+		end
 	end);
 end
-function app:GetWindow(suffix)
+function app:GetWindow(suffix, todo)
 	local window = app.Windows[suffix];
 	if not window then
 		-- Create the window instance.
@@ -5465,7 +6258,18 @@ function app:GetWindow(suffix)
 		window:SetMinResize(32, 32);
 		window:SetSize(300, 300);
 		window:SetUserPlaced(true);
-		window.data = {};
+		window.data = {
+			['text'] = suffix,
+			['icon'] = "Interface\\Icons\\Ability_Spy.blp", 
+			['visible'] = true, 
+			['expanded'] = true,
+			['groups'] = {
+				{
+					['text'] = "No data linked to listing.", 
+					['visible'] = true
+				}
+			}
+		};
 		window:Hide();
 		
 		-- The Close Button. It's assigned as a local variable so you can change how it behaves.
@@ -5504,8 +6308,10 @@ function app:GetWindow(suffix)
 		container.rowHeight = select(2, GameFontNormal:GetFont()) + 4;
 		window.Container = container;
 		container.rows = {};
+		container.todo = todo;
 		scrollbar:SetValue(1);
 		container:Show();
+		UpdateWindow(window, true);
 	end
 	return window;
 end
@@ -5540,20 +6346,48 @@ WorldMapTooltip:HookScript("OnTooltipCleared", ClearTooltip);
 WorldMapTooltip:HookScript("OnShow", AttachTooltip);
 -- hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", AttachBattlePetTooltip); -- Not ready yet.
 
--- ReloadUI slash command (for ease of use)
-SLASH_RELOADUI1 = "/reloadui";
-SLASH_RELOADUI2 = "/rl";
-SlashCmdList["RELOADUI"] = ReloadUI;
-
 -- Slash Command List
 SLASH_AllTheThings1 = "/allthethings";
 SLASH_AllTheThings2 = "/things";
 SLASH_AllTheThings3 = "/att";
-SlashCmdList["AllTheThings"] = function(msg)
-	ToggleMainList();
+SlashCmdList["AllTheThings"] = function(cmd)
+	if not cmd or cmd == "" or cmd == "main" or cmd == "mainlist" then
+		ToggleMainList();
+	elseif cmd == "mini" or cmd == "minilist" then
+		ToggleMiniListForCurrentZone();
+	else
+		-- Search for the Item Link in the database
+		local listing, group = SearchForCachedItemLink(cmd);
+		if group and #group > 0 then CreateMiniListForGroup(group[1]); end
+	end
 end
 
+SLASH_AllTheThingsNote1 = "/attnote";
+SlashCmdList["AllTheThingsNote"] = function(cmd)
+	cmd = cmd or "";
+	if cmd == "clear" then
+		local originalMapID = GetCurrentMapAreaID();
+		SetMapToCurrentZone();
+		SetNote("mapID", GetCurrentMapAreaID(), nil);
+		SetMapByID(originalMapID);
+		return nil;
+	elseif cmd ~= "" then
+		local originalMapID = GetCurrentMapAreaID();
+		SetMapToCurrentZone();
+		SetNote("mapID", GetCurrentMapAreaID(), cmd);
+		SetMapByID(originalMapID);
+		return nil;
+	end
+	
+	-- Print out help
+	print("|cff15abff/attnote|r - Usage:");
+	print("|cff15abff/attnote|r |cffff9333clear|r - Clear the note for the current map.");
+	print("|cff15abff/attnote|r |cffff9333<note>|r - Write a note for the current map.");
+end
+
+
 -- Register Events required at the start
+app:RegisterEvent("BOSS_KILL");
 app:RegisterEvent("PLAYER_LOGIN");
 app:RegisterEvent("VARIABLES_LOADED");
 app:RegisterEvent("ZONE_CHANGED_NEW_AREA");
@@ -5562,7 +6396,6 @@ app:RegisterEvent("TOYS_UPDATED");
 app:RegisterEvent("SCENARIO_UPDATE");
 app:RegisterEvent("COMPANION_LEARNED");
 app:RegisterEvent("COMPANION_UNLEARNED");
-app:RegisterEvent("PET_JOURNAL_LIST_UPDATE");
 app:RegisterEvent("PLAYER_LOOT_SPEC_UPDATED");
 app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_ADDED");
 app:RegisterEvent("TRANSMOG_COLLECTION_SOURCE_REMOVED");
@@ -5610,6 +6443,7 @@ app.events.VARIABLES_LOADED = function()
 	local name, realm = UnitName("player");
 	local _, id = GetClassInfo(classIndex);
 	app.Me = "|c" .. RAID_CLASS_COLORS[id].colorStr .. name .. "-" .. (realm or GetRealmName()) .. "|r";
+	app.Faction = UnitFactionGroup("player");
 	
 	-- Load in the Presets if they exist for this character.
 	-- Default values should fallback to their presets.
@@ -5629,9 +6463,9 @@ app.events.VARIABLES_LOADED = function()
 	-- Check to see if we have a leftover ItemDB cache
 	if GetDataMember("Items") then SetDataMember("Items", nil); end
 	if GetDataMember("ItemDB") then SetDataMember("ItemDB", nil); end
+	SetTempDataMember("Missing", {});
 	
 	-- Register for Dynamic Events and Assign Filters
-	if GetDataMember("AutoRefreshSaves", true) then app:RegisterEvent("BOSS_KILL"); end
 	if GetDataMember("IgnoreAllFilters", false) then
 		app.GroupFilter = app.NoFilter;
 	else
@@ -5658,7 +6492,7 @@ app.events.VARIABLES_LOADED = function()
 	else
 		app.CollectedItemVisibilityFilter = app.Filter;
 	end
-	if GetDataMember("ShowMissingItems", true) then
+	if GetDataMember("ShowUncollectedThings", true) then
 		app.MissingItemVisibilityFilter = app.NoFilter;
 	else
 		app.MissingItemVisibilityFilter = app.Filter;
@@ -5667,10 +6501,20 @@ app.events.VARIABLES_LOADED = function()
 		app.Minimap = CreateMinimapButton(); -- NOTE: Create this if they turn it on.
 		app.Minimap:Show();
 	end
-	if GetDataMember("CompletionistMode", not GetDataMember("UniqueAppearances", false)) then
+	if GetDataMember("CompletionistMode", true) then
 		app.ItemSourceFilter = app.FilterItemSource;
+		app.ActiveItemCollectionHelper = app.CompletionistItemCollectionHelper;
+		app.ActiveItemRemovalHelper = app.CompletionistItemRemovalHelper;
 	else
-		app.ItemSourceFilter = app.FilterItemSourceUnique;
+		if GetDataMember("MainOnly") then
+			app.ItemSourceFilter = app.FilterItemSourceUniqueOnlyMain;
+			app.ActiveItemCollectionHelper = app.UniqueModeItemCollectionHelperOnlyMain;
+			app.ActiveItemRemovalHelper = app.UniqueModeItemRemovalHelperOnlyMain;
+		else
+			app.ItemSourceFilter = app.FilterItemSourceUnique;
+			app.ActiveItemCollectionHelper = app.UniqueModeItemCollectionHelper;
+			app.ActiveItemRemovalHelper = app.UniqueModeItemRemovalHelperOnlyMain;
+		end
 	end
 	if GetDataMember("FilterItemsByClass", true) then
 		app.ClassRequirementFilter = app.FilterItemClass_RequireClasses;
@@ -5707,57 +6551,123 @@ app.events.VARIABLES_LOADED = function()
 	else
 		app.RequiredSkillFilter = app.NoFilter;
 	end
-	if GetDataMember("RequireTrackableFilter", false) then
-		app.RequireTrackableFilter = app.FilterItemTrackable;
+	if GetDataMember("ShowIncompleteQuests", false) then
+		app.ShowIncompleteQuests = app.FilterItemTrackable;
 	else
-		app.RequireTrackableFilter = app.Filter;
+		app.ShowIncompleteQuests = app.Filter;
 	end
 	
+	-- Tooltip Settings
+	GetDataMember("ShowLootSpecializationRequirements", true);
+	GetDataMember("TreatIncompleteQuestsAsCollectible", false);
+	GetDataMember("ShowCompleteSourceLocations", true);
 	GetDataMember("EnableTooltipInformation", true);
-	GetDataMember("DisplayTooltipInformationInCombat", false);
-	GetDataMember("AutoRefreshCollections", false);
+	GetDataMember("DisplayTooltipsInCombat", true);
 	GetDataMember("ShowSharedAppearances", true);
 	GetDataMember("ShowSources", true);
 	GetDataMember("ShowContents", true);
-	
-	-- Tooltip Settings
-	GetDataMember("ShowAchievementID", true);
-	GetDataMember("ShowArtifactID", true);
-	GetDataMember("ShowCreatureID", false);
-	GetDataMember("ShowDifficultyID", true);
-	GetDataMember("ShowEncounterID", true);
-	GetDataMember("ShowFactionID", true);
-	GetDataMember("ShowIllusionID", true);
-	GetDataMember("ShowInstanceID", true);
-	GetDataMember("ShowMusicRollID", true);
-	GetDataMember("ShowObjectID", true);
-	GetDataMember("ShowSpeciesID", true);
-	GetDataMember("ShowSpellID", true);
-	GetDataMember("ShowTierID", true);
+	GetDataMember("ShowProgress", true);
 	GetDataMember("ShowDescriptions", true);
 	GetDataMember("ShowModels", true);
-	GetDataMember("ShowMapID", true);
-	GetDataMember("ShowSpeciesID", true);
-	GetDataMember("ShowQuestID", true);
-	GetDataMember("ShowFilterID", false);
-	GetDataMember("ShowItemID", true);
-	GetDataMember("ShowItemString", false);
-	GetDataMember("ShowSourceID", false);
-	GetDataMember("ShowVisualID", false);
-	GetDataMember("ShowUnobtainableAppearanceInformation", false);
+	GetDataMember("AutoMiniList", true);
 	
-	-- Create the Settings Menu and show version information
-	app.print(format(L("LOADING"), GetAddOnMetadata("AllTheThings", "Version")));
+	GetDataMember("ShowAchievementID", false);
+	GetDataMember("ShowArtifactID", false);
+	GetDataMember("ShowCreatureID", false);
+	GetDataMember("ShowDifficultyID", false);
+	GetDataMember("ShowEncounterID", false);
+	GetDataMember("ShowFactionID", false);
+	GetDataMember("ShowFilterID", false);
+	GetDataMember("ShowIllusionID", false);
+	GetDataMember("ShowInstanceID", false);
+	GetDataMember("ShowItemID", false);
+	GetDataMember("ShowItemString", false);
+	GetDataMember("ShowMapID", false);
+	GetDataMember("ShowMusicRollID", false);
+	GetDataMember("ShowObjectID", false);
+	GetDataMember("ShowQuestID", false);
+	GetDataMember("ShowSourceID", false);
+	GetDataMember("ShowSpeciesID", false);
+	GetDataMember("ShowSpellID", false);
+	GetDataMember("ShowTierID", false);
+	GetDataMember("ShowVisualID", false);
 	CreateSettingsMenu();
 end
 app.events.PLAYER_LOGIN = function()
 	app:UnregisterEvent("PLAYER_LOGIN");
 	app.Spec = GetLootSpecialization();
-	if GetDataMember("AutoRefreshSaves") then
+	if not app.Spec or app.Spec == 0 then app.Spec = select(1, GetSpecializationInfo(GetSpecialization())); end
+	app:GetDataCache();
+	Push(app, "WaitOnMountData", function()
+		-- Detect how many pets there are. If 0, Blizzard isn't ready yet.
+		if C_PetJournal.GetNumPets() < 1 then return true; end
+		
+		-- Detect how many mounts there are. If 0, Blizzard isn't ready yet.
+		local mountIDs = C_MountJournal.GetMountIDs();
+		if #mountIDs < 1 then return true; end
+		
+		--[[
+		-- Let's build the dynamic mount cache.
+		local cache = GetTempDataMember("MOUNT_CACHE", {});
+		local listedMounts = GetTempDataMember("MOUNT_CACHE_LISTED", {});
+		local temp = GetTempDataMember("COMPANION_PET_SOURCE_TYPES", {});
+		if #temp < 1 then
+			for i=1,C_PetJournal.GetNumPetSources() do
+				local t = { ["text"] = _G["BATTLE_PET_SOURCE_"..i], ["groups"] = {} };
+				temp[i] = t;
+				tinsert(cache, t);
+			end
+		end
+		for i,mountID in ipairs(mountIDs) do
+			-- The 2nd value in the list is the spellID for the mount.
+			local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal_GetMountInfoByID(mountID);
+			if spellID and not (hideOnChar or listedMounts[spellID]) then
+				listedMounts[spellID] = true;
+				if temp[sourceType or 1] then tinsert(temp[sourceType or 1].groups, setmetatable({ ["mountID"] = spellID }, app.BaseMount));
+				else tinsert(cache, setmetatable({ ["mountID"] = spellID }, app.BaseMount)); end
+			end
+		end
+		SetDataMember("MOUNT_CACHE", cache);
+		]]--
+		
+		-- Harvest the Spell IDs for Conversion.
+		local spellID_MountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", {});
+		local collectedMounts = GetDataMember("CollectedMounts", {});
+		for i,mountID in ipairs(mountIDs) do
+			-- The 2nd value in the list is the spellID for the mount.
+			local creatureName, spellID, icon, active, isUsable, sourceType, isFavorite, isFactionSpecific, faction, hideOnChar, isCollected = C_MountJournal_GetMountInfoByID(mountID);
+			if spellID then
+				spellID_MountID[spellID] = mountID;
+				if isCollected then collectedMounts[spellID] = 1; end
+			end
+		end
+		
+		-- Assign to the temporary data container.
+		SetTempDataMember("MOUNT_SPELLID_TO_MOUNTID", spellID_MountID);
+		app:UnregisterEvent("PET_JOURNAL_LIST_UPDATE");
+		
+		-- Mark all previously completed quests.
+		local version = GetAddOnMetadata("AllTheThings", "Version");
+		app.print(format(L("LOADING"), version));
+		GetQuestsCompleted(CompletedQuests);
+		wipe(DirtyQuests);
+		app:RegisterEvent("QUEST_LOG_UPDATE");
+		RefreshLocation();
+		RefreshSaves();
+		
+		-- NOTE: The auto refresh only happens once.
+		if not app.autoRefreshedCollections then
+			app.autoRefreshedCollections = true;
+			local lastTime = GetDataMember("RefreshedCollectionsAlready");
+			if not lastTime or (lastTime ~= version) then
+				SetDataMember("RefreshedCollectionsAlready", version);
+				SetDataMember("CollectedSources", {});	-- This option causes a caching issue, so we have to purge the Source ID data cache.
+				RefreshCollections();
+				return nil;
+			end
+		end
 		app:RefreshData(false, true);
-	end
-	RefreshSaves();
-	RefreshLocation();
+	end);
 	LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject(app.DisplayName, {
 		type = "launcher",
 		icon = L("LOGO_SMALL"),
@@ -5770,6 +6680,7 @@ app.events.SCENARIO_UPDATE = RefreshLocation;
 app.events.ZONE_CHANGED_NEW_AREA = RefreshLocation;
 app.events.PLAYER_LOOT_SPEC_UPDATED = function()
 	app.Spec = GetLootSpecialization();
+	if not app.Spec or app.Spec == 0 then app.Spec = select(1, GetSpecializationInfo(GetSpecialization())); end
 	if GetDataMember("RequirePersonalLootFilter") then
 		app:RefreshData(false, true);
 	end
@@ -5800,13 +6711,19 @@ app.events.UPDATE_INSTANCE_INFO = function()
 	RefreshSaves();
 end
 app.events.COMPANION_LEARNED = function(...)
-	GetMountInfoCache();
 	app:RefreshData(false, true);
 	PlayFanfare();
 	wipe(searchCache);
 end
 app.events.COMPANION_UNLEARNED = function(...)
 	app:RefreshData(false, true);
+end
+app.events.QUEST_LOG_UPDATE = function()
+	GetQuestsCompleted(CompletedQuests);
+	for questID,completed in pairs(DirtyQuests) do
+		app.QuestCompletionHelper(tonumber(questID));
+	end
+	wipe(DirtyQuests);
 end
 app.events.TOYS_UPDATED = function(itemID, new)
 	if itemID and not GetDataSubMember("CollectedToys", itemID) then
@@ -5824,54 +6741,13 @@ end
 app.events.TRANSMOG_COLLECTION_SOURCE_ADDED = function(sourceID)
 	if sourceID then
 		-- Cache the previous state. This will help keep lag under control.
-		local oldState = GetDataSubMember("CollectedSources", sourceID);
-		SetDataSubMember("CollectedSources", sourceID, 1);
+		local oldState = GetDataSubMember("CollectedSources", sourceID) or 0;
 		
-		-- If this was the first time this source ID was "learned", do some work.
-		if not oldState or oldState == 0 then
-			-- Search ATT for the related sources.
-			--local attSourceInfo = SearchForSourceID(sourceID);
-			--if attSourceInfo and #attSourceInfo > 0 then
-				-- This allows for a quick refresh (New Algorithm)
-				
-			--end
-		
-			local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
-			
-			-- If the user is a Completionist
-			if GetDataMember("CompletionistMode") then
-				if GetDataMember("ShowNotifications", true) then
-					-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
-					-- So this may show green items where an epic was obtained. (particularly with Legion drops)
-					-- This is okay since items of this type share their appearance regardless of the power of the item.
-					local name, link = GetItemInfo(sourceInfo.itemID);
-					print(format(L("ITEM_ID_ADDED"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID));
-				end
-			else
-				local shared = 0;
-				local categoryID, appearanceID, canEnchant, texture, isCollected, itemLink = C_TransmogCollection_GetAppearanceSourceInfo(sourceID);
-				if categoryID then
-					for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(appearanceID)) do
-						if not GetDataSubMember("CollectedSources", otherSourceID) then
-							if C_TransmogCollection_GetSourceInfo(otherSourceID).categoryID == categoryID then
-								SetDataSubMember("CollectedSources", otherSourceID, 2);
-								shared = shared + 1;
-							end
-						end
-					end
-				end
-				
-				if GetDataMember("ShowNotifications", true) then
-					-- NOTE: The itemlink that gets passed is BASE ITEM LINK, not the full item link.
-					-- So this may show green items where an epic was obtained. (particularly with Legion drops)
-					-- This is okay since items of this type share their appearance regardless of the power of the item.
-					local name, link = GetItemInfo(sourceInfo.itemID);
-					print(format(L(shared > 0 and "ITEM_ID_ADDED_SHARED" or "ITEM_ID_ADDED"), link or name or ("|cffff80ff|Htransmogappearance:" .. sourceID .. "|h[Source " .. sourceID .. "]|h|r"), sourceInfo.itemID, shared));
-				end
-			end
-			
-			-- Refresh the Data and Celebrate!
-			app:RefreshData(false, true);
+		-- Only do work if we weren't already learned.
+		-- We check here because Blizzard likes to double notify for items with timers.
+		if oldState ~= 1 then
+			SetDataSubMember("CollectedSources", sourceID, 1);
+			app.ActiveItemCollectionHelper(sourceID, oldState);
 			PlayFanfare();
 			wipe(searchCache);
 		end
@@ -5918,13 +6794,4 @@ app.events.TRANSMOG_COLLECTION_SOURCE_REMOVED = function(sourceID)
 		PlayRemoveSound();
 		wipe(searchCache);
 	end
-end
-
--- Pet Journal fix
-local count = 0;
-app.events.PET_JOURNAL_LIST_UPDATE = function(...)
-	GetMountInfoCache();
-	app:RefreshData(false, true);
-	count = count + 1;
-	if count > 3 then app:UnregisterEvent("PET_JOURNAL_LIST_UPDATE"); end
 end

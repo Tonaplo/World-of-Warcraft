@@ -2,8 +2,8 @@
 ## Title: Conditioner
 ## Notes: A spell rotation tracking AddOn
 ## Author: Tony Allain
+## SavedVariables: ConditionerAddOn_SavedVariables_Loadouts
 ## SavedVariablesPerCharacter: ConditionerAddOn_SavedVariables
-ConditionerDropDownMenuTemplates.xml
 ConditionerDropDownMenu.xml
 ConditionerDropDown.lua
 Conditioner.lua

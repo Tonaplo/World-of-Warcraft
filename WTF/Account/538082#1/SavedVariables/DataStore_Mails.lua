@@ -11,14 +11,14 @@ DataStore_MailsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -43,8 +43,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2018/02/04 01:39",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1519063873,
-				["lastVisitDate"] = "2018/02/19 10:11",
+				["lastUpdate"] = 1519628738,
+				["lastVisitDate"] = "2018/02/25 23:05",
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1518248025,
@@ -124,17 +124,17 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518997790,
 				["lastVisitDate"] = "2018/02/18 15:49",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1518284927,
-				["lastVisitDate"] = "2018/02/10 09:48",
-			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1518335458,
-				["lastVisitDate"] = "2018/02/10 23:50",
+				["lastUpdate"] = 1519550593,
+				["lastVisitDate"] = "2018/02/25 01:23",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509493,
 				["lastVisitDate"] = "2018/01/20 20:38",
+			},
+			["Default.Proudmoore.Greybone"] = {
+				["lastUpdate"] = 1519003450,
+				["lastVisitDate"] = "2018/02/18 17:24",
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607753,
@@ -156,9 +156,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1519068641,
 				["lastVisitDate"] = "2018/02/19 11:30",
 			},
-			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1519003450,
-				["lastVisitDate"] = "2018/02/18 17:24",
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518284927,
+				["lastVisitDate"] = "2018/02/10 09:48",
 			},
 		},
 	},

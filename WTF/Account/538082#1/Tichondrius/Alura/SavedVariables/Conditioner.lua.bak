@@ -1,18 +1,38 @@
 
-xl_num_desired_tracked = 5
-xl_ChildPosition = 1
-xl_LocX = 682.666657463789
-xl_LocY = 383.999970965884
-xl_DesiredScale = 125
-xl_OnTargetFrame = 1
-xl_current_target_dock = 1
-xl_savedvariables = {
-}
-xl_conditioner_options = {
-	["tapersize"] = 0.75,
-	["hide_hotbar_incombat"] = false,
-	["opacity"] = 1,
-	["always_show"] = false,
-	["show_swing_timers"] = false,
-	["show_unit_frame"] = false,
+ConditionerAddOn_SavedVariables = {
+	["TalentsPerLoadout"] = {
+	},
+	["Loadouts"] = {
+		{
+			["value"] = "[00w+402+g0_Shadow Word: Pain_Shift E_589_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
+			["spec"] = 256,
+			["name"] = "Disc",
+		}, -- [1]
+		[0] = {
+			["value"] = "",
+			["spec"] = 0,
+			["name"] = "None",
+		},
+		[-1] = {
+			["value"] = "",
+			["spec"] = 0,
+			["name"] = "Basic Rotation",
+		},
+	},
+	["Options"] = {
+		["TaperSize"] = 80,
+		["TrackedFrameAnchorCoords"] = {
+			["y"] = 558.737251281738,
+			["x"] = 709.166702270508,
+		},
+		["AnchorDirection"] = 0,
+		["OnlyDisplayInCombat"] = false,
+		["NumTrackedFrames"] = 5,
+		["Opacity"] = 100,
+		["ShowSwingTimers"] = false,
+		["TrackedFrameSize"] = 100,
+	},
+	["CurrentLoadouts"] = {
+		[256] = 1,
+	},
 }

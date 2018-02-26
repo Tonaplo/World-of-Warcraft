@@ -1,120 +1,154 @@
 
 DeathGraphsDBDeaths = {
-	["198715"] = {
-		["hash"] = "198715",
+	["172615"] = {
+		["hash"] = "172615",
 		["type"] = "deaths",
-		["name"] = "Felhounds of Sargeras",
-		["id"] = 1987,
-		["diff"] = 15,
+		["name"] = "Xavius",
+		["id"] = 1726,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2074,
-			["mapid"] = 1712,
+			["index"] = 7,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Xavius",
+			["mapid"] = 1520,
 			["try_number"] = 1,
-			["name"] = "Felhounds of Sargeras",
-			["encounter"] = "Felhounds of Sargeras",
-			["ej_instance_id"] = 946,
+			["name"] = "Xavius",
 			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1864,
+			["killed"] = true,
 		},
 		["player_db"] = {
-			["Greybone"] = {
-				["name"] = "Greybone",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Slimane-Tichondrius"] = {
-				["name"] = "Slimane-Tichondrius",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Dotido-Tichondrius"] = {
-				["name"] = "Dotido-Tichondrius",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["name"] = "Blakeypriest-Tichondrius",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Shogunmaster-Tichondrius"] = {
-				["name"] = "Shogunmaster-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Panly-Tichondrius"] = {
-				["name"] = "Panly-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Allîar-Tichondrius"] = {
-				["name"] = "Allîar-Tichondrius",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Joustness-Tichondrius"] = {
-				["name"] = "Joustness-Tichondrius",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sassybogs-Tichondrius"] = {
-				["name"] = "Sassybogs-Tichondrius",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["name"] = "Rikumaruu-Tichondrius",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Hangookie-Tichondrius"] = {
-				["name"] = "Hangookie-Tichondrius",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 		},
+		["diff"] = 15,
 	},
 	["199715"] = {
 		["hash"] = "199715",
 		["type"] = "deaths",
 		["name"] = "Antoran High Command",
 		["id"] = 1997,
-		["diff"] = 15,
+		["player_db"] = {
+			["Dotido-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Dotido-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Greybone"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Greybone",
+				["overall"] = {
+				},
+			},
+			["Slimane-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Slimane-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Lyfeguard-Kil'jaeden"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Lyfeguard-Kil'jaeden",
+				["overall"] = {
+				},
+			},
+			["Blakeypriest-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Blakeypriest-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Koraei-Zangarmarsh"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Koraei-Zangarmarsh",
+				["overall"] = {
+				},
+			},
+			["Mathrim-Uther"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Mathrim-Uther",
+				["overall"] = {
+				},
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Rikumaruu-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Shogunmaster-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Shogunmaster-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Panly-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Panly-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Pencilvestor-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Pencilvestor-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Allîar-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Allîar-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Irogasm-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Irogasm-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Sassybogs-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Sassybogs-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Hangookie-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Hangookie-Tichondrius",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -123,139 +157,27 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Antoran High Command",
-			["encounter"] = "Antoran High Command",
-			["ej_instance_id"] = 946,
 			["diff"] = 15,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Antoran High Command",
 		},
-		["player_db"] = {
-			["Slimane-Tichondrius"] = {
-				["name"] = "Slimane-Tichondrius",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Shogunmaster-Tichondrius"] = {
-				["name"] = "Shogunmaster-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Dotido-Tichondrius"] = {
-				["name"] = "Dotido-Tichondrius",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Irogasm-Tichondrius"] = {
-				["name"] = "Irogasm-Tichondrius",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["name"] = "Rikumaruu-Tichondrius",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Pencilvestor-Tichondrius"] = {
-				["name"] = "Pencilvestor-Tichondrius",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sassybogs-Tichondrius"] = {
-				["name"] = "Sassybogs-Tichondrius",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["name"] = "Blakeypriest-Tichondrius",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Mathrim-Uther"] = {
-				["name"] = "Mathrim-Uther",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Panly-Tichondrius"] = {
-				["name"] = "Panly-Tichondrius",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Koraei-Zangarmarsh"] = {
-				["name"] = "Koraei-Zangarmarsh",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Allîar-Tichondrius"] = {
-				["name"] = "Allîar-Tichondrius",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lyfeguard-Kil'jaeden"] = {
-				["name"] = "Lyfeguard-Kil'jaeden",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Greybone"] = {
-				["name"] = "Greybone",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Hangookie-Tichondrius"] = {
-				["name"] = "Hangookie-Tichondrius",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 15,
 	},
 	["199215"] = {
 		["hash"] = "199215",
 		["type"] = "deaths",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
-		["diff"] = 15,
+		["player_db"] = {
+			["Dotido-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Dotido-Tichondrius",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -265,29 +187,173 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Garothi Worldbreaker",
 			["diff"] = 15,
-			["id"] = 2076,
 			["ej_instance_id"] = 946,
+			["id"] = 2076,
+			["killed"] = true,
+		},
+		["diff"] = 15,
+	},
+	["175015"] = {
+		["hash"] = "175015",
+		["type"] = "deaths",
+		["name"] = "Cenarius",
+		["id"] = 1750,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Cenarius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Cenarius",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1877,
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Dotido-Tichondrius"] = {
-				["name"] = "Dotido-Tichondrius",
-				["class"] = "WARLOCK",
+		},
+		["diff"] = 15,
+	},
+	["173815"] = {
+		["hash"] = "173815",
+		["type"] = "deaths",
+		["name"] = "Il'gynoth, The Heart of Corruption",
+		["id"] = 1738,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Il'gynoth, The Heart of Corruption",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, The Heart of Corruption",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1873,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 15,
+	},
+	["170415"] = {
+		["hash"] = "170415",
+		["type"] = "deaths",
+		["name"] = "Dragons of Nightmare",
+		["id"] = 1704,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Dragons of Nightmare",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Dragons of Nightmare",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1854,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 15,
+	},
+	["198715"] = {
+		["hash"] = "198715",
+		["type"] = "deaths",
+		["name"] = "Felhounds of Sargeras",
+		["id"] = 1987,
+		["player_db"] = {
+			["Greybone"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Greybone",
 				["overall"] = {
 				},
+			},
+			["Slimane-Tichondrius"] = {
 				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Slimane-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Rikumaruu-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Blakeypriest-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Blakeypriest-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Shogunmaster-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Shogunmaster-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Panly-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Panly-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Sassybogs-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Sassybogs-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Allîar-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Allîar-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Joustness-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Joustness-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Dotido-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Dotido-Tichondrius",
+				["overall"] = {
+				},
+			},
+			["Hangookie-Tichondrius"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Hangookie-Tichondrius",
+				["overall"] = {
 				},
 			},
 		},
-	},
-}
-DeathGraphsDBEndurance = {
-	["198715"] = {
-		["hash"] = "198715",
-		["type"] = "endurance",
-		["name"] = "Felhounds of Sargeras",
-		["id"] = 1987,
-		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -296,153 +362,204 @@ DeathGraphsDBEndurance = {
 			["mapid"] = 1712,
 			["try_number"] = 1,
 			["name"] = "Felhounds of Sargeras",
-			["encounter"] = "Felhounds of Sargeras",
-			["ej_instance_id"] = 946,
 			["diff"] = 15,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Felhounds of Sargeras",
+		},
+		["diff"] = 15,
+	},
+	["170315"] = {
+		["hash"] = "170315",
+		["type"] = "deaths",
+		["name"] = "Nythendra",
+		["id"] = 1703,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Nythendra",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Nythendra",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1853,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 15,
+	},
+	["166715"] = {
+		["hash"] = "166715",
+		["type"] = "deaths",
+		["name"] = "Ursoc",
+		["id"] = 1667,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Ursoc",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Ursoc",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1841,
+			["killed"] = true,
 		},
 		["player_db"] = {
 			["Greybone"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						128.352999999999, -- [2]
-						"Corrupting Maw |cFFFF33336,110,381|r", -- [3]
-					}, -- [1]
-				},
 				["class"] = "DEATHKNIGHT",
-			},
-			["Dotido-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						124.969999999999, -- [2]
-						"Melee |cFFFF33336,024,096|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Slimane-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						119.143, -- [2]
-						"Molten Flare |cFFFF3333672,580|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
-			},
-			["Shogunmaster-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						119.83, -- [2]
-						"Burning Maw |cFFFF33333,378,453|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Allîar-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
+				["overall"] = {
 				},
-				["class"] = "HUNTER",
-			},
-			["Sassybogs-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Panly-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Pencilvestor-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Joustness-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Irogasm-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Blakeypriest-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Hangookie-Tichondrius"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
+				["name"] = "Greybone",
 			},
 		},
+		["diff"] = 15,
+	},
+	["174415"] = {
+		["hash"] = "174415",
+		["type"] = "deaths",
+		["name"] = "Elerethe Renferal",
+		["id"] = 1744,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Elerethe Renferal",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Elerethe Renferal",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1876,
+			["killed"] = true,
+		},
+		["player_db"] = {
+		},
+		["diff"] = 15,
+	},
+}
+DeathGraphsDBEndurance = {
+	["172615"] = {
+		["hash"] = "172615",
+		["type"] = "endurance",
+		["name"] = "Xavius",
+		["id"] = 1726,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Xavius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Xavius",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1864,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Porcupinez-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Anentet-Malfurion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Xplotlavous-Winterhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
 	},
 	["199715"] = {
 		["hash"] = "199715",
 		["type"] = "endurance",
 		["name"] = "Antoran High Command",
 		["id"] = 1997,
-		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2070,
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Antoran High Command",
-			["encounter"] = "Antoran High Command",
-			["ej_instance_id"] = 946,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Rhaaz-Dawnbringer"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
 			},
 			["Slimane-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "MAGE",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -450,11 +567,11 @@ DeathGraphsDBEndurance = {
 						"Pyroblast |cFFFF33331,730,197|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
 			},
 			["Blakeypriest-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "PRIEST",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -462,11 +579,11 @@ DeathGraphsDBEndurance = {
 						"Bladestorm |cFFFF3333676,152|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PRIEST",
 			},
 			["Shogunmaster-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 280,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -479,11 +596,11 @@ DeathGraphsDBEndurance = {
 						"Melee |cFFFF33337,699,885|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "PALADIN",
 			},
 			["Pencilvestor-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "MONK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -491,72 +608,60 @@ DeathGraphsDBEndurance = {
 						"Fusillade |cFFFF33334,499,210|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MONK",
 			},
 			["Allîar-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
 			},
 			["Greybone"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Azenoth-Frostmourne"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["deaths"] = {
-				},
 				["class"] = "PALADIN",
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["encounters"] = 3,
-				["points"] = 290,
 				["deaths"] = {
-					{
-						3, -- [1]
-						264.918000000002, -- [2]
-						"Fusillade |cFFFF33334,669,096|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "HUNTER",
 			},
-			["Irogasm-Tichondrius"] = {
+			["Sassybogs-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+			},
+			["Lyfeguard-Kil'jaeden"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
 			},
 			["Mathrim-Uther"] = {
 				["encounters"] = 2,
 				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Panly-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["deaths"] = {
-				},
 				["class"] = "PALADIN",
-			},
-			["Koraei-Zangarmarsh"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Dotido-Tichondrius"] = {
 				["encounters"] = 4,
 				["points"] = 360,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -574,37 +679,151 @@ DeathGraphsDBEndurance = {
 						"Entropic Blast (DoT) |cFFFF3333406,187|r", -- [3]
 					}, -- [3]
 				},
-				["class"] = "WARLOCK",
 			},
-			["Lyfeguard-Kil'jaeden"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Koraei-Zangarmarsh"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
-			["Sassybogs-Tichondrius"] = {
+			["Irogasm-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						264.918000000002, -- [2]
+						"Fusillade |cFFFF33334,669,096|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Hangookie-Tichondrius"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2070,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Antoran High Command",
+			["diff"] = 15,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Antoran High Command",
+		},
+		["diff"] = 15,
 	},
 	["199215"] = {
 		["hash"] = "199215",
 		["type"] = "endurance",
 		["name"] = "Garothi Worldbreaker",
 		["id"] = 1992,
-		["diff"] = 15,
+		["player_db"] = {
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Slimane-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Shogunmaster-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Allîar-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Blakeypriest-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sassybogs-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Panly-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Pencilvestor-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Joustness-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Dotido-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						245.003000000001, -- [2]
+						"Eradication |cFFFF33336,277,819|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Hangookie-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -614,113 +833,1282 @@ DeathGraphsDBEndurance = {
 			["try_number"] = 1,
 			["name"] = "Garothi Worldbreaker",
 			["diff"] = 15,
-			["id"] = 2076,
 			["ej_instance_id"] = 946,
+			["id"] = 2076,
+			["killed"] = true,
+		},
+		["diff"] = 15,
+	},
+	["175015"] = {
+		["hash"] = "175015",
+		["type"] = "endurance",
+		["name"] = "Cenarius",
+		["id"] = 1750,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Cenarius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Cenarius",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1877,
 			["killed"] = true,
 		},
 		["player_db"] = {
+			["Porcupinez-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Anentet-Malfurion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Tailgater-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Xplotlavous-Winterhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
 			["Greybone"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
-			["Slimane-Tichondrius"] = {
+		},
+		["diff"] = 15,
+	},
+	["173815"] = {
+		["hash"] = "173815",
+		["type"] = "endurance",
+		["name"] = "Il'gynoth, The Heart of Corruption",
+		["id"] = 1738,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Il'gynoth, The Heart of Corruption",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, The Heart of Corruption",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1873,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Porcupinez-Zul'jin"] = {
 				["encounters"] = 1,
 				["points"] = 100,
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
-			["Dotido-Tichondrius"] = {
+			["Anentet-Malfurion"] = {
 				["encounters"] = 1,
-				["points"] = 90,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Tailgater-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Xplotlavous-Winterhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["170415"] = {
+		["hash"] = "170415",
+		["type"] = "endurance",
+		["name"] = "Dragons of Nightmare",
+		["id"] = 1704,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Dragons of Nightmare",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Dragons of Nightmare",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1854,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Dirhaell-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Porcupinez-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Anentet-Malfurion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Tailgater-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Wooftapoofta-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Xplotlavous-Winterhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Glacierclaw-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["198715"] = {
+		["hash"] = "198715",
+		["type"] = "endurance",
+		["name"] = "Felhounds of Sargeras",
+		["id"] = 1987,
+		["player_db"] = {
+			["Greybone"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 					{
 						1, -- [1]
-						245.003000000001, -- [2]
-						"Eradication |cFFFF33336,277,819|r", -- [3]
+						128.352999999999, -- [2]
+						"Corrupting Maw |cFFFF33336,110,381|r", -- [3]
 					}, -- [1]
 				},
+			},
+			["Dotido-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 190,
 				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						124.969999999999, -- [2]
+						"Melee |cFFFF33336,024,096|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Blakeypriest-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "PRIEST",
-			},
-			["Rikumaruu-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Sassybogs-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "MONK",
-			},
-			["Panly-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
-			},
-			["Pencilvestor-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
 			},
 			["Joustness-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
+				["encounters"] = 2,
+				["points"] = 200,
 				["class"] = "MONK",
-			},
-			["Allîar-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "ROGUE",
+			},
+			["Rikumaruu-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 			},
 			["Shogunmaster-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						119.83, -- [2]
+						"Burning Maw |cFFFF33333,378,453|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Panly-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+			},
+			["Pencilvestor-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Allîar-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Irogasm-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Slimane-Tichondrius"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						2, -- [1]
+						119.143, -- [2]
+						"Molten Flare |cFFFF3333672,580|r", -- [3]
+					}, -- [1]
+				},
 			},
 			["Hangookie-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2074,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Felhounds of Sargeras",
+			["diff"] = 15,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Felhounds of Sargeras",
+		},
+		["diff"] = 15,
+	},
+	["170315"] = {
+		["hash"] = "170315",
+		["type"] = "endurance",
+		["name"] = "Nythendra",
+		["id"] = 1703,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Nythendra",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Nythendra",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1853,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Porcupinez-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Anentet-Malfurion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Tailgater-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Wooftapoofta-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Dirhaell-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Glacierclaw-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["166715"] = {
+		["hash"] = "166715",
+		["type"] = "endurance",
+		["name"] = "Ursoc",
+		["id"] = 1667,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Ursoc",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Ursoc",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1841,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Dirhaell-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Porcupinez-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Anentet-Malfurion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Tailgater-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Wooftapoofta-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Xplotlavous-Winterhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Glacierclaw-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						46.8530000000001, -- [2]
+						"Rend Flesh |cFFFF33335,438,576|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["174415"] = {
+		["hash"] = "174415",
+		["type"] = "endurance",
+		["name"] = "Elerethe Renferal",
+		["id"] = 1744,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Elerethe Renferal",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Elerethe Renferal",
+			["diff"] = 15,
+			["ej_instance_id"] = 768,
+			["id"] = 1876,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Dirhaell-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Porcupinez-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Anentet-Malfurion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wolvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Opal-Stormreaver"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Tailgater-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Wooftapoofta-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Xplotlavous-Winterhoof"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Glacierclaw-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Keltin-Muradin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Bhagdad-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Greybone"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
+				["maxhealth"] = 8255880,
+				["timeofdeath"] = 46.8530000000001,
+				["name"] = "Greybone",
+				["events"] = {
+					{
+						2, -- [1]
+						20484, -- [2]
+						1, -- [3]
+						1519276865.024, -- [4]
+						0, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+					}, -- [1]
+					{
+						true, -- [1]
+						212238, -- [2]
+						83977, -- [3]
+						1519276859.864, -- [4]
+						7969073, -- [5]
+						"[*] Miasma", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						116694, -- [2]
+						275926, -- [3]
+						1519276859.938, -- [4]
+						8244999, -- [5]
+						"Bunnbao-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						191894, -- [2]
+						417765, -- [3]
+						1519276859.971, -- [4]
+						8662764, -- [5]
+						"Bunnbao-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						143924, -- [2]
+						30600, -- [3]
+						1519276860.042, -- [4]
+						7978765, -- [5]
+						"Greybone", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						33763, -- [2]
+						35165, -- [3]
+						1519276860.068, -- [4]
+						8013930, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						115175, -- [2]
+						137624, -- [3]
+						1519276860.372, -- [4]
+						8151554, -- [5]
+						"Bunnbao-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						189800, -- [2]
+						270482, -- [3]
+						1519276860.384, -- [4]
+						8422036, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						206967, -- [2]
+						1112230, -- [3]
+						1519276860.498, -- [4]
+						8865298, -- [5]
+						"Greybone", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						true, -- [1]
+						204859, -- [2]
+						6883431, -- [3]
+						1519276860.498, -- [4]
+						1981867, -- [5]
+						"Ursoc", -- [6]
+						1112230, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						115175, -- [2]
+						137623, -- [3]
+						1519276860.758, -- [4]
+						2119490, -- [5]
+						"Bunnbao-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						false, -- [1]
+						206967, -- [2]
+						29391, -- [3]
+						1519276860.86, -- [4]
+						2119490, -- [5]
+						"Greybone", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						true, -- [1]
+						212238, -- [2]
+						54586, -- [3]
+						1519276860.86, -- [4]
+						2064904, -- [5]
+						"[*] Miasma", -- [6]
+						29391, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						33763, -- [2]
+						79236, -- [3]
+						1519276860.915, -- [4]
+						2144140, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						1, -- [2]
+						520576, -- [3]
+						1519276861.049, -- [4]
+						2144140, -- [5]
+						"Ursoc", -- [6]
+						280309, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						206967, -- [2]
+						280309, -- [3]
+						1519276861.049, -- [4]
+						2144140, -- [5]
+						"Greybone", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						191894, -- [2]
+						872697, -- [3]
+						1519276861.149, -- [4]
+						2496261, -- [5]
+						"Bunnbao-Frostmourne", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						48438, -- [2]
+						64082, -- [3]
+						1519276861.244, -- [4]
+						2560343, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						119498, -- [3]
+						1519276861.274, -- [4]
+						2679841, -- [5]
+						"Greybone", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						8936, -- [2]
+						31692, -- [3]
+						1519276861.321, -- [4]
+						2711533, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						false, -- [1]
+						8936, -- [2]
+						1237213, -- [3]
+						1519276861.652, -- [4]
+						3948746, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						155777, -- [2]
+						218683, -- [3]
+						1519276861.68, -- [4]
+						4167429, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						33763, -- [2]
+						39618, -- [3]
+						1519276861.751, -- [4]
+						4207047, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						55078, -- [2]
+						57443, -- [3]
+						1519276861.851, -- [4]
+						4264490, -- [5]
+						"Greybone", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						48438, -- [2]
+						64338, -- [3]
+						1519276862.087, -- [4]
+						4328828, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						774, -- [2]
+						218676, -- [3]
+						1519276862.29, -- [4]
+						4547504, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						true, -- [1]
+						1, -- [2]
+						731115, -- [3]
+						1519276862.302, -- [4]
+						4547504, -- [5]
+						"Ursoc", -- [6]
+						124410, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						200389, -- [2]
+						95076, -- [3]
+						1519276862.314, -- [4]
+						4642580, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						false, -- [1]
+						206967, -- [2]
+						94605, -- [3]
+						1519276862.314, -- [4]
+						4565204, -- [5]
+						"Greybone", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						48503, -- [2]
+						804189, -- [3]
+						1519276862.335, -- [4]
+						5369393, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						33763, -- [2]
+						61210, -- [3]
+						1519276862.399, -- [4]
+						5430603, -- [5]
+						"Mollyn-Dawnbringer", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						206967, -- [2]
+						2557085, -- [3]
+						1519276862.498, -- [4]
+						5430603, -- [5]
+						"Greybone", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						true, -- [1]
+						204859, -- [2]
+						5438576, -- [3]
+						1519276862.498, -- [4]
+						1, -- [5]
+						"Ursoc", -- [6]
+						2557085, -- [7]
+						1, -- [8]
+						false, -- [9]
+						768893, -- [10]
+					}, -- [33]
+					{
+						3, -- [1]
+						55233, -- [2]
+						1, -- [3]
+						1519276844.336, -- [4]
+						0, -- [5]
+						"Greybone", -- [6]
+					}, -- [34]
+				},
+				["class"] = "DEATHKNIGHT",
+				["timestring"] = "0m 46s",
+				["time"] = 1519276862.535,
+			}, -- [1]
+		},
+		["bossname"] = "Ursoc",
+		["bossicon"] = {
+			0.75, -- [1]
+			1, -- [2]
+			0, -- [3]
+			0.25, -- [4]
+			"Interface\\AddOns\\Details_RaidInfo-EmeraldNightmare\\boss_faces", -- [5]
+		},
+		["date"] = 1484.136,
+		["timeelapsed"] = 54,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
 				["maxhealth"] = 5749380,
 				["timeofdeath"] = 107.438,
 				["name"] = "Dotido-Tichondrius",
-				["time"] = 1518764406.603,
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 47s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1115,14 +2503,14 @@ DeathGraphsDBCurrent = {
 						"Dotido-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "1m 47s",
+				["time"] = 1518764406.603,
 			}, -- [1]
 			{
 				["maxhealth"] = 9308956,
 				["timeofdeath"] = 234.945000000002,
 				["name"] = "Shogunmaster-Tichondrius",
-				["time"] = 1518764534.11,
-				["class"] = "PALADIN",
-				["timestring"] = "3m 54s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -1525,14 +2913,14 @@ DeathGraphsDBCurrent = {
 						"Shogunmaster-Tichondrius", -- [6]
 					}, -- [34]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "3m 54s",
+				["time"] = 1518764534.11,
 			}, -- [2]
 			{
 				["maxhealth"] = 5461920,
 				["timeofdeath"] = 264.918000000002,
 				["name"] = "Rikumaruu-Tichondrius",
-				["time"] = 1518764564.083,
-				["class"] = "HUNTER",
-				["timestring"] = "4m 24s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -1927,14 +3315,14 @@ DeathGraphsDBCurrent = {
 						"Rikumaruu-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "HUNTER",
+				["timestring"] = "4m 24s",
+				["time"] = 1518764564.083,
 			}, -- [3]
 			{
 				["maxhealth"] = 5946300,
 				["timeofdeath"] = 293.962,
 				["name"] = "Pencilvestor-Tichondrius",
-				["time"] = 1518764593.127,
-				["class"] = "MONK",
-				["timestring"] = "4m 53s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2329,14 +3717,14 @@ DeathGraphsDBCurrent = {
 						"Pencilvestor-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MONK",
+				["timestring"] = "4m 53s",
+				["time"] = 1518764593.127,
 			}, -- [4]
 			{
 				["maxhealth"] = 5990040,
 				["timeofdeath"] = 325.427,
 				["name"] = "Sassybogs-Tichondrius",
-				["time"] = 1518764624.592,
-				["class"] = "MONK",
-				["timestring"] = "5m 25s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2731,14 +4119,14 @@ DeathGraphsDBCurrent = {
 						"Sassybogs-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MONK",
+				["timestring"] = "5m 25s",
+				["time"] = 1518764624.592,
 			}, -- [5]
 			{
 				["maxhealth"] = 4326480,
 				["timeofdeath"] = 380.227999999999,
 				["name"] = "Slimane-Tichondrius",
-				["time"] = 1518764679.393,
-				["class"] = "MAGE",
-				["timestring"] = "6m 20s",
 				["events"] = {
 					{
 						4, -- [1]
@@ -3133,14 +4521,14 @@ DeathGraphsDBCurrent = {
 						"Slimane-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MAGE",
+				["timestring"] = "6m 20s",
+				["time"] = 1518764679.393,
 			}, -- [6]
 			{
 				["maxhealth"] = 5973360,
 				["timeofdeath"] = 390.992000000002,
 				["name"] = "Mathrim-Uther",
-				["time"] = 1518764690.157,
-				["class"] = "MAGE",
-				["timestring"] = "6m 30s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -3535,14 +4923,14 @@ DeathGraphsDBCurrent = {
 						"Mathrim-Uther", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MAGE",
+				["timestring"] = "6m 30s",
+				["time"] = 1518764690.157,
 			}, -- [7]
 			{
 				["maxhealth"] = 5236380,
 				["timeofdeath"] = 390.992000000002,
 				["name"] = "Allîar-Tichondrius",
-				["time"] = 1518764690.157,
-				["class"] = "ROGUE",
-				["timestring"] = "6m 30s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3937,14 +5325,14 @@ DeathGraphsDBCurrent = {
 						"Allîar-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "ROGUE",
+				["timestring"] = "6m 30s",
+				["time"] = 1518764690.157,
 			}, -- [8]
 			{
 				["maxhealth"] = 4395660,
 				["timeofdeath"] = 390.992000000002,
 				["name"] = "Blakeypriest-Tichondrius",
-				["time"] = 1518764690.157,
-				["class"] = "PRIEST",
-				["timestring"] = "6m 30s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -4339,14 +5727,14 @@ DeathGraphsDBCurrent = {
 						"Blakeypriest-Tichondrius", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "6m 30s",
+				["time"] = 1518764690.157,
 			}, -- [9]
 			{
 				["maxhealth"] = 6188640,
 				["timeofdeath"] = 451.048000000003,
 				["name"] = "Lyfeguard-Kil'jaeden",
-				["time"] = 1518764750.213,
-				["class"] = "PRIEST",
-				["timestring"] = "7m 31s",
 				["events"] = {
 					{
 						4, -- [1]
@@ -4741,6 +6129,9 @@ DeathGraphsDBCurrent = {
 						"Lyfeguard-Kil'jaeden", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "7m 31s",
+				["time"] = 1518764750.213,
 			}, -- [10]
 		},
 		["bossname"] = "Antoran High Command",
@@ -4753,4040 +6144,6 @@ DeathGraphsDBCurrent = {
 		},
 		["date"] = 16665.242,
 		["timeelapsed"] = 548.762000000002,
-	}, -- [1]
-	{
-		["deaths"] = {
-			{
-				["maxhealth"] = 4395660,
-				["timeofdeath"] = 50.4000000000015,
-				["name"] = "Blakeypriest-Tichondrius",
-				["time"] = 1518763586.833,
-				["class"] = "PRIEST",
-				["timestring"] = "0m 50s",
-				["events"] = {
-					{
-						false, -- [1]
-						252879, -- [2]
-						445396, -- [3]
-						1518763566.994, -- [4]
-						4395660, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						194022, -- [2]
-						175826, -- [3]
-						1518763577.593, -- [4]
-						4395660, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						true, -- [1]
-						245121, -- [2]
-						2199167, -- [3]
-						1518763577.593, -- [4]
-						2372319, -- [5]
-						"Entropic Mine", -- [6]
-						175826, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						4, -- [1]
-						253290, -- [2]
-						1, -- [3]
-						1518763577.593, -- [4]
-						2372319, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						253290, -- [2]
-						130644, -- [3]
-						1518763578.616, -- [4]
-						2241675, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						253290, -- [2]
-						130644, -- [3]
-						1518763579.601, -- [4]
-						2111031, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						33110, -- [2]
-						206707, -- [3]
-						1518763579.601, -- [4]
-						2317738, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						true, -- [1]
-						253290, -- [2]
-						130644, -- [3]
-						1518763580.607, -- [4]
-						2187094, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						596, -- [2]
-						921315, -- [3]
-						1518763581.237, -- [4]
-						3108409, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						253290, -- [2]
-						130644, -- [3]
-						1518763581.601, -- [4]
-						2977765, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						33110, -- [2]
-						206707, -- [3]
-						1518763581.628, -- [4]
-						3184472, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						252879, -- [2]
-						653248, -- [3]
-						1518763582.109, -- [4]
-						3837720, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						596, -- [2]
-						921315, -- [3]
-						1518763582.331, -- [4]
-						4395660, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						321956, -- [3]
-						1518763582.649, -- [4]
-						4395660, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						34914, -- [2]
-						140180, -- [3]
-						1518763582.72, -- [4]
-						4395660, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						194022, -- [2]
-						149225, -- [3]
-						1518763583.808, -- [4]
-						4395660, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						true, -- [1]
-						253039, -- [2]
-						745360, -- [3]
-						1518763583.808, -- [4]
-						3799525, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						149225, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						253039, -- [2]
-						763836, -- [3]
-						1518763583.808, -- [4]
-						3035689, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						34914, -- [2]
-						60948, -- [3]
-						1518763584.02, -- [4]
-						3096637, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						34914, -- [2]
-						140180, -- [3]
-						1518763584.645, -- [4]
-						3236817, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						253039, -- [2]
-						756400, -- [3]
-						1518763584.82, -- [4]
-						2480417, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						253039, -- [2]
-						734078, -- [3]
-						1518763584.82, -- [4]
-						1746339, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						34914, -- [2]
-						121896, -- [3]
-						1518763585.135, -- [4]
-						1868235, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						77489, -- [2]
-						321956, -- [3]
-						1518763585.64, -- [4]
-						2190191, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						true, -- [1]
-						253039, -- [2]
-						761265, -- [3]
-						1518763585.823, -- [4]
-						1428926, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						253039, -- [2]
-						750606, -- [3]
-						1518763585.823, -- [4]
-						678320, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						34914, -- [2]
-						60948, -- [3]
-						1518763585.935, -- [4]
-						739268, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [27]
-					{
-						false, -- [1]
-						34914, -- [2]
-						121896, -- [3]
-						1518763586.064, -- [4]
-						861164, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						4, -- [1]
-						253290, -- [2]
-						1, -- [3]
-						1518763586.182, -- [4]
-						861164, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						34914, -- [2]
-						70090, -- [3]
-						1518763586.531, -- [4]
-						931254, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						253039, -- [2]
-						666702, -- [3]
-						1518763586.811, -- [4]
-						264552, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						253039, -- [2]
-						676152, -- [3]
-						1518763586.833, -- [4]
-						1, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						411600, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Blakeypriest-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [1]
-			{
-				["maxhealth"] = 5749380,
-				["timeofdeath"] = 248.746000000001,
-				["name"] = "Dotido-Tichondrius",
-				["time"] = 1518763785.179,
-				["class"] = "WARLOCK",
-				["timestring"] = "4m 8s",
-				["events"] = {
-					{
-						2, -- [1]
-						61999, -- [2]
-						1, -- [3]
-						1518763959.318, -- [4]
-						0, -- [5]
-						"Greybone", -- [6]
-					}, -- [1]
-					{
-						2, -- [1]
-						95750, -- [2]
-						1, -- [3]
-						1518763794.882, -- [4]
-						0, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-					}, -- [2]
-					{
-						false, -- [1]
-						596, -- [2]
-						578636, -- [3]
-						1518763779.414, -- [4]
-						5749380, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						119611, -- [2]
-						77182, -- [3]
-						1518763779.433, -- [4]
-						5749380, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						218615, -- [2]
-						341427, -- [3]
-						1518763780.664, -- [4]
-						5749380, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						39765, -- [3]
-						1518763780.829, -- [4]
-						5749380, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						191840, -- [2]
-						34401, -- [3]
-						1518763780.829, -- [4]
-						5749380, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						596, -- [2]
-						445104, -- [3]
-						1518763781.091, -- [4]
-						5749380, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						4, -- [1]
-						244172, -- [2]
-						24, -- [3]
-						1518763781.156, -- [4]
-						5749380, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						108366, -- [2]
-						60819, -- [3]
-						1518763781.156, -- [4]
-						5749380, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763781.156, -- [4]
-						5749380, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						77489, -- [2]
-						202903, -- [3]
-						1518763781.989, -- [4]
-						3340534, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						191840, -- [2]
-						17201, -- [3]
-						1518763782.376, -- [4]
-						3357735, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19121, -- [3]
-						1518763782.442, -- [4]
-						3376856, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						82326, -- [2]
-						676880, -- [3]
-						1518763782.638, -- [4]
-						4053736, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						119952, -- [2]
-						145902, -- [3]
-						1518763783.055, -- [4]
-						4199638, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						4, -- [1]
-						244172, -- [2]
-						25, -- [3]
-						1518763783.152, -- [4]
-						4199638, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						108366, -- [2]
-						52550, -- [3]
-						1518763783.152, -- [4]
-						4199638, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763783.152, -- [4]
-						4199638, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						33110, -- [2]
-						173677, -- [3]
-						1518763783.168, -- [4]
-						1561180, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						218615, -- [2]
-						170714, -- [3]
-						1518763783.877, -- [4]
-						1731894, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						191840, -- [2]
-						17201, -- [3]
-						1518763783.935, -- [4]
-						1749095, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						18610, -- [3]
-						1518763784.069, -- [4]
-						1767705, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						191894, -- [2]
-						402288, -- [3]
-						1518763784.822, -- [4]
-						2169993, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						191894, -- [2]
-						402288, -- [3]
-						1518763784.822, -- [4]
-						2572281, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						596, -- [2]
-						503162, -- [3]
-						1518763784.866, -- [4]
-						3075443, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						77489, -- [2]
-						231859, -- [3]
-						1518763784.984, -- [4]
-						3307302, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						243241, -- [2]
-						277466, -- [3]
-						1518763784.999, -- [4]
-						3584768, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						119952, -- [2]
-						153696, -- [3]
-						1518763785.063, -- [4]
-						3738464, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						244172, -- [2]
-						26, -- [3]
-						1518763785.137, -- [4]
-						3738464, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						244388, -- [2]
-						1, -- [3]
-						1518763785.151, -- [4]
-						3738464, -- [5]
-						"[*] Psychic Scarring", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						4, -- [1]
-						244172, -- [2]
-						27, -- [3]
-						1518763785.151, -- [4]
-						3738464, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [32]
-					{
-						false, -- [1]
-						108366, -- [2]
-						26911, -- [3]
-						1518763785.151, -- [4]
-						3738464, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [33]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763785.151, -- [4]
-						3738464, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [34]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Dotido-Tichondrius", -- [6]
-					}, -- [35]
-				},
-			}, -- [2]
-			{
-				["maxhealth"] = 5749380,
-				["timeofdeath"] = 413.313,
-				["name"] = "Dotido-Tichondrius",
-				["time"] = 1518763949.746,
-				["class"] = "WARLOCK",
-				["timestring"] = "6m 53s",
-				["events"] = {
-					{
-						false, -- [1]
-						191840, -- [2]
-						3175, -- [3]
-						1518763939.386, -- [4]
-						4974250, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						4, -- [1]
-						244172, -- [2]
-						12, -- [3]
-						1518763939.719, -- [4]
-						4974250, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						108366, -- [2]
-						76041, -- [3]
-						1518763939.719, -- [4]
-						4974250, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						143924, -- [2]
-						8523, -- [3]
-						1518763940.035, -- [4]
-						4104802, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						77489, -- [2]
-						190349, -- [3]
-						1518763940.197, -- [4]
-						4295151, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						15217, -- [3]
-						1518763941.258, -- [4]
-						4310368, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						4, -- [1]
-						244172, -- [2]
-						13, -- [3]
-						1518763941.714, -- [4]
-						4310368, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						108366, -- [2]
-						23654, -- [3]
-						1518763941.714, -- [4]
-						4310368, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763941.714, -- [4]
-						4310368, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						596, -- [2]
-						387047, -- [3]
-						1518763942.164, -- [4]
-						3665684, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						8606, -- [3]
-						1518763942.474, -- [4]
-						3674290, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						77489, -- [2]
-						118684, -- [3]
-						1518763943.201, -- [4]
-						3792974, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19451, -- [3]
-						1518763943.698, -- [4]
-						3812425, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						4, -- [1]
-						244172, -- [2]
-						14, -- [3]
-						1518763943.726, -- [4]
-						3812425, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						108366, -- [2]
-						53459, -- [3]
-						1518763943.726, -- [4]
-						3812425, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763943.726, -- [4]
-						3812425, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						64844, -- [2]
-						328696, -- [3]
-						1518763944.763, -- [4]
-						3030133, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19452, -- [3]
-						1518763944.892, -- [4]
-						3049585, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						244172, -- [2]
-						15, -- [3]
-						1518763945.724, -- [4]
-						3049585, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						108366, -- [2]
-						53459, -- [3]
-						1518763945.724, -- [4]
-						3049585, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763945.724, -- [4]
-						3049585, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						126031, -- [3]
-						1518763946.2, -- [4]
-						1947906, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						64844, -- [2]
-						361566, -- [3]
-						1518763946.427, -- [4]
-						2309472, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19451, -- [3]
-						1518763946.524, -- [4]
-						2328923, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						4, -- [1]
-						244172, -- [2]
-						16, -- [3]
-						1518763947.724, -- [4]
-						2328923, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						108366, -- [2]
-						53459, -- [3]
-						1518763947.724, -- [4]
-						2328923, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518763947.724, -- [4]
-						2328923, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						7258, -- [3]
-						1518763948.141, -- [4]
-						984113, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77489, -- [2]
-						135619, -- [3]
-						1518763949.193, -- [4]
-						1119732, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						7258, -- [3]
-						1518763949.371, -- [4]
-						1126990, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						244172, -- [2]
-						17, -- [3]
-						1518763949.729, -- [4]
-						1126990, -- [5]
-						"[*] Psychic Assault", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						108366, -- [2]
-						39621, -- [3]
-						1518763949.729, -- [4]
-						1126990, -- [5]
-						"Dotido-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						104773, -- [2]
-						1, -- [3]
-						1518763803.633, -- [4]
-						0, -- [5]
-						"Dotido-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [3]
-			{
-				["maxhealth"] = 4326480,
-				["timeofdeath"] = 430.654,
-				["name"] = "Slimane-Tichondrius",
-				["time"] = 1518763967.087,
-				["class"] = "MAGE",
-				["timestring"] = "7m 10s",
-				["events"] = {
-					{
-						true, -- [1]
-						253039, -- [2]
-						759565, -- [3]
-						1518763964.285, -- [4]
-						1819916, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						183811, -- [2]
-						28683, -- [3]
-						1518763964.388, -- [4]
-						1848599, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						34861, -- [2]
-						672974, -- [3]
-						1518763964.511, -- [4]
-						2521573, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						228401, -- [2]
-						793943, -- [3]
-						1518763964.533, -- [4]
-						3315516, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						183811, -- [2]
-						14061, -- [3]
-						1518763964.56, -- [4]
-						3329577, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						78727, -- [3]
-						1518763964.767, -- [4]
-						3408304, -- [5]
-						"Slimane-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						253039, -- [2]
-						716576, -- [3]
-						1518763964.801, -- [4]
-						2691728, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						183811, -- [2]
-						74111, -- [3]
-						1518763965.034, -- [4]
-						2765839, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						183811, -- [2]
-						14060, -- [3]
-						1518763965.034, -- [4]
-						2779899, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						183811, -- [2]
-						37055, -- [3]
-						1518763965.052, -- [4]
-						2816954, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						183811, -- [2]
-						28683, -- [3]
-						1518763965.052, -- [4]
-						2845637, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						191840, -- [2]
-						442909, -- [3]
-						1518763965.147, -- [4]
-						3288546, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						183811, -- [2]
-						37056, -- [3]
-						1518763965.24, -- [4]
-						3325602, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						183811, -- [2]
-						28683, -- [3]
-						1518763965.24, -- [4]
-						3354285, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						253039, -- [2]
-						708136, -- [3]
-						1518763965.302, -- [4]
-						2646149, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						183811, -- [2]
-						37056, -- [3]
-						1518763965.536, -- [4]
-						2683205, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						183811, -- [2]
-						14060, -- [3]
-						1518763965.536, -- [4]
-						2697265, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						253039, -- [2]
-						708232, -- [3]
-						1518763965.795, -- [4]
-						1989033, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						70262, -- [3]
-						1518763965.976, -- [4]
-						2059295, -- [5]
-						"Slimane-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						183811, -- [2]
-						37055, -- [3]
-						1518763966.049, -- [4]
-						2096350, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						183811, -- [2]
-						14061, -- [3]
-						1518763966.049, -- [4]
-						2110411, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						119952, -- [2]
-						169027, -- [3]
-						1518763966.074, -- [4]
-						2279438, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						253039, -- [2]
-						717532, -- [3]
-						1518763966.074, -- [4]
-						1561906, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						253039, -- [2]
-						742815, -- [3]
-						1518763966.286, -- [4]
-						819091, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						183811, -- [2]
-						37055, -- [3]
-						1518763966.537, -- [4]
-						856146, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						183811, -- [2]
-						14060, -- [3]
-						1518763966.537, -- [4]
-						870206, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						191840, -- [2]
-						19685, -- [3]
-						1518763966.718, -- [4]
-						889891, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						228401, -- [2]
-						485327, -- [3]
-						1518763966.739, -- [4]
-						1375218, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						253039, -- [2]
-						749052, -- [3]
-						1518763966.8, -- [4]
-						626166, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						183811, -- [2]
-						37055, -- [3]
-						1518763967.033, -- [4]
-						663221, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						183811, -- [2]
-						14060, -- [3]
-						1518763967.033, -- [4]
-						677281, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						253039, -- [2]
-						740079, -- [3]
-						1518763967.087, -- [4]
-						1, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						62798, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Slimane-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [4]
-			{
-				["maxhealth"] = 5461920,
-				["timeofdeath"] = 451.595000000001,
-				["name"] = "Rikumaruu-Tichondrius",
-				["time"] = 1518763988.028,
-				["class"] = "HUNTER",
-				["timestring"] = "7m 31s",
-				["events"] = {
-					{
-						false, -- [1]
-						162530, -- [2]
-						41843, -- [3]
-						1518763982.878, -- [4]
-						5288394, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						183811, -- [2]
-						32672, -- [3]
-						1518763982.912, -- [4]
-						5321066, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763982.912, -- [4]
-						5332584, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763982.912, -- [4]
-						5344102, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						252879, -- [2]
-						580383, -- [3]
-						1518763982.929, -- [4]
-						5461920, -- [5]
-						"Rikumaruu-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						253290, -- [2]
-						235150, -- [3]
-						1518763983.621, -- [4]
-						5226770, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						183811, -- [2]
-						32672, -- [3]
-						1518763983.648, -- [4]
-						5259442, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11519, -- [3]
-						1518763983.648, -- [4]
-						5270961, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						191840, -- [2]
-						39561, -- [3]
-						1518763984.281, -- [4]
-						5310522, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						235967, -- [2]
-						33533, -- [3]
-						1518763984.357, -- [4]
-						5344055, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						253290, -- [2]
-						235150, -- [3]
-						1518763984.594, -- [4]
-						5108905, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						162530, -- [2]
-						41844, -- [3]
-						1518763984.664, -- [4]
-						5150749, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						235967, -- [2]
-						9026, -- [3]
-						1518763985.343, -- [4]
-						5159775, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						183811, -- [2]
-						23497, -- [3]
-						1518763985.503, -- [4]
-						5183272, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						183811, -- [2]
-						65344, -- [3]
-						1518763985.503, -- [4]
-						5248616, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						253290, -- [2]
-						235150, -- [3]
-						1518763985.606, -- [4]
-						5013466, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						162530, -- [2]
-						83688, -- [3]
-						1518763985.798, -- [4]
-						5097154, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						191840, -- [2]
-						19781, -- [3]
-						1518763985.843, -- [4]
-						5116935, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						235967, -- [2]
-						15444, -- [3]
-						1518763985.862, -- [4]
-						5132379, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						191840, -- [2]
-						6381, -- [3]
-						1518763986.087, -- [4]
-						5138760, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						253037, -- [2]
-						1, -- [3]
-						1518763986.198, -- [4]
-						5138760, -- [5]
-						"Felblade Shocktrooper", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						253039, -- [2]
-						654029, -- [3]
-						1518763986.198, -- [4]
-						4484731, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						253290, -- [2]
-						144853, -- [3]
-						1518763986.219, -- [4]
-						4339878, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						183811, -- [2]
-						65345, -- [3]
-						1518763986.244, -- [4]
-						4405223, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						34861, -- [2]
-						783947, -- [3]
-						1518763986.266, -- [4]
-						5189170, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						235967, -- [2]
-						3828, -- [3]
-						1518763986.346, -- [4]
-						5192998, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						162530, -- [2]
-						41844, -- [3]
-						1518763986.379, -- [4]
-						5234842, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11373, -- [3]
-						1518763986.75, -- [4]
-						5246215, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						162530, -- [2]
-						41843, -- [3]
-						1518763986.947, -- [4]
-						5288058, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						183811, -- [2]
-						32222, -- [3]
-						1518763987.129, -- [4]
-						5320280, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						162530, -- [2]
-						41843, -- [3]
-						1518763987.53, -- [4]
-						5362123, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						244627, -- [2]
-						5806168, -- [3]
-						1518763988.028, -- [4]
-						1, -- [5]
-						"Legion Cruiser", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						444045, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Rikumaruu-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [5]
-			{
-				["maxhealth"] = 5827500,
-				["timeofdeath"] = 451.595000000001,
-				["name"] = "Koraei-Zangarmarsh",
-				["time"] = 1518763988.028,
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "7m 31s",
-				["events"] = {
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763982.785, -- [4]
-						3909604, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						235967, -- [2]
-						14462, -- [3]
-						1518763982.862, -- [4]
-						3924066, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						183811, -- [2]
-						31140, -- [3]
-						1518763983.124, -- [4]
-						3955206, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763983.124, -- [4]
-						3966724, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763983.124, -- [4]
-						3978242, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						235967, -- [2]
-						3297, -- [3]
-						1518763983.351, -- [4]
-						3981539, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						191840, -- [2]
-						19781, -- [3]
-						1518763983.505, -- [4]
-						4001320, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						253290, -- [2]
-						252087, -- [3]
-						1518763983.621, -- [4]
-						3749233, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						235967, -- [2]
-						11888, -- [3]
-						1518763983.848, -- [4]
-						3761121, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						183811, -- [2]
-						60935, -- [3]
-						1518763984.131, -- [4]
-						3822056, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						183811, -- [2]
-						23498, -- [3]
-						1518763984.131, -- [4]
-						3845554, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						183811, -- [2]
-						23497, -- [3]
-						1518763984.131, -- [4]
-						3869051, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						53365, -- [2]
-						349650, -- [3]
-						1518763984.594, -- [4]
-						4218701, -- [5]
-						"Koraei-Zangarmarsh", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						253290, -- [2]
-						252087, -- [3]
-						1518763984.594, -- [4]
-						3966614, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763984.594, -- [4]
-						3978132, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						191840, -- [2]
-						19780, -- [3]
-						1518763985.066, -- [4]
-						3997912, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						183811, -- [2]
-						60935, -- [3]
-						1518763985.116, -- [4]
-						4058847, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11518, -- [3]
-						1518763985.572, -- [4]
-						4070365, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						253290, -- [2]
-						252087, -- [3]
-						1518763985.606, -- [4]
-						3818278, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						162530, -- [2]
-						83687, -- [3]
-						1518763985.798, -- [4]
-						3901965, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						82326, -- [2]
-						784542, -- [3]
-						1518763986.147, -- [4]
-						4686507, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						253290, -- [2]
-						139757, -- [3]
-						1518763986.219, -- [4]
-						4546750, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						33110, -- [2]
-						404641, -- [3]
-						1518763986.244, -- [4]
-						4951391, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						34861, -- [2]
-						783947, -- [3]
-						1518763986.266, -- [4]
-						5735338, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						162530, -- [2]
-						41843, -- [3]
-						1518763986.379, -- [4]
-						5777181, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						191840, -- [2]
-						19780, -- [3]
-						1518763986.601, -- [4]
-						5796961, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						191840, -- [2]
-						3191, -- [3]
-						1518763986.851, -- [4]
-						5800152, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						162530, -- [2]
-						83687, -- [3]
-						1518763986.947, -- [4]
-						5827500, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						253039, -- [2]
-						759418, -- [3]
-						1518763987.194, -- [4]
-						5068082, -- [5]
-						"Felblade Shocktrooper <General Erodus>", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						162530, -- [2]
-						83687, -- [3]
-						1518763987.53, -- [4]
-						5151769, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						183811, -- [2]
-						11374, -- [3]
-						1518763987.933, -- [4]
-						5163143, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						244627, -- [2]
-						5213586, -- [3]
-						1518763988.007, -- [4]
-						1, -- [5]
-						"Legion Cruiser", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						50443, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						48707, -- [2]
-						1, -- [3]
-						1518763916.774, -- [4]
-						0, -- [5]
-						"Koraei-Zangarmarsh", -- [6]
-					}, -- [33]
-				},
-			}, -- [6]
-			{
-				["maxhealth"] = 7205532,
-				["timeofdeath"] = 470.434000000001,
-				["name"] = "Panly-Tichondrius",
-				["time"] = 1518764006.867,
-				["class"] = "PALADIN",
-				["timestring"] = "7m 50s",
-				["events"] = {
-					{
-						4, -- [1]
-						253290, -- [2]
-						5, -- [3]
-						1518764000.835, -- [4]
-						4952391, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						253290, -- [2]
-						671583, -- [3]
-						1518764001.228, -- [4]
-						4280808, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						253290, -- [2]
-						671583, -- [3]
-						1518764002.218, -- [4]
-						3609225, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						253288, -- [2]
-						631582, -- [3]
-						1518764003.197, -- [4]
-						4240807, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						253290, -- [2]
-						671583, -- [3]
-						1518764003.197, -- [4]
-						3569224, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						162530, -- [2]
-						72772, -- [3]
-						1518764003.615, -- [4]
-						3641996, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						253290, -- [2]
-						671583, -- [3]
-						1518764004.262, -- [4]
-						2970413, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764004.284, -- [4]
-						3006799, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						257974, -- [2]
-						189659, -- [3]
-						1518764004.284, -- [4]
-						2817140, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						4, -- [1]
-						257974, -- [2]
-						1, -- [3]
-						1518764004.284, -- [4]
-						2817140, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						257974, -- [2]
-						190554, -- [3]
-						1518764004.479, -- [4]
-						2626586, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						4, -- [1]
-						257974, -- [2]
-						2, -- [3]
-						1518764004.479, -- [4]
-						2626586, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						253290, -- [2]
-						6, -- [3]
-						1518764004.591, -- [4]
-						2626586, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						257974, -- [2]
-						189248, -- [3]
-						1518764004.692, -- [4]
-						2437338, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						4, -- [1]
-						257974, -- [2]
-						3, -- [3]
-						1518764004.692, -- [4]
-						2437338, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						253290, -- [2]
-						830076, -- [3]
-						1518764004.845, -- [4]
-						1607262, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						257974, -- [2]
-						192444, -- [3]
-						1518764005.378, -- [4]
-						1414818, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						257974, -- [2]
-						4, -- [3]
-						1518764005.378, -- [4]
-						1414818, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						257974, -- [2]
-						198057, -- [3]
-						1518764005.608, -- [4]
-						1216761, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						4, -- [1]
-						257974, -- [2]
-						5, -- [3]
-						1518764005.608, -- [4]
-						1216761, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						253290, -- [2]
-						846194, -- [3]
-						1518764005.842, -- [4]
-						370567, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						257974, -- [2]
-						191157, -- [3]
-						1518764005.883, -- [4]
-						179410, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						4, -- [1]
-						257974, -- [2]
-						6, -- [3]
-						1518764005.883, -- [4]
-						179410, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						253216, -- [2]
-						35389, -- [3]
-						1518764006.26, -- [4]
-						214799, -- [5]
-						"Panly-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						242400, -- [2]
-						220520, -- [3]
-						1518764006.347, -- [4]
-						435319, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						242400, -- [2]
-						220520, -- [3]
-						1518764006.347, -- [4]
-						655839, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						191894, -- [2]
-						423823, -- [3]
-						1518764006.383, -- [4]
-						1079662, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						257974, -- [2]
-						192098, -- [3]
-						1518764006.517, -- [4]
-						887564, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						257974, -- [2]
-						7, -- [3]
-						1518764006.517, -- [4]
-						887564, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						257974, -- [2]
-						207090, -- [3]
-						1518764006.739, -- [4]
-						680474, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						257974, -- [2]
-						8, -- [3]
-						1518764006.739, -- [4]
-						680474, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						253290, -- [2]
-						870371, -- [3]
-						1518764006.867, -- [4]
-						1, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						189897, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						498, -- [2]
-						1, -- [3]
-						1518763986.147, -- [4]
-						0, -- [5]
-						"Panly-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [7]
-			{
-				["maxhealth"] = 5946300,
-				["timeofdeath"] = 474.443000000001,
-				["name"] = "Pencilvestor-Tichondrius",
-				["time"] = 1518764010.876,
-				["class"] = "MONK",
-				["timestring"] = "7m 54s",
-				["events"] = {
-					{
-						true, -- [1]
-						253290, -- [2]
-						607393, -- [3]
-						1518764001.228, -- [4]
-						4690510, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						33110, -- [2]
-						202320, -- [3]
-						1518764001.228, -- [4]
-						4892830, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						143924, -- [2]
-						77207, -- [3]
-						1518764001.228, -- [4]
-						4970037, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						253290, -- [2]
-						607393, -- [3]
-						1518764002.218, -- [4]
-						4362644, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						33110, -- [2]
-						404640, -- [3]
-						1518764002.218, -- [4]
-						4767284, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						77489, -- [2]
-						130338, -- [3]
-						1518764002.377, -- [4]
-						4897622, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						66544, -- [3]
-						1518764002.573, -- [4]
-						4964166, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						253290, -- [2]
-						607393, -- [3]
-						1518764003.197, -- [4]
-						4356773, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764003.615, -- [4]
-						4393159, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						253290, -- [2]
-						607393, -- [3]
-						1518764004.262, -- [4]
-						3785766, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36385, -- [3]
-						1518764004.284, -- [4]
-						3822151, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						596, -- [2]
-						693665, -- [3]
-						1518764004.308, -- [4]
-						4515816, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						253290, -- [2]
-						6, -- [3]
-						1518764004.591, -- [4]
-						4515816, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						253290, -- [2]
-						728872, -- [3]
-						1518764004.845, -- [4]
-						3786944, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						77489, -- [2]
-						190309, -- [3]
-						1518764005.36, -- [4]
-						3977253, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						253290, -- [2]
-						728872, -- [3]
-						1518764005.842, -- [4]
-						3248381, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						75561, -- [3]
-						1518764006.187, -- [4]
-						3248381, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						109147, -- [3]
-						1518764006.187, -- [4]
-						3248381, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						1691, -- [3]
-						1518764006.612, -- [4]
-						3250072, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						253290, -- [2]
-						728872, -- [3]
-						1518764006.867, -- [4]
-						2521200, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						3560, -- [3]
-						1518764007.825, -- [4]
-						2524760, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						4, -- [1]
-						253290, -- [2]
-						7, -- [3]
-						1518764007.825, -- [4]
-						2524760, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						253290, -- [2]
-						850350, -- [3]
-						1518764007.849, -- [4]
-						1674410, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						77489, -- [2]
-						190309, -- [3]
-						1518764008.368, -- [4]
-						1864719, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						183811, -- [2]
-						21041, -- [3]
-						1518764008.729, -- [4]
-						1885760, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						253290, -- [2]
-						850350, -- [3]
-						1518764008.846, -- [4]
-						1035410, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						143924, -- [2]
-						109695, -- [3]
-						1518764009.048, -- [4]
-						1145105, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						253290, -- [2]
-						850350, -- [3]
-						1518764009.846, -- [4]
-						294755, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						33110, -- [2]
-						399456, -- [3]
-						1518764009.846, -- [4]
-						694211, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						41755, -- [3]
-						1518764010.252, -- [4]
-						735966, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						183811, -- [2]
-						21041, -- [3]
-						1518764010.567, -- [4]
-						757007, -- [5]
-						"Shogunmaster-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						253290, -- [2]
-						850350, -- [3]
-						1518764010.851, -- [4]
-						1, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						93343, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						122470, -- [2]
-						1, -- [3]
-						1518763987.019, -- [4]
-						0, -- [5]
-						"Pencilvestor-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [8]
-			{
-				["maxhealth"] = 4539660,
-				["timeofdeath"] = 475.053,
-				["name"] = "Irogasm-Tichondrius",
-				["time"] = 1518764011.486,
-				["class"] = "WARLOCK",
-				["timestring"] = "7m 55s",
-				["events"] = {
-					{
-						true, -- [1]
-						253290, -- [2]
-						926269, -- [3]
-						1518764007.849, -- [4]
-						3658685, -- [5]
-						"Entropic Mine", -- [6]
-						238751, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						143924, -- [2]
-						28419, -- [3]
-						1518764008.619, -- [4]
-						3687104, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						108366, -- [2]
-						181130, -- [3]
-						1518764008.846, -- [4]
-						3687104, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518764008.846, -- [4]
-						3687104, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						253290, -- [2]
-						926269, -- [3]
-						1518764008.846, -- [4]
-						2941965, -- [5]
-						"Entropic Mine", -- [6]
-						181130, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						108366, -- [2]
-						101245, -- [3]
-						1518764009.399, -- [4]
-						2941965, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518764009.399, -- [4]
-						2941965, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						257974, -- [2]
-						178109, -- [3]
-						1518764009.399, -- [4]
-						2865101, -- [5]
-						"Admiral Svirax", -- [6]
-						101245, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						4, -- [1]
-						257974, -- [2]
-						1, -- [3]
-						1518764009.399, -- [4]
-						2865101, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						257974, -- [2]
-						192010, -- [3]
-						1518764009.607, -- [4]
-						2673091, -- [5]
-						"Admiral Svirax", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						4, -- [1]
-						257974, -- [2]
-						2, -- [3]
-						1518764009.607, -- [4]
-						2673091, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						257974, -- [2]
-						183559, -- [3]
-						1518764009.789, -- [4]
-						2489532, -- [5]
-						"Admiral Svirax", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						257974, -- [2]
-						3, -- [3]
-						1518764009.789, -- [4]
-						2489532, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19858, -- [3]
-						1518764009.846, -- [4]
-						2509390, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						253290, -- [2]
-						954057, -- [3]
-						1518764009.846, -- [4]
-						1555333, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						108366, -- [2]
-						199998, -- [3]
-						1518764010.342, -- [4]
-						1555333, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						257974, -- [2]
-						199998, -- [3]
-						1518764010.342, -- [4]
-						1555333, -- [5]
-						"Admiral Svirax", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						257974, -- [2]
-						4, -- [3]
-						1518764010.342, -- [4]
-						1555333, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						108366, -- [2]
-						32112, -- [3]
-						1518764010.548, -- [4]
-						1555333, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518764010.548, -- [4]
-						1555333, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						257974, -- [2]
-						191710, -- [3]
-						1518764010.548, -- [4]
-						1395735, -- [5]
-						"Admiral Svirax", -- [6]
-						32112, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						4, -- [1]
-						257974, -- [2]
-						5, -- [3]
-						1518764010.548, -- [4]
-						1395735, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						257974, -- [2]
-						205703, -- [3]
-						1518764010.733, -- [4]
-						1190032, -- [5]
-						"Admiral Svirax", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						4, -- [1]
-						257974, -- [2]
-						6, -- [3]
-						1518764010.733, -- [4]
-						1190032, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						253290, -- [2]
-						981845, -- [3]
-						1518764010.851, -- [4]
-						208187, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						143924, -- [2]
-						11503, -- [3]
-						1518764011.053, -- [4]
-						219690, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						108366, -- [2]
-						58350, -- [3]
-						1518764011.292, -- [4]
-						219690, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1518764011.292, -- [4]
-						219690, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						257974, -- [2]
-						193727, -- [3]
-						1518764011.292, -- [4]
-						84313, -- [5]
-						"Admiral Svirax", -- [6]
-						58350, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						257974, -- [2]
-						7, -- [3]
-						1518764011.292, -- [4]
-						84313, -- [5]
-						"Admiral Svirax", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						253290, -- [2]
-						8, -- [3]
-						1518764011.46, -- [4]
-						84313, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						257974, -- [2]
-						196534, -- [3]
-						1518764011.486, -- [4]
-						1, -- [5]
-						"Admiral Svirax", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						112221, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						104773, -- [2]
-						1, -- [3]
-						1518763929.002, -- [4]
-						0, -- [5]
-						"Irogasm-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [9]
-			{
-				["maxhealth"] = 5990040,
-				["timeofdeath"] = 475.426000000001,
-				["name"] = "Sassybogs-Tichondrius",
-				["time"] = 1518764011.859,
-				["class"] = "MONK",
-				["timestring"] = "7m 55s",
-				["events"] = {
-					{
-						false, -- [1]
-						162530, -- [2]
-						36385, -- [3]
-						1518764005.946, -- [4]
-						4799395, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						253448, -- [2]
-						80578, -- [3]
-						1518764006.245, -- [4]
-						4879973, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						253581, -- [2]
-						636116, -- [3]
-						1518764006.347, -- [4]
-						5516089, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764006.517, -- [4]
-						5552475, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						571940, -- [3]
-						1518764006.612, -- [4]
-						5990040, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						253290, -- [2]
-						759524, -- [3]
-						1518764006.867, -- [4]
-						5230516, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764007.109, -- [4]
-						5266902, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						253216, -- [2]
-						192062, -- [3]
-						1518764007.224, -- [4]
-						5458964, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						77489, -- [2]
-						233438, -- [3]
-						1518764007.305, -- [4]
-						5692402, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36385, -- [3]
-						1518764007.678, -- [4]
-						5728787, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						253448, -- [2]
-						40288, -- [3]
-						1518764007.779, -- [4]
-						5769075, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						116213, -- [3]
-						1518764007.825, -- [4]
-						5885288, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						253290, -- [2]
-						7, -- [3]
-						1518764007.825, -- [4]
-						5885288, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						253290, -- [2]
-						886112, -- [3]
-						1518764007.849, -- [4]
-						4999176, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764008.275, -- [4]
-						5035562, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						253290, -- [2]
-						886112, -- [3]
-						1518764008.846, -- [4]
-						4149450, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764008.871, -- [4]
-						4185836, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						253448, -- [2]
-						29892, -- [3]
-						1518764008.94, -- [4]
-						4215728, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764009.431, -- [4]
-						4252114, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						253290, -- [2]
-						886112, -- [3]
-						1518764009.846, -- [4]
-						3366002, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						253216, -- [2]
-						40583, -- [3]
-						1518764009.846, -- [4]
-						3406585, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764010.018, -- [4]
-						3442971, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						233439, -- [3]
-						1518764010.291, -- [4]
-						3676410, -- [5]
-						"Hangookie-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						162530, -- [2]
-						36386, -- [3]
-						1518764010.6, -- [4]
-						3712796, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						253290, -- [2]
-						886112, -- [3]
-						1518764010.851, -- [4]
-						2826684, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						245121, -- [2]
-						1984739, -- [3]
-						1518764011.46, -- [4]
-						841945, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						4, -- [1]
-						253290, -- [2]
-						8, -- [3]
-						1518764011.46, -- [4]
-						841945, -- [5]
-						"Entropic Mine", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						257974, -- [2]
-						172215, -- [3]
-						1518764011.602, -- [4]
-						669730, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						257974, -- [2]
-						1, -- [3]
-						1518764011.602, -- [4]
-						669730, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						257974, -- [2]
-						181240, -- [3]
-						1518764011.803, -- [4]
-						488490, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						257974, -- [2]
-						2, -- [3]
-						1518764011.803, -- [4]
-						488490, -- [5]
-						"Chief Engineer Ishkar", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						253290, -- [2]
-						1032953, -- [3]
-						1518764011.838, -- [4]
-						1, -- [5]
-						"Entropic Mine", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						544463, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Sassybogs-Tichondrius", -- [6]
-					}, -- [33]
-				},
-			}, -- [10]
-		},
-		["bossname"] = "Antoran High Command",
-		["bossicon"] = {
-			0.5, -- [1]
-			0.75, -- [2]
-			0, -- [3]
-			0.25, -- [4]
-			"Interface\\AddOns\\Details\\images\\raid\\AntorusRaid_BossFaces", -- [5]
-		},
-		["date"] = 15891.755,
-		["timeelapsed"] = 538.007000000001,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -8810,24 +6167,6 @@ DeathGraphsDBGraph = {
 			},
 		},
 		["spells"] = {
-			["Desolate Path"] = {
-				{
-					88, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					90, -- [1]
-					1518762196, -- [2]
-				}, -- [2]
-				{
-					186, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					282, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-			},
 			["Siphon Corruption"] = {
 				{
 					26, -- [1]
@@ -8853,60 +6192,6 @@ DeathGraphsDBGraph = {
 					263, -- [1]
 					1518762196, -- [2]
 				}, -- [6]
-			},
-			["Enflame Corruption"] = {
-				{
-					51, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					52, -- [1]
-					1518762196, -- [2]
-				}, -- [2]
-				{
-					149, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					245, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-			},
-			["Molten Touch"] = {
-				{
-					17, -- [1]
-					1518761687, -- [2]
-				}, -- [1]
-				{
-					113, -- [1]
-					1518761687, -- [2]
-				}, -- [2]
-				{
-					18, -- [1]
-					1518762196, -- [2]
-				}, -- [3]
-				{
-					114, -- [1]
-					1518762196, -- [2]
-				}, -- [4]
-				{
-					209, -- [1]
-					1518762196, -- [2]
-				}, -- [5]
-				{
-					307, -- [1]
-					1518762196, -- [2]
-				}, -- [6]
-			},
-			["Pounce"] = {
-				{
-					28, -- [1]
-					1518762196, -- [2]
-				}, -- [1]
-				{
-					29, -- [1]
-					1518762196, -- [2]
-				}, -- [2]
 			},
 			["Decay"] = {
 				{
@@ -9057,6 +6342,78 @@ DeathGraphsDBGraph = {
 					330, -- [1]
 					1518762196, -- [2]
 				}, -- [37]
+			},
+			["Enflame Corruption"] = {
+				{
+					51, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					52, -- [1]
+					1518762196, -- [2]
+				}, -- [2]
+				{
+					149, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					245, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
+			},
+			["Molten Touch"] = {
+				{
+					17, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					113, -- [1]
+					1518761687, -- [2]
+				}, -- [2]
+				{
+					18, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					114, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
+				{
+					209, -- [1]
+					1518762196, -- [2]
+				}, -- [5]
+				{
+					307, -- [1]
+					1518762196, -- [2]
+				}, -- [6]
+			},
+			["Pounce"] = {
+				{
+					28, -- [1]
+					1518762196, -- [2]
+				}, -- [1]
+				{
+					29, -- [1]
+					1518762196, -- [2]
+				}, -- [2]
+			},
+			["Desolate Path"] = {
+				{
+					88, -- [1]
+					1518761687, -- [2]
+				}, -- [1]
+				{
+					90, -- [1]
+					1518762196, -- [2]
+				}, -- [2]
+				{
+					186, -- [1]
+					1518762196, -- [2]
+				}, -- [3]
+				{
+					282, -- [1]
+					1518762196, -- [2]
+				}, -- [4]
 			},
 			["Smouldering"] = {
 				{
@@ -9228,12 +6585,12 @@ DeathGraphsDBGraph = {
 			},
 		},
 		["ids"] = {
-			["Desolate Path"] = 244825,
 			["Siphon Corruption"] = 244056,
+			["Decay"] = 245098,
 			["Enflame Corruption"] = 244057,
 			["Molten Touch"] = 244072,
 			["Pounce"] = 252641,
-			["Decay"] = 245098,
+			["Desolate Path"] = 244825,
 			["Smouldering"] = 251445,
 			["Hateful Smash"] = 251626,
 		},
@@ -9255,10 +6612,16 @@ DeathGraphsDBGraph = {
 			[208] = {
 				1518763271, -- [1]
 			},
-			[475] = {
-				1518763271, -- [1]
+			[325] = {
+				1518764848, -- [1]
 			},
-			[430] = {
+			[293] = {
+				1518764848, -- [1]
+			},
+			[107] = {
+				1518764848, -- [1]
+			},
+			[451] = {
 				1518764074, -- [1]
 			},
 			[158] = {
@@ -9267,27 +6630,21 @@ DeathGraphsDBGraph = {
 			[391] = {
 				1518763271, -- [1]
 			},
-			[248] = {
-				1518764074, -- [1]
-			},
-			[451] = {
-				1518764074, -- [1]
-			},
 			[234] = {
 				1518764848, -- [1]
 			},
-			[107] = {
-				1518764848, -- [1]
+			[248] = {
+				1518764074, -- [1]
 			},
-			[293] = {
-				1518764848, -- [1]
+			[430] = {
+				1518764074, -- [1]
 			},
-			[325] = {
-				1518764848, -- [1]
+			[475] = {
+				1518763271, -- [1]
 			},
 		},
 		["spells"] = {
-			["Bladestorm"] = {
+			["Demonic Charge"] = {
 				{
 					12, -- [1]
 					1518763271, -- [2]
@@ -10505,69 +7862,149 @@ DeathGraphsDBGraph = {
 					1518764848, -- [2]
 				}, -- [179]
 			},
-			["Assume Command"] = {
+			["Fusillade"] = {
 				{
-					92, -- [1]
+					110, -- [1]
 					1518763271, -- [2]
 				}, -- [1]
 				{
-					185, -- [1]
+					140, -- [1]
 					1518763271, -- [2]
 				}, -- [2]
 				{
-					278, -- [1]
+					170, -- [1]
 					1518763271, -- [2]
 				}, -- [3]
 				{
-					371, -- [1]
+					203, -- [1]
 					1518763271, -- [2]
 				}, -- [4]
 				{
-					464, -- [1]
+					233, -- [1]
 					1518763271, -- [2]
 				}, -- [5]
 				{
-					93, -- [1]
-					1518764074, -- [2]
+					263, -- [1]
+					1518763271, -- [2]
 				}, -- [6]
 				{
-					186, -- [1]
-					1518764074, -- [2]
+					389, -- [1]
+					1518763271, -- [2]
 				}, -- [7]
 				{
-					279, -- [1]
-					1518764074, -- [2]
+					419, -- [1]
+					1518763271, -- [2]
 				}, -- [8]
 				{
-					372, -- [1]
-					1518764074, -- [2]
+					449, -- [1]
+					1518763271, -- [2]
 				}, -- [9]
 				{
-					465, -- [1]
-					1518764074, -- [2]
+					482, -- [1]
+					1518763271, -- [2]
 				}, -- [10]
 				{
-					92, -- [1]
-					1518764848, -- [2]
+					513, -- [1]
+					1518763271, -- [2]
 				}, -- [11]
 				{
-					185, -- [1]
-					1518764848, -- [2]
+					542, -- [1]
+					1518763271, -- [2]
 				}, -- [12]
 				{
-					278, -- [1]
-					1518764848, -- [2]
+					110, -- [1]
+					1518764074, -- [2]
 				}, -- [13]
 				{
-					371, -- [1]
-					1518764848, -- [2]
+					141, -- [1]
+					1518764074, -- [2]
 				}, -- [14]
 				{
-					464, -- [1]
-					1518764848, -- [2]
+					170, -- [1]
+					1518764074, -- [2]
 				}, -- [15]
+				{
+					203, -- [1]
+					1518764074, -- [2]
+				}, -- [16]
+				{
+					233, -- [1]
+					1518764074, -- [2]
+				}, -- [17]
+				{
+					263, -- [1]
+					1518764074, -- [2]
+				}, -- [18]
+				{
+					389, -- [1]
+					1518764074, -- [2]
+				}, -- [19]
+				{
+					419, -- [1]
+					1518764074, -- [2]
+				}, -- [20]
+				{
+					449, -- [1]
+					1518764074, -- [2]
+				}, -- [21]
+				{
+					482, -- [1]
+					1518764074, -- [2]
+				}, -- [22]
+				{
+					512, -- [1]
+					1518764074, -- [2]
+				}, -- [23]
+				{
+					110, -- [1]
+					1518764848, -- [2]
+				}, -- [24]
+				{
+					140, -- [1]
+					1518764848, -- [2]
+				}, -- [25]
+				{
+					169, -- [1]
+					1518764848, -- [2]
+				}, -- [26]
+				{
+					202, -- [1]
+					1518764848, -- [2]
+				}, -- [27]
+				{
+					232, -- [1]
+					1518764848, -- [2]
+				}, -- [28]
+				{
+					262, -- [1]
+					1518764848, -- [2]
+				}, -- [29]
+				{
+					388, -- [1]
+					1518764848, -- [2]
+				}, -- [30]
+				{
+					418, -- [1]
+					1518764848, -- [2]
+				}, -- [31]
+				{
+					448, -- [1]
+					1518764848, -- [2]
+				}, -- [32]
+				{
+					482, -- [1]
+					1518764848, -- [2]
+				}, -- [33]
+				{
+					512, -- [1]
+					1518764848, -- [2]
+				}, -- [34]
+				{
+					542, -- [1]
+					1518764848, -- [2]
+				}, -- [35]
 			},
-			["Demonic Charge"] = {
+			["Bladestorm"] = {
 				{
 					12, -- [1]
 					1518763271, -- [2]
@@ -11991,147 +9428,67 @@ DeathGraphsDBGraph = {
 					1518764848, -- [2]
 				}, -- [245]
 			},
-			["Fusillade"] = {
+			["Assume Command"] = {
 				{
-					110, -- [1]
+					92, -- [1]
 					1518763271, -- [2]
 				}, -- [1]
 				{
-					140, -- [1]
+					185, -- [1]
 					1518763271, -- [2]
 				}, -- [2]
 				{
-					170, -- [1]
+					278, -- [1]
 					1518763271, -- [2]
 				}, -- [3]
 				{
-					203, -- [1]
+					371, -- [1]
 					1518763271, -- [2]
 				}, -- [4]
 				{
-					233, -- [1]
+					464, -- [1]
 					1518763271, -- [2]
 				}, -- [5]
 				{
-					263, -- [1]
-					1518763271, -- [2]
+					93, -- [1]
+					1518764074, -- [2]
 				}, -- [6]
 				{
-					389, -- [1]
-					1518763271, -- [2]
+					186, -- [1]
+					1518764074, -- [2]
 				}, -- [7]
 				{
-					419, -- [1]
-					1518763271, -- [2]
+					279, -- [1]
+					1518764074, -- [2]
 				}, -- [8]
 				{
-					449, -- [1]
-					1518763271, -- [2]
+					372, -- [1]
+					1518764074, -- [2]
 				}, -- [9]
 				{
-					482, -- [1]
-					1518763271, -- [2]
+					465, -- [1]
+					1518764074, -- [2]
 				}, -- [10]
 				{
-					513, -- [1]
-					1518763271, -- [2]
+					92, -- [1]
+					1518764848, -- [2]
 				}, -- [11]
 				{
-					542, -- [1]
-					1518763271, -- [2]
+					185, -- [1]
+					1518764848, -- [2]
 				}, -- [12]
 				{
-					110, -- [1]
-					1518764074, -- [2]
+					278, -- [1]
+					1518764848, -- [2]
 				}, -- [13]
 				{
-					141, -- [1]
-					1518764074, -- [2]
+					371, -- [1]
+					1518764848, -- [2]
 				}, -- [14]
 				{
-					170, -- [1]
-					1518764074, -- [2]
+					464, -- [1]
+					1518764848, -- [2]
 				}, -- [15]
-				{
-					203, -- [1]
-					1518764074, -- [2]
-				}, -- [16]
-				{
-					233, -- [1]
-					1518764074, -- [2]
-				}, -- [17]
-				{
-					263, -- [1]
-					1518764074, -- [2]
-				}, -- [18]
-				{
-					389, -- [1]
-					1518764074, -- [2]
-				}, -- [19]
-				{
-					419, -- [1]
-					1518764074, -- [2]
-				}, -- [20]
-				{
-					449, -- [1]
-					1518764074, -- [2]
-				}, -- [21]
-				{
-					482, -- [1]
-					1518764074, -- [2]
-				}, -- [22]
-				{
-					512, -- [1]
-					1518764074, -- [2]
-				}, -- [23]
-				{
-					110, -- [1]
-					1518764848, -- [2]
-				}, -- [24]
-				{
-					140, -- [1]
-					1518764848, -- [2]
-				}, -- [25]
-				{
-					169, -- [1]
-					1518764848, -- [2]
-				}, -- [26]
-				{
-					202, -- [1]
-					1518764848, -- [2]
-				}, -- [27]
-				{
-					232, -- [1]
-					1518764848, -- [2]
-				}, -- [28]
-				{
-					262, -- [1]
-					1518764848, -- [2]
-				}, -- [29]
-				{
-					388, -- [1]
-					1518764848, -- [2]
-				}, -- [30]
-				{
-					418, -- [1]
-					1518764848, -- [2]
-				}, -- [31]
-				{
-					448, -- [1]
-					1518764848, -- [2]
-				}, -- [32]
-				{
-					482, -- [1]
-					1518764848, -- [2]
-				}, -- [33]
-				{
-					512, -- [1]
-					1518764848, -- [2]
-				}, -- [34]
-				{
-					542, -- [1]
-					1518764848, -- [2]
-				}, -- [35]
 			},
 			["Disruption Field"] = {
 				{
@@ -12545,14 +9902,103 @@ DeathGraphsDBGraph = {
 			},
 		},
 		["ids"] = {
-			["Bladestorm"] = 253038,
+			["Demonic Charge"] = 253037,
 			["Pyroblast"] = 246505,
 			["Exploit Weakness"] = 244892,
-			["Assume Command"] = 245227,
-			["Demonic Charge"] = 253037,
-			["Entropic Mine"] = 257262,
 			["Fusillade"] = 244625,
+			["Bladestorm"] = 253038,
+			["Entropic Mine"] = 257262,
+			["Assume Command"] = 245227,
 			["Disruption Field"] = 254771,
+		},
+	},
+	["166715"] = {
+		["deaths"] = {
+			[46] = {
+				1519276869, -- [1]
+			},
+		},
+		["spells"] = {
+			["Blood Frenzy"] = {
+				{
+					37, -- [1]
+					1519276869, -- [2]
+				}, -- [1]
+			},
+			["Overwhelm"] = {
+				{
+					10, -- [1]
+					1519276869, -- [2]
+				}, -- [1]
+				{
+					20, -- [1]
+					1519276869, -- [2]
+				}, -- [2]
+				{
+					30, -- [1]
+					1519276869, -- [2]
+				}, -- [3]
+				{
+					40, -- [1]
+					1519276869, -- [2]
+				}, -- [4]
+				{
+					50, -- [1]
+					1519276869, -- [2]
+				}, -- [5]
+			},
+			["Rend Flesh"] = {
+				{
+					14, -- [1]
+					1519276869, -- [2]
+				}, -- [1]
+				{
+					14, -- [1]
+					1519276869, -- [2]
+				}, -- [2]
+				{
+					34, -- [1]
+					1519276869, -- [2]
+				}, -- [3]
+				{
+					34, -- [1]
+					1519276869, -- [2]
+				}, -- [4]
+			},
+			["Nightmarish Cacophony"] = {
+				{
+					50, -- [1]
+					1519276869, -- [2]
+				}, -- [1]
+			},
+			["Echoing Dischord"] = {
+				{
+					40, -- [1]
+					1519276869, -- [2]
+				}, -- [1]
+				{
+					50, -- [1]
+					1519276869, -- [2]
+				}, -- [2]
+			},
+			["Roaring Cacophony"] = {
+				{
+					40, -- [1]
+					1519276869, -- [2]
+				}, -- [1]
+				{
+					50, -- [1]
+					1519276869, -- [2]
+				}, -- [2]
+			},
+		},
+		["ids"] = {
+			["Blood Frenzy"] = 198388,
+			["Overwhelm"] = 197943,
+			["Rend Flesh"] = 197942,
+			["Nightmarish Cacophony"] = 197980,
+			["Echoing Dischord"] = 198392,
+			["Roaring Cacophony"] = 197969,
 		},
 	},
 	["199215"] = {
@@ -12582,19 +10028,27 @@ DeathGraphsDBGraph = {
 					1518761176, -- [2]
 				}, -- [2]
 			},
-			["Annihilation"] = {
+			["Empowered Decimation"] = {
 				{
-					24, -- [1]
+					147, -- [1]
 					1518761176, -- [2]
 				}, -- [1]
 				{
-					55, -- [1]
+					163, -- [1]
 					1518761176, -- [2]
 				}, -- [2]
 				{
-					86, -- [1]
+					179, -- [1]
 					1518761176, -- [2]
 				}, -- [3]
+				{
+					194, -- [1]
+					1518761176, -- [2]
+				}, -- [4]
+				{
+					210, -- [1]
+					1518761176, -- [2]
+				}, -- [5]
 			},
 			["Eradication"] = {
 				{
@@ -12624,36 +10078,28 @@ DeathGraphsDBGraph = {
 					1518761176, -- [2]
 				}, -- [4]
 			},
-			["Empowered Decimation"] = {
+			["Annihilation"] = {
 				{
-					147, -- [1]
+					24, -- [1]
 					1518761176, -- [2]
 				}, -- [1]
 				{
-					163, -- [1]
+					55, -- [1]
 					1518761176, -- [2]
 				}, -- [2]
 				{
-					179, -- [1]
+					86, -- [1]
 					1518761176, -- [2]
 				}, -- [3]
-				{
-					194, -- [1]
-					1518761176, -- [2]
-				}, -- [4]
-				{
-					210, -- [1]
-					1518761176, -- [2]
-				}, -- [5]
 			},
 		},
 		["ids"] = {
 			["Empowered"] = 245237,
 			["Searing Barrage"] = 246368,
-			["Annihilation"] = 244294,
+			["Empowered Decimation"] = 245294,
 			["Eradication"] = 244969,
 			["Decimation"] = 244399,
-			["Empowered Decimation"] = 245294,
+			["Annihilation"] = 244294,
 		},
 	},
 }

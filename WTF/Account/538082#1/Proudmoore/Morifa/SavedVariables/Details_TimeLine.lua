@@ -1,5 +1,38 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Morifa"] = {
+				{
+					421.384000000001, -- [1]
+					"Morifa", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Morifa"] = {
+				{
+					50.1660000000002, -- [1]
+					"Morifa", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Morifa"] = {
+				{
+					366.067, -- [1]
+					"Morifa", -- [2]
+					110960, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -139,39 +172,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_end"] = "21:42:48",
-			["date_start"] = "21:33:08",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 580.002,
-		}, -- [1]
-		{
-			["date_end"] = "21:31:51",
-			["date_start"] = "21:24:46",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 425.006,
-		}, -- [2]
-		{
-			["date_end"] = "21:22:38",
-			["date_start"] = "21:16:24",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 374.008000000001,
-		}, -- [3]
-		{
-			["date_end"] = "21:12:34",
-			["date_start"] = "21:09:25",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 189.004,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Broomkin"] = {
@@ -202,10 +203,10 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Braunanvil"] = {
-				[57723] = {
+			["Gneehye"] = {
+				[211319] = {
 					580.002, -- [1]
-					["source"] = "Braunanvil",
+					["source"] = "Gneehye",
 					["active"] = true,
 				},
 			},
@@ -216,17 +217,28 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Drdruid"] = {
-				[80354] = {
+			["Aeriyana"] = {
+				[212570] = {
 					580.002, -- [1]
-					["source"] = "Drdruid",
-					["active"] = true,
+					580.002, -- [2]
+					580.002, -- [3]
+					580.002, -- [4]
+					["source"] = "Aeriyana",
+					["active"] = false,
 				},
 			},
-			["Pamilladrade"] = {
-				[57723] = {
+			["Maloçk"] = {
+				[223203] = {
 					580.002, -- [1]
-					["source"] = "Pamilladrade",
+					580.002, -- [2]
+					580.002, -- [3]
+					580.002, -- [4]
+					["source"] = "Maloçk",
+					["active"] = false,
+				},
+				[223202] = {
+					580.002, -- [1]
+					["source"] = "Maloçk",
 					["active"] = true,
 				},
 			},
@@ -245,6 +257,12 @@ DetailsTimeLineDB = {
 					580.002, -- [3]
 					580.002, -- [4]
 					["source"] = "[*] Eyir's Guidance",
+					["active"] = false,
+				},
+				[237866] = {
+					233.349999999999, -- [1]
+					234.277000000001, -- [2]
+					["source"] = "[*] Bladestorm",
 					["active"] = false,
 				},
 				[238691] = {
@@ -269,12 +287,6 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Arcane Biology",
 					["active"] = false,
 				},
-				[237866] = {
-					233.349999999999, -- [1]
-					234.277000000001, -- [2]
-					["source"] = "[*] Bladestorm",
-					["active"] = false,
-				},
 			},
 			["Jÿn"] = {
 				[57723] = {
@@ -283,14 +295,11 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Aeriyana"] = {
-				[212570] = {
+			["Drdruid"] = {
+				[80354] = {
 					580.002, -- [1]
-					580.002, -- [2]
-					580.002, -- [3]
-					580.002, -- [4]
-					["source"] = "Aeriyana",
-					["active"] = false,
+					["source"] = "Drdruid",
+					["active"] = true,
 				},
 			},
 			["Tryxianna"] = {
@@ -322,10 +331,18 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Truthfinder"] = {
-				[80354] = {
+			["Paddruid"] = {
+				[233868] = {
 					580.002, -- [1]
-					["source"] = "Truthfinder",
+					580.002, -- [2]
+					["source"] = "[*] Fel Fire",
+					["active"] = false,
+				},
+			},
+			["Arthaina"] = {
+				[57723] = {
+					580.002, -- [1]
+					["source"] = "Arthaina",
 					["active"] = true,
 				},
 			},
@@ -333,13 +350,6 @@ DetailsTimeLineDB = {
 				[57723] = {
 					580.002, -- [1]
 					["source"] = "Cryxie-Garona",
-					["active"] = true,
-				},
-			},
-			["Lovemuffìn-Garona"] = {
-				[57723] = {
-					580.002, -- [1]
-					["source"] = "Lovemuffìn-Garona",
 					["active"] = true,
 				},
 			},
@@ -351,24 +361,18 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Itoupro"] = {
+				[80354] = {
+					580.002, -- [1]
+					580.002, -- [2]
+					["source"] = "Itoupro",
+					["active"] = false,
+				},
+			},
 			["Xiaocheng"] = {
 				[57723] = {
 					580.002, -- [1]
 					["source"] = "Xiaocheng",
-					["active"] = true,
-				},
-			},
-			["Katarae"] = {
-				[57723] = {
-					580.002, -- [1]
-					["source"] = "Katarae",
-					["active"] = true,
-				},
-			},
-			["Eternalsenia"] = {
-				[80354] = {
-					580.002, -- [1]
-					["source"] = "Eternalsenia",
 					["active"] = true,
 				},
 			},
@@ -380,27 +384,32 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Itoupro"] = {
+			["Eternalsenia"] = {
 				[80354] = {
 					580.002, -- [1]
-					580.002, -- [2]
-					["source"] = "Itoupro",
-					["active"] = false,
-				},
-			},
-			["Arthaina"] = {
-				[57723] = {
-					580.002, -- [1]
-					["source"] = "Arthaina",
+					["source"] = "Eternalsenia",
 					["active"] = true,
 				},
 			},
-			["Paddruid"] = {
-				[233868] = {
+			["Katarae"] = {
+				[57723] = {
 					580.002, -- [1]
-					580.002, -- [2]
-					["source"] = "[*] Fel Fire",
-					["active"] = false,
+					["source"] = "Katarae",
+					["active"] = true,
+				},
+			},
+			["Lovemuffìn-Garona"] = {
+				[57723] = {
+					580.002, -- [1]
+					["source"] = "Lovemuffìn-Garona",
+					["active"] = true,
+				},
+			},
+			["Truthfinder"] = {
+				[80354] = {
+					580.002, -- [1]
+					["source"] = "Truthfinder",
+					["active"] = true,
 				},
 			},
 			["Fantastical"] = {
@@ -410,18 +419,10 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Maloçk"] = {
-				[223203] = {
+			["Pamilladrade"] = {
+				[57723] = {
 					580.002, -- [1]
-					580.002, -- [2]
-					580.002, -- [3]
-					580.002, -- [4]
-					["source"] = "Maloçk",
-					["active"] = false,
-				},
-				[223202] = {
-					580.002, -- [1]
-					["source"] = "Maloçk",
+					["source"] = "Pamilladrade",
 					["active"] = true,
 				},
 			},
@@ -432,10 +433,10 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Gneehye"] = {
-				[211319] = {
+			["Braunanvil"] = {
+				[57723] = {
 					580.002, -- [1]
-					["source"] = "Gneehye",
+					["source"] = "Braunanvil",
 					["active"] = true,
 				},
 			},
@@ -536,23 +537,17 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Maru-Draenor"] = {
+			["Blackjustice-Garrosh"] = {
 				[69438] = {
 					189.004, -- [1]
 					["source"] = "Kyrsiana",
 					["active"] = true,
 				},
 			},
-			["Morifa"] = {
-				[239000] = {
+			["Maru-Draenor"] = {
+				[69438] = {
 					189.004, -- [1]
-					189.004, -- [2]
-					189.004, -- [3]
-					189.004, -- [4]
-					189.004, -- [5]
-					189.004, -- [6]
-					189.004, -- [7]
-					["source"] = "[*] Arcane Biology",
+					["source"] = "Kyrsiana",
 					["active"] = true,
 				},
 			},
@@ -570,10 +565,16 @@ DetailsTimeLineDB = {
 					["active"] = true,
 				},
 			},
-			["Blackjustice-Garrosh"] = {
-				[69438] = {
+			["Morifa"] = {
+				[239000] = {
 					189.004, -- [1]
-					["source"] = "Kyrsiana",
+					189.004, -- [2]
+					189.004, -- [3]
+					189.004, -- [4]
+					189.004, -- [5]
+					189.004, -- [6]
+					189.004, -- [7]
+					["source"] = "[*] Arcane Biology",
 					["active"] = true,
 				},
 			},
@@ -587,37 +588,36 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Morifa"] = {
-				{
-					421.384000000001, -- [1]
-					"Morifa", -- [2]
-					45438, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "21:33:08",
+			["date_end"] = "21:42:48",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 580.002,
 		}, -- [1]
 		{
-			["Morifa"] = {
-				{
-					50.1660000000002, -- [1]
-					"Morifa", -- [2]
-					45438, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "21:24:46",
+			["date_end"] = "21:31:51",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 425.006,
 		}, -- [2]
 		{
-			["Morifa"] = {
-				{
-					366.067, -- [1]
-					"Morifa", -- [2]
-					110960, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "21:16:24",
+			["date_end"] = "21:22:38",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 374.008000000001,
 		}, -- [3]
 		{
+			["date_start"] = "21:09:25",
+			["date_end"] = "21:12:34",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 189.004,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -16,6 +10,32 @@ DetailsTimeLineDB = {
 		{
 		}, -- [3]
 		{
+		}, -- [4]
+	},
+	["combat_data"] = {
+		{
+			["date_end"] = "20:29:02",
+			["date_start"] = "20:28:31",
+			["name"] = "Wrath of Azshara",
+			["total_time"] = 31.0000000000036,
+		}, -- [1]
+		{
+			["date_end"] = "20:27:18",
+			["date_start"] = "20:26:47",
+			["name"] = "King Deepbeard",
+			["total_time"] = 31,
+		}, -- [2]
+		{
+			["date_end"] = "20:24:42",
+			["date_start"] = "20:23:52",
+			["name"] = "Serpentrix",
+			["total_time"] = 50.0040000000008,
+		}, -- [3]
+		{
+			["date_end"] = "20:23:01",
+			["date_start"] = "20:22:29",
+			["name"] = "Lady Hatecoil",
+			["total_time"] = 32.0099999999984,
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -305,7 +325,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Nappa-Dentarg"] = {
@@ -349,30 +368,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_end"] = "20:29:02",
-			["date_start"] = "20:28:31",
-			["name"] = "Wrath of Azshara",
-			["total_time"] = 31.0000000000036,
-		}, -- [1]
-		{
-			["date_end"] = "20:27:18",
-			["date_start"] = "20:26:47",
-			["name"] = "King Deepbeard",
-			["total_time"] = 31,
-		}, -- [2]
-		{
-			["date_end"] = "20:24:42",
-			["date_start"] = "20:23:52",
-			["name"] = "Serpentrix",
-			["total_time"] = 50.0040000000008,
-		}, -- [3]
-		{
-			["date_end"] = "20:23:01",
-			["date_start"] = "20:22:29",
-			["name"] = "Lady Hatecoil",
-			["total_time"] = 32.0099999999984,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

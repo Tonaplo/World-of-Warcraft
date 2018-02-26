@@ -19,8 +19,8 @@ VER 3 0100000000000009 "Vari" "INV_MISC_QUESTIONMARK"
 /cast Holy Word: Chastise
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-R1PT[x]1IH1MR1EM2IH2PM2NM2DH2LR3DR3HR3NT3EM3MR4DR4EM4DR4MR4MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1PT1IH1DR1OM1PM2DT2PH2RM2MR2PM3MR[x]3HR3NM3LR4MR4DH4EM4WM4EM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]3IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-NKal[x]CelKahBigHanBlaJacEllRepSasLikTetCruKalSelZaeDreMedKal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NKalCelDreJouAceSelPanCaiKalBlaMed[x]LikJacRepKalEllZaeDieCru[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

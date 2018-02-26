@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -34,7 +34,7 @@ DataStore_TalentsDB = {
 					14939, -- [2]
 					6565, -- [3]
 				},
-				["lastUpdate"] = 1519230207,
+				["lastUpdate"] = 1519628903,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -46,7 +46,7 @@ DataStore_TalentsDB = {
 					["Ulthalesh, the Deadwind Harvester"] = {
 						["tier"] = 2,
 						["rank"] = 66,
-						["pointsRemaining"] = 9552050,
+						["pointsRemaining"] = 19697055150,
 					},
 					["Skull of the Man'ari"] = {
 						["tier"] = 2,
@@ -59,7 +59,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 135361549046,
+						["pointsRemaining"] = 158577052696,
 						["rank"] = 77,
 						["tier"] = 2,
 					},
@@ -71,7 +71,7 @@ DataStore_TalentsDB = {
 					["Light's Wrath"] = {
 						["tier"] = 2,
 						["rank"] = 70,
-						["pointsRemaining"] = 77829551255,
+						["pointsRemaining"] = 26014055105,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1519291515,
+				["lastUpdate"] = 1519625143,
 				["Specializations"] = {
 					7894, -- [1]
 					9847, -- [2]
@@ -90,7 +90,7 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Tichondrius.Alura"] = {
-				["lastUpdate"] = 1518570973,
+				["lastUpdate"] = 1519515937,
 				["Specializations"] = {
 					6, -- [1]
 					[3] = 2,
@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5882, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1519278286,
+				["lastUpdate"] = 1519550787,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -130,8 +130,8 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Ashbringer",
 				["Artifacts"] = {
 					["Ashbringer"] = {
-						["pointsRemaining"] = 7649850400,
-						["rank"] = 62,
+						["pointsRemaining"] = 5804355900,
+						["rank"] = 65,
 						["tier"] = 2,
 					},
 					["The Silver Hand"] = {
@@ -146,7 +146,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1519229824,
+				["lastUpdate"] = 1519628754,
 				["Specializations"] = {
 					6762, -- [1]
 					14742, -- [2]
@@ -204,7 +204,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1519230442,
+				["lastUpdate"] = 1519550843,
 				["Specializations"] = {
 					8166, -- [1]
 					8086, -- [2]
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1519230355,
+				["lastUpdate"] = 1519550815,
 				["Specializations"] = {
 					15342, -- [1]
 					8121, -- [2]
@@ -355,7 +355,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1519230483,
+				["lastUpdate"] = 1519515433,
 				["Specializations"] = {
 					6551, -- [1]
 					9813, -- [2]
@@ -431,7 +431,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1519099566,
+				["lastUpdate"] = 1519629249,
 				["Specializations"] = {
 					26, -- [1]
 				},
@@ -452,14 +452,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -814,6 +814,21 @@ DataStore_TalentsRefDB = {
 						22315, -- [4]
 						22316, -- [5]
 						19758, -- [6]
+						22440, -- [7]
+						22094, -- [8]
+						19755, -- [9]
+						19759, -- [10]
+						19769, -- [11]
+						19761, -- [12]
+						22330, -- [13]
+						19765, -- [14]
+						19766, -- [15]
+						22161, -- [16]
+						19760, -- [17]
+						19763, -- [18]
+						21183, -- [19]
+						21184, -- [20]
+						22976, -- [21]
 					},
 				}, -- [1]
 				{
@@ -970,18 +985,6 @@ DataStore_TalentsRefDB = {
 						19280, -- [7]
 						19285, -- [8]
 						22476, -- [9]
-						19279, -- [10]
-						19292, -- [11]
-						22046, -- [12]
-						22047, -- [13]
-						19291, -- [14]
-						19288, -- [15]
-						21182, -- [16]
-						19294, -- [17]
-						19295, -- [18]
-						19284, -- [19]
-						19281, -- [20]
-						19293, -- [21]
 					},
 				}, -- [1]
 				{
