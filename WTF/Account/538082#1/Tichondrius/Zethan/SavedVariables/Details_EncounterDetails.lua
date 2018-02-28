@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Ghaz'rilla",
+		}, -- [1]
+		{
+			["boss"] = "Hydromancer Velratha",
+		}, -- [2]
+		{
+			["boss"] = "Chief Ukorz Sandscalp",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[8994] = {
 			["school"] = 32,
@@ -817,9 +828,9 @@ EncounterDetailsDB = {
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Sekhani-Nagrand",
 		},
@@ -1415,12 +1426,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nerub'enkan",
 		},
-		[8265] = {
-			["school"] = 4,
+		[11639] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lava Spout Totem",
+			["source"] = "Sandfury Acolyte",
 		},
 		[16740] = {
 			["school"] = 1,
@@ -1453,22 +1467,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Slagmaw",
 		},
-		[78801] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Hydromancer Velratha",
-		},
-		[15572] = {
+		[211390] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hemdalias-Staghelm",
+		},
+		[15061] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gordok Reaver",
+			["source"] = "Anger'rel",
 		},
 		[93468] = {
 			["school"] = 2,
@@ -1487,13 +1499,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hemdalias-Staghelm",
 		},
-		[15061] = {
+		[15572] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Anger'rel",
+			["source"] = "Gordok Reaver",
 		},
 		[93564] = {
 			["school"] = 32,
@@ -1510,49 +1523,52 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Anger'rel",
 		},
-		[22924] = {
+		[17307] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Tendris Warpwood",
+			["source"] = "Ramstein the Gorger",
 		},
-		[12040] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[16128] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hate'rel",
+			["source"] = "Immol'thar",
 		},
-		[980] = {
+		[149888] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Baroness Anastari",
-		},
-		[16006] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Antu'sul",
+			["source"] = "Domina",
 		},
-		[11899] = {
+		[8600] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Theka the Martyr",
+		},
+		[49998] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Antu'sul",
+			["source"] = "Hemdalias-Staghelm",
 		},
 		[16868] = {
 			["school"] = 32,
@@ -1563,30 +1579,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baroness Anastari",
 		},
-		[18968] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Eldreth Seether",
-		},
-		[3256] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Scarab",
-		},
 		[12039] = {
 			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Shadowpriest Sezz'ziz",
+		},
+		[15495] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Doomforge Dragoon",
+		},
+		[980] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Baroness Anastari",
 		},
 		[15620] = {
 			["school"] = 1,
@@ -1597,15 +1611,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doomforge Dragoon",
 		},
-		[15593] = {
+		[55090] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Magmus",
+			["source"] = "Hemdalias-Staghelm",
 		},
 		[853] = {
 			["school"] = 2,
@@ -1616,14 +1628,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Multi-Shadowmoon",
 		},
-		[17435] = {
-			["school"] = 32,
+		[18968] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lord Aurius Rivendare",
+			["source"] = "Eldreth Seether",
 		},
 		[156150] = {
 			["school"] = 64,
@@ -1642,13 +1653,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aarux",
 		},
-		[15589] = {
-			["school"] = 1,
+		[132403] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Prince Tortheldrin",
+			["source"] = "Multi-Shadowmoon",
 		},
 		[93629] = {
 			["school"] = 32,
@@ -1662,12 +1673,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Godfrey",
 		},
-		[14034] = {
-			["school"] = 4,
+		[54791] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shadowforge Senator",
+			["source"] = "Maleki the Pallid",
 		},
 		[16867] = {
 			["school"] = 32,
@@ -1701,24 +1716,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Magmus",
 		},
-		[149893] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[204019] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Multi-Shadowmoon",
+		},
+		[22938] = {
+			["school"] = 64,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Domina",
-		},
-		[15062] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Anger'rel",
+			["source"] = "Mana Burst",
 		},
 		[70890] = {
 			["school"] = 32,
@@ -1727,21 +1739,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hemdalias-Staghelm",
 		},
-		[149913] = {
-			["school"] = 1,
+		[15538] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Thruk",
-		},
-		[15092] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Doom'rel",
+			["source"] = "Ironhand Guardian",
 		},
 		[15636] = {
 			["school"] = 4,
@@ -1751,6 +1754,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Emperor Dagran Thaurissan",
+		},
+		[22920] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Prince Tortheldrin",
 		},
 		[9053] = {
 			["school"] = 4,
@@ -1769,12 +1780,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Lord Bathiel",
 		},
-		[12491] = {
-			["school"] = 8,
+		[59545] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Witch Doctor Zum'rah",
+			["source"] = "Hemdalias-Staghelm",
 		},
 		[151681] = {
 			["school"] = 1,
@@ -1785,14 +1796,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ghamoo-Ra",
 		},
-		[13704] = {
-			["school"] = 32,
+		[6016] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Shadowpriest Sezz'ziz",
+			["source"] = "Nerub'enkan",
 		},
 		[23224] = {
 			["school"] = 32,
@@ -1813,12 +1824,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightbane Vile Fang",
 		},
-		[21707] = {
+		[149893] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Noxxion",
+			["source"] = "Domina",
 		},
 		[31935] = {
 			["school"] = 2,
@@ -1828,21 +1842,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Multi-Shadowmoon",
 		},
-		[6016] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Nerub'enkan",
-		},
 		[15232] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Hate'rel",
+		},
+		[17244] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Baroness Anastari",
 		},
 		[150660] = {
 			["school"] = 1,
@@ -1862,20 +1875,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Serpentis",
 		},
-		[151810] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Amnennar the Coldbringer",
-		},
-		[11894] = {
+		[13704] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Antu'sul",
+			["source"] = "Shadowpriest Sezz'ziz",
+		},
+		[15087] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dope'rel",
 		},
 		[15245] = {
 			["school"] = 32,
@@ -1886,14 +1902,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Doom'rel",
 		},
-		[15537] = {
+		[12471] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "High Priestess of Thaurissan",
+			["source"] = "Shadowforge Senator",
 		},
 		[93535] = {
 			["school"] = 16,
@@ -1910,12 +1926,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sekhani-Nagrand",
 		},
-		[13489] = {
+		[22858] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Burning Spirit",
+			["source"] = "Captain Kromcrush",
 		},
 		[22833] = {
 			["school"] = 1,
@@ -1926,14 +1942,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stomper Kreeg",
 		},
-		[15529] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[4962] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ironhand Guardian",
+			["source"] = "Nerub'enkan",
 		},
 		[20805] = {
 			["school"] = 8,
@@ -1969,13 +1986,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sekhani-Nagrand",
 		},
-		[152757] = {
-			["school"] = 1,
+		[151684] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of the Deep",
+			["source"] = "Ghamoo-Ra",
 		},
 		[7399] = {
 			["school"] = 32,
@@ -2007,32 +2024,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight's Hammer Ambassador",
 		},
-		[93931] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[1604] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Odo the Blindwatcher",
+			["source"] = "Wailing Guardsman",
 		},
-		[119434] = {
+		[8376] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Slagmaw",
+			["source"] = "Cho'Rush the Observer",
 		},
-		[93520] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[12674] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lord Godfrey",
+			["source"] = "Seeth'rel",
 		},
 		[12739] = {
 			["school"] = 32,
@@ -2043,14 +2059,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gordok Warlock",
 		},
-		[9532] = {
-			["school"] = 8,
+		[150072] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Druid of the Fang",
+			["source"] = "Aarux",
 		},
 		[17843] = {
 			["school"] = 2,
@@ -2061,14 +2078,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sandfury Witch Doctor",
 		},
-		[15044] = {
+		[12472] = {
 			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Seeth'rel",
+			["source"] = "Timemage-Madoran",
 		},
 		[151813] = {
 			["school"] = 1,
@@ -2096,13 +2113,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aku'mai",
 		},
-		[93686] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[16869] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Commander Springvale",
+			["source"] = "Maleki the Pallid",
 		},
 		[150025] = {
 			["school"] = 16,
@@ -2111,13 +2130,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Restorative Waters",
 		},
-		[14099] = {
-			["school"] = 1,
+		[149943] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Magistrate Barthilas",
+			["source"] = "Executioner Gore",
 		},
 		[3391] = {
 			["school"] = 1,
@@ -2126,14 +2146,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Prince Tortheldrin",
 		},
-		[13338] = {
+		[93952] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gordok Warlock",
+			["source"] = "Odo the Blindwatcher",
 		},
 		[151303] = {
 			["school"] = 32,
@@ -2150,16 +2171,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mushlump",
 		},
-		[17620] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[152967] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Maleki the Pallid",
+			["source"] = "Aku'mai",
 		},
 		[93505] = {
 			["school"] = 16,
@@ -2186,21 +2203,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Death Speaker Blackthorn",
 		},
-		[150543] = {
-			["school"] = 32,
+		[22696] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Twilight Tormentor",
+			["source"] = "Petrified Guardian",
 		},
-		[15574] = {
-			["school"] = 4,
+		[149835] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ambassador Flamelash",
+			["source"] = "Mushlump",
 		},
 		[151815] = {
 			["school"] = 16,
@@ -2212,10 +2230,10 @@ EncounterDetailsDB = {
 		[93697] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Lord Walden",
 		},
@@ -2229,15 +2247,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Emperor Dagran Thaurissan",
 		},
-		[16727] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[20295] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "King Gordok",
+			["source"] = "Lady Anacondra",
 		},
 		[11836] = {
 			["school"] = 16,
@@ -2250,12 +2267,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gahz'rilla",
 		},
-		[58506] = {
-			["school"] = 1,
+		[22939] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Bloodfang Berserker",
+			["source"] = "Residual Monstrosity",
 		},
 		[93857] = {
 			["school"] = 32,
@@ -2265,22 +2282,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baron Silverlaine",
 		},
-		[14914] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sekhani-Nagrand",
-		},
-		[119405] = {
+		[58506] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Adarogg",
+			["source"] = "Bloodfang Berserker",
+		},
+		[151859] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[527] = {
 			["school"] = 2,
@@ -2308,44 +2321,48 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nightbane Vile Fang",
 		},
-		[151859] = {
+		[119405] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Adarogg",
+		},
+		[14914] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sekhani-Nagrand",
+		},
+		[16727] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "King Gordok",
+		},
+		[15574] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Ambassador Flamelash",
 		},
-		[22939] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Residual Monstrosity",
-		},
-		[20295] = {
-			["school"] = 8,
+		[150543] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lady Anacondra",
-		},
-		[149835] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mushlump",
-		},
-		[22696] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Petrified Guardian",
+			["source"] = "Twilight Tormentor",
 		},
 		[15976] = {
 			["school"] = 1,
@@ -2356,22 +2373,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorlash",
 		},
-		[152967] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aku'mai",
-		},
-		[93952] = {
+		[17620] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Odo the Blindwatcher",
+			["source"] = "Maleki the Pallid",
+		},
+		[13338] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gordok Warlock",
 		},
 		[11900] = {
 			["school"] = 1,
@@ -2380,24 +2400,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Greater Healing Ward",
 		},
-		[149943] = {
-			["school"] = 32,
+		[14099] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Executioner Gore",
+			["source"] = "Magistrate Barthilas",
 		},
-		[16869] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[93686] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Maleki the Pallid",
+			["source"] = "Commander Springvale",
 		},
 		[13445] = {
 			["school"] = 1,
@@ -2406,24 +2423,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gordok Hound",
 		},
-		[12472] = {
+		[15044] = {
 			["school"] = 16,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Timemage-Madoran",
+			["source"] = "Seeth'rel",
 		},
-		[150072] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[9532] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Aarux",
+			["source"] = "Druid of the Fang",
 		},
 		[15501] = {
 			["school"] = 8,
@@ -2433,31 +2449,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight's Hammer Ambassador",
 		},
-		[12674] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[93520] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Seeth'rel",
+			["source"] = "Lord Godfrey",
 		},
-		[8376] = {
+		[119434] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Cho'Rush the Observer",
+			["source"] = "Slagmaw",
 		},
-		[1604] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[93931] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Wailing Guardsman",
+			["source"] = "Odo the Blindwatcher",
 		},
 		[20271] = {
 			["school"] = 2,
@@ -2467,13 +2484,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Multi-Shadowmoon",
 		},
-		[151684] = {
-			["school"] = 8,
+		[152757] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ghamoo-Ra",
+			["source"] = "Guardian of the Deep",
 		},
 		[20798] = {
 			["school"] = 32,
@@ -2483,48 +2500,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sandfury Shadowcaster",
 		},
-		[4962] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Nerub'enkan",
-		},
-		[22858] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Captain Kromcrush",
-		},
-		[12471] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Shadowforge Senator",
-		},
-		[15087] = {
-			["school"] = 1,
+		[15529] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dope'rel",
+			["source"] = "Ironhand Guardian",
 		},
-		[17244] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[13489] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Baroness Anastari",
+			["source"] = "Burning Spirit",
+		},
+		[15537] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "High Priestess of Thaurissan",
+		},
+		[11894] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Antu'sul",
+		},
+		[151810] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Amnennar the Coldbringer",
 		},
 		[11972] = {
 			["school"] = 1,
@@ -2544,20 +2558,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Anacondra",
 		},
-		[59545] = {
-			["school"] = 2,
+		[12491] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Hemdalias-Staghelm",
+			["source"] = "Witch Doctor Zum'rah",
 		},
-		[22920] = {
-			["school"] = 64,
+		[21707] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Prince Tortheldrin",
+			["source"] = "Noxxion",
 		},
 		[10966] = {
 			["school"] = 1,
@@ -2567,28 +2580,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Noxxion",
 		},
-		[15538] = {
-			["school"] = 4,
+		[15092] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ironhand Guardian",
+			["source"] = "Doom'rel",
 		},
-		[22938] = {
-			["school"] = 64,
+		[15062] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Anger'rel",
+		},
+		[149913] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mana Burst",
-		},
-		[204019] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Multi-Shadowmoon",
+			["source"] = "Thruk",
 		},
 		[15581] = {
 			["school"] = 1,
@@ -2598,41 +2613,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dope'rel",
 		},
-		[54791] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[14034] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Maleki the Pallid",
+			["source"] = "Shadowforge Senator",
 		},
-		[132403] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Multi-Shadowmoon",
-		},
-		[55090] = {
+		[15589] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hemdalias-Staghelm",
+			["source"] = "Prince Tortheldrin",
 		},
-		[15495] = {
-			["school"] = 4,
+		[15593] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Magmus",
+		},
+		[17435] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Doomforge Dragoon",
+			["source"] = "Lord Aurius Rivendare",
 		},
 		[22994] = {
 			["school"] = 8,
@@ -2644,52 +2657,52 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tendris Warpwood",
 		},
-		[49998] = {
+		[3256] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Scarab",
+		},
+		[11899] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hemdalias-Staghelm",
-		},
-		[8600] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Theka the Martyr",
+			["source"] = "Antu'sul",
 		},
-		[149888] = {
-			["school"] = 32,
+		[16006] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Domina",
+			["source"] = "Antu'sul",
 		},
-		[16128] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[12040] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Immol'thar",
+			["source"] = "Hate'rel",
 		},
-		[17307] = {
+		[22924] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ramstein the Gorger",
+			["source"] = "Tendris Warpwood",
 		},
 		[7054] = {
 			["school"] = 32,
@@ -2701,33 +2714,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tormented Officer",
 		},
-		[211390] = {
-			["school"] = 1,
+		[78801] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Hemdalias-Staghelm",
+			["source"] = "Hydromancer Velratha",
 		},
-		[11639] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[8265] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sandfury Acolyte",
+			["source"] = "Lava Spout Totem",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Ghaz'rilla",
-		}, -- [1]
-		{
-			["boss"] = "Hydromancer Velratha",
-		}, -- [2]
-		{
-			["boss"] = "Chief Ukorz Sandscalp",
-		}, -- [3]
 	},
 }

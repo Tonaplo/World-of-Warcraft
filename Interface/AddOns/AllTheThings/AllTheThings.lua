@@ -1783,7 +1783,14 @@ local function RefreshCollections(groups)
 		coroutine.yield();
 		
 		-- Harvest Item Collections that are used by the addon.
-		RefreshSources((groups or app:GetDataCache()).groups, 1);
+		app:GetDataCache();
+		if groups then
+			RefreshSources(groups.groups, 1);
+		else
+			-- Refresh both the primary and unsorted data caches.
+			RefreshSources(app:GetWindow("Prime").data.groups, 1);
+			RefreshSources(app:GetWindow("Unsorted").data.groups, 1);
+		end
 		
 		-- Refresh the Collection Windows!
 		app:RefreshData(false, true);
@@ -3614,7 +3621,7 @@ function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
 								local otherItem = SearchForSourceIDQuickly(sourceID);
 								if otherItem and item.f == otherItem.f then
 									-- Check for class and race locks...
-									if app.FilterItemClass_RequireClasses(otherItem.classes) and app.FilterItemClass_RequireRaces(otherItem.races) then
+									if app.FilterItemClass_RequireClasses(otherItem) and app.FilterItemClass_RequireRaces(otherItem) then
 										return true; -- Okay, fine. You are this class. Enjoy your +1, cheater. D:
 									end
 								end
@@ -6113,9 +6120,34 @@ function app:GetDataCache()
 			app.Toys = nil;
 		end
 		
-		--[[
+		-- The Main Window's Data
+		local missingData = {};
+		app.missingData = missingData;
+		missingData.visible = true;
+		missingData.expanded = false;
+		missingData.text = "Missing Sources (Total # Ignores Filters)";
+		missingData.description = L("SOURCE_ID_MISSING");
+		missingData.rows = GetTempDataMember("Missing");
+		table.insert(groups, missingData);
+		app.refreshDataForce = true;
+		BuildGroups(allData, allData.groups);
+		app:GetWindow("Prime").data = allData;
+		CacheFields(allData);
+		
+		-- Now build the hidden "Unsorted" Window's Data
+		allData = {};
+		allData.expanded = true;
+		allData.icon = L("LOGO_TINY");
+		allData.preview = L("LOGO_LARGE");
+		allData.text = app.DisplayName .. ": Unsorted";
+		allData.description = "This data hasn't been implemented yet.";
+		allData.visible = true;
+		allData.progress = 0;
+		allData.total = 0;
+		local groups, db = {};
+		allData.groups = groups;
+		
 		-- Never Implemented
-		-- Uncomment when harvesting
 		if app.NeverImplemented then
 			db = {};
 			db.expanded = false;
@@ -6124,7 +6156,6 @@ function app:GetDataCache()
 			table.insert(groups, db);
 			app.NeverImplemented = nil;
 		end
-		--]]
 		
 		-- Illusions (Dynamic)
 		--[[
@@ -6178,7 +6209,6 @@ function app:GetDataCache()
 		]]--
 		
 		-- Unsorted
-		--[[
 		if app.Unsorted then
 			db = {};
 			db.groups = app.Unsorted;
@@ -6187,19 +6217,9 @@ function app:GetDataCache()
 			table.insert(groups, db);
 			app.Unsorted = nil;
 		end
-		]]--
-		
-		local missingData = {};
-		app.missingData = missingData;
-		missingData.visible = true;
-		missingData.expanded = false;
-		missingData.text = "Missing Sources (Total # Ignores Filters)";
-		missingData.description = L("SOURCE_ID_MISSING");
-		missingData.rows = GetTempDataMember("Missing");
-		table.insert(groups, missingData);
-		app.refreshDataForce = true;
 		BuildGroups(allData, allData.groups);
-		app:GetWindow("Prime").data = allData;
+		UpdateGroups(allData, allData.groups, 1);
+		app:GetWindow("Unsorted").data = allData;
 		CacheFields(allData);
 	end
 	return allData;
@@ -6231,6 +6251,8 @@ function app:RefreshData(lazy, safely)
 			
 			-- Forcibly update the windows.
 			app:UpdateWindows(true);
+		else
+			app:UpdateWindows();
 		end
 	end);
 end
@@ -6318,6 +6340,7 @@ end
 
 -- Create the Primary Collection Window (this allows you to save the size and location)
 app:GetWindow("Prime");
+app:GetWindow("Unsorted");
 app:GetWindow("CurrentInstance");
 
 GameTooltip:HookScript("OnShow", AttachTooltip);

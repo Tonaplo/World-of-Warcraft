@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd1
-FrameLevel: 2
-Anchor: BOTTOM
-X: -16
-Y: 68
-W: 78
-H: 61
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: BOTTOMLEFT
@@ -21,6 +14,13 @@ Y: 0
 W: 365
 H: 240
 Frame: AllTheThings-Window-Prime
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 300
+H: 300
+Frame: AllTheThings-Window-Unsorted
 FrameLevel: 1
 Anchor: CENTER
 X: 0

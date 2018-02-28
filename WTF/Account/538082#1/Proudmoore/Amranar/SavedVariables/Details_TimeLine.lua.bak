@@ -1,7 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -12,6 +10,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["combat_data"] = {
 		{
 			["date_end"] = "19:41:31",
@@ -37,6 +36,12 @@ DetailsTimeLineDB = {
 			["name"] = "Elerethe Renferal",
 			["total_time"] = 73.4980000000001,
 		}, -- [4]
+	},
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -1044,6 +1049,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Báthøry-Ragnaros"] = {
@@ -1204,11 +1210,5 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 }

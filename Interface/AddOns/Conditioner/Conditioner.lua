@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.1.5b
+--version 2.1.6
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -538,42 +538,44 @@ end
 function ConditionerAddOn:SetUpTalentTextures()
     if (not PlayerTalentFrame) then
         LoadAddOn("Blizzard_TalentUI")
-        if (PlayerTalentFrame) then
-            if (not ConditionerAddOn.TalentSelectionFrames) then
-                ConditionerAddOn.TalentSelectionFrames = {}
-                local TalentFrame = _G["PlayerTalentFrameTalents"]
-                TalentFrame:SetScript("OnShow", function(self)
-                    ConditionerAddOn:AddTalentSelectionHighlight()
-                end)
-                ConditionerAddOn.TalentSaveButton = CreateFrame("Button", nil, TalentFrame, "ConditionerButtonTemplate")
-                ConditionerAddOn.TalentSaveButton:SetText("Save")
-                ConditionerAddOn.TalentSaveButton:SetSize(80, 32)
-                ConditionerAddOn.TalentSaveButton:SetPoint("BOTTOMRIGHT", TalentFrame, "TOPRIGHT")
-                ConditionerAddOn.TalentSaveButton:SetScript("OnEnter", function(self)
-                    GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0)
-                    GameTooltip:SetText("Conditioner", 0, 0.75, 1)
-                    GameTooltip:AddLine("Save this set of talents for your current loadout.\n\nTalents and rotations are saved independently of one another.", 1, 1, 1, true)
-                    GameTooltip:SetMinimumWidth(150)
-                    GameTooltip:Show()
-                end)
-                ConditionerAddOn.TalentSaveButton:SetScript("OnLeave", function(self)
-                    GameTooltip:Hide()
-                end)
-                ConditionerAddOn.TalentSaveButton:SetScript("OnClick", function(self)
-                    local currentSpecID = GetSpecialization()
-                    if (currentSpecID) then
-                        local currentSpec = GetSpecializationInfo(currentSpecID)
-                        local currentTalentLoadoutID = ConditionerAddOn_SavedVariables.CurrentLoadouts[currentSpec] or 0
-                        if (currentTalentLoadoutID) and (currentTalentLoadoutID > 0) then
-                            ConditionerAddOn_SavedVariables.TalentsPerLoadout[currentTalentLoadoutID] = ConditionerAddOn:GetTalents()
-                        end
-                        ConditionerAddOn:AddTalentSelectionHighlight()
+    end
+
+    if (PlayerTalentFrame) then
+        if (not ConditionerAddOn.TalentSelectionFrames) then
+            ConditionerAddOn.TalentSelectionFrames = {}
+            local TalentFrame = _G["PlayerTalentFrameTalents"]
+            TalentFrame:SetScript("OnShow", function(self)
+                ConditionerAddOn:AddTalentSelectionHighlight()
+            end)
+            ConditionerAddOn.TalentSaveButton = CreateFrame("Button", nil, TalentFrame, "ConditionerButtonTemplate")
+            ConditionerAddOn.TalentSaveButton:SetText("Save")
+            ConditionerAddOn.TalentSaveButton:SetFrameStrata("HIGH")
+            ConditionerAddOn.TalentSaveButton:SetSize(80, 32)
+            ConditionerAddOn.TalentSaveButton:SetPoint("BOTTOMRIGHT", TalentFrame, "TOPRIGHT")
+            ConditionerAddOn.TalentSaveButton:SetScript("OnEnter", function(self)
+                GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 0, 0)
+                GameTooltip:SetText("Conditioner", 0, 0.75, 1)
+                GameTooltip:AddLine("Save this set of talents for your current loadout.\n\nTalents and rotations are saved independently of one another.", 1, 1, 1, true)
+                GameTooltip:SetMinimumWidth(150)
+                GameTooltip:Show()
+            end)
+            ConditionerAddOn.TalentSaveButton:SetScript("OnLeave", function(self)
+                GameTooltip:Hide()
+            end)
+            ConditionerAddOn.TalentSaveButton:SetScript("OnClick", function(self)
+                local currentSpecID = GetSpecialization()
+                if (currentSpecID) then
+                    local currentSpec = GetSpecializationInfo(currentSpecID)
+                    local currentTalentLoadoutID = ConditionerAddOn_SavedVariables.CurrentLoadouts[currentSpec] or 0
+                    if (currentTalentLoadoutID) and (currentTalentLoadoutID > 0) then
+                        ConditionerAddOn_SavedVariables.TalentsPerLoadout[currentTalentLoadoutID] = ConditionerAddOn:GetTalents()
                     end
-                end)
-            end
+                    ConditionerAddOn:AddTalentSelectionHighlight()
+                end
+            end)
+        else
+            ConditionerAddOn:AddTalentSelectionHighlight()
         end
-    else
-        ConditionerAddOn:AddTalentSelectionHighlight()
     end
 end
 

@@ -1,174 +1,47 @@
 
 DetailsTimeLineDB = {
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
+	["max_segments"] = 4,
+	["combat_data"] = {
+		{
+			["date_start"] = "21:42:48",
+			["date_end"] = "21:44:19",
+			["name"] = "Xavius",
+			["total_time"] = 90.6309999999999,
+		}, -- [1]
+		{
+			["date_start"] = "21:36:20",
+			["date_end"] = "21:37:08",
+			["name"] = "Cenarius",
+			["total_time"] = 48.3330000000001,
+		}, -- [2]
+		{
+			["date_start"] = "21:30:39",
+			["date_end"] = "21:33:44",
+			["name"] = "Il'gynoth, The Heart of Corruption",
+			["total_time"] = 185.962,
+		}, -- [3]
+		{
+			["date_start"] = "21:27:13",
+			["date_end"] = "21:28:13",
+			["name"] = "Elerethe Renferal",
+			["total_time"] = 59.4179999999999,
+		}, -- [4]
+	},
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["max_segments"] = 4,
-	["hide_on_combat"] = false,
-	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
-		{
-			["Bhagdad-Frostmourne"] = {
-				{
-					89.9079999999999, -- [1]
-					"Bhagdad-Frostmourne", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Bunnbao-Frostmourne"] = {
-				{
-					74.7339999999999, -- [1]
-					"Mollyn-Dawnbringer", -- [2]
-					116849, -- [3]
-				}, -- [1]
-			},
-			["Acliv-Ragnaros"] = {
-				{
-					22.7370000000001, -- [1]
-					"Acliv-Ragnaros", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					54.0099999999998, -- [1]
-					"Acliv-Ragnaros", -- [2]
-					61336, -- [3]
-				}, -- [2]
-			},
-			["Anentet-Malfurion"] = {
-				{
-					2.49800000000005, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					3.13599999999997, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [2]
-				{
-					10.6859999999997, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [3]
-			},
-		}, -- [1]
-		{
-			["Greybone"] = {
-				{
-					31.3230000000003, -- [1]
-					"Greybone", -- [2]
-					55233, -- [3]
-				}, -- [1]
-			},
-			["Wolvion"] = {
-				{
-					35.3560000000002, -- [1]
-					"Wolvion", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-			["Bhagdad-Frostmourne"] = {
-				{
-					15.3710000000001, -- [1]
-					"Bhagdad-Frostmourne", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Tailgater-Stormrage"] = {
-				{
-					32.7560000000003, -- [1]
-					"Tailgater-Stormrage", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-			["Bunnbao-Frostmourne"] = {
-				{
-					31.3230000000003, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					115310, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Wolvion"] = {
-				{
-					107.461, -- [1]
-					"Wolvion", -- [2]
-					48707, -- [3]
-				}, -- [1]
-			},
-			["Acliv-Ragnaros"] = {
-				{
-					181.574, -- [1]
-					"Acliv-Ragnaros", -- [2]
-					61336, -- [3]
-				}, -- [1]
-			},
-			["Anentet-Malfurion"] = {
-				{
-					9.22600000000011, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [1]
-				{
-					17.808, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [2]
-				{
-					140.415, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [3]
-			},
-		}, -- [3]
-		{
-			["Opal-Stormreaver"] = {
-				{
-					33.7169999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-			["Anentet-Malfurion"] = {
-				{
-					0.16599999999994, -- [1]
-					"Anentet-Malfurion", -- [2]
-					61336, -- [3]
-				}, -- [1]
-			},
-			["Bunnbao-Frostmourne"] = {
-				{
-					25.817, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					115310, -- [3]
-				}, -- [1]
-			},
-			["Keltin-Muradin"] = {
-				{
-					22.7439999999999, -- [1]
-					"Keltin-Muradin", -- [2]
-					642, -- [3]
-				}, -- [1]
-			},
-			["Acliv-Ragnaros"] = {
-				{
-					29.2279999999998, -- [1]
-					"Acliv-Ragnaros", -- [2]
-					61336, -- [3]
-				}, -- [1]
-			},
-			["Bhagdad-Frostmourne"] = {
-				{
-					22.258, -- [1]
-					"Bhagdad-Frostmourne", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
-		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
@@ -300,9 +173,9 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Keltin-Muradin"] = {
+			["Anentet-Malfurion"] = {
 				[206005] = {
-					35.8420000000001, -- [1]
+					3.04999999999973, -- [1]
 					90.6309999999999, -- [2]
 					["source"] = "[*] Dream Simulacrum",
 					["active"] = false,
@@ -314,15 +187,9 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 				[211802] = {
-					17.877, -- [1]
-					21.893, -- [2]
+					17.625, -- [1]
+					21.6399999999999, -- [2]
 					["source"] = "Xavius",
-					["active"] = false,
-				},
-				[208385] = {
-					83.3589999999999, -- [1]
-					84.4679999999999, -- [2]
-					["source"] = "[*] Tainted Discharge",
 					["active"] = false,
 				},
 			},
@@ -347,6 +214,20 @@ DetailsTimeLineDB = {
 					83.3589999999999, -- [5]
 					84.6109999999999, -- [6]
 					["source"] = "[*] Tainted Discharge",
+					["active"] = false,
+				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				[206005] = {
+					3.03499999999985, -- [1]
+					90.6309999999999, -- [2]
+					["source"] = "[*] Dream Simulacrum",
+					["active"] = false,
+				},
+				[206109] = {
+					90.6309999999999, -- [1]
+					90.6309999999999, -- [2]
+					["source"] = "[*] Awakening to the Nightmare",
 					["active"] = false,
 				},
 			},
@@ -405,10 +286,10 @@ DetailsTimeLineDB = {
 					["source"] = "Lurking Terror",
 					["active"] = false,
 				},
-				[208385] = {
-					81.2950000000001, -- [1]
-					84.0560000000001, -- [2]
-					["source"] = "[*] Tainted Discharge",
+				[208431] = {
+					50.828, -- [1]
+					70.8319999999999, -- [2]
+					["source"] = "[*] Corruption: Descent into Madness",
 					["active"] = false,
 				},
 				[206109] = {
@@ -417,24 +298,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Awakening to the Nightmare",
 					["active"] = false,
 				},
-				[208431] = {
-					50.828, -- [1]
-					70.8319999999999, -- [2]
-					["source"] = "[*] Corruption: Descent into Madness",
-					["active"] = false,
-				},
-			},
-			["Bunnbao-Frostmourne"] = {
-				[206005] = {
-					3.03499999999985, -- [1]
-					90.6309999999999, -- [2]
-					["source"] = "[*] Dream Simulacrum",
-					["active"] = false,
-				},
-				[206109] = {
-					90.6309999999999, -- [1]
-					90.6309999999999, -- [2]
-					["source"] = "[*] Awakening to the Nightmare",
+				[208385] = {
+					81.2950000000001, -- [1]
+					84.0560000000001, -- [2]
+					["source"] = "[*] Tainted Discharge",
 					["active"] = false,
 				},
 			},
@@ -452,9 +319,9 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Anentet-Malfurion"] = {
+			["Keltin-Muradin"] = {
 				[206005] = {
-					3.04999999999973, -- [1]
+					35.8420000000001, -- [1]
 					90.6309999999999, -- [2]
 					["source"] = "[*] Dream Simulacrum",
 					["active"] = false,
@@ -466,9 +333,15 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 				[211802] = {
-					17.625, -- [1]
-					21.6399999999999, -- [2]
+					17.877, -- [1]
+					21.893, -- [2]
 					["source"] = "Xavius",
+					["active"] = false,
+				},
+				[208385] = {
+					83.3589999999999, -- [1]
+					84.4679999999999, -- [2]
+					["source"] = "[*] Tainted Discharge",
 					["active"] = false,
 				},
 			},
@@ -556,7 +429,53 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Bhagdad-Frostmourne"] = {
+			["Wolvion"] = {
+				[210279] = {
+					0.1, -- [1]
+					48.3330000000001, -- [2]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+			},
+			["Anentet-Malfurion"] = {
+				[210279] = {
+					0.1, -- [1]
+					48.3330000000001, -- [2]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+				[210315] = {
+					43.107, -- [1]
+					46.9749999999999, -- [2]
+					["source"] = "[*] Nightmare Brambles",
+					["active"] = false,
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				[210279] = {
+					0.1, -- [1]
+					29.1179999999999, -- [2]
+					29.9810000000002, -- [3]
+					33.2460000000001, -- [4]
+					43.991, -- [5]
+					48.3330000000001, -- [6]
+					["source"] = "Cenarius",
+					["active"] = false,
+				},
+				[212681] = {
+					33.2460000000001, -- [1]
+					43.7370000000001, -- [2]
+					["source"] = "[*] Cleansed Ground",
+					["active"] = false,
+				},
+				[210315] = {
+					37.0619999999999, -- [1]
+					38.759, -- [2]
+					["source"] = "[*] Nightmare Brambles",
+					["active"] = false,
+				},
+			},
+			["Keltin-Muradin"] = {
 				[210279] = {
 					0.1, -- [1]
 					48.3330000000001, -- [2]
@@ -586,58 +505,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Anentet-Malfurion"] = {
-				[210279] = {
-					0.1, -- [1]
-					48.3330000000001, -- [2]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-				[210315] = {
-					43.107, -- [1]
-					46.9749999999999, -- [2]
-					["source"] = "[*] Nightmare Brambles",
-					["active"] = false,
-				},
-			},
-			["Keltin-Muradin"] = {
-				[210279] = {
-					0.1, -- [1]
-					48.3330000000001, -- [2]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-				[210315] = {
-					43.107, -- [1]
-					48.3330000000001, -- [2]
-					["source"] = "[*] Nightmare Brambles",
-					["active"] = false,
-				},
-			},
-			["Mollyn-Dawnbringer"] = {
-				[210279] = {
-					0.1, -- [1]
-					29.1179999999999, -- [2]
-					29.9810000000002, -- [3]
-					33.2460000000001, -- [4]
-					43.991, -- [5]
-					48.3330000000001, -- [6]
-					["source"] = "Cenarius",
-					["active"] = false,
-				},
-				[212681] = {
-					33.2460000000001, -- [1]
-					43.7370000000001, -- [2]
-					["source"] = "[*] Cleansed Ground",
-					["active"] = false,
-				},
-				[210315] = {
-					37.0619999999999, -- [1]
-					38.759, -- [2]
-					["source"] = "[*] Nightmare Brambles",
-					["active"] = false,
-				},
-			},
 			["Acliv-Ragnaros"] = {
 				[210279] = {
 					0.1, -- [1]
@@ -646,17 +513,29 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Wolvion"] = {
+			["Bhagdad-Frostmourne"] = {
 				[210279] = {
 					0.1, -- [1]
 					48.3330000000001, -- [2]
 					["source"] = "Cenarius",
 					["active"] = false,
 				},
+				[210315] = {
+					43.107, -- [1]
+					48.3330000000001, -- [2]
+					["source"] = "[*] Nightmare Brambles",
+					["active"] = false,
+				},
 			},
 		}, -- [2]
 		{
 			["Porcupinez-Zul'jin"] = {
+				[209469] = {
+					84.0079999999998, -- [1]
+					124.01, -- [2]
+					["source"] = "Nightmare Ichor",
+					["active"] = false,
+				},
 				[212886] = {
 					104.499, -- [1]
 					104.952, -- [2]
@@ -671,21 +550,15 @@ DetailsTimeLineDB = {
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
-				[210099] = {
-					77.058, -- [1]
-					84.4900000000003, -- [2]
-					["source"] = "Nightmare Ichor",
-					["active"] = false,
-				},
 				[208697] = {
 					29.7950000000001, -- [1]
 					34.3809999999999, -- [2]
 					["source"] = "Deathglare Tentacle",
 					["active"] = false,
 				},
-				[209469] = {
-					84.0079999999998, -- [1]
-					124.01, -- [2]
+				[210099] = {
+					77.058, -- [1]
+					84.4900000000003, -- [2]
 					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
@@ -781,6 +654,16 @@ DetailsTimeLineDB = {
 					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
+				[210099] = {
+					10.0210000000002, -- [1]
+					19.2359999999999, -- [2]
+					34.9110000000001, -- [3]
+					37.1060000000002, -- [4]
+					96.1410000000001, -- [5]
+					105.525, -- [6]
+					["source"] = "Nightmare Ichor",
+					["active"] = false,
+				},
 				[212886] = {
 					115.113, -- [1]
 					116.551, -- [2]
@@ -797,52 +680,46 @@ DetailsTimeLineDB = {
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
-				[210099] = {
-					10.0210000000002, -- [1]
-					19.2359999999999, -- [2]
-					34.9110000000001, -- [3]
-					37.1060000000002, -- [4]
-					96.1410000000001, -- [5]
-					105.525, -- [6]
-					["source"] = "Nightmare Ichor",
-					["active"] = false,
-				},
 			},
-			["Bhagdad-Frostmourne"] = {
+			["Wolvion"] = {
 				[215128] = {
 					185.067, -- [1]
 					185.962, -- [2]
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
-				[212886] = {
-					110.966, -- [1]
-					111.309, -- [2]
-					135.191, -- [3]
-					135.804, -- [4]
-					135.885, -- [5]
-					136.541, -- [6]
-					161.538, -- [7]
-					161.718, -- [8]
-					162.034, -- [9]
-					162.681, -- [10]
-					170.048, -- [11]
-					170.397, -- [12]
-					170.909, -- [13]
-					171.824, -- [14]
-					["source"] = "Il'gynoth",
-					["active"] = false,
-				},
-				[208697] = {
-					90.2310000000002, -- [1]
-					91.625, -- [2]
-					["source"] = "Deathglare Tentacle",
+				[209469] = {
+					15.029, -- [1]
+					55.0259999999998, -- [2]
+					103.744, -- [3]
+					107.474, -- [4]
+					162.165, -- [5]
+					164.154, -- [6]
+					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
 				[210099] = {
-					133.232, -- [1]
-					139.828, -- [2]
+					8.63400000000002, -- [1]
+					15.1109999999999, -- [2]
+					86.493, -- [3]
+					87.9000000000001, -- [4]
+					96.1410000000001, -- [5]
+					105.272, -- [6]
+					160.543, -- [7]
+					167.549, -- [8]
 					["source"] = "Nightmare Ichor",
+					["active"] = false,
+				},
+				[212886] = {
+					164.416, -- [1]
+					164.489, -- [2]
+					171.801, -- [3]
+					172.688, -- [4]
+					172.843, -- [5]
+					173.508, -- [6]
+					173.519, -- [7]
+					173.882, -- [8]
+					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
 			},
@@ -861,6 +738,16 @@ DetailsTimeLineDB = {
 					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
+				[210099] = {
+					8.63400000000002, -- [1]
+					15.701, -- [2]
+					92.527, -- [3]
+					104.81, -- [4]
+					133.22, -- [5]
+					138.32, -- [6]
+					["source"] = "Nightmare Ichor",
+					["active"] = false,
+				},
 				[212886] = {
 					117.281, -- [1]
 					117.361, -- [2]
@@ -875,13 +762,27 @@ DetailsTimeLineDB = {
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
+			},
+			["Bunnbao-Frostmourne"] = {
+				[215128] = {
+					185.067, -- [1]
+					185.962, -- [2]
+					["source"] = "Il'gynoth",
+					["active"] = false,
+				},
+				[212886] = {
+					137.708, -- [1]
+					139.465, -- [2]
+					172.933, -- [3]
+					174.612, -- [4]
+					["source"] = "Il'gynoth",
+					["active"] = false,
+				},
 				[210099] = {
-					8.63400000000002, -- [1]
-					15.701, -- [2]
-					92.527, -- [3]
-					104.81, -- [4]
-					133.22, -- [5]
-					138.32, -- [6]
+					8.60899999999992, -- [1]
+					21.9540000000002, -- [2]
+					77.058, -- [3]
+					85.3670000000002, -- [4]
 					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
@@ -952,30 +853,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Bunnbao-Frostmourne"] = {
-				[215128] = {
-					185.067, -- [1]
-					185.962, -- [2]
-					["source"] = "Il'gynoth",
-					["active"] = false,
-				},
-				[212886] = {
-					137.708, -- [1]
-					139.465, -- [2]
-					172.933, -- [3]
-					174.612, -- [4]
-					["source"] = "Il'gynoth",
-					["active"] = false,
-				},
-				[210099] = {
-					8.60899999999992, -- [1]
-					21.9540000000002, -- [2]
-					77.058, -- [3]
-					85.3670000000002, -- [4]
-					["source"] = "Nightmare Ichor",
-					["active"] = false,
-				},
-			},
 			["Acliv-Ragnaros"] = {
 				[215128] = {
 					185.067, -- [1]
@@ -995,6 +872,14 @@ DetailsTimeLineDB = {
 					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
+				[210099] = {
+					10.0210000000002, -- [1]
+					51.4200000000001, -- [2]
+					77.058, -- [3]
+					120.343, -- [4]
+					["source"] = "Nightmare Ichor",
+					["active"] = false,
+				},
 				[212886] = {
 					142.684, -- [1]
 					143.138, -- [2]
@@ -1009,53 +894,41 @@ DetailsTimeLineDB = {
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
-				[210099] = {
-					10.0210000000002, -- [1]
-					51.4200000000001, -- [2]
-					77.058, -- [3]
-					120.343, -- [4]
-					["source"] = "Nightmare Ichor",
-					["active"] = false,
-				},
 			},
-			["Wolvion"] = {
+			["Bhagdad-Frostmourne"] = {
 				[215128] = {
 					185.067, -- [1]
 					185.962, -- [2]
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
-				[209469] = {
-					15.029, -- [1]
-					55.0259999999998, -- [2]
-					103.744, -- [3]
-					107.474, -- [4]
-					162.165, -- [5]
-					164.154, -- [6]
-					["source"] = "Nightmare Ichor",
-					["active"] = false,
-				},
 				[212886] = {
-					164.416, -- [1]
-					164.489, -- [2]
-					171.801, -- [3]
-					172.688, -- [4]
-					172.843, -- [5]
-					173.508, -- [6]
-					173.519, -- [7]
-					173.882, -- [8]
+					110.966, -- [1]
+					111.309, -- [2]
+					135.191, -- [3]
+					135.804, -- [4]
+					135.885, -- [5]
+					136.541, -- [6]
+					161.538, -- [7]
+					161.718, -- [8]
+					162.034, -- [9]
+					162.681, -- [10]
+					170.048, -- [11]
+					170.397, -- [12]
+					170.909, -- [13]
+					171.824, -- [14]
 					["source"] = "Il'gynoth",
 					["active"] = false,
 				},
+				[208697] = {
+					90.2310000000002, -- [1]
+					91.625, -- [2]
+					["source"] = "Deathglare Tentacle",
+					["active"] = false,
+				},
 				[210099] = {
-					8.63400000000002, -- [1]
-					15.1109999999999, -- [2]
-					86.493, -- [3]
-					87.9000000000001, -- [4]
-					96.1410000000001, -- [5]
-					105.272, -- [6]
-					160.543, -- [7]
-					167.549, -- [8]
+					133.232, -- [1]
+					139.828, -- [2]
 					["source"] = "Nightmare Ichor",
 					["active"] = false,
 				},
@@ -1152,60 +1025,16 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Wooftapoofta-Caelestrasz"] = {
+			["Bhagdad-Frostmourne"] = {
 				[215460] = {
-					44.3689999999999, -- [1]
-					50.3709999999999, -- [2]
+					21.752, -- [1]
+					27.7649999999999, -- [2]
 					["source"] = "[*] Necrotic Venom",
 					["active"] = false,
 				},
 				[213124] = {
-					46.5070000000001, -- [1]
-					46.903, -- [2]
-					50.385, -- [3]
-					51.3429999999999, -- [4]
-					["source"] = "[*] Venomous Pool",
-					["active"] = false,
-				},
-			},
-			["Anentet-Malfurion"] = {
-				[210228] = {
-					28.3989999999999, -- [1]
-					59.4179999999999, -- [2]
-					["source"] = "Venomous Spiderling",
-					["active"] = false,
-				},
-				[213124] = {
-					28.4169999999999, -- [1]
-					28.7649999999999, -- [2]
-					47.857, -- [3]
-					48.1199999999999, -- [4]
-					56.3599999999999, -- [5]
-					57.345, -- [6]
-					["source"] = "[*] Venomous Pool",
-					["active"] = false,
-				},
-			},
-			["Keltin-Muradin"] = {
-				[213124] = {
-					30.733, -- [1]
-					32.1469999999999, -- [2]
-					["source"] = "[*] Venomous Pool",
-					["active"] = false,
-				},
-			},
-			["Acliv-Ragnaros"] = {
-				[213124] = {
 					28.798, -- [1]
-					30.2449999999999, -- [2]
-					["source"] = "[*] Venomous Pool",
-					["active"] = false,
-				},
-			},
-			["Mollyn-Dawnbringer"] = {
-				[213124] = {
-					38.752, -- [1]
-					39.6219999999998, -- [2]
+					30.0029999999999, -- [2]
 					["source"] = "[*] Venomous Pool",
 					["active"] = false,
 				},
@@ -1236,56 +1065,227 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Bhagdad-Frostmourne"] = {
+			["Keltin-Muradin"] = {
+				[213124] = {
+					30.733, -- [1]
+					32.1469999999999, -- [2]
+					["source"] = "[*] Venomous Pool",
+					["active"] = false,
+				},
+			},
+			["Anentet-Malfurion"] = {
+				[210228] = {
+					28.3989999999999, -- [1]
+					59.4179999999999, -- [2]
+					["source"] = "Venomous Spiderling",
+					["active"] = false,
+				},
+				[213124] = {
+					28.4169999999999, -- [1]
+					28.7649999999999, -- [2]
+					47.857, -- [3]
+					48.1199999999999, -- [4]
+					56.3599999999999, -- [5]
+					57.345, -- [6]
+					["source"] = "[*] Venomous Pool",
+					["active"] = false,
+				},
+			},
+			["Mollyn-Dawnbringer"] = {
+				[213124] = {
+					38.752, -- [1]
+					39.6219999999998, -- [2]
+					["source"] = "[*] Venomous Pool",
+					["active"] = false,
+				},
+			},
+			["Acliv-Ragnaros"] = {
+				[213124] = {
+					28.798, -- [1]
+					30.2449999999999, -- [2]
+					["source"] = "[*] Venomous Pool",
+					["active"] = false,
+				},
+			},
+			["Wooftapoofta-Caelestrasz"] = {
 				[215460] = {
-					21.752, -- [1]
-					27.7649999999999, -- [2]
+					44.3689999999999, -- [1]
+					50.3709999999999, -- [2]
 					["source"] = "[*] Necrotic Venom",
 					["active"] = false,
 				},
 				[213124] = {
-					28.798, -- [1]
-					30.0029999999999, -- [2]
+					46.5070000000001, -- [1]
+					46.903, -- [2]
+					50.385, -- [3]
+					51.3429999999999, -- [4]
 					["source"] = "[*] Venomous Pool",
 					["active"] = false,
 				},
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
+	["hide_on_combat"] = false,
+	["cooldowns_timeline"] = {
 		{
-			["date_end"] = "21:44:19",
-			["date_start"] = "21:42:48",
-			["name"] = "Xavius",
-			["total_time"] = 90.6309999999999,
+			["Bunnbao-Frostmourne"] = {
+				{
+					74.7339999999999, -- [1]
+					"Mollyn-Dawnbringer", -- [2]
+					116849, -- [3]
+				}, -- [1]
+			},
+			["Bhagdad-Frostmourne"] = {
+				{
+					89.9079999999999, -- [1]
+					"Bhagdad-Frostmourne", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Acliv-Ragnaros"] = {
+				{
+					22.7370000000001, -- [1]
+					"Acliv-Ragnaros", -- [2]
+					61336, -- [3]
+				}, -- [1]
+				{
+					54.0099999999998, -- [1]
+					"Acliv-Ragnaros", -- [2]
+					61336, -- [3]
+				}, -- [2]
+			},
+			["Anentet-Malfurion"] = {
+				{
+					2.49800000000005, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [1]
+				{
+					3.13599999999997, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [2]
+				{
+					10.6859999999997, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [3]
+			},
 		}, -- [1]
 		{
-			["date_end"] = "21:37:08",
-			["date_start"] = "21:36:20",
-			["name"] = "Cenarius",
-			["total_time"] = 48.3330000000001,
+			["Greybone"] = {
+				{
+					31.3230000000003, -- [1]
+					"Greybone", -- [2]
+					55233, -- [3]
+				}, -- [1]
+			},
+			["Wolvion"] = {
+				{
+					35.3560000000002, -- [1]
+					"Wolvion", -- [2]
+					48707, -- [3]
+				}, -- [1]
+			},
+			["Bhagdad-Frostmourne"] = {
+				{
+					15.3710000000001, -- [1]
+					"Bhagdad-Frostmourne", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Tailgater-Stormrage"] = {
+				{
+					32.7560000000003, -- [1]
+					"Tailgater-Stormrage", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Bunnbao-Frostmourne"] = {
+				{
+					31.3230000000003, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					115310, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
-			["date_end"] = "21:33:44",
-			["date_start"] = "21:30:39",
-			["name"] = "Il'gynoth, The Heart of Corruption",
-			["total_time"] = 185.962,
+			["Wolvion"] = {
+				{
+					107.461, -- [1]
+					"Wolvion", -- [2]
+					48707, -- [3]
+				}, -- [1]
+			},
+			["Acliv-Ragnaros"] = {
+				{
+					181.574, -- [1]
+					"Acliv-Ragnaros", -- [2]
+					61336, -- [3]
+				}, -- [1]
+			},
+			["Anentet-Malfurion"] = {
+				{
+					9.22600000000011, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [1]
+				{
+					17.808, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [2]
+				{
+					140.415, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [3]
+			},
 		}, -- [3]
 		{
-			["date_end"] = "21:28:13",
-			["date_start"] = "21:27:13",
-			["name"] = "Elerethe Renferal",
-			["total_time"] = 59.4179999999999,
+			["Bhagdad-Frostmourne"] = {
+				{
+					22.258, -- [1]
+					"Bhagdad-Frostmourne", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Anentet-Malfurion"] = {
+				{
+					0.16599999999994, -- [1]
+					"Anentet-Malfurion", -- [2]
+					61336, -- [3]
+				}, -- [1]
+			},
+			["Keltin-Muradin"] = {
+				{
+					22.7439999999999, -- [1]
+					"Keltin-Muradin", -- [2]
+					642, -- [3]
+				}, -- [1]
+			},
+			["Opal-Stormreaver"] = {
+				{
+					33.7169999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+			["Acliv-Ragnaros"] = {
+				{
+					29.2279999999998, -- [1]
+					"Acliv-Ragnaros", -- [2]
+					61336, -- [3]
+				}, -- [1]
+			},
+			["Bunnbao-Frostmourne"] = {
+				{
+					25.817, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					115310, -- [3]
+				}, -- [1]
+			},
 		}, -- [4]
 	},
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
+	["window_scale"] = 1,
 }

@@ -10,7 +10,7 @@ HandyNotes_BrokenShoreDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -21,7 +21,7 @@ HandyNotes_BrokenShoreDB = {
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["profiles"] = {
 		["Korugen - Tichondrius"] = {
@@ -42,7 +42,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Evisca - Bleeding Hollow"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
@@ -67,7 +67,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Evisca - Bleeding Hollow"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 	},
 }
