@@ -7,7 +7,7 @@ local bwFrame = CreateFrame("Frame")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 88
+local BIGWIGS_VERSION = 89
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -18,7 +18,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "5a0d494" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "e601bae" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -53,7 +53,7 @@ end
 local ldb = nil
 local tooltipFunctions = {}
 local next, tonumber, strsplit = next, tonumber, strsplit
-local SendAddonMessage, Ambiguate, CTimerAfter, CTimerNewTicker = SendAddonMessage, Ambiguate, C_Timer.After, C_Timer.NewTicker
+local SendAddonMessage, Ambiguate, CTimerAfter, CTimerNewTicker = C_ChatInfo and C_ChatInfo.SendAddonMessage or SendAddonMessage, Ambiguate, C_Timer.After, C_Timer.NewTicker -- XXX C_ChatInfo check for 8.0
 local IsInInstance, GetCurrentMapAreaID, SetMapToCurrentZone = IsInInstance, GetCurrentMapAreaID, SetMapToCurrentZone
 local GetAreaMapInfo, GetInstanceInfo, GetPlayerMapAreaID = GetAreaMapInfo, GetInstanceInfo, GetPlayerMapAreaID
 
@@ -106,6 +106,7 @@ do
 	local lw_mop = "LittleWigs_MistsOfPandaria"
 	local lw_wod = "LittleWigs_WarlordsOfDraenor"
 	local lw_l = "LittleWigs_Legion"
+	local lw_bfa = "LittleWigs_BattleForAzeroth"
 
 	public.zoneTbl = {
 		--[[ BigWigs: Classic ]]--
@@ -161,6 +162,7 @@ do
 		[1779] = l, -- Invasion Points
 
 		--[[ LittleWigs: Classic ]]--
+		[33] = lw_c, -- Shadowfang Keep
 		[36] = lw_c, -- Deadmines
 		--[[ LittleWigs: The Burning Crusade ]]--
 		[540] = lw_bc, -- Hellfire Citadel: The Shattered Halls
@@ -197,17 +199,25 @@ do
 		[668] = lw_wotlk, -- Halls of Reflection
 		[632] = lw_wotlk, -- The Forge of Souls
 		--[[ LittleWigs: Cataclysm ]]--
+		[568] = lw_cata, -- Zul'Aman
+		[859] = lw_cata, -- Zul'Gurub
 		[643] = lw_cata, -- Throne of the Tides
+		[644] = lw_cata, -- Halls of Origination
+		[645] = lw_cata, -- Blackrock Caverns
 		[755] = lw_cata, -- Lost City of the Tol'vir
 		[725] = lw_cata, -- The Stonecore
 		[938] = lw_cata, -- End Time
+		[939] = lw_cata, -- Well of Eternity
 		[657] = lw_cata, -- The Vortex Pinnacle
 		[670] = lw_cata, -- Grim Batol
 		--[[ LittleWigs: Mists of Pandaria ]]--
 		[959] = lw_mop, -- Shado-Pan Monastery
 		[960] = lw_mop, -- Temple of the Jade Serpent
+		[961] = lw_mop, -- Stormstout Brewery
+		[962] = lw_mop, -- Gate of the Setting Sun
 		[994] = lw_mop, -- Mogu'shan Palace
 		[1001] = lw_mop, -- Scarlet Halls
+		[1011] = lw_mop, -- Siege of Niuzao Temple
 		[1112] = lw_mop, -- Pursuing the Black Harvest
 		[1004] = lw_mop, -- Scarlet Monastery
 		--[[ LittleWigs: Warlords of Draenor ]]--
@@ -234,6 +244,17 @@ do
 		[1477] = lw_l, -- Halls of Valor
 		[1493] = lw_l, -- Vault of the Wardens
 		[1753] = lw_l, -- Seat of the Triumvirate
+		--[[ LittleWigs: Battle for Azeroth ]]--
+		[1763] = lw_bfa, -- Atal'Dazar
+		[1754] = lw_bfa, -- Freehold
+		[1762] = lw_bfa, -- King's Rest
+		[1864] = lw_bfa, -- Shrine of the Storm
+		[1822] = lw_bfa, -- Siege of Boralus
+		[1877] = lw_bfa, -- Temple of Sethraliss
+		[1594] = lw_bfa, -- The Undermine
+		[1771] = lw_bfa, -- Tol Dagor
+		[1841] = lw_bfa, -- Underrot
+		[1862] = lw_bfa, -- Waycrest Manor
 	}
 
 	public.zoneTblWorld = {
@@ -611,9 +632,13 @@ function mod:ADDON_LOADED(addon)
 	RolePollPopup:UnregisterEvent("ROLE_POLL_BEGIN")
 
 	bwFrame:RegisterEvent("CHAT_MSG_ADDON")
-	RegisterAddonMessagePrefix("BigWigs")
-	RegisterAddonMessagePrefix("D4") -- DBM
-
+	if C_ChatInfo then -- XXX 8.0
+		C_ChatInfo.RegisterAddonMessagePrefix("BigWigs")
+		C_ChatInfo.RegisterAddonMessagePrefix("D4") -- DBM
+	else
+		RegisterAddonMessagePrefix("BigWigs")
+		RegisterAddonMessagePrefix("D4") -- DBM
+	end
 	local icon = LibStub("LibDBIcon-1.0", true)
 	if icon and ldb then
 		if not BigWigsIconDB then
@@ -865,8 +890,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "17241" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "7.3.21" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
+	local DBMdotRevision = "17327" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "7.3.23" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil

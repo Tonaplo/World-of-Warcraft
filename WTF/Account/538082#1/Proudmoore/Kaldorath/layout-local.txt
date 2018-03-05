@@ -55,3 +55,10 @@ X: 55
 Y: -106
 W: 370
 H: 110
+Frame: ImmersionToast
+FrameLevel: 1
+Anchor: RIGHT
+X: -361
+Y: 268
+W: 235
+H: 25

@@ -27,6 +27,7 @@ local GetInstanceInfo = loader.GetInstanceInfo
 
 -- Upvalues
 local next, type = next, type
+local UnitGUID = UnitGUID
 
 -------------------------------------------------------------------------------
 -- Event handling
@@ -87,7 +88,9 @@ function addon:ENCOUNTER_START(_, id)
 		if module.engageId == id then
 			if not module.enabledState then
 				module:Enable()
-				module:Engage()
+				if UnitGUID("boss1") then -- Only if _START fired after IEEU
+					module:Engage()
+				end
 			end
 		end
 	end
@@ -101,7 +104,7 @@ local enablezones, enablemobs = {}, {}
 local monitoring = nil
 
 local function enableBossModule(module, noSync)
-	if not module:IsEnabled() and (not module.lastKill or (GetTime() - module.lastKill) > (module.worldBoss and 5 or 150)) then
+	if not module:IsEnabled() then
 		module:Enable()
 		if not noSync and not module.worldBoss then
 			module:Sync("Enable", module:GetName())

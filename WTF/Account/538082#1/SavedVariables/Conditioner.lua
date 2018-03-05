@@ -6,7 +6,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Protection",
 	}, -- [1]
 	{
-		["value"] = "[02+m0__ShiftE_96231_0_0]\n[00w+402+g0_judgment_ShiftF_85256_0_0]\n[000a3+j0__2_205273_0_0]\n[000a4+b03+70__F_184575_0_0]\n[000a5+b05+70__E_35395_0_0]\n[+o0__3_20271_0_0]",
+		["value"] = "[02+m0__ShiftE_96231_0_0]\n[+702+g0_judgment_ShiftF_85256_0_0]\n[000a3+j0__2_205273_0_0]\n[000a4+b03+70__F_184575_0_0]\n[000a5+b05+70__E_35395_0_0]\n[+o0__3_20271_0_0]",
 		["spec"] = 70,
 		["name"] = "Retribution",
 	}, -- [2]
@@ -16,7 +16,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Affliction",
 	}, -- [3]
 	{
-		["value"] = "[01+502+603+90_Immolate_ShiftF_348_0_0]\n[+o0__ShiftT_1122_0_0]\n[00082+b05+70__ShiftF_116858_0_0]\n[+o0__T_18540_0_0]\n[01+50102+a01000_Backdraft_3_17962_0_0]\n[00w+l0__ShiftF_116858_0_0]\n[+o0__E_29722_0_0]",
+		["value"] = "[01+502+603+90_Immolate_ShiftF_348_0_0]\n[0g+m0__ShiftT_1122_0_0]\n[00082+b05+70__ShiftF_116858_0_0]\n[0g+m0__T_18540_0_0]\n[01+50102+a01000_Backdraft_3_17962_0_0]\n[00w+l0__ShiftF_116858_0_0]\n[+o0__E_29722_0_0]",
 		["spec"] = 267,
 		["name"] = "Destruction",
 	}, -- [4]
@@ -71,7 +71,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Blood",
 	}, -- [14]
 	{
-		["value"] = "[02+m0__ShiftE_47528_0_0]\n[04wo5+a01q+70__Shift2_49998_0_0]\n[0w+m0__Shift2_49998_0_0]\n[0g+50220005+b0_razorice_Z_190778_0_0]\n[04w72+a01b+70__F_49143_0_0]\n[01w+402+g0_Frost Fever_ShiftF_49184_0_0]\n[00w+l0__ShiftQ_196770_0_0]\n[0w+m0__ShiftF_49184_0_0]\n[0w+m0__E_49020_0_0]\n[00w61+b04+70__E_49020_0_0]\n[+o0__ShiftF_49143_0_0]",
+		["value"] = "[02+m0__ShiftE_47528_0_0]\n[04wo5+a01q+70__Shift2_49998_0_0]\n[0w+m0__Shift2_49998_0_0]\n[0g+50220005+b0_razorice_Z_190778_0_0]\n[04w72+a01b+70__F_49143_0_0]\n[01w+402+g0_Frost Fever_ShiftF_49184_0_0]\n[00w+l0__ShiftQ_196770_0_0]\n[0w+m0__ShiftF_49184_0_0]\n[0w+m0__E_49020_0_0]\n[00w61+b04+70__E_49020_0_0]\n[+o0__F_49143_0_0]",
 		["spec"] = 251,
 		["name"] = "Frost",
 	}, -- [15]
@@ -145,14 +145,24 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 261,
 		["name"] = "Subtlety",
 	}, -- [29]
-	[0] = {
-		["value"] = "",
-		["spec"] = 0,
-		["name"] = "None",
-	},
+	{
+		["value"] = "[02+m0___78675_0_0]\n[01+502+603+90_Moonfire_C_8921_0_0]\n[01+502+603+90_Sunfire_ShiftF_93402_0_0]\n[+701+g0_Solar Empowerment_E_190984_0_0]\n[+701+g0_Lunar Empowerment_3_194153_0_0]\n[00w+l0__F_78674_0_0]\n[+o0__E_190984_0_0]",
+		["spec"] = 102,
+		["name"] = "Balance M+",
+	}, -- [30]
+	{
+		["value"] = "[02+m0__ShiftE_183752_0_0]\n[+o0__Shift2_201467_0_0]\n[01+50101+401+501003_Momentum_Shift C_195072_0_232893]\n[01+501+601+803_Momentum_C_198793_0_232893]\n[0h+m0_metamorphosis_T_191427_0_0]\n[+o0__Shift Q_198013_0_0]\n[00w+l0__Shift F_232893_0_0]\n[+o0__Q_188499_0_0]\n[00w+l0__F_162794_0_0]\n[000i4+a016+70__E_162243_0_0]",
+		["spec"] = 577,
+		["name"] = "Havoc Mythic+",
+	}, -- [31]
 	[-1] = {
 		["value"] = "",
 		["spec"] = 0,
 		["name"] = "Basic Rotation",
+	},
+	[0] = {
+		["value"] = "",
+		["spec"] = 0,
+		["name"] = "None",
 	},
 }

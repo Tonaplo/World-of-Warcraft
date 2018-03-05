@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.1.6
+--version 2.1.6c
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -952,8 +952,10 @@ function ConditionerAddOn:SpellCacheInsert(word, i, node)
         local char = word:sub(i, i)
         local index = string.byte(char:lower())
         node.children = node.children or {}
-        node.children[index] = node.children[index] or {value = char}
-        ConditionerAddOn:SpellCacheInsert(word, i+1, node.children[index])
+        if (index) then
+            node.children[index] = node.children[index] or {value = char}
+            ConditionerAddOn:SpellCacheInsert(word, i+1, node.children[index])
+        end
     else
         node.isComplete = true
     end
@@ -964,7 +966,7 @@ function ConditionerAddOn:SpellCacheTraverse(prefix, i, node, properPrefix)
         local char = prefix:sub(i, i)
         properPrefix = properPrefix or ""
         local index = string.byte(char:lower())
-        if (node.children) then
+        if (node.children) and (index) then
             local child = node.children[index]
             if (child) then
                 return ConditionerAddOn:SpellCacheTraverse(prefix, i+1, child, string.format("%s%s", properPrefix, child.value))
@@ -1528,8 +1530,8 @@ end
 
 function ConditionerAddOn:CacheGCDMachine(...)
     local eventArgs = {...}
-    if (GetCurrentCombatLogEvent) then
-        eventArgs = GetCurrentCombatLogEvent()
+    if (CombatLogGetCurrentEventInfo) then
+        eventArgs = {CombatLogGetCurrentEventInfo()}
     end
     if (eventArgs[4] == UnitGUID("player")) then
         ConditionerAddOn.GetGCD = ConditionerAddOn.GetGCD or {}
@@ -1882,7 +1884,7 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     end
     --is the aura even active, we let "" pass
     if (not auraName) and (activeAuraName ~= "") then
-        if (not Conditions.secondsRemainingBool) then
+        if (not Conditions.secondsRemainingBool) and (Conditions.stackConditionalEnum == 0) then
             --print("FAILED - AURA NOT ACTIVE")
             return false
         end
@@ -2290,7 +2292,7 @@ function ConditionerAddOn:NewPriorityButton(isPrimary)
         o:SetPoint("TOPLEFT", SpellBookFrame, "TOPRIGHT", 50, 0)
         o.Text = o:CreateFontString(nil, "OVERLAY")
         o.Text:SetFont("Fonts\\FRIZQT__.TTF", 20, "OUTLINE, THICK")
-        o.Text:SetPoint("CENTER", o, "CENTER")
+        o.Text:SetPoint("CENTER", o, "CENTER", 1, 0)
         o.Text:SetTextColor(0, 1, 1)
         o.Text:SetText("+")
         o.Text:SetJustifyH("CENTER")

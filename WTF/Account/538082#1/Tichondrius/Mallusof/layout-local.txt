@@ -62,13 +62,6 @@ X: 0
 Y: 1
 W: 790
 H: 454
-Frame: ImmersionToast
-FrameLevel: 1
-Anchor: RIGHT
-X: -364
-Y: 268
-W: 235
-H: 25
 Frame: VuhDoNewOptionsTabbedFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -90,3 +83,10 @@ X: -381
 Y: -75
 W: 320
 H: 20
+Frame: ImmersionToast
+FrameLevel: 1
+Anchor: RIGHT
+X: -364
+Y: 268
+W: 235
+H: 25
