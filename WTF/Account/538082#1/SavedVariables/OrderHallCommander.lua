@@ -13,16 +13,16 @@ dbOHC = {
 		["Mallusof - Tichondrius"] = {
 			["firstun"] = false,
 		},
-		["Praerend - Proudmoore"] = {
+		["Kaldorath - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Granjior - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Miriyal - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Morifa - Proudmoore"] = {
+		["Miriyal - Proudmoore"] = {
 			["firstun"] = false,
 		},
 		["Greybone - Proudmoore"] = {
@@ -34,9 +34,23 @@ dbOHC = {
 		["Faerand - Proudmoore"] = {
 			["firstun"] = false,
 		},
-		["Kaldorath - Proudmoore"] = {
+		["Praerend - Proudmoore"] = {
 			["firstun"] = false,
 		},
+	},
+	["profileKeys"] = {
+		["Rahran - Proudmoore"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
+		["Farahn - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Kaldorath - Proudmoore"] = "Default",
+		["Granjior - Proudmoore"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
+		["Greybone - Proudmoore"] = "Default",
+		["Fimwack - Proudmoore"] = "Default",
+		["Faerand - Proudmoore"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["global"] = {
 		["warn01_seen"] = 0,
@@ -47,20 +61,6 @@ dbOHC = {
 		},
 		["warn02_seen"] = 0,
 		["changedkeywarned"] = true,
-	},
-	["profileKeys"] = {
-		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
-		["Farahn - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
-		["Granjior - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Greybone - Proudmoore"] = "Default",
-		["Fimwack - Proudmoore"] = "Default",
-		["Faerand - Proudmoore"] = "Default",
-		["Kaldorath - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -78,21 +78,20 @@ dbOHC = {
 				["TROOPALERT"] = true,
 				["SAVETROOPS"] = false,
 				["IGNOREINACTIVE"] = true,
-				["MINCHANCE"] = 5,
+				["BAN162"] = false,
 				["BONUS"] = true,
 				["SORTMISSION2"] = "Garrison_SortMissions_Original",
 				["BONUSCHANCE"] = 100,
-				["MAKEITVERYQUICK"] = false,
+				["IGNORELOW"] = false,
 				["NOWARN"] = false,
 				["PREFERHIGH"] = false,
 				["SPARE"] = false,
 				["MAKEITQUICK"] = true,
-				["IGNORELOW"] = false,
-				["BAN162"] = false,
+				["MAKEITVERYQUICK"] = false,
+				["MINCHANCE"] = 5,
 				["IGNOREBUSY"] = false,
 				["BASECHANCE"] = 5,
 			},
-			["showmenu"] = true,
 			["blacklist"] = {
 				[1632] = false,
 				[1384] = false,
@@ -103,6 +102,7 @@ dbOHC = {
 				[1656] = true,
 				[1751] = false,
 			},
+			["showmenu"] = true,
 		},
 	},
 }

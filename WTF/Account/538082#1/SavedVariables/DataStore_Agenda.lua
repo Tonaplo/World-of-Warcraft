@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -35,11 +35,14 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1520114366,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Heroic|346122985"] = "116089|1520232311|0|1",
-					["Antorus, the Burning Throne Mythic|346123629"] = "116089|1520232311|0|1",
+				["Calendar"] = {
+					"2018-03-08|18:30|NEW TIME Farm|1|2", -- [1]
 				},
-				["lastUpdate"] = 1520232390,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Heroic|346122985"] = "28956|1520319442|0|1",
+					["Antorus, the Burning Throne Mythic|346123629"] = "28956|1520319442|0|1",
+				},
+				["lastUpdate"] = 1520319482,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -65,8 +68,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1520107738,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1520135113,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1519800144,
 			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1520059196,
@@ -93,13 +96,13 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1519799786,
 			},
 			["Default.Tichondrius.Korugen"] = {
-				["lastUpdate"] = 1520062174,
+				["lastUpdate"] = 1520308114,
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1520137150,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1519800144,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1520135113,
 			},
 		},
 	},

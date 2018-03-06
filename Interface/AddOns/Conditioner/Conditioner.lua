@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.1.6c
+--version 2.2.0
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -1720,7 +1720,7 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     local targetUnitEnum, targetUnitToken = Conditions.auraTargetEnum, "target"
     if (targetUnitEnum == 1) then
         targetUnitToken = "player"
-    elseif (targetUnitEnum == 2 or targetUnitEnum == 3 or targetUnitEnum == 4) then
+    elseif (targetUnitEnum == 2 or targetUnitEnum == 3 or targetUnitEnum == 4 or targetUnitEnum == 13 or targetUnitEnum == 14 or targetUnitEnum == 15) then
         targetUnitToken = "target"
     elseif (targetUnitEnum == 5 or targetUnitEnum == 6 or targetUnitEnum == 7) then
         targetUnitToken = "mouseover"
@@ -1735,14 +1735,20 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     elseif (targetUnitEnum == 12) then
         targetUnitToken = "targettarget"
     end
+
     -- 2/5 enemy
-    if (targetUnitEnum == 2 or targetUnitEnum == 5) and (not UnitCanAttack("player", targetUnitToken)) then
+    if (targetUnitEnum == 2 or targetUnitEnum == 5 or targetUnitEnum == 14) and (not UnitCanAttack("player", targetUnitToken)) then
         --print("FAILED - ENEMY TARGET")
         return false
     end
     -- 3/6 friend
-    if (targetUnitEnum == 3 or targetUnitEnum == 6) and (UnitCanAttack("player", targetUnitToken)) then
+    if (targetUnitEnum == 3 or targetUnitEnum == 6 or targetUnitEnum == 13) and (UnitCanAttack("player", targetUnitToken)) then
         --print("FAILED - FRIENDLY TARGET")
+        return false
+    end
+
+    --isPlayer
+    if (targetUnitEnum == 13 or targetUnitEnum == 14 or targetUnitEnum == 15) and (not UnitIsPlayer(targetUnitToken)) then
         return false
     end
 
@@ -2044,6 +2050,38 @@ function ConditionerAddOn:GetAvailableTrackingFrame()
     trackingFrame.Keybind:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(0.26*ConditionerAddOn_SavedVariables.Options.TrackedFrameSize*mult), "OUTLINE, THICK")
     trackingFrame.Countdown.Text:SetFont("Fonts\\FRIZQT__.TTF", math.ceil(0.24*ConditionerAddOn_SavedVariables.Options.TrackedFrameSize*mult), "OUTLINE, THICK")
     return trackingFrame
+end
+
+function ConditionerAddOn:GetNextLoadoutSlot()
+    local count = 1
+    for k,v in pairs(ConditionerAddOn.LoadoutFrame.DropDown.Choices) do
+        if (k > 0) then
+            count = count + 1
+            if (not v) then
+                return k
+            end
+        end
+    end
+
+    return count
+end
+
+function ConditionerAddOn:FixupLoadoutGaps()
+    local totalCount = 0
+    local highestIndex = 0
+    for k,v in pairs(ConditionerAddOn_SavedVariables_Loadouts) do
+        if (k > 0) then
+            totalCount = totalCount + 1
+            highestIndex = (k > highestIndex) and k or highestIndex
+        end
+    end
+
+    if (#ConditionerAddOn_SavedVariables_Loadouts ~= totalCount) then
+        --we're uneven, fill in gaps up to highestIndex
+        for i=1,highestIndex do
+            ConditionerAddOn_SavedVariables_Loadouts[i] = ConditionerAddOn_SavedVariables_Loadouts[i] or false
+        end
+    end
 end
 
 function ConditionerAddOn:NewCheckBox(parent, label, key)
@@ -2455,7 +2493,7 @@ function ConditionerAddOn:GetLoadoutPackageByID(loadoutID)
                         return
                     end
                 else
-                    if (ConditionerAddOn_SavedVariables_Loadouts[packageID].spec == currentSpec) then
+                    if (ConditionerAddOn_SavedVariables_Loadouts[packageID]) and (ConditionerAddOn_SavedVariables_Loadouts[packageID].spec == currentSpec) then
                         return ConditionerAddOn_SavedVariables_Loadouts[packageID]
                     else
                         return ConditionerAddOn_SavedVariables_Loadouts[0]
@@ -2706,6 +2744,9 @@ function ConditionerAddOn:Init()
             "My Focus",
             "My Focus' Target",
             "My Target's Target",
+            "Friendly Player",
+            "Enemy Player",
+            "Any Player"
         },
         shapeShiftChoicesEnum = {
             [0] = "None",
@@ -3310,14 +3351,16 @@ function ConditionerAddOn:Init()
         self:ClearFocus()
     end)
     ConditionerAddOn.LoadoutFrame.InputName:SetScript("OnMouseDown", function(self, button)
-        local defaultCheck = (ConditionerAddOn.LoadoutFrame.DropDown.Choices) and (string.format("New Loadout %s", #ConditionerAddOn.LoadoutFrame.DropDown.Choices + 1)) or ""
+        local nextFreeLoadoutSlot = ConditionerAddOn:GetNextLoadoutSlot()
+        local defaultCheck = (ConditionerAddOn.LoadoutFrame.DropDown.Choices) and (string.format("New Loadout %s", nextFreeLoadoutSlot)) or ""
         if (button == "RightButton") or (self:GetText() == defaultCheck) then
             self:SetText("")
         end
     end)
     ConditionerAddOn.LoadoutFrame.InputName:SetScript("OnShow", function(self)
         if (ConditionerAddOn.LoadoutFrame.DropDown.Choices) then
-            local newIndex = #ConditionerAddOn.LoadoutFrame.DropDown.Choices + 1
+            local nextFreeLoadoutSlot = ConditionerAddOn:GetNextLoadoutSlot()
+            local newIndex = nextFreeLoadoutSlot
             self:SetText(string.format("New Loadout %s", newIndex))
         end
     end)
@@ -3347,10 +3390,13 @@ function ConditionerAddOn:Init()
                 UIErrorsFrame:AddMessage("Please enter a name for your loadout.", 0, 0.75, 1, 1)
             else
                 local package = {name = loadoutName, value = loadoutString, spec = currentSpecID}
-                table.insert(ConditionerAddOn.LoadoutFrame.DropDown.Choices, package)
+                local nextFreeLoadoutSlot = ConditionerAddOn:GetNextLoadoutSlot()
+                ConditionerAddOn.LoadoutFrame.DropDown.Choices[nextFreeLoadoutSlot] = package
+                --table.insert(ConditionerAddOn.LoadoutFrame.DropDown.Choices, package)
                 ConditionerAddOn.LoadoutFrame.InputName:Hide()
-                ConditionerAddOn.LoadoutFrame.DropDown:SetValue(#ConditionerAddOn.LoadoutFrame.DropDown.Choices)
-                ConditionerAddOn_SavedVariables.TalentsPerLoadout[#ConditionerAddOn.LoadoutFrame.DropDown.Choices] = ConditionerAddOn:GetTalents()
+
+                ConditionerAddOn.LoadoutFrame.DropDown:SetValue(nextFreeLoadoutSlot)
+                ConditionerAddOn_SavedVariables.TalentsPerLoadout[nextFreeLoadoutSlot] = ConditionerAddOn:GetTalents()
             end
         else
             UIErrorsFrame:Clear()
@@ -3523,12 +3569,14 @@ function ConditionerAddOn:Init()
                 CONDITIONERDROPDOWNMENU_AddButton(info)
             end
             for k,v in pairs(ConditionerAddOn.LoadoutFrame.DropDown.Choices) do
-                if (currentSpecID == v.spec) then
-                    info.text = v.name
-                    info.func = self.SetValue
-                    info.arg1 = k
-                    info.checked = (k == ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
-                    CONDITIONERDROPDOWNMENU_AddButton(info)
+                if (v) then
+                    if (currentSpecID == v.spec) then
+                        info.text = v.name
+                        info.func = self.SetValue
+                        info.arg1 = k
+                        info.checked = (k == ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
+                        CONDITIONERDROPDOWNMENU_AddButton(info)
+                    end
                 end
             end
         end)
@@ -3568,7 +3616,8 @@ function ConditionerAddOn:Init()
 
     function ConditionerAddOn.LoadoutFrame.DropDown:DeleteLoadout()
         if (ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice > 0) then
-            table.remove(ConditionerAddOn.LoadoutFrame.DropDown.Choices, ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
+            --table.remove(ConditionerAddOn.LoadoutFrame.DropDown.Choices, ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice)
+            ConditionerAddOn.LoadoutFrame.DropDown.Choices[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice] = false
             ConditionerAddOn_SavedVariables.TalentsPerLoadout[ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice] = nil
             CONDITIONERDROPDOWNMENU_SetText(ConditionerAddOn.LoadoutFrame.DropDown, string.format("|cffd742f4%s|r", ConditionerAddOn.LoadoutFrame.DropDown.Choices[0].name))
             ConditionerAddOn.LoadoutFrame.DropDown.CurrentChoice = 0
@@ -3942,6 +3991,7 @@ function ConditionerAddOn.EventHandler:ADDON_LOADED(...)
         ConditionerAddOn_SavedVariables.TalentsPerLoadout = ConditionerAddOn_SavedVariables.TalentsPerLoadout or {}
         ConditionerAddOn_SavedVariables.CurrentLoadouts = ConditionerAddOn_SavedVariables.CurrentLoadouts or {}
         ConditionerAddOn:FixupSavedVariables()
+        ConditionerAddOn:FixupLoadoutGaps()
         ConditionerAddOn_SavedVariables.Options = ConditionerAddOn_SavedVariables.Options or {
             TrackedFrameAnchorCoords = {x = false, y = false},
             AnchorDirection = 0,
