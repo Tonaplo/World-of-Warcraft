@@ -1,5 +1,64 @@
 
 DetailsTimeLineDB = {
+	["window_scale"] = 1,
+	["max_segments"] = 4,
+	["cooldowns_timeline"] = {
+		{
+			["Ummhello-Sargeras"] = {
+				{
+					42.1350000000002, -- [1]
+					"Ummhello-Sargeras", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Mallusof"] = {
+				{
+					135.218000000001, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64843, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Honeyblade-Proudmoore"] = {
+				{
+					54.9549999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+			["Ummhello-Sargeras"] = {
+				{
+					5.98099999999977, -- [1]
+					"Ummhello-Sargeras", -- [2]
+					122470, -- [3]
+				}, -- [1]
+				{
+					130.466999999999, -- [1]
+					"Ummhello-Sargeras", -- [2]
+					122470, -- [3]
+				}, -- [2]
+			},
+		}, -- [2]
+		{
+			["Ummhello-Sargeras"] = {
+				{
+					11.7989999999991, -- [1]
+					"Ummhello-Sargeras", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Ummhello-Sargeras"] = {
+				{
+					11.6800000000003, -- [1]
+					"Ummhello-Sargeras", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -189,39 +248,7 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["max_segments"] = 4,
-	["combat_data"] = {
-		{
-			["date_end"] = "22:41:48",
-			["date_start"] = "22:39:09",
-			["name"] = "Odyn",
-			["total_time"] = 159.453000000001,
-		}, -- [1]
-		{
-			["date_end"] = "22:38:21",
-			["date_start"] = "22:36:03",
-			["name"] = "God-King Skovald",
-			["total_time"] = 138.032999999999,
-		}, -- [2]
-		{
-			["date_end"] = "22:35:12",
-			["date_start"] = "22:34:23",
-			["name"] = "God-King Skovald",
-			["total_time"] = 49.0789999999997,
-		}, -- [3]
-		{
-			["date_end"] = "22:28:56",
-			["date_start"] = "22:27:33",
-			["name"] = "Fenryr",
-			["total_time"] = 82.4930000000004,
-		}, -- [4]
-	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Honeyblade-Proudmoore"] = {
@@ -402,6 +429,18 @@ DetailsTimeLineDB = {
 			},
 		}, -- [2]
 		{
+			["Mallusof"] = {
+				[193702] = {
+					34.3629999999994, -- [1]
+					38.4259999999995, -- [2]
+					38.4419999999991, -- [3]
+					45.652, -- [4]
+					45.7519999999986, -- [5]
+					49.0789999999997, -- [6]
+					["source"] = "[*] Infernal Flames",
+					["active"] = false,
+				},
+			},
 			["Unleashbeast-Stormrage"] = {
 				[193702] = {
 					36.652, -- [1]
@@ -413,18 +452,6 @@ DetailsTimeLineDB = {
 					42.6799999999985, -- [1]
 					44.6589999999997, -- [2]
 					["source"] = "God-King Skovald",
-					["active"] = false,
-				},
-			},
-			["Mallusof"] = {
-				[193702] = {
-					34.3629999999994, -- [1]
-					38.4259999999995, -- [2]
-					38.4419999999991, -- [3]
-					45.652, -- [4]
-					45.7519999999986, -- [5]
-					49.0789999999997, -- [6]
-					["source"] = "[*] Infernal Flames",
 					["active"] = false,
 				},
 			},
@@ -468,22 +495,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Ummhello-Sargeras"] = {
-				[197556] = {
-					9.04800000000068, -- [1]
-					12.5799999999999, -- [2]
-					45.4850000000006, -- [3]
-					50.1140000000014, -- [4]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
-				[196497] = {
-					13.0320000000011, -- [1]
-					82.4719999999998, -- [2]
-					["source"] = "Fenryr",
-					["active"] = false,
-				},
-			},
 			["Mallusof"] = {
 				[197556] = {
 					9.04800000000068, -- [1]
@@ -500,65 +511,54 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Ummhello-Sargeras"] = {
+				[197556] = {
+					9.04800000000068, -- [1]
+					12.5799999999999, -- [2]
+					45.4850000000006, -- [3]
+					50.1140000000014, -- [4]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
+				[196497] = {
+					13.0320000000011, -- [1]
+					82.4719999999998, -- [2]
+					["source"] = "Fenryr",
+					["active"] = false,
+				},
+			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
+	["combat_data"] = {
 		{
-			["Mallusof"] = {
-				{
-					135.218000000001, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					64843, -- [3]
-				}, -- [1]
-			},
-			["Ummhello-Sargeras"] = {
-				{
-					42.1350000000002, -- [1]
-					"Ummhello-Sargeras", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "22:39:09",
+			["date_end"] = "22:41:48",
+			["name"] = "Odyn",
+			["total_time"] = 159.453000000001,
 		}, -- [1]
 		{
-			["Honeyblade-Proudmoore"] = {
-				{
-					54.9549999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-			["Ummhello-Sargeras"] = {
-				{
-					5.98099999999977, -- [1]
-					"Ummhello-Sargeras", -- [2]
-					122470, -- [3]
-				}, -- [1]
-				{
-					130.466999999999, -- [1]
-					"Ummhello-Sargeras", -- [2]
-					122470, -- [3]
-				}, -- [2]
-			},
+			["date_start"] = "22:36:03",
+			["date_end"] = "22:38:21",
+			["name"] = "God-King Skovald",
+			["total_time"] = 138.032999999999,
 		}, -- [2]
 		{
-			["Ummhello-Sargeras"] = {
-				{
-					11.7989999999991, -- [1]
-					"Ummhello-Sargeras", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "22:34:23",
+			["date_end"] = "22:35:12",
+			["name"] = "God-King Skovald",
+			["total_time"] = 49.0789999999997,
 		}, -- [3]
 		{
-			["Ummhello-Sargeras"] = {
-				{
-					11.6800000000003, -- [1]
-					"Ummhello-Sargeras", -- [2]
-					122470, -- [3]
-				}, -- [1]
-			},
+			["date_start"] = "22:27:33",
+			["date_end"] = "22:28:56",
+			["name"] = "Fenryr",
+			["total_time"] = 82.4930000000004,
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }
