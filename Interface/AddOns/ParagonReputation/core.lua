@@ -1,5 +1,5 @@
 		------------------------------------------------
-		-- Paragon Reputation 1.17 by Sev US-Drakkari --
+		-- Paragon Reputation 1.18 by Sev US-Drakkari --
 		------------------------------------------------
 
 		  --[[	  Special thanks to Ammako for
@@ -109,41 +109,43 @@ hooksecurefunc("ReputationFrame_Update",function()
 			local _, _, _, _, _, _, _, _, _, _, _, _, _, factionID = GetFactionInfo(factionIndex)
 			if factionID and C_Reputation.IsFactionParagon(factionID) then
 				local currentValue, threshold, _, hasRewardPending = C_Reputation.GetFactionParagonInfo(factionID)
-				local value = mod(currentValue, threshold)
-				if hasRewardPending then
-					local paragonFrame = ReputationFrame.paragonFramesPool:Acquire()
-					paragonFrame.factionID = factionID
-					paragonFrame:SetPoint("RIGHT", factionRow, 11, 0)
-					paragonFrame.Glow:SetShown(true)
-					paragonFrame.Check:SetShown(true)
-					paragonFrame:Show()
-					value = value + threshold
-				end
-				factionBar:SetMinMaxValues(0, threshold)
-				factionBar:SetValue(value)
-				factionBar:SetStatusBarColor(ParagonReputationDB.r, ParagonReputationDB.g, ParagonReputationDB.b)
-				factionRow.rolloverText = HIGHLIGHT_FONT_COLOR_CODE.." "..format(REPUTATION_PROGRESS_FORMAT, BreakUpLargeNumbers(value), BreakUpLargeNumbers(threshold))..FONT_COLOR_CODE_CLOSE
-				if ParagonReputationDB.default == true then
-					factionStanding:SetText(L["PARAGON"])
-					factionRow.standingText = L["PARAGON"]
-				elseif ParagonReputationDB.total == true  then
-					factionStanding:SetText(BreakUpLargeNumbers(value))
-					factionRow.standingText = BreakUpLargeNumbers(value)
-				elseif ParagonReputationDB.value == true then
-					factionStanding:SetText(" "..BreakUpLargeNumbers(value).." / "..BreakUpLargeNumbers(threshold))
-					factionRow.standingText = (" "..BreakUpLargeNumbers(value).." / "..BreakUpLargeNumbers(threshold))
-					factionRow.rolloverText = nil					
-				elseif ParagonReputationDB.deficit == true then
+				if currentValue then
+					local value = mod(currentValue, threshold)
 					if hasRewardPending then
-						value = value - threshold
-						factionStanding:SetText("+"..BreakUpLargeNumbers(value))
-						factionRow.standingText = "+"..BreakUpLargeNumbers(value)
-					else
-						value = threshold - value
+						local paragonFrame = ReputationFrame.paragonFramesPool:Acquire()
+						paragonFrame.factionID = factionID
+						paragonFrame:SetPoint("RIGHT", factionRow, 11, 0)
+						paragonFrame.Glow:SetShown(true)
+						paragonFrame.Check:SetShown(true)
+						paragonFrame:Show()
+						value = value + threshold
+					end
+					factionBar:SetMinMaxValues(0, threshold)
+					factionBar:SetValue(value)
+					factionBar:SetStatusBarColor(ParagonReputationDB.r, ParagonReputationDB.g, ParagonReputationDB.b)
+					factionRow.rolloverText = HIGHLIGHT_FONT_COLOR_CODE.." "..format(REPUTATION_PROGRESS_FORMAT, BreakUpLargeNumbers(value), BreakUpLargeNumbers(threshold))..FONT_COLOR_CODE_CLOSE
+					if ParagonReputationDB.default == true then
+						factionStanding:SetText(L["PARAGON"])
+						factionRow.standingText = L["PARAGON"]
+					elseif ParagonReputationDB.total == true  then
 						factionStanding:SetText(BreakUpLargeNumbers(value))
 						factionRow.standingText = BreakUpLargeNumbers(value)
+					elseif ParagonReputationDB.value == true then
+						factionStanding:SetText(" "..BreakUpLargeNumbers(value).." / "..BreakUpLargeNumbers(threshold))
+						factionRow.standingText = (" "..BreakUpLargeNumbers(value).." / "..BreakUpLargeNumbers(threshold))
+						factionRow.rolloverText = nil					
+					elseif ParagonReputationDB.deficit == true then
+						if hasRewardPending then
+							value = value - threshold
+							factionStanding:SetText("+"..BreakUpLargeNumbers(value))
+							factionRow.standingText = "+"..BreakUpLargeNumbers(value)
+						else
+							value = threshold - value
+							factionStanding:SetText(BreakUpLargeNumbers(value))
+							factionRow.standingText = BreakUpLargeNumbers(value)
+						end
+						factionRow.rolloverText = nil
 					end
-					factionRow.rolloverText = nil
 				end
 			end
 		else

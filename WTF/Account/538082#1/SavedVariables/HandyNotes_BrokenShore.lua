@@ -10,7 +10,7 @@ HandyNotes_BrokenShoreDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
@@ -21,7 +21,7 @@ HandyNotes_BrokenShoreDB = {
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 	},
 	["profiles"] = {
 		["Korugen - Tichondrius"] = {
@@ -42,7 +42,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
-		["Evisca - Bleeding Hollow"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
@@ -50,8 +50,8 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Mallusof - Tichondrius"] = {
 			["show_netherPortals"] = false,
-			["show_shrine"] = false,
 			["show_infernalCores"] = false,
+			["show_shrine"] = false,
 		},
 		["Miriyal - Proudmoore"] = {
 		},
@@ -67,7 +67,7 @@ HandyNotes_BrokenShoreDB = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Evisca - Bleeding Hollow"] = {
 		},
 	},
 }

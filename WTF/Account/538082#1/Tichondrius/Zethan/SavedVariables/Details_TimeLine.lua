@@ -627,18 +627,18 @@ DetailsTimeLineDB = {
 					["source"] = "Grand Magus Telestra",
 					["active"] = false,
 				},
-				[15244] = {
-					3.61399999999958, -- [1]
-					11.6260000000002, -- [2]
-					["source"] = "Mage Hunter Ascendant",
-					["active"] = false,
-				},
 				[47772] = {
 					27.4699999999993, -- [1]
 					30.4809999999998, -- [2]
 					55.415, -- [3]
 					58.433, -- [4]
 					["source"] = "Grand Magus Telestra",
+					["active"] = false,
+				},
+				[15244] = {
+					3.61399999999958, -- [1]
+					11.6260000000002, -- [2]
+					["source"] = "Mage Hunter Ascendant",
 					["active"] = false,
 				},
 				[47779] = {
@@ -695,20 +695,16 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Frostbit-Aegwynn"] = {
-				[47779] = {
-					2.39599999999973, -- [1]
-					6.40099999999984, -- [2]
-					31.5479999999998, -- [3]
-					35.5549999999994, -- [4]
-					["source"] = "Steward",
+				[15244] = {
+					3.61399999999958, -- [1]
+					11.6260000000002, -- [2]
+					["source"] = "Mage Hunter Ascendant",
 					["active"] = false,
 				},
-				[47727] = {
-					80.0709999999999, -- [1]
-					86.076, -- [2]
-					90.9979999999996, -- [3]
-					92.5549999999994, -- [4]
-					["source"] = "Grand Magus Telestra",
+				[50198] = {
+					31.1139999999996, -- [1]
+					47.9830000000002, -- [2]
+					["source"] = "Mage Hunter Initiate",
 					["active"] = false,
 				},
 				[47736] = {
@@ -731,10 +727,12 @@ DetailsTimeLineDB = {
 					["source"] = "Mage Hunter Ascendant",
 					["active"] = false,
 				},
-				[15244] = {
-					3.61399999999958, -- [1]
-					11.6260000000002, -- [2]
-					["source"] = "Mage Hunter Ascendant",
+				[47779] = {
+					2.39599999999973, -- [1]
+					6.40099999999984, -- [2]
+					31.5479999999998, -- [3]
+					35.5549999999994, -- [4]
+					["source"] = "Steward",
 					["active"] = false,
 				},
 				[47772] = {
@@ -745,10 +743,12 @@ DetailsTimeLineDB = {
 					["source"] = "Grand Magus Telestra",
 					["active"] = false,
 				},
-				[50198] = {
-					31.1139999999996, -- [1]
-					47.9830000000002, -- [2]
-					["source"] = "Mage Hunter Initiate",
+				[47727] = {
+					80.0709999999999, -- [1]
+					86.076, -- [2]
+					90.9979999999996, -- [3]
+					92.5549999999994, -- [4]
+					["source"] = "Grand Magus Telestra",
 					["active"] = false,
 				},
 			},

@@ -13,28 +13,14 @@ RCDatabase = {
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["realm"] = {
-		["Aggramar"] = {
-			{
-				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 22.3125,
-				["class"] = "SHAMAN",
-				["secondProf"] = "No 2nd Prof",
-				["name"] = "Gottagetlia",
-				["itemLevelOverall"] = 22.3125,
-				["level"] = 20,
-				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
-			}, -- [1]
-			["characterStored"] = 1,
-		},
 		["Proudmoore"] = {
 			{
 				["secondProfLevel"] = 815,
@@ -42,10 +28,10 @@ RCDatabase = {
 				["class"] = "ROGUE",
 				["secondProf"] = "Skinning",
 				["name"] = "Rahran",
-				["itemLevelOverall"] = 935.625,
+				["firstProf"] = "Leatherworking",
 				["level"] = 110,
 				["firstProfLevel"] = 723,
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 935.625,
 			}, -- [1]
 			{
 				["secondProfLevel"] = 800,
@@ -53,21 +39,21 @@ RCDatabase = {
 				["class"] = "DRUID",
 				["secondProf"] = "Herbalism",
 				["name"] = "Amranar",
-				["itemLevelOverall"] = 935.9375,
+				["firstProf"] = "Alchemy",
 				["level"] = 110,
 				["firstProfLevel"] = 754,
-				["firstProf"] = "Alchemy",
+				["itemLevelOverall"] = 935.9375,
 			}, -- [2]
 			{
 				["secondProfLevel"] = 700,
-				["itemLevelEquipped"] = 936.8125,
+				["itemLevelEquipped"] = 939.1875,
 				["class"] = "WARRIOR",
 				["secondProf"] = "Jewelcrafting",
 				["name"] = "Praerend",
-				["itemLevelOverall"] = 938.5,
+				["firstProf"] = "Blacksmithing",
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 939.5,
 			}, -- [3]
 			{
 				["secondProfLevel"] = 566,
@@ -75,10 +61,10 @@ RCDatabase = {
 				["class"] = "SHAMAN",
 				["secondProf"] = "Engineering",
 				["name"] = "Farahn",
-				["itemLevelOverall"] = 943.6875,
+				["firstProf"] = "Mining",
 				["level"] = 110,
 				["firstProfLevel"] = 198,
-				["firstProf"] = "Mining",
+				["itemLevelOverall"] = 943.6875,
 			}, -- [4]
 			{
 				["secondProfLevel"] = 704,
@@ -97,10 +83,10 @@ RCDatabase = {
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 				["name"] = "Fimwack",
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 929.5,
 				["level"] = 110,
 				["firstProfLevel"] = 94,
-				["itemLevelOverall"] = 929.5,
+				["firstProf"] = "Herbalism",
 			}, -- [6]
 			{
 				["secondProfLevel"] = 0,
@@ -108,10 +94,10 @@ RCDatabase = {
 				["class"] = "DEMONHUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Kaldorath",
-				["itemLevelOverall"] = 933.0625,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 933.0625,
 			}, -- [7]
 			{
 				["secondProfLevel"] = 700,
@@ -119,10 +105,10 @@ RCDatabase = {
 				["class"] = "PALADIN",
 				["secondProf"] = "Engineering",
 				["name"] = "Granjior",
-				["firstProf"] = "Mining",
+				["itemLevelOverall"] = 932.0625,
 				["level"] = 110,
 				["firstProfLevel"] = 706,
-				["itemLevelOverall"] = 932.0625,
+				["firstProf"] = "Mining",
 			}, -- [8]
 			{
 				["secondProfLevel"] = 800,
@@ -130,10 +116,10 @@ RCDatabase = {
 				["class"] = "MONK",
 				["secondProf"] = "Skinning",
 				["name"] = "Miriyal",
-				["itemLevelOverall"] = 940.3125,
+				["firstProf"] = "Leatherworking",
 				["level"] = 110,
 				["firstProfLevel"] = 700,
-				["firstProf"] = "Leatherworking",
+				["itemLevelOverall"] = 940.3125,
 			}, -- [9]
 			{
 				["secondProfLevel"] = 734,
@@ -141,10 +127,10 @@ RCDatabase = {
 				["class"] = "DEATHKNIGHT",
 				["secondProf"] = "Mining",
 				["name"] = "Greybone",
-				["firstProf"] = "Blacksmithing",
+				["itemLevelOverall"] = 932.625,
 				["level"] = 110,
 				["firstProfLevel"] = 715,
-				["itemLevelOverall"] = 932.625,
+				["firstProf"] = "Blacksmithing",
 			}, -- [10]
 			{
 				["secondProfLevel"] = 0,
@@ -152,12 +138,26 @@ RCDatabase = {
 				["class"] = "HUNTER",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Faerand",
-				["itemLevelOverall"] = 932.375,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 110,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 932.375,
 			}, -- [11]
 			["characterStored"] = 11,
+		},
+		["Aggramar"] = {
+			{
+				["secondProfLevel"] = 0,
+				["itemLevelEquipped"] = 22.3125,
+				["class"] = "SHAMAN",
+				["secondProf"] = "No 2nd Prof",
+				["name"] = "Gottagetlia",
+				["firstProf"] = "No 1st Prof",
+				["level"] = 20,
+				["firstProfLevel"] = 0,
+				["itemLevelOverall"] = 22.3125,
+			}, -- [1]
+			["characterStored"] = 1,
 		},
 		["Steamwheedle Cartel"] = {
 			{
@@ -166,17 +166,17 @@ RCDatabase = {
 				["class"] = "PRIEST",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Brity",
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 0.3125,
 				["level"] = 1,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 0.3125,
+				["firstProf"] = "No 1st Prof",
 			}, -- [1]
 			["characterStored"] = 1,
 		},
 		["Tichondrius"] = {
 			{
 				["secondProfLevel"] = 800,
-				["itemLevelEquipped"] = 959.5625,
+				["itemLevelEquipped"] = 962.3125,
 				["class"] = "PRIEST",
 				["secondProf"] = "Enchanting",
 				["name"] = "Mallusof",
@@ -191,10 +191,10 @@ RCDatabase = {
 				["class"] = "SHAMAN",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Lorvol",
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 12.5,
 				["level"] = 20,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 12.5,
+				["firstProf"] = "No 1st Prof",
 			}, -- [2]
 			{
 				["secondProfLevel"] = 168,
@@ -202,32 +202,32 @@ RCDatabase = {
 				["class"] = "PRIEST",
 				["secondProf"] = "Inscription",
 				["name"] = "Alura",
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 36.875,
 				["level"] = 34,
 				["firstProfLevel"] = 103,
-				["itemLevelOverall"] = 36.875,
+				["firstProf"] = "Herbalism",
 			}, -- [3]
 			{
-				["secondProfLevel"] = 1,
-				["itemLevelEquipped"] = 28.25,
+				["secondProfLevel"] = 2,
+				["itemLevelEquipped"] = 29.75,
 				["class"] = "PALADIN",
 				["secondProf"] = "Mining",
 				["name"] = "Korugen",
-				["itemLevelOverall"] = 28.25,
-				["level"] = 24,
-				["firstProfLevel"] = 11,
 				["firstProf"] = "Blacksmithing",
+				["level"] = 25,
+				["firstProfLevel"] = 11,
+				["itemLevelOverall"] = 29.875,
 			}, -- [4]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 83.6875,
+				["itemLevelEquipped"] = 85.5625,
 				["class"] = "WARLOCK",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Zethan",
-				["firstProf"] = "No 1st Prof",
-				["level"] = 62,
+				["itemLevelOverall"] = 85.5625,
+				["level"] = 63,
 				["firstProfLevel"] = 0,
-				["itemLevelOverall"] = 83.6875,
+				["firstProf"] = "No 1st Prof",
 			}, -- [5]
 			["characterStored"] = 5,
 		},
