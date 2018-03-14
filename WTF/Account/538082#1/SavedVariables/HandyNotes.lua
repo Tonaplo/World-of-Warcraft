@@ -10,18 +10,18 @@ HandyNotesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["profiles"] = {
 		["Korugen - Tichondrius"] = {
@@ -42,21 +42,21 @@ HandyNotesDB = {
 		},
 		["Evisca - Bleeding Hollow"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Amranar - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
@@ -64,7 +64,7 @@ HandyNotesDB = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 	},
 }
@@ -79,18 +79,18 @@ HandyNotes_HandyNotesDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
+		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Amranar - Proudmoore"] = "Amranar - Proudmoore",
+		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 	},
 	["profiles"] = {
 		["Korugen - Tichondrius"] = {
@@ -111,21 +111,21 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Evisca - Bleeding Hollow"] = {
 		},
-		["Brity - Steamwheedle Cartel"] = {
+		["Amranar - Proudmoore"] = {
 		},
 		["Farahn - Proudmoore"] = {
 		},
-		["Miriyal - Proudmoore"] = {
+		["Morifa - Proudmoore"] = {
 		},
 		["Mallusof - Tichondrius"] = {
 		},
-		["Morifa - Proudmoore"] = {
+		["Rentror - Bleeding Hollow"] = {
 		},
 		["Granjior - Proudmoore"] = {
 		},
 		["Zaliga - Bleeding Hollow"] = {
 		},
-		["Rentror - Bleeding Hollow"] = {
+		["Miriyal - Proudmoore"] = {
 		},
 		["Rahran - Proudmoore"] = {
 		},
@@ -133,7 +133,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Alura - Tichondrius"] = {
 		},
-		["Amranar - Proudmoore"] = {
+		["Brity - Steamwheedle Cartel"] = {
 		},
 	},
 }

@@ -117,6 +117,28 @@ L.options = {
 			name = GENERAL,
 			order = 1,
 			args = {
+				framelock = {
+					type = 'group',
+					name = LOCK_FOCUS_FRAME,
+					inline = true,
+					order = 0,
+					args = {
+						boxlock = {
+							type = 'toggle',
+							name = MODEL .. ' / ' .. LOCALE_TEXT_LABEL,
+							get = L.GetFromSV,
+							set = function(_, val) L.cfg.boxlock = val end,
+							order = 0,
+						},
+						titlelock = {
+							type = 'toggle',
+							name = QUESTS_LABEL .. ' / ' .. GOSSIP_OPTIONS,
+							get = L.GetFromSV,
+							set = function(_, val) L.cfg.titlelock = val end,
+							order = 1,
+						},
+					},
+				},
 				text = {
 					type = 'group',
 					name = L['Behavior'],
@@ -417,13 +439,6 @@ L.options = {
 							get = L.GetFromSV,
 							set = function(_, val) L.cfg.disableglowani = val end,
 						},
-						boxlock = {
-							type = 'toggle',
-							name = LOCK,
-							get = L.GetFromSV,
-							set = function(_, val) L.cfg.boxlock = val end,
-							order = 2,
-						},
 						disableportrait = {
 							type = 'toggle',
 							name = L['Disable portrait border'],
@@ -483,13 +498,6 @@ L.options = {
 							get = L.GetFromSV,
 							set = function(_, val) L.cfg.gossipatcursor = val end,
 							order = 0,
-						},
-						titlelock = {
-							type = 'toggle',
-							name = LOCK,
-							get = L.GetFromSV,
-							set = function(_, val) L.cfg.titlelock = val end,
-							order = 1,
 						},
 						titlescale = {
 							type = 'range',

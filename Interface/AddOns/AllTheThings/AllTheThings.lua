@@ -19,6 +19,26 @@ app:SetScript("OnEvent", HandleEvents);
 app:SetPoint("BOTTOMLEFT", UIParent, "TOPLEFT", 0, 0);
 app:SetSize(1, 1);
 app:Show();
+function app:ShowPopupDialog(msg, callback)
+	local popup = StaticPopupDialogs["ALL_THE_THINGS"];
+	if not popup then
+		popup = {
+			button1 = "Yes",
+			button2 = "No",
+			timeout = 0,
+			showAlert = true,
+			whileDead = true,
+			hideOnEscape = true,
+			enterClicksFirstButton = true,
+			preferredIndex = 3,  -- avoid some UI taint, see http://www.wowace.com/announcements/how-to-avoid-some-ui-taint/
+		};
+		StaticPopupDialogs["ALL_THE_THINGS"] = popup;
+	end
+	popup.text = msg or "Are you sure?";
+	popup.OnAccept = callback or print;
+	StaticPopup_Hide ("ALL_THE_THINGS");
+	StaticPopup_Show ("ALL_THE_THINGS");
+end
 
 -- ReloadUI slash command (for ease of use)
 SLASH_RELOADUI1 = "/reloadui";
@@ -566,6 +586,16 @@ local function BuildSourceTextForChat(group, l)
 	end
 	return "ATT";
 end
+local function BuildSourceTextForTSM(group, l)
+	if group.parent then
+		if l < 1 or not group.text then
+			return BuildSourceTextForTSM(group.parent, l + 1);
+		else
+			return BuildSourceTextForTSM(group.parent, l + 1) .. "`" .. group.text;
+		end
+	end
+	return app.DisplayName;
+end
 local function GetSourceID(itemLink)
     if IsDressableItem(itemLink) then
 		local itemID, _, _, slotName = GetItemInfoInstant(itemLink);
@@ -683,7 +713,6 @@ end })
 
 -- Search Caching
 local searchCache = {};
-
 local constructor = function(id, t, typeID)
 	if not t then
 		return { [typeID] = id };
@@ -1333,9 +1362,8 @@ local function SearchForCachedItemLink(itemLink)
 end
 local function SearchForMissingItemsRecursively(group, listing)
 	if group.visible then
-		if not group.collected and group.collectible and (not group.b or group.b == 2) then
-			local name = group.name;
-			if name then listing[name] = 1; end
+		if group.collectible and (not group.b or group.b == 2 or group.b == 3) then
+			table.insert(listing, group);
 		end
 		if group.groups and group.expanded then
 			-- Go through the sub groups and determine if any of them have a response.
@@ -1346,9 +1374,21 @@ local function SearchForMissingItemsRecursively(group, listing)
 	end
 end
 local function SearchForMissingItems(group)
-	local listing, arr = {}, {};
+	local listing = {}; 
 	SearchForMissingItemsRecursively(group, listing);
-	for key,value in pairs(listing) do
+	return listing; 
+end
+local function SearchForMissingItemNames(group)
+	-- Auctionator needs unique Item Names. Nothing else.
+	local uniqueNames = {};
+	for i,group in ipairs(SearchForMissingItems(group)) do
+		local name = group.name;
+		if name then uniqueNames[name] = 1; end
+	end
+	
+	-- Build the array of names.
+	local arr = {};
+	for key,value in pairs(uniqueNames) do
 		table.insert(arr, key);
 	end
 	return arr; 
@@ -1360,11 +1400,11 @@ AllTheThings.SearchForCachedItemLink = SearchForCachedItemLink;
 AllTheThings.SearchForField = SearchForField;
 
 -- Map Information Lib
-local function ExpandGroupsRecursively(group, expanded)
-	if group.groups and not group.itemID then
+local function ExpandGroupsRecursively(group, expanded, manual)
+	if group.groups and (not group.itemID or manual) then
 		group.expanded = expanded;
 		for i, subgroup in ipairs(group.groups) do
-			ExpandGroupsRecursively(subgroup, expanded);
+			ExpandGroupsRecursively(subgroup, expanded, manual);
 		end
 	end
 end
@@ -1700,8 +1740,14 @@ local function RefreshSavesCoroutine()
 			end
 			
 			-- Create the lock for this difficulty
-			local lock = { ["id"] = id, ["reset"] = reset, ["encounters"] = {}};
-			locks[difficulty] = lock;
+			local lock = locks[difficulty];
+			if not lock then
+				lock = { ["id"] = id, ["reset"] = reset, ["encounters"] = {}};
+				locks[difficulty] = lock;
+			else
+				lock.id = id;
+				lock.reset = reset;
+			end
 			
 			-- Create the pseudo "shared" lock
 			local shared = locks["shared"];
@@ -1724,7 +1770,11 @@ local function RefreshSavesCoroutine()
 				-- Check Encounter locks
 				for encounterIter=1,numEncounters do
 					local name, _, isKilled = GetSavedInstanceEncounterInfo(instanceIter, encounterIter);
-					table.insert(lock.encounters, { ["name"] = name, ["isKilled"] = isKilled });
+					if not lock.encounters[encounterIter] then
+						table.insert(lock.encounters, { ["name"] = name, ["isKilled"] = isKilled });
+					elseif isKilled then
+						lock.encounters[encounterIter].isKilled = true;
+					end
 					if not shared.encounters[encounterIter] then
 						table.insert(shared.encounters, { ["name"] = name, ["isKilled"] = isKilled });
 					elseif isKilled then
@@ -1741,35 +1791,21 @@ end
 local function RefreshSaves()
 	StartCoroutine("RefreshSaves", RefreshSavesCoroutine);
 end
-local function RefreshSources(groups)
-	if groups then
-		for key, group in ipairs(groups) do
-			if group.itemID then
-				if group.s and group.s > 0 and not GetDataSubMember("CollectedSources", group.s) then
-					local sourceInfo = C_TransmogCollection_GetSourceInfo(group.s);
-					if sourceInfo and app.ItemSourceFilter(sourceInfo) then SetDataSubMember("CollectedSources", group.s, sourceInfo.isCollected and 1 or 2); end
-				end
-			end
-			if group.toyID and not GetDataSubMember("CollectedToys", group.toyID) and PlayerHasToy(group.toyID) then
-				SetDataSubMember("CollectedToys", group.toyID, 1);
-			end
-			RefreshSources(group.groups);
-		end
-	end
-end
-local function RefreshCollections(groups)
+local function RefreshCollections()
 	StartCoroutine("RefreshingCollections", function()
 		while InCombatLockdown() do coroutine.yield(); end
-		app.print("Refreshing " .. ((groups and groups.text) or app.DisplayName) .. " collection status...");
+		app.print("Refreshing " .. app.DisplayName .. " collection status...");
 		
 		-- Harvest Illusion Collections
+		local collectedIllusions = GetDataMember("CollectedIllusions");
 		for i,illusion in ipairs(C_TransmogCollection_GetIllusions()) do
-			if illusion.isCollected then SetDataSubMember("CollectedIllusions", illusion.sourceID, 1); end
+			if illusion.isCollected then collectedIllusions[illusion.sourceID] = 1; end
 		end
 		
 		-- Harvest Title Collections
+		local collectedTitles = GetDataMember("CollectedToys");
 		for i=1,GetNumTitles(),1 do
-			if IsTitleKnown(i) then SetDataSubMember("CollectedTitles", i, 1); end
+			if IsTitleKnown(i) then collectedTitles[i] = 1; end
 		end
 		
 		-- Refresh Mounts / Pets
@@ -1784,12 +1820,22 @@ local function RefreshCollections(groups)
 		
 		-- Harvest Item Collections that are used by the addon.
 		app:GetDataCache();
-		if groups then
-			RefreshSources(groups.groups, 1);
-		else
-			-- Refresh both the primary and unsorted data caches.
-			RefreshSources(app:GetWindow("Prime").data.groups, 1);
-			RefreshSources(app:GetWindow("Unsorted").data.groups, 1);
+		
+		-- Refresh Toys from Cache
+		local collectedToys = GetDataMember("CollectedToys");
+		for id,group in pairs(fieldCache["toyID"]) do
+			if not collectedToys[id] and PlayerHasToy(id) then
+				collectedToys[id] = 1;
+			end
+		end
+		
+		-- Refresh Sources from Cache
+		local collectedSources = GetDataMember("CollectedSources");
+		for id,group in pairs(fieldCache["s"]) do
+			if not collectedSources[id] then
+				local sourceInfo = C_TransmogCollection_GetSourceInfo(id);
+				if sourceInfo and app.ItemSourceFilter(sourceInfo) then collectedSources[id] = sourceInfo.isCollected and 1 or 2; end
+			end
 		end
 		
 		-- Refresh the Collection Windows!
@@ -2012,15 +2058,20 @@ local function AttachTooltip(self)
 	if not self.AllTheThingsProcessing then
 		self.AllTheThingsProcessing = true;
 		if (not InCombatLockdown() or GetDataMember("DisplayTooltipsInCombat")) and GetDataMember("EnableTooltipInformation") then
-			--for i,j in pairs(self) do
-			--	self:AddDoubleLine(tostring(i), tostring(j));
-			--end
+			--[[
+			for i,j in pairs(self) do
+				self:AddDoubleLine(tostring(i), tostring(j));
+				print(tostring(i), tostring(j));
+			end
+			]]--
 		
 			local owner = self:GetOwner();
 			if owner then
-				--for i,j in pairs(owner) do
-				--	self:AddDoubleLine(tostring(i), tostring(j));
-				--end
+				--[[
+				for i,j in pairs(owner) do
+					self:AddDoubleLine(tostring(i), tostring(j));
+				end
+				]]--
 				
 				if GetDataMember("ShowContents") then
 					-- Is this for a Unit?
@@ -2052,29 +2103,63 @@ local function AttachTooltip(self)
 						return;
 					--[[
 					else
-						local questID = owner.questID;
+						local questID = self.questID;
 						if questID then
-							--if GetDataMember("ShowQuestID") then self:AddDoubleLine(L("QUEST_ID"), tostring(questID)); end
+							print("QUEST", questID);
+							if GetDataMember("ShowQuestID") then self:AddDoubleLine(L("QUEST_ID"), tostring(questID)); end
 							AttachTooltipSearchResults(self, "questID:" .. questID, SearchForFieldAndSummarize, "questID", tonumber(questID));
-						elseif owner.pluginName and owner.mapFile and owner.coord then
-							-- HandyNotes Integration
-							local plugin = _G[owner.pluginName];
-							if plugin and plugin.nodes then
-								local node = plugin.nodes[owner.mapFile];
-								if node then
-									local coord = node[owner.coord];
-									if coord then
-										questID = tonumber(coord.questID or coord.questId or coord[1] or "0");
-										if questID > 0 and questID < 999999 then
-											--if GetDataMember("ShowQuestID") then self:AddDoubleLine(L("QUEST_ID"), tostring(questID)); end
-											AttachTooltipSearchResults(self, "questID:" .. questID, SearchForFieldAndSummarize, "questID", questID);
-											--print(coord[1], coord[2], coord[3], coord[4], coord[5], coord[6], coord[7]);
-										end
-									end
-								end
-							end
 						end
-						]]--
+					]]--
+					end
+				end
+				
+				local link = select(2, self:GetItem());
+				if link then AttachTooltipSearchResults(self, link, SearchForItemLink, link); end
+				
+				local spellID = select(3, self:GetSpell());
+				if spellID and not IsSpellKnown(spellID) then
+					AttachTooltipSearchResults(self, "spellID:" .. spellID, SearchForFieldAndSummarize, "spellID", spellID);
+				end
+			else
+				if GetDataMember("ShowContents") then
+					-- Is this for a Unit?
+					local name, target = self:GetUnit();
+					if target then
+						-- Yes it is. Awesome.
+						-- print(name, target);
+						target = UnitGUID(target);
+						if target then
+							-- print("GUID", name, target);
+							local type, zero, server_id, instance_id, zone_uid, npc_id, spawn_uid = strsplit("-",target);
+							--print(name .. " is a " .. type .. " " .. target);
+							if type == "Creature" or type == "Vehicle" then
+								--print(name .. "'s NPC id is " .. npc_id)
+								if GetDataMember("ShowCreatureID") then self:AddDoubleLine(L("CREATURE_ID"), tostring(npc_id)); end
+								AttachTooltipSearchResults(self, "creatureID:" .. npc_id, SearchForFieldAndSummarizeForCurrentDifficulty, "creatureID", tonumber(npc_id));
+							--elseif type == "Vignette" then
+								--print(name .. " is a Vignette and should have its npc_id be zero (" .. npc_id .. ").")
+							--elseif type == "Player" then
+							--	if target == "Player-76-0895E23B" then
+							--		self:AddDoubleLine(app.DisplayName, "Author");
+							--	end
+							end
+							return;
+						end
+					end
+					
+					local encounterID = self.encounterID;
+					if encounterID and not self.itemID then
+						AttachTooltipForEncounter(self, encounterID);
+						return;
+					--[[
+					else
+						local questID = self.questID;
+						if questID then
+							print("QUEST", questID);
+							if GetDataMember("ShowQuestID") then self:AddDoubleLine(L("QUEST_ID"), tostring(questID)); end
+							AttachTooltipSearchResults(self, "questID:" .. questID, SearchForFieldAndSummarize, "questID", tonumber(questID));
+						end
+					]]--
 					end
 				end
 				
@@ -2292,7 +2377,7 @@ app.CreateCharacterClass = function(id, t)
 end
 
 -- Difficulty Lib
-local DifficultyColors = {
+app.DifficultyColors = {
 	[1] = "ff1eff00",	--"Interface/Worldmap/Skull_64Green",
 	[2] = "ff0070dd",	--"Interface/Worldmap/Skull_64Blue",
 	[3] = "ff1eff00",	--"Interface/Worldmap/Skull_64Green",
@@ -2308,7 +2393,7 @@ local DifficultyColors = {
 	[24] = "ffe6cc80",	--"Interface/Worldmap/Skull_64Red",
 	[33] = "ffe6cc80",	--"Interface/Worldmap/Skull_64Red",
 };
-local DifficultyIcons = {
+app.DifficultyIcons = {
 	[1] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
 	[2] = "Interface\\Addons\\AllTheThings\\assets\\Heroic",	--"Interface/Worldmap/Skull_64Blue",
 	[3] = "Interface\\Addons\\AllTheThings\\assets\\Normal",	--"Interface/Worldmap/Skull_64Green",
@@ -2333,7 +2418,7 @@ app.BaseDifficulty = {
 		elseif key == "name" then
 			return GetDifficultyInfo(t.difficultyID);
 		elseif key == "icon" then
-			return DifficultyIcons[t.difficultyID];
+			return app.DifficultyIcons[t.difficultyID];
 		elseif key == "saved" then
 			return t.locks;
 		elseif key == "locks" and t.parent then
@@ -2769,6 +2854,21 @@ app.BaseItem = {
 			return nil;
 		elseif key == "specs" then
 			return GetItemSpecInfo(t.itemID);
+		elseif key == "tsm" then
+			local itemLink = t.itemID;
+			if itemLink then
+				if t.bonus then
+					if t.bonus > 0 then
+						return string.format("i:%d:0:1:%d", itemLink, t.bonus);
+					else
+						return string.format("i:%d", itemLink);
+					end
+				--elseif t.itemModID then
+					-- NOTE: At this time, TSM3 does not support itemModID. (RIP)
+					--return string.format("i:%d:%d:1:3524", itemLink, t.itemModID);
+				end
+				return string.format("i:%d", itemLink);
+			end
 		else
 			-- Something that isn't dynamic.
 			return t.item and t.item[key] or table[key];
@@ -2818,12 +2918,21 @@ app.BaseMount = {
 			end
 		elseif key == "f" then
 			return 100;
+		elseif key == "b" then
+			return (t.parent and t.parent.b) or 1;
 		elseif key == "text" then
 			return select(1, GetSpellLink(t.mountID)) or select(1, GetSpellInfo(t.mountID)) or ("Spell #" .. t.mountID);
 		elseif key == "description" then
 			local mountID = GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.mountID];
 			if mountID then return select(2, C_MountJournal_GetMountInfoExtraByID(mountID)); end
 		elseif key == "link" then
+			if t.itemID then
+				local link = select(2, GetItemInfo(t.itemID));
+				if link then
+					t.link = link;
+					return link;
+				end
+			end
 			return select(1, GetSpellLink(t.mountID));
 		elseif key == "icon" then
 			return select(3, GetSpellInfo(t.mountID));
@@ -2834,6 +2943,9 @@ app.BaseMount = {
 			return t.mountID;
 		elseif key == "name" then
 			return C_MountJournal_GetMountInfoByID(GetTempDataMember("MOUNT_SPELLID_TO_MOUNTID")[t.mountID]);
+		elseif key == "tsm" then
+			if t.itemID then return string.format("i:%d", t.itemID); end
+			if t.parent and t.parent.itemID then return string.format("i:%d", t.parent.itemID); end
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -2878,11 +2990,12 @@ app.BaseMusicRoll = {
 		end
 	end
 };
-app.CreateMusicRoll = function(questID, itemID)
-	local t = {};
-	t.itemID = itemID;
-	t.musicRollID = questID;
-	return createInstance(t, app.BaseMusicRoll);
+app.CreateMusicRoll = function(questID, t)
+	--local t = {};
+	--t.itemID = itemID;
+	--t.musicRollID = questID;
+	--return createInstance(t, app.BaseMusicRoll);
+	return createInstance(constructor(questID, t, "musicRollID"), app.BaseMusicRoll);
 end
 
 -- NPC Lib
@@ -3125,6 +3238,16 @@ app.BaseSpecies = {
 			return select(12, C_PetJournal.GetPetInfoBySpeciesID(t.speciesID));
 		elseif key == "name" then
 			return t.text;
+		elseif key == "link" then
+			if t.itemID then
+				local link = select(2, GetItemInfo(t.itemID));
+				if link then
+					t.link = link;
+					return link;
+				end
+			end
+		elseif key == "tsm" then
+			return string.format("p:%d:1:3", t.speciesID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3231,7 +3354,9 @@ app.BaseToy = {
 		elseif key == "icon" then
 			return select(3, C_ToyBox_GetToyInfo(t.toyID));
 		elseif key == "name" then
-			return select(2, C_ToyBox_GetToyInfo(t.itemID));
+			return select(2, C_ToyBox_GetToyInfo(t.toyID));
+		elseif key == "tsm" then
+			return string.format("i:%d", t.toyID);
 		else
 			-- Something that isn't dynamic.
 			return table[key];
@@ -3296,7 +3421,7 @@ end
 function app.FilterItemClass(item)
 	return app.ItemBindFilter(item)
 		or (app.FilterItemClass_RequireItemFilter(item.f)
-			and app.RequireBindingFilter(item.b)
+			and app.RequireBindingFilter(item)
 			and app.ClassRequirementFilter(item)
 			and app.RaceRequirementFilter(item)
 			and app.UnobtainableItemFilter(item.u)
@@ -3351,8 +3476,8 @@ function app.FilterItemClass_SeasonalItem(u)
       return true
    end
 end
-function app.FilterItemClass_RequireBinding(b)
-	if b and b == 2 then
+function app.FilterItemClass_RequireBinding(item)
+	if item.b and item.b == 2 then
 		return false;
 	else
 		return true;
@@ -4130,30 +4255,33 @@ function app.QuestCompletionHelper(questID)
 	-- Search ATT for the related quests.
 	local searchResults = SearchForQuestID(questID);
 	if searchResults and #searchResults > 0 then
-		-- Attempt to cleanly refresh the data.
-		for i,result in ipairs(searchResults) do
-			if result.visible and result.parent and result.parent.total then
-				result.marked = true;
+		-- Only increase progress for Quests as Collectible users.
+		if GetDataMember("TreatIncompleteQuestsAsCollectible") then
+			-- Attempt to cleanly refresh the data.
+			for i,result in ipairs(searchResults) do
+				if result.visible and result.parent and result.parent.total then
+					result.marked = true;
+				end
 			end
-		end
-		for i,result in ipairs(searchResults) do
-			if result.marked then
-				result.marked = nil;
-				if result.total then
-					-- This is an item that has a relative set of groups
-					UpdateParentProgress(result);
-					
-					-- If this is NOT a group...
-					if not result.groups and result.collectible then
-						-- If we've collected the item, use the "Show Collected Items" filter.
-						result.visible = app.CollectedItemVisibilityFilter(result);
-					end
-				else	
-					UpdateParentProgress(result.parent);
-					
-					if result.collectible then
-						-- If we've collected the item, use the "Show Collected Items" filter.
-						result.visible = app.CollectedItemVisibilityFilter(result);
+			for i,result in ipairs(searchResults) do
+				if result.marked then
+					result.marked = nil;
+					if result.total then
+						-- This is an item that has a relative set of groups
+						UpdateParentProgress(result);
+						
+						-- If this is NOT a group...
+						if not result.groups and result.collectible then
+							-- If we've collected the item, use the "Show Collected Items" filter.
+							result.visible = app.CollectedItemVisibilityFilter(result);
+						end
+					else
+						UpdateParentProgress(result.parent);
+						
+						if result.collectible then
+							-- If we've collected the item, use the "Show Collected Items" filter.
+							result.visible = app.CollectedItemVisibilityFilter(result);
+						end
 					end
 				end
 			end
@@ -4399,6 +4527,102 @@ local function CreateMiniListForGroup(group)
 	--ExportData(popout.data);
 	popout:Toggle(true);
 end
+
+local function ProfileHelper(option,s)
+	local save = (s:gsub("^%s*(.-)%s*$", "%1"))
+	local profiles = GetDataMember("Profiles")
+	if option == 0 then
+		--list
+		if profiles == nil then
+			app.print("No Profiles available ")
+			return
+		end
+		local names = "Available Profiles are: "
+		for i,j in pairs(profiles) do
+			names = names .. i .. ", "
+		end
+		names = names .. "default"
+		app.print(names)
+		
+	elseif option == 1 then
+		--load
+		--print("loading profile")
+		if save == "default" then
+			local presets, data = app.Presets[app.Class], {};
+			if presets then
+				for filter, state in pairs(presets) do
+					data[filter] = state;
+				end
+			end
+			SetPersonalDataMember("ItemFilters", data);
+			
+			local itemFilters = GetPersonalDataMember("ItemFilters");
+			for i,filter in pairs({ 100, 101, 102, 103, 104, 108, 109, 110, 200 }) do
+				itemFilters[filter] = true;
+			end
+			
+			for name,filter in pairs(app.filterFrame.filterList) do
+				if tonumber(name) ~= nil then
+					filter:SetChecked(itemFilters[name]);
+				else
+					--added incase accout info will be added in the future for the reset
+				end;
+				
+			end
+		
+			app:RefreshData();
+			return
+		end
+		
+		if profiles==nil then
+			app.print("No Profile with the name: " .. save)
+			return
+		end
+		
+		local profile = profiles[save];
+		if profile then
+			local itemFilters = GetPersonalDataMember("ItemFilters");
+			for name,val in pairs(profile) do
+				itemFilters[name] = val;
+				if app.filterFrame.filterList[name] ~= nil then
+					app.filterFrame.filterList[name]:SetChecked(val)
+				end
+			end		
+			app:RefreshData();
+		else
+			app.print("No Profile with the name: " .. save);
+		end
+	elseif option == 2 then
+		--Save
+		if save == "default" or save == "new profile" then
+			app.print("Cannot save profile with name \"" .. save .. "\"")
+			return false
+		end
+		
+		local itemFilters = GetPersonalDataMember("ItemFilters");
+		if not profiles then
+			profiles = {};
+			SetDataMember("Profiles", profiles);
+		end
+		local profile = profiles[save];
+		if not profile then
+			profile = {};
+			profiles[save] = profile;
+		end
+		for name,filter in pairs(itemFilters) do
+			profile[name] = filter;
+		end
+		return true
+		
+	elseif option == 3 then
+		if profiles and profiles[save] then
+			profiles[save]=nil;
+		else
+			app.print("No Profile with the name: " .. save);
+		end
+	end
+end
+
 local function CreateSettingsMenu()
 
 	-- function that creates a new settingFrame --
@@ -4846,8 +5070,117 @@ local function CreateSettingsMenu()
 	filtersFrame.parent = mainFrame.name;
 	CreateSettingFrame(filtersFrame, "Filters");
 	local function CreateFilterFrame(self)
+		app.filterFrame=self
+		self.filterList = {}
+		
+		-- dropdown menu for listing profiles
+		local dropdown = CreateFrame("Frame", name .. "-ProfileDropDown", self, "Lib_UIDropDownMenuTemplate")
+		dropdown:SetPoint("TOPLEFT", self, 0, -40);
+		Lib_UIDropDownMenu_SetWidth(dropdown,150,0)
+		
+		dropdown.CreateMenuItem = function(name)
+			local info = Lib_UIDropDownMenu_CreateInfo()
+			info.text = name;
+			info.arg1 = info.text
+			info.menuList = 1;
+			info.func = dropdown.OnClick
+			info.notCheckable = true
+			return info
+		end
+		dropdown.BuildMenu = function()
+			Lib_UIDropDownMenu_Initialize(dropdown, function()
+				local profiles = GetDataMember("Profiles")
+				if profiles ~= nil then
+					for i,j in pairs(profiles) do
+						Lib_UIDropDownMenu_AddButton(dropdown.CreateMenuItem(i))
+					end
+				end
+				Lib_UIDropDownMenu_AddButton(dropdown.CreateMenuItem("default"))
+				Lib_UIDropDownMenu_AddButton(dropdown.CreateMenuItem("new profile"))
+			end)
+		end
+		dropdown.OnClick = function(mine, arg1, checked)
+			if arg1 == "new profile" then
+				if StaticPopupDialogs["CREATE_PROFILE_POPUP"] == nil then
+					StaticPopupDialogs["CREATE_PROFILE_POPUP"] = {
+						text = "Create new profile\n(Profile Name)",
+						button1 = "Create",
+						button2 = "Cancel",
+						timeout = 0,
+						whileDead = true,
+						cancels = "CREATE_PROFILE_POPUP",
+						preferredIndex = 3,
+						OnShow = function (self, data)
+							self.button1:Disable()
+						end,
+						OnAccept = function (self, data, data2)
+							local text = self.editBox:GetText()
+							if ProfileHelper(2,text) == true then
+								Lib_UIDropDownMenu_SetText(dropdown, (text:gsub("^%s*(.-)%s*$", "%1")))
+							end
+							
+						end,
+						OnCancel = function (self, data, data2)
+
+						end,
+						EditBoxOnTextChanged = function (self, data) 
+							local text = (self:GetText():gsub("^%s*(.-)%s*$", "%1"))
+							if text == "" or text == "default" or text == "new profile" then
+								self:GetParent().button1:Disable()
+							else
+								self:GetParent().button1:Enable()
+							end
+						end,
+						hasEditBox = true
+					}
+				end
+				StaticPopup_Show ("CREATE_PROFILE_POPUP")
+			else
+				Lib_UIDropDownMenu_SetText(dropdown, arg1)
+			end
+		end
+		dropdown.BuildMenu()
+		Lib_UIDropDownMenu_SetText(dropdown, "default")
+		
+		-- save button
+		local saveButton = CreateFrame("Button", name .. "-SaveProfileButton", self, "UIPanelButtonTemplate");
+		saveButton:SetPoint("TOPLEFT", self, 200, -40);
+		saveButton:SetWidth(100);
+		saveButton:SetHeight(20);
+		saveButton:SetText("Save Profile");
+		saveButton:SetScript("OnClick", function()
+			local name = Lib_UIDropDownMenu_GetText(dropdown)
+			ProfileHelper(2, name)
+		end)
+		
+		-- load button
+		
+		local loadButton = CreateFrame("Button", name .. "-LoadProfileButton", self, "UIPanelButtonTemplate");
+		loadButton:SetPoint("TOPLEFT", self, 300, -40);
+		loadButton:SetWidth(100);
+		loadButton:SetHeight(20);
+		loadButton:SetText("Load Profile");
+		loadButton:SetScript("OnClick", function()
+			local name = Lib_UIDropDownMenu_GetText(dropdown)
+			ProfileHelper(1, name)
+		end)	
+		
+		-- delete button
+		local deleteButton = CreateFrame("Button", name .. "-DeleteProfileButton", self, "UIPanelButtonTemplate");
+		deleteButton:SetPoint("TOPLEFT", self, 400, -40);
+		deleteButton:SetWidth(100);
+		deleteButton:SetHeight(20);
+		deleteButton:SetText("Delete Profile");
+		deleteButton:SetScript("OnClick", function()
+			Lib_CloseDropDownMenus(1)
+			local name = Lib_UIDropDownMenu_GetText(dropdown)
+			ProfileHelper(3, name)
+			Lib_UIDropDownMenu_SetText(dropdown, "default")
+		end)
+	
+		local x = -70
 		self.RequiredSkillFilter = CreateFrame("CheckButton", name .. "-RequiredSkillFilter", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.RequiredSkillFilter, self, "Filter By Profession", 15, -50, GetDataMember("RequiredSkillFilter"));
+		CreateCheckBox(self.RequiredSkillFilter, self, "Filter By Profession", 15, x, GetDataMember("RequiredSkillFilter"));
 			self.RequiredSkillFilter:SetScript("OnClick", function(self)
 				SetDataMember("RequiredSkillFilter", self:GetChecked());
 				if self:GetChecked() then
@@ -4860,14 +5193,14 @@ local function CreateSettingsMenu()
 		
 		
 		self.dummy = CreateFrame("CheckButton", name .. "-temp", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.dummy, self, "dummy", 15, -140, true); 
+		CreateCheckBox(self.dummy, self, "dummy", 15, -160, true); 
 		self.dummy:Hide();   -- THIS IS BAD
 		
 		
 		
 		
 		self.FilterGroupsByLevel = CreateFrame("CheckButton", name .. "-FilterGroupsByLevel", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.FilterGroupsByLevel, self, "Filter Groups By Level", 15, -70, GetDataMember("FilterGroupsByLevel"));
+		CreateCheckBox(self.FilterGroupsByLevel, self, "Filter Groups By Level", 15, x-20, GetDataMember("FilterGroupsByLevel"));
 		self.FilterGroupsByLevel:SetScript("OnClick", function(self)
 			SetDataMember("FilterGroupsByLevel", self:GetChecked());
 			if self:GetChecked() then
@@ -4883,7 +5216,7 @@ local function CreateSettingsMenu()
 		
 		
 		self.FilterUnobtainableItems = CreateFrame("CheckButton", name .. "-FilterUnobtainableItems", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.FilterUnobtainableItems, self, "Filter Unobtainable Items", 15, -90, GetDataMember("FilterUnobtainableItems"));
+		CreateCheckBox(self.FilterUnobtainableItems, self, "Filter Unobtainable Items", 15, x-40, GetDataMember("FilterUnobtainableItems"));
 		if GetDataMember("FilterUnobtainableItems") then self.FilterUnobtainableItems.Label:Hide() end
 		self.FilterUnobtainableItems:SetScript("OnClick", function(self)
 			SetDataMember("FilterUnobtainableItems", self:GetChecked());
@@ -4901,7 +5234,7 @@ local function CreateSettingsMenu()
 
 
 		self.UnobtainableItemFilters = CreateFrame("Frame", name .. "-UnobtainableItemFilters", self, "Lib_UIDropDownMenuTemplate")
-		self.UnobtainableItemFilters:SetPoint("TOPLEFT", self, "TOPLEFT", 25, -90)
+		self.UnobtainableItemFilters:SetPoint("TOPLEFT", self, "TOPLEFT", 25, x-40)
 		self.UnobtainableItemFilters:SetWidth(300)
 		local function UnobtainableToggle(ref, val)
 		   local t = GetDataMember("UnobtainableItemFilters", {})
@@ -4941,7 +5274,7 @@ local function CreateSettingsMenu()
 		if not GetDataMember("FilterUnobtainableItems") then self.UnobtainableItemFilters:Hide() end
 
 		self.FilterSeasonal = CreateFrame("CheckButton", name .. "-FilterSeasonal", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.FilterSeasonal, self, "Filter Seasonal Items", 15, -110, GetDataMember("FilterSeasonal"));
+		CreateCheckBox(self.FilterSeasonal, self, "Filter Seasonal Items", 15, x-60, GetDataMember("FilterSeasonal"));
 		if GetDataMember("FilterSeasonal") then self.FilterSeasonal.Label:Hide() end
 		self.FilterSeasonal:SetScript("OnClick", function(self)
 			SetDataMember("FilterSeasonal", self:GetChecked());
@@ -4959,7 +5292,7 @@ local function CreateSettingsMenu()
 
 
 		self.SeasonalFilters = CreateFrame("Frame", name .. "-SeasonalFilters", self, "Lib_UIDropDownMenuTemplate")
-		self.SeasonalFilters:SetPoint("TOPLEFT", self, "TOPLEFT", 25, -110)
+		self.SeasonalFilters:SetPoint("TOPLEFT", self, "TOPLEFT", 25, x-60)
 		self.SeasonalFilters:SetWidth(300)
 		local function SeasonalToggle(ref, val)
 		   local t = GetDataMember("SeasonalFilters", {})
@@ -4985,7 +5318,7 @@ local function CreateSettingsMenu()
 		if not GetDataMember("FilterSeasonal") then self.SeasonalFilters:Hide() end
 
 		self.FilterItemsByRace = CreateFrame("CheckButton", name .. "-FilterItemsByRace", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.FilterItemsByRace, self, "Filter Items By Race", 300, -50, GetDataMember("FilterItemsByRace"));
+		CreateCheckBox(self.FilterItemsByRace, self, "Filter Items By Race", 300, x, GetDataMember("FilterItemsByRace"));
 		self.FilterItemsByRace:SetScript("OnClick", function(self)
 			SetDataMember("FilterItemsByRace", self:GetChecked());
 			if self:GetChecked() then
@@ -4999,7 +5332,7 @@ local function CreateSettingsMenu()
 		
 			
 		self.FilterItemsByClass = CreateFrame("CheckButton", name .. "-FilterItemsByClass", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.FilterItemsByClass, self, "Filter Items By Class", 300, -70, self, GetDataMember("FilterItemsByClass"));
+		CreateCheckBox(self.FilterItemsByClass, self, "Filter Items By Class", 300, x-20, GetDataMember("FilterItemsByClass"));
 		self.FilterItemsByClass:SetScript("OnClick", function(self)
 			SetDataMember("FilterItemsByClass", self:GetChecked());
 			if self:GetChecked() then
@@ -5011,10 +5344,8 @@ local function CreateSettingsMenu()
 		end);
 
 		
-		
-		
 		self.RequireBindingFilter = CreateFrame("CheckButton", name .. "-RequireBindingFilter", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.RequireBindingFilter, self, "Hide BoE Items", 300, -90, self, GetDataMember("RequireBindingFilter"));
+		CreateCheckBox(self.RequireBindingFilter, self, "Hide BoE Items", 300, x-40, GetDataMember("RequireBindingFilter"));
 		self.RequireBindingFilter:SetScript("OnClick", function(self)
 			SetDataMember("RequireBindingFilter", self:GetChecked());
 			if self:GetChecked() then
@@ -5026,7 +5357,7 @@ local function CreateSettingsMenu()
 		end);
 		
 		self.IgnoreFiltersOnNonBindingItems = CreateFrame("CheckButton", name .. "-IgnoreFiltersOnNonBindingItems", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.IgnoreFiltersOnNonBindingItems, self, "Ignore All Filters for BoE / BoA Items", 300, -110, GetDataMember("IgnoreFiltersOnNonBindingItems"));
+		CreateCheckBox(self.IgnoreFiltersOnNonBindingItems, self, "Ignore All Filters for BoE / BoA Items", 300, x-60, GetDataMember("IgnoreFiltersOnNonBindingItems"));
 		self.IgnoreFiltersOnNonBindingItems:SetChecked(GetDataMember("IgnoreFiltersOnNonBindingItems"));
 		self.IgnoreFiltersOnNonBindingItems:SetScript("OnClick", function(self)
 			SetDataMember("IgnoreFiltersOnNonBindingItems", self:GetChecked());
@@ -5068,6 +5399,7 @@ local function CreateSettingsMenu()
 			lastFilter = itemClassFilter;
 			for j, filter in ipairs(filters) do
 				local itemFilter = CreateFrame("CheckButton", itemClassFilter:GetName() .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+				self.filterList[filter] = itemFilter;
 				itemFilter:SetPoint("LEFT", self, "LEFT", 20, 0);
 				itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
 				itemFilter.filter = filter;
@@ -5108,6 +5440,7 @@ local function CreateSettingsMenu()
 		lastFilter = weaponFilters;
 		for i, filter in ipairs({ 20, 21, 22, 23, 24, 25, 26, 35 }) do
 			local itemFilter = CreateFrame("CheckButton", weaponFilters:GetName() .. "-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+			self.filterList[filter] = itemFilter;
 			itemFilter:SetPoint("LEFT", self, "LEFT", 210, 0);
 			itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
 			itemFilter.filter = filter;
@@ -5127,6 +5460,7 @@ local function CreateSettingsMenu()
 		lastFilter = weaponFilters;
 		for i, filter in ipairs({ 27, 28, 29, 30, 31, 32, 33, 34 }) do
 			local itemFilter = CreateFrame("CheckButton", weaponFilters:GetName() .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+			self.filterList[filter] = itemFilter;
 			itemFilter:SetPoint("LEFT", self, "LEFT", 420, 0);
 			itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
 			itemFilter.filter = filter;
@@ -5147,6 +5481,7 @@ local function CreateSettingsMenu()
 		lastFilter = self.dummy;
 		for i,filter in ipairs({ 100, 101, 102, 103 }) do
 			local itemFilter = CreateFrame("CheckButton", name .. "-15-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+			self.filterList[filter] = itemFilter;
 			itemFilter:SetPoint("LEFT", self.FilterGroupsByLevel, "LEFT", 0, 100);
 			itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
 			itemFilter.filter = filter;
@@ -5165,6 +5500,7 @@ local function CreateSettingsMenu()
 		lastFilter = self.dummy;
 		for i,filter in ipairs({ 104, 108, 109, 110, 200 }) do
 			local itemFilter = CreateFrame("CheckButton", name .. "-15-" .. filter, self, "InterfaceOptionsCheckButtonTemplate");
+			self.filterList[filter] = itemFilter;
 			itemFilter:SetPoint("LEFT", self.FilterGroupsByLevel, "LEFT", 285, 0);
 			itemFilter:SetPoint("TOP", lastFilter, "BOTTOM", 0, 6);
 			itemFilter.filter = filter;
@@ -5178,6 +5514,17 @@ local function CreateSettingsMenu()
 				app:RefreshData();
 			end);
 		end
+		
+		-- add button to reset filters to defualt --
+		local button = CreateFrame("Button", name .. "-resetFiltersButton", self, "UIPanelButtonTemplate");
+		button:SetPoint("BOTTOMRIGHT", self, -10, 10);
+		button:SetWidth(150);
+		button:SetHeight(20);
+		button:SetText("Reset all Filters");
+		button:SetScript("OnClick", function()
+			ProfileHelper(1,"default")
+		end)
+
 	end
 	CreateFilterFrame(filtersFrame);
 	
@@ -5462,7 +5809,7 @@ local function RowOnClick(self, button)
 				-- Auctionator Support
 				if Atr_SearchAH then
 					if reference.groups and #reference.groups > 0 then
-						local missingItems = SearchForMissingItems(reference);					
+						local missingItems = SearchForMissingItemNames(reference);					
 						if #missingItems > 0 then
 							Atr_SelectPane(3);
 							Atr_SearchAH(app.DisplayName, missingItems);
@@ -5479,6 +5826,36 @@ local function RowOnClick(self, button)
 							return true;
 						end
 						app.print("Only Bind on Equip items can be found using this search.");
+					end
+					return true;
+				elseif TSMAPI and TSMAPI.Auction then
+					if reference.groups and #reference.groups > 0 then
+						local missingItems = SearchForMissingItems(reference);					
+						if #missingItems > 0 then
+							local itemList, search = {};
+							for i,group in ipairs(missingItems) do
+								search = group.tsm or TSMAPI.Item:ToItemString(group.link or group.itemID or group.toyID);
+								if search then itemList[search] = BuildSourceTextForTSM(group, 0); end
+							end
+							app:ShowPopupDialog("Running this command can potentially destroy your existing TSM settings by reassigning items to the " .. app.DisplayName .. " preset.\n\nWe recommend that you use a different profile when using this feature.\n\nDo you want to proceed anyways?",
+							function()
+								TSMAPI.Groups:CreatePreset(itemList);
+								app.print("Updated the preset successfully.");
+								if not TSMAPI.Operations:GetFirstByItem(search, "Shopping") then
+									print("The preset is missing a 'Shopping' Operation assignment.");
+									print("Type '/tsm operations' to create or assign one.");
+								end
+							end);
+							return true;
+						end
+						app.print("No cached items found in search. Expand the group and view the items to cache the names and try again. Only Bind on Equip items will be found using this search.");
+					else
+						-- Attempt to search manually with the link.
+						local link = reference.link or reference.silentLink;
+						if link and HandleModifiedItemClick(link) then
+							AuctionFrameBrowse_Search();
+							return true;
+						end
 					end
 					return true;
 				else
@@ -5515,9 +5892,9 @@ local function RowOnClick(self, button)
 			-- If this reference is anything else, expand the groups.
 			if reference.groups then
 				if self.index < 1 and #reference.groups > 0 then
-					ExpandGroupsRecursively(reference, not reference.groups[1].expanded);
+					ExpandGroupsRecursively(reference, not reference.groups[1].expanded, true);
 				else
-					ExpandGroupsRecursively(reference, not reference.expanded);
+					ExpandGroupsRecursively(reference, not reference.expanded, true);
 				end
 				app:UpdateWindows();
 				return true;
@@ -5572,6 +5949,8 @@ local function RowOnEnter(self)
 			local link = reference.link;
 			if link then
 				GameTooltip:SetHyperlink(link);
+			elseif reference.speciesID then
+				-- Do nothing.
 			elseif not reference.artifactID then
 				GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
 				if reference and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, true); end
@@ -5641,6 +6020,7 @@ local function RowOnEnter(self)
 			end
 		end
 		if reference.Lvl then GameTooltip:AddDoubleLine(L("REQUIRES_LEVEL"), tostring(reference.Lvl)); end
+		--if reference.b then GameTooltip:AddDoubleLine("Binding", tostring(reference.b)); end
 		if reference.requiredSkill then
 			GameTooltip:AddDoubleLine(L("REQUIRES"), tostring(GetSpellInfo(SkillIDToSpellID[reference.requiredSkill] or 0)));
 			-- GameTooltip:AddDoubleLine(L("REQUIRE_SKILL_ID"), tostring(reference.requiredSkill));
@@ -5679,9 +6059,15 @@ local function RowOnEnter(self)
 		if reference.description and GetDataMember("ShowDescriptions") then GameTooltip:AddLine(reference.description, 0.4, 0.8, 1, 1); end
 		if reference.mapID and GetDataMember("ShowMapID") then GameTooltip:AddDoubleLine(L("MAP_ID"), tostring(reference.mapID)); end
 		if reference.dr then GameTooltip:AddDoubleLine(L("DROP_RATE"), "|c" .. GetProgressColor(reference.dr * 0.01) .. tostring(reference.dr) .. "%|r"); end
-		if not reference.itemID and not reference.speciesID and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, 1, true); end
+		if not reference.itemID then
+			if not reference.speciesID and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, 1, true); end
+			if reference.speciesID then
+				AttachTooltipSearchResults(GameTooltip, "speciesID:" .. reference.speciesID, SearchForFieldAndSummarize, "speciesID", reference.speciesID);
+			elseif reference.u then
+				GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, 1, true);
+			end
+		end
 		if reference.speciesID then
-			AttachTooltipSearchResults(GameTooltip, "speciesID:" .. reference.speciesID, SearchForFieldAndSummarize, "speciesID", reference.speciesID);
 			local progress, total = C_PetJournal.GetNumCollectedInfo(reference.speciesID);
 			if total then GameTooltip:AddLine(tostring(progress) .. " / " .. tostring(total) .. " Collected"); end
 		end
@@ -5738,7 +6124,7 @@ local function RowOnEnter(self)
 						if key == "shared" then
 							-- Skip
 						else
-							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key), DifficultyColors[key]), date("%c", value.reset));
+							GameTooltip:AddDoubleLine(Colorize(GetDifficultyInfo(key), app.DifficultyColors[key]), date("%c", value.reset));
 							for encounterIter,encounter in pairs(value.encounters) do
 								GameTooltip:AddDoubleLine(" " .. encounter.name, GetCompletionIcon(encounter.isKilled));
 							end
@@ -6120,6 +6506,29 @@ function app:GetDataCache()
 			app.Toys = nil;
 		end
 		
+		--[[
+		-- Uncomment for harvesting
+		-- Never Implemented
+		if app.NeverImplemented then
+			db = {};
+			db.expanded = false;
+			db.groups = app.NeverImplemented;
+			db.text = "Never Implemented";
+			table.insert(groups, db);
+			app.NeverImplemented = nil;
+		end
+		
+		-- Unsorted
+		if app.Unsorted then
+			db = {};
+			db.groups = app.Unsorted;
+			db.expanded = false;
+			db.text = "Unsorted";
+			table.insert(groups, db);
+			app.Unsorted = nil;
+		end
+		--]]
+		
 		-- The Main Window's Data
 		local missingData = {};
 		app.missingData = missingData;
@@ -6344,29 +6753,40 @@ app:GetWindow("Unsorted");
 app:GetWindow("CurrentInstance");
 
 GameTooltip:HookScript("OnShow", AttachTooltip);
+GameTooltip:HookScript("OnTooltipSetQuest", AttachTooltip);
 GameTooltip:HookScript("OnTooltipSetItem", AttachTooltip);
 GameTooltip:HookScript("OnTooltipSetUnit", AttachTooltip);
 GameTooltip:HookScript("OnTooltipCleared", ClearTooltip);
 ItemRefTooltip:HookScript("OnShow", AttachTooltip);
+ItemRefTooltip:HookScript("OnTooltipSetQuest", AttachTooltip);
 ItemRefTooltip:HookScript("OnTooltipSetItem", AttachTooltip);
 ItemRefTooltip:HookScript("OnTooltipCleared", ClearTooltip);
 ItemRefShoppingTooltip1:HookScript("OnShow", AttachTooltip);
+ItemRefShoppingTooltip1:HookScript("OnTooltipSetQuest", AttachTooltip);
 ItemRefShoppingTooltip1:HookScript("OnTooltipSetItem", AttachTooltip);
 ItemRefShoppingTooltip1:HookScript("OnTooltipCleared", ClearTooltip);
 ItemRefShoppingTooltip2:HookScript("OnShow", AttachTooltip);
+ItemRefShoppingTooltip2:HookScript("OnTooltipSetQuest", AttachTooltip);
 ItemRefShoppingTooltip2:HookScript("OnTooltipSetItem", AttachTooltip);
 ItemRefShoppingTooltip2:HookScript("OnTooltipCleared", ClearTooltip);
 --ShoppingTooltip1:HookScript("OnShow", AttachTooltip);
+--ShoppingTooltip1:HookScript("OnTooltipSetQuest", AttachTooltip);
 --ShoppingTooltip1:HookScript("OnTooltipSetItem", AttachTooltip);
 --ShoppingTooltip1:HookScript("OnTooltipCleared", ClearTooltip);
 --ShoppingTooltip2:HookScript("OnShow", AttachTooltip);
+--ShoppingTooltip2:HookScript("OnTooltipSetQuest", AttachTooltip);
 --ShoppingTooltip2:HookScript("OnTooltipSetItem", AttachTooltip);
 --ShoppingTooltip2:HookScript("OnTooltipCleared", ClearTooltip);
+WorldMapTooltip.ItemTooltip.Tooltip:HookScript("OnTooltipSetQuest", AttachTooltip);
 WorldMapTooltip.ItemTooltip.Tooltip:HookScript("OnTooltipSetItem", AttachTooltip);
 WorldMapTooltip.ItemTooltip.Tooltip:HookScript("OnTooltipSetUnit", AttachTooltip);
 WorldMapTooltip.ItemTooltip.Tooltip:HookScript("OnTooltipCleared", ClearTooltip);
+WorldMapTooltip:HookScript("OnTooltipSetItem", AttachTooltip);
+WorldMapTooltip:HookScript("OnTooltipSetQuest", AttachTooltip);
+WorldMapTooltip:HookScript("OnTooltipCleared", ClearTooltip);
 WorldMapTooltip:HookScript("OnTooltipCleared", ClearTooltip);
 WorldMapTooltip:HookScript("OnShow", AttachTooltip);
+
 -- hooksecurefunc("BattlePetTooltipTemplate_SetBattlePet", AttachBattlePetTooltip); -- Not ready yet.
 
 -- Slash Command List
@@ -6378,6 +6798,20 @@ SlashCmdList["AllTheThings"] = function(cmd)
 		ToggleMainList();
 	elseif cmd == "mini" or cmd == "minilist" then
 		ToggleMiniListForCurrentZone();
+	elseif string.sub(cmd,1,string.len("load "))=="load " then
+		ProfileHelper(1, string.sub(cmd,string.len("load ")))
+	elseif cmd == "load" or cmd =="load " then	
+		app.print("load cmd is missing arg")		
+	elseif string.sub(cmd,1,string.len("save "))=="save " then
+		ProfileHelper(2, string.sub(cmd,string.len("save ")))
+	elseif cmd == "save" or cmd =="save " then	
+		app.print("save cmd is missing arg")
+	elseif string.sub(cmd,1,string.len("delete "))=="delete " then
+		ProfileHelper(3, string.sub(cmd,string.len("delete ")))
+	elseif cmd == "delete" or cmd =="delete " then	
+		app.print("delete cmd is missing arg")		
+	elseif cmd == "list" then
+		ProfileHelper(0,"")
 	else
 		-- Search for the Item Link in the database
 		local listing, group = SearchForCachedItemLink(cmd);

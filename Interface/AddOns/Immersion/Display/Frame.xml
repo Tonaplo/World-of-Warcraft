@@ -1117,7 +1117,7 @@
 						<Texture parentKey="IconBorder">
 							<Size x="88" y="88"/>
 							<Anchors>
-								<Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMLEFT" x="0" y="-20"/>
+								<Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMLEFT" x="12" y="-16"/>
 							</Anchors>
 						</Texture>
 						<FontString parentKey="Title" inherits="GameFontNormalMed2" justifyH="LEFT">
