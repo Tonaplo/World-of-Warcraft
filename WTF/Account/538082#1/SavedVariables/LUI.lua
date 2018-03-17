@@ -42,9 +42,9 @@ LUIDB = {
 							["Lorvol"] = 10250,
 						},
 						["Alliance"] = {
-							["Mallusof"] = 1446778222,
+							["Mallusof"] = 1528126901,
 							["Korugen"] = 901477,
-							["Zethan"] = 8111577,
+							["Zethan"] = 8169577,
 						},
 					},
 				},
@@ -61,18 +61,18 @@ LUIDB = {
 							["Morifa"] = 567894582,
 						},
 						["Alliance"] = {
-							["Miriyal"] = 94976105,
-							["Farahn"] = 18842318,
-							["Greybone"] = 192834458,
-							["Amranar"] = 143798018,
-							["Granjior"] = 518058986,
-							["Kaldorath"] = 401538645,
-							["Faerand"] = 81463850,
+							["Miriyal"] = 170946902,
+							["Farahn"] = 20920877,
+							["Greybone"] = 309720558,
+							["Amranar"] = 265129749,
+							["Granjior"] = 569882486,
+							["Kaldorath"] = 544553545,
+							["Faerand"] = 133063768,
 							["Mallusof"] = 1162234125,
-							["Fimwack"] = 357709977,
-							["Morifa"] = 560270717,
-							["Rahran"] = 295432258,
-							["Praerend"] = 606377697,
+							["Fimwack"] = 498400277,
+							["Morifa"] = 617631682,
+							["Rahran"] = 347756757,
+							["Praerend"] = 702915297,
 						},
 					},
 				},
@@ -661,10 +661,6 @@ LUIDB = {
 								["Width"] = 200,
 							},
 							["ClassIcons"] = {
-								["Y"] = 100,
-								["X"] = 350,
-								["Padding"] = 1,
-								["Lock"] = false,
 							},
 							["AltPower"] = {
 								["Enable"] = true,
@@ -1969,38 +1965,38 @@ LUIDB = {
 				["EditBox"] = {
 					["factionrealm"] = {
 						["Alliance - Proudmoore"] = {
-							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [1]
-							" You up for more later, or you done for today?", -- [2]
-							"/macro", -- [3]
-							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [4]
-							"/macro", -- [5]
-							" You up for more later, or you done for today?", -- [6]
-							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [7]
-							" You up for more later, or you done for today?", -- [8]
-							"/macro", -- [9]
-							" You up for more later, or you done for today?", -- [10]
-							"/macro", -- [11]
-							"/g gz!", -- [12]
-							"/macro", -- [13]
+							" You up for more later, or you done for today?", -- [1]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [2]
+							"/2 Only 1 toon per account can do the quest now]", -- [3]
+							"/g gz!", -- [4]
+							" You up for more later, or you done for today?", -- [5]
+							"/2 Only 1 toon per account can do the quest now]", -- [6]
+							" You up for more later, or you done for today?", -- [7]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [8]
+							" You up for more later, or you done for today?", -- [9]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [10]
+							"/2 Only 1 toon per account can do the quest now]", -- [11]
+							" You up for more later, or you done for today?", -- [12]
+							"/g gz!", -- [13]
 							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [14]
 							" You up for more later, or you done for today?", -- [15]
-							"/macro", -- [16]
-							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [17]
-							"/macro", -- [18]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [16]
+							"/2 Only 1 toon per account can do the quest now]", -- [17]
+							"/g gz!", -- [18]
 							" You up for more later, or you done for today?", -- [19]
-							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [20]
+							"/2 Only 1 toon per account can do the quest now]", -- [20]
 							" You up for more later, or you done for today?", -- [21]
-							"/macro", -- [22]
-							" You up for more later, or you done for today?", -- [23]
-							"/macro", -- [24]
-							"/g gz!", -- [25]
-							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [26]
-							"/macro", -- [27]
-							" You up for more later, or you done for today?", -- [28]
-							"/macro", -- [29]
-							"/g gz!", -- [30]
-							"/macro", -- [31]
-							"/g gz!", -- [32]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [22]
+							"/2 Only 1 toon per account can do the quest now]", -- [23]
+							"/g gz!", -- [24]
+							" You up for more later, or you done for today?", -- [25]
+							"/2 Only 1 toon per account can do the quest now]", -- [26]
+							" You up for more later, or you done for today?", -- [27]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [28]
+							"/g gz!", -- [29]
+							"/2 Only 1 toon per account can do the quest now]", -- [30]
+							"/s |cff66bbff|Hjournal:2:12543:23|h[Apocalyptic Nightmare]|h|r", -- [31]
+							"/2 Only 1 toon per account can do the quest now]", -- [32]
 						},
 						["Horde - Proudmoore"] = {
 							"/macro", -- [1]
@@ -2037,38 +2033,38 @@ LUIDB = {
 							" hahaha", -- [32]
 						},
 						["Alliance - Tichondrius"] = {
-							" ping for dbm", -- [1]
-							"/i Fgasse?", -- [2]
-							"/i What ar eyou doing?", -- [3]
-							" dbm ping", -- [4]
-							" what?", -- [5]
-							"/cw Aristiff-Stormrage As the description said", -- [6]
-							"/p https://discord.gg/wq7Ew5 join up dudes :)", -- [7]
-							"/p readycheck", -- [8]
-							" inv when ready", -- [9]
-							"/s ?", -- [10]
-							" ping for dbm", -- [11]
-							" what?", -- [12]
-							"/p https://discord.gg/wq7Ew5 join up dudes :)", -- [13]
-							" inv when ready", -- [14]
-							" ping for dbm", -- [15]
-							"/p https://discord.gg/wq7Ew5 join up dudes :)", -- [16]
-							" ping for dbm", -- [17]
-							"/i Fgasse?", -- [18]
-							" dbm ping", -- [19]
-							"/cw Aristiff-Stormrage As the description said", -- [20]
-							"/p readycheck", -- [21]
-							"/s ?", -- [22]
-							" what?", -- [23]
-							" inv when ready", -- [24]
-							"/p https://discord.gg/wq7Ew5 join up dudes :)", -- [25]
-							"/i Fgasse?", -- [26]
-							"/cw Aristiff-Stormrage As the description said", -- [27]
-							"/s ?", -- [28]
-							" inv when ready", -- [29]
-							"/i Fgasse?", -- [30]
-							"/s ?", -- [31]
-							"/i Fgasse?", -- [32]
+							"/reload", -- [1]
+							"/g HOLY FUCK", -- [2]
+							"/g oh god", -- [3]
+							"/g yeah", -- [4]
+							"/g I know :P", -- [5]
+							"/p gogogogo", -- [6]
+							"/p lost aggro", -- [7]
+							"/p r", -- [8]
+							"/p dno", -- [9]
+							"/g HOLY FUCK", -- [10]
+							"/g yeah", -- [11]
+							"/p gogogogo", -- [12]
+							"/p r", -- [13]
+							"/g HOLY FUCK", -- [14]
+							"/p gogogogo", -- [15]
+							"/g HOLY FUCK", -- [16]
+							"/reload", -- [17]
+							"/g oh god", -- [18]
+							"/g I know :P", -- [19]
+							"/p lost aggro", -- [20]
+							"/p dno", -- [21]
+							"/g yeah", -- [22]
+							"/p r", -- [23]
+							"/p gogogogo", -- [24]
+							"/reload", -- [25]
+							"/g I know :P", -- [26]
+							"/p dno", -- [27]
+							"/p r", -- [28]
+							"/reload", -- [29]
+							"/p dno", -- [30]
+							"/reload", -- [31]
+							"/sorry", -- [32]
 						},
 						["Horde - Bleeding Hollow"] = {
 							" Also Prot Warrior deals a good amount of damage on AoE", -- [1]

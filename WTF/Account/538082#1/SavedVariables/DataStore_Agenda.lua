@@ -32,10 +32,13 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1520114366,
+				["lastUpdate"] = 1521219322,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1521008118,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Mythic|346474443"] = "324599|1521233400|0|1",
+				},
+				["lastUpdate"] = 1521233444,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -47,10 +50,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1520109268,
+				["lastUpdate"] = 1521219363,
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1520140455,
+				["lastUpdate"] = 1521059664,
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607904,
@@ -59,19 +62,19 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1516607162,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1520107738,
+				["lastUpdate"] = 1521059417,
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1520579481,
+				["lastUpdate"] = 1521146170,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1520135113,
+				["lastUpdate"] = 1521219438,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1520138984,
+				["lastUpdate"] = 1521219407,
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["lastUpdate"] = 1519800247,
+				["lastUpdate"] = 1521061404,
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["lastUpdate"] = 1516509931,
@@ -83,19 +86,19 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1519800329,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1520484626,
+				["lastUpdate"] = 1521219523,
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1519799786,
+				["lastUpdate"] = 1521060247,
 			},
 			["Default.Tichondrius.Korugen"] = {
 				["lastUpdate"] = 1520494216,
 			},
 			["Default.Proudmoore.Miriyal"] = {
-				["lastUpdate"] = 1520137150,
+				["lastUpdate"] = 1521060778,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1520484572,
+				["lastUpdate"] = 1521219490,
 			},
 		},
 	},

@@ -7,34 +7,33 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 927,
+					["combatId"] = 936,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.006755,
-							["total"] = 23807.006755,
+							["totalabsorbed"] = 0.007716,
 							["damage_from"] = {
-								["General Cerulean"] = true,
+								["Scavenge-bot 004-A8"] = true,
 							},
 							["targets"] = {
-								["General Cerulean"] = 23807,
+								["Scavenge-bot 004-A8"] = 11929,
 							},
+							["total"] = 11929.007716,
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
-								"Void Tendril <Zethan>", -- [2]
 							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
+							["on_hold"] = false,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 15171.006755,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 8574.007716,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["end_time"] = 1520578941,
-							["on_hold"] = false,
+							["end_time"] = 1521146155,
+							["friendlyfire_total"] = 0,
 							["spec"] = 265,
 							["nome"] = "Zethan",
 							["spells"] = {
@@ -43,19 +42,19 @@ _detalhes_database = {
 									[980] = {
 										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 645,
+										["c_dmg"] = 169,
 										["g_amt"] = 0,
-										["n_max"] = 255,
+										["n_max"] = 118,
 										["targets"] = {
-											["General Cerulean"] = 2170,
+											["Scavenge-bot 004-A8"] = 540,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1525,
-										["n_min"] = 33,
+										["n_dmg"] = 371,
+										["n_min"] = 67,
 										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 2170,
-										["c_max"] = 442,
+										["counter"] = 6,
+										["total"] = 540,
+										["c_max"] = 101,
 										["id"] = 980,
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
@@ -65,26 +64,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 11,
+										["n_amt"] = 4,
 										["r_amt"] = 0,
-										["c_min"] = 203,
+										["c_min"] = 68,
 									},
 									[146739] = {
-										["c_amt"] = 1,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 364,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
 										["n_max"] = 182,
 										["targets"] = {
-											["General Cerulean"] = 2361,
+											["Scavenge-bot 004-A8"] = 907,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1997,
+										["n_dmg"] = 907,
 										["n_min"] = 181,
 										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 2361,
-										["c_max"] = 364,
+										["counter"] = 5,
+										["total"] = 907,
+										["c_max"] = 0,
 										["id"] = 146739,
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
@@ -94,55 +93,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 364,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 44,
-										["targets"] = {
-											["General Cerulean"] = 459,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 459,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 459,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["spellschool"] = 48,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 25,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
 									[198590] = {
-										["c_amt"] = 0,
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1151,
 										["g_amt"] = 0,
 										["n_max"] = 575,
 										["targets"] = {
-											["General Cerulean"] = 5748,
+											["Scavenge-bot 004-A8"] = 4026,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 5748,
-										["n_min"] = 574,
+										["n_dmg"] = 2875,
+										["n_min"] = 575,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 5748,
-										["c_max"] = 0,
+										["counter"] = 6,
+										["total"] = 4026,
+										["c_max"] = 1151,
 										["id"] = 198590,
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
@@ -152,26 +122,26 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 1151,
 									},
 									[233490] = {
-										["c_amt"] = 0,
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 886,
 										["g_amt"] = 0,
-										["n_max"] = 444,
+										["n_max"] = 443,
 										["targets"] = {
-											["General Cerulean"] = 4433,
+											["Scavenge-bot 004-A8"] = 3101,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 4433,
+										["n_dmg"] = 2215,
 										["n_min"] = 443,
 										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 4433,
-										["c_max"] = 0,
+										["counter"] = 6,
+										["total"] = 3101,
+										["c_max"] = 886,
 										["id"] = 233490,
 										["r_dmg"] = 0,
 										["spellschool"] = 32,
@@ -181,97 +151,31 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 10,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 886,
 									},
 								},
 							},
 							["grupo"] = true,
 							["serial"] = "Player-11-0AFB757C",
-							["last_dps"] = 994.652465218321,
+							["last_dps"] = 1089.4070973794,
 							["custom"] = 0,
-							["last_event"] = 1520578940,
-							["damage_taken"] = 5545.006755,
-							["start_time"] = 1520578917,
+							["last_event"] = 1521146154,
+							["damage_taken"] = 1090.007716,
+							["start_time"] = 1521146145,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 						{
-							["flag_original"] = 8465,
-							["totalabsorbed"] = 0.004113,
-							["serial"] = "Creature-0-3884-571-29402-95577-000022316E",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["General Cerulean"] = 4804,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4804.004113,
-							["dps_started"] = false,
-							["total"] = 4804.004113,
-							["classe"] = "PET",
-							["ownerName"] = "Zethan",
-							["nome"] = "Void Tendril <Zethan>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 1,
-										["c_dmg"] = 428,
-										["g_amt"] = 0,
-										["n_max"] = 128,
-										["targets"] = {
-											["General Cerulean"] = 4804,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4376,
-										["n_min"] = 68,
-										["g_dmg"] = 0,
-										["counter"] = 44,
-										["total"] = 4804,
-										["c_max"] = 242,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 68,
-										["n_amt"] = 42,
-										["r_amt"] = 0,
-										["c_min"] = 186,
-									}, -- [1]
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1520578941,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.004113,
-							["start_time"] = 1520578920,
-							["delay"] = 0,
-							["last_event"] = 1520578939,
-						}, -- [2]
-						{
 							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.004531,
-							["serial"] = "Pet-0-3884-571-29402-416-3E0297FE54",
+							["totalabsorbed"] = 0.006806,
+							["serial"] = "Pet-0-3136-571-24933-416-070297FE54",
 							["damage_from"] = {
-								["General Cerulean"] = true,
+								["Scavenge-bot 004-A8"] = true,
 							},
 							["targets"] = {
-								["General Cerulean"] = 3832,
+								["Scavenge-bot 004-A8"] = 3355,
 							},
 							["pets"] = {
 							},
@@ -279,9 +183,9 @@ _detalhes_database = {
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 3832.004531,
+							["total_without_pet"] = 3355.006806,
 							["dps_started"] = false,
-							["total"] = 3832.004531,
+							["total"] = 3355.006806,
 							["classe"] = "PET",
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
@@ -289,21 +193,21 @@ _detalhes_database = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
-										["c_amt"] = 0,
+										["c_amt"] = 2,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1918,
 										["g_amt"] = 0,
 										["n_max"] = 479,
 										["targets"] = {
-											["General Cerulean"] = 3832,
+											["Scavenge-bot 004-A8"] = 3355,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 3832,
+										["n_dmg"] = 1437,
 										["n_min"] = 479,
 										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 3832,
-										["c_max"] = 0,
+										["counter"] = 5,
+										["total"] = 3355,
+										["c_max"] = 959,
 										["id"] = 3110,
 										["r_dmg"] = 0,
 										["spellschool"] = 4,
@@ -313,61 +217,62 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 8,
+										["n_amt"] = 3,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 959,
 									},
 								},
 							},
 							["friendlyfire"] = {
 							},
-							["end_time"] = 1520578941,
+							["end_time"] = 1521146155,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 1097.004531,
-							["start_time"] = 1520578918,
+							["damage_taken"] = 1591.006806,
+							["start_time"] = 1521146145,
 							["delay"] = 0,
-							["last_event"] = 1520578938,
-						}, -- [3]
+							["last_event"] = 1521146154,
+						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 927,
+					["combatId"] = 936,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["targets_overheal"] = {
-								["Zethan"] = 2706,
+								["Belpad <Zethan>"] = 2,
+								["Zethan"] = 8020,
 							},
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 							},
 							["iniciar_hps"] = false,
 							["classe"] = "WARLOCK",
-							["totalover"] = 2706.008545,
-							["total_without_pet"] = 12171.008545,
-							["total"] = 12171.008545,
+							["totalover"] = 8022.005013,
+							["total_without_pet"] = 2326.005013,
+							["total"] = 2326.005013,
 							["targets_absorbs"] = {
-								["Belpad <Zethan>"] = 877,
-								["Zethan"] = 2492,
+								["Belpad <Zethan>"] = 1236,
+								["Zethan"] = 1056,
 							},
 							["heal_enemy"] = {
 							},
 							["colocacao"] = 1,
 							["on_hold"] = false,
 							["serial"] = "Player-11-0AFB757C",
-							["totalabsorb"] = 3369.008545,
-							["last_hps"] = 508.502550449144,
+							["totalabsorb"] = 2292.005013,
+							["last_hps"] = 212.42054913784,
 							["targets"] = {
-								["Belpad <Zethan>"] = 877,
-								["Zethan"] = 13998,
+								["Belpad <Zethan>"] = 1236,
+								["Zethan"] = 2206,
 							},
-							["totalover_without_pet"] = 0.008545,
-							["healing_taken"] = 11294.008545,
+							["totalover_without_pet"] = 0.005013,
+							["healing_taken"] = 1090.005013,
 							["fight_component"] = true,
-							["end_time"] = 1520578941,
+							["end_time"] = 1521146155,
 							["healing_from"] = {
 								["Zethan"] = true,
 							},
@@ -377,32 +282,32 @@ _detalhes_database = {
 								["_ActorTable"] = {
 									[108366] = {
 										["c_amt"] = 0,
-										["totalabsorb"] = 3369,
+										["totalabsorb"] = 2292,
 										["targets_overheal"] = {
-											["Zethan"] = 2,
+											["Belpad <Zethan>"] = 2,
 										},
-										["n_max"] = 843,
+										["n_max"] = 702,
 										["targets"] = {
-											["Belpad <Zethan>"] = 877,
-											["Zethan"] = 2492,
+											["Belpad <Zethan>"] = 1236,
+											["Zethan"] = 1056,
 										},
-										["n_min"] = 347,
-										["counter"] = 15,
+										["n_min"] = 702,
+										["counter"] = 9,
 										["overheal"] = 2,
-										["total"] = 3369,
+										["total"] = 2292,
 										["c_max"] = 0,
 										["id"] = 108366,
 										["targets_absorbs"] = {
-											["Belpad <Zethan>"] = 877,
-											["Zethan"] = 2492,
+											["Belpad <Zethan>"] = 1236,
+											["Zethan"] = 1056,
 										},
 										["m_healed"] = 0,
 										["c_curado"] = 0,
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 3369,
-										["n_amt"] = 15,
+										["n_curado"] = 2292,
+										["n_amt"] = 9,
 										["totaldenied"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
@@ -411,16 +316,16 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
-											["Zethan"] = 2704,
+											["Zethan"] = 8020,
 										},
-										["n_max"] = 1151,
+										["n_max"] = 34,
 										["targets"] = {
-											["Zethan"] = 8802,
+											["Zethan"] = 34,
 										},
-										["n_min"] = 102,
-										["counter"] = 10,
-										["overheal"] = 2704,
-										["total"] = 8802,
+										["n_min"] = 0,
+										["counter"] = 6,
+										["overheal"] = 8020,
+										["total"] = 34,
 										["c_max"] = 0,
 										["id"] = 198590,
 										["targets_absorbs"] = {
@@ -429,8 +334,8 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 8802,
-										["n_amt"] = 10,
+										["n_curado"] = 34,
+										["n_amt"] = 6,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
 										["absorbed"] = 0,
@@ -439,92 +344,84 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["heal_enemy_amt"] = 0,
-							["start_time"] = 1520578919,
+							["start_time"] = 1521146144,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["spec"] = 265,
-							["totaldenied"] = 0.008545,
+							["totaldenied"] = 0.005013,
 							["delay"] = 0,
-							["last_event"] = 1520578940,
+							["last_event"] = 1521146154,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
+							["totalabsorb"] = 0.006075,
+							["last_hps"] = 0,
 							["targets_overheal"] = {
+							},
+							["start_time"] = 1521146155,
+							["targets"] = {
+							},
+							["healing_from"] = {
+								["Zethan"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
+							["end_time"] = 1521146155,
+							["classe"] = "PET",
+							["totalover"] = 0.006075,
+							["total_without_pet"] = 0.006075,
+							["totalover_without_pet"] = 0.006075,
 							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008364,
-							["total_without_pet"] = 0.008364,
-							["total"] = 0.008364,
+							["fight_component"] = true,
+							["total"] = 0.006075,
+							["serial"] = "Pet-0-3136-571-24933-416-070297FE54",
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["healing_taken"] = 1236.006075,
 							["targets_absorbs"] = {
 							},
 							["heal_enemy"] = {
 							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3884-571-29402-416-3E0297FE54",
-							["totalabsorb"] = 0.008364,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.008364,
-							["healing_taken"] = 877.008364,
-							["fight_component"] = true,
-							["end_time"] = 1520578941,
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
 							},
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
-							["start_time"] = 1520578941,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.008364,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006075,
 							["delay"] = 0,
 							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 927,
+					["combatId"] = 936,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 						{
-							["received"] = 4.004972,
-							["resource"] = 0.004972,
+							["received"] = 2.005122,
+							["resource"] = 0.005122,
 							["targets"] = {
-								["Zethan"] = 4,
+								["Zethan"] = 2,
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
 							["classe"] = "WARLOCK",
 							["fight_component"] = true,
-							["total"] = 4.004972,
+							["total"] = 2.005122,
 							["nome"] = "Zethan",
 							["spec"] = 265,
 							["grupo"] = true,
 							["flag_original"] = 1297,
-							["last_event"] = 1520578940,
-							["alternatepower"] = 0.004972,
+							["last_event"] = 1521146154,
+							["alternatepower"] = 0.005122,
 							["spells"] = {
 								["tipo"] = 7,
 								["_ActorTable"] = {
-									[31117] = {
-										["id"] = 31117,
-										["total"] = 1,
-										["targets"] = {
-											["Zethan"] = 1,
-										},
-										["counter"] = 1,
-									},
 									[205292] = {
 										["id"] = 205292,
 										["total"] = 1,
@@ -533,13 +430,13 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
-									[17941] = {
-										["id"] = 17941,
-										["total"] = 2,
+									[31117] = {
+										["id"] = 31117,
+										["total"] = 1,
 										["targets"] = {
-											["Zethan"] = 2,
+											["Zethan"] = 1,
 										},
-										["counter"] = 2,
+										["counter"] = 1,
 									},
 								},
 							},
@@ -549,7 +446,7 @@ _detalhes_database = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 927,
+					["combatId"] = 936,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -562,9 +459,9 @@ _detalhes_database = {
 										["id"] = 980,
 										["targets"] = {
 										},
-										["uptime"] = 23,
+										["uptime"] = 10,
 										["appliedamt"] = 1,
-										["refreshamt"] = 14,
+										["refreshamt"] = 6,
 										["actived"] = false,
 										["counter"] = 0,
 									},
@@ -573,18 +470,18 @@ _detalhes_database = {
 										["id"] = 233496,
 										["targets"] = {
 										},
-										["uptime"] = 8,
+										["uptime"] = 6,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[146739] = {
+									[233490] = {
 										["activedamt"] = 0,
-										["id"] = 146739,
+										["id"] = 233490,
 										["targets"] = {
 										},
-										["uptime"] = 23,
+										["uptime"] = 7,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -595,15 +492,33 @@ _detalhes_database = {
 										["id"] = 198590,
 										["targets"] = {
 										},
-										["uptime"] = 11,
-										["appliedamt"] = 4,
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[146739] = {
+										["activedamt"] = 0,
+										["id"] = 146739,
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									[233490] = {
-										["activedamt"] = 0,
-										["id"] = 233490,
+								},
+							},
+							["buff_uptime"] = 10,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[108366] = {
+										["activedamt"] = 2,
+										["id"] = 108366,
 										["targets"] = {
 										},
 										["uptime"] = 10,
@@ -614,72 +529,20 @@ _detalhes_database = {
 									},
 								},
 							},
-							["buff_uptime"] = 60,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[108366] = {
-										["activedamt"] = 9,
-										["id"] = 108366,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 9,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[20707] = {
-										["activedamt"] = 1,
-										["id"] = 20707,
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[186406] = {
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 75,
+							["debuff_uptime"] = 38,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 265,
 							["grupo"] = true,
 							["spell_cast"] = {
-								[980] = 1,
 								[30108] = 2,
-								[198590] = 4,
-								[20707] = 1,
+								[172] = 1,
+								[198590] = 2,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1520578941,
+							["last_event"] = 1521146155,
 							["nome"] = "Zethan",
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
@@ -697,15 +560,15 @@ _detalhes_database = {
 							["fight_component"] = true,
 							["tipo"] = 4,
 							["spell_cast"] = {
-								[3110] = 8,
+								[3110] = 5,
 							},
-							["serial"] = "Pet-0-3884-571-29402-416-3E0297FE54",
+							["serial"] = "Pet-0-3136-571-24933-416-070297FE54",
 							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 927,
+					["combatId"] = 936,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -718,15 +581,15 @@ _detalhes_database = {
 				},
 				["alternate_power"] = {
 				},
-				["enemy"] = "General Cerulean",
-				["combat_counter"] = 1072,
+				["enemy"] = "Scavenge-bot 004-A8",
+				["combat_counter"] = 1083,
 				["playing_solo"] = true,
 				["totals"] = {
-					23806.994109, -- [1]
-					12171, -- [2]
+					11928.992647, -- [1]
+					2326, -- [2]
 					{
 						0, -- [1]
-						[0] = 4,
+						[0] = 2,
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
@@ -758,33 +621,33 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Zethan"] = 12171.008545,
+							["Zethan"] = 2326.005013,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Zethan"] = 23807.006755,
+							["Zethan"] = 11929.007716,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 14626.009,
-				["combat_id"] = 927,
+				["end_time"] = 2997540.625,
+				["combat_id"] = 936,
 				["instance_type"] = "none",
 				["frags"] = {
-					["General Cerulean"] = 1,
+					["Scavenge-bot 004-A8"] = 1,
 				},
-				["data_fim"] = "23:02:21",
-				["data_inicio"] = "23:01:58",
+				["data_fim"] = "13:35:55",
+				["data_inicio"] = "13:35:44",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					15171, -- [1]
-					12171, -- [2]
+					8574, -- [1]
+					2326, -- [2]
 					{
 						0, -- [1]
-						[0] = 4,
+						[0] = 2,
 						["alternatepower"] = 0,
 						[3] = 0,
 						[6] = 0,
@@ -800,8 +663,1646 @@ _detalhes_database = {
 						["dead"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 14602.074,
-				["contra"] = "General Cerulean",
+				["start_time"] = 2997529.675,
+				["contra"] = "Scavenge-bot 004-A8",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						1027.007716, -- [1]
+						0, -- [2]
+						282, -- [3]
+						479, -- [4]
+						248, -- [5]
+						1679, -- [6]
+						1546, -- [7]
+						1811, -- [8]
+						2005, -- [9]
+						757, -- [10]
+						["max_value"] = 2005,
+					},
+					["Raid Damage Done"] = {
+						68, -- [1]
+						0, -- [2]
+						282, -- [3]
+						0, -- [4]
+						248, -- [5]
+						1200, -- [6]
+						1546, -- [7]
+						1332, -- [8]
+						2005, -- [9]
+						757, -- [10]
+						["max_value"] = 2005,
+					},
+				},
+			}, -- [1]
+			{
+				{
+					["combatId"] = 935,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002699,
+							["total"] = 11979.002699,
+							["damage_from"] = {
+								["Scavenge-bot 004-A8"] = true,
+							},
+							["targets"] = {
+								["Scavenge-bot 004-A8"] = 11979,
+							},
+							["pets"] = {
+								"Belpad <Zethan>", -- [1]
+							},
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["classe"] = "WARLOCK",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 9584.002699,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1521146132,
+							["on_hold"] = false,
+							["spec"] = 265,
+							["nome"] = "Zethan",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[980] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 305,
+										["g_amt"] = 0,
+										["n_max"] = 119,
+										["targets"] = {
+											["Scavenge-bot 004-A8"] = 610,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 305,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 610,
+										["c_max"] = 204,
+										["id"] = 980,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 101,
+									},
+									[233490] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 886,
+										["g_amt"] = 0,
+										["n_max"] = 443,
+										["targets"] = {
+											["Scavenge-bot 004-A8"] = 5316,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4430,
+										["n_min"] = 443,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 5316,
+										["c_max"] = 886,
+										["id"] = 233490,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 886,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 44,
+										["targets"] = {
+											["Scavenge-bot 004-A8"] = 451,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 451,
+										["n_min"] = 3,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 451,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["spellschool"] = 48,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 24,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[198590] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 575,
+										["targets"] = {
+											["Scavenge-bot 004-A8"] = 2300,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2300,
+										["n_min"] = 575,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 2300,
+										["c_max"] = 0,
+										["id"] = 198590,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[146739] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 182,
+										["targets"] = {
+											["Scavenge-bot 004-A8"] = 907,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 907,
+										["n_min"] = 181,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 907,
+										["c_max"] = 0,
+										["id"] = 146739,
+										["r_dmg"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-11-0AFB757C",
+							["last_dps"] = 912.75546317621,
+							["custom"] = 0,
+							["last_event"] = 1521146131,
+							["damage_taken"] = 2459.002699,
+							["start_time"] = 1521146121,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.001891,
+							["serial"] = "Pet-0-3136-571-24933-416-060297FE54",
+							["damage_from"] = {
+								["Scavenge-bot 004-A8"] = true,
+							},
+							["targets"] = {
+								["Scavenge-bot 004-A8"] = 2395,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2395.001891,
+							["dps_started"] = false,
+							["total"] = 2395.001891,
+							["classe"] = "PET",
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 479,
+										["targets"] = {
+											["Scavenge-bot 004-A8"] = 2395,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2395,
+										["n_min"] = 479,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 2395,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["spellschool"] = 4,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1521146132,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 560.001891,
+							["start_time"] = 1521146122,
+							["delay"] = 0,
+							["last_event"] = 1521146131,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 935,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["targets_overheal"] = {
+								["Zethan"] = 2417,
+							},
+							["pets"] = {
+								"Belpad <Zethan>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "WARLOCK",
+							["totalover"] = 2417.006784,
+							["total_without_pet"] = 2612.006784,
+							["total"] = 2612.006784,
+							["targets_absorbs"] = {
+								["Belpad <Zethan>"] = 153,
+								["Zethan"] = 896,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-11-0AFB757C",
+							["totalabsorb"] = 1049.006784,
+							["last_hps"] = 199.025204506244,
+							["targets"] = {
+								["Belpad <Zethan>"] = 153,
+								["Zethan"] = 4348,
+							},
+							["totalover_without_pet"] = 0.006784,
+							["healing_taken"] = 2459.006784,
+							["fight_component"] = true,
+							["end_time"] = 1521146132,
+							["healing_from"] = {
+								["Zethan"] = true,
+							},
+							["nome"] = "Zethan",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 1049,
+										["targets_overheal"] = {
+											["Zethan"] = 2,
+										},
+										["n_max"] = 472,
+										["targets"] = {
+											["Belpad <Zethan>"] = 153,
+											["Zethan"] = 896,
+										},
+										["n_min"] = 74,
+										["counter"] = 8,
+										["overheal"] = 2,
+										["total"] = 1049,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Belpad <Zethan>"] = 153,
+											["Zethan"] = 896,
+										},
+										["m_healed"] = 0,
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1049,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[198590] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Zethan"] = 2415,
+										},
+										["n_max"] = 1151,
+										["targets"] = {
+											["Zethan"] = 1563,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 2415,
+										["total"] = 1563,
+										["c_max"] = 0,
+										["id"] = 198590,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 1563,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1521146122,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["spec"] = 265,
+							["totaldenied"] = 0.006784,
+							["delay"] = 0,
+							["last_event"] = 1521146131,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["targets_overheal"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.00835,
+							["total_without_pet"] = 0.00835,
+							["total"] = 0.00835,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3136-571-24933-416-060297FE54",
+							["totalabsorb"] = 0.00835,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.00835,
+							["healing_taken"] = 153.00835,
+							["fight_component"] = true,
+							["end_time"] = 1521146132,
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["healing_from"] = {
+								["Zethan"] = true,
+							},
+							["start_time"] = 1521146132,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["classe"] = "PET",
+							["totaldenied"] = 0.00835,
+							["delay"] = 0,
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 935,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 3.006155,
+							["resource"] = 0.006155,
+							["targets"] = {
+								["Zethan"] = 3,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 3.006155,
+							["nome"] = "Zethan",
+							["spec"] = 265,
+							["grupo"] = true,
+							["flag_original"] = 1297,
+							["last_event"] = 1521146131,
+							["alternatepower"] = 0.006155,
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									[31117] = {
+										["id"] = 31117,
+										["total"] = 1,
+										["targets"] = {
+											["Zethan"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[205292] = {
+										["id"] = 205292,
+										["total"] = 1,
+										["targets"] = {
+											["Zethan"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[17941] = {
+										["id"] = 17941,
+										["total"] = 1,
+										["targets"] = {
+											["Zethan"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+							},
+							["serial"] = "Player-11-0AFB757C",
+							["tipo"] = 3,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 935,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[980] = {
+										["activedamt"] = 0,
+										["id"] = 980,
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 6,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[233496] = {
+										["activedamt"] = 0,
+										["id"] = 233496,
+										["targets"] = {
+										},
+										["uptime"] = 6,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[233490] = {
+										["activedamt"] = 0,
+										["id"] = 233490,
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[233498] = {
+										["activedamt"] = 0,
+										["id"] = 233498,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198590] = {
+										["activedamt"] = 0,
+										["id"] = 198590,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[233497] = {
+										["activedamt"] = 0,
+										["id"] = 233497,
+										["targets"] = {
+										},
+										["uptime"] = 5,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[146739] = {
+										["activedamt"] = 0,
+										["id"] = 146739,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 22,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[108366] = {
+										["activedamt"] = 5,
+										["id"] = 108366,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 5,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[256374] = {
+										["activedamt"] = 1,
+										["id"] = 256374,
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 48,
+							["debuff_uptime_targets"] = {
+							},
+							["spec"] = 265,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[980] = 1,
+								[30108] = 4,
+								[172] = 1,
+								[198590] = 1,
+							},
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1521146132,
+							["nome"] = "Zethan",
+							["pets"] = {
+								"Belpad <Zethan>", -- [1]
+							},
+							["serial"] = "Player-11-0AFB757C",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["fight_component"] = true,
+							["tipo"] = 4,
+							["spell_cast"] = {
+								[3110] = 5,
+							},
+							["serial"] = "Pet-0-3136-571-24933-416-060297FE54",
+							["last_event"] = 0,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 935,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zethan"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Scavenge-bot 004-A8",
+				["combat_counter"] = 1082,
+				["playing_solo"] = true,
+				["totals"] = {
+					11978.991265, -- [1]
+					2612, -- [2]
+					{
+						0, -- [1]
+						[0] = 3,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zethan"] = 2612.006784,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Zethan"] = 11979.002699,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 2997517.606,
+				["combat_id"] = 935,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Scavenge-bot 004-A8"] = 1,
+				},
+				["data_fim"] = "13:35:32",
+				["data_inicio"] = "13:35:19",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					9584, -- [1]
+					2612, -- [2]
+					{
+						0, -- [1]
+						[0] = 3,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 2997504.482,
+				["contra"] = "Scavenge-bot 004-A8",
+				["TimeData"] = {
+					["Player Damage Done"] = {
+						0.002699, -- [1]
+						0, -- [2]
+						33, -- [3]
+						669, -- [4]
+						106, -- [5]
+						669, -- [6]
+						536, -- [7]
+						1200, -- [8]
+						487, -- [9]
+						1947, -- [10]
+						2488, -- [11]
+						1860, -- [12]
+						1984, -- [13]
+						["max_value"] = 2488,
+					},
+					["Raid Damage Done"] = {
+						0, -- [1]
+						0, -- [2]
+						33, -- [3]
+						190, -- [4]
+						106, -- [5]
+						190, -- [6]
+						536, -- [7]
+						721, -- [8]
+						487, -- [9]
+						1947, -- [10]
+						2009, -- [11]
+						1860, -- [12]
+						1505, -- [13]
+						["max_value"] = 2009,
+					},
+				},
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 927,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006755,
+							["damage_from"] = {
+								["General Cerulean"] = true,
+								["Environment (Fire)"] = true,
+							},
+							["targets"] = {
+								["General Cerulean"] = 23807,
+							},
+							["pets"] = {
+								"Belpad <Zethan>", -- [1]
+								"Void Tendril <Zethan>", -- [2]
+							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 15171.006755,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1520578941,
+							["classe"] = "WARLOCK",
+							["on_hold"] = false,
+							["nome"] = "Zethan",
+							["spec"] = 265,
+							["grupo"] = true,
+							["total"] = 23807.006755,
+							["damage_taken"] = 5555.006755,
+							["spells"] = {
+								["_ActorTable"] = {
+									[980] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 645,
+										["g_amt"] = 0,
+										["n_max"] = 255,
+										["targets"] = {
+											["General Cerulean"] = 2170,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1525,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 2170,
+										["c_max"] = 442,
+										["id"] = 980,
+										["r_dmg"] = 0,
+										["c_min"] = 203,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[146739] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 364,
+										["g_amt"] = 0,
+										["n_max"] = 182,
+										["targets"] = {
+											["General Cerulean"] = 2361,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1997,
+										["n_min"] = 181,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 2361,
+										["c_max"] = 364,
+										["id"] = 146739,
+										["r_dmg"] = 0,
+										["c_min"] = 364,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[259756] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 44,
+										["targets"] = {
+											["General Cerulean"] = 459,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 459,
+										["n_min"] = 1,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 459,
+										["c_max"] = 0,
+										["id"] = 259756,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 25,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[233490] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 444,
+										["targets"] = {
+											["General Cerulean"] = 4433,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4433,
+										["n_min"] = 443,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 4433,
+										["c_max"] = 0,
+										["id"] = 233490,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[198590] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 575,
+										["targets"] = {
+											["General Cerulean"] = 5748,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5748,
+										["n_min"] = 574,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 5748,
+										["c_max"] = 0,
+										["id"] = 198590,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["colocacao"] = 1,
+							["last_event"] = 1520578940,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1520578917,
+							["serial"] = "Player-11-0AFB757C",
+							["last_dps"] = 994.652465218321,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorbed"] = 0.004113,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["General Cerulean"] = 4804,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.004113,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 4804.004113,
+							["last_event"] = 1520578939,
+							["dps_started"] = false,
+							["total"] = 4804.004113,
+							["delay"] = 0,
+							["ownerName"] = "Zethan",
+							["nome"] = "Void Tendril <Zethan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 1,
+										["c_dmg"] = 428,
+										["g_amt"] = 0,
+										["n_max"] = 128,
+										["targets"] = {
+											["General Cerulean"] = 4804,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4376,
+										["n_min"] = 68,
+										["g_dmg"] = 0,
+										["counter"] = 44,
+										["total"] = 4804,
+										["c_max"] = 242,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 186,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 68,
+										["n_amt"] = 42,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1520578941,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1520578920,
+							["serial"] = "Creature-0-3884-571-29402-95577-000022316E",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.004531,
+							["damage_from"] = {
+								["General Cerulean"] = true,
+							},
+							["targets"] = {
+								["General Cerulean"] = 3832,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 1097.004531,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 3832.004531,
+							["last_event"] = 1520578938,
+							["dps_started"] = false,
+							["total"] = 3832.004531,
+							["delay"] = 0,
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[3110] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 479,
+										["targets"] = {
+											["General Cerulean"] = 3832,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3832,
+										["n_min"] = 479,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 3832,
+										["c_max"] = 0,
+										["id"] = 3110,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1520578941,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1520578918,
+							["serial"] = "Pet-0-3884-571-29402-416-3E0297FE54",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 927,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Zethan"] = true,
+							},
+							["pets"] = {
+								"Belpad <Zethan>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 2706.008545,
+							["total_without_pet"] = 12171.008545,
+							["total"] = 12171.008545,
+							["targets_absorbs"] = {
+								["Belpad <Zethan>"] = 877,
+								["Zethan"] = 2492,
+							},
+							["heal_enemy"] = {
+							},
+							["colocacao"] = 1,
+							["on_hold"] = false,
+							["serial"] = "Player-11-0AFB757C",
+							["totalabsorb"] = 3369.008545,
+							["last_hps"] = 508.502550449144,
+							["targets"] = {
+								["Belpad <Zethan>"] = 877,
+								["Zethan"] = 13998,
+							},
+							["totalover_without_pet"] = 0.008545,
+							["healing_taken"] = 11294.008545,
+							["fight_component"] = true,
+							["end_time"] = 1520578941,
+							["last_event"] = 1520578940,
+							["nome"] = "Zethan",
+							["spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 3369,
+										["targets_overheal"] = {
+											["Zethan"] = 2,
+										},
+										["n_max"] = 843,
+										["targets"] = {
+											["Belpad <Zethan>"] = 877,
+											["Zethan"] = 2492,
+										},
+										["n_min"] = 347,
+										["counter"] = 15,
+										["overheal"] = 2,
+										["total"] = 3369,
+										["c_max"] = 0,
+										["id"] = 108366,
+										["targets_absorbs"] = {
+											["Belpad <Zethan>"] = 877,
+											["Zethan"] = 2492,
+										},
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["m_crit"] = 0,
+										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 15,
+										["n_curado"] = 3369,
+										["m_healed"] = 0,
+										["is_shield"] = true,
+										["absorbed"] = 0,
+									},
+									[198590] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Zethan"] = 2704,
+										},
+										["n_max"] = 1151,
+										["targets"] = {
+											["Zethan"] = 8802,
+										},
+										["n_min"] = 102,
+										["counter"] = 10,
+										["overheal"] = 2704,
+										["total"] = 8802,
+										["c_max"] = 0,
+										["id"] = 198590,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 10,
+										["n_curado"] = 8802,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["targets_overheal"] = {
+								["Zethan"] = 2706,
+							},
+							["spec"] = 265,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["totaldenied"] = 0.008545,
+							["start_time"] = 1520578919,
+							["delay"] = 0,
+							["classe"] = "WARLOCK",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["healing_from"] = {
+								["Zethan"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "PET",
+							["totalover"] = 0.008364,
+							["total_without_pet"] = 0.008364,
+							["total"] = 0.008364,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3884-571-29402-416-3E0297FE54",
+							["totalabsorb"] = 0.008364,
+							["last_hps"] = 0,
+							["targets"] = {
+							},
+							["totalover_without_pet"] = 0.008364,
+							["healing_taken"] = 877.008364,
+							["fight_component"] = true,
+							["end_time"] = 1520578941,
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.008364,
+							["targets_overheal"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["last_event"] = 0,
+							["start_time"] = 1520578941,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 927,
+					["_ActorTable"] = {
+						{
+							["received"] = 4.004972,
+							["resource"] = 0.004972,
+							["targets"] = {
+								["Zethan"] = 4,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "WARLOCK",
+							["fight_component"] = true,
+							["total"] = 4.004972,
+							["nome"] = "Zethan",
+							["spec"] = 265,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["last_event"] = 1520578940,
+							["alternatepower"] = 0.004972,
+							["spells"] = {
+								["_ActorTable"] = {
+									[17941] = {
+										["id"] = 17941,
+										["total"] = 2,
+										["targets"] = {
+											["Zethan"] = 2,
+										},
+										["counter"] = 2,
+									},
+									[31117] = {
+										["id"] = 31117,
+										["total"] = 1,
+										["targets"] = {
+											["Zethan"] = 1,
+										},
+										["counter"] = 1,
+									},
+									[205292] = {
+										["id"] = 205292,
+										["total"] = 1,
+										["targets"] = {
+											["Zethan"] = 1,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["serial"] = "Player-11-0AFB757C",
+							["flag_original"] = 1297,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 927,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[980] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 14,
+										["id"] = 980,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[233496] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 233496,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[146739] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 146739,
+										["uptime"] = 23,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[198590] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 198590,
+										["uptime"] = 11,
+										["targets"] = {
+										},
+										["appliedamt"] = 4,
+									},
+									[233490] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 233490,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 60,
+							["classe"] = "WARLOCK",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 9,
+										["refreshamt"] = 0,
+										["id"] = 108366,
+										["uptime"] = 14,
+										["targets"] = {
+										},
+										["appliedamt"] = 9,
+									},
+									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 256374,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[20707] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 20707,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 24,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 75,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 265,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[980] = 1,
+								[30108] = 2,
+								[198590] = 4,
+								[20707] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1520578941,
+							["nome"] = "Zethan",
+							["pets"] = {
+								"Belpad <Zethan>", -- [1]
+							},
+							["serial"] = "Player-11-0AFB757C",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Zethan",
+							["nome"] = "Belpad <Zethan>",
+							["spell_cast"] = {
+								[3110] = 8,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3884-571-29402-416-3E0297FE54",
+							["fight_component"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 927,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Zethan"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "General Cerulean",
+				["combat_counter"] = 1072,
+				["playing_solo"] = true,
+				["totals"] = {
+					23806.990785, -- [1]
+					12171, -- [2]
+					{
+						0, -- [1]
+						[0] = 4,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Zethan"] = {
+						{
+							true, -- [1]
+							6, -- [2]
+							10, -- [3]
+							1521145909.486, -- [4]
+							13058, -- [5]
+							"Environment (Fire)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Zethan"] = 23807.006755,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Zethan"] = 12171.008545,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 14626.009,
+				["combat_id"] = 927,
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						477.006755, -- [1]
@@ -856,11 +2357,43 @@ _detalhes_database = {
 						["max_value"] = 1486,
 					},
 				},
-			}, -- [1]
+				["hasSaved"] = true,
+				["frags"] = {
+					["General Cerulean"] = 1,
+				},
+				["data_fim"] = "23:02:21",
+				["data_inicio"] = "23:01:58",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					15171, -- [1]
+					12171, -- [2]
+					{
+						0, -- [1]
+						[0] = 4,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 14602.074,
+				["contra"] = "General Cerulean",
+				["instance_type"] = "none",
+			}, -- [3]
 			{
 				{
-					["combatId"] = 926,
 					["tipo"] = 2,
+					["combatId"] = 926,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -872,24 +2405,23 @@ _detalhes_database = {
 							["targets"] = {
 								["General Cerulean"] = 9519,
 							},
+							["delay"] = 1520578824,
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["custom"] = 0,
+							["last_event"] = 1520578824,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8370.006545,
-							["end_time"] = 1520578917,
-							["colocacao"] = 1,
-							["dps_started"] = false,
-							["total"] = 9519.006545,
-							["classe"] = "WARLOCK",
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1520578917,
+							["damage_taken"] = 886848.006545,
+							["spec"] = 265,
 							["nome"] = "Zethan",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[980] = {
 										["c_amt"] = 0,
@@ -909,16 +2441,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 980,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[146739] = {
 										["c_amt"] = 1,
@@ -938,16 +2470,16 @@ _detalhes_database = {
 										["c_max"] = 364,
 										["id"] = 146739,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 364,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 364,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[259756] = {
 										["c_amt"] = 0,
@@ -967,45 +2499,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 259756,
 										["r_dmg"] = 0,
-										["spellschool"] = 48,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 17,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[198590] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 575,
-										["targets"] = {
-											["General Cerulean"] = 1724,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1724,
-										["n_min"] = 574,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1724,
-										["c_max"] = 0,
-										["id"] = 198590,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["spellschool"] = 48,
 									},
 									[233490] = {
 										["c_amt"] = 0,
@@ -1025,34 +2528,63 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 233490,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 12,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
+									},
+									[198590] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 575,
+										["targets"] = {
+											["General Cerulean"] = 1724,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1724,
+										["n_min"] = 574,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 1724,
+										["c_max"] = 0,
+										["id"] = 198590,
+										["r_dmg"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["spec"] = 265,
-							["serial"] = "Player-11-0AFB757C",
 							["last_dps"] = 1305.58312234275,
-							["custom"] = 0,
+							["classe"] = "WARLOCK",
+							["colocacao"] = 1,
 							["tipo"] = 1,
-							["damage_taken"] = 886848.006545,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1520578908,
-							["delay"] = 1520578824,
-							["last_event"] = 1520578824,
+							["serial"] = "Player-11-0AFB757C",
+							["total"] = 9519.006545,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.006502,
-							["serial"] = "Pet-0-3884-571-29402-416-3D0297FE54",
 							["damage_from"] = {
 								["General Cerulean"] = true,
 							},
@@ -1061,18 +2593,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 1406.006502,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1149.006502,
+							["last_event"] = 1520578821,
 							["dps_started"] = false,
 							["total"] = 1149.006502,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -1092,18 +2624,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 3110,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -1111,27 +2644,27 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 1406.006502,
+							["on_hold"] = false,
 							["start_time"] = 1520578817,
-							["delay"] = 0,
-							["last_event"] = 1520578821,
+							["serial"] = "Pet-0-3884-571-29402-416-3D0297FE54",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 926,
 					["tipo"] = 3,
+					["combatId"] = 926,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Zethan"] = 3451,
+							["healing_from"] = {
+								["Zethan"] = true,
 							},
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 3451.00584,
 							["total_without_pet"] = 1306.00584,
 							["total"] = 1306.00584,
@@ -1154,12 +2687,9 @@ _detalhes_database = {
 							["healing_taken"] = 756.00584,
 							["fight_component"] = true,
 							["end_time"] = 1520578823,
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
+							["last_event"] = 1520578823,
 							["nome"] = "Zethan",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[108366] = {
 										["c_amt"] = 0,
@@ -1181,14 +2711,14 @@ _detalhes_database = {
 											["Belpad <Zethan>"] = 550,
 											["Zethan"] = 756,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 1306,
-										["n_amt"] = 5,
+										["m_crit"] = 0,
 										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 5,
+										["n_curado"] = 1306,
+										["m_healed"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
@@ -1212,34 +2742,38 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 3,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1520578818,
+							["targets_overheal"] = {
+								["Zethan"] = 3451,
+							},
+							["spec"] = 265,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["spec"] = 265,
 							["totaldenied"] = 0.00584,
+							["start_time"] = 1520578818,
 							["delay"] = 0,
-							["last_event"] = 1520578823,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Zethan"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 0.003552,
 							["total_without_pet"] = 0.003552,
 							["total"] = 0.003552,
@@ -1260,145 +2794,144 @@ _detalhes_database = {
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["Zethan"] = true,
+							["totaldenied"] = 0.003552,
+							["targets_overheal"] = {
 							},
-							["start_time"] = 1520578823,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.003552,
-							["delay"] = 0,
 							["last_event"] = 0,
+							["start_time"] = 1520578823,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 926,
 					["tipo"] = 7,
+					["combatId"] = 926,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 926,
 					["tipo"] = 9,
+					["combatId"] = 926,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[980] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 3,
 										["id"] = 980,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["uptime"] = 6,
 										["appliedamt"] = 1,
-										["refreshamt"] = 3,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[233496] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 233496,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[233490] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 233490,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[198590] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 198590,
-										["targets"] = {
-										},
 										["uptime"] = 3,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[146739] = {
-										["activedamt"] = 1,
-										["id"] = 146739,
 										["targets"] = {
 										},
-										["uptime"] = 5,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[233497] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 233497,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["uptime"] = 6,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[146739] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 146739,
+										["uptime"] = 5,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 20,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 108366,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 256374,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["uptime"] = 6,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 186406,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["uptime"] = 7,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 32,
@@ -1412,36 +2945,36 @@ _detalhes_database = {
 								[172] = 1,
 								[198590] = 1,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["last_event"] = 1520578823,
 							["nome"] = "Zethan",
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 							},
 							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["fight_component"] = true,
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[3110] = 3,
 							},
-							["serial"] = "Pet-0-3884-571-29402-416-3D0297FE54",
+							["pets"] = {
+							},
 							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3884-571-29402-416-3D0297FE54",
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 926,
 					["tipo"] = 2,
+					["combatId"] = 926,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -1551,8 +3084,8 @@ _detalhes_database = {
 						"WARLOCK", -- [4]
 						13068, -- [5]
 						"0m 7s", -- [6]
-						["dead_at"] = 7.29099999999926,
 						["dead"] = true,
+						["dead_at"] = 7.29099999999926,
 					}, -- [1]
 				},
 				["alternate_power"] = {
@@ -1567,21 +3100,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00622800000000012,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1593,6 +3126,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Zethan"] = 8810.006545,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -1602,44 +3140,9 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Zethan"] = 8810.006545,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 14507.84,
 				["combat_id"] = 926,
-				["instance_type"] = "none",
-				["frags"] = {
-				},
-				["data_fim"] = "23:00:23",
-				["data_inicio"] = "23:00:16",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					8370, -- [1]
-					1306, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["start_time"] = 14500.549,
-				["contra"] = "General Cerulean",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						443.006545, -- [1]
@@ -1662,16 +3165,46 @@ _detalhes_database = {
 						["max_value"] = 1550,
 					},
 				},
-			}, -- [2]
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "23:00:23",
+				["data_inicio"] = "23:00:16",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					8370, -- [1]
+					1306, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 14500.549,
+				["contra"] = "General Cerulean",
+				["instance_type"] = "none",
+			}, -- [4]
 			{
 				{
-					["combatId"] = 925,
 					["tipo"] = 2,
+					["combatId"] = 925,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003648,
-							["total"] = 36038.003648,
 							["damage_from"] = {
 								["Warbringer Goredrak"] = true,
 							},
@@ -1679,25 +3212,22 @@ _detalhes_database = {
 								["Blue Drakonid Supplicant"] = 12141,
 								["Warbringer Goredrak"] = 23897,
 							},
+							["delay"] = 0,
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 								"Infernal <Zethan>", -- [2]
 							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
+							["custom"] = 0,
+							["tipo"] = 1,
 							["classe"] = "WARLOCK",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 24504.003648,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1520578782,
 							["on_hold"] = false,
-							["spec"] = 265,
-							["nome"] = "Zethan",
+							["dps_started"] = false,
+							["total"] = 36038.003648,
+							["damage_taken"] = 3038.003648,
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[980] = {
 										["c_amt"] = 3,
@@ -1718,16 +3248,16 @@ _detalhes_database = {
 										["c_max"] = 510,
 										["id"] = 980,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 136,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 28,
-										["r_amt"] = 0,
-										["c_min"] = 136,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[22703] = {
 										["c_amt"] = 1,
@@ -1748,16 +3278,16 @@ _detalhes_database = {
 										["c_max"] = 351,
 										["id"] = 22703,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["c_min"] = 351,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 351,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 									[146739] = {
 										["c_amt"] = 3,
@@ -1778,16 +3308,16 @@ _detalhes_database = {
 										["c_max"] = 291,
 										["id"] = 146739,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 290,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 27,
-										["r_amt"] = 0,
-										["c_min"] = 290,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[259756] = {
 										["c_amt"] = 0,
@@ -1808,16 +3338,45 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 259756,
 										["r_dmg"] = 0,
-										["spellschool"] = 48,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 36,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 48,
+									},
+									[233490] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 443,
+										["targets"] = {
+											["Warbringer Goredrak"] = 3278,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3278,
+										["n_min"] = 354,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 3278,
+										["c_max"] = 0,
+										["id"] = 233490,
+										["r_dmg"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[198590] = {
 										["c_amt"] = 5,
@@ -1838,62 +3397,36 @@ _detalhes_database = {
 										["c_max"] = 1150,
 										["id"] = 198590,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["c_min"] = 920,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 920,
-									},
-									[233490] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 443,
-										["targets"] = {
-											["Warbringer Goredrak"] = 3278,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3278,
-										["n_min"] = 354,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 3278,
-										["c_max"] = 0,
-										["id"] = 233490,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["spellschool"] = 32,
 									},
 								},
+								["tipo"] = 2,
 							},
+							["nome"] = "Zethan",
+							["spec"] = 265,
 							["grupo"] = true,
-							["serial"] = "Player-11-0AFB757C",
 							["last_dps"] = 1117.70007902495,
-							["custom"] = 0,
+							["end_time"] = 1520578782,
+							["colocacao"] = 1,
 							["last_event"] = 1520578782,
-							["damage_taken"] = 3038.003648,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1520578750,
-							["delay"] = 0,
-							["tipo"] = 1,
+							["serial"] = "Player-11-0AFB757C",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
 							["totalabsorbed"] = 0.008056,
-							["serial"] = "Creature-0-3884-571-29402-89-00002230CC",
 							["damage_from"] = {
 								["Warbringer Goredrak"] = true,
 							},
@@ -1903,18 +3436,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 356.008056,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6437.008056,
+							["last_event"] = 1520578780,
 							["dps_started"] = false,
 							["total"] = 6437.008056,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Zethan",
 							["nome"] = "Infernal <Zethan>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									{
 										["c_amt"] = 2,
@@ -1935,16 +3468,16 @@ _detalhes_database = {
 										["c_max"] = 308,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 308,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 308,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[20153] = {
 										["c_amt"] = 2,
@@ -1965,18 +3498,19 @@ _detalhes_database = {
 										["c_max"] = 497,
 										["id"] = 20153,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["c_min"] = 497,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 12,
-										["r_amt"] = 0,
-										["c_min"] = 497,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -1984,15 +3518,14 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 356.008056,
+							["on_hold"] = false,
 							["start_time"] = 1520578756,
-							["delay"] = 0,
-							["last_event"] = 1520578780,
+							["serial"] = "Creature-0-3884-571-29402-89-00002230CC",
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.004481,
-							["serial"] = "Pet-0-3884-571-29402-416-3C0297FE54",
 							["damage_from"] = {
 								["Blue Drakonid Supplicant"] = true,
 							},
@@ -2002,18 +3535,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 3221.004481,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5097.004481,
+							["last_event"] = 1520578781,
 							["dps_started"] = false,
 							["total"] = 5097.004481,
-							["classe"] = "PET",
+							["delay"] = 0,
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
 							["spells"] = {
-								["tipo"] = 2,
 								["_ActorTable"] = {
 									[3110] = {
 										["c_amt"] = 0,
@@ -2034,18 +3567,19 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 3110,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 11,
-										["r_amt"] = 0,
-										["c_min"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 								},
+								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
@@ -2053,28 +3587,27 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["damage_taken"] = 3221.004481,
+							["on_hold"] = false,
 							["start_time"] = 1520578751,
-							["delay"] = 0,
-							["last_event"] = 1520578781,
+							["serial"] = "Pet-0-3884-571-29402-416-3C0297FE54",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 925,
 					["tipo"] = 3,
+					["combatId"] = 925,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Belpad <Zethan>"] = 1,
-								["Zethan"] = 13037,
+							["healing_from"] = {
+								["Zethan"] = true,
 							},
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 13038.004217,
 							["total_without_pet"] = 11530.004217,
 							["total"] = 11530.004217,
@@ -2097,12 +3630,9 @@ _detalhes_database = {
 							["healing_taken"] = 9184.004217,
 							["fight_component"] = true,
 							["end_time"] = 1520578782,
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
+							["last_event"] = 1520578782,
 							["nome"] = "Zethan",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 									[198590] = {
 										["c_amt"] = 0,
@@ -2124,12 +3654,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 6481,
-										["n_amt"] = 16,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 16,
+										["n_curado"] = 6481,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 									[108366] = {
@@ -2153,37 +3683,42 @@ _detalhes_database = {
 											["Belpad <Zethan>"] = 2346,
 											["Zethan"] = 2703,
 										},
-										["m_healed"] = 0,
 										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 5049,
-										["n_amt"] = 14,
+										["m_crit"] = 0,
 										["totaldenied"] = 0,
+										["c_min"] = 0,
+										["n_amt"] = 14,
+										["n_curado"] = 5049,
+										["m_healed"] = 0,
 										["is_shield"] = true,
 										["absorbed"] = 0,
 									},
 								},
+								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1520578759,
+							["targets_overheal"] = {
+								["Belpad <Zethan>"] = 1,
+								["Zethan"] = 13037,
+							},
+							["spec"] = 265,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["spec"] = 265,
 							["totaldenied"] = 0.004217,
+							["start_time"] = 1520578759,
 							["delay"] = 0,
-							["last_event"] = 1520578782,
+							["classe"] = "WARLOCK",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["targets_overheal"] = {
+							["healing_from"] = {
+								["Zethan"] = true,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 0.003479,
 							["total_without_pet"] = 0.003479,
 							["total"] = 0.003479,
@@ -2204,26 +3739,25 @@ _detalhes_database = {
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
 							["spells"] = {
-								["tipo"] = 3,
 								["_ActorTable"] = {
 								},
+								["tipo"] = 3,
 							},
-							["healing_from"] = {
-								["Zethan"] = true,
+							["totaldenied"] = 0.003479,
+							["targets_overheal"] = {
 							},
-							["start_time"] = 1520578782,
 							["custom"] = 0,
 							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.003479,
-							["delay"] = 0,
 							["last_event"] = 0,
+							["start_time"] = 1520578782,
+							["delay"] = 0,
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 925,
 					["tipo"] = 7,
+					["combatId"] = 925,
 					["_ActorTable"] = {
 						{
 							["received"] = 6.001914,
@@ -2240,12 +3774,19 @@ _detalhes_database = {
 							["nome"] = "Zethan",
 							["spec"] = 265,
 							["grupo"] = true,
-							["flag_original"] = 1297,
+							["tipo"] = 3,
 							["last_event"] = 1520578782,
 							["alternatepower"] = 0.001914,
 							["spells"] = {
-								["tipo"] = 7,
 								["_ActorTable"] = {
+									[17941] = {
+										["id"] = 17941,
+										["total"] = 4,
+										["targets"] = {
+											["Zethan"] = 4,
+										},
+										["counter"] = 4,
+									},
 									[31117] = {
 										["id"] = 31117,
 										["total"] = 1,
@@ -2262,137 +3803,130 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[17941] = {
-										["id"] = 17941,
-										["total"] = 4,
-										["targets"] = {
-											["Zethan"] = 4,
-										},
-										["counter"] = 4,
-									},
 								},
+								["tipo"] = 7,
 							},
 							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 3,
+							["flag_original"] = 1297,
 						}, -- [1]
 					},
 				}, -- [3]
 				{
-					["combatId"] = 925,
 					["tipo"] = 9,
+					["combatId"] = 925,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[980] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 28,
 										["id"] = 980,
+										["uptime"] = 32,
 										["targets"] = {
 										},
-										["uptime"] = 32,
 										["appliedamt"] = 2,
-										["refreshamt"] = 28,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[22703] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 22703,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["uptime"] = 2,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[233490] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 233490,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["uptime"] = 9,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[198590] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
-										["id"] = 198590,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 4,
 										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[233496] = {
-										["activedamt"] = 0,
-										["id"] = 233496,
+										["id"] = 198590,
+										["uptime"] = 17,
 										["targets"] = {
 										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 4,
 									},
 									[146739] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 0,
+										["refreshamt"] = 0,
 										["id"] = 146739,
+										["uptime"] = 32,
 										["targets"] = {
 										},
-										["uptime"] = 32,
 										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
+									},
+									[233496] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 233496,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["buff_uptime"] = 74,
 							["classe"] = "WARLOCK",
 							["buff_uptime_spells"] = {
-								["tipo"] = 9,
 								["_ActorTable"] = {
 									[108366] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 3,
+										["refreshamt"] = 0,
 										["id"] = 108366,
+										["uptime"] = 30,
 										["targets"] = {
 										},
-										["uptime"] = 30,
 										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[256374] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 256374,
+										["uptime"] = 12,
 										["targets"] = {
 										},
-										["uptime"] = 12,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
+										["refreshamt"] = 0,
 										["id"] = 186406,
+										["uptime"] = 32,
 										["targets"] = {
 										},
-										["uptime"] = 32,
 										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 								},
+								["tipo"] = 9,
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 100,
@@ -2404,39 +3938,39 @@ _detalhes_database = {
 								[172] = 1,
 								[1122] = 1,
 								[198590] = 5,
-								[980] = 4,
 								[30108] = 3,
+								[980] = 4,
 							},
-							["debuff_uptime_targets"] = {
-							},
+							["tipo"] = 4,
 							["last_event"] = 1520578782,
 							["nome"] = "Zethan",
 							["pets"] = {
 								"Belpad <Zethan>", -- [1]
 							},
 							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "Zethan",
 							["nome"] = "Belpad <Zethan>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["fight_component"] = true,
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[3110] = 10,
 							},
-							["serial"] = "Pet-0-3884-571-29402-416-3C0297FE54",
+							["pets"] = {
+							},
 							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3884-571-29402-416-3C0297FE54",
+							["fight_component"] = true,
 						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 925,
 					["tipo"] = 2,
+					["combatId"] = 925,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -2458,21 +3992,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 5.9945,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = -0.00130600000000003,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = -0.00130600000000003,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2484,6 +4018,11 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
+					["damage"] = {
+						{
+							["Zethan"] = 36038.003648,
+						}, -- [1]
+					},
 					["heal_section"] = {
 					},
 					["heal"] = {
@@ -2493,46 +4032,9 @@ _detalhes_database = {
 					},
 					["damage_section"] = {
 					},
-					["damage"] = {
-						{
-							["Zethan"] = 36038.003648,
-						}, -- [1]
-					},
 				},
 				["end_time"] = 14466.98,
 				["combat_id"] = 925,
-				["instance_type"] = "none",
-				["frags"] = {
-					["Warbringer Goredrak"] = 1,
-					["Blue Drakonid Supplicant"] = 2,
-				},
-				["data_fim"] = "22:59:42",
-				["data_inicio"] = "22:59:10",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					24504, -- [1]
-					11530, -- [2]
-					{
-						0, -- [1]
-						[0] = 6,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 14434.737,
-				["contra"] = "Blue Drakonid Supplicant",
 				["TimeData"] = {
 					["Player Damage Done"] = {
 						181.003648, -- [1]
@@ -2605,2194 +4107,47 @@ _detalhes_database = {
 						["max_value"] = 2072,
 					},
 				},
-			}, -- [3]
-			{
-				{
-					["combatId"] = 924,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.007294,
-							["total"] = 32043.007294,
-							["damage_from"] = {
-								["Warbringer Goredrak"] = true,
-								["Whitebear-Spirestone"] = true,
-								["Blue Drakonid Supplicant"] = true,
-								["Coldarra Spellweaver"] = true,
-							},
-							["targets"] = {
-								["Warbringer Goredrak"] = 21582,
-								["Blue Drakonid Supplicant"] = 7788,
-								["Coldarra Spellweaver"] = 2673,
-							},
-							["pets"] = {
-								"Belpad <Zethan>", -- [1]
-								"Void Tendril <Zethan>", -- [2]
-							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 27009.007294,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1520578694,
-							["on_hold"] = false,
-							["spec"] = 265,
-							["nome"] = "Zethan",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[980] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 657,
-										["g_amt"] = 0,
-										["n_max"] = 255,
-										["targets"] = {
-											["Warbringer Goredrak"] = 3263,
-											["Blue Drakonid Supplicant"] = 1491,
-											["Coldarra Spellweaver"] = 748,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4845,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 59,
-										["total"] = 5502,
-										["c_max"] = 265,
-										["id"] = 980,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 55,
-										["r_amt"] = 0,
-										["c_min"] = 46,
-									},
-									[233490] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 745,
-										["g_amt"] = 0,
-										["n_max"] = 372,
-										["targets"] = {
-											["Warbringer Goredrak"] = 6219,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5474,
-										["n_min"] = 301,
-										["g_dmg"] = 0,
-										["counter"] = 16,
-										["total"] = 6219,
-										["c_max"] = 745,
-										["id"] = 233490,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["r_amt"] = 0,
-										["c_min"] = 745,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 74,
-										["targets"] = {
-											["Warbringer Goredrak"] = 527,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 527,
-										["n_min"] = 2,
-										["g_dmg"] = 0,
-										["counter"] = 28,
-										["total"] = 527,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["spellschool"] = 48,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 28,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[198590] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 3404,
-										["g_amt"] = 0,
-										["n_max"] = 483,
-										["targets"] = {
-											["Warbringer Goredrak"] = 4023,
-											["Blue Drakonid Supplicant"] = 2576,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3195,
-										["n_min"] = 207,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 6599,
-										["c_max"] = 966,
-										["id"] = 198590,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 736,
-									},
-									[146739] = {
-										["c_amt"] = 14,
-										["b_amt"] = 0,
-										["c_dmg"] = 3112,
-										["g_amt"] = 0,
-										["n_max"] = 181,
-										["targets"] = {
-											["Warbringer Goredrak"] = 3284,
-											["Blue Drakonid Supplicant"] = 2953,
-											["Coldarra Spellweaver"] = 1925,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5050,
-										["n_min"] = 65,
-										["g_dmg"] = 0,
-										["counter"] = 58,
-										["total"] = 8162,
-										["c_max"] = 364,
-										["id"] = 146739,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 44,
-										["r_amt"] = 0,
-										["c_min"] = 131,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-11-0AFB757C",
-							["last_dps"] = 717.744989113904,
-							["custom"] = 0,
-							["last_event"] = 1520578694,
-							["damage_taken"] = 22464.007294,
-							["start_time"] = 1520578651,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.001674,
-							["serial"] = "Pet-0-3884-571-29402-416-3B0297FE54",
-							["damage_from"] = {
-								["Warbringer Goredrak"] = true,
-								["Blue Drakonid Supplicant"] = true,
-								["Coldarra Spellweaver"] = true,
-							},
-							["targets"] = {
-								["Warbringer Goredrak"] = 4044,
-								["Blue Drakonid Supplicant"] = 768,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4812.001674,
-							["dps_started"] = false,
-							["total"] = 4812.001674,
-							["classe"] = "PET",
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 959,
-										["g_amt"] = 0,
-										["n_max"] = 479,
-										["targets"] = {
-											["Warbringer Goredrak"] = 4044,
-											["Blue Drakonid Supplicant"] = 768,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3853,
-										["n_min"] = 383,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 4812,
-										["c_max"] = 959,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["r_amt"] = 0,
-										["c_min"] = 959,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1520578694,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 6205.001674,
-							["start_time"] = 1520578666,
-							["delay"] = 1520578679,
-							["last_event"] = 1520578679,
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["totalabsorbed"] = 0.007366,
-							["serial"] = "Creature-0-3884-571-29402-95577-0000223071",
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Warbringer Goredrak"] = 222,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 222.007366,
-							["dps_started"] = false,
-							["total"] = 222.007366,
-							["classe"] = "PET",
-							["ownerName"] = "Zethan",
-							["nome"] = "Void Tendril <Zethan>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 116,
-										["targets"] = {
-											["Warbringer Goredrak"] = 222,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 222,
-										["n_min"] = 106,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 222,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									}, -- [1]
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1520578694,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007366,
-							["start_time"] = 1520578691,
-							["delay"] = 1520578669,
-							["last_event"] = 1520578669,
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 924,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Belpad <Zethan>"] = 12,
-								["Zethan"] = 11479,
-							},
-							["pets"] = {
-								"Belpad <Zethan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 11491.002375,
-							["total_without_pet"] = 7455.002375,
-							["total"] = 7455.002375,
-							["targets_absorbs"] = {
-								["Belpad <Zethan>"] = 2315,
-								["Zethan"] = 3403,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-11-0AFB757C",
-							["totalabsorb"] = 5718.002375,
-							["last_hps"] = 166.987778312881,
-							["targets"] = {
-								["Belpad <Zethan>"] = 2315,
-								["Zethan"] = 7360,
-							},
-							["totalover_without_pet"] = 0.002375,
-							["healing_taken"] = 5140.002375,
-							["fight_component"] = true,
-							["end_time"] = 1520578694,
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
-							["nome"] = "Zethan",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 5718,
-										["targets_overheal"] = {
-											["Belpad <Zethan>"] = 12,
-											["Zethan"] = 11,
-										},
-										["n_max"] = 549,
-										["targets"] = {
-											["Belpad <Zethan>"] = 2315,
-											["Zethan"] = 3403,
-										},
-										["n_min"] = 0,
-										["counter"] = 61,
-										["overheal"] = 23,
-										["total"] = 5718,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Belpad <Zethan>"] = 2315,
-											["Zethan"] = 3403,
-										},
-										["m_healed"] = 0,
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 5718,
-										["n_amt"] = 61,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[198590] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Zethan"] = 11468,
-										},
-										["n_max"] = 460,
-										["targets"] = {
-											["Zethan"] = 1737,
-										},
-										["n_min"] = 414,
-										["counter"] = 13,
-										["overheal"] = 11468,
-										["total"] = 1737,
-										["c_max"] = 0,
-										["id"] = 198590,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 1737,
-										["n_amt"] = 13,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1520578656,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 265,
-							["totaldenied"] = 0.002375,
-							["delay"] = 0,
-							["last_event"] = 1520578694,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.008196,
-							["total_without_pet"] = 0.008196,
-							["total"] = 0.008196,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3884-571-29402-416-3B0297FE54",
-							["totalabsorb"] = 0.008196,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.008196,
-							["healing_taken"] = 2315.008196,
-							["fight_component"] = true,
-							["end_time"] = 1520578694,
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
-							["start_time"] = 1520578694,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.008196,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 924,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 6.005131,
-							["resource"] = 0.005131,
-							["targets"] = {
-								["Zethan"] = 6,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["total"] = 6.005131,
-							["nome"] = "Zethan",
-							["spec"] = 265,
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1520578694,
-							["alternatepower"] = 0.005131,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[17941] = {
-										["id"] = 17941,
-										["total"] = 6,
-										["targets"] = {
-											["Zethan"] = 6,
-										},
-										["counter"] = 6,
-									},
-								},
-							},
-							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 924,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[980] = {
-										["activedamt"] = 3,
-										["id"] = 980,
-										["targets"] = {
-										},
-										["uptime"] = 44,
-										["appliedamt"] = 5,
-										["refreshamt"] = 50,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[233496] = {
-										["activedamt"] = 0,
-										["id"] = 233496,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[233490] = {
-										["activedamt"] = 0,
-										["id"] = 233490,
-										["targets"] = {
-										},
-										["uptime"] = 15,
-										["appliedamt"] = 2,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[233497] = {
-										["activedamt"] = 0,
-										["id"] = 233497,
-										["targets"] = {
-										},
-										["uptime"] = 7,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[198590] = {
-										["activedamt"] = 0,
-										["id"] = 198590,
-										["targets"] = {
-										},
-										["uptime"] = 14,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[27243] = {
-										["activedamt"] = 3,
-										["id"] = 27243,
-										["targets"] = {
-										},
-										["uptime"] = 3,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[146739] = {
-										["activedamt"] = 4,
-										["id"] = 146739,
-										["targets"] = {
-										},
-										["uptime"] = 43,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 90,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[108366] = {
-										["activedamt"] = 13,
-										["id"] = 108366,
-										["targets"] = {
-										},
-										["uptime"] = 33,
-										["appliedamt"] = 13,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 13,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[186406] = {
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["targets"] = {
-										},
-										["uptime"] = 44,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 134,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 265,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[172] = 4,
-								[980] = 7,
-								[198590] = 3,
-								[27243] = 1,
-								[30108] = 4,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1520578694,
-							["nome"] = "Zethan",
-							["pets"] = {
-								"Belpad <Zethan>", -- [1]
-							},
-							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["fight_component"] = true,
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[3110] = 10,
-							},
-							["serial"] = "Pet-0-3884-571-29402-416-3B0297FE54",
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 924,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zethan"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-					{
-						{
-							{
-								true, -- [1]
-								34447, -- [2]
-								219, -- [3]
-								1520578689.283, -- [4]
-								9853, -- [5]
-								"Coldarra Spellweaver", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								1, -- [2]
-								640, -- [3]
-								1520578689.473, -- [4]
-								9853, -- [5]
-								"Warbringer Goredrak", -- [6]
-								53, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								false, -- [1]
-								108366, -- [2]
-								53, -- [3]
-								1520578689.473, -- [4]
-								9853, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1520578689.473, -- [4]
-								9853, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								34447, -- [2]
-								207, -- [3]
-								1520578690.218, -- [4]
-								9059, -- [5]
-								"Coldarra Spellweaver", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								4, -- [1]
-								50534, -- [2]
-								1, -- [3]
-								1520578690.31, -- [4]
-								9059, -- [5]
-								"Warbringer Goredrak", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								1, -- [2]
-								433, -- [3]
-								1520578690.87, -- [4]
-								9059, -- [5]
-								"Blue Drakonid Supplicant", -- [6]
-								24, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								false, -- [1]
-								108366, -- [2]
-								24, -- [3]
-								1520578690.87, -- [4]
-								9059, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [8]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1520578690.87, -- [4]
-								9059, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								true, -- [1]
-								1, -- [2]
-								542, -- [3]
-								1520578691.232, -- [4]
-								8650, -- [5]
-								"Blue Drakonid Supplicant", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								4, -- [1]
-								50535, -- [2]
-								15, -- [3]
-								1520578691.333, -- [4]
-								8108, -- [5]
-								"Warbringer Goredrak", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [11]
-							{
-								false, -- [1]
-								198590, -- [2]
-								460, -- [3]
-								1520578691.855, -- [4]
-								8568, -- [5]
-								"Zethan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [12]
-							{
-								false, -- [1]
-								108366, -- [2]
-								38, -- [3]
-								1520578692.315, -- [4]
-								8568, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [13]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1520578692.315, -- [4]
-								8568, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [14]
-							{
-								true, -- [1]
-								34447, -- [2]
-								207, -- [3]
-								1520578692.315, -- [4]
-								8399, -- [5]
-								"Coldarra Spellweaver", -- [6]
-								38, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [15]
-							{
-								4, -- [1]
-								50535, -- [2]
-								16, -- [3]
-								1520578692.315, -- [4]
-								8399, -- [5]
-								"Warbringer Goredrak", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [16]
-							{
-								false, -- [1]
-								198590, -- [2]
-								414, -- [3]
-								1520578692.792, -- [4]
-								8813, -- [5]
-								"Zethan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [17]
-							{
-								true, -- [1]
-								1, -- [2]
-								455, -- [3]
-								1520578692.792, -- [4]
-								8813, -- [5]
-								"Blue Drakonid Supplicant", -- [6]
-								58, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [18]
-							{
-								false, -- [1]
-								108366, -- [2]
-								58, -- [3]
-								1520578692.792, -- [4]
-								8813, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [19]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1520578692.792, -- [4]
-								8813, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [20]
-							{
-								true, -- [1]
-								1, -- [2]
-								582, -- [3]
-								1520578693.232, -- [4]
-								8416, -- [5]
-								"Blue Drakonid Supplicant", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [21]
-							{
-								true, -- [1]
-								34447, -- [2]
-								218, -- [3]
-								1520578693.232, -- [4]
-								8198, -- [5]
-								"Coldarra Spellweaver", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [22]
-							{
-								true, -- [1]
-								30451, -- [2]
-								7094, -- [3]
-								1520578693.342, -- [4]
-								522, -- [5]
-								"Whitebear-Spirestone", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [23]
-							{
-								false, -- [1]
-								198590, -- [2]
-								414, -- [3]
-								1520578693.764, -- [4]
-								936, -- [5]
-								"Zethan", -- [6]
-								nil, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [24]
-							{
-								false, -- [1]
-								108366, -- [2]
-								65, -- [3]
-								1520578694.304, -- [4]
-								936, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [25]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1520578694.304, -- [4]
-								936, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [26]
-							{
-								true, -- [1]
-								34447, -- [2]
-								193, -- [3]
-								1520578694.304, -- [4]
-								808, -- [5]
-								"Coldarra Spellweaver", -- [6]
-								65, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [27]
-							{
-								4, -- [1]
-								50535, -- [2]
-								17, -- [3]
-								1520578694.304, -- [4]
-								808, -- [5]
-								"Warbringer Goredrak", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [28]
-							{
-								true, -- [1]
-								225119, -- [2]
-								428, -- [3]
-								1520578694.535, -- [4]
-								380, -- [5]
-								"Whitebear-Spirestone", -- [6]
-								nil, -- [7]
-								64, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [29]
-							{
-								false, -- [1]
-								108366, -- [2]
-								60, -- [3]
-								1520578694.675, -- [4]
-								380, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [30]
-							{
-								false, -- [1]
-								108366, -- [2]
-								0, -- [3]
-								1520578694.675, -- [4]
-								380, -- [5]
-								"Zethan", -- [6]
-								true, -- [7]
-								0, -- [8]
-							}, -- [31]
-							{
-								true, -- [1]
-								30451, -- [2]
-								4696, -- [3]
-								1520578694.675, -- [4]
-								1, -- [5]
-								"Whitebear-Spirestone", -- [6]
-								60, -- [7]
-								64, -- [8]
-								false, -- [9]
-								4256, -- [10]
-							}, -- [32]
-							{
-								3, -- [1]
-								0, -- [2]
-								0, -- [3]
-								0, -- [4]
-								0, -- [5]
-								"Zethan", -- [6]
-							}, -- [33]
-						}, -- [1]
-						1520578694.777, -- [2]
-						"Zethan", -- [3]
-						"WARLOCK", -- [4]
-						13068, -- [5]
-						"0m 44s", -- [6]
-						["dead_at"] = 44.6439999999984,
-						["dead"] = true,
-					}, -- [1]
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Warbringer Goredrak",
-				["combat_counter"] = 1068,
-				["playing_solo"] = true,
-				["totals"] = {
-					32042.970295, -- [1]
-					7455, -- [2]
-					{
-						0, -- [1]
-						[0] = 5.99457,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = false,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zethan"] = 7455.002375,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Zethan"] = 33673.009774,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 14378.962,
-				["combat_id"] = 924,
-				["instance_type"] = "none",
-				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
+					["Warbringer Goredrak"] = 1,
+					["Blue Drakonid Supplicant"] = 2,
 				},
-				["data_fim"] = "22:58:14",
-				["data_inicio"] = "22:57:30",
+				["data_fim"] = "22:59:42",
+				["data_inicio"] = "22:59:10",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					27009, -- [1]
-					7455, -- [2]
+					24504, -- [1]
+					11530, -- [2]
 					{
 						0, -- [1]
 						[0] = 6,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["start_time"] = 14334.318,
-				["contra"] = "Warbringer Goredrak",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						0.007294, -- [1]
-						33, -- [2]
-						479, -- [3]
-						212, -- [4]
-						959, -- [5]
-						218, -- [6]
-						869, -- [7]
-						1014, -- [8]
-						1589, -- [9]
-						1388, -- [10]
-						1068, -- [11]
-						2404, -- [12]
-						1230, -- [13]
-						969, -- [14]
-						525, -- [15]
-						128, -- [16]
-						681, -- [17]
-						538, -- [18]
-						1069, -- [19]
-						133, -- [20]
-						1026, -- [21]
-						167, -- [22]
-						1014, -- [23]
-						160, -- [24]
-						1045, -- [25]
-						425, -- [26]
-						555, -- [27]
-						446, -- [28]
-						450, -- [29]
-						1220, -- [30]
-						1313, -- [31]
-						1641, -- [32]
-						954, -- [33]
-						483, -- [34]
-						418, -- [35]
-						616, -- [36]
-						389, -- [37]
-						543, -- [38]
-						492, -- [39]
-						289, -- [40]
-						536, -- [41]
-						455, -- [42]
-						599, -- [43]
-						403, -- [44]
-						["max_value"] = 2404,
-					},
-					["Raid Damage Done"] = {
-						0, -- [1]
-						33, -- [2]
-						0, -- [3]
-						212, -- [4]
-						0, -- [5]
-						218, -- [6]
-						390, -- [7]
-						1014, -- [8]
-						1589, -- [9]
-						1388, -- [10]
-						1068, -- [11]
-						1925, -- [12]
-						1230, -- [13]
-						509, -- [14]
-						525, -- [15]
-						128, -- [16]
-						681, -- [17]
-						0, -- [18]
-						1069, -- [19]
-						27, -- [20]
-						643, -- [21]
-						167, -- [22]
-						631, -- [23]
-						160, -- [24]
-						661, -- [25]
-						425, -- [26]
-						555, -- [27]
-						446, -- [28]
-						450, -- [29]
-						836, -- [30]
-						1313, -- [31]
-						1641, -- [32]
-						954, -- [33]
-						483, -- [34]
-						418, -- [35]
-						616, -- [36]
-						389, -- [37]
-						543, -- [38]
-						492, -- [39]
-						289, -- [40]
-						536, -- [41]
-						455, -- [42]
-						599, -- [43]
-						403, -- [44]
-						["max_value"] = 1925,
-					},
-				},
-			}, -- [4]
-			{
-				{
-					["combatId"] = 923,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001965,
-							["total"] = 46918.001965,
-							["damage_from"] = {
-								["Frozen Sphere <Coldarra Spellbinder>"] = true,
-								["Coldarra Mage Slayer"] = true,
-								["Coldarra Spellbinder"] = true,
-								["Coldarra Wyrmkin"] = true,
-							},
-							["targets"] = {
-								["Frozen Sphere <Coldarra Spellbinder>"] = 1813,
-								["Coldarra Mage Slayer"] = 13007,
-								["Coldarra Spellbinder"] = 19764,
-								["Coldarra Wyrmkin"] = 12334,
-							},
-							["pets"] = {
-								"Belpad <Zethan>", -- [1]
-							},
-							["friendlyfire"] = {
-							},
-							["colocacao"] = 1,
-							["classe"] = "WARLOCK",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 43168.001965,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1520578582,
-							["on_hold"] = false,
-							["spec"] = 265,
-							["nome"] = "Zethan",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[980] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 1164,
-										["g_amt"] = 0,
-										["n_max"] = 167,
-										["targets"] = {
-											["Frozen Sphere <Coldarra Spellbinder>"] = 448,
-											["Coldarra Mage Slayer"] = 1335,
-											["Coldarra Spellbinder"] = 2329,
-											["Coldarra Wyrmkin"] = 1205,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4153,
-										["n_min"] = 33,
-										["g_dmg"] = 0,
-										["counter"] = 52,
-										["total"] = 5317,
-										["c_max"] = 333,
-										["id"] = 980,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 46,
-										["r_amt"] = 0,
-										["c_min"] = 100,
-									},
-									[233490] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 867,
-										["g_amt"] = 0,
-										["n_max"] = 434,
-										["targets"] = {
-											["Coldarra Mage Slayer"] = 3902,
-											["Coldarra Spellbinder"] = 3467,
-											["Coldarra Wyrmkin"] = 1736,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8238,
-										["n_min"] = 433,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 9105,
-										["c_max"] = 867,
-										["id"] = 233490,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 19,
-										["r_amt"] = 0,
-										["c_min"] = 867,
-									},
-									[198590] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 1126,
-										["g_amt"] = 0,
-										["n_max"] = 563,
-										["targets"] = {
-											["Coldarra Spellbinder"] = 563,
-											["Coldarra Mage Slayer"] = 2815,
-											["Frozen Sphere <Coldarra Spellbinder>"] = 562,
-											["Coldarra Wyrmkin"] = 1125,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3939,
-										["n_min"] = 562,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 5065,
-										["c_max"] = 1126,
-										["id"] = 198590,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["r_amt"] = 0,
-										["c_min"] = 1126,
-									},
-									[259756] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 43,
-										["targets"] = {
-											["Coldarra Mage Slayer"] = 112,
-											["Coldarra Wyrmkin"] = 165,
-											["Coldarra Spellbinder"] = 186,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 463,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 44,
-										["total"] = 463,
-										["c_max"] = 0,
-										["id"] = 259756,
-										["r_dmg"] = 0,
-										["spellschool"] = 48,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 44,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									[27285] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 4607,
-										["g_amt"] = 0,
-										["n_max"] = 849,
-										["targets"] = {
-											["Coldarra Spellbinder"] = 5406,
-											["Coldarra Mage Slayer"] = 3194,
-											["Coldarra Wyrmkin"] = 3135,
-											["Frozen Sphere <Coldarra Spellbinder>"] = 803,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7931,
-										["n_min"] = 749,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 12538,
-										["c_max"] = 1558,
-										["id"] = 27285,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["r_amt"] = 0,
-										["c_min"] = 1512,
-									},
-									[146739] = {
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 2849,
-										["g_amt"] = 0,
-										["n_max"] = 178,
-										["targets"] = {
-											["Coldarra Mage Slayer"] = 711,
-											["Coldarra Wyrmkin"] = 3561,
-											["Coldarra Spellbinder"] = 6408,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7831,
-										["n_min"] = 177,
-										["g_dmg"] = 0,
-										["counter"] = 52,
-										["total"] = 10680,
-										["c_max"] = 357,
-										["id"] = 146739,
-										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 44,
-										["r_amt"] = 0,
-										["c_min"] = 356,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-11-0AFB757C",
-							["last_dps"] = 1219.37786118984,
-							["custom"] = 0,
-							["last_event"] = 1520578581,
-							["damage_taken"] = 14484.001965,
-							["start_time"] = 1520578543,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.003748,
-							["serial"] = "Pet-0-3884-571-29402-416-390297FE54",
-							["damage_from"] = {
-								["Coldarra Mage Slayer"] = true,
-								["Coldarra Wyrmkin"] = true,
-								["Coldarra Spellbinder"] = true,
-							},
-							["targets"] = {
-								["Coldarra Mage Slayer"] = 938,
-								["Coldarra Wyrmkin"] = 1407,
-								["Coldarra Spellbinder"] = 1405,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3750.003748,
-							["dps_started"] = false,
-							["total"] = 3750.003748,
-							["classe"] = "PET",
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									[3110] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 469,
-										["targets"] = {
-											["Coldarra Mage Slayer"] = 938,
-											["Coldarra Wyrmkin"] = 1407,
-											["Coldarra Spellbinder"] = 1405,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3750,
-										["n_min"] = 468,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 3750,
-										["c_max"] = 0,
-										["id"] = 3110,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1520578582,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 5170.003748,
-							["start_time"] = 1520578561,
-							["delay"] = 1520578563,
-							["last_event"] = 1520578563,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 923,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["targets_overheal"] = {
-								["Belpad <Zethan>"] = 1,
-								["Zethan"] = 1377,
-							},
-							["pets"] = {
-								"Belpad <Zethan>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "WARLOCK",
-							["totalover"] = 1378.00623,
-							["total_without_pet"] = 11140.00623,
-							["total"] = 11140.00623,
-							["targets_absorbs"] = {
-								["Belpad <Zethan>"] = 1701,
-								["Zethan"] = 3222,
-							},
-							["heal_enemy"] = {
-							},
-							["colocacao"] = 1,
-							["on_hold"] = false,
-							["serial"] = "Player-11-0AFB757C",
-							["totalabsorb"] = 4923.00623,
-							["last_hps"] = 289.523773423092,
-							["targets"] = {
-								["Belpad <Zethan>"] = 1701,
-								["Zethan"] = 10802,
-							},
-							["totalover_without_pet"] = 0.00623,
-							["healing_taken"] = 9439.00623,
-							["fight_component"] = true,
-							["end_time"] = 1520578582,
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
-							["nome"] = "Zethan",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									[108366] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 4923,
-										["targets_overheal"] = {
-											["Belpad <Zethan>"] = 1,
-											["Zethan"] = 14,
-										},
-										["n_max"] = 278,
-										["targets"] = {
-											["Belpad <Zethan>"] = 1701,
-											["Zethan"] = 3222,
-										},
-										["n_min"] = 94,
-										["counter"] = 57,
-										["overheal"] = 15,
-										["total"] = 4923,
-										["c_max"] = 0,
-										["id"] = 108366,
-										["targets_absorbs"] = {
-											["Belpad <Zethan>"] = 1701,
-											["Zethan"] = 3222,
-										},
-										["m_healed"] = 0,
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 4923,
-										["n_amt"] = 57,
-										["totaldenied"] = 0,
-										["is_shield"] = true,
-										["absorbed"] = 0,
-									},
-									[198590] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Zethan"] = 1363,
-										},
-										["n_max"] = 1126,
-										["targets"] = {
-											["Zethan"] = 6217,
-										},
-										["n_min"] = 55,
-										["counter"] = 8,
-										["overheal"] = 1363,
-										["total"] = 6217,
-										["c_max"] = 0,
-										["id"] = 198590,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 6217,
-										["n_amt"] = 8,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1520578543,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["spec"] = 265,
-							["totaldenied"] = 0.00623,
-							["delay"] = 0,
-							["last_event"] = 1520578581,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["targets_overheal"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 0.005485,
-							["total_without_pet"] = 0.005485,
-							["total"] = 0.005485,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3884-571-29402-416-390297FE54",
-							["totalabsorb"] = 0.005485,
-							["last_hps"] = 0,
-							["targets"] = {
-							},
-							["totalover_without_pet"] = 0.005485,
-							["healing_taken"] = 1701.005485,
-							["fight_component"] = true,
-							["end_time"] = 1520578582,
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-								},
-							},
-							["healing_from"] = {
-								["Zethan"] = true,
-							},
-							["start_time"] = 1520578582,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["classe"] = "PET",
-							["totaldenied"] = 0.005485,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 923,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-						{
-							["received"] = 10.003438,
-							["resource"] = 0.003438,
-							["targets"] = {
-								["Zethan"] = 10,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "WARLOCK",
-							["fight_component"] = true,
-							["total"] = 10.003438,
-							["nome"] = "Zethan",
-							["spec"] = 265,
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1520578581,
-							["alternatepower"] = 0.003438,
-							["spells"] = {
-								["tipo"] = 7,
-								["_ActorTable"] = {
-									[31117] = {
-										["id"] = 31117,
-										["total"] = 1,
-										["targets"] = {
-											["Zethan"] = 1,
-										},
-										["counter"] = 1,
-									},
-									[205292] = {
-										["id"] = 205292,
-										["total"] = 4,
-										["targets"] = {
-											["Zethan"] = 4,
-										},
-										["counter"] = 4,
-									},
-									[17941] = {
-										["id"] = 17941,
-										["total"] = 5,
-										["targets"] = {
-											["Zethan"] = 5,
-										},
-										["counter"] = 5,
-									},
-								},
-							},
-							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["combatId"] = 923,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[980] = {
-										["activedamt"] = -1,
-										["id"] = 980,
-										["targets"] = {
-										},
-										["uptime"] = 35,
-										["appliedamt"] = 6,
-										["refreshamt"] = 49,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[233496] = {
-										["activedamt"] = 0,
-										["id"] = 233496,
-										["targets"] = {
-										},
-										["uptime"] = 4,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[233490] = {
-										["activedamt"] = 0,
-										["id"] = 233490,
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[198590] = {
-										["activedamt"] = 0,
-										["id"] = 198590,
-										["targets"] = {
-										},
-										["uptime"] = 8,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[27243] = {
-										["activedamt"] = 0,
-										["id"] = 27243,
-										["targets"] = {
-										},
-										["uptime"] = 6,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[146739] = {
-										["activedamt"] = -1,
-										["id"] = 146739,
-										["targets"] = {
-										},
-										["uptime"] = 34,
-										["appliedamt"] = 5,
-										["refreshamt"] = 10,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 75,
-							["classe"] = "WARLOCK",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									[108366] = {
-										["activedamt"] = 23,
-										["id"] = 108366,
-										["targets"] = {
-										},
-										["uptime"] = 24,
-										["appliedamt"] = 23,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[256374] = {
-										["activedamt"] = 1,
-										["id"] = 256374,
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[186406] = {
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["targets"] = {
-										},
-										["uptime"] = 39,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 104,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 265,
-							["grupo"] = true,
-							["spell_cast"] = {
-								[172] = 3,
-								[980] = 6,
-								[198590] = 4,
-								[27243] = 2,
-								[30108] = 6,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1520578582,
-							["nome"] = "Zethan",
-							["pets"] = {
-								"Belpad <Zethan>", -- [1]
-							},
-							["serial"] = "Player-11-0AFB757C",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Zethan",
-							["nome"] = "Belpad <Zethan>",
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["fight_component"] = true,
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[3110] = 7,
-							},
-							["serial"] = "Pet-0-3884-571-29402-416-390297FE54",
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 923,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Zethan"] = true,
-				},
-				["overall_added"] = true,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Coldarra Spellbinder",
-				["combat_counter"] = 1067,
-				["playing_solo"] = true,
-				["totals"] = {
-					46917.991207, -- [1]
-					11140, -- [2]
-					{
-						0, -- [1]
-						[0] = 10,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
 				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Zethan"] = 11140.00623,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Zethan"] = 46918.001965,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 14266.935,
-				["combat_id"] = 923,
+				["start_time"] = 14434.737,
+				["contra"] = "Blue Drakonid Supplicant",
 				["instance_type"] = "none",
-				["frags"] = {
-					["Coldarra Mage Slayer"] = 2,
-					["Coldarra Wyrmkin"] = 1,
-					["Coldarra Spellbinder"] = 2,
-				},
-				["data_fim"] = "22:56:22",
-				["data_inicio"] = "22:55:43",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					43168, -- [1]
-					11140, -- [2]
-					{
-						0, -- [1]
-						[0] = 10,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 14227.708,
-				["contra"] = "Coldarra Spellbinder",
-				["TimeData"] = {
-					["Player Damage Done"] = {
-						501.001965, -- [1]
-						696, -- [2]
-						33, -- [3]
-						244, -- [4]
-						555, -- [5]
-						274, -- [6]
-						775, -- [7]
-						582, -- [8]
-						225, -- [9]
-						1604, -- [10]
-						1102, -- [11]
-						965, -- [12]
-						1826, -- [13]
-						1626, -- [14]
-						1811, -- [15]
-						1702, -- [16]
-						1000, -- [17]
-						1156, -- [18]
-						613, -- [19]
-						1704, -- [20]
-						980, -- [21]
-						1825, -- [22]
-						1886, -- [23]
-						1484, -- [24]
-						2094, -- [25]
-						1324, -- [26]
-						534, -- [27]
-						344, -- [28]
-						676, -- [29]
-						261, -- [30]
-						356, -- [31]
-						294, -- [32]
-						356, -- [33]
-						394, -- [34]
-						356, -- [35]
-						10647, -- [36]
-						3550, -- [37]
-						0, -- [38]
-						563, -- [39]
-						["max_value"] = 10647,
-					},
-					["Raid Damage Done"] = {
-						33, -- [1]
-						228, -- [2]
-						33, -- [3]
-						244, -- [4]
-						86, -- [5]
-						274, -- [6]
-						306, -- [7]
-						582, -- [8]
-						225, -- [9]
-						1135, -- [10]
-						1102, -- [11]
-						965, -- [12]
-						1357, -- [13]
-						1626, -- [14]
-						1811, -- [15]
-						1702, -- [16]
-						531, -- [17]
-						1156, -- [18]
-						613, -- [19]
-						1235, -- [20]
-						980, -- [21]
-						1825, -- [22]
-						1886, -- [23]
-						1484, -- [24]
-						2094, -- [25]
-						1324, -- [26]
-						534, -- [27]
-						344, -- [28]
-						676, -- [29]
-						261, -- [30]
-						356, -- [31]
-						294, -- [32]
-						356, -- [33]
-						394, -- [34]
-						356, -- [35]
-						10647, -- [36]
-						3550, -- [37]
-						0, -- [38]
-						563, -- [39]
-						["max_value"] = 10647,
-					},
-				},
 			}, -- [5]
 		},
 	},
-	["combat_counter"] = 1080,
-	["force_font_outline"] = "",
+	["last_version"] = "v7.3.5.5424",
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
 	["tabela_instancias"] = {
 	},
 	["local_instances_config"] = {
@@ -4864,37 +4219,11 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["cached_talents"] = {
-		["Player-3725-0A88408F"] = {
-		},
-		["Player-3725-0A7C10B1"] = {
-			22430, -- [1]
-			22594, -- [2]
-			22179, -- [3]
-			22434, -- [4]
-		},
-		["Player-1171-08551394"] = {
-			22018, -- [1]
-			22019, -- [2]
-			22515, -- [3]
-			22521, -- [4]
-		},
-		["Player-1171-08551398"] = {
-			22018, -- [1]
-			22019, -- [2]
-			22515, -- [3]
-			22521, -- [4]
-		},
 		["Player-11-0AFB757C"] = {
 			19280, -- [1]
 			21180, -- [2]
 			22090, -- [3]
 			19292, -- [4]
-		},
-		["Player-3683-0A8727DF"] = {
-			21750, -- [1]
-			19752, -- [2]
-			22315, -- [3]
-			22095, -- [4]
 		},
 	},
 	["last_instance_id"] = 574,
@@ -4905,17 +4234,10 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["announce_prepots"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
+	["last_instance_time"] = 1520579111,
 	["active_profile"] = "Base",
 	["last_realversion"] = 129,
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
+	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -4923,10 +4245,10 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["enabled"] = true,
+			["dps"] = 0,
 			["author"] = "Details! Team",
 			["level"] = 1,
-			["dps"] = 0,
+			["enabled"] = true,
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -4945,15 +4267,15 @@ _detalhes_database = {
 			["max_segments_for_current"] = 2,
 			["max_deaths_for_current"] = 20,
 			["last_player"] = false,
-			["author"] = "Details! Team",
+			["InstalledAt"] = 1517595499,
 			["last_encounter_hash"] = false,
-			["enabled"] = true,
+			["showing_type"] = 4,
 			["timeline_cutoff_time"] = 3,
 			["last_segment"] = false,
 			["last_combat_id"] = 879,
 			["timeline_cutoff_delete_time"] = 3,
-			["showing_type"] = 4,
-			["InstalledAt"] = 1517595499,
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
@@ -4962,11 +4284,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["encounter_timers_dbm"] = {
-			},
+			["hide_on_combat"] = false,
 			["show_icon"] = 5,
 			["opened"] = 0,
-			["hide_on_combat"] = false,
+			["encounter_timers_dbm"] = {
+			},
 		},
 		["DETAILS_PLUGIN_CHART_VIEWER"] = {
 			["enabled"] = true,
@@ -4997,50 +4319,43 @@ _detalhes_database = {
 				["last_selected"] = 1,
 			},
 			["options"] = {
-				["show_method"] = 4,
 				["auto_create"] = true,
+				["show_method"] = 4,
 				["window_scale"] = 1,
 			},
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["enabled"] = true,
+			["animate"] = false,
 			["showamount"] = false,
 			["useplayercolor"] = false,
-			["author"] = "Details! Team",
 			["useclasscolors"] = false,
+			["author"] = "Details! Team",
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
-			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -5048,6 +4363,22 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_RAID_POWER_BARS"] = {
 			["enabled"] = true,
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
 			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
@@ -5075,21 +4406,16 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Empty",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["scale"] = 1,
+			["row_height"] = 21,
+			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = true,
-				["point"] = "TOPLEFT",
-				["scale"] = 1,
-				["font_shadow"] = false,
-				["y"] = -69.8187255859375,
-				["x"] = 418.130249023438,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.304000020027161,
-				["size"] = 32,
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
 			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
@@ -5098,69 +4424,62 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 14,
-			["use_spark"] = false,
+			["y"] = -20.15869140625,
+			["per_second"] = {
+				["enabled"] = true,
+				["point"] = "TOPLEFT",
+				["scale"] = 1,
+				["font_shadow"] = false,
+				["y"] = -69.8187255859375,
+				["x"] = 418.130249023438,
+				["size"] = 32,
+				["update_speed"] = 0.304000020027161,
+				["attribute_type"] = 1,
+			},
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["y"] = -20.15869140625,
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
-			["point"] = "TOPLEFT",
-			["row_height"] = 21,
-			["scale"] = 1,
-		},
-		["DETAILS_PLUGIN_TIME_ATTACK"] = {
-			["enabled"] = true,
-			["realm_last_shown"] = 40,
-			["saved_as_anonymous"] = true,
-			["recently_as_anonymous"] = true,
-			["dps"] = 0,
-			["disable_sharing"] = false,
-			["history"] = {
-			},
-			["time"] = 40,
-			["history_lastindex"] = 0,
+			["use_spark"] = false,
+			["font_size"] = 14,
 			["author"] = "Details! Team",
-			["realm_history"] = {
-			},
-			["realm_lastamt"] = 0,
+			["main_frame_locked"] = true,
+			["arrow_anchor_y"] = 0,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1521860976,
-		["last_version"] = 9,
+		["nextreset"] = 1522441696,
+		["last_version"] = 10,
 	},
-	["ignore_nicktag"] = false,
-	["mythic_dungeon_currentsaved"] = {
-		["dungeon_name"] = "",
-		["started"] = false,
-		["segment_id"] = 0,
-		["ej_id"] = 0,
-		["started_at"] = 0,
-		["run_id"] = 0,
-		["level"] = 0,
-		["dungeon_zone_id"] = 0,
-		["previous_boss_killed_at"] = 0,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
-	["last_version"] = "v7.3.0.5282",
-	["combat_id"] = 934,
-	["savedStyles"] = {
-	},
-	["last_instance_time"] = 1520579111,
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
+	["combat_counter"] = 1083,
+	["combat_id"] = 936,
+	["savedStyles"] = {
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["last_day"] = "15",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -5174,31 +4493,288 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1298,
 					["totalabsorbed"] = 0.037957,
-					["on_hold"] = false,
 					["damage_from"] = {
 						["Dragonflayer Ironhelm"] = true,
-						["Dragonflayer Metalworker"] = true,
 						["Dragonflayer Weaponsmith"] = true,
+						["Dragonflayer Metalworker"] = true,
 						["Dragonflayer Forge Master"] = true,
 					},
 					["targets"] = {
 						["Dragonflayer Ironhelm"] = 22951,
-						["Dragonflayer Weaponsmith"] = 61478,
 						["Dragonflayer Metalworker"] = 84849,
+						["Dragonflayer Weaponsmith"] = 61478,
 						["Dragonflayer Forge Master"] = 30791,
 					},
 					["pets"] = {
 					},
-					["friendlyfire_total"] = 0,
-					["end_time"] = 1520579153,
+					["start_time"] = 1520578978,
+					["total"] = 200069.037957,
 					["classe"] = "PALADIN",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 200069.037957,
-					["isTank"] = true,
-					["last_event"] = 0,
+					["damage_taken"] = 158067.037957,
+					["delay"] = 0,
 					["dps_started"] = false,
-					["total"] = 200069.037957,
+					["end_time"] = 1520579153,
+					["friendlyfire_total"] = 0,
+					["last_dps"] = 0,
+					["nome"] = "Yourlocalgp-Frostmourne",
+					["spells"] = {
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 3,
+								["b_amt"] = 2,
+								["c_dmg"] = 1379,
+								["g_amt"] = 0,
+								["n_max"] = 230,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 2214,
+									["Dragonflayer Weaponsmith"] = 5142,
+									["Dragonflayer Metalworker"] = 3937,
+									["Dragonflayer Forge Master"] = 1945,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11859,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 58,
+								["total"] = 13238,
+								["c_max"] = 468,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 297,
+								["n_amt"] = 55,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							}, -- [1]
+							[59830] = {
+								["c_amt"] = 2,
+								["b_amt"] = 0,
+								["c_dmg"] = 923,
+								["g_amt"] = 0,
+								["n_max"] = 230,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 459,
+									["Dragonflayer Weaponsmith"] = 1568,
+									["Dragonflayer Metalworker"] = 440,
+									["Dragonflayer Forge Master"] = 210,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1754,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 10,
+								["total"] = 2677,
+								["c_max"] = 464,
+								["id"] = 59830,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 8,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[53595] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 4276,
+								["g_amt"] = 0,
+								["n_max"] = 271,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 1820,
+									["Dragonflayer Weaponsmith"] = 6843,
+									["Dragonflayer Metalworker"] = 3826,
+									["Dragonflayer Forge Master"] = 2340,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 10553,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 49,
+								["total"] = 14829,
+								["c_max"] = 554,
+								["id"] = 53595,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 41,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[53600] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 3365,
+								["g_amt"] = 0,
+								["n_max"] = 1649,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 4947,
+									["Dragonflayer Metalworker"] = 13192,
+									["Dragonflayer Weaponsmith"] = 14908,
+									["Dragonflayer Forge Master"] = 6596,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 36278,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 23,
+								["total"] = 39643,
+								["c_max"] = 3365,
+								["id"] = 53600,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 22,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[81297] = {
+								["c_amt"] = 19,
+								["b_amt"] = 0,
+								["c_dmg"] = 4010,
+								["g_amt"] = 0,
+								["n_max"] = 103,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 2168,
+									["Dragonflayer Weaponsmith"] = 3625,
+									["Dragonflayer Metalworker"] = 9434,
+									["Dragonflayer Forge Master"] = 3409,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 14626,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 161,
+								["total"] = 18636,
+								["c_max"] = 212,
+								["id"] = 81297,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 142,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[88263] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 1762,
+								["g_amt"] = 0,
+								["n_max"] = 228,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 1510,
+									["Dragonflayer Metalworker"] = 7206,
+									["Dragonflayer Weaponsmith"] = 2411,
+									["Dragonflayer Forge Master"] = 1977,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 11342,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 56,
+								["total"] = 13104,
+								["c_max"] = 450,
+								["id"] = 88263,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 52,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[20271] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 10505,
+								["g_amt"] = 0,
+								["n_max"] = 1288,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 3861,
+									["Dragonflayer Metalworker"] = 16893,
+									["Dragonflayer Weaponsmith"] = 9065,
+									["Dragonflayer Forge Master"] = 3863,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 23177,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 22,
+								["total"] = 33682,
+								["c_max"] = 2627,
+								["id"] = 20271,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 18,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[31935] = {
+								["c_amt"] = 1,
+								["b_amt"] = 0,
+								["c_dmg"] = 3047,
+								["g_amt"] = 0,
+								["n_max"] = 1493,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 5972,
+									["Dragonflayer Metalworker"] = 29921,
+									["Dragonflayer Weaponsmith"] = 17916,
+									["Dragonflayer Forge Master"] = 10451,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 61213,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 42,
+								["total"] = 64260,
+								["c_max"] = 3047,
+								["id"] = 31935,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 41,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+						},
+						["tipo"] = 2,
+					},
+					["grupo"] = true,
+					["tipo"] = 1,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -5217,414 +4793,123 @@ _detalhes_database = {
 							["FULL_HIT_AMT"] = 0,
 						},
 					},
+					["spec"] = 66,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["isTank"] = true,
+					["serial"] = "Player-3725-0A7C10B1",
 					["friendlyfire"] = {
 					},
-					["nome"] = "Yourlocalgp-Frostmourne",
-					["spec"] = 66,
-					["grupo"] = true,
-					["spells"] = {
-						["tipo"] = 2,
-						["_ActorTable"] = {
-							{
-								["c_amt"] = 3,
-								["b_amt"] = 2,
-								["c_dmg"] = 1379,
-								["g_amt"] = 0,
-								["n_max"] = 230,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 2214,
-									["Dragonflayer Metalworker"] = 3937,
-									["Dragonflayer Weaponsmith"] = 5142,
-									["Dragonflayer Forge Master"] = 1945,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 11859,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 58,
-								["total"] = 13238,
-								["c_max"] = 468,
-								["id"] = 1,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 297,
-								["n_amt"] = 55,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							}, -- [1]
-							[59830] = {
-								["c_amt"] = 2,
-								["b_amt"] = 0,
-								["c_dmg"] = 923,
-								["g_amt"] = 0,
-								["n_max"] = 230,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 459,
-									["Dragonflayer Metalworker"] = 440,
-									["Dragonflayer Weaponsmith"] = 1568,
-									["Dragonflayer Forge Master"] = 210,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1754,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 10,
-								["total"] = 2677,
-								["c_max"] = 464,
-								["id"] = 59830,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 8,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[53595] = {
-								["c_amt"] = 8,
-								["b_amt"] = 0,
-								["c_dmg"] = 4276,
-								["g_amt"] = 0,
-								["n_max"] = 271,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 1820,
-									["Dragonflayer Metalworker"] = 3826,
-									["Dragonflayer Weaponsmith"] = 6843,
-									["Dragonflayer Forge Master"] = 2340,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 10553,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 49,
-								["total"] = 14829,
-								["c_max"] = 554,
-								["id"] = 53595,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 41,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[31935] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 3047,
-								["g_amt"] = 0,
-								["n_max"] = 1493,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 5972,
-									["Dragonflayer Weaponsmith"] = 17916,
-									["Dragonflayer Metalworker"] = 29921,
-									["Dragonflayer Forge Master"] = 10451,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 61213,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 42,
-								["total"] = 64260,
-								["c_max"] = 3047,
-								["id"] = 31935,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 41,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[20271] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 10505,
-								["g_amt"] = 0,
-								["n_max"] = 1288,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 3861,
-									["Dragonflayer Weaponsmith"] = 9065,
-									["Dragonflayer Metalworker"] = 16893,
-									["Dragonflayer Forge Master"] = 3863,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 23177,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 22,
-								["total"] = 33682,
-								["c_max"] = 2627,
-								["id"] = 20271,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 18,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[88263] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 1762,
-								["g_amt"] = 0,
-								["n_max"] = 228,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 1510,
-									["Dragonflayer Weaponsmith"] = 2411,
-									["Dragonflayer Metalworker"] = 7206,
-									["Dragonflayer Forge Master"] = 1977,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 11342,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 56,
-								["total"] = 13104,
-								["c_max"] = 450,
-								["id"] = 88263,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 52,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[81297] = {
-								["c_amt"] = 19,
-								["b_amt"] = 0,
-								["c_dmg"] = 4010,
-								["g_amt"] = 0,
-								["n_max"] = 103,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 2168,
-									["Dragonflayer Metalworker"] = 9434,
-									["Dragonflayer Weaponsmith"] = 3625,
-									["Dragonflayer Forge Master"] = 3409,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 14626,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 161,
-								["total"] = 18636,
-								["c_max"] = 212,
-								["id"] = 81297,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 142,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[53600] = {
-								["c_amt"] = 1,
-								["b_amt"] = 0,
-								["c_dmg"] = 3365,
-								["g_amt"] = 0,
-								["n_max"] = 1649,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 4947,
-									["Dragonflayer Weaponsmith"] = 14908,
-									["Dragonflayer Metalworker"] = 13192,
-									["Dragonflayer Forge Master"] = 6596,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 36278,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 23,
-								["total"] = 39643,
-								["c_max"] = 3365,
-								["id"] = 53600,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 22,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-						},
-					},
-					["serial"] = "Player-3725-0A7C10B1",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1520578978,
-					["delay"] = 0,
-					["damage_taken"] = 158067.037957,
 				}, -- [1]
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.036721,
+					["totalabsorbed"] = 0.047136,
 					["damage_from"] = {
+						["Scavenge-bot 004-A8"] = true,
 						["Dragonflayer Metalworker"] = true,
 						["Dragonflayer Forge Master"] = true,
 					},
 					["targets"] = {
-						["Dragonflayer Ironhelm"] = 25936,
-						["Dragonflayer Metalworker"] = 83212,
+						["Coldarra Wyrmkin"] = 0,
+						["Warbringer Goredrak"] = 0,
+						["Coldarra Mage Slayer"] = 0,
 						["Dragonflayer Weaponsmith"] = 63575,
+						["Coldarra Spellweaver"] = 0,
+						["Dragonflayer Ironhelm"] = 25936,
+						["Scavenge-bot 004-A8"] = 23908,
+						["General Cerulean"] = 0,
+						["Coldarra Spellbinder"] = 0,
+						["Frozen Sphere <Coldarra Spellbinder>"] = 0,
+						["Dragonflayer Metalworker"] = 83212,
+						["Blue Drakonid Supplicant"] = 0,
 						["Dragonflayer Forge Master"] = 28850,
 					},
 					["pets"] = {
 						"Belpad <Zethan> <Zethan>", -- [1]
 					},
-					["friendlyfire_total"] = 0,
+					["classe"] = "WARLOCK",
 					["raid_targets"] = {
 					},
-					["total_without_pet"] = 178579.036721,
+					["total_without_pet"] = 196737.047136,
+					["damage_taken"] = 20018.047136,
+					["tipo"] = 1,
+					["dps_started"] = false,
+					["end_time"] = 1520579153,
+					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["nome"] = "Zethan",
+					["spec"] = 265,
+					["grupo"] = true,
+					["total"] = 225481.047136,
+					["on_hold"] = false,
+					["last_dps"] = 0,
+					["custom"] = 0,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["total"] = 201573.036721,
-					["classe"] = "WARLOCK",
-					["end_time"] = 1520579153,
-					["nome"] = "Zethan",
+					["start_time"] = 1520578965,
+					["serial"] = "Player-11-0AFB757C",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[980] = {
-								["c_amt"] = 19,
+								["c_amt"] = 23,
 								["b_amt"] = 0,
-								["c_dmg"] = 3736,
+								["c_dmg"] = 4210,
 								["g_amt"] = 0,
 								["n_max"] = 255,
 								["targets"] = {
-									["Dragonflayer Ironhelm"] = 2179,
-									["Dragonflayer Metalworker"] = 4415,
+									["Coldarra Wyrmkin"] = 0,
+									["Warbringer Goredrak"] = 0,
+									["Coldarra Mage Slayer"] = 0,
 									["Dragonflayer Weaponsmith"] = 4540,
+									["Coldarra Spellweaver"] = 0,
+									["Dragonflayer Ironhelm"] = 2179,
+									["Scavenge-bot 004-A8"] = 1150,
+									["General Cerulean"] = 0,
+									["Coldarra Spellbinder"] = 0,
+									["Frozen Sphere <Coldarra Spellbinder>"] = 0,
+									["Dragonflayer Metalworker"] = 4415,
+									["Blue Drakonid Supplicant"] = 0,
 									["Dragonflayer Forge Master"] = 4058,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 11456,
+								["n_dmg"] = 12132,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 123,
-								["total"] = 15192,
+								["counter"] = 135,
+								["total"] = 16342,
 								["c_max"] = 510,
 								["id"] = 980,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 104,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[233490] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 4432,
-								["g_amt"] = 0,
-								["n_max"] = 444,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 4431,
-									["Dragonflayer Weaponsmith"] = 10197,
-									["Dragonflayer Forge Master"] = 6203,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 16399,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 42,
-								["total"] = 20831,
-								["c_max"] = 887,
-								["id"] = 233490,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
+								["n_amt"] = 112,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 37,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[198590] = {
-								["c_amt"] = 2,
-								["b_amt"] = 0,
-								["c_dmg"] = 2300,
-								["g_amt"] = 0,
-								["n_max"] = 575,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 8623,
-									["Dragonflayer Weaponsmith"] = 12642,
-									["Dragonflayer Metalworker"] = 5174,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 24139,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 44,
-								["total"] = 26439,
-								["c_max"] = 1150,
-								["id"] = 198590,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 42,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
-							[259756] = {
+							[22703] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 83,
+								["n_max"] = 0,
 								["targets"] = {
-									["Dragonflayer Ironhelm"] = 800,
-									["Dragonflayer Weaponsmith"] = 953,
-									["Dragonflayer Metalworker"] = 1526,
-									["Dragonflayer Forge Master"] = 318,
+									["Blue Drakonid Supplicant"] = 0,
+									["Warbringer Goredrak"] = 0,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 3597,
+								["n_dmg"] = 0,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 159,
-								["total"] = 3597,
+								["counter"] = 0,
+								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 259756,
+								["id"] = 22703,
 								["r_dmg"] = 0,
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
@@ -5632,9 +4917,122 @@ _detalhes_database = {
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 159,
+								["n_amt"] = 0,
 								["r_amt"] = 0,
 								["c_min"] = 0,
+							},
+							[233490] = {
+								["c_amt"] = 7,
+								["b_amt"] = 0,
+								["c_dmg"] = 6204,
+								["g_amt"] = 0,
+								["n_max"] = 444,
+								["targets"] = {
+									["Coldarra Wyrmkin"] = 0,
+									["Warbringer Goredrak"] = 0,
+									["Coldarra Mage Slayer"] = 0,
+									["Dragonflayer Weaponsmith"] = 10197,
+									["Scavenge-bot 004-A8"] = 8417,
+									["Dragonflayer Ironhelm"] = 4431,
+									["General Cerulean"] = 0,
+									["Coldarra Spellbinder"] = 0,
+									["Dragonflayer Forge Master"] = 6203,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 23044,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 59,
+								["total"] = 29248,
+								["c_max"] = 887,
+								["id"] = 233490,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 52,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[146739] = {
+								["c_amt"] = 8,
+								["b_amt"] = 0,
+								["c_dmg"] = 2908,
+								["g_amt"] = 0,
+								["n_max"] = 182,
+								["targets"] = {
+									["Coldarra Wyrmkin"] = 0,
+									["Warbringer Goredrak"] = 0,
+									["Coldarra Mage Slayer"] = 0,
+									["Dragonflayer Weaponsmith"] = 6522,
+									["Coldarra Spellweaver"] = 0,
+									["Dragonflayer Ironhelm"] = 3084,
+									["General Cerulean"] = 0,
+									["Scavenge-bot 004-A8"] = 1814,
+									["Coldarra Spellbinder"] = 0,
+									["Dragonflayer Metalworker"] = 14688,
+									["Blue Drakonid Supplicant"] = 0,
+									["Dragonflayer Forge Master"] = 3626,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 26826,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 156,
+								["total"] = 29734,
+								["c_max"] = 364,
+								["id"] = 146739,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 148,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[198590] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 3451,
+								["g_amt"] = 0,
+								["n_max"] = 575,
+								["targets"] = {
+									["Coldarra Wyrmkin"] = 0,
+									["Warbringer Goredrak"] = 0,
+									["Coldarra Mage Slayer"] = 0,
+									["Dragonflayer Weaponsmith"] = 12642,
+									["Scavenge-bot 004-A8"] = 6326,
+									["Dragonflayer Ironhelm"] = 8623,
+									["General Cerulean"] = 0,
+									["Frozen Sphere <Coldarra Spellbinder>"] = 0,
+									["Coldarra Spellbinder"] = 0,
+									["Blue Drakonid Supplicant"] = 0,
+									["Dragonflayer Metalworker"] = 5174,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 29314,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 54,
+								["total"] = 32765,
+								["c_max"] = 1151,
+								["id"] = 198590,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 51,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[27285] = {
 								["c_amt"] = 13,
@@ -5644,7 +5042,11 @@ _detalhes_database = {
 								["n_max"] = 883,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 3466,
+									["Coldarra Wyrmkin"] = 0,
 									["Dragonflayer Metalworker"] = 51181,
+									["Coldarra Spellbinder"] = 0,
+									["Frozen Sphere <Coldarra Spellbinder>"] = 0,
+									["Coldarra Mage Slayer"] = 0,
 									["Dragonflayer Weaponsmith"] = 18182,
 									["Dragonflayer Forge Master"] = 11771,
 								},
@@ -5657,90 +5059,87 @@ _detalhes_database = {
 								["c_max"] = 1757,
 								["id"] = 27285,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 77,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
-							[146739] = {
-								["c_amt"] = 8,
+							[259756] = {
+								["c_amt"] = 0,
 								["b_amt"] = 0,
-								["c_dmg"] = 2908,
+								["c_dmg"] = 0,
 								["g_amt"] = 0,
-								["n_max"] = 182,
+								["n_max"] = 83,
 								["targets"] = {
-									["Dragonflayer Ironhelm"] = 3084,
-									["Dragonflayer Weaponsmith"] = 6522,
-									["Dragonflayer Metalworker"] = 14688,
-									["Dragonflayer Forge Master"] = 3626,
+									["Coldarra Wyrmkin"] = 0,
+									["Warbringer Goredrak"] = 0,
+									["Coldarra Mage Slayer"] = 0,
+									["Dragonflayer Weaponsmith"] = 953,
+									["Scavenge-bot 004-A8"] = 451,
+									["Dragonflayer Ironhelm"] = 800,
+									["Dragonflayer Metalworker"] = 1526,
+									["Coldarra Spellbinder"] = 0,
+									["General Cerulean"] = 0,
+									["Blue Drakonid Supplicant"] = 0,
+									["Dragonflayer Forge Master"] = 318,
 								},
 								["m_dmg"] = 0,
-								["n_dmg"] = 25012,
+								["n_dmg"] = 4048,
 								["n_min"] = 0,
 								["g_dmg"] = 0,
-								["counter"] = 146,
-								["total"] = 27920,
-								["c_max"] = 364,
-								["id"] = 146739,
+								["counter"] = 183,
+								["total"] = 4048,
+								["c_max"] = 0,
+								["id"] = 259756,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
-								["n_amt"] = 138,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["n_amt"] = 183,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["grupo"] = true,
-					["on_hold"] = false,
-					["spec"] = 265,
-					["serial"] = "Player-11-0AFB757C",
-					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1520578986,
-					["delay"] = 0,
-					["damage_taken"] = 16469.036721,
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
 					["totalabsorbed"] = 0.041369,
 					["damage_from"] = {
-						["Dragonflayer Weaponsmith"] = true,
 						["Dragonflayer Metalworker"] = true,
+						["Dragonflayer Weaponsmith"] = true,
 						["Dragonflayer Forge Master"] = true,
 					},
 					["targets"] = {
 						["Dragonflayer Ironhelm"] = 45296,
-						["Dragonflayer Metalworker"] = 89439,
 						["Dragonflayer Weaponsmith"] = 105509,
+						["Dragonflayer Metalworker"] = 89439,
 						["Dragonflayer Forge Master"] = 34511,
 					},
 					["pets"] = {
 					},
+					["damage_taken"] = 28727.041369,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 274755.041369,
-					["friendlyfire"] = {
-					},
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 274755.041369,
-					["classe"] = "DEATHKNIGHT",
-					["end_time"] = 1520579153,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["nome"] = "Minidutch-WyrmrestAccord",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 14,
@@ -5750,8 +5149,8 @@ _detalhes_database = {
 								["n_max"] = 275,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 2877,
-									["Dragonflayer Metalworker"] = 3944,
 									["Dragonflayer Weaponsmith"] = 7337,
+									["Dragonflayer Metalworker"] = 3944,
 									["Dragonflayer Forge Master"] = 2101,
 								},
 								["m_dmg"] = 0,
@@ -5763,16 +5162,16 @@ _detalhes_database = {
 								["c_max"] = 537,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 13,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 242,
 								["n_amt"] = 63,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["MISS"] = 13,
 							}, -- [1]
 							[49184] = {
 								["c_amt"] = 2,
@@ -5782,8 +5181,8 @@ _detalhes_database = {
 								["n_max"] = 2150,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 9068,
-									["Dragonflayer Metalworker"] = 3645,
 									["Dragonflayer Weaponsmith"] = 20631,
+									["Dragonflayer Metalworker"] = 3645,
 									["Dragonflayer Forge Master"] = 2617,
 								},
 								["m_dmg"] = 0,
@@ -5795,15 +5194,15 @@ _detalhes_database = {
 								["c_max"] = 4301,
 								["id"] = 49184,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 24,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[222024] = {
 								["c_amt"] = 10,
@@ -5813,8 +5212,8 @@ _detalhes_database = {
 								["n_max"] = 1435,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 10100,
-									["Dragonflayer Metalworker"] = 10382,
 									["Dragonflayer Weaponsmith"] = 18198,
+									["Dragonflayer Metalworker"] = 10382,
 									["Dragonflayer Forge Master"] = 7613,
 								},
 								["m_dmg"] = 0,
@@ -5826,15 +5225,15 @@ _detalhes_database = {
 								["c_max"] = 3038,
 								["id"] = 222024,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 16,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[55095] = {
 								["c_amt"] = 10,
@@ -5844,8 +5243,8 @@ _detalhes_database = {
 								["n_max"] = 430,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 5061,
-									["Dragonflayer Metalworker"] = 19204,
 									["Dragonflayer Weaponsmith"] = 9753,
+									["Dragonflayer Metalworker"] = 19204,
 									["Dragonflayer Forge Master"] = 4214,
 								},
 								["m_dmg"] = 0,
@@ -5857,15 +5256,15 @@ _detalhes_database = {
 								["c_max"] = 748,
 								["id"] = 55095,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 91,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[66196] = {
 								["c_amt"] = 3,
@@ -5875,8 +5274,8 @@ _detalhes_database = {
 								["n_max"] = 756,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 3127,
-									["Dragonflayer Metalworker"] = 5174,
 									["Dragonflayer Weaponsmith"] = 7820,
+									["Dragonflayer Metalworker"] = 5174,
 									["Dragonflayer Forge Master"] = 2479,
 								},
 								["m_dmg"] = 0,
@@ -5888,15 +5287,15 @@ _detalhes_database = {
 								["c_max"] = 1529,
 								["id"] = 66196,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 23,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[66198] = {
 								["c_amt"] = 7,
@@ -5906,8 +5305,8 @@ _detalhes_database = {
 								["n_max"] = 728,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 3833,
-									["Dragonflayer Metalworker"] = 3250,
 									["Dragonflayer Weaponsmith"] = 9760,
+									["Dragonflayer Metalworker"] = 3250,
 									["Dragonflayer Forge Master"] = 3223,
 								},
 								["m_dmg"] = 0,
@@ -5919,15 +5318,15 @@ _detalhes_database = {
 								["c_max"] = 1463,
 								["id"] = 66198,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 17,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[49998] = {
 								["c_amt"] = 1,
@@ -5947,15 +5346,15 @@ _detalhes_database = {
 								["c_max"] = 1510,
 								["id"] = 49998,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[66188] = {
 								["c_amt"] = 0,
@@ -5975,15 +5374,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 66188,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[196771] = {
 								["c_amt"] = 12,
@@ -5992,8 +5391,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 234,
 								["targets"] = {
-									["Dragonflayer Weaponsmith"] = 5648,
 									["Dragonflayer Metalworker"] = 12157,
+									["Dragonflayer Weaponsmith"] = 5648,
 									["Dragonflayer Forge Master"] = 3408,
 								},
 								["m_dmg"] = 0,
@@ -6005,77 +5404,15 @@ _detalhes_database = {
 								["c_max"] = 408,
 								["id"] = 196771,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 87,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[50401] = {
-								["c_amt"] = 22,
-								["b_amt"] = 0,
-								["c_dmg"] = 2098,
-								["g_amt"] = 0,
-								["n_max"] = 58,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 1540,
-									["Dragonflayer Metalworker"] = 2318,
-									["Dragonflayer Weaponsmith"] = 4344,
-									["Dragonflayer Forge Master"] = 1380,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 7484,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 179,
-								["total"] = 9582,
-								["c_max"] = 115,
-								["id"] = 50401,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 157,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[237680] = {
-								["c_amt"] = 5,
-								["b_amt"] = 0,
-								["c_dmg"] = 6284,
-								["g_amt"] = 0,
-								["n_max"] = 1496,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 3365,
-									["Dragonflayer Weaponsmith"] = 6732,
-									["Dragonflayer Metalworker"] = 17322,
-									["Dragonflayer Forge Master"] = 2617,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 23752,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 43,
-								["total"] = 30036,
-								["c_max"] = 2992,
-								["id"] = 237680,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 38,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[222026] = {
 								["c_amt"] = 2,
@@ -6085,8 +5422,8 @@ _detalhes_database = {
 								["n_max"] = 1521,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 6325,
-									["Dragonflayer Metalworker"] = 9071,
 									["Dragonflayer Weaponsmith"] = 15286,
+									["Dragonflayer Metalworker"] = 9071,
 									["Dragonflayer Forge Master"] = 4859,
 								},
 								["m_dmg"] = 0,
@@ -6098,34 +5435,119 @@ _detalhes_database = {
 								["c_max"] = 2627,
 								["id"] = 222026,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 24,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[237680] = {
+								["c_amt"] = 5,
+								["b_amt"] = 0,
+								["c_dmg"] = 6284,
+								["g_amt"] = 0,
+								["n_max"] = 1496,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 3365,
+									["Dragonflayer Metalworker"] = 17322,
+									["Dragonflayer Weaponsmith"] = 6732,
+									["Dragonflayer Forge Master"] = 2617,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 23752,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 43,
+								["total"] = 30036,
+								["c_max"] = 2992,
+								["id"] = 237680,
+								["r_dmg"] = 0,
 								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 38,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[50401] = {
+								["c_amt"] = 22,
+								["b_amt"] = 0,
+								["c_dmg"] = 2098,
+								["g_amt"] = 0,
+								["n_max"] = 58,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 1540,
+									["Dragonflayer Weaponsmith"] = 4344,
+									["Dragonflayer Metalworker"] = 2318,
+									["Dragonflayer Forge Master"] = 1380,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 7484,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 179,
+								["total"] = 9582,
+								["c_max"] = 115,
+								["id"] = 50401,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 157,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
 					["spec"] = 251,
-					["serial"] = "Player-1171-08551394",
+					["end_time"] = 1520579153,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1520579005,
-					["delay"] = 0,
-					["damage_taken"] = 28727.041369,
+					["serial"] = "Player-1171-08551394",
+					["classe"] = "DEATHKNIGHT",
 				}, -- [3]
 				{
 					["flag_original"] = 4369,
 					["totalabsorbed"] = 0.032505,
+					["damage_from"] = {
+						["Dragonflayer Forge Master"] = true,
+					},
+					["targets"] = {
+						["Dragonflayer Ironhelm"] = 3353,
+						["Dragonflayer Weaponsmith"] = 10539,
+						["Dragonflayer Metalworker"] = 6228,
+						["Dragonflayer Forge Master"] = 2874,
+					},
+					["pets"] = {
+					},
+					["friendlyfire"] = {
+					},
+					["classe"] = "PET",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 22994.032505,
+					["damage_taken"] = 39.032505,
+					["dps_started"] = false,
+					["total"] = 22994.032505,
+					["delay"] = 0,
+					["ownerName"] = "Zethan",
+					["nome"] = "Belpad <Zethan> <Zethan>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[3110] = {
 								["c_amt"] = 2,
@@ -6135,8 +5557,8 @@ _detalhes_database = {
 								["n_max"] = 479,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 3353,
-									["Dragonflayer Metalworker"] = 6228,
 									["Dragonflayer Weaponsmith"] = 10539,
+									["Dragonflayer Metalworker"] = 6228,
 									["Dragonflayer Forge Master"] = 2874,
 								},
 								["m_dmg"] = 0,
@@ -6148,50 +5570,28 @@ _detalhes_database = {
 								["c_max"] = 959,
 								["id"] = 3110,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 44,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["damage_from"] = {
-						["Dragonflayer Forge Master"] = true,
-					},
-					["targets"] = {
-						["Dragonflayer Ironhelm"] = 3353,
-						["Dragonflayer Metalworker"] = 6228,
-						["Dragonflayer Weaponsmith"] = 10539,
-						["Dragonflayer Forge Master"] = 2874,
-					},
-					["pets"] = {
-					},
-					["on_hold"] = false,
-					["classe"] = "PET",
-					["raid_targets"] = {
-					},
-					["total_without_pet"] = 22994.032505,
-					["tipo"] = 1,
-					["dps_started"] = false,
-					["total"] = 22994.032505,
-					["last_dps"] = 0,
-					["ownerName"] = "Zethan",
-					["nome"] = "Belpad <Zethan> <Zethan>",
-					["friendlyfire_total"] = 0,
 					["end_time"] = 1520579377,
-					["serial"] = "Pet-0-3135-574-5747-416-010297FE54",
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["on_hold"] = false,
 					["start_time"] = 1520579357,
-					["delay"] = 0,
-					["damage_taken"] = 39.032505,
+					["serial"] = "Pet-0-3135-574-5747-416-010297FE54",
+					["last_dps"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
@@ -6202,26 +5602,25 @@ _detalhes_database = {
 					},
 					["targets"] = {
 						["Dragonflayer Ironhelm"] = 4186,
-						["Dragonflayer Metalworker"] = 50052,
 						["Dragonflayer Weaponsmith"] = 58005,
+						["Dragonflayer Metalworker"] = 50052,
 						["Dragonflayer Forge Master"] = 5299,
 					},
 					["pets"] = {
 					},
+					["damage_taken"] = 6705.040595,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 117542.040595,
-					["friendlyfire"] = {
-					},
-					["last_event"] = 0,
+					["delay"] = 0,
 					["dps_started"] = false,
 					["total"] = 117542.040595,
-					["classe"] = "DEATHKNIGHT",
-					["end_time"] = 1520579153,
+					["on_hold"] = false,
+					["last_dps"] = 0,
 					["nome"] = "Ultimakiddo-WyrmrestAccord",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 11,
@@ -6243,16 +5642,16 @@ _detalhes_database = {
 								["c_max"] = 465,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["MISS"] = 8,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 37,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_dmg"] = 0,
+								["MISS"] = 8,
 							}, -- [1]
 							[49184] = {
 								["c_amt"] = 1,
@@ -6274,15 +5673,15 @@ _detalhes_database = {
 								["c_max"] = 1021,
 								["id"] = 49184,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 18,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[222024] = {
 								["c_amt"] = 5,
@@ -6303,15 +5702,15 @@ _detalhes_database = {
 								["c_max"] = 2510,
 								["id"] = 222024,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[222026] = {
 								["c_amt"] = 0,
@@ -6332,15 +5731,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 222026,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[66196] = {
 								["c_amt"] = 0,
@@ -6361,15 +5760,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 66196,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[66198] = {
 								["c_amt"] = 3,
@@ -6390,15 +5789,15 @@ _detalhes_database = {
 								["c_max"] = 1248,
 								["id"] = 66198,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[49998] = {
 								["c_amt"] = 0,
@@ -6418,15 +5817,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 49998,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[66188] = {
 								["c_amt"] = 0,
@@ -6446,15 +5845,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 66188,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["r_amt"] = 0,
-								["c_min"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[196771] = {
 								["c_amt"] = 19,
@@ -6464,8 +5863,8 @@ _detalhes_database = {
 								["n_max"] = 190,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 2145,
-									["Dragonflayer Metalworker"] = 11367,
 									["Dragonflayer Weaponsmith"] = 7686,
+									["Dragonflayer Metalworker"] = 11367,
 									["Dragonflayer Forge Master"] = 3476,
 								},
 								["m_dmg"] = 0,
@@ -6477,76 +5876,15 @@ _detalhes_database = {
 								["c_max"] = 381,
 								["id"] = 196771,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 110,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[50401] = {
-								["c_amt"] = 6,
-								["b_amt"] = 0,
-								["c_dmg"] = 517,
-								["g_amt"] = 0,
-								["n_max"] = 49,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 41,
-									["Dragonflayer Weaponsmith"] = 1210,
-									["Dragonflayer Metalworker"] = 508,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 1242,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 35,
-								["total"] = 1759,
-								["c_max"] = 89,
-								["id"] = 50401,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 29,
-								["r_amt"] = 0,
-								["c_min"] = 0,
-							},
-							[237680] = {
-								["c_amt"] = 4,
-								["b_amt"] = 0,
-								["c_dmg"] = 2909,
-								["g_amt"] = 0,
-								["n_max"] = 1459,
-								["targets"] = {
-									["Dragonflayer Ironhelm"] = 362,
-									["Dragonflayer Weaponsmith"] = 1093,
-									["Dragonflayer Metalworker"] = 13413,
-									["Dragonflayer Forge Master"] = 1823,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 13782,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 36,
-								["total"] = 16691,
-								["c_max"] = 730,
-								["id"] = 237680,
-								["r_dmg"] = 0,
 								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 32,
-								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[55095] = {
 								["c_amt"] = 3,
@@ -6568,28 +5906,90 @@ _detalhes_database = {
 								["c_max"] = 699,
 								["id"] = 55095,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["r_amt"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 49,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[237680] = {
+								["c_amt"] = 4,
+								["b_amt"] = 0,
+								["c_dmg"] = 2909,
+								["g_amt"] = 0,
+								["n_max"] = 1459,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 362,
+									["Dragonflayer Metalworker"] = 13413,
+									["Dragonflayer Weaponsmith"] = 1093,
+									["Dragonflayer Forge Master"] = 1823,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 13782,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 36,
+								["total"] = 16691,
+								["c_max"] = 730,
+								["id"] = 237680,
+								["r_dmg"] = 0,
 								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 32,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[50401] = {
+								["c_amt"] = 6,
+								["b_amt"] = 0,
+								["c_dmg"] = 517,
+								["g_amt"] = 0,
+								["n_max"] = 49,
+								["targets"] = {
+									["Dragonflayer Ironhelm"] = 41,
+									["Dragonflayer Weaponsmith"] = 1210,
+									["Dragonflayer Metalworker"] = 508,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 1242,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 35,
+								["total"] = 1759,
+								["c_max"] = 89,
+								["id"] = 50401,
+								["r_dmg"] = 0,
+								["c_min"] = 0,
+								["m_crit"] = 0,
+								["r_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 29,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["on_hold"] = false,
 					["spec"] = 251,
-					["serial"] = "Player-1171-08551398",
+					["end_time"] = 1520579153,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
 					["start_time"] = 1520579042,
-					["delay"] = 0,
-					["damage_taken"] = 6705.040595,
+					["serial"] = "Player-1171-08551398",
+					["classe"] = "DEATHKNIGHT",
 				}, -- [5]
 			},
 		}, -- [1]
@@ -6598,123 +5998,125 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["healing_from"] = {
-						["Fgassecond-Dalaran"] = true,
-						["Zethan"] = true,
+					["targets_overheal"] = {
+						["Belpad <Zethan>"] = 2,
+						["Zethan"] = 10437,
 					},
 					["pets"] = {
 						"Belpad <Zethan> <Zethan>", -- [1]
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "WARLOCK",
-					["totalover"] = 47954.0425,
-					["total_without_pet"] = 9391.0425,
-					["total"] = 9391.0425,
+					["heal_enemy_amt"] = 0,
+					["totalover"] = 58393.054297,
+					["total_without_pet"] = 14329.054297,
+					["total"] = 14329.054297,
 					["targets_absorbs"] = {
-						["Belpad <Zethan>"] = 39,
-						["Zethan"] = 5054,
+						["Belpad <Zethan>"] = 1389,
+						["Zethan"] = 1952,
 					},
 					["heal_enemy"] = {
 					},
 					["on_hold"] = false,
 					["serial"] = "Player-11-0AFB757C",
-					["totalabsorb"] = 5093.0425,
+					["totalabsorb"] = 8434.054297,
 					["last_hps"] = 0,
 					["targets"] = {
-						["Belpad <Zethan>"] = 39,
-						["Zethan"] = 9658,
+						["Belpad <Zethan>"] = 1389,
+						["Zethan"] = 6554,
 					},
-					["totalover_without_pet"] = 0.0425,
-					["healing_taken"] = 9869.0425,
+					["totalover_without_pet"] = 0.054297,
+					["healing_taken"] = 13418.054297,
+					["fight_component"] = true,
 					["end_time"] = 1520579153,
-					["start_time"] = 1520579050,
+					["totaldenied"] = 0.054297,
 					["nome"] = "Zethan",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[198590] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Zethan"] = 47952,
+									["Zethan"] = 58387,
 								},
 								["n_max"] = 1151,
 								["targets"] = {
-									["Zethan"] = 4298,
+									["Zethan"] = 5895,
 								},
 								["n_min"] = 0,
-								["counter"] = 44,
-								["overheal"] = 47952,
-								["total"] = 4298,
+								["counter"] = 54,
+								["overheal"] = 58387,
+								["total"] = 5895,
 								["c_max"] = 0,
 								["id"] = 198590,
 								["targets_absorbs"] = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 4298,
-								["n_amt"] = 44,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 54,
+								["n_curado"] = 5895,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[108366] = {
 								["c_amt"] = 0,
-								["totalabsorb"] = 5093,
+								["totalabsorb"] = 8434,
 								["targets_overheal"] = {
-									["Zethan"] = 2,
+									["Belpad <Zethan>"] = 2,
+									["Zethan"] = 4,
 								},
 								["n_max"] = 1531,
 								["targets"] = {
-									["Belpad <Zethan>"] = 39,
-									["Zethan"] = 5054,
+									["Belpad <Zethan>"] = 1428,
+									["Zethan"] = 7006,
 								},
 								["n_min"] = 0,
-								["counter"] = 14,
-								["overheal"] = 2,
-								["total"] = 5093,
+								["counter"] = 31,
+								["overheal"] = 6,
+								["total"] = 8434,
 								["c_max"] = 0,
 								["id"] = 108366,
 								["targets_absorbs"] = {
-									["Belpad <Zethan>"] = 39,
-									["Zethan"] = 5054,
+									["Belpad <Zethan>"] = 1428,
+									["Zethan"] = 7006,
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 5093,
-								["n_amt"] = 14,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 31,
+								["n_curado"] = 8434,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["targets_overheal"] = {
-						["Zethan"] = 47954,
+					["healing_from"] = {
+						["Fgassecond-Dalaran"] = true,
+						["Zethan"] = true,
 					},
-					["heal_enemy_amt"] = 0,
+					["tipo"] = 2,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 265,
-					["totaldenied"] = 0.0425,
+					["classe"] = "WARLOCK",
+					["start_time"] = 1520579029,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["spec"] = 265,
 				}, -- [1]
 				{
 					["flag_original"] = 1298,
-					["healing_from"] = {
-						["Fgassecond-Dalaran"] = true,
-						["Yourlocalgp-Frostmourne"] = true,
+					["targets_overheal"] = {
+						["Yourlocalgp-Frostmourne"] = 3689,
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "PALADIN",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 3689.032993,
 					["total_without_pet"] = 59936.032993,
 					["total"] = 59936.032993,
@@ -6735,10 +6137,9 @@ _detalhes_database = {
 					["healing_taken"] = 105461.032993,
 					["fight_component"] = true,
 					["end_time"] = 1520579153,
-					["start_time"] = 1520579119,
+					["tipo"] = 2,
 					["nome"] = "Yourlocalgp-Frostmourne",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[31850] = {
 								["c_amt"] = 0,
@@ -6760,12 +6161,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 2704,
-								["n_amt"] = 4,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 4,
+								["n_curado"] = 2704,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[66235] = {
@@ -6787,12 +6188,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 1690,
-								["n_amt"] = 1,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["n_curado"] = 1690,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[59913] = {
@@ -6814,12 +6215,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 3450,
-								["n_amt"] = 8,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 8,
+								["n_curado"] = 3450,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[633] = {
@@ -6842,12 +6243,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 17747,
-								["n_amt"] = 1,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["n_curado"] = 17747,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[184092] = {
@@ -6869,27 +6270,29 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 34345,
-								["n_amt"] = 8,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 8,
+								["n_curado"] = 34345,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["targets_overheal"] = {
-						["Yourlocalgp-Frostmourne"] = 3689,
+					["healing_from"] = {
+						["Fgassecond-Dalaran"] = true,
+						["Yourlocalgp-Frostmourne"] = true,
 					},
-					["heal_enemy_amt"] = 0,
+					["spec"] = 66,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 66,
 					["totaldenied"] = 0.032993,
+					["start_time"] = 1520579119,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["classe"] = "PALADIN",
 				}, -- [2]
 				{
 					["flag_original"] = 1298,
@@ -6900,7 +6303,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["classe"] = "DEATHKNIGHT",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 1481.025805,
 					["total_without_pet"] = 4502.025805,
 					["total"] = 4502.025805,
@@ -6919,10 +6322,11 @@ _detalhes_database = {
 					["healing_taken"] = 10887.025805,
 					["fight_component"] = true,
 					["end_time"] = 1520579153,
-					["start_time"] = 1520579114,
+					["targets_overheal"] = {
+						["Minidutch-WyrmrestAccord"] = 1481,
+					},
 					["nome"] = "Minidutch-WyrmrestAccord",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[59913] = {
 								["c_amt"] = 0,
@@ -6944,12 +6348,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 1480,
-								["n_amt"] = 12,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 12,
+								["n_curado"] = 1480,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[45470] = {
@@ -6971,60 +6375,67 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 3022,
-								["n_amt"] = 2,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["n_curado"] = 3022,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["targets_overheal"] = {
-						["Minidutch-WyrmrestAccord"] = 1481,
-					},
-					["heal_enemy_amt"] = 0,
+					["tipo"] = 2,
+					["classe"] = "DEATHKNIGHT",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["spec"] = 251,
 					["totaldenied"] = 0.025805,
+					["start_time"] = 1520579114,
 					["delay"] = 0,
-					["tipo"] = 2,
+					["spec"] = 251,
 				}, -- [3]
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Ultimakiddo-WyrmrestAccord"] = 1035,
-					},
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
-					["totalover"] = 1035.014451,
-					["total_without_pet"] = 2497.014451,
-					["total"] = 2497.014451,
-					["targets_absorbs"] = {
-					},
-					["heal_enemy"] = {
-					},
-					["on_hold"] = false,
-					["serial"] = "Player-1171-08551398",
 					["totalabsorb"] = 0.014451,
 					["last_hps"] = 0,
-					["targets"] = {
-						["Ultimakiddo-WyrmrestAccord"] = 3532,
-					},
-					["totalover_without_pet"] = 0.014451,
-					["healing_taken"] = 2497.014451,
-					["end_time"] = 1520579328,
 					["healing_from"] = {
 						["Ultimakiddo-WyrmrestAccord"] = true,
 					},
+					["targets"] = {
+						["Ultimakiddo-WyrmrestAccord"] = 3532,
+					},
+					["delay"] = 0,
+					["pets"] = {
+					},
+					["totalover_without_pet"] = 0.014451,
+					["targets_overheal"] = {
+						["Ultimakiddo-WyrmrestAccord"] = 1035,
+					},
+					["classe"] = "DEATHKNIGHT",
+					["totalover"] = 1035.014451,
+					["total_without_pet"] = 2497.014451,
+					["iniciar_hps"] = false,
+					["totaldenied"] = 0.014451,
+					["heal_enemy_amt"] = 0,
+					["total"] = 2497.014451,
+					["healing_taken"] = 2497.014451,
+					["end_time"] = 1520579328,
 					["nome"] = "Ultimakiddo-WyrmrestAccord",
+					["spec"] = 251,
+					["grupo"] = true,
+					["last_event"] = 0,
+					["heal_enemy"] = {
+					},
+					["targets_absorbs"] = {
+					},
+					["custom"] = 0,
+					["tipo"] = 2,
+					["on_hold"] = false,
+					["start_time"] = 1520579322,
+					["serial"] = "Player-1171-08551398",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[45470] = {
 								["c_amt"] = 0,
@@ -7046,40 +6457,26 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 2497,
-								["n_amt"] = 2,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["n_curado"] = 2497,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["grupo"] = true,
-					["start_time"] = 1520579322,
-					["classe"] = "DEATHKNIGHT",
-					["custom"] = 0,
-					["tipo"] = 2,
-					["spec"] = 251,
-					["totaldenied"] = 0.014451,
-					["delay"] = 0,
-					["last_event"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 1298,
-					["targets_overheal"] = {
-						["Minidutch-WyrmrestAccord"] = 3952,
-						["Fgassecond-Dalaran"] = 1037,
-						["Zethan"] = 7349,
-						["Ultimakiddo-WyrmrestAccord"] = 1036,
-						["Belpad <Zethan>"] = 3551,
-						["Yourlocalgp-Frostmourne"] = 787,
+					["healing_from"] = {
 					},
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PRIEST",
 					["totalover"] = 17712.011839,
 					["total_without_pet"] = 52427.011839,
 					["total"] = 52427.011839,
@@ -7093,18 +6490,23 @@ _detalhes_database = {
 					["last_hps"] = 0,
 					["targets"] = {
 						["Minidutch-WyrmrestAccord"] = 6422,
-						["Yourlocalgp-Frostmourne"] = 46312,
 						["Zethan"] = 517,
+						["Yourlocalgp-Frostmourne"] = 46312,
 					},
 					["totalover_without_pet"] = 0.011839,
 					["healing_taken"] = 0.011839,
 					["fight_component"] = true,
 					["end_time"] = 1520579328,
-					["healing_from"] = {
+					["targets_overheal"] = {
+						["Minidutch-WyrmrestAccord"] = 3952,
+						["Fgassecond-Dalaran"] = 1037,
+						["Zethan"] = 7349,
+						["Belpad <Zethan>"] = 3551,
+						["Ultimakiddo-WyrmrestAccord"] = 1036,
+						["Yourlocalgp-Frostmourne"] = 787,
 					},
 					["nome"] = "Fgassecond-Dalaran",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[34861] = {
 								["c_amt"] = 0,
@@ -7127,12 +6529,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 2514,
-								["n_amt"] = 2,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 2,
+								["n_curado"] = 2514,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[234946] = {
@@ -7145,8 +6547,8 @@ _detalhes_database = {
 								["n_max"] = 1541,
 								["targets"] = {
 									["Minidutch-WyrmrestAccord"] = 3905,
-									["Zethan"] = 0,
 									["Yourlocalgp-Frostmourne"] = 789,
+									["Zethan"] = 0,
 								},
 								["n_min"] = 0,
 								["counter"] = 13,
@@ -7158,29 +6560,56 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 4694,
-								["n_amt"] = 13,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 13,
+								["n_curado"] = 4694,
+								["m_amt"] = 0,
+								["absorbed"] = 0,
+							},
+							[2050] = {
+								["c_amt"] = 0,
+								["totalabsorb"] = 0,
+								["targets_overheal"] = {
+								},
+								["n_max"] = 8302,
+								["targets"] = {
+									["Yourlocalgp-Frostmourne"] = 8302,
+								},
+								["n_min"] = 0,
+								["counter"] = 1,
+								["overheal"] = 0,
+								["total"] = 8302,
+								["c_max"] = 0,
+								["id"] = 2050,
+								["targets_absorbs"] = {
+								},
+								["c_curado"] = 0,
+								["m_crit"] = 0,
+								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 1,
+								["n_curado"] = 8302,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 							[596] = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
-									["Ultimakiddo-WyrmrestAccord"] = 1036,
 									["Belpad <Zethan>"] = 1037,
 									["Fgassecond-Dalaran"] = 1037,
+									["Ultimakiddo-WyrmrestAccord"] = 1036,
 									["Zethan"] = 1037,
 								},
 								["n_max"] = 1037,
 								["targets"] = {
 									["Fgassecond-Dalaran"] = 0,
 									["Zethan"] = 0,
-									["Belpad <Zethan>"] = 0,
 									["Ultimakiddo-WyrmrestAccord"] = 0,
+									["Belpad <Zethan>"] = 0,
 									["Yourlocalgp-Frostmourne"] = 1037,
 								},
 								["n_min"] = 0,
@@ -7193,42 +6622,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
+								["m_healed"] = 0,
 								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 1037,
+								["totaldenied"] = 0,
 								["n_amt"] = 5,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
-								["absorbed"] = 0,
-							},
-							[139] = {
-								["c_amt"] = 3,
-								["totalabsorb"] = 0,
-								["targets_overheal"] = {
-									["Minidutch-WyrmrestAccord"] = 1550,
-								},
-								["n_max"] = 259,
-								["targets"] = {
-									["Minidutch-WyrmrestAccord"] = 508,
-									["Yourlocalgp-Frostmourne"] = 2114,
-									["Zethan"] = 517,
-								},
-								["n_min"] = 0,
-								["counter"] = 16,
-								["overheal"] = 1550,
-								["total"] = 3139,
-								["c_max"] = 517,
-								["id"] = 139,
-								["targets_absorbs"] = {
-								},
-								["c_curado"] = 1033,
-								["m_crit"] = 0,
-								["c_min"] = 0,
+								["n_curado"] = 1037,
 								["m_amt"] = 0,
-								["n_curado"] = 2106,
-								["n_amt"] = 13,
-								["totaldenied"] = 0,
-								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[2061] = {
@@ -7252,94 +6651,98 @@ _detalhes_database = {
 								},
 								["c_curado"] = 15780,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 16961,
-								["n_amt"] = 9,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 9,
+								["n_curado"] = 16961,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
-							[2050] = {
-								["c_amt"] = 0,
+							[139] = {
+								["c_amt"] = 3,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Minidutch-WyrmrestAccord"] = 1550,
 								},
-								["n_max"] = 8302,
+								["n_max"] = 259,
 								["targets"] = {
-									["Yourlocalgp-Frostmourne"] = 8302,
+									["Minidutch-WyrmrestAccord"] = 508,
+									["Zethan"] = 517,
+									["Yourlocalgp-Frostmourne"] = 2114,
 								},
 								["n_min"] = 0,
-								["counter"] = 1,
-								["overheal"] = 0,
-								["total"] = 8302,
-								["c_max"] = 0,
-								["id"] = 2050,
+								["counter"] = 16,
+								["overheal"] = 1550,
+								["total"] = 3139,
+								["c_max"] = 517,
+								["id"] = 139,
 								["targets_absorbs"] = {
 								},
-								["c_curado"] = 0,
+								["c_curado"] = 1033,
 								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["n_curado"] = 8302,
-								["n_amt"] = 1,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["c_min"] = 0,
+								["totaldenied"] = 0,
+								["n_amt"] = 13,
+								["n_curado"] = 2106,
+								["m_amt"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
 					["grupo"] = true,
-					["start_time"] = 1520579290,
-					["classe"] = "PRIEST",
+					["last_event"] = 0,
+					["heal_enemy_amt"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
-					["spec"] = 257,
 					["totaldenied"] = 0.011839,
+					["start_time"] = 1520579290,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["spec"] = 257,
 				}, -- [5]
 				{
 					["flag_original"] = 4369,
+					["totalabsorb"] = 0.017042,
+					["last_hps"] = 0,
+					["targets_overheal"] = {
+					},
+					["targets"] = {
+					},
+					["classe"] = "PET",
+					["pets"] = {
+					},
+					["totalover_without_pet"] = 0.017042,
 					["healing_from"] = {
 						["Zethan"] = true,
 					},
-					["pets"] = {
-					},
-					["iniciar_hps"] = false,
-					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.017042,
 					["total_without_pet"] = 0.017042,
-					["total"] = 0.017042,
+					["iniciar_hps"] = false,
+					["healing_taken"] = 39.017042,
+					["end_time"] = 1520579377,
+					["delay"] = 0,
+					["ownerName"] = "Zethan",
+					["nome"] = "Belpad <Zethan> <Zethan>",
 					["targets_absorbs"] = {
+					},
+					["total"] = 0.017042,
+					["spells"] = {
+						["_ActorTable"] = {
+						},
+						["tipo"] = 3,
 					},
 					["heal_enemy"] = {
 					},
-					["on_hold"] = false,
-					["serial"] = "Pet-0-3135-574-5747-416-010297FE54",
-					["totalabsorb"] = 0.017042,
-					["last_hps"] = 0,
-					["targets"] = {
-					},
-					["totalover_without_pet"] = 0.017042,
-					["healing_taken"] = 39.017042,
-					["targets_overheal"] = {
-					},
-					["end_time"] = 1520579377,
-					["ownerName"] = "Zethan",
-					["nome"] = "Belpad <Zethan> <Zethan>",
-					["heal_enemy_amt"] = 0,
-					["last_event"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["start_time"] = 1520579374,
 					["totaldenied"] = 0.017042,
-					["delay"] = 0,
-					["spells"] = {
-						["tipo"] = 3,
-						["_ActorTable"] = {
-						},
-					},
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1520579374,
+					["serial"] = "Pet-0-3135-574-5747-416-010297FE54",
+					["tipo"] = 2,
 				}, -- [6]
 			},
 		}, -- [2]
@@ -7361,8 +6764,12 @@ _detalhes_database = {
 					["nome"] = "Minidutch-WyrmrestAccord",
 					["spec"] = 251,
 					["grupo"] = true,
+					["flag_original"] = 1298,
+					["tipo"] = 3,
+					["alternatepower"] = 0.035639,
+					["last_event"] = 0,
+					["serial"] = "Player-1171-08551394",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[49020] = {
 								["id"] = 49020,
@@ -7396,14 +6803,6 @@ _detalhes_database = {
 								},
 								["counter"] = 15,
 							},
-							[196770] = {
-								["id"] = 196770,
-								["total"] = 30,
-								["targets"] = {
-									["Minidutch-WyrmrestAccord"] = 30,
-								},
-								["counter"] = 3,
-							},
 							[195617] = {
 								["id"] = 195617,
 								["total"] = 65,
@@ -7412,62 +6811,67 @@ _detalhes_database = {
 								},
 								["counter"] = 13,
 							},
+							[196770] = {
+								["id"] = 196770,
+								["total"] = 30,
+								["targets"] = {
+									["Minidutch-WyrmrestAccord"] = 30,
+								},
+								["counter"] = 3,
+							},
 						},
+						["tipo"] = 7,
 					},
-					["tipo"] = 3,
-					["flag_original"] = 1298,
-					["last_event"] = 0,
-					["alternatepower"] = 0.035639,
-					["serial"] = "Player-1171-08551394",
 				}, -- [1]
 				{
-					["received"] = 22.045403,
-					["resource"] = 0.045403,
+					["flag_original"] = 1297,
+					["resource"] = 0.072135,
 					["targets"] = {
-						["Zethan"] = 22,
+						["Zethan"] = 5,
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "WARLOCK",
-					["total"] = 22.045403,
+					["fight_component"] = true,
+					["alternatepower"] = 0.05668,
 					["nome"] = "Zethan",
 					["spec"] = 265,
 					["grupo"] = true,
+					["received"] = 27.05668,
+					["tipo"] = 3,
+					["total"] = 27.05668,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
+							[17941] = {
+								["id"] = 17941,
+								["total"] = 17,
+								["targets"] = {
+									["Zethan"] = 1,
+								},
+								["counter"] = 17,
+							},
 							[205292] = {
 								["id"] = 205292,
-								["total"] = 2,
+								["total"] = 4,
 								["targets"] = {
 									["Zethan"] = 2,
 								},
-								["counter"] = 2,
+								["counter"] = 4,
 							},
 							[31117] = {
 								["id"] = 31117,
-								["total"] = 4,
+								["total"] = 6,
 								["targets"] = {
-									["Zethan"] = 4,
+									["Zethan"] = 2,
 								},
-								["counter"] = 4,
-							},
-							[17941] = {
-								["id"] = 17941,
-								["total"] = 16,
-								["targets"] = {
-									["Zethan"] = 16,
-								},
-								["counter"] = 16,
+								["counter"] = 6,
 							},
 						},
+						["tipo"] = 7,
 					},
-					["tipo"] = 3,
-					["flag_original"] = 1297,
-					["last_event"] = 0,
-					["alternatepower"] = 0.045403,
 					["serial"] = "Player-11-0AFB757C",
+					["last_event"] = 0,
 				}, -- [2]
 				{
 					["received"] = 429.034664,
@@ -7480,12 +6884,10 @@ _detalhes_database = {
 					["powertype"] = 0,
 					["classe"] = "DEATHKNIGHT",
 					["resource_type"] = 5,
-					["total"] = 429.034664,
 					["nome"] = "Ultimakiddo-WyrmrestAccord",
 					["spec"] = 251,
 					["grupo"] = true,
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[195617] = {
 								["id"] = 195617,
@@ -7519,14 +6921,6 @@ _detalhes_database = {
 								},
 								["counter"] = 6,
 							},
-							[49020] = {
-								["id"] = 49020,
-								["total"] = 140,
-								["targets"] = {
-									["Ultimakiddo-WyrmrestAccord"] = 140,
-								},
-								["counter"] = 7,
-							},
 							[49184] = {
 								["id"] = 49184,
 								["total"] = 140,
@@ -7535,13 +6929,23 @@ _detalhes_database = {
 								},
 								["counter"] = 14,
 							},
+							[49020] = {
+								["id"] = 49020,
+								["total"] = 140,
+								["targets"] = {
+									["Ultimakiddo-WyrmrestAccord"] = 140,
+								},
+								["counter"] = 7,
+							},
 						},
+						["tipo"] = 7,
 					},
-					["tipo"] = 3,
-					["flag_original"] = 1298,
-					["last_event"] = 0,
 					["alternatepower"] = 0.034664,
+					["tipo"] = 3,
+					["last_event"] = 0,
+					["flag_original"] = 1298,
 					["serial"] = "Player-1171-08551398",
+					["total"] = 429.034664,
 				}, -- [3]
 			},
 		}, -- [3]
@@ -7551,72 +6955,71 @@ _detalhes_database = {
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[62124] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 6,
 								["id"] = 62124,
 								["uptime"] = 10,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[204242] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 19,
 								["id"] = 204242,
 								["uptime"] = 48,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[853] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 5,
 								["id"] = 853,
 								["uptime"] = 25,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[25771] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 1,
-								["id"] = 25771,
-								["uptime"] = 10,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[31935] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 18,
 								["id"] = 31935,
 								["uptime"] = 52,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[25771] = {
 								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 1,
+								["id"] = 25771,
+								["uptime"] = 10,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 2.016033,
 					["pets"] = {
 					},
 					["cc_done_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[31935] = {
 								["id"] = 31935,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 2,
-									["Dragonflayer Weaponsmith"] = 5,
 									["Dragonflayer Metalworker"] = 7,
+									["Dragonflayer Weaponsmith"] = 5,
 									["Dragonflayer Forge Master"] = 4,
 								},
 								["counter"] = 18,
@@ -7625,96 +7028,128 @@ _detalhes_database = {
 								["id"] = 853,
 								["targets"] = {
 									["Dragonflayer Ironhelm"] = 1,
-									["Dragonflayer Metalworker"] = 1,
 									["Dragonflayer Weaponsmith"] = 2,
+									["Dragonflayer Metalworker"] = 1,
 									["Dragonflayer Forge Master"] = 1,
 								},
 								["counter"] = 5,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["classe"] = "PALADIN",
 					["cooldowns_defensive_targets"] = {
 						["Yourlocalgp-Frostmourne"] = 2,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[31850] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 31850,
 								["uptime"] = 1,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[186406] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 186406,
 								["uptime"] = 201,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[176180] = {
-								["actived_at"] = 1520579172,
+								["counter"] = 0,
 								["refreshamt"] = 0,
 								["activedamt"] = 2,
-								["appliedamt"] = 2,
-								["id"] = 176180,
 								["uptime"] = 27,
+								["id"] = 176180,
+								["appliedamt"] = 2,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["actived_at"] = 1520579172,
 							},
 							[228128] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 228128,
 								["uptime"] = 32,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[188370] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 188370,
 								["uptime"] = 43,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[221883] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
-								["id"] = 221883,
-								["uptime"] = 9,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[132403] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 15,
 								["appliedamt"] = 15,
 								["id"] = 132403,
 								["uptime"] = 103,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[221883] = {
 								["counter"] = 0,
+								["activedamt"] = 4,
+								["appliedamt"] = 4,
+								["id"] = 221883,
+								["uptime"] = 9,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 145,
+					["last_event"] = 0,
+					["cc_done"] = 23.020325,
+					["nome"] = "Yourlocalgp-Frostmourne",
+					["spec"] = 66,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[31935] = 14,
+						[53595] = 49,
+						[26573] = 6,
+						[633] = 1,
+						[31850] = 1,
+						[96231] = 2,
+						[20271] = 22,
+						[190784] = 3,
+						[53600] = 23,
+						[853] = 5,
+						[184092] = 8,
+						[62124] = 2,
+					},
+					["serial"] = "Player-3725-0A7C10B1",
+					["cc_done_targets"] = {
+						["Dragonflayer Ironhelm"] = 3,
+						["Dragonflayer Metalworker"] = 8,
+						["Dragonflayer Weaponsmith"] = 7,
+						["Dragonflayer Forge Master"] = 5,
+					},
+					["tipo"] = 4,
+					["buff_uptime"] = 416,
+					["buff_uptime_targets"] = {
 					},
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[633] = {
 								["id"] = 633,
@@ -7731,155 +7166,124 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
-					},
-					["fight_component"] = true,
-					["debuff_uptime"] = 145,
-					["cc_done"] = 23.020325,
-					["nome"] = "Yourlocalgp-Frostmourne",
-					["spec"] = 66,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[31935] = 14,
-						[53595] = 49,
-						[26573] = 6,
-						[633] = 1,
-						[31850] = 1,
-						[96231] = 2,
-						[20271] = 22,
-						[190784] = 3,
-						[53600] = 23,
-						[62124] = 2,
-						[184092] = 8,
-						[853] = 5,
+						["tipo"] = 9,
 					},
 					["debuff_uptime_targets"] = {
 					},
-					["buff_uptime_targets"] = {
-					},
-					["tipo"] = 4,
-					["buff_uptime"] = 416,
-					["cc_done_targets"] = {
-						["Dragonflayer Ironhelm"] = 3,
-						["Dragonflayer Weaponsmith"] = 7,
-						["Dragonflayer Metalworker"] = 8,
-						["Dragonflayer Forge Master"] = 5,
-					},
-					["serial"] = "Player-3725-0A7C10B1",
-					["last_event"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							[211793] = {
-								["refreshamt"] = 88,
-								["activedamt"] = 0,
-								["appliedamt"] = 11,
-								["id"] = 211793,
-								["uptime"] = 33,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[207165] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 0,
-								["appliedamt"] = 3,
-								["id"] = 207165,
-								["uptime"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[51714] = {
-								["refreshamt"] = 53,
-								["activedamt"] = 0,
-								["appliedamt"] = 15,
-								["id"] = 51714,
-								["uptime"] = 118,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 							[55095] = {
-								["refreshamt"] = 52,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 16,
 								["id"] = 55095,
 								["uptime"] = 135,
 								["targets"] = {
 								},
+								["refreshamt"] = 52,
+							},
+							[207165] = {
 								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 3,
+								["id"] = 207165,
+								["uptime"] = 5,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[211793] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 11,
+								["id"] = 211793,
+								["uptime"] = 33,
+								["targets"] = {
+								},
+								["refreshamt"] = 88,
+							},
+							[51714] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 15,
+								["id"] = 51714,
+								["uptime"] = 118,
+								["targets"] = {
+								},
+								["refreshamt"] = 53,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime"] = 160,
 					["classe"] = "DEATHKNIGHT",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[51124] = {
-								["refreshamt"] = 2,
+								["counter"] = 0,
 								["activedamt"] = 8,
 								["appliedamt"] = 8,
 								["id"] = 51124,
 								["uptime"] = 20,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 2,
 							},
 							[228128] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
 								["uptime"] = 27,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[59052] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 12,
 								["appliedamt"] = 12,
 								["id"] = 59052,
 								["uptime"] = 27,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[196770] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 196770,
 								["uptime"] = 24,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[51271] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 51271,
-								["uptime"] = 20,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[101568] = {
-								["refreshamt"] = 2,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 101568,
 								["uptime"] = 42,
 								["targets"] = {
 								},
+								["refreshamt"] = 2,
+							},
+							[51271] = {
 								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 51271,
+								["uptime"] = 20,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 291,
@@ -7890,309 +7294,348 @@ _detalhes_database = {
 					["spell_cast"] = {
 						[49020] = 26,
 						[49143] = 26,
-						[196771] = 27,
-						[196770] = 3,
-						[49184] = 26,
-						[49998] = 2,
 						[51271] = 1,
+						[49998] = 2,
+						[196770] = 3,
+						[196771] = 27,
+						[49184] = 26,
 					},
-					["debuff_uptime_targets"] = {
-					},
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["nome"] = "Minidutch-WyrmrestAccord",
 					["pets"] = {
 					},
 					["serial"] = "Player-1171-08551394",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[56222] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 1,
 								["id"] = 56222,
 								["uptime"] = 3,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[211793] = {
-								["refreshamt"] = 111,
-								["activedamt"] = 0,
-								["appliedamt"] = 18,
-								["id"] = 211793,
-								["uptime"] = 56,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[51714] = {
-								["refreshamt"] = 19,
-								["activedamt"] = 0,
-								["appliedamt"] = 10,
-								["id"] = 51714,
-								["uptime"] = 54,
-								["targets"] = {
-								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[55095] = {
-								["refreshamt"] = 42,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 13,
 								["id"] = 55095,
 								["uptime"] = 64,
 								["targets"] = {
 								},
+								["refreshamt"] = 42,
+							},
+							[211793] = {
 								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 18,
+								["id"] = 211793,
+								["uptime"] = 56,
+								["targets"] = {
+								},
+								["refreshamt"] = 111,
+							},
+							[51714] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 51714,
+								["uptime"] = 54,
+								["targets"] = {
+								},
+								["refreshamt"] = 19,
 							},
 						},
+						["tipo"] = 9,
 					},
-					["buff_uptime"] = 164,
+					["pets"] = {
+					},
 					["classe"] = "DEATHKNIGHT",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[51124] = {
-								["refreshamt"] = 1,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 51124,
 								["uptime"] = 23,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 1,
 							},
 							[228128] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 228128,
 								["uptime"] = 29,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[101568] = {
-								["refreshamt"] = 1,
+								["counter"] = 0,
 								["activedamt"] = 5,
 								["appliedamt"] = 5,
 								["id"] = 101568,
 								["uptime"] = 46,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 1,
 							},
 							[196770] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 196770,
 								["uptime"] = 44,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[59052] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 3,
 								["appliedamt"] = 3,
 								["id"] = 59052,
 								["uptime"] = 22,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 177,
-					["buff_uptime_targets"] = {
-					},
+					["nome"] = "Ultimakiddo-WyrmrestAccord",
 					["spec"] = 251,
 					["grupo"] = true,
 					["spell_cast"] = {
 						[49020] = 8,
 						[49143] = 7,
 						[56222] = 1,
-						[49998] = 2,
-						[49184] = 19,
-						[196771] = 49,
 						[196770] = 6,
+						[49184] = 19,
+						[49998] = 2,
+						[196771] = 49,
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["buff_uptime_targets"] = {
 					},
 					["debuff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["nome"] = "Ultimakiddo-WyrmrestAccord",
-					["pets"] = {
-					},
 					["serial"] = "Player-1171-08551398",
-					["last_event"] = 0,
+					["buff_uptime"] = 164,
 				}, -- [3]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
-							[980] = {
-								["refreshamt"] = 127,
-								["activedamt"] = 0,
-								["appliedamt"] = 17,
-								["id"] = 980,
-								["uptime"] = 155,
-								["targets"] = {
-								},
+							[233497] = {
 								["counter"] = 0,
-							},
-							[233496] = {
-								["refreshamt"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 3,
-								["id"] = 233496,
-								["uptime"] = 23,
+								["id"] = 233497,
+								["uptime"] = 19,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[146739] = {
-								["refreshamt"] = 77,
+								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 17,
+								["appliedamt"] = 19,
 								["id"] = 146739,
-								["uptime"] = 135,
+								["uptime"] = 156,
+								["targets"] = {
+								},
+								["refreshamt"] = 77,
+							},
+							[22703] = {
+								["id"] = 22703,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[233497] = {
+							[233490] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 10,
+								["id"] = 233490,
+								["uptime"] = 50,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[980] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 19,
+								["id"] = 980,
+								["uptime"] = 177,
+								["targets"] = {
+								},
+								["refreshamt"] = 139,
+							},
+							[233496] = {
+								["counter"] = 0,
+								["activedamt"] = 0,
+								["appliedamt"] = 5,
+								["id"] = 233496,
+								["uptime"] = 35,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[233498] = {
 								["refreshamt"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 2,
-								["id"] = 233497,
-								["uptime"] = 14,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[198590] = {
-								["refreshamt"] = 1,
-								["activedamt"] = 0,
-								["appliedamt"] = 15,
-								["id"] = 198590,
-								["uptime"] = 47,
+								["appliedamt"] = 1,
+								["id"] = 233498,
+								["uptime"] = 3,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
 							[27243] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 0,
 								["appliedamt"] = 30,
 								["id"] = 27243,
 								["uptime"] = 35,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[233490] = {
 								["refreshamt"] = 0,
+							},
+							[198590] = {
+								["counter"] = 0,
 								["activedamt"] = 0,
-								["appliedamt"] = 8,
-								["id"] = 233490,
-								["uptime"] = 35,
+								["appliedamt"] = 17,
+								["id"] = 198590,
+								["uptime"] = 55,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 2,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 1.014163,
-					["buff_uptime"] = 648,
+					["buff_uptime"] = 680,
 					["classe"] = "WARLOCK",
 					["cooldowns_defensive_targets"] = {
 						["Zethan"] = 1,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[20707] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 20707,
 								["uptime"] = 201,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[104773] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 104773,
 								["uptime"] = 8,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[228128] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
 								["uptime"] = 27,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[256374] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 4,
-								["appliedamt"] = 4,
+								["counter"] = 0,
+								["activedamt"] = 5,
+								["appliedamt"] = 5,
 								["id"] = 256374,
-								["uptime"] = 47,
+								["uptime"] = 58,
 								["targets"] = {
 								},
-								["counter"] = 0,
-							},
-							[256948] = {
 								["refreshamt"] = 0,
-								["activedamt"] = 1,
-								["appliedamt"] = 1,
-								["id"] = 256948,
-								["uptime"] = 2,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[108366] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 15,
-								["appliedamt"] = 15,
-								["id"] = 108366,
-								["uptime"] = 162,
-								["targets"] = {
-								},
-								["counter"] = 0,
 							},
 							[186406] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 7,
 								["appliedamt"] = 7,
 								["id"] = 186406,
 								["uptime"] = 201,
 								["targets"] = {
 								},
+								["refreshamt"] = 0,
+							},
+							[108366] = {
 								["counter"] = 0,
+								["activedamt"] = 22,
+								["appliedamt"] = 22,
+								["id"] = 108366,
+								["uptime"] = 183,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
+							},
+							[256948] = {
+								["counter"] = 0,
+								["activedamt"] = 1,
+								["appliedamt"] = 1,
+								["id"] = 256948,
+								["uptime"] = 2,
+								["targets"] = {
+								},
+								["refreshamt"] = 0,
 							},
 						},
-					},
-					["debuff_uptime"] = 444,
-					["cooldowns_defensive_spells"] = {
 						["tipo"] = 9,
+					},
+					["fight_component"] = true,
+					["debuff_uptime"] = 530,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 265,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[1122] = 0,
+						[104773] = 1,
+						[256948] = 1,
+						[257040] = 1,
+						[980] = 22,
+						[172] = 6,
+						[20707] = 0,
+						[30108] = 19,
+						[198590] = 19,
+						[27243] = 13,
+					},
+					["last_event"] = 0,
+					["serial"] = "Player-11-0AFB757C",
+					["tipo"] = 4,
+					["pets"] = {
+						"Belpad <Zethan> <Zethan>", -- [1]
+					},
+					["nome"] = "Zethan",
+					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[104773] = {
 								["id"] = 104773,
@@ -8202,30 +7645,10 @@ _detalhes_database = {
 								["counter"] = 1,
 							},
 						},
-					},
-					["buff_uptime_targets"] = {
-					},
-					["spec"] = 265,
-					["grupo"] = true,
-					["spell_cast"] = {
-						[172] = 4,
-						[30108] = 13,
-						[104773] = 1,
-						[257040] = 1,
-						[256948] = 1,
-						[198590] = 16,
-						[27243] = 13,
-						[980] = 21,
+						["tipo"] = 9,
 					},
 					["debuff_uptime_targets"] = {
 					},
-					["tipo"] = 4,
-					["nome"] = "Zethan",
-					["pets"] = {
-						"Belpad <Zethan> <Zethan>", -- [1]
-					},
-					["serial"] = "Player-11-0AFB757C",
-					["last_event"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 4369,
@@ -8233,92 +7656,92 @@ _detalhes_database = {
 					["nome"] = "Belpad <Zethan> <Zethan>",
 					["pets"] = {
 					},
-					["last_event"] = 0,
-					["classe"] = "PET",
 					["tipo"] = 4,
-					["serial"] = "Pet-0-3135-574-5747-416-010297FE54",
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[3110] = 50,
 					},
+					["serial"] = "Pet-0-3135-574-5747-416-010297FE54",
+					["classe"] = "PET",
 				}, -- [5]
 				{
 					["flag_original"] = 1047,
-					["buff_uptime_targets"] = {
-					},
 					["nome"] = "Fgassecond-Dalaran",
 					["spec"] = 258,
 					["grupo"] = true,
+					["last_event"] = 0,
+					["buff_uptime"] = 397,
+					["buff_uptime_targets"] = {
+					},
 					["pets"] = {
 					},
+					["classe"] = "PRIEST",
 					["spell_cast"] = {
 						[34861] = 1,
 						[68996] = 1,
-						[121536] = 1,
-						[2061] = 13,
-						[139] = 3,
-						[596] = 1,
 						[2050] = 1,
+						[596] = 1,
+						[121536] = 1,
+						[139] = 3,
+						[2061] = 13,
 					},
-					["buff_uptime"] = 397,
-					["tipo"] = 4,
-					["classe"] = "PRIEST",
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[186406] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 186406,
 								["uptime"] = 174,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[232698] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 232698,
 								["uptime"] = 2,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[228128] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 228128,
 								["uptime"] = 40,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[121557] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 1,
 								["appliedamt"] = 1,
 								["id"] = 121557,
 								["uptime"] = 7,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[93806] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 93806,
 								["uptime"] = 174,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["serial"] = "Player-3683-0A8727DF",
-					["last_event"] = 0,
+					["tipo"] = 4,
 				}, -- [6]
 			},
 		}, -- [4]
@@ -8335,27 +7758,27 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 1073,
 		["totals"] = {
-			1029536.228775, -- [1]
-			128753.112255, -- [2]
+			1064894.263975, -- [1]
+			133691.138477, -- [2]
 			{
 				0, -- [1]
-				[0] = 1323.104119,
+				[0] = 1328.115396,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 3.01534,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
 				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 3.01534,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -8367,108 +7790,129 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
+			["damage"] = {
+			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
 			["damage_section"] = {
 			},
-			["damage"] = {
-			},
 		},
-		["end_time"] = 15095.687,
-		["data_inicio"] = "23:05:26",
+		["end_time"] = 2997540.625,
+		["totals_grupo"] = {
+			817847.145229, -- [1]
+			133691.122074, -- [2]
+			{
+				0, -- [1]
+				[0] = 1328.115396,
+				["alternatepower"] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 3.01534,
+			}, -- [4]
+		},
+		["overall_refreshed"] = true,
+		["hasSaved"] = true,
 		["frags"] = {
 		},
-		["data_fim"] = "23:10:11",
+		["data_fim"] = "13:35:55",
 		["overall_enemy_name"] = "-- x -- x --",
 		["CombatSkillCache"] = {
 		},
 		["segments_added"] = {
 			{
+				["elapsed"] = 10.9499999997206,
+				["type"] = 0,
+				["name"] = "Scavenge-bot 004-A8",
+				["clock"] = "13:35:44",
+			}, -- [1]
+			{
+				["elapsed"] = 13.1240000003018,
+				["type"] = 0,
+				["name"] = "Scavenge-bot 004-A8",
+				["clock"] = "13:35:19",
+			}, -- [2]
+			{
 				["elapsed"] = 19,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:09:52",
-			}, -- [1]
+			}, -- [3]
 			{
 				["elapsed"] = 32.005000000001,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:09:05",
-			}, -- [2]
+			}, -- [4]
 			{
 				["elapsed"] = 48.0010000000002,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:08:00",
-			}, -- [3]
+			}, -- [5]
 			{
 				["elapsed"] = 15.0040000000008,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:07:41",
-			}, -- [4]
+			}, -- [6]
 			{
 				["elapsed"] = 20.0069999999996,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:07:15",
-			}, -- [5]
+			}, -- [7]
 			{
 				["elapsed"] = 40.0049999999992,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:06:12",
-			}, -- [6]
+			}, -- [8]
 			{
 				["elapsed"] = 27.0079999999998,
 				["type"] = 5,
 				["name"] = "Trash Cleanup",
 				["clock"] = "23:05:26",
-			}, -- [7]
+			}, -- [9]
 		},
-		["start_time"] = 14894.657,
+		["start_time"] = 2997315.521,
 		["TimeData"] = {
 			["Player Damage Done"] = {
 			},
 			["Raid Damage Done"] = {
 			},
 		},
-		["totals_grupo"] = {
-			793939.134814, -- [1]
-			128753.110277, -- [2]
-			{
-				0, -- [1]
-				[0] = 1323.104119,
-				["alternatepower"] = 0,
-				[3] = 0,
-				[6] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 0,
-				["debuff_uptime"] = 0,
-				["cooldowns_defensive"] = 3.01534,
-				["interrupt"] = 0,
-				["dispell"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
-	},
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
+		["data_inicio"] = "23:05:26",
 	},
 	["character_data"] = {
-		["logons"] = 24,
+		["logons"] = 25,
 	},
-	["last_day"] = "08",
+	["force_font_outline"] = "",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
+	},
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
@@ -8481,10 +7925,6 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
-		["Player-3725-0A7C10B1"] = 66,
-		["Player-1171-08551394"] = 251,
-		["Player-1171-08551398"] = 251,
 		["Player-11-0AFB757C"] = 265,
-		["Player-3683-0A8727DF"] = 257,
 	},
 }

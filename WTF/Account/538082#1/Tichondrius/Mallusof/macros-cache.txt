@@ -10,7 +10,12 @@ VER 3 0100000000000007 "Lifegrip" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000008 "Shining" "INV_MISC_QUESTIONMARK"
 #showtooltip Shining Force
-/target Selendis
+/target Zael
+/cast Shining Force
+END
+VER 3 010000000000000A "Shining Force se" "INV_MISC_QUESTIONMARK"
+#showtooltip Shining Force
+/target Mallusof
 /cast Shining Force
 END
 VER 3 0100000000000009 "Vari" "INV_MISC_QUESTIONMARK"

@@ -80,7 +80,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["faction"] = "Horde",
+				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["faction"] = "Alliance",

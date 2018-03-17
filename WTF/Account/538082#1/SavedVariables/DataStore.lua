@@ -120,7 +120,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["faction"] = "Horde",
+				["faction"] = "Alliance",
 			},
 		},
 		["ShortToLongRealmNames"] = {

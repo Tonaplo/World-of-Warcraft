@@ -39,8 +39,8 @@ BigWigs3DB = {
 					["posx"] = 344.977757614313,
 					["fontSize"] = 12,
 					["fontOutline"] = "",
-					["font"] = "Prototype",
 					["posy"] = 75.5114390974395,
+					["font"] = "Prototype",
 				},
 			},
 		},
@@ -167,7 +167,17 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Bosses_The Coven of Shivarra"] = {
+			["profiles"] = {
+				["Default"] = {
+					[244899] = 0,
+					[253650] = 0,
+					[253203] = 0,
+					[245518] = 0,
+					[253429] = 0,
+					[246329] = 98307,
+				},
+			},
 		},
 		["BigWigs_Plugins_Colors"] = {
 			["profiles"] = {
@@ -215,21 +225,21 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["Default"] = {
-					["BigWigsEmphasizeAnchor_y"] = 275,
+					["barStyle"] = "BeautyCase",
 					["fontSize"] = 18,
-					["BigWigsEmphasizeAnchor_width"] = 400.332885742188,
+					["fill"] = false,
 					["BigWigsAnchor_width"] = 412.852294921875,
-					["BigWigsAnchor_y"] = 553.244378579591,
+					["BigWigsEmphasizeAnchor_width"] = 400.332885742188,
 					["BigWigsEmphasizeAnchor_x"] = 543.311049774751,
-					["emphasizeTime"] = 10,
-					["font"] = "Prototype",
+					["BigWigsAnchor_y"] = 553.244378579591,
+					["growup"] = false,
 					["emphasizeGrowup"] = true,
 					["BigWigsAnchor_x"] = 3.17738821849466,
 					["monochrome"] = false,
-					["growup"] = false,
-					["barStyle"] = "BeautyCase",
+					["font"] = "Prototype",
+					["BigWigsEmphasizeAnchor_y"] = 275,
 					["emphasizeScale"] = 1,
-					["fill"] = false,
+					["emphasizeTime"] = 10,
 				},
 			},
 		},
@@ -269,20 +279,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 20,
-					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
-					["BWMessageAnchor_x"] = 849.45227959023,
-					["growUpwards"] = true,
-					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
-					["font"] = "Prototype",
-					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
-					["BWMessageAnchor_y"] = 438.129133361759,
-					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
-				},
-			},
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Bosses_Kil'jaeden"] = {
 			["profiles"] = {
@@ -293,15 +290,18 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Respawn"] = {
 		},
-		["BigWigs_Bosses_The Coven of Shivarra"] = {
+		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Default"] = {
-					[244899] = 0,
-					[253650] = 0,
-					[253203] = 0,
-					[245518] = 0,
-					[253429] = 0,
-					[246329] = 98307,
+					["BWEmphasizeMessageAnchor_x"] = 616.17532458582,
+					["BWEmphasizeCountdownMessageAnchor_x"] = 669.666680759037,
+					["BWMessageAnchor_x"] = 849.45227959023,
+					["growUpwards"] = true,
+					["BWEmphasizeCountdownMessageAnchor_y"] = 380.122239475168,
+					["font"] = "Prototype",
+					["BWEmphasizeMessageAnchor_y"] = 639.051038208396,
+					["BWMessageAnchor_y"] = 438.129133361759,
+					["fontSize"] = 20,
 				},
 			},
 		},
@@ -335,6 +335,7 @@ BigWigs3DB = {
 			},
 		},
 	},
+	["discord"] = 15,
 	["profileKeys"] = {
 		["Kaldorath - Proudmoore"] = "Default",
 		["Praerend - Proudmoore"] = "Default",
@@ -358,7 +359,6 @@ BigWigs3DB = {
 		["Alura - Tichondrius"] = "Default",
 		["Amranar - Proudmoore"] = "Default",
 	},
-	["discord"] = 15,
 	["profiles"] = {
 		["Default"] = {
 			["fakeDBMVersion"] = true,
@@ -952,6 +952,9 @@ BigWigsStatsDB = {
 				["kills"] = 5,
 				["best"] = 321.301,
 				["wipes"] = 8,
+			},
+			["mythic"] = {
+				["wipes"] = 20,
 			},
 			["normal"] = {
 				["kills"] = 8,

@@ -30,7 +30,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Scepter of Sargeras",
 				["Artifacts"] = {
 					["Scepter of Sargeras"] = {
-						["pointsRemaining"] = 14101716370,
+						["pointsRemaining"] = 68439224970,
 						["rank"] = 69,
 						["tier"] = 2,
 					},
@@ -46,7 +46,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARLOCK",
-				["lastUpdate"] = 1520114354,
+				["lastUpdate"] = 1521219282,
 				["Specializations"] = {
 					13978, -- [1]
 					14939, -- [2]
@@ -56,14 +56,14 @@ DataStore_TalentsDB = {
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["EquippedArtifact"] = "Xal'atath, Blade of the Black Empire",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					7894, -- [1]
-					9846, -- [2]
+					9831, -- [2]
 					7514, -- [3]
 				},
-				["lastUpdate"] = 1521007998,
+				["lastUpdate"] = 1521233400,
 				["Class"] = "PRIEST",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -78,8 +78,8 @@ DataStore_TalentsDB = {
 						["rank"] = 1,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
-						["pointsRemaining"] = 35682418120,
-						["rank"] = 71,
+						["pointsRemaining"] = 57357436720,
+						["rank"] = 72,
 						["tier"] = 2,
 					},
 					["Light's Wrath"] = {
@@ -98,7 +98,7 @@ DataStore_TalentsDB = {
 				["Class"] = "PRIEST",
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["EquippedArtifact"] = "Blades of the Fallen Prince",
+				["EquippedArtifact"] = "Maw of the Damned",
 				["Artifacts"] = {
 					["Blades of the Fallen Prince"] = {
 						["pointsRemaining"] = 12641230905,
@@ -106,8 +106,8 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Maw of the Damned"] = {
-						["pointsRemaining"] = 75623644580,
-						["rank"] = 70,
+						["pointsRemaining"] = 61923154480,
+						["rank"] = 71,
 						["tier"] = 2,
 					},
 					["Apocalypse"] = {
@@ -117,7 +117,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1520138965,
+				["lastUpdate"] = 1521219399,
 				["Specializations"] = {
 					5783, -- [1]
 					5611, -- [2]
@@ -134,14 +134,14 @@ DataStore_TalentsDB = {
 					14742, -- [2]
 					7101, -- [3]
 				},
-				["lastUpdate"] = 1520109259,
+				["lastUpdate"] = 1521219352,
 				["Class"] = "PALADIN",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Ashbringer"] = {
 						["tier"] = 2,
-						["rank"] = 65,
-						["pointsRemaining"] = 11946856850,
+						["rank"] = 67,
+						["pointsRemaining"] = 23194866100,
 					},
 					["The Silver Hand"] = {
 						["tier"] = 2,
@@ -163,7 +163,7 @@ DataStore_TalentsDB = {
 					13781, -- [2]
 					10091, -- [3]
 				},
-				["lastUpdate"] = 1520140455,
+				["lastUpdate"] = 1521059664,
 				["Class"] = "HUNTER",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -174,8 +174,8 @@ DataStore_TalentsDB = {
 					},
 					["Titanstrike"] = {
 						["tier"] = 2,
-						["rank"] = 69,
-						["pointsRemaining"] = 30296684365,
+						["rank"] = 70,
+						["pointsRemaining"] = 32928194065,
 					},
 					["Thas'dorah, Legacy of the Windrunners"] = {
 						["pointsRemaining"] = 4212858760,
@@ -192,14 +192,14 @@ DataStore_TalentsDB = {
 					8086, -- [2]
 					7670, -- [3]
 				},
-				["lastUpdate"] = 1520484516,
+				["lastUpdate"] = 1521219467,
 				["Class"] = "MAGE",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Ebonchill, Greatstaff of Alodi"] = {
 						["tier"] = 2,
 						["rank"] = 69,
-						["pointsRemaining"] = 42575943050,
+						["pointsRemaining"] = 84754449700,
 					},
 					["Felo'melorn"] = {
 						["pointsRemaining"] = 11359054095,
@@ -229,7 +229,7 @@ DataStore_TalentsDB = {
 					7007, -- [3]
 					7659, -- [4]
 				},
-				["lastUpdate"] = 1520107738,
+				["lastUpdate"] = 1521059417,
 				["Class"] = "DRUID",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -246,7 +246,7 @@ DataStore_TalentsDB = {
 					["Fangs of Ashamane"] = {
 						["tier"] = 2,
 						["rank"] = 67,
-						["pointsRemaining"] = 24557065070,
+						["pointsRemaining"] = 89730575370,
 					},
 					["Scythe of Elune"] = {
 						["tier"] = 2,
@@ -262,14 +262,14 @@ DataStore_TalentsDB = {
 					14814, -- [1]
 					8121, -- [2]
 				},
-				["lastUpdate"] = 1520135113,
+				["lastUpdate"] = 1521219427,
 				["Class"] = "DEMONHUNTER",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Twinblades of the Deceiver"] = {
 						["tier"] = 2,
-						["rank"] = 67,
-						["pointsRemaining"] = 34211904690,
+						["rank"] = 69,
+						["pointsRemaining"] = 8750413290,
 					},
 					["The Aldrachi Warblades"] = {
 						["tier"] = 2,
@@ -279,7 +279,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1520579423,
+				["lastUpdate"] = 1521145711,
 				["Specializations"] = {
 					154, -- [1]
 				},
@@ -293,7 +293,7 @@ DataStore_TalentsDB = {
 					7161, -- [2]
 					7034, -- [3]
 				},
-				["lastUpdate"] = 1519800251,
+				["lastUpdate"] = 1521061343,
 				["Class"] = "ROGUE",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -310,7 +310,7 @@ DataStore_TalentsDB = {
 					["The Dreadblades"] = {
 						["tier"] = 2,
 						["rank"] = 69,
-						["pointsRemaining"] = 51229300505,
+						["pointsRemaining"] = 78476804805,
 					},
 				},
 			},
@@ -344,14 +344,14 @@ DataStore_TalentsDB = {
 					9813, -- [2]
 					7593, -- [3]
 				},
-				["lastUpdate"] = 1520484601,
+				["lastUpdate"] = 1521219514,
 				["Class"] = "WARRIOR",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Scale of the Earth-Warder"] = {
 						["tier"] = 2,
 						["rank"] = 72,
-						["pointsRemaining"] = 20997681635,
+						["pointsRemaining"] = 48087685885,
 					},
 					["Strom'kar, the Warbreaker"] = {
 						["pointsRemaining"] = 27566426570,
@@ -373,7 +373,7 @@ DataStore_TalentsDB = {
 					5531, -- [2]
 					14239, -- [3]
 				},
-				["lastUpdate"] = 1519799792,
+				["lastUpdate"] = 1521060211,
 				["Class"] = "SHAMAN",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -416,13 +416,13 @@ DataStore_TalentsDB = {
 						["tier"] = 2,
 					},
 					["Fists of the Heavens"] = {
-						["pointsRemaining"] = 9382649570,
-						["rank"] = 62,
+						["pointsRemaining"] = 12209159170,
+						["rank"] = 66,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "MONK",
-				["lastUpdate"] = 1520137117,
+				["lastUpdate"] = 1521060773,
 				["Specializations"] = {
 					13782, -- [1]
 					11253, -- [2]
@@ -717,7 +717,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25996,
+			["Version"] = 26124,
 		},
 		["MAGE"] = {
 			["Locale"] = "enUS",
@@ -1150,7 +1150,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25996,
+			["Version"] = 26124,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",

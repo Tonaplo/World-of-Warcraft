@@ -48,13 +48,6 @@ X: 249
 Y: 15
 W: 790
 H: 454
-Frame: WQGFManualActionsFrame
-FrameLevel: 0
-Anchor: LEFT
-X: 9
-Y: -208
-W: 370
-H: 110
 Frame: ImmersionToast
 FrameLevel: 1
 Anchor: LEFT
@@ -62,3 +55,10 @@ X: 112
 Y: 162
 W: 235
 H: 25
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 9
+Y: -208
+W: 370
+H: 110

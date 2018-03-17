@@ -30,7 +30,7 @@ ConditionerAddOn_SavedVariables = {
 		["OnlyDisplayInCombat"] = false,
 	},
 	["TalentsPerLoadout"] = {
-		[32] = "2211131",
 		[33] = "2211131",
+		[32] = "2211131",
 	},
 }

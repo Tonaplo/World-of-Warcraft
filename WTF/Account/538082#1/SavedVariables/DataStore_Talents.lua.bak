@@ -34,14 +34,14 @@ DataStore_TalentsDB = {
 					14939, -- [2]
 					14773, -- [3]
 				},
-				["lastUpdate"] = 1520114354,
+				["lastUpdate"] = 1521219282,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Scepter of Sargeras"] = {
 						["tier"] = 2,
 						["rank"] = 69,
-						["pointsRemaining"] = 14101716370,
+						["pointsRemaining"] = 68439224970,
 					},
 					["Ulthalesh, the Deadwind Harvester"] = {
 						["tier"] = 2,
@@ -75,15 +75,15 @@ DataStore_TalentsDB = {
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
-						["rank"] = 71,
-						["pointsRemaining"] = 35682418120,
+						["rank"] = 72,
+						["pointsRemaining"] = 23683931620,
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1520564906,
+				["lastUpdate"] = 1521232137,
 				["Specializations"] = {
 					7894, -- [1]
-					9846, -- [2]
+					9831, -- [2]
 					7514, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
@@ -98,14 +98,14 @@ DataStore_TalentsDB = {
 				["Class"] = "PRIEST",
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["EquippedArtifact"] = "Blades of the Fallen Prince",
+				["EquippedArtifact"] = "Maw of the Damned",
 				["ArtifactKnowledgeMultiplier"] = 6300001,
 				["Specializations"] = {
 					5783, -- [1]
 					5611, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1520138965,
+				["lastUpdate"] = 1521219399,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -121,8 +121,8 @@ DataStore_TalentsDB = {
 					},
 					["Maw of the Damned"] = {
 						["tier"] = 2,
-						["rank"] = 70,
-						["pointsRemaining"] = 75623644580,
+						["rank"] = 71,
+						["pointsRemaining"] = 61923154480,
 					},
 				},
 			},
@@ -130,8 +130,8 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Ashbringer",
 				["Artifacts"] = {
 					["Ashbringer"] = {
-						["pointsRemaining"] = 11946856850,
-						["rank"] = 65,
+						["pointsRemaining"] = 23194866100,
+						["rank"] = 67,
 						["tier"] = 2,
 					},
 					["The Silver Hand"] = {
@@ -146,7 +146,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1520109259,
+				["lastUpdate"] = 1521219352,
 				["Specializations"] = {
 					6762, -- [1]
 					14742, -- [2]
@@ -164,8 +164,8 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 9285512020,
 					},
 					["Titanstrike"] = {
-						["pointsRemaining"] = 30296684365,
-						["rank"] = 69,
+						["pointsRemaining"] = 32928194065,
+						["rank"] = 70,
 						["tier"] = 2,
 					},
 					["Thas'dorah, Legacy of the Windrunners"] = {
@@ -175,7 +175,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "HUNTER",
-				["lastUpdate"] = 1520140455,
+				["lastUpdate"] = 1521059664,
 				["Specializations"] = {
 					10135, -- [1]
 					13781, -- [2]
@@ -198,13 +198,13 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 11359054095,
 					},
 					["Ebonchill, Greatstaff of Alodi"] = {
-						["pointsRemaining"] = 42575943050,
+						["pointsRemaining"] = 84754449700,
 						["rank"] = 69,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1520484516,
+				["lastUpdate"] = 1521219467,
 				["Specializations"] = {
 					8166, -- [1]
 					8086, -- [2]
@@ -234,7 +234,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 3204972267,
 					},
 					["Fangs of Ashamane"] = {
-						["pointsRemaining"] = 24557065070,
+						["pointsRemaining"] = 89730575370,
 						["rank"] = 67,
 						["tier"] = 2,
 					},
@@ -245,7 +245,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DRUID",
-				["lastUpdate"] = 1520107738,
+				["lastUpdate"] = 1521059417,
 				["Specializations"] = {
 					9819, -- [1]
 					6750, -- [2]
@@ -259,8 +259,8 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Twinblades of the Deceiver",
 				["Artifacts"] = {
 					["Twinblades of the Deceiver"] = {
-						["pointsRemaining"] = 34211904690,
-						["rank"] = 67,
+						["pointsRemaining"] = 8750413290,
+						["rank"] = 69,
 						["tier"] = 2,
 					},
 					["The Aldrachi Warblades"] = {
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1520135113,
+				["lastUpdate"] = 1521219427,
 				["Specializations"] = {
 					14814, -- [1]
 					8121, -- [2]
@@ -289,7 +289,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "The Dreadblades",
 				["Artifacts"] = {
 					["The Dreadblades"] = {
-						["pointsRemaining"] = 51229300505,
+						["pointsRemaining"] = 78476804805,
 						["rank"] = 69,
 						["tier"] = 2,
 					},
@@ -305,7 +305,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "ROGUE",
-				["lastUpdate"] = 1519800251,
+				["lastUpdate"] = 1521061343,
 				["Specializations"] = {
 					6614, -- [1]
 					7161, -- [2]
@@ -345,7 +345,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 27566426570,
 					},
 					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 20997681635,
+						["pointsRemaining"] = 48087685885,
 						["rank"] = 72,
 						["tier"] = 2,
 					},
@@ -356,7 +356,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1520484601,
+				["lastUpdate"] = 1521219514,
 				["Specializations"] = {
 					10647, -- [1]
 					9813, -- [2]
@@ -385,7 +385,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1519799792,
+				["lastUpdate"] = 1521060211,
 				["Specializations"] = {
 					8029, -- [1]
 					5531, -- [2]
@@ -410,7 +410,7 @@ DataStore_TalentsDB = {
 					11253, -- [2]
 					15854, -- [3]
 				},
-				["lastUpdate"] = 1520137117,
+				["lastUpdate"] = 1521060773,
 				["Class"] = "MONK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -426,13 +426,13 @@ DataStore_TalentsDB = {
 					},
 					["Fists of the Heavens"] = {
 						["tier"] = 2,
-						["rank"] = 62,
-						["pointsRemaining"] = 9382649570,
+						["rank"] = 66,
+						["pointsRemaining"] = 12209159170,
 					},
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1520579423,
+				["lastUpdate"] = 1521145711,
 				["Specializations"] = {
 					154, -- [1]
 				},
@@ -717,7 +717,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25996,
+			["Version"] = 26124,
 		},
 		["MAGE"] = {
 			["Locale"] = "enUS",
@@ -1168,7 +1168,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 25996,
+			["Version"] = 26124,
 		},
 		["DRUID"] = {
 			["Locale"] = "enUS",

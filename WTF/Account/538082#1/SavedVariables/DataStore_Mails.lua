@@ -124,6 +124,10 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1518997790,
 				["lastVisitDate"] = "2018/02/18 15:49",
 			},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1519550593,
+				["lastVisitDate"] = "2018/02/25 01:23",
+			},
 			["Default.Bleeding Hollow.Zaliga"] = {
 				["lastUpdate"] = 1509607753,
 				["lastVisitDate"] = "2017/11/02 00:29",
@@ -135,10 +139,6 @@ DataStore_MailsDB = {
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1519003450,
 				["lastVisitDate"] = "2018/02/18 17:24",
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1519550593,
-				["lastVisitDate"] = "2018/02/25 01:23",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1519021699,
