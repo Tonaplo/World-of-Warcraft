@@ -1,5 +1,11 @@
-changeset:   707:aa06683bfa18
+changeset:   708:2c718c3348dc
 tag:         tip
+user:        Tercio
+date:        Fri Mar 16 13:04:05 2018 -0300
+summary:     - Added run macro to disable arena team colors, use '/run Details.color_by_arena_team = false;' to disable it.
+
+
+changeset:   707:aa06683bfa18
 user:        Tercio
 date:        Tue Mar 13 22:15:05 2018 -0300
 summary:     - hot fixes for the last update.

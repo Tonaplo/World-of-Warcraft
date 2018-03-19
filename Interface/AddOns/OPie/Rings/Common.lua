@@ -6,12 +6,12 @@ local function generateColor(c, n)
 	local h, f = floor(hue/60) % 6, (hue/60) % 1
 	local p, q, t = v - v*s, v - v*f*s, v - v*s + v*f*s
 
-	if h == 0 then return v, t, p;
-	elseif h == 1 then return q, v, p;
-	elseif h == 2 then return p, v, t;
-	elseif h == 3 then return p, q, v;
-	elseif h == 4 then return t, p, v;
-	elseif h == 5 then return v, p, q;
+	if h == 0 then return v, t, p
+	elseif h == 1 then return q, v, p
+	elseif h == 2 then return p, v, t
+	elseif h == 3 then return p, q, v
+	elseif h == 4 then return t, p, v
+	elseif h == 5 then return v, p, q
 	end
 end
 
@@ -19,12 +19,12 @@ do -- OPieTrinkets
 	OneRingLib:SetRing("OPieTrinkets", AB:CreateActionSlot(nil,nil, "collection", { "OPieBundleTrinket0", "OPieBundleTrinket1",
 		OPieBundleTrinket0 = AB:GetActionSlot("item", (GetInventorySlotInfo("Trinket0Slot")), false, true),
 		OPieBundleTrinket1 = AB:GetActionSlot("item", (GetInventorySlotInfo("Trinket1Slot")), false, true),
-	}), {name=L"Trinkets"});
+	}), {name=L"Trinkets"})
 end
 do -- OPieTracker
 	local collectionData = {}
 	local function setTracking(id)
-		SetTracking(id, not select(3, GetTrackingInfo(id)));
+		SetTracking(id, not select(3, GetTrackingInfo(id)))
 	end
 	local function hint(k)
 		local name, tex, on = GetTrackingInfo(k)
@@ -79,7 +79,7 @@ do -- OPieAutoQuest
 	end
 	local function syncRing(_, _, upId)
 		if upId ~= colId then return end
-		changed, current = false, ((ctok or 0) + 1) % 2;
+		changed, current = false, ((ctok or 0) + 1) % 2
 
 		-- Search quest log
 		for i=1,GetNumQuestLogEntries() do
@@ -97,9 +97,9 @@ do -- OPieAutoQuest
 		-- Search bags
 		for bag=0,4 do
 			for slot=1,GetContainerNumSlots(bag) do
-				local iid = GetContainerItemID(bag, slot);
-				local isQuest, startQuestId, isQuestActive = GetContainerItemQuestInfo(bag, slot);
-				isQuest = iid and ((isQuest and GetItemSpell(iid)) or (whitelist[iid] == true) or (startQuestId and not isQuestActive and not IsQuestFlaggedCompleted(startQuestId)));
+				local iid = GetContainerItemID(bag, slot)
+				local isQuest, startQuestId, isQuestActive = GetContainerItemQuestInfo(bag, slot)
+				isQuest = iid and ((isQuest and GetItemSpell(iid)) or (whitelist[iid] == true) or (startQuestId and not isQuestActive and not IsQuestFlaggedCompleted(startQuestId)))
 				if not isQuest and type(whitelist[iid]) == "table" then
 					isQuest = true
 					for _, qid in pairs(whitelist[iid]) do
@@ -144,5 +144,5 @@ do -- OPieAutoQuest
 	colId = AB:CreateActionSlot(nil,nil, "collection",collection)
 	OneRingLib:SetRing("OPieAutoQuest", colId, {name=L"Quest Items", hotkey="ALT-Q"})
 	AB:AddObserver("internal.collection.preopen", syncRing)
-	EV.RegisterEvent("PLAYER_REGEN_DISABLED", function() syncRing(nil, nil, colId) end);
+	EV.RegisterEvent("PLAYER_REGEN_DISABLED", function() syncRing(nil, nil, colId) end)
 end

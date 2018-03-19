@@ -100,7 +100,7 @@ R:SetRing("MagePolymorph", {
 	name=L"Polymorphs", limit="MAGE", _u="OPCMP", internal=true
 })
 do -- MageTravel
-	local m = "/cast [mod] {{spell:%s}}; {{spell:%s}}";
+	local m = "/cast [mod] {{spell:%s}}; {{spell:%s}}"
 	R:SetRing("MageTravel", {
 		{id=m:format(224871, 224869), _u="b"}, -- Dalaran Broken Isles
 		{id=m:format("132620/132626", "132621/132627"), _u="v"}, -- Vale of Eternal Blossoms

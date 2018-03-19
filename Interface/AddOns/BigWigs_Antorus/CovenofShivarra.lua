@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("The Coven of Shivarra", nil, 1986, 1712)
+local mod, CL = BigWigs:NewBoss("The Coven of Shivarra", 1712, 1986)
 if not mod then return end
 mod:RegisterEnableMob(122468, 122467, 122469, 125436) -- Noura, Asara, Diima, Thu'raya
 mod.engageId = 2073
@@ -124,11 +124,12 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_REMOVED", "CosmicGlareRemoved", 250757)
 
 	--[[ Ground effects ]]--
-	self:Log("SPELL_AURA_APPLIED", "GroundEffectDamage", 245634, 253020) -- Whirling Saber, Storm of Darkness
-	self:Log("SPELL_PERIODIC_DAMAGE", "GroundEffectDamage", 245634, 253020)
-	self:Log("SPELL_PERIODIC_MISSED", "GroundEffectDamage", 245634, 253020)
-	self:Log("SPELL_DAMAGE", "GroundEffectDamage", 245629) -- Whirling Saber (Impact)
-	self:Log("SPELL_MISSED", "GroundEffectDamage", 245629)
+	self:Log("SPELL_DAMAGE", "WhirlingSaberDamage", 245629, 245634) -- Initial impact, standing in it
+	self:Log("SPELL_MISSED", "WhirlingSaberDamage", 245629, 245634)
+
+	self:Log("SPELL_AURA_APPLIED", "StormOfDarknessDamage", 253020)
+	self:Log("SPELL_PERIODIC_DAMAGE", "StormOfDarknessDamage", 253020)
+	self:Log("SPELL_PERIODIC_MISSED", "StormOfDarknessDamage", 253020)
 end
 
 function mod:OnEngage()
@@ -527,7 +528,7 @@ do
 		playerList[#playerList+1] = args.destName
 
 		if #playerList == 1 then
-			self:Bar(args.spellId, 25.6)
+			self:CDBar(args.spellId, 15)
 			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Attention", "Alarm")
 			if self:GetOption(cosmicGlareMarker) then
 				SetRaidTarget(args.destName, 3)
@@ -550,16 +551,26 @@ end
 --[[ Ground effects ]]--
 do
 	local prev = 0
-	local optionIds = {
-		[245629] = 245627, -- Whirling Saber
-		[245634] = 245627, -- Whirling Saber
-		[253020] = 252861, -- Storm of Darkness
-	}
-	function mod:GroundEffectDamage(args)
-		local t = GetTime()
-		if self:Me(args.destGUID) and t-prev > 1.5 then
-			prev = t
-			self:Message(optionIds[args.spellId] or args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+	function mod:WhirlingSaberDamage(args)
+		if self:Me(args.destGUID) then
+			local t = GetTime()
+			if t-prev > 1.5 then
+				prev = t
+				self:Message(245627, "Personal", "Alert", CL.underyou:format(args.spellName))
+			end
+		end
+	end
+end
+
+do
+	local prev = 0
+	function mod:StormOfDarknessDamage(args)
+		if self:Me(args.destGUID) then
+			local t = GetTime()
+			if t-prev > 1.5 then
+				prev = t
+				self:Message(252861, "Personal", "Alert", CL.underyou:format(args.spellName))
+			end
 		end
 	end
 end

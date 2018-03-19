@@ -53,6 +53,7 @@ local C_MountJournal_GetMountInfoExtraByID = C_MountJournal.GetMountInfoExtraByI
 local C_TransmogCollection_GetAppearanceSourceInfo = C_TransmogCollection.GetAppearanceSourceInfo;
 local C_TransmogCollection_GetAllAppearanceSources = C_TransmogCollection.GetAllAppearanceSources;
 local C_TransmogCollection_GetIllusionSourceInfo = C_TransmogCollection.GetIllusionSourceInfo;
+local C_TransmogCollection_PlayerHasTransmogItemModifiedAppearance = C_TransmogCollection.PlayerHasTransmogItemModifiedAppearance;
 local C_TransmogCollection_GetIllusions = C_TransmogCollection.GetIllusions;
 local C_TransmogCollection_GetSourceInfo = C_TransmogCollection.GetSourceInfo;
 local C_TransmogSets_GetSetInfo = C_TransmogSets.GetSetInfo;
@@ -533,6 +534,7 @@ local DressUpModel = CreateFrame('DressUpModel');
 local NPCModelHarvester = CreateFrame('DressUpModel', nil, OffScreenFrame);
 local inventorySlotsMap = {	-- Taken directly from CanIMogIt (Thanks!)
     ["INVTYPE_HEAD"] = {1},
+	["INVTYPE_NECK"] = {2},
     ["INVTYPE_SHOULDER"] = {3},
     ["INVTYPE_BODY"] = {4},
     ["INVTYPE_CHEST"] = {5},
@@ -542,6 +544,8 @@ local inventorySlotsMap = {	-- Taken directly from CanIMogIt (Thanks!)
     ["INVTYPE_FEET"] = {8},
     ["INVTYPE_WRIST"] = {9},
     ["INVTYPE_HAND"] = {10},
+	["INVTYPE_RING"] = {11},
+	["INVTYPE_TRINKET"] = {12},
     ["INVTYPE_CLOAK"] = {15},
     ["INVTYPE_WEAPON"] = {16, 17},
     ["INVTYPE_SHIELD"] = {17},
@@ -615,7 +619,7 @@ local function GetSourceID(itemLink)
 	end
 	return nil, false;
 end
-AllTheThings.GetSourceID = GetSourceID;
+app.GetSourceID = GetSourceID;
 local function SetPortraitIcon(self, data, x)
 	self.lastData = data;
 	if data.texCoords then
@@ -761,7 +765,7 @@ local function GetCachedSearchResults(search, method, ...)
 					local count = 0;
 					local abbrevs = L("ABBREVIATIONS");
 					for i,j in ipairs(group) do
-						if not j.hideText and j.parent and j.parent.parent and (GetDataMember("ShowCompleteSourceLocations") or (not j.collected and not j.parent.saved)) then
+						if j.parent and not j.parent.hideText and j.parent.parent and (GetDataMember("ShowCompleteSourceLocations") or (not j.collected and not j.parent.saved)) then
 							local text = BuildSourceText(j, 0, j.qg);
 							--print(text .. tostring(j.parent.questID or 0) .. ", " .. tostring(j.parent.saved or 0));
 							for source,replacement in pairs(abbrevs) do
@@ -808,7 +812,7 @@ local function GetCachedSearchResults(search, method, ...)
 end
 
 -- Lua Constructor Lib
-local fieldCache, fieldCache_f, firldCache_g = {};
+local fieldCache = {};
 fieldCache["creatureID"] = {};
 fieldCache["encounterID"] = {};
 fieldCache["objectID"] = {};
@@ -820,10 +824,23 @@ fieldCache["s"] = {};
 fieldCache["speciesID"] = {};
 fieldCache["spellID"] = {};
 fieldCache["toyID"] = {};
-local function CacheFieldID(group, field)
-	firldCache_g = group[field];
+local function CacheArrayFieldIDs(group, field, arrayField)
+	local firldCache_g = group[arrayField];
 	if firldCache_g then
-		fieldCache_f = fieldCache[field][firldCache_g];
+		for i,fieldID in ipairs(firldCache_g) do
+			local fieldCache_f = fieldCache[field][fieldID];
+			if not fieldCache_f then
+				fieldCache_f = {};
+				fieldCache[field][fieldID] = fieldCache_f;
+			end
+			tinsert(fieldCache_f, group);
+		end
+	end
+end
+local function CacheFieldID(group, field)
+	local firldCache_g = group[field];
+	if firldCache_g then
+		local fieldCache_f = fieldCache[field][firldCache_g];
 		if not fieldCache_f then
 			fieldCache_f = {};
 			fieldCache[field][firldCache_g] = fieldCache_f;
@@ -832,9 +849,9 @@ local function CacheFieldID(group, field)
 	end
 end
 local function CacheSubFieldID(group, field, subfield)
-	firldCache_g = group[subfield];
+	local firldCache_g = group[subfield];
 	if firldCache_g then
-		fieldCache_f = fieldCache[field][firldCache_g];
+		local fieldCache_f = fieldCache[field][firldCache_g];
 		if not fieldCache_f then
 			fieldCache_f = {};
 			fieldCache[field][firldCache_g] = fieldCache_f;
@@ -850,6 +867,7 @@ local function CacheFields(group)
 	CacheFieldID(group, "objectID");
 	CacheFieldID(group, "itemID");
 	CacheFieldID(group, "mapID");
+	CacheArrayFieldIDs(group, "mapID", "maps");
 	CacheFieldID(group, "mountID");
 	CacheFieldID(group, "questID");
 	CacheFieldID(group, "s");
@@ -896,7 +914,7 @@ local function SetNoteForGroup(group, note)
 		end
 	end
 end
-AllTheThings.SetNote = SetNote;
+app.SetNote = SetNote;
 
 -- Item Information Lib
 local function SortGearSetInformation(a,b)
@@ -1249,60 +1267,133 @@ local function SearchForItemLink(link)
 							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE"));
 							tinsert(listing, L("RECENTLY_MADE_OBTAINABLE_PT2"));
 						end
-					end
-					
-					local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
-					if sourceInfo then
-						--[[
-						for key, value in pairs(sourceInfo) do
-							tinsert(listing, tostring(key) .. ": " .. tostring(value));
-						end
-						]]--
 						
-						if GetDataMember("ShowSharedAppearances") then
-							for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-								local otherATTSource = SearchForSourceID(otherSourceID);
-								if otherATTSource then
+						local sourceInfo = C_TransmogCollection_GetSourceInfo(sourceID);
+						if sourceInfo then
+							--[[
+							for key, value in pairs(sourceInfo) do
+								tinsert(listing, tostring(key) .. ": " .. tostring(value));
+							end
+							]]--
+							
+							if GetDataMember("ShowSharedAppearances") then
+								if GetDataMember("OnlyShowRelevantSharedAppearances") then
+									-- The user doesn't want to see Shared Appearances that don't match the item's requirements.
 									local text;
-									otherATTSource = otherATTSource[1];
-									local link = otherATTSource.link;
-									if not link then 
-										link = RETRIEVING_DATA;
-										working = true;
-									end
-									if otherATTSource.u then
-										local texture = L("UNOBTAINABLE_ITEM_TEXTURES")[L("UNOBTAINABLE_ITEM_REASONS")[otherATTSource.u or 1][1]];
-										if texture then
-											text = "|T" .. texture .. ":0|t";
+									for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+										local otherATTSource = SearchForSourceID(otherSourceID);
+										if otherATTSource then
+											otherATTSource = otherATTSource[1];
+											
+											-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
+											if group[1].f == otherATTSource.f and not otherATTSource.nmc and not otherATTSource.nmr then
+												local link = otherATTSource.link;
+												if not link then 
+													link = RETRIEVING_DATA;
+													working = true;
+												end
+												if otherATTSource.u then
+													local texture = L("UNOBTAINABLE_ITEM_TEXTURES")[L("UNOBTAINABLE_ITEM_REASONS")[otherATTSource.u or 1][1]];
+													if texture then
+														text = "|T" .. texture .. ":0|t";
+													else
+														text = "   ";
+													end
+												else
+													text = "   ";
+												end
+												text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
+												tinsert(listing, text);
+											end
 										else
-											text = "   ";
+											local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
+											if otherSource then
+												local link = select(2, GetItemInfo(otherSource.itemID));
+												if not link then 
+													link = RETRIEVING_DATA;
+													working = true;
+												end
+												text = " |CFFFF0000!|r " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherSource.isCollected);
+												if otherSource.isCollected then
+													SetDataSubMember("CollectedSources", otherSourceID, 1);
+												end
+												tinsert(listing, text);
+											end
 										end
-									else
-										text = "   ";
 									end
-									text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherATTSource.collected);
-									tinsert(listing, text);
 								else
-									local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
-									if otherSource then
-										local text;
-										local link = select(2, GetItemInfo(otherSource.itemID));
-										if not link then 
-											link = RETRIEVING_DATA;
-											working = true;
+									-- This is where we need to calculate the requirements differently because Unique Mode users are extremely frustrating.
+									local text;
+									for i, otherSourceID in ipairs(C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+										local otherATTSource = SearchForSourceID(otherSourceID);
+										if otherATTSource then
+											otherATTSource = otherATTSource[1];
+											
+											-- Show information about the appearance:
+											local failText = "";
+											local link = otherATTSource.link;
+											if not link then 
+												link = RETRIEVING_DATA;
+												working = true;
+											end
+											if otherATTSource.u then
+												local texture = L("UNOBTAINABLE_ITEM_TEXTURES")[L("UNOBTAINABLE_ITEM_REASONS")[otherATTSource.u or 1][1]];
+												if texture then
+													text = "|T" .. texture .. ":0|t";
+												else
+													text = "   ";
+												end
+											else
+												text = "   ";
+											end
+											text = text .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherATTSource.itemID) .. ")") or "");
+											
+											-- Show all of the reasons why an appearance does not meet given criteria.
+											-- Only show Shared Appearances that match the requirements for this class to prevent people from assuming things.
+											if group[1].f ~= otherATTSource.f then
+												-- This is NOT the same type. Therefore, no credit for you!
+												if #failText > 0 then failText = failText .. ", "; end
+												failText = failText .. (L("FILTER_ID_TYPES")[otherATTSource.f] or "???");
+											elseif otherATTSource.nmc then
+												-- This is NOT for your class. Therefore, no credit for you!
+												if #failText > 0 then failText = failText .. ", "; end
+												-- failText = failText .. "Class Locked";
+												for i,classID in ipairs(otherATTSource.classes) do
+													if i > 1 then failText = failText .. ", "; end
+													failText = failText .. (GetClassInfo(classID) or "???");
+												end
+											elseif otherATTSource.nmr then
+												-- This is NOT for your race. Therefore, no credit for you!
+												if #failText > 1 then failText = failText .. ", "; end
+												failText = failText .. "Race Locked";
+											else
+												-- Should be fine
+											end
+											
+											if #failText > 0 then text = text .. " |CFFFF0000(" .. failText .. ")|r"; end
+											text = text	.. "/" .. GetCollectionIcon(otherATTSource.collected);
+											tinsert(listing, text);
+										else
+											local otherSource = C_TransmogCollection_GetSourceInfo(otherSourceID);
+											if otherSource then
+												local name, link = GetItemInfo(string.format("item:%d:::::::::::%d:1:3524", otherSource.itemID, otherSource.itemModID));
+												if not link then 
+													link = RETRIEVING_DATA;
+													working = true;
+												end
+												text = " |CFFFF0000!|r " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "");
+												if otherSource.isCollected then SetDataSubMember("CollectedSources", otherSourceID, 1); end
+												text = text	.. " |CFFFF0000(MISSING IN ATT)|r/" .. GetCollectionIcon(otherSource.isCollected);
+												tinsert(listing, text);
+											end
 										end
-										text = "   " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "") .. "/" .. GetCollectionIcon(otherSource.isCollected);
-										if otherSource.isCollected then
-											SetDataSubMember("CollectedSources", otherSourceID, 1);
-										end
-										tinsert(listing, text);
 									end
 								end
 							end
+							
+							if GetDataMember("ShowVisualID") then tinsert(listing, L("VISUAL_ID") .. "/" .. tostring(sourceInfo.visualID)); end
+							if GetDataMember("ShowSourceID") then tinsert(listing, L("SOURCE_ID") .. "/" .. sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected)); end
 						end
-						
-						if GetDataMember("ShowVisualID") then tinsert(listing, L("VISUAL_ID") .. "/" .. tostring(sourceInfo.visualID)); end
-						if GetDataMember("ShowSourceID") then tinsert(listing, L("SOURCE_ID") .. "/" .. sourceID .. " " .. GetCollectionIcon(sourceInfo.isCollected)); end
 					end
 				else
 					group = SearchForItemID(itemID);
@@ -1393,11 +1484,11 @@ local function SearchForMissingItemNames(group)
 	end
 	return arr; 
 end
-AllTheThings.SearchForItemID = SearchForItemID;
-AllTheThings.SearchForSourceID = SearchForSourceID;
-AllTheThings.SearchForItemLink = SearchForItemLink;
-AllTheThings.SearchForCachedItemLink = SearchForCachedItemLink;
-AllTheThings.SearchForField = SearchForField;
+app.SearchForItemID = SearchForItemID;
+app.SearchForSourceID = SearchForSourceID;
+app.SearchForItemLink = SearchForItemLink;
+app.SearchForCachedItemLink = SearchForCachedItemLink;
+app.SearchForField = SearchForField;
 
 -- Map Information Lib
 local function ExpandGroupsRecursively(group, expanded, manual)
@@ -1797,19 +1888,22 @@ local function RefreshCollections()
 		app.print("Refreshing " .. app.DisplayName .. " collection status...");
 		
 		-- Harvest Illusion Collections
-		local collectedIllusions = GetDataMember("CollectedIllusions");
+		local collectedIllusions = {};
+		SetDataMember("CollectedIllusions", collectedIllusions);
 		for i,illusion in ipairs(C_TransmogCollection_GetIllusions()) do
 			if illusion.isCollected then collectedIllusions[illusion.sourceID] = 1; end
 		end
 		
 		-- Harvest Title Collections
-		local collectedTitles = GetDataMember("CollectedToys");
+		local collectedTitles = {};
+		SetDataMember("CollectedTitles", collectedTitles);
 		for i=1,GetNumTitles(),1 do
 			if IsTitleKnown(i) then collectedTitles[i] = 1; end
 		end
 		
 		-- Refresh Mounts / Pets
-		local collectedMounts = GetDataMember("CollectedMounts", {});
+		local collectedMounts = {};
+		SetDataMember("CollectedMounts", collectedMounts);
 		for i,mountID in ipairs(C_MountJournal.GetMountIDs()) do
 			local _, spellID, _, _, _, _, _, _, _, _, isCollected = C_MountJournal_GetMountInfoByID(mountID);
 			if spellID and isCollected then collectedMounts[spellID] = 1; end
@@ -1822,7 +1916,8 @@ local function RefreshCollections()
 		app:GetDataCache();
 		
 		-- Refresh Toys from Cache
-		local collectedToys = GetDataMember("CollectedToys");
+		local collectedToys = {};
+		SetDataMember("CollectedToys", collectedToys);
 		for id,group in pairs(fieldCache["toyID"]) do
 			if not collectedToys[id] and PlayerHasToy(id) then
 				collectedToys[id] = 1;
@@ -1831,15 +1926,28 @@ local function RefreshCollections()
 		
 		-- Refresh Sources from Cache
 		local collectedSources = GetDataMember("CollectedSources");
-		for id,group in pairs(fieldCache["s"]) do
-			if not collectedSources[id] then
-				local sourceInfo = C_TransmogCollection_GetSourceInfo(id);
-				if sourceInfo and app.ItemSourceFilter(sourceInfo) then collectedSources[id] = sourceInfo.isCollected and 1 or 2; end
+		if GetDataMember("CompletionistMode") then
+			-- Completionist Mode can simply use the *fast* blizzard API.
+			for id,group in pairs(fieldCache["s"]) do
+				if not collectedSources[id] then
+					if C_TransmogCollection_PlayerHasTransmogItemModifiedAppearance(id) then
+						collectedSources[id] = 1;
+					end
+				end
+			end
+		else
+			-- Unique Mode requires a lot more calculation.
+			for id,group in pairs(fieldCache["s"]) do
+				if not collectedSources[id] then
+					local sourceInfo = C_TransmogCollection_GetSourceInfo(id);
+					if sourceInfo and app.ItemSourceFilter(sourceInfo) then collectedSources[id] = sourceInfo.isCollected and 1 or 2; end
+				end
 			end
 		end
 		
 		-- Refresh the Collection Windows!
 		app:RefreshData(false, true);
+		collectgarbage();
 		
 		-- Report success.
 		app.print("Done refreshing collections.");
@@ -1885,16 +1993,16 @@ end
 local function ToggleDebugMode()
 	SetDebugMode(not GetDataMember("IgnoreAllFilters"));
 end
-AllTheThings.RefreshCollections = RefreshCollections;
-AllTheThings.RefreshLocation = RefreshLocation;
-AllTheThings.RefreshSaves = RefreshSaves;
-AllTheThings.OpenMainList = OpenMainList;
-AllTheThings.OpenMiniList = OpenMiniList;
-AllTheThings.OpenMiniListForCurrentZone = OpenMiniListForCurrentZone;
-AllTheThings.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
-AllTheThings.ToggleCompletionistMode = ToggleCompletionistMode;
-AllTheThings.ToggleDebugMode = ToggleDebugMode;
-AllTheThings.ToggleMainList = ToggleMainList;
+app.RefreshCollections = RefreshCollections;
+app.RefreshLocation = RefreshLocation;
+app.RefreshSaves = RefreshSaves;
+app.OpenMainList = OpenMainList;
+app.OpenMiniList = OpenMiniList;
+app.OpenMiniListForCurrentZone = OpenMiniListForCurrentZone;
+app.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
+app.ToggleCompletionistMode = ToggleCompletionistMode;
+app.ToggleDebugMode = ToggleDebugMode;
+app.ToggleMainList = ToggleMainList;
 
 
 -- Tooltip Hooks
@@ -1988,7 +2096,7 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 						if GetDataMember("ShowContents") then
 							local first = true;
 							for i,j in ipairs(group.groups) do
-								if app.GroupRequirementsFilter(j) and app.GroupFilter(j) then
+								if app.GroupRequirementsFilter(j) and app.GroupFilter(j) and not j.hideText then
 									if j.groups then
 										if not j.total or j.total < 1 then 
 											if j.collected then
@@ -2271,7 +2379,7 @@ app.CreateAchievementCriteria = function(id, t)
 end
 
 local transmogSlotIcons = { "axe_17", "axe_09", "weapon_bow_05", "weapon_rifle_01", "mace_02", "hammer_16", "spear_04", "sword_04", "sword_07", "weapon_glave_01", "staff_27", nil, nil, "misc_monsterclaw_02", nil, "weapon_shortblade_01", nil, nil, "weapon_crossbow_01","wand_02", "shield_06", "helmet_03", "shoulder_05", "misc_cape_11", "chest_chain", "shirt_grey_01", "misc_tournaments_tabard_gnome", "bracer_07", "gauntlets_24", "belt_24", "pants_09", "boots_09", "misc_orb_01" }
-local transmogArmorSlots = { INVTYPE_HEAD, INVTYPE_SHOULDER, INVTYPE_CLOAK, INVTYPE_CHEST, INVTYPE_BODY, INVTYPE_TABARD, INVTYPE_WRIST, INVTYPE_HAND, INVTYPE_WAIST, INVTYPE_LEGS, INVTYPE_FEET, INVTYPE_HOLDABLE };
+local transmogArmorSlots = { INVTYPE_HEAD, INVTYPE_NECK, INVTYPE_SHOULDER, INVTYPE_CLOAK, INVTYPE_CHEST, INVTYPE_BODY, INVTYPE_TABARD, INVTYPE_WRIST, INVTYPE_HAND, INVTYPE_WAIST, INVTYPE_LEGS, INVTYPE_FEET, INVTYPE_RING, INVTYPE_TRINKET, INVTYPE_HOLDABLE };
 app.BaseTransmogCategory = {
   __index = function(t, key)
     if key == "text" then
@@ -2818,9 +2926,9 @@ app.BaseItem = {
 		if key == "key" then
 			return "itemID";
 		elseif key == "collectible" then
-			return t.s;-- or (t.questID and GetDataMember("ShowIncompleteQuests"));
+			return t.s;
 		elseif key == "collected" then
-			return t.s and t.s ~= 0 and GetDataSubMember("CollectedSources", t.s);-- or t.saved;
+			return t.s and t.s ~= 0 and GetDataSubMember("CollectedSources", t.s);
 		elseif key == "text" then
 			return t.link;
 		elseif key == "link" then
@@ -2877,7 +2985,7 @@ app.BaseItem = {
 };
 app.CreateItem  = function(id, t)
 	t = createInstance(constructor(id, t, "itemID"), app.BaseItem);
-	--if not t.s then t.s = 0; end-- uncomment this line and copy your AllTheThings.lua file from Saved Variables into the contrib folder as a new filter to harvest source IDs
+	--if not t.s and not t.ignoreSource then t.s = 0; end-- uncomment this line and copy your AllTheThings.lua file from Saved Variables into the contrib folder as a new filter to harvest source IDs
 	return t;
 end
 
@@ -2912,7 +3020,7 @@ app.BaseMount = {
 			return true;
 		elseif key == "collected" then
 			if GetDataSubMember("CollectedMounts", t.mountID) then return true; end
-			if IsSpellKnown(t.mountID) then
+			if IsSpellKnown(t.mountID) or (t.questID and IsQuestFlaggedCompleted(t.questID)) then
 				SetDataSubMember("CollectedMounts", t.mountID, 1);
 				return true;
 			end
@@ -3430,11 +3538,7 @@ function app.FilterItemClass(item)
 			and app.RequiredSkillFilter(item.requiredSkill));
 end
 function app.FilterItemClass_RequireClasses(item)
-	if item.classes then
-		return not item.nmc;--contains(item.classes, app.ClassIndex);
-	else
-		return true;
-	end
+	return not item.nmc;
 end
 function app.FilterItemClass_RequireItemFilter(f)
 	if f and not GetPersonalDataSubMember("ItemFilters", f, true) then return false; end
@@ -3456,11 +3560,7 @@ function app.FilterItemClass_RequirePersonalLootCurrentSpec(item)
     return true;
 end
 function app.FilterItemClass_RequireRaces(item)
-	if item.races then
-		return not item.nmr;--contains(item.races, app.RaceIndex);
-	else
-		return true;
-	end
+	return not item.nmr;
 end
 function app.FilterItemClass_UnobtainableItem(u)
 	if u and L("UNOBTAINABLE_ITEM_REASONS")[u][1] < 5 then
@@ -3631,127 +3731,20 @@ function app.FilterItemSourceUnique(sourceInfo, allSources)
 		return false;
 	end
 end
-function app.FilterItemSourceUniqueOnlyMain(sourceInfo)
+function app.FilterItemSourceUniqueOnlyMain(sourceInfo, allSources)
 	if sourceInfo.isCollected then
 		-- NOTE: This makes it so that the loop isn't necessary.
 		return true;
 	else
 		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
 		local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
-		if item then
-			-- If the first item is class locked...
-			if item.classes then
-				if item.races then
-					-- If the first item is ALSO race locked...
-					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-						if sourceID ~= sourceInfo.sourceID then
-							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDQuickly(sourceID);
-								if otherItem and item.f == otherItem.f then
-									if otherItem.classes then
-										-- If this item is class locked...
-										if containsAny(otherItem.classes, item.classes) then
-											if otherItem.races then
-												-- If this item is ALSO race locked.
-												if containsAny(otherItem.races, item.races) then
-													-- Since the source item is locked to the same race and class, you unlock the source ID. Congrats, mate!
-													return true;
-												end
-											else
-												-- This item is not race locked.
-												-- Since the source item is race locked, but this item matches the class requirements and is not race locked, you unlock the source ID. Congrats, mate!
-												return true;
-											end
-										end
-									else
-										-- This item is not class locked.
-										-- Since this item is also not class or race locked, you unlock the source ID. Congrats, mate!
-										return true;
-									end
-								end
-							end
-						end
-					end
-				else
-					-- Not additionally race locked.
-					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-						if sourceID ~= sourceInfo.sourceID then
-							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDQuickly(sourceID);
-								if otherItem and item.f == otherItem.f then
-									if otherItem.classes then
-										-- If this item is class locked...
-										if containsAny(otherItem.classes, item.classes) then
-											if otherItem.races then
-												-- Since the item is race locked, you don't unlock this source ID despite matching the class. Sorry mate.
-											else
-												-- This item is not race locked.
-												-- Since this item is also not race locked, you unlock the source ID. Congrats, mate!
-												return true;
-											end
-										end
-									else
-										-- This item is not class locked.
-										if otherItem.races then
-											-- Since the item is race locked, you don't unlock this source ID despite matching the class. Sorry mate.
-										else
-											-- This item is not race locked.
-											-- Since this item is also not race locked, you unlock the source ID. Congrats, mate!
-											return true;
-										end
-									end
-								end
-							end
-						end
-					end
-				end
-			else
-				if item.races then
-					-- If the first item is race locked...
-					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-						if sourceID ~= sourceInfo.sourceID then
-							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDQuickly(sourceID);
-								if otherItem and item.f == otherItem.f then
-									if otherItem.classes then
-										-- If this item is class locked...
-										-- Since the item is class locked, you don't unlock this source ID despite matching the class. Sorry mate.
-									else
-										-- This item is not class locked.
-										if otherItem.races then
-											-- If this item is race locked.
-											if containsAny(otherItem.races, item.races) then
-												-- Since the source item is locked to the same race and class, you unlock the source ID. Congrats, mate!
-												return true;
-											end
-										else
-											-- This item is not race locked.
-											-- Since the source item is locked to the a race, but this item is not, you unlock the source ID. Congrats, mate!
-											return true;
-										end
-									end
-								end
-							end
-						end
-					end
-				else
-					-- Not race nor class locked.
-					for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-						if sourceID ~= sourceInfo.sourceID then
-							local otherSource = C_TransmogCollection_GetSourceInfo(sourceID);
-							if otherSource.isCollected and otherSource.categoryID == sourceInfo.categoryID and otherSource.invType == sourceInfo.invType then
-								local otherItem = SearchForSourceIDQuickly(sourceID);
-								if otherItem and item.f == otherItem.f then
-									-- Check for class and race locks...
-									if app.FilterItemClass_RequireClasses(otherItem) and app.FilterItemClass_RequireRaces(otherItem) then
-										return true; -- Okay, fine. You are this class. Enjoy your +1, cheater. D:
-									end
-								end
-							end
-						end
+		if item and not item.nmc and not item.nmr then
+			-- This item is for my race and class.
+			for i, sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+				if sourceID ~= sourceInfo.sourceID and C_TransmogCollection_PlayerHasTransmogItemModifiedAppearance(sourceID) then
+					local otherItem = SearchForSourceIDQuickly(sourceID);
+					if otherItem and item.f == otherItem.f and not otherItem.nmc and not otherItem.nmr then
+						return true; -- Okay, fine. You are this class/race. Enjoy your +1, cheater. D:
 					end
 				end
 			end
@@ -4384,7 +4377,7 @@ local function CreateMinimapButton()
 end
 local function CreateMiniListForGroup(group)
 	-- Pop Out Functionality! :O
-	local popout = app:GetWindow((group.parent and group.parent.text or "") .. group.text);
+	local popout = app:GetWindow((group.parent and group.parent.text or "") .. (group.text or ""));
 	if group.s then
 		-- This is an item that has an appearance
 		local mainItem = setmetatable({ ["groups"] = {}, ['hideText'] = true }, { __index = group });
@@ -4396,9 +4389,7 @@ local function CreateMiniListForGroup(group)
 				if otherSourceID ~= group.s then
 					local attSearch = SearchForSourceIDQuickly(otherSourceID);
 					if attSearch then
-						local newItem = setmetatable({ ['hideText'] = true }, { __index = attSearch });
-						CacheFields(newItem);
-						tinsert(mainItem.groups, newItem); 
+						tinsert(mainItem.groups, setmetatable({ ['hideText'] = true }, { __index = attSearch })); 
 					else
 						local otherSourceInfo = C_TransmogCollection_GetSourceInfo(otherSourceID);
 						if otherSourceInfo then
@@ -4426,15 +4417,21 @@ local function CreateMiniListForGroup(group)
 		};
 		BuildGroups(popout.data, popout.data.groups);
 		UpdateGroups(popout.data, popout.data.groups, 1);
+		mainItem.visible = true;
 	elseif group.questID then
 		-- This is a quest object. Let's show prereqs and breadcrumbs.
-		local mainQuest = setmetatable({ ["collectible"] = true, ['hideText'] = true }, { __index = group });
+		local mainQuest = setmetatable({ ['collectible'] = true, ['hideText'] = true }, { __index = group });
+		if group.groups then
+			mainQuest.groups = {};
+			for i,subgroup in ipairs(group.groups) do
+				table.insert(mainQuest.groups, setmetatable({ ['hideText'] = true }, { __index = subgroup }));
+			end
+		end
 		local groups = { mainQuest };
-		CacheFields(mainQuest);
 		
 		-- Show Quest Prereqs
-		if mainQuest.sourceQuestID then
-			local sourceQuests, sourceQuest, subSourceQuests, prereqs = mainQuest.sourceQuestID;
+		if mainQuest.sourceQuests then
+			local sourceQuests, sourceQuest, subSourceQuests, prereqs = mainQuest.sourceQuests;
 			while sourceQuests and #sourceQuests > 0 do
 				subSourceQuests = {}; prereqs = {};
 				for i,sourceQuestID in ipairs(sourceQuests) do
@@ -4442,20 +4439,19 @@ local function CreateMiniListForGroup(group)
 					if sourceQuest and #sourceQuest > 0 then
 						-- Only care about the first search result.
 						if app.GroupFilter(sourceQuest[1]) then
-							sourceQuest = setmetatable({ ["collectible"] = true, ['hideText'] = true }, { __index = sourceQuest[1] });
-							if sourceQuest.sourceQuestID and #sourceQuest.sourceQuestID > 0 then
+							sourceQuest = setmetatable({ ['collectible'] = true, ['visible'] = true, ['hideText'] = true }, { __index = sourceQuest[1] });
+							if sourceQuest.sourceQuests and #sourceQuest.sourceQuests > 0 then
 								-- Mark the sub source quest IDs as marked (as the same sub quest might point to 1 source quest ID)
-								for j, subSourceQuestID in ipairs(sourceQuest.sourceQuestID) do
-									subSourceQuests[subSourceQuestID] = true;
+								for j, subsourceQuests in ipairs(sourceQuest.sourceQuests) do
+									subSourceQuests[subsourceQuests] = true;
 								end
 							end
-							CacheFields(sourceQuest);
 						else
 							sourceQuest = nil;
 						end
 					else
 						-- Create a Quest Object.
-						sourceQuest = app.CreateQuest(sourceQuestID, { ["visible"] = true, ["collectible"] = true, ['hideText'] = true });
+						sourceQuest = app.CreateQuest(sourceQuestID, { ['visible'] = true, ['collectible'] = true, ['hideText'] = true });
 					end
 					
 					-- If the quest was valid, attach it.
@@ -4477,7 +4473,8 @@ local function CreateMiniListForGroup(group)
 							["icon"] = "Interface\\Icons\\Spell_Holy_MagicalSentry.blp",
 							["visible"] = true,
 							["expanded"] = true,
-							["groups"] = groups
+							["groups"] = groups,
+							["hideText"] = true
 						});
 					else
 						local prereq = prereqs[1];
@@ -4500,16 +4497,18 @@ local function CreateMiniListForGroup(group)
 			["total"] = 0,
 			["visible"] = true,
 			["expanded"] = true,
-			["groups"] = groups
+			["groups"] = groups,
+			["hideText"] = true
 		};
 		BuildGroups(popout.data, popout.data.groups);
 		UpdateGroups(popout.data, popout.data.groups, 1);
+		CacheFields(popout.data);
 	elseif group.groups then
 		-- This is already a container with accurate numbers.
-		popout.data = setmetatable({}, { __index = group });
+		popout.data = setmetatable({ ['visible'] = true }, { __index = group });
 	else
 		-- This is a standalone item
-		local newItem = setmetatable({ ['hideText'] = true }, { __index = group });
+		local newItem = setmetatable({ ['visible'] = true, ['hideText'] = true }, { __index = group });
 		CacheFields(newItem);
 		popout.data = {
 			["text"] = "Standalone Item",
@@ -4522,6 +4521,7 @@ local function CreateMiniListForGroup(group)
 		};
 		BuildGroups(popout.data, popout.data.groups);
 		UpdateGroups(popout.data, popout.data.groups, 1);
+		newItem.visible = true;
 	end
 	ExpandGroupsRecursively(popout.data, true);
 	--ExportData(popout.data);
@@ -4960,9 +4960,22 @@ local function CreateSettingsMenu()
 			GameTooltip:Show();
 		end);
 		
+		-- This creates the "Only Show Relevant" Checkbox --
+		self.OnlyShowRelevantSharedAppearances = CreateFrame("CheckButton", name .. "-OnlyShowRelevantSharedAppearances", self, "InterfaceOptionsCheckButtonTemplate");
+		CreateCheckBox(self.OnlyShowRelevantSharedAppearances, self, "Only Show Relevant", 35, -310, GetDataMember("OnlyShowRelevantSharedAppearances"));
+		self.OnlyShowRelevantSharedAppearances:SetScript("OnClick", function(self)
+			SetDataMember("OnlyShowRelevantSharedAppearances", self:GetChecked());
+			wipe(searchCache);
+		end);
+		self.OnlyShowRelevantSharedAppearances:SetScript("OnEnter", function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you only want to see shared appearances that your active character can unlock.\n\nNOTE: We recommend you keep this off as knowing the unlock requirements for an item can be helpful in identifying why an item is Not Collected.", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+		
 		-- This creates the "Show Database Locations" Checkbox --
 		self.ShowSources = CreateFrame("CheckButton", name .. "-ShowSources", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowSources, self, "Show Database Locations", 25, -310, GetDataMember("ShowSources"));
+		CreateCheckBox(self.ShowSources, self, "Show Database Locations", 25, -330, GetDataMember("ShowSources"));
 		self.ShowSources:SetScript("OnClick", function(self)
 			SetDataMember("ShowSources", self:GetChecked());
 			wipe(searchCache);
@@ -4975,7 +4988,7 @@ local function CreateSettingsMenu()
 		
 		-- This creates the "Show Completed Locations" Checkbox --
 		self.ShowCompleteSourceLocations = CreateFrame("CheckButton", name .. "-ShowCompleteSourceLocations", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowCompleteSourceLocations, self, "Show Completed Locations", 35, -330, GetDataMember("ShowCompleteSourceLocations"));
+		CreateCheckBox(self.ShowCompleteSourceLocations, self, "Show Completed Locations", 35, -350, GetDataMember("ShowCompleteSourceLocations"));
 		self.ShowCompleteSourceLocations:SetScript("OnClick", function(self)
 			SetDataMember("ShowCompleteSourceLocations", self:GetChecked());
 			wipe(searchCache);
@@ -4988,7 +5001,7 @@ local function CreateSettingsMenu()
 		
 		-- This creates the "Show More Locations" Checkbox --
 		self.ShowAllSources = CreateFrame("CheckButton", name .. "-ShowAllSources", self, "InterfaceOptionsCheckButtonTemplate");
-		CreateCheckBox(self.ShowAllSources, self, "Show More Locations", 35, -350, GetDataMember("ShowAllSources"));
+		CreateCheckBox(self.ShowAllSources, self, "Show More Locations", 35, -370, GetDataMember("ShowAllSources"));
 		self.ShowAllSources:SetScript("OnClick", function(self)
 			SetDataMember("ShowAllSources", self:GetChecked());
 			wipe(searchCache);
@@ -5550,7 +5563,7 @@ local function CreateSettingsMenu()
 		self.qSeven = "|CFFADD8E6Q) Why do I not see any mounts?  \n|r";
 		self.qSevenA = "A) There are some other mount addons that interfere with ALL THE THINGS ability to detect mount collection at startup. Please disable any you have, ReloadUI, and check to see if you now have mounts. ATT will cache the information so you are free to enable any addons you disabled.\n \n"
 		self.qEight = "|CFFADD8E6Q)What do I do if I have a suggestion, complaint, etc?\n|r";
-		self.qEightA = "A) Feel free to post at \nhttps://mods.curse.com/addons/wow/267285-all-the-things \nhttp://www.mmo-champion.com/threads/2227927-ALL-THE-THINGS-New-Transmog-Addon \nor join our discord -- https://discord.gg/VHe8JC2";
+		self.qEightA = "A) Feel free to post at \nhttps://mods.curse.com/addons/wow/267285-all-the-things \nhttp://www.mmo-champion.com/threads/2227927-ALL-THE-THINGS-New-Transmog-Addon \nor join our discord -- https://discord.gg/bV5aECp";
 		
 		self.text = self:CreateFontString(nil, "ARTWORK", "GameFontNormal");
 		self.text:SetPoint("TOPLEFT", self.Separator, "TOPLEFT", 0, -5);
@@ -5629,6 +5642,7 @@ local function SetRowData(self, data)
 					end
 					m[data.itemModID or 1] = s;
 				end
+				print("NEW SOURCE ID!", text);
 				SetDataMember("Items", SourceIDs);
 			else
 				data.s = nil;
@@ -6100,8 +6114,8 @@ local function RowOnEnter(self)
 		end
 		
 		-- Show Quest Prereqs
-		if reference.sourceQuestID then
-			for i,sourceQuestID in ipairs(reference.sourceQuestID) do
+		if reference.sourceQuests then
+			for i,sourceQuestID in ipairs(reference.sourceQuests) do
 				if not IsQuestFlaggedCompleted(sourceQuestID) then
 					GameTooltip:AddLine("This quest has an incomplete prerequisite quest that you need to complete first.");
 					break;
@@ -6527,7 +6541,7 @@ function app:GetDataCache()
 			table.insert(groups, db);
 			app.Unsorted = nil;
 		end
-		--]]
+		]]--
 		
 		-- The Main Window's Data
 		local missingData = {};
@@ -7015,6 +7029,7 @@ app.events.VARIABLES_LOADED = function()
 	end
 	
 	-- Tooltip Settings
+	GetDataMember("OnlyShowRelevantSharedAppearances", false);
 	GetDataMember("ShowLootSpecializationRequirements", true);
 	GetDataMember("TreatIncompleteQuestsAsCollectible", false);
 	GetDataMember("ShowCompleteSourceLocations", true);

@@ -360,6 +360,7 @@ do -- professions
 	local ct, ot, map = {}, {}, {
 		[197]="tail", [165]="lw", [164]="bs",
 		[171]="alch", [202]="engi", [333]="ench", [744]="jc", [773]="scri",
+		[182]="herb", [129]="fa", [794]="arch", [185]="cook", [356]="fish",
 		[20219]="nomeng", [20222]="gobeng",
 	}
 	local function syncInner(id, ...)
@@ -394,7 +395,7 @@ do -- professions
 	for _, v in pairs(map) do
 		KR:SetThresholdConditionalValue(v, false)
 	end
-	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri"):gmatch("(%a+):(%a+)") do
+	for alias, real in ("tailoring:tail leatherworking:lw alchemy:alch engineering:engi enchanting:ench jewelcrafting:jc blacksmithing:bs inscription:scri herbalism:herb archaeology:arch cooking:cook fishing:fish firstaid:fa"):gmatch("(%a+):(%a+)") do
 		KR:SetAliasConditional(alias, real)
 	end
 	EV.PLAYER_LOGIN, EV.CHAT_MSG_SKILL = sync, sync
@@ -430,4 +431,99 @@ if playerClass == "HUNTER" then -- pet:stable id; havepet:stable id
 	EV.PLAYER_LOGIN, EV.PET_STABLE_UPDATE, EV.LOCALPLAYER_PET_RENAMED = sync, sync, sync
 else
 	KR:SetStateConditionalValue("havepet", false)
+end
+
+do -- Managed role units
+	local mh = CreateFrame("Frame", nil, nil, "SecureFrameTemplate")
+	SecureHandlerSetFrameRef(mh, "KR", KR:seclib())
+	SecureHandlerExecute(mh, [=[-- MRU_Init_Manager
+		KR, uf, ul, spare = self:GetFrameRef("KR"), newtable(), newtable(), newtable()
+		self:SetAttribute("frameref-KR", nil)
+	]=])
+	local syncUnits = [==[-- MRU_Sync
+		local nl, key, nj, fa = spare, %q, 1
+		ul[key], spare, fa = nl, ul[key], uf[key]
+		for i=1,40 do
+			local u = fa[i]:GetAttribute("unit")
+			if u then
+				nl[i] = u
+			else
+				for j=i,#nl do
+					nl[j] = nil
+				end
+				break
+			end
+		end
+		for i=1,#nl do
+			local u = nl[i]
+			if u ~= playerUnit then
+				KR:RunAttribute("SetAliasUnit", key .. nj, u)
+				nj = nj + 1
+			end
+		end
+		for i=nj,#spare do
+			KR:RunAttribute("SetAliasUnit", key .. i, "raid42")
+		end
+		self:Show()
+	]==]
+	local function SpawnHeader(key, ...)
+		local h = CreateFrame("Frame", nil, nil, "SecureGroupHeaderTemplate")
+		for i=1,40 do
+			local c = CreateFrame("Frame", nil, h, "SecureFrameTemplate")
+			h:SetAttribute("child" .. i, c)
+			SecureHandlerSetFrameRef(mh, "u" .. i, c)
+			KR:SetAliasUnit(key .. i, "raid42")
+		end
+		SecureHandlerExecute(mh, ([[-- MRU_SpawnHeader_Init
+			local a, k = newtable(), %q
+			for i=1,40 do
+				a[i] = self:GetFrameRef("u" .. i)
+				self:SetAttribute("frameref-u" .. i, nil)
+			end
+			uf[k], ul[k] = a, newtable()
+		]]):format(key))
+		local cu = CreateFrame("Frame", nil, h, "SecureFrameTemplate")
+		SecureHandlerWrapScript(cu, "OnHide", mh, syncUnits:format(key))
+		h:SetAttribute("child41", cu)
+		h:SetAttribute("template", "ImpossibleFrameTemplate")
+		h:SetAttribute("templateType", "Frame")
+		h:SetAttribute("showRaid", true)
+		h:SetAttribute("showParty", true)
+		h:SetAttribute("showPlayer", false)
+		h:SetAttribute("groupingOrder", "1,2,3,4,5,6,7,8")
+		h:SetAttribute("sortMethod", "NAME")
+		for i=1, select("#", ...), 2 do
+			local k, v = select(i, ...)
+			h:SetAttribute(k, v)
+		end
+		return h
+	end
+	local ph = CreateFrame("Frame", nil, nil, "SecureGroupHeaderTemplate") do
+		local c = CreateFrame("Frame", nil, ph, "SecureFrameTemplate")
+		ph:SetAttribute("child1", c)
+		SecureHandlerWrapScript(c, "OnAttributeChanged", mh, [=[-- MRU_Player_Change
+			if name ~= "unit" or value == playerUnit then return end
+			playerUnit = value
+			for key, v in pairs(ul) do
+				local nj = 1
+				for i=1,#v do
+					local u = v[i]
+					if u ~= playerUnit then
+						KR:RunAttribute("SetAliasUnit", key .. nj, u)
+						nj = nj + 1
+					end
+				end
+				KR:RunAttribute("SetAliasUnit", key .. nj, "raid42")
+			end
+		]=])
+		ph:SetAttribute("showRaid", true)
+		ph:SetAttribute("showParty", false)
+		ph:SetAttribute("showPlayer", false)
+		ph:SetAttribute("nameList", (UnitName("player")))
+		ph:Show()
+	end
+	SpawnHeader("tank", "roleFilter","TANK"):Show()
+	SpawnHeader("mtank", "roleFilter","MAINTANK"):Show()
+	SpawnHeader("assist", "roleFilter","MAINASSIST"):Show()
+	SpawnHeader("healer", "roleFilter","HEALER"):Show()
 end

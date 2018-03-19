@@ -1,8 +1,8 @@
 local _, T = ...
 if T.SkipLocalActionBook then return end
-local AB = assert(T.ActionBook:compatible(2,14), "A compatible version of ActionBook is required")
+local AB = assert(T.ActionBook:compatible(2,21), "A compatible version of ActionBook is required")
 local RW = assert(AB:compatible("Rewire",1,10), "A compatible version of Rewire is required")
-local EV = assert(T.Evie)
+local L, EV = AB:locale(), assert(T.Evie)
 local spellFeedback, itemHint, toyHint, mountHint, mountMap
 
 local NormalizeInRange = {[0]=0, 1, [true]=1, [false]=0}
@@ -85,7 +85,7 @@ do -- mount: mount ID
 		return actionMap[id]
 	end, function(id)
 		local name, sid, icon = C_MountJournal.GetMountInfoByID(id)
-		return "Mount", name, icon, nil, GameTooltip.SetMountBySpellID, sid
+		return L"Mount", name, icon, nil, GameTooltip.SetMountBySpellID, sid
 	end)
 	do -- random
 		local rname, _, ricon = GetSpellInfo(150544)
@@ -160,7 +160,7 @@ do -- spell: spell ID + mount spell ID
 		if name and castType ~= "forced-id-cast" then
 			name2, _, icon2 = GetSpellInfo(name, rank)
 		end
-		return mountMap[id] and "Mount" or "Spell", name2 or name, icon2 or icon, nil, GameTooltip.SetSpellByID, id
+		return mountMap[id] and L"Mount" or L"Spell", name2 or name, icon2 or icon, nil, GameTooltip.SetSpellByID, id
 	end)
 	do -- specials
 		local gab = GetSpellInfo(161691)
@@ -255,7 +255,7 @@ do -- item: items ID/inventory slot
 			actionMap[name], itemIdMap[name] = AB:CreateActionSlot(itemHint, name, "attribute", "type","item", "item",name, "checkselfcast",true, "checkfocuscast",true), id
 		end
 		return actionMap[name]
-	end, function(id) return "Item", GetItemInfo(id), GetItemIcon(id), nil, GameTooltip.SetItemByID, tonumber(id) end, {"byName", "forceShow", "onlyEquipped"})
+	end, function(id) return L"Item", GetItemInfo(id), GetItemIcon(id), nil, GameTooltip.SetItemByID, tonumber(id) end, {"byName", "forceShow", "onlyEquipped"})
 	EV.RegisterEvent("BAG_UPDATE", function() AB:NotifyObservers("item") end)
 	RW:SetCommandHint(SLASH_EQUIP1, 70, function(_, _, clause, target)
 		if clause and clause ~= "" and GetItemInfo(clause) then
@@ -281,9 +281,9 @@ do -- macrotext
 		end
 		return map[macrotext]
 	end, function(macrotext)
-		if macrotext == "" then return "Custom Macro", "New Macro", "Interface/Icons/Temp" end
+		if macrotext == "" then return L"Custom Macro", L"New Macro", "Interface/Icons/Temp" end
 		local _, _, ico = RW:GetMacroAction(macrotext)
-		return "Custom Macro", "", ico
+		return L"Custom Macro", "", ico
 	end)
 	local function checkReturn(pri, ...)
 		if select("#", ...) > 0 then return pri, ... end
@@ -296,7 +296,6 @@ do -- macrotext
 		end
 		return checkReturn(true, spellFeedback(clause, target))
 	end
-	AB:AddActionToCategory("Miscellaneous", "macrotext", "")
 	RW:SetCommandHint("/use", 100, hintSlashCast)
 	RW:SetCommandHint("/cast", 100, hintSlashCast)
 	RW:SetCommandHint(SLASH_CASTSEQUENCE1, 100, function(_, _, clause, target)
@@ -414,7 +413,7 @@ do -- macro: name
 		end
 	end, function(name)
 		local n, ico = GetMacroInfo(name)
-		return "Macro", n or name, ico
+		return L"Macro", n or name, ico
 	end, {"forceShow"})
 end
 do -- battlepet: pet ID
@@ -451,7 +450,7 @@ do -- battlepet: pet ID
 		end)
 		RW:SetCastEscapeAction(GetSpellInfo(243819), petAction.FAVE)
 		function special.fave()
-			return "Battle Pet", rname, ricon, nil, GameTooltip.SetSpellByID, 243819
+			return L"Battle Pet", rname, ricon, nil, GameTooltip.SetSpellByID, 243819
 		end
 	end
 	local function create(pid)
@@ -466,9 +465,9 @@ do -- battlepet: pet ID
 	local function describe(pid)
 		if special[pid] then return special[pid]() end
 		local ok, sid, cn, lvl, _, _, _, _, n, tex = pcall(C_PetJournal.GetPetInfoByPetID, pid)
-		if not (ok and sid) then return "Battle Pet", "?" end
+		if not (ok and sid) then return L"Battle Pet", "?" end
 		if (cn or n) and ((lvl or 0) > 1) then cn = "[" .. lvl .. "] " .. (cn or n) end
-		return "Battle Pet", cn or n or ("#" .. tostring(pid)), tex, nil, tip, pid
+		return L"Battle Pet", cn or n or ("#" .. tostring(pid)), tex, nil, tip, pid
 	end
 	AB:RegisterActionType("battlepet", create, describe)
 	RW:SetCommandHint(SLASH_SUMMON_BATTLE_PET1, 60, function(_, _, clause)
@@ -518,7 +517,7 @@ do -- equipmentset: equipment sets by name
 		if type(name) == "string" and isBadName(name) then
 			fname, setTip = "|cffff0000" .. name, SetBadEquipmentSet
 		end
-		return "Equipment Set", fname, ico and resolveIcon(ico) or "Interface/Icons/INV_Misc_QuestionMark", nil, setTip, name
+		return L"Equipment Set", fname, ico and resolveIcon(ico) or "Interface/Icons/INV_Misc_QuestionMark", nil, setTip, name
 	end)
 	RW:SetCommandHint(SLASH_EQUIP_SET1, 80, function(_, _, clause)
 		if clause and clause ~= "" then
@@ -553,8 +552,8 @@ do -- raidmark
 		map[i] = AB:CreateActionSlot(raidmarkHint, i, "func", click, i)
 	end
 	AB:RegisterActionType("raidmark", function(id) return map[id] end, function(id)
-		if id == 0 then return "Raid Marker", REMOVE_WORLD_MARKERS, "Interface/Icons/INV_Gauntlets_02" end
-		return "Raid Marker", _G["RAID_TARGET_" .. id], "Interface/TargetingFrame/UI-RaidTargetingIcon_" .. id
+		if id == 0 then return L"Raid Marker", REMOVE_WORLD_MARKERS, "Interface/Icons/INV_Gauntlets_02" end
+		return L"Raid Marker", _G["RAID_TARGET_" .. id], "Interface/TargetingFrame/UI-RaidTargetingIcon_" .. id
 	end)
 	RW:ImportSlashCmd("TARGET_MARKER", true, false, 40, function(_, _, clause, target)
 		clause = tonumber(clause)
@@ -578,41 +577,13 @@ do -- worldmarker
 		map[i] = AB:CreateActionSlot(worldmarkHint, i, "attribute", "type","worldmarker", "action","toggle", "marker",i)
 	end
 	map[0] = AB:CreateActionSlot(worldmarkHint, 0, "attribute", "type","macro", "macrotext",SLASH_CLEAR_WORLD_MARKER1 .. " " .. ALL)
-	AB:RegisterActionType("worldmark", function(id) return map[id] end, function(id) return "Raid World Marker", id == 0 and REMOVE_WORLD_MARKERS or _G["WORLD_MARKER" .. id], icons[id] end)
+	AB:RegisterActionType("worldmark", function(id) return map[id] end, function(id) return L"Raid World Marker", id == 0 and REMOVE_WORLD_MARKERS or _G["WORLD_MARKER" .. id], icons[id] end)
 	RW:SetCommandHint(SLASH_WORLD_MARKER1, 40, function(_, _, clause)
 		clause = tonumber(clause)
 		if clause and clause >= 1 and clause <= 8 then
 			return true, worldmarkHint(clause)
 		end
 	end)
-end
-do -- opie.databroker.launcher
-	local nameMap, LDB = {}
-	local function checkLDB()
-		LDB = LibStub and LibStub:GetLibrary("LibDataBroker-1.1", 1)
-	end
-	local function call(obj, btn)
-		obj:OnClick(btn)
-	end
-	local function describe(name)
-		local obj = (LDB or checkLDB() or LDB) and LDB:GetDataObjectByName(name);
-		return "Launcher", obj and obj.label or name, obj and obj.icon or "Interface/Icons/INV_Misc_QuestionMark", obj
-	end
-	local function brokerHint(obj)
-		if not obj then return end
-		return true, 0, obj.icon, obj.label or obj.text, 0,0,0, obj.OnTooltipShow, nil, obj
-	end
-	local function create(name, rightClick)
-		if type(name) ~= "string" or not (LDB or checkLDB() or LDB) then return end
-		local pname = name .. "#" .. (rightClick and "R" or "L")
-		if not nameMap[pname] then
-			local obj = LDB:GetDataObjectByName(name)
-			if not obj then return end
-			nameMap[pname] = AB:CreateActionSlot(brokerHint, obj, "func", call, obj, rightClick and "RightButton" or "LeftButton")
-		end
-		return nameMap[pname]
-	end
-	AB:RegisterActionType("opie.databroker.launcher", create, describe, {"clickUsingRightButton"})
 end
 do -- extrabutton
 	local slot = GetExtraBarIndex()*12 - 11
@@ -640,14 +611,13 @@ do -- extrabutton
 	AB:RegisterActionType("extrabutton", function(id, forceShow)
 		return id == 1 and (forceShow and aid2 or aid) or nil
 	end, function()
-		local name, tex = "Extra Action Button", "Interface/Icons/Temp"
+		local name, tex = L"Extra Action Button", "Interface/Icons/Temp"
 		if HasExtraActionBar() then
 			local at, aid = GetActionInfo(slot)
 			name, tex = GetActionText(slot) or (at == "spell" and GetSpellInfo(aid)) or name, GetActionTexture(slot) or tex
 		end
-		return "Extra Action Button", name, tex
+		return L"Extra Action Button", name, tex
 	end, {"forceShow"})
-	AB:AddActionToCategory("Miscellaneous", "extrabutton", 1)
 	RW:SetClickHint("ExtraActionButton1", 95, function()
 		if HasExtraActionBar() then
 			return true, extrabuttonHint()
@@ -693,11 +663,11 @@ do -- petspell: spell ID
 	local function describe(id)
 		if type(id) == "number" then
 			local name, _, icon = GetSpellInfo(id)
-			return "Pet Ability", name, icon, nil, GameTooltip.SetSpellByID, id
+			return L"Pet Ability", name, icon, nil, GameTooltip.SetSpellByID, id
 		elseif actionID[id] then
 			local _, _, icon, name, _, _, _, tipf, tipa = petHint(id)
 			local _, st = GetSpellBookItemName(tipa or 0, "pet")
-			return st or "Pet Ability", name, icon, nil, tipf, tipa
+			return st or L"Pet Ability", name, icon, nil, tipf, tipa
 		end
 	end
 	AB:RegisterActionType("petspell", create, describe)
@@ -735,6 +705,14 @@ do -- petspell: spell ID
 end
 do -- toybox: item ID
 	local map = {}
+	local IGNORE_TOY_USABILITY = {
+		[129149]=1, [129279]=1, [129367]=1, [130157]="[in:broken isles]", [130158]=1, [130170]=1,
+		[130191]=1, [130199]=1, [130232]=1, [131812]=1, [131814]=1, [140325]=1, [147708]=1,
+		[153039]=1, [119421]=1, [128462]="[alliance]", [128471]="[horde]", [95589]="[alliance]", [95590]="[horde]",
+		[89222]=1, [63141]="[alliance]", [64997]="[horde]", [66888]=1, [89869]=1, [90175]=1,
+		[103685]=1, [115468]="[horde]", [115472]="[alliance]", [119160]="[horde]", [119182]="[alliance]",
+		[122283]=1, [142531]=1, [142532]=1,
+	}
 	function toyHint(iid)
 		local _, name, icon = C_ToyBox.GetToyInfo(iid)
 		local cdStart, cdLength = GetItemCooldown(iid)
@@ -742,15 +720,20 @@ do -- toybox: item ID
 	end
 	AB:RegisterActionType("toy", function(id)
 		if type(id) == "number" and not map[id] then
-			if PlayerHasToy(id) and C_ToyBox.IsToyUsable(id) then
-				map[id] = AB:CreateActionSlot(toyHint, id, "attribute", "type","toy", "toy",id)
+			local ignUse = IGNORE_TOY_USABILITY[id]
+			if PlayerHasToy(id) and (ignUse or C_ToyBox.IsToyUsable(id) ~= false) then
+				if (ignUse or 1) == 1 then
+					map[id] = AB:CreateActionSlot(toyHint, id, "attribute", "type","toy", "toy",id)
+				else
+					map[id] = AB:CreateActionSlot(toyHint, id, "conditional", ignUse, "attribute", "type","toy", "toy",id)
+				end
 			end
 		end
 		return map[id]
 	end, function(id)
 		if type(id) ~= "number" then return end
 		local _, name, tex = C_ToyBox.GetToyInfo(id)
-		return "Toy", name, tex, nil, GameTooltip.SetToyByItemID, id
+		return L"Toy", name, tex, nil, GameTooltip.SetToyByItemID, id
 	end)
 	RW:SetCommandHint(SLASH_USE_TOY1, 60, function(_, _, clause, target)
 		if clause and clause ~= "" then

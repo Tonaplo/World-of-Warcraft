@@ -1,6 +1,7 @@
 local api, L, RK, conf, ORI, _, T = {}, OneRingLib.lang, OneRingLib.ext.RingKeeper, OneRingLib.ext.config, OneRingLib.ext.OPieUI, ...
 local AB = assert(T.ActionBook:compatible(2,19), "A compatible version of ActionBook is required")
 local gfxBase, EV = [[Interface\AddOns\OPie\gfx\]], T.Evie
+local GameTooltip = AltGameTooltip or GameTooltip
 
 local FULLNAME, SHORTNAME do
 	function EV.PLAYER_LOGIN()
@@ -108,6 +109,10 @@ local function setIcon(self, path, ext, slice)
 	elseif type(ext.iconCoords) == "function" or type(ext.iconCoords) == "userdata" then
 		self:SetTexCoord(ext:iconCoords())
 	end
+end
+local function GetPositiveFileIDFromPath(path)
+	local id = GetFileIDFromPath(path)
+	return id and id > 0 and id or nil
 end
 
 local ringContainer, ringDetail, sliceDetail, newSlice, newRing
@@ -359,15 +364,19 @@ ringDetail = CreateFrame("Frame", nil, ringContainer) do
 	ringDetail.bindingQuarantine:SetHitRectInsets(0,0,0,0)
 	ringDetail.bindingQuarantine:SetPoint("RIGHT", ringDetail.binding, "LEFT", 0, 0)
 	ringDetail.bindingQuarantine:SetScript("OnClick", function() api.setRingProperty("hotkey", api.getRingProperty("quarantineBind")) end)
+	ringDetail.bindingQuarantine:SetScript("OnEnter", conf.ui.ShowControlTooltip)
+	ringDetail.bindingQuarantine:SetScript("OnLeave", conf.ui.HideTooltip)
 	ringDetail.rotation = CreateFrame("Slider", "RKC_RingRotation", ringDetail, "OptionsSliderTemplate")
 	ringDetail.rotation:SetPoint("TOPLEFT", 270, -95) ringDetail.rotation:SetWidth(260) ringDetail.rotation:SetMinMaxValues(0, 345) ringDetail.rotation:SetValueStep(15) ringDetail.rotation:SetObeyStepOnDrag(true)
 	ringDetail.rotation:SetScript("OnValueChanged", function(_, value) api.setRingProperty("offset", value) end)
-	RKC_RingRotationLow:SetText("0\194\176") RKC_RingRotationHigh:SetText("345\194\176")
+	RKC_RingRotationLow:SetText("0°") RKC_RingRotationHigh:SetText("345°")
 	ringDetail.rotation.label = ringDetail.scope:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 	ringDetail.rotation.label:SetPoint("TOPLEFT", ringDetail, "TOPLEFT", 10, -96)
 	ringDetail.opportunistCA = CreateFrame("CheckButton", nil, ringDetail, "InterfaceOptionsCheckButtonTemplate")
 	ringDetail.opportunistCA:SetPoint("TOPLEFT", 266, -118)
 	ringDetail.opportunistCA:SetMotionScriptsWhileDisabled(1)
+	ringDetail.opportunistCA:SetScript("OnEnter", conf.ui.ShowControlTooltip)
+	ringDetail.opportunistCA:SetScript("OnLeave", conf.ui.HideTooltip)
 	ringDetail.opportunistCA:SetScript("OnClick", function(self) api.setRingProperty("noOpportunisticCA", (not self:GetChecked()) or nil) api.setRingProperty("noPersistentCA", (not self:GetChecked()) or nil) end)
 	ringDetail.hiddenRing = CreateFrame("CheckButton", nil, ringDetail, "InterfaceOptionsCheckButtonTemplate")
 	ringDetail.hiddenRing:SetPoint("TOPLEFT", ringDetail.opportunistCA, "BOTTOMLEFT", 0, 2)
@@ -431,7 +440,8 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 	local oy = 37
 	sliceDetail.skipSpecs = CreateFrame("Frame", "RKC_SkipSpecDropdown", sliceDetail, "UIDropDownMenuTemplate") do
 		local s = sliceDetail.skipSpecs
-		s:SetPoint("TOPLEFT", 250, -oy); UIDropDownMenu_SetWidth(s, 250)
+		s:SetPoint("TOPLEFT", 250, -oy)
+		UIDropDownMenu_SetWidth(s, 250)
 		oy = oy + 31
 		s.label = s:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 		s.label:SetPoint("TOPLEFT", sliceDetail, "TOPLEFT", 10, -47)
@@ -549,8 +559,8 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 			ed:SetScript("OnEnterPressed", function(self)
 				local text = self:GetText()
 				if text:match("%S") then
-					local path = GetFileIDFromPath(text)
-					path = path or GetFileIDFromPath("Interface\\Icons\\" .. text)
+					local path = GetPositiveFileIDFromPath(text)
+					path = path or GetPositiveFileIDFromPath("Interface\\Icons\\" .. text)
 					api.setSliceProperty("icon", path or text)
 				end
 				self:SetText("")
@@ -633,6 +643,8 @@ sliceDetail = CreateFrame("Frame", nil, ringContainer) do
 			local e = CreateFrame("CheckButton", nil, sliceDetail, "InterfaceOptionsCheckButtonTemplate")
 			e:SetHitRectInsets(0, -200, 0, 0) e:SetMotionScriptsWhileDisabled(1) e:SetScript("OnClick", update)
 			if i > 1 then e:SetPoint("TOPLEFT", sliceDetail.optionBoxes[i-1], "BOTTOMLEFT", 0, 5) end
+			e:SetScript("OnEnter", conf.ui.ShowControlTooltip)
+			e:SetScript("OnLeave", conf.ui.HideTooltip)
 			sliceDetail.optionBoxes[i] = e
 		end
 		sliceDetail.optionBoxes[1]:SetPoint("TOPLEFT", 266, -oy)
@@ -748,6 +760,7 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 		b:GetHighlightTexture():SetTexCoord(7/256, 163/256, 5/32, 24/32)
 		b:GetNormalTexture():SetVertexColor(0.6, 0.6, 0.6)
 		b:SetNormalFontObject(GameFontHighlight)
+		b:SetHighlightFontObject(GameFontHighlight)
 		b:SetPushedTextOffset(0,0)
 		b:SetText(" ") b:GetFontString():SetPoint("CENTER", 0, 1)
 		b:SetScript("OnClick", onClick)
@@ -868,7 +881,7 @@ newSlice = CreateFrame("Frame", nil, ringContainer) do
 			e:SetShown(not not category)
 			e:SetID(id)
 			e[id == selectedCategoryId and "LockHighlight" or "UnlockHighlight"](e)
-			e:SetText(L(category))
+			e:SetText(category)
 		end
 		if selectedCategoryId == -1 then
 			newSlice.search.ico:SetVertexColor(0.3, 1, 0)
