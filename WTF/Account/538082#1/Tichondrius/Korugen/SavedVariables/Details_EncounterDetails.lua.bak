@@ -1,16 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Lord Overheat",
-		}, -- [1]
-		{
-			["boss"] = "Hogger",
-		}, -- [2]
-		{
-			["boss"] = "Randolph Moloch",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[55964] = {
 			["school"] = 1,
@@ -246,15 +235,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Randolph Moloch",
 		},
-		[744] = {
-			["school"] = 8,
+		[3604] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Deviate Adder",
+			["source"] = "Deviate Crocolisk",
+		},
+		[20295] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lady Anacondra",
 		},
 		[11431] = {
 			["school"] = 8,
@@ -323,14 +320,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Anacondra",
 		},
-		[20295] = {
+		[744] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lady Anacondra",
+			["source"] = "Deviate Adder",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Mutanus the Devourer",
+		}, -- [1]
+		{
+			["boss"] = "Verdan the Everliving",
+		}, -- [2]
+		{
+			["boss"] = "Lord Serpentis",
+		}, -- [3]
 	},
 }

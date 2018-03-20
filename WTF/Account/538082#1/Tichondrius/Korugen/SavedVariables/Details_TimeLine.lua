@@ -3,34 +3,34 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "23:28:48",
-			["date_start"] = "23:28:02",
-			["name"] = "Mutanus the Devourer",
-			["total_time"] = 46.0030000000006,
+			["date_end"] = "23:33:44",
+			["date_start"] = "23:32:38",
+			["name"] = "Lord Godfrey",
+			["total_time"] = 66.0019999999995,
 		}, -- [1]
 		{
-			["date_end"] = "23:21:35",
-			["date_start"] = "23:20:51",
-			["name"] = "Verdan the Everliving",
-			["total_time"] = 44.0069999999996,
+			["date_end"] = "23:30:14",
+			["date_start"] = "23:28:58",
+			["name"] = "Lord Walden",
+			["total_time"] = 76.0050000000001,
 		}, -- [2]
 		{
-			["date_end"] = "23:20:45",
-			["date_start"] = "23:20:00",
-			["name"] = "Lord Serpentis",
-			["total_time"] = 45.0069999999996,
+			["date_end"] = "23:24:49",
+			["date_start"] = "23:24:03",
+			["name"] = "Commander Springvale",
+			["total_time"] = 46.0019999999995,
 		}, -- [3]
 		{
-			["date_end"] = "23:16:08",
-			["date_start"] = "23:15:25",
-			["name"] = "Skum",
-			["total_time"] = 43.0069999999996,
+			["date_end"] = "23:22:39",
+			["date_start"] = "23:21:37",
+			["name"] = "Baron Silverlaine",
+			["total_time"] = 62.0060000000003,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
@@ -42,96 +42,84 @@ DetailsTimeLineDB = {
 	},
 	["debuff_timeline"] = {
 		{
-			["Amphôria-Perenolde"] = {
-				[8150] = {
-					0.539999999999054, -- [1]
-					3.03999999999905, -- [2]
-					["source"] = "Mutanus the Devourer",
-					["active"] = false,
-				},
-				[7967] = {
-					26.6949999999997, -- [1]
-					46.0030000000006, -- [2]
-					["source"] = "Mutanus the Devourer",
+			["Alexisola-Firetree"] = {
+				[93629] = {
+					63.156, -- [1]
+					66.0019999999995, -- [2]
+					["source"] = "Lord Godfrey",
 					["active"] = false,
 				},
 			},
-			["Yarron-Nordrassil"] = {
-				[7967] = {
-					8.46299999999974, -- [1]
-					46.0030000000006, -- [2]
-					["source"] = "Mutanus the Devourer",
-					["active"] = false,
-				},
-				[7399] = {
-					27.1149999999998, -- [1]
-					30.125, -- [2]
-					["source"] = "Mutanus the Devourer",
+			["Korugen"] = {
+				[93675] = {
+					4.53399999999965, -- [1]
+					15.54, -- [2]
+					19.0889999999999, -- [3]
+					46.7459999999992, -- [4]
+					50.6459999999997, -- [5]
+					66.0019999999995, -- [6]
+					["source"] = "Lord Godfrey",
 					["active"] = false,
 				},
 			},
-			["Laìthe-WyrmrestAccord"] = {
-				[7399] = {
-					10.1239999999998, -- [1]
-					13.1370000000006, -- [2]
-					["source"] = "Mutanus the Devourer",
+			["Tapin-Aggramar"] = {
+				[93629] = {
+					31.9989999999998, -- [1]
+					47.0029999999997, -- [2]
+					["source"] = "Lord Godfrey",
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
-			["Amphôria-Perenolde"] = {
-				[8142] = {
-					20.3279999999995, -- [1]
-					25.3220000000001, -- [2]
-					["source"] = "Verdan the Everliving",
+		}, -- [2]
+		{
+			["Braeridel-Dalaran"] = {
+				[93691] = {
+					11.5929999999998, -- [1]
+					15.0999999999995, -- [2]
+					31.0239999999994, -- [3]
+					34.5439999999999, -- [4]
+					["source"] = "[*] Desecration",
 					["active"] = false,
 				},
 			},
-			["Yarron-Nordrassil"] = {
-				[8142] = {
-					20.3279999999995, -- [1]
-					25.3220000000001, -- [2]
-					["source"] = "Verdan the Everliving",
+			["Alexisola-Firetree"] = {
+				[93691] = {
+					11.5929999999998, -- [1]
+					18.1219999999994, -- [2]
+					31.0239999999994, -- [3]
+					36.0519999999997, -- [4]
+					["source"] = "[*] Desecration",
 					["active"] = false,
 				},
 			},
 			["Korugen"] = {
-				[8142] = {
-					20.3279999999995, -- [1]
-					25.3220000000001, -- [2]
-					["source"] = "Verdan the Everliving",
-					["active"] = false,
-				},
-			},
-			["Laìthe-WyrmrestAccord"] = {
-				[8142] = {
-					20.3279999999995, -- [1]
-					25.3220000000001, -- [2]
-					["source"] = "Verdan the Everliving",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-			["Amphôria-Perenolde"] = {
-				[8040] = {
-					10.4830000000002, -- [1]
-					16.4899999999998, -- [2]
-					["source"] = "Lord Serpentis",
-					["active"] = false,
-				},
-			},
-			["Yarron-Nordrassil"] = {
-				[8040] = {
-					28.6909999999989, -- [1]
-					34.6949999999997, -- [2]
-					["source"] = "Druid of the Fang",
+				[93691] = {
+					11.5929999999998, -- [1]
+					15.0999999999995, -- [2]
+					31.0239999999994, -- [3]
+					33.0329999999995, -- [4]
+					["source"] = "[*] Desecration",
 					["active"] = false,
 				},
 			},
 		}, -- [3]
 		{
+			["Korugen"] = {
+				[23224] = {
+					4.90200000000004, -- [1]
+					12.9049999999997, -- [2]
+					23.1390000000001, -- [3]
+					31.1459999999997, -- [4]
+					42.6199999999999, -- [5]
+					50.6090000000004, -- [6]
+					59.6040000000003, -- [7]
+					62.0060000000003, -- [8]
+					["source"] = "Baron Silverlaine",
+					["active"] = false,
+				},
+			},
 		}, -- [4]
 	},
 	["backdrop_color"] = {
@@ -140,7 +128,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

@@ -16,7 +16,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 			["NoClose"] = true,
 			["CenterAction"] = true,
 			["RingOptions"] = {
@@ -25,7 +25,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 		},
 	},
 	["PersistentStorage"] = {
@@ -106,60 +106,60 @@ OneRing_Config = {
 			},
 			["CommonTrades"] = {
 				{
-					["sliceToken"] = "OPCCTt",
 					["id"] = "/cast {{spell:3908/51309}}",
+					["sliceToken"] = "OPCCTt",
 				}, -- [1]
 				{
 					["id"] = "/cast {{spell:2108/51302}}",
 					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["id"] = "/cast {{spell:2018/51300}}",
 					["sliceToken"] = "OPCCTb",
+					["id"] = "/cast {{spell:2018/51300}}",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
 					["sliceToken"] = "OPCCTj",
 				}, -- [4]
 				{
-					["sliceToken"] = "OPCCTe",
 					["id"] = "/cast [mod] {{spell:13262}}; {{spell:7411/51313}}",
+					["sliceToken"] = "OPCCTe",
 				}, -- [5]
 				{
 					["id"] = "/cast {{spell:2259/51304}}",
 					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
-					["sliceToken"] = "OPCCTc",
 					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
+					["sliceToken"] = "OPCCTc",
 				}, -- [7]
 				{
 					["id"] = "/cast [mod] {{spell:51005}}; {{spell:45357/45363}}",
 					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["sliceToken"] = "OPCCTf",
 					["id"] = "/cast {{spell:3273/45542}}",
+					["sliceToken"] = "OPCCTf",
 				}, -- [9]
 				{
 					["id"] = "/cast {{spell:4036/51306}}",
 					["sliceToken"] = "OPCCTg",
 				}, -- [10]
 				{
-					["sliceToken"] = "OPCCTr",
 					["id"] = "/cast [mod] {{spell:80451}}; {{spell:78670/89722}}",
+					["sliceToken"] = "OPCCTr",
 				}, -- [11]
 				{
 					["id"] = 53428,
 					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
-					["sliceToken"] = "ABuepjqUmtwi",
 					["id"] = 13262,
+					["sliceToken"] = "ABuepjqUmtwi",
 				}, -- [14]
 				{
 					["sliceToken"] = "ABuep4BpwxeZ",
@@ -168,9 +168,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
@@ -180,57 +180,6 @@ OneRing_Config = {
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
-			},
-			["RaidSymbols"] = {
-				{
-					"raidmark", -- [1]
-					1, -- [2]
-					["sliceToken"] = "OPCRSy",
-				}, -- [1]
-				{
-					"raidmark", -- [1]
-					2, -- [2]
-					["sliceToken"] = "OPCRSo",
-				}, -- [2]
-				{
-					"raidmark", -- [1]
-					3, -- [2]
-					["sliceToken"] = "OPCRSp",
-				}, -- [3]
-				{
-					"raidmark", -- [1]
-					4, -- [2]
-					["sliceToken"] = "OPCRSg",
-				}, -- [4]
-				{
-					"raidmark", -- [1]
-					5, -- [2]
-					["sliceToken"] = "OPCRSs",
-				}, -- [5]
-				{
-					"raidmark", -- [1]
-					6, -- [2]
-					["sliceToken"] = "OPCRSb",
-				}, -- [6]
-				{
-					"raidmark", -- [1]
-					7, -- [2]
-					["sliceToken"] = "OPCRSr",
-				}, -- [7]
-				{
-					"raidmark", -- [1]
-					8, -- [2]
-					["sliceToken"] = "OPCRSw",
-				}, -- [8]
-				{
-					"raidmark", -- [1]
-					0, -- [2]
-					["sliceToken"] = "OPCRSc",
-				}, -- [9]
-				["name"] = "Target Markers",
-				["internal"] = true,
-				["hotkey"] = "ALT-R",
-				["save"] = true,
 			},
 			["Mounts"] = {
 				{
@@ -287,8 +236,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueaxptLhe",
 				}, -- [13]
 				{
-					["id"] = 231435,
 					["sliceToken"] = "ABueacciiTe",
+					["id"] = 231435,
 				}, -- [14]
 				{
 					["id"] = 783,
@@ -297,63 +246,117 @@ OneRing_Config = {
 				["name"] = "Mounts",
 				["save"] = true,
 			},
-			["onsumables"] = {
+			["RaidSymbols"] = {
 				{
-					"item", -- [1]
-					140587, -- [2]
-					["sliceToken"] = "ABuepjqUmtZ",
+					"raidmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCRSy",
 				}, -- [1]
 				{
-					"item", -- [1]
-					138292, -- [2]
-					["sliceToken"] = "ABuepjqUmtL",
+					"raidmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCRSo",
 				}, -- [2]
 				{
-					"item", -- [1]
-					133572, -- [2]
-					["sliceToken"] = "ABuepjqUmtK",
+					"raidmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCRSp",
 				}, -- [3]
 				{
-					"item", -- [1]
-					133570, -- [2]
-					["sliceToken"] = "ABuepjqUmtJ",
+					"raidmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCRSg",
 				}, -- [4]
 				{
-					"item", -- [1]
-					127847, -- [2]
-					["sliceToken"] = "ABuepjqUmtH",
+					"raidmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCRSs",
 				}, -- [5]
 				{
-					["sliceToken"] = "ABuepjqUmt0",
-					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
+					"raidmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCRSb",
 				}, -- [6]
 				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuepjv9NWu",
+					"raidmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCRSr",
 				}, -- [7]
 				{
-					"item", -- [1]
-					127770, -- [2]
-					["sliceToken"] = "ABuepjv9NWy",
+					"raidmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCRSw",
 				}, -- [8]
 				{
-					"item", -- [1]
-					153023, -- [2]
-					["sliceToken"] = "ABueaAYKAle",
+					"raidmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCRSc",
 				}, -- [9]
-				["name"] = "Consumables",
+				["name"] = "Target Markers",
 				["save"] = true,
+				["hotkey"] = "ALT-R",
+				["internal"] = true,
+			},
+			["WorldMarkers"] = {
+				{
+					"worldmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCWMb",
+				}, -- [1]
+				{
+					"worldmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCWMg",
+				}, -- [2]
+				{
+					"worldmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCWMp",
+				}, -- [3]
+				{
+					"worldmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCWMr",
+				}, -- [4]
+				{
+					"worldmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCWMy",
+				}, -- [5]
+				{
+					"worldmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCWMo",
+				}, -- [6]
+				{
+					"worldmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCWMs",
+				}, -- [7]
+				{
+					"worldmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCWMw",
+				}, -- [8]
+				{
+					"worldmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCWMc",
+					["c"] = "ccd8e5",
+				}, -- [9]
+				["name"] = "World Markers",
+				["save"] = true,
+				["hotkey"] = "[group] ALT-Y",
+				["internal"] = true,
 			},
 			["tAbilities"] = {
 				{
-					["sliceToken"] = "ABuep4BpwxR",
 					["id"] = 1706,
+					["sliceToken"] = "ABuep4BpwxR",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuep4Bpwx7",
 					["id"] = 2006,
+					["sliceToken"] = "ABuep4Bpwx7",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4BpwxE",
@@ -449,88 +452,85 @@ OneRing_Config = {
 				["name"] = "Abilities",
 				["save"] = true,
 			},
-			["WorldMarkers"] = {
+			["onsumables"] = {
 				{
-					"worldmark", -- [1]
-					1, -- [2]
-					["sliceToken"] = "OPCWMb",
+					"item", -- [1]
+					140587, -- [2]
+					["sliceToken"] = "ABuepjqUmtZ",
 				}, -- [1]
 				{
-					"worldmark", -- [1]
-					2, -- [2]
-					["sliceToken"] = "OPCWMg",
+					"item", -- [1]
+					138292, -- [2]
+					["sliceToken"] = "ABuepjqUmtL",
 				}, -- [2]
 				{
-					"worldmark", -- [1]
-					3, -- [2]
-					["sliceToken"] = "OPCWMp",
+					"item", -- [1]
+					133572, -- [2]
+					["sliceToken"] = "ABuepjqUmtK",
 				}, -- [3]
 				{
-					"worldmark", -- [1]
-					4, -- [2]
-					["sliceToken"] = "OPCWMr",
+					"item", -- [1]
+					133570, -- [2]
+					["sliceToken"] = "ABuepjqUmtJ",
 				}, -- [4]
 				{
-					"worldmark", -- [1]
-					5, -- [2]
-					["sliceToken"] = "OPCWMy",
+					"item", -- [1]
+					127847, -- [2]
+					["sliceToken"] = "ABuepjqUmtH",
 				}, -- [5]
 				{
-					"worldmark", -- [1]
-					6, -- [2]
-					["sliceToken"] = "OPCWMo",
+					["sliceToken"] = "ABuepjqUmt0",
+					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
 				}, -- [6]
 				{
-					"worldmark", -- [1]
-					7, -- [2]
-					["sliceToken"] = "OPCWMs",
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
 				}, -- [7]
 				{
-					"worldmark", -- [1]
-					8, -- [2]
-					["sliceToken"] = "OPCWMw",
+					"item", -- [1]
+					127770, -- [2]
+					["sliceToken"] = "ABuepjv9NWy",
 				}, -- [8]
 				{
-					"worldmark", -- [1]
-					0, -- [2]
-					["sliceToken"] = "OPCWMc",
-					["c"] = "ccd8e5",
+					"item", -- [1]
+					153023, -- [2]
+					["sliceToken"] = "ABueaAYKAle",
 				}, -- [9]
-				["name"] = "World Markers",
-				["internal"] = true,
-				["hotkey"] = "[group] ALT-Y",
+				["name"] = "Consumables",
 				["save"] = true,
 			},
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
-					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
 					["icon"] = 134414,
+					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
-					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
 					["icon"] = 134707,
+					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
-					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
 					["icon"] = 1505928,
+					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
-					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
 					["icon"] = 134055,
+					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
-					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
 					["icon"] = 132147,
+					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep5oDlq5",
@@ -584,9 +584,9 @@ OneRing_Config = {
 				}, -- [8]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
-					["id"] = "/rt",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
+					["id"] = "/rt",
 				}, -- [9]
 				{
 					"macro", -- [1]
