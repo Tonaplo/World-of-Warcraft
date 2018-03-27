@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_start"] = "21:55:41",
 			["date_end"] = "21:56:59",
+			["date_start"] = "21:55:41",
 			["name"] = "Aku'mai",
 			["total_time"] = 78.7369999999992,
 		}, -- [1]
 		{
-			["date_start"] = "21:52:55",
 			["date_end"] = "21:54:43",
+			["date_start"] = "21:52:55",
 			["name"] = "Twilight Lord Bathiel",
 			["total_time"] = 107.999000000002,
 		}, -- [2]
 		{
-			["date_start"] = "21:52:18",
 			["date_end"] = "21:52:52",
+			["date_start"] = "21:52:18",
 			["name"] = "Guardian of the Deep",
 			["total_time"] = 34.0070000000014,
 		}, -- [3]
 		{
-			["date_start"] = "21:50:25",
 			["date_end"] = "21:51:22",
+			["date_start"] = "21:50:25",
 			["name"] = "Executioner Gore",
 			["total_time"] = 57,
 		}, -- [4]
@@ -30,7 +30,7 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
@@ -88,7 +88,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

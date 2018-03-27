@@ -16,7 +16,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Affliction",
 	}, -- [3]
 	{
-		["value"] = "[01+502+603+90_Immolate_ShiftF_348_0_0]\n[0g+m0__ShiftT_1122_0_0]\n[00082+b05+70__ShiftF_116858_0_0]\n[0g+m0__T_18540_0_0]\n[01+50102+a01000_Backdraft_3_17962_0_0]\n[00w+l0__ShiftF_116858_0_0]\n[+o0__E_29722_0_0]",
+		["value"] = "[01+502+603+90_Immolate_ShiftF_348_0_0]\n[0g+m0__ShiftT_1122_0_0]\n[00082+b05+70__F_116858_0_0]\n[0g+m0__T_18540_0_0]\n[01+50102+a01000_Backdraft_3_17962_0_0]\n[00w+l0__F_116858_0_0]\n[+o0__E_29722_0_0]",
 		["spec"] = 267,
 		["name"] = "Destruction",
 	}, -- [4]
@@ -165,6 +165,11 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["spec"] = 258,
 		["name"] = "Shadow ST",
 	}, -- [33]
+	{
+		["value"] = "[00w+402+g0_Shadow Word: Pain_Shift E_589_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
+		["spec"] = 256,
+		["name"] = "Disc",
+	}, -- [34]
 	[0] = {
 		["value"] = "",
 		["spec"] = 0,

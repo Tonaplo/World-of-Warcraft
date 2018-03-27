@@ -1,6 +1,6 @@
 --==============================================CONDITIONER 2.0==============================================--
 --By Tony Allain
---version 2.2.0
+--version 2.2.1
 --===========================================================================================================--
 local ConditionerAddOn = CreateFrame("Frame")
 ConditionerAddOn.EventHandler = {}
@@ -1674,8 +1674,8 @@ function ConditionerAddOn:CheckCondition(priorityButton)
     --more override nonsense
     local hasSlot = FindSpellBookSlotBySpellID(spellID)
     if (hasSlot) then
-        local bookNameCheck = GetSpellBookItemName(hasSlot, "spell")
-        hasSlot = (not IsPassiveSpell(bookNameCheck))
+        --local bookNameCheck = GetSpellBookItemName(hasSlot, "spell")
+        hasSlot = (not IsPassiveSpell(hasSlot, "spell"))
     end
     hasSlot = (itemID > 0) and GetItemCount(itemID) or hasSlot
     if (not hasSlot) or (hasSlot == 0) then
