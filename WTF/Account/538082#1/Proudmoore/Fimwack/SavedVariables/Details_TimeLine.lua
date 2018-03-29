@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 			["Zoephos-Tichondrius"] = {
@@ -228,6 +222,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "13:55:15",
+			["date_end"] = "13:58:21",
+			["name"] = "Advisor Vandros",
+			["total_time"] = 186.345999999998,
+		}, -- [1]
+		{
+			["date_start"] = "13:51:28",
+			["date_end"] = "13:53:14",
+			["name"] = "General Xakal",
+			["total_time"] = 105.651999999998,
+		}, -- [2]
+		{
+			["date_start"] = "13:39:48",
+			["date_end"] = "13:41:49",
+			["name"] = "Nal'tira",
+			["total_time"] = 120.781000000003,
+		}, -- [3]
+		{
+			["date_start"] = "13:33:22",
+			["date_end"] = "13:35:18",
+			["name"] = "Corstilax",
+			["total_time"] = 116.605,
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 			["Bruccampbell-Tichondrius"] = {
@@ -423,12 +443,6 @@ DetailsTimeLineDB = {
 		}, -- [3]
 		{
 			["Bruccampbell-Tichondrius"] = {
-				[196068] = {
-					96.9590000000026, -- [1]
-					108.955000000002, -- [2]
-					["source"] = "[*] Suppression Protocol",
-					["active"] = false,
-				},
 				[220500] = {
 					14.5410000000011, -- [1]
 					16.2570000000014, -- [2]
@@ -441,6 +455,12 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Destabilized Orb",
 					["active"] = false,
 				},
+				[195804] = {
+					22.4160000000011, -- [1]
+					27.9240000000009, -- [2]
+					["source"] = "Corstilax",
+					["active"] = false,
+				},
 				[195362] = {
 					16.3360000000012, -- [1]
 					37.1360000000022, -- [2]
@@ -451,10 +471,10 @@ DetailsTimeLineDB = {
 					["source"] = "[*] Nightwell Energy",
 					["active"] = false,
 				},
-				[195804] = {
-					22.4160000000011, -- [1]
-					27.9240000000009, -- [2]
-					["source"] = "Corstilax",
+				[196068] = {
+					96.9590000000026, -- [1]
+					108.955000000002, -- [2]
+					["source"] = "[*] Suppression Protocol",
 					["active"] = false,
 				},
 			},
@@ -501,6 +521,28 @@ DetailsTimeLineDB = {
 				},
 			},
 			["Caillis-Tichondrius"] = {
+				[196068] = {
+					50.7849999999999, -- [1]
+					62.7940000000017, -- [2]
+					["source"] = "[*] Suppression Protocol",
+					["active"] = false,
+				},
+				[195804] = {
+					69.7890000000007, -- [1]
+					72.0260000000017, -- [2]
+					["source"] = "Corstilax",
+					["active"] = false,
+				},
+				[195362] = {
+					16.3360000000012, -- [1]
+					35.1340000000018, -- [2]
+					46.6550000000025, -- [3]
+					85.3160000000025, -- [4]
+					108.649000000001, -- [5]
+					116.605, -- [6]
+					["source"] = "[*] Nightwell Energy",
+					["active"] = false,
+				},
 				[220500] = {
 					77.3369999999995, -- [1]
 					78.9259999999995, -- [2]
@@ -519,28 +561,6 @@ DetailsTimeLineDB = {
 					113.106, -- [15]
 					115.466, -- [16]
 					["source"] = "[*] Destabilized Orb",
-					["active"] = false,
-				},
-				[196068] = {
-					50.7849999999999, -- [1]
-					62.7940000000017, -- [2]
-					["source"] = "[*] Suppression Protocol",
-					["active"] = false,
-				},
-				[195362] = {
-					16.3360000000012, -- [1]
-					35.1340000000018, -- [2]
-					46.6550000000025, -- [3]
-					85.3160000000025, -- [4]
-					108.649000000001, -- [5]
-					116.605, -- [6]
-					["source"] = "[*] Nightwell Energy",
-					["active"] = false,
-				},
-				[195804] = {
-					69.7890000000007, -- [1]
-					72.0260000000017, -- [2]
-					["source"] = "Corstilax",
 					["active"] = false,
 				},
 			},
@@ -566,7 +586,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Fimwack"] = {
@@ -743,30 +762,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "13:55:15",
-			["date_end"] = "13:58:21",
-			["name"] = "Advisor Vandros",
-			["total_time"] = 186.345999999998,
-		}, -- [1]
-		{
-			["date_start"] = "13:51:28",
-			["date_end"] = "13:53:14",
-			["name"] = "General Xakal",
-			["total_time"] = 105.651999999998,
-		}, -- [2]
-		{
-			["date_start"] = "13:39:48",
-			["date_end"] = "13:41:49",
-			["name"] = "Nal'tira",
-			["total_time"] = 120.781000000003,
-		}, -- [3]
-		{
-			["date_start"] = "13:33:22",
-			["date_end"] = "13:35:18",
-			["name"] = "Corstilax",
-			["total_time"] = 116.605,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }

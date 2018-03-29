@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 			["Bruccampbell-Tichondrius"] = {
@@ -467,6 +461,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "13:11:26",
+			["date_end"] = "13:13:40",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 133.348,
+		}, -- [1]
+		{
+			["date_start"] = "13:07:12",
+			["date_end"] = "13:08:42",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 89.6899999999987,
+		}, -- [2]
+		{
+			["date_start"] = "13:05:21",
+			["date_end"] = "13:06:18",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 56.9259999999995,
+		}, -- [3]
+		{
+			["date_start"] = "12:53:12",
+			["date_end"] = "12:54:45",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 93.3000000000011,
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 		}, -- [1]
@@ -547,7 +567,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 			["Fudgedup-Tichondrius"] = {
@@ -724,30 +743,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["combat_data"] = {
-		{
-			["date_start"] = "13:11:26",
-			["date_end"] = "13:13:40",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 133.348,
-		}, -- [1]
-		{
-			["date_start"] = "13:07:12",
-			["date_end"] = "13:08:42",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 89.6899999999987,
-		}, -- [2]
-		{
-			["date_start"] = "13:05:21",
-			["date_end"] = "13:06:18",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 56.9259999999995,
-		}, -- [3]
-		{
-			["date_start"] = "12:53:12",
-			["date_end"] = "12:54:45",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 93.3000000000011,
-		}, -- [4]
+	["hide_on_combat"] = false,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
