@@ -1,6 +1,8 @@
 local L = BigWigsAPI:NewLocale("BigWigs: Plugins", "zhTW")
 if not L then return end
 
+L.comma = "，"
+
 L.abilityName = "技能名稱"
 L.abilityNameDesc = "在視窗上面顯示或隱藏技能名稱。"
 L.Alarm = "鬧鈴"
@@ -148,9 +150,12 @@ L.proximity_name = "玩家雷達"
 L.proximityTitle = "%d碼 / %d 玩家"
 L.pull = "拉怪倒數"
 L.pullIn = "%d秒後拉怪"
-L.pulling = "拉怪中!"
+--L.engageSoundTitle = "Play a sound when a boss encounter has started"
+--L.pullStartedSoundTitle = "Play a sound when the pull timer is started"
+--L.pullFinishedSoundTitle = "Play a sound when the pull timer is finished"
 L.pullStarted = "拉怪倒數計時開始於 %s 使用者 %s."
 L.pullStopped = "%s取消了拉怪計時器。"
+--L.pullStoppedCombat = "Pull timer cancelled because you entered combat."
 L.raidIconsDesc = [=[團隊中有些首領模塊使用團隊標記來為某些中了特定技能的隊員打上標記。例如類似“炸彈”類或心靈控制的技能。如果你關閉此功能，你將不會給隊員打標記。
 
 |cffff4411只有團隊領袖或被提升為助理時才可以這麼做！|r]=]
@@ -238,10 +243,34 @@ L.victoryMessageBlizzardDesc = "暴雪內建訊息會以特效顯示「首領被
 L.victoryMessages = "顯示擊敗首領訊息"
 L.victorySound = "播放勝利音效"
 L.Warning = "警報"
+--L.wipe = "Wipe"
+--L.wipeSoundTitle = "Play a sound when you wipe"
 L.wrongBreakFormat = "必須介於1至60分鐘之間。正確用法：/break 5"
 L.wrongCustomBarFormat = "不正確的格式。一個正確的範例是: /raidbar 20 文字"
 L.wrongPullFormat = "必須位於1至60秒之間。正確用法：/pull 5"
 L.wrongTime = "指定的時間無效。 <time> 可以為一個秒數，一個 分:秒，或是Mm。例如 5, 1:20 或 2m。"
+
+-----------------------------------------------------------------------
+-- AutoReply.lua
+--
+
+--L.autoReply = "Auto Reply"
+--L.autoReplyDesc = "Automatically reply to whispers when engaged in a boss encounter."
+--L.responseType = "Response Type"
+--L.autoReplyFinalReply = "Also whisper when leaving combat"
+--L.guildAndFriends = "Guild & Friends"
+--L.everyoneElse = "Everyone else"
+
+--L.autoReplyBasic = "I'm busy in combat with a boss encounter."
+--L.autoReplyNormal = "I'm busy in combat with '%s'."
+--L.autoReplyAdvanced = "I'm busy in combat with '%s' (%s) and %d/%d people are alive."
+--L.autoReplyExtreme = "I'm busy in combat with '%s' (%s) and %d/%d people are alive: %s"
+
+--L.autoReplyLeftCombatBasic = "I am no longer in combat with a boss encounter."
+--L.autoReplyLeftCombatNormalWin = "I won against '%s'."
+--L.autoReplyLeftCombatNormalWipe = "I lost against '%s'."
+--L.autoReplyLeftCombatAdvancedWin = "I won against '%s' with %d/%d people alive."
+--L.autoReplyLeftCombatAdvancedWipe = "I lost against '%s' at: %s"
 
 -----------------------------------------------------------------------
 -- InfoBox.lua

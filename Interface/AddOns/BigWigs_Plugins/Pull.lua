@@ -13,6 +13,8 @@ local L = BigWigsAPI:GetLocale("BigWigs: Plugins")
 local GetInstanceInfo = BigWigsLoader.GetInstanceInfo
 local SendAddonMessage = BigWigsLoader.SendAddonMessage
 local isLogging = false
+local PlaySoundFile = PlaySoundFile
+local media = LibStub("LibSharedMedia-3.0")
 
 -------------------------------------------------------------------------------
 -- Options
@@ -21,10 +23,23 @@ local isLogging = false
 plugin.defaultDB = {
 	countType = "emphasized",
 	combatLog = false,
-	--gearCheck = true,
+	engageSound = "None",
+	startPullSound = "BigWigs: Long",
+	endPullSound = "None",
 }
 
 do
+	local function soundGet(info)
+		for i, v in next, media:List("sound") do
+			if v == plugin.db.profile[info[#info]] then
+				return i
+			end
+		end
+	end
+	local function soundSet(info, value)
+		plugin.db.profile[info[#info]] = media:List("sound")[value]
+	end
+
 	plugin.pluginOptions = {
 		name = "Pull",
 		type = "group",
@@ -41,32 +56,61 @@ do
 					emphasized = L.emphasized,
 				},
 			},
-			desc1 = {
+			spacer1 = {
 				type = "description",
 				name = "\n",
 				order = 1.1,
+				width = "full",
+			},
+			engageSound = {
+				type = "select",
+				name = L.engageSoundTitle,
+				order = 2,
+				get = soundGet,
+				set = soundSet,
+				values = media:List("sound"),
+				width = "double",
+				itemControl = "DDI-Sound",
+			},
+			spacer2 = {
+				type = "description",
+				name = "\n",
+				order = 2.1,
+				width = "full",
+			},
+			startPullSound = {
+				type = "select",
+				name = L.pullStartedSoundTitle,
+				order = 3,
+				get = soundGet,
+				set = soundSet,
+				values = media:List("sound"),
+				width = "double",
+				itemControl = "DDI-Sound",
+			},
+			endPullSound = {
+				type = "select",
+				name = L.pullFinishedSoundTitle,
+				order = 4,
+				get = soundGet,
+				set = soundSet,
+				values = media:List("sound"),
+				width = "double",
+				itemControl = "DDI-Sound",
+			},
+			spacer3 = {
+				type = "description",
+				name = "\n",
+				order = 4.1,
 				width = "full",
 			},
 			combatLog = {
 				type = "toggle",
 				name = L.combatLog,
 				desc = L.combatLogDesc,
-				order = 2,
+				order = 5,
 				width = "full",
 			},
-			--desc2 = {
-			--	type = "description",
-			--	name = "",
-			--	order = 2.1,
-			--	width = "full",
-			--},
-			--gearCheck = {
-			--	type = "toggle",
-			--	name = "Bad Gear Check",
-			--	desc = "Scan your equipped gear for potentially bad items when starting a pull timer.",
-			--	order = 3,
-			--	width = "full",
-			--},
 		},
 	}
 end
@@ -81,6 +125,8 @@ function plugin:OnPluginEnable()
 
 	self:RegisterMessage("BigWigs_OnBossWin")
 	self:RegisterMessage("BigWigs_OnBossWipe", "BigWigs_OnBossWin")
+
+	self:RegisterMessage("BigWigs_OnBossEngage")
 end
 
 -------------------------------------------------------------------------------
@@ -94,19 +140,27 @@ do
 		if timeLeft == 0 then
 			self:CancelTimer(timer)
 			timer = nil
-			self:SendMessage("BigWigs_Message", self, nil, L.pulling, "Attention", 132337) -- 132337 = "Interface\\Icons\\ability_warrior_charge"
-			self:SendMessage("BigWigs_Sound", self, nil, "Alarm")
+			if self.db.profile.countType == "emphasized" then
+				self:SendMessage("BigWigs_EmphasizedCountdownMessage", "")
+			end
+			local soundName = self.db.profile.endPullSound
+			if soundName ~= "None" then
+				local sound = media:Fetch("sound", soundName, true)
+				if sound then
+					PlaySoundFile(sound, "Master")
+				end
+			end
 		elseif timeLeft > 2 and IsEncounterInProgress() then -- Cancel the pull timer if we ninja pulled
 			self:CancelTimer(timer)
 			timeLeft = 0
-			BigWigs:Print(L.pullStopped:format(COMBAT))
+			BigWigs:Print(L.pullStoppedCombat)
 			self:SendMessage("BigWigs_StopBar", self, L.pull)
 			self:SendMessage("BigWigs_StopPull", self, COMBAT)
 		elseif timeLeft < 11 then
-			if self.db.profile.countType == "normal" then
-				self:SendMessage("BigWigs_Message", self, nil, L.pullIn:format(timeLeft), "Attention")
-			else
+			if self.db.profile.countType == "emphasized" then
 				self:SendMessage("BigWigs_EmphasizedCountdownMessage", timeLeft)
+			else
+				self:SendMessage("BigWigs_Message", self, nil, L.pullIn:format(timeLeft), "Attention")
 			end
 			local module = BigWigs:GetPlugin("Sounds", true)
 			if timeLeft < 6 and module and module.db.profile.sound then
@@ -146,27 +200,16 @@ do
 				LoggingCombat(isLogging)
 			end
 
-			--if self.db.profile.gearCheck then
-			--	local _, zoneType = GetInstanceInfo()
-			--	if zoneType == "raid" and IsInRaid() then
-			--		for i = 1, 18 do
-			--			-- 0 Poor/Grey, 1 Common/White, 2 Uncommon/Green, 3 Rare/Blue, 4 Epic/Purple, 5 Legendary, 6 Artifact, 7 Heirloom
-			--			local quality = GetInventoryItemQuality("player", i)
-			--			local itemId = GetInventoryItemID("player", i)
-			--			local _, _, _, iLevel = GetItemInfo(itemId or 0) -- XXX this doesn't compensate for items that drop with multiple item levels
-			--			if quality and (quality < 2 or iLevel < 300) then
-			--				local msg = ("Bad Item Equipped: %s"):format(GetInventoryItemLink("player", i))
-			--				BigWigs:Print(msg)
-			--				self:SendMessage("BigWigs_Message", self, nil, msg, "Personal")
-			--			end
-			--		end
-			--	end
-			--end
-
 			self:SendMessage("BigWigs_Message", self, nil, L.pullIn:format(timeLeft), "Attention")
-			self:SendMessage("BigWigs_Sound", self, nil, "Long")
 			self:SendMessage("BigWigs_StartBar", self, nil, L.pull, seconds, 132337) -- 132337 = "Interface\\Icons\\ability_warrior_charge"
 			self:SendMessage("BigWigs_StartPull", self, seconds, nick, isDBM)
+			local soundName = self.db.profile.startPullSound
+			if soundName ~= "None" then
+				local sound = media:Fetch("sound", soundName, true)
+				if sound then
+					PlaySoundFile(sound, "Master")
+				end
+			end
 		end
 	end
 end
@@ -187,6 +230,18 @@ function plugin:BigWigs_OnBossWin()
 	if isLogging then
 		isLogging = false
 		self:ScheduleTimer(LoggingCombat, 2, isLogging) -- Delay to prevent any death events being cut out the log
+	end
+end
+
+function plugin:BigWigs_OnBossEngage(_, module)
+	if module and module.journalId then
+		local soundName = self.db.profile.engageSound
+		if soundName ~= "None" then
+			local sound = media:Fetch("sound", soundName, true)
+			if sound then
+				PlaySoundFile(sound, "Master")
+			end
+		end
 	end
 end
 

@@ -1,6 +1,8 @@
 local L = BigWigsAPI:NewLocale("BigWigs: Plugins", "ruRU")
 if not L then return end
 
+L.comma = ", "
+
 L.abilityName = "Название способности"
 L.abilityNameDesc = "Показывает или скрывает название способности в верхней части окна."
 L.Alarm = "Тревога"
@@ -148,9 +150,12 @@ L.proximity_name = "Радар близости"
 L.proximityTitle = "%d м / %d |4игрок:игрока:игроков;"
 L.pull = "Атака"
 L.pullIn = "Атакуем через %d сек"
-L.pulling = "Выступаем!"
+--L.engageSoundTitle = "Play a sound when a boss encounter has started"
+--L.pullStartedSoundTitle = "Play a sound when the pull timer is started"
+--L.pullFinishedSoundTitle = "Play a sound when the pull timer is finished"
 L.pullStarted = "Таймер атаки начат %s игроком %s."
 L.pullStopped = "%s отменил таймер атаки."
+--L.pullStoppedCombat = "Pull timer cancelled because you entered combat."
 L.raidIconsDesc = [=[Некоторые скрипты событий используют рейдовые метки, чтобы помечать игроков, которые оказывают особое влияние на вашу группу. Например, такой тип эффектов как 'бомба' и контроль разума.
 
 |cffff4411Применимо, если вы Лидер рейда или помощник!|r]=]
@@ -238,10 +243,34 @@ L.victoryMessageBlizzardDesc = "Сообщение Blizzard - это очень 
 L.victoryMessages = "Показывать сообщения о победе над боссом"
 L.victorySound = "Проигрывать звук победы над боссом"
 L.Warning = "Предупреждение"
+--L.wipe = "Wipe"
+--L.wipeSoundTitle = "Play a sound when you wipe"
 L.wrongBreakFormat = "Должно быть между 1 и 60 минутами. Например: /break 5"
 L.wrongCustomBarFormat = "Неверный формат. Правильно будет: /raidbar 20 текст"
 L.wrongPullFormat = "Должно быть между 1 и 60 секундами. Например: /pull 5"
 L.wrongTime = "Неверно указанное время. <время> может быть числом в секундах, М:С парой, или Mm. Например, 5, 1:20 или 2m."
+
+-----------------------------------------------------------------------
+-- AutoReply.lua
+--
+
+--L.autoReply = "Auto Reply"
+--L.autoReplyDesc = "Automatically reply to whispers when engaged in a boss encounter."
+--L.responseType = "Response Type"
+--L.autoReplyFinalReply = "Also whisper when leaving combat"
+--L.guildAndFriends = "Guild & Friends"
+--L.everyoneElse = "Everyone else"
+
+--L.autoReplyBasic = "I'm busy in combat with a boss encounter."
+--L.autoReplyNormal = "I'm busy in combat with '%s'."
+--L.autoReplyAdvanced = "I'm busy in combat with '%s' (%s) and %d/%d people are alive."
+--L.autoReplyExtreme = "I'm busy in combat with '%s' (%s) and %d/%d people are alive: %s"
+
+--L.autoReplyLeftCombatBasic = "I am no longer in combat with a boss encounter."
+--L.autoReplyLeftCombatNormalWin = "I won against '%s'."
+--L.autoReplyLeftCombatNormalWipe = "I lost against '%s'."
+--L.autoReplyLeftCombatAdvancedWin = "I won against '%s' with %d/%d people alive."
+--L.autoReplyLeftCombatAdvancedWipe = "I lost against '%s' at: %s"
 
 -----------------------------------------------------------------------
 -- InfoBox.lua
