@@ -210,7 +210,7 @@ do -- ext.config.bind
 		return self
 	end
 	local function SetBind(self, bind)
-		if not (bind and (bind:match("^[LR]?ALT$") or bind:match("^[LR]?CTRL$") or bind:match("^[LR]?SHIFT$"))) then
+		if not (bind and (bind:match("^[LR]?ALT$") or bind:match("^[LR]?CTRL$") or bind:match("^[LR]?SHIFT$") or bind == "UNKNOWN")) then
 			Deactivate(self)
 			if bind == "ESCAPE" then return end
 			local bind, p = bind and ((IsAltKeyDown() and "ALT-" or "") ..  (IsControlKeyDown() and "CTRL-" or "") .. (IsShiftKeyDown() and "SHIFT-" or "") .. bind), self:GetParent()

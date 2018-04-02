@@ -392,7 +392,8 @@ function api:SetIndicatorConstructor(func)
 end
 
 for k,v in pairs({ShowCooldowns=false, ShowRecharge=false, UseGameTooltip=true, ShowKeys=true,
-	MIScale=true, MISpinOnHide=true, GhostMIRings=true, XTPointerSpeed=0, XTScaleSpeed=0, XTZoomTime=0.3, XTRotationPeriod=4}) do
+	MIScale=true, MISpinOnHide=true, GhostMIRings=true,
+	XTPointerSpeed=0, XTScaleSpeed=0, XTZoomTime=0.3, XTRotationPeriod=4}) do
 	OneRingLib:RegisterOption(k,v)
 end
 OneRingLib.ext.OPieUI, T.OPieUI = api, iapi

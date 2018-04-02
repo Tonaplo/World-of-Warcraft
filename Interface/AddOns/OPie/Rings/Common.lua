@@ -52,7 +52,9 @@ do -- OPieTracker
 	local col = AB:CreateActionSlot(nil,nil, "collection", collectionData)
 	OneRingLib:SetRing("OPieTracking", col, {name=L"Minimap Tracking", hotkey="ALT-F"})
 	AB:AddObserver("internal.collection.preopen", preClick, col)
-	EV.RegisterEvent("PLAYER_ENTERING_WORLD", function() return "remove", preClick(col, nil, col) end)
+	function EV.PLAYER_ENTERING_WORLD()
+		return "remove", preClick(col, nil, col)
+	end
 end
 do -- OPieAutoQuest
 	local whitelist, questItems, collection, inring, colId, ctok, current, changed = {[33634]=true, [35797]=true, [37888]=true, [37860]=true, [37859]=true, [37815]=true, [46847]=true, [47030]=true, [39213]=true, [42986]=true, [49278]=true, [86425]={31332, 31333, 31334, 31335, 31336, 31337}, [87214]={31752, 34774}, [90006]=true, [86536]=true, [86534]=true, [97268]=true, [111821]={34774, 31752}}, {[30148]="72986 72985"}, {"EB", EB=AB:GetActionSlot("extrabutton", 1)}, {}
@@ -122,7 +124,9 @@ do -- OPieAutoQuest
 		-- Check whether any of our quest items are equipped... Hi, Egan's Blaster.
 		for i=0,19 do
 			local tok = "OPieBundleQuest" .. (GetInventoryItemID("player", i) or 0)
-			if inring[tok] then inring[tok] = current end
+			if inring[tok] then
+				inring[tok] = current
+			end
 		end
 		
 		-- Additional quest-based whitelist
@@ -144,5 +148,7 @@ do -- OPieAutoQuest
 	colId = AB:CreateActionSlot(nil,nil, "collection",collection)
 	OneRingLib:SetRing("OPieAutoQuest", colId, {name=L"Quest Items", hotkey="ALT-Q"})
 	AB:AddObserver("internal.collection.preopen", syncRing)
-	EV.RegisterEvent("PLAYER_REGEN_DISABLED", function() syncRing(nil, nil, colId) end)
+	function EV.PLAYER_REGEN_DISABLED()
+		syncRing(nil, nil, colId)
+	end
 end

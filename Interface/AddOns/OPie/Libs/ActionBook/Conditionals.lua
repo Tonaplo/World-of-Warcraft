@@ -48,10 +48,10 @@ do -- zone:Zone/Sub Zone
 		KR:SetStateConditionalValue("zone", cz or false)
 	end
 	onZoneUpdate()
-	EV.RegisterEvent("ZONE_CHANGED", onZoneUpdate)
-	EV.RegisterEvent("ZONE_CHANGED_INDOORS", onZoneUpdate)
-	EV.RegisterEvent("ZONE_CHANGED_NEW_AREA", onZoneUpdate)
-	EV.RegisterEvent("PLAYER_ENTERING_WORLD", onZoneUpdate)
+	EV.ZONE_CHANGED = onZoneUpdate
+	EV.ZONE_CHANGED_INDOORS = onZoneUpdate
+	EV.ZONE_CHANGED_NEW_AREA = onZoneUpdate
+	EV.PLAYER_ENTERING_WORLD = onZoneUpdate
 end
 do -- me:Player Name/Class
 	KR:SetStateConditionalValue("me", UnitName("player") .. "/" .. playerClassLocal .. "/" .. playerClass)
@@ -122,15 +122,14 @@ do -- form:token
 			pending = nil
 			return "remove"
 		end
-		EV.RegisterEvent("PLAYER_LOGIN", sync)
-		EV.RegisterEvent("UPDATE_SHAPESHIFT_FORMS", function()
-			if not InCombatLockdown() then
+		EV.PLAYER_LOGIN = sync
+		function EV.UPDATE_SHAPESHIFT_FORMS()
+			if InCombatLockdown() then
+				pending = pending or EV.RegisterEvent("PLAYER_REGEN_ENABLED", sync) or 1
+			else
 				sync()
-			elseif not pending then
-				pending = 1
-				EV.RegisterEvent("PLAYER_REGEN_ENABLED", sync)
 			end
-		end)
+		end
 	end
 end
 do -- talent:tier.num/name
@@ -150,7 +149,7 @@ do -- talent:tier.num/name
 			KR:SetStateConditionalValue("talent", cur or "")
 		end
 	end
-	EV.RegisterEvent("PLAYER_TALENT_UPDATE", updateTalents)
+	EV.PLAYER_TALENT_UPDATE = updateTalents
 	updateTalents()
 end
 do -- instance:arena/bg/ratedbg/raid/instance/scenario + draenor/pandaria
@@ -159,12 +158,12 @@ do -- instance:arena/bg/ratedbg/raid/instance/scenario + draenor/pandaria
 		[1116]="world/draenor", [1464]="world/draenor", [1191]="world/draenor/ashran/worldpvp",
 		[870]="world/pandaria", [1064]="world/pandaria",
 		[530]="world/outland", [571]="world/northrend",
-		[1220]="world/broken isles",
+		[1220]="world/broken isles", [1669]="world/argus",
 	}
 	for n in ("1158 1331 1159 1152 1330 1153"):gmatch("%d+") do
 		mapTypes[tonumber(n)] = "world/draenor/garrison"
 	end
-	EV.RegisterEvent("PLAYER_ENTERING_WORLD", function()
+	function EV.PLAYER_ENTERING_WORLD()
 		local _, itype, did, _, _, _, _, imid = GetInstanceInfo()
 		if imid and mapTypes[imid] then
 			itype = mapTypes[imid]
@@ -178,7 +177,7 @@ do -- instance:arena/bg/ratedbg/raid/instance/scenario + draenor/pandaria
 			end
 		end
 		KR:SetStateConditionalValue("in", mapTypes[itype] or itype)
-	end)
+	end
 	KR:SetAliasConditional("instance", "in")
 	KR:SetStateConditionalValue("in", "daze")
 end
@@ -186,12 +185,12 @@ do -- petcontrol
 	local hasControl = (playerClass ~= "HUNTER" and playerClass ~= "WARLOCK") or UnitLevel("player") >= 10
 	KR:SetStateConditionalValue("petcontrol", hasControl)
 	if not hasControl then
-		EV.RegisterEvent("PLAYER_LEVEL_UP", function(_, level)
+		function EV.PLAYER_LEVEL_UP(_, level)
 			if level >= 10 then
 				KR:SetStateConditionalValue("petcontrol", "*")
 				return "remove"
 			end
-		end)
+		end
 	end
 end
 do -- outpost
@@ -209,7 +208,7 @@ do -- outpost
 			state = ns
 		end
 	end
-	EV.RegisterEvent("SPELLS_CHANGED", sync)
+	EV.SPELLS_CHANGED = sync
 	sync()
 end
 do -- glyph:(defunct)

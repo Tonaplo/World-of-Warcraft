@@ -41,12 +41,13 @@ local function createIconButton(name, parent, id)
 	f:SetCheckedTexture("Interface/Buttons/CheckButtonHilight")
 	f:GetCheckedTexture():SetBlendMode("ADD")
 	f:SetPushedTexture("Interface/Buttons/UI-Quickslot-Depress")
-	f.tex = f:CreateTexture() f.tex:SetAllPoints()
+	f.tex = f:CreateTexture()
+	f.tex:SetAllPoints()
 	f:SetID(id or 0)
 	return f
 end
 local function SetCursor(tex)
-	_G.SetCursor(tex == (gfxBase .. "icon") and "PICKUP_CURSOR" or tex)
+	_G.SetCursor((type(tex) == "number" or tex == (gfxBase .. "icon")) and "Interface\\Icons\\Temp" or tex)
 end
 local function SaveRingVersion(name, liveData)
 	local key = "RKRing#" .. name
@@ -286,17 +287,24 @@ ringContainer = CreateFrame("FRAME", nil, panel) do
 			SetCursor(self.tex:GetTexture())
 		end
 		local function dragStop(self)
+			local source, x, y = self.source, GetCursorPosition()
+			self.source = nil
 			PlaySound(833)
 			SetCursor(nil)
-			local x, y = GetCursorPosition()
 			local scale, l, b, w, h = self:GetEffectiveScale(), self:GetRect()
 			local dy, dx = math.floor(-(y / scale - b - h-1)/(h+2)), x / scale - l
-			if dx < -2*w or dx > 2*w then return api.deleteSlice(self.source) end
+			if dx < -2*w or dx > 2*w then return api.deleteSlice(source) end
 			if dx < -w/2 or dx > 3*w/2 then return end
-			local source, dest = self.source, self:GetID() + dy
+			local dest = self:GetID() + dy
 			if not ringContainer.slices[dest+1] or not ringContainer.slices[dest+1]:IsShown() then return end
 			dest = api.resolveSliceOffset(dest)
 			if dest ~= source then api.moveSlice(source, dest) end
+		end
+		local function dragAbort(self)
+			if self.source then
+				SetCursor(nil)
+				self.source = nil
+			end
 		end
 		for i=0,11 do
 			local ico = createIconButton(nil, ringContainer, i)
@@ -305,6 +313,7 @@ ringContainer = CreateFrame("FRAME", nil, panel) do
 			ico:RegisterForDrag("LeftButton")
 			ico:SetScript("OnDragStart", dragStart)
 			ico:SetScript("OnDragStop", dragStop)
+			ico:SetScript("OnHide", dragAbort)
 			ico.check = ico:CreateTexture(nil, "OVERLAY")
 			ico.check:SetSize(8,8) ico.check:SetPoint("BOTTOMRIGHT", -1, 1)
 			ico.check:SetTexture("Interface/FriendsFrame/StatusIcon-Online")

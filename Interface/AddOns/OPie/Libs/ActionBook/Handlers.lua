@@ -2,6 +2,7 @@ local _, T = ...
 if T.SkipLocalActionBook then return end
 local AB = assert(T.ActionBook:compatible(2,21), "A compatible version of ActionBook is required")
 local RW = assert(AB:compatible("Rewire",1,10), "A compatible version of Rewire is required")
+local KR = assert(AB:compatible("Kindred",1,14), "A compatible version of Kindred is required")
 local L, EV = AB:locale(), assert(T.Evie)
 local spellFeedback, itemHint, toyHint, mountHint, mountMap
 
@@ -256,7 +257,9 @@ do -- item: items ID/inventory slot
 		end
 		return actionMap[name]
 	end, function(id) return L"Item", GetItemInfo(id), GetItemIcon(id), nil, GameTooltip.SetItemByID, tonumber(id) end, {"byName", "forceShow", "onlyEquipped"})
-	EV.RegisterEvent("BAG_UPDATE", function() AB:NotifyObservers("item") end)
+	function EV.BAG_UPDATE()
+		AB:NotifyObservers("item")
+	end
 	RW:SetCommandHint(SLASH_EQUIP1, 70, function(_, _, clause, target)
 		if clause and clause ~= "" and GetItemInfo(clause) then
 			return true, itemHint(clause, nil, target, "equip")
@@ -380,13 +383,13 @@ do -- macro: name
 			pending = nil
 			return "remove"
 		end
-		EV.RegisterEvent("UPDATE_MACROS", function()
+		function EV.UPDATE_MACROS()
 			if InCombatLockdown() then
-				pending = pending or EV.RegisterEvent("PLAYER_REGEN_ENABLED", sync) or true
+				pending = pending or EV.RegisterEvent("PLAYER_REGEN_ENABLED", sync) or 1
 			else
 				sync()
 			end
-		end)
+		end
 	end
 	local function check(name, pri, ...)
 		if ... == nil then
@@ -704,7 +707,7 @@ do -- petspell: spell ID
 	end
 end
 do -- toybox: item ID
-	local map = {}
+	local map, lastUsability, uq, whinedAboutGIIR = {}, {}, {}
 	local IGNORE_TOY_USABILITY = {
 		[129149]=1, [129279]=1, [129367]=1, [130157]="[in:broken isles]", [130158]=1, [130170]=1,
 		[130191]=1, [130199]=1, [130232]=1, [131812]=1, [131814]=1, [140325]=1, [147708]=1,
@@ -716,20 +719,49 @@ do -- toybox: item ID
 	function toyHint(iid)
 		local _, name, icon = C_ToyBox.GetToyInfo(iid)
 		local cdStart, cdLength = GetItemCooldown(iid)
-		return name and cdStart == 0, 0, icon or GetItemIcon(iid), name, 0, (cdStart or 0) > 0 and (cdStart+cdLength-GetTime()) or 0, cdLength, GameTooltip.SetToyByItemID, iid
+		local ignUse, usable = IGNORE_TOY_USABILITY[iid]
+		if ignUse == nil then
+			usable = C_ToyBox.IsToyUsable(iid) ~= false
+		else
+			usable = ignUse == 1 or (not not KR:EvaluateCmdOptions(ignUse))
+		end
+		return name and cdStart == 0 and usable, 0, icon or GetItemIcon(iid), name, 0, (cdStart or 0) > 0 and (cdStart+cdLength-GetTime()) or 0, cdLength, GameTooltip.SetToyByItemID, iid
+	end
+	function EV:GET_ITEM_INFO_RECEIVED(iid)
+		if not uq[iid] then
+			return
+		end
+		local iu = C_ToyBox.IsToyUsable(iid)
+		if iu ~= nil then
+			lastUsability[iid], uq[iid] = iu, nil
+		elseif not whinedAboutGIIR then
+			whinedAboutGIIR = true
+			error("Curse your sudden but inevitable betrayal")
+		end
 	end
 	AB:RegisterActionType("toy", function(id)
-		if type(id) == "number" and not map[id] then
-			local ignUse = IGNORE_TOY_USABILITY[id]
-			if PlayerHasToy(id) and (ignUse or C_ToyBox.IsToyUsable(id) ~= false) then
-				if (ignUse or 1) == 1 then
-					map[id] = AB:CreateActionSlot(toyHint, id, "attribute", "type","toy", "toy",id)
-				else
-					map[id] = AB:CreateActionSlot(toyHint, id, "conditional", ignUse, "attribute", "type","toy", "toy",id)
-				end
-			end
+		local mid, ignUse = map[id], IGNORE_TOY_USABILITY[id]
+		if not (mid or ignUse or type(id) == "number") or not PlayerHasToy(id) then
+			return
 		end
-		return map[id]
+		local isUsable = ignUse or C_ToyBox.IsToyUsable(id)
+		if isUsable == nil then
+			isUsable, uq[id] = lastUsability[id], 1
+			GetItemInfo(id)
+		elseif not ignUse then
+			lastUsability[id] = isUsable
+		end
+		if not isUsable then
+			mid = nil
+		elseif mid == nil then
+			if (ignUse or 1) == 1 then
+				mid = AB:CreateActionSlot(toyHint, id, "attribute", "type","toy", "toy",id)
+			else
+				mid = AB:CreateActionSlot(toyHint, id, "conditional", ignUse, "attribute", "type","toy", "toy",id)
+			end
+			map[id] = mid
+		end
+		return mid
 	end, function(id)
 		if type(id) ~= "number" then return end
 		local _, name, tex = C_ToyBox.GetToyInfo(id)
