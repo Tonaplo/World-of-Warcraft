@@ -3,7 +3,7 @@ ConditionerAddOn_SavedVariables = {
 	["CurrentLoadouts"] = {
 		[257] = 0,
 		[258] = 33,
-		[256] = 0,
+		[256] = 34,
 	},
 	["Loadouts"] = {
 		[-1] = {
@@ -24,7 +24,7 @@ ConditionerAddOn_SavedVariables = {
 			["x"] = 707.120132446289,
 		},
 		["AnchorDirection"] = 0,
-		["OnlyDisplayInCombat"] = false,
+		["OnlyDisplayInCombat"] = true,
 		["NumTrackedFrames"] = 5,
 		["Opacity"] = 100,
 		["ShowSwingTimers"] = false,

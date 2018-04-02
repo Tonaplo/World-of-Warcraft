@@ -1,51 +1,10 @@
 # BigWigs
 
-## [v92](https://github.com/BigWigsMods/BigWigs/tree/v92) (2018-03-29)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v91.1...v92)
+## [v92.1](https://github.com/BigWigsMods/BigWigs/tree/v92.1) (2018-03-30)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v92...v92.1)
 
-- bump version, update options data.  
-- Antorus/Aggramar: Use :SimpleTimer for infobox updating.  
-- Core/BossPrototype: Add :SimpleTimer  
-- Antorus/Hasabel: fixes  
-- Antorus/Hasabel: Fix portal tracking, remove short cast bars, add an estimate adds spawn timer for Transport Portal  
-- Plugins: Correct use of commas.  
-- Make color the 2nd arg for TargetsMessage and TargetMessage2.  
-- Fix parsing the soundless APIs  
-- Antorus/Felhounds: Option key fix  
-- Antorus/Felhounds: Downgrade the Weight of Darkness warning to a standard warning (with flash) instead of showing all players (can be 8 players on large hc groups) as it's not highly relevant. Cleanups. Making some use of new API.  
-- Antorus: Making some use of new API.  
-- Update colors and sounds  
-- Add TargetsMessage and TargetMessage2 to the options script  
-- Tweak options script  
-- Update ability color hiding to work with the new names  
-- Antorus: rename colors  
-- Core/BossPrototype: Add temporary :TargetMessage2  
-- Plugins/Messages: More tweaks to the message slots code.  
-- Core/BossPrototype: Update docs  
-- Loader: Only use map id when instance type is none  
-- Update README.md  
-- Plugins/Messages: Redo the logic for message slots to hopefully fix #341  
-- Plugins/Pull: Let users customize the pull sounds.  
-- Update zhTW.lua (#469)  
-- Add AutoReply feature/plugin (#459)  
-- Plugins/Wipe: Add option to play a sound on wipe.  
-- Plugins: Rename "Respawn" module to "Wipe" module.  
-- Plugins/Pull: Add option to play a sound on pull/engage.  
-- Plugins/Pull: Remove the final "pulling!" message and sound. When using emphasized mode, clear the "1" away from the screen on pull.  
-- Core/BossPrototype: Some plumbing for separating the sound option.  
-- Antorus/Hasabel: Show a message for "Howling Shadows" to non-interrupters too (#470)  
-- Antorus/Aggramar: Fix the "Intermission Soon" message for LFR (#467)  
-- Aggramar: Don't Scan for Embers unless marking or in Mythic (#462)  
-- Options: Fix colors/sounds for shared callbacks  
-- Antorus/Argus: Extra heroic timers for Cone of Death and Tortured Rage.  
-- Antorus/Trash: Add missing locales (#466)  
-- Core/BossPrototype: Always allow TargetsMessage to fire when ME\_ONLY is enabled.  
-- Core/BossPrototype: More fixes for :TargetsMessage  
-- Core/BossPrototype: Cleanups for :TargetsMessage.  
-- Core/BossPrototype: Add first draft of :TargetsMessage API.  
-- Update zhCN.lua (#463)  
-- Antorus/Felhounds: Warn when taking damage from "Burning Remnant" (#448)  
-- Antorus/Imonar: add some comments  
-- Antorus/Imonar: Add LFR Sleep Canister id.  
-- Antorus/Hasabel: Add 'Binding' debuff warnings.  
-- Antorus/Imonar: Tweak shrapnel timers  
+- Antorus/Hasabel: Change Adds Spawning to castbar, adjust Hungering Gloom message slightly  
+- Plugins/Pull: Add ability to choose the countdown voice.  
+- Plugins: cleanups  
+- Add ruRU locale for AutoReply (#471)  
+- Update zhTW.lua (#472)  

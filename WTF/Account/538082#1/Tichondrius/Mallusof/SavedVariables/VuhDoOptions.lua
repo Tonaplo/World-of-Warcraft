@@ -143,6 +143,7 @@ VUHDO_GLOBAL_ICONS = {
 	["Edict of Condemnation"] = 801000,
 	["Nightmare Blades"] = "",
 	["Crossed Over"] = 132886,
+	["Blazing Eruption"] = "",
 	["Shadowburn"] = 136214,
 	["244949"] = 237430,
 	["245994"] = 459026,
@@ -657,4 +658,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Torment of Shadows"] = "",
 	["246920"] = 236216,
 }
-VUHDO_GI_SCAN_IDX = 2151
+VUHDO_GI_SCAN_IDX = 177351

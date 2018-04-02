@@ -13,31 +13,47 @@ local L = BigWigsAPI:GetLocale("BigWigs: Plugins")
 local GetInstanceInfo = BigWigsLoader.GetInstanceInfo
 local SendAddonMessage = BigWigsLoader.SendAddonMessage
 local isLogging = false
-local PlaySoundFile = PlaySoundFile
+local IsEncounterInProgress, PlaySoundFile = IsEncounterInProgress, PlaySoundFile
 local media = LibStub("LibSharedMedia-3.0")
+local SOUND = media.MediaType and media.MediaType.SOUND or "sound"
 
 -------------------------------------------------------------------------------
 -- Options
 --
 
-plugin.defaultDB = {
-	countType = "emphasized",
-	combatLog = false,
-	engageSound = "None",
-	startPullSound = "BigWigs: Long",
-	endPullSound = "None",
-}
+do
+	local voiceMap = {
+		deDE = "Deutsch: Heroes of the Storm",
+		esES = "Español: Heroes of the Storm",
+		esMX = "Español: Heroes of the Storm",
+		frFR = "Français: Heroes of the Storm",
+		ruRU = "Русский: Heroes of the Storm",
+		koKR = "한국어: Heroes of the Storm",
+		itIT = "Italiano: Heroes of the Storm",
+		ptBR = "Português: Heroes of the Storm",
+		zhCN = "简体中文: Heroes of the Storm",
+		zhTW = "繁體中文: Heroes of the Storm",
+	}
+	plugin.defaultDB = {
+		countType = "emphasized",
+		combatLog = false,
+		engageSound = "None",
+		startPullSound = "BigWigs: Long",
+		endPullSound = "None",
+		voice = voiceMap[GetLocale()] or "English: Amy",
+	}
+end
 
 do
 	local function soundGet(info)
-		for i, v in next, media:List("sound") do
+		for i, v in next, media:List(SOUND) do
 			if v == plugin.db.profile[info[#info]] then
 				return i
 			end
 		end
 	end
 	local function soundSet(info, value)
-		plugin.db.profile[info[#info]] = media:List("sound")[value]
+		plugin.db.profile[info[#info]] = media:List(SOUND)[value]
 	end
 
 	plugin.pluginOptions = {
@@ -68,7 +84,7 @@ do
 				order = 2,
 				get = soundGet,
 				set = soundSet,
-				values = media:List("sound"),
+				values = media:List(SOUND),
 				width = "double",
 				itemControl = "DDI-Sound",
 			},
@@ -84,7 +100,7 @@ do
 				order = 3,
 				get = soundGet,
 				set = soundSet,
-				values = media:List("sound"),
+				values = media:List(SOUND),
 				width = "double",
 				itemControl = "DDI-Sound",
 			},
@@ -94,21 +110,28 @@ do
 				order = 4,
 				get = soundGet,
 				set = soundSet,
-				values = media:List("sound"),
+				values = media:List(SOUND),
 				width = "double",
 				itemControl = "DDI-Sound",
+			},
+			voice = {
+				name = L.countdownVoice,
+				type = "select",
+				values = function() return BigWigsAPI:GetCountdownList() end,
+				order = 5,
+				width = "double",
 			},
 			spacer3 = {
 				type = "description",
 				name = "\n",
-				order = 4.1,
+				order = 5.1,
 				width = "full",
 			},
 			combatLog = {
 				type = "toggle",
 				name = L.combatLog,
 				desc = L.combatLogDesc,
-				order = 5,
+				order = 6,
 				width = "full",
 			},
 		},
@@ -145,7 +168,7 @@ do
 			end
 			local soundName = self.db.profile.endPullSound
 			if soundName ~= "None" then
-				local sound = media:Fetch("sound", soundName, true)
+				local sound = media:Fetch(SOUND, soundName, true)
 				if sound then
 					PlaySoundFile(sound, "Master")
 				end
@@ -155,7 +178,7 @@ do
 			timeLeft = 0
 			BigWigs:Print(L.pullStoppedCombat)
 			self:SendMessage("BigWigs_StopBar", self, L.pull)
-			self:SendMessage("BigWigs_StopPull", self, COMBAT)
+			self:SendMessage("BigWigs_StopPull", self, "COMBAT")
 		elseif timeLeft < 11 then
 			if self.db.profile.countType == "emphasized" then
 				self:SendMessage("BigWigs_EmphasizedCountdownMessage", timeLeft)
@@ -164,7 +187,7 @@ do
 			end
 			local module = BigWigs:GetPlugin("Sounds", true)
 			if timeLeft < 6 and module and module.db.profile.sound then
-				self:SendMessage("BigWigs_PlayCountdownNumber", self, timeLeft)
+				self:SendMessage("BigWigs_PlayCountdownNumber", self, timeLeft, self.db.profile.voice)
 			end
 		end
 	end
@@ -205,7 +228,7 @@ do
 			self:SendMessage("BigWigs_StartPull", self, seconds, nick, isDBM)
 			local soundName = self.db.profile.startPullSound
 			if soundName ~= "None" then
-				local sound = media:Fetch("sound", soundName, true)
+				local sound = media:Fetch(SOUND, soundName, true)
 				if sound then
 					PlaySoundFile(sound, "Master")
 				end
@@ -237,7 +260,7 @@ function plugin:BigWigs_OnBossEngage(_, module)
 	if module and module.journalId then
 		local soundName = self.db.profile.engageSound
 		if soundName ~= "None" then
-			local sound = media:Fetch("sound", soundName, true)
+			local sound = media:Fetch(SOUND, soundName, true)
 			if sound then
 				PlaySoundFile(sound, "Master")
 			end

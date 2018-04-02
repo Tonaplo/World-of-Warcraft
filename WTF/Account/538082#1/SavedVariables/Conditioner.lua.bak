@@ -103,7 +103,7 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 	{
 		["value"] = "[02+m0__ShiftE_2139_0_0]\n[+702+g0_Winter's Chill_ShiftF_30455_0_0]\n[+701+g0_Fingers of Frost_ShiftF_30455_0_0]\n[+701+g0_Brain Freeze_F_44614_0_0]\n[00w+l0__2_214634_0_0]\n[0g+m0__T_12472_0_0]\n[+o0__E_116_0_0]",
 		["spec"] = 64,
-		["name"] = "Frost",
+		["name"] = "Frost AoE",
 	}, -- [21]
 	{
 		["value"] = "[02+m0__ShiftE_2139_0_0]\n[+o0__C_190319_0_0]\n[+o0__ShiftT_55342_0_0]\n[0w+m0__F_11366_0_0]\n[+902+a03000__3_108853_0_0]\n[+902+a02000__2_194466_0_0]\n[+701+g0_Heating Up_3_108853_0_0]\n[+701+g0_Heating Up_2_194466_0_0]\n[01+501+g0_Heating Up_E_133_0_0]",
@@ -166,10 +166,15 @@ ConditionerAddOn_SavedVariables_Loadouts = {
 		["name"] = "Shadow ST",
 	}, -- [33]
 	{
-		["value"] = "[00w+402+g0_Shadow Word: Pain_Shift E_589_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
+		["value"] = "[01+502+g0_Shadow Word: Pain_Shift E_589_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
 		["spec"] = 256,
 		["name"] = "Disc",
 	}, -- [34]
+	{
+		["value"] = "[02+m0__ShiftE_2139_0_0]\n[+702+g0_Winter's Chill_ShiftF_30455_0_0]\n[+701+g0_Fingers of Frost_ShiftF_30455_0_0]\n[+701+g0_Brain Freeze_F_44614_0_0]\n[00w+l0__2_214634_0_0]\n[0g+m0__T_12472_0_0]\n[+o0__E_116_0_0]",
+		["spec"] = 64,
+		["name"] = "Frost Single Target",
+	}, -- [35]
 	[0] = {
 		["value"] = "",
 		["spec"] = 0,

@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "23:33:44",
 			["date_start"] = "23:32:38",
+			["date_end"] = "23:33:44",
 			["name"] = "Lord Godfrey",
 			["total_time"] = 66.0019999999995,
 		}, -- [1]
 		{
-			["date_end"] = "23:30:14",
 			["date_start"] = "23:28:58",
+			["date_end"] = "23:30:14",
 			["name"] = "Lord Walden",
 			["total_time"] = 76.0050000000001,
 		}, -- [2]
 		{
-			["date_end"] = "23:24:49",
 			["date_start"] = "23:24:03",
+			["date_end"] = "23:24:49",
 			["name"] = "Commander Springvale",
 			["total_time"] = 46.0019999999995,
 		}, -- [3]
 		{
-			["date_end"] = "23:22:39",
 			["date_start"] = "23:21:37",
+			["date_end"] = "23:22:39",
 			["name"] = "Baron Silverlaine",
 			["total_time"] = 62.0060000000003,
 		}, -- [4]
@@ -30,7 +30,7 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
@@ -42,14 +42,6 @@ DetailsTimeLineDB = {
 	},
 	["debuff_timeline"] = {
 		{
-			["Alexisola-Firetree"] = {
-				[93629] = {
-					63.156, -- [1]
-					66.0019999999995, -- [2]
-					["source"] = "Lord Godfrey",
-					["active"] = false,
-				},
-			},
 			["Korugen"] = {
 				[93675] = {
 					4.53399999999965, -- [1]
@@ -58,6 +50,14 @@ DetailsTimeLineDB = {
 					46.7459999999992, -- [4]
 					50.6459999999997, -- [5]
 					66.0019999999995, -- [6]
+					["source"] = "Lord Godfrey",
+					["active"] = false,
+				},
+			},
+			["Alexisola-Firetree"] = {
+				[93629] = {
+					63.156, -- [1]
+					66.0019999999995, -- [2]
 					["source"] = "Lord Godfrey",
 					["active"] = false,
 				},
@@ -74,6 +74,16 @@ DetailsTimeLineDB = {
 		{
 		}, -- [2]
 		{
+			["Korugen"] = {
+				[93691] = {
+					11.5929999999998, -- [1]
+					15.0999999999995, -- [2]
+					31.0239999999994, -- [3]
+					33.0329999999995, -- [4]
+					["source"] = "[*] Desecration",
+					["active"] = false,
+				},
+			},
 			["Braeridel-Dalaran"] = {
 				[93691] = {
 					11.5929999999998, -- [1]
@@ -90,16 +100,6 @@ DetailsTimeLineDB = {
 					18.1219999999994, -- [2]
 					31.0239999999994, -- [3]
 					36.0519999999997, -- [4]
-					["source"] = "[*] Desecration",
-					["active"] = false,
-				},
-			},
-			["Korugen"] = {
-				[93691] = {
-					11.5929999999998, -- [1]
-					15.0999999999995, -- [2]
-					31.0239999999994, -- [3]
-					33.0329999999995, -- [4]
 					["source"] = "[*] Desecration",
 					["active"] = false,
 				},
@@ -128,7 +128,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{

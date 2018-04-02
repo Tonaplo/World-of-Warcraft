@@ -3,7 +3,7 @@ ConditionerAddOn_SavedVariables = {
 	["CurrentLoadouts"] = {
 		[257] = 0,
 		[258] = 33,
-		[256] = 0,
+		[256] = 34,
 	},
 	["Loadouts"] = {
 		[-1] = {
@@ -28,7 +28,7 @@ ConditionerAddOn_SavedVariables = {
 		["NumTrackedFrames"] = 5,
 		["Opacity"] = 100,
 		["ShowSwingTimers"] = false,
-		["OnlyDisplayInCombat"] = false,
+		["OnlyDisplayInCombat"] = true,
 	},
 	["TalentsPerLoadout"] = {
 		[33] = "2211131",

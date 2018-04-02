@@ -16,7 +16,7 @@ OneRing_Config = {
 				["Base"] = "SHIFT-G",
 				["Mounts"] = "SHIFT-H",
 			},
-			["UseDefaultBindings"] = false,
+			["ShowRecharge"] = true,
 			["NoClose"] = true,
 			["CenterAction"] = true,
 			["RingOptions"] = {
@@ -25,7 +25,7 @@ OneRing_Config = {
 				["Macros#NoClose"] = false,
 			},
 			["ShowCooldowns"] = true,
-			["ShowRecharge"] = true,
+			["UseDefaultBindings"] = false,
 		},
 	},
 	["PersistentStorage"] = {
@@ -66,8 +66,8 @@ OneRing_Config = {
 			},
 			["SpecMenu"] = {
 				{
-					["sliceToken"] = "OPCTAc",
 					["id"] = "/cast {{spell:50977/193753/126892/193759}}",
+					["sliceToken"] = "OPCTAc",
 				}, -- [1]
 				{
 					"item", -- [1]
@@ -114,8 +114,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTl",
 				}, -- [2]
 				{
-					["id"] = "/cast {{spell:2018/51300}}",
 					["sliceToken"] = "OPCCTb",
+					["id"] = "/cast {{spell:2018/51300}}",
 				}, -- [3]
 				{
 					["id"] = "/cast [mod] {{spell:31252}}; {{spell:25229/51311}};",
@@ -130,16 +130,16 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTa",
 				}, -- [6]
 				{
-					["sliceToken"] = "OPCCTc",
 					["id"] = "/cast [mod] {{spell:818}}; {{spell:2550/51296}}",
+					["sliceToken"] = "OPCCTc",
 				}, -- [7]
 				{
-					["sliceToken"] = "OPCCTi",
 					["id"] = "/cast [mod] {{spell:51005}}; {{spell:45357/45363}}",
+					["sliceToken"] = "OPCCTi",
 				}, -- [8]
 				{
-					["sliceToken"] = "OPCCTf",
 					["id"] = "/cast {{spell:3273/45542}}",
+					["sliceToken"] = "OPCCTf",
 				}, -- [9]
 				{
 					["id"] = "/cast {{spell:4036/51306}}",
@@ -154,8 +154,8 @@ OneRing_Config = {
 					["sliceToken"] = "OPCCTu",
 				}, -- [12]
 				{
-					["id"] = 2656,
 					["sliceToken"] = "OPCCTm",
+					["id"] = 2656,
 				}, -- [13]
 				{
 					["id"] = 13262,
@@ -168,9 +168,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
@@ -180,6 +180,71 @@ OneRing_Config = {
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
+			},
+			["Mounts"] = {
+				{
+					["sliceToken"] = "ABuepjqUmtwy",
+					["id"] = 150544,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuepjqUmtwt",
+					["id"] = 61425,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuepjqUmtw1",
+					["id"] = 72286,
+				}, -- [3]
+				{
+					["show"] = "[spec:255/254/253] hide;",
+					["sliceToken"] = "ABuepElZQEe",
+					["id"] = 229377,
+				}, -- [4]
+				{
+					["id"] = 229376,
+					["sliceToken"] = "ABuea4sWRNe",
+				}, -- [5]
+				{
+					["id"] = 229388,
+					["sliceToken"] = "ABuea4/4zZe",
+				}, -- [6]
+				{
+					["id"] = 229387,
+					["sliceToken"] = "ABueajwKJge",
+				}, -- [7]
+				{
+					["id"] = 231442,
+					["sliceToken"] = "ABueaz9T4ae",
+				}, -- [8]
+				{
+					["id"] = 229417,
+					["sliceToken"] = "ABuea5g/T6e",
+				}, -- [9]
+				{
+					["id"] = 229386,
+					["sliceToken"] = "ABuea5k9m/e",
+				}, -- [10]
+				{
+					["id"] = 229385,
+					["sliceToken"] = "ABuea5PhMXe",
+				}, -- [11]
+				{
+					["id"] = 232412,
+					["sliceToken"] = "ABueax2PbEe",
+				}, -- [12]
+				{
+					["id"] = 231434,
+					["sliceToken"] = "ABueaxptLhe",
+				}, -- [13]
+				{
+					["sliceToken"] = "ABueacciiTe",
+					["id"] = 231435,
+				}, -- [14]
+				{
+					["id"] = 783,
+					["sliceToken"] = "ABueaX/fZYr",
+				}, -- [15]
+				["name"] = "Mounts",
+				["save"] = true,
 			},
 			["RaidSymbols"] = {
 				{
@@ -228,123 +293,61 @@ OneRing_Config = {
 					["sliceToken"] = "OPCRSc",
 				}, -- [9]
 				["name"] = "Target Markers",
-				["internal"] = true,
+				["save"] = true,
 				["hotkey"] = "ALT-R",
-				["save"] = true,
+				["internal"] = true,
 			},
-			["Mounts"] = {
+			["WorldMarkers"] = {
 				{
-					["sliceToken"] = "ABuepjqUmtwy",
-					["id"] = 150544,
+					"worldmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "OPCWMb",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuepjqUmtwt",
-					["id"] = 61425,
+					"worldmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "OPCWMg",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuepjqUmtw1",
-					["id"] = 72286,
+					"worldmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "OPCWMp",
 				}, -- [3]
 				{
-					["show"] = "[spec:255/254/253] hide;",
-					["sliceToken"] = "ABuepElZQEe",
-					["id"] = 229377,
+					"worldmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "OPCWMr",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuea4sWRNe",
-					["id"] = 229376,
+					"worldmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "OPCWMy",
 				}, -- [5]
 				{
-					["id"] = 229388,
-					["sliceToken"] = "ABuea4/4zZe",
+					"worldmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "OPCWMo",
 				}, -- [6]
 				{
-					["id"] = 229387,
-					["sliceToken"] = "ABueajwKJge",
+					"worldmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "OPCWMs",
 				}, -- [7]
 				{
-					["id"] = 231442,
-					["sliceToken"] = "ABueaz9T4ae",
+					"worldmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "OPCWMw",
 				}, -- [8]
 				{
-					["id"] = 229417,
-					["sliceToken"] = "ABuea5g/T6e",
+					"worldmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "OPCWMc",
+					["c"] = "ccd8e5",
 				}, -- [9]
-				{
-					["id"] = 229386,
-					["sliceToken"] = "ABuea5k9m/e",
-				}, -- [10]
-				{
-					["id"] = 229385,
-					["sliceToken"] = "ABuea5PhMXe",
-				}, -- [11]
-				{
-					["id"] = 232412,
-					["sliceToken"] = "ABueax2PbEe",
-				}, -- [12]
-				{
-					["id"] = 231434,
-					["sliceToken"] = "ABueaxptLhe",
-				}, -- [13]
-				{
-					["id"] = 231435,
-					["sliceToken"] = "ABueacciiTe",
-				}, -- [14]
-				{
-					["id"] = 783,
-					["sliceToken"] = "ABueaX/fZYr",
-				}, -- [15]
-				["name"] = "Mounts",
+				["name"] = "World Markers",
 				["save"] = true,
-			},
-			["onsumables"] = {
-				{
-					"item", -- [1]
-					140587, -- [2]
-					["sliceToken"] = "ABuepjqUmtZ",
-				}, -- [1]
-				{
-					"item", -- [1]
-					138292, -- [2]
-					["sliceToken"] = "ABuepjqUmtL",
-				}, -- [2]
-				{
-					"item", -- [1]
-					133572, -- [2]
-					["sliceToken"] = "ABuepjqUmtK",
-				}, -- [3]
-				{
-					"item", -- [1]
-					133570, -- [2]
-					["sliceToken"] = "ABuepjqUmtJ",
-				}, -- [4]
-				{
-					"item", -- [1]
-					127847, -- [2]
-					["sliceToken"] = "ABuepjqUmtH",
-				}, -- [5]
-				{
-					["sliceToken"] = "ABuepjqUmt0",
-					["icon"] = 1339449,
-					["id"] = "/click ORLOpen Base",
-				}, -- [6]
-				{
-					"item", -- [1]
-					113509, -- [2]
-					["sliceToken"] = "ABuepjv9NWu",
-				}, -- [7]
-				{
-					"item", -- [1]
-					127770, -- [2]
-					["sliceToken"] = "ABuepjv9NWy",
-				}, -- [8]
-				{
-					"item", -- [1]
-					153023, -- [2]
-					["sliceToken"] = "ABueaAYKAle",
-				}, -- [9]
-				["name"] = "Consumables",
-				["save"] = true,
+				["hotkey"] = "[group] ALT-Y",
+				["internal"] = true,
 			},
 			["tAbilities"] = {
 				{
@@ -367,12 +370,12 @@ OneRing_Config = {
 					["sliceToken"] = "ABuepjqUmtwp",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuep5Et2m1",
 					["id"] = 31687,
+					["sliceToken"] = "ABuep5Et2m1",
 				}, -- [5]
 				{
-					["sliceToken"] = "ABuep5Et2mr",
 					["id"] = 190336,
+					["sliceToken"] = "ABuep5Et2mr",
 				}, -- [6]
 				{
 					["id"] = 546,
@@ -447,62 +450,59 @@ OneRing_Config = {
 					["sliceToken"] = "ABuesm1/8Lt",
 				}, -- [24]
 				{
-					["sliceToken"] = "ABuesG8z4qe",
 					["id"] = 224871,
+					["sliceToken"] = "ABuesG8z4qe",
 				}, -- [25]
 				["name"] = "Abilities",
 				["save"] = true,
 			},
-			["WorldMarkers"] = {
+			["onsumables"] = {
 				{
-					"worldmark", -- [1]
-					1, -- [2]
-					["sliceToken"] = "OPCWMb",
+					"item", -- [1]
+					140587, -- [2]
+					["sliceToken"] = "ABuepjqUmtZ",
 				}, -- [1]
 				{
-					"worldmark", -- [1]
-					2, -- [2]
-					["sliceToken"] = "OPCWMg",
+					"item", -- [1]
+					138292, -- [2]
+					["sliceToken"] = "ABuepjqUmtL",
 				}, -- [2]
 				{
-					"worldmark", -- [1]
-					3, -- [2]
-					["sliceToken"] = "OPCWMp",
+					"item", -- [1]
+					133572, -- [2]
+					["sliceToken"] = "ABuepjqUmtK",
 				}, -- [3]
 				{
-					"worldmark", -- [1]
-					4, -- [2]
-					["sliceToken"] = "OPCWMr",
+					"item", -- [1]
+					133570, -- [2]
+					["sliceToken"] = "ABuepjqUmtJ",
 				}, -- [4]
 				{
-					"worldmark", -- [1]
-					5, -- [2]
-					["sliceToken"] = "OPCWMy",
+					"item", -- [1]
+					127847, -- [2]
+					["sliceToken"] = "ABuepjqUmtH",
 				}, -- [5]
 				{
-					"worldmark", -- [1]
-					6, -- [2]
-					["sliceToken"] = "OPCWMo",
+					["sliceToken"] = "ABuepjqUmt0",
+					["icon"] = 1339449,
+					["id"] = "/click ORLOpen Base",
 				}, -- [6]
 				{
-					"worldmark", -- [1]
-					7, -- [2]
-					["sliceToken"] = "OPCWMs",
+					"item", -- [1]
+					113509, -- [2]
+					["sliceToken"] = "ABuepjv9NWu",
 				}, -- [7]
 				{
-					"worldmark", -- [1]
-					8, -- [2]
-					["sliceToken"] = "OPCWMw",
+					"item", -- [1]
+					127770, -- [2]
+					["sliceToken"] = "ABuepjv9NWy",
 				}, -- [8]
 				{
-					"worldmark", -- [1]
-					0, -- [2]
-					["sliceToken"] = "OPCWMc",
-					["c"] = "ccd8e5",
+					"item", -- [1]
+					153023, -- [2]
+					["sliceToken"] = "ABueaAYKAle",
 				}, -- [9]
-				["name"] = "World Markers",
-				["internal"] = true,
-				["hotkey"] = "[group] ALT-Y",
+				["name"] = "Consumables",
 				["save"] = true,
 			},
 			["Base"] = {
