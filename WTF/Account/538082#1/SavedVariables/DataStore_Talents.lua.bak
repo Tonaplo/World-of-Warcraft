@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -56,7 +56,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
+				["EquippedArtifact"] = "Light's Wrath",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
 						["pointsRemaining"] = 161947553196,
@@ -71,16 +71,16 @@ DataStore_TalentsDB = {
 					["Light's Wrath"] = {
 						["tier"] = 2,
 						["rank"] = 71,
-						["pointsRemaining"] = 33889056355,
+						["pointsRemaining"] = 51497559055,
 					},
 					["Xal'atath, Blade of the Black Empire"] = {
 						["tier"] = 2,
-						["rank"] = 74,
-						["pointsRemaining"] = 160229499170,
+						["rank"] = 75,
+						["pointsRemaining"] = 950008420,
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1522735831,
+				["lastUpdate"] = 1523424016,
 				["Specializations"] = {
 					15013, -- [1]
 					9830, -- [2]
@@ -454,14 +454,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -886,7 +886,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 26124,
+			["Version"] = 26365,
 		},
 		["DEATHKNIGHT"] = {
 			["Locale"] = "enUS",

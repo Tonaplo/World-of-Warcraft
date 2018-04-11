@@ -11,14 +11,14 @@ DataStore_CurrenciesDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -95,9 +95,9 @@ DataStore_CurrenciesDB = {
 				["Veiled Argunite"] = 37,
 				["Wrath of the Lich King"] = 34,
 				["Seal of Inevitable Fate"] = 30,
-				["Warlords of Draenor"] = 10,
-				["Timeworn Artifact"] = 27,
 				["Miscellaneous"] = 20,
+				["Timeworn Artifact"] = 27,
+				["Warlords of Draenor"] = 10,
 				["Wakening Essence"] = 39,
 				["Legion"] = 1,
 				["Apexis Crystal"] = 17,
@@ -166,17 +166,17 @@ DataStore_CurrenciesDB = {
 					3, -- [1]
 					167940, -- [2]
 					421040, -- [3]
-					28422, -- [4]
+					28550, -- [4]
 					50, -- [5]
 					2312, -- [6]
 					5172, -- [7]
-					6581898, -- [8]
-					46568972, -- [9]
+					6594698, -- [8]
+					46755852, -- [9]
 					782, -- [10]
 					626982, -- [11]
 					11318, -- [12]
 					23242, -- [13]
-					15054, -- [14]
+					20430, -- [14]
 					17, -- [15]
 					351378, -- [16]
 					3232, -- [17]
@@ -221,15 +221,15 @@ DataStore_CurrenciesDB = {
 					1, -- [17]
 					2, -- [18]
 				},
-				["lastUpdate"] = 1523421369,
+				["lastUpdate"] = 1523426064,
 				["CurrencyInfo"] = {
 					[395] = "0-0-0-0",
-					[1220] = "363820-0-0-0",
+					[1220] = "365280-0-0-0",
 					[824] = "10000-0-0-10000",
 					[1273] = "6-0-0-6",
 					[1191] = "25-0-0-5000",
 					[823] = "56794-0-0-0",
-					[1226] = "51421-0-0-0",
+					[1226] = "51521-0-0-0",
 					[994] = "0-0-0-20",
 					[1342] = "18-0-0-1000",
 				},
@@ -504,6 +504,40 @@ DataStore_CurrenciesDB = {
 					[1342] = "59-0-0-1000",
 				},
 			},
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1522020935,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+					0, -- [16]
+					0, -- [17]
+					0, -- [18]
+				},
+				["CurrencyInfo"] = {
+					[395] = "0-0-0-0",
+					[1220] = "0-0-0-0",
+					[824] = "0-0-0-0",
+					[1273] = "0-0-0-0",
+					[1191] = "0-0-0-0",
+					[823] = "0-0-0-0",
+					[1226] = "0-0-0-0",
+					[994] = "0-0-0-0",
+					[1342] = "0-0-0-0",
+				},
+			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["Currencies"] = {
 					3, -- [1]
@@ -549,40 +583,6 @@ DataStore_CurrenciesDB = {
 					[1226] = "14951-0-0-0",
 					[994] = "0-0-0-0",
 					[1342] = "165-0-0-1000",
-				},
-			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1522020935,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-					0, -- [14]
-					0, -- [15]
-					0, -- [16]
-					0, -- [17]
-					0, -- [18]
-				},
-				["CurrencyInfo"] = {
-					[395] = "0-0-0-0",
-					[1220] = "0-0-0-0",
-					[824] = "0-0-0-0",
-					[1273] = "0-0-0-0",
-					[1191] = "0-0-0-0",
-					[823] = "0-0-0-0",
-					[1226] = "0-0-0-0",
-					[994] = "0-0-0-0",
-					[1342] = "0-0-0-0",
 				},
 			},
 			["Default.Proudmoore.Greybone"] = {
