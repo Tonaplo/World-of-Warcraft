@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["y"] = 1050.74841308594,
-						["x"] = 444.3818359375,
 						["visible"] = false,
 						["direction"] = "down",
+						["y"] = 1050.74841308594,
+						["x"] = 444.3818359375,
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,28 +43,28 @@ XLootADB = {
 				},
 			},
 		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
-				},
-			},
-		},
 		["Monitor"] = {
 			["profiles"] = {
 				["Default"] = {
-					["show_crafted"] = true,
 					["threshold_own"] = 0,
+					["show_crafted"] = true,
 					["show_coin"] = true,
 					["fade_other"] = 30,
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 					["show_ilvl"] = true,
 					["anchor"] = {
-						["y"] = 39.9096488952637,
 						["visible"] = false,
+						["y"] = 39.9096488952637,
 						["x"] = 443.357086181641,
 					},
 					["threshold_other"] = 4,
+				},
+			},
+		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
@@ -79,18 +79,18 @@ XLootADB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 		["Rentror - Bleeding Hollow"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
