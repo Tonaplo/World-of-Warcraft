@@ -1,5 +1,11 @@
-changeset:   711:27afcfb49a35
+changeset:   712:7f8c65f91d5b
 tag:         tip
+user:        Tercio
+date:        Fri Apr 06 13:52:50 2018 -0300
+summary:     - Added a minimize button on the mythic dungeon chart window.
+
+
+changeset:   711:27afcfb49a35
 user:        Tercio
 date:        Fri Mar 30 10:44:46 2018 -0300
 summary:     - Added outline option for the right text of the bar.

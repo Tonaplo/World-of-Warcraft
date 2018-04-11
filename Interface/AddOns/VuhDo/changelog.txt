@@ -1,3 +1,52 @@
+Version 3.92
+
+
+Known issues:
+-- Limited support for Class Order Hall Bodyguards
+--   Bodyguards can be used in panels when set to target or focus
+--   Bodyguards have no unit ID so for now are only partially supported
+-- Incoming heal estimation reported is not even close to accurate
+--   Bug in Blizzard API UnitGetIncomingHeals() - returns bogus values
+-- Patch 7.1 disabled retrieval of unit facing and position in instances
+--   This was an intentional breaking change by Blizzard
+--   This breaks AOE Advice, Clusters and out-of-range direction arrow
+--   At this time there is no way to fix or renable these features
+
+
+Bugfixes:
+-- Changed the way LibDBIcon-1.0 is embedded to fix loading issue
+
+
+Improvements:
+
+
+--------------------------------------------------------------
+Version 3.91
+
+
+Known issues:
+-- Limited support for Class Order Hall Bodyguards
+--   Bodyguards can be used in panels when set to target or focus
+--   Bodyguards have no unit ID so for now are only partially supported
+-- Incoming heal estimation reported is not even close to accurate
+--   Bug in Blizzard API UnitGetIncomingHeals() - returns bogus values
+-- Patch 7.1 disabled retrieval of unit facing and position in instances
+--   This was an intentional breaking change by Blizzard
+--   This breaks AOE Advice, Clusters and out-of-range direction arrow
+--   At this time there is no way to fix or renable these features
+
+
+Bugfixes:
+-- Fixed error when configuring tooltip settings per panel
+
+
+Improvements:
+-- Migrate minimap icon to LibDBIcon (fixes SexyMap compat)
+-- Standard debuffs can now be ignored/blacklisted by spell ID
+-- Standard debuff blacklist dropdown is now sorted by name
+
+
+--------------------------------------------------------------
 Version 3.90
 
 

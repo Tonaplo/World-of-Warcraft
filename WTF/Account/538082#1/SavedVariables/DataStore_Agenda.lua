@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -35,11 +35,15 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1522650128,
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Heroic|331151290"] = "115226|1522652374|0|1",
-					["Antorus, the Burning Throne Normal|331153636"] = "115226|1522652374|0|1",
+				["Calendar"] = {
+					"2018-04-12|18:30|NEW TIME 3rd Night|1|9", -- [1]
 				},
-				["lastUpdate"] = 1522652633,
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Heroic|331151290"] = "31882|1522735715|0|1",
+					["Antorus, the Burning Throne Normal|331153636"] = "31882|1522735715|0|1",
+					["Antorus, the Burning Throne Mythic|346474443"] = "31882|1522735715|0|1",
+				},
+				["lastUpdate"] = 1522735844,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -65,8 +69,11 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1521059417,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1522650252,
+			["Default.Proudmoore.Morifa"] = {
+				["DungeonIDs"] = {
+					["Antorus, the Burning Throne Normal|207610422"] = "29394|1522738203|0|1",
+				},
+				["lastUpdate"] = 1522738210,
 			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1522025101,
@@ -98,11 +105,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Normal|207610422"] = "117291|1522650310|0|1",
-				},
-				["lastUpdate"] = 1522650335,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1522650252,
 			},
 		},
 	},
