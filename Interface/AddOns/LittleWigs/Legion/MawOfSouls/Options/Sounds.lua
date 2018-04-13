@@ -18,7 +18,7 @@ BigWigs:AddSounds("Helya", {
 	[196947] = "Info",
 	[197262] = "Alert",
 	[198495] = "Warning",
-	[202088] = "Info",
+	[202088] = "Alarm",
 	[227233] = "Alarm",
 	["destructor_tentacle"] = "Warning",
 	["stages"] = "Info",
