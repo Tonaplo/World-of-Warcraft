@@ -10,19 +10,19 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -36,9 +36,15 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-04-12|18:30|NEW TIME 3rd Night|1|9", -- [1]
+					"2018-04-15|18:50|NEW TIME Raid Night!|1|2", -- [1]
+					"2018-04-16|18:50|NEW TIME Raid Night!|1|2", -- [2]
+					"2018-04-19|19:00|Heroic Antorus|1|9", -- [3]
 				},
-				["lastUpdate"] = 1523426128,
+				["lastUpdate"] = 1523601286,
+				["DungeonIDs"] = {
+					["Neltharion's Lair Heroic|29345641"] = "30650|1523600946|0|0",
+					["Eye of Azshara Heroic|28855197"] = "30650|1523600946|0|0",
+				},
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -64,11 +70,11 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1521059417,
 			},
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1522738210,
+			},
 			["Default.Tichondrius.Zethan"] = {
 				["lastUpdate"] = 1522025101,
-			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1522650252,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1522650214,
@@ -97,8 +103,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1522738210,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1522650252,
 			},
 		},
 	},
