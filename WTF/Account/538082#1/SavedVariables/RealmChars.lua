@@ -14,11 +14,11 @@ RCDatabase = {
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 	},
 	["realm"] = {
 		["Proudmoore"] = {
@@ -175,14 +175,14 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 337,
+				["secondProfLevel"] = 357,
 				["itemLevelEquipped"] = 961.25,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
 				["itemLevelOverall"] = 971.6875,
 				["level"] = 110,
-				["firstProfLevel"] = 287,
+				["firstProfLevel"] = 783,
 				["firstProf"] = "Alchemy",
 			}, -- [1]
 			{
