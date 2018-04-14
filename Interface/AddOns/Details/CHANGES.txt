@@ -1,5 +1,17 @@
-changeset:   712:7f8c65f91d5b
+changeset:   714:4803d97fbcf0
 tag:         tip
+user:        Tercio
+date:        Fri Apr 13 10:46:36 2018 -0300
+summary:     Release 5559:
+
+
+changeset:   713:049eb249f86f
+user:        Tercio
+date:        Fri Apr 06 13:59:18 2018 -0300
+summary:     - Created a safe dispatcher for callbacks registered in details events.
+
+
+changeset:   712:7f8c65f91d5b
 user:        Tercio
 date:        Fri Apr 06 13:52:50 2018 -0300
 summary:     - Added a minimize button on the mythic dungeon chart window.

@@ -168,10 +168,14 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
+					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
-					["caption"] = "Fishing",
 				}, -- [16]
+				{
+					["sliceToken"] = "ABuesXHE2Xe",
+					["id"] = 134359,
+				}, -- [17]
 				["noPersistentCA"] = true,
 				["name"] = "Trade Skills",
 				["noOpportunisticCA"] = true,
@@ -588,9 +592,9 @@ OneRing_Config = {
 				}, -- [8]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
+					["id"] = "/rt",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
-					["id"] = "/rt",
 				}, -- [9]
 				{
 					"macro", -- [1]

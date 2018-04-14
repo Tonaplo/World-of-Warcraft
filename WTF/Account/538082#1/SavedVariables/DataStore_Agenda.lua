@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -40,11 +40,14 @@ DataStore_AgendaDB = {
 					"2018-04-16|18:50|NEW TIME Raid Night!|1|2", -- [2]
 					"2018-04-19|19:00|Heroic Antorus|1|9", -- [3]
 				},
-				["lastUpdate"] = 1523601286,
 				["DungeonIDs"] = {
-					["Neltharion's Lair Heroic|29345641"] = "30650|1523600946|0|0",
-					["Eye of Azshara Heroic|28855197"] = "30650|1523600946|0|0",
+					["Maw of Souls Mythic|348119456"] = "281426|1523695767|0|0",
+					["The Emerald Nightmare Normal|348122978"] = "281426|1523695767|0|1",
+					["Vault of the Wardens Heroic|29615805"] = "22226|1523695767|0|0",
+					["Halls of Valor Heroic|29969783"] = "22226|1523695767|0|0",
+					["Black Rook Hold Heroic|29947333"] = "22226|1523695767|0|0",
 				},
+				["lastUpdate"] = 1523695947,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -73,8 +76,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1522738210,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1522025101,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1522650252,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1522650214,
@@ -103,8 +106,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1522650252,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1522025101,
 			},
 		},
 	},

@@ -1,13 +1,7 @@
 
 DetailsTimeLineDB = {
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["max_segments"] = 4,
 	["deaths_data"] = {
 		{
 		}, -- [1]
@@ -18,253 +12,305 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "23:02:59",
+			["date_end"] = "23:03:43",
+			["name"] = "Nythendra",
+			["total_time"] = 44.112000000001,
+		}, -- [1]
+		{
+			["date_start"] = "22:24:49",
+			["date_end"] = "22:25:40",
+			["name"] = "Lord Kur'talos Ravencrest",
+			["total_time"] = 51.0069999999996,
+		}, -- [2]
+		{
+			["date_start"] = "22:23:41",
+			["date_end"] = "22:24:01",
+			["name"] = "Smashspite the Hateful",
+			["total_time"] = 20.0030000000006,
+		}, -- [3]
+		{
+			["date_start"] = "22:21:11",
+			["date_end"] = "22:21:24",
+			["name"] = "Ilysanna Ravencrest",
+			["total_time"] = 13.009,
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
-			["Demoxblade-Illidan"] = {
-				[80354] = {
-					31.0080000000016, -- [1]
-					["source"] = "Demoxblade-Illidan",
-					["active"] = true,
-				},
-			},
-			["Alpaca"] = {
-				[80354] = {
-					31.0080000000016, -- [1]
-					["source"] = "Alpaca",
-					["active"] = true,
-				},
-			},
-			["Mallusof"] = {
-				[200154] = {
-					14.023000000001, -- [1]
-					18.1890000000003, -- [2]
-					["source"] = "Molten Charskin",
+			["Melinkô-Proudmoore"] = {
+				[203045] = {
+					29.0720000000001, -- [1]
+					30.5550000000003, -- [2]
+					40.746000000001, -- [3]
+					42.5239999999994, -- [4]
+					["source"] = "[*] Infested Ground",
 					["active"] = false,
 				},
 			},
-			["Bruciebones"] = {
-				[25771] = {
-					31.0080000000016, -- [1]
-					31.0080000000016, -- [2]
-					["source"] = "Bruciebones",
+			["Kiami-Destromath"] = {
+				[203045] = {
+					29.0720000000001, -- [1]
+					34.1509999999998, -- [2]
+					["source"] = "[*] Infested Ground",
+					["active"] = false,
+				},
+				[202978] = {
+					40.098, -- [1]
+					44.112000000001, -- [2]
+					["source"] = "Nythendra",
 					["active"] = false,
 				},
 			},
-			["Ignoreme"] = {
-				[80354] = {
-					31.0080000000016, -- [1]
-					["source"] = "Ignoreme",
-					["active"] = true,
+			["Gylphie-Darkspear"] = {
+				[203096] = {
+					4.02499999999964, -- [1]
+					13.0410000000011, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
 				},
 			},
-			["Kulkmad"] = {
-				[57724] = {
-					31.0080000000016, -- [1]
-					["source"] = "Kulkmad",
-					["active"] = true,
+			["Dusker-Proudmoore"] = {
+				[203096] = {
+					4.02499999999964, -- [1]
+					13.0410000000011, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
 				},
 			},
-			["Erisciel-BlackwaterRaiders"] = {
-				[200154] = {
-					21.9240000000009, -- [1]
-					24.0970000000016, -- [2]
-					["source"] = "Molten Charskin",
+			["Sludgeclub-Fenris"] = {
+				[203096] = {
+					19.8960000000006, -- [1]
+					28.9079999999995, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
+				},
+				[203045] = {
+					39.6139999999996, -- [1]
+					40.1679999999997, -- [2]
+					["source"] = "[*] Infested Ground",
+					["active"] = false,
+				},
+			},
+			["Eroedon-Quel'Thalas"] = {
+				[203096] = {
+					19.8960000000006, -- [1]
+					28.9079999999995, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
+				},
+			},
+			["Ailahxx-Kel'Thuzad"] = {
+				[203045] = {
+					40.746000000001, -- [1]
+					41.9369999999999, -- [2]
+					["source"] = "[*] Infested Ground",
+					["active"] = false,
+				},
+			},
+			["Kajaal-Sargeras"] = {
+				[203096] = {
+					19.8960000000006, -- [1]
+					28.9079999999995, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
+				},
+				[203045] = {
+					31.1970000000001, -- [1]
+					32.2950000000001, -- [2]
+					40.746000000001, -- [3]
+					44.112000000001, -- [4]
+					["source"] = "[*] Infested Ground",
+					["active"] = false,
+				},
+			},
+			["Prêdätôr-BleedingHollow"] = {
+				[202978] = {
+					40.098, -- [1]
+					41.6049999999996, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
+				},
+				[203045] = {
+					40.9950000000008, -- [1]
+					41.2860000000001, -- [2]
+					["source"] = "[*] Infested Ground",
+					["active"] = false,
+				},
+			},
+			["Tomcruisè-Proudmoore"] = {
+				[204463] = {
+					18.6710000000003, -- [1]
+					26.6710000000003, -- [2]
+					["source"] = "Nythendra",
+					["active"] = false,
+				},
+				[203045] = {
+					27.1689999999999, -- [1]
+					28.4480000000003, -- [2]
+					["source"] = "[*] Infested Ground",
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
-			["Chadmageddon-Stormrage"] = {
-				[217851] = {
-					14.878999999999, -- [1]
-					19.8739999999998, -- [2]
-					["source"] = "Naraxas",
-					["active"] = false,
-				},
-				[210166] = {
-					15.3939999999984, -- [1]
-					15.5009999999984, -- [2]
-					["source"] = "[*] Toxic Retch",
+			["Velmassj-Proudmoore"] = {
+				[201733] = {
+					43.0519999999997, -- [1]
+					44.4229999999989, -- [2]
+					["source"] = "Dantalionax",
 					["active"] = false,
 				},
 			},
-			["Mallusof"] = {
-				[188494] = {
-					11.2219999999998, -- [1]
-					12.4649999999983, -- [2]
-					["source"] = "[*] Rancid Maw",
-					["active"] = false,
-				},
-				[217851] = {
-					15.9470000000001, -- [1]
-					20.9599999999991, -- [2]
-					["source"] = "Naraxas",
-					["active"] = false,
-				},
-			},
-			["Mythelth-EmeraldDream"] = {
-				[217851] = {
-					14.8939999999984, -- [1]
-					19.902, -- [2]
-					["source"] = "Naraxas",
-					["active"] = false,
-				},
-				[210166] = {
-					15.5709999999999, -- [1]
-					15.6349999999984, -- [2]
-					["source"] = "[*] Toxic Retch",
-					["active"] = false,
-				},
-			},
-			["Sakisaki-Dragonblight"] = {
-				[217851] = {
-					16.1359999999986, -- [1]
-					21.1279999999988, -- [2]
-					["source"] = "Naraxas",
-					["active"] = false,
-				},
-			},
-			["Erisciel-BlackwaterRaiders"] = {
-				[188494] = {
-					11.8439999999991, -- [1]
-					13.527, -- [2]
-					["source"] = "[*] Rancid Maw",
-					["active"] = false,
-				},
-				[217851] = {
-					16.5149999999994, -- [1]
-					21.5209999999988, -- [2]
-					["source"] = "Naraxas",
+			["Broddy-Proudmoore"] = {
+				[198635] = {
+					5.01799999999821, -- [1]
+					50.1519999999982, -- [2]
+					["source"] = "Kur'talos Ravencrest",
 					["active"] = false,
 				},
 			},
 		}, -- [2]
 		{
-			["Chadmageddon-Stormrage"] = {
-				[226296] = {
-					1.59100000000035, -- [1]
-					11.5889999999999, -- [2]
-					["source"] = "Vileshard Hulk",
-					["active"] = false,
-				},
-			},
-			["Mythelth-EmeraldDream"] = {
-				[226296] = {
-					1.44499999999971, -- [1]
-					11.4449999999997, -- [2]
-					["source"] = "Vileshard Hulk",
-					["active"] = false,
-				},
-			},
 			["Mallusof"] = {
-				[226296] = {
-					1.42200000000048, -- [1]
-					11.4249999999993, -- [2]
-					["source"] = "Vileshard Hulk",
+				[198079] = {
+					4.57099999999991, -- [1]
+					9.56800000000112, -- [2]
+					["source"] = "Smashspite the Hateful",
+					["active"] = false,
+				},
+				[224188] = {
+					10.1650000000009, -- [1]
+					19.143, -- [2]
+					["source"] = "Smashspite the Hateful",
 					["active"] = false,
 				},
 			},
 		}, -- [3]
 		{
-			["Chadmageddon-Stormrage"] = {
-				[215898] = {
-					4.63199999999961, -- [1]
-					13.4219999999987, -- [2]
-					["source"] = "[*] Crystalline Ground",
-					["active"] = false,
-				},
-				[192800] = {
-					7.48599999999897, -- [1]
-					11.5389999999989, -- [2]
-					17.6519999999982, -- [3]
-					20.1259999999984, -- [4]
-					["source"] = "[*] Choking Dust",
+			["Velmassj-Proudmoore"] = {
+				[197478] = {
+					11.5380000000005, -- [1]
+					12.4200000000001, -- [2]
+					["source"] = "Illysanna Ravencrest",
 					["active"] = false,
 				},
 			},
 			["Mallusof"] = {
-				[215898] = {
-					4.63199999999961, -- [1]
-					9.61599999999999, -- [2]
-					["source"] = "[*] Crystalline Ground",
+				[197478] = {
+					11.5380000000005, -- [1]
+					12.4200000000001, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[197546] = {
+					8.25799999999981, -- [1]
+					12.4200000000001, -- [2]
+					["source"] = "Illysanna Ravencrest",
+					["active"] = false,
+				},
+				[222417] = {
+					13.009, -- [1]
+					13.009, -- [2]
+					["source"] = "[*] Boulder Crush",
 					["active"] = false,
 				},
 			},
-			["Mythelth-EmeraldDream"] = {
-				[215898] = {
-					4.63199999999961, -- [1]
-					12.4569999999985, -- [2]
-					["source"] = "[*] Crystalline Ground",
+			["Broddy-Proudmoore"] = {
+				[197429] = {
+					10.880000000001, -- [1]
+					13.009, -- [2]
+					["source"] = "Illysanna Ravencrest",
 					["active"] = false,
 				},
 			},
-			["Sakisaki-Dragonblight"] = {
-				[215898] = {
-					4.63199999999961, -- [1]
-					7.70499999999993, -- [2]
-					["source"] = "[*] Crystalline Ground",
+			["Branon-Proudmoore"] = {
+				[197478] = {
+					11.5249999999996, -- [1]
+					12.4200000000001, -- [2]
+					["source"] = "Illysanna Ravencrest",
 					["active"] = false,
 				},
 			},
-			["Erisciel-BlackwaterRaiders"] = {
-				[215898] = {
-					4.63199999999961, -- [1]
-					7.17899999999827, -- [2]
-					["source"] = "[*] Crystalline Ground",
+			["Idrud-Lightbringer"] = {
+				[222417] = {
+					13.009, -- [1]
+					13.009, -- [2]
+					["source"] = "[*] Boulder Crush",
 					["active"] = false,
 				},
+			},
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+			["Dusker-Proudmoore"] = {
+				{
+					8.5570000000007, -- [1]
+					"Dusker-Proudmoore", -- [2]
+					1966, -- [3]
+				}, -- [1]
+			},
+			["Firstaids-Hellscream"] = {
+				{
+					27.1689999999999, -- [1]
+					"Firstaids-Hellscream", -- [2]
+					15286, -- [3]
+				}, -- [1]
+			},
+			["Tomcruisè-Proudmoore"] = {
+				{
+					35.7839999999997, -- [1]
+					"Tomcruisè-Proudmoore", -- [2]
+					31850, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["Broddy-Proudmoore"] = {
+				{
+					25.9149999999991, -- [1]
+					"Broddy-Proudmoore", -- [2]
+					2565, -- [3]
+				}, -- [1]
+				{
+					41.2689999999984, -- [1]
+					"Broddy-Proudmoore", -- [2]
+					2565, -- [3]
+				}, -- [2]
+				{
+					47.8499999999985, -- [1]
+					"Broddy-Proudmoore", -- [2]
+					2565, -- [3]
+				}, -- [3]
+			},
+		}, -- [2]
+		{
+			["Broddy-Proudmoore"] = {
+				{
+					1.9320000000007, -- [1]
+					"Broddy-Proudmoore", -- [2]
+					2565, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Broddy-Proudmoore"] = {
+				{
+					3.32799999999952, -- [1]
+					"Broddy-Proudmoore", -- [2]
+					2565, -- [3]
+				}, -- [1]
 			},
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
-	["cooldowns_timeline"] = {
-		{
-			["Chadmageddon-Stormrage"] = {
-				{
-					21.4890000000014, -- [1]
-					"Chadmageddon-Stormrage", -- [2]
-					48792, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Chadmageddon-Stormrage"] = {
-				{
-					25.1869999999999, -- [1]
-					"Chadmageddon-Stormrage", -- [2]
-					48792, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "23:22:56",
-			["date_start"] = "23:22:25",
-			["name"] = "Dargrul the Underking",
-			["total_time"] = 31.0080000000016,
-		}, -- [1]
-		{
-			["date_end"] = "23:21:21",
-			["date_start"] = "23:20:56",
-			["name"] = "Naraxas",
-			["total_time"] = 25.0059999999994,
-		}, -- [2]
-		{
-			["date_end"] = "23:19:12",
-			["date_start"] = "23:18:36",
-			["name"] = "Ularogg Cragshaper",
-			["total_time"] = 36.0040000000008,
-		}, -- [3]
-		{
-			["date_end"] = "23:16:38",
-			["date_start"] = "23:16:17",
-			["name"] = "Rokmora",
-			["total_time"] = 21.0029999999988,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 }
