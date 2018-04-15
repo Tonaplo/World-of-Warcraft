@@ -1,39 +1,23 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_end"] = "00:59:29",
-			["date_start"] = "00:59:28",
-			["name"] = "Guard Slip'kik",
-			["total_time"] = 1.11700000000565,
-		}, -- [1]
-		{
-			["date_end"] = "00:58:24",
-			["date_start"] = "00:58:23",
-			["name"] = "Guard Fengus",
-			["total_time"] = 1.04000000000087,
-		}, -- [2]
-		{
-			["date_end"] = "00:34:53",
-			["date_start"] = "00:34:36",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 17.0079999999944,
-		}, -- [3]
-		{
-			["date_end"] = "00:31:48",
-			["date_start"] = "00:31:04",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 44.0009999999966,
-		}, -- [4]
-	},
-	["max_segments"] = 4,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["max_segments"] = 4,
 	["window_scale"] = 1,
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 		}, -- [1]
@@ -68,6 +52,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["hide_on_combat"] = false,
 	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
@@ -78,15 +63,30 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["hide_on_combat"] = false,
-	["deaths_data"] = {
+	["combat_data"] = {
 		{
+			["date_end"] = "00:59:29",
+			["date_start"] = "00:59:28",
+			["name"] = "Guard Slip'kik",
+			["total_time"] = 1.11700000000565,
 		}, -- [1]
 		{
+			["date_end"] = "00:58:24",
+			["date_start"] = "00:58:23",
+			["name"] = "Guard Fengus",
+			["total_time"] = 1.04000000000087,
 		}, -- [2]
 		{
+			["date_end"] = "00:34:53",
+			["date_start"] = "00:34:36",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 17.0079999999944,
 		}, -- [3]
 		{
+			["date_end"] = "00:31:48",
+			["date_start"] = "00:31:04",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 44.0009999999966,
 		}, -- [4]
 	},
 }

@@ -187,8 +187,8 @@ OneRing_Config = {
 			},
 			["Mounts"] = {
 				{
-					["sliceToken"] = "ABuepjqUmtwy",
 					["id"] = 150544,
+					["sliceToken"] = "ABuepjqUmtwy",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuepjqUmtwt",
@@ -374,35 +374,21 @@ OneRing_Config = {
 				}, -- [4]
 				{
 					"macro", -- [1]
-					"Rchars", -- [2]
-					["sliceToken"] = "ABuep4Bpwxe3",
-				}, -- [5]
-				{
-					"macro", -- [1]
 					"focus", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeo",
-				}, -- [6]
+				}, -- [5]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
-					["icon"] = 1339449,
+					["caption"] = "Back",
 					["id"] = "/click ORLOpen Base",
-				}, -- [7]
-				{
-					"macro", -- [1]
-					"CooldownRotation", -- [2]
-					["sliceToken"] = "ABuepkz9WXe",
-				}, -- [8]
+					["icon"] = 1339449,
+				}, -- [6]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
 					["caption"] = "Exorsus Raid Tools",
 					["id"] = "/rt",
 					["icon"] = 136106,
-				}, -- [9]
-				{
-					"macro", -- [1]
-					"Balance of Powe", -- [2]
-					["sliceToken"] = "ABuea4nq6Re",
-				}, -- [10]
+				}, -- [7]
 				["name"] = "Macros",
 				["save"] = true,
 			},

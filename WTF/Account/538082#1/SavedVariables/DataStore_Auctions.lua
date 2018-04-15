@@ -11,14 +11,14 @@ DataStore_AuctionsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,22 +32,6 @@ DataStore_AuctionsDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1523781032,
-				["Auctions"] = {
-					"0|127838|5||3000000|3300000|1", -- [1]
-					"0|127838|5||3000000|3300000|1", -- [2]
-					"0|127838|5||3000000|3300000|1", -- [3]
-					"0|127838|5||3000000|3300000|1", -- [4]
-					"0|127838|5||3000000|3300000|1", -- [5]
-					"0|127838|5||3000000|3300000|1", -- [6]
-					"0|127838|5||3000000|3300000|1", -- [7]
-					"0|127838|5||3000000|3300000|1", -- [8]
-					"0|127838|5||3000000|3300000|1", -- [9]
-					"0|127838|5||3000000|3300000|1", -- [10]
-					"0|127838|5||3000000|3300000|1", -- [11]
-					"0|127838|5||3000000|3300000|1", -- [12]
-					"0|127838|5||3000000|3300000|1", -- [13]
-					"0|127838|5||3000000|3300000|1", -- [14]
-				},
 				["lastVisitDate"] = "2018/04/15 01:30",
 			},
 			["Default.Proudmoore.Praerend"] = {

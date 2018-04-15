@@ -168,9 +168,9 @@ OneRing_Config = {
 					["fastClick"] = true,
 				}, -- [15]
 				{
-					["caption"] = "Fishing",
 					["sliceToken"] = "ABuepxI/Peu",
 					["id"] = "/equip Underlight Angler\n/use {{spell:131474}}",
+					["caption"] = "Fishing",
 				}, -- [16]
 				{
 					["sliceToken"] = "ABuesXHE2Xe",
@@ -199,9 +199,9 @@ OneRing_Config = {
 					["id"] = 72286,
 				}, -- [3]
 				{
-					["show"] = "[spec:255/254/253] hide;",
 					["sliceToken"] = "ABuepElZQEe",
 					["id"] = 229377,
+					["show"] = "[spec:255/254/253] hide;",
 				}, -- [4]
 				{
 					["id"] = 229376,
@@ -512,33 +512,33 @@ OneRing_Config = {
 			["Base"] = {
 				{
 					["sliceToken"] = "ABuep4Bpwxd",
+					["id"] = "/click ORLOpen SpecMenu",
 					["caption"] = "Travel",
 					["icon"] = 134414,
-					["id"] = "/click ORLOpen SpecMenu",
 				}, -- [1]
 				{
 					["sliceToken"] = "ABuep4BpwxS",
+					["id"] = "/click ORLOpen CommonTrades",
 					["caption"] = "Trade Skills",
 					["icon"] = 134707,
-					["id"] = "/click ORLOpen CommonTrades",
 				}, -- [2]
 				{
 					["sliceToken"] = "ABuep4Bpwxeb",
+					["id"] = "/click ORLOpen Macros",
 					["caption"] = "Macros",
 					["icon"] = 1505928,
-					["id"] = "/click ORLOpen Macros",
 				}, -- [3]
 				{
 					["sliceToken"] = "ABuepjqUmtV",
+					["id"] = "/click ORLOpen onsumables",
 					["caption"] = "Consumables",
 					["icon"] = 134055,
-					["id"] = "/click ORLOpen onsumables",
 				}, -- [4]
 				{
 					["sliceToken"] = "ABuepjqUmtwq",
+					["id"] = "/click ORLOpen tAbilities",
 					["caption"] = "Class Abilities",
 					["icon"] = 132147,
-					["id"] = "/click ORLOpen tAbilities",
 				}, -- [5]
 				{
 					["sliceToken"] = "ABuep5oDlq5",
@@ -572,35 +572,21 @@ OneRing_Config = {
 				}, -- [4]
 				{
 					"macro", -- [1]
-					"Rchars", -- [2]
-					["sliceToken"] = "ABuep4Bpwxe3",
-				}, -- [5]
-				{
-					"macro", -- [1]
 					"focus", -- [2]
 					["sliceToken"] = "ABuep4Bpwxeo",
-				}, -- [6]
+				}, -- [5]
 				{
 					["sliceToken"] = "ABuep4Bpwxe2",
+					["caption"] = "Back",
 					["icon"] = 1339449,
 					["id"] = "/click ORLOpen Base",
-				}, -- [7]
-				{
-					"macro", -- [1]
-					"CooldownRotation", -- [2]
-					["sliceToken"] = "ABuepkz9WXe",
-				}, -- [8]
+				}, -- [6]
 				{
 					["sliceToken"] = "ABuepR6IT1u",
 					["caption"] = "Exorsus Raid Tools",
 					["icon"] = 136106,
 					["id"] = "/rt",
-				}, -- [9]
-				{
-					"macro", -- [1]
-					"Balance of Powe", -- [2]
-					["sliceToken"] = "ABuea4nq6Re",
-				}, -- [10]
+				}, -- [7]
 				["name"] = "Macros",
 				["save"] = true,
 			},
