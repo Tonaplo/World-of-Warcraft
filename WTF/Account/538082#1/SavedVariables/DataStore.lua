@@ -11,14 +11,14 @@ DataStoreDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -41,6 +41,9 @@ DataStoreDB = {
 			["Default.Tichondrius.Wisdom"] = {
 				["faction"] = "Alliance",
 			},
+			["Default.Tichondrius.The Way of the Ravens"] = {
+				["faction"] = "Horde",
+			},
 		},
 		["Version"] = 1,
 		["Characters"] = {
@@ -56,6 +59,7 @@ DataStoreDB = {
 			},
 			["Default.Tichondrius.Alura"] = {
 				["faction"] = "Horde",
+				["guildName"] = "The Way of the Ravens",
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["faction"] = "Horde",

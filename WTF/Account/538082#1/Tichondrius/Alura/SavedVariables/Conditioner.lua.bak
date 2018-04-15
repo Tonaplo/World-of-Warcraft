@@ -1,38 +1,22 @@
 
 ConditionerAddOn_SavedVariables = {
 	["TalentsPerLoadout"] = {
-	},
-	["Loadouts"] = {
-		{
-			["value"] = "[00w+402+g0_Shadow Word: Pain_Shift E_589_0_0]\n[00w+l0__Shift F_47540_0_0]\n[+o0__E_585_0_0]",
-			["spec"] = 256,
-			["name"] = "Disc",
-		}, -- [1]
-		[0] = {
-			["value"] = "",
-			["spec"] = 0,
-			["name"] = "None",
-		},
-		[-1] = {
-			["value"] = "",
-			["spec"] = 0,
-			["name"] = "Basic Rotation",
-		},
+		[34] = "2100000",
 	},
 	["Options"] = {
 		["TaperSize"] = 80,
-		["TrackedFrameSize"] = 100,
+		["OnlyDisplayInCombat"] = true,
 		["AnchorDirection"] = 0,
 		["TrackedFrameAnchorCoords"] = {
 			["y"] = 558.737251281738,
 			["x"] = 709.166702270508,
 		},
-		["NumTrackedFrames"] = 5,
+		["TrackedFrameSize"] = 100,
 		["Opacity"] = 100,
 		["ShowSwingTimers"] = false,
-		["OnlyDisplayInCombat"] = false,
+		["NumTrackedFrames"] = 5,
 	},
 	["CurrentLoadouts"] = {
-		[256] = 1,
+		[256] = 34,
 	},
 }

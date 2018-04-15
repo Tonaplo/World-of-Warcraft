@@ -11,14 +11,14 @@ DataStoreDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,14 +32,17 @@ DataStoreDB = {
 			["Default.Proudmoore.Imperial Alliance"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Risen"] = {
-				["faction"] = "Alliance",
+			["Default.Tichondrius.The Way of the Ravens"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Bleeding Hollow.Imperium"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Tichondrius.Wisdom"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Bleeding Hollow.Imperium"] = {
-				["faction"] = "Horde",
+			["Default.Proudmoore.Risen"] = {
+				["faction"] = "Alliance",
 			},
 		},
 		["Version"] = 1,
@@ -55,6 +58,7 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Alura"] = {
+				["guildName"] = "The Way of the Ravens",
 				["faction"] = "Horde",
 			},
 			["Default.Aggramar.Gottagetlia"] = {

@@ -11,14 +11,14 @@ DataStore_AuctionsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -31,26 +31,24 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2018/02/10 11:19",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1523695901,
+				["lastUpdate"] = 1523781032,
 				["Auctions"] = {
-					"0|127838|5||3000000|3300000|4", -- [1]
-					"0|127838|5||3000000|3300000|4", -- [2]
-					"0|127838|5||3000000|3300000|4", -- [3]
-					"0|127838|5||3000000|3300000|4", -- [4]
-					"0|127838|5||3000000|3300000|4", -- [5]
-					"0|127838|5||3000000|3300000|4", -- [6]
-					"0|127838|5||3000000|3300000|4", -- [7]
-					"0|127838|5||3000000|3300000|4", -- [8]
-					"0|127838|5||3000000|3300000|4", -- [9]
-					"0|127838|5||3000000|3300000|4", -- [10]
-					"0|127838|5||3000000|3300000|4", -- [11]
-					"0|127838|5||3000000|3300000|4", -- [12]
-					"0|127838|5||3000000|3300000|4", -- [13]
-					"0|127838|5||3000000|3300000|4", -- [14]
-					"0|127838|5||3000000|3300000|4", -- [15]
-					"0|127838|5||3000000|3300000|4", -- [16]
+					"0|127838|5||3000000|3300000|1", -- [1]
+					"0|127838|5||3000000|3300000|1", -- [2]
+					"0|127838|5||3000000|3300000|1", -- [3]
+					"0|127838|5||3000000|3300000|1", -- [4]
+					"0|127838|5||3000000|3300000|1", -- [5]
+					"0|127838|5||3000000|3300000|1", -- [6]
+					"0|127838|5||3000000|3300000|1", -- [7]
+					"0|127838|5||3000000|3300000|1", -- [8]
+					"0|127838|5||3000000|3300000|1", -- [9]
+					"0|127838|5||3000000|3300000|1", -- [10]
+					"0|127838|5||3000000|3300000|1", -- [11]
+					"0|127838|5||3000000|3300000|1", -- [12]
+					"0|127838|5||3000000|3300000|1", -- [13]
+					"0|127838|5||3000000|3300000|1", -- [14]
 				},
-				["lastVisitDate"] = "2018/04/14 01:51",
+				["lastVisitDate"] = "2018/04/15 01:30",
 			},
 			["Default.Proudmoore.Praerend"] = {
 				["lastUpdate"] = 1520109858,
