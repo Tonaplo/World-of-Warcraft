@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -36,15 +36,20 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-04-15|18:50|NEW TIME Raid Night!|1|2", -- [1]
-					"2018-04-16|18:50|NEW TIME Raid Night!|1|2", -- [2]
-					"2018-04-19|19:00|Heroic Antorus|1|9", -- [3]
+					"2018-04-16|18:50|NEW TIME Raid Night!|1|2", -- [1]
+					"2018-04-19|19:00|Heroic Antorus|1|9", -- [2]
+					"2018-04-22|18:50|NEW TIME Raid Night!|1|2", -- [3]
+					"2018-04-23|18:50|NEW TIME Raid Night!|1|2", -- [4]
+					"2018-04-26|19:00|Heroic Antorus|1|9", -- [5]
 				},
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|348119456"] = "141661|1523835539|0|0",
-					["The Emerald Nightmare Normal|348122978"] = "141661|1523835539|0|1",
+					["Maw of Souls Mythic|348119456"] = "111724|1523865475|0|0",
+					["The Emerald Nightmare Normal|348122978"] = "111724|1523865475|0|1",
+					["Mogu'shan Vaults 25 Player (Heroic)|348226391"] = "111724|1523865475|0|1",
+					["The Emerald Nightmare Looking For Raid|31667818"] = "111724|1523865475|0|1",
+					["Antorus, the Burning Throne Mythic|346474443"] = "111724|1523865475|0|1",
 				},
-				["lastUpdate"] = 1523835814,
+				["lastUpdate"] = 1523865521,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -73,8 +78,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["lastUpdate"] = 1522738210,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1522650252,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1522025101,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1522650214,
@@ -103,8 +108,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1522025101,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1522650252,
 			},
 		},
 	},

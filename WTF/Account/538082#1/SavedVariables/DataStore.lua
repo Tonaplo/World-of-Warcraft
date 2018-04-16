@@ -11,14 +11,14 @@ DataStoreDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,11 +32,11 @@ DataStoreDB = {
 			["Default.Proudmoore.Imperial Alliance"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Bleeding Hollow.Imperium"] = {
-				["faction"] = "Horde",
-			},
 			["Default.Proudmoore.Risen"] = {
 				["faction"] = "Alliance",
+			},
+			["Default.Bleeding Hollow.Imperium"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Tichondrius.Wisdom"] = {
 				["faction"] = "Alliance",
@@ -86,9 +86,9 @@ DataStoreDB = {
 			["Default.Proudmoore.Morifa"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Kaldorath"] = {
+			["Default.Tichondrius.Zethan"] = {
+				["guildName"] = "Wisdom",
 				["faction"] = "Alliance",
-				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["guildName"] = "Risen",
@@ -122,9 +122,9 @@ DataStoreDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["guildName"] = "Wisdom",
+			["Default.Proudmoore.Kaldorath"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
 		},
 		["ShortToLongRealmNames"] = {
