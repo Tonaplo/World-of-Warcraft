@@ -10,7 +10,7 @@ DataStoreDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
@@ -22,7 +22,7 @@ DataStoreDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -32,8 +32,8 @@ DataStoreDB = {
 			["Default.Proudmoore.Imperial Alliance"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Risen"] = {
-				["faction"] = "Alliance",
+			["Default.Tichondrius.The Way of the Ravens"] = {
+				["faction"] = "Horde",
 			},
 			["Default.Bleeding Hollow.Imperium"] = {
 				["faction"] = "Horde",
@@ -41,8 +41,8 @@ DataStoreDB = {
 			["Default.Tichondrius.Wisdom"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Tichondrius.The Way of the Ravens"] = {
-				["faction"] = "Horde",
+			["Default.Proudmoore.Risen"] = {
+				["faction"] = "Alliance",
 			},
 		},
 		["Version"] = 1,
@@ -51,52 +51,53 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Wisdom",
+				["faction"] = "Alliance",
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Alura"] = {
-				["faction"] = "Horde",
 				["guildName"] = "The Way of the Ravens",
+				["faction"] = "Horde",
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Faerand"] = {
-				["guildName"] = "Mechanics",
 				["faction"] = "Alliance",
+				["guildName"] = "Mechanics",
 			},
 			["Default.Bleeding Hollow.Zaliga"] = {
-				["faction"] = "Horde",
 				["guildName"] = "Imperium",
+				["faction"] = "Horde",
 			},
 			["Default.Bleeding Hollow.Evisca"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Amranar"] = {
+				["faction"] = "Alliance",
 				["guildName"] = "Risen",
-				["faction"] = "Alliance",
-			},
-			["Default.Proudmoore.Morifa"] = {
-				["faction"] = "Alliance",
 			},
 			["Default.Tichondrius.Zethan"] = {
+				["faction"] = "Alliance",
 				["guildName"] = "Wisdom",
+			},
+			["Default.Proudmoore.Kaldorath"] = {
+				["guildName"] = "Risen",
 				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
 			["Default.Proudmoore.Rahran"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Risen",
+				["faction"] = "Alliance",
 			},
 			["Default.Bleeding Hollow.Rentror"] = {
 				["faction"] = "Horde",
@@ -108,23 +109,22 @@ DataStoreDB = {
 				["faction"] = "Horde",
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Risen",
+				["faction"] = "Alliance",
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["guildName"] = "Risen",
 				["faction"] = "Alliance",
+				["guildName"] = "Risen",
 			},
 			["Default.Tichondrius.Korugen"] = {
-				["guildName"] = "Wisdom",
 				["faction"] = "Alliance",
+				["guildName"] = "Wisdom",
 			},
 			["Default.Proudmoore.Miriyal"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Proudmoore.Kaldorath"] = {
+			["Default.Proudmoore.Morifa"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Risen",
 			},
 		},
 		["ShortToLongRealmNames"] = {

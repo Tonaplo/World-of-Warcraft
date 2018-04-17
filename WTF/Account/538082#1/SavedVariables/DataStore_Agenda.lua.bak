@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
 		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
@@ -22,7 +22,7 @@ DataStore_AgendaDB = {
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
@@ -36,18 +36,19 @@ DataStore_AgendaDB = {
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-04-16|18:50|NEW TIME Raid Night!|1|2", -- [1]
-					"2018-04-19|19:00|Heroic Antorus|1|9", -- [2]
-					"2018-04-22|18:50|NEW TIME Raid Night!|1|2", -- [3]
-					"2018-04-23|18:50|NEW TIME Raid Night!|1|2", -- [4]
-					"2018-04-26|19:00|Heroic Antorus|1|9", -- [5]
+					"2018-04-19|19:00|Heroic Antorus|1|9", -- [1]
+					"2018-04-22|18:50|NEW TIME Raid Night!|1|2", -- [2]
+					"2018-04-23|18:50|NEW TIME Raid Night!|1|2", -- [3]
+					"2018-04-26|19:00|Heroic Antorus|1|9", -- [4]
 				},
 				["DungeonIDs"] = {
-					["Maw of Souls Mythic|348119456"] = "125155|1523852044|0|0",
-					["Antorus, the Burning Throne Mythic|346474443"] = "125155|1523852044|0|1",
-					["The Emerald Nightmare Normal|348122978"] = "125155|1523852044|0|1",
+					["Maw of Souls Mythic|348119456"] = "37087|1523940110|0|0",
+					["The Emerald Nightmare Normal|348122978"] = "37087|1523940110|0|1",
+					["Mogu'shan Vaults 25 Player (Heroic)|348226391"] = "37087|1523940110|0|1",
+					["The Emerald Nightmare Looking For Raid|31667818"] = "37087|1523940110|0|1",
+					["Antorus, the Burning Throne Mythic|346474443"] = "37087|1523940110|0|1",
 				},
-				["lastUpdate"] = 1523853906,
+				["lastUpdate"] = 1523940111,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -73,8 +74,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1521059417,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1522025101,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1522738210,
 			},
 			["Default.Proudmoore.Kaldorath"] = {
 				["lastUpdate"] = 1522650252,
@@ -106,8 +107,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1522738210,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1522025101,
 			},
 		},
 	},

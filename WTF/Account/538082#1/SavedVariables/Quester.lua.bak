@@ -11,7 +11,7 @@ QuesterDB = {
 		["Faerand - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
@@ -20,7 +20,7 @@ QuesterDB = {
 		["Rahran - Proudmoore"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

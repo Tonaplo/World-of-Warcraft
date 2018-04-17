@@ -1,3 +1,7 @@
+VER 3 010000000000000B "Carafe" "INV_MISC_QUESTIONMARK"
+/tar Aggramar
+/use 14
+END
 VER 3 0100000000000005 "KROSUS LEFT" "INV_SWORD_04"
 /RAID left
 END
@@ -8,14 +12,9 @@ VER 3 0100000000000007 "Lifegrip" "INV_MISC_QUESTIONMARK"
 #showtooltip Leap of Faith
 /cast [@mouseover,exists,nodead[]] Leap of Faith
 END
-VER 3 010000000000000A "SF Me" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000A "Me" "INV_MISC_QUESTIONMARK"
 #showtooltip Shining Force
 /target Mallusof
-/cast Shining Force
-END
-VER 3 0100000000000008 "SF Other" "INV_MISC_QUESTIONMARK"
-#showtooltip Shining Force
-/target Zael
 /cast Shining Force
 END
 VER 3 0100000000000009 "Vari" "INV_MISC_QUESTIONMARK"
@@ -24,8 +23,13 @@ VER 3 0100000000000009 "Vari" "INV_MISC_QUESTIONMARK"
 /cast Holy Word: Chastise
 END
 VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P1NT1OM1MR1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NCorBreShaUrn[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Mal[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000008 "Zael" "INV_MISC_QUESTIONMARK"
+#showtooltip Shining Force
+/target Zael
+/cast Shining Force
 END
