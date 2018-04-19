@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "01:32:26",
 			["date_start"] = "01:30:17",
+			["date_end"] = "01:32:26",
 			["name"] = "Anub'arak",
 			["total_time"] = 128.999,
 		}, -- [1]
 		{
-			["date_end"] = "01:25:53",
 			["date_start"] = "01:23:29",
+			["date_end"] = "01:25:53",
 			["name"] = "Krik'thir the Gatewatcher",
 			["total_time"] = 144.003000000001,
 		}, -- [2]
 		{
-			["date_end"] = "01:20:37",
 			["date_start"] = "01:20:24",
+			["date_end"] = "01:20:37",
 			["name"] = "Hadronox",
 			["total_time"] = 13,
 		}, -- [3]
 		{
-			["date_end"] = "00:08:45",
 			["date_start"] = "00:07:21",
+			["date_end"] = "00:08:45",
 			["name"] = "Herald Volazj",
 			["total_time"] = 84.0009999999966,
 		}, -- [4]
@@ -30,55 +30,14 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
-			["Ratchety-Frostmourne"] = {
-				{
-					81.476999999999, -- [1]
-					"Ratchety-Frostmourne", -- [2]
-					871, -- [3]
-				}, -- [1]
-				{
-					81.476999999999, -- [1]
-					"Ratchety-Frostmourne", -- [2]
-					871, -- [3]
-				}, -- [2]
-				{
-					83.9840000000004, -- [1]
-					"Ratchety-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [3]
-				{
-					95.7379999999976, -- [1]
-					"Ratchety-Frostmourne", -- [2]
-					12975, -- [3]
-				}, -- [4]
-				{
-					95.7379999999976, -- [1]
-					"Ratchety-Frostmourne", -- [2]
-					12975, -- [3]
-				}, -- [5]
-			},
 		}, -- [2]
 		{
-			["Ratchety-Frostmourne"] = {
-				{
-					2.41899999999805, -- [1]
-					"Ratchety-Frostmourne", -- [2]
-					2565, -- [3]
-				}, -- [1]
-			},
 		}, -- [3]
 		{
-			["Daatis"] = {
-				{
-					10.1809999999969, -- [1]
-					"Daatis", -- [2]
-					2565, -- [3]
-				}, -- [1]
-			},
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
@@ -227,20 +186,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Zethan"] = {
-				[52592] = {
-					33.7029999999977, -- [1]
-					43.7139999999999, -- [2]
-					["source"] = "Krik'thir the Gatewatcher",
-					["active"] = false,
-				},
-				[53322] = {
-					119.049999999999, -- [1]
-					125.054, -- [2]
-					["source"] = "Anub'ar Crypt Fiend",
-					["active"] = false,
-				},
-			},
 			["Ratchety-Frostmourne"] = {
 				[52586] = {
 					8.41400000000067, -- [1]
@@ -254,6 +199,18 @@ DetailsTimeLineDB = {
 					["source"] = "Krik'thir the Gatewatcher",
 					["active"] = false,
 				},
+				[53322] = {
+					81.1990000000005, -- [1]
+					87.2049999999981, -- [2]
+					["source"] = "Anub'ar Crypt Fiend",
+					["active"] = false,
+				},
+				[52446] = {
+					30.9349999999977, -- [1]
+					40.9449999999997, -- [2]
+					["source"] = "Skittering Infector",
+					["active"] = false,
+				},
 				[53330] = {
 					84.114999999998, -- [1]
 					86.3799999999974, -- [2]
@@ -264,15 +221,17 @@ DetailsTimeLineDB = {
 					["source"] = "Anub'ar Crypt Fiend",
 					["active"] = false,
 				},
-				[52446] = {
-					30.9349999999977, -- [1]
-					40.9449999999997, -- [2]
-					["source"] = "Skittering Infector",
+			},
+			["Zethan"] = {
+				[52592] = {
+					33.7029999999977, -- [1]
+					43.7139999999999, -- [2]
+					["source"] = "Krik'thir the Gatewatcher",
 					["active"] = false,
 				},
 				[53322] = {
-					81.1990000000005, -- [1]
-					87.2049999999981, -- [2]
+					119.049999999999, -- [1]
+					125.054, -- [2]
 					["source"] = "Anub'ar Crypt Fiend",
 					["active"] = false,
 				},
@@ -353,14 +312,55 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
+			["Ratchety-Frostmourne"] = {
+				{
+					81.476999999999, -- [1]
+					"Ratchety-Frostmourne", -- [2]
+					871, -- [3]
+				}, -- [1]
+				{
+					81.476999999999, -- [1]
+					"Ratchety-Frostmourne", -- [2]
+					871, -- [3]
+				}, -- [2]
+				{
+					83.9840000000004, -- [1]
+					"Ratchety-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [3]
+				{
+					95.7379999999976, -- [1]
+					"Ratchety-Frostmourne", -- [2]
+					12975, -- [3]
+				}, -- [4]
+				{
+					95.7379999999976, -- [1]
+					"Ratchety-Frostmourne", -- [2]
+					12975, -- [3]
+				}, -- [5]
+			},
 		}, -- [2]
 		{
+			["Ratchety-Frostmourne"] = {
+				{
+					2.41899999999805, -- [1]
+					"Ratchety-Frostmourne", -- [2]
+					2565, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
+			["Daatis"] = {
+				{
+					10.1809999999969, -- [1]
+					"Daatis", -- [2]
+					2565, -- [3]
+				}, -- [1]
+			},
 		}, -- [4]
 	},
 }

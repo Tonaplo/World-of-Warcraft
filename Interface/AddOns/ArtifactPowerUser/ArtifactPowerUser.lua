@@ -6,6 +6,8 @@ local itemLink, bag, slot
 local Cache = {}
 local tooltipName = "APUscanner"
 local tooltipScanner = CreateFrame("GameTooltip", tooltipName, nil, "GameTooltipTemplate")
+local tooltip = CreateFrame("GameTooltip", "APUtooltip", UIParent, "GameTooltipTemplate")
+
 local ARTIFACT_POWER = ARTIFACT_POWER
 local ignoredItems = {
 	[147717] = true,
@@ -64,7 +66,7 @@ local function Update()
 			end
 			self:Show()
 			if self:IsMouseOver() then	--update tooltip
-				GameTooltip:SetHyperlink(itemLink)
+				tooltip:SetHyperlink(itemLink)
 			end
 		else
 			self:Hide()
@@ -144,12 +146,12 @@ local function CreateButton()
 	end)
 	self:SetScript("OnEnter", function(self)
 		if itemLink then
-			GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-			GameTooltip:SetHyperlink(itemLink)
+			tooltip:SetOwner(self, "ANCHOR_RIGHT")
+			tooltip:SetHyperlink(itemLink)
 		end
 	end)
 	self:SetScript("OnLeave", function(self)
-		GameTooltip_Hide()
+		tooltip:Hide()
 	end)
 	self:SetScript("OnDragStart", function(self)
 		if self:IsMovable() then

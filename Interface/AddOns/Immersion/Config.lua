@@ -319,7 +319,7 @@ L.options = {
 				accept = {
 					type = 'keybinding',
 					name = ACCEPT,
-					desc = L.GetListString(ACCEPT, NEXT, CONTINUE, COMPLETE_QUEST),
+					desc = L.GetListString(ACCEPT, NEXT, CONTINUE, COMPLETE_QUEST, SPELL_CAST_TIME_INSTANT .. ': ' .. modifiers[L('inspect')]),
 					get = L.GetFromSV,
 					set = function(_, val) L.cfg.accept = L.ValidateKey(val) end,
 					order = 1,

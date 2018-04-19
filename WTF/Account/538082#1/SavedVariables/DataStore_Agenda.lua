@@ -10,25 +10,25 @@ DataStore_AgendaDB = {
 		["Greybone - Proudmoore"] = "Greybone - Proudmoore",
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
-		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
-		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
 		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
+		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
 	},
 	["global"] = {
 		["Options"] = {
 			["WeeklyResetHour"] = 6,
 			["WeeklyResetDay"] = 2,
-			["NextWeeklyReset"] = "2018-04-17",
+			["NextWeeklyReset"] = "2018-04-24",
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
@@ -39,17 +39,6 @@ DataStore_AgendaDB = {
 					"2018-04-22|18:00|NEW TIME Raid Night!|1|2", -- [1]
 					"2018-04-23|19:00|NEW TIME Raid Night!|1|2", -- [2]
 					"2018-04-26|19:00|Heroic Antorus|1|9", -- [3]
-				},
-				["DungeonIDs"] = {
-					["Mogu'shan Vaults 25 Player (Heroic)|348226391"] = "30424|1523946773|0|1",
-					["Maw of Souls Heroic|32375412"] = "30424|1523946773|0|0",
-					["Vault of the Wardens Heroic|32372398"] = "30424|1523946773|0|0",
-					["The Emerald Nightmare Looking For Raid|31667818"] = "30424|1523946773|0|1",
-					["Maw of Souls Mythic|348119456"] = "30424|1523946773|0|0",
-					["The Emerald Nightmare Normal|348122978"] = "30424|1523946773|0|1",
-					["Halls of Valor Heroic|32362079"] = "30424|1523946773|0|0",
-					["Eye of Azshara Heroic|32355196"] = "30424|1523946773|0|0",
-					["Antorus, the Burning Throne Mythic|346474443"] = "30424|1523946773|0|1",
 				},
 				["lastUpdate"] = 1523946841,
 			},
@@ -77,11 +66,11 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Amranar"] = {
 				["lastUpdate"] = 1521059417,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1522025101,
+			["Default.Proudmoore.Morifa"] = {
+				["lastUpdate"] = 1522738210,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1522650252,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1524119827,
 			},
 			["Default.Proudmoore.Greybone"] = {
 				["lastUpdate"] = 1522650214,
@@ -110,8 +99,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1522738210,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1522650252,
 			},
 		},
 	},
