@@ -337,6 +337,7 @@ VUHDO_GLOBAL_ICONS = {
 	["Arcane Resonance"] = 135730,
 	["208230"] = 538039,
 	["1064"] = 136042,
+	["71041"] = 236347,
 	["[36900] Soul Split: Evil!"] = "",
 	["Torment of Shadows"] = "",
 	["Overwhelming Assault"] = 236317,
@@ -667,4 +668,4 @@ VUHDO_GLOBAL_ICONS = {
 	["Miasma"] = "",
 	["246920"] = 236216,
 }
-VUHDO_GI_SCAN_IDX = 116501
+VUHDO_GI_SCAN_IDX = 35901

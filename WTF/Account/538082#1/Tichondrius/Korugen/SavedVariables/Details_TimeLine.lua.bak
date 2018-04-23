@@ -3,45 +3,168 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_start"] = "23:32:38",
-			["date_end"] = "23:33:44",
-			["name"] = "Lord Godfrey",
-			["total_time"] = 66.0019999999995,
+			["date_end"] = "00:20:14",
+			["date_start"] = "00:19:20",
+			["name"] = "Mekgineer Thermaplugg",
+			["total_time"] = 54.005000000001,
 		}, -- [1]
 		{
-			["date_start"] = "23:28:58",
-			["date_end"] = "23:30:14",
-			["name"] = "Lord Walden",
-			["total_time"] = 76.0050000000001,
+			["date_end"] = "00:14:56",
+			["date_start"] = "00:13:59",
+			["name"] = "Electrocutioner 6000",
+			["total_time"] = 57,
 		}, -- [2]
 		{
-			["date_start"] = "23:24:03",
-			["date_end"] = "23:24:49",
-			["name"] = "Commander Springvale",
-			["total_time"] = 46.0019999999995,
+			["date_end"] = "00:10:15",
+			["date_start"] = "00:09:16",
+			["name"] = "Viscous Fallout",
+			["total_time"] = 59.005000000001,
 		}, -- [3]
 		{
-			["date_start"] = "23:21:37",
-			["date_end"] = "23:22:39",
-			["name"] = "Baron Silverlaine",
-			["total_time"] = 62.0060000000003,
+			["date_end"] = "23:33:44",
+			["date_start"] = "23:32:38",
+			["name"] = "Lord Godfrey",
+			["total_time"] = 66.0019999999995,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
+			["Winterblaze-Thunderhorn"] = {
+				{
+					3.18000000000029, -- [1]
+					"Winterblaze-Thunderhorn", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
 		}, -- [1]
 		{
+			["Winterblaze-Thunderhorn"] = {
+				{
+					27, -- [1]
+					"Winterblaze-Thunderhorn", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
 		}, -- [2]
 		{
+			["Winterblaze-Thunderhorn"] = {
+				{
+					11.4639999999999, -- [1]
+					"Winterblaze-Thunderhorn", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
 		}, -- [3]
 		{
 		}, -- [4]
 	},
 	["debuff_timeline"] = {
 		{
+			["Korugen"] = {
+				[74720] = {
+					9.22699999999895, -- [1]
+					11.2380000000012, -- [2]
+					43.2560000000012, -- [3]
+					45.2569999999978, -- [4]
+					["source"] = "Mekgineer Thermaplugg",
+					["active"] = false,
+				},
+				[52778] = {
+					22.5959999999977, -- [1]
+					27.5999999999985, -- [2]
+					["source"] = "Mekgineer Thermaplugg",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Atherin-Frostmourne"] = {
+				[21687] = {
+					9.15000000000146, -- [1]
+					24.1450000000004, -- [2]
+					30.9259999999995, -- [3]
+					45.9310000000005, -- [4]
+					53.7109999999993, -- [5]
+					59.005000000001, -- [6]
+					["source"] = "Viscous Fallout",
+					["active"] = false,
+				},
+			},
+			["Benkai-Frostmourne"] = {
+				[9459] = {
+					8.52899999999863, -- [1]
+					23.5430000000015, -- [2]
+					["source"] = "Corrosive Lurker",
+					["active"] = false,
+				},
+				[21687] = {
+					8.79999999999927, -- [1]
+					23.8040000000001, -- [2]
+					30.8760000000002, -- [3]
+					45.8810000000012, -- [4]
+					53.6610000000001, -- [5]
+					59.005000000001, -- [6]
+					["source"] = "Viscous Fallout",
+					["active"] = false,
+				},
+			},
+			["Winterblaze-Thunderhorn"] = {
+				[21687] = {
+					9.2599999999984, -- [1]
+					24.2750000000015, -- [2]
+					31.3369999999995, -- [3]
+					46.3509999999988, -- [4]
+					54.1310000000012, -- [5]
+					59.005000000001, -- [6]
+					["source"] = "Viscous Fallout",
+					["active"] = false,
+				},
+			},
+			["Korugen"] = {
+				[21687] = {
+					8.77000000000044, -- [1]
+					23.7740000000013, -- [2]
+					30.8359999999993, -- [3]
+					45.8309999999983, -- [4]
+					53.6409999999996, -- [5]
+					59.005000000001, -- [6]
+					["source"] = "Viscous Fallout",
+					["active"] = false,
+				},
+			},
+			["Holdmyshîeld-Stormrage"] = {
+				[21687] = {
+					8.77999999999884, -- [1]
+					23.7839999999997, -- [2]
+					30.8060000000005, -- [3]
+					45.8009999999995, -- [4]
+					53.6709999999985, -- [5]
+					59.005000000001, -- [6]
+					["source"] = "Viscous Fallout",
+					["active"] = false,
+				},
+				[9459] = {
+					14.3909999999996, -- [1]
+					33.0200000000004, -- [2]
+					["source"] = "Corrosive Lurker",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Alexisola-Firetree"] = {
+				[93629] = {
+					63.156, -- [1]
+					66.0019999999995, -- [2]
+					["source"] = "Lord Godfrey",
+					["active"] = false,
+				},
+			},
 			["Korugen"] = {
 				[93675] = {
 					4.53399999999965, -- [1]
@@ -54,69 +177,11 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Alexisola-Firetree"] = {
-				[93629] = {
-					63.156, -- [1]
-					66.0019999999995, -- [2]
-					["source"] = "Lord Godfrey",
-					["active"] = false,
-				},
-			},
 			["Tapin-Aggramar"] = {
 				[93629] = {
 					31.9989999999998, -- [1]
 					47.0029999999997, -- [2]
 					["source"] = "Lord Godfrey",
-					["active"] = false,
-				},
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Korugen"] = {
-				[93691] = {
-					11.5929999999998, -- [1]
-					15.0999999999995, -- [2]
-					31.0239999999994, -- [3]
-					33.0329999999995, -- [4]
-					["source"] = "[*] Desecration",
-					["active"] = false,
-				},
-			},
-			["Braeridel-Dalaran"] = {
-				[93691] = {
-					11.5929999999998, -- [1]
-					15.0999999999995, -- [2]
-					31.0239999999994, -- [3]
-					34.5439999999999, -- [4]
-					["source"] = "[*] Desecration",
-					["active"] = false,
-				},
-			},
-			["Alexisola-Firetree"] = {
-				[93691] = {
-					11.5929999999998, -- [1]
-					18.1219999999994, -- [2]
-					31.0239999999994, -- [3]
-					36.0519999999997, -- [4]
-					["source"] = "[*] Desecration",
-					["active"] = false,
-				},
-			},
-		}, -- [3]
-		{
-			["Korugen"] = {
-				[23224] = {
-					4.90200000000004, -- [1]
-					12.9049999999997, -- [2]
-					23.1390000000001, -- [3]
-					31.1459999999997, -- [4]
-					42.6199999999999, -- [5]
-					50.6090000000004, -- [6]
-					59.6040000000003, -- [7]
-					62.0060000000003, -- [8]
-					["source"] = "Baron Silverlaine",
 					["active"] = false,
 				},
 			},
@@ -128,7 +193,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

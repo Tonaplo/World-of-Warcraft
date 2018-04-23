@@ -1,20 +1,23 @@
 # LittleWigs
 
-## [v7.3.23](https://github.com/BigWigsMods/LittleWigs/tree/v7.3.23) (2018-04-11)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.3.22...v7.3.23)
+## [v7.3.24](https://github.com/BigWigsMods/LittleWigs/tree/v7.3.24) (2018-04-22)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v7.3.23...v7.3.24)
 
-- MawOfSouls/Helya: Change 'Brackwater Barrage' sound from 'Info' to 'Alarm' (#290)  
-- BlackRookHold/IllysannaRavencrest: Fix Eye Beams say  
-- MoP/GateOfTheSettingSun/Rimok: don't announce the first stack of "Viscious Fluid" on the boss because it gets applied nearly instantly  
-- MoP/SiegeOfNiuzaoTemple/Pavalak: fixed a typo  
-- update zhCN. (#289)  
-- ArtifactScenarios/Kruul: Switch the win to a cast  
-- ArtifactScenarios: Cleanup  
-- ArtifactScenarios: Use scenario events to enable modules  
-- ArtifactScenarios/Xylem: Implement Archmage Xylem  
-- ArtifactScenarios/Kruul: fixed CDBar's text for "Nether Aberration"  
-- MoP/SiegeOfNiuzaoTemple/Pavalak: fixed HP%-based warnings for "Call Reinforcements"  
-- MoP/SiegeOfNiuzaoTemple/Pavalak: warn about "Tempest" on CAST\_START instead because the debuff is applied to the whole group  
-- MoP/StormstoutBrewery/Hoptallus: changed the message used for "Furlwind"  
-- MoP/GateOfTheSettingSun/Kiptilak: mark the player affected by "Sabotage"  
-- MoP/MogushanPalace/TrialOfTheKing: fixed bars for "Meteor"  
+- update option files  
+- WotLK/TheCullingOfStratholme/MalGanis: Play "Info" on Vampiric Touch cast.  
+- WotLK/AzjolNerub/Anubarak: Play "Warning" on Pound cast.  
+- update option files  
+- TBC/AuchenaiCrypts/Maladaar: Play "Info" on avatar cast.  
+- WoD/IronDocks/Nokgar: added CD bars for "Reckless Provocation" and messages for stages (#280)  
+- Underrot: Fix some spell ids  
+- Add BFA option files  
+- Update colors and sounds  
+- Add Battle for Azeroth dungeons (#185)  
+- MawOfSouls/Trash: don't show a message for "Sea Legs" when mages spellsteal it  
+- Karazhan/Curator: Fix Power Discharge warning  
+- MawOfSouls/Trash: added warnings for "Soul Siphon", "Sea Legs" and "Give No Quarter", added missing localized NPC names, added throttling for casts' warnings (#274)  
+- Karazhan/Vizaduum: added CD bars for spells that were already tracked, added "Bombardment", a proximity display for Stage 3, warnings when taking damage from Soul Harvesters, cleanups (#292)  
+- Legion/Karazhan/ShadeOfMedivh: added bars for "Flame Wreath" and "Ceaseless Winter", fixed "Focused Power" bar showing an incorrect value during "Guardian's Image", cleanups  
+- Legion/Karazhan/Curator: tweaked Evocation's CD  
+- WotLK/TheForgeOfSouls/Bronjahm: Fix soon message/lua error (#291)  
+- Legion/Karazhan/Curator: Add Evocation cooldown bars  
