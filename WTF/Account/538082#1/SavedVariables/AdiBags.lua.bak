@@ -39,9 +39,12 @@ AdiBagsDB = {
 		},
 		["Legion"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
+		["Equipment"] = {
+			["profiles"] = {
+				["Default"] = {
+					["dispatchRule"] = "slot",
+				},
+			},
 		},
 		["ItemSets"] = {
 			["char"] = {
@@ -71,12 +74,12 @@ AdiBagsDB = {
 						["Timeless Coin"] = false,
 						["Essence of Corrupted Deathwing"] = false,
 						["Apexis Crystal"] = false,
-						["Timewarped Badge"] = false,
-						["Lingering Soul Fragment"] = false,
-						["Oil"] = false,
-						["Artifact Fragment"] = false,
-						["Champion's Seal"] = false,
 						["Ironpaw Token"] = false,
+						["Champion's Seal"] = false,
+						["Artifact Fragment"] = false,
+						["Oil"] = false,
+						["Lingering Soul Fragment"] = false,
+						["Timewarped Badge"] = false,
 					},
 					["text"] = {
 						["name"] = "Prototype",
@@ -84,14 +87,11 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
-			["profiles"] = {
-				["Default"] = {
-					["dispatchRule"] = "slot",
-				},
-			},
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -104,18 +104,18 @@ AdiBagsDB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Praerend - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 		["Miriyal - Proudmoore"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Rentror - Bleeding Hollow"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Rentror - Bleeding Hollow"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Praerend - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

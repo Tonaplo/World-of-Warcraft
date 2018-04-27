@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["y"] = 1084.51818847656,
-						["x"] = 1312.16442871094,
 						["visible"] = false,
 						["direction"] = "down",
+						["y"] = 1084.51818847656,
+						["x"] = 1312.16442871094,
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,13 +43,6 @@ XLootADB = {
 				},
 			},
 		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
-				},
-			},
-		},
 		["Monitor"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -61,13 +54,20 @@ XLootADB = {
 					["threshold_own"] = 0,
 					["name_width"] = 100,
 					["anchor"] = {
-						["y"] = 1050.95825195313,
-						["direction"] = "down",
 						["visible"] = false,
 						["x"] = 442.333679199219,
+						["y"] = 1050.95825195313,
+						["direction"] = "down",
 					},
 					["threshold_other"] = 4,
 					["fade_own"] = 30,
+				},
+			},
+		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
@@ -82,18 +82,18 @@ XLootADB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
-		["Miriyal - Proudmoore"] = "Default",
-		["Mallusof - Tichondrius"] = "Default",
 		["Rentror - Bleeding Hollow"] = "Default",
+		["Mallusof - Tichondrius"] = "Default",
+		["Morifa - Proudmoore"] = "Default",
 		["Granjior - Proudmoore"] = "Default",
 		["Zaliga - Bleeding Hollow"] = "Default",
-		["Morifa - Proudmoore"] = "Default",
+		["Miriyal - Proudmoore"] = "Default",
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
