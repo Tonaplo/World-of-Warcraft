@@ -50,10 +50,8 @@ L["MODULE_TAIWAN"] = "Taiwan"
 L["MYTHIC_PLUS_DB_MODULES"] = "Módulos de la base de datos"
 L["MYTHIC_PLUS_SCORES"] = "Puntuaciones de M+"
 L["OPEN_CONFIG"] = "Abrir configuración"
---[[Translation missing --]]
---[[ L["OUTDATED_DATABASE"] = ""--]] 
---[[Translation missing --]]
---[[ L["OUTDATED_DATABASE_S"] = ""--]] 
+L["OUTDATED_DATABASE"] = "Estas puntuaciones son de hace %d día(s)"
+L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r está usando datos de hace |cffFF6666%d|r día(s). Por favor, actualiza el addon para disponer de las puntuaciones de M+ más recientes."
 L["PREV_SEASON_SUFFIX"] = "(*)"
 L["RAIDERIO_MP_BASE_SCORE"] = "Puntuación de M+ base"
 L["RAIDERIO_MP_SCORE"] = "Puntuación de M+"
