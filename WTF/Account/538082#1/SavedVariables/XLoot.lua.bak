@@ -17,10 +17,10 @@ XLootADB = {
 					["win_icon"] = true,
 					["expire_lost"] = 30,
 					["roll_anchor"] = {
-						["visible"] = false,
-						["direction"] = "down",
 						["y"] = 1084.51818847656,
 						["x"] = 1312.16442871094,
+						["visible"] = false,
+						["direction"] = "down",
 					},
 					["font"] = "Interface\\Addons\\LUI\\media\\fonts\\prototype.ttf",
 				},
@@ -43,6 +43,13 @@ XLootADB = {
 				},
 			},
 		},
+		["Master"] = {
+			["profiles"] = {
+				["Default"] = {
+					["award_qualitythreshold"] = 4,
+				},
+			},
+		},
 		["Monitor"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -54,20 +61,13 @@ XLootADB = {
 					["threshold_own"] = 0,
 					["name_width"] = 100,
 					["anchor"] = {
-						["visible"] = false,
-						["x"] = 442.333679199219,
 						["y"] = 1050.95825195313,
 						["direction"] = "down",
+						["visible"] = false,
+						["x"] = 442.333679199219,
 					},
 					["threshold_other"] = 4,
 					["fade_own"] = 30,
-				},
-			},
-		},
-		["Master"] = {
-			["profiles"] = {
-				["Default"] = {
-					["award_qualitythreshold"] = 4,
 				},
 			},
 		},
@@ -82,7 +82,7 @@ XLootADB = {
 		["Greybone - Proudmoore"] = "Default",
 		["Faerand - Proudmoore"] = "Default",
 		["Rahran - Proudmoore"] = "Default",
-		["Brity - Steamwheedle Cartel"] = "Default",
+		["Amranar - Proudmoore"] = "Default",
 		["Farahn - Proudmoore"] = "Default",
 		["Morifa - Proudmoore"] = "Default",
 		["Mallusof - Tichondrius"] = "Default",
@@ -93,7 +93,7 @@ XLootADB = {
 		["Evisca - Bleeding Hollow"] = "Default",
 		["Zethan - Tichondrius"] = "Default",
 		["Alura - Tichondrius"] = "Default",
-		["Amranar - Proudmoore"] = "Default",
+		["Brity - Steamwheedle Cartel"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

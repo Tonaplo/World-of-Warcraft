@@ -1,10 +1,16 @@
-lightweight tag b6399963ef1009da4bbe6537ed67750cf1f44c38 v201804290800
+lightweight tag 4918231d575db8d068d6cc6f0821fff6e3d2b080 v201805010800
 Author:	Jah Raphael <jahraphael@yahoo.com>
-Date:	Sun Apr 29 09:15:39 2018 +0000
+Date:	Tue May 1 09:17:00 2018 +0000
 
-commit b6399963ef1009da4bbe6537ed67750cf1f44c38
+commit 4918231d575db8d068d6cc6f0821fff6e3d2b080
 Author: Jah Raphael <jahraphael@yahoo.com>
-Date:   Sun Apr 29 09:15:39 2018 +0000
+Date:   Tue May 1 09:17:00 2018 +0000
 
     [Raider.IO] Database Refresh
+
+commit 3dbb496f645869fb5774b84e890b8f75fb5bbb92
+Author: Jah Raphael <jahraphael@yahoo.com>
+Date:   Mon Apr 30 11:05:32 2018 -0500
+
+    fixed Korean realm name, thanks @masyal
 
