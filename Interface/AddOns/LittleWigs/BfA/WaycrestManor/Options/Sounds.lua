@@ -1,36 +1,38 @@
 
 BigWigs:AddSounds("Heartsbane Triad", {
-	[260703] = "Alarm",
-	[260741] = "Alarm",
-	[260773] = "Warning",
-	[260907] = "Alarm",
+	[260703] = "alarm",
+	[260741] = "alarm",
+	[260773] = "warning",
+	[260805] = "long",
+	[260907] = "alarm",
 })
 
 BigWigs:AddSounds("Soulbound Goliath", {
-	[260512] = "Alert",
-	[267907] = "Alarm",
+	[260508] = "alert",
+	[260512] = "alert",
+	[260541] = "long",
+	[260551] = "alarm",
+	[260569] = "alarm",
 })
 
 BigWigs:AddSounds("Raal the Gluttonous", {
-	[264694] = "Alarm",
-	[264734] = "Warning",
-	[264923] = "Warning",
-	[264931] = "Long",
-	[265002] = "Alert",
+	[264694] = "alarm",
+	[264734] = "warning",
+	[264923] = "warning",
+	[264931] = "long",
+	[265002] = "alert",
 })
 
 BigWigs:AddSounds("Lord and Lady Waycrest", {
-	[261417] = "Alarm",
-	[261438] = "Alert",
-	[261440] = "Warning",
-	[261446] = "Long",
+	[261438] = "alert",
+	[261440] = "warning",
+	[261447] = "info",
+	[268306] = "alarm",
 })
 
 BigWigs:AddSounds("Gorak Tul", {
-	[266181] = "Warning",
-	[266198] = "Long",
-	[266225] = "Warning",
-	[266258] = "Alert",
-	[268202] = "Alarm",
-	[268208] = "Info",
+	[266181] = "warning",
+	[266198] = "long",
+	[266225] = "alert",
+	[266258] = "info",
 })

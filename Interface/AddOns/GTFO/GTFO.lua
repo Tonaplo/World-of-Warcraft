@@ -23,8 +23,8 @@ GTFO = {
 		TrivialDamagePercent = 2; -- Minimum % of HP lost required for an alert to be trivial
 		SoundOverrides = { }; -- Override table for GTFO sounds
 	};
-	Version = "4.45.1"; -- Version number (text format)
-	VersionNumber = 44404; -- Numeric version number for checking out-of-date clients
+	Version = "4.45.2"; -- Version number (text format)
+	VersionNumber = 44502; -- Numeric version number for checking out-of-date clients
 	DataLogging = nil; -- Indicate whether or not the addon needs to run the datalogging function (for hooking)
 	DataCode = "4"; -- Saved Variable versioning, change this value to force a reset to default
 	CanTank = nil; -- The active character is capable of tanking
@@ -1920,7 +1920,6 @@ function GTFO_SpellScan(spellId, spellOrigin, spellDamage)
 			GTFO.Scans[spellId].Times = GTFO.Scans[spellId].Times + 1;
 			GTFO.Scans[spellId].Damage = GTFO.Scans[spellId].Damage + damage;
 		end
-		
 	end
 end
 
@@ -1942,12 +1941,17 @@ function GTFO_Command_Data()
   table.sort(scans, (function(a, b) return tonumber(a.TimeAdded) < tonumber(b.TimeAdded) end));
   
 	for _, data in pairs(scans) do
-		dataOutput = dataOutput.."-- |cff00ff00"..tostring(data.SpellName).." ("..data.Times;
+		dataOutput = dataOutput.."-- |cff00ff00"..tostring(data.SpellName).." (x"..data.Times;
+
+		if (data.SpellDescription == nil or data.SpellDescription == "") then
+			data.SpellDescription = GetSpellDescription(data.SpellID) or "";
+		end
+		
 		if (data.Damage > 0) then
 			dataOutput = dataOutput..", "..data.Damage
 		end
 		dataOutput = dataOutput..")|r\n";
-		dataOutput = dataOutput.."-- "..tostring(data.SpellDescription).."\n";
+		dataOutput = dataOutput.."-- |cff00aa00"..tostring(data.SpellDescription or "").."|r\n";
 		dataOutput = dataOutput.."GTFO.SpellID[\""..data.SpellID.."\"] = {\n";
 		dataOutput = dataOutput.."  --desc = \""..tostring(data.SpellName).." ("..tostring(data.SpellOrigin)..")\";\n";
 		if (data.IsDebuff) then

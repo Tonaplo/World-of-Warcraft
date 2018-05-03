@@ -1309,4 +1309,10 @@ Change Log:
 4.45.1
 * Fixed BFA crash with UnitBuff/UnitDebuff
 
-
+4.45.2
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Tol Dagor
+* Added BFA spells for The Underrot
+* Added BFA spells for Temple of Sethraliss
+* Added BFA spells for The MOTHERLODE!!
+* Added BFA spells for Atal'Dazar
