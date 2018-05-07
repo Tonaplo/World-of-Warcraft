@@ -11,14 +11,14 @@ DataStore_TalentsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -34,14 +34,14 @@ DataStore_TalentsDB = {
 					14939, -- [2]
 					14773, -- [3]
 				},
-				["lastUpdate"] = 1522650071,
+				["lastUpdate"] = 1525548724,
 				["Class"] = "WARLOCK",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
 					["Scepter of Sargeras"] = {
 						["tier"] = 2,
 						["rank"] = 69,
-						["pointsRemaining"] = 74739225970,
+						["pointsRemaining"] = 102301730320,
 					},
 					["Ulthalesh, the Deadwind Harvester"] = {
 						["tier"] = 2,
@@ -59,7 +59,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "T'uure, Beacon of the Naaru",
 				["Artifacts"] = {
 					["T'uure, Beacon of the Naaru"] = {
-						["pointsRemaining"] = 313053076746,
+						["pointsRemaining"] = 379171587146,
 						["rank"] = 77,
 						["tier"] = 2,
 					},
@@ -80,7 +80,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PRIEST",
-				["lastUpdate"] = 1525331765,
+				["lastUpdate"] = 1525665783,
 				["Specializations"] = {
 					15013, -- [1]
 					10103, -- [2]
@@ -105,7 +105,7 @@ DataStore_TalentsDB = {
 					5611, -- [2]
 					12123, -- [3]
 				},
-				["lastUpdate"] = 1522650204,
+				["lastUpdate"] = 1525549514,
 				["Class"] = "DEATHKNIGHT",
 				["ArtifactKnowledge"] = 55,
 				["Artifacts"] = {
@@ -122,7 +122,7 @@ DataStore_TalentsDB = {
 					["Maw of the Damned"] = {
 						["tier"] = 2,
 						["rank"] = 71,
-						["pointsRemaining"] = 61923154480,
+						["pointsRemaining"] = 72948156230,
 					},
 				},
 			},
@@ -130,7 +130,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Ashbringer",
 				["Artifacts"] = {
 					["Ashbringer"] = {
-						["pointsRemaining"] = 26344866600,
+						["pointsRemaining"] = 37369868350,
 						["rank"] = 67,
 						["tier"] = 2,
 					},
@@ -146,7 +146,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "PALADIN",
-				["lastUpdate"] = 1522650155,
+				["lastUpdate"] = 1525549484,
 				["Specializations"] = {
 					6762, -- [1]
 					14742, -- [2]
@@ -198,17 +198,17 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 11359054095,
 					},
 					["Ebonchill, Greatstaff of Alodi"] = {
-						["pointsRemaining"] = 16040460150,
+						["pointsRemaining"] = 70377968750,
 						["rank"] = 71,
 						["tier"] = 2,
 					},
 				},
 				["Class"] = "MAGE",
-				["lastUpdate"] = 1522738203,
+				["lastUpdate"] = 1525567264,
 				["Specializations"] = {
 					8166, -- [1]
 					8086, -- [2]
-					7670, -- [3]
+					8182, -- [3]
 				},
 				["ArtifactKnowledge"] = 55,
 				["ArtifactKnowledgeMultiplier"] = 6300001,
@@ -259,7 +259,7 @@ DataStore_TalentsDB = {
 				["EquippedArtifact"] = "Twinblades of the Deceiver",
 				["Artifacts"] = {
 					["Twinblades of the Deceiver"] = {
-						["pointsRemaining"] = 8750413290,
+						["pointsRemaining"] = 19775415040,
 						["rank"] = 69,
 						["tier"] = 2,
 					},
@@ -270,7 +270,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "DEMONHUNTER",
-				["lastUpdate"] = 1522650242,
+				["lastUpdate"] = 1525549544,
 				["Specializations"] = {
 					14814, -- [1]
 					8121, -- [2]
@@ -345,7 +345,7 @@ DataStore_TalentsDB = {
 						["pointsRemaining"] = 27566426570,
 					},
 					["Scale of the Earth-Warder"] = {
-						["pointsRemaining"] = 51237686385,
+						["pointsRemaining"] = 69192689235,
 						["rank"] = 72,
 						["tier"] = 2,
 					},
@@ -356,7 +356,7 @@ DataStore_TalentsDB = {
 					},
 				},
 				["Class"] = "WARRIOR",
-				["lastUpdate"] = 1522650373,
+				["lastUpdate"] = 1525549607,
 				["Specializations"] = {
 					10647, -- [1]
 					9813, -- [2]
@@ -432,7 +432,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1524388024,
+				["lastUpdate"] = 1525646810,
 				["Specializations"] = {
 					154, -- [1]
 					[3] = 181,
@@ -454,14 +454,14 @@ DataStore_TalentsRefDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -634,7 +634,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 26124,
+			["Version"] = 26365,
 		},
 		["ROGUE"] = {
 			["Locale"] = "enUS",
@@ -802,7 +802,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 26124,
+			["Version"] = 26365,
 		},
 		["PRIEST"] = {
 			["Locale"] = "enUS",
@@ -970,7 +970,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [3]
 			},
-			["Version"] = 26124,
+			["Version"] = 26365,
 		},
 		["WARLOCK"] = {
 			["Locale"] = "enUS",
@@ -1094,7 +1094,7 @@ DataStore_TalentsRefDB = {
 					},
 				}, -- [2]
 			},
-			["Version"] = 26124,
+			["Version"] = 26365,
 		},
 		["SHAMAN"] = {
 			["Locale"] = "enUS",

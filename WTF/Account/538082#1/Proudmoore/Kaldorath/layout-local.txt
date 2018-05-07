@@ -1,9 +1,9 @@
 Version: 1
 Frame: StreamerOverlayDpsHpsFrame
 FrameLevel: 1
-Anchor: TOPLEFT
-X: 418
-Y: -70
+Anchor: LEFT
+X: 3
+Y: 182
 W: 70
 H: 20
 Frame: Details_StreamOverlay

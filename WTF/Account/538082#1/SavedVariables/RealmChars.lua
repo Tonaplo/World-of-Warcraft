@@ -14,11 +14,11 @@ RCDatabase = {
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 	},
 	["realm"] = {
 		["Proudmoore"] = {
@@ -68,14 +68,14 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 709,
-				["itemLevelEquipped"] = 928.625,
+				["itemLevelEquipped"] = 931.75,
 				["class"] = "MAGE",
 				["secondProf"] = "Inscription",
 				["name"] = "Morifa",
-				["itemLevelOverall"] = 928.625,
+				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 190,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 931.75,
 			}, -- [5]
 			{
 				["secondProfLevel"] = 68,
@@ -83,10 +83,10 @@ RCDatabase = {
 				["class"] = "WARLOCK",
 				["secondProf"] = "Mining",
 				["name"] = "Fimwack",
-				["itemLevelOverall"] = 932.625,
+				["firstProf"] = "Herbalism",
 				["level"] = 110,
 				["firstProfLevel"] = 94,
-				["firstProf"] = "Herbalism",
+				["itemLevelOverall"] = 932.625,
 			}, -- [6]
 			{
 				["secondProfLevel"] = 0,
@@ -175,12 +175,12 @@ RCDatabase = {
 		},
 		["Tichondrius"] = {
 			{
-				["secondProfLevel"] = 520,
-				["itemLevelEquipped"] = 963.25,
+				["secondProfLevel"] = 540,
+				["itemLevelEquipped"] = 965.125,
 				["class"] = "PRIEST",
 				["secondProf"] = "Herbalism",
 				["name"] = "Mallusof",
-				["itemLevelOverall"] = 970.75,
+				["itemLevelOverall"] = 968.875,
 				["level"] = 110,
 				["firstProfLevel"] = 800,
 				["firstProf"] = "Alchemy",
@@ -220,14 +220,14 @@ RCDatabase = {
 			}, -- [4]
 			{
 				["secondProfLevel"] = 0,
-				["itemLevelEquipped"] = 129.0625,
+				["itemLevelEquipped"] = 111.1875,
 				["class"] = "WARLOCK",
 				["secondProf"] = "No 2nd Prof",
 				["name"] = "Zethan",
-				["itemLevelOverall"] = 129.0625,
+				["firstProf"] = "No 1st Prof",
 				["level"] = 69,
 				["firstProfLevel"] = 0,
-				["firstProf"] = "No 1st Prof",
+				["itemLevelOverall"] = 129.0625,
 			}, -- [5]
 			["characterStored"] = 5,
 		},

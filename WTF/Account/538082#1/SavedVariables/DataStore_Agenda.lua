@@ -11,14 +11,14 @@ DataStore_AgendaDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -32,19 +32,20 @@ DataStore_AgendaDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1522650128,
+				["lastUpdate"] = 1525548841,
 			},
 			["Default.Tichondrius.Mallusof"] = {
 				["Calendar"] = {
-					"2018-05-03|19:00|Heroic Antorus|1|9", -- [1]
-					"2018-05-06|18:00|NEW TIME Raid Night!|1|9", -- [2]
-					"2018-05-07|19:00|NEW TIME Raid Night!|1|2", -- [3]
+					"2018-05-07|19:00|NEW TIME Raid Night!|1|2", -- [1]
+					"2018-05-13|18:00|NEW TIME Raid Night!|1|9", -- [2]
+					"2018-05-14|19:00|NEW TIME Raid Night!|1|9", -- [3]
 				},
 				["DungeonIDs"] = {
-					["Antorus, the Burning Throne Normal|332091307"] = "459828|1525331766|0|1",
-					["Antorus, the Burning Throne Heroic|311488094"] = "459828|1525331766|0|1",
+					["Antorus, the Burning Throne Heroic|311488094"] = "125817|1525665783|0|1",
+					["Antorus, the Burning Throne Normal|332091307"] = "125817|1525665783|0|1",
+					["Antorus, the Burning Throne Mythic|346474443"] = "125817|1525665783|0|1",
 				},
-				["lastUpdate"] = 1525332105,
+				["lastUpdate"] = 1525665783,
 			},
 			["Default.Steamwheedle Cartel.Brity"] = {
 				["lastUpdate"] = 1511644024,
@@ -56,7 +57,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1493618546,
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1522650182,
+				["lastUpdate"] = 1525549494,
 			},
 			["Default.Proudmoore.Faerand"] = {
 				["lastUpdate"] = 1524453292,
@@ -71,13 +72,16 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1524453182,
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1522738210,
+				["DungeonIDs"] = {
+					["Hellfire Citadel Normal|349062135"] = "224322|1525567265|0|1",
+				},
+				["lastUpdate"] = 1525567301,
 			},
-			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1524388339,
+			["Default.Proudmoore.Kaldorath"] = {
+				["lastUpdate"] = 1525549554,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1522650214,
+				["lastUpdate"] = 1525549524,
 			},
 			["Default.Proudmoore.Rahran"] = {
 				["lastUpdate"] = 1521061404,
@@ -92,7 +96,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1519800329,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1522650385,
+				["lastUpdate"] = 1525549647,
 			},
 			["Default.Proudmoore.Farahn"] = {
 				["lastUpdate"] = 1521060247,
@@ -103,8 +107,8 @@ DataStore_AgendaDB = {
 			["Default.Proudmoore.Miriyal"] = {
 				["lastUpdate"] = 1521060778,
 			},
-			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1522650252,
+			["Default.Tichondrius.Zethan"] = {
+				["lastUpdate"] = 1525649628,
 			},
 		},
 	},

@@ -400,7 +400,7 @@ local function createGeneralFrame(parent)
 	addObject(elm,other)
 	
 	local otherFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-otherFrame", child, "ThinBorderTemplate");
-	otherFrame:SetSize(child:GetWidth(),60)
+	otherFrame:SetSize(child:GetWidth(),90)
 	otherFrame:SetPoint("TOPLEFT",other,0,-frameSpacer);
 	addObject(elm,otherFrame)
 	
@@ -442,7 +442,43 @@ local function createGeneralFrame(parent)
 		end);
 	autoMinilist:SetPoint("TOPLEFT",minimapButton,0,-frameSpacer)
 	addObject(elm,autoMinilist)	
-
+	
+	-- show profession mini list auto
+	local autoProfessionMinilist = createCheckBox("Show the Profession Mini List Automatically", child, function(self)
+			app.SetDataMember("AutoProfessionMiniList", self:GetChecked());
+			if self:GetChecked() then
+				app.OpenMiniListForCurrentProfession(true, true);
+			else
+				app.GetWindow("Tradeskills"):SetVisible(false);
+			end
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataMember("AutoProfessionMiniList", true));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want ATT to open and refresh the profession mini list when you open your professions. Due to an API limitation imposed by Blizzard, the only time an addon can interact with your profession data is when it is open. The list will automatically switch when you change to a different profession.\n\nSome people don't like this feature, but when you are working on your professions, this feature is extremely useful. We don't recommend disabling this option as it may prevent recipes from tracking correctly.\n\nYou can also bind this setting to a Key. (only works when a profession is open)\n\nKey Bindings -> Addons -> ALL THE THINGS -> Toggle Profession Mini List", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	autoProfessionMinilist:SetPoint("TOPLEFT",autoMinilist,0,-frameSpacer)
+	autoProfessionMinilist.Label:SetWidth(autoProfessionMinilist.Label:GetWidth() * 1.5);
+	addObject(elm,autoProfessionMinilist)
+	
+	-- auto minimize when not applicable 
+	local autoMin = createCheckBox("Automatically Minimize Inactive Difficulties in Mini Lists", child, function(self)
+			app.SetDataMember("AutoMinimize", self:GetChecked());
+		end, 
+		function(self) 
+			self:SetChecked(app.GetDataMember("AutoMinimize", true));
+		end,
+		function(self)
+			GameTooltip:SetOwner (self, "ANCHOR_RIGHT");
+			GameTooltip:SetText ("Enable this option if you want to automatically minimize difficulty headers in the mini list that are not active when you enter a dungeon or raid.\n\nExample: Minimize the Heroic header when in a Normal difficulty dungeon", nil, nil, nil, nil, true);
+			GameTooltip:Show();
+		end);
+	autoMin:SetPoint("TOPLEFT",autoProfessionMinilist,0,-frameSpacer)
+	autoMin.Label:SetWidth(autoMin.Label:GetWidth() * 1.5);
+	addObject(elm,autoMin)
 end
 
 local function createAccountFrame(parent)
@@ -1347,7 +1383,7 @@ local function createMiniListFrame(parent)
 	addObject(elm,item)
 	
 	local itemFrame = CreateFrame("Frame", name .. "-" .. tabName .. "-itemFrame", child, "ThinBorderTemplate");
-	itemFrame:SetSize(child:GetWidth()/2.5,200)
+	itemFrame:SetSize(child:GetWidth()/2.5,220)
 	itemFrame:SetPoint("TOPLEFT",item,0,-frameSpacer);
 	addObject(elm,itemFrame)
 	
@@ -1355,7 +1391,7 @@ local function createMiniListFrame(parent)
 	local itemFilters = app.GetPersonalDataMember("ItemFilters");
 	local last = item;
 	local x = 5
-	for i,filter in ipairs({ 100, 101, 102, 103, 104, 108, 109, 110, 200 }) do
+	for i,filter in ipairs({ 55, 100, 101, 102, 103, 104, 108, 110, 113, 200 }) do
 		local filter = createCheckBox(itemFilterNames[filter] .. " (" .. filter .. ")", child, function(self)
 			itemFilters[filter] = self:GetChecked();
 			app:RefreshData();
@@ -1405,12 +1441,12 @@ local function createMiniListFrame(parent)
 	local allEquipment = createCheckBox("All Equipment", child, function(self)
 			if self:GetChecked() then
 				-- set all equipment true
-				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 30, 31, 32, 33, 34, 51, 52, 53, 54 }) do
+				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 31, 32, 33, 34, 51, 52, 53, 54 }) do
 					itemFilters[filter] = true;
 				end
 			else
 				-- set all equipment false
-				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 30, 31, 32, 33, 34, 51, 52, 53, 54 }) do
+				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 31, 32, 33, 34, 51, 52, 53, 54 }) do
 					itemFilters[filter] = false;
 				end
 			end
@@ -1419,7 +1455,7 @@ local function createMiniListFrame(parent)
 		end, 
 		function(self) 
 			local isTrue = false
-			for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 30, 31, 32, 33, 34, 51, 52, 53, 54 }) do
+			for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 31, 32, 33, 34, 51, 52, 53, 54 }) do
 				isTrue = (not itemFilters[filter]) or isTrue
 			end
 			self:SetChecked(not isTrue);
@@ -1436,12 +1472,12 @@ local function createMiniListFrame(parent)
 		local presets = app.Presets[app.Class]
 			if self:GetChecked() then
 				-- set class items true
-				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 30, 31, 32, 33, 34, 51, 52, 53, 54 }) do
+				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 31, 32, 33, 34, 51, 52, 53, 54 }) do
 					itemFilters[filter] = presets[filter]
 				end
 			else
 				-- set all items false
-				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 30, 31, 32, 33, 34, 51, 52, 53, 54 }) do
+				for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 31, 32, 33, 34, 51, 52, 53, 54 }) do
 					itemFilters[filter] = false;
 				end
 			end
@@ -1451,7 +1487,7 @@ local function createMiniListFrame(parent)
 		function(self) 
 			local presets = app.Presets[app.Class]
 			local isTrue = false
-			for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 30, 31, 32, 33, 34, 51, 52, 53, 54 }) do
+			for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 21, 22, 23, 24, 25, 26, 35, 27, 28, 29, 31, 32, 33, 34, 51, 52, 53, 54 }) do
 				isTrue = (not (itemFilters[filter] == presets[filter])) or isTrue
 			end
 			self:SetChecked(not isTrue);
@@ -1477,7 +1513,7 @@ local function createMiniListFrame(parent)
 	
 	last = armor;
 	x = 5
-	for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 51, 52, 53, 54, 55 }) do
+	for i,filter in ipairs({ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 51, 52, 53 }) do
 		local filter = createCheckBox(itemFilterNames[filter] .. " (" .. filter .. ")", child, function(self)
 			itemFilters[filter] = self:GetChecked();
 			refreshUI();
@@ -1508,7 +1544,7 @@ local function createMiniListFrame(parent)
 	
 	last = weapon;
 	x = 5
-	for i,filter in ipairs({ 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35 }) do
+	for i,filter in ipairs({ 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 54 }) do
 		local filter = createCheckBox(itemFilterNames[filter] .. " (" .. filter .. ")", child, function(self)
 			itemFilters[filter] = self:GetChecked();
 			refreshUI();

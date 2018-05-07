@@ -76,6 +76,7 @@ local PlayerHasToy = _G["PlayerHasToy"];
 local IsTitleKnown = _G["IsTitleKnown"];
 local InCombatLockdown = _G["InCombatLockdown"];
 local MAX_CREATURES_PER_ENCOUNTER = 9;
+local spellRecipeInfo = {};
 
 -- Coroutine Helper Functions
 app.refreshing = {};
@@ -567,7 +568,6 @@ end
 CS:Hide();
 
 -- Source ID Harvesting Lib
-local SourceIDs = {};
 local DressUpModel = CreateFrame('DressUpModel');
 local NPCModelHarvester = CreateFrame('DressUpModel', nil, OffScreenFrame);
 local inventorySlotsMap = {	-- Taken directly from CanIMogIt (Thanks!)
@@ -638,8 +638,12 @@ local function BuildSourceTextForTSM(group, l)
 	end
 	return app.DisplayName;
 end
-local function GetSourceID(itemLink)
+local function GetSourceID(itemLink, itemID)
     if IsDressableItem(itemLink) then
+		-- Updated function courtesy of CanIMogIt, Thanks AmiYuy and Team! :D
+		local sourceID = select(2, C_TransmogCollection.GetItemInfo(itemLink));
+		if sourceID then return sourceID, true; end
+		
 		local itemID, _, _, slotName = GetItemInfoInstant(itemLink);
 		if slotName then
 			local slots = inventorySlotsMap[slotName];
@@ -649,7 +653,13 @@ local function GetSourceID(itemLink)
 				for i, slot in pairs(slots) do
 					DressUpModel:TryOn(itemLink, slot);
 					local sourceID = DressUpModel:GetSlotTransmogSources(slot);
-					if sourceID and sourceID ~= 0 then return sourceID, true; end
+					if sourceID and sourceID ~= 0 then
+						-- Added 5/4/2018 - Account for DressUpModel lag... sigh
+						local sourceItemLink = select(6, C_TransmogCollection.GetAppearanceSourceInfo(sourceID));
+						if sourceItemLink and tonumber(sourceItemLink:match("item:(%d+)")) == itemID then
+							return sourceID, true;
+						end
+					end
 				end
 			end
 		end
@@ -658,6 +668,7 @@ local function GetSourceID(itemLink)
 	return nil, false;
 end
 app.GetSourceID = GetSourceID;
+app.MaximumItemInfoRetries = 400;
 local function SetPortraitIcon(self, data, x)
 	self.lastData = data;
 	if data.texCoords then
@@ -1330,7 +1341,7 @@ local function SearchForItemLink(link)
 				
 				local group, working, important;
 				-- Source ID searching is much faster and more reliable.
-				local sourceID = GetSourceID(link);
+				local sourceID = GetSourceID(link, itemID);
 				if sourceID then
 					important = true;
 					group = SearchForSourceID(sourceID) or SearchForItemID(itemID);
@@ -1455,7 +1466,7 @@ local function SearchForItemLink(link)
 												end
 												text = " |CFFFF0000!|r " .. link .. (GetDataMember("ShowItemID") and (" (" .. (otherSourceID == sourceID and "*" or otherSource.itemID) .. ")") or "");
 												if otherSource.isCollected then SetDataSubMember("CollectedSources", otherSourceID, 1); end
-												text = text	.. " |CFFFF0000(MISSING IN ATT)|r/" .. GetCollectionIcon(otherSource.isCollected);
+												text = text	.. " |CFFFF0000(MISSING IN ATT - " .. otherSourceID .. ")|r/" .. GetCollectionIcon(otherSource.isCollected);
 												tinsert(listing, text);
 											end
 										end
@@ -1650,6 +1661,23 @@ local function OpenMiniList(field, id, label)
 		popout.data = results;
 		ExpandGroupsRecursively(popout.data, true);
 		
+		-- if enabled minimize rows based on difficulty 
+		if GetDataMember("AutoMinimize",true) then
+			local _, _, difficultyID, _, _, _, _, _, _ = GetInstanceInfo();
+			for _, row in ipairs(popout.data.g) do
+				local found = not row["difficultyID"] or (difficultyID == row["difficultyID"]);
+				
+				if not found and row["difficulties"] then
+					for _, value in pairs(row["difficulties"]) do
+						if value == difficultyID then
+							found = true
+						end
+					end
+				end	
+				ExpandGroupsRecursively(row, found);
+			end
+		end
+
 		-- Reset to the first object.
 		popout.ScrollBar:SetValue(1);
 		
@@ -1665,6 +1693,76 @@ local function OpenMiniList(field, id, label)
 		else
 			popout:SetVisible(true);
 			return false;
+		end
+	end
+end
+local function OpenMiniListForCurrentProfession(manual, refresh)
+	if app.Categories.Professions then
+		local popout = app:GetWindow("Tradeskills");
+		local tradeSkillLine = C_TradeSkillUI.GetTradeSkillLine();
+		if tradeSkillLine and GetDataMember("AutoProfessionMiniList") and fieldCache["requireSkill"][tradeSkillLine]
+			and not (C_TradeSkillUI.IsTradeSkillLinked() or C_TradeSkillUI.IsTradeSkillGuild()) then
+			if manual or not refresh then
+				popout:ClearAllPoints();
+				popout:SetPoint("TOPLEFT", TradeSkillFrame, "TOPRIGHT", 0, 0);
+				popout:SetPoint("BOTTOMLEFT", TradeSkillFrame, "BOTTOMRIGHT", 0, 0);
+				popout:SetVisible(true);
+			end
+		else
+			if manual then
+				app.print("You must have a profession open to open the profession mini list.");
+			end
+			popout:SetVisible(false);
+		end
+		
+		if popout:IsShown() and refresh then
+			-- Cache Learned Spells
+			local skillCache = fieldCache["spellID"];
+			if skillCache then
+				-- Cache learned recipes
+				local learned = 0;
+				
+				local recipeIDs = C_TradeSkillUI.GetAllRecipeIDs();
+				for i = 1,#recipeIDs do
+					if C_TradeSkillUI.GetRecipeInfo(recipeIDs[i], spellRecipeInfo) then
+						if spellRecipeInfo.learned then
+							SetTempDataSubMember("CollectedSpells", spellRecipeInfo.recipeID, 1);
+							if not GetDataSubMember("CollectedSpells", spellRecipeInfo.recipeID) then
+								SetDataSubMember("CollectedSpells", spellRecipeInfo.recipeID, 1);
+								learned = learned + 1;
+							end
+						end
+						if not skillCache[spellRecipeInfo.recipeID] then
+							--app.print("Missing [" .. (spellRecipeInfo.name or "??") .. "] (Spell ID #" .. spellRecipeInfo.recipeID .. ") in ATT Database. Please report it!");
+							skillCache[spellRecipeInfo.recipeID] = { {} };
+						end
+					end
+				end
+				
+				-- Open the Tradeskill list for this Profession
+				local tradeSkillID = C_TradeSkillUI.GetTradeSkillLine();
+				if popout.tradeSkillID ~= tradeSkillID then
+					popout.tradeSkillID = tradeSkillID;
+					for i,group in ipairs(app.Categories.Professions) do
+						if group.requireSkill == tradeSkillID then
+							popout.data = setmetatable({ ['visible'] = true, total = 0, progress = 0 }, { __index = group });
+							app.BuildGroups(popout.data, popout.data.g);
+							app.UpdateGroups(popout.data, popout.data.g, 1);
+							if not popout.data.expanded then
+								popout.data.expanded = true;
+								ExpandGroupsRecursively(popout.data, true);
+							end
+							popout:SetVisible(true);
+						end
+					end
+				end
+			
+				-- If something new was "learned", then refresh the data.
+				if learned > 0 then
+					app:RefreshData(false, true);
+					app.print("Cached " .. learned .. " known recipes!");
+				end
+			end
 		end
 	end
 end
@@ -1977,7 +2075,7 @@ local function SetCompletionistMode(completionistMode, fromSettings)
 	end
 	app.print(completionistMode and "Entering Completionist Mode..." or GetDataMember("MainOnly") and "Entering Unique Appearances Mode (Main Only)..." or "Entering Unique Appearances Mode...");
 	SetDataMember("CompletionistMode", completionistMode);
-	wipe(SetDataMember("CollectedSources"));	-- This option causes a caching issue, so we have to purge the Source ID data cache.
+	wipe(GetDataMember("CollectedSources"));	-- This option causes a caching issue, so we have to purge the Source ID data cache.
 	if completionistMode then
 		app.ItemSourceFilter = app.FilterItemSource;
 		app.ActiveItemCollectionHelper = app.CompletionistItemCollectionHelper;
@@ -2016,6 +2114,7 @@ app.RefreshSaves = RefreshSaves;
 app.OpenMainList = OpenMainList;
 app.OpenMiniList = OpenMiniList;
 app.OpenMiniListForCurrentZone = OpenMiniListForCurrentZone;
+app.OpenMiniListForCurrentProfession = OpenMiniListForCurrentProfession;
 app.SetCompletionistMode = SetCompletionistMode;
 app.SetDebugMode = SetDebugMode;
 app.ToggleMiniListForCurrentZone = ToggleMiniListForCurrentZone;
@@ -2135,14 +2234,26 @@ local function AttachTooltipRawSearchResults(self, listing, group)
 										if (j.progress / j.total) < 1 or GetDataMember("ShowCompletedGroups") then
 											tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), GetProgressColorText(j.progress, j.total) });
 										end
-									else
-										if j.collectible then total = total + 1; end
+									elseif j.collectible then
+										total = total + 1;
 										if j.collected or (j.trackable and j.saved) then
 											progress = progress + 1;
 											if GetDataMember("ShowCollectedItems") then
 												tinsert(items, {"  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON")});
 											end
-										elseif j.collectible or (j.trackable and app.ShowIncompleteQuests(j)) then
+										else
+											if j.dr then
+												tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON") });
+											else
+												tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("NOT_COLLECTED_ICON") });
+											end
+										end
+									elseif j.trackable then
+										if j.saved then
+											if GetDataMember("ShowCollectedItems") then
+												tinsert(items, {"  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), L("COLLECTED_ICON")});
+											end
+										elseif app.ShowIncompleteQuests(j) then
 											if j.dr then
 												tinsert(items, { "  " .. (j.icon and ("|T" .. j.icon .. ":0|t") or "") .. (j.text or RETRIEVING_DATA), "|c" .. GetProgressColor(j.dr * 0.01) .. tostring(j.dr) .. "%|r " .. L("NOT_COLLECTED_ICON") });
 											else
@@ -2486,6 +2597,7 @@ end
 			end
 		end
 	end
+	--[[
 	local GameTooltip_SetToyByItemID = GameTooltip.SetToyByItemID;
 	GameTooltip.SetToyByItemID = function(self, itemID)
 		GameTooltip_SetToyByItemID(self, itemID);
@@ -2494,6 +2606,7 @@ end
 			self:Show();
 		end
 	end
+	]]--
 end)();
 
 -- Achievement Lib
@@ -2684,7 +2797,7 @@ app.BaseCurrencyClass = {
 		if key == "key" then
 			return "currencyID";
 		elseif key == "text" then
-			return GetCurrencyLink(t.currencyID) or select(1, GetCurrencyInfo(t.currencyID));
+			return GetCurrencyLink(t.currencyID, 1) or select(1, GetCurrencyInfo(t.currencyID));
 		elseif key == "icon" then
 			return select(3, GetCurrencyInfo(t.currencyID));
 		elseif key == "icon" then
@@ -2974,13 +3087,15 @@ app.BaseHeirloom = {
 		elseif key == "collectible" then
 			return true;
 		elseif key == "collected" then
-			return C_Heirloom.PlayerHasHeirloom(t.itemID);
+			return C_Heirloom.PlayerHasHeirloom(t.itemID) or (t.s and t.s > 0 and GetDataSubMember("CollectedSources", t.s));
 		elseif key == "f" then
 			return 109;
+		elseif key == "modID" then
+			return 1;
 		elseif key == "text" then
 			return t.link;
 		elseif key == "link" then
-			return select(2, GetItemInfo(t.itemID));
+			return C_Heirloom.GetHeirloomLink(t.itemID) or select(2, GetItemInfo(t.itemID));
 		elseif key == "icon" then
 			return select(4, C_Heirloom.GetHeirloomInfo(t.itemID));
 		else
@@ -3225,6 +3340,21 @@ app.BaseItem = {
 					t.link = link;
 					t.icon = icon;
 					return link;
+				else
+					if t.retries then
+						t.retries = t.retries + 1;
+						if t.retries > app.MaximumItemInfoRetries then
+							local itemName = "Item #" .. t.itemID .. "*";
+							t.title = "Failed to acquire item information. The item made be invalid or may not have been cached on your server yet.";
+							t.icon = "Interface\\Icons\\INV_Misc_QuestionMark";
+							t.link = "";
+							t.s = nil;
+							t.text = itemName;
+							return itemName;
+						end
+					else
+						t.retries = 1;
+					end
 				end
 			end
 		elseif key == "trackable" then
@@ -3259,9 +3389,7 @@ app.BaseItem = {
 	end
 };
 app.CreateItem  = function(id, t)
-	t = createInstance(constructor(id, t, "itemID"), app.BaseItem);
-	--if not t.s and not t.ignoreSource then t.s = 0; end-- uncomment this line and copy your AllTheThings.lua file from Saved Variables into the contrib folder as a new filter to harvest source IDs
-	return t;
+	return createInstance(constructor(id, t, "itemID"), app.BaseItem);
 end
 
 -- Item Source Lib
@@ -3293,6 +3421,20 @@ app.BaseItemSource = {
 				t.link = link;
 				t.icon = icon;
 				return link;
+			else
+				if t.retries then
+					t.retries = t.retries + 1;
+					if t.retries > app.MaximumItemInfoRetries then
+						local itemName = "Item #" .. t.itemID .. "*";
+						t.title = "Failed to acquire item information. The item made be invalid or may not have been cached on your server yet.";
+						t.icon = "Interface\\Icons\\INV_Misc_QuestionMark";
+						t.link = "";
+						t.text = itemName;
+						return itemName;
+					end
+				else
+					t.retries = 1;
+				end
 			end
 		elseif key == "modID" then
 			return 1;
@@ -3415,7 +3557,7 @@ app.BaseMusicRoll = {
 			return IsQuestFlaggedCompleted(t.questID);
 		elseif key == "f" then
 			return 108;
-		elseif key == "Lvl" then
+		elseif key == "lvl" then
 			return 100;
 		elseif key == "text" then
 			return t.link;
@@ -3638,7 +3780,6 @@ app.CreateQuest = function(id, t)
 end
 
 -- Recipe Lib
-local spellRecipeInfo = {};
 app.BaseRecipe = {
 	__index = function(t, key)
 		if key == "key" then
@@ -3828,7 +3969,7 @@ end
 				return tierIcons[t.tierID];
 			elseif key == "description" then
 				return tierDescription[t.tierID];
-			elseif key == "Lvl" then
+			elseif key == "lvl" then
 				return tierLevel[t.tierID];
 			else
 				-- Something that isn't dynamic.
@@ -4043,7 +4184,7 @@ function app.NoFilter()
 	return true;
 end
 function app.FilterGroupsByLevel(group)
-	return app.Level >= (group.Lvl or 0);
+	return app.Level >= (group.lvl or 0);
 end
 function app.FilterGroupsByCompletion(group)
 	return group.progress < group.total;
@@ -4348,14 +4489,6 @@ local function ProcessGroup(data, object, indent, back)
 	end
 end
 UpdateGroup = function(parent, group)
-	--[[
-	-- Uncomment this section for Harvesting
-	if group.s and group.s < 1 then
-		-- The source ID will need to be harvested.
-		table.insert(GetTempDataMember("Missing"), group);
-	end
-	]]--
-	
 	-- Determine if this user can enter the instance or acquire the item.
 	if app.GroupRequirementsFilter(group) then
 		-- Check if this is a group
@@ -4456,6 +4589,7 @@ local function UpdateParentProgress(group)
 		end
 	end
 end
+app.UpdateGroups = UpdateGroups;
 
 -- Helper Methods
 -- The following Helper Methods are used when you obtain a new appearance.
@@ -5081,30 +5215,29 @@ local function ClearRowData(self)
 	self.Summary:Hide();
 	self.Label:Hide();
 end
-local function SetRowData(self, data)
-	ClearRowData(self);
+local function SetRowData(self, row, data)
+	ClearRowData(row);
 	if data then
 		local text = data.text;
 		if not text or text == RETRIEVING_DATA then
-			self:GetParent().processingLinks = true;
 			text = RETRIEVING_DATA;
+			self.processingLinks = true;
 		elseif string.find(text, "%[%]") then
 			-- This means the link is still rendering
-			if not data.itemID then
-				self:GetParent().processingLinks = true;
-				text = RETRIEVING_DATA;
-			end
-		--[[
-		-- Uncomment this section for harvesting
+			text = RETRIEVING_DATA;
+			self.processingLinks = true;
 		elseif data.s and data.s < 1 then
 			-- If it doesn't, the source ID will need to be harvested.
-			local s, dressable = GetSourceID(text);
+			local s, dressable = GetSourceID(text, data.itemID);
 			if s and s > 0 then
 				data.s = s;
-				local item = SourceIDs[data.itemID];
+				if data.collected then
+					data.parent.progress = data.parent.progress + 1;
+				end
+				local item = AllTheThingsHarvestItems[data.itemID];
 				if not item then
 					item = {};
-					SourceIDs[data.itemID] = item;
+					AllTheThingsHarvestItems[data.itemID] = item;
 				end
 				if data.bonusID then
 					local bonuses = item.bonuses;
@@ -5122,46 +5255,46 @@ local function SetRowData(self, data)
 					mods[data.modID or 1] = s;
 				end
 				--print("NEW SOURCE ID!", text);
-				SetDataMember("Items", SourceIDs);
 			else
+				--print("NARP", text);
 				data.s = nil;
+				data.parent.total = data.parent.total - 1;
 			end
-			]]--
 		end
-		local leftmost = self;
+		local leftmost = row;
 		local relative = "LEFT";
 		local x = (((data.indent or 0) + 1) * GetDataMember("Indent", 8)) or 0;
-		self.ref = data;
+		row.ref = data;
 		if data.back then
-			self.Background:SetAlpha(data.back or 0.2);
-			self.Background:Show();
+			row.Background:SetAlpha(data.back or 0.2);
+			row.Background:Show();
 		end
 		if data.u then
 			local reason = L("UNOBTAINABLE_ITEM_REASONS")[data.u or 1];
 			if reason then
 				local texture = L("UNOBTAINABLE_ITEM_TEXTURES")[reason[1]];
 				if texture then
-					self.Indicator:SetTexture(texture);
-					self.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
-					self.Indicator:Show();
+					row.Indicator:SetTexture(texture);
+					row.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
+					row.Indicator:Show();
 				end
 			end
 		end
 		if data.saved then
 			if data.parent and data.parent.locks or data.isDaily then
-				self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known");
+				row.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known");
 			else
-				self.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
+				row.Indicator:SetTexture("Interface\\Addons\\AllTheThings\\assets\\known_green");
 			end
-			self.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
-			self.Indicator:Show();
+			row.Indicator:SetPoint("RIGHT", leftmost, relative, x, 0);
+			row.Indicator:Show();
 		end
-		if SetPortraitIcon(self.Texture, data) then
-			self.Texture.Background:SetPoint("LEFT", leftmost, relative, x, 0);
-			self.Texture.Border:SetPoint("LEFT", leftmost, relative, x, 0);
-			self.Texture:SetPoint("LEFT", leftmost, relative, x, 0);
-			self.Texture:Show();
-			leftmost = self.Texture;
+		if SetPortraitIcon(row.Texture, data) then
+			row.Texture.Background:SetPoint("LEFT", leftmost, relative, x, 0);
+			row.Texture.Border:SetPoint("LEFT", leftmost, relative, x, 0);
+			row.Texture:SetPoint("LEFT", leftmost, relative, x, 0);
+			row.Texture:Show();
+			leftmost = row.Texture;
 			relative = "RIGHT";
 			x = 4;
 		end
@@ -5174,19 +5307,19 @@ local function SetRowData(self, data)
 				if class == app.Class then summary = "|T" .. icon .. ":0|t " .. summary; end
 			end
 		end
-		self.Summary:SetText(summary);
-		self.Summary:Show();
-		self.Label:SetPoint("LEFT", leftmost, relative, x, 0);
-		if self.Summary and self.Summary:IsShown() then
-			self.Label:SetPoint("RIGHT", self.Summary, "LEFT", 0, 0);
+		row.Summary:SetText(summary);
+		row.Summary:Show();
+		row.Label:SetPoint("LEFT", leftmost, relative, x, 0);
+		if row.Summary and row.Summary:IsShown() then
+			row.Label:SetPoint("RIGHT", row.Summary, "LEFT", 0, 0);
 		else
-			self.Label:SetPoint("RIGHT");
+			row.Label:SetPoint("RIGHT");
 		end
-		self.Label:SetText(text);
-		self.Label:Show();
-		self:Show();
+		row.Label:SetText(text);
+		row.Label:Show();
+		row:Show();
 	else
-		self:Hide();
+		row:Hide();
 	end
 end
 local function UpdateRowProgress(group)
@@ -5225,12 +5358,12 @@ local function UpdateVisibleRowData(self)
 	-- Set the data for the first row to ALWAYS display the topmost data (essentially becoming a Title Bar)
 	local firstRow = self.rowData[1];
 	if firstRow then
-		SetRowData(container.rows[1], firstRow);
+		SetRowData(self, container.rows[1], firstRow);
 		current = current + 1;
 		
 		-- Fill the remaining rows up to the (visible) row count.
 		for i=2,rowCount do
-			SetRowData(container.rows[i], self.rowData[current]);
+			SetRowData(self, container.rows[i], self.rowData[current]);
 			current = current + 1;
 		end
 		
@@ -5241,16 +5374,32 @@ local function UpdateVisibleRowData(self)
 		end
 		
 		-- If the rows need to be processed again, do so next update.
-		if container.processingLinks then
-            container.processingLinks = nil;
-            StartCoroutine(self:GetName(), function()
-				coroutine.yield();
-				StartCoroutine(self:GetName()..":Update", function()
+		if self.processingLinks then
+			StartCoroutine(self:GetName(), function()
+				while self.processingLinks do
+					self.processingLinks = nil;
 					coroutine.yield();
-					self:Update();
+					UpdateVisibleRowData(self);
+				end
+				if self.UpdateDone then
+					StartCoroutine(self:GetName()..":UpdateDone", function()
+						coroutine.yield();
+						StartCoroutine(self:GetName()..":UpdateDoneP2", function()
+							coroutine.yield();
+							self:UpdateDone();
+						end);
+					end);
+				end
+			end);
+		elseif self.UpdateDone and rowCount > 5 then
+			StartCoroutine(self:GetName()..":UpdateDone", function()
+				coroutine.yield();
+				StartCoroutine(self:GetName()..":UpdateDoneP2", function()
+					coroutine.yield();
+					self:UpdateDone();
 				end);
-            end);
-        end
+			end);
+		end
 	else
 		self:Hide();
 	end
@@ -5280,7 +5429,8 @@ local function StartMovingOrSizing(self, fromChild)
 			self:StartSizing();
 			Push(self, "StartMovingOrSizing (Sizing)", function()
 				if self.isMoving then
-					self:Update();
+					--self:Update();
+					UpdateVisibleRowData(self);
 					return true;
 				end
 			end);
@@ -5416,6 +5566,9 @@ local function RowOnClick(self, button)
 		elseif self.index > 0 then
 			reference.expanded = not reference.expanded;
 			app:UpdateWindows();
+		elseif not reference.expanded then
+			reference.expanded = true;
+			app:UpdateWindows();
 		else
 			-- Allow the First Frame to move the parent.
 			local owner = self:GetParent():GetParent();
@@ -5450,24 +5603,28 @@ local function RowOnEnter(self)
 		-- NOTE: Order matters, we "fall-through" certain values in order to pass this information to the item ID section.
 		if not reference.creatureID then
 			if reference.itemID then
-				if reference.f == 102 then
+				--if reference.f == 102 then
 					-- This is a toy!
-					GameTooltip:SetToyByItemID(reference.itemID);
+					--GameTooltip:SetToyByItemID(reference.itemID);
+				--else
+				-- This is an non-toy item reference. :)
+				local link = reference.link;
+				if link and link ~= "" then
+					GameTooltip:SetHyperlink(link);
 				else
-					-- This is an non-toy item reference. :)
-					local link = reference.link;
-					if link then
-						GameTooltip:SetHyperlink(link);
-					elseif reference.speciesID then
-						-- Do nothing.
-					elseif not reference.artifactID then
-						GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
-						if reference and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, true); end
-						for key, value in pairs(reference) do
-							GameTooltip:AddDoubleLine(key, tostring(value));
-						end	
-					end
+					GameTooltip:AddLine("Item #" .. reference.itemID);
+					if reference and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, true); end
+					AttachTooltipSearchResults(GameTooltip, "itemID:" .. reference.itemID, SearchForFieldAndSummarize, "itemID", reference.itemID);
+				--elseif reference.speciesID then
+					-- Do nothing.
+				--elseif not reference.artifactID then
+					--GameTooltip:AddDoubleLine(self.Label:GetText(), "---");
+					--if reference and reference.u then GameTooltip:AddLine(L("UNOBTAINABLE_ITEM_REASONS")[reference.u][2], 1, 1, 1, true); end
+					--for key, value in pairs(reference) do
+					--	GameTooltip:AddDoubleLine(key, tostring(value));
+					--end	
 				end
+				--end
 			elseif reference.currencyID then
 				GameTooltip:SetCurrencyByID(reference.currencyID);
 			elseif not reference.encounterID then
@@ -5528,7 +5685,7 @@ local function RowOnEnter(self)
 				GameTooltip:AddLine(title, 1, 1, 1);
 			end
 		end
-		if reference.Lvl then GameTooltip:AddDoubleLine(L("REQUIRES_LEVEL"), tostring(reference.Lvl)); end
+		if reference.lvl then GameTooltip:AddDoubleLine(L("REQUIRES_LEVEL"), tostring(reference.lvl)); end
 		--if reference.b then GameTooltip:AddDoubleLine("Binding", tostring(reference.b)); end
 		if reference.requireSkill then
 			GameTooltip:AddDoubleLine(L("REQUIRES"), tostring(GetSpellInfo(SkillIDToSpellID[reference.requireSkill] or 0)));
@@ -5772,7 +5929,8 @@ local function OnScrollBarValueChanged(self, value)
 	local un = math.floor(value);
 	local up = un + 1;
 	self.CurrentValue = (up - value) > (-(un - value)) and un or up;
-	self:GetParent():Update();
+	--self:GetParent():Update();
+	UpdateVisibleRowData(self:GetParent());
 end
 local function SetWindowVisibility(self, show)
 	if show then
@@ -5946,7 +6104,7 @@ function app:GetDataCache()
 		-- Class Halls
 		if app.Categories.ClassHalls then
 			db = {};
-			db.Lvl = 98;
+			db.lvl = 98;
 			db.expanded = false;
 			db.text = GetCategoryInfo(15275);
 			db.icon = "Interface\\Icons\\achievement_level_110";
@@ -6047,7 +6205,6 @@ function app:GetDataCache()
 		end
 		
 		--[[
-		-- Uncomment for harvesting
 		-- Never Implemented
 		if app.Categories.NeverImplemented then
 			db = {};
@@ -6131,14 +6288,6 @@ function app:GetDataCache()
 		]]--
 		
 		-- The Main Window's Data
-		local missingData = {};
-		app.missingData = missingData;
-		missingData.visible = true;
-		missingData.expanded = false;
-		missingData.text = "Missing Sources (Total # Ignores Filters)";
-		missingData.description = L("SOURCE_ID_MISSING");
-		missingData.rows = GetTempDataMember("Missing");
-		table.insert(g, missingData);
 		app.refreshDataForce = true;
 		BuildGroups(allData, allData.g);
 		app:GetWindow("Prime").data = allData;
@@ -6180,8 +6329,76 @@ function app:GetDataCache()
 		app:GetWindow("Unsorted").data = allData;
 		CacheFields(allData);
 		
-		-- Now that we have built the data, we don't need this anymore.
-		--app.Categories = nil;
+		-- Uncomment this section if you need to Harvest Source IDs:
+		--[[
+		local harvestData = {};
+		harvestData.visible = true;
+		harvestData.expanded = true;
+		harvestData.progress = 0;
+		harvestData.total = 0;
+		harvestData.icon = "Interface\\Icons\\Spell_Warlock_HarvestofLife";
+		harvestData.text = "Harvesting All Items";
+		harvestData.description = "If you're seeing this window outside of Git, please yell loudly in Crieve's ear.";
+		harvestData.g = {};
+		
+		local mID = 1;
+		local modIDs = {};
+		local bonusIDs = {};
+		app.MaximumItemInfoRetries = 100;
+		for itemID,groups in pairs(fieldCache["itemID"]) do
+			for i,group in ipairs(groups) do
+				if (not group.s or group.s == 0) and (not group.f or group.f == 109 or group.f < 50) then
+					if group.bonusID and not bonusIDs[group.bonusID] then
+						bonusIDs[group.bonusID] = true;
+						tinsert(harvestData.g, setmetatable({visible = true, back = 0.5, indent = 1, s = 0, itemID = tonumber(itemID), bonusID = group.bonusID}, app.BaseItem));
+					else
+						mID = group.modID or 1;
+						if not modIDs[mID] then
+							modIDs[mID] = true;
+							tinsert(harvestData.g, setmetatable({visible = true, back = 0.5, indent = 1, s = 0, itemID = tonumber(itemID), modID = mID}, app.BaseItem));
+						end
+					end
+				end
+			end
+			wipe(modIDs);
+			wipe(bonusIDs);
+		end
+		harvestData.rows = harvestData.g;
+		BuildGroups(harvestData, harvestData.g);
+		UpdateGroups(harvestData, harvestData.g, 1);
+		
+		-- Assign the missing data table to the harvester.
+		local popout = app:GetWindow("Harvester");
+		popout.data = harvestData;
+		popout.ScrollBar:SetValue(1);
+		popout:SetVisible(true);
+		popout.UpdateDone = function(self)
+			local progress = 0;
+			local total = 0;
+			for i,group in ipairs(harvestData.g) do
+				total = total + 1;
+				if group.s and group.s == 0 then
+					group.visible = true;
+				else
+					group.visible = false;
+					progress = progress + 1;
+				end
+			end
+			if self.rowData then
+				local count = #self.rowData;
+				if count > 1 then
+					self.rowData[1].progress = progress;
+					self.rowData[1].total = total;
+					for i=count,1,-1 do
+						if self.rowData[i] and not self.rowData[i].visible then
+							table.remove(self.rowData, i);
+						end
+					end
+				end
+			end
+			UpdateVisibleRowData(self);
+		end
+		]]--
 	end
 	return allData;
 end
@@ -6201,13 +6418,7 @@ function app:RefreshData(lazy, safely)
 			local allData = app:GetDataCache();
 			allData.progress = 0;
 			allData.total = 0;
-			wipe(GetTempDataMember("Missing"));
-			app.missingData.g = nil;
 			UpdateGroups(allData, allData.g, 1);
-			app.missingData.g = app.missingData.rows;
-			app.missingData.total = #app.missingData.rows;
-			app.missingData.progress = 0;
-			app.missingData.visible = app.missingData.total > 0;
 			--print(tostring(allData.progress or 0) .. " / " .. tostring(allData.total or 0));
 			
 			-- Forcibly update the windows.
@@ -6420,6 +6631,7 @@ app.events.VARIABLES_LOADED = function()
 		AllTheThingsPCD = { };
 		_G["AllTheThingsPCD"] = AllTheThingsPCD;
 	end
+	AllTheThingsHarvestItems = {};
 	
 	-- There were some API changes between Legion and BFA:
 	local uiMapIDTables = {		
@@ -7446,6 +7658,7 @@ app.events.VARIABLES_LOADED = function()
 	BINDING_HEADER_ALLTHETHINGS = app.DisplayName;
 	BINDING_NAME_ALLTHETHINGS_OPENMAINLIST = L("OPEN_MAINLIST");
 	BINDING_NAME_ALLTHETHINGS_OPENMINILIST = L("OPEN_MINILIST");
+	BINDING_NAME_ALLTHETHINGS_OPENPROFESSIONMINILIST = L("OPEN_PROFESSIONMINILIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEMAINLIST = L("TOGGLE_MAINLIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLEMINILIST = L("TOGGLE_MINILIST");
 	BINDING_NAME_ALLTHETHINGS_TOGGLECOMPLETIONISTMODE = L("TOGGLE_COMPLETIONIST_MODE");
@@ -7485,9 +7698,6 @@ app.events.VARIABLES_LOADED = function()
 	end
 	
 	-- Check to see if we have a leftover ItemDB cache
-	if GetDataMember("Items") then SetDataMember("Items", nil); end
-	if GetDataMember("ItemDB") then SetDataMember("ItemDB", nil); end
-	SetTempDataMember("Missing", {});
 	GetDataMember("CollectedFactions", {});
 	GetDataMember("CollectedSpells", {});
 	GetDataMember("SeasonalFilters", {});
@@ -7623,6 +7833,8 @@ app.events.VARIABLES_LOADED = function()
 	GetDataMember("ShowDescriptions", true);
 	GetDataMember("ShowModels", true);
 	GetDataMember("AutoMiniList", true);
+	GetDataMember("AutoProfessionMiniList", true);
+	GetDataMember("AutoMinimize", true);
 	
 	GetDataMember("ShowAchievementID", false);
 	GetDataMember("ShowArtifactID", false);
@@ -7787,74 +7999,10 @@ app.events.TOYS_UPDATED = function(itemID, new)
 	end
 end
 app.events.TRADE_SKILL_LIST_UPDATE = function(...)
-	if app.Categories.Professions then
-		local popout = app:GetWindow("Tradeskills");
-		if popout:IsShown() then
-			if not (C_TradeSkillUI.IsTradeSkillLinked() or C_TradeSkillUI.IsTradeSkillGuild()) then
-				-- Cache Learned Spells
-				local skillCache = fieldCache["spellID"];
-				if skillCache then
-					-- Cache learned recipes
-					local learned = 0;
-					
-					local recipeIDs = C_TradeSkillUI.GetAllRecipeIDs();
-					for i = 1,#recipeIDs do
-						if C_TradeSkillUI.GetRecipeInfo(recipeIDs[i], spellRecipeInfo) then
-							if spellRecipeInfo.learned then
-								SetTempDataSubMember("CollectedSpells", spellRecipeInfo.recipeID, 1);
-								if not GetDataSubMember("CollectedSpells", spellRecipeInfo.recipeID) then
-									SetDataSubMember("CollectedSpells", spellRecipeInfo.recipeID, 1);
-									learned = learned + 1;
-								end
-							end
-							if not skillCache[spellRecipeInfo.recipeID] then
-								--app.print("Missing [" .. (spellRecipeInfo.name or "??") .. "] (Spell ID #" .. spellRecipeInfo.recipeID .. ") in ATT Database. Please report it!");
-								skillCache[spellRecipeInfo.recipeID] = { {} };
-							end
-						end
-					end
-					
-					-- Open the Tradeskill list for this Profession
-					local tradeSkillID = C_TradeSkillUI.GetTradeSkillLine();
-					if popout.tradeSkillID ~= tradeSkillID then
-						popout.tradeSkillID = tradeSkillID;
-						for i,group in ipairs(app.Categories.Professions) do
-							if group.requireSkill == tradeSkillID then
-								popout.data = setmetatable({ ['visible'] = true, total = 0, progress = 0 }, { __index = group });
-								BuildGroups(popout.data, popout.data.g);
-								UpdateGroups(popout.data, popout.data.g, 1);
-								if not popout.data.expanded then
-									popout.data.expanded = true;
-									ExpandGroupsRecursively(popout.data, true);
-								end
-								popout:SetVisible(true);
-							end
-						end
-					end
-				
-					-- If something new was "learned", then refresh the data.
-					if learned > 0 then
-						app:RefreshData(false, true);
-						app.print("Cached " .. learned .. " known recipes!");
-					end
-				end
-			else
-				 popout:SetVisible(false);
-			end
-		end
-	end
+	OpenMiniListForCurrentProfession(false, true);
 end
 app.events.TRADE_SKILL_SHOW = function(...)
-	if app.Categories.Professions then
-		if fieldCache["requireSkill"][C_TradeSkillUI.GetTradeSkillLine()]
-			and not (C_TradeSkillUI.IsTradeSkillLinked() or C_TradeSkillUI.IsTradeSkillGuild()) then
-			local popout = app:GetWindow("Tradeskills");
-			popout:ClearAllPoints();
-			popout:SetPoint("TOPLEFT", TradeSkillFrame, "TOPRIGHT", 0, 0);
-			popout:SetPoint("BOTTOMLEFT", TradeSkillFrame, "BOTTOMRIGHT", 0, 0);
-			popout:SetVisible(true);
-		end
-	end
+	OpenMiniListForCurrentProfession(false, false);
 end
 app.events.TRADE_SKILL_CLOSE = function(...)
 	app:GetWindow("Tradeskills"):SetVisible(false);

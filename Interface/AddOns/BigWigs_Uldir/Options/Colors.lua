@@ -1,4 +1,14 @@
 
+BigWigs:AddColors("Taloc", {
+	[270290] = {"blue","Personal"},
+	[271222] = "yellow",
+	[271296] = "red",
+	[271728] = "orange",
+	[271965] = "cyan",
+	[272582] = "yellow",
+	[275432] = {"blue","Personal"},
+})
+
 BigWigs:AddColors("MOTHER", {
 	[267787] = {"Personal","red"},
 	[267803] = {"blue","Personal"},
@@ -37,6 +47,20 @@ BigWigs:AddColors("Vectis", {
 	[265212] = {"orange","Personal"},
 	[265217] = "yellow",
 	[266948] = "red",
+})
+
+BigWigs:AddColors("Zul", {
+	[269936] = {"blue","Personal"},
+	[273288] = "yellow",
+	[273350] = "orange",
+	[273361] = "orange",
+	[273365] = {"Personal","yellow"},
+	[273451] = "red",
+	[273889] = "cyan",
+	[274168] = "green",
+	[274271] = {"orange","Personal"},
+	[274358] = {"Personal","red"},
+	[276299] = "yellow",
 })
 
 BigWigs:AddColors("Mythrax the Unraveler", {

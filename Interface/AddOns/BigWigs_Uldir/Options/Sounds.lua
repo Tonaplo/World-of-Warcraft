@@ -1,4 +1,14 @@
 
+BigWigs:AddSounds("Taloc", {
+	[270290] = "alarm",
+	[271222] = "alert",
+	[271296] = "warning",
+	[271728] = "alarm",
+	[271965] = "long",
+	[272582] = "alert",
+	[275432] = "alarm",
+})
+
 BigWigs:AddSounds("MOTHER", {
 	[267787] = "alarm",
 	[267803] = "alarm",
@@ -37,6 +47,20 @@ BigWigs:AddSounds("Vectis", {
 	[265212] = "alert",
 	[265217] = "long",
 	[266948] = "warning",
+})
+
+BigWigs:AddSounds("Zul", {
+	[269936] = "warning",
+	[273288] = "alert",
+	[273350] = "alert",
+	[273361] = "info",
+	[273365] = "warning",
+	[273451] = "alarm",
+	[273889] = "long",
+	[274168] = "long",
+	[274271] = "alarm",
+	[274358] = "warning",
+	[276299] = "alarm",
 })
 
 BigWigs:AddSounds("Mythrax the Unraveler", {

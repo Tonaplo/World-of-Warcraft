@@ -11,14 +11,14 @@ DataStore_AuctionsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Rahran - Proudmoore"] = "Rahran - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -26,6 +26,10 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Proudmoore.Faerand"] = {
+				["lastUpdate"] = 1518250661,
+				["lastVisitDate"] = "2018/02/10 00:17",
+			},
 			["Default.Proudmoore.Fimwack"] = {
 				["lastUpdate"] = 1518290341,
 				["lastVisitDate"] = "2018/02/10 11:19",
@@ -33,10 +37,6 @@ DataStore_AuctionsDB = {
 			["Default.Tichondrius.Mallusof"] = {
 				["lastUpdate"] = 1524938615,
 				["lastVisitDate"] = "2018/04/28 11:03",
-			},
-			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1520109858,
-				["lastVisitDate"] = "2018/03/03 12:44",
 			},
 			["Default.Tichondrius.Alura"] = {
 				["lastUpdate"] = 1517900144,
@@ -74,9 +74,9 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1519063707,
 				["lastVisitDate"] = "2018/02/19 10:08",
 			},
-			["Default.Proudmoore.Faerand"] = {
-				["lastUpdate"] = 1518250661,
-				["lastVisitDate"] = "2018/02/10 00:17",
+			["Default.Proudmoore.Praerend"] = {
+				["lastUpdate"] = 1520109858,
+				["lastVisitDate"] = "2018/03/03 12:44",
 			},
 		},
 	},

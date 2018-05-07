@@ -1,17 +1,13 @@
 # BigWigs
 
-## [v97](https://github.com/BigWigsMods/BigWigs/tree/v97) (2018-05-02)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v96.2...v97)
+## [v97.1](https://github.com/BigWigsMods/BigWigs/tree/v97.1) (2018-05-03)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v97...v97.1)
 
-- bump version  
-- Update ptBR (#493)  
--  BfA: Add Uldir raid files (#461)  
-- Antorus/CovenofShivarra: Use the combat log for checking chilled blood absorbs, removing UnitDebuff usage.  
-- Antorus/Argus: Remove UnitDebuff usage.  
-- Antorus/CovenofShivarra: Use the spell id for :UnitDebuff.  
-- Core/BossPrototype: Fix missing parenthesis.  
-- Use the built in UnitBuff/UnitDebuff API.  
-- Core/BossPrototype: Add :UnitBuff(unit, spell) and :UnitDebuff(unit, spell) with custom returns.  
-- Antorus/Argus: Fix warning sound spam of Deadly Scythe for off-tank.  
-- update zhCN. (#492)  
-- Antorus/Argus: Fix message for sky/sea when it's on you without me only enabled.  
+- Uldir/Taloc: Drycode for friday test (6/3)  
+- Merge branch 'master' of https://github.com/BigWigsMods/BigWigs  
+- Uldir/Zul: Drycode for friday test  
+- parser: Check for registered callbacks that don't exist  
+- parser: Handle single file parsing  
+- Uldir/Vectis: Fix engage id and Gestate Removed  
+- Uldir/Mother: Add respawn, fix tank warning  
+- Uldir/Mother: Add Enable Id  
