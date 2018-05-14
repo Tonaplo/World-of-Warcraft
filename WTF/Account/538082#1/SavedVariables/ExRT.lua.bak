@@ -226,7 +226,10 @@ VExRT = {
 			[1676] = "Guardian of the Deep",
 			[484] = "Lord Aurius Rivendare",
 			[712] = "Fankriss the Unyielding",
+			[1423] = "Thalnos the Soulrender",
 			[585] = "Lady Anacondra",
+			[1424] = "Brother Korloff",
+			[1425] = "High Inquisitor Whitemane",
 			[586] = "Lord Cobrahn",
 			[714] = "Princess Huhuran",
 			[243] = "The Seven",
@@ -254,6 +257,7 @@ VExRT = {
 			[1954] = "Maiden of Virtue",
 			[595] = "Antu'sul",
 			[1444] = "Dark Shaman Koranthal",
+			[426] = "Landslide",
 			[1445] = "Slagmaw",
 			[596] = "Theka the Martyr",
 			[1957] = "Opera Hall",
@@ -267,11 +271,13 @@ VExRT = {
 			[1962] = "Guarm",
 			[599] = "Shadowpriest Sezz'ziz",
 			[364] = "Guard Fengus",
+			[428] = "Rotgrip",
 			[1964] = "The Curator",
 			[600] = "Chief Ukorz Sandscalp",
 			[1965] = "Shade of Medivh",
 			[1966] = "Prince Taldaram",
 			[1967] = "Jedoga Shadowseeker",
+			[429] = "Princess Theradras",
 			[1968] = "Herald Volazj",
 			[1969] = "Elder Nadox",
 			[366] = "Captain Kromcrush",
@@ -364,6 +370,12 @@ VExRT = {
 				"^1676^1^1523748888^52^1^5^37.62^", -- [26]
 				"^1671^1^1523749119^57^1^5^37.62^", -- [27]
 				"^1672^1^1523749233^53^1^5^37.71^", -- [28]
+				"^1423^1^1526107117^50^1^5^32.88^", -- [29]
+				"^1424^1^1526107423^48^1^5^33.61^", -- [30]
+				"^1425^1^1526107603^90^1^5^33.35^", -- [31]
+				"^426^1^1526108434^94^1^5^45.21^", -- [32]
+				"^429^1^1526108872^78^1^5^45.21^", -- [33]
+				"^428^1^1526109072^40^1^5^45.72^", -- [34]
 			},
 			["Amranar"] = {
 				"^1866^15^1496022093^388^0^18^714.98^Gummyeggs-Tichondrius", -- [1]
@@ -914,6 +926,10 @@ VExRT = {
 				"^2051^15^1519071566^610^0^14^947.56^Borce-Turalyon", -- [178]
 				"^2051^15^1519072358^293^0^14^947.86^Borce-Turalyon", -- [179]
 				"^2051^15^1519072761^447^1^14^947.49^Vaylen-Stormrage", -- [180]
+				"^1964^2^1526196863^24^1^5^948.16^", -- [181]
+				"^1965^2^1526196941^15^1^5^939.44^", -- [182]
+				"^1959^2^1526197032^18^1^5^939.44^", -- [183]
+				"^2017^2^1526197191^23^1^5^939.44^", -- [184]
 			},
 			["Greybone"] = {
 				"^1969^2^1493279418^49^1^5^744.19^", -- [1]
@@ -1179,6 +1195,24 @@ VExRT = {
 				"^1777^14^1525566842^13^1^10^942.13^", -- [73]
 				"^1795^14^1525566923^47^1^10^942.13^", -- [74]
 				"^1799^14^1525567028^14^1^10^942.13^", -- [75]
+				"^1815^8^1526190632^33^1^5^928.49^", -- [76]
+				"^1850^8^1526190766^135^1^5^928.49^Figjam-Greymane", -- [77]
+				"^1817^8^1526190986^71^1^5^928.49^", -- [78]
+				"^1816^8^1526191110^49^1^5^928.49^", -- [79]
+				"^1818^8^1526191488^118^1^5^928.49^", -- [80]
+				"^1822^8^1526192857^89^1^5^942.66^Krashespeak-Ragnaros", -- [81]
+				"^1823^8^1526193210^116^1^5^942.66^", -- [82]
+				"^1824^8^1526193613^55^0^5^942.66^Krashespeak-Ragnaros", -- [83]
+				"^1824^8^1526193715^239^0^5^942.66^Krashespeak-Ragnaros", -- [84]
+				"^1824^8^1526194006^65^0^5^942.66^Thecrow-Quel'Thalas", -- [85]
+				"^1824^8^1526194140^220^1^5^942.66^Thecrow-Quel'Thalas", -- [86]
+				"^2076^14^1526238634^231^1^13^852.60^", -- [87]
+				"^2074^14^1526239087^229^1^13^880.83^", -- [88]
+				"^2070^14^1526239731^302^1^13^944.15^Wahhj-Sargeras", -- [89]
+				"^2064^14^1526240364^321^1^13^945.76^Riönna-Uldaman", -- [90]
+				"^2075^14^1526240805^286^1^13^946.42^", -- [91]
+				"^2082^14^1526241257^274^1^14^945.00^Neviden-Drakkari", -- [92]
+				"^2088^14^1526241758^356^1^14^945.31^Letoz-Sargeras", -- [93]
 			},
 			["Mallusof"] = {
 				"^1872^15^1493517565^256^1^19^904.93^Meowfurryoff", -- [1]
@@ -3446,6 +3480,47 @@ VExRT = {
 				"^1837^8^1525630593^115^1^5^969.10^", -- [2263]
 				"^1838^8^1525630937^129^1^5^968.79^", -- [2264]
 				"^1839^8^1525631294^161^1^5^968.79^Deathbysexi", -- [2265]
+				"^2092^16^1525656631^66^0^20^967.86^Zaelsynth", -- [2266]
+				"^2092^16^1525656801^76^0^20^968.48^Rudolph", -- [2267]
+				"^2092^16^1525657006^52^0^20^968.58^Bigsister", -- [2268]
+				"^2092^16^1525657117^74^0^20^968.31^Caillis", -- [2269]
+				"^2092^16^1525657343^133^0^20^968.14^Celaniia", -- [2270]
+				"^2092^16^1525657520^101^0^20^968.04^Panly", -- [2271]
+				"^2092^16^1525657670^100^0^20^968.04^Selendis", -- [2272]
+				"^2092^16^1525657831^92^0^20^968.04^Kalethia", -- [2273]
+				"^2092^16^1525657990^121^0^20^968.23^Zaelsynth", -- [2274]
+				"^2092^16^1525658188^64^0^20^968.23^Kaligon", -- [2275]
+				"^2092^16^1525658306^89^0^20^968.87^Celaniia", -- [2276]
+				"^2092^16^1525658466^202^0^20^968.87^Sassparagus", -- [2277]
+				"^2092^16^1525658744^123^0^20^968.74^Dieidont", -- [2278]
+				"^2092^16^1525658924^104^0^20^968.74^Kaligon", -- [2279]
+				"^2092^16^1525659092^158^0^20^968.74^Rudolph", -- [2280]
+				"^2092^16^1525659338^136^0^20^968.74^Kalethia", -- [2281]
+				"^2092^16^1525659536^155^0^20^968.67^Sassparagus", -- [2282]
+				"^2092^16^1525659752^122^0^20^968.96^Kaligon", -- [2283]
+				"^2092^16^1525659938^57^0^20^968.72^Tetsuen", -- [2284]
+				"^2092^16^1525660081^43^0^20^968.83^Tetsuen", -- [2285]
+				"^2092^16^1525660889^52^0^20^968.47^Rudolph", -- [2286]
+				"^2092^16^1525661018^227^0^20^968.63^Sassparagus", -- [2287]
+				"^2092^16^1525661311^189^0^20^968.62^Dieidont", -- [2288]
+				"^2092^16^1525661569^250^0^20^968.63^Rudolph", -- [2289]
+				"^2092^16^1525661942^139^0^20^968.52^Kaligon", -- [2290]
+				"^2092^16^1525662192^155^0^20^969.07^Celaniia", -- [2291]
+				"^2092^16^1525662419^214^0^20^969.07^Celaniia", -- [2292]
+				"^2092^16^1525662732^226^0^20^969.07^Kalethia", -- [2293]
+				"^2092^16^1525663086^99^0^20^969.07^Kaligon", -- [2294]
+				"^2092^16^1525663270^207^0^20^969.07^Dieidont", -- [2295]
+				"^2092^16^1525663541^79^0^20^969.07^Spookysmm", -- [2296]
+				"^2092^16^1525663688^56^0^20^969.07^Kalethia", -- [2297]
+				"^2092^16^1525663820^78^0^20^969.18^Kalethia", -- [2298]
+				"^2092^16^1525663975^114^0^20^969.07^Celaniia", -- [2299]
+				"^2092^16^1525664191^240^0^20^969.19^Dieidont", -- [2300]
+				"^2092^16^1525664507^100^0^20^969.07^Spookysmm", -- [2301]
+				"^2092^16^1525664669^117^0^20^968.90^Kaligon", -- [2302]
+				"^2092^16^1525664854^130^0^20^968.90^Kahoots", -- [2303]
+				"^2092^16^1525665054^101^0^20^968.90^Sassparagus", -- [2304]
+				"^2092^16^1525665231^230^0^20^968.90^Celaniia", -- [2305]
+				"^2092^16^1525665547^217^0^20^968.90^Kahoots", -- [2306]
 			},
 			["Kaldorath"] = {
 				"^1056^1^1496518023^0^1^5^807.94^", -- [1]
@@ -3682,6 +3757,10 @@ VExRT = {
 				"^2026^1^1524386685^60^1^5^97.85^", -- [88]
 				"^2024^1^1524387063^42^1^5^98.10^", -- [89]
 				"^2025^1^1524387355^88^1^5^98.10^", -- [90]
+				"^1978^1^1525848168^31^1^5^124.68^", -- [91]
+				"^1983^1^1525848380^45^1^5^133.23^", -- [92]
+				"^1980^1^1525848563^55^1^5^133.25^", -- [93]
+				"^1981^1^1525848817^65^1^5^133.25^Amorlyna-AeriePeak", -- [94]
 			},
 		},
 	},
@@ -7630,6 +7709,30 @@ VExRT = {
 			"2250583Ironbringer-Quel'Thalas1525331669", -- [3937]
 			"3250583Botichick-Quel'Thalas1525331671", -- [3938]
 			"3250583Solara-Proudmoore1525331672", -- [3939]
+			"6250541Frozentoaste-Sargeras1526238875", -- [3940]
+			"5250541Neviden-Drakkari1526238877", -- [3941]
+			"6250574Frozentoaste-Sargeras1526239319", -- [3942]
+			"C250575Felrussian-Sargeras1526240037", -- [3943]
+			"!C152119Felrussian-Sargeras1526240037:3:3610:1482:3336", -- [3944]
+			"6250575Frozentoaste-Sargeras1526240046", -- [3945]
+			"8250575Riönna-Uldaman1526240055", -- [3946]
+			"A250575Letoz-Sargeras1526240059", -- [3947]
+			"8250575Mhalgrim-MoonGuard1526240067", -- [3948]
+			"!8152136Mhalgrim-MoonGuard1526240067:3:3610:1472:3528", -- [3949]
+			"5250575Neviden-Drakkari1526240071", -- [3950]
+			"C250576Felrussian-Sargeras1526240689", -- [3951]
+			"6250576Rowecrux-Sargeras1526240692", -- [3952]
+			"A250576Letoz-Sargeras1526240807", -- [3953]
+			"!A152086Letoz-Sargeras1526240808:3:3610:1472:3528", -- [3954]
+			"A250577Letoz-Sargeras1526241096", -- [3955]
+			"6250577Frozentoaste-Sargeras1526241106", -- [3956]
+			"8250577Riönna-Uldaman1526241106", -- [3957]
+			"6250578Frozentoaste-Sargeras1526241534", -- [3958]
+			"!6152416Frozentoaste-Sargeras1526241534:4:3610:1808:1477:3336", -- [3959]
+			"8250578Riönna-Uldaman1526241545", -- [3960]
+			"A250578Letoz-Sargeras1526241560", -- [3961]
+			"5250579Neviden-Drakkari1526242212", -- [3962]
+			"!5152055Neviden-Drakkari1526242212:3:3610:1472:3528", -- [3963]
 		},
 	},
 	["ExCD2"] = {
@@ -7669,13 +7772,20 @@ VExRT = {
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
+			["Counsel-Elune"] = 65,
 			["Nalthros-MoonGuard"] = 258,
 			["Reysøn-Sargeras"] = 265,
 			["Tunsa-Aman'Thul"] = 253,
 			["Simus-Dethecus"] = 254,
+			["Trissmeri"] = 70,
+			["Ssauxx-Llane"] = 251,
+			["Amorlyna-AeriePeak"] = 62,
 			["Mikitahunter-Quel'Thalas"] = 577,
-			["Drexella"] = 102,
+			["Edmuen-Garithos"] = 105,
+			["Kofuku-Drakkari"] = 270,
+			["Eudoxia-Saurfang"] = 255,
 			["Galanir-Malygos"] = 581,
+			["Inkedscarlet-Eitrigg"] = 105,
 			["Soggykfc-Proudmoore"] = 104,
 			["Weemadarthur-Skywall"] = 259,
 			["Jainy-Quel'Thalas"] = 62,
@@ -7705,8 +7815,10 @@ VExRT = {
 			["Nyue-Darrowmere"] = 71,
 			["Jonch-Lightning'sBlade"] = 103,
 			["Dimerge-Uther"] = 263,
+			["Tremalina-Mal'Ganis"] = 70,
 			["Dreajfoge"] = 254,
 			["Urnon-Frostmourne"] = 70,
+			["Farahn"] = 262,
 			["Âster-Frostmourne"] = 62,
 			["Crimsontides-AeriePeak"] = 260,
 			["Caillis"] = 259,
@@ -7723,20 +7835,26 @@ VExRT = {
 			["Wloc-Gilneas"] = 265,
 			["Qrowkigøn"] = 581,
 			["Galink-Quel'Thalas"] = 70,
+			["Krashespeak-Ragnaros"] = 104,
 			["Brewbear-EchoIsles"] = 268,
 			["Larsam-Frostmourne"] = 253,
 			["Cybereye-Alleria"] = 72,
 			["Mediocreman"] = 64,
 			["Yungpandawan"] = 269,
+			["Riönna-Uldaman"] = 64,
 			["Øz-Nemesis"] = 64,
+			["Nadiirn-AeriePeak"] = 254,
 			["Vallance-Mok'Nathal"] = 70,
+			["Ahtee-Frostwolf"] = 66,
 			["Grìnch-Khaz'goroth"] = 71,
 			["Mortesovrano-Cenarius"] = 252,
 			["Bigsister-Tichondrius"] = 251,
+			["Jomi-Stormrage"] = 70,
 			["Stôrmbringer-Stormrage"] = 262,
 			["Okalani-Sargeras"] = 254,
 			["Fallenmoon-Wildhammer"] = 104,
 			["Scento"] = 64,
+			["Betocat-Ragnaros"] = 266,
 			["Gromit-Caelestrasz"] = 103,
 			["Asadachi-Dentarg"] = 269,
 			["Álcarí-Frostmourne"] = 70,
@@ -7750,16 +7868,22 @@ VExRT = {
 			["Çhiwire-Mal'Ganis"] = 581,
 			["Patune-Sargeras"] = 265,
 			["Kalnin-Proudmoore"] = 63,
+			["Terili-Tanaris"] = 577,
 			["Atheña-TheVentureCo"] = 103,
 			["Spookysmm"] = 265,
+			["Cyrìc-Zangarmarsh"] = 66,
 			["Acekicker"] = 70,
 			["Leonhartt-Frostmourne"] = 251,
+			["Abishta-Stormrage"] = 260,
 			["Dalanie-Quel'Thalas"] = 251,
 			["Tanabata"] = 269,
 			["Nanthor-Quel'Thalas"] = 70,
 			["Tísiphonë-Sargeras"] = 577,
 			["Codswallop-Frostmourne"] = 70,
+			["Villami-Darkspear"] = 103,
 			["Komota-Hellscream"] = 260,
+			["Priestjudas-Galakrond"] = 258,
+			["Frozentoaste-Sargeras"] = 251,
 			["Syniah-WyrmrestAccord"] = 269,
 			["Asheron-Uldaman"] = 265,
 			["Antilog-Whisperwind"] = 72,
@@ -7767,10 +7891,12 @@ VExRT = {
 			["Merielle-ArgentDawn"] = 102,
 			["Merlucic-Antonidas"] = 267,
 			["Pazyarev-Exodar"] = 577,
+			["Wahhj-Sargeras"] = 269,
 			["Hausinator-Sargeras"] = 251,
 			["Choppychop-Shu'halo"] = 268,
 			["Malurthann-Bronzebeard"] = 103,
 			["Unjust-Malygos"] = 251,
+			["Vaashj-MoonGuard"] = 257,
 			["Wakefield-Lightbringer"] = 71,
 			["Elëndil-Proudmoore"] = 72,
 			["Reportmepls"] = 267,
@@ -7782,16 +7908,19 @@ VExRT = {
 			["Tishyria-Llane"] = 257,
 			["Mandahl-Proudmoore"] = 265,
 			["Dánzero-Lightbringer"] = 66,
+			["Gfivenine-WyrmrestAccord"] = 577,
 			["Zedla-Feathermoon"] = 258,
 			["Jobodiah-ShadowCouncil"] = 104,
 			["Dismodified-Sargeras"] = 102,
 			["Kyliy-Proudmoore"] = 70,
 			["Luochan-Quel'Thalas"] = 264,
 			["Jonzwar-Frostmourne"] = 73,
+			["Calandra-Blackrock"] = 265,
+			["Yukirotten-Frostmourne"] = 251,
 			["Galavantt"] = 70,
 			["Phïlïppe-Sargeras"] = 259,
 			["Arryaa-Dath'Remar"] = 259,
-			["Sassbogs"] = 102,
+			["Sassbogs"] = 105,
 			["Jacktherpper"] = 577,
 			["Cannatonik-Darkspear"] = 268,
 			["Notchewchoo-Darkspear"] = 264,
@@ -7802,152 +7931,208 @@ VExRT = {
 			["Panly"] = 65,
 			["Righteousman-Duskwood"] = 73,
 			["Praerend"] = 73,
+			["Hazellynn-Azuremyst"] = 103,
 			["Zafina-Wildhammer"] = 265,
 			["Smashingsal-Doomhammer"] = 263,
 			["Scorbus-Ragnaros"] = 265,
+			["Roflwafflz-EarthenRing"] = 254,
 			["Kannagì-Stormrage"] = 103,
 			["Renude-Frostmourne"] = 256,
 			["Jaminky-Stormrage"] = 269,
 			["Chickonda-Rexxar"] = 70,
 			["Illidanerys-Dalaran"] = 577,
 			["Sparkléfarts-Sargeras"] = 103,
+			["Maurius-Sargeras"] = 103,
 			["Redunkulous-Darkspear"] = 265,
+			["Allispeed-Norgannon"] = 258,
+			["Vazrael-Ravencrest"] = 70,
+			["Ronhunter-Whisperwind"] = 253,
+			["Amranar"] = 104,
+			["Urslei-Saurfang"] = 264,
+			["Derffred-GrizzlyHills"] = 62,
+			["Zaelsynth"] = 250,
 			["Kelsci-Doomhammer"] = 63,
+			["Darkas-Goldrinn"] = 253,
+			["Frëzz"] = 577,
+			["Ironbringer-Quel'Thalas"] = 70,
+			["Pallyofhell-Sargeras"] = 70,
+			["Violêt-Lightbringer"] = 70,
 			["Dubbledeez-Frostmourne"] = 256,
+			["Gobiasinds-Anvilmar"] = 104,
+			["Hunson-Kil'jaeden"] = 254,
+			["Unlock-Silvermoon"] = 267,
 			["Kahoots"] = 64,
 			["Sonrah-Stormrage"] = 268,
 			["Leowufqtxoxo-Sargeras"] = 102,
+			["Pandiwoman-Quel'Thalas"] = 268,
+			["Ëuph-Shu'halo"] = 265,
 			["Laliran-Area52"] = 259,
+			["Kynra-Trollbane"] = 577,
+			["Soothe-Frostmourne"] = 102,
 			["Bawkla-Kel'Thuzad"] = 102,
 			["Laila-Dawnbringer"] = 581,
+			["Toykitty-ThoriumBrotherhood"] = 581,
 			["Sassparagus"] = 264,
+			["Drayanne-Proudmoore"] = 266,
+			["Anoai-Gallywix"] = 104,
+			["Felrussian-Sargeras"] = 581,
 			["Selendis"] = 103,
+			["Tirondas-Frostmourne"] = 73,
+			["Poulett-Mug'thol"] = 259,
+			["Adonis-Kilrogg"] = 253,
+			["Deathbysexi"] = 258,
 			["Sìrbearinton-Frostmourne"] = 257,
+			["Arnagus-Quel'Thalas"] = 105,
+			["Gramson-Proudmoore"] = 262,
+			["Tegyrius-Nemesis"] = 259,
 			["Krymaa-Sargeras"] = 258,
 			["Buffet-ShadowCouncil"] = 258,
+			["Disappear-AeriePeak"] = 259,
+			["Moogley-Kilrogg"] = 73,
+			["Jenavene-Sargeras"] = 70,
+			["Zephon-Cho'gall"] = 251,
 			["Rivs-Suramar"] = 577,
 			["Maizefarrin-Saurfang"] = 64,
+			["Proccyon"] = 103,
+			["Lorunhille-Draenor"] = 266,
+			["Khemical-Greymane"] = 70,
+			["Dovakìin-EmeraldDream"] = 70,
 			["Ellestria"] = 105,
+			["Mallusof"] = 257,
 			["Poata-Frostmourne"] = 251,
 			["Algorithm-Bronzebeard"] = 63,
 			["Kaligon"] = 64,
+			["Tengus-Shadowmoon"] = 260,
 			["Irogasm"] = 265,
+			["Fimwack"] = 267,
 			["Felhedris-EmeraldDream"] = 103,
+			["Alura"] = 256,
 			["Ghòst-Lightninghoof"] = 259,
+			["Usir-Quel'Thalas"] = 259,
+			["Zethan"] = 267,
+			["Ctea-Shu'halo"] = 577,
+			["Azryel-Nesingwary"] = 263,
 			["Mórrigan-Frostmourne"] = 265,
 			["Grasskicker-Lightninghoof"] = 105,
+			["Vedney-EmeraldDream"] = 256,
+			["Greybone"] = 250,
+			["Filanda-Dalaran"] = 264,
+			["Pizzicato-Proudmoore"] = 263,
+			["Dieidont"] = 72,
 			["Voodoochyld-BurningLegion"] = 64,
-			["Khemical-Greymane"] = 70,
-			["Kalethia"] = 62,
+			["Ferocitas-AlteracMountains"] = 70,
+			["Bigsister"] = 251,
+			["Legîòn"] = 70,
+			["Pepie-Malygos"] = 267,
 			["Psypal-Zul'jin"] = 70,
-			["Ctea-Shu'halo"] = 577,
-			["Kangø-Sargeras"] = 269,
-			["Urslei-Saurfang"] = 264,
-			["Fimwack"] = 267,
+			["Brewzleigh-Frostmourne"] = 269,
+			["Cacofonix-Lightbringer"] = 260,
+			["Nihilsm"] = 577,
+			["Zarkóna-Stormrage"] = 269,
 			["Kaldorath"] = 577,
 			["Elektric-Crushridge"] = 262,
 			["Rudolph"] = 253,
-			["Zaelsynth"] = 250,
-			["Usir-Quel'Thalas"] = 259,
-			["Faerand"] = 253,
-			["Lorunhille-Draenor"] = 266,
+			["Stro-KulTiras"] = 265,
+			["Mezszmorize-Dalaran"] = 63,
+			["Qaela-EarthenRing"] = 70,
+			["Brooke-Bloodhoof"] = 268,
 			["Viccuslil-Sargeras"] = 104,
 			["Persedious-Proudmoore"] = 66,
 			["Bekett-WyrmrestAccord"] = 253,
-			["Pallyofhell-Sargeras"] = 70,
-			["Zarkóna-Stormrage"] = 269,
-			["Pizzicato-Proudmoore"] = 263,
-			["Pepie-Malygos"] = 267,
-			["Drayanne-Proudmoore"] = 266,
-			["Bigsister"] = 251,
-			["Soothe-Frostmourne"] = 102,
-			["Sylasia-Haomarush"] = 577,
+			["Gilmic-Hydraxis"] = 103,
+			["Bodolfs-Arthas"] = 254,
+			["Maeyasha-Dalaran"] = 62,
+			["Kooven-Bloodscalp"] = 64,
+			["Vedivh-Caelestrasz"] = 62,
+			["Figjam-Greymane"] = 262,
+			["Oprâwindfury-Mal'Ganis"] = 263,
+			["Allene-Medivh"] = 70,
 			["Jassilyn-EchoIsles"] = 269,
 			["Meesowispy-Zul'jin"] = 64,
-			["Acekicker-Tichondrius"] = 70,
-			["Ironbringer-Quel'Thalas"] = 70,
-			["Mallusof"] = 257,
-			["Epicdestiny-Sargeras"] = 265,
-			["Pangknight-Dalaran"] = 66,
+			["Zarrale-Proudmoore"] = 256,
 			["Svenredbeard-Hellscream"] = 253,
-			["Tainaja-Nagrand"] = 253,
-			["Xzyr-Frostmourne"] = 259,
-			["Kooven-Bloodscalp"] = 64,
-			["Zethan"] = 267,
-			["Ferocitas-AlteracMountains"] = 70,
-			["Yarkmen-Frostmourne"] = 64,
-			["Envinyater-AeriePeak"] = 253,
-			["Zephon-Cho'gall"] = 251,
+			["Xurelion-BoreanTundra"] = 577,
+			["Grimthul-Tanaris"] = 66,
+			["Harzz-Frostmourne"] = 250,
+			["Ysola-Barthilas"] = 62,
+			["Cauterlyn-DarkIron"] = 267,
+			["Pangknight-Dalaran"] = 66,
+			["Chomps-Exodar"] = 265,
+			["Krohen-Nemesis"] = 64,
+			["Araztor-Quel'Thalas"] = 70,
+			["Nolzabadgirl-Proudmoore"] = 70,
+			["Neviden-Drakkari"] = 258,
+			["Oscuró-Ragnaros"] = 258,
 			["Cortheon-Quel'Thalas"] = 577,
 			["Shaya-KirinTor"] = 63,
-			["Oscuró-Ragnaros"] = 258,
+			["Fireir-Anvilmar"] = 64,
+			["Percious-Khaz'goroth"] = 103,
 			["Liliano-Nemesis"] = 577,
-			["Araztor-Quel'Thalas"] = 70,
-			["Criogenic-Quel'Thalas"] = 65,
+			["Reflet-Stormrage"] = 577,
 			["Siobahnn-Hellscream"] = 104,
 			["Shogunshaman"] = 262,
-			["Zarrale-Proudmoore"] = 256,
-			["Cerridwen-Moonrunner"] = 103,
+			["Attillaam"] = 269,
+			["Criogenic-Quel'Thalas"] = 65,
 			["Sepimos-Tichondrius"] = 64,
 			["Tomatosause-Lightbringer"] = 71,
 			["Froggo-Frostmourne"] = 64,
 			["Kotome-Icecrown"] = 258,
-			["Allene-Medivh"] = 70,
+			["Cerridwen-Moonrunner"] = 103,
 			["Valemedis-AeriePeak"] = 269,
-			["Oprâwindfury-Mal'Ganis"] = 263,
-			["Bodolfs-Arthas"] = 254,
-			["Morifa"] = 64,
+			["Tiloga-Garrosh"] = 261,
+			["Spliffster-BloodFurnace"] = 265,
+			["Morifa"] = 63,
+			["Taamau-Stormrage"] = 72,
 			["Kayden-Farstriders"] = 70,
-			["Gilmic-Hydraxis"] = 103,
-			["Krohen-Nemesis"] = 64,
+			["Sylasia-Haomarush"] = 577,
 			["Celind-Stormrage"] = 257,
-			["Chomps-Exodar"] = 265,
+			["Botichick-Quel'Thalas"] = 253,
 			["Valeyard-Anvilmar"] = 70,
 			["Whetdreamz-Tichondrius"] = 102,
 			["Geo-Lightbringer"] = 251,
+			["Envinyater-AeriePeak"] = 253,
 			["Bittchsummer-Frostmourne"] = 257,
-			["Brewzleigh-Frostmourne"] = 269,
-			["Cauterlyn-DarkIron"] = 267,
-			["Vedivh-Caelestrasz"] = 62,
-			["Nihilsm"] = 577,
-			["Reflet-Stormrage"] = 577,
-			["Attillaam"] = 269,
-			["Cacofonix-Lightbringer"] = 260,
-			["Stro-KulTiras"] = 265,
-			["Maeyasha-Dalaran"] = 62,
-			["Deathbysexi"] = 258,
+			["Kalethia"] = 62,
+			["Epicdestiny-Sargeras"] = 265,
+			["Geniuz"] = 577,
+			["Xzyr-Frostmourne"] = 259,
+			["Wigglefizz-SilverHand"] = 64,
+			["Eldemar-Darkspear"] = 262,
+			["Rowecrux-Sargeras"] = 250,
+			["Granjior"] = 70,
+			["Lidara-Dalaran"] = 70,
 			["Regináld-Nordrassil"] = 66,
 			["Parthos-Garona"] = 102,
 			["Mierande-Frostmourne"] = 105,
-			["Nolzabadgirl-Proudmoore"] = 70,
+			["Thecrow-Quel'Thalas"] = 251,
 			["Zloud-Frostmourne"] = 66,
-			["Mezszmorize-Dalaran"] = 63,
-			["Brooke-Bloodhoof"] = 268,
-			["Qaela-EarthenRing"] = 70,
-			["Legîòn"] = 70,
-			["Taamau-Stormrage"] = 72,
+			["Acekicker-Tichondrius"] = 70,
+			["Sliggins-Dalaran"] = 251,
+			["Tainaja-Nagrand"] = 253,
+			["Mhalgrim-MoonGuard"] = 64,
+			["Dranz-Stormrage"] = 105,
 			["Cuddlycorey-Fizzcrank"] = 253,
-			["Harzz-Frostmourne"] = 250,
+			["Lolruz-Stormrage"] = 62,
 			["Rocketbunny-Proudmoore"] = 70,
 			["Blakeyboy"] = 70,
-			["Dieidont"] = 72,
-			["Pandafuzz"] = 270,
-			["Eldemar-Darkspear"] = 262,
-			["Agathâ-Quel'Thalas"] = 267,
-			["Botichick-Quel'Thalas"] = 253,
-			["Gramson-Proudmoore"] = 262,
-			["Azryel-Nesingwary"] = 263,
-			["Ualae-Proudmoore"] = 254,
-			["Filanda-Dalaran"] = 264,
-			["Blakeyboy-Tichondrius"] = 70,
-			["Poulett-Mug'thol"] = 259,
-			["Utheland-WyrmrestAccord"] = 259,
-			["Vedney-EmeraldDream"] = 256,
-			["Aorerith-Aman'Thul"] = 252,
 			["Careless-Frostmourne"] = 257,
+			["Pandafuzz"] = 270,
+			["Gfun-Arathor"] = 257,
+			["Agathâ-Quel'Thalas"] = 267,
+			["Utheland-WyrmrestAccord"] = 259,
+			["Rhalford-Drakkari"] = 72,
+			["Kangø-Sargeras"] = 269,
+			["Ualae-Proudmoore"] = 254,
+			["Emogak-Aggramar"] = 267,
+			["Blakeyboy-Tichondrius"] = 70,
+			["Alexandor"] = 65,
+			["Yarkmen-Frostmourne"] = 64,
+			["Faerand"] = 253,
+			["Aorerith-Aman'Thul"] = 252,
+			["Murmur-Frostmourne"] = 66,
 			["Hellsflame-Caelestrasz"] = 253,
-			["Granjior"] = 70,
-			["Greybone"] = 250,
+			["Schizo-Undermine"] = 265,
+			["Peroon-Bloodhoof"] = 265,
 			["Granier-Whisperwind"] = 251,
 		},
 		["userDB"] = {
@@ -57519,6 +57704,1303 @@ VExRT = {
 				["g"] = 30,
 				["t"] = 1525331143,
 			}, -- [1755]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"FBigsister", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525656631,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1756]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"FBigsister", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525656801,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1757]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"FBigsister", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657006,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1758]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"FBigsister", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657117,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1759]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657343,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1760]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657520,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1761]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657670,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1762]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657831,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1763]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525657990,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1764]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658188,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1765]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BAcekicker", -- [5]
+				"KSelendis", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"GSassparagus", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BPanly", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"HKaligon", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658306,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1766]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658466,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1767]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658744,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1768]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525658924,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1769]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659092,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1770]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659338,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1771]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659536,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1772]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659752,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1773]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525659938,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1774]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525660081,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1775]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525660889,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1776]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661018,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1777]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661311,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1778]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661569,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1779]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525661942,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1780]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"KSassbogs", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525662192,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1781]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"KSassbogs", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525662419,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1782]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525662732,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1783]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663086,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1784]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663270,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1785]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663541,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1786]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663688,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1787]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663820,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1788]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"KSelendis", -- [16]
+				"HKahoots", -- [17]
+				"HKalethia", -- [18]
+				"BBlakeyboy", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eI"] = 2092,
+				["eN"] = "Argus the Unmaker",
+				["t"] = 1525663975,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1789]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664191,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1790]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664507,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1791]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664669,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1792]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525664854,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1793]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525665054,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1794]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525665231,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1795]
+			{
+				"BKalithumos", -- [1]
+				"IReportmepls", -- [2]
+				"HMediocreman", -- [3]
+				"CRudolph", -- [4]
+				"BPanly", -- [5]
+				"BAcekicker", -- [6]
+				"ADieidont", -- [7]
+				"LJacktherpper", -- [8]
+				"EMallusof", -- [9]
+				"ISpookysmm", -- [10]
+				"FZaelsynth", -- [11]
+				"HKaligon", -- [12]
+				"LTetsuen", -- [13]
+				"DCaillis", -- [14]
+				"ECelaniia", -- [15]
+				"BBlakeyboy", -- [16]
+				"KSelendis", -- [17]
+				"HKahoots", -- [18]
+				"HKalethia", -- [19]
+				"GSassparagus", -- [20]
+				["c"] = "Mallusof-Tichondrius",
+				["eN"] = "Argus the Unmaker",
+				["eI"] = 2092,
+				["t"] = 1525665547,
+				["g"] = 20,
+				["d"] = 16,
+			}, -- [1796]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "Garothi Worldbreaker",
+				["eI"] = 2076,
+				["t"] = 1526238634,
+				["g"] = 13,
+				["d"] = 14,
+			}, -- [1797]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "Felhounds of Sargeras",
+				["eI"] = 2074,
+				["t"] = 1526239087,
+				["g"] = 13,
+				["d"] = 14,
+			}, -- [1798]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "Antoran High Command",
+				["eI"] = 2070,
+				["t"] = 1526239731,
+				["g"] = 13,
+				["d"] = 14,
+			}, -- [1799]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "Portal Keeper Hasabel",
+				["eI"] = 2064,
+				["t"] = 1526240364,
+				["g"] = 13,
+				["d"] = 14,
+			}, -- [1800]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "The Defense of Eonar",
+				["eI"] = 2075,
+				["t"] = 1526240805,
+				["g"] = 13,
+				["d"] = 14,
+			}, -- [1801]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				"IËuph-Shu'halo", -- [14]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "Imonar the Soulhunter",
+				["eI"] = 2082,
+				["t"] = 1526241257,
+				["g"] = 14,
+				["d"] = 14,
+			}, -- [1802]
+			{
+				"JWahhj-Sargeras", -- [1]
+				"LFelrussian-Sargeras", -- [2]
+				"HMorifa", -- [3]
+				"FRowecrux-Sargeras", -- [4]
+				"BAlexandor", -- [5]
+				"JLetoz-Sargeras", -- [6]
+				"KInkedscarlet-Eitrigg", -- [7]
+				"HRiönna-Uldaman", -- [8]
+				"ENeviden-Drakkari", -- [9]
+				"ISchizo-Undermine", -- [10]
+				"HMhalgrim-MoonGuard", -- [11]
+				"ISpliffster-BloodFurnace", -- [12]
+				"FFrozentoaste-Sargeras", -- [13]
+				"IËuph-Shu'halo", -- [14]
+				["c"] = "Morifa-Proudmoore",
+				["eN"] = "Kin'garoth",
+				["eI"] = 2088,
+				["t"] = 1526241758,
+				["g"] = 14,
+				["d"] = 14,
+			}, -- [1803]
 		},
 		["alts"] = {
 			{
@@ -57617,11 +59099,11 @@ VExRT = {
 	},
 	["Addon"] = {
 		["Version"] = 3910,
-		["IconMiniMapTop"] = -80,
 		["PreVersion"] = 3910,
+		["Scale"] = 1,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -52.2955800950633,
-		["Scale"] = 1,
+		["IconMiniMapTop"] = -80,
 	},
 	["InspectArtifact"] = {
 		["players"] = {

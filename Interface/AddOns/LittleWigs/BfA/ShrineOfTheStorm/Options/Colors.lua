@@ -1,6 +1,6 @@
 
 BigWigs:AddColors("Aqu'sirr", {
-	[264155] = "yellow",
+	[264101] = "yellow",
 	[264166] = {"orange","Personal"},
 	[264560] = {"Personal","yellow"},
 	[264903] = "cyan",

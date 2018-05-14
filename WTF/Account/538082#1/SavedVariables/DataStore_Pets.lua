@@ -11,14 +11,14 @@ DataStore_PetsDB = {
 		["Faerand - Proudmoore"] = "Faerand - Proudmoore",
 		["Evisca - Bleeding Hollow"] = "Evisca - Bleeding Hollow",
 		["Praerend - Proudmoore"] = "Praerend - Proudmoore",
-		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
+		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
 		["Farahn - Proudmoore"] = "Farahn - Proudmoore",
-		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
+		["Morifa - Proudmoore"] = "Morifa - Proudmoore",
 		["Mallusof - Tichondrius"] = "Mallusof - Tichondrius",
 		["Gottagetlia - Aggramar"] = "Gottagetlia - Aggramar",
 		["Granjior - Proudmoore"] = "Granjior - Proudmoore",
 		["Zaliga - Bleeding Hollow"] = "Zaliga - Bleeding Hollow",
-		["Miriyal - Proudmoore"] = "Miriyal - Proudmoore",
+		["Rentror - Bleeding Hollow"] = "Rentror - Bleeding Hollow",
 		["Brity - Steamwheedle Cartel"] = "Brity - Steamwheedle Cartel",
 		["Zethan - Tichondrius"] = "Zethan - Tichondrius",
 		["Alura - Tichondrius"] = "Alura - Tichondrius",
@@ -141,11 +141,11 @@ DataStore_PetsDB = {
 				[210677] = 98128,
 				[187384] = 88514,
 				[170277] = 88401,
-				[234555] = 118060,
+				[100576] = 54027,
 				[135264] = 68662,
 				[226682] = 113827,
 				[141448] = 71021,
-				[100576] = 54027,
+				[162135] = 80329,
 				[46599] = 26119,
 				[26045] = 15710,
 				[93739] = 50586,
@@ -175,7 +175,7 @@ DataStore_PetsDB = {
 				[173547] = 86719,
 				[10684] = 7389,
 				[135268] = 68658,
-				[162135] = 80329,
+				[234555] = 118060,
 				[240064] = 120397,
 				[223339] = 112132,
 				[110029] = 58163,
@@ -206,14 +206,14 @@ DataStore_PetsDB = {
 		},
 		["Characters"] = {
 			["Default.Proudmoore.Fimwack"] = {
-				["lastUpdate"] = 1525548726,
+				["lastUpdate"] = 1526248608,
 				["CRITTER"] = {
 					82173, -- [1]
 					26533, -- [2]
 				},
 			},
 			["Default.Tichondrius.Mallusof"] = {
-				["lastUpdate"] = 1525665782,
+				["lastUpdate"] = 1526270613,
 				["CRITTER"] = {
 					179831, -- [1]
 					170287, -- [2]
@@ -379,7 +379,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1511643992,
 			},
 			["Default.Tichondrius.Alura"] = {
-				["lastUpdate"] = 1523749338,
+				["lastUpdate"] = 1526109130,
 			},
 			["Default.Aggramar.Gottagetlia"] = {
 				["lastUpdate"] = 1493618546,
@@ -388,7 +388,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Granjior"] = {
-				["lastUpdate"] = 1525549485,
+				["lastUpdate"] = 1526248642,
 				["CRITTER"] = {
 					135265, -- [1]
 					135258, -- [2]
@@ -414,7 +414,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1516607000,
 			},
 			["Default.Proudmoore.Amranar"] = {
-				["lastUpdate"] = 1524453182,
+				["lastUpdate"] = 1526105272,
 				["CRITTER"] = {
 					225200, -- [1]
 					173542, -- [2]
@@ -428,7 +428,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Morifa"] = {
-				["lastUpdate"] = 1525567264,
+				["lastUpdate"] = 1526248690,
 				["CRITTER"] = {
 					26533, -- [1]
 					195368, -- [2]
@@ -438,10 +438,10 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Proudmoore.Kaldorath"] = {
-				["lastUpdate"] = 1525549543,
+				["lastUpdate"] = 1526189618,
 			},
 			["Default.Proudmoore.Greybone"] = {
-				["lastUpdate"] = 1525549514,
+				["lastUpdate"] = 1526189586,
 				["CRITTER"] = {
 					135254, -- [1]
 					135257, -- [2]
@@ -470,20 +470,20 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1519800318,
 			},
 			["Default.Proudmoore.Praerend"] = {
-				["lastUpdate"] = 1525549608,
+				["lastUpdate"] = 1526189678,
 				["CRITTER"] = {
 					10714, -- [1]
-					26541, -- [2]
-					78685, -- [3]
-					122748, -- [4]
-					173547, -- [5]
-					170270, -- [6]
+					173547, -- [2]
+					122748, -- [3]
+					78685, -- [4]
+					170270, -- [5]
+					234555, -- [6]
 					170276, -- [7]
-					234555, -- [8]
+					26541, -- [8]
 				},
 			},
 			["Default.Proudmoore.Farahn"] = {
-				["lastUpdate"] = 1521060211,
+				["lastUpdate"] = 1526237259,
 				["CRITTER"] = {
 					225200, -- [1]
 					26533, -- [2]
@@ -501,7 +501,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Tichondrius.Zethan"] = {
-				["lastUpdate"] = 1525646862,
+				["lastUpdate"] = 1525848938,
 				["CRITTER"] = {
 					93739, -- [1]
 				},

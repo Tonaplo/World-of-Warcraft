@@ -1316,3 +1316,7 @@ Change Log:
 * Added BFA spells for Temple of Sethraliss
 * Added BFA spells for The MOTHERLODE!!
 * Added BFA spells for Atal'Dazar
+
+4.45.3
+* Added Battle for Azeroth spells (world)
+* Added BFA spells for Shrine of the Storm

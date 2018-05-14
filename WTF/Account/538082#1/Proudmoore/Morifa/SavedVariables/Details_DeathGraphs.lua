@@ -6,8 +6,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Xavius",
 		["id"] = 1726,
 		["diff"] = 15,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 7,
@@ -21,52 +19,14 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 	},
 	["173115"] = {
 		["hash"] = "173115",
 		["type"] = "deaths",
 		["name"] = "Trilliax",
 		["id"] = 1731,
-		["player_db"] = {
-			["Ileiaris-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Ileiaris-Tichondrius",
-				["overall"] = {
-					[207631] = 22544053,
-					[124255] = 164742,
-				},
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
-				["overall"] = {
-				},
-			},
-			["Shallydoo-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Shallydoo-Terenas",
-				["overall"] = {
-					[208918] = 58537,
-					[206749] = 281206,
-				},
-			},
-			["Morifa"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Morifa",
-				["overall"] = {
-					[207631] = 4407370,
-					[206749] = 271380,
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -80,6 +40,46 @@ DeathGraphsDBDeaths = {
 			["id"] = 1867,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Ileiaris-Tichondrius"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[207631] = 22544053,
+					[124255] = 164742,
+				},
+				["name"] = "Ileiaris-Tichondrius",
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Meowfurryoff-Tichondrius",
+			},
+			["Shallydoo-Terenas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[208918] = 58537,
+					[206749] = 281206,
+				},
+				["name"] = "Shallydoo-Terenas",
+			},
+			["Morifa"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[207631] = 4407370,
+					[206749] = 271380,
+				},
+				["name"] = "Morifa",
+			},
+		},
 		["diff"] = 15,
 	},
 	["174315"] = {
@@ -87,55 +87,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Grand Magistrix Elisande",
 		["id"] = 1743,
-		["player_db"] = {
-			["Kalithumos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-					[209433] = 645984,
-				},
-			},
-			["Insentience-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Insentience-Tichondrius",
-				["overall"] = {
-					[209599] = 1608321,
-					[221864] = 845084,
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-					[208659] = 5238190,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[229741] = 720757,
-					[208659] = 1315220,
-					[211799] = 977017,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -149,6 +100,55 @@ DeathGraphsDBDeaths = {
 			["id"] = 1872,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Kalithumos-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[209433] = 645984,
+				},
+				["name"] = "Kalithumos-Tichondrius",
+			},
+			["Kaligon-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[208659] = 5238190,
+				},
+				["name"] = "Kaligon-Tichondrius",
+			},
+			["Insentience-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[209599] = 1608321,
+					[221864] = 845084,
+				},
+				["name"] = "Insentience-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Genjieggs-Tichondrius",
+			},
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[229741] = 720757,
+					[208659] = 1315220,
+					[211799] = 977017,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["175015"] = {
@@ -157,38 +157,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Cenarius",
 		["id"] = 1750,
 		["diff"] = 15,
-		["player_db"] = {
-			["Krutoi-Stormrage"] = {
-				["overall"] = {
-					[210342] = 206330,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Krutoi-Stormrage",
-				["class"] = "DRUID",
-			},
-			["Frohsk-Stormrage"] = {
-				["overall"] = {
-					[210342] = 810533,
-					[211196] = 150312,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Frohsk-Stormrage",
-				["class"] = "HUNTER",
-			},
-			["Morifa"] = {
-				["overall"] = {
-					[210342] = 822906,
-					[211196] = 145966,
-					[211178] = 152409,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Morifa",
-				["class"] = "MAGE",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 6,
@@ -202,6 +170,38 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Krutoi-Stormrage"] = {
+				["name"] = "Krutoi-Stormrage",
+				["class"] = "DRUID",
+				["overall"] = {
+					[210342] = 206330,
+				},
+				["deaths"] = {
+				},
+			},
+			["Frohsk-Stormrage"] = {
+				["name"] = "Frohsk-Stormrage",
+				["class"] = "HUNTER",
+				["overall"] = {
+					[210342] = 810533,
+					[211196] = 150312,
+				},
+				["deaths"] = {
+				},
+			},
+			["Morifa"] = {
+				["name"] = "Morifa",
+				["class"] = "MAGE",
+				["overall"] = {
+					[210342] = 822906,
+					[211196] = 145966,
+					[211178] = 152409,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["185614"] = {
 		["hash"] = "185614",
@@ -209,6 +209,16 @@ DeathGraphsDBDeaths = {
 		["name"] = "Harjatan",
 		["id"] = 1856,
 		["diff"] = 14,
+		["player_db"] = {
+			["Lólla-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lólla-Kel'Thuzad",
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -222,93 +232,38 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Lólla-Kel'Thuzad"] = {
-				["name"] = "Lólla-Kel'Thuzad",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
-	},
-	["176115"] = {
-		["hash"] = "176115",
-		["type"] = "deaths",
-		["name"] = "High Botanist Tel'arn",
-		["id"] = 1761,
-		["player_db"] = {
-			["Dessirius-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Dessirius-Tichondrius",
-				["overall"] = {
-					[223414] = 915774,
-					[218463] = 2604870,
-					[219950] = 749877,
-				},
-			},
-			["Zoephos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Zoephos-Tichondrius",
-				["overall"] = {
-					[218155] = 2093497,
-				},
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
-				["overall"] = {
-					[218780] = 828990,
-					[218155] = 2066097,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[223414] = 544378,
-					[219235] = 541958,
-				},
-			},
-			["Shallydoo-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Shallydoo-Terenas",
-				["overall"] = {
-					[218155] = 2066607,
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "The Nighthold",
-			["encounter"] = "High Botanist Tel'arn",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "High Botanist Tel'arn",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1886,
-			["killed"] = true,
-		},
-		["diff"] = 15,
 	},
 	["199714"] = {
 		["hash"] = "199714",
 		["type"] = "deaths",
 		["name"] = "Antoran High Command",
 		["id"] = 1997,
+		["player_db"] = {
+			["Hans-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Hans-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Wahhj-Sargeras"] = {
+				["name"] = "Wahhj-Sargeras",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Chatita-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Chatita-Stormrage",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -322,111 +277,99 @@ DeathGraphsDBDeaths = {
 			["id"] = 2070,
 			["killed"] = true,
 		},
+		["diff"] = 14,
+	},
+	["176115"] = {
+		["hash"] = "176115",
+		["type"] = "deaths",
+		["name"] = "High Botanist Tel'arn",
+		["id"] = 1761,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "The Nighthold",
+			["encounter"] = "High Botanist Tel'arn",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "High Botanist Tel'arn",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1886,
+			["killed"] = true,
+		},
 		["player_db"] = {
-			["Hans-KhazModan"] = {
+			["Dessirius-Tichondrius"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[223414] = 915774,
+					[218463] = 2604870,
+					[219950] = 749877,
+				},
+				["name"] = "Dessirius-Tichondrius",
+			},
+			["Zoephos-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[218155] = 2093497,
+				},
+				["name"] = "Zoephos-Tichondrius",
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[218780] = 828990,
+					[218155] = 2066097,
+				},
+				["name"] = "Meowfurryoff-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[223414] = 544378,
+					[219235] = 541958,
 				},
-				["name"] = "Hans-KhazModan",
-			},
-			["Chatita-Stormrage"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Chatita-Stormrage",
-			},
-		},
-		["diff"] = 14,
-	},
-	["173215"] = {
-		["hash"] = "173215",
-		["type"] = "deaths",
-		["name"] = "Star Augur Etraeus",
-		["id"] = 1732,
-		["player_db"] = {
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-					[206517] = 6260417,
-				},
-			},
-			["Zoephos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Zoephos-Tichondrius",
-				["overall"] = {
-					[206954] = 4224769,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[206577] = 2536626,
-				},
+				["name"] = "Genjieggs-Tichondrius",
 			},
 			["Shallydoo-Terenas"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
-				["name"] = "Shallydoo-Terenas",
 				["overall"] = {
+					[218155] = 2066607,
 				},
+				["name"] = "Shallydoo-Terenas",
 			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Star Augur Etraeus",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Star Augur Etraeus",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1863,
-			["killed"] = true,
 		},
 		["diff"] = 15,
 	},
-	["186214"] = {
-		["hash"] = "186214",
+	["198714"] = {
+		["hash"] = "198714",
 		["type"] = "deaths",
-		["name"] = "Goroth",
-		["id"] = 1862,
+		["name"] = "Felhounds of Sargeras",
+		["id"] = 1987,
 		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Goroth",
-			["mapid"] = 1676,
+			["index"] = 2,
+			["zone"] = "Antorus, the Burning Throne",
+			["encounter"] = "Felhounds of Sargeras",
+			["mapid"] = 1712,
 			["try_number"] = 1,
-			["name"] = "Goroth",
+			["name"] = "Felhounds of Sargeras",
 			["diff"] = 14,
-			["id"] = 2032,
-			["ej_instance_id"] = 875,
+			["id"] = 2074,
+			["ej_instance_id"] = 946,
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Vossix-BloodFurnace"] = {
-				["name"] = "Vossix-BloodFurnace",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 		},
 	},
 	["189614"] = {
@@ -435,6 +378,88 @@ DeathGraphsDBDeaths = {
 		["name"] = "The Desolate Host",
 		["id"] = 1896,
 		["diff"] = 14,
+		["player_db"] = {
+			["Vossix-BloodFurnace"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vossix-BloodFurnace",
+				["class"] = "ROGUE",
+			},
+			["Ahpo-Draenor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Ahpo-Draenor",
+				["class"] = "HUNTER",
+			},
+			["Arynisa-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Arynisa-Stormrage",
+				["class"] = "DRUID",
+			},
+			["Lucipürr-Frostmourne"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lucipürr-Frostmourne",
+				["class"] = "DRUID",
+			},
+			["Èllcrys-Stormrage"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Èllcrys-Stormrage",
+				["class"] = "PRIEST",
+			},
+			["Rositar-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rositar-Quel'Thalas",
+				["class"] = "MAGE",
+			},
+			["Amauta-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Amauta-Quel'Thalas",
+				["class"] = "WARLOCK",
+			},
+			["Morifa"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Morifa",
+				["class"] = "MAGE",
+			},
+			["Naillo-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Naillo-Kel'Thuzad",
+				["class"] = "DRUID",
+			},
+			["Darkchef-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Darkchef-Quel'Thalas",
+				["class"] = "PALADIN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -447,88 +472,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Vossix-BloodFurnace"] = {
-				["name"] = "Vossix-BloodFurnace",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Ahpo-Draenor"] = {
-				["name"] = "Ahpo-Draenor",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Arynisa-Stormrage"] = {
-				["name"] = "Arynisa-Stormrage",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Lucipürr-Frostmourne"] = {
-				["name"] = "Lucipürr-Frostmourne",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Èllcrys-Stormrage"] = {
-				["name"] = "Èllcrys-Stormrage",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rositar-Quel'Thalas"] = {
-				["name"] = "Rositar-Quel'Thalas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Amauta-Quel'Thalas"] = {
-				["name"] = "Amauta-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Morifa"] = {
-				["name"] = "Morifa",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Naillo-Kel'Thuzad"] = {
-				["name"] = "Naillo-Kel'Thuzad",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Darkchef-Quel'Thalas"] = {
-				["name"] = "Darkchef-Quel'Thalas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["166715"] = {
 		["hash"] = "166715",
@@ -536,8 +479,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Ursoc",
 		["id"] = 1667,
 		["diff"] = 15,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -551,12 +492,198 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
+	},
+	["186214"] = {
+		["hash"] = "186214",
+		["type"] = "deaths",
+		["name"] = "Goroth",
+		["id"] = 1862,
+		["diff"] = 14,
+		["player_db"] = {
+			["Vossix-BloodFurnace"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Vossix-BloodFurnace",
+				["class"] = "ROGUE",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Goroth",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Goroth",
+			["diff"] = 14,
+			["id"] = 2032,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
 	},
 	["200914"] = {
 		["hash"] = "200914",
 		["type"] = "deaths",
 		["name"] = "Imonar the Soulhunter",
 		["id"] = 2009,
+		["player_db"] = {
+			["Bosslife-Cenarius"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Bosslife-Cenarius",
+				["overall"] = {
+				},
+			},
+			["Brucewheelie-Thrall"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Brucewheelie-Thrall",
+				["overall"] = {
+				},
+			},
+			["Moot-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Moot-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Hans-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Hans-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Morifa"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Morifa",
+				["overall"] = {
+				},
+			},
+			["Péro-Bloodhoof"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Péro-Bloodhoof",
+				["overall"] = {
+				},
+			},
+			["Wences-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wences-Quel'Thalas",
+				["overall"] = {
+				},
+			},
+			["Hufflepuzzle-Frostmourne"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Hufflepuzzle-Frostmourne",
+				["overall"] = {
+				},
+			},
+			["Chatita-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Chatita-Stormrage",
+				["overall"] = {
+				},
+			},
+			["Íllídan-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Íllídan-Quel'Thalas",
+				["overall"] = {
+				},
+			},
+			["Skiddi-MoonGuard"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Skiddi-MoonGuard",
+				["overall"] = {
+				},
+			},
+			["Xeinall-Aegwynn"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Xeinall-Aegwynn",
+				["overall"] = {
+				},
+			},
+			["Aele-Dalaran"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Aele-Dalaran",
+				["overall"] = {
+				},
+			},
+			["Neviden-Drakkari"] = {
+				["name"] = "Neviden-Drakkari",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Darksoother-Gorefiend"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Darksoother-Gorefiend",
+				["overall"] = {
+				},
+			},
+			["Donno-Moonrunner"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Donno-Moonrunner",
+				["overall"] = {
+				},
+			},
+			["Sugarlilly-Dalaran"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Sugarlilly-Dalaran",
+				["overall"] = {
+				},
+			},
+			["Aerandír-Thrall"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Aerandír-Thrall",
+				["overall"] = {
+				},
+			},
+			["Lockz-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Lockz-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -569,151 +696,228 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 946,
 			["encounter"] = "Imonar the Soulhunter",
 		},
+		["diff"] = 14,
+	},
+	["176215"] = {
+		["hash"] = "176215",
+		["type"] = "deaths",
+		["name"] = "Tichondrius",
+		["id"] = 1762,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Nighthold",
+			["id"] = 1862,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Tichondrius",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Tichondrius",
+		},
 		["player_db"] = {
-			["Bosslife-Cenarius"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Bosslife-Cenarius",
-			},
-			["Brucewheelie-Thrall"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Brucewheelie-Thrall",
-			},
-			["Moot-Stormrage"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Moot-Stormrage",
-			},
-			["Hans-KhazModan"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Hans-KhazModan",
-			},
-			["Morifa"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Morifa",
-			},
-			["Péro-Bloodhoof"] = {
+			["Zeddicus-Tichondrius"] = {
 				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[215988] = 1809875,
+					[223021] = 508630,
 				},
-				["name"] = "Péro-Bloodhoof",
+				["name"] = "Zeddicus-Tichondrius",
 			},
-			["Wences-Quel'Thalas"] = {
-				["class"] = "WARLOCK",
+			["Pokimaneomg-Tichondrius"] = {
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[212795] = 1258898,
+					[223021] = 480405,
 				},
-				["name"] = "Wences-Quel'Thalas",
+				["name"] = "Pokimaneomg-Tichondrius",
 			},
-			["Hufflepuzzle-Frostmourne"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Hufflepuzzle-Frostmourne",
-			},
-			["Chatita-Stormrage"] = {
+			["Daemonhater-Tichondrius"] = {
 				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[212795] = 980202,
+					[223021] = 450752,
 				},
-				["name"] = "Chatita-Stormrage",
+				["name"] = "Daemonhater-Tichondrius",
 			},
-			["Íllídan-Quel'Thalas"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Íllídan-Quel'Thalas",
-			},
-			["Skiddi-MoonGuard"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Skiddi-MoonGuard",
-			},
-			["Xeinall-Aegwynn"] = {
+			["Kaligon-Tichondrius"] = {
 				["class"] = "MAGE",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[223021] = 299206,
+					[206474] = 1097574,
 				},
-				["name"] = "Xeinall-Aegwynn",
+				["name"] = "Kaligon-Tichondrius",
 			},
-			["Lockz-Kel'Thuzad"] = {
-				["class"] = "WARLOCK",
+			["Zoephos-Tichondrius"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[206474] = 618620,
+					[223021] = 505917,
 				},
-				["name"] = "Lockz-Kel'Thuzad",
+				["name"] = "Zoephos-Tichondrius",
 			},
-			["Aele-Dalaran"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Aele-Dalaran",
-			},
-			["Darksoother-Gorefiend"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Darksoother-Gorefiend",
-			},
-			["Sugarlilly-Dalaran"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sugarlilly-Dalaran",
-			},
-			["Donno-Moonrunner"] = {
+			["Genjieggs-Tichondrius"] = {
 				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[223021] = 502544,
+					[206474] = 614493,
 				},
-				["name"] = "Donno-Moonrunner",
+				["name"] = "Genjieggs-Tichondrius",
 			},
-			["Aerandír-Thrall"] = {
-				["class"] = "WARRIOR",
+			["Shallydoo-Terenas"] = {
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 				["overall"] = {
+					[213534] = 1561673,
 				},
-				["name"] = "Aerandír-Thrall",
+				["name"] = "Shallydoo-Terenas",
 			},
+		},
+		["diff"] = 15,
+	},
+	["200414"] = {
+		["hash"] = "200414",
+		["type"] = "deaths",
+		["name"] = "Kin'garoth",
+		["id"] = 2004,
+		["player_db"] = {
+			["Franzhupala-Dragonblight"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Franzhupala-Dragonblight",
+				["overall"] = {
+				},
+			},
+			["Froozeen-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Froozeen-Quel'Thalas",
+				["overall"] = {
+				},
+			},
+			["Sëphirôth-Frostwolf"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Sëphirôth-Frostwolf",
+				["overall"] = {
+				},
+			},
+			["Aerandír-Thrall"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Aerandír-Thrall",
+				["overall"] = {
+				},
+			},
+			["Darksoother-Gorefiend"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Darksoother-Gorefiend",
+				["overall"] = {
+				},
+			},
+			["Aele-Dalaran"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Aele-Dalaran",
+				["overall"] = {
+				},
+			},
+			["Hans-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Hans-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Letoz-Sargeras"] = {
+				["name"] = "Letoz-Sargeras",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Lockz-Kel'Thuzad"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Lockz-Kel'Thuzad",
+				["overall"] = {
+				},
+			},
+			["Donno-Moonrunner"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Donno-Moonrunner",
+				["overall"] = {
+				},
+			},
+			["Brucewheelie-Thrall"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Brucewheelie-Thrall",
+				["overall"] = {
+				},
+			},
+			["Wences-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Wences-Quel'Thalas",
+				["overall"] = {
+				},
+			},
+			["Íllídan-Quel'Thalas"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Íllídan-Quel'Thalas",
+				["overall"] = {
+				},
+			},
+			["Gypsybabe-Gorefiend"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Gypsybabe-Gorefiend",
+				["overall"] = {
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2088,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Kin'garoth",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Kin'garoth",
 		},
 		["diff"] = 14,
 	},
@@ -722,66 +926,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Skorpyron",
 		["id"] = 1706,
-		["player_db"] = {
-			["Shallydoo-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Shallydoo-Terenas",
-				["overall"] = {
-					[204275] = 1918864,
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kalithumos-Tichondrius",
-				["overall"] = {
-					238659, -- [1]
-					[204766] = 221310,
-				},
-			},
-			["Ileiaris-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Ileiaris-Tichondrius",
-				["overall"] = {
-					[204766] = 440529,
-				},
-			},
-			["Insentience-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Insentience-Tichondrius",
-				["overall"] = {
-					154278, -- [1]
-					[204766] = 361921,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[204766] = 29413,
-					[204275] = 975878,
-					[204292] = 994674,
-				},
-			},
-			["Chopperdave-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Chopperdave-Tichondrius",
-				["overall"] = {
-					538605, -- [1]
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -795,6 +939,66 @@ DeathGraphsDBDeaths = {
 			["id"] = 1849,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Shallydoo-Terenas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[204275] = 1918864,
+				},
+				["name"] = "Shallydoo-Terenas",
+			},
+			["Kalithumos-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+					238659, -- [1]
+					[204766] = 221310,
+				},
+				["name"] = "Kalithumos-Tichondrius",
+			},
+			["Ileiaris-Tichondrius"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[204766] = 440529,
+				},
+				["name"] = "Ileiaris-Tichondrius",
+			},
+			["Insentience-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					154278, -- [1]
+					[204766] = 361921,
+				},
+				["name"] = "Insentience-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[204766] = 29413,
+					[204275] = 975878,
+					[204292] = 994674,
+				},
+				["name"] = "Genjieggs-Tichondrius",
+			},
+			["Chopperdave-Tichondrius"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+					538605, -- [1]
+				},
+				["name"] = "Chopperdave-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["175115"] = {
@@ -802,77 +1006,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Spellblade Aluriel",
 		["id"] = 1751,
-		["player_db"] = {
-			["Meowfurryoff-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
-				["overall"] = {
-					[213520] = 612383,
-				},
-			},
-			["Dessirius-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Dessirius-Tichondrius",
-				["overall"] = {
-					[213281] = 5295368,
-					[213761] = 339929,
-				},
-			},
-			["Morifa"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Morifa",
-				["overall"] = {
-					[213624] = 605067,
-					[212648] = 346674,
-					[213807] = 23955,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[213624] = 854593,
-					[212648] = 373589,
-				},
-			},
-			["Kalethia-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kalethia-Tichondrius",
-				["overall"] = {
-					[212494] = 1484502,
-					[212648] = 169432,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[213328] = 1849209,
-				},
-			},
-			["Zoephos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Zoephos-Tichondrius",
-				["overall"] = {
-					[212648] = 183599,
-					[213624] = 1453672,
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -886,6 +1019,77 @@ DeathGraphsDBDeaths = {
 			["id"] = 1871,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Meowfurryoff-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[213520] = 612383,
+				},
+				["name"] = "Meowfurryoff-Tichondrius",
+			},
+			["Dessirius-Tichondrius"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[213281] = 5295368,
+					[213761] = 339929,
+				},
+				["name"] = "Dessirius-Tichondrius",
+			},
+			["Morifa"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[213624] = 605067,
+					[212648] = 346674,
+					[213807] = 23955,
+				},
+				["name"] = "Morifa",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[213624] = 854593,
+					[212648] = 373589,
+				},
+				["name"] = "Genjieggs-Tichondrius",
+			},
+			["Kalethia-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[212494] = 1484502,
+					[212648] = 169432,
+				},
+				["name"] = "Kalethia-Tichondrius",
+			},
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[213328] = 1849209,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+			["Zoephos-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[212648] = 183599,
+					[213624] = 1453672,
+				},
+				["name"] = "Zoephos-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["202514"] = {
@@ -893,6 +1097,48 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Portal Keeper Hasabel",
 		["id"] = 2025,
+		["player_db"] = {
+			["Hans-KhazModan"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Hans-KhazModan",
+				["overall"] = {
+				},
+			},
+			["Riönna-Uldaman"] = {
+				["name"] = "Riönna-Uldaman",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Skiddi-MoonGuard"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Skiddi-MoonGuard",
+				["overall"] = {
+				},
+			},
+			["Franzhupala-Dragonblight"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Franzhupala-Dragonblight",
+				["overall"] = {
+				},
+			},
+			["Moot-Stormrage"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Moot-Stormrage",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -906,40 +1152,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 2064,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Franzhupala-Dragonblight"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Franzhupala-Dragonblight",
-			},
-			["Skiddi-MoonGuard"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Skiddi-MoonGuard",
-			},
-			["Hans-KhazModan"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Hans-KhazModan",
-			},
-			["Moot-Stormrage"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Moot-Stormrage",
-			},
-		},
 		["diff"] = 14,
 	},
 	["186114"] = {
@@ -948,6 +1160,43 @@ DeathGraphsDBDeaths = {
 		["name"] = "Mistress Sassz'ine",
 		["id"] = 1861,
 		["diff"] = 14,
+		["player_db"] = {
+			["Engurru-Quel'Thalas"] = {
+				["overall"] = {
+					[232885] = 98871584,
+					[234621] = 305395,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Engurru-Quel'Thalas",
+				["class"] = "SHAMAN",
+			},
+			["Opalauana-Whisperwind"] = {
+				["overall"] = {
+					[232732] = 1163064,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Opalauana-Whisperwind",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Darkchef-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Darkchef-Quel'Thalas",
+				["class"] = "PALADIN",
+			},
+			["Amauta-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Amauta-Quel'Thalas",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -961,168 +1210,28 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Engurru-Quel'Thalas"] = {
-				["name"] = "Engurru-Quel'Thalas",
-				["class"] = "SHAMAN",
-				["overall"] = {
-					[232885] = 98871584,
-					[234621] = 305395,
-				},
-				["deaths"] = {
-				},
-			},
-			["Opalauana-Whisperwind"] = {
-				["name"] = "Opalauana-Whisperwind",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-					[232732] = 1163064,
-				},
-				["deaths"] = {
-				},
-			},
-			["Darkchef-Quel'Thalas"] = {
-				["name"] = "Darkchef-Quel'Thalas",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Amauta-Quel'Thalas"] = {
-				["name"] = "Amauta-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
-	["200414"] = {
-		["hash"] = "200414",
+	["199214"] = {
+		["hash"] = "199214",
 		["type"] = "deaths",
-		["name"] = "Kin'garoth",
-		["id"] = 2004,
+		["name"] = "Garothi Worldbreaker",
+		["id"] = 1992,
+		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 7,
+			["index"] = 1,
 			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2088,
+			["encounter"] = "Garothi Worldbreaker",
 			["mapid"] = 1712,
 			["try_number"] = 1,
-			["name"] = "Kin'garoth",
+			["name"] = "Garothi Worldbreaker",
 			["diff"] = 14,
+			["id"] = 2076,
 			["ej_instance_id"] = 946,
-			["encounter"] = "Kin'garoth",
+			["killed"] = true,
 		},
 		["player_db"] = {
-			["Franzhupala-Dragonblight"] = {
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Franzhupala-Dragonblight",
-			},
-			["Sëphirôth-Frostwolf"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Sëphirôth-Frostwolf",
-			},
-			["Froozeen-Quel'Thalas"] = {
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Froozeen-Quel'Thalas",
-			},
-			["Darksoother-Gorefiend"] = {
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Darksoother-Gorefiend",
-			},
-			["Donno-Moonrunner"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Donno-Moonrunner",
-			},
-			["Hans-KhazModan"] = {
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Hans-KhazModan",
-			},
-			["Aele-Dalaran"] = {
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Aele-Dalaran",
-			},
-			["Lockz-Kel'Thuzad"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Lockz-Kel'Thuzad",
-			},
-			["Aerandír-Thrall"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Aerandír-Thrall",
-			},
-			["Brucewheelie-Thrall"] = {
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Brucewheelie-Thrall",
-			},
-			["Wences-Quel'Thalas"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Wences-Quel'Thalas",
-			},
-			["Íllídan-Quel'Thalas"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Íllídan-Quel'Thalas",
-			},
-			["Gypsybabe-Gorefiend"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Gypsybabe-Gorefiend",
-			},
 		},
-		["diff"] = 14,
 	},
 	["173815"] = {
 		["hash"] = "173815",
@@ -1130,19 +1239,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Il'gynoth, The Heart of Corruption",
 		["id"] = 1738,
 		["diff"] = 15,
-		["player_db"] = {
-			["Tiirion-Medivh"] = {
-				["overall"] = {
-					[215128] = 289177,
-					[212942] = 610742,
-					[215143] = 1402946,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Tiirion-Medivh",
-				["class"] = "DRUID",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -1156,6 +1252,19 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Tiirion-Medivh"] = {
+				["name"] = "Tiirion-Medivh",
+				["class"] = "DRUID",
+				["overall"] = {
+					[215128] = 289177,
+					[212942] = 610742,
+					[215143] = 1402946,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 	["170415"] = {
 		["hash"] = "170415",
@@ -1163,8 +1272,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Dragons of Nightmare",
 		["id"] = 1704,
 		["diff"] = 15,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -1178,117 +1285,14 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+		["player_db"] = {
+		},
 	},
 	["171315"] = {
 		["hash"] = "171315",
 		["type"] = "deaths",
 		["name"] = "Krosus",
 		["id"] = 1713,
-		["player_db"] = {
-			["Dessirius-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Dessirius-Tichondrius",
-				["overall"] = {
-					[205391] = 1299980,
-					[206352] = 1591819,
-				},
-			},
-			["Zoephos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Zoephos-Tichondrius",
-				["overall"] = {
-					[205391] = 5688622,
-					[225362] = 1389448,
-				},
-			},
-			["Shallydoo-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Shallydoo-Terenas",
-				["overall"] = {
-					[225362] = 2769841,
-					[206352] = 2070040,
-				},
-			},
-			["Pokimaneomg-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Pokimaneomg-Tichondrius",
-				["overall"] = {
-					[206352] = 1342330,
-					[206677] = 331265,
-				},
-			},
-			["Kalethia-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kalethia-Tichondrius",
-				["overall"] = {
-					[205875] = 2845991,
-					[206352] = 1900524,
-				},
-			},
-			["Morifa"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Morifa",
-				["overall"] = {
-					[205348] = 2565571,
-					[206352] = 1355948,
-					[205875] = 2899905,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[206352] = 2257321,
-					[205348] = 2515668,
-				},
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
-				["overall"] = {
-					[206352] = 2064723,
-					[225362] = 1363797,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[205348] = 2553588,
-					[206352] = 703542,
-					[205391] = 2769234,
-					[225362] = 1372223,
-				},
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Jimhälpert-Tichondrius",
-				["overall"] = {
-					[206352] = 2089873,
-					[225362] = 1593163,
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 6,
@@ -1301,6 +1305,111 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["encounter"] = "Krosus",
 		},
+		["player_db"] = {
+			["Dessirius-Tichondrius"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[205391] = 1299980,
+					[206352] = 1591819,
+				},
+				["name"] = "Dessirius-Tichondrius",
+			},
+			["Zoephos-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[205391] = 5688622,
+					[225362] = 1389448,
+				},
+				["name"] = "Zoephos-Tichondrius",
+			},
+			["Shallydoo-Terenas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[225362] = 2769841,
+					[206352] = 2070040,
+				},
+				["name"] = "Shallydoo-Terenas",
+			},
+			["Pokimaneomg-Tichondrius"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206352] = 1342330,
+					[206677] = 331265,
+				},
+				["name"] = "Pokimaneomg-Tichondrius",
+			},
+			["Kalethia-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[205875] = 2845991,
+					[206352] = 1900524,
+				},
+				["name"] = "Kalethia-Tichondrius",
+			},
+			["Morifa"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[205348] = 2565571,
+					[206352] = 1355948,
+					[205875] = 2899905,
+				},
+				["name"] = "Morifa",
+			},
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206352] = 2257321,
+					[205348] = 2515668,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206352] = 2064723,
+					[225362] = 1363797,
+				},
+				["name"] = "Meowfurryoff-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[205348] = 2553588,
+					[206352] = 703542,
+					[205391] = 2769234,
+					[225362] = 1372223,
+				},
+				["name"] = "Genjieggs-Tichondrius",
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206352] = 2089873,
+					[225362] = 1593163,
+				},
+				["name"] = "Jimhälpert-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["198514"] = {
@@ -1308,6 +1417,8 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "The Defense of Eonar",
 		["id"] = 1985,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -1321,8 +1432,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 2075,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 		["diff"] = 14,
 	},
 	["172515"] = {
@@ -1330,26 +1439,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Chronomatic Anomaly",
 		["id"] = 1725,
-		["player_db"] = {
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[219823] = 2021042,
-				},
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
-				["overall"] = {
-					[219823] = 1723728,
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -1362,6 +1451,26 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 786,
 			["encounter"] = "Chronomatic Anomaly",
 		},
+		["player_db"] = {
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[219823] = 2021042,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[219823] = 1723728,
+				},
+				["name"] = "Meowfurryoff-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["186714"] = {
@@ -1370,6 +1479,32 @@ DeathGraphsDBDeaths = {
 		["name"] = "Demonic Inquisition",
 		["id"] = 1867,
 		["diff"] = 14,
+		["player_db"] = {
+			["Lólla-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Lólla-Kel'Thuzad",
+				["class"] = "DEMONHUNTER",
+			},
+			["Anhri-Nemesis"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Anhri-Nemesis",
+				["class"] = "HUNTER",
+			},
+			["Morifa"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Morifa",
+				["class"] = "MAGE",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -1383,32 +1518,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Lólla-Kel'Thuzad"] = {
-				["name"] = "Lólla-Kel'Thuzad",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Anhri-Nemesis"] = {
-				["name"] = "Anhri-Nemesis",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Morifa"] = {
-				["name"] = "Morifa",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["190314"] = {
 		["hash"] = "190314",
@@ -1416,6 +1525,56 @@ DeathGraphsDBDeaths = {
 		["name"] = "Sisters of the Moon",
 		["id"] = 1903,
 		["diff"] = 14,
+		["player_db"] = {
+			["Hatuu-Sargeras"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Hatuu-Sargeras",
+				["class"] = "SHAMAN",
+			},
+			["Amauta-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Amauta-Quel'Thalas",
+				["class"] = "WARLOCK",
+			},
+			["Morifa"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Morifa",
+				["class"] = "MAGE",
+			},
+			["Dîelema-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dîelema-Kel'Thuzad",
+				["class"] = "MONK",
+			},
+			["Rositar-Quel'Thalas"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Rositar-Quel'Thalas",
+				["class"] = "MAGE",
+			},
+			["Sugarhealz-Kel'Thuzad"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sugarhealz-Kel'Thuzad",
+				["class"] = "PRIEST",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -1429,56 +1588,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Hatuu-Sargeras"] = {
-				["name"] = "Hatuu-Sargeras",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Amauta-Quel'Thalas"] = {
-				["name"] = "Amauta-Quel'Thalas",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Morifa"] = {
-				["name"] = "Morifa",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Dîelema-Kel'Thuzad"] = {
-				["name"] = "Dîelema-Kel'Thuzad",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Rositar-Quel'Thalas"] = {
-				["name"] = "Rositar-Quel'Thalas",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sugarhealz-Kel'Thuzad"] = {
-				["name"] = "Sugarhealz-Kel'Thuzad",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["170315"] = {
 		["hash"] = "170315",
@@ -1486,8 +1595,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Nythendra",
 		["id"] = 1703,
 		["diff"] = 15,
-		["player_db"] = {
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -1501,94 +1608,63 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
-	},
-	["176215"] = {
-		["hash"] = "176215",
-		["type"] = "deaths",
-		["name"] = "Tichondrius",
-		["id"] = 1762,
 		["player_db"] = {
-			["Zeddicus-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Zeddicus-Tichondrius",
-				["overall"] = {
-					[215988] = 1809875,
-					[223021] = 508630,
-				},
-			},
-			["Pokimaneomg-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Pokimaneomg-Tichondrius",
-				["overall"] = {
-					[212795] = 1258898,
-					[223021] = 480405,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[212795] = 980202,
-					[223021] = 450752,
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kaligon-Tichondrius",
-				["overall"] = {
-					[223021] = 299206,
-					[206474] = 1097574,
-				},
-			},
-			["Zoephos-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Zoephos-Tichondrius",
-				["overall"] = {
-					[206474] = 618620,
-					[223021] = 505917,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[223021] = 502544,
-					[206474] = 614493,
-				},
-			},
-			["Shallydoo-Terenas"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Shallydoo-Terenas",
-				["overall"] = {
-					[213534] = 1561673,
-				},
-			},
 		},
+	},
+	["173215"] = {
+		["hash"] = "173215",
+		["type"] = "deaths",
+		["name"] = "Star Augur Etraeus",
+		["id"] = 1732,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 5,
+			["index"] = 8,
 			["zone"] = "The Nighthold",
-			["id"] = 1862,
+			["encounter"] = "Star Augur Etraeus",
 			["mapid"] = 1530,
 			["try_number"] = 1,
-			["name"] = "Tichondrius",
+			["name"] = "Star Augur Etraeus",
 			["diff"] = 15,
 			["ej_instance_id"] = 786,
-			["encounter"] = "Tichondrius",
+			["id"] = 1863,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Kaligon-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206517] = 6260417,
+				},
+				["name"] = "Kaligon-Tichondrius",
+			},
+			["Zoephos-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206954] = 4224769,
+				},
+				["name"] = "Zoephos-Tichondrius",
+			},
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206577] = 2536626,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+			["Shallydoo-Terenas"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Shallydoo-Terenas",
+			},
 		},
 		["diff"] = 15,
 	},
@@ -1597,75 +1673,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Gul'dan",
 		["id"] = 1737,
-		["player_db"] = {
-			["Pokimaneomg-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Pokimaneomg-Tichondrius",
-				["overall"] = {
-					[206581] = 1843745,
-					[206370] = 2764342,
-				},
-			},
-			["Morifa"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Morifa",
-				["overall"] = {
-					[221605] = 542182,
-					[221781] = 360853,
-					[221807] = 836277,
-					[228265] = 27064,
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Genjieggs-Tichondrius",
-				["overall"] = {
-					[206581] = 1577499,
-					[206370] = 1860526,
-				},
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Meowfurryoff-Tichondrius",
-				["overall"] = {
-					[228265] = 29431,
-					[208536] = 163566,
-					[221781] = 392421,
-					[228190] = 98105,
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Daemonhater-Tichondrius",
-				["overall"] = {
-					[228265] = 48597,
-					[221781] = 350726,
-					[221605] = 973568,
-				},
-			},
-			["Kalethia-Tichondrius"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Kalethia-Tichondrius",
-				["overall"] = {
-					[228265] = 134819,
-					[221781] = 378690,
-					[221605] = 540178,
-					[206503] = 283122,
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -1679,6 +1686,75 @@ DeathGraphsDBDeaths = {
 			["id"] = 1866,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Pokimaneomg-Tichondrius"] = {
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206581] = 1843745,
+					[206370] = 2764342,
+				},
+				["name"] = "Pokimaneomg-Tichondrius",
+			},
+			["Morifa"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[221605] = 542182,
+					[221781] = 360853,
+					[221807] = 836277,
+					[228265] = 27064,
+				},
+				["name"] = "Morifa",
+			},
+			["Daemonhater-Tichondrius"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[228265] = 48597,
+					[221781] = 350726,
+					[221605] = 973568,
+				},
+				["name"] = "Daemonhater-Tichondrius",
+			},
+			["Kalethia-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[228265] = 134819,
+					[221781] = 378690,
+					[221605] = 540178,
+					[206503] = 283122,
+				},
+				["name"] = "Kalethia-Tichondrius",
+			},
+			["Genjieggs-Tichondrius"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[206581] = 1577499,
+					[206370] = 1860526,
+				},
+				["name"] = "Genjieggs-Tichondrius",
+			},
+			["Meowfurryoff-Tichondrius"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+					[228265] = 29431,
+					[208536] = 163566,
+					[221781] = 392421,
+					[228190] = 98105,
+				},
+				["name"] = "Meowfurryoff-Tichondrius",
+			},
+		},
 		["diff"] = 15,
 	},
 	["174415"] = {
@@ -1687,18 +1763,6 @@ DeathGraphsDBDeaths = {
 		["name"] = "Elerethe Renferal",
 		["id"] = 1744,
 		["diff"] = 15,
-		["player_db"] = {
-			["Morifa"] = {
-				["overall"] = {
-					[233485] = 2912153,
-					[214348] = 824326,
-				},
-				["deaths"] = {
-				},
-				["name"] = "Morifa",
-				["class"] = "MAGE",
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -1712,6 +1776,18 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 768,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Morifa"] = {
+				["name"] = "Morifa",
+				["class"] = "MAGE",
+				["overall"] = {
+					[233485] = 2912153,
+					[214348] = 824326,
+				},
+				["deaths"] = {
+				},
+			},
+		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -1721,6 +1797,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Xavius",
 		["id"] = 1726,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Xavius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Xavius",
+			["diff"] = 15,
+			["id"] = 1864,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -1863,25 +1952,25 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Xavius",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Xavius",
-			["diff"] = 15,
-			["id"] = 1864,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 	},
 	["173115"] = {
 		["hash"] = "173115",
 		["type"] = "endurance",
 		["name"] = "Trilliax",
 		["id"] = 1731,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Trilliax",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Trilliax",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1867,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Elbalthazar-Tichondrius"] = {
 				["encounters"] = 1,
@@ -2025,19 +2114,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Trilliax",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Trilliax",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1867,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["174315"] = {
@@ -2045,6 +2121,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Grand Magistrix Elisande",
 		["id"] = 1743,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 9,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Grand Magistrix Elisande",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Grand Magistrix Elisande",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1872,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Zeddicus-Tichondrius"] = {
 				["encounters"] = 1,
@@ -2174,19 +2263,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 9,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Grand Magistrix Elisande",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Grand Magistrix Elisande",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1872,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["175015"] = {
@@ -2195,6 +2271,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Cenarius",
 		["id"] = 1750,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Cenarius",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Cenarius",
+			["diff"] = 15,
+			["id"] = 1877,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -2359,19 +2448,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Cenarius",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Cenarius",
-			["diff"] = 15,
-			["id"] = 1877,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 	},
 	["185614"] = {
 		["hash"] = "185614",
@@ -2379,19 +2455,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Harjatan",
 		["id"] = 1856,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Harjatan",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Harjatan",
-			["diff"] = 14,
-			["id"] = 2036,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Fatcât-EmeraldDream"] = {
 				["encounters"] = 1,
@@ -2475,26 +2538,26 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Engurru-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Critius-Drakkari"] = {
+			["Rareiris-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "DEMONHUNTER",
 			},
-			["Xethoria"] = {
+			["Earlthebow-Eldre'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "HUNTER",
+			},
+			["Jubahl-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
 			},
 			["Darkchef-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -2524,19 +2587,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Sugarhealz-Kel'Thuzad"] = {
+			["Sanarina-Mannoroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "MAGE",
 			},
-			["Earlthebow-Eldre'Thalas"] = {
+			["Critius-Drakkari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 			},
 			["Demontoni-Whisperwind"] = {
 				["encounters"] = 1,
@@ -2580,12 +2643,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Sanarina-Mannoroth"] = {
+			["Sugarhealz-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "PRIEST",
 			},
 			["Naillo-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -2594,19 +2657,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Jubahl-Stormrage"] = {
+			["Xethoria"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+				["class"] = "SHAMAN",
 			},
-			["Rareiris-Stormrage"] = {
+			["Engurru-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "SHAMAN",
 			},
 			["Fionaluvs-Suramar"] = {
 				["encounters"] = 1,
@@ -2616,12 +2679,313 @@ DeathGraphsDBEndurance = {
 				["class"] = "HUNTER",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Harjatan",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Harjatan",
+			["diff"] = 14,
+			["id"] = 2036,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
+	},
+	["199714"] = {
+		["hash"] = "199714",
+		["type"] = "endurance",
+		["name"] = "Antoran High Command",
+		["id"] = 1997,
+		["player_db"] = {
+			["Franzhupala-Dragonblight"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Bosslife-Cenarius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Darksoother-Gorefiend"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Hans-KhazModan"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						70.3439999999996, -- [2]
+						"Entropic Blast |cFFFF33331,572,681|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Morifa"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Alexandor"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Chatita-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						60.6429999999996, -- [2]
+						"Exploit Weakness |cFFFF33333,436,308|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Eazy-Nesingwary"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Íllídan-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Frozentoaste-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Skykíng-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Inkedscarlet-Eitrigg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Prantyle-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Felrussian-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Wahhj-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						208.870000000001, -- [2]
+						"Entropic Blast |cFFFF33331,510,209|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MONK",
+			},
+			["Moot-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Letoz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Aerandír-Thrall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Aele-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Donno-Moonrunner"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Hufflepuzzle-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Mhalgrim-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Wences-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Skiddi-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Xeinall-Aegwynn"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Natsunami-EmeraldDream"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Riönna-Uldaman"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Brucewheelie-Thrall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Sugarlilly-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Faithbreaker"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Spliffster-BloodFurnace"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Antorus, the Burning Throne",
+			["encounter"] = "Antoran High Command",
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Antoran High Command",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["id"] = 2070,
+			["killed"] = true,
+		},
+		["diff"] = 14,
 	},
 	["176115"] = {
 		["hash"] = "176115",
 		["type"] = "endurance",
 		["name"] = "High Botanist Tel'arn",
 		["id"] = 1761,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "The Nighthold",
+			["encounter"] = "High Botanist Tel'arn",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "High Botanist Tel'arn",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1886,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Ileiaris-Tichondrius"] = {
 				["encounters"] = 1,
@@ -2765,472 +3129,98 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "The Nighthold",
-			["encounter"] = "High Botanist Tel'arn",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "High Botanist Tel'arn",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1886,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
-	["199714"] = {
-		["hash"] = "199714",
+	["198714"] = {
+		["hash"] = "198714",
 		["type"] = "endurance",
-		["name"] = "Antoran High Command",
-		["id"] = 1997,
+		["name"] = "Felhounds of Sargeras",
+		["id"] = 1987,
+		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 3,
+			["index"] = 2,
 			["zone"] = "Antorus, the Burning Throne",
-			["encounter"] = "Antoran High Command",
+			["encounter"] = "Felhounds of Sargeras",
 			["mapid"] = 1712,
 			["try_number"] = 1,
-			["name"] = "Antoran High Command",
+			["name"] = "Felhounds of Sargeras",
 			["diff"] = 14,
+			["id"] = 2074,
 			["ej_instance_id"] = 946,
-			["id"] = 2070,
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Franzhupala-Dragonblight"] = {
+			["Felrussian-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-			},
-			["Faithbreaker"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Bosslife-Cenarius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Brucewheelie-Thrall"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Natsunami-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Hans-KhazModan"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						70.3439999999996, -- [2]
-						"Entropic Blast |cFFFF33331,572,681|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Morifa"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Wences-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Hufflepuzzle-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Chatita-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 90,
 				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						60.6429999999996, -- [2]
-						"Exploit Weakness |cFFFF33333,436,308|r", -- [3]
-					}, -- [1]
-				},
 			},
-			["Eazy-Nesingwary"] = {
+			["Inkedscarlet-Eitrigg"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-			},
-			["Íllídan-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Skykíng-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Skiddi-MoonGuard"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Xeinall-Aegwynn"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Prantyle-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "DRUID",
-				["deaths"] = {
-				},
 			},
-			["Aele-Dalaran"] = {
+			["Frozentoaste-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-			},
-			["Donno-Moonrunner"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Darksoother-Gorefiend"] = {
-				["encounters"] = 1,
-				["points"] = 100,
 				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
 			},
-			["Sugarlilly-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Moot-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Aerandír-Thrall"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 14,
-	},
-	["173215"] = {
-		["hash"] = "173215",
-		["type"] = "endurance",
-		["name"] = "Star Augur Etraeus",
-		["id"] = 1732,
-		["player_db"] = {
-			["Ileiaris-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Meowfurryoff-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Shallydoo-Terenas"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						1, -- [1]
-						71.2110000000012, -- [2]
-						"", -- [3]
-					}, -- [1]
-				},
-			},
-			["Pokimaneomg-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Morifa"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Daemonhater-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						68.7980000000007, -- [2]
-						"Comet Impact |cFFFF33332,536,626|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Chopperdave-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Zeddicus-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Dessirius-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Kalithumos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Zoephos-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						1, -- [1]
-						71.246000000001, -- [2]
-						"Frigid Nova |cFFFF33334,224,769|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Foxxa-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Jimhälpert-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Kalethia-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Insentience-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Kaligon-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Genjieggs-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Hangookie-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Star Augur Etraeus",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Star Augur Etraeus",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1863,
-			["killed"] = true,
-		},
-		["diff"] = 15,
-	},
-	["186214"] = {
-		["hash"] = "186214",
-		["type"] = "endurance",
-		["name"] = "Goroth",
-		["id"] = 1862,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Goroth",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Goroth",
-			["diff"] = 14,
-			["id"] = 2032,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Hatuu-Sargeras"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Trugan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Sanarina-Mannoroth"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Sugarhealz-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Dîelema-Kel'Thuzad"] = {
+			["Letoz-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "MONK",
 			},
-			["Arynisa-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Vossix-BloodFurnace"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						153.968, -- [2]
-						"Star Burn (DoT) |cFFFF33333,802,442|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "ROGUE",
-			},
-			["Darkchef-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Rositar-Quel'Thalas"] = {
+			["Mhalgrim-MoonGuard"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
 			},
-			["Ascaysia-Dalaran"] = {
+			["Neviden-Drakkari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "PRIEST",
 			},
-			["Amauta-Quel'Thalas"] = {
+			["Spliffster-BloodFurnace"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "WARLOCK",
 			},
+			["Riönna-Uldaman"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Morifa"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -3238,33 +3228,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Kaarütt-Ragnaros"] = {
+			["Alexandor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Anhri-Nemesis"] = {
+			["Wahhj-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
-			},
-			["Lólla-Kel'Thuzad"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Treeflo-Dalaran"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "MONK",
 			},
 		},
 	},
@@ -3274,18 +3250,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "The Desolate Host",
 		["id"] = 1896,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Tomb of Sargeras",
-			["id"] = 2054,
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "The Desolate Host",
-			["encounter"] = "The Desolate Host",
-			["ej_instance_id"] = 875,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Lólla-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -3408,6 +3372,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "WARLOCK",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Tomb of Sargeras",
+			["id"] = 2054,
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "The Desolate Host",
+			["encounter"] = "The Desolate Host",
+			["ej_instance_id"] = 875,
+			["diff"] = 14,
+		},
 	},
 	["166715"] = {
 		["hash"] = "166715",
@@ -3415,6 +3391,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Ursoc",
 		["id"] = 1667,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Ursoc",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Ursoc",
+			["diff"] = 15,
+			["id"] = 1841,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -3564,17 +3553,143 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
+	},
+	["186214"] = {
+		["hash"] = "186214",
+		["type"] = "endurance",
+		["name"] = "Goroth",
+		["id"] = 1862,
+		["diff"] = 14,
+		["player_db"] = {
+			["Hatuu-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Trugan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Sanarina-Mannoroth"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Sugarhealz-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Dîelema-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Arynisa-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Vossix-BloodFurnace"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						153.968, -- [2]
+						"Star Burn (DoT) |cFFFF33333,802,442|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
+			["Darkchef-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Rositar-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Ascaysia-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Amauta-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Morifa"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Kaarütt-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Anhri-Nemesis"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Lólla-Kel'Thuzad"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Treeflo-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Ursoc",
-			["mapid"] = 1520,
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Goroth",
+			["mapid"] = 1676,
 			["try_number"] = 1,
-			["name"] = "Ursoc",
-			["diff"] = 15,
-			["id"] = 1841,
-			["ej_instance_id"] = 768,
+			["name"] = "Goroth",
+			["diff"] = 14,
+			["id"] = 2032,
+			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
 	},
@@ -3583,27 +3698,8 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Imonar the Soulhunter",
 		["id"] = 2009,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2082,
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Imonar the Soulhunter",
-			["diff"] = 14,
-			["ej_instance_id"] = 946,
-			["encounter"] = "Imonar the Soulhunter",
-		},
 		["player_db"] = {
 			["Franzhupala-Dragonblight"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Faithbreaker"] = {
 				["encounters"] = 3,
 				["points"] = 300,
 				["class"] = "PALADIN",
@@ -3617,17 +3713,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Brucewheelie-Thrall"] = {
+			["Darksoother-Gorefiend"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Moot-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 			},
@@ -3648,16 +3737,9 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 			},
-			["Healith-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
 			["Morifa"] = {
-				["encounters"] = 3,
-				["points"] = 290,
+				["encounters"] = 4,
+				["points"] = 390,
 				["class"] = "MAGE",
 				["deaths"] = {
 					{
@@ -3667,36 +3749,12 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Péro-Bloodhoof"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "PRIEST",
-				["deaths"] = {
-					{
-						3, -- [1]
-						228.63, -- [2]
-						"Charged Blasts |cFFFF3333820,890|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Wences-Quel'Thalas"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARLOCK",
+			["Alexandor"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-			},
-			["Hufflepuzzle-Frostmourne"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						107.434, -- [2]
-						"Electrify |cFFFF33331,511,500|r", -- [3]
-					}, -- [1]
-				},
+				["class"] = "PALADIN",
 			},
 			["Chatita-Stormrage"] = {
 				["encounters"] = 2,
@@ -3722,10 +3780,156 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
+			["Frozentoaste-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Skykíng-Quel'Thalas"] = {
 				["encounters"] = 3,
 				["points"] = 300,
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Inkedscarlet-Eitrigg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Junbisareta-Caelestrasz"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Felrussian-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Wahhj-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Moot-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Letoz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Donno-Moonrunner"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						3, -- [1]
+						237.437, -- [2]
+						"Charged Blasts |cFFFF33331,491,120|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Péro-Bloodhoof"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						3, -- [1]
+						228.63, -- [2]
+						"Charged Blasts |cFFFF3333820,890|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Aele-Dalaran"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Aerandír-Thrall"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						36.2790000000005, -- [2]
+						"Pulse Grenade |cFFFF33331,541,195|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PRIEST",
+			},
+			["Mhalgrim-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Hufflepuzzle-Frostmourne"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						107.434, -- [2]
+						"Electrify |cFFFF33331,511,500|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Wences-Quel'Thalas"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Lockz-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Healith-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
 			},
@@ -3748,36 +3952,31 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Aele-Dalaran"] = {
+			["Brucewheelie-Thrall"] = {
 				["encounters"] = 3,
 				["points"] = 300,
-				["class"] = "SHAMAN",
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
-			["Lockz-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Donno-Moonrunner"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						3, -- [1]
-						237.437, -- [2]
-						"Charged Blasts |cFFFF33331,491,120|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Junbisareta-Caelestrasz"] = {
+			["Riönna-Uldaman"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Faithbreaker"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
@@ -3788,20 +3987,467 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Darksoother-Gorefiend"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEATHKNIGHT",
+			["Spliffster-BloodFurnace"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Ëuph-Shu'halo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2082,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Imonar the Soulhunter",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Imonar the Soulhunter",
+		},
+		["diff"] = 14,
+	},
+	["176215"] = {
+		["hash"] = "176215",
+		["type"] = "endurance",
+		["name"] = "Tichondrius",
+		["id"] = 1762,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Nighthold",
+			["id"] = 1862,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Tichondrius",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Tichondrius",
+		},
+		["player_db"] = {
+			["Ileiaris-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
 			},
-			["Aerandír-Thrall"] = {
-				["encounters"] = 3,
-				["points"] = 300,
+			["Meowfurryoff-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Shallydoo-Terenas"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						63.594000000001, -- [2]
+						"Echoes of the Void |cFFFF3333445,236|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Pokimaneomg-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Morifa"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Genjieggs-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						2, -- [1]
+						89.0429999999997, -- [2]
+						"Carrion Plague |cFFFF3333167,515|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Chopperdave-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Zeddicus-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Dessirius-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
+			["Kalithumos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Zoephos-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PRIEST",
+				["deaths"] = {
+					{
+						2, -- [1]
+						26.4989999999998, -- [2]
+						"Seeker Swarm |cFFFF3333618,620|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Foxxa-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Jimhälpert-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Kalethia-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Insentience-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Daemonhater-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Hangookie-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["200414"] = {
+		["hash"] = "200414",
+		["type"] = "endurance",
+		["name"] = "Kin'garoth",
+		["id"] = 2004,
+		["player_db"] = {
+			["Franzhupala-Dragonblight"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						32.1850000000013, -- [2]
+						"Ruiner (DoT) |cFFFF33331,264,256|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Felrussian-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Aele-Dalaran"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						2, -- [1]
+						31.7600000000002, -- [2]
+						"Diabolic Bomb |cFFFF33332,452,664|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Froozeen-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Wahhj-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Brucewheelie-Thrall"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Mhalgrim-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Hans-KhazModan"] = {
+				["encounters"] = 2,
+				["points"] = 180,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						33.3000000000002, -- [2]
+						"Ruiner (DoT) |cFFFF33331,342,320|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						56.0970000000016, -- [2]
+						"Apocalypse Blast |cFFFF33331,347,039|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Healith-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Donno-Moonrunner"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Aerandír-Thrall"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Péro-Bloodhoof"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Ëuph-Shu'halo"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Alexandor"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Gypsybabe-Gorefiend"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Morifa"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Riönna-Uldaman"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Inkedscarlet-Eitrigg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Lockz-Kel'Thuzad"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Sëphirôth-Frostwolf"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Frozentoaste-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Letoz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						6.74300000000039, -- [2]
+						"Forging Strike |cFFFF33335,555,731|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MONK",
+			},
+			["Skiddi-MoonGuard"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Xeinall-Aegwynn"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Íllídan-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						81.3689999999997, -- [2]
+						"Forging Strike |cFFFF33335,884,567|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Spliffster-BloodFurnace"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Wences-Quel'Thalas"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Darksoother-Gorefiend"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+					{
+						1, -- [1]
+						81.3689999999997, -- [2]
+						"Forging Strike |cFFFF33334,325,577|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Antorus, the Burning Throne",
+			["id"] = 2088,
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Kin'garoth",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["encounter"] = "Kin'garoth",
 		},
 		["diff"] = 14,
 	},
@@ -3810,6 +4456,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Skorpyron",
 		["id"] = 1706,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Skorpyron",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Skorpyron",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1849,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Dessirius-Tichondrius"] = {
 				["encounters"] = 1,
@@ -3918,19 +4577,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Skorpyron",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Skorpyron",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1849,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["175115"] = {
@@ -3938,6 +4584,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Spellblade Aluriel",
 		["id"] = 1751,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Spellblade Aluriel",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Spellblade Aluriel",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1871,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Ileiaris-Tichondrius"] = {
 				["encounters"] = 1,
@@ -4081,19 +4740,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Spellblade Aluriel",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Spellblade Aluriel",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1871,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["202514"] = {
@@ -4101,19 +4747,6 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Portal Keeper Hasabel",
 		["id"] = 2025,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Antorus, the Burning Throne",
-			["encounter"] = "Portal Keeper Hasabel",
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "Portal Keeper Hasabel",
-			["diff"] = 14,
-			["ej_instance_id"] = 946,
-			["id"] = 2064,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Franzhupala-Dragonblight"] = {
 				["encounters"] = 2,
@@ -4132,13 +4765,6 @@ DeathGraphsDBEndurance = {
 					}, -- [2]
 				},
 			},
-			["Faithbreaker"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
 			["Bosslife-Cenarius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
@@ -4146,17 +4772,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Brucewheelie-Thrall"] = {
+			["Darksoother-Gorefiend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Natsunami-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 			},
@@ -4172,26 +4791,19 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
-			["Aerandír-Thrall"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
+			["Morifa"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Wences-Quel'Thalas"] = {
+			["Alexandor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-			},
-			["Hufflepuzzle-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
+				["class"] = "PALADIN",
 			},
 			["Chatita-Stormrage"] = {
 				["encounters"] = 1,
@@ -4207,10 +4819,115 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Frozentoaste-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Skykíng-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Inkedscarlet-Eitrigg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Prantyle-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Felrussian-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Wahhj-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Moot-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Letoz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Donno-Moonrunner"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Aele-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Hufflepuzzle-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Wences-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mhalgrim-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Aerandír-Thrall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
@@ -4228,31 +4945,36 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Prantyle-Quel'Thalas"] = {
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Riönna-Uldaman"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["deaths"] = {
+					{
+						1, -- [1]
+						286.819, -- [2]
+						"Portal: Xoroth |cFFFF3333164,864|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MAGE",
+			},
+			["Natsunami-EmeraldDream"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
-			["Aele-Dalaran"] = {
+			["Brucewheelie-Thrall"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Donno-Moonrunner"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Darksoother-Gorefiend"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
@@ -4263,20 +4985,33 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Moot-Stormrage"] = {
+			["Spliffster-BloodFurnace"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Faithbreaker"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
-			["Morifa"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 5,
+			["zone"] = "Antorus, the Burning Throne",
+			["encounter"] = "Portal Keeper Hasabel",
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "Portal Keeper Hasabel",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["id"] = 2064,
+			["killed"] = true,
 		},
 		["diff"] = 14,
 	},
@@ -4286,19 +5021,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Mistress Sassz'ine",
 		["id"] = 1861,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 5,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Mistress Sassz'ine",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Mistress Sassz'ine",
-			["diff"] = 14,
-			["id"] = 2037,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Fatcât-EmeraldDream"] = {
 				["encounters"] = 1,
@@ -4319,19 +5041,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Xethoria"] = {
+			["Jubahl-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "SHAMAN",
+				["class"] = "WARLOCK",
 			},
-			["Runslower-Whisperwind"] = {
+			["Critius-Drakkari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "DEMONHUNTER",
 			},
 			["Dîelema-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -4354,12 +5076,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Demontoni-Whisperwind"] = {
+			["Arynisa-Stormrage"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "DRUID",
 			},
 			["Rositar-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -4389,12 +5111,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "MAGE",
 			},
-			["Rareiris-Stormrage"] = {
+			["Engurru-Quel'Thalas"] = {
 				["encounters"] = 1,
-				["points"] = 100,
+				["points"] = 90,
 				["deaths"] = {
+					{
+						1, -- [1]
+						184.591, -- [2]
+						"Devour Whole |cFFFF333398,871,584|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "DEMONHUNTER",
+				["class"] = "SHAMAN",
 			},
 			["Darkchef-Quel'Thalas"] = {
 				["encounters"] = 1,
@@ -4408,26 +5135,26 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Jubahl-Stormrage"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Critius-Drakkari"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Hatuu-Sargeras"] = {
+			["Xethoria"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "SHAMAN",
+			},
+			["Runslower-Whisperwind"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Bizen-Elune"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
 			},
 			["Vossix-BloodFurnace"] = {
 				["encounters"] = 1,
@@ -4443,12 +5170,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Sugarhealz-Kel'Thuzad"] = {
+			["Sanarina-Mannoroth"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
+				["class"] = "MAGE",
 			},
 			["Shuttledock-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -4457,12 +5184,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Arynisa-Stormrage"] = {
+			["Demontoni-Whisperwind"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+				["class"] = "DEMONHUNTER",
 			},
 			["Faril-AzjolNerub"] = {
 				["encounters"] = 1,
@@ -4504,12 +5231,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Sanarina-Mannoroth"] = {
+			["Sugarhealz-Kel'Thuzad"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "PRIEST",
 			},
 			["Naillo-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -4518,24 +5245,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DRUID",
 			},
-			["Bizen-Elune"] = {
+			["Hatuu-Sargeras"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARRIOR",
-			},
-			["Engurru-Quel'Thalas"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						184.591, -- [2]
-						"Devour Whole |cFFFF333398,871,584|r", -- [3]
-					}, -- [1]
-				},
 				["class"] = "SHAMAN",
+			},
+			["Rareiris-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
 			},
 			["Fionaluvs-Suramar"] = {
 				["encounters"] = 1,
@@ -4545,183 +5267,132 @@ DeathGraphsDBEndurance = {
 				["class"] = "HUNTER",
 			},
 		},
-	},
-	["200414"] = {
-		["hash"] = "200414",
-		["type"] = "endurance",
-		["name"] = "Kin'garoth",
-		["id"] = 2004,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
-			["index"] = 7,
+			["index"] = 5,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Mistress Sassz'ine",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Mistress Sassz'ine",
+			["diff"] = 14,
+			["id"] = 2037,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
+	},
+	["199214"] = {
+		["hash"] = "199214",
+		["type"] = "endurance",
+		["name"] = "Garothi Worldbreaker",
+		["id"] = 1992,
+		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
 			["zone"] = "Antorus, the Burning Throne",
-			["id"] = 2088,
+			["encounter"] = "Garothi Worldbreaker",
 			["mapid"] = 1712,
 			["try_number"] = 1,
-			["name"] = "Kin'garoth",
+			["name"] = "Garothi Worldbreaker",
 			["diff"] = 14,
+			["id"] = 2076,
 			["ej_instance_id"] = 946,
-			["encounter"] = "Kin'garoth",
+			["killed"] = true,
 		},
 		["player_db"] = {
-			["Franzhupala-Dragonblight"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						32.1850000000013, -- [2]
-						"Ruiner (DoT) |cFFFF33331,264,256|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Froozeen-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
+			["Felrussian-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
-			},
-			["Brucewheelie-Thrall"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Hans-KhazModan"] = {
-				["encounters"] = 2,
-				["points"] = 180,
-				["class"] = "HUNTER",
-				["deaths"] = {
-					{
-						1, -- [1]
-						33.3000000000002, -- [2]
-						"Ruiner (DoT) |cFFFF33331,342,320|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						56.0970000000016, -- [2]
-						"Apocalypse Blast |cFFFF33331,347,039|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Healith-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Aerandír-Thrall"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Péro-Bloodhoof"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Wences-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Gypsybabe-Gorefiend"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Sëphirôth-Frostwolf"] = {
-				["encounters"] = 2,
-				["points"] = 200,
 				["class"] = "DEMONHUNTER",
+			},
+			["Inkedscarlet-Eitrigg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DRUID",
 			},
-			["Skiddi-MoonGuard"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
+			["Frozentoaste-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
-			["Xeinall-Aegwynn"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Letoz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Mhalgrim-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
+			},
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
-			["Lockz-Kel'Thuzad"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+			["Spliffster-BloodFurnace"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
 			},
-			["Aele-Dalaran"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "SHAMAN",
+			["Riönna-Uldaman"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						2, -- [1]
-						31.7600000000002, -- [2]
-						"Diabolic Bomb |cFFFF33332,452,664|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "MAGE",
 			},
-			["Donno-Moonrunner"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
 				},
+				["class"] = "WARLOCK",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Morifa"] = {
-				["encounters"] = 2,
-				["points"] = 200,
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
 				["class"] = "MAGE",
-				["deaths"] = {
-				},
 			},
-			["Íllídan-Quel'Thalas"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEMONHUNTER",
+			["Alexandor"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						81.3689999999997, -- [2]
-						"Forging Strike |cFFFF33335,884,567|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "PALADIN",
 			},
-			["Darksoother-Gorefiend"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
+			["Wahhj-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
 				["deaths"] = {
-					{
-						1, -- [1]
-						81.3689999999997, -- [2]
-						"Forging Strike |cFFFF33334,325,577|r", -- [3]
-					}, -- [1]
 				},
+				["class"] = "MONK",
 			},
 		},
-		["diff"] = 14,
 	},
 	["173815"] = {
 		["hash"] = "173815",
@@ -4729,6 +5400,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Il'gynoth, The Heart of Corruption",
 		["id"] = 1738,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Il'gynoth, The Heart of Corruption",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, The Heart of Corruption",
+			["diff"] = 15,
+			["id"] = 1873,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -4883,19 +5567,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Il'gynoth, The Heart of Corruption",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Il'gynoth, The Heart of Corruption",
-			["diff"] = 15,
-			["id"] = 1873,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 	},
 	["170415"] = {
 		["hash"] = "170415",
@@ -4903,6 +5574,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Dragons of Nightmare",
 		["id"] = 1704,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Dragons of Nightmare",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Dragons of Nightmare",
+			["diff"] = 15,
+			["id"] = 1854,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -5052,25 +5736,24 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Dragons of Nightmare",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Dragons of Nightmare",
-			["diff"] = 15,
-			["id"] = 1854,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 	},
 	["171315"] = {
 		["hash"] = "171315",
 		["type"] = "endurance",
 		["name"] = "Krosus",
 		["id"] = 1713,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "The Nighthold",
+			["id"] = 1842,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Krosus",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Krosus",
+		},
 		["player_db"] = {
 			["Ileiaris-Tichondrius"] = {
 				["encounters"] = 2,
@@ -5229,18 +5912,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "The Nighthold",
-			["id"] = 1842,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Krosus",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["encounter"] = "Krosus",
-		},
 		["diff"] = 15,
 	},
 	["198514"] = {
@@ -5248,28 +5919,8 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "The Defense of Eonar",
 		["id"] = 1985,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Antorus, the Burning Throne",
-			["encounter"] = "The Defense of Eonar",
-			["mapid"] = 1712,
-			["try_number"] = 1,
-			["name"] = "The Defense of Eonar",
-			["diff"] = 14,
-			["ej_instance_id"] = 946,
-			["id"] = 2075,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Franzhupala-Dragonblight"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Faithbreaker"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
@@ -5283,17 +5934,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Brucewheelie-Thrall"] = {
+			["Darksoother-Gorefiend"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-			["Natsunami-EmeraldDream"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 			},
@@ -5304,26 +5948,19 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Aerandír-Thrall"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARRIOR",
+			["Morifa"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
-			["Wences-Quel'Thalas"] = {
+			["Alexandor"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "WARLOCK",
 				["deaths"] = {
 				},
-			},
-			["Hufflepuzzle-Frostmourne"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
+				["class"] = "PALADIN",
 			},
 			["Chatita-Stormrage"] = {
 				["encounters"] = 1,
@@ -5339,10 +5976,115 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
+			["Frozentoaste-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
 			["Skykíng-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Inkedscarlet-Eitrigg"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Rowecrux-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Prantyle-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Felrussian-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Wahhj-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Moot-Stormrage"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Letoz-Sargeras"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Donno-Moonrunner"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Aele-Dalaran"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Hufflepuzzle-Frostmourne"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Wences-Quel'Thalas"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Mhalgrim-MoonGuard"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Neviden-Drakkari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Aerandír-Thrall"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
@@ -5360,31 +6102,31 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Prantyle-Quel'Thalas"] = {
+			["Schizo-Undermine"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Riönna-Uldaman"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Natsunami-EmeraldDream"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
-			["Aele-Dalaran"] = {
+			["Brucewheelie-Thrall"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Donno-Moonrunner"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Darksoother-Gorefiend"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "WARRIOR",
 				["deaths"] = {
 				},
 			},
@@ -5395,20 +6137,33 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Moot-Stormrage"] = {
+			["Spliffster-BloodFurnace"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Faithbreaker"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
 			},
-			["Morifa"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Antorus, the Burning Throne",
+			["encounter"] = "The Defense of Eonar",
+			["mapid"] = 1712,
+			["try_number"] = 1,
+			["name"] = "The Defense of Eonar",
+			["diff"] = 14,
+			["ej_instance_id"] = 946,
+			["id"] = 2075,
+			["killed"] = true,
 		},
 		["diff"] = 14,
 	},
@@ -5417,6 +6172,18 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Chronomatic Anomaly",
 		["id"] = 1725,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "The Nighthold",
+			["id"] = 1865,
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Chronomatic Anomaly",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["encounter"] = "Chronomatic Anomaly",
+		},
 		["player_db"] = {
 			["Ileiaris-Tichondrius"] = {
 				["encounters"] = 1,
@@ -5526,17 +6293,17 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Kaligon-Tichondrius"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
 			["Insentience-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Kaligon-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -5548,18 +6315,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "The Nighthold",
-			["id"] = 1865,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Chronomatic Anomaly",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["encounter"] = "Chronomatic Anomaly",
-		},
 		["diff"] = 15,
 	},
 	["186714"] = {
@@ -5568,19 +6323,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Demonic Inquisition",
 		["id"] = 1867,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 2,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Demonic Inquisition",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Demonic Inquisition",
-			["diff"] = 14,
-			["id"] = 2048,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Hatuu-Sargeras"] = {
 				["encounters"] = 1,
@@ -5710,6 +6452,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "DEMONHUNTER",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 2,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Demonic Inquisition",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Demonic Inquisition",
+			["diff"] = 14,
+			["id"] = 2048,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
 	},
 	["190314"] = {
 		["hash"] = "190314",
@@ -5717,19 +6472,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Sisters of the Moon",
 		["id"] = 1903,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Sisters of the Moon",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Sisters of the Moon",
-			["diff"] = 14,
-			["id"] = 2050,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Lólla-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -5804,12 +6546,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
-			["Amauta-Quel'Thalas"] = {
+			["Darkchef-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "WARLOCK",
+				["class"] = "PALADIN",
 			},
 			["Morifa"] = {
 				["encounters"] = 1,
@@ -5837,12 +6579,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Darkchef-Quel'Thalas"] = {
+			["Amauta-Quel'Thalas"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
+				["class"] = "WARLOCK",
 			},
 			["Sugarhealz-Kel'Thuzad"] = {
 				["encounters"] = 1,
@@ -5852,6 +6594,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "PRIEST",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Sisters of the Moon",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Sisters of the Moon",
+			["diff"] = 14,
+			["id"] = 2050,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
 	},
 	["170315"] = {
 		["hash"] = "170315",
@@ -5859,6 +6614,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Nythendra",
 		["id"] = 1703,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Nythendra",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Nythendra",
+			["diff"] = 15,
+			["id"] = 1853,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -6008,25 +6776,25 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
+	},
+	["173215"] = {
+		["hash"] = "173215",
+		["type"] = "endurance",
+		["name"] = "Star Augur Etraeus",
+		["id"] = 1732,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Nythendra",
-			["mapid"] = 1520,
+			["index"] = 8,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Star Augur Etraeus",
+			["mapid"] = 1530,
 			["try_number"] = 1,
-			["name"] = "Nythendra",
+			["name"] = "Star Augur Etraeus",
 			["diff"] = 15,
-			["id"] = 1853,
-			["ej_instance_id"] = 768,
+			["ej_instance_id"] = 786,
+			["id"] = 1863,
 			["killed"] = true,
 		},
-	},
-	["176215"] = {
-		["hash"] = "176215",
-		["type"] = "endurance",
-		["name"] = "Tichondrius",
-		["id"] = 1762,
 		["player_db"] = {
 			["Ileiaris-Tichondrius"] = {
 				["encounters"] = 1,
@@ -6048,9 +6816,9 @@ DeathGraphsDBEndurance = {
 				["class"] = "PRIEST",
 				["deaths"] = {
 					{
-						2, -- [1]
-						63.594000000001, -- [2]
-						"Echoes of the Void |cFFFF3333445,236|r", -- [3]
+						1, -- [1]
+						71.2110000000012, -- [2]
+						"", -- [3]
 					}, -- [1]
 				},
 			},
@@ -6068,15 +6836,15 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Genjieggs-Tichondrius"] = {
+			["Daemonhater-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 90,
-				["class"] = "HUNTER",
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 					{
-						2, -- [1]
-						89.0429999999997, -- [2]
-						"Carrion Plague |cFFFF3333167,515|r", -- [3]
+						1, -- [1]
+						68.7980000000007, -- [2]
+						"Comet Impact |cFFFF33332,536,626|r", -- [3]
 					}, -- [1]
 				},
 			},
@@ -6114,9 +6882,9 @@ DeathGraphsDBEndurance = {
 				["class"] = "PRIEST",
 				["deaths"] = {
 					{
-						2, -- [1]
-						26.4989999999998, -- [2]
-						"Seeker Swarm |cFFFF3333618,620|r", -- [3]
+						1, -- [1]
+						71.246000000001, -- [2]
+						"Frigid Nova |cFFFF33334,224,769|r", -- [3]
 					}, -- [1]
 				},
 			},
@@ -6155,10 +6923,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Daemonhater-Tichondrius"] = {
+			["Genjieggs-Tichondrius"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEMONHUNTER",
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
 			},
@@ -6170,18 +6938,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "The Nighthold",
-			["id"] = 1862,
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Tichondrius",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["encounter"] = "Tichondrius",
-		},
 		["diff"] = 15,
 	},
 	["173715"] = {
@@ -6189,6 +6945,19 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Gul'dan",
 		["id"] = 1737,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "The Nighthold",
+			["encounter"] = "Gul'dan",
+			["mapid"] = 1530,
+			["try_number"] = 1,
+			["name"] = "Gul'dan",
+			["diff"] = 15,
+			["ej_instance_id"] = 786,
+			["id"] = 1866,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Zeddicus-Tichondrius"] = {
 				["encounters"] = 1,
@@ -6318,19 +7087,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "The Nighthold",
-			["encounter"] = "Gul'dan",
-			["mapid"] = 1530,
-			["try_number"] = 1,
-			["name"] = "Gul'dan",
-			["diff"] = 15,
-			["ej_instance_id"] = 786,
-			["id"] = 1866,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["174415"] = {
@@ -6339,6 +7095,19 @@ DeathGraphsDBEndurance = {
 		["name"] = "Elerethe Renferal",
 		["id"] = 1744,
 		["diff"] = 15,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "The Emerald Nightmare",
+			["encounter"] = "Elerethe Renferal",
+			["mapid"] = 1520,
+			["try_number"] = 1,
+			["name"] = "Elerethe Renferal",
+			["diff"] = 15,
+			["id"] = 1876,
+			["ej_instance_id"] = 768,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Frohsk-Stormrage"] = {
 				["encounters"] = 1,
@@ -6493,3700 +7262,101 @@ DeathGraphsDBEndurance = {
 				["class"] = "MAGE",
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "The Emerald Nightmare",
-			["encounter"] = "Elerethe Renferal",
-			["mapid"] = 1520,
-			["try_number"] = 1,
-			["name"] = "Elerethe Renferal",
-			["diff"] = 15,
-			["id"] = 1876,
-			["ej_instance_id"] = 768,
-			["killed"] = true,
-		},
 	},
 }
 DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 4863900,
-				["timeofdeath"] = 31.7600000000002,
-				["name"] = "Aele-Dalaran",
+				["maxhealth"] = 4623120,
+				["timeofdeath"] = 6.74300000000039,
+				["name"] = "Letoz-Sargeras",
+				["time"] = 1526241765.634,
+				["class"] = "MONK",
+				["timestring"] = "0m 6s",
 				["events"] = {
 					{
 						false, -- [1]
-						48438, -- [2]
-						38533, -- [3]
-						1522310414.642, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						189800, -- [2]
+						105242, -- [3]
+						1526241761.777, -- [4]
+						4863840, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [1]
 					{
 						false, -- [1]
 						48438, -- [2]
-						36020, -- [3]
-						1522310415.506, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						56030, -- [3]
+						1526241762.535, -- [4]
+						4863840, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [2]
 					{
 						false, -- [1]
 						48438, -- [2]
-						67012, -- [3]
-						1522310416.355, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						53471, -- [3]
+						1526241763.31, -- [4]
+						4863840, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [3]
 					{
 						false, -- [1]
 						48438, -- [2]
-						30989, -- [3]
-						1522310417.223, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						50899, -- [3]
+						1526241764.069, -- [4]
+						4863840, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [4]
 					{
 						false, -- [1]
 						48438, -- [2]
-						3703, -- [3]
-						1522310417.338, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						48367, -- [3]
+						1526241764.824, -- [4]
+						4863840, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [5]
 					{
 						false, -- [1]
-						81269, -- [2]
-						71032, -- [3]
-						1522310417.967, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						48438, -- [2]
+						45801, -- [3]
+						1526241765.598, -- [4]
+						4863840, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [6]
 					{
-						false, -- [1]
-						81269, -- [2]
-						74414, -- [3]
-						1522310419.708, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						true, -- [1]
+						254919, -- [2]
+						5555731, -- [3]
+						1526241765.613, -- [4]
+						1, -- [5]
+						"Kin'garoth", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						1, -- [8]
+						false, -- [9]
+						691891, -- [10]
 					}, -- [7]
-					{
-						false, -- [1]
-						774, -- [2]
-						166086, -- [3]
-						1522310426.196, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						81269, -- [2]
-						101899, -- [3]
-						1522310426.599, -- [4]
-						4863900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						true, -- [1]
-						246779, -- [2]
-						590175, -- [3]
-						1522310428.331, -- [4]
-						4273725, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310428.786, -- [4]
-						4356768, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310431.376, -- [4]
-						4439811, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						194509, -- [2]
-						501279, -- [3]
-						1522310432.056, -- [4]
-						4863900, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						true, -- [1]
-						246779, -- [2]
-						2452664, -- [3]
-						1522310432.965, -- [4]
-						2411236, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31043, -- [3]
-						1522310433.472, -- [4]
-						2442279, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						52042, -- [2]
-						76024, -- [3]
-						1522310433.709, -- [4]
-						2518303, -- [5]
-						"Healing Stream Totem <Aele-Dalaran>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						774, -- [2]
-						83042, -- [3]
-						1522310433.981, -- [4]
-						2601345, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						94472, -- [2]
-						145437, -- [3]
-						1522310434.415, -- [4]
-						2746782, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						81751, -- [2]
-						36359, -- [3]
-						1522310434.998, -- [4]
-						2783141, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						208899, -- [2]
-						21408, -- [3]
-						1522310435.704, -- [4]
-						2804549, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						4, -- [1]
-						258021, -- [2]
-						1, -- [3]
-						1522310435.959, -- [4]
-						2804549, -- [5]
-						"[*] Purging Protocol", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						81751, -- [2]
-						192327, -- [3]
-						1522310436.452, -- [4]
-						2996876, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						81751, -- [2]
-						36359, -- [3]
-						1522310436.495, -- [4]
-						3033235, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522310436.55, -- [4]
-						3133164, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						false, -- [1]
-						200389, -- [2]
-						86894, -- [3]
-						1522310436.569, -- [4]
-						3220058, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						false, -- [1]
-						94472, -- [2]
-						384653, -- [3]
-						1522310436.769, -- [4]
-						3604711, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						61295, -- [2]
-						242190, -- [3]
-						1522310437.122, -- [4]
-						3846901, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [27]
-					{
-						false, -- [1]
-						94472, -- [2]
-						384653, -- [3]
-						1522310437.194, -- [4]
-						4616244, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						81751, -- [2]
-						192327, -- [3]
-						1522310437.528, -- [4]
-						4808571, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						208899, -- [2]
-						17478, -- [3]
-						1522310437.707, -- [4]
-						4826049, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						false, -- [1]
-						81751, -- [2]
-						36359, -- [3]
-						1522310438.01, -- [4]
-						4862408, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						false, -- [1]
-						157503, -- [2]
-						426432, -- [3]
-						1522310438.757, -- [4]
-						5288840, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [32]
 					{
 						3, -- [1]
 						0, -- [2]
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Aele-Dalaran", -- [6]
-					}, -- [33]
+						"Letoz-Sargeras", -- [6]
+					}, -- [8]
 				},
-				["class"] = "SHAMAN",
-				["timestring"] = "0m 31s",
-				["time"] = 1522310438.772,
 			}, -- [1]
-			{
-				["maxhealth"] = 9181809,
-				["timeofdeath"] = 32.1850000000013,
-				["name"] = "Franzhupala-Dragonblight",
-				["events"] = {
-					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1522310441.366, -- [4]
-						0, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-					}, -- [1]
-					{
-						false, -- [1]
-						139, -- [2]
-						119703, -- [3]
-						1522310430.572, -- [4]
-						9294768, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						155777, -- [2]
-						28602, -- [3]
-						1522310430.742, -- [4]
-						9294768, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						234946, -- [2]
-						410846, -- [3]
-						1522310430.988, -- [4]
-						9294768, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						40652, -- [3]
-						1522310431.376, -- [4]
-						9294768, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						21405, -- [3]
-						1522310431.465, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						61295, -- [2]
-						17650, -- [3]
-						1522310432.452, -- [4]
-						9294768, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						143924, -- [2]
-						5483, -- [3]
-						1522310432.674, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						207472, -- [2]
-						142932, -- [3]
-						1522310432.965, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						true, -- [1]
-						246779, -- [2]
-						142932, -- [3]
-						1522310432.965, -- [4]
-						9294768, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						139, -- [2]
-						143645, -- [3]
-						1522310433.318, -- [4]
-						9294768, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						4228, -- [3]
-						1522310433.903, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						117027, -- [3]
-						1522310434.021, -- [4]
-						9294768, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						252897, -- [2]
-						466815, -- [3]
-						1522310434.922, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						143924, -- [2]
-						35854, -- [3]
-						1522310435.126, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						139, -- [2]
-						70070, -- [3]
-						1522310436.035, -- [4]
-						9294768, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						5379, -- [3]
-						1522310436.347, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						77489, -- [2]
-						117027, -- [3]
-						1522310437.027, -- [4]
-						9294768, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310437.177, -- [4]
-						9294768, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						207472, -- [2]
-						1026589, -- [3]
-						1522310437.177, -- [4]
-						9294768, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						true, -- [1]
-						246840, -- [2]
-						237667, -- [3]
-						1522310437.177, -- [4]
-						9057101, -- [5]
-						"[*] Ruiner", -- [6]
-						1026589, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310437.436, -- [4]
-						7792845, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						21203, -- [3]
-						1522310437.558, -- [4]
-						7814048, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						209388, -- [2]
-						391824, -- [3]
-						1522310437.679, -- [4]
-						7814048, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						true, -- [1]
-						246840, -- [2]
-						872432, -- [3]
-						1522310437.679, -- [4]
-						6941616, -- [5]
-						"[*] Ruiner", -- [6]
-						391824, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310437.924, -- [4]
-						5677360, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310438.183, -- [4]
-						4413104, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						253288, -- [2]
-						570531, -- [3]
-						1522310438.183, -- [4]
-						4983635, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310438.423, -- [4]
-						3719379, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310438.673, -- [4]
-						2455123, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						139, -- [2]
-						59468, -- [3]
-						1522310438.789, -- [4]
-						2514591, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310438.934, -- [4]
-						1250335, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1264256, -- [3]
-						1522310439.197, -- [4]
-						1, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						13921, -- [10]
-					}, -- [33]
-					{
-						3, -- [1]
-						86659, -- [2]
-						1, -- [3]
-						1522310419.538, -- [4]
-						0, -- [5]
-						"Franzhupala-Dragonblight", -- [6]
-					}, -- [34]
-				},
-				["class"] = "PALADIN",
-				["timestring"] = "0m 32s",
-				["time"] = 1522310439.197,
-			}, -- [2]
-			{
-				["maxhealth"] = 4977240,
-				["timeofdeath"] = 56.0970000000016,
-				["name"] = "Hans-KhazModan",
-				["events"] = {
-					{
-						true, -- [1]
-						246779, -- [2]
-						690801, -- [3]
-						1522310432.965, -- [4]
-						3572761, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						52042, -- [2]
-						67156, -- [3]
-						1522310436.035, -- [4]
-						3639917, -- [5]
-						"Healing Stream Totem <Aele-Dalaran>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						false, -- [1]
-						208899, -- [2]
-						19493, -- [3]
-						1522310438.035, -- [4]
-						3659410, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						157503, -- [2]
-						426432, -- [3]
-						1522310438.772, -- [4]
-						4085842, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						false, -- [1]
-						208899, -- [2]
-						18415, -- [3]
-						1522310440.027, -- [4]
-						4104257, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						208899, -- [2]
-						18370, -- [3]
-						1522310442.032, -- [4]
-						4122627, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						197205, -- [2]
-						537, -- [3]
-						1522310447.404, -- [4]
-						4123164, -- [5]
-						"Hans-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						197205, -- [2]
-						168, -- [3]
-						1522310447.404, -- [4]
-						4123332, -- [5]
-						"Hans-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494783, -- [3]
-						1522310447.573, -- [4]
-						3628549, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494783, -- [3]
-						1522310449.581, -- [4]
-						3133766, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494783, -- [3]
-						1522310451.564, -- [4]
-						2638983, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494783, -- [3]
-						1522310453.572, -- [4]
-						2144200, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494783, -- [3]
-						1522310455.582, -- [4]
-						1649417, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494784, -- [3]
-						1522310457.563, -- [4]
-						1154633, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494784, -- [3]
-						1522310459.574, -- [4]
-						659849, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						246646, -- [2]
-						494783, -- [3]
-						1522310461.57, -- [4]
-						165066, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						252879, -- [2]
-						336548, -- [3]
-						1522310462.144, -- [4]
-						501614, -- [5]
-						"Hans-KhazModan", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						true, -- [1]
-						246634, -- [2]
-						1347039, -- [3]
-						1522310463.109, -- [4]
-						1, -- [5]
-						"[*] Apocalypse Blast", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						845425, -- [10]
-					}, -- [18]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Hans-KhazModan", -- [6]
-					}, -- [19]
-				},
-				["class"] = "HUNTER",
-				["timestring"] = "0m 56s",
-				["time"] = 1522310463.109,
-			}, -- [3]
-			{
-				["maxhealth"] = 4815960,
-				["timeofdeath"] = 78.8810000000012,
-				["name"] = "Darksoother-Gorefiend",
-				["events"] = {
-					{
-						false, -- [1]
-						1064, -- [2]
-						197999, -- [3]
-						1522310468.129, -- [4]
-						5034088, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						48438, -- [2]
-						37273, -- [3]
-						1522310468.195, -- [4]
-						5071361, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						8911, -- [3]
-						1522310468.288, -- [4]
-						5080272, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						207203, -- [2]
-						89388, -- [3]
-						1522310469.573, -- [4]
-						5080272, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474927, -- [3]
-						1522310469.573, -- [4]
-						4694733, -- [5]
-						"Kin'garoth", -- [6]
-						89388, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						45470, -- [2]
-						585497, -- [3]
-						1522310470.254, -- [4]
-						5280230, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310470.345, -- [4]
-						5297556, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						207203, -- [2]
-						166397, -- [3]
-						1522310471.56, -- [4]
-						5297556, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522310471.576, -- [4]
-						4989027, -- [5]
-						"Kin'garoth", -- [6]
-						166397, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						774, -- [2]
-						215839, -- [3]
-						1522310472.932, -- [4]
-						5204866, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						207203, -- [2]
-						174021, -- [3]
-						1522310473.574, -- [4]
-						5204866, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522310473.574, -- [4]
-						4903961, -- [5]
-						"Kin'garoth", -- [6]
-						174021, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						45470, -- [2]
-						585497, -- [3]
-						1522310474.033, -- [4]
-						5297556, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [13]
-					{
-						false, -- [1]
-						774, -- [2]
-						107919, -- [3]
-						1522310475.518, -- [4]
-						5297556, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						207203, -- [2]
-						44867, -- [3]
-						1522310475.57, -- [4]
-						5297556, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522310475.57, -- [4]
-						4867497, -- [5]
-						"Kin'garoth", -- [6]
-						44867, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						207203, -- [2]
-						23393, -- [3]
-						1522310477.56, -- [4]
-						4867497, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522310477.56, -- [4]
-						4415964, -- [5]
-						"Kin'garoth", -- [6]
-						23393, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						774, -- [2]
-						107919, -- [3]
-						1522310478.118, -- [4]
-						4523883, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						1064, -- [2]
-						206112, -- [3]
-						1522310479.465, -- [4]
-						4318733, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [20]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522310479.573, -- [4]
-						3843807, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						145110, -- [2]
-						331513, -- [3]
-						1522310480.015, -- [4]
-						4607193, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						774, -- [2]
-						129864, -- [3]
-						1522310480.693, -- [4]
-						4737057, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474927, -- [3]
-						1522310481.568, -- [4]
-						4262130, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						253432, -- [2]
-						94254, -- [3]
-						1522310481.755, -- [4]
-						4356384, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						774, -- [2]
-						229258, -- [3]
-						1522310483.28, -- [4]
-						4585642, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						253432, -- [2]
-						41599, -- [3]
-						1522310483.488, -- [4]
-						4627241, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522310483.576, -- [4]
-						4152315, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						253432, -- [2]
-						41598, -- [3]
-						1522310485.225, -- [4]
-						4193913, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474927, -- [3]
-						1522310485.566, -- [4]
-						3718986, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						774, -- [2]
-						229258, -- [3]
-						1522310485.861, -- [4]
-						3948244, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						4587081, -- [3]
-						1522310485.861, -- [4]
-						3948244, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						638837, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "1m 18s",
-				["time"] = 1522310485.893,
-			}, -- [4]
-			{
-				["maxhealth"] = 5234280,
-				["timeofdeath"] = 106.208000000001,
-				["name"] = "Íllídan-Quel'Thalas",
-				["events"] = {
-					{
-						false, -- [1]
-						77489, -- [2]
-						112791, -- [3]
-						1522310499.739, -- [4]
-						4791611, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						774, -- [2]
-						230326, -- [3]
-						1522310500.06, -- [4]
-						5021937, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						155777, -- [2]
-						115165, -- [3]
-						1522310500.082, -- [4]
-						5137102, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						248375, -- [2]
-						351334, -- [3]
-						1522310500.669, -- [4]
-						4785768, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						774, -- [2]
-						115163, -- [3]
-						1522310501.358, -- [4]
-						4465861, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						155777, -- [2]
-						115165, -- [3]
-						1522310501.369, -- [4]
-						4581026, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						774, -- [2]
-						230326, -- [3]
-						1522310502.654, -- [4]
-						4811352, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						155777, -- [2]
-						115165, -- [3]
-						1522310502.654, -- [4]
-						4926517, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						77489, -- [2]
-						112792, -- [3]
-						1522310502.744, -- [4]
-						5039309, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						774, -- [2]
-						115162, -- [3]
-						1522310505.235, -- [4]
-						5154471, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						155777, -- [2]
-						115165, -- [3]
-						1522310505.235, -- [4]
-						5234280, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						189853, -- [2]
-						802416, -- [3]
-						1522310506.18, -- [4]
-						5234280, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522310507.824, -- [4]
-						5234280, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						155777, -- [2]
-						199861, -- [3]
-						1522310507.824, -- [4]
-						5234280, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						246690, -- [2]
-						55431, -- [3]
-						1522310509.233, -- [4]
-						5178849, -- [5]
-						"[*] Decimation", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						246690, -- [2]
-						58217, -- [3]
-						1522310509.494, -- [4]
-						5120632, -- [5]
-						"[*] Decimation", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						246690, -- [2]
-						58965, -- [3]
-						1522310509.52, -- [4]
-						5061667, -- [5]
-						"[*] Decimation", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						1064, -- [2]
-						137671, -- [3]
-						1522310509.903, -- [4]
-						5199338, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						774, -- [2]
-						99928, -- [3]
-						1522310510.412, -- [4]
-						5757708, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						155777, -- [2]
-						99931, -- [3]
-						1522310510.412, -- [4]
-						5757708, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310511.209, -- [4]
-						5757708, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310511.222, -- [4]
-						5054816, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310511.464, -- [4]
-						4351924, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310511.723, -- [4]
-						3649032, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310511.97, -- [4]
-						2946140, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310512.218, -- [4]
-						2243248, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310512.472, -- [4]
-						1540356, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310512.714, -- [4]
-						837464, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310512.977, -- [4]
-						134572, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522310513.012, -- [4]
-						234501, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						155777, -- [2]
-						99930, -- [3]
-						1522310513.012, -- [4]
-						334431, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						246840, -- [2]
-						702892, -- [3]
-						1522310513.22, -- [4]
-						1, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						368461, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Íllídan-Quel'Thalas", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "1m 46s",
-				["time"] = 1522310513.22,
-			}, -- [5]
-			{
-				["maxhealth"] = 5214540,
-				["timeofdeath"] = 133.927000000002,
-				["name"] = "Donno-Moonrunner",
-				["events"] = {
-					{
-						false, -- [1]
-						253432, -- [2]
-						72528, -- [3]
-						1522310523.874, -- [4]
-						5735994, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						246779, -- [2]
-						1610250, -- [3]
-						1522310524.83, -- [4]
-						4125744, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522310525.113, -- [4]
-						4225673, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						253432, -- [2]
-						72528, -- [3]
-						1522310525.598, -- [4]
-						4298201, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						139, -- [2]
-						58392, -- [3]
-						1522310525.768, -- [4]
-						4356593, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						77489, -- [2]
-						34097, -- [3]
-						1522310526.309, -- [4]
-						4390690, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						253432, -- [2]
-						36264, -- [3]
-						1522310527.328, -- [4]
-						4426954, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						253282, -- [2]
-						347764, -- [3]
-						1522310527.599, -- [4]
-						4774718, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						774, -- [2]
-						199857, -- [3]
-						1522310527.699, -- [4]
-						4974575, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						139, -- [2]
-						49557, -- [3]
-						1522310528.502, -- [4]
-						5024132, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						596, -- [2]
-						395977, -- [3]
-						1522310528.878, -- [4]
-						5420109, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						243241, -- [2]
-						94179, -- [3]
-						1522310528.878, -- [4]
-						5514288, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						253432, -- [2]
-						72528, -- [3]
-						1522310529.049, -- [4]
-						5586816, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						253432, -- [2]
-						46250, -- [3]
-						1522310530.143, -- [4]
-						5633066, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310530.294, -- [4]
-						5716109, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						139, -- [2]
-						119704, -- [3]
-						1522310531.24, -- [4]
-						5735994, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						77489, -- [2]
-						93079, -- [3]
-						1522310531.908, -- [4]
-						5735994, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310532.882, -- [4]
-						5214540, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						139, -- [2]
-						58393, -- [3]
-						1522310533.982, -- [4]
-						5214540, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						77489, -- [2]
-						93078, -- [3]
-						1522310534.914, -- [4]
-						5214540, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						139, -- [2]
-						65863, -- [3]
-						1522310535.289, -- [4]
-						5214540, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310535.469, -- [4]
-						5214540, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						93078, -- [3]
-						1522310537.911, -- [4]
-						5214540, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						774, -- [2]
-						83043, -- [3]
-						1522310538.058, -- [4]
-						5214540, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						774, -- [2]
-						57202, -- [3]
-						1522310538.947, -- [4]
-						5214540, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310539.92, -- [4]
-						5214540, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310539.92, -- [4]
-						3885362, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310540.508, -- [4]
-						3885362, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310540.508, -- [4]
-						2556184, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310540.758, -- [4]
-						1227006, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310540.908, -- [4]
-						1227006, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310540.939, -- [4]
-						1, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						102172, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Donno-Moonrunner", -- [6]
-					}, -- [33]
-				},
-				["class"] = "HUNTER",
-				["timestring"] = "2m 13s",
-				["time"] = 1522310540.939,
-			}, -- [6]
-			{
-				["maxhealth"] = 8588299,
-				["timeofdeath"] = 141.132000000001,
-				["name"] = "Sëphirôth-Frostwolf",
-				["events"] = {
-					{
-						false, -- [1]
-						203794, -- [2]
-						272350, -- [3]
-						1522310543.482, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						155777, -- [2]
-						99931, -- [3]
-						1522310543.521, -- [4]
-						14643050, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						139, -- [2]
-						56991, -- [3]
-						1522310543.562, -- [4]
-						14643050, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						203794, -- [2]
-						272349, -- [3]
-						1522310543.83, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522310543.859, -- [4]
-						14643050, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						7293, -- [3]
-						1522310544.152, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						203794, -- [2]
-						136175, -- [3]
-						1522310544.21, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						81751, -- [2]
-						173226, -- [3]
-						1522310544.249, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						81751, -- [2]
-						36359, -- [3]
-						1522310544.587, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						203794, -- [2]
-						136175, -- [3]
-						1522310544.746, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						227255, -- [2]
-						67125, -- [3]
-						1522310545.292, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						15391, -- [3]
-						1522310545.395, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						94472, -- [2]
-						405790, -- [3]
-						1522310545.395, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						81751, -- [2]
-						67562, -- [3]
-						1522310545.414, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						77489, -- [2]
-						530222, -- [3]
-						1522310545.96, -- [4]
-						14643050, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						81751, -- [2]
-						36360, -- [3]
-						1522310546.089, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						155777, -- [2]
-						99931, -- [3]
-						1522310546.113, -- [4]
-						14643050, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						227255, -- [2]
-						57077, -- [3]
-						1522310546.297, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						139, -- [2]
-						56990, -- [3]
-						1522310546.309, -- [4]
-						14643050, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						774, -- [2]
-						199857, -- [3]
-						1522310546.454, -- [4]
-						14643050, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						81751, -- [2]
-						202895, -- [3]
-						1522310546.53, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						16236, -- [3]
-						1522310546.601, -- [4]
-						14643050, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						1, -- [2]
-						810847, -- [3]
-						1522310546.914, -- [4]
-						14643050, -- [5]
-						"Kin'garoth", -- [6]
-						924049, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						208771, -- [2]
-						815357, -- [3]
-						1522310546.931, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						17, -- [2]
-						108692, -- [3]
-						1522310546.931, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						17, -- [2]
-						0, -- [3]
-						1522310546.931, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						81751, -- [2]
-						72719, -- [3]
-						1522310546.975, -- [4]
-						14643050, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						227255, -- [2]
-						138112, -- [3]
-						1522310547.294, -- [4]
-						12711847, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						94472, -- [2]
-						72719, -- [3]
-						1522310547.6, -- [4]
-						12784566, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						145110, -- [2]
-						331513, -- [3]
-						1522310547.719, -- [4]
-						13116079, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						143924, -- [2]
-						32041, -- [3]
-						1522310547.819, -- [4]
-						13148120, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						254919, -- [2]
-						14871794, -- [3]
-						1522310548.144, -- [4]
-						1, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1723674, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "2m 21s",
-				["time"] = 1522310548.144,
-			}, -- [7]
-			{
-				["maxhealth"] = 5655780,
-				["timeofdeath"] = 194.894,
-				["name"] = "Aerandír-Thrall",
-				["events"] = {
-					{
-						false, -- [1]
-						94472, -- [2]
-						70705, -- [3]
-						1522310586.833, -- [4]
-						5655780, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						209933, -- [2]
-						176207, -- [3]
-						1522310586.99, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						207472, -- [2]
-						467719, -- [3]
-						1522310587.087, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						246646, -- [2]
-						467719, -- [3]
-						1522310587.087, -- [4]
-						5655780, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						94472, -- [2]
-						70705, -- [3]
-						1522310587.141, -- [4]
-						5655780, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						94472, -- [2]
-						394553, -- [3]
-						1522310587.793, -- [4]
-						5655780, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						207472, -- [2]
-						485179, -- [3]
-						1522310589.079, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						true, -- [1]
-						246646, -- [2]
-						485179, -- [3]
-						1522310589.079, -- [4]
-						5655780, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						207472, -- [2]
-						596636, -- [3]
-						1522310590.232, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						246779, -- [2]
-						663714, -- [3]
-						1522310590.232, -- [4]
-						5588702, -- [5]
-						"Kin'garoth", -- [6]
-						596636, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						246646, -- [2]
-						485180, -- [3]
-						1522310591.085, -- [4]
-						5103522, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						240432, -- [2]
-						736948, -- [3]
-						1522310591.369, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						209933, -- [2]
-						96757, -- [3]
-						1522310591.382, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						246646, -- [2]
-						485179, -- [3]
-						1522310593.087, -- [4]
-						5170601, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						240432, -- [2]
-						736948, -- [3]
-						1522310593.564, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						209933, -- [2]
-						293862, -- [3]
-						1522310593.59, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						246779, -- [2]
-						674619, -- [3]
-						1522310595.091, -- [4]
-						4981161, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						246646, -- [2]
-						477264, -- [3]
-						1522310595.091, -- [4]
-						4503897, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						246646, -- [2]
-						477264, -- [3]
-						1522310597.077, -- [4]
-						4026633, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						209933, -- [2]
-						93726, -- [3]
-						1522310597.989, -- [4]
-						4120359, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						194509, -- [2]
-						250570, -- [3]
-						1522310598.53, -- [4]
-						4370929, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31034, -- [3]
-						1522310599.008, -- [4]
-						4401963, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						246646, -- [2]
-						467719, -- [3]
-						1522310599.095, -- [4]
-						3934244, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						81751, -- [2]
-						62069, -- [3]
-						1522310599.643, -- [4]
-						3996313, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						1, -- [2]
-						1773941, -- [3]
-						1522310600.395, -- [4]
-						3996313, -- [5]
-						"Garothi Demolisher", -- [6]
-						696132, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						208771, -- [2]
-						696132, -- [3]
-						1522310600.411, -- [4]
-						3996313, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31034, -- [3]
-						1522310600.482, -- [4]
-						2949538, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						246634, -- [2]
-						1245451, -- [3]
-						1522310600.585, -- [4]
-						1704087, -- [5]
-						"[*] Apocalypse Blast", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						246634, -- [2]
-						1224115, -- [3]
-						1522310600.585, -- [4]
-						479972, -- [5]
-						"[*] Apocalypse Blast", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						246646, -- [2]
-						467719, -- [3]
-						1522310601.094, -- [4]
-						12253, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						34861, -- [2]
-						638649, -- [3]
-						1522310601.584, -- [4]
-						650902, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						2605581, -- [3]
-						1522310601.894, -- [4]
-						650902, -- [5]
-						"Garothi Demolisher", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1954679, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Aerandír-Thrall", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "3m 14s",
-				["time"] = 1522310601.906,
-			}, -- [8]
-			{
-				["maxhealth"] = 6314520,
-				["timeofdeath"] = 199.918000000001,
-				["name"] = "Froozeen-Quel'Thalas",
-				["events"] = {
-					{
-						false, -- [1]
-						143924, -- [2]
-						31428, -- [3]
-						1522310600.003, -- [4]
-						5205454, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						145109, -- [2]
-						331512, -- [3]
-						1522310600.159, -- [4]
-						5536966, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						253216, -- [2]
-						38802, -- [3]
-						1522310600.241, -- [4]
-						5575768, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						140664, -- [3]
-						1522310600.291, -- [4]
-						5716432, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						200389, -- [2]
-						116521, -- [3]
-						1522310601.002, -- [4]
-						5832953, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						253216, -- [2]
-						16414, -- [3]
-						1522310601.094, -- [4]
-						5849367, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						207472, -- [2]
-						406465, -- [3]
-						1522310601.094, -- [4]
-						5849367, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						246646, -- [2]
-						406465, -- [3]
-						1522310601.094, -- [4]
-						5849367, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						48438, -- [2]
-						66261, -- [3]
-						1522310601.157, -- [4]
-						5915628, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						253432, -- [2]
-						48628, -- [3]
-						1522310601.186, -- [4]
-						5964256, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						73126, -- [3]
-						1522310601.222, -- [4]
-						6037382, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						200389, -- [2]
-						37204, -- [3]
-						1522310601.825, -- [4]
-						6074586, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						53218, -- [3]
-						1522310602.013, -- [4]
-						6127804, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						143924, -- [2]
-						42506, -- [3]
-						1522310602.445, -- [4]
-						6170310, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						48438, -- [2]
-						49740, -- [3]
-						1522310602.876, -- [4]
-						6220050, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						253432, -- [2]
-						41599, -- [3]
-						1522310602.9, -- [4]
-						6261649, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						207472, -- [2]
-						406464, -- [3]
-						1522310603.087, -- [4]
-						6261649, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						true, -- [1]
-						246646, -- [2]
-						406464, -- [3]
-						1522310603.087, -- [4]
-						6261649, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						143924, -- [2]
-						41745, -- [3]
-						1522310603.657, -- [4]
-						6303394, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						48438, -- [2]
-						68919, -- [3]
-						1522310603.738, -- [4]
-						6314520, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						48438, -- [2]
-						131973, -- [3]
-						1522310604.592, -- [4]
-						6314520, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						253432, -- [2]
-						41599, -- [3]
-						1522310604.622, -- [4]
-						6314520, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						56382, -- [3]
-						1522310604.876, -- [4]
-						6314520, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						207472, -- [2]
-						122531, -- [3]
-						1522310605.079, -- [4]
-						6314520, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						246646, -- [2]
-						406465, -- [3]
-						1522310605.079, -- [4]
-						6030586, -- [5]
-						"Kin'garoth", -- [6]
-						122531, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						145109, -- [2]
-						331512, -- [3]
-						1522310605.173, -- [4]
-						6314520, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						true, -- [1]
-						1, -- [2]
-						3494187, -- [3]
-						1522310605.401, -- [4]
-						6314520, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						48438, -- [2]
-						63016, -- [3]
-						1522310605.469, -- [4]
-						2883349, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						143924, -- [2]
-						101990, -- [3]
-						1522310606.087, -- [4]
-						2985339, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						48438, -- [2]
-						120120, -- [3]
-						1522310606.327, -- [4]
-						3105459, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						253432, -- [2]
-						41599, -- [3]
-						1522310606.355, -- [4]
-						3147058, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						3633640, -- [3]
-						1522310606.914, -- [4]
-						3147058, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						486582, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						102342, -- [2]
-						1, -- [3]
-						1522310439.511, -- [4]
-						0, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DRUID",
-				["timestring"] = "3m 19s",
-				["time"] = 1522310606.93,
-			}, -- [9]
-			{
-				["maxhealth"] = 4863900,
-				["timeofdeath"] = 212.443000000001,
-				["name"] = "Aele-Dalaran",
-				["events"] = {
-					{
-						false, -- [1]
-						34861, -- [2]
-						638649, -- [3]
-						1522310601.584, -- [4]
-						5154669, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						77489, -- [2]
-						328077, -- [3]
-						1522310601.769, -- [4]
-						5350290, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						81751, -- [2]
-						30741, -- [3]
-						1522310601.989, -- [4]
-						5350290, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						81751, -- [2]
-						66906, -- [3]
-						1522310602.013, -- [4]
-						5350290, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						81751, -- [2]
-						171545, -- [3]
-						1522310602.079, -- [4]
-						5350290, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						246646, -- [2]
-						469705, -- [3]
-						1522310603.087, -- [4]
-						4880585, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						81751, -- [2]
-						171544, -- [3]
-						1522310603.389, -- [4]
-						5052129, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						81751, -- [2]
-						30741, -- [3]
-						1522310603.506, -- [4]
-						5082870, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						81751, -- [2]
-						108406, -- [3]
-						1522310603.918, -- [4]
-						5993820, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						200389, -- [2]
-						165669, -- [3]
-						1522310603.995, -- [4]
-						6152834, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						81751, -- [2]
-						108406, -- [3]
-						1522310604.359, -- [4]
-						6152834, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						77489, -- [2]
-						328077, -- [3]
-						1522310604.754, -- [4]
-						6152834, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						81751, -- [2]
-						108407, -- [3]
-						1522310604.938, -- [4]
-						6152834, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						81751, -- [2]
-						30742, -- [3]
-						1522310605.011, -- [4]
-						6152834, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						246646, -- [2]
-						469705, -- [3]
-						1522310605.079, -- [4]
-						5683129, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						94472, -- [2]
-						61483, -- [3]
-						1522310605.211, -- [4]
-						5744612, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						81751, -- [2]
-						108406, -- [3]
-						1522310605.453, -- [4]
-						5853018, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						81751, -- [2]
-						30741, -- [3]
-						1522310606.513, -- [4]
-						5883759, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						200389, -- [2]
-						82834, -- [3]
-						1522310606.567, -- [4]
-						5966593, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						true, -- [1]
-						246634, -- [2]
-						1221086, -- [3]
-						1522310606.598, -- [4]
-						4745507, -- [5]
-						"[*] Apocalypse Blast", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						94472, -- [2]
-						401849, -- [3]
-						1522310606.62, -- [4]
-						5147356, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						81751, -- [2]
-						36006, -- [3]
-						1522310606.715, -- [4]
-						5183362, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						328078, -- [3]
-						1522310607.759, -- [4]
-						5040224, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						73921, -- [2]
-						103974, -- [3]
-						1522310608.072, -- [4]
-						5144198, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						252154, -- [2]
-						152440, -- [3]
-						1522310608.072, -- [4]
-						5296638, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						200389, -- [2]
-						72211, -- [3]
-						1522310609.162, -- [4]
-						5368849, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						73921, -- [2]
-						49881, -- [3]
-						1522310609.638, -- [4]
-						5418730, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						200389, -- [2]
-						103558, -- [3]
-						1522310611.019, -- [4]
-						5522288, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						1, -- [2]
-						3423924, -- [3]
-						1522310617.85, -- [4]
-						4792703, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						253288, -- [2]
-						287585, -- [3]
-						1522310617.866, -- [4]
-						1656364, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						61295, -- [2]
-						302439, -- [3]
-						1522310619.034, -- [4]
-						1958803, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						254919, -- [2]
-						4623573, -- [3]
-						1522310619.455, -- [4]
-						1, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						2468890, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Aele-Dalaran", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "3m 32s",
-				["time"] = 1522310619.455,
-			}, -- [10]
 		},
 		["bossname"] = "Kin'garoth",
 		["bossicon"] = {
@@ -10196,353 +7366,350 @@ DeathGraphsDBCurrent = {
 			0.5, -- [4]
 			"Interface\\AddOns\\Details\\images\\raid\\AntorusRaid_BossFaces", -- [5]
 		},
-		["date"] = 8769.594,
-		["timeelapsed"] = 271.847000000002,
+		["date"] = 7688.648,
+		["timeelapsed"] = 355.384,
 	}, -- [1]
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 4977240,
-				["timeofdeath"] = 33.3000000000002,
-				["name"] = "Hans-KhazModan",
+				["maxhealth"] = 5353680,
+				["timeofdeath"] = 36.2790000000005,
+				["name"] = "Neviden-Drakkari",
+				["time"] = 1526241293.285,
+				["class"] = "PRIEST",
+				["timestring"] = "0m 36s",
 				["events"] = {
 					{
 						false, -- [1]
 						774, -- [2]
-						118123, -- [3]
-						1522309908.902, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						151901, -- [3]
+						1526241286.479, -- [4]
+						4360883, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [1]
 					{
 						false, -- [1]
-						155777, -- [2]
-						236251, -- [3]
-						1522309910.199, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						183811, -- [2]
+						51841, -- [3]
+						1526241286.801, -- [4]
+						4412724, -- [5]
+						"Alexandor", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [2]
 					{
 						false, -- [1]
-						774, -- [2]
-						206845, -- [3]
-						1522309911.489, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						257442, -- [2]
+						268728, -- [3]
+						1526241286.941, -- [4]
+						4681452, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [3]
 					{
 						false, -- [1]
-						155777, -- [2]
-						206850, -- [3]
-						1522309912.796, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						34914, -- [2]
+						166992, -- [3]
+						1526241287.091, -- [4]
+						4848444, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [4]
 					{
-						true, -- [1]
-						246779, -- [2]
-						691967, -- [3]
-						1522309913.54, -- [4]
-						4285273, -- [5]
-						"Kin'garoth", -- [6]
+						false, -- [1]
+						48438, -- [2]
+						77183, -- [3]
+						1526241287.149, -- [4]
+						4925627, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						0, -- [8]
 					}, -- [5]
 					{
 						false, -- [1]
-						774, -- [2]
-						103423, -- [3]
-						1522309914.074, -- [4]
-						4388696, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						143924, -- [2]
+						42272, -- [3]
+						1526241287.436, -- [4]
+						4967899, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [6]
 					{
 						false, -- [1]
 						155777, -- [2]
-						206850, -- [3]
-						1522309915.383, -- [4]
-						4595546, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						303807, -- [3]
+						1526241287.619, -- [4]
+						5271706, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [7]
 					{
 						false, -- [1]
-						189800, -- [2]
-						144123, -- [3]
-						1522309915.614, -- [4]
-						4739669, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						253432, -- [2]
+						109199, -- [3]
+						1526241287.842, -- [4]
+						5353680, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						189853, -- [2]
-						360307, -- [3]
-						1522309915.614, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						48438, -- [2]
+						74823, -- [3]
+						1526241287.92, -- [4]
+						5353680, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [9]
 					{
 						false, -- [1]
-						48438, -- [2]
-						141568, -- [3]
-						1522309916.488, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						774, -- [2]
+						151901, -- [3]
+						1526241288.357, -- [4]
+						5353680, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [10]
 					{
 						false, -- [1]
-						774, -- [2]
-						241798, -- [3]
-						1522309916.667, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						143924, -- [2]
+						21070, -- [3]
+						1526241288.646, -- [4]
+						5353680, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [11]
 					{
-						false, -- [1]
-						48438, -- [2]
-						67094, -- [3]
-						1522309917.347, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						true, -- [1]
+						247542, -- [2]
+						1272661, -- [3]
+						1526241288.684, -- [4]
+						4081019, -- [5]
+						"Felrussian-Sargeras", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						8, -- [8]
+						true, -- [9]
+						-1, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						155777, -- [2]
-						120901, -- [3]
-						1522309917.96, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						48438, -- [2]
+						72500, -- [3]
+						1526241288.684, -- [4]
+						4153519, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
 					}, -- [13]
 					{
 						false, -- [1]
-						48438, -- [2]
-						63435, -- [3]
-						1522309918.209, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						774, -- [2]
+						303802, -- [3]
+						1526241288.773, -- [4]
+						4457321, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [14]
 					{
 						false, -- [1]
-						48438, -- [2]
-						59771, -- [3]
-						1522309919.064, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						34914, -- [2]
+						172379, -- [3]
+						1526241288.966, -- [4]
+						4629700, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [15]
 					{
-						false, -- [1]
-						774, -- [2]
-						241797, -- [3]
-						1522309919.255, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						true, -- [1]
+						247388, -- [2]
+						1541195, -- [3]
+						1526241289.275, -- [4]
+						3088505, -- [5]
+						"Pulse Grenade", -- [6]
 						nil, -- [7]
-						0, -- [8]
+						8, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						48438, -- [2]
-						56086, -- [3]
-						1522309919.923, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						253432, -- [2]
+						54599, -- [3]
+						1526241289.374, -- [4]
+						3143104, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [17]
 					{
 						false, -- [1]
-						774, -- [2]
-						41639, -- [3]
-						1522309920.128, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						48438, -- [2]
+						70123, -- [3]
+						1526241289.464, -- [4]
+						3213227, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [18]
 					{
 						false, -- [1]
-						155777, -- [2]
-						206850, -- [3]
-						1522309920.542, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						143924, -- [2]
+						18828, -- [3]
+						1526241289.847, -- [4]
+						3232055, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [19]
 					{
 						false, -- [1]
-						197205, -- [2]
-						72525, -- [3]
-						1522309920.599, -- [4]
-						4977240, -- [5]
-						"Hans-KhazModan", -- [6]
+						155777, -- [2]
+						151904, -- [3]
+						1526241289.924, -- [4]
+						3383959, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [20]
 					{
 						false, -- [1]
-						197205, -- [2]
-						45329, -- [3]
-						1522309920.599, -- [4]
-						4977240, -- [5]
-						"Hans-KhazModan", -- [6]
+						48438, -- [2]
+						67827, -- [3]
+						1526241290.209, -- [4]
+						3451786, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [21]
 					{
 						false, -- [1]
-						48438, -- [2]
-						44873, -- [3]
-						1522309920.783, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						34914, -- [2]
+						105938, -- [3]
+						1526241290.826, -- [4]
+						3557724, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						false, -- [10]
 					}, -- [22]
 					{
 						false, -- [1]
-						155777, -- [2]
-						35621, -- [3]
-						1522309921.452, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						253432, -- [2]
+						54600, -- [3]
+						1526241290.9, -- [4]
+						3612324, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
 						48438, -- [2]
-						69372, -- [3]
-						1522309921.652, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						65489, -- [3]
+						1526241290.979, -- [4]
+						3677813, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [24]
 					{
 						false, -- [1]
-						48438, -- [2]
-						32070, -- [3]
-						1522309922.517, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						774, -- [2]
+						151901, -- [3]
+						1526241291.069, -- [4]
+						3829714, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [25]
 					{
 						false, -- [1]
-						48438, -- [2]
-						3832, -- [3]
-						1522309922.629, -- [4]
-						4977240, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
+						143924, -- [2]
+						10891, -- [3]
+						1526241291.083, -- [4]
+						3840605, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [26]
 					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522309924.676, -- [4]
-						4977240, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
+						false, -- [1]
+						48438, -- [2]
+						63124, -- [3]
+						1526241291.748, -- [4]
+						3903729, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [27]
 					{
-						true, -- [1]
-						246840, -- [2]
-						1342320, -- [3]
-						1522309924.676, -- [4]
-						3634920, -- [5]
-						"[*] Ruiner", -- [6]
+						false, -- [1]
+						155777, -- [2]
+						151904, -- [3]
+						1526241292.211, -- [4]
+						4055633, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						0, -- [8]
 					}, -- [28]
 					{
-						true, -- [1]
-						246840, -- [2]
-						1342320, -- [3]
-						1522309924.931, -- [4]
-						2292600, -- [5]
-						"[*] Ruiner", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						14999, -- [3]
+						1526241292.286, -- [4]
+						4070632, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
+						0, -- [8]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [29]
 					{
-						true, -- [1]
-						246840, -- [2]
-						1342320, -- [3]
-						1522309925.189, -- [4]
-						950280, -- [5]
-						"[*] Ruiner", -- [6]
+						false, -- [1]
+						253432, -- [2]
+						54600, -- [3]
+						1526241292.448, -- [4]
+						4125232, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
 						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
+						0, -- [8]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522309925.578, -- [4]
-						950280, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
+						false, -- [1]
+						48438, -- [2]
+						60782, -- [3]
+						1526241292.517, -- [4]
+						4186014, -- [5]
+						"Inkedscarlet-Eitrigg", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [31]
 					{
-						true, -- [1]
-						246840, -- [2]
-						1342320, -- [3]
-						1522309925.594, -- [4]
-						1, -- [5]
-						"[*] Ruiner", -- [6]
+						false, -- [1]
+						34914, -- [2]
+						109149, -- [3]
+						1526241292.645, -- [4]
+						4295163, -- [5]
+						"Neviden-Drakkari", -- [6]
 						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						392040, -- [10]
+						0, -- [8]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -10550,3546 +7717,21 @@ DeathGraphsDBCurrent = {
 						0, -- [3]
 						0, -- [4]
 						0, -- [5]
-						"Hans-KhazModan", -- [6]
+						"Neviden-Drakkari", -- [6]
 					}, -- [33]
 				},
-				["class"] = "HUNTER",
-				["timestring"] = "0m 33s",
-				["time"] = 1522309925.611,
 			}, -- [1]
-			{
-				["maxhealth"] = 5234280,
-				["timeofdeath"] = 81.3689999999997,
-				["name"] = "Íllídan-Quel'Thalas",
-				["events"] = {
-					{
-						true, -- [1]
-						246646, -- [2]
-						398596, -- [3]
-						1522309958.953, -- [4]
-						4606970, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						774, -- [2]
-						99928, -- [3]
-						1522309959.205, -- [4]
-						4706898, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						253432, -- [2]
-						36264, -- [3]
-						1522309959.926, -- [4]
-						4743162, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						774, -- [2]
-						34417, -- [3]
-						1522309960.099, -- [4]
-						4777579, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [4]
-					{
-						true, -- [1]
-						246646, -- [2]
-						398597, -- [3]
-						1522309960.949, -- [4]
-						4378982, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						253432, -- [2]
-						60273, -- [3]
-						1522309961.035, -- [4]
-						4439255, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						77489, -- [2]
-						133619, -- [3]
-						1522309961.328, -- [4]
-						4572874, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						243241, -- [2]
-						194108, -- [3]
-						1522309961.718, -- [4]
-						4766982, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						253432, -- [2]
-						30136, -- [3]
-						1522309962.754, -- [4]
-						4797118, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						true, -- [1]
-						246646, -- [2]
-						398597, -- [3]
-						1522309962.96, -- [4]
-						4398521, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						81269, -- [2]
-						84916, -- [3]
-						1522309964.154, -- [4]
-						4483437, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						253432, -- [2]
-						60273, -- [3]
-						1522309964.473, -- [4]
-						4543710, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						55291, -- [3]
-						1522309964.743, -- [4]
-						4599001, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						246646, -- [2]
-						398597, -- [3]
-						1522309964.94, -- [4]
-						4200404, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						253432, -- [2]
-						60273, -- [3]
-						1522309966.205, -- [4]
-						4260677, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						253432, -- [2]
-						10709, -- [3]
-						1522309966.809, -- [4]
-						4271386, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						246646, -- [2]
-						405245, -- [3]
-						1522309966.961, -- [4]
-						3866141, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						77489, -- [2]
-						55290, -- [3]
-						1522309967.75, -- [4]
-						3921431, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						189800, -- [2]
-						184385, -- [3]
-						1522309968.332, -- [4]
-						4105816, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522309968.332, -- [4]
-						4205745, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						246646, -- [2]
-						405246, -- [3]
-						1522309968.955, -- [4]
-						3800499, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						48438, -- [2]
-						116992, -- [3]
-						1522309969.2, -- [4]
-						3917491, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						48438, -- [2]
-						55482, -- [3]
-						1522309970.056, -- [4]
-						3972973, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						48438, -- [2]
-						52436, -- [3]
-						1522309970.92, -- [4]
-						4025409, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [24]
-					{
-						false, -- [1]
-						774, -- [2]
-						99929, -- [3]
-						1522309970.92, -- [4]
-						4125338, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						true, -- [1]
-						246646, -- [2]
-						405246, -- [3]
-						1522309970.951, -- [4]
-						3720092, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						48438, -- [2]
-						49404, -- [3]
-						1522309971.781, -- [4]
-						3769496, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						145110, -- [2]
-						331512, -- [3]
-						1522309972.333, -- [4]
-						4101008, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						48438, -- [2]
-						54204, -- [3]
-						1522309972.66, -- [4]
-						4155212, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						48438, -- [2]
-						101302, -- [3]
-						1522309973.503, -- [4]
-						4256514, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						774, -- [2]
-						116814, -- [3]
-						1522309973.515, -- [4]
-						4373328, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						254919, -- [2]
-						5884567, -- [3]
-						1522309973.635, -- [4]
-						1, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1511239, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Íllídan-Quel'Thalas", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "1m 21s",
-				["time"] = 1522309973.68,
-			}, -- [2]
-			{
-				["maxhealth"] = 4815960,
-				["timeofdeath"] = 81.3689999999997,
-				["name"] = "Darksoother-Gorefiend",
-				["events"] = {
-					{
-						false, -- [1]
-						253432, -- [2]
-						54065, -- [3]
-						1522309958.144, -- [4]
-						4815960, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						77489, -- [2]
-						65180, -- [3]
-						1522309958.332, -- [4]
-						4815960, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						774, -- [2]
-						34417, -- [3]
-						1522309958.793, -- [4]
-						4815960, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						207203, -- [2]
-						86198, -- [3]
-						1522309958.969, -- [4]
-						4815960, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522309958.969, -- [4]
-						4427232, -- [5]
-						"Kin'garoth", -- [6]
-						86198, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						155777, -- [2]
-						166089, -- [3]
-						1522309960.051, -- [4]
-						4593321, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522309960.949, -- [4]
-						4118395, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						77489, -- [2]
-						65180, -- [3]
-						1522309961.328, -- [4]
-						4183575, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						243241, -- [2]
-						94687, -- [3]
-						1522309961.73, -- [4]
-						4278262, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						false, -- [1]
-						81269, -- [2]
-						169832, -- [3]
-						1522309962.443, -- [4]
-						4448094, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						155777, -- [2]
-						83045, -- [3]
-						1522309962.632, -- [4]
-						4531139, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522309962.96, -- [4]
-						4056213, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						81269, -- [2]
-						89162, -- [3]
-						1522309964.154, -- [4]
-						4145375, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						77489, -- [2]
-						26971, -- [3]
-						1522309964.743, -- [4]
-						4172346, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522309964.94, -- [4]
-						3697420, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						155777, -- [2]
-						166090, -- [3]
-						1522309965.222, -- [4]
-						3863510, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522309966.961, -- [4]
-						3388584, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						77489, -- [2]
-						26971, -- [3]
-						1522309967.75, -- [4]
-						3415555, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						155777, -- [2]
-						83044, -- [3]
-						1522309967.804, -- [4]
-						3498599, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474927, -- [3]
-						1522309968.955, -- [4]
-						3023672, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						139, -- [2]
-						102238, -- [3]
-						1522309969.125, -- [4]
-						3125910, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						false, -- [1]
-						145110, -- [2]
-						331512, -- [3]
-						1522309969.341, -- [4]
-						3457422, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						false, -- [1]
-						774, -- [2]
-						116814, -- [3]
-						1522309969.632, -- [4]
-						3574236, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						155777, -- [2]
-						116817, -- [3]
-						1522309970.403, -- [4]
-						3691053, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						155777, -- [2]
-						44523, -- [3]
-						1522309970.89, -- [4]
-						3735576, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						true, -- [1]
-						246646, -- [2]
-						474926, -- [3]
-						1522309970.951, -- [4]
-						3260650, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						253432, -- [2]
-						36264, -- [3]
-						1522309971.101, -- [4]
-						3296914, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						139, -- [2]
-						57353, -- [3]
-						1522309971.85, -- [4]
-						3354267, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77489, -- [2]
-						29122, -- [3]
-						1522309972.142, -- [4]
-						3383389, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						774, -- [2]
-						199857, -- [3]
-						1522309972.22, -- [4]
-						3583246, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						false, -- [1]
-						253432, -- [2]
-						72528, -- [3]
-						1522309972.823, -- [4]
-						3655774, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						254919, -- [2]
-						4325577, -- [3]
-						1522309973.651, -- [4]
-						1, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						669803, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Darksoother-Gorefiend", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEATHKNIGHT",
-				["timestring"] = "1m 21s",
-				["time"] = 1522309973.68,
-			}, -- [3]
-			{
-				["maxhealth"] = 5140560,
-				["timeofdeath"] = 89.8400000000001,
-				["name"] = "Gypsybabe-Gorefiend",
-				["events"] = {
-					{
-						false, -- [1]
-						63106, -- [2]
-						105504, -- [3]
-						1522309972.677, -- [4]
-						3120736, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						48438, -- [2]
-						36005, -- [3]
-						1522309973.503, -- [4]
-						3156741, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						218615, -- [2]
-						267679, -- [3]
-						1522309973.736, -- [4]
-						3424420, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						48438, -- [2]
-						67005, -- [3]
-						1522309974.373, -- [4]
-						3491425, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						253099, -- [2]
-						129199, -- [3]
-						1522309974.388, -- [4]
-						3620624, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						198590, -- [2]
-						1034948, -- [3]
-						1522309974.461, -- [4]
-						4655572, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						774, -- [2]
-						229258, -- [3]
-						1522309974.821, -- [4]
-						4884830, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						108366, -- [2]
-						311786, -- [3]
-						1522309974.89, -- [4]
-						4884830, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						248375, -- [2]
-						415514, -- [3]
-						1522309974.89, -- [4]
-						4781102, -- [5]
-						"Kin'garoth", -- [6]
-						311786, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						63106, -- [2]
-						263761, -- [3]
-						1522309974.945, -- [4]
-						5044863, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						198590, -- [2]
-						369624, -- [3]
-						1522309975.21, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						42759, -- [3]
-						1522309975.233, -- [4]
-						5140560, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						5111, -- [3]
-						1522309975.344, -- [4]
-						5140560, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						198590, -- [2]
-						369624, -- [3]
-						1522309975.98, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						4, -- [1]
-						246687, -- [2]
-						1, -- [3]
-						1522309976.104, -- [4]
-						5140560, -- [5]
-						"Garothi Decimator", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						198590, -- [2]
-						369624, -- [3]
-						1522309976.727, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						63106, -- [2]
-						131880, -- [3]
-						1522309977.225, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						774, -- [2]
-						190519, -- [3]
-						1522309977.409, -- [4]
-						5140560, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						198590, -- [2]
-						369624, -- [3]
-						1522309977.479, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						198590, -- [2]
-						369624, -- [3]
-						1522309978.237, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						108366, -- [2]
-						424533, -- [3]
-						1522309979.49, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						248375, -- [2]
-						424533, -- [3]
-						1522309979.49, -- [4]
-						5140560, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						63106, -- [2]
-						211008, -- [3]
-						1522309979.49, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						false, -- [1]
-						774, -- [2]
-						95259, -- [3]
-						1522309979.993, -- [4]
-						5140560, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						108366, -- [2]
-						687185, -- [3]
-						1522309980.609, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						true, -- [1]
-						246779, -- [2]
-						687185, -- [3]
-						1522309980.609, -- [4]
-						5140560, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						1, -- [2]
-						4392915, -- [3]
-						1522309980.982, -- [4]
-						5140560, -- [5]
-						"Kin'garoth", -- [6]
-						226394, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						108366, -- [2]
-						226394, -- [3]
-						1522309980.982, -- [4]
-						5140560, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [28]
-					{
-						false, -- [1]
-						63106, -- [2]
-						105504, -- [3]
-						1522309981.75, -- [4]
-						1079543, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						108366, -- [2]
-						150548, -- [3]
-						1522309982.121, -- [4]
-						1079543, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1522309982.121, -- [4]
-						1079543, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						246690, -- [2]
-						1768235, -- [3]
-						1522309982.133, -- [4]
-						1, -- [5]
-						"[*] Decimation", -- [6]
-						150548, -- [7]
-						4, -- [8]
-						false, -- [9]
-						538144, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Gypsybabe-Gorefiend", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 29s",
-				["time"] = 1522309982.151,
-			}, -- [4]
-			{
-				["maxhealth"] = 4566900,
-				["timeofdeath"] = 99.9390000000003,
-				["name"] = "Lockz-Kel'Thuzad",
-				["events"] = {
-					{
-						false, -- [1]
-						108366, -- [2]
-						453887, -- [3]
-						1522309980.609, -- [4]
-						4566900, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						246779, -- [2]
-						2123963, -- [3]
-						1522309980.609, -- [4]
-						2896824, -- [5]
-						"Kin'garoth", -- [6]
-						453887, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						198590, -- [2]
-						1016160, -- [3]
-						1522309981.508, -- [4]
-						3912984, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						false, -- [1]
-						108366, -- [2]
-						59816, -- [3]
-						1522309982.133, -- [4]
-						3912984, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						246690, -- [2]
-						59816, -- [3]
-						1522309982.133, -- [4]
-						3912984, -- [5]
-						"[*] Decimation", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						108366, -- [2]
-						45892, -- [3]
-						1522309982.151, -- [4]
-						3912984, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1522309982.151, -- [4]
-						3912984, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						246690, -- [2]
-						61874, -- [3]
-						1522309982.151, -- [4]
-						3897002, -- [5]
-						"[*] Decimation", -- [6]
-						45892, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						198590, -- [2]
-						362913, -- [3]
-						1522309982.333, -- [4]
-						4259915, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						108366, -- [2]
-						59446, -- [3]
-						1522309982.382, -- [4]
-						4259915, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						246690, -- [2]
-						59446, -- [3]
-						1522309982.382, -- [4]
-						4259915, -- [5]
-						"[*] Decimation", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						157982, -- [2]
-						237568, -- [3]
-						1522309982.549, -- [4]
-						4497483, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						108366, -- [2]
-						40221, -- [3]
-						1522309982.695, -- [4]
-						4497483, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						246779, -- [2]
-						1794345, -- [3]
-						1522309982.695, -- [4]
-						2743359, -- [5]
-						"Kin'garoth", -- [6]
-						40221, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						198590, -- [2]
-						859436, -- [3]
-						1522309983.172, -- [4]
-						3602795, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						108366, -- [2]
-						161534, -- [3]
-						1522309983.391, -- [4]
-						3602795, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1522309983.391, -- [4]
-						3602795, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						248375, -- [2]
-						391325, -- [3]
-						1522309983.391, -- [4]
-						3373004, -- [5]
-						"Kin'garoth", -- [6]
-						161534, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						157982, -- [2]
-						237568, -- [3]
-						1522309984.284, -- [4]
-						3610572, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						157982, -- [2]
-						237568, -- [3]
-						1522309986.009, -- [4]
-						3848140, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						108366, -- [2]
-						236031, -- [3]
-						1522309986.118, -- [4]
-						3848140, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [21]
-					{
-						true, -- [1]
-						248375, -- [2]
-						387986, -- [3]
-						1522309986.118, -- [4]
-						3696185, -- [5]
-						"Kin'garoth", -- [6]
-						236031, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						253282, -- [2]
-						1303035, -- [3]
-						1522309986.526, -- [4]
-						4566900, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						4, -- [1]
-						246687, -- [2]
-						1, -- [3]
-						1522309987.085, -- [4]
-						4566900, -- [5]
-						"Garothi Decimator", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						157982, -- [2]
-						475135, -- [3]
-						1522309987.741, -- [4]
-						4566900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						108366, -- [2]
-						125658, -- [3]
-						1522309988.916, -- [4]
-						4566900, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						true, -- [1]
-						248375, -- [2]
-						384794, -- [3]
-						1522309988.916, -- [4]
-						4307764, -- [5]
-						"Kin'garoth", -- [6]
-						125658, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						157982, -- [2]
-						475135, -- [3]
-						1522309989.475, -- [4]
-						4566900, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						77489, -- [2]
-						371162, -- [3]
-						1522309989.559, -- [4]
-						4566900, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						1064, -- [2]
-						187256, -- [3]
-						1522309990.223, -- [4]
-						4566900, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						1, -- [2]
-						5502693, -- [3]
-						1522309992.224, -- [4]
-						5023590, -- [5]
-						"Kin'garoth", -- [6]
-						181409, -- [7]
-						1, -- [8]
-						false, -- [9]
-						297694, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						108366, -- [2]
-						181409, -- [3]
-						1522309992.224, -- [4]
-						5023590, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Lockz-Kel'Thuzad", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "1m 39s",
-				["time"] = 1522309992.25,
-			}, -- [5]
-			{
-				["maxhealth"] = 8588299,
-				["timeofdeath"] = 212.606,
-				["name"] = "Sëphirôth-Frostwolf",
-				["events"] = {
-					{
-						false, -- [1]
-						94472, -- [2]
-						63842, -- [3]
-						1522310102.202, -- [4]
-						3504634, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						246840, -- [2]
-						902923, -- [3]
-						1522310102.331, -- [4]
-						2601711, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63843, -- [3]
-						1522310102.526, -- [4]
-						2665554, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933704, -- [3]
-						1522310102.571, -- [4]
-						1731850, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						65657, -- [3]
-						1522310102.648, -- [4]
-						1797507, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						61295, -- [2]
-						425386, -- [3]
-						1522310102.703, -- [4]
-						2222893, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						246840, -- [2]
-						964485, -- [3]
-						1522310102.825, -- [4]
-						1258408, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						17, -- [2]
-						827111, -- [3]
-						1522310103.084, -- [4]
-						1258408, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						252545, -- [2]
-						137375, -- [3]
-						1522310103.084, -- [4]
-						1258408, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						17, -- [2]
-						0, -- [3]
-						1522310103.084, -- [4]
-						1258408, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						246840, -- [2]
-						964486, -- [3]
-						1522310103.084, -- [4]
-						1258408, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						203794, -- [2]
-						227687, -- [3]
-						1522310103.31, -- [4]
-						1486095, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						252545, -- [2]
-						933704, -- [3]
-						1522310103.326, -- [4]
-						1486095, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933704, -- [3]
-						1522310103.34, -- [4]
-						1486095, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						1, -- [2]
-						13171, -- [3]
-						1522310103.38, -- [4]
-						1486095, -- [5]
-						"Garothi Demolisher", -- [6]
-						984117, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						252545, -- [2]
-						984117, -- [3]
-						1522310103.38, -- [4]
-						1486095, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933703, -- [3]
-						1522310103.582, -- [4]
-						539221, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63843, -- [3]
-						1522310103.699, -- [4]
-						603064, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						774, -- [2]
-						166085, -- [3]
-						1522310103.796, -- [4]
-						769149, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						209258, -- [2]
-						933703, -- [3]
-						1522310103.83, -- [4]
-						769149, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933703, -- [3]
-						1522310103.83, -- [4]
-						769149, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31921, -- [3]
-						1522310104.034, -- [4]
-						5996990, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933704, -- [3]
-						1522310104.079, -- [4]
-						5063286, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						77489, -- [2]
-						150950, -- [3]
-						1522310104.234, -- [4]
-						5214236, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933704, -- [3]
-						1522310104.325, -- [4]
-						4280532, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310104.558, -- [4]
-						4280532, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933704, -- [3]
-						1522310104.558, -- [4]
-						3346828, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310104.667, -- [4]
-						3346828, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933703, -- [3]
-						1522310104.667, -- [4]
-						2413125, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310104.864, -- [4]
-						2413125, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						246840, -- [2]
-						933704, -- [3]
-						1522310104.879, -- [4]
-						1479421, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						246706, -- [2]
-						3379184, -- [3]
-						1522310104.917, -- [4]
-						1, -- [5]
-						"[*] Demolish", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1899763, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Sëphirôth-Frostwolf", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "3m 32s",
-				["time"] = 1522310104.917,
-			}, -- [6]
-			{
-				["maxhealth"] = 6281001,
-				["timeofdeath"] = 217.742,
-				["name"] = "Brucewheelie-Thrall",
-				["events"] = {
-					{
-						false, -- [1]
-						117313, -- [2]
-						276364, -- [3]
-						1522310096.393, -- [4]
-						6619715, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						117313, -- [2]
-						276364, -- [3]
-						1522310096.894, -- [4]
-						6426201, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						234946, -- [2]
-						411687, -- [3]
-						1522310096.984, -- [4]
-						6837888, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						155777, -- [2]
-						119216, -- [3]
-						1522310097.055, -- [4]
-						7461829, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						77489, -- [2]
-						252151, -- [3]
-						1522310097.055, -- [4]
-						7461829, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						208899, -- [2]
-						20095, -- [3]
-						1522310098.078, -- [4]
-						7461829, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						774, -- [2]
-						119214, -- [3]
-						1522310098.349, -- [4]
-						7461829, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [7]
-					{
-						false, -- [1]
-						155777, -- [2]
-						238433, -- [3]
-						1522310099.65, -- [4]
-						7461829, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						34861, -- [2]
-						667781, -- [3]
-						1522310099.65, -- [4]
-						7461829, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						77489, -- [2]
-						294910, -- [3]
-						1522310100.064, -- [4]
-						7461829, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						774, -- [2]
-						207852, -- [3]
-						1522310100.926, -- [4]
-						7461829, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						243223, -- [2]
-						1002288, -- [3]
-						1522310102.097, -- [4]
-						7461829, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						243223, -- [2]
-						1002288, -- [3]
-						1522310102.097, -- [4]
-						7461829, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						243223, -- [2]
-						1002288, -- [3]
-						1522310102.097, -- [4]
-						7461829, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						155777, -- [2]
-						103927, -- [3]
-						1522310102.218, -- [4]
-						7461829, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						77489, -- [2]
-						294909, -- [3]
-						1522310103.061, -- [4]
-						7461829, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						774, -- [2]
-						103926, -- [3]
-						1522310103.526, -- [4]
-						7461829, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310104.505, -- [4]
-						7461829, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1558955, -- [3]
-						1522310104.505, -- [4]
-						5902874, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						155777, -- [2]
-						207856, -- [3]
-						1522310104.816, -- [4]
-						6110730, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						253282, -- [2]
-						459257, -- [3]
-						1522310105.771, -- [4]
-						5489240, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						77489, -- [2]
-						185514, -- [3]
-						1522310106.053, -- [4]
-						5674754, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						774, -- [2]
-						103926, -- [3]
-						1522310106.113, -- [4]
-						5778680, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						117313, -- [2]
-						251240, -- [3]
-						1522310107.031, -- [4]
-						6029920, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						155777, -- [2]
-						201860, -- [3]
-						1522310107.399, -- [4]
-						6714172, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						774, -- [2]
-						201855, -- [3]
-						1522310108.692, -- [4]
-						6783480, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						246779, -- [2]
-						729773, -- [3]
-						1522310108.741, -- [4]
-						6053707, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						1, -- [2]
-						5000388, -- [3]
-						1522310108.816, -- [4]
-						6053707, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						253288, -- [2]
-						293124, -- [3]
-						1522310108.843, -- [4]
-						1346443, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						77489, -- [2]
-						179339, -- [3]
-						1522310109.054, -- [4]
-						1525782, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						155777, -- [2]
-						100930, -- [3]
-						1522310109.984, -- [4]
-						1626712, -- [5]
-						"Froozeen-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						254919, -- [2]
-						4930251, -- [3]
-						1522310110.022, -- [4]
-						1, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						3303539, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Brucewheelie-Thrall", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "3m 37s",
-				["time"] = 1522310110.053,
-			}, -- [7]
-			{
-				["maxhealth"] = 5655780,
-				["timeofdeath"] = 220.370000000001,
-				["name"] = "Aerandír-Thrall",
-				["events"] = {
-					{
-						false, -- [1]
-						240432, -- [2]
-						650898, -- [3]
-						1522310094.16, -- [4]
-						1578514, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						209933, -- [2]
-						108197, -- [3]
-						1522310094.177, -- [4]
-						1686711, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						1064, -- [2]
-						753606, -- [3]
-						1522310094.417, -- [4]
-						2440317, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						208899, -- [2]
-						30197, -- [3]
-						1522310094.622, -- [4]
-						2470514, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						240432, -- [2]
-						650898, -- [3]
-						1522310095.322, -- [4]
-						3365443, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						194509, -- [2]
-						501279, -- [3]
-						1522310095.677, -- [4]
-						3866722, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						94472, -- [2]
-						61500, -- [3]
-						1522310096.172, -- [4]
-						3928222, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						81751, -- [2]
-						30750, -- [3]
-						1522310096.485, -- [4]
-						3958972, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						77489, -- [2]
-						188273, -- [3]
-						1522310096.558, -- [4]
-						4147245, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						81751, -- [2]
-						61500, -- [3]
-						1522310097.226, -- [4]
-						4208745, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63842, -- [3]
-						1522310097.683, -- [4]
-						4272587, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63842, -- [3]
-						1522310097.997, -- [4]
-						4336429, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						240432, -- [2]
-						1301797, -- [3]
-						1522310098.667, -- [4]
-						5638226, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						209933, -- [2]
-						166488, -- [3]
-						1522310098.694, -- [4]
-						5804714, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63843, -- [3]
-						1522310099.203, -- [4]
-						5868557, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [15]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31921, -- [3]
-						1522310099.505, -- [4]
-						5900478, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						34861, -- [2]
-						642097, -- [3]
-						1522310099.65, -- [4]
-						6221358, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31921, -- [3]
-						1522310100.708, -- [4]
-						6221358, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						209933, -- [2]
-						264392, -- [3]
-						1522310100.942, -- [4]
-						6221358, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31921, -- [3]
-						1522310101.02, -- [4]
-						6221358, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63842, -- [3]
-						1522310102.202, -- [4]
-						6221358, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63842, -- [3]
-						1522310102.526, -- [4]
-						6221358, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						77489, -- [2]
-						182897, -- [3]
-						1522310102.69, -- [4]
-						6221358, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						94472, -- [2]
-						63842, -- [3]
-						1522310103.699, -- [4]
-						6221358, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						81751, -- [2]
-						31921, -- [3]
-						1522310104.034, -- [4]
-						6221358, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						77489, -- [2]
-						182897, -- [3]
-						1522310105.687, -- [4]
-						5655780, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						252897, -- [2]
-						130850, -- [3]
-						1522310106.088, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						207472, -- [2]
-						678334, -- [3]
-						1522310108.741, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						246779, -- [2]
-						678334, -- [3]
-						1522310108.741, -- [4]
-						5655780, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						207472, -- [2]
-						871200, -- [3]
-						1522310112.128, -- [4]
-						5655780, -- [5]
-						"Aerandír-Thrall", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						246779, -- [2]
-						2536499, -- [3]
-						1522310112.128, -- [4]
-						3990481, -- [5]
-						"Kin'garoth", -- [6]
-						871200, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						1, -- [2]
-						4015187, -- [3]
-						1522310112.624, -- [4]
-						3990481, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						24706, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						118038, -- [2]
-						1, -- [3]
-						1522309894.975, -- [4]
-						0, -- [5]
-						"Aerandír-Thrall", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "3m 40s",
-				["time"] = 1522310112.681,
-			}, -- [8]
-			{
-				["maxhealth"] = 6029760,
-				["timeofdeath"] = 226.534,
-				["name"] = "Wences-Quel'Thalas",
-				["events"] = {
-					{
-						false, -- [1]
-						2061, -- [2]
-						356604, -- [3]
-						1522310111.45, -- [4]
-						3247542, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						108447, -- [2]
-						41957, -- [3]
-						1522310111.866, -- [4]
-						3289499, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						108366, -- [2]
-						397363, -- [3]
-						1522310112.128, -- [4]
-						3289499, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						246779, -- [2]
-						397363, -- [3]
-						1522310112.128, -- [4]
-						3289499, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						143924, -- [2]
-						6444, -- [3]
-						1522310112.151, -- [4]
-						3295943, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						108447, -- [2]
-						49046, -- [3]
-						1522310112.863, -- [4]
-						3344989, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						22062, -- [3]
-						1522310113.382, -- [4]
-						3367051, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						61295, -- [2]
-						416598, -- [3]
-						1522310113.791, -- [4]
-						3783649, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						108447, -- [2]
-						6641, -- [3]
-						1522310113.864, -- [4]
-						3790290, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						77489, -- [2]
-						101576, -- [3]
-						1522310114.479, -- [4]
-						4270230, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						17228, -- [3]
-						1522310114.587, -- [4]
-						4287458, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						108447, -- [2]
-						37265, -- [3]
-						1522310114.867, -- [4]
-						4324723, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						234946, -- [2]
-						193099, -- [3]
-						1522310115.514, -- [4]
-						4517822, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						108366, -- [2]
-						373014, -- [3]
-						1522310115.804, -- [4]
-						4517822, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						248375, -- [2]
-						427012, -- [3]
-						1522310115.804, -- [4]
-						4474623, -- [5]
-						"Kin'garoth", -- [6]
-						383813, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						143924, -- [2]
-						45196, -- [3]
-						1522310115.832, -- [4]
-						4519819, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						108447, -- [2]
-						46016, -- [3]
-						1522310115.876, -- [4]
-						4565835, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						61295, -- [2]
-						118895, -- [3]
-						1522310116.143, -- [4]
-						4684730, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						108447, -- [2]
-						27398, -- [3]
-						1522310116.866, -- [4]
-						4712128, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						234946, -- [2]
-						193099, -- [3]
-						1522310116.866, -- [4]
-						4905227, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						143924, -- [2]
-						7947, -- [3]
-						1522310117.022, -- [4]
-						4913174, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						1, -- [2]
-						5387717, -- [3]
-						1522310117.297, -- [4]
-						4913174, -- [5]
-						"Kin'garoth", -- [6]
-						1250001, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						108366, -- [2]
-						215573, -- [3]
-						1522310117.309, -- [4]
-						4913174, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						77489, -- [2]
-						107196, -- [3]
-						1522310117.483, -- [4]
-						882654, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						108447, -- [2]
-						74539, -- [3]
-						1522310117.884, -- [4]
-						957193, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						73921, -- [2]
-						79646, -- [3]
-						1522310118.188, -- [4]
-						1036839, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						false, -- [1]
-						252154, -- [2]
-						153461, -- [3]
-						1522310118.188, -- [4]
-						1190300, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						11894, -- [3]
-						1522310118.236, -- [4]
-						1202194, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						61295, -- [2]
-						72291, -- [3]
-						1522310118.64, -- [4]
-						1274485, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						1, -- [2]
-						4437645, -- [3]
-						1522310118.807, -- [4]
-						1274485, -- [5]
-						"Kin'garoth", -- [6]
-						1841776, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1321384, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						108366, -- [2]
-						111198, -- [3]
-						1522310118.807, -- [4]
-						1274485, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1522310118.807, -- [4]
-						1274485, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						104773, -- [2]
-						1, -- [3]
-						1522310106.032, -- [4]
-						0, -- [5]
-						"Wences-Quel'Thalas", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARLOCK",
-				["timestring"] = "3m 46s",
-				["time"] = 1522310118.845,
-			}, -- [9]
-			{
-				["maxhealth"] = 5214540,
-				["timeofdeath"] = 240.752,
-				["name"] = "Donno-Moonrunner",
-				["events"] = {
-					{
-						true, -- [1]
-						246779, -- [2]
-						620595, -- [3]
-						1522310108.76, -- [4]
-						616419, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						253288, -- [2]
-						587667, -- [3]
-						1522310108.76, -- [4]
-						1204086, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						109304, -- [2]
-						1564362, -- [3]
-						1522310109.09, -- [4]
-						2768448, -- [5]
-						"Donno-Moonrunner", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						77489, -- [2]
-						167393, -- [3]
-						1522310111.806, -- [4]
-						2935841, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						246779, -- [2]
-						591387, -- [3]
-						1522310112.128, -- [4]
-						2344454, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						77489, -- [2]
-						167393, -- [3]
-						1522310114.787, -- [4]
-						2511847, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						2061, -- [2]
-						482747, -- [3]
-						1522310115.481, -- [4]
-						2994594, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						248375, -- [2]
-						369992, -- [3]
-						1522310115.804, -- [4]
-						2624602, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						8, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						2061, -- [2]
-						482747, -- [3]
-						1522310116.852, -- [4]
-						3107349, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						234946, -- [2]
-						344220, -- [3]
-						1522310118.381, -- [4]
-						3451569, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						77489, -- [2]
-						248710, -- [3]
-						1522310118.513, -- [4]
-						3700279, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						61295, -- [2]
-						646320, -- [3]
-						1522310119.816, -- [4]
-						4346599, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						77489, -- [2]
-						248709, -- [3]
-						1522310121.499, -- [4]
-						5029967, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						61295, -- [2]
-						44652, -- [3]
-						1522310122.262, -- [4]
-						5074619, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						77489, -- [2]
-						248709, -- [3]
-						1522310124.508, -- [4]
-						5323328, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						243241, -- [2]
-						194109, -- [3]
-						1522310124.601, -- [4]
-						5517437, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						61295, -- [2]
-						42078, -- [3]
-						1522310124.715, -- [4]
-						5559515, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						246779, -- [2]
-						622631, -- [3]
-						1522310126.314, -- [4]
-						4936884, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						228401, -- [2]
-						320818, -- [3]
-						1522310126.821, -- [4]
-						5257702, -- [5]
-						"Péro-Bloodhoof", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						61295, -- [2]
-						43450, -- [3]
-						1522310127.154, -- [4]
-						5301152, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						77489, -- [2]
-						55291, -- [3]
-						1522310127.645, -- [4]
-						5356443, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						1064, -- [2]
-						170301, -- [3]
-						1522310127.975, -- [4]
-						5526744, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						61295, -- [2]
-						84058, -- [3]
-						1522310129.606, -- [4]
-						5610801, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						77489, -- [2]
-						55291, -- [3]
-						1522310130.637, -- [4]
-						5666092, -- [5]
-						"Healith-Quel'Thalas", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						246779, -- [2]
-						620974, -- [3]
-						1522310131.67, -- [4]
-						5045118, -- [5]
-						"Kin'garoth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310131.909, -- [4]
-						5045118, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310131.909, -- [4]
-						3715940, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						61295, -- [2]
-						51589, -- [3]
-						1522310132.096, -- [4]
-						3767529, -- [5]
-						"Aele-Dalaran", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310132.169, -- [4]
-						2438351, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						4, -- [1]
-						246840, -- [2]
-						1, -- [3]
-						1522310132.394, -- [4]
-						2438351, -- [5]
-						"[*] Ruiner", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						246840, -- [2]
-						1329178, -- [3]
-						1522310132.394, -- [4]
-						1109173, -- [5]
-						"[*] Ruiner", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						246666, -- [2]
-						1442213, -- [3]
-						1522310133.063, -- [4]
-						1, -- [5]
-						"Garothi Annihilator", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						false, -- [9]
-						333040, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Donno-Moonrunner", -- [6]
-					}, -- [33]
-				},
-				["class"] = "HUNTER",
-				["timestring"] = "4m 0s",
-				["time"] = 1522310133.063,
-			}, -- [10]
 		},
-		["bossname"] = "Kin'garoth",
+		["bossname"] = "Imonar the Soulhunter",
 		["bossicon"] = {
-			0.5, -- [1]
-			0.75, -- [2]
+			0.25, -- [1]
+			0.5, -- [2]
 			0.25, -- [3]
 			0.5, -- [4]
 			"Interface\\AddOns\\Details\\images\\raid\\AntorusRaid_BossFaces", -- [5]
 		},
-		["date"] = 8272.047,
-		["timeelapsed"] = 289.001,
+		["date"] = 7105.534,
+		["timeelapsed"] = 274.155000000001,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
@@ -15130,6 +8772,50 @@ DeathGraphsDBGraph = {
 					1510035976, -- [2]
 				}, -- [9]
 			},
+			["Unchecked Rage"] = {
+				{
+					20, -- [1]
+					1510035976, -- [2]
+				}, -- [1]
+				{
+					40, -- [1]
+					1510035976, -- [2]
+				}, -- [2]
+				{
+					90, -- [1]
+					1510035976, -- [2]
+				}, -- [3]
+				{
+					111, -- [1]
+					1510035976, -- [2]
+				}, -- [4]
+				{
+					169, -- [1]
+					1510035976, -- [2]
+				}, -- [5]
+				{
+					190, -- [1]
+					1510035976, -- [2]
+				}, -- [6]
+			},
+			["Aqueous Burst"] = {
+				{
+					57, -- [1]
+					1510035976, -- [2]
+				}, -- [1]
+				{
+					92, -- [1]
+					1510035976, -- [2]
+				}, -- [2]
+				{
+					125, -- [1]
+					1510035976, -- [2]
+				}, -- [3]
+				{
+					173, -- [1]
+					1510035976, -- [2]
+				}, -- [4]
+			},
 			["Draw In"] = {
 				{
 					57, -- [1]
@@ -15202,60 +8888,16 @@ DeathGraphsDBGraph = {
 					1510035976, -- [2]
 				}, -- [14]
 			},
-			["Unchecked Rage"] = {
-				{
-					20, -- [1]
-					1510035976, -- [2]
-				}, -- [1]
-				{
-					40, -- [1]
-					1510035976, -- [2]
-				}, -- [2]
-				{
-					90, -- [1]
-					1510035976, -- [2]
-				}, -- [3]
-				{
-					111, -- [1]
-					1510035976, -- [2]
-				}, -- [4]
-				{
-					169, -- [1]
-					1510035976, -- [2]
-				}, -- [5]
-				{
-					190, -- [1]
-					1510035976, -- [2]
-				}, -- [6]
-			},
-			["Aqueous Burst"] = {
-				{
-					57, -- [1]
-					1510035976, -- [2]
-				}, -- [1]
-				{
-					92, -- [1]
-					1510035976, -- [2]
-				}, -- [2]
-				{
-					125, -- [1]
-					1510035976, -- [2]
-				}, -- [3]
-				{
-					173, -- [1]
-					1510035976, -- [2]
-				}, -- [4]
-			},
 		},
 		["ids"] = {
 			["Frigid Blows"] = 233429,
 			["Frosty Discharge"] = 232174,
 			["Splashy Cleave"] = 234129,
 			["Watery Splash"] = 240066,
-			["Draw In"] = 232061,
-			["Drenching Slough"] = 233526,
 			["Unchecked Rage"] = 231854,
 			["Aqueous Burst"] = 231729,
+			["Draw In"] = 232061,
+			["Drenching Slough"] = 233526,
 		},
 	},
 	["176115"] = {
@@ -15748,11 +9390,14 @@ DeathGraphsDBGraph = {
 	},
 	["199714"] = {
 		["deaths"] = {
+			[70] = {
+				1522305406, -- [1]
+			},
 			[60] = {
 				1522305406, -- [1]
 			},
-			[70] = {
-				1522305406, -- [1]
+			[208] = {
+				1526240033, -- [1]
 			},
 		},
 		["spells"] = {
@@ -15873,6 +9518,58 @@ DeathGraphsDBGraph = {
 					409, -- [1]
 					1522305406, -- [2]
 				}, -- [29]
+				{
+					13, -- [1]
+					1526240033, -- [2]
+				}, -- [30]
+				{
+					47, -- [1]
+					1526240033, -- [2]
+				}, -- [31]
+				{
+					48, -- [1]
+					1526240033, -- [2]
+				}, -- [32]
+				{
+					82, -- [1]
+					1526240033, -- [2]
+				}, -- [33]
+				{
+					109, -- [1]
+					1526240033, -- [2]
+				}, -- [34]
+				{
+					111, -- [1]
+					1526240033, -- [2]
+				}, -- [35]
+				{
+					130, -- [1]
+					1526240033, -- [2]
+				}, -- [36]
+				{
+					145, -- [1]
+					1526240033, -- [2]
+				}, -- [37]
+				{
+					146, -- [1]
+					1526240033, -- [2]
+				}, -- [38]
+				{
+					180, -- [1]
+					1526240033, -- [2]
+				}, -- [39]
+				{
+					201, -- [1]
+					1526240033, -- [2]
+				}, -- [40]
+				{
+					292, -- [1]
+					1526240033, -- [2]
+				}, -- [41]
+				{
+					294, -- [1]
+					1526240033, -- [2]
+				}, -- [42]
 			},
 			["Pyroblast"] = {
 				{
@@ -16065,6 +9762,134 @@ DeathGraphsDBGraph = {
 					406, -- [1]
 					1522305406, -- [2]
 				}, -- [44]
+				{
+					8, -- [1]
+					1526240033, -- [2]
+				}, -- [45]
+				{
+					16, -- [1]
+					1526240033, -- [2]
+				}, -- [46]
+				{
+					25, -- [1]
+					1526240033, -- [2]
+				}, -- [47]
+				{
+					33, -- [1]
+					1526240033, -- [2]
+				}, -- [48]
+				{
+					42, -- [1]
+					1526240033, -- [2]
+				}, -- [49]
+				{
+					50, -- [1]
+					1526240033, -- [2]
+				}, -- [50]
+				{
+					59, -- [1]
+					1526240033, -- [2]
+				}, -- [51]
+				{
+					67, -- [1]
+					1526240033, -- [2]
+				}, -- [52]
+				{
+					76, -- [1]
+					1526240033, -- [2]
+				}, -- [53]
+				{
+					84, -- [1]
+					1526240033, -- [2]
+				}, -- [54]
+				{
+					98, -- [1]
+					1526240033, -- [2]
+				}, -- [55]
+				{
+					106, -- [1]
+					1526240033, -- [2]
+				}, -- [56]
+				{
+					115, -- [1]
+					1526240033, -- [2]
+				}, -- [57]
+				{
+					123, -- [1]
+					1526240033, -- [2]
+				}, -- [58]
+				{
+					132, -- [1]
+					1526240033, -- [2]
+				}, -- [59]
+				{
+					140, -- [1]
+					1526240033, -- [2]
+				}, -- [60]
+				{
+					149, -- [1]
+					1526240033, -- [2]
+				}, -- [61]
+				{
+					157, -- [1]
+					1526240033, -- [2]
+				}, -- [62]
+				{
+					166, -- [1]
+					1526240033, -- [2]
+				}, -- [63]
+				{
+					174, -- [1]
+					1526240033, -- [2]
+				}, -- [64]
+				{
+					192, -- [1]
+					1526240033, -- [2]
+				}, -- [65]
+				{
+					200, -- [1]
+					1526240033, -- [2]
+				}, -- [66]
+				{
+					209, -- [1]
+					1526240033, -- [2]
+				}, -- [67]
+				{
+					217, -- [1]
+					1526240033, -- [2]
+				}, -- [68]
+				{
+					226, -- [1]
+					1526240033, -- [2]
+				}, -- [69]
+				{
+					234, -- [1]
+					1526240033, -- [2]
+				}, -- [70]
+				{
+					243, -- [1]
+					1526240033, -- [2]
+				}, -- [71]
+				{
+					251, -- [1]
+					1526240033, -- [2]
+				}, -- [72]
+				{
+					260, -- [1]
+					1526240033, -- [2]
+				}, -- [73]
+				{
+					268, -- [1]
+					1526240033, -- [2]
+				}, -- [74]
+				{
+					284, -- [1]
+					1526240033, -- [2]
+				}, -- [75]
+				{
+					292, -- [1]
+					1526240033, -- [2]
+				}, -- [76]
 			},
 			["Fusillade"] = {
 				{
@@ -16095,6 +9920,30 @@ DeathGraphsDBGraph = {
 					389, -- [1]
 					1522305406, -- [2]
 				}, -- [7]
+				{
+					110, -- [1]
+					1526240033, -- [2]
+				}, -- [8]
+				{
+					140, -- [1]
+					1526240033, -- [2]
+				}, -- [9]
+				{
+					171, -- [1]
+					1526240033, -- [2]
+				}, -- [10]
+				{
+					203, -- [1]
+					1526240033, -- [2]
+				}, -- [11]
+				{
+					233, -- [1]
+					1526240033, -- [2]
+				}, -- [12]
+				{
+					263, -- [1]
+					1526240033, -- [2]
+				}, -- [13]
 			},
 			["Bladestorm"] = {
 				{
@@ -16213,6 +10062,58 @@ DeathGraphsDBGraph = {
 					409, -- [1]
 					1522305406, -- [2]
 				}, -- [29]
+				{
+					13, -- [1]
+					1526240033, -- [2]
+				}, -- [30]
+				{
+					47, -- [1]
+					1526240033, -- [2]
+				}, -- [31]
+				{
+					48, -- [1]
+					1526240033, -- [2]
+				}, -- [32]
+				{
+					82, -- [1]
+					1526240033, -- [2]
+				}, -- [33]
+				{
+					109, -- [1]
+					1526240033, -- [2]
+				}, -- [34]
+				{
+					111, -- [1]
+					1526240033, -- [2]
+				}, -- [35]
+				{
+					130, -- [1]
+					1526240033, -- [2]
+				}, -- [36]
+				{
+					145, -- [1]
+					1526240033, -- [2]
+				}, -- [37]
+				{
+					146, -- [1]
+					1526240033, -- [2]
+				}, -- [38]
+				{
+					180, -- [1]
+					1526240033, -- [2]
+				}, -- [39]
+				{
+					201, -- [1]
+					1526240033, -- [2]
+				}, -- [40]
+				{
+					292, -- [1]
+					1526240033, -- [2]
+				}, -- [41]
+				{
+					294, -- [1]
+					1526240033, -- [2]
+				}, -- [42]
 			},
 			["Entropic Mine"] = {
 				{
@@ -16443,6 +10344,170 @@ DeathGraphsDBGraph = {
 					368, -- [1]
 					1522305406, -- [2]
 				}, -- [57]
+				{
+					17, -- [1]
+					1526240033, -- [2]
+				}, -- [58]
+				{
+					18, -- [1]
+					1526240033, -- [2]
+				}, -- [59]
+				{
+					26, -- [1]
+					1526240033, -- [2]
+				}, -- [60]
+				{
+					27, -- [1]
+					1526240033, -- [2]
+				}, -- [61]
+				{
+					36, -- [1]
+					1526240033, -- [2]
+				}, -- [62]
+				{
+					37, -- [1]
+					1526240033, -- [2]
+				}, -- [63]
+				{
+					48, -- [1]
+					1526240033, -- [2]
+				}, -- [64]
+				{
+					49, -- [1]
+					1526240033, -- [2]
+				}, -- [65]
+				{
+					55, -- [1]
+					1526240033, -- [2]
+				}, -- [66]
+				{
+					56, -- [1]
+					1526240033, -- [2]
+				}, -- [67]
+				{
+					57, -- [1]
+					1526240033, -- [2]
+				}, -- [68]
+				{
+					65, -- [1]
+					1526240033, -- [2]
+				}, -- [69]
+				{
+					66, -- [1]
+					1526240033, -- [2]
+				}, -- [70]
+				{
+					68, -- [1]
+					1526240033, -- [2]
+				}, -- [71]
+				{
+					77, -- [1]
+					1526240033, -- [2]
+				}, -- [72]
+				{
+					78, -- [1]
+					1526240033, -- [2]
+				}, -- [73]
+				{
+					85, -- [1]
+					1526240033, -- [2]
+				}, -- [74]
+				{
+					87, -- [1]
+					1526240033, -- [2]
+				}, -- [75]
+				{
+					191, -- [1]
+					1526240033, -- [2]
+				}, -- [76]
+				{
+					192, -- [1]
+					1526240033, -- [2]
+				}, -- [77]
+				{
+					204, -- [1]
+					1526240033, -- [2]
+				}, -- [78]
+				{
+					205, -- [1]
+					1526240033, -- [2]
+				}, -- [79]
+				{
+					214, -- [1]
+					1526240033, -- [2]
+				}, -- [80]
+				{
+					224, -- [1]
+					1526240033, -- [2]
+				}, -- [81]
+				{
+					225, -- [1]
+					1526240033, -- [2]
+				}, -- [82]
+				{
+					233, -- [1]
+					1526240033, -- [2]
+				}, -- [83]
+				{
+					234, -- [1]
+					1526240033, -- [2]
+				}, -- [84]
+				{
+					235, -- [1]
+					1526240033, -- [2]
+				}, -- [85]
+				{
+					244, -- [1]
+					1526240033, -- [2]
+				}, -- [86]
+				{
+					245, -- [1]
+					1526240033, -- [2]
+				}, -- [87]
+				{
+					254, -- [1]
+					1526240033, -- [2]
+				}, -- [88]
+				{
+					255, -- [1]
+					1526240033, -- [2]
+				}, -- [89]
+				{
+					256, -- [1]
+					1526240033, -- [2]
+				}, -- [90]
+				{
+					262, -- [1]
+					1526240033, -- [2]
+				}, -- [91]
+				{
+					263, -- [1]
+					1526240033, -- [2]
+				}, -- [92]
+				{
+					265, -- [1]
+					1526240033, -- [2]
+				}, -- [93]
+				{
+					274, -- [1]
+					1526240033, -- [2]
+				}, -- [94]
+				{
+					275, -- [1]
+					1526240033, -- [2]
+				}, -- [95]
+				{
+					296, -- [1]
+					1526240033, -- [2]
+				}, -- [96]
+				{
+					297, -- [1]
+					1526240033, -- [2]
+				}, -- [97]
+				{
+					298, -- [1]
+					1526240033, -- [2]
+				}, -- [98]
 			},
 			["Assume Command"] = {
 				{
@@ -16461,6 +10526,18 @@ DeathGraphsDBGraph = {
 					371, -- [1]
 					1522305406, -- [2]
 				}, -- [4]
+				{
+					92, -- [1]
+					1526240033, -- [2]
+				}, -- [5]
+				{
+					185, -- [1]
+					1526240033, -- [2]
+				}, -- [6]
+				{
+					278, -- [1]
+					1526240033, -- [2]
+				}, -- [7]
 			},
 			["Disruption Field"] = {
 				{
@@ -16559,6 +10636,126 @@ DeathGraphsDBGraph = {
 					275, -- [1]
 					1522305406, -- [2]
 				}, -- [24]
+				{
+					197, -- [1]
+					1526240033, -- [2]
+				}, -- [25]
+				{
+					199, -- [1]
+					1526240033, -- [2]
+				}, -- [26]
+				{
+					202, -- [1]
+					1526240033, -- [2]
+				}, -- [27]
+				{
+					206, -- [1]
+					1526240033, -- [2]
+				}, -- [28]
+				{
+					208, -- [1]
+					1526240033, -- [2]
+				}, -- [29]
+				{
+					211, -- [1]
+					1526240033, -- [2]
+				}, -- [30]
+				{
+					215, -- [1]
+					1526240033, -- [2]
+				}, -- [31]
+				{
+					217, -- [1]
+					1526240033, -- [2]
+				}, -- [32]
+				{
+					219, -- [1]
+					1526240033, -- [2]
+				}, -- [33]
+				{
+					223, -- [1]
+					1526240033, -- [2]
+				}, -- [34]
+				{
+					225, -- [1]
+					1526240033, -- [2]
+				}, -- [35]
+				{
+					228, -- [1]
+					1526240033, -- [2]
+				}, -- [36]
+				{
+					231, -- [1]
+					1526240033, -- [2]
+				}, -- [37]
+				{
+					234, -- [1]
+					1526240033, -- [2]
+				}, -- [38]
+				{
+					236, -- [1]
+					1526240033, -- [2]
+				}, -- [39]
+				{
+					240, -- [1]
+					1526240033, -- [2]
+				}, -- [40]
+				{
+					242, -- [1]
+					1526240033, -- [2]
+				}, -- [41]
+				{
+					245, -- [1]
+					1526240033, -- [2]
+				}, -- [42]
+				{
+					248, -- [1]
+					1526240033, -- [2]
+				}, -- [43]
+				{
+					251, -- [1]
+					1526240033, -- [2]
+				}, -- [44]
+				{
+					253, -- [1]
+					1526240033, -- [2]
+				}, -- [45]
+				{
+					257, -- [1]
+					1526240033, -- [2]
+				}, -- [46]
+				{
+					260, -- [1]
+					1526240033, -- [2]
+				}, -- [47]
+				{
+					262, -- [1]
+					1526240033, -- [2]
+				}, -- [48]
+				{
+					266, -- [1]
+					1526240033, -- [2]
+				}, -- [49]
+				{
+					268, -- [1]
+					1526240033, -- [2]
+				}, -- [50]
+				{
+					271, -- [1]
+					1526240033, -- [2]
+				}, -- [51]
+				{
+					275, -- [1]
+					1526240033, -- [2]
+				}, -- [52]
+				{
+					277, -- [1]
+					1526240033, -- [2]
+				}, -- [53]
+				{
+					279, -- [1]
+					1526240033, -- [2]
+				}, -- [54]
 			},
 		},
 		["ids"] = {
@@ -17765,6 +11962,9 @@ DeathGraphsDBGraph = {
 			[235] = {
 				1522307236, -- [1]
 			},
+			[286] = {
+				1526240685, -- [1]
+			},
 			[358] = {
 				1522307236, -- [1]
 			},
@@ -17801,6 +12001,26 @@ DeathGraphsDBGraph = {
 					393, -- [1]
 					1522307236, -- [2]
 				}, -- [6]
+				{
+					245, -- [1]
+					1526240685, -- [2]
+				}, -- [7]
+				{
+					252, -- [1]
+					1526240685, -- [2]
+				}, -- [8]
+				{
+					258, -- [1]
+					1526240685, -- [2]
+				}, -- [9]
+				{
+					263, -- [1]
+					1526240685, -- [2]
+				}, -- [10]
+				{
+					269, -- [1]
+					1526240685, -- [2]
+				}, -- [11]
 			},
 			["Felstorm Barrage"] = {
 				{
@@ -17851,6 +12071,34 @@ DeathGraphsDBGraph = {
 					484, -- [1]
 					1522307236, -- [2]
 				}, -- [12]
+				{
+					31, -- [1]
+					1526240685, -- [2]
+				}, -- [13]
+				{
+					72, -- [1]
+					1526240685, -- [2]
+				}, -- [14]
+				{
+					115, -- [1]
+					1526240685, -- [2]
+				}, -- [15]
+				{
+					158, -- [1]
+					1526240685, -- [2]
+				}, -- [16]
+				{
+					199, -- [1]
+					1526240685, -- [2]
+				}, -- [17]
+				{
+					241, -- [1]
+					1526240685, -- [2]
+				}, -- [18]
+				{
+					284, -- [1]
+					1526240685, -- [2]
+				}, -- [19]
 			},
 			["Poison Essence"] = {
 				{
@@ -17869,6 +12117,22 @@ DeathGraphsDBGraph = {
 					242, -- [1]
 					1522307236, -- [2]
 				}, -- [4]
+				{
+					142, -- [1]
+					1526240685, -- [2]
+				}, -- [5]
+				{
+					152, -- [1]
+					1526240685, -- [2]
+				}, -- [6]
+				{
+					161, -- [1]
+					1526240685, -- [2]
+				}, -- [7]
+				{
+					171, -- [1]
+					1526240685, -- [2]
+				}, -- [8]
 			},
 			["Collapsing World"] = {
 				{
@@ -17923,12 +12187,48 @@ DeathGraphsDBGraph = {
 					517, -- [1]
 					1522307236, -- [2]
 				}, -- [13]
+				{
+					11, -- [1]
+					1526240685, -- [2]
+				}, -- [14]
+				{
+					49, -- [1]
+					1526240685, -- [2]
+				}, -- [15]
+				{
+					87, -- [1]
+					1526240685, -- [2]
+				}, -- [16]
+				{
+					125, -- [1]
+					1526240685, -- [2]
+				}, -- [17]
+				{
+					167, -- [1]
+					1526240685, -- [2]
+				}, -- [18]
+				{
+					209, -- [1]
+					1526240685, -- [2]
+				}, -- [19]
+				{
+					251, -- [1]
+					1526240685, -- [2]
+				}, -- [20]
+				{
+					294, -- [1]
+					1526240685, -- [2]
+				}, -- [21]
 			},
 			["Flames of Xoroth"] = {
 				{
 					74, -- [1]
 					1522307236, -- [2]
 				}, -- [1]
+				{
+					44, -- [1]
+					1526240685, -- [2]
+				}, -- [2]
 			},
 			["Howling Shadows"] = {
 				{
@@ -17955,6 +12255,14 @@ DeathGraphsDBGraph = {
 					476, -- [1]
 					1522307236, -- [2]
 				}, -- [6]
+				{
+					242, -- [1]
+					1526240685, -- [2]
+				}, -- [7]
+				{
+					285, -- [1]
+					1526240685, -- [2]
+				}, -- [8]
 			},
 			["Reality Tear"] = {
 				{
@@ -18077,6 +12385,78 @@ DeathGraphsDBGraph = {
 					499, -- [1]
 					1522307236, -- [2]
 				}, -- [30]
+				{
+					5, -- [1]
+					1526240685, -- [2]
+				}, -- [31]
+				{
+					17, -- [1]
+					1526240685, -- [2]
+				}, -- [32]
+				{
+					32, -- [1]
+					1526240685, -- [2]
+				}, -- [33]
+				{
+					56, -- [1]
+					1526240685, -- [2]
+				}, -- [34]
+				{
+					81, -- [1]
+					1526240685, -- [2]
+				}, -- [35]
+				{
+					94, -- [1]
+					1526240685, -- [2]
+				}, -- [36]
+				{
+					106, -- [1]
+					1526240685, -- [2]
+				}, -- [37]
+				{
+					118, -- [1]
+					1526240685, -- [2]
+				}, -- [38]
+				{
+					130, -- [1]
+					1526240685, -- [2]
+				}, -- [39]
+				{
+					154, -- [1]
+					1526240685, -- [2]
+				}, -- [40]
+				{
+					179, -- [1]
+					1526240685, -- [2]
+				}, -- [41]
+				{
+					191, -- [1]
+					1526240685, -- [2]
+				}, -- [42]
+				{
+					203, -- [1]
+					1526240685, -- [2]
+				}, -- [43]
+				{
+					215, -- [1]
+					1526240685, -- [2]
+				}, -- [44]
+				{
+					227, -- [1]
+					1526240685, -- [2]
+				}, -- [45]
+				{
+					252, -- [1]
+					1526240685, -- [2]
+				}, -- [46]
+				{
+					276, -- [1]
+					1526240685, -- [2]
+				}, -- [47]
+				{
+					300, -- [1]
+					1526240685, -- [2]
+				}, -- [48]
 			},
 			["Delusions"] = {
 				{
@@ -18091,6 +12471,14 @@ DeathGraphsDBGraph = {
 					398, -- [1]
 					1522307236, -- [2]
 				}, -- [3]
+				{
+					250, -- [1]
+					1526240685, -- [2]
+				}, -- [4]
+				{
+					266, -- [1]
+					1526240685, -- [2]
+				}, -- [5]
 			},
 			["Acidic Web"] = {
 				{
@@ -18125,6 +12513,32 @@ DeathGraphsDBGraph = {
 					489, -- [1]
 					1522307236, -- [2]
 				}, -- [8]
+				{
+					158, -- [1]
+					1526240685, -- [2]
+				}, -- [9]
+				{
+					248, -- [1]
+					1526240685, -- [2]
+				}, -- [10]
+			},
+			["Felsilk Wrap"] = {
+				{
+					218, -- [1]
+					1522307236, -- [2]
+				}, -- [1]
+				{
+					235, -- [1]
+					1522307236, -- [2]
+				}, -- [2]
+				{
+					148, -- [1]
+					1526240685, -- [2]
+				}, -- [3]
+				{
+					165, -- [1]
+					1526240685, -- [2]
+				}, -- [4]
 			},
 			["Transport Portal"] = {
 				{
@@ -18175,16 +12589,38 @@ DeathGraphsDBGraph = {
 					506, -- [1]
 					1522307236, -- [2]
 				}, -- [12]
-			},
-			["Felsilk Wrap"] = {
 				{
-					218, -- [1]
-					1522307236, -- [2]
-				}, -- [1]
+					21, -- [1]
+					1526240685, -- [2]
+				}, -- [13]
 				{
-					235, -- [1]
-					1522307236, -- [2]
-				}, -- [2]
+					63, -- [1]
+					1526240685, -- [2]
+				}, -- [14]
+				{
+					105, -- [1]
+					1526240685, -- [2]
+				}, -- [15]
+				{
+					147, -- [1]
+					1526240685, -- [2]
+				}, -- [16]
+				{
+					190, -- [1]
+					1526240685, -- [2]
+				}, -- [17]
+				{
+					232, -- [1]
+					1526240685, -- [2]
+				}, -- [18]
+				{
+					275, -- [1]
+					1526240685, -- [2]
+				}, -- [19]
+				{
+					317, -- [1]
+					1526240685, -- [2]
+				}, -- [20]
 			},
 			["Supernova"] = {
 				{
@@ -18211,6 +12647,34 @@ DeathGraphsDBGraph = {
 					79, -- [1]
 					1522307236, -- [2]
 				}, -- [6]
+				{
+					38, -- [1]
+					1526240685, -- [2]
+				}, -- [7]
+				{
+					41, -- [1]
+					1526240685, -- [2]
+				}, -- [8]
+				{
+					45, -- [1]
+					1526240685, -- [2]
+				}, -- [9]
+				{
+					47, -- [1]
+					1526240685, -- [2]
+				}, -- [10]
+				{
+					49, -- [1]
+					1526240685, -- [2]
+				}, -- [11]
+				{
+					55, -- [1]
+					1526240685, -- [2]
+				}, -- [12]
+				{
+					58, -- [1]
+					1526240685, -- [2]
+				}, -- [13]
 			},
 		},
 		["ids"] = {
@@ -18223,24 +12687,24 @@ DeathGraphsDBGraph = {
 			["Reality Tear"] = 244016,
 			["Delusions"] = 245050,
 			["Acidic Web"] = 246208,
-			["Transport Portal"] = 244689,
 			["Felsilk Wrap"] = 244926,
+			["Transport Portal"] = 244689,
 			["Supernova"] = 244598,
 		},
 	},
 	["186114"] = {
 		["deaths"] = {
-			[131] = {
-				1510036659, -- [1]
-			},
 			[68] = {
 				1508088200, -- [1]
 			},
-			[268] = {
+			[131] = {
 				1510036659, -- [1]
 			},
 			[184] = {
 				1508088200, -- [1]
+			},
+			[268] = {
+				1510036659, -- [1]
 			},
 		},
 		["spells"] = {
@@ -18873,6 +13337,9 @@ DeathGraphsDBGraph = {
 			[106] = {
 				1522310679, -- [1]
 			},
+			[6] = {
+				1526242114, -- [1]
+			},
 			[99] = {
 				1522310181, -- [1]
 			},
@@ -18950,6 +13417,46 @@ DeathGraphsDBGraph = {
 					268, -- [1]
 					1522310679, -- [2]
 				}, -- [17]
+				{
+					12, -- [1]
+					1526242114, -- [2]
+				}, -- [18]
+				{
+					78, -- [1]
+					1526242114, -- [2]
+				}, -- [19]
+				{
+					98, -- [1]
+					1526242114, -- [2]
+				}, -- [20]
+				{
+					119, -- [1]
+					1526242114, -- [2]
+				}, -- [21]
+				{
+					141, -- [1]
+					1526242114, -- [2]
+				}, -- [22]
+				{
+					209, -- [1]
+					1526242114, -- [2]
+				}, -- [23]
+				{
+					230, -- [1]
+					1526242114, -- [2]
+				}, -- [24]
+				{
+					250, -- [1]
+					1526242114, -- [2]
+				}, -- [25]
+				{
+					272, -- [1]
+					1526242114, -- [2]
+				}, -- [26]
+				{
+					342, -- [1]
+					1526242114, -- [2]
+				}, -- [27]
 			},
 			["Flame Reverberation"] = {
 				{
@@ -18992,6 +13499,34 @@ DeathGraphsDBGraph = {
 					242, -- [1]
 					1522310679, -- [2]
 				}, -- [10]
+				{
+					81, -- [1]
+					1526242114, -- [2]
+				}, -- [11]
+				{
+					113, -- [1]
+					1526242114, -- [2]
+				}, -- [12]
+				{
+					142, -- [1]
+					1526242114, -- [2]
+				}, -- [13]
+				{
+					213, -- [1]
+					1526242114, -- [2]
+				}, -- [14]
+				{
+					244, -- [1]
+					1526242114, -- [2]
+				}, -- [15]
+				{
+					274, -- [1]
+					1526242114, -- [2]
+				}, -- [16]
+				{
+					345, -- [1]
+					1526242114, -- [2]
+				}, -- [17]
 			},
 			["Forging Strike"] = {
 				{
@@ -19086,6 +13621,66 @@ DeathGraphsDBGraph = {
 					241, -- [1]
 					1522310679, -- [2]
 				}, -- [23]
+				{
+					6, -- [1]
+					1526242114, -- [2]
+				}, -- [24]
+				{
+					21, -- [1]
+					1526242114, -- [2]
+				}, -- [25]
+				{
+					80, -- [1]
+					1526242114, -- [2]
+				}, -- [26]
+				{
+					95, -- [1]
+					1526242114, -- [2]
+				}, -- [27]
+				{
+					111, -- [1]
+					1526242114, -- [2]
+				}, -- [28]
+				{
+					125, -- [1]
+					1526242114, -- [2]
+				}, -- [29]
+				{
+					140, -- [1]
+					1526242114, -- [2]
+				}, -- [30]
+				{
+					154, -- [1]
+					1526242114, -- [2]
+				}, -- [31]
+				{
+					211, -- [1]
+					1526242114, -- [2]
+				}, -- [32]
+				{
+					226, -- [1]
+					1526242114, -- [2]
+				}, -- [33]
+				{
+					242, -- [1]
+					1526242114, -- [2]
+				}, -- [34]
+				{
+					256, -- [1]
+					1526242114, -- [2]
+				}, -- [35]
+				{
+					271, -- [1]
+					1526242114, -- [2]
+				}, -- [36]
+				{
+					328, -- [1]
+					1526242114, -- [2]
+				}, -- [37]
+				{
+					344, -- [1]
+					1526242114, -- [2]
+				}, -- [38]
 			},
 			["Reverberating Strike"] = {
 				{
@@ -19132,6 +13727,38 @@ DeathGraphsDBGraph = {
 					213, -- [1]
 					1522310679, -- [2]
 				}, -- [11]
+				{
+					15, -- [1]
+					1526242114, -- [2]
+				}, -- [12]
+				{
+					81, -- [1]
+					1526242114, -- [2]
+				}, -- [13]
+				{
+					113, -- [1]
+					1526242114, -- [2]
+				}, -- [14]
+				{
+					142, -- [1]
+					1526242114, -- [2]
+				}, -- [15]
+				{
+					213, -- [1]
+					1526242114, -- [2]
+				}, -- [16]
+				{
+					244, -- [1]
+					1526242114, -- [2]
+				}, -- [17]
+				{
+					274, -- [1]
+					1526242114, -- [2]
+				}, -- [18]
+				{
+					345, -- [1]
+					1526242114, -- [2]
+				}, -- [19]
 			},
 			["Apocalypse Protocol"] = {
 				{
@@ -19154,6 +13781,18 @@ DeathGraphsDBGraph = {
 					158, -- [1]
 					1522310679, -- [2]
 				}, -- [5]
+				{
+					38, -- [1]
+					1526242114, -- [2]
+				}, -- [6]
+				{
+					157, -- [1]
+					1526242114, -- [2]
+				}, -- [7]
+				{
+					277, -- [1]
+					1526242114, -- [2]
+				}, -- [8]
 			},
 			["Demolish"] = {
 				{
@@ -19202,6 +13841,18 @@ DeathGraphsDBGraph = {
 					159, -- [1]
 					1522310679, -- [2]
 				}, -- [5]
+				{
+					38, -- [1]
+					1526242114, -- [2]
+				}, -- [6]
+				{
+					157, -- [1]
+					1526242114, -- [2]
+				}, -- [7]
+				{
+					277, -- [1]
+					1526242114, -- [2]
+				}, -- [8]
 			},
 			["Ruiner"] = {
 				{
@@ -19252,6 +13903,34 @@ DeathGraphsDBGraph = {
 					260, -- [1]
 					1522310679, -- [2]
 				}, -- [12]
+				{
+					27, -- [1]
+					1526242114, -- [2]
+				}, -- [13]
+				{
+					103, -- [1]
+					1526242114, -- [2]
+				}, -- [14]
+				{
+					132, -- [1]
+					1526242114, -- [2]
+				}, -- [15]
+				{
+					202, -- [1]
+					1526242114, -- [2]
+				}, -- [16]
+				{
+					234, -- [1]
+					1526242114, -- [2]
+				}, -- [17]
+				{
+					263, -- [1]
+					1526242114, -- [2]
+				}, -- [18]
+				{
+					335, -- [1]
+					1526242114, -- [2]
+				}, -- [19]
 			},
 		},
 		["ids"] = {
@@ -19729,17 +14408,17 @@ DeathGraphsDBGraph = {
 	},
 	["189614"] = {
 		["deaths"] = {
-			[279] = {
-				1510039216, -- [1]
-			},
 			[306] = {
 				1510039216, -- [1]
 				1510039216, -- [2]
 			},
-			[313] = {
+			[279] = {
 				1510039216, -- [1]
 			},
 			[310] = {
+				1510039216, -- [1]
+			},
+			[313] = {
 				1510039216, -- [1]
 			},
 		},
@@ -20903,96 +15582,6 @@ DeathGraphsDBGraph = {
 					1496623816, -- [2]
 				}, -- [5]
 			},
-			["Slam"] = {
-				{
-					32, -- [1]
-					1496623376, -- [2]
-				}, -- [1]
-				{
-					32, -- [1]
-					1496623376, -- [2]
-				}, -- [2]
-				{
-					62, -- [1]
-					1496623376, -- [2]
-				}, -- [3]
-				{
-					62, -- [1]
-					1496623376, -- [2]
-				}, -- [4]
-				{
-					92, -- [1]
-					1496623376, -- [2]
-				}, -- [5]
-				{
-					122, -- [1]
-					1496623376, -- [2]
-				}, -- [6]
-				{
-					122, -- [1]
-					1496623376, -- [2]
-				}, -- [7]
-				{
-					152, -- [1]
-					1496623376, -- [2]
-				}, -- [8]
-				{
-					152, -- [1]
-					1496623376, -- [2]
-				}, -- [9]
-				{
-					182, -- [1]
-					1496623376, -- [2]
-				}, -- [10]
-				{
-					32, -- [1]
-					1496623816, -- [2]
-				}, -- [11]
-				{
-					32, -- [1]
-					1496623816, -- [2]
-				}, -- [12]
-				{
-					62, -- [1]
-					1496623816, -- [2]
-				}, -- [13]
-				{
-					62, -- [1]
-					1496623816, -- [2]
-				}, -- [14]
-				{
-					92, -- [1]
-					1496623816, -- [2]
-				}, -- [15]
-				{
-					122, -- [1]
-					1496623816, -- [2]
-				}, -- [16]
-				{
-					122, -- [1]
-					1496623816, -- [2]
-				}, -- [17]
-				{
-					152, -- [1]
-					1496623816, -- [2]
-				}, -- [18]
-				{
-					152, -- [1]
-					1496623816, -- [2]
-				}, -- [19]
-				{
-					182, -- [1]
-					1496623816, -- [2]
-				}, -- [20]
-				{
-					212, -- [1]
-					1496623816, -- [2]
-				}, -- [21]
-				{
-					212, -- [1]
-					1496623816, -- [2]
-				}, -- [22]
-			},
 			["Felburst"] = {
 				{
 					54, -- [1]
@@ -21231,75 +15820,141 @@ DeathGraphsDBGraph = {
 					1496623816, -- [2]
 				}, -- [59]
 			},
-			["Fel Beam"] = {
+			["Slam"] = {
 				{
-					10, -- [1]
+					32, -- [1]
 					1496623376, -- [2]
 				}, -- [1]
 				{
-					39, -- [1]
+					32, -- [1]
 					1496623376, -- [2]
 				}, -- [2]
 				{
-					69, -- [1]
+					62, -- [1]
 					1496623376, -- [2]
 				}, -- [3]
 				{
-					114, -- [1]
+					62, -- [1]
 					1496623376, -- [2]
 				}, -- [4]
 				{
-					130, -- [1]
+					92, -- [1]
 					1496623376, -- [2]
 				}, -- [5]
 				{
-					146, -- [1]
+					122, -- [1]
 					1496623376, -- [2]
 				}, -- [6]
 				{
-					160, -- [1]
+					122, -- [1]
 					1496623376, -- [2]
 				}, -- [7]
 				{
-					176, -- [1]
+					152, -- [1]
 					1496623376, -- [2]
 				}, -- [8]
 				{
-					10, -- [1]
-					1496623816, -- [2]
+					152, -- [1]
+					1496623376, -- [2]
 				}, -- [9]
 				{
-					39, -- [1]
-					1496623816, -- [2]
+					182, -- [1]
+					1496623376, -- [2]
 				}, -- [10]
 				{
-					69, -- [1]
+					32, -- [1]
 					1496623816, -- [2]
 				}, -- [11]
 				{
-					114, -- [1]
+					32, -- [1]
 					1496623816, -- [2]
 				}, -- [12]
 				{
-					130, -- [1]
+					62, -- [1]
 					1496623816, -- [2]
 				}, -- [13]
 				{
-					146, -- [1]
+					62, -- [1]
 					1496623816, -- [2]
 				}, -- [14]
 				{
-					160, -- [1]
+					92, -- [1]
 					1496623816, -- [2]
 				}, -- [15]
 				{
-					176, -- [1]
+					122, -- [1]
 					1496623816, -- [2]
 				}, -- [16]
 				{
-					203, -- [1]
+					122, -- [1]
 					1496623816, -- [2]
 				}, -- [17]
+				{
+					152, -- [1]
+					1496623816, -- [2]
+				}, -- [18]
+				{
+					152, -- [1]
+					1496623816, -- [2]
+				}, -- [19]
+				{
+					182, -- [1]
+					1496623816, -- [2]
+				}, -- [20]
+				{
+					212, -- [1]
+					1496623816, -- [2]
+				}, -- [21]
+				{
+					212, -- [1]
+					1496623816, -- [2]
+				}, -- [22]
+			},
+			["Orb of Destruction"] = {
+				{
+					23, -- [1]
+					1496623376, -- [2]
+				}, -- [1]
+				{
+					83, -- [1]
+					1496623376, -- [2]
+				}, -- [2]
+				{
+					106, -- [1]
+					1496623376, -- [2]
+				}, -- [3]
+				{
+					168, -- [1]
+					1496623376, -- [2]
+				}, -- [4]
+				{
+					195, -- [1]
+					1496623376, -- [2]
+				}, -- [5]
+				{
+					23, -- [1]
+					1496623816, -- [2]
+				}, -- [6]
+				{
+					83, -- [1]
+					1496623816, -- [2]
+				}, -- [7]
+				{
+					106, -- [1]
+					1496623816, -- [2]
+				}, -- [8]
+				{
+					168, -- [1]
+					1496623816, -- [2]
+				}, -- [9]
+				{
+					195, -- [1]
+					1496623816, -- [2]
+				}, -- [10]
+				{
+					220, -- [1]
+					1496623816, -- [2]
+				}, -- [11]
 			},
 			["Searing Brand"] = {
 				{
@@ -21699,923 +16354,1116 @@ DeathGraphsDBGraph = {
 					1496623816, -- [2]
 				}, -- [99]
 			},
-			["Orb of Destruction"] = {
+			["Fel Beam"] = {
 				{
-					23, -- [1]
+					10, -- [1]
 					1496623376, -- [2]
 				}, -- [1]
 				{
-					83, -- [1]
+					39, -- [1]
 					1496623376, -- [2]
 				}, -- [2]
 				{
-					106, -- [1]
+					69, -- [1]
 					1496623376, -- [2]
 				}, -- [3]
 				{
-					168, -- [1]
+					114, -- [1]
 					1496623376, -- [2]
 				}, -- [4]
 				{
-					195, -- [1]
+					130, -- [1]
 					1496623376, -- [2]
 				}, -- [5]
 				{
-					23, -- [1]
-					1496623816, -- [2]
+					146, -- [1]
+					1496623376, -- [2]
 				}, -- [6]
 				{
-					83, -- [1]
-					1496623816, -- [2]
+					160, -- [1]
+					1496623376, -- [2]
 				}, -- [7]
 				{
-					106, -- [1]
-					1496623816, -- [2]
+					176, -- [1]
+					1496623376, -- [2]
 				}, -- [8]
 				{
-					168, -- [1]
+					10, -- [1]
 					1496623816, -- [2]
 				}, -- [9]
 				{
-					195, -- [1]
+					39, -- [1]
 					1496623816, -- [2]
 				}, -- [10]
 				{
-					220, -- [1]
+					69, -- [1]
 					1496623816, -- [2]
 				}, -- [11]
+				{
+					114, -- [1]
+					1496623816, -- [2]
+				}, -- [12]
+				{
+					130, -- [1]
+					1496623816, -- [2]
+				}, -- [13]
+				{
+					146, -- [1]
+					1496623816, -- [2]
+				}, -- [14]
+				{
+					160, -- [1]
+					1496623816, -- [2]
+				}, -- [15]
+				{
+					176, -- [1]
+					1496623816, -- [2]
+				}, -- [16]
+				{
+					203, -- [1]
+					1496623816, -- [2]
+				}, -- [17]
 			},
 		},
 		["ids"] = {
 			["Burning Pitch"] = 205420,
-			["Slam"] = 205863,
 			["Felburst"] = 206351,
-			["Fel Beam"] = 205370,
-			["Searing Brand"] = 206677,
+			["Slam"] = 205863,
 			["Orb of Destruction"] = 205361,
+			["Searing Brand"] = 206677,
+			["Fel Beam"] = 205370,
 		},
 	},
-	["200914"] = {
+	["190314"] = {
 		["deaths"] = {
-			[61] = {
-				1522307620, -- [1]
+			[175] = {
+				1510037730, -- [1]
 			},
-			[107] = {
-				1522307620, -- [1]
-				1522307620, -- [2]
+			[53] = {
+				1510037730, -- [1]
 			},
-			[169] = {
-				1522309028, -- [1]
+			[226] = {
+				1510037730, -- [1]
 			},
-			[237] = {
-				1522309028, -- [1]
+			[171] = {
+				1510037730, -- [1]
 			},
-			[223] = {
-				1522308292, -- [1]
-			},
-			[239] = {
-				1522308292, -- [1]
-			},
-			[240] = {
-				1522309028, -- [1]
-			},
-			[113] = {
-				1522308292, -- [1]
-			},
-			[244] = {
-				1522309028, -- [1]
-			},
-			[204] = {
-				1522308292, -- [1]
-			},
-			[110] = {
-				1522307620, -- [1]
-				1522307620, -- [2]
-			},
-			[228] = {
-				1522309028, -- [1]
-			},
-			[219] = {
-				1522308292, -- [1]
+			[308] = {
+				1510037730, -- [1]
 			},
 		},
 		["spells"] = {
-			["Shock Lance"] = {
-				{
-					4, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
-				{
-					9, -- [1]
-					1522307620, -- [2]
-				}, -- [2]
-				{
-					14, -- [1]
-					1522307620, -- [2]
-				}, -- [3]
+			["Twilight Glaive"] = {
 				{
 					18, -- [1]
-					1522307620, -- [2]
-				}, -- [4]
+					1510037730, -- [2]
+				}, -- [1]
 				{
-					23, -- [1]
-					1522307620, -- [2]
-				}, -- [5]
-				{
-					28, -- [1]
-					1522307620, -- [2]
-				}, -- [6]
-				{
-					33, -- [1]
-					1522307620, -- [2]
-				}, -- [7]
+					21, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
 				{
 					38, -- [1]
-					1522307620, -- [2]
-				}, -- [8]
-				{
-					43, -- [1]
-					1522307620, -- [2]
-				}, -- [9]
-				{
-					48, -- [1]
-					1522307620, -- [2]
-				}, -- [10]
-				{
-					52, -- [1]
-					1522307620, -- [2]
-				}, -- [11]
-				{
-					57, -- [1]
-					1522307620, -- [2]
-				}, -- [12]
-				{
-					62, -- [1]
-					1522307620, -- [2]
-				}, -- [13]
-				{
-					67, -- [1]
-					1522307620, -- [2]
-				}, -- [14]
-				{
-					72, -- [1]
-					1522307620, -- [2]
-				}, -- [15]
-				{
-					77, -- [1]
-					1522307620, -- [2]
-				}, -- [16]
-				{
-					82, -- [1]
-					1522307620, -- [2]
-				}, -- [17]
-				{
-					86, -- [1]
-					1522307620, -- [2]
-				}, -- [18]
-				{
-					91, -- [1]
-					1522307620, -- [2]
-				}, -- [19]
-				{
-					96, -- [1]
-					1522307620, -- [2]
-				}, -- [20]
-				{
-					4, -- [1]
-					1522308292, -- [2]
-				}, -- [21]
-				{
-					9, -- [1]
-					1522308292, -- [2]
-				}, -- [22]
-				{
-					14, -- [1]
-					1522308292, -- [2]
-				}, -- [23]
-				{
-					18, -- [1]
-					1522308292, -- [2]
-				}, -- [24]
-				{
-					23, -- [1]
-					1522308292, -- [2]
-				}, -- [25]
-				{
-					28, -- [1]
-					1522308292, -- [2]
-				}, -- [26]
-				{
-					33, -- [1]
-					1522308292, -- [2]
-				}, -- [27]
-				{
-					38, -- [1]
-					1522308292, -- [2]
-				}, -- [28]
-				{
-					43, -- [1]
-					1522308292, -- [2]
-				}, -- [29]
-				{
-					48, -- [1]
-					1522308292, -- [2]
-				}, -- [30]
-				{
-					52, -- [1]
-					1522308292, -- [2]
-				}, -- [31]
-				{
-					57, -- [1]
-					1522308292, -- [2]
-				}, -- [32]
-				{
-					62, -- [1]
-					1522308292, -- [2]
-				}, -- [33]
-				{
-					67, -- [1]
-					1522308292, -- [2]
-				}, -- [34]
-				{
-					72, -- [1]
-					1522308292, -- [2]
-				}, -- [35]
-				{
-					77, -- [1]
-					1522308292, -- [2]
-				}, -- [36]
-				{
-					82, -- [1]
-					1522308292, -- [2]
-				}, -- [37]
-				{
-					86, -- [1]
-					1522308292, -- [2]
-				}, -- [38]
-				{
-					91, -- [1]
-					1522308292, -- [2]
-				}, -- [39]
-				{
-					96, -- [1]
-					1522308292, -- [2]
-				}, -- [40]
-				{
-					100, -- [1]
-					1522308292, -- [2]
-				}, -- [41]
-				{
-					105, -- [1]
-					1522308292, -- [2]
-				}, -- [42]
-				{
-					4, -- [1]
-					1522309028, -- [2]
-				}, -- [43]
-				{
-					9, -- [1]
-					1522309028, -- [2]
-				}, -- [44]
-				{
-					13, -- [1]
-					1522309028, -- [2]
-				}, -- [45]
-				{
-					18, -- [1]
-					1522309028, -- [2]
-				}, -- [46]
-				{
-					23, -- [1]
-					1522309028, -- [2]
-				}, -- [47]
-				{
-					28, -- [1]
-					1522309028, -- [2]
-				}, -- [48]
-				{
-					33, -- [1]
-					1522309028, -- [2]
-				}, -- [49]
-				{
-					38, -- [1]
-					1522309028, -- [2]
-				}, -- [50]
-				{
-					43, -- [1]
-					1522309028, -- [2]
-				}, -- [51]
-				{
-					48, -- [1]
-					1522309028, -- [2]
-				}, -- [52]
-				{
-					52, -- [1]
-					1522309028, -- [2]
-				}, -- [53]
-				{
-					57, -- [1]
-					1522309028, -- [2]
-				}, -- [54]
-				{
-					62, -- [1]
-					1522309028, -- [2]
-				}, -- [55]
-				{
-					67, -- [1]
-					1522309028, -- [2]
-				}, -- [56]
-				{
-					72, -- [1]
-					1522309028, -- [2]
-				}, -- [57]
-				{
-					77, -- [1]
-					1522309028, -- [2]
-				}, -- [58]
-				{
-					82, -- [1]
-					1522309028, -- [2]
-				}, -- [59]
-				{
-					86, -- [1]
-					1522309028, -- [2]
-				}, -- [60]
-				{
-					91, -- [1]
-					1522309028, -- [2]
-				}, -- [61]
-				{
-					96, -- [1]
-					1522309028, -- [2]
-				}, -- [62]
-			},
-			["Conflagration"] = {
-				{
-					107, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
-				{
-					114, -- [1]
-					1522308292, -- [2]
-				}, -- [2]
-				{
-					241, -- [1]
-					1522308292, -- [2]
+					1510037730, -- [2]
 				}, -- [3]
 				{
-					106, -- [1]
-					1522309028, -- [2]
+					41, -- [1]
+					1510037730, -- [2]
 				}, -- [4]
 				{
-					236, -- [1]
-					1522309028, -- [2]
-				}, -- [5]
-			},
-			["Charged Blasts"] = {
-				{
-					136, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
-				{
-					155, -- [1]
-					1522307620, -- [2]
-				}, -- [2]
-				{
-					140, -- [1]
-					1522308292, -- [2]
-				}, -- [3]
-				{
-					159, -- [1]
-					1522308292, -- [2]
-				}, -- [4]
-				{
-					177, -- [1]
-					1522308292, -- [2]
+					56, -- [1]
+					1510037730, -- [2]
 				}, -- [5]
 				{
-					195, -- [1]
-					1522308292, -- [2]
+					59, -- [1]
+					1510037730, -- [2]
 				}, -- [6]
 				{
-					215, -- [1]
-					1522308292, -- [2]
+					69, -- [1]
+					1510037730, -- [2]
 				}, -- [7]
 				{
-					233, -- [1]
-					1522308292, -- [2]
+					72, -- [1]
+					1510037730, -- [2]
 				}, -- [8]
 				{
-					136, -- [1]
-					1522309028, -- [2]
+					91, -- [1]
+					1510037730, -- [2]
 				}, -- [9]
 				{
-					154, -- [1]
-					1522309028, -- [2]
+					94, -- [1]
+					1510037730, -- [2]
 				}, -- [10]
 				{
-					172, -- [1]
-					1522309028, -- [2]
+					120, -- [1]
+					1510037730, -- [2]
 				}, -- [11]
 				{
-					190, -- [1]
-					1522309028, -- [2]
+					123, -- [1]
+					1510037730, -- [2]
 				}, -- [12]
-				{
-					210, -- [1]
-					1522309028, -- [2]
-				}, -- [13]
-				{
-					228, -- [1]
-					1522309028, -- [2]
-				}, -- [14]
-			},
-			["Pulse Grenade"] = {
-				{
-					15, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
-				{
-					32, -- [1]
-					1522307620, -- [2]
-				}, -- [2]
-				{
-					49, -- [1]
-					1522307620, -- [2]
-				}, -- [3]
-				{
-					66, -- [1]
-					1522307620, -- [2]
-				}, -- [4]
-				{
-					83, -- [1]
-					1522307620, -- [2]
-				}, -- [5]
-				{
-					100, -- [1]
-					1522307620, -- [2]
-				}, -- [6]
-				{
-					15, -- [1]
-					1522308292, -- [2]
-				}, -- [7]
-				{
-					32, -- [1]
-					1522308292, -- [2]
-				}, -- [8]
-				{
-					49, -- [1]
-					1522308292, -- [2]
-				}, -- [9]
-				{
-					66, -- [1]
-					1522308292, -- [2]
-				}, -- [10]
-				{
-					83, -- [1]
-					1522308292, -- [2]
-				}, -- [11]
-				{
-					101, -- [1]
-					1522308292, -- [2]
-				}, -- [12]
-				{
-					15, -- [1]
-					1522309028, -- [2]
-				}, -- [13]
-				{
-					32, -- [1]
-					1522309028, -- [2]
-				}, -- [14]
-				{
-					49, -- [1]
-					1522309028, -- [2]
-				}, -- [15]
-				{
-					66, -- [1]
-					1522309028, -- [2]
-				}, -- [16]
-				{
-					83, -- [1]
-					1522309028, -- [2]
-				}, -- [17]
-			},
-			["Empowered Pulse Grenade"] = {
-				{
-					287, -- [1]
-					1522308292, -- [2]
-				}, -- [1]
-				{
-					278, -- [1]
-					1522309028, -- [2]
-				}, -- [2]
-				{
-					305, -- [1]
-					1522309028, -- [2]
-				}, -- [3]
-				{
-					333, -- [1]
-					1522309028, -- [2]
-				}, -- [4]
-				{
-					360, -- [1]
-					1522309028, -- [2]
-				}, -- [5]
-				{
-					386, -- [1]
-					1522309028, -- [2]
-				}, -- [6]
-			},
-			["Sleep Canister"] = {
-				{
-					8, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
-				{
-					20, -- [1]
-					1522307620, -- [2]
-				}, -- [2]
-				{
-					34, -- [1]
-					1522307620, -- [2]
-				}, -- [3]
-				{
-					46, -- [1]
-					1522307620, -- [2]
-				}, -- [4]
-				{
-					58, -- [1]
-					1522307620, -- [2]
-				}, -- [5]
-				{
-					71, -- [1]
-					1522307620, -- [2]
-				}, -- [6]
-				{
-					84, -- [1]
-					1522307620, -- [2]
-				}, -- [7]
-				{
-					97, -- [1]
-					1522307620, -- [2]
-				}, -- [8]
-				{
-					7, -- [1]
-					1522308292, -- [2]
-				}, -- [9]
-				{
-					20, -- [1]
-					1522308292, -- [2]
-				}, -- [10]
-				{
-					34, -- [1]
-					1522308292, -- [2]
-				}, -- [11]
-				{
-					46, -- [1]
-					1522308292, -- [2]
-				}, -- [12]
-				{
-					58, -- [1]
-					1522308292, -- [2]
-				}, -- [13]
-				{
-					71, -- [1]
-					1522308292, -- [2]
-				}, -- [14]
-				{
-					84, -- [1]
-					1522308292, -- [2]
-				}, -- [15]
-				{
-					97, -- [1]
-					1522308292, -- [2]
-				}, -- [16]
-				{
-					7, -- [1]
-					1522309028, -- [2]
-				}, -- [17]
-				{
-					20, -- [1]
-					1522309028, -- [2]
-				}, -- [18]
-				{
-					34, -- [1]
-					1522309028, -- [2]
-				}, -- [19]
-				{
-					46, -- [1]
-					1522309028, -- [2]
-				}, -- [20]
-				{
-					58, -- [1]
-					1522309028, -- [2]
-				}, -- [21]
-				{
-					71, -- [1]
-					1522309028, -- [2]
-				}, -- [22]
-				{
-					84, -- [1]
-					1522309028, -- [2]
-				}, -- [23]
-				{
-					97, -- [1]
-					1522309028, -- [2]
-				}, -- [24]
-			},
-			["Sever"] = {
-				{
-					134, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
 				{
 					141, -- [1]
-					1522307620, -- [2]
-				}, -- [2]
-				{
-					148, -- [1]
-					1522307620, -- [2]
-				}, -- [3]
-				{
-					138, -- [1]
-					1522308292, -- [2]
-				}, -- [4]
-				{
-					145, -- [1]
-					1522308292, -- [2]
-				}, -- [5]
-				{
-					152, -- [1]
-					1522308292, -- [2]
-				}, -- [6]
-				{
-					161, -- [1]
-					1522308292, -- [2]
-				}, -- [7]
-				{
-					168, -- [1]
-					1522308292, -- [2]
-				}, -- [8]
-				{
-					175, -- [1]
-					1522308292, -- [2]
-				}, -- [9]
-				{
-					183, -- [1]
-					1522308292, -- [2]
-				}, -- [10]
-				{
-					190, -- [1]
-					1522308292, -- [2]
-				}, -- [11]
-				{
-					197, -- [1]
-					1522308292, -- [2]
-				}, -- [12]
-				{
-					204, -- [1]
-					1522308292, -- [2]
+					1510037730, -- [2]
 				}, -- [13]
-				{
-					212, -- [1]
-					1522308292, -- [2]
-				}, -- [14]
-				{
-					219, -- [1]
-					1522308292, -- [2]
-				}, -- [15]
-				{
-					226, -- [1]
-					1522308292, -- [2]
-				}, -- [16]
-				{
-					133, -- [1]
-					1522309028, -- [2]
-				}, -- [17]
-				{
-					140, -- [1]
-					1522309028, -- [2]
-				}, -- [18]
-				{
-					147, -- [1]
-					1522309028, -- [2]
-				}, -- [19]
-				{
-					156, -- [1]
-					1522309028, -- [2]
-				}, -- [20]
-				{
-					163, -- [1]
-					1522309028, -- [2]
-				}, -- [21]
-				{
-					170, -- [1]
-					1522309028, -- [2]
-				}, -- [22]
-				{
-					178, -- [1]
-					1522309028, -- [2]
-				}, -- [23]
-				{
-					185, -- [1]
-					1522309028, -- [2]
-				}, -- [24]
-				{
-					192, -- [1]
-					1522309028, -- [2]
-				}, -- [25]
-				{
-					199, -- [1]
-					1522309028, -- [2]
-				}, -- [26]
-				{
-					207, -- [1]
-					1522309028, -- [2]
-				}, -- [27]
-				{
-					214, -- [1]
-					1522309028, -- [2]
-				}, -- [28]
-				{
-					221, -- [1]
-					1522309028, -- [2]
-				}, -- [29]
-			},
-			["Empowered Shrapnel Blast"] = {
-				{
-					296, -- [1]
-					1522308292, -- [2]
-				}, -- [1]
-				{
-					289, -- [1]
-					1522309028, -- [2]
-				}, -- [2]
-				{
-					310, -- [1]
-					1522309028, -- [2]
-				}, -- [3]
-				{
-					331, -- [1]
-					1522309028, -- [2]
-				}, -- [4]
-				{
-					349, -- [1]
-					1522309028, -- [2]
-				}, -- [5]
-				{
-					366, -- [1]
-					1522309028, -- [2]
-				}, -- [6]
-				{
-					381, -- [1]
-					1522309028, -- [2]
-				}, -- [7]
-				{
-					393, -- [1]
-					1522309028, -- [2]
-				}, -- [8]
-			},
-			["Empowered Shock Lance"] = {
-				{
-					285, -- [1]
-					1522308292, -- [2]
-				}, -- [1]
-				{
-					294, -- [1]
-					1522308292, -- [2]
-				}, -- [2]
-				{
-					277, -- [1]
-					1522309028, -- [2]
-				}, -- [3]
-				{
-					287, -- [1]
-					1522309028, -- [2]
-				}, -- [4]
-				{
-					297, -- [1]
-					1522309028, -- [2]
-				}, -- [5]
-				{
-					306, -- [1]
-					1522309028, -- [2]
-				}, -- [6]
-				{
-					316, -- [1]
-					1522309028, -- [2]
-				}, -- [7]
-				{
-					326, -- [1]
-					1522309028, -- [2]
-				}, -- [8]
-				{
-					336, -- [1]
-					1522309028, -- [2]
-				}, -- [9]
-				{
-					345, -- [1]
-					1522309028, -- [2]
-				}, -- [10]
-				{
-					355, -- [1]
-					1522309028, -- [2]
-				}, -- [11]
-				{
-					365, -- [1]
-					1522309028, -- [2]
-				}, -- [12]
-				{
-					374, -- [1]
-					1522309028, -- [2]
-				}, -- [13]
-				{
-					384, -- [1]
-					1522309028, -- [2]
-				}, -- [14]
-				{
-					395, -- [1]
-					1522309028, -- [2]
-				}, -- [15]
-			},
-			["Shrapnel Blast"] = {
-				{
-					140, -- [1]
-					1522307620, -- [2]
-				}, -- [1]
-				{
-					153, -- [1]
-					1522307620, -- [2]
-				}, -- [2]
 				{
 					144, -- [1]
-					1522308292, -- [2]
-				}, -- [3]
-				{
-					157, -- [1]
-					1522308292, -- [2]
-				}, -- [4]
-				{
-					170, -- [1]
-					1522308292, -- [2]
-				}, -- [5]
-				{
-					184, -- [1]
-					1522308292, -- [2]
-				}, -- [6]
-				{
-					198, -- [1]
-					1522308292, -- [2]
-				}, -- [7]
-				{
-					213, -- [1]
-					1522308292, -- [2]
-				}, -- [8]
-				{
-					228, -- [1]
-					1522308292, -- [2]
-				}, -- [9]
-				{
-					139, -- [1]
-					1522309028, -- [2]
-				}, -- [10]
-				{
-					152, -- [1]
-					1522309028, -- [2]
-				}, -- [11]
-				{
-					165, -- [1]
-					1522309028, -- [2]
-				}, -- [12]
-				{
-					179, -- [1]
-					1522309028, -- [2]
-				}, -- [13]
-				{
-					193, -- [1]
-					1522309028, -- [2]
+					1510037730, -- [2]
 				}, -- [14]
 				{
-					208, -- [1]
-					1522309028, -- [2]
+					167, -- [1]
+					1510037730, -- [2]
 				}, -- [15]
 				{
-					223, -- [1]
-					1522309028, -- [2]
+					170, -- [1]
+					1510037730, -- [2]
 				}, -- [16]
+				{
+					174, -- [1]
+					1510037730, -- [2]
+				}, -- [17]
+				{
+					177, -- [1]
+					1510037730, -- [2]
+				}, -- [18]
+				{
+					195, -- [1]
+					1510037730, -- [2]
+				}, -- [19]
+				{
+					198, -- [1]
+					1510037730, -- [2]
+				}, -- [20]
+				{
+					221, -- [1]
+					1510037730, -- [2]
+				}, -- [21]
+				{
+					224, -- [1]
+					1510037730, -- [2]
+				}, -- [22]
+				{
+					229, -- [1]
+					1510037730, -- [2]
+				}, -- [23]
+				{
+					232, -- [1]
+					1510037730, -- [2]
+				}, -- [24]
+				{
+					249, -- [1]
+					1510037730, -- [2]
+				}, -- [25]
+				{
+					252, -- [1]
+					1510037730, -- [2]
+				}, -- [26]
+				{
+					276, -- [1]
+					1510037730, -- [2]
+				}, -- [27]
+				{
+					279, -- [1]
+					1510037730, -- [2]
+				}, -- [28]
+				{
+					282, -- [1]
+					1510037730, -- [2]
+				}, -- [29]
+				{
+					285, -- [1]
+					1510037730, -- [2]
+				}, -- [30]
+				{
+					303, -- [1]
+					1510037730, -- [2]
+				}, -- [31]
+				{
+					306, -- [1]
+					1510037730, -- [2]
+				}, -- [32]
+				{
+					331, -- [1]
+					1510037730, -- [2]
+				}, -- [33]
+				{
+					334, -- [1]
+					1510037730, -- [2]
+				}, -- [34]
+				{
+					338, -- [1]
+					1510037730, -- [2]
+				}, -- [35]
+				{
+					341, -- [1]
+					1510037730, -- [2]
+				}, -- [36]
+				{
+					359, -- [1]
+					1510037730, -- [2]
+				}, -- [37]
+				{
+					362, -- [1]
+					1510037730, -- [2]
+				}, -- [38]
+				{
+					384, -- [1]
+					1510037730, -- [2]
+				}, -- [39]
+				{
+					387, -- [1]
+					1510037730, -- [2]
+				}, -- [40]
+				{
+					391, -- [1]
+					1510037730, -- [2]
+				}, -- [41]
+			},
+			["Lunar Strike"] = {
+				{
+					3, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					6, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					10, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					13, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					17, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					21, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					24, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					28, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					35, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					39, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					43, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					46, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+				{
+					58, -- [1]
+					1510037730, -- [2]
+				}, -- [13]
+				{
+					62, -- [1]
+					1510037730, -- [2]
+				}, -- [14]
+				{
+					68, -- [1]
+					1510037730, -- [2]
+				}, -- [15]
+				{
+					72, -- [1]
+					1510037730, -- [2]
+				}, -- [16]
+				{
+					75, -- [1]
+					1510037730, -- [2]
+				}, -- [17]
+				{
+					79, -- [1]
+					1510037730, -- [2]
+				}, -- [18]
+				{
+					83, -- [1]
+					1510037730, -- [2]
+				}, -- [19]
+				{
+					86, -- [1]
+					1510037730, -- [2]
+				}, -- [20]
+				{
+					94, -- [1]
+					1510037730, -- [2]
+				}, -- [21]
+				{
+					97, -- [1]
+					1510037730, -- [2]
+				}, -- [22]
+				{
+					101, -- [1]
+					1510037730, -- [2]
+				}, -- [23]
+				{
+					112, -- [1]
+					1510037730, -- [2]
+				}, -- [24]
+				{
+					113, -- [1]
+					1510037730, -- [2]
+				}, -- [25]
+				{
+					117, -- [1]
+					1510037730, -- [2]
+				}, -- [26]
+				{
+					120, -- [1]
+					1510037730, -- [2]
+				}, -- [27]
+				{
+					124, -- [1]
+					1510037730, -- [2]
+				}, -- [28]
+				{
+					128, -- [1]
+					1510037730, -- [2]
+				}, -- [29]
+				{
+					131, -- [1]
+					1510037730, -- [2]
+				}, -- [30]
+				{
+					135, -- [1]
+					1510037730, -- [2]
+				}, -- [31]
+				{
+					139, -- [1]
+					1510037730, -- [2]
+				}, -- [32]
+				{
+					142, -- [1]
+					1510037730, -- [2]
+				}, -- [33]
+				{
+					148, -- [1]
+					1510037730, -- [2]
+				}, -- [34]
+				{
+					152, -- [1]
+					1510037730, -- [2]
+				}, -- [35]
+				{
+					156, -- [1]
+					1510037730, -- [2]
+				}, -- [36]
+				{
+					167, -- [1]
+					1510037730, -- [2]
+				}, -- [37]
+				{
+					170, -- [1]
+					1510037730, -- [2]
+				}, -- [38]
+				{
+					174, -- [1]
+					1510037730, -- [2]
+				}, -- [39]
+				{
+					178, -- [1]
+					1510037730, -- [2]
+				}, -- [40]
+				{
+					182, -- [1]
+					1510037730, -- [2]
+				}, -- [41]
+				{
+					186, -- [1]
+					1510037730, -- [2]
+				}, -- [42]
+				{
+					190, -- [1]
+					1510037730, -- [2]
+				}, -- [43]
+				{
+					196, -- [1]
+					1510037730, -- [2]
+				}, -- [44]
+				{
+					199, -- [1]
+					1510037730, -- [2]
+				}, -- [45]
+				{
+					203, -- [1]
+					1510037730, -- [2]
+				}, -- [46]
+			},
+			["Lunar Fire"] = {
+				{
+					229, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					240, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					252, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					263, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					283, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					297, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					308, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					319, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					339, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					353, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					363, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					374, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+			},
+			["Incorporeal Shot"] = {
+				{
+					47, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+			},
+			["Embrace of the Eclipse"] = {
+				{
+					102, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					157, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+			},
+			["Moon Burn"] = {
+				{
+					9, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					33, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					58, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					67, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					92, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					123, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					146, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					169, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					195, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					233, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					251, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					277, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+				{
+					297, -- [1]
+					1510037730, -- [2]
+				}, -- [13]
+				{
+					315, -- [1]
+					1510037730, -- [2]
+				}, -- [14]
+				{
+					332, -- [1]
+					1510037730, -- [2]
+				}, -- [15]
+				{
+					349, -- [1]
+					1510037730, -- [2]
+				}, -- [16]
+				{
+					367, -- [1]
+					1510037730, -- [2]
+				}, -- [17]
+				{
+					386, -- [1]
+					1510037730, -- [2]
+				}, -- [18]
+			},
+			["Rapid Shot"] = {
+				{
+					79, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					97, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					120, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					140, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					167, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					185, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					203, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+			},
+			["Call Moontalon"] = {
+				{
+					73, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					195, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+			},
+			["Shadow Shot"] = {
+				{
+					4, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					7, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					11, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					18, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					22, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					26, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					29, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					33, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					38, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					41, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					45, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					58, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+				{
+					62, -- [1]
+					1510037730, -- [2]
+				}, -- [13]
+				{
+					203, -- [1]
+					1510037730, -- [2]
+				}, -- [14]
+				{
+					224, -- [1]
+					1510037730, -- [2]
+				}, -- [15]
+				{
+					227, -- [1]
+					1510037730, -- [2]
+				}, -- [16]
+				{
+					233, -- [1]
+					1510037730, -- [2]
+				}, -- [17]
+				{
+					237, -- [1]
+					1510037730, -- [2]
+				}, -- [18]
+				{
+					241, -- [1]
+					1510037730, -- [2]
+				}, -- [19]
+				{
+					244, -- [1]
+					1510037730, -- [2]
+				}, -- [20]
+				{
+					248, -- [1]
+					1510037730, -- [2]
+				}, -- [21]
+				{
+					254, -- [1]
+					1510037730, -- [2]
+				}, -- [22]
+				{
+					258, -- [1]
+					1510037730, -- [2]
+				}, -- [23]
+				{
+					261, -- [1]
+					1510037730, -- [2]
+				}, -- [24]
+				{
+					265, -- [1]
+					1510037730, -- [2]
+				}, -- [25]
+				{
+					277, -- [1]
+					1510037730, -- [2]
+				}, -- [26]
+				{
+					281, -- [1]
+					1510037730, -- [2]
+				}, -- [27]
+				{
+					289, -- [1]
+					1510037730, -- [2]
+				}, -- [28]
+				{
+					293, -- [1]
+					1510037730, -- [2]
+				}, -- [29]
+				{
+					297, -- [1]
+					1510037730, -- [2]
+				}, -- [30]
+				{
+					300, -- [1]
+					1510037730, -- [2]
+				}, -- [31]
+				{
+					304, -- [1]
+					1510037730, -- [2]
+				}, -- [32]
+				{
+					314, -- [1]
+					1510037730, -- [2]
+				}, -- [33]
+				{
+					317, -- [1]
+					1510037730, -- [2]
+				}, -- [34]
+				{
+					332, -- [1]
+					1510037730, -- [2]
+				}, -- [35]
+				{
+					336, -- [1]
+					1510037730, -- [2]
+				}, -- [36]
+				{
+					343, -- [1]
+					1510037730, -- [2]
+				}, -- [37]
+				{
+					346, -- [1]
+					1510037730, -- [2]
+				}, -- [38]
+				{
+					350, -- [1]
+					1510037730, -- [2]
+				}, -- [39]
+				{
+					354, -- [1]
+					1510037730, -- [2]
+				}, -- [40]
+				{
+					357, -- [1]
+					1510037730, -- [2]
+				}, -- [41]
+				{
+					363, -- [1]
+					1510037730, -- [2]
+				}, -- [42]
+				{
+					367, -- [1]
+					1510037730, -- [2]
+				}, -- [43]
+				{
+					371, -- [1]
+					1510037730, -- [2]
+				}, -- [44]
+				{
+					387, -- [1]
+					1510037730, -- [2]
+				}, -- [45]
+				{
+					390, -- [1]
+					1510037730, -- [2]
+				}, -- [46]
+			},
+			["Incorporeal Teleport"] = {
+				{
+					4, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					13, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					22, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					35, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					40, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					62, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					63, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					72, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					94, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					128, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					148, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					182, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+				{
+					203, -- [1]
+					1510037730, -- [2]
+				}, -- [13]
+				{
+					203, -- [1]
+					1510037730, -- [2]
+				}, -- [14]
+				{
+					222, -- [1]
+					1510037730, -- [2]
+				}, -- [15]
+				{
+					244, -- [1]
+					1510037730, -- [2]
+				}, -- [16]
+				{
+					264, -- [1]
+					1510037730, -- [2]
+				}, -- [17]
+				{
+					289, -- [1]
+					1510037730, -- [2]
+				}, -- [18]
+				{
+					310, -- [1]
+					1510037730, -- [2]
+				}, -- [19]
+				{
+					334, -- [1]
+					1510037730, -- [2]
+				}, -- [20]
+				{
+					357, -- [1]
+					1510037730, -- [2]
+				}, -- [21]
+				{
+					375, -- [1]
+					1510037730, -- [2]
+				}, -- [22]
+			},
+			["Twilight Volley"] = {
+				{
+					18, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					37, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					79, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					93, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					125, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					139, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					155, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					178, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					199, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					233, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					253, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					287, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+				{
+					313, -- [1]
+					1510037730, -- [2]
+				}, -- [13]
+				{
+					342, -- [1]
+					1510037730, -- [2]
+				}, -- [14]
+				{
+					363, -- [1]
+					1510037730, -- [2]
+				}, -- [15]
+			},
+			["Moon Glaive"] = {
+				{
+					14, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					31, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					46, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+			},
+			["Lunar Beacon"] = {
+				{
+					223, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					245, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					267, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					294, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					318, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					352, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					373, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+			},
+			["Glaive Storm"] = {
+				{
+					215, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					218, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
+				{
+					220, -- [1]
+					1510037730, -- [2]
+				}, -- [3]
+				{
+					221, -- [1]
+					1510037730, -- [2]
+				}, -- [4]
+				{
+					222, -- [1]
+					1510037730, -- [2]
+				}, -- [5]
+				{
+					269, -- [1]
+					1510037730, -- [2]
+				}, -- [6]
+				{
+					272, -- [1]
+					1510037730, -- [2]
+				}, -- [7]
+				{
+					275, -- [1]
+					1510037730, -- [2]
+				}, -- [8]
+				{
+					276, -- [1]
+					1510037730, -- [2]
+				}, -- [9]
+				{
+					324, -- [1]
+					1510037730, -- [2]
+				}, -- [10]
+				{
+					327, -- [1]
+					1510037730, -- [2]
+				}, -- [11]
+				{
+					330, -- [1]
+					1510037730, -- [2]
+				}, -- [12]
+				{
+					331, -- [1]
+					1510037730, -- [2]
+				}, -- [13]
+				{
+					378, -- [1]
+					1510037730, -- [2]
+				}, -- [14]
+				{
+					381, -- [1]
+					1510037730, -- [2]
+				}, -- [15]
+				{
+					384, -- [1]
+					1510037730, -- [2]
+				}, -- [16]
+				{
+					385, -- [1]
+					1510037730, -- [2]
+				}, -- [17]
+			},
+			["Deathly Screech"] = {
+				{
+					99, -- [1]
+					1510037730, -- [2]
+				}, -- [1]
+				{
+					224, -- [1]
+					1510037730, -- [2]
+				}, -- [2]
 			},
 		},
 		["ids"] = {
-			["Shock Lance"] = 247367,
-			["Conflagration"] = 250135,
-			["Charged Blasts"] = 248254,
-			["Pulse Grenade"] = 247376,
-			["Empowered Pulse Grenade"] = 248068,
-			["Sleep Canister"] = 254244,
-			["Sever"] = 247687,
-			["Empowered Shrapnel Blast"] = 248070,
-			["Empowered Shock Lance"] = 250255,
-			["Shrapnel Blast"] = 247923,
+			["Twilight Glaive"] = 237561,
+			["Lunar Strike"] = 237632,
+			["Lunar Fire"] = 239264,
+			["Incorporeal Shot"] = 236305,
+			["Embrace of the Eclipse"] = 233263,
+			["Moon Burn"] = 236518,
+			["Rapid Shot"] = 236596,
+			["Call Moontalon"] = 236694,
+			["Shadow Shot"] = 237630,
+			["Incorporeal Teleport"] = 236115,
+			["Twilight Volley"] = 236442,
+			["Moon Glaive"] = 236547,
+			["Lunar Beacon"] = 236712,
+			["Glaive Storm"] = 239386,
+			["Deathly Screech"] = 236697,
 		},
 	},
 	["172515"] = {
@@ -23187,1036 +18035,1122 @@ DeathGraphsDBGraph = {
 			["Bone Saw"] = 233441,
 		},
 	},
-	["190314"] = {
+	["200914"] = {
 		["deaths"] = {
-			[175] = {
-				1510037730, -- [1]
+			[61] = {
+				1522307620, -- [1]
 			},
-			[53] = {
-				1510037730, -- [1]
+			[107] = {
+				1522307620, -- [1]
+				1522307620, -- [2]
 			},
-			[226] = {
-				1510037730, -- [1]
+			[169] = {
+				1522309028, -- [1]
 			},
-			[171] = {
-				1510037730, -- [1]
+			[237] = {
+				1522309028, -- [1]
 			},
-			[308] = {
-				1510037730, -- [1]
+			[223] = {
+				1522308292, -- [1]
+			},
+			[239] = {
+				1522308292, -- [1]
+			},
+			[244] = {
+				1522309028, -- [1]
+			},
+			[240] = {
+				1522309028, -- [1]
+			},
+			[36] = {
+				1526241531, -- [1]
+			},
+			[228] = {
+				1522309028, -- [1]
+			},
+			[219] = {
+				1522308292, -- [1]
+			},
+			[110] = {
+				1522307620, -- [1]
+				1522307620, -- [2]
+			},
+			[204] = {
+				1522308292, -- [1]
+			},
+			[113] = {
+				1522308292, -- [1]
 			},
 		},
 		["spells"] = {
-			["Twilight Glaive"] = {
-				{
-					18, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					21, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					38, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					41, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					56, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					59, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					69, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					72, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					91, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					94, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					120, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					123, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-				{
-					141, -- [1]
-					1510037730, -- [2]
-				}, -- [13]
-				{
-					144, -- [1]
-					1510037730, -- [2]
-				}, -- [14]
-				{
-					167, -- [1]
-					1510037730, -- [2]
-				}, -- [15]
-				{
-					170, -- [1]
-					1510037730, -- [2]
-				}, -- [16]
-				{
-					174, -- [1]
-					1510037730, -- [2]
-				}, -- [17]
-				{
-					177, -- [1]
-					1510037730, -- [2]
-				}, -- [18]
-				{
-					195, -- [1]
-					1510037730, -- [2]
-				}, -- [19]
-				{
-					198, -- [1]
-					1510037730, -- [2]
-				}, -- [20]
-				{
-					221, -- [1]
-					1510037730, -- [2]
-				}, -- [21]
-				{
-					224, -- [1]
-					1510037730, -- [2]
-				}, -- [22]
-				{
-					229, -- [1]
-					1510037730, -- [2]
-				}, -- [23]
-				{
-					232, -- [1]
-					1510037730, -- [2]
-				}, -- [24]
-				{
-					249, -- [1]
-					1510037730, -- [2]
-				}, -- [25]
-				{
-					252, -- [1]
-					1510037730, -- [2]
-				}, -- [26]
-				{
-					276, -- [1]
-					1510037730, -- [2]
-				}, -- [27]
-				{
-					279, -- [1]
-					1510037730, -- [2]
-				}, -- [28]
-				{
-					282, -- [1]
-					1510037730, -- [2]
-				}, -- [29]
-				{
-					285, -- [1]
-					1510037730, -- [2]
-				}, -- [30]
-				{
-					303, -- [1]
-					1510037730, -- [2]
-				}, -- [31]
-				{
-					306, -- [1]
-					1510037730, -- [2]
-				}, -- [32]
-				{
-					331, -- [1]
-					1510037730, -- [2]
-				}, -- [33]
-				{
-					334, -- [1]
-					1510037730, -- [2]
-				}, -- [34]
-				{
-					338, -- [1]
-					1510037730, -- [2]
-				}, -- [35]
-				{
-					341, -- [1]
-					1510037730, -- [2]
-				}, -- [36]
-				{
-					359, -- [1]
-					1510037730, -- [2]
-				}, -- [37]
-				{
-					362, -- [1]
-					1510037730, -- [2]
-				}, -- [38]
-				{
-					384, -- [1]
-					1510037730, -- [2]
-				}, -- [39]
-				{
-					387, -- [1]
-					1510037730, -- [2]
-				}, -- [40]
-				{
-					391, -- [1]
-					1510037730, -- [2]
-				}, -- [41]
-			},
-			["Lunar Strike"] = {
-				{
-					3, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					6, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					10, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					13, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					17, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					21, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					24, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					28, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					35, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					39, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					43, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					46, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-				{
-					58, -- [1]
-					1510037730, -- [2]
-				}, -- [13]
-				{
-					62, -- [1]
-					1510037730, -- [2]
-				}, -- [14]
-				{
-					68, -- [1]
-					1510037730, -- [2]
-				}, -- [15]
-				{
-					72, -- [1]
-					1510037730, -- [2]
-				}, -- [16]
-				{
-					75, -- [1]
-					1510037730, -- [2]
-				}, -- [17]
-				{
-					79, -- [1]
-					1510037730, -- [2]
-				}, -- [18]
-				{
-					83, -- [1]
-					1510037730, -- [2]
-				}, -- [19]
-				{
-					86, -- [1]
-					1510037730, -- [2]
-				}, -- [20]
-				{
-					94, -- [1]
-					1510037730, -- [2]
-				}, -- [21]
-				{
-					97, -- [1]
-					1510037730, -- [2]
-				}, -- [22]
-				{
-					101, -- [1]
-					1510037730, -- [2]
-				}, -- [23]
-				{
-					112, -- [1]
-					1510037730, -- [2]
-				}, -- [24]
-				{
-					113, -- [1]
-					1510037730, -- [2]
-				}, -- [25]
-				{
-					117, -- [1]
-					1510037730, -- [2]
-				}, -- [26]
-				{
-					120, -- [1]
-					1510037730, -- [2]
-				}, -- [27]
-				{
-					124, -- [1]
-					1510037730, -- [2]
-				}, -- [28]
-				{
-					128, -- [1]
-					1510037730, -- [2]
-				}, -- [29]
-				{
-					131, -- [1]
-					1510037730, -- [2]
-				}, -- [30]
-				{
-					135, -- [1]
-					1510037730, -- [2]
-				}, -- [31]
-				{
-					139, -- [1]
-					1510037730, -- [2]
-				}, -- [32]
-				{
-					142, -- [1]
-					1510037730, -- [2]
-				}, -- [33]
-				{
-					148, -- [1]
-					1510037730, -- [2]
-				}, -- [34]
-				{
-					152, -- [1]
-					1510037730, -- [2]
-				}, -- [35]
-				{
-					156, -- [1]
-					1510037730, -- [2]
-				}, -- [36]
-				{
-					167, -- [1]
-					1510037730, -- [2]
-				}, -- [37]
-				{
-					170, -- [1]
-					1510037730, -- [2]
-				}, -- [38]
-				{
-					174, -- [1]
-					1510037730, -- [2]
-				}, -- [39]
-				{
-					178, -- [1]
-					1510037730, -- [2]
-				}, -- [40]
-				{
-					182, -- [1]
-					1510037730, -- [2]
-				}, -- [41]
-				{
-					186, -- [1]
-					1510037730, -- [2]
-				}, -- [42]
-				{
-					190, -- [1]
-					1510037730, -- [2]
-				}, -- [43]
-				{
-					196, -- [1]
-					1510037730, -- [2]
-				}, -- [44]
-				{
-					199, -- [1]
-					1510037730, -- [2]
-				}, -- [45]
-				{
-					203, -- [1]
-					1510037730, -- [2]
-				}, -- [46]
-			},
-			["Incorporeal Teleport"] = {
+			["Shock Lance"] = {
 				{
 					4, -- [1]
-					1510037730, -- [2]
+					1522307620, -- [2]
 				}, -- [1]
-				{
-					13, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					22, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					35, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					40, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					62, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					63, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					72, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					94, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					128, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					148, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					182, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-				{
-					203, -- [1]
-					1510037730, -- [2]
-				}, -- [13]
-				{
-					203, -- [1]
-					1510037730, -- [2]
-				}, -- [14]
-				{
-					222, -- [1]
-					1510037730, -- [2]
-				}, -- [15]
-				{
-					244, -- [1]
-					1510037730, -- [2]
-				}, -- [16]
-				{
-					264, -- [1]
-					1510037730, -- [2]
-				}, -- [17]
-				{
-					289, -- [1]
-					1510037730, -- [2]
-				}, -- [18]
-				{
-					310, -- [1]
-					1510037730, -- [2]
-				}, -- [19]
-				{
-					334, -- [1]
-					1510037730, -- [2]
-				}, -- [20]
-				{
-					357, -- [1]
-					1510037730, -- [2]
-				}, -- [21]
-				{
-					375, -- [1]
-					1510037730, -- [2]
-				}, -- [22]
-			},
-			["Incorporeal Shot"] = {
-				{
-					47, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-			},
-			["Embrace of the Eclipse"] = {
-				{
-					102, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					157, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-			},
-			["Moon Burn"] = {
 				{
 					9, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					33, -- [1]
-					1510037730, -- [2]
+					1522307620, -- [2]
 				}, -- [2]
-				{
-					58, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					67, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					92, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					123, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					146, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					169, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					195, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					233, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					251, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					277, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-				{
-					297, -- [1]
-					1510037730, -- [2]
-				}, -- [13]
-				{
-					315, -- [1]
-					1510037730, -- [2]
-				}, -- [14]
-				{
-					332, -- [1]
-					1510037730, -- [2]
-				}, -- [15]
-				{
-					349, -- [1]
-					1510037730, -- [2]
-				}, -- [16]
-				{
-					367, -- [1]
-					1510037730, -- [2]
-				}, -- [17]
-				{
-					386, -- [1]
-					1510037730, -- [2]
-				}, -- [18]
-			},
-			["Rapid Shot"] = {
-				{
-					79, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					97, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					120, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					140, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					167, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					185, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					203, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-			},
-			["Call Moontalon"] = {
-				{
-					73, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					195, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-			},
-			["Deathly Screech"] = {
-				{
-					99, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					224, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-			},
-			["Lunar Fire"] = {
-				{
-					229, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					240, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					252, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					263, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					283, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					297, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					308, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					319, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					339, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					353, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					363, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					374, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-			},
-			["Twilight Volley"] = {
-				{
-					18, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					37, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					79, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					93, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					125, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					139, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					155, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					178, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					199, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					233, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					253, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					287, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-				{
-					313, -- [1]
-					1510037730, -- [2]
-				}, -- [13]
-				{
-					342, -- [1]
-					1510037730, -- [2]
-				}, -- [14]
-				{
-					363, -- [1]
-					1510037730, -- [2]
-				}, -- [15]
-			},
-			["Moon Glaive"] = {
 				{
 					14, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					31, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					46, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-			},
-			["Lunar Beacon"] = {
-				{
-					223, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					245, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					267, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					294, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					318, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					352, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					373, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-			},
-			["Glaive Storm"] = {
-				{
-					215, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					218, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					220, -- [1]
-					1510037730, -- [2]
-				}, -- [3]
-				{
-					221, -- [1]
-					1510037730, -- [2]
-				}, -- [4]
-				{
-					222, -- [1]
-					1510037730, -- [2]
-				}, -- [5]
-				{
-					269, -- [1]
-					1510037730, -- [2]
-				}, -- [6]
-				{
-					272, -- [1]
-					1510037730, -- [2]
-				}, -- [7]
-				{
-					275, -- [1]
-					1510037730, -- [2]
-				}, -- [8]
-				{
-					276, -- [1]
-					1510037730, -- [2]
-				}, -- [9]
-				{
-					324, -- [1]
-					1510037730, -- [2]
-				}, -- [10]
-				{
-					327, -- [1]
-					1510037730, -- [2]
-				}, -- [11]
-				{
-					330, -- [1]
-					1510037730, -- [2]
-				}, -- [12]
-				{
-					331, -- [1]
-					1510037730, -- [2]
-				}, -- [13]
-				{
-					378, -- [1]
-					1510037730, -- [2]
-				}, -- [14]
-				{
-					381, -- [1]
-					1510037730, -- [2]
-				}, -- [15]
-				{
-					384, -- [1]
-					1510037730, -- [2]
-				}, -- [16]
-				{
-					385, -- [1]
-					1510037730, -- [2]
-				}, -- [17]
-			},
-			["Shadow Shot"] = {
-				{
-					4, -- [1]
-					1510037730, -- [2]
-				}, -- [1]
-				{
-					7, -- [1]
-					1510037730, -- [2]
-				}, -- [2]
-				{
-					11, -- [1]
-					1510037730, -- [2]
+					1522307620, -- [2]
 				}, -- [3]
 				{
 					18, -- [1]
-					1510037730, -- [2]
+					1522307620, -- [2]
 				}, -- [4]
 				{
-					22, -- [1]
-					1510037730, -- [2]
+					23, -- [1]
+					1522307620, -- [2]
 				}, -- [5]
 				{
-					26, -- [1]
-					1510037730, -- [2]
+					28, -- [1]
+					1522307620, -- [2]
 				}, -- [6]
 				{
-					29, -- [1]
-					1510037730, -- [2]
+					33, -- [1]
+					1522307620, -- [2]
 				}, -- [7]
 				{
-					33, -- [1]
-					1510037730, -- [2]
+					38, -- [1]
+					1522307620, -- [2]
 				}, -- [8]
 				{
-					38, -- [1]
-					1510037730, -- [2]
+					43, -- [1]
+					1522307620, -- [2]
 				}, -- [9]
 				{
-					41, -- [1]
-					1510037730, -- [2]
+					48, -- [1]
+					1522307620, -- [2]
 				}, -- [10]
 				{
-					45, -- [1]
-					1510037730, -- [2]
+					52, -- [1]
+					1522307620, -- [2]
 				}, -- [11]
 				{
-					58, -- [1]
-					1510037730, -- [2]
+					57, -- [1]
+					1522307620, -- [2]
 				}, -- [12]
 				{
 					62, -- [1]
-					1510037730, -- [2]
+					1522307620, -- [2]
 				}, -- [13]
 				{
-					203, -- [1]
-					1510037730, -- [2]
+					67, -- [1]
+					1522307620, -- [2]
 				}, -- [14]
 				{
-					224, -- [1]
-					1510037730, -- [2]
+					72, -- [1]
+					1522307620, -- [2]
 				}, -- [15]
 				{
-					227, -- [1]
-					1510037730, -- [2]
+					77, -- [1]
+					1522307620, -- [2]
 				}, -- [16]
 				{
-					233, -- [1]
-					1510037730, -- [2]
+					82, -- [1]
+					1522307620, -- [2]
 				}, -- [17]
 				{
-					237, -- [1]
-					1510037730, -- [2]
+					86, -- [1]
+					1522307620, -- [2]
 				}, -- [18]
 				{
-					241, -- [1]
-					1510037730, -- [2]
+					91, -- [1]
+					1522307620, -- [2]
 				}, -- [19]
 				{
-					244, -- [1]
-					1510037730, -- [2]
+					96, -- [1]
+					1522307620, -- [2]
 				}, -- [20]
 				{
-					248, -- [1]
-					1510037730, -- [2]
+					4, -- [1]
+					1522308292, -- [2]
 				}, -- [21]
 				{
-					254, -- [1]
-					1510037730, -- [2]
+					9, -- [1]
+					1522308292, -- [2]
 				}, -- [22]
 				{
-					258, -- [1]
-					1510037730, -- [2]
+					14, -- [1]
+					1522308292, -- [2]
 				}, -- [23]
 				{
-					261, -- [1]
-					1510037730, -- [2]
+					18, -- [1]
+					1522308292, -- [2]
 				}, -- [24]
 				{
-					265, -- [1]
-					1510037730, -- [2]
+					23, -- [1]
+					1522308292, -- [2]
 				}, -- [25]
 				{
-					277, -- [1]
-					1510037730, -- [2]
+					28, -- [1]
+					1522308292, -- [2]
 				}, -- [26]
 				{
-					281, -- [1]
-					1510037730, -- [2]
+					33, -- [1]
+					1522308292, -- [2]
 				}, -- [27]
 				{
-					289, -- [1]
-					1510037730, -- [2]
+					38, -- [1]
+					1522308292, -- [2]
 				}, -- [28]
 				{
-					293, -- [1]
-					1510037730, -- [2]
+					43, -- [1]
+					1522308292, -- [2]
 				}, -- [29]
 				{
-					297, -- [1]
-					1510037730, -- [2]
+					48, -- [1]
+					1522308292, -- [2]
 				}, -- [30]
 				{
-					300, -- [1]
-					1510037730, -- [2]
+					52, -- [1]
+					1522308292, -- [2]
 				}, -- [31]
 				{
-					304, -- [1]
-					1510037730, -- [2]
+					57, -- [1]
+					1522308292, -- [2]
 				}, -- [32]
 				{
-					314, -- [1]
-					1510037730, -- [2]
+					62, -- [1]
+					1522308292, -- [2]
 				}, -- [33]
 				{
-					317, -- [1]
-					1510037730, -- [2]
+					67, -- [1]
+					1522308292, -- [2]
 				}, -- [34]
 				{
-					332, -- [1]
-					1510037730, -- [2]
+					72, -- [1]
+					1522308292, -- [2]
 				}, -- [35]
 				{
-					336, -- [1]
-					1510037730, -- [2]
+					77, -- [1]
+					1522308292, -- [2]
 				}, -- [36]
 				{
-					343, -- [1]
-					1510037730, -- [2]
+					82, -- [1]
+					1522308292, -- [2]
 				}, -- [37]
 				{
-					346, -- [1]
-					1510037730, -- [2]
+					86, -- [1]
+					1522308292, -- [2]
 				}, -- [38]
 				{
-					350, -- [1]
-					1510037730, -- [2]
+					91, -- [1]
+					1522308292, -- [2]
 				}, -- [39]
 				{
-					354, -- [1]
-					1510037730, -- [2]
+					96, -- [1]
+					1522308292, -- [2]
 				}, -- [40]
 				{
-					357, -- [1]
-					1510037730, -- [2]
+					100, -- [1]
+					1522308292, -- [2]
 				}, -- [41]
 				{
-					363, -- [1]
-					1510037730, -- [2]
+					105, -- [1]
+					1522308292, -- [2]
 				}, -- [42]
 				{
-					367, -- [1]
-					1510037730, -- [2]
+					4, -- [1]
+					1522309028, -- [2]
 				}, -- [43]
 				{
-					371, -- [1]
-					1510037730, -- [2]
+					9, -- [1]
+					1522309028, -- [2]
 				}, -- [44]
 				{
-					387, -- [1]
-					1510037730, -- [2]
+					13, -- [1]
+					1522309028, -- [2]
 				}, -- [45]
 				{
-					390, -- [1]
-					1510037730, -- [2]
+					18, -- [1]
+					1522309028, -- [2]
 				}, -- [46]
+				{
+					23, -- [1]
+					1522309028, -- [2]
+				}, -- [47]
+				{
+					28, -- [1]
+					1522309028, -- [2]
+				}, -- [48]
+				{
+					33, -- [1]
+					1522309028, -- [2]
+				}, -- [49]
+				{
+					38, -- [1]
+					1522309028, -- [2]
+				}, -- [50]
+				{
+					43, -- [1]
+					1522309028, -- [2]
+				}, -- [51]
+				{
+					48, -- [1]
+					1522309028, -- [2]
+				}, -- [52]
+				{
+					52, -- [1]
+					1522309028, -- [2]
+				}, -- [53]
+				{
+					57, -- [1]
+					1522309028, -- [2]
+				}, -- [54]
+				{
+					62, -- [1]
+					1522309028, -- [2]
+				}, -- [55]
+				{
+					67, -- [1]
+					1522309028, -- [2]
+				}, -- [56]
+				{
+					72, -- [1]
+					1522309028, -- [2]
+				}, -- [57]
+				{
+					77, -- [1]
+					1522309028, -- [2]
+				}, -- [58]
+				{
+					82, -- [1]
+					1522309028, -- [2]
+				}, -- [59]
+				{
+					86, -- [1]
+					1522309028, -- [2]
+				}, -- [60]
+				{
+					91, -- [1]
+					1522309028, -- [2]
+				}, -- [61]
+				{
+					96, -- [1]
+					1522309028, -- [2]
+				}, -- [62]
+				{
+					4, -- [1]
+					1526241531, -- [2]
+				}, -- [63]
+				{
+					9, -- [1]
+					1526241531, -- [2]
+				}, -- [64]
+				{
+					14, -- [1]
+					1526241531, -- [2]
+				}, -- [65]
+				{
+					19, -- [1]
+					1526241531, -- [2]
+				}, -- [66]
+				{
+					24, -- [1]
+					1526241531, -- [2]
+				}, -- [67]
+				{
+					28, -- [1]
+					1526241531, -- [2]
+				}, -- [68]
+				{
+					33, -- [1]
+					1526241531, -- [2]
+				}, -- [69]
+				{
+					38, -- [1]
+					1526241531, -- [2]
+				}, -- [70]
+				{
+					43, -- [1]
+					1526241531, -- [2]
+				}, -- [71]
+				{
+					48, -- [1]
+					1526241531, -- [2]
+				}, -- [72]
+				{
+					52, -- [1]
+					1526241531, -- [2]
+				}, -- [73]
+				{
+					57, -- [1]
+					1526241531, -- [2]
+				}, -- [74]
+				{
+					62, -- [1]
+					1526241531, -- [2]
+				}, -- [75]
+				{
+					66, -- [1]
+					1526241531, -- [2]
+				}, -- [76]
+				{
+					71, -- [1]
+					1526241531, -- [2]
+				}, -- [77]
+				{
+					76, -- [1]
+					1526241531, -- [2]
+				}, -- [78]
+			},
+			["Conflagration"] = {
+				{
+					107, -- [1]
+					1522307620, -- [2]
+				}, -- [1]
+				{
+					114, -- [1]
+					1522308292, -- [2]
+				}, -- [2]
+				{
+					241, -- [1]
+					1522308292, -- [2]
+				}, -- [3]
+				{
+					106, -- [1]
+					1522309028, -- [2]
+				}, -- [4]
+				{
+					236, -- [1]
+					1522309028, -- [2]
+				}, -- [5]
+				{
+					86, -- [1]
+					1526241531, -- [2]
+				}, -- [6]
+				{
+					192, -- [1]
+					1526241531, -- [2]
+				}, -- [7]
+			},
+			["Charged Blasts"] = {
+				{
+					136, -- [1]
+					1522307620, -- [2]
+				}, -- [1]
+				{
+					155, -- [1]
+					1522307620, -- [2]
+				}, -- [2]
+				{
+					140, -- [1]
+					1522308292, -- [2]
+				}, -- [3]
+				{
+					159, -- [1]
+					1522308292, -- [2]
+				}, -- [4]
+				{
+					177, -- [1]
+					1522308292, -- [2]
+				}, -- [5]
+				{
+					195, -- [1]
+					1522308292, -- [2]
+				}, -- [6]
+				{
+					215, -- [1]
+					1522308292, -- [2]
+				}, -- [7]
+				{
+					233, -- [1]
+					1522308292, -- [2]
+				}, -- [8]
+				{
+					136, -- [1]
+					1522309028, -- [2]
+				}, -- [9]
+				{
+					154, -- [1]
+					1522309028, -- [2]
+				}, -- [10]
+				{
+					172, -- [1]
+					1522309028, -- [2]
+				}, -- [11]
+				{
+					190, -- [1]
+					1522309028, -- [2]
+				}, -- [12]
+				{
+					210, -- [1]
+					1522309028, -- [2]
+				}, -- [13]
+				{
+					228, -- [1]
+					1522309028, -- [2]
+				}, -- [14]
+				{
+					107, -- [1]
+					1526241531, -- [2]
+				}, -- [15]
+				{
+					125, -- [1]
+					1526241531, -- [2]
+				}, -- [16]
+				{
+					143, -- [1]
+					1526241531, -- [2]
+				}, -- [17]
+				{
+					162, -- [1]
+					1526241531, -- [2]
+				}, -- [18]
+				{
+					181, -- [1]
+					1526241531, -- [2]
+				}, -- [19]
+			},
+			["Pulse Grenade"] = {
+				{
+					15, -- [1]
+					1522307620, -- [2]
+				}, -- [1]
+				{
+					32, -- [1]
+					1522307620, -- [2]
+				}, -- [2]
+				{
+					49, -- [1]
+					1522307620, -- [2]
+				}, -- [3]
+				{
+					66, -- [1]
+					1522307620, -- [2]
+				}, -- [4]
+				{
+					83, -- [1]
+					1522307620, -- [2]
+				}, -- [5]
+				{
+					100, -- [1]
+					1522307620, -- [2]
+				}, -- [6]
+				{
+					15, -- [1]
+					1522308292, -- [2]
+				}, -- [7]
+				{
+					32, -- [1]
+					1522308292, -- [2]
+				}, -- [8]
+				{
+					49, -- [1]
+					1522308292, -- [2]
+				}, -- [9]
+				{
+					66, -- [1]
+					1522308292, -- [2]
+				}, -- [10]
+				{
+					83, -- [1]
+					1522308292, -- [2]
+				}, -- [11]
+				{
+					101, -- [1]
+					1522308292, -- [2]
+				}, -- [12]
+				{
+					15, -- [1]
+					1522309028, -- [2]
+				}, -- [13]
+				{
+					32, -- [1]
+					1522309028, -- [2]
+				}, -- [14]
+				{
+					49, -- [1]
+					1522309028, -- [2]
+				}, -- [15]
+				{
+					66, -- [1]
+					1522309028, -- [2]
+				}, -- [16]
+				{
+					83, -- [1]
+					1522309028, -- [2]
+				}, -- [17]
+				{
+					13, -- [1]
+					1526241531, -- [2]
+				}, -- [18]
+				{
+					30, -- [1]
+					1526241531, -- [2]
+				}, -- [19]
+				{
+					47, -- [1]
+					1526241531, -- [2]
+				}, -- [20]
+				{
+					63, -- [1]
+					1526241531, -- [2]
+				}, -- [21]
+			},
+			["Empowered Pulse Grenade"] = {
+				{
+					287, -- [1]
+					1522308292, -- [2]
+				}, -- [1]
+				{
+					278, -- [1]
+					1522309028, -- [2]
+				}, -- [2]
+				{
+					305, -- [1]
+					1522309028, -- [2]
+				}, -- [3]
+				{
+					333, -- [1]
+					1522309028, -- [2]
+				}, -- [4]
+				{
+					360, -- [1]
+					1522309028, -- [2]
+				}, -- [5]
+				{
+					386, -- [1]
+					1522309028, -- [2]
+				}, -- [6]
+				{
+					211, -- [1]
+					1526241531, -- [2]
+				}, -- [7]
+				{
+					239, -- [1]
+					1526241531, -- [2]
+				}, -- [8]
+				{
+					266, -- [1]
+					1526241531, -- [2]
+				}, -- [9]
+			},
+			["Sleep Canister"] = {
+				{
+					8, -- [1]
+					1522307620, -- [2]
+				}, -- [1]
+				{
+					20, -- [1]
+					1522307620, -- [2]
+				}, -- [2]
+				{
+					34, -- [1]
+					1522307620, -- [2]
+				}, -- [3]
+				{
+					46, -- [1]
+					1522307620, -- [2]
+				}, -- [4]
+				{
+					58, -- [1]
+					1522307620, -- [2]
+				}, -- [5]
+				{
+					71, -- [1]
+					1522307620, -- [2]
+				}, -- [6]
+				{
+					84, -- [1]
+					1522307620, -- [2]
+				}, -- [7]
+				{
+					97, -- [1]
+					1522307620, -- [2]
+				}, -- [8]
+				{
+					7, -- [1]
+					1522308292, -- [2]
+				}, -- [9]
+				{
+					20, -- [1]
+					1522308292, -- [2]
+				}, -- [10]
+				{
+					34, -- [1]
+					1522308292, -- [2]
+				}, -- [11]
+				{
+					46, -- [1]
+					1522308292, -- [2]
+				}, -- [12]
+				{
+					58, -- [1]
+					1522308292, -- [2]
+				}, -- [13]
+				{
+					71, -- [1]
+					1522308292, -- [2]
+				}, -- [14]
+				{
+					84, -- [1]
+					1522308292, -- [2]
+				}, -- [15]
+				{
+					97, -- [1]
+					1522308292, -- [2]
+				}, -- [16]
+				{
+					7, -- [1]
+					1522309028, -- [2]
+				}, -- [17]
+				{
+					20, -- [1]
+					1522309028, -- [2]
+				}, -- [18]
+				{
+					34, -- [1]
+					1522309028, -- [2]
+				}, -- [19]
+				{
+					46, -- [1]
+					1522309028, -- [2]
+				}, -- [20]
+				{
+					58, -- [1]
+					1522309028, -- [2]
+				}, -- [21]
+				{
+					71, -- [1]
+					1522309028, -- [2]
+				}, -- [22]
+				{
+					84, -- [1]
+					1522309028, -- [2]
+				}, -- [23]
+				{
+					97, -- [1]
+					1522309028, -- [2]
+				}, -- [24]
+				{
+					7, -- [1]
+					1526241531, -- [2]
+				}, -- [25]
+				{
+					20, -- [1]
+					1526241531, -- [2]
+				}, -- [26]
+				{
+					32, -- [1]
+					1526241531, -- [2]
+				}, -- [27]
+				{
+					44, -- [1]
+					1526241531, -- [2]
+				}, -- [28]
+				{
+					56, -- [1]
+					1526241531, -- [2]
+				}, -- [29]
+				{
+					67, -- [1]
+					1526241531, -- [2]
+				}, -- [30]
+			},
+			["Sever"] = {
+				{
+					134, -- [1]
+					1522307620, -- [2]
+				}, -- [1]
+				{
+					141, -- [1]
+					1522307620, -- [2]
+				}, -- [2]
+				{
+					148, -- [1]
+					1522307620, -- [2]
+				}, -- [3]
+				{
+					138, -- [1]
+					1522308292, -- [2]
+				}, -- [4]
+				{
+					145, -- [1]
+					1522308292, -- [2]
+				}, -- [5]
+				{
+					152, -- [1]
+					1522308292, -- [2]
+				}, -- [6]
+				{
+					161, -- [1]
+					1522308292, -- [2]
+				}, -- [7]
+				{
+					168, -- [1]
+					1522308292, -- [2]
+				}, -- [8]
+				{
+					175, -- [1]
+					1522308292, -- [2]
+				}, -- [9]
+				{
+					183, -- [1]
+					1522308292, -- [2]
+				}, -- [10]
+				{
+					190, -- [1]
+					1522308292, -- [2]
+				}, -- [11]
+				{
+					197, -- [1]
+					1522308292, -- [2]
+				}, -- [12]
+				{
+					204, -- [1]
+					1522308292, -- [2]
+				}, -- [13]
+				{
+					212, -- [1]
+					1522308292, -- [2]
+				}, -- [14]
+				{
+					219, -- [1]
+					1522308292, -- [2]
+				}, -- [15]
+				{
+					226, -- [1]
+					1522308292, -- [2]
+				}, -- [16]
+				{
+					133, -- [1]
+					1522309028, -- [2]
+				}, -- [17]
+				{
+					140, -- [1]
+					1522309028, -- [2]
+				}, -- [18]
+				{
+					147, -- [1]
+					1522309028, -- [2]
+				}, -- [19]
+				{
+					156, -- [1]
+					1522309028, -- [2]
+				}, -- [20]
+				{
+					163, -- [1]
+					1522309028, -- [2]
+				}, -- [21]
+				{
+					170, -- [1]
+					1522309028, -- [2]
+				}, -- [22]
+				{
+					178, -- [1]
+					1522309028, -- [2]
+				}, -- [23]
+				{
+					185, -- [1]
+					1522309028, -- [2]
+				}, -- [24]
+				{
+					192, -- [1]
+					1522309028, -- [2]
+				}, -- [25]
+				{
+					199, -- [1]
+					1522309028, -- [2]
+				}, -- [26]
+				{
+					207, -- [1]
+					1522309028, -- [2]
+				}, -- [27]
+				{
+					214, -- [1]
+					1522309028, -- [2]
+				}, -- [28]
+				{
+					221, -- [1]
+					1522309028, -- [2]
+				}, -- [29]
+				{
+					104, -- [1]
+					1526241531, -- [2]
+				}, -- [30]
+				{
+					111, -- [1]
+					1526241531, -- [2]
+				}, -- [31]
+				{
+					118, -- [1]
+					1526241531, -- [2]
+				}, -- [32]
+				{
+					127, -- [1]
+					1526241531, -- [2]
+				}, -- [33]
+				{
+					134, -- [1]
+					1526241531, -- [2]
+				}, -- [34]
+				{
+					142, -- [1]
+					1526241531, -- [2]
+				}, -- [35]
+				{
+					149, -- [1]
+					1526241531, -- [2]
+				}, -- [36]
+				{
+					156, -- [1]
+					1526241531, -- [2]
+				}, -- [37]
+				{
+					163, -- [1]
+					1526241531, -- [2]
+				}, -- [38]
+				{
+					171, -- [1]
+					1526241531, -- [2]
+				}, -- [39]
+				{
+					178, -- [1]
+					1526241531, -- [2]
+				}, -- [40]
+			},
+			["Shrapnel Blast"] = {
+				{
+					140, -- [1]
+					1522307620, -- [2]
+				}, -- [1]
+				{
+					153, -- [1]
+					1522307620, -- [2]
+				}, -- [2]
+				{
+					144, -- [1]
+					1522308292, -- [2]
+				}, -- [3]
+				{
+					157, -- [1]
+					1522308292, -- [2]
+				}, -- [4]
+				{
+					170, -- [1]
+					1522308292, -- [2]
+				}, -- [5]
+				{
+					184, -- [1]
+					1522308292, -- [2]
+				}, -- [6]
+				{
+					198, -- [1]
+					1522308292, -- [2]
+				}, -- [7]
+				{
+					213, -- [1]
+					1522308292, -- [2]
+				}, -- [8]
+				{
+					228, -- [1]
+					1522308292, -- [2]
+				}, -- [9]
+				{
+					139, -- [1]
+					1522309028, -- [2]
+				}, -- [10]
+				{
+					152, -- [1]
+					1522309028, -- [2]
+				}, -- [11]
+				{
+					165, -- [1]
+					1522309028, -- [2]
+				}, -- [12]
+				{
+					179, -- [1]
+					1522309028, -- [2]
+				}, -- [13]
+				{
+					193, -- [1]
+					1522309028, -- [2]
+				}, -- [14]
+				{
+					208, -- [1]
+					1522309028, -- [2]
+				}, -- [15]
+				{
+					223, -- [1]
+					1522309028, -- [2]
+				}, -- [16]
+				{
+					109, -- [1]
+					1526241531, -- [2]
+				}, -- [17]
+				{
+					122, -- [1]
+					1526241531, -- [2]
+				}, -- [18]
+				{
+					135, -- [1]
+					1526241531, -- [2]
+				}, -- [19]
+				{
+					150, -- [1]
+					1526241531, -- [2]
+				}, -- [20]
+				{
+					165, -- [1]
+					1526241531, -- [2]
+				}, -- [21]
+				{
+					179, -- [1]
+					1526241531, -- [2]
+				}, -- [22]
+			},
+			["Empowered Shock Lance"] = {
+				{
+					285, -- [1]
+					1522308292, -- [2]
+				}, -- [1]
+				{
+					294, -- [1]
+					1522308292, -- [2]
+				}, -- [2]
+				{
+					277, -- [1]
+					1522309028, -- [2]
+				}, -- [3]
+				{
+					287, -- [1]
+					1522309028, -- [2]
+				}, -- [4]
+				{
+					297, -- [1]
+					1522309028, -- [2]
+				}, -- [5]
+				{
+					306, -- [1]
+					1522309028, -- [2]
+				}, -- [6]
+				{
+					316, -- [1]
+					1522309028, -- [2]
+				}, -- [7]
+				{
+					326, -- [1]
+					1522309028, -- [2]
+				}, -- [8]
+				{
+					336, -- [1]
+					1522309028, -- [2]
+				}, -- [9]
+				{
+					345, -- [1]
+					1522309028, -- [2]
+				}, -- [10]
+				{
+					355, -- [1]
+					1522309028, -- [2]
+				}, -- [11]
+				{
+					365, -- [1]
+					1522309028, -- [2]
+				}, -- [12]
+				{
+					374, -- [1]
+					1522309028, -- [2]
+				}, -- [13]
+				{
+					384, -- [1]
+					1522309028, -- [2]
+				}, -- [14]
+				{
+					395, -- [1]
+					1522309028, -- [2]
+				}, -- [15]
+				{
+					208, -- [1]
+					1526241531, -- [2]
+				}, -- [16]
+				{
+					218, -- [1]
+					1526241531, -- [2]
+				}, -- [17]
+				{
+					228, -- [1]
+					1526241531, -- [2]
+				}, -- [18]
+				{
+					238, -- [1]
+					1526241531, -- [2]
+				}, -- [19]
+				{
+					247, -- [1]
+					1526241531, -- [2]
+				}, -- [20]
+				{
+					257, -- [1]
+					1526241531, -- [2]
+				}, -- [21]
+				{
+					267, -- [1]
+					1526241531, -- [2]
+				}, -- [22]
+			},
+			["Empowered Shrapnel Blast"] = {
+				{
+					296, -- [1]
+					1522308292, -- [2]
+				}, -- [1]
+				{
+					289, -- [1]
+					1522309028, -- [2]
+				}, -- [2]
+				{
+					310, -- [1]
+					1522309028, -- [2]
+				}, -- [3]
+				{
+					331, -- [1]
+					1522309028, -- [2]
+				}, -- [4]
+				{
+					349, -- [1]
+					1522309028, -- [2]
+				}, -- [5]
+				{
+					366, -- [1]
+					1522309028, -- [2]
+				}, -- [6]
+				{
+					381, -- [1]
+					1522309028, -- [2]
+				}, -- [7]
+				{
+					393, -- [1]
+					1522309028, -- [2]
+				}, -- [8]
+				{
+					220, -- [1]
+					1526241531, -- [2]
+				}, -- [9]
+				{
+					242, -- [1]
+					1526241531, -- [2]
+				}, -- [10]
+				{
+					262, -- [1]
+					1526241531, -- [2]
+				}, -- [11]
 			},
 		},
 		["ids"] = {
-			["Twilight Glaive"] = 237561,
-			["Lunar Strike"] = 237632,
-			["Incorporeal Teleport"] = 236115,
-			["Incorporeal Shot"] = 236305,
-			["Embrace of the Eclipse"] = 233263,
-			["Moon Burn"] = 236518,
-			["Rapid Shot"] = 236596,
-			["Call Moontalon"] = 236694,
-			["Deathly Screech"] = 236697,
-			["Lunar Fire"] = 239264,
-			["Twilight Volley"] = 236442,
-			["Moon Glaive"] = 236547,
-			["Lunar Beacon"] = 236712,
-			["Glaive Storm"] = 239386,
-			["Shadow Shot"] = 237630,
+			["Shock Lance"] = 247367,
+			["Conflagration"] = 250135,
+			["Charged Blasts"] = 248254,
+			["Pulse Grenade"] = 247376,
+			["Empowered Pulse Grenade"] = 248068,
+			["Sleep Canister"] = 254244,
+			["Sever"] = 247687,
+			["Shrapnel Blast"] = 247923,
+			["Empowered Shock Lance"] = 250255,
+			["Empowered Shrapnel Blast"] = 248070,
 		},
 	},
 	["176215"] = {
@@ -25250,10 +20184,10 @@ DeathGraphsDBGraph = {
 			[425] = {
 				1496625509, -- [1]
 			},
-			[418] = {
+			[376] = {
 				1496625509, -- [1]
 			},
-			[376] = {
+			[418] = {
 				1496625509, -- [1]
 			},
 		},

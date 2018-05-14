@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v7.3.5.5499",
+	["last_version"] = "v7.3.5.5572",
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -35,7 +35,7 @@ _detalhes_database = {
 			["attribute"] = 1,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -410.584014892578,
+					["y"] = -408.537414550781,
 					["x"] = 529.279235839844,
 					["w"] = 285.462463378906,
 					["h"] = 173.649276733398,
@@ -68,7 +68,7 @@ _detalhes_database = {
 			["attribute"] = 2,
 			["pos"] = {
 				["normal"] = {
-					["y"] = -410.584014892578,
+					["y"] = -408.537414550781,
 					["x"] = 814.741882324219,
 					["w"] = 285.462615966797,
 					["h"] = 173.649276733398,
@@ -83,7 +83,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1523946137,
+		["nextreset"] = 1526845470,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1492,
@@ -96,7 +96,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1520108219,
 	["active_profile"] = "Base",
-	["last_day"] = "01",
+	["last_day"] = "12",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -108,8 +108,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -234,8 +234,8 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -246,20 +246,14 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
-		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -325,7 +319,12 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -333,40 +332,40 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 14,
+			["use_spark"] = false,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
-				["point"] = "TOPLEFT",
+				["point"] = "LEFT",
 				["scale"] = 1,
 				["font_shadow"] = false,
-				["y"] = -69.8187255859375,
-				["x"] = 418.130249023438,
+				["y"] = 182.153472900391,
+				["x"] = 2.65877819061279,
 				["size"] = 32,
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 14,
-			["x"] = 0,
-			["font_face"] = "Prototype",
 			["y"] = -20.15869140625,
-			["use_spark"] = false,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["last_encounter"] = "The Defense of Eonar",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Maw of Souls",
 		["started"] = false,
@@ -379,6 +378,7 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 1520109191,
 	},
 	["ignore_nicktag"] = false,
+	["last_encounter"] = "The Defense of Eonar",
 	["cached_talents"] = {
 		["Player-5-0A1AA198"] = {
 			22590, -- [1]
@@ -390,7 +390,7 @@ _detalhes_database = {
 			22182, -- [7]
 		},
 	},
-	["combat_counter"] = 1698,
+	["combat_counter"] = 1702,
 	["combat_id"] = 1280,
 	["savedStyles"] = {
 	},
@@ -518,7 +518,7 @@ _detalhes_database = {
 		["overall_refreshed"] = true,
 	},
 	["character_data"] = {
-		["logons"] = 179,
+		["logons"] = 181,
 	},
 	["force_font_outline"] = "",
 	["announce_firsthit"] = {

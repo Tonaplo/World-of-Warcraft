@@ -34,5 +34,5 @@ BigWigs:AddSounds("Gorak Tul", {
 	[266181] = "warning",
 	[266198] = "long",
 	[266225] = "alert",
-	[266258] = "info",
+	[266266] = "info",
 })

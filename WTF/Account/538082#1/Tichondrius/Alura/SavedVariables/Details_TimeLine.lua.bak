@@ -3,34 +3,34 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_start"] = "21:55:41",
-			["date_end"] = "21:56:59",
+			["date_end"] = "16:42:16",
+			["date_start"] = "16:40:33",
 			["name"] = "Aku'mai",
-			["total_time"] = 78.7369999999992,
+			["total_time"] = 103.475,
 		}, -- [1]
 		{
-			["date_start"] = "21:52:55",
-			["date_end"] = "21:54:43",
+			["date_end"] = "16:39:38",
+			["date_start"] = "16:38:39",
 			["name"] = "Twilight Lord Bathiel",
-			["total_time"] = 107.999000000002,
+			["total_time"] = 59.0059999999994,
 		}, -- [2]
 		{
-			["date_start"] = "21:52:18",
-			["date_end"] = "21:52:52",
+			["date_end"] = "16:35:50",
+			["date_start"] = "16:34:48",
 			["name"] = "Guardian of the Deep",
-			["total_time"] = 34.0070000000014,
+			["total_time"] = 62.0079999999998,
 		}, -- [3]
 		{
-			["date_start"] = "21:50:25",
-			["date_end"] = "21:51:22",
+			["date_end"] = "16:33:35",
+			["date_start"] = "16:32:35",
 			["name"] = "Executioner Gore",
-			["total_time"] = 57,
+			["total_time"] = 60.005000000001,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
@@ -46,11 +46,11 @@ DetailsTimeLineDB = {
 		{
 		}, -- [2]
 		{
-			["Alura"] = {
-				[150619] = {
-					19.5200000000004, -- [1]
-					24.5250000000015, -- [2]
-					["source"] = "Voidwalker Minion",
+			["Mèrde-Area52"] = {
+				[1604] = {
+					31.2800000000007, -- [1]
+					35.2860000000001, -- [2]
+					["source"] = "Guardian Hatchling",
 					["active"] = false,
 				},
 			},
@@ -58,25 +58,45 @@ DetailsTimeLineDB = {
 		{
 			["Alura"] = {
 				[152592] = {
-					45.0360000000001, -- [1]
-					45.2459999999992, -- [2]
+					29.4279999999999, -- [1]
+					29.759, -- [2]
 					["source"] = "[*] Executioner's Strike",
 					["active"] = false,
 				},
-			},
-			["Valenthriel-Azralon"] = {
-				[152592] = {
-					43.8790000000008, -- [1]
-					45.9169999999995, -- [2]
-					["source"] = "[*] Executioner's Strike",
-					["active"] = false,
-				},
-			},
-			["Boltyela-Azralon"] = {
 				[149955] = {
-					46.6769999999997, -- [1]
-					52.6939999999995, -- [2]
+					47.996000000001, -- [1]
+					53.9950000000008, -- [2]
 					["source"] = "Executioner Gore",
+					["active"] = false,
+				},
+			},
+			["Morgrim-Llane"] = {
+				[152592] = {
+					45.2530000000006, -- [1]
+					54.1880000000001, -- [2]
+					["source"] = "[*] Executioner's Strike",
+					["active"] = false,
+				},
+			},
+			["Positiveg-Illidan"] = {
+				[152592] = {
+					13.6190000000006, -- [1]
+					15.4680000000008, -- [2]
+					45.2530000000006, -- [3]
+					46.1540000000005, -- [4]
+					["source"] = "[*] Executioner's Strike",
+					["active"] = false,
+				},
+			},
+			["Gorbin-Llane"] = {
+				[152592] = {
+					17.1910000000007, -- [1]
+					18.4940000000006, -- [2]
+					45.2530000000006, -- [3]
+					47.4459999999999, -- [4]
+					51.2360000000008, -- [5]
+					55.2980000000007, -- [6]
+					["source"] = "[*] Executioner's Strike",
 					["active"] = false,
 				},
 			},
@@ -88,7 +108,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

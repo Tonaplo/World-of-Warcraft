@@ -16,7 +16,7 @@ BigWigs:AddColors("Soulbound Goliath", {
 })
 
 BigWigs:AddColors("Raal the Gluttonous", {
-	[264694] = "orange",
+	[264694] = {"blue","orange"},
 	[264734] = "orange",
 	[264923] = "red",
 	[264931] = "yellow",
@@ -26,7 +26,7 @@ BigWigs:AddColors("Raal the Gluttonous", {
 BigWigs:AddColors("Lord and Lady Waycrest", {
 	[261438] = "yellow",
 	[261440] = {"Personal","red"},
-	[261447] = "cyan",
+	[261447] = {"cyan","Personal"},
 	[268306] = "orange",
 })
 
@@ -34,5 +34,5 @@ BigWigs:AddColors("Gorak Tul", {
 	[266181] = "red",
 	[266198] = "green",
 	[266225] = "orange",
-	[266258] = "yellow",
+	[266266] = "yellow",
 })
