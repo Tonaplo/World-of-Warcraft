@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 1698,
+	["combat_counter"] = 1702,
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
@@ -83,7 +83,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1526845534,
+		["nextreset"] = 1528154407,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1677,
@@ -96,7 +96,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1520133809,
 	["active_profile"] = "Base",
-	["last_day"] = "12",
+	["last_day"] = "20",
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
@@ -106,9 +106,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -177,10 +177,15 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["enabled"] = true,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.101960784313725, -- [1]
+				0.101960784313725, -- [2]
+				0.101960784313725, -- [3]
+				0.400000035762787, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -188,13 +193,12 @@ _detalhes_database = {
 				0, -- [3]
 				0, -- [4]
 			},
-			["row_color"] = {
-				0.101960784313725, -- [1]
-				0.101960784313725, -- [2]
-				0.101960784313725, -- [3]
-				0.400000035762787, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = false,
+			["y"] = -20.15869140625,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -206,11 +210,7 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
-			["use_spark"] = false,
-			["x"] = 0,
-			["font_face"] = "Prototype",
 			["font_size"] = 14,
-			["y"] = -20.15869140625,
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -218,7 +218,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -227,12 +227,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -244,6 +239,10 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_LINE"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -322,12 +321,12 @@ _detalhes_database = {
 			},
 			["realm_lastamt"] = 0,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 	},
-	["last_encounter"] = "Argus the Unmaker",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Cathedral of Eternal Night",
 		["started"] = false,
@@ -343,6 +342,7 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
+	["last_encounter"] = "Argus the Unmaker",
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
@@ -486,7 +486,7 @@ _detalhes_database = {
 	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 164,
+		["logons"] = 166,
 	},
 	["last_realversion"] = 130,
 	["announce_cooldowns"] = {
@@ -506,6 +506,5 @@ _detalhes_database = {
 	},
 	["cached_specs"] = {
 		["Player-5-0A6AF472"] = 577,
-		["Player-4-0B066C8F"] = 577,
 	},
 }

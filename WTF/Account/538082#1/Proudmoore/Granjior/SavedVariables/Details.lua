@@ -83,7 +83,7 @@ _detalhes_database = {
 		}, -- [2]
 	},
 	["nick_tag_cache"] = {
-		["nextreset"] = 1526845470,
+		["nextreset"] = 1528154339,
 		["last_version"] = 10,
 	},
 	["last_instance_id"] = 1492,
@@ -96,7 +96,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1520108219,
 	["active_profile"] = "Base",
-	["last_day"] = "13",
+	["last_day"] = "20",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -109,9 +109,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["dps"] = 0,
-			["level"] = 1,
 			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
 		},
 		["DETAILS_PLUGIN_DEATH_GRAPHICS"] = {
 			["last_boss"] = false,
@@ -235,7 +235,7 @@ _detalhes_database = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -244,22 +244,16 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["showamount"] = false,
-		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
-			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
-			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -306,24 +300,14 @@ _detalhes_database = {
 			["row_texture"] = "Empty",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = true,
-			["author"] = "Details! Team",
-			["enabled"] = true,
-			["arrow_size"] = 10,
-			["y"] = -20.15869140625,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-			},
 			["row_color"] = {
 				0.101960784313725, -- [1]
 				0.101960784313725, -- [2]
 				0.101960784313725, -- [3]
 				0.400000035762787, -- [4]
 			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["enabled"] = true,
+			["arrow_size"] = 10,
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -335,11 +319,21 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["font_size"] = 14,
+			["use_spark"] = false,
 			["x"] = 0,
 			["font_face"] = "Prototype",
-			["use_spark"] = false,
-			["main_frame_strata"] = "LOW",
+			["y"] = -20.15869140625,
+			["author"] = "Details! Team",
 			["point"] = "TOPLEFT",
 			["row_height"] = 21,
 			["scale"] = 1,
@@ -360,13 +354,18 @@ _detalhes_database = {
 			},
 			["realm_lastamt"] = 0,
 		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 	},
-	["last_encounter"] = "The Defense of Eonar",
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "Maw of Souls",
 		["started"] = false,
@@ -379,6 +378,7 @@ _detalhes_database = {
 		["previous_boss_killed_at"] = 1520109191,
 	},
 	["ignore_nicktag"] = false,
+	["last_encounter"] = "The Defense of Eonar",
 	["cached_talents"] = {
 		["Player-5-0A1AA198"] = {
 			22590, -- [1]
@@ -399,7 +399,7 @@ _detalhes_database = {
 	},
 	["force_font_outline"] = "",
 	["character_data"] = {
-		["logons"] = 182,
+		["logons"] = 184,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -524,7 +524,7 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["combat_counter"] = 1704,
+	["combat_counter"] = 1708,
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},

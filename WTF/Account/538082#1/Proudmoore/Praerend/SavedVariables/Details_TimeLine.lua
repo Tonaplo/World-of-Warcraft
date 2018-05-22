@@ -1,183 +1,5 @@
 
 DetailsTimeLineDB = {
-	["window_scale"] = 1,
-	["max_segments"] = 4,
-	["cooldowns_timeline"] = {
-		{
-			["Fudgedup-Tichondrius"] = {
-				{
-					72.0680000000011, -- [1]
-					"Fudgedup-Tichondrius", -- [2]
-					642, -- [3]
-				}, -- [1]
-			},
-			["Bruccampbell-Tichondrius"] = {
-				{
-					24.0540000000001, -- [1]
-					"Bruccampbell-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [1]
-				{
-					24.0540000000001, -- [1]
-					"Bruccampbell-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [2]
-				{
-					49.1040000000012, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [3]
-			},
-			["Kalithumos-Tichondrius"] = {
-				{
-					72.6650000000009, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					73.259, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					6940, -- [3]
-				}, -- [2]
-				{
-					73.259, -- [1]
-					"Praerend", -- [2]
-					6940, -- [3]
-				}, -- [3]
-				{
-					76.2890000000007, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					633, -- [3]
-				}, -- [4]
-			},
-			["Acekícker-Tichondrius"] = {
-				{
-					23.6720000000005, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [1]
-				{
-					47.6360000000004, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [2]
-				{
-					96.0500000000011, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [3]
-				{
-					119.950000000001, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [4]
-			},
-			["Praerend"] = {
-				{
-					24.6140000000014, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-				{
-					48.0720000000001, -- [1]
-					"Praerend", -- [2]
-					118038, -- [3]
-				}, -- [2]
-				{
-					48.0720000000001, -- [1]
-					"Praerend", -- [2]
-					118038, -- [3]
-				}, -- [3]
-			},
-		}, -- [1]
-		{
-			["Kalithumos-Tichondrius"] = {
-				{
-					62.7240000000002, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					31850, -- [3]
-				}, -- [1]
-				{
-					83.4239999999991, -- [1]
-					"Kalithumos-Tichondrius", -- [2]
-					86659, -- [3]
-				}, -- [2]
-			},
-			["Acekícker-Tichondrius"] = {
-				{
-					84.8169999999991, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [1]
-			},
-			["Bruccampbell-Tichondrius"] = {
-				{
-					52.5889999999999, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-				{
-					58.0879999999997, -- [1]
-					"Bruccampbell-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [2]
-				{
-					58.0879999999997, -- [1]
-					"Bruccampbell-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [3]
-			},
-			["Praerend"] = {
-				{
-					37.4839999999986, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					97462, -- [3]
-				}, -- [1]
-			},
-		}, -- [2]
-		{
-			["Acekícker-Tichondrius"] = {
-				{
-					22.7849999999999, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					31224, -- [3]
-				}, -- [1]
-				{
-					46.3060000000005, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					1966, -- [3]
-				}, -- [2]
-			},
-			["Fudgedup-Tichondrius"] = {
-				{
-					47.6239999999998, -- [1]
-					"Fudgedup-Tichondrius", -- [2]
-					642, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-			["Acekícker-Tichondrius"] = {
-				{
-					17.5059999999994, -- [1]
-					"Acekícker-Tichondrius", -- [2]
-					31224, -- [3]
-				}, -- [1]
-			},
-			["Bruccampbell-Tichondrius"] = {
-				{
-					20.2110000000012, -- [1]
-					"Bruccampbell-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [1]
-				{
-					20.2110000000012, -- [1]
-					"Bruccampbell-Tichondrius", -- [2]
-					118038, -- [3]
-				}, -- [2]
-			},
-		}, -- [4]
-	},
 	["deaths_data"] = {
 		{
 			["Bruccampbell-Tichondrius"] = {
@@ -637,7 +459,210 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["max_segments"] = 4,
 	["hide_on_combat"] = false,
+	["combat_data"] = {
+		{
+			["date_end"] = "13:13:40",
+			["date_start"] = "13:11:26",
+			["name"] = "Advisor Melandrus",
+			["total_time"] = 133.348,
+		}, -- [1]
+		{
+			["date_end"] = "13:08:42",
+			["date_start"] = "13:07:12",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 89.6899999999987,
+		}, -- [2]
+		{
+			["date_end"] = "13:06:18",
+			["date_start"] = "13:05:21",
+			["name"] = "Talixae Flamewreath",
+			["total_time"] = 56.9259999999995,
+		}, -- [3]
+		{
+			["date_end"] = "12:54:45",
+			["date_start"] = "12:53:12",
+			["name"] = "Patrol Captain Gerdo",
+			["total_time"] = 93.3000000000011,
+		}, -- [4]
+	},
+	["cooldowns_timeline"] = {
+		{
+			["Fudgedup-Tichondrius"] = {
+				{
+					72.0680000000011, -- [1]
+					"Fudgedup-Tichondrius", -- [2]
+					642, -- [3]
+				}, -- [1]
+			},
+			["Bruccampbell-Tichondrius"] = {
+				{
+					24.0540000000001, -- [1]
+					"Bruccampbell-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [1]
+				{
+					24.0540000000001, -- [1]
+					"Bruccampbell-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [2]
+				{
+					49.1040000000012, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [3]
+			},
+			["Kalithumos-Tichondrius"] = {
+				{
+					72.6650000000009, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					73.259, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					6940, -- [3]
+				}, -- [2]
+				{
+					73.259, -- [1]
+					"Praerend", -- [2]
+					6940, -- [3]
+				}, -- [3]
+				{
+					76.2890000000007, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					633, -- [3]
+				}, -- [4]
+			},
+			["Acekícker-Tichondrius"] = {
+				{
+					23.6720000000005, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [1]
+				{
+					47.6360000000004, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [2]
+				{
+					96.0500000000011, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [3]
+				{
+					119.950000000001, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [4]
+			},
+			["Praerend"] = {
+				{
+					24.6140000000014, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+				{
+					48.0720000000001, -- [1]
+					"Praerend", -- [2]
+					118038, -- [3]
+				}, -- [2]
+				{
+					48.0720000000001, -- [1]
+					"Praerend", -- [2]
+					118038, -- [3]
+				}, -- [3]
+			},
+		}, -- [1]
+		{
+			["Kalithumos-Tichondrius"] = {
+				{
+					62.7240000000002, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					31850, -- [3]
+				}, -- [1]
+				{
+					83.4239999999991, -- [1]
+					"Kalithumos-Tichondrius", -- [2]
+					86659, -- [3]
+				}, -- [2]
+			},
+			["Acekícker-Tichondrius"] = {
+				{
+					84.8169999999991, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [1]
+			},
+			["Bruccampbell-Tichondrius"] = {
+				{
+					52.5889999999999, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+				{
+					58.0879999999997, -- [1]
+					"Bruccampbell-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [2]
+				{
+					58.0879999999997, -- [1]
+					"Bruccampbell-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [3]
+			},
+			["Praerend"] = {
+				{
+					37.4839999999986, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+			},
+		}, -- [2]
+		{
+			["Acekícker-Tichondrius"] = {
+				{
+					22.7849999999999, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					31224, -- [3]
+				}, -- [1]
+				{
+					46.3060000000005, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					1966, -- [3]
+				}, -- [2]
+			},
+			["Fudgedup-Tichondrius"] = {
+				{
+					47.6239999999998, -- [1]
+					"Fudgedup-Tichondrius", -- [2]
+					642, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Acekícker-Tichondrius"] = {
+				{
+					17.5059999999994, -- [1]
+					"Acekícker-Tichondrius", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Bruccampbell-Tichondrius"] = {
+				{
+					20.2110000000012, -- [1]
+					"Bruccampbell-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [1]
+				{
+					20.2110000000012, -- [1]
+					"Bruccampbell-Tichondrius", -- [2]
+					118038, -- [3]
+				}, -- [2]
+			},
+		}, -- [4]
+	},
 	["debuff_timeline"] = {
 		{
 		}, -- [1]
@@ -718,36 +743,11 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["window_scale"] = 1,
 	["backdrop_color"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0.4, -- [4]
-	},
-	["combat_data"] = {
-		{
-			["date_end"] = "13:13:40",
-			["date_start"] = "13:11:26",
-			["name"] = "Advisor Melandrus",
-			["total_time"] = 133.348,
-		}, -- [1]
-		{
-			["date_end"] = "13:08:42",
-			["date_start"] = "13:07:12",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 89.6899999999987,
-		}, -- [2]
-		{
-			["date_end"] = "13:06:18",
-			["date_start"] = "13:05:21",
-			["name"] = "Talixae Flamewreath",
-			["total_time"] = 56.9259999999995,
-		}, -- [3]
-		{
-			["date_end"] = "12:54:45",
-			["date_start"] = "12:53:12",
-			["name"] = "Patrol Captain Gerdo",
-			["total_time"] = 93.3000000000011,
-		}, -- [4]
 	},
 }

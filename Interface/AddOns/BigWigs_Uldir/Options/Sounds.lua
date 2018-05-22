@@ -31,15 +31,17 @@ BigWigs:AddSounds("Fetid Devourer", {
 })
 
 BigWigs:AddSounds("Zek'voz, Herald of N'zoth", {
-	[264219] = "warning",
+	[-18397] = "long",
+	[-18390] = "long",
 	[264382] = "alert",
 	[265231] = "alarm",
 	[265248] = "alert",
 	[265360] = "warning",
-	[265451] = "warning",
+	[265530] = "long",
 	[265662] = "long",
 	[267180] = "alert",
 	[267239] = "alert",
+	["stages"] = "Long",
 })
 
 BigWigs:AddSounds("Vectis", {
@@ -91,4 +93,9 @@ BigWigs:AddSounds("G'huun", {
 	[274577] = "alarm",
 	[275160] = "warning",
 	["stages"] = "long",
+})
+
+BigWigs:AddSounds("Uldir Trash", {
+	[276540] = "long",
+	[277047] = "warning",
 })

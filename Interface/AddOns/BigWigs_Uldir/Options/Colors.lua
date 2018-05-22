@@ -8,6 +8,7 @@ BigWigs:AddColors("Taloc", {
 	[271965] = "green",
 	[275270] = {"blue","Personal"},
 	[275432] = {"blue","Personal"},
+	["stages"] = "green",
 })
 
 BigWigs:AddColors("MOTHER", {
@@ -31,15 +32,17 @@ BigWigs:AddColors("Fetid Devourer", {
 })
 
 BigWigs:AddColors("Zek'voz, Herald of N'zoth", {
-	[264219] = {"blue","Personal"},
-	[264382] = "yellow",
+	[-18397] = "cyan",
+	[-18390] = "cyan",
+	[264382] = {"Personal","yellow"},
 	[265231] = "orange",
 	[265248] = "cyan",
-	[265360] = {"blue","Personal"},
-	[265451] = "red",
+	[265360] = {"Personal","yellow"},
+	[265530] = "red",
 	[265662] = {"blue","Personal"},
 	[267180] = "yellow",
 	[267239] = "yellow",
+	["stages"] = "green",
 })
 
 BigWigs:AddColors("Vectis", {
@@ -91,4 +94,9 @@ BigWigs:AddColors("G'huun", {
 	[274577] = "red",
 	[275160] = "orange",
 	["stages"] = "cyan",
+})
+
+BigWigs:AddColors("Uldir Trash", {
+	[276540] = "Important",
+	[277047] = {"Attention","Personal"},
 })

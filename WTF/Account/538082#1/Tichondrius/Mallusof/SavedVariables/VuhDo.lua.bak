@@ -3734,7 +3734,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Locked On"] = {
+			["Parasitic Growth"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["timer"] = true,
@@ -3748,12 +3748,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["219049"] = {
-				["isStacks"] = true,
-				["animate"] = false,
-				["isIcon"] = true,
-				["isColor"] = false,
+			["Locked On"] = {
+				["isStacks"] = false,
+				["animate"] = true,
 				["timer"] = true,
+				["isColor"] = false,
+				["isIcon"] = true,
 			},
 			["231998"] = {
 				["isStacks"] = true,
@@ -4077,12 +4077,12 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["isIcon"] = true,
 			},
-			["Parasitic Growth"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["timer"] = true,
-				["isColor"] = false,
+			["219049"] = {
+				["isStacks"] = true,
+				["animate"] = false,
 				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
 			},
 			["Acid Breath"] = {
 				["isStacks"] = false,
@@ -4682,7 +4682,7 @@ VUHDO_PANEL_SETUP = {
 			["orientation"] = "TOP",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 62,
+			["height"] = 274,
 			["growth"] = "TOP",
 			["width"] = 128.999908447266,
 		},
@@ -4695,7 +4695,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "HIGH",
 		["MODEL"] = {
-			["ordering"] = 1,
 			["sort"] = 8,
 			["groups"] = {
 				1, -- [1]
@@ -4707,6 +4706,7 @@ VUHDO_PANEL_SETUP = {
 				7, -- [7]
 				8, -- [8]
 			},
+			["ordering"] = 1,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -7558,9 +7558,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7568,9 +7568,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7623,9 +7623,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7695,9 +7695,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7705,9 +7705,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7760,9 +7760,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w1", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7802,12 +7802,12 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Mac'Aree",
+		["zone"] = "Dalaran",
 		["baseRange"] = true,
 		["class"] = "PRIEST",
 		["role"] = 63,
 		["sortMaxHp"] = 6384180,
-		["map"] = "ArgusMacAree",
+		["map"] = "Dalaran70",
 		["threat"] = 0,
 		["powermax"] = 1155000,
 		["threatPerc"] = 0,
@@ -7854,16 +7854,16 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "",
 		["INCOMING_BAR"] = "",
-		["DAMAGE_FLASH_BAR"] = "",
+		["CLUSTER_BORDER"] = "Important Debuffs",
 		["THREAT_MARK"] = "",
-		["MANA_BAR"] = "Manabars: All Powers",
 		["BAR_BORDER"] = "",
 		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Manabars: All Powers",
 		["HEALTH_BAR"] = "Health (generic, solid)",
-		["CLUSTER_BORDER"] = "Important Debuffs",
-		["SWIFTMEND_INDICATOR"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
 	},
 	["CUSTOM"] = {
 		["THREAT_BAR"] = {

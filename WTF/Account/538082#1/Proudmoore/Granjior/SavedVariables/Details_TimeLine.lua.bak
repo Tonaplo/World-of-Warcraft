@@ -1,32 +1,14 @@
 
 DetailsTimeLineDB = {
-	["combat_data"] = {
-		{
-			["date_start"] = "12:29:25",
-			["date_end"] = "12:33:11",
-			["name"] = "Helya",
-			["total_time"] = 226.089,
-		}, -- [1]
-		{
-			["date_start"] = "12:24:27",
-			["date_end"] = "12:26:25",
-			["name"] = "Harbaron",
-			["total_time"] = 117.625,
-		}, -- [2]
-		{
-			["date_start"] = "12:19:32",
-			["date_end"] = "12:21:01",
-			["name"] = "Ymiron, the Fallen King",
-			["total_time"] = 88.9139999999989,
-		}, -- [3]
-		{
-			["date_start"] = "00:03:50",
-			["date_end"] = "00:11:55",
-			["name"] = "Fury of the God Queen",
-			["total_time"] = 485.000999999998,
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["max_segments"] = 4,
+	["hide_on_combat"] = false,
+	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
 		{
 			["Kalithumos-Tichondrius"] = {
@@ -111,13 +93,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
-	["hide_on_combat"] = false,
 	["debuff_timeline"] = {
 		{
 			["Kahoots-Tichondrius"] = {
@@ -376,6 +351,32 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
+	["combat_data"] = {
+		{
+			["date_start"] = "12:29:25",
+			["date_end"] = "12:33:11",
+			["name"] = "Helya",
+			["total_time"] = 226.089,
+		}, -- [1]
+		{
+			["date_start"] = "12:24:27",
+			["date_end"] = "12:26:25",
+			["name"] = "Harbaron",
+			["total_time"] = 117.625,
+		}, -- [2]
+		{
+			["date_start"] = "12:19:32",
+			["date_end"] = "12:21:01",
+			["name"] = "Ymiron, the Fallen King",
+			["total_time"] = 88.9139999999989,
+		}, -- [3]
+		{
+			["date_start"] = "00:03:50",
+			["date_end"] = "00:11:55",
+			["name"] = "Fury of the God Queen",
+			["total_time"] = 485.000999999998,
+		}, -- [4]
+	},
 	["deaths_data"] = {
 		{
 			["Granjior"] = {
@@ -455,5 +456,4 @@ DetailsTimeLineDB = {
 		{
 		}, -- [4]
 	},
-	["window_scale"] = 1,
 }

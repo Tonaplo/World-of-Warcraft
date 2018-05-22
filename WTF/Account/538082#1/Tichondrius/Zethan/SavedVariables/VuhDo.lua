@@ -4422,11 +4422,11 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 258.085266113281,
-			["x"] = 917.944946289063,
+			["y"] = 37.5804176330566,
+			["x"] = -9.07740783691406,
 			["scale"] = 1,
-			["relativePoint"] = "BOTTOMLEFT",
-			["orientation"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOM",
+			["orientation"] = "BOTTOM",
 			["height"] = 205.000015258789,
 			["growth"] = "TOPLEFT",
 			["width"] = 77.9999694824219,
@@ -4440,7 +4440,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
 			["groups"] = {
 				1, -- [1]
 				2, -- [2]
@@ -4449,6 +4448,7 @@ VUHDO_PANEL_SETUP = {
 				5, -- [5]
 			},
 			["sort"] = 0,
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -4568,7 +4568,7 @@ VUHDO_PANEL_SETUP = {
 			["showTags"] = true,
 			["position"] = "BOTTOMRIGHT+BOTTOMRIGHT",
 			["yAdjust"] = 0,
-			["_spacing"] = 17.9999980926514,
+			["_spacing"] = 18,
 			["xAdjust"] = 0,
 			["showPetOwners"] = true,
 		},
@@ -7139,9 +7139,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7149,9 +7149,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7204,9 +7204,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7233,9 +7233,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7243,9 +7243,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7298,9 +7298,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7340,14 +7340,14 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Grizzly Hills",
+		["zone"] = "The Storm Peaks",
 		["baseRange"] = true,
 		["class"] = "WARLOCK",
 		["role"] = 62,
-		["sortMaxHp"] = 17612,
-		["map"] = "GrizzlyHills",
+		["sortMaxHp"] = 20026,
+		["map"] = "TheStormPeaks",
 		["threat"] = 0,
-		["powermax"] = 17600,
+		["powermax"] = 20300,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Zethan",
@@ -7358,20 +7358,53 @@ VUHDO_RAID = {
 		["range"] = true,
 		["unit"] = "player",
 		["powertype"] = 0,
-		["healthmax"] = 17612,
+		["healthmax"] = 20026,
 		["dead"] = false,
 		["charmed"] = false,
 		["fullName"] = "Zethan",
-		["power"] = 17600,
+		["power"] = 20300,
 		["aggro"] = false,
 		["visible"] = true,
 		["targetUnit"] = "target",
-		["health"] = 15215,
+		["health"] = 20026,
 		["className"] = "Warlock",
 		["afk"] = false,
 		["debuff"] = 0,
 		["connected"] = true,
 		["petUnit"] = "pet",
+	},
+	["pet"] = {
+		["number"] = 1,
+		["targetUnit"] = "pettarget",
+		["visible"] = true,
+		["isVehicle"] = false,
+		["group"] = 0,
+		["classId"] = 40,
+		["range"] = true,
+		["unit"] = "pet",
+		["zone"] = "The Storm Peaks",
+		["debuff"] = 0,
+		["healthmax"] = 6008,
+		["baseRange"] = true,
+		["afk"] = false,
+		["sortMaxHp"] = 6008,
+		["class"] = "WARLOCK",
+		["dead"] = false,
+		["map"] = "TheStormPeaks",
+		["threat"] = 0,
+		["fullName"] = "Belpad",
+		["power"] = 200,
+		["aggro"] = false,
+		["powertype"] = 3,
+		["threatPerc"] = 0,
+		["isPet"] = true,
+		["charmed"] = false,
+		["name"] = "Belpad",
+		["className"] = "Belpad",
+		["powermax"] = 200,
+		["ownerUnit"] = "player",
+		["connected"] = true,
+		["health"] = 6008,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7380,8 +7413,8 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
-		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
+		["CLUSTER_BORDER"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -7394,13 +7427,13 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 		["THREAT_MARK"] = "",
-		["SIDE_RIGHT"] = "",
 		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
+		["SIDE_RIGHT"] = "",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["CLUSTER_BORDER"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["INCOMING_BAR"] = "",
 	},
 	["CUSTOM"] = {

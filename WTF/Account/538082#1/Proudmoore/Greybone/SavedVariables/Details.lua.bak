@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["combat_counter"] = 2019,
+	["combat_counter"] = 2023,
 	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
@@ -113,8 +113,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -188,6 +188,20 @@ _detalhes_database = {
 			["point"] = "TOPLEFT",
 			["enabled"] = true,
 			["arrow_size"] = 10,
+			["use_spark"] = false,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -20.15869140625,
+			["font_size"] = 14,
+			["x"] = 0,
+			["font_face"] = "Prototype",
 			["per_second"] = {
 				["enabled"] = true,
 				["point"] = "LEFT",
@@ -199,34 +213,20 @@ _detalhes_database = {
 				["update_speed"] = 0.304000020027161,
 				["attribute_type"] = 1,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-			},
 			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = false,
-			["y"] = -20.15869140625,
-			["x"] = 0,
-			["font_face"] = "Prototype",
-			["font_size"] = 14,
 			["row_color"] = {
 				0.101960784313725, -- [1]
 				0.101960784313725, -- [2]
 				0.101960784313725, -- [3]
 				0.400000035762787, -- [4]
 			},
-			["author"] = "Details! Team",
 			["main_frame_locked"] = true,
 			["arrow_anchor_y"] = 0,
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -237,14 +237,21 @@ _detalhes_database = {
 			},
 			["enabled"] = true,
 		},
-		["DETAILS_PLUGIN_TIME_LINE"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
 			["author"] = "Details! Team",
 			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
@@ -323,21 +330,10 @@ _detalhes_database = {
 				["window_scale"] = 1,
 			},
 		},
-		["DETAILS_PLUGIN_RAIDCHECK"] = {
+		["DETAILS_PLUGIN_TIME_LINE"] = {
 			["enabled"] = true,
-			["food_tier1"] = true,
-			["mythic_1_4"] = true,
-			["food_tier2"] = true,
 			["author"] = "Details! Team",
-			["use_report_panel"] = true,
-			["pre_pot_healers"] = false,
-			["pre_pot_tanks"] = false,
-			["food_tier3"] = true,
 		},
-	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
 	},
 	["benchmark_db"] = {
 		["frame"] = {
@@ -354,11 +350,15 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 1493,
 		["previous_boss_killed_at"] = 1520138871,
 	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["nick_tag_cache"] = {
 		["last_version"] = 10,
 		["nextreset"] = 1526845502,
 	},
-	["last_day"] = "05",
+	["last_day"] = "19",
 	["combat_id"] = 1442,
 	["savedStyles"] = {
 	},
@@ -367,7 +367,7 @@ _detalhes_database = {
 		["Mode"] = 1,
 	},
 	["character_data"] = {
-		["logons"] = 211,
+		["logons"] = 213,
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,

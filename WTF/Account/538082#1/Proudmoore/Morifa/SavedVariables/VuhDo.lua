@@ -3901,7 +3901,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Parasitic Growth"] = {
+			["219049"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -3915,7 +3915,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Locked On"] = {
+			["Parasitic Growth"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -4195,7 +4195,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["219049"] = {
+			["Locked On"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -4792,12 +4792,12 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 95.3061752319336,
-			["x"] = 950.519714355469,
+			["y"] = 93.3654556274414,
+			["x"] = 919.819946289063,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 60.9999961853027,
+			["height"] = 61,
 			["growth"] = "TOPLEFT",
 			["width"] = 77.9999694824219,
 		},
@@ -4810,7 +4810,6 @@ VUHDO_PANEL_SETUP = {
 		},
 		["frameStrata"] = "MEDIUM",
 		["MODEL"] = {
-			["ordering"] = 0,
 			["sort"] = 0,
 			["groups"] = {
 				1, -- [1]
@@ -4819,6 +4818,7 @@ VUHDO_PANEL_SETUP = {
 				4, -- [4]
 				5, -- [5]
 			},
+			["ordering"] = 0,
 			["isReverse"] = false,
 		},
 		["TOOLTIP"] = {
@@ -7672,9 +7672,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7682,9 +7682,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7737,9 +7737,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7766,9 +7766,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w10", -- [2]
 			"", -- [3]
 		},
-		["shift1"] = {
-			"SHIFT-", -- [1]
-			"-w7", -- [2]
+		["ctrlshift2"] = {
+			"CTRL-SHIFT-", -- [1]
+			"-w14", -- [2]
 			"", -- [3]
 		},
 		["2"] = {
@@ -7776,9 +7776,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w2", -- [2]
 			"", -- [3]
 		},
-		["ctrl2"] = {
-			"CTRL-", -- [1]
-			"-w6", -- [2]
+		["shift1"] = {
+			"SHIFT-", -- [1]
+			"-w7", -- [2]
 			"", -- [3]
 		},
 		["shift2"] = {
@@ -7831,9 +7831,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w5", -- [2]
 			"", -- [3]
 		},
-		["ctrlshift2"] = {
-			"CTRL-SHIFT-", -- [1]
-			"-w14", -- [2]
+		["ctrl2"] = {
+			"CTRL-", -- [1]
+			"-w6", -- [2]
 			"", -- [3]
 		},
 	},
@@ -7876,38 +7876,38 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_GROUP_SIZE = 1
 VUHDO_RAID = {
 	["player"] = {
-		["zone"] = "Dalaran",
+		["zone"] = "Hall of the Guardian",
 		["baseRange"] = true,
 		["class"] = "MAGE",
 		["role"] = 62,
-		["sortMaxHp"] = 5235120,
-		["map"] = "Dalaran70",
+		["sortMaxHp"] = 5315040,
+		["map"] = "MageClassShrine",
 		["threat"] = 0,
 		["powermax"] = 1100000,
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["name"] = "Morifa",
 		["number"] = 1,
-		["isVehicle"] = false,
+		["targetUnit"] = "target",
 		["group"] = 1,
 		["classId"] = 24,
 		["range"] = true,
 		["unit"] = "player",
-		["powertype"] = 0,
-		["healthmax"] = 5235120,
+		["debuff"] = 0,
+		["healthmax"] = 5315040,
 		["dead"] = false,
-		["charmed"] = false,
+		["connected"] = true,
 		["fullName"] = "Morifa",
 		["power"] = 1100000,
 		["aggro"] = false,
 		["visible"] = true,
-		["targetUnit"] = "target",
-		["health"] = 5235120,
+		["isVehicle"] = false,
+		["health"] = 5315040,
 		["className"] = "Mage",
 		["afk"] = false,
-		["debuff"] = 0,
-		["connected"] = true,
+		["powertype"] = 0,
 		["petUnit"] = "pet",
+		["charmed"] = false,
 	},
 }
 VUHDO_INDICATOR_CONFIG = {
@@ -7916,8 +7916,8 @@ VUHDO_INDICATOR_CONFIG = {
 		["MOUSEOVER_HIGHLIGHT"] = "",
 		["AGGRO_BAR"] = "",
 		["BACKGROUND_BAR"] = "Background: Solid",
-		["SWIFTMEND_INDICATOR"] = "Role Icon",
-		["DAMAGE_FLASH_BAR"] = "",
+		["SIDE_LEFT"] = "",
+		["CLUSTER_BORDER"] = "",
 		["HEALTH_BAR_PANEL"] = {
 			"", -- [1]
 			"", -- [2]
@@ -7930,13 +7930,13 @@ VUHDO_INDICATOR_CONFIG = {
 			"", -- [9]
 			"", -- [10]
 		},
-		["SIDE_LEFT"] = "",
+		["SWIFTMEND_INDICATOR"] = "Role Icon",
 		["THREAT_MARK"] = "",
-		["MANA_BAR"] = "Manabars: Mana only",
 		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SIDE_RIGHT"] = "",
+		["MANA_BAR"] = "Manabars: Mana only",
 		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
-		["CLUSTER_BORDER"] = "",
+		["DAMAGE_FLASH_BAR"] = "",
 		["INCOMING_BAR"] = "",
 	},
 	["CUSTOM"] = {
